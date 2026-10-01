@@ -1,0 +1,13 @@
+name: open_finance_chile
+preferred_sources: [CMF, Banco Central de Chile, official government, financial institutions, fintechs, API/developer documentation]
+criteria:
+  - regulatory feasibility
+  - API/data accessibility
+  - compliance burden
+  - infrastructure maturity
+  - adoption/timing
+  - economic value capture
+fatal_conditions:
+  - required data/API access is not legally or technically available
+  - compliance burden is incompatible with plausible value capture
+  - supposed regulatory change is unverified or misread

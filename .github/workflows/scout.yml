@@ -1,0 +1,61 @@
+name: Scout V0
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: cycle | report | calibrate
+        required: true
+        default: cycle
+  schedule:
+    - cron: '17 */4 * * *'   # discovery cycle every ~4h
+    - cron: '0 11 * * *'    # ~08:00 Chile while UTC-3
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scout-v0-state
+  cancel-in-progress: false
+
+jobs:
+  scout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -e '.[dev]'
+      - run: pytest -q
+      - name: Select mode
+        id: mode
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "mode=${{ inputs.mode }}" >> "$GITHUB_OUTPUT"
+          elif [ "$(date -u +%H)" = "11" ]; then
+            echo "mode=report" >> "$GITHUB_OUTPUT"
+          else
+            echo "mode=cycle" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Run Scout
+        run: python -m scout.cli "${{ steps.mode.outputs.mode }}"
+      - name: Persist state and reports
+        shell: bash
+        run: |
+          git config user.name "scout-v0[bot]"
+          git config user.email "scout-v0[bot]@users.noreply.github.com"
+          git add state reports
+          if git diff --cached --quiet; then
+            echo "No state changes"
+            exit 0
+          fi
+          git commit -m "chore: persist Scout V0 state"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin HEAD:"${GITHUB_REF_NAME}"
