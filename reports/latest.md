@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-02T18:21:51.292780+00:00
+Generated: 2026-10-02T19:29:28.870382+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['wildcard', 'geographic_arbitrage', 'ai_open_source']
+- lenses: ['public_markets', 'physical_commerce', 'regulation_infrastructure']
 - raw_candidates: 3
 - parseable_candidates: 3
 - normalized_candidates: 3
 - normalization_rejected: 0
-- grounded_sources: 6
+- grounded_sources: 5
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
 - critic_reviews: 1
 - judge_reviews: 1
 - survivors: 0
-- watches: 2
-- rejected: 1
+- watches: 0
+- rejected: 2
 - errors_by_stage: {}
-- rejection_reasons: {}
-- cost_usd: 0.04233945
+- rejection_reasons: {'insufficient_unique_evidence': 1}
+- cost_usd: 0.0425435
 - cost_uncertain: False
-- budget_remaining_usd: 0.03766055
+- budget_remaining_usd: 0.0374565
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -37,49 +37,36 @@ No survivors. Scout does not manufacture a daily winner.
 ## Sanitized diagnostics
 ```json
 {
-  "notes": [],
+  "notes": [
+    "review_cap_not_persisted=1"
+  ],
   "stages": [
     {
       "stage": "discovery",
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 34,
+      "grounded_source_count": 19,
       "search_source_urls": [
-        "https://arxiv.org/abs/1601.01804",
-        "https://arxiv.org/abs/2407.02003",
-        "https://arxiv.org/abs/2602.12144",
-        "https://arxiv.org/abs/2606.24429",
-        "https://cmfchile.cl/portal/principal/613/articles-102557_recurso_1.pdf",
-        "https://cmfchile.cl/portal/principal/613/w3-article-92556.html",
-        "https://cmfchile.cl/portal/principal/623/w4-propertyvalue-26178.html",
-        "https://desapublications.un.org/file/21554/download",
-        "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099040726171531340",
-        "https://documents1.worldbank.org/curated/en/099040726171531340/pdf/P514911-9105323f-4772-4a73-a4a3-9eecb1b304e1.pdf",
-        "https://en.wikipedia.org/wiki/CrewAI",
-        "https://en.wikipedia.org/wiki/OpenClaw",
-        "https://en.wikipedia.org/wiki/Open_finance",
-        "https://en.wikipedia.org/wiki/Z.ai",
-        "https://es.wikipedia.org/wiki/Comisi%C3%B3n_para_el_Mercado_Financiero",
-        "https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_financiera",
-        "https://openai.com/index/introducing-the-agents-api/",
-        "https://repositorio.cepal.org/entities/publication/19459db9-7252-425c-8622-9e320ff7168a",
-        "https://repositorio.cepal.org/entities/publication/bedafff8-b8f0-4329-9548-5fad50e2a385",
-        "https://thedocs.worldbank.org/en/doc/7ce50b5aa95bef66048680bba9926ec8-0050012026/related/GEP-Jan-2026-Analysis-LAC.pdf",
-        "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-        "https://www.axios.com/2026/06/22/open-source-ai-china-cost-risk-glm-deepseek",
-        "https://www.bcentral.cl/documents/33528/7849961/Financial%2BStability%2BReport%2BSecond%2BHalf%2B2025.pdf/83c6bb57-4793-0438-3959-bfd68fea216f?t=1765546573527",
-        "https://www.bcentral.cl/en/web/banco-central/content/-/detalle/resumen-informe-de-sistemas-de-pago-2026",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.elibrary.imf.org/view/journals/002/2026/169/article-A001-en.xml",
-        "https://www.reddit.com/r/AI_Agents/comments/1vptx1t/ai_agents_are_eating_my_api_budget_alive_how_are/",
-        "https://www.reddit.com/r/Mexico_News/comments/1ufoe4y/los_capitales/",
-        "https://www.reddit.com/r/OpenaiCodex/comments/1wko26r/ok_we_reached_that_ai_cost_is_now_above_developer/",
-        "https://www.reddit.com/r/mexico_politics/comments/1ufoe4l/los_capitales/",
-        "https://www.reddit.com/r/oil/comments/1tk8tsp/the_oil_crisis_is_quietly_dismantling_latin/",
-        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000108/MNCjune2026signed.pdf",
-        "https://www.worldbank.org/en/region/lac/publication/perspectivas-economicas-america-latina-caribe"
+        "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Grocery+Private+Label+Food+Business+in+China_Guangzhou+ATO_China+-+People%27s+Republic+of_CH2026-0078.pdf",
+        "https://arxiv.org/abs/2603.20533",
+        "https://cdn.cboe.com/resources/regulation/rule_filings/approved/2026/SR-CBOE-2026-022.pdf",
+        "https://dataweb.usitc.gov/?f=beta",
+        "https://dataweb.usitc.gov/trade/search/GenImp/HTS",
+        "https://public-inspection.federalregister.gov/2026-08468.pdf",
+        "https://usatrade.census.gov/trade_client/",
+        "https://www.api.org/",
+        "https://www.api.org/-/media/Files/misc/2026/EnergyAgenda_2026.pdf",
+        "https://www.bea.gov/data/intl-trade-investment/international-trade-goods-and-services",
+        "https://www.census.gov/econ/indicators/index.html",
+        "https://www.eia.gov/dnav/pet/pet_move_impcus_a1_z00_epp0_im0_mbbl_m.htm",
+        "https://www.imf.org/-/media/files/publications/tnm/2026/english/tnmea2026006-s001.pdf",
+        "https://www.nist.gov/news-events/news/2026/05/guidelines-secure-deployment-restful-web-apis-draft-sp-800-228a-available",
+        "https://www.reginfo.gov/public/do/eAgendaViewRule?RIN=0610-AA79&pubId=202504",
+        "https://www.sec.gov/Archives/edgar/data/1058623/000105862326000029/cmls-20260331.htm",
+        "https://www.sec.gov/Archives/edgar/data/1467623/000146762326000022/a2026asmproxyandannualrepo.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1505952/000110465926094949/tm2621515-1_prem14c.htm",
+        "https://www.test.census.gov/data/developers/data-sets/international-trade.html"
       ]
     },
     {
@@ -92,9 +79,10 @@ No survivors. Scout does not manufacture a daily winner.
         "major_risks:list_sanitized",
         "unknowns:list_sanitized",
         "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
+        "material_update:unknown_false",
+        "evidence:duplicate_removed"
       ],
-      "grounded_sources": 2,
+      "grounded_sources": 1,
       "retry_justified": false
     },
     {
@@ -129,45 +117,41 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_9a1f312ba567a0934602",
+      "candidate_id": "opp_cc7055201745c5bf045e",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 24,
+      "grounded_source_count": 20,
       "search_source_urls": [
-        "https://cmfchile.cl/portal/principal/613/articles-86367_doc_pdf.pdf",
-        "https://cmfchile.cl/portal/principal/613/w3-article-76612.html",
-        "https://en.wikipedia.org/wiki/Ministry_of_Finance_%28Chile%29",
-        "https://en.wikipedia.org/wiki/Open_banking",
-        "https://en.wikipedia.org/wiki/Open_finance",
-        "https://es.wikipedia.org/wiki/Comisi%C3%B3n_para_el_Mercado_Financiero",
-        "https://es.wikipedia.org/wiki/Superintendencia_de_Bancos_e_Instituciones_Financieras_de_Chile",
-        "https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_financiera",
-        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA",
-        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/393216343/Directorio%2BCMF",
-        "https://www.cmfchile.cl/portal/prensa/615/articles-100979_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
-        "https://www.cmfchile.cl/portal/principal/613/articles-100816_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/articles-82778_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/articles-92466_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-108561.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-80854.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-92466.html",
-        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000098/managementcommentary2q20.htm",
-        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000108/MNCjune2026signed.pdf"
+        "https://cdn.cboe.com/resources/regulation/rule_filings/approved/2026/SR-CBOE-2026-039.pdf",
+        "https://datashop.cboe.com/documentation",
+        "https://ltnr.ca/morty/?mortyurl=https%3A%2F%2Fwww.federalregister.gov%2Fdocuments%2F2026%2F03%2F11%2F2026-04709%2Fself-regulatory-organizations-cboe-exchange-inc-notice-of-filing-and-immediate-effectiveness-of-a",
+        "https://ltnr.ca/morty/?mortyurl=https%3A%2F%2Fwww.federalregister.gov%2Fdocuments%2F2026%2F05%2F01%2F2026-08468%2Fself-regulatory-organizations-cboe-exchange-inc-notice-of-filing-and-immediate-effectiveness-of-a",
+        "https://policyrisk.com/federal-register/2026-04709",
+        "https://policyrisk.com/research/federal-register/2025-13724",
+        "https://public-inspection.federalregister.gov/2017-25144.pdf?1511185543=",
+        "https://public-inspection.federalregister.gov/2025-22726.pdf",
+        "https://regulations.justia.com/regulations/fedreg/2026/03/11/2026-04709.html",
+        "https://www.cboe.com/services/analytics/notices/cboe-silexx-notices/",
+        "https://www.reddit.com/r/algotrading/comments/1om8f9w/best_api_trying_polygonmassive_now/",
+        "https://www.reddit.com/r/codex/comments/1wt9w9j/is_there_any_conceivable_way_they_could_actually/",
+        "https://www.reddit.com/r/maxjustrisk/comments/11l3361",
+        "https://www.sec.gov/comments/sr-cboe-2026-022/notice-filing-immediate-effectiveness-proposed-rule-change-replace-existing-flat-monthly-fee-silexx",
+        "https://www.sec.gov/file/34-104939-ex5",
+        "https://www.sec.gov/files/rules/sro/cboe/2026/34-105322.pdf",
+        "https://www.sec.gov/rules-regulations/self-regulatory-organization-rulemaking/national-securities-exchanges?file_number=&month=All&order=field_publish_date&page=220&release_number=&sort=asc&sro_organization=All&year=All",
+        "https://www.sec.gov/rules-regulations/self-regulatory-organization-rulemaking/national-securities-exchanges?file_number=&order=field_publish_date&page=6&release_number=&sort=desc&sro_organization=192751",
+        "https://www.sec.gov/rules-regulations/self-regulatory-organization-rulemaking/sr-cboe-2026-039",
+        "https://www.sec.gov/taxonomy/term/193086?order=field_publish_date&page=286&sort=asc"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_9a1f312ba567a0934602",
+      "candidate_id": "opp_cc7055201745c5bf045e",
       "coercions": []
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_9a1f312ba567a0934602",
+      "candidate_id": "opp_cc7055201745c5bf045e",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -175,7 +159,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_9a1f312ba567a0934602",
+      "candidate_id": "opp_cc7055201745c5bf045e",
       "coercions": []
     }
   ],
@@ -183,44 +167,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 111,
-      "cache_write_tokens": 4566,
+      "reasoning_tokens": 216,
+      "cache_write_tokens": 4556,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0144685,
+      "cumulative_cost_usd": 0.014499,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13041,
+      "input_tokens": 13016,
       "cached_tokens": 0,
-      "output_tokens": 1360,
+      "output_tokens": 1390,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0144685
+      "estimated_cost_usd": 0.014499
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 195,
-      "cache_write_tokens": 5091,
+      "reasoning_tokens": 186,
+      "cache_write_tokens": 5056,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02903845,
+      "cumulative_cost_usd": 0.029019,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13435,
+      "input_tokens": 13434,
       "cached_tokens": 0,
-      "output_tokens": 1357,
+      "output_tokens": 1317,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01456995
+      "estimated_cost_usd": 0.01452
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 226,
-      "cache_write_tokens": 2078,
+      "reasoning_tokens": 136,
+      "cache_write_tokens": 2801,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.04233945,
+      "cumulative_cost_usd": 0.0425435,
       "model": "gpt-5.6-terra",
-      "input_tokens": 2081,
+      "input_tokens": 2804,
       "cached_tokens": 0,
-      "output_tokens": 675,
+      "output_tokens": 543,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.013301
+      "estimated_cost_usd": 0.0135245
     }
   ]
 }
