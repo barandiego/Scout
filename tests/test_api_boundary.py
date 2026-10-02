@@ -17,7 +17,7 @@ JUDGE = {'status': 'survived', 'vertical_fatal': False,
          'decision_reason': 'Evidence supports HQ review.', 'judgment_confidence': .7,
          'major_risks': [], 'unknowns': []}
 
-def response_body(request, text, *, status='completed', sources=SOURCES):
+def response_body(request, text, *, status='completed', sources=SOURCES, incomplete_reason=None):
     output = []
     if 'tools' in request:
         output.append({'id': 'ws_test', 'type': 'web_search_call', 'status': 'completed',
@@ -28,6 +28,7 @@ def response_body(request, text, *, status='completed', sources=SOURCES):
                        {'type': 'output_text', 'text': text, 'annotations': []}]})
     return {'id': 'resp_test', 'object': 'response', 'created_at': 1,
             'model': request['model'], 'status': status, 'output': output,
+            'incomplete_details': ({'reason': incomplete_reason or 'max_output_tokens'} if status == 'incomplete' else None),
             'usage': {'input_tokens': 100, 'output_tokens': 50, 'total_tokens': 150,
                       'input_tokens_details': {'cached_tokens': 20},
                       'output_tokens_details': {'reasoning_tokens': 0}}}
@@ -77,10 +78,10 @@ def test_full_cycle_through_real_sdk(tmp_path, monkeypatch):
         assert_contract(req)
         if 'Scout Discovery' in req['instructions']:
             data = {'candidates': [copy.deepcopy(DISCOVERY)]}
-            assert req['max_output_tokens'] == 2600
+            assert req['max_output_tokens'] == 4000
         elif 'adversarial' in req['instructions']:
             data = CRITIC
-            assert req['max_output_tokens'] == 1800
+            assert req['max_output_tokens'] == 2800
         else:
             data = JUDGE
             assert req['model'] == 'gpt-5.6-terra'
@@ -124,7 +125,10 @@ def test_failed_response_retains_usage(tmp_path, monkeypatch, text, status, sour
     assert rec.cost_usd == pytest.approx(.010076)
     assert pipeline.daily_cost_so_far() == rec.cost_usd
     assert pipeline.read_jsonl(tmp_path/'state'/'runs.jsonl')[-1]['cost_usd'] == rec.cost_usd
-    assert 'discovery_error:AIResponseError' in (tmp_path/'reports'/'latest.md').read_text()
+    report=(tmp_path/'reports'/'latest.md').read_text()
+    assert 'discovery_error:AIResponseError' in report
+    if status == 'incomplete':
+        assert 'reason=max_output_tokens' in report
 
 @pytest.mark.parametrize('stage,bad', [
     ('discovery', {}),
