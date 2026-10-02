@@ -1,6 +1,6 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-02T00:40:59.546735+00:00
+Generated: 2026-10-02T01:52:26.955586+00:00
 
 - Run OK: False
 - Discovery batches: 0
@@ -12,7 +12,7 @@ Generated: 2026-10-02T00:40:59.546735+00:00
 - New watches: 0
 - Rejected: 0
 - Errors: 1
-- Run cost estimate: $0.0000
+- Run cost estimate: $0.0157
 
 ## Survivors
 No survivors. Scout does not manufacture a daily winner.
@@ -20,5 +20,5 @@ No survivors. Scout does not manufacture a daily winner.
 None.
 
 ## Run notes
-- discovery_error:BadRequestError:Error code: 400 - {'error': {'message': 'Web Search cannot be used with JSON mode.', 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}
-- lenses=physical_commerce,regulation_infrastructure,robotics_automation
+- discovery_error:AIResponseError:OpenAI response status=incomplete
+- lenses=energy_industrial,mining_materials,tokenization_finance
