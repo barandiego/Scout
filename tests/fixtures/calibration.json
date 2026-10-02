@@ -1,61 +1,7 @@
-{
-  "cases": [
-    {
-      "name": "Auzmendi-shaped evidence-led opportunity",
-      "expected_hard_gate_pass": true,
-      "expected_vertical": "geographic_arbitrage",
-      "candidate": {
-        "name": "RTD yerba mate Chile localization", "type": "geographic_arbitrage", "vertical": "geographic_arbitrage", "geography": "Chile",
-        "signal": "Foreign RTD mate category has proven products while local availability is sparse.", "what_changed": "Category evidence and local scarcity create a testable localization gap.", "why_now": "Small-batch validation is possible before major capital commitment.",
-        "thesis": "A locally adapted RTD mate may capture part of an underdeveloped category.", "value_capture_mechanism": "Import or develop product and earn gross margin through retail/e-commerce distribution.",
-        "evidence": [{"title":"Foreign producer","url":"https://example.com/producer","source_type":"primary","claim":"commercial product exists"},{"title":"Retail check","url":"https://example.com/retail","source_type":"independent","claim":"local availability evidence"}],
-        "evidence_confidence": 0.7, "capital_required":"medium", "major_risks":["manufacturing","demand"], "unknowns":["unit economics"], "falsification_conditions":["strong local competition"],
-        "real":true,"actionable":true,"participation_path":"Validate demand, then import or contract manufacture."
-      }
-    },
-    {
-      "name": "Aclara-shaped public markets opportunity",
-      "expected_hard_gate_pass": true,
-      "expected_vertical": "public_markets",
-      "candidate": {
-        "name":"Aclara Resources financing/permitting thesis","type":"public_equity","vertical":"public_markets","geography":"Canada/Brazil/Chile/US",
-        "signal":"Feasibility-stage HREE assets plus financing and permitting catalysts.","what_changed":"Project studies and strategic financing pathways create a researchable valuation question.","why_now":"Financing, dilution and permitting can materially change per-share risked value.",
-        "thesis":"A real strategic asset may reprice if financing risk falls, but valuation must incorporate dilution and execution.","value_capture_mechanism":"Potential public-market repricing after evidence-backed de-risking; requires HQ/RADAR research, never automatic purchase.",
-        "evidence":[{"title":"Company filing","url":"https://example.com/aclara-filing","source_type":"primary","claim":"project/financing disclosure"},{"title":"Independent report","url":"https://example.com/aclara-independent","source_type":"independent","claim":"market/transaction context"}],
-        "evidence_confidence":0.75,"major_risks":["dilution","commodity prices","scale-up"],"unknowns":["committed financing"],"falsification_conditions":["economics deteriorate materially"],
-        "real":true,"actionable":true,"participation_path":"Public security can be researched now and considered later through an appropriate brokerage after HQ decision."
-      }
-    },
-    {
-      "name": "Open Finance Chile structural opportunity",
-      "expected_hard_gate_pass": true,
-      "expected_vertical": "open_finance_chile",
-      "candidate": {
-        "name":"Chile Open Finance infrastructure opportunity","type":"regulatory_infrastructure","vertical":"open_finance_chile","geography":"Chile",
-        "signal":"Verified regulatory and infrastructure transition toward open financial data/API access.","what_changed":"New rules and implementation milestones alter data accessibility and competitive structure.","why_now":"Infrastructure is developing before all winning applications/business models are obvious.",
-        "thesis":"Changes may create new data, workflow and distribution opportunities that deserve specialist research.","value_capture_mechanism":"Build or own a product/data/business layer that captures value from newly accessible financial infrastructure once a specific validated model is found.",
-        "evidence":[{"title":"CMF","url":"https://example.com/cmf","source_type":"primary","claim":"regulatory framework"},{"title":"Bank/industry evidence","url":"https://example.com/industry","source_type":"independent","claim":"implementation/adoption context"}],
-        "evidence_confidence":0.8,"major_risks":["compliance","timing"],"unknowns":["best business model"],"falsification_conditions":["API access proves uneconomic"],
-        "real":true,"actionable":true,"participation_path":"Research the specialist vertical and validate concrete business models before allocating capital."
-      }
-    },
-    {
-      "name": "Generic unsupported AI wrapper",
-      "expected_hard_gate_pass": false,
-      "expected_vertical": "general",
-      "candidate": {
-        "name":"Generic AI email wrapper","type":"generic_saas","vertical":"general","geography":"global","signal":"LLMs exist","what_changed":"none","why_now":"AI is popular","thesis":"Sell an email wrapper.","value_capture_mechanism":"subscription maybe",
-        "evidence":[{"title":"Model site","url":"https://example.com/model","source_type":"primary","claim":"LLM exists"}],"evidence_confidence":0.3,"real":true,"actionable":true,"participation_path":"Build software."
-      }
-    },
-    {
-      "name": "Fake unsupported hypothesis",
-      "expected_hard_gate_pass": false,
-      "expected_vertical": "general",
-      "candidate": {
-        "name":"Imaginary Chile fusion battery monopoly","type":"energy","vertical":"general","geography":"Chile","signal":"rumor","what_changed":"unknown","why_now":"unknown","thesis":"Maybe valuable.","value_capture_mechanism":"",
-        "evidence":[],"evidence_confidence":0.1,"real":false,"actionable":false,"participation_path":""
-      }
-    }
-  ]
-}
+{"cases":[
+{"name":"Auzmendi-shaped","expected_hard_gate_pass":true,"expected_vertical":"geographic_arbitrage","candidate":{"name":"RTD yerba mate Chile localization","type":"geographic_arbitrage","vertical":"geographic_arbitrage","geography":"Chile","signal":"foreign category demand and sparse local supply","what_changed":"evidence shows a localization gap","why_now":"small test is possible","thesis":"A local RTD mate may capture an underdeveloped category.","value_capture_mechanism":"Import or develop product and earn gross margin through retail or ecommerce distribution.","evidence":[{"title":"Producer","url":"https://producer.example/a","source_type":"primary","claim":"product exists"},{"title":"Retail","url":"https://retail.example/b","source_type":"independent","claim":"availability gap"}],"evidence_confidence":0.7,"real":true,"actionable":true,"participation_path":"Validate demand then import or contract manufacture."}},
+{"name":"Aclara-shaped","expected_hard_gate_pass":true,"expected_vertical":"public_markets","candidate":{"name":"Aclara financing thesis","type":"public_equity","vertical":"public_markets","geography":"Canada","signal":"financing and permitting catalysts","what_changed":"new project evidence","why_now":"financing can change dilution risk","thesis":"A strategic asset may reprice if financing risk falls.","value_capture_mechanism":"Potential public-market repricing after evidence-backed de-risking, subject to HQ research.","evidence":[{"title":"Filing","url":"https://issuer.example/a","source_type":"primary","claim":"project disclosure"},{"title":"Independent","url":"https://news.example/b","source_type":"independent","claim":"market context"}],"evidence_confidence":0.75,"real":true,"actionable":true,"participation_path":"Research the security now and consider later only after HQ decision."}},
+{"name":"Open Finance Chile","expected_hard_gate_pass":true,"expected_vertical":"open_finance_chile","candidate":{"name":"Chile Open Finance infrastructure","type":"regulatory_infrastructure","vertical":"open_finance_chile","geography":"Chile","signal":"verified regulatory change","what_changed":"rules alter data access","why_now":"implementation is underway","thesis":"Infrastructure change may create data and workflow opportunities.","value_capture_mechanism":"Build or own a product or data layer that captures value from newly accessible financial infrastructure.","evidence":[{"title":"CMF","url":"https://cmf.example/a","source_type":"primary","claim":"regulation"},{"title":"Industry","url":"https://bank.example/b","source_type":"independent","claim":"implementation"}],"evidence_confidence":0.8,"real":true,"actionable":true,"participation_path":"Research specialist opportunities before allocating capital."}},
+{"name":"Generic AI wrapper","expected_hard_gate_pass":false,"expected_vertical":"general","candidate":{"name":"Generic AI email wrapper","type":"generic_saas","vertical":"general","geography":"global","signal":"LLMs exist","what_changed":"none","why_now":"AI is popular","thesis":"Sell a wrapper.","value_capture_mechanism":"subscription maybe","evidence":[{"title":"Model","url":"https://model.example/a","source_type":"primary","claim":"LLM exists"}],"evidence_confidence":0.3,"real":true,"actionable":true,"participation_path":"Build software."}},
+{"name":"Fake hypothesis","expected_hard_gate_pass":false,"expected_vertical":"general","candidate":{"name":"Imaginary monopoly","type":"energy","vertical":"general","geography":"Chile","signal":"rumor","what_changed":"unknown","why_now":"unknown","thesis":"Maybe valuable.","value_capture_mechanism":"","evidence":[],"evidence_confidence":0.1,"real":false,"actionable":false,"participation_path":""}}
+]}

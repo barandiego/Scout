@@ -1,15 +1,5 @@
 name: public_markets
 preferred_sources: [company filings, exchange filings, regulators, technical reports, government data, reputable independent reporting]
-criteria:
-  - valuation versus realistic risked value
-  - balance sheet and liquidity
-  - financing and dilution
-  - catalysts and market expectations
-  - technical/project economics where relevant
-  - commodity/macroeconomic sensitivity where relevant
-fatal_conditions:
-  - thesis relies mainly on promotional company claims
-  - inaccessible or impractically illiquid security for plausible future participation
-  - financing/dilution can plausibly absorb claimed upside and is ignored
-  - catalyst already fully occurred and thesis is stale
+criteria: [valuation versus realistic risked value, balance sheet and liquidity, financing and dilution, catalysts and market expectations, technical/project economics where relevant, commodity/macroeconomic sensitivity where relevant]
+fatal_conditions: [thesis relies mainly on promotional company claims, inaccessible or impractically illiquid security, financing/dilution can plausibly absorb claimed upside and is ignored, catalyst already occurred and thesis is stale]
 notes: Survivor means research-worthy, never auto-buy.

@@ -1,79 +1,33 @@
 # SCOUT V0 — Authoritative Build Specification
 
 ## Mission
-Scout V0 is an autonomous, evidence-first economic opportunity intelligence system. It continuously converts observed signals into opportunity hypotheses, challenges them, and persists/report only what survives. Output volume is determined by reality: 0..N survivors.
+Autonomous evidence-first opportunity intelligence. Output is determined by reality: 0..N survivors.
 
-Core lifecycle:
-`DISCOVER -> NORMALIZE -> HARD GATES -> DEDUPE -> ADVERSARIAL CRITIC -> VERTICAL JUDGMENT -> SURVIVE / WATCH / REJECT -> STORE -> REPORT`
+`DISCOVER -> NORMALIZE/GROUND -> HARD GATES -> DEDUPE -> ADVERSARIAL CRITIC -> VERTICAL JUDGMENT -> SURVIVE/WATCH/REJECT -> STORE -> REPORT`
 
-## Scope
-V0 may search, read, generate hypotheses, criticize, judge, store/update records, deduplicate, track cost, and report. V0 may not trade, buy, spend business capital, contact suppliers, send external communications, create companies/stores, deploy commercial products, or create/modify Pocket/Forge projects.
-
-## Statuses
-- `candidate`: normalized but not fully judged.
-- `rejected`: failed hard gate, critic, or vertical judgment.
-- `watch`: plausible but blocked by missing evidence/timing.
-- `survived`: clears the absolute survival bar and merits HQ review.
-- `escalate_to_radar`: HQ-only downstream decision; V0 never sets this automatically.
+## Boundaries
+V0 may search, read, hypothesize, criticize, judge, store/update records, deduplicate, meter cost and report. It may not trade, buy, spend business capital, contact suppliers/third parties, create companies/stores, deploy commercial products, or create/modify Pocket/Forge projects.
 
 ## Hard gates
-A candidate cannot survive unless all are true:
-1. Real underlying entity/change/market.
-2. Credible evidence exists.
-3. Plausible economic value-capture mechanism exists.
-4. Opportunity remains actionable.
-5. Not a material duplicate of a stored opportunity.
-6. Diego has a realistic direct or future participation path.
-7. Adversarial critic finds no fatal contradiction.
-8. Vertical-specific fatal conditions pass.
+A survivor requires: real underlying entity/change; at least two distinct web-grounded sources; credible evidence class; plausible value capture; current actionability; non-duplication or material new evidence; realistic Diego participation path; no fatal critic contradiction; and no vertical fatal condition. Upside never compensates for a fatal failure.
 
-Hard gates are conjunctive. Upside never compensates for a fatal failure.
-
-## Opportunity Record
-Stable fields:
-- opportunity_id, discovered_at, last_updated
-- name, type, vertical, geography
-- signal, what_changed, why_now
-- thesis, value_capture_mechanism
-- evidence, primary_sources, independent_sources, contrary_evidence, evidence_confidence
-- capital_required, diego_hours_initial, diego_hours_ongoing, ai_leverage
-- time_horizon
-- major_risks, unknowns, falsification_conditions
-- critic_case
-- status, hq_decision, decision_reason
-- future_updates, eventual_outcome, lessons
+## Common record
+Stable fields cover identity/time, type/vertical/geography/lens, signal/change/why-now, thesis/value capture, evidence and contrary evidence, confidence, capital/Diego-hours/AI leverage, horizon, risks/unknowns/falsification, critic case, lifecycle/HQ decision, updates/outcome/lessons.
 
 ## Core / vertical split
-Core owns lifecycle, schemas, deterministic gates, dedupe, persistence, budgets, routing and reporting. Verticals are configuration: specialist sources, prompts, criteria and fatal conditions. Adding a vertical should not require core-code changes.
+Core owns lifecycle, schemas, grounding, deterministic gates, dedupe, persistence, budgets, routing and reporting. Verticals are configuration: specialist source preferences, criteria and fatal conditions. Current specialist configs: general, public markets, geographic arbitrage, Open Finance Chile.
 
 ## Runtime boundary
-`AIClient` is the only domain-facing interface to OpenAI. V0 uses Responses API + built-in web search. Python owns deterministic orchestration. This boundary must permit later replacement/augmentation by a persistent runtime such as Dots without changing state schemas or lifecycle.
+`AIClient` is the sole OpenAI boundary. V0 uses Responses API + built-in web search. Python owns deterministic control. This keeps V0 replaceable by a future persistent runtime without changing state/lifecycle.
 
-## Cost policy
-Every response records model, input tokens, cached tokens when available, output tokens, web-search calls, estimated API cost, run cumulative cost and daily cumulative cost. Hard ceilings stop further AI work safely. Breadth is cheap; critic/judgment are capped.
-
-Initial controls are deliberately conservative and configurable:
-- 3 discovery lenses per cycle, rotated across the lens set
-- max 6 normalized candidates per cycle
-- max 1 critic entrant per cycle
-- max 1 judge entrant per cycle
-- web-search tool calls capped per model response
-- initial internal ceiling: US$0.06 per cycle and US$0.25 per UTC day
-- OpenAI project monthly limit remains an independent second safety layer
+## Cost and safety
+Every model response records tokens, search calls and best-effort estimated cost. Search calls/output are capped. Initial guardrails: 3 lenses/cycle; <=6 normalized candidates; <=1 critic; <=1 judge; $0.08/cycle and $0.25/UTC-day. The OpenAI project monthly limit is a second, account-level backstop.
 
 ## Scheduling
-GitHub Actions:
-- discovery cycle every 4 hours
-- morning report at 08:00 America/Santiago (11:00 UTC while UTC-3)
-- manual workflow dispatch
-State and reports are committed back to the repository by the workflow.
+GitHub Actions runs discovery around every 4 hours, creates a morning report around 08:00 Chile under the current UTC-3 offset, and supports manual dispatch. Reports do not force a survivor.
 
-## Calibration acceptance
-Before ACTIVE, verify judgment on:
-- Auzmendi: plausible geographic-arbitrage opportunity; validation required; not auto-active.
-- Aclara Resources: route public markets; financing/dilution/technical execution are central; never auto-buy.
-- Open Finance Chile: structural/regulatory opportunity; route specialist vertical; business model uncertain.
-- Generic AI-wrapper SaaS: reject absent unusual evidence of demand/defensibility.
-- Deliberately fake/weak hypothesis: fail evidence/reality gates.
+## Reliability
+A separate CI workflow runs on code pushes/PRs without API secrets. It must pass install, compile, dependency check, unit/integration tests, config validation and calibration. Live cycles additionally run an API/model preflight before paid research and persist state/report even when a later stage fails.
 
-ACTIVE requires: automatic wake-up, research, structured candidates, gates, critic, vertical judgment, persistence, dedupe, budget compliance, variable 0..N survivors, and report generation.
+## Calibration
+Known examples: Auzmendi -> geographic-arbitrage validation; Aclara -> public-markets research, never auto-buy; Open Finance Chile -> specialist vertical; generic AI wrapper -> reject absent unusual evidence; fabricated hypothesis -> fail evidence gate. ACTIVE still requires a successful real cycle proving research, grounding, critic, judgment, persistence, dedupe, budget behavior and reporting.
