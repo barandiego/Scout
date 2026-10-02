@@ -1,6 +1,8 @@
 name: Scout V0
-run-name: Scout V0 — ${{ inputs.mode }}
+run-name: Scout V0 — ${{ inputs.mode || 'cycle' }}
 on:
+  schedule:
+    - cron: '0 */4 * * *'
   workflow_dispatch:
     inputs:
       mode:
@@ -35,7 +37,7 @@ jobs:
       - name: Select mode
         id: mode
         env:
-          SCOUT_MODE: ${{ inputs.mode }}
+          SCOUT_MODE: ${{ inputs.mode || 'cycle' }}
         shell: bash
         run: |
           case "$SCOUT_MODE" in cycle|report|calibrate) ;; *) exit 1 ;; esac
