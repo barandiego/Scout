@@ -106,7 +106,7 @@ are already included in output. Count returned web-call items conservatively; th
 is not exact billing. Optional absent cache-write count is zero. Invalid usage retains
 known counts, flags uncertainty and blocks further spending that UTC day.
 
-Current configured estimates: $0.08/cycle, $0.25/UTC-day, discovery/critic/judge
+Current configured estimates: $0.08/cycle, $0.50/UTC-day, discovery/critic/judge
 reserves $0.035/$0.030/$0.020, 3 candidates, 1 critic, 1 judge, 2 web calls per search
 stage. A stage can exceed its reserve; these are estimated admission controls, not
 provider-enforced billing ceilings. No account/billing setting is changed here.
@@ -129,7 +129,10 @@ Git push cannot be made durable by local atomic writes alone.
 
 ## Verification and activation
 
-Schedule remains **absent/disabled**. CI has no API secret and tests deny sockets.
-Install, compile, pip check, full pytest, config and all five calibrations must pass.
-The fake-provider harness and real-SDK/mock-HTTP suite are the regression defense.
-See AUDIT.md for evidence, limits and the separately authorized live-validation bar.
+**Scout V0 is ACTIVE as of 2 October 2026.** The production workflow schedules one
+cycle every 4 hours (`0 */4 * * *`, UTC); manual dispatch remains available. Scheduled
+runs default to `cycle`, while report/calibrate remain manual modes. CI has no API
+secret and tests deny sockets. Install, compile, pip check, full pytest, config and
+all five calibrations must pass. The fake-provider harness and real-SDK/mock-HTTP
+suite are the regression defense. See AUDIT.md for evidence, limits and the completed
+live-validation bar.
