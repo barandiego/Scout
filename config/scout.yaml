@@ -4,7 +4,7 @@ models:
   judge: gpt-5.6-terra
 budget:
   cycle_usd: 0.08
-  daily_usd: 0.25
+  daily_usd: 0.50
   reserve_discovery_usd: 0.035
   reserve_critic_usd: 0.030
   reserve_judge_usd: 0.020
