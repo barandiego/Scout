@@ -1,8 +1,26 @@
 from __future__ import annotations
 from typing import Literal
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, ConfigDict
 
 Status = Literal['candidate','rejected','watch','survived']
+
+class CriticDecision(BaseModel):
+    model_config=ConfigDict(strict=True)
+    fatal: bool
+    critic_case: str=Field(min_length=1)
+    contrary_evidence: list[str]
+    unknowns: list[str]
+    falsification_conditions: list[str]
+    evidence_confidence: float=Field(ge=0,le=1,allow_inf_nan=False)
+
+class JudgeDecision(BaseModel):
+    model_config=ConfigDict(strict=True)
+    status: Literal['survived','watch','rejected']
+    vertical_fatal: bool
+    decision_reason: str=Field(min_length=1)
+    judgment_confidence: float=Field(ge=0,le=1,allow_inf_nan=False)
+    major_risks: list[str]
+    unknowns: list[str]
 
 class EvidenceItem(BaseModel):
     title: str

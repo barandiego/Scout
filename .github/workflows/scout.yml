@@ -6,9 +6,6 @@ on:
         description: cycle | report | calibrate
         required: true
         default: cycle
-  schedule:
-    - cron: '17 */4 * * *'
-    - cron: '0 11 * * *'
 permissions:
   contents: write
 concurrency:
@@ -35,13 +32,7 @@ jobs:
         id: mode
         shell: bash
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "mode=${{ inputs.mode }}" >> "$GITHUB_OUTPUT"
-          elif [ "$(date -u +%H)" = "11" ]; then
-            echo "mode=report" >> "$GITHUB_OUTPUT"
-          else
-            echo "mode=cycle" >> "$GITHUB_OUTPUT"
-          fi
+          echo "mode=${{ inputs.mode }}" >> "$GITHUB_OUTPUT"
       - name: API/model preflight
         if: steps.mode.outputs.mode == 'cycle'
         run: python -m scout.cli preflight
