@@ -191,7 +191,7 @@ def test_budget_deferral_does_not_send_another_request(tmp_path, monkeypatch):
     isolated_cycle(tmp_path, monkeypatch)
     cfg_path = tmp_path/'config'/'scout.yaml'
     cfg = pipeline.load_yaml(cfg_path)
-    cfg['budget']['cycle_usd'] = .03
+    cfg['budget']['cycle_usd'] = .04
     import yaml
     cfg_path.write_text(yaml.safe_dump(cfg))
     calls = []
