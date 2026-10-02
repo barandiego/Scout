@@ -77,7 +77,7 @@ shows why compile/happy-path tests and model-list preflight were insufficient.
 
 ## Offline test evidence
 
-**188 pytest cases**, including **1,000 seeded raw-value iterations** and **100
+**194 pytest cases**, including **1,000 seeded raw-value iterations** and **100
 seeded complete-pipeline iterations** inside two tests; five existing calibration
 cases pass. No fuzz dependency or generation calls. Dedicated venv installed fresh:
 OpenAI 3.23.0, Pydantic 2.13.5, pytest 9.1.1. All tests run with socket access denied.

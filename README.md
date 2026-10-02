@@ -10,7 +10,7 @@ is a valid result. Scout never performs economic execution.
 
 ## Runtime and state
 
-Six small application modules plus the CLI entry point: Python, Responses API,
+Six small application modules, including the CLI entry point: Python, Responses API,
 Pydantic, YAML, atomic JSONL. No agents framework or new services. Linux GitHub
 Actions is the supported cycle runtime (local state writer uses flock).
 
@@ -43,4 +43,4 @@ If a GitHub state push fails, recover its uploaded state artifact and reconcile 
 another cycle; the workflow blocks unconfirmed previous cycle persistence.
 
 See [SPEC.md](SPEC.md) for conversion/invariant policies and [AUDIT.md](AUDIT.md) for
-six-run findings, 188-test evidence, current API sources and the live PASS definition.
+six-run findings, 194-test evidence, current API sources and the live PASS definition.

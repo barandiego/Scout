@@ -52,7 +52,8 @@ def test_grounding_counts_only_returned(sources, expected):
 
 
 @pytest.mark.parametrize('url', ['javascript:alert(1)','file:///a','https://','https://bad host/a','https://user:pass@host.example',
-    'https://host.example:bad/a','https://[invalid/a',[],{},None])
+    'https://host.example:bad/a','https://[invalid/a','https://.example/a','https://-bad.example/a',
+    'https://bad..example/a','https://host.example/%ZZ',[],{},None])
 def test_bad_url(url):
     assert url_key(url)==''
     r=candidate();r['evidence'][0]['url']=url

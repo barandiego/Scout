@@ -111,7 +111,7 @@ def test_real_sdk_pipeline_matrix(tmp_path, monkeypatch, stage, text, status, so
         assert rec.cost_usd==pytest.approx(.0209168)
 
 
-@pytest.mark.parametrize('variant', ['exception','timeout','usage_missing','usage_bad','incomplete_other','tool_only','future_fields'])
+@pytest.mark.parametrize('variant', ['exception','timeout','usage_missing','usage_bad','incomplete_other','tool_only','future_fields','refusal','partial_message'])
 def test_response_edge_shapes(tmp_path,monkeypatch,variant):
     isolated_cycle(tmp_path,monkeypatch)
     def handler(request):
@@ -123,6 +123,8 @@ def test_response_edge_shapes(tmp_path,monkeypatch,variant):
         if variant=='usage_bad': body['usage']['input_tokens']='nonsense'
         if variant=='tool_only': body['output']=body['output'][:1]
         if variant=='future_fields': body['new_field']={'anything':[]}
+        if variant=='refusal': body['output'][-1]['content'].append({'type':'refusal','refusal':'not provided'})
+        if variant=='partial_message': body['output'][-1]['status']='incomplete'
         return httpx.Response(200,json=body)
     ai=offline_client(monkeypatch,handler);monkeypatch.setattr(pipeline,'AIClient',lambda _:ai)
     try: rec=pipeline.run_cycle()
@@ -130,6 +132,8 @@ def test_response_edge_shapes(tmp_path,monkeypatch,variant):
     assert rec.survivors==0
     assert rec.ok==(variant not in ('exception','timeout'))
     assert rec.cost_uncertain==(variant in ('exception','timeout','usage_missing','usage_bad'))
+    if variant in ('refusal','partial_message'):
+        assert rec.outcome=='DEGRADED_SUCCESS' and len(rec.usages)==1 and rec.normalized_candidates==0
     assert 'secret' not in rec.model_dump_json() and 'sensitive' not in rec.model_dump_json()
 
 

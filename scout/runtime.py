@@ -135,6 +135,13 @@ class AIClient:
         if status != 'completed':
             raise AIResponseError('response_not_completed', usage,
                                   infrastructure=status != 'incomplete', diagnostic=diagnostic)
+        for item in output:
+            if not isinstance(item, dict) or item.get('type') != 'message':
+                continue
+            content = item.get('content') if isinstance(item.get('content'), list) else []
+            if (item.get('status', 'completed') != 'completed' or
+                    any(isinstance(c, dict) and c.get('type') == 'refusal' for c in content)):
+                raise AIResponseError('refused_or_partial_message', usage, diagnostic=diagnostic)
         # Match SDK output_text aggregation without assuming a message's position.
         parts = [c.get('text') for i in output if isinstance(i, dict) and i.get('type') == 'message'
                  for c in (i.get('content') if isinstance(i.get('content'), list) else [])

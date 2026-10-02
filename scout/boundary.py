@@ -57,14 +57,15 @@ def strings(value: Any) -> list[str]:
 
 def url_key(value: Any) -> str:
     value = text(value, 4097)
-    if not value or len(value) > 4096 or re.search(r'[\s\x00-\x1f\\]', value):
+    if not value or len(value) > 4096 or re.search(r'[\s\x00-\x1f\\]', value) or re.search(r'%(?![0-9a-fA-F]{2})', value):
         return ''
     try:
         p = urlsplit(value)
         if p.scheme.lower() not in ('http', 'https') or not p.hostname or p.username or p.password:
             return ''
         host = p.hostname.encode('idna').decode('ascii').lower()
-        if '.' not in host or not re.fullmatch(r'[a-z0-9.-]+', host):
+        if ('.' not in host or len(host) > 253 or
+                any(not re.fullmatch(r'(?!-)[a-z0-9-]{1,63}(?<!-)', label) for label in host.split('.'))):
             return ''
         port = p.port
         if port and port != {'http': 80, 'https': 443}[p.scheme.lower()]:
