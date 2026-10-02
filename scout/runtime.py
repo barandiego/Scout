@@ -83,7 +83,11 @@ class AIClient:
         web_calls=sum(1 for item in getattr(response,'output',[]) if getattr(item,'type','')=='web_search_call')
         usage=self._estimate(model,getattr(response,'usage',None),web_calls)
         try:
-            if getattr(response,'status',None)!='completed': raise ValueError(f'OpenAI response status={getattr(response,"status",None)}')
+            status=getattr(response,'status',None)
+            if status!='completed':
+                details=getattr(response,'incomplete_details',None)
+                reason=getattr(details,'reason',None) or 'unknown'
+                raise ValueError(f'OpenAI response status={status}; reason={reason}; output_tokens={usage.output_tokens}/{max_output_tokens}; web_calls={web_calls}')
             data=_parse_json(getattr(response,'output_text',''))
             if web_search and not source_urls: raise ValueError('web research returned no completed search sources')
         except (ValueError,TypeError) as exc:
