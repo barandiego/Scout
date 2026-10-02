@@ -31,8 +31,7 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Managed agent APIs and open harnesses are lowering the cost and complexity of long-running automation: deferred_by_review_cap
-- Weak regional growth and subdued investment increase demand for productivity and localization arbitrage: deferred_by_review_cap
+None.
 
 ## Sanitized diagnostics
 ```json
