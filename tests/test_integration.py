@@ -125,6 +125,27 @@ def test_scenario_8_open_finance_routes_specialist(harness):
     assert 'CMF' in ai.calls[-1][1]['prompt']
 
 
+def test_judge_receives_trusted_runtime_provenance(harness):
+    rec, ai, _ = harness()
+    assert rec.survivors == 1
+    judge_prompt = next(kw['prompt'] for stage, kw in ai.calls if stage == 'judge')
+    assert 'TRUSTED Scout provenance metadata' in judge_prompt
+    assert 'runtime-generated, not model-authored' in judge_prompt
+    assert 'unverified-regulatory-change fatal condition solely' in judge_prompt
+    for url in SOURCES:
+        assert url in judge_prompt
+
+
+def test_review_cap_overflow_is_not_persisted_as_watch(harness):
+    rec, ai, store = harness({'discovery': [{'candidates': [candidate(i) for i in range(3)]}]},
+                             config={'limits': {'max_candidates_to_critic': 1, 'max_candidates_to_judge': 1}})
+    opportunities = store.opportunities()
+    assert rec.normalized_candidates == 3 and rec.survivors == 1 and rec.watches == 0
+    assert len(opportunities) == 1 and len(ai.calls) == 3
+    assert 'review_cap_not_persisted=2' in rec.notes
+    assert all(o.decision_reason != 'deferred_by_review_cap' for o in opportunities)
+
+
 @pytest.mark.parametrize('container', [{}, {'candidates': None}, {'candidates': 'text'}, [], {'candidates': [None, 'bad', 1]}])
 def test_bad_discovery_container_is_safe(harness, container):
     rec, ai, _ = harness({'discovery': [container]})
@@ -175,7 +196,8 @@ def test_failure_cannot_bypass_caps_or_budget(harness):
     rec, ai, _ = harness({'discovery': [{'candidates': [candidate(i) for i in range(3)]}], 'critic': [err, err, err]},
                          cost=.02, config={'limits': {'max_candidates_to_critic': 1}})
     assert rec.ok and len(ai.calls) == 2 and rec.cost_usd == .06
-    assert rec.survivors == 0 and rec.watches == 3
+    assert rec.survivors == 0 and rec.watches == 1
+    assert 'review_cap_not_persisted=2' in rec.notes
 
 
 def test_usage_unknown_blocks_restart_and_still_preserves_good_output(harness):
@@ -231,7 +253,8 @@ def test_cap_applies_to_failed_responses_not_only_successes(harness):
     rec,ai,_=harness({'discovery':[{'candidates':[candidate(i) for i in range(3)]}], 'critic':[err,err,err]},
                       config={'limits':{'max_candidates_to_critic':1}})
     assert len(ai.calls)==2 and rec.critic_attempts==1 and rec.critic_reviews==0
-    assert rec.watches==3 and rec.ok
+    assert rec.watches==1 and rec.ok
+    assert 'review_cap_not_persisted=2' in rec.notes
 
 
 def test_critic_instruction_like_evidence_is_data(harness):
