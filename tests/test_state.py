@@ -41,7 +41,7 @@ def test_conflicting_legacy_duplicate_is_corruption(tmp_path,harness):
 
 
 def test_daily_limit_stops_before_provider(harness,tmp_path):
-    r=RunRecord(run_id='legacy',started_at=pipeline.utcnow(),finished_at=pipeline.utcnow(),mode='cycle',cost_usd=.25)
+    r=RunRecord(run_id='legacy',started_at=pipeline.utcnow(),finished_at=pipeline.utcnow(),mode='cycle',cost_usd=.50)
     Store(tmp_path).checkpoint(r,[])
     rec,ai,_=harness()
     assert rec.ok and rec.outcome=='BUDGET_STOP' and not ai.calls
