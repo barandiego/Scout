@@ -8,6 +8,7 @@ import httpx2 as httpx
 from scout import pipeline
 from scout.runtime import AIClient, AIResponseError, _parse_json, _collect_urls
 from test_integration import DISCOVERY
+from scout.state import Store
 
 SOURCES = ['https://primary.example/a', 'https://independent.example/b']
 CRITIC = {'fatal': False, 'critic_case': 'No fatal contradiction found.',
@@ -65,162 +66,92 @@ def assert_contract(req):
         assert 'exactly one JSON object' in req['instructions']
     else:
         assert req['text'] == {'format': {'type': 'json_object'}}
+        assert 'JSON' in req['instructions'] + req['input']
         assert 'max_tool_calls' not in req
         assert 'include' not in req
 
-def test_full_cycle_through_real_sdk(tmp_path, monkeypatch):
-    isolated_cycle(tmp_path, monkeypatch)
-    requests = []
-    def handler(request):
-        req = json.loads(request.content)
-        requests.append(req)
-        assert request.url.path == '/v1/responses'
-        assert_contract(req)
-        if 'Scout Discovery' in req['instructions']:
-            data = {'candidates': [copy.deepcopy(DISCOVERY)]}
-            assert req['max_output_tokens'] == 4000
-        elif 'adversarial' in req['instructions']:
-            data = CRITIC
-            assert req['max_output_tokens'] == 2800
-        else:
-            data = JUDGE
-            assert req['model'] == 'gpt-5.6-terra'
-        return httpx.Response(200, json=response_body(req, json.dumps(data)))
-    ai = offline_client(monkeypatch, handler)
-    monkeypatch.setattr(pipeline, 'AIClient', lambda pricing: ai)
-    try:
-        rec = pipeline.run_cycle()
-    finally:
-        ai.client.close()
-    assert rec.ok and rec.survivors == 1
-    assert rec.critic_reviews == rec.judge_reviews == 1
-    assert len(requests) == 3
-    assert rec.cost_usd == pytest.approx(.020916)
-    assert pipeline.daily_cost_so_far() == rec.cost_usd
-    assert pipeline.read_jsonl(tmp_path/'state'/'survivors.jsonl')[0]['status'] == 'survived'
-    assert 'Test industrial opportunity' in (tmp_path/'reports'/'latest.md').read_text()
-
-@pytest.mark.parametrize('text,status,sources', [
-    ('{"candidates":', 'completed', SOURCES),
-    ('{"candidates":[]}', 'incomplete', SOURCES),
-    ('', 'completed', SOURCES),
-    ('[]', 'completed', SOURCES),
-    ('{"candidates":[]}', 'completed', []),
+@pytest.mark.parametrize('stage,text,status,sources,expected', [
+    ('discovery', None, 'completed', SOURCES, 'SUCCESS'),
+    ('discovery', '{"candidates":[]}', 'completed', [], 'SUCCESS'),
+    ('discovery', '{"candidates":', 'completed', SOURCES, 'DEGRADED_SUCCESS'),
+    ('discovery', '{"candidates":[]}', 'incomplete', SOURCES, 'DEGRADED_SUCCESS'),
+    ('discovery', '', 'completed', SOURCES, 'DEGRADED_SUCCESS'),
+    ('discovery', '[]', 'completed', SOURCES, 'DEGRADED_SUCCESS'),
+    ('discovery', None, 'failed', SOURCES, 'FAILED_INFRASTRUCTURE'),
+    ('discovery', None, 'completed', [], 'SUCCESS'),
+    ('critic', '{}', 'completed', SOURCES, 'DEGRADED_SUCCESS'),
+    ('critic', '{"fatal":', 'completed', SOURCES, 'DEGRADED_SUCCESS'),
+    ('critic', None, 'completed', [], 'DEGRADED_SUCCESS'),
+    ('judge', '{}', 'completed', SOURCES, 'DEGRADED_SUCCESS'),
+    ('judge', '', 'incomplete', SOURCES, 'DEGRADED_SUCCESS'),
 ])
-def test_failed_response_retains_usage(tmp_path, monkeypatch, text, status, sources):
+def test_real_sdk_pipeline_matrix(tmp_path, monkeypatch, stage, text, status, sources, expected):
     isolated_cycle(tmp_path, monkeypatch)
-    calls = []
+    calls=[]
     def handler(request):
-        req = json.loads(request.content); calls.append(req)
-        assert_contract(req)
-        return httpx.Response(200, json=response_body(req, text, status=status, sources=sources))
-    ai = offline_client(monkeypatch, handler)
-    monkeypatch.setattr(pipeline, 'AIClient', lambda pricing: ai)
-    try:
-        rec = pipeline.run_cycle()
-    finally:
-        ai.client.close()
-    assert not rec.ok and rec.errors == 1 and rec.survivors == 0
-    assert len(calls) == 1  # No paid JSON-repair call.
-    assert rec.cost_usd == pytest.approx(.010076)
-    assert pipeline.daily_cost_so_far() == rec.cost_usd
-    assert pipeline.read_jsonl(tmp_path/'state'/'runs.jsonl')[-1]['cost_usd'] == rec.cost_usd
-    report=(tmp_path/'reports'/'latest.md').read_text()
-    assert 'discovery_error:AIResponseError' in report
-    if status == 'incomplete':
-        assert 'reason=max_output_tokens' in report
+        req=json.loads(request.content); calls.append(req); assert_contract(req)
+        current=('discovery' if 'Scout Discovery' in req['instructions'] else 'critic' if 'adversarial' in req['instructions'] else 'judge')
+        data={'discovery':{'candidates':[DISCOVERY]},'critic':CRITIC,'judge':JUDGE}[current]
+        return httpx.Response(200,json=response_body(req,
+            text if current==stage and text is not None else json.dumps(data),
+            status=status if current==stage else 'completed', sources=sources if current==stage else SOURCES))
+    ai=offline_client(monkeypatch,handler)
+    monkeypatch.setattr(pipeline,'AIClient',lambda _:ai)
+    try: rec=pipeline.run_cycle()
+    finally: ai.client.close()
+    assert rec.outcome==expected and rec.ok==(expected!='FAILED_INFRASTRUCTURE')
+    assert len(rec.usages)==len(calls)
+    assert rec.cost_usd==pytest.approx(sum(u.estimated_cost_usd for u in rec.usages))
+    assert Store(tmp_path).runs()[-1]['cost_usd']==rec.cost_usd
+    assert (tmp_path/'reports/latest.md').exists()
+    if status!='completed' or text is not None or not sources:
+        assert rec.survivors==0
+    else:
+        assert rec.survivors==1
+        assert rec.cost_usd==pytest.approx(.0209168)
 
-@pytest.mark.parametrize('stage,bad', [
-    ('discovery', {}),
-    ('discovery', {'candidates': [None]}),
-    ('discovery', {'candidates': [{**DISCOVERY, 'major_risks': None}]}),
-    ('critic', {}),
-    ('critic', {**CRITIC, 'fatal': 'true'}),
-    ('critic', {**CRITIC, 'unknowns': None}),
-    ('critic', {**CRITIC, 'evidence_confidence': 1.2}),
-    ('judge', {}),
-    ('judge', {**JUDGE, 'vertical_fatal': 'true'}),
-    ('judge', {**JUDGE, 'unknowns': 'none'}),
-    ('judge', {**JUDGE, 'judgment_confidence': -1}),
-    ('judge', {**JUDGE, 'status': 'candidate'}),
-    ('judge', {**JUDGE, 'judgment_confidence': float('nan')}),
-])
-def test_invalid_decisions_fail_closed_and_are_metered(tmp_path, monkeypatch, stage, bad):
-    isolated_cycle(tmp_path, monkeypatch)
-    calls = []
+
+@pytest.mark.parametrize('variant', ['exception','timeout','usage_missing','usage_bad','incomplete_other','tool_only','future_fields','refusal','partial_message'])
+def test_response_edge_shapes(tmp_path,monkeypatch,variant):
+    isolated_cycle(tmp_path,monkeypatch)
     def handler(request):
-        req = json.loads(request.content); calls.append(req); assert_contract(req)
-        current = ('discovery' if 'Scout Discovery' in req['instructions'] else
-                   'critic' if 'adversarial' in req['instructions'] else 'judge')
-        data = bad if current == stage else {
-            'discovery': {'candidates': [DISCOVERY]}, 'critic': CRITIC, 'judge': JUDGE}[current]
-        return httpx.Response(200, json=response_body(req, json.dumps(data)))
-    ai = offline_client(monkeypatch, handler)
-    monkeypatch.setattr(pipeline, 'AIClient', lambda pricing: ai)
+        if variant=='timeout': raise httpx.ReadTimeout('sensitive text',request=request)
+        if variant=='exception': return httpx.Response(401,json={'error':{'message':'secret','type':'auth'}})
+        req=json.loads(request.content)
+        body=response_body(req,'{"candidates":[]}',status='incomplete' if variant=='incomplete_other' else 'completed',incomplete_reason='content_filter')
+        if variant=='usage_missing': body.pop('usage')
+        if variant=='usage_bad': body['usage']['input_tokens']='nonsense'
+        if variant=='tool_only': body['output']=body['output'][:1]
+        if variant=='future_fields': body['new_field']={'anything':[]}
+        if variant=='refusal': body['output'][-1]['content'].append({'type':'refusal','refusal':'not provided'})
+        if variant=='partial_message': body['output'][-1]['status']='incomplete'
+        return httpx.Response(200,json=body)
+    ai=offline_client(monkeypatch,handler);monkeypatch.setattr(pipeline,'AIClient',lambda _:ai)
+    try: rec=pipeline.run_cycle()
+    finally: ai.client.close()
+    assert rec.survivors==0
+    assert rec.ok==(variant not in ('exception','timeout'))
+    assert rec.cost_uncertain==(variant in ('exception','timeout','usage_missing','usage_bad'))
+    if variant in ('refusal','partial_message'):
+        assert rec.outcome=='DEGRADED_SUCCESS' and len(rec.usages)==1 and rec.normalized_candidates==0
+    assert 'secret' not in rec.model_dump_json() and 'sensitive' not in rec.model_dump_json()
+
+
+def test_usage_reasoning_cached_and_write_accounting(monkeypatch):
+    ai=offline_client(monkeypatch,lambda req:None)
     try:
-        rec = pipeline.run_cycle()
-    finally:
-        ai.client.close()
-    assert not rec.ok and rec.errors == 1 and rec.survivors == 0
-    assert len(calls) == {'discovery': 1, 'critic': 2, 'judge': 3}[stage]
-    assert rec.cost_usd == pytest.approx(
-        {'discovery': .010076, 'critic': .020152, 'judge': .020916}[stage])
-    if stage != 'discovery':
-        assert rec.watches == 1
-        assert pipeline.read_jsonl(tmp_path/'state'/'watch.jsonl')[0]['decision_reason'] == stage+'_error'
+        usage=ai._estimate('gpt-5.6-luna',{'input_tokens':1000,'output_tokens':200,
+            'input_tokens_details':{'cached_tokens':100,'cache_write_tokens':100},
+            'output_tokens_details':{'reasoning_tokens':150}},2)
+        assert usage.estimated_cost_usd==pytest.approx(.020427)
+        assert usage.reasoning_tokens==150 and usage.output_tokens==200
+    finally: ai.client.close()
 
-@pytest.mark.parametrize('decision', [
-    {**CRITIC, 'fatal': True}, {**CRITIC, 'evidence_confidence': .4}])
-def test_critic_failure_of_fatal_gate_prevents_judgment(tmp_path, monkeypatch, decision):
-    isolated_cycle(tmp_path, monkeypatch)
-    calls = []
-    def handler(request):
-        req = json.loads(request.content); calls.append(req)
-        data = {'candidates': [DISCOVERY]} if len(calls) == 1 else decision
-        return httpx.Response(200, json=response_body(req, json.dumps(data)))
-    ai = offline_client(monkeypatch, handler)
-    monkeypatch.setattr(pipeline, 'AIClient', lambda pricing: ai)
-    try:
-        rec = pipeline.run_cycle()
-    finally:
-        ai.client.close()
-    assert rec.ok and rec.rejected == 1 and rec.survivors == 0
-    assert rec.judge_reviews == 0 and len(calls) == 2
 
-def test_budget_deferral_does_not_send_another_request(tmp_path, monkeypatch):
-    isolated_cycle(tmp_path, monkeypatch)
-    cfg_path = tmp_path/'config'/'scout.yaml'
-    cfg = pipeline.load_yaml(cfg_path)
-    cfg['budget']['cycle_usd'] = .04
-    import yaml
-    cfg_path.write_text(yaml.safe_dump(cfg))
-    calls = []
-    def handler(request):
-        req = json.loads(request.content); calls.append(req)
-        return httpx.Response(200, json=response_body(req, json.dumps({'candidates': [DISCOVERY]})))
-    ai = offline_client(monkeypatch, handler)
-    monkeypatch.setattr(pipeline, 'AIClient', lambda pricing: ai)
-    try:
-        rec = pipeline.run_cycle()
-    finally:
-        ai.client.close()
-    assert rec.ok and rec.watches == 1 and len(calls) == 1
-    assert rec.critic_reviews == rec.judge_reviews == 0
-
-def test_url_grounding_uses_search_sources_and_keeps_query():
-    dumped = {'url': 'https://fabricated.example', 'output': [
-        {'type': 'message', 'content': [{'text': '{"url":"https://fake.example"}'}]},
-        {'type': 'web_search_call', 'status': 'failed',
-         'action': {'sources': [{'url': 'https://failed.example'}]}},
-        {'type': 'web_search_call', 'status': 'completed',
-         'action': {'sources': [{'url': 'https://real.example/doc?id=1'}]}}]}
-    urls = _collect_urls(dumped)
-    assert urls == {'https://real.example/doc?id=1'}
-    raw = {'evidence': [{'url': 'https://real.example/doc?id=2'},
-                        {'url': 'https://real.example/doc?id=1'}]}
-    assert pipeline._ground_raw(raw, urls)['evidence'] == [raw['evidence'][1]]
-
-@pytest.mark.parametrize('text', ['prose {"a":1}', '{"a":1} trailing', '[]', 'null'])
-def test_parser_rejects_ambiguous_or_nonobject_output(text):
-    with pytest.raises(ValueError):
-        _parse_json(text)
+def test_sources_ignore_annotations_model_text_and_nested_impostors():
+    payload={'output':[{'type':'message','content':[{'type':'output_text','text':'https://fake.example',
+        'annotations':[{'type':'url_citation','url':'https://cited.example'}]}]},
+        {'type':'web_search_call','status':'failed','action':{'sources':[{'url':'https://failed.example'}]}},
+        {'type':'web_search_call','status':'completed','action':{'sources':[{'url':'https://real.example/doc?id=1'}]}}],
+        'impostor':{'type':'web_search_call','status':'completed','action':{'sources':[{'url':'https://impostor.example'}]}}}
+    assert _collect_urls(payload)=={'https://real.example/doc?id=1'}

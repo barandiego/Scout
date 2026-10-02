@@ -15,3 +15,9 @@ Scout is an evidence-first opportunity intelligence system, not an execution eng
 11. Rejections are useful output. Never patch an opportunity until it survives.
 12. V0 never trades, buys, contacts third parties, or deploys businesses.
 13. Any code change must pass compile, unit/integration tests, config validation and calibration CI before main is considered healthy.
+
+14. External probabilistic output is never trusted state. Use RawDiscoverySignal and decision sanitation; never construct trusted lifecycle fields from raw model dictionaries.
+15. Ordinary model malformation is candidate/stage degradation, not infrastructure failure. Preserve siblings and all returned usage; never issue paid repair calls.
+16. Revalidate canonical records and post-critic gates. Grounded means returned-source membership, not verified claim truth.
+17. Keep all new state/cost writes inside Store atomic checkpoints; do not append separate disposition files. Do not bypass pending/unknown-cost or Git persistence stops.
+18. Keep automatic schedule disabled until HQ separately authorizes activation after the AUDIT.md live-validation checks.
