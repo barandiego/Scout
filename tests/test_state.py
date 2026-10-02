@@ -158,16 +158,18 @@ def test_bad_survivor_on_disk_fails_closed(tmp_path):
     with pytest.raises(StateError):Store(tmp_path)
 
 
-def test_schedule_off_and_ci_cannot_invoke_paid_cycle():
+def test_schedule_active_and_ci_cannot_invoke_paid_cycle():
     import yaml
     from pathlib import Path
     root=Path(__file__).resolve().parents[1]
     live=yaml.load((root/'.github/workflows/scout.yml').read_text(),Loader=yaml.BaseLoader)
     ci=yaml.load((root/'.github/workflows/ci.yml').read_text(),Loader=yaml.BaseLoader)
-    assert 'schedule' not in live['on']
+    assert live['on']['schedule'] == [{'cron': '0 */4 * * *'}]
     assert 'redesign/**' in ci['on']['push']['branches']
     assert 'OPENAI_API_KEY' not in json.dumps(ci)
     assert 'scout.cli cycle' not in json.dumps(ci)
+    select_mode=next(s for s in live['jobs']['scout']['steps'] if s.get('name')=='Select mode')
+    assert select_mode['env']['SCOUT_MODE'] == "${{ inputs.mode || 'cycle' }}"
     names=[s.get('name','') for s in live['jobs']['scout']['steps']]
     assert names.index('Verify preceding run persisted')<names.index('Run Scout')
     assert names.index('Preserve recovery artifact')<names.index('Persist state and reports')
