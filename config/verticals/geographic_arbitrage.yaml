@@ -1,14 +1,3 @@
 name: geographic_arbitrage
-criteria:
-  - proven foreign demand
-  - genuine local availability or price gap
-  - local substitutes
-  - landed cost and gross-margin plausibility
-  - MOQ, shipping, tax, duties and regulation
-  - distribution feasibility
-  - local demand evidence
-fatal_conditions:
-  - local market is already well served
-  - landed economics destroy plausible margin
-  - import/regulatory barrier makes participation unrealistic
-  - foreign traction is anecdotal rather than evidenced
+criteria: [proven foreign demand, genuine local availability or price gap, local substitutes, landed cost and gross-margin plausibility, MOQ shipping tax duties and regulation, distribution feasibility, local demand evidence]
+fatal_conditions: [local market is already well served, landed economics destroy plausible margin, import/regulatory barrier makes participation unrealistic, foreign traction is anecdotal]

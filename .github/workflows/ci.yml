@@ -1,0 +1,22 @@
+name: Scout V0 CI
+on:
+  push:
+    branches: [main, 'audit/**', 'fix/**']
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - run: pip install -e '.[dev]'
+      - run: python -m compileall -q scout tests
+      - run: python -m pip check
+      - run: pytest -q
+      - run: python -m scout.cli validate
+      - run: python -m scout.cli calibrate

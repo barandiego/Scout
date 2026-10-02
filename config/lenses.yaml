@@ -1,25 +1,14 @@
 lenses:
-  - id: geographic_arbitrage
-    prompt: Products or business models proven abroad but sparse, overpriced, inaccessible, or poorly localized in Chile/LatAm.
-  - id: ai_open_source
-    prompt: New AI, agentic, API, or open-source capabilities that materially reduce cost or enable previously uneconomic workflows.
-  - id: public_markets
-    prompt: Public equities, special situations, valuation dislocations, catalysts, neglected assets, financing or capital-structure changes.
-  - id: physical_commerce
-    prompt: Imports, private label, distribution gaps, physical products, e-commerce and supply/demand mismatches.
-  - id: regulation_infrastructure
-    prompt: Regulatory, API, infrastructure, standards or platform changes that redistribute economic value.
-  - id: robotics_automation
-    prompt: Robotics, actuators, automation, manufacturing and cost-curve changes creating investable or entrepreneurial openings.
-  - id: energy_industrial
-    prompt: Energy, solar, batteries, storage, grid, industrial processes and cost-curve shifts.
-  - id: mining_materials
-    prompt: Mining, critical minerals, rare earths, materials, processing, supply chains and strategic bottlenecks.
-  - id: tokenization_finance
-    prompt: Tokenization, digital assets, settlement, financial infrastructure and programmable ownership/finance.
-  - id: business_model_migration
-    prompt: Business models working in one geography/industry that may now transfer elsewhere because constraints changed.
-  - id: cost_curve
-    prompt: Sudden declines or increases in compute, logistics, energy, manufacturing, financing or acquisition costs that change what is viable.
-  - id: wildcard
-    prompt: Search outside Diego's known interests for any credible economic anomaly, unmet demand or structural shift with a realistic participation path.
+  - {id: geographic_arbitrage, prompt: "Products or business models proven abroad but sparse, overpriced, inaccessible, or poorly localized in Chile/LatAm."}
+  - {id: ai_open_source, prompt: "New AI, agentic, API, or open-source capabilities that materially reduce cost or enable previously uneconomic workflows."}
+  - {id: public_markets, prompt: "Public equities, special situations, valuation dislocations, catalysts, neglected assets, financing or capital-structure changes."}
+  - {id: physical_commerce, prompt: "Imports, private label, distribution gaps, physical products, e-commerce and supply/demand mismatches."}
+  - {id: regulation_infrastructure, prompt: "Regulatory, API, infrastructure, standards or platform changes that redistribute economic value."}
+  - {id: robotics_automation, prompt: "Robotics, actuators, automation, manufacturing and cost-curve changes creating investable or entrepreneurial openings."}
+  - {id: energy_industrial, prompt: "Energy, solar, batteries, storage, grid, industrial processes and cost-curve shifts."}
+  - {id: mining_materials, prompt: "Mining, critical minerals, rare earths, materials, processing, supply chains and strategic bottlenecks."}
+  - {id: tokenization_finance, prompt: "Tokenization, digital assets, settlement, financial infrastructure and programmable ownership/finance."}
+  - {id: business_model_migration, prompt: "Business models working in one geography or industry that may now transfer elsewhere because constraints changed."}
+  - {id: cost_curve, prompt: "Changes in compute, logistics, energy, manufacturing, financing or acquisition costs that alter what is viable."}
+  - {id: open_finance_chile, prompt: "Chile Open Finance/SFA changes. Prioritize CMF, Banco Central de Chile, official regulation, financial institutions, fintechs and API/developer documentation; identify concrete value redistribution rather than generic fintech ideas."}
+  - {id: wildcard, prompt: "Search outside Diego's known interests for any credible economic anomaly, unmet demand or structural shift with a realistic participation path."}
