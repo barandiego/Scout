@@ -5,18 +5,18 @@ models:
 budget:
   cycle_usd: 0.08
   daily_usd: 0.25
-  reserve_discovery_usd: 0.030
-  reserve_critic_usd: 0.025
+  reserve_discovery_usd: 0.035
+  reserve_critic_usd: 0.030
   reserve_judge_usd: 0.020
 limits:
   lenses_per_cycle: 3
-  max_normalized_candidates: 6
+  max_normalized_candidates: 3
   max_candidates_to_critic: 1
   max_candidates_to_judge: 1
   dedupe_similarity: 0.72
-  discovery_max_output_tokens: 2600
-  critic_max_output_tokens: 1800
-  judge_max_output_tokens: 1800
+  discovery_max_output_tokens: 4000
+  critic_max_output_tokens: 2800
+  judge_max_output_tokens: 2200
   discovery_max_tool_calls: 2
   critic_max_tool_calls: 2
 pricing:
