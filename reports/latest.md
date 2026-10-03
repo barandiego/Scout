@@ -1,15 +1,15 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-03T14:56:23.545980+00:00
+Generated: 2026-10-03T20:05:42.244641+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['ai_open_source', 'public_markets', 'physical_commerce']
+- lenses: ['regulation_infrastructure', 'robotics_automation', 'energy_industrial']
 - raw_candidates: 3
 - parseable_candidates: 3
 - normalized_candidates: 3
 - normalization_rejected: 0
-- grounded_sources: 5
+- grounded_sources: 6
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
@@ -17,12 +17,12 @@ Generated: 2026-10-03T14:56:23.545980+00:00
 - judge_reviews: 1
 - survivors: 0
 - watches: 1
-- rejected: 1
+- rejected: 0
 - errors_by_stage: {}
-- rejection_reasons: {'discarded_ungrounded_url': 1, 'insufficient_unique_evidence': 1}
-- cost_usd: 0.04120785
+- rejection_reasons: {}
+- cost_usd: 0.044217
 - cost_uncertain: False
-- budget_remaining_usd: 0.03879215
+- budget_remaining_usd: 0.035783
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -35,12 +35,13 @@ No survivors. Scout does not manufacture a daily winner.
 - Chile publishes technical standards and sandbox infrastructure ahead of Open Finance launch: Primary CMF evidence supports that technical SFA specifications were published, the implementation date was deferred to July 2027, and ATENA exists for pre-production interoperability testing. Therefore the regulatory-change premise is not inherently unverified or misread, and the opportunity is not fatally blocked at the research stage. However, legally/technically usable production data access and commercially viable third-party participation are not yet demonstrated: the rollout appears staged, production traffic and customer demand are unproven, and licensing/local-partner, liability, governance, cost-sharing, cybersecurity, and operational requirements remain material unknowns. The claim is HQ-worthy as a monitored market-entry and validation thesis, not as evidence of an immediately executable API-platform business.
 - Chile’s Open Finance implementation moves from regulation to integration work: The regulatory transition is sufficiently verified by primary CMF sources: NCG 569 modifies NCG 514, adds the technical Annex 3, and establishes an implementation path toward July 2027. Therefore this is not rejected for an unverified or misread regulatory change, nor is API access categorically unavailable: the described framework expressly contemplates interoperable data exchange, payment initiation, testing, and a developer portal. However, the opportunity is a credible implementation-market hypothesis rather than demonstrated recurring-software or payment-revenue opportunity. The postponement, pilot structure, unresolved commercial terms, uncertain participant usage, and likely incumbent-vendor competition leave value capture unproven. It survives for research and customer validation only, not as a validated business conclusion.
 - Managed agent orchestration is lowering the cost of production AI workflows: The underlying capability shift is credibly grounded by a primary OpenAI announcement and is timely, but this is a broad enabling trend rather than a sufficiently specified HQ-worthy opportunity. There is a realistic participation path in narrow workflow deployment, and plausible payers exist where per-case labor, outsourcing, or error costs are measurable. However, the cited 60% saving is a vendor case study rather than independently replicated fully loaded economics. Generic orchestration, monitoring, and implementation are likely to be rapidly bundled or commoditized by model, cloud, and enterprise-software platforms. Survival depends on identifying a specific high-volume workflow with bounded failure costs, acceptable governance, proprietary integrations or distribution, and sub-12-month payback after human review and operational overhead. No fatal condition is established, but value capture and durable differentiation are currently too unproven for survival.
+- EU AI Act transparency and enforcement obligations are becoming operational: The regulatory premise is well grounded by primary European Commission sources: Article 50 transparency obligations and the relevant enforcement framework became operational on 2 August 2026. This creates a real compliance problem for affected providers and deployers, with plausible paid demand for implementation, evidence, assurance, and integration support. However, the stated opportunity is too broad to establish attractive value capture as a standalone software category. The applicable scope is use-case-specific rather than universal; basic disclosure, labeling, and metadata capabilities are readily bundled by model, cloud, content-platform, and enterprise-governance incumbents. A viable participation path likely requires a sharply differentiated wedge—e.g., cross-provider evidence trails, workflow-specific compliance automation, independent assurance, or regulated-sector implementation—not generic provenance/watermarking or broad 'AI Act compliance' tooling. Therefore it survives as an HQ-worthy research area, but not yet as a validated market thesis.
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "review_cap_not_persisted=1"
+    "review_cap_not_persisted=2"
   ],
   "stages": [
     {
@@ -48,47 +49,23 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 39,
+      "grounded_source_count": 15,
       "search_source_urls": [
-        "https://apnews.com/article/3c4d7c1cfde82851c0577d1fa29b8621",
-        "https://apnews.com/article/77b6b8888145869206996d7509d24256",
-        "https://arxiv.org/abs/2512.11935",
-        "https://arxiv.org/abs/2602.12144",
-        "https://carta.com/data/state-of-private-markets-q1-2026/",
-        "https://en.wikipedia.org/wiki/Ollama",
-        "https://en.wikipedia.org/wiki/OpenClaw",
-        "https://en.wikipedia.org/wiki/Z.ai",
-        "https://gptrack.advalorem.io/insights/2026-07-24-private-markets-liquidity-infrastructure",
-        "https://openai.com/index/introducing-the-agents-api/",
-        "https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan",
-        "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-        "https://www.atlantafed.org/research-and-data/publications/policy-hub-papers/2026/06/25/04-supply-disruptions-product-availability-and-strategic-pricing-during-pandemic?linkId=968987048",
-        "https://www.axios.com/2026/06/22/open-source-ai-china-cost-risk-glm-deepseek",
-        "https://www.axios.com/2026/09/29/openai-dev-day-2026-dots-space-sol",
-        "https://www.axios.com/newsletters/axios-am-3d952702-8a60-49ba-b611-b06451856278",
-        "https://www.axios.com/newsletters/axios-pro-rata-160af1b9-9b3f-4cab-81e1-43f5984bbccb",
-        "https://www.globenewswire.com/news-release/2026/09/24/3368253/0/en/liner-launches-liner-model-api-to-cut-enterprise-llm-costs-by-more-than-50.html",
-        "https://www.govinfo.gov/content/pkg/FR-2026-06-01/pdf/FR-2026-06-01.pdf",
-        "https://www.harbourvest.com/us/en/insights/market-outlooks/2026/2026-mid-year-private-markets-outlook",
-        "https://www.importdoor.com/reports/state-of-us-imports-2026-q2",
-        "https://www.linuxfoundation.org/hubfs/Research%20Reports/Open%20Source%20and%20the%20Future%20of%20AI_Report_2026.pdf?hsLang=en",
-        "https://www.nepc.com/private-wealth/quarterly-private-markets-report-q2-2026/",
-        "https://www.reddit.com/r/AIGuild/comments/1wk9rhi/week_in_review_openai_ships_managed_agents_api/",
-        "https://www.reddit.com/r/OpenaiCodex/comments/1wko26r/ok_we_reached_that_ai_cost_is_now_above_developer/",
-        "https://www.reddit.com/r/ShopifyeCommerce/comments/1upbg3e/whats_new_in_ecommerce_week_of_july_6th_2026/",
-        "https://www.reddit.com/r/ecommerce/comments/1uvny1l/ecommerce_industry_news_recap_week_of_july_13th/",
-        "https://www.reddit.com/r/ecommerce/comments/1w178tr/is_private_label_still_viable_in_2026/",
-        "https://www.reddit.com/r/u_enoumen/comments/1wo9w18/ai_daily_news_rundown_open_source_takes_78_of/",
-        "https://www.redhat.com/en/blog/why-agentic-ai-needs-open-inference-stack",
-        "https://www.sec.gov/Archives/edgar/data/1527166/000152716626000009/cg2025123110k.pdf",
-        "https://www.sec.gov/Archives/edgar/data/1527166/000152716626000045/cg2026063010q.pdf",
-        "https://www.sec.gov/Archives/edgar/data/945114/000162828026026618/a2025annualreport.pdf",
-        "https://www.techradar.com/pro/kimi-ai-review",
-        "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-costs-spike-as-subscriptions-hit-pricing-wall-firms-turn-towards-chinese-llms-open-source-models-to-extend-budget",
-        "https://www.tomshardware.com/tech-industry/artificial-intelligence/firm-rents-four-nvidia-h200s-to-test-80x-cheaper-deepseek-claim-usd13-200-monthly-gpu-rental-doubles-claude-bill-while-security-flaws-keep-code-offline",
-        "https://www.tomshardware.com/tech-industry/artificial-intelligence/openclaw-creator-burns-through-1-3-million-in-openai-api-tokens-in-a-single-month",
-        "https://www.warp.dev/blog/bring-your-own-inference-to-warp",
-        "https://www.whitehouse.gov/wp-content/uploads/2026/04/ERP-2026-3.-Rebuilding-Americas-International-Trade-Policy.pdf"
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act-explorer",
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-16",
+        "https://digital-strategy.ec.europa.eu/en/factpages/general-purpose-ai-obligations-under-ai-act",
+        "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems",
+        "https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act",
+        "https://ifr.org/downloads/press_docs/2025-09-25-IFR_press_release_Americas_in_English.pdf",
+        "https://ifr.org/ifr-press-releases/global-robot-demand-in-factories-doubles-over-10-years",
+        "https://ifr.org/img/worldrobotics/Contents_WR_2025_Industrial_Robots.pdf",
+        "https://ifr.org/img/worldrobotics/Executive_Summary_WR_2025_Industrial_Robots.pdf",
+        "https://ifr.org/news/",
+        "https://ifr.org/pages/www.ifr.org",
+        "https://ifr.org/post/exciting-times-for-robot-suppliers",
+        "https://ifr.org/worldrobotics/report",
+        "https://www.iea.org/commentaries/cost-of-capital-expectations-for-2025-diverge-amid-rising-uncertainty",
+        "https://www.iea.org/reports/world-energy-investment-2025/executive-summary"
       ]
     },
     {
@@ -125,9 +102,7 @@ No survivors. Scout does not manufacture a daily winner.
       "index": 2,
       "stage": "normalization",
       "outcome": "accepted",
-      "reasons": [
-        "discarded_ungrounded_url"
-      ],
+      "reasons": [],
       "changes": [
         "contrary_evidence:list_sanitized",
         "major_risks:list_sanitized",
@@ -135,74 +110,75 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 1,
+      "grounded_sources": 2,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_30978e90c9f1315f2e7c",
+      "candidate_id": "opp_0b970dfcca09a4135b23",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 46,
+      "grounded_source_count": 47,
       "search_source_urls": [
-        "https://ai-geletterdheid.org/wp-content/uploads/2025/12/ISG-state-of-the-agentic-ai-market-report-2025.pdf",
-        "https://apnews.com/article/2f8a2b9024d4f06793bcca12f8089d20",
-        "https://apnews.com/article/77b6b8888145869206996d7509d24256",
-        "https://arxiv.org/abs/2506.04301",
-        "https://arxiv.org/abs/2511.14136",
-        "https://arxiv.org/abs/2512.04123",
-        "https://arxiv.org/abs/2609.02095",
-        "https://digitaleconomy.stanford.edu/app/uploads/2026/03/EnterpriseAIPlaybook_PereiraGraylinBrynjolfsson.pdf",
-        "https://en.wikipedia.org/wiki/AI_agent",
-        "https://en.wikipedia.org/wiki/Codex_%28AI_agent%29",
-        "https://en.wikipedia.org/wiki/GPT-5.3-Codex",
-        "https://hai.stanford.edu/assets/files/hai_ai_index_report_2025.pdf",
-        "https://help.openai.com/en/articles/20001551-agents-api-beta-faq",
-        "https://ijctece.com/index.php/IJCTEC/article/view/669",
-        "https://inductivee.com/blog/state-of-enterprise-ai-agents-2025",
-        "https://labs.scale.com/papers/reliable-enterprise-agent-deployment",
-        "https://openai.com/index/introducing-the-agents-api/",
-        "https://openai.com/index/new-tools-for-building-agents/",
-        "https://openai.com/index/open-source-codex-orchestration-symphony/",
-        "https://openai.com/index/the-next-evolution-of-the-agents-sdk/",
-        "https://openai.github.io/openai-agents-python/multi_agent/",
-        "https://openai.github.io/openai-agents-python/running_agents/",
-        "https://papers.ssrn.com/sol3/Delivery.cfm/6850459.pdf?abstractid=6850459&mirid=1",
-        "https://www.axios.com/2026/01/01/ai-2026-money-openai-google-anthropic-agents",
-        "https://www.axios.com/2026/02/05/openai-platform-ai-agents",
-        "https://www.axios.com/2026/09/29/openai-dots-ai-assistant-devday",
-        "https://www.axios.com/2026/09/30/openai-dots-ai-agent-safety",
-        "https://www.battery.com/wp-content/uploads/2025/12/Battery-State-of-Enterprise-Tech-Spending-December-2025-1.pdf",
-        "https://www.capgemini.com/wp-content/uploads/2025/07/Final-Web-Version-Report-AI-Agents.pdf%20",
-        "https://www.gartner.com/en/documents/6399775",
-        "https://www.reddit.com/r/AI_Agents/comments/1vl996j/we_reviewed_18_enterprise_ai_adoption_reports/",
-        "https://www.reddit.com/r/AI_Agents/comments/1wthj9f/openais_agents_api_wont_kill_agent_frameworks/",
-        "https://www.reddit.com/r/AI_Governance/comments/1s7xc8b/i_analyzed_50_enterprise_ai_deployments_almost/",
-        "https://www.reddit.com/r/CodexAutomation/comments/1wda4yn/openai_launches_agents_api_bringing_the_managed/",
-        "https://www.reddit.com/r/SaaS/comments/1pisfea/enterprise_ai_infrastructure_whats_actually_hard/",
-        "https://www.reddit.com/r/aiagents/comments/1wu0f8q/openai_managed_agents_api_context_compaction_is/",
-        "https://www.reddit.com/r/jenova_ai/comments/1v4eac4/best_ai_agent_api_build_deploy_production_agents/",
-        "https://www.reddit.com/r/jenova_ai/comments/1v538au/managed_ai_agent_platform_ship_production_agents/",
-        "https://www.reddit.com/r/jenova_ai/comments/1v53c3z/openai_agents_sdk_alternative_best_managed_ai/",
-        "https://www.reddit.com/r/jenova_ai/comments/1v53lgw/how_to_build_production_ai_agents_ship_fast_with/",
-        "https://www.reddit.com/r/jenova_ai/comments/1v5bp7f/ai_agent_infrastructure_stack_build_agents_with/",
-        "https://www.reddit.com/r/jenova_ai/comments/1v6bg56/ai_agent_production_challenges_why_40_of_projects/",
-        "https://www.techradar.com/pro/ai-agents-are-being-deployed-but-not-to-full-effect",
-        "https://www.techradar.com/pro/dont-follow-the-herd-on-ai-cost-optimization-control-compute-this-way",
-        "https://www.techradar.com/pro/openai-agents-allegedly-scanned-a-un-data-hub-over-16-000-times-in-just-three-months",
-        "https://www.techradar.com/pro/why-most-agentic-ai-projects-fail-and-how-to-avoid-being-one-of-them"
+        "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+        "https://ai-act-service-desk.ec.europa.eu/en/faq",
+        "https://arxiv.org/abs/2403.06823",
+        "https://arxiv.org/abs/2408.11249",
+        "https://arxiv.org/abs/2603.26983",
+        "https://arxiv.org/abs/2609.36228",
+        "https://cincodias.elpais.com/legal/2026-07-22/cinco-decisiones-para-que-una-empresa-se-adapte-al-ai-act.html",
+        "https://commission.europa.eu/news-and-media/news/safer-and-more-transparent-ai-2026-08-02_hu",
+        "https://de.wikipedia.org/wiki/Verordnung_%C3%BCber_k%C3%BCnstliche_Intelligenz",
+        "https://digital-strategy.ec.europa.eu/en/factpages/quick-facts-transparency-rules-ai-systems",
+        "https://digital-strategy.ec.europa.eu/en/faqs/code-practice-transparency-ai-generated-content",
+        "https://digital-strategy.ec.europa.eu/en/faqs/guidelines-and-code-practice-transparent-ai-systems",
+        "https://digital-strategy.ec.europa.eu/en/faqs/guidelines-obligations-general-purpose-ai-providers",
+        "https://digital-strategy.ec.europa.eu/en/faqs/navigating-ai-act",
+        "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act",
+        "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-code-practice-marking-and-labelling-ai-generated-content",
+        "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
+        "https://digital-strategy.ec.europa.eu/en/node/13990/printable/pdf",
+        "https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act",
+        "https://elpais.com/tecnologia/2026-07-20/europa-obliga-a-identificar-la-ia-quienes-y-como-deberan-advertir-que-publican-contenido-artificial.html",
+        "https://en.wikipedia.org/wiki/AI_content_watermarking",
+        "https://en.wikipedia.org/wiki/Artificial_Intelligence_Act",
+        "https://en.wikipedia.org/wiki/European_Artificial_Intelligence_Office",
+        "https://en.wikipedia.org/wiki/General-Purpose_AI_Code_of_Practice",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A52025SC0836",
+        "https://www.axios.com/2026/08/28/eu-ai-act-gets-real",
+        "https://www.europarl.europa.eu/doceo/document/CJ40-AM-784309_EN.pdf",
+        "https://www.itic.org/documents/europe/202514OctFinalITIOmnibusconsultationresponse.pdf",
+        "https://www.lemonde.fr/en/economy/article/2025/08/02/ai-act-38-global-creators-organizations-condemn-betrayal-of-europe-s-stated-goals_6744006_19.html",
+        "https://www.lemonde.fr/en/economy/article/2025/08/02/eu-artificial-intelligence-regulation-takes-effect-sparking-new-europe-us-clash_6744002_19.html",
+        "https://www.rdi.nl/site/binaries/site-content/collections/documenten/2025/12/10/unesco-publicaties/transparency-labelling-under-the-ai-act-article-50.pdf",
+        "https://www.reddit.com/r/AI_Governance/comments/1ul9q5b/august_2nd_isnt_just_the_transparency_deadline/",
+        "https://www.reddit.com/r/AI_Governance/comments/1upodog/eu_ai_act_major_deadline_is_august_2_the_digital/",
+        "https://www.reddit.com/r/AI_Governance/comments/1v87du5/the_eu_ai_act_transparency_code_is_voluntary_and/",
+        "https://www.reddit.com/r/AI_Governance/comments/1v8xx7l/i_built_an_interactive_explainer_course_on_the_eu/",
+        "https://www.reddit.com/r/AI_Governance/comments/1vbpvgs/article_50_starts_on_2_august_a_practical/",
+        "https://www.reddit.com/r/AI_Governance/comments/1veda47/how_aggressive_do_you_think_eu_ai_act_enforcement/",
+        "https://www.reddit.com/r/Journalism/comments/1tiv9kh/what_article_50_of_the_eu_ai_act_actually/",
+        "https://www.reddit.com/r/Startups_EU/comments/1tbau1q/eu_ai_act_not_all_of_it_was_delayed/",
+        "https://www.reddit.com/r/europrivacy/comments/1vecthg/the_eu_ai_acts_enforcement_powers_started_on_2/",
+        "https://www.reddit.com/r/eutech/comments/1v8zfui/a_short_interactive_course_on_the_eu_ai_act/",
+        "https://www.reddit.com/r/gdpr/comments/1v4ikc9/the_ai_act_is_enforced_by_national_authorities/",
+        "https://www.reddit.com/r/u_patrickndille/comments/1uz9zw8/your_highrisk_deadline_got_pushed_your_august_2/",
+        "https://www.sec.gov/Archives/edgar/data/906709/000114036126016716/ny20063621x3_ars.pdf",
+        "https://www.techradar.com/pro/celebrating-the-ai-act-delay-the-eu-ai-acts-chatbot-and-content-rules-apply-this-week",
+        "https://www.techradar.com/pro/the-regulatory-readiness-problem-hiding-in-plain-sight",
+        "https://www.techradar.com/pro/what-happens-when-ai-is-confidently-wrong-in-the-workplace"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_30978e90c9f1315f2e7c",
+      "candidate_id": "opp_0b970dfcca09a4135b23",
       "coercions": [
         "contrary_evidence"
       ]
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_30978e90c9f1315f2e7c",
+      "candidate_id": "opp_0b970dfcca09a4135b23",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -210,7 +186,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_30978e90c9f1315f2e7c",
+      "candidate_id": "opp_0b970dfcca09a4135b23",
       "coercions": []
     }
   ],
@@ -218,44 +194,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 209,
-      "cache_write_tokens": 4562,
+      "reasoning_tokens": 150,
+      "cache_write_tokens": 4555,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0144695,
+      "cumulative_cost_usd": 0.01432035,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13077,
+      "input_tokens": 12807,
       "cached_tokens": 0,
-      "output_tokens": 1355,
+      "output_tokens": 1276,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0144695
+      "estimated_cost_usd": 0.01432035
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 152,
-      "cache_write_tokens": 5027,
+      "reasoning_tokens": 138,
+      "cache_write_tokens": 5051,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02903485,
+      "cumulative_cost_usd": 0.0290025,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13602,
+      "input_tokens": 13712,
       "cached_tokens": 0,
-      "output_tokens": 1328,
+      "output_tokens": 1406,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01456535
+      "estimated_cost_usd": 0.01468215
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 0,
-      "cache_write_tokens": 2798,
+      "reasoning_tokens": 61,
+      "cache_write_tokens": 3069,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.04120785,
+      "cumulative_cost_usd": 0.044217,
       "model": "gpt-5.6-terra",
-      "input_tokens": 2801,
+      "input_tokens": 3072,
       "cached_tokens": 0,
-      "output_tokens": 431,
+      "output_tokens": 628,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.012173
+      "estimated_cost_usd": 0.0152145
     }
   ]
 }
