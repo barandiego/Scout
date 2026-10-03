@@ -1,0 +1,38 @@
+name: public_procurement_chile
+mode: historical_experiment
+registered_in_live_discovery: false
+live_api_enabled: false
+official_sources:
+  api_page: https://www.chilecompra.cl/api/
+  compra_agil_v2_guide: https://www.chilecompra.cl/wp-content/uploads/2026/05/Documentacion_API_Compra_Agil-2-1.pdf
+  compra_agil_supplier_rules: https://www.chilecompra.cl/compra-agil-proveedor/
+api:
+  base_url: https://api2.mercadopublico.cl
+  list_endpoint: /v2/compra-agil
+  detail_endpoint: /v2/compra-agil/{codigo}
+  auth: ticket_header
+limits:
+  max_requests_per_manual_run: 25
+  max_list_pages: 2
+  max_detail_requests: 20
+  page_size: 50
+criteria:
+  - procurement-side historical reconstructability
+  - product specification clarity
+  - observable competitive quotations
+  - delivery reconstructability
+  - pre-deadline sourcing evidence quality
+  - working-capital efficiency
+fatal_conditions:
+  - historical information leakage
+  - unverifiable sourcing economics represented as fact
+  - ambiguous product equivalence
+  - missing competitive evidence for a WOULD_BID decision
+  - negative or sub-threshold economics
+  - supplier eligibility unresolved for a WOULD_BID decision
+  - delivery or stock infeasible
+notes:
+  - Phase 1 is deterministic and OpenAI-free.
+  - A zero-survivor result is valid.
+  - The active Scout V0 cycle, lenses, state/transactions.jsonl and workflows are deliberately untouched.
+  - Enabling real API reads requires an explicit config change plus CHILECOMPRA_TICKET; this branch does not perform them.
