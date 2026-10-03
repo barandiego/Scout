@@ -1,0 +1,92 @@
+{
+  "success": "OK",
+  "trace": null,
+  "payload": {
+    "codigo": "999999-1-COT26",
+    "nombre": "Fixture de útiles estandarizados",
+    "descripcion": "Fixture sintético basado únicamente en el esquema oficial; no representa una compra real.",
+    "estado": {"id_estado": 5, "codigo": "proveedor_seleccionado", "glosa": "Proveedor seleccionado"},
+    "convocatoria": {
+      "estado_convocatoria": 1,
+      "descripcion": "Primer llamado",
+      "fecha_cierre_primer_llamado": "2026-06-02T15:00:00Z",
+      "fecha_cierre_segundo_llamado": null
+    },
+    "fechas": {
+      "fecha_publicacion": "2026-06-01T12:00:00Z",
+      "fecha_cierre": "2026-06-02T15:00:00Z",
+      "fecha_ultimo_cambio": "2026-06-03T12:00:00Z",
+      "fecha_cancelacion": null
+    },
+    "entrega": {"direccion_entrega": "Santiago, Chile", "plazo_entrega_dias": 5},
+    "presupuesto": {
+      "tipo_presupuesto": "Disponible",
+      "moneda": "CLP",
+      "presupuesto_estimado": null,
+      "monto_disponible": 1000000,
+      "monto_disponible_clp": 1000000,
+      "valor_cambio_moneda": null,
+      "fecha_cambio_moneda": null
+    },
+    "orden_compra": {
+      "id_orden_compra": 123456,
+      "id_oc": 123456,
+      "codigo_orden_compra": null,
+      "estado_orden_compra": null
+    },
+    "institucion": {
+      "organismo_comprador": "ORGANISMO FIXTURE",
+      "rut": "00.000.000-0",
+      "unidad_compra": "Unidad Fixture",
+      "region": 13,
+      "nombre_region": "Metropolitana"
+    },
+    "productos_solicitados": [
+      {"codigo_producto": 44121701, "nombre": "Bolígrafo estándar", "descripcion": "Tinta azul, punta media", "cantidad": 100, "unidad_medida": "EA"}
+    ],
+    "proveedores_cotizando": [
+      {
+        "rut_proveedor": "11.111.111-1",
+        "razon_social": "PROVEEDOR A FIXTURE",
+        "es_emt": true,
+        "id_cotizacion": 1,
+        "activo": true,
+        "fecha_creacion": "2026-06-02T10:00:00Z",
+        "fecha_vigencia": "2026-06-10T00:00:00Z",
+        "valor_neto": 700000,
+        "total_impuesto": 133000,
+        "monto_despacho": 20000,
+        "monto_total": 853000,
+        "nombre_impuesto": "IVA",
+        "porcentaje_impuesto": 19,
+        "descripcion_cotizacion": "Fixture A",
+        "justificacion_inadmisibilidad": null,
+        "productos_cotizados": [
+          {"codigo_producto": 44121701, "nombre_producto": "Bolígrafo estándar", "descripcion": "Tinta azul", "cantidad": 100, "precio_unitario": 7000, "monto_total_producto": 700000}
+        ]
+      },
+      {
+        "rut_proveedor": "22.222.222-2",
+        "razon_social": "PROVEEDOR B FIXTURE",
+        "es_emt": true,
+        "id_cotizacion": 2,
+        "activo": true,
+        "fecha_creacion": "2026-06-02T11:00:00Z",
+        "fecha_vigencia": null,
+        "valor_neto": 720000,
+        "total_impuesto": 136800,
+        "monto_despacho": 0,
+        "monto_total": 856800,
+        "nombre_impuesto": "IVA",
+        "porcentaje_impuesto": 19,
+        "descripcion_cotizacion": "Fixture B",
+        "justificacion_inadmisibilidad": null,
+        "productos_cotizados": []
+      }
+    ],
+    "resumen": {"total_ofertas_recibidas": 2, "total_demandas": 0, "multa_sancion": null},
+    "motivos": {"motivo_cancelacion": null, "motivo_desierta": null, "motivo_seleccion": "Fixture"},
+    "flags": {"considera_requisitos_medioambientales": false, "considera_requisitos_impacto_social_economico": false}
+  },
+  "errors": null
+}
