@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-02T19:29:28.870382+00:00
+Generated: 2026-10-03T00:14:38.538838+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['public_markets', 'physical_commerce', 'regulation_infrastructure']
+- lenses: ['robotics_automation', 'energy_industrial', 'mining_materials']
 - raw_candidates: 3
 - parseable_candidates: 3
 - normalized_candidates: 3
 - normalization_rejected: 0
-- grounded_sources: 5
+- grounded_sources: 6
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
 - critic_reviews: 1
 - judge_reviews: 1
 - survivors: 0
-- watches: 0
-- rejected: 2
+- watches: 1
+- rejected: 0
 - errors_by_stage: {}
-- rejection_reasons: {'insufficient_unique_evidence': 1}
-- cost_usd: 0.0425435
+- rejection_reasons: {}
+- cost_usd: 0.0434391
 - cost_uncertain: False
-- budget_remaining_usd: 0.0374565
+- budget_remaining_usd: 0.0365609
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,13 +31,13 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-None.
+- Grid congestion is creating a market for storage, demand flexibility and grid-enhancing technologies: The underlying premise is well grounded: grid capacity constraints and growing storage deployment are supported by recent IEA sources, and congestion can create genuine economic demand for flexibility. However, this is a broad market condition rather than a defined opportunity. It combines merchant storage, demand response, grid-enhancing technology, software, and project development—each with materially different customers, regulations, capital needs, routes to market, and economics. No target geography, node, buyer, product, ownership model, interconnection position, or unit economics is supplied. There is a plausible participation path only if narrowed to a specific asset-light software/service offer or a specific market with secured interconnection/offtake advantages. It merits HQ research to identify such a wedge, but is not yet investable or operationally actionable as stated.
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "review_cap_not_persisted=1"
+    "review_cap_not_persisted=2"
   ],
   "stages": [
     {
@@ -45,27 +45,23 @@ None.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 19,
+      "grounded_source_count": 15,
       "search_source_urls": [
-        "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Grocery+Private+Label+Food+Business+in+China_Guangzhou+ATO_China+-+People%27s+Republic+of_CH2026-0078.pdf",
-        "https://arxiv.org/abs/2603.20533",
-        "https://cdn.cboe.com/resources/regulation/rule_filings/approved/2026/SR-CBOE-2026-022.pdf",
-        "https://dataweb.usitc.gov/?f=beta",
-        "https://dataweb.usitc.gov/trade/search/GenImp/HTS",
-        "https://public-inspection.federalregister.gov/2026-08468.pdf",
-        "https://usatrade.census.gov/trade_client/",
-        "https://www.api.org/",
-        "https://www.api.org/-/media/Files/misc/2026/EnergyAgenda_2026.pdf",
-        "https://www.bea.gov/data/intl-trade-investment/international-trade-goods-and-services",
-        "https://www.census.gov/econ/indicators/index.html",
-        "https://www.eia.gov/dnav/pet/pet_move_impcus_a1_z00_epp0_im0_mbbl_m.htm",
-        "https://www.imf.org/-/media/files/publications/tnm/2026/english/tnmea2026006-s001.pdf",
-        "https://www.nist.gov/news-events/news/2026/05/guidelines-secure-deployment-restful-web-apis-draft-sp-800-228a-available",
-        "https://www.reginfo.gov/public/do/eAgendaViewRule?RIN=0610-AA79&pubId=202504",
-        "https://www.sec.gov/Archives/edgar/data/1058623/000105862326000029/cmls-20260331.htm",
-        "https://www.sec.gov/Archives/edgar/data/1467623/000146762326000022/a2026asmproxyandannualrepo.pdf",
-        "https://www.sec.gov/Archives/edgar/data/1505952/000110465926094949/tm2621515-1_prem14c.htm",
-        "https://www.test.census.gov/data/developers/data-sets/international-trade.html"
+        "https://ifr.org/downloads/press_docs/2025-09-25-IFR_press_release_Americas_in_English.pdf",
+        "https://ifr.org/home/P27",
+        "https://ifr.org/ifr-press-releases/news/record-3.5-million-industrial-robots-operating-worldwide",
+        "https://ifr.org/ifr-press-releases/news/service-robots-on-the-rise-worldwide",
+        "https://ifr.org/img/worldrobotics/Executive_Summary_WR_2025_Industrial_Robots.pdf",
+        "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf",
+        "https://www.energy.gov/articles/energy-department-announces-actions-secure-american-critical-minerals-and-materials-supply",
+        "https://www.energy.gov/articles/united-states-and-australia-meet-mining-minerals-and-metals-investment-ministerial",
+        "https://www.energy.gov/cmei/articles/doe-launches-initial-screening-application-critical-mineral-and-material-funding",
+        "https://www.energy.gov/hgeo/articles/doe-invests-over-32-million-increase-efficiency-us-critical-minerals-production",
+        "https://www.iea.org/reports/electricity-2026/flexibility",
+        "https://www.iea.org/reports/electricity-2026/grids",
+        "https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage",
+        "https://www.usgs.gov/centers/national-minerals-information-center/mineral-commodity-summaries",
+        "https://www.usgs.gov/publications/mineral-commodity-summaries-2026"
       ]
     },
     {
@@ -78,10 +74,9 @@ None.
         "major_risks:list_sanitized",
         "unknowns:list_sanitized",
         "falsification_conditions:list_sanitized",
-        "material_update:unknown_false",
-        "evidence:duplicate_removed"
+        "material_update:unknown_false"
       ],
-      "grounded_sources": 1,
+      "grounded_sources": 2,
       "retry_justified": false
     },
     {
@@ -116,41 +111,65 @@ None.
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_cc7055201745c5bf045e",
+      "candidate_id": "opp_23d88c6983c0e8ea6ece",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 20,
+      "grounded_source_count": 42,
       "search_source_urls": [
-        "https://cdn.cboe.com/resources/regulation/rule_filings/approved/2026/SR-CBOE-2026-039.pdf",
-        "https://datashop.cboe.com/documentation",
-        "https://ltnr.ca/morty/?mortyurl=https%3A%2F%2Fwww.federalregister.gov%2Fdocuments%2F2026%2F03%2F11%2F2026-04709%2Fself-regulatory-organizations-cboe-exchange-inc-notice-of-filing-and-immediate-effectiveness-of-a",
-        "https://ltnr.ca/morty/?mortyurl=https%3A%2F%2Fwww.federalregister.gov%2Fdocuments%2F2026%2F05%2F01%2F2026-08468%2Fself-regulatory-organizations-cboe-exchange-inc-notice-of-filing-and-immediate-effectiveness-of-a",
-        "https://policyrisk.com/federal-register/2026-04709",
-        "https://policyrisk.com/research/federal-register/2025-13724",
-        "https://public-inspection.federalregister.gov/2017-25144.pdf?1511185543=",
-        "https://public-inspection.federalregister.gov/2025-22726.pdf",
-        "https://regulations.justia.com/regulations/fedreg/2026/03/11/2026-04709.html",
-        "https://www.cboe.com/services/analytics/notices/cboe-silexx-notices/",
-        "https://www.reddit.com/r/algotrading/comments/1om8f9w/best_api_trying_polygonmassive_now/",
-        "https://www.reddit.com/r/codex/comments/1wt9w9j/is_there_any_conceivable_way_they_could_actually/",
-        "https://www.reddit.com/r/maxjustrisk/comments/11l3361",
-        "https://www.sec.gov/comments/sr-cboe-2026-022/notice-filing-immediate-effectiveness-proposed-rule-change-replace-existing-flat-monthly-fee-silexx",
-        "https://www.sec.gov/file/34-104939-ex5",
-        "https://www.sec.gov/files/rules/sro/cboe/2026/34-105322.pdf",
-        "https://www.sec.gov/rules-regulations/self-regulatory-organization-rulemaking/national-securities-exchanges?file_number=&month=All&order=field_publish_date&page=220&release_number=&sort=asc&sro_organization=All&year=All",
-        "https://www.sec.gov/rules-regulations/self-regulatory-organization-rulemaking/national-securities-exchanges?file_number=&order=field_publish_date&page=6&release_number=&sort=desc&sro_organization=192751",
-        "https://www.sec.gov/rules-regulations/self-regulatory-organization-rulemaking/sr-cboe-2026-039",
-        "https://www.sec.gov/taxonomy/term/193086?order=field_publish_date&page=286&sort=asc"
+        "https://advancedenergyunited.org/reports/breaking-the-bottleneck-industry-insights-on-barriers-to-der-adoption/",
+        "https://apnews.com/article/08ed707897fa5274663649bb2c372849",
+        "https://apnews.com/article/a84b8c7621c474c9ee9339b1d809a629",
+        "https://arxiv.org/abs/2007.00486",
+        "https://arxiv.org/abs/2008.07635",
+        "https://arxiv.org/abs/2410.07740",
+        "https://arxiv.org/abs/2609.10455",
+        "https://emp.lbl.gov/publications/queued-2025-edition-characteristics",
+        "https://en.wikipedia.org/wiki/Battery_energy_storage_system",
+        "https://en.wikipedia.org/wiki/Federal_Energy_Regulatory_Commission",
+        "https://escholarship.org/content/qt50d9w4tn/qt50d9w4tn_noSplash_a8d3a14ce3fd6077c85fa6f3b7d0fc7a.pdf?t=sced76",
+        "https://iea.blob.core.windows.net/assets/b73798cb-e452-42b9-9d8a-07542de7a041/Electricity_2026.pdf",
+        "https://wiki.hearn.me/sources/Queued-Up-2025-Edition-%E2%80%94-LBNL---2025-12-15",
+        "https://www.axios.com/2024/11/25/energy-department-to-deploy-ai-on-power-grid-backlog",
+        "https://www.axios.com/newsletters/axios-generate-0b4b4b00-8f1e-11f0-807f-f1f86585c4a8",
+        "https://www.axios.com/newsletters/axios-san-antonio-99e13260-325b-11ef-9678-39ef204609d2",
+        "https://www.enverus.com/ebooks/2025-interconnection-queue-outlook-report/",
+        "https://www.esig.energy/reports-briefs/utility-perspectives-on-making-grid-enhancing-technologies-work/",
+        "https://www.esig.energy/wp-content/uploads/2025/07/ESIG-Grid-Enhancing-Technologies-report-2025.pdf",
+        "https://www.esig.energy/wp-content/uploads/2025/10/ESIG-Grid-Enhancing-Technologies-report-2025.pdf",
+        "https://www.gridalmanac.com/queue/insights",
+        "https://www.iea.org/reports/electricity-2026/executive-summary",
+        "https://www.iea.org/reports/electricity-2026/grids",
+        "https://www.iea.org/reports/global-energy-review-2026",
+        "https://www.iea.org/reports/global-energy-review-2026/global-trends",
+        "https://www.iea.org/reports/global-energy-review-2026/key-findings",
+        "https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage",
+        "https://www.itpro.com/infrastructure/data-centres/ofgem-mulls-fees-for-data-center-grid-connection-requests",
+        "https://www.reddit.com/r/EnergyStorage/comments/1shwzcj/the_us_bess_reality_a_balanced_look_at_the_2025/",
+        "https://www.reddit.com/r/EnergyStorage/comments/1wmezm1/battery_storage_keeps_getting_called_critical_for/",
+        "https://www.reddit.com/r/Grid_Ops/comments/1lwp062",
+        "https://www.reddit.com/r/Grid_Ops/comments/1w6t7az/everyone_quotes_47_year_interconnection_waits_for/",
+        "https://www.reddit.com/r/PowerSystemsEE/comments/1f8u7k6",
+        "https://www.reddit.com/r/RenewableEnergy/comments/six6bo",
+        "https://www.reddit.com/r/energy/comments/154eesj",
+        "https://www.reddit.com/r/energy/comments/16t43ex",
+        "https://www.reddit.com/r/energy/comments/1c0y77a/new_2024_queued_up_report_from_lawrence_berkeley/",
+        "https://www.reddit.com/r/energy/comments/1ciwdu4",
+        "https://www.reddit.com/r/energy/comments/1d2syv6",
+        "https://www.reddit.com/r/europe/comments/1i0etqt",
+        "https://www.ssii.org/wp-content/uploads/2025/04/SI2-Interconnection-Whitepaper-04.25.24.pdf",
+        "https://www.whitehouse.gov/wp-content/uploads/2026/04/2026-Economic-Report-of-the-President-2.pdf"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_cc7055201745c5bf045e",
-      "coercions": []
+      "candidate_id": "opp_23d88c6983c0e8ea6ece",
+      "coercions": [
+        "contrary_evidence"
+      ]
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_cc7055201745c5bf045e",
+      "candidate_id": "opp_23d88c6983c0e8ea6ece",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -158,7 +177,7 @@ None.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_cc7055201745c5bf045e",
+      "candidate_id": "opp_23d88c6983c0e8ea6ece",
       "coercions": []
     }
   ],
@@ -166,44 +185,44 @@ None.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 216,
-      "cache_write_tokens": 4556,
+      "reasoning_tokens": 192,
+      "cache_write_tokens": 4560,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.014499,
+      "cumulative_cost_usd": 0.0146894,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13016,
+      "input_tokens": 13055,
       "cached_tokens": 0,
-      "output_tokens": 1390,
+      "output_tokens": 1542,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.014499
+      "estimated_cost_usd": 0.0146894
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 186,
-      "cache_write_tokens": 5056,
+      "reasoning_tokens": 162,
+      "cache_write_tokens": 5112,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.029019,
+      "cumulative_cost_usd": 0.0295166,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13434,
+      "input_tokens": 13834,
       "cached_tokens": 0,
-      "output_tokens": 1317,
+      "output_tokens": 1504,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01452
+      "estimated_cost_usd": 0.0148272
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 136,
-      "cache_write_tokens": 2801,
+      "reasoning_tokens": 69,
+      "cache_write_tokens": 2797,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0425435,
+      "cumulative_cost_usd": 0.0434391,
       "model": "gpt-5.6-terra",
-      "input_tokens": 2804,
+      "input_tokens": 2800,
       "cached_tokens": 0,
-      "output_tokens": 543,
+      "output_tokens": 577,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.0135245
+      "estimated_cost_usd": 0.0139225
     }
   ]
 }
