@@ -294,7 +294,7 @@ def test_pagination_duplicate_handling_and_caps():
         published_from="2026-06-01T00:00:00Z", published_to="2026-06-05T00:00:00Z",
         observed_at=OBSERVED, max_pages=2, max_details=2)
     assert [r.code for r in records] == ["999999-1-COT26", "999999-2-COT26"]
-    assert diag == {"pages_fetched": 2, "detail_attempts": 2, "details_fetched": 2, "duplicate_listings": 1, "malformed_details": 0, "malformed_reasons": {}, "malformed_samples": [], "requests_used": 4}
+    assert diag == {"pages_fetched": 2, "detail_attempts": 2, "details_fetched": 2, "duplicate_listings": 1, "malformed_details": 0, "malformed_reasons": {}, "malformed_samples": [], "api_failures": {}, "transient_retries": 0, "budget_exhausted": False, "requests_used": 4}
 
 
 def test_malformed_detail_attempts_are_bounded_and_reported():
@@ -382,3 +382,58 @@ def test_documented_nested_purchase_order_id_takes_precedence():
     raw["payload"]["id_orden_compra"] = 654321
     r = normalize_detail(raw, observed_at=OBSERVED)
     assert r.purchase_order.internal_id == 123456
+
+
+def test_transient_504_retries_and_recovers_within_request_budget():
+    detail = raw_detail()
+    listing = {"success":"OK","payload":{"items":[{"codigo":"999999-1-COT26"}],"paginacion":{"total_paginas":1,"numero_pagina":1}}}
+    calls = []
+    sleeps = []
+    def transport(url, headers, timeout):
+        calls.append(url)
+        if "/v2/compra-agil/" not in url:
+            return listing
+        detail_calls = sum("/v2/compra-agil/" in x for x in calls)
+        if detail_calls == 1:
+            raise ProcurementAPIError("api_http_504")
+        return detail
+    client = ChileCompraClient("ticket", request_limit=4, transport=transport, retry_limit=2, retry_backoff_seconds=1, sleep_fn=sleeps.append)
+    records, diag = client.historical_window(
+        published_from="2026-06-01T00:00:00Z", published_to="2026-06-02T00:00:00Z",
+        observed_at=OBSERVED, max_pages=1, max_details=1)
+    assert len(records) == 1
+    assert diag["transient_retries"] == 1
+    assert diag["api_failures"] == {}
+    assert diag["requests_used"] == 3
+    assert sleeps == [1.0]
+
+
+def test_transient_504_never_exceeds_global_request_budget():
+    listing = {"success":"OK","payload":{"items":[{"codigo":"A"},{"codigo":"B"}],"paginacion":{"total_paginas":1,"numero_pagina":1}}}
+    def transport(url, headers, timeout):
+        if "/v2/compra-agil/" not in url:
+            return listing
+        raise ProcurementAPIError("api_http_504")
+    client = ChileCompraClient("ticket", request_limit=3, transport=transport, retry_limit=2, retry_backoff_seconds=0, sleep_fn=lambda _: None)
+    records, diag = client.historical_window(
+        published_from="2026-06-01T00:00:00Z", published_to="2026-06-02T00:00:00Z",
+        observed_at=OBSERVED, max_pages=1, max_details=2)
+    assert records == []
+    assert diag["requests_used"] == 3
+    assert diag["transient_retries"] == 1
+    assert diag["api_failures"] == {"api_http_504": 1}
+    assert diag["budget_exhausted"] is True
+
+
+def test_rate_limit_is_not_retried():
+    calls = 0
+    def transport(url, headers, timeout):
+        nonlocal calls
+        calls += 1
+        raise ProcurementAPIError("api_rate_limited")
+    client = ChileCompraClient("ticket", request_limit=5, transport=transport, retry_limit=2, retry_backoff_seconds=0, sleep_fn=lambda _: None)
+    with pytest.raises(ProcurementAPIError, match="api_rate_limited"):
+        client.list_page(published_from="2026-06-01T00:00:00Z", published_to="2026-06-02T00:00:00Z")
+    assert calls == 1
+    assert client.budget.used == 1
+    assert client.transient_retries == 0
