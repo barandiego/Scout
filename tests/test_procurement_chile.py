@@ -354,3 +354,31 @@ def test_malformed_timestamp_shape_is_sanitized():
         "present": True, "type": "str", "parseable_iso": True, "timezone_aware": False
     }
     assert "Fixture de útiles estandarizados" not in json.dumps(sample, ensure_ascii=False)
+
+
+def test_real_api_naive_timestamps_are_preserved_without_invented_timezone():
+    raw = raw_detail()
+    raw["payload"]["fechas"]["fecha_publicacion"] = "2026-06-01T12:00:00"
+    raw["payload"]["fechas"]["fecha_cierre"] = "2026-06-02T15:00:00"
+    raw["payload"]["fechas"]["fecha_ultimo_cambio"] = "2026-06-03T12:00:00"
+    raw["payload"]["convocatoria"]["fecha_cierre_primer_llamado"] = "2026-06-02T15:00:00"
+    r = normalize_detail(raw, observed_at=OBSERVED)
+    assert r.published_at == "2026-06-01T12:00:00"
+    assert r.closes_at == "2026-06-02T15:00:00"
+    assert r.last_changed_at == "2026-06-03T12:00:00"
+    assert r.first_call_closes_at == "2026-06-02T15:00:00"
+
+
+def test_observed_top_level_purchase_order_id_is_supported():
+    raw = raw_detail()
+    raw["payload"]["orden_compra"] = {}
+    raw["payload"]["id_orden_compra"] = 654321
+    r = normalize_detail(raw, observed_at=OBSERVED)
+    assert r.purchase_order.internal_id == 654321
+
+
+def test_documented_nested_purchase_order_id_takes_precedence():
+    raw = raw_detail()
+    raw["payload"]["id_orden_compra"] = 654321
+    r = normalize_detail(raw, observed_at=OBSERVED)
+    assert r.purchase_order.internal_id == 123456
