@@ -25,10 +25,18 @@ def TS(v):
     try: d=datetime.fromisoformat(s.replace("Z","+00:00"))
     except ValueError: return None
     return d.isoformat() if d.tzinfo else None
+def API_TS(v):
+    s=S(v,100)
+    if not s: return None
+    try: d=datetime.fromisoformat(s.replace("Z","+00:00"))
+    except ValueError: return None
+    return d.isoformat()
 def DT(v):
     d=datetime.fromisoformat(v.replace("Z","+00:00"))
     if d.tzinfo is None: raise ValueError("timestamp_requires_timezone")
     return d
+def API_DT(v):
+    return datetime.fromisoformat(v.replace("Z","+00:00"))
 
 def nonneg(v):
     x=N(v); return x if x is not None and x >= 0 else None
@@ -68,14 +76,21 @@ class ProcurementRecord(BaseModel):
     estimated_budget:float|None=Field(default=None,ge=0); available_budget:float|None=Field(default=None,ge=0); available_budget_clp:float|None=Field(default=None,ge=0)
     purchase_order:PurchaseOrderRef=Field(default_factory=PurchaseOrderRef); products:list[ProductLine]=Field(default_factory=list); quotes:list[SupplierQuote]=Field(default_factory=list)
     total_quotes_received:int|None=Field(default=None,ge=0); cancellation_reason:str=""; desert_reason:str=""; selection_reason:str=""; source_observed_at:str
-    @field_validator("published_at","closes_at","first_call_closes_at","second_call_closes_at","last_changed_at","source_observed_at")
+    @field_validator("published_at","closes_at","first_call_closes_at","second_call_closes_at","last_changed_at")
     @classmethod
-    def t(cls,v):
-        if v is not None: DT(v)
+    def api_t(cls,v):
+        if v is not None: API_DT(v)
+        return v
+    @field_validator("source_observed_at")
+    @classmethod
+    def observed_t(cls,v):
+        DT(v)
         return v
     @model_validator(mode="after")
     def chronology(self):
-        if DT(self.closes_at)<DT(self.published_at): raise ValueError("close_before_publication")
+        pub=API_DT(self.published_at); close=API_DT(self.closes_at)
+        if (pub.tzinfo is None)!=(close.tzinfo is None): raise ValueError("mixed_api_timestamp_timezone_semantics")
+        if close<pub: raise ValueError("close_before_publication")
         return self
     def digest(self):
         return hashlib.sha256(self.model_dump_json(exclude={"source_observed_at"}).encode()).hexdigest()
@@ -131,7 +146,7 @@ def _payload(raw):
     return raw["payload"]
 def normalize_detail(raw:dict[str,Any],*,observed_at:str)->ProcurementRecord:
     p=_payload(raw); f=D(p.get("fechas")); ent=D(p.get("entrega")); bud=D(p.get("presupuesto")); buy=D(p.get("institucion")); po=D(p.get("orden_compra"))
-    code=S(p.get("codigo"),200); pub=TS(f.get("fecha_publicacion")); close=TS(f.get("fecha_cierre")); changed=TS(f.get("fecha_ultimo_cambio")) or pub
+    code=S(p.get("codigo"),200); pub=API_TS(f.get("fecha_publicacion")); close=API_TS(f.get("fecha_cierre")); changed=API_TS(f.get("fecha_ultimo_cambio")) or pub
     obs=TS(observed_at)
     if not code: raise ProcurementDataError("missing_code")
     if not pub or not close or not changed or not obs: raise ProcurementDataError("missing_required_timestamps")
@@ -144,7 +159,7 @@ def normalize_detail(raw:dict[str,Any],*,observed_at:str)->ProcurementRecord:
         for y in L(x.get("productos_cotizados")):
             y=D(y); qps.append(QuoteProduct(product_code=S(y.get("codigo_producto"),200) or (str(y.get("codigo_producto")) if type(y.get("codigo_producto")) is int else ""),name=S(y.get("nombre_producto")),description=S(y.get("descripcion")),quantity=nonneg(y.get("cantidad")),unit_price_clp=nonneg(y.get("precio_unitario")),line_total_clp=nonneg(y.get("monto_total_producto"))))
         quotes.append(SupplierQuote(supplier_rut=S(x.get("rut_proveedor"),100),supplier_name=S(x.get("razon_social")),is_emt=B(x.get("es_emt")),quote_id=nonneg_i(x.get("id_cotizacion")),active=B(x.get("activo")),created_at=TS(x.get("fecha_creacion")),valid_until=TS(x.get("fecha_vigencia")),net_clp=nonneg(x.get("valor_neto")),tax_clp=nonneg(x.get("total_impuesto")),shipping_clp=nonneg(x.get("monto_despacho")),total_clp=nonneg(x.get("monto_total")),tax_name=S(x.get("nombre_impuesto"),200),tax_percent=nonneg(x.get("porcentaje_impuesto")),description=S(x.get("descripcion_cotizacion")) or S(x.get("descripcion")),inadmissibility_reason=S(x.get("justificacion_inadmisibilidad")),products=qps))
-    return ProcurementRecord(code=code,name=S(p.get("nombre")),description=S(p.get("descripcion")),status=S(D(p.get("estado")).get("codigo"),200).casefold(),call_number=I(D(p.get("convocatoria")).get("estado_convocatoria")),published_at=pub,closes_at=close,first_call_closes_at=TS(D(p.get("convocatoria")).get("fecha_cierre_primer_llamado")),second_call_closes_at=TS(D(p.get("convocatoria")).get("fecha_cierre_segundo_llamado")),last_changed_at=changed,buyer_name=S(buy.get("organismo_comprador")),buyer_rut=S(buy.get("rut"),100),buying_unit=S(buy.get("unidad_compra")),region_code=I(buy.get("region")),region_name=S(buy.get("nombre_region")),delivery_address=S(ent.get("direccion_entrega")),delivery_days=nonneg_i(ent.get("plazo_entrega_dias")),budget_type=S(bud.get("tipo_presupuesto"),200),currency=S(bud.get("moneda"),30),estimated_budget=nonneg(bud.get("presupuesto_estimado")),available_budget=nonneg(bud.get("monto_disponible")),available_budget_clp=nonneg(bud.get("monto_disponible_clp")),purchase_order=PurchaseOrderRef(internal_id=nonneg_i(po.get("id_orden_compra")),id_oc=nonneg_i(po.get("id_oc")),external_code=S(po.get("codigo_orden_compra"),200),state=S(po.get("estado_orden_compra"),200)),products=products,quotes=quotes,total_quotes_received=nonneg_i(D(p.get("resumen")).get("total_ofertas_recibidas")),cancellation_reason=S(D(p.get("motivos")).get("motivo_cancelacion")),desert_reason=S(D(p.get("motivos")).get("motivo_desierta")),selection_reason=S(D(p.get("motivos")).get("motivo_seleccion")),source_observed_at=obs)
+    return ProcurementRecord(code=code,name=S(p.get("nombre")),description=S(p.get("descripcion")),status=S(D(p.get("estado")).get("codigo"),200).casefold(),call_number=I(D(p.get("convocatoria")).get("estado_convocatoria")),published_at=pub,closes_at=close,first_call_closes_at=API_TS(D(p.get("convocatoria")).get("fecha_cierre_primer_llamado")),second_call_closes_at=API_TS(D(p.get("convocatoria")).get("fecha_cierre_segundo_llamado")),last_changed_at=changed,buyer_name=S(buy.get("organismo_comprador")),buyer_rut=S(buy.get("rut"),100),buying_unit=S(buy.get("unidad_compra")),region_code=I(buy.get("region")),region_name=S(buy.get("nombre_region")),delivery_address=S(ent.get("direccion_entrega")),delivery_days=nonneg_i(ent.get("plazo_entrega_dias")),budget_type=S(bud.get("tipo_presupuesto"),200),currency=S(bud.get("moneda"),30),estimated_budget=nonneg(bud.get("presupuesto_estimado")),available_budget=nonneg(bud.get("monto_disponible")),available_budget_clp=nonneg(bud.get("monto_disponible_clp")),purchase_order=PurchaseOrderRef(internal_id=nonneg_i(po.get("id_orden_compra")) if nonneg_i(po.get("id_orden_compra")) is not None else nonneg_i(p.get("id_orden_compra")),id_oc=nonneg_i(po.get("id_oc")),external_code=S(po.get("codigo_orden_compra"),200),state=S(po.get("estado_orden_compra"),200)),products=products,quotes=quotes,total_quotes_received=nonneg_i(D(p.get("resumen")).get("total_ofertas_recibidas")),cancellation_reason=S(D(p.get("motivos")).get("motivo_cancelacion")),desert_reason=S(D(p.get("motivos")).get("motivo_desierta")),selection_reason=S(D(p.get("motivos")).get("motivo_seleccion")),source_observed_at=obs)
 
 def reconstructability_reasons(r:ProcurementRecord)->list[str]:
     out=[]
