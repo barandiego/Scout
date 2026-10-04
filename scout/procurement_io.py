@@ -1,6 +1,7 @@
 """Bounded read-only ChileCompra adapter and isolated procurement state store."""
 from __future__ import annotations
 import json
+from datetime import datetime
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Callable
@@ -11,6 +12,24 @@ from .state import atomic_write, read_jsonl
 from .procurement_core import D,L,S,TS,DT,nonneg_i,_payload,normalize_detail,ProcurementAPIError,ProcurementDataError
 
 BASE_URL="https://api2.mercadopublico.cl"
+
+def _detail_shape(raw):
+    payload=D(raw.get("payload")) if isinstance(raw,dict) else {}
+    fechas=D(payload.get("fechas"))
+    date_shape={}
+    for key in ("fecha_publicacion","fecha_cierre","fecha_ultimo_cambio"):
+        value=fechas.get(key)
+        item={"present":key in fechas,"type":type(value).__name__}
+        if isinstance(value,str):
+            try:
+                parsed=datetime.fromisoformat(value.replace("Z","+00:00"))
+                item["parseable_iso"]=True
+                item["timezone_aware"]=parsed.tzinfo is not None
+            except ValueError:
+                item["parseable_iso"]=False
+                item["timezone_aware"]=False
+        date_shape[key]=item
+    return {"payload_keys":sorted(str(k) for k in payload.keys()),"fechas_keys":sorted(str(k) for k in fechas.keys()),"date_shape":date_shape}
 
 @dataclass
 class RequestBudget:
@@ -56,7 +75,7 @@ class ChileCompraClient:
         return self._get("/v2/compra-agil/"+quote(code,safe=""))
     def historical_window(self,*,published_from,published_to,observed_at,max_pages,max_details,states=None):
         if type(max_pages) is not int or max_pages<=0 or type(max_details) is not int or max_details<=0: raise ProcurementAPIError("invalid_history_caps")
-        records=[]; codes=set(); duplicates=malformed=pages=detail_attempts=0; malformed_reasons={}
+        records=[]; codes=set(); duplicates=malformed=pages=detail_attempts=0; malformed_reasons={}; malformed_samples=[]
         for page in range(1,max_pages+1):
             payload=D(_payload(self.list_page(published_from=published_from,published_to=published_to,page=page,page_size=50,states=states)))
             items=L(payload.get("items")); pag=D(payload.get("paginacion")); pages+=1
@@ -67,15 +86,17 @@ class ChileCompraClient:
                 codes.add(code)
                 if detail_attempts>=max_details: break
                 detail_attempts+=1
-                try: records.append(normalize_detail(self.detail(code),observed_at=observed_at))
+                raw=self.detail(code)
+                try: records.append(normalize_detail(raw,observed_at=observed_at))
                 except ProcurementDataError as e:
                     malformed+=1
                     reason=str(e) or e.__class__.__name__
                     malformed_reasons[reason]=malformed_reasons.get(reason,0)+1
+                    if len(malformed_samples)<1: malformed_samples.append({"code":code,"reason":reason,**_detail_shape(raw)})
             if detail_attempts>=max_details: break
             total=nonneg_i(pag.get("total_paginas")); current=nonneg_i(pag.get("numero_pagina"))
             if total is None or current is None or current>=total: break
-        return records,{"pages_fetched":pages,"detail_attempts":detail_attempts,"details_fetched":len(records),"duplicate_listings":duplicates,"malformed_details":malformed,"malformed_reasons":dict(sorted(malformed_reasons.items())),"requests_used":self.budget.used}
+        return records,{"pages_fetched":pages,"detail_attempts":detail_attempts,"details_fetched":len(records),"duplicate_listings":duplicates,"malformed_details":malformed,"malformed_reasons":dict(sorted(malformed_reasons.items())),"malformed_samples":malformed_samples,"requests_used":self.budget.used}
 class ProcurementStore:
     def __init__(self,path:Path):
         self.path=path; self.events=read_jsonl(path); seen={}
