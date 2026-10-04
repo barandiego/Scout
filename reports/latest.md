@@ -1,10 +1,10 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-04T15:27:34.065043+00:00
+Generated: 2026-10-04T20:58:16.404271+00:00
 
-- outcome: DEGRADED_SUCCESS
+- outcome: SUCCESS
 - ok: True
-- lenses: ['geographic_arbitrage', 'ai_open_source', 'public_markets']
+- lenses: ['physical_commerce', 'regulation_infrastructure', 'robotics_automation']
 - raw_candidates: 3
 - parseable_candidates: 3
 - normalized_candidates: 3
@@ -12,17 +12,17 @@ Generated: 2026-10-04T15:27:34.065043+00:00
 - grounded_sources: 6
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 1
+- judge_attempts: 0
 - critic_reviews: 1
 - judge_reviews: 0
 - survivors: 0
-- watches: 1
-- rejected: 0
-- errors_by_stage: {'judge': 1}
+- watches: 0
+- rejected: 1
+- errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.06238475
+- cost_usd: 0.0289467
 - cost_uncertain: False
-- budget_remaining_usd: 0.01761525
+- budget_remaining_usd: 0.0510533
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -44,8 +44,7 @@ No survivors. Scout does not manufacture a daily winner.
 ```json
 {
   "notes": [
-    "review_cap_not_persisted=2",
-    "judge:response_not_completed"
+    "review_cap_not_persisted=2"
   ],
   "stages": [
     {
@@ -53,48 +52,27 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 40,
+      "grounded_source_count": 19,
       "search_source_urls": [
-        "https://api.cmfchile.cl/",
-        "https://api.cmfchile.cl/documentacion/Fichas.html",
-        "https://api.cmfchile.cl/documentacion/UF.html",
-        "https://arxiv.org/abs/2508.02694",
-        "https://arxiv.org/abs/2509.09292",
-        "https://arxiv.org/abs/2601.17833",
-        "https://arxiv.org/abs/2602.12144",
-        "https://cmfchile.cl/portal/prensa/625/w4-article-113897.html",
-        "https://cmfchile.cl/portal/principal/613/articles-86367_doc_pdf.pdf",
-        "https://devblogs.microsoft.com/foundry/build-2026-open-trust-stack-ai-agents/",
-        "https://en.wikipedia.org/wiki/CrewAI",
-        "https://en.wikipedia.org/wiki/Ollama",
-        "https://en.wikipedia.org/wiki/OpenClaw",
-        "https://en.wikipedia.org/wiki/Open_finance",
-        "https://en.wikipedia.org/wiki/Z.ai",
-        "https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_financiera",
-        "https://github.com/areal-project/AReaL",
-        "https://github.com/microsoft/agent-lightning",
-        "https://soit.ai/en/blog/soit-open-source-launch/",
-        "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cncf.io/announcements/2026/03/23/general-availability-of-dapr-agents-delivers-production-reliability-for-enterprise-ai/",
-        "https://www.imf.org/-/media/files/publications/cr/2024/english/1chlea2024002.pdf",
-        "https://www.linuxfoundation.org/hubfs/Research%20Reports/Open%20Source%20and%20the%20Future%20of%20AI_Report_2026.pdf?hsLang=en",
-        "https://www.reddit.com/r/AIAgentsInAction/comments/1turr0j/why_we_opensourced_our_entire_ai_platform_and/",
-        "https://www.reddit.com/r/AI_Agents/comments/1tp335p/i_compared_8_opensource_ai_agent_frameworks_so/",
-        "https://www.reddit.com/r/AI_Agents/comments/1trzvim/the_2026_ai_agent_landscape_25_frameworks/",
-        "https://www.reddit.com/r/Superframeworks/comments/1u20v9m/how_much_does_safe_ai_agent_automation_actually/",
-        "https://www.reddit.com/r/aiagents/comments/1venud6/best_ai_agent_frameworks_in_2026_7_that_have/",
-        "https://www.reddit.com/r/chileIT/comments/1gf8fev/apis_bancarias/",
-        "https://www.reddit.com/r/jenova_ai/comments/1v5bib7/ai_agent_development_cost_full_breakdown_how_to/",
-        "https://www.reddit.com/r/jenova_ai/comments/1v5bp7f/ai_agent_infrastructure_stack_build_agents_with/",
-        "https://www.reddit.com/r/learnmachinelearning/comments/1tp1b22/comprehensive_comparison_of_8_opensource_ai_agent/",
-        "https://www.reddit.com/r/u_Secuodsoftpvtltd/comments/1u8z2cz/ai_agent_development_in_india_2026_cost_process/",
-        "https://www.reddit.com/r/u_uviktech/comments/1sxj3nk/agentic_ai_frameworks_in_2026_the_production/",
-        "https://www.reddit.com/r/u_uviktech/comments/1sxj5z3/agentic_ai_frameworks_in_2026_the_production/",
-        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000098/managementcommentary2q2026.pdf",
-        "https://www.techradar.com/pro/how-to-automate-workflows-using-open-source-ai-agents",
-        "https://www.xponance.com/wp-content/uploads/2026/01/4Q-2025-Market-Outlook-Latam-Markets-in-2026.pdf"
+        "https://assets-cms.globalxetfs.com/CD26%20-%20Robotics%20%26%20Physical%20AI%20Post.pdf",
+        "https://bea.gov/data/intl-trade-investment/international-trade-goods-and-services",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1789308948102&uri=CELEX%3A32026R1778",
+        "https://ifr.org/wr-industrial-robots/",
+        "https://public-inspection.federalregister.gov/2026-07205.pdf",
+        "https://www.api.org/-/media/Files/misc/2026/EnergyAgenda_2026.pdf",
+        "https://www.api.org/news-policy-and-issues/news/2026/01/28/api-testifies-on-urgency-for-permitting-reform-as-energy-demand-rises",
+        "https://www.census.gov/econ/indicators/index.html",
+        "https://www.census.gov/foreign-trade/statistics/historical/enduse.html",
+        "https://www.census.gov/library/working-papers/2025/adrm/CES-WP-25-27.html",
+        "https://www.cisco.com/c/dam/en/us/solutions/networking/industrial-iot/2026-state-of-industrial-ai-report-manufacturing.pdf",
+        "https://www.cms.gov/newsroom/fact-sheets/2026-cms-interoperability-standards-prior-authorization-drugs-proposed-rule",
+        "https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-prior-authorization-final-rule-cms-0057-f",
+        "https://www.gov.uk/government/news/uk-to-become-worlds-fastest-market-to-commercialise-innovation-with-regulatory-shake-up",
+        "https://www.govinfo.gov/content/pkg/FR-2026-04-14/pdf/2026-07205.pdf",
+        "https://www.halkwinds.com/research/robotics-cobots-manufacturing-report-2026",
+        "https://www.jpmorgan.com/content/dam/jpmorgan/documents/cb/insights/banking/commercial-banking/cb-insights-banking-startup-insights-report-h1-2026.pdf",
+        "https://www.reddit.com/r/EcommerceCircle/comments/1wfhnnh/us_import_volumes_are_running_higher_than/",
+        "https://www.sec.gov/newsroom/press-releases/2026-53-sec-establishes-joint-data-standards-required-under-financial-data-transparency-act-2022"
       ]
     },
     {
@@ -144,99 +122,89 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_7c40e3dba23666b0c578",
+      "candidate_id": "opp_1eef53c149ad7fb25706",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 30,
+      "grounded_source_count": 40,
       "search_source_urls": [
-        "https://arxiv.org/abs/2601.14071",
-        "https://arxiv.org/abs/2603.29278",
-        "https://arxiv.org/abs/2606.05594",
-        "https://arxiv.org/abs/2609.27632",
-        "https://cmfchile.cl/portal/prensa/625/w4-article-113897.html",
-        "https://cmfchile.cl/portal/principal/623/w4-article-77242.html",
-        "https://cmfchile.cl/portal/principal/623/w4-article-92466.html",
-        "https://en.wikipedia.org/wiki/CPSS-IOSCO_Principles_for_Financial_Market_Infrastructures",
-        "https://en.wikipedia.org/wiki/ISO/IEC_5230",
-        "https://en.wikipedia.org/wiki/Open_banking",
-        "https://en.wikipedia.org/wiki/Open_finance",
-        "https://en.wikipedia.org/wiki/PEPPOL",
-        "https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_financiera",
-        "https://jdf.cl/en/comision-para-el-mercado-financiero-dicta-norma-de-caracter-general-n514-que-regula-el-sistema-de-finanzas-abiertas/",
-        "https://openfinance.cl/",
-        "https://www.bcentral.cl/documents/33528/5773323/fsr-1h-2024.pdf/064c0184-b2cb-2e03-27b3-fd487bb1190f?t=1717175352024",
-        "https://www.carey.cl/en/cmf-amends-ncg-no-514-and-incorporates-technical-standards-for-the-implementation-of-the-open-finance-system",
-        "https://www.cmfchile.cl/portal/principal/613/articles-102557_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/articles-80854_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/articles-82752_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.elibrary.imf.org/view/journals/002/2024/042/article-A003-en.xml",
-        "https://www.hyperpagos.app/",
-        "https://www.imf.org/-/media/files/publications/cr/2024/english/1chlea2024002.pdf",
-        "https://www.leychile.cl/leychile/Navegar?idNorma=1187323&idParte=10393566",
-        "https://www.leychile.cl/navegar?idNorma=1003124",
-        "https://www.reddit.com/r/Compliance_Advisor/comments/1urthh4/wphg_amendment_2026_are_your_compliance_processes/",
-        "https://www.reddit.com/r/FinCrimeAcademy/comments/1vl6vni/amlo_duties_under_sec_5_6_15_gwg_by_the_2026_amla/",
-        "https://www.reddit.com/r/fintech/comments/1vardja/removed/"
+        "https://arxiv.org/abs/1002.3997",
+        "https://arxiv.org/abs/2402.02838",
+        "https://arxiv.org/abs/2510.08886",
+        "https://arxiv.org/abs/2511.14618",
+        "https://downloads.regulations.gov/CMS-2025-0050-0671/attachment_1.pdf",
+        "https://en.wikipedia.org/wiki/International_Financial_Reporting_Standards",
+        "https://en.wikipedia.org/wiki/Standard_Business_Reporting",
+        "https://en.wikipedia.org/wiki/XBRL",
+        "https://en.wikipedia.org/wiki/XBRL_GL",
+        "https://en.wikipedia.org/wiki/XBRL_International",
+        "https://en.wikipedia.org/wiki/XBRL_assurance",
+        "https://hl7.org/fhir/us/directory-exchange/2022Sep/general-guidance.html",
+        "https://www.cms.gov/files/document/cms-0057-f.pdf",
+        "https://www.cms.gov/files/document/cms-9115-f.pdf",
+        "https://www.cms.gov/files/document/interoperability-standards-prior-authorization-drugs-nprm-briefing-slides-updated-4-16-26.pdf",
+        "https://www.cms.gov/initiatives/burden-reduction/overview/interoperability/policies-regulations/cms-interoperability-standards-prior-authorization-drugs-proposed-rule-cms-0062-p",
+        "https://www.cms.gov/initiatives/health-technology-ecosystem/overview/interoperability-framework",
+        "https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-prior-authorization-final-rule-cms-0057-f",
+        "https://www.cms.gov/newsroom/press-releases/cms-proposes-major-reforms-speed-up-patient-access-drugs-increase-transparency-reduce-administrative",
+        "https://www.congress.gov/crs_external_products/IF/PDF/IF13093/IF13093.1.pdf",
+        "https://www.everycrsreport.com/reports/IF13093.html",
+        "https://www.gao.gov/products/gao-26-108420",
+        "https://www.reddit.com/r/ExperiencedFounders/comments/1n109i3/two_years_building_a_healthcare_app_taught_me/",
+        "https://www.reddit.com/r/HealthInformatics/comments/1vn03b8/fullstack_dev_moving_into_hl7fhir/",
+        "https://www.reddit.com/r/PrivatePracticeDocs/comments/1s8uuhs/cms0057f/",
+        "https://www.reddit.com/r/dataengineering/comments/1oui9h6",
+        "https://www.reddit.com/r/fintech/comments/1q1zbj3/how_do_finance_teams_handle_xbrlixbrl_tagging/",
+        "https://www.reddit.com/r/healthIT/comments/1g0s135/understanding_the_landscape_of_fhir_etc_for_a/",
+        "https://www.reddit.com/r/healthIT/comments/1ixc33v/epic_on_fhir_scopes_and_endpoints_problem_cant/",
+        "https://www.reddit.com/r/healthIT/comments/1pk3jlx/smart_on_fhir_implementations_are_we_overselling/",
+        "https://www.reddit.com/r/healthIT/comments/1qooz61/architecture_question_best_practice_for_indexing/",
+        "https://www.reddit.com/r/healthIT/comments/1v4mm2n/is_fhir_not_achieving_interoperability_as_intended/",
+        "https://www.reddit.com/r/quant/comments/1onh2qy",
+        "https://www.reddit.com/r/u_GeminIQ-LLC/comments/1th7i8a/what_thirdparty_financial_data_apis_miss_and_why/",
+        "https://www.sec.gov/featured-topics/sec-cftc-harmonization-initiative/submission/edm-association-harmonization-initative-written-input-100126",
+        "https://www.sec.gov/files/2026-sec-open-data-plan.pdf",
+        "https://www.sec.gov/newsroom/press-releases/2026-53-sec-establishes-joint-data-standards-required-under-financial-data-transparency-act-2022",
+        "https://www.sec.gov/rules-regulations/2005/02/xbrl-voluntary-financial-reporting-program-edgar-system",
+        "https://www.sec.gov/rules-regulations/2026/05/s7-2024-05",
+        "https://www.xbrl.org/BPBoardDocs/BPB-WorkingGroups-2008-04-15.htm"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_7c40e3dba23666b0c578",
-      "coercions": []
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_7c40e3dba23666b0c578",
-      "response_status": "incomplete",
-      "incomplete_reason": "max_output_tokens",
-      "grounded_source_count": 0,
-      "search_source_urls": []
+      "candidate_id": "opp_1eef53c149ad7fb25706",
+      "coercions": [
+        "contrary_evidence"
+      ]
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 149,
-      "cache_write_tokens": 4566,
+      "reasoning_tokens": 165,
+      "cache_write_tokens": 4556,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0145709,
+      "cumulative_cost_usd": 0.0144684,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13133,
+      "input_tokens": 13073,
       "cached_tokens": 0,
-      "output_tokens": 1430,
+      "output_tokens": 1355,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0145709
+      "estimated_cost_usd": 0.0144684
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 227,
-      "cache_write_tokens": 5101,
+      "reasoning_tokens": 236,
+      "cache_write_tokens": 5114,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02904875,
+      "cumulative_cost_usd": 0.0289467,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13608,
+      "input_tokens": 13829,
       "cached_tokens": 0,
-      "output_tokens": 1251,
+      "output_tokens": 1214,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01447785
-    },
-    {
-      "stage": "judge",
-      "available": true,
-      "reasoning_tokens": 0,
-      "cache_write_tokens": 2772,
-      "accounting_notes": [],
-      "cumulative_cost_usd": 0.06238475,
-      "model": "gpt-5.6-terra",
-      "input_tokens": 2775,
-      "cached_tokens": 0,
-      "output_tokens": 2200,
-      "web_search_calls": 0,
-      "estimated_cost_usd": 0.033336
+      "estimated_cost_usd": 0.0144783
     }
   ]
 }
