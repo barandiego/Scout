@@ -294,7 +294,23 @@ def test_pagination_duplicate_handling_and_caps():
         published_from="2026-06-01T00:00:00Z", published_to="2026-06-05T00:00:00Z",
         observed_at=OBSERVED, max_pages=2, max_details=2)
     assert [r.code for r in records] == ["999999-1-COT26", "999999-2-COT26"]
-    assert diag == {"pages_fetched": 2, "details_fetched": 2, "duplicate_listings": 1, "malformed_details": 0, "requests_used": 4}
+    assert diag == {"pages_fetched": 2, "detail_attempts": 2, "details_fetched": 2, "duplicate_listings": 1, "malformed_details": 0, "malformed_reasons": {}, "requests_used": 4}
+
+
+def test_malformed_detail_attempts_are_bounded_and_reported():
+    listing = {"success":"OK","payload":{"items":[{"codigo":"A"},{"codigo":"B"},{"codigo":"C"}],"paginacion":{"total_paginas":1,"numero_pagina":1}}}
+    malformed = {"success":"NOK","payload":None,"errors":[{"codigo":"fixture","mensaje":"malformed"}]}
+    def transport(url, headers, timeout):
+        return malformed if "/v2/compra-agil/" in url else listing
+    client = ChileCompraClient("ticket", request_limit=3, transport=transport)
+    records, diag = client.historical_window(
+        published_from="2026-06-01T00:00:00Z", published_to="2026-06-02T00:00:00Z",
+        observed_at=OBSERVED, max_pages=1, max_details=2)
+    assert records == []
+    assert diag["detail_attempts"] == 2
+    assert diag["malformed_details"] == 2
+    assert diag["malformed_reasons"] == {"api_response_not_success": 2}
+    assert diag["requests_used"] == 3
 
 
 def test_incremental_window_and_cursor_monotonicity(tmp_path):
