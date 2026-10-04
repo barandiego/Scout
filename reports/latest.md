@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-04T03:07:27.068190+00:00
+Generated: 2026-10-04T05:40:39.079873+00:00
 
-- outcome: DEGRADED_SUCCESS
+- outcome: SUCCESS
 - ok: True
-- lenses: ['mining_materials', 'tokenization_finance', 'business_model_migration']
+- lenses: ['cost_curve', 'open_finance_chile', 'wildcard']
 - raw_candidates: 3
 - parseable_candidates: 3
 - normalized_candidates: 3
 - normalization_rejected: 0
-- grounded_sources: 4
+- grounded_sources: 6
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 0
+- judge_attempts: 1
 - critic_reviews: 1
-- judge_reviews: 0
+- judge_reviews: 1
 - survivors: 0
 - watches: 1
-- rejected: 2
-- errors_by_stage: {'critic': 1}
-- rejection_reasons: {'discarded_ungrounded_url': 1, 'insufficient_unique_evidence': 2}
-- cost_usd: 0.02923375
+- rejected: 0
+- errors_by_stage: {}
+- rejection_reasons: {}
+- cost_usd: 0.04116415
 - cost_uncertain: False
-- budget_remaining_usd: 0.05076625
+- budget_remaining_usd: 0.03883585
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -37,12 +37,13 @@ No survivors. Scout does not manufacture a daily winner.
 - Managed agent orchestration is lowering the cost of production AI workflows: The underlying capability shift is credibly grounded by a primary OpenAI announcement and is timely, but this is a broad enabling trend rather than a sufficiently specified HQ-worthy opportunity. There is a realistic participation path in narrow workflow deployment, and plausible payers exist where per-case labor, outsourcing, or error costs are measurable. However, the cited 60% saving is a vendor case study rather than independently replicated fully loaded economics. Generic orchestration, monitoring, and implementation are likely to be rapidly bundled or commoditized by model, cloud, and enterprise-software platforms. Survival depends on identifying a specific high-volume workflow with bounded failure costs, acceptable governance, proprietary integrations or distribution, and sub-12-month payback after human review and operational overhead. No fatal condition is established, but value capture and durable differentiation are currently too unproven for survival.
 - EU AI Act transparency and enforcement obligations are becoming operational: The regulatory premise is well grounded by primary European Commission sources: Article 50 transparency obligations and the relevant enforcement framework became operational on 2 August 2026. This creates a real compliance problem for affected providers and deployers, with plausible paid demand for implementation, evidence, assurance, and integration support. However, the stated opportunity is too broad to establish attractive value capture as a standalone software category. The applicable scope is use-case-specific rather than universal; basic disclosure, labeling, and metadata capabilities are readily bundled by model, cloud, content-platform, and enterprise-governance incumbents. A viable participation path likely requires a sharply differentiated wedge—e.g., cross-provider evidence trails, workflow-specific compliance automation, independent assurance, or regulated-sector implementation—not generic provenance/watermarking or broad 'AI Act compliance' tooling. Therefore it survives as an HQ-worthy research area, but not yet as a validated market thesis.
 - Tokenized unified-ledger infrastructure is moving from concept toward financial-market architecture: critic_invalid_output
+- Chile SFA implementation moves from rulemaking to build phase, but go-live is deferred to July 2027: The regulatory premise is sufficiently grounded by CMF primary-source URLs in the trusted provenance: NCG 514 has been modified and the claimed transition toward technical implementation is not rejected as an unverified regulatory change. Required data access also appears directionally intended by the regulated SFA framework, so there is no demonstrated legal or technical access fatality at this stage. However, this is not yet an HQ-worthy build thesis: the delayed July 2027 effective date, unproven customer budgets and procurement, unclear mandatory versus optional external-tooling needs, and a small concentrated buyer universe create major uncertainty over whether compliance and go-to-market costs can be recouped. The appropriate judgment is watch pending evidence of paid demand and final operational rules, not execution.
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "critic:invalid_decision"
+    "review_cap_not_persisted=2"
   ],
   "stages": [
     {
@@ -50,29 +51,36 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 21,
+      "grounded_source_count": 28,
       "search_source_urls": [
-        "https://arxiv.org/abs/2412.03755",
-        "https://arxiv.org/abs/2508.08907",
-        "https://arxiv.org/abs/2603.04457",
-        "https://en.wikipedia.org/wiki/Supply_chain_management",
-        "https://www.bis.org/events/chapultepec25/session3.pdf",
-        "https://www.bis.org/media-releases/20250624-next-generation-monetary-and-financial-system-takes-shape-based-tokenised-unified-ledger-bis",
-        "https://www.bis.org/publ/arpdf/ar2023e3.pdf",
-        "https://www.bis.org/publ/arpdf/ar2025e.pdf",
-        "https://www.bis.org/publ/arpdf/ar2025e3.pdf",
-        "https://www.bis.org/publications/aer-2025/next-generation-monetary-financial-system",
-        "https://www.bis.org/speeches/20251105-not-just-token-gestures",
-        "https://www.bis.org/speeches/20260505-digital-assets-payment-efficiency-and-monetary-policy",
-        "https://www.bis.org/speeches/sp230625b.pdf",
-        "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa_tramite_cerrada.php?tpl=alt",
-        "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html",
+        "https://arxiv.org/abs/2508.06828",
+        "https://s3.amazonaws.com/real.stlouisfed.org/wp/2026/2026-004.pdf",
+        "https://www.axios.com/2026/08/25/data-centers-ai-electricity-water-politics",
+        "https://www.bcentral.cl/documents/33528/8031451/Banco%2BCentral%2Bimpulsa%2Bnueva%2Bedici%C3%B3n%2Bde%2Blas%2BOlimpiadas%2BNacionales%2Bde%2BEducaci%C3%B3n%2BFinanciera.pdf/0978e3fc-3ae5-1b2a-4386-e8cf880f1199?t=1778073281948",
+        "https://www.bcentral.cl/documents/33528/8073461/La%2Beconom%C3%ADa%2Bchilena%2Ben%2Bel%2B2026%2B%28JPMorgan%29%2B-%2BRosanna%2BCosta%2C%2BPresidenta.pdf/57d10018-43ae-289b-6edc-923271789c94?t=1779890529282",
+        "https://www.bcentral.cl/documents/33528/8073461/Pagos%2BDigitales%2Ben%2BChile.%2BConstruir%2Bsobre%2Blo%2Bavanzado.pdf/7b8ee3c9-b6b5-c161-c8e3-dfddd27d5a79?t=1781201029492",
+        "https://www.bcentral.cl/es/areas/politica-financiera/informe-de-sistemas-de-pago",
+        "https://www.bcentral.cl/es/web/banco-central/areas/estadisticas/cuentas-nacionales-institucionales",
+        "https://www.bcentral.cl/es/web/banco-central/areas/mercados-financieros/sistemas",
+        "https://www.bcentral.cl/es/web/banco-central/noticias-y-publicaciones/prensa/calendario-de-politica-monetaria-y-financiera",
+        "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa.php?mercado=V&tpl=alt",
+        "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa2.php?entidad_web=ALL&enviado=1&hidden_mercado=%25&materia=ALL&numero=514&tiponorma=NCG",
         "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.federalreserve.gov/econres/ifdp/breaking-up-fragmentation-in-foreign-direct-investment.htm",
-        "https://www.federalreserve.gov/econres/notes/feds-notes/how-is-geopolitical-fragmentation-reshaping-us-foreign-direct-investment-20250410.html",
-        "https://www.iea.org/reports/critical-mineral-traceability-for-energy-and-economic-security/executive-summary",
-        "https://www.mckinsey.com/institute-for-economic-mobility/our-insights/the-great-ownership-transfer-a-new-era-of-business-stewardship",
-        "https://www.mckinsey.com/mgi/our-research/the-fdi-shake-up-how-foreign-direct-investment-today-may-shape-industry-and-trade-tomorrow?stream=business"
+        "https://www.cmfchile.cl/portal/principal/613/articles-93115_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.elfaonline.org/research/economic-outlook-q2-2026",
+        "https://www.federalreserve.gov/econres/notes/feds-notes/recent-developments-in-foreign-direct-investment-into-the-u-s-20260626.html",
+        "https://www.kiplinger.com/business/kiplinger-special-report-business-costs-for-2026",
+        "https://www.kiplinger.com/investing/live/nvidia-earnings-live-updates-and-commentary-august-2026",
+        "https://www.pwc.com/us/en/industries/energy-utilities-resources/library/energy-deals-outlook.html",
+        "https://www.pwc.com/us/en/industries/industrial-products/library/industrial-manufacturing-deals-outlook.html",
+        "https://www.reddit.com/r/AskEconomics/comments/1w6szuq/is_my_framework_for_understanding_current_us/",
+        "https://www.reddit.com/r/Economics/comments/1vivmwz/whats_behind_the_sharp_drop_in_labor_force/",
+        "https://www.reddit.com/r/SESAI/comments/1rlesgo/ses_ai_q425_transcript_part_12_the_2026_setup/",
+        "https://www.reddit.com/r/TrumpGlobalWar/comments/1u6gm2q/us_ecnomy_brefing_15062026_0900_am_est_last_16/",
+        "https://www.reddit.com/r/TrumpGlobalWar/comments/1u7bp05/us_ecnomy_brefing_16062026_0805_am_est_last_16/",
+        "https://www.reddit.com/r/economy/comments/1wmo2y1/the_economy_has_undergone_a_structural/",
+        "https://www.sec.gov/Archives/edgar/data/108516/000119312526348735/2026_annual_report.pdf"
       ]
     },
     {
@@ -87,7 +95,7 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 1,
+      "grounded_sources": 2,
       "retry_justified": false
     },
     {
@@ -109,9 +117,7 @@ No survivors. Scout does not manufacture a daily winner.
       "index": 2,
       "stage": "normalization",
       "outcome": "accepted",
-      "reasons": [
-        "discarded_ungrounded_url"
-      ],
+      "reasons": [],
       "changes": [
         "contrary_evidence:list_sanitized",
         "major_risks:list_sanitized",
@@ -119,89 +125,103 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 1,
+      "grounded_sources": 2,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_993ac5d080c7042af44c",
+      "candidate_id": "opp_c1cd86e33e0ccaf8bbbd",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 42,
+      "grounded_source_count": 22,
       "search_source_urls": [
-        "https://apnews.com/article/bfd41220717fe9b6ebcd0305005e0018",
-        "https://arxiv.org/abs/2407.07898",
-        "https://arxiv.org/abs/2501.17732",
-        "https://arxiv.org/abs/2508.11651",
-        "https://arxiv.org/abs/2603.29278",
-        "https://en.wikipedia.org/wiki/Central_Bank_of_Chile",
-        "https://en.wikipedia.org/wiki/Financial_market_infrastructure",
-        "https://en.wikipedia.org/wiki/Tokenized_private_placement",
-        "https://en.wikipedia.org/wiki/Tokenized_real-world_asset",
-        "https://en.wikipedia.org/wiki/United_States_Securities_and_Exchange_Commission",
-        "https://es.wikipedia.org/wiki/Banco_Central_de_Chile",
-        "https://rpc.cfainstitute.org/research/reports/2025/investment-perspective-tokenization",
-        "https://www.axios.com/newsletters/axios-crypto-c3b33ce0-55c4-11f0-8f90-f9a09784a37a",
-        "https://www.bcentral.cl/documents/33528/4952559/FSR_2H2023.pdf/8408e893-c5b4-f628-6f5f-8cd20dc4e339?t=1701703987373",
-        "https://www.bcentral.cl/en/content/-/details/contenido-general-mdbc",
-        "https://www.bcentral.cl/en/web/banco-central/areas/financial-technology-hub/central-bank-digital-currency/proof-of-concept-cbdc",
-        "https://www.bis.org/fsi/fsisummaries/exsum_23905.pdf",
-        "https://www.bis.org/publ/arpdf/ar2026e.pdf",
-        "https://www.bis.org/publications/aer-2025/next-generation-monetary-financial-system",
-        "https://www.bis.org/publications/fsi-summary-financial-stability-implications-tokenisation-executive-summary",
-        "https://www.bis.org/publications/future-securities-settlement",
-        "https://www.bis.org/speeches/20241104-tokenisation-financial-services-pathways-scale",
-        "https://www.bis.org/speeches/sp260420.pdf",
-        "https://www.coinbase.com/institutional/research-insights/research/market-intelligence/major-trends-in-tokenization",
-        "https://www.gslb.cndp.cl/en/web/banco-central/areas/financial-policy/prudential-regulation",
-        "https://www.gslb.cndp.cl/web/banco-central/contenido/-/detalle/publicaciones/politica-financiera/informe-de-sistemas-de-pago-agosto-2025",
-        "https://www.reddit.com/r/AlgorandOfficial/comments/1u76g76/tokenization_capital_markets/",
-        "https://www.reddit.com/r/CryptoCurrency/comments/1rxtqpt/sec_approves_nasdaqs_move_to_allow_tokenized/",
-        "https://www.reddit.com/r/CryptoPeople/comments/1jufdnb",
-        "https://www.reddit.com/r/RWATimes/comments/1ptmeas/tokenized_us_treasurys_near_7b_market_cap_as/",
-        "https://www.reddit.com/r/RWATimes/comments/1rsvx15/peirces_6_questions_tell_you_exactly_where_the/",
-        "https://www.reddit.com/r/RWATimes/comments/1t2xsng/tokenized_securities_nyse_approval_and_the_flow/",
-        "https://www.reddit.com/r/RWATimes/comments/1tlkc5h/tokenized_rwas_could_hit_16t_by_2030institutional/",
-        "https://www.reddit.com/r/RWATimes/comments/1tu6voq/tokenized_securities_market_poised_for_55t_growth/",
-        "https://www.reddit.com/r/RWATimes/comments/1uxsa5m/dtcc_launches_live_trading_of_tokenized/",
-        "https://www.reddit.com/r/RWATimes/comments/1uxsk61/dtcc_tokenizes_markets_wall_street_moves_closer/",
-        "https://www.reddit.com/r/RWATimes/comments/1uxt4s9/dtcc_launches_live_trading_of_tokenized/",
-        "https://www.reddit.com/r/SECZ/comments/1tr500k/securitize_reports_record_revenue_as/",
-        "https://www.sec.gov/about/crypto-task-force/crypto-task-force-written-input/ctf-written-input-securitize-050725",
-        "https://www.sec.gov/newsroom/speeches-statements/peirce-121125-tokenization-trending-statement-division-trading-markets-no-action-letter-related-dtcs-development",
-        "https://www.swlegal.com/media/filer_public/25/69/25694f81-cf07-4a97-96f4-5ce9517ffa1a/blr_q4_2025.pdf",
-        "https://www.techradar.com/pro/is-this-the-future-of-trading-nyse-reportedly-building-a-venue-for-24-7-tokenized-stock-and-edf-settling"
+        "https://centrocompetencia.com/sistema-de-finanzas-abiertas-el-informe-de-la-fne-a-la-cmf/",
+        "https://cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://en.wikipedia.org/wiki/Open_banking",
+        "https://en.wikipedia.org/wiki/Open_finance",
+        "https://es.wikipedia.org/wiki/Finanzas_abiertas",
+        "https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_financiera",
+        "https://practiceguides.chambers.com/practice-guides/fintech-2026/chile",
+        "https://www.carey.cl/cmf-modifica-la-ncg-n514-e-incorpora-estandares-tecnicos-para-la-implementacion-del-sistema-de-finanzas-abiertas",
+        "https://www.carey.cl/en/cmf-amends-ncg-no-514-and-incorporates-technical-standards-for-the-implementation-of-the-open-finance-system",
+        "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-100979_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://www.cmfchile.cl/portal/principal/613/articles-92466_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/articles-95894_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.imf.org/-/media/files/publications/cr/2024/english/1chlea2024002.pdf",
+        "https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/09/competition-fintechs-and-open-banking_8b85b99b/de9fe6b4-en.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000108/MNCjune2026signed.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000108/mncjune2026signed.htm"
       ]
+    },
+    {
+      "stage": "critic",
+      "candidate_id": "opp_c1cd86e33e0ccaf8bbbd",
+      "coercions": [
+        "contrary_evidence"
+      ]
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_c1cd86e33e0ccaf8bbbd",
+      "response_status": "completed",
+      "incomplete_reason": "",
+      "grounded_source_count": 0,
+      "search_source_urls": []
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_c1cd86e33e0ccaf8bbbd",
+      "coercions": []
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 224,
-      "cache_write_tokens": 4554,
+      "reasoning_tokens": 127,
+      "cache_write_tokens": 4581,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0144815,
+      "cumulative_cost_usd": 0.01463485,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13019,
+      "input_tokens": 13167,
       "cached_tokens": 0,
-      "output_tokens": 1375,
+      "output_tokens": 1477,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0144815
+      "estimated_cost_usd": 0.01463485
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 199,
-      "cache_write_tokens": 5101,
+      "reasoning_tokens": 147,
+      "cache_write_tokens": 5220,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02923375,
+      "cumulative_cost_usd": 0.02893265,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13612,
+      "input_tokens": 13650,
       "cached_tokens": 0,
-      "output_tokens": 1479,
+      "output_tokens": 1089,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01475225
+      "estimated_cost_usd": 0.0142978
+    },
+    {
+      "stage": "judge",
+      "available": true,
+      "reasoning_tokens": 0,
+      "cache_write_tokens": 2375,
+      "accounting_notes": [],
+      "cumulative_cost_usd": 0.04116415,
+      "model": "gpt-5.6-terra",
+      "input_tokens": 2378,
+      "cached_tokens": 0,
+      "output_tokens": 524,
+      "web_search_calls": 0,
+      "estimated_cost_usd": 0.0122315
     }
   ]
 }
