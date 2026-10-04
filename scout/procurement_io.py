@@ -1,6 +1,7 @@
 """Bounded read-only ChileCompra adapter and isolated procurement state store."""
 from __future__ import annotations
 import json
+import time
 from datetime import datetime
 from dataclasses import dataclass
 from pathlib import Path
@@ -52,12 +53,26 @@ def _transport(url,headers,timeout):
     except (URLError,TimeoutError): raise ProcurementAPIError("api_transport_error") from None
     except (UnicodeDecodeError,json.JSONDecodeError): raise ProcurementAPIError("invalid_api_json") from None
 class ChileCompraClient:
-    def __init__(self,ticket:str,*,request_limit:int,timeout:float=40,transport:Callable|None=None,base_url:str=BASE_URL):
+    def __init__(self,ticket:str,*,request_limit:int,timeout:float=40,transport:Callable|None=None,base_url:str=BASE_URL,retry_limit:int=2,retry_backoff_seconds:float=1.0,sleep_fn:Callable|None=None):
         if not ticket: raise ProcurementAPIError("missing_ticket")
+        if type(retry_limit) is not int or retry_limit<0 or retry_limit>5: raise ProcurementAPIError("invalid_retry_limit")
+        if not isinstance(retry_backoff_seconds,(int,float)) or retry_backoff_seconds<0: raise ProcurementAPIError("invalid_retry_backoff")
         self.ticket=ticket; self.budget=RequestBudget(request_limit); self.timeout=timeout; self.transport=transport or _transport; self.base_url=base_url.rstrip("/")
+        self.retry_limit=retry_limit; self.retry_backoff_seconds=float(retry_backoff_seconds); self.sleep_fn=sleep_fn or time.sleep; self.transient_retries=0
     def _get(self,path,params=None):
-        self.budget.spend(); q=("?"+urlencode(params,doseq=True)) if params else ""
-        return self.transport(self.base_url+path+q,{"ticket":self.ticket},self.timeout)
+        q=("?"+urlencode(params,doseq=True)) if params else ""
+        transient={"api_http_502","api_http_503","api_http_504","api_transport_error"}
+        for attempt in range(self.retry_limit+1):
+            self.budget.spend()
+            try:
+                return self.transport(self.base_url+path+q,{"ticket":self.ticket},self.timeout)
+            except ProcurementAPIError as e:
+                reason=str(e)
+                can_retry=reason in transient and attempt<self.retry_limit and self.budget.used<self.budget.limit
+                if not can_retry: raise
+                self.transient_retries+=1
+                self.sleep_fn(self.retry_backoff_seconds*(2**attempt))
+        raise ProcurementAPIError("unreachable_retry_state")
     def list_page(self,*,published_from=None,published_to=None,changed_from=None,changed_to=None,page=1,page_size=15,states=None,region=None,query=None):
         if type(page) is not int or page<1 or type(page_size) is not int or not 1<=page_size<=50: raise ProcurementAPIError("invalid_pagination")
         if (published_from or published_to) and (changed_from or changed_to): raise ProcurementAPIError("mixed_publication_and_change_windows")
@@ -75,7 +90,7 @@ class ChileCompraClient:
         return self._get("/v2/compra-agil/"+quote(code,safe=""))
     def historical_window(self,*,published_from,published_to,observed_at,max_pages,max_details,states=None):
         if type(max_pages) is not int or max_pages<=0 or type(max_details) is not int or max_details<=0: raise ProcurementAPIError("invalid_history_caps")
-        records=[]; codes=set(); duplicates=malformed=pages=detail_attempts=0; malformed_reasons={}; malformed_samples=[]
+        records=[]; codes=set(); duplicates=malformed=pages=detail_attempts=0; malformed_reasons={}; malformed_samples=[]; api_failures={}; budget_exhausted=False
         for page in range(1,max_pages+1):
             payload=D(_payload(self.list_page(published_from=published_from,published_to=published_to,page=page,page_size=50,states=states)))
             items=L(payload.get("items")); pag=D(payload.get("paginacion")); pages+=1
@@ -84,19 +99,29 @@ class ChileCompraClient:
                 if not code: continue
                 if code in codes: duplicates+=1; continue
                 codes.add(code)
-                if detail_attempts>=max_details: break
+                if detail_attempts>=max_details or self.budget.used>=self.budget.limit:
+                    budget_exhausted=self.budget.used>=self.budget.limit
+                    break
                 detail_attempts+=1
-                raw=self.detail(code)
+                try:
+                    raw=self.detail(code)
+                except ProcurementAPIError as e:
+                    reason=str(e) or e.__class__.__name__
+                    api_failures[reason]=api_failures.get(reason,0)+1
+                    if reason=="request_budget_exhausted" or self.budget.used>=self.budget.limit:
+                        budget_exhausted=True
+                        break
+                    continue
                 try: records.append(normalize_detail(raw,observed_at=observed_at))
                 except ProcurementDataError as e:
                     malformed+=1
                     reason=str(e) or e.__class__.__name__
                     malformed_reasons[reason]=malformed_reasons.get(reason,0)+1
                     if len(malformed_samples)<1: malformed_samples.append({"code":code,"reason":reason,**_detail_shape(raw)})
-            if detail_attempts>=max_details: break
+            if detail_attempts>=max_details or budget_exhausted: break
             total=nonneg_i(pag.get("total_paginas")); current=nonneg_i(pag.get("numero_pagina"))
             if total is None or current is None or current>=total: break
-        return records,{"pages_fetched":pages,"detail_attempts":detail_attempts,"details_fetched":len(records),"duplicate_listings":duplicates,"malformed_details":malformed,"malformed_reasons":dict(sorted(malformed_reasons.items())),"malformed_samples":malformed_samples,"requests_used":self.budget.used}
+        return records,{"pages_fetched":pages,"detail_attempts":detail_attempts,"details_fetched":len(records),"duplicate_listings":duplicates,"malformed_details":malformed,"malformed_reasons":dict(sorted(malformed_reasons.items())),"malformed_samples":malformed_samples,"api_failures":dict(sorted(api_failures.items())),"transient_retries":self.transient_retries,"budget_exhausted":budget_exhausted,"requests_used":self.budget.used}
 class ProcurementStore:
     def __init__(self,path:Path):
         self.path=path; self.events=read_jsonl(path); seen={}
