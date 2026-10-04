@@ -294,7 +294,7 @@ def test_pagination_duplicate_handling_and_caps():
         published_from="2026-06-01T00:00:00Z", published_to="2026-06-05T00:00:00Z",
         observed_at=OBSERVED, max_pages=2, max_details=2)
     assert [r.code for r in records] == ["999999-1-COT26", "999999-2-COT26"]
-    assert diag == {"pages_fetched": 2, "detail_attempts": 2, "details_fetched": 2, "duplicate_listings": 1, "malformed_details": 0, "malformed_reasons": {}, "requests_used": 4}
+    assert diag == {"pages_fetched": 2, "detail_attempts": 2, "details_fetched": 2, "duplicate_listings": 1, "malformed_details": 0, "malformed_reasons": {}, "malformed_samples": [], "requests_used": 4}
 
 
 def test_malformed_detail_attempts_are_bounded_and_reported():
@@ -310,6 +310,10 @@ def test_malformed_detail_attempts_are_bounded_and_reported():
     assert diag["detail_attempts"] == 2
     assert diag["malformed_details"] == 2
     assert diag["malformed_reasons"] == {"api_response_not_success": 2}
+    assert len(diag["malformed_samples"]) == 1
+    assert diag["malformed_samples"][0]["reason"] == "api_response_not_success"
+    assert diag["malformed_samples"][0]["payload_keys"] == []
+    assert diag["malformed_samples"][0]["fechas_keys"] == []
     assert diag["requests_used"] == 3
 
 
@@ -327,3 +331,26 @@ def test_incremental_window_and_cursor_monotonicity(tmp_path):
     assert not ProcurementStore(path).set_cursor("2026-06-02T00:00:00Z")
     with pytest.raises(ProcurementDataError, match="sync_cursor_regression"):
         ProcurementStore(path).set_cursor("2026-06-01T00:00:00Z")
+
+
+def test_malformed_timestamp_shape_is_sanitized():
+    raw = raw_detail()
+    raw["payload"]["fechas"]["fecha_cierre"] = "2026-06-02T15:00:00"
+    calls = 0
+    listing = {"success":"OK","payload":{"items":[{"codigo":"999999-1-COT26"}],"paginacion":{"total_paginas":1,"numero_pagina":1}}}
+    def transport(url, headers, timeout):
+        nonlocal calls
+        calls += 1
+        return raw if "/v2/compra-agil/" in url else listing
+    client = ChileCompraClient("ticket", request_limit=2, transport=transport)
+    records, diag = client.historical_window(
+        published_from="2026-06-01T00:00:00Z", published_to="2026-06-02T00:00:00Z",
+        observed_at=OBSERVED, max_pages=1, max_details=1)
+    assert records == []
+    sample = diag["malformed_samples"][0]
+    assert sample["code"] == "999999-1-COT26"
+    assert sample["reason"] == "missing_required_timestamps"
+    assert sample["date_shape"]["fecha_cierre"] == {
+        "present": True, "type": "str", "parseable_iso": True, "timezone_aware": False
+    }
+    assert "Fixture de útiles estandarizados" not in json.dumps(sample, ensure_ascii=False)
