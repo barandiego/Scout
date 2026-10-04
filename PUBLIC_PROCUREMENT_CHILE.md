@@ -60,13 +60,35 @@ python -m scout.procurement_chile validate-fixture tests/fixtures/compra_agil_de
 
 A bounded real historical read exists but is disabled in config by default. Enabling it is a separate explicit governance decision and requires `CHILECOMPRA_TICKET` in the environment. No OpenAI call is involved.
 
-## Known limits before a real historical run
+## Bounded real API validation — 2026-10-03
 
-1. ChileCompra documents date-range queries but does not document a guaranteed retention horizon for all historical Compra Ágil records.
-2. Procurement-side competition may be reconstructable, but historical acquisition cost is external to ChileCompra and is the main economic bottleneck.
-3. Some selection/OC fields are documented as unreliable or not confirmed in actual responses, so outcome scoring must remain conservative.
-4. A lower hypothetical price is not automatically a hypothetical win unless price-only selection is independently verified; otherwise reconciliation records only `price_competitive`.
+A manual, read-only validation against the real Compra Ágil API was completed from this branch with no OpenAI calls and no procurement actions.
+
+Observed sequence:
+
+- historical list access for 2026-04-01 through 2026-04-02 succeeded with a personal ChileCompra ticket;
+- the first bounded detail probe exposed that real API timestamps are ISO-parseable but timezone-naive, despite the fixture having timezone-aware examples;
+- the real detail payload also exposed `id_orden_compra` at top level rather than only in the documented nested OC shape;
+- compatibility was corrected conservatively: real API timestamps are preserved without inventing timezone semantics, and the observed top-level OC ID is accepted as a fallback;
+- the final bounded sample used 5 total HTTP requests: 1 list page plus 4 detail attempts;
+- all 4 detail responses normalized successfully;
+- all 4 records were resolved;
+- all 4 were structurally reconstructable under the current deterministic gates;
+- all 4 exposed observable supplier quote totals;
+- 0/4 exposed a purchase-order indicator in the sampled records.
+
+This is a **PASS for API accessibility, real response shape, and approximately six-month historical availability**. It is not evidence that the business thesis is profitable.
+
+## Remaining limits
+
+1. The sample is intentionally tiny and does not establish population-level coverage or stability across agencies, categories, dates, and states.
+2. Procurement-side competition is reconstructable in the sample, but historical acquisition cost remains external to ChileCompra and is still the main economic bottleneck.
+3. Real API timestamps do not carry timezone offsets. They are preserved as returned; Scout does not infer UTC or Chile time.
+4. OC/selection fields remain incomplete or unreliable enough that outcome scoring must stay conservative.
+5. A lower hypothetical price is not automatically a hypothetical win unless price-only selection is independently verified; otherwise reconciliation records only `price_competitive`.
 
 ## Next gate
 
-Before switching `live_api_enabled` to true, review this PR, obtain/use a ChileCompra ticket only via environment secret, choose a small historical date window, and approve a bounded request budget. The first real run should validate the already-tested contract, not debug it.
+Phase 1 may continue to a larger deterministic historical reconstruction sample, still read-only and OpenAI-free. The next purpose is to measure coverage rates across a broader set of historical Compra Ágil records and categories before doing any supplier-sourcing or profitability work.
+
+Do not add scheduling, active Scout integration, autonomous procurement actions, or OpenAI analysis at this stage.
