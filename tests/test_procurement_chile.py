@@ -335,7 +335,7 @@ def test_incremental_window_and_cursor_monotonicity(tmp_path):
 
 def test_malformed_timestamp_shape_is_sanitized():
     raw = raw_detail()
-    raw["payload"]["fechas"]["fecha_cierre"] = "2026-06-02T15:00:00"
+    raw["payload"]["fechas"]["fecha_cierre"] = "not-a-timestamp"
     calls = 0
     listing = {"success":"OK","payload":{"items":[{"codigo":"999999-1-COT26"}],"paginacion":{"total_paginas":1,"numero_pagina":1}}}
     def transport(url, headers, timeout):
@@ -351,7 +351,7 @@ def test_malformed_timestamp_shape_is_sanitized():
     assert sample["code"] == "999999-1-COT26"
     assert sample["reason"] == "missing_required_timestamps"
     assert sample["date_shape"]["fecha_cierre"] == {
-        "present": True, "type": "str", "parseable_iso": True, "timezone_aware": False
+        "present": True, "type": "str", "parseable_iso": False, "timezone_aware": False
     }
     assert "Fixture de útiles estandarizados" not in json.dumps(sample, ensure_ascii=False)
 
