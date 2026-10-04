@@ -56,7 +56,7 @@ class ChileCompraClient:
         return self._get("/v2/compra-agil/"+quote(code,safe=""))
     def historical_window(self,*,published_from,published_to,observed_at,max_pages,max_details,states=None):
         if type(max_pages) is not int or max_pages<=0 or type(max_details) is not int or max_details<=0: raise ProcurementAPIError("invalid_history_caps")
-        records=[]; codes=set(); duplicates=malformed=pages=0
+        records=[]; codes=set(); duplicates=malformed=pages=detail_attempts=0; malformed_reasons={}
         for page in range(1,max_pages+1):
             payload=D(_payload(self.list_page(published_from=published_from,published_to=published_to,page=page,page_size=50,states=states)))
             items=L(payload.get("items")); pag=D(payload.get("paginacion")); pages+=1
@@ -65,13 +65,17 @@ class ChileCompraClient:
                 if not code: continue
                 if code in codes: duplicates+=1; continue
                 codes.add(code)
-                if len(records)>=max_details: break
+                if detail_attempts>=max_details: break
+                detail_attempts+=1
                 try: records.append(normalize_detail(self.detail(code),observed_at=observed_at))
-                except ProcurementDataError: malformed+=1
-            if len(records)>=max_details: break
+                except ProcurementDataError as e:
+                    malformed+=1
+                    reason=str(e) or e.__class__.__name__
+                    malformed_reasons[reason]=malformed_reasons.get(reason,0)+1
+            if detail_attempts>=max_details: break
             total=nonneg_i(pag.get("total_paginas")); current=nonneg_i(pag.get("numero_pagina"))
             if total is None or current is None or current>=total: break
-        return records,{"pages_fetched":pages,"details_fetched":len(records),"duplicate_listings":duplicates,"malformed_details":malformed,"requests_used":self.budget.used}
+        return records,{"pages_fetched":pages,"detail_attempts":detail_attempts,"details_fetched":len(records),"duplicate_listings":duplicates,"malformed_details":malformed,"malformed_reasons":dict(sorted(malformed_reasons.items())),"requests_used":self.budget.used}
 class ProcurementStore:
     def __init__(self,path:Path):
         self.path=path; self.events=read_jsonl(path); seen={}
