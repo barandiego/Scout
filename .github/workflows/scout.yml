@@ -48,18 +48,28 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         shell: bash
         run: |
-          previous=$(gh api "repos/${GITHUB_REPOSITORY}/actions/workflows/scout.yml/runs?branch=${GITHUB_REF_NAME}&per_page=100" --jq ".workflow_runs | map(select(.id != ${GITHUB_RUN_ID} and .display_title != \"Scout V0 — report\" and .display_title != \"Scout V0 — calibrate\")) | .[0].id // empty")
-          if [ -z "$previous" ]; then
-            prior_count=$(gh api "repos/${GITHUB_REPOSITORY}/actions/workflows/scout.yml/runs?branch=${GITHUB_REF_NAME}&per_page=100" --jq ".workflow_runs | map(select(.id != ${GITHUB_RUN_ID})) | length")
-            if [ "$prior_count" != "0" ]; then
-              echo "No preceding cycle could be verified in recent history. Reconcile state before paid work."
-              exit 1
+          runs_api="repos/${GITHUB_REPOSITORY}/actions/workflows/scout.yml/runs?branch=${GITHUB_REF_NAME}&per_page=100"
+          candidates=$(gh api "$runs_api" --jq ".workflow_runs | map(select(.id != ${GITHUB_RUN_ID} and .display_title != \"Scout V0 — report\" and .display_title != \"Scout V0 — calibrate\")) | .[].id")
+          recent_count=$(gh api "$runs_api" --jq ".workflow_runs | map(select(.id != ${GITHUB_RUN_ID} and .display_title != \"Scout V0 — report\" and .display_title != \"Scout V0 — calibrate\")) | length")
+
+          previous=""
+          for candidate in $candidates; do
+            attempted=$(gh api "repos/${GITHUB_REPOSITORY}/actions/runs/${candidate}/jobs" --jq '[.jobs[].steps[]? | select(.name == "Run Scout" and .conclusion != null and .conclusion != "skipped")] | length')
+            if [ "$attempted" != "0" ]; then
+              previous="$candidate"
+              break
             fi
+          done
+
+          if [ -z "$previous" ] && [ "$recent_count" = "100" ]; then
+            echo "No Scout-attempted run was found inside the bounded recent history. Reconcile state before paid work."
+            exit 1
           fi
+
           if [ -n "$previous" ]; then
-            persisted=$(gh api "repos/${GITHUB_REPOSITORY}/actions/runs/${previous}/jobs" --jq '[.jobs[].steps[] | select(.name == "Persist state and reports" and .conclusion == "success")] | length')
+            persisted=$(gh api "repos/${GITHUB_REPOSITORY}/actions/runs/${previous}/jobs" --jq '[.jobs[].steps[]? | select(.name == "Persist state and reports" and .conclusion == "success")] | length')
             if [ "$persisted" = "0" ]; then
-              echo "Previous run did not confirm state persistence. Recover its state artifact before any further paid run."
+              echo "The most recent Scout-attempted run did not confirm state persistence. Recover its state artifact before any further paid run."
               exit 1
             fi
           fi
