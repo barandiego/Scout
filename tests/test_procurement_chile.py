@@ -4,6 +4,8 @@ from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
 import pytest
+
+from scout import procurement_chile as procurement_cli
 from pydantic import ValidationError
 
 from scout.procurement_chile import (
@@ -461,3 +463,11 @@ def test_rate_limit_is_not_retried():
     assert calls == 1
     assert client.budget.used == 1
     assert client.transient_retries == 0
+
+
+def test_monitor_transient_error_classification_is_fail_closed():
+    assert "api_http_504" in procurement_cli.TRANSIENT_MONITOR_ERRORS
+    assert "api_transport_error" in procurement_cli.TRANSIENT_MONITOR_ERRORS
+    assert "api_rate_limited" in procurement_cli.TRANSIENT_MONITOR_ERRORS
+    assert "api_http_400" not in procurement_cli.TRANSIENT_MONITOR_ERRORS
+    assert "api_http_401" not in procurement_cli.TRANSIENT_MONITOR_ERRORS
