@@ -1,0 +1,43 @@
+name: public_procurement_chile
+mode: autonomous_read_only_monitor
+registered_in_live_discovery: false
+live_api_enabled: true
+official_sources:
+  api_page: https://www.chilecompra.cl/api/
+  compra_agil_v2_guide: https://www.chilecompra.cl/wp-content/uploads/2026/05/Documentacion_API_Compra_Agil-2-1.pdf
+  compra_agil_supplier_rules: https://www.chilecompra.cl/compra-agil-proveedor/
+api:
+  base_url: https://api2.mercadopublico.cl
+  list_endpoint: /v2/compra-agil
+  detail_endpoint: /v2/compra-agil/{codigo}
+  auth: ticket_header
+limits:
+  max_requests_per_run: 25
+  max_list_pages: 2
+  max_detail_requests: 20
+  page_size: 50
+criteria:
+  - procurement-side historical reconstructability
+  - product specification clarity
+  - observable competitive quotations
+  - delivery reconstructability
+  - pre-deadline sourcing evidence quality
+  - working-capital efficiency
+fatal_conditions:
+  - historical information leakage
+  - unverifiable sourcing economics represented as fact
+  - ambiguous product equivalence
+  - missing competitive evidence for a WOULD_BID decision
+  - negative or sub-threshold economics
+  - supplier eligibility unresolved for a WOULD_BID decision
+  - delivery or stock infeasible
+monitor:
+  cadence_hours: 4
+  initial_lookback_hours: 6
+  max_report_candidates: 20
+notes:
+  - Phase 1 is deterministic and OpenAI-free.
+  - A zero-survivor result is valid.
+  - The general Scout V0 paid discovery cycle remains separate; this monitor uses no OpenAI.
+  - Scheduled reads are bounded, read-only and require CHILECOMPRA_TICKET from trusted GitHub Actions secrets.
+  - The monitor persists only normalized procurement state and a sanitized latest report; it never quotes, contacts, buys, pays or commits capital.

@@ -1,0 +1,68 @@
+name: Scout Public Procurement Chile
+run-name: Scout Public Procurement Chile — monitor
+
+on:
+  schedule:
+    - cron: '23 */4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scout-public-procurement-chile-state
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      CHILECOMPRA_TICKET: ${{ secrets.CHILECOMPRA_TICKET }}
+    steps:
+      - uses: actions/checkout@v5
+        with: {fetch-depth: 0}
+      - uses: actions/setup-python@v7
+        with: {python-version: '3.12'}
+      - run: pip install -e '.[dev]'
+      - run: python -m compileall -q scout tests
+      - run: pytest -q tests/test_procurement_chile.py
+      - name: Check ticket configuration
+        id: ticket
+        shell: bash
+        run: |
+          if [ -n "$CHILECOMPRA_TICKET" ]; then
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+            echo "CHILECOMPRA_TICKET is not configured; monitor remains fail-closed and performs no network access." >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Monitor Compra Agil
+        if: steps.ticket.outputs.configured == 'true'
+        id: monitor
+        run: >
+          python -m scout.procurement_chile monitor
+          --state state/public_procurement_chile/events.jsonl
+          --report reports/public_procurement_chile/latest.json
+          --lookback-hours 6
+      - name: Preserve recovery artifact
+        if: always() && steps.monitor.outcome != 'skipped' && steps.monitor.outcome != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: scout-public-procurement-chile-${{ github.run_id }}
+          path: |
+            state/public_procurement_chile/events.jsonl
+            reports/public_procurement_chile/latest.json
+          if-no-files-found: ignore
+          retention-days: 30
+      - name: Persist procurement state and report
+        if: steps.monitor.outcome == 'success'
+        shell: bash
+        run: |
+          git config user.name "scout-procurement[bot]"
+          git config user.email "scout-procurement[bot]@users.noreply.github.com"
+          git add state/public_procurement_chile reports/public_procurement_chile
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "chore: persist procurement monitor state"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin HEAD:"${GITHUB_REF_NAME}"
