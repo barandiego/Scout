@@ -5,11 +5,12 @@ score procurement evidence; it cannot quote, buy, contact, register, invoice or 
 """
 from __future__ import annotations
 import argparse, json, os
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 import yaml
 from .procurement_core import *  # noqa: F403 - explicit experiment facade
 from .procurement_io import ChileCompraClient, ProcurementStore, RequestBudget
+from .state import atomic_write
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -22,6 +23,7 @@ def _main():
     sp=p.add_subparsers(dest="cmd",required=True)
     v=sp.add_parser("validate-fixture"); v.add_argument("path")
     b=sp.add_parser("backfill"); b.add_argument("--from",dest="start",required=True); b.add_argument("--to",dest="end",required=True); b.add_argument("--state",default="state/public_procurement_chile/events.jsonl")
+    m=sp.add_parser("monitor"); m.add_argument("--state",default="state/public_procurement_chile/events.jsonl"); m.add_argument("--report",default="reports/public_procurement_chile/latest.json"); m.add_argument("--lookback-hours",type=int,default=6)
     a=p.parse_args()
     if a.cmd=="validate-fixture":
         r=normalize_detail(json.loads(Path(a.path).read_text(encoding="utf-8")),observed_at=datetime.now(timezone.utc).isoformat())  # noqa: F405
@@ -29,9 +31,31 @@ def _main():
     cfg=_config()
     if not cfg.get("live_api_enabled"): raise ProcurementAPIError("live_api_disabled_in_config")  # noqa: F405
     lim=D(cfg.get("limits"))  # noqa: F405
-    c=ChileCompraClient(os.environ.get("CHILECOMPRA_TICKET","").strip(),request_limit=int(lim["max_requests_per_manual_run"]))
-    records,diag=c.historical_window(published_from=a.start,published_to=a.end,observed_at=datetime.now(timezone.utc).isoformat(),max_pages=int(lim["max_list_pages"]),max_details=int(lim["max_detail_requests"]),states=["cerrada","proveedor_seleccionado","desierta","cancelada"])
-    st=ProcurementStore(ROOT/a.state); inserted=sum(st.add_history(r) for r in records)
-    print(json.dumps({"ok":True,"inserted":inserted,"diagnostics":diag,"phase1":phase1_report(records)},indent=2)); return 0  # noqa: F405
+    client=ChileCompraClient(os.environ.get("CHILECOMPRA_TICKET","").strip(),request_limit=int(lim["max_requests_per_run"]))
+    observed=datetime.now(timezone.utc).replace(microsecond=0)
+    observed_iso=observed.isoformat().replace("+00:00","Z")
+    st=ProcurementStore(ROOT/a.state)
+    if a.cmd=="backfill":
+        records,diag=client.historical_window(published_from=a.start,published_to=a.end,observed_at=observed_iso,max_pages=int(lim["max_list_pages"]),max_details=int(lim["max_detail_requests"]),states=["cerrada","proveedor_seleccionado","desierta","cancelada","oc_emitida"])
+        inserted=sum(st.add_history(r) for r in records)
+        print(json.dumps({"ok":True,"inserted":inserted,"diagnostics":diag,"phase1":phase1_report(records)},indent=2)); return 0  # noqa: F405
+    if a.lookback_hours<1 or a.lookback_hours>24: raise ProcurementAPIError("invalid_monitor_lookback")  # noqa: F405
+    cursor=st.latest_cursor()
+    changed_from=cursor or (observed-timedelta(hours=a.lookback_hours)).isoformat().replace("+00:00","Z")
+    records,diag=client.changed_window(changed_from=changed_from,changed_to=observed_iso,observed_at=observed_iso,max_pages=int(lim["max_list_pages"]),max_details=int(lim["max_detail_requests"]),states=["publicada","cerrada","proveedor_seleccionado","desierta","cancelada","oc_emitida"])
+    inserted=sum(st.add_history(r) for r in records)
+    if not diag.get("budget_exhausted") and not diag.get("api_failures"): st.set_cursor(observed_iso)
+    candidates=[r for r in records if r.status=="publicada" and not reconstructability_reasons(r)]  # noqa: F405
+    cap=int(D(cfg.get("monitor")).get("max_report_candidates",20))  # noqa: F405
+    report={
+        "schema_version":1,"generated_at":observed_iso,"window":{"changed_from":changed_from,"changed_to":observed_iso},
+        "ok":not bool(diag.get("api_failures")),"inserted_history":inserted,"diagnostics":diag,"phase1":phase1_report(records),  # noqa: F405
+        "active_structurally_reconstructable_count":len(candidates),
+        "active_candidates":[{"code":r.code,"name":r.name[:240],"buyer":r.buyer_name[:240],"region":r.region_name[:120],"closes_at":r.closes_at,"available_budget_clp":r.available_budget_clp,"estimated_budget":r.estimated_budget,"products":len(r.products)} for r in candidates[:cap]],
+        "note":"Research/watch output only. No sourcing-cost or profitability claim is made."
+    }
+    atomic_write(ROOT/a.report,json.dumps(report,ensure_ascii=False,sort_keys=True,indent=2)+"\n")
+    print(json.dumps(report,ensure_ascii=False,indent=2))
+    return 0
 
 if __name__=="__main__": raise SystemExit(_main())
