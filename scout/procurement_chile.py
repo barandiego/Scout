@@ -42,7 +42,7 @@ def _main():
     if a.lookback_hours<1 or a.lookback_hours>24: raise ProcurementAPIError("invalid_monitor_lookback")  # noqa: F405
     cursor=st.latest_cursor()
     changed_from=cursor or (observed-timedelta(hours=a.lookback_hours)).isoformat().replace("+00:00","Z")
-    records,diag=client.changed_window(changed_from=changed_from,changed_to=observed_iso,observed_at=observed_iso,max_pages=int(lim["max_list_pages"]),max_details=int(lim["max_detail_requests"]),states=["publicada","cerrada","proveedor_seleccionado","desierta","cancelada","oc_emitida"])
+    records,diag=client.changed_window(changed_from=changed_from,changed_to=observed_iso,observed_at=observed_iso,max_pages=int(lim["max_list_pages"]),max_details=int(lim["max_detail_requests"]))
     inserted=sum(st.add_history(r) for r in records)
     if not diag.get("budget_exhausted") and not diag.get("api_failures"): st.set_cursor(observed_iso)
     candidates=[r for r in records if r.status=="publicada" and not reconstructability_reasons(r)]  # noqa: F405
