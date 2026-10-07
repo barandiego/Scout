@@ -328,9 +328,33 @@ def test_incremental_window_and_cursor_monotonicity(tmp_path):
     assert params["ordenar_por"] == ["FechaUltimaModificacion"]
     path = tmp_path / "events.jsonl"; store = ProcurementStore(path)
     assert store.set_cursor("2026-06-02T00:00:00Z")
+    assert ProcurementStore(path).latest_cursor() == "2026-06-02T00:00:00+00:00"
     assert not ProcurementStore(path).set_cursor("2026-06-02T00:00:00Z")
     with pytest.raises(ProcurementDataError, match="sync_cursor_regression"):
         ProcurementStore(path).set_cursor("2026-06-01T00:00:00Z")
+
+
+def test_changed_window_uses_incremental_change_filters():
+    seen = []
+    def transport(url, headers, timeout):
+        seen.append(url)
+        return {"success":"OK","payload":{"items":[],"paginacion":{"total_paginas":1,"numero_pagina":1}}}
+    client = ChileCompraClient("ticket", request_limit=2, transport=transport)
+    records, diag = client.changed_window(
+        changed_from="2026-06-01T00:00:00Z",
+        changed_to="2026-06-01T04:00:00Z",
+        observed_at=OBSERVED,
+        max_pages=1,
+        max_details=1,
+        states=["publicada","cerrada"],
+    )
+    assert records == []
+    params = parse_qs(urlparse(seen[0]).query)
+    assert params["cambio_desde"] == ["2026-06-01T00:00:00Z"]
+    assert params["cambio_hasta"] == ["2026-06-01T04:00:00Z"]
+    assert params["ordenar_por"] == ["FechaUltimaModificacion"]
+    assert params["estado"] == ["publicada,cerrada"]
+    assert diag["requests_used"] == 1
 
 
 def test_malformed_timestamp_shape_is_sanitized():
