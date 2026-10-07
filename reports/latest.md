@@ -1,10 +1,10 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-07T18:21:02.481104+00:00
+Generated: 2026-10-07T20:11:42.816488+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['tokenization_finance', 'business_model_migration', 'cost_curve']
+- lenses: ['open_finance_chile', 'wildcard', 'geographic_arbitrage']
 - raw_candidates: 3
 - parseable_candidates: 3
 - normalized_candidates: 3
@@ -20,9 +20,9 @@ Generated: 2026-10-07T18:21:02.481104+00:00
 - rejected: 0
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.05459595
+- cost_usd: 0.04164045
 - cost_uncertain: False
-- budget_remaining_usd: 0.02540405
+- budget_remaining_usd: 0.03835955
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -45,6 +45,7 @@ No survivors. Scout does not manufacture a daily winner.
 - CMS is advancing standardized payer APIs and interoperability requirements: The regulatory premise is sufficiently grounded by primary CMS/Federal Register materials, and there is a plausible participation path in compliance implementation, conformance monitoring, and workflow products ahead of applicable 2027 requirements. However, this is a broad regulatory tailwind rather than a defined HQ-worthy opportunity: it does not identify a specific buyer, acute workflow wedge, differentiated product, pricing model, or evidence of durable recurring value capture. Incumbent payer-core, EHR, clearinghouse, and integration vendors are structurally well positioned, while basic FHIR/API compliance and testing may be bundled or commoditized. The opportunity survives as research, contingent on isolating a narrow segment where mandated compliance produces ongoing operational pain and independent procurement.
 - Grid connection capacity is becoming a monetizable bottleneck: The grid-capacity constraint is credibly supported by independent/primary sources and is timely rather than a stale post-catalyst thesis. However, this is a thematic bottleneck, not yet a public-markets investment case: it identifies multiple heterogeneous technologies and services but no specific listed issuer, valuation, liquidity profile, balance sheet, financing runway, contract backlog, or demonstrated ability to retain congestion-related economic value. The central risk is that avoided-congestion value accrues mainly to ratepayers, generators, or regulated utilities, while vendors face lengthy bespoke sales cycles, integration costs, and limited recurring margins. It survives as research-worthy work to map investable beneficiaries, but not as a security-selection thesis.
 - AI and data-center growth are making electricity and grid access a binding cost constraint: The underlying premise is well grounded by recent IEA and regulatory/market sources: data-center load growth and constrained interconnection/transmission capacity can make delivered, reliable power and time-to-connection economically important. There are identifiable payers—hyperscalers, colocation operators, utilities, and large industrial loads—and credible value pools. However, this is a macro condition rather than a sufficiently specified opportunity. It bundles capital-intensive generation and storage with regulated grid technologies and software/services, each with different buyers, margins, sales cycles, approvals, and competitive dynamics. A generic participation path is plausible, but no particular constrained node, customer segment, product wedge, economics, capital requirement, or defensible advantage is identified. It merits targeted research to isolate a narrow, capital-efficient wedge; it is not yet an HQ-ready investment or operating thesis.
+- Chile’s Open Finance implementation is moving from rules to integration and testing: Primary CMF sources in the supplied provenance support that Chile’s SFA has published technical implementation material, a developer environment, a July 2027 phased entry-into-force target, and the ATENA sandbox. Therefore the regulatory transition is not merely alleged, and there is no demonstrated fatal lack of legal or technical access for a vendor serving regulated participants. However, the opportunity bundles several very different businesses. Compliance/readiness and integration services may have near-term demand, but are likely concentrated, procurement-heavy, and partly displaced by CMF-provided testing infrastructure, internal bank teams, incumbent integrators, or global API vendors. Downstream aggregation, payment initiation, and SME underwriting do not yet have evidence of consented-data availability, usage, economics, or durable willingness to pay. The appropriate judgment is watch pending validation of a narrow paid wedge rather than treating open-finance implementation itself as proof of a scalable business.
 
 ## Sanitized diagnostics
 ```json
@@ -58,66 +59,37 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 58,
+      "grounded_source_count": 29,
       "search_source_urls": [
-        "https://apnews.com/article/588b84ea6d3b4745da42d58bb80bd718",
-        "https://apnews.com/article/bfd41220717fe9b6ebcd0305005e0018",
-        "https://arxiv.org/abs/2508.11651",
-        "https://arxiv.org/abs/2604.06608",
-        "https://arxiv.org/abs/2606.08534",
-        "https://arxiv.org/abs/2607.22459",
-        "https://documents1.worldbank.org/curated/en/099714403232699040/pdf/IDU-81203430-2cd3-4a58-bd54-af754b57fba1.pdf",
-        "https://documents1.worldbank.org/curated/en/215561546957017567/pdf/WPS8695.pdf",
-        "https://documents1.worldbank.org/curated/en/739781468189232260/pdf/ACS14223-REPLACEMENT.pdf",
-        "https://en.wikipedia.org/wiki/Digital_euro",
-        "https://en.wikipedia.org/wiki/Tokenized_real-world_asset",
-        "https://investmentpolicy.unctad.org/publications/1314/asean-investment-report-2025",
-        "https://unctad.org/publication/trade-and-development-foresights-2026-global-economy-faces-geopolitical-challenge",
-        "https://unctad.org/system/files/official-document/ciimem4d34_en.pdf",
-        "https://unctad.org/system/files/official-document/ditcinf2025d11_en.pdf",
-        "https://unctad.org/system/files/official-document/wir2024_en.pdf",
-        "https://web-assets.bcg.com/fd/19/d52ba9ab4857911cf3650e991ef0/the-future-of-digital-assets-may2026.pdf",
-        "https://www.axios.com/2026/02/02/trump-crypto-banks-coinbase",
-        "https://www.axios.com/2026/06/09/exclusive-wall-street-embraces-crypto-banks-bitcoin",
-        "https://www.bankofcanada.ca/2026/03/staff-analytical-paper-2026-8/",
-        "https://www.bis.org/media-releases/20260623-path-next-generation-monetary-and-financial-system-lies-safeguarding-trust-money-bis",
-        "https://www.bis.org/speeches/20260505-digital-assets-payment-efficiency-and-monetary-policy",
-        "https://www.citigroup.com/rcs/citigpa/storage/public/Citi_Institute_GPS_Report_Tokenization_2030.pdf",
-        "https://www.coinbase.com/institutional/research-insights/research/insights-reports/2026-institutional-investor-survey-e-and-y",
-        "https://www.dtcc.com/insights/2026/why-interoperability-matters-for-the-next-phase-of-tokenization",
-        "https://www.fia.org/sites/default/files/2025-08/FULL%20REPORT%20-%20DLT%20REPORT.pdf",
-        "https://www.fidelitydigitalassets.com/sites/g/files/djuvja3256/files/dam/r5s3ldbg78/fda_2026_lookaheadreport_v3.pdf",
-        "https://www.frontiersin.org/journals/blockchain/articles/10.3389/fbloc.2026.1747208/full",
-        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
-        "https://www.iea.org/reports/electricity-2026/demand",
-        "https://www.iea.org/reports/electricity-2026/executive-summary",
-        "https://www.iea.org/reports/electricity-mid-year-update-2025/demand-global-electricity-use-to-grow-strongly-in-2025-and-2026%C2%A0%C2%A0",
-        "https://www.iea.org/reports/electricity-mid-year-update-2026/executive-summary",
-        "https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai",
-        "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary?_bhlid=10646f272364cf3af59c0fa8f3886b1cfe01e627",
-        "https://www.iea.org/reports/modernising-grids-in-the-age-of-electricity",
-        "https://www.iea.org/reports/modernising-grids-in-the-age-of-electricity/executive-summary",
-        "https://www.imf.org/-/media/files/publications/imf-notes/2026/english/insea2026001.pdf",
-        "https://www.imf.org/en/blogs/articles/2026/07/02/tokenization-can-change-the-worlds-financial-architecture",
-        "https://www.imf.org/en/news/articles/2026/05/11/sp051126-tokenized-finance-and-money",
-        "https://www.imf.org/en/publications/imf-notes/issues/2026/04/01/tokenized-finance-574921",
-        "https://www.kiplinger.com/investing/crypto-trends-to-watch-in-2026",
-        "https://www.newyorkfed.org/aboutthefed/nyic/project-pine",
-        "https://www.rba.gov.au/media-releases/2026/mr-26-13.html",
-        "https://www.reddit.com/r/AllAboutPayments/comments/1uewv2d/institutions_arent_chasing_bitcoin_theyre/",
-        "https://www.reddit.com/r/CoinsPaid_Media_Host/comments/1w3ef92/blockchain_as_financial_infrastructure_2026_report/",
-        "https://www.reddit.com/r/Hedera/comments/1uptbiz/global_digital_finance_gdf_and_the_international/",
-        "https://www.reddit.com/r/RWATimes/comments/1ryt698/2025_marked_the_turning_point_for_tokenization_of/",
-        "https://www.reddit.com/r/RWATimes/comments/1rzkdfs/ripple_survey_shows_finance_leaders_focus_on/",
-        "https://www.reddit.com/r/RWATimes/comments/1tmddb6/tokenized_realworld_assets_hit_314_billion_as/",
-        "https://www.reddit.com/r/RWATimes/comments/1uwonjw/rwa_tokenization_modernizing_assets_markets_and/",
-        "https://www.reddit.com/r/RWATimes/comments/1uxsk61/dtcc_tokenizes_markets_wall_street_moves_closer/",
-        "https://www.reddit.com/r/RWATimes/comments/1v34f5o/journey_toward_tokenized_stocks_fp_weekly_30/",
-        "https://www.reddit.com/r/XRP/comments/1ryxde2/summary_of_ripples_2026_digital_asset_survey/",
-        "https://www.reddit.com/r/u_Flat_Interaction8729/comments/1ukeozf/institutional_crypto_adoption_in_h1_2026_what/",
-        "https://www.sciencedirect.com/science/article/pii/S0954349X26000214",
-        "https://www.sec.gov/files/cft-written-wall-street-blockchain-august-2026.pdf?trk=article-ssr-frontend-pulse_little-text-block",
-        "https://www.worldbank.org/en/brief/2026/04/21/trade-watch"
+        "https://apnews.com/article/3bd62dd2d73ed711fa754ead1997634a",
+        "https://apnews.com/article/e78ccd51a7f66099d84fda885d2907a3",
+        "https://articles.abilogic.com/769535/why-best-products-never-available.html",
+        "https://arxiv.org/abs/2407.02003",
+        "https://cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://elpais.com/chile/2026-06-17/el-banco-central-de-chile-recorta-su-proyeccion-de-crecimiento-para-2026-y-preve-una-expansion-inferior-al-2.html",
+        "https://elpais.com/chile/2026-09-16/por-que-la-economia-de-chile-no-crea-empleos-ninguna-empresa-quiere-contratar.html",
+        "https://en.wikipedia.org/wiki/Chile",
+        "https://en.wikipedia.org/wiki/Consumer-to-business",
+        "https://en.wikipedia.org/wiki/Economy_of_Chile",
+        "https://es.wikipedia.org/wiki/Marketplaces_en_Am%C3%A9rica_Latina",
+        "https://funpacifico.cl/wp-content/uploads/2025/12/Strategic-Elements-for-Chiles-Trade-Policy-in-the-Asia-Pacific-Basin.pdf",
+        "https://thedocs.worldbank.org/en/doc/e408a7e21ba62d843bdd90dc37e61b57-0500032021/related/mpo-chl.pdf",
+        "https://www.bcentral.cl/documents/33528/133217/Agenda%2BRegulatoria%2BDPF%2B2026%2B%28Abif%29%2B-%2BClaudio%2BRaddatz%2C%2BGerente%2BDPF.pdf/7f075758-c9ac-935a-c991-25c7413f5a9e?t=1767811090426",
+        "https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836",
+        "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa_tramite_cerrada.php",
+        "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-72160_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.fne.gob.cl/en/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-plataformas/",
+        "https://www.imf.org/es/news/articles/2026/05/04/mcs050426-chile-staff-concluding-statement-of-the-2026-article-iv-mission",
+        "https://www.kallman.com/wp-content/uploads/2026/02/Food-Service-Hotel-Restaurant-Institutional-Annual_Santiago_Chile_CI2025-0034.pdf",
+        "https://www.reddit.com/r/UnderReportedNews/comments/1uz1wkc/bmi_warns_severe_structural_deficits_will_drive/",
+        "https://www.reddit.com/r/WallStreetbetsELITE/comments/1uz1w43/bmi_warns_severe_structural_deficits_will_drive/",
+        "https://www.sec.gov/Archives/edgar/data/1793663/000119312526076504/ck0001793663-20251231.htm",
+        "https://www.sii.cl/noticias/2025/220925noti01pcr.htm",
+        "https://www.trade.gov/country-commercial-guides/chile-distribution-sales-channels"
       ]
     },
     {
@@ -167,38 +139,44 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_9806dd7c2bc14a3373b4",
+      "candidate_id": "opp_0567e48575bedd237b5c",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 15,
+      "grounded_source_count": 21,
       "search_source_urls": [
-        "https://ferc.gov/news-events/news/e-7-chairman-christies-concurrence-miso-spp-jtiq-rehearing-order-er24-2797",
-        "https://www.eia.gov/outlooks/aeo/pdf/AEO_Narrative.pdf",
-        "https://www.eia.gov/outlooks/steo/report/electricity.php",
-        "https://www.eia.gov/pressroom/releases/press582.php",
-        "https://www.eia.gov/todayinenergy/detail.php?id=65264",
-        "https://www.eia.gov/todayinenergy/detail.php?id=67344",
-        "https://www.eia.gov/todayinenergy/detail.php?id=67704",
-        "https://www.energy.gov/oe/national-transmission-needs-study",
-        "https://www.ferc.gov/news-events/news/commissioner-rosners-concurrence-regarding-hickory-wind-llc-under-er25-1594",
-        "https://www.ferc.gov/news-events/news/summaries-june-2025-commission-meeting",
-        "https://www.ferc.gov/sites/default/files/2025-03/25_State-of-the-Market_0320_1200.pdf",
-        "https://www.ferc.gov/sites/default/files/2026-03/26_State-of-the-Market_0324_1430.pdf",
-        "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions?__cf_chl_f_tk=mPlSI9KgDo0inioCRhuh6kU7U80qA.4CGq1WWVhvZcU-1783084545-1.0.1.1-072zjVfFsXXPnHR.edts3ccVzFC5OHDol3NSdHt3s8Y",
-        "https://www.iea.org/reports/global-energy-review-2026/global-trends",
-        "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary?_bhlid=10646f272364cf3af59c0fa8f3886b1cfe01e627"
+        "https://chocale.cl/2026/06/incertidumbre-por-implementacion-del-sistema-de-finanzas-abiertas-industria-cuestiona-falta-de-certezas/",
+        "https://cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://en.wikipedia.org/wiki/Open_finance",
+        "https://es.wikipedia.org/wiki/Finanzas_abiertas",
+        "https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_financiera",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-100482.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-96458.html",
+        "https://www.cmfchile.cl/portal/principal/613/articles-93115_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/articles-95894_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113806.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-channel.html?campaign=CL_FIJO_COL-FIBRA-B2C_21-01-01_SEM_LDS-WEB_AON_BRAND-FIBRA_ABT_BRO&keyword=p67786220326",
+        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48738.html",
+        "https://www.df.cl/mercados/banca-fintech/abif-esta-definicion-es-coherente-la-meta-de-julio-de-2026-no-era",
+        "https://www.imf.org/-/media/files/publications/cr/2024/english/1chlea2024002.pdf",
+        "https://www.latercera.com/pulso/noticia/el-pais-mas-lento-del-mundo-debilita-la-competencia-la-dura-critica-de-fintechile-a-la-cmf-por-cambios-en-normativa-que-regula-el-sfa/?outputType=base-amp-type",
+        "https://www.reddit.com/r/fintech/comments/1sotr52/removed/",
+        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000069/MNCenglish.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000108/MNCjune2026signed.pdf"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_9806dd7c2bc14a3373b4",
+      "candidate_id": "opp_0567e48575bedd237b5c",
       "coercions": [
         "contrary_evidence"
       ]
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_9806dd7c2bc14a3373b4",
+      "candidate_id": "opp_0567e48575bedd237b5c",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -206,7 +184,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_9806dd7c2bc14a3373b4",
+      "candidate_id": "opp_0567e48575bedd237b5c",
       "coercions": []
     }
   ],
@@ -214,44 +192,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 256,
-      "cache_write_tokens": 4551,
+      "reasoning_tokens": 231,
+      "cache_write_tokens": 4586,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02646075,
+      "cumulative_cost_usd": 0.0147907,
       "model": "gpt-5.6-luna",
-      "input_tokens": 21380,
+      "input_tokens": 13225,
       "cached_tokens": 0,
-      "output_tokens": 1631,
-      "web_search_calls": 2,
-      "estimated_cost_usd": 0.02646075
+      "output_tokens": 1597,
+      "web_search_calls": 1,
+      "estimated_cost_usd": 0.0147907
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 230,
-      "cache_write_tokens": 5206,
+      "reasoning_tokens": 124,
+      "cache_write_tokens": 5133,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.04122345,
+      "cumulative_cost_usd": 0.02925395,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13656,
+      "input_tokens": 13527,
       "cached_tokens": 0,
-      "output_tokens": 1476,
+      "output_tokens": 1251,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0147627
+      "estimated_cost_usd": 0.01446325
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 103,
-      "cache_write_tokens": 2433,
+      "reasoning_tokens": 0,
+      "cache_write_tokens": 2389,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.05459595,
+      "cumulative_cost_usd": 0.04164045,
       "model": "gpt-5.6-terra",
-      "input_tokens": 2436,
+      "input_tokens": 2392,
       "cached_tokens": 0,
-      "output_tokens": 607,
+      "output_tokens": 534,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.0133725
+      "estimated_cost_usd": 0.0123865
     }
   ]
 }
