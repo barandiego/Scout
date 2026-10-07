@@ -1,6 +1,6 @@
 # SCOUT — Public Procurement Chile
 
-Status: **experimental / historical validation only**. This subsystem is deliberately isolated from the active Scout V0 discovery schedule.
+Status: **autonomous read-only monitoring / no OpenAI / no procurement actions**. The vertical is scheduled separately from the paid Scout V0 discovery cycle.
 
 ## Hypothesis
 
@@ -12,7 +12,7 @@ The experiment is designed to falsify that hypothesis. Zero survivors is valid.
 
 Current implementation supports the deterministic substrate for **Phase 1 historical market reconstruction** and the invariants needed by later counterfactual/shadow evaluation. It does not submit quotations, buy products, contact buyers/suppliers, register entities, invoice, pay, or commit capital.
 
-It is **not** registered in `config/verticals/`, is not added to `config/lenses.yaml`, and is not invoked by `.github/workflows/scout.yml`. This prevents the active paid Scout V0 cycle from spending on or executing this experiment.
+It remains outside the paid Scout V0 lens rotation. A separate `procurement-chile.yml` workflow performs bounded read-only incremental ChileCompra API monitoring every four hours, persists normalized state plus a sanitized report, and uses no OpenAI.
 
 ## Official data contract used
 
@@ -58,7 +58,7 @@ Offline fixture normalization (no network):
 python -m scout.procurement_chile validate-fixture tests/fixtures/compra_agil_detail_documented.json
 ```
 
-A bounded real historical read exists but is disabled in config by default. Enabling it is a separate explicit governance decision and requires `CHILECOMPRA_TICKET` in the environment. No OpenAI call is involved.
+A bounded real historical read and an incremental `monitor` command are enabled for this authorized read-only vertical. Both require `CHILECOMPRA_TICKET` from trusted environment/Actions secrets. No OpenAI call is involved.
 
 ## Bounded real API validation — 2026-10-03
 
@@ -87,8 +87,12 @@ This is a **PASS for API accessibility, real response shape, and approximately s
 4. OC/selection fields remain incomplete or unreliable enough that outcome scoring must stay conservative.
 5. A lower hypothetical price is not automatically a hypothetical win unless price-only selection is independently verified; otherwise reconciliation records only `price_competitive`.
 
+## Autonomous monitor
+
+The scheduled monitor uses incremental ChileCompra change windows with a durable monotonic cursor. It advances the cursor only after a bounded run without API failures or request-budget exhaustion. Pre-cursor runs start with a six-hour lookback. Each run is capped at 25 total HTTP requests, 2 list pages and 20 detail requests.
+
+The report surfaces structurally reconstructable procurements in `publicada` state as research/watch candidates. This is **not** a profitability claim: supplier acquisition cost is still absent, so Scout does not fabricate sourcing economics.
+
 ## Next gate
 
-Phase 1 may continue to a larger deterministic historical reconstruction sample, still read-only and OpenAI-free. The next purpose is to measure coverage rates across a broader set of historical Compra Ágil records and categories before doing any supplier-sourcing or profitability work.
-
-Do not add scheduling, active Scout integration, autonomous procurement actions, or OpenAI analysis at this stage.
+Let the autonomous monitor accumulate coverage evidence while HQ focuses elsewhere. The next economic gate remains external sourcing-cost evidence and a defensible profitability test. No quotation, supplier/buyer contact, purchase, payment, registration or capital commitment is authorized.
