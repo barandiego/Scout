@@ -4,6 +4,13 @@ run-name: Scout Public Procurement Chile — monitor
 on:
   schedule:
     - cron: '23 */4 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'scout/procurement_chile.py'
+      - 'scout/procurement_io.py'
+      - 'config/experiments/public_procurement_chile.yaml'
+      - '.github/workflows/procurement-chile.yml'
   workflow_dispatch:
 
 permissions:
@@ -61,7 +68,8 @@ jobs:
         run: |
           git config user.name "scout-procurement[bot]"
           git config user.email "scout-procurement[bot]@users.noreply.github.com"
-          git add state/public_procurement_chile reports/public_procurement_chile
+          git add -A -- reports/public_procurement_chile
+          if [ -d state/public_procurement_chile ]; then git add -A -- state/public_procurement_chile; fi
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "chore: persist procurement monitor state"
           git pull --rebase origin "${GITHUB_REF_NAME}"

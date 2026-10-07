@@ -13,6 +13,7 @@ from .procurement_io import ChileCompraClient, ProcurementStore, RequestBudget
 from .state import atomic_write
 
 ROOT=Path(__file__).resolve().parents[1]
+TRANSIENT_MONITOR_ERRORS={"api_http_502","api_http_503","api_http_504","api_transport_error","api_rate_limited"}
 
 def _config():
     with (ROOT/"config"/"experiments"/"public_procurement_chile.yaml").open(encoding="utf-8") as h:
@@ -42,7 +43,22 @@ def _main():
     if a.lookback_hours<1 or a.lookback_hours>24: raise ProcurementAPIError("invalid_monitor_lookback")  # noqa: F405
     cursor=st.latest_cursor()
     changed_from=cursor or (observed-timedelta(hours=a.lookback_hours)).isoformat().replace("+00:00","Z")
-    records,diag=client.changed_window(changed_from=changed_from,changed_to=observed_iso,observed_at=observed_iso,max_pages=int(lim["max_list_pages"]),max_details=int(lim["max_detail_requests"]))
+    try:
+        records,diag=client.changed_window(changed_from=changed_from,changed_to=observed_iso,observed_at=observed_iso,max_pages=int(lim["max_list_pages"]),max_details=int(lim["max_detail_requests"]))
+    except ProcurementAPIError as exc:  # noqa: F405
+        reason=str(exc)
+        if reason not in TRANSIENT_MONITOR_ERRORS: raise
+        report={
+            "schema_version":1,"generated_at":observed_iso,"window":{"changed_from":changed_from,"changed_to":observed_iso},
+            "ok":False,"outcome":"DEGRADED_TRANSIENT_API","inserted_history":0,
+            "diagnostics":{"api_failures":{reason:1},"requests_used":client.budget.used,"transient_retries":client.transient_retries},
+            "phase1":{"records":0,"resolved":0,"structurally_reconstructable":0,"with_observable_quote_totals":0,"with_purchase_order_indicator":0,"rejection_reasons":{}},
+            "active_structurally_reconstructable_count":0,"active_candidates":[],
+            "note":"Transient ChileCompra/API availability failure after bounded retries. Cursor was not advanced; next scheduled run may retry safely."
+        }
+        atomic_write(ROOT/a.report,json.dumps(report,ensure_ascii=False,sort_keys=True,indent=2)+"\n")
+        print(json.dumps(report,ensure_ascii=False,indent=2))
+        return 0
     inserted=sum(st.add_history(r) for r in records)
     if not diag.get("budget_exhausted") and not diag.get("api_failures"): st.set_cursor(observed_iso)
     candidates=[r for r in records if r.status=="publicada" and not reconstructability_reasons(r)]  # noqa: F405
