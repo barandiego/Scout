@@ -27,14 +27,18 @@ jobs:
       - run: pip install -e '.[dev]'
       - run: python -m compileall -q scout tests
       - run: pytest -q tests/test_procurement_chile.py
-      - name: Verify ticket is available
+      - name: Check ticket configuration
+        id: ticket
         shell: bash
         run: |
-          if [ -z "$CHILECOMPRA_TICKET" ]; then
-            echo "CHILECOMPRA_TICKET is not configured; refusing network access."
-            exit 1
+          if [ -n "$CHILECOMPRA_TICKET" ]; then
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+            echo "CHILECOMPRA_TICKET is not configured; monitor remains fail-closed and performs no network access." >> "$GITHUB_STEP_SUMMARY"
           fi
       - name: Monitor Compra Agil
+        if: steps.ticket.outputs.configured == 'true'
         id: monitor
         run: >
           python -m scout.procurement_chile monitor
