@@ -1,15 +1,15 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-08T16:14:10.063623+00:00
+Generated: 2026-10-08T20:13:03.388891+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['geographic_arbitrage', 'ai_open_source', 'public_markets']
+- lenses: ['physical_commerce', 'regulation_infrastructure', 'robotics_automation']
 - raw_candidates: 3
 - parseable_candidates: 3
 - normalized_candidates: 3
 - normalization_rejected: 0
-- grounded_sources: 5
+- grounded_sources: 6
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
@@ -17,12 +17,12 @@ Generated: 2026-10-08T16:14:10.063623+00:00
 - judge_reviews: 1
 - survivors: 0
 - watches: 1
-- rejected: 1
+- rejected: 0
 - errors_by_stage: {}
-- rejection_reasons: {'discarded_ungrounded_url': 1, 'insufficient_unique_evidence': 1}
-- cost_usd: 0.0422928
+- rejection_reasons: {}
+- cost_usd: 0.04364315
 - cost_uncertain: False
-- budget_remaining_usd: 0.0377072
+- budget_remaining_usd: 0.03635685
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -50,12 +50,13 @@ No survivors. Scout does not manufacture a daily winner.
 - Midstream critical-minerals processing is becoming a strategic bottleneck: The sources credibly support a strategic concentration and processing-capacity problem, including U.S. concern over dependence on foreign processed critical minerals and IEA reporting on concentrated supply chains. However, this is not yet a demonstrated geographic-arbitrage case: it identifies a broad industrial bottleneck rather than a specific product flow with proven foreign demand, secured local feedstock, a measurable delivered-price gap, and viable landed-margin economics. No fatal condition is conclusively established from the record—foreign traction is supported by primary/independent sources rather than anecdote, and an import/regulatory barrier is not shown to make participation unrealistic—but the thesis cannot yet be considered HQ-worthy without mineral- and project-specific diligence.
 - Chile SFA implementation moves from rulemaking to integration testing: critic_invalid_output
 - Chile publishes technical rules and developer infrastructure for Open Finance, with go-live deferred to July 2027: The regulatory premise is sufficiently grounded by CMF primary sources: NCG 569/Annex 3, supporting developer/testing infrastructure, and a July 2027 effective date appear to be real rather than an unverified regulatory-change claim. No fatal lack of legal or technical API availability is established; the framework is explicitly creating standardized access and testing paths. However, the opportunity is not yet HQ-worthy as a broad implementation race. The remaining commercial rules and operating realities—cost allocation, liability, certification, security obligations, service levels, participant phasing, and actual bank procurement—are unresolved or unvalidated. CMF-provided documentation and sandbox infrastructure may commoditize generic connectivity, normalization, and testing, while incumbents likely hold material distribution and compliance advantages. A survivor case requires evidence of paid demand for a narrow, non-commodity wedge, not merely regulatory preparation activity.
+- API security and compliance are becoming a product layer for cloud and platform ecosystems: The underlying signal is well grounded in primary sources: NIST’s REST API guidance and FedRAMP’s 2026 rule/timeline and machine-readable-rule direction plausibly increase demand for auditable security and compliance workflows. There is a credible payer class—government-facing SaaS/cloud providers, their integrators, and potentially assessor/channel partners—and a realistic participation path via a narrow evidence-automation or continuous-control-telemetry wedge. However, the proposed value capture is far too broad and currently lacks proof of a separately purchasable pain, buyer budget, channel access, or advantage against entrenched GRC, cloud-security, API-security, OSCAL, consulting, and assessor incumbents. The opportunity survives as research, not as an execution-ready thesis. It should be narrowed to a deterministic, assessor-accepted FedRAMP/OSCAL evidence workflow with measurable authorization-time or assessor-labor savings before further commitment.
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "review_cap_not_persisted=1"
+    "review_cap_not_persisted=2"
   ],
   "stages": [
     {
@@ -63,45 +64,28 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 37,
+      "grounded_source_count": 20,
       "search_source_urls": [
-        "https://agentic.ai/developers",
-        "https://am.gs.com/cms-assets/gsam-app/documents/insights/en/2025/Investment-Outlook-2026.pdf",
-        "https://apnews.com/article/a00bf637866fcd4d81f4fde28c9862ce",
-        "https://apnews.com/article/d2ed33f2521917193616e061674d5f92",
-        "https://arxiv.org/abs/2608.01955",
-        "https://arxiv.org/abs/2608.14580",
-        "https://arxiv.org/abs/2609.04894",
-        "https://arxiv.org/abs/2609.38652",
-        "https://cmfchile.cl/portal/principal/613/articles-86462_doc_pdf.pdf",
-        "https://en.wikipedia.org/wiki/List_of_large_language_models",
-        "https://en.wikipedia.org/wiki/Lists_of_open-source_artificial_intelligence_software",
-        "https://en.wikipedia.org/wiki/Open-source_artificial_intelligence",
-        "https://en.wikipedia.org/wiki/OpenClaw",
-        "https://en.wikipedia.org/wiki/Z.ai",
-        "https://omla-ai.org/license.html",
-        "https://openai.com/index/introducing-the-agents-api/",
-        "https://resources.anthropic.com/hubfs/The%202026%20State%20of%20AI%20Agents%20Report.pdf?_bhlid=f5832f1e00cadd0eaf3ef8debb58fa368031c9de",
-        "https://www.anthropic.com/claude-fable-and-mythos-5-1?_bhlid=e7aaf2df3e24697dbf12bef2c1d5f8b38dc62074",
-        "https://www.axios.com/2026/06/22/open-source-ai-china-cost-risk-glm-deepseek",
-        "https://www.axios.com/2026/06/25/china-glm-52-open-source-hackers",
-        "https://www.bdo.cl/es-cl/publicaciones/articulos/advisory/market-valuation-trends-insights-2t-2026",
-        "https://www.blackrock.com/ch/professionals/en/literature/whitepaper/private-markets-outlook-2026.pdf",
-        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
-        "https://www.cmfchile.cl/portal/prensa/615/articles-72160_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.df.cl/mercados/bolsa-monedas/emisores-de-valores-presentan-a-hacienda-paquete-de-30-propuestas-para-la",
-        "https://www.emol.com/noticias/Economia/2026/06/03/1201808/nuevas-aperturas-bolsa-chilena.html",
-        "https://www.hacienda.cl/english/news-and-events/news/ministry-of-finance-launches-process-to-advance-modernization-of-public-debt",
-        "https://www.linuxfoundation.org/hubfs/Research%20Reports/Open%20Source%20and%20the%20Future%20of%20AI_Report_2026.pdf?hsLang=en",
-        "https://www.publicnow.com/view/EDB70E0AECE563E753ED44722EF8EEB82BAC2294",
-        "https://www.reddit.com/r/AIDeveloperNews/comments/1t17anp/15_new_ai_dev_tools_models_agents_releases_best/",
-        "https://www.reddit.com/r/AI_Agents/comments/1vsk3rq/how_much_does_it_actually_cost_to_build_a_custom/",
-        "https://www.reddit.com/r/Agentic_Marketing/comments/1us1orl/after_4_years_were_opensourcing_a_local_ai/",
-        "https://www.reddit.com/r/u_enoumen/comments/1wo9w18/ai_daily_news_rundown_open_source_takes_78_of/",
-        "https://www.reddit.com/r/u_rsrini7/comments/1r621ek/weekly_ai_tech_updates_february_15_2026/",
-        "https://www.tomshardware.com/tech-industry/artificial-intelligence/openclaw-creator-burns-through-1-3-million-in-openai-api-tokens-in-a-single-month"
+        "https://arxiv.org/abs/2603.20533",
+        "https://assets-cms.globalxetfs.com/CD26%20-%20Robotics%20%26%20Physical%20AI%20Post.pdf",
+        "https://community.xcelerator.siemens.com/public/blogs/industry-signals-robotics-2026-04-14",
+        "https://dataweb.usitc.gov/?f=beta",
+        "https://new.abb.com/news/detail/133798/prsrl-abb-robotics-survey-shows-acceleration-in-automation-investment-for-automotive-manufacturers",
+        "https://research.ark-invest.com/hubfs/1_Download_Files_ARK-Invest/Big_Ideas/ARKInvest%20BigIdeas2026.pdf",
+        "https://usatrade.census.gov/trade_client/",
+        "https://www.api.org/-/media/Files/misc/2026/EnergyAgenda_2026.pdf",
+        "https://www.api.org/news-policy-and-issues/news/2026/09/30/api-welcomes-bipartisan-american-affordability-and-jobs-act-to-modernize-permitt",
+        "https://www.bls.gov/mxp/home.htm",
+        "https://www.census.gov/econ/indicators/index.html",
+        "https://www.fedramp.gov/2026/",
+        "https://www.ferc.gov/major-orders-regulations",
+        "https://www.govinfo.gov/content/pkg/FR-2026-06-01/pdf/FR-2026-06-01.pdf",
+        "https://www.govinfo.gov/content/pkg/FR-2026-09-22/html/2026-19388.htm",
+        "https://www.imf.org/-/media/files/publications/tnm/2026/english/tnmea2026006-s001.pdf",
+        "https://www.nist.gov/news-events/news/2026/05/guidelines-secure-deployment-restful-web-apis-draft-sp-800-228a-available",
+        "https://www.reddit.com/r/EcommerceCircle/comments/1wfhnnh/us_import_volumes_are_running_higher_than/",
+        "https://www.reginfo.gov/public/do/eAgendaViewRule?RIN=0610-AA79&pubId=202504",
+        "https://www.whitehouse.gov/wp-content/uploads/2026/04/ERP-2026-3.-Rebuilding-Americas-International-Trade-Policy.pdf"
       ]
     },
     {
@@ -123,9 +107,7 @@ No survivors. Scout does not manufacture a daily winner.
       "index": 1,
       "stage": "normalization",
       "outcome": "accepted",
-      "reasons": [
-        "discarded_ungrounded_url"
-      ],
+      "reasons": [],
       "changes": [
         "contrary_evidence:list_sanitized",
         "major_risks:list_sanitized",
@@ -133,7 +115,7 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 1,
+      "grounded_sources": 2,
       "retry_justified": false
     },
     {
@@ -153,41 +135,64 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_a52d2e8482508d0a2b4c",
+      "candidate_id": "opp_4d35ac86771c99fe0eec",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 20,
+      "grounded_source_count": 43,
       "search_source_urls": [
-        "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=f91f133e-cc24-401b-9e65-e37cc9fd1613",
-        "https://cmfchile.cl/portal/principal/613/articles-102557_recurso_1.pdf",
-        "https://cmfchile.cl/portal/principal/613/articles-86367_doc_pdf.pdf",
-        "https://cmfchile.cl/portal/principal/623/w4-article-92466.html",
-        "https://marcodigital.cl/biblioteca/normativas/cmf-ncg-514-finanzas-abiertas",
-        "https://one.oecd.org/document/DAF/COMP/LACCF%282024%2916/en/pdf",
-        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/304906349/Canales%2Bde%2BSoporte%2By%2BRegistro%2Bde%2BEvidencia",
-        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/435749124/v1.0.0%2B-%2BModelo%2Bde%2Bgobierno",
-        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
-        "https://www.cmfchile.cl/portal/principal/613/articles-96504_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
-        "https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/09/competition-fintechs-and-open-banking_8b85b99b/de9fe6b4-en.pdf",
-        "https://www.reddit.com/r/chileIT/comments/1gf8fev/apis_bancarias/",
-        "https://www.reddit.com/r/chileIT/comments/1jcs4sd",
-        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000108/MNCjune2026signed.pdf"
+        "https://arxiv.org/abs/2201.07959",
+        "https://arxiv.org/abs/2503.22612",
+        "https://arxiv.org/abs/2506.11950",
+        "https://arxiv.org/abs/2511.02856",
+        "https://csrc.nist.gov/csrc/media/presentations/2026/fedramp-updates-%281%29/nist%20forum%20meeting-2026-04-15-fedramp%20updates-gsa.pdf",
+        "https://demo.fedramp.gov/2026-07-30-fedramp-certification-paths-are-heating-up/",
+        "https://demo.fedramp.gov/rfcs/0024/",
+        "https://en.wikipedia.org/wiki/Boomi%2C_LP",
+        "https://en.wikipedia.org/wiki/Census_and_Survey_Data_Processing_Platforms_%282026%29",
+        "https://en.wikipedia.org/wiki/FedRAMP",
+        "https://en.wikipedia.org/wiki/Kiteworks",
+        "https://en.wikipedia.org/wiki/ObjectSecurity",
+        "https://en.wikipedia.org/wiki/SAP_NS2",
+        "https://fedscoop.com/wp-content/uploads/sites/5/2024/07/M-24-15-Modernizing-the-Federal-Risk-and-Authorization-Management-Program.pdf",
+        "https://files.gao.gov/reports/GAO-26-108443/index.html",
+        "https://gsa-stg-ecas.gsa.gov/system/files/GSA-FY2026-Congressional-Justification_508-Compliant.pdf",
+        "https://preview.fedramp.gov/2026/rules/",
+        "https://security.cms.gov/learn/fedramp",
+        "https://www.fedramp.gov/2026-06-25-propelling-change-fedramp-launches-consolidated-rules-for-2026/",
+        "https://www.fedramp.gov/2026/providers/start/path/?h=lost+spons",
+        "https://www.fedramp.gov/2026/scope/",
+        "https://www.fedramp.gov/2026/timeline/",
+        "https://www.fedramp.gov/20x/",
+        "https://www.fedramp.gov/assets/resources/documents/FedRAMP-Program-Roadmap-2024-2025-Public-Artifact.pdf",
+        "https://www.fedramp.gov/assets/resources/toolkits/fedramp_press_kit.pdf",
+        "https://www.fedramp.gov/notices/0008/",
+        "https://www.nist.gov/news-events/news/2026/05/guidelines-secure-deployment-restful-web-apis-draft-sp-800-228a-available",
+        "https://www.reddit.com/r/CMMC/comments/1ufaj1m/fedramp_20x_for_cmmc/",
+        "https://www.reddit.com/r/CMMC/comments/1w3mtxm/how_to_navigate_vendors_that_insist_their/",
+        "https://www.reddit.com/r/FedRAMP/comments/1p0a6l9/when_you_do_and_dont_need_fedramp_authorization/",
+        "https://www.reddit.com/r/FedRAMP/comments/1py88hc/question_could_receiving_a_fedramp_ato/",
+        "https://www.reddit.com/r/FedRAMP/comments/1qbtikf/two_big_changes_that_could_reshape_earlystage/",
+        "https://www.reddit.com/r/FedRAMP/comments/1reg1c8/are_there_specific_agencies_that_require_fedramp/",
+        "https://www.reddit.com/r/FedRAMP/comments/1rt8ve8/lessons_learned_designing_a_govcon_saas_product/",
+        "https://www.reddit.com/r/FedRAMP/comments/1rwhn28/usda_connect_migration_to_alternate_hosting/",
+        "https://www.reddit.com/r/FedRAMP/comments/1vj2or3/when_a_seller_says_theyre_listed_on_a_government/",
+        "https://www.reddit.com/r/FedRAMP/comments/1vn5zsj/do_my_reservation_system_need_fedramp_ato_if_it/",
+        "https://www.reddit.com/r/FedRAMP/comments/1wj40av/for_those_with_existing_authorizations_how_is/",
+        "https://www.reddit.com/r/u_angeloswif/comments/1wmihr8/fedramp_just_outlawed_aigenerated_compliance/",
+        "https://www.techradar.com/pro/oracle-slams-report-claiming-a-massive-microsoft-cloud-deal-collapsed-as-inaccurate",
+        "https://www.techradar.com/pro/the-us-government-is-signing-a-whole-load-of-cloud-computing-contracts-so-whats-the-rush",
+        "https://www.whitehouse.gov/wp-content/uploads/2024/07/M-24-15-Modernizing-the-Federal-Risk-and-Authorization-Management-Program.pdf",
+        "https://www.youtube.com/watch?v=kR5At7k9Sac"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_a52d2e8482508d0a2b4c",
+      "candidate_id": "opp_4d35ac86771c99fe0eec",
       "coercions": []
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_a52d2e8482508d0a2b4c",
+      "candidate_id": "opp_4d35ac86771c99fe0eec",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -195,7 +200,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_a52d2e8482508d0a2b4c",
+      "candidate_id": "opp_4d35ac86771c99fe0eec",
       "coercions": []
     }
   ],
@@ -203,44 +208,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 170,
-      "cache_write_tokens": 4631,
+      "reasoning_tokens": 253,
+      "cache_write_tokens": 4621,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01446915,
+      "cumulative_cost_usd": 0.01443385,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13052,
+      "input_tokens": 13076,
       "cached_tokens": 0,
-      "output_tokens": 1356,
+      "output_tokens": 1323,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01446915
+      "estimated_cost_usd": 0.01443385
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 146,
-      "cache_write_tokens": 5157,
+      "reasoning_tokens": 144,
+      "cache_write_tokens": 5106,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0291068,
+      "cumulative_cost_usd": 0.02878115,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13589,
+      "input_tokens": 13572,
       "cached_tokens": 0,
-      "output_tokens": 1385,
+      "output_tokens": 1148,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01463765
+      "estimated_cost_usd": 0.0143473
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 0,
-      "cache_write_tokens": 2776,
+      "reasoning_tokens": 40,
+      "cache_write_tokens": 3048,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0422928,
+      "cumulative_cost_usd": 0.04364315,
       "model": "gpt-5.6-terra",
-      "input_tokens": 2779,
+      "input_tokens": 3051,
       "cached_tokens": 0,
-      "output_tokens": 520,
+      "output_tokens": 603,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.013186
+      "estimated_cost_usd": 0.014862
     }
   ]
 }
