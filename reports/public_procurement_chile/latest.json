@@ -1,60 +1,80 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 1950000.0,
-      "buyer": "I MUNICIPALIDAD DE LA ESTRELLA",
-      "closes_at": "2026-10-09T09:00:00",
-      "code": "4751-56-COT26",
-      "estimated_budget": 1950000.0,
-      "name": "Servicios de Amplificación, Animación por actividad de Conmemoración del Dia del Profesor",
+      "available_budget_clp": 5512501.0,
+      "buyer": "I MUNICIPALIDAD DE VALLENAR",
+      "closes_at": "2026-10-09T10:00:00",
+      "code": "2322-645-COT26",
+      "estimated_budget": 5512501.0,
+      "name": "Compra y mantención de desfibriladores para recintos municipales",
       "products": 1,
-      "region": "Región del Libertador General Bernardo O´Higgins"
+      "region": "Región de Atacama"
     },
     {
-      "available_budget_clp": 500000.0,
-      "buyer": "ILUSTRE MUNICIPALIDAD DE HUARA",
-      "closes_at": "2026-10-13T15:00:00",
-      "code": "5907-214-COT26",
-      "estimated_budget": 500000.0,
-      "name": "Servicio capacitación para personal de rentas en normativa de patentes, derechos y permisos sector municipal",
+      "available_budget_clp": 1000000.0,
+      "buyer": "I MUNICIPALIDAD DE VALLENAR",
+      "closes_at": "2026-10-09T10:00:00",
+      "code": "2322-644-COT26",
+      "estimated_budget": 1000000.0,
+      "name": "Adquisición de speakersphone para el Departamento de Relaciones Públicas",
       "products": 1,
-      "region": "Región de Tarapacá"
+      "region": "Región de Atacama"
+    },
+    {
+      "available_budget_clp": 535000.0,
+      "buyer": "I MUNICIPALIDAD DE VALLENAR",
+      "closes_at": "2026-10-09T10:00:00",
+      "code": "2322-643-COT26",
+      "estimated_budget": 535000.0,
+      "name": "Servicio de desratización para Refugio Canino Dalco Huari",
+      "products": 1,
+      "region": "Región de Atacama"
+    },
+    {
+      "available_budget_clp": 4000000.0,
+      "buyer": "I MUNICIPALIDAD DE CANELA",
+      "closes_at": "2026-10-10T11:00:00",
+      "code": "2288-693-COT26",
+      "estimated_budget": 4000000.0,
+      "name": "ADQ. DE INDUMENTARIA E IMPLEMENTOS JARDIN INFANTIL LAS ARDILLITAS",
+      "products": 14,
+      "region": "Región de Coquimbo"
     }
   ],
-  "active_structurally_reconstructable_count": 2,
+  "active_structurally_reconstructable_count": 4,
   "diagnostics": {
     "api_failures": {
       "api_http_500": 1,
       "api_http_504": 2
     },
     "budget_exhausted": true,
-    "detail_attempts": 17,
-    "details_fetched": 14,
+    "detail_attempts": 20,
+    "details_fetched": 17,
     "duplicate_listings": 0,
     "malformed_details": 0,
     "malformed_reasons": {},
     "malformed_samples": [],
     "pages_fetched": 1,
     "requests_used": 25,
-    "transient_retries": 7
+    "transient_retries": 4
   },
-  "generated_at": "2026-10-08T00:47:34Z",
-  "inserted_history": 14,
+  "generated_at": "2026-10-08T04:38:24Z",
+  "inserted_history": 17,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
   "phase1": {
-    "records": 14,
+    "records": 17,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 9
+      "no_observable_competitive_prices": 2
     },
-    "resolved": 12,
-    "structurally_reconstructable": 5,
-    "with_observable_quote_totals": 3,
+    "resolved": 13,
+    "structurally_reconstructable": 15,
+    "with_observable_quote_totals": 11,
     "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
-    "changed_from": "2026-10-07T18:47:34Z",
-    "changed_to": "2026-10-08T00:47:34Z"
+    "changed_from": "2026-10-07T22:38:24Z",
+    "changed_to": "2026-10-08T04:38:24Z"
   }
 }
