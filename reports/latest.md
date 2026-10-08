@@ -1,15 +1,15 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-08T04:11:58.725225+00:00
+Generated: 2026-10-08T08:13:24.736817+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['regulation_infrastructure', 'robotics_automation', 'energy_industrial']
+- lenses: ['mining_materials', 'tokenization_finance', 'business_model_migration']
 - raw_candidates: 3
 - parseable_candidates: 3
 - normalized_candidates: 3
 - normalization_rejected: 0
-- grounded_sources: 5
+- grounded_sources: 6
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
@@ -17,12 +17,12 @@ Generated: 2026-10-08T04:11:58.725225+00:00
 - judge_reviews: 1
 - survivors: 0
 - watches: 1
-- rejected: 1
+- rejected: 0
 - errors_by_stage: {}
-- rejection_reasons: {'discarded_ungrounded_url': 1, 'insufficient_unique_evidence': 1}
-- cost_usd: 0.0518106
+- rejection_reasons: {}
+- cost_usd: 0.04589465
 - cost_uncertain: False
-- budget_remaining_usd: 0.0281894
+- budget_remaining_usd: 0.03410535
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -47,12 +47,13 @@ No survivors. Scout does not manufacture a daily winner.
 - AI and data-center growth are making electricity and grid access a binding cost constraint: The underlying premise is well grounded by recent IEA and regulatory/market sources: data-center load growth and constrained interconnection/transmission capacity can make delivered, reliable power and time-to-connection economically important. There are identifiable payers—hyperscalers, colocation operators, utilities, and large industrial loads—and credible value pools. However, this is a macro condition rather than a sufficiently specified opportunity. It bundles capital-intensive generation and storage with regulated grid technologies and software/services, each with different buyers, margins, sales cycles, approvals, and competitive dynamics. A generic participation path is plausible, but no particular constrained node, customer segment, product wedge, economics, capital requirement, or defensible advantage is identified. It merits targeted research to isolate a narrow, capital-efficient wedge; it is not yet an HQ-ready investment or operating thesis.
 - Chile’s Open Finance implementation is moving from rules to integration and testing: Primary CMF sources in the supplied provenance support that Chile’s SFA has published technical implementation material, a developer environment, a July 2027 phased entry-into-force target, and the ATENA sandbox. Therefore the regulatory transition is not merely alleged, and there is no demonstrated fatal lack of legal or technical access for a vendor serving regulated participants. However, the opportunity bundles several very different businesses. Compliance/readiness and integration services may have near-term demand, but are likely concentrated, procurement-heavy, and partly displaced by CMF-provided testing infrastructure, internal bank teams, incumbent integrators, or global API vendors. Downstream aggregation, payment initiation, and SME underwriting do not yet have evidence of consented-data availability, usage, economics, or durable willingness to pay. The appropriate judgment is watch pending validation of a narrow paid wedge rather than treating open-finance implementation itself as proof of a scalable business.
 - Battery storage economics improve as systems support grid flexibility: The underlying cost-and-deployment premise is credibly grounded by recent IEA materials, and grid operators, utilities, load-serving entities, C&I customers, and offtakers are plausible payers for location-specific flexibility and capacity. However, this is a broad sector trend rather than an HQ-ready opportunity: it does not specify a target market, constrained node, duration, revenue contract, buyer, or differentiated participation route. Falling battery costs and rising installations do not by themselves establish durable returns; value is likely competed away in generic hardware, EPC, development, aggregation, and dispatch software. It merits further research only if narrowed to markets with verifiable congestion/capacity need, executable interconnection or customer access, and contracted or otherwise defensible revenue.
+- Midstream critical-minerals processing is becoming a strategic bottleneck: The sources credibly support a strategic concentration and processing-capacity problem, including U.S. concern over dependence on foreign processed critical minerals and IEA reporting on concentrated supply chains. However, this is not yet a demonstrated geographic-arbitrage case: it identifies a broad industrial bottleneck rather than a specific product flow with proven foreign demand, secured local feedstock, a measurable delivered-price gap, and viable landed-margin economics. No fatal condition is conclusively established from the record—foreign traction is supported by primary/independent sources rather than anecdote, and an import/regulatory barrier is not shown to make participation unrealistic—but the thesis cannot yet be considered HQ-worthy without mineral- and project-specific diligence.
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "review_cap_not_persisted=1"
+    "review_cap_not_persisted=2"
   ],
   "stages": [
     {
@@ -60,43 +61,48 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 35,
+      "grounded_source_count": 40,
       "search_source_urls": [
-        "https://arxiv.org/abs/2603.29278",
-        "https://arxiv.org/abs/2608.14568",
-        "https://ifr.org/?trk=public_post_comment-text",
-        "https://ifr.org/downloads/press_docs/2025-09-25-IFR_press_release_Americas_in_English.pdf",
-        "https://ifr.org/home/P27",
-        "https://ifr.org/ifr-press-releases/five-million-robots-now-operate-in-factories-globally",
-        "https://ifr.org/ifr-press-releases/global-robot-demand-in-factories-doubles-over-10-years",
-        "https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally?trk=public_post_comment-text",
-        "https://ifr.org/ifr-press-releases/news/presidents-report-by-jane-heffner-3-2026?trk=public_post_comment-text",
-        "https://ifr.org/ifr-press-releases/news/us-robot-industry-returns-to-double-digit-growth",
-        "https://ifr.org/img/worldrobotics/2023_WR_extended_version.pdf",
-        "https://ifr.org/img/worldrobotics/Executive_Summary_WR_2025_Industrial_Robots.pdf",
-        "https://ifr.org/news/",
-        "https://ifr.org/news/global-robot-demand-in-factories-doubles-over-10-years/1st-quarterly-newsletter-2016",
-        "https://ifr.org/pages/www.ifr.org",
-        "https://ifr.org/post/exciting-times-for-robot-suppliers",
-        "https://ifr.org/worldrobotics/",
-        "https://kpmg.com/kpmg-us/content/dam/kpmg/pdf/2026/2026-regulatory-recap-may.pdf",
-        "https://public-inspection.federalregister.gov/2025-23896.pdf",
-        "https://public-inspection.federalregister.gov/2026-07205.pdf",
-        "https://public-inspection.federalregister.gov/2026-20447.pdf",
-        "https://www.cms.gov/newsroom/fact-sheets/2026-cms-interoperability-standards-prior-authorization-drugs-proposed-rule",
-        "https://www.eia.gov/outlooks/aeo/electricity_generation/",
-        "https://www.eia.gov/outlooks/aeo/electricity_generation/pdf/LCOE_report.pdf",
-        "https://www.fda.gov/economics-staff/regulatory-impact-analyses-ria",
-        "https://www.federalreserve.gov/publications/2026-june-supervision-and-regulation-report-introduction.htm",
-        "https://www.fedramp.gov/2026-06-25-propelling-change-fedramp-launches-consolidated-rules-for-2026/",
-        "https://www.fedramp.gov/2026/",
-        "https://www.ferc.gov/order-917",
-        "https://www.iea.org/reports/electricity-2026/flexibility",
-        "https://www.iea.org/reports/energy-technology-perspectives-2026/executive-summary",
-        "https://www.imf.org/-/media/files/publications/tnm/2026/english/tnmea2026006-s001.pdf",
-        "https://www.irena.org/Publications/2026/May/24-7-renewables-The-economics-of-firm-solar-and-wind",
-        "https://www.nlr.gov/solar/market-research-analysis/solar-storage-techno-economic-supply-chain-analysis",
-        "https://www.phmsa.dot.gov/regulations/federal-register-documents/2025-19339"
+        "https://apnews.com/article/588b84ea6d3b4745da42d58bb80bd718",
+        "https://apnews.com/article/df2b6c0f5fdd8b26143ce332336f6489",
+        "https://apnews.com/article/fb19925797cab7c386a80798d4bc8dab",
+        "https://arxiv.org/abs/2605.02926",
+        "https://arxiv.org/abs/2606.08534",
+        "https://arxiv.org/abs/2607.18019",
+        "https://arxiv.org/abs/2607.22459",
+        "https://finance.ec.europa.eu/news/dlt-and-tokenisation-paving-way-internet-value-2026-04-21_en",
+        "https://iea.blob.core.windows.net/assets/a33abe2e-f799-4787-b09b-2484a6f5a8e4/GlobalCriticalMineralsOutlook2025.pdf",
+        "https://www.axios.com/newsletters/axios-pro-rata-2a8ee18a-6f21-4554-882d-e9a8919bd0a2",
+        "https://www.bancaditalia.it/pubblicazioni/interventi-governatore/integov2025/20251209-panetta/Panetta_Whitaker_Lecture_09122025.pdf?language_id=1",
+        "https://www.fdic.gov/news/press-releases/2026/agencies-clarify-capital-treatment-tokenized-securities",
+        "https://www.gao.gov/products/gao-26-108687",
+        "https://www.gov.uk/government/publications/recommendations-of-the-transatlantic-taskforce-for-markets-of-the-future",
+        "https://www.iea.org/reports/global-critical-minerals-outlook-2026",
+        "https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary",
+        "https://www.imf.org/-/media/files/publications/imf-notes/2026/english/insea2026001.pdf",
+        "https://www.imf.org/en/blogs/articles/2026/07/02/tokenization-can-change-the-worlds-financial-architecture",
+        "https://www.imf.org/en/news/articles/2026/05/11/sp051126-tokenized-finance-and-money",
+        "https://www.imf.org/en/publications/imf-notes/issues/2026/04/01/tokenized-finance-574921",
+        "https://www.kpler.com/blog/arbitrage-signals-as-leading-indicators-of-flow-allocation",
+        "https://www.lemonde.fr/en/economy/article/2026/08/24/australia-prepares-to-compete-with-china-with-new-rare-earth-refineries_6756784_19.html",
+        "https://www.lemonde.fr/en/international/article/2026/05/15/geoeconomics-all-dependencies-minerals-currencies-and-semiconductors-are-now-being-weaponized_6753496_4.html",
+        "https://www.rba.gov.au/payments-and-infrastructure/tokenised-money/current-initiatives.html",
+        "https://www.reddit.com/r/CriticalMetalRefining/comments/1r9cp2f/us_still_depends_on_china_for_critical_minerals/",
+        "https://www.reddit.com/r/NIOCORP_MINE/comments/1kmde2l",
+        "https://www.reddit.com/r/NIOCORP_MINE/comments/1rykra3/usjapan_critical_minerals_action_plan_march_19/",
+        "https://www.reddit.com/r/NIOCORP_MINE/comments/1steqd1/niocorp_mine_inside_forge_how_us_mining_diplomacy/",
+        "https://www.reddit.com/r/NIOCORP_MINE/comments/1tvmxad/niocorp_mineus_redraws_diplomatic_contours_of/",
+        "https://www.reddit.com/r/NIOCORP_MINE/comments/1u93vfw/niocorp_minerare_earths_2026_navigating_the/",
+        "https://www.reddit.com/r/NIOCORP_MINE/comments/1v3by3d/niocorp_mine_pentagons_162day_supply_chain/",
+        "https://www.reddit.com/r/NIOCORP_MINE/comments/1v88cnl/niocorp_mine_trump_may_need_to_allow_chinese/",
+        "https://www.reddit.com/r/NIOCORP_MINE/comments/1vishcw/niocorp_minesecretary_bessent_issues_statement/",
+        "https://www.reddit.com/r/NIOCORP_MINE/comments/1vkhmsu/niocorp_mine_us_critical_minerals_strategy_2026/",
+        "https://www.reddit.com/r/NIOCORP_MINE/comments/1vma7jl/niocorp_mine_sp_illuminates_critical_mineral/",
+        "https://www.reddit.com/r/NIOCORP_MINE/comments/1w562dn/niocorp_mine_iea_global_critical_minerals_outlook/",
+        "https://www.sec.gov/files/cft-written-wall-street-blockchain-august-2026.pdf",
+        "https://www.trade.gov/sites/default/files/2025-01/20212024-Quadrennial-Supply-Chain-Review.pdf",
+        "https://www.usglc.org/media/2026/03/USGLC_Critical-Minerals-Issue-Brief_February-2026.pdf",
+        "https://www.whitehouse.gov/presidential-actions/2026/01/adjusting-imports-of-processed-critical-minerals-and-their-derivative-products-into-the-united-states/"
       ]
     },
     {
@@ -118,9 +124,7 @@ No survivors. Scout does not manufacture a daily winner.
       "index": 1,
       "stage": "normalization",
       "outcome": "accepted",
-      "reasons": [
-        "discarded_ungrounded_url"
-      ],
+      "reasons": [],
       "changes": [
         "contrary_evidence:list_sanitized",
         "major_risks:list_sanitized",
@@ -128,7 +132,7 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 1,
+      "grounded_sources": 2,
       "retry_justified": false
     },
     {
@@ -148,39 +152,56 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_5c0fa78efa972e7da968",
+      "candidate_id": "opp_71d0c9b815295110f006",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 16,
+      "grounded_source_count": 35,
       "search_source_urls": [
-        "https://emp.lbl.gov/publications/utility-scale-solar-2024-edition",
-        "https://eta-publications.lbl.gov/sites/default/files/2024-10/utility_scale_solar_2024_edition_slides.pdf",
-        "https://eta-publications.lbl.gov/sites/default/files/2025-10/utility_scale_solar_2025_edition_slides.pdf",
-        "https://eta.lbl.gov/publications/solar-and-storage-integration",
-        "https://www.eia.gov/TODAYINENERGY/detail.php?id=6370",
-        "https://www.eia.gov/outlooks/aeo/IIF_battery/",
-        "https://www.eia.gov/outlooks/aeo/assumptions/pdf/EMM_Assumptions.pdf",
-        "https://www.eia.gov/outlooks/aeo/nems/documentation/electricity/pdf/EMM_AEO2025.pdf",
-        "https://www.eia.gov/todayinenergy/detail.php?id=62405",
-        "https://www.eia.gov/todayinenergy/detail.php?id=63025",
-        "https://www.eia.gov/todayinenergy/detail.php?id=65364",
-        "https://www.eia.gov/todayinenergy/detail.php?id=66164",
-        "https://www.iea.org/data-and-statistics/charts/utility-scale-battery-project-costs-vre-share-and-utility-scale-battery-storage-capacity-relative-to-peak-load-by-region-2019-2024",
-        "https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage",
-        "https://www.woodmac.com/es/news/opinion/3-clouds-on-the-horizon-for-solar-and-storage-developers/",
-        "https://www.woodmac.com/press-releases/ldes-2025-outlook/"
+        "https://apnews.com/article/241f7d20f51e51839d5dc4955b05f8bf",
+        "https://apnews.com/article/df2b6c0f5fdd8b26143ce332336f6489",
+        "https://arxiv.org/abs/2605.02926",
+        "https://arxiv.org/abs/2605.23475",
+        "https://en.wikipedia.org/wiki/MP_Materials",
+        "https://en.wikipedia.org/wiki/Rare-earth_industry_in_China",
+        "https://time.com/7294964/us-rare-earths-minerals-china-dominance-trump-tariffs/",
+        "https://www.axios.com/2026/08/14/american-tech-copper-processing",
+        "https://www.congress.gov/119/crec/2025/09/30/171/160/CREC-2025-09-30-senate.pdf",
+        "https://www.energy.gov/cmei/mining/funding-notice-critical-material-innovation-efficiency-and-alternatives",
+        "https://www.iea.org/reports/energy-technology-perspectives-2026/executive-summary",
+        "https://www.iea.org/reports/global-critical-minerals-outlook-2026",
+        "https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary",
+        "https://www.iea.org/reports/rare-earth-elements/executive-summary",
+        "https://www.iea.org/reports/recycling-of-critical-minerals/executive-summary",
+        "https://www.iea.org/reports/state-of-energy-policy-2026/executive-summary",
+        "https://www.iea.org/reports/sustainable-and-responsible-critical-mineral-supply-chains/executive-summary",
+        "https://www.iea.org/reports/world-energy-outlook-2025/executive-summary",
+        "https://www.investing.com/news/stock-market-news/trump-may-need-to-allow-chinese-minerals-as-us-industry-struggles-to-meet-2027-deadline-4813308",
+        "https://www.lemonde.fr/en/economy/article/2026/08/24/australia-prepares-to-compete-with-china-with-new-rare-earth-refineries_6756784_19.html",
+        "https://www.reddit.com/r/CriticalMetalRefining/comments/1r9cp2f/us_still_depends_on_china_for_critical_minerals/",
+        "https://www.reddit.com/r/CriticalMineralStocks/comments/1pndy27/the_us_is_rebuilding_critical_mineral_supply/",
+        "https://www.reddit.com/r/NIOCORP_MINE/comments/1jyvfv9",
+        "https://www.reddit.com/r/NIOCORP_MINE/comments/1m814sh",
+        "https://www.reddit.com/r/NIOCORP_MINE/comments/1tvmxad/niocorp_mineus_redraws_diplomatic_contours_of/",
+        "https://www.reddit.com/r/NIOCORP_MINE/comments/1v88cnl/niocorp_mine_trump_may_need_to_allow_chinese/",
+        "https://www.reddit.com/r/NIOCORP_MINE/comments/1wbhkpq/niocorp_mine_the_rare_earth_supply_gap_investors/",
+        "https://www.reddit.com/r/NIOCORP_MINE/comments/1wdgpz2/niocorp_mine_why_the_united_states_belated/",
+        "https://www.reddit.com/r/NIOCORP_MINE/comments/1wu91qt/niocorp_mine_us_minerals_push_starts_to_dent/",
+        "https://www.reddit.com/r/UAMY/comments/1qpqxs1/exclusiveus_moves_away_from_critical_mineral/",
+        "https://www.reddit.com/r/UURAF/comments/1v7wk40/trump_may_need_to_allow_chinese_minerals_as_us/",
+        "https://www.theatlantic.com/science/archive/2025/05/trumps-mineral-paradox/682675/",
+        "https://www.uscc.gov/sites/default/files/2025-11/2025_Annual_Report_to_Congress.pdf",
+        "https://www.usgs.gov/news/national-news-release/usgs-value-us-mineral-production-edged-2024",
+        "https://www.whitehouse.gov/presidential-actions/2026/01/adjusting-imports-of-processed-critical-minerals-and-their-derivative-products-into-the-united-states/"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_5c0fa78efa972e7da968",
-      "coercions": [
-        "contrary_evidence"
-      ]
+      "candidate_id": "opp_71d0c9b815295110f006",
+      "coercions": []
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_5c0fa78efa972e7da968",
+      "candidate_id": "opp_71d0c9b815295110f006",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -188,7 +209,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_5c0fa78efa972e7da968",
+      "candidate_id": "opp_71d0c9b815295110f006",
       "coercions": []
     }
   ],
@@ -196,44 +217,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 209,
-      "cache_write_tokens": 4555,
+      "reasoning_tokens": 160,
+      "cache_write_tokens": 4554,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02600535,
+      "cumulative_cost_usd": 0.0144345,
       "model": "gpt-5.6-luna",
-      "input_tokens": 21196,
+      "input_tokens": 13162,
       "cached_tokens": 0,
-      "output_tokens": 1282,
-      "web_search_calls": 2,
-      "estimated_cost_usd": 0.02600535
+      "output_tokens": 1312,
+      "web_search_calls": 1,
+      "estimated_cost_usd": 0.0144345
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 208,
-      "cache_write_tokens": 5019,
+      "reasoning_tokens": 148,
+      "cache_write_tokens": 5107,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0406251,
+      "cumulative_cost_usd": 0.02903965,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13336,
+      "input_tokens": 13571,
       "cached_tokens": 0,
-      "output_tokens": 1418,
+      "output_tokens": 1363,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01461975
+      "estimated_cost_usd": 0.01460515
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 80,
-      "cache_write_tokens": 2115,
+      "reasoning_tokens": 121,
+      "cache_write_tokens": 3226,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0518106,
+      "cumulative_cost_usd": 0.04589465,
       "model": "gpt-5.6-terra",
-      "input_tokens": 2118,
+      "input_tokens": 3229,
       "cached_tokens": 0,
-      "output_tokens": 491,
+      "output_tokens": 732,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.0111855
+      "estimated_cost_usd": 0.016855
     }
   ]
 }
