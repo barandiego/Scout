@@ -1,29 +1,60 @@
 {
-  "active_candidates": [],
-  "active_structurally_reconstructable_count": 0,
+  "active_candidates": [
+    {
+      "available_budget_clp": 1950000.0,
+      "buyer": "I MUNICIPALIDAD DE LA ESTRELLA",
+      "closes_at": "2026-10-09T09:00:00",
+      "code": "4751-56-COT26",
+      "estimated_budget": 1950000.0,
+      "name": "Servicios de Amplificación, Animación por actividad de Conmemoración del Dia del Profesor",
+      "products": 1,
+      "region": "Región del Libertador General Bernardo O´Higgins"
+    },
+    {
+      "available_budget_clp": 500000.0,
+      "buyer": "ILUSTRE MUNICIPALIDAD DE HUARA",
+      "closes_at": "2026-10-13T15:00:00",
+      "code": "5907-214-COT26",
+      "estimated_budget": 500000.0,
+      "name": "Servicio capacitación para personal de rentas en normativa de patentes, derechos y permisos sector municipal",
+      "products": 1,
+      "region": "Región de Tarapacá"
+    }
+  ],
+  "active_structurally_reconstructable_count": 2,
   "diagnostics": {
     "api_failures": {
-      "api_http_504": 1
+      "api_http_500": 1,
+      "api_http_504": 2
     },
-    "requests_used": 3,
-    "transient_retries": 2
+    "budget_exhausted": true,
+    "detail_attempts": 17,
+    "details_fetched": 14,
+    "duplicate_listings": 0,
+    "malformed_details": 0,
+    "malformed_reasons": {},
+    "malformed_samples": [],
+    "pages_fetched": 1,
+    "requests_used": 25,
+    "transient_retries": 7
   },
-  "generated_at": "2026-10-07T20:36:23Z",
-  "inserted_history": 0,
-  "note": "Transient ChileCompra/API availability failure after bounded retries. Cursor was not advanced; next scheduled run may retry safely.",
+  "generated_at": "2026-10-08T00:47:34Z",
+  "inserted_history": 14,
+  "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_TRANSIENT_API",
   "phase1": {
-    "records": 0,
-    "rejection_reasons": {},
-    "resolved": 0,
-    "structurally_reconstructable": 0,
-    "with_observable_quote_totals": 0,
+    "records": 14,
+    "rejection_reasons": {
+      "no_observable_competitive_prices": 9
+    },
+    "resolved": 12,
+    "structurally_reconstructable": 5,
+    "with_observable_quote_totals": 3,
     "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
-    "changed_from": "2026-10-07T14:36:23Z",
-    "changed_to": "2026-10-07T20:36:23Z"
+    "changed_from": "2026-10-07T18:47:34Z",
+    "changed_to": "2026-10-08T00:47:34Z"
   }
 }
