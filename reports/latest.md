@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-09T04:12:13.822684+00:00
+Generated: 2026-10-09T08:13:08.753746+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['business_model_migration', 'cost_curve', 'open_finance_chile']
+- lenses: ['wildcard', 'geographic_arbitrage', 'ai_open_source']
 - raw_candidates: 3
 - parseable_candidates: 3
 - normalized_candidates: 3
 - normalization_rejected: 0
-- grounded_sources: 6
+- grounded_sources: 5
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 1
+- judge_attempts: 0
 - critic_reviews: 1
-- judge_reviews: 1
+- judge_reviews: 0
 - survivors: 0
-- watches: 1
-- rejected: 0
+- watches: 0
+- rejected: 2
 - errors_by_stage: {}
-- rejection_reasons: {}
-- cost_usd: 0.04230275
+- rejection_reasons: {'discarded_ungrounded_url': 1, 'insufficient_unique_evidence': 1}
+- cost_usd: 0.0293427
 - cost_uncertain: False
-- budget_remaining_usd: 0.03769725
+- budget_remaining_usd: 0.0506573
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -56,7 +56,7 @@ No survivors. Scout does not manufacture a daily winner.
 ```json
 {
   "notes": [
-    "review_cap_not_persisted=2"
+    "review_cap_not_persisted=1"
   ],
   "stages": [
     {
@@ -64,51 +64,60 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 36,
+      "grounded_source_count": 43,
       "search_source_urls": [
-        "https://arxiv.org/abs/2405.21015",
-        "https://arxiv.org/abs/2504.20189",
-        "https://arxiv.org/abs/2510.26136",
-        "https://arxiv.org/abs/2603.28680",
-        "https://en.wikipedia.org/wiki/AI_data_center",
-        "https://en.wikipedia.org/wiki/Data_center",
-        "https://en.wikipedia.org/wiki/Environmental_impact_of_artificial_intelligence",
-        "https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf",
-        "https://www.bcentral.cl/contenido/-/details/acuerdo-2751-03-251119",
-        "https://www.bcentral.cl/contenido/-/details/prensa/nota-de-prensa/segunda-consulta-regulacion-para-habilitar-uso-tarjetas-pago-abiertas-en-transporte-publico",
-        "https://www.bcentral.cl/documents/33528/133217/jpa_17112022.pdf/54d7647e-d58b-0fd9-032f-1c4fd829e7f7?t=1693301714036",
-        "https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836",
-        "https://www.bcentral.cl/en/content/-/detalle/prensa/nota-de-prensa/banco-central-define-marco-de-regulacion-para-que-nuevas-entidades-financieras-accedan-al-sistema-lbtr",
-        "https://www.bcentral.cl/es/areas/mercados-financieros/sistemas",
-        "https://www.bcentral.cl/es/areas/politica-financiera/regulacion-prudencial",
-        "https://www.bcentral.cl/es/web/banco-central/areas/normativas/compendio-de-normas-monetarias-y-financieras",
-        "https://www.bcentral.cl/es/web/banco-central/areas/politica-financiera/reunion-de-politica-financiera-rpf",
+        "https://api.cmfchile.cl/",
+        "https://api.cmfchile.cl/documentacion/Estado-de-Resultados-de-Bancos.html",
+        "https://arxiv.org/abs/2310.07611",
+        "https://arxiv.org/abs/2509.11413",
+        "https://arxiv.org/abs/2511.07425",
+        "https://arxiv.org/abs/2511.23455",
+        "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=f91f133e-cc24-401b-9e65-e37cc9fd1613",
+        "https://cmfchile.cl/portal/principal/613/w3-article-92556.html",
+        "https://desapublications.un.org/file/21554/download",
+        "https://documents1.worldbank.org/curated/en/099418112182524759/pdf/IDU-e862ccdb-bccd-413d-a7b4-2c2c41a4ff18.pdf",
+        "https://en.wikipedia.org/wiki/DeepSeek",
+        "https://en.wikipedia.org/wiki/Lists_of_open-source_artificial_intelligence_software",
+        "https://en.wikipedia.org/wiki/METR",
+        "https://en.wikipedia.org/wiki/Open_finance",
+        "https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_financiera",
+        "https://mlcommons.org/2025/04/mlperf-inference-v5-0-results/",
+        "https://repositorio.cepal.org/bitstreams/b69ef907-804c-473d-aeb2-837a9b57078a/download",
+        "https://repositorio.cepal.org/entities/publication/bedafff8-b8f0-4329-9548-5fad50e2a385",
+        "https://repositorio.cepal.org/handle/11362/84460",
+        "https://www.axios.com/sponsored/new-research-open-source-ai-drives-economic-growth-and-cost-savings",
+        "https://www.bcentral.cl/documents/d/banco-central/financial-stability-report-second-half-2025-pdf?download=true",
+        "https://www.cepal.org/en/pressreleases/trend-low-growth-faced-region-eclac-calls-driving-productive-formalization-increase",
         "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html",
         "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
-        "https://www.itpro.com/cloud/iaas/gpu-as-a-service-should-enterprise-it-rent-or-own-ai-compute",
-        "https://www.kiplinger.com/investing/live/nvidia-earnings-live-updates-and-commentary-august-2026",
-        "https://www.mckinsey.com/industries/semiconductors/our-insights/scaling-ai-inference",
-        "https://www.piie.com/sites/default/files/2026-05/wp26-9-appendix.pdf",
-        "https://www.reddit.com/r/LocalLLM/comments/1u6a5v2/the_geographic_arbitrage_of_ai_compute/",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1q2jwsn/how_is_cloud_inference_so_cheap/",
-        "https://www.reddit.com/r/OrbonCloud/comments/1rx1ulv/last_week_in_the_cloud_the_ai_storage_tax_700/",
-        "https://www.reddit.com/r/u_Cloudswiftt/comments/1wty328/ai_is_making_cloud_infrastructure_more_expensive/",
-        "https://www.reddit.com/r/u_PuzzleheadedEcho1582/comments/1wvornk/ai_and_computing_infrastructure_industry_report/",
-        "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000038/a2026-annualxreportxwebxfi.pdf",
-        "https://www.techradar.com/pro/the-gap-between-ai-ambition-and-infrastructure-reality-is-widening-google-cloud-report-finds-83-percent-of-organizations-must-overhaul-their-infrastructure-in-order-to-maximize-the-agentic-ai-opportunity",
-        "https://www.techradar.com/pro/were-asking-the-wrong-question-about-the-cost-of-enterprise-ai",
-        "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-servers-will-consume-more-power-than-conventional-data-center-hardware-by-2027-gartner-forecasts",
-        "https://www.tomshardware.com/tech-industry/artificial-intelligence/price-of-nvidias-vera-rubin-nvl72-racks-skyrockets-to-as-much-as-usd8-8-million-apiece-but-server-makers-margins-will-be-tight-nvidia-is-moving-closer-to-shipping-entire-full-scale-systems",
-        "https://www.vmware.com/docs/private-cloud-outlook-2026"
+        "https://www.imf.org/-/media/files/publications/reo/whd/2025/october/english/text.pdf",
+        "https://www.imf.org/en/publications/reo/wh/issues/2025/04/25/regional-economic-outlook-western-hemisphere-april-2025",
+        "https://www.itpro.com/software/open-source/open-source-ai-performance-cost-savings-proprietary-models-linux-foundation",
+        "https://www.reddit.com/r/ChatGPTcomplaints/comments/1u0yc1a/open_source_models_are_good_enough_stop/",
+        "https://www.reddit.com/r/LocalLLM/comments/1u9gohq/open_source_is_starting_to_beat_frontier_on/",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1gqna7c",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1oihbtx",
+        "https://www.reddit.com/r/Metricshour/comments/1vnxhhq/12_trillion_in_em_debt_meets_the_feds_easing/",
+        "https://www.reddit.com/r/OpenAI/comments/1ovbih9/it_seems_that_openais_inference_costs_easily/",
+        "https://www.reddit.com/r/OpenSourceeAI/comments/1q06qae/2025_is_over_what_were_the_best_ai_model_releases/",
+        "https://www.reddit.com/r/OpenSourceeAI/comments/1ry7riq/opensource_models_are_productionready_heres_the/",
+        "https://www.reddit.com/r/accelerate/comments/1szr78o/busting_the_myth_of_the_ai_costs_are_rising/",
+        "https://www.reddit.com/r/artificial/comments/1s2yg3y/opensource_ai_system_on_a_500_gpu_outperforms/",
+        "https://www.reddit.com/r/asklatinamerica/comments/1j6vonq",
+        "https://www.reddit.com/r/oil/comments/1tk8tsp/the_oil_crisis_is_quietly_dismantling_latin/",
+        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000108/MNCjune2026signed.pdf",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/chinas-open-weight-ai-models-are-now-just-4-months-behind-frontier-us-offerings-mozilla-report-claims-models-still-lag-in-some-benchmarks-but-are-drastically-cheaper-to-use",
+        "https://www.tomshardware.com/tech-industry/inferencemax-ai-benchmark-tests-software-stacks-efficiency-and-tco-vendor-neutral-suite-runs-nightly-and-tracks-performance-changes-over-time"
       ]
     },
     {
       "index": 0,
       "stage": "normalization",
       "outcome": "accepted",
-      "reasons": [],
+      "reasons": [
+        "discarded_ungrounded_url"
+      ],
       "changes": [
         "contrary_evidence:list_sanitized",
         "major_risks:list_sanitized",
@@ -116,7 +125,7 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 2,
+      "grounded_sources": 1,
       "retry_justified": false
     },
     {
@@ -151,101 +160,70 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_5f052d87513e10ac27fc",
+      "candidate_id": "opp_6a3fa9468a0a208b2cf9",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 25,
+      "grounded_source_count": 20,
       "search_source_urls": [
-        "https://arxiv.org/abs/1809.01519",
-        "https://cmfchile.cl/portal/prensa/625/w4-article-113897.html",
-        "https://cmfchile.cl/portal/principal/623/w4-article-92466.html",
-        "https://en.wikipedia.org/wiki/Open_banking",
-        "https://en.wikipedia.org/wiki/Open_finance",
-        "https://en.wikipedia.org/wiki/Test_and_Training_Enabling_Architecture",
-        "https://es.linkedin.com/posts/prodigio-chile_sandbox-sfa-octubre-es-su-primera-fecha-activity-7508867075562622976-kQP-",
-        "https://es.wikipedia.org/wiki/Finanzas_abiertas",
-        "https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_financiera",
-        "https://sfasandbox.cl/docs.php",
-        "https://sfasandbox.cl/download.html",
-        "https://www.carey.cl/en/cmf-amends-ncg-no-514-and-incorporates-technical-standards-for-the-implementation-of-the-open-finance-system",
-        "https://www.cmfchile.cl/institucional/mercados/ver_archivo.php?archivo=%2Fweb%2Fcompendio%2Fncg%2Fncg_514_2024.pdf",
-        "https://www.cmfchile.cl/normativa/ncg_569_2026.pdf",
-        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
-        "https://www.cmfchile.cl/portal/prensa/615/articles-110411_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-102547.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/principal/613/articles-92466_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/articles-96504_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-113806.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
-        "https://www.economia.gob.cl/sandbox",
-        "https://www.imf.org/-/media/files/publications/cr/2024/english/1chlea2024002.pdf"
+        "https://arxiv.org/abs/2401.09811",
+        "https://blogs.worldbank.org/en/developmenttalk/does-firm-size-matter-productivity-case-informal-firms-africa",
+        "https://blogs.worldbank.org/en/developmenttalk/understanding-informality-through-new-data",
+        "https://blogs.worldbank.org/en/endpovertyinsouthasia/what-nepal-s-smallest-businesses-reveal-",
+        "https://blogs.worldbank.org/en/latinamerica/promoting-formalization-ecuadorian-entrepreneurs-just-got-easier",
+        "https://blogs.worldbank.org/en/psd/do-marginal-firms-in-bolivia-benefit-from-formalizing",
+        "https://documents.worldbank.org/curated/en/326611468163756420/pdf/400080Informal101OFFICIAL0USE0ONLY1.pdf",
+        "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/901421467995383598",
+        "https://documents1.worldbank.org/curated/en/540091468016779242/pdf/503580PUB0Box3101OFFICIAL0USE0ONLY1.pdf",
+        "https://pt.wikipedia.org/wiki/Conta_Azul",
+        "https://publications.iadb.org/en/salaried-labor-costs-latin-america-and-caribbean-ten-year-update",
+        "https://publications.iadb.org/publications/english/document/2024-Latin-American-and-Caribbean-Macroeconomic-Report-Ready-for-Take-Off-Building-on-Macroeconomic-Stability-for-Growth.pdf",
+        "https://publications.iadb.org/publications/english/document/2025-Latin-American-and-Caribbean-Macroeconomic-Report-Regional-Opportunities-Amid-Global-Shifts.pdf",
+        "https://publications.iadb.org/publications/english/document/2026-Latin-American-and-Caribbean-Macroeconomic-Report-Resilience-and-Growth-Prospects-in-a-Shifting-Global-Economy.pdf",
+        "https://www.reddit.com/r/asklatinamerica/comments/1hrx2sd",
+        "https://www.worldbank.org/en/brief/2023/03/01/operations",
+        "https://www.worldbank.org/en/brief/2026/01/07/verifiable-credentials-for-msmes-in-the-dominican-republic",
+        "https://www.worldbank.org/en/news/press-release/2025/10/07/transformational-entrepreneurship-jobs-growth",
+        "https://www.worldbank.org/en/results/2025/07/14/enhancing-the-competitiveness-of-family-farms-the-power-of-productive-alliances-in-latin-america-and-africa",
+        "https://www.worldbank.org/en/topic/poverty/lac-equity-lab1/labor-markets/informality-indicators"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_5f052d87513e10ac27fc",
+      "candidate_id": "opp_6a3fa9468a0a208b2cf9",
       "coercions": [
+        "critic_case",
         "contrary_evidence"
       ]
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_5f052d87513e10ac27fc",
-      "response_status": "completed",
-      "incomplete_reason": "",
-      "grounded_source_count": 0,
-      "search_source_urls": []
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_5f052d87513e10ac27fc",
-      "coercions": []
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 234,
-      "cache_write_tokens": 4642,
+      "reasoning_tokens": 229,
+      "cache_write_tokens": 4631,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0147249,
+      "cumulative_cost_usd": 0.01464735,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13122,
+      "input_tokens": 13079,
       "cached_tokens": 0,
-      "output_tokens": 1557,
+      "output_tokens": 1500,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0147249
+      "estimated_cost_usd": 0.01464735
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 124,
-      "cache_write_tokens": 5207,
+      "reasoning_tokens": 125,
+      "cache_write_tokens": 5211,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02909625,
+      "cumulative_cost_usd": 0.0293427,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13541,
+      "input_tokens": 13618,
       "cached_tokens": 0,
-      "output_tokens": 1169,
+      "output_tokens": 1426,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01437135
-    },
-    {
-      "stage": "judge",
-      "available": true,
-      "reasoning_tokens": 73,
-      "cache_write_tokens": 2429,
-      "accounting_notes": [],
-      "cumulative_cost_usd": 0.04230275,
-      "model": "gpt-5.6-terra",
-      "input_tokens": 2432,
-      "cached_tokens": 0,
-      "output_tokens": 594,
-      "web_search_calls": 0,
-      "estimated_cost_usd": 0.0132065
+      "estimated_cost_usd": 0.01469535
     }
   ]
 }
