@@ -1,37 +1,6 @@
 {
-  "active_candidates": [
-    {
-      "available_budget_clp": 5000000.0,
-      "buyer": "I MUNICIPALIDAD DE VALLENAR",
-      "closes_at": "2026-10-12T10:00:00",
-      "code": "2322-649-COT26",
-      "estimated_budget": 5000000.0,
-      "name": "Adquisición de telescopio para Programa Talleres Artísticos Culturales",
-      "products": 1,
-      "region": "Región de Atacama"
-    },
-    {
-      "available_budget_clp": 150000.0,
-      "buyer": "ILUSTRE MUNICIPALIDAD DE SAN CARLOS",
-      "closes_at": "2026-10-13T10:30:00",
-      "code": "2724-896-COT26",
-      "estimated_budget": 150000.0,
-      "name": "MATERIALES DE OFICINA (QMB)",
-      "products": 10,
-      "region": "Región del Ñuble"
-    },
-    {
-      "available_budget_clp": 300000.0,
-      "buyer": "I MUNICIPALIDAD DE VALLENAR",
-      "closes_at": "2026-10-12T10:00:00",
-      "code": "2322-648-COT26",
-      "estimated_budget": 300000.0,
-      "name": "Adquisición de Muestra Gastronómica para Programa Comunal de Posicionamiento Turístico",
-      "products": 1,
-      "region": "Región de Atacama"
-    }
-  ],
-  "active_structurally_reconstructable_count": 3,
+  "active_candidates": [],
+  "active_structurally_reconstructable_count": 0,
   "diagnostics": {
     "api_failures": {
       "api_http_504": 1
@@ -47,7 +16,7 @@
     "requests_used": 23,
     "transient_retries": 2
   },
-  "generated_at": "2026-10-09T04:38:30Z",
+  "generated_at": "2026-10-09T08:39:14Z",
   "inserted_history": 19,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -56,14 +25,14 @@
     "rejection_reasons": {
       "no_observable_competitive_prices": 4
     },
-    "resolved": 16,
+    "resolved": 19,
     "structurally_reconstructable": 15,
-    "with_observable_quote_totals": 12,
+    "with_observable_quote_totals": 15,
     "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-08T08:39:10+00:00",
-    "changed_to": "2026-10-09T04:38:30Z"
+    "changed_to": "2026-10-09T08:39:14Z"
   }
 }
