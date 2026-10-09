@@ -1,10 +1,10 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-09T08:13:08.753746+00:00
+Generated: 2026-10-09T12:14:05.803693+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['wildcard', 'geographic_arbitrage', 'ai_open_source']
+- lenses: ['public_markets', 'physical_commerce', 'regulation_infrastructure']
 - raw_candidates: 3
 - parseable_candidates: 3
 - normalized_candidates: 3
@@ -12,17 +12,17 @@ Generated: 2026-10-09T08:13:08.753746+00:00
 - grounded_sources: 5
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 0
+- judge_attempts: 1
 - critic_reviews: 1
-- judge_reviews: 0
+- judge_reviews: 1
 - survivors: 0
-- watches: 0
-- rejected: 2
+- watches: 1
+- rejected: 1
 - errors_by_stage: {}
-- rejection_reasons: {'discarded_ungrounded_url': 1, 'insufficient_unique_evidence': 1}
-- cost_usd: 0.0293427
+- rejection_reasons: {'insufficient_unique_evidence': 1}
+- cost_usd: 0.05410165
 - cost_uncertain: False
-- budget_remaining_usd: 0.0506573
+- budget_remaining_usd: 0.02589835
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Chile’s Open Finance implementation moves from regulation to integration work: The regulatory transition is sufficiently verified by primary CMF sources: NCG 569 modifies NCG 514, adds the technical Annex 3, and establishes an implementation path toward July 2027. Therefore this is not rejected for an unverified or misread regulatory change, nor is API access categorically unavailable: the described framework expressly contemplates interoperable data exchange, payment initiation, testing, and a developer portal. However, the opportunity is a credible implementation-market hypothesis rather than demonstrated recurring-software or payment-revenue opportunity. The postponement, pilot structure, unresolved commercial terms, uncertain participant usage, and likely incumbent-vendor competition leave value capture unproven. It survives for research and customer validation only, not as a validated business conclusion.
 - Managed agent orchestration is lowering the cost of production AI workflows: The underlying capability shift is credibly grounded by a primary OpenAI announcement and is timely, but this is a broad enabling trend rather than a sufficiently specified HQ-worthy opportunity. There is a realistic participation path in narrow workflow deployment, and plausible payers exist where per-case labor, outsourcing, or error costs are measurable. However, the cited 60% saving is a vendor case study rather than independently replicated fully loaded economics. Generic orchestration, monitoring, and implementation are likely to be rapidly bundled or commoditized by model, cloud, and enterprise-software platforms. Survival depends on identifying a specific high-volume workflow with bounded failure costs, acceptable governance, proprietary integrations or distribution, and sub-12-month payback after human review and operational overhead. No fatal condition is established, but value capture and durable differentiation are currently too unproven for survival.
 - EU AI Act transparency and enforcement obligations are becoming operational: The regulatory premise is well grounded by primary European Commission sources: Article 50 transparency obligations and the relevant enforcement framework became operational on 2 August 2026. This creates a real compliance problem for affected providers and deployers, with plausible paid demand for implementation, evidence, assurance, and integration support. However, the stated opportunity is too broad to establish attractive value capture as a standalone software category. The applicable scope is use-case-specific rather than universal; basic disclosure, labeling, and metadata capabilities are readily bundled by model, cloud, content-platform, and enterprise-governance incumbents. A viable participation path likely requires a sharply differentiated wedge—e.g., cross-provider evidence trails, workflow-specific compliance automation, independent assurance, or regulated-sector implementation—not generic provenance/watermarking or broad 'AI Act compliance' tooling. Therefore it survives as an HQ-worthy research area, but not yet as a validated market thesis.
 - Tokenized unified-ledger infrastructure is moving from concept toward financial-market architecture: critic_invalid_output
@@ -51,6 +50,7 @@ No survivors. Scout does not manufacture a daily winner.
 - API security and compliance are becoming a product layer for cloud and platform ecosystems: The underlying signal is well grounded in primary sources: NIST’s REST API guidance and FedRAMP’s 2026 rule/timeline and machine-readable-rule direction plausibly increase demand for auditable security and compliance workflows. There is a credible payer class—government-facing SaaS/cloud providers, their integrators, and potentially assessor/channel partners—and a realistic participation path via a narrow evidence-automation or continuous-control-telemetry wedge. However, the proposed value capture is far too broad and currently lacks proof of a separately purchasable pain, buyer budget, channel access, or advantage against entrenched GRC, cloud-security, API-security, OSCAL, consulting, and assessor incumbents. The opportunity survives as research, not as an execution-ready thesis. It should be narrowed to a deterministic, assessor-accepted FedRAMP/OSCAL evidence workflow with measurable authorization-time or assessor-labor savings before further commitment.
 - Grid connection queues are creating a monetizable bottleneck for flexibility and grid-enhancing technologies: The underlying bottleneck is credibly grounded by IEA and official U.S. grid-policy sources: connection backlogs, congestion, and constrained transmission capacity are real and timely. However, this is a broad problem category rather than a sufficiently specified HQ-worthy opportunity. Queue GW and technical hosting-capacity potential do not translate directly into vendor revenue, deployable projects, or venture-scale margins. Value capture, buyer identity, procurement route, regulatory cost recovery, reliability acceptance, and deployment economics differ substantially among DLR, power-flow control, topology software, interconnection analytics, storage co-location, and flexible-load aggregation. A realistic participation path exists only after narrowing to a particular grid region, technology, customer, tariff/procurement mechanism, and measurable avoided-upgrade or accelerated-interconnection outcome. It should not be pursued as a generic global 'grid bottleneck' thesis without that validation.
 - SFA implementation moved from rulemaking toward interoperability testing: The regulatory and infrastructure signal is sufficiently grounded in CMF primary materials: the SFA technical framework and ATENA sandbox support the conclusion that implementation/interoperability work is moving forward, so this is not rejected for an unverified regulatory change. A technically plausible path exists for vendors serving regulated participants through integration, security, consent, monitoring, and operational tooling. However, the evidence does not yet establish that production API access, mandatory participant scope, outsourced purchasing budgets, or recurring software demand will be large enough to support attractive value capture. The public sandbox and specifications may reduce, rather than create, proprietary value in baseline testing and conformance. This remains HQ-worthy monitoring and customer-validation research, not a demonstrated commercial market thesis.
+- Permitting and transmission-process modernization is opening a bottleneck-sensitive infrastructure opportunity: The underlying premise is credible and timely: primary DOE material supports increased transmission need associated with large-load growth, and the hydropower program supports active interest in reducing regulatory-process cost. There are plausible paying customers—developers, utilities, large-load project sponsors, and engineering/environmental firms—and plausible entry modes. However, this is not yet an HQ-worthy opportunity thesis because it bundles distinct businesses with materially different buyers, economics, procurement paths, and competitive structures. The cited signals establish policy attention and infrastructure need, not repeatable third-party vendor budgets or a defensible initial wedge. The opportunity should remain in watch status until a specific geography, workflow, buyer, pain metric, procurement route, and value-capture model are evidenced.
 
 ## Sanitized diagnostics
 ```json
@@ -64,66 +64,55 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 43,
+      "grounded_source_count": 33,
       "search_source_urls": [
-        "https://api.cmfchile.cl/",
-        "https://api.cmfchile.cl/documentacion/Estado-de-Resultados-de-Bancos.html",
-        "https://arxiv.org/abs/2310.07611",
-        "https://arxiv.org/abs/2509.11413",
-        "https://arxiv.org/abs/2511.07425",
-        "https://arxiv.org/abs/2511.23455",
-        "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=f91f133e-cc24-401b-9e65-e37cc9fd1613",
-        "https://cmfchile.cl/portal/principal/613/w3-article-92556.html",
-        "https://desapublications.un.org/file/21554/download",
-        "https://documents1.worldbank.org/curated/en/099418112182524759/pdf/IDU-e862ccdb-bccd-413d-a7b4-2c2c41a4ff18.pdf",
-        "https://en.wikipedia.org/wiki/DeepSeek",
-        "https://en.wikipedia.org/wiki/Lists_of_open-source_artificial_intelligence_software",
-        "https://en.wikipedia.org/wiki/METR",
-        "https://en.wikipedia.org/wiki/Open_finance",
-        "https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_financiera",
-        "https://mlcommons.org/2025/04/mlperf-inference-v5-0-results/",
-        "https://repositorio.cepal.org/bitstreams/b69ef907-804c-473d-aeb2-837a9b57078a/download",
-        "https://repositorio.cepal.org/entities/publication/bedafff8-b8f0-4329-9548-5fad50e2a385",
-        "https://repositorio.cepal.org/handle/11362/84460",
-        "https://www.axios.com/sponsored/new-research-open-source-ai-drives-economic-growth-and-cost-savings",
-        "https://www.bcentral.cl/documents/d/banco-central/financial-stability-report-second-half-2025-pdf?download=true",
-        "https://www.cepal.org/en/pressreleases/trend-low-growth-faced-region-eclac-calls-driving-productive-formalization-increase",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.imf.org/-/media/files/publications/reo/whd/2025/october/english/text.pdf",
-        "https://www.imf.org/en/publications/reo/wh/issues/2025/04/25/regional-economic-outlook-western-hemisphere-april-2025",
-        "https://www.itpro.com/software/open-source/open-source-ai-performance-cost-savings-proprietary-models-linux-foundation",
-        "https://www.reddit.com/r/ChatGPTcomplaints/comments/1u0yc1a/open_source_models_are_good_enough_stop/",
-        "https://www.reddit.com/r/LocalLLM/comments/1u9gohq/open_source_is_starting_to_beat_frontier_on/",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1gqna7c",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1oihbtx",
-        "https://www.reddit.com/r/Metricshour/comments/1vnxhhq/12_trillion_in_em_debt_meets_the_feds_easing/",
-        "https://www.reddit.com/r/OpenAI/comments/1ovbih9/it_seems_that_openais_inference_costs_easily/",
-        "https://www.reddit.com/r/OpenSourceeAI/comments/1q06qae/2025_is_over_what_were_the_best_ai_model_releases/",
-        "https://www.reddit.com/r/OpenSourceeAI/comments/1ry7riq/opensource_models_are_productionready_heres_the/",
-        "https://www.reddit.com/r/accelerate/comments/1szr78o/busting_the_myth_of_the_ai_costs_are_rising/",
-        "https://www.reddit.com/r/artificial/comments/1s2yg3y/opensource_ai_system_on_a_500_gpu_outperforms/",
-        "https://www.reddit.com/r/asklatinamerica/comments/1j6vonq",
-        "https://www.reddit.com/r/oil/comments/1tk8tsp/the_oil_crisis_is_quietly_dismantling_latin/",
-        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000108/MNCjune2026signed.pdf",
-        "https://www.tomshardware.com/tech-industry/artificial-intelligence/chinas-open-weight-ai-models-are-now-just-4-months-behind-frontier-us-offerings-mozilla-report-claims-models-still-lag-in-some-benchmarks-but-are-drastically-cheaper-to-use",
-        "https://www.tomshardware.com/tech-industry/inferencemax-ai-benchmark-tests-software-stacks-efficiency-and-tco-vendor-neutral-suite-runs-nightly-and-tracks-performance-changes-over-time"
+        "https://dataweb.usitc.gov/?f=beta",
+        "https://stage.energy.gov/collection/filter/1381152?page=0",
+        "https://www.api.org/news-policy-and-issues/news/2026/09/30/api-welcomes-bipartisan-american-affordability-and-jobs-act-to-modernize-permitt",
+        "https://www.energy.gov/articles/energy-secretary-announces-updated-nepa-procedures-end-permitting-paralysis-and-unleash",
+        "https://www.energy.gov/cmei/water/articles/does-hydropower-and-hydrokinetic-office-announces-funding-national-laboratory",
+        "https://www.energy.gov/documents/public-comment-july-2026-seabpdf",
+        "https://www.energy.gov/hgeo/listings/hgeo-press-releases-and-techlines?page=3",
+        "https://www.energy.gov/nepa/listings/categorical-exclusion-determinations-b413?page=1",
+        "https://www.energy.gov/oe/articles/does-office-electricity-issues-presidential-permit-expand-us-canada-grid-reliability",
+        "https://www.energy.gov/oe/articles/does-office-electricity-publishes-2026-draft-national-transmission-needs-study?trk=public_post_comment-text",
+        "https://www.energy.gov/oe/coordinated-interagency-transmission-authorizations-and-permits-program",
+        "https://www.energy.gov/oe/presidential-permits",
+        "https://www.energy.gov/policy/articles/faster-better-permitting-permitai",
+        "https://www.energy.gov/sites/default/files/2025-12/Bottleneck%20to%20Breakthrough_2025-12-3.pdf",
+        "https://www.energy.gov/sites/default/files/2025-12/NPC_Permitting_report_2025-12-3.pdf",
+        "https://www.energy.gov/sites/default/files/2025-12/Reliable%20Energy_2025-12-3.pdf",
+        "https://www.energy.gov/topics/energy-infrastructure",
+        "https://www.energy.gov/topics/grid-deployment-and-transmission",
+        "https://www.sec.gov/Archives/edgar/data/1016281/000110465926112380/tm2626597d1_ex99-2.htm",
+        "https://www.sec.gov/Archives/edgar/data/1020859/000102085926000013/q3fy26-earningsrelease.htm",
+        "https://www.sec.gov/Archives/edgar/data/1043219/000104321926000052/a2026q2nlyex991.htm",
+        "https://www.sec.gov/Archives/edgar/data/1065059/000162828026027246/a2025annualreport.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1096275/000149315226029959/ex99-1.htm",
+        "https://www.sec.gov/Archives/edgar/data/1378789/000095015726001041/ex99-1.htm",
+        "https://www.sec.gov/Archives/edgar/data/1467623/000146762326000022/a2026asmproxyandannualrepo.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1527166/000152716626000027/cg2026033110q.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1527166/000152716626000045/cg2026063010q.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1801169/000114036126032600/ef20080105_ex99-1.htm",
+        "https://www.sec.gov/Archives/edgar/data/2046042/000110465926095891/jcap-20260813xex99d1.htm",
+        "https://www.sec.gov/Archives/edgar/data/277509/000162828026050993/federalsignalq22026earni.htm",
+        "https://www.sec.gov/Archives/edgar/data/766704/000076670426000026/a2q26earningsrelease991.htm",
+        "https://www.sec.gov/Archives/edgar/data/866374/000119312526382492/d108491d8k.htm",
+        "https://www.sec.gov/Archives/edgar/data/945114/000162828026026618/a2025annualreport.pdf"
       ]
     },
     {
       "index": 0,
       "stage": "normalization",
       "outcome": "accepted",
-      "reasons": [
-        "discarded_ungrounded_url"
-      ],
+      "reasons": [],
       "changes": [
         "contrary_evidence:list_sanitized",
         "major_risks:list_sanitized",
         "unknowns:list_sanitized",
         "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
+        "material_update:unknown_false",
+        "evidence:duplicate_removed"
       ],
       "grounded_sources": 1,
       "retry_justified": false
@@ -160,70 +149,99 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_6a3fa9468a0a208b2cf9",
+      "candidate_id": "opp_7209beea24406589b8bc",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 20,
+      "grounded_source_count": 23,
       "search_source_urls": [
-        "https://arxiv.org/abs/2401.09811",
-        "https://blogs.worldbank.org/en/developmenttalk/does-firm-size-matter-productivity-case-informal-firms-africa",
-        "https://blogs.worldbank.org/en/developmenttalk/understanding-informality-through-new-data",
-        "https://blogs.worldbank.org/en/endpovertyinsouthasia/what-nepal-s-smallest-businesses-reveal-",
-        "https://blogs.worldbank.org/en/latinamerica/promoting-formalization-ecuadorian-entrepreneurs-just-got-easier",
-        "https://blogs.worldbank.org/en/psd/do-marginal-firms-in-bolivia-benefit-from-formalizing",
-        "https://documents.worldbank.org/curated/en/326611468163756420/pdf/400080Informal101OFFICIAL0USE0ONLY1.pdf",
-        "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/901421467995383598",
-        "https://documents1.worldbank.org/curated/en/540091468016779242/pdf/503580PUB0Box3101OFFICIAL0USE0ONLY1.pdf",
-        "https://pt.wikipedia.org/wiki/Conta_Azul",
-        "https://publications.iadb.org/en/salaried-labor-costs-latin-america-and-caribbean-ten-year-update",
-        "https://publications.iadb.org/publications/english/document/2024-Latin-American-and-Caribbean-Macroeconomic-Report-Ready-for-Take-Off-Building-on-Macroeconomic-Stability-for-Growth.pdf",
-        "https://publications.iadb.org/publications/english/document/2025-Latin-American-and-Caribbean-Macroeconomic-Report-Regional-Opportunities-Amid-Global-Shifts.pdf",
-        "https://publications.iadb.org/publications/english/document/2026-Latin-American-and-Caribbean-Macroeconomic-Report-Resilience-and-Growth-Prospects-in-a-Shifting-Global-Economy.pdf",
-        "https://www.reddit.com/r/asklatinamerica/comments/1hrx2sd",
-        "https://www.worldbank.org/en/brief/2023/03/01/operations",
-        "https://www.worldbank.org/en/brief/2026/01/07/verifiable-credentials-for-msmes-in-the-dominican-republic",
-        "https://www.worldbank.org/en/news/press-release/2025/10/07/transformational-entrepreneurship-jobs-growth",
-        "https://www.worldbank.org/en/results/2025/07/14/enhancing-the-competitiveness-of-family-farms-the-power-of-productive-alliances-in-latin-america-and-africa",
-        "https://www.worldbank.org/en/topic/poverty/lac-equity-lab1/labor-markets/informality-indicators"
+        "https://apnews.com/article/506e3d206871111f15c3c62fc5368be5",
+        "https://elibrary.ferc.gov/eLibrary/docinfo?accession_Number=20260416-3003",
+        "https://en.wikipedia.org/wiki/Electron_Hydroelectric_Project",
+        "https://en.wikipedia.org/wiki/Federal_Energy_Regulatory_Commission",
+        "https://en.wikipedia.org/wiki/Natural_Gas_Pipeline_Permitting_Reform_Act",
+        "https://en.wikipedia.org/wiki/Western_Area_Power_Administration",
+        "https://ferc.gov/major-orders-regulations",
+        "https://ferc.gov/news-events/news/energized-2026",
+        "https://ferc.gov/rm26-4?trk=article-ssr-frontend-pulse_little-text-block",
+        "https://ferc.gov/sites/default/files/2025-07/FERC%20Chairman%20July%201%20Letter_0.pdf",
+        "https://www.energy.gov/cmei/water/articles/does-hydropower-and-hydrokinetic-office-announces-funding-national-laboratory",
+        "https://www.energy.gov/documents/craig-order-202-26-31-pios-exhibits-3-01-3-07-july-24-2026",
+        "https://www.energy.gov/documents/national-transmission-needs-study-draft-july-2026?_sp=6d1f98d9-46f7-4c1b-930f-c95c37291b45.1786750281468",
+        "https://www.energy.gov/oe/national-transmission-needs-study",
+        "https://www.energy.gov/oe/national-transmission-planning-study-0",
+        "https://www.energy.gov/oe/speed-power-stakeholder-input-and-doe-actions",
+        "https://www.energy.gov/topics/grid-deployment-and-transmission",
+        "https://www.ferc.gov/explainer-interconnection-final-rule",
+        "https://www.ferc.gov/news-events/news/fact-sheet-ferc-takes-action-supercharge-americas-grid-efficiency-reliability-and?trk=article-ssr-frontend-pulse_little-text-block",
+        "https://www.ferc.gov/sites/default/files/2026-03/26_State-of-the-Market_0324_1430.pdf",
+        "https://www.ferc.gov/sites/default/files/2026-05/FERC%20Unleashes%20Natural%20Gas%20Permit%20Reforms.pdf",
+        "https://www.gao.gov/products/gao-18-536",
+        "https://www.govinfo.gov/content/pkg/GAOREPORTS-GAO-03-534/pdf/GAOREPORTS-GAO-03-534.pdf"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_6a3fa9468a0a208b2cf9",
+      "candidate_id": "opp_7209beea24406589b8bc",
       "coercions": [
-        "critic_case",
         "contrary_evidence"
       ]
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_7209beea24406589b8bc",
+      "response_status": "completed",
+      "incomplete_reason": "",
+      "grounded_source_count": 0,
+      "search_source_urls": []
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_7209beea24406589b8bc",
+      "coercions": []
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 229,
-      "cache_write_tokens": 4631,
+      "reasoning_tokens": 352,
+      "cache_write_tokens": 4621,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01464735,
+      "cumulative_cost_usd": 0.02597225,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13079,
+      "input_tokens": 19250,
       "cached_tokens": 0,
-      "output_tokens": 1500,
-      "web_search_calls": 1,
-      "estimated_cost_usd": 0.01464735
+      "output_tokens": 1576,
+      "web_search_calls": 2,
+      "estimated_cost_usd": 0.02597225
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 125,
-      "cache_write_tokens": 5211,
+      "reasoning_tokens": 148,
+      "cache_write_tokens": 5186,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0293427,
+      "cumulative_cost_usd": 0.04055615,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13618,
+      "input_tokens": 13511,
       "cached_tokens": 0,
-      "output_tokens": 1426,
+      "output_tokens": 1352,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01469535
+      "estimated_cost_usd": 0.0145839
+    },
+    {
+      "stage": "judge",
+      "available": true,
+      "reasoning_tokens": 63,
+      "cache_write_tokens": 2459,
+      "accounting_notes": [],
+      "cumulative_cost_usd": 0.05410165,
+      "model": "gpt-5.6-terra",
+      "input_tokens": 2462,
+      "cached_tokens": 0,
+      "output_tokens": 616,
+      "web_search_calls": 0,
+      "estimated_cost_usd": 0.0135455
     }
   ]
 }
