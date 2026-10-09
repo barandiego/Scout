@@ -1,10 +1,10 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-08T20:13:03.388891+00:00
+Generated: 2026-10-09T00:17:30.218391+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['physical_commerce', 'regulation_infrastructure', 'robotics_automation']
+- lenses: ['energy_industrial', 'mining_materials', 'tokenization_finance']
 - raw_candidates: 3
 - parseable_candidates: 3
 - normalized_candidates: 3
@@ -20,9 +20,9 @@ Generated: 2026-10-08T20:13:03.388891+00:00
 - rejected: 0
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.04364315
+- cost_usd: 0.04290605
 - cost_uncertain: False
-- budget_remaining_usd: 0.03635685
+- budget_remaining_usd: 0.03709395
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Grid congestion is creating a market for storage, demand flexibility and grid-enhancing technologies: The underlying premise is well grounded: grid capacity constraints and growing storage deployment are supported by recent IEA sources, and congestion can create genuine economic demand for flexibility. However, this is a broad market condition rather than a defined opportunity. It combines merchant storage, demand response, grid-enhancing technology, software, and project development—each with materially different customers, regulations, capital needs, routes to market, and economics. No target geography, node, buyer, product, ownership model, interconnection position, or unit economics is supplied. There is a plausible participation path only if narrowed to a specific asset-light software/service offer or a specific market with secured interconnection/offtake advantages. It merits HQ research to identify such a wedge, but is not yet investable or operationally actionable as stated.
 - Chile publishes technical standards and sandbox infrastructure ahead of Open Finance launch: Primary CMF evidence supports that technical SFA specifications were published, the implementation date was deferred to July 2027, and ATENA exists for pre-production interoperability testing. Therefore the regulatory-change premise is not inherently unverified or misread, and the opportunity is not fatally blocked at the research stage. However, legally/technically usable production data access and commercially viable third-party participation are not yet demonstrated: the rollout appears staged, production traffic and customer demand are unproven, and licensing/local-partner, liability, governance, cost-sharing, cybersecurity, and operational requirements remain material unknowns. The claim is HQ-worthy as a monitored market-entry and validation thesis, not as evidence of an immediately executable API-platform business.
 - Chile’s Open Finance implementation moves from regulation to integration work: The regulatory transition is sufficiently verified by primary CMF sources: NCG 569 modifies NCG 514, adds the technical Annex 3, and establishes an implementation path toward July 2027. Therefore this is not rejected for an unverified or misread regulatory change, nor is API access categorically unavailable: the described framework expressly contemplates interoperable data exchange, payment initiation, testing, and a developer portal. However, the opportunity is a credible implementation-market hypothesis rather than demonstrated recurring-software or payment-revenue opportunity. The postponement, pilot structure, unresolved commercial terms, uncertain participant usage, and likely incumbent-vendor competition leave value capture unproven. It survives for research and customer validation only, not as a validated business conclusion.
 - Managed agent orchestration is lowering the cost of production AI workflows: The underlying capability shift is credibly grounded by a primary OpenAI announcement and is timely, but this is a broad enabling trend rather than a sufficiently specified HQ-worthy opportunity. There is a realistic participation path in narrow workflow deployment, and plausible payers exist where per-case labor, outsourcing, or error costs are measurable. However, the cited 60% saving is a vendor case study rather than independently replicated fully loaded economics. Generic orchestration, monitoring, and implementation are likely to be rapidly bundled or commoditized by model, cloud, and enterprise-software platforms. Survival depends on identifying a specific high-volume workflow with bounded failure costs, acceptable governance, proprietary integrations or distribution, and sub-12-month payback after human review and operational overhead. No fatal condition is established, but value capture and durable differentiation are currently too unproven for survival.
@@ -51,6 +50,7 @@ No survivors. Scout does not manufacture a daily winner.
 - Chile SFA implementation moves from rulemaking to integration testing: critic_invalid_output
 - Chile publishes technical rules and developer infrastructure for Open Finance, with go-live deferred to July 2027: The regulatory premise is sufficiently grounded by CMF primary sources: NCG 569/Annex 3, supporting developer/testing infrastructure, and a July 2027 effective date appear to be real rather than an unverified regulatory-change claim. No fatal lack of legal or technical API availability is established; the framework is explicitly creating standardized access and testing paths. However, the opportunity is not yet HQ-worthy as a broad implementation race. The remaining commercial rules and operating realities—cost allocation, liability, certification, security obligations, service levels, participant phasing, and actual bank procurement—are unresolved or unvalidated. CMF-provided documentation and sandbox infrastructure may commoditize generic connectivity, normalization, and testing, while incumbents likely hold material distribution and compliance advantages. A survivor case requires evidence of paid demand for a narrow, non-commodity wedge, not merely regulatory preparation activity.
 - API security and compliance are becoming a product layer for cloud and platform ecosystems: The underlying signal is well grounded in primary sources: NIST’s REST API guidance and FedRAMP’s 2026 rule/timeline and machine-readable-rule direction plausibly increase demand for auditable security and compliance workflows. There is a credible payer class—government-facing SaaS/cloud providers, their integrators, and potentially assessor/channel partners—and a realistic participation path via a narrow evidence-automation or continuous-control-telemetry wedge. However, the proposed value capture is far too broad and currently lacks proof of a separately purchasable pain, buyer budget, channel access, or advantage against entrenched GRC, cloud-security, API-security, OSCAL, consulting, and assessor incumbents. The opportunity survives as research, not as an execution-ready thesis. It should be narrowed to a deterministic, assessor-accepted FedRAMP/OSCAL evidence workflow with measurable authorization-time or assessor-labor savings before further commitment.
+- Grid connection queues are creating a monetizable bottleneck for flexibility and grid-enhancing technologies: The underlying bottleneck is credibly grounded by IEA and official U.S. grid-policy sources: connection backlogs, congestion, and constrained transmission capacity are real and timely. However, this is a broad problem category rather than a sufficiently specified HQ-worthy opportunity. Queue GW and technical hosting-capacity potential do not translate directly into vendor revenue, deployable projects, or venture-scale margins. Value capture, buyer identity, procurement route, regulatory cost recovery, reliability acceptance, and deployment economics differ substantially among DLR, power-flow control, topology software, interconnection analytics, storage co-location, and flexible-load aggregation. A realistic participation path exists only after narrowing to a particular grid region, technology, customer, tariff/procurement mechanism, and measurable avoided-upgrade or accelerated-interconnection outcome. It should not be pursued as a generic global 'grid bottleneck' thesis without that validation.
 
 ## Sanitized diagnostics
 ```json
@@ -64,28 +64,23 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 20,
+      "grounded_source_count": 15,
       "search_source_urls": [
-        "https://arxiv.org/abs/2603.20533",
-        "https://assets-cms.globalxetfs.com/CD26%20-%20Robotics%20%26%20Physical%20AI%20Post.pdf",
-        "https://community.xcelerator.siemens.com/public/blogs/industry-signals-robotics-2026-04-14",
-        "https://dataweb.usitc.gov/?f=beta",
-        "https://new.abb.com/news/detail/133798/prsrl-abb-robotics-survey-shows-acceleration-in-automation-investment-for-automotive-manufacturers",
-        "https://research.ark-invest.com/hubfs/1_Download_Files_ARK-Invest/Big_Ideas/ARKInvest%20BigIdeas2026.pdf",
-        "https://usatrade.census.gov/trade_client/",
-        "https://www.api.org/-/media/Files/misc/2026/EnergyAgenda_2026.pdf",
-        "https://www.api.org/news-policy-and-issues/news/2026/09/30/api-welcomes-bipartisan-american-affordability-and-jobs-act-to-modernize-permitt",
-        "https://www.bls.gov/mxp/home.htm",
-        "https://www.census.gov/econ/indicators/index.html",
-        "https://www.fedramp.gov/2026/",
-        "https://www.ferc.gov/major-orders-regulations",
-        "https://www.govinfo.gov/content/pkg/FR-2026-06-01/pdf/FR-2026-06-01.pdf",
-        "https://www.govinfo.gov/content/pkg/FR-2026-09-22/html/2026-19388.htm",
-        "https://www.imf.org/-/media/files/publications/tnm/2026/english/tnmea2026006-s001.pdf",
-        "https://www.nist.gov/news-events/news/2026/05/guidelines-secure-deployment-restful-web-apis-draft-sp-800-228a-available",
-        "https://www.reddit.com/r/EcommerceCircle/comments/1wfhnnh/us_import_volumes_are_running_higher_than/",
-        "https://www.reginfo.gov/public/do/eAgendaViewRule?RIN=0610-AA79&pubId=202504",
-        "https://www.whitehouse.gov/wp-content/uploads/2026/04/ERP-2026-3.-Rebuilding-Americas-International-Trade-Policy.pdf"
+        "https://www.bis.org/cpmi/publ/d225.pdf",
+        "https://www.bis.org/publ/arpdf/ar2025e.pdf",
+        "https://www.bis.org/publ/arpdf/ar2025e3.pdf",
+        "https://www.bis.org/publications/aer-2025/next-generation-monetary-financial-system",
+        "https://www.bis.org/publications/leveraging-tokenisation-payments-and-financial-transactions",
+        "https://www.bis.org/publications/wholesale-central-bank-money-context-technological-innovation",
+        "https://www.iea.org/commentaries/cost-of-capital-expectations-for-2025-diverge-amid-rising-uncertainty",
+        "https://www.iea.org/data-and-statistics/charts/utility-scale-battery-project-costs-vre-share-and-utility-scale-battery-storage-capacity-relative-to-peak-load-by-region-2019-2024",
+        "https://www.iea.org/reports/breakthrough-agenda-report-2025/power",
+        "https://www.iea.org/reports/critical-mineral-traceability-for-energy-and-economic-security/executive-summary",
+        "https://www.iea.org/reports/electricity-2026/grids",
+        "https://www.iea.org/reports/grid-investments",
+        "https://www.iea.org/reports/modernising-grids-in-the-age-of-electricity/executive-summary",
+        "https://www.iea.org/reports/the-role-of-traceability-in-critical-mineral-supply-chains",
+        "https://www.iea.org/reports/world-energy-investment-2025/executive-summary?_hsmi=365145678"
       ]
     },
     {
@@ -135,64 +130,41 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_4d35ac86771c99fe0eec",
+      "candidate_id": "opp_c1584a90439dd95ddbd7",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 43,
+      "grounded_source_count": 18,
       "search_source_urls": [
-        "https://arxiv.org/abs/2201.07959",
-        "https://arxiv.org/abs/2503.22612",
-        "https://arxiv.org/abs/2506.11950",
-        "https://arxiv.org/abs/2511.02856",
-        "https://csrc.nist.gov/csrc/media/presentations/2026/fedramp-updates-%281%29/nist%20forum%20meeting-2026-04-15-fedramp%20updates-gsa.pdf",
-        "https://demo.fedramp.gov/2026-07-30-fedramp-certification-paths-are-heating-up/",
-        "https://demo.fedramp.gov/rfcs/0024/",
-        "https://en.wikipedia.org/wiki/Boomi%2C_LP",
-        "https://en.wikipedia.org/wiki/Census_and_Survey_Data_Processing_Platforms_%282026%29",
-        "https://en.wikipedia.org/wiki/FedRAMP",
-        "https://en.wikipedia.org/wiki/Kiteworks",
-        "https://en.wikipedia.org/wiki/ObjectSecurity",
-        "https://en.wikipedia.org/wiki/SAP_NS2",
-        "https://fedscoop.com/wp-content/uploads/sites/5/2024/07/M-24-15-Modernizing-the-Federal-Risk-and-Authorization-Management-Program.pdf",
-        "https://files.gao.gov/reports/GAO-26-108443/index.html",
-        "https://gsa-stg-ecas.gsa.gov/system/files/GSA-FY2026-Congressional-Justification_508-Compliant.pdf",
-        "https://preview.fedramp.gov/2026/rules/",
-        "https://security.cms.gov/learn/fedramp",
-        "https://www.fedramp.gov/2026-06-25-propelling-change-fedramp-launches-consolidated-rules-for-2026/",
-        "https://www.fedramp.gov/2026/providers/start/path/?h=lost+spons",
-        "https://www.fedramp.gov/2026/scope/",
-        "https://www.fedramp.gov/2026/timeline/",
-        "https://www.fedramp.gov/20x/",
-        "https://www.fedramp.gov/assets/resources/documents/FedRAMP-Program-Roadmap-2024-2025-Public-Artifact.pdf",
-        "https://www.fedramp.gov/assets/resources/toolkits/fedramp_press_kit.pdf",
-        "https://www.fedramp.gov/notices/0008/",
-        "https://www.nist.gov/news-events/news/2026/05/guidelines-secure-deployment-restful-web-apis-draft-sp-800-228a-available",
-        "https://www.reddit.com/r/CMMC/comments/1ufaj1m/fedramp_20x_for_cmmc/",
-        "https://www.reddit.com/r/CMMC/comments/1w3mtxm/how_to_navigate_vendors_that_insist_their/",
-        "https://www.reddit.com/r/FedRAMP/comments/1p0a6l9/when_you_do_and_dont_need_fedramp_authorization/",
-        "https://www.reddit.com/r/FedRAMP/comments/1py88hc/question_could_receiving_a_fedramp_ato/",
-        "https://www.reddit.com/r/FedRAMP/comments/1qbtikf/two_big_changes_that_could_reshape_earlystage/",
-        "https://www.reddit.com/r/FedRAMP/comments/1reg1c8/are_there_specific_agencies_that_require_fedramp/",
-        "https://www.reddit.com/r/FedRAMP/comments/1rt8ve8/lessons_learned_designing_a_govcon_saas_product/",
-        "https://www.reddit.com/r/FedRAMP/comments/1rwhn28/usda_connect_migration_to_alternate_hosting/",
-        "https://www.reddit.com/r/FedRAMP/comments/1vj2or3/when_a_seller_says_theyre_listed_on_a_government/",
-        "https://www.reddit.com/r/FedRAMP/comments/1vn5zsj/do_my_reservation_system_need_fedramp_ato_if_it/",
-        "https://www.reddit.com/r/FedRAMP/comments/1wj40av/for_those_with_existing_authorizations_how_is/",
-        "https://www.reddit.com/r/u_angeloswif/comments/1wmihr8/fedramp_just_outlawed_aigenerated_compliance/",
-        "https://www.techradar.com/pro/oracle-slams-report-claiming-a-massive-microsoft-cloud-deal-collapsed-as-inaccurate",
-        "https://www.techradar.com/pro/the-us-government-is-signing-a-whole-load-of-cloud-computing-contracts-so-whats-the-rush",
-        "https://www.whitehouse.gov/wp-content/uploads/2024/07/M-24-15-Modernizing-the-Federal-Risk-and-Authorization-Management-Program.pdf",
-        "https://www.youtube.com/watch?v=kR5At7k9Sac"
+        "https://stage.energy.gov/edf/articles/lpo-tech-talk-transmission",
+        "https://www.energy.gov/cmei/systems/articles/smart-transmission-tools-modernize-americas-power-grid",
+        "https://www.energy.gov/edf/electric-grid-projects",
+        "https://www.energy.gov/oe/articles/advanced-transmission-technologies-report-508",
+        "https://www.energy.gov/oe/articles/doe-study-shows-maximizing-capabilities-existing-transmission-lines-through-grid",
+        "https://www.energy.gov/oe/articles/next-generation-grid-technologies-report-download",
+        "https://www.energy.gov/sites/default/files/2021/01/f82/AdvancedTransmissionTechnologiesReport508.pdf",
+        "https://www.energy.gov/sites/default/files/2022-05/Next%20Generation%20Grid%20Technologies%20Report%20051222.pdf",
+        "https://www.ferc.gov/explainer-interconnection-final-rule",
+        "https://www.ferc.gov/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.ferc.gov%2Fsites%2Fdefault%2Ffiles%2F2025-04%2FE-3-ER24-330-001.pdf",
+        "https://www.ferc.gov/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.ferc.gov%2Fsites%2Fdefault%2Ffiles%2F2025-06%2FER24-2797-001.pdf",
+        "https://www.ferc.gov/news-events/news/e-1-commissioner-changs-concurrence-spp-markets-order-er24-1658",
+        "https://www.ferc.gov/news-events/news/fact-sheet-building-future-through-electric-regional-transmission-planning-and",
+        "https://www.ferc.gov/news-events/news/ferc-affirms-generator-interconnection-rule-acts-compliance-filings",
+        "https://www.ferc.gov/sites/default/files/2024-11/FY24%20AFR%209.30.24.pdf",
+        "https://www.ferc.gov/sites/default/files/2025-03/25_State-of-the-Market_0320_1200.pdf",
+        "https://www.iea.org/reports/electricity-2026/grids",
+        "https://www.iea.org/reports/modernising-grids-in-the-age-of-electricity/executive-summary"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_4d35ac86771c99fe0eec",
-      "coercions": []
+      "candidate_id": "opp_c1584a90439dd95ddbd7",
+      "coercions": [
+        "contrary_evidence"
+      ]
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_4d35ac86771c99fe0eec",
+      "candidate_id": "opp_c1584a90439dd95ddbd7",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -200,7 +172,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_4d35ac86771c99fe0eec",
+      "candidate_id": "opp_c1584a90439dd95ddbd7",
       "coercions": []
     }
   ],
@@ -208,44 +180,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 253,
-      "cache_write_tokens": 4621,
+      "reasoning_tokens": 200,
+      "cache_write_tokens": 4620,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01443385,
+      "cumulative_cost_usd": 0.0145988,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13076,
+      "input_tokens": 12983,
       "cached_tokens": 0,
-      "output_tokens": 1323,
+      "output_tokens": 1476,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01443385
+      "estimated_cost_usd": 0.0145988
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 144,
-      "cache_write_tokens": 5106,
+      "reasoning_tokens": 169,
+      "cache_write_tokens": 5177,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02878115,
+      "cumulative_cost_usd": 0.02927105,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13572,
+      "input_tokens": 13565,
       "cached_tokens": 0,
-      "output_tokens": 1148,
+      "output_tokens": 1417,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0143473
+      "estimated_cost_usd": 0.01467225
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 40,
-      "cache_write_tokens": 3048,
+      "reasoning_tokens": 86,
+      "cache_write_tokens": 2346,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.04364315,
+      "cumulative_cost_usd": 0.04290605,
       "model": "gpt-5.6-terra",
-      "input_tokens": 3051,
+      "input_tokens": 2349,
       "cached_tokens": 0,
-      "output_tokens": 603,
+      "output_tokens": 647,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.014862
+      "estimated_cost_usd": 0.013635
     }
   ]
 }
