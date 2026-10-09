@@ -1,10 +1,10 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-09T16:12:57.966491+00:00
+Generated: 2026-10-09T20:10:22.536110+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['robotics_automation', 'energy_industrial', 'mining_materials']
+- lenses: ['tokenization_finance', 'business_model_migration', 'cost_curve']
 - raw_candidates: 3
 - parseable_candidates: 3
 - normalized_candidates: 3
@@ -19,10 +19,10 @@ Generated: 2026-10-09T16:12:57.966491+00:00
 - watches: 1
 - rejected: 0
 - errors_by_stage: {}
-- rejection_reasons: {}
-- cost_usd: 0.04347975
+- rejection_reasons: {'discarded_ungrounded_url': 1}
+- cost_usd: 0.0526506
 - cost_uncertain: False
-- budget_remaining_usd: 0.03652025
+- budget_remaining_usd: 0.0273494
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- EU AI Act transparency and enforcement obligations are becoming operational: The regulatory premise is well grounded by primary European Commission sources: Article 50 transparency obligations and the relevant enforcement framework became operational on 2 August 2026. This creates a real compliance problem for affected providers and deployers, with plausible paid demand for implementation, evidence, assurance, and integration support. However, the stated opportunity is too broad to establish attractive value capture as a standalone software category. The applicable scope is use-case-specific rather than universal; basic disclosure, labeling, and metadata capabilities are readily bundled by model, cloud, content-platform, and enterprise-governance incumbents. A viable participation path likely requires a sharply differentiated wedge—e.g., cross-provider evidence trails, workflow-specific compliance automation, independent assurance, or regulated-sector implementation—not generic provenance/watermarking or broad 'AI Act compliance' tooling. Therefore it survives as an HQ-worthy research area, but not yet as a validated market thesis.
 - Tokenized unified-ledger infrastructure is moving from concept toward financial-market architecture: critic_invalid_output
 - Chile SFA implementation moves from rulemaking to build phase, but go-live is deferred to July 2027: The regulatory premise is sufficiently grounded by CMF primary-source URLs in the trusted provenance: NCG 514 has been modified and the claimed transition toward technical implementation is not rejected as an unverified regulatory change. Required data access also appears directionally intended by the regulated SFA framework, so there is no demonstrated legal or technical access fatality at this stage. However, this is not yet an HQ-worthy build thesis: the delayed July 2027 effective date, unproven customer budgets and procurement, unclear mandatory versus optional external-tooling needs, and a small concentrated buyer universe create major uncertainty over whether compliance and go-to-market costs can be recouped. The appropriate judgment is watch pending evidence of paid demand and final operational rules, not execution.
 - Chile’s Open Finance implementation is moving from regulation to integration infrastructure: judge_deferred
@@ -51,6 +50,7 @@ No survivors. Scout does not manufacture a daily winner.
 - SFA implementation moved from rulemaking toward interoperability testing: The regulatory and infrastructure signal is sufficiently grounded in CMF primary materials: the SFA technical framework and ATENA sandbox support the conclusion that implementation/interoperability work is moving forward, so this is not rejected for an unverified regulatory change. A technically plausible path exists for vendors serving regulated participants through integration, security, consent, monitoring, and operational tooling. However, the evidence does not yet establish that production API access, mandatory participant scope, outsourced purchasing budgets, or recurring software demand will be large enough to support attractive value capture. The public sandbox and specifications may reduce, rather than create, proprietary value in baseline testing and conformance. This remains HQ-worthy monitoring and customer-validation research, not a demonstrated commercial market thesis.
 - Permitting and transmission-process modernization is opening a bottleneck-sensitive infrastructure opportunity: The underlying premise is credible and timely: primary DOE material supports increased transmission need associated with large-load growth, and the hydropower program supports active interest in reducing regulatory-process cost. There are plausible paying customers—developers, utilities, large-load project sponsors, and engineering/environmental firms—and plausible entry modes. However, this is not yet an HQ-worthy opportunity thesis because it bundles distinct businesses with materially different buyers, economics, procurement paths, and competitive structures. The cited signals establish policy attention and infrastructure need, not repeatable third-party vendor budgets or a defensible initial wedge. The opportunity should remain in watch status until a specific geography, workflow, buyer, pain metric, procurement route, and value-capture model are evidenced.
 - Industrial robot installations reached a record in 2025, with strongest growth in China and the United States: The IFR primary-source evidence makes the core demand signal reasonably credible and timely: a larger installed base and renewed installation growth can expand spending around deployment, uptime, and lifecycle service. However, this is a sector-level tailwind rather than a defined opportunity. The proposed value-capture mechanisms combine fundamentally different businesses—systems integration, retrofit hardware, fleet software, maintenance, and financing—without identifying a buyer, painful workflow, product wedge, access path, price, or unit economics. There is a plausible payer (manufacturers seeking productivity, uptime, quality, or labor relief) and feasible participation routes, so the premise is not fatally unverifiable or structurally closed. It should remain research-only until narrowed to a specific vertical/application and validated against customer economics and incumbent alternatives.
+- Chile’s open-finance implementation is becoming an integration and testing market: The cited CMF materials credibly support that Chile’s Sistema de Finanzas Abiertas has published technical specifications, a July 2027 effective date, and an ATENA testing sandbox. This clears the threshold for a real regulatory/infrastructure signal and does not establish a fatal lack of legal or technical access. However, the opportunity is presently a broad implementation theme rather than an HQ-worthy, economically validated wedge: sandbox availability and a future compliance date do not demonstrate production connectivity, paid vendor demand, viable unit economics, or an ability for an unregulated/foreign entrant to bear registration, cybersecurity, privacy, liability, and local-operational requirements. Keep under watch pending evidence for a specific buyer/use case and production-commercial conversion.
 
 ## Sanitized diagnostics
 ```json
@@ -64,23 +64,42 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 15,
+      "grounded_source_count": 34,
       "search_source_urls": [
-        "https://ifr.org/downloads/press_docs/2025-09-25-IFR_press_release_Americas_in_English.pdf",
-        "https://ifr.org/downloads/press_docs/2025-09-25-IFR_press_release_India_in_English.pdf",
-        "https://ifr.org/ifr-press-releases/news/presidents-report-by-jane-heffner-3-2026",
-        "https://ifr.org/ifr-press-releases/top-5-global-robotics-trends-2025",
-        "https://ifr.org/img/worldrobotics/Executive_Summary_WR_2025_Industrial_Robots.pdf",
-        "https://ifr.org/news/five-million-robots-now-operate-in-factories-globally/",
-        "https://ifr.org/post/exciting-times-for-robot-suppliers",
-        "https://www.iea.org/commentaries/cost-of-capital-expectations-for-2025-diverge-amid-rising-uncertainty",
-        "https://www.iea.org/reports/advancing-clean-technology-manufacturing/executive-summary",
-        "https://www.iea.org/reports/critical-mineral-traceability-for-energy-and-economic-security/executive-summary",
-        "https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary",
-        "https://www.iea.org/reports/global-critical-minerals-outlook-2025/overview-of-outlook-for-key-minerals",
-        "https://www.iea.org/reports/global-critical-minerals-outlook-2026/market-overview",
-        "https://www.iea.org/reports/world-energy-investment-2025/executive-summary",
-        "https://www.iea.org/reports/world-energy-outlook-2025/executive-summary"
+        "https://www.bis.org/fsi/fsisummaries/exsum_23905.pdf",
+        "https://www.bis.org/media-releases/20260527-project-agora-shows-how-tokenisation-can-improve-wholesale-cross-border-payments-work-will",
+        "https://www.bis.org/publ/arpdf/ar2026e.pdf",
+        "https://www.bis.org/publ/bisbull107.pdf",
+        "https://www.bis.org/publ/othp92.pdf",
+        "https://www.bis.org/speeches/20250430-renewed-rtgs-digital-public-infrastructure-platform-innovation",
+        "https://www.bis.org/speeches/20260505-digital-assets-payment-efficiency-and-monetary-policy",
+        "https://www.bis.org/speeches/20260602-finance-transition-central-bank-irelands-approach-tokenised-finance",
+        "https://www.bis.org/speeches/20260604-keynote-speech-hong-kong-digital-finance-summit-2026",
+        "https://www.bis.org/speeches/20260622-money-transition",
+        "https://www.bis.org/speeches/20260731-growth-and-regulation",
+        "https://www.bis.org/speeches/20260928-statement-2026-innovation-financial-forum",
+        "https://www.bis.org/speeches/20261007-technology-money-and-financial-infrastructure-future",
+        "https://www.bls.gov/news.release/archives/ppi_01302026.htm",
+        "https://www.bls.gov/news.release/pdf/ppi.pdf",
+        "https://www.bls.gov/news.release/pdf/ppi.pdf?_bhlid=acd648323bd257a994275e847a532a34a1ba76a5",
+        "https://www.bls.gov/news.release/ppi.htm",
+        "https://www.bls.gov/news.release/ppi.tn.htm",
+        "https://www.bls.gov/opub/btn/volume-13/misconceptions-ppi.htm",
+        "https://www.bls.gov/pPI/?trk=article-ssr-frontend-pulse_little-text-block",
+        "https://www.bls.gov/regions/mid-atlantic/data/ProducerPriceIndexCommodities_US_Table.htm",
+        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://www.cmfchile.cl/portal/principal/613/articles-95894_doc_pdf.pdf",
+        "https://www.energy.gov/documents/craig-order-202-26-31-colorado-exhibits-mmm-zzz-july-24-2026",
+        "https://www.energy.gov/oe/articles/does-office-electricity-publishes-2026-draft-national-transmission-needs-study?trk=public_post_comment-text",
+        "https://www.energy.gov/sites/default/files/2025-06/doe-fy-2026-vol-2-eia.pdf",
+        "https://www.energy.gov/sites/default/files/2026-02/Ex.%206%20Short%20Term%20Energy%20Outlook%20Feb%202026.pdf",
+        "https://www.iea.org/reports/electricity-2026/executive-summary",
+        "https://www.iea.org/reports/electricity-2026/flexibility",
+        "https://www.iea.org/reports/energy-technology-perspectives-2026/executive-summary",
+        "https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage",
+        "https://www.iea.org/reports/global-ev-outlook-2026/electric-vehicle-batteries"
       ]
     },
     {
@@ -117,7 +136,9 @@ No survivors. Scout does not manufacture a daily winner.
       "index": 2,
       "stage": "normalization",
       "outcome": "accepted",
-      "reasons": [],
+      "reasons": [
+        "discarded_ungrounded_url"
+      ],
       "changes": [
         "contrary_evidence:list_sanitized",
         "major_risks:list_sanitized",
@@ -130,59 +151,47 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_c1dde7708010339fc2c8",
+      "candidate_id": "opp_75600ce4c3401434880d",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 36,
+      "grounded_source_count": 24,
       "search_source_urls": [
-        "https://apnews.com/article/702796f1584fe1920e5fd86f15a99b4f",
-        "https://arxiv.org/abs/2010.14537",
-        "https://arxiv.org/abs/2409.05016",
-        "https://arxiv.org/abs/2509.10152",
-        "https://arxiv.org/abs/2512.10074",
-        "https://bisresearch.com/industry-report/industrial-robots-market.html",
-        "https://catalog.data.gov/dataset/results-from-a-2023-survey-of-manufacturing-automation-amongst-small-and-medium-enterprise",
-        "https://en.wikipedia.org/wiki/Industrial_robot",
-        "https://ifr.org/news/five-million-robots-now-operate-in-factories-globally/",
-        "https://ifr.org/post/exciting-times-for-robot-suppliers",
-        "https://link.springer.com/article/10.1007/s44430-025-00012-2",
-        "https://robotservicemap.com/articles/global-industrial-robot-market-contracted-5-8-last-year-reports-intera/",
-        "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=958147",
-        "https://www.gminsights.com/industry-analysis/north-america-ai-powered-industrial-robot-market",
-        "https://www.ipfonline.com/news/detail/articles/global-industrial-robot-shipments-down-in-2024-recovery-likely-in-2025/17945",
-        "https://www.itpro.com/technology/artificial-intelligence/how-the-uk-leading-europe-ai-driven-manufacturing",
-        "https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%20digital/our%20insights/disruptive%20technologies/mgi_disruptive_technologies_full_report_may2013.pdf",
-        "https://www.mckinsey.com/~/media/mckinsey/industries/advanced%20electronics/our%20insights/growth%20dynamics%20in%20industrial%20robotics/industrial-robotics-insights-into-the-sectors-future-growth-dynamics.pdf",
-        "https://www.mordorintelligence.com/industry-reports/industrial-robotics-market",
-        "https://www.nsca.org/nsca-news/2025-topline-numbers-for-integrators/",
-        "https://www.nsca.org/nsca-news/nsca-releases/nscas-financial-analysis-of-the-industry-2025/",
-        "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/emerging-divides-in-the-transition-to-artificial-intelligence_eeb5e120/7376c776-en.pdf",
-        "https://www.reddit.com/r/EU_Economics/comments/1pxzfe8/robotics_could_explode_from_91b_today_to_25t_by/",
-        "https://www.reddit.com/r/PalladyneAICorp/comments/1kidc32",
-        "https://www.reddit.com/r/TechStartups/comments/1vakrlq/protecting_domestic_robot_makers_from_competition/",
-        "https://www.reddit.com/r/automation/comments/1n3309x",
-        "https://www.reddit.com/r/robotics/comments/1ep4q46",
-        "https://www.reddit.com/r/robotics/comments/1i479ar/why_so_little_adoption_of_robotics/",
-        "https://www.reddit.com/r/robotics/comments/1ih8gi9",
-        "https://www.reddit.com/r/robotics/comments/1mjbm83",
-        "https://www.reddit.com/r/robotics/comments/1woclmt/nist_is_putting_more_than_30m_into_helping/",
-        "https://www.reddit.com/r/u_emaanderson1/comments/147k0sh",
-        "https://www.reddit.com/r/u_vijay6699/comments/dd8c2e",
-        "https://www.sec.gov/Archives/edgar/data/1159167/000115916725000034/a2025annualreport.pdf",
-        "https://www.vantagemarketresearch.com/industrial-robots-market",
-        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0508/2026050800015.pdf"
+        "https://cmfchile.cl/portal/principal/613/articles-86367_doc_pdf.pdf",
+        "https://cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://en.wikipedia.org/wiki/Draft%3AFinancial-grade_API",
+        "https://en.wikipedia.org/wiki/Open_banking",
+        "https://en.wikipedia.org/wiki/Open_finance",
+        "https://es.wikipedia.org/wiki/Bancarizaci%C3%B3n_en_Chile",
+        "https://es.wikipedia.org/wiki/Finanzas_abiertas",
+        "https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_financiera",
+        "https://jdf.cl/en/comision-para-el-mercado-financiero-dicta-norma-de-caracter-general-n514-que-regula-el-sistema-de-finanzas-abiertas/",
+        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/435749300/v1.0.0%2B-%2BPerfil%2Bde%2BSeguridad%2Bdel%2BSistema%2Bde%2BFinanzas%2BAbiertas",
+        "https://www.bcn.cl/leychile/navegar?f=2023-02-03&i=1187323&p=10393558",
+        "https://www.carey.cl/wp-content/uploads/2025/03/GLI-BR25_Chapter-6-Chile.pdf",
+        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://www.cmfchile.cl/portal/principal/613/articles-92466_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-82752.html",
+        "https://www.imf.org/-/media/files/publications/cr/2024/english/1chlea2024002.pdf",
+        "https://www.legal500.com/guides/chapter/chile-data-protection-cybersecurity/?export-pdf=",
+        "https://www.publicnow.com/view/DDCB30A10BC8E91299EC3F47C26D24D2CC1133C0",
+        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000108/MNCjune2026signed.pdf"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_c1dde7708010339fc2c8",
+      "candidate_id": "opp_75600ce4c3401434880d",
       "coercions": [
         "contrary_evidence"
       ]
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_c1dde7708010339fc2c8",
+      "candidate_id": "opp_75600ce4c3401434880d",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -190,7 +199,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_c1dde7708010339fc2c8",
+      "candidate_id": "opp_75600ce4c3401434880d",
       "coercions": []
     }
   ],
@@ -198,44 +207,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 154,
-      "cache_write_tokens": 4625,
+      "reasoning_tokens": 297,
+      "cache_write_tokens": 4616,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01449505,
+      "cumulative_cost_usd": 0.0254594,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13039,
+      "input_tokens": 16483,
       "cached_tokens": 0,
-      "output_tokens": 1380,
-      "web_search_calls": 1,
-      "estimated_cost_usd": 0.01449505
+      "output_tokens": 1610,
+      "web_search_calls": 2,
+      "estimated_cost_usd": 0.0254594
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 142,
-      "cache_write_tokens": 5142,
+      "reasoning_tokens": 171,
+      "cache_write_tokens": 5178,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02913975,
+      "cumulative_cost_usd": 0.0398231,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13580,
+      "input_tokens": 13450,
       "cached_tokens": 0,
-      "output_tokens": 1393,
+      "output_tokens": 1179,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0146447
+      "estimated_cost_usd": 0.0143637
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 122,
-      "cache_write_tokens": 2772,
+      "reasoning_tokens": 50,
+      "cache_write_tokens": 2335,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.04347975,
+      "cumulative_cost_usd": 0.0526506,
       "model": "gpt-5.6-terra",
-      "input_tokens": 2775,
+      "input_tokens": 2338,
       "cached_tokens": 0,
-      "output_tokens": 617,
+      "output_tokens": 582,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.01434
+      "estimated_cost_usd": 0.0128275
     }
   ]
 }
