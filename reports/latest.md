@@ -1,15 +1,15 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-09T12:14:05.803693+00:00
+Generated: 2026-10-09T16:12:57.966491+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['public_markets', 'physical_commerce', 'regulation_infrastructure']
+- lenses: ['robotics_automation', 'energy_industrial', 'mining_materials']
 - raw_candidates: 3
 - parseable_candidates: 3
 - normalized_candidates: 3
 - normalization_rejected: 0
-- grounded_sources: 5
+- grounded_sources: 6
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
@@ -17,12 +17,12 @@ Generated: 2026-10-09T12:14:05.803693+00:00
 - judge_reviews: 1
 - survivors: 0
 - watches: 1
-- rejected: 1
+- rejected: 0
 - errors_by_stage: {}
-- rejection_reasons: {'insufficient_unique_evidence': 1}
-- cost_usd: 0.05410165
+- rejection_reasons: {}
+- cost_usd: 0.04347975
 - cost_uncertain: False
-- budget_remaining_usd: 0.02589835
+- budget_remaining_usd: 0.03652025
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Managed agent orchestration is lowering the cost of production AI workflows: The underlying capability shift is credibly grounded by a primary OpenAI announcement and is timely, but this is a broad enabling trend rather than a sufficiently specified HQ-worthy opportunity. There is a realistic participation path in narrow workflow deployment, and plausible payers exist where per-case labor, outsourcing, or error costs are measurable. However, the cited 60% saving is a vendor case study rather than independently replicated fully loaded economics. Generic orchestration, monitoring, and implementation are likely to be rapidly bundled or commoditized by model, cloud, and enterprise-software platforms. Survival depends on identifying a specific high-volume workflow with bounded failure costs, acceptable governance, proprietary integrations or distribution, and sub-12-month payback after human review and operational overhead. No fatal condition is established, but value capture and durable differentiation are currently too unproven for survival.
 - EU AI Act transparency and enforcement obligations are becoming operational: The regulatory premise is well grounded by primary European Commission sources: Article 50 transparency obligations and the relevant enforcement framework became operational on 2 August 2026. This creates a real compliance problem for affected providers and deployers, with plausible paid demand for implementation, evidence, assurance, and integration support. However, the stated opportunity is too broad to establish attractive value capture as a standalone software category. The applicable scope is use-case-specific rather than universal; basic disclosure, labeling, and metadata capabilities are readily bundled by model, cloud, content-platform, and enterprise-governance incumbents. A viable participation path likely requires a sharply differentiated wedge—e.g., cross-provider evidence trails, workflow-specific compliance automation, independent assurance, or regulated-sector implementation—not generic provenance/watermarking or broad 'AI Act compliance' tooling. Therefore it survives as an HQ-worthy research area, but not yet as a validated market thesis.
 - Tokenized unified-ledger infrastructure is moving from concept toward financial-market architecture: critic_invalid_output
 - Chile SFA implementation moves from rulemaking to build phase, but go-live is deferred to July 2027: The regulatory premise is sufficiently grounded by CMF primary-source URLs in the trusted provenance: NCG 514 has been modified and the claimed transition toward technical implementation is not rejected as an unverified regulatory change. Required data access also appears directionally intended by the regulated SFA framework, so there is no demonstrated legal or technical access fatality at this stage. However, this is not yet an HQ-worthy build thesis: the delayed July 2027 effective date, unproven customer budgets and procurement, unclear mandatory versus optional external-tooling needs, and a small concentrated buyer universe create major uncertainty over whether compliance and go-to-market costs can be recouped. The appropriate judgment is watch pending evidence of paid demand and final operational rules, not execution.
@@ -51,12 +50,13 @@ No survivors. Scout does not manufacture a daily winner.
 - Grid connection queues are creating a monetizable bottleneck for flexibility and grid-enhancing technologies: The underlying bottleneck is credibly grounded by IEA and official U.S. grid-policy sources: connection backlogs, congestion, and constrained transmission capacity are real and timely. However, this is a broad problem category rather than a sufficiently specified HQ-worthy opportunity. Queue GW and technical hosting-capacity potential do not translate directly into vendor revenue, deployable projects, or venture-scale margins. Value capture, buyer identity, procurement route, regulatory cost recovery, reliability acceptance, and deployment economics differ substantially among DLR, power-flow control, topology software, interconnection analytics, storage co-location, and flexible-load aggregation. A realistic participation path exists only after narrowing to a particular grid region, technology, customer, tariff/procurement mechanism, and measurable avoided-upgrade or accelerated-interconnection outcome. It should not be pursued as a generic global 'grid bottleneck' thesis without that validation.
 - SFA implementation moved from rulemaking toward interoperability testing: The regulatory and infrastructure signal is sufficiently grounded in CMF primary materials: the SFA technical framework and ATENA sandbox support the conclusion that implementation/interoperability work is moving forward, so this is not rejected for an unverified regulatory change. A technically plausible path exists for vendors serving regulated participants through integration, security, consent, monitoring, and operational tooling. However, the evidence does not yet establish that production API access, mandatory participant scope, outsourced purchasing budgets, or recurring software demand will be large enough to support attractive value capture. The public sandbox and specifications may reduce, rather than create, proprietary value in baseline testing and conformance. This remains HQ-worthy monitoring and customer-validation research, not a demonstrated commercial market thesis.
 - Permitting and transmission-process modernization is opening a bottleneck-sensitive infrastructure opportunity: The underlying premise is credible and timely: primary DOE material supports increased transmission need associated with large-load growth, and the hydropower program supports active interest in reducing regulatory-process cost. There are plausible paying customers—developers, utilities, large-load project sponsors, and engineering/environmental firms—and plausible entry modes. However, this is not yet an HQ-worthy opportunity thesis because it bundles distinct businesses with materially different buyers, economics, procurement paths, and competitive structures. The cited signals establish policy attention and infrastructure need, not repeatable third-party vendor budgets or a defensible initial wedge. The opportunity should remain in watch status until a specific geography, workflow, buyer, pain metric, procurement route, and value-capture model are evidenced.
+- Industrial robot installations reached a record in 2025, with strongest growth in China and the United States: The IFR primary-source evidence makes the core demand signal reasonably credible and timely: a larger installed base and renewed installation growth can expand spending around deployment, uptime, and lifecycle service. However, this is a sector-level tailwind rather than a defined opportunity. The proposed value-capture mechanisms combine fundamentally different businesses—systems integration, retrofit hardware, fleet software, maintenance, and financing—without identifying a buyer, painful workflow, product wedge, access path, price, or unit economics. There is a plausible payer (manufacturers seeking productivity, uptime, quality, or labor relief) and feasible participation routes, so the premise is not fatally unverifiable or structurally closed. It should remain research-only until narrowed to a specific vertical/application and validated against customer economics and incumbent alternatives.
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "review_cap_not_persisted=1"
+    "review_cap_not_persisted=2"
   ],
   "stages": [
     {
@@ -64,41 +64,23 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 33,
+      "grounded_source_count": 15,
       "search_source_urls": [
-        "https://dataweb.usitc.gov/?f=beta",
-        "https://stage.energy.gov/collection/filter/1381152?page=0",
-        "https://www.api.org/news-policy-and-issues/news/2026/09/30/api-welcomes-bipartisan-american-affordability-and-jobs-act-to-modernize-permitt",
-        "https://www.energy.gov/articles/energy-secretary-announces-updated-nepa-procedures-end-permitting-paralysis-and-unleash",
-        "https://www.energy.gov/cmei/water/articles/does-hydropower-and-hydrokinetic-office-announces-funding-national-laboratory",
-        "https://www.energy.gov/documents/public-comment-july-2026-seabpdf",
-        "https://www.energy.gov/hgeo/listings/hgeo-press-releases-and-techlines?page=3",
-        "https://www.energy.gov/nepa/listings/categorical-exclusion-determinations-b413?page=1",
-        "https://www.energy.gov/oe/articles/does-office-electricity-issues-presidential-permit-expand-us-canada-grid-reliability",
-        "https://www.energy.gov/oe/articles/does-office-electricity-publishes-2026-draft-national-transmission-needs-study?trk=public_post_comment-text",
-        "https://www.energy.gov/oe/coordinated-interagency-transmission-authorizations-and-permits-program",
-        "https://www.energy.gov/oe/presidential-permits",
-        "https://www.energy.gov/policy/articles/faster-better-permitting-permitai",
-        "https://www.energy.gov/sites/default/files/2025-12/Bottleneck%20to%20Breakthrough_2025-12-3.pdf",
-        "https://www.energy.gov/sites/default/files/2025-12/NPC_Permitting_report_2025-12-3.pdf",
-        "https://www.energy.gov/sites/default/files/2025-12/Reliable%20Energy_2025-12-3.pdf",
-        "https://www.energy.gov/topics/energy-infrastructure",
-        "https://www.energy.gov/topics/grid-deployment-and-transmission",
-        "https://www.sec.gov/Archives/edgar/data/1016281/000110465926112380/tm2626597d1_ex99-2.htm",
-        "https://www.sec.gov/Archives/edgar/data/1020859/000102085926000013/q3fy26-earningsrelease.htm",
-        "https://www.sec.gov/Archives/edgar/data/1043219/000104321926000052/a2026q2nlyex991.htm",
-        "https://www.sec.gov/Archives/edgar/data/1065059/000162828026027246/a2025annualreport.pdf",
-        "https://www.sec.gov/Archives/edgar/data/1096275/000149315226029959/ex99-1.htm",
-        "https://www.sec.gov/Archives/edgar/data/1378789/000095015726001041/ex99-1.htm",
-        "https://www.sec.gov/Archives/edgar/data/1467623/000146762326000022/a2026asmproxyandannualrepo.pdf",
-        "https://www.sec.gov/Archives/edgar/data/1527166/000152716626000027/cg2026033110q.pdf",
-        "https://www.sec.gov/Archives/edgar/data/1527166/000152716626000045/cg2026063010q.pdf",
-        "https://www.sec.gov/Archives/edgar/data/1801169/000114036126032600/ef20080105_ex99-1.htm",
-        "https://www.sec.gov/Archives/edgar/data/2046042/000110465926095891/jcap-20260813xex99d1.htm",
-        "https://www.sec.gov/Archives/edgar/data/277509/000162828026050993/federalsignalq22026earni.htm",
-        "https://www.sec.gov/Archives/edgar/data/766704/000076670426000026/a2q26earningsrelease991.htm",
-        "https://www.sec.gov/Archives/edgar/data/866374/000119312526382492/d108491d8k.htm",
-        "https://www.sec.gov/Archives/edgar/data/945114/000162828026026618/a2025annualreport.pdf"
+        "https://ifr.org/downloads/press_docs/2025-09-25-IFR_press_release_Americas_in_English.pdf",
+        "https://ifr.org/downloads/press_docs/2025-09-25-IFR_press_release_India_in_English.pdf",
+        "https://ifr.org/ifr-press-releases/news/presidents-report-by-jane-heffner-3-2026",
+        "https://ifr.org/ifr-press-releases/top-5-global-robotics-trends-2025",
+        "https://ifr.org/img/worldrobotics/Executive_Summary_WR_2025_Industrial_Robots.pdf",
+        "https://ifr.org/news/five-million-robots-now-operate-in-factories-globally/",
+        "https://ifr.org/post/exciting-times-for-robot-suppliers",
+        "https://www.iea.org/commentaries/cost-of-capital-expectations-for-2025-diverge-amid-rising-uncertainty",
+        "https://www.iea.org/reports/advancing-clean-technology-manufacturing/executive-summary",
+        "https://www.iea.org/reports/critical-mineral-traceability-for-energy-and-economic-security/executive-summary",
+        "https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary",
+        "https://www.iea.org/reports/global-critical-minerals-outlook-2025/overview-of-outlook-for-key-minerals",
+        "https://www.iea.org/reports/global-critical-minerals-outlook-2026/market-overview",
+        "https://www.iea.org/reports/world-energy-investment-2025/executive-summary",
+        "https://www.iea.org/reports/world-energy-outlook-2025/executive-summary"
       ]
     },
     {
@@ -111,10 +93,9 @@ No survivors. Scout does not manufacture a daily winner.
         "major_risks:list_sanitized",
         "unknowns:list_sanitized",
         "falsification_conditions:list_sanitized",
-        "material_update:unknown_false",
-        "evidence:duplicate_removed"
+        "material_update:unknown_false"
       ],
-      "grounded_sources": 1,
+      "grounded_sources": 2,
       "retry_justified": false
     },
     {
@@ -149,46 +130,59 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_7209beea24406589b8bc",
+      "candidate_id": "opp_c1dde7708010339fc2c8",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 23,
+      "grounded_source_count": 36,
       "search_source_urls": [
-        "https://apnews.com/article/506e3d206871111f15c3c62fc5368be5",
-        "https://elibrary.ferc.gov/eLibrary/docinfo?accession_Number=20260416-3003",
-        "https://en.wikipedia.org/wiki/Electron_Hydroelectric_Project",
-        "https://en.wikipedia.org/wiki/Federal_Energy_Regulatory_Commission",
-        "https://en.wikipedia.org/wiki/Natural_Gas_Pipeline_Permitting_Reform_Act",
-        "https://en.wikipedia.org/wiki/Western_Area_Power_Administration",
-        "https://ferc.gov/major-orders-regulations",
-        "https://ferc.gov/news-events/news/energized-2026",
-        "https://ferc.gov/rm26-4?trk=article-ssr-frontend-pulse_little-text-block",
-        "https://ferc.gov/sites/default/files/2025-07/FERC%20Chairman%20July%201%20Letter_0.pdf",
-        "https://www.energy.gov/cmei/water/articles/does-hydropower-and-hydrokinetic-office-announces-funding-national-laboratory",
-        "https://www.energy.gov/documents/craig-order-202-26-31-pios-exhibits-3-01-3-07-july-24-2026",
-        "https://www.energy.gov/documents/national-transmission-needs-study-draft-july-2026?_sp=6d1f98d9-46f7-4c1b-930f-c95c37291b45.1786750281468",
-        "https://www.energy.gov/oe/national-transmission-needs-study",
-        "https://www.energy.gov/oe/national-transmission-planning-study-0",
-        "https://www.energy.gov/oe/speed-power-stakeholder-input-and-doe-actions",
-        "https://www.energy.gov/topics/grid-deployment-and-transmission",
-        "https://www.ferc.gov/explainer-interconnection-final-rule",
-        "https://www.ferc.gov/news-events/news/fact-sheet-ferc-takes-action-supercharge-americas-grid-efficiency-reliability-and?trk=article-ssr-frontend-pulse_little-text-block",
-        "https://www.ferc.gov/sites/default/files/2026-03/26_State-of-the-Market_0324_1430.pdf",
-        "https://www.ferc.gov/sites/default/files/2026-05/FERC%20Unleashes%20Natural%20Gas%20Permit%20Reforms.pdf",
-        "https://www.gao.gov/products/gao-18-536",
-        "https://www.govinfo.gov/content/pkg/GAOREPORTS-GAO-03-534/pdf/GAOREPORTS-GAO-03-534.pdf"
+        "https://apnews.com/article/702796f1584fe1920e5fd86f15a99b4f",
+        "https://arxiv.org/abs/2010.14537",
+        "https://arxiv.org/abs/2409.05016",
+        "https://arxiv.org/abs/2509.10152",
+        "https://arxiv.org/abs/2512.10074",
+        "https://bisresearch.com/industry-report/industrial-robots-market.html",
+        "https://catalog.data.gov/dataset/results-from-a-2023-survey-of-manufacturing-automation-amongst-small-and-medium-enterprise",
+        "https://en.wikipedia.org/wiki/Industrial_robot",
+        "https://ifr.org/news/five-million-robots-now-operate-in-factories-globally/",
+        "https://ifr.org/post/exciting-times-for-robot-suppliers",
+        "https://link.springer.com/article/10.1007/s44430-025-00012-2",
+        "https://robotservicemap.com/articles/global-industrial-robot-market-contracted-5-8-last-year-reports-intera/",
+        "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=958147",
+        "https://www.gminsights.com/industry-analysis/north-america-ai-powered-industrial-robot-market",
+        "https://www.ipfonline.com/news/detail/articles/global-industrial-robot-shipments-down-in-2024-recovery-likely-in-2025/17945",
+        "https://www.itpro.com/technology/artificial-intelligence/how-the-uk-leading-europe-ai-driven-manufacturing",
+        "https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%20digital/our%20insights/disruptive%20technologies/mgi_disruptive_technologies_full_report_may2013.pdf",
+        "https://www.mckinsey.com/~/media/mckinsey/industries/advanced%20electronics/our%20insights/growth%20dynamics%20in%20industrial%20robotics/industrial-robotics-insights-into-the-sectors-future-growth-dynamics.pdf",
+        "https://www.mordorintelligence.com/industry-reports/industrial-robotics-market",
+        "https://www.nsca.org/nsca-news/2025-topline-numbers-for-integrators/",
+        "https://www.nsca.org/nsca-news/nsca-releases/nscas-financial-analysis-of-the-industry-2025/",
+        "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/emerging-divides-in-the-transition-to-artificial-intelligence_eeb5e120/7376c776-en.pdf",
+        "https://www.reddit.com/r/EU_Economics/comments/1pxzfe8/robotics_could_explode_from_91b_today_to_25t_by/",
+        "https://www.reddit.com/r/PalladyneAICorp/comments/1kidc32",
+        "https://www.reddit.com/r/TechStartups/comments/1vakrlq/protecting_domestic_robot_makers_from_competition/",
+        "https://www.reddit.com/r/automation/comments/1n3309x",
+        "https://www.reddit.com/r/robotics/comments/1ep4q46",
+        "https://www.reddit.com/r/robotics/comments/1i479ar/why_so_little_adoption_of_robotics/",
+        "https://www.reddit.com/r/robotics/comments/1ih8gi9",
+        "https://www.reddit.com/r/robotics/comments/1mjbm83",
+        "https://www.reddit.com/r/robotics/comments/1woclmt/nist_is_putting_more_than_30m_into_helping/",
+        "https://www.reddit.com/r/u_emaanderson1/comments/147k0sh",
+        "https://www.reddit.com/r/u_vijay6699/comments/dd8c2e",
+        "https://www.sec.gov/Archives/edgar/data/1159167/000115916725000034/a2025annualreport.pdf",
+        "https://www.vantagemarketresearch.com/industrial-robots-market",
+        "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0508/2026050800015.pdf"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_7209beea24406589b8bc",
+      "candidate_id": "opp_c1dde7708010339fc2c8",
       "coercions": [
         "contrary_evidence"
       ]
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_7209beea24406589b8bc",
+      "candidate_id": "opp_c1dde7708010339fc2c8",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -196,7 +190,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_7209beea24406589b8bc",
+      "candidate_id": "opp_c1dde7708010339fc2c8",
       "coercions": []
     }
   ],
@@ -204,44 +198,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 352,
-      "cache_write_tokens": 4621,
+      "reasoning_tokens": 154,
+      "cache_write_tokens": 4625,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02597225,
+      "cumulative_cost_usd": 0.01449505,
       "model": "gpt-5.6-luna",
-      "input_tokens": 19250,
+      "input_tokens": 13039,
       "cached_tokens": 0,
-      "output_tokens": 1576,
-      "web_search_calls": 2,
-      "estimated_cost_usd": 0.02597225
+      "output_tokens": 1380,
+      "web_search_calls": 1,
+      "estimated_cost_usd": 0.01449505
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 148,
-      "cache_write_tokens": 5186,
+      "reasoning_tokens": 142,
+      "cache_write_tokens": 5142,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.04055615,
+      "cumulative_cost_usd": 0.02913975,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13511,
+      "input_tokens": 13580,
       "cached_tokens": 0,
-      "output_tokens": 1352,
+      "output_tokens": 1393,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0145839
+      "estimated_cost_usd": 0.0146447
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 63,
-      "cache_write_tokens": 2459,
+      "reasoning_tokens": 122,
+      "cache_write_tokens": 2772,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.05410165,
+      "cumulative_cost_usd": 0.04347975,
       "model": "gpt-5.6-terra",
-      "input_tokens": 2462,
+      "input_tokens": 2775,
       "cached_tokens": 0,
-      "output_tokens": 616,
+      "output_tokens": 617,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.0135455
+      "estimated_cost_usd": 0.01434
     }
   ]
 }
