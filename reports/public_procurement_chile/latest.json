@@ -5,34 +5,25 @@
     "api_failures": {
       "api_http_504": 1
     },
-    "budget_exhausted": false,
-    "detail_attempts": 20,
-    "details_fetched": 19,
-    "duplicate_listings": 0,
-    "malformed_details": 0,
-    "malformed_reasons": {},
-    "malformed_samples": [],
-    "pages_fetched": 1,
-    "requests_used": 23,
+    "requests_used": 3,
     "transient_retries": 2
   },
-  "generated_at": "2026-10-09T08:39:14Z",
-  "inserted_history": 19,
-  "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
+  "generated_at": "2026-10-09T12:43:27Z",
+  "inserted_history": 0,
+  "note": "Transient ChileCompra/API availability failure after bounded retries. Cursor was not advanced; next scheduled run may retry safely.",
   "ok": false,
+  "outcome": "DEGRADED_TRANSIENT_API",
   "phase1": {
-    "records": 19,
-    "rejection_reasons": {
-      "no_observable_competitive_prices": 4
-    },
-    "resolved": 19,
-    "structurally_reconstructable": 15,
-    "with_observable_quote_totals": 15,
+    "records": 0,
+    "rejection_reasons": {},
+    "resolved": 0,
+    "structurally_reconstructable": 0,
+    "with_observable_quote_totals": 0,
     "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-08T08:39:10+00:00",
-    "changed_to": "2026-10-09T08:39:14Z"
+    "changed_to": "2026-10-09T12:43:27Z"
   }
 }
