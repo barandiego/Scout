@@ -1,10 +1,10 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-09T00:17:30.218391+00:00
+Generated: 2026-10-09T04:12:13.822684+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['energy_industrial', 'mining_materials', 'tokenization_finance']
+- lenses: ['business_model_migration', 'cost_curve', 'open_finance_chile']
 - raw_candidates: 3
 - parseable_candidates: 3
 - normalized_candidates: 3
@@ -20,9 +20,9 @@ Generated: 2026-10-09T00:17:30.218391+00:00
 - rejected: 0
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.04290605
+- cost_usd: 0.04230275
 - cost_uncertain: False
-- budget_remaining_usd: 0.03709395
+- budget_remaining_usd: 0.03769725
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Chile publishes technical standards and sandbox infrastructure ahead of Open Finance launch: Primary CMF evidence supports that technical SFA specifications were published, the implementation date was deferred to July 2027, and ATENA exists for pre-production interoperability testing. Therefore the regulatory-change premise is not inherently unverified or misread, and the opportunity is not fatally blocked at the research stage. However, legally/technically usable production data access and commercially viable third-party participation are not yet demonstrated: the rollout appears staged, production traffic and customer demand are unproven, and licensing/local-partner, liability, governance, cost-sharing, cybersecurity, and operational requirements remain material unknowns. The claim is HQ-worthy as a monitored market-entry and validation thesis, not as evidence of an immediately executable API-platform business.
 - Chile’s Open Finance implementation moves from regulation to integration work: The regulatory transition is sufficiently verified by primary CMF sources: NCG 569 modifies NCG 514, adds the technical Annex 3, and establishes an implementation path toward July 2027. Therefore this is not rejected for an unverified or misread regulatory change, nor is API access categorically unavailable: the described framework expressly contemplates interoperable data exchange, payment initiation, testing, and a developer portal. However, the opportunity is a credible implementation-market hypothesis rather than demonstrated recurring-software or payment-revenue opportunity. The postponement, pilot structure, unresolved commercial terms, uncertain participant usage, and likely incumbent-vendor competition leave value capture unproven. It survives for research and customer validation only, not as a validated business conclusion.
 - Managed agent orchestration is lowering the cost of production AI workflows: The underlying capability shift is credibly grounded by a primary OpenAI announcement and is timely, but this is a broad enabling trend rather than a sufficiently specified HQ-worthy opportunity. There is a realistic participation path in narrow workflow deployment, and plausible payers exist where per-case labor, outsourcing, or error costs are measurable. However, the cited 60% saving is a vendor case study rather than independently replicated fully loaded economics. Generic orchestration, monitoring, and implementation are likely to be rapidly bundled or commoditized by model, cloud, and enterprise-software platforms. Survival depends on identifying a specific high-volume workflow with bounded failure costs, acceptable governance, proprietary integrations or distribution, and sub-12-month payback after human review and operational overhead. No fatal condition is established, but value capture and durable differentiation are currently too unproven for survival.
 - EU AI Act transparency and enforcement obligations are becoming operational: The regulatory premise is well grounded by primary European Commission sources: Article 50 transparency obligations and the relevant enforcement framework became operational on 2 August 2026. This creates a real compliance problem for affected providers and deployers, with plausible paid demand for implementation, evidence, assurance, and integration support. However, the stated opportunity is too broad to establish attractive value capture as a standalone software category. The applicable scope is use-case-specific rather than universal; basic disclosure, labeling, and metadata capabilities are readily bundled by model, cloud, content-platform, and enterprise-governance incumbents. A viable participation path likely requires a sharply differentiated wedge—e.g., cross-provider evidence trails, workflow-specific compliance automation, independent assurance, or regulated-sector implementation—not generic provenance/watermarking or broad 'AI Act compliance' tooling. Therefore it survives as an HQ-worthy research area, but not yet as a validated market thesis.
@@ -51,6 +50,7 @@ No survivors. Scout does not manufacture a daily winner.
 - Chile publishes technical rules and developer infrastructure for Open Finance, with go-live deferred to July 2027: The regulatory premise is sufficiently grounded by CMF primary sources: NCG 569/Annex 3, supporting developer/testing infrastructure, and a July 2027 effective date appear to be real rather than an unverified regulatory-change claim. No fatal lack of legal or technical API availability is established; the framework is explicitly creating standardized access and testing paths. However, the opportunity is not yet HQ-worthy as a broad implementation race. The remaining commercial rules and operating realities—cost allocation, liability, certification, security obligations, service levels, participant phasing, and actual bank procurement—are unresolved or unvalidated. CMF-provided documentation and sandbox infrastructure may commoditize generic connectivity, normalization, and testing, while incumbents likely hold material distribution and compliance advantages. A survivor case requires evidence of paid demand for a narrow, non-commodity wedge, not merely regulatory preparation activity.
 - API security and compliance are becoming a product layer for cloud and platform ecosystems: The underlying signal is well grounded in primary sources: NIST’s REST API guidance and FedRAMP’s 2026 rule/timeline and machine-readable-rule direction plausibly increase demand for auditable security and compliance workflows. There is a credible payer class—government-facing SaaS/cloud providers, their integrators, and potentially assessor/channel partners—and a realistic participation path via a narrow evidence-automation or continuous-control-telemetry wedge. However, the proposed value capture is far too broad and currently lacks proof of a separately purchasable pain, buyer budget, channel access, or advantage against entrenched GRC, cloud-security, API-security, OSCAL, consulting, and assessor incumbents. The opportunity survives as research, not as an execution-ready thesis. It should be narrowed to a deterministic, assessor-accepted FedRAMP/OSCAL evidence workflow with measurable authorization-time or assessor-labor savings before further commitment.
 - Grid connection queues are creating a monetizable bottleneck for flexibility and grid-enhancing technologies: The underlying bottleneck is credibly grounded by IEA and official U.S. grid-policy sources: connection backlogs, congestion, and constrained transmission capacity are real and timely. However, this is a broad problem category rather than a sufficiently specified HQ-worthy opportunity. Queue GW and technical hosting-capacity potential do not translate directly into vendor revenue, deployable projects, or venture-scale margins. Value capture, buyer identity, procurement route, regulatory cost recovery, reliability acceptance, and deployment economics differ substantially among DLR, power-flow control, topology software, interconnection analytics, storage co-location, and flexible-load aggregation. A realistic participation path exists only after narrowing to a particular grid region, technology, customer, tariff/procurement mechanism, and measurable avoided-upgrade or accelerated-interconnection outcome. It should not be pursued as a generic global 'grid bottleneck' thesis without that validation.
+- SFA implementation moved from rulemaking toward interoperability testing: The regulatory and infrastructure signal is sufficiently grounded in CMF primary materials: the SFA technical framework and ATENA sandbox support the conclusion that implementation/interoperability work is moving forward, so this is not rejected for an unverified regulatory change. A technically plausible path exists for vendors serving regulated participants through integration, security, consent, monitoring, and operational tooling. However, the evidence does not yet establish that production API access, mandatory participant scope, outsourced purchasing budgets, or recurring software demand will be large enough to support attractive value capture. The public sandbox and specifications may reduce, rather than create, proprietary value in baseline testing and conformance. This remains HQ-worthy monitoring and customer-validation research, not a demonstrated commercial market thesis.
 
 ## Sanitized diagnostics
 ```json
@@ -64,23 +64,44 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 15,
+      "grounded_source_count": 36,
       "search_source_urls": [
-        "https://www.bis.org/cpmi/publ/d225.pdf",
-        "https://www.bis.org/publ/arpdf/ar2025e.pdf",
-        "https://www.bis.org/publ/arpdf/ar2025e3.pdf",
-        "https://www.bis.org/publications/aer-2025/next-generation-monetary-financial-system",
-        "https://www.bis.org/publications/leveraging-tokenisation-payments-and-financial-transactions",
-        "https://www.bis.org/publications/wholesale-central-bank-money-context-technological-innovation",
-        "https://www.iea.org/commentaries/cost-of-capital-expectations-for-2025-diverge-amid-rising-uncertainty",
-        "https://www.iea.org/data-and-statistics/charts/utility-scale-battery-project-costs-vre-share-and-utility-scale-battery-storage-capacity-relative-to-peak-load-by-region-2019-2024",
-        "https://www.iea.org/reports/breakthrough-agenda-report-2025/power",
-        "https://www.iea.org/reports/critical-mineral-traceability-for-energy-and-economic-security/executive-summary",
-        "https://www.iea.org/reports/electricity-2026/grids",
-        "https://www.iea.org/reports/grid-investments",
-        "https://www.iea.org/reports/modernising-grids-in-the-age-of-electricity/executive-summary",
-        "https://www.iea.org/reports/the-role-of-traceability-in-critical-mineral-supply-chains",
-        "https://www.iea.org/reports/world-energy-investment-2025/executive-summary?_hsmi=365145678"
+        "https://arxiv.org/abs/2405.21015",
+        "https://arxiv.org/abs/2504.20189",
+        "https://arxiv.org/abs/2510.26136",
+        "https://arxiv.org/abs/2603.28680",
+        "https://en.wikipedia.org/wiki/AI_data_center",
+        "https://en.wikipedia.org/wiki/Data_center",
+        "https://en.wikipedia.org/wiki/Environmental_impact_of_artificial_intelligence",
+        "https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf",
+        "https://www.bcentral.cl/contenido/-/details/acuerdo-2751-03-251119",
+        "https://www.bcentral.cl/contenido/-/details/prensa/nota-de-prensa/segunda-consulta-regulacion-para-habilitar-uso-tarjetas-pago-abiertas-en-transporte-publico",
+        "https://www.bcentral.cl/documents/33528/133217/jpa_17112022.pdf/54d7647e-d58b-0fd9-032f-1c4fd829e7f7?t=1693301714036",
+        "https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836",
+        "https://www.bcentral.cl/en/content/-/detalle/prensa/nota-de-prensa/banco-central-define-marco-de-regulacion-para-que-nuevas-entidades-financieras-accedan-al-sistema-lbtr",
+        "https://www.bcentral.cl/es/areas/mercados-financieros/sistemas",
+        "https://www.bcentral.cl/es/areas/politica-financiera/regulacion-prudencial",
+        "https://www.bcentral.cl/es/web/banco-central/areas/normativas/compendio-de-normas-monetarias-y-financieras",
+        "https://www.bcentral.cl/es/web/banco-central/areas/politica-financiera/reunion-de-politica-financiera-rpf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+        "https://www.itpro.com/cloud/iaas/gpu-as-a-service-should-enterprise-it-rent-or-own-ai-compute",
+        "https://www.kiplinger.com/investing/live/nvidia-earnings-live-updates-and-commentary-august-2026",
+        "https://www.mckinsey.com/industries/semiconductors/our-insights/scaling-ai-inference",
+        "https://www.piie.com/sites/default/files/2026-05/wp26-9-appendix.pdf",
+        "https://www.reddit.com/r/LocalLLM/comments/1u6a5v2/the_geographic_arbitrage_of_ai_compute/",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1q2jwsn/how_is_cloud_inference_so_cheap/",
+        "https://www.reddit.com/r/OrbonCloud/comments/1rx1ulv/last_week_in_the_cloud_the_ai_storage_tax_700/",
+        "https://www.reddit.com/r/u_Cloudswiftt/comments/1wty328/ai_is_making_cloud_infrastructure_more_expensive/",
+        "https://www.reddit.com/r/u_PuzzleheadedEcho1582/comments/1wvornk/ai_and_computing_infrastructure_industry_report/",
+        "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000038/a2026-annualxreportxwebxfi.pdf",
+        "https://www.techradar.com/pro/the-gap-between-ai-ambition-and-infrastructure-reality-is-widening-google-cloud-report-finds-83-percent-of-organizations-must-overhaul-their-infrastructure-in-order-to-maximize-the-agentic-ai-opportunity",
+        "https://www.techradar.com/pro/were-asking-the-wrong-question-about-the-cost-of-enterprise-ai",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-servers-will-consume-more-power-than-conventional-data-center-hardware-by-2027-gartner-forecasts",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/price-of-nvidias-vera-rubin-nvl72-racks-skyrockets-to-as-much-as-usd8-8-million-apiece-but-server-makers-margins-will-be-tight-nvidia-is-moving-closer-to-shipping-entire-full-scale-systems",
+        "https://www.vmware.com/docs/private-cloud-outlook-2026"
       ]
     },
     {
@@ -130,41 +151,48 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_c1584a90439dd95ddbd7",
+      "candidate_id": "opp_5f052d87513e10ac27fc",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 18,
+      "grounded_source_count": 25,
       "search_source_urls": [
-        "https://stage.energy.gov/edf/articles/lpo-tech-talk-transmission",
-        "https://www.energy.gov/cmei/systems/articles/smart-transmission-tools-modernize-americas-power-grid",
-        "https://www.energy.gov/edf/electric-grid-projects",
-        "https://www.energy.gov/oe/articles/advanced-transmission-technologies-report-508",
-        "https://www.energy.gov/oe/articles/doe-study-shows-maximizing-capabilities-existing-transmission-lines-through-grid",
-        "https://www.energy.gov/oe/articles/next-generation-grid-technologies-report-download",
-        "https://www.energy.gov/sites/default/files/2021/01/f82/AdvancedTransmissionTechnologiesReport508.pdf",
-        "https://www.energy.gov/sites/default/files/2022-05/Next%20Generation%20Grid%20Technologies%20Report%20051222.pdf",
-        "https://www.ferc.gov/explainer-interconnection-final-rule",
-        "https://www.ferc.gov/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.ferc.gov%2Fsites%2Fdefault%2Ffiles%2F2025-04%2FE-3-ER24-330-001.pdf",
-        "https://www.ferc.gov/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.ferc.gov%2Fsites%2Fdefault%2Ffiles%2F2025-06%2FER24-2797-001.pdf",
-        "https://www.ferc.gov/news-events/news/e-1-commissioner-changs-concurrence-spp-markets-order-er24-1658",
-        "https://www.ferc.gov/news-events/news/fact-sheet-building-future-through-electric-regional-transmission-planning-and",
-        "https://www.ferc.gov/news-events/news/ferc-affirms-generator-interconnection-rule-acts-compliance-filings",
-        "https://www.ferc.gov/sites/default/files/2024-11/FY24%20AFR%209.30.24.pdf",
-        "https://www.ferc.gov/sites/default/files/2025-03/25_State-of-the-Market_0320_1200.pdf",
-        "https://www.iea.org/reports/electricity-2026/grids",
-        "https://www.iea.org/reports/modernising-grids-in-the-age-of-electricity/executive-summary"
+        "https://arxiv.org/abs/1809.01519",
+        "https://cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://cmfchile.cl/portal/principal/623/w4-article-92466.html",
+        "https://en.wikipedia.org/wiki/Open_banking",
+        "https://en.wikipedia.org/wiki/Open_finance",
+        "https://en.wikipedia.org/wiki/Test_and_Training_Enabling_Architecture",
+        "https://es.linkedin.com/posts/prodigio-chile_sandbox-sfa-octubre-es-su-primera-fecha-activity-7508867075562622976-kQP-",
+        "https://es.wikipedia.org/wiki/Finanzas_abiertas",
+        "https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_financiera",
+        "https://sfasandbox.cl/docs.php",
+        "https://sfasandbox.cl/download.html",
+        "https://www.carey.cl/en/cmf-amends-ncg-no-514-and-incorporates-technical-standards-for-the-implementation-of-the-open-finance-system",
+        "https://www.cmfchile.cl/institucional/mercados/ver_archivo.php?archivo=%2Fweb%2Fcompendio%2Fncg%2Fncg_514_2024.pdf",
+        "https://www.cmfchile.cl/normativa/ncg_569_2026.pdf",
+        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-110411_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-102547.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/principal/613/articles-92466_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/articles-96504_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113806.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://www.economia.gob.cl/sandbox",
+        "https://www.imf.org/-/media/files/publications/cr/2024/english/1chlea2024002.pdf"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_c1584a90439dd95ddbd7",
+      "candidate_id": "opp_5f052d87513e10ac27fc",
       "coercions": [
         "contrary_evidence"
       ]
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_c1584a90439dd95ddbd7",
+      "candidate_id": "opp_5f052d87513e10ac27fc",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -172,7 +200,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_c1584a90439dd95ddbd7",
+      "candidate_id": "opp_5f052d87513e10ac27fc",
       "coercions": []
     }
   ],
@@ -180,44 +208,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 200,
-      "cache_write_tokens": 4620,
+      "reasoning_tokens": 234,
+      "cache_write_tokens": 4642,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0145988,
+      "cumulative_cost_usd": 0.0147249,
       "model": "gpt-5.6-luna",
-      "input_tokens": 12983,
+      "input_tokens": 13122,
       "cached_tokens": 0,
-      "output_tokens": 1476,
+      "output_tokens": 1557,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0145988
+      "estimated_cost_usd": 0.0147249
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 169,
-      "cache_write_tokens": 5177,
+      "reasoning_tokens": 124,
+      "cache_write_tokens": 5207,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02927105,
+      "cumulative_cost_usd": 0.02909625,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13565,
+      "input_tokens": 13541,
       "cached_tokens": 0,
-      "output_tokens": 1417,
+      "output_tokens": 1169,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01467225
+      "estimated_cost_usd": 0.01437135
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 86,
-      "cache_write_tokens": 2346,
+      "reasoning_tokens": 73,
+      "cache_write_tokens": 2429,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.04290605,
+      "cumulative_cost_usd": 0.04230275,
       "model": "gpt-5.6-terra",
-      "input_tokens": 2349,
+      "input_tokens": 2432,
       "cached_tokens": 0,
-      "output_tokens": 647,
+      "output_tokens": 594,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.013635
+      "estimated_cost_usd": 0.0132065
     }
   ]
 }
