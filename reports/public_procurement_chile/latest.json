@@ -1,70 +1,47 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 6900000.0,
-      "buyer": "HOSPITAL DOCTOR ERNESTO TORRES GALDAMES",
-      "closes_at": "2026-10-13T10:00:00",
-      "code": "1070620-3667-COT26",
-      "estimated_budget": 6900000.0,
-      "name": "YJF- METAMIZOL 1G/2ML AM",
-      "products": 1,
-      "region": "Región de Tarapacá"
-    },
-    {
-      "available_budget_clp": 6900000.0,
-      "buyer": "HOSPITAL DOCTOR ERNESTO TORRES GALDAMES",
-      "closes_at": "2026-10-13T10:00:00",
-      "code": "1070620-3666-COT26",
-      "estimated_budget": 6900000.0,
-      "name": "YJF- LEVETIRACETAM 1000 MG CM RECUB",
-      "products": 1,
-      "region": "Región de Tarapacá"
-    },
-    {
-      "available_budget_clp": 6900000.0,
-      "buyer": "HOSPITAL DOCTOR ERNESTO TORRES GALDAMES",
-      "closes_at": "2026-10-13T10:00:00",
-      "code": "1070620-3665-COT26",
-      "estimated_budget": 6900000.0,
-      "name": "YJF- FITOQUINONA 10 MG/1ML SOL IV/ORAL (KONAKION)",
-      "products": 1,
-      "region": "Región de Tarapacá"
+      "available_budget_clp": 1000000.0,
+      "buyer": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DE MARGA MARGA",
+      "closes_at": "2026-10-14T15:00:00",
+      "code": "1305543-110-COT26",
+      "estimated_budget": 1000000.0,
+      "name": "HERVIDOR, TERMOS Y OTROS.",
+      "products": 4,
+      "region": "Región de Valparaíso"
     }
   ],
-  "active_structurally_reconstructable_count": 3,
+  "active_structurally_reconstructable_count": 1,
   "diagnostics": {
-    "api_failures": {
-      "api_http_500": 1,
-      "api_http_504": 3
-    },
-    "budget_exhausted": true,
-    "detail_attempts": 17,
-    "details_fetched": 13,
+    "api_failures": {},
+    "budget_exhausted": false,
+    "detail_attempts": 20,
+    "details_fetched": 20,
     "duplicate_listings": 0,
     "malformed_details": 0,
     "malformed_reasons": {},
     "malformed_samples": [],
     "pages_fetched": 1,
-    "requests_used": 25,
-    "transient_retries": 7
+    "requests_used": 21,
+    "transient_retries": 0
   },
-  "generated_at": "2026-10-10T00:48:17Z",
-  "inserted_history": 13,
+  "generated_at": "2026-10-10T04:38:16Z",
+  "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
-  "ok": false,
+  "ok": true,
   "phase1": {
-    "records": 13,
+    "records": 20,
     "rejection_reasons": {
       "no_observable_competitive_prices": 2
     },
-    "resolved": 10,
-    "structurally_reconstructable": 11,
-    "with_observable_quote_totals": 8,
-    "with_purchase_order_indicator": 2
+    "resolved": 19,
+    "structurally_reconstructable": 18,
+    "with_observable_quote_totals": 17,
+    "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-08T08:39:10+00:00",
-    "changed_to": "2026-10-10T00:48:17Z"
+    "changed_to": "2026-10-10T04:38:16Z"
   }
 }
