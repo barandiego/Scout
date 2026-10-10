@@ -1,0 +1,13 @@
+name: energy_infrastructure
+criteria:
+  - actual energy price capacity reliability or power-electronics shift
+  - local Chilean grid interconnection and regulatory feasibility
+  - installed upfront capex opex degradation warranties financing and realistic payback
+  - named type of asset operator offtaker installer or buyer
+  - differentiation through geography capacity flexibility or distribution
+fatal_conditions:
+  - net present economics disappear after full installation storage and financing costs
+  - required interconnection permits or asset custody unattainable
+  - vendor marketing claims treated as bankable operating performance
+  - unclear payer or impossible energy-market participation
+notes: Grid demand forecasts by themselves cannot prove a standalone investment edge.

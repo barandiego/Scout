@@ -1,0 +1,14 @@
+name: robotics_agritech
+criteria:
+  - technology readiness demonstrated by actual independent tests or public technical results
+  - precise agricultural or industrial customer job with measurable labor yield or throughput impact
+  - Chilean environmental farm-size water labor and infrastructure constraints
+  - serviceability local spares maintenance and supplier support
+  - lease versus buy unit economics utilization and payback
+  - importer distributor integrator or owner operator participation option
+fatal_conditions:
+  - lab prototype incorrectly presented as ready for unsupervised commercial deployment
+  - ownership and support economics make adoption structurally unrealistic
+  - known certification safety or import barriers prevent a practical pilot
+  - buyer access and use case are unidentifiable
+notes: Robotics feasibility is not evidence of robot-as-a-business profitability.

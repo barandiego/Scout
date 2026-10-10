@@ -1,0 +1,47 @@
+name: Scout V1 Public Radar
+run-name: Scout V1 Radar — free public-source intake
+on:
+  schedule:
+    - cron: '30 */4 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  # Serialise with the existing paid V0 cycle; no concurrent Git state pushes.
+  group: scout-v0-state
+  cancel-in-progress: false
+jobs:
+  public-radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    # No OPENAI_API_KEY or any market/sales/trading credentials passed to this job.
+    steps:
+      - uses: actions/checkout@v5
+        with: {fetch-depth: 0}
+      - uses: actions/setup-python@v7
+        with: {python-version: '3.12'}
+      - name: Install existing open-source Python dependencies
+        run: pip install -e .
+      - name: Verify core config
+        run: python -m scout.cli validate
+      - name: Collect public signals without paid inference
+        run: python -m scout.cli radar
+      - name: Preserve signals even if Git push conflicts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scout-v1-public-radar-${{ github.run_id }}
+          path: |
+            reports/radar.json
+            reports/radar.md
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Persist derived signal reports
+        run: |
+          git config user.name "scout-v1-radar[bot]"
+          git config user.email "scout-v1-radar[bot]@users.noreply.github.com"
+          git add reports/radar.json reports/radar.md
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "chore: refresh public-source radar"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin HEAD:"${GITHUB_REF_NAME}"

@@ -11,4 +11,14 @@ lenses:
   - {id: business_model_migration, prompt: "Business models working in one geography or industry that may now transfer elsewhere because constraints changed."}
   - {id: cost_curve, prompt: "Changes in compute, logistics, energy, manufacturing, financing or acquisition costs that alter what is viable."}
   - {id: open_finance_chile, prompt: "Chile Open Finance/SFA changes. Prioritize CMF, Banco Central de Chile, official regulation, financial institutions, fintechs and API/developer documentation; identify concrete value redistribution rather than generic fintech ideas."}
+  - {id: adoption_lag, prompt: "Identify real globally available inventions where customer practice may lag proven ability, especially agricultural robotics, industrial automation, energy or software."}
+  - {id: underserved_buyers, prompt: "Name neglected buyer segments, expensive incumbent products and measurable switching or underserved needs; prioritize specific competitive entry wedges."}
+  - {id: seller_supply_gap, prompt: "Locate product niches with external signs of demand and possible low seller availability; do NOT assert seller scarcity without independently checked competitor listings."}
+  - {id: chile_technology_import, prompt: "Find foreign-proven commercially available robotics, automation, energy and NFC/social-commerce products plausibly localizable to Chile with supplier and legal access."}
+  - {id: early_adoption_investing, prompt: "Search for dated fundamental inflections, early technical network activity, underappreciated public securities and emerging assets with accessible vehicles and downside cases; avoid hype."}
+  - {id: market_positioning, prompt: "Investigate better value propositions versus existing established businesses, with precise customers and defensible distribution, not generic services."}
+  - {id: asset_ownership, prompt: "Find repeatable intellectual property, software, datasets, distribution agreements, brands or capital assets that create low-owner-hour businesses."}
+  - {id: nfc_smart_commerce, prompt: "Find verified novel NFC or contactless business/social identity/product-discovery hardware and business models; check actual Chilean alternatives and customer WTP."}
+  - {id: vertical_farming_economics, prompt: "Assess high-density indoor farming, hydroponics and related equipment with Chilean energy, water, labor, crop revenue and capital payback constraints."}
+  - {id: energy_localization, prompt: "Identify regional energy efficiency, power storage, off-grid power and grid bottleneck opportunities tied to concrete Chilean customer needs."}
   - {id: wildcard, prompt: "Search outside Diego's known interests for any credible economic anomaly, unmet demand or structural shift with a realistic participation path."}
