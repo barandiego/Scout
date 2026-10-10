@@ -57,3 +57,31 @@ Watches and HQ survivors remain research candidates until a real buyer, viable
 net unit economics and execution permissions have been checked independently.
 Rejected candidates remain in durable state but are excluded from the pick-list.
 All existing critic, judge, budget, dedupe and commercial gates are unchanged.
+
+
+## V1 — high-volume opportunity research
+
+The original Scout V0 governed provider pipeline continues with its existing
+budget and safety gates. A **separate public-source radar** now pulls launches,
+research and industry signals across AI, robotics, NFC, local commerce,
+agriculture, energy and Chilean technology adoption. It costs no model tokens.
+
+- [V1 operating design and limitations](docs/SCOUT_V1_WIDE_RADAR.md)
+- [Current public radar](reports/radar.md) and [machine-readable leads](reports/radar.json)
+- [Innovation/competition briefing queue](reports/innovation_backlog.md)
+- [Existing canonical opportunity library](reports/library.md)
+
+Offline/test commands:
+
+```bash
+python -m scout.cli radar
+python -m scout.cli library
+pytest -q
+```
+
+The public radar's raw signals are NOT evidence of paying customers,
+seller scarcity, investment value or verified executable opportunities.
+A research-qualified idea beyond the old one-per-cycle review cap now
+remains WATCH/deferred_by_review_cap for subsequent reviews.
+No paid research trial, key change or increase to the live budget is
+triggered by this release.

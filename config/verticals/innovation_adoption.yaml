@@ -1,0 +1,14 @@
+name: innovation_adoption
+criteria:
+  - observed real technical capability or cost-performance breakthrough
+  - specific customer task that becomes newly economical
+  - adoption gap documented between current available capability and actual current practice
+  - demonstrated integration access and fallback safety
+  - practical route to proprietary data workflow or distribution advantage
+  - compare doing nothing manual workaround incumbents and direct general-purpose AI use
+fatal_conditions:
+  - demo or research paper wrongly represented as market-proven customer demand
+  - no concrete participant or customer job
+  - economics rely on unproven automation quality or unattainable operating permissions
+  - easily copied generic AI agency without product distribution or asset ownership
+notes: Finding a capability a business has not adopted is a research hypothesis, not commercial validation.

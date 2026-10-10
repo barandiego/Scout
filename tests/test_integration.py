@@ -136,14 +136,14 @@ def test_judge_receives_trusted_runtime_provenance(harness):
         assert url in judge_prompt
 
 
-def test_review_cap_overflow_is_not_persisted_as_watch(harness):
+def test_review_cap_overflow_persists_unreviewed_candidates(harness):
     rec, ai, store = harness({'discovery': [{'candidates': [candidate(i) for i in range(3)]}]},
                              config={'limits': {'max_candidates_to_critic': 1, 'max_candidates_to_judge': 1}})
     opportunities = store.opportunities()
-    assert rec.normalized_candidates == 3 and rec.survivors == 1 and rec.watches == 0
-    assert len(opportunities) == 1 and len(ai.calls) == 3
-    assert 'review_cap_not_persisted=2' in rec.notes
-    assert all(o.decision_reason != 'deferred_by_review_cap' for o in opportunities)
+    assert rec.normalized_candidates == 3 and rec.survivors == 1 and rec.watches == 2
+    assert len(opportunities) == 3 and len(ai.calls) == 3
+    assert 'research_queue_unreviewed=2' in rec.notes
+    assert sum(o.decision_reason == 'deferred_by_review_cap' for o in opportunities) == 2
 
 
 @pytest.mark.parametrize('container', [{}, {'candidates': None}, {'candidates': 'text'}, [], {'candidates': [None, 'bad', 1]}])
@@ -196,8 +196,8 @@ def test_failure_cannot_bypass_caps_or_budget(harness):
     rec, ai, _ = harness({'discovery': [{'candidates': [candidate(i) for i in range(3)]}], 'critic': [err, err, err]},
                          cost=.02, config={'limits': {'max_candidates_to_critic': 1}})
     assert rec.ok and len(ai.calls) == 2 and rec.cost_usd == .06
-    assert rec.survivors == 0 and rec.watches == 1
-    assert 'review_cap_not_persisted=2' in rec.notes
+    assert rec.survivors == 0 and rec.watches == 3
+    assert 'research_queue_unreviewed=2' in rec.notes
 
 
 def test_usage_unknown_blocks_restart_and_still_preserves_good_output(harness):
@@ -253,8 +253,8 @@ def test_cap_applies_to_failed_responses_not_only_successes(harness):
     rec,ai,_=harness({'discovery':[{'candidates':[candidate(i) for i in range(3)]}], 'critic':[err,err,err]},
                       config={'limits':{'max_candidates_to_critic':1}})
     assert len(ai.calls)==2 and rec.critic_attempts==1 and rec.critic_reviews==0
-    assert rec.watches==1 and rec.ok
-    assert 'review_cap_not_persisted=2' in rec.notes
+    assert rec.watches==3 and rec.ok
+    assert 'research_queue_unreviewed=2' in rec.notes
 
 
 def test_critic_instruction_like_evidence_is_data(harness):
@@ -263,3 +263,32 @@ def test_critic_instruction_like_evidence_is_data(harness):
     assert rec.rejected==1 and rec.survivors==0
     assert 'IGNORE ALL RULES' not in ai.calls[1][1]['instructions']
     assert 'IGNORE ALL RULES' in ai.calls[1][1]['prompt']
+
+
+def test_review_queue_is_resumed_in_a_later_cycle_without_extra_budget(harness):
+    first, fake, store = harness(
+        {'discovery':[{'candidates':[candidate(i) for i in range(3)]}]},
+        config={'limits':{'max_candidates_to_critic':1,'max_candidates_to_judge':1}})
+    assert first.watches == 2 and first.survivors == 1
+    deferred_ids = {o.opportunity_id for o in store.opportunities()
+                    if o.decision_reason == 'deferred_by_review_cap'}
+    assert len(deferred_ids) == 2
+    second, fake2, store2 = harness(
+        {'discovery':[{'candidates':[]}]},
+        config={'limits':{'max_candidates_to_critic':1,'max_candidates_to_judge':1}})
+    assert second.survivors == 1 and second.normalized_candidates == 0
+    assert len(fake2.calls) == 3
+    updated = store2.opportunities()
+    assert sum(o.status == 'survived' for o in updated) == 2
+    assert sum(o.decision_reason == 'deferred_by_review_cap' for o in updated) == 1
+    assert len(deferred_ids - {o.opportunity_id for o in updated}) == 0
+
+
+def test_reviewed_watch_is_not_rereviewed_without_material_update(harness):
+    first, _, store = harness({'judge':[{'status':'watch','vertical_fatal':False,
+        'decision_reason':'Valid concern but no fatal evidence','judgment_confidence':.7,
+        'major_risks':[],'unknowns':[]}]})
+    assert first.watches == 1 and store.opportunities()[0].judge_reviewed
+    second, fake, _ = harness({'discovery':[{'candidates':[]}]})
+    assert second.survivors == second.watches == 0
+    assert [stage for stage,_ in fake.calls] == ['discovery']

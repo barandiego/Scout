@@ -92,6 +92,8 @@ jobs:
             reports/latest.md
             reports/library.json
             reports/library.md
+            reports/innovation_backlog.json
+            reports/innovation_backlog.md
           retention-days: 30
       - name: Persist state and reports
         if: always() && steps.scout.outcome != 'skipped' && steps.scout.outcome != ''
