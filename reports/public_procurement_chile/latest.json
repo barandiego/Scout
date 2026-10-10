@@ -1,36 +1,107 @@
 {
-  "active_candidates": [],
-  "active_structurally_reconstructable_count": 0,
+  "active_candidates": [
+    {
+      "available_budget_clp": 314107.0,
+      "buyer": "I MUNICIPALIDAD DE CARTAGENA",
+      "closes_at": "2026-10-12T10:00:00",
+      "code": "2698-252-COT26",
+      "estimated_budget": 314107.0,
+      "name": "ADDDQUISICION DE ARTICULOS DE ESCRITORIO, SEGUN ERMINOS TECNICOS DE REFERNECIA ADJUNTOS",
+      "products": 15,
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 300000.0,
+      "buyer": "CORP MUNICIPAL DE EDUCACION Y SAL",
+      "closes_at": "2026-10-13T09:00:00",
+      "code": "1213002-338-COT26",
+      "estimated_budget": 300000.0,
+      "name": "SE REQUIERE LAVADO DE FRAZADAS DE AMBULANCIAS Y AREA DE PROCEDIMIENTOS.",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 3205860.0,
+      "buyer": "I MUNICIPALIDAD DE CURICO",
+      "closes_at": "2026-10-13T08:30:00",
+      "code": "2436-1553-COT26",
+      "estimated_budget": 3205860.0,
+      "name": "ADQUISICIÓN DE ADHESIVOS NECESARIOS PARA DIRECCIÓN DE SEGURIDAD PUBLICA",
+      "products": 1,
+      "region": "Región del Maule"
+    },
+    {
+      "available_budget_clp": 300000.0,
+      "buyer": "I MUNICIPALIDAD DE CURICO",
+      "closes_at": "2026-10-13T12:00:00",
+      "code": "2436-1554-COT26",
+      "estimated_budget": 300000.0,
+      "name": "SERVICIO DE COFFE BREACK PARA ACTIVIDAD DEL PROGRAMA VINCULOS 2024-B",
+      "products": 1,
+      "region": "Región del Maule"
+    },
+    {
+      "available_budget_clp": 7000000.0,
+      "buyer": "I MUNICIPALIDAD DE PUREN",
+      "closes_at": "2026-10-11T14:00:00",
+      "code": "3808-165-COT26",
+      "estimated_budget": 7000000.0,
+      "name": "CONTRATACIÓN SERVICIO DE TRASLADO PARA GIRAS PEDAGOGICAS",
+      "products": 6,
+      "region": "Región de la Araucanía"
+    },
+    {
+      "available_budget_clp": 300000.0,
+      "buyer": "I MUNICIPALIDAD DE CURICO",
+      "closes_at": "2026-10-13T12:00:00",
+      "code": "2436-1552-COT26",
+      "estimated_budget": 300000.0,
+      "name": "ADQUISICION DE 70 COLACIONES PARA ACTIVIDAD DE LA OFICINA LOCAL DE LA NIÑEZ",
+      "products": 1,
+      "region": "Región del Maule"
+    },
+    {
+      "available_budget_clp": 446000.0,
+      "buyer": "HOSPITAL DR GUSTAVO FRICKE DE VINA DEL MAR",
+      "closes_at": "2026-10-11T09:36:00",
+      "code": "608-6343-COT26",
+      "estimated_budget": 446000.0,
+      "name": "(CME) PARCHE CAROTIDEO 2 X 9CM",
+      "products": 1,
+      "region": "Región de Valparaíso"
+    }
+  ],
+  "active_structurally_reconstructable_count": 7,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
-    "detail_attempts": 18,
-    "details_fetched": 18,
+    "detail_attempts": 20,
+    "details_fetched": 20,
     "duplicate_listings": 0,
     "malformed_details": 0,
     "malformed_reasons": {},
     "malformed_samples": [],
     "pages_fetched": 1,
-    "requests_used": 19,
+    "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-10-10T08:36:06Z",
-  "inserted_history": 18,
+  "generated_at": "2026-10-10T12:41:58Z",
+  "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": true,
   "phase1": {
-    "records": 18,
+    "records": 20,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 4
+      "no_observable_competitive_prices": 6
     },
-    "resolved": 18,
+    "resolved": 13,
     "structurally_reconstructable": 14,
-    "with_observable_quote_totals": 14,
+    "with_observable_quote_totals": 7,
     "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
-    "changed_from": "2026-10-10T04:38:16+00:00",
-    "changed_to": "2026-10-10T08:36:06Z"
+    "changed_from": "2026-10-10T08:36:06+00:00",
+    "changed_to": "2026-10-10T12:41:58Z"
   }
 }
