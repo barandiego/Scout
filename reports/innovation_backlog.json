@@ -11,9 +11,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "United States",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "The issuer associated with CIK 2110029 is not identified by name in the opportunity record, making independent issuer-level analysis incomplete.",
+        "Powell's exact data-center revenue, backlog percentage, customer concentration, contract cancellation provisions, payment milestones, gross margins, and expected conversion schedule are unknown.",
+        "The identity and credit quality of the customer behind the $400 million-plus order are undisclosed.",
+        "Whether the order is fully funded, subject to permits, contingent on a data-center construction decision, or dependent on third-party generation equipment is unknown.",
+        "Current share prices, enterprise values, forward earnings multiples, consensus estimates, and implied valuation of backlog were not supplied or evaluated.",
+        "The size of the addressable behind-the-meter market, the proportion actually reaching operation, and the duration of the bottleneck are uncertain.",
+        "Whether Powell has sustainable manufacturing capacity, procurement access, labor availability, and supplier availability to convert the backlog without margin erosion is unknown."
       ],
       "investment_authorized": false,
       "name": "Public-market exposure to behind-the-meter power equipment for data centers",
@@ -1295,7 +1299,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-10T16:09:24.494431+00:00",
+  "generated_at": "2026-10-10T20:09:55.372929+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

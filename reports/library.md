@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-10T16:09:24.467291+00:00
+Generated: 2026-10-10T20:09:55.350174+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
 - Active research: 33 (0 HQ survivors, 33 watches)
 - Rejected opportunities excluded: 19
-- Critic-and-judge reviewed: 25
+- Critic-and-judge reviewed: 26
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -243,6 +243,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.energy.gov/oe/articles/does-office-electricity-publishes-2026-draft-national-transmission-needs-study?trk=public_post_comment-text; https://www.energy.gov/cmei/water/articles/does-hydropower-and-hydrokinetic-office-announces-funding-national-laboratory
 
+### Public-market exposure to behind-the-meter power equipment for data centers [opp_4e38bc42f62942527d19]
+- Status: WATCH_REQUIRES_VALIDATION | asymmetric_investing | United States
+- Thesis: The bottleneck is monetized through equipment orders and backlog conversion, not merely projected AI demand. A small investor can evaluate whether public suppliers with disclosed orders are being valued on realized backlog, recurring service revenue and execution risk rather than on AI narrative alone.
+- Value capture: Acquire publicly traded shares or monitor the securities of issuers with disclosed data-center power orders, then test the thesis against subsequent backlog conversion, gross margin, cash flow, cancellations and customer concentration. Downside cases include order delays, customer concentration, working-capital stress, project cancellations and valuation compression; no return is established.
+- Participation hypothesis: Use SEC filings as the primary screening source and compare disclosed backlog, order value, delivery timing, cash conversion and valuation across a small set of issuers. The lowest-cost falsification step is a paper portfolio: record the price and filing metrics on the date of the thesis, then require the next earnings release to show backlog conversion and cash generation; abandon the thesis if growth is only unconverted backlog, margins deteriorate materially or orders are concentrated in unverifiable pipeline language.
+- Critic/judge: This is a research-survivor watchlist thesis, not an investable conclusion. It names a liquid public security exposure (Powell Industries/POWL, with SEC-filed disclosures) and offers dated, primary-source demand indicators: $1.8 billion backlog at March 31, 2026 and a subsequently disclosed data-center order exceeding $400 million. The proposed mechanism—conversion of equipment backlog into revenue, margin, cash flow, and ultimately val
+- Next evidence gaps: The issuer associated with CIK 2110029 is not identified by name in the opportunity record, making independent issuer-level analysis incomplete.; Powell's exact data-center revenue, backlog percentage, customer concentration, contract cancellation provisions, payment milestones, gross margins, and expected con; The identity and credit quality of the customer behind the $400 million-plus order are undisclosed.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/80420/000008042026000063/ex991-powlq2xfy2026earning.htm; https://www.sec.gov/Archives/edgar/data/2110029/000119312526249668/d12401ds1a.htm
+
 ### SFA implementation moved from rulemaking toward interoperability testing [opp_5f052d87513e10ac27fc]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: The near-term bottleneck is shifting from legal authorization to implementation capacity: consent management, API interoperability, security testing, participant-directory integration, and compliance tooling. This lowers uncertainty for firms that can build infrastructure before mandatory participation begins.
@@ -322,16 +332,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
-
-### Public-market exposure to behind-the-meter power equipment for data centers [opp_4e38bc42f62942527d19]
-- Status: WATCH_REQUIRES_VALIDATION | asymmetric_investing | United States
-- Thesis: The bottleneck is monetized through equipment orders and backlog conversion, not merely projected AI demand. A small investor can evaluate whether public suppliers with disclosed orders are being valued on realized backlog, recurring service revenue and execution risk rather than on AI narrative alone.
-- Value capture: Acquire publicly traded shares or monitor the securities of issuers with disclosed data-center power orders, then test the thesis against subsequent backlog conversion, gross margin, cash flow, cancellations and customer concentration. Downside cases include order delays, customer concentration, working-capital stress, project cancellations and valuation compression; no return is established.
-- Participation hypothesis: Use SEC filings as the primary screening source and compare disclosed backlog, order value, delivery timing, cash conversion and valuation across a small set of issuers. The lowest-cost falsification step is a paper portfolio: record the price and filing metrics on the date of the thesis, then require the next earnings release to show backlog conversion and cash generation; abandon the thesis if growth is only unconverted backlog, margins deteriorate materially or orders are concentrated in unverifiable pipeline language.
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/80420/000008042026000063/ex991-powlq2xfy2026earning.htm; https://www.sec.gov/Archives/edgar/data/2110029/000119312526249668/d12401ds1a.htm
 
 ### Tokenized unified-ledger infrastructure is moving from concept toward financial-market architecture [opp_993ac5d080c7042af44c]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Global; Chile relevance through future interoperable financial-data and payment infrastructure

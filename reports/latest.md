@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-10T16:09:24.108894+00:00
+Generated: 2026-10-10T20:09:55.018319+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['wildcard', 'geographic_arbitrage', 'ai_open_source']
-- raw_candidates: 3
-- parseable_candidates: 3
-- normalized_candidates: 3
+- lenses: ['public_markets', 'physical_commerce', 'regulation_infrastructure']
+- raw_candidates: 0
+- parseable_candidates: 0
+- normalized_candidates: 0
 - normalization_rejected: 0
-- grounded_sources: 7
+- grounded_sources: 0
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 0
+- judge_attempts: 1
 - critic_reviews: 1
-- judge_reviews: 0
+- judge_reviews: 1
 - survivors: 0
-- watches: 2
-- rejected: 2
+- watches: 1
+- rejected: 0
 - errors_by_stage: {}
-- rejection_reasons: {'discarded_ungrounded_url': 1, 'insufficient_unique_evidence': 1}
-- cost_usd: 0.0299613
+- rejection_reasons: {}
+- cost_usd: 0.04507265
 - cost_uncertain: False
-- budget_remaining_usd: 0.0500387
+- budget_remaining_usd: 0.03492735
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -45,7 +45,7 @@ No survivors. Scout does not manufacture a daily winner.
 - Chile’s open-finance implementation is becoming an integration and testing market: The cited CMF materials credibly support that Chile’s Sistema de Finanzas Abiertas has published technical specifications, a July 2027 effective date, and an ATENA testing sandbox. This clears the threshold for a real regulatory/infrastructure signal and does not establish a fatal lack of legal or technical access. However, the opportunity is presently a broad implementation theme rather than an HQ-worthy, economically validated wedge: sandbox availability and a future compliance date do not demonstrate production connectivity, paid vendor demand, viable unit economics, or an ability for an unregulated/foreign entrant to bear registration, cybersecurity, privacy, liability, and local-operational requirements. Keep under watch pending evidence for a specific buyer/use case and production-commercial conversion.
 - Chile’s Open Finance implementation moves from framework to interoperability infrastructure: The regulatory transition appears sufficiently grounded: CMF primary-source material in the provided provenance supports NCG 514, a June 2026 technical update, and a delayed/progressive SFA implementation beginning in July 2027. Therefore, this is not rejected for an unverified regulatory change. However, the opportunity is a broad implementation theme rather than a demonstrated, economically accessible business. Mandated interoperability establishes compliance demand, but it does not establish that independent vendors can obtain production access, meet security/certification expectations, displace internal builds and incumbents, or earn recurring margins in Chile’s limited market. The CMF-provided portal, testing/sandbox and standardized baseline may further commoditize generic infrastructure. It survives as research only if narrowed to a specific regulated-buyer workflow with validated procurement and a credible path to regional expansion.
 - Open-finance conformance test asset for Chilean participants: The regulatory and technical premise is sufficiently grounded: CMF has published an amended open-finance framework, technical materials/developer documentation, and a July 2027 implementation timetable. A narrowly scoped, offline or customer-operated validator can plausibly be developed from public specifications without requiring access to production regulated data or a special regulatory license. Therefore, no fatal legal/API-access failure is established at this stage. However, this is not yet an HQ-worthy software opportunity: the official ATENA controlled testing environment, CMF documentation, and likely incumbent/API-security/vendor tooling may provide a free or bundled substitute. There is no evidence of a mandatory independent conformance process, authority to certify, identifiable budget owner, paid demand, or pricing power. Treat it only as a tightly bounded research hypothesis around a differentiated workflow—such as reproducible evidence packs and regression testing for a specific payer/payment-initiation integration—not as generic conformance tooling.
-- Public-market exposure to behind-the-meter power equipment for data centers: deferred_by_review_cap
+- Public-market exposure to behind-the-meter power equipment for data centers: This is a research-survivor watchlist thesis, not an investable conclusion. It names a liquid public security exposure (Powell Industries/POWL, with SEC-filed disclosures) and offers dated, primary-source demand indicators: $1.8 billion backlog at March 31, 2026 and a subsequently disclosed data-center order exceeding $400 million. The proposed mechanism—conversion of equipment backlog into revenue, margin, cash flow, and ultimately valuation—is falsifiable and has a plausible 12- to 18-month operating-catalyst window, with liquidity available through public shares. However, the record does not establish the essential valuation comparison: no share price, enterprise value, earnings/cash-flow expectations, backlog valuation, downside case, or relative valuation versus capable competitors is supplied. It also does not substantiate customer credit, contract firmness, cancellation terms, funding, margin profile, working-capital needs, or the portion of Powell backlog actually attributable to data centers. The evidence supports genuine demand and a monitorable catalyst, but not a demonstrated public-market mispricing or asymmetric expected-return case. No fatal condition is triggered because the thesis does not rely on a post-hoc chart, assert 10x upside, use promotional metrics as dispositive evidence, or propose an unavailable vehicle.
 - BESS and inverter compliance pre-check for Chilean distributed-energy projects: deferred_by_review_cap
 - NFC review-conversion kits for Chilean cafés, hotels and restaurants: deferred_by_review_cap
 - Indoor-farm lighting and energy audit wedge for existing Chilean growers: deferred_by_review_cap
@@ -56,7 +56,7 @@ No survivors. Scout does not manufacture a daily winner.
 ```json
 {
   "notes": [
-    "research_queue_unreviewed=6"
+    "research_queue_unreviewed=5"
   ],
   "stages": [
     {
@@ -64,161 +64,143 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 18,
+      "grounded_source_count": 28,
       "search_source_urls": [
-        "https://21675739.fs1.hubspotusercontent-na1.net/hubfs/21675739/DBC_Report_2025_Metapack.pdf",
-        "https://cmfchile.cl/portal/prensa/625/w4-article-100482.html",
-        "https://cmfchile.cl/portal/prensa/625/w4-article-90522.html",
-        "https://flw-production.s3.amazonaws.com/uploads/store/attachment/299039/content/DBC_Report_2025_Metapack.pdf",
-        "https://github.com/getomni-ai/zerox",
-        "https://group.dhl.com/content/dam/deutschepostdhl/en/media-center/media-relations/documents/2025/e-commerce-trends-report-2025-business-edition.pdf",
-        "https://www.ccs.cl/area-publicacion/comercio-electronico-y-economia-digital/",
-        "https://www.cencosud.com/cencosud/site/docs/20250115/20250115140605/cencoday_2025_ricardo_bennett.pdf",
-        "https://www.cmfchile.cl/portal/prensa/615/articles-110411_doc_pdf.pdf",
+        "https://apnews.com/article/1f4168dca0060353b3766f0924d9c7da",
+        "https://assets-global.website-files.com/5dff9538323c6a3f94dc8ec1/65a54440fc7be47444803041_Index-Open-Finance-LatAm-2023-iupanaPRO.pdf",
+        "https://cmfchile.atlassian.net/wiki/spaces/OFAC/pages/271548473/v1.0%2B-%2BPrincipio%2Bde%2Bdise%2Bo",
+        "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=f91f133e-cc24-401b-9e65-e37cc9fd1613",
+        "https://en.wikipedia.org/wiki/Open_finance",
+        "https://es.wikipedia.org/wiki/Comisi%C3%B3n_para_el_Mercado_Financiero",
+        "https://es.wikipedia.org/wiki/Finanzas_abiertas",
+        "https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_financiera",
+        "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/",
+        "https://www.bcentral.cl/documents/33528/133214/jvr21092021.pdf/a402635a-1b09-70e6-fb4e-f9e4f543c477?t=1693509440966",
+        "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-102547.html",
         "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/principal/613/articles-82381_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html",
+        "https://www.cmfchile.cl/portal/principal/613/articles-89573_doc_pdf.pdf?ts=1736947420",
         "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
         "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48738.html",
         "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html",
-        "https://www.fne.gob.cl/en/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-plataformas/",
-        "https://www.fne.gob.cl/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-plataformas/",
-        "https://www.trade.gov/country-commercial-guides/chile-ecommerce"
+        "https://www.falabella.com/falabella-cl/brand/NATURA",
+        "https://www.falabella.com/falabella-cl/page/natura?sred=natura",
+        "https://www.falabella.com/falabella-cl/seller/Natura",
+        "https://www.falabella.com/static/staticContent/content/minisitios/rse/contenidoDescargable/REPORTEOFICIAL.PDF",
+        "https://www.falabella.com/static/staticContent/content/minisitios/rse/contenidoDescargable/REPORTE_OFICIAL_baja.pdf",
+        "https://www.reddit.com/r/AREC_stock/comments/1sobo86/update_on_compliance_standing/",
+        "https://www.reddit.com/r/FinanzasChile/comments/1n936fn",
+        "https://www.reddit.com/r/chileIT/comments/1gf8fev/apis_bancarias/",
+        "https://www.reddit.com/r/chileIT/comments/1jcs4sd",
+        "https://www.reddit.com/r/u_CryptoConexion/comments/1eejg9l",
+        "https://www.reddit.com/r/u_Vegetable_Bet_896/comments/1s2m5qx/timeline_projection_for_arec_through_2026/"
       ]
     },
     {
-      "index": 0,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 3,
-      "retry_justified": false
-    },
-    {
-      "index": 1,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 3,
-      "retry_justified": false
-    },
-    {
-      "index": 2,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [
-        "discarded_ungrounded_url"
-      ],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 1,
-      "retry_justified": false
-    },
-    {
       "stage": "critic",
-      "candidate_id": "opp_13bbed433a9c3be646a1",
+      "candidate_id": "opp_4e38bc42f62942527d19",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 40,
+      "grounded_source_count": 33,
       "search_source_urls": [
-        "https://arxiv.org/abs/2509.25256",
-        "https://arxiv.org/abs/2606.19887",
-        "https://cdn.hacienda.cl/asset/capif/attachment/6265bb739eee1c1040fcf6911d823bd1e9fa7887cd33d05f10ce45c1d969556a/1775628547?_expiration=1781873890&_hash=z47iz7mYpzN4NxIugPdug9hnkknYsU6FRkZXQfnV2IQ",
-        "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=f91f133e-cc24-401b-9e65-e37cc9fd1613",
-        "https://elpais.com/america/termometro-social/2024-10-07/digitalizacion-financiera-en-america-latina-enfrenta-nueva-era-de-transformacion-y-oportunidades.html",
-        "https://elpais.com/planeta-futuro/2026-02-26/mas-alla-del-acceso-de-la-inclusion-a-la-salud-financiera-en-america-latina-y-el-caribe.html",
-        "https://en.wikipedia.org/wiki/Open_finance",
-        "https://es.wikipedia.org/wiki/Bancarizaci%C3%B3n_en_Chile",
-        "https://es.wikipedia.org/wiki/Bolsa_Electr%C3%B3nica_de_Chile",
-        "https://es.wikipedia.org/wiki/Finanzas_abiertas",
-        "https://es.wikipedia.org/wiki/Tarjeta_bip%21",
-        "https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_financiera",
-        "https://microservicio-documentos.senado.cl/v1/archivos/3d10572e-6b70-49cb-9248-e384696195f5?includeContent=true",
-        "https://openfinance.cl/",
-        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA",
-        "https://practiceguides.chambers.com/practice-guides/fintech-2026/chile",
-        "https://sfasandbox.cl/",
-        "https://sfasandbox.cl/docs.php",
-        "https://vlex.cl/vid/norma-caracter-general-n-1044114160",
-        "https://www.bcentral.cl/documents/33528/133214/jvr21092021.pdf/a402635a-1b09-70e6-fb4e-f9e4f543c477?t=1632251316057",
-        "https://www.cmfchile.cl/portal/prensa/615/articles-96819_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48738.html",
-        "https://www.legal500.com/guides/chapter/chile-fintech/?export-pdf=",
-        "https://www.reddit.com/r/ChargeForward/comments/1t4coln/we_mapped_250_embedded_finance_providers_across/",
-        "https://www.reddit.com/r/RWATimes/comments/1vjbvn1/as%C3%AD_imaginan_el_dinero_en_2030_los_l%C3%ADderes/",
-        "https://www.reddit.com/r/StableCoins/comments/1t9vhvc/how_are_you_evaluating_stable_coin_onofframp/",
-        "https://www.reddit.com/r/chileIT/comments/1jcs4sd",
-        "https://www.reddit.com/r/chileIT/comments/1rlaa9p/implement%C3%A9_un_sistema_de_finanzas_y_cotizaciones/",
-        "https://www.reddit.com/r/fintech/comments/1i0yvkb/discussion_building_a_kyc_validation_tool_for/",
-        "https://www.reddit.com/r/fintech/comments/1r1sb1s/fintech_moves_fast_but_api_testing_is_struggling/",
-        "https://www.reddit.com/r/fintech/comments/1ri4k9f/open_banking_integration_headaches/",
-        "https://www.reddit.com/r/fintech/comments/1sktfg7/bootstrapping_a_fintech_in_a_highrisk_country_how/",
-        "https://www.reddit.com/r/fintech/comments/1sz5ktl/are_fintech_teams_actually_blocked_from_putting/",
-        "https://www.reddit.com/r/fintech/comments/1uce8nb/removed/",
-        "https://www.reddit.com/r/u_CryptoConexion/comments/1eejg9l",
-        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000108/MNCjune2026signed.pdf"
+        "https://datacenterindex.ai/companies/POWL",
+        "https://en.wikipedia.org/wiki/Powell_Industries",
+        "https://mgrid.org/2026/05/05/powell-industries-books-400-million-behind-the-meter-data-center-order-backlog-hits-record-1-8-billion/",
+        "https://powellindustriesinc.gcs-web.com/static-files/519298b4-32ce-4837-b268-b6a6cb9ed36b",
+        "https://powellindustriesinc.gcs-web.com/static-files/5a2af01d-fbd5-4837-a64b-11212ea64dfa",
+        "https://powellindustriesinc.gcs-web.com/static-files/f51ede5b-25d7-40cf-97eb-00ecc703ed6d",
+        "https://stockanalysis.com/stocks/powl/transcripts/660797-q3-2026/",
+        "https://stockanalysis.com/stocks/powl/transcripts/737883-17th-annual-midwest-ideas-conference/",
+        "https://www.axios.com/2026/02/04/ai-natural-gas-power-data-centers",
+        "https://www.axios.com/2026/06/26/amazon-google-microsoft-dominate-data-centers",
+        "https://www.fool.com/earnings/call-transcripts/2026/05/05/powell-powl-q2-2026-earnings-call-transcript/",
+        "https://www.open-factory.com/models/book-to-bill-table/",
+        "https://www.pioneerpowersolutions.com/wp-content/uploads/2023/09/Pioneer-2022-10-K-including-Wrap-Broadridge-Print-Ready-FINAL.pdf",
+        "https://www.reddit.com/r/AsymmetricAlpha/comments/1ro9wpt/powl_powell_industries_great_company_terrible/",
+        "https://www.reddit.com/r/BottleneckInvesting/comments/1u9am6p/ai_power_bottlenecks_onsite_offgrid_behindthemeter/",
+        "https://www.reddit.com/r/SECFilingsAI/comments/1p1eogj/powell_industries_inc_annual_report_released/",
+        "https://www.reddit.com/r/SMCIDiscussion/comments/1wdh49w/smci_is_addressing_the_power_constraint_problem/",
+        "https://www.reddit.com/r/Stock_Pickin_4_Idiots/comments/1ret0uv/data_centers_arent_all_gpus_and_energy_sources/",
+        "https://www.reddit.com/r/Stocks_Picks/comments/1toowxe/7_data_center_power_stocks_worth_watching_right/",
+        "https://www.reddit.com/r/TickerSpark/comments/1tq1emn/7_data_center_power_stocks_worth_watching_right/",
+        "https://www.reddit.com/r/ValueInvesting/comments/1ro9w6t/powl_powell_industries_great_company_terrible/",
+        "https://www.reddit.com/r/aiinfra/comments/1wnuvmz/90_gw_of_behindthemeter_generation_announced_2_gw/",
+        "https://www.reddit.com/r/datacenter/comments/1v60kcl/what_will_be_the_biggest_infrastructure/",
+        "https://www.reddit.com/r/u_risk-enterprise/comments/1vldjgi/powl/",
+        "https://www.reddit.com/r/wallstreetbets/comments/1sdkk1u/nearly_half_of_planned_us_data_centers_have_been/",
+        "https://www.sec.gov/Archives/edgar/data/0000874238/000087423826000041/a20251231annualreport.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1137091/000162828026054346/psiearningsrelease-june302.htm",
+        "https://www.sec.gov/Archives/edgar/data/1474735/000110465926051520/tm264770d2_ars.pdf",
+        "https://www.sec.gov/Archives/edgar/data/2110029/000119312526258942/d12401ds1a.htm",
+        "https://www.sec.gov/Archives/edgar/data/80420/000008042026000063/ex991-powlq2xfy2026earning.htm",
+        "https://www.sec.gov/Archives/edgar/data/80420/000008042026000063/powl-20260504.htm",
+        "https://www.sec.gov/Archives/edgar/data/80420/000008042026000070/powl-20260331.htm",
+        "https://www.sec.gov/Archives/edgar/data/80420/000008042026000107/powl-20260630.htm"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_13bbed433a9c3be646a1",
+      "candidate_id": "opp_4e38bc42f62942527d19",
       "coercions": [
-        "critic_case",
         "contrary_evidence"
       ]
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_4e38bc42f62942527d19",
+      "response_status": "completed",
+      "incomplete_reason": "",
+      "grounded_source_count": 0,
+      "search_source_urls": []
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_4e38bc42f62942527d19",
+      "coercions": []
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 270,
-      "cache_write_tokens": 5392,
+      "reasoning_tokens": 195,
+      "cache_write_tokens": 5051,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.015399,
+      "cumulative_cost_usd": 0.01320635,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13839,
+      "input_tokens": 13533,
       "cached_tokens": 0,
-      "output_tokens": 1968,
+      "output_tokens": 206,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.015399
+      "estimated_cost_usd": 0.01320635
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 127,
-      "cache_write_tokens": 5238,
+      "reasoning_tokens": 191,
+      "cache_write_tokens": 5338,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0299613,
+      "cumulative_cost_usd": 0.02788965,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13804,
+      "input_tokens": 13898,
       "cached_tokens": 0,
-      "output_tokens": 1283,
+      "output_tokens": 1364,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0145623
+      "estimated_cost_usd": 0.0146833
+    },
+    {
+      "stage": "judge",
+      "available": true,
+      "reasoning_tokens": 0,
+      "cache_write_tokens": 3218,
+      "accounting_notes": [],
+      "cumulative_cost_usd": 0.04507265,
+      "model": "gpt-5.6-terra",
+      "input_tokens": 3221,
+      "cached_tokens": 0,
+      "output_tokens": 761,
+      "web_search_calls": 0,
+      "estimated_cost_usd": 0.017183
     }
   ]
 }
