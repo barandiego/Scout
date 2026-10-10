@@ -140,6 +140,12 @@ def write_library(root: Path) -> dict:
     atomic_write(path / "library.json",
                  json.dumps(data, ensure_ascii=False, sort_keys=True, indent=2, allow_nan=False) + "\n")
     atomic_write(path / "library.md", render_markdown(data))
+    # No new candidate, paid inference or external action. A downstream
+    # first-dollar shortlist only asks what still requires real buyer proof.
+    from .commercial import write_commercial_queue
+    commercial = write_commercial_queue(root, data)
     return {"cards": len(data["cards"]), "survived": data["survived"],
             "watch": data["watch"], "rejected_excluded": data["rejected_excluded"],
-            "execution_authorized": 0, "outputs": ["reports/library.json", "reports/library.md"]}
+            "execution_authorized": 0, "commercial": commercial,
+            "outputs": ["reports/library.json", "reports/library.md",
+                        "reports/commercial_queue.json", "reports/commercial_queue.md"]}
