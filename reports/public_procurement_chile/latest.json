@@ -1,47 +1,36 @@
 {
-  "active_candidates": [
-    {
-      "available_budget_clp": 1000000.0,
-      "buyer": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DE MARGA MARGA",
-      "closes_at": "2026-10-14T15:00:00",
-      "code": "1305543-110-COT26",
-      "estimated_budget": 1000000.0,
-      "name": "HERVIDOR, TERMOS Y OTROS.",
-      "products": 4,
-      "region": "Región de Valparaíso"
-    }
-  ],
-  "active_structurally_reconstructable_count": 1,
+  "active_candidates": [],
+  "active_structurally_reconstructable_count": 0,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
-    "detail_attempts": 20,
-    "details_fetched": 20,
+    "detail_attempts": 18,
+    "details_fetched": 18,
     "duplicate_listings": 0,
     "malformed_details": 0,
     "malformed_reasons": {},
     "malformed_samples": [],
     "pages_fetched": 1,
-    "requests_used": 21,
+    "requests_used": 19,
     "transient_retries": 0
   },
-  "generated_at": "2026-10-10T04:38:16Z",
-  "inserted_history": 20,
+  "generated_at": "2026-10-10T08:36:06Z",
+  "inserted_history": 18,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": true,
   "phase1": {
-    "records": 20,
+    "records": 18,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 2
+      "no_observable_competitive_prices": 4
     },
-    "resolved": 19,
-    "structurally_reconstructable": 18,
-    "with_observable_quote_totals": 17,
+    "resolved": 18,
+    "structurally_reconstructable": 14,
+    "with_observable_quote_totals": 14,
     "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
-    "changed_from": "2026-10-08T08:39:10+00:00",
-    "changed_to": "2026-10-10T04:38:16Z"
+    "changed_from": "2026-10-10T04:38:16+00:00",
+    "changed_to": "2026-10-10T08:36:06Z"
   }
 }
