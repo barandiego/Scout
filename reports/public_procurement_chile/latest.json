@@ -1,47 +1,38 @@
 {
-  "active_candidates": [
-    {
-      "available_budget_clp": 1350000.0,
-      "buyer": "SERVICIO SALUD VINA DEL MAR QUILLOTA",
-      "closes_at": "2026-10-15T13:00:00",
-      "code": "2026-516-COT26",
-      "estimated_budget": 1350000.0,
-      "name": "Adquisición de materiales y útiles de Aseo para Cesam La Calera SSVQP",
-      "products": 14,
-      "region": "Región de Valparaíso"
-    }
-  ],
-  "active_structurally_reconstructable_count": 1,
+  "active_candidates": [],
+  "active_structurally_reconstructable_count": 0,
   "diagnostics": {
-    "api_failures": {},
-    "budget_exhausted": false,
-    "detail_attempts": 20,
-    "details_fetched": 20,
+    "api_failures": {
+      "api_http_504": 2
+    },
+    "budget_exhausted": true,
+    "detail_attempts": 16,
+    "details_fetched": 14,
     "duplicate_listings": 0,
     "malformed_details": 0,
     "malformed_reasons": {},
     "malformed_samples": [],
     "pages_fetched": 1,
-    "requests_used": 21,
-    "transient_retries": 0
+    "requests_used": 25,
+    "transient_retries": 8
   },
-  "generated_at": "2026-10-10T16:35:28Z",
-  "inserted_history": 20,
+  "generated_at": "2026-10-10T20:35:12Z",
+  "inserted_history": 14,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
-  "ok": true,
+  "ok": false,
   "phase1": {
-    "records": 20,
+    "records": 14,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 13
+      "no_observable_competitive_prices": 11
     },
-    "resolved": 19,
-    "structurally_reconstructable": 7,
-    "with_observable_quote_totals": 6,
+    "resolved": 14,
+    "structurally_reconstructable": 3,
+    "with_observable_quote_totals": 3,
     "with_purchase_order_indicator": 2
   },
   "schema_version": 1,
   "window": {
-    "changed_from": "2026-10-10T12:41:58+00:00",
-    "changed_to": "2026-10-10T16:35:28Z"
+    "changed_from": "2026-10-10T16:35:28+00:00",
+    "changed_to": "2026-10-10T20:35:12Z"
   }
 }
