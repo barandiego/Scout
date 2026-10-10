@@ -471,3 +471,29 @@ def test_monitor_transient_error_classification_is_fail_closed():
     assert "api_rate_limited" in procurement_cli.TRANSIENT_MONITOR_ERRORS
     assert "api_http_400" not in procurement_cli.TRANSIENT_MONITOR_ERRORS
     assert "api_http_401" not in procurement_cli.TRANSIENT_MONITOR_ERRORS
+
+
+def test_monitor_health_is_complete_only_with_full_authoritative_window():
+    assert procurement_cli.monitor_health({
+        "api_failures": {}, "budget_exhausted": False,
+    }) == (True, "COMPLETE")
+    assert procurement_cli.monitor_health({
+        "api_failures": {"api_http_504": 2}, "budget_exhausted": False,
+    }) == (False, "DEGRADED_API_ERRORS")
+    assert procurement_cli.monitor_health({
+        "api_failures": {}, "budget_exhausted": True,
+    }) == (False, "DEGRADED_INCOMPLETE_REQUEST_BUDGET")
+    assert procurement_cli.monitor_health({
+        "api_failures": {"api_http_504": 1}, "budget_exhausted": True,
+    }) == (False, "DEGRADED_API_ERRORS")
+
+
+def test_procurement_workflow_persists_degraded_report_before_red_job():
+    from pathlib import Path
+    workflow = (Path(__file__).resolve().parents[1] /
+                ".github/workflows/procurement-chile.yml").read_text(encoding="utf-8")
+    assert "if: always() && steps.monitor.outcome != 'skipped'" in workflow
+    assert "reports/public_procurement_chile/latest.json" in workflow
+    from inspect import getsource
+    source = getsource(procurement_cli._main)
+    assert "return 0 if healthy else 2" in source
