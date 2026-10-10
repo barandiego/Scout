@@ -190,7 +190,7 @@ def test_real_pipeline_trial_route_uses_sol_with_explicit_efforts(tmp_path, monk
             }[kind]
             return AIResult(data, Usage(model=model,estimated_cost_usd=.02),
                             {"https://primary.example/product","https://secondary.example/industry"})
-    monkeypatch.setattr(pipeline, "AIClient", lambda *_: Fake())
+    monkeypatch.setattr(pipeline, "AIClient", lambda *_, **kwargs: Fake())
     run=pipeline._run_cycle(trial=True)
     assert run.ok and run.mode == "trial_cycle"
     assert [x[0] for x in seen]==["gpt-6.1-sol"]*3

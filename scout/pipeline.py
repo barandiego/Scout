@@ -292,7 +292,8 @@ def _run_cycle(*, trial: bool = False) -> RunRecord:
         checkpoint()
         candidates = []
         if budget.can_spend(cfg['budget']['reserve_discovery_usd']):
-            ai = AIClient(cfg['pricing'])
+            ai = (AIClient(cfg['pricing'], timeout_seconds=120.0) if trial
+                  else AIClient(cfg['pricing']))
             run.discovery_batches = 1
             res = request('discovery')
             if res is not None:
