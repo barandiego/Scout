@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-10T08:10:39.933633+00:00
+Generated: 2026-10-10T12:12:45.414270+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 30 (0 HQ survivors, 30 watches)
-- Rejected opportunities excluded: 16
+- Active research: 32 (0 HQ survivors, 32 watches)
+- Rejected opportunities excluded: 17
 - Critic-and-judge reviewed: 25
 - Autonomous execution authorization: 0
 
@@ -263,15 +263,35 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://cmfchile.atlassian.net/wiki/spaces/OFAC/pages/267649439/API%2BCuentas%2BOpen%2BFinance%2BChile%2Bv1.0.0; https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html
 
-### Cross-channel price and availability monitoring for Natura Chile products [opp_6f2e57e45dfa0d9df8b2]
-- Status: WATCH_REQUIRES_VALIDATION | ecommerce_niches | Chile
-- Thesis: A narrowly scoped monitoring-and-sourcing wedge may exist for buyers seeking verified Natura products, corporate gifts, or temporary channel discounts. The evidence does not establish a durable resale margin, permission to resell, or seller scarcity.
-- Value capture: Potentially capture a sourcing or fulfillment spread only after confirming that a specific SKU remains cheaper after shipping, taxes, platform fees, returns, and any brand or marketplace restrictions. An alternative test is a paid corporate-gift sourcing request using publicly listed Natura corporate-sales contact details, without purchasing inventory first.
-- Participation hypothesis: Lowest-cost falsification: select 20 identical SKUs visible on Natura.cl and Falabella.com, record price, stock, delivery cost, delivery time, and promotion conditions for seven consecutive days; then ask Natura’s corporate-sales channel whether a small test order can be quoted and whether third-party resale or corporate redistribution is permitted. Do not buy inventory or list products for resale unless the supplier and destination marketplace terms permit it. A signal fails if no SKU shows a repeatable landed-cost difference or if the supplie
+### BESS and inverter compliance pre-check for Chilean distributed-energy projects [opp_7ea6a495427da87c8c5c]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile
+- Thesis: A narrow, testable asset is a paid pre-check package for installers or project owners: collect equipment datasheets, compare the proposed battery/PCE/inverter configuration against the current SEC checklist, identify missing AFCI or documentation items, and produce a submission-ready gap list. The mechanism is avoided rework or rejected filings, not speculative battery arbitrage. The operator must avoid representing itself as an authorized electrical installer unless it actually has that authorization.
+- Value capture: Charge for a fixed-scope document review or sell it as a procurement/compliance checklist to authorized installers. A small operator can also create a standardized comparison spreadsheet and referral arrangement, but no referral fee, customer or regulatory approval should be assumed.
+- Participation hypothesis: Use the SEC's public installer and technical-documentation pages to identify 10 authorized distributed-generation installers. Send a one-page sample checklist covering RGR N°06/2024, AFCI status, equipment authorization and required filing fields. Ask whether they would pay for one review of a real but anonymized project, without promising approval. Test with one paid or explicitly unpaid pilot only after the installer confirms the scope. Falsify if installers report that they already perform the review internally, will not share a redacted equ
 - Critic/judge: deferred_by_review_cap
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/; https://www.natura.cl/encuentra-natura; https://www.falabella.com/falabella-cl/brand/NATURA
+- Grounded and model-supplied sources: https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/; https://www.sec.cl/gda/; https://www.sec.cl/normas-tecnicas-electricas/
+
+### Indoor-farm lighting and energy audit wedge for existing Chilean growers [opp_6c994db30cf257cb79ff]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile
+- Thesis: A new Chilean vertical-farm build is not sufficiently evidenced as investable here. The narrower executable wedge is measurement and scheduling support for an already-operating hydroponic or indoor grower, where the operator can compare lighting recipes, kWh per kg and peak demand before purchasing major equipment. This is an efficiency test, not evidence that indoor farming itself is profitable.
+- Value capture: Sell a one-site metering and lighting-schedule experiment, using temporary power meters and grower-supplied harvest records. Any savings claim must be measured against a baseline; no payback, margin or crop premium is assumed.
+- Participation hypothesis: Identify one existing Chilean hydroponic or controlled-environment grower willing to share two comparable production cycles. Measure lighting, HVAC and pump electricity; record kilograms harvested and sale prices; run one controlled lighting-schedule change while keeping crop and harvest criteria constant. Stop if the grower cannot provide baseline meter data, comparable harvest records or permission to alter the schedule. Do not invest in a new farm based on the cited evidence alone.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://arxiv.org/abs/2507.18419; https://arxiv.org/abs/2510.03686; https://ers.usda.gov/sites/default/files/_laserfiche/publications/108221/EIB-264.pdf
+
+### NFC review-conversion kits for Chilean cafés, hotels and restaurants [opp_9f47dda18059a735d95d]
+- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
+- Thesis: The executable wedge is not another generic digital-business-card service; it is a small, physical review-acquisition kit sold to locations where staff can prompt a customer immediately after service. The economic mechanism is a one-time hardware sale, potentially bundled with installation/configuration, with value dependent on the operator verifying incremental review volume. Existing public prices provide a bounded WTP reference, but no evidence here proves conversion, retention or repeat purchasing.
+- Value capture: Sell a configured NFC/QR review plaque or countertop stand, optionally in multi-location batches. Use an independently hosted redirect or the buyer's own Google Business Profile link so the operator retains control. Do not claim recurring revenue, conversion uplift or margin until tested.
+- Participation hypothesis: Start with five independently selected cafés, salons or small hotels in one Chilean city. Show the public retail alternatives and offer a single physical prototype at or below the observed CLP 11,990–29,990 range, subject to the buyer's acceptance. Record baseline Google-review counts for 14 days, place the item at checkout for 14 days, and compare review velocity while documenting staff prompts and placement. Falsify if no operator agrees to place the prototype, if staff will not use it, or if review velocity does not measurably change relativ
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.ondda.cl/; https://tarjetas-nfc.com/; https://nfctech.cl/
 
 ### Chile Open-Finance compliance test harness and consent-flow validator [opp_13bbed433a9c3be646a1]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile

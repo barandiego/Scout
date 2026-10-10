@@ -2156,41 +2156,41 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-10T04:10:55.786099+00:00",
-      "discovery_lens": "underserved_buyers",
+      "discovered_at": "2026-10-10T12:12:22.487685+00:00",
+      "discovery_lens": "energy_localization",
       "estimated_capital": "",
       "estimated_founder_hours_initial": "",
       "estimated_founder_hours_ongoing": "",
       "evidence": [
         {
-          "claim": "Falabella states that Natura opened an official Falabella.com store in Chile on September 8, 2026, with an initial portfolio of 110 products and online purchase, pickup, and returns options.",
+          "claim": "SEC identifies RGR N°06/2024 as the applicable technical instruction for BESS and states that from January 1, 2026 only AFCI-compliant inverters or special-project alternatives are accepted.",
           "grounded_in_provider_search": true,
           "source_type": "primary",
-          "title": "Natura llega a Falabella y amplía su propuesta omnicanal en Chile",
-          "url": "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/"
+          "title": "Almacenamiento de Energía a través de Baterías (BESS)",
+          "url": "https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/"
         },
         {
-          "claim": "Natura’s Chile site displays products and prices and identifies its own web/app, stores, beauty consultants, and corporate-gifting channel as distribution routes.",
+          "claim": "SEC explains that distributed-generation projects require an authorized company or professional for installation and connection procedures and provides an installer route.",
           "grounded_in_provider_search": true,
           "source_type": "primary",
-          "title": "Natura Chile official store and channels",
-          "url": "https://www.natura.cl/encuentra-natura"
+          "title": "Generación Distribuída para Autoconsumo",
+          "url": "https://www.sec.cl/gda/"
         },
         {
-          "claim": "Falabella’s live Natura catalogue provides product-level prices, discounts, delivery, pickup, and stock-related purchase information.",
+          "claim": "SEC publishes technical and regulatory materials for electrical installations, including storage and distributed-energy requirements.",
           "grounded_in_provider_search": true,
           "source_type": "primary",
-          "title": "Natura Chile on Falabella.com",
-          "url": "https://www.falabella.com/falabella-cl/brand/NATURA"
+          "title": "Normas Técnicas eléctricas",
+          "url": "https://www.sec.cl/normas-tecnicas-electricas/"
         }
       ],
-      "evidence_confidence_model_estimate": 0.78,
+      "evidence_confidence_model_estimate": 0.9,
       "falsification_conditions": [],
       "geography": "Chile",
-      "id": "opp_6f2e57e45dfa0d9df8b2",
+      "id": "opp_7ea6a495427da87c8c5c",
       "judge_reviewed": false,
       "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-10T04:10:55.795977+00:00",
+      "last_record_updated_at": "2026-10-10T12:12:22.501656+00:00",
       "material_update": false,
       "missing_execution_proof": [
         "independent_critic_and_judge",
@@ -2199,16 +2199,138 @@
       "next_validation_questions": [
         "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
       ],
-      "participation_path": "Lowest-cost falsification: select 20 identical SKUs visible on Natura.cl and Falabella.com, record price, stock, delivery cost, delivery time, and promotion conditions for seven consecutive days; then ask Natura’s corporate-sales channel whether a small test order can be quoted and whether third-party resale or corporate redistribution is permitted. Do not buy inventory or list products for resale unless the supplier and destination marketplace terms permit it. A signal fails if no SKU shows a repeatable landed-cost difference or if the supplier declines the proposed route.",
+      "participation_path": "Use the SEC's public installer and technical-documentation pages to identify 10 authorized distributed-generation installers. Send a one-page sample checklist covering RGR N°06/2024, AFCI status, equipment authorization and required filing fields. Ask whether they would pay for one review of a real but anonymized project, without promising approval. Test with one paid or explicitly unpaid pilot only after the installer confirms the scope. Falsify if installers report that they already perform the review internally, will not share a redacted equipment list, or do not value error reduction enough to accept a trial. Do not install, certify or submit electrical work without the required authorization.",
       "research_status": "WATCH_REQUIRES_VALIDATION",
       "status": "watch",
-      "thesis": "A narrowly scoped monitoring-and-sourcing wedge may exist for buyers seeking verified Natura products, corporate gifts, or temporary channel discounts. The evidence does not establish a durable resale margin, permission to resell, or seller scarcity.",
-      "title": "Cross-channel price and availability monitoring for Natura Chile products",
-      "type": "ecommerce_arbitrage_test",
+      "thesis": "A narrow, testable asset is a paid pre-check package for installers or project owners: collect equipment datasheets, compare the proposed battery/PCE/inverter configuration against the current SEC checklist, identify missing AFCI or documentation items, and produce a submission-ready gap list. The mechanism is avoided rework or rejected filings, not speculative battery arbitrage. The operator must avoid representing itself as an authorized electrical installer unless it actually has that authorization.",
+      "title": "BESS and inverter compliance pre-check for Chilean distributed-energy projects",
+      "type": "compliance_asset",
       "unknowns": [],
-      "value_capture_mechanism": "Potentially capture a sourcing or fulfillment spread only after confirming that a specific SKU remains cheaper after shipping, taxes, platform fees, returns, and any brand or marketplace restrictions. An alternative test is a paid corporate-gift sourcing request using publicly listed Natura corporate-sales contact details, without purchasing inventory first.",
+      "value_capture_mechanism": "Charge for a fixed-scope document review or sell it as a procurement/compliance checklist to authorized installers. A small operator can also create a standardized comparison spreadsheet and referral arrangement, but no referral fee, customer or regulatory approval should be assumed.",
       "verified_sales": null,
-      "vertical": "ecommerce_niches",
+      "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-10T12:12:22.489232+00:00",
+      "discovery_lens": "vertical_farming_economics",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Finds that energy, water and cost materially affect vertical-farming viability and emphasizes the need for decarbonized energy systems.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Beyond yield: integrating energy, water, cost, and carbon to benchmark indoor vertical farming viability",
+          "url": "https://arxiv.org/abs/2507.18419"
+        },
+        {
+          "claim": "Reports modeled energy and peak-load reductions from flexible lighting control in an indoor-farming setting; the result is not Chile-specific.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Optimal Energy Management in Indoor Farming Using Lighting Flexibility and Intelligent Model Predictive Control",
+          "url": "https://arxiv.org/abs/2510.03686"
+        },
+        {
+          "claim": "Provides controlled-environment agriculture production context, but does not establish Chilean project economics or customer WTP.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Trends, Insights, and Future Prospects for Production in Controlled Environment Agriculture and Agrivoltaics Systems",
+          "url": "https://ers.usda.gov/sites/default/files/_laserfiche/publications/108221/EIB-264.pdf"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.62,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_6c994db30cf257cb79ff",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-10T12:12:22.502043+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Identify one existing Chilean hydroponic or controlled-environment grower willing to share two comparable production cycles. Measure lighting, HVAC and pump electricity; record kilograms harvested and sale prices; run one controlled lighting-schedule change while keeping crop and harvest criteria constant. Stop if the grower cannot provide baseline meter data, comparable harvest records or permission to alter the schedule. Do not invest in a new farm based on the cited evidence alone.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A new Chilean vertical-farm build is not sufficiently evidenced as investable here. The narrower executable wedge is measurement and scheduling support for an already-operating hydroponic or indoor grower, where the operator can compare lighting recipes, kWh per kg and peak demand before purchasing major equipment. This is an efficiency test, not evidence that indoor farming itself is profitable.",
+      "title": "Indoor-farm lighting and energy audit wedge for existing Chilean growers",
+      "type": "operational_efficiency_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell a one-site metering and lighting-schedule experiment, using temporary power meters and grower-supplied harvest records. Any savings claim must be measured against a baseline; no payback, margin or crop premium is assumed.",
+      "verified_sales": null,
+      "vertical": "robotics_agritech",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-10T12:12:22.486097+00:00",
+      "discovery_lens": "nfc_smart_commerce",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Lists NFC review/business stands and cards for Chilean businesses, including visible prices around CLP 19,990–29,990.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Soluciones NFC para negocios en Chile",
+          "url": "https://www.ondda.cl/"
+        },
+        {
+          "claim": "Lists a Google-review NFC card for businesses at a visible price of CLP 11,990 and describes use in restaurants, cafés and local businesses.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Tarjetas NFC Chile — Tarjeta NFC Google Reviews",
+          "url": "https://tarjetas-nfc.com/"
+        },
+        {
+          "claim": "Offers configured NFC cards for Google reviews in Chile at CLP 24,990 and publicly presents customer review-count testimonials; testimonials are not independently verified.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Tarjetas NFC para más reseñas en Google | NFCTECH Chile",
+          "url": "https://nfctech.cl/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_9f47dda18059a735d95d",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-10T12:12:22.501868+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Start with five independently selected cafés, salons or small hotels in one Chilean city. Show the public retail alternatives and offer a single physical prototype at or below the observed CLP 11,990–29,990 range, subject to the buyer's acceptance. Record baseline Google-review counts for 14 days, place the item at checkout for 14 days, and compare review velocity while documenting staff prompts and placement. Falsify if no operator agrees to place the prototype, if staff will not use it, or if review velocity does not measurably change relative to baseline. Distribution can begin through direct local visits, Google Maps prospecting and existing NFC product suppliers; no buyer, permission or uplift is assumed.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The executable wedge is not another generic digital-business-card service; it is a small, physical review-acquisition kit sold to locations where staff can prompt a customer immediately after service. The economic mechanism is a one-time hardware sale, potentially bundled with installation/configuration, with value dependent on the operator verifying incremental review volume. Existing public prices provide a bounded WTP reference, but no evidence here proves conversion, retention or repeat purchasing.",
+      "title": "NFC review-conversion kits for Chilean cafés, hotels and restaurants",
+      "type": "physical_product_distribution",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell a configured NFC/QR review plaque or countertop stand, optionally in multi-location batches. Use an independently hosted redirect or the buyer's own Google Business Profile link so the operator retains control. Do not claim recurring revenue, conversion uplift or margin until tested.",
+      "verified_sales": null,
+      "vertical": "chile_localization",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -2432,13 +2554,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-10T08:10:39.933633+00:00",
+  "generated_at": "2026-10-10T12:12:45.414270+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 16,
+  "rejected_excluded": 17,
   "reviewed_cards": 25,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 46,
-  "watch": 30
+  "total_distinct_opportunities": 49,
+  "watch": 32
 }

@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 30
+Candidates: 32
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -16,17 +16,29 @@ Candidates: 30
 - Possible initial budget:
 - Source URLs: https://www.sec.gov/Archives/edgar/data/80420/000008042026000063/ex991-powlq2xfy2026earning.htm; https://www.sec.gov/Archives/edgar/data/2110029/000119312526249668/d12401ds1a.htm
 
-## Cross-channel price and availability monitoring for Natura Chile products
-- Status: watch | ecommerce_niches
-- Current idea: A narrowly scoped monitoring-and-sourcing wedge may exist for buyers seeking verified Natura products, corporate gifts, or temporary channel discounts. The evidence does not establish a durable resale margin, permission to resell, or seller scarcity.
-- Potential economic capture: Potentially capture a sourcing or fulfillment spread only after confirming that a specific SKU remains cheaper after shipping, taxes, platform fees, returns, and any brand or marketplace restrictions. An alternative test is a paid corporate-gift sourcing request using publicly listed Natura corporate-sales contact details, without purchasing inventory first.
+## NFC review-conversion kits for Chilean cafés, hotels and restaurants
+- Status: watch | chile_localization
+- Current idea: The executable wedge is not another generic digital-business-card service; it is a small, physical review-acquisition kit sold to locations where staff can prompt a customer immediately after service. The economic mechanism is a one-time hardware sale, potentially bundled with installation/configuration, with value dependent on the operator verifying incremental review volume. Existing public prices provide a bounded WTP reference, but no evidence here proves conversion, retention or repeat purchasing.
+- Potential economic capture: Sell a configured NFC/QR review plaque or countertop stand, optionally in multi-location batches. Use an independently hosted redirect or the buyer's own Google Business Profile link so the operator retains control. Do not claim recurring revenue, conversion uplift or margin until tested.
 - **Research routes to test (NOT validated claims):**
-  - Target a specific neglected customer subgroup with a measurable unmet product requirement.
-  - Compare imported/private-label, inventoryless fulfillment and existing domestic suppliers after landed costs.
-  - Test one narrower search/intention channel before expanding catalog or buying inventory.
+  - Find the smallest Chilean workflow whose economics differ from the original geography.
+  - Secure lawful access, partners and after-sales support rather than copy protected technology.
+  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
-- Source URLs: https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/; https://www.natura.cl/encuentra-natura; https://www.falabella.com/falabella-cl/brand/NATURA
+- Source URLs: https://www.ondda.cl/; https://tarjetas-nfc.com/; https://nfctech.cl/
+
+## BESS and inverter compliance pre-check for Chilean distributed-energy projects
+- Status: watch | energy_infrastructure
+- Current idea: A narrow, testable asset is a paid pre-check package for installers or project owners: collect equipment datasheets, compare the proposed battery/PCE/inverter configuration against the current SEC checklist, identify missing AFCI or documentation items, and produce a submission-ready gap list. The mechanism is avoided rework or rejected filings, not speculative battery arbitrage. The operator must avoid representing itself as an authorized electrical installer unless it actually has that authorization.
+- Potential economic capture: Charge for a fixed-scope document review or sell it as a procurement/compliance checklist to authorized installers. A small operator can also create a standardized comparison spreadsheet and referral arrangement, but no referral fee, customer or regulatory approval should be assumed.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/; https://www.sec.cl/gda/; https://www.sec.cl/normas-tecnicas-electricas/
 
 ## AI and data-center growth are making electricity and grid access a binding cost constraint
 - Status: watch | general
@@ -363,3 +375,15 @@ Candidates: 30
 - Critical gaps: What proportion of the cited queues is technically addressable by each technology and by geography?; How much of the claimed congestion cost is avoidable through GETs rather than caused by insufficient generation, local distribution constraints, market design, or fuel and demand shocks?; Which entities receive the economic benefit: generators, load-serving entities, transmission owners, ratepayers, RTOs/ISOs, or technology vendors?
 - Possible initial budget:
 - Source URLs: https://www.iea.org/reports/modernising-grids-in-the-age-of-electricity/executive-summary; https://www.iea.org/reports/electricity-2026/grids
+
+## Indoor-farm lighting and energy audit wedge for existing Chilean growers
+- Status: watch | robotics_agritech
+- Current idea: A new Chilean vertical-farm build is not sufficiently evidenced as investable here. The narrower executable wedge is measurement and scheduling support for an already-operating hydroponic or indoor grower, where the operator can compare lighting recipes, kWh per kg and peak demand before purchasing major equipment. This is an efficiency test, not evidence that indoor farming itself is profitable.
+- Potential economic capture: Sell a one-site metering and lighting-schedule experiment, using temporary power meters and grower-supplied harvest records. Any savings claim must be measured against a baseline; no payback, margin or crop premium is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
+  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
+  - Arrange a bounded field validation with an actual farm operator before scaling.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://arxiv.org/abs/2507.18419; https://arxiv.org/abs/2510.03686; https://ers.usda.gov/sites/default/files/_laserfiche/publications/108221/EIB-264.pdf
