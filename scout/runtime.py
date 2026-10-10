@@ -48,7 +48,7 @@ class AIClient:
         key = os.environ.get('OPENAI_API_KEY')
         if not key:
             raise RuntimeError('missing_api_key')
-        self.client = OpenAI(api_key=key, max_retries=0, timeout=60.0)
+        self.client = OpenAI(api_key=key, max_retries=0, timeout=120.0)
         self.pricing = pricing
 
     def validate_models(self, models: list[str]) -> None:

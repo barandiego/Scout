@@ -1,0 +1,42 @@
+# Scout's seven-day research trial: STAGED ONLY, not active or scheduled.
+# Enabling requires a separately verified API balance/project limit and explicit
+# operator activation for the exact UTC window. The production V0 route remains
+# on its original $0.50/day profile until activation.
+enabled: false
+activation_env: SCOUT_RESEARCH_TRIAL_ARMED
+starts_at_utc: null
+ends_at_utc: null
+budget:
+  cycle_usd: 1.20
+  daily_usd: 3.00
+  total_usd: 15.00
+  reserve_discovery_usd: 0.60
+  reserve_critic_usd: 0.60
+  reserve_judge_usd: 0.40
+roles:
+  # Public feed intake and deterministic preselection always stay free.
+  radar: {model: none, enabled: true}
+  deterministic_screening: {model: none, enabled: true}
+  # This focused budget does not yet include a separately paid Luna triage.
+  triage: {model: gpt-6-luna, reasoning_effort: medium, enabled: false}
+  discovery: {model: gpt-6.1-sol, reasoning_effort: medium, enabled: true}
+  critic: {model: gpt-6.1-sol, reasoning_effort: high, enabled: true}
+  judge: {model: gpt-6.1-sol, reasoning_effort: medium, enabled: true}
+  # Use the flagship only after separate measured proof of marginal value.
+  deep_adversary: {model: gpt-6-astra, reasoning_effort: high, enabled: false}
+limits:
+  lenses_per_cycle: 4
+  max_normalized_candidates: 6
+  max_candidates_to_critic: 1
+  max_candidates_to_judge: 1
+  discovery_max_output_tokens: 5200
+  critic_max_output_tokens: 5200
+  judge_max_output_tokens: 3600
+  discovery_max_tool_calls: 4
+  critic_max_tool_calls: 4
+pricing:
+  web_search_per_call: 0.01
+  models:
+    gpt-6-luna: {input_per_million: 0.10, cached_input_per_million: 0.01, output_per_million: 0.50}
+    gpt-6.1-sol: {input_per_million: 2.00, cached_input_per_million: 0.10, output_per_million: 10.00}
+    gpt-6-astra: {input_per_million: 10.00, cached_input_per_million: 1.00, output_per_million: 50.00}

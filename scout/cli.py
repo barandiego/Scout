@@ -35,6 +35,8 @@ def validate_config()->list[str]:
         search=cfg['pricing']['web_search_per_call']
         if type(search) not in (int,float) or not math.isfinite(search) or search<0:
             errors.append('invalid_search_pricing')
+        from .trial import read_trial, validate_trial
+        errors.extend(validate_trial(read_trial(pipeline.ROOT)))
         if 'general' not in pipeline._available_verticals():
             errors.append('missing_general_vertical')
         for name in pipeline._available_verticals():
@@ -53,15 +55,51 @@ def calibrate()->int:
         if bad: failures.append(case['name'])
     print(json.dumps({'cases':len(fixture['cases']),'failures':failures},indent=2)); return 1 if failures else 0
 
-def preflight()->int:
+def preflight(*, trial: bool = False)->int:
     errors=validate_config()
     if errors: print(json.dumps({'ok':False,'errors':errors},indent=2)); return 2
-    cfg=load_yaml(ROOT/'config'/'scout.yaml'); ai=AIClient(cfg['pricing']); ai.validate_models(list(cfg['models'].values())); print(json.dumps({'ok':True,'models':sorted(set(cfg['models'].values()))},indent=2)); return 0
+    cfg=load_yaml(ROOT/'config'/'scout.yaml')
+    from .trial import auto_trial_active
+    if not trial and auto_trial_active(ROOT):
+        trial=True
+    if trial:
+        from .trial import read_trial, effective_config, TrialError
+        from datetime import datetime, timezone
+        try:
+            cfg=effective_config(cfg,read_trial(ROOT),datetime.now(timezone.utc))
+        except TrialError as exc:
+            print(json.dumps({'ok':False,'error':str(exc)},indent=2));return 2
+    ai=AIClient(cfg['pricing'])
+    ai.validate_models(list(cfg['models'].values()))
+    print(json.dumps({'ok':True,'trial':trial,'models':sorted(set(cfg['models'].values()))},indent=2))
+    return 0
 
 def main()->None:
-    p=argparse.ArgumentParser(); p.add_argument('mode',choices=['cycle','report','calibrate','validate','preflight','library','radar','innovation']); args=p.parse_args()
-    if args.mode=='cycle':
-        rec=run_cycle(); print(rec.model_dump_json(indent=2)); raise SystemExit(0 if rec.ok else 2)
+    p=argparse.ArgumentParser(); p.add_argument('mode',choices=['cycle','report','calibrate','validate','preflight','library','radar','innovation','trial-cycle','trial-preflight','trial-status','trial-model-check']); args=p.parse_args()
+    if args.mode in ('cycle','trial-cycle'):
+        from .trial import auto_trial_active
+        trial = args.mode=='trial-cycle' or auto_trial_active(ROOT)
+        rec=run_cycle(trial=trial)
+        print(rec.model_dump_json(indent=2)); raise SystemExit(0 if rec.ok else 2)
+    if args.mode=='trial-status':
+        from .trial import trial_status
+        print(json.dumps(trial_status(ROOT),indent=2)); return
+    if args.mode=='trial-model-check':
+        from .trial import read_trial, validate_trial
+        t=read_trial(ROOT)
+        errors=validate_config()+validate_trial(t)
+        if errors:
+            print(json.dumps({'ok':False,'errors':sorted(set(errors))},indent=2))
+            raise SystemExit(2)
+        active_models=sorted({t['roles'][s]['model'] for s in ('discovery','critic','judge')})
+        client=AIClient(t['pricing'])
+        client.validate_models(active_models)
+        print(json.dumps({'ok':True,'model_list_checked':active_models,
+                          'trial_enabled':False,
+                          'inference_calls':0},indent=2))
+        return
+    if args.mode=='trial-preflight':
+        raise SystemExit(preflight(trial=True))
     if args.mode=='report': print(write_report()); return
     if args.mode=='library':
         from .library import write_library
