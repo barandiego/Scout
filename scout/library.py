@@ -12,7 +12,7 @@ from .state import Store, atomic_write
 
 def _one_line(value: str, limit: int = 420) -> str:
     """Escape model-authored strings in the human-readable Markdown view."""
-    return " ".join(str(value).split())[:limit].replace("<", "‹").replace(">", "›").replace("|", "¦")
+    return " ".join(str(value).split())[:limit].rstrip().replace("<", "‹").replace(">", "›").replace("|", "¦")
 
 
 def _sort_key(op: Opportunity):
@@ -129,7 +129,7 @@ def render_markdown(snapshot: dict) -> str:
         ])
     if not snapshot["cards"]:
         lines.append("No active research cards. The system does not invent an idea.")
-    return "\n".join(lines) + "\n"
+    return "\n".join(lines).rstrip("\n") + "\n"
 
 
 def write_library(root: Path) -> dict:

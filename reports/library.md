@@ -1,6 +1,6 @@
 # Scout — opportunity library
 
-Generated: 2026-10-10T01:25:16.348635+00:00
+Generated: 2026-10-10T01:27:19.857788+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
@@ -128,7 +128,7 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Thesis: The delayed compliance deadline creates a preparation window, while the sandbox lowers integration uncertainty. Models proven in other open-banking markets may be transferable to Chile, including account aggregation, personal-finance tools, SME underwriting, payment initiation, and embedded finance.
 - Value capture: API gateways, consent and identity management, data-quality tools, fraud controls, payment-initiation services, compliance implementation, and vertical applications using permissioned financial data.
 - Participation hypothesis: Use ATENA to test integrations; partner with regulated institutions; validate a narrow use case before July 2027; localize proven open-finance products from other geographies.
-- Critic/judge: The cited CMF materials credibly support that Chile’s Sistema de Finanzas Abiertas has published technical specifications, a July 2027 effective date, and an ATENA testing sandbox. This clears the threshold for a real regulatory/infrastructure signal and does not establish a fatal lack of legal or technical access. However, the opportunity is presently a broad implementation theme rather than an HQ-worthy, economically validated wedge: 
+- Critic/judge: The cited CMF materials credibly support that Chile’s Sistema de Finanzas Abiertas has published technical specifications, a July 2027 effective date, and an ATENA testing sandbox. This clears the threshold for a real regulatory/infrastructure signal and does not establish a fatal lack of legal or technical access. However, the opportunity is presently a broad implementation theme rather than an HQ-worthy, economically validated wedge:
 - Next evidence gaps: Whether ATENA is free, subsidized, or commercially monetizable for third-party vendors.; The number of institutions that will actually enroll, connect, and maintain production-grade participation.; The final rollout schedule by participant type and whether July 2027 is the first effective phase rather than broad market availability.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
@@ -138,7 +138,7 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Thesis: Standardized data access can reduce integration friction and redistribute value from proprietary data silos toward interoperability platforms, compliance tooling, API testing, identity, consent and workflow applications.
 - Value capture: Healthcare API vendors, FHIR implementation specialists, testing and certification providers, data-quality platforms and workflow products that turn mandated access into operational products may benefit.
 - Participation hypothesis: Map affected payer deadlines and API specifications; build against required FHIR implementation guides; sell conformance testing, monitoring, data normalization or prior-authorization workflow automation.
-- Critic/judge: The regulatory premise is sufficiently grounded by primary CMS/Federal Register materials, and there is a plausible participation path in compliance implementation, conformance monitoring, and workflow products ahead of applicable 2027 requirements. However, this is a broad regulatory tailwind rather than a defined HQ-worthy opportunity: it does not identify a specific buyer, acute workflow wedge, differentiated product, pricing model, 
+- Critic/judge: The regulatory premise is sufficiently grounded by primary CMS/Federal Register materials, and there is a plausible participation path in compliance implementation, conformance monitoring, and workflow products ahead of applicable 2027 requirements. However, this is a broad regulatory tailwind rather than a defined HQ-worthy opportunity: it does not identify a specific buyer, acute workflow wedge, differentiated product, pricing model,
 - Next evidence gaps: Whether the cited 2026 proposed provisions will be finalized without delay, narrowing, or changed compliance dates.; Which payer segments are actually in scope and how many will outsource implementation rather than use incumbent vendors or internal teams.; Actual API utilization, provider adoption, and measurable reductions in prior-authorization labor after compliance.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://public-inspection.federalregister.gov/2026-07205.pdf; https://www.govinfo.gov/content/pkg/FR-2026-06-11/pdf/FR-2026-06-11.pdf
@@ -272,4 +272,3 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.bis.org/media-releases/20250624-next-generation-monetary-and-financial-system-takes-shape-based-tokenised-unified-ledger-bis; https://www.bis.org/publications/aer-2025/next-generation-monetary-financial-system
-
