@@ -59,10 +59,13 @@ def preflight()->int:
     cfg=load_yaml(ROOT/'config'/'scout.yaml'); ai=AIClient(cfg['pricing']); ai.validate_models(list(cfg['models'].values())); print(json.dumps({'ok':True,'models':sorted(set(cfg['models'].values()))},indent=2)); return 0
 
 def main()->None:
-    p=argparse.ArgumentParser(); p.add_argument('mode',choices=['cycle','report','calibrate','validate','preflight']); args=p.parse_args()
+    p=argparse.ArgumentParser(); p.add_argument('mode',choices=['cycle','report','calibrate','validate','preflight','library']); args=p.parse_args()
     if args.mode=='cycle':
         rec=run_cycle(); print(rec.model_dump_json(indent=2)); raise SystemExit(0 if rec.ok else 2)
     if args.mode=='report': print(write_report()); return
+    if args.mode=='library':
+        from .library import write_library
+        print(json.dumps(write_library(ROOT), indent=2)); return
     if args.mode=='calibrate': raise SystemExit(calibrate())
     if args.mode=='validate':
         errs=validate_config(); print(json.dumps({'ok':not errs,'errors':errs},indent=2)); raise SystemExit(1 if errs else 0)

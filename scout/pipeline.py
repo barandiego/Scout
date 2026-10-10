@@ -133,7 +133,7 @@ def _prompt(stage: str, op: Opportunity | None, selected: list[dict], cfg: dict,
             trusted_source_urls: set[str] | None = None) -> tuple[str, str]:
     if stage == 'discovery':
         return ('You are Scout Discovery. Evidence first. ' + UNTRUSTED,
-                'Find current economic signals for these lenses: ' + json.dumps(selected, ensure_ascii=False) +
+                'Find specific, economically actionable opportunities from these lenses. ' 'Do not return sector trends, generic AI-agency consulting or vague market potential as if executable. ' 'For each signal, identify a concrete offer, asset or economic mechanism; a plausible buyer, payer or cash-flow source; ' 'a realistic distribution or market participation route; a verifiable price/purchase or public-market catalyst; ' 'and the lowest-cost falsification step a small independent operator could take. ' 'Put the specific participation route and test inside participation_path without fabricating a buyer, margin, sale or permissions. ' 'If evidence identifies only a trend, either narrow it honestly to a testable wedge or return zero. ' 'Search for actual evidence, not motivational business ideas. Lenses: ' + json.dumps(selected, ensure_ascii=False) +
                 '\nReturn {"candidates": []}, at most ' + str(cfg['limits']['max_normalized_candidates']) +
                 ' signals. Zero is valid. Each SMALL raw signal: title, type, vertical, geography, discovery_lens, '
                 'observed_change, economic_implication, value_capture, participation_path, evidence_confidence, real, actionable, '

@@ -28,6 +28,7 @@ pytest -q
 python -m scout.cli validate
 python -m scout.cli calibrate
 python -m scout.cli report
+python -m scout.cli library
 ```
 
 CI has no API key; tests deny sockets and use fake providers/mock HTTP. The live
@@ -45,3 +46,14 @@ the workflow blocks unconfirmed previous cycle persistence.
 
 See [SPEC.md](SPEC.md) for conversion/invariant policies and [AUDIT.md](AUDIT.md) for
 six-run findings, 194-test evidence, current API sources and the live PASS definition.
+
+## Opportunity library
+
+After each GitHub Actions discovery cycle, Scout derives
+[reports/library.md](reports/library.md) and [reports/library.json](reports/library.json)
+from authoritative persisted opportunities. This is pure Python, with zero new
+model calls, zero additional API spend, no trading and no auto-business execution.
+Watches and HQ survivors remain research candidates until a real buyer, viable
+net unit economics and execution permissions have been checked independently.
+Rejected candidates remain in durable state but are excluded from the pick-list.
+All existing critic, judge, budget, dedupe and commercial gates are unchanged.
