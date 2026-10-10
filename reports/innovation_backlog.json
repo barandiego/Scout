@@ -75,6 +75,43 @@
     },
     {
       "capital_required_unverified_estimate": "",
+      "category": "ecommerce_niches",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Approach one small Chilean seller with a documented returns problem and request a no-purchase pilot of 10–30 units from a single category. Record condition, handling cost, time to relist, sale price, refunds, and unsold inventory. Use the seller’s existing marketplace account or a pre-approved outlet rather than assuming permission to resell. Falsify at the lowest cost by asking five sellers for anonymized counts of returned units and whether they would release a small batch on consignment; stop if no seller provides inventory, resale permissions, or a verifiable disposition price.",
+      "current_thesis": "There may be recoverable value in returned, refused, or lightly damaged inventory, but the evidence does not establish a standalone Chilean market, buyer, or margin. The executable wedge is a tightly bounded consignment experiment with one seller and one category, not a broad returns marketplace.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Narrow Chilean e-commerce returns-recovery test for one product category",
+      "opportunity_id": "opp_fa54176321cf12d8b287",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Target a specific neglected customer subgroup with a measurable unmet product requirement.",
+        "Compare imported/private-label, inventoryless fulfillment and existing domestic suppliers after landed costs.",
+        "Test one narrower search/intention channel before expanding catalog or buying inventory."
+      ],
+      "supporting_source_urls": [
+        "https://www.fne.gob.cl/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-plataformas/",
+        "https://group.dhl.com/content/dam/deutschepostdhl/en/media-center/media-relations/documents/2025/e-commerce-trends-report-2025-business-edition.pdf",
+        "https://www.trade.gov/country-commercial-guides/chile-ecommerce"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Inspect, grade, relist, bundle, or route a small batch of returned goods through an existing marketplace or the original seller’s outlet. Cash flow would come only from an agreed consignment fee or realized resale proceeds; buyer, acceptance rate, and margin remain unknown and must be tested.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
       "category": "energy_infrastructure",
       "commercially_validated": false,
       "competition_confirmed": false,
@@ -595,42 +632,6 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
-      "current_participation_path": "Build a minimum test harness against the publicly available CMF technical materials and developer-portal specifications. Contact prospective regulated participants only to request a 30-minute technical review, without assuming permission to access production systems. Falsify cheaply by asking 10 identifiable Chilean fintechs, banks, cooperatives or payment firms whether they already have equivalent conformance tooling and whether they would pay for a sandbox test pack; stop if none will share a concrete implementation gap or paid pilot scope.",
-      "current_thesis": "Participants have a defined implementation window before July 2027, creating a narrow need for repeatable technical validation rather than broad consulting: schema conformance checks, consent-state testing, API replay fixtures, error-handling tests and evidence packs for internal readiness.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "Chile",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "Chile Open-Finance compliance test harness and consent-flow validator",
-      "opportunity_id": "opp_13bbed433a9c3be646a1",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
-        "Check license perimeter, API access, legal compliance and competitor pricing.",
-        "Test buyer procurement and technical access before writing integration infrastructure."
-      ],
-      "supporting_source_urls": [
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "Sell or license a narrowly scoped test suite, mock API server and compliance-readiness report to Chilean fintechs or regulated entities preparing integrations. The economic mechanism is paid implementation tooling or a recurring license; no buyer, price or conversion rate is established by the evidence.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "open_finance_chile",
-      "commercially_validated": false,
-      "competition_confirmed": false,
       "current_participation_path": "Build against the published technical specifications; join the pilot/sandbox; target smaller entities needing simplified participation; validate a Chile-first API or data-enrichment product with regulated partners.",
       "current_thesis": "The market now has clearer interoperability requirements and a longer preparation window. This lowers regulatory uncertainty but creates an implementation race for account aggregation, payment initiation, consent, identity, fraud, compliance and data-enrichment products.",
       "founder_hours_initial_unverified_estimate": "",
@@ -704,6 +705,43 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "API aggregators, identity and consent providers, fraud and risk vendors, payment initiators, financial-data analytics firms, and institutions that help participants certify integrations may capture implementation and recurring platform revenue.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "First, obtain and review the CMF technical annex and developer-portal specifications. Build only a local mock-provider and 10–20 automated tests covering one narrow flow, such as account-information consent and retrieval. Publish the test runner and sample fixtures, then contact publicly listed SFA forum or participating-entity channels asking whether the tests identify real implementation gaps; do not represent the tool as CMF-approved. Falsify cheaply by interviewing or emailing 10 entities listed in the CMF ecosystem and seeking three concrete examples of failed or manually repeated integration tests. Stop if they report no testing pain, cannot legally share requirements, or will not run a free prototype.",
+      "current_thesis": "Small prospective participants will need to validate API interoperability, consent flows, data formats, security controls, and payment-initiation behavior before the regulated system becomes operational. The evidence supports a narrow testing and tooling wedge, not a general fintech consultancy.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile SFA conformance-test harness for small participating entities",
+      "opportunity_id": "opp_b1b8cbbff5d232fae6f8",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://cmfchile.cl/portal/prensa/625/w4-article-100482.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A self-serve or locally installable conformance suite that converts CMF technical specifications into reproducible API tests, mock counterparties, consent fixtures, schema validation, and evidence exports for internal audit or implementation teams. Revenue would need to come from paid software access, implementation support, or integration work; no buyer, price, or margin is assumed.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -1257,7 +1295,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-10T12:12:45.443723+00:00",
+  "generated_at": "2026-10-10T16:09:24.494431+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

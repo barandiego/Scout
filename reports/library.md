@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-10T12:12:45.414270+00:00
+Generated: 2026-10-10T16:09:24.467291+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 32 (0 HQ survivors, 32 watches)
-- Rejected opportunities excluded: 17
+- Active research: 33 (0 HQ survivors, 33 watches)
+- Rejected opportunities excluded: 19
 - Critic-and-judge reviewed: 25
 - Autonomous execution authorization: 0
 
@@ -273,6 +273,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/; https://www.sec.cl/gda/; https://www.sec.cl/normas-tecnicas-electricas/
 
+### Chile SFA conformance-test harness for small participating entities [opp_b1b8cbbff5d232fae6f8]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Small prospective participants will need to validate API interoperability, consent flows, data formats, security controls, and payment-initiation behavior before the regulated system becomes operational. The evidence supports a narrow testing and tooling wedge, not a general fintech consultancy.
+- Value capture: A self-serve or locally installable conformance suite that converts CMF technical specifications into reproducible API tests, mock counterparties, consent fixtures, schema validation, and evidence exports for internal audit or implementation teams. Revenue would need to come from paid software access, implementation support, or integration work; no buyer, price, or margin is assumed.
+- Participation hypothesis: First, obtain and review the CMF technical annex and developer-portal specifications. Build only a local mock-provider and 10–20 automated tests covering one narrow flow, such as account-information consent and retrieval. Publish the test runner and sample fixtures, then contact publicly listed SFA forum or participating-entity channels asking whether the tests identify real implementation gaps; do not represent the tool as CMF-approved. Falsify cheaply by interviewing or emailing 10 entities listed in the CMF ecosystem and seeking three concre
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-100482.html; https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html
+
 ### Indoor-farm lighting and energy audit wedge for existing Chilean growers [opp_6c994db30cf257cb79ff]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile
 - Thesis: A new Chilean vertical-farm build is not sufficiently evidenced as investable here. The narrower executable wedge is measurement and scheduling support for an already-operating hydroponic or indoor grower, where the operator can compare lighting recipes, kWh per kg and peak demand before purchasing major equipment. This is an efficiency test, not evidence that indoor farming itself is profitable.
@@ -283,6 +293,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://arxiv.org/abs/2507.18419; https://arxiv.org/abs/2510.03686; https://ers.usda.gov/sites/default/files/_laserfiche/publications/108221/EIB-264.pdf
 
+### Narrow Chilean e-commerce returns-recovery test for one product category [opp_fa54176321cf12d8b287]
+- Status: WATCH_REQUIRES_VALIDATION | ecommerce_niches | Chile
+- Thesis: There may be recoverable value in returned, refused, or lightly damaged inventory, but the evidence does not establish a standalone Chilean market, buyer, or margin. The executable wedge is a tightly bounded consignment experiment with one seller and one category, not a broad returns marketplace.
+- Value capture: Inspect, grade, relist, bundle, or route a small batch of returned goods through an existing marketplace or the original seller’s outlet. Cash flow would come only from an agreed consignment fee or realized resale proceeds; buyer, acceptance rate, and margin remain unknown and must be tested.
+- Participation hypothesis: Approach one small Chilean seller with a documented returns problem and request a no-purchase pilot of 10–30 units from a single category. Record condition, handling cost, time to relist, sale price, refunds, and unsold inventory. Use the seller’s existing marketplace account or a pre-approved outlet rather than assuming permission to resell. Falsify at the lowest cost by asking five sellers for anonymized counts of returned units and whether they would release a small batch on consignment; stop if no seller provides inventory, resale permissio
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.fne.gob.cl/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-pl; https://group.dhl.com/content/dam/deutschepostdhl/en/media-center/media-relations/documents/2025/e-commerce-trends-report-2025-business-edition.pdf; https://www.trade.gov/country-commercial-guides/chile-ecommerce
+
 ### NFC review-conversion kits for Chilean cafés, hotels and restaurants [opp_9f47dda18059a735d95d]
 - Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
 - Thesis: The executable wedge is not another generic digital-business-card service; it is a small, physical review-acquisition kit sold to locations where staff can prompt a customer immediately after service. The economic mechanism is a one-time hardware sale, potentially bundled with installation/configuration, with value dependent on the operator verifying incremental review volume. Existing public prices provide a bounded WTP reference, but no evidence here proves conversion, retention or repeat purchasing.
@@ -292,16 +312,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.ondda.cl/; https://tarjetas-nfc.com/; https://nfctech.cl/
-
-### Chile Open-Finance compliance test harness and consent-flow validator [opp_13bbed433a9c3be646a1]
-- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
-- Thesis: Participants have a defined implementation window before July 2027, creating a narrow need for repeatable technical validation rather than broad consulting: schema conformance checks, consent-state testing, API replay fixtures, error-handling tests and evidence packs for internal readiness.
-- Value capture: Sell or license a narrowly scoped test suite, mock API server and compliance-readiness report to Chilean fintechs or regulated entities preparing integrations. The economic mechanism is paid implementation tooling or a recurring license; no buyer, price or conversion rate is established by the evidence.
-- Participation hypothesis: Build a minimum test harness against the publicly available CMF technical materials and developer-portal specifications. Contact prospective regulated participants only to request a 30-minute technical review, without assuming permission to access production systems. Falsify cheaply by asking 10 identifiable Chilean fintechs, banks, cooperatives or payment firms whether they already have equivalent conformance tooling and whether they would pay for a sandbox test pack; stop if none will share a concrete implementation gap or paid pilot scope.
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html
 
 ### Chile SFA implementation moves from rulemaking to integration testing [opp_82f282d8dc0896390ee7]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile

@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 32
+Candidates: 33
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -27,6 +27,18 @@ Candidates: 32
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.ondda.cl/; https://tarjetas-nfc.com/; https://nfctech.cl/
+
+## Narrow Chilean e-commerce returns-recovery test for one product category
+- Status: watch | ecommerce_niches
+- Current idea: There may be recoverable value in returned, refused, or lightly damaged inventory, but the evidence does not establish a standalone Chilean market, buyer, or margin. The executable wedge is a tightly bounded consignment experiment with one seller and one category, not a broad returns marketplace.
+- Potential economic capture: Inspect, grade, relist, bundle, or route a small batch of returned goods through an existing marketplace or the original seller’s outlet. Cash flow would come only from an agreed consignment fee or realized resale proceeds; buyer, acceptance rate, and margin remain unknown and must be tested.
+- **Research routes to test (NOT validated claims):**
+  - Target a specific neglected customer subgroup with a measurable unmet product requirement.
+  - Compare imported/private-label, inventoryless fulfillment and existing domestic suppliers after landed costs.
+  - Test one narrower search/intention channel before expanding catalog or buying inventory.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.fne.gob.cl/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-plataformas/; https://group.dhl.com/content/dam/deutschepostdhl/en/media-center/media-relations/documents/2025/e-commerce-trends-report-2025-business-edition.pdf; https://www.trade.gov/country-commercial-guides/chile-ecommerce
 
 ## BESS and inverter compliance pre-check for Chilean distributed-energy projects
 - Status: watch | energy_infrastructure
@@ -184,18 +196,6 @@ Candidates: 32
 - Possible initial budget:
 - Source URLs: https://www.whitehouse.gov/presidential-actions/2026/01/adjusting-imports-of-processed-critical-minerals-and-their-derivative-products-into-the-united-states/; https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary
 
-## Chile Open-Finance compliance test harness and consent-flow validator
-- Status: watch | open_finance_chile
-- Current idea: Participants have a defined implementation window before July 2027, creating a narrow need for repeatable technical validation rather than broad consulting: schema conformance checks, consent-state testing, API replay fixtures, error-handling tests and evidence packs for internal readiness.
-- Potential economic capture: Sell or license a narrowly scoped test suite, mock API server and compliance-readiness report to Chilean fintechs or regulated entities preparing integrations. The economic mechanism is paid implementation tooling or a recurring license; no buyer, price or conversion rate is established by the evidence.
-- **Research routes to test (NOT validated claims):**
-  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
-  - Check license perimeter, API access, legal compliance and competitor pricing.
-  - Test buyer procurement and technical access before writing integration infrastructure.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html
-
 ## Chile publishes technical rules and developer infrastructure for Open Finance, with go-live deferred to July 2027
 - Status: watch | open_finance_chile
 - Current idea: The market now has clearer interoperability requirements and a longer preparation window. This lowers regulatory uncertainty but creates an implementation race for account aggregation, payment initiation, consent, identity, fraud, compliance and data-enrichment products.
@@ -219,6 +219,18 @@ Candidates: 32
 - Critical gaps: Whether July 2027 is achievable or whether further postponements will occur.; The exact phase-by-phase dates for data access, payment initiation, and different participant groups.; When commercially meaningful API traffic and consumer adoption will emerge.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
+## Chile SFA conformance-test harness for small participating entities
+- Status: watch | open_finance_chile
+- Current idea: Small prospective participants will need to validate API interoperability, consent flows, data formats, security controls, and payment-initiation behavior before the regulated system becomes operational. The evidence supports a narrow testing and tooling wedge, not a general fintech consultancy.
+- Potential economic capture: A self-serve or locally installable conformance suite that converts CMF technical specifications into reproducible API tests, mock counterparties, consent fixtures, schema validation, and evidence exports for internal audit or implementation teams. Revenue would need to come from paid software access, implementation support, or integration work; no buyer, price, or margin is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-100482.html; https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html
 
 ## Chile SFA implementation moves from rulemaking to build phase, but go-live is deferred to July 2027
 - Status: watch | open_finance_chile

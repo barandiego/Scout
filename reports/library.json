@@ -2217,6 +2217,67 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-10T16:09:06.777129+00:00",
+      "discovery_lens": "ai_open_source",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF states that the amended NCG 514 includes technical specifications, a developer portal, testing/sandbox provisions, simplified participation, and postponement of entry into force until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        },
+        {
+          "claim": "CMF describes a pilot period, testing environments, gradual implementation, and participation by banks, cooperatives, insurers, payment operators, and fintech entities.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF publishes for consultation amendments to Open Finance System regulation",
+          "url": "https://cmfchile.cl/portal/prensa/625/w4-article-100482.html"
+        },
+        {
+          "claim": "CMF identifies the SFA participant categories and explains the regulated data-access and interoperability framework.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Foro Sistema de Finanzas Abiertas",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.9,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_b1b8cbbff5d232fae6f8",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-10T16:09:06.790610+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "First, obtain and review the CMF technical annex and developer-portal specifications. Build only a local mock-provider and 10–20 automated tests covering one narrow flow, such as account-information consent and retrieval. Publish the test runner and sample fixtures, then contact publicly listed SFA forum or participating-entity channels asking whether the tests identify real implementation gaps; do not represent the tool as CMF-approved. Falsify cheaply by interviewing or emailing 10 entities listed in the CMF ecosystem and seeking three concrete examples of failed or manually repeated integration tests. Stop if they report no testing pain, cannot legally share requirements, or will not run a free prototype.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Small prospective participants will need to validate API interoperability, consent flows, data formats, security controls, and payment-initiation behavior before the regulated system becomes operational. The evidence supports a narrow testing and tooling wedge, not a general fintech consultancy.",
+      "title": "Chile SFA conformance-test harness for small participating entities",
+      "type": "regulatory_infrastructure",
+      "unknowns": [],
+      "value_capture_mechanism": "A self-serve or locally installable conformance suite that converts CMF technical specifications into reproducible API tests, mock counterparties, consent fixtures, schema validation, and evidence exports for internal audit or implementation teams. Revenue would need to come from paid software access, implementation support, or integration work; no buyer, price, or margin is assumed.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-10T12:12:22.489232+00:00",
       "discovery_lens": "vertical_farming_economics",
       "estimated_capital": "",
@@ -2278,6 +2339,67 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-10T16:09:06.777917+00:00",
+      "discovery_lens": "geographic_arbitrage",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Chile’s FNE reports e-commerce sales near US$10 billion in 2025 and examines sellers, platform logistics, payment methods, and competitive conditions.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "FNE publishes preliminary report of e-commerce market study",
+          "url": "https://www.fne.gob.cl/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-plataformas/"
+        },
+        {
+          "claim": "DHL reports that online shoppers return a material proportion of purchases and discusses reverse logistics as an operational issue.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "2025 E-Commerce Trends Report: Business Edition",
+          "url": "https://group.dhl.com/content/dam/deutschepostdhl/en/media-center/media-relations/documents/2025/e-commerce-trends-report-2025-business-edition.pdf"
+        },
+        {
+          "claim": "The U.S. International Trade Administration describes Chile as a large and highly penetrated Latin American e-commerce market with substantial online purchasing activity.",
+          "grounded_in_provider_search": true,
+          "source_type": "other",
+          "title": "Chile eCommerce",
+          "url": "https://www.trade.gov/country-commercial-guides/chile-ecommerce"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.72,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_fa54176321cf12d8b287",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-10T16:09:06.790845+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Approach one small Chilean seller with a documented returns problem and request a no-purchase pilot of 10–30 units from a single category. Record condition, handling cost, time to relist, sale price, refunds, and unsold inventory. Use the seller’s existing marketplace account or a pre-approved outlet rather than assuming permission to resell. Falsify at the lowest cost by asking five sellers for anonymized counts of returned units and whether they would release a small batch on consignment; stop if no seller provides inventory, resale permissions, or a verifiable disposition price.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "There may be recoverable value in returned, refused, or lightly damaged inventory, but the evidence does not establish a standalone Chilean market, buyer, or margin. The executable wedge is a tightly bounded consignment experiment with one seller and one category, not a broad returns marketplace.",
+      "title": "Narrow Chilean e-commerce returns-recovery test for one product category",
+      "type": "reverse_logistics_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Inspect, grade, relist, bundle, or route a small batch of returned goods through an existing marketplace or the original seller’s outlet. Cash flow would come only from an agreed consignment fee or realized resale proceeds; buyer, acceptance rate, and margin remain unknown and must be tested.",
+      "verified_sales": null,
+      "vertical": "ecommerce_niches",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-10T12:12:22.486097+00:00",
       "discovery_lens": "nfc_smart_commerce",
       "estimated_capital": "",
@@ -2331,60 +2453,6 @@
       "value_capture_mechanism": "Sell a configured NFC/QR review plaque or countertop stand, optionally in multi-location batches. Use an independently hosted redirect or the buyer's own Google Business Profile link so the operator retains control. Do not claim recurring revenue, conversion uplift or margin until tested.",
       "verified_sales": null,
       "vertical": "chile_localization",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
-      "discovered_at": "2026-10-10T08:10:13.507682+00:00",
-      "discovery_lens": "asset_ownership",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "CMF published the technical annex, developer portal and implementation requirements, with entry into force postponed until July 2027.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
-          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
-        },
-        {
-          "claim": "CMF identifies the system’s purpose, consent requirements, interoperability principles and four categories of participating institutions.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Foro Sistema de Finanzas Abiertas",
-          "url": "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.89,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_13bbed433a9c3be646a1",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-10T08:10:13.515819+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Build a minimum test harness against the publicly available CMF technical materials and developer-portal specifications. Contact prospective regulated participants only to request a 30-minute technical review, without assuming permission to access production systems. Falsify cheaply by asking 10 identifiable Chilean fintechs, banks, cooperatives or payment firms whether they already have equivalent conformance tooling and whether they would pay for a sandbox test pack; stop if none will share a concrete implementation gap or paid pilot scope.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "Participants have a defined implementation window before July 2027, creating a narrow need for repeatable technical validation rather than broad consulting: schema conformance checks, consent-state testing, API replay fixtures, error-handling tests and evidence packs for internal readiness.",
-      "title": "Chile Open-Finance compliance test harness and consent-flow validator",
-      "type": "software_asset",
-      "unknowns": [],
-      "value_capture_mechanism": "Sell or license a narrowly scoped test suite, mock API server and compliance-readiness report to Chilean fintechs or regulated entities preparing integrations. The economic mechanism is paid implementation tooling or a recurring license; no buyer, price or conversion rate is established by the evidence.",
-      "verified_sales": null,
-      "vertical": "open_finance_chile",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -2554,13 +2622,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-10T12:12:45.414270+00:00",
+  "generated_at": "2026-10-10T16:09:24.467291+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 17,
+  "rejected_excluded": 19,
   "reviewed_cards": 25,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 49,
-  "watch": 32
+  "total_distinct_opportunities": 52,
+  "watch": 33
 }

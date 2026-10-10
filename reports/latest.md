@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-10T12:12:45.099275+00:00
+Generated: 2026-10-10T16:09:24.108894+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['nfc_smart_commerce', 'vertical_farming_economics', 'energy_localization']
+- lenses: ['wildcard', 'geographic_arbitrage', 'ai_open_source']
 - raw_candidates: 3
 - parseable_candidates: 3
 - normalized_candidates: 3
 - normalization_rejected: 0
-- grounded_sources: 9
+- grounded_sources: 7
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 1
+- judge_attempts: 0
 - critic_reviews: 1
-- judge_reviews: 1
+- judge_reviews: 0
 - survivors: 0
-- watches: 3
-- rejected: 1
+- watches: 2
+- rejected: 2
 - errors_by_stage: {}
-- rejection_reasons: {}
-- cost_usd: 0.0525985
+- rejection_reasons: {'discarded_ungrounded_url': 1, 'insufficient_unique_evidence': 1}
+- cost_usd: 0.0299613
 - cost_uncertain: False
-- budget_remaining_usd: 0.0274015
+- budget_remaining_usd: 0.0500387
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Grid connection capacity is becoming a monetizable bottleneck: The grid-capacity constraint is credibly supported by independent/primary sources and is timely rather than a stale post-catalyst thesis. However, this is a thematic bottleneck, not yet a public-markets investment case: it identifies multiple heterogeneous technologies and services but no specific listed issuer, valuation, liquidity profile, balance sheet, financing runway, contract backlog, or demonstrated ability to retain congestion-related economic value. The central risk is that avoided-congestion value accrues mainly to ratepayers, generators, or regulated utilities, while vendors face lengthy bespoke sales cycles, integration costs, and limited recurring margins. It survives as research-worthy work to map investable beneficiaries, but not as a security-selection thesis.
 - AI and data-center growth are making electricity and grid access a binding cost constraint: The underlying premise is well grounded by recent IEA and regulatory/market sources: data-center load growth and constrained interconnection/transmission capacity can make delivered, reliable power and time-to-connection economically important. There are identifiable payers—hyperscalers, colocation operators, utilities, and large industrial loads—and credible value pools. However, this is a macro condition rather than a sufficiently specified opportunity. It bundles capital-intensive generation and storage with regulated grid technologies and software/services, each with different buyers, margins, sales cycles, approvals, and competitive dynamics. A generic participation path is plausible, but no particular constrained node, customer segment, product wedge, economics, capital requirement, or defensible advantage is identified. It merits targeted research to isolate a narrow, capital-efficient wedge; it is not yet an HQ-ready investment or operating thesis.
 - Chile’s Open Finance implementation is moving from rules to integration and testing: Primary CMF sources in the supplied provenance support that Chile’s SFA has published technical implementation material, a developer environment, a July 2027 phased entry-into-force target, and the ATENA sandbox. Therefore the regulatory transition is not merely alleged, and there is no demonstrated fatal lack of legal or technical access for a vendor serving regulated participants. However, the opportunity bundles several very different businesses. Compliance/readiness and integration services may have near-term demand, but are likely concentrated, procurement-heavy, and partly displaced by CMF-provided testing infrastructure, internal bank teams, incumbent integrators, or global API vendors. Downstream aggregation, payment initiation, and SME underwriting do not yet have evidence of consented-data availability, usage, economics, or durable willingness to pay. The appropriate judgment is watch pending validation of a narrow paid wedge rather than treating open-finance implementation itself as proof of a scalable business.
 - Battery storage economics improve as systems support grid flexibility: The underlying cost-and-deployment premise is credibly grounded by recent IEA materials, and grid operators, utilities, load-serving entities, C&I customers, and offtakers are plausible payers for location-specific flexibility and capacity. However, this is a broad sector trend rather than an HQ-ready opportunity: it does not specify a target market, constrained node, duration, revenue contract, buyer, or differentiated participation route. Falling battery costs and rising installations do not by themselves establish durable returns; value is likely competed away in generic hardware, EPC, development, aggregation, and dispatch software. It merits further research only if narrowed to markets with verifiable congestion/capacity need, executable interconnection or customer access, and contracted or otherwise defensible revenue.
@@ -46,17 +45,18 @@ No survivors. Scout does not manufacture a daily winner.
 - Chile’s open-finance implementation is becoming an integration and testing market: The cited CMF materials credibly support that Chile’s Sistema de Finanzas Abiertas has published technical specifications, a July 2027 effective date, and an ATENA testing sandbox. This clears the threshold for a real regulatory/infrastructure signal and does not establish a fatal lack of legal or technical access. However, the opportunity is presently a broad implementation theme rather than an HQ-worthy, economically validated wedge: sandbox availability and a future compliance date do not demonstrate production connectivity, paid vendor demand, viable unit economics, or an ability for an unregulated/foreign entrant to bear registration, cybersecurity, privacy, liability, and local-operational requirements. Keep under watch pending evidence for a specific buyer/use case and production-commercial conversion.
 - Chile’s Open Finance implementation moves from framework to interoperability infrastructure: The regulatory transition appears sufficiently grounded: CMF primary-source material in the provided provenance supports NCG 514, a June 2026 technical update, and a delayed/progressive SFA implementation beginning in July 2027. Therefore, this is not rejected for an unverified regulatory change. However, the opportunity is a broad implementation theme rather than a demonstrated, economically accessible business. Mandated interoperability establishes compliance demand, but it does not establish that independent vendors can obtain production access, meet security/certification expectations, displace internal builds and incumbents, or earn recurring margins in Chile’s limited market. The CMF-provided portal, testing/sandbox and standardized baseline may further commoditize generic infrastructure. It survives as research only if narrowed to a specific regulated-buyer workflow with validated procurement and a credible path to regional expansion.
 - Open-finance conformance test asset for Chilean participants: The regulatory and technical premise is sufficiently grounded: CMF has published an amended open-finance framework, technical materials/developer documentation, and a July 2027 implementation timetable. A narrowly scoped, offline or customer-operated validator can plausibly be developed from public specifications without requiring access to production regulated data or a special regulatory license. Therefore, no fatal legal/API-access failure is established at this stage. However, this is not yet an HQ-worthy software opportunity: the official ATENA controlled testing environment, CMF documentation, and likely incumbent/API-security/vendor tooling may provide a free or bundled substitute. There is no evidence of a mandatory independent conformance process, authority to certify, identifiable budget owner, paid demand, or pricing power. Treat it only as a tightly bounded research hypothesis around a differentiated workflow—such as reproducible evidence packs and regression testing for a specific payer/payment-initiation integration—not as generic conformance tooling.
-- Chile Open-Finance compliance test harness and consent-flow validator: deferred_by_review_cap
 - Public-market exposure to behind-the-meter power equipment for data centers: deferred_by_review_cap
 - BESS and inverter compliance pre-check for Chilean distributed-energy projects: deferred_by_review_cap
 - NFC review-conversion kits for Chilean cafés, hotels and restaurants: deferred_by_review_cap
 - Indoor-farm lighting and energy audit wedge for existing Chilean growers: deferred_by_review_cap
+- Chile SFA conformance-test harness for small participating entities: deferred_by_review_cap
+- Narrow Chilean e-commerce returns-recovery test for one product category: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "research_queue_unreviewed=5"
+    "research_queue_unreviewed=6"
   ],
   "stages": [
     {
@@ -64,69 +64,26 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 61,
+      "grounded_source_count": 18,
       "search_source_urls": [
-        "https://arxiv.org/abs/2008.01325",
-        "https://arxiv.org/abs/2507.18419",
-        "https://arxiv.org/abs/2510.03686",
-        "https://arxiv.org/abs/2607.26968",
-        "https://coloradoproduce.org/wp-content/uploads/2023/07/cit_97817_2022-harvest-report_r6-digital_prod.pdf",
-        "https://conextap.cl/",
-        "https://en.wikipedia.org/wiki/Contactless_payment",
-        "https://en.wikipedia.org/wiki/Curtailment_in_Chile",
-        "https://en.wikipedia.org/wiki/Electricity_sector_in_Chile",
-        "https://en.wikipedia.org/wiki/Hydroponics",
-        "https://en.wikipedia.org/wiki/Multiv%C3%ADa",
-        "https://en.wikipedia.org/wiki/National_identity_cards_in_the_Organization_of_American_States",
-        "https://energia.gob.cl/consultas-publicas/modificaciones-al-reglamento-de-coordinacion-y-operacion-del-sistema-electrico-nacional",
-        "https://energia.gob.cl/ley-y-plan-de-eficiencia-energetica",
-        "https://energia.gob.cl/node/20439",
-        "https://energia.gob.cl/noticias/la-araucania/energia-invita-pequenas-y-medianas-empresas-fomento-al-ahorro",
-        "https://energia.gob.cl/pfinanciamiento/mipymes",
-        "https://energia.gob.cl/sites/default/files/dec_70_2023.pdf",
-        "https://energia.gob.cl/sites/default/files/documento_cuenta-publica_2025.pdf",
-        "https://energia.gob.cl/sites/default/files/documentos/informe_congreso_subsecretaria_iv_trimestre_2025_1.pdf",
-        "https://ers.usda.gov/sites/default/files/_laserfiche/publications/108221/EIB-264.pdf",
-        "https://fupress.org/journal/JAIRD/index.php/journal/article/view/77/43",
-        "https://linkd.cl/",
-        "https://masenlaces.com/store/faq",
-        "https://nexoid.cl/",
-        "https://nfc.pcreballing.cl/",
-        "https://nfcnexo.cl/",
-        "https://nfctech.cl/",
-        "https://publications.ibpsa.org/proceedings/bs/2025/papers/bs2025_1744.pdf",
-        "https://publications.ibpsa.org/proceedings/bs/2025/papers/bs2025_1744.pdf",
-        "https://pymevisible.cl/productos/tarjeta-google",
-        "https://tarjetas-nfc.com/",
-        "https://tnfc.cl/producto/tarjeta-nfc-de-presentacion-digital/",
-        "https://www.coordinador.cl/wp-content/uploads/2026/04/Informe-Monitoreo-2025.pdf",
-        "https://www.inside-grower.com/utility/PDF.aspx?id=26248&pagename=viewarticle.aspx&pub=IG",
-        "https://www.ondda.cl/",
-        "https://www.ondda.cl/",
-        "https://www.reddit.com/r/Futurology/comments/1g5q0yc",
-        "https://www.reddit.com/r/Hydroponics/comments/1jz870f",
-        "https://www.reddit.com/r/Hydroponics/comments/1nuohxp/hydroponics_to_save_money/",
-        "https://www.reddit.com/r/NFC/comments/1q4vgbt/removed/",
-        "https://www.reddit.com/r/NFC/comments/1v9xopz/anyone_here_running_an_nfc_business_for/",
-        "https://www.reddit.com/r/farming/comments/t12lfc",
-        "https://www.reddit.com/r/indoorgardening/comments/1lvdrv3",
-        "https://www.reddit.com/r/phinvest/comments/1w57k2r/nfc_cards/",
-        "https://www.reddit.com/r/startupideas/comments/1uubbwx/built_an_nfcpowered_digital_business_card/",
-        "https://www.reddit.com/r/u_Igor_Viznyy/comments/1t6zawz/my_roi_data_cost_to_grow_vs_supermarket_prices/",
-        "https://www.reddit.com/r/verticalfarming/comments/1hkjvao",
-        "https://www.reddit.com/r/verticalfarming/comments/tujf2z",
-        "https://www.scielo.cl/pdf/chiljar/v85n3/0718-5839-chiljar-85-03-299.pdf",
-        "https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/",
-        "https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/",
-        "https://www.sec.cl/centro-de-descargas/",
-        "https://www.sec.cl/colectores-solares/",
-        "https://www.sec.cl/consulta-publica-instructivos-tecnicos-rgr-de-generacion-distribuida/",
-        "https://www.sec.cl/gda/",
-        "https://www.sec.cl/normas-tecnicas-electricas/",
-        "https://www.sec.cl/pequenos-medios-de-generacion/",
-        "https://www.sec.cl/sitio-web/wp-content/uploads/2020/12/RGR-N-06-2020-v7.pdf",
-        "https://www.sec.cl/sitio-web/wp-content/uploads/2025/01/RGR-N-02-2024-V11-destacada.pdf",
-        "https://www.tuk.cl/es-cl"
+        "https://21675739.fs1.hubspotusercontent-na1.net/hubfs/21675739/DBC_Report_2025_Metapack.pdf",
+        "https://cmfchile.cl/portal/prensa/625/w4-article-100482.html",
+        "https://cmfchile.cl/portal/prensa/625/w4-article-90522.html",
+        "https://flw-production.s3.amazonaws.com/uploads/store/attachment/299039/content/DBC_Report_2025_Metapack.pdf",
+        "https://github.com/getomni-ai/zerox",
+        "https://group.dhl.com/content/dam/deutschepostdhl/en/media-center/media-relations/documents/2025/e-commerce-trends-report-2025-business-edition.pdf",
+        "https://www.ccs.cl/area-publicacion/comercio-electronico-y-economia-digital/",
+        "https://www.cencosud.com/cencosud/site/docs/20250115/20250115140605/cencoday_2025_ricardo_bennett.pdf",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-110411_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/principal/613/articles-82381_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48738.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html",
+        "https://www.fne.gob.cl/en/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-plataformas/",
+        "https://www.fne.gob.cl/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-plataformas/",
+        "https://www.trade.gov/country-commercial-guides/chile-ecommerce"
       ]
     },
     {
@@ -163,7 +120,9 @@ No survivors. Scout does not manufacture a daily winner.
       "index": 2,
       "stage": "normalization",
       "outcome": "accepted",
-      "reasons": [],
+      "reasons": [
+        "discarded_ungrounded_url"
+      ],
       "changes": [
         "contrary_evidence:list_sanitized",
         "major_risks:list_sanitized",
@@ -171,94 +130,95 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 3,
+      "grounded_sources": 1,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_6f2e57e45dfa0d9df8b2",
+      "candidate_id": "opp_13bbed433a9c3be646a1",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 13,
+      "grounded_source_count": 40,
       "search_source_urls": [
-        "https://ayudaseller.falabella.com/articles/es/Knowledge/Comisiones-de-venta-Chile",
-        "https://ayudaseller.falabella.com/articles/es/Knowledge/Comisiones-y-costos-logisticos",
-        "https://comunicacion.falabella.com/CL/TyC/2024/14082024-FCOM-IMP-TermsandConditions-Sellers-ENG-IMP-PE-CL.pdf",
-        "https://sellercenter.falabella.com/terms_and_conditions_mkp",
-        "https://www.falabella.com/falabella-cl/page/comprar-terminos-condiciones",
-        "https://www.falabella.com/falabella-cl/page/cuanto-cuesta-vender-en-falabella?trk=public_post_comment-text",
-        "https://www.falabella.com/falabella-cl/page/politicas-cumplimiento",
-        "https://www.falabella.com/falabella-cl/page/terminos-condiciones-uso-falabellacom",
-        "https://www.natura.cl/ayuda/promo",
-        "https://www.natura.cl/c/regalos-mas-vendidos?_rsc=1p9qg",
-        "https://www.natura.cl/condiciones-cupones",
-        "https://www.natura.cl/encuentra-natura",
-        "https://www.natura.cl/regalos-corporativos"
+        "https://arxiv.org/abs/2509.25256",
+        "https://arxiv.org/abs/2606.19887",
+        "https://cdn.hacienda.cl/asset/capif/attachment/6265bb739eee1c1040fcf6911d823bd1e9fa7887cd33d05f10ce45c1d969556a/1775628547?_expiration=1781873890&_hash=z47iz7mYpzN4NxIugPdug9hnkknYsU6FRkZXQfnV2IQ",
+        "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=f91f133e-cc24-401b-9e65-e37cc9fd1613",
+        "https://elpais.com/america/termometro-social/2024-10-07/digitalizacion-financiera-en-america-latina-enfrenta-nueva-era-de-transformacion-y-oportunidades.html",
+        "https://elpais.com/planeta-futuro/2026-02-26/mas-alla-del-acceso-de-la-inclusion-a-la-salud-financiera-en-america-latina-y-el-caribe.html",
+        "https://en.wikipedia.org/wiki/Open_finance",
+        "https://es.wikipedia.org/wiki/Bancarizaci%C3%B3n_en_Chile",
+        "https://es.wikipedia.org/wiki/Bolsa_Electr%C3%B3nica_de_Chile",
+        "https://es.wikipedia.org/wiki/Finanzas_abiertas",
+        "https://es.wikipedia.org/wiki/Tarjeta_bip%21",
+        "https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_financiera",
+        "https://microservicio-documentos.senado.cl/v1/archivos/3d10572e-6b70-49cb-9248-e384696195f5?includeContent=true",
+        "https://openfinance.cl/",
+        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA",
+        "https://practiceguides.chambers.com/practice-guides/fintech-2026/chile",
+        "https://sfasandbox.cl/",
+        "https://sfasandbox.cl/docs.php",
+        "https://vlex.cl/vid/norma-caracter-general-n-1044114160",
+        "https://www.bcentral.cl/documents/33528/133214/jvr21092021.pdf/a402635a-1b09-70e6-fb4e-f9e4f543c477?t=1632251316057",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-96819_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48738.html",
+        "https://www.legal500.com/guides/chapter/chile-fintech/?export-pdf=",
+        "https://www.reddit.com/r/ChargeForward/comments/1t4coln/we_mapped_250_embedded_finance_providers_across/",
+        "https://www.reddit.com/r/RWATimes/comments/1vjbvn1/as%C3%AD_imaginan_el_dinero_en_2030_los_l%C3%ADderes/",
+        "https://www.reddit.com/r/StableCoins/comments/1t9vhvc/how_are_you_evaluating_stable_coin_onofframp/",
+        "https://www.reddit.com/r/chileIT/comments/1jcs4sd",
+        "https://www.reddit.com/r/chileIT/comments/1rlaa9p/implement%C3%A9_un_sistema_de_finanzas_y_cotizaciones/",
+        "https://www.reddit.com/r/fintech/comments/1i0yvkb/discussion_building_a_kyc_validation_tool_for/",
+        "https://www.reddit.com/r/fintech/comments/1r1sb1s/fintech_moves_fast_but_api_testing_is_struggling/",
+        "https://www.reddit.com/r/fintech/comments/1ri4k9f/open_banking_integration_headaches/",
+        "https://www.reddit.com/r/fintech/comments/1sktfg7/bootstrapping_a_fintech_in_a_highrisk_country_how/",
+        "https://www.reddit.com/r/fintech/comments/1sz5ktl/are_fintech_teams_actually_blocked_from_putting/",
+        "https://www.reddit.com/r/fintech/comments/1uce8nb/removed/",
+        "https://www.reddit.com/r/u_CryptoConexion/comments/1eejg9l",
+        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000108/MNCjune2026signed.pdf"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_6f2e57e45dfa0d9df8b2",
+      "candidate_id": "opp_13bbed433a9c3be646a1",
       "coercions": [
+        "critic_case",
         "contrary_evidence"
       ]
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_6f2e57e45dfa0d9df8b2",
-      "response_status": "completed",
-      "incomplete_reason": "",
-      "grounded_source_count": 0,
-      "search_source_urls": []
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_6f2e57e45dfa0d9df8b2",
-      "coercions": []
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 306,
-      "cache_write_tokens": 5571,
+      "reasoning_tokens": 270,
+      "cache_write_tokens": 5392,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02739015,
+      "cumulative_cost_usd": 0.015399,
       "model": "gpt-5.6-luna",
-      "input_tokens": 22340,
+      "input_tokens": 13839,
       "cached_tokens": 0,
-      "output_tokens": 2203,
-      "web_search_calls": 2,
-      "estimated_cost_usd": 0.02739015
+      "output_tokens": 1968,
+      "web_search_calls": 1,
+      "estimated_cost_usd": 0.015399
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 180,
-      "cache_write_tokens": 5383,
+      "reasoning_tokens": 127,
+      "cache_write_tokens": 5238,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0416525,
+      "cumulative_cost_usd": 0.0299613,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13594,
+      "input_tokens": 13804,
       "cached_tokens": 0,
-      "output_tokens": 1062,
+      "output_tokens": 1283,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01426235
-    },
-    {
-      "stage": "judge",
-      "available": true,
-      "reasoning_tokens": 0,
-      "cache_write_tokens": 2312,
-      "accounting_notes": [],
-      "cumulative_cost_usd": 0.0525985,
-      "model": "gpt-5.6-terra",
-      "input_tokens": 2315,
-      "cached_tokens": 0,
-      "output_tokens": 430,
-      "web_search_calls": 0,
-      "estimated_cost_usd": 0.010946
+      "estimated_cost_usd": 0.0145623
     }
   ]
 }
