@@ -79,6 +79,9 @@ jobs:
       - name: Run Scout
         id: scout
         run: python -m scout.cli "${{ steps.mode.outputs.mode }}"
+      - name: Derive non-executing opportunity library
+        if: always() && steps.scout.outcome != 'skipped' && steps.scout.outcome != ''
+        run: python -m scout.cli library
       - name: Preserve recovery artifact
         if: always() && steps.scout.outcome != 'skipped' && steps.scout.outcome != ''
         uses: actions/upload-artifact@v4
@@ -87,6 +90,8 @@ jobs:
           path: |
             state/*.jsonl
             reports/latest.md
+            reports/library.json
+            reports/library.md
           retention-days: 30
       - name: Persist state and reports
         if: always() && steps.scout.outcome != 'skipped' && steps.scout.outcome != ''
