@@ -15,6 +15,16 @@ from .state import atomic_write
 ROOT=Path(__file__).resolve().parents[1]
 TRANSIENT_MONITOR_ERRORS={"api_http_502","api_http_503","api_http_504","api_transport_error","api_rate_limited"}
 
+
+def monitor_health(diag: dict) -> tuple[bool, str]:
+    """Partial source windows are not a healthy, complete monitor run."""
+    if diag.get("api_failures"):
+        return False, "DEGRADED_API_ERRORS"
+    if diag.get("budget_exhausted"):
+        return False, "DEGRADED_INCOMPLETE_REQUEST_BUDGET"
+    return True, "COMPLETE"
+
+
 def _config():
     with (ROOT/"config"/"experiments"/"public_procurement_chile.yaml").open(encoding="utf-8") as h:
         return yaml.safe_load(h) or {}
@@ -58,20 +68,21 @@ def _main():
         }
         atomic_write(ROOT/a.report,json.dumps(report,ensure_ascii=False,sort_keys=True,indent=2)+"\n")
         print(json.dumps(report,ensure_ascii=False,indent=2))
-        return 0
+        return 2
     inserted=sum(st.add_history(r) for r in records)
     if not diag.get("budget_exhausted") and not diag.get("api_failures"): st.set_cursor(observed_iso)
     candidates=[r for r in records if r.status=="publicada" and not reconstructability_reasons(r)]  # noqa: F405
     cap=int(D(cfg.get("monitor")).get("max_report_candidates",20))  # noqa: F405
+    healthy, outcome = monitor_health(diag)
     report={
         "schema_version":1,"generated_at":observed_iso,"window":{"changed_from":changed_from,"changed_to":observed_iso},
-        "ok":not bool(diag.get("api_failures")),"inserted_history":inserted,"diagnostics":diag,"phase1":phase1_report(records),  # noqa: F405
+        "ok":healthy,"outcome":outcome,"inserted_history":inserted,"diagnostics":diag,"phase1":phase1_report(records),  # noqa: F405
         "active_structurally_reconstructable_count":len(candidates),
         "active_candidates":[{"code":r.code,"name":r.name[:240],"buyer":r.buyer_name[:240],"region":r.region_name[:120],"closes_at":r.closes_at,"available_budget_clp":r.available_budget_clp,"estimated_budget":r.estimated_budget,"products":len(r.products)} for r in candidates[:cap]],
         "note":"Research/watch output only. No sourcing-cost or profitability claim is made."
     }
     atomic_write(ROOT/a.report,json.dumps(report,ensure_ascii=False,sort_keys=True,indent=2)+"\n")
     print(json.dumps(report,ensure_ascii=False,indent=2))
-    return 0
+    return 0 if healthy else 2
 
 if __name__=="__main__": raise SystemExit(_main())
