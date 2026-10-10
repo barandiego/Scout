@@ -1,16 +1,28 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-10T04:43:11.490350+00:00
+Generated: 2026-10-10T08:41:12.117391+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
-- Rolling leads: 308
-- New this cycle: 93
+- Rolling leads: 373
+- New this cycle: 112
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 45, ai 74, commerce 31, energy 75, robotics 83
+- Categories: agriculture 55, ai 86, commerce 30, energy 96, robotics 106
 
 ## Recently encountered signals
+
+### sujith13022005-png/agrisense-ai-smart-farming
+- Source: https://github.com/sujith13022005-png/agrisense-ai-smart-farming
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### Preshydreams/farmcraft-ai
+- Source: https://github.com/Preshydreams/farmcraft-ai
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### greenhealthcareagrovet192/rexamagr-ihub
 - Source: https://github.com/greenhealthcareagrovet192/rexamagr-ihub
@@ -26,6 +38,30 @@ Generated: 2026-10-10T04:43:11.490350+00:00
 
 ### Opportunities and challenges of integrating battery energy storage in the electricity grid – perspectives from distribution system operators
 - Source: https://doi.org/10.66506/essp.172
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### kiruthikkumar13/AgriShield-AI
+- Source: https://github.com/kiruthikkumar13/AgriShield-AI
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### 456charishma/AgriTwinAI
+- Source: https://github.com/456charishma/AgriTwinAI
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### 456charishma/AgriTwin-AI
+- Source: https://github.com/456charishma/AgriTwin-AI
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### Battery energy storage–driven cost-oriented energy management of microgrids using black widow optimization
+- Source: https://doi.org/10.1016/j.est.2026.124997
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
@@ -112,6 +148,36 @@ Generated: 2026-10-10T04:43:11.490350+00:00
 - Source: https://github.com/akshayathoutam7/KrishiSahay_AI
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### Why 'vertical farming' is not a fix for our food system
+- Source: https://theconversation.com/why-vertical-farming-is-not-a-fix-for-our-food-system-293201
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### cristhianrobotics/Proyect_Hartech
+- Source: https://github.com/cristhianrobotics/Proyect_Hartech
+- Domain: robotics | Suggested angle: Chile import/distribution or local integration
+- First test: Check installed base, Chilean competitors, supplier pricing, certification and actual buyer budgets.
+- Status: **unverified research lead**
+
+### LloydCoder/Aithyrex
+- Source: https://github.com/LloydCoder/Aithyrex
+- Domain: ai | Suggested angle: Agent-enabled digital asset or localised specialised product
+- First test: Identify measurable customer job, willing buyer, existing competitors and unit economics.
+- Status: **unverified research lead**
+
+### YoGurt31/YoGurt31.github.io
+- Source: https://github.com/YoGurt31/YoGurt31.github.io
+- Domain: robotics | Suggested angle: Chile import/distribution or local integration
+- First test: Check installed base, Chilean competitors, supplier pricing, certification and actual buyer budgets.
+- Status: **unverified research lead**
+
+### nexform-tech/litearm-ros2-control
+- Source: https://github.com/nexform-tech/litearm-ros2-control
+- Domain: robotics | Suggested angle: Chile import/distribution or local integration
+- First test: Check installed base, Chilean competitors, supplier pricing, certification and actual buyer budgets.
 - Status: **unverified research lead**
 
 ### A Reconfigurable Fabric Based Pneumatic Actuator with Button Fastened Constraint Modules for Multi Mode Actuation
@@ -246,6 +312,84 @@ Generated: 2026-10-10T04:43:11.490350+00:00
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
 
+### Saravana-Rajan/AIRA
+- Source: https://github.com/Saravana-Rajan/AIRA
+- Domain: robotics | Suggested angle: Chile import/distribution or local integration
+- First test: Check installed base, Chilean competitors, supplier pricing, certification and actual buyer budgets.
+- Status: **unverified research lead**
+
+### sohaankhan/smart-farming-system
+- Source: https://github.com/sohaankhan/smart-farming-system
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### Om-Salunkhe/SolarPay
+- Source: https://github.com/Om-Salunkhe/SolarPay
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### DevAbhay2003/AI-Based-Autonomous-Navigation-System
+- Source: https://github.com/DevAbhay2003/AI-Based-Autonomous-Navigation-System
+- Domain: robotics | Suggested angle: Chile import/distribution or local integration
+- First test: Check installed base, Chilean competitors, supplier pricing, certification and actual buyer budgets.
+- Status: **unverified research lead**
+
+### DevAbhay2003/AI-Powered-Energy-Consumption-Forecasting
+- Source: https://github.com/DevAbhay2003/AI-Powered-Energy-Consumption-Forecasting
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### gpritu6-beep/energy-forecasting
+- Source: https://github.com/gpritu6-beep/energy-forecasting
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### sijie-dev/imr-team1
+- Source: https://github.com/sijie-dev/imr-team1
+- Domain: robotics | Suggested angle: Chile import/distribution or local integration
+- First test: Check installed base, Chilean competitors, supplier pricing, certification and actual buyer budgets.
+- Status: **unverified research lead**
+
+### yyt-66/yyt-66.github.io
+- Source: https://github.com/yyt-66/yyt-66.github.io
+- Domain: robotics | Suggested angle: Chile import/distribution or local integration
+- First test: Check installed base, Chilean competitors, supplier pricing, certification and actual buyer budgets.
+- Status: **unverified research lead**
+
+### alishajaved1/Electricity-Bill-Analyzer
+- Source: https://github.com/alishajaved1/Electricity-Bill-Analyzer
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### ajinkyakashid94/ROBOTICS-CLUB
+- Source: https://github.com/ajinkyakashid94/ROBOTICS-CLUB
+- Domain: robotics | Suggested angle: Chile import/distribution or local integration
+- First test: Check installed base, Chilean competitors, supplier pricing, certification and actual buyer budgets.
+- Status: **unverified research lead**
+
+### 3freet/Trip-Recorder-NG
+- Source: https://github.com/3freet/Trip-Recorder-NG
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### Emmanuel-Rex/Gridnova_AI_Kodehouz
+- Source: https://github.com/Emmanuel-Rex/Gridnova_AI_Kodehouz
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### avnithin34-maker/KrishiRakshak-AI-
+- Source: https://github.com/avnithin34-maker/KrishiRakshak-AI-
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
 ### Radhin-Krishna-R/Multi-Model-Regression-Diagnostics-and-Time-Series-Forecasting-for-Smart-Meters
 - Source: https://github.com/Radhin-Krishna-R/Multi-Model-Regression-Diagnostics-and-Time-Series-Forecasting-for-Smart-Meters
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
@@ -316,148 +460,4 @@ Generated: 2026-10-10T04:43:11.490350+00:00
 - Source: https://github.com/EduardoMoraga/edu
 - Domain: ai | Suggested angle: Agent-enabled digital asset or localised specialised product
 - First test: Identify measurable customer job, willing buyer, existing competitors and unit economics.
-- Status: **unverified research lead**
-
-### Farm Robotics Challenge launches 2027 season with new divisions and Startup pathway - UC Agriculture and Natural Resources
-- Source: https://news.google.com/rss/articles/CBMickFVX3lxTE5lMk9HREdZbUo5S3FmaFVvUHh2TUN0TXIxRkxaRmJJbTlPZ1VIRjNpZmZsNGJTekhtSGxrRks1MVFzbGxQZVprUGkzc2pJd0J5clprUnFlNndlellMS0FNbjhnQUU2d0oydVdpT3gxbFBzUQ?oc=5
-- Domain: robotics | Suggested angle: Chile import/distribution or local integration
-- First test: Check installed base, Chilean competitors, supplier pricing, certification and actual buyer budgets.
-- Status: **unverified research lead**
-
-### Natura estrena tienda oficial en el ecommerce de Falabella - Supermercado Al Día
-- Source: https://news.google.com/rss/articles/CBMinAFBVV95cUxNbXdUbGNKSzd4LWJ5VGZzaUVPa0tYUHdsckNvbUV1SDhLYmpKdExNbUJuTTRiVjROQnVvVUtJcmZFUi0zeEVQRWRtaVVlc2picHZoZUdjQTh4SHF3THZiaFhuUVpaSFFlMWF4ZFNpRGs1ZThwNEg2T09HMTA3QXZkNmpZY1QyZEoyeV85b2xEaVloeDFtRFVUT2ZldUo?oc=5
-- Domain: commerce | Suggested angle: Under-served product niche or differentiated incumbent alternative
-- First test: Verify demand and seller saturation with legally accessible marketplace data and supplier quotes.
-- Status: **unverified research lead**
-
-### jealsday/FIRST_Global_Robotics_Challenge
-- Source: https://github.com/jealsday/FIRST_Global_Robotics_Challenge
-- Domain: robotics | Suggested angle: Chile import/distribution or local integration
-- First test: Check installed base, Chilean competitors, supplier pricing, certification and actual buyer budgets.
-- Status: **unverified research lead**
-
-### Optimal sizing of a Carnot battery unit coupled with photovoltaics
-- Source: https://doi.org/10.1016/j.nxener.2026.101105
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### xianfuhui/solar-energy-certificate-blockchain-system
-- Source: https://github.com/xianfuhui/solar-energy-certificate-blockchain-system
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Rooks-Donorin/eng6010-ai-robotics
-- Source: https://github.com/Rooks-Donorin/eng6010-ai-robotics
-- Domain: robotics | Suggested angle: Chile import/distribution or local integration
-- First test: Check installed base, Chilean competitors, supplier pricing, certification and actual buyer budgets.
-- Status: **unverified research lead**
-
-### Tiny(43mb) voice-first decision model for robotics
-- Source: https://huggingface.co/neuphonic/neudecide
-- Domain: robotics | Suggested angle: Chile import/distribution or local integration
-- First test: Check installed base, Chilean competitors, supplier pricing, certification and actual buyer budgets.
-- Status: **unverified research lead**
-
-### Strategic competition between battery and pumped hydro storage: equilibrium capacity mix in a marginal-pricing market
-- Source: https://doi.org/10.2139/ssrn.7583824
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Harshini316/Smart-AgriTech-AI-Plant-Disease-Detection
-- Source: https://github.com/Harshini316/Smart-AgriTech-AI-Plant-Disease-Detection
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### kishoreee226-netizen/Agriconnect-web
-- Source: https://github.com/kishoreee226-netizen/Agriconnect-web
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Autonomous thermodynamic cycles via robotic mobility and sensing
-- Source: https://arxiv.org/abs/2610.11667
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### rayxuanzhang-rgb/paper_search
-- Source: https://github.com/rayxuanzhang-rgb/paper_search
-- Domain: robotics | Suggested angle: Chile import/distribution or local integration
-- First test: Check installed base, Chilean competitors, supplier pricing, certification and actual buyer budgets.
-- Status: **unverified research lead**
-
-### Control-Point-FTC/control-point
-- Source: https://github.com/Control-Point-FTC/control-point
-- Domain: robotics | Suggested angle: Chile import/distribution or local integration
-- First test: Check installed base, Chilean competitors, supplier pricing, certification and actual buyer budgets.
-- Status: **unverified research lead**
-
-### quantarram/climate-energy-dashboard
-- Source: https://github.com/quantarram/climate-energy-dashboard
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### gaganchandv-afk/Jalsarathi-smart-farming-assistant
-- Source: https://github.com/gaganchandv-afk/Jalsarathi-smart-farming-assistant
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### LLM-IDEA: Identifiability-Driven Experimental Agent for Autonomous Discovery of Mechanistic World Models
-- Source: https://arxiv.org/abs/2610.11253
-- Domain: ai | Suggested angle: Agent-enabled digital asset or localised specialised product
-- First test: Identify measurable customer job, willing buyer, existing competitors and unit economics.
-- Status: **unverified research lead**
-
-### Shivam-252/Kisaan-Mitra
-- Source: https://github.com/Shivam-252/Kisaan-Mitra
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### SafeInferCom: Safe Inference-Time Compute via Verifier-Guided Mid-Generation Intervention for Robotic Task Planning
-- Source: https://arxiv.org/abs/2610.11223
-- Domain: robotics | Suggested angle: Chile import/distribution or local integration
-- First test: Check installed base, Chilean competitors, supplier pricing, certification and actual buyer budgets.
-- Status: **unverified research lead**
-
-### ActiveReg: Information-Driven Active Regional Probing for Partial-to-Full Bone Registration
-- Source: https://arxiv.org/abs/2610.11003
-- Domain: robotics | Suggested angle: Chile import/distribution or local integration
-- First test: Check installed base, Chilean competitors, supplier pricing, certification and actual buyer budgets.
-- Status: **unverified research lead**
-
-### Nanoparticle Mediated DNA Barcoding for Precision Farming
-- Source: https://doi.org/10.1201/9781003567776-5
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### nandinikante896-art/smart-acquatic-farming
-- Source: https://github.com/nandinikante896-art/smart-acquatic-farming
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### raun6k/Sakha
-- Source: https://github.com/raun6k/Sakha
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Insomniac-VibeLabs/enerchain
-- Source: https://github.com/Insomniac-VibeLabs/enerchain
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Homogeneous Charge Relaxation in Organic Mixed Ionic-Electronic Conductors
-- Source: https://arxiv.org/abs/2610.11977
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
