@@ -2,6 +2,43 @@
   "briefs": [
     {
       "capital_required_unverified_estimate": "",
+      "category": "ecommerce_niches",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Lowest-cost falsification: select 20 identical SKUs visible on Natura.cl and Falabella.com, record price, stock, delivery cost, delivery time, and promotion conditions for seven consecutive days; then ask Natura’s corporate-sales channel whether a small test order can be quoted and whether third-party resale or corporate redistribution is permitted. Do not buy inventory or list products for resale unless the supplier and destination marketplace terms permit it. A signal fails if no SKU shows a repeatable landed-cost difference or if the supplier declines the proposed route.",
+      "current_thesis": "A narrowly scoped monitoring-and-sourcing wedge may exist for buyers seeking verified Natura products, corporate gifts, or temporary channel discounts. The evidence does not establish a durable resale margin, permission to resell, or seller scarcity.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Cross-channel price and availability monitoring for Natura Chile products",
+      "opportunity_id": "opp_6f2e57e45dfa0d9df8b2",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Target a specific neglected customer subgroup with a measurable unmet product requirement.",
+        "Compare imported/private-label, inventoryless fulfillment and existing domestic suppliers after landed costs.",
+        "Test one narrower search/intention channel before expanding catalog or buying inventory."
+      ],
+      "supporting_source_urls": [
+        "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/",
+        "https://www.natura.cl/encuentra-natura",
+        "https://www.falabella.com/falabella-cl/brand/NATURA"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Potentially capture a sourcing or fulfillment spread only after confirming that a specific SKU remains cheaper after shipping, taxes, platform fees, returns, and any brand or marketplace restrictions. An alternative test is a paid corporate-gift sourcing request using publicly listed Natura corporate-sales contact details, without purchasing inventory first.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
       "category": "general",
       "commercially_validated": false,
       "competition_confirmed": false,
@@ -881,6 +918,42 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Lowest-cost falsification: use only the CMF-published technical material and developer-portal information to build a small local validator for one documented message flow; publish a technical demo and contact named implementation teams or vendors identified through public company materials, asking whether they would pay for a $0-to-low-cost pilot or provide a sample conformance problem. Do not represent the tool as CMF-approved, certification, legal advice, or access to regulated data. Kill the test if the specifications are inaccessible, unstable, insufficiently detailed for automated validation, or no implementation team agrees to evaluate a pilot.",
+      "current_thesis": "A small operator could test demand for a narrowly defined automated conformance harness: request/response fixtures, schema validation, consent-flow checks, payment-initiation test cases, and evidence export for internal engineering or vendor acceptance. This is not evidence that regulated entities will buy it or that certification authority exists.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Open-finance conformance test asset for Chilean participants",
+      "opportunity_id": "opp_d8365496cc53375fa445",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://cmfchile.cl/portal/principal/613/w3-article-92556.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Potential revenue would come from selling a downloadable test suite, hosted test endpoint, or fixed-scope integration test package to an entity already implementing against the CMF specifications. No buyer, price, procurement route, or regulatory approval is established by the sources.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Build or sell SFA conformance testing, consent-management, API monitoring, data normalization, fraud controls, or integration middleware; participate in ATENA testing; partner with regulated institutions or prospective SFA providers.",
       "current_thesis": "The near-term bottleneck is shifting from legal authorization to implementation capacity: consent management, API interoperability, security testing, participant-directory integration, and compliance tooling. This lowers uncertainty for firms that can build infrastructure before mandatory participation begins.",
       "founder_hours_initial_unverified_estimate": "",
@@ -1034,7 +1107,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-10T02:23:41.422283+00:00",
+  "generated_at": "2026-10-10T04:11:22.349671+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

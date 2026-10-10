@@ -2,7 +2,19 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 26
+Candidates: 28
+
+## Cross-channel price and availability monitoring for Natura Chile products
+- Status: watch | ecommerce_niches
+- Current idea: A narrowly scoped monitoring-and-sourcing wedge may exist for buyers seeking verified Natura products, corporate gifts, or temporary channel discounts. The evidence does not establish a durable resale margin, permission to resell, or seller scarcity.
+- Potential economic capture: Potentially capture a sourcing or fulfillment spread only after confirming that a specific SKU remains cheaper after shipping, taxes, platform fees, returns, and any brand or marketplace restrictions. An alternative test is a paid corporate-gift sourcing request using publicly listed Natura corporate-sales contact details, without purchasing inventory first.
+- **Research routes to test (NOT validated claims):**
+  - Target a specific neglected customer subgroup with a measurable unmet product requirement.
+  - Compare imported/private-label, inventoryless fulfillment and existing domestic suppliers after landed costs.
+  - Test one narrower search/intention channel before expanding catalog or buying inventory.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/; https://www.natura.cl/encuentra-natura; https://www.falabella.com/falabella-cl/brand/NATURA
 
 ## AI and data-center growth are making electricity and grid access a binding cost constraint
 - Status: watch | general
@@ -267,6 +279,18 @@ Candidates: 26
 - Critical gaps: Whether ATENA is free, subsidized, or commercially monetizable for third-party vendors.; The number of institutions that will actually enroll, connect, and maintain production-grade participation.; The final rollout schedule by participant type and whether July 2027 is the first effective phase rather than broad market availability.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
+## Open-finance conformance test asset for Chilean participants
+- Status: watch | open_finance_chile
+- Current idea: A small operator could test demand for a narrowly defined automated conformance harness: request/response fixtures, schema validation, consent-flow checks, payment-initiation test cases, and evidence export for internal engineering or vendor acceptance. This is not evidence that regulated entities will buy it or that certification authority exists.
+- Potential economic capture: Potential revenue would come from selling a downloadable test suite, hosted test endpoint, or fixed-scope integration test package to an entity already implementing against the CMF specifications. No buyer, price, procurement route, or regulatory approval is established by the sources.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
 
 ## SFA implementation moved from rulemaking toward interoperability testing
 - Status: watch | open_finance_chile

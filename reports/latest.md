@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-10T00:16:08.031146+00:00
+Generated: 2026-10-10T04:11:22.014634+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['open_finance_chile', 'wildcard', 'geographic_arbitrage']
-- raw_candidates: 3
-- parseable_candidates: 3
-- normalized_candidates: 3
+- lenses: ['underserved_buyers', 'seller_supply_gap', 'chile_technology_import']
+- raw_candidates: 2
+- parseable_candidates: 2
+- normalized_candidates: 2
 - normalization_rejected: 0
-- grounded_sources: 6
+- grounded_sources: 5
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
 - critic_reviews: 1
 - judge_reviews: 1
 - survivors: 0
-- watches: 1
+- watches: 3
 - rejected: 0
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.0438624
+- cost_usd: 0.0452406
 - cost_uncertain: False
-- budget_remaining_usd: 0.0361376
+- budget_remaining_usd: 0.0347594
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,8 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Chile SFA implementation moves from rulemaking to build phase, but go-live is deferred to July 2027: The regulatory premise is sufficiently grounded by CMF primary-source URLs in the trusted provenance: NCG 514 has been modified and the claimed transition toward technical implementation is not rejected as an unverified regulatory change. Required data access also appears directionally intended by the regulated SFA framework, so there is no demonstrated legal or technical access fatality at this stage. However, this is not yet an HQ-worthy build thesis: the delayed July 2027 effective date, unproven customer budgets and procurement, unclear mandatory versus optional external-tooling needs, and a small concentrated buyer universe create major uncertainty over whether compliance and go-to-market costs can be recouped. The appropriate judgment is watch pending evidence of paid demand and final operational rules, not execution.
-- Chile’s Open Finance implementation is moving from regulation to integration infrastructure: judge_deferred
 - Battery storage deployment accelerates as a grid-scale economic asset: The underlying market-growth premise is credibly grounded by recent IEA sources, and a plausible payer base exists (utilities, load-serving entities, critical-load customers, and asset owners). However, this is a broad sector thesis rather than an HQ-worthy, participation-ready opportunity: no target market, revenue contract, interconnection advantage, customer, asset duration, or capital structure is specified. Storage deployment growth does not establish durable returns for a new developer, owner, financier, or software provider; revenue cannibalization, queue constraints, merchant volatility, and incumbent competition can absorb much of the value. The appropriate judgment is watch pending a geographically specific wedge with contracted or otherwise defensibly underwritten economics.
 - Standardized account-data and payment APIs create a transfer path for data-driven financial services: Chile’s Open Finance direction and standardized account-data API documentation are sufficiently grounded in CMF primary materials to support research. The cited account APIs indicate that regulated, consent-based access is technically contemplated, so this is not presently disproven by an unavailable-data/API fatal condition. However, the commercial proposition is an infrastructure-level migration thesis rather than a defined business with demonstrated ability to capture value. The payment-initiation material is described as a consultation/process item, and the supplied record itself identifies a delayed, phased path toward July 2027 and beyond; it should not be treated as immediate, stable production access. A new entrant also faces potentially material licensing, security, consent, privacy, AML, operational-resilience, certification, and dispute-handling obligations. Those costs may be rational for a focused, regulated use case with proprietary distribution or risk/workflow advantage, but there is no evidence yet that standalone aggregation/orchestration economics justify them. Therefore it survives as HQ-worthy research, conditional on narrowing to a customer-validated use case and confirming the applicable regulatory perimeter and production-access path.
 - Chile’s Open Finance implementation is moving from rulemaking toward interoperable production infrastructure: The regulatory shift is sufficiently grounded by CMF primary materials: the SFA rule was amended and a technical annex was incorporated, while participant-directory and authorization/API specifications indicate concrete implementation infrastructure rather than a purely legislative concept. Accordingly, this is not rejected for an unverified or misread regulatory change. However, it is not yet a survivor: production-grade access, mandatory participant sequencing, conformance/certification requirements, liability allocation, and commercial procurement remain unresolved. The apparent implementation horizon (entry into force in 2027 with phased rollout potentially extending later) makes this a long-cycle regulated-enterprise infrastructure opportunity, not evidence of immediate scalable data access or demand. A generic consent, normalization, or connectivity layer faces substantial incumbent and direct-build risk from banks, Fintoc, Belvo, Floid, and other local providers. The opportunity can survive only as a narrow, differentiated wedge with paid design partners and a demonstrated use-case ROI; the broad middleware/analytics thesis does not yet establish economic value capture in Chile alone.
@@ -51,12 +49,14 @@ No survivors. Scout does not manufacture a daily winner.
 - Industrial robot installations reached a record in 2025, with strongest growth in China and the United States: The IFR primary-source evidence makes the core demand signal reasonably credible and timely: a larger installed base and renewed installation growth can expand spending around deployment, uptime, and lifecycle service. However, this is a sector-level tailwind rather than a defined opportunity. The proposed value-capture mechanisms combine fundamentally different businesses—systems integration, retrofit hardware, fleet software, maintenance, and financing—without identifying a buyer, painful workflow, product wedge, access path, price, or unit economics. There is a plausible payer (manufacturers seeking productivity, uptime, quality, or labor relief) and feasible participation routes, so the premise is not fatally unverifiable or structurally closed. It should remain research-only until narrowed to a specific vertical/application and validated against customer economics and incumbent alternatives.
 - Chile’s open-finance implementation is becoming an integration and testing market: The cited CMF materials credibly support that Chile’s Sistema de Finanzas Abiertas has published technical specifications, a July 2027 effective date, and an ATENA testing sandbox. This clears the threshold for a real regulatory/infrastructure signal and does not establish a fatal lack of legal or technical access. However, the opportunity is presently a broad implementation theme rather than an HQ-worthy, economically validated wedge: sandbox availability and a future compliance date do not demonstrate production connectivity, paid vendor demand, viable unit economics, or an ability for an unregulated/foreign entrant to bear registration, cybersecurity, privacy, liability, and local-operational requirements. Keep under watch pending evidence for a specific buyer/use case and production-commercial conversion.
 - Chile’s Open Finance implementation moves from framework to interoperability infrastructure: The regulatory transition appears sufficiently grounded: CMF primary-source material in the provided provenance supports NCG 514, a June 2026 technical update, and a delayed/progressive SFA implementation beginning in July 2027. Therefore, this is not rejected for an unverified regulatory change. However, the opportunity is a broad implementation theme rather than a demonstrated, economically accessible business. Mandated interoperability establishes compliance demand, but it does not establish that independent vendors can obtain production access, meet security/certification expectations, displace internal builds and incumbents, or earn recurring margins in Chile’s limited market. The CMF-provided portal, testing/sandbox and standardized baseline may further commoditize generic infrastructure. It survives as research only if narrowed to a specific regulated-buyer workflow with validated procurement and a credible path to regional expansion.
+- Open-finance conformance test asset for Chilean participants: deferred_by_review_cap
+- Cross-channel price and availability monitoring for Natura Chile products: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "review_cap_not_persisted=2"
+    "research_queue_unreviewed=2"
   ],
   "stages": [
     {
@@ -64,37 +64,34 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 29,
+      "grounded_source_count": 26,
       "search_source_urls": [
-        "https://apnews.com/article/a2d914ff6c06b230decf930760ccb44f",
-        "https://arxiv.org/abs/2202.12811",
-        "https://arxiv.org/abs/2401.13674",
-        "https://arxiv.org/abs/2407.02003",
-        "https://arxiv.org/abs/2510.20863",
-        "https://blog.investchile.gob.cl/2026/chile-atractivo-latam-ied?hs_amp=true",
-        "https://en.wikipedia.org/wiki/Economic_history_of_Chile",
-        "https://en.wikipedia.org/wiki/Economy_of_Chile",
-        "https://en.wikipedia.org/wiki/Latin_American_economy",
-        "https://en.wikipedia.org/wiki/Miracle_of_Chile",
-        "https://en.wikipedia.org/wiki/Value-added_tax",
-        "https://endeavor.cl/wp-content/uploads/2025/05/Endeavor-Review-Soft-Landing-1.pdf",
-        "https://es.wikipedia.org/wiki/Econom%C3%ADa_de_Chile",
-        "https://funpacifico.cl/wp-content/uploads/2025/12/Strategic-Elements-for-Chiles-Trade-Policy-in-the-Asia-Pacific-Basin.pdf",
-        "https://ir.latam.com/English/about-latam/why-invest-in-latam/default.aspx",
-        "https://www.bcentral.cl/contenido/-/detalle/una-mirada-a-las-percepciones-de-las-empresas-sobre-los-costos-y-su-impacto-en-los-precios",
-        "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html",
+        "https://cmfchile.cl/portal/principal/613/w3-article-92556.html",
+        "https://en.wikipedia.org/wiki/Falabella_%28retail_store%29",
+        "https://en.wikipedia.org/wiki/Natura_Market",
+        "https://en.wikipedia.org/wiki/S.A.C.I._Falabella",
+        "https://es.wikipedia.org/wiki/Falabella",
+        "https://es.wikipedia.org/wiki/Grupo_Falabella",
+        "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/",
+        "https://production.na01.natura.com/on/demandware.static/-/Sites-NatChile-Library/default/v4451a1d4e6abdb654aa976752e4626774c6ec279/landing-page/sustentabilidad/PDFs/Informe_Integrado_Natura_Co_2024_vf-22-09-2025.pdf",
+        "https://production.na01.natura.com/on/demandware.static/-/Sites-NatChile-Library/default/vce1c833592ff9f6f4d6a8bc5bf4fe5f2d9e9133b/landing-page/regalos-corporativos/PDF/catalogo-dia-de-las-madres-regalos-corporativos-10-04-2025.pdf",
+        "https://sernac.cl/604/w3-article-84788.html",
+        "https://static.rede.natura.net/terminos-y-condiciones-31-01-chile.pdf",
         "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/principal/613/articles-83451_doc_pdf.pdf",
-        "https://www.economia.gob.cl/2026/01/14/cartera-de-proyectos-de-inversion-extranjera-de-investchile-alcanzo-los-us-65-689-millones-en-2025-17-mas-que-el-ano-anterior.htm",
-        "https://www.gemconsortium.org/file/open?fileId=51621",
-        "https://www.hlb.global/wp-content/uploads/2025/05/HLB-Survey-of-Business-Leaders-2025-LATAM-report.pdf",
-        "https://www.iadb.org/en/blog/development-effectiveness/building-digital-talent-pipeline-diversify-chiles-global-services-exports",
-        "https://www.latam.ufl.edu/media/latamufledu/labe/2025-LABER.pdf",
-        "https://www.prochile.gob.cl/noticias/detalle-noticia/2025/08/28/goglobal-2025--34-empresas-chilenas-de-innovaci%C3%B3n-inician-su-camino-hacia-la-internacionalizaci%C3%B3n-gracias-a-prochile-y-corfo",
-        "https://www.sii.cl/noticias/2025/220925noti01pcr.htm?share=print",
-        "https://www.subrei.gob.cl/estudios-y-documentos/documentos/detalle-otras-fichas-y-reportes/perspectivas-del-comercio-exterior-de-chile-y-sus-principales-socios-comerciales--a%C3%B1o-2025",
-        "https://www.subrei.gob.cl/estudios-y-documentos/informe-trimestral-macroeconomico/detalle-informe/2025/perspectivas-econ%C3%B3micas-globales-y-comercio-exterior-de-chile---mayo-2025",
-        "https://www.trade.gov/country-commercial-guides/chile-selling-factors-and-techniques"
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.falabella.com/falabella-cl/brand/NATURA",
+        "https://www.falabella.com/falabella-cl/brand/NATURA?mkid=LP_V3M_NAT_37",
+        "https://www.falabella.com/falabella-cl/brand/NATURA?sid=HO_MD1_NAT_248",
+        "https://www.fne.gob.cl/wp-content/uploads/2019/12/aprob54a_F207_2019.pdf",
+        "https://www.natura.cl/blog/mas-natura/guia-de-compra-online",
+        "https://www.natura.cl/encuentra-natura",
+        "https://www.reddit.com/r/RepublicadeChile/comments/1m7kvqz",
+        "https://www.reddit.com/r/chile/comments/1ugtuww/parece_que_van_a_despedir_a_alguien/",
+        "https://www.reddit.com/r/chileIT/comments/1n5q0pa/duda_de_totalmente_de_curioso_qu%C3%A9_pasar%C3%ADa_si/",
+        "https://www.sernac.cl/portal/604/w3-propertyvalue-20982.html",
+        "https://www.sernac.cl/portal/618/w3-article-84771.html",
+        "https://www.sernac.gob.cl/portal/619/articles-81927_archivo_01.pdf",
+        "https://www.visa.cl/content/dam/VCOM/download/about-visa/Visa_Core_Rules_and_Visa_Product_Chile_2025-04-12_EN.pdf"
       ]
     },
     {
@@ -109,7 +106,7 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 2,
+      "grounded_sources": 3,
       "retry_justified": false
     },
     {
@@ -128,66 +125,53 @@ No survivors. Scout does not manufacture a daily winner.
       "retry_justified": false
     },
     {
-      "index": 2,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 2,
-      "retry_justified": false
-    },
-    {
       "stage": "critic",
-      "candidate_id": "opp_76bab7c7078e2a4286c7",
+      "candidate_id": "opp_7c40e3dba23666b0c578",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 26,
+      "grounded_source_count": 29,
       "search_source_urls": [
-        "https://cmfchile.cl/portal/principal/613/articles-82752_recurso_1.pdf",
-        "https://cmfchile.cl/portal/principal/623/w4-article-108561.html",
+        "https://arxiv.org/abs/2104.00970",
+        "https://arxiv.org/abs/2210.01109",
+        "https://arxiv.org/abs/2511.02608",
+        "https://arxiv.org/abs/2606.05594",
+        "https://cdn.hacienda.cl/asset/hacienda_prod/attachment/e3c0a8c3b7d47dbb3f9b3e28a1bb11881759c8266302d7fc2de981ec599c369a/1769809551?_expiration=1776720910&_hash=Ue9QaJpD7YDUx8eM3myFf9t86l0s3XUWOW6FWuweMf8",
+        "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=f91f133e-cc24-401b-9e65-e37cc9fd1613",
         "https://cmfchile.cl/portal/principal/623/w4-article-113974.html",
-        "https://cmfchile.cl/portal/principal/623/w4-article-92466.html",
+        "https://cmfchile.cl/portal/principal/623/w4-propertyvalue-26178.html",
+        "https://elpais.com/chile/2025-07-04/los-pagos-con-tarjetas-telefonos-y-plataformas-digitales-ganan-terreno-en-chile.html",
         "https://en.wikipedia.org/wiki/Open_banking",
         "https://en.wikipedia.org/wiki/Open_finance",
-        "https://es.wikipedia.org/wiki/Finanzas_abiertas",
+        "https://es.wikipedia.org/wiki/Bancarizaci%C3%B3n_en_Chile",
+        "https://es.wikipedia.org/wiki/Banco_Santander_%28Chile%29",
+        "https://es.wikipedia.org/wiki/Fapro",
         "https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_financiera",
-        "https://practiceguides.chambers.com/practice-guides/banking-regulation-2026/chile",
-        "https://theintelligent.cl/tecnologia/2026/cmf-aplaza-entrada-en-vigencia-del-sistema-de-finanzas-abiertas-hasta-julio-de-2027",
-        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
-        "https://www.cmfchile.cl/portal/prensa/615/articles-71073_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-102547.html",
+        "https://one.oecd.org/document/DAF/COMP/LACCF%282024%2916/en/pdf",
+        "https://openfinance.cl/",
+        "https://publications.iadb.org/publications/english/document/Open-Finance-in-Latin-America-and-the-Caribbean-Great-Opportunities-Large-Challenges.pdf",
+        "https://www.bcentral.cl/areas/encuestas-economicas/estudio-comportamiento-de-pagos",
         "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/principal/613/articles-89573_doc_pdf.pdf?ts=1736947420",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html",
+        "https://www.cmfchile.cl/portal/principal/613/articles-92466_recurso_1.pdf",
         "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-82752.html",
         "https://www.elibrary.imf.org/abstract/journals/002/2024/042/article-A003-en.xml",
-        "https://www.imf.org/-/media/files/publications/cr/2025/english/1chlea2025001-print-pdf.pdf",
-        "https://www.imf.org/_next/data/EpnxHCnVQm0tS7VzM-X4o/en/-/media/files/publications/cr/2024/english/1chlea2024002.pdf.json",
-        "https://www.reddit.com/r/Compliance_Advisor/comments/1qupbp9/market_integration_package_mip_whats_next_for/",
-        "https://www.reddit.com/r/Compliance_Advisor/comments/1wpwfmr/amlr_readiness_by_july_10_2027_from_legal/",
-        "https://www.reddit.com/r/FinCrimeAcademy/comments/1vl6vni/amlo_duties_under_sec_5_6_15_gwg_by_the_2026_amla/",
-        "https://www.reddit.com/r/WorkReform/comments/1vnkuij/i_wrote_a_bill_to_stop_banks_and_gig_apps_from/",
-        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000069/MNCenglish.pdf"
+        "https://www.elibrary.imf.org/view/journals/002/2023/036/article-A001-en.xml",
+        "https://www.elibrary.imf.org/view/journals/002/2024/042/article-A002-en.xml",
+        "https://www.hacienda.cl/noticias-y-eventos/noticias/ministerio-de-hacienda-y-bid-dan-a-conocer-resultados-de-encuesta-sobre",
+        "https://www.imf.org/_next/data/EpnxHCnVQm0tS7VzM-X4o/en/-/media/files/publications/cr/2023/english/1chlea2023002.pdf.json",
+        "https://www.mastercard.us/content/dam/public/mastercardcom/na/us/en/fintech/documents/fintech-radar-chile-report.pdf",
+        "https://www.minsait.com/es/estudios/open-finance-en-chile-de-la-implementacion-regulatoria-a-la-oportunidad-de-negocio"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_76bab7c7078e2a4286c7",
+      "candidate_id": "opp_7c40e3dba23666b0c578",
       "coercions": [
-        "critic_case",
         "contrary_evidence"
       ]
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_76bab7c7078e2a4286c7",
+      "candidate_id": "opp_7c40e3dba23666b0c578",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -195,7 +179,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_76bab7c7078e2a4286c7",
+      "candidate_id": "opp_7c40e3dba23666b0c578",
       "coercions": []
     }
   ],
@@ -203,44 +187,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 200,
-      "cache_write_tokens": 4651,
+      "reasoning_tokens": 367,
+      "cache_write_tokens": 5069,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01494155,
+      "cumulative_cost_usd": 0.01476705,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13189,
+      "input_tokens": 13622,
       "cached_tokens": 0,
-      "output_tokens": 1726,
+      "output_tokens": 1491,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01494155
+      "estimated_cost_usd": 0.01476705
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 119,
-      "cache_write_tokens": 5235,
+      "reasoning_tokens": 186,
+      "cache_write_tokens": 6151,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0296599,
+      "cumulative_cost_usd": 0.0296896,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13691,
+      "input_tokens": 14555,
       "cached_tokens": 0,
-      "output_tokens": 1432,
+      "output_tokens": 1420,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01471835
+      "estimated_cost_usd": 0.01492255
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 58,
-      "cache_write_tokens": 2645,
+      "reasoning_tokens": 51,
+      "cache_write_tokens": 3290,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0438624,
+      "cumulative_cost_usd": 0.0452406,
       "model": "gpt-5.6-terra",
-      "input_tokens": 2648,
+      "input_tokens": 3293,
       "cached_tokens": 0,
-      "output_tokens": 632,
+      "output_tokens": 610,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.0142025
+      "estimated_cost_usd": 0.015551
     }
   ]
 }

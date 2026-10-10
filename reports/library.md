@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-10T01:27:19.857788+00:00
+Generated: 2026-10-10T04:11:22.330671+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 26 (0 HQ survivors, 26 watches)
+- Active research: 28 (0 HQ survivors, 28 watches)
 - Rejected opportunities excluded: 16
-- Critic-and-judge reviewed: 23
+- Critic-and-judge reviewed: 24
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -82,6 +82,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Number of entities legally required or commercially motivated to participate in each implementation phase.; Whether banks and other regulated institutions will buy external implementation software instead of using internal teams or existing vendors.; Actual implementation budgets, procurement timelines, contract sizes and willingness to pay.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/institucional/legislacion_normativa/normativa2.php?entidad_web=ALL&enviado=1&hidden_mercado=%25&materia=ALL&numero=514&tiponorma=NCG
+
+### Chile’s Open Finance implementation is moving from regulation to integration infrastructure [opp_7c40e3dba23666b0c578]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: The regulatory framework is becoming technically actionable, but banks, fintechs, data intermediaries, consent-management providers, compliance vendors, and integration specialists still have preparation time and implementation friction. This creates a window for infrastructure and localized financial-data products before mandatory adoption.
+- Value capture: Sell API integration, consent orchestration, conformance testing, fraud and identity controls, developer tooling, compliance services, or consumer/SME products built on account aggregation and payment initiation.
+- Participation hypothesis: Build a Chile-specific SFA integration and testing layer; partner with regulated institutions or prospective participant entities; use the CMF developer portal and ATENA sandbox to validate interoperability.
+- Critic/judge: The regulatory signal is sufficiently grounded in CMF primary sources to support continued HQ research: the stated technical annex/developer-portal and ATENA sandbox developments are not, on this record, an unverified regulatory-change claim. There is also an apparent path to technical preparation through official tooling and a sandbox, so required access is not shown to be legally or technically unavailable. However, this is not yet a
+- Next evidence gaps: The number of entities that will be required to participate in each implementation phase and the exact dates applicable to each category.; Whether CMF will further amend technical specifications, certification rules, liability allocation, cost allocation, or sandbox requirements before July 2027.; Whether regulated institutions will buy third-party infrastructure or build integrations internally or through existing core-banking and systems-integration vendors.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
 ### Chile’s Open Finance implementation is moving from rulemaking toward interoperable production infrastructure [opp_e29a1fc5319ab6154ba5]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -243,6 +253,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://cmfchile.atlassian.net/wiki/spaces/OFAC/pages/267649439/API%2BCuentas%2BOpen%2BFinance%2BChile%2Bv1.0.0; https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html
 
+### Cross-channel price and availability monitoring for Natura Chile products [opp_6f2e57e45dfa0d9df8b2]
+- Status: WATCH_REQUIRES_VALIDATION | ecommerce_niches | Chile
+- Thesis: A narrowly scoped monitoring-and-sourcing wedge may exist for buyers seeking verified Natura products, corporate gifts, or temporary channel discounts. The evidence does not establish a durable resale margin, permission to resell, or seller scarcity.
+- Value capture: Potentially capture a sourcing or fulfillment spread only after confirming that a specific SKU remains cheaper after shipping, taxes, platform fees, returns, and any brand or marketplace restrictions. An alternative test is a paid corporate-gift sourcing request using publicly listed Natura corporate-sales contact details, without purchasing inventory first.
+- Participation hypothesis: Lowest-cost falsification: select 20 identical SKUs visible on Natura.cl and Falabella.com, record price, stock, delivery cost, delivery time, and promotion conditions for seven consecutive days; then ask Natura’s corporate-sales channel whether a small test order can be quoted and whether third-party resale or corporate redistribution is permitted. Do not buy inventory or list products for resale unless the supplier and destination marketplace terms permit it. A signal fails if no SKU shows a repeatable landed-cost difference or if the supplie
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/; https://www.natura.cl/encuentra-natura; https://www.falabella.com/falabella-cl/brand/NATURA
+
 ### Chile SFA implementation moves from rulemaking to integration testing [opp_82f282d8dc0896390ee7]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: The near-term bottleneck is shifting from legal uncertainty to implementation capacity, certification, consent, security, data mapping and payment-initiation integration. Value is likely to accrue before go-live to firms that reduce compliance and integration costs for banks, fintechs and data-access participants.
@@ -253,15 +273,15 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
-### Chile’s Open Finance implementation is moving from regulation to integration infrastructure [opp_7c40e3dba23666b0c578]
+### Open-finance conformance test asset for Chilean participants [opp_d8365496cc53375fa445]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
-- Thesis: The regulatory framework is becoming technically actionable, but banks, fintechs, data intermediaries, consent-management providers, compliance vendors, and integration specialists still have preparation time and implementation friction. This creates a window for infrastructure and localized financial-data products before mandatory adoption.
-- Value capture: Sell API integration, consent orchestration, conformance testing, fraud and identity controls, developer tooling, compliance services, or consumer/SME products built on account aggregation and payment initiation.
-- Participation hypothesis: Build a Chile-specific SFA integration and testing layer; partner with regulated institutions or prospective participant entities; use the CMF developer portal and ATENA sandbox to validate interoperability.
-- Critic/judge: judge_deferred
-- Next evidence gaps: The number of entities that will be required to participate in each implementation phase and the exact dates applicable to each category.; Whether CMF will further amend technical specifications, certification rules, liability allocation, cost allocation, or sandbox requirements before July 2027.; Whether regulated institutions will buy third-party infrastructure or build integrations internally or through existing core-banking and systems-integration vendors.
+- Thesis: A small operator could test demand for a narrowly defined automated conformance harness: request/response fixtures, schema validation, consent-flow checks, payment-initiation test cases, and evidence export for internal engineering or vendor acceptance. This is not evidence that regulated entities will buy it or that certification authority exists.
+- Value capture: Potential revenue would come from selling a downloadable test suite, hosted test endpoint, or fixed-scope integration test package to an entity already implementing against the CMF specifications. No buyer, price, procurement route, or regulatory approval is established by the sources.
+- Participation hypothesis: Lowest-cost falsification: use only the CMF-published technical material and developer-portal information to build a small local validator for one documented message flow; publish a technical demo and contact named implementation teams or vendors identified through public company materials, asking whether they would pay for a $0-to-low-cost pilot or provide a sample conformance problem. Do not represent the tool as CMF-approved, certification, legal advice, or access to regulated data. Kill the test if the specifications are inaccessible, unsta
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/prensa/625/w4-article-113897.html
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
 
 ### Tokenized unified-ledger infrastructure is moving from concept toward financial-market architecture [opp_993ac5d080c7042af44c]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Global; Chile relevance through future interoperable financial-data and payment infrastructure
