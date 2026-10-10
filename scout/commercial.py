@@ -23,10 +23,16 @@ PRODUCT_VERTICALS = (
     "robotics_agritech",
     "innovation_adoption",
 )
-SPECIFIC_WEDGE_WORDS = (
-    "kit", "test", "harness", "pre-check", "recovery",
-    "conformance", "tool", "template", "product", "asset",
-)
+# Constrained to product-level evidence: "production infrastructure" and
+# "integration testing market" do not make a narrow sellable product.
+SPECIFIC_WEDGES = {
+    "ecommerce_niches": ("returns-recovery", "returns recovery", "product kit", "sku test"),
+    "chile_localization": ("kit", "localization product"),
+    "open_finance_chile": ("conformance test", "conformance-test", "test harness", "test asset"),
+    "energy_infrastructure": ("pre-check", "compliance kit"),
+    "robotics_agritech": ("audit wedge", "product kit", "equipment test"),
+    "innovation_adoption": ("product kit", "software tool", "test harness"),
+}
 BUYER_TESTS = {
     "ecommerce_niches": (
         "Select one specific product/problem. Verify alternatives, landed or "
@@ -92,34 +98,36 @@ def commercial_review_queue(library: dict, *, maximum: int = 4) -> dict:
         vertical = card.get("vertical")
         if vertical not in PRODUCT_VERTICALS:
             continue
-        if card.get("critic_reviewed") is not True or card.get("judge_reviewed") is not True:
-            continue
+        reviewed = card.get("critic_reviewed") is True and card.get("judge_reviewed") is True
         if _evidence_count(card) < 2 or not str(card.get("participation_path", "")).strip():
             continue
         title = str(card.get("title", "")).lower()
-        narrow = any(word in title for word in SPECIFIC_WEDGE_WORDS)
+        narrow = any(word in title for word in SPECIFIC_WEDGES[vertical])
         if not narrow:
             # Generic regulation or technology trends belong in the research
             # library, NOT a first-dollar buyer test worklist.
             continue
-        chilean = "chile" in str(card.get("geography", "")).lower() or "chile" in title
+        # Source-backed unreviewed records may be proposed for *review*, not
+        # execution. Hiding them would let a generic reviewed macro thesis
+        # displace more falsifiable product hypotheses.
         score = (
-            int(chilean),
+            int(reviewed),
             _evidence_count(card),
-            int(card.get("status") == "survived"),
-            -PRODUCT_VERTICALS.index(vertical),
         )
         candidates.append((score, card))
 
-    candidates.sort(key=lambda pair: (
-        tuple(-n for n in pair[0]), pair[1]["title"].casefold(), pair[1]["id"]
-    ))
     selected, used_verticals = [], set()
-    for _, card in candidates:
-        vertical = card["vertical"]
-        if vertical in used_verticals:
+    for vertical in PRODUCT_VERTICALS:
+        choices = [(score, card) for score, card in candidates
+                   if card["vertical"] == vertical]
+        choices.sort(key=lambda pair: (
+            tuple(-n for n in pair[0]), pair[1]["title"].casefold(), pair[1]["id"]
+        ))
+        if not choices:
             continue
+        _, card = choices[0]
         used_verticals.add(vertical)
+        reviewed = card.get("critic_reviewed") is True and card.get("judge_reviewed") is True
         selected.append({
             "opportunity_id": card["id"],
             "title": card["title"],
@@ -127,6 +135,10 @@ def commercial_review_queue(library: dict, *, maximum: int = 4) -> dict:
             "origin": "EXISTING_SCOUT_WATCH_OR_SURVIVOR_NOT_NEW_OPPORTUNITY",
             "current_status": card["research_status"],
             "economic_status": "UNVALIDATED_NO_VERIFIED_BUYER_OR_SALE",
+            "independent_review_status": (
+                "CRITIC_JUDGE_COMPLETE_NOT_COMMERCIAL_PROOF" if reviewed
+                else "REVIEW_PENDING_DO_NOT_PROMOTE"
+            ),
             "buyer_verified": False,
             "revenue_verified": False,
             "automatic_outreach_authorized": False,
@@ -137,7 +149,9 @@ def commercial_review_queue(library: dict, *, maximum: int = 4) -> dict:
                 e["url"] for e in card["evidence"]
                 if isinstance(e, dict) and e.get("grounded_in_provider_search") is True
             ][:4],
-            "missing_to_prove": list(MISSING_PROOFS),
+            "missing_to_prove": (
+                ([] if reviewed else ["independent_critic_and_judge"]) + list(MISSING_PROOFS)
+            ),
         })
         if len(selected) >= maximum:
             break
@@ -174,7 +188,8 @@ def render_commercial_queue(report: dict) -> str:
             f"- Origin: existing Scout research; {_simple(card['vertical'])}; no new opportunity claim",
             f"- Next falsifiable no-spend test: {_simple(card['next_no_spend_buyer_test'], 430)}",
             f"- Distribution hypothesis (not verified): {_simple(card['first_distribution_hypothesis'], 430)}",
-            "- Missing: independent buyer, credible paid price, all-in contribution margin, lawful channel, real receipt",
+            "- Independent critic/judge: " + card["independent_review_status"],
+            "- Missing: " + ", ".join(card["missing_to_prove"]),
             "- Sources: " + "; ".join(_simple(u, 195) for u in card["verified_source_urls"]),
             "- Status: **WATCH — no automated outreach, spending, or execution**",
             "",
