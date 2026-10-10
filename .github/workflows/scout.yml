@@ -10,7 +10,7 @@ on:
         required: true
         default: cycle
         type: choice
-        options: [cycle, report, calibrate]
+        options: [cycle, report, calibrate, trial-model-check, trial-preflight, trial-cycle]
 permissions:
   contents: write
   actions: read
@@ -23,6 +23,7 @@ jobs:
     timeout-minutes: 30
     env:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      SCOUT_RESEARCH_TRIAL_ARMED: ${{ vars.SCOUT_RESEARCH_TRIAL_ARMED }}
     steps:
       - uses: actions/checkout@v5
         with: {fetch-depth: 0}
@@ -40,10 +41,10 @@ jobs:
           SCOUT_MODE: ${{ inputs.mode || 'cycle' }}
         shell: bash
         run: |
-          case "$SCOUT_MODE" in cycle|report|calibrate) ;; *) exit 1 ;; esac
+          case "$SCOUT_MODE" in cycle|report|calibrate|trial-model-check|trial-preflight|trial-cycle) ;; *) exit 1 ;; esac
           echo "mode=$SCOUT_MODE" >> "$GITHUB_OUTPUT"
       - name: Verify preceding run persisted
-        if: steps.mode.outputs.mode == 'cycle'
+        if: steps.mode.outputs.mode == 'cycle' || steps.mode.outputs.mode == 'trial-cycle'
         env:
           GH_TOKEN: ${{ github.token }}
         shell: bash
@@ -74,7 +75,7 @@ jobs:
             fi
           fi
       - name: API/model preflight
-        if: steps.mode.outputs.mode == 'cycle'
+        if: steps.mode.outputs.mode == 'cycle' || steps.mode.outputs.mode == 'trial-cycle'
         run: python -m scout.cli preflight
       - name: Run Scout
         id: scout

@@ -43,12 +43,12 @@ class AIResponseError(RuntimeError):
 
 
 class AIClient:
-    def __init__(self, pricing: dict[str, Any]):
+    def __init__(self, pricing: dict[str, Any], *, timeout_seconds: float = 60.0):
         from openai import OpenAI
         key = os.environ.get('OPENAI_API_KEY')
         if not key:
             raise RuntimeError('missing_api_key')
-        self.client = OpenAI(api_key=key, max_retries=0, timeout=60.0)
+        self.client = OpenAI(api_key=key, max_retries=0, timeout=timeout_seconds)
         self.pricing = pricing
 
     def validate_models(self, models: list[str]) -> None:
