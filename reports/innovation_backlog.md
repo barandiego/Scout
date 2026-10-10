@@ -2,7 +2,19 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 28
+Candidates: 30
+
+## Public-market exposure to behind-the-meter power equipment for data centers
+- Status: watch | asymmetric_investing
+- Current idea: The bottleneck is monetized through equipment orders and backlog conversion, not merely projected AI demand. A small investor can evaluate whether public suppliers with disclosed orders are being valued on realized backlog, recurring service revenue and execution risk rather than on AI narrative alone.
+- Potential economic capture: Acquire publicly traded shares or monitor the securities of issuers with disclosed data-center power orders, then test the thesis against subsequent backlog conversion, gross margin, cash flow, cancellations and customer concentration. Downside cases include order delays, customer concentration, working-capital stress, project cancellations and valuation compression; no return is established.
+- **Research routes to test (NOT validated claims):**
+  - Form an early-adoption or balance-sheet hypothesis with dated primary disclosures.
+  - Contrast current valuation with realistic downside dilution, illiquidity and contrary catalysts.
+  - Build a watchlist of falsifiable milestones; never buy from an unreviewed alert.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.sec.gov/Archives/edgar/data/80420/000008042026000063/ex991-powlq2xfy2026earning.htm; https://www.sec.gov/Archives/edgar/data/2110029/000119312526249668/d12401ds1a.htm
 
 ## Cross-channel price and availability monitoring for Natura Chile products
 - Status: watch | ecommerce_niches
@@ -160,6 +172,18 @@ Candidates: 28
 - Possible initial budget:
 - Source URLs: https://www.whitehouse.gov/presidential-actions/2026/01/adjusting-imports-of-processed-critical-minerals-and-their-derivative-products-into-the-united-states/; https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary
 
+## Chile Open-Finance compliance test harness and consent-flow validator
+- Status: watch | open_finance_chile
+- Current idea: Participants have a defined implementation window before July 2027, creating a narrow need for repeatable technical validation rather than broad consulting: schema conformance checks, consent-state testing, API replay fixtures, error-handling tests and evidence packs for internal readiness.
+- Potential economic capture: Sell or license a narrowly scoped test suite, mock API server and compliance-readiness report to Chilean fintechs or regulated entities preparing integrations. The economic mechanism is paid implementation tooling or a recurring license; no buyer, price or conversion rate is established by the evidence.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html
+
 ## Chile publishes technical rules and developer infrastructure for Open Finance, with go-live deferred to July 2027
 - Status: watch | open_finance_chile
 - Current idea: The market now has clearer interoperability requirements and a longer preparation window. This lowers regulatory uncertainty but creates an implementation race for account aggregation, payment initiation, consent, identity, fraud, compliance and data-enrichment products.
@@ -288,7 +312,7 @@ Candidates: 28
   - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
   - Check license perimeter, API access, legal compliance and competitor pricing.
   - Test buyer procurement and technical access before writing integration infrastructure.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Number of entities required to participate in each role and implementation phase.; Whether CMF's ATENA sandbox will expose automated pass/fail conformance results sufficient for production acceptance.; Whether any participant, bank, fintech, processor, or systems integrator has a budget or procurement category for third-party conformance tooling.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
 

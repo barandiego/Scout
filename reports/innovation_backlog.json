@@ -2,6 +2,42 @@
   "briefs": [
     {
       "capital_required_unverified_estimate": "",
+      "category": "asymmetric_investing",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Use SEC filings as the primary screening source and compare disclosed backlog, order value, delivery timing, cash conversion and valuation across a small set of issuers. The lowest-cost falsification step is a paper portfolio: record the price and filing metrics on the date of the thesis, then require the next earnings release to show backlog conversion and cash generation; abandon the thesis if growth is only unconverted backlog, margins deteriorate materially or orders are concentrated in unverifiable pipeline language.",
+      "current_thesis": "The bottleneck is monetized through equipment orders and backlog conversion, not merely projected AI demand. A small investor can evaluate whether public suppliers with disclosed orders are being valued on realized backlog, recurring service revenue and execution risk rather than on AI narrative alone.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Public-market exposure to behind-the-meter power equipment for data centers",
+      "opportunity_id": "opp_4e38bc42f62942527d19",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Form an early-adoption or balance-sheet hypothesis with dated primary disclosures.",
+        "Contrast current valuation with realistic downside dilution, illiquidity and contrary catalysts.",
+        "Build a watchlist of falsifiable milestones; never buy from an unreviewed alert."
+      ],
+      "supporting_source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/80420/000008042026000063/ex991-powlq2xfy2026earning.htm",
+        "https://www.sec.gov/Archives/edgar/data/2110029/000119312526249668/d12401ds1a.htm"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Acquire publicly traded shares or monitor the securities of issuers with disclosed data-center power orders, then test the thesis against subsequent backlog conversion, gross margin, cash flow, cancellations and customer concentration. Downside cases include order delays, customer concentration, working-capital stress, project cancellations and valuation compression; no return is established.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
       "category": "ecommerce_niches",
       "commercially_validated": false,
       "competition_confirmed": false,
@@ -522,6 +558,42 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Build a minimum test harness against the publicly available CMF technical materials and developer-portal specifications. Contact prospective regulated participants only to request a 30-minute technical review, without assuming permission to access production systems. Falsify cheaply by asking 10 identifiable Chilean fintechs, banks, cooperatives or payment firms whether they already have equivalent conformance tooling and whether they would pay for a sandbox test pack; stop if none will share a concrete implementation gap or paid pilot scope.",
+      "current_thesis": "Participants have a defined implementation window before July 2027, creating a narrow need for repeatable technical validation rather than broad consulting: schema conformance checks, consent-state testing, API replay fixtures, error-handling tests and evidence packs for internal readiness.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile Open-Finance compliance test harness and consent-flow validator",
+      "opportunity_id": "opp_13bbed433a9c3be646a1",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell or license a narrowly scoped test suite, mock API server and compliance-readiness report to Chilean fintechs or regulated entities preparing integrations. The economic mechanism is paid implementation tooling or a recurring license; no buyer, price or conversion rate is established by the evidence.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Build against the published technical specifications; join the pilot/sandbox; target smaller entities needing simplified participation; validate a Chile-first API or data-enrichment product with regulated partners.",
       "current_thesis": "The market now has clearer interoperability requirements and a longer preparation window. This lowers regulatory uncertainty but creates an implementation race for account aggregation, payment initiation, consent, identity, fraud, compliance and data-enrichment products.",
       "founder_hours_initial_unverified_estimate": "",
@@ -924,9 +996,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "Chile",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "Number of entities required to participate in each role and implementation phase.",
+        "Whether CMF's ATENA sandbox will expose automated pass/fail conformance results sufficient for production acceptance.",
+        "Whether any participant, bank, fintech, processor, or systems integrator has a budget or procurement category for third-party conformance tooling.",
+        "Whether CMF will materially revise Annex 3, APIs, security profiles, consent flows, payment initiation, certificates, or test cases before July 2027.",
+        "Whether a commercial tool could obtain access to realistic but non-sensitive test data and interoperate with ATENA without regulatory approval.",
+        "Whether local Spanish-language support, evidence export, audit trails, or vendor-acceptance workflows create enough incremental value over official tools.",
+        "Whether Chilean financial institutions prefer local consulting relationships and bundled vendor services over standalone software."
       ],
       "investment_authorized": false,
       "name": "Open-finance conformance test asset for Chilean participants",
@@ -1107,7 +1183,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-10T04:11:22.349671+00:00",
+  "generated_at": "2026-10-10T08:10:39.952523+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"
