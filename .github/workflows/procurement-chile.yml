@@ -63,7 +63,9 @@ jobs:
           if-no-files-found: ignore
           retention-days: 30
       - name: Persist procurement state and report
-        if: steps.monitor.outcome == 'success'
+        # Even a 504 or bounded budget exhaustion may have useful partial data.
+        # Persist the degraded report and cursor-unchanged state; keep job red.
+        if: always() && steps.monitor.outcome != 'skipped' && steps.monitor.outcome != ''
         shell: bash
         run: |
           git config user.name "scout-procurement[bot]"
