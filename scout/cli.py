@@ -106,6 +106,11 @@ def main()->None:
         from .innovation import write_innovation_backlog
         output=write_library(ROOT)
         output['innovation']=write_innovation_backlog(ROOT)
+        # Keep all derived research views synchronized with the exact
+        # persisted library rather than leaving commercial evidence stale.
+        from .commercial import write_commercial_queue
+        library=json.loads((ROOT/'reports'/'library.json').read_text(encoding='utf-8'))
+        output['commercial_queue']=write_commercial_queue(ROOT,library)
         print(json.dumps(output, indent=2)); return
     if args.mode=='innovation':
         from .innovation import write_innovation_backlog
