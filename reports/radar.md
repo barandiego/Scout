@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-10T20:40:36.007991+00:00
+Generated: 2026-10-11T00:49:57.261972+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
-- Rolling leads: 553
+- Rolling leads: 605
 - New this cycle: 99
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
-- Categories: agriculture 79, ai 122, commerce 30, energy 156, robotics 166
+- Feed failures (fail-open for public intake only): none
+- Categories: agriculture 82, ai 126, commerce 31, energy 182, robotics 184
 
 ## Recently encountered signals
 
@@ -92,6 +92,12 @@ Generated: 2026-10-10T20:40:36.007991+00:00
 
 ### Opportunities and challenges of integrating battery energy storage in the electricity grid – perspectives from distribution system operators
 - Source: https://doi.org/10.66506/essp.172
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### Abd-El-Rhman-Saad/solar-ev-charging-station-bess
+- Source: https://github.com/Abd-El-Rhman-Saad/solar-ev-charging-station-bess
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
@@ -244,6 +250,24 @@ Generated: 2026-10-10T20:40:36.007991+00:00
 - Source: https://github.com/akshayathoutam7/KrishiSahay_AI
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### Dynamic simulation and coordinated control of Carnot battery energy storage system integrated with LNG cold energy
+- Source: https://doi.org/10.1016/j.energy.2026.142615
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### ujjwalsharma25/KIsanConnect
+- Source: https://github.com/ujjwalsharma25/KIsanConnect
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### Solar Steel construye un parque solar en Chile que incluye baterías para almacenamiento energético - La Nueva España
+- Source: https://news.google.com/rss/articles/CBMikAFBVV95cUxOOXVzZ0duVkpMMHlkVVlVOU5xVW5wOHVkcU9GMW92Nml0dmJBUHUtREF4b3hUem9WYkQzZG1ucm9qUENkNENsWElMVlJITk5yRWlxcEVremtBelRCT0l1aWptRGFtTjE4WHhpeGZwUlFfT3VLamdWRWFJbWQtYTdPbHh1eE03MWpzcHNRdzBqOXPSAZYBQVVfeXFMUHFrMnJySDJkRy16WENyN00tamt0S2tHRVRvZ0liZFR5ZXNsTW9xcDNIRGZGbWowbWF0UG5rVzVxN3lWX2Z6UURhRkJWUzNEdkNaSEFHY21mOW10NTdZc2swYXI5N3ZaUEVRWXVNbTBsRHBGeVJyZVU5anZWbklZOWlPVjhDaFg4TEotN1RMVUJyU3JrNzZn?oc=5
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
 ### yazdannl/ha-energy-manager
@@ -434,30 +458,6 @@ Generated: 2026-10-10T20:40:36.007991+00:00
 
 ### Optimal Sizing of Battery Energy Storage Systems: Nonlinear Battery Degradation and Topology Design
 - Source: https://doi.org/10.1109/icee70628.2026.11710756
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Numerical and experimental evaluation of cooling strategies for prismatic li-ion battery modules designed for containerised energy storage
-- Source: https://doi.org/10.1016/j.est.2026.124998
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### On the Clock: Towards Punctual and Productive Time-Budgeted AI Agents
-- Source: https://arxiv.org/abs/2610.10833
-- Domain: ai | Suggested angle: Agent-enabled digital asset or localised specialised product
-- First test: Identify measurable customer job, willing buyer, existing competitors and unit economics.
-- Status: **unverified research lead**
-
-### Genetic Algorithm-Optimized Active Disturbance Rejection Control for Robust Voltage Regulation in Standalone DFIG-Based Wind Energy Systems with Battery Storage: Real-Time Experime
-- Source: https://doi.org/10.3390/wind6040056
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Transferable predictive maintenance for battery energy storage systems
-- Source: https://doi.org/10.1038/s44287-026-00337-z
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
