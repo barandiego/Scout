@@ -1,25 +1,53 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 6200000.0,
+      "available_budget_clp": 3000000.0,
       "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
-      "closes_at": "2026-10-12T15:30:00",
-      "code": "1057491-1848-COT26",
-      "estimated_budget": 6200000.0,
-      "name": "ALARGADOR CORTO CON CLAMP DE VíA VENOSA PERIFéRICA CORTA -- CONECCION LS- 2 VIAS--CONECTOR ALTA PRESION 1200 PSI 76 CM",
-      "products": 3,
+      "closes_at": "2026-10-12T17:30:00",
+      "code": "1057491-1851-COT26",
+      "estimated_budget": 3000000.0,
+      "name": "CHEQUEO TECNICO DE SEGURIDAD PARA MAQUINAS DE HEMODIALISIS(SE SOLICITA VER DOCUMENTO ADJUNTO CON CONDICIONES)",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": null,
+      "buyer": "SUBSECRETARIA DE ECONOMIA Y EMPRESAS DE MENOR TAMA",
+      "closes_at": "2026-10-12T17:30:00",
+      "code": "756-130-COT26",
+      "estimated_budget": 3000.0,
+      "name": "Contratación del servicio de enlace dedicado a internet de respaldo",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 800000.0,
+      "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+      "closes_at": "2026-10-12T17:15:00",
+      "code": "1057491-1850-COT26",
+      "estimated_budget": 800000.0,
+      "name": "TUBO DE CONEXIÓN SET DE IRRIGACIóN PARA ENDOMAT DE HAMOU SCB",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 2500000.0,
+      "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+      "closes_at": "2026-10-12T17:00:00",
+      "code": "1057491-1849-COT26",
+      "estimated_budget": 2500000.0,
+      "name": "TUBOS ENDOTRAQUEALES  ANILLADOS REFORZADO /PREFORM.  NASAL /TUBOS ENDOTRAQUEALES DOBLE LUMEN Y  TUBO ENTRAQUEAL SIN BALON",
+      "products": 11,
       "region": "Región Metropolitana de Santiago"
     }
   ],
-  "active_structurally_reconstructable_count": 1,
+  "active_structurally_reconstructable_count": 4,
   "diagnostics": {
-    "api_failures": {
-      "api_http_504": 1
-    },
+    "api_failures": {},
     "budget_exhausted": false,
     "detail_attempts": 20,
     "detail_cap_exhausted": true,
-    "details_fetched": 19,
+    "details_fetched": 20,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -28,27 +56,27 @@
     "pages_fetched": 1,
     "pagination_incomplete": false,
     "pagination_invalid": false,
-    "requests_used": 23,
-    "transient_retries": 2
+    "requests_used": 21,
+    "transient_retries": 0
   },
-  "generated_at": "2026-10-11T18:35:39Z",
-  "inserted_history": 19,
+  "generated_at": "2026-10-11T20:35:59Z",
+  "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_API_ERRORS",
+  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
   "phase1": {
-    "records": 19,
+    "records": 20,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 10
+      "no_observable_competitive_prices": 9
     },
-    "resolved": 18,
-    "structurally_reconstructable": 9,
-    "with_observable_quote_totals": 8,
-    "with_purchase_order_indicator": 1
+    "resolved": 16,
+    "structurally_reconstructable": 11,
+    "with_observable_quote_totals": 7,
+    "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-11T18:35:39Z"
+    "changed_to": "2026-10-11T20:35:59Z"
   }
 }
