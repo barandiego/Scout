@@ -1,48 +1,54 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 750000.0,
-      "buyer": "UNIVERSIDAD DE CHILE",
-      "closes_at": "2026-10-12T01:58:00",
-      "code": "5517-450-COT26",
-      "estimated_budget": 750000.0,
-      "name": "Compra 832 - Impresiones de gráficas, cédulas, textos de sala y otros para vitrina citylab MAPA GAM",
-      "products": 13,
+      "available_budget_clp": 6200000.0,
+      "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+      "closes_at": "2026-10-12T15:30:00",
+      "code": "1057491-1848-COT26",
+      "estimated_budget": 6200000.0,
+      "name": "ALARGADOR CORTO CON CLAMP DE VíA VENOSA PERIFéRICA CORTA -- CONECCION LS- 2 VIAS--CONECTOR ALTA PRESION 1200 PSI 76 CM",
+      "products": 3,
       "region": "Región Metropolitana de Santiago"
     }
   ],
   "active_structurally_reconstructable_count": 1,
   "diagnostics": {
-    "api_failures": {},
+    "api_failures": {
+      "api_http_504": 1
+    },
     "budget_exhausted": false,
     "detail_attempts": 20,
-    "details_fetched": 20,
+    "detail_cap_exhausted": true,
+    "details_fetched": 19,
     "duplicate_listings": 0,
+    "invalid_listing_items": 0,
     "malformed_details": 0,
     "malformed_reasons": {},
     "malformed_samples": [],
     "pages_fetched": 1,
-    "requests_used": 21,
-    "transient_retries": 0
+    "pagination_incomplete": false,
+    "pagination_invalid": false,
+    "requests_used": 23,
+    "transient_retries": 2
   },
-  "generated_at": "2026-10-11T00:47:15Z",
-  "inserted_history": 20,
+  "generated_at": "2026-10-11T18:35:39Z",
+  "inserted_history": 19,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
-  "ok": true,
-  "outcome": "COMPLETE",
+  "ok": false,
+  "outcome": "DEGRADED_API_ERRORS",
   "phase1": {
-    "records": 20,
+    "records": 19,
     "rejection_reasons": {
       "no_observable_competitive_prices": 10
     },
-    "resolved": 19,
-    "structurally_reconstructable": 10,
-    "with_observable_quote_totals": 9,
-    "with_purchase_order_indicator": 3
+    "resolved": 18,
+    "structurally_reconstructable": 9,
+    "with_observable_quote_totals": 8,
+    "with_purchase_order_indicator": 1
   },
   "schema_version": 1,
   "window": {
-    "changed_from": "2026-10-10T16:35:28+00:00",
-    "changed_to": "2026-10-11T00:47:15Z"
+    "changed_from": "2026-10-11T00:47:15+00:00",
+    "changed_to": "2026-10-11T18:35:39Z"
   }
 }
