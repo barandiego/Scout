@@ -125,9 +125,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "Chile",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "Whether the cited January 1, 2026 AFCI requirement applies to the exact project classes, inverter configurations, and connection pathways targeted by the product, rather than only specified cases or alternatives.",
+        "Whether SEC or distributors accept the proposed equipment/documentation combinations in practice and what causes actual TE4 or related filing rejections.",
+        "Number of Chilean distributed BESS projects currently being designed, installed, or submitted through the relevant process.",
+        "Share of target installers that lack an internal compliance review, and whether they would pay rather than request a free opinion.",
+        "Expected price, turnaround time, gross margin, and recurring monitoring burden for a defensible review.",
+        "Whether a reviewer without SEC installer authorization can legally provide the intended document-review service without being construed as performing regulated design, inspection, certification, installation, or submission work.",
+        "Whether customers need BESS-only review or a broader package covering PV, interconnection, fire safety, municipal matters, distribution-company requirements, and equipment authorization."
       ],
       "investment_authorized": false,
       "name": "BESS and inverter compliance pre-check for Chilean distributed-energy projects",
@@ -1299,7 +1303,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-10T20:09:55.372929+00:00",
+  "generated_at": "2026-10-11T00:15:51.663510+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

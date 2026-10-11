@@ -1,0 +1,123 @@
+{
+  "buyer_qualified_count": 0,
+  "excluded_from_first_dollar_queue": 29,
+  "first_dollar_verified": false,
+  "generated_at": "2026-10-11T00:15:51.634130+00:00",
+  "opportunity_count_reviewed": 33,
+  "revenue_usd_verified": null,
+  "schema_version": 1,
+  "selected": [
+    {
+      "automatic_outreach_authorized": false,
+      "automatic_purchase_authorized": false,
+      "buyer_verified": false,
+      "current_status": "WATCH_REQUIRES_VALIDATION",
+      "economic_status": "UNVALIDATED_NO_VERIFIED_BUYER_OR_SALE",
+      "first_distribution_hypothesis": "Approach one small Chilean seller with a documented returns problem and request a no-purchase pilot of 10–30 units from a single category. Record condition, handling cost, time to relist, sale price, refunds, and unsold inventory. Use the seller’s existing marketplace account or a pre-approved outlet rather than assuming permission to resell. Falsify at the lowest cost by asking five sellers for anonymized counts of returned units and whether they would release a small batch on consignment; stop if no seller provides inventory, resale permissions, or a verifiable disposition price.",
+      "independent_review_status": "REVIEW_PENDING_DO_NOT_PROMOTE",
+      "missing_to_prove": [
+        "independent_critic_and_judge",
+        "independent_specific_buyer",
+        "written_price_or_paid_commitment",
+        "verified_fulfilment_and_unit_cost",
+        "distribution_permission_or_channel",
+        "actual_third_party_receipt"
+      ],
+      "next_no_spend_buyer_test": "Select one specific product/problem. Verify alternatives, landed or fulfilment costs, return/refund exposure, and whether a real buyer would pay; no store launch or supplier order is authorised.",
+      "opportunity_id": "opp_fa54176321cf12d8b287",
+      "origin": "EXISTING_SCOUT_WATCH_OR_SURVIVOR_NOT_NEW_OPPORTUNITY",
+      "revenue_verified": false,
+      "title": "Narrow Chilean e-commerce returns-recovery test for one product category",
+      "verified_source_urls": [
+        "https://www.fne.gob.cl/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-plataformas/",
+        "https://group.dhl.com/content/dam/deutschepostdhl/en/media-center/media-relations/documents/2025/e-commerce-trends-report-2025-business-edition.pdf",
+        "https://www.trade.gov/country-commercial-guides/chile-ecommerce"
+      ],
+      "vertical": "ecommerce_niches"
+    },
+    {
+      "automatic_outreach_authorized": false,
+      "automatic_purchase_authorized": false,
+      "buyer_verified": false,
+      "current_status": "WATCH_REQUIRES_VALIDATION",
+      "economic_status": "UNVALIDATED_NO_VERIFIED_BUYER_OR_SALE",
+      "first_distribution_hypothesis": "Start with five independently selected cafés, salons or small hotels in one Chilean city. Show the public retail alternatives and offer a single physical prototype at or below the observed CLP 11,990–29,990 range, subject to the buyer's acceptance. Record baseline Google-review counts for 14 days, place the item at checkout for 14 days, and compare review velocity while documenting staff prompts and placement. Falsify if no operator agrees to place the prototype, if staff will not use it, or if review velocity does not measurably change relative to baseline. Distribution can begin through direct local visits, Google Maps prospecting and existing NFC product suppliers; no buyer, permission or uplift is assumed.",
+      "independent_review_status": "REVIEW_PENDING_DO_NOT_PROMOTE",
+      "missing_to_prove": [
+        "independent_critic_and_judge",
+        "independent_specific_buyer",
+        "written_price_or_paid_commitment",
+        "verified_fulfilment_and_unit_cost",
+        "distribution_permission_or_channel",
+        "actual_third_party_receipt"
+      ],
+      "next_no_spend_buyer_test": "Compare at least three real Chilean substitutes and published prices. Verify a legally deliverable owned product and obtain independent buyer interest before any stock, ads or paid accounts.",
+      "opportunity_id": "opp_9f47dda18059a735d95d",
+      "origin": "EXISTING_SCOUT_WATCH_OR_SURVIVOR_NOT_NEW_OPPORTUNITY",
+      "revenue_verified": false,
+      "title": "NFC review-conversion kits for Chilean cafés, hotels and restaurants",
+      "verified_source_urls": [
+        "https://www.ondda.cl/",
+        "https://tarjetas-nfc.com/",
+        "https://nfctech.cl/"
+      ],
+      "vertical": "chile_localization"
+    },
+    {
+      "automatic_outreach_authorized": false,
+      "automatic_purchase_authorized": false,
+      "buyer_verified": false,
+      "current_status": "WATCH_REQUIRES_VALIDATION",
+      "economic_status": "UNVALIDATED_NO_VERIFIED_BUYER_OR_SALE",
+      "first_distribution_hypothesis": "Lowest-cost falsification: use only the CMF-published technical material and developer-portal information to build a small local validator for one documented message flow; publish a technical demo and contact named implementation teams or vendors identified through public company materials, asking whether they would pay for a $0-to-low-cost pilot or provide a sample conformance problem. Do not represent the tool as CMF-approved, certification, legal advice, or access to regulated data. Kill the test if the specifications are inaccessible, unstable, insufficiently detailed for automated validation, or no implementation team agrees to evaluate a pilot.",
+      "independent_review_status": "CRITIC_JUDGE_COMPLETE_NOT_COMMERCIAL_PROOF",
+      "missing_to_prove": [
+        "independent_specific_buyer",
+        "written_price_or_paid_commitment",
+        "verified_fulfilment_and_unit_cost",
+        "distribution_permission_or_channel",
+        "actual_third_party_receipt"
+      ],
+      "next_no_spend_buyer_test": "Identify one genuinely budget-owning regulated buyer, one conformance failure, and an independently accepted paid software deliverable before coding a broad financial integration.",
+      "opportunity_id": "opp_d8365496cc53375fa445",
+      "origin": "EXISTING_SCOUT_WATCH_OR_SURVIVOR_NOT_NEW_OPPORTUNITY",
+      "revenue_verified": false,
+      "title": "Open-finance conformance test asset for Chilean participants",
+      "verified_source_urls": [
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://cmfchile.cl/portal/principal/613/w3-article-92556.html"
+      ],
+      "vertical": "open_finance_chile"
+    },
+    {
+      "automatic_outreach_authorized": false,
+      "automatic_purchase_authorized": false,
+      "buyer_verified": false,
+      "current_status": "WATCH_REQUIRES_VALIDATION",
+      "economic_status": "UNVALIDATED_NO_VERIFIED_BUYER_OR_SALE",
+      "first_distribution_hypothesis": "Use the SEC's public installer and technical-documentation pages to identify 10 authorized distributed-generation installers. Send a one-page sample checklist covering RGR N°06/2024, AFCI status, equipment authorization and required filing fields. Ask whether they would pay for one review of a real but anonymized project, without promising approval. Test with one paid or explicitly unpaid pilot only after the installer confirms the scope. Falsify if installers report that they already perform the review internally, will not share a redacted equipment list, or do not value error reduction enough to accept a trial. Do not install, certify or submit electrical work without the required authorization.",
+      "independent_review_status": "CRITIC_JUDGE_COMPLETE_NOT_COMMERCIAL_PROOF",
+      "missing_to_prove": [
+        "independent_specific_buyer",
+        "written_price_or_paid_commitment",
+        "verified_fulfilment_and_unit_cost",
+        "distribution_permission_or_channel",
+        "actual_third_party_receipt"
+      ],
+      "next_no_spend_buyer_test": "Obtain a buyer's actual equipment/inspection requirement, a real supplier cost and applicable Chilean regulatory conditions first.",
+      "opportunity_id": "opp_7ea6a495427da87c8c5c",
+      "origin": "EXISTING_SCOUT_WATCH_OR_SURVIVOR_NOT_NEW_OPPORTUNITY",
+      "revenue_verified": false,
+      "title": "BESS and inverter compliance pre-check for Chilean distributed-energy projects",
+      "verified_source_urls": [
+        "https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/",
+        "https://www.sec.cl/gda/",
+        "https://www.sec.cl/normas-tecnicas-electricas/"
+      ],
+      "vertical": "energy_infrastructure"
+    }
+  ],
+  "selection_type": "FOUNDER_REVIEW_QUEUE_NOT_AUTONOMOUS_ECONOMIC_EXECUTION",
+  "source": "SCOUT_CANONICAL_DERIVED_LIBRARY_NO_NEW_MARKET_EVIDENCE",
+  "warning": "Heuristic triage only. All buyer, unit-margin, channel, and sale claims require external independent validation."
+}

@@ -1,17 +1,27 @@
 # Scout — opportunity library
 
-Generated: 2026-10-10T20:09:55.350174+00:00
+Generated: 2026-10-11T00:15:51.634130+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
 - Active research: 33 (0 HQ survivors, 33 watches)
 - Rejected opportunities excluded: 19
-- Critic-and-judge reviewed: 26
+- Critic-and-judge reviewed: 27
 - Autonomous execution authorization: 0
 
 ## How to use
 
 Choose a candidate, independently verify current sources and a paying buyer, test distribution and net pricing, and obtain explicit approval for bounded execution. The original evidence gates stay in force.
+
+### BESS and inverter compliance pre-check for Chilean distributed-energy projects [opp_7ea6a495427da87c8c5c]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile
+- Thesis: A narrow, testable asset is a paid pre-check package for installers or project owners: collect equipment datasheets, compare the proposed battery/PCE/inverter configuration against the current SEC checklist, identify missing AFCI or documentation items, and produce a submission-ready gap list. The mechanism is avoided rework or rejected filings, not speculative battery arbitrage. The operator must avoid representing itself as an authorized electrical installer unless it actually has that authorization.
+- Value capture: Charge for a fixed-scope document review or sell it as a procurement/compliance checklist to authorized installers. A small operator can also create a standardized comparison spreadsheet and referral arrangement, but no referral fee, customer or regulatory approval should be assumed.
+- Participation hypothesis: Use the SEC's public installer and technical-documentation pages to identify 10 authorized distributed-generation installers. Send a one-page sample checklist covering RGR N°06/2024, AFCI status, equipment authorization and required filing fields. Ask whether they would pay for one review of a real but anonymized project, without promising approval. Test with one paid or explicitly unpaid pilot only after the installer confirms the scope. Falsify if installers report that they already perform the review internally, will not share a redacted equ
+- Critic/judge: This is a plausible Chile-specific compliance-services research wedge rather than an energy-asset investment thesis. Primary SEC materials support that BESS/distributed-generation compliance and authorized-installer processes exist, and the proposed payer is identifiable: authorized installers/EPCs or project owners facing filing and equipment-documentation risk. The service can likely be scoped as non-certifying document review, so una
+- Next evidence gaps: Whether the cited January 1, 2026 AFCI requirement applies to the exact project classes, inverter configurations, and connection pathways targeted by the product, ra; Whether SEC or distributors accept the proposed equipment/documentation combinations in practice and what causes actual TE4 or related filing rejections.; Number of Chilean distributed BESS projects currently being designed, installed, or submitted through the relevant process.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/; https://www.sec.cl/gda/; https://www.sec.cl/normas-tecnicas-electricas/
 
 ### AI and data-center growth are making electricity and grid access a binding cost constraint [opp_9806dd7c2bc14a3373b4]
 - Status: WATCH_REQUIRES_VALIDATION | general | global, with pronounced effects in the United States and other advanced power markets
@@ -272,16 +282,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Whether July 2027 entry into force will be met without further delay or phased restrictions.; The exact cost of licensing, certification, security compliance, audits, insurance, capital and ongoing supervision for the intended provider category.; Actual API uptime, latency, data completeness, historical depth, error rates, consent completion and dispute-resolution performance across participating institutions
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://cmfchile.atlassian.net/wiki/spaces/OFAC/pages/267649439/API%2BCuentas%2BOpen%2BFinance%2BChile%2Bv1.0.0; https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html
-
-### BESS and inverter compliance pre-check for Chilean distributed-energy projects [opp_7ea6a495427da87c8c5c]
-- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile
-- Thesis: A narrow, testable asset is a paid pre-check package for installers or project owners: collect equipment datasheets, compare the proposed battery/PCE/inverter configuration against the current SEC checklist, identify missing AFCI or documentation items, and produce a submission-ready gap list. The mechanism is avoided rework or rejected filings, not speculative battery arbitrage. The operator must avoid representing itself as an authorized electrical installer unless it actually has that authorization.
-- Value capture: Charge for a fixed-scope document review or sell it as a procurement/compliance checklist to authorized installers. A small operator can also create a standardized comparison spreadsheet and referral arrangement, but no referral fee, customer or regulatory approval should be assumed.
-- Participation hypothesis: Use the SEC's public installer and technical-documentation pages to identify 10 authorized distributed-generation installers. Send a one-page sample checklist covering RGR N°06/2024, AFCI status, equipment authorization and required filing fields. Ask whether they would pay for one review of a real but anonymized project, without promising approval. Test with one paid or explicitly unpaid pilot only after the installer confirms the scope. Falsify if installers report that they already perform the review internally, will not share a redacted equ
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/; https://www.sec.cl/gda/; https://www.sec.cl/normas-tecnicas-electricas/
 
 ### Chile SFA conformance-test harness for small participating entities [opp_b1b8cbbff5d232fae6f8]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
