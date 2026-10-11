@@ -93,6 +93,8 @@ jobs:
             reports/latest.md
             reports/library.json
             reports/library.md
+            reports/commercial_queue.json
+            reports/commercial_queue.md
             reports/innovation_backlog.json
             reports/innovation_backlog.md
           retention-days: 30

@@ -151,3 +151,51 @@ def test_realistic_chile_niche_queue_excludes_generic_finance_macro():
                for x in report["selected"])
     assert all("independent_critic_and_judge" in x["missing_to_prove"] for x in report["selected"])
     assert not any("interoperable production infrastructure" in x["title"] for x in report["selected"])
+
+
+def test_library_cli_refreshes_commercial_queue_from_same_canonical_snapshot(
+    tmp_path, monkeypatch, capsys,
+):
+    """A scheduled library refresh must not strand an older commercial view."""
+    import sys
+
+    from scout import cli, innovation as innovation_module, library as library_module
+
+    canonical = library(card("NFC product kit"))
+    report_dir = tmp_path / "reports"
+    report_dir.mkdir(parents=True)
+    (report_dir / "commercial_queue.json").write_text('{"stale":true}')
+
+    def fake_write_library(root):
+        assert root == tmp_path
+        (root / "reports" / "library.json").write_text(
+            json.dumps(canonical), encoding="utf-8"
+        )
+        return {"cards": len(canonical["cards"])}
+
+    monkeypatch.setattr(library_module, "write_library", fake_write_library)
+    monkeypatch.setattr(
+        innovation_module, "write_innovation_backlog",
+        lambda root: {"research_only": True},
+    )
+    monkeypatch.setattr(cli, "ROOT", tmp_path)
+    monkeypatch.setattr(sys, "argv", ["scout", "library"])
+
+    cli.main()
+    exported = json.loads((report_dir / "commercial_queue.json").read_text())
+    expected = commercial_review_queue(canonical)
+    assert exported == expected
+    assert (report_dir / "commercial_queue.md").read_text() == (
+        render_commercial_queue(expected)
+    )
+    assert exported["buyer_qualified_count"] == 0
+    assert json.loads(capsys.readouterr().out)["commercial_queue"]["verified_buyers"] == 0
+
+
+def test_scout_workflow_recovers_commercial_queue_on_failed_persist():
+    from pathlib import Path
+
+    workflow = (Path(__file__).resolve().parents[1] /
+                ".github/workflows/scout.yml").read_text(encoding="utf-8")
+    assert "reports/commercial_queue.json" in workflow
+    assert "reports/commercial_queue.md" in workflow

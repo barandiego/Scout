@@ -22,6 +22,11 @@ def monitor_health(diag: dict) -> tuple[bool, str]:
         return False, "DEGRADED_API_ERRORS"
     if diag.get("budget_exhausted"):
         return False, "DEGRADED_INCOMPLETE_REQUEST_BUDGET"
+    if diag.get("malformed_details"):
+        return False, "DEGRADED_MALFORMED_DETAIL"
+    if (diag.get("detail_cap_exhausted") or diag.get("pagination_incomplete")
+        or diag.get("pagination_invalid") or diag.get("invalid_listing_items")):
+        return False, "DEGRADED_INCOMPLETE_SOURCE_WINDOW"
     return True, "COMPLETE"
 
 
@@ -70,10 +75,12 @@ def _main():
         print(json.dumps(report,ensure_ascii=False,indent=2))
         return 2
     inserted=sum(st.add_history(r) for r in records)
-    if not diag.get("budget_exhausted") and not diag.get("api_failures"): st.set_cursor(observed_iso)
+    healthy, outcome = monitor_health(diag)
+    # Partial records can be persisted for forensic recovery; cursor advancement
+    # needs a complete listing AND valid details, not just an absence of HTTP errors.
+    if healthy: st.set_cursor(observed_iso)
     candidates=[r for r in records if r.status=="publicada" and not reconstructability_reasons(r)]  # noqa: F405
     cap=int(D(cfg.get("monitor")).get("max_report_candidates",20))  # noqa: F405
-    healthy, outcome = monitor_health(diag)
     report={
         "schema_version":1,"generated_at":observed_iso,"window":{"changed_from":changed_from,"changed_to":observed_iso},
         "ok":healthy,"outcome":outcome,"inserted_history":inserted,"diagnostics":diag,"phase1":phase1_report(records),  # noqa: F405
