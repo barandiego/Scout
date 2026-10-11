@@ -1,7 +1,9 @@
 name: Scout V0 CI
 on:
   push:
-    branches: [main, 'audit/**', 'fix/**', 'redesign/**']
+    # Preserve mandatory main-branch validation. PR branches get the same full
+    # suite from pull_request; avoid charging runner minutes twice per commit.
+    branches: [main]
   pull_request:
 permissions:
   contents: read
