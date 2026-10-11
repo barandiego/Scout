@@ -2516,41 +2516,34 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-10T12:12:22.486097+00:00",
-      "discovery_lens": "nfc_smart_commerce",
+      "discovered_at": "2026-10-11T20:09:13.127092+00:00",
+      "discovery_lens": "tokenization_finance",
       "estimated_capital": "",
       "estimated_founder_hours_initial": "",
       "estimated_founder_hours_ongoing": "",
       "evidence": [
         {
-          "claim": "Lists NFC review/business stands and cards for Chilean businesses, including visible prices around CLP 19,990–29,990.",
+          "claim": "CMF states that the technical annex defines information-exchange and payment-initiation requirements, adds a developer portal and testing area, and postpones entry into force until July 2027.",
           "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "Soluciones NFC para negocios en Chile",
-          "url": "https://www.ondda.cl/"
+          "source_type": "primary",
+          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
         },
         {
-          "claim": "Lists a Google-review NFC card for businesses at a visible price of CLP 11,990 and describes use in restaurants, cafés and local businesses.",
+          "claim": "CMF identifies the participant categories and describes the required automated interfaces, consent, security, privacy, and interoperability obligations.",
           "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "Tarjetas NFC Chile — Tarjeta NFC Google Reviews",
-          "url": "https://tarjetas-nfc.com/"
-        },
-        {
-          "claim": "Offers configured NFC cards for Google reviews in Chile at CLP 24,990 and publicly presents customer review-count testimonials; testimonials are not independently verified.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "Tarjetas NFC para más reseñas en Google | NFCTECH Chile",
-          "url": "https://nfctech.cl/"
+          "source_type": "primary",
+          "title": "Foro Sistema de Finanzas Abiertas",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html"
         }
       ],
-      "evidence_confidence_model_estimate": 0.86,
+      "evidence_confidence_model_estimate": 0.94,
       "falsification_conditions": [],
       "geography": "Chile",
-      "id": "opp_9f47dda18059a735d95d",
+      "id": "opp_5f6db3a781c7281d67c2",
       "judge_reviewed": false,
       "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-10T12:12:22.501868+00:00",
+      "last_record_updated_at": "2026-10-11T20:09:13.136635+00:00",
       "material_update": false,
       "missing_execution_proof": [
         "independent_critic_and_judge",
@@ -2559,16 +2552,16 @@
       "next_validation_questions": [
         "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
       ],
-      "participation_path": "Start with five independently selected cafés, salons or small hotels in one Chilean city. Show the public retail alternatives and offer a single physical prototype at or below the observed CLP 11,990–29,990 range, subject to the buyer's acceptance. Record baseline Google-review counts for 14 days, place the item at checkout for 14 days, and compare review velocity while documenting staff prompts and placement. Falsify if no operator agrees to place the prototype, if staff will not use it, or if review velocity does not measurably change relative to baseline. Distribution can begin through direct local visits, Google Maps prospecting and existing NFC product suppliers; no buyer, permission or uplift is assumed.",
+      "participation_path": "Use the CMF developer portal and sandbox to build a small open-source conformance harness for one documented endpoint and one consent flow. Test it against the published technical requirements, then contact a listed or identifiable Chilean fintech, payment operator, bank, or other prospective participant with the reproducible results. Falsification step: spend one week implementing a single endpoint and ask at least five likely participants whether they would run the test or pay for remediation; stop if the specification is inaccessible, the sandbox is unavailable, or nobody accepts the test.",
       "research_status": "WATCH_REQUIRES_VALIDATION",
       "status": "watch",
-      "thesis": "The executable wedge is not another generic digital-business-card service; it is a small, physical review-acquisition kit sold to locations where staff can prompt a customer immediately after service. The economic mechanism is a one-time hardware sale, potentially bundled with installation/configuration, with value dependent on the operator verifying incremental review volume. Existing public prices provide a bounded WTP reference, but no evidence here proves conversion, retention or repeat purchasing.",
-      "title": "NFC review-conversion kits for Chilean cafés, hotels and restaurants",
-      "type": "physical_product_distribution",
+      "thesis": "Entities that must connect as information providers, account providers, information-based service providers, or payment-initiation providers now have a defined technical target and a limited preparation window before mandatory operation.",
+      "title": "Chile Open Finance conformance and sandbox testing kit",
+      "type": "regulatory_infrastructure_wedge",
       "unknowns": [],
-      "value_capture_mechanism": "Sell a configured NFC/QR review plaque or countertop stand, optionally in multi-location batches. Use an independently hosted redirect or the buyer's own Google Business Profile link so the operator retains control. Do not claim recurring revenue, conversion uplift or margin until tested.",
+      "value_capture_mechanism": "A narrowly scoped implementation asset: automated API conformance tests, consent-flow test fixtures, data-schema validators, and reproducible sandbox test cases for one participant type. Potential cash flow would come from paid test engagements or integration work only if an affected participant agrees to purchase it; no buyer or price is established by the evidence.",
       "verified_sales": null,
-      "vertical": "chile_localization",
+      "vertical": "open_finance_chile",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -2631,6 +2624,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-11T20:09:13.128011+00:00",
+      "discovery_lens": "cost_curve",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "IEA reports nearly 1 GW of battery additions in Chile in 2025, linked to absorbing surplus solar generation and meeting peak demand, and describes storage deployment and project-development timelines.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Battery storage is scaling up and taking on a larger system role",
+          "url": "https://www.iea.org/commentaries/battery-storage-is-scaling-up-and-taking-on-a-larger-system-role"
+        },
+        {
+          "claim": "IEA reports 108 GW of global battery additions in 2025, 40% above 2024, with utility-scale systems representing about 80% of new capacity.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Technology: Battery storage – Global Energy Review 2026",
+          "url": "https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_f096638ccd65e73298f3",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-11T20:09:13.136728+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Start with one public Chilean node and a small set of operating or announced storage projects. Publish a weekly spreadsheet/dashboard showing price spreads, solar-overgeneration proxies, project status, and modeled two- versus four-hour storage economics. Falsification step: interview or email ten identifiable developers, infrastructure investors, or engineering firms with the sample; require at least two requests for a paid version or data export before building software.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The combination of solar surplus, peak-demand value, and rapid storage deployment creates a specific need for project-level data on curtailment, nodal prices, interconnection status, battery duration, and dispatch economics. The evidence supports demand for analysis, but does not prove a paying customer or margin.",
+      "title": "Chile solar-plus-storage dispatch and congestion data product",
+      "type": "market-data_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "A low-cost monitoring asset for Chilean storage and solar projects: normalized public data, project pipeline tracking, and a transparent dispatch/curtailment model. Possible cash-flow sources include subscriptions, paid diligence, or data licensing to project developers, lenders, or investors, but no purchase commitment or price was found.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-04T03:07:07.122051+00:00",
       "discovery_lens": "tokenization_finance",
       "estimated_capital": "",
@@ -2679,18 +2726,72 @@
       "vertical": "open_finance_chile",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-11T20:09:13.128836+00:00",
+      "discovery_lens": "tokenization_finance",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The ECB describes Appia as a 2025 initiative for a European tokenized financial ecosystem based on DLT and wholesale central-bank-money settlement.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Appia",
+          "url": "https://www.ecb.europa.eu/paym/dlt/appia/html/index.fi.html"
+        },
+        {
+          "claim": "The ECB describes Pontes as an operational offering intended to settle DLT-based wholesale transactions in central bank money and support market players developing related services.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Appia – paving the way for a future-ready, integrated financial ecosystem leveraging tokenisation and DLT",
+          "url": "https://www.ecb.europa.eu/press/payments-news/ecb.pubconpm202603.mt.pdf"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.79,
+      "falsification_conditions": [],
+      "geography": "European Union",
+      "id": "opp_02685a9a8faa1d097565",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-11T20:09:13.136813+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Map the public Pontes/Appia materials into a simulated delivery-versus-payment workflow using dummy assets and cash, publish the message schema and reconciliation results, and request feedback from identifiable European DLT-market-infrastructure firms or institutions. Falsification step: build only the simulator and seek confirmation from five relevant firms that the test maps to an actual planned integration; stop if the public materials do not specify testable interfaces or no participant will review it.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The near-term opportunity is not issuing speculative tokens but testing interoperability between a DLT transaction workflow and central-bank-money settlement. A small operator could produce a technical integration demonstrator or test harness, although participation eligibility, procurement, and commercial demand remain unverified.",
+      "title": "Wholesale tokenized-settlement integration test for European market participants",
+      "type": "settlement_infrastructure_wedge",
+      "unknowns": [],
+      "value_capture_mechanism": "A demonstrator or conformance test for one institutional workflow, such as delivery-versus-payment message mapping, reconciliation, or settlement-event monitoring. Potential payer would be a participating financial-market infrastructure provider, bank, fintech, or vendor; no buyer, fee, or access right is evidenced.",
+      "verified_sales": null,
+      "vertical": "innovation_adoption",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
     }
   ],
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-11T00:15:51.634130+00:00",
+  "generated_at": "2026-10-11T20:09:39.483626+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 19,
+  "rejected_excluded": 20,
   "reviewed_cards": 27,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 52,
-  "watch": 33
+  "total_distinct_opportunities": 55,
+  "watch": 35
 }

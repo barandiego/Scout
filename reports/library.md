@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-11T00:15:51.634130+00:00
+Generated: 2026-10-11T20:09:39.483626+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 33 (0 HQ survivors, 33 watches)
-- Rejected opportunities excluded: 19
+- Active research: 35 (0 HQ survivors, 35 watches)
+- Rejected opportunities excluded: 20
 - Critic-and-judge reviewed: 27
 - Autonomous execution authorization: 0
 
@@ -313,15 +313,15 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.fne.gob.cl/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-pl; https://group.dhl.com/content/dam/deutschepostdhl/en/media-center/media-relations/documents/2025/e-commerce-trends-report-2025-business-edition.pdf; https://www.trade.gov/country-commercial-guides/chile-ecommerce
 
-### NFC review-conversion kits for Chilean cafés, hotels and restaurants [opp_9f47dda18059a735d95d]
-- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
-- Thesis: The executable wedge is not another generic digital-business-card service; it is a small, physical review-acquisition kit sold to locations where staff can prompt a customer immediately after service. The economic mechanism is a one-time hardware sale, potentially bundled with installation/configuration, with value dependent on the operator verifying incremental review volume. Existing public prices provide a bounded WTP reference, but no evidence here proves conversion, retention or repeat purchasing.
-- Value capture: Sell a configured NFC/QR review plaque or countertop stand, optionally in multi-location batches. Use an independently hosted redirect or the buyer's own Google Business Profile link so the operator retains control. Do not claim recurring revenue, conversion uplift or margin until tested.
-- Participation hypothesis: Start with five independently selected cafés, salons or small hotels in one Chilean city. Show the public retail alternatives and offer a single physical prototype at or below the observed CLP 11,990–29,990 range, subject to the buyer's acceptance. Record baseline Google-review counts for 14 days, place the item at checkout for 14 days, and compare review velocity while documenting staff prompts and placement. Falsify if no operator agrees to place the prototype, if staff will not use it, or if review velocity does not measurably change relativ
+### Chile Open Finance conformance and sandbox testing kit [opp_5f6db3a781c7281d67c2]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Entities that must connect as information providers, account providers, information-based service providers, or payment-initiation providers now have a defined technical target and a limited preparation window before mandatory operation.
+- Value capture: A narrowly scoped implementation asset: automated API conformance tests, consent-flow test fixtures, data-schema validators, and reproducible sandbox test cases for one participant type. Potential cash flow would come from paid test engagements or integration work only if an affected participant agrees to purchase it; no buyer or price is established by the evidence.
+- Participation hypothesis: Use the CMF developer portal and sandbox to build a small open-source conformance harness for one documented endpoint and one consent flow. Test it against the published technical requirements, then contact a listed or identifiable Chilean fintech, payment operator, bank, or other prospective participant with the reproducible results. Falsification step: spend one week implementing a single endpoint and ask at least five likely participants whether they would run the test or pay for remediation; stop if the specification is inaccessible, the sa
 - Critic/judge: deferred_by_review_cap
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.ondda.cl/; https://tarjetas-nfc.com/; https://nfctech.cl/
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html
 
 ### Chile SFA implementation moves from rulemaking to integration testing [opp_82f282d8dc0896390ee7]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -333,6 +333,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
+### Chile solar-plus-storage dispatch and congestion data product [opp_f096638ccd65e73298f3]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile
+- Thesis: The combination of solar surplus, peak-demand value, and rapid storage deployment creates a specific need for project-level data on curtailment, nodal prices, interconnection status, battery duration, and dispatch economics. The evidence supports demand for analysis, but does not prove a paying customer or margin.
+- Value capture: A low-cost monitoring asset for Chilean storage and solar projects: normalized public data, project pipeline tracking, and a transparent dispatch/curtailment model. Possible cash-flow sources include subscriptions, paid diligence, or data licensing to project developers, lenders, or investors, but no purchase commitment or price was found.
+- Participation hypothesis: Start with one public Chilean node and a small set of operating or announced storage projects. Publish a weekly spreadsheet/dashboard showing price spreads, solar-overgeneration proxies, project status, and modeled two- versus four-hour storage economics. Falsification step: interview or email ten identifiable developers, infrastructure investors, or engineering firms with the sample; require at least two requests for a paid version or data export before building software.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.iea.org/commentaries/battery-storage-is-scaling-up-and-taking-on-a-larger-system-role; https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage
+
 ### Tokenized unified-ledger infrastructure is moving from concept toward financial-market architecture [opp_993ac5d080c7042af44c]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Global; Chile relevance through future interoperable financial-data and payment infrastructure
 - Thesis: Settlement, reconciliation, collateral and cross-border-payment processes may be reorganized around programmable infrastructure, reducing manual operations and creating demand for regulated connectivity and compliance layers.
@@ -342,3 +352,13 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.bis.org/media-releases/20250624-next-generation-monetary-and-financial-system-takes-shape-based-tokenised-unified-ledger-bis; https://www.bis.org/publications/aer-2025/next-generation-monetary-financial-system
+
+### Wholesale tokenized-settlement integration test for European market participants [opp_02685a9a8faa1d097565]
+- Status: WATCH_REQUIRES_VALIDATION | innovation_adoption | European Union
+- Thesis: The near-term opportunity is not issuing speculative tokens but testing interoperability between a DLT transaction workflow and central-bank-money settlement. A small operator could produce a technical integration demonstrator or test harness, although participation eligibility, procurement, and commercial demand remain unverified.
+- Value capture: A demonstrator or conformance test for one institutional workflow, such as delivery-versus-payment message mapping, reconciliation, or settlement-event monitoring. Potential payer would be a participating financial-market infrastructure provider, bank, fintech, or vendor; no buyer, fee, or access right is evidenced.
+- Participation hypothesis: Map the public Pontes/Appia materials into a simulated delivery-versus-payment workflow using dummy assets and cash, publish the message schema and reconciliation results, and request feedback from identifiable European DLT-market-infrastructure firms or institutions. Falsification step: build only the simulator and seek confirmation from five relevant firms that the test maps to an actual planned integration; stop if the public materials do not specify testable interfaces or no participant will review it.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.ecb.europa.eu/paym/dlt/appia/html/index.fi.html; https://www.ecb.europa.eu/press/payments-news/ecb.pubconpm202603.mt.pdf
