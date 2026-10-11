@@ -1,16 +1,34 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-11T00:49:57.261972+00:00
+Generated: 2026-10-11T20:40:59.540106+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
-- Rolling leads: 605
-- New this cycle: 99
+- Rolling leads: 694
+- New this cycle: 137
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): none
-- Categories: agriculture 82, ai 126, commerce 31, energy 182, robotics 184
+- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
+- Categories: agriculture 105, ai 143, commerce 32, energy 205, robotics 209
 
 ## Recently encountered signals
+
+### kiruthikkumar13/AgriShield-AI-8.7
+- Source: https://github.com/kiruthikkumar13/AgriShield-AI-8.7
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### kgroboop/agri-rover
+- Source: https://github.com/kgroboop/agri-rover
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### pranavkambale2007-code/AgroSense-AI-Powered-Smart-Agriculture-Farm-Intelligence-Platform
+- Source: https://github.com/pranavkambale2007-code/AgroSense-AI-Powered-Smart-Agriculture-Farm-Intelligence-Platform
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### shahed2710/smart-microgrid-simulation
 - Source: https://github.com/shahed2710/smart-microgrid-simulation
@@ -94,6 +112,24 @@ Generated: 2026-10-11T00:49:57.261972+00:00
 - Source: https://doi.org/10.66506/essp.172
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### mangal1622/AgroMitR
+- Source: https://github.com/mangal1622/AgroMitR
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### HarshalStudios/SmartFarm
+- Source: https://github.com/HarshalStudios/SmartFarm
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### shakirshar610-tech/Smartkisan-Agriculture-App
+- Source: https://github.com/shakirshar610-tech/Smartkisan-Agriculture-App
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
 
 ### Abd-El-Rhman-Saad/solar-ev-charging-station-bess
@@ -252,6 +288,24 @@ Generated: 2026-10-11T00:49:57.261972+00:00
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
 
+### Alexzander-Drake-Halstead/sovereign-heart
+- Source: https://github.com/Alexzander-Drake-Halstead/sovereign-heart
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### tilottamamukherjee18-ux/ASSIGNMENT-OOPS-
+- Source: https://github.com/tilottamamukherjee18-ux/ASSIGNMENT-OOPS-
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### ch1nmayii/AI-Driven-Smart-Farming-Assistant-with-Multilingual-Agricultural-Guidance-and-Farmer-Support
+- Source: https://github.com/ch1nmayii/AI-Driven-Smart-Farming-Assistant-with-Multilingual-Agricultural-Guidance-and-Farmer-Support
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
 ### Dynamic simulation and coordinated control of Carnot battery energy storage system integrated with LNG cold energy
 - Source: https://doi.org/10.1016/j.energy.2026.142615
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
@@ -406,58 +460,4 @@ Generated: 2026-10-11T00:49:57.261972+00:00
 - Source: https://arxiv.org/abs/2610.11087
 - Domain: ai | Suggested angle: Agent-enabled digital asset or localised specialised product
 - First test: Identify measurable customer job, willing buyer, existing competitors and unit economics.
-- Status: **unverified research lead**
-
-### Ogugua527/Smart-farming-crop-advisor-Group-25-
-- Source: https://github.com/Ogugua527/Smart-farming-crop-advisor-Group-25-
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Harnessing Artificial Intelligence in Modern Agriculture: Advancements in Smart Farming and Precision Technologies
-- Source: https://doi.org/10.5269/bspm.84980
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### mr-baraiya/UrbanFarm
-- Source: https://github.com/mr-baraiya/UrbanFarm
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Identifying the Financial Feasibility Boundary for Battery Energy Storage Systems as Non-Wires Alternatives: A Scenario-Based Stochastic Framework for Emerging Power Markets
-- Source: https://doi.org/10.2139/ssrn.7583018
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### gouravchourasiya220055-a11y/VIJAYASTRA
-- Source: https://github.com/gouravchourasiya220055-a11y/VIJAYASTRA
-- Domain: robotics | Suggested angle: Chile import/distribution or local integration
-- First test: Check installed base, Chilean competitors, supplier pricing, certification and actual buyer budgets.
-- Status: **unverified research lead**
-
-### StoreBench: A Live-Commerce Environment for Evaluating and Training Autonomous Operator Agents
-- Source: https://arxiv.org/abs/2610.10942
-- Domain: ai | Suggested angle: Agent-enabled digital asset or localised specialised product
-- First test: Identify measurable customer job, willing buyer, existing competitors and unit economics.
-- Status: **unverified research lead**
-
-### yashwanthdn29/Agri-GO
-- Source: https://github.com/yashwanthdn29/Agri-GO
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### MostafaQabbari/speicherlotse
-- Source: https://github.com/MostafaQabbari/speicherlotse
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Optimal Sizing of Battery Energy Storage Systems: Nonlinear Battery Degradation and Topology Design
-- Source: https://doi.org/10.1109/icee70628.2026.11710756
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
