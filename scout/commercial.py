@@ -77,13 +77,33 @@ def _simple(text: object, size: int = 260) -> str:
         ">", "›").replace("|", "¦").replace("[", "⟦").replace("]", "⟧")
 
 
+def _grounded_source_urls(card: dict) -> list[str]:
+    """Count only unique, nonempty provider-grounded primary/independent URLs.
+
+    Multiple claims supported by the same URL do not create independent
+    source evidence. This is URL deduplication, not a claim-truth judgment.
+    """
+    seen, urls = set(), []
+    for evidence in card.get("evidence") or []:
+        if not isinstance(evidence, dict):
+            continue
+        if evidence.get("grounded_in_provider_search") is not True:
+            continue
+        if evidence.get("source_type") not in {"primary", "independent"}:
+            continue
+        url = evidence.get("url")
+        if not isinstance(url, str):
+            continue
+        url = url.strip()
+        if not url.startswith(("https://", "http://")) or url in seen:
+            continue
+        seen.add(url)
+        urls.append(url)
+    return urls
+
+
 def _evidence_count(card: dict) -> int:
-    return sum(
-        e.get("grounded_in_provider_search") is True
-        and e.get("source_type") in {"primary", "independent"}
-        for e in card.get("evidence", [])
-        if isinstance(e, dict)
-    )
+    return len(_grounded_source_urls(card))
 
 
 def commercial_review_queue(library: dict, *, maximum: int = 4) -> dict:
@@ -145,10 +165,7 @@ def commercial_review_queue(library: dict, *, maximum: int = 4) -> dict:
             "automatic_purchase_authorized": False,
             "next_no_spend_buyer_test": BUYER_TESTS[vertical],
             "first_distribution_hypothesis": card["participation_path"],
-            "verified_source_urls": [
-                e["url"] for e in card["evidence"]
-                if isinstance(e, dict) and e.get("grounded_in_provider_search") is True
-            ][:4],
+            "verified_source_urls": _grounded_source_urls(card)[:4],
             "missing_to_prove": (
                 ([] if reviewed else ["independent_critic_and_judge"]) + list(MISSING_PROOFS)
             ),

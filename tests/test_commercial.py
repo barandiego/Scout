@@ -79,6 +79,35 @@ def test_input_is_required_to_be_canonical_and_restricted():
         commercial_review_queue(library(card()), maximum=0)
 
 
+def test_duplicate_blank_and_untrusted_urls_do_not_fake_source_count():
+    candidate = card("NFC product kit", grounded=0)
+    candidate["evidence"] = [
+        {"url": "https://supplier.example/item", "source_type": "primary",
+         "grounded_in_provider_search": True},
+        {"url": "https://supplier.example/item", "source_type": "independent",
+         "grounded_in_provider_search": True},
+        {"url": "", "source_type": "primary",
+         "grounded_in_provider_search": True},
+        {"url": "javascript:alert(1)", "source_type": "primary",
+         "grounded_in_provider_search": True},
+        {"url": "https://unverified.example/item", "source_type": "primary",
+         "grounded_in_provider_search": False},
+    ]
+    # A repeated citation is not a second independent source.
+    assert commercial_review_queue(library(candidate))["selected"] == []
+
+    candidate["evidence"].append({
+        "url": "https://other.example/research", "source_type": "independent",
+        "grounded_in_provider_search": True,
+    })
+    selected = commercial_review_queue(library(candidate))["selected"]
+    assert len(selected) == 1
+    assert selected[0]["verified_source_urls"] == [
+        "https://supplier.example/item", "https://other.example/research"
+    ]
+    assert selected[0]["buyer_verified"] is False
+
+
 def test_source_text_cannot_inject_html_into_markdown():
     bad = card("NFC product kit <script>steal()</script> | foo [bad]")
     bad["participation_path"] = "<script>steal()</script>"
