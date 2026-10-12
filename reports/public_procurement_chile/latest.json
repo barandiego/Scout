@@ -1,87 +1,27 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 6060000.0,
-      "buyer": "SERVICIO DE SALUD METROPOLITANA NORTE HOSPITAL SAN JOSE",
-      "closes_at": "2026-10-13T15:00:00",
-      "code": "1549-4271-COT26",
-      "estimated_budget": 6060000.0,
-      "name": "107-5035 PAQ.PARTO DESECH.ESTERIL",
+      "available_budget_clp": 509100.0,
+      "buyer": "ATF-60 \"LIENTUR\"",
+      "closes_at": "2026-10-13T11:00:00",
+      "code": "1315764-83-COT26",
+      "estimated_budget": 509100.0,
+      "name": "ADQUISICIÓN DE PAÑO ABSORBENTE DE HIDROCARBURO",
       "products": 1,
-      "region": "Región Metropolitana de Santiago"
+      "region": "Región de Magallanes y de la Antártica"
     },
     {
-      "available_budget_clp": 350000.0,
-      "buyer": "SERV NAC SALUD HOSPITAL DE LOS ANDES",
-      "closes_at": "2026-10-13T12:00:00",
-      "code": "617807-2363-COT26",
-      "estimated_budget": 350000.0,
-      "name": "HAAV INSUMOS DE PABELLON 20261096",
-      "products": 3,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 900000.0,
-      "buyer": "SERV NAC SALUD HOSPITAL DE LOS ANDES",
-      "closes_at": "2026-10-13T15:00:00",
-      "code": "617807-2362-COT26",
-      "estimated_budget": 900000.0,
-      "name": "HAAV CURSO DE CAPACITACION MEMO N°66",
+      "available_budget_clp": 7200000.0,
+      "buyer": "ATF-60 \"LIENTUR\"",
+      "closes_at": "2026-10-13T11:00:00",
+      "code": "1315764-81-COT26",
+      "estimated_budget": 7200000.0,
+      "name": "ADQUISICIÓN DE ACEITE PARA MAQUINARIA AUXILIAR",
       "products": 1,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 2300000.0,
-      "buyer": "I.Municipalidad de Camarones",
-      "closes_at": "2026-10-13T08:00:00",
-      "code": "5858-36-COT26",
-      "estimated_budget": 2300000.0,
-      "name": "CONTRATACIÓN DE PRESTACIÓN DE SERVICIOS PROFESIONALES DE ANALISTA DE PROYECTOS 4 PARA LA FORMULACIÓN, SEGUIMIENTO Y CIERRE DE INICIATIVAS DE INVERSIÓN SOCIAL DE LA MUNICIPALIDAD DE CAMARONES",
-      "products": 1,
-      "region": "Región de Arica y Parinacota"
-    },
-    {
-      "available_budget_clp": 2300000.0,
-      "buyer": "I.Municipalidad de Camarones",
-      "closes_at": "2026-10-13T08:00:00",
-      "code": "5858-35-COT26",
-      "estimated_budget": 2300000.0,
-      "name": "CONTRATACIÓN DE PRESTACIÓN DE SERVICIOS PROFESIONALES DE ANALISTA DE PROYECTOS 3 PARA LA FORMULACIÓN, SEGUIMIENTO Y CIERRE DE INICIATIVAS DE INVERSIÓN SOCIAL DE LA MUNICIPALIDAD DE CAMARONES",
-      "products": 1,
-      "region": "Región de Arica y Parinacota"
-    },
-    {
-      "available_budget_clp": 60000.0,
-      "buyer": "SERV NAC SALUD HOSPITAL DE LOS ANDES",
-      "closes_at": "2026-10-13T12:00:00",
-      "code": "617807-2361-COT26",
-      "estimated_budget": 60000.0,
-      "name": "HAAV INSUMOS PARA PABELLON 20261229",
-      "products": 2,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 6060000.0,
-      "buyer": "SERVICIO DE SALUD METROPOLITANA NORTE HOSPITAL SAN JOSE",
-      "closes_at": "2026-10-13T16:00:00",
-      "code": "1549-4270-COT26",
-      "estimated_budget": 6060000.0,
-      "name": "340-4520 NEFROSCOPIO C/ACCESORIOS",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 6060000.0,
-      "buyer": "SERVICIO DE SALUD METROPOLITANA NORTE HOSPITAL SAN JOSE",
-      "closes_at": "2026-10-13T16:00:00",
-      "code": "1549-4269-COT26",
-      "estimated_budget": 6060000.0,
-      "name": "340-2315 LIGADURA DE HEMORROIDES (BS*100UN)",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
+      "region": "Región de Magallanes y de la Antártica"
     }
   ],
-  "active_structurally_reconstructable_count": 8,
+  "active_structurally_reconstructable_count": 2,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -99,7 +39,7 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-10-12T04:41:15Z",
+  "generated_at": "2026-10-12T08:43:52Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -109,14 +49,14 @@
     "rejection_reasons": {
       "no_observable_competitive_prices": 3
     },
-    "resolved": 12,
+    "resolved": 18,
     "structurally_reconstructable": 17,
-    "with_observable_quote_totals": 9,
-    "with_purchase_order_indicator": 4
+    "with_observable_quote_totals": 15,
+    "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-12T04:41:15Z"
+    "changed_to": "2026-10-12T08:43:52Z"
   }
 }
