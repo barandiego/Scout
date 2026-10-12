@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-12T00:53:13.835520+00:00
+Generated: 2026-10-12T04:45:11.903625+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
-- Rolling leads: 742
-- New this cycle: 97
+- Rolling leads: 841
+- New this cycle: 148
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
-- Categories: agriculture 110, ai 152, commerce 32, energy 221, robotics 227
+- Feed failures (fail-open for public intake only): none
+- Categories: agriculture 112, ai 177, commerce 30, energy 253, robotics 269
 
 ## Recently encountered signals
 
@@ -110,6 +110,18 @@ Generated: 2026-10-12T00:53:13.835520+00:00
 
 ### Opportunities and challenges of integrating battery energy storage in the electricity grid – perspectives from distribution system operators
 - Source: https://doi.org/10.66506/essp.172
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### Comparative Sensitivity Analysis of Grid‐Scale Battery Storage Technologies: Feasibility Investigation for Solar Integration in India
+- Source: https://doi.org/10.1002/est2.70549
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### Battery–hydrogen storage transition in a grid-connected PV prosumer: A self-sufficiency threshold analysis under weather variability and techno-economic sensitivity
+- Source: https://doi.org/10.1016/j.enconman.2026.122215
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
@@ -288,6 +300,18 @@ Generated: 2026-10-12T00:53:13.835520+00:00
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
 
+### Co-optimizing magnetic-flux budgeting with thermal and battery storage in pulsed fusion power plants through physics-informed learning
+- Source: https://doi.org/10.2139/ssrn.7597204
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### GRAVIDRO: deep sea underwater gravity battery parks scalable toward TWh energy storage capacity
+- Source: https://doi.org/10.31526/jais.2026.07
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
 ### Alexzander-Drake-Halstead/sovereign-heart
 - Source: https://github.com/Alexzander-Drake-Halstead/sovereign-heart
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
@@ -434,30 +458,6 @@ Generated: 2026-10-12T00:53:13.835520+00:00
 
 ### Plan-and-Patch: Diffusion Language Models for Agentic Planning
 - Source: https://arxiv.org/abs/2610.10786
-- Domain: ai | Suggested angle: Agent-enabled digital asset or localised specialised product
-- First test: Identify measurable customer job, willing buyer, existing competitors and unit economics.
-- Status: **unverified research lead**
-
-### Does solar interest extend to battery storage? Understanding shared and distinct motivators of adoption among German households
-- Source: https://doi.org/10.1016/j.erss.2026.104996
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Utility-Scale Battery Energy Storage Systems: Cost Analysis and U.S. Market Opportunities
-- Source: https://doi.org/10.66816/po4032360
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### AgroInnovation-Transforming Agriculture Through IoT-Enabled Precision Farming for Sustainable Productivity
-- Source: https://doi.org/10.1007/978-3-032-27834-0_50
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Beyond Imitation: A Framework and Benchmark for LLM-Assisted Peer Review
-- Source: https://arxiv.org/abs/2610.11087
 - Domain: ai | Suggested angle: Agent-enabled digital asset or localised specialised product
 - First test: Identify measurable customer job, willing buyer, existing competitors and unit economics.
 - Status: **unverified research lead**
