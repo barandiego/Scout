@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-12T04:45:11.903625+00:00
+Generated: 2026-10-12T08:47:02.538294+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
-- Rolling leads: 841
-- New this cycle: 148
+- Rolling leads: 904
+- New this cycle: 110
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 112, ai 177, commerce 30, energy 253, robotics 269
+- Categories: agriculture 123, ai 185, commerce 32, energy 277, robotics 287
 
 ## Recently encountered signals
+
+### yieldshield-devs/Plant-Guard
+- Source: https://github.com/yieldshield-devs/Plant-Guard
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### kiruthikkumar13/AgriShield-AI-8.7
 - Source: https://github.com/kiruthikkumar13/AgriShield-AI-8.7
@@ -300,6 +306,24 @@ Generated: 2026-10-12T04:45:11.903625+00:00
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
 
+### Agriculture Rover For Soil and Crop Data Collection
+- Source: https://doi.org/10.55041/ijsrem67862
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### Kinni26/CropGenius
+- Source: https://github.com/Kinni26/CropGenius
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### Thanyaravi/FarmWise360-AI
+- Source: https://github.com/Thanyaravi/FarmWise360-AI
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
 ### Co-optimizing magnetic-flux budgeting with thermal and battery storage in pulsed fusion power plants through physics-informed learning
 - Source: https://doi.org/10.2139/ssrn.7597204
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
@@ -436,28 +460,4 @@ Generated: 2026-10-12T04:45:11.903625+00:00
 - Source: https://github.com/nexform-tech/litearm-ros2-control
 - Domain: robotics | Suggested angle: Chile import/distribution or local integration
 - First test: Check installed base, Chilean competitors, supplier pricing, certification and actual buyer budgets.
-- Status: **unverified research lead**
-
-### A Reconfigurable Fabric Based Pneumatic Actuator with Button Fastened Constraint Modules for Multi Mode Actuation
-- Source: https://arxiv.org/abs/2610.11054
-- Domain: robotics | Suggested angle: Chile import/distribution or local integration
-- First test: Check installed base, Chilean competitors, supplier pricing, certification and actual buyer budgets.
-- Status: **unverified research lead**
-
-### Nanomaterials for Thermal Energy Storage Application
-- Source: https://doi.org/10.1007/978-3-032-25142-8_9
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Health-Aware Dispatch of Battery Energy Storage for Energy Arbitrage via Dynamic State-of-Health Optimal Control and Feasibility-Set Contraction
-- Source: https://doi.org/10.2139/ssrn.7585067
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Plan-and-Patch: Diffusion Language Models for Agentic Planning
-- Source: https://arxiv.org/abs/2610.10786
-- Domain: ai | Suggested angle: Agent-enabled digital asset or localised specialised product
-- First test: Identify measurable customer job, willing buyer, existing competitors and unit economics.
 - Status: **unverified research lead**
