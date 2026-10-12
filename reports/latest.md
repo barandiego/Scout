@@ -1,10 +1,10 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-12T08:15:22.826650+00:00
+Generated: 2026-10-12T12:20:17.284833+00:00
 
-- outcome: DEGRADED_SUCCESS
+- outcome: SUCCESS
 - ok: True
-- lenses: ['market_positioning', 'asset_ownership', 'nfc_smart_commerce']
+- lenses: ['vertical_farming_economics', 'energy_localization', 'wildcard']
 - raw_candidates: 2
 - parseable_candidates: 2
 - normalized_candidates: 2
@@ -12,17 +12,17 @@ Generated: 2026-10-12T08:15:22.826650+00:00
 - grounded_sources: 5
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 0
+- judge_attempts: 1
 - critic_reviews: 1
-- judge_reviews: 0
+- judge_reviews: 1
 - survivors: 0
 - watches: 3
 - rejected: 0
-- errors_by_stage: {'critic': 1}
-- rejection_reasons: {'discarded_ungrounded_url': 1}
-- cost_usd: 0.02959705
+- errors_by_stage: {}
+- rejection_reasons: {}
+- cost_usd: 0.0541711
 - cost_uncertain: False
-- budget_remaining_usd: 0.05040295
+- budget_remaining_usd: 0.0258289
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,8 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Grid connection queues are creating a monetizable bottleneck for flexibility and grid-enhancing technologies: The underlying bottleneck is credibly grounded by IEA and official U.S. grid-policy sources: connection backlogs, congestion, and constrained transmission capacity are real and timely. However, this is a broad problem category rather than a sufficiently specified HQ-worthy opportunity. Queue GW and technical hosting-capacity potential do not translate directly into vendor revenue, deployable projects, or venture-scale margins. Value capture, buyer identity, procurement route, regulatory cost recovery, reliability acceptance, and deployment economics differ substantially among DLR, power-flow control, topology software, interconnection analytics, storage co-location, and flexible-load aggregation. A realistic participation path exists only after narrowing to a particular grid region, technology, customer, tariff/procurement mechanism, and measurable avoided-upgrade or accelerated-interconnection outcome. It should not be pursued as a generic global 'grid bottleneck' thesis without that validation.
-- SFA implementation moved from rulemaking toward interoperability testing: The regulatory and infrastructure signal is sufficiently grounded in CMF primary materials: the SFA technical framework and ATENA sandbox support the conclusion that implementation/interoperability work is moving forward, so this is not rejected for an unverified regulatory change. A technically plausible path exists for vendors serving regulated participants through integration, security, consent, monitoring, and operational tooling. However, the evidence does not yet establish that production API access, mandatory participant scope, outsourced purchasing budgets, or recurring software demand will be large enough to support attractive value capture. The public sandbox and specifications may reduce, rather than create, proprietary value in baseline testing and conformance. This remains HQ-worthy monitoring and customer-validation research, not a demonstrated commercial market thesis.
 - Permitting and transmission-process modernization is opening a bottleneck-sensitive infrastructure opportunity: The underlying premise is credible and timely: primary DOE material supports increased transmission need associated with large-load growth, and the hydropower program supports active interest in reducing regulatory-process cost. There are plausible paying customers—developers, utilities, large-load project sponsors, and engineering/environmental firms—and plausible entry modes. However, this is not yet an HQ-worthy opportunity thesis because it bundles distinct businesses with materially different buyers, economics, procurement paths, and competitive structures. The cited signals establish policy attention and infrastructure need, not repeatable third-party vendor budgets or a defensible initial wedge. The opportunity should remain in watch status until a specific geography, workflow, buyer, pain metric, procurement route, and value-capture model are evidenced.
 - Industrial robot installations reached a record in 2025, with strongest growth in China and the United States: The IFR primary-source evidence makes the core demand signal reasonably credible and timely: a larger installed base and renewed installation growth can expand spending around deployment, uptime, and lifecycle service. However, this is a sector-level tailwind rather than a defined opportunity. The proposed value-capture mechanisms combine fundamentally different businesses—systems integration, retrofit hardware, fleet software, maintenance, and financing—without identifying a buyer, painful workflow, product wedge, access path, price, or unit economics. There is a plausible payer (manufacturers seeking productivity, uptime, quality, or labor relief) and feasible participation routes, so the premise is not fatally unverifiable or structurally closed. It should remain research-only until narrowed to a specific vertical/application and validated against customer economics and incumbent alternatives.
 - Chile’s open-finance implementation is becoming an integration and testing market: The cited CMF materials credibly support that Chile’s Sistema de Finanzas Abiertas has published technical specifications, a July 2027 effective date, and an ATENA testing sandbox. This clears the threshold for a real regulatory/infrastructure signal and does not establish a fatal lack of legal or technical access. However, the opportunity is presently a broad implementation theme rather than an HQ-worthy, economically validated wedge: sandbox availability and a future compliance date do not demonstrate production connectivity, paid vendor demand, viable unit economics, or an ability for an unregulated/foreign entrant to bear registration, cybersecurity, privacy, liability, and local-operational requirements. Keep under watch pending evidence for a specific buyer/use case and production-commercial conversion.
@@ -42,7 +40,7 @@ No survivors. Scout does not manufacture a daily winner.
 - BESS and inverter compliance pre-check for Chilean distributed-energy projects: This is a plausible Chile-specific compliance-services research wedge rather than an energy-asset investment thesis. Primary SEC materials support that BESS/distributed-generation compliance and authorized-installer processes exist, and the proposed payer is identifiable: authorized installers/EPCs or project owners facing filing and equipment-documentation risk. The service can likely be scoped as non-certifying document review, so unattainable interconnection or asset-custody requirements are not established. However, it is not yet HQ-worthy as a survivor: there is no evidence of relevant BESS project volume, rejection/rework incidence, avoided-cost magnitude, willingness to pay, legal scope for an unlicensed reviewer, or a durable advantage over installers, engineers, vendors, and SEC tools. It also does not itself demonstrate a price, capacity, reliability, or power-electronics investment edge; it is an ancillary service whose demand depends on those projects occurring. Advance only as tightly bounded customer-discovery and legal-scope research, not as a bankable opportunity or standalone energy-infrastructure investment.
 - Indoor-farm lighting and energy audit wedge for existing Chilean growers: This is a credible measurement-first operational-efficiency hypothesis for existing controlled-environment growers, not an evidenced robotics/agritech equipment business. Buyer access is at least directionally identifiable through named Chilean controlled-environment operators, and the proposal does not misrepresent simulated lighting-control results as proof of Chilean commercial performance. However, it does not satisfy several robotics_agritech decision criteria: no demonstrated robotic technology or independently tested deployable system; no quantified Chilean customer labor, yield, throughput, tariff, or payback result; no local service/spares/supplier-support model; and no lease-versus-buy, utilization, or importer/distributor/operator economics. The proposed paid pilot is an appropriate research gate, but it is not sufficient evidence for HQ-level investment or scaling.
 - Narrow Chilean e-commerce returns-recovery test for one product category: critic_invalid_output
-- Chile Open Finance conformance and sandbox testing kit: deferred_by_review_cap
+- Chile Open Finance conformance and sandbox testing kit: The regulatory premise appears adequately grounded by CMF primary sources: an SFA technical annex, developer/testing resources, and a July 2027 entry-into-force timetable are plausible. A narrowly scoped conformance-testing workflow is therefore not presently blocked by an unverified regulatory change or demonstrated lack of technical access. However, the proposed commercial wedge has not cleared the core viability tests: CMF’s own portal/ATENA sandbox may substitute for much of the tool, no mandatory independent certification or paid conformance artifact is evidenced, and there is no buyer validation, budget evidence, procurement path, or proof that reusable software beats internal teams and incumbents. It survives only as tightly bounded discovery research or a possible consulting lead, not as an HQ-worthy software opportunity yet.
 - Chile solar-plus-storage dispatch and congestion data product: deferred_by_review_cap
 - Wholesale tokenized-settlement integration test for European market participants: deferred_by_review_cap
 - Chile SFA conformance and consent-flow testing for fintech participants before July 2027: deferred_by_review_cap
@@ -51,13 +49,14 @@ No survivors. Scout does not manufacture a daily winner.
 - Independent operating-support wedge around DJI agricultural drones already sold in Chile: deferred_by_review_cap
 - NFC-to-review and reservation plaques for Chilean hospitality businesses: deferred_by_review_cap
 - Marketplace-native product discovery wedge for Natura-adjacent beauty sellers: deferred_by_review_cap
+- Chile Open Finance conformance and sandbox test harness: deferred_by_review_cap
+- Plant-level curtailment and BESS siting intelligence for Chilean renewable projects: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "research_queue_unreviewed=9",
-    "critic:invalid_decision"
+    "research_queue_unreviewed=10"
   ],
   "stages": [
     {
@@ -65,44 +64,50 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 36,
+      "grounded_source_count": 42,
       "search_source_urls": [
-        "https://en.wikipedia.org/wiki/Digital_business_card",
-        "https://en.wikipedia.org/wiki/Nayax",
-        "https://en.wikipedia.org/wiki/ScholarChip",
-        "https://es.wikipedia.org/wiki/Falabella",
-        "https://es.wikipedia.org/wiki/Grupo_Falabella",
-        "https://es.wikipedia.org/wiki/Lynqu",
-        "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/",
-        "https://linkd.cl/",
-        "https://nfc.pcreballing.cl/",
-        "https://nfcid.cl/",
-        "https://production.na01.natura.com/on/demandware.static/-/Sites-NatChile-Library/default/v4451a1d4e6abdb654aa976752e4626774c6ec279/landing-page/sustentabilidad/PDFs/Informe_Integrado_Natura_Co_2024_vf-22-09-2025.pdf",
-        "https://static.rede.natura.net/Tiendas_recojo_en_tienda.pdf",
-        "https://static.rede.natura.net/terminos-y-condiciones-31-01-chile.pdf",
-        "https://tnfc.cl/producto/tarjeta-nfc-de-presentacion-digital/",
-        "https://tukcards.cl/tuk-appweb/index.php",
+        "https://arxiv.org/abs/2008.01325",
+        "https://arxiv.org/abs/2507.18419",
+        "https://cincodias.elpais.com/companias/2025-09-10/grenergy-cierra-la-financiacion-de-230-millones-de-euros-para-la-mayor-fase-del-megaproyecto-oasis-de-atacama.html",
+        "https://climate.org/wp-content/uploads/2025/09/Final-Chile-Report.pdf",
+        "https://cmfchile.cl/portal/principal/613/articles-86367_doc_pdf.pdf",
+        "https://cmfchile.cl/portal/principal/613/w3-article-92556.html",
+        "https://en.wikipedia.org/wiki/Curtailment_in_Chile",
+        "https://en.wikipedia.org/wiki/Renewable_Energy_Independent_Power_Producer_Procurement_Programme",
+        "https://en.wikipedia.org/wiki/Solar_power_in_Chile",
+        "https://energia.gob.cl/sites/default/files/documentos/definitive_report_pelp_2023-2027.pdf",
+        "https://es.scribd.com/document/1014311150/BOLETIN-1-INIA-FIA-Manejo-Sanitario-y-Otros-InIA-Chile",
+        "https://iea.blob.core.windows.net/assets/48eccb83-984c-45d2-bf78-67a61e88d241/Renewables2025.pdf",
+        "https://iea.blob.core.windows.net/assets/76ad6eac-2aa6-4c55-9a55-b8dc0dba9f9e/Renewables2025.pdf",
+        "https://investigadores.anid.cl//es/public_search/work?id=757284",
+        "https://renmad.com/chile/wp-content/uploads/ENG-Agenda-Preliminar-RENMAD-Chile-20251.pdf",
+        "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa2.php?numero=530&tiponorma=NCG",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-73477_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-100482.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-96458.html",
+        "https://www.cmfchile.cl/portal/principal/613/articles-82752_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html",
         "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.falabella.com/falabella-cl/brand/NATURA?mkid=LP_HM_NAT_36",
-        "https://www.falabella.com/falabella-cl/brand/NATURA?sid=CP_V1_NAT_3052",
-        "https://www.falabella.com/static/staticContent/content/minisitios/rse/contenidoDescargable/REPORTEOFICIAL.PDF",
-        "https://www.fne.gob.cl/wp-content/uploads/2019/12/aprob54a_F207_2019.pdf",
-        "https://www.natura.cl/encuentra-natura",
-        "https://www.nexoid.cl/",
-        "https://www.ondda.cl/",
-        "https://www.reddit.com/r/NFC/comments/1j0v5la/digital_business_cardreview_platform/",
-        "https://www.reddit.com/r/NFC/comments/1pdol0s/whats_the_best_nfc_digital_business_card_without/",
-        "https://www.reddit.com/r/NFC/comments/1q4vgbt/removed/",
-        "https://www.reddit.com/r/NFC/comments/1q55fx1/free_digital_business_card_profile/",
-        "https://www.reddit.com/r/NFC/comments/1v9xopz/anyone_here_running_an_nfc_business_for/",
-        "https://www.reddit.com/r/NFC/comments/1vw9yun/nfc_business_cards_without_a_subscription_honest/",
-        "https://www.reddit.com/r/NFC/comments/1wm6dsc/say_goodbye_to_paper_business_cards_we_just/",
-        "https://www.reddit.com/r/SideProject/comments/1tmdgl3/i_thought_i_was_building_a_digital_business_card/",
-        "https://www.reddit.com/r/b2bmarketing/comments/1of1owa/my_onemonth_experience_with_digital_business_card/",
-        "https://www.reddit.com/r/business/comments/1x14g4d/nfc_business_cards_for_entire_company/",
-        "https://www.reddit.com/r/chileIT/comments/1n5q0pa/duda_de_totalmente_de_curioso_qu%C3%A9_pasar%C3%ADa_si/",
-        "https://www.reddit.com/r/startupideas/comments/1uubbwx/built_an_nfcpowered_digital_business_card/",
-        "https://www.visa.cl/content/dam/VCOM/download/about-visa/Visa_Core_Rules_and_Visa_Product_Chile_2025-04-12_EN.pdf"
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-82752.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-96504.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html",
+        "https://www.coordinador.cl/novedades/coordinador-electrico-presenta-informe-de-monitoreo-de-la-competencia-con-desafios-estructurales/",
+        "https://www.coordinador.cl/operacion/documentos/reducciones-de-generacion-renovable/",
+        "https://www.coordinador.cl/operacion/documentos/reducciones-de-generacion-renovable/reducciones-erv-2025/",
+        "https://www.coordinador.cl/presentaciones/balance-del-sistema-electrico-nacional-2025-y-perspectivas-para-2026/",
+        "https://www.coordinador.cl/wp-content/uploads/2026/03/2025-12-29-CONFERENCIA-DE-PRENSA.pdf",
+        "https://www.coordinador.cl/wp-content/uploads/2026/04/Informe-Monitoreo-2025.pdf",
+        "https://www.fraunhofer.cl/en/projects/pv-systems/urban-farm--new-ways-to-grow-vegetables-in-the-city.html",
+        "https://www.fraunhofer.cl/es/proyectos/urban-farm-pv.html",
+        "https://www.global-climatescope.org/downloads/CS2025_20251103.pdf",
+        "https://www.iea.org/data-and-statistics/charts/annual-vre-shares-in-generation-and-technical-curtailment-for-selected-countries-and-regions",
+        "https://www.iea.org/policies/25754-call-for-tenders-electrical-energy-storage-systems",
+        "https://www.odepa.gob.cl/fichas-de-costo",
+        "https://www.reddit.com/r/climatechange/comments/1w06nyc/battery_boom_brings_roundtheclock_solar_closer/",
+        "https://www.spec.cl/en/publicaciones/2026-almacenamiento-corta-duracion/",
+        "https://www.spec.cl/es/publicaciones/2026-almacenamiento-corta-duracion/",
+        "https://zenodo.org/records/21652187"
       ]
     },
     {
@@ -117,16 +122,14 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 3,
+      "grounded_sources": 2,
       "retry_justified": false
     },
     {
       "index": 1,
       "stage": "normalization",
       "outcome": "accepted",
-      "reasons": [
-        "discarded_ungrounded_url"
-      ],
+      "reasons": [],
       "changes": [
         "contrary_evidence:list_sanitized",
         "major_risks:list_sanitized",
@@ -134,53 +137,105 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 2,
+      "grounded_sources": 3,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_fa54176321cf12d8b287",
+      "candidate_id": "opp_5f6db3a781c7281d67c2",
+      "response_status": "completed",
+      "incomplete_reason": "",
+      "grounded_source_count": 24,
+      "search_source_urls": [
+        "https://chocale.cl/2026/06/la-cmf-postergo-implementacion-del-sistema-de-finanzas-abiertas-hasta-2027/",
+        "https://cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://cmfchile.cl/portal/principal/613/articles-86367_doc_pdf.pdf",
+        "https://cmfchile.cl/portal/principal/623/w4-article-80854.html",
+        "https://cmfchile.cl/portal/principal/623/w4-article-92466.html",
+        "https://en.wikipedia.org/wiki/Open_finance",
+        "https://es.wikipedia.org/wiki/Bancarizaci%C3%B3n_en_Chile",
+        "https://es.wikipedia.org/wiki/Comisi%C3%B3n_para_el_Mercado_Financiero",
+        "https://es.wikipedia.org/wiki/Finanzas_abiertas",
+        "https://es.wikipedia.org/wiki/Superintendencia_de_Bancos_e_Instituciones_Financieras_de_Chile",
+        "https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_financiera",
+        "https://www.cmfchile.cl/portal/principal/613/articles-100816_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/articles-82752_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/articles-92466_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-108561.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-59518.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-73961.html",
+        "https://www.imf.org/-/media/files/publications/cr/2024/english/1chlea2024002.pdf",
+        "https://www.publicnow.com/view/94742D8E7E80B78BADAF769C33406B65C2A4AF6A",
+        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000108/MNCjune2026signed.pdf"
+      ]
+    },
+    {
+      "stage": "critic",
+      "candidate_id": "opp_5f6db3a781c7281d67c2",
+      "coercions": [
+        "contrary_evidence"
+      ]
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_5f6db3a781c7281d67c2",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
       "search_source_urls": []
     },
     {
-      "stage": "critic",
-      "candidate_id": "opp_fa54176321cf12d8b287",
-      "coercions": [
-        "contrary_evidence"
-      ]
+      "stage": "judge",
+      "candidate_id": "opp_5f6db3a781c7281d67c2",
+      "coercions": []
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 194,
-      "cache_write_tokens": 5069,
+      "reasoning_tokens": 282,
+      "cache_write_tokens": 5427,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01486245,
+      "cumulative_cost_usd": 0.02626515,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13625,
+      "input_tokens": 21635,
       "cached_tokens": 0,
-      "output_tokens": 1570,
-      "web_search_calls": 1,
-      "estimated_cost_usd": 0.01486245
+      "output_tokens": 1389,
+      "web_search_calls": 2,
+      "estimated_cost_usd": 0.02626515
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 207,
-      "cache_write_tokens": 5488,
+      "reasoning_tokens": 167,
+      "cache_write_tokens": 5251,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02959705,
+      "cumulative_cost_usd": 0.0407341,
       "model": "gpt-5.6-luna",
-      "input_tokens": 14411,
+      "input_tokens": 13574,
       "cached_tokens": 0,
-      "output_tokens": 1315,
+      "output_tokens": 1243,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0147346
+      "estimated_cost_usd": 0.01446895
+    },
+    {
+      "stage": "judge",
+      "available": true,
+      "reasoning_tokens": 48,
+      "cache_write_tokens": 2598,
+      "accounting_notes": [],
+      "cumulative_cost_usd": 0.0541711,
+      "model": "gpt-5.6-terra",
+      "input_tokens": 2601,
+      "cached_tokens": 0,
+      "output_tokens": 578,
+      "web_search_calls": 0,
+      "estimated_cost_usd": 0.013437
     }
   ]
 }

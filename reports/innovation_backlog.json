@@ -192,6 +192,43 @@
     },
     {
       "capital_required_unverified_estimate": "",
+      "category": "energy_infrastructure",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Download the CEN monthly files, reproduce one region’s plant-level curtailment table, and send a one-page result to publicly identifiable project-development or investment contacts asking them to validate one plant’s decision use. The lowest-cost falsification step is to produce a free analysis for five plants and seek one paid follow-up or data-request; stop if users cannot name a concrete investment, dispatch or diligence decision improved by the analysis. Do not claim dispatch rights, grid access or project ownership.",
+      "current_thesis": "Project developers, asset owners and lenders need to distinguish curtailment exposure by plant, node, month and hour when evaluating storage retrofits, dispatch strategies and acquisition risk. The economic mechanism is better underwriting or dispatch decisions, not the existence of a generic energy trend.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile, especially solar-heavy northern regions and congested transmission zones",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Plant-level curtailment and BESS siting intelligence for Chilean renewable projects",
+      "opportunity_id": "opp_5fec091eab927558b694",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
+        "Compare owned asset, installer/distributor and project-finance participation.",
+        "Verify permits and installed net payback under conservative power price scenarios."
+      ],
+      "supporting_source_urls": [
+        "https://www.coordinador.cl/operacion/documentos/reducciones-de-generacion-renovable/",
+        "https://www.coordinador.cl/novedades/coordinador-electrico-presenta-informe-de-monitoreo-de-la-competencia-con-desafios-estructurales/",
+        "https://www.spec.cl/en/publicaciones/2026-almacenamiento-corta-duracion/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A reproducible Chile-specific dataset and screening report that joins CEN curtailment records to plant metadata and calculates candidate storage-loading hours, avoided curtailed MWh scenarios and diligence flags. A payer could be a renewable-project developer, investor or engineering firm, but willingness to pay is unverified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
       "category": "general",
       "commercially_validated": false,
       "competition_confirmed": false,
@@ -711,8 +748,8 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
-      "current_participation_path": "Use the CMF developer portal and sandbox to build a small open-source conformance harness for one documented endpoint and one consent flow. Test it against the published technical requirements, then contact a listed or identifiable Chilean fintech, payment operator, bank, or other prospective participant with the reproducible results. Falsification step: spend one week implementing a single endpoint and ask at least five likely participants whether they would run the test or pay for remediation; stop if the specification is inaccessible, the sandbox is unavailable, or nobody accepts the test.",
-      "current_thesis": "Entities that must connect as information providers, account providers, information-based service providers, or payment-initiation providers now have a defined technical target and a limited preparation window before mandatory operation.",
+      "current_participation_path": "Build a local prototype against the CMF developer-portal specifications, then contact entities listed or represented in the CMF Open Finance Forum and ask whether they will run a 60-minute conformance test. The lowest-cost falsification step is to publish five representative tests and seek three technically qualified users willing to run them; stop if none will provide test feedback or pay for a pilot. Do not present the tool as CMF-certified or operate regulated financial services.",
+      "current_thesis": "Financial institutions and prospective participants have a defined implementation surface and a lead time in which interoperability, consent, certificate and API failures can be found before production obligations begin.",
       "founder_hours_initial_unverified_estimate": "",
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "Chile",
@@ -720,6 +757,46 @@
         "Who is the actual payer and what evidence establishes demand?",
         "What existing alternative already solves this job?",
         "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile Open Finance conformance and sandbox test harness",
+      "opportunity_id": "opp_05e7d4d756eff27e9ada",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A narrowly scoped, self-serve conformance kit: API mock server, consent-state fixtures, certificate-validation checks, availability/TPS test scripts and machine-readable test reports aligned to the CMF technical annex. Revenue would come from paid access, implementation support or test-report generation only if prospective users confirm willingness to pay; no buyer or price is assumed.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Use the CMF developer portal and sandbox to build a small open-source conformance harness for one documented endpoint and one consent flow. Test it against the published technical requirements, then contact a listed or identifiable Chilean fintech, payment operator, bank, or other prospective participant with the reproducible results. Falsification step: spend one week implementing a single endpoint and ask at least five likely participants whether they would run the test or pay for remediation; stop if the specification is inaccessible, the sandbox is unavailable, or nobody accepts the test.",
+      "current_thesis": "Entities that must connect as information providers, account providers, information-based service providers, or payment-initiation providers now have a defined technical target and a limited preparation window before mandatory operation.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Whether ATENA is sufficiently complete, reliable, and easy to use for real production-readiness testing.",
+        "Whether CMF or another authority will require independent conformance evidence, certification, audit trails, or third-party remediation.",
+        "Number of entities in each participant category that will actually need external help rather than internal engineering.",
+        "Actual implementation deadlines and test requirements for each participant type and endpoint.",
+        "Whether technical specifications, schemas, consent flows, security requirements, or sandbox behavior will continue changing before July 2027.",
+        "Buyer budget, procurement process, preferred vendors, and willingness to pay for software versus one-time consulting.",
+        "Availability and quality of the complete developer documentation, test credentials, sample data, error cases, and automated assertions."
       ],
       "investment_authorized": false,
       "name": "Chile Open Finance conformance and sandbox testing kit",
@@ -1560,7 +1637,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-12T08:15:23.318310+00:00",
+  "generated_at": "2026-10-12T12:20:17.607838+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

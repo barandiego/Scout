@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 40
+Candidates: 42
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -63,6 +63,18 @@ Candidates: 40
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.iea.org/commentaries/battery-storage-is-scaling-up-and-taking-on-a-larger-system-role; https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage
+
+## Plant-level curtailment and BESS siting intelligence for Chilean renewable projects
+- Status: watch | energy_infrastructure
+- Current idea: Project developers, asset owners and lenders need to distinguish curtailment exposure by plant, node, month and hour when evaluating storage retrofits, dispatch strategies and acquisition risk. The economic mechanism is better underwriting or dispatch decisions, not the existence of a generic energy trend.
+- Potential economic capture: A reproducible Chile-specific dataset and screening report that joins CEN curtailment records to plant metadata and calculates candidate storage-loading hours, avoided curtailed MWh scenarios and diligence flags. A payer could be a renewable-project developer, investor or engineering firm, but willingness to pay is unverified.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.coordinador.cl/operacion/documentos/reducciones-de-generacion-renovable/; https://www.coordinador.cl/novedades/coordinador-electrico-presenta-informe-de-monitoreo-de-la-competencia-con-desafios-estructurales/; https://www.spec.cl/en/publicaciones/2026-almacenamiento-corta-duracion/
 
 ## AI and data-center growth are making electricity and grid access a binding cost constraint
 - Status: watch | general
@@ -220,6 +232,18 @@ Candidates: 40
 - Possible initial budget:
 - Source URLs: https://www.ecb.europa.eu/paym/dlt/appia/html/index.fi.html; https://www.ecb.europa.eu/press/payments-news/ecb.pubconpm202603.mt.pdf
 
+## Chile Open Finance conformance and sandbox test harness
+- Status: watch | open_finance_chile
+- Current idea: Financial institutions and prospective participants have a defined implementation surface and a lead time in which interoperability, consent, certificate and API failures can be found before production obligations begin.
+- Potential economic capture: A narrowly scoped, self-serve conformance kit: API mock server, consent-state fixtures, certificate-validation checks, availability/TPS test scripts and machine-readable test reports aligned to the CMF technical annex. Revenue would come from paid access, implementation support or test-report generation only if prospective users confirm willingness to pay; no buyer or price is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html
+
 ## Chile Open Finance conformance and sandbox testing kit
 - Status: watch | open_finance_chile
 - Current idea: Entities that must connect as information providers, account providers, information-based service providers, or payment-initiation providers now have a defined technical target and a limited preparation window before mandatory operation.
@@ -228,7 +252,7 @@ Candidates: 40
   - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
   - Check license perimeter, API access, legal compliance and competitor pricing.
   - Test buyer procurement and technical access before writing integration infrastructure.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Whether ATENA is sufficiently complete, reliable, and easy to use for real production-readiness testing.; Whether CMF or another authority will require independent conformance evidence, certification, audit trails, or third-party remediation.; Number of entities in each participant category that will actually need external help rather than internal engineering.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html
 
