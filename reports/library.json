@@ -2488,67 +2488,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-10T16:09:06.777129+00:00",
-      "discovery_lens": "ai_open_source",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "CMF states that the amended NCG 514 includes technical specifications, a developer portal, testing/sandbox provisions, simplified participation, and postponement of entry into force until July 2027.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
-          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
-        },
-        {
-          "claim": "CMF describes a pilot period, testing environments, gradual implementation, and participation by banks, cooperatives, insurers, payment operators, and fintech entities.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "CMF publishes for consultation amendments to Open Finance System regulation",
-          "url": "https://cmfchile.cl/portal/prensa/625/w4-article-100482.html"
-        },
-        {
-          "claim": "CMF identifies the SFA participant categories and explains the regulated data-access and interoperability framework.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Foro Sistema de Finanzas Abiertas",
-          "url": "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.9,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_b1b8cbbff5d232fae6f8",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-10T16:09:06.790610+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "First, obtain and review the CMF technical annex and developer-portal specifications. Build only a local mock-provider and 10–20 automated tests covering one narrow flow, such as account-information consent and retrieval. Publish the test runner and sample fixtures, then contact publicly listed SFA forum or participating-entity channels asking whether the tests identify real implementation gaps; do not represent the tool as CMF-approved. Falsify cheaply by interviewing or emailing 10 entities listed in the CMF ecosystem and seeking three concrete examples of failed or manually repeated integration tests. Stop if they report no testing pain, cannot legally share requirements, or will not run a free prototype.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "Small prospective participants will need to validate API interoperability, consent flows, data formats, security controls, and payment-initiation behavior before the regulated system becomes operational. The evidence supports a narrow testing and tooling wedge, not a general fintech consultancy.",
-      "title": "Chile SFA conformance-test harness for small participating entities",
-      "type": "regulatory_infrastructure",
-      "unknowns": [],
-      "value_capture_mechanism": "A self-serve or locally installable conformance suite that converts CMF technical specifications into reproducible API tests, mock counterparties, consent fixtures, schema validation, and evidence exports for internal audit or implementation teams. Revenue would need to come from paid software access, implementation support, or integration work; no buyer, price, or margin is assumed.",
-      "verified_sales": null,
-      "vertical": "open_finance_chile",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-12T00:16:18.701165+00:00",
       "discovery_lens": "adoption_lag",
       "estimated_capital": "",
@@ -2779,6 +2718,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-12T04:13:05.875236+00:00",
+      "discovery_lens": "chile_technology_import",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF published modifications to NCG No. 514, an annex with technical specifications for information exchange and payment initiation, and a developer portal; entry into force was postponed to July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        },
+        {
+          "claim": "The Central Bank describes the CMF’s gradual implementation of the Fintech Law open-finance system, including technical requirements for participant directories, security, interfaces and user consent.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Informe de Estabilidad Financiera Segundo Semestre 2025",
+          "url": "https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_2d6156ac71ad9692077a",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-12T04:13:05.890251+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Build a 1-week prototype using only publicly available CMF technical materials. Implement 10-20 mock tests for consent, authentication, account-data retrieval and payment-initiation error handling. Contact a small sample of Chilean fintechs or API vendors identified independently, disclose that this is a validation test rather than an authorized CMF certification, and ask whether they would pay for a paid pilot or provide a redacted test environment. Falsify if no technically relevant respondent accepts a test call, shares an integration problem, or agrees to a paid pilot without requiring unverified regulatory claims.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A narrowly scoped conformance-testing asset could help prospective participants identify API, consent, security and data-exchange defects before formal integration. The economic mechanism would be payment for test execution, remediation evidence or reusable testing software; no buyer, price or margin is established by the evidence.",
+      "title": "Chile SFA implementation-readiness testing for fintech APIs",
+      "type": "compliance_software_or_service",
+      "unknowns": [],
+      "value_capture_mechanism": "Offer a low-cost SFA readiness pack: automated API test cases, consent-flow checks, security-control checklist and evidence-export template aligned to the published technical annex. Revenue would come only if regulated entities or fintech providers independently agree to purchase testing or implementation support.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-11T20:09:13.128011+00:00",
       "discovery_lens": "cost_curve",
       "estimated_capital": "",
@@ -2825,6 +2818,60 @@
       "value_capture_mechanism": "A low-cost monitoring asset for Chilean storage and solar projects: normalized public data, project pipeline tracking, and a transparent dispatch/curtailment model. Possible cash-flow sources include subscriptions, paid diligence, or data licensing to project developers, lenders, or investors, but no purchase commitment or price was found.",
       "verified_sales": null,
       "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-12T04:13:05.876740+00:00",
+      "discovery_lens": "chile_technology_import",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "A Chilean seller publicly lists DJI Agras T100, T25P and T70P agricultural drones at CLP 32,990,000 each.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Products - Agridrones",
+          "url": "https://agridrones.cl/products/"
+        },
+        {
+          "claim": "A Chilean supplier states that it represents DJI Agriculture in Chile and offers warranty, authorized technical service, original spare parts and certified training for the T70P.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "DJI Agras T70P en Chile — Precio y Ficha",
+          "url": "https://dronespray.cl/dji-agras-t70p/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.78,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_99bc7c802b2d968d5b93",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-12T04:13:05.890489+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use the publicly listed DJI Agras T70P/T25P/T100 price and support claims to create a one-page operating assessment. Approach farms, agricultural contractors or cooperatives that can legally use the equipment; do not promise authorization or agronomic results. Run one paid or explicitly pre-paid pilot measuring hectares covered, refill time, downtime, labor hours and chemical-use records. Falsify if no operator permits an on-site assessment, no farm supplies a measurable use case, or the pilot cannot produce a cost comparison against its current spraying method.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The defensible wedge is not importing the drone or claiming a supply gap. It is a testable local operating layer: pre-purchase field assessment, application planning, operator training, maintenance coordination and utilization reporting for farms that already have access to the equipment. The payer and price remain unverified.",
+      "title": "Independent operating-support wedge around DJI agricultural drones already sold in Chile",
+      "type": "deployment_and_maintenance_service",
+      "unknowns": [],
+      "value_capture_mechanism": "Charge per diagnostic, training day or operating trial only after confirming a farm’s equipment, legal operating requirements and willingness to pay. A revenue-share or per-hectare service model should not be assumed before a paid trial.",
+      "verified_sales": null,
+      "vertical": "robotics_agritech",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -2940,13 +2987,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-12T00:16:42.718623+00:00",
+  "generated_at": "2026-10-12T04:13:25.038432+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 20,
+  "rejected_excluded": 21,
   "reviewed_cards": 28,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 57,
-  "watch": 37
+  "total_distinct_opportunities": 59,
+  "watch": 38
 }

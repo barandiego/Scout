@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-12T00:16:42.718623+00:00
+Generated: 2026-10-12T04:13:25.038432+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 37 (0 HQ survivors, 37 watches)
-- Rejected opportunities excluded: 20
+- Active research: 38 (0 HQ survivors, 38 watches)
+- Rejected opportunities excluded: 21
 - Critic-and-judge reviewed: 28
 - Autonomous execution authorization: 0
 
@@ -303,16 +303,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836
 
-### Chile SFA conformance-test harness for small participating entities [opp_b1b8cbbff5d232fae6f8]
-- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
-- Thesis: Small prospective participants will need to validate API interoperability, consent flows, data formats, security controls, and payment-initiation behavior before the regulated system becomes operational. The evidence supports a narrow testing and tooling wedge, not a general fintech consultancy.
-- Value capture: A self-serve or locally installable conformance suite that converts CMF technical specifications into reproducible API tests, mock counterparties, consent fixtures, schema validation, and evidence exports for internal audit or implementation teams. Revenue would need to come from paid software access, implementation support, or integration work; no buyer, price, or margin is assumed.
-- Participation hypothesis: First, obtain and review the CMF technical annex and developer-portal specifications. Build only a local mock-provider and 10–20 automated tests covering one narrow flow, such as account-information consent and retrieval. Publish the test runner and sample fixtures, then contact publicly listed SFA forum or participating-entity channels asking whether the tests identify real implementation gaps; do not represent the tool as CMF-approved. Falsify cheaply by interviewing or emailing 10 entities listed in the CMF ecosystem and seeking three concre
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-100482.html; https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html
-
 ### Independent field-service and deployment support for autonomous agricultural weed-control robots [opp_99de522ad05d0e01cebc]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States; potentially other markets only after manufacturer authorization
 - Thesis: High-priced equipment creates a concrete operational bottleneck around field mapping, charging, remote monitoring, maintenance, operator training and seasonal deployment. The wedge is a local, manufacturer-authorized field-operations partner rather than building a competing robot.
@@ -353,6 +343,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
+### Chile SFA implementation-readiness testing for fintech APIs [opp_2d6156ac71ad9692077a]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: A narrowly scoped conformance-testing asset could help prospective participants identify API, consent, security and data-exchange defects before formal integration. The economic mechanism would be payment for test execution, remediation evidence or reusable testing software; no buyer, price or margin is established by the evidence.
+- Value capture: Offer a low-cost SFA readiness pack: automated API test cases, consent-flow checks, security-control checklist and evidence-export template aligned to the published technical annex. Revenue would come only if regulated entities or fintech providers independently agree to purchase testing or implementation support.
+- Participation hypothesis: Build a 1-week prototype using only publicly available CMF technical materials. Implement 10-20 mock tests for consent, authentication, account-data retrieval and payment-initiation error handling. Contact a small sample of Chilean fintechs or API vendors identified independently, disclose that this is a validation test rather than an authorized CMF certification, and ask whether they would pay for a paid pilot or provide a redacted test environment. Falsify if no technically relevant respondent accepts a test call, shares an integration proble
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836
+
 ### Chile solar-plus-storage dispatch and congestion data product [opp_f096638ccd65e73298f3]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile
 - Thesis: The combination of solar surplus, peak-demand value, and rapid storage deployment creates a specific need for project-level data on curtailment, nodal prices, interconnection status, battery duration, and dispatch economics. The evidence supports demand for analysis, but does not prove a paying customer or margin.
@@ -362,6 +362,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.iea.org/commentaries/battery-storage-is-scaling-up-and-taking-on-a-larger-system-role; https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage
+
+### Independent operating-support wedge around DJI agricultural drones already sold in Chile [opp_99bc7c802b2d968d5b93]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile
+- Thesis: The defensible wedge is not importing the drone or claiming a supply gap. It is a testable local operating layer: pre-purchase field assessment, application planning, operator training, maintenance coordination and utilization reporting for farms that already have access to the equipment. The payer and price remain unverified.
+- Value capture: Charge per diagnostic, training day or operating trial only after confirming a farm’s equipment, legal operating requirements and willingness to pay. A revenue-share or per-hectare service model should not be assumed before a paid trial.
+- Participation hypothesis: Use the publicly listed DJI Agras T70P/T25P/T100 price and support claims to create a one-page operating assessment. Approach farms, agricultural contractors or cooperatives that can legally use the equipment; do not promise authorization or agronomic results. Run one paid or explicitly pre-paid pilot measuring hectares covered, refill time, downtime, labor hours and chemical-use records. Falsify if no operator permits an on-site assessment, no farm supplies a measurable use case, or the pilot cannot produce a cost comparison against its curren
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://agridrones.cl/products/; https://dronespray.cl/dji-agras-t70p/
 
 ### Tokenized unified-ledger infrastructure is moving from concept toward financial-market architecture [opp_993ac5d080c7042af44c]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Global; Chile relevance through future interoperable financial-data and payment infrastructure
