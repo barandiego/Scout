@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-12T16:42:19.641253+00:00
+Generated: 2026-10-12T20:43:26.147216+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
-- Rolling leads: 1034
-- New this cycle: 112
+- Rolling leads: 1109
+- New this cycle: 124
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
-- Categories: agriculture 142, ai 210, commerce 32, energy 321, robotics 329
+- Feed failures (fail-open for public intake only): none
+- Categories: agriculture 156, ai 224, commerce 33, energy 347, robotics 349
 
 ## Recently encountered signals
+
+### CmattC/Solar-Storage-Simulator
+- Source: https://github.com/CmattC/Solar-Storage-Simulator
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
 
 ### sumanth-3031/opticrop
 - Source: https://github.com/sumanth-3031/opticrop
@@ -122,6 +128,42 @@ Generated: 2026-10-12T16:42:19.641253+00:00
 
 ### Opportunities and challenges of integrating battery energy storage in the electricity grid – perspectives from distribution system operators
 - Source: https://doi.org/10.66506/essp.172
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### manshirai09/Digital-krshivaani-org
+- Source: https://github.com/manshirai09/Digital-krshivaani-org
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### dharunb576/Agri_Guru_pro
+- Source: https://github.com/dharunb576/Agri_Guru_pro
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### Optimizing hybrid microgrid operations with battery energy storage systems: A multi-objective dynamic economic emission dispatch approach
+- Source: https://doi.org/10.1007/s12046-026-03280-9
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### Thermal management and fast charging optimization for lithium-ion battery energy storage systems: A data-driven nonlinear model predictive control approach
+- Source: https://doi.org/10.1080/15435075.2026.2745007
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### bikash-ananda/Digital-Agriculture
+- Source: https://github.com/bikash-ananda/Digital-Agriculture
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### Thermal Aged PP/ZnFe ‹sub›2‹/sub› O ‹sub›4‹/sub› Nanocomposites for Electrical Insulation in Battery Energy Storage Systems
+- Source: https://doi.org/10.1109/apee69982.2026.11722117
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
@@ -324,6 +366,24 @@ Generated: 2026-10-12T16:42:19.641253+00:00
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
 
+### nextcombo/photovoltaic-energy-storage-virtual-synchronous-generator-vsg-control-simulation-03347
+- Source: https://github.com/nextcombo/photovoltaic-energy-storage-virtual-synchronous-generator-vsg-control-simulation-03347
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### Optimized Battery Energy Storage System Operation for Enhanced Voltage Stability
+- Source: https://doi.org/10.1109/apee69982.2026.11721988
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### amankumar0911/KrishiGen-AI
+- Source: https://github.com/amankumar0911/KrishiGen-AI
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
 ### Mahati-20/AgriSense-AI-Final
 - Source: https://github.com/Mahati-20/AgriSense-AI-Final
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
@@ -398,66 +458,6 @@ Generated: 2026-10-12T16:42:19.641253+00:00
 
 ### Solar Steel construye un parque solar en Chile que incluye baterías para almacenamiento energético - La Nueva España
 - Source: https://news.google.com/rss/articles/CBMikAFBVV95cUxOOXVzZ0duVkpMMHlkVVlVOU5xVW5wOHVkcU9GMW92Nml0dmJBUHUtREF4b3hUem9WYkQzZG1ucm9qUENkNENsWElMVlJITk5yRWlxcEVremtBelRCT0l1aWptRGFtTjE4WHhpeGZwUlFfT3VLamdWRWFJbWQtYTdPbHh1eE03MWpzcHNRdzBqOXPSAZYBQVVfeXFMUHFrMnJySDJkRy16WENyN00tamt0S2tHRVRvZ0liZFR5ZXNsTW9xcDNIRGZGbWowbWF0UG5rVzVxN3lWX2Z6UURhRkJWUzNEdkNaSEFHY21mOW10NTdZc2swYXI5N3ZaUEVRWXVNbTBsRHBGeVJyZVU5anZWbklZOWlPVjhDaFg4TEotN1RMVUJyU3JrNzZn?oc=5
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### yazdannl/ha-energy-manager
-- Source: https://github.com/yazdannl/ha-energy-manager
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Suchabadpanda/ha-energy-tracker
-- Source: https://github.com/Suchabadpanda/ha-energy-tracker
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### bhanurekhab/nsw-solar-dashboard
-- Source: https://github.com/bhanurekhab/nsw-solar-dashboard
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### farhan10904/ESP32-BESS-Controller
-- Source: https://github.com/farhan10904/ESP32-BESS-Controller
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Explainable AI-Based Precision Irrigation Management Using Soil, Weather, and Remote Sensing Data for Water-Efficient Agriculture
-- Source: https://doi.org/10.2139/ssrn.7593243
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### One battery, several services: sizing and scheduling battery storage for virtual inertia, fast frequency response, frequency reserve and energy dispatch in an inverter-dominated mi
-- Source: https://doi.org/10.2139/ssrn.7592954
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Alien-C-Jomon/Q-FARM
-- Source: https://github.com/Alien-C-Jomon/Q-FARM
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### VISHALGUPTA2507/CropCompanion-Smart-Intercropping-Advisor
-- Source: https://github.com/VISHALGUPTA2507/CropCompanion-Smart-Intercropping-Advisor
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### User-redirection-aware co-optimization of public charging with local photovoltaics and battery storage
-- Source: https://doi.org/10.1016/j.adapen.2026.100310
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### ryanzts/ryanzts
-- Source: https://github.com/ryanzts/ryanzts
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
