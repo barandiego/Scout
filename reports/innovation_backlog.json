@@ -673,42 +673,6 @@
     },
     {
       "capital_required_unverified_estimate": "",
-      "category": "innovation_adoption",
-      "commercially_validated": false,
-      "competition_confirmed": false,
-      "current_participation_path": "Map the public Pontes/Appia materials into a simulated delivery-versus-payment workflow using dummy assets and cash, publish the message schema and reconciliation results, and request feedback from identifiable European DLT-market-infrastructure firms or institutions. Falsification step: build only the simulator and seek confirmation from five relevant firms that the test maps to an actual planned integration; stop if the public materials do not specify testable interfaces or no participant will review it.",
-      "current_thesis": "The near-term opportunity is not issuing speculative tokens but testing interoperability between a DLT transaction workflow and central-bank-money settlement. A small operator could produce a technical integration demonstrator or test harness, although participation eligibility, procurement, and commercial demand remain unverified.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "European Union",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "Wholesale tokenized-settlement integration test for European market participants",
-      "opportunity_id": "opp_02685a9a8faa1d097565",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Identify a real technical capability not yet adopted in one buyer's high-value workflow.",
-        "Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.",
-        "Measure the fully loaded operating cost, human exceptions and distribution against the status quo."
-      ],
-      "supporting_source_urls": [
-        "https://www.ecb.europa.eu/paym/dlt/appia/html/index.fi.html",
-        "https://www.ecb.europa.eu/press/payments-news/ecb.pubconpm202603.mt.pdf"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "A demonstrator or conformance test for one institutional workflow, such as delivery-versus-payment message mapping, reconciliation, or settlement-event monitoring. Potential payer would be a participating financial-market infrastructure provider, bank, fintech, or vendor; no buyer, fee, or access right is evidenced.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
@@ -1046,6 +1010,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Offer a low-cost SFA readiness pack: automated API test cases, consent-flow checks, security-control checklist and evidence-export template aligned to the published technical annex. Revenue would come only if regulated entities or fintech providers independently agree to purchase testing or implementation support.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Use the CMF's published NCG 514 Annex 3 and ATENA materials to implement only one testable wedge: a local validator for participant-directory, webhook and authentication flows. Run it against the documented examples/specifications, publish a reproducible open demo, then contact identifiable SFA participants or implementation vendors through public company channels with a request for a paid pilot or technical review; do not represent the tool as CMF-approved. Lowest-cost falsification: spend one week implementing the validator and ask at least three publicly identifiable SFA participants or vendors whether the resulting test report would be useful enough to evaluate in their ATENA/pre-production process. Stop if the specifications are insufficient to produce repeatable tests or no qualified respondent agrees to review it.",
+      "current_thesis": "Entities preparing for SFA participation must validate API behavior, directory interactions, certificates, webhooks, authorization flows and version changes before the July 2027 deadline. The published technical requirements and sandbox create a bounded implementation problem rather than a generic fintech opportunity.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile SFA interoperability test harness for regulated participants",
+      "opportunity_id": "opp_f696eab5c7c7590b79fa",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://cmfchile.cl/portal/prensa/625/w4-article-113897.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A small operator could build a narrowly scoped conformance-test package: local mock APIs, request/response validators, directory and webhook simulators, certificate/FAPI test fixtures, and regression reports aligned to Annex 3. Potential payment sources are institutions preparing to participate in the SFA or technology vendors integrating with them; no buyer, price or procurement commitment is established by the evidence.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -1637,7 +1637,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-12T16:13:03.720704+00:00",
+  "generated_at": "2026-10-12T20:12:34.290185+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

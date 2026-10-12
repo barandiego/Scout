@@ -208,18 +208,6 @@ Candidates: 42
 - Possible initial budget:
 - Source URLs: https://www.whitehouse.gov/presidential-actions/2026/01/adjusting-imports-of-processed-critical-minerals-and-their-derivative-products-into-the-united-states/; https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary
 
-## Wholesale tokenized-settlement integration test for European market participants
-- Status: watch | innovation_adoption
-- Current idea: The near-term opportunity is not issuing speculative tokens but testing interoperability between a DLT transaction workflow and central-bank-money settlement. A small operator could produce a technical integration demonstrator or test harness, although participation eligibility, procurement, and commercial demand remain unverified.
-- Potential economic capture: A demonstrator or conformance test for one institutional workflow, such as delivery-versus-payment message mapping, reconciliation, or settlement-event monitoring. Potential payer would be a participating financial-market infrastructure provider, bank, fintech, or vendor; no buyer, fee, or access right is evidenced.
-- **Research routes to test (NOT validated claims):**
-  - Identify a real technical capability not yet adopted in one buyer's high-value workflow.
-  - Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.
-  - Measure the fully loaded operating cost, human exceptions and distribution against the status quo.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://www.ecb.europa.eu/paym/dlt/appia/html/index.fi.html; https://www.ecb.europa.eu/press/payments-news/ecb.pubconpm202603.mt.pdf
-
 ## Chile Open Finance conformance and sandbox test harness
 - Status: watch | open_finance_chile
 - Current idea: Financial institutions and prospective participants have a defined implementation surface and a lead time in which interoperability, consent, certificate and API failures can be found before production obligations begin.
@@ -327,6 +315,18 @@ Candidates: 42
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836
+
+## Chile SFA interoperability test harness for regulated participants
+- Status: watch | open_finance_chile
+- Current idea: Entities preparing for SFA participation must validate API behavior, directory interactions, certificates, webhooks, authorization flows and version changes before the July 2027 deadline. The published technical requirements and sandbox create a bounded implementation problem rather than a generic fintech opportunity.
+- Potential economic capture: A small operator could build a narrowly scoped conformance-test package: local mock APIs, request/response validators, directory and webhook simulators, certificate/FAPI test fixtures, and regression reports aligned to Annex 3. Potential payment sources are institutions preparing to participate in the SFA or technology vendors integrating with them; no buyer, price or procurement commitment is established by the evidence.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
 ## Chile’s Open Finance implementation is moving from regulation to integration infrastructure
 - Status: watch | open_finance_chile

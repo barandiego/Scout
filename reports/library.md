@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-12T16:13:03.689848+00:00
+Generated: 2026-10-12T20:12:34.267823+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
 - Active research: 42 (0 HQ survivors, 42 watches)
-- Rejected opportunities excluded: 22
+- Rejected opportunities excluded: 23
 - Critic-and-judge reviewed: 29
 - Autonomous execution authorization: 0
 
@@ -393,6 +393,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836
 
+### Chile SFA interoperability test harness for regulated participants [opp_f696eab5c7c7590b79fa]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Entities preparing for SFA participation must validate API behavior, directory interactions, certificates, webhooks, authorization flows and version changes before the July 2027 deadline. The published technical requirements and sandbox create a bounded implementation problem rather than a generic fintech opportunity.
+- Value capture: A small operator could build a narrowly scoped conformance-test package: local mock APIs, request/response validators, directory and webhook simulators, certificate/FAPI test fixtures, and regression reports aligned to Annex 3. Potential payment sources are institutions preparing to participate in the SFA or technology vendors integrating with them; no buyer, price or procurement commitment is established by the evidence.
+- Participation hypothesis: Use the CMF's published NCG 514 Annex 3 and ATENA materials to implement only one testable wedge: a local validator for participant-directory, webhook and authentication flows. Run it against the documented examples/specifications, publish a reproducible open demo, then contact identifiable SFA participants or implementation vendors through public company channels with a request for a paid pilot or technical review; do not represent the tool as CMF-approved. Lowest-cost falsification: spend one week implementing the validator and ask at least t
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
 ### Independent operating-support wedge around DJI agricultural drones already sold in Chile [opp_99bc7c802b2d968d5b93]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile
 - Thesis: The defensible wedge is not importing the drone or claiming a supply gap. It is a testable local operating layer: pre-purchase field assessment, application planning, operator training, maintenance coordination and utilization reporting for farms that already have access to the equipment. The payer and price remain unverified.
@@ -422,13 +432,3 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.bis.org/media-releases/20250624-next-generation-monetary-and-financial-system-takes-shape-based-tokenised-unified-ledger-bis; https://www.bis.org/publications/aer-2025/next-generation-monetary-financial-system
-
-### Wholesale tokenized-settlement integration test for European market participants [opp_02685a9a8faa1d097565]
-- Status: WATCH_REQUIRES_VALIDATION | innovation_adoption | European Union
-- Thesis: The near-term opportunity is not issuing speculative tokens but testing interoperability between a DLT transaction workflow and central-bank-money settlement. A small operator could produce a technical integration demonstrator or test harness, although participation eligibility, procurement, and commercial demand remain unverified.
-- Value capture: A demonstrator or conformance test for one institutional workflow, such as delivery-versus-payment message mapping, reconciliation, or settlement-event monitoring. Potential payer would be a participating financial-market infrastructure provider, bank, fintech, or vendor; no buyer, fee, or access right is evidenced.
-- Participation hypothesis: Map the public Pontes/Appia materials into a simulated delivery-versus-payment workflow using dummy assets and cash, publish the message schema and reconciliation results, and request feedback from identifiable European DLT-market-infrastructure firms or institutions. Falsification step: build only the simulator and seek confirmation from five relevant firms that the test maps to an actual planned integration; stop if the public materials do not specify testable interfaces or no participant will review it.
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.ecb.europa.eu/paym/dlt/appia/html/index.fi.html; https://www.ecb.europa.eu/press/payments-news/ecb.pubconpm202603.mt.pdf

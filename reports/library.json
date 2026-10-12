@@ -3032,6 +3032,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-12T20:12:23.036591+00:00",
+      "discovery_lens": "regulation_infrastructure",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF added Annex 3 with technical interoperability requirements and a developer portal, and postponed SFA entry into force to July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        },
+        {
+          "claim": "ATENA provides a controlled environment for institutions to test SFA integrations, participant identification, digital credentials and interoperability before implementation.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF lanza Sandbox Tecnológico ATENA para la implementación del Sistema de Finanzas Abiertas",
+          "url": "https://cmfchile.cl/portal/prensa/625/w4-article-113897.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.93,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_f696eab5c7c7590b79fa",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-12T20:12:23.042821+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use the CMF's published NCG 514 Annex 3 and ATENA materials to implement only one testable wedge: a local validator for participant-directory, webhook and authentication flows. Run it against the documented examples/specifications, publish a reproducible open demo, then contact identifiable SFA participants or implementation vendors through public company channels with a request for a paid pilot or technical review; do not represent the tool as CMF-approved. Lowest-cost falsification: spend one week implementing the validator and ask at least three publicly identifiable SFA participants or vendors whether the resulting test report would be useful enough to evaluate in their ATENA/pre-production process. Stop if the specifications are insufficient to produce repeatable tests or no qualified respondent agrees to review it.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Entities preparing for SFA participation must validate API behavior, directory interactions, certificates, webhooks, authorization flows and version changes before the July 2027 deadline. The published technical requirements and sandbox create a bounded implementation problem rather than a generic fintech opportunity.",
+      "title": "Chile SFA interoperability test harness for regulated participants",
+      "type": "regulatory_infrastructure",
+      "unknowns": [],
+      "value_capture_mechanism": "A small operator could build a narrowly scoped conformance-test package: local mock APIs, request/response validators, directory and webhook simulators, certificate/FAPI test fixtures, and regression reports aligned to Annex 3. Potential payment sources are institutions preparing to participate in the SFA or technology vendors integrating with them; no buyer, price or procurement commitment is established by the evidence.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-12T04:13:05.876740+00:00",
       "discovery_lens": "chile_technology_import",
       "estimated_capital": "",
@@ -3188,72 +3242,18 @@
       "vertical": "open_finance_chile",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
-      "discovered_at": "2026-10-11T20:09:13.128836+00:00",
-      "discovery_lens": "tokenization_finance",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "The ECB describes Appia as a 2025 initiative for a European tokenized financial ecosystem based on DLT and wholesale central-bank-money settlement.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Appia",
-          "url": "https://www.ecb.europa.eu/paym/dlt/appia/html/index.fi.html"
-        },
-        {
-          "claim": "The ECB describes Pontes as an operational offering intended to settle DLT-based wholesale transactions in central bank money and support market players developing related services.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Appia – paving the way for a future-ready, integrated financial ecosystem leveraging tokenisation and DLT",
-          "url": "https://www.ecb.europa.eu/press/payments-news/ecb.pubconpm202603.mt.pdf"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.79,
-      "falsification_conditions": [],
-      "geography": "European Union",
-      "id": "opp_02685a9a8faa1d097565",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-11T20:09:13.136813+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Map the public Pontes/Appia materials into a simulated delivery-versus-payment workflow using dummy assets and cash, publish the message schema and reconciliation results, and request feedback from identifiable European DLT-market-infrastructure firms or institutions. Falsification step: build only the simulator and seek confirmation from five relevant firms that the test maps to an actual planned integration; stop if the public materials do not specify testable interfaces or no participant will review it.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "The near-term opportunity is not issuing speculative tokens but testing interoperability between a DLT transaction workflow and central-bank-money settlement. A small operator could produce a technical integration demonstrator or test harness, although participation eligibility, procurement, and commercial demand remain unverified.",
-      "title": "Wholesale tokenized-settlement integration test for European market participants",
-      "type": "settlement_infrastructure_wedge",
-      "unknowns": [],
-      "value_capture_mechanism": "A demonstrator or conformance test for one institutional workflow, such as delivery-versus-payment message mapping, reconciliation, or settlement-event monitoring. Potential payer would be a participating financial-market infrastructure provider, bank, fintech, or vendor; no buyer, fee, or access right is evidenced.",
-      "verified_sales": null,
-      "vertical": "innovation_adoption",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
     }
   ],
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-12T16:13:03.689848+00:00",
+  "generated_at": "2026-10-12T20:12:34.267823+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 22,
+  "rejected_excluded": 23,
   "reviewed_cards": 29,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 64,
+  "total_distinct_opportunities": 65,
   "watch": 42
 }
