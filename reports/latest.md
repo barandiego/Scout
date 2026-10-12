@@ -1,13 +1,13 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-11T20:09:39.225901+00:00
+Generated: 2026-10-12T00:16:42.468344+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['tokenization_finance', 'business_model_migration', 'cost_curve']
-- raw_candidates: 3
-- parseable_candidates: 3
-- normalized_candidates: 3
+- lenses: ['open_finance_chile', 'adoption_lag', 'underserved_buyers']
+- raw_candidates: 2
+- parseable_candidates: 2
+- normalized_candidates: 2
 - normalization_rejected: 0
 - grounded_sources: 6
 - duplicates_skipped: 0
@@ -17,12 +17,12 @@ Generated: 2026-10-11T20:09:39.225901+00:00
 - judge_reviews: 1
 - survivors: 0
 - watches: 3
-- rejected: 1
+- rejected: 0
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.05559945
+- cost_usd: 0.0448367
 - cost_uncertain: False
-- budget_remaining_usd: 0.02440055
+- budget_remaining_usd: 0.0351633
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,8 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Battery storage economics improve as systems support grid flexibility: The underlying cost-and-deployment premise is credibly grounded by recent IEA materials, and grid operators, utilities, load-serving entities, C&I customers, and offtakers are plausible payers for location-specific flexibility and capacity. However, this is a broad sector trend rather than an HQ-ready opportunity: it does not specify a target market, constrained node, duration, revenue contract, buyer, or differentiated participation route. Falling battery costs and rising installations do not by themselves establish durable returns; value is likely competed away in generic hardware, EPC, development, aggregation, and dispatch software. It merits further research only if narrowed to markets with verifiable congestion/capacity need, executable interconnection or customer access, and contracted or otherwise defensible revenue.
-- Midstream critical-minerals processing is becoming a strategic bottleneck: The sources credibly support a strategic concentration and processing-capacity problem, including U.S. concern over dependence on foreign processed critical minerals and IEA reporting on concentrated supply chains. However, this is not yet a demonstrated geographic-arbitrage case: it identifies a broad industrial bottleneck rather than a specific product flow with proven foreign demand, secured local feedstock, a measurable delivered-price gap, and viable landed-margin economics. No fatal condition is conclusively established from the record—foreign traction is supported by primary/independent sources rather than anecdote, and an import/regulatory barrier is not shown to make participation unrealistic—but the thesis cannot yet be considered HQ-worthy without mineral- and project-specific diligence.
 - Chile SFA implementation moves from rulemaking to integration testing: critic_invalid_output
 - Chile publishes technical rules and developer infrastructure for Open Finance, with go-live deferred to July 2027: The regulatory premise is sufficiently grounded by CMF primary sources: NCG 569/Annex 3, supporting developer/testing infrastructure, and a July 2027 effective date appear to be real rather than an unverified regulatory-change claim. No fatal lack of legal or technical API availability is established; the framework is explicitly creating standardized access and testing paths. However, the opportunity is not yet HQ-worthy as a broad implementation race. The remaining commercial rules and operating realities—cost allocation, liability, certification, security obligations, service levels, participant phasing, and actual bank procurement—are unresolved or unvalidated. CMF-provided documentation and sandbox infrastructure may commoditize generic connectivity, normalization, and testing, while incumbents likely hold material distribution and compliance advantages. A survivor case requires evidence of paid demand for a narrow, non-commodity wedge, not merely regulatory preparation activity.
 - API security and compliance are becoming a product layer for cloud and platform ecosystems: The underlying signal is well grounded in primary sources: NIST’s REST API guidance and FedRAMP’s 2026 rule/timeline and machine-readable-rule direction plausibly increase demand for auditable security and compliance workflows. There is a credible payer class—government-facing SaaS/cloud providers, their integrators, and potentially assessor/channel partners—and a realistic participation path via a narrow evidence-automation or continuous-control-telemetry wedge. However, the proposed value capture is far too broad and currently lacks proof of a separately purchasable pain, buyer budget, channel access, or advantage against entrenched GRC, cloud-security, API-security, OSCAL, consulting, and assessor incumbents. The opportunity survives as research, not as an execution-ready thesis. It should be narrowed to a deterministic, assessor-accepted FedRAMP/OSCAL evidence workflow with measurable authorization-time or assessor-labor savings before further commitment.
@@ -45,18 +43,20 @@ No survivors. Scout does not manufacture a daily winner.
 - Open-finance conformance test asset for Chilean participants: The regulatory and technical premise is sufficiently grounded: CMF has published an amended open-finance framework, technical materials/developer documentation, and a July 2027 implementation timetable. A narrowly scoped, offline or customer-operated validator can plausibly be developed from public specifications without requiring access to production regulated data or a special regulatory license. Therefore, no fatal legal/API-access failure is established at this stage. However, this is not yet an HQ-worthy software opportunity: the official ATENA controlled testing environment, CMF documentation, and likely incumbent/API-security/vendor tooling may provide a free or bundled substitute. There is no evidence of a mandatory independent conformance process, authority to certify, identifiable budget owner, paid demand, or pricing power. Treat it only as a tightly bounded research hypothesis around a differentiated workflow—such as reproducible evidence packs and regression testing for a specific payer/payment-initiation integration—not as generic conformance tooling.
 - Public-market exposure to behind-the-meter power equipment for data centers: This is a research-survivor watchlist thesis, not an investable conclusion. It names a liquid public security exposure (Powell Industries/POWL, with SEC-filed disclosures) and offers dated, primary-source demand indicators: $1.8 billion backlog at March 31, 2026 and a subsequently disclosed data-center order exceeding $400 million. The proposed mechanism—conversion of equipment backlog into revenue, margin, cash flow, and ultimately valuation—is falsifiable and has a plausible 12- to 18-month operating-catalyst window, with liquidity available through public shares. However, the record does not establish the essential valuation comparison: no share price, enterprise value, earnings/cash-flow expectations, backlog valuation, downside case, or relative valuation versus capable competitors is supplied. It also does not substantiate customer credit, contract firmness, cancellation terms, funding, margin profile, working-capital needs, or the portion of Powell backlog actually attributable to data centers. The evidence supports genuine demand and a monitorable catalyst, but not a demonstrated public-market mispricing or asymmetric expected-return case. No fatal condition is triggered because the thesis does not rely on a post-hoc chart, assert 10x upside, use promotional metrics as dispositive evidence, or propose an unavailable vehicle.
 - BESS and inverter compliance pre-check for Chilean distributed-energy projects: This is a plausible Chile-specific compliance-services research wedge rather than an energy-asset investment thesis. Primary SEC materials support that BESS/distributed-generation compliance and authorized-installer processes exist, and the proposed payer is identifiable: authorized installers/EPCs or project owners facing filing and equipment-documentation risk. The service can likely be scoped as non-certifying document review, so unattainable interconnection or asset-custody requirements are not established. However, it is not yet HQ-worthy as a survivor: there is no evidence of relevant BESS project volume, rejection/rework incidence, avoided-cost magnitude, willingness to pay, legal scope for an unlicensed reviewer, or a durable advantage over installers, engineers, vendors, and SEC tools. It also does not itself demonstrate a price, capacity, reliability, or power-electronics investment edge; it is an ancillary service whose demand depends on those projects occurring. Advance only as tightly bounded customer-discovery and legal-scope research, not as a bankable opportunity or standalone energy-infrastructure investment.
-- Indoor-farm lighting and energy audit wedge for existing Chilean growers: deferred_by_review_cap
+- Indoor-farm lighting and energy audit wedge for existing Chilean growers: This is a credible measurement-first operational-efficiency hypothesis for existing controlled-environment growers, not an evidenced robotics/agritech equipment business. Buyer access is at least directionally identifiable through named Chilean controlled-environment operators, and the proposal does not misrepresent simulated lighting-control results as proof of Chilean commercial performance. However, it does not satisfy several robotics_agritech decision criteria: no demonstrated robotic technology or independently tested deployable system; no quantified Chilean customer labor, yield, throughput, tariff, or payback result; no local service/spares/supplier-support model; and no lease-versus-buy, utilization, or importer/distributor/operator economics. The proposed paid pilot is an appropriate research gate, but it is not sufficient evidence for HQ-level investment or scaling.
 - Chile SFA conformance-test harness for small participating entities: deferred_by_review_cap
 - Narrow Chilean e-commerce returns-recovery test for one product category: deferred_by_review_cap
 - Chile Open Finance conformance and sandbox testing kit: deferred_by_review_cap
 - Chile solar-plus-storage dispatch and congestion data product: deferred_by_review_cap
 - Wholesale tokenized-settlement integration test for European market participants: deferred_by_review_cap
+- Chile SFA conformance and consent-flow testing for fintech participants before July 2027: deferred_by_review_cap
+- Independent field-service and deployment support for autonomous agricultural weed-control robots: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "research_queue_unreviewed=6"
+    "research_queue_unreviewed=7"
   ],
   "stages": [
     {
@@ -64,59 +64,37 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 51,
+      "grounded_source_count": 29,
       "search_source_urls": [
-        "https://assets.falabella.com/v3/assets/bltf4ed0b9a176c126e/blt34271eaf0fb835a5/Reporte%20de%20Sostenibilidad%202025.pdf",
-        "https://co.natura.digital-catalogue.com/consultoria/co/2025/05/revista/ciclo-05/view/common/data/catalogue.pdf",
-        "https://en.wikipedia.org/wiki/Falabella_%28retail_store%29",
-        "https://en.wikipedia.org/wiki/S.A.C.I._Falabella",
-        "https://es.wikipedia.org/wiki/Falabella",
-        "https://es.wikipedia.org/wiki/Grupo_Falabella",
-        "https://es.wikipedia.org/wiki/Mallplaza",
-        "https://falabellaretail.falabella.com/?wordfence_syncAttackData=1790819618.5905",
-        "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/",
-        "https://investors.grupofalabella.com/app/uploads/2026/02/MemoriaAnualFalabella2025_Web.pdf",
-        "https://production.na01.natura.com/on/demandware.static/-/Sites-NatChile-Library/default/v4451a1d4e6abdb654aa976752e4626774c6ec279/landing-page/sustentabilidad/PDFs/Informe_Integrado_Natura_Co_2024_vf-22-09-2025.pdf",
-        "https://production.na01.natura.com/on/demandware.static/-/Sites-NatChile-Library/default/vce1c833592ff9f6f4d6a8bc5bf4fe5f2d9e9133b/landing-page/regalos-corporativos/PDF/catalogo-dia-de-las-madres-regalos-corporativos-10-04-2025.pdf",
-        "https://www.cmfchile.cl/portal/prensa/615/articles-71154_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/615/articles-93115_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/615/articles-99083_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/615/articles-99098_doc_pdf.pdf",
+        "https://arxiv.org/abs/2112.02162",
+        "https://arxiv.org/abs/2509.25056",
+        "https://arxiv.org/abs/2512.10319",
+        "https://daedong-kioti.com/news/daedongnews/1350",
+        "https://en.wikipedia.org/wiki/Agricultural_robot",
+        "https://en.wikipedia.org/wiki/FarmWise",
+        "https://en.wikipedia.org/wiki/Industrial_market_segmentation",
+        "https://en.wikipedia.org/wiki/Volta_Robots",
+        "https://fira-usa.com/wp-content/uploads/2025/10/FIRA-2025-Final-Press-Release.pdf",
+        "https://pixelfarmingrobotics.com/wp-content/uploads/2025/02/Robot-One-Brochure-20250131-Website.pdf",
+        "https://registry.deploy.report/models/deere-autonomous-tractor",
+        "https://smartsoilai.com/shop/autonomous-weeding-robot",
+        "https://www.agricultural-robotics.com/robot/robot-one",
+        "https://www.agricultural-robotics.com/robot/zurama-ai-inrow-weeder",
+        "https://www.bcentral.cl/documents/33528/133214/pgs06042022.pdf/669eb3a8-b0b8-06bc-8df7-3052f489bde7?t=1693417865670",
+        "https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836",
         "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/principal/613/articles-108813_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html",
         "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html",
-        "https://www.ecb.europa.eu/paym/dlt/appia/html/index.fi.html",
-        "https://www.ecb.europa.eu/press/payments-news/ecb.pubconpm202603.mt.pdf",
-        "https://www.falabella.com/falabella-cl/brand/NATURA",
-        "https://www.falabella.com/falabella-cl/brand/NATURA?sid=CP_V1_NAT_3052",
-        "https://www.falabella.com/falabella-cl/seller/Natura",
-        "https://www.iea.org/commentaries/battery-storage-is-scaling-up-and-taking-on-a-larger-system-role",
-        "https://www.iea.org/data-and-statistics/charts/average-battery-pack-price-per-watt-hour-index-by-battery-chemistry-2020-2025",
-        "https://www.iea.org/data-and-statistics/charts/utility-scale-battery-project-costs-vre-share-and-utility-scale-battery-storage-capacity-relative-to-peak-load-by-region-2019-2024",
-        "https://www.iea.org/reports/clean-energy-market-monitor-november-2024",
-        "https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage",
-        "https://www.iea.org/reports/global-ev-outlook-2025/trends-in-electric-car-affordability",
-        "https://www.iea.org/reports/global-ev-outlook-2026/electric-vehicle-batteries",
-        "https://www.natura.cl/",
-        "https://www.natura.cl/?via=martin",
-        "https://www.natura.cl/ayuda",
-        "https://www.natura.cl/ayuda/viveres",
-        "https://www.natura.cl/blog/mas-natura/guia-de-compra-online",
-        "https://www.natura.cl/c/home",
-        "https://www.natura.cl/encuentra-natura",
-        "https://www.reddit.com/r/FinanzasChile/comments/1ka344w",
-        "https://www.reddit.com/r/Mendoza/comments/1jjmxrc",
-        "https://www.reddit.com/r/PERU/comments/1iz47pn",
-        "https://www.reddit.com/r/RepublicadeChile/comments/1kddq7s",
-        "https://www.reddit.com/r/RepublicadeChile/comments/1lmbuh5",
-        "https://www.reddit.com/r/RepublicadeChile/comments/1m7kvqz",
-        "https://www.reddit.com/r/chile/comments/1fslz4v/megathread_cybermonday_nov_2024/",
-        "https://www.reddit.com/r/chile/comments/1ugtuww/parece_que_van_a_despedir_a_alguien/",
-        "https://www.reddit.com/r/chileIT/comments/1n5q0pa/duda_de_totalmente_de_curioso_qu%C3%A9_pasar%C3%ADa_si/",
-        "https://www.reddit.com/r/chilegames/comments/1ofs5u8/no_me_actualiza_mi_pedido_falabella/",
-        "https://www.reddit.com/r/rediturras/comments/1hwtcc7"
+        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48738.html",
+        "https://www.edge-ai-vision.com/wp-content/uploads/2025/09/BW07_Chang_Tensorfield_2025.pdf",
+        "https://www.greenbeam.us/",
+        "https://www.haggertyagrobotics.com/farmdroid-fd20",
+        "https://www.reddit.com/r/AgriTech/comments/1wwguu8/ndsu_rowcrop_robot_achieves_965_weeding_accuracy/",
+        "https://www.reddit.com/r/JoinOwntric/comments/1pf06bo/3995m_robotfarming_startup_backed_by_1253/",
+        "https://www.reddit.com/r/STEW_ScTecEngWorld/comments/1ogi600",
+        "https://www.reddit.com/r/robotics/comments/1kxmal0/we_built_weedwarden_an_autonomous_weed_control/",
+        "https://www.sbir.gov/awards/214988",
+        "https://www.sec.gov/Archives/edgar/data/1760404/000110465926075802/tm2617498d1_partiiandiii.htm",
+        "https://www.sec.gov/Archives/edgar/data/1760404/000176040425000008/offeringmemoformc.pdf"
       ]
     },
     {
@@ -131,7 +109,7 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 2,
+      "grounded_sources": 3,
       "retry_justified": false
     },
     {
@@ -146,74 +124,68 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 2,
-      "retry_justified": false
-    },
-    {
-      "index": 2,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 2,
+      "grounded_sources": 3,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_9f47dda18059a735d95d",
+      "candidate_id": "opp_6c994db30cf257cb79ff",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 30,
+      "grounded_source_count": 40,
       "search_source_urls": [
-        "https://23418625.fs1.hubspotusercontent-na1.net/hubfs/23418625/google%20.pdf",
-        "https://digitalyourbusiness.in/wp-content/uploads/2025/01/All-Google-Business-Profile-Policies-Guidelines-.pdf",
-        "https://downloads.regulations.gov/FTC-2020-0017-0108/attachment_1.pdf",
-        "https://ftcguardian.s3.amazonaws.com/ho/1.%20FTC%20Issues%20Final%20Rule%20on%20Consumer%20Reviews%20and%20Testimonials%208-26-24.pdf",
-        "https://mesej.io/guides/asking-customers-for-reviews/",
-        "https://nfctech.cl/",
-        "https://nfctech.cl/blog",
-        "https://nfctech.cl/guias/como-conseguir-mas-resenas-google",
-        "https://nfctech.cl/guias/cuantas-resenas-para-aparecer-primero",
-        "https://nfctech.cl/guias/que-es-tarjeta-nfc-para-resenas",
-        "https://nfctech.cl/guias/resenas-google-seo-local",
-        "https://nfctech.cl/tarjetas-nfc-resenas-google",
-        "https://opiniion.com/wp-content/uploads/2024/08/The-State-of-Review-Generation-Compliance.pdf",
-        "https://search.ftc.gov/system/files/documents/plain-language/1007a_soliciting-and-paying-for-online-reviews-508_0.pdf",
-        "https://support.google.com/business/answer/3474122?hl=en-en",
-        "https://support.google.com/business/answer/7400114?hl=es-ES",
-        "https://support.google.com/business/answer/7400114?rd=1&ref_topic=4540086&visit_id=638960789983224052-4247463895",
-        "https://tarjetas-nfc.com/",
-        "https://www.reddit.com/r/GoogleMyBusiness/comments/1m9renr/discussion_around_review_gating/",
-        "https://www.reddit.com/r/GoogleMyBusiness/comments/1rj5t3c/are_google_review_filter_pages_allowed/",
-        "https://www.reddit.com/r/GoogleMyBusiness/comments/1uxsh4t/approximately_800_genuine_google_reviews/",
-        "https://www.reddit.com/r/GoogleMyBusiness/comments/1vf1o6m/profile_restricted_for_fake_engagement/",
-        "https://www.reddit.com/r/GoogleMyBusiness/comments/1w9n8ri/removed/",
-        "https://www.reddit.com/r/GoogleMyBusiness/comments/1wpr6px/my_competitor_is_paying_workers_to_get_reviews/",
-        "https://www.reddit.com/r/GoogleSupport/comments/1u6505t/gbp_reviews_visible_to_reviewer_but_hidden/",
-        "https://www.reddit.com/r/LocalGuides/comments/1ta4e9l/offering_incentive_inkind_for_reviews/",
-        "https://www.reddit.com/r/googlebusinessprofile/comments/1vpjwcp/google_explicitly_bans_review_incentives_so_how/",
-        "https://www.reddit.com/r/localseo/comments/1smxsnk/google_is_filtering_out_reviews_that_mention/",
-        "https://www.reddit.com/r/localseo/comments/1wr46nu/googles_own_pages_say_owners_cant_delete_reviews/",
-        "https://www.reddit.com/r/smallbusiness/comments/1v2hh12/giving_employees_credit_for_google_reviews_need/"
+        "https://apis.io/providers/agrourbana/",
+        "https://aquaplants.cl/web/nosotros/",
+        "https://arxiv.org/abs/2507.18419",
+        "https://arxiv.org/abs/2510.03686",
+        "https://arxiv.org/abs/2607.26968",
+        "https://campobello.cl/",
+        "https://cgspace.cgiar.org/rest/bitstreams/b68349f8-1d83-4da7-86d9-fedeb7240051/retrieve",
+        "https://en.wikipedia.org/wiki/Freight_Farms",
+        "https://en.wikipedia.org/wiki/Hawthorne_Gardening_Company",
+        "https://en.wikipedia.org/wiki/Hydrofarm",
+        "https://en.wikipedia.org/wiki/IFarm",
+        "https://en.wikipedia.org/wiki/Ignacio_Solano",
+        "https://en.wikipedia.org/wiki/Lufa_Farms",
+        "https://ers.usda.gov/sites/default/files/_laserfiche/publications/108221/EIB-264.pdf?v=95981",
+        "https://hidroponiachile.cl/",
+        "https://ranokau.com/",
+        "https://repositorio.utalca.cl/repositorio/bitstreams/eea4aa1e-c00a-4e09-96fc-e2e64adb12a3/download",
+        "https://verticalgrow.cl/",
+        "https://wefarm.cl/pages/servicio-empresa",
+        "https://www.agrourbana.ag/",
+        "https://www.altiva.cl/",
+        "https://www.axios.com/local/chicago/2026/08/10/downtown-vertical-farming-venture-takes-root",
+        "https://www.bcn.cl/leychile/navegar?i=1212631",
+        "https://www.ctahr.hawaii.edu/oc/freepubs/pdf/SA-5.pdf",
+        "https://www.desiertohidroponico.cl/",
+        "https://www.fraunhofer.cl/en/projects/pv-systems/urban-farm--new-ways-to-grow-vegetables-in-the-city.html",
+        "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/10/agricultural-policy-monitoring-and-evaluation-2025_354e7040/a80ac398-en.pdf",
+        "https://www.reddit.com/r/Hydroponics/comments/1cikupf",
+        "https://www.reddit.com/r/Hydroponics/comments/1h34h46",
+        "https://www.reddit.com/r/Hydroponics/comments/1jz870f",
+        "https://www.reddit.com/r/Hydroponics/comments/1nuohxp/hydroponics_to_save_money/",
+        "https://www.reddit.com/r/IAmA/comments/1ff6luk",
+        "https://www.reddit.com/r/farming/comments/t12lfc",
+        "https://www.reddit.com/r/indoorgardening/comments/1lvdrv3",
+        "https://www.reddit.com/r/phinvest/comments/1grlaeo/is_doing_agriculture_hydrophonic_a_profitable/",
+        "https://www.reddit.com/r/toolgifs/comments/12oiklw",
+        "https://www.reddit.com/r/verticalfarming/comments/1hkjvao",
+        "https://www.reddit.com/r/verticalfarming/comments/pxaedl",
+        "https://www.reddit.com/r/verticalfarming/comments/tujf2z",
+        "https://www.scielo.cl/pdf/chiljar/v85n3/0718-5839-chiljar-85-03-299.pdf"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_9f47dda18059a735d95d",
+      "candidate_id": "opp_6c994db30cf257cb79ff",
       "coercions": [
-        "critic_case",
         "contrary_evidence"
       ]
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_9f47dda18059a735d95d",
+      "candidate_id": "opp_6c994db30cf257cb79ff",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -221,7 +193,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_9f47dda18059a735d95d",
+      "candidate_id": "opp_6c994db30cf257cb79ff",
       "coercions": []
     }
   ],
@@ -229,44 +201,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 444,
-      "cache_write_tokens": 5501,
+      "reasoning_tokens": 169,
+      "cache_write_tokens": 5419,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02666065,
+      "cumulative_cost_usd": 0.01469135,
       "model": "gpt-5.6-luna",
-      "input_tokens": 20342,
+      "input_tokens": 13780,
       "cached_tokens": 0,
-      "output_tokens": 1931,
-      "web_search_calls": 2,
-      "estimated_cost_usd": 0.02666065
+      "output_tokens": 1387,
+      "web_search_calls": 1,
+      "estimated_cost_usd": 0.01469135
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 150,
-      "cache_write_tokens": 5344,
+      "reasoning_tokens": 121,
+      "cache_write_tokens": 5379,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.04130745,
+      "cumulative_cost_usd": 0.0291057,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13744,
+      "input_tokens": 13905,
       "cached_tokens": 0,
-      "output_tokens": 1359,
+      "output_tokens": 1137,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0146468
+      "estimated_cost_usd": 0.01441435
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 62,
-      "cache_write_tokens": 3204,
+      "reasoning_tokens": 85,
+      "cache_write_tokens": 3122,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.05559945,
+      "cumulative_cost_usd": 0.0448367,
       "model": "gpt-5.6-terra",
-      "input_tokens": 3207,
+      "input_tokens": 3125,
       "cached_tokens": 0,
-      "output_tokens": 523,
+      "output_tokens": 660,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.014292
+      "estimated_cost_usd": 0.015731
     }
   ]
 }

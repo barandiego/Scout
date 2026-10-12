@@ -2,8 +2,8 @@
 
 Research assignment only. **Zero verified buyers, sales, or execution permissions.**
 
-- Generated: 2026-10-11T20:09:39.483626+00:00
-- Research cards reviewed: 35
+- Generated: 2026-10-12T00:16:42.718623+00:00
+- Research cards reviewed: 37
 - Narrow ideas selected for founder review: 4
 - Verified third-party receipts: **none**
 
@@ -38,7 +38,7 @@ Research assignment only. **Zero verified buyers, sales, or execution permission
 - Origin: existing Scout research; robotics_agritech; no new opportunity claim
 - Next falsifiable no-spend test: Find a real operator's measured baseline and proposed savings, plus equipment/installation prices, before a product or pilot.
 - Distribution hypothesis (not verified): Identify one existing Chilean hydroponic or controlled-environment grower willing to share two comparable production cycles. Measure lighting, HVAC and pump electricity; record kilograms harvested and sale prices; run one controlled lighting-schedule change while keeping crop and harvest criteria constant. Stop if the grower cannot provide baseline meter data, comparable harvest records or permission to alter the schedule. Do 
-- Independent critic/judge: REVIEW_PENDING_DO_NOT_PROMOTE
-- Missing: independent_critic_and_judge, independent_specific_buyer, written_price_or_paid_commitment, verified_fulfilment_and_unit_cost, distribution_permission_or_channel, actual_third_party_receipt
+- Independent critic/judge: CRITIC_JUDGE_COMPLETE_NOT_COMMERCIAL_PROOF
+- Missing: independent_specific_buyer, written_price_or_paid_commitment, verified_fulfilment_and_unit_cost, distribution_permission_or_channel, actual_third_party_receipt
 - Sources: https://arxiv.org/abs/2507.18419; https://arxiv.org/abs/2510.03686; https://ers.usda.gov/sites/default/files/_laserfiche/publications/108221/EIB-264.pdf
 - Status: **WATCH — no automated outreach, spending, or execution**

@@ -95,6 +95,100 @@
     {
       "ai_leverage": "",
       "authorized_for_execution": false,
+      "contrary_evidence": [
+        "There is evidence of a real, identifiable Chilean customer universe: AgroUrbana operates controlled-environment vertical farming in Santiago, RanoKau operates an intelligent greenhouse and tests vertical technologies, and Campobello operates high-technology hydroponic greenhouses in Coquimbo. Sources: https://www.agrourbana.ag/, https://ranokau.com/, https://campobello.cl/. Artificial lighting is a material energy and peak-load issue in indoor farming, and published modeling supports the technical plausibility of flexible lighting schedules producing meaningful savings: https://arxiv.org/abs/2510.03686. Chilean electricity regulation recognizes commercial/industrial users with connected loads up to 5,000 kW, but the cited regulatory material does not establish the actual tariff structure or demand-charge exposure of target growers: https://www.bcn.cl/leychile/navegar?i=1212631. A measurement-first pilot limits capital risk and can test value without assuming that a new vertical farm is profitable."
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-10T12:12:22.489232+00:00",
+      "discovery_lens": "vertical_farming_economics",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Finds that energy, water and cost materially affect vertical-farming viability and emphasizes the need for decarbonized energy systems.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Beyond yield: integrating energy, water, cost, and carbon to benchmark indoor vertical farming viability",
+          "url": "https://arxiv.org/abs/2507.18419"
+        },
+        {
+          "claim": "Reports modeled energy and peak-load reductions from flexible lighting control in an indoor-farming setting; the result is not Chile-specific.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Optimal Energy Management in Indoor Farming Using Lighting Flexibility and Intelligent Model Predictive Control",
+          "url": "https://arxiv.org/abs/2510.03686"
+        },
+        {
+          "claim": "Provides controlled-environment agriculture production context, but does not establish Chilean project economics or customer WTP.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Trends, Insights, and Future Prospects for Production in Controlled Environment Agriculture and Agrivoltaics Systems",
+          "url": "https://ers.usda.gov/sites/default/files/_laserfiche/publications/108221/EIB-264.pdf"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.62,
+      "falsification_conditions": [
+        "At least five qualified Chilean growers decline interviews or state that lighting is immaterial to their operating costs.",
+        "A pilot with interval metering shows less than 8% site-electricity savings, or savings below the customer's minimum required monetary threshold, without measurable yield or quality improvement.",
+        "Lighting optimization reduces yield, quality, crop uniformity, or saleable output by more than 2% under comparable growing conditions.",
+        "No prospective customer will pay for a pilot at a price covering equipment, travel, analysis, and a reasonable labor margin.",
+        "Comparable Chilean tariffs imply annual savings insufficient to repay pilot implementation costs within 24 months.",
+        "Target growers cannot provide reliable baseline production and electricity data or will not permit controlled schedule changes.",
+        "Three or more credible Chilean providers offer substantially equivalent metering and lighting-optimization services at a lower price.",
+        "The service requires custom integration or ongoing agronomic support whose labor cost exceeds 50% of expected customer revenue."
+      ],
+      "geography": "Chile",
+      "id": "opp_6c994db30cf257cb79ff",
+      "judge_reviewed": true,
+      "judgment": "This is a credible measurement-first operational-efficiency hypothesis for existing controlled-environment growers, not an evidenced robotics/agritech equipment business. Buyer access is at least directionally identifiable through named Chilean controlled-environment operators, and the proposal does not misrepresent simulated lighting-control results as proof of Chilean commercial performance. However, it does not satisfy several robotics_agritech decision criteria: no demonstrated robotic technology or independently tested deployable system; no quantified Chilean customer labor, yield, throughput, tariff, or payback result; no local service/spares/supplier-support model; and no lease-versus-buy, utilization, or importer/distributor/operator economics. The proposed paid pilot is an appropriate research gate, but it is not sufficient evidence for HQ-level investment or scaling.",
+      "last_record_updated_at": "2026-10-12T00:16:42.426542+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Number, size, crop mix, and geographic concentration of existing Chilean indoor or hydroponic growers that use artificial lighting.",
+        "Actual Chilean electricity tariffs, demand charges, time-of-use pricing, and renewable-energy arrangements applicable to target facilities.",
+        "Lighting, HVAC, pumping, dehumidification, and refrigeration shares of total site electricity consumption.",
+        "Baseline kWh per kilogram, crop yield, quality, cycle duration, reject rate, and sale price for prospective customers.",
+        "Whether lighting schedules can be changed without reducing yield, quality, crop uniformity, or harvest timing."
+      ],
+      "participation_path": "Identify one existing Chilean hydroponic or controlled-environment grower willing to share two comparable production cycles. Measure lighting, HVAC and pump electricity; record kilograms harvested and sale prices; run one controlled lighting-schedule change while keeping crop and harvest criteria constant. Stop if the grower cannot provide baseline meter data, comparable harvest records or permission to alter the schedule. Do not invest in a new farm based on the cited evidence alone.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A new Chilean vertical-farm build is not sufficiently evidenced as investable here. The narrower executable wedge is measurement and scheduling support for an already-operating hydroponic or indoor grower, where the operator can compare lighting recipes, kWh per kg and peak demand before purchasing major equipment. This is an efficiency test, not evidence that indoor farming itself is profitable.",
+      "title": "Indoor-farm lighting and energy audit wedge for existing Chilean growers",
+      "type": "operational_efficiency_asset",
+      "unknowns": [
+        "Number, size, crop mix, and geographic concentration of existing Chilean indoor or hydroponic growers that use artificial lighting.",
+        "Actual Chilean electricity tariffs, demand charges, time-of-use pricing, and renewable-energy arrangements applicable to target facilities.",
+        "Lighting, HVAC, pumping, dehumidification, and refrigeration shares of total site electricity consumption.",
+        "Baseline kWh per kilogram, crop yield, quality, cycle duration, reject rate, and sale price for prospective customers.",
+        "Whether lighting schedules can be changed without reducing yield, quality, crop uniformity, or harvest timing.",
+        "Customer willingness to pay for a diagnostic pilot and whether savings are large enough to produce an attractive fee relative to implementation friction.",
+        "Availability and accuracy of temporary submeters, production records, and independent control groups.",
+        "Whether incumbent equipment vendors, agronomists, utilities, universities, or automation integrators already provide comparable services.",
+        "Potential food-safety, contractual, warranty, or operational restrictions on modifying production recipes.",
+        "Whether measured savings persist after the pilot or depend on unusual weather, crop stage, tariff conditions, or operator behavior.",
+        "Verified count, size, geography, crop mix, lighting intensity, and buying authority of Chilean target facilities.",
+        "Customer-specific interval tariff, demand-charge, time-of-use, and contracted-power exposure.",
+        "Measured baseline disaggregation of lighting, HVAC, dehumidification, pumping, refrigeration, and other loads.",
+        "Controlled Chilean pilot outcomes: kWh/kg, peak demand, yield, quality, saleable output, and savings persistence across comparable cycles.",
+        "Willingness to pay for diagnostic and implementation work, including required payback threshold and contracting friction.",
+        "Whether safe controlled schedule changes are permitted under customer agronomy, food-safety, warranty, and operational requirements.",
+        "A reproducible delivery model, including metering hardware availability, calibration, local technical support, staffing, travel, gross margin, and recurring revenue.",
+        "Any viable equipment participation model—local integrator, distributor, managed operation, or lease—if this is to be evaluated under the stated robotics_agritech rubric."
+      ],
+      "value_capture_mechanism": "Sell a one-site metering and lighting-schedule experiment, using temporary power meters and grower-supplied harvest records. Any savings claim must be measured against a baseline; no payback, margin or crop premium is assumed.",
+      "verified_sales": null,
+      "vertical": "robotics_agritech",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": true,
       "discovered_at": "2026-10-07T18:20:34.777731+00:00",
@@ -2333,6 +2427,67 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-12T00:16:18.700474+00:00",
+      "discovery_lens": "open_finance_chile",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The CMF published the amendment to NCG No. 514 on June 1, 2026, added technical specifications and a developer portal, and postponed entry into force until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        },
+        {
+          "claim": "The amendment covers interoperability, information exchange and payment initiation, and states that entities can begin development using the technical specifications.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "The Central Bank describes the continuing technical implementation of the Fintech Act SFA and implementation periods for different participant categories.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Informe de Estabilidad Financiera Segundo Semestre 2025",
+          "url": "https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.9,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_f26e42aaabb91e157f9d",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-12T00:16:18.708802+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use only public CMF SFA materials and developer-portal documentation to build a mock participant, consent journey and API contract tests. Publish a short reproducible test report and contact named entities listed in the official SFA participant/developer materials to ask whether they will pay for a sandbox conformance review. Falsification step: spend no more than one week implementing the highest-priority public flows; if the specifications are not sufficiently complete to produce executable tests or no relevant participant agrees to a discovery call, discard the opportunity. Do not connect to live financial accounts or claim regulatory certification.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Entities preparing to participate will need to translate the technical specifications into working consent, security, API and interoperability test flows. The actionable wedge is not generic fintech consulting but a reusable conformance-test harness, test-data pack and defect log for specific SFA flows.",
+      "title": "Chile SFA conformance and consent-flow testing for fintech participants before July 2027",
+      "type": "service_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "A small operator could sell a fixed-scope validation package or license a test harness to an identified SFA participant or implementation contractor. A buyer, price and permission to access production systems are not established by the evidence.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-10T16:09:06.777129+00:00",
       "discovery_lens": "ai_open_source",
       "estimated_capital": "",
@@ -2394,41 +2549,41 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-10T12:12:22.489232+00:00",
-      "discovery_lens": "vertical_farming_economics",
+      "discovered_at": "2026-10-12T00:16:18.701165+00:00",
+      "discovery_lens": "adoption_lag",
       "estimated_capital": "",
       "estimated_founder_hours_initial": "",
       "estimated_founder_hours_ongoing": "",
       "evidence": [
         {
-          "claim": "Finds that energy, water and cost materially affect vertical-farming viability and emphasizes the need for decarbonized energy systems.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "Beyond yield: integrating energy, water, cost, and carbon to benchmark indoor vertical farming viability",
-          "url": "https://arxiv.org/abs/2507.18419"
-        },
-        {
-          "claim": "Reports modeled energy and peak-load reductions from flexible lighting control in an indoor-farming setting; the result is not Chile-specific.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "Optimal Energy Management in Indoor Farming Using Lighting Flexibility and Intelligent Model Predictive Control",
-          "url": "https://arxiv.org/abs/2510.03686"
-        },
-        {
-          "claim": "Provides controlled-environment agriculture production context, but does not establish Chilean project economics or customer WTP.",
+          "claim": "The filing describes the BOTONY autonomous agricultural robot, 2025 leases to farms in seven states, 2026 purchase and lease orders, shipped units and an annual service contract.",
           "grounded_in_provider_search": true,
           "source_type": "primary",
-          "title": "Trends, Insights, and Future Prospects for Production in Controlled Environment Agriculture and Agrivoltaics Systems",
-          "url": "https://ers.usda.gov/sites/default/files/_laserfiche/publications/108221/EIB-264.pdf"
+          "title": "Greenfield Robotics SEC filing",
+          "url": "https://www.sec.gov/Archives/edgar/data/1760404/000110465926075802/tm2617498d1_partiiandiii.htm"
+        },
+        {
+          "claim": "The distributor page lists the autonomous solar-powered seeding and weeding platform and a price of CAD 156,488.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "FarmDroid FD20",
+          "url": "https://www.haggertyagrobotics.com/farmdroid-fd20"
+        },
+        {
+          "claim": "The listing describes Robot One as a deployed laser-weeding system with direct-sales/distributor participation and a stated price range of USD 251,000-500,000.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Robot One",
+          "url": "https://www.agricultural-robotics.com/robot/robot-one"
         }
       ],
-      "evidence_confidence_model_estimate": 0.62,
+      "evidence_confidence_model_estimate": 0.82,
       "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_6c994db30cf257cb79ff",
+      "geography": "United States; potentially other markets only after manufacturer authorization",
+      "id": "opp_99de522ad05d0e01cebc",
       "judge_reviewed": false,
       "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-10T12:12:22.502043+00:00",
+      "last_record_updated_at": "2026-10-12T00:16:18.708943+00:00",
       "material_update": false,
       "missing_execution_proof": [
         "independent_critic_and_judge",
@@ -2437,14 +2592,14 @@
       "next_validation_questions": [
         "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
       ],
-      "participation_path": "Identify one existing Chilean hydroponic or controlled-environment grower willing to share two comparable production cycles. Measure lighting, HVAC and pump electricity; record kilograms harvested and sale prices; run one controlled lighting-schedule change while keeping crop and harvest criteria constant. Stop if the grower cannot provide baseline meter data, comparable harvest records or permission to alter the schedule. Do not invest in a new farm based on the cited evidence alone.",
+      "participation_path": "Select one robot with a public purchase or lease route and contact its manufacturer or listed distributor for authorization requirements. Offer a narrowly defined pilot on one crop and one field: mapping, deployment checklist, uptime log and weed-control outcome measurement. Falsification step: before buying equipment, obtain a written indication that the manufacturer permits independent deployment support and secure one farm willing to provide a small test plot; if neither is obtainable, stop. Do not represent yourself as an authorized dealer or promise savings before measuring them.",
       "research_status": "WATCH_REQUIRES_VALIDATION",
       "status": "watch",
-      "thesis": "A new Chilean vertical-farm build is not sufficiently evidenced as investable here. The narrower executable wedge is measurement and scheduling support for an already-operating hydroponic or indoor grower, where the operator can compare lighting recipes, kWh per kg and peak demand before purchasing major equipment. This is an efficiency test, not evidence that indoor farming itself is profitable.",
-      "title": "Indoor-farm lighting and energy audit wedge for existing Chilean growers",
-      "type": "operational_efficiency_asset",
+      "thesis": "High-priced equipment creates a concrete operational bottleneck around field mapping, charging, remote monitoring, maintenance, operator training and seasonal deployment. The wedge is a local, manufacturer-authorized field-operations partner rather than building a competing robot.",
+      "title": "Independent field-service and deployment support for autonomous agricultural weed-control robots",
+      "type": "deployment_service",
       "unknowns": [],
-      "value_capture_mechanism": "Sell a one-site metering and lighting-schedule experiment, using temporary power meters and grower-supplied harvest records. Any savings claim must be measured against a baseline; no payback, margin or crop premium is assumed.",
+      "value_capture_mechanism": "Possible mechanisms include paid commissioning, seasonal field-operations support, maintenance coordination or deployment contracts. The evidence does not establish third-party resale rights, service prices, local demand or margins.",
       "verified_sales": null,
       "vertical": "robotics_agritech",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
@@ -2785,13 +2940,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-11T20:09:39.483626+00:00",
+  "generated_at": "2026-10-12T00:16:42.718623+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 20,
-  "reviewed_cards": 27,
+  "reviewed_cards": 28,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 55,
-  "watch": 35
+  "total_distinct_opportunities": 57,
+  "watch": 37
 }

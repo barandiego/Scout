@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-11T20:09:39.483626+00:00
+Generated: 2026-10-12T00:16:42.718623+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 35 (0 HQ survivors, 35 watches)
+- Active research: 37 (0 HQ survivors, 37 watches)
 - Rejected opportunities excluded: 20
-- Critic-and-judge reviewed: 27
+- Critic-and-judge reviewed: 28
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -22,6 +22,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Whether the cited January 1, 2026 AFCI requirement applies to the exact project classes, inverter configurations, and connection pathways targeted by the product, ra; Whether SEC or distributors accept the proposed equipment/documentation combinations in practice and what causes actual TE4 or related filing rejections.; Number of Chilean distributed BESS projects currently being designed, installed, or submitted through the relevant process.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/; https://www.sec.cl/gda/; https://www.sec.cl/normas-tecnicas-electricas/
+
+### Indoor-farm lighting and energy audit wedge for existing Chilean growers [opp_6c994db30cf257cb79ff]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile
+- Thesis: A new Chilean vertical-farm build is not sufficiently evidenced as investable here. The narrower executable wedge is measurement and scheduling support for an already-operating hydroponic or indoor grower, where the operator can compare lighting recipes, kWh per kg and peak demand before purchasing major equipment. This is an efficiency test, not evidence that indoor farming itself is profitable.
+- Value capture: Sell a one-site metering and lighting-schedule experiment, using temporary power meters and grower-supplied harvest records. Any savings claim must be measured against a baseline; no payback, margin or crop premium is assumed.
+- Participation hypothesis: Identify one existing Chilean hydroponic or controlled-environment grower willing to share two comparable production cycles. Measure lighting, HVAC and pump electricity; record kilograms harvested and sale prices; run one controlled lighting-schedule change while keeping crop and harvest criteria constant. Stop if the grower cannot provide baseline meter data, comparable harvest records or permission to alter the schedule. Do not invest in a new farm based on the cited evidence alone.
+- Critic/judge: This is a credible measurement-first operational-efficiency hypothesis for existing controlled-environment growers, not an evidenced robotics/agritech equipment business. Buyer access is at least directionally identifiable through named Chilean controlled-environment operators, and the proposal does not misrepresent simulated lighting-control results as proof of Chilean commercial performance. However, it does not satisfy several roboti
+- Next evidence gaps: Number, size, crop mix, and geographic concentration of existing Chilean indoor or hydroponic growers that use artificial lighting.; Actual Chilean electricity tariffs, demand charges, time-of-use pricing, and renewable-energy arrangements applicable to target facilities.; Lighting, HVAC, pumping, dehumidification, and refrigeration shares of total site electricity consumption.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://arxiv.org/abs/2507.18419; https://arxiv.org/abs/2510.03686; https://ers.usda.gov/sites/default/files/_laserfiche/publications/108221/EIB-264.pdf
 
 ### AI and data-center growth are making electricity and grid access a binding cost constraint [opp_9806dd7c2bc14a3373b4]
 - Status: WATCH_REQUIRES_VALIDATION | general | global, with pronounced effects in the United States and other advanced power markets
@@ -283,6 +293,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://cmfchile.atlassian.net/wiki/spaces/OFAC/pages/267649439/API%2BCuentas%2BOpen%2BFinance%2BChile%2Bv1.0.0; https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html
 
+### Chile SFA conformance and consent-flow testing for fintech participants before July 2027 [opp_f26e42aaabb91e157f9d]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Entities preparing to participate will need to translate the technical specifications into working consent, security, API and interoperability test flows. The actionable wedge is not generic fintech consulting but a reusable conformance-test harness, test-data pack and defect log for specific SFA flows.
+- Value capture: A small operator could sell a fixed-scope validation package or license a test harness to an identified SFA participant or implementation contractor. A buyer, price and permission to access production systems are not established by the evidence.
+- Participation hypothesis: Use only public CMF SFA materials and developer-portal documentation to build a mock participant, consent journey and API contract tests. Publish a short reproducible test report and contact named entities listed in the official SFA participant/developer materials to ask whether they will pay for a sandbox conformance review. Falsification step: spend no more than one week implementing the highest-priority public flows; if the specifications are not sufficiently complete to produce executable tests or no relevant participant agrees to a discove
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836
+
 ### Chile SFA conformance-test harness for small participating entities [opp_b1b8cbbff5d232fae6f8]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: Small prospective participants will need to validate API interoperability, consent flows, data formats, security controls, and payment-initiation behavior before the regulated system becomes operational. The evidence supports a narrow testing and tooling wedge, not a general fintech consultancy.
@@ -293,15 +313,15 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-100482.html; https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html
 
-### Indoor-farm lighting and energy audit wedge for existing Chilean growers [opp_6c994db30cf257cb79ff]
-- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile
-- Thesis: A new Chilean vertical-farm build is not sufficiently evidenced as investable here. The narrower executable wedge is measurement and scheduling support for an already-operating hydroponic or indoor grower, where the operator can compare lighting recipes, kWh per kg and peak demand before purchasing major equipment. This is an efficiency test, not evidence that indoor farming itself is profitable.
-- Value capture: Sell a one-site metering and lighting-schedule experiment, using temporary power meters and grower-supplied harvest records. Any savings claim must be measured against a baseline; no payback, margin or crop premium is assumed.
-- Participation hypothesis: Identify one existing Chilean hydroponic or controlled-environment grower willing to share two comparable production cycles. Measure lighting, HVAC and pump electricity; record kilograms harvested and sale prices; run one controlled lighting-schedule change while keeping crop and harvest criteria constant. Stop if the grower cannot provide baseline meter data, comparable harvest records or permission to alter the schedule. Do not invest in a new farm based on the cited evidence alone.
+### Independent field-service and deployment support for autonomous agricultural weed-control robots [opp_99de522ad05d0e01cebc]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States; potentially other markets only after manufacturer authorization
+- Thesis: High-priced equipment creates a concrete operational bottleneck around field mapping, charging, remote monitoring, maintenance, operator training and seasonal deployment. The wedge is a local, manufacturer-authorized field-operations partner rather than building a competing robot.
+- Value capture: Possible mechanisms include paid commissioning, seasonal field-operations support, maintenance coordination or deployment contracts. The evidence does not establish third-party resale rights, service prices, local demand or margins.
+- Participation hypothesis: Select one robot with a public purchase or lease route and contact its manufacturer or listed distributor for authorization requirements. Offer a narrowly defined pilot on one crop and one field: mapping, deployment checklist, uptime log and weed-control outcome measurement. Falsification step: before buying equipment, obtain a written indication that the manufacturer permits independent deployment support and secure one farm willing to provide a small test plot; if neither is obtainable, stop. Do not represent yourself as an authorized dealer
 - Critic/judge: deferred_by_review_cap
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://arxiv.org/abs/2507.18419; https://arxiv.org/abs/2510.03686; https://ers.usda.gov/sites/default/files/_laserfiche/publications/108221/EIB-264.pdf
+- Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/1760404/000110465926075802/tm2617498d1_partiiandiii.htm; https://www.haggertyagrobotics.com/farmdroid-fd20; https://www.agricultural-robotics.com/robot/robot-one
 
 ### Narrow Chilean e-commerce returns-recovery test for one product category [opp_fa54176321cf12d8b287]
 - Status: WATCH_REQUIRES_VALIDATION | ecommerce_niches | Chile

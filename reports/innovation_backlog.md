@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 35
+Candidates: 37
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -244,6 +244,18 @@ Candidates: 35
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
+## Chile SFA conformance and consent-flow testing for fintech participants before July 2027
+- Status: watch | open_finance_chile
+- Current idea: Entities preparing to participate will need to translate the technical specifications into working consent, security, API and interoperability test flows. The actionable wedge is not generic fintech consulting but a reusable conformance-test harness, test-data pack and defect log for specific SFA flows.
+- Potential economic capture: A small operator could sell a fixed-scope validation package or license a test harness to an identified SFA participant or implementation contractor. A buyer, price and permission to access production systems are not established by the evidence.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836
+
 ## Chile SFA conformance-test harness for small participating entities
 - Status: watch | open_finance_chile
 - Current idea: Small prospective participants will need to validate API interoperability, consent flows, data formats, security controls, and payment-initiation behavior before the regulated system becomes operational. The evidence supports a narrow testing and tooling wedge, not a general fintech consultancy.
@@ -412,6 +424,18 @@ Candidates: 35
 - Possible initial budget:
 - Source URLs: https://www.iea.org/reports/modernising-grids-in-the-age-of-electricity/executive-summary; https://www.iea.org/reports/electricity-2026/grids
 
+## Independent field-service and deployment support for autonomous agricultural weed-control robots
+- Status: watch | robotics_agritech
+- Current idea: High-priced equipment creates a concrete operational bottleneck around field mapping, charging, remote monitoring, maintenance, operator training and seasonal deployment. The wedge is a local, manufacturer-authorized field-operations partner rather than building a competing robot.
+- Potential economic capture: Possible mechanisms include paid commissioning, seasonal field-operations support, maintenance coordination or deployment contracts. The evidence does not establish third-party resale rights, service prices, local demand or margins.
+- **Research routes to test (NOT validated claims):**
+  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
+  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
+  - Arrange a bounded field validation with an actual farm operator before scaling.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.sec.gov/Archives/edgar/data/1760404/000110465926075802/tm2617498d1_partiiandiii.htm; https://www.haggertyagrobotics.com/farmdroid-fd20; https://www.agricultural-robotics.com/robot/robot-one
+
 ## Indoor-farm lighting and energy audit wedge for existing Chilean growers
 - Status: watch | robotics_agritech
 - Current idea: A new Chilean vertical-farm build is not sufficiently evidenced as investable here. The narrower executable wedge is measurement and scheduling support for an already-operating hydroponic or indoor grower, where the operator can compare lighting recipes, kWh per kg and peak demand before purchasing major equipment. This is an efficiency test, not evidence that indoor farming itself is profitable.
@@ -420,6 +444,6 @@ Candidates: 35
   - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
   - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
   - Arrange a bounded field validation with an actual farm operator before scaling.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Number, size, crop mix, and geographic concentration of existing Chilean indoor or hydroponic growers that use artificial lighting.; Actual Chilean electricity tariffs, demand charges, time-of-use pricing, and renewable-energy arrangements applicable to target facilities.; Lighting, HVAC, pumping, dehumidification, and refrigeration shares of total site electricity consumption.
 - Possible initial budget:
 - Source URLs: https://arxiv.org/abs/2507.18419; https://arxiv.org/abs/2510.03686; https://ers.usda.gov/sites/default/files/_laserfiche/publications/108221/EIB-264.pdf
