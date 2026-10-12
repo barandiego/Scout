@@ -1,45 +1,93 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 7200000.0,
-      "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
-      "closes_at": "2026-10-12T21:00:00",
-      "code": "1057491-1860-COT26",
-      "estimated_budget": 7200000.0,
-      "name": "CATETERES DISTINTAS MEDIDAS Y CONDICIONES",
-      "products": 4,
+      "available_budget_clp": 6060000.0,
+      "buyer": "SERVICIO DE SALUD METROPOLITANA NORTE HOSPITAL SAN JOSE",
+      "closes_at": "2026-10-13T15:00:00",
+      "code": "1549-4271-COT26",
+      "estimated_budget": 6060000.0,
+      "name": "107-5035 PAQ.PARTO DESECH.ESTERIL",
+      "products": 1,
       "region": "Región Metropolitana de Santiago"
     },
     {
-      "available_budget_clp": 7200000.0,
-      "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
-      "closes_at": "2026-10-12T20:30:00",
-      "code": "1057491-1858-COT26",
-      "estimated_budget": 7200000.0,
-      "name": "CATETER LOW PROFILE RESERVORIO 10 -12 MM. 5.8 FR  - CATETER STANDARD RESERVORIO 14-15 MM 7.8 FR",
+      "available_budget_clp": 350000.0,
+      "buyer": "SERV NAC SALUD HOSPITAL DE LOS ANDES",
+      "closes_at": "2026-10-13T12:00:00",
+      "code": "617807-2363-COT26",
+      "estimated_budget": 350000.0,
+      "name": "HAAV INSUMOS DE PABELLON 20261096",
+      "products": 3,
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 900000.0,
+      "buyer": "SERV NAC SALUD HOSPITAL DE LOS ANDES",
+      "closes_at": "2026-10-13T15:00:00",
+      "code": "617807-2362-COT26",
+      "estimated_budget": 900000.0,
+      "name": "HAAV CURSO DE CAPACITACION MEMO N°66",
+      "products": 1,
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 2300000.0,
+      "buyer": "I.Municipalidad de Camarones",
+      "closes_at": "2026-10-13T08:00:00",
+      "code": "5858-36-COT26",
+      "estimated_budget": 2300000.0,
+      "name": "CONTRATACIÓN DE PRESTACIÓN DE SERVICIOS PROFESIONALES DE ANALISTA DE PROYECTOS 4 PARA LA FORMULACIÓN, SEGUIMIENTO Y CIERRE DE INICIATIVAS DE INVERSIÓN SOCIAL DE LA MUNICIPALIDAD DE CAMARONES",
+      "products": 1,
+      "region": "Región de Arica y Parinacota"
+    },
+    {
+      "available_budget_clp": 2300000.0,
+      "buyer": "I.Municipalidad de Camarones",
+      "closes_at": "2026-10-13T08:00:00",
+      "code": "5858-35-COT26",
+      "estimated_budget": 2300000.0,
+      "name": "CONTRATACIÓN DE PRESTACIÓN DE SERVICIOS PROFESIONALES DE ANALISTA DE PROYECTOS 3 PARA LA FORMULACIÓN, SEGUIMIENTO Y CIERRE DE INICIATIVAS DE INVERSIÓN SOCIAL DE LA MUNICIPALIDAD DE CAMARONES",
+      "products": 1,
+      "region": "Región de Arica y Parinacota"
+    },
+    {
+      "available_budget_clp": 60000.0,
+      "buyer": "SERV NAC SALUD HOSPITAL DE LOS ANDES",
+      "closes_at": "2026-10-13T12:00:00",
+      "code": "617807-2361-COT26",
+      "estimated_budget": 60000.0,
+      "name": "HAAV INSUMOS PARA PABELLON 20261229",
       "products": 2,
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 6060000.0,
+      "buyer": "SERVICIO DE SALUD METROPOLITANA NORTE HOSPITAL SAN JOSE",
+      "closes_at": "2026-10-13T16:00:00",
+      "code": "1549-4270-COT26",
+      "estimated_budget": 6060000.0,
+      "name": "340-4520 NEFROSCOPIO C/ACCESORIOS",
+      "products": 1,
       "region": "Región Metropolitana de Santiago"
     },
     {
-      "available_budget_clp": 300000.0,
-      "buyer": "- - -",
-      "closes_at": "2026-10-14T12:00:00",
-      "code": "3196-229-COT26",
-      "estimated_budget": 300000.0,
-      "name": "Mantenimiento preventivo vehículo fiscal L-346",
-      "products": 6,
-      "region": "Región de Los Ríos"
+      "available_budget_clp": 6060000.0,
+      "buyer": "SERVICIO DE SALUD METROPOLITANA NORTE HOSPITAL SAN JOSE",
+      "closes_at": "2026-10-13T16:00:00",
+      "code": "1549-4269-COT26",
+      "estimated_budget": 6060000.0,
+      "name": "340-2315 LIGADURA DE HEMORROIDES (BS*100UN)",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
     }
   ],
-  "active_structurally_reconstructable_count": 3,
+  "active_structurally_reconstructable_count": 8,
   "diagnostics": {
-    "api_failures": {
-      "api_http_500": 1
-    },
+    "api_failures": {},
     "budget_exhausted": false,
     "detail_attempts": 20,
     "detail_cap_exhausted": true,
-    "details_fetched": 19,
+    "details_fetched": 20,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -51,24 +99,24 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-10-12T00:50:12Z",
-  "inserted_history": 19,
+  "generated_at": "2026-10-12T04:41:15Z",
+  "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_API_ERRORS",
+  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
   "phase1": {
-    "records": 19,
+    "records": 20,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 6
+      "no_observable_competitive_prices": 3
     },
-    "resolved": 16,
-    "structurally_reconstructable": 13,
-    "with_observable_quote_totals": 10,
-    "with_purchase_order_indicator": 0
+    "resolved": 12,
+    "structurally_reconstructable": 17,
+    "with_observable_quote_totals": 9,
+    "with_purchase_order_indicator": 4
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-12T00:50:12Z"
+    "changed_to": "2026-10-12T04:41:15Z"
   }
 }
