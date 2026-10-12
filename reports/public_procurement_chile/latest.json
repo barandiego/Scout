@@ -1,29 +1,102 @@
 {
-  "active_candidates": [],
-  "active_structurally_reconstructable_count": 0,
-  "diagnostics": {
-    "api_failures": {
-      "api_http_504": 1
+  "active_candidates": [
+    {
+      "available_budget_clp": 257000.0,
+      "buyer": "Centro de Educación y Trabajo CET Cerrado Taltal",
+      "closes_at": "2026-10-13T18:00:00",
+      "code": "1173421-18-COT26",
+      "estimated_budget": 257000.0,
+      "name": "Estado Verde - CET Cerrado Taltal - Adquisición herramientas Taller Carpintería",
+      "products": 4,
+      "region": "Región de Antofagasta"
     },
-    "requests_used": 3,
-    "transient_retries": 2
+    {
+      "available_budget_clp": 800000.0,
+      "buyer": "I MUNICIPALIDAD DE PORTEZUELO",
+      "closes_at": "2026-10-14T10:00:00",
+      "code": "3594-934-COT26",
+      "estimated_budget": 800000.0,
+      "name": "SERVICIO PROFESIONAL DE CONSULTORÍA ELÉCTRICA",
+      "products": 1,
+      "region": "Región del Ñuble"
+    },
+    {
+      "available_budget_clp": 500000.0,
+      "buyer": "I MUNICIPALIDAD DE TIRUA",
+      "closes_at": "2026-10-15T15:30:00",
+      "code": "4858-591-COT26",
+      "estimated_budget": 500000.0,
+      "name": "SERVICIO DE MOVILIZACIÓN PARA PDTI",
+      "products": 1,
+      "region": "Región del Biobío"
+    },
+    {
+      "available_budget_clp": 140000.0,
+      "buyer": "SERVICIO DE VIVIENDA Y URBANIZACION XI REGION",
+      "closes_at": "2026-10-15T14:00:00",
+      "code": "657-93-COT26",
+      "estimated_budget": 140000.0,
+      "name": "Adquisicion de equipos menores",
+      "products": 2,
+      "region": "Región Aysén del General Carlos Ibáñez del Campo"
+    },
+    {
+      "available_budget_clp": 3592730.0,
+      "buyer": "I MUNICIPALIDAD DE SANTIAGO",
+      "closes_at": "2026-10-15T12:00:00",
+      "code": "2343-547-COT26",
+      "estimated_budget": 3592730.0,
+      "name": "ADQUISICION DE MATERIALES DE ASEO PARA LA MANTENCION DE PISCINAS MUNICIPALES - Ped.1352",
+      "products": 7,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 2000000.0,
+      "buyer": "I MUNICIPALIDAD DE CANELA",
+      "closes_at": "2026-10-13T13:10:00",
+      "code": "2288-700-COT26",
+      "estimated_budget": 2000000.0,
+      "name": "ADQ. DE MATERIALES OFICINA",
+      "products": 4,
+      "region": "Región de Coquimbo"
+    }
+  ],
+  "active_structurally_reconstructable_count": 6,
+  "diagnostics": {
+    "api_failures": {},
+    "budget_exhausted": false,
+    "detail_attempts": 20,
+    "detail_cap_exhausted": true,
+    "details_fetched": 20,
+    "duplicate_listings": 0,
+    "invalid_listing_items": 0,
+    "malformed_details": 0,
+    "malformed_reasons": {},
+    "malformed_samples": [],
+    "pages_fetched": 1,
+    "pagination_incomplete": false,
+    "pagination_invalid": false,
+    "requests_used": 21,
+    "transient_retries": 0
   },
-  "generated_at": "2026-10-12T13:03:44Z",
-  "inserted_history": 0,
-  "note": "Transient ChileCompra/API availability failure after bounded retries. Cursor was not advanced; next scheduled run may retry safely.",
+  "generated_at": "2026-10-12T16:38:30Z",
+  "inserted_history": 20,
+  "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_TRANSIENT_API",
+  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
   "phase1": {
-    "records": 0,
-    "rejection_reasons": {},
-    "resolved": 0,
-    "structurally_reconstructable": 0,
-    "with_observable_quote_totals": 0,
-    "with_purchase_order_indicator": 0
+    "records": 20,
+    "rejection_reasons": {
+      "no_observable_competitive_prices": 5
+    },
+    "resolved": 14,
+    "structurally_reconstructable": 15,
+    "with_observable_quote_totals": 9,
+    "with_purchase_order_indicator": 3
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-12T13:03:44Z"
+    "changed_to": "2026-10-12T16:38:30Z"
   }
 }
