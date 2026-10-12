@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-12T13:07:00.264372+00:00
+Generated: 2026-10-12T16:42:19.641253+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
-- Rolling leads: 972
-- New this cycle: 117
+- Rolling leads: 1034
+- New this cycle: 112
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): none
-- Categories: agriculture 135, ai 195, commerce 33, energy 302, robotics 307
+- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
+- Categories: agriculture 142, ai 210, commerce 32, energy 321, robotics 329
 
 ## Recently encountered signals
+
+### sumanth-3031/opticrop
+- Source: https://github.com/sumanth-3031/opticrop
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### yieldshield-devs/Plant-Guard
 - Source: https://github.com/yieldshield-devs/Plant-Guard
@@ -118,6 +124,18 @@ Generated: 2026-10-12T13:07:00.264372+00:00
 - Source: https://doi.org/10.66506/essp.172
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### vandana-kumari4/kisaan-ai
+- Source: https://github.com/vandana-kumari4/kisaan-ai
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### Afra05-786/Smart-Plant-using-ESP32-
+- Source: https://github.com/Afra05-786/Smart-Plant-using-ESP32-
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
 
 ### Comparative Sensitivity Analysis of Grid‐Scale Battery Storage Technologies: Feasibility Investigation for Solar Integration in India
@@ -306,6 +324,18 @@ Generated: 2026-10-12T13:07:00.264372+00:00
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
 
+### Mahati-20/AgriSense-AI-Final
+- Source: https://github.com/Mahati-20/AgriSense-AI-Final
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### amansingh221-a/KrishiGen-AI
+- Source: https://github.com/amansingh221-a/KrishiGen-AI
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
 ### Agriculture Rover For Soil and Crop Data Collection
 - Source: https://doi.org/10.55041/ijsrem67862
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
@@ -430,34 +460,4 @@ Generated: 2026-10-12T13:07:00.264372+00:00
 - Source: https://github.com/ryanzts/ryanzts
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Why 'vertical farming' is not a fix for our food system
-- Source: https://theconversation.com/why-vertical-farming-is-not-a-fix-for-our-food-system-293201
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### cristhianrobotics/Proyect_Hartech
-- Source: https://github.com/cristhianrobotics/Proyect_Hartech
-- Domain: robotics | Suggested angle: Chile import/distribution or local integration
-- First test: Check installed base, Chilean competitors, supplier pricing, certification and actual buyer budgets.
-- Status: **unverified research lead**
-
-### LloydCoder/Aithyrex
-- Source: https://github.com/LloydCoder/Aithyrex
-- Domain: ai | Suggested angle: Agent-enabled digital asset or localised specialised product
-- First test: Identify measurable customer job, willing buyer, existing competitors and unit economics.
-- Status: **unverified research lead**
-
-### YoGurt31/YoGurt31.github.io
-- Source: https://github.com/YoGurt31/YoGurt31.github.io
-- Domain: robotics | Suggested angle: Chile import/distribution or local integration
-- First test: Check installed base, Chilean competitors, supplier pricing, certification and actual buyer budgets.
-- Status: **unverified research lead**
-
-### nexform-tech/litearm-ros2-control
-- Source: https://github.com/nexform-tech/litearm-ros2-control
-- Domain: robotics | Suggested angle: Chile import/distribution or local integration
-- First test: Check installed base, Chilean competitors, supplier pricing, certification and actual buyer budgets.
 - Status: **unverified research lead**
