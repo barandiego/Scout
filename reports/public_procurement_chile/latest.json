@@ -1,62 +1,29 @@
 {
-  "active_candidates": [
-    {
-      "available_budget_clp": 509100.0,
-      "buyer": "ATF-60 \"LIENTUR\"",
-      "closes_at": "2026-10-13T11:00:00",
-      "code": "1315764-83-COT26",
-      "estimated_budget": 509100.0,
-      "name": "ADQUISICIÓN DE PAÑO ABSORBENTE DE HIDROCARBURO",
-      "products": 1,
-      "region": "Región de Magallanes y de la Antártica"
-    },
-    {
-      "available_budget_clp": 7200000.0,
-      "buyer": "ATF-60 \"LIENTUR\"",
-      "closes_at": "2026-10-13T11:00:00",
-      "code": "1315764-81-COT26",
-      "estimated_budget": 7200000.0,
-      "name": "ADQUISICIÓN DE ACEITE PARA MAQUINARIA AUXILIAR",
-      "products": 1,
-      "region": "Región de Magallanes y de la Antártica"
-    }
-  ],
-  "active_structurally_reconstructable_count": 2,
+  "active_candidates": [],
+  "active_structurally_reconstructable_count": 0,
   "diagnostics": {
-    "api_failures": {},
-    "budget_exhausted": false,
-    "detail_attempts": 20,
-    "detail_cap_exhausted": true,
-    "details_fetched": 20,
-    "duplicate_listings": 0,
-    "invalid_listing_items": 0,
-    "malformed_details": 0,
-    "malformed_reasons": {},
-    "malformed_samples": [],
-    "pages_fetched": 1,
-    "pagination_incomplete": false,
-    "pagination_invalid": false,
-    "requests_used": 21,
-    "transient_retries": 0
-  },
-  "generated_at": "2026-10-12T08:43:52Z",
-  "inserted_history": 20,
-  "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
-  "ok": false,
-  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
-  "phase1": {
-    "records": 20,
-    "rejection_reasons": {
-      "no_observable_competitive_prices": 3
+    "api_failures": {
+      "api_http_504": 1
     },
-    "resolved": 18,
-    "structurally_reconstructable": 17,
-    "with_observable_quote_totals": 15,
+    "requests_used": 3,
+    "transient_retries": 2
+  },
+  "generated_at": "2026-10-12T13:03:44Z",
+  "inserted_history": 0,
+  "note": "Transient ChileCompra/API availability failure after bounded retries. Cursor was not advanced; next scheduled run may retry safely.",
+  "ok": false,
+  "outcome": "DEGRADED_TRANSIENT_API",
+  "phase1": {
+    "records": 0,
+    "rejection_reasons": {},
+    "resolved": 0,
+    "structurally_reconstructable": 0,
+    "with_observable_quote_totals": 0,
     "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-12T08:43:52Z"
+    "changed_to": "2026-10-12T13:03:44Z"
   }
 }
