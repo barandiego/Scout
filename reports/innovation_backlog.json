@@ -159,42 +159,6 @@
       "category": "energy_infrastructure",
       "commercially_validated": false,
       "competition_confirmed": false,
-      "current_participation_path": "Start with one public Chilean node and a small set of operating or announced storage projects. Publish a weekly spreadsheet/dashboard showing price spreads, solar-overgeneration proxies, project status, and modeled two- versus four-hour storage economics. Falsification step: interview or email ten identifiable developers, infrastructure investors, or engineering firms with the sample; require at least two requests for a paid version or data export before building software.",
-      "current_thesis": "The combination of solar surplus, peak-demand value, and rapid storage deployment creates a specific need for project-level data on curtailment, nodal prices, interconnection status, battery duration, and dispatch economics. The evidence supports demand for analysis, but does not prove a paying customer or margin.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "Chile",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "Chile solar-plus-storage dispatch and congestion data product",
-      "opportunity_id": "opp_f096638ccd65e73298f3",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
-        "Compare owned asset, installer/distributor and project-finance participation.",
-        "Verify permits and installed net payback under conservative power price scenarios."
-      ],
-      "supporting_source_urls": [
-        "https://www.iea.org/commentaries/battery-storage-is-scaling-up-and-taking-on-a-larger-system-role",
-        "https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "A low-cost monitoring asset for Chilean storage and solar projects: normalized public data, project pipeline tracking, and a transparent dispatch/curtailment model. Possible cash-flow sources include subscriptions, paid diligence, or data licensing to project developers, lenders, or investors, but no purchase commitment or price was found.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "energy_infrastructure",
-      "commercially_validated": false,
-      "competition_confirmed": false,
       "current_participation_path": "Download the CEN monthly files, reproduce one region’s plant-level curtailment table, and send a one-page result to publicly identifiable project-development or investment contacts asking them to validate one plant’s decision use. The lowest-cost falsification step is to produce a free analysis for five plants and seek one paid follow-up or data-request; stop if users cannot name a concrete investment, dispatch or diligence decision improved by the analysis. Do not claim dispatch rights, grid access or project ownership.",
       "current_thesis": "Project developers, asset owners and lenders need to distinguish curtailment exposure by plant, node, month and hour when evaluating storage retrofits, dispatch strategies and acquisition risk. The economic mechanism is better underwriting or dispatch decisions, not the existence of a generic energy trend.",
       "founder_hours_initial_unverified_estimate": "",
@@ -817,6 +781,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "A narrowly scoped implementation asset: automated API conformance tests, consent-flow test fixtures, data-schema validators, and reproducible sandbox test cases for one participant type. Potential cash flow would come from paid test engagements or integration work only if an affected participant agrees to purchase it; no buyer or price is established by the evidence.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Use the CMF developer portal, technical annex and sandbox materials to build a minimal validator for one documented API flow. Test it against publicly available specifications and ask 5-10 Chilean fintechs, payment providers, cooperatives or software vendors whether they would use the validator in a live implementation project. Do not build a full platform or claim regulatory compliance. Falsification threshold: if none of the contacted entities agrees to review the prototype, provide sample API payloads, or pay for a narrowly defined implementation diagnostic, stop.",
+      "current_thesis": "The near-term opportunity is not consumer-finance demand itself; it is reducing implementation risk for smaller potential participants that must understand APIs, consent, security, testing and role-specific requirements before the July 2027 effective date.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile Open Finance implementation-readiness wedge for smaller participants",
+      "opportunity_id": "opp_2ebf5a333b8bd51bbefb",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A narrowly scoped, paid implementation asset such as a role-specific conformance test harness, API request/response validator, consent-flow checklist and sandbox onboarding package for one participant category. Payment would need to come from an identified entity after a direct validation conversation; no buyer, price or recurring revenue is established by the evidence.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -1637,7 +1637,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-12T12:20:17.607838+00:00",
+  "generated_at": "2026-10-12T16:13:03.720704+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

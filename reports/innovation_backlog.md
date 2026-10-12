@@ -52,18 +52,6 @@ Candidates: 42
 - Possible initial budget:
 - Source URLs: https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/; https://www.sec.cl/gda/; https://www.sec.cl/normas-tecnicas-electricas/
 
-## Chile solar-plus-storage dispatch and congestion data product
-- Status: watch | energy_infrastructure
-- Current idea: The combination of solar surplus, peak-demand value, and rapid storage deployment creates a specific need for project-level data on curtailment, nodal prices, interconnection status, battery duration, and dispatch economics. The evidence supports demand for analysis, but does not prove a paying customer or margin.
-- Potential economic capture: A low-cost monitoring asset for Chilean storage and solar projects: normalized public data, project pipeline tracking, and a transparent dispatch/curtailment model. Possible cash-flow sources include subscriptions, paid diligence, or data licensing to project developers, lenders, or investors, but no purchase commitment or price was found.
-- **Research routes to test (NOT validated claims):**
-  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
-  - Compare owned asset, installer/distributor and project-finance participation.
-  - Verify permits and installed net payback under conservative power price scenarios.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://www.iea.org/commentaries/battery-storage-is-scaling-up-and-taking-on-a-larger-system-role; https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage
-
 ## Plant-level curtailment and BESS siting intelligence for Chilean renewable projects
 - Status: watch | energy_infrastructure
 - Current idea: Project developers, asset owners and lenders need to distinguish curtailment exposure by plant, node, month and hour when evaluating storage retrofits, dispatch strategies and acquisition risk. The economic mechanism is better underwriting or dispatch decisions, not the existence of a generic energy trend.
@@ -255,6 +243,18 @@ Candidates: 42
 - Critical gaps: Whether ATENA is sufficiently complete, reliable, and easy to use for real production-readiness testing.; Whether CMF or another authority will require independent conformance evidence, certification, audit trails, or third-party remediation.; Number of entities in each participant category that will actually need external help rather than internal engineering.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html
+
+## Chile Open Finance implementation-readiness wedge for smaller participants
+- Status: watch | open_finance_chile
+- Current idea: The near-term opportunity is not consumer-finance demand itself; it is reducing implementation risk for smaller potential participants that must understand APIs, consent, security, testing and role-specific requirements before the July 2027 effective date.
+- Potential economic capture: A narrowly scoped, paid implementation asset such as a role-specific conformance test harness, API request/response validator, consent-flow checklist and sandbox onboarding package for one participant category. Payment would need to come from an identified entity after a direct validation conversation; no buyer, price or recurring revenue is established by the evidence.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html
 
 ## Chile publishes technical rules and developer infrastructure for Open Finance, with go-live deferred to July 2027
 - Status: watch | open_finance_chile

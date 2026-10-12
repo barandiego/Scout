@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-12T12:20:17.587794+00:00
+Generated: 2026-10-12T16:13:03.689848+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
 - Active research: 42 (0 HQ survivors, 42 watches)
-- Rejected opportunities excluded: 21
+- Rejected opportunities excluded: 22
 - Critic-and-judge reviewed: 29
 - Autonomous execution authorization: 0
 
@@ -363,6 +363,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html
 
+### Chile Open Finance implementation-readiness wedge for smaller participants [opp_2ebf5a333b8bd51bbefb]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: The near-term opportunity is not consumer-finance demand itself; it is reducing implementation risk for smaller potential participants that must understand APIs, consent, security, testing and role-specific requirements before the July 2027 effective date.
+- Value capture: A narrowly scoped, paid implementation asset such as a role-specific conformance test harness, API request/response validator, consent-flow checklist and sandbox onboarding package for one participant category. Payment would need to come from an identified entity after a direct validation conversation; no buyer, price or recurring revenue is established by the evidence.
+- Participation hypothesis: Use the CMF developer portal, technical annex and sandbox materials to build a minimal validator for one documented API flow. Test it against publicly available specifications and ask 5-10 Chilean fintechs, payment providers, cooperatives or software vendors whether they would use the validator in a live implementation project. Do not build a full platform or claim regulatory compliance. Falsification threshold: if none of the contacted entities agrees to review the prototype, provide sample API payloads, or pay for a narrowly defined implement
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html
+
 ### Chile SFA implementation moves from rulemaking to integration testing [opp_82f282d8dc0896390ee7]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: The near-term bottleneck is shifting from legal uncertainty to implementation capacity, certification, consent, security, data mapping and payment-initiation integration. Value is likely to accrue before go-live to firms that reduce compliance and integration costs for banks, fintechs and data-access participants.
@@ -382,16 +392,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836
-
-### Chile solar-plus-storage dispatch and congestion data product [opp_f096638ccd65e73298f3]
-- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile
-- Thesis: The combination of solar surplus, peak-demand value, and rapid storage deployment creates a specific need for project-level data on curtailment, nodal prices, interconnection status, battery duration, and dispatch economics. The evidence supports demand for analysis, but does not prove a paying customer or margin.
-- Value capture: A low-cost monitoring asset for Chilean storage and solar projects: normalized public data, project pipeline tracking, and a transparent dispatch/curtailment model. Possible cash-flow sources include subscriptions, paid diligence, or data licensing to project developers, lenders, or investors, but no purchase commitment or price was found.
-- Participation hypothesis: Start with one public Chilean node and a small set of operating or announced storage projects. Publish a weekly spreadsheet/dashboard showing price spreads, solar-overgeneration proxies, project status, and modeled two- versus four-hour storage economics. Falsification step: interview or email ten identifiable developers, infrastructure investors, or engineering firms with the sample; require at least two requests for a paid version or data export before building software.
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.iea.org/commentaries/battery-storage-is-scaling-up-and-taking-on-a-larger-system-role; https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage
 
 ### Independent operating-support wedge around DJI agricultural drones already sold in Chile [opp_99bc7c802b2d968d5b93]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile

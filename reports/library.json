@@ -2870,6 +2870,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-12T16:12:38.965783+00:00",
+      "discovery_lens": "ai_open_source",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The CMF issued the technical annex, published a developer portal, added simplified participation and a technological sandbox, and postponed entry into force until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "The CMF describes the participant categories, consent-based data exchange, API interconnection requirements and security, privacy and interoperability obligations.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Foro Sistema de Finanzas Abiertas",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_2ebf5a333b8bd51bbefb",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-12T16:12:38.977178+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use the CMF developer portal, technical annex and sandbox materials to build a minimal validator for one documented API flow. Test it against publicly available specifications and ask 5-10 Chilean fintechs, payment providers, cooperatives or software vendors whether they would use the validator in a live implementation project. Do not build a full platform or claim regulatory compliance. Falsification threshold: if none of the contacted entities agrees to review the prototype, provide sample API payloads, or pay for a narrowly defined implementation diagnostic, stop.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The near-term opportunity is not consumer-finance demand itself; it is reducing implementation risk for smaller potential participants that must understand APIs, consent, security, testing and role-specific requirements before the July 2027 effective date.",
+      "title": "Chile Open Finance implementation-readiness wedge for smaller participants",
+      "type": "regulatory_enablement_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "A narrowly scoped, paid implementation asset such as a role-specific conformance test harness, API request/response validator, consent-flow checklist and sandbox onboarding package for one participant category. Payment would need to come from an identified entity after a direct validation conversation; no buyer, price or recurring revenue is established by the evidence.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-08T12:14:40.353799+00:00",
       "discovery_lens": "open_finance_chile",
       "estimated_capital": "",
@@ -2970,60 +3024,6 @@
       "value_capture_mechanism": "Offer a low-cost SFA readiness pack: automated API test cases, consent-flow checks, security-control checklist and evidence-export template aligned to the published technical annex. Revenue would come only if regulated entities or fintech providers independently agree to purchase testing or implementation support.",
       "verified_sales": null,
       "vertical": "open_finance_chile",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
-      "discovered_at": "2026-10-11T20:09:13.128011+00:00",
-      "discovery_lens": "cost_curve",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "IEA reports nearly 1 GW of battery additions in Chile in 2025, linked to absorbing surplus solar generation and meeting peak demand, and describes storage deployment and project-development timelines.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "Battery storage is scaling up and taking on a larger system role",
-          "url": "https://www.iea.org/commentaries/battery-storage-is-scaling-up-and-taking-on-a-larger-system-role"
-        },
-        {
-          "claim": "IEA reports 108 GW of global battery additions in 2025, 40% above 2024, with utility-scale systems representing about 80% of new capacity.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "Technology: Battery storage – Global Energy Review 2026",
-          "url": "https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.86,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_f096638ccd65e73298f3",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-11T20:09:13.136728+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Start with one public Chilean node and a small set of operating or announced storage projects. Publish a weekly spreadsheet/dashboard showing price spreads, solar-overgeneration proxies, project status, and modeled two- versus four-hour storage economics. Falsification step: interview or email ten identifiable developers, infrastructure investors, or engineering firms with the sample; require at least two requests for a paid version or data export before building software.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "The combination of solar surplus, peak-demand value, and rapid storage deployment creates a specific need for project-level data on curtailment, nodal prices, interconnection status, battery duration, and dispatch economics. The evidence supports demand for analysis, but does not prove a paying customer or margin.",
-      "title": "Chile solar-plus-storage dispatch and congestion data product",
-      "type": "market-data_asset",
-      "unknowns": [],
-      "value_capture_mechanism": "A low-cost monitoring asset for Chilean storage and solar projects: normalized public data, project pipeline tracking, and a transparent dispatch/curtailment model. Possible cash-flow sources include subscriptions, paid diligence, or data licensing to project developers, lenders, or investors, but no purchase commitment or price was found.",
-      "verified_sales": null,
-      "vertical": "energy_infrastructure",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -3247,13 +3247,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-12T12:20:17.587794+00:00",
+  "generated_at": "2026-10-12T16:13:03.689848+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 21,
+  "rejected_excluded": 22,
   "reviewed_cards": 29,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 63,
+  "total_distinct_opportunities": 64,
   "watch": 42
 }
