@@ -2582,8 +2582,8 @@
       "geography": "Chile",
       "id": "opp_fa54176321cf12d8b287",
       "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-10T16:09:06.790845+00:00",
+      "judgment": "critic_invalid_output",
+      "last_record_updated_at": "2026-10-12T08:15:22.795247+00:00",
       "material_update": false,
       "missing_execution_proof": [
         "independent_critic_and_judge",
@@ -2602,6 +2602,67 @@
       "value_capture_mechanism": "Inspect, grade, relist, bundle, or route a small batch of returned goods through an existing marketplace or the original seller’s outlet. Cash flow would come only from an agreed consignment fee or realized resale proceeds; buyer, acceptance rate, and margin remain unknown and must be tested.",
       "verified_sales": null,
       "vertical": "ecommerce_niches",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-12T08:15:12.300915+00:00",
+      "discovery_lens": "nfc_smart_commerce",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "A Chilean vendor markets NFC products for reviews, reservations, digital presence, and repeat-customer interactions, explicitly naming restaurants, cafés, barber shops, hotels, clinics, and retail.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Soluciones NFC para negocios en Chile | ONDDA",
+          "url": "https://www.ondda.cl/"
+        },
+        {
+          "claim": "A Chilean vendor publishes NFC/QR products, Google Business Profile coordination, analytics, CRM/API functionality, and prices from CLP 29,990 to CLP 49,990 for branded cards.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "LINKD — Tarjetas digitales NFC y soluciones para negocios en Chile",
+          "url": "https://linkd.cl/"
+        },
+        {
+          "claim": "A Chilean vendor publishes a purchase price of CLP 19,990 for one NFC card and volume pricing beginning at 6 units, demonstrating an observable paid market for NFC hardware and profile setup.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "NFCID - Tarjetas de Presentación Inteligentes",
+          "url": "https://nfcid.cl/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_1932dc0a66242ec64860",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-12T08:15:12.314134+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Lowest-cost falsification: buy or fabricate 3–5 NFC/QR plaques, create destination pages using the business's own public booking, WhatsApp, menu, or review links, and approach one narrowly defined local vertical such as cafés or barber shops. Ask owners to test the plaques for 7–14 days at the counter or checkout, with no claim of guaranteed results and no paid advertising. Record taps, QR scans, destination clicks, and owner-reported attributable actions. Proceed only if owners accept the placement and at least one is willing to pay a pre-agreed price after seeing the measurements. Existing market participation route: purchase tags or cards from a Chilean vendor and sell a transparent installation/customization package; do not represent this as exclusive technology.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A generic NFC business-card reseller is already crowded. A narrower wedge is a physical counter/table/checkout plaque whose single action is optimized for a measurable outcome—Google review, reservation, WhatsApp reorder, or menu access—for one local-business vertical. The economic mechanism is a low-cost physical prompt that may convert an existing in-person interaction into a review, booking, or repeat-order event; actual conversion and incremental revenue remain unproven.",
+      "title": "NFC-to-review and reservation plaques for Chilean hospitality businesses",
+      "type": "productized_physical_digital_offer",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell a small installation package consisting of a branded NFC/QR plaque, destination-page setup, and a short measurement period. Possible cash-flow sources are upfront hardware/setup payments and, only if independently validated, a recurring maintenance or reporting fee. Do not assume permission to edit a business's Google profile, access its CRM, or claim incremental reviews or revenue.",
+      "verified_sales": null,
+      "vertical": "physical_distribution",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -2880,6 +2941,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-12T08:15:12.301934+00:00",
+      "discovery_lens": "market_positioning",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Falabella exposes a public Natura marketplace catalog covering fragrance, body care, hair care, skincare, gifts, prices, discounts, and product discovery.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Natura Chile | Falabella Chile",
+          "url": "https://www.falabella.com/falabella-cl/brand/NATURA?sid=CP_V1_NAT_3052"
+        },
+        {
+          "claim": "Natura's own site identifies its continuing channels as beauty consultants, Natura stores, Natura.cl, and its app, and displays live product prices and promotions.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Natura Chile",
+          "url": "https://www.natura.cl/encuentra-natura"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.82,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_075a39503d7a5bad0f1d",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-12T08:15:12.314303+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Lowest-cost falsification: build one neutral, non-branded comparison page for a tightly defined use case—such as gifts under a stated CLP budget—using only publicly listed product facts and links to the official Natura or Falabella purchase pages. Test organic search and direct sharing with a small audience; measure outbound clicks and ask Natura/Falabella or an affiliate network whether attributable referrals can be compensated. Do not buy inventory, scrape restricted data, imply endorsement, or forecast commissions before a written program or observed tracked conversion exists.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The evidence supports a concrete distribution change—not a generic beauty-market trend: a major brand is adding a large marketplace channel. A small operator could test a narrowly scoped product-discovery asset such as Spanish comparison pages, routine bundles, or gift-selection landing pages that link to the authorized Falabella or Natura purchase route. Monetization is not established by the evidence; affiliate access, referral attribution, or paid placement must be confirmed before treating this as a business.",
+      "title": "Marketplace-native product discovery wedge for Natura-adjacent beauty sellers",
+      "type": "assortment_and_content_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Potential mechanisms include authorized affiliate/referral commissions, lead generation for beauty consultants, or a paid content/merchandising arrangement. None is verified here. The defensible asset would be a maintained comparison/routine dataset and search-distribution channel, not ownership of Natura inventory or permission to use its trademarks beyond applicable platform rules.",
+      "verified_sales": null,
+      "vertical": "ecommerce_niches",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-04T03:07:07.122051+00:00",
       "discovery_lens": "tokenization_finance",
       "estimated_capital": "",
@@ -2987,13 +3102,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-12T04:13:25.038432+00:00",
+  "generated_at": "2026-10-12T08:15:23.134907+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 21,
   "reviewed_cards": 28,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 59,
-  "watch": 38
+  "total_distinct_opportunities": 61,
+  "watch": 40
 }

@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 38
+Candidates: 40
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -15,6 +15,18 @@ Candidates: 38
 - Critical gaps: The issuer associated with CIK 2110029 is not identified by name in the opportunity record, making independent issuer-level analysis incomplete.; Powell's exact data-center revenue, backlog percentage, customer concentration, contract cancellation provisions, payment milestones, gross margins, and expected conversion schedule are unknown.; The identity and credit quality of the customer behind the $400 million-plus order are undisclosed.
 - Possible initial budget:
 - Source URLs: https://www.sec.gov/Archives/edgar/data/80420/000008042026000063/ex991-powlq2xfy2026earning.htm; https://www.sec.gov/Archives/edgar/data/2110029/000119312526249668/d12401ds1a.htm
+
+## Marketplace-native product discovery wedge for Natura-adjacent beauty sellers
+- Status: watch | ecommerce_niches
+- Current idea: The evidence supports a concrete distribution change—not a generic beauty-market trend: a major brand is adding a large marketplace channel. A small operator could test a narrowly scoped product-discovery asset such as Spanish comparison pages, routine bundles, or gift-selection landing pages that link to the authorized Falabella or Natura purchase route. Monetization is not established by the evidence; affiliate access, referral attribution, or paid placement must be confirmed before treating this as a business.
+- Potential economic capture: Potential mechanisms include authorized affiliate/referral commissions, lead generation for beauty consultants, or a paid content/merchandising arrangement. None is verified here. The defensible asset would be a maintained comparison/routine dataset and search-distribution channel, not ownership of Natura inventory or permission to use its trademarks beyond applicable platform rules.
+- **Research routes to test (NOT validated claims):**
+  - Target a specific neglected customer subgroup with a measurable unmet product requirement.
+  - Compare imported/private-label, inventoryless fulfillment and existing domestic suppliers after landed costs.
+  - Test one narrower search/intention channel before expanding catalog or buying inventory.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.falabella.com/falabella-cl/brand/NATURA?sid=CP_V1_NAT_3052; https://www.natura.cl/encuentra-natura
 
 ## Narrow Chilean e-commerce returns-recovery test for one product category
 - Status: watch | ecommerce_niches
@@ -411,6 +423,18 @@ Candidates: 38
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.bis.org/media-releases/20250624-next-generation-monetary-and-financial-system-takes-shape-based-tokenised-unified-ledger-bis; https://www.bis.org/publications/aer-2025/next-generation-monetary-financial-system
+
+## NFC-to-review and reservation plaques for Chilean hospitality businesses
+- Status: watch | physical_distribution
+- Current idea: A generic NFC business-card reseller is already crowded. A narrower wedge is a physical counter/table/checkout plaque whose single action is optimized for a measurable outcome—Google review, reservation, WhatsApp reorder, or menu access—for one local-business vertical. The economic mechanism is a low-cost physical prompt that may convert an existing in-person interaction into a review, booking, or repeat-order event; actual conversion and incremental revenue remain unproven.
+- Potential economic capture: Sell a small installation package consisting of a branded NFC/QR plaque, destination-page setup, and a short measurement period. Possible cash-flow sources are upfront hardware/setup payments and, only if independently validated, a recurring maintenance or reporting fee. Do not assume permission to edit a business's Google profile, access its CRM, or claim incremental reviews or revenue.
+- **Research routes to test (NOT validated claims):**
+  - Compare local product availability to supplier catalogs and independent consumer interest.
+  - Check import, tax, return, certification and delivery economics before estimating margin.
+  - Try a legitimate pre-order/waitlist test with transparent fulfillment conditions.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.ondda.cl/; https://linkd.cl/; https://nfcid.cl/
 
 ## Grid connection capacity is becoming a monetizable bottleneck
 - Status: watch | public_markets

@@ -45,6 +45,42 @@
       "category": "ecommerce_niches",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Lowest-cost falsification: build one neutral, non-branded comparison page for a tightly defined use case—such as gifts under a stated CLP budget—using only publicly listed product facts and links to the official Natura or Falabella purchase pages. Test organic search and direct sharing with a small audience; measure outbound clicks and ask Natura/Falabella or an affiliate network whether attributable referrals can be compensated. Do not buy inventory, scrape restricted data, imply endorsement, or forecast commissions before a written program or observed tracked conversion exists.",
+      "current_thesis": "The evidence supports a concrete distribution change—not a generic beauty-market trend: a major brand is adding a large marketplace channel. A small operator could test a narrowly scoped product-discovery asset such as Spanish comparison pages, routine bundles, or gift-selection landing pages that link to the authorized Falabella or Natura purchase route. Monetization is not established by the evidence; affiliate access, referral attribution, or paid placement must be confirmed before treating this as a business.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Marketplace-native product discovery wedge for Natura-adjacent beauty sellers",
+      "opportunity_id": "opp_075a39503d7a5bad0f1d",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Target a specific neglected customer subgroup with a measurable unmet product requirement.",
+        "Compare imported/private-label, inventoryless fulfillment and existing domestic suppliers after landed costs.",
+        "Test one narrower search/intention channel before expanding catalog or buying inventory."
+      ],
+      "supporting_source_urls": [
+        "https://www.falabella.com/falabella-cl/brand/NATURA?sid=CP_V1_NAT_3052",
+        "https://www.natura.cl/encuentra-natura"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Potential mechanisms include authorized affiliate/referral commissions, lead generation for beauty consultants, or a paid content/merchandising arrangement. None is verified here. The defensible asset would be a maintained comparison/routine dataset and search-distribution channel, not ownership of Natura inventory or permission to use its trademarks beyond applicable platform rules.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "ecommerce_niches",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Approach one small Chilean seller with a documented returns problem and request a no-purchase pilot of 10–30 units from a single category. Record condition, handling cost, time to relist, sale price, refunds, and unsold inventory. Use the seller’s existing marketplace account or a pre-approved outlet rather than assuming permission to resell. Falsify at the lowest cost by asking five sellers for anonymized counts of returned units and whether they would release a small batch on consignment; stop if no seller provides inventory, resale permissions, or a verifiable disposition price.",
       "current_thesis": "There may be recoverable value in returned, refused, or lightly damaged inventory, but the evidence does not establish a standalone Chilean market, buyer, or margin. The executable wedge is a tightly bounded consignment experiment with one seller and one category, not a broad returns marketplace.",
       "founder_hours_initial_unverified_estimate": "",
@@ -1333,6 +1369,43 @@
     },
     {
       "capital_required_unverified_estimate": "",
+      "category": "physical_distribution",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Lowest-cost falsification: buy or fabricate 3–5 NFC/QR plaques, create destination pages using the business's own public booking, WhatsApp, menu, or review links, and approach one narrowly defined local vertical such as cafés or barber shops. Ask owners to test the plaques for 7–14 days at the counter or checkout, with no claim of guaranteed results and no paid advertising. Record taps, QR scans, destination clicks, and owner-reported attributable actions. Proceed only if owners accept the placement and at least one is willing to pay a pre-agreed price after seeing the measurements. Existing market participation route: purchase tags or cards from a Chilean vendor and sell a transparent installation/customization package; do not represent this as exclusive technology.",
+      "current_thesis": "A generic NFC business-card reseller is already crowded. A narrower wedge is a physical counter/table/checkout plaque whose single action is optimized for a measurable outcome—Google review, reservation, WhatsApp reorder, or menu access—for one local-business vertical. The economic mechanism is a low-cost physical prompt that may convert an existing in-person interaction into a review, booking, or repeat-order event; actual conversion and incremental revenue remain unproven.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "NFC-to-review and reservation plaques for Chilean hospitality businesses",
+      "opportunity_id": "opp_1932dc0a66242ec64860",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Compare local product availability to supplier catalogs and independent consumer interest.",
+        "Check import, tax, return, certification and delivery economics before estimating margin.",
+        "Try a legitimate pre-order/waitlist test with transparent fulfillment conditions."
+      ],
+      "supporting_source_urls": [
+        "https://www.ondda.cl/",
+        "https://linkd.cl/",
+        "https://nfcid.cl/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a small installation package consisting of a branded NFC/QR plaque, destination-page setup, and a short measurement period. Possible cash-flow sources are upfront hardware/setup payments and, only if independently validated, a recurring maintenance or reporting fee. Do not assume permission to edit a business's Google profile, access its CRM, or claim incremental reviews or revenue.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
       "category": "public_markets",
       "commercially_validated": false,
       "competition_confirmed": false,
@@ -1487,7 +1560,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-12T04:13:25.066490+00:00",
+  "generated_at": "2026-10-12T08:15:23.318310+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

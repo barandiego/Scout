@@ -1,10 +1,10 @@
 # Scout — opportunity library
 
-Generated: 2026-10-12T04:13:25.038432+00:00
+Generated: 2026-10-12T08:15:23.134907+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 38 (0 HQ survivors, 38 watches)
+- Active research: 40 (0 HQ survivors, 40 watches)
 - Rejected opportunities excluded: 21
 - Critic-and-judge reviewed: 28
 - Autonomous execution authorization: 0
@@ -318,10 +318,20 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Thesis: There may be recoverable value in returned, refused, or lightly damaged inventory, but the evidence does not establish a standalone Chilean market, buyer, or margin. The executable wedge is a tightly bounded consignment experiment with one seller and one category, not a broad returns marketplace.
 - Value capture: Inspect, grade, relist, bundle, or route a small batch of returned goods through an existing marketplace or the original seller’s outlet. Cash flow would come only from an agreed consignment fee or realized resale proceeds; buyer, acceptance rate, and margin remain unknown and must be tested.
 - Participation hypothesis: Approach one small Chilean seller with a documented returns problem and request a no-purchase pilot of 10–30 units from a single category. Record condition, handling cost, time to relist, sale price, refunds, and unsold inventory. Use the seller’s existing marketplace account or a pre-approved outlet rather than assuming permission to resell. Falsify at the lowest cost by asking five sellers for anonymized counts of returned units and whether they would release a small batch on consignment; stop if no seller provides inventory, resale permissio
-- Critic/judge: deferred_by_review_cap
+- Critic/judge: critic_invalid_output
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.fne.gob.cl/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-pl; https://group.dhl.com/content/dam/deutschepostdhl/en/media-center/media-relations/documents/2025/e-commerce-trends-report-2025-business-edition.pdf; https://www.trade.gov/country-commercial-guides/chile-ecommerce
+
+### NFC-to-review and reservation plaques for Chilean hospitality businesses [opp_1932dc0a66242ec64860]
+- Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile
+- Thesis: A generic NFC business-card reseller is already crowded. A narrower wedge is a physical counter/table/checkout plaque whose single action is optimized for a measurable outcome—Google review, reservation, WhatsApp reorder, or menu access—for one local-business vertical. The economic mechanism is a low-cost physical prompt that may convert an existing in-person interaction into a review, booking, or repeat-order event; actual conversion and incremental revenue remain unproven.
+- Value capture: Sell a small installation package consisting of a branded NFC/QR plaque, destination-page setup, and a short measurement period. Possible cash-flow sources are upfront hardware/setup payments and, only if independently validated, a recurring maintenance or reporting fee. Do not assume permission to edit a business's Google profile, access its CRM, or claim incremental reviews or revenue.
+- Participation hypothesis: Lowest-cost falsification: buy or fabricate 3–5 NFC/QR plaques, create destination pages using the business's own public booking, WhatsApp, menu, or review links, and approach one narrowly defined local vertical such as cafés or barber shops. Ask owners to test the plaques for 7–14 days at the counter or checkout, with no claim of guaranteed results and no paid advertising. Record taps, QR scans, destination clicks, and owner-reported attributable actions. Proceed only if owners accept the placement and at least one is willing to pay a pre-agre
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.ondda.cl/; https://linkd.cl/; https://nfcid.cl/
 
 ### Chile Open Finance conformance and sandbox testing kit [opp_5f6db3a781c7281d67c2]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -372,6 +382,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://agridrones.cl/products/; https://dronespray.cl/dji-agras-t70p/
+
+### Marketplace-native product discovery wedge for Natura-adjacent beauty sellers [opp_075a39503d7a5bad0f1d]
+- Status: WATCH_REQUIRES_VALIDATION | ecommerce_niches | Chile
+- Thesis: The evidence supports a concrete distribution change—not a generic beauty-market trend: a major brand is adding a large marketplace channel. A small operator could test a narrowly scoped product-discovery asset such as Spanish comparison pages, routine bundles, or gift-selection landing pages that link to the authorized Falabella or Natura purchase route. Monetization is not established by the evidence; affiliate access, referral attribution, or paid placement must be confirmed before treating this as a business.
+- Value capture: Potential mechanisms include authorized affiliate/referral commissions, lead generation for beauty consultants, or a paid content/merchandising arrangement. None is verified here. The defensible asset would be a maintained comparison/routine dataset and search-distribution channel, not ownership of Natura inventory or permission to use its trademarks beyond applicable platform rules.
+- Participation hypothesis: Lowest-cost falsification: build one neutral, non-branded comparison page for a tightly defined use case—such as gifts under a stated CLP budget—using only publicly listed product facts and links to the official Natura or Falabella purchase pages. Test organic search and direct sharing with a small audience; measure outbound clicks and ask Natura/Falabella or an affiliate network whether attributable referrals can be compensated. Do not buy inventory, scrape restricted data, imply endorsement, or forecast commissions before a written program or
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.falabella.com/falabella-cl/brand/NATURA?sid=CP_V1_NAT_3052; https://www.natura.cl/encuentra-natura
 
 ### Tokenized unified-ledger infrastructure is moving from concept toward financial-market architecture [opp_993ac5d080c7042af44c]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Global; Chile relevance through future interoperable financial-data and payment infrastructure
