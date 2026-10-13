@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-12T20:43:26.147216+00:00
+Generated: 2026-10-13T00:55:05.961074+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
-- Rolling leads: 1109
-- New this cycle: 124
+- Rolling leads: 1154
+- New this cycle: 95
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): none
-- Categories: agriculture 156, ai 224, commerce 33, energy 347, robotics 349
+- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
+- Categories: agriculture 157, ai 233, commerce 32, energy 366, robotics 366
 
 ## Recently encountered signals
+
+### truptishinde1919-rgb/AquaWise_AI
+- Source: https://github.com/truptishinde1919-rgb/AquaWise_AI
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### CmattC/Solar-Storage-Simulator
 - Source: https://github.com/CmattC/Solar-Storage-Simulator
@@ -366,6 +372,24 @@ Generated: 2026-10-12T20:43:26.147216+00:00
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
 
+### AppliedMotionProducts/CODESYS_SoftMotion_SCARA_Example
+- Source: https://github.com/AppliedMotionProducts/CODESYS_SoftMotion_SCARA_Example
+- Domain: robotics | Suggested angle: Chile import/distribution or local integration
+- First test: Check installed base, Chilean competitors, supplier pricing, certification and actual buyer budgets.
+- Status: **unverified research lead**
+
+### dmc-robotics/calvin_bench
+- Source: https://github.com/dmc-robotics/calvin_bench
+- Domain: robotics | Suggested angle: Chile import/distribution or local integration
+- First test: Check installed base, Chilean competitors, supplier pricing, certification and actual buyer budgets.
+- Status: **unverified research lead**
+
+### leontrowsdale/leontrowsdale
+- Source: https://github.com/leontrowsdale/leontrowsdale
+- Domain: robotics | Suggested angle: Chile import/distribution or local integration
+- First test: Check installed base, Chilean competitors, supplier pricing, certification and actual buyer budgets.
+- Status: **unverified research lead**
+
 ### nextcombo/photovoltaic-energy-storage-virtual-synchronous-generator-vsg-control-simulation-03347
 - Source: https://github.com/nextcombo/photovoltaic-energy-storage-virtual-synchronous-generator-vsg-control-simulation-03347
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
@@ -436,28 +460,4 @@ Generated: 2026-10-12T20:43:26.147216+00:00
 - Source: https://github.com/tilottamamukherjee18-ux/ASSIGNMENT-OOPS-
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### ch1nmayii/AI-Driven-Smart-Farming-Assistant-with-Multilingual-Agricultural-Guidance-and-Farmer-Support
-- Source: https://github.com/ch1nmayii/AI-Driven-Smart-Farming-Assistant-with-Multilingual-Agricultural-Guidance-and-Farmer-Support
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Dynamic simulation and coordinated control of Carnot battery energy storage system integrated with LNG cold energy
-- Source: https://doi.org/10.1016/j.energy.2026.142615
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### ujjwalsharma25/KIsanConnect
-- Source: https://github.com/ujjwalsharma25/KIsanConnect
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Solar Steel construye un parque solar en Chile que incluye baterías para almacenamiento energético - La Nueva España
-- Source: https://news.google.com/rss/articles/CBMikAFBVV95cUxOOXVzZ0duVkpMMHlkVVlVOU5xVW5wOHVkcU9GMW92Nml0dmJBUHUtREF4b3hUem9WYkQzZG1ucm9qUENkNENsWElMVlJITk5yRWlxcEVremtBelRCT0l1aWptRGFtTjE4WHhpeGZwUlFfT3VLamdWRWFJbWQtYTdPbHh1eE03MWpzcHNRdzBqOXPSAZYBQVVfeXFMUHFrMnJySDJkRy16WENyN00tamt0S2tHRVRvZ0liZFR5ZXNsTW9xcDNIRGZGbWowbWF0UG5rVzVxN3lWX2Z6UURhRkJWUzNEdkNaSEFHY21mOW10NTdZc2swYXI5N3ZaUEVRWXVNbTBsRHBGeVJyZVU5anZWbklZOWlPVjhDaFg4TEotN1RMVUJyU3JrNzZn?oc=5
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
