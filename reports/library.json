@@ -1054,6 +1054,91 @@
     {
       "ai_leverage": "",
       "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-12T04:13:05.875236+00:00",
+      "discovery_lens": "chile_technology_import",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF published modifications to NCG No. 514, an annex with technical specifications for information exchange and payment initiation, and a developer portal; entry into force was postponed to July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        },
+        {
+          "claim": "The Central Bank describes the CMF’s gradual implementation of the Fintech Law open-finance system, including technical requirements for participant directories, security, interfaces and user consent.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Informe de Estabilidad Financiera Segundo Semestre 2025",
+          "url": "https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [
+        "ATENA provides sufficiently comprehensive testing and compliance evidence at no meaningful cost to target buyers.",
+        "No technically relevant Chilean respondent agrees to a discovery call after at least 30 independently sourced outreach attempts.",
+        "Fewer than 3 qualified prospects disclose a concrete integration defect, testing gap, or budgeted need.",
+        "No qualified prospect agrees to a paid pilot, paid assessment, or letter of intent at a price that supports a viable business.",
+        "Prospects consistently prefer incumbent consultants, system integrators, private sandboxes, or internal tooling.",
+        "The July 2027 deadline is delayed again or implementation is narrowed enough to reduce testing demand.",
+        "A buyer requires official CMF certification or authorization that the product cannot provide.",
+        "The prototype cannot test against representative bank or ATENA environments without privileged access.",
+        "A competing product offers materially broader coverage, recognized evidence, or lower total cost before customer validation is complete.",
+        "The opportunity only produces one-off bespoke consulting revenue with no repeatable testing asset or acceptable margin."
+      ],
+      "geography": "Chile",
+      "id": "opp_2d6156ac71ad9692077a",
+      "judge_reviewed": true,
+      "judgment": "The underlying regulatory change appears grounded in CMF and Banco Central primary sources, so it should not be rejected as an unverified or misread regulatory trigger. A pre-integration conformance/readiness wedge is also plausibly outside the core regulated payment/data-provider perimeter if it uses public specifications, mock data, and does not initiate payments or handle production customer data. However, survival is contingent on proving that external testing has value beyond CMF-backed ATENA, incumbent implementation vendors, and internal engineering. The current evidence establishes a preparation window and technical standards, not buyer budgets, procurement feasibility, recognized evidentiary value, production/sandbox access, or repeatable software economics. This is therefore HQ-worthy research only, not an execution recommendation.",
+      "last_record_updated_at": "2026-10-13T08:14:54.814300+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "How many Chilean entities will actually be required to participate, by participant category and implementation phase.",
+        "Whether ATENA will remain free, become mandatory, provide conformance evidence, or satisfy most buyer testing needs.",
+        "Whether CMF, banks, or industry groups will recognize third-party test results as useful evidence.",
+        "The number of qualified buyers with active implementation budgets before July 2027.",
+        "Buyer willingness to pay for standalone testing rather than bundled implementation consulting."
+      ],
+      "participation_path": "Build a 1-week prototype using only publicly available CMF technical materials. Implement 10-20 mock tests for consent, authentication, account-data retrieval and payment-initiation error handling. Contact a small sample of Chilean fintechs or API vendors identified independently, disclose that this is a validation test rather than an authorized CMF certification, and ask whether they would pay for a paid pilot or provide a redacted test environment. Falsify if no technically relevant respondent accepts a test call, shares an integration problem, or agrees to a paid pilot without requiring unverified regulatory claims.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A narrowly scoped conformance-testing asset could help prospective participants identify API, consent, security and data-exchange defects before formal integration. The economic mechanism would be payment for test execution, remediation evidence or reusable testing software; no buyer, price or margin is established by the evidence.",
+      "title": "Chile SFA implementation-readiness testing for fintech APIs",
+      "type": "compliance_software_or_service",
+      "unknowns": [
+        "How many Chilean entities will actually be required to participate, by participant category and implementation phase.",
+        "Whether ATENA will remain free, become mandatory, provide conformance evidence, or satisfy most buyer testing needs.",
+        "Whether CMF, banks, or industry groups will recognize third-party test results as useful evidence.",
+        "The number of qualified buyers with active implementation budgets before July 2027.",
+        "Buyer willingness to pay for standalone testing rather than bundled implementation consulting.",
+        "Expected price, gross margin, sales cycle, procurement requirements, and support burden.",
+        "Whether the technical annex and developer portal will materially change after testing feedback.",
+        "Whether testing requires access to bank-specific environments, certificates, data, or non-public implementation details.",
+        "The durability of demand after the initial compliance deadline.",
+        "Whether existing consultancies, core-banking vendors, API-management vendors, or private sandboxes already cover the need.",
+        "Which participant categories are legally required to integrate, their rollout dates, and the resulting count of addressable buyers.",
+        "Whether ATENA is free, mandatory, sufficiently comprehensive, or provides compliance evidence that displaces commercial testing.",
+        "Whether a narrowly scoped third-party tool can operate solely against public/mock or authorized sandbox interfaces without privileged access.",
+        "Whether prospective buyers have budget and authority to buy independent testing rather than bundling it with core vendors, integrators, or internal teams.",
+        "What evidence format, security posture, insurance, local support, and contractual commitments enterprise buyers require from a testing vendor.",
+        "Paid-pilot conversion, achievable price, gross margin after support and maintenance, and durability of revenue after July 2027."
+      ],
+      "value_capture_mechanism": "Offer a low-cost SFA readiness pack: automated API test cases, consent-flow checks, security-control checklist and evidence-export template aligned to the published technical annex. Revenue would come only if regulated entities or fintech providers independently agree to purchase testing or implementation support.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
       "contrary_evidence": [
         "CMF's own framework indicates a gradual implementation schedule rather than an immediate market-wide requirement; the original regulation described phased obligations and a transition period. Source: https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html",
         "The June 1, 2026 amendment postpones entry into force until July 2027, directly reducing near-term urgency. Source: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
@@ -3274,60 +3359,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-12T04:13:05.875236+00:00",
-      "discovery_lens": "chile_technology_import",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "CMF published modifications to NCG No. 514, an annex with technical specifications for information exchange and payment initiation, and a developer portal; entry into force was postponed to July 2027.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
-          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
-        },
-        {
-          "claim": "The Central Bank describes the CMF’s gradual implementation of the Fintech Law open-finance system, including technical requirements for participant directories, security, interfaces and user consent.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Informe de Estabilidad Financiera Segundo Semestre 2025",
-          "url": "https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.86,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_2d6156ac71ad9692077a",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-12T04:13:05.890251+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Build a 1-week prototype using only publicly available CMF technical materials. Implement 10-20 mock tests for consent, authentication, account-data retrieval and payment-initiation error handling. Contact a small sample of Chilean fintechs or API vendors identified independently, disclose that this is a validation test rather than an authorized CMF certification, and ask whether they would pay for a paid pilot or provide a redacted test environment. Falsify if no technically relevant respondent accepts a test call, shares an integration problem, or agrees to a paid pilot without requiring unverified regulatory claims.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "A narrowly scoped conformance-testing asset could help prospective participants identify API, consent, security and data-exchange defects before formal integration. The economic mechanism would be payment for test execution, remediation evidence or reusable testing software; no buyer, price or margin is established by the evidence.",
-      "title": "Chile SFA implementation-readiness testing for fintech APIs",
-      "type": "compliance_software_or_service",
-      "unknowns": [],
-      "value_capture_mechanism": "Offer a low-cost SFA readiness pack: automated API test cases, consent-flow checks, security-control checklist and evidence-export template aligned to the published technical annex. Revenue would come only if regulated entities or fintech providers independently agree to purchase testing or implementation support.",
-      "verified_sales": null,
-      "vertical": "open_finance_chile",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-12T20:12:23.036591+00:00",
       "discovery_lens": "regulation_infrastructure",
       "estimated_capital": "",
@@ -3426,6 +3457,60 @@
       "type": "deployment_and_maintenance_service",
       "unknowns": [],
       "value_capture_mechanism": "Charge per diagnostic, training day or operating trial only after confirming a farm’s equipment, legal operating requirements and willingness to pay. A revenue-share or per-hectare service model should not be assumed before a paid trial.",
+      "verified_sales": null,
+      "vertical": "robotics_agritech",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-13T08:14:29.249551+00:00",
+      "discovery_lens": "adoption_lag",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Reports an open-source, reconfigurable agricultural robot; describes field results and an estimated $5,000-$6,000 bill of materials.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "AgriCruiser: An Open Source Agriculture Robot for Over-the-row Navigation",
+          "url": "https://arxiv.org/abs/2509.25056"
+        },
+        {
+          "claim": "Lists a commercial in-row weeding robot with a stated price range of $151,000-$250,000 and commercial release date of 2020.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Zurama AI InRow weeder",
+          "url": "https://www.agricultural-robotics.com/robot/zurama-ai-inrow-weeder"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.82,
+      "falsification_conditions": [],
+      "geography": "United States and other row-crop markets with labor or herbicide constraints",
+      "id": "opp_d8b7c63665b27bbd1829",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-13T08:14:29.263884+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Start with one crop and row geometry. Build or source only the minimum sensor/actuator package needed for a supervised demonstration, then approach farms, university extension programs, or specialty-crop growers with a paid one-day field test. Measure hectares/hour, weed-removal rate, crop damage, operator hours, downtime, and total cost per hectare against the grower's current method. Falsification threshold: stop if at least three relevant growers will not permit a supervised test, or if the prototype cannot beat the incumbent method on either measured labor cost or weed-control quality after including an operator. Do not represent the system as autonomous commercial equipment until safety and field reliability are independently demonstrated.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A small operator could test a narrow wedge—crop-specific integration, field mapping, maintenance, and seasonal rental of a lower-cost mechanical-weeding platform—rather than attempting to sell a general-purpose robot. The economic mechanism is avoided manual weeding or reduced herbicide use, but no savings or willingness to pay should be assumed before a field trial.",
+      "title": "Low-cost, crop-specific autonomous weeding retrofit based on an open-source chassis",
+      "type": "offer",
+      "unknowns": [],
+      "value_capture_mechanism": "Potential revenue mechanisms are paid feasibility trials, seasonal rental, integration/customization, or maintenance of a replicated chassis. Buyer and pricing remain unverified; do not build inventory before securing a paid trial or written expression of interest.",
       "verified_sales": null,
       "vertical": "robotics_agritech",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
@@ -3543,13 +3628,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-13T04:14:05.274092+00:00",
+  "generated_at": "2026-10-13T08:14:55.170153+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 23,
-  "reviewed_cards": 31,
+  "reviewed_cards": 32,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 69,
-  "watch": 46
+  "total_distinct_opportunities": 70,
+  "watch": 47
 }

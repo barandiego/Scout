@@ -1100,9 +1100,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "Chile",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "How many Chilean entities will actually be required to participate, by participant category and implementation phase.",
+        "Whether ATENA will remain free, become mandatory, provide conformance evidence, or satisfy most buyer testing needs.",
+        "Whether CMF, banks, or industry groups will recognize third-party test results as useful evidence.",
+        "The number of qualified buyers with active implementation budgets before July 2027.",
+        "Buyer willingness to pay for standalone testing rather than bundled implementation consulting.",
+        "Expected price, gross margin, sales cycle, procurement requirements, and support burden.",
+        "Whether the technical annex and developer portal will materially change after testing feedback."
       ],
       "investment_authorized": false,
       "name": "Chile SFA implementation-readiness testing for fintech APIs",
@@ -1788,10 +1792,46 @@
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Sell a one-site metering and lighting-schedule experiment, using temporary power meters and grower-supplied harvest records. Any savings claim must be measured against a baseline; no payback, margin or crop premium is assumed.",
       "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "robotics_agritech",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Start with one crop and row geometry. Build or source only the minimum sensor/actuator package needed for a supervised demonstration, then approach farms, university extension programs, or specialty-crop growers with a paid one-day field test. Measure hectares/hour, weed-removal rate, crop damage, operator hours, downtime, and total cost per hectare against the grower's current method. Falsification threshold: stop if at least three relevant growers will not permit a supervised test, or if the prototype cannot beat the incumbent method on either measured labor cost or weed-control quality after including an operator. Do not represent the system as autonomous commercial equipment until safety and field reliability are independently demonstrated.",
+      "current_thesis": "A small operator could test a narrow wedge—crop-specific integration, field mapping, maintenance, and seasonal rental of a lower-cost mechanical-weeding platform—rather than attempting to sell a general-purpose robot. The economic mechanism is avoided manual weeding or reduced herbicide use, but no savings or willingness to pay should be assumed before a field trial.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States and other row-crop markets with labor or herbicide constraints",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Low-cost, crop-specific autonomous weeding retrofit based on an open-source chassis",
+      "opportunity_id": "opp_d8b7c63665b27bbd1829",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
+        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
+        "Arrange a bounded field validation with an actual farm operator before scaling."
+      ],
+      "supporting_source_urls": [
+        "https://arxiv.org/abs/2509.25056",
+        "https://www.agricultural-robotics.com/robot/zurama-ai-inrow-weeder"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Potential revenue mechanisms are paid feasibility trials, seasonal rental, integration/customization, or maintenance of a replicated chassis. Buyer and pricing remain unverified; do not build inventory before securing a paid trial or written expression of interest.",
+      "willingness_to_pay_confirmed": false
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-13T04:14:05.307744+00:00",
+  "generated_at": "2026-10-13T08:14:55.208786+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"
