@@ -1,45 +1,86 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": null,
-      "buyer": "SUBSECRETARIA DE ECONOMIA Y EMPRESAS DE MENOR TAMA",
-      "closes_at": "2026-10-13T17:45:00",
-      "code": "756-130-COT26",
-      "estimated_budget": 3000.0,
-      "name": "Contratación del servicio de enlace dedicado a internet de respaldo",
-      "products": 1,
+      "available_budget_clp": 7200000.0,
+      "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+      "closes_at": "2026-10-13T21:19:00",
+      "code": "1057491-1860-COT26",
+      "estimated_budget": 7200000.0,
+      "name": "CATETERES DISTINTAS MEDIDAS Y CONDICIONES",
+      "products": 4,
       "region": "Región Metropolitana de Santiago"
     },
     {
-      "available_budget_clp": 3000000.0,
-      "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
-      "closes_at": "2026-10-13T17:40:00",
-      "code": "1057491-1851-COT26",
-      "estimated_budget": 3000000.0,
-      "name": "CHEQUEO TECNICO DE SEGURIDAD PARA MAQUINAS DE HEMODIALISIS(SE SOLICITA VER DOCUMENTO ADJUNTO CON CONDICIONES)",
+      "available_budget_clp": 300000.0,
+      "buyer": "COMANDANCIA BASE NAVAL PUNTA ARENAS",
+      "closes_at": "2026-10-14T15:00:00",
+      "code": "539778-259-COT26",
+      "estimated_budget": 300000.0,
+      "name": "LIQUIDO PARA LIMPIEZA LSM 90 ELICURA",
       "products": 1,
-      "region": "Región Metropolitana de Santiago"
+      "region": "Región de Magallanes y de la Antártica"
+    },
+    {
+      "available_budget_clp": 350000.0,
+      "buyer": "Ilustre Municipalidad de San Juan de la Costa",
+      "closes_at": "2026-10-13T20:58:00",
+      "code": "3888-970-COT26",
+      "estimated_budget": 350000.0,
+      "name": "COLACIONES PROGRAMA CRECER EN COMUNIDAD",
+      "products": 1,
+      "region": "Región de los Lagos"
     },
     {
       "available_budget_clp": 1000000.0,
-      "buyer": "GOBIERNO REGIONAL DE ARICA-PARINACOTA",
-      "closes_at": "2026-10-15T08:00:00",
-      "code": "5420-110-COT26",
+      "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+      "closes_at": "2026-10-13T20:35:00",
+      "code": "1057491-1867-COT26",
       "estimated_budget": 1000000.0,
-      "name": "Se requiere servicio de capacitación, curso de Lengua de Señas Chilena (LSCh) enfocado en atención de público inclusiva.",
+      "name": "TORULA CLORHEXIDINA ALCOHOLICA NO TINTURADA 1.6 ML",
       "products": 1,
-      "region": "Región de Arica y Parinacota"
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 7000000.0,
+      "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+      "closes_at": "2026-10-13T20:30:00",
+      "code": "1057491-1866-COT26",
+      "estimated_budget": 7000000.0,
+      "name": "INSUMOS CLINICOS PARA TODA LAS UNIDADES",
+      "products": 13,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 2200000.0,
+      "buyer": "Servicio local de educación pública de Valdivia",
+      "closes_at": "2026-10-13T20:45:00",
+      "code": "1432083-1602-COT26",
+      "estimated_budget": 2200000.0,
+      "name": "YM, RBD [6929] LICEO BICENTENARIO ALBERTO BLEST GANA DE LOS LAGOS, SOL 4336, SERVICIO SALIDA PEDAGOGICA, SEP, 2208999",
+      "products": 1,
+      "region": "Región de Los Ríos"
+    },
+    {
+      "available_budget_clp": 400000.0,
+      "buyer": "Ilustre Municipalidad de San Juan de la Costa",
+      "closes_at": "2026-10-13T20:08:00",
+      "code": "3888-968-COT26",
+      "estimated_budget": 400000.0,
+      "name": "SOUVENIR DIA DE LA MUJER RURAL 2026",
+      "products": 1,
+      "region": "Región de los Lagos"
     }
   ],
-  "active_structurally_reconstructable_count": 3,
+  "active_structurally_reconstructable_count": 7,
   "diagnostics": {
     "api_failures": {
-      "api_http_504": 3
+      "api_http_500": 1,
+      "api_http_504": 1
     },
-    "budget_exhausted": true,
-    "detail_attempts": 19,
-    "detail_cap_exhausted": false,
-    "details_fetched": 16,
+    "budget_exhausted": false,
+    "detail_attempts": 20,
+    "detail_cap_exhausted": true,
+    "details_fetched": 18,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -48,27 +89,27 @@
     "pages_fetched": 1,
     "pagination_incomplete": false,
     "pagination_invalid": false,
-    "requests_used": 25,
-    "transient_retries": 5
+    "requests_used": 23,
+    "transient_retries": 2
   },
-  "generated_at": "2026-10-12T20:39:32Z",
-  "inserted_history": 16,
+  "generated_at": "2026-10-13T00:51:46Z",
+  "inserted_history": 18,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
   "outcome": "DEGRADED_API_ERRORS",
   "phase1": {
-    "records": 16,
+    "records": 18,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 11
+      "no_observable_competitive_prices": 10
     },
-    "resolved": 13,
-    "structurally_reconstructable": 5,
-    "with_observable_quote_totals": 2,
+    "resolved": 11,
+    "structurally_reconstructable": 8,
+    "with_observable_quote_totals": 1,
     "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-12T20:39:32Z"
+    "changed_to": "2026-10-13T00:51:46Z"
   }
 }
