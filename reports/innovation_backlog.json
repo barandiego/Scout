@@ -1640,8 +1640,8 @@
       "category": "physical_distribution",
       "commercially_validated": false,
       "competition_confirmed": false,
-      "current_participation_path": "Lowest-cost falsification: buy or fabricate 3–5 NFC/QR plaques, create destination pages using the business's own public booking, WhatsApp, menu, or review links, and approach one narrowly defined local vertical such as cafés or barber shops. Ask owners to test the plaques for 7–14 days at the counter or checkout, with no claim of guaranteed results and no paid advertising. Record taps, QR scans, destination clicks, and owner-reported attributable actions. Proceed only if owners accept the placement and at least one is willing to pay a pre-agreed price after seeing the measurements. Existing market participation route: purchase tags or cards from a Chilean vendor and sell a transparent installation/customization package; do not represent this as exclusive technology.",
-      "current_thesis": "A generic NFC business-card reseller is already crowded. A narrower wedge is a physical counter/table/checkout plaque whose single action is optimized for a measurable outcome—Google review, reservation, WhatsApp reorder, or menu access—for one local-business vertical. The economic mechanism is a low-cost physical prompt that may convert an existing in-person interaction into a review, booking, or repeat-order event; actual conversion and incremental revenue remain unproven.",
+      "current_participation_path": "Lowest-cost falsification: buy or make 3–5 low-cost NFC/QR displays using the publicly listed CLP 9,990–19,990 price range, configure each to a distinct review or contact destination, and run a seven-day pilot with independently recruited local businesses that consent to placement. Record scans/taps, completed review actions and staff-observed usage; do not claim incremental reviews unless the business shares a before/after baseline. Offer the pilot first as a paid purchase at or below the observed local price, or as a refundable trial only if the business agrees in writing. Stop if no business agrees to place the display or no measurable interactions occur.",
+      "current_thesis": "The generic NFC-card market is already served, so an independent operator should not compete on ordinary networking cards. A narrower offer is a configured, location-specific review/contact display for businesses where staff can prompt a customer at checkout, reception or table service. The verifiable purchase prices establish customer willingness to pay for the hardware, but do not establish conversion uplift or recurring software willingness to pay.",
       "founder_hours_initial_unverified_estimate": "",
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "Chile",
@@ -1651,8 +1651,8 @@
         "What is net contribution after fulfillment, fees, support and acquisition?"
       ],
       "investment_authorized": false,
-      "name": "NFC-to-review and reservation plaques for Chilean hospitality businesses",
-      "opportunity_id": "opp_1932dc0a66242ec64860",
+      "name": "NFC review-and-contact displays for Chilean cafés, hotels and service counters",
+      "opportunity_id": "opp_def87ec156069bf156db",
       "pricing_confirmed": false,
       "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
       "regulatory_access_confirmed": false,
@@ -1664,12 +1664,13 @@
         "Try a legitimate pre-order/waitlist test with transparent fulfillment conditions."
       ],
       "supporting_source_urls": [
+        "https://masenlaces.com/store/faq",
         "https://www.ondda.cl/",
-        "https://linkd.cl/",
-        "https://nfcid.cl/"
+        "https://tarjetas-nfc.com/",
+        "https://nfctech.cl/"
       ],
       "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "Sell a small installation package consisting of a branded NFC/QR plaque, destination-page setup, and a short measurement period. Possible cash-flow sources are upfront hardware/setup payments and, only if independently validated, a recurring maintenance or reporting fee. Do not assume permission to edit a business's Google profile, access its CRM, or claim incremental reviews or revenue.",
+      "value_capture_claim": "Sell a configured NFC-plus-QR countertop or table display at a transparent one-time price, optionally adding paid setup such as destination-link configuration, branded artwork and placement instructions. The economic mechanism is hardware markup and setup revenue; recurring analytics or CRM revenue should not be assumed until a buyer explicitly pays for it.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -1909,7 +1910,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-13T12:17:19.239731+00:00",
+  "generated_at": "2026-10-13T16:14:09.167154+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

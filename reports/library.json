@@ -2873,6 +2873,74 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-13T16:13:51.617626+00:00",
+      "discovery_lens": "nfc_smart_commerce",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Chile-listed prices include CLP 9,990 for a basic NFC card and CLP 19,990 for a desktop NFC stand; the vendor states payment and nationwide shipping are available.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Tarjetas NFC en Chile: Precios, Compatibilidad y Dudas Frecuentes",
+          "url": "https://masenlaces.com/store/faq"
+        },
+        {
+          "claim": "A Chilean vendor lists NFC review/contact products including a CLP 19,990 stand, a CLP 24,990 NFC business card and a CLP 29,990 review stand.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Soluciones NFC para negocios en Chile | ONDDA",
+          "url": "https://www.ondda.cl/"
+        },
+        {
+          "claim": "A Chilean-facing vendor publishes volume prices from CLP 17,990 for five units down to CLP 11,990 for 50-plus units and describes corporate customization and nationwide delivery.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Tarjetas NFC Chile — Tarjetas de Presentación NFC Personalizadas",
+          "url": "https://tarjetas-nfc.com/"
+        },
+        {
+          "claim": "A Chilean vendor markets NFC hardware configured to open Google review pages and lists a CLP 24,990 unit price with a stated discount from five units; its customer-result statements are vendor testimonials and are not treated as independently verified performance evidence.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Tarjetas NFC para más reseñas en Google | NFCTECH Chile",
+          "url": "https://nfctech.cl/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.88,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_def87ec156069bf156db",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-13T16:13:51.632405+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Lowest-cost falsification: buy or make 3–5 low-cost NFC/QR displays using the publicly listed CLP 9,990–19,990 price range, configure each to a distinct review or contact destination, and run a seven-day pilot with independently recruited local businesses that consent to placement. Record scans/taps, completed review actions and staff-observed usage; do not claim incremental reviews unless the business shares a before/after baseline. Offer the pilot first as a paid purchase at or below the observed local price, or as a refundable trial only if the business agrees in writing. Stop if no business agrees to place the display or no measurable interactions occur.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The generic NFC-card market is already served, so an independent operator should not compete on ordinary networking cards. A narrower offer is a configured, location-specific review/contact display for businesses where staff can prompt a customer at checkout, reception or table service. The verifiable purchase prices establish customer willingness to pay for the hardware, but do not establish conversion uplift or recurring software willingness to pay.",
+      "title": "NFC review-and-contact displays for Chilean cafés, hotels and service counters",
+      "type": "productized_physical_distribution",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell a configured NFC-plus-QR countertop or table display at a transparent one-time price, optionally adding paid setup such as destination-link configuration, branded artwork and placement instructions. The economic mechanism is hardware markup and setup revenue; recurring analytics or CRM revenue should not be assumed until a buyer explicitly pays for it.",
+      "verified_sales": null,
+      "vertical": "physical_distribution",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-13T00:18:11.645031+00:00",
       "discovery_lens": "energy_industrial",
       "estimated_capital": "",
@@ -3048,67 +3116,6 @@
       "value_capture_mechanism": "One-time sale of a physical NFC/QR stand or card, potentially bundled with setup and destination configuration. Existing public prices provide a purchase benchmark, not a justified margin or guaranteed willingness to pay.",
       "verified_sales": null,
       "vertical": "competitive_positioning",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
-      "discovered_at": "2026-10-12T08:15:12.300915+00:00",
-      "discovery_lens": "nfc_smart_commerce",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "A Chilean vendor markets NFC products for reviews, reservations, digital presence, and repeat-customer interactions, explicitly naming restaurants, cafés, barber shops, hotels, clinics, and retail.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Soluciones NFC para negocios en Chile | ONDDA",
-          "url": "https://www.ondda.cl/"
-        },
-        {
-          "claim": "A Chilean vendor publishes NFC/QR products, Google Business Profile coordination, analytics, CRM/API functionality, and prices from CLP 29,990 to CLP 49,990 for branded cards.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "LINKD — Tarjetas digitales NFC y soluciones para negocios en Chile",
-          "url": "https://linkd.cl/"
-        },
-        {
-          "claim": "A Chilean vendor publishes a purchase price of CLP 19,990 for one NFC card and volume pricing beginning at 6 units, demonstrating an observable paid market for NFC hardware and profile setup.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "NFCID - Tarjetas de Presentación Inteligentes",
-          "url": "https://nfcid.cl/"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.86,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_1932dc0a66242ec64860",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-12T08:15:12.314134+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Lowest-cost falsification: buy or fabricate 3–5 NFC/QR plaques, create destination pages using the business's own public booking, WhatsApp, menu, or review links, and approach one narrowly defined local vertical such as cafés or barber shops. Ask owners to test the plaques for 7–14 days at the counter or checkout, with no claim of guaranteed results and no paid advertising. Record taps, QR scans, destination clicks, and owner-reported attributable actions. Proceed only if owners accept the placement and at least one is willing to pay a pre-agreed price after seeing the measurements. Existing market participation route: purchase tags or cards from a Chilean vendor and sell a transparent installation/customization package; do not represent this as exclusive technology.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "A generic NFC business-card reseller is already crowded. A narrower wedge is a physical counter/table/checkout plaque whose single action is optimized for a measurable outcome—Google review, reservation, WhatsApp reorder, or menu access—for one local-business vertical. The economic mechanism is a low-cost physical prompt that may convert an existing in-person interaction into a review, booking, or repeat-order event; actual conversion and incremental revenue remain unproven.",
-      "title": "NFC-to-review and reservation plaques for Chilean hospitality businesses",
-      "type": "productized_physical_digital_offer",
-      "unknowns": [],
-      "value_capture_mechanism": "Sell a small installation package consisting of a branded NFC/QR plaque, destination-page setup, and a short measurement period. Possible cash-flow sources are upfront hardware/setup payments and, only if independently validated, a recurring maintenance or reporting fee. Do not assume permission to edit a business's Google profile, access its CRM, or claim incremental reviews or revenue.",
-      "verified_sales": null,
-      "vertical": "physical_distribution",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -3785,13 +3792,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-13T12:17:19.203194+00:00",
+  "generated_at": "2026-10-13T16:14:09.131937+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 23,
+  "rejected_excluded": 24,
   "reviewed_cards": 33,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 72,
+  "total_distinct_opportunities": 73,
   "watch": 49
 }

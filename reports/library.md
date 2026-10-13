@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-13T12:17:19.203194+00:00
+Generated: 2026-10-13T16:14:09.131937+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
 - Active research: 49 (0 HQ survivors, 49 watches)
-- Rejected opportunities excluded: 23
+- Rejected opportunities excluded: 24
 - Critic-and-judge reviewed: 33
 - Autonomous execution authorization: 0
 
@@ -343,6 +343,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://cmfchile.atlassian.net/wiki/spaces/OFAC/pages/267649439/API%2BCuentas%2BOpen%2BFinance%2BChile%2Bv1.0.0; https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html
 
+### NFC review-and-contact displays for Chilean cafés, hotels and service counters [opp_def87ec156069bf156db]
+- Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile
+- Thesis: The generic NFC-card market is already served, so an independent operator should not compete on ordinary networking cards. A narrower offer is a configured, location-specific review/contact display for businesses where staff can prompt a customer at checkout, reception or table service. The verifiable purchase prices establish customer willingness to pay for the hardware, but do not establish conversion uplift or recurring software willingness to pay.
+- Value capture: Sell a configured NFC-plus-QR countertop or table display at a transparent one-time price, optionally adding paid setup such as destination-link configuration, branded artwork and placement instructions. The economic mechanism is hardware markup and setup revenue; recurring analytics or CRM revenue should not be assumed until a buyer explicitly pays for it.
+- Participation hypothesis: Lowest-cost falsification: buy or make 3–5 low-cost NFC/QR displays using the publicly listed CLP 9,990–19,990 price range, configure each to a distinct review or contact destination, and run a seven-day pilot with independently recruited local businesses that consent to placement. Record scans/taps, completed review actions and staff-observed usage; do not claim incremental reviews unless the business shares a before/after baseline. Offer the pilot first as a paid purchase at or below the observed local price, or as a refundable trial only if
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://masenlaces.com/store/faq; https://www.ondda.cl/; https://tarjetas-nfc.com/; https://nfctech.cl/
+
 ### DER aggregation readiness kit for small batteries and flexible loads [opp_7da0f530c4393ac9bb73]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States RTO/ISO territories
 - Thesis: Small commercial batteries and flexible loads may have an additional market-participation route, but qualification depends on tariff, telemetry, metering, interconnection and utility-coordination requirements. The executable wedge is a site-level readiness and data package, not generic energy consulting.
@@ -372,16 +382,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.aither.cl/tap/; https://www.ondda.cl/; https://publico.transbank.cl/productos-y-servicios/soluciones-para-ventas-presenciales/autoservicio-estandar
-
-### NFC-to-review and reservation plaques for Chilean hospitality businesses [opp_1932dc0a66242ec64860]
-- Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile
-- Thesis: A generic NFC business-card reseller is already crowded. A narrower wedge is a physical counter/table/checkout plaque whose single action is optimized for a measurable outcome—Google review, reservation, WhatsApp reorder, or menu access—for one local-business vertical. The economic mechanism is a low-cost physical prompt that may convert an existing in-person interaction into a review, booking, or repeat-order event; actual conversion and incremental revenue remain unproven.
-- Value capture: Sell a small installation package consisting of a branded NFC/QR plaque, destination-page setup, and a short measurement period. Possible cash-flow sources are upfront hardware/setup payments and, only if independently validated, a recurring maintenance or reporting fee. Do not assume permission to edit a business's Google profile, access its CRM, or claim incremental reviews or revenue.
-- Participation hypothesis: Lowest-cost falsification: buy or fabricate 3–5 NFC/QR plaques, create destination pages using the business's own public booking, WhatsApp, menu, or review links, and approach one narrowly defined local vertical such as cafés or barber shops. Ask owners to test the plaques for 7–14 days at the counter or checkout, with no claim of guaranteed results and no paid advertising. Record taps, QR scans, destination clicks, and owner-reported attributable actions. Proceed only if owners accept the placement and at least one is willing to pay a pre-agre
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.ondda.cl/; https://linkd.cl/; https://nfcid.cl/
 
 ### Plant-level curtailment and BESS siting intelligence for Chilean renewable projects [opp_5fec091eab927558b694]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile, especially solar-heavy northern regions and congested transmission zones

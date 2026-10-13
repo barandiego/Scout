@@ -508,17 +508,17 @@ Candidates: 49
 - Possible initial budget:
 - Source URLs: https://www.bis.org/media-releases/20250624-next-generation-monetary-and-financial-system-takes-shape-based-tokenised-unified-ledger-bis; https://www.bis.org/publications/aer-2025/next-generation-monetary-financial-system
 
-## NFC-to-review and reservation plaques for Chilean hospitality businesses
+## NFC review-and-contact displays for Chilean cafés, hotels and service counters
 - Status: watch | physical_distribution
-- Current idea: A generic NFC business-card reseller is already crowded. A narrower wedge is a physical counter/table/checkout plaque whose single action is optimized for a measurable outcome—Google review, reservation, WhatsApp reorder, or menu access—for one local-business vertical. The economic mechanism is a low-cost physical prompt that may convert an existing in-person interaction into a review, booking, or repeat-order event; actual conversion and incremental revenue remain unproven.
-- Potential economic capture: Sell a small installation package consisting of a branded NFC/QR plaque, destination-page setup, and a short measurement period. Possible cash-flow sources are upfront hardware/setup payments and, only if independently validated, a recurring maintenance or reporting fee. Do not assume permission to edit a business's Google profile, access its CRM, or claim incremental reviews or revenue.
+- Current idea: The generic NFC-card market is already served, so an independent operator should not compete on ordinary networking cards. A narrower offer is a configured, location-specific review/contact display for businesses where staff can prompt a customer at checkout, reception or table service. The verifiable purchase prices establish customer willingness to pay for the hardware, but do not establish conversion uplift or recurring software willingness to pay.
+- Potential economic capture: Sell a configured NFC-plus-QR countertop or table display at a transparent one-time price, optionally adding paid setup such as destination-link configuration, branded artwork and placement instructions. The economic mechanism is hardware markup and setup revenue; recurring analytics or CRM revenue should not be assumed until a buyer explicitly pays for it.
 - **Research routes to test (NOT validated claims):**
   - Compare local product availability to supplier catalogs and independent consumer interest.
   - Check import, tax, return, certification and delivery economics before estimating margin.
   - Try a legitimate pre-order/waitlist test with transparent fulfillment conditions.
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
-- Source URLs: https://www.ondda.cl/; https://linkd.cl/; https://nfcid.cl/
+- Source URLs: https://masenlaces.com/store/faq; https://www.ondda.cl/; https://tarjetas-nfc.com/; https://nfctech.cl/
 
 ## Grid connection capacity is becoming a monetizable bottleneck
 - Status: watch | public_markets
