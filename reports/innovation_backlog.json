@@ -159,6 +159,79 @@
       "category": "energy_infrastructure",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Start with one public BESS procurement or project filing and build a prototype checklist using only supplier datasheets, invoices, certificates and IRS definitions. Offer a fixed-scope document review to a local EPC, developer or tax-credit preparer only after confirming they have an active project and permission to review records. Falsify cheaply by asking five project developers whether they already maintain the required evidence and whether a paid gap review would change a live filing; stop if none reports a live documentation gap.",
+      "current_thesis": "Developers and equipment buyers must prove component origin, eligibility and material-assistance status before relying on tax-credit economics. The concrete bottleneck is evidence management rather than general consulting.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "BESS eligibility and supply-chain documentation package for 48E/45X projects",
+      "opportunity_id": "opp_635d375465c7228c0ffd",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
+        "Compare owned asset, installer/distributor and project-finance participation.",
+        "Verify permits and installed net payback under conservative power price scenarios."
+      ],
+      "supporting_source_urls": [
+        "https://www.irs.gov/pub/irs-dft/i3468--dft.pdf",
+        "https://www.energy.gov/ceser/articles/new-ceser-report-offers-supply-chain-mitigation-strategies-battery-storage-systems"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a narrowly scoped evidence pack: bill-of-materials normalization, supplier-origin records, component eligibility mapping, prohibited-foreign-entity screening, and an auditor-ready file indexed to the project’s tax-credit claims. A second possible mechanism is licensing the document schema or spreadsheet template to solar/BESS developers, EPCs or tax-credit advisors.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "energy_infrastructure",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Choose one RTO/ISO and one asset class, then use its published tariff and aggregator requirements to score five publicly identifiable commercial sites or consenting prospects. Falsify by sending the completed one-page readiness score to three registered aggregators or installers and asking whether they would accept the data packet for screening; do not promise market enrollment, revenue or permissions. Stop if requirements are too site-specific to produce a useful packet or if aggregators reject external screening data.",
+      "current_thesis": "Small commercial batteries and flexible loads may have an additional market-participation route, but qualification depends on tariff, telemetry, metering, interconnection and utility-coordination requirements. The executable wedge is a site-level readiness and data package, not generic energy consulting.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States RTO/ISO territories",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "DER aggregation readiness kit for small batteries and flexible loads",
+      "opportunity_id": "opp_7da0f530c4393ac9bb73",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
+        "Compare owned asset, installer/distributor and project-finance participation.",
+        "Verify permits and installed net payback under conservative power price scenarios."
+      ],
+      "supporting_source_urls": [
+        "https://ferc.gov/media/ferc-order-no-2222-fact-sheet",
+        "https://www.ferc.gov/ferc-order-no-2222-explainer-facilitating-participation-electricity-markets-distributed-energy",
+        "https://ferc.gov/news-events/news/ferc-acts-first-order-no-2222-compliance-filings"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Create a standardized site packet containing interval-load data, battery specifications, control capability, interconnection status, telemetry availability and tariff-specific eligibility checks. The payer could be an existing DER aggregator, installer or commercial site owner seeking qualified enrollment candidates; no buyer or fee is assumed until interviews validate demand.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "energy_infrastructure",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Download the CEN monthly files, reproduce one region’s plant-level curtailment table, and send a one-page result to publicly identifiable project-development or investment contacts asking them to validate one plant’s decision use. The lowest-cost falsification step is to produce a free analysis for five plants and seek one paid follow-up or data-request; stop if users cannot name a concrete investment, dispatch or diligence decision improved by the analysis. Do not claim dispatch rights, grid access or project ownership.",
       "current_thesis": "Project developers, asset owners and lenders need to distinguish curtailment exposure by plant, node, month and hour when evaluating storage retrofits, dispatch strategies and acquisition risk. The economic mechanism is better underwriting or dispatch decisions, not the existence of a generic energy trend.",
       "founder_hours_initial_unverified_estimate": "",
@@ -874,9 +947,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "Chile",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "Whether any specific SFA participant has an unmet testing problem that is not already covered by ATENA, official CMF documentation, internal QA, or an incumbent implementation vendor.",
+        "The number of entities that will actively participate before July 2027 and the subset with budget for external testing.",
+        "Whether ATENA provides executable test cases, test-data support, automated assertions, certification evidence, or only an environment and operational guidance.",
+        "Whether the technical specifications are stable enough that a reusable harness will not require frequent costly updates.",
+        "Whether independent third-party testing has regulatory, procurement, security, or confidentiality value to buyers.",
+        "The likely price, sales cycle, gross margin, and repeatability of a validation package.",
+        "Whether the proposed operator can obtain sandbox access and test credentials without being a regulated participant or an approved implementation partner."
       ],
       "investment_authorized": false,
       "name": "Chile SFA conformance and consent-flow testing for fintech participants before July 2027",
@@ -1523,6 +1600,43 @@
     },
     {
       "capital_required_unverified_estimate": "",
+      "category": "public_markets",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Use only public SEC/DTC materials and a local development environment to reproduce a mock transfer-agent reconciliation workflow with no real securities, wallets, customer funds or claims of regulatory compliance. Falsify by showing the control matrix to three regulated-market infrastructure firms or securities-law practitioners and asking whether it maps to a current pilot or procurement requirement; stop if they identify no live implementation need or if legal review makes the prototype non-actionable.",
+      "current_thesis": "The near-term opportunity is not issuing unregistered tokens; it is testing reconciliation, transfer restrictions, entitlement records, corporate actions and settlement controls for regulated participants preparing for tokenized securities infrastructure.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Tokenized-securities operational control and transfer-agent integration testing",
+      "opportunity_id": "opp_2df7c31be3f47e321668",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Find overlooked fundamentals and a named accessible security with dated primary filings.",
+        "Compare risked intrinsic value, market expectations and specific downside scenarios.",
+        "Define catalysts and invalidation thresholds before any governed investment decision."
+      ],
+      "supporting_source_urls": [
+        "https://www.sec.gov/newsroom/speeches-statements/corp-fin-statement-tokenized-securities-012826-statement-tokenized-securities",
+        "https://www.sec.gov/newsroom/speeches-statements/peirce-tm-faq-051525",
+        "https://www.sec.gov/newsroom/speeches-statements/peirce-121125-tokenization-trending-statement-division-trading-markets-no-action-letter-related-dtcs-development"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Build a testable control-and-reconciliation asset: sample ledger, wallet-whitelist logic, transfer restriction tests, entitlement reconciliation, exception logs and corporate-action workflow documentation. Potential payers are transfer agents, broker-dealers, custodians, exchanges or fintech infrastructure vendors, but no buyer is presumed.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
       "category": "robotics_agritech",
       "commercially_validated": false,
       "competition_confirmed": false,
@@ -1637,7 +1751,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-12T20:12:34.290185+00:00",
+  "generated_at": "2026-10-13T00:18:37.633501+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

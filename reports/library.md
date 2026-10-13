@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-12T20:12:34.267823+00:00
+Generated: 2026-10-13T00:18:37.600845+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 42 (0 HQ survivors, 42 watches)
+- Active research: 45 (0 HQ survivors, 45 watches)
 - Rejected opportunities excluded: 23
-- Critic-and-judge reviewed: 29
+- Critic-and-judge reviewed: 30
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -22,6 +22,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Whether the cited January 1, 2026 AFCI requirement applies to the exact project classes, inverter configurations, and connection pathways targeted by the product, ra; Whether SEC or distributors accept the proposed equipment/documentation combinations in practice and what causes actual TE4 or related filing rejections.; Number of Chilean distributed BESS projects currently being designed, installed, or submitted through the relevant process.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/; https://www.sec.cl/gda/; https://www.sec.cl/normas-tecnicas-electricas/
+
+### Chile SFA conformance and consent-flow testing for fintech participants before July 2027 [opp_f26e42aaabb91e157f9d]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Entities preparing to participate will need to translate the technical specifications into working consent, security, API and interoperability test flows. The actionable wedge is not generic fintech consulting but a reusable conformance-test harness, test-data pack and defect log for specific SFA flows.
+- Value capture: A small operator could sell a fixed-scope validation package or license a test harness to an identified SFA participant or implementation contractor. A buyer, price and permission to access production systems are not established by the evidence.
+- Participation hypothesis: Use only public CMF SFA materials and developer-portal documentation to build a mock participant, consent journey and API contract tests. Publish a short reproducible test report and contact named entities listed in the official SFA participant/developer materials to ask whether they will pay for a sandbox conformance review. Falsification step: spend no more than one week implementing the highest-priority public flows; if the specifications are not sufficiently complete to produce executable tests or no relevant participant agrees to a discove
+- Critic/judge: The regulatory premise is sufficiently grounded in CMF and Banco Central primary sources: the SFA technical annex/developer materials and a July 2027 implementation horizon support a real pre-production preparation period. A narrowly scoped service—independent sandbox conformance review, consent-flow/API contract testing, and defect triage for a named participant or implementation contractor—does not inherently require access to live fi
+- Next evidence gaps: Whether any specific SFA participant has an unmet testing problem that is not already covered by ATENA, official CMF documentation, internal QA, or an incumbent impl; The number of entities that will actively participate before July 2027 and the subset with budget for external testing.; Whether ATENA provides executable test cases, test-data support, automated assertions, certification evidence, or only an environment and operational guidance.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836
 
 ### Indoor-farm lighting and energy audit wedge for existing Chilean growers [opp_6c994db30cf257cb79ff]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile
@@ -303,15 +313,15 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://cmfchile.atlassian.net/wiki/spaces/OFAC/pages/267649439/API%2BCuentas%2BOpen%2BFinance%2BChile%2Bv1.0.0; https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html
 
-### Chile SFA conformance and consent-flow testing for fintech participants before July 2027 [opp_f26e42aaabb91e157f9d]
-- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
-- Thesis: Entities preparing to participate will need to translate the technical specifications into working consent, security, API and interoperability test flows. The actionable wedge is not generic fintech consulting but a reusable conformance-test harness, test-data pack and defect log for specific SFA flows.
-- Value capture: A small operator could sell a fixed-scope validation package or license a test harness to an identified SFA participant or implementation contractor. A buyer, price and permission to access production systems are not established by the evidence.
-- Participation hypothesis: Use only public CMF SFA materials and developer-portal documentation to build a mock participant, consent journey and API contract tests. Publish a short reproducible test report and contact named entities listed in the official SFA participant/developer materials to ask whether they will pay for a sandbox conformance review. Falsification step: spend no more than one week implementing the highest-priority public flows; if the specifications are not sufficiently complete to produce executable tests or no relevant participant agrees to a discove
+### DER aggregation readiness kit for small batteries and flexible loads [opp_7da0f530c4393ac9bb73]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States RTO/ISO territories
+- Thesis: Small commercial batteries and flexible loads may have an additional market-participation route, but qualification depends on tariff, telemetry, metering, interconnection and utility-coordination requirements. The executable wedge is a site-level readiness and data package, not generic energy consulting.
+- Value capture: Create a standardized site packet containing interval-load data, battery specifications, control capability, interconnection status, telemetry availability and tariff-specific eligibility checks. The payer could be an existing DER aggregator, installer or commercial site owner seeking qualified enrollment candidates; no buyer or fee is assumed until interviews validate demand.
+- Participation hypothesis: Choose one RTO/ISO and one asset class, then use its published tariff and aggregator requirements to score five publicly identifiable commercial sites or consenting prospects. Falsify by sending the completed one-page readiness score to three registered aggregators or installers and asking whether they would accept the data packet for screening; do not promise market enrollment, revenue or permissions. Stop if requirements are too site-specific to produce a useful packet or if aggregators reject external screening data.
 - Critic/judge: deferred_by_review_cap
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836
+- Grounded and model-supplied sources: https://ferc.gov/media/ferc-order-no-2222-fact-sheet; https://www.ferc.gov/ferc-order-no-2222-explainer-facilitating-participation-electricity-markets-distributed-energy; https://ferc.gov/news-events/news/ferc-acts-first-order-no-2222-compliance-filings
 
 ### Independent field-service and deployment support for autonomous agricultural weed-control robots [opp_99de522ad05d0e01cebc]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States; potentially other markets only after manufacturer authorization
@@ -352,6 +362,26 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.coordinador.cl/operacion/documentos/reducciones-de-generacion-renovable/; https://www.coordinador.cl/novedades/coordinador-electrico-presenta-informe-de-monitoreo-de-la-competencia-con-desafios-estructurales/; https://www.spec.cl/en/publicaciones/2026-almacenamiento-corta-duracion/
+
+### Tokenized-securities operational control and transfer-agent integration testing [opp_2df7c31be3f47e321668]
+- Status: WATCH_REQUIRES_VALIDATION | public_markets | United States
+- Thesis: The near-term opportunity is not issuing unregistered tokens; it is testing reconciliation, transfer restrictions, entitlement records, corporate actions and settlement controls for regulated participants preparing for tokenized securities infrastructure.
+- Value capture: Build a testable control-and-reconciliation asset: sample ledger, wallet-whitelist logic, transfer restriction tests, entitlement reconciliation, exception logs and corporate-action workflow documentation. Potential payers are transfer agents, broker-dealers, custodians, exchanges or fintech infrastructure vendors, but no buyer is presumed.
+- Participation hypothesis: Use only public SEC/DTC materials and a local development environment to reproduce a mock transfer-agent reconciliation workflow with no real securities, wallets, customer funds or claims of regulatory compliance. Falsify by showing the control matrix to three regulated-market infrastructure firms or securities-law practitioners and asking whether it maps to a current pilot or procurement requirement; stop if they identify no live implementation need or if legal review makes the prototype non-actionable.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sec.gov/newsroom/speeches-statements/corp-fin-statement-tokenized-securities-012826-statement-tokenized-securities; https://www.sec.gov/newsroom/speeches-statements/peirce-tm-faq-051525; https://www.sec.gov/newsroom/speeches-statements/peirce-121125-tokenization-trending-statement-division-trading-markets-no-action-letter-related-dtcs-development
+
+### BESS eligibility and supply-chain documentation package for 48E/45X projects [opp_635d375465c7228c0ffd]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States
+- Thesis: Developers and equipment buyers must prove component origin, eligibility and material-assistance status before relying on tax-credit economics. The concrete bottleneck is evidence management rather than general consulting.
+- Value capture: Sell a narrowly scoped evidence pack: bill-of-materials normalization, supplier-origin records, component eligibility mapping, prohibited-foreign-entity screening, and an auditor-ready file indexed to the project’s tax-credit claims. A second possible mechanism is licensing the document schema or spreadsheet template to solar/BESS developers, EPCs or tax-credit advisors.
+- Participation hypothesis: Start with one public BESS procurement or project filing and build a prototype checklist using only supplier datasheets, invoices, certificates and IRS definitions. Offer a fixed-scope document review to a local EPC, developer or tax-credit preparer only after confirming they have an active project and permission to review records. Falsify cheaply by asking five project developers whether they already maintain the required evidence and whether a paid gap review would change a live filing; stop if none reports a live documentation gap.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.irs.gov/pub/irs-dft/i3468--dft.pdf; https://www.energy.gov/ceser/articles/new-ceser-report-offers-supply-chain-mitigation-strategies-battery-storage-systems
 
 ### Chile Open Finance conformance and sandbox test harness [opp_05e7d4d756eff27e9ada]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
