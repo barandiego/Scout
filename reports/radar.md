@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-13T04:46:09.500038+00:00
+Generated: 2026-10-13T08:46:39.999448+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
-- Rolling leads: 1205
-- New this cycle: 99
+- Rolling leads: 1265
+- New this cycle: 109
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
-- Categories: agriculture 161, ai 248, commerce 32, energy 384, robotics 380
+- Categories: agriculture 171, ai 255, commerce 33, energy 404, robotics 402
 
 ## Recently encountered signals
+
+### balamurugan-ds/AI-Smart-Agriculture-Assistant
+- Source: https://github.com/balamurugan-ds/AI-Smart-Agriculture-Assistant
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### truptishinde1919-rgb/AquaWise_AI
 - Source: https://github.com/truptishinde1919-rgb/AquaWise_AI
@@ -136,6 +142,18 @@ Generated: 2026-10-13T04:46:09.500038+00:00
 - Source: https://doi.org/10.66506/essp.172
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### padmapriya-a-byte/agri-neural
+- Source: https://github.com/padmapriya-a-byte/agri-neural
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### sathyapriya-dotcom/agri-neural-twin
+- Source: https://github.com/sathyapriya-dotcom/agri-neural-twin
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
 
 ### manshirai09/Digital-krshivaani-org
@@ -372,6 +390,30 @@ Generated: 2026-10-13T04:46:09.500038+00:00
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
 
+### GuillermoRomoS/radar-tech
+- Source: https://github.com/GuillermoRomoS/radar-tech
+- Domain: robotics | Suggested angle: Chile import/distribution or local integration
+- First test: Check installed base, Chilean competitors, supplier pricing, certification and actual buyer budgets.
+- Status: **unverified research lead**
+
+### saravanantg18/A-Voice-Enabled-Smart-Farming-Assistant-for-Personalized-Crop-Advisory
+- Source: https://github.com/saravanantg18/A-Voice-Enabled-Smart-Farming-Assistant-for-Personalized-Crop-Advisory
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### Proyecto minero reduce 23% sus costos con energía solar y baterías - El Desconcierto
+- Source: https://news.google.com/rss/articles/CBMiqgFBVV95cUxOV3E2VXRmNzFqcl9MTjJPb25DaEtCS3BrZjhZZ215VFBjVHFybTNLNnBKNTJ0UE5iR1BwNGhXcTlpRlJjbmJfRTJDeG0wZVNveDIwbnBsVFdVRWNzQ1Roai1HdVVmMVVwZjNGdnAzT3NiZUlwdlFoNVk3dnp0VGlndFBsZ1hEbGcwS29sWTJzWjByWTNUN2hTSGFGUDlMS05BUDhXNUJIbmhTQQ?oc=5
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### indusmita-jha/Crop-Yield-Prediction-ML-Project
+- Source: https://github.com/indusmita-jha/Crop-Yield-Prediction-ML-Project
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
 ### janisha210/Suryasetu
 - Source: https://github.com/janisha210/Suryasetu
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
@@ -418,46 +460,4 @@ Generated: 2026-10-13T04:46:09.500038+00:00
 - Source: https://github.com/Mahati-20/AgriSense-AI-Final
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### amansingh221-a/KrishiGen-AI
-- Source: https://github.com/amansingh221-a/KrishiGen-AI
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Agriculture Rover For Soil and Crop Data Collection
-- Source: https://doi.org/10.55041/ijsrem67862
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Kinni26/CropGenius
-- Source: https://github.com/Kinni26/CropGenius
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Thanyaravi/FarmWise360-AI
-- Source: https://github.com/Thanyaravi/FarmWise360-AI
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Co-optimizing magnetic-flux budgeting with thermal and battery storage in pulsed fusion power plants through physics-informed learning
-- Source: https://doi.org/10.2139/ssrn.7597204
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### GRAVIDRO: deep sea underwater gravity battery parks scalable toward TWh energy storage capacity
-- Source: https://doi.org/10.31526/jais.2026.07
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Alexzander-Drake-Halstead/sovereign-heart
-- Source: https://github.com/Alexzander-Drake-Halstead/sovereign-heart
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
