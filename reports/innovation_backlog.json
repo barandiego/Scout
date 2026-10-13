@@ -982,6 +982,42 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Start without seeking production access or regulatory permissions: download the CMF NCG 514 materials and developer-portal specifications, build a small validator for one publicly specified data-exchange flow, and test it against self-created fixtures. Then contact Chilean fintechs, banks, cooperatives, card issuers, or implementation vendors only to ask whether they already possess an internal conformance harness and which test artifacts they must produce. Falsification threshold: stop if at least 10 relevant organizations or vendors show no need for external validation, already have equivalent tooling, or cannot identify a budget owner. The verifiable participation catalyst is the CMF's July 2027 implementation target and the publication of technical specifications; no buyer, sale, margin, or permission is assumed.",
+      "current_thesis": "Financial institutions and regulated fintech participants will need to translate the CMF technical specifications into interoperable APIs, certificates, consent flows, testing procedures, and operational controls before the revised implementation date. A narrowly scoped testing and evidence asset could reduce integration rework and implementation risk without requiring the operator to become a regulated financial provider.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile SFA conformance-testing wedge ahead of the July 2027 implementation date",
+      "opportunity_id": "opp_20f82e47fa9080b32bd2",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A paid, fixed-scope conformance pack: API/schema validation, certificate and signature checks, consent-flow test cases, payment-initiation test cases where applicable, and an exportable evidence report for an institution's internal implementation team. The economic mechanism is payment for reduced engineering and compliance-validation effort; no public evidence establishes a standard price, procurement commitment, or guaranteed buyer.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Build against the CMF developer portal and technical annex; target pilot or sandbox participation; offer a narrow integration product to one regulated institution or smaller participant before the July 2027 operating deadline.",
       "current_thesis": "Value is shifting toward firms that can reduce implementation and compliance costs for banks, account-information providers, payment-initiation providers and smaller participants. The delay creates a longer pre-revenue integration window but also lowers immediate execution pressure.",
       "founder_hours_initial_unverified_estimate": "",
@@ -1646,9 +1682,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "United States; potentially other markets only after manufacturer authorization",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "Whether any target manufacturer permits independent deployment, mapping, maintenance, remote monitoring, or customer-facing operation.",
+        "Whether manufacturer warranties, software licenses, telemetry systems, and safety policies restrict third-party intervention.",
+        "Actual number of deployed robots in the target U.S. region, crop mix, operating season length, and service-call density.",
+        "Customer willingness to pay for commissioning, seasonal supervision, emergency response, maintenance coordination, or outcome-based contracts.",
+        "Gross margin after travel, insurance, training, tools, spare parts, downtime, weather delays, and seasonal labor.",
+        "Whether one operator can support enough robots and acres to produce viable utilization.",
+        "Whether farms prefer manufacturer support, distributors, custom operators, agronomists, or internal employees."
       ],
       "investment_authorized": false,
       "name": "Independent field-service and deployment support for autonomous agricultural weed-control robots",
@@ -1751,7 +1791,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-13T00:18:37.633501+00:00",
+  "generated_at": "2026-10-13T04:14:05.307744+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

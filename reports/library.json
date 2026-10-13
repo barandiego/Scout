@@ -187,6 +187,103 @@
       "ai_leverage": "",
       "authorized_for_execution": false,
       "contrary_evidence": [
+        "There is credible evidence that commercial deployment is beginning: Greenfield reported leasing 23 BOTONY robots to farms in seven states in 2025, with additional purchase and lease orders and contracts planned across more states for the 2026 growing season. Source: https://www.sec.gov/Archives/edgar/data/1760404/000110465926075802/tm2617498d1_partiiandiii.htm. FarmDroid publicly markets an operational seeding and weeding platform, states that it can work multiple fields, and describes support and specialist onboarding. Source: https://farmdroid.com/contact/ ; https://farmdroid.com/blog/your-farmdroid-journey-from-purchase-to-precision-farming/. Academic and government evidence supports a real underlying need: labor shortages, herbicide resistance, and precision-agriculture benefits can create adoption incentives. Sources: https://doi.org/10.1111/agec.12856 ; https://www.gao.gov/products/gao-24-105962. These facts support testing a narrowly scoped deployment-support service, especially for high-value crops or farms lacking technical staff. They do not establish that an independent operator captures attractive economics."
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-12T00:16:18.701165+00:00",
+      "discovery_lens": "adoption_lag",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The filing describes the BOTONY autonomous agricultural robot, 2025 leases to farms in seven states, 2026 purchase and lease orders, shipped units and an annual service contract.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Greenfield Robotics SEC filing",
+          "url": "https://www.sec.gov/Archives/edgar/data/1760404/000110465926075802/tm2617498d1_partiiandiii.htm"
+        },
+        {
+          "claim": "The distributor page lists the autonomous solar-powered seeding and weeding platform and a price of CAD 156,488.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "FarmDroid FD20",
+          "url": "https://www.haggertyagrobotics.com/farmdroid-fd20"
+        },
+        {
+          "claim": "The listing describes Robot One as a deployed laser-weeding system with direct-sales/distributor participation and a stated price range of USD 251,000-500,000.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Robot One",
+          "url": "https://www.agricultural-robotics.com/robot/robot-one"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.78,
+      "falsification_conditions": [
+        "The selected manufacturer refuses written authorization or states that only its employees or approved dealers may perform the proposed services.",
+        "At least 20 qualified farm or distributor interviews produce no credible paid pilot opportunity in the target geography and crop segment.",
+        "No customer will sign a paid pilot, letter of intent, or deposit-backed test plot before equipment purchase.",
+        "A conservative model using verified pricing, utilization, travel, insurance, downtime, and seasonal constraints cannot reach acceptable contribution margin without owning robots.",
+        "The service requires manufacturer-only software, proprietary tools, parts, or training that cannot be obtained at viable cost.",
+        "The operator cannot obtain commercially reasonable general liability, professional liability, equipment, cyber, and farm-operation coverage.",
+        "Field trials show that interventions, mapping, failures, or crop-specific setup consume too many labor hours for a customer to save money versus existing labor or custom services.",
+        "Manufacturers, distributors, or large farm-equipment dealers already provide materially similar support at no separately chargeable price.",
+        "Robot deployments remain too sparse or geographically dispersed to support efficient route density.",
+        "The target robot's lease or robot-as-a-service model bundles deployment and support, eliminating an independent service budget."
+      ],
+      "geography": "United States; potentially other markets only after manufacturer authorization",
+      "id": "opp_99de522ad05d0e01cebc",
+      "judge_reviewed": true,
+      "judgment": "Commercial weed-control robots have evidence of early deployment and a specific support job exists—commissioning, field setup, uptime support, maintenance coordination, and operator training. However, the proposed independent-service business is not demonstrated. The cited manufacturers appear to bundle or retain important support functions, and there is no evidence of manufacturer authorization, local service rights, customer willingness to pay separately, deployed-fleet density, or viable seasonal utilization. More importantly, this opportunity is framed for the United States while the vertical rubric requires fit with Chilean farm-size, water, labor, infrastructure, spares, and importer/distributor conditions; none is substantiated. It may be research-worthy only as a tightly bounded authorization-and-paid-pilot validation, not as an HQ-worthy business conclusion or deployment plan.",
+      "last_record_updated_at": "2026-10-13T04:14:04.901513+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Whether any target manufacturer permits independent deployment, mapping, maintenance, remote monitoring, or customer-facing operation.",
+        "Whether manufacturer warranties, software licenses, telemetry systems, and safety policies restrict third-party intervention.",
+        "Actual number of deployed robots in the target U.S. region, crop mix, operating season length, and service-call density.",
+        "Customer willingness to pay for commissioning, seasonal supervision, emergency response, maintenance coordination, or outcome-based contracts.",
+        "Gross margin after travel, insurance, training, tools, spare parts, downtime, weather delays, and seasonal labor."
+      ],
+      "participation_path": "Select one robot with a public purchase or lease route and contact its manufacturer or listed distributor for authorization requirements. Offer a narrowly defined pilot on one crop and one field: mapping, deployment checklist, uptime log and weed-control outcome measurement. Falsification step: before buying equipment, obtain a written indication that the manufacturer permits independent deployment support and secure one farm willing to provide a small test plot; if neither is obtainable, stop. Do not represent yourself as an authorized dealer or promise savings before measuring them.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "High-priced equipment creates a concrete operational bottleneck around field mapping, charging, remote monitoring, maintenance, operator training and seasonal deployment. The wedge is a local, manufacturer-authorized field-operations partner rather than building a competing robot.",
+      "title": "Independent field-service and deployment support for autonomous agricultural weed-control robots",
+      "type": "deployment_service",
+      "unknowns": [
+        "Whether any target manufacturer permits independent deployment, mapping, maintenance, remote monitoring, or customer-facing operation.",
+        "Whether manufacturer warranties, software licenses, telemetry systems, and safety policies restrict third-party intervention.",
+        "Actual number of deployed robots in the target U.S. region, crop mix, operating season length, and service-call density.",
+        "Customer willingness to pay for commissioning, seasonal supervision, emergency response, maintenance coordination, or outcome-based contracts.",
+        "Gross margin after travel, insurance, training, tools, spare parts, downtime, weather delays, and seasonal labor.",
+        "Whether one operator can support enough robots and acres to produce viable utilization.",
+        "Whether farms prefer manufacturer support, distributors, custom operators, agronomists, or internal employees.",
+        "Robot uptime, weed-control efficacy, crop-damage rates, navigation failures, connectivity requirements, and intervention frequency under real field conditions.",
+        "Liability allocation for crop damage, collisions, worker injury, trespass, fire, cybersecurity incidents, or failed weed control.",
+        "Whether the proposed service is needed year-round or only during a short seasonal window.",
+        "Whether manufacturers will treat a local service provider as a channel partner or as a competitor and liability risk.",
+        "Comparable service prices and contract terms from Greenfield, FarmDroid, Robot One, Carbon Robotics, Naio, distributors, and custom farm operators.",
+        "Whether any target manufacturer will provide written authorization for third-party deployment, mapping, maintenance, remote monitoring, or customer-facing operation.",
+        "Actual service-contract scope, pricing, exclusions, warranty effects, and whether a local partner can retain margin after OEM/distributor participation.",
+        "Installed robot count, customer concentration, crop mix, acreage per robot, seasonality, service-call frequency, and route density in one defined territory.",
+        "A measured unit-economics model covering technician time, travel, training, insurance, tools, parts inventory, downtime, and customer service price.",
+        "Whether a farm will sign a paid pilot or deposit-backed test before the provider acquires equipment or hires staff.",
+        "Chile-specific importer/distributor/integrator participation terms and local parts and maintenance support.",
+        "Verified field outcomes: uptime, hectares per day, weed-control efficacy, crop damage, charging/connectivity reliability, and required human intervention by crop and terrain."
+      ],
+      "value_capture_mechanism": "Possible mechanisms include paid commissioning, seasonal field-operations support, maintenance coordination or deployment contracts. The evidence does not establish third-party resale rights, service prices, local demand or margins.",
+      "verified_sales": null,
+      "vertical": "robotics_agritech",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [
         "There is evidence of a real, identifiable Chilean customer universe: AgroUrbana operates controlled-environment vertical farming in Santiago, RanoKau operates an intelligent greenhouse and tests vertical technologies, and Campobello operates high-technology hydroponic greenhouses in Coquimbo. Sources: https://www.agrourbana.ag/, https://ranokau.com/, https://campobello.cl/. Artificial lighting is a material energy and peak-load issue in indoor farming, and published modeling supports the technical plausibility of flexible lighting schedules producing meaningful savings: https://arxiv.org/abs/2510.03686. Chilean electricity regulation recognizes commercial/industrial users with connected loads up to 5,000 kW, but the cited regulatory material does not establish the actual tariff structure or demand-charge exposure of target growers: https://www.bcn.cl/leychile/navegar?i=1212631. A measurement-first pilot limits capital risk and can test value without assuming that a new vertical farm is profitable."
       ],
       "critic_reviewed": true,
@@ -2663,67 +2760,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-12T00:16:18.701165+00:00",
-      "discovery_lens": "adoption_lag",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "The filing describes the BOTONY autonomous agricultural robot, 2025 leases to farms in seven states, 2026 purchase and lease orders, shipped units and an annual service contract.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Greenfield Robotics SEC filing",
-          "url": "https://www.sec.gov/Archives/edgar/data/1760404/000110465926075802/tm2617498d1_partiiandiii.htm"
-        },
-        {
-          "claim": "The distributor page lists the autonomous solar-powered seeding and weeding platform and a price of CAD 156,488.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "FarmDroid FD20",
-          "url": "https://www.haggertyagrobotics.com/farmdroid-fd20"
-        },
-        {
-          "claim": "The listing describes Robot One as a deployed laser-weeding system with direct-sales/distributor participation and a stated price range of USD 251,000-500,000.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "Robot One",
-          "url": "https://www.agricultural-robotics.com/robot/robot-one"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.82,
-      "falsification_conditions": [],
-      "geography": "United States; potentially other markets only after manufacturer authorization",
-      "id": "opp_99de522ad05d0e01cebc",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-12T00:16:18.708943+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Select one robot with a public purchase or lease route and contact its manufacturer or listed distributor for authorization requirements. Offer a narrowly defined pilot on one crop and one field: mapping, deployment checklist, uptime log and weed-control outcome measurement. Falsification step: before buying equipment, obtain a written indication that the manufacturer permits independent deployment support and secure one farm willing to provide a small test plot; if neither is obtainable, stop. Do not represent yourself as an authorized dealer or promise savings before measuring them.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "High-priced equipment creates a concrete operational bottleneck around field mapping, charging, remote monitoring, maintenance, operator training and seasonal deployment. The wedge is a local, manufacturer-authorized field-operations partner rather than building a competing robot.",
-      "title": "Independent field-service and deployment support for autonomous agricultural weed-control robots",
-      "type": "deployment_service",
-      "unknowns": [],
-      "value_capture_mechanism": "Possible mechanisms include paid commissioning, seasonal field-operations support, maintenance coordination or deployment contracts. The evidence does not establish third-party resale rights, service prices, local demand or margins.",
-      "verified_sales": null,
-      "vertical": "robotics_agritech",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-10T16:09:06.777917+00:00",
       "discovery_lens": "geographic_arbitrage",
       "estimated_capital": "",
@@ -3130,6 +3166,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-13T04:13:35.306242+00:00",
+      "discovery_lens": "open_finance_chile",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The CMF states that the June 1, 2026 modification adds the technical annex, specifies information exchange and payment initiation, publishes a developer portal, and postpones entry into force until July 2027 because of implementation complexity.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        },
+        {
+          "claim": "The CMF's NCG 514 page identifies the operative regulation governing Chile's Sistema de Finanzas Abiertas and records its July 3, 2024 issuance and current status as vigente.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Norma de Carácter General N°514: Norma que regula el Sistema de Finanzas Abiertas",
+          "url": "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.9,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_20f82e47fa9080b32bd2",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-13T04:13:35.319886+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Start without seeking production access or regulatory permissions: download the CMF NCG 514 materials and developer-portal specifications, build a small validator for one publicly specified data-exchange flow, and test it against self-created fixtures. Then contact Chilean fintechs, banks, cooperatives, card issuers, or implementation vendors only to ask whether they already possess an internal conformance harness and which test artifacts they must produce. Falsification threshold: stop if at least 10 relevant organizations or vendors show no need for external validation, already have equivalent tooling, or cannot identify a budget owner. The verifiable participation catalyst is the CMF's July 2027 implementation target and the publication of technical specifications; no buyer, sale, margin, or permission is assumed.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Financial institutions and regulated fintech participants will need to translate the CMF technical specifications into interoperable APIs, certificates, consent flows, testing procedures, and operational controls before the revised implementation date. A narrowly scoped testing and evidence asset could reduce integration rework and implementation risk without requiring the operator to become a regulated financial provider.",
+      "title": "Chile SFA conformance-testing wedge ahead of the July 2027 implementation date",
+      "type": "regulatory_implementation_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "A paid, fixed-scope conformance pack: API/schema validation, certificate and signature checks, consent-flow test cases, payment-initiation test cases where applicable, and an exportable evidence report for an institution's internal implementation team. The economic mechanism is payment for reduced engineering and compliance-validation effort; no public evidence establishes a standard price, procurement commitment, or guaranteed buyer.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-08T12:14:40.353799+00:00",
       "discovery_lens": "open_finance_chile",
       "estimated_capital": "",
@@ -3453,13 +3543,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-13T00:18:37.600845+00:00",
+  "generated_at": "2026-10-13T04:14:05.274092+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 23,
-  "reviewed_cards": 30,
+  "reviewed_cards": 31,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 68,
-  "watch": 45
+  "total_distinct_opportunities": 69,
+  "watch": 46
 }

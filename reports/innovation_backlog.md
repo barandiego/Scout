@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 45
+Candidates: 46
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -304,6 +304,18 @@ Candidates: 45
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836
 
+## Chile SFA conformance-testing wedge ahead of the July 2027 implementation date
+- Status: watch | open_finance_chile
+- Current idea: Financial institutions and regulated fintech participants will need to translate the CMF technical specifications into interoperable APIs, certificates, consent flows, testing procedures, and operational controls before the revised implementation date. A narrowly scoped testing and evidence asset could reduce integration rework and implementation risk without requiring the operator to become a regulated financial provider.
+- Potential economic capture: A paid, fixed-scope conformance pack: API/schema validation, certificate and signature checks, consent-flow test cases, payment-initiation test cases where applicable, and an exportable evidence report for an institution's internal implementation team. The economic mechanism is payment for reduced engineering and compliance-validation effort; no public evidence establishes a standard price, procurement commitment, or guaranteed buyer.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html
+
 ## Chile SFA implementation moves from rulemaking to build phase, but go-live is deferred to July 2027
 - Status: watch | open_finance_chile
 - Current idea: Value is shifting toward firms that can reduce implementation and compliance costs for banks, account-information providers, payment-initiation providers and smaller participants. The delay creates a longer pre-revenue integration window but also lowers immediate execution pressure.
@@ -516,7 +528,7 @@ Candidates: 45
   - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
   - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
   - Arrange a bounded field validation with an actual farm operator before scaling.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Whether any target manufacturer permits independent deployment, mapping, maintenance, remote monitoring, or customer-facing operation.; Whether manufacturer warranties, software licenses, telemetry systems, and safety policies restrict third-party intervention.; Actual number of deployed robots in the target U.S. region, crop mix, operating season length, and service-call density.
 - Possible initial budget:
 - Source URLs: https://www.sec.gov/Archives/edgar/data/1760404/000110465926075802/tm2617498d1_partiiandiii.htm; https://www.haggertyagrobotics.com/farmdroid-fd20; https://www.agricultural-robotics.com/robot/robot-one
 

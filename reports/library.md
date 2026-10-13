@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-13T00:18:37.600845+00:00
+Generated: 2026-10-13T04:14:05.274092+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 45 (0 HQ survivors, 45 watches)
+- Active research: 46 (0 HQ survivors, 46 watches)
 - Rejected opportunities excluded: 23
-- Critic-and-judge reviewed: 30
+- Critic-and-judge reviewed: 31
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -32,6 +32,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Whether any specific SFA participant has an unmet testing problem that is not already covered by ATENA, official CMF documentation, internal QA, or an incumbent impl; The number of entities that will actively participate before July 2027 and the subset with budget for external testing.; Whether ATENA provides executable test cases, test-data support, automated assertions, certification evidence, or only an environment and operational guidance.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836
+
+### Independent field-service and deployment support for autonomous agricultural weed-control robots [opp_99de522ad05d0e01cebc]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States; potentially other markets only after manufacturer authorization
+- Thesis: High-priced equipment creates a concrete operational bottleneck around field mapping, charging, remote monitoring, maintenance, operator training and seasonal deployment. The wedge is a local, manufacturer-authorized field-operations partner rather than building a competing robot.
+- Value capture: Possible mechanisms include paid commissioning, seasonal field-operations support, maintenance coordination or deployment contracts. The evidence does not establish third-party resale rights, service prices, local demand or margins.
+- Participation hypothesis: Select one robot with a public purchase or lease route and contact its manufacturer or listed distributor for authorization requirements. Offer a narrowly defined pilot on one crop and one field: mapping, deployment checklist, uptime log and weed-control outcome measurement. Falsification step: before buying equipment, obtain a written indication that the manufacturer permits independent deployment support and secure one farm willing to provide a small test plot; if neither is obtainable, stop. Do not represent yourself as an authorized dealer
+- Critic/judge: Commercial weed-control robots have evidence of early deployment and a specific support job exists—commissioning, field setup, uptime support, maintenance coordination, and operator training. However, the proposed independent-service business is not demonstrated. The cited manufacturers appear to bundle or retain important support functions, and there is no evidence of manufacturer authorization, local service rights, customer willingne
+- Next evidence gaps: Whether any target manufacturer permits independent deployment, mapping, maintenance, remote monitoring, or customer-facing operation.; Whether manufacturer warranties, software licenses, telemetry systems, and safety policies restrict third-party intervention.; Actual number of deployed robots in the target U.S. region, crop mix, operating season length, and service-call density.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/1760404/000110465926075802/tm2617498d1_partiiandiii.htm; https://www.haggertyagrobotics.com/farmdroid-fd20; https://www.agricultural-robotics.com/robot/robot-one
 
 ### Indoor-farm lighting and energy audit wedge for existing Chilean growers [opp_6c994db30cf257cb79ff]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile
@@ -323,16 +333,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://ferc.gov/media/ferc-order-no-2222-fact-sheet; https://www.ferc.gov/ferc-order-no-2222-explainer-facilitating-participation-electricity-markets-distributed-energy; https://ferc.gov/news-events/news/ferc-acts-first-order-no-2222-compliance-filings
 
-### Independent field-service and deployment support for autonomous agricultural weed-control robots [opp_99de522ad05d0e01cebc]
-- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States; potentially other markets only after manufacturer authorization
-- Thesis: High-priced equipment creates a concrete operational bottleneck around field mapping, charging, remote monitoring, maintenance, operator training and seasonal deployment. The wedge is a local, manufacturer-authorized field-operations partner rather than building a competing robot.
-- Value capture: Possible mechanisms include paid commissioning, seasonal field-operations support, maintenance coordination or deployment contracts. The evidence does not establish third-party resale rights, service prices, local demand or margins.
-- Participation hypothesis: Select one robot with a public purchase or lease route and contact its manufacturer or listed distributor for authorization requirements. Offer a narrowly defined pilot on one crop and one field: mapping, deployment checklist, uptime log and weed-control outcome measurement. Falsification step: before buying equipment, obtain a written indication that the manufacturer permits independent deployment support and secure one farm willing to provide a small test plot; if neither is obtainable, stop. Do not represent yourself as an authorized dealer
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/1760404/000110465926075802/tm2617498d1_partiiandiii.htm; https://www.haggertyagrobotics.com/farmdroid-fd20; https://www.agricultural-robotics.com/robot/robot-one
-
 ### Narrow Chilean e-commerce returns-recovery test for one product category [opp_fa54176321cf12d8b287]
 - Status: WATCH_REQUIRES_VALIDATION | ecommerce_niches | Chile
 - Thesis: There may be recoverable value in returned, refused, or lightly damaged inventory, but the evidence does not establish a standalone Chilean market, buyer, or margin. The executable wedge is a tightly bounded consignment experiment with one seller and one category, not a broad returns marketplace.
@@ -402,6 +402,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html
+
+### Chile SFA conformance-testing wedge ahead of the July 2027 implementation date [opp_20f82e47fa9080b32bd2]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Financial institutions and regulated fintech participants will need to translate the CMF technical specifications into interoperable APIs, certificates, consent flows, testing procedures, and operational controls before the revised implementation date. A narrowly scoped testing and evidence asset could reduce integration rework and implementation risk without requiring the operator to become a regulated financial provider.
+- Value capture: A paid, fixed-scope conformance pack: API/schema validation, certificate and signature checks, consent-flow test cases, payment-initiation test cases where applicable, and an exportable evidence report for an institution's internal implementation team. The economic mechanism is payment for reduced engineering and compliance-validation effort; no public evidence establishes a standard price, procurement commitment, or guaranteed buyer.
+- Participation hypothesis: Start without seeking production access or regulatory permissions: download the CMF NCG 514 materials and developer-portal specifications, build a small validator for one publicly specified data-exchange flow, and test it against self-created fixtures. Then contact Chilean fintechs, banks, cooperatives, card issuers, or implementation vendors only to ask whether they already possess an internal conformance harness and which test artifacts they must produce. Falsification threshold: stop if at least 10 relevant organizations or vendors show no n
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html
 
 ### Chile SFA implementation moves from rulemaking to integration testing [opp_82f282d8dc0896390ee7]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
