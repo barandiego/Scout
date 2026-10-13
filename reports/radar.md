@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-13T16:44:59.606564+00:00
+Generated: 2026-10-13T20:58:21.092987+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
-- Rolling leads: 1385
-- New this cycle: 108
+- Rolling leads: 1432
+- New this cycle: 98
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): github_energy:unavailable_or_invalid
-- Categories: agriculture 194, ai 282, commerce 33, energy 438, robotics 438
+- Feed failures (fail-open for public intake only): none
+- Categories: agriculture 202, ai 285, commerce 33, energy 454, robotics 458
 
 ## Recently encountered signals
 
@@ -148,6 +148,12 @@ Generated: 2026-10-13T16:44:59.606564+00:00
 - Source: https://doi.org/10.66506/essp.172
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### chandan2208/FarmIQ
+- Source: https://github.com/chandan2208/FarmIQ
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
 
 ### Coordinated Daily Battery and Seasonal Hydrogen Storage with Integrated Waste Heat Recovery for Resilient Renewable-Powered Multi-Energy Data Centers
@@ -438,26 +444,20 @@ Generated: 2026-10-13T16:44:59.606564+00:00
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
 
-### menatisathish259-debug/smart-jasmine-assistant
-- Source: https://github.com/menatisathish259-debug/smart-jasmine-assistant
+### adityabhatwan3-oss/Agrovoer-
+- Source: https://github.com/adityabhatwan3-oss/Agrovoer-
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
 
-### Srilakshmi-oss/agrisafe-website
-- Source: https://github.com/Srilakshmi-oss/agrisafe-website
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+### Simulation-Based Battery Capacity Optimization for Electric Vehicle Hybrid Energy Storage Applications
+- Source: https://doi.org/10.1109/elecris70177.2026.11721901
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
-### enghelnagar/matlab-cartesian-kinematic-control
-- Source: https://github.com/enghelnagar/matlab-cartesian-kinematic-control
-- Domain: robotics | Suggested angle: Chile import/distribution or local integration
-- First test: Check installed base, Chilean competitors, supplier pricing, certification and actual buyer budgets.
-- Status: **unverified research lead**
-
-### Ahmdhatem/ahmed-hatem-portfolio
-- Source: https://github.com/Ahmdhatem/ahmed-hatem-portfolio
-- Domain: robotics | Suggested angle: Chile import/distribution or local integration
-- First test: Check installed base, Chilean competitors, supplier pricing, certification and actual buyer budgets.
+### 1clickit/Solar-Digital-Twin-Research
+- Source: https://github.com/1clickit/Solar-Digital-Twin-Research
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
