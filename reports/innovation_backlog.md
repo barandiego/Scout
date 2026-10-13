@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 49
+Candidates: 51
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -28,18 +28,6 @@ Candidates: 49
 - Possible initial budget:
 - Source URLs: https://www.aither.cl/tap/; https://www.ondda.cl/; https://publico.transbank.cl/productos-y-servicios/soluciones-para-ventas-presenciales/autoservicio-estandar
 
-## Marketplace-native product discovery wedge for Natura-adjacent beauty sellers
-- Status: watch | ecommerce_niches
-- Current idea: The evidence supports a concrete distribution change—not a generic beauty-market trend: a major brand is adding a large marketplace channel. A small operator could test a narrowly scoped product-discovery asset such as Spanish comparison pages, routine bundles, or gift-selection landing pages that link to the authorized Falabella or Natura purchase route. Monetization is not established by the evidence; affiliate access, referral attribution, or paid placement must be confirmed before treating this as a business.
-- Potential economic capture: Potential mechanisms include authorized affiliate/referral commissions, lead generation for beauty consultants, or a paid content/merchandising arrangement. None is verified here. The defensible asset would be a maintained comparison/routine dataset and search-distribution channel, not ownership of Natura inventory or permission to use its trademarks beyond applicable platform rules.
-- **Research routes to test (NOT validated claims):**
-  - Target a specific neglected customer subgroup with a measurable unmet product requirement.
-  - Compare imported/private-label, inventoryless fulfillment and existing domestic suppliers after landed costs.
-  - Test one narrower search/intention channel before expanding catalog or buying inventory.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://www.falabella.com/falabella-cl/brand/NATURA?sid=CP_V1_NAT_3052; https://www.natura.cl/encuentra-natura
-
 ## Narrow Chilean e-commerce returns-recovery test for one product category
 - Status: watch | ecommerce_niches
 - Current idea: There may be recoverable value in returned, refused, or lightly damaged inventory, but the evidence does not establish a standalone Chilean market, buyer, or margin. The executable wedge is a tightly bounded consignment experiment with one seller and one category, not a broad returns marketplace.
@@ -51,6 +39,18 @@ Candidates: 49
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.fne.gob.cl/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-plataformas/; https://group.dhl.com/content/dam/deutschepostdhl/en/media-center/media-relations/documents/2025/e-commerce-trends-report-2025-business-edition.pdf; https://www.trade.gov/country-commercial-guides/chile-ecommerce
+
+## 15-minute demand-charge diagnostic and retrofit kit for Chilean commercial sites
+- Status: watch | energy_infrastructure
+- Current idea: A site with a short, avoidable power spike can pay recurring demand-related charges even when total monthly energy consumption is moderate. The concrete wedge is not generic energy consulting: obtain interval data and bills, identify the top avoidable peaks, then sell a fixed diagnostic plus an installable control package such as load sequencing, scheduled charging, or a small battery/controller retrofit.
+- Potential economic capture: Charge for a paid bill-and-interval-data audit, then earn from implementation through a fixed-fee control retrofit or a documented share of verified bill savings. Do not assume savings until a baseline and tariff calculation are completed.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.bcn.cl/leychile/navegar?i=1212631; https://www.cne.cl/tarificacion/electrica/
 
 ## BESS and inverter compliance pre-check for Chilean distributed-energy projects
 - Status: watch | energy_infrastructure
@@ -99,6 +99,18 @@ Candidates: 49
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.coordinador.cl/operacion/documentos/reducciones-de-generacion-renovable/; https://www.coordinador.cl/novedades/coordinador-electrico-presenta-informe-de-monitoreo-de-la-competencia-con-desafios-estructurales/; https://www.spec.cl/en/publicaciones/2026-almacenamiento-corta-duracion/
+
+## Public-building ESCO measurement and verification subcontractor
+- Status: watch | energy_infrastructure
+- Current idea: Small operators can participate without financing or owning a full ESCO by selling a narrow asset: baseline creation, meter-data cleaning, savings calculation, and post-installation verification for an existing contractor or sponsoring entity. The payer would need to be an identified ESCO, engineering contractor, sponsoring entity or public-project bidder—not an assumed government customer.
+- Potential economic capture: Sell a fixed-scope measurement-and-verification package: site data inventory, baseline model, monthly dashboard and savings-verification report. A second revenue source may be project documentation support, but only where a named contractor or sponsoring entity confirms procurement and payment terms.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://atencionciudadana.minenergia.cl/tramites/informacion/20; https://www.minvu.gob.cl/postulacion/llamado-eficiencia-energetica-y-acondicionamiento-termico-ds-27-ano-2025/
 
 ## AI and data-center growth are making electricity and grid access a binding cost constraint
 - Status: watch | general
@@ -459,6 +471,18 @@ Candidates: 49
 - Critical gaps: Number of entities required to participate in each role and implementation phase.; Whether CMF's ATENA sandbox will expose automated pass/fail conformance results sufficient for production acceptance.; Whether any participant, bank, fintech, processor, or systems integrator has a budget or procurement category for third-party conformance tooling.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
+
+## Open-finance implementation test pack for Chilean fintechs
+- Status: watch | open_finance_chile
+- Current idea: The actionable wedge is a conformance-testing and data-mapping asset for one regulated or intending-to-register participant: API request/response fixtures, consent and authorization test cases, field-level mapping, error logs and a reproducible sandbox test report. This is narrower and cheaper to validate than building a consumer finance app before the system is operational.
+- Potential economic capture: Sell a fixed-price technical readiness assessment or test pack to a named fintech, bank vendor or integration contractor. Potential follow-on work is implementation, but no buyer, fee or permission should be assumed until an operator confirms that the organization must prepare for the OFS technical requirements.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
 
 ## Pre-compliance monitoring for Chile’s Open Finance implementation
 - Status: watch | open_finance_chile

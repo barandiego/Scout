@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-13T16:14:09.131937+00:00
+Generated: 2026-10-13T20:22:46.541668+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 49 (0 HQ survivors, 49 watches)
-- Rejected opportunities excluded: 24
+- Active research: 51 (0 HQ survivors, 51 watches)
+- Rejected opportunities excluded: 25
 - Critic-and-judge reviewed: 33
 - Autonomous execution authorization: 0
 
@@ -413,6 +413,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sec.gov/newsroom/speeches-statements/corp-fin-statement-tokenized-securities-012826-statement-tokenized-securities; https://www.sec.gov/newsroom/speeches-statements/peirce-tm-faq-051525; https://www.sec.gov/newsroom/speeches-statements/peirce-121125-tokenization-trending-statement-division-trading-markets-no-action-letter-related-dtcs-development
 
+### 15-minute demand-charge diagnostic and retrofit kit for Chilean commercial sites [opp_5c54bef099722659c2b1]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile, initially regulated commercial customers on BT/AT demand tariffs
+- Thesis: A site with a short, avoidable power spike can pay recurring demand-related charges even when total monthly energy consumption is moderate. The concrete wedge is not generic energy consulting: obtain interval data and bills, identify the top avoidable peaks, then sell a fixed diagnostic plus an installable control package such as load sequencing, scheduled charging, or a small battery/controller retrofit.
+- Value capture: Charge for a paid bill-and-interval-data audit, then earn from implementation through a fixed-fee control retrofit or a documented share of verified bill savings. Do not assume savings until a baseline and tariff calculation are completed.
+- Participation hypothesis: Start with one small commercial site that already has 15-minute meter data. Ask for 12 months of bills and interval exports; reproduce the billed demand components in a spreadsheet; identify whether one controllable load caused material peaks. Before buying hardware, run a two-week manual or software-only test using alerts and operator load-shifting. Falsify if no site shows a controllable peak, if the tariff calculation cannot be reproduced, or if the maximum possible saving is smaller than the customer’s willingness to pay for the audit. Only
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.bcn.cl/leychile/navegar?i=1212631; https://www.cne.cl/tarificacion/electrica/
+
 ### BESS eligibility and supply-chain documentation package for 48E/45X projects [opp_635d375465c7228c0ffd]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States
 - Thesis: Developers and equipment buyers must prove component origin, eligibility and material-assistance status before relying on tax-credit economics. The concrete bottleneck is evidence management rather than general consulting.
@@ -483,15 +493,25 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://arxiv.org/abs/2509.25056; https://www.agricultural-robotics.com/robot/zurama-ai-inrow-weeder
 
-### Marketplace-native product discovery wedge for Natura-adjacent beauty sellers [opp_075a39503d7a5bad0f1d]
-- Status: WATCH_REQUIRES_VALIDATION | ecommerce_niches | Chile
-- Thesis: The evidence supports a concrete distribution change—not a generic beauty-market trend: a major brand is adding a large marketplace channel. A small operator could test a narrowly scoped product-discovery asset such as Spanish comparison pages, routine bundles, or gift-selection landing pages that link to the authorized Falabella or Natura purchase route. Monetization is not established by the evidence; affiliate access, referral attribution, or paid placement must be confirmed before treating this as a business.
-- Value capture: Potential mechanisms include authorized affiliate/referral commissions, lead generation for beauty consultants, or a paid content/merchandising arrangement. None is verified here. The defensible asset would be a maintained comparison/routine dataset and search-distribution channel, not ownership of Natura inventory or permission to use its trademarks beyond applicable platform rules.
-- Participation hypothesis: Lowest-cost falsification: build one neutral, non-branded comparison page for a tightly defined use case—such as gifts under a stated CLP budget—using only publicly listed product facts and links to the official Natura or Falabella purchase pages. Test organic search and direct sharing with a small audience; measure outbound clicks and ask Natura/Falabella or an affiliate network whether attributable referrals can be compensated. Do not buy inventory, scrape restricted data, imply endorsement, or forecast commissions before a written program or
+### Open-finance implementation test pack for Chilean fintechs [opp_defb3b9b7ca243658e89]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: The actionable wedge is a conformance-testing and data-mapping asset for one regulated or intending-to-register participant: API request/response fixtures, consent and authorization test cases, field-level mapping, error logs and a reproducible sandbox test report. This is narrower and cheaper to validate than building a consumer finance app before the system is operational.
+- Value capture: Sell a fixed-price technical readiness assessment or test pack to a named fintech, bank vendor or integration contractor. Potential follow-on work is implementation, but no buyer, fee or permission should be assumed until an operator confirms that the organization must prepare for the OFS technical requirements.
+- Participation hypothesis: Download the CMF technical material and developer documentation, build a small local test harness for one required data-sharing flow, and publish a redacted example report. Contact five Chilean fintechs or banking-integration vendors whose products visibly depend on account or payment data; ask whether they will pay for a one-week gap assessment. Falsify if the documentation is not sufficiently stable to implement a test case, if target firms already have internal tooling, or if none will provide a paid pilot or concrete integration requirement
 - Critic/judge: deferred_by_review_cap
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.falabella.com/falabella-cl/brand/NATURA?sid=CP_V1_NAT_3052; https://www.natura.cl/encuentra-natura
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
+
+### Public-building ESCO measurement and verification subcontractor [opp_bf2c12a513145f51fe3a]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile, public buildings and municipalities with measurable electricity or thermal consumption
+- Thesis: Small operators can participate without financing or owning a full ESCO by selling a narrow asset: baseline creation, meter-data cleaning, savings calculation, and post-installation verification for an existing contractor or sponsoring entity. The payer would need to be an identified ESCO, engineering contractor, sponsoring entity or public-project bidder—not an assumed government customer.
+- Value capture: Sell a fixed-scope measurement-and-verification package: site data inventory, baseline model, monthly dashboard and savings-verification report. A second revenue source may be project documentation support, but only where a named contractor or sponsoring entity confirms procurement and payment terms.
+- Participation hypothesis: Use ChileCompra and public tender records to identify one active or recently awarded building-efficiency project, then contact the named winning bidder or sponsoring entity with a sample five-page M&V report built from public building data. Offer a paid pilot on one building using existing invoices and meter readings. Falsify if no active bidder will disclose a subcontracting need, if required data cannot be accessed, or if the project contract does not recognize measurement or reporting as a paid deliverable.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://atencionciudadana.minenergia.cl/tramites/informacion/20; https://www.minvu.gob.cl/postulacion/llamado-eficiencia-energetica-y-acondicionamiento-termico-ds-27-ano-2025/
 
 ### Tokenized unified-ledger infrastructure is moving from concept toward financial-market architecture [opp_993ac5d080c7042af44c]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Global; Chile relevance through future interoperable financial-data and payment infrastructure

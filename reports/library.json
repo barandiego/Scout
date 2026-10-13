@@ -3307,6 +3307,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-13T20:22:30.984395+00:00",
+      "discovery_lens": "energy_localization",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Defines 15-minute maximum demand measurements and demand-related tariff components for Chilean electricity customers.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Decreto 5; electricity tariff definitions and demand-charge rules",
+          "url": "https://www.bcn.cl/leychile/navegar?i=1212631"
+        },
+        {
+          "claim": "Explains regulated electricity pricing, distribution charges and the distinction between energy, capacity and customer categories.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Comisión Nacional de Energía: Electric tariff framework",
+          "url": "https://www.cne.cl/tarificacion/electrica/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.9,
+      "falsification_conditions": [],
+      "geography": "Chile, initially regulated commercial customers on BT/AT demand tariffs",
+      "id": "opp_5c54bef099722659c2b1",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-13T20:22:31.011280+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Start with one small commercial site that already has 15-minute meter data. Ask for 12 months of bills and interval exports; reproduce the billed demand components in a spreadsheet; identify whether one controllable load caused material peaks. Before buying hardware, run a two-week manual or software-only test using alerts and operator load-shifting. Falsify if no site shows a controllable peak, if the tariff calculation cannot be reproduced, or if the maximum possible saving is smaller than the customer’s willingness to pay for the audit. Only after a written customer acceptance of the measured baseline should the operator source a controller or battery installer.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A site with a short, avoidable power spike can pay recurring demand-related charges even when total monthly energy consumption is moderate. The concrete wedge is not generic energy consulting: obtain interval data and bills, identify the top avoidable peaks, then sell a fixed diagnostic plus an installable control package such as load sequencing, scheduled charging, or a small battery/controller retrofit.",
+      "title": "15-minute demand-charge diagnostic and retrofit kit for Chilean commercial sites",
+      "type": "service_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Charge for a paid bill-and-interval-data audit, then earn from implementation through a fixed-fee control retrofit or a documented share of verified bill savings. Do not assume savings until a baseline and tariff calculation are completed.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-13T00:18:11.643684+00:00",
       "discovery_lens": "energy_industrial",
       "estimated_capital": "",
@@ -3685,34 +3739,34 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-12T08:15:12.301934+00:00",
-      "discovery_lens": "market_positioning",
+      "discovered_at": "2026-10-13T20:22:30.986436+00:00",
+      "discovery_lens": "wildcard",
       "estimated_capital": "",
       "estimated_founder_hours_initial": "",
       "estimated_founder_hours_ongoing": "",
       "evidence": [
         {
-          "claim": "Falabella exposes a public Natura marketplace catalog covering fragrance, body care, hair care, skincare, gifts, prices, discounts, and product discovery.",
+          "claim": "Reports the June 2026 amendment, technical annex, developer portal and July 2027 entry-into-force timing.",
           "grounded_in_provider_search": true,
           "source_type": "primary",
-          "title": "Natura Chile | Falabella Chile",
-          "url": "https://www.falabella.com/falabella-cl/brand/NATURA?sid=CP_V1_NAT_3052"
+          "title": "CMF amends regulation on Open Finance System and incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
         },
         {
-          "claim": "Natura's own site identifies its continuing channels as beauty consultants, Natura stores, Natura.cl, and its app, and displays live product prices and promotions.",
+          "claim": "Identifies Open Finance technical annexes and related implementation work as regulatory priorities.",
           "grounded_in_provider_search": true,
           "source_type": "primary",
-          "title": "Natura Chile",
-          "url": "https://www.natura.cl/encuentra-natura"
+          "title": "CMF 2025-2026 Regulatory Plan",
+          "url": "https://cmfchile.cl/portal/principal/613/w3-article-92556.html"
         }
       ],
-      "evidence_confidence_model_estimate": 0.82,
+      "evidence_confidence_model_estimate": 0.93,
       "falsification_conditions": [],
       "geography": "Chile",
-      "id": "opp_075a39503d7a5bad0f1d",
+      "id": "opp_defb3b9b7ca243658e89",
       "judge_reviewed": false,
       "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-12T08:15:12.314303+00:00",
+      "last_record_updated_at": "2026-10-13T20:22:31.011056+00:00",
       "material_update": false,
       "missing_execution_proof": [
         "independent_critic_and_judge",
@@ -3721,16 +3775,70 @@
       "next_validation_questions": [
         "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
       ],
-      "participation_path": "Lowest-cost falsification: build one neutral, non-branded comparison page for a tightly defined use case—such as gifts under a stated CLP budget—using only publicly listed product facts and links to the official Natura or Falabella purchase pages. Test organic search and direct sharing with a small audience; measure outbound clicks and ask Natura/Falabella or an affiliate network whether attributable referrals can be compensated. Do not buy inventory, scrape restricted data, imply endorsement, or forecast commissions before a written program or observed tracked conversion exists.",
+      "participation_path": "Download the CMF technical material and developer documentation, build a small local test harness for one required data-sharing flow, and publish a redacted example report. Contact five Chilean fintechs or banking-integration vendors whose products visibly depend on account or payment data; ask whether they will pay for a one-week gap assessment. Falsify if the documentation is not sufficiently stable to implement a test case, if target firms already have internal tooling, or if none will provide a paid pilot or concrete integration requirement. Do not access real customer data or represent the test harness as CMF-certified.",
       "research_status": "WATCH_REQUIRES_VALIDATION",
       "status": "watch",
-      "thesis": "The evidence supports a concrete distribution change—not a generic beauty-market trend: a major brand is adding a large marketplace channel. A small operator could test a narrowly scoped product-discovery asset such as Spanish comparison pages, routine bundles, or gift-selection landing pages that link to the authorized Falabella or Natura purchase route. Monetization is not established by the evidence; affiliate access, referral attribution, or paid placement must be confirmed before treating this as a business.",
-      "title": "Marketplace-native product discovery wedge for Natura-adjacent beauty sellers",
-      "type": "assortment_and_content_asset",
+      "thesis": "The actionable wedge is a conformance-testing and data-mapping asset for one regulated or intending-to-register participant: API request/response fixtures, consent and authorization test cases, field-level mapping, error logs and a reproducible sandbox test report. This is narrower and cheaper to validate than building a consumer finance app before the system is operational.",
+      "title": "Open-finance implementation test pack for Chilean fintechs",
+      "type": "compliance_asset",
       "unknowns": [],
-      "value_capture_mechanism": "Potential mechanisms include authorized affiliate/referral commissions, lead generation for beauty consultants, or a paid content/merchandising arrangement. None is verified here. The defensible asset would be a maintained comparison/routine dataset and search-distribution channel, not ownership of Natura inventory or permission to use its trademarks beyond applicable platform rules.",
+      "value_capture_mechanism": "Sell a fixed-price technical readiness assessment or test pack to a named fintech, bank vendor or integration contractor. Potential follow-on work is implementation, but no buyer, fee or permission should be assumed until an operator confirms that the organization must prepare for the OFS technical requirements.",
       "verified_sales": null,
-      "vertical": "ecommerce_niches",
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-13T20:22:30.985476+00:00",
+      "discovery_lens": "energy_localization",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "States that public services can implement energy-efficiency and renewable-energy measures under the ESCO model and finance them from generated savings.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Ministry of Energy: Public-building ESCO competition",
+          "url": "https://atencionciudadana.minenergia.cl/tramites/informacion/20"
+        },
+        {
+          "claim": "Documents a 2025 program, application process and sponsoring-entity role for energy-efficiency and thermal-conditioning projects.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "MINVU: 2025 energy-efficiency and thermal-conditioning call",
+          "url": "https://www.minvu.gob.cl/postulacion/llamado-eficiencia-energetica-y-acondicionamiento-termico-ds-27-ano-2025/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.84,
+      "falsification_conditions": [],
+      "geography": "Chile, public buildings and municipalities with measurable electricity or thermal consumption",
+      "id": "opp_bf2c12a513145f51fe3a",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-13T20:22:31.011476+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use ChileCompra and public tender records to identify one active or recently awarded building-efficiency project, then contact the named winning bidder or sponsoring entity with a sample five-page M&V report built from public building data. Offer a paid pilot on one building using existing invoices and meter readings. Falsify if no active bidder will disclose a subcontracting need, if required data cannot be accessed, or if the project contract does not recognize measurement or reporting as a paid deliverable.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Small operators can participate without financing or owning a full ESCO by selling a narrow asset: baseline creation, meter-data cleaning, savings calculation, and post-installation verification for an existing contractor or sponsoring entity. The payer would need to be an identified ESCO, engineering contractor, sponsoring entity or public-project bidder—not an assumed government customer.",
+      "title": "Public-building ESCO measurement and verification subcontractor",
+      "type": "contracted_service",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell a fixed-scope measurement-and-verification package: site data inventory, baseline model, monthly dashboard and savings-verification report. A second revenue source may be project documentation support, but only where a named contractor or sponsoring entity confirms procurement and payment terms.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -3792,13 +3900,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-13T16:14:09.131937+00:00",
+  "generated_at": "2026-10-13T20:22:46.541668+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 24,
+  "rejected_excluded": 25,
   "reviewed_cards": 33,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 73,
-  "watch": 49
+  "total_distinct_opportunities": 76,
+  "watch": 51
 }

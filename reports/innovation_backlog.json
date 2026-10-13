@@ -82,42 +82,6 @@
       "category": "ecommerce_niches",
       "commercially_validated": false,
       "competition_confirmed": false,
-      "current_participation_path": "Lowest-cost falsification: build one neutral, non-branded comparison page for a tightly defined use case—such as gifts under a stated CLP budget—using only publicly listed product facts and links to the official Natura or Falabella purchase pages. Test organic search and direct sharing with a small audience; measure outbound clicks and ask Natura/Falabella or an affiliate network whether attributable referrals can be compensated. Do not buy inventory, scrape restricted data, imply endorsement, or forecast commissions before a written program or observed tracked conversion exists.",
-      "current_thesis": "The evidence supports a concrete distribution change—not a generic beauty-market trend: a major brand is adding a large marketplace channel. A small operator could test a narrowly scoped product-discovery asset such as Spanish comparison pages, routine bundles, or gift-selection landing pages that link to the authorized Falabella or Natura purchase route. Monetization is not established by the evidence; affiliate access, referral attribution, or paid placement must be confirmed before treating this as a business.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "Chile",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "Marketplace-native product discovery wedge for Natura-adjacent beauty sellers",
-      "opportunity_id": "opp_075a39503d7a5bad0f1d",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Target a specific neglected customer subgroup with a measurable unmet product requirement.",
-        "Compare imported/private-label, inventoryless fulfillment and existing domestic suppliers after landed costs.",
-        "Test one narrower search/intention channel before expanding catalog or buying inventory."
-      ],
-      "supporting_source_urls": [
-        "https://www.falabella.com/falabella-cl/brand/NATURA?sid=CP_V1_NAT_3052",
-        "https://www.natura.cl/encuentra-natura"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "Potential mechanisms include authorized affiliate/referral commissions, lead generation for beauty consultants, or a paid content/merchandising arrangement. None is verified here. The defensible asset would be a maintained comparison/routine dataset and search-distribution channel, not ownership of Natura inventory or permission to use its trademarks beyond applicable platform rules.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "ecommerce_niches",
-      "commercially_validated": false,
-      "competition_confirmed": false,
       "current_participation_path": "Approach one small Chilean seller with a documented returns problem and request a no-purchase pilot of 10–30 units from a single category. Record condition, handling cost, time to relist, sale price, refunds, and unsold inventory. Use the seller’s existing marketplace account or a pre-approved outlet rather than assuming permission to resell. Falsify at the lowest cost by asking five sellers for anonymized counts of returned units and whether they would release a small batch on consignment; stop if no seller provides inventory, resale permissions, or a verifiable disposition price.",
       "current_thesis": "There may be recoverable value in returned, refused, or lightly damaged inventory, but the evidence does not establish a standalone Chilean market, buyer, or margin. The executable wedge is a tightly bounded consignment experiment with one seller and one category, not a broad returns marketplace.",
       "founder_hours_initial_unverified_estimate": "",
@@ -148,6 +112,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Inspect, grade, relist, bundle, or route a small batch of returned goods through an existing marketplace or the original seller’s outlet. Cash flow would come only from an agreed consignment fee or realized resale proceeds; buyer, acceptance rate, and margin remain unknown and must be tested.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "energy_infrastructure",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Start with one small commercial site that already has 15-minute meter data. Ask for 12 months of bills and interval exports; reproduce the billed demand components in a spreadsheet; identify whether one controllable load caused material peaks. Before buying hardware, run a two-week manual or software-only test using alerts and operator load-shifting. Falsify if no site shows a controllable peak, if the tariff calculation cannot be reproduced, or if the maximum possible saving is smaller than the customer’s willingness to pay for the audit. Only after a written customer acceptance of the measured baseline should the operator source a controller or battery installer.",
+      "current_thesis": "A site with a short, avoidable power spike can pay recurring demand-related charges even when total monthly energy consumption is moderate. The concrete wedge is not generic energy consulting: obtain interval data and bills, identify the top avoidable peaks, then sell a fixed diagnostic plus an installable control package such as load sequencing, scheduled charging, or a small battery/controller retrofit.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile, initially regulated commercial customers on BT/AT demand tariffs",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "15-minute demand-charge diagnostic and retrofit kit for Chilean commercial sites",
+      "opportunity_id": "opp_5c54bef099722659c2b1",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
+        "Compare owned asset, installer/distributor and project-finance participation.",
+        "Verify permits and installed net payback under conservative power price scenarios."
+      ],
+      "supporting_source_urls": [
+        "https://www.bcn.cl/leychile/navegar?i=1212631",
+        "https://www.cne.cl/tarificacion/electrica/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Charge for a paid bill-and-interval-data audit, then earn from implementation through a fixed-fee control retrofit or a documented share of verified bill savings. Do not assume savings until a baseline and tariff calculation are completed.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -299,6 +299,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "A reproducible Chile-specific dataset and screening report that joins CEN curtailment records to plant metadata and calculates candidate storage-loading hours, avoided curtailed MWh scenarios and diligence flags. A payer could be a renewable-project developer, investor or engineering firm, but willingness to pay is unverified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "energy_infrastructure",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Use ChileCompra and public tender records to identify one active or recently awarded building-efficiency project, then contact the named winning bidder or sponsoring entity with a sample five-page M&V report built from public building data. Offer a paid pilot on one building using existing invoices and meter readings. Falsify if no active bidder will disclose a subcontracting need, if required data cannot be accessed, or if the project contract does not recognize measurement or reporting as a paid deliverable.",
+      "current_thesis": "Small operators can participate without financing or owning a full ESCO by selling a narrow asset: baseline creation, meter-data cleaning, savings calculation, and post-installation verification for an existing contractor or sponsoring entity. The payer would need to be an identified ESCO, engineering contractor, sponsoring entity or public-project bidder—not an assumed government customer.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile, public buildings and municipalities with measurable electricity or thermal consumption",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Public-building ESCO measurement and verification subcontractor",
+      "opportunity_id": "opp_bf2c12a513145f51fe3a",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
+        "Compare owned asset, installer/distributor and project-finance participation.",
+        "Verify permits and installed net payback under conservative power price scenarios."
+      ],
+      "supporting_source_urls": [
+        "https://atencionciudadana.minenergia.cl/tramites/informacion/20",
+        "https://www.minvu.gob.cl/postulacion/llamado-eficiencia-energetica-y-acondicionamiento-termico-ds-27-ano-2025/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a fixed-scope measurement-and-verification package: site data inventory, baseline model, monthly dashboard and savings-verification report. A second revenue source may be project documentation support, but only where a named contractor or sponsoring entity confirms procurement and payment terms.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -1487,6 +1523,42 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Download the CMF technical material and developer documentation, build a small local test harness for one required data-sharing flow, and publish a redacted example report. Contact five Chilean fintechs or banking-integration vendors whose products visibly depend on account or payment data; ask whether they will pay for a one-week gap assessment. Falsify if the documentation is not sufficiently stable to implement a test case, if target firms already have internal tooling, or if none will provide a paid pilot or concrete integration requirement. Do not access real customer data or represent the test harness as CMF-certified.",
+      "current_thesis": "The actionable wedge is a conformance-testing and data-mapping asset for one regulated or intending-to-register participant: API request/response fixtures, consent and authorization test cases, field-level mapping, error logs and a reproducible sandbox test report. This is narrower and cheaper to validate than building a consumer finance app before the system is operational.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Open-finance implementation test pack for Chilean fintechs",
+      "opportunity_id": "opp_defb3b9b7ca243658e89",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://cmfchile.cl/portal/principal/613/w3-article-92556.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a fixed-price technical readiness assessment or test pack to a named fintech, bank vendor or integration contractor. Potential follow-on work is implementation, but no buyer, fee or permission should be assumed until an operator confirms that the organization must prepare for the OFS technical requirements.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use only the public CMF Banks API and the public SFA participant-directory documentation to build a one-week prototype that records participant/API changes and produces a dated change log. Publish a sample report and contact 10 Chilean fintechs, banking-software vendors or compliance providers for paid pilot commitments. Falsify if fewer than two qualified prospects agree to review the prototype or no prospect identifies a recurring implementation decision it would pay to monitor. Do not represent the prototype as CMF-authorized or as an SFA participant.",
       "current_thesis": "A narrow monitoring asset could help fintechs, banks, integrators and compliance teams track participant registration, endpoint changes, implementation milestones and bank-data availability before mandatory operation. The evidence supports an information-access wedge, not yet a confirmed paying market.",
       "founder_hours_initial_unverified_estimate": "",
@@ -1910,7 +1982,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-13T16:14:09.167154+00:00",
+  "generated_at": "2026-10-13T20:22:46.579612+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"
