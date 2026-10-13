@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 47
+Candidates: 49
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -15,6 +15,18 @@ Candidates: 47
 - Critical gaps: The issuer associated with CIK 2110029 is not identified by name in the opportunity record, making independent issuer-level analysis incomplete.; Powell's exact data-center revenue, backlog percentage, customer concentration, contract cancellation provisions, payment milestones, gross margins, and expected conversion schedule are unknown.; The identity and credit quality of the customer behind the $400 million-plus order are undisclosed.
 - Possible initial budget:
 - Source URLs: https://www.sec.gov/Archives/edgar/data/80420/000008042026000063/ex991-powlq2xfy2026earning.htm; https://www.sec.gov/Archives/edgar/data/2110029/000119312526249668/d12401ds1a.htm
+
+## NFC review-and-reservation hardware for high-turnover hospitality locations
+- Status: watch | competitive_positioning
+- Current idea: The executable wedge is not generic NFC consulting or a new technology platform: it is a low-cost, preconfigured physical placement kit for a narrowly chosen venue type, such as independent cafés, barber shops or small hotels, with separate landing pages for reviews, reservations and WhatsApp. Existing products create price competition, so differentiation must be tested through a specific venue workflow or channel.
+- Potential economic capture: One-time sale of a physical NFC/QR stand or card, potentially bundled with setup and destination configuration. Existing public prices provide a purchase benchmark, not a justified margin or guaranteed willingness to pay.
+- **Research routes to test (NOT validated claims):**
+  - Segment the incumbent market by customers who pay too much or wait too long for one outcome.
+  - Offer materially different positioning, delivery, price or specialisation with clear unit economics.
+  - Test switching and repeat purchase evidence before scaling acquisition.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.aither.cl/tap/; https://www.ondda.cl/; https://publico.transbank.cl/productos-y-servicios/soluciones-para-ventas-presenciales/autoservicio-estandar
 
 ## Marketplace-native product discovery wedge for Natura-adjacent beauty sellers
 - Status: watch | ecommerce_niches
@@ -448,6 +460,18 @@ Candidates: 47
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
 
+## Pre-compliance monitoring for Chile’s Open Finance implementation
+- Status: watch | open_finance_chile
+- Current idea: A narrow monitoring asset could help fintechs, banks, integrators and compliance teams track participant registration, endpoint changes, implementation milestones and bank-data availability before mandatory operation. The evidence supports an information-access wedge, not yet a confirmed paying market.
+- Potential economic capture: Paid alerts, change logs or a compact API-monitoring dashboard for prospective SFA participants and software vendors. Payer and price are unverified; do not build regulated data-access or payment-initiation functionality without legal review and required registration.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA; https://api.cmfchile.cl/
+
 ## SFA implementation moved from rulemaking toward interoperability testing
 - Status: watch | open_finance_chile
 - Current idea: The near-term bottleneck is shifting from legal authorization to implementation capacity: consent management, API interoperability, security testing, participant-directory integration, and compliance tooling. This lowers uncertainty for firms that can build infrastructure before mandatory participation begins.
@@ -540,7 +564,7 @@ Candidates: 47
   - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
   - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
   - Arrange a bounded field validation with an actual farm operator before scaling.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Actual willingness to pay for an independent third party separate from the drone seller, certified applicator or agronomist.; Whether farms already owning DJI Agras equipment have unmet needs that incumbent vendors do not cover.; Price per diagnostic, training day, operating trial or hectare, and achievable gross margin after travel and coordination time.
 - Possible initial budget:
 - Source URLs: https://agridrones.cl/products/; https://dronespray.cl/dji-agras-t70p/
 

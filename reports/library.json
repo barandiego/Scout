@@ -2082,6 +2082,95 @@
     {
       "ai_leverage": "",
       "authorized_for_execution": false,
+      "contrary_evidence": [
+        "There is evidence of real commercial activity rather than a purely hypothetical market: DroneTech claims operation since 2022 and more than 9,000 hectares applied, while MGDron and AirDrone advertise active agricultural application services in multiple Chilean regions. ([mgdron.cl](https://mgdron.cl/?utm_source=openai))",
+        "Dronespray claims official DJI Agriculture representation, authorized technical service, original parts, training and national coverage, directly overlapping the proposed maintenance, training and coordination wedge. ([dronespray.cl](https://dronespray.cl/?utm_source=openai))",
+        "The service category may have genuine operational value in difficult terrain, crop protection and traceability: providers advertise applications for vineyards, orchards, forestry and irregular terrain, with application reports and agronomic planning. ([dronespray.cl](https://dronespray.cl/?utm_source=openai))",
+        "The thesis is deliberately testable and does not require buying inventory initially; a paid diagnostic or pilot could limit downside if a reachable customer and measurable use case are found."
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-12T04:13:05.876740+00:00",
+      "discovery_lens": "chile_technology_import",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "A Chilean seller publicly lists DJI Agras T100, T25P and T70P agricultural drones at CLP 32,990,000 each.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Products - Agridrones",
+          "url": "https://agridrones.cl/products/"
+        },
+        {
+          "claim": "A Chilean supplier states that it represents DJI Agriculture in Chile and offers warranty, authorized technical service, original spare parts and certified training for the T70P.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "DJI Agras T70P en Chile — Precio y Ficha",
+          "url": "https://dronespray.cl/dji-agras-t70p/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.78,
+      "falsification_conditions": [
+        "No farm, contractor or cooperative agrees to a paid diagnostic or explicitly prepaid pilot after at least 20 qualified outreach attempts.",
+        "Interviews show that target customers obtain planning, training, maintenance and reporting from equipment vendors, agronomists or existing contractors at no separately chargeable cost.",
+        "A pilot cannot demonstrate a measurable improvement in cost per hectare, labor hours, downtime, coverage, chemical-use records or operational access versus the customer's current method.",
+        "The operator cannot identify a legally compliant role, required credentials, insurance coverage and responsibility boundary for the proposed service.",
+        "At least three credible customers reject the service because they require the provider to own the drone, hold applicator credentials or perform the application itself.",
+        "Incumbent providers match the proposed pilot at a price that leaves no viable margin after travel, coordination and liability costs.",
+        "The target farms do not own or reliably have access to compatible equipment, making the assumed asset-light customer base illusory.",
+        "A review of primary DGAC and SAG requirements shows that the proposed activities require qualifications or authorizations that cannot be obtained within the intended time and budget."
+      ],
+      "geography": "Chile",
+      "id": "opp_99bc7c802b2d968d5b93",
+      "judge_reviewed": true,
+      "judgment": "The underlying DJI Agras equipment appears commercially available in Chile and the proposed asset-light wedge avoids incorrectly portraying a lab prototype as deployment-ready. The customer job is also identifiable at a high level: compliant aerial application support for vineyards, orchards and difficult-access agricultural sites, with potential measures such as hectares covered, labor hours, refill time, downtime and cost per hectare. However, this is not yet HQ-worthy as a business: the same support bundle—sales, training, spare parts, technical service, agronomic planning, application, reporting and regulatory capability—is already marketed by local sellers and contractors. No evidence identifies a reachable buyer who will pay separately for independent coordination rather than receive it bundled from an incumbent or outsource the application entirely. Unit economics, qualification boundaries, and local serviceability differentiation remain unproven. It survives only as a tightly bounded paid-validation hypothesis, not as a validated deployment-and-maintenance opportunity.",
+      "last_record_updated_at": "2026-10-13T12:17:18.804138+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Actual willingness to pay for an independent third party separate from the drone seller, certified applicator or agronomist.",
+        "Whether farms already owning DJI Agras equipment have unmet needs that incumbent vendors do not cover.",
+        "Price per diagnostic, training day, operating trial or hectare, and achievable gross margin after travel and coordination time.",
+        "Number and geographic concentration of DJI Agras owners in Chile, their utilization rates and downtime causes.",
+        "Whether the proposed operator can legally provide planning, training, maintenance coordination or utilization reporting without holding specific DGAC, SAG, agronomic, pesticide-handling or insurance qualifications."
+      ],
+      "participation_path": "Use the publicly listed DJI Agras T70P/T25P/T100 price and support claims to create a one-page operating assessment. Approach farms, agricultural contractors or cooperatives that can legally use the equipment; do not promise authorization or agronomic results. Run one paid or explicitly pre-paid pilot measuring hectares covered, refill time, downtime, labor hours and chemical-use records. Falsify if no operator permits an on-site assessment, no farm supplies a measurable use case, or the pilot cannot produce a cost comparison against its current spraying method.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The defensible wedge is not importing the drone or claiming a supply gap. It is a testable local operating layer: pre-purchase field assessment, application planning, operator training, maintenance coordination and utilization reporting for farms that already have access to the equipment. The payer and price remain unverified.",
+      "title": "Independent operating-support wedge around DJI agricultural drones already sold in Chile",
+      "type": "deployment_and_maintenance_service",
+      "unknowns": [
+        "Actual willingness to pay for an independent third party separate from the drone seller, certified applicator or agronomist.",
+        "Whether farms already owning DJI Agras equipment have unmet needs that incumbent vendors do not cover.",
+        "Price per diagnostic, training day, operating trial or hectare, and achievable gross margin after travel and coordination time.",
+        "Number and geographic concentration of DJI Agras owners in Chile, their utilization rates and downtime causes.",
+        "Whether the proposed operator can legally provide planning, training, maintenance coordination or utilization reporting without holding specific DGAC, SAG, agronomic, pesticide-handling or insurance qualifications.",
+        "Which pesticides, crops and application contexts are legally permitted for drone use in Chile, and what records or approvals are required.",
+        "Customer acquisition cost, sales-cycle length and access to farm decision-makers.",
+        "Whether independent reporting creates enough value to survive vendor bundling and price competition.",
+        "Comparative cost and efficacy versus tractors, backpack sprayers, manned aircraft and existing drone contractors.",
+        "Evidence quality of seller claims, including official representation, certifications, hectares applied, warranty scope and customer outcomes.",
+        "Which specific Chilean crop, region, farm-size band, terrain constraint and application task produces a measurable advantage for this service.",
+        "Whether at least one farm owner, cooperative, or agricultural contractor will prepay for a diagnostic or bounded pilot independent of an equipment vendor or applicator.",
+        "Installed base and geographic concentration of compatible DJI Agras owners, their annual hectares, downtime causes and current support gaps.",
+        "Verified Chilean requirements and insurance responsibilities for training, planning, maintenance coordination, pesticide-use records and any on-site operational activity.",
+        "Comparable all-in cost per hectare, labor hours, coverage quality, downtime and chemical-record performance versus the customer's existing method.",
+        "Whether a local service partner can provide genuinely differentiated repair turnaround, parts availability, or utilization reporting beyond vendor offerings.",
+        "A defensible price and delivery model that remains profitable after travel, liability, coordination and credential costs."
+      ],
+      "value_capture_mechanism": "Charge per diagnostic, training day or operating trial only after confirming a farm’s equipment, legal operating requirements and willingness to pay. A revenue-share or per-hectare service model should not be assumed before a paid trial.",
+      "verified_sales": null,
+      "vertical": "robotics_agritech",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": true,
       "discovered_at": "2026-10-09T16:12:29.673552+00:00",
@@ -2906,6 +2995,67 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-13T12:16:52.374043+00:00",
+      "discovery_lens": "market_positioning",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "A Chilean supplier sells physical NFC/QR products routing users to Google Reviews, Instagram or WhatsApp, with a listed price starting at CLP 34,990 and no monthly fee.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "AITHER TAP — NFC + QR para conectar con tus clientes",
+          "url": "https://www.aither.cl/tap/"
+        },
+        {
+          "claim": "A Chilean supplier lists NFC stands and cards for businesses, including products priced at CLP 19,990, CLP 24,990 and CLP 29,990.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Soluciones NFC para negocios en Chile | ONDDA",
+          "url": "https://www.ondda.cl/"
+        },
+        {
+          "claim": "Transbank documents Chilean acceptance of debit, credit, prepaid cards and NFC wallets in its self-service payment solution.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Autoservicio estándar | Transbank",
+          "url": "https://publico.transbank.cl/productos-y-servicios/soluciones-para-ventas-presenciales/autoservicio-estandar"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_0400e97744c8993f2c8d",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-13T12:16:52.392730+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Select one venue category and reproduce a basic NFC/QR prototype using off-the-shelf tags and a printed stand. Approach 20 independent venues through in-person visits or local business groups, offering a measurable two-week pilot that routes to the venue’s existing Google review or booking page. Falsify if no venue agrees to install the prototype, if scans are negligible, or if prospects will not pay at least the observed local retail benchmark after seeing the test. Do not claim increased reviews, bookings or ranking without measured results.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The executable wedge is not generic NFC consulting or a new technology platform: it is a low-cost, preconfigured physical placement kit for a narrowly chosen venue type, such as independent cafés, barber shops or small hotels, with separate landing pages for reviews, reservations and WhatsApp. Existing products create price competition, so differentiation must be tested through a specific venue workflow or channel.",
+      "title": "NFC review-and-reservation hardware for high-turnover hospitality locations",
+      "type": "localized_physical_product",
+      "unknowns": [],
+      "value_capture_mechanism": "One-time sale of a physical NFC/QR stand or card, potentially bundled with setup and destination configuration. Existing public prices provide a purchase benchmark, not a justified margin or guaranteed willingness to pay.",
+      "verified_sales": null,
+      "vertical": "competitive_positioning",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-12T08:15:12.300915+00:00",
       "discovery_lens": "nfc_smart_commerce",
       "estimated_capital": "",
@@ -3020,6 +3170,67 @@
       "value_capture_mechanism": "A reproducible Chile-specific dataset and screening report that joins CEN curtailment records to plant metadata and calculates candidate storage-loading hours, avoided curtailed MWh scenarios and diligence flags. A payer could be a renewable-project developer, investor or engineering firm, but willingness to pay is unverified.",
       "verified_sales": null,
       "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-13T12:16:52.372957+00:00",
+      "discovery_lens": "chile_technology_import",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF published technical specifications, a developer portal and a revised implementation timeline with system effectiveness postponed until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "The public directory APIs expose structured information about SFA participants, organizations, authorization servers and API resources.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "v1.0.0 - APIs Directorio de Participantes SFA",
+          "url": "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA"
+        },
+        {
+          "claim": "CMF provides direct access to current and historical banking-information resources through an API.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "API - CMF Bancos - Interfaz de Programación de Aplicaciones",
+          "url": "https://api.cmfchile.cl/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.9,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_8c5a7467be93278a7fb8",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-13T12:16:52.392465+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use only the public CMF Banks API and the public SFA participant-directory documentation to build a one-week prototype that records participant/API changes and produces a dated change log. Publish a sample report and contact 10 Chilean fintechs, banking-software vendors or compliance providers for paid pilot commitments. Falsify if fewer than two qualified prospects agree to review the prototype or no prospect identifies a recurring implementation decision it would pay to monitor. Do not represent the prototype as CMF-authorized or as an SFA participant.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A narrow monitoring asset could help fintechs, banks, integrators and compliance teams track participant registration, endpoint changes, implementation milestones and bank-data availability before mandatory operation. The evidence supports an information-access wedge, not yet a confirmed paying market.",
+      "title": "Pre-compliance monitoring for Chile’s Open Finance implementation",
+      "type": "data_product_test",
+      "unknowns": [],
+      "value_capture_mechanism": "Paid alerts, change logs or a compact API-monitoring dashboard for prospective SFA participants and software vendors. Payer and price are unverified; do not build regulated data-access or payment-initiation functionality without legal review and required registration.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -3413,60 +3624,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-12T04:13:05.876740+00:00",
-      "discovery_lens": "chile_technology_import",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "A Chilean seller publicly lists DJI Agras T100, T25P and T70P agricultural drones at CLP 32,990,000 each.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "Products - Agridrones",
-          "url": "https://agridrones.cl/products/"
-        },
-        {
-          "claim": "A Chilean supplier states that it represents DJI Agriculture in Chile and offers warranty, authorized technical service, original spare parts and certified training for the T70P.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "DJI Agras T70P en Chile — Precio y Ficha",
-          "url": "https://dronespray.cl/dji-agras-t70p/"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.78,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_99bc7c802b2d968d5b93",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-12T04:13:05.890489+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Use the publicly listed DJI Agras T70P/T25P/T100 price and support claims to create a one-page operating assessment. Approach farms, agricultural contractors or cooperatives that can legally use the equipment; do not promise authorization or agronomic results. Run one paid or explicitly pre-paid pilot measuring hectares covered, refill time, downtime, labor hours and chemical-use records. Falsify if no operator permits an on-site assessment, no farm supplies a measurable use case, or the pilot cannot produce a cost comparison against its current spraying method.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "The defensible wedge is not importing the drone or claiming a supply gap. It is a testable local operating layer: pre-purchase field assessment, application planning, operator training, maintenance coordination and utilization reporting for farms that already have access to the equipment. The payer and price remain unverified.",
-      "title": "Independent operating-support wedge around DJI agricultural drones already sold in Chile",
-      "type": "deployment_and_maintenance_service",
-      "unknowns": [],
-      "value_capture_mechanism": "Charge per diagnostic, training day or operating trial only after confirming a farm’s equipment, legal operating requirements and willingness to pay. A revenue-share or per-hectare service model should not be assumed before a paid trial.",
-      "verified_sales": null,
-      "vertical": "robotics_agritech",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-13T08:14:29.249551+00:00",
       "discovery_lens": "adoption_lag",
       "estimated_capital": "",
@@ -3628,13 +3785,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-13T08:14:55.170153+00:00",
+  "generated_at": "2026-10-13T12:17:19.203194+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 23,
-  "reviewed_cards": 32,
+  "reviewed_cards": 33,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 70,
-  "watch": 47
+  "total_distinct_opportunities": 72,
+  "watch": 49
 }

@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-13T08:14:55.170153+00:00
+Generated: 2026-10-13T12:17:19.203194+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 47 (0 HQ survivors, 47 watches)
+- Active research: 49 (0 HQ survivors, 49 watches)
 - Rejected opportunities excluded: 23
-- Critic-and-judge reviewed: 32
+- Critic-and-judge reviewed: 33
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -253,6 +253,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.iea.org/reports/modernising-grids-in-the-age-of-electricity/executive-summary; https://www.iea.org/reports/electricity-2026/grids
 
+### Independent operating-support wedge around DJI agricultural drones already sold in Chile [opp_99bc7c802b2d968d5b93]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile
+- Thesis: The defensible wedge is not importing the drone or claiming a supply gap. It is a testable local operating layer: pre-purchase field assessment, application planning, operator training, maintenance coordination and utilization reporting for farms that already have access to the equipment. The payer and price remain unverified.
+- Value capture: Charge per diagnostic, training day or operating trial only after confirming a farm’s equipment, legal operating requirements and willingness to pay. A revenue-share or per-hectare service model should not be assumed before a paid trial.
+- Participation hypothesis: Use the publicly listed DJI Agras T70P/T25P/T100 price and support claims to create a one-page operating assessment. Approach farms, agricultural contractors or cooperatives that can legally use the equipment; do not promise authorization or agronomic results. Run one paid or explicitly pre-paid pilot measuring hectares covered, refill time, downtime, labor hours and chemical-use records. Falsify if no operator permits an on-site assessment, no farm supplies a measurable use case, or the pilot cannot produce a cost comparison against its curren
+- Critic/judge: The underlying DJI Agras equipment appears commercially available in Chile and the proposed asset-light wedge avoids incorrectly portraying a lab prototype as deployment-ready. The customer job is also identifiable at a high level: compliant aerial application support for vineyards, orchards and difficult-access agricultural sites, with potential measures such as hectares covered, labor hours, refill time, downtime and cost per hectare.
+- Next evidence gaps: Actual willingness to pay for an independent third party separate from the drone seller, certified applicator or agronomist.; Whether farms already owning DJI Agras equipment have unmet needs that incumbent vendors do not cover.; Price per diagnostic, training day, operating trial or hectare, and achievable gross margin after travel and coordination time.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://agridrones.cl/products/; https://dronespray.cl/dji-agras-t70p/
+
 ### Industrial robot installations reached a record in 2025, with strongest growth in China and the United States [opp_c1dde7708010339fc2c8]
 - Status: WATCH_REQUIRES_VALIDATION | general | Global, China, United States
 - Thesis: Rising adoption and continued labor-cost pressure are expanding the addressable market for robot integration, machine vision, adaptive control, maintenance, safety, and application-specific automation.
@@ -353,6 +363,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.fne.gob.cl/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-pl; https://group.dhl.com/content/dam/deutschepostdhl/en/media-center/media-relations/documents/2025/e-commerce-trends-report-2025-business-edition.pdf; https://www.trade.gov/country-commercial-guides/chile-ecommerce
 
+### NFC review-and-reservation hardware for high-turnover hospitality locations [opp_0400e97744c8993f2c8d]
+- Status: WATCH_REQUIRES_VALIDATION | competitive_positioning | Chile
+- Thesis: The executable wedge is not generic NFC consulting or a new technology platform: it is a low-cost, preconfigured physical placement kit for a narrowly chosen venue type, such as independent cafés, barber shops or small hotels, with separate landing pages for reviews, reservations and WhatsApp. Existing products create price competition, so differentiation must be tested through a specific venue workflow or channel.
+- Value capture: One-time sale of a physical NFC/QR stand or card, potentially bundled with setup and destination configuration. Existing public prices provide a purchase benchmark, not a justified margin or guaranteed willingness to pay.
+- Participation hypothesis: Select one venue category and reproduce a basic NFC/QR prototype using off-the-shelf tags and a printed stand. Approach 20 independent venues through in-person visits or local business groups, offering a measurable two-week pilot that routes to the venue’s existing Google review or booking page. Falsify if no venue agrees to install the prototype, if scans are negligible, or if prospects will not pay at least the observed local retail benchmark after seeing the test. Do not claim increased reviews, bookings or ranking without measured results.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.aither.cl/tap/; https://www.ondda.cl/; https://publico.transbank.cl/productos-y-servicios/soluciones-para-ventas-presenciales/autoservicio-estandar
+
 ### NFC-to-review and reservation plaques for Chilean hospitality businesses [opp_1932dc0a66242ec64860]
 - Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile
 - Thesis: A generic NFC business-card reseller is already crowded. A narrower wedge is a physical counter/table/checkout plaque whose single action is optimized for a measurable outcome—Google review, reservation, WhatsApp reorder, or menu access—for one local-business vertical. The economic mechanism is a low-cost physical prompt that may convert an existing in-person interaction into a review, booking, or repeat-order event; actual conversion and incremental revenue remain unproven.
@@ -372,6 +392,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.coordinador.cl/operacion/documentos/reducciones-de-generacion-renovable/; https://www.coordinador.cl/novedades/coordinador-electrico-presenta-informe-de-monitoreo-de-la-competencia-con-desafios-estructurales/; https://www.spec.cl/en/publicaciones/2026-almacenamiento-corta-duracion/
+
+### Pre-compliance monitoring for Chile’s Open Finance implementation [opp_8c5a7467be93278a7fb8]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: A narrow monitoring asset could help fintechs, banks, integrators and compliance teams track participant registration, endpoint changes, implementation milestones and bank-data availability before mandatory operation. The evidence supports an information-access wedge, not yet a confirmed paying market.
+- Value capture: Paid alerts, change logs or a compact API-monitoring dashboard for prospective SFA participants and software vendors. Payer and price are unverified; do not build regulated data-access or payment-initiation functionality without legal review and required registration.
+- Participation hypothesis: Use only the public CMF Banks API and the public SFA participant-directory documentation to build a one-week prototype that records participant/API changes and produces a dated change log. Publish a sample report and contact 10 Chilean fintechs, banking-software vendors or compliance providers for paid pilot commitments. Falsify if fewer than two qualified prospects agree to review the prototype or no prospect identifies a recurring implementation decision it would pay to monitor. Do not represent the prototype as CMF-authorized or as an SFA pa
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA; https://api.cmfchile.cl/
 
 ### Tokenized-securities operational control and transfer-agent integration testing [opp_2df7c31be3f47e321668]
 - Status: WATCH_REQUIRES_VALIDATION | public_markets | United States
@@ -442,16 +472,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-113897.html
-
-### Independent operating-support wedge around DJI agricultural drones already sold in Chile [opp_99bc7c802b2d968d5b93]
-- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile
-- Thesis: The defensible wedge is not importing the drone or claiming a supply gap. It is a testable local operating layer: pre-purchase field assessment, application planning, operator training, maintenance coordination and utilization reporting for farms that already have access to the equipment. The payer and price remain unverified.
-- Value capture: Charge per diagnostic, training day or operating trial only after confirming a farm’s equipment, legal operating requirements and willingness to pay. A revenue-share or per-hectare service model should not be assumed before a paid trial.
-- Participation hypothesis: Use the publicly listed DJI Agras T70P/T25P/T100 price and support claims to create a one-page operating assessment. Approach farms, agricultural contractors or cooperatives that can legally use the equipment; do not promise authorization or agronomic results. Run one paid or explicitly pre-paid pilot measuring hectares covered, refill time, downtime, labor hours and chemical-use records. Falsify if no operator permits an on-site assessment, no farm supplies a measurable use case, or the pilot cannot produce a cost comparison against its curren
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://agridrones.cl/products/; https://dronespray.cl/dji-agras-t70p/
 
 ### Low-cost, crop-specific autonomous weeding retrofit based on an open-source chassis [opp_d8b7c63665b27bbd1829]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States and other row-crop markets with labor or herbicide constraints

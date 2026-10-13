@@ -42,6 +42,43 @@
     },
     {
       "capital_required_unverified_estimate": "",
+      "category": "competitive_positioning",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Select one venue category and reproduce a basic NFC/QR prototype using off-the-shelf tags and a printed stand. Approach 20 independent venues through in-person visits or local business groups, offering a measurable two-week pilot that routes to the venue’s existing Google review or booking page. Falsify if no venue agrees to install the prototype, if scans are negligible, or if prospects will not pay at least the observed local retail benchmark after seeing the test. Do not claim increased reviews, bookings or ranking without measured results.",
+      "current_thesis": "The executable wedge is not generic NFC consulting or a new technology platform: it is a low-cost, preconfigured physical placement kit for a narrowly chosen venue type, such as independent cafés, barber shops or small hotels, with separate landing pages for reviews, reservations and WhatsApp. Existing products create price competition, so differentiation must be tested through a specific venue workflow or channel.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "NFC review-and-reservation hardware for high-turnover hospitality locations",
+      "opportunity_id": "opp_0400e97744c8993f2c8d",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Segment the incumbent market by customers who pay too much or wait too long for one outcome.",
+        "Offer materially different positioning, delivery, price or specialisation with clear unit economics.",
+        "Test switching and repeat purchase evidence before scaling acquisition."
+      ],
+      "supporting_source_urls": [
+        "https://www.aither.cl/tap/",
+        "https://www.ondda.cl/",
+        "https://publico.transbank.cl/productos-y-servicios/soluciones-para-ventas-presenciales/autoservicio-estandar"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "One-time sale of a physical NFC/QR stand or card, potentially bundled with setup and destination configuration. Existing public prices provide a purchase benchmark, not a justified margin or guaranteed willingness to pay.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
       "category": "ecommerce_niches",
       "commercially_validated": false,
       "competition_confirmed": false,
@@ -1450,6 +1487,43 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use only the public CMF Banks API and the public SFA participant-directory documentation to build a one-week prototype that records participant/API changes and produces a dated change log. Publish a sample report and contact 10 Chilean fintechs, banking-software vendors or compliance providers for paid pilot commitments. Falsify if fewer than two qualified prospects agree to review the prototype or no prospect identifies a recurring implementation decision it would pay to monitor. Do not represent the prototype as CMF-authorized or as an SFA participant.",
+      "current_thesis": "A narrow monitoring asset could help fintechs, banks, integrators and compliance teams track participant registration, endpoint changes, implementation milestones and bank-data availability before mandatory operation. The evidence supports an information-access wedge, not yet a confirmed paying market.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Pre-compliance monitoring for Chile’s Open Finance implementation",
+      "opportunity_id": "opp_8c5a7467be93278a7fb8",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA",
+        "https://api.cmfchile.cl/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Paid alerts, change logs or a compact API-monitoring dashboard for prospective SFA participants and software vendors. Payer and price are unverified; do not build regulated data-access or payment-initiation functionality without legal review and required registration.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Build or sell SFA conformance testing, consent-management, API monitoring, data normalization, fraud controls, or integration middleware; participate in ATENA testing; partner with regulated institutions or prospective SFA providers.",
       "current_thesis": "The near-term bottleneck is shifting from legal authorization to implementation capacity: consent management, API interoperability, security testing, participant-directory integration, and compliance tooling. This lowers uncertainty for firms that can build infrastructure before mandatory participation begins.",
       "founder_hours_initial_unverified_estimate": "",
@@ -1727,9 +1801,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "Chile",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "Actual willingness to pay for an independent third party separate from the drone seller, certified applicator or agronomist.",
+        "Whether farms already owning DJI Agras equipment have unmet needs that incumbent vendors do not cover.",
+        "Price per diagnostic, training day, operating trial or hectare, and achievable gross margin after travel and coordination time.",
+        "Number and geographic concentration of DJI Agras owners in Chile, their utilization rates and downtime causes.",
+        "Whether the proposed operator can legally provide planning, training, maintenance coordination or utilization reporting without holding specific DGAC, SAG, agronomic, pesticide-handling or insurance qualifications.",
+        "Which pesticides, crops and application contexts are legally permitted for drone use in Chile, and what records or approvals are required.",
+        "Customer acquisition cost, sales-cycle length and access to farm decision-makers."
       ],
       "investment_authorized": false,
       "name": "Independent operating-support wedge around DJI agricultural drones already sold in Chile",
@@ -1831,7 +1909,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-13T08:14:55.208786+00:00",
+  "generated_at": "2026-10-13T12:17:19.239731+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"
