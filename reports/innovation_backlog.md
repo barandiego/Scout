@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 51
+Candidates: 52
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -268,18 +268,6 @@ Candidates: 51
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html
 
-## Chile Open Finance implementation-readiness wedge for smaller participants
-- Status: watch | open_finance_chile
-- Current idea: The near-term opportunity is not consumer-finance demand itself; it is reducing implementation risk for smaller potential participants that must understand APIs, consent, security, testing and role-specific requirements before the July 2027 effective date.
-- Potential economic capture: A narrowly scoped, paid implementation asset such as a role-specific conformance test harness, API request/response validator, consent-flow checklist and sandbox onboarding package for one participant category. Payment would need to come from an identified entity after a direct validation conversation; no buyer, price or recurring revenue is established by the evidence.
-- **Research routes to test (NOT validated claims):**
-  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
-  - Check license perimeter, API access, legal compliance and competitor pricing.
-  - Test buyer procurement and technical access before writing integration infrastructure.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html
-
 ## Chile publishes technical rules and developer infrastructure for Open Finance, with go-live deferred to July 2027
 - Status: watch | open_finance_chile
 - Current idea: The market now has clearer interoperability requirements and a longer preparation window. This lowers regulatory uncertainty but creates an implementation race for account aggregation, payment initiation, consent, identity, fraud, compliance and data-enrichment products.
@@ -448,6 +436,18 @@ Candidates: 51
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
+## Compliance-and-integration tooling for Chile's Open Finance implementation
+- Status: watch | open_finance_chile
+- Current idea: A narrow product can help prospective participants test technical readiness before mandatory operation: consent-state logging, API conformance tests, certificate and participant-registry checks, payment-initiation test fixtures, or uptime/TPS monitoring. This is an implementation asset, not generic fintech consulting.
+- Potential economic capture: Possible payers include entities preparing to become Open Finance participants or technology vendors integrating with them. The evidence verifies the technical requirements and timing, but does not verify budgets, procurement, or willingness to pay.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html
+
 ## Open-finance conformance test asset for Chilean participants
 - Status: watch | open_finance_chile
 - Current idea: A small operator could test demand for a narrowly defined automated conformance harness: request/response fixtures, schema validation, consent-flow checks, payment-initiation test cases, and evidence export for internal engineering or vendor acceptance. This is not evidence that regulated entities will buy it or that certification authority exists.
@@ -555,6 +555,18 @@ Candidates: 51
 - Critical gaps: What proportion of the cited queues is technically addressable by each technology and by geography?; How much of the claimed congestion cost is avoidable through GETs rather than caused by insufficient generation, local distribution constraints, market design, or fuel and demand shocks?; Which entities receive the economic benefit: generators, load-serving entities, transmission owners, ratepayers, RTOs/ISOs, or technology vendors?
 - Possible initial budget:
 - Source URLs: https://www.iea.org/reports/modernising-grids-in-the-age-of-electricity/executive-summary; https://www.iea.org/reports/electricity-2026/grids
+
+## Testing and workflow infrastructure around DTCC tokenized-security settlement
+- Status: watch | public_markets
+- Current idea: The near-term wedge is operational interoperability rather than issuing speculative tokens: test-data generation, reconciliation between on-chain transfers and traditional security records, entitlement reporting, transaction exception handling, or audit evidence for firms preparing for tokenized settlement workflows.
+- Potential economic capture: Potential payers are broker-dealers, custodians, market-infrastructure vendors or technology firms participating in the DTCC ecosystem. The cited sources do not establish that any particular organization is seeking an independent contractor or that a specific price is available.
+- **Research routes to test (NOT validated claims):**
+  - Find overlooked fundamentals and a named accessible security with dated primary filings.
+  - Compare risked intrinsic value, market expectations and specific downside scenarios.
+  - Define catalysts and invalidation thresholds before any governed investment decision.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.dtcc.com/press-releases/2026/dtcc-turns-tokenization-into-reality; https://www.sec.gov/newsroom/speeches-statements/corp-fin-statement-tokenized-securities-012826-statement-tokenized-securities
 
 ## Tokenized-securities operational control and transfer-agent integration testing
 - Status: watch | public_markets

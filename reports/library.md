@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-14T04:23:48.732131+00:00
+Generated: 2026-10-14T08:25:46.564181+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 51 (0 HQ survivors, 51 watches)
-- Rejected opportunities excluded: 28
+- Active research: 52 (0 HQ survivors, 52 watches)
+- Rejected opportunities excluded: 30
 - Critic-and-judge reviewed: 33
 - Autonomous execution authorization: 0
 
@@ -433,16 +433,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.irs.gov/pub/irs-dft/i3468--dft.pdf; https://www.energy.gov/ceser/articles/new-ceser-report-offers-supply-chain-mitigation-strategies-battery-storage-systems
 
-### Chile Open Finance implementation-readiness wedge for smaller participants [opp_2ebf5a333b8bd51bbefb]
-- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
-- Thesis: The near-term opportunity is not consumer-finance demand itself; it is reducing implementation risk for smaller potential participants that must understand APIs, consent, security, testing and role-specific requirements before the July 2027 effective date.
-- Value capture: A narrowly scoped, paid implementation asset such as a role-specific conformance test harness, API request/response validator, consent-flow checklist and sandbox onboarding package for one participant category. Payment would need to come from an identified entity after a direct validation conversation; no buyer, price or recurring revenue is established by the evidence.
-- Participation hypothesis: Use the CMF developer portal, technical annex and sandbox materials to build a minimal validator for one documented API flow. Test it against publicly available specifications and ask 5-10 Chilean fintechs, payment providers, cooperatives or software vendors whether they would use the validator in a live implementation project. Do not build a full platform or claim regulatory compliance. Falsification threshold: if none of the contacted entities agrees to review the prototype, provide sample API payloads, or pay for a narrowly defined implement
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html
-
 ### Chile SFA conformance-testing wedge ahead of the July 2027 implementation date [opp_20f82e47fa9080b32bd2]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: Financial institutions and regulated fintech participants will need to translate the CMF technical specifications into interoperable APIs, certificates, consent flows, testing procedures, and operational controls before the revised implementation date. A narrowly scoped testing and evidence asset could reduce integration rework and implementation risk without requiring the operator to become a regulated financial provider.
@@ -472,6 +462,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
+### Compliance-and-integration tooling for Chile's Open Finance implementation [opp_74aed61a008c4b4bb5a1]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: A narrow product can help prospective participants test technical readiness before mandatory operation: consent-state logging, API conformance tests, certificate and participant-registry checks, payment-initiation test fixtures, or uptime/TPS monitoring. This is an implementation asset, not generic fintech consulting.
+- Value capture: Possible payers include entities preparing to become Open Finance participants or technology vendors integrating with them. The evidence verifies the technical requirements and timing, but does not verify budgets, procurement, or willingness to pay.
+- Participation hypothesis: Build a small local test harness against the CMF developer-portal specifications, limited to one verifiable workflow such as consent lifecycle or API error-code conformance. Publish a reproducible demo and ask prospective participants or integration vendors to run their own test data through it. Lowest-cost falsification: before building a full product, manually map 20 required fields and test one mock API flow with three Chilean fintech or banking-technology contacts; proceed only if at least one confirms that the artifact would be used in an
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html
 
 ### Low-cost, crop-specific autonomous weeding retrofit based on an open-source chassis [opp_d8b7c63665b27bbd1829]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States and other row-crop markets with labor or herbicide constraints
@@ -512,6 +512,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://atencionciudadana.minenergia.cl/tramites/informacion/20; https://www.minvu.gob.cl/postulacion/llamado-eficiencia-energetica-y-acondicionamiento-termico-ds-27-ano-2025/
+
+### Testing and workflow infrastructure around DTCC tokenized-security settlement [opp_baf7eb33e64d74226047]
+- Status: WATCH_REQUIRES_VALIDATION | public_markets | United States
+- Thesis: The near-term wedge is operational interoperability rather than issuing speculative tokens: test-data generation, reconciliation between on-chain transfers and traditional security records, entitlement reporting, transaction exception handling, or audit evidence for firms preparing for tokenized settlement workflows.
+- Value capture: Potential payers are broker-dealers, custodians, market-infrastructure vendors or technology firms participating in the DTCC ecosystem. The cited sources do not establish that any particular organization is seeking an independent contractor or that a specific price is available.
+- Participation hypothesis: Use DTCC's announced use cases to create a sandbox-only reconciliation prototype: ingest a synthetic trade, map token transfer events to conventional settlement records, and produce an exception report. Approach vendors or participants named in public DTCC/SEC materials with the prototype and ask whether they have a test environment, vendor intake process, or paid proof-of-concept. Lowest-cost falsification: implement the reconciliation logic over a small synthetic dataset and obtain written confirmation from three relevant firms that the outpu
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.dtcc.com/press-releases/2026/dtcc-turns-tokenization-into-reality; https://www.sec.gov/newsroom/speeches-statements/corp-fin-statement-tokenized-securities-012826-statement-tokenized-securities
 
 ### Tokenized unified-ledger infrastructure is moving from concept toward financial-market architecture [opp_993ac5d080c7042af44c]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Global; Chile relevance through future interoperable financial-data and payment infrastructure

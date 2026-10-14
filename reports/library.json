@@ -3415,60 +3415,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-12T16:12:38.965783+00:00",
-      "discovery_lens": "ai_open_source",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "The CMF issued the technical annex, published a developer portal, added simplified participation and a technological sandbox, and postponed entry into force until July 2027.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
-          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
-        },
-        {
-          "claim": "The CMF describes the participant categories, consent-based data exchange, API interconnection requirements and security, privacy and interoperability obligations.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Foro Sistema de Finanzas Abiertas",
-          "url": "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.86,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_2ebf5a333b8bd51bbefb",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-12T16:12:38.977178+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Use the CMF developer portal, technical annex and sandbox materials to build a minimal validator for one documented API flow. Test it against publicly available specifications and ask 5-10 Chilean fintechs, payment providers, cooperatives or software vendors whether they would use the validator in a live implementation project. Do not build a full platform or claim regulatory compliance. Falsification threshold: if none of the contacted entities agrees to review the prototype, provide sample API payloads, or pay for a narrowly defined implementation diagnostic, stop.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "The near-term opportunity is not consumer-finance demand itself; it is reducing implementation risk for smaller potential participants that must understand APIs, consent, security, testing and role-specific requirements before the July 2027 effective date.",
-      "title": "Chile Open Finance implementation-readiness wedge for smaller participants",
-      "type": "regulatory_enablement_asset",
-      "unknowns": [],
-      "value_capture_mechanism": "A narrowly scoped, paid implementation asset such as a role-specific conformance test harness, API request/response validator, consent-flow checklist and sandbox onboarding package for one participant category. Payment would need to come from an identified entity after a direct validation conversation; no buyer, price or recurring revenue is established by the evidence.",
-      "verified_sales": null,
-      "vertical": "open_finance_chile",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-13T04:13:35.306242+00:00",
       "discovery_lens": "open_finance_chile",
       "estimated_capital": "",
@@ -3621,6 +3567,60 @@
       "type": "regulatory_infrastructure",
       "unknowns": [],
       "value_capture_mechanism": "A small operator could build a narrowly scoped conformance-test package: local mock APIs, request/response validators, directory and webhook simulators, certificate/FAPI test fixtures, and regression reports aligned to Annex 3. Potential payment sources are institutions preparing to participate in the SFA or technology vendors integrating with them; no buyer, price or procurement commitment is established by the evidence.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-14T08:25:29.883985+00:00",
+      "discovery_lens": "business_model_migration",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF issued an amendment to General Rule No. 514 on June 1, 2026, incorporated Annex 3 technical specifications and developer-portal material, and postponed entry into force until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "The technical amendments describe dynamic client registration, consent management, certificate validity, versioning and logging, payment-initiation APIs, performance requirements and developer-portal specifications.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF publishes for consultation amendments to Technical Annex of regulation on Open Finance System",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.91,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_74aed61a008c4b4bb5a1",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-14T08:25:29.912051+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Build a small local test harness against the CMF developer-portal specifications, limited to one verifiable workflow such as consent lifecycle or API error-code conformance. Publish a reproducible demo and ask prospective participants or integration vendors to run their own test data through it. Lowest-cost falsification: before building a full product, manually map 20 required fields and test one mock API flow with three Chilean fintech or banking-technology contacts; proceed only if at least one confirms that the artifact would be used in an internal readiness or vendor-integration process. Regulatory authorization and production access must be confirmed separately.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A narrow product can help prospective participants test technical readiness before mandatory operation: consent-state logging, API conformance tests, certificate and participant-registry checks, payment-initiation test fixtures, or uptime/TPS monitoring. This is an implementation asset, not generic fintech consulting.",
+      "title": "Compliance-and-integration tooling for Chile's Open Finance implementation",
+      "type": "asset_or_service",
+      "unknowns": [],
+      "value_capture_mechanism": "Possible payers include entities preparing to become Open Finance participants or technology vendors integrating with them. The evidence verifies the technical requirements and timing, but does not verify budgets, procurement, or willingness to pay.",
       "verified_sales": null,
       "vertical": "open_finance_chile",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
@@ -3847,6 +3847,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-14T08:25:29.885273+00:00",
+      "discovery_lens": "tokenization_finance",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "DTCC reported production trades using DTC-tokenized assets on July 15, 2026, and stated that its Tokenization Service was expected to launch in October 2026.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "DTCC Turns Tokenization into Reality: U.S. Trades Successfully Processed Using DTC-Tokenized Assets",
+          "url": "https://www.dtcc.com/press-releases/2026/dtcc-turns-tokenization-into-reality"
+        },
+        {
+          "claim": "SEC staff described tokenized securities, issuer-sponsored and third-party custodial or synthetic models, and explained that tokenized records can represent ownership or security entitlements.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Statement on Tokenized Securities",
+          "url": "https://www.sec.gov/newsroom/speeches-statements/corp-fin-statement-tokenized-securities-012826-statement-tokenized-securities"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.88,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_baf7eb33e64d74226047",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-14T08:25:29.912302+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use DTCC's announced use cases to create a sandbox-only reconciliation prototype: ingest a synthetic trade, map token transfer events to conventional settlement records, and produce an exception report. Approach vendors or participants named in public DTCC/SEC materials with the prototype and ask whether they have a test environment, vendor intake process, or paid proof-of-concept. Lowest-cost falsification: implement the reconciliation logic over a small synthetic dataset and obtain written confirmation from three relevant firms that the output matches a real internal control or integration requirement; stop if there is no identified test environment or procurement route. Do not handle customer assets or offer securities without required authorization.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The near-term wedge is operational interoperability rather than issuing speculative tokens: test-data generation, reconciliation between on-chain transfers and traditional security records, entitlement reporting, transaction exception handling, or audit evidence for firms preparing for tokenized settlement workflows.",
+      "title": "Testing and workflow infrastructure around DTCC tokenized-security settlement",
+      "type": "asset_or_service",
+      "unknowns": [],
+      "value_capture_mechanism": "Potential payers are broker-dealers, custodians, market-infrastructure vendors or technology firms participating in the DTCC ecosystem. The cited sources do not establish that any particular organization is seeking an independent contractor or that a specific price is available.",
+      "verified_sales": null,
+      "vertical": "public_markets",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-04T03:07:07.122051+00:00",
       "discovery_lens": "tokenization_finance",
       "estimated_capital": "",
@@ -3900,13 +3954,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-14T04:23:48.732131+00:00",
+  "generated_at": "2026-10-14T08:25:46.564181+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 28,
+  "rejected_excluded": 30,
   "reviewed_cards": 33,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 79,
-  "watch": 51
+  "total_distinct_opportunities": 82,
+  "watch": 52
 }
