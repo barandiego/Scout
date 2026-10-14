@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-13T20:22:46.541668+00:00
+Generated: 2026-10-14T00:24:23.670189+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 51 (0 HQ survivors, 51 watches)
-- Rejected opportunities excluded: 25
+- Active research: 52 (0 HQ survivors, 52 watches)
+- Rejected opportunities excluded: 26
 - Critic-and-judge reviewed: 33
 - Autonomous execution authorization: 0
 
@@ -403,6 +403,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA; https://api.cmfchile.cl/
 
+### Self-hosted multilingual document extraction pilot using MonkeyOCRv2 or Mistral OCR 4 [opp_b9c90d663d7fab8d89c7]
+- Status: WATCH_REQUIRES_VALIDATION | innovation_adoption | Global; initial testing can target U.S. or Chilean Spanish documents
+- Thesis: A small operator can test whether document-heavy workflows that currently require paid OCR, manual transcription, or offshore data entry can be processed locally with lower variable cost and better privacy. The concrete asset is a deployable extraction pipeline for invoices, customs documents, purchase orders, or compliance files—not a generic AI consultancy.
+- Value capture: Charge for a narrowly defined document-processing workflow, such as converting a customer’s recurring PDF or image documents into validated CSV/JSON output. The economic mechanism is per-document or monthly processing revenue minus compute, review, and exception-handling costs. Existing Mistral OCR materials provide a public historical purchase reference of approximately 1,000 pages per dollar for the prior OCR API; current OCR 4 pricin
+- Participation hypothesis: Install MonkeyOCRv2 locally and assemble a 50–100-document benchmark from publicly available forms or documents supplied with permission. Compare field-level accuracy, processing time, and total compute cost against the cheapest acceptable paid OCR/API option. Then create one fixed-scope sample output for a document-heavy niche such as bookkeeping, freight forwarding, or import administration and send it to 10 identifiable operators; proceed only if the workflow can be tested without handling confidential data or violating document/API terms. D
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://github.com/Yuliang-Liu/MonkeyOCRv2; https://mistral.ai/news/ocr-4/; https://mistral.ai/news/mistral-ocr/
+
 ### Tokenized-securities operational control and transfer-agent integration testing [opp_2df7c31be3f47e321668]
 - Status: WATCH_REQUIRES_VALIDATION | public_markets | United States
 - Thesis: The near-term opportunity is not issuing unregistered tokens; it is testing reconciliation, transfer restrictions, entitlement records, corporate actions and settlement controls for regulated participants preparing for tokenized securities infrastructure.
@@ -432,16 +442,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.irs.gov/pub/irs-dft/i3468--dft.pdf; https://www.energy.gov/ceser/articles/new-ceser-report-offers-supply-chain-mitigation-strategies-battery-storage-systems
-
-### Chile Open Finance conformance and sandbox test harness [opp_05e7d4d756eff27e9ada]
-- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
-- Thesis: Financial institutions and prospective participants have a defined implementation surface and a lead time in which interoperability, consent, certificate and API failures can be found before production obligations begin.
-- Value capture: A narrowly scoped, self-serve conformance kit: API mock server, consent-state fixtures, certificate-validation checks, availability/TPS test scripts and machine-readable test reports aligned to the CMF technical annex. Revenue would come from paid access, implementation support or test-report generation only if prospective users confirm willingness to pay; no buyer or price is assumed.
-- Participation hypothesis: Build a local prototype against the CMF developer-portal specifications, then contact entities listed or represented in the CMF Open Finance Forum and ask whether they will run a 60-minute conformance test. The lowest-cost falsification step is to publish five representative tests and seek three technically qualified users willing to run them; stop if none will provide test feedback or pay for a pilot. Do not present the tool as CMF-certified or operate regulated financial services.
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html
 
 ### Chile Open Finance implementation-readiness wedge for smaller participants [opp_2ebf5a333b8bd51bbefb]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -492,6 +492,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://arxiv.org/abs/2509.25056; https://www.agricultural-robotics.com/robot/zurama-ai-inrow-weeder
+
+### Natura Chile catalog and corporate-gifting wedge across Natura.cl and Falabella.com [opp_ef5d3038f30393cb8c4f]
+- Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile
+- Thesis: The testable opportunity is not generic private label: it is a narrow price, availability, and assortment comparison for selected Natura products, followed by a compliant corporate-gifting or local fulfillment offer if the operator can obtain permission to resell or refer customers. The observable mechanism is channel fragmentation and promotional price variation, but no arbitrage profit should be assumed until checkout-level costs and marketplace rules are verified.
+- Value capture: Potential cash-flow sources are direct product purchases by corporate gift buyers or permitted referral/resale economics. The immediately verifiable asset is a live catalog with product prices and delivery information; current examples include Natura hand creams and skincare products listed on Falabella.com. A small operator could first sell a curated quote-and-bundle service rather than hold inventory, but buyer demand and resale permi
+- Participation hypothesis: Select three to five non-perishable, repeatedly listed SKUs. Record Natura.cl and Falabella.com prices, promotions, delivery dates, stock, and checkout totals for seven days. Separately build a one-page corporate-gifting sample with quantities and clearly labeled retail pricing; send it to 10 local businesses or procurement contacts only as a request-for-interest, without representing Natura or Falabella and without buying inventory. Falsify the wedge if there is no persistent price/availability difference, if shipping eliminates any spread, if
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.falabella.com/falabella-cl/seller/Natura; https://www.natura.cl/encuentra-natura
 
 ### Open-finance implementation test pack for Chilean fintechs [opp_defb3b9b7ca243658e89]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile

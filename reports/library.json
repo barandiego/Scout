@@ -3246,6 +3246,67 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-14T00:24:07.414243+00:00",
+      "discovery_lens": "ai_open_source",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The project documents Apache-licensed releases, CPU support, multilingual document parsing, benchmark results, and downloadable model components.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "MonkeyOCRv2: A Visual-Text Foundation Model for Document AI",
+          "url": "https://github.com/Yuliang-Liu/MonkeyOCRv2"
+        },
+        {
+          "claim": "Mistral documents OCR 4 structured extraction, 170-language support, self-hosting, and use in invoice processing, form filling, search, and agent workflows.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Introducing Mistral OCR 4",
+          "url": "https://mistral.ai/news/ocr-4/"
+        },
+        {
+          "claim": "The earlier Mistral OCR announcement provides a public purchase reference of approximately 1,000 pages per dollar for the API; this should not be assumed to be the current OCR 4 price.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Mistral OCR",
+          "url": "https://mistral.ai/news/mistral-ocr/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.84,
+      "falsification_conditions": [],
+      "geography": "Global; initial testing can target U.S. or Chilean Spanish documents",
+      "id": "opp_b9c90d663d7fab8d89c7",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-14T00:24:07.431775+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Install MonkeyOCRv2 locally and assemble a 50–100-document benchmark from publicly available forms or documents supplied with permission. Compare field-level accuracy, processing time, and total compute cost against the cheapest acceptable paid OCR/API option. Then create one fixed-scope sample output for a document-heavy niche such as bookkeeping, freight forwarding, or import administration and send it to 10 identifiable operators; proceed only if the workflow can be tested without handling confidential data or violating document/API terms. Do not claim a customer, margin, or permission until one is independently obtained.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A small operator can test whether document-heavy workflows that currently require paid OCR, manual transcription, or offshore data entry can be processed locally with lower variable cost and better privacy. The concrete asset is a deployable extraction pipeline for invoices, customs documents, purchase orders, or compliance files—not a generic AI consultancy.",
+      "title": "Self-hosted multilingual document extraction pilot using MonkeyOCRv2 or Mistral OCR 4",
+      "type": "offer",
+      "unknowns": [],
+      "value_capture_mechanism": "Charge for a narrowly defined document-processing workflow, such as converting a customer’s recurring PDF or image documents into validated CSV/JSON output. The economic mechanism is per-document or monthly processing revenue minus compute, review, and exception-handling costs. Existing Mistral OCR materials provide a public historical purchase reference of approximately 1,000 pages per dollar for the prior OCR API; current OCR 4 pricing must be re-verified before quoting.",
+      "verified_sales": null,
+      "vertical": "innovation_adoption",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-13T00:18:11.646305+00:00",
       "discovery_lens": "tokenization_finance",
       "estimated_capital": "",
@@ -3407,60 +3468,6 @@
       "value_capture_mechanism": "Sell a narrowly scoped evidence pack: bill-of-materials normalization, supplier-origin records, component eligibility mapping, prohibited-foreign-entity screening, and an auditor-ready file indexed to the project’s tax-credit claims. A second possible mechanism is licensing the document schema or spreadsheet template to solar/BESS developers, EPCs or tax-credit advisors.",
       "verified_sales": null,
       "vertical": "energy_infrastructure",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
-      "discovered_at": "2026-10-12T12:19:54.778434+00:00",
-      "discovery_lens": "wildcard",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "CMF states that the technical annex and developer portal were issued on June 1, 2026, covering interoperability, information exchange and payment initiation, with entry into force postponed until July 2027.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
-          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
-        },
-        {
-          "claim": "CMF describes the Open Finance Forum and the system’s automated interfaces, consent requirements and participant framework.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Foro Sistema de Finanzas Abiertas",
-          "url": "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.94,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_05e7d4d756eff27e9ada",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-12T12:19:54.787042+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Build a local prototype against the CMF developer-portal specifications, then contact entities listed or represented in the CMF Open Finance Forum and ask whether they will run a 60-minute conformance test. The lowest-cost falsification step is to publish five representative tests and seek three technically qualified users willing to run them; stop if none will provide test feedback or pay for a pilot. Do not present the tool as CMF-certified or operate regulated financial services.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "Financial institutions and prospective participants have a defined implementation surface and a lead time in which interoperability, consent, certificate and API failures can be found before production obligations begin.",
-      "title": "Chile Open Finance conformance and sandbox test harness",
-      "type": "compliance_software_asset",
-      "unknowns": [],
-      "value_capture_mechanism": "A narrowly scoped, self-serve conformance kit: API mock server, consent-state fixtures, certificate-validation checks, availability/TPS test scripts and machine-readable test reports aligned to the CMF technical annex. Revenue would come from paid access, implementation support or test-report generation only if prospective users confirm willingness to pay; no buyer or price is assumed.",
-      "verified_sales": null,
-      "vertical": "open_finance_chile",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -3739,6 +3746,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-14T00:24:07.415504+00:00",
+      "discovery_lens": "physical_commerce",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The live seller page shows Natura products, product-level Chilean peso prices, promotions, delivery information, and checkout-oriented purchase options.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Natura | Falabella Chile",
+          "url": "https://www.falabella.com/falabella-cl/seller/Natura"
+        },
+        {
+          "claim": "Natura identifies its Chilean ecommerce site, app, consultants, stores, and corporate-gifting service as purchase or commercial channels.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Natura Chile: canales de compra y regalos corporativos",
+          "url": "https://www.natura.cl/encuentra-natura"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.91,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_ef5d3038f30393cb8c4f",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-14T00:24:07.431606+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Select three to five non-perishable, repeatedly listed SKUs. Record Natura.cl and Falabella.com prices, promotions, delivery dates, stock, and checkout totals for seven days. Separately build a one-page corporate-gifting sample with quantities and clearly labeled retail pricing; send it to 10 local businesses or procurement contacts only as a request-for-interest, without representing Natura or Falabella and without buying inventory. Falsify the wedge if there is no persistent price/availability difference, if shipping eliminates any spread, if minimum order quantities are unattractive, or if no qualified respondent requests a quote. Do not resell, scrape, advertise as an authorized seller, or use brand assets unless the applicable terms and permissions allow it.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The testable opportunity is not generic private label: it is a narrow price, availability, and assortment comparison for selected Natura products, followed by a compliant corporate-gifting or local fulfillment offer if the operator can obtain permission to resell or refer customers. The observable mechanism is channel fragmentation and promotional price variation, but no arbitrage profit should be assumed until checkout-level costs and marketplace rules are verified.",
+      "title": "Natura Chile catalog and corporate-gifting wedge across Natura.cl and Falabella.com",
+      "type": "distribution_test",
+      "unknowns": [],
+      "value_capture_mechanism": "Potential cash-flow sources are direct product purchases by corporate gift buyers or permitted referral/resale economics. The immediately verifiable asset is a live catalog with product prices and delivery information; current examples include Natura hand creams and skincare products listed on Falabella.com. A small operator could first sell a curated quote-and-bundle service rather than hold inventory, but buyer demand and resale permission remain unverified.",
+      "verified_sales": null,
+      "vertical": "physical_distribution",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-13T20:22:30.986436+00:00",
       "discovery_lens": "wildcard",
       "estimated_capital": "",
@@ -3900,13 +3961,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-13T20:22:46.541668+00:00",
+  "generated_at": "2026-10-14T00:24:23.670189+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 25,
+  "rejected_excluded": 26,
   "reviewed_cards": 33,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 76,
-  "watch": 51
+  "total_distinct_opportunities": 78,
+  "watch": 52
 }

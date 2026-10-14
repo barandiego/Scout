@@ -819,38 +819,39 @@
     },
     {
       "capital_required_unverified_estimate": "",
-      "category": "open_finance_chile",
+      "category": "innovation_adoption",
       "commercially_validated": false,
       "competition_confirmed": false,
-      "current_participation_path": "Build a local prototype against the CMF developer-portal specifications, then contact entities listed or represented in the CMF Open Finance Forum and ask whether they will run a 60-minute conformance test. The lowest-cost falsification step is to publish five representative tests and seek three technically qualified users willing to run them; stop if none will provide test feedback or pay for a pilot. Do not present the tool as CMF-certified or operate regulated financial services.",
-      "current_thesis": "Financial institutions and prospective participants have a defined implementation surface and a lead time in which interoperability, consent, certificate and API failures can be found before production obligations begin.",
+      "current_participation_path": "Install MonkeyOCRv2 locally and assemble a 50–100-document benchmark from publicly available forms or documents supplied with permission. Compare field-level accuracy, processing time, and total compute cost against the cheapest acceptable paid OCR/API option. Then create one fixed-scope sample output for a document-heavy niche such as bookkeeping, freight forwarding, or import administration and send it to 10 identifiable operators; proceed only if the workflow can be tested without handling confidential data or violating document/API terms. Do not claim a customer, margin, or permission until one is independently obtained.",
+      "current_thesis": "A small operator can test whether document-heavy workflows that currently require paid OCR, manual transcription, or offshore data entry can be processed locally with lower variable cost and better privacy. The concrete asset is a deployable extraction pipeline for invoices, customs documents, purchase orders, or compliance files—not a generic AI consultancy.",
       "founder_hours_initial_unverified_estimate": "",
       "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "Chile",
+      "geography": "Global; initial testing can target U.S. or Chilean Spanish documents",
       "hypothesis_evaluation_questions": [
         "Who is the actual payer and what evidence establishes demand?",
         "What existing alternative already solves this job?",
         "What is net contribution after fulfillment, fees, support and acquisition?"
       ],
       "investment_authorized": false,
-      "name": "Chile Open Finance conformance and sandbox test harness",
-      "opportunity_id": "opp_05e7d4d756eff27e9ada",
+      "name": "Self-hosted multilingual document extraction pilot using MonkeyOCRv2 or Mistral OCR 4",
+      "opportunity_id": "opp_b9c90d663d7fab8d89c7",
       "pricing_confirmed": false,
       "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
       "regulatory_access_confirmed": false,
       "research_only": true,
       "status": "watch",
       "strategy_hypotheses_not_facts": [
-        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
-        "Check license perimeter, API access, legal compliance and competitor pricing.",
-        "Test buyer procurement and technical access before writing integration infrastructure."
+        "Identify a real technical capability not yet adopted in one buyer's high-value workflow.",
+        "Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.",
+        "Measure the fully loaded operating cost, human exceptions and distribution against the status quo."
       ],
       "supporting_source_urls": [
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html"
+        "https://github.com/Yuliang-Liu/MonkeyOCRv2",
+        "https://mistral.ai/news/ocr-4/",
+        "https://mistral.ai/news/mistral-ocr/"
       ],
       "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "A narrowly scoped, self-serve conformance kit: API mock server, consent-state fixtures, certificate-validation checks, availability/TPS test scripts and machine-readable test reports aligned to the CMF technical annex. Revenue would come from paid access, implementation support or test-report generation only if prospective users confirm willingness to pay; no buyer or price is assumed.",
+      "value_capture_claim": "Charge for a narrowly defined document-processing workflow, such as converting a customer’s recurring PDF or image documents into validated CSV/JSON output. The economic mechanism is per-document or monthly processing revenue minus compute, review, and exception-handling costs. Existing Mistral OCR materials provide a public historical purchase reference of approximately 1,000 pages per dollar for the prior OCR API; current OCR 4 pricing must be re-verified before quoting.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -1712,6 +1713,42 @@
       "category": "physical_distribution",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Select three to five non-perishable, repeatedly listed SKUs. Record Natura.cl and Falabella.com prices, promotions, delivery dates, stock, and checkout totals for seven days. Separately build a one-page corporate-gifting sample with quantities and clearly labeled retail pricing; send it to 10 local businesses or procurement contacts only as a request-for-interest, without representing Natura or Falabella and without buying inventory. Falsify the wedge if there is no persistent price/availability difference, if shipping eliminates any spread, if minimum order quantities are unattractive, or if no qualified respondent requests a quote. Do not resell, scrape, advertise as an authorized seller, or use brand assets unless the applicable terms and permissions allow it.",
+      "current_thesis": "The testable opportunity is not generic private label: it is a narrow price, availability, and assortment comparison for selected Natura products, followed by a compliant corporate-gifting or local fulfillment offer if the operator can obtain permission to resell or refer customers. The observable mechanism is channel fragmentation and promotional price variation, but no arbitrage profit should be assumed until checkout-level costs and marketplace rules are verified.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Natura Chile catalog and corporate-gifting wedge across Natura.cl and Falabella.com",
+      "opportunity_id": "opp_ef5d3038f30393cb8c4f",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Compare local product availability to supplier catalogs and independent consumer interest.",
+        "Check import, tax, return, certification and delivery economics before estimating margin.",
+        "Try a legitimate pre-order/waitlist test with transparent fulfillment conditions."
+      ],
+      "supporting_source_urls": [
+        "https://www.falabella.com/falabella-cl/seller/Natura",
+        "https://www.natura.cl/encuentra-natura"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Potential cash-flow sources are direct product purchases by corporate gift buyers or permitted referral/resale economics. The immediately verifiable asset is a live catalog with product prices and delivery information; current examples include Natura hand creams and skincare products listed on Falabella.com. A small operator could first sell a curated quote-and-bundle service rather than hold inventory, but buyer demand and resale permission remain unverified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "physical_distribution",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Lowest-cost falsification: buy or make 3–5 low-cost NFC/QR displays using the publicly listed CLP 9,990–19,990 price range, configure each to a distinct review or contact destination, and run a seven-day pilot with independently recruited local businesses that consent to placement. Record scans/taps, completed review actions and staff-observed usage; do not claim incremental reviews unless the business shares a before/after baseline. Offer the pilot first as a paid purchase at or below the observed local price, or as a refundable trial only if the business agrees in writing. Stop if no business agrees to place the display or no measurable interactions occur.",
       "current_thesis": "The generic NFC-card market is already served, so an independent operator should not compete on ordinary networking cards. A narrower offer is a configured, location-specific review/contact display for businesses where staff can prompt a customer at checkout, reception or table service. The verifiable purchase prices establish customer willingness to pay for the hardware, but do not establish conversion uplift or recurring software willingness to pay.",
       "founder_hours_initial_unverified_estimate": "",
@@ -1982,7 +2019,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-13T20:22:46.579612+00:00",
+  "generated_at": "2026-10-14T00:24:23.703445+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

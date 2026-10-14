@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 51
+Candidates: 52
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -256,17 +256,17 @@ Candidates: 51
 - Possible initial budget:
 - Source URLs: https://www.whitehouse.gov/presidential-actions/2026/01/adjusting-imports-of-processed-critical-minerals-and-their-derivative-products-into-the-united-states/; https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary
 
-## Chile Open Finance conformance and sandbox test harness
-- Status: watch | open_finance_chile
-- Current idea: Financial institutions and prospective participants have a defined implementation surface and a lead time in which interoperability, consent, certificate and API failures can be found before production obligations begin.
-- Potential economic capture: A narrowly scoped, self-serve conformance kit: API mock server, consent-state fixtures, certificate-validation checks, availability/TPS test scripts and machine-readable test reports aligned to the CMF technical annex. Revenue would come from paid access, implementation support or test-report generation only if prospective users confirm willingness to pay; no buyer or price is assumed.
+## Self-hosted multilingual document extraction pilot using MonkeyOCRv2 or Mistral OCR 4
+- Status: watch | innovation_adoption
+- Current idea: A small operator can test whether document-heavy workflows that currently require paid OCR, manual transcription, or offshore data entry can be processed locally with lower variable cost and better privacy. The concrete asset is a deployable extraction pipeline for invoices, customs documents, purchase orders, or compliance files—not a generic AI consultancy.
+- Potential economic capture: Charge for a narrowly defined document-processing workflow, such as converting a customer’s recurring PDF or image documents into validated CSV/JSON output. The economic mechanism is per-document or monthly processing revenue minus compute, review, and exception-handling costs. Existing Mistral OCR materials provide a public historical purchase reference of approximately 1,000 pages per dollar for the prior OCR API; current OCR 4 pricing must be re-verified before quoting.
 - **Research routes to test (NOT validated claims):**
-  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
-  - Check license perimeter, API access, legal compliance and competitor pricing.
-  - Test buyer procurement and technical access before writing integration infrastructure.
+  - Identify a real technical capability not yet adopted in one buyer's high-value workflow.
+  - Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.
+  - Measure the fully loaded operating cost, human exceptions and distribution against the status quo.
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
-- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html
+- Source URLs: https://github.com/Yuliang-Liu/MonkeyOCRv2; https://mistral.ai/news/ocr-4/; https://mistral.ai/news/mistral-ocr/
 
 ## Chile Open Finance conformance and sandbox testing kit
 - Status: watch | open_finance_chile
@@ -531,6 +531,18 @@ Candidates: 51
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.bis.org/media-releases/20250624-next-generation-monetary-and-financial-system-takes-shape-based-tokenised-unified-ledger-bis; https://www.bis.org/publications/aer-2025/next-generation-monetary-financial-system
+
+## Natura Chile catalog and corporate-gifting wedge across Natura.cl and Falabella.com
+- Status: watch | physical_distribution
+- Current idea: The testable opportunity is not generic private label: it is a narrow price, availability, and assortment comparison for selected Natura products, followed by a compliant corporate-gifting or local fulfillment offer if the operator can obtain permission to resell or refer customers. The observable mechanism is channel fragmentation and promotional price variation, but no arbitrage profit should be assumed until checkout-level costs and marketplace rules are verified.
+- Potential economic capture: Potential cash-flow sources are direct product purchases by corporate gift buyers or permitted referral/resale economics. The immediately verifiable asset is a live catalog with product prices and delivery information; current examples include Natura hand creams and skincare products listed on Falabella.com. A small operator could first sell a curated quote-and-bundle service rather than hold inventory, but buyer demand and resale permission remain unverified.
+- **Research routes to test (NOT validated claims):**
+  - Compare local product availability to supplier catalogs and independent consumer interest.
+  - Check import, tax, return, certification and delivery economics before estimating margin.
+  - Try a legitimate pre-order/waitlist test with transparent fulfillment conditions.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.falabella.com/falabella-cl/seller/Natura; https://www.natura.cl/encuentra-natura
 
 ## NFC review-and-contact displays for Chilean cafés, hotels and service counters
 - Status: watch | physical_distribution
