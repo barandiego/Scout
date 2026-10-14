@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-14T01:07:31.160330+00:00
+Generated: 2026-10-14T04:57:40.360630+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
-- Rolling leads: 1490
-- New this cycle: 109
+- Rolling leads: 1529
+- New this cycle: 90
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 202, ai 295, commerce 33, energy 483, robotics 477
+- Categories: agriculture 204, ai 303, commerce 33, energy 498, robotics 491
 
 ## Recently encountered signals
 
@@ -450,14 +450,14 @@ Generated: 2026-10-14T01:07:31.160330+00:00
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
 
-### BinHuangScut/bess-lifecycle-electrothermal-aging
-- Source: https://github.com/BinHuangScut/bess-lifecycle-electrothermal-aging
+### sschwetz/wattwise
+- Source: https://github.com/sschwetz/wattwise
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
-### Author response for "Wastewater Valorization for Energy Storage: Phenolic Resin-Derived Hard Carbon Architectures as High-Performance Sodium-Ion Battery Anodes"
-- Source: https://doi.org/10.1039/d6nj02662a/v3/response1
+### BinHuangScut/bess-lifecycle-electrothermal-aging
+- Source: https://github.com/BinHuangScut/bess-lifecycle-electrothermal-aging
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
