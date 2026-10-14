@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 52
+Candidates: 54
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -292,6 +292,18 @@ Candidates: 52
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
+## Chile SFA API conformance and test-harness wedge
+- Status: watch | open_finance_chile
+- Current idea: Regulated information providers, account providers, information-service providers, and payment-initiation providers have a bounded implementation and testing obligation before the July 2027 operating date. The directly monetizable problem is not generic fintech demand; it is reducing failed integration, security-test, data-quality, certificate, and regression-test work against the CMF-defined interface requirements.
+- Potential economic capture: A small operator could offer a narrowly scoped SFA conformance asset: automated schema/API contract tests, test data fixtures, certificate and mTLS checks, consent-flow regression tests, and evidence export for an institution's internal compliance or vendor review. Cash flow would come from a paid implementation or testing engagement with an entity preparing for SFA participation; no specific buyer, fee, or procurement commitment is verified.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/normativa/ncg_514_2024.pdf
+
 ## Chile SFA conformance and consent-flow testing for fintech participants before July 2027
 - Status: watch | open_finance_chile
 - Current idea: Entities preparing to participate will need to translate the technical specifications into working consent, security, API and interoperability test flows. The actionable wedge is not generic fintech consulting but a reusable conformance-test harness, test-data pack and defect log for specific SFA flows.
@@ -360,7 +372,7 @@ Candidates: 52
   - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
   - Check license perimeter, API access, legal compliance and competitor pricing.
   - Test buyer procurement and technical access before writing integration infrastructure.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Whether ATENA exposes all negative-path, version-regression, webhook, certificate, and issuer-metadata scenarios needed by production teams.; Whether CMF or ATENA will provide formal conformance reports, automated regression tooling, CI/CD integration, test-result retention, or certification recognized by buyers.; Number of entities actually required to participate in each SFA role and their implementation budgets.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
@@ -627,3 +639,15 @@ Candidates: 52
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://arxiv.org/abs/2509.25056; https://www.agricultural-robotics.com/robot/zurama-ai-inrow-weeder
+
+## Shared-service autonomous mechanical weeding pilot for sugar beet and similar row crops
+- Status: watch | robotics_agritech
+- Current idea: The actionable gap is between proven field use and small-farm affordability/utilization. A fleet or seasonal rental/service model could test whether one machine can be economically utilized across multiple nearby farms, rather than requiring each farm to purchase equipment. The evidence does not establish a profitable per-acre price, local import permissions, or customer willingness to pay.
+- Potential economic capture: Potential cash-flow mechanisms are seasonal equipment rental, contracted mechanical-weeding passes, or brokerage/import coordination for a confirmed farm or cooperative order. The economic asset is a controlled field trial plus utilization and cost data, not a claimed robot margin or guaranteed service business.
+- **Research routes to test (NOT validated claims):**
+  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
+  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
+  - Arrange a bounded field validation with an actual farm operator before scaling.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.ndsu.edu/agriculture/sites/default/files/2026-02/2026%20ACAW%20ANDERSON%20Robotic%20Weeding%20PPT.pdf; https://smartsoilai.com/shop/autonomous-weeding-robot

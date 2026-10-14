@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-14T08:25:46.564181+00:00
+Generated: 2026-10-14T12:27:36.924506+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 52 (0 HQ survivors, 52 watches)
+- Active research: 54 (0 HQ survivors, 54 watches)
 - Rejected opportunities excluded: 30
-- Critic-and-judge reviewed: 33
+- Critic-and-judge reviewed: 34
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -142,6 +142,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: How many Chilean entities will actually be required to participate, by participant category and implementation phase.; Whether ATENA will remain free, become mandatory, provide conformance evidence, or satisfy most buyer testing needs.; Whether CMF, banks, or industry groups will recognize third-party test results as useful evidence.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836
+
+### Chile SFA interoperability test harness for regulated participants [opp_f696eab5c7c7590b79fa]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Entities preparing for SFA participation must validate API behavior, directory interactions, certificates, webhooks, authorization flows and version changes before the July 2027 deadline. The published technical requirements and sandbox create a bounded implementation problem rather than a generic fintech opportunity.
+- Value capture: A small operator could build a narrowly scoped conformance-test package: local mock APIs, request/response validators, directory and webhook simulators, certificate/FAPI test fixtures, and regression reports aligned to Annex 3. Potential payment sources are institutions preparing to participate in the SFA or technology vendors integrating with them; no buyer, price or procurement commitment is established by the evidence.
+- Participation hypothesis: Use the CMF's published NCG 514 Annex 3 and ATENA materials to implement only one testable wedge: a local validator for participant-directory, webhook and authentication flows. Run it against the documented examples/specifications, publish a reproducible open demo, then contact identifiable SFA participants or implementation vendors through public company channels with a request for a paid pilot or technical review; do not represent the tool as CMF-approved. Lowest-cost falsification: spend one week implementing the validator and ask at least t
+- Critic/judge: The regulatory premise is sufficiently grounded by CMF primary sources: Annex 3 and ATENA appear to create a real, time-bounded interoperability-testing need ahead of the stated July 2027 implementation date. A narrowly scoped testing tool is not inherently a regulated financial activity, so there is no demonstrated license-perimeter or compliance fatality. However, the commercial premise is unproven and materially weakened by overlap w
+- Next evidence gaps: Whether ATENA exposes all negative-path, version-regression, webhook, certificate, and issuer-metadata scenarios needed by production teams.; Whether CMF or ATENA will provide formal conformance reports, automated regression tooling, CI/CD integration, test-result retention, or certification recognized by; Number of entities actually required to participate in each SFA role and their implementation budgets.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
 ### Chile’s Open Finance implementation is moving from regulation to integration infrastructure [opp_7c40e3dba23666b0c578]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -433,6 +443,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.irs.gov/pub/irs-dft/i3468--dft.pdf; https://www.energy.gov/ceser/articles/new-ceser-report-offers-supply-chain-mitigation-strategies-battery-storage-systems
 
+### Chile SFA API conformance and test-harness wedge [opp_56dda86b89972247ff94]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Regulated information providers, account providers, information-service providers, and payment-initiation providers have a bounded implementation and testing obligation before the July 2027 operating date. The directly monetizable problem is not generic fintech demand; it is reducing failed integration, security-test, data-quality, certificate, and regression-test work against the CMF-defined interface requirements.
+- Value capture: A small operator could offer a narrowly scoped SFA conformance asset: automated schema/API contract tests, test data fixtures, certificate and mTLS checks, consent-flow regression tests, and evidence export for an institution's internal compliance or vendor review. Cash flow would come from a paid implementation or testing engagement with an entity preparing for SFA participation; no specific buyer, fee, or procurement commitment is ver
+- Participation hypothesis: Start without claiming CMF approval or acting as a regulated participant. Download the current NCG 514 and Technical Annex/Developer Portal materials, implement a small local validator for one publicly documented API flow, and publish a reproducible demo showing failures and evidence output. Then contact Chilean banks, payment institutions, cooperatives, and fintechs listed or referenced in the CMF framework with a fixed-scope paid diagnostic proposal. Falsification test: within 10 business days, obtain three documented implementation pain poin
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/normativa/ncg_514_2024.pdf
+
 ### Chile SFA conformance-testing wedge ahead of the July 2027 implementation date [opp_20f82e47fa9080b32bd2]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: Financial institutions and regulated fintech participants will need to translate the CMF technical specifications into interoperable APIs, certificates, consent flows, testing procedures, and operational controls before the revised implementation date. A narrowly scoped testing and evidence asset could reduce integration rework and implementation risk without requiring the operator to become a regulated financial provider.
@@ -452,16 +472,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
-
-### Chile SFA interoperability test harness for regulated participants [opp_f696eab5c7c7590b79fa]
-- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
-- Thesis: Entities preparing for SFA participation must validate API behavior, directory interactions, certificates, webhooks, authorization flows and version changes before the July 2027 deadline. The published technical requirements and sandbox create a bounded implementation problem rather than a generic fintech opportunity.
-- Value capture: A small operator could build a narrowly scoped conformance-test package: local mock APIs, request/response validators, directory and webhook simulators, certificate/FAPI test fixtures, and regression reports aligned to Annex 3. Potential payment sources are institutions preparing to participate in the SFA or technology vendors integrating with them; no buyer, price or procurement commitment is established by the evidence.
-- Participation hypothesis: Use the CMF's published NCG 514 Annex 3 and ATENA materials to implement only one testable wedge: a local validator for participant-directory, webhook and authentication flows. Run it against the documented examples/specifications, publish a reproducible open demo, then contact identifiable SFA participants or implementation vendors through public company channels with a request for a paid pilot or technical review; do not represent the tool as CMF-approved. Lowest-cost falsification: spend one week implementing the validator and ask at least t
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
 ### Compliance-and-integration tooling for Chile's Open Finance implementation [opp_74aed61a008c4b4bb5a1]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -512,6 +522,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://atencionciudadana.minenergia.cl/tramites/informacion/20; https://www.minvu.gob.cl/postulacion/llamado-eficiencia-energetica-y-acondicionamiento-termico-ds-27-ano-2025/
+
+### Shared-service autonomous mechanical weeding pilot for sugar beet and similar row crops [opp_5b761b0ef329020c7bc2]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States; potentially adaptable to Chilean row-crop regions
+- Thesis: The actionable gap is between proven field use and small-farm affordability/utilization. A fleet or seasonal rental/service model could test whether one machine can be economically utilized across multiple nearby farms, rather than requiring each farm to purchase equipment. The evidence does not establish a profitable per-acre price, local import permissions, or customer willingness to pay.
+- Value capture: Potential cash-flow mechanisms are seasonal equipment rental, contracted mechanical-weeding passes, or brokerage/import coordination for a confirmed farm or cooperative order. The economic asset is a controlled field trial plus utilization and cost data, not a claimed robot margin or guaranteed service business.
+- Participation hypothesis: Do not purchase first. Identify one crop, one row spacing, and one local farm/cooperative willing to provide a test plot. Request written quotations, shipping terms, warranty, spare-parts availability, and field references from at least two suppliers; compare the quoted landed cost with the farm's current mechanical or manual weeding cost. Falsification test: secure a signed expression of interest for a paid or deposit-backed trial, or obtain enough operating-cost data to show a credible payback under local acreage. If suppliers cannot provide
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.ndsu.edu/agriculture/sites/default/files/2026-02/2026%20ACAW%20ANDERSON%20Robotic%20Weeding%20PPT.pdf; https://smartsoilai.com/shop/autonomous-weeding-robot
 
 ### Testing and workflow infrastructure around DTCC tokenized-security settlement [opp_baf7eb33e64d74226047]
 - Status: WATCH_REQUIRES_VALIDATION | public_markets | United States

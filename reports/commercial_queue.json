@@ -1,9 +1,9 @@
 {
   "buyer_qualified_count": 0,
-  "excluded_from_first_dollar_queue": 48,
+  "excluded_from_first_dollar_queue": 50,
   "first_dollar_verified": false,
-  "generated_at": "2026-10-14T08:25:46.564181+00:00",
-  "opportunity_count_reviewed": 52,
+  "generated_at": "2026-10-14T12:27:36.924506+00:00",
+  "opportunity_count_reviewed": 54,
   "revenue_usd_verified": null,
   "schema_version": 1,
   "selected": [
@@ -40,7 +40,7 @@
       "buyer_verified": false,
       "current_status": "WATCH_REQUIRES_VALIDATION",
       "economic_status": "UNVALIDATED_NO_VERIFIED_BUYER_OR_SALE",
-      "first_distribution_hypothesis": "Lowest-cost falsification: use only the CMF-published technical material and developer-portal information to build a small local validator for one documented message flow; publish a technical demo and contact named implementation teams or vendors identified through public company materials, asking whether they would pay for a $0-to-low-cost pilot or provide a sample conformance problem. Do not represent the tool as CMF-approved, certification, legal advice, or access to regulated data. Kill the test if the specifications are inaccessible, unstable, insufficiently detailed for automated validation, or no implementation team agrees to evaluate a pilot.",
+      "first_distribution_hypothesis": "Use the CMF's published NCG 514 Annex 3 and ATENA materials to implement only one testable wedge: a local validator for participant-directory, webhook and authentication flows. Run it against the documented examples/specifications, publish a reproducible open demo, then contact identifiable SFA participants or implementation vendors through public company channels with a request for a paid pilot or technical review; do not represent the tool as CMF-approved. Lowest-cost falsification: spend one week implementing the validator and ask at least three publicly identifiable SFA participants or vendors whether the resulting test report would be useful enough to evaluate in their ATENA/pre-production process. Stop if the specifications are insufficient to produce repeatable tests or no qualified respondent agrees to review it.",
       "independent_review_status": "CRITIC_JUDGE_COMPLETE_NOT_COMMERCIAL_PROOF",
       "missing_to_prove": [
         "independent_specific_buyer",
@@ -50,13 +50,13 @@
         "actual_third_party_receipt"
       ],
       "next_no_spend_buyer_test": "Identify one genuinely budget-owning regulated buyer, one conformance failure, and an independently accepted paid software deliverable before coding a broad financial integration.",
-      "opportunity_id": "opp_d8365496cc53375fa445",
+      "opportunity_id": "opp_f696eab5c7c7590b79fa",
       "origin": "EXISTING_SCOUT_WATCH_OR_SURVIVOR_NOT_NEW_OPPORTUNITY",
       "revenue_verified": false,
-      "title": "Open-finance conformance test asset for Chilean participants",
+      "title": "Chile SFA interoperability test harness for regulated participants",
       "verified_source_urls": [
         "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://cmfchile.cl/portal/principal/613/w3-article-92556.html"
+        "https://cmfchile.cl/portal/prensa/625/w4-article-113897.html"
       ],
       "vertical": "open_finance_chile"
     },

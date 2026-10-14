@@ -1139,6 +1139,86 @@
     {
       "ai_leverage": "",
       "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-12T20:12:23.036591+00:00",
+      "discovery_lens": "regulation_infrastructure",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF added Annex 3 with technical interoperability requirements and a developer portal, and postponed SFA entry into force to July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        },
+        {
+          "claim": "ATENA provides a controlled environment for institutions to test SFA integrations, participant identification, digital credentials and interoperability before implementation.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF lanza Sandbox Tecnológico ATENA para la implementación del Sistema de Finanzas Abiertas",
+          "url": "https://cmfchile.cl/portal/prensa/625/w4-article-113897.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.91,
+      "falsification_conditions": [
+        "ATENA provides equivalent or superior automated conformance, regression, evidence-reporting, and CI/CD functionality for the target workflows at no incremental license cost.",
+        "At least three qualified participants or implementation vendors reject a prototype after reviewing a concrete test report, or none agrees to a paid discovery/pilot.",
+        "No buyer will pay at least a commercially meaningful amount for testing software or recurring specification maintenance beyond consulting rates.",
+        "The likely customer universe is too small to support the required sales effort after accounting for CMF tooling, SFA-Sandbox, banks' internal systems, and integrators.",
+        "A major systems integrator or incumbent compliance vendor bundles equivalent functionality into SFA implementation contracts.",
+        "The regulator changes the technical specification, sandbox architecture, or implementation schedule enough to invalidate the proposed test harness before first revenue.",
+        "The prototype cannot produce repeatable, machine-verifiable tests from the published specifications without undocumented CMF behavior or privileged sandbox access."
+      ],
+      "geography": "Chile",
+      "id": "opp_f696eab5c7c7590b79fa",
+      "judge_reviewed": true,
+      "judgment": "The regulatory premise is sufficiently grounded by CMF primary sources: Annex 3 and ATENA appear to create a real, time-bounded interoperability-testing need ahead of the stated July 2027 implementation date. A narrowly scoped testing tool is not inherently a regulated financial activity, so there is no demonstrated license-perimeter or compliance fatality. However, the commercial premise is unproven and materially weakened by overlap with CMF/ATENA testing capabilities and an apparent Chile-specific commercial provider. No evidence establishes that target institutions can and will buy an independent validator, that sandbox/specification access supports a differentiated product, or that a small customer universe can support software economics rather than one-off consulting. This is HQ-worthy only as a tightly falsifiable wedge, not as an investable standalone business conclusion.",
+      "last_record_updated_at": "2026-10-14T12:27:36.521455+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Whether ATENA exposes all negative-path, version-regression, webhook, certificate, and issuer-metadata scenarios needed by production teams.",
+        "Whether CMF or ATENA will provide formal conformance reports, automated regression tooling, CI/CD integration, test-result retention, or certification recognized by buyers.",
+        "Number of entities actually required to participate in each SFA role and their implementation budgets.",
+        "Whether regulated institutions outsource conformance testing or treat it as internal engineering work bundled with core SFA implementation.",
+        "Pricing, customer count, traction, technical depth, and procurement status of SFA-Sandbox."
+      ],
+      "participation_path": "Use the CMF's published NCG 514 Annex 3 and ATENA materials to implement only one testable wedge: a local validator for participant-directory, webhook and authentication flows. Run it against the documented examples/specifications, publish a reproducible open demo, then contact identifiable SFA participants or implementation vendors through public company channels with a request for a paid pilot or technical review; do not represent the tool as CMF-approved. Lowest-cost falsification: spend one week implementing the validator and ask at least three publicly identifiable SFA participants or vendors whether the resulting test report would be useful enough to evaluate in their ATENA/pre-production process. Stop if the specifications are insufficient to produce repeatable tests or no qualified respondent agrees to review it.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Entities preparing for SFA participation must validate API behavior, directory interactions, certificates, webhooks, authorization flows and version changes before the July 2027 deadline. The published technical requirements and sandbox create a bounded implementation problem rather than a generic fintech opportunity.",
+      "title": "Chile SFA interoperability test harness for regulated participants",
+      "type": "regulatory_infrastructure",
+      "unknowns": [
+        "Whether ATENA exposes all negative-path, version-regression, webhook, certificate, and issuer-metadata scenarios needed by production teams.",
+        "Whether CMF or ATENA will provide formal conformance reports, automated regression tooling, CI/CD integration, test-result retention, or certification recognized by buyers.",
+        "Number of entities actually required to participate in each SFA role and their implementation budgets.",
+        "Whether regulated institutions outsource conformance testing or treat it as internal engineering work bundled with core SFA implementation.",
+        "Pricing, customer count, traction, technical depth, and procurement status of SFA-Sandbox.",
+        "Whether the July 2027 date will hold or be further delayed.",
+        "Whether implementation vendors would prefer a white-label test engine, consulting-led testing, or no external product.",
+        "Whether requirements will change enough to create recurring version-management value rather than a one-time implementation project.",
+        "Whether ATENA permits the target user types and exposes APIs, credentials, scenarios, and artifacts needed to build and validate an independent tool.",
+        "Whether CMF offers recognized automated conformance reports, CI integration, regression testing, or certification-equivalent evidence.",
+        "Which entities are required or economically motivated to implement each SFA role, their timelines, and their external tooling budgets.",
+        "Whether any qualified participant or implementation vendor will pay for a test report, recurring specification maintenance, or a white-label engine.",
+        "The actual capability, pricing, customer traction, and procurement position of SFA-Sandbox and other substitutes.",
+        "Whether a defensible narrow workflow remains after comparing ATENA and competitors feature-by-feature."
+      ],
+      "value_capture_mechanism": "A small operator could build a narrowly scoped conformance-test package: local mock APIs, request/response validators, directory and webhook simulators, certificate/FAPI test fixtures, and regression reports aligned to Annex 3. Potential payment sources are institutions preparing to participate in the SFA or technology vendors integrating with them; no buyer, price or procurement commitment is established by the evidence.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
       "contrary_evidence": [
         "CMF's own framework indicates a gradual implementation schedule rather than an immediate market-wide requirement; the original regulation described phased obligations and a transition period. Source: https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html",
         "The June 1, 2026 amendment postpones entry into force until July 2027, directly reducing near-term urgency. Source: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
@@ -3415,6 +3495,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-14T12:27:10.771858+00:00",
+      "discovery_lens": "open_finance_chile",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF states that Annex 3 and the Developers' Portal were incorporated on June 1, 2026, and that entry into force was postponed until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "The rule specifies SFA participant registers, information and payment-initiation services, API standards, authentication/security requirements, and third-party conformance evidence.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Norma de Carácter General N°514",
+          "url": "https://cmfchile.cl/normativa/ncg_514_2024.pdf"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.88,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_56dda86b89972247ff94",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-14T12:27:10.797621+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Start without claiming CMF approval or acting as a regulated participant. Download the current NCG 514 and Technical Annex/Developer Portal materials, implement a small local validator for one publicly documented API flow, and publish a reproducible demo showing failures and evidence output. Then contact Chilean banks, payment institutions, cooperatives, and fintechs listed or referenced in the CMF framework with a fixed-scope paid diagnostic proposal. Falsification test: within 10 business days, obtain three documented implementation pain points or one request to run the validator against a non-production test environment. If no qualified institution will review it or the public specifications are insufficient to build a useful check, stop.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Regulated information providers, account providers, information-service providers, and payment-initiation providers have a bounded implementation and testing obligation before the July 2027 operating date. The directly monetizable problem is not generic fintech demand; it is reducing failed integration, security-test, data-quality, certificate, and regression-test work against the CMF-defined interface requirements.",
+      "title": "Chile SFA API conformance and test-harness wedge",
+      "type": "regulatory_infrastructure",
+      "unknowns": [],
+      "value_capture_mechanism": "A small operator could offer a narrowly scoped SFA conformance asset: automated schema/API contract tests, test data fixtures, certificate and mTLS checks, consent-flow regression tests, and evidence export for an institution's internal compliance or vendor review. Cash flow would come from a paid implementation or testing engagement with an entity preparing for SFA participation; no specific buyer, fee, or procurement commitment is verified.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-13T04:13:35.306242+00:00",
       "discovery_lens": "open_finance_chile",
       "estimated_capital": "",
@@ -3513,60 +3647,6 @@
       "type": "regulatory_infrastructure",
       "unknowns": [],
       "value_capture_mechanism": "Sell SFA readiness, API conformance testing, consent and authorization tooling, data-quality normalization, observability, security testing and integration services to regulated institutions and fintechs.",
-      "verified_sales": null,
-      "vertical": "open_finance_chile",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
-      "discovered_at": "2026-10-12T20:12:23.036591+00:00",
-      "discovery_lens": "regulation_infrastructure",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "CMF added Annex 3 with technical interoperability requirements and a developer portal, and postponed SFA entry into force to July 2027.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
-          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
-        },
-        {
-          "claim": "ATENA provides a controlled environment for institutions to test SFA integrations, participant identification, digital credentials and interoperability before implementation.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "CMF lanza Sandbox Tecnológico ATENA para la implementación del Sistema de Finanzas Abiertas",
-          "url": "https://cmfchile.cl/portal/prensa/625/w4-article-113897.html"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.93,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_f696eab5c7c7590b79fa",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-12T20:12:23.042821+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Use the CMF's published NCG 514 Annex 3 and ATENA materials to implement only one testable wedge: a local validator for participant-directory, webhook and authentication flows. Run it against the documented examples/specifications, publish a reproducible open demo, then contact identifiable SFA participants or implementation vendors through public company channels with a request for a paid pilot or technical review; do not represent the tool as CMF-approved. Lowest-cost falsification: spend one week implementing the validator and ask at least three publicly identifiable SFA participants or vendors whether the resulting test report would be useful enough to evaluate in their ATENA/pre-production process. Stop if the specifications are insufficient to produce repeatable tests or no qualified respondent agrees to review it.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "Entities preparing for SFA participation must validate API behavior, directory interactions, certificates, webhooks, authorization flows and version changes before the July 2027 deadline. The published technical requirements and sandbox create a bounded implementation problem rather than a generic fintech opportunity.",
-      "title": "Chile SFA interoperability test harness for regulated participants",
-      "type": "regulatory_infrastructure",
-      "unknowns": [],
-      "value_capture_mechanism": "A small operator could build a narrowly scoped conformance-test package: local mock APIs, request/response validators, directory and webhook simulators, certificate/FAPI test fixtures, and regression reports aligned to Annex 3. Potential payment sources are institutions preparing to participate in the SFA or technology vendors integrating with them; no buyer, price or procurement commitment is established by the evidence.",
       "verified_sales": null,
       "vertical": "open_finance_chile",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
@@ -3847,6 +3927,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-14T12:27:10.773933+00:00",
+      "discovery_lens": "adoption_lag",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "North Dakota State University material reports approximately $80,000-$100,000 pricing for a robotic weeding system in 2024 and use on sugar beets in 2025.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Robotic Weeding",
+          "url": "https://www.ndsu.edu/agriculture/sites/default/files/2026-02/2026%20ACAW%20ANDERSON%20Robotic%20Weeding%20PPT.pdf"
+        },
+        {
+          "claim": "A commercial marketplace displays an indicative FOB price of $12,000-$35,000, one-unit minimum order, and 30-60 day lead time; the page also states that final terms require a quote.",
+          "grounded_in_provider_search": true,
+          "source_type": "other",
+          "title": "Autonomous Row-Crop Weeding Robot",
+          "url": "https://smartsoilai.com/shop/autonomous-weeding-robot"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.69,
+      "falsification_conditions": [],
+      "geography": "United States; potentially adaptable to Chilean row-crop regions",
+      "id": "opp_5b761b0ef329020c7bc2",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-14T12:27:10.797823+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Do not purchase first. Identify one crop, one row spacing, and one local farm/cooperative willing to provide a test plot. Request written quotations, shipping terms, warranty, spare-parts availability, and field references from at least two suppliers; compare the quoted landed cost with the farm's current mechanical or manual weeding cost. Falsification test: secure a signed expression of interest for a paid or deposit-backed trial, or obtain enough operating-cost data to show a credible payback under local acreage. If suppliers cannot provide a verifiable quote/support plan or no grower will commit a test plot and payment, stop.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The actionable gap is between proven field use and small-farm affordability/utilization. A fleet or seasonal rental/service model could test whether one machine can be economically utilized across multiple nearby farms, rather than requiring each farm to purchase equipment. The evidence does not establish a profitable per-acre price, local import permissions, or customer willingness to pay.",
+      "title": "Shared-service autonomous mechanical weeding pilot for sugar beet and similar row crops",
+      "type": "equipment_service",
+      "unknowns": [],
+      "value_capture_mechanism": "Potential cash-flow mechanisms are seasonal equipment rental, contracted mechanical-weeding passes, or brokerage/import coordination for a confirmed farm or cooperative order. The economic asset is a controlled field trial plus utilization and cost data, not a claimed robot margin or guaranteed service business.",
+      "verified_sales": null,
+      "vertical": "robotics_agritech",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-14T08:25:29.885273+00:00",
       "discovery_lens": "tokenization_finance",
       "estimated_capital": "",
@@ -3954,13 +4088,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-14T08:25:46.564181+00:00",
+  "generated_at": "2026-10-14T12:27:36.924506+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 30,
-  "reviewed_cards": 33,
+  "reviewed_cards": 34,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 82,
-  "watch": 52
+  "total_distinct_opportunities": 84,
+  "watch": 54
 }
