@@ -3021,6 +3021,67 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-14T16:27:32.216628+00:00",
+      "discovery_lens": "chile_technology_import",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "A Chilean company identifies itself as an official PUDU Robotics distributor and describes a Robot-as-a-Service model including hardware, installation, maintenance and 24/7 support, with monthly pricing from UF 25 on this page.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "VIC Robotics Chile — autonomous robotics and RaaS model",
+          "url": "https://www.vicrobotics.com/about"
+        },
+        {
+          "claim": "The supplier publicly lists robot unit prices, a RaaS price from UF 20/month, named operating/pilot locations in Chile, and a quote/contact route.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "VIC Robotics — product prices and RaaS terms",
+          "url": "https://www.vicrobotics.com/"
+        },
+        {
+          "claim": "The supplier presents an industrial-warehouse cleaning application and describes operation in live logistics environments.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "VIC Robotics — warehouse cleaning solution",
+          "url": "https://www.vicrobotics.com/soluciones/limpieza-industrial-bodegas"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.89,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_2f1839bb1c72fe283049",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-14T16:27:32.230009+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Select one facility class, such as warehouses or supermarkets. Use the supplier's public contact route to request written authorization for referrals and a no-cost or fixed-price pilot structure. Approach 10 locally identifiable facilities without claiming savings; ask only for permission to measure floor area, cleaning labor hours and operating constraints. Lowest-cost falsification: obtain three written facility responses and one supplier quote for the same site. Stop if no facility permits measurement, the supplier declines a channel arrangement, or the quoted deployment cannot be compared with the facility's documented cleaning cost.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A small operator does not need to import or finance a robot before validating demand. The executable wedge is lead generation, site qualification and paid pilot coordination for one narrow facility type, using an existing local supplier and its published commercial terms. No buyer, savings or margin is assumed until a facility accepts a site assessment and receives a formal quote.",
+      "title": "Chile RaaS deployment wedge for industrial-floor cleaning",
+      "type": "commercial_offer",
+      "unknowns": [],
+      "value_capture_mechanism": "Potential revenue source is a supplier-authorized referral, implementation or site-assessment fee, but the existence and amount of such a fee are unknown and must be negotiated. The independently verifiable economic mechanism is a supplier quote for RaaS beginning at UF 20/month or direct equipment prices shown publicly; end-customer economics require facility-specific measurement.",
+      "verified_sales": null,
+      "vertical": "robotics_agritech",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-13T00:18:11.645031+00:00",
       "discovery_lens": "energy_industrial",
       "estimated_capital": "",
@@ -3204,6 +3265,67 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-14T16:27:32.217293+00:00",
+      "discovery_lens": "underserved_buyers",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF states that the June 1, 2026 modification includes technical elements for information exchange and payment initiation, adds Annex No. 3 and a developer portal, and postpones entry into force until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF modifies the regulation governing Chile's Open Finance System and adds technical annex",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        },
+        {
+          "claim": "CMF describes the technical annex, interoperability requirements and developer portal, and confirms the July 2027 implementation date.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF English summary of the Open Finance System amendment",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "CMF's regulatory plan identifies Open Finance technical annexes and related implementation work as an active regulatory program.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF 2025–2026 regulatory plan",
+          "url": "https://cmfchile.cl/portal/principal/613/w3-article-92556.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.84,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_de6bbd059c9fa7fd72e5",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-14T16:27:32.230151+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use the official CMF developer materials to build a small test harness against any publicly available test environment or documentation, without accessing live financial data or representing a client as a regulated participant. Publish a technical demo and request five problem-validation interviews with fintech or financial-institution technology teams. Lowest-cost falsification: verify that the developer documentation exposes enough stable technical detail to build one automated conformance test and obtain at least one written request for a scoped paid assessment. Stop if no usable test environment/documentation exists or interviewees report that existing vendors already cover the need.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The immediate opportunity is not regulated financial intermediation; it is a narrow test asset for prospective participants: a conformance checklist, sandbox integration harness, consent-flow test suite or API observability package. The delay creates time for validation, but no buyer demand or permission to operate as a regulated participant is established.",
+      "title": "Pre-build testing and integration wedge for Chile's Open Finance System",
+      "type": "technical_enablement_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Possible payer categories are entities preparing for SFA participation or their technology vendors, but no specific payer, purchase order or pricing is evidenced. A defensible first transaction would be a paid technical-readiness assessment or integration prototype only after confirming the client's regulatory role and procurement process.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-13T12:16:52.372957+00:00",
       "discovery_lens": "chile_technology_import",
       "estimated_capital": "",
@@ -3318,67 +3440,6 @@
       "value_capture_mechanism": "Charge for a narrowly defined document-processing workflow, such as converting a customer’s recurring PDF or image documents into validated CSV/JSON output. The economic mechanism is per-document or monthly processing revenue minus compute, review, and exception-handling costs. Existing Mistral OCR materials provide a public historical purchase reference of approximately 1,000 pages per dollar for the prior OCR API; current OCR 4 pricing must be re-verified before quoting.",
       "verified_sales": null,
       "vertical": "innovation_adoption",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
-      "discovered_at": "2026-10-13T00:18:11.646305+00:00",
-      "discovery_lens": "tokenization_finance",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "SEC staff defines tokenized securities and explains that the ownership record may be maintained in whole or in part through crypto networks, while emphasizing that the statement is not a rule or legal force.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Statement on Tokenized Securities",
-          "url": "https://www.sec.gov/newsroom/speeches-statements/corp-fin-statement-tokenized-securities-012826-statement-tokenized-securities"
-        },
-        {
-          "claim": "SEC materials address a registered transfer agent’s use of distributed-ledger technology as its official master securityholder file or a component thereof.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "An Incremental Step Along the Journey: The Division of Trading Markets’ Frequently Asked Questions Relating to Crypto Asset Activities and Distributed Ledger Technologies",
-          "url": "https://www.sec.gov/newsroom/speeches-statements/peirce-tm-faq-051525"
-        },
-        {
-          "claim": "SEC describes a DTC pilot enabling eligible DTC participants to transfer tokenized security entitlements between registered wallets, subject to operational limitations.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Tokenization Trending: Statement on the Division of Trading and Market’s No-Action Letter Related to DTC’s Development of Securities Tokenization Services",
-          "url": "https://www.sec.gov/newsroom/speeches-statements/peirce-121125-tokenization-trending-statement-division-trading-markets-no-action-letter-related-dtcs-development"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.9,
-      "falsification_conditions": [],
-      "geography": "United States",
-      "id": "opp_2df7c31be3f47e321668",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-13T00:18:11.664614+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Use only public SEC/DTC materials and a local development environment to reproduce a mock transfer-agent reconciliation workflow with no real securities, wallets, customer funds or claims of regulatory compliance. Falsify by showing the control matrix to three regulated-market infrastructure firms or securities-law practitioners and asking whether it maps to a current pilot or procurement requirement; stop if they identify no live implementation need or if legal review makes the prototype non-actionable.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "The near-term opportunity is not issuing unregistered tokens; it is testing reconciliation, transfer restrictions, entitlement records, corporate actions and settlement controls for regulated participants preparing for tokenized securities infrastructure.",
-      "title": "Tokenized-securities operational control and transfer-agent integration testing",
-      "type": "infrastructure_asset",
-      "unknowns": [],
-      "value_capture_mechanism": "Build a testable control-and-reconciliation asset: sample ledger, wallet-whitelist logic, transfer restriction tests, entitlement reconciliation, exception logs and corporate-action workflow documentation. Potential payers are transfer agents, broker-dealers, custodians, exchanges or fintech infrastructure vendors, but no buyer is presumed.",
-      "verified_sales": null,
-      "vertical": "public_markets",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -4088,13 +4149,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-14T12:27:36.924506+00:00",
+  "generated_at": "2026-10-14T16:27:48.881662+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 30,
+  "rejected_excluded": 31,
   "reviewed_cards": 34,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 84,
-  "watch": 54
+  "total_distinct_opportunities": 86,
+  "watch": 55
 }

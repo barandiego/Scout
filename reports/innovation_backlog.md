@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 54
+Candidates: 55
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -484,6 +484,18 @@ Candidates: 54
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
 
+## Pre-build testing and integration wedge for Chile's Open Finance System
+- Status: watch | open_finance_chile
+- Current idea: The immediate opportunity is not regulated financial intermediation; it is a narrow test asset for prospective participants: a conformance checklist, sandbox integration harness, consent-flow test suite or API observability package. The delay creates time for validation, but no buyer demand or permission to operate as a regulated participant is established.
+- Potential economic capture: Possible payer categories are entities preparing for SFA participation or their technology vendors, but no specific payer, purchase order or pricing is evidenced. A defensible first transaction would be a paid technical-readiness assessment or integration prototype only after confirming the client's regulatory role and procurement process.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
+
 ## Pre-compliance monitoring for Chile’s Open Finance implementation
 - Status: watch | open_finance_chile
 - Current idea: A narrow monitoring asset could help fintechs, banks, integrators and compliance teams track participant registration, endpoint changes, implementation milestones and bank-data availability before mandatory operation. The evidence supports an information-access wedge, not yet a confirmed paying market.
@@ -580,17 +592,17 @@ Candidates: 54
 - Possible initial budget:
 - Source URLs: https://www.dtcc.com/press-releases/2026/dtcc-turns-tokenization-into-reality; https://www.sec.gov/newsroom/speeches-statements/corp-fin-statement-tokenized-securities-012826-statement-tokenized-securities
 
-## Tokenized-securities operational control and transfer-agent integration testing
-- Status: watch | public_markets
-- Current idea: The near-term opportunity is not issuing unregistered tokens; it is testing reconciliation, transfer restrictions, entitlement records, corporate actions and settlement controls for regulated participants preparing for tokenized securities infrastructure.
-- Potential economic capture: Build a testable control-and-reconciliation asset: sample ledger, wallet-whitelist logic, transfer restriction tests, entitlement reconciliation, exception logs and corporate-action workflow documentation. Potential payers are transfer agents, broker-dealers, custodians, exchanges or fintech infrastructure vendors, but no buyer is presumed.
+## Chile RaaS deployment wedge for industrial-floor cleaning
+- Status: watch | robotics_agritech
+- Current idea: A small operator does not need to import or finance a robot before validating demand. The executable wedge is lead generation, site qualification and paid pilot coordination for one narrow facility type, using an existing local supplier and its published commercial terms. No buyer, savings or margin is assumed until a facility accepts a site assessment and receives a formal quote.
+- Potential economic capture: Potential revenue source is a supplier-authorized referral, implementation or site-assessment fee, but the existence and amount of such a fee are unknown and must be negotiated. The independently verifiable economic mechanism is a supplier quote for RaaS beginning at UF 20/month or direct equipment prices shown publicly; end-customer economics require facility-specific measurement.
 - **Research routes to test (NOT validated claims):**
-  - Find overlooked fundamentals and a named accessible security with dated primary filings.
-  - Compare risked intrinsic value, market expectations and specific downside scenarios.
-  - Define catalysts and invalidation thresholds before any governed investment decision.
+  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
+  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
+  - Arrange a bounded field validation with an actual farm operator before scaling.
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
-- Source URLs: https://www.sec.gov/newsroom/speeches-statements/corp-fin-statement-tokenized-securities-012826-statement-tokenized-securities; https://www.sec.gov/newsroom/speeches-statements/peirce-tm-faq-051525; https://www.sec.gov/newsroom/speeches-statements/peirce-121125-tokenization-trending-statement-division-trading-markets-no-action-letter-related-dtcs-development
+- Source URLs: https://www.vicrobotics.com/about; https://www.vicrobotics.com/; https://www.vicrobotics.com/soluciones/limpieza-industrial-bodegas
 
 ## Independent field-service and deployment support for autonomous agricultural weed-control robots
 - Status: watch | robotics_agritech

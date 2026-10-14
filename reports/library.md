@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-14T12:27:36.924506+00:00
+Generated: 2026-10-14T16:27:48.881662+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 54 (0 HQ survivors, 54 watches)
-- Rejected opportunities excluded: 30
+- Active research: 55 (0 HQ survivors, 55 watches)
+- Rejected opportunities excluded: 31
 - Critic-and-judge reviewed: 34
 - Autonomous execution authorization: 0
 
@@ -363,6 +363,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://masenlaces.com/store/faq; https://www.ondda.cl/; https://tarjetas-nfc.com/; https://nfctech.cl/
 
+### Chile RaaS deployment wedge for industrial-floor cleaning [opp_2f1839bb1c72fe283049]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile
+- Thesis: A small operator does not need to import or finance a robot before validating demand. The executable wedge is lead generation, site qualification and paid pilot coordination for one narrow facility type, using an existing local supplier and its published commercial terms. No buyer, savings or margin is assumed until a facility accepts a site assessment and receives a formal quote.
+- Value capture: Potential revenue source is a supplier-authorized referral, implementation or site-assessment fee, but the existence and amount of such a fee are unknown and must be negotiated. The independently verifiable economic mechanism is a supplier quote for RaaS beginning at UF 20/month or direct equipment prices shown publicly; end-customer economics require facility-specific measurement.
+- Participation hypothesis: Select one facility class, such as warehouses or supermarkets. Use the supplier's public contact route to request written authorization for referrals and a no-cost or fixed-price pilot structure. Approach 10 locally identifiable facilities without claiming savings; ask only for permission to measure floor area, cleaning labor hours and operating constraints. Lowest-cost falsification: obtain three written facility responses and one supplier quote for the same site. Stop if no facility permits measurement, the supplier declines a channel arrange
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.vicrobotics.com/about; https://www.vicrobotics.com/; https://www.vicrobotics.com/soluciones/limpieza-industrial-bodegas
+
 ### DER aggregation readiness kit for small batteries and flexible loads [opp_7da0f530c4393ac9bb73]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States RTO/ISO territories
 - Thesis: Small commercial batteries and flexible loads may have an additional market-participation route, but qualification depends on tariff, telemetry, metering, interconnection and utility-coordination requirements. The executable wedge is a site-level readiness and data package, not generic energy consulting.
@@ -393,6 +403,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.aither.cl/tap/; https://www.ondda.cl/; https://publico.transbank.cl/productos-y-servicios/soluciones-para-ventas-presenciales/autoservicio-estandar
 
+### Pre-build testing and integration wedge for Chile's Open Finance System [opp_de6bbd059c9fa7fd72e5]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: The immediate opportunity is not regulated financial intermediation; it is a narrow test asset for prospective participants: a conformance checklist, sandbox integration harness, consent-flow test suite or API observability package. The delay creates time for validation, but no buyer demand or permission to operate as a regulated participant is established.
+- Value capture: Possible payer categories are entities preparing for SFA participation or their technology vendors, but no specific payer, purchase order or pricing is evidenced. A defensible first transaction would be a paid technical-readiness assessment or integration prototype only after confirming the client's regulatory role and procurement process.
+- Participation hypothesis: Use the official CMF developer materials to build a small test harness against any publicly available test environment or documentation, without accessing live financial data or representing a client as a regulated participant. Publish a technical demo and request five problem-validation interviews with fintech or financial-institution technology teams. Lowest-cost falsification: verify that the developer documentation exposes enough stable technical detail to build one automated conformance test and obtain at least one written request for a sc
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
+
 ### Pre-compliance monitoring for Chile’s Open Finance implementation [opp_8c5a7467be93278a7fb8]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: A narrow monitoring asset could help fintechs, banks, integrators and compliance teams track participant registration, endpoint changes, implementation milestones and bank-data availability before mandatory operation. The evidence supports an information-access wedge, not yet a confirmed paying market.
@@ -412,16 +432,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://github.com/Yuliang-Liu/MonkeyOCRv2; https://mistral.ai/news/ocr-4/; https://mistral.ai/news/mistral-ocr/
-
-### Tokenized-securities operational control and transfer-agent integration testing [opp_2df7c31be3f47e321668]
-- Status: WATCH_REQUIRES_VALIDATION | public_markets | United States
-- Thesis: The near-term opportunity is not issuing unregistered tokens; it is testing reconciliation, transfer restrictions, entitlement records, corporate actions and settlement controls for regulated participants preparing for tokenized securities infrastructure.
-- Value capture: Build a testable control-and-reconciliation asset: sample ledger, wallet-whitelist logic, transfer restriction tests, entitlement reconciliation, exception logs and corporate-action workflow documentation. Potential payers are transfer agents, broker-dealers, custodians, exchanges or fintech infrastructure vendors, but no buyer is presumed.
-- Participation hypothesis: Use only public SEC/DTC materials and a local development environment to reproduce a mock transfer-agent reconciliation workflow with no real securities, wallets, customer funds or claims of regulatory compliance. Falsify by showing the control matrix to three regulated-market infrastructure firms or securities-law practitioners and asking whether it maps to a current pilot or procurement requirement; stop if they identify no live implementation need or if legal review makes the prototype non-actionable.
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.sec.gov/newsroom/speeches-statements/corp-fin-statement-tokenized-securities-012826-statement-tokenized-securities; https://www.sec.gov/newsroom/speeches-statements/peirce-tm-faq-051525; https://www.sec.gov/newsroom/speeches-statements/peirce-121125-tokenization-trending-statement-division-trading-markets-no-action-letter-related-dtcs-development
 
 ### 15-minute demand-charge diagnostic and retrofit kit for Chilean commercial sites [opp_5c54bef099722659c2b1]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile, initially regulated commercial customers on BT/AT demand tariffs
