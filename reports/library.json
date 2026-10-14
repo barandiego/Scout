@@ -3448,6 +3448,67 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-14T20:22:41.898650+00:00",
+      "discovery_lens": "early_adoption_investing",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "WESCO reported record Q2 2026 sales of $6.7 billion, approximately 45% data-center sales growth, and approximately 60% backlog growth.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "WESCO Q2 2026 webcast presentation",
+          "url": "https://www.sec.gov/Archives/edgar/data/929008/000092900826000021/wcc-2q2026slides.htm"
+        },
+        {
+          "claim": "ERock reported approximately $1.7 billion of contracted backlog, a 470 MW Anthropic equipment purchase order, and construction of a 366 MW project supporting Meta’s data-center campus.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "ERock Q2 2026 results",
+          "url": "https://www.sec.gov/Archives/edgar/data/2110029/000119312526344714/eroc-ex99_1.htm"
+        },
+        {
+          "claim": "Ameresco reported six advanced data-center power plants, $1.5 billion included in awarded backlog, more than 1 GW of firm generation capacity under development, and projected long-term O&M terms.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Ameresco Q2 2026 supplement",
+          "url": "https://www.sec.gov/Archives/edgar/data/1488139/000162828026051825/amerescoq22026supplement.htm"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.82,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_8fd938450701fbd64711",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-14T20:22:41.928926+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Create a paper basket or watchlist limited to WCC, EROC, and AMRC; record price, backlog, bookings, cancellations, gross margin, free cash flow, debt, and recurring-service revenue at the next two reported quarters. Falsify the thesis if backlog does not convert into revenue/cash flow, cancellations rise materially, or operating metrics lag the companies’ stated schedules. Only after that test should an investor evaluate position sizing and valuation independently.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The investable mechanism is not generic AI demand but conversion of signed power-infrastructure orders into revenue, cash flow, and recurring operations-and-maintenance revenue. The main downside cases are order cancellations, financing stress, execution delays, customer concentration, and valuation already discounting the backlog.",
+      "title": "Speed-to-power infrastructure exposure: researchable public-company basket with a falsifiable backlog catalyst",
+      "type": "public_equity_research",
+      "unknowns": [],
+      "value_capture_mechanism": "A small operator can conduct a defined public-market event study or paper portfolio around backlog conversion, quarterly free cash flow, cancellations, and service-revenue growth. Accessible vehicles include the cited listed companies’ common shares, but no purchase recommendation or expected return is implied.",
+      "verified_sales": null,
+      "vertical": "public_markets",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-13T20:22:30.984395+00:00",
       "discovery_lens": "energy_localization",
       "estimated_capital": "",
@@ -3502,34 +3563,34 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-13T00:18:11.643684+00:00",
-      "discovery_lens": "energy_industrial",
+      "discovered_at": "2026-10-14T20:22:41.897714+00:00",
+      "discovery_lens": "asset_ownership",
       "estimated_capital": "",
       "estimated_founder_hours_initial": "",
       "estimated_founder_hours_ongoing": "",
       "evidence": [
         {
-          "claim": "IRS instructions define qualifying energy-storage technology and describe the clean-electricity investment-credit treatment for storage placed in service during the tax year.",
+          "claim": "CMF published the amended rule, technical annex, developer portal, and July 2027 entry-into-force timing.",
           "grounded_in_provider_search": true,
           "source_type": "primary",
-          "title": "2026 Instructions for Form 3468",
-          "url": "https://www.irs.gov/pub/irs-dft/i3468--dft.pdf"
+          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
         },
         {
-          "claim": "DOE identifies supply-chain risks involving BESS, inverter-based resources and transformers and describes mitigation needs for current and future deployments.",
+          "claim": "The English CMF notice confirms that the technical specifications cover interoperability, information exchange, payment initiation, and implementation by participating entities.",
           "grounded_in_provider_search": true,
           "source_type": "primary",
-          "title": "New CESER Report Offers Supply Chain Mitigation Strategies for Battery Storage Systems",
-          "url": "https://www.energy.gov/ceser/articles/new-ceser-report-offers-supply-chain-mitigation-strategies-battery-storage-systems"
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
         }
       ],
-      "evidence_confidence_model_estimate": 0.88,
+      "evidence_confidence_model_estimate": 0.86,
       "falsification_conditions": [],
-      "geography": "United States",
-      "id": "opp_635d375465c7228c0ffd",
+      "geography": "Chile",
+      "id": "opp_76fc7b6bece7c6b747d4",
       "judge_reviewed": false,
       "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-13T00:18:11.664836+00:00",
+      "last_record_updated_at": "2026-10-14T20:22:41.928669+00:00",
       "material_update": false,
       "missing_execution_proof": [
         "independent_critic_and_judge",
@@ -3538,16 +3599,16 @@
       "next_validation_questions": [
         "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
       ],
-      "participation_path": "Start with one public BESS procurement or project filing and build a prototype checklist using only supplier datasheets, invoices, certificates and IRS definitions. Offer a fixed-scope document review to a local EPC, developer or tax-credit preparer only after confirming they have an active project and permission to review records. Falsify cheaply by asking five project developers whether they already maintain the required evidence and whether a paid gap review would change a live filing; stop if none reports a live documentation gap.",
+      "participation_path": "Build a minimum conformance harness against the publicly available CMF technical specifications and developer-portal materials. Test whether two Chilean fintech or banking-technology contacts can run it and identify missing implementation requirements before attempting any sale. Stop if the specifications are inaccessible, materially incomplete, or prospective users do not agree to a technical evaluation.",
       "research_status": "WATCH_REQUIRES_VALIDATION",
       "status": "watch",
-      "thesis": "Developers and equipment buyers must prove component origin, eligibility and material-assistance status before relying on tax-credit economics. The concrete bottleneck is evidence management rather than general consulting.",
-      "title": "BESS eligibility and supply-chain documentation package for 48E/45X projects",
-      "type": "compliance_asset",
+      "thesis": "The technical standard creates a defined implementation window before mandatory operation. A narrow product could package test fixtures, API conformance checks, consent-flow test cases, documentation templates, and monitoring for regulated participants or technology providers.",
+      "title": "Chile Open Finance implementation wedge: conformance testing and developer-tooling assets",
+      "type": "software_asset",
       "unknowns": [],
-      "value_capture_mechanism": "Sell a narrowly scoped evidence pack: bill-of-materials normalization, supplier-origin records, component eligibility mapping, prohibited-foreign-entity screening, and an auditor-ready file indexed to the project’s tax-credit claims. A second possible mechanism is licensing the document schema or spreadsheet template to solar/BESS developers, EPCs or tax-credit advisors.",
+      "value_capture_mechanism": "Sell a narrowly scoped downloadable test suite or annual software subscription; alternatively license implementation documentation and automated test cases to participating firms. No buyer, price, or conversion rate is established by the evidence.",
       "verified_sales": null,
-      "vertical": "energy_infrastructure",
+      "vertical": "open_finance_chile",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -3764,6 +3825,60 @@
       "value_capture_mechanism": "Possible payers include entities preparing to become Open Finance participants or technology vendors integrating with them. The evidence verifies the technical requirements and timing, but does not verify budgets, procurement, or willingness to pay.",
       "verified_sales": null,
       "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-14T20:22:41.899471+00:00",
+      "discovery_lens": "asset_ownership",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The filing states that approximately 10,300 projects were actively seeking interconnection at the end of 2024, representing approximately 1,400 GW of generation and 890 GW of storage, with a 12% decrease in active queue volume in 2024.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "DOE filing citing U.S. interconnection-queue data through 2024",
+          "url": "https://www.energy.gov/documents/craig-order-202-26-31-pios-exhibits-3-01-3-07-july-24-2026"
+        },
+        {
+          "claim": "The filing references the interconnection queue dataset and summarized data files through 2024 and discusses resource availability after accounting for likely-to-connect resources.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "DOE filing on 2026 resource availability and interconnection queue data",
+          "url": "https://www.energy.gov/documents/motion-intervene-motion-clarification-and-request-rehearing-and-stay-public-interest-36"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.74,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_471716894d06e79a4659",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-14T20:22:41.929130+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Download the public DOE and relevant ISO/RTO queue files, select one region, and manually produce a 20-project screening sample with reproducible fields and source links. Post a public sample and request paid preorders or structured feedback from identifiable developers and consultants. Falsify if the data cannot be normalized cheaply, source terms restrict the intended use, or no qualified user agrees to evaluate a paid pilot.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The combination of a large, changing queue and withdrawals creates a narrowly defined data problem: normalize queue status, withdrawal history, transmission region, project technology, and likely time-to-interconnection into a research product. The economic value would depend on whether developers, lenders, brokers, or equipment suppliers pay for project-screening data; the evidence does not establish that willingness to pay.",
+      "title": "Interconnection-queue intelligence as a paid research asset for project developers",
+      "type": "dataset_or_research_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Offer a small paid dataset, monitoring subscription, or one-off queue-screening report focused on a single ISO/RTO and technology. Do not assume access to proprietary project data or permission to redistribute source datasets.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -4149,13 +4264,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-14T16:27:48.881662+00:00",
+  "generated_at": "2026-10-14T20:22:58.597759+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 31,
+  "rejected_excluded": 32,
   "reviewed_cards": 34,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 86,
-  "watch": 55
+  "total_distinct_opportunities": 89,
+  "watch": 57
 }

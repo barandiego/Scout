@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-14T16:27:48.881662+00:00
+Generated: 2026-10-14T20:22:58.597759+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 55 (0 HQ survivors, 55 watches)
-- Rejected opportunities excluded: 31
+- Active research: 57 (0 HQ survivors, 57 watches)
+- Rejected opportunities excluded: 32
 - Critic-and-judge reviewed: 34
 - Autonomous execution authorization: 0
 
@@ -433,6 +433,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://github.com/Yuliang-Liu/MonkeyOCRv2; https://mistral.ai/news/ocr-4/; https://mistral.ai/news/mistral-ocr/
 
+### Speed-to-power infrastructure exposure: researchable public-company basket with a falsifiable backlog catalyst [opp_8fd938450701fbd64711]
+- Status: WATCH_REQUIRES_VALIDATION | public_markets | United States
+- Thesis: The investable mechanism is not generic AI demand but conversion of signed power-infrastructure orders into revenue, cash flow, and recurring operations-and-maintenance revenue. The main downside cases are order cancellations, financing stress, execution delays, customer concentration, and valuation already discounting the backlog.
+- Value capture: A small operator can conduct a defined public-market event study or paper portfolio around backlog conversion, quarterly free cash flow, cancellations, and service-revenue growth. Accessible vehicles include the cited listed companies’ common shares, but no purchase recommendation or expected return is implied.
+- Participation hypothesis: Create a paper basket or watchlist limited to WCC, EROC, and AMRC; record price, backlog, bookings, cancellations, gross margin, free cash flow, debt, and recurring-service revenue at the next two reported quarters. Falsify the thesis if backlog does not convert into revenue/cash flow, cancellations rise materially, or operating metrics lag the companies’ stated schedules. Only after that test should an investor evaluate position sizing and valuation independently.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/929008/000092900826000021/wcc-2q2026slides.htm; https://www.sec.gov/Archives/edgar/data/2110029/000119312526344714/eroc-ex99_1.htm; https://www.sec.gov/Archives/edgar/data/1488139/000162828026051825/amerescoq22026supplement.htm
+
 ### 15-minute demand-charge diagnostic and retrofit kit for Chilean commercial sites [opp_5c54bef099722659c2b1]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile, initially regulated commercial customers on BT/AT demand tariffs
 - Thesis: A site with a short, avoidable power spike can pay recurring demand-related charges even when total monthly energy consumption is moderate. The concrete wedge is not generic energy consulting: obtain interval data and bills, identify the top avoidable peaks, then sell a fixed diagnostic plus an installable control package such as load sequencing, scheduled charging, or a small battery/controller retrofit.
@@ -443,15 +453,15 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.bcn.cl/leychile/navegar?i=1212631; https://www.cne.cl/tarificacion/electrica/
 
-### BESS eligibility and supply-chain documentation package for 48E/45X projects [opp_635d375465c7228c0ffd]
-- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States
-- Thesis: Developers and equipment buyers must prove component origin, eligibility and material-assistance status before relying on tax-credit economics. The concrete bottleneck is evidence management rather than general consulting.
-- Value capture: Sell a narrowly scoped evidence pack: bill-of-materials normalization, supplier-origin records, component eligibility mapping, prohibited-foreign-entity screening, and an auditor-ready file indexed to the project’s tax-credit claims. A second possible mechanism is licensing the document schema or spreadsheet template to solar/BESS developers, EPCs or tax-credit advisors.
-- Participation hypothesis: Start with one public BESS procurement or project filing and build a prototype checklist using only supplier datasheets, invoices, certificates and IRS definitions. Offer a fixed-scope document review to a local EPC, developer or tax-credit preparer only after confirming they have an active project and permission to review records. Falsify cheaply by asking five project developers whether they already maintain the required evidence and whether a paid gap review would change a live filing; stop if none reports a live documentation gap.
+### Chile Open Finance implementation wedge: conformance testing and developer-tooling assets [opp_76fc7b6bece7c6b747d4]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: The technical standard creates a defined implementation window before mandatory operation. A narrow product could package test fixtures, API conformance checks, consent-flow test cases, documentation templates, and monitoring for regulated participants or technology providers.
+- Value capture: Sell a narrowly scoped downloadable test suite or annual software subscription; alternatively license implementation documentation and automated test cases to participating firms. No buyer, price, or conversion rate is established by the evidence.
+- Participation hypothesis: Build a minimum conformance harness against the publicly available CMF technical specifications and developer-portal materials. Test whether two Chilean fintech or banking-technology contacts can run it and identify missing implementation requirements before attempting any sale. Stop if the specifications are inaccessible, materially incomplete, or prospective users do not agree to a technical evaluation.
 - Critic/judge: deferred_by_review_cap
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.irs.gov/pub/irs-dft/i3468--dft.pdf; https://www.energy.gov/ceser/articles/new-ceser-report-offers-supply-chain-mitigation-strategies-battery-storage-systems
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html
 
 ### Chile SFA API conformance and test-harness wedge [opp_56dda86b89972247ff94]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -492,6 +502,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html
+
+### Interconnection-queue intelligence as a paid research asset for project developers [opp_471716894d06e79a4659]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States
+- Thesis: The combination of a large, changing queue and withdrawals creates a narrowly defined data problem: normalize queue status, withdrawal history, transmission region, project technology, and likely time-to-interconnection into a research product. The economic value would depend on whether developers, lenders, brokers, or equipment suppliers pay for project-screening data; the evidence does not establish that willingness to pay.
+- Value capture: Offer a small paid dataset, monitoring subscription, or one-off queue-screening report focused on a single ISO/RTO and technology. Do not assume access to proprietary project data or permission to redistribute source datasets.
+- Participation hypothesis: Download the public DOE and relevant ISO/RTO queue files, select one region, and manually produce a 20-project screening sample with reproducible fields and source links. Post a public sample and request paid preorders or structured feedback from identifiable developers and consultants. Falsify if the data cannot be normalized cheaply, source terms restrict the intended use, or no qualified user agrees to evaluate a paid pilot.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.energy.gov/documents/craig-order-202-26-31-pios-exhibits-3-01-3-07-july-24-2026; https://www.energy.gov/documents/motion-intervene-motion-clarification-and-request-rehearing-and-stay-public-interest-36
 
 ### Low-cost, crop-specific autonomous weeding retrofit based on an open-source chassis [opp_d8b7c63665b27bbd1829]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States and other row-crop markets with labor or herbicide constraints

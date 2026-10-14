@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-14T16:27:48.623650+00:00
+Generated: 2026-10-14T20:22:58.239681+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['underserved_buyers', 'seller_supply_gap', 'chile_technology_import']
-- raw_candidates: 2
-- parseable_candidates: 2
-- normalized_candidates: 2
+- lenses: ['early_adoption_investing', 'market_positioning', 'asset_ownership']
+- raw_candidates: 3
+- parseable_candidates: 3
+- normalized_candidates: 3
 - normalization_rejected: 0
-- grounded_sources: 6
+- grounded_sources: 7
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 0
 - critic_reviews: 1
 - judge_reviews: 0
 - survivors: 0
-- watches: 2
+- watches: 3
 - rejected: 1
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.02933295
+- cost_usd: 0.02978225
 - cost_uncertain: False
-- budget_remaining_usd: 0.05066705
+- budget_remaining_usd: 0.05021775
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,9 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Independent operating-support wedge around DJI agricultural drones already sold in Chile: The underlying DJI Agras equipment appears commercially available in Chile and the proposed asset-light wedge avoids incorrectly portraying a lab prototype as deployment-ready. The customer job is also identifiable at a high level: compliant aerial application support for vineyards, orchards and difficult-access agricultural sites, with potential measures such as hectares covered, labor hours, refill time, downtime and cost per hectare. However, this is not yet HQ-worthy as a business: the same support bundle—sales, training, spare parts, technical service, agronomic planning, application, reporting and regulatory capability—is already marketed by local sellers and contractors. No evidence identifies a reachable buyer who will pay separately for independent coordination rather than receive it bundled from an incumbent or outsource the application entirely. Unit economics, qualification boundaries, and local serviceability differentiation remain unproven. It survives only as a tightly bounded paid-validation hypothesis, not as a validated deployment-and-maintenance opportunity.
-- Chile SFA interoperability test harness for regulated participants: The regulatory premise is sufficiently grounded by CMF primary sources: Annex 3 and ATENA appear to create a real, time-bounded interoperability-testing need ahead of the stated July 2027 implementation date. A narrowly scoped testing tool is not inherently a regulated financial activity, so there is no demonstrated license-perimeter or compliance fatality. However, the commercial premise is unproven and materially weakened by overlap with CMF/ATENA testing capabilities and an apparent Chile-specific commercial provider. No evidence establishes that target institutions can and will buy an independent validator, that sandbox/specification access supports a differentiated product, or that a small customer universe can support software economics rather than one-off consulting. This is HQ-worthy only as a tightly falsifiable wedge, not as an investable standalone business conclusion.
-- BESS eligibility and supply-chain documentation package for 48E/45X projects: deferred_by_review_cap
 - DER aggregation readiness kit for small batteries and flexible loads: deferred_by_review_cap
 - Chile SFA conformance-testing wedge ahead of the July 2027 implementation date: deferred_by_review_cap
 - Low-cost, crop-specific autonomous weeding retrofit based on an open-source chassis: deferred_by_review_cap
@@ -51,12 +48,15 @@ No survivors. Scout does not manufacture a daily winner.
 - Shared-service autonomous mechanical weeding pilot for sugar beet and similar row crops: deferred_by_review_cap
 - Chile RaaS deployment wedge for industrial-floor cleaning: deferred_by_review_cap
 - Pre-build testing and integration wedge for Chile's Open Finance System: deferred_by_review_cap
+- Chile Open Finance implementation wedge: conformance testing and developer-tooling assets: deferred_by_review_cap
+- Speed-to-power infrastructure exposure: researchable public-company basket with a falsifiable backlog catalyst: deferred_by_review_cap
+- Interconnection-queue intelligence as a paid research asset for project developers: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "research_queue_unreviewed=18"
+    "research_queue_unreviewed=20"
   ],
   "stages": [
     {
@@ -64,38 +64,26 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 30,
+      "grounded_source_count": 18,
       "search_source_urls": [
-        "https://apnews.com/article/39f2356b9c1e167d0985b821f70079c5",
-        "https://arxiv.org/abs/1706.08931",
-        "https://arxiv.org/abs/1709.06283",
-        "https://arxiv.org/abs/1809.05380",
-        "https://arxiv.org/abs/2406.08333",
-        "https://cmfchile.cl/portal/principal/613/w3-article-92556.html",
-        "https://comunicacion.falabella.com/TyC/2021nov-Anexo-06-Territorios-Disponibles-VO.pdf",
-        "https://en.wikipedia.org/wiki/Falabella_%28retail_store%29",
-        "https://en.wikipedia.org/wiki/Mallplaza",
-        "https://en.wikipedia.org/wiki/S.A.C.I._Falabella",
-        "https://es.wikipedia.org/wiki/Falabella",
-        "https://es.wikipedia.org/wiki/Grupo_Falabella",
-        "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/",
-        "https://www.cmfchile.cl/portal/prensa/615/articles-99378_doc_pdf.pdf",
         "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
         "https://www.cmfchile.cl/portal/principal/613/articles-82752_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html",
         "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.falabella.com/falabella-cl/brand/NATURA?mkid=LP_HM_NAT_36",
-        "https://www.falabella.com/falabella-cl/seller/Natura",
-        "https://www.falabella.com/static/staticContent/content/minisitios/rse/contenidoDescargable/REPORTEOFICIAL.PDF",
-        "https://www.fne.gob.cl/wp-content/uploads/2019/12/aprob54a_F207_2019.pdf",
-        "https://www.mecalux.cl/bodegas-automaticas/amr-robots-moviles-autonomos",
-        "https://www.reddit.com/r/automation/comments/1v7xu4t/how_expensive_is_it_really_to_deploy_industrial/",
-        "https://www.reddit.com/r/chileIT/comments/1n5q0pa/duda_de_totalmente_de_curioso_qu%C3%A9_pasar%C3%ADa_si/",
-        "https://www.sernac.gob.cl/portal/619/articles-62983_archivo_01.pdf",
-        "https://www.vicrobotics.com/",
-        "https://www.vicrobotics.com/about",
-        "https://www.vicrobotics.com/precios",
-        "https://www.vicrobotics.com/soluciones/limpieza-industrial-bodegas"
+        "https://www.energy.gov/documents/craig-order-202-26-31-pios-exhibits-3-01-3-07-july-24-2026",
+        "https://www.energy.gov/documents/motion-intervene-motion-clarification-and-request-rehearing-and-stay-public-interest-36",
+        "https://www.sec.gov/Archives/edgar/data/1297996/000110465926086270/dlr-20260723xex99d2.htm",
+        "https://www.sec.gov/Archives/edgar/data/1449792/000149315226038515/form10-q.htm",
+        "https://www.sec.gov/Archives/edgar/data/1488139/000162828026051825/amerescoq22026supplement.htm",
+        "https://www.sec.gov/Archives/edgar/data/18230/000130817926000360/cat015318-ars.pdf",
+        "https://www.sec.gov/Archives/edgar/data/2109150/000119312526318820/d174544dex992.htm",
+        "https://www.sec.gov/Archives/edgar/data/2110029/000119312526249668/d12401ds1a.htm",
+        "https://www.sec.gov/Archives/edgar/data/2110029/000119312526344714/eroc-ex99_1.htm",
+        "https://www.sec.gov/Archives/edgar/data/2133037/000162828026062846/sbenergy-sx1a2.htm",
+        "https://www.sec.gov/Archives/edgar/data/866273/000086627326000057/mtrx-20260630.htm",
+        "https://www.sec.gov/Archives/edgar/data/874238/000087423826000041/a20251231annualreport.pdf",
+        "https://www.sec.gov/Archives/edgar/data/886128/000110465926071181/fcel-20260608xex99d1.htm",
+        "https://www.sec.gov/Archives/edgar/data/895419/000089541926000068/a2026annualreport.pdf",
+        "https://www.sec.gov/Archives/edgar/data/929008/000092900826000021/wcc-2q2026slides.htm"
       ]
     },
     {
@@ -110,7 +98,7 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 3,
+      "grounded_sources": 2,
       "retry_justified": false
     },
     {
@@ -129,53 +117,49 @@ No survivors. Scout does not manufacture a daily winner.
       "retry_justified": false
     },
     {
+      "index": 2,
+      "stage": "normalization",
+      "outcome": "accepted",
+      "reasons": [],
+      "changes": [
+        "contrary_evidence:list_sanitized",
+        "major_risks:list_sanitized",
+        "unknowns:list_sanitized",
+        "falsification_conditions:list_sanitized",
+        "material_update:unknown_false"
+      ],
+      "grounded_sources": 2,
+      "retry_justified": false
+    },
+    {
       "stage": "critic",
-      "candidate_id": "opp_2df7c31be3f47e321668",
+      "candidate_id": "opp_635d375465c7228c0ffd",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 35,
+      "grounded_source_count": 15,
       "search_source_urls": [
-        "https://apnews.com/article/588b84ea6d3b4745da42d58bb80bd718",
-        "https://arxiv.org/abs/2005.07461",
-        "https://arxiv.org/abs/2411.13447",
-        "https://en.wikipedia.org/wiki/Capital_Markets_and_Technology_Association",
-        "https://en.wikipedia.org/wiki/SEC_filing",
-        "https://en.wikipedia.org/wiki/Tokenized_private_placement",
-        "https://en.wikipedia.org/wiki/United_States_Securities_and_Exchange_Commission",
-        "https://www.bankofengland.co.uk/payment-and-settlement/rtgs-future-roadmap/project-meridian-securities",
-        "https://www.cooley.com/api/downloadpdf?contextItemId=%7BA6EF5E02-2100-401E-A476-F1B67324CE46%7D",
-        "https://www.dtcc.com/-/media/Files/Downloads/digital-assets/dtc-tokenization-service-faq.pdf",
-        "https://www.dtcc.com/en/dtcc-connection/articles/2026/april/13/tokenization-and-the-future-of-us-markets",
-        "https://www.dtcc.com/insights/2026/dtcc-consulting-supports-clients-through-change",
-        "https://www.dtcc.com/insights/2026/dtcc-looks-forward-to-2026-and-reflects-on-its-success-in-2025-i4aw",
-        "https://www.dtcc.com/press-releases/2026/dtcc-advances-development-of-new-tokenization-service?trk=article-ssr-frontend-pulse_little-text-block",
-        "https://www.dtcc.com/products-and-services/digital-assets/tokenization/hub",
-        "https://www.dtcc.com/products-and-services/digital-assets/tokenization/live-production-trades",
-        "https://www.fdic.gov/news/press-releases/2026/agencies-clarify-capital-treatment-tokenized-securities",
-        "https://www.govinfo.gov/content/pkg/FR-2026-09-04/pdf/2026-18190.pdf",
-        "https://www.govinfo.gov/content/pkg/FR-2026-09-22/pdf/FR-2026-09-22.pdf",
-        "https://www.imf.org/-/media/files/publications/imf-notes/2026/english/insea2026001.pdf",
-        "https://www.reddit.com/r/BANDOFBROTHERSOFSRNE/comments/1thqzxk/this_is_from_kims_reference_to_article_earlier/",
-        "https://www.reddit.com/r/CryptoCurrency/comments/1rxtqpt/sec_approves_nasdaqs_move_to_allow_tokenized/",
-        "https://www.reddit.com/r/CryptoCurrency/comments/1vkqm5p/a_tokenized_stock_can_move_onchain_before_its/",
-        "https://www.reddit.com/r/GMEJungle/comments/1wiumeq/sec_issues_innovation_exemption_to_facilitate_the/",
-        "https://www.reddit.com/r/RWATimes/comments/1qitxjk/a_primer_on_tokenized_securities/",
-        "https://www.reddit.com/r/RWATimes/comments/1qqm3k0/sec_chair_atkins_walks_back_timeline_for_crypto/",
-        "https://www.reddit.com/r/RWATimes/comments/1qqtbf4/us_sec_explained_how_securities_laws_apply_to/",
-        "https://www.reddit.com/r/RWATimes/comments/1quwlnw/otcm_protocol_achieves_sec_category_1_tokenized/",
-        "https://www.reddit.com/r/RWATimes/comments/1rael92/developments_in_the_tokenization_of_securities_in/",
-        "https://www.reddit.com/r/Superstonk/comments/1w8hy7h/tokenized_stocks_how_they_impact_gamestop_and_why/",
-        "https://www.sec.gov/about/crypto-task-force/written-submission/ctf-written-input-etherealize-042525",
-        "https://www.sec.gov/featured-topics/crypto-task-force/cryptosec",
-        "https://www.sec.gov/files/ctf-written-proposal-sec-project-09-15-2025.pdf",
-        "https://www.sec.gov/newsroom/speeches-statements/corp-fin-statement-tokenized-securities-012826-statement-tokenized-securities",
-        "https://www.sec.gov/newsroom/speeches-statements/corp-fin-statement-tokenized-securities-012826-statement-tokenized-securities?_bhlid=e11ccec8dca9a67c466c91bee9c1b066f060ac7c"
+        "https://www.energy.gov/ceser/articles/ceser-releases-supply-chain-assessment-digital-components",
+        "https://www.energy.gov/ceser/articles/cesers-partnerships-support-secure-clean-energy-transition-outlined-national",
+        "https://www.energy.gov/ceser/articles/new-ceser-report-offers-supply-chain-mitigation-strategies-battery-storage-systems",
+        "https://www.energy.gov/ceser/ceser-mission",
+        "https://www.energy.gov/ceser/infrastructure-hardening-and-technology-development",
+        "https://www.energy.gov/ceser/supply-chain-cybersecurity-principles",
+        "https://www.energy.gov/sites/default/files/2025-01/BESSIE_supply-chain-battery-report_111124_OPENRELEASE_SJ_1.pdf?trk=public_post_comment-text",
+        "https://www.irs.gov/credits-deductions/clean-electricity-investment-credit",
+        "https://www.irs.gov/forms-pubs/about-form-3468?trk=article-ssr-frontend-pulse_little-text-block",
+        "https://www.irs.gov/instructions/i3468",
+        "https://www.irs.gov/irb/2026-11_IRB",
+        "https://www.irs.gov/irb/2026-27_irb",
+        "https://www.irs.gov/newsroom/treasury-irs-provide-guidance-for-certain-energy-tax-credits-regarding-material-assistance-provided-by-prohibited-foreign-entities-under-the-one-big-beautiful-bill",
+        "https://www.irs.gov/pub/irs-drop/n-26-15.pdf",
+        "https://www.irs.gov/pub/irs-pdf/i3468.pdf"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_2df7c31be3f47e321668",
+      "candidate_id": "opp_635d375465c7228c0ffd",
       "coercions": [
+        "critic_case",
         "contrary_evidence"
       ]
     }
@@ -184,30 +168,30 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 204,
-      "cache_write_tokens": 5069,
+      "reasoning_tokens": 185,
+      "cache_write_tokens": 5409,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01466245,
+      "cumulative_cost_usd": 0.01519025,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13591,
+      "input_tokens": 13715,
       "cached_tokens": 0,
-      "output_tokens": 1409,
+      "output_tokens": 1814,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01466245
+      "estimated_cost_usd": 0.01519025
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 163,
-      "cache_write_tokens": 5466,
+      "reasoning_tokens": 183,
+      "cache_write_tokens": 5256,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02933295,
+      "cumulative_cost_usd": 0.02978225,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13580,
+      "input_tokens": 13384,
       "cached_tokens": 0,
-      "output_tokens": 1401,
+      "output_tokens": 1377,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0146705
+      "estimated_cost_usd": 0.014592
     }
   ]
 }

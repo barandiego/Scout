@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 55
+Candidates: 57
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -64,18 +64,6 @@ Candidates: 55
 - Possible initial budget:
 - Source URLs: https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/; https://www.sec.cl/gda/; https://www.sec.cl/normas-tecnicas-electricas/
 
-## BESS eligibility and supply-chain documentation package for 48E/45X projects
-- Status: watch | energy_infrastructure
-- Current idea: Developers and equipment buyers must prove component origin, eligibility and material-assistance status before relying on tax-credit economics. The concrete bottleneck is evidence management rather than general consulting.
-- Potential economic capture: Sell a narrowly scoped evidence pack: bill-of-materials normalization, supplier-origin records, component eligibility mapping, prohibited-foreign-entity screening, and an auditor-ready file indexed to the project’s tax-credit claims. A second possible mechanism is licensing the document schema or spreadsheet template to solar/BESS developers, EPCs or tax-credit advisors.
-- **Research routes to test (NOT validated claims):**
-  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
-  - Compare owned asset, installer/distributor and project-finance participation.
-  - Verify permits and installed net payback under conservative power price scenarios.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://www.irs.gov/pub/irs-dft/i3468--dft.pdf; https://www.energy.gov/ceser/articles/new-ceser-report-offers-supply-chain-mitigation-strategies-battery-storage-systems
-
 ## DER aggregation readiness kit for small batteries and flexible loads
 - Status: watch | energy_infrastructure
 - Current idea: Small commercial batteries and flexible loads may have an additional market-participation route, but qualification depends on tariff, telemetry, metering, interconnection and utility-coordination requirements. The executable wedge is a site-level readiness and data package, not generic energy consulting.
@@ -87,6 +75,18 @@ Candidates: 55
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://ferc.gov/media/ferc-order-no-2222-fact-sheet; https://www.ferc.gov/ferc-order-no-2222-explainer-facilitating-participation-electricity-markets-distributed-energy; https://ferc.gov/news-events/news/ferc-acts-first-order-no-2222-compliance-filings
+
+## Interconnection-queue intelligence as a paid research asset for project developers
+- Status: watch | energy_infrastructure
+- Current idea: The combination of a large, changing queue and withdrawals creates a narrowly defined data problem: normalize queue status, withdrawal history, transmission region, project technology, and likely time-to-interconnection into a research product. The economic value would depend on whether developers, lenders, brokers, or equipment suppliers pay for project-screening data; the evidence does not establish that willingness to pay.
+- Potential economic capture: Offer a small paid dataset, monitoring subscription, or one-off queue-screening report focused on a single ISO/RTO and technology. Do not assume access to proprietary project data or permission to redistribute source datasets.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.energy.gov/documents/craig-order-202-26-31-pios-exhibits-3-01-3-07-july-24-2026; https://www.energy.gov/documents/motion-intervene-motion-clarification-and-request-rehearing-and-stay-public-interest-36
 
 ## Public-building ESCO measurement and verification subcontractor
 - Status: watch | energy_infrastructure
@@ -267,6 +267,18 @@ Candidates: 55
 - Critical gaps: Whether ATENA is sufficiently complete, reliable, and easy to use for real production-readiness testing.; Whether CMF or another authority will require independent conformance evidence, certification, audit trails, or third-party remediation.; Number of entities in each participant category that will actually need external help rather than internal engineering.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html
+
+## Chile Open Finance implementation wedge: conformance testing and developer-tooling assets
+- Status: watch | open_finance_chile
+- Current idea: The technical standard creates a defined implementation window before mandatory operation. A narrow product could package test fixtures, API conformance checks, consent-flow test cases, documentation templates, and monitoring for regulated participants or technology providers.
+- Potential economic capture: Sell a narrowly scoped downloadable test suite or annual software subscription; alternatively license implementation documentation and automated test cases to participating firms. No buyer, price, or conversion rate is established by the evidence.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html
 
 ## Chile publishes technical rules and developer infrastructure for Open Finance, with go-live deferred to July 2027
 - Status: watch | open_finance_chile
@@ -579,6 +591,18 @@ Candidates: 55
 - Critical gaps: What proportion of the cited queues is technically addressable by each technology and by geography?; How much of the claimed congestion cost is avoidable through GETs rather than caused by insufficient generation, local distribution constraints, market design, or fuel and demand shocks?; Which entities receive the economic benefit: generators, load-serving entities, transmission owners, ratepayers, RTOs/ISOs, or technology vendors?
 - Possible initial budget:
 - Source URLs: https://www.iea.org/reports/modernising-grids-in-the-age-of-electricity/executive-summary; https://www.iea.org/reports/electricity-2026/grids
+
+## Speed-to-power infrastructure exposure: researchable public-company basket with a falsifiable backlog catalyst
+- Status: watch | public_markets
+- Current idea: The investable mechanism is not generic AI demand but conversion of signed power-infrastructure orders into revenue, cash flow, and recurring operations-and-maintenance revenue. The main downside cases are order cancellations, financing stress, execution delays, customer concentration, and valuation already discounting the backlog.
+- Potential economic capture: A small operator can conduct a defined public-market event study or paper portfolio around backlog conversion, quarterly free cash flow, cancellations, and service-revenue growth. Accessible vehicles include the cited listed companies’ common shares, but no purchase recommendation or expected return is implied.
+- **Research routes to test (NOT validated claims):**
+  - Find overlooked fundamentals and a named accessible security with dated primary filings.
+  - Compare risked intrinsic value, market expectations and specific downside scenarios.
+  - Define catalysts and invalidation thresholds before any governed investment decision.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.sec.gov/Archives/edgar/data/929008/000092900826000021/wcc-2q2026slides.htm; https://www.sec.gov/Archives/edgar/data/2110029/000119312526344714/eroc-ex99_1.htm; https://www.sec.gov/Archives/edgar/data/1488139/000162828026051825/amerescoq22026supplement.htm
 
 ## Testing and workflow infrastructure around DTCC tokenized-security settlement
 - Status: watch | public_markets

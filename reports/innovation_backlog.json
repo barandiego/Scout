@@ -196,42 +196,6 @@
       "category": "energy_infrastructure",
       "commercially_validated": false,
       "competition_confirmed": false,
-      "current_participation_path": "Start with one public BESS procurement or project filing and build a prototype checklist using only supplier datasheets, invoices, certificates and IRS definitions. Offer a fixed-scope document review to a local EPC, developer or tax-credit preparer only after confirming they have an active project and permission to review records. Falsify cheaply by asking five project developers whether they already maintain the required evidence and whether a paid gap review would change a live filing; stop if none reports a live documentation gap.",
-      "current_thesis": "Developers and equipment buyers must prove component origin, eligibility and material-assistance status before relying on tax-credit economics. The concrete bottleneck is evidence management rather than general consulting.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "United States",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "BESS eligibility and supply-chain documentation package for 48E/45X projects",
-      "opportunity_id": "opp_635d375465c7228c0ffd",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
-        "Compare owned asset, installer/distributor and project-finance participation.",
-        "Verify permits and installed net payback under conservative power price scenarios."
-      ],
-      "supporting_source_urls": [
-        "https://www.irs.gov/pub/irs-dft/i3468--dft.pdf",
-        "https://www.energy.gov/ceser/articles/new-ceser-report-offers-supply-chain-mitigation-strategies-battery-storage-systems"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "Sell a narrowly scoped evidence pack: bill-of-materials normalization, supplier-origin records, component eligibility mapping, prohibited-foreign-entity screening, and an auditor-ready file indexed to the project’s tax-credit claims. A second possible mechanism is licensing the document schema or spreadsheet template to solar/BESS developers, EPCs or tax-credit advisors.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "energy_infrastructure",
-      "commercially_validated": false,
-      "competition_confirmed": false,
       "current_participation_path": "Choose one RTO/ISO and one asset class, then use its published tariff and aggregator requirements to score five publicly identifiable commercial sites or consenting prospects. Falsify by sending the completed one-page readiness score to three registered aggregators or installers and asking whether they would accept the data packet for screening; do not promise market enrollment, revenue or permissions. Stop if requirements are too site-specific to produce a useful packet or if aggregators reject external screening data.",
       "current_thesis": "Small commercial batteries and flexible loads may have an additional market-participation route, but qualification depends on tariff, telemetry, metering, interconnection and utility-coordination requirements. The executable wedge is a site-level readiness and data package, not generic energy consulting.",
       "founder_hours_initial_unverified_estimate": "",
@@ -262,6 +226,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Create a standardized site packet containing interval-load data, battery specifications, control capability, interconnection status, telemetry availability and tariff-specific eligibility checks. The payer could be an existing DER aggregator, installer or commercial site owner seeking qualified enrollment candidates; no buyer or fee is assumed until interviews validate demand.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "energy_infrastructure",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Download the public DOE and relevant ISO/RTO queue files, select one region, and manually produce a 20-project screening sample with reproducible fields and source links. Post a public sample and request paid preorders or structured feedback from identifiable developers and consultants. Falsify if the data cannot be normalized cheaply, source terms restrict the intended use, or no qualified user agrees to evaluate a paid pilot.",
+      "current_thesis": "The combination of a large, changing queue and withdrawals creates a narrowly defined data problem: normalize queue status, withdrawal history, transmission region, project technology, and likely time-to-interconnection into a research product. The economic value would depend on whether developers, lenders, brokers, or equipment suppliers pay for project-screening data; the evidence does not establish that willingness to pay.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Interconnection-queue intelligence as a paid research asset for project developers",
+      "opportunity_id": "opp_471716894d06e79a4659",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
+        "Compare owned asset, installer/distributor and project-finance participation.",
+        "Verify permits and installed net payback under conservative power price scenarios."
+      ],
+      "supporting_source_urls": [
+        "https://www.energy.gov/documents/craig-order-202-26-31-pios-exhibits-3-01-3-07-july-24-2026",
+        "https://www.energy.gov/documents/motion-intervene-motion-clarification-and-request-rehearing-and-stay-public-interest-36"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Offer a small paid dataset, monitoring subscription, or one-off queue-screening report focused on a single ISO/RTO and technology. Do not assume access to proprietary project data or permission to redistribute source datasets.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -855,6 +855,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "A narrowly scoped implementation asset: automated API conformance tests, consent-flow test fixtures, data-schema validators, and reproducible sandbox test cases for one participant type. Potential cash flow would come from paid test engagements or integration work only if an affected participant agrees to purchase it; no buyer or price is established by the evidence.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Build a minimum conformance harness against the publicly available CMF technical specifications and developer-portal materials. Test whether two Chilean fintech or banking-technology contacts can run it and identify missing implementation requirements before attempting any sale. Stop if the specifications are inaccessible, materially incomplete, or prospective users do not agree to a technical evaluation.",
+      "current_thesis": "The technical standard creates a defined implementation window before mandatory operation. A narrow product could package test fixtures, API conformance checks, consent-flow test cases, documentation templates, and monitoring for regulated participants or technology providers.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile Open Finance implementation wedge: conformance testing and developer-tooling assets",
+      "opportunity_id": "opp_76fc7b6bece7c6b747d4",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a narrowly scoped downloadable test suite or annual software subscription; alternatively license implementation documentation and automated test cases to participating firms. No buyer, price, or conversion rate is established by the evidence.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -1867,6 +1903,43 @@
       "category": "public_markets",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Create a paper basket or watchlist limited to WCC, EROC, and AMRC; record price, backlog, bookings, cancellations, gross margin, free cash flow, debt, and recurring-service revenue at the next two reported quarters. Falsify the thesis if backlog does not convert into revenue/cash flow, cancellations rise materially, or operating metrics lag the companies’ stated schedules. Only after that test should an investor evaluate position sizing and valuation independently.",
+      "current_thesis": "The investable mechanism is not generic AI demand but conversion of signed power-infrastructure orders into revenue, cash flow, and recurring operations-and-maintenance revenue. The main downside cases are order cancellations, financing stress, execution delays, customer concentration, and valuation already discounting the backlog.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Speed-to-power infrastructure exposure: researchable public-company basket with a falsifiable backlog catalyst",
+      "opportunity_id": "opp_8fd938450701fbd64711",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Find overlooked fundamentals and a named accessible security with dated primary filings.",
+        "Compare risked intrinsic value, market expectations and specific downside scenarios.",
+        "Define catalysts and invalidation thresholds before any governed investment decision."
+      ],
+      "supporting_source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/929008/000092900826000021/wcc-2q2026slides.htm",
+        "https://www.sec.gov/Archives/edgar/data/2110029/000119312526344714/eroc-ex99_1.htm",
+        "https://www.sec.gov/Archives/edgar/data/1488139/000162828026051825/amerescoq22026supplement.htm"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A small operator can conduct a defined public-market event study or paper portfolio around backlog conversion, quarterly free cash flow, cancellations, and service-revenue growth. Accessible vehicles include the cited listed companies’ common shares, but no purchase recommendation or expected return is implied.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "public_markets",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use DTCC's announced use cases to create a sandbox-only reconciliation prototype: ingest a synthetic trade, map token transfer events to conventional settlement records, and produce an exception report. Approach vendors or participants named in public DTCC/SEC materials with the prototype and ask whether they have a test environment, vendor intake process, or paid proof-of-concept. Lowest-cost falsification: implement the reconciliation logic over a small synthetic dataset and obtain written confirmation from three relevant firms that the output matches a real internal control or integration requirement; stop if there is no identified test environment or procurement route. Do not handle customer assets or offer securities without required authorization.",
       "current_thesis": "The near-term wedge is operational interoperability rather than issuing speculative tokens: test-data generation, reconciliation between on-chain transfers and traditional security records, entitlement reporting, transaction exception handling, or audit evidence for firms preparing for tokenized settlement workflows.",
       "founder_hours_initial_unverified_estimate": "",
@@ -2131,7 +2204,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-14T16:27:48.905258+00:00",
+  "generated_at": "2026-10-14T20:22:58.640575+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"
