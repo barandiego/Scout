@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-13T20:58:21.092987+00:00
+Generated: 2026-10-14T01:07:31.160330+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
-- Rolling leads: 1432
-- New this cycle: 98
+- Rolling leads: 1490
+- New this cycle: 109
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 202, ai 285, commerce 33, energy 454, robotics 458
+- Categories: agriculture 202, ai 295, commerce 33, energy 483, robotics 477
 
 ## Recently encountered signals
 
@@ -146,6 +146,12 @@ Generated: 2026-10-13T20:58:21.092987+00:00
 
 ### Opportunities and challenges of integrating battery energy storage in the electricity grid – perspectives from distribution system operators
 - Source: https://doi.org/10.66506/essp.172
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### Advanced thermal energy storage and temperature uniformity control in battery systems using ester-based phase change materials combined with optimized thermal management architectu
+- Source: https://doi.org/10.1007/s10973-026-16351-0
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
@@ -444,20 +450,14 @@ Generated: 2026-10-13T20:58:21.092987+00:00
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
 
-### adityabhatwan3-oss/Agrovoer-
-- Source: https://github.com/adityabhatwan3-oss/Agrovoer-
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Simulation-Based Battery Capacity Optimization for Electric Vehicle Hybrid Energy Storage Applications
-- Source: https://doi.org/10.1109/elecris70177.2026.11721901
+### BinHuangScut/bess-lifecycle-electrothermal-aging
+- Source: https://github.com/BinHuangScut/bess-lifecycle-electrothermal-aging
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
-### 1clickit/Solar-Digital-Twin-Research
-- Source: https://github.com/1clickit/Solar-Digital-Twin-Research
+### Author response for "Wastewater Valorization for Energy Storage: Phenolic Resin-Derived Hard Carbon Architectures as High-Performance Sodium-Ion Battery Anodes"
+- Source: https://doi.org/10.1039/d6nj02662a/v3/response1
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
