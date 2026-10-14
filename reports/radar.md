@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-14T16:59:33.097127+00:00
+Generated: 2026-10-14T20:56:42.817236+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
-- Rolling leads: 1697
-- New this cycle: 108
+- Rolling leads: 1750
+- New this cycle: 99
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 232, ai 333, commerce 31, energy 549, robotics 552
+- Categories: agriculture 238, ai 343, commerce 31, energy 566, robotics 572
 
 ## Recently encountered signals
 
@@ -178,6 +178,12 @@ Generated: 2026-10-14T16:59:33.097127+00:00
 - Source: https://doi.org/10.66506/essp.172
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### Codewithsempai/AgriGuard
+- Source: https://github.com/Codewithsempai/AgriGuard
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
 
 ### 25A31A43G3/Quantum-Crop-ai-
@@ -454,10 +460,4 @@ Generated: 2026-10-14T16:59:33.097127+00:00
 - Source: https://doi.org/10.1016/j.est.2026.124997
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### agrosaathi/AgroSaathi
-- Source: https://github.com/agrosaathi/AgroSaathi
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
