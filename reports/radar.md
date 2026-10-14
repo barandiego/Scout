@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-14T13:08:14.900220+00:00
+Generated: 2026-10-14T16:59:33.097127+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
-- Rolling leads: 1637
-- New this cycle: 104
+- Rolling leads: 1697
+- New this cycle: 108
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 227, ai 320, commerce 31, energy 529, robotics 530
+- Categories: agriculture 232, ai 333, commerce 31, energy 549, robotics 552
 
 ## Recently encountered signals
+
+### Multi-timescale energy management and techno-economic optimization of battery–hydrogen storage hybrid AC/DC microgrid for off-grid rural electrification
+- Source: https://doi.org/10.1016/j.weer.2026.100046
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
 
 ### Thrinadh-ai/Smart-Agriculture
 - Source: https://github.com/Thrinadh-ai/Smart-Agriculture
@@ -170,6 +176,18 @@ Generated: 2026-10-14T13:08:14.900220+00:00
 
 ### Opportunities and challenges of integrating battery energy storage in the electricity grid – perspectives from distribution system operators
 - Source: https://doi.org/10.66506/essp.172
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### 25A31A43G3/Quantum-Crop-ai-
+- Source: https://github.com/25A31A43G3/Quantum-Crop-ai-
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### Headroom-Constrained Adaptive Power Oscillation Damping for Grid-Forming Battery Energy Storage Systems Under Modal-Estimation Uncertainty
+- Source: https://doi.org/10.3390/en19204871
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
@@ -440,24 +458,6 @@ Generated: 2026-10-14T13:08:14.900220+00:00
 
 ### agrosaathi/AgroSaathi
 - Source: https://github.com/agrosaathi/AgroSaathi
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Electrolytes in electrochemistry and energy storage
-- Source: https://doi.org/10.1098/rsta.2025.0286
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### touatifatima/Smartcrop-IA
-- Source: https://github.com/touatifatima/Smartcrop-IA
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### SouRavDas713/NASAgric-AI-Powered-Rooftop-Farming-Assistant
-- Source: https://github.com/SouRavDas713/NASAgric-AI-Powered-Rooftop-Farming-Assistant
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
