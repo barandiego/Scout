@@ -1,74 +1,29 @@
 {
-  "active_candidates": [
-    {
-      "available_budget_clp": 4252000.0,
-      "buyer": "Servicio de Biodiversidad y Áreas Protegidas",
-      "closes_at": "2026-10-19T13:00:00",
-      "code": "1490611-37-COT26",
-      "estimated_budget": 4252000.0,
-      "name": "Adquisición Reparaciones SSHH Guardaparques PN Nonguén Convenio SBAP CONAF",
-      "products": 1,
-      "region": "Región del Biobío"
-    },
-    {
-      "available_budget_clp": 380000.0,
-      "buyer": "DIRECCION GENERAL DE AERONAUTICA CIVIL",
-      "closes_at": "2026-10-15T10:00:00",
-      "code": "1392-94-COT26",
-      "estimated_budget": 380000.0,
-      "name": "Adquisición de calentador de agua.",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 1755000.0,
-      "buyer": "Servicio de Biodiversidad y Áreas Protegidas",
-      "closes_at": "2026-10-19T13:00:00",
-      "code": "1490611-36-COT26",
-      "estimated_budget": 1755000.0,
-      "name": "Adquisición Mejoramiento Bodega PN Nonguén Convenio SBAP CONAF",
-      "products": 1,
-      "region": "Región del Biobío"
-    }
-  ],
-  "active_structurally_reconstructable_count": 3,
+  "active_candidates": [],
+  "active_structurally_reconstructable_count": 0,
   "diagnostics": {
     "api_failures": {
-      "api_http_504": 2
+      "api_http_504": 1
     },
-    "budget_exhausted": true,
-    "detail_attempts": 19,
-    "detail_cap_exhausted": false,
-    "details_fetched": 17,
-    "duplicate_listings": 0,
-    "invalid_listing_items": 0,
-    "malformed_details": 0,
-    "malformed_reasons": {},
-    "malformed_samples": [],
-    "pages_fetched": 1,
-    "pagination_incomplete": false,
-    "pagination_invalid": false,
-    "requests_used": 25,
-    "transient_retries": 5
+    "requests_used": 3,
+    "transient_retries": 2
   },
-  "generated_at": "2026-10-14T04:54:20Z",
-  "inserted_history": 17,
-  "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
+  "generated_at": "2026-10-14T13:04:05Z",
+  "inserted_history": 0,
+  "note": "Transient ChileCompra/API availability failure after bounded retries. Cursor was not advanced; next scheduled run may retry safely.",
   "ok": false,
-  "outcome": "DEGRADED_API_ERRORS",
+  "outcome": "DEGRADED_TRANSIENT_API",
   "phase1": {
-    "records": 17,
-    "rejection_reasons": {
-      "no_observable_competitive_prices": 2
-    },
-    "resolved": 14,
-    "structurally_reconstructable": 15,
-    "with_observable_quote_totals": 12,
+    "records": 0,
+    "rejection_reasons": {},
+    "resolved": 0,
+    "structurally_reconstructable": 0,
+    "with_observable_quote_totals": 0,
     "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-14T04:54:20Z"
+    "changed_to": "2026-10-14T13:04:05Z"
   }
 }
