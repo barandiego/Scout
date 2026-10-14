@@ -3124,67 +3124,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-12T12:19:54.779261+00:00",
-      "discovery_lens": "energy_localization",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "The Coordinador provides monthly records of renewable-energy reductions in Chile’s National Electricity System, including 2025 and 2026 files.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Reducciones de Generación Renovable",
-          "url": "https://www.coordinador.cl/operacion/documentos/reducciones-de-generacion-renovable/"
-        },
-        {
-          "claim": "The Coordinador reports that Chilean battery storage increased from about 1.2 GW to 3.2 GW during 2025.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Coordinador Eléctrico presenta informe de monitoreo de la competencia con desafíos estructurales",
-          "url": "https://www.coordinador.cl/novedades/coordinador-electrico-presenta-informe-de-monitoreo-de-la-competencia-con-desafios-estructurales/"
-        },
-        {
-          "claim": "SPEC describes short-duration BESS deployment in Chile near high-solar-penetration and transmission-congestion areas and discusses current valuation and dispatch questions.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "Short-Duration Storage: Proposals for Better Integration into the Chilean Electricity Market",
-          "url": "https://www.spec.cl/en/publicaciones/2026-almacenamiento-corta-duracion/"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.89,
-      "falsification_conditions": [],
-      "geography": "Chile, especially solar-heavy northern regions and congested transmission zones",
-      "id": "opp_5fec091eab927558b694",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-12T12:19:54.787163+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Download the CEN monthly files, reproduce one region’s plant-level curtailment table, and send a one-page result to publicly identifiable project-development or investment contacts asking them to validate one plant’s decision use. The lowest-cost falsification step is to produce a free analysis for five plants and seek one paid follow-up or data-request; stop if users cannot name a concrete investment, dispatch or diligence decision improved by the analysis. Do not claim dispatch rights, grid access or project ownership.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "Project developers, asset owners and lenders need to distinguish curtailment exposure by plant, node, month and hour when evaluating storage retrofits, dispatch strategies and acquisition risk. The economic mechanism is better underwriting or dispatch decisions, not the existence of a generic energy trend.",
-      "title": "Plant-level curtailment and BESS siting intelligence for Chilean renewable projects",
-      "type": "data_product",
-      "unknowns": [],
-      "value_capture_mechanism": "A reproducible Chile-specific dataset and screening report that joins CEN curtailment records to plant metadata and calculates candidate storage-loading hours, avoided curtailed MWh scenarios and diligence flags. A payer could be a renewable-project developer, investor or engineering firm, but willingness to pay is unverified.",
-      "verified_sales": null,
-      "vertical": "energy_infrastructure",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-13T12:16:52.372957+00:00",
       "discovery_lens": "chile_technology_import",
       "estimated_capital": "",
@@ -3961,13 +3900,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-14T00:24:23.670189+00:00",
+  "generated_at": "2026-10-14T04:23:48.732131+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 26,
+  "rejected_excluded": 28,
   "reviewed_cards": 33,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 78,
-  "watch": 52
+  "total_distinct_opportunities": 79,
+  "watch": 51
 }

@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 52
+Candidates: 51
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -87,18 +87,6 @@ Candidates: 52
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://ferc.gov/media/ferc-order-no-2222-fact-sheet; https://www.ferc.gov/ferc-order-no-2222-explainer-facilitating-participation-electricity-markets-distributed-energy; https://ferc.gov/news-events/news/ferc-acts-first-order-no-2222-compliance-filings
-
-## Plant-level curtailment and BESS siting intelligence for Chilean renewable projects
-- Status: watch | energy_infrastructure
-- Current idea: Project developers, asset owners and lenders need to distinguish curtailment exposure by plant, node, month and hour when evaluating storage retrofits, dispatch strategies and acquisition risk. The economic mechanism is better underwriting or dispatch decisions, not the existence of a generic energy trend.
-- Potential economic capture: A reproducible Chile-specific dataset and screening report that joins CEN curtailment records to plant metadata and calculates candidate storage-loading hours, avoided curtailed MWh scenarios and diligence flags. A payer could be a renewable-project developer, investor or engineering firm, but willingness to pay is unverified.
-- **Research routes to test (NOT validated claims):**
-  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
-  - Compare owned asset, installer/distributor and project-finance participation.
-  - Verify permits and installed net payback under conservative power price scenarios.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://www.coordinador.cl/operacion/documentos/reducciones-de-generacion-renovable/; https://www.coordinador.cl/novedades/coordinador-electrico-presenta-informe-de-monitoreo-de-la-competencia-con-desafios-estructurales/; https://www.spec.cl/en/publicaciones/2026-almacenamiento-corta-duracion/
 
 ## Public-building ESCO measurement and verification subcontractor
 - Status: watch | energy_infrastructure

@@ -269,43 +269,6 @@
       "category": "energy_infrastructure",
       "commercially_validated": false,
       "competition_confirmed": false,
-      "current_participation_path": "Download the CEN monthly files, reproduce one region’s plant-level curtailment table, and send a one-page result to publicly identifiable project-development or investment contacts asking them to validate one plant’s decision use. The lowest-cost falsification step is to produce a free analysis for five plants and seek one paid follow-up or data-request; stop if users cannot name a concrete investment, dispatch or diligence decision improved by the analysis. Do not claim dispatch rights, grid access or project ownership.",
-      "current_thesis": "Project developers, asset owners and lenders need to distinguish curtailment exposure by plant, node, month and hour when evaluating storage retrofits, dispatch strategies and acquisition risk. The economic mechanism is better underwriting or dispatch decisions, not the existence of a generic energy trend.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "Chile, especially solar-heavy northern regions and congested transmission zones",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "Plant-level curtailment and BESS siting intelligence for Chilean renewable projects",
-      "opportunity_id": "opp_5fec091eab927558b694",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
-        "Compare owned asset, installer/distributor and project-finance participation.",
-        "Verify permits and installed net payback under conservative power price scenarios."
-      ],
-      "supporting_source_urls": [
-        "https://www.coordinador.cl/operacion/documentos/reducciones-de-generacion-renovable/",
-        "https://www.coordinador.cl/novedades/coordinador-electrico-presenta-informe-de-monitoreo-de-la-competencia-con-desafios-estructurales/",
-        "https://www.spec.cl/en/publicaciones/2026-almacenamiento-corta-duracion/"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "A reproducible Chile-specific dataset and screening report that joins CEN curtailment records to plant metadata and calculates candidate storage-loading hours, avoided curtailed MWh scenarios and diligence flags. A payer could be a renewable-project developer, investor or engineering firm, but willingness to pay is unverified.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "energy_infrastructure",
-      "commercially_validated": false,
-      "competition_confirmed": false,
       "current_participation_path": "Use ChileCompra and public tender records to identify one active or recently awarded building-efficiency project, then contact the named winning bidder or sponsoring entity with a sample five-page M&V report built from public building data. Offer a paid pilot on one building using existing invoices and meter readings. Falsify if no active bidder will disclose a subcontracting need, if required data cannot be accessed, or if the project contract does not recognize measurement or reporting as a paid deliverable.",
       "current_thesis": "Small operators can participate without financing or owning a full ESCO by selling a narrow asset: baseline creation, meter-data cleaning, savings calculation, and post-installation verification for an existing contractor or sponsoring entity. The payer would need to be an identified ESCO, engineering contractor, sponsoring entity or public-project bidder—not an assumed government customer.",
       "founder_hours_initial_unverified_estimate": "",
@@ -2019,7 +1982,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-14T00:24:23.703445+00:00",
+  "generated_at": "2026-10-14T04:23:48.776785+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

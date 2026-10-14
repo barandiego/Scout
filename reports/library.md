@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-14T00:24:23.670189+00:00
+Generated: 2026-10-14T04:23:48.732131+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 52 (0 HQ survivors, 52 watches)
-- Rejected opportunities excluded: 26
+- Active research: 51 (0 HQ survivors, 51 watches)
+- Rejected opportunities excluded: 28
 - Critic-and-judge reviewed: 33
 - Autonomous execution authorization: 0
 
@@ -382,16 +382,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.aither.cl/tap/; https://www.ondda.cl/; https://publico.transbank.cl/productos-y-servicios/soluciones-para-ventas-presenciales/autoservicio-estandar
-
-### Plant-level curtailment and BESS siting intelligence for Chilean renewable projects [opp_5fec091eab927558b694]
-- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile, especially solar-heavy northern regions and congested transmission zones
-- Thesis: Project developers, asset owners and lenders need to distinguish curtailment exposure by plant, node, month and hour when evaluating storage retrofits, dispatch strategies and acquisition risk. The economic mechanism is better underwriting or dispatch decisions, not the existence of a generic energy trend.
-- Value capture: A reproducible Chile-specific dataset and screening report that joins CEN curtailment records to plant metadata and calculates candidate storage-loading hours, avoided curtailed MWh scenarios and diligence flags. A payer could be a renewable-project developer, investor or engineering firm, but willingness to pay is unverified.
-- Participation hypothesis: Download the CEN monthly files, reproduce one region’s plant-level curtailment table, and send a one-page result to publicly identifiable project-development or investment contacts asking them to validate one plant’s decision use. The lowest-cost falsification step is to produce a free analysis for five plants and seek one paid follow-up or data-request; stop if users cannot name a concrete investment, dispatch or diligence decision improved by the analysis. Do not claim dispatch rights, grid access or project ownership.
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.coordinador.cl/operacion/documentos/reducciones-de-generacion-renovable/; https://www.coordinador.cl/novedades/coordinador-electrico-presenta-informe-de-monitoreo-de-la-competencia-con-desafios-estructurales/; https://www.spec.cl/en/publicaciones/2026-almacenamiento-corta-duracion/
 
 ### Pre-compliance monitoring for Chile’s Open Finance implementation [opp_8c5a7467be93278a7fb8]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
