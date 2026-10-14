@@ -8,7 +8,7 @@
     "requests_used": 3,
     "transient_retries": 2
   },
-  "generated_at": "2026-10-14T13:04:05Z",
+  "generated_at": "2026-10-14T16:55:56Z",
   "inserted_history": 0,
   "note": "Transient ChileCompra/API availability failure after bounded retries. Cursor was not advanced; next scheduled run may retry safely.",
   "ok": false,
@@ -24,6 +24,6 @@
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-14T13:04:05Z"
+    "changed_to": "2026-10-14T16:55:56Z"
   }
 }
