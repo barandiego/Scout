@@ -1,35 +1,14 @@
 {
-  "active_candidates": [
-    {
-      "available_budget_clp": 193770.0,
-      "buyer": "SUBSECRETARIA DEL MEDIO AMBIENTE",
-      "closes_at": "2026-10-16T09:00:00",
-      "code": "610176-29-COT26",
-      "estimated_budget": 193770.0,
-      "name": "Servicio de catering para reunión de sesión extraordinaria del CRAS, en la ciudad de Huasco, Seremi MMA Atacama",
-      "products": 1,
-      "region": "Región de Atacama"
-    },
-    {
-      "available_budget_clp": 586781.0,
-      "buyer": "UNIVERSIDAD DE SANTIAGO DE CHILE",
-      "closes_at": "2026-10-16T10:00:00",
-      "code": "5067-2487-COT26",
-      "estimated_budget": 586781.0,
-      "name": "Sol. 93327 CC124 / Contratación de Servicio de Analisis de Laboratorio",
-      "products": 3,
-      "region": "Región Metropolitana de Santiago"
-    }
-  ],
-  "active_structurally_reconstructable_count": 2,
+  "active_candidates": [],
+  "active_structurally_reconstructable_count": 0,
   "diagnostics": {
     "api_failures": {
       "api_http_504": 2
     },
     "budget_exhausted": true,
-    "detail_attempts": 19,
+    "detail_attempts": 18,
     "detail_cap_exhausted": false,
-    "details_fetched": 17,
+    "details_fetched": 16,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -39,26 +18,26 @@
     "pagination_incomplete": false,
     "pagination_invalid": false,
     "requests_used": 25,
-    "transient_retries": 5
+    "transient_retries": 6
   },
-  "generated_at": "2026-10-15T04:53:07Z",
-  "inserted_history": 17,
+  "generated_at": "2026-10-15T08:57:02Z",
+  "inserted_history": 16,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
   "outcome": "DEGRADED_API_ERRORS",
   "phase1": {
-    "records": 17,
+    "records": 16,
     "rejection_reasons": {
       "no_observable_competitive_prices": 1
     },
-    "resolved": 15,
-    "structurally_reconstructable": 16,
-    "with_observable_quote_totals": 14,
+    "resolved": 16,
+    "structurally_reconstructable": 15,
+    "with_observable_quote_totals": 15,
     "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-15T04:53:07Z"
+    "changed_to": "2026-10-15T08:57:02Z"
   }
 }
