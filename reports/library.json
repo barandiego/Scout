@@ -3647,6 +3647,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-15T08:25:07.111121+00:00",
+      "discovery_lens": "regulation_infrastructure",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF states that the June 1, 2026 amendment adds technical specifications for information exchange and payment initiation, publishes a developer portal, and postpones entry into force until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        },
+        {
+          "claim": "CMF identifies NCG 569 as the June 1, 2026 modification of NCG 514 incorporating Technical Annex 3 and marks it as in force.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Norma de Carácter General N°569",
+          "url": "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_3b4a47b09fa6592f8c5b",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-15T08:25:07.122419+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use only the CMF developer-portal and Annex 3 materials to build a minimal validator for one narrow flow. Publish a technical demo and contact 10 identifiable Chilean fintechs, payment operators, cooperatives or implementation firms listed in public SFA consultation/industry materials, asking whether they would pay for a 1-week conformance review. Do not claim regulatory approval, access rights or a buyer until one party agrees to a paid pilot. Lowest-cost falsification: spend one week building the validator and seek five technically specific interviews; abandon if no interviewee confirms an unresolved implementation problem or agrees to review a paid scope.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Entities preparing for participation face a bounded interoperability and conformance problem before a specific regulatory deadline. A narrowly scoped test harness, request validator, fixture generator and implementation checklist could reduce integration risk without requiring the operator to become a regulated financial participant.",
+      "title": "Chile Open Finance conformance-testing wedge ahead of July 2027 implementation",
+      "type": "regulatory_infrastructure",
+      "unknowns": [],
+      "value_capture_mechanism": "Offer a paid, fixed-scope pre-certification or integration-readiness review built around the public Annex 3 specifications: validate sample payloads, authentication flows, logging/versioning behavior and payment-initiation edge cases. The plausible payer is a prospective SFA participant or its implementation contractor, but willingness to pay and procurement authority are unverified.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-14T20:22:41.897714+00:00",
       "discovery_lens": "asset_ownership",
       "estimated_capital": "",
@@ -3963,60 +4017,6 @@
       "value_capture_mechanism": "Offer a small paid dataset, monitoring subscription, or one-off queue-screening report focused on a single ISO/RTO and technology. Do not assume access to proprietary project data or permission to redistribute source datasets.",
       "verified_sales": null,
       "vertical": "energy_infrastructure",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
-      "discovered_at": "2026-10-13T08:14:29.249551+00:00",
-      "discovery_lens": "adoption_lag",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "Reports an open-source, reconfigurable agricultural robot; describes field results and an estimated $5,000-$6,000 bill of materials.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "AgriCruiser: An Open Source Agriculture Robot for Over-the-row Navigation",
-          "url": "https://arxiv.org/abs/2509.25056"
-        },
-        {
-          "claim": "Lists a commercial in-row weeding robot with a stated price range of $151,000-$250,000 and commercial release date of 2020.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "Zurama AI InRow weeder",
-          "url": "https://www.agricultural-robotics.com/robot/zurama-ai-inrow-weeder"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.82,
-      "falsification_conditions": [],
-      "geography": "United States and other row-crop markets with labor or herbicide constraints",
-      "id": "opp_d8b7c63665b27bbd1829",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-13T08:14:29.263884+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Start with one crop and row geometry. Build or source only the minimum sensor/actuator package needed for a supervised demonstration, then approach farms, university extension programs, or specialty-crop growers with a paid one-day field test. Measure hectares/hour, weed-removal rate, crop damage, operator hours, downtime, and total cost per hectare against the grower's current method. Falsification threshold: stop if at least three relevant growers will not permit a supervised test, or if the prototype cannot beat the incumbent method on either measured labor cost or weed-control quality after including an operator. Do not represent the system as autonomous commercial equipment until safety and field reliability are independently demonstrated.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "A small operator could test a narrow wedge—crop-specific integration, field mapping, maintenance, and seasonal rental of a lower-cost mechanical-weeding platform—rather than attempting to sell a general-purpose robot. The economic mechanism is avoided manual weeding or reduced herbicide use, but no savings or willingness to pay should be assumed before a field trial.",
-      "title": "Low-cost, crop-specific autonomous weeding retrofit based on an open-source chassis",
-      "type": "offer",
-      "unknowns": [],
-      "value_capture_mechanism": "Potential revenue mechanisms are paid feasibility trials, seasonal rental, integration/customization, or maintenance of a replicated chassis. Buyer and pricing remain unverified; do not build inventory before securing a paid trial or written expression of interest.",
-      "verified_sales": null,
-      "vertical": "robotics_agritech",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -4456,13 +4456,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-15T04:22:56.108458+00:00",
+  "generated_at": "2026-10-15T08:25:33.140476+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 33,
+  "rejected_excluded": 34,
   "reviewed_cards": 35,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 93,
+  "total_distinct_opportunities": 94,
   "watch": 60
 }

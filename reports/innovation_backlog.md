@@ -280,6 +280,18 @@ Candidates: 60
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html
 
+## Chile Open Finance conformance-testing wedge ahead of July 2027 implementation
+- Status: watch | open_finance_chile
+- Current idea: Entities preparing for participation face a bounded interoperability and conformance problem before a specific regulatory deadline. A narrowly scoped test harness, request validator, fixture generator and implementation checklist could reduce integration risk without requiring the operator to become a regulated financial participant.
+- Potential economic capture: Offer a paid, fixed-scope pre-certification or integration-readiness review built around the public Annex 3 specifications: validate sample payloads, authentication flows, logging/versioning behavior and payment-initiation edge cases. The plausible payer is a prospective SFA participant or its implementation contractor, but willingness to pay and procurement authority are unverified.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html
+
 ## Chile Open Finance implementation wedge: conformance testing and developer-tooling assets
 - Status: watch | open_finance_chile
 - Current idea: The technical standard creates a defined implementation window before mandatory operation. A narrow product could package test fixtures, API conformance checks, consent-flow test cases, documentation templates, and monitoring for regulated participants or technology providers.
@@ -687,18 +699,6 @@ Candidates: 60
 - Critical gaps: Number, size, crop mix, and geographic concentration of existing Chilean indoor or hydroponic growers that use artificial lighting.; Actual Chilean electricity tariffs, demand charges, time-of-use pricing, and renewable-energy arrangements applicable to target facilities.; Lighting, HVAC, pumping, dehumidification, and refrigeration shares of total site electricity consumption.
 - Possible initial budget:
 - Source URLs: https://arxiv.org/abs/2507.18419; https://arxiv.org/abs/2510.03686; https://ers.usda.gov/sites/default/files/_laserfiche/publications/108221/EIB-264.pdf
-
-## Low-cost, crop-specific autonomous weeding retrofit based on an open-source chassis
-- Status: watch | robotics_agritech
-- Current idea: A small operator could test a narrow wedge—crop-specific integration, field mapping, maintenance, and seasonal rental of a lower-cost mechanical-weeding platform—rather than attempting to sell a general-purpose robot. The economic mechanism is avoided manual weeding or reduced herbicide use, but no savings or willingness to pay should be assumed before a field trial.
-- Potential economic capture: Potential revenue mechanisms are paid feasibility trials, seasonal rental, integration/customization, or maintenance of a replicated chassis. Buyer and pricing remain unverified; do not build inventory before securing a paid trial or written expression of interest.
-- **Research routes to test (NOT validated claims):**
-  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
-  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
-  - Arrange a bounded field validation with an actual farm operator before scaling.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://arxiv.org/abs/2509.25056; https://www.agricultural-robotics.com/robot/zurama-ai-inrow-weeder
 
 ## Shared-service autonomous mechanical weeding pilot for sugar beet and similar row crops
 - Status: watch | robotics_agritech

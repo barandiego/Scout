@@ -898,6 +898,42 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use only the CMF developer-portal and Annex 3 materials to build a minimal validator for one narrow flow. Publish a technical demo and contact 10 identifiable Chilean fintechs, payment operators, cooperatives or implementation firms listed in public SFA consultation/industry materials, asking whether they would pay for a 1-week conformance review. Do not claim regulatory approval, access rights or a buyer until one party agrees to a paid pilot. Lowest-cost falsification: spend one week building the validator and seek five technically specific interviews; abandon if no interviewee confirms an unresolved implementation problem or agrees to review a paid scope.",
+      "current_thesis": "Entities preparing for participation face a bounded interoperability and conformance problem before a specific regulatory deadline. A narrowly scoped test harness, request validator, fixture generator and implementation checklist could reduce integration risk without requiring the operator to become a regulated financial participant.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile Open Finance conformance-testing wedge ahead of July 2027 implementation",
+      "opportunity_id": "opp_3b4a47b09fa6592f8c5b",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Offer a paid, fixed-scope pre-certification or integration-readiness review built around the public Annex 3 specifications: validate sample payloads, authentication flows, logging/versioning behavior and payment-initiation edge cases. The plausible payer is a prospective SFA participant or its implementation contractor, but willingness to pay and procurement authority are unverified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Build a minimum conformance harness against the publicly available CMF technical specifications and developer-portal materials. Test whether two Chilean fintech or banking-technology contacts can run it and identify missing implementation requirements before attempting any sale. Stop if the specifications are inaccessible, materially incomplete, or prospective users do not agree to a technical evaluation.",
       "current_thesis": "The technical standard creates a defined implementation window before mandatory operation. A narrow product could package test fixtures, API conformance checks, consent-flow test cases, documentation templates, and monitoring for regulated participants or technology providers.",
       "founder_hours_initial_unverified_estimate": "",
@@ -2211,42 +2247,6 @@
       "category": "robotics_agritech",
       "commercially_validated": false,
       "competition_confirmed": false,
-      "current_participation_path": "Start with one crop and row geometry. Build or source only the minimum sensor/actuator package needed for a supervised demonstration, then approach farms, university extension programs, or specialty-crop growers with a paid one-day field test. Measure hectares/hour, weed-removal rate, crop damage, operator hours, downtime, and total cost per hectare against the grower's current method. Falsification threshold: stop if at least three relevant growers will not permit a supervised test, or if the prototype cannot beat the incumbent method on either measured labor cost or weed-control quality after including an operator. Do not represent the system as autonomous commercial equipment until safety and field reliability are independently demonstrated.",
-      "current_thesis": "A small operator could test a narrow wedge—crop-specific integration, field mapping, maintenance, and seasonal rental of a lower-cost mechanical-weeding platform—rather than attempting to sell a general-purpose robot. The economic mechanism is avoided manual weeding or reduced herbicide use, but no savings or willingness to pay should be assumed before a field trial.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "United States and other row-crop markets with labor or herbicide constraints",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "Low-cost, crop-specific autonomous weeding retrofit based on an open-source chassis",
-      "opportunity_id": "opp_d8b7c63665b27bbd1829",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
-        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
-        "Arrange a bounded field validation with an actual farm operator before scaling."
-      ],
-      "supporting_source_urls": [
-        "https://arxiv.org/abs/2509.25056",
-        "https://www.agricultural-robotics.com/robot/zurama-ai-inrow-weeder"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "Potential revenue mechanisms are paid feasibility trials, seasonal rental, integration/customization, or maintenance of a replicated chassis. Buyer and pricing remain unverified; do not build inventory before securing a paid trial or written expression of interest.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "robotics_agritech",
-      "commercially_validated": false,
-      "competition_confirmed": false,
       "current_participation_path": "Do not purchase first. Identify one crop, one row spacing, and one local farm/cooperative willing to provide a test plot. Request written quotations, shipping terms, warranty, spare-parts availability, and field references from at least two suppliers; compare the quoted landed cost with the farm's current mechanical or manual weeding cost. Falsification test: secure a signed expression of interest for a paid or deposit-backed trial, or obtain enough operating-cost data to show a credible payback under local acreage. If suppliers cannot provide a verifiable quote/support plan or no grower will commit a test plot and payment, stop.",
       "current_thesis": "The actionable gap is between proven field use and small-farm affordability/utilization. A fleet or seasonal rental/service model could test whether one machine can be economically utilized across multiple nearby farms, rather than requiring each farm to purchase equipment. The evidence does not establish a profitable per-acre price, local import permissions, or customer willingness to pay.",
       "founder_hours_initial_unverified_estimate": "",
@@ -2316,7 +2316,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-15T04:22:56.134148+00:00",
+  "generated_at": "2026-10-15T08:25:33.166077+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-15T04:22:56.108458+00:00
+Generated: 2026-10-15T08:25:33.140476+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
 - Active research: 60 (0 HQ survivors, 60 watches)
-- Rejected opportunities excluded: 33
+- Rejected opportunities excluded: 34
 - Critic-and-judge reviewed: 35
 - Autonomous execution authorization: 0
 
@@ -463,6 +463,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.bcn.cl/leychile/navegar?i=1212631; https://www.cne.cl/tarificacion/electrica/
 
+### Chile Open Finance conformance-testing wedge ahead of July 2027 implementation [opp_3b4a47b09fa6592f8c5b]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Entities preparing for participation face a bounded interoperability and conformance problem before a specific regulatory deadline. A narrowly scoped test harness, request validator, fixture generator and implementation checklist could reduce integration risk without requiring the operator to become a regulated financial participant.
+- Value capture: Offer a paid, fixed-scope pre-certification or integration-readiness review built around the public Annex 3 specifications: validate sample payloads, authentication flows, logging/versioning behavior and payment-initiation edge cases. The plausible payer is a prospective SFA participant or its implementation contractor, but willingness to pay and procurement authority are unverified.
+- Participation hypothesis: Use only the CMF developer-portal and Annex 3 materials to build a minimal validator for one narrow flow. Publish a technical demo and contact 10 identifiable Chilean fintechs, payment operators, cooperatives or implementation firms listed in public SFA consultation/industry materials, asking whether they would pay for a 1-week conformance review. Do not claim regulatory approval, access rights or a buyer until one party agrees to a paid pilot. Lowest-cost falsification: spend one week building the validator and seek five technically specific i
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html
+
 ### Chile Open Finance implementation wedge: conformance testing and developer-tooling assets [opp_76fc7b6bece7c6b747d4]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: The technical standard creates a defined implementation window before mandatory operation. A narrow product could package test fixtures, API conformance checks, consent-flow test cases, documentation templates, and monitoring for regulated participants or technology providers.
@@ -522,16 +532,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.energy.gov/documents/craig-order-202-26-31-pios-exhibits-3-01-3-07-july-24-2026; https://www.energy.gov/documents/motion-intervene-motion-clarification-and-request-rehearing-and-stay-public-interest-36
-
-### Low-cost, crop-specific autonomous weeding retrofit based on an open-source chassis [opp_d8b7c63665b27bbd1829]
-- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States and other row-crop markets with labor or herbicide constraints
-- Thesis: A small operator could test a narrow wedge—crop-specific integration, field mapping, maintenance, and seasonal rental of a lower-cost mechanical-weeding platform—rather than attempting to sell a general-purpose robot. The economic mechanism is avoided manual weeding or reduced herbicide use, but no savings or willingness to pay should be assumed before a field trial.
-- Value capture: Potential revenue mechanisms are paid feasibility trials, seasonal rental, integration/customization, or maintenance of a replicated chassis. Buyer and pricing remain unverified; do not build inventory before securing a paid trial or written expression of interest.
-- Participation hypothesis: Start with one crop and row geometry. Build or source only the minimum sensor/actuator package needed for a supervised demonstration, then approach farms, university extension programs, or specialty-crop growers with a paid one-day field test. Measure hectares/hour, weed-removal rate, crop damage, operator hours, downtime, and total cost per hectare against the grower's current method. Falsification threshold: stop if at least three relevant growers will not permit a supervised test, or if the prototype cannot beat the incumbent method on eithe
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://arxiv.org/abs/2509.25056; https://www.agricultural-robotics.com/robot/zurama-ai-inrow-weeder
 
 ### Natura Chile catalog and corporate-gifting wedge across Natura.cl and Falabella.com [opp_ef5d3038f30393cb8c4f]
 - Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile
