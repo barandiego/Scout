@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-15T04:56:20.985459+00:00
+Generated: 2026-10-15T09:00:28.434051+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 118
+- New this cycle: 107
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): arxiv_ai:unavailable_or_invalid
-- Categories: agriculture 245, ai 340, commerce 32, energy 587, robotics 596
+- Categories: agriculture 243, ai 331, commerce 34, energy 591, robotics 601
 
 ## Recently encountered signals
 
@@ -190,6 +190,12 @@ Generated: 2026-10-15T04:56:20.985459+00:00
 - Source: https://doi.org/10.66506/essp.172
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### vijayalakshmichemikela-cloud/intelligentparking-ai
+- Source: https://github.com/vijayalakshmichemikela-cloud/intelligentparking-ai
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
 
 ### Green Nanoparticles in Precision Agriculture: A Critical Review of Smart Crop Management, Nano-Enabled Delivery Systems, and Sustainable Farming
@@ -452,12 +458,6 @@ Generated: 2026-10-15T04:56:20.985459+00:00
 
 ### AADILSHEKH47/AI-assistent
 - Source: https://github.com/AADILSHEKH47/AI-assistent
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### kiruthikkumar13/AgriShield-AI
-- Source: https://github.com/kiruthikkumar13/AgriShield-AI
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
