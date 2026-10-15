@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-15T13:12:19.482691+00:00
+Generated: 2026-10-15T17:01:01.645592+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 110
+- New this cycle: 115
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): arxiv_ai:unavailable_or_invalid
-- Categories: agriculture 248, ai 324, commerce 34, energy 593, robotics 601
+- Categories: agriculture 255, ai 317, commerce 34, energy 589, robotics 605
 
 ## Recently encountered signals
+
+### muhammadshayanali5104-design/Smart-Farming-System
+- Source: https://github.com/muhammadshayanali5104-design/Smart-Farming-System
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### ukvarma25/AgroFarm-AI-Platform
 - Source: https://github.com/ukvarma25/AgroFarm-AI-Platform
@@ -188,6 +194,12 @@ Generated: 2026-10-15T13:12:19.482691+00:00
 
 ### Opportunities and challenges of integrating battery energy storage in the electricity grid – perspectives from distribution system operators
 - Source: https://doi.org/10.66506/essp.172
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### Reliability Analysis of a Photovoltaic System Integrated with a Battery Energy Storage System
+- Source: https://doi.org/10.2139/ssrn.7616077
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
@@ -448,16 +460,4 @@ Generated: 2026-10-15T13:12:19.482691+00:00
 - Source: https://doi.org/10.3390/sci8100301
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### SGDC-HACKATHON-2K26/AgriAI-AR-AND-TEAM-44
-- Source: https://github.com/SGDC-HACKATHON-2K26/AgriAI-AR-AND-TEAM-44
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### shahriarsnikdho/AgriSphere-Ai
-- Source: https://github.com/shahriarsnikdho/AgriSphere-Ai
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
