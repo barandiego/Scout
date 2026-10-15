@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-14T20:56:42.817236+00:00
+Generated: 2026-10-15T01:05:01.455095+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
-- Rolling leads: 1750
-- New this cycle: 99
+- Rolling leads: 1800
+- New this cycle: 104
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 238, ai 343, commerce 31, energy 566, robotics 572
+- Categories: agriculture 246, ai 349, commerce 32, energy 587, robotics 586
 
 ## Recently encountered signals
 
@@ -178,6 +178,12 @@ Generated: 2026-10-14T20:56:42.817236+00:00
 - Source: https://doi.org/10.66506/essp.172
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### Green Nanoparticles in Precision Agriculture: A Critical Review of Smart Crop Management, Nano-Enabled Delivery Systems, and Sustainable Farming
+- Source: https://doi.org/10.2147/nsa.s632332
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
 
 ### Codewithsempai/AgriGuard
@@ -454,10 +460,4 @@ Generated: 2026-10-14T20:56:42.817236+00:00
 - Source: https://github.com/456charishma/AgriTwin-AI
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Battery energy storage–driven cost-oriented energy management of microgrids using black widow optimization
-- Source: https://doi.org/10.1016/j.est.2026.124997
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
