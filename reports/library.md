@@ -1,17 +1,27 @@
 # Scout — opportunity library
 
-Generated: 2026-10-15T16:25:09.649131+00:00
+Generated: 2026-10-15T20:21:10.997504+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 65 (0 HQ survivors, 65 watches)
+- Active research: 67 (0 HQ survivors, 67 watches)
 - Rejected opportunities excluded: 35
-- Critic-and-judge reviewed: 36
+- Critic-and-judge reviewed: 37
 - Autonomous execution authorization: 0
 
 ## How to use
 
 Choose a candidate, independently verify current sources and a paying buyer, test distribution and net pricing, and obtain explicit approval for bounded execution. The original evidence gates stay in force.
+
+### NFC review-and-contact displays for Chilean cafés, hotels and service counters [opp_def87ec156069bf156db]
+- Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile
+- Thesis: The generic NFC-card market is already served, so an independent operator should not compete on ordinary networking cards. A narrower offer is a configured, location-specific review/contact display for businesses where staff can prompt a customer at checkout, reception or table service. The verifiable purchase prices establish customer willingness to pay for the hardware, but do not establish conversion uplift or recurring software willingness to pay.
+- Value capture: Sell a configured NFC-plus-QR countertop or table display at a transparent one-time price, optionally adding paid setup such as destination-link configuration, branded artwork and placement instructions. The economic mechanism is hardware markup and setup revenue; recurring analytics or CRM revenue should not be assumed until a buyer explicitly pays for it.
+- Participation hypothesis: Lowest-cost falsification: buy or make 3–5 low-cost NFC/QR displays using the publicly listed CLP 9,990–19,990 price range, configure each to a distinct review or contact destination, and run a seven-day pilot with independently recruited local businesses that consent to placement. Record scans/taps, completed review actions and staff-observed usage; do not claim incremental reviews unless the business shares a before/after baseline. Offer the pilot first as a paid purchase at or below the observed local price, or as a refundable trial only if
+- Critic/judge: A legitimate, identifiable physical product and buyer job exist: configured NFC-plus-QR review/contact displays for checkout, reception, and table-service settings. Chilean competitors, published pricing, nationwide delivery, and at least some marketplace sales establish real availability, competition, and limited buyer acceptance. However, this is not yet HQ-worthy as a distribution business because the proposed entrant has no evidence
+- Next evidence gaps: Unit landed cost for blank NFC tags, acrylic or printed displays, packaging, and Chilean delivery.; Contribution margin after payment fees, taxes, shipping, configuration, artwork, customer support, replacements, and failed deliveries.; Whether businesses will buy from a new operator when established local vendors already offer similar products and social proof.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://masenlaces.com/store/faq; https://www.ondda.cl/; https://tarjetas-nfc.com/; https://nfctech.cl/
 
 ### BESS and inverter compliance pre-check for Chilean distributed-energy projects [opp_7ea6a495427da87c8c5c]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile
@@ -373,15 +383,15 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://cmfchile.atlassian.net/wiki/spaces/OFAC/pages/267649439/API%2BCuentas%2BOpen%2BFinance%2BChile%2Bv1.0.0; https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html
 
-### NFC review-and-contact displays for Chilean cafés, hotels and service counters [opp_def87ec156069bf156db]
-- Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile
-- Thesis: The generic NFC-card market is already served, so an independent operator should not compete on ordinary networking cards. A narrower offer is a configured, location-specific review/contact display for businesses where staff can prompt a customer at checkout, reception or table service. The verifiable purchase prices establish customer willingness to pay for the hardware, but do not establish conversion uplift or recurring software willingness to pay.
-- Value capture: Sell a configured NFC-plus-QR countertop or table display at a transparent one-time price, optionally adding paid setup such as destination-link configuration, branded artwork and placement instructions. The economic mechanism is hardware markup and setup revenue; recurring analytics or CRM revenue should not be assumed until a buyer explicitly pays for it.
-- Participation hypothesis: Lowest-cost falsification: buy or make 3–5 low-cost NFC/QR displays using the publicly listed CLP 9,990–19,990 price range, configure each to a distinct review or contact destination, and run a seven-day pilot with independently recruited local businesses that consent to placement. Record scans/taps, completed review actions and staff-observed usage; do not claim incremental reviews unless the business shares a before/after baseline. Offer the pilot first as a paid purchase at or below the observed local price, or as a refundable trial only if
+### Small- and mid-size farm robotic-weeding service using commercial robots instead of ownership [opp_9ed2c5cffcc241526473]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States; potentially exportable to Chilean specialty-crop regions
+- Thesis: The executable wedge is not building a new robot; it is testing whether a small operator can aggregate demand and sell scheduled robotic weeding, field trials, or seasonal access while outsourcing equipment ownership to an existing manufacturer, dealer or equipment financier. Actual unit economics remain unverified and depend on crop, acreage, transport, supervision and robot availability.
+- Value capture: Potential mechanisms are per-acre field service, seasonal minimums, equipment brokerage, or referral/commission arrangements with a manufacturer or dealer. No price, margin, buyer commitment or manufacturer permission is assumed. The economic test is whether a grower will sign a paid or refundable reservation for a defined trial before equipment is acquired.
+- Participation hypothesis: Pick one crop and tightly bounded geography. Build a one-page offer for a supervised robotic-weeding trial, using an existing commercial platform rather than claiming ownership. Contact growers through local extension offices, crop associations, farm-equipment dealers and public grower directories; ask for acreage, weed-control method, timing and a paid/refundable reservation contingent on equipment availability. Lowest-cost falsification: interview at least ten growers and seek two written reservations or deposits at a stated trial price befor
 - Critic/judge: deferred_by_review_cap
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://masenlaces.com/store/faq; https://www.ondda.cl/; https://tarjetas-nfc.com/; https://nfctech.cl/
+- Grounded and model-supplied sources: https://www.agricultural-robotics.com/robot/robot-one; https://www.agricultural-robotics.com/robot/zurama-ai-inrow-weeder; https://arxiv.org/abs/2509.25056; https://farmdroid.com/
 
 ### Chile RaaS deployment wedge for industrial-floor cleaning [opp_2f1839bb1c72fe283049]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile
@@ -392,6 +402,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.vicrobotics.com/about; https://www.vicrobotics.com/; https://www.vicrobotics.com/soluciones/limpieza-industrial-bodegas
+
+### Chile SFA implementation adapter for consent, directory and API conformance [opp_19c39afc662c8bd68101]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Banks, card issuers, account providers and prospective fintech participants must translate the technical standard into consent management, participant-directory processes, secure interfaces, testing and operational controls. The likely value is in reducing implementation and certification friction, not in selling generic fintech strategy.
+- Value capture: A narrowly scoped implementation asset: an open-source or low-cost conformance test harness, consent-flow reference implementation, API schema validator, and documentation package for one participant class. Possible cash-flow sources are paid pilot implementations, integration work, or licensing/support from regulated entities and fintech applicants; no buyer, price or permission is yet verified.
+- Participation hypothesis: First, download the CMF technical annex and Developers' Portal materials, map one narrow participant workflow, and build a local validator or consent-flow prototype using only published specifications. Then contact publicly listed SFA participants or fintech applicants with a no-commitment technical review request; do not represent the prototype as CMF-certified. Lowest-cost falsification: obtain three independent technical interviews and ask whether the same concrete conformance artifact would be purchased or used, and whether their current ve
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/educa/621/w3-article-85051.html
 
 ### Chile-localized NFC emergency/contact card with QR fallback [opp_90381bb2b8d50013dbb1]
 - Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile

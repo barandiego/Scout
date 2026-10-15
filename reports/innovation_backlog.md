@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 65
+Candidates: 67
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -400,6 +400,18 @@ Candidates: 65
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html
 
+## Chile SFA implementation adapter for consent, directory and API conformance
+- Status: watch | open_finance_chile
+- Current idea: Banks, card issuers, account providers and prospective fintech participants must translate the technical standard into consent management, participant-directory processes, secure interfaces, testing and operational controls. The likely value is in reducing implementation and certification friction, not in selling generic fintech strategy.
+- Potential economic capture: A narrowly scoped implementation asset: an open-source or low-cost conformance test harness, consent-flow reference implementation, API schema validator, and documentation package for one participant class. Possible cash-flow sources are paid pilot implementations, integration work, or licensing/support from regulated entities and fintech applicants; no buyer, price or permission is yet verified.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/educa/621/w3-article-85051.html
+
 ## Chile SFA implementation moves from rulemaking to build phase, but go-live is deferred to July 2027
 - Status: watch | open_finance_chile
 - Current idea: Value is shifting toward firms that can reduce implementation and compliance costs for banks, account-information providers, payment-initiation providers and smaller participants. The delay creates a longer pre-revenue integration window but also lowers immediate execution pressure.
@@ -648,7 +660,7 @@ Candidates: 65
   - Compare local product availability to supplier catalogs and independent consumer interest.
   - Check import, tax, return, certification and delivery economics before estimating margin.
   - Try a legitimate pre-order/waitlist test with transparent fulfillment conditions.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Unit landed cost for blank NFC tags, acrylic or printed displays, packaging, and Chilean delivery.; Contribution margin after payment fees, taxes, shipping, configuration, artwork, customer support, replacements, and failed deliveries.; Whether businesses will buy from a new operator when established local vendors already offer similar products and social proof.
 - Possible initial budget:
 - Source URLs: https://masenlaces.com/store/faq; https://www.ondda.cl/; https://tarjetas-nfc.com/; https://nfctech.cl/
 
@@ -759,6 +771,18 @@ Candidates: 65
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.ndsu.edu/agriculture/sites/default/files/2026-02/2026%20ACAW%20ANDERSON%20Robotic%20Weeding%20PPT.pdf; https://smartsoilai.com/shop/autonomous-weeding-robot
+
+## Small- and mid-size farm robotic-weeding service using commercial robots instead of ownership
+- Status: watch | robotics_agritech
+- Current idea: The executable wedge is not building a new robot; it is testing whether a small operator can aggregate demand and sell scheduled robotic weeding, field trials, or seasonal access while outsourcing equipment ownership to an existing manufacturer, dealer or equipment financier. Actual unit economics remain unverified and depend on crop, acreage, transport, supervision and robot availability.
+- Potential economic capture: Potential mechanisms are per-acre field service, seasonal minimums, equipment brokerage, or referral/commission arrangements with a manufacturer or dealer. No price, margin, buyer commitment or manufacturer permission is assumed. The economic test is whether a grower will sign a paid or refundable reservation for a defined trial before equipment is acquired.
+- **Research routes to test (NOT validated claims):**
+  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
+  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
+  - Arrange a bounded field validation with an actual farm operator before scaling.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.agricultural-robotics.com/robot/robot-one; https://www.agricultural-robotics.com/robot/zurama-ai-inrow-weeder; https://arxiv.org/abs/2509.25056; https://farmdroid.com/
 
 ## Small-factory robot deployment and commissioning wedge focused on food-sector applications
 - Status: watch | robotics_agritech

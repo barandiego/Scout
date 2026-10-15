@@ -4,6 +4,110 @@
       "ai_leverage": "",
       "authorized_for_execution": false,
       "contrary_evidence": [
+        "Multiple Chile-facing vendors sell materially similar NFC/QR products, including review stands, cards, stickers, and menu/contact displays, with published prices and nationwide delivery. Sources: https://masenlaces.com/store/faq, https://www.ondda.cl/, https://pymevisible.cl/, https://resenafacil.cl/, https://nfctech.cl/, https://www.larefactoria.cl/placas-nfc/",
+        "There is evidence of actual commercial activity rather than a purely theoretical market: one Mercado Libre listing reports more than 100 units sold and a 4.6/5 rating from 21 reviews. This supports some buyer acceptance, although it does not establish profitability or incremental business outcomes. Source: https://www.mercadolibre.cl/tarjeta-nfc-resenas-para-google-enlace-rapido-desde-celular-marketing-review-marca-cellbox/p/MLC51379662?pdp_filters=adult_content%3Ayes%7Cdeal%3AMLC1321552-1",
+        "Competitors show products installed in restaurants, cafés, barber shops, retail stores, and service businesses, suggesting the placement use case is operationally understandable and not obviously impossible to sell. However, the displayed customer comments remain self-selected testimonials. Source: https://pymevisible.cl/",
+        "The products are often sold as one-time purchases without subscriptions, which lowers buyer friction and supports the proposed low-cost pilot format. It also undermines recurring-revenue potential. Sources: https://masenlaces.com/store/faq, https://resenafacil.cl/, https://nfctech.cl/",
+        "A QR fallback can preserve usability for phones without NFC, and at least one supplier explicitly combines NFC with QR. This reduces the risk that NFC incompatibility alone kills the product, but it also means the core value may be the printed prompt and placement rather than proprietary NFC technology. Sources: https://pymevisible.cl/, https://www.larefactoria.cl/placas-nfc/"
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-13T16:13:51.617626+00:00",
+      "discovery_lens": "nfc_smart_commerce",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Chile-listed prices include CLP 9,990 for a basic NFC card and CLP 19,990 for a desktop NFC stand; the vendor states payment and nationwide shipping are available.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Tarjetas NFC en Chile: Precios, Compatibilidad y Dudas Frecuentes",
+          "url": "https://masenlaces.com/store/faq"
+        },
+        {
+          "claim": "A Chilean vendor lists NFC review/contact products including a CLP 19,990 stand, a CLP 24,990 NFC business card and a CLP 29,990 review stand.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Soluciones NFC para negocios en Chile | ONDDA",
+          "url": "https://www.ondda.cl/"
+        },
+        {
+          "claim": "A Chilean-facing vendor publishes volume prices from CLP 17,990 for five units down to CLP 11,990 for 50-plus units and describes corporate customization and nationwide delivery.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Tarjetas NFC Chile — Tarjetas de Presentación NFC Personalizadas",
+          "url": "https://tarjetas-nfc.com/"
+        },
+        {
+          "claim": "A Chilean vendor markets NFC hardware configured to open Google review pages and lists a CLP 24,990 unit price with a stated discount from five units; its customer-result statements are vendor testimonials and are not treated as independently verified performance evidence.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Tarjetas NFC para más reseñas en Google | NFCTECH Chile",
+          "url": "https://nfctech.cl/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.88,
+      "falsification_conditions": [
+        "Fatal for the narrow hardware-resale thesis if three to five independently recruited Chilean businesses will not pay at or below the prevailing CLP 10,000–25,000 market range for a configured display.",
+        "Fatal if landed unit economics show less than approximately 30% contribution margin before founder sales time, or if fulfillment and configuration take more than 20 minutes per unit without a compensating setup fee.",
+        "Fatal if a seven- to fourteen-day pilot across at least five businesses produces no measurable scans or taps despite visible placement and staff consent.",
+        "Fatal if businesses report that existing QR signage, Google links, staff requests, or incumbent vendors solve the problem at zero or negligible incremental cost and they reject replacement.",
+        "Fatal for a review-focused positioning if buyers object to asking for reviews, if venues cannot place the display at the point of service, or if the product creates review-policy or reputational concerns.",
+        "Fatal for scale if customer acquisition depends on bespoke in-person selling and repeatable paid acquisition cannot be demonstrated at a customer-acquisition cost below first-order contribution profit.",
+        "Fatal for recurring software claims if at least ten paying businesses decline analytics, destination management, or reporting after receiving a working hardware product.",
+        "The thesis should be downgraded if observed interactions do not translate into completed reviews or contacts, or if any apparent uplift cannot be compared with a documented pre-pilot baseline or control period."
+      ],
+      "geography": "Chile",
+      "id": "opp_def87ec156069bf156db",
+      "judge_reviewed": true,
+      "judgment": "A legitimate, identifiable physical product and buyer job exist: configured NFC-plus-QR review/contact displays for checkout, reception, and table-service settings. Chilean competitors, published pricing, nationwide delivery, and at least some marketplace sales establish real availability, competition, and limited buyer acceptance. However, this is not yet HQ-worthy as a distribution business because the proposed entrant has no evidenced supplier terms, landed-cost model, after-sales/replacement plan, or defensible differentiation versus established local sellers. The inexpensive paid pilot is appropriate, but it must test willingness to buy from a new provider and contribution economics, not merely usage of free/discounted signage.",
+      "last_record_updated_at": "2026-10-15T20:21:10.574264+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Unit landed cost for blank NFC tags, acrylic or printed displays, packaging, and Chilean delivery.",
+        "Contribution margin after payment fees, taxes, shipping, configuration, artwork, customer support, replacements, and failed deliveries.",
+        "Whether businesses will buy from a new operator when established local vendors already offer similar products and social proof.",
+        "Incremental tap rate, QR scan rate, completed review rate, and repeat usage by venue type and placement.",
+        "Whether review prompts produce sustainable incremental reviews rather than merely redirecting customers who would have reviewed anyway."
+      ],
+      "participation_path": "Lowest-cost falsification: buy or make 3–5 low-cost NFC/QR displays using the publicly listed CLP 9,990–19,990 price range, configure each to a distinct review or contact destination, and run a seven-day pilot with independently recruited local businesses that consent to placement. Record scans/taps, completed review actions and staff-observed usage; do not claim incremental reviews unless the business shares a before/after baseline. Offer the pilot first as a paid purchase at or below the observed local price, or as a refundable trial only if the business agrees in writing. Stop if no business agrees to place the display or no measurable interactions occur.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The generic NFC-card market is already served, so an independent operator should not compete on ordinary networking cards. A narrower offer is a configured, location-specific review/contact display for businesses where staff can prompt a customer at checkout, reception or table service. The verifiable purchase prices establish customer willingness to pay for the hardware, but do not establish conversion uplift or recurring software willingness to pay.",
+      "title": "NFC review-and-contact displays for Chilean cafés, hotels and service counters",
+      "type": "productized_physical_distribution",
+      "unknowns": [
+        "Unit landed cost for blank NFC tags, acrylic or printed displays, packaging, and Chilean delivery.",
+        "Contribution margin after payment fees, taxes, shipping, configuration, artwork, customer support, replacements, and failed deliveries.",
+        "Whether businesses will buy from a new operator when established local vendors already offer similar products and social proof.",
+        "Incremental tap rate, QR scan rate, completed review rate, and repeat usage by venue type and placement.",
+        "Whether review prompts produce sustainable incremental reviews rather than merely redirecting customers who would have reviewed anyway.",
+        "Customer-acquisition cost and sales-cycle length for cafés, hotels, and service counters.",
+        "Whether Google policy, venue policy, or customer sentiment limits aggressive review prompting; incentives or selectively soliciting only positive reviews could create compliance and reputation risk. Source: https://nfctech.cl/guias/como-conseguir-mas-resenas-google",
+        "Replacement, tampering, cleaning, weather, table-loss, and staff-compliance rates in real venues.",
+        "Demand outside Santiago and whether nationwide delivery economics permit profitable small orders.",
+        "Actual procurement authority and budget ownership in hotels, chains, and multi-location operators.",
+        "Whether analytics or CRM features can be monetized when competing vendors already provide free or bundled destination-link functionality.",
+        "Supplier access and reliable wholesale pricing for compliant NFC tags, QR-capable displays, printing, packaging, and replacements.",
+        "Landed unit economics including Chilean delivery, tax treatment, defects, losses, returns, and warranty support.",
+        "Whether independently recruited cafés, hotels, and service businesses will pay a viable price to a new entrant rather than use incumbents or QR-only alternatives.",
+        "Measured scan/tap-to-completed-action rate by venue type, placement, staff behavior, and QR fallback use.",
+        "Customer-acquisition cost, decision-maker access, sales cycle, and feasibility of repeatable non-bespoke distribution.",
+        "Whether a credible wedge such as managed multi-location deployment, branded installation, analytics with demonstrated buyer willingness to pay, or an agency/POS partnership can defend pricing."
+      ],
+      "value_capture_mechanism": "Sell a configured NFC-plus-QR countertop or table display at a transparent one-time price, optionally adding paid setup such as destination-link configuration, branded artwork and placement instructions. The economic mechanism is hardware markup and setup revenue; recurring analytics or CRM revenue should not be assumed until a buyer explicitly pays for it.",
+      "verified_sales": null,
+      "vertical": "physical_distribution",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [
         "There is genuine regulatory complexity that could create demand. SEC identifies RGR N°06/2024 as the technical instruction for battery energy-storage systems, and the published document covers BESS composition and technical requirements. SEC also maintains formal product-authorization and TE4 declaration systems, including public visibility into rejected or inscrita filings. These facts support the existence of a compliance workflow and potential error-reduction value, but they do not establish that an independent pre-check is required or monetizable. Sources: https://www.sec.cl/sitio-web/wp-content/uploads/2025/01/RGR-N-06-2024_v4.pdf ; https://wlhttp.sec.cl/productManager/login ; https://wlhttp.sec.cl/edeclaradorTE4/usuarioPublicoERNC.do\n\nSEC's public installer-search system explicitly includes review of installations and preparation of electrical projects among installer work categories, which is contrary evidence to the assumption that installers lack review capability. Source: https://wlhttp.sec.cl/buscadorinstaladores/buscador.do\n\nThe regulatory framework appears active rather than static: SEC lists later modifications to the distributed-generation instructions and current public consultation or training activity. This supports a need for monitoring, but also increases product-maintenance burden and the risk that a low-priced checklist cannot remain accurate. Sources: https://www.sec.cl/gda/norma-tecnica-e-instructivos/ ; https://www.sec.cl/home-area-instalaciones/"
       ],
       "critic_reviewed": true,
@@ -3134,48 +3238,48 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-13T16:13:51.617626+00:00",
-      "discovery_lens": "nfc_smart_commerce",
+      "discovered_at": "2026-10-15T20:20:46.386299+00:00",
+      "discovery_lens": "adoption_lag",
       "estimated_capital": "",
       "estimated_founder_hours_initial": "",
       "estimated_founder_hours_ongoing": "",
       "evidence": [
         {
-          "claim": "Chile-listed prices include CLP 9,990 for a basic NFC card and CLP 19,990 for a desktop NFC stand; the vendor states payment and nationwide shipping are available.",
+          "claim": "The listing describes a commercially released agricultural laser-weeding robot with a stated price range of $251,000 to $500,000.",
           "grounded_in_provider_search": true,
           "source_type": "independent",
-          "title": "Tarjetas NFC en Chile: Precios, Compatibilidad y Dudas Frecuentes",
-          "url": "https://masenlaces.com/store/faq"
+          "title": "Robot One | GOFAR",
+          "url": "https://www.agricultural-robotics.com/robot/robot-one"
         },
         {
-          "claim": "A Chilean vendor lists NFC review/contact products including a CLP 19,990 stand, a CLP 24,990 NFC business card and a CLP 29,990 review stand.",
+          "claim": "The listing describes a commercially operating AI in-row weeder with a stated price range of $151,000 to $250,000.",
           "grounded_in_provider_search": true,
           "source_type": "independent",
-          "title": "Soluciones NFC para negocios en Chile | ONDDA",
-          "url": "https://www.ondda.cl/"
+          "title": "Zurama AI InRow Weeder | GOFAR",
+          "url": "https://www.agricultural-robotics.com/robot/zurama-ai-inrow-weeder"
         },
         {
-          "claim": "A Chilean-facing vendor publishes volume prices from CLP 17,990 for five units down to CLP 11,990 for 50-plus units and describes corporate customization and nationwide delivery.",
+          "claim": "The paper reports a low-cost, reconfigurable agricultural robot and field results showing substantial weed-population reduction in trials.",
           "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "Tarjetas NFC Chile — Tarjetas de Presentación NFC Personalizadas",
-          "url": "https://tarjetas-nfc.com/"
+          "source_type": "primary",
+          "title": "AgriCruiser: An Open Source Agriculture Robot for Over-the-row Navigation",
+          "url": "https://arxiv.org/abs/2509.25056"
         },
         {
-          "claim": "A Chilean vendor markets NFC hardware configured to open Google review pages and lists a CLP 24,990 unit price with a stated discount from five units; its customer-result statements are vendor testimonials and are not treated as independently verified performance evidence.",
+          "claim": "FarmDroid presents autonomous seeding and mechanical-weeding robots as an available commercial product category.",
           "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "Tarjetas NFC para más reseñas en Google | NFCTECH Chile",
-          "url": "https://nfctech.cl/"
+          "source_type": "primary",
+          "title": "FarmDroid | Advanced Agricultural Robots for Modern Farming",
+          "url": "https://farmdroid.com/"
         }
       ],
-      "evidence_confidence_model_estimate": 0.88,
+      "evidence_confidence_model_estimate": 0.79,
       "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_def87ec156069bf156db",
+      "geography": "United States; potentially exportable to Chilean specialty-crop regions",
+      "id": "opp_9ed2c5cffcc241526473",
       "judge_reviewed": false,
       "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-13T16:13:51.632405+00:00",
+      "last_record_updated_at": "2026-10-15T20:20:46.413978+00:00",
       "material_update": false,
       "missing_execution_proof": [
         "independent_critic_and_judge",
@@ -3184,16 +3288,16 @@
       "next_validation_questions": [
         "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
       ],
-      "participation_path": "Lowest-cost falsification: buy or make 3–5 low-cost NFC/QR displays using the publicly listed CLP 9,990–19,990 price range, configure each to a distinct review or contact destination, and run a seven-day pilot with independently recruited local businesses that consent to placement. Record scans/taps, completed review actions and staff-observed usage; do not claim incremental reviews unless the business shares a before/after baseline. Offer the pilot first as a paid purchase at or below the observed local price, or as a refundable trial only if the business agrees in writing. Stop if no business agrees to place the display or no measurable interactions occur.",
+      "participation_path": "Pick one crop and tightly bounded geography. Build a one-page offer for a supervised robotic-weeding trial, using an existing commercial platform rather than claiming ownership. Contact growers through local extension offices, crop associations, farm-equipment dealers and public grower directories; ask for acreage, weed-control method, timing and a paid/refundable reservation contingent on equipment availability. Lowest-cost falsification: interview at least ten growers and seek two written reservations or deposits at a stated trial price before leasing or purchasing equipment. Stop if growers will only express general interest or if no authorized equipment-access route is available.",
       "research_status": "WATCH_REQUIRES_VALIDATION",
       "status": "watch",
-      "thesis": "The generic NFC-card market is already served, so an independent operator should not compete on ordinary networking cards. A narrower offer is a configured, location-specific review/contact display for businesses where staff can prompt a customer at checkout, reception or table service. The verifiable purchase prices establish customer willingness to pay for the hardware, but do not establish conversion uplift or recurring software willingness to pay.",
-      "title": "NFC review-and-contact displays for Chilean cafés, hotels and service counters",
-      "type": "productized_physical_distribution",
+      "thesis": "The executable wedge is not building a new robot; it is testing whether a small operator can aggregate demand and sell scheduled robotic weeding, field trials, or seasonal access while outsourcing equipment ownership to an existing manufacturer, dealer or equipment financier. Actual unit economics remain unverified and depend on crop, acreage, transport, supervision and robot availability.",
+      "title": "Small- and mid-size farm robotic-weeding service using commercial robots instead of ownership",
+      "type": "equipment_as_a_service_wedge",
       "unknowns": [],
-      "value_capture_mechanism": "Sell a configured NFC-plus-QR countertop or table display at a transparent one-time price, optionally adding paid setup such as destination-link configuration, branded artwork and placement instructions. The economic mechanism is hardware markup and setup revenue; recurring analytics or CRM revenue should not be assumed until a buyer explicitly pays for it.",
+      "value_capture_mechanism": "Potential mechanisms are per-acre field service, seasonal minimums, equipment brokerage, or referral/commission arrangements with a manufacturer or dealer. No price, margin, buyer commitment or manufacturer permission is assumed. The economic test is whether a grower will sign a paid or refundable reservation for a defined trial before equipment is acquired.",
       "verified_sales": null,
-      "vertical": "physical_distribution",
+      "vertical": "robotics_agritech",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -3255,6 +3359,67 @@
       "value_capture_mechanism": "Potential revenue source is a supplier-authorized referral, implementation or site-assessment fee, but the existence and amount of such a fee are unknown and must be negotiated. The independently verifiable economic mechanism is a supplier quote for RaaS beginning at UF 20/month or direct equipment prices shown publicly; end-customer economics require facility-specific measurement.",
       "verified_sales": null,
       "vertical": "robotics_agritech",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-15T20:20:46.384983+00:00",
+      "discovery_lens": "open_finance_chile",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF's NCG 514 regulates Chile's Sistema de Finanzas Abiertas and is listed as vigente.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Norma de Carácter General N°514",
+          "url": "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html"
+        },
+        {
+          "claim": "CMF announced the technical annex and Developers' Portal and stated that entry into force was postponed until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "CMF describes consent-based information exchange through secure remote interfaces among financial information providers and service providers.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "¿Qué son las finanzas abiertas?",
+          "url": "https://www.cmfchile.cl/educa/621/w3-article-85051.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.91,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_19c39afc662c8bd68101",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-15T20:20:46.413699+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "First, download the CMF technical annex and Developers' Portal materials, map one narrow participant workflow, and build a local validator or consent-flow prototype using only published specifications. Then contact publicly listed SFA participants or fintech applicants with a no-commitment technical review request; do not represent the prototype as CMF-certified. Lowest-cost falsification: obtain three independent technical interviews and ask whether the same concrete conformance artifact would be purchased or used, and whether their current vendor stack already covers it. Stop if no participant confirms an uncovered requirement or permits a paid pilot.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Banks, card issuers, account providers and prospective fintech participants must translate the technical standard into consent management, participant-directory processes, secure interfaces, testing and operational controls. The likely value is in reducing implementation and certification friction, not in selling generic fintech strategy.",
+      "title": "Chile SFA implementation adapter for consent, directory and API conformance",
+      "type": "regulatory_implementation_wedge",
+      "unknowns": [],
+      "value_capture_mechanism": "A narrowly scoped implementation asset: an open-source or low-cost conformance test harness, consent-flow reference implementation, API schema validator, and documentation package for one participant class. Possible cash-flow sources are paid pilot implementations, integration work, or licensing/support from regulated entities and fintech applicants; no buyer, price or permission is yet verified.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -4762,13 +4927,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-15T16:25:09.649131+00:00",
+  "generated_at": "2026-10-15T20:21:10.997504+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 35,
-  "reviewed_cards": 36,
+  "reviewed_cards": 37,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 100,
-  "watch": 65
+  "total_distinct_opportunities": 102,
+  "watch": 67
 }

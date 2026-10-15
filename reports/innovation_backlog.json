@@ -1274,6 +1274,43 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "First, download the CMF technical annex and Developers' Portal materials, map one narrow participant workflow, and build a local validator or consent-flow prototype using only published specifications. Then contact publicly listed SFA participants or fintech applicants with a no-commitment technical review request; do not represent the prototype as CMF-certified. Lowest-cost falsification: obtain three independent technical interviews and ask whether the same concrete conformance artifact would be purchased or used, and whether their current vendor stack already covers it. Stop if no participant confirms an uncovered requirement or permits a paid pilot.",
+      "current_thesis": "Banks, card issuers, account providers and prospective fintech participants must translate the technical standard into consent management, participant-directory processes, secure interfaces, testing and operational controls. The likely value is in reducing implementation and certification friction, not in selling generic fintech strategy.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile SFA implementation adapter for consent, directory and API conformance",
+      "opportunity_id": "opp_19c39afc662c8bd68101",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/educa/621/w3-article-85051.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A narrowly scoped implementation asset: an open-source or low-cost conformance test harness, consent-flow reference implementation, API schema validator, and documentation package for one participant class. Possible cash-flow sources are paid pilot implementations, integration work, or licensing/support from regulated entities and fintech applicants; no buyer, price or permission is yet verified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Build against the CMF developer portal and technical annex; target pilot or sandbox participation; offer a narrow integration product to one regulated institution or smaller participant before the July 2027 operating deadline.",
       "current_thesis": "Value is shifting toward firms that can reduce implementation and compliance costs for banks, account-information providers, payment-initiation providers and smaller participants. The delay creates a longer pre-revenue integration window but also lowers immediate execution pressure.",
       "founder_hours_initial_unverified_estimate": "",
@@ -2054,9 +2091,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "Chile",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "Unit landed cost for blank NFC tags, acrylic or printed displays, packaging, and Chilean delivery.",
+        "Contribution margin after payment fees, taxes, shipping, configuration, artwork, customer support, replacements, and failed deliveries.",
+        "Whether businesses will buy from a new operator when established local vendors already offer similar products and social proof.",
+        "Incremental tap rate, QR scan rate, completed review rate, and repeat usage by venue type and placement.",
+        "Whether review prompts produce sustainable incremental reviews rather than merely redirecting customers who would have reviewed anyway.",
+        "Customer-acquisition cost and sales-cycle length for cafés, hotels, and service counters.",
+        "Whether Google policy, venue policy, or customer sentiment limits aggressive review prompting; incentives or selectively soliciting only positive reviews could create compliance and reputation risk. Source: https://nfctech.cl/guias/como-conseguir-mas-resenas-google"
       ],
       "investment_authorized": false,
       "name": "NFC review-and-contact displays for Chilean cafés, hotels and service counters",
@@ -2430,6 +2471,44 @@
       "category": "robotics_agritech",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Pick one crop and tightly bounded geography. Build a one-page offer for a supervised robotic-weeding trial, using an existing commercial platform rather than claiming ownership. Contact growers through local extension offices, crop associations, farm-equipment dealers and public grower directories; ask for acreage, weed-control method, timing and a paid/refundable reservation contingent on equipment availability. Lowest-cost falsification: interview at least ten growers and seek two written reservations or deposits at a stated trial price before leasing or purchasing equipment. Stop if growers will only express general interest or if no authorized equipment-access route is available.",
+      "current_thesis": "The executable wedge is not building a new robot; it is testing whether a small operator can aggregate demand and sell scheduled robotic weeding, field trials, or seasonal access while outsourcing equipment ownership to an existing manufacturer, dealer or equipment financier. Actual unit economics remain unverified and depend on crop, acreage, transport, supervision and robot availability.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States; potentially exportable to Chilean specialty-crop regions",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Small- and mid-size farm robotic-weeding service using commercial robots instead of ownership",
+      "opportunity_id": "opp_9ed2c5cffcc241526473",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
+        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
+        "Arrange a bounded field validation with an actual farm operator before scaling."
+      ],
+      "supporting_source_urls": [
+        "https://www.agricultural-robotics.com/robot/robot-one",
+        "https://www.agricultural-robotics.com/robot/zurama-ai-inrow-weeder",
+        "https://arxiv.org/abs/2509.25056",
+        "https://farmdroid.com/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Potential mechanisms are per-acre field service, seasonal minimums, equipment brokerage, or referral/commission arrangements with a manufacturer or dealer. No price, margin, buyer commitment or manufacturer permission is assumed. The economic test is whether a grower will sign a paid or refundable reservation for a defined trial before equipment is acquired.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "robotics_agritech",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use public robot and simulator tooling to build one demonstrable workflow, then contact local food manufacturers, contract packers, or regional system integrators with a fixed-scope paid pilot proposal. Lowest-cost falsification: build the workflow in simulation, publish a short cycle-time and setup demonstration, and request 10 discovery calls; abandon the wedge if no operator will provide a sample part, process video, or paid feasibility engagement. Do not assume access to a plant, robot, or customer budget before receiving explicit confirmation.",
       "current_thesis": "More small and mid-sized food manufacturers may be purchasing flexible automation, but the economically reachable bottleneck is deployment: motion programming, end-effector setup, calibration, safety documentation, and repeatable production-cell validation.",
       "founder_hours_initial_unverified_estimate": "",
@@ -2500,7 +2579,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-15T16:25:09.717601+00:00",
+  "generated_at": "2026-10-15T20:21:11.043464+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"
