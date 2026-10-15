@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-15T17:01:01.645592+00:00
+Generated: 2026-10-15T20:56:42.061584+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 115
+- New this cycle: 107
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): arxiv_ai:unavailable_or_invalid
-- Categories: agriculture 255, ai 317, commerce 34, energy 589, robotics 605
+- Categories: agriculture 258, ai 313, commerce 34, energy 591, robotics 604
 
 ## Recently encountered signals
+
+### hkgupta005-sketch/AgriMind
+- Source: https://github.com/hkgupta005-sketch/AgriMind
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### muhammadshayanali5104-design/Smart-Farming-System
 - Source: https://github.com/muhammadshayanali5104-design/Smart-Farming-System
@@ -452,12 +458,6 @@ Generated: 2026-10-15T17:01:01.645592+00:00
 
 ### yagantieswarkurukunda6300-cell/solar-mobile-charger
 - Source: https://github.com/yagantieswarkurukunda6300-cell/solar-mobile-charger
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Stochastic Convex Optimization for Day-Ahead Shared Battery Storage Scheduling in Solar Energy Communities
-- Source: https://doi.org/10.3390/sci8100301
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
