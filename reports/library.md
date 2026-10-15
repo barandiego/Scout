@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-15T08:25:33.140476+00:00
+Generated: 2026-10-15T12:27:34.459002+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 60 (0 HQ survivors, 60 watches)
+- Active research: 63 (0 HQ survivors, 63 watches)
 - Rejected opportunities excluded: 34
-- Critic-and-judge reviewed: 35
+- Critic-and-judge reviewed: 36
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -52,6 +52,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Number, size, crop mix, and geographic concentration of existing Chilean indoor or hydroponic growers that use artificial lighting.; Actual Chilean electricity tariffs, demand charges, time-of-use pricing, and renewable-energy arrangements applicable to target facilities.; Lighting, HVAC, pumping, dehumidification, and refrigeration shares of total site electricity consumption.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://arxiv.org/abs/2507.18419; https://arxiv.org/abs/2510.03686; https://ers.usda.gov/sites/default/files/_laserfiche/publications/108221/EIB-264.pdf
+
+### Pre-compliance monitoring for Chile’s Open Finance implementation [opp_8c5a7467be93278a7fb8]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: A narrow monitoring asset could help fintechs, banks, integrators and compliance teams track participant registration, endpoint changes, implementation milestones and bank-data availability before mandatory operation. The evidence supports an information-access wedge, not yet a confirmed paying market.
+- Value capture: Paid alerts, change logs or a compact API-monitoring dashboard for prospective SFA participants and software vendors. Payer and price are unverified; do not build regulated data-access or payment-initiation functionality without legal review and required registration.
+- Participation hypothesis: Use only the public CMF Banks API and the public SFA participant-directory documentation to build a one-week prototype that records participant/API changes and produces a dated change log. Publish a sample report and contact 10 Chilean fintechs, banking-software vendors or compliance providers for paid pilot commitments. Falsify if fewer than two qualified prospects agree to review the prototype or no prospect identifies a recurring implementation decision it would pay to monitor. Do not represent the prototype as CMF-authorized or as an SFA pa
+- Critic/judge: The underlying regulatory and technical premise is sufficiently grounded for research: CMF materials indicate an Open Finance implementation timeline and technical artifacts, while the SFA directory documentation and CMF Banks API indicate a plausible public-data monitoring workflow. This avoids the fatal API-access problem at the hypothesis stage, provided use and commercial-reuse terms are verified. However, this is not yet HQ-worthy
+- Next evidence gaps: Number of active or prospective SFA participants that lack internal monitoring capabilities.; Whether the production directory, sandbox and APIs will remain publicly accessible without restrictive authentication, rate limits or terms that prevent commercial r; Whether directory changes will be frequent or consequential enough to justify paid alerts rather than periodic manual review.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA; https://api.cmfchile.cl/
 
 ### AI and data-center growth are making electricity and grid access a binding cost constraint [opp_9806dd7c2bc14a3373b4]
 - Status: WATCH_REQUIRES_VALIDATION | general | global, with pronounced effects in the United States and other advanced power markets
@@ -423,16 +433,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
 
-### Pre-compliance monitoring for Chile’s Open Finance implementation [opp_8c5a7467be93278a7fb8]
-- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
-- Thesis: A narrow monitoring asset could help fintechs, banks, integrators and compliance teams track participant registration, endpoint changes, implementation milestones and bank-data availability before mandatory operation. The evidence supports an information-access wedge, not yet a confirmed paying market.
-- Value capture: Paid alerts, change logs or a compact API-monitoring dashboard for prospective SFA participants and software vendors. Payer and price are unverified; do not build regulated data-access or payment-initiation functionality without legal review and required registration.
-- Participation hypothesis: Use only the public CMF Banks API and the public SFA participant-directory documentation to build a one-week prototype that records participant/API changes and produces a dated change log. Publish a sample report and contact 10 Chilean fintechs, banking-software vendors or compliance providers for paid pilot commitments. Falsify if fewer than two qualified prospects agree to review the prototype or no prospect identifies a recurring implementation decision it would pay to monitor. Do not represent the prototype as CMF-authorized or as an SFA pa
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA; https://api.cmfchile.cl/
-
 ### Self-hosted multilingual document extraction pilot using MonkeyOCRv2 or Mistral OCR 4 [opp_b9c90d663d7fab8d89c7]
 - Status: WATCH_REQUIRES_VALIDATION | innovation_adoption | Global; initial testing can target U.S. or Chilean Spanish documents
 - Thesis: A small operator can test whether document-heavy workflows that currently require paid OCR, manual transcription, or offshore data entry can be processed locally with lower variable cost and better privacy. The concrete asset is a deployable extraction pipeline for invoices, customs documents, purchase orders, or compliance files—not a generic AI consultancy.
@@ -442,6 +442,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://github.com/Yuliang-Liu/MonkeyOCRv2; https://mistral.ai/news/ocr-4/; https://mistral.ai/news/mistral-ocr/
+
+### Small-factory robot deployment and commissioning wedge focused on food-sector applications [opp_f2278f7ef99fae7e2528]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States
+- Thesis: More small and mid-sized food manufacturers may be purchasing flexible automation, but the economically reachable bottleneck is deployment: motion programming, end-effector setup, calibration, safety documentation, and repeatable production-cell validation.
+- Value capture: Sell a narrowly defined deployment package for one repeatable task—such as pick-and-place, palletizing, or machine tending—including a simulated motion program, commissioning checklist, cycle-time measurement, and handoff documentation. The concrete asset is a reusable task-specific deployment template rather than a general automation consultancy.
+- Participation hypothesis: Use public robot and simulator tooling to build one demonstrable workflow, then contact local food manufacturers, contract packers, or regional system integrators with a fixed-scope paid pilot proposal. Lowest-cost falsification: build the workflow in simulation, publish a short cycle-time and setup demonstration, and request 10 discovery calls; abandon the wedge if no operator will provide a sample part, process video, or paid feasibility engagement. Do not assume access to a plant, robot, or customer budget before receiving explicit confirmat
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://ifr.org/ifr-press-releases/news/us-robot-industry-returns-to-double-digit-growth; https://ifr.org/post/exciting-times-for-robot-suppliers; https://github.com/nexform-tech/litearm-mujoco
 
 ### Speed-to-power infrastructure exposure: researchable public-company basket with a falsifiable backlog catalyst [opp_8fd938450701fbd64711]
 - Status: WATCH_REQUIRES_VALIDATION | public_markets | United States
@@ -462,6 +472,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.bcn.cl/leychile/navegar?i=1212631; https://www.cne.cl/tarificacion/electrica/
+
+### Battery-storage interconnection and operating-data screening for project developers [opp_266f64450c92dcaf56b6]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States, with an initial focus on California and Texas
+- Thesis: The investable or entrepreneurial wedge is not generic battery consulting; it is a small, auditable screening product that identifies projects with visible capacity, queue, transmission, permitting, or operating-data events that may change development priority or transaction timing.
+- Value capture: Produce a paid recurring spreadsheet/API or diligence packet for storage developers, infrastructure investors, brokers, or lenders: project identifier, interconnection status, node or balancing-area data, announced capacity, milestone dates, and links to primary filings. Revenue would come from subscriptions, one-off diligence packets, or licensed data—not from assuming project ownership or guaranteed savings.
+- Participation hypothesis: Start with one market and publicly available filings/data. Create a 20-project sample with source links and a clear update timestamp, then offer it to identifiable storage developers, project-finance professionals, or energy brokers. Lowest-cost falsification: send the sample to 15 relevant firms and measure whether at least one requests a paid refresh, custom field, or diligence report; if not, stop rather than infer demand. No claim is made that a buyer, subscription price, or data-access permission already exists.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.eia.gov/todayinenergy/detail.php?id=67925; https://www.ferc.gov/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.ferc.gov%2Fsites%2Fdefault%2Ffiles%2F2025-05%2FTX25-4-000.pdf
 
 ### Chile Open Finance conformance-testing wedge ahead of July 2027 implementation [opp_3b4a47b09fa6592f8c5b]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -572,6 +592,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://atencionciudadana.minenergia.cl/tramites/informacion/20; https://www.minvu.gob.cl/postulacion/llamado-eficiencia-energetica-y-acondicionamiento-termico-ds-27-ano-2025/
+
+### Rare-earth secondary-material sourcing and assay brokerage as a testable micro-wedge [opp_45b7e9d57391da701819]
+- Status: WATCH_REQUIRES_VALIDATION | physical_distribution | United States
+- Thesis: A small operator cannot economically reproduce mining or separation, but can test whether a narrow feedstock-identification and assay-coordination service reduces search friction for recyclers, processors, or manufacturers seeking specified rare-earth-bearing scrap.
+- Value capture: Coordinate sourcing of one narrowly specified material stream—such as end-of-life permanent magnets or industrial polishing waste—verify chain of custody, arrange third-party assay, and charge a disclosed sourcing or transaction fee only if a qualified counterparty accepts the material. The economic mechanism is verified-feedstock aggregation, not speculative mineral ownership.
+- Participation hypothesis: Choose one local waste stream and contact recyclers, demolition firms, electronics refurbishers, or industrial scrap handlers to ask whether they already separate the material and whether they permit sampling. Obtain written permission before handling material, pay for one small independent assay only after a processor states its required specifications, and compare the assay and logistics cost with an explicit purchase indication. Lowest-cost falsification: get three written specification sheets or rejection criteria from potential processors
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://pubs.usgs.gov/periodicals/mcs2025/mcs2025_ver.1.0.pdf; https://pubs.usgs.gov/periodicals/mcs2025/mcs2025.pdf
 
 ### Shared-service autonomous mechanical weeding pilot for sugar beet and similar row crops [opp_5b761b0ef329020c7bc2]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States; potentially adaptable to Chilean row-crop regions

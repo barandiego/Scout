@@ -377,6 +377,103 @@
     {
       "ai_leverage": "",
       "authorized_for_execution": false,
+      "contrary_evidence": [
+        "The regulatory milestone is concrete: CMF amended the framework on June 1, 2026 and moved SFA effectiveness to July 2027, creating a finite preparation window. Source: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "The participant directory exposes structured participant, organization, authorization-server and API-resource data, and supports version/checksum/last-updated metadata that is technically suitable for reliable change detection. Source: https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA",
+        "ATENA was launched in September 2026 and permits institutions to test technical adequacy and interoperability before July 2027, confirming that implementation work is active rather than purely hypothetical. Source: https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "The opportunity can be tested with minimal capital using public information and a one-week prototype, so failure would be relatively cheap and reversible."
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-13T12:16:52.372957+00:00",
+      "discovery_lens": "chile_technology_import",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF published technical specifications, a developer portal and a revised implementation timeline with system effectiveness postponed until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "The public directory APIs expose structured information about SFA participants, organizations, authorization servers and API resources.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "v1.0.0 - APIs Directorio de Participantes SFA",
+          "url": "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA"
+        },
+        {
+          "claim": "CMF provides direct access to current and historical banking-information resources through an API.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "API - CMF Bancos - Interfaz de Programación de Aplicaciones",
+          "url": "https://api.cmfchile.cl/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.82,
+      "falsification_conditions": [
+        "Fewer than two qualified prospects agree to review the prototype or discuss a paid pilot after outreach to at least 10 relevant Chilean organizations.",
+        "No prospect identifies a recurring implementation, vendor-selection, compliance or operational decision that would change based on the monitored information.",
+        "Prospects confirm that the official CMF directory, ATENA, internal scripts or existing vendors already satisfy the need at no incremental cost.",
+        "The production directory is unavailable, unstable, rate-limited, noncommercial, or lacks changes that can be reliably detected.",
+        "Observed directory or API changes over a 30- to 60-day test period are too infrequent, nonmaterial or ambiguous to support actionable alerts.",
+        "No buyer accepts a paid pilot priced to cover ongoing data collection, validation, support and local regulatory interpretation.",
+        "The product cannot demonstrate incremental value over a simple checksum-diff email generated from the public directory.",
+        "The July 2027 implementation schedule is materially delayed or redesigned such that monitoring requirements and buyer urgency disappear."
+      ],
+      "geography": "Chile",
+      "id": "opp_8c5a7467be93278a7fb8",
+      "judge_reviewed": true,
+      "judgment": "The underlying regulatory and technical premise is sufficiently grounded for research: CMF materials indicate an Open Finance implementation timeline and technical artifacts, while the SFA directory documentation and CMF Banks API indicate a plausible public-data monitoring workflow. This avoids the fatal API-access problem at the hypothesis stage, provided use and commercial-reuse terms are verified. However, this is not yet HQ-worthy as a business thesis: the proposed output is largely reproducible from official public data, including directory versioning/checksum metadata, and no evidence establishes a recurring decision-critical pain point, a budget owner, paid demand, or defensible differentiation from internal scripts, CMF tools, integrators, or bundled API-management/compliance offerings. Regulatory compliance appears modest for passive public-metadata monitoring, but legal constraints on redistribution, branding, availability characterization, and advisory liability remain unresolved. Treat it strictly as a narrow validation research option rather than a product recommendation.",
+      "last_record_updated_at": "2026-10-15T12:27:34.103495+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Number of active or prospective SFA participants that lack internal monitoring capabilities.",
+        "Whether the production directory, sandbox and APIs will remain publicly accessible without restrictive authentication, rate limits or terms that prevent commercial redistribution.",
+        "Whether directory changes will be frequent or consequential enough to justify paid alerts rather than periodic manual review.",
+        "Actual budget owner: compliance, technology, legal, implementation consulting or procurement.",
+        "Willingness to pay, acceptable pricing, retention expectations and whether buyers prefer a dashboard, API, reports or consulting."
+      ],
+      "participation_path": "Use only the public CMF Banks API and the public SFA participant-directory documentation to build a one-week prototype that records participant/API changes and produces a dated change log. Publish a sample report and contact 10 Chilean fintechs, banking-software vendors or compliance providers for paid pilot commitments. Falsify if fewer than two qualified prospects agree to review the prototype or no prospect identifies a recurring implementation decision it would pay to monitor. Do not represent the prototype as CMF-authorized or as an SFA participant.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A narrow monitoring asset could help fintechs, banks, integrators and compliance teams track participant registration, endpoint changes, implementation milestones and bank-data availability before mandatory operation. The evidence supports an information-access wedge, not yet a confirmed paying market.",
+      "title": "Pre-compliance monitoring for Chile’s Open Finance implementation",
+      "type": "data_product_test",
+      "unknowns": [
+        "Number of active or prospective SFA participants that lack internal monitoring capabilities.",
+        "Whether the production directory, sandbox and APIs will remain publicly accessible without restrictive authentication, rate limits or terms that prevent commercial redistribution.",
+        "Whether directory changes will be frequent or consequential enough to justify paid alerts rather than periodic manual review.",
+        "Actual budget owner: compliance, technology, legal, implementation consulting or procurement.",
+        "Willingness to pay, acceptable pricing, retention expectations and whether buyers prefer a dashboard, API, reports or consulting.",
+        "Whether CMF, major integrators or existing API-management/compliance vendors will provide equivalent functionality for free or as part of broader contracts.",
+        "Exact phased deadlines by participant type and data category, and whether they create differentiated monitoring needs.",
+        "Whether the CMF Banks API contributes material incremental value beyond the SFA participant directory; the proposal may be combining two unrelated public datasets without a clear workflow.",
+        "Legal, licensing and liability constraints on republishing participant metadata or characterizing endpoint availability.",
+        "Evidence of customer pain, failed internal projects, paid pilots, procurement activity or competitor pricing.",
+        "Whether public directory and CMF API terms permit commercial collection, storage, redistribution, and alerting at the proposed scale.",
+        "Whether production data—not merely documentation or test/sandbox artifacts—will remain publicly reachable and generate reliable, material changes.",
+        "The exact buyer segment and regulated payer: bank, fintech participant, third-party provider, core-banking vendor, integrator, or compliance adviser.",
+        "Which recurring operational, implementation, vendor-selection, or compliance decision changes because of an alert, and the cost of missing that change.",
+        "Observed frequency, materiality, and interpretability of changes during a 30- to 60-day measurement period.",
+        "Paid-pilot conversion, viable price, retention, and whether pricing exceeds data-validation, support, and regulatory-review costs.",
+        "Whether official CMF/ATENA capabilities or existing vendors already cover the same monitoring need at no incremental cost.",
+        "Phased obligations and deadlines by participant/data type, and whether they produce a segment-specific urgent workflow."
+      ],
+      "value_capture_mechanism": "Paid alerts, change logs or a compact API-monitoring dashboard for prospective SFA participants and software vendors. Payer and price are unverified; do not build regulated data-access or payment-initiation functionality without legal review and required registration.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": true,
       "discovered_at": "2026-10-07T18:20:34.777731+00:00",
@@ -3410,67 +3507,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-13T12:16:52.372957+00:00",
-      "discovery_lens": "chile_technology_import",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "CMF published technical specifications, a developer portal and a revised implementation timeline with system effectiveness postponed until July 2027.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
-          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
-        },
-        {
-          "claim": "The public directory APIs expose structured information about SFA participants, organizations, authorization servers and API resources.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "v1.0.0 - APIs Directorio de Participantes SFA",
-          "url": "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA"
-        },
-        {
-          "claim": "CMF provides direct access to current and historical banking-information resources through an API.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "API - CMF Bancos - Interfaz de Programación de Aplicaciones",
-          "url": "https://api.cmfchile.cl/"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.9,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_8c5a7467be93278a7fb8",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-13T12:16:52.392465+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Use only the public CMF Banks API and the public SFA participant-directory documentation to build a one-week prototype that records participant/API changes and produces a dated change log. Publish a sample report and contact 10 Chilean fintechs, banking-software vendors or compliance providers for paid pilot commitments. Falsify if fewer than two qualified prospects agree to review the prototype or no prospect identifies a recurring implementation decision it would pay to monitor. Do not represent the prototype as CMF-authorized or as an SFA participant.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "A narrow monitoring asset could help fintechs, banks, integrators and compliance teams track participant registration, endpoint changes, implementation milestones and bank-data availability before mandatory operation. The evidence supports an information-access wedge, not yet a confirmed paying market.",
-      "title": "Pre-compliance monitoring for Chile’s Open Finance implementation",
-      "type": "data_product_test",
-      "unknowns": [],
-      "value_capture_mechanism": "Paid alerts, change logs or a compact API-monitoring dashboard for prospective SFA participants and software vendors. Payer and price are unverified; do not build regulated data-access or payment-initiation functionality without legal review and required registration.",
-      "verified_sales": null,
-      "vertical": "open_finance_chile",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-14T00:24:07.414243+00:00",
       "discovery_lens": "ai_open_source",
       "estimated_capital": "",
@@ -3524,6 +3560,67 @@
       "value_capture_mechanism": "Charge for a narrowly defined document-processing workflow, such as converting a customer’s recurring PDF or image documents into validated CSV/JSON output. The economic mechanism is per-document or monthly processing revenue minus compute, review, and exception-handling costs. Existing Mistral OCR materials provide a public historical purchase reference of approximately 1,000 pages per dollar for the prior OCR API; current OCR 4 pricing must be re-verified before quoting.",
       "verified_sales": null,
       "vertical": "innovation_adoption",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-15T12:27:09.528615+00:00",
+      "discovery_lens": "robotics_automation",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "IFR reports 38,000 industrial robots installed in the United States in 2025, up 11% year over year, with food-sector installations up 30%.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "US Robot Industry Returns to Double Digit Growth",
+          "url": "https://ifr.org/ifr-press-releases/news/us-robot-industry-returns-to-double-digit-growth"
+        },
+        {
+          "claim": "IFR reports 603,307 global robot shipments in 2025, up 11.2%, and continued growth in broader industrial applications.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Exciting Times for Robot Suppliers!",
+          "url": "https://ifr.org/post/exciting-times-for-robot-suppliers"
+        },
+        {
+          "claim": "The repository documents a simulation environment with API compatibility between simulated and physical LiteArm control, enabling low-cost workflow prototyping without hardware.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "litearm-mujoco",
+          "url": "https://github.com/nexform-tech/litearm-mujoco"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_f2278f7ef99fae7e2528",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-15T12:27:09.553435+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use public robot and simulator tooling to build one demonstrable workflow, then contact local food manufacturers, contract packers, or regional system integrators with a fixed-scope paid pilot proposal. Lowest-cost falsification: build the workflow in simulation, publish a short cycle-time and setup demonstration, and request 10 discovery calls; abandon the wedge if no operator will provide a sample part, process video, or paid feasibility engagement. Do not assume access to a plant, robot, or customer budget before receiving explicit confirmation.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "More small and mid-sized food manufacturers may be purchasing flexible automation, but the economically reachable bottleneck is deployment: motion programming, end-effector setup, calibration, safety documentation, and repeatable production-cell validation.",
+      "title": "Small-factory robot deployment and commissioning wedge focused on food-sector applications",
+      "type": "service_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell a narrowly defined deployment package for one repeatable task—such as pick-and-place, palletizing, or machine tending—including a simulated motion program, commissioning checklist, cycle-time measurement, and handoff documentation. The concrete asset is a reusable task-specific deployment template rather than a general automation consultancy.",
+      "verified_sales": null,
+      "vertical": "robotics_agritech",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -3637,6 +3734,60 @@
       "type": "service_asset",
       "unknowns": [],
       "value_capture_mechanism": "Charge for a paid bill-and-interval-data audit, then earn from implementation through a fixed-fee control retrofit or a documented share of verified bill savings. Do not assume savings until a baseline and tariff calculation are completed.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-15T12:27:09.529656+00:00",
+      "discovery_lens": "energy_industrial",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "EIA reports 43.6 GW of operational U.S. utility-scale battery storage at the end of 2025, 8.3 GW added in the first half of 2026, and 54 GW planned over the next two and a half years.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Battery storage capacity averaged 70% growth over the last three years",
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=67925"
+        },
+        {
+          "claim": "FERC granted an order directing transmission service for Compass Energy's 250 MW battery energy-storage facility, demonstrating a concrete regulatory and interconnection catalyst.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Compass Energy Storage LLC, FERC Order 191 FERC ¶ 61,115",
+          "url": "https://www.ferc.gov/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.ferc.gov%2Fsites%2Fdefault%2Ffiles%2F2025-05%2FTX25-4-000.pdf"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.89,
+      "falsification_conditions": [],
+      "geography": "United States, with an initial focus on California and Texas",
+      "id": "opp_266f64450c92dcaf56b6",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-15T12:27:09.553235+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Start with one market and publicly available filings/data. Create a 20-project sample with source links and a clear update timestamp, then offer it to identifiable storage developers, project-finance professionals, or energy brokers. Lowest-cost falsification: send the sample to 15 relevant firms and measure whether at least one requests a paid refresh, custom field, or diligence report; if not, stop rather than infer demand. No claim is made that a buyer, subscription price, or data-access permission already exists.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The investable or entrepreneurial wedge is not generic battery consulting; it is a small, auditable screening product that identifies projects with visible capacity, queue, transmission, permitting, or operating-data events that may change development priority or transaction timing.",
+      "title": "Battery-storage interconnection and operating-data screening for project developers",
+      "type": "data_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Produce a paid recurring spreadsheet/API or diligence packet for storage developers, infrastructure investors, brokers, or lenders: project identifier, interconnection status, node or balancing-area data, announced capacity, milestone dates, and links to primary filings. Revenue would come from subscriptions, one-off diligence packets, or licensed data—not from assuming project ownership or guaranteed savings.",
       "verified_sales": null,
       "vertical": "energy_infrastructure",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
@@ -4241,6 +4392,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-15T12:27:09.530685+00:00",
+      "discovery_lens": "mining_materials",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "USGS reports 2024 domestic rare-earth production, 80% net import reliance for compounds and metals, and limited recovery from batteries, permanent magnets, and fluorescent lamps.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Mineral Commodity Summaries 2025",
+          "url": "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025_ver.1.0.pdf"
+        },
+        {
+          "claim": "USGS reports that production of multiple critical minerals is highly concentrated in a single country and that recycling supplied some minerals as the only domestic source.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Mineral Commodity Summaries 2025",
+          "url": "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025.pdf"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.82,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_45b7e9d57391da701819",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-15T12:27:09.553562+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Choose one local waste stream and contact recyclers, demolition firms, electronics refurbishers, or industrial scrap handlers to ask whether they already separate the material and whether they permit sampling. Obtain written permission before handling material, pay for one small independent assay only after a processor states its required specifications, and compare the assay and logistics cost with an explicit purchase indication. Lowest-cost falsification: get three written specification sheets or rejection criteria from potential processors and test whether any will review a sample; stop if no qualified party provides specifications or a purchase pathway. No buyer, price, recovery rate, or margin is assumed.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A small operator cannot economically reproduce mining or separation, but can test whether a narrow feedstock-identification and assay-coordination service reduces search friction for recyclers, processors, or manufacturers seeking specified rare-earth-bearing scrap.",
+      "title": "Rare-earth secondary-material sourcing and assay brokerage as a testable micro-wedge",
+      "type": "physical_supply_chain",
+      "unknowns": [],
+      "value_capture_mechanism": "Coordinate sourcing of one narrowly specified material stream—such as end-of-life permanent magnets or industrial polishing waste—verify chain of custody, arrange third-party assay, and charge a disclosed sourcing or transaction fee only if a qualified counterparty accepts the material. The economic mechanism is verified-feedstock aggregation, not speculative mineral ownership.",
+      "verified_sales": null,
+      "vertical": "physical_distribution",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-14T12:27:10.773933+00:00",
       "discovery_lens": "adoption_lag",
       "estimated_capital": "",
@@ -4456,13 +4661,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-15T08:25:33.140476+00:00",
+  "generated_at": "2026-10-15T12:27:34.459002+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 34,
-  "reviewed_cards": 35,
+  "reviewed_cards": 36,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 94,
-  "watch": 60
+  "total_distinct_opportunities": 97,
+  "watch": 63
 }

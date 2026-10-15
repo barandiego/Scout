@@ -192,6 +192,42 @@
       "category": "energy_infrastructure",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Start with one market and publicly available filings/data. Create a 20-project sample with source links and a clear update timestamp, then offer it to identifiable storage developers, project-finance professionals, or energy brokers. Lowest-cost falsification: send the sample to 15 relevant firms and measure whether at least one requests a paid refresh, custom field, or diligence report; if not, stop rather than infer demand. No claim is made that a buyer, subscription price, or data-access permission already exists.",
+      "current_thesis": "The investable or entrepreneurial wedge is not generic battery consulting; it is a small, auditable screening product that identifies projects with visible capacity, queue, transmission, permitting, or operating-data events that may change development priority or transaction timing.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States, with an initial focus on California and Texas",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Battery-storage interconnection and operating-data screening for project developers",
+      "opportunity_id": "opp_266f64450c92dcaf56b6",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
+        "Compare owned asset, installer/distributor and project-finance participation.",
+        "Verify permits and installed net payback under conservative power price scenarios."
+      ],
+      "supporting_source_urls": [
+        "https://www.eia.gov/todayinenergy/detail.php?id=67925",
+        "https://www.ferc.gov/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.ferc.gov%2Fsites%2Fdefault%2Ffiles%2F2025-05%2FTX25-4-000.pdf"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Produce a paid recurring spreadsheet/API or diligence packet for storage developers, infrastructure investors, brokers, or lenders: project identifier, interconnection status, node or balancing-area data, announced capacity, milestone dates, and links to primary filings. Revenue would come from subscriptions, one-off diligence packets, or licensed data—not from assuming project ownership or guaranteed savings.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "energy_infrastructure",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use the SEC's public installer and technical-documentation pages to identify 10 authorized distributed-generation installers. Send a one-page sample checklist covering RGR N°06/2024, AFCI status, equipment authorization and required filing fields. Ask whether they would pay for one review of a real but anonymized project, without promising approval. Test with one paid or explicitly unpaid pilot only after the installer confirms the scope. Falsify if installers report that they already perform the review internally, will not share a redacted equipment list, or do not value error reduction enough to accept a trial. Do not install, certify or submit electrical work without the required authorization.",
       "current_thesis": "A narrow, testable asset is a paid pre-check package for installers or project owners: collect equipment datasheets, compare the proposed battery/PCE/inverter configuration against the current SEC checklist, identify missing AFCI or documentation items, and produce a submission-ready gap list. The mechanism is avoided rework or rejected filings, not speculative battery arbitrage. The operator must avoid representing itself as an authorized electrical installer unless it actually has that authorization.",
       "founder_hours_initial_unverified_estimate": "",
@@ -1754,9 +1790,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "Chile",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "Number of active or prospective SFA participants that lack internal monitoring capabilities.",
+        "Whether the production directory, sandbox and APIs will remain publicly accessible without restrictive authentication, rate limits or terms that prevent commercial redistribution.",
+        "Whether directory changes will be frequent or consequential enough to justify paid alerts rather than periodic manual review.",
+        "Actual budget owner: compliance, technology, legal, implementation consulting or procurement.",
+        "Willingness to pay, acceptable pricing, retention expectations and whether buyers prefer a dashboard, API, reports or consulting.",
+        "Whether CMF, major integrators or existing API-management/compliance vendors will provide equivalent functionality for free or as part of broader contracts.",
+        "Exact phased deadlines by participant type and data category, and whether they create differentiated monitoring needs."
       ],
       "investment_authorized": false,
       "name": "Pre-compliance monitoring for Chile’s Open Finance implementation",
@@ -1968,6 +2008,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Sell a configured NFC-plus-QR countertop or table display at a transparent one-time price, optionally adding paid setup such as destination-link configuration, branded artwork and placement instructions. The economic mechanism is hardware markup and setup revenue; recurring analytics or CRM revenue should not be assumed until a buyer explicitly pays for it.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "physical_distribution",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Choose one local waste stream and contact recyclers, demolition firms, electronics refurbishers, or industrial scrap handlers to ask whether they already separate the material and whether they permit sampling. Obtain written permission before handling material, pay for one small independent assay only after a processor states its required specifications, and compare the assay and logistics cost with an explicit purchase indication. Lowest-cost falsification: get three written specification sheets or rejection criteria from potential processors and test whether any will review a sample; stop if no qualified party provides specifications or a purchase pathway. No buyer, price, recovery rate, or margin is assumed.",
+      "current_thesis": "A small operator cannot economically reproduce mining or separation, but can test whether a narrow feedstock-identification and assay-coordination service reduces search friction for recyclers, processors, or manufacturers seeking specified rare-earth-bearing scrap.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Rare-earth secondary-material sourcing and assay brokerage as a testable micro-wedge",
+      "opportunity_id": "opp_45b7e9d57391da701819",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Compare local product availability to supplier catalogs and independent consumer interest.",
+        "Check import, tax, return, certification and delivery economics before estimating margin.",
+        "Try a legitimate pre-order/waitlist test with transparent fulfillment conditions."
+      ],
+      "supporting_source_urls": [
+        "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025_ver.1.0.pdf",
+        "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025.pdf"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Coordinate sourcing of one narrowly specified material stream—such as end-of-life permanent magnets or industrial polishing waste—verify chain of custody, arrange third-party assay, and charge a disclosed sourcing or transaction fee only if a qualified counterparty accepts the material. The economic mechanism is verified-feedstock aggregation, not speculative mineral ownership.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -2283,6 +2359,43 @@
       "category": "robotics_agritech",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use public robot and simulator tooling to build one demonstrable workflow, then contact local food manufacturers, contract packers, or regional system integrators with a fixed-scope paid pilot proposal. Lowest-cost falsification: build the workflow in simulation, publish a short cycle-time and setup demonstration, and request 10 discovery calls; abandon the wedge if no operator will provide a sample part, process video, or paid feasibility engagement. Do not assume access to a plant, robot, or customer budget before receiving explicit confirmation.",
+      "current_thesis": "More small and mid-sized food manufacturers may be purchasing flexible automation, but the economically reachable bottleneck is deployment: motion programming, end-effector setup, calibration, safety documentation, and repeatable production-cell validation.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Small-factory robot deployment and commissioning wedge focused on food-sector applications",
+      "opportunity_id": "opp_f2278f7ef99fae7e2528",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
+        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
+        "Arrange a bounded field validation with an actual farm operator before scaling."
+      ],
+      "supporting_source_urls": [
+        "https://ifr.org/ifr-press-releases/news/us-robot-industry-returns-to-double-digit-growth",
+        "https://ifr.org/post/exciting-times-for-robot-suppliers",
+        "https://github.com/nexform-tech/litearm-mujoco"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a narrowly defined deployment package for one repeatable task—such as pick-and-place, palletizing, or machine tending—including a simulated motion program, commissioning checklist, cycle-time measurement, and handoff documentation. The concrete asset is a reusable task-specific deployment template rather than a general automation consultancy.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "robotics_agritech",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use or rent a small existing greenhouse or sheltered area instead of building a vertical farm. Produce one pilot crop cycle using a floating-root system, collect signed or paid weekly orders before planting, and record actual electricity, labor, mortality, water, packaging, delivery, and realized selling price. Falsification test: obtain at least 20 paid units or two repeat restaurant orders at a price above fully loaded pilot cost before purchasing a larger NFT or indoor system. If customers will not prepay or repeat at the required price, abandon the wedge.",
       "current_thesis": "The defensible opportunity is a low-capital validation of a local, high-turnover leafy-greens wedge—not a capital-intensive vertical farm. Hydroponics may work when a producer can obtain committed buyers, short delivery distances, and a price above the modeled CLP 800 reference. Indoor LED farming is especially weak as an untested proposition because energy is a major operating cost and Chilean evidence here supports outdoor/greenhouse hydroponics more directly than fully indoor farming. ([inside-grower.com](https://www.inside-grower.com/utility/PDF.aspx?id=26248&pagename=viewarticle.aspx&pub=IG&utm_source=openai))",
       "founder_hours_initial_unverified_estimate": "",
@@ -2316,7 +2429,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-15T08:25:33.166077+00:00",
+  "generated_at": "2026-10-15T12:27:34.515325+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"
