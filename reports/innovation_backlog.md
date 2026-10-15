@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 58
+Candidates: 60
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -244,6 +244,18 @@ Candidates: 58
 - Possible initial budget:
 - Source URLs: https://www.whitehouse.gov/presidential-actions/2026/01/adjusting-imports-of-processed-critical-minerals-and-their-derivative-products-into-the-united-states/; https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary
 
+## Pre-spend and tool-use regression testing for AI agents using open attack corpora
+- Status: watch | innovation_adoption
+- Current idea: Small teams deploying agents may be able to buy or commission a bounded test that identifies whether their agent can be induced to take unauthorized actions. The narrow wedge is an evidence-producing regression pack for one agent workflow, not generic AI consulting or a claim of comprehensive security.
+- Potential economic capture: Potential cash flow comes from a fixed-scope test report, a reusable CI test package, or a low-cost hosted approval check for agent actions. The existence of a public $99/month hosted reference supports testing price sensitivity but does not prove that a new operator can achieve that price or obtain customers.
+- **Research routes to test (NOT validated claims):**
+  - Identify a real technical capability not yet adopted in one buyer's high-value workflow.
+  - Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.
+  - Measure the fully loaded operating cost, human exceptions and distribution against the status quo.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://github.com/AndrewSispoidis/contemporary-agent-attacks; https://github.com/kindrat86/ai-agent-incident-database/blob/main/README.md
+
 ## Self-hosted multilingual document extraction pilot using MonkeyOCRv2 or Mistral OCR 4
 - Status: watch | innovation_adoption
 - Current idea: A small operator can test whether document-heavy workflows that currently require paid OCR, manual transcription, or offshore data entry can be processed locally with lower variable cost and better privacy. The concrete asset is a deployable extraction pipeline for invoices, customs documents, purchase orders, or compliance files—not a generic AI consultancy.
@@ -279,6 +291,18 @@ Candidates: 58
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html
+
+## Chile Open Finance implementation-readiness scanner for small fintechs and accounting platforms
+- Status: watch | open_finance_chile
+- Current idea: A time-bounded compliance and integration window exists before mandatory participation. A narrowly scoped tool that converts the technical annex into endpoint checks, consent-flow tests, directory-readiness checks, and evidence reports could reduce implementation uncertainty without attempting to become a regulated financial-data intermediary.
+- Potential economic capture: Sell a self-serve or manually assisted conformance assessment: upload API specifications, consent-flow screenshots, and test responses; receive a gap report mapped to the CMF technical annex. A later paid product could monitor changes to the developer portal, but recurring demand and willingness to pay are unproven.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://api.cmfchile.cl/
 
 ## Chile publishes technical rules and developer infrastructure for Open Finance, with go-live deferred to July 2027
 - Status: watch | open_finance_chile
@@ -336,7 +360,7 @@ Candidates: 58
   - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
   - Check license perimeter, API access, legal compliance and competitor pricing.
   - Test buyer procurement and technical access before writing integration infrastructure.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Whether ATENA produces an official or procurement-acceptable conformance result, or merely supports development testing.; Whether the CMF will publish formal certification, audit, reporting, or evidence requirements that create demand for an external artifact.; The number of institutions required to participate in each implementation phase and the subset with budget authority for external testing.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html
 

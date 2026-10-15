@@ -785,6 +785,42 @@
       "category": "innovation_adoption",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Fork or locally run the open attack corpus and benchmark harnesses against a toy agent or a consenting test deployment. Create 20-30 tests covering prompt injection, unsafe tool calls, secret leakage, and spend approval; measure false positives, detection rate, latency, and model/API cost. Publish the methodology and ask 10 publicly identifiable software teams or developer communities whether they will submit a redacted workflow for a free baseline. Charge only after a participant requests a repeatable CI report or agrees to a paid pilot. Falsify if the test cannot produce reproducible failures on a real workflow, or if none of 10 relevant teams will submit a workflow, schedule a review, or request a paid rerun. Do not claim certification, legal compliance, or protection against all attacks.",
+      "current_thesis": "Small teams deploying agents may be able to buy or commission a bounded test that identifies whether their agent can be induced to take unauthorized actions. The narrow wedge is an evidence-producing regression pack for one agent workflow, not generic AI consulting or a claim of comprehensive security.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Global; initial distribution can target Chilean and Latin American software teams",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Pre-spend and tool-use regression testing for AI agents using open attack corpora",
+      "opportunity_id": "opp_09bb69601be0706e7219",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a real technical capability not yet adopted in one buyer's high-value workflow.",
+        "Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.",
+        "Measure the fully loaded operating cost, human exceptions and distribution against the status quo."
+      ],
+      "supporting_source_urls": [
+        "https://github.com/AndrewSispoidis/contemporary-agent-attacks",
+        "https://github.com/kindrat86/ai-agent-incident-database/blob/main/README.md"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Potential cash flow comes from a fixed-scope test report, a reusable CI test package, or a low-cost hosted approval check for agent actions. The existence of a public $99/month hosted reference supports testing price sensitivity but does not prove that a new operator can achieve that price or obtain customers.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "innovation_adoption",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Install MonkeyOCRv2 locally and assemble a 50–100-document benchmark from publicly available forms or documents supplied with permission. Compare field-level accuracy, processing time, and total compute cost against the cheapest acceptable paid OCR/API option. Then create one fixed-scope sample output for a document-heavy niche such as bookkeeping, freight forwarding, or import administration and send it to 10 identifiable operators; proceed only if the workflow can be tested without handling confidential data or violating document/API terms. Do not claim a customer, margin, or permission until one is independently obtained.",
       "current_thesis": "A small operator can test whether document-heavy workflows that currently require paid OCR, manual transcription, or offshore data entry can be processed locally with lower variable cost and better privacy. The concrete asset is a deployable extraction pipeline for invoices, customs documents, purchase orders, or compliance files—not a generic AI consultancy.",
       "founder_hours_initial_unverified_estimate": "",
@@ -891,6 +927,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Sell a narrowly scoped downloadable test suite or annual software subscription; alternatively license implementation documentation and automated test cases to participating firms. No buyer, price, or conversion rate is established by the evidence.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Build a local prototype using only the publicly available CMF technical annex and developer-portal materials. Select 5-10 Chilean fintechs, payment providers, accounting platforms, or bank-integration vendors from public directories; do not imply endorsement or regulated status. Offer each a free 30-minute review of one consent or API-flow artifact and ask whether they would pay for a fixed-price readiness report. Falsify if fewer than 2 of 10 relevant operators will provide a real artifact, take a review call, or state a concrete implementation problem. Do not connect to financial accounts or handle user financial data during the test.",
+      "current_thesis": "A time-bounded compliance and integration window exists before mandatory participation. A narrowly scoped tool that converts the technical annex into endpoint checks, consent-flow tests, directory-readiness checks, and evidence reports could reduce implementation uncertainty without attempting to become a regulated financial-data intermediary.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile Open Finance implementation-readiness scanner for small fintechs and accounting platforms",
+      "opportunity_id": "opp_12eb144e4fe2a8d50297",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://api.cmfchile.cl/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a self-serve or manually assisted conformance assessment: upload API specifications, consent-flow screenshots, and test responses; receive a gap report mapped to the CMF technical annex. A later paid product could monitor changes to the developer portal, but recurring demand and willingness to pay are unproven.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -1061,9 +1133,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "Chile",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "Whether ATENA produces an official or procurement-acceptable conformance result, or merely supports development testing.",
+        "Whether the CMF will publish formal certification, audit, reporting, or evidence requirements that create demand for an external artifact.",
+        "The number of institutions required to participate in each implementation phase and the subset with budget authority for external testing.",
+        "Whether banks and major fintechs already have internal conformance harnesses or have contracted large systems integrators.",
+        "Whether the current SFA Sandbox product has paying customers, technical depth, production access, or merely a marketing presence.",
+        "Whether the technical annex, payment-initiation specifications, certificate rules, consent flows, or rollout schedule will change before July 2027.",
+        "Whether external vendors can obtain sufficiently realistic test credentials, certificates, participant-directory data, and payment-initiation fixtures."
       ],
       "investment_authorized": false,
       "name": "Chile SFA conformance-testing wedge ahead of the July 2027 implementation date",
@@ -2240,7 +2316,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-15T00:22:59.891215+00:00",
+  "generated_at": "2026-10-15T04:22:56.134148+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

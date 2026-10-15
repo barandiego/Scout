@@ -1,9 +1,9 @@
 {
   "buyer_qualified_count": 0,
-  "excluded_from_first_dollar_queue": 54,
+  "excluded_from_first_dollar_queue": 56,
   "first_dollar_verified": false,
-  "generated_at": "2026-10-15T00:22:59.849749+00:00",
-  "opportunity_count_reviewed": 58,
+  "generated_at": "2026-10-15T04:22:56.108458+00:00",
+  "opportunity_count_reviewed": 60,
   "revenue_usd_verified": null,
   "schema_version": 1,
   "selected": [
@@ -40,7 +40,7 @@
       "buyer_verified": false,
       "current_status": "WATCH_REQUIRES_VALIDATION",
       "economic_status": "UNVALIDATED_NO_VERIFIED_BUYER_OR_SALE",
-      "first_distribution_hypothesis": "Use the CMF's published NCG 514 Annex 3 and ATENA materials to implement only one testable wedge: a local validator for participant-directory, webhook and authentication flows. Run it against the documented examples/specifications, publish a reproducible open demo, then contact identifiable SFA participants or implementation vendors through public company channels with a request for a paid pilot or technical review; do not represent the tool as CMF-approved. Lowest-cost falsification: spend one week implementing the validator and ask at least three publicly identifiable SFA participants or vendors whether the resulting test report would be useful enough to evaluate in their ATENA/pre-production process. Stop if the specifications are insufficient to produce repeatable tests or no qualified respondent agrees to review it.",
+      "first_distribution_hypothesis": "Start without seeking production access or regulatory permissions: download the CMF NCG 514 materials and developer-portal specifications, build a small validator for one publicly specified data-exchange flow, and test it against self-created fixtures. Then contact Chilean fintechs, banks, cooperatives, card issuers, or implementation vendors only to ask whether they already possess an internal conformance harness and which test artifacts they must produce. Falsification threshold: stop if at least 10 relevant organizations or vendors show no need for external validation, already have equivalent tooling, or cannot identify a budget owner. The verifiable participation catalyst is the CMF's July 2027 implementation target and the publication of technical specifications; no buyer, sale, margin, or permission is assumed.",
       "independent_review_status": "CRITIC_JUDGE_COMPLETE_NOT_COMMERCIAL_PROOF",
       "missing_to_prove": [
         "independent_specific_buyer",
@@ -50,13 +50,13 @@
         "actual_third_party_receipt"
       ],
       "next_no_spend_buyer_test": "Identify one genuinely budget-owning regulated buyer, one conformance failure, and an independently accepted paid software deliverable before coding a broad financial integration.",
-      "opportunity_id": "opp_f696eab5c7c7590b79fa",
+      "opportunity_id": "opp_20f82e47fa9080b32bd2",
       "origin": "EXISTING_SCOUT_WATCH_OR_SURVIVOR_NOT_NEW_OPPORTUNITY",
       "revenue_verified": false,
-      "title": "Chile SFA interoperability test harness for regulated participants",
+      "title": "Chile SFA conformance-testing wedge ahead of the July 2027 implementation date",
       "verified_source_urls": [
         "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://cmfchile.cl/portal/prensa/625/w4-article-113897.html"
+        "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html"
       ],
       "vertical": "open_finance_chile"
     },

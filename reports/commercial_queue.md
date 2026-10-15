@@ -2,8 +2,8 @@
 
 Research assignment only. **Zero verified buyers, sales, or execution permissions.**
 
-- Generated: 2026-10-15T00:22:59.849749+00:00
-- Research cards reviewed: 58
+- Generated: 2026-10-15T04:22:56.108458+00:00
+- Research cards reviewed: 60
 - Narrow ideas selected for founder review: 4
 - Verified third-party receipts: **none**
 
@@ -16,13 +16,13 @@ Research assignment only. **Zero verified buyers, sales, or execution permission
 - Sources: https://www.fne.gob.cl/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-plataformas/; https://group.dhl.com/content/dam/deutschepostdhl/en/media-center/media-relations/documents/2025/e-commerce-trends-report-2025-business-edition.pdf
 - Status: **WATCH — no automated outreach, spending, or execution**
 
-## 2. Chile SFA interoperability test harness for regulated participants
+## 2. Chile SFA conformance-testing wedge ahead of the July 2027 implementation date
 - Origin: existing Scout research; open_finance_chile; no new opportunity claim
 - Next falsifiable no-spend test: Identify one genuinely budget-owning regulated buyer, one conformance failure, and an independently accepted paid software deliverable before coding a broad financial integration.
-- Distribution hypothesis (not verified): Use the CMF's published NCG 514 Annex 3 and ATENA materials to implement only one testable wedge: a local validator for participant-directory, webhook and authentication flows. Run it against the documented examples/specifications, publish a reproducible open demo, then contact identifiable SFA participants or implementation vendors through public company channels with a request for a paid pilot or technical review; do not rep
+- Distribution hypothesis (not verified): Start without seeking production access or regulatory permissions: download the CMF NCG 514 materials and developer-portal specifications, build a small validator for one publicly specified data-exchange flow, and test it against self-created fixtures. Then contact Chilean fintechs, banks, cooperatives, card issuers, or implementation vendors only to ask whether they already possess an internal conformance harness and which te
 - Independent critic/judge: CRITIC_JUDGE_COMPLETE_NOT_COMMERCIAL_PROOF
 - Missing: independent_specific_buyer, written_price_or_paid_commitment, verified_fulfilment_and_unit_cost, distribution_permission_or_channel, actual_third_party_receipt
-- Sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-113897.html
+- Sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html
 - Status: **WATCH — no automated outreach, spending, or execution**
 
 ## 3. BESS and inverter compliance pre-check for Chilean distributed-energy projects

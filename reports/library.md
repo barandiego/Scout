@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-15T00:22:59.849749+00:00
+Generated: 2026-10-15T04:22:56.108458+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 58 (0 HQ survivors, 58 watches)
+- Active research: 60 (0 HQ survivors, 60 watches)
 - Rejected opportunities excluded: 33
-- Critic-and-judge reviewed: 34
+- Critic-and-judge reviewed: 35
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -122,6 +122,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Whether July 2027 is achievable or whether further postponements will occur.; The exact phase-by-phase dates for data access, payment initiation, and different participant groups.; When commercially meaningful API traffic and consumer adoption will emerge.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
+### Chile SFA conformance-testing wedge ahead of the July 2027 implementation date [opp_20f82e47fa9080b32bd2]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Financial institutions and regulated fintech participants will need to translate the CMF technical specifications into interoperable APIs, certificates, consent flows, testing procedures, and operational controls before the revised implementation date. A narrowly scoped testing and evidence asset could reduce integration rework and implementation risk without requiring the operator to become a regulated financial provider.
+- Value capture: A paid, fixed-scope conformance pack: API/schema validation, certificate and signature checks, consent-flow test cases, payment-initiation test cases where applicable, and an exportable evidence report for an institution's internal implementation team. The economic mechanism is payment for reduced engineering and compliance-validation effort; no public evidence establishes a standard price, procurement commitment, or guaranteed buyer.
+- Participation hypothesis: Start without seeking production access or regulatory permissions: download the CMF NCG 514 materials and developer-portal specifications, build a small validator for one publicly specified data-exchange flow, and test it against self-created fixtures. Then contact Chilean fintechs, banks, cooperatives, card issuers, or implementation vendors only to ask whether they already possess an internal conformance harness and which test artifacts they must produce. Falsification threshold: stop if at least 10 relevant organizations or vendors show no n
+- Critic/judge: The regulatory premise appears grounded: CMF NCG 514 is operative, and the CMF primary-source update reportedly added a technical annex/developer portal and moved implementation to July 2027. A pre-production conformance-testing product can plausibly stay outside the regulated-provider perimeter if it neither accesses customer financial data nor initiates payments, and it is framed as development/assurance tooling rather than regulatory
+- Next evidence gaps: Whether ATENA produces an official or procurement-acceptable conformance result, or merely supports development testing.; Whether the CMF will publish formal certification, audit, reporting, or evidence requirements that create demand for an external artifact.; The number of institutions required to participate in each implementation phase and the subset with budget authority for external testing.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html
 
 ### Chile SFA implementation moves from rulemaking to build phase, but go-live is deferred to July 2027 [opp_c1cd86e33e0ccaf8bbbd]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -463,6 +473,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html
 
+### Chile Open Finance implementation-readiness scanner for small fintechs and accounting platforms [opp_12eb144e4fe2a8d50297]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: A time-bounded compliance and integration window exists before mandatory participation. A narrowly scoped tool that converts the technical annex into endpoint checks, consent-flow tests, directory-readiness checks, and evidence reports could reduce implementation uncertainty without attempting to become a regulated financial-data intermediary.
+- Value capture: Sell a self-serve or manually assisted conformance assessment: upload API specifications, consent-flow screenshots, and test responses; receive a gap report mapped to the CMF technical annex. A later paid product could monitor changes to the developer portal, but recurring demand and willingness to pay are unproven.
+- Participation hypothesis: Build a local prototype using only the publicly available CMF technical annex and developer-portal materials. Select 5-10 Chilean fintechs, payment providers, accounting platforms, or bank-integration vendors from public directories; do not imply endorsement or regulated status. Offer each a free 30-minute review of one consent or API-flow artifact and ask whether they would pay for a fixed-price readiness report. Falsify if fewer than 2 of 10 relevant operators will provide a real artifact, take a review call, or state a concrete implementatio
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://api.cmfchile.cl/
+
 ### Chile SFA API conformance and test-harness wedge [opp_56dda86b89972247ff94]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: Regulated information providers, account providers, information-service providers, and payment-initiation providers have a bounded implementation and testing obligation before the July 2027 operating date. The directly monetizable problem is not generic fintech demand; it is reducing failed integration, security-test, data-quality, certificate, and regression-test work against the CMF-defined interface requirements.
@@ -472,16 +492,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/normativa/ncg_514_2024.pdf
-
-### Chile SFA conformance-testing wedge ahead of the July 2027 implementation date [opp_20f82e47fa9080b32bd2]
-- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
-- Thesis: Financial institutions and regulated fintech participants will need to translate the CMF technical specifications into interoperable APIs, certificates, consent flows, testing procedures, and operational controls before the revised implementation date. A narrowly scoped testing and evidence asset could reduce integration rework and implementation risk without requiring the operator to become a regulated financial provider.
-- Value capture: A paid, fixed-scope conformance pack: API/schema validation, certificate and signature checks, consent-flow test cases, payment-initiation test cases where applicable, and an exportable evidence report for an institution's internal implementation team. The economic mechanism is payment for reduced engineering and compliance-validation effort; no public evidence establishes a standard price, procurement commitment, or guaranteed buyer.
-- Participation hypothesis: Start without seeking production access or regulatory permissions: download the CMF NCG 514 materials and developer-portal specifications, build a small validator for one publicly specified data-exchange flow, and test it against self-created fixtures. Then contact Chilean fintechs, banks, cooperatives, card issuers, or implementation vendors only to ask whether they already possess an internal conformance harness and which test artifacts they must produce. Falsification threshold: stop if at least 10 relevant organizations or vendors show no n
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html
 
 ### Chile SFA implementation moves from rulemaking to integration testing [opp_82f282d8dc0896390ee7]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -542,6 +552,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
+
+### Pre-spend and tool-use regression testing for AI agents using open attack corpora [opp_09bb69601be0706e7219]
+- Status: WATCH_REQUIRES_VALIDATION | innovation_adoption | Global; initial distribution can target Chilean and Latin American software teams
+- Thesis: Small teams deploying agents may be able to buy or commission a bounded test that identifies whether their agent can be induced to take unauthorized actions. The narrow wedge is an evidence-producing regression pack for one agent workflow, not generic AI consulting or a claim of comprehensive security.
+- Value capture: Potential cash flow comes from a fixed-scope test report, a reusable CI test package, or a low-cost hosted approval check for agent actions. The existence of a public $99/month hosted reference supports testing price sensitivity but does not prove that a new operator can achieve that price or obtain customers.
+- Participation hypothesis: Fork or locally run the open attack corpus and benchmark harnesses against a toy agent or a consenting test deployment. Create 20-30 tests covering prompt injection, unsafe tool calls, secret leakage, and spend approval; measure false positives, detection rate, latency, and model/API cost. Publish the methodology and ask 10 publicly identifiable software teams or developer communities whether they will submit a redacted workflow for a free baseline. Charge only after a participant requests a repeatable CI report or agrees to a paid pilot. Falsi
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://github.com/AndrewSispoidis/contemporary-agent-attacks; https://github.com/kindrat86/ai-agent-incident-database/blob/main/README.md
 
 ### Public-building ESCO measurement and verification subcontractor [opp_bf2c12a513145f51fe3a]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile, public buildings and municipalities with measurable electricity or thermal consumption
