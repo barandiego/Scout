@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 63
+Candidates: 65
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -28,18 +28,6 @@ Candidates: 63
 - Possible initial budget:
 - Source URLs: https://www.sosmee.com/; https://tnfc.cl/; https://publico.transbank.cl/productos-y-servicios/soluciones-para-ventas-presenciales/pocket-pos
 
-## NFC review-and-reservation hardware for high-turnover hospitality locations
-- Status: watch | competitive_positioning
-- Current idea: The executable wedge is not generic NFC consulting or a new technology platform: it is a low-cost, preconfigured physical placement kit for a narrowly chosen venue type, such as independent cafés, barber shops or small hotels, with separate landing pages for reviews, reservations and WhatsApp. Existing products create price competition, so differentiation must be tested through a specific venue workflow or channel.
-- Potential economic capture: One-time sale of a physical NFC/QR stand or card, potentially bundled with setup and destination configuration. Existing public prices provide a purchase benchmark, not a justified margin or guaranteed willingness to pay.
-- **Research routes to test (NOT validated claims):**
-  - Segment the incumbent market by customers who pay too much or wait too long for one outcome.
-  - Offer materially different positioning, delivery, price or specialisation with clear unit economics.
-  - Test switching and repeat purchase evidence before scaling acquisition.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://www.aither.cl/tap/; https://www.ondda.cl/; https://publico.transbank.cl/productos-y-servicios/soluciones-para-ventas-presenciales/autoservicio-estandar
-
 ## Narrow Chilean e-commerce returns-recovery test for one product category
 - Status: watch | ecommerce_niches
 - Current idea: There may be recoverable value in returned, refused, or lightly damaged inventory, but the evidence does not establish a standalone Chilean market, buyer, or margin. The executable wedge is a tightly bounded consignment experiment with one seller and one category, not a broad returns marketplace.
@@ -63,6 +51,18 @@ Candidates: 63
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.bcn.cl/leychile/navegar?i=1212631; https://www.cne.cl/tarificacion/electrica/
+
+## Battery-project dispatch and revenue-stack verification for Texas and California assets
+- Status: watch | energy_infrastructure
+- Current idea: More battery assets create a concrete need to verify whether dispatch behavior, market participation, and operating data support the revenue assumptions used in project financing, acquisition, or asset-management decisions.
+- Potential economic capture: A low-cost independent data product that reconciles public generation, price, outage, and interconnection data for a named battery project or project portfolio, producing an evidence pack for diligence or post-commissioning performance review. The offer is valuable only if a project owner, lender, buyer, or operator confirms that the analysis is used in a transaction or operating decision.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.eia.gov/todayinenergy/detail.php?id=67925; https://www.eia.gov/todayinenergy/detail.php?id=66164
 
 ## Battery-storage interconnection and operating-data screening for project developers
 - Status: watch | energy_infrastructure
@@ -352,6 +352,18 @@ Candidates: 63
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
+## Chile SFA API conformance and sandbox test asset
+- Status: watch | open_finance_chile
+- Current idea: Financial institutions and participating fintechs face a concrete interoperability and implementation deadline. A reusable conformance harness can reduce integration uncertainty before production testing, especially for authorization details, data scopes, API behavior, security, and payment-initiation edge cases.
+- Potential economic capture: A paid implementation-readiness artifact: executable API contract tests, synthetic data fixtures, authorization-scope validation, error-case tests, and a machine-readable conformance report. Revenue would come from a fixed-scope technical assessment or integration-support engagement, not from access to regulated financial data.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/615/articles-96819_doc_pdf.pdf
+
 ## Chile SFA API conformance and test-harness wedge
 - Status: watch | open_finance_chile
 - Current idea: Regulated information providers, account providers, information-service providers, and payment-initiation providers have a bounded implementation and testing obligation before the July 2027 operating date. The directly monetizable problem is not generic fintech demand; it is reducing failed integration, security-test, data-quality, certificate, and regression-test work against the CMF-defined interface requirements.
@@ -603,6 +615,18 @@ Candidates: 63
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.bis.org/media-releases/20250624-next-generation-monetary-and-financial-system-takes-shape-based-tokenised-unified-ledger-bis; https://www.bis.org/publications/aer-2025/next-generation-monetary-financial-system
+
+## Tokenized-fund ledger reconciliation and allowlist-control test harness
+- Status: watch | open_finance_chile
+- Current idea: Tokenization does not eliminate transfer-agent and fund-administration work; it adds reconciliation, exception handling, wallet eligibility, and audit evidence that must operate across blockchain and traditional books and records.
+- Potential economic capture: A narrowly scoped software or testing asset that validates tokenized-share workflows: wallet allowlist changes, mint/burn events, investor-record reconciliation, transfer restrictions, failed transactions, and audit-log completeness. The economic mechanism is avoided operational error and faster pre-launch or vendor acceptance testing, not a claim of regulatory approval.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.sec.gov/Archives/edgar/data/843781/000003014626000437/cik0000843781_102708.htm; https://www.sec.gov/Archives/edgar/data/831114/000139834426000957/fp0097248-1_40app.htm
 
 ## Natura Chile catalog and corporate-gifting wedge across Natura.cl and Falabella.com
 - Status: watch | physical_distribution

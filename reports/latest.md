@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-15T12:27:34.150823+00:00
+Generated: 2026-10-15T16:25:09.305786+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['robotics_automation', 'energy_industrial', 'mining_materials']
+- lenses: ['tokenization_finance', 'business_model_migration', 'cost_curve']
 - raw_candidates: 3
 - parseable_candidates: 3
 - normalized_candidates: 3
 - normalization_rejected: 0
-- grounded_sources: 7
+- grounded_sources: 6
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 1
+- judge_attempts: 0
 - critic_reviews: 1
-- judge_reviews: 1
+- judge_reviews: 0
 - survivors: 0
-- watches: 4
-- rejected: 0
+- watches: 3
+- rejected: 1
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.05715215
+- cost_usd: 0.04094715
 - cost_uncertain: False
-- budget_remaining_usd: 0.02284785
+- budget_remaining_usd: 0.03905285
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,9 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Public-building ESCO measurement and verification subcontractor: deferred_by_review_cap
-- Natura Chile catalog and corporate-gifting wedge across Natura.cl and Falabella.com: deferred_by_review_cap
-- Self-hosted multilingual document extraction pilot using MonkeyOCRv2 or Mistral OCR 4: deferred_by_review_cap
 - Compliance-and-integration tooling for Chile's Open Finance implementation: deferred_by_review_cap
 - Testing and workflow infrastructure around DTCC tokenized-security settlement: deferred_by_review_cap
 - Chile SFA API conformance and test-harness wedge: deferred_by_review_cap
@@ -51,12 +48,15 @@ No survivors. Scout does not manufacture a daily winner.
 - Battery-storage interconnection and operating-data screening for project developers: deferred_by_review_cap
 - Small-factory robot deployment and commissioning wedge focused on food-sector applications: deferred_by_review_cap
 - Rare-earth secondary-material sourcing and assay brokerage as a testable micro-wedge: deferred_by_review_cap
+- Chile SFA API conformance and sandbox test asset: deferred_by_review_cap
+- Tokenized-fund ledger reconciliation and allowlist-control test harness: deferred_by_review_cap
+- Battery-project dispatch and revenue-stack verification for Texas and California assets: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "research_queue_unreviewed=24"
+    "research_queue_unreviewed=26"
   ],
   "stages": [
     {
@@ -64,41 +64,43 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 33,
+      "grounded_source_count": 35,
       "search_source_urls": [
-        "https://data.usgs.gov/datacatalog/data/USGS%3A6798f088d34ea8c18376e7f9",
-        "https://github.com/RoboticsCenter/OpenArm",
-        "https://github.com/anvil-robotics/openarm",
-        "https://github.com/estods3/raspberrypi-LiteArmi2",
-        "https://github.com/nexform-tech/litearm-mujoco",
-        "https://github.com/roboninecom/SO-ARM-102",
-        "https://ifr.org/downloads/press_docs/2025-09-25-IFR_press_release_Americas_in_English.pdf",
-        "https://ifr.org/downloads/press_docs/PressConference2025_presentation.pdf",
-        "https://ifr.org/ifr-press-releases/global-robot-demand-in-factories-doubles-over-10-years",
-        "https://ifr.org/ifr-press-releases/news/us-robot-industry-returns-to-double-digit-growth",
-        "https://ifr.org/ifr-press-releases/top-5-global-robotics-trends-2025",
-        "https://ifr.org/img/worldrobotics/2023_WR_extended_version.pdf",
-        "https://ifr.org/img/worldrobotics/Contents_WR_2025_Industrial_Robots.pdf",
-        "https://ifr.org/img/worldrobotics/Executive_Summary_WR_2025_Industrial_Robots.pdf",
-        "https://ifr.org/news/five-million-robots-now-operate-in-factories-globally/",
-        "https://ifr.org/post/exciting-times-for-robot-suppliers",
-        "https://ifr.org/wr-industrial-robots",
-        "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025.pdf",
-        "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025_ver.1.0.pdf",
-        "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf",
-        "https://pubs.usgs.gov/publication/mcs2025",
-        "https://www.eia.gov/analysis/studies/electricity/batterystorage/?trk=public_post_comment-text",
-        "https://www.eia.gov/electricity/data/eia861m/index.php",
+        "https://cmfchile.cl/normativa/ncg_514_2024.pdf",
+        "https://cmfchile.cl/portal/prensa/615/articles-96819_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-92449.html",
+        "https://www.cmfchile.cl/portal/principal/613/articles-98509_recurso_1.pdf",
+        "https://www.eia.gov/TODAYINENERGY/detail.php?id=54939",
+        "https://www.eia.gov/analysis/studies/electricity/batterystorage/?trk=public_post-text",
+        "https://www.eia.gov/analysis/studies/powerplants/capitalcost/pdf/capital_cost_AEO2025.pdf",
+        "https://www.eia.gov/electricity/generatorcosts/",
+        "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=table_6_07_c",
         "https://www.eia.gov/outlooks/steo/archives/jan25.pdf",
-        "https://www.eia.gov/todayinEnergy/detail.php?id=67745",
-        "https://www.eia.gov/todayinenergy/detail.php?id=54939&quot=",
-        "https://www.eia.gov/todayinenergy/detail.php?id=64705",
+        "https://www.eia.gov/todayinenergy/detail.php?id=66164",
         "https://www.eia.gov/todayinenergy/detail.php?id=67925",
-        "https://www.eia.gov/todayinenergy/index.php?tg=storage+capacity",
-        "https://www.ferc.gov/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.ferc.gov%2Fsites%2Fdefault%2Ffiles%2F2025-05%2FTX25-4-000.pdf",
-        "https://www.iea.org/reports/global-critical-minerals-outlook-2025",
-        "https://www.usgs.gov/centers/national-minerals-information-center/mineral-commodity-summaries",
-        "https://www.usgs.gov/programs/mineral-resources-program/science/about-2025-list-critical-minerals"
+        "https://www.energy.gov/sites/default/files/2024-12/BABA%20WAV%202025-13%20Proposed%20Project%20Specific%20Nonavailability%20Batteries%20Dairyland%20.pdf",
+        "https://www.sec.gov/Archives/edgar/data/0001876042/000187604226000116/a2025annualreport0331.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1659326/000119312526217424/d44657d485bpos.htm",
+        "https://www.sec.gov/Archives/edgar/data/1697748/000121390026086478/ea0301027-01_40appa.htm",
+        "https://www.sec.gov/Archives/edgar/data/1859001/000121465925016843/wtd1114250497.htm",
+        "https://www.sec.gov/Archives/edgar/data/1976672/000121390026104470/ea0306886-01_485apos.htm",
+        "https://www.sec.gov/Archives/edgar/data/2034269/000095010326007551/dp247035_425-cepiii.htm",
+        "https://www.sec.gov/Archives/edgar/data/2045872/000119312526349138/bsol-20260813.htm",
+        "https://www.sec.gov/Archives/edgar/data/2082126/000168316826006671/groestate_1aa1.htm",
+        "https://www.sec.gov/Archives/edgar/data/831114/000139834426000957/fp0097248-1_40app.htm",
+        "https://www.sec.gov/Archives/edgar/data/843781/000003014626000437/cik0000843781_102708.htm",
+        "https://www.sec.gov/Archives/edgar/data/844779/000119312526327203/d283147d485bpos.htm",
+        "https://www.sec.gov/Archives/edgar/data/868278/000149315225018798/formpre14a.htm",
+        "https://www.sec.gov/Archives/edgar/data/917286/000091728625000055/filename1.htm",
+        "https://www.sec.gov/Archives/edgar/data/917286/000113322825002995/filename13.htm",
+        "https://www.sec.gov/about/crypto-task-force/written-submission/ctf-written-vertalo-sec-comment-letter-07-16-2026",
+        "https://www.sec.gov/comments/S7-2026-30/s7202630-1029899-3402487.pdf",
+        "https://www.sec.gov/featured-topics/crypto-task-force/crypto-task-force-written-input",
+        "https://www.sec.gov/files/cft-written-wall-street-blockchain-august-2026.pdf",
+        "https://www.sec.gov/files/cft-written-wall-street-blockchain-august-2026.pdf?trk=article-ssr-frontend-pulse_little-text-block",
+        "https://www.sec.gov/files/ctf-input-digital-asset-holdings-2025-02-25.pdf",
+        "https://www.sec.gov/files/rules/proposed/2026/34-106246.pdf"
       ]
     },
     {
@@ -113,7 +115,7 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 3,
+      "grounded_sources": 2,
       "retry_justified": false
     },
     {
@@ -148,103 +150,74 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_8c5a7467be93278a7fb8",
+      "candidate_id": "opp_0400e97744c8993f2c8d",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 29,
+      "grounded_source_count": 25,
       "search_source_urls": [
-        "https://arxiv.org/abs/2005.01320",
-        "https://arxiv.org/abs/2605.30650",
-        "https://arxiv.org/abs/2609.27994",
-        "https://cmfchile.cl/portal/prensa/625/w4-article-113897.html",
-        "https://en.wikipedia.org/wiki/Draft%3AFinancial-grade_API",
-        "https://en.wikipedia.org/wiki/Open_banking",
-        "https://en.wikipedia.org/wiki/Open_finance",
-        "https://en.wikipedia.org/wiki/PEPPOL",
-        "https://es.wikipedia.org/wiki/Bolsa_Electr%C3%B3nica_de_Chile",
-        "https://es.wikipedia.org/wiki/Superintendencia_de_Bancos_e_Instituciones_Financieras_de_Chile",
-        "https://one.oecd.org/document/DAF/COMP/LACCF%282024%2916/en/pdf",
-        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA",
-        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437591/v1.0.0%2B-%2BModelo%2Bde%2BOperaci%2Bn%2Be%2BIntegraci%2Bn%2Bdel%2BDirectorio",
-        "https://openfinanceconnect.cl/",
-        "https://openfinanceconnect.cl/en/",
-        "https://ozoneapi.com/the-open-finance-tracker/library/open-finance-system-sistema-de-finanzas-abiertas-sfa-chile/",
-        "https://www.bcentral.cl/documents/33528/7849961/Financial%2BStability%2BReport%2BSecond%2BHalf%2B2025.pdf/83c6bb57-4793-0438-3959-bfd68fea216f?t=1765546573527",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/principal/613/articles-82752_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-77242.html",
-        "https://www.elibrary.imf.org/view/journals/002/2024/042/article-A003-en.xml",
-        "https://www.imf.org/-/media/files/publications/cr/2023/english/1chlea2023002.pdf",
-        "https://www.mastercard.us/content/dam/public/mastercardcom/na/us/en/fintech/documents/fintech-radar-chile-report.pdf",
-        "https://www.minsait.com/es/estudios/open-finance-en-chile-de-la-implementacion-regulatoria-a-la-oportunidad-de-negocio",
-        "https://www.reddit.com/r/fintech/comments/1o0ksky/is_there_a_way_to_simplify_compliance_for/",
-        "https://www.reddit.com/r/fintech/comments/1stbnv0/is_security_compliance_becoming_a_bigger_priority/",
-        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000069/MNCenglish.pdf"
+        "https://arxiv.org/abs/2312.01981",
+        "https://arxiv.org/abs/2401.11345",
+        "https://ec.europa.eu/competition/mergers/cases/decisions/m8306_3479_3.pdf",
+        "https://en.wikipedia.org/wiki/Google_Wallet",
+        "https://en.wikipedia.org/wiki/List_of_digital_keys_in_mobile_wallets",
+        "https://en.wikipedia.org/wiki/Yelp",
+        "https://es.wikipedia.org/wiki/Lynqu",
+        "https://es.wikipedia.org/wiki/Pago_m%C3%B3vil",
+        "https://pdf.marketpublishers.com/stratistics/qr-nfc-codes-market-strat.pdf",
+        "https://puntua.cl/",
+        "https://pymevisible.cl/",
+        "https://pymevisible.cl/stand-nfc-qr",
+        "https://resenafacil.cl/",
+        "https://reviewstandapp.com/",
+        "https://services.google.com/fh/files/misc/dine22infographic.pdf",
+        "https://shootingindustry.com/wp-content/uploads/2024/03/SI0424.pdf",
+        "https://tarjetasdigitaleschile.cl/resenas-en-google",
+        "https://vluetechservices.cl/catalogo/",
+        "https://vluetechservices.cl/index.html",
+        "https://www.digitaltransactions.net/wp-content/uploads/2020/09/DT-October2020.pdf",
+        "https://www.google.com/maps/contrib/102260181850401369886/reviews",
+        "https://www.google.com/maps/contrib/115560476436039541260/reviews?hl=es-419",
+        "https://www.google.com/streetview/hire/Power-of-maps-listings.pdf",
+        "https://www.larefactoria.cl/google-negocios",
+        "https://www.opinapp.cl/"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_8c5a7467be93278a7fb8",
-      "coercions": []
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_8c5a7467be93278a7fb8",
-      "response_status": "completed",
-      "incomplete_reason": "",
-      "grounded_source_count": 0,
-      "search_source_urls": []
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_8c5a7467be93278a7fb8",
-      "coercions": []
+      "candidate_id": "opp_0400e97744c8993f2c8d",
+      "coercions": [
+        "contrary_evidence"
+      ]
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 402,
-      "cache_write_tokens": 5452,
+      "reasoning_tokens": 489,
+      "cache_write_tokens": 5538,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.027195,
+      "cumulative_cost_usd": 0.0272921,
       "model": "gpt-5.6-luna",
-      "input_tokens": 21952,
+      "input_tokens": 22422,
       "cached_tokens": 0,
-      "output_tokens": 2110,
+      "output_tokens": 2109,
       "web_search_calls": 2,
-      "estimated_cost_usd": 0.027195
+      "estimated_cost_usd": 0.0272921
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 190,
-      "cache_write_tokens": 5415,
+      "reasoning_tokens": 150,
+      "cache_write_tokens": 5353,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.04172315,
+      "cumulative_cost_usd": 0.04094715,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13823,
+      "input_tokens": 9695,
       "cached_tokens": 0,
-      "output_tokens": 1244,
+      "output_tokens": 1207,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01452815
-    },
-    {
-      "stage": "judge",
-      "available": true,
-      "reasoning_tokens": 0,
-      "cache_write_tokens": 3198,
-      "accounting_notes": [],
-      "cumulative_cost_usd": 0.05715215,
-      "model": "gpt-5.6-terra",
-      "input_tokens": 3201,
-      "cached_tokens": 0,
-      "output_tokens": 619,
-      "web_search_calls": 0,
-      "estimated_cost_usd": 0.015429
+      "estimated_cost_usd": 0.01365505
     }
   ]
 }

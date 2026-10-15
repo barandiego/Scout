@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-15T12:27:34.459002+00:00
+Generated: 2026-10-15T16:25:09.649131+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 63 (0 HQ survivors, 63 watches)
-- Rejected opportunities excluded: 34
+- Active research: 65 (0 HQ survivors, 65 watches)
+- Rejected opportunities excluded: 35
 - Critic-and-judge reviewed: 36
 - Autonomous execution authorization: 0
 
@@ -413,16 +413,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.fne.gob.cl/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-pl; https://group.dhl.com/content/dam/deutschepostdhl/en/media-center/media-relations/documents/2025/e-commerce-trends-report-2025-business-edition.pdf; https://www.trade.gov/country-commercial-guides/chile-ecommerce
 
-### NFC review-and-reservation hardware for high-turnover hospitality locations [opp_0400e97744c8993f2c8d]
-- Status: WATCH_REQUIRES_VALIDATION | competitive_positioning | Chile
-- Thesis: The executable wedge is not generic NFC consulting or a new technology platform: it is a low-cost, preconfigured physical placement kit for a narrowly chosen venue type, such as independent cafés, barber shops or small hotels, with separate landing pages for reviews, reservations and WhatsApp. Existing products create price competition, so differentiation must be tested through a specific venue workflow or channel.
-- Value capture: One-time sale of a physical NFC/QR stand or card, potentially bundled with setup and destination configuration. Existing public prices provide a purchase benchmark, not a justified margin or guaranteed willingness to pay.
-- Participation hypothesis: Select one venue category and reproduce a basic NFC/QR prototype using off-the-shelf tags and a printed stand. Approach 20 independent venues through in-person visits or local business groups, offering a measurable two-week pilot that routes to the venue’s existing Google review or booking page. Falsify if no venue agrees to install the prototype, if scans are negligible, or if prospects will not pay at least the observed local retail benchmark after seeing the test. Do not claim increased reviews, bookings or ranking without measured results.
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.aither.cl/tap/; https://www.ondda.cl/; https://publico.transbank.cl/productos-y-servicios/soluciones-para-ventas-presenciales/autoservicio-estandar
-
 ### Pre-build testing and integration wedge for Chile's Open Finance System [opp_de6bbd059c9fa7fd72e5]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: The immediate opportunity is not regulated financial intermediation; it is a narrow test asset for prospective participants: a conformance checklist, sandbox integration harness, consent-flow test suite or API observability package. The delay creates time for validation, but no buyer demand or permission to operate as a regulated participant is established.
@@ -473,6 +463,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.bcn.cl/leychile/navegar?i=1212631; https://www.cne.cl/tarificacion/electrica/
 
+### Battery-project dispatch and revenue-stack verification for Texas and California assets [opp_85d154e0b319e93cb301]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States, especially Texas and California
+- Thesis: More battery assets create a concrete need to verify whether dispatch behavior, market participation, and operating data support the revenue assumptions used in project financing, acquisition, or asset-management decisions.
+- Value capture: A low-cost independent data product that reconciles public generation, price, outage, and interconnection data for a named battery project or project portfolio, producing an evidence pack for diligence or post-commissioning performance review. The offer is valuable only if a project owner, lender, buyer, or operator confirms that the analysis is used in a transaction or operating decision.
+- Participation hypothesis: Start with one public battery asset in ERCOT or CAISO. Combine EIA plant data, ISO market-price/dispatch data, and public interconnection or permitting records into a reproducible report comparing expected versus observed availability, charging/discharging timing, and price-arbitrage exposure. Send the report to the asset owner, lender, broker, or energy-market consultant and ask for a paid review or permission to analyze a second asset; do not infer project EBITDA or claim access to proprietary bids. Lowest-cost falsification: complete one ass
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.eia.gov/todayinenergy/detail.php?id=67925; https://www.eia.gov/todayinenergy/detail.php?id=66164
+
 ### Battery-storage interconnection and operating-data screening for project developers [opp_266f64450c92dcaf56b6]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States, with an initial focus on California and Texas
 - Thesis: The investable or entrepreneurial wedge is not generic battery consulting; it is a small, auditable screening product that identifies projects with visible capacity, queue, transmission, permitting, or operating-data events that may change development priority or transaction timing.
@@ -512,6 +512,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://api.cmfchile.cl/
+
+### Chile SFA API conformance and sandbox test asset [opp_b77b2be77b5c75b13b93]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Financial institutions and participating fintechs face a concrete interoperability and implementation deadline. A reusable conformance harness can reduce integration uncertainty before production testing, especially for authorization details, data scopes, API behavior, security, and payment-initiation edge cases.
+- Value capture: A paid implementation-readiness artifact: executable API contract tests, synthetic data fixtures, authorization-scope validation, error-case tests, and a machine-readable conformance report. Revenue would come from a fixed-scope technical assessment or integration-support engagement, not from access to regulated financial data.
+- Participation hypothesis: Use the CMF NCG 514 technical material and developer documentation to build a small mock provider/consumer harness with synthetic accounts and payment requests. Distribute it as a technical preview to Chilean fintechs, banks, account-information service applicants, and integration vendors through direct outreach or relevant fintech developer communities. Lowest-cost falsification: implement the highest-risk 10 endpoint and authorization cases, then request review from five identifiable Chilean fintech or banking integration teams; count only a
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/615/articles-96819_doc_pdf.pdf
 
 ### Chile SFA API conformance and test-harness wedge [opp_56dda86b89972247ff94]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -642,3 +652,13 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.bis.org/media-releases/20250624-next-generation-monetary-and-financial-system-takes-shape-based-tokenised-unified-ledger-bis; https://www.bis.org/publications/aer-2025/next-generation-monetary-financial-system
+
+### Tokenized-fund ledger reconciliation and allowlist-control test harness [opp_660a3aa8f1b5b77975e4]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | United States
+- Thesis: Tokenization does not eliminate transfer-agent and fund-administration work; it adds reconciliation, exception handling, wallet eligibility, and audit evidence that must operate across blockchain and traditional books and records.
+- Value capture: A narrowly scoped software or testing asset that validates tokenized-share workflows: wallet allowlist changes, mint/burn events, investor-record reconciliation, transfer restrictions, failed transactions, and audit-log completeness. The economic mechanism is avoided operational error and faster pre-launch or vendor acceptance testing, not a claim of regulatory approval.
+- Participation hypothesis: Build a local test harness against the publicly described workflows and SEC filing requirements using synthetic investor, wallet, mint, burn, and reconciliation events. Publish a short reproducible test report and approach fund administrators, digital transfer agents, transfer-agent vendors, or tokenization platforms only for a paid technical evaluation or subcontracted implementation; do not handle securities, custody, KYC decisions, or production wallets. Lowest-cost falsification: obtain one public tokenized-fund filing, implement 10-20 synt
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/843781/000003014626000437/cik0000843781_102708.htm; https://www.sec.gov/Archives/edgar/data/831114/000139834426000957/fp0097248-1_40app.htm

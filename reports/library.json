@@ -3385,67 +3385,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-13T12:16:52.374043+00:00",
-      "discovery_lens": "market_positioning",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "A Chilean supplier sells physical NFC/QR products routing users to Google Reviews, Instagram or WhatsApp, with a listed price starting at CLP 34,990 and no monthly fee.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "AITHER TAP — NFC + QR para conectar con tus clientes",
-          "url": "https://www.aither.cl/tap/"
-        },
-        {
-          "claim": "A Chilean supplier lists NFC stands and cards for businesses, including products priced at CLP 19,990, CLP 24,990 and CLP 29,990.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "Soluciones NFC para negocios en Chile | ONDDA",
-          "url": "https://www.ondda.cl/"
-        },
-        {
-          "claim": "Transbank documents Chilean acceptance of debit, credit, prepaid cards and NFC wallets in its self-service payment solution.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Autoservicio estándar | Transbank",
-          "url": "https://publico.transbank.cl/productos-y-servicios/soluciones-para-ventas-presenciales/autoservicio-estandar"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.86,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_0400e97744c8993f2c8d",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-13T12:16:52.392730+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Select one venue category and reproduce a basic NFC/QR prototype using off-the-shelf tags and a printed stand. Approach 20 independent venues through in-person visits or local business groups, offering a measurable two-week pilot that routes to the venue’s existing Google review or booking page. Falsify if no venue agrees to install the prototype, if scans are negligible, or if prospects will not pay at least the observed local retail benchmark after seeing the test. Do not claim increased reviews, bookings or ranking without measured results.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "The executable wedge is not generic NFC consulting or a new technology platform: it is a low-cost, preconfigured physical placement kit for a narrowly chosen venue type, such as independent cafés, barber shops or small hotels, with separate landing pages for reviews, reservations and WhatsApp. Existing products create price competition, so differentiation must be tested through a specific venue workflow or channel.",
-      "title": "NFC review-and-reservation hardware for high-turnover hospitality locations",
-      "type": "localized_physical_product",
-      "unknowns": [],
-      "value_capture_mechanism": "One-time sale of a physical NFC/QR stand or card, potentially bundled with setup and destination configuration. Existing public prices provide a purchase benchmark, not a justified margin or guaranteed willingness to pay.",
-      "verified_sales": null,
-      "vertical": "competitive_positioning",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-14T16:27:32.217293+00:00",
       "discovery_lens": "underserved_buyers",
       "estimated_capital": "",
@@ -3744,6 +3683,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-15T16:24:52.024890+00:00",
+      "discovery_lens": "cost_curve",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "EIA reports nearly 52 GW of U.S. utility-scale battery nameplate capacity by the first half of 2026 and 54 GW of additional capacity planned over the next two and a half years.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "EIA: Battery storage capacity averaged 70% growth over the last three years",
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=67925"
+        },
+        {
+          "claim": "EIA identifies price arbitrage—buying electricity at low prices and selling at high prices—as an increasingly prevalent primary use of utility-scale batteries.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "EIA: Utility-scale batteries are more commonly used for price arbitrage",
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=66164"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.8,
+      "falsification_conditions": [],
+      "geography": "United States, especially Texas and California",
+      "id": "opp_85d154e0b319e93cb301",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-15T16:24:52.047504+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Start with one public battery asset in ERCOT or CAISO. Combine EIA plant data, ISO market-price/dispatch data, and public interconnection or permitting records into a reproducible report comparing expected versus observed availability, charging/discharging timing, and price-arbitrage exposure. Send the report to the asset owner, lender, broker, or energy-market consultant and ask for a paid review or permission to analyze a second asset; do not infer project EBITDA or claim access to proprietary bids. Lowest-cost falsification: complete one asset report in under one week and seek three concrete reactions—data correction, request for a second asset, or paid diligence. If none occurs, reject the opportunity.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "More battery assets create a concrete need to verify whether dispatch behavior, market participation, and operating data support the revenue assumptions used in project financing, acquisition, or asset-management decisions.",
+      "title": "Battery-project dispatch and revenue-stack verification for Texas and California assets",
+      "type": "market-data_and_operations_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "A low-cost independent data product that reconciles public generation, price, outage, and interconnection data for a named battery project or project portfolio, producing an evidence pack for diligence or post-commissioning performance review. The offer is valuable only if a project owner, lender, buyer, or operator confirms that the analysis is used in a transaction or operating decision.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-15T12:27:09.529656+00:00",
       "discovery_lens": "energy_industrial",
       "estimated_capital": "",
@@ -3950,6 +3943,60 @@
       "type": "regulatory-enablement_tool",
       "unknowns": [],
       "value_capture_mechanism": "Sell a self-serve or manually assisted conformance assessment: upload API specifications, consent-flow screenshots, and test responses; receive a gap report mapped to the CMF technical annex. A later paid product could monitor changes to the developer portal, but recurring demand and willingness to pay are unproven.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-15T16:24:52.024042+00:00",
+      "discovery_lens": "business_model_migration",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF states that the modification adds technical specifications for information exchange and payment initiation, creates a developer portal, and postpones entry into force until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF modifies SFA regulation and adds technical annex",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        },
+        {
+          "claim": "The document provides implementation material for the Chilean Sistema de Finanzas Abiertas regulated by NCG 514.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF SFA implementation document, NCG 514",
+          "url": "https://cmfchile.cl/portal/prensa/615/articles-96819_doc_pdf.pdf"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.9,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_b77b2be77b5c75b13b93",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-15T16:24:52.047237+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use the CMF NCG 514 technical material and developer documentation to build a small mock provider/consumer harness with synthetic accounts and payment requests. Distribute it as a technical preview to Chilean fintechs, banks, account-information service applicants, and integration vendors through direct outreach or relevant fintech developer communities. Lowest-cost falsification: implement the highest-risk 10 endpoint and authorization cases, then request review from five identifiable Chilean fintech or banking integration teams; count only a request for a paid assessment, test review, or access to a formal procurement process as validation. Do not claim CMF certification or production permission.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Financial institutions and participating fintechs face a concrete interoperability and implementation deadline. A reusable conformance harness can reduce integration uncertainty before production testing, especially for authorization details, data scopes, API behavior, security, and payment-initiation edge cases.",
+      "title": "Chile SFA API conformance and sandbox test asset",
+      "type": "regulatory_implementation_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "A paid implementation-readiness artifact: executable API contract tests, synthetic data fixtures, authorization-scope validation, error-case tests, and a machine-readable conformance report. Revenue would come from a fixed-scope technical assessment or integration-support engagement, not from access to regulated financial data.",
       "verified_sales": null,
       "vertical": "open_finance_chile",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
@@ -4656,18 +4703,72 @@
       "vertical": "open_finance_chile",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-15T16:24:52.023096+00:00",
+      "discovery_lens": "tokenization_finance",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The fund describes Token-Enabled shares, traditional official books and records, blockchain mirroring, purchases through BNY, and a constant $1 NAV structure.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "BNY Dreyfus Treasury Securities Cash Management prospectus: Token-Enabled shares",
+          "url": "https://www.sec.gov/Archives/edgar/data/843781/000003014626000437/cik0000843781_102708.htm"
+        },
+        {
+          "claim": "The filing describes whitelisted wallets, digital-register reconciliation with transfer-agent records at least daily, transfer restrictions, and risks from discrepancies or delayed processing.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Superstate tokenized ETF filing",
+          "url": "https://www.sec.gov/Archives/edgar/data/831114/000139834426000957/fp0097248-1_40app.htm"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.87,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_660a3aa8f1b5b77975e4",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-15T16:24:52.047369+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Build a local test harness against the publicly described workflows and SEC filing requirements using synthetic investor, wallet, mint, burn, and reconciliation events. Publish a short reproducible test report and approach fund administrators, digital transfer agents, transfer-agent vendors, or tokenization platforms only for a paid technical evaluation or subcontracted implementation; do not handle securities, custody, KYC decisions, or production wallets. Lowest-cost falsification: obtain one public tokenized-fund filing, implement 10-20 synthetic reconciliation and allowlist test cases, and ask at least five identifiable service providers whether they will review the artifact or pay for a limited pilot. Stop if no operational stakeholder confirms a current testing or reconciliation pain point.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Tokenization does not eliminate transfer-agent and fund-administration work; it adds reconciliation, exception handling, wallet eligibility, and audit evidence that must operate across blockchain and traditional books and records.",
+      "title": "Tokenized-fund ledger reconciliation and allowlist-control test harness",
+      "type": "compliance_infrastructure",
+      "unknowns": [],
+      "value_capture_mechanism": "A narrowly scoped software or testing asset that validates tokenized-share workflows: wallet allowlist changes, mint/burn events, investor-record reconciliation, transfer restrictions, failed transactions, and audit-log completeness. The economic mechanism is avoided operational error and faster pre-launch or vendor acceptance testing, not a claim of regulatory approval.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
     }
   ],
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-15T12:27:34.459002+00:00",
+  "generated_at": "2026-10-15T16:25:09.649131+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 34,
+  "rejected_excluded": 35,
   "reviewed_cards": 36,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 97,
-  "watch": 63
+  "total_distinct_opportunities": 100,
+  "watch": 65
 }

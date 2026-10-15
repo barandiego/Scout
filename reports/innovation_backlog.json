@@ -79,43 +79,6 @@
     },
     {
       "capital_required_unverified_estimate": "",
-      "category": "competitive_positioning",
-      "commercially_validated": false,
-      "competition_confirmed": false,
-      "current_participation_path": "Select one venue category and reproduce a basic NFC/QR prototype using off-the-shelf tags and a printed stand. Approach 20 independent venues through in-person visits or local business groups, offering a measurable two-week pilot that routes to the venue’s existing Google review or booking page. Falsify if no venue agrees to install the prototype, if scans are negligible, or if prospects will not pay at least the observed local retail benchmark after seeing the test. Do not claim increased reviews, bookings or ranking without measured results.",
-      "current_thesis": "The executable wedge is not generic NFC consulting or a new technology platform: it is a low-cost, preconfigured physical placement kit for a narrowly chosen venue type, such as independent cafés, barber shops or small hotels, with separate landing pages for reviews, reservations and WhatsApp. Existing products create price competition, so differentiation must be tested through a specific venue workflow or channel.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "Chile",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "NFC review-and-reservation hardware for high-turnover hospitality locations",
-      "opportunity_id": "opp_0400e97744c8993f2c8d",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Segment the incumbent market by customers who pay too much or wait too long for one outcome.",
-        "Offer materially different positioning, delivery, price or specialisation with clear unit economics.",
-        "Test switching and repeat purchase evidence before scaling acquisition."
-      ],
-      "supporting_source_urls": [
-        "https://www.aither.cl/tap/",
-        "https://www.ondda.cl/",
-        "https://publico.transbank.cl/productos-y-servicios/soluciones-para-ventas-presenciales/autoservicio-estandar"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "One-time sale of a physical NFC/QR stand or card, potentially bundled with setup and destination configuration. Existing public prices provide a purchase benchmark, not a justified margin or guaranteed willingness to pay.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
       "category": "ecommerce_niches",
       "commercially_validated": false,
       "competition_confirmed": false,
@@ -185,6 +148,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Charge for a paid bill-and-interval-data audit, then earn from implementation through a fixed-fee control retrofit or a documented share of verified bill savings. Do not assume savings until a baseline and tariff calculation are completed.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "energy_infrastructure",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Start with one public battery asset in ERCOT or CAISO. Combine EIA plant data, ISO market-price/dispatch data, and public interconnection or permitting records into a reproducible report comparing expected versus observed availability, charging/discharging timing, and price-arbitrage exposure. Send the report to the asset owner, lender, broker, or energy-market consultant and ask for a paid review or permission to analyze a second asset; do not infer project EBITDA or claim access to proprietary bids. Lowest-cost falsification: complete one asset report in under one week and seek three concrete reactions—data correction, request for a second asset, or paid diligence. If none occurs, reject the opportunity.",
+      "current_thesis": "More battery assets create a concrete need to verify whether dispatch behavior, market participation, and operating data support the revenue assumptions used in project financing, acquisition, or asset-management decisions.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States, especially Texas and California",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Battery-project dispatch and revenue-stack verification for Texas and California assets",
+      "opportunity_id": "opp_85d154e0b319e93cb301",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
+        "Compare owned asset, installer/distributor and project-finance participation.",
+        "Verify permits and installed net payback under conservative power price scenarios."
+      ],
+      "supporting_source_urls": [
+        "https://www.eia.gov/todayinenergy/detail.php?id=67925",
+        "https://www.eia.gov/todayinenergy/detail.php?id=66164"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A low-cost independent data product that reconciles public generation, price, outage, and interconnection data for a named battery project or project portfolio, producing an evidence pack for diligence or post-commissioning performance review. The offer is valuable only if a project owner, lender, buyer, or operator confirms that the analysis is used in a transaction or operating decision.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -1122,6 +1121,42 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use the CMF NCG 514 technical material and developer documentation to build a small mock provider/consumer harness with synthetic accounts and payment requests. Distribute it as a technical preview to Chilean fintechs, banks, account-information service applicants, and integration vendors through direct outreach or relevant fintech developer communities. Lowest-cost falsification: implement the highest-risk 10 endpoint and authorization cases, then request review from five identifiable Chilean fintech or banking integration teams; count only a request for a paid assessment, test review, or access to a formal procurement process as validation. Do not claim CMF certification or production permission.",
+      "current_thesis": "Financial institutions and participating fintechs face a concrete interoperability and implementation deadline. A reusable conformance harness can reduce integration uncertainty before production testing, especially for authorization details, data scopes, API behavior, security, and payment-initiation edge cases.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile SFA API conformance and sandbox test asset",
+      "opportunity_id": "opp_b77b2be77b5c75b13b93",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://cmfchile.cl/portal/prensa/615/articles-96819_doc_pdf.pdf"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A paid implementation-readiness artifact: executable API contract tests, synthetic data fixtures, authorization-scope validation, error-case tests, and a machine-readable conformance report. Revenue would come from a fixed-scope technical assessment or integration-support engagement, not from access to regulated financial data.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Start without claiming CMF approval or acting as a regulated participant. Download the current NCG 514 and Technical Annex/Developer Portal materials, implement a small local validator for one publicly documented API flow, and publish a reproducible demo showing failures and evidence output. Then contact Chilean banks, payment institutions, cooperatives, and fintechs listed or referenced in the CMF framework with a fixed-scope paid diagnostic proposal. Falsification test: within 10 business days, obtain three documented implementation pain points or one request to run the validator against a non-production test environment. If no qualified institution will review it or the public specifications are insufficient to build a useful check, stop.",
       "current_thesis": "Regulated information providers, account providers, information-service providers, and payment-initiation providers have a bounded implementation and testing obligation before the July 2027 operating date. The directly monetizable problem is not generic fintech demand; it is reducing failed integration, security-test, data-quality, certificate, and regression-test work against the CMF-defined interface requirements.",
       "founder_hours_initial_unverified_estimate": "",
@@ -1938,6 +1973,42 @@
     },
     {
       "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Build a local test harness against the publicly described workflows and SEC filing requirements using synthetic investor, wallet, mint, burn, and reconciliation events. Publish a short reproducible test report and approach fund administrators, digital transfer agents, transfer-agent vendors, or tokenization platforms only for a paid technical evaluation or subcontracted implementation; do not handle securities, custody, KYC decisions, or production wallets. Lowest-cost falsification: obtain one public tokenized-fund filing, implement 10-20 synthetic reconciliation and allowlist test cases, and ask at least five identifiable service providers whether they will review the artifact or pay for a limited pilot. Stop if no operational stakeholder confirms a current testing or reconciliation pain point.",
+      "current_thesis": "Tokenization does not eliminate transfer-agent and fund-administration work; it adds reconciliation, exception handling, wallet eligibility, and audit evidence that must operate across blockchain and traditional books and records.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Tokenized-fund ledger reconciliation and allowlist-control test harness",
+      "opportunity_id": "opp_660a3aa8f1b5b77975e4",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/843781/000003014626000437/cik0000843781_102708.htm",
+        "https://www.sec.gov/Archives/edgar/data/831114/000139834426000957/fp0097248-1_40app.htm"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A narrowly scoped software or testing asset that validates tokenized-share workflows: wallet allowlist changes, mint/burn events, investor-record reconciliation, transfer restrictions, failed transactions, and audit-log completeness. The economic mechanism is avoided operational error and faster pre-launch or vendor acceptance testing, not a claim of regulatory approval.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
       "category": "physical_distribution",
       "commercially_validated": false,
       "competition_confirmed": false,
@@ -2429,7 +2500,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-15T12:27:34.515325+00:00",
+  "generated_at": "2026-10-15T16:25:09.717601+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"
