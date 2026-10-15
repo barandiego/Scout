@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 57
+Candidates: 58
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -15,6 +15,18 @@ Candidates: 57
 - Critical gaps: The issuer associated with CIK 2110029 is not identified by name in the opportunity record, making independent issuer-level analysis incomplete.; Powell's exact data-center revenue, backlog percentage, customer concentration, contract cancellation provisions, payment milestones, gross margins, and expected conversion schedule are unknown.; The identity and credit quality of the customer behind the $400 million-plus order are undisclosed.
 - Possible initial budget:
 - Source URLs: https://www.sec.gov/Archives/edgar/data/80420/000008042026000063/ex991-powlq2xfy2026earning.htm; https://www.sec.gov/Archives/edgar/data/2110029/000119312526249668/d12401ds1a.htm
+
+## Chile-localized NFC emergency/contact card with QR fallback
+- Status: watch | chile_localization
+- Current idea: The executable wedge is not generic NFC consulting or hardware invention. It is a localized, preconfigured emergency-contact product sold as a physical tag/card with a QR fallback, Spanish instructions, editable contact fields, and optional replacement or update service. The evidence supports retail willingness to purchase comparable products, but does not establish a defensible subscription or enterprise contract.
+- Potential economic capture: Revenue would come from one-time product sales, personalization, and potentially replacement/update fees. A plausible initial payer is an individual buyer or family purchasing an emergency-identification item; institutional demand from schools, senior-care providers, or employers remains unverified and should not be assumed.
+- **Research routes to test (NOT validated claims):**
+  - Find the smallest Chilean workflow whose economics differ from the original geography.
+  - Secure lawful access, partners and after-sales support rather than copy protected technology.
+  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.sosmee.com/; https://tnfc.cl/; https://publico.transbank.cl/productos-y-servicios/soluciones-para-ventas-presenciales/pocket-pos
 
 ## NFC review-and-reservation hardware for high-turnover hospitality locations
 - Status: watch | competitive_positioning
@@ -63,18 +75,6 @@ Candidates: 57
 - Critical gaps: Whether the cited January 1, 2026 AFCI requirement applies to the exact project classes, inverter configurations, and connection pathways targeted by the product, rather than only specified cases or alternatives.; Whether SEC or distributors accept the proposed equipment/documentation combinations in practice and what causes actual TE4 or related filing rejections.; Number of Chilean distributed BESS projects currently being designed, installed, or submitted through the relevant process.
 - Possible initial budget:
 - Source URLs: https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/; https://www.sec.cl/gda/; https://www.sec.cl/normas-tecnicas-electricas/
-
-## DER aggregation readiness kit for small batteries and flexible loads
-- Status: watch | energy_infrastructure
-- Current idea: Small commercial batteries and flexible loads may have an additional market-participation route, but qualification depends on tariff, telemetry, metering, interconnection and utility-coordination requirements. The executable wedge is a site-level readiness and data package, not generic energy consulting.
-- Potential economic capture: Create a standardized site packet containing interval-load data, battery specifications, control capability, interconnection status, telemetry availability and tariff-specific eligibility checks. The payer could be an existing DER aggregator, installer or commercial site owner seeking qualified enrollment candidates; no buyer or fee is assumed until interviews validate demand.
-- **Research routes to test (NOT validated claims):**
-  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
-  - Compare owned asset, installer/distributor and project-finance participation.
-  - Verify permits and installed net payback under conservative power price scenarios.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://ferc.gov/media/ferc-order-no-2222-fact-sheet; https://www.ferc.gov/ferc-order-no-2222-explainer-facilitating-participation-electricity-markets-distributed-energy; https://ferc.gov/news-events/news/ferc-acts-first-order-no-2222-compliance-filings
 
 ## Interconnection-queue intelligence as a paid research asset for project developers
 - Status: watch | energy_infrastructure
@@ -687,3 +687,15 @@ Candidates: 57
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.ndsu.edu/agriculture/sites/default/files/2026-02/2026%20ACAW%20ANDERSON%20Robotic%20Weeding%20PPT.pdf; https://smartsoilai.com/shop/autonomous-weeding-robot
+
+## Small-scale hydroponic leafy-greens production only where local preorders support premium pricing
+- Status: watch | robotics_agritech
+- Current idea: The defensible opportunity is a low-capital validation of a local, high-turnover leafy-greens wedge—not a capital-intensive vertical farm. Hydroponics may work when a producer can obtain committed buyers, short delivery distances, and a price above the modeled CLP 800 reference. Indoor LED farming is especially weak as an untested proposition because energy is a major operating cost and Chilean evidence here supports outdoor/greenhouse hydroponics more directly than fully indoor farming. ([inside-grower.com](https://www.inside-grower.com/utility/PDF.aspx?id=26248&pagename=viewarticle.aspx&pub=IG&utm_source=openai))
+- Potential economic capture: Cash flow would come from pre-sold lettuce, herbs, or mixed greens delivered to identified households, restaurants, or specialty retailers. No specific buyer, recurring order, or current local price has been verified, so the economic mechanism must be tested with deposits rather than inferred from the INIA model.
+- **Research routes to test (NOT validated claims):**
+  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
+  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
+  - Arrange a bounded field validation with an actual farm operator before scaling.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://es.scribd.com/document/1014311150/BOLETIN-1-INIA-FIA-Manejo-Sanitario-y-Otros-InIA-Chile; https://www.inside-grower.com/utility/PDF.aspx?id=26248&pagename=viewarticle.aspx&pub=IG

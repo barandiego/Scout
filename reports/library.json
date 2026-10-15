@@ -3082,41 +3082,41 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-13T00:18:11.645031+00:00",
-      "discovery_lens": "energy_industrial",
+      "discovered_at": "2026-10-15T00:22:35.656793+00:00",
+      "discovery_lens": "nfc_smart_commerce",
       "estimated_capital": "",
       "estimated_founder_hours_initial": "",
       "estimated_founder_hours_ongoing": "",
       "evidence": [
         {
-          "claim": "FERC says DER aggregations can include storage, generation, demand response, efficiency, thermal storage and EV equipment, and can compete in organized capacity, energy and ancillary-services markets.",
+          "claim": "A Chile-delivered NFC and QR emergency-identification product is listed for purchase at CLP 14,990 during the observed promotion, demonstrating an existing retail offer and reference price.",
           "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "FERC Order No. 2222: Fact Sheet",
-          "url": "https://ferc.gov/media/ferc-order-no-2222-fact-sheet"
+          "source_type": "independent",
+          "title": "Identificación de Emergencia con NFC y QR",
+          "url": "https://www.sosmee.com/"
         },
         {
-          "claim": "FERC explains that aggregation helps small DERs satisfy RTO market minimums and states that qualifying aggregations can receive compensation comparable to traditional resources.",
+          "claim": "A Chilean supplier offers customizable NFC cards and bracelets with delivery throughout Chile, validating local product availability and a direct distribution route.",
           "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "FERC Order No. 2222 Explainer: Facilitating Participation in Electricity Markets by Distributed Energy Resources",
-          "url": "https://www.ferc.gov/ferc-order-no-2222-explainer-facilitating-participation-electricity-markets-distributed-energy"
+          "source_type": "independent",
+          "title": "Tarjeta NFC - Pulseras NFC",
+          "url": "https://tnfc.cl/"
         },
         {
-          "claim": "FERC documents implementation activity for regional compliance filings, including CAISO and NYISO.",
+          "claim": "Transbank states that its portable POS accepts contactless cards and NFC digital wallets, supporting a practical payment route for a small seller.",
           "grounded_in_provider_search": true,
           "source_type": "primary",
-          "title": "FERC Acts on First of Order No. 2222 Compliance Filings",
-          "url": "https://ferc.gov/news-events/news/ferc-acts-first-order-no-2222-compliance-filings"
+          "title": "Pocket POS",
+          "url": "https://publico.transbank.cl/productos-y-servicios/soluciones-para-ventas-presenciales/pocket-pos"
         }
       ],
-      "evidence_confidence_model_estimate": 0.84,
+      "evidence_confidence_model_estimate": 0.88,
       "falsification_conditions": [],
-      "geography": "United States RTO/ISO territories",
-      "id": "opp_7da0f530c4393ac9bb73",
+      "geography": "Chile",
+      "id": "opp_90381bb2b8d50013dbb1",
       "judge_reviewed": false,
       "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-13T00:18:11.665088+00:00",
+      "last_record_updated_at": "2026-10-15T00:22:35.683263+00:00",
       "material_update": false,
       "missing_execution_proof": [
         "independent_critic_and_judge",
@@ -3125,16 +3125,16 @@
       "next_validation_questions": [
         "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
       ],
-      "participation_path": "Choose one RTO/ISO and one asset class, then use its published tariff and aggregator requirements to score five publicly identifiable commercial sites or consenting prospects. Falsify by sending the completed one-page readiness score to three registered aggregators or installers and asking whether they would accept the data packet for screening; do not promise market enrollment, revenue or permissions. Stop if requirements are too site-specific to produce a useful packet or if aggregators reject external screening data.",
+      "participation_path": "Source a small batch of writable NFC cards, tags, or bracelets from an established Chilean supplier; configure a simple mobile landing page that displays emergency contacts and medical notes only with the user's consent; include a QR code for phones that do not read NFC. List 10-20 units through a Chilean marketplace or simple checkout, using the observed SOSMee price of CLP 14,990 as a reference—not as proof of achievable margin. Falsification test: spend only enough to produce three prototypes and run five paid preorders from unrelated Chilean buyers. Stop if buyers will not pay before inventory expansion, or if they require unsupported medical, identity-verification, or privacy claims.",
       "research_status": "WATCH_REQUIRES_VALIDATION",
       "status": "watch",
-      "thesis": "Small commercial batteries and flexible loads may have an additional market-participation route, but qualification depends on tariff, telemetry, metering, interconnection and utility-coordination requirements. The executable wedge is a site-level readiness and data package, not generic energy consulting.",
-      "title": "DER aggregation readiness kit for small batteries and flexible loads",
-      "type": "market_access_asset",
+      "thesis": "The executable wedge is not generic NFC consulting or hardware invention. It is a localized, preconfigured emergency-contact product sold as a physical tag/card with a QR fallback, Spanish instructions, editable contact fields, and optional replacement or update service. The evidence supports retail willingness to purchase comparable products, but does not establish a defensible subscription or enterprise contract.",
+      "title": "Chile-localized NFC emergency/contact card with QR fallback",
+      "type": "physical_product",
       "unknowns": [],
-      "value_capture_mechanism": "Create a standardized site packet containing interval-load data, battery specifications, control capability, interconnection status, telemetry availability and tariff-specific eligibility checks. The payer could be an existing DER aggregator, installer or commercial site owner seeking qualified enrollment candidates; no buyer or fee is assumed until interviews validate demand.",
+      "value_capture_mechanism": "Revenue would come from one-time product sales, personalization, and potentially replacement/update fees. A plausible initial payer is an individual buyer or family purchasing an emergency-identification item; institutional demand from schools, senior-care providers, or employers remains unverified and should not be assumed.",
       "verified_sales": null,
-      "vertical": "energy_infrastructure",
+      "vertical": "chile_localization",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -4157,6 +4157,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-15T00:22:35.658248+00:00",
+      "discovery_lens": "vertical_farming_economics",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The INIA/FIA material reports Chilean reference installation, energy, labor, production, and profitability calculations for 20 m² floating-root and NFT lettuce systems, including a CLP 800 per-unit modeled selling price.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Boletín INIA-FIA: Manejo Sanitario y Otros",
+          "url": "https://es.scribd.com/document/1014311150/BOLETIN-1-INIA-FIA-Manejo-Sanitario-y-Otros-InIA-Chile"
+        },
+        {
+          "claim": "The industry article identifies energy as a major operating-cost component of indoor farming, supporting caution against assuming that fully indoor LED production has the same economics as low-energy hydroponic greenhouse production.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "The Cost of Indoor Farming",
+          "url": "https://www.inside-grower.com/utility/PDF.aspx?id=26248&pagename=viewarticle.aspx&pub=IG"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.84,
+      "falsification_conditions": [],
+      "geography": "Chile, location-dependent",
+      "id": "opp_57e35ef0850d9ba16936",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-15T00:22:35.683544+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use or rent a small existing greenhouse or sheltered area instead of building a vertical farm. Produce one pilot crop cycle using a floating-root system, collect signed or paid weekly orders before planting, and record actual electricity, labor, mortality, water, packaging, delivery, and realized selling price. Falsification test: obtain at least 20 paid units or two repeat restaurant orders at a price above fully loaded pilot cost before purchasing a larger NFT or indoor system. If customers will not prepay or repeat at the required price, abandon the wedge.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The defensible opportunity is a low-capital validation of a local, high-turnover leafy-greens wedge—not a capital-intensive vertical farm. Hydroponics may work when a producer can obtain committed buyers, short delivery distances, and a price above the modeled CLP 800 reference. Indoor LED farming is especially weak as an untested proposition because energy is a major operating cost and Chilean evidence here supports outdoor/greenhouse hydroponics more directly than fully indoor farming. ([inside-grower.com](https://www.inside-grower.com/utility/PDF.aspx?id=26248&pagename=viewarticle.aspx&pub=IG&utm_source=openai))",
+      "title": "Small-scale hydroponic leafy-greens production only where local preorders support premium pricing",
+      "type": "preorder_production_test",
+      "unknowns": [],
+      "value_capture_mechanism": "Cash flow would come from pre-sold lettuce, herbs, or mixed greens delivered to identified households, restaurants, or specialty retailers. No specific buyer, recurring order, or current local price has been verified, so the economic mechanism must be tested with deposits rather than inferred from the INIA model.",
+      "verified_sales": null,
+      "vertical": "robotics_agritech",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-14T08:25:29.885273+00:00",
       "discovery_lens": "tokenization_finance",
       "estimated_capital": "",
@@ -4264,13 +4318,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-14T20:22:58.597759+00:00",
+  "generated_at": "2026-10-15T00:22:59.849749+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 32,
+  "rejected_excluded": 33,
   "reviewed_cards": 34,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 89,
-  "watch": 57
+  "total_distinct_opportunities": 91,
+  "watch": 58
 }

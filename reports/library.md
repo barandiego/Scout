@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-14T20:22:58.597759+00:00
+Generated: 2026-10-15T00:22:59.849749+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 57 (0 HQ survivors, 57 watches)
-- Rejected opportunities excluded: 32
+- Active research: 58 (0 HQ survivors, 58 watches)
+- Rejected opportunities excluded: 33
 - Critic-and-judge reviewed: 34
 - Autonomous execution authorization: 0
 
@@ -373,15 +373,15 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.vicrobotics.com/about; https://www.vicrobotics.com/; https://www.vicrobotics.com/soluciones/limpieza-industrial-bodegas
 
-### DER aggregation readiness kit for small batteries and flexible loads [opp_7da0f530c4393ac9bb73]
-- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States RTO/ISO territories
-- Thesis: Small commercial batteries and flexible loads may have an additional market-participation route, but qualification depends on tariff, telemetry, metering, interconnection and utility-coordination requirements. The executable wedge is a site-level readiness and data package, not generic energy consulting.
-- Value capture: Create a standardized site packet containing interval-load data, battery specifications, control capability, interconnection status, telemetry availability and tariff-specific eligibility checks. The payer could be an existing DER aggregator, installer or commercial site owner seeking qualified enrollment candidates; no buyer or fee is assumed until interviews validate demand.
-- Participation hypothesis: Choose one RTO/ISO and one asset class, then use its published tariff and aggregator requirements to score five publicly identifiable commercial sites or consenting prospects. Falsify by sending the completed one-page readiness score to three registered aggregators or installers and asking whether they would accept the data packet for screening; do not promise market enrollment, revenue or permissions. Stop if requirements are too site-specific to produce a useful packet or if aggregators reject external screening data.
+### Chile-localized NFC emergency/contact card with QR fallback [opp_90381bb2b8d50013dbb1]
+- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
+- Thesis: The executable wedge is not generic NFC consulting or hardware invention. It is a localized, preconfigured emergency-contact product sold as a physical tag/card with a QR fallback, Spanish instructions, editable contact fields, and optional replacement or update service. The evidence supports retail willingness to purchase comparable products, but does not establish a defensible subscription or enterprise contract.
+- Value capture: Revenue would come from one-time product sales, personalization, and potentially replacement/update fees. A plausible initial payer is an individual buyer or family purchasing an emergency-identification item; institutional demand from schools, senior-care providers, or employers remains unverified and should not be assumed.
+- Participation hypothesis: Source a small batch of writable NFC cards, tags, or bracelets from an established Chilean supplier; configure a simple mobile landing page that displays emergency contacts and medical notes only with the user's consent; include a QR code for phones that do not read NFC. List 10-20 units through a Chilean marketplace or simple checkout, using the observed SOSMee price of CLP 14,990 as a reference—not as proof of achievable margin. Falsification test: spend only enough to produce three prototypes and run five paid preorders from unrelated Chilea
 - Critic/judge: deferred_by_review_cap
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://ferc.gov/media/ferc-order-no-2222-fact-sheet; https://www.ferc.gov/ferc-order-no-2222-explainer-facilitating-participation-electricity-markets-distributed-energy; https://ferc.gov/news-events/news/ferc-acts-first-order-no-2222-compliance-filings
+- Grounded and model-supplied sources: https://www.sosmee.com/; https://tnfc.cl/; https://publico.transbank.cl/productos-y-servicios/soluciones-para-ventas-presenciales/pocket-pos
 
 ### Narrow Chilean e-commerce returns-recovery test for one product category [opp_fa54176321cf12d8b287]
 - Status: WATCH_REQUIRES_VALIDATION | ecommerce_niches | Chile
@@ -562,6 +562,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.ndsu.edu/agriculture/sites/default/files/2026-02/2026%20ACAW%20ANDERSON%20Robotic%20Weeding%20PPT.pdf; https://smartsoilai.com/shop/autonomous-weeding-robot
+
+### Small-scale hydroponic leafy-greens production only where local preorders support premium pricing [opp_57e35ef0850d9ba16936]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile, location-dependent
+- Thesis: The defensible opportunity is a low-capital validation of a local, high-turnover leafy-greens wedge—not a capital-intensive vertical farm. Hydroponics may work when a producer can obtain committed buyers, short delivery distances, and a price above the modeled CLP 800 reference. Indoor LED farming is especially weak as an untested proposition because energy is a major operating cost and Chilean evidence here supports outdoor/greenhouse hydroponics more directly than fully indoor farming. ([inside-grower.com](https://www.insi
+- Value capture: Cash flow would come from pre-sold lettuce, herbs, or mixed greens delivered to identified households, restaurants, or specialty retailers. No specific buyer, recurring order, or current local price has been verified, so the economic mechanism must be tested with deposits rather than inferred from the INIA model.
+- Participation hypothesis: Use or rent a small existing greenhouse or sheltered area instead of building a vertical farm. Produce one pilot crop cycle using a floating-root system, collect signed or paid weekly orders before planting, and record actual electricity, labor, mortality, water, packaging, delivery, and realized selling price. Falsification test: obtain at least 20 paid units or two repeat restaurant orders at a price above fully loaded pilot cost before purchasing a larger NFT or indoor system. If customers will not prepay or repeat at the required price, aba
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://es.scribd.com/document/1014311150/BOLETIN-1-INIA-FIA-Manejo-Sanitario-y-Otros-InIA-Chile; https://www.inside-grower.com/utility/PDF.aspx?id=26248&pagename=viewarticle.aspx&pub=IG
 
 ### Testing and workflow infrastructure around DTCC tokenized-security settlement [opp_baf7eb33e64d74226047]
 - Status: WATCH_REQUIRES_VALIDATION | public_markets | United States
