@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-15T09:00:28.434051+00:00
+Generated: 2026-10-15T13:12:19.482691+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 107
+- New this cycle: 110
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): arxiv_ai:unavailable_or_invalid
-- Categories: agriculture 243, ai 331, commerce 34, energy 591, robotics 601
+- Categories: agriculture 248, ai 324, commerce 34, energy 593, robotics 601
 
 ## Recently encountered signals
 
@@ -190,6 +190,18 @@ Generated: 2026-10-15T09:00:28.434051+00:00
 - Source: https://doi.org/10.66506/essp.172
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### Design and Thermal Performance Analysis of a Novel Parallel-Serpentine Composite Channel Cold Plate for Energy Storage Battery
+- Source: https://doi.org/10.3233/atde261231
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### kerubopurity039-sys/Agrivoltaic
+- Source: https://github.com/kerubopurity039-sys/Agrivoltaic
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
 
 ### vijayalakshmichemikela-cloud/intelligentparking-ai
@@ -446,18 +458,6 @@ Generated: 2026-10-15T09:00:28.434051+00:00
 
 ### shahriarsnikdho/AgriSphere-Ai
 - Source: https://github.com/shahriarsnikdho/AgriSphere-Ai
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### mounika0978/panta-mitra
-- Source: https://github.com/mounika0978/panta-mitra
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### AADILSHEKH47/AI-assistent
-- Source: https://github.com/AADILSHEKH47/AI-assistent
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
