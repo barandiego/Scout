@@ -1,16 +1,28 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-15T01:05:01.455095+00:00
+Generated: 2026-10-15T04:56:20.985459+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 104
+- New this cycle: 118
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): none
-- Categories: agriculture 246, ai 349, commerce 32, energy 587, robotics 586
+- Feed failures (fail-open for public intake only): arxiv_ai:unavailable_or_invalid
+- Categories: agriculture 245, ai 340, commerce 32, energy 587, robotics 596
 
 ## Recently encountered signals
+
+### ukvarma25/AgroFarm-AI-Platform
+- Source: https://github.com/ukvarma25/AgroFarm-AI-Platform
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### tirumalasaip-droid/kisanMitra
+- Source: https://github.com/tirumalasaip-droid/kisanMitra
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### Multi-timescale energy management and techno-economic optimization of battery–hydrogen storage hybrid AC/DC microgrid for off-grid rural electrification
 - Source: https://doi.org/10.1016/j.weer.2026.100046
@@ -446,18 +458,6 @@ Generated: 2026-10-15T01:05:01.455095+00:00
 
 ### kiruthikkumar13/AgriShield-AI
 - Source: https://github.com/kiruthikkumar13/AgriShield-AI
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### 456charishma/AgriTwinAI
-- Source: https://github.com/456charishma/AgriTwinAI
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### 456charishma/AgriTwin-AI
-- Source: https://github.com/456charishma/AgriTwin-AI
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
