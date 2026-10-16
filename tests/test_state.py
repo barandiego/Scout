@@ -165,7 +165,9 @@ def test_schedule_active_and_ci_cannot_invoke_paid_cycle():
     live=yaml.load((root/'.github/workflows/scout.yml').read_text(),Loader=yaml.BaseLoader)
     ci=yaml.load((root/'.github/workflows/ci.yml').read_text(),Loader=yaml.BaseLoader)
     assert live['on']['schedule'] == [{'cron': '0 */4 * * *'}]
-    assert 'redesign/**' in ci['on']['push']['branches']
+    # Full verification now runs on every PR, with a single post-merge main push.
+    assert ci['on']['push']['branches'] == ['main']
+    assert 'pull_request' in ci['on']
     assert 'OPENAI_API_KEY' not in json.dumps(ci)
     assert 'scout.cli cycle' not in json.dumps(ci)
     select_mode=next(s for s in live['jobs']['scout']['steps'] if s.get('name')=='Select mode')
