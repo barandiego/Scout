@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-16T12:26:12.680248+00:00
+Generated: 2026-10-16T16:22:55.182108+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
 - Active research: 71 (0 HQ survivors, 71 watches)
-- Rejected opportunities excluded: 36
+- Rejected opportunities excluded: 37
 - Critic-and-judge reviewed: 39
 - Autonomous execution authorization: 0
 
@@ -473,16 +473,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sec.cl/gda/; https://www.sec.cl/plataformas-ernc/; https://energia.gob.cl/sites/default/files/documentos/sistemas-de-almacenamiento_web.pdf
 
-### Self-hosted multilingual document extraction pilot using MonkeyOCRv2 or Mistral OCR 4 [opp_b9c90d663d7fab8d89c7]
-- Status: WATCH_REQUIRES_VALIDATION | innovation_adoption | Global; initial testing can target U.S. or Chilean Spanish documents
-- Thesis: A small operator can test whether document-heavy workflows that currently require paid OCR, manual transcription, or offshore data entry can be processed locally with lower variable cost and better privacy. The concrete asset is a deployable extraction pipeline for invoices, customs documents, purchase orders, or compliance files—not a generic AI consultancy.
-- Value capture: Charge for a narrowly defined document-processing workflow, such as converting a customer’s recurring PDF or image documents into validated CSV/JSON output. The economic mechanism is per-document or monthly processing revenue minus compute, review, and exception-handling costs. Existing Mistral OCR materials provide a public historical purchase reference of approximately 1,000 pages per dollar for the prior OCR API; current OCR 4 pricin
-- Participation hypothesis: Install MonkeyOCRv2 locally and assemble a 50–100-document benchmark from publicly available forms or documents supplied with permission. Compare field-level accuracy, processing time, and total compute cost against the cheapest acceptable paid OCR/API option. Then create one fixed-scope sample output for a document-heavy niche such as bookkeeping, freight forwarding, or import administration and send it to 10 identifiable operators; proceed only if the workflow can be tested without handling confidential data or violating document/API terms. D
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://github.com/Yuliang-Liu/MonkeyOCRv2; https://mistral.ai/news/ocr-4/; https://mistral.ai/news/mistral-ocr/
-
 ### Small-factory robot deployment and commissioning wedge focused on food-sector applications [opp_f2278f7ef99fae7e2528]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States
 - Thesis: More small and mid-sized food manufacturers may be purchasing flexible automation, but the economically reachable bottleneck is deployment: motion programming, end-effector setup, calibration, safety documentation, and repeatable production-cell validation.
@@ -562,6 +552,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://api.cmfchile.cl/
+
+### Chile Open Finance interoperability pre-test harness for prospective SFA participants [opp_1589efca2e61e92fd0d6]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Entities preparing to participate need a way to detect API, consent, security, interoperability and payment-initiation defects before formal implementation. The evidence supports a concrete testing requirement, but does not establish a guaranteed market size, buyer budget or willingness to pay.
+- Value capture: A narrowly scoped, paid technical artifact or service: an SFA conformance-test pack that maps the published technical annex to executable API tests, sample payloads, consent-flow checks, error cases and an ATENA test checklist. Revenue would come only if an identifiable regulated or fintech entity agrees to pay for the pack or a test engagement; no buyer, price or margin is assumed.
+- Participation hypothesis: Use the CMF developer materials and ATENA environment as the participation route. First build a minimal open-source test runner covering one published data-access flow and one payment-initiation/error flow. Contact organizations listed or discoverable through the CMF participant/developer materials only after confirming the relevant onboarding and permission requirements. Offer a fixed-scope pilot without claiming certification or regulatory approval. Lowest-cost falsification: spend one day extracting the technical requirements into 10–20 test
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
 ### Chile Open Finance interoperability test harness for fintechs preparing for SFA [opp_1d697aded3d68db4909b]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile

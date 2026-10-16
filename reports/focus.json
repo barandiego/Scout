@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-10-16T12:26:12.680248+00:00",
+  "generated_at": "2026-10-16T16:22:55.182108+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -21,7 +21,7 @@
     },
     {
       "opportunity_id": "opp_f26e42aaabb91e157f9d",
-      "other_cards_in_theme": 31,
+      "other_cards_in_theme": 32,
       "reviewed": true,
       "status": "watch",
       "theme": "chile_open_finance",
@@ -103,15 +103,15 @@
   "headline_count": 12,
   "high_concentration": [
     {
-      "cards": 32,
-      "share": 0.451,
+      "cards": 33,
+      "share": 0.465,
       "theme": "chile_open_finance"
     }
   ],
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 27,
+  "theme_count": 26,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -146,9 +146,10 @@
         "opp_660a3aa8f1b5b77975e4",
         "opp_b77b2be77b5c75b13b93",
         "opp_1d697aded3d68db4909b",
-        "opp_055b092ce47f55114c32"
+        "opp_055b092ce47f55114c32",
+        "opp_1589efca2e61e92fd0d6"
       ],
-      "count": 32,
+      "count": 33,
       "representative_id": "opp_f26e42aaabb91e157f9d",
       "reviewed_count": 19,
       "theme": "chile_open_finance"
@@ -210,15 +211,6 @@
       "representative_id": "opp_09bb69601be0706e7219",
       "reviewed_count": 0,
       "theme": "agent_security"
-    },
-    {
-      "all_opportunity_ids": [
-        "opp_b9c90d663d7fab8d89c7"
-      ],
-      "count": 1,
-      "representative_id": "opp_b9c90d663d7fab8d89c7",
-      "reviewed_count": 0,
-      "theme": "document_extraction"
     },
     {
       "all_opportunity_ids": [

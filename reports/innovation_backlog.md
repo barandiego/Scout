@@ -292,18 +292,6 @@ Candidates: 71
 - Possible initial budget:
 - Source URLs: https://github.com/cereon-labs/cereon-browser-operator; https://github.com/smouj/agent-browser
 
-## Self-hosted multilingual document extraction pilot using MonkeyOCRv2 or Mistral OCR 4
-- Status: watch | innovation_adoption
-- Current idea: A small operator can test whether document-heavy workflows that currently require paid OCR, manual transcription, or offshore data entry can be processed locally with lower variable cost and better privacy. The concrete asset is a deployable extraction pipeline for invoices, customs documents, purchase orders, or compliance files—not a generic AI consultancy.
-- Potential economic capture: Charge for a narrowly defined document-processing workflow, such as converting a customer’s recurring PDF or image documents into validated CSV/JSON output. The economic mechanism is per-document or monthly processing revenue minus compute, review, and exception-handling costs. Existing Mistral OCR materials provide a public historical purchase reference of approximately 1,000 pages per dollar for the prior OCR API; current OCR 4 pricing must be re-verified before quoting.
-- **Research routes to test (NOT validated claims):**
-  - Identify a real technical capability not yet adopted in one buyer's high-value workflow.
-  - Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.
-  - Measure the fully loaded operating cost, human exceptions and distribution against the status quo.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://github.com/Yuliang-Liu/MonkeyOCRv2; https://mistral.ai/news/ocr-4/; https://mistral.ai/news/mistral-ocr/
-
 ## Chile Open Finance conformance and sandbox testing kit
 - Status: watch | open_finance_chile
 - Current idea: Entities that must connect as information providers, account providers, information-based service providers, or payment-initiation providers now have a defined technical target and a limited preparation window before mandatory operation.
@@ -351,6 +339,18 @@ Candidates: 71
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://api.cmfchile.cl/
+
+## Chile Open Finance interoperability pre-test harness for prospective SFA participants
+- Status: watch | open_finance_chile
+- Current idea: Entities preparing to participate need a way to detect API, consent, security, interoperability and payment-initiation defects before formal implementation. The evidence supports a concrete testing requirement, but does not establish a guaranteed market size, buyer budget or willingness to pay.
+- Potential economic capture: A narrowly scoped, paid technical artifact or service: an SFA conformance-test pack that maps the published technical annex to executable API tests, sample payloads, consent-flow checks, error cases and an ATENA test checklist. Revenue would come only if an identifiable regulated or fintech entity agrees to pay for the pack or a test engagement; no buyer, price or margin is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
 ## Chile Open Finance interoperability test harness for fintechs preparing for SFA
 - Status: watch | open_finance_chile

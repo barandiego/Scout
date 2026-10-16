@@ -926,43 +926,6 @@
     },
     {
       "capital_required_unverified_estimate": "",
-      "category": "innovation_adoption",
-      "commercially_validated": false,
-      "competition_confirmed": false,
-      "current_participation_path": "Install MonkeyOCRv2 locally and assemble a 50–100-document benchmark from publicly available forms or documents supplied with permission. Compare field-level accuracy, processing time, and total compute cost against the cheapest acceptable paid OCR/API option. Then create one fixed-scope sample output for a document-heavy niche such as bookkeeping, freight forwarding, or import administration and send it to 10 identifiable operators; proceed only if the workflow can be tested without handling confidential data or violating document/API terms. Do not claim a customer, margin, or permission until one is independently obtained.",
-      "current_thesis": "A small operator can test whether document-heavy workflows that currently require paid OCR, manual transcription, or offshore data entry can be processed locally with lower variable cost and better privacy. The concrete asset is a deployable extraction pipeline for invoices, customs documents, purchase orders, or compliance files—not a generic AI consultancy.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "Global; initial testing can target U.S. or Chilean Spanish documents",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "Self-hosted multilingual document extraction pilot using MonkeyOCRv2 or Mistral OCR 4",
-      "opportunity_id": "opp_b9c90d663d7fab8d89c7",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Identify a real technical capability not yet adopted in one buyer's high-value workflow.",
-        "Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.",
-        "Measure the fully loaded operating cost, human exceptions and distribution against the status quo."
-      ],
-      "supporting_source_urls": [
-        "https://github.com/Yuliang-Liu/MonkeyOCRv2",
-        "https://mistral.ai/news/ocr-4/",
-        "https://mistral.ai/news/mistral-ocr/"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "Charge for a narrowly defined document-processing workflow, such as converting a customer’s recurring PDF or image documents into validated CSV/JSON output. The economic mechanism is per-document or monthly processing revenue minus compute, review, and exception-handling costs. Existing Mistral OCR materials provide a public historical purchase reference of approximately 1,000 pages per dollar for the prior OCR API; current OCR 4 pricing must be re-verified before quoting.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
@@ -1107,6 +1070,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Sell a self-serve or manually assisted conformance assessment: upload API specifications, consent-flow screenshots, and test responses; receive a gap report mapped to the CMF technical annex. A later paid product could monitor changes to the developer portal, but recurring demand and willingness to pay are unproven.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Use the CMF developer materials and ATENA environment as the participation route. First build a minimal open-source test runner covering one published data-access flow and one payment-initiation/error flow. Contact organizations listed or discoverable through the CMF participant/developer materials only after confirming the relevant onboarding and permission requirements. Offer a fixed-scope pilot without claiming certification or regulatory approval. Lowest-cost falsification: spend one day extracting the technical requirements into 10–20 tests, run them against a mock participant server, then ask at least three identifiable Chilean fintechs, banks or technology providers whether they would run the test pack against their implementation and whether they have an existing internal alternative. Stop if the specifications are inaccessible, the sandbox cannot be used by an independent tester, or no respondent accepts a no-cost trial.",
+      "current_thesis": "Entities preparing to participate need a way to detect API, consent, security, interoperability and payment-initiation defects before formal implementation. The evidence supports a concrete testing requirement, but does not establish a guaranteed market size, buyer budget or willingness to pay.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile Open Finance interoperability pre-test harness for prospective SFA participants",
+      "opportunity_id": "opp_1589efca2e61e92fd0d6",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A narrowly scoped, paid technical artifact or service: an SFA conformance-test pack that maps the published technical annex to executable API tests, sample payloads, consent-flow checks, error cases and an ATENA test checklist. Revenue would come only if an identifiable regulated or fintech entity agrees to pay for the pack or a test engagement; no buyer, price or margin is assumed.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -2732,7 +2731,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-16T12:26:12.710700+00:00",
+  "generated_at": "2026-10-16T16:22:55.212080+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"
