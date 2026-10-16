@@ -8,7 +8,7 @@ from __future__ import annotations
 import json
 import re
 import unicodedata
-from collections import defaultdict
+from collections import Counter, defaultdict
 from pathlib import Path
 
 from .state import atomic_write
@@ -108,6 +108,24 @@ def build_focus(library: dict, *, max_headlines: int = 12) -> dict:
         "commercial_execution_authorized": False,
         "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers.",
     }
+
+
+
+def saturation_hint(opportunities: list, *, min_cards: int = 5) -> str:
+    """Tiny trusted count-only suggestion for discovery, not a hard gate."""
+    counts = Counter(theme({"title": getattr(op, "name", ""),
+                            "vertical": getattr(op, "vertical", "")})
+                     for op in opportunities if getattr(op, "status", "") in ("watch", "survived"))
+    frequent = [(name, count) for name, count in counts.items() if count >= min_cards]
+    if not frequent:
+        return ""
+    frequent.sort(key=lambda row: (-row[1], row[0]))
+    summary = ", ".join(f"{name}={count}" for name, count in frequent[:3])
+    return ("\nTrusted existing Scout topic-count advisory (NOT verified duplicate identity): "
+            + summary + ". Avoid another restatement of those same underlying buyer/offer/routes. "
+            "Prefer genuinely different evidenced mechanisms or well-grounded material changes; "
+            "return zero if none. Never invent differentiation, buyers, sources, sales or permissions. "
+            "Existing source, critic, judge, cost and rejection gates remain unchanged.")
 
 
 def render_markdown(report: dict) -> str:
