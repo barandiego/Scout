@@ -1,6 +1,6 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-15T20:56:42.061584+00:00
+Generated: 2026-10-16T01:04:13.839488+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
@@ -8,7 +8,7 @@ Generated: 2026-10-15T20:56:42.061584+00:00
 - New this cycle: 107
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): arxiv_ai:unavailable_or_invalid
-- Categories: agriculture 258, ai 313, commerce 34, energy 591, robotics 604
+- Categories: agriculture 258, ai 312, commerce 35, energy 594, robotics 601
 
 ## Recently encountered signals
 
@@ -200,6 +200,12 @@ Generated: 2026-10-15T20:56:42.061584+00:00
 
 ### Opportunities and challenges of integrating battery energy storage in the electricity grid – perspectives from distribution system operators
 - Source: https://doi.org/10.66506/essp.172
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### OPERATIONAL IMPACT ASSESSMENT OF ROOFTOP SOLAR PV AND BATTERY ENERGY STORAGE INTEGRATION ON A 22 KV URBAN DISTRIBUTION FEEDER IN DA NANG CITY, VIETNAM
+- Source: https://doi.org/10.30574/ijsra.2026.21.1.1903
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
@@ -454,10 +460,4 @@ Generated: 2026-10-15T20:56:42.061584+00:00
 - Source: https://github.com/rriitp/GreenLink
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### yagantieswarkurukunda6300-cell/solar-mobile-charger
-- Source: https://github.com/yagantieswarkurukunda6300-cell/solar-mobile-charger
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
