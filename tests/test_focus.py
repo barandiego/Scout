@@ -1,10 +1,11 @@
 from __future__ import annotations
 
 import json
+from types import SimpleNamespace
 
 import pytest
 
-from scout.focus import build_focus, render_markdown, theme, write_focus
+from scout.focus import build_focus, render_markdown, saturation_hint, theme, write_focus
 
 
 def _card(key, title, vertical="open_finance_chile", reviewed=False):
@@ -66,3 +67,13 @@ def test_offline_reports_do_not_mutate_library(tmp_path):
     assert result["headlines"] == 1
     assert (tmp_path / "reports" / "library.json").read_text(encoding="utf-8") == before
     assert json.loads((tmp_path / "reports" / "focus.json").read_text(encoding="utf-8"))["total_original_cards"] == 1
+
+
+def test_saturation_hint_is_count_only_and_requires_five_records():
+    ops = [SimpleNamespace(name=f"SFA private buyer secret {i}", vertical="open_finance_chile", status="watch")
+           for i in range(6)]
+    hint = saturation_hint(ops)
+    assert "chile_open_finance=6" in hint
+    assert "private buyer secret" not in hint
+    assert "Never invent" in hint
+    assert saturation_hint(ops[:4]) == ""
