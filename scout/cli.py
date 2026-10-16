@@ -75,7 +75,7 @@ def preflight(*, trial: bool = False)->int:
     return 0
 
 def main()->None:
-    p=argparse.ArgumentParser(); p.add_argument('mode',choices=['cycle','report','calibrate','validate','preflight','library','radar','innovation','trial-cycle','trial-preflight','trial-status','trial-model-check']); args=p.parse_args()
+    p=argparse.ArgumentParser(); p.add_argument('mode',choices=['cycle','report','calibrate','validate','preflight','library','focus','radar','innovation','trial-cycle','trial-preflight','trial-status','trial-model-check']); args=p.parse_args()
     if args.mode in ('cycle','trial-cycle'):
         from .trial import auto_trial_active
         trial = args.mode=='trial-cycle' or auto_trial_active(ROOT)
@@ -111,7 +111,13 @@ def main()->None:
         from .commercial import write_commercial_queue
         library=json.loads((ROOT/'reports'/'library.json').read_text(encoding='utf-8'))
         output['commercial_queue']=write_commercial_queue(ROOT,library)
+        # A read-only, derived view: never change persistence, dedupe or gates.
+        from .focus import write_focus
+        output['focus']=write_focus(ROOT,library)
         print(json.dumps(output, indent=2)); return
+    if args.mode=='focus':
+        from .focus import write_focus
+        print(json.dumps(write_focus(ROOT), indent=2)); return
     if args.mode=='innovation':
         from .innovation import write_innovation_backlog
         print(json.dumps(write_innovation_backlog(ROOT), indent=2)); return
