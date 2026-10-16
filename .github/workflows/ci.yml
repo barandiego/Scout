@@ -1,7 +1,7 @@
 name: Scout V0 CI
 on:
   push:
-    branches: [main, 'audit/**', 'fix/**', 'redesign/**']
+    branches: [main]  # PR branches are checked by pull_request, once per commit
   pull_request:
 permissions:
   contents: read
