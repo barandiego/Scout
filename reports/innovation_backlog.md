@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 67
+Candidates: 68
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -328,6 +328,18 @@ Candidates: 67
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://api.cmfchile.cl/
 
+## Chile Open Finance interoperability test harness for fintechs preparing for SFA
+- Status: watch | open_finance_chile
+- Current idea: A narrow, testable product could reduce integration and validation work for Chilean fintechs, banks, payment providers, or data-access participants that need to demonstrate technical readiness before the July 2027 deadline. The opportunity is implementation support and reusable test tooling, not generic consulting.
+- Potential economic capture: A fixed-price local test package: API conformance checks, consent-flow simulation, payment-initiation test cases, reproducible defect reports, and ATENA test-run assistance. A small operator should charge only after confirming that the target entity has an implementation project, budget authority, and permission to test its integration; no buyer, price, or conversion rate is established by the evidence.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
 ## Chile publishes technical rules and developer infrastructure for Open Finance, with go-live deferred to July 2027
 - Status: watch | open_finance_chile
 - Current idea: The market now has clearer interoperability requirements and a longer preparation window. This lowers regulatory uncertainty but creates an implementation race for account aggregation, payment initiation, consent, identity, fraud, compliance and data-enrichment products.
@@ -564,7 +576,7 @@ Candidates: 67
   - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
   - Check license perimeter, API access, legal compliance and competitor pricing.
   - Test buyer procurement and technical access before writing integration infrastructure.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: No named prospective buyer has confirmed a specific unresolved implementation requirement.; No evidence of a paid pilot, target price, procurement path, or budget owner exists.; The number and characteristics of entities required to participate, including phased deadlines by entity type, are not mapped.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
 

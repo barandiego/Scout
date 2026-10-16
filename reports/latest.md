@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-15T20:21:10.633258+00:00
+Generated: 2026-10-16T00:21:05.583753+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['open_finance_chile', 'adoption_lag', 'underserved_buyers']
-- raw_candidates: 2
-- parseable_candidates: 2
-- normalized_candidates: 2
+- lenses: ['seller_supply_gap', 'chile_technology_import', 'early_adoption_investing']
+- raw_candidates: 1
+- parseable_candidates: 1
+- normalized_candidates: 1
 - normalization_rejected: 0
-- grounded_sources: 7
+- grounded_sources: 2
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
 - critic_reviews: 1
 - judge_reviews: 1
 - survivors: 0
-- watches: 3
+- watches: 2
 - rejected: 0
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.04467625
+- cost_usd: 0.04376195
 - cost_uncertain: False
-- budget_remaining_usd: 0.03532375
+- budget_remaining_usd: 0.03623805
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Chile SFA API conformance and test-harness wedge: deferred_by_review_cap
 - Shared-service autonomous mechanical weeding pilot for sugar beet and similar row crops: deferred_by_review_cap
 - Chile RaaS deployment wedge for industrial-floor cleaning: deferred_by_review_cap
 - Pre-build testing and integration wedge for Chile's Open Finance System: deferred_by_review_cap
@@ -51,6 +50,7 @@ No survivors. Scout does not manufacture a daily winner.
 - Battery-project dispatch and revenue-stack verification for Texas and California assets: deferred_by_review_cap
 - Chile SFA implementation adapter for consent, directory and API conformance: deferred_by_review_cap
 - Small- and mid-size farm robotic-weeding service using commercial robots instead of ownership: deferred_by_review_cap
+- Chile Open Finance interoperability test harness for fintechs preparing for SFA: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
@@ -64,47 +64,30 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 39,
+      "grounded_source_count": 22,
       "search_source_urls": [
-        "https://arxiv.org/abs/2112.02162",
-        "https://arxiv.org/abs/2207.10457",
-        "https://arxiv.org/abs/2509.25056",
-        "https://arxiv.org/abs/2512.10319",
-        "https://cmfchile.cl/portal/prensa/625/w4-article-82737.html",
-        "https://en.wikipedia.org/wiki/Captive_customer",
-        "https://en.wikipedia.org/wiki/Customer_base",
-        "https://en.wikipedia.org/wiki/Customer_migration",
+        "https://arxiv.org/abs/2604.00181",
+        "https://arxiv.org/abs/2605.28714",
+        "https://arxiv.org/abs/2609.05433",
+        "https://asug.cl/wp-content/uploads/2025/03/Retail-Community-Interest-Group-May-26-2021.pdf",
+        "https://cmfchile.cl/portal/prensa/625/w4-article-113897.html",
         "https://en.wikipedia.org/wiki/FarmWise",
-        "https://en.wikipedia.org/wiki/First-mover_advantage",
-        "https://en.wikipedia.org/wiki/Porter%27s_five_forces_analysis",
-        "https://farmdroid.com/",
-        "https://www.agricultural-robotics.com/robot/robot-one",
-        "https://www.agricultural-robotics.com/robot/zurama-ai-inrow-weeder",
-        "https://www.bcentral.cl/documents/33528/133214/jvr21092021.pdf/a402635a-1b09-70e6-fb4e-f9e4f543c477?t=1693509440966",
-        "https://www.bcentral.cl/documents/33528/3536419/Rec_programa_evaluacion_sector_financiero.pdf/d46ffb2d-0a42-d645-d0f6-98180552ac7e?t=1655149306303",
-        "https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836",
-        "https://www.bcentral.cl/documents/d/banco-central/reporte-sistemas-de-pagos-de-sudamerica-2024-pdf?download=true",
-        "https://www.bcentral.cl/es/areas/politica-financiera/informe-de-sistemas-de-pago",
-        "https://www.bcentral.cl/es/preguntas-frecuentes",
-        "https://www.cmfchile.cl/educa/621/w3-article-85051.html",
-        "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html",
-        "https://www.cmfchile.cl/portal/principal/613/articles-50600_doc_pdf.pdf",
+        "https://investors.usare.com/static-files/58956dd0-2cde-4fb0-9743-a8b44206a9bb",
+        "https://investors.usare.com/static-files/94d3fe19-4758-4820-836d-7e946a7dc723",
+        "https://nfctech.cl/",
+        "https://public-inspection.federalregister.gov/2026-10222.pdf",
+        "https://pymevisible.cl/productos/stand-instagram",
+        "https://toroyo.cl/",
+        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-99098_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/principal/613/articles-82381_doc_pdf.pdf",
         "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.greenbeam.us/",
-        "https://www.greenbeam.us/pricing",
-        "https://www.nedo.go.jp/content/100981086.pdf",
-        "https://www.reddit.com/r/AgriTech/comments/1wwguu8/ndsu_rowcrop_robot_achieves_965_weeding_accuracy/",
-        "https://www.reddit.com/r/Entrepreneurs/comments/1v7vbv8/the_niche_i_ignored_for_years_because_it_was_too/",
-        "https://www.reddit.com/r/HowToEntrepreneur/comments/1teo4j5/product_pricing_in_underserved_gap_in_the_market/",
-        "https://www.reddit.com/r/InterstellarKinetics/comments/1tfcly3/exclusive_american_farmers_are_deploying_laser/",
-        "https://www.reddit.com/r/SaaS/comments/1s7ysaq/how_crazy_is_it_to_go_up_against_massive/",
-        "https://www.reddit.com/r/automower/comments/12i3ils",
-        "https://www.reddit.com/r/gadgets/comments/140916q",
-        "https://www.reddit.com/r/hwstartups/comments/1qxq91n/engineering_student_startup_autonomous_weeding/",
-        "https://www.reddit.com/r/lawncare/comments/105s2fz",
-        "https://www.reddit.com/r/specializedtools/comments/hzgflt/this_machine_plants_seeds_pulls_weeds_and_waters/",
-        "https://www.reddit.com/r/strategy/comments/1wsw26l/300k_and_six_months_for_a_market_entry_study_is/",
-        "https://www.topfarmrobots.com/guides/farm-robot-prices"
+        "https://www.mercadocreativochile.cl/productos/llavero-inteligente-redes-sociales-nfc/",
+        "https://www.ondda.cl/",
+        "https://www.puntotap.cl/condiciones-de-venta",
+        "https://www.tuk.cl/es-cl/collections/todos-los-productos",
+        "https://www.vicrobotics.com/"
       ]
     },
     {
@@ -119,58 +102,59 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 3,
-      "retry_justified": false
-    },
-    {
-      "index": 1,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 4,
+      "grounded_sources": 2,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_def87ec156069bf156db",
+      "candidate_id": "opp_defb3b9b7ca243658e89",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 17,
+      "grounded_source_count": 33,
       "search_source_urls": [
-        "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Food+Service+-+Hotel+Restaurant+Institutional+Annual_Santiago_Chile_CI2025-0034.pdf",
-        "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Food+Service+-+Hotel+Restaurant+Institutional_Santiago_Chile_CI2023-0019",
-        "https://arxiv.org/abs/2401.11345",
-        "https://masenlaces.com/",
-        "https://masenlaces.com/store/faq",
-        "https://nfctech.cl/",
-        "https://nfctech.cl/guias/como-conseguir-mas-resenas-google",
-        "https://pymevisible.cl/",
-        "https://resenafacil.cl/",
-        "https://restaurantguru.com/Cafe-Kanela-Santiago",
-        "https://www.google.com/travel/hotels/entity/CgsIo5XWseKShNDeARAB?g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4306835%2C4317915%2C4371334%2C4401769%2C4419364%2C4429192%2C4515404%2C4545890%2C4549823%2C4596364%2C4603684%2C4605860%2C4270859%2C4284970&hl=en&rp=EKrx0pnm7b2RJDgCQABIAcABAg&ssta=1&ts=CAEaBAoCGgAqBAoAGgA",
-        "https://www.google.com/travel/hotels/entity/ChcI6c-78Nal7bpxGgsvZy8xeGd6Y18ycxAB?ap=ugEGcHJpY2Vz&ts=CAEaBAoCGgAqBAoAGgA",
-        "https://www.kallman.com/wp-content/uploads/2026/02/Food-Service-Hotel-Restaurant-Institutional-Annual_Santiago_Chile_CI2025-0034.pdf",
-        "https://www.larefactoria.cl/placas-nfc/placa-google-blanca",
-        "https://www.mercadolibre.cl/tarjeta-nfc-resenas-para-google-enlace-rapido-desde-celular-marketing-review-marca-cellbox/p/MLC51379662?pdp_filters=adult_content%3Ayes%7Cdeal%3AMLC1321552-1",
-        "https://www.ondda.cl/",
-        "https://www.oracle.com/a/ocom/docs/oracle-restaurant-scene-2022-chile.pdf"
+        "https://cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://cmfchile.cl/portal/principal/623/w4-article-92466.html",
+        "https://en.wikipedia.org/wiki/Draft%3AFinancial-grade_API",
+        "https://en.wikipedia.org/wiki/Open_banking",
+        "https://en.wikipedia.org/wiki/Open_finance",
+        "https://es.wikipedia.org/wiki/Fapro",
+        "https://es.wikipedia.org/wiki/Finanzas_abiertas",
+        "https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_financiera",
+        "https://latinia.com/en/resources/open-finance-in-latam-regulatory-map-2026",
+        "https://openfinanceconnect.cl/",
+        "https://openfinanceconnect.cl/en/",
+        "https://www.bcentral.cl/documents/33528/7849961/Financial%2BStability%2BReport%2BSecond%2BHalf%2B2025.pdf/83c6bb57-4793-0438-3959-bfd68fea216f?t=1765546573527",
+        "https://www.carey.cl/en/cmf-amends-ncg-no-514-and-incorporates-technical-standards-for-the-implementation-of-the-open-finance-system",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-89581_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://www.imf.org/-/media/files/publications/cr/2024/english/1chlea2024002.pdf",
+        "https://www.jpmorgan.com/content/dam/jpmorgan/images/payments/latam/jpm-payments-without-borders-english.pdf",
+        "https://www.minsait.com/es/estudios/open-finance-en-chile-de-la-implementacion-regulatoria-a-la-oportunidad-de-negocio",
+        "https://www.reddit.com/r/AIAppInnovation/comments/1rjl3ck/top_10_fintech_app_development_firms_in_2026/",
+        "https://www.reddit.com/r/AskAboutAIDevelopmnt/comments/1t0pvqn/top_fintech_mobile_app_development_companies_to/",
+        "https://www.reddit.com/r/ChargeForward/comments/1t4coln/we_mapped_250_embedded_finance_providers_across/",
+        "https://www.reddit.com/r/fintech/comments/1qat02f/ama_2025_review_of_fintech_app_developer_fintech/",
+        "https://www.reddit.com/r/fintech/comments/1s51fnz/3_things_i_didnt_expect_when_looking_into_fintech/",
+        "https://www.reddit.com/r/fintech/comments/1sacgdl/anyone_here_building_a_neobank_in_2026_whats/",
+        "https://www.reddit.com/r/u_IXdatascience/comments/1u00xjh/best_ai_implementation_partners_for_finance_in/",
+        "https://www.reddit.com/r/u_fintechappdev/comments/1r1r6if/10_fintech_app_development_firms_shaping_2026/",
+        "https://www.reddit.com/r/u_fintechappdev/comments/1r2n63c/top_fintech_software_mobile_app_development/",
+        "https://www.reddit.com/r/u_fintechappdev/comments/1r3l580/top_6_custom_fintech_app_development_firms_in_2026/",
+        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000108/MNCjune2026signed.pdf"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_def87ec156069bf156db",
+      "candidate_id": "opp_defb3b9b7ca243658e89",
       "coercions": []
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_def87ec156069bf156db",
+      "candidate_id": "opp_defb3b9b7ca243658e89",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -178,7 +162,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_def87ec156069bf156db",
+      "candidate_id": "opp_defb3b9b7ca243658e89",
       "coercions": []
     }
   ],
@@ -186,44 +170,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 152,
-      "cache_write_tokens": 5423,
+      "reasoning_tokens": 212,
+      "cache_write_tokens": 5558,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01476555,
+      "cumulative_cost_usd": 0.0140323,
       "model": "gpt-5.6-luna",
-      "input_tokens": 14030,
+      "input_tokens": 13954,
       "cached_tokens": 0,
-      "output_tokens": 1407,
+      "output_tokens": 803,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01476555
+      "estimated_cost_usd": 0.0140323
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 110,
-      "cache_write_tokens": 5498,
+      "reasoning_tokens": 157,
+      "cache_write_tokens": 5299,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02951025,
+      "cumulative_cost_usd": 0.02863145,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13823,
+      "input_tokens": 13811,
       "cached_tokens": 0,
-      "output_tokens": 1421,
+      "output_tokens": 1310,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0147447
+      "estimated_cost_usd": 0.01459915
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 61,
-      "cache_write_tokens": 3400,
+      "reasoning_tokens": 62,
+      "cache_write_tokens": 3309,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.04467625,
+      "cumulative_cost_usd": 0.04376195,
       "model": "gpt-5.6-terra",
-      "input_tokens": 3403,
+      "input_tokens": 3312,
       "cached_tokens": 0,
-      "output_tokens": 555,
+      "output_tokens": 571,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.015166
+      "estimated_cost_usd": 0.0151305
     }
   ]
 }
