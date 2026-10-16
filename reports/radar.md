@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-16T13:10:42.753729+00:00
+Generated: 2026-10-16T16:57:47.287961+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 96
+- New this cycle: 112
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 255, ai 309, commerce 35, energy 578, robotics 623
+- Categories: agriculture 254, ai 306, commerce 35, energy 578, robotics 627
 
 ## Recently encountered signals
 
@@ -208,6 +208,24 @@ Generated: 2026-10-16T13:10:42.753729+00:00
 - Source: https://doi.org/10.66506/essp.172
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### Aryansingh-dev31/AgriSmart
+- Source: https://github.com/Aryansingh-dev31/AgriSmart
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### Energy cost optimization for the Flexible Job Shop Scheduling Problem considering Photovoltaic and Battery Energy Storage Systems
+- Source: https://doi.org/10.1016/j.jmsy.2026.09.015
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### ChrisJeyan/En-Vayal
+- Source: https://github.com/ChrisJeyan/En-Vayal
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
 
 ### varunsandesh0425-VK/Agrihelp-AI
@@ -442,22 +460,4 @@ Generated: 2026-10-16T13:10:42.753729+00:00
 - Source: https://github.com/vandana-kumari4/kisaan-ai
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Afra05-786/Smart-Plant-using-ESP32-
-- Source: https://github.com/Afra05-786/Smart-Plant-using-ESP32-
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Comparative Sensitivity Analysis of Grid‐Scale Battery Storage Technologies: Feasibility Investigation for Solar Integration in India
-- Source: https://doi.org/10.1002/est2.70549
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Battery–hydrogen storage transition in a grid-connected PV prosumer: A self-sufficiency threshold analysis under weather variability and techno-economic sensitivity
-- Source: https://doi.org/10.1016/j.enconman.2026.122215
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
