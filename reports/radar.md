@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-16T01:04:13.839488+00:00
+Generated: 2026-10-16T04:58:35.920086+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 107
+- New this cycle: 130
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): arxiv_ai:unavailable_or_invalid
-- Categories: agriculture 258, ai 312, commerce 35, energy 594, robotics 601
+- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
+- Categories: agriculture 254, ai 312, commerce 35, energy 578, robotics 621
 
 ## Recently encountered signals
 
@@ -200,6 +200,24 @@ Generated: 2026-10-16T01:04:13.839488+00:00
 
 ### Opportunities and challenges of integrating battery energy storage in the electricity grid – perspectives from distribution system operators
 - Source: https://doi.org/10.66506/essp.172
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### MasterKai19/Krishi-Smart-Farming-Platform
+- Source: https://github.com/MasterKai19/Krishi-Smart-Farming-Platform
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### Aravindr017/Smart-Energy-Grid-and-Solar-Power-Forecasting-with-Battery-Optimization
+- Source: https://github.com/Aravindr017/Smart-Energy-Grid-and-Solar-Power-Forecasting-with-Battery-Optimization
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### Mahyoub88/solar-energy-systems
+- Source: https://github.com/Mahyoub88/solar-energy-systems
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
@@ -440,24 +458,6 @@ Generated: 2026-10-16T01:04:13.839488+00:00
 
 ### HarshalStudios/SmartFarm
 - Source: https://github.com/HarshalStudios/SmartFarm
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### shakirshar610-tech/Smartkisan-Agriculture-App
-- Source: https://github.com/shakirshar610-tech/Smartkisan-Agriculture-App
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Abd-El-Rhman-Saad/solar-ev-charging-station-bess
-- Source: https://github.com/Abd-El-Rhman-Saad/solar-ev-charging-station-bess
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### rriitp/GreenLink
-- Source: https://github.com/rriitp/GreenLink
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
