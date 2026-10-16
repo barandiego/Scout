@@ -79,6 +79,42 @@
     },
     {
       "capital_required_unverified_estimate": "",
+      "category": "chile_localization",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Buy one or two existing Chilean restaurant NFC products at the listed retail price, install them in a consenting independent restaurant or a personally controlled venue, and run a 7-day A/B test: NFC/QR placard versus the restaurant's existing sign. Measure scans, landing-page visits, menu clicks, and review-page clicks using separate URLs. Do not claim review uplift or recurring revenue unless the pilot produces it. The lowest-cost falsification step is to ask 10 nearby restaurants for permission to place one free prototype for one week; stop if fewer than 2 agree or if taps are negligible. Distribution is direct local outreach to restaurant owners/managers, not an assumed marketplace partnership.",
+      "current_thesis": "The opportunity is not novel NFC hardware; it is a narrowly testable replacement for printed table signage where the operator can measure taps, menu visits, and review-page visits. Existing supply and visible prices reduce hardware and willingness-to-pay uncertainty, but also indicate commodity competition.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Pilot NFC table placards for review capture and menu recovery in independent Chilean restaurants",
+      "opportunity_id": "opp_931a74c26757b6e74ee3",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Find the smallest Chilean workflow whose economics differ from the original geography.",
+        "Secure lawful access, partners and after-sales support rather than copy protected technology.",
+        "Run a buyer interview or mock listing to falsify assumptions before capital commitment."
+      ],
+      "supporting_source_urls": [
+        "https://tarjetas-nfc.com/",
+        "https://www.ondda.cl/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell or resell a small batch of branded NFC-plus-QR table placards, with a simple redirect page that separates menu visits from review-page visits. The economic mechanism is a one-time hardware sale plus an optional recurring fee only if the restaurant values reporting or editable destinations. No recurring willingness-to-pay is established by the evidence.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
       "category": "ecommerce_niches",
       "commercially_validated": false,
       "competition_confirmed": false,
@@ -2619,7 +2655,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-16T00:21:05.978947+00:00",
+  "generated_at": "2026-10-16T04:22:56.210403+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

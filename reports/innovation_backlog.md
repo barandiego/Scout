@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 68
+Candidates: 69
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -27,6 +27,18 @@ Candidates: 68
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.sosmee.com/; https://tnfc.cl/; https://publico.transbank.cl/productos-y-servicios/soluciones-para-ventas-presenciales/pocket-pos
+
+## Pilot NFC table placards for review capture and menu recovery in independent Chilean restaurants
+- Status: watch | chile_localization
+- Current idea: The opportunity is not novel NFC hardware; it is a narrowly testable replacement for printed table signage where the operator can measure taps, menu visits, and review-page visits. Existing supply and visible prices reduce hardware and willingness-to-pay uncertainty, but also indicate commodity competition.
+- Potential economic capture: Sell or resell a small batch of branded NFC-plus-QR table placards, with a simple redirect page that separates menu visits from review-page visits. The economic mechanism is a one-time hardware sale plus an optional recurring fee only if the restaurant values reporting or editable destinations. No recurring willingness-to-pay is established by the evidence.
+- **Research routes to test (NOT validated claims):**
+  - Find the smallest Chilean workflow whose economics differ from the original geography.
+  - Secure lawful access, partners and after-sales support rather than copy protected technology.
+  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://tarjetas-nfc.com/; https://www.ondda.cl/
 
 ## Narrow Chilean e-commerce returns-recovery test for one product category
 - Status: watch | ecommerce_niches

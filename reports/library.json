@@ -3911,8 +3911,8 @@
       "geography": "Chile, initially regulated commercial customers on BT/AT demand tariffs",
       "id": "opp_5c54bef099722659c2b1",
       "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-13T20:22:31.011280+00:00",
+      "judgment": "critic_invalid_output",
+      "last_record_updated_at": "2026-10-16T04:22:55.918129+00:00",
       "material_update": false,
       "missing_execution_proof": [
         "independent_critic_and_judge",
@@ -4587,6 +4587,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-16T04:22:38.300776+00:00",
+      "discovery_lens": "nfc_smart_commerce",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "A Chilean vendor publicly lists NFC business stands, restaurant placards, Google-review products, prices, volume pricing, online purchase, and shipping within Chile.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Tarjetas NFC Chile — tarjetas, stands y productos para restaurantes con precios publicados",
+          "url": "https://tarjetas-nfc.com/"
+        },
+        {
+          "claim": "A second Chilean vendor publicly lists NFC business stands and cards with retail prices and a business-oriented sales route.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Soluciones NFC para negocios en Chile | ONDDA",
+          "url": "https://www.ondda.cl/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.88,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_931a74c26757b6e74ee3",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-16T04:22:38.313097+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Buy one or two existing Chilean restaurant NFC products at the listed retail price, install them in a consenting independent restaurant or a personally controlled venue, and run a 7-day A/B test: NFC/QR placard versus the restaurant's existing sign. Measure scans, landing-page visits, menu clicks, and review-page clicks using separate URLs. Do not claim review uplift or recurring revenue unless the pilot produces it. The lowest-cost falsification step is to ask 10 nearby restaurants for permission to place one free prototype for one week; stop if fewer than 2 agree or if taps are negligible. Distribution is direct local outreach to restaurant owners/managers, not an assumed marketplace partnership.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The opportunity is not novel NFC hardware; it is a narrowly testable replacement for printed table signage where the operator can measure taps, menu visits, and review-page visits. Existing supply and visible prices reduce hardware and willingness-to-pay uncertainty, but also indicate commodity competition.",
+      "title": "Pilot NFC table placards for review capture and menu recovery in independent Chilean restaurants",
+      "type": "physical_product_with_measurable_conversion",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell or resell a small batch of branded NFC-plus-QR table placards, with a simple redirect page that separates menu visits from review-page visits. The economic mechanism is a one-time hardware sale plus an optional recurring fee only if the restaurant values reporting or editable destinations. No recurring willingness-to-pay is established by the evidence.",
+      "verified_sales": null,
+      "vertical": "chile_localization",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-15T04:22:32.106669+00:00",
       "discovery_lens": "ai_open_source",
       "estimated_capital": "",
@@ -5018,13 +5072,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-16T00:21:05.919067+00:00",
+  "generated_at": "2026-10-16T04:22:56.182841+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 35,
   "reviewed_cards": 38,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 103,
-  "watch": 68
+  "total_distinct_opportunities": 104,
+  "watch": 69
 }

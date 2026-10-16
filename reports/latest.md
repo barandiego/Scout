@@ -1,10 +1,10 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-16T00:21:05.583753+00:00
+Generated: 2026-10-16T04:22:55.954450+00:00
 
-- outcome: SUCCESS
+- outcome: DEGRADED_SUCCESS
 - ok: True
-- lenses: ['seller_supply_gap', 'chile_technology_import', 'early_adoption_investing']
+- lenses: ['market_positioning', 'asset_ownership', 'nfc_smart_commerce']
 - raw_candidates: 1
 - parseable_candidates: 1
 - normalized_candidates: 1
@@ -12,17 +12,17 @@ Generated: 2026-10-16T00:21:05.583753+00:00
 - grounded_sources: 2
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 1
+- judge_attempts: 0
 - critic_reviews: 1
-- judge_reviews: 1
+- judge_reviews: 0
 - survivors: 0
 - watches: 2
 - rejected: 0
-- errors_by_stage: {}
+- errors_by_stage: {'critic': 1}
 - rejection_reasons: {}
-- cost_usd: 0.04376195
+- cost_usd: 0.0291734
 - cost_uncertain: False
-- budget_remaining_usd: 0.03623805
+- budget_remaining_usd: 0.0508266
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Shared-service autonomous mechanical weeding pilot for sugar beet and similar row crops: deferred_by_review_cap
 - Chile RaaS deployment wedge for industrial-floor cleaning: deferred_by_review_cap
 - Pre-build testing and integration wedge for Chile's Open Finance System: deferred_by_review_cap
 - Chile Open Finance implementation wedge: conformance testing and developer-tooling assets: deferred_by_review_cap
@@ -51,12 +50,14 @@ No survivors. Scout does not manufacture a daily winner.
 - Chile SFA implementation adapter for consent, directory and API conformance: deferred_by_review_cap
 - Small- and mid-size farm robotic-weeding service using commercial robots instead of ownership: deferred_by_review_cap
 - Chile Open Finance interoperability test harness for fintechs preparing for SFA: deferred_by_review_cap
+- Pilot NFC table placards for review capture and menu recovery in independent Chilean restaurants: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "research_queue_unreviewed=27"
+    "research_queue_unreviewed=27",
+    "critic:invalid_decision"
   ],
   "stages": [
     {
@@ -64,30 +65,46 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 22,
+      "grounded_source_count": 38,
       "search_source_urls": [
-        "https://arxiv.org/abs/2604.00181",
-        "https://arxiv.org/abs/2605.28714",
-        "https://arxiv.org/abs/2609.05433",
-        "https://asug.cl/wp-content/uploads/2025/03/Retail-Community-Interest-Group-May-26-2021.pdf",
-        "https://cmfchile.cl/portal/prensa/625/w4-article-113897.html",
-        "https://en.wikipedia.org/wiki/FarmWise",
-        "https://investors.usare.com/static-files/58956dd0-2cde-4fb0-9743-a8b44206a9bb",
-        "https://investors.usare.com/static-files/94d3fe19-4758-4820-836d-7e946a7dc723",
-        "https://nfctech.cl/",
-        "https://public-inspection.federalregister.gov/2026-10222.pdf",
-        "https://pymevisible.cl/productos/stand-instagram",
-        "https://toroyo.cl/",
-        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
-        "https://www.cmfchile.cl/portal/prensa/615/articles-99098_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/principal/613/articles-82381_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.mercadocreativochile.cl/productos/llavero-inteligente-redes-sociales-nfc/",
+        "https://conextap.cl/",
+        "https://docs.verkada.com/docs/mobile-nfc-datasheet-es.pdf",
+        "https://elpais.com/chile/2025-07-04/los-pagos-con-tarjetas-telefonos-y-plataformas-digitales-ganan-terreno-en-chile.html",
+        "https://elpais.com/chile/2025-07-08/como-funciona-el-reconocimiento-facial-para-pagar-el-pasaje-de-los-buses-del-sistema-red-en-chile.html",
+        "https://es.wikipedia.org/wiki/Lynqu",
+        "https://es.wikipedia.org/wiki/Sistema_%C3%9Anico_de_Boleto_Electr%C3%B3nico",
+        "https://es.wikipedia.org/wiki/Tarjeta_Conecta",
+        "https://es.wikipedia.org/wiki/Tarjeta_de_prepago",
+        "https://es.wikipedia.org/wiki/Tarjeta_de_proximidad",
+        "https://es.wikipedia.org/wiki/Transbank",
+        "https://linkd.cl/",
+        "https://nfcid.cl/",
+        "https://nfcnexo.cl/",
+        "https://tarjetas-nfc.com/",
+        "https://tnfc.cl/producto/tarjeta-nfc-de-presentacion-digital/",
+        "https://tukcards.cl/tuk-appweb/index.php",
+        "https://vluetechservices.cl/catalogo/",
+        "https://www.bcentral.cl/documents/d/banco-central/informe-de-sistemas-de-pago-agosto-2025-pdf?download=true",
+        "https://www.citytap.cl/pdf/CITYTAP_TARJETAYDOMO_LEADNET.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/articles-108813_recurso_1.pdf",
+        "https://www.df.cl/noticias/site/docs/20240923/20240923185940/suplemento_20240924.pdf",
+        "https://www.nexoid.cl/",
         "https://www.ondda.cl/",
-        "https://www.puntotap.cl/condiciones-de-venta",
-        "https://www.tuk.cl/es-cl/collections/todos-los-productos",
-        "https://www.vicrobotics.com/"
+        "https://www.reddit.com/r/BuenosAires/comments/1nwgj1h/pagar_bondi_con_celu_nfc_male_sal/",
+        "https://www.reddit.com/r/CDMX/comments/1krokl5",
+        "https://www.reddit.com/r/DerechoGenial/comments/1hth8fw",
+        "https://www.reddit.com/r/Monterrey/comments/1gnhjsu",
+        "https://www.reddit.com/r/Santiago/comments/1ksvgnq",
+        "https://www.reddit.com/r/chile/comments/15s5h9a/tarjeta_bip_en_gpayapplepay/",
+        "https://www.reddit.com/r/chile/comments/17w2s7i",
+        "https://www.reddit.com/r/chile/comments/1w2n8wj/hola_gente_quer%C3%ADa_saber_que_tan_raro_es_encontrar/",
+        "https://www.reddit.com/r/chile/comments/sxevtv/la_tecnolog%C3%ADa_llega_a_supermercado_l%C3%ADder_walmart/",
+        "https://www.reddit.com/r/chileIT/comments/1ua1vee/como_se_puede_usar_un_pos_newland_sin_depender_de/",
+        "https://www.reddit.com/r/guatemala/comments/1x5euq8/alguien_aqu%C3%AD_todav%C3%ADa_usa_tarjetas_de_presentaci%C3%B3n/",
+        "https://www.reddit.com/r/u_POSTCARDVMD/comments/1sbk1x4/reemplazar%C3%ADas_tu_vieja_tarjeta_de_papel_por_una/",
+        "https://www.tuk.cl/es-cl",
+        "https://www.tuk.cl/es-cl/products/tarjeta-de-presentacion-digital-con-qr-y-nfc",
+        "https://www.visa.cl/content/dam/VCOM/download/about-visa/Visa_Reglas_Basicas_y_Productos_Chile_2025-04-12_Public_ES.pdf"
       ]
     },
     {
@@ -107,107 +124,75 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_defb3b9b7ca243658e89",
+      "candidate_id": "opp_5c54bef099722659c2b1",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 33,
       "search_source_urls": [
-        "https://cmfchile.cl/portal/prensa/625/w4-article-113897.html",
-        "https://cmfchile.cl/portal/principal/623/w4-article-92466.html",
-        "https://en.wikipedia.org/wiki/Draft%3AFinancial-grade_API",
-        "https://en.wikipedia.org/wiki/Open_banking",
-        "https://en.wikipedia.org/wiki/Open_finance",
-        "https://es.wikipedia.org/wiki/Fapro",
-        "https://es.wikipedia.org/wiki/Finanzas_abiertas",
-        "https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_financiera",
-        "https://latinia.com/en/resources/open-finance-in-latam-regulatory-map-2026",
-        "https://openfinanceconnect.cl/",
-        "https://openfinanceconnect.cl/en/",
-        "https://www.bcentral.cl/documents/33528/7849961/Financial%2BStability%2BReport%2BSecond%2BHalf%2B2025.pdf/83c6bb57-4793-0438-3959-bfd68fea216f?t=1765546573527",
-        "https://www.carey.cl/en/cmf-amends-ncg-no-514-and-incorporates-technical-standards-for-the-implementation-of-the-open-finance-system",
-        "https://www.cmfchile.cl/portal/prensa/615/articles-89581_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
-        "https://www.imf.org/-/media/files/publications/cr/2024/english/1chlea2024002.pdf",
-        "https://www.jpmorgan.com/content/dam/jpmorgan/images/payments/latam/jpm-payments-without-borders-english.pdf",
-        "https://www.minsait.com/es/estudios/open-finance-en-chile-de-la-implementacion-regulatoria-a-la-oportunidad-de-negocio",
-        "https://www.reddit.com/r/AIAppInnovation/comments/1rjl3ck/top_10_fintech_app_development_firms_in_2026/",
-        "https://www.reddit.com/r/AskAboutAIDevelopmnt/comments/1t0pvqn/top_fintech_mobile_app_development_companies_to/",
-        "https://www.reddit.com/r/ChargeForward/comments/1t4coln/we_mapped_250_embedded_finance_providers_across/",
-        "https://www.reddit.com/r/fintech/comments/1qat02f/ama_2025_review_of_fintech_app_developer_fintech/",
-        "https://www.reddit.com/r/fintech/comments/1s51fnz/3_things_i_didnt_expect_when_looking_into_fintech/",
-        "https://www.reddit.com/r/fintech/comments/1sacgdl/anyone_here_building_a_neobank_in_2026_whats/",
-        "https://www.reddit.com/r/u_IXdatascience/comments/1u00xjh/best_ai_implementation_partners_for_finance_in/",
-        "https://www.reddit.com/r/u_fintechappdev/comments/1r1r6if/10_fintech_app_development_firms_shaping_2026/",
-        "https://www.reddit.com/r/u_fintechappdev/comments/1r2n63c/top_fintech_software_mobile_app_development/",
-        "https://www.reddit.com/r/u_fintechappdev/comments/1r3l580/top_6_custom_fintech_app_development_firms_in_2026/",
-        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000108/MNCjune2026signed.pdf"
+        "https://arxiv.org/abs/2303.04433",
+        "https://arxiv.org/abs/2307.07580",
+        "https://arxiv.org/abs/2509.10713",
+        "https://arxiv.org/abs/2607.15570",
+        "https://carlosjofre.com/en/services/bess-strategy/",
+        "https://elpais.com/chile/2026-07-07/cuanto-subira-la-cuenta-de-la-luz-en-chile-revise-el-alza-de-este-mes-y-como-calcular-la-boleta.html",
+        "https://en.wikipedia.org/wiki/Charge_control",
+        "https://en.wikipedia.org/wiki/Curtailment_in_Chile",
+        "https://en.wikipedia.org/wiki/Differential_tariff",
+        "https://en.wikipedia.org/wiki/Peak_demand",
+        "https://es.wikipedia.org/wiki/Almacenamiento_de_energ%C3%ADa_como_servicio",
+        "https://es.wikipedia.org/wiki/Respuesta_a_la_demanda",
+        "https://hdp-au-prod-app-jemena-gridtalk-files.s3.ap-southeast-2.amazonaws.com/1817/4055/9710/JEN_-_Att_09-02_Tariff_Structure_Statement_explanatory_statement_-_20250131_-_Public.pdf",
+        "https://web.gruposaesa.cl/documents/20121/0/Saesa%2BSTA%2B2024%2BINGLES%2BV2.pdf/0144df08-5a58-a739-24c4-acde2faa8589?t=1725975334940",
+        "https://www.bcentral.cl/documents/33528/5969425/Box-II1-MPR-June-2024.pdf/a878dfdc-545b-ef3b-2413-db000b29b6b3?t=1720107193127",
+        "https://www.bcn.cl/leychile/navegar?i=1212631",
+        "https://www.cne.cl/en/tarificacion/electrica/valor-agregado-de-distribucion/",
+        "https://www.cne.cl/prensa/prensa-2026/10-octubre-2026/publicacion-informe-final-licitaciones-2026/",
+        "https://www.cne.cl/tarificacion/electrica/",
+        "https://www.cne.cl/wp-content/uploads/2025/08/Decreto-5T-2024-Toma-de-razon-1.pdf",
+        "https://www.coopelan.cl/informacion-comercial/tarifas",
+        "https://www.coordinador.cl/clienteslibres/",
+        "https://www.enel.cl/es/empresas/regulado/informaciones-destacadas-clientes-empresas/preguntas-frecuentes-empresas-e-instituciones.html",
+        "https://www.engie.cl/wp-content/uploads/2024/10/Press-Release-EECL-3Q25-English-vf.pdf",
+        "https://www.leychile.cl/navegar?idNorma=1226550",
+        "https://www.reddit.com/r/AusFinance/comments/1nbdwjc/electricity_season_demand_cost_increase_by_515_as/",
+        "https://www.reddit.com/r/Powerwall/comments/1pnfr5i/vpp_and_demand_charges/",
+        "https://www.reddit.com/r/Powerwall/comments/1x5ecos/managing_peak_demand_billing/",
+        "https://www.reddit.com/r/TeslaSolar/comments/1x5eeev/managing_peak_demand_billing/",
+        "https://www.reddit.com/r/TickerTalkByLiam/comments/1rcj6h8/demand_charges_the_hidden_margin_driver_in_cold/",
+        "https://www.sciencedirect.com/science/article/am/pii/S2352152X24014026",
+        "https://www.solarprochile.com/bess",
+        "https://www.solarprochile.com/cargo-por-demanda"
       ]
-    },
-    {
-      "stage": "critic",
-      "candidate_id": "opp_defb3b9b7ca243658e89",
-      "coercions": []
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_defb3b9b7ca243658e89",
-      "response_status": "completed",
-      "incomplete_reason": "",
-      "grounded_source_count": 0,
-      "search_source_urls": []
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_defb3b9b7ca243658e89",
-      "coercions": []
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 212,
-      "cache_write_tokens": 5558,
+      "reasoning_tokens": 333,
+      "cache_write_tokens": 5230,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0140323,
+      "cumulative_cost_usd": 0.0140743,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13954,
+      "input_tokens": 13832,
       "cached_tokens": 0,
-      "output_tokens": 803,
+      "output_tokens": 872,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0140323
+      "estimated_cost_usd": 0.0140743
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 157,
-      "cache_write_tokens": 5299,
+      "reasoning_tokens": 147,
+      "cache_write_tokens": 5258,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02863145,
+      "cumulative_cost_usd": 0.0291734,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13811,
+      "input_tokens": 13717,
       "cached_tokens": 0,
-      "output_tokens": 1310,
+      "output_tokens": 1744,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01459915
-    },
-    {
-      "stage": "judge",
-      "available": true,
-      "reasoning_tokens": 62,
-      "cache_write_tokens": 3309,
-      "accounting_notes": [],
-      "cumulative_cost_usd": 0.04376195,
-      "model": "gpt-5.6-terra",
-      "input_tokens": 3312,
-      "cached_tokens": 0,
-      "output_tokens": 571,
-      "web_search_calls": 0,
-      "estimated_cost_usd": 0.0151305
+      "estimated_cost_usd": 0.0150991
     }
   ]
 }

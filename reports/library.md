@@ -1,10 +1,10 @@
 # Scout — opportunity library
 
-Generated: 2026-10-16T00:21:05.919067+00:00
+Generated: 2026-10-16T04:22:56.182841+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 68 (0 HQ survivors, 68 watches)
+- Active research: 69 (0 HQ survivors, 69 watches)
 - Rejected opportunities excluded: 35
 - Critic-and-judge reviewed: 38
 - Autonomous execution authorization: 0
@@ -488,7 +488,7 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Thesis: A site with a short, avoidable power spike can pay recurring demand-related charges even when total monthly energy consumption is moderate. The concrete wedge is not generic energy consulting: obtain interval data and bills, identify the top avoidable peaks, then sell a fixed diagnostic plus an installable control package such as load sequencing, scheduled charging, or a small battery/controller retrofit.
 - Value capture: Charge for a paid bill-and-interval-data audit, then earn from implementation through a fixed-fee control retrofit or a documented share of verified bill savings. Do not assume savings until a baseline and tariff calculation are completed.
 - Participation hypothesis: Start with one small commercial site that already has 15-minute meter data. Ask for 12 months of bills and interval exports; reproduce the billed demand components in a spreadsheet; identify whether one controllable load caused material peaks. Before buying hardware, run a two-week manual or software-only test using alerts and operator load-shifting. Falsify if no site shows a controllable peak, if the tariff calculation cannot be reproduced, or if the maximum possible saving is smaller than the customer’s willingness to pay for the audit. Only
-- Critic/judge: deferred_by_review_cap
+- Critic/judge: critic_invalid_output
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.bcn.cl/leychile/navegar?i=1212631; https://www.cne.cl/tarificacion/electrica/
@@ -612,6 +612,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.falabella.com/falabella-cl/seller/Natura; https://www.natura.cl/encuentra-natura
+
+### Pilot NFC table placards for review capture and menu recovery in independent Chilean restaurants [opp_931a74c26757b6e74ee3]
+- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
+- Thesis: The opportunity is not novel NFC hardware; it is a narrowly testable replacement for printed table signage where the operator can measure taps, menu visits, and review-page visits. Existing supply and visible prices reduce hardware and willingness-to-pay uncertainty, but also indicate commodity competition.
+- Value capture: Sell or resell a small batch of branded NFC-plus-QR table placards, with a simple redirect page that separates menu visits from review-page visits. The economic mechanism is a one-time hardware sale plus an optional recurring fee only if the restaurant values reporting or editable destinations. No recurring willingness-to-pay is established by the evidence.
+- Participation hypothesis: Buy one or two existing Chilean restaurant NFC products at the listed retail price, install them in a consenting independent restaurant or a personally controlled venue, and run a 7-day A/B test: NFC/QR placard versus the restaurant's existing sign. Measure scans, landing-page visits, menu clicks, and review-page clicks using separate URLs. Do not claim review uplift or recurring revenue unless the pilot produces it. The lowest-cost falsification step is to ask 10 nearby restaurants for permission to place one free prototype for one week; stop
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://tarjetas-nfc.com/; https://www.ondda.cl/
 
 ### Pre-spend and tool-use regression testing for AI agents using open attack corpora [opp_09bb69601be0706e7219]
 - Status: WATCH_REQUIRES_VALIDATION | innovation_adoption | Global; initial distribution can target Chilean and Latin American software teams
