@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 71
+Candidates: 73
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -111,6 +111,18 @@ Candidates: 71
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.energy.gov/documents/craig-order-202-26-31-pios-exhibits-3-01-3-07-july-24-2026; https://www.energy.gov/documents/motion-intervene-motion-clarification-and-request-rehearing-and-stay-public-interest-36
+
+## NYISO DER enrollment and telemetry wedge for 10–100 kW commercial assets
+- Status: watch | energy_infrastructure
+- Current idea: Small commercial batteries, generators and flexible loads may have an additional wholesale-market participation route, but enrollment friction creates a narrow operational-data and qualification problem before any market revenue is realized.
+- Potential economic capture: A fixed-scope asset qualification and telemetry-readiness package: inventory eligible sites, map each resource to NYISO requirements, identify missing interval-meter or telemetry data, and produce an aggregator-ready data room. The economic mechanism is payment for reducing enrollment and implementation labor; no wholesale revenue or customer savings is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.nyiso.com/documents/20142/49802416/DER-and-Aggregation-Participation-Model-FAQ.pdf/967117fb-8bbb-1916-651a-0f9dbe904780; https://www.nyiso.com/documents/20142/51465900/03a%20BPWG%202025-05-19%20Market%20Project%20Descriptions.pdf/7ae79489-5cd8-5715-200f-227204dad4a4
 
 ## SEC-verified solar-plus-storage prequalification for Chilean small businesses
 - Status: watch | energy_infrastructure
@@ -588,7 +600,7 @@ Candidates: 71
   - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
   - Check license perimeter, API access, legal compliance and competitor pricing.
   - Test buyer procurement and technical access before writing integration infrastructure.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Whether ATENA will expose enough automated test coverage, fixtures, reporting, and repeatability to displace private tooling.; Whether the cited private competitors have paying customers, production-grade coverage, or merely marketing pages.; Number and type of entities that must participate, their implementation budgets, procurement cycles, and internal engineering capacity.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html
 
@@ -759,6 +771,18 @@ Candidates: 71
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.dtcc.com/press-releases/2026/dtcc-turns-tokenization-into-reality; https://www.sec.gov/newsroom/speeches-statements/corp-fin-statement-tokenized-securities-012826-statement-tokenized-securities
+
+## Tokenized-securities operational adapter for DTC Participants
+- Status: watch | public_markets
+- Current idea: DTC Participants and their service providers will need operational controls that reconcile traditional positions, tokenized entitlements, wallet movements and corporate-action records. This is a concrete integration problem, not proof of a broad tokenization market.
+- Potential economic capture: A narrow reconciliation-control asset: a software connector or auditable workbook that compares DTC position files, token-transfer events and internal books, flags unmatched mint/burn/transfer events, and generates exception evidence. The likely cash-flow source is implementation or recurring control-monitoring work for firms preparing for the service; no buyer, price or permission is presumed.
+- **Research routes to test (NOT validated claims):**
+  - Find overlooked fundamentals and a named accessible security with dated primary filings.
+  - Compare risked intrinsic value, market expectations and specific downside scenarios.
+  - Define catalysts and invalidation thresholds before any governed investment decision.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.dtcc.com/products-and-services/digital-assets/tokenization/hub; https://www.dtcc.com/products-and-services/digital-assets/tokenization/live-production-trades
 
 ## Chile RaaS deployment wedge for industrial-floor cleaning
 - Status: watch | robotics_agritech

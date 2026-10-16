@@ -340,6 +340,42 @@
       "category": "energy_infrastructure",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use NYISO’s public DER participation FAQ and market-project documents to create a checklist and spreadsheet prototype. Select one local segment such as small warehouses with batteries or refrigeration loads. Contact existing NYISO market participants or DER aggregators listed in public market-participant materials and ask whether they will review five anonymized asset records. Falsify cheaply by attempting to produce a complete qualification pack from public information for five facilities; stop if required data cannot be obtained without utility, owner or aggregator permissions, or if aggregators already provide the same function internally.",
+      "current_thesis": "Small commercial batteries, generators and flexible loads may have an additional wholesale-market participation route, but enrollment friction creates a narrow operational-data and qualification problem before any market revenue is realized.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "New York, United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "NYISO DER enrollment and telemetry wedge for 10–100 kW commercial assets",
+      "opportunity_id": "opp_94b1dcc19f8cc9f335ef",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
+        "Compare owned asset, installer/distributor and project-finance participation.",
+        "Verify permits and installed net payback under conservative power price scenarios."
+      ],
+      "supporting_source_urls": [
+        "https://www.nyiso.com/documents/20142/49802416/DER-and-Aggregation-Participation-Model-FAQ.pdf/967117fb-8bbb-1916-651a-0f9dbe904780",
+        "https://www.nyiso.com/documents/20142/51465900/03a%20BPWG%202025-05-19%20Market%20Project%20Descriptions.pdf/7ae79489-5cd8-5715-200f-227204dad4a4"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A fixed-scope asset qualification and telemetry-readiness package: inventory eligible sites, map each resource to NYISO requirements, identify missing interval-meter or telemetry data, and produce an aggregator-ready data room. The economic mechanism is payment for reducing enrollment and implementation labor; no wholesale revenue or customer savings is assumed.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "energy_infrastructure",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use the SEC authorized-installer directory as a distribution list. Contact 10-20 listed installers and offer a no-commitment pilot: screen five of their existing commercial leads using anonymized electricity bills and site information, returning a standardized go/no-go report. Separately, recruit three small businesses through local business associations or direct outreach and request permission to analyze their last 12 electricity bills. The lowest-cost falsification test is to complete five screenings manually, without buying equipment or promising installation, and measure whether at least one installer or customer requests a paid follow-up. Do not perform regulated electrical design or submit connection paperwork unless partnered with an appropriately authorized professional.",
       "current_thesis": "A small operator can reduce failed site visits and non-viable proposals by screening a customer’s load profile, roof/site, equipment eligibility, and preliminary network capacity before an authorized installer prepares a formal installation and connection proposal. The value is avoided engineering and sales effort plus potential electricity-bill savings; actual savings and payback remain site-specific and unproven.",
       "founder_hours_initial_unverified_estimate": "",
@@ -1857,9 +1893,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "Chile",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "Whether ATENA will expose enough automated test coverage, fixtures, reporting, and repeatability to displace private tooling.",
+        "Whether the cited private competitors have paying customers, production-grade coverage, or merely marketing pages.",
+        "Number and type of entities that must participate, their implementation budgets, procurement cycles, and internal engineering capacity.",
+        "Whether participants will pay directly for a standalone conformance product rather than obtain it from core banking vendors, systems integrators, legal/compliance firms, or API providers.",
+        "Whether CMF will certify, endorse, or require any particular testing process or evidence package.",
+        "Final technical specifications, change frequency, versioning policy, certification requirements, and production access conditions.",
+        "Demand for ongoing monitoring after initial certification; the recurring revenue case is unproven."
       ],
       "investment_authorized": false,
       "name": "Compliance-and-integration tooling for Chile's Open Finance implementation",
@@ -2425,6 +2465,42 @@
     },
     {
       "capital_required_unverified_estimate": "",
+      "category": "public_markets",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Build a local-only prototype using synthetic positions and publicly documented DTCC workflows. Demonstrate reconciliation across one Treasury security and one equity-token transfer, including mint, burn, wallet and corporate-action exceptions. Approach DTC Participants, custodians, transfer agents or back-office vendors only after the prototype is complete; seek a paid discovery or sandbox review rather than assuming production access. Falsify by testing whether three relevant firms will review the synthetic workflow and identify an actual unresolved control gap; stop if the workflow requires restricted DTC data or if existing vendor products already cover it at no incremental need.",
+      "current_thesis": "DTC Participants and their service providers will need operational controls that reconcile traditional positions, tokenized entitlements, wallet movements and corporate-action records. This is a concrete integration problem, not proof of a broad tokenization market.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Tokenized-securities operational adapter for DTC Participants",
+      "opportunity_id": "opp_711ad4fbffe9d21b5212",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Find overlooked fundamentals and a named accessible security with dated primary filings.",
+        "Compare risked intrinsic value, market expectations and specific downside scenarios.",
+        "Define catalysts and invalidation thresholds before any governed investment decision."
+      ],
+      "supporting_source_urls": [
+        "https://www.dtcc.com/products-and-services/digital-assets/tokenization/hub",
+        "https://www.dtcc.com/products-and-services/digital-assets/tokenization/live-production-trades"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A narrow reconciliation-control asset: a software connector or auditable workbook that compares DTC position files, token-transfer events and internal books, flags unmatched mint/burn/transfer events, and generates exception evidence. The likely cash-flow source is implementation or recurring control-monitoring work for firms preparing for the service; no buyer, price or permission is presumed.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
       "category": "robotics_agritech",
       "commercially_validated": false,
       "competition_confirmed": false,
@@ -2731,7 +2807,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-16T16:22:55.212080+00:00",
+  "generated_at": "2026-10-16T20:18:49.535562+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

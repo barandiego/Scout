@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-16T16:22:55.182108+00:00
+Generated: 2026-10-16T20:18:49.479765+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 71 (0 HQ survivors, 71 watches)
+- Active research: 73 (0 HQ survivors, 73 watches)
 - Rejected opportunities excluded: 37
-- Critic-and-judge reviewed: 39
+- Critic-and-judge reviewed: 40
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -252,6 +252,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Whether the cited 2026 proposed provisions will be finalized without delay, narrowing, or changed compliance dates.; Which payer segments are actually in scope and how many will outsource implementation rather than use incumbent vendors or internal teams.; Actual API utilization, provider adoption, and measurable reductions in prior-authorization labor after compliance.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://public-inspection.federalregister.gov/2026-07205.pdf; https://www.govinfo.gov/content/pkg/FR-2026-06-11/pdf/FR-2026-06-11.pdf
+
+### Compliance-and-integration tooling for Chile's Open Finance implementation [opp_74aed61a008c4b4bb5a1]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: A narrow product can help prospective participants test technical readiness before mandatory operation: consent-state logging, API conformance tests, certificate and participant-registry checks, payment-initiation test fixtures, or uptime/TPS monitoring. This is an implementation asset, not generic fintech consulting.
+- Value capture: Possible payers include entities preparing to become Open Finance participants or technology vendors integrating with them. The evidence verifies the technical requirements and timing, but does not verify budgets, procurement, or willingness to pay.
+- Participation hypothesis: Build a small local test harness against the CMF developer-portal specifications, limited to one verifiable workflow such as consent lifecycle or API error-code conformance. Publish a reproducible demo and ask prospective participants or integration vendors to run their own test data through it. Lowest-cost falsification: before building a full product, manually map 20 required fields and test one mock API flow with three Chilean fintech or banking-technology contacts; proceed only if at least one confirms that the artifact would be used in an
+- Critic/judge: The cited CMF primary-source provenance is sufficient to treat Chile’s Open Finance technical-rulemaking and implementation window as grounded for screening purposes, not as an unverified regulatory-change claim. A narrowly scoped, non-production readiness product—such as API conformance or consent-lifecycle testing using public specifications, mock data, and any lawful CMF sandbox access—does not inherently require restricted financial
+- Next evidence gaps: Whether ATENA will expose enough automated test coverage, fixtures, reporting, and repeatability to displace private tooling.; Whether the cited private competitors have paying customers, production-grade coverage, or merely marketing pages.; Number and type of entities that must participate, their implementation budgets, procurement cycles, and internal engineering capacity.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html
 
 ### EU AI Act transparency and enforcement obligations are becoming operational [opp_0b970dfcca09a4135b23]
 - Status: WATCH_REQUIRES_VALIDATION | general | European Union
@@ -613,16 +623,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
-### Compliance-and-integration tooling for Chile's Open Finance implementation [opp_74aed61a008c4b4bb5a1]
-- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
-- Thesis: A narrow product can help prospective participants test technical readiness before mandatory operation: consent-state logging, API conformance tests, certificate and participant-registry checks, payment-initiation test fixtures, or uptime/TPS monitoring. This is an implementation asset, not generic fintech consulting.
-- Value capture: Possible payers include entities preparing to become Open Finance participants or technology vendors integrating with them. The evidence verifies the technical requirements and timing, but does not verify budgets, procurement, or willingness to pay.
-- Participation hypothesis: Build a small local test harness against the CMF developer-portal specifications, limited to one verifiable workflow such as consent lifecycle or API error-code conformance. Publish a reproducible demo and ask prospective participants or integration vendors to run their own test data through it. Lowest-cost falsification: before building a full product, manually map 20 required fields and test one mock API flow with three Chilean fintech or banking-technology contacts; proceed only if at least one confirms that the artifact would be used in an
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html
-
 ### Interconnection-queue intelligence as a paid research asset for project developers [opp_471716894d06e79a4659]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States
 - Thesis: The combination of a large, changing queue and withdrawals creates a narrowly defined data problem: normalize queue status, withdrawal history, transmission region, project technology, and likely time-to-interconnection into a research product. The economic value would depend on whether developers, lenders, brokers, or equipment suppliers pay for project-screening data; the evidence does not establish that willingness to pay.
@@ -632,6 +632,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.energy.gov/documents/craig-order-202-26-31-pios-exhibits-3-01-3-07-july-24-2026; https://www.energy.gov/documents/motion-intervene-motion-clarification-and-request-rehearing-and-stay-public-interest-36
+
+### NYISO DER enrollment and telemetry wedge for 10–100 kW commercial assets [opp_94b1dcc19f8cc9f335ef]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | New York, United States
+- Thesis: Small commercial batteries, generators and flexible loads may have an additional wholesale-market participation route, but enrollment friction creates a narrow operational-data and qualification problem before any market revenue is realized.
+- Value capture: A fixed-scope asset qualification and telemetry-readiness package: inventory eligible sites, map each resource to NYISO requirements, identify missing interval-meter or telemetry data, and produce an aggregator-ready data room. The economic mechanism is payment for reducing enrollment and implementation labor; no wholesale revenue or customer savings is assumed.
+- Participation hypothesis: Use NYISO’s public DER participation FAQ and market-project documents to create a checklist and spreadsheet prototype. Select one local segment such as small warehouses with batteries or refrigeration loads. Contact existing NYISO market participants or DER aggregators listed in public market-participant materials and ask whether they will review five anonymized asset records. Falsify cheaply by attempting to produce a complete qualification pack from public information for five facilities; stop if required data cannot be obtained without utili
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.nyiso.com/documents/20142/49802416/DER-and-Aggregation-Participation-Model-FAQ.pdf/967117fb-8bbb-1916-651a-0f9dbe904780; https://www.nyiso.com/documents/20142/51465900/03a%20BPWG%202025-05-19%20Market%20Project%20Descriptions.pdf/7ae79489-5cd8-5715-200f-227204dad4a4
 
 ### Pilot NFC table placards for review capture and menu recovery in independent Chilean restaurants [opp_931a74c26757b6e74ee3]
 - Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
@@ -722,3 +732,13 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/843781/000003014626000437/cik0000843781_102708.htm; https://www.sec.gov/Archives/edgar/data/831114/000139834426000957/fp0097248-1_40app.htm
+
+### Tokenized-securities operational adapter for DTC Participants [opp_711ad4fbffe9d21b5212]
+- Status: WATCH_REQUIRES_VALIDATION | public_markets | United States
+- Thesis: DTC Participants and their service providers will need operational controls that reconcile traditional positions, tokenized entitlements, wallet movements and corporate-action records. This is a concrete integration problem, not proof of a broad tokenization market.
+- Value capture: A narrow reconciliation-control asset: a software connector or auditable workbook that compares DTC position files, token-transfer events and internal books, flags unmatched mint/burn/transfer events, and generates exception evidence. The likely cash-flow source is implementation or recurring control-monitoring work for firms preparing for the service; no buyer, price or permission is presumed.
+- Participation hypothesis: Build a local-only prototype using synthetic positions and publicly documented DTCC workflows. Demonstrate reconciliation across one Treasury security and one equity-token transfer, including mint, burn, wallet and corporate-action exceptions. Approach DTC Participants, custodians, transfer agents or back-office vendors only after the prototype is complete; seek a paid discovery or sandbox review rather than assuming production access. Falsify by testing whether three relevant firms will review the synthetic workflow and identify an actual unre
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.dtcc.com/products-and-services/digital-assets/tokenization/hub; https://www.dtcc.com/products-and-services/digital-assets/tokenization/live-production-trades

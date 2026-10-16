@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-10-16T16:22:55.182108+00:00",
+  "generated_at": "2026-10-16T20:18:49.479765+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -104,14 +104,14 @@
   "high_concentration": [
     {
       "cards": 33,
-      "share": 0.465,
+      "share": 0.452,
       "theme": "chile_open_finance"
     }
   ],
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 26,
+  "theme_count": 28,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -134,11 +134,11 @@
         "opp_f696eab5c7c7590b79fa",
         "opp_20f82e47fa9080b32bd2",
         "opp_defb3b9b7ca243658e89",
+        "opp_74aed61a008c4b4bb5a1",
         "opp_de6bbd059c9fa7fd72e5",
         "opp_19c39afc662c8bd68101",
         "opp_993ac5d080c7042af44c",
         "opp_82f282d8dc0896390ee7",
-        "opp_74aed61a008c4b4bb5a1",
         "opp_56dda86b89972247ff94",
         "opp_76fc7b6bece7c6b747d4",
         "opp_12eb144e4fe2a8d50297",
@@ -151,7 +151,7 @@
       ],
       "count": 33,
       "representative_id": "opp_f26e42aaabb91e157f9d",
-      "reviewed_count": 19,
+      "reviewed_count": 20,
       "theme": "chile_open_finance"
     },
     {
@@ -238,6 +238,15 @@
       "representative_id": "opp_471716894d06e79a4659",
       "reviewed_count": 0,
       "theme": "energy_infrastructure:interconnection_queue_intelligence"
+    },
+    {
+      "all_opportunity_ids": [
+        "opp_94b1dcc19f8cc9f335ef"
+      ],
+      "count": 1,
+      "representative_id": "opp_94b1dcc19f8cc9f335ef",
+      "reviewed_count": 0,
+      "theme": "energy_infrastructure:nyiso_der_enrollment"
     },
     {
       "all_opportunity_ids": [
@@ -349,6 +358,15 @@
     },
     {
       "all_opportunity_ids": [
+        "opp_711ad4fbffe9d21b5212"
+      ],
+      "count": 1,
+      "representative_id": "opp_711ad4fbffe9d21b5212",
+      "reviewed_count": 0,
+      "theme": "public_markets:tokenized_securities_operational"
+    },
+    {
+      "all_opportunity_ids": [
         "opp_99de522ad05d0e01cebc"
       ],
       "count": 1,
@@ -393,6 +411,6 @@
       "theme": "robotics_agritech:small_scale_hydroponic"
     }
   ],
-  "total_original_cards": 71,
+  "total_original_cards": 73,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }

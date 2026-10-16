@@ -2112,6 +2112,91 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": true,
+      "discovered_at": "2026-10-14T08:25:29.883985+00:00",
+      "discovery_lens": "business_model_migration",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF issued an amendment to General Rule No. 514 on June 1, 2026, incorporated Annex 3 technical specifications and developer-portal material, and postponed entry into force until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "The technical amendments describe dynamic client registration, consent management, certificate validity, versioning and logging, payment-initiation APIs, performance requirements and developer-portal specifications.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF publishes for consultation amendments to Technical Annex of regulation on Open Finance System",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.83,
+      "falsification_conditions": [
+        "CMF's ATENA provides equivalent or superior automated conformance testing, test fixtures, reporting, and workflow support at no material price to target customers.",
+        "At least 20 targeted Chilean institutions or integration vendors are contacted and none confirms a current internal readiness or vendor-integration use case.",
+        "No target customer agrees to run a prototype using its own or realistic test data within 30 days.",
+        "No target customer provides a credible budget owner, purchasing path, or paid pilot commitment before substantial development.",
+        "The proposed product cannot test a complete, reproducible workflow using publicly available specifications and a lawful sandbox environment.",
+        "The only defensible feature set is generic API testing, uptime monitoring, or compliance consulting already supplied by incumbents.",
+        "The July 2027 implementation date is postponed materially, or mandatory requirements remain too incomplete for customers to prioritize procurement.",
+        "Customers require regulatory certification, production credentials, or access that the founder cannot obtain without a licensed local partner.",
+        "A competitor demonstrates a materially broader Chile-specific suite with existing customer references and pricing below the achievable cost of acquisition and support."
+      ],
+      "geography": "Chile",
+      "id": "opp_74aed61a008c4b4bb5a1",
+      "judge_reviewed": true,
+      "judgment": "The cited CMF primary-source provenance is sufficient to treat Chile’s Open Finance technical-rulemaking and implementation window as grounded for screening purposes, not as an unverified regulatory-change claim. A narrowly scoped, non-production readiness product—such as API conformance or consent-lifecycle testing using public specifications, mock data, and any lawful CMF sandbox access—does not inherently require restricted financial data access or a regulated payment/data-sharing role. Therefore no fatal API-access or license-perimeter failure is established at this stage. However, the commercial wedge is not yet proven: CMF’s ATENA sandbox and existing Chile-focused implementation/sandbox vendors may commoditize the exact testing workflow; buyers, budget owners, procurement paths, and recurring-revenue rationale are all unverified. This survives only as low-cost customer and technical-access validation, not as a build thesis or a claim of durable SaaS economics.",
+      "last_record_updated_at": "2026-10-16T20:18:49.082142+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Whether ATENA will expose enough automated test coverage, fixtures, reporting, and repeatability to displace private tooling.",
+        "Whether the cited private competitors have paying customers, production-grade coverage, or merely marketing pages.",
+        "Number and type of entities that must participate, their implementation budgets, procurement cycles, and internal engineering capacity.",
+        "Whether participants will pay directly for a standalone conformance product rather than obtain it from core banking vendors, systems integrators, legal/compliance firms, or API providers.",
+        "Whether CMF will certify, endorse, or require any particular testing process or evidence package."
+      ],
+      "participation_path": "Build a small local test harness against the CMF developer-portal specifications, limited to one verifiable workflow such as consent lifecycle or API error-code conformance. Publish a reproducible demo and ask prospective participants or integration vendors to run their own test data through it. Lowest-cost falsification: before building a full product, manually map 20 required fields and test one mock API flow with three Chilean fintech or banking-technology contacts; proceed only if at least one confirms that the artifact would be used in an internal readiness or vendor-integration process. Regulatory authorization and production access must be confirmed separately.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A narrow product can help prospective participants test technical readiness before mandatory operation: consent-state logging, API conformance tests, certificate and participant-registry checks, payment-initiation test fixtures, or uptime/TPS monitoring. This is an implementation asset, not generic fintech consulting.",
+      "title": "Compliance-and-integration tooling for Chile's Open Finance implementation",
+      "type": "asset_or_service",
+      "unknowns": [
+        "Whether ATENA will expose enough automated test coverage, fixtures, reporting, and repeatability to displace private tooling.",
+        "Whether the cited private competitors have paying customers, production-grade coverage, or merely marketing pages.",
+        "Number and type of entities that must participate, their implementation budgets, procurement cycles, and internal engineering capacity.",
+        "Whether participants will pay directly for a standalone conformance product rather than obtain it from core banking vendors, systems integrators, legal/compliance firms, or API providers.",
+        "Whether CMF will certify, endorse, or require any particular testing process or evidence package.",
+        "Final technical specifications, change frequency, versioning policy, certification requirements, and production access conditions.",
+        "Demand for ongoing monitoring after initial certification; the recurring revenue case is unproven.",
+        "Security, data-residency, liability, insurance, and authorization requirements for handling consent records, certificates, payment-initiation fixtures, or participant credentials.",
+        "Whether Chilean customers will buy from a small foreign or non-incumbent vendor without local support and regulatory relationships.",
+        "Actual willingness to pay from at least one named participant or integration vendor.",
+        "Whether lawful public/sandbox access permits a complete reproducible workflow, including realistic error cases, certificate behavior, dynamic client registration, and participant-directory interactions.",
+        "Whether ATENA offers automated conformance coverage, downloadable reports, fixtures, and workflow support equivalent to the proposed product.",
+        "Which participant class has a mandatory obligation, near-term implementation budget, and a named technical/compliance buyer for a standalone tool.",
+        "Whether a prospect will pay for a pilot rather than use internal engineering, an integrator, CMF resources, or an incumbent vendor.",
+        "Whether private competitors have production customers, Chile-specific coverage, and pricing that make a narrow entrant uneconomic.",
+        "Whether a non-incumbent vendor can sell without local support, security attestations, insurance, or a regulated/local partner.",
+        "Whether post-launch monitoring has a required or economically compelling use case sufficient to support recurring revenue."
+      ],
+      "value_capture_mechanism": "Possible payers include entities preparing to become Open Finance participants or technology vendors integrating with them. The evidence verifies the technical requirements and timing, but does not verify budgets, procurement, or willingness to pay.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": true,
       "discovered_at": "2026-10-03T20:05:14.856750+00:00",
       "discovery_lens": "regulation_infrastructure",
       "estimated_capital": "",
@@ -4621,60 +4706,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-14T08:25:29.883985+00:00",
-      "discovery_lens": "business_model_migration",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "CMF issued an amendment to General Rule No. 514 on June 1, 2026, incorporated Annex 3 technical specifications and developer-portal material, and postponed entry into force until July 2027.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
-          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
-        },
-        {
-          "claim": "The technical amendments describe dynamic client registration, consent management, certificate validity, versioning and logging, payment-initiation APIs, performance requirements and developer-portal specifications.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "CMF publishes for consultation amendments to Technical Annex of regulation on Open Finance System",
-          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.91,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_74aed61a008c4b4bb5a1",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-14T08:25:29.912051+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Build a small local test harness against the CMF developer-portal specifications, limited to one verifiable workflow such as consent lifecycle or API error-code conformance. Publish a reproducible demo and ask prospective participants or integration vendors to run their own test data through it. Lowest-cost falsification: before building a full product, manually map 20 required fields and test one mock API flow with three Chilean fintech or banking-technology contacts; proceed only if at least one confirms that the artifact would be used in an internal readiness or vendor-integration process. Regulatory authorization and production access must be confirmed separately.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "A narrow product can help prospective participants test technical readiness before mandatory operation: consent-state logging, API conformance tests, certificate and participant-registry checks, payment-initiation test fixtures, or uptime/TPS monitoring. This is an implementation asset, not generic fintech consulting.",
-      "title": "Compliance-and-integration tooling for Chile's Open Finance implementation",
-      "type": "asset_or_service",
-      "unknowns": [],
-      "value_capture_mechanism": "Possible payers include entities preparing to become Open Finance participants or technology vendors integrating with them. The evidence verifies the technical requirements and timing, but does not verify budgets, procurement, or willingness to pay.",
-      "verified_sales": null,
-      "vertical": "open_finance_chile",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-14T20:22:41.899471+00:00",
       "discovery_lens": "asset_ownership",
       "estimated_capital": "",
@@ -4719,6 +4750,60 @@
       "type": "dataset_or_research_asset",
       "unknowns": [],
       "value_capture_mechanism": "Offer a small paid dataset, monitoring subscription, or one-off queue-screening report focused on a single ISO/RTO and technology. Do not assume access to proprietary project data or permission to redistribute source datasets.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-16T20:18:25.722415+00:00",
+      "discovery_lens": "energy_industrial",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "NYISO states that an aggregator may combine individual DERs as small as 10 kW for wholesale energy, ancillary services and ICAP markets.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "New York ISO Market Training - Frequently Asked Questions: DER and Aggregation Participation Model",
+          "url": "https://www.nyiso.com/documents/20142/49802416/DER-and-Aggregation-Participation-Model-FAQ.pdf/967117fb-8bbb-1916-651a-0f9dbe904780"
+        },
+        {
+          "claim": "NYISO identifies bidding obligations, metering and telemetry requirements, and industrial-load operating parameters as participation barriers and proposes 2026 market-design work to improve DSR enrollment.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "2026 Market Project Descriptions",
+          "url": "https://www.nyiso.com/documents/20142/51465900/03a%20BPWG%202025-05-19%20Market%20Project%20Descriptions.pdf/7ae79489-5cd8-5715-200f-227204dad4a4"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.9,
+      "falsification_conditions": [],
+      "geography": "New York, United States",
+      "id": "opp_94b1dcc19f8cc9f335ef",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-16T20:18:25.754172+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use NYISO’s public DER participation FAQ and market-project documents to create a checklist and spreadsheet prototype. Select one local segment such as small warehouses with batteries or refrigeration loads. Contact existing NYISO market participants or DER aggregators listed in public market-participant materials and ask whether they will review five anonymized asset records. Falsify cheaply by attempting to produce a complete qualification pack from public information for five facilities; stop if required data cannot be obtained without utility, owner or aggregator permissions, or if aggregators already provide the same function internally.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Small commercial batteries, generators and flexible loads may have an additional wholesale-market participation route, but enrollment friction creates a narrow operational-data and qualification problem before any market revenue is realized.",
+      "title": "NYISO DER enrollment and telemetry wedge for 10–100 kW commercial assets",
+      "type": "market-access_enabler",
+      "unknowns": [],
+      "value_capture_mechanism": "A fixed-scope asset qualification and telemetry-readiness package: inventory eligible sites, map each resource to NYISO requirements, identify missing interval-meter or telemetry data, and produce an aggregator-ready data room. The economic mechanism is payment for reducing enrollment and implementation labor; no wholesale revenue or customer savings is assumed.",
       "verified_sales": null,
       "vertical": "energy_infrastructure",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
@@ -5209,18 +5294,72 @@
       "vertical": "open_finance_chile",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-16T20:18:25.723823+00:00",
+      "discovery_lens": "tokenization_finance",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "DTCC says its Tokenization Service is expected to launch in the fourth quarter of 2026, is limited to eligible DTC Participants and clients, and will support selected securities, wallet registration, token minting and burning, and token transfers.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "DTCC Tokenization Hub",
+          "url": "https://www.dtcc.com/products-and-services/digital-assets/tokenization/hub"
+        },
+        {
+          "claim": "DTCC reports live production transactions involving tokenized DTC-custodied Treasury and equity assets and says the expected service launch is October 2026.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Tokenization Becomes a Reality",
+          "url": "https://www.dtcc.com/products-and-services/digital-assets/tokenization/live-production-trades"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.88,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_711ad4fbffe9d21b5212",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-16T20:18:25.754369+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Build a local-only prototype using synthetic positions and publicly documented DTCC workflows. Demonstrate reconciliation across one Treasury security and one equity-token transfer, including mint, burn, wallet and corporate-action exceptions. Approach DTC Participants, custodians, transfer agents or back-office vendors only after the prototype is complete; seek a paid discovery or sandbox review rather than assuming production access. Falsify by testing whether three relevant firms will review the synthetic workflow and identify an actual unresolved control gap; stop if the workflow requires restricted DTC data or if existing vendor products already cover it at no incremental need.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "DTC Participants and their service providers will need operational controls that reconcile traditional positions, tokenized entitlements, wallet movements and corporate-action records. This is a concrete integration problem, not proof of a broad tokenization market.",
+      "title": "Tokenized-securities operational adapter for DTC Participants",
+      "type": "infrastructure_adapter",
+      "unknowns": [],
+      "value_capture_mechanism": "A narrow reconciliation-control asset: a software connector or auditable workbook that compares DTC position files, token-transfer events and internal books, flags unmatched mint/burn/transfer events, and generates exception evidence. The likely cash-flow source is implementation or recurring control-monitoring work for firms preparing for the service; no buyer, price or permission is presumed.",
+      "verified_sales": null,
+      "vertical": "public_markets",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
     }
   ],
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-16T16:22:55.182108+00:00",
+  "generated_at": "2026-10-16T20:18:49.479765+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 37,
-  "reviewed_cards": 39,
+  "reviewed_cards": 40,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 108,
-  "watch": 71
+  "total_distinct_opportunities": 110,
+  "watch": 73
 }
