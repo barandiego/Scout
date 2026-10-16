@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-16T08:23:26.266151+00:00
+Generated: 2026-10-16T12:26:12.680248+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 69 (0 HQ survivors, 69 watches)
+- Active research: 71 (0 HQ survivors, 71 watches)
 - Rejected opportunities excluded: 36
-- Critic-and-judge reviewed: 38
+- Critic-and-judge reviewed: 39
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -333,6 +333,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.whitehouse.gov/presidential-actions/2026/01/adjusting-imports-of-processed-critical-minerals-and-their-derivative-products-into-the-united-states/; https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary
 
+### Natura Chile catalog and corporate-gifting wedge across Natura.cl and Falabella.com [opp_ef5d3038f30393cb8c4f]
+- Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile
+- Thesis: The testable opportunity is not generic private label: it is a narrow price, availability, and assortment comparison for selected Natura products, followed by a compliant corporate-gifting or local fulfillment offer if the operator can obtain permission to resell or refer customers. The observable mechanism is channel fragmentation and promotional price variation, but no arbitrage profit should be assumed until checkout-level costs and marketplace rules are verified.
+- Value capture: Potential cash-flow sources are direct product purchases by corporate gift buyers or permitted referral/resale economics. The immediately verifiable asset is a live catalog with product prices and delivery information; current examples include Natura hand creams and skincare products listed on Falabella.com. A small operator could first sell a curated quote-and-bundle service rather than hold inventory, but buyer demand and resale permi
+- Participation hypothesis: Select three to five non-perishable, repeatedly listed SKUs. Record Natura.cl and Falabella.com prices, promotions, delivery dates, stock, and checkout totals for seven days. Separately build a one-page corporate-gifting sample with quantities and clearly labeled retail pricing; send it to 10 local businesses or procurement contacts only as a request-for-interest, without representing Natura or Falabella and without buying inventory. Falsify the wedge if there is no persistent price/availability difference, if shipping eliminates any spread, if
+- Critic/judge: The underlying products, channels, and corporate-gifting buyer job are real: Natura sells in Chile through its own ecommerce, consultants, stores, corporate-gifting channel, and an official Falabella storefront. However, this does not establish a distributable wedge. Direct Natura corporate sales and Falabella Empresas are strong, already-available competitors for the same procurement and gifting job, while the proposed intermediary has
+- Next evidence gaps: Actual checkout totals by Chilean location, including shipping, taxes, pickup eligibility, payment costs, and corporate invoicing terms.; Whether the same SKU, size, batch, packaging, and warranty are being compared across Natura.cl and Falabella.com.; Whether price differences persist after promotions, coupons, multi-buy rules, loyalty benefits, and shipping thresholds are normalized.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.falabella.com/falabella-cl/seller/Natura; https://www.natura.cl/encuentra-natura
+
 ### Open-finance conformance test asset for Chilean participants [opp_d8365496cc53375fa445]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: A small operator could test demand for a narrowly defined automated conformance harness: request/response fixtures, schema validation, consent-flow checks, payment-initiation test cases, and evidence export for internal engineering or vendor acceptance. This is not evidence that regulated entities will buy it or that certification authority exists.
@@ -593,6 +603,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
+### Chile SFA/ATENA interoperability test harness for small fintechs [opp_055b092ce47f55114c32]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Small regulated or prospective SFA participants may face a concrete implementation and testing workload before July 2027. A narrow, reusable test harness or managed conformance-testing package could reduce integration uncertainty without attempting to become a regulated data-access provider.
+- Value capture: Sell a fixed-scope SFA readiness diagnostic, test-plan package, mock API environment, and ATENA integration support. Revenue would come only if an identified fintech or financial institution agrees to pay for the defined testing work; no buyer, price, or conversion is assumed.
+- Participation hypothesis: Start with the public CMF technical annex and ATENA materials. Build a minimal mock participant-directory/API test fixture and a checklist mapping one prospective participant’s endpoints to the published requirements. Contact only entities publicly listed as fintechs, payment providers, or financial institutions and offer a paid or unpaid discovery session subject to their authorization. Falsification test: interview five potential participants or implementation vendors and ask whether they already have an internal test harness, whether ATENA a
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
 ### Compliance-and-integration tooling for Chile's Open Finance implementation [opp_74aed61a008c4b4bb5a1]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: A narrow product can help prospective participants test technical readiness before mandatory operation: consent-state logging, API conformance tests, certificate and participant-registry checks, payment-initiation test fixtures, or uptime/TPS monitoring. This is an implementation asset, not generic fintech consulting.
@@ -612,16 +632,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.energy.gov/documents/craig-order-202-26-31-pios-exhibits-3-01-3-07-july-24-2026; https://www.energy.gov/documents/motion-intervene-motion-clarification-and-request-rehearing-and-stay-public-interest-36
-
-### Natura Chile catalog and corporate-gifting wedge across Natura.cl and Falabella.com [opp_ef5d3038f30393cb8c4f]
-- Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile
-- Thesis: The testable opportunity is not generic private label: it is a narrow price, availability, and assortment comparison for selected Natura products, followed by a compliant corporate-gifting or local fulfillment offer if the operator can obtain permission to resell or refer customers. The observable mechanism is channel fragmentation and promotional price variation, but no arbitrage profit should be assumed until checkout-level costs and marketplace rules are verified.
-- Value capture: Potential cash-flow sources are direct product purchases by corporate gift buyers or permitted referral/resale economics. The immediately verifiable asset is a live catalog with product prices and delivery information; current examples include Natura hand creams and skincare products listed on Falabella.com. A small operator could first sell a curated quote-and-bundle service rather than hold inventory, but buyer demand and resale permi
-- Participation hypothesis: Select three to five non-perishable, repeatedly listed SKUs. Record Natura.cl and Falabella.com prices, promotions, delivery dates, stock, and checkout totals for seven days. Separately build a one-page corporate-gifting sample with quantities and clearly labeled retail pricing; send it to 10 local businesses or procurement contacts only as a request-for-interest, without representing Natura or Falabella and without buying inventory. Falsify the wedge if there is no persistent price/availability difference, if shipping eliminates any spread, if
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.falabella.com/falabella-cl/seller/Natura; https://www.natura.cl/encuentra-natura
 
 ### Pilot NFC table placards for review capture and menu recovery in independent Chilean restaurants [opp_931a74c26757b6e74ee3]
 - Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
@@ -652,6 +662,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://pubs.usgs.gov/periodicals/mcs2025/mcs2025_ver.1.0.pdf; https://pubs.usgs.gov/periodicals/mcs2025/mcs2025.pdf
+
+### Self-hosted browser-automation deployment for one repetitive Chilean back-office workflow [opp_5f895ba07087b66159c1]
+- Status: WATCH_REQUIRES_VALIDATION | innovation_adoption | Chile/LatAm
+- Thesis: A small operator can test whether one high-frequency, browser-only workflow—such as downloading statements, reconciling portal data, or preparing draft form entries—can be automated at lower total cost than manual handling. The opportunity is the workflow-specific implementation and maintenance, not a generic AI agency.
+- Value capture: Charge for a narrowly scoped deployment, workflow configuration, monitoring, and human-approval layer only after a real organization permits a pilot and confirms the task’s baseline labor or error cost. Do not resell hosted access to software whose license prohibits it.
+- Participation hypothesis: Select one workflow with non-sensitive test data and an explicit human approval before submission. Prototype with the MIT-licensed Cereon Browser Operator or AgentBrowser, keeping credentials and execution on the client’s machine. Measure completion rate, exception rate, human minutes per case, and model/API cost over 20 to 50 cases. Falsification test: ask three operators of the same workflow for anonymized sample steps and permission to run a 1-week sandbox pilot; abandon if no one supplies a repeatable task, baseline time, or authorized test
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://github.com/cereon-labs/cereon-browser-operator; https://github.com/smouj/agent-browser
 
 ### Shared-service autonomous mechanical weeding pilot for sugar beet and similar row crops [opp_5b761b0ef329020c7bc2]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States; potentially adaptable to Chilean row-crop regions

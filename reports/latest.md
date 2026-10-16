@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-16T08:23:25.925232+00:00
+Generated: 2026-10-16T12:26:12.414688+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['vertical_farming_economics', 'energy_localization', 'wildcard']
-- raw_candidates: 1
-- parseable_candidates: 1
-- normalized_candidates: 1
+- lenses: ['geographic_arbitrage', 'ai_open_source', 'public_markets']
+- raw_candidates: 2
+- parseable_candidates: 2
+- normalized_candidates: 2
 - normalization_rejected: 0
-- grounded_sources: 3
+- grounded_sources: 4
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 0
+- judge_attempts: 1
 - critic_reviews: 1
-- judge_reviews: 0
+- judge_reviews: 1
 - survivors: 0
-- watches: 1
-- rejected: 1
+- watches: 3
+- rejected: 0
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.0289957
+- cost_usd: 0.0561117
 - cost_uncertain: False
-- budget_remaining_usd: 0.0510043
+- budget_remaining_usd: 0.0238883
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,8 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Pre-build testing and integration wedge for Chile's Open Finance System: deferred_by_review_cap
-- Chile Open Finance implementation wedge: conformance testing and developer-tooling assets: deferred_by_review_cap
 - Speed-to-power infrastructure exposure: researchable public-company basket with a falsifiable backlog catalyst: deferred_by_review_cap
 - Interconnection-queue intelligence as a paid research asset for project developers: deferred_by_review_cap
 - Chile-localized NFC emergency/contact card with QR fallback: deferred_by_review_cap
@@ -51,12 +49,14 @@ No survivors. Scout does not manufacture a daily winner.
 - Chile Open Finance interoperability test harness for fintechs preparing for SFA: deferred_by_review_cap
 - Pilot NFC table placards for review capture and menu recovery in independent Chilean restaurants: deferred_by_review_cap
 - SEC-verified solar-plus-storage prequalification for Chilean small businesses: deferred_by_review_cap
+- Chile SFA/ATENA interoperability test harness for small fintechs: deferred_by_review_cap
+- Self-hosted browser-automation deployment for one repetitive Chilean back-office workflow: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "research_queue_unreviewed=27"
+    "research_queue_unreviewed=28"
   ],
   "stages": [
     {
@@ -64,26 +64,28 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 18,
+      "grounded_source_count": 20,
       "search_source_urls": [
-        "https://bibliotecadigital.odepa.gob.cl/bitstream/handle/20.500.12650/74462/Indicadores_ProdFactores_122025.pdf",
-        "https://energia.gob.cl/noticias/nacional/extension-del-subsidio-y-mejoras-en-distribucion-por-amplia-mayoria-el-congreso-despacha-ley-proyecto-ordenemos-la-cuenta",
-        "https://energia.gob.cl/noticias/nacional/ministerio-de-energia-modifica-y-reingresa-decretos-que-regulan-la-operacion-y-coordinacion-del-sistema-electrico",
-        "https://energia.gob.cl/noticias/valparaiso/ley-ordenemos-la-cuenta-familias-contaran-con-mayor-proteccion-y-tarifas-mas-justas",
-        "https://energia.gob.cl/sites/default/files/documentos/pelp2023-2027_informe_preliminar.pdf",
-        "https://energia.gob.cl/sites/default/files/documentos/reporte_de_proyectos_-_enero_2026.pdf",
-        "https://energia.gob.cl/sites/default/files/documentos/sistemas-de-almacenamiento_web.pdf",
-        "https://www.energia.gob.cl/noticias/nacional/biministro-garcia-anuncia-que-empresas-generadoras-restituiran-sobrecostos-en-cuentas-de-electricidad-partir-de-enero-de-2026?page=106",
-        "https://www.energia.gob.cl/noticias/nacional/ministerio-de-energia-publica-el-informe-preliminar-de-la-planificacion-energetica-de-largo-plazo-2028-2032",
-        "https://www.energia.gob.cl/noticias/nacional/ministerio-de-energia-publico-decreto-que-establece-devolucion-de-cobros-en-exceso-por-parte-de-generadoras?page=1",
-        "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=veMtGx5md60ZKQ4H1YSrhg%3D%3D",
-        "https://www.mercadopublico.cl/PurchaseOrder/Modules/PO/DetailsPurchaseOrder.aspx?qs=N5XYxBZYMEaDptDe9rc62A%3D%3D",
-        "https://www.odepa.gob.cl/fichas-de-costo",
-        "https://www.odepa.gob.cl/fichas-de-costo/ficha-de-costo-del-tomate-region-de-valparaiso",
-        "https://www.odepa.gob.cl/odepaweb/publicaciones/doc/8423.pdf",
-        "https://www.sec.cl/gda/",
-        "https://www.sec.cl/gda/",
-        "https://www.sec.cl/plataformas-ernc/"
+        "https://brand.github.com/GitHub-BrandGuidelines-2026.pdf",
+        "https://cmfchile.cl/portal/principal/613/articles-72652_doc_pdf.pdf",
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001369568/7c8ede3b-d39e-4a5b-8653-bbc667aebe78.pdf",
+        "https://github.com/agenvoy/Agenvoy",
+        "https://github.com/cereon-labs/cereon-browser-operator",
+        "https://github.com/esterhuizen/opensidekick",
+        "https://github.com/frontman-ai/frontman",
+        "https://github.com/nikola66/web-agent",
+        "https://github.com/openit-ai/open-agent-os",
+        "https://github.com/smouj/agent-browser",
+        "https://github.com/suhail-akhtar/aico",
+        "https://github.com/use-ash/apex",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-110411_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://www.cmfchile.cl/portal/principal/613/articles-82381_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.reddit.com/r/KPTI/comments/1wdfe9y/8k_filed/",
+        "https://www.reddit.com/r/biotech_stocks/comments/1vo81qu/fall_biotech_catalyst_rundown_from_my_tracker/",
+        "https://www.reddit.com/r/sellaslifesciences/comments/1u9hq2q/8k_report_filing/"
       ]
     },
     {
@@ -98,80 +100,122 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 3,
+      "grounded_sources": 2,
+      "retry_justified": false
+    },
+    {
+      "index": 1,
+      "stage": "normalization",
+      "outcome": "accepted",
+      "reasons": [],
+      "changes": [
+        "contrary_evidence:list_sanitized",
+        "major_risks:list_sanitized",
+        "unknowns:list_sanitized",
+        "falsification_conditions:list_sanitized",
+        "material_update:unknown_false"
+      ],
+      "grounded_sources": 2,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_bf2c12a513145f51fe3a",
+      "candidate_id": "opp_ef5d3038f30393cb8c4f",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 26,
       "search_source_urls": [
-        "https://atencionciudadana.minenergia.cl/tramites/informacion/20",
-        "https://energia.gob.cl/noticias/nacional/se-abre-concurso-de-apoyo-proyectos-de-energeticos-en-edificios-publicos",
-        "https://energia.gob.cl/panel/licitaciones-de-proyectos",
-        "https://energia.gob.cl/sites/default/files/documentos/estudio_de_mercado_de_eficiencia_energetica_en_chile.pdf",
-        "https://es.wikipedia.org/wiki/Auditor%C3%ADa_energ%C3%A9tica",
-        "https://es.wikipedia.org/wiki/Certificaci%C3%B3n_energ%C3%A9tica_de_edificios",
-        "https://es.wikipedia.org/wiki/Contrato_p%C3%BAblico",
-        "https://es.wikipedia.org/wiki/Empresa_de_servicios_energ%C3%A9ticos",
-        "https://es.wikipedia.org/wiki/Licitaci%C3%B3n",
-        "https://es.wikipedia.org/wiki/Medida_de_conservaci%C3%B3n_energ%C3%A9tica",
-        "https://licitacionesdechile.cl/compra-agil/4044-196-COT26",
-        "https://licitacionesdechile.cl/licitacion/587-17-LE26/selico-60-calificacion-energetica",
-        "https://www.anesco.cl/que-es-eficiencia-energetica/",
-        "https://www.bcn.cl/leychile/navegar?i=1181254",
-        "https://www.camara.cl/verDoc.aspx?prmDestinoId=3&prmId=4225&prmTipo=RESOLUCIONRESPUESTA",
-        "https://www.chilecompra.cl/2026/10/chilecompra-entrega-orientaciones-tecnicas-para-fortalecer-la-eficiencia-de-las-compras-publicas-del-ultimo-trimestre-de-2026/",
-        "https://www.chilecompra.cl/wp-content/uploads/2023/10/2017-estudioOCDE-ConveniosMarco.pdf",
-        "https://www.diariooficial.interior.gob.cl/publicaciones/2026/01/07/44342/01/2745380.pdf",
-        "https://www.dipres.gob.cl/597/articles-218071_doc_pdf.pdf",
-        "https://www.economia.gob.cl/1540/articles-187055_recurso_1.pdf",
-        "https://www.emb.cl/electroindustria/articulo.mvc?act=4&srch=mantenimiento&tip=&xid=3081&xit=",
-        "https://www.energia.gob.cl/noticias/metropolitana-de-santiago/modelo-esco-para-potenciar-la-eficiencia-energetica",
-        "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=et0VvPg1VL7KnMruJDgSdg%3D%3D",
-        "https://www.reddit.com/r/RepublicadeChile/comments/1mr54il",
-        "https://www.reddit.com/r/chile/comments/1ngqrwv",
-        "https://www.sec.cl/ley-de-eficiencia-energetica/"
+        "https://empresas.falabella.com/empresasfalabella-cl",
+        "https://empresas.falabella.com/empresasfalabella-cl",
+        "https://en.wikipedia.org/wiki/Falabella_%28retail_store%29",
+        "https://en.wikipedia.org/wiki/Natura_%26Co",
+        "https://en.wikipedia.org/wiki/S.A.C.I._Falabella",
+        "https://es.wikipedia.org/wiki/CMR_Falabella",
+        "https://es.wikipedia.org/wiki/Falabella",
+        "https://es.wikipedia.org/wiki/Grupo_Falabella",
+        "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/",
+        "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/",
+        "https://investors.grupofalabella.com/app/uploads/sites/2/2026/03/Annual-Report-2025.pdf",
+        "https://sellercenter.falabella.com/templates/default/files/terminos_y_condiciones_marketplace_falabella.pdf",
+        "https://www.falabella.com/falabella-cl/seller/Natura",
+        "https://www.natura.cl/",
+        "https://www.natura.cl/aplicativo-natura",
+        "https://www.natura.cl/blog/regalos",
+        "https://www.natura.cl/c/lanzamientos-edicion-limitada",
+        "https://www.natura.cl/c/regalo-arma-tu-regalo",
+        "https://www.natura.cl/c/regalos",
+        "https://www.natura.cl/c/regalos",
+        "https://www.natura.cl/c/regalos-mas-vendidos?_rsc=124t1",
+        "https://www.natura.cl/c/regalos-todas-las-personas",
+        "https://www.natura.cl/encuentra-natura",
+        "https://www.natura.cl/encuentra-natura",
+        "https://www.natura.cl/regalos-corporativos",
+        "https://www.natura.cl/regalos-corporativos"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_bf2c12a513145f51fe3a",
+      "candidate_id": "opp_ef5d3038f30393cb8c4f",
       "coercions": [
-        "contrary_evidence"
+        "critic_case"
       ]
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_ef5d3038f30393cb8c4f",
+      "response_status": "completed",
+      "incomplete_reason": "",
+      "grounded_source_count": 0,
+      "search_source_urls": []
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_ef5d3038f30393cb8c4f",
+      "coercions": []
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 348,
-      "cache_write_tokens": 5438,
+      "reasoning_tokens": 212,
+      "cache_write_tokens": 5403,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0142327,
+      "cumulative_cost_usd": 0.01450415,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13768,
+      "input_tokens": 13700,
       "cached_tokens": 0,
-      "output_tokens": 1006,
+      "output_tokens": 1245,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0142327
+      "estimated_cost_usd": 0.01450415
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 159,
-      "cache_write_tokens": 5352,
+      "reasoning_tokens": 260,
+      "cache_write_tokens": 5287,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0289957,
+      "cumulative_cost_usd": 0.0414807,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13813,
+      "input_tokens": 23817,
       "cached_tokens": 0,
-      "output_tokens": 1444,
-      "web_search_calls": 1,
-      "estimated_cost_usd": 0.014763
+      "output_tokens": 1624,
+      "web_search_calls": 2,
+      "estimated_cost_usd": 0.02697655
+    },
+    {
+      "stage": "judge",
+      "available": true,
+      "reasoning_tokens": 107,
+      "cache_write_tokens": 2874,
+      "accounting_notes": [],
+      "cumulative_cost_usd": 0.0561117,
+      "model": "gpt-5.6-terra",
+      "input_tokens": 2877,
+      "cached_tokens": 0,
+      "output_tokens": 620,
+      "web_search_calls": 0,
+      "estimated_cost_usd": 0.014631
     }
   ]
 }

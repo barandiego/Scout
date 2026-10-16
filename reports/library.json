@@ -2802,6 +2802,94 @@
       "ai_leverage": "",
       "authorized_for_execution": false,
       "contrary_evidence": [
+        "Falabella's official Natura storefront is live and displays at least 126 results, product prices, promotions, delivery estimates, pickup options, and checkout actions, confirming that the catalog and channel are real. Source: https://www.falabella.com/falabella-cl/seller/Natura. ([falabella.com](https://www.falabella.com/falabella-cl/seller/Natura))",
+        "Natura's Chilean site identifies multiple purchase channels and a dedicated corporate-gifting offering, so there is genuine underlying demand infrastructure and a possible route to an authorized partnership. Source: https://www.natura.cl/encuentra-natura. ([natura.cl](https://www.natura.cl/encuentra-natura?utm_source=openai))",
+        "Natura's corporate-gifting page provides a dedicated business contact and says it offers a catalog of corporate gifts, which could support a referral, agency, or authorized-reseller model if commercial terms are available. Source: https://www.natura.cl/regalos-corporativos. ([natura.cl](https://www.natura.cl/regalos-corporativos?utm_source=openai))",
+        "Falabella's launch announcement confirms a new official Natura storefront launched on September 8, 2026, with an initial 110-product portfolio and national omnichannel positioning. Source: https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/. ([falabellaretail.falabella.com](https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/?utm_source=openai))"
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-14T00:24:07.415504+00:00",
+      "discovery_lens": "physical_commerce",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The live seller page shows Natura products, product-level Chilean peso prices, promotions, delivery information, and checkout-oriented purchase options.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Natura | Falabella Chile",
+          "url": "https://www.falabella.com/falabella-cl/seller/Natura"
+        },
+        {
+          "claim": "Natura identifies its Chilean ecommerce site, app, consultants, stores, and corporate-gifting service as purchase or commercial channels.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Natura Chile: canales de compra y regalos corporativos",
+          "url": "https://www.natura.cl/encuentra-natura"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.88,
+      "falsification_conditions": [
+        "After seven consecutive days and at least three locations, no SKU shows a persistent normalized contribution spread after shipping, payment costs, taxes, packaging, fulfillment labor, returns allowance, and a defensible customer-acquisition cost.",
+        "Natura confirms that its corporate channel can supply the same or better bundles, packaging, delivery, invoicing, and pricing directly to businesses without an intermediary.",
+        "At least 10 qualified local businesses are contacted and fewer than two request a concrete quote, or no respondent accepts a paid service fee or verified markup.",
+        "The only apparent spread comes from temporary coupons, launch discounts, loyalty benefits, multi-buy promotions, stock clearance, or non-equivalent products.",
+        "Natura or Falabella prohibits the contemplated referral, resale, advertising, data collection, catalog monitoring, or brand usage, and no compliant partnership route is available.",
+        "Corporate buyers require minimum quantities, payment terms, customization, delivery guarantees, or vendor credentials that the operator cannot provide profitably.",
+        "A direct comparison shows Natura.cl consistently offers equal or lower total delivered prices, better packaging, or better availability for the target corporate bundles.",
+        "The operator cannot achieve a conservative positive contribution margin after valuing all quote preparation, customer support, purchasing, reconciliation, and delivery-coordination time."
+      ],
+      "geography": "Chile",
+      "id": "opp_ef5d3038f30393cb8c4f",
+      "judge_reviewed": true,
+      "judgment": "The underlying products, channels, and corporate-gifting buyer job are real: Natura sells in Chile through its own ecommerce, consultants, stores, corporate-gifting channel, and an official Falabella storefront. However, this does not establish a distributable wedge. Direct Natura corporate sales and Falabella Empresas are strong, already-available competitors for the same procurement and gifting job, while the proposed intermediary has no verified authorization, commercial terms, service advantage, or positive landed/unit economics. Treat this only as a low-cost research hypothesis: pursue an authorized referral/agency or bundle-and-coordination arrangement, not retail-price arbitrage or inventory purchase, unless checkout-normalized economics and buyer willingness are demonstrated.",
+      "last_record_updated_at": "2026-10-16T12:26:12.377714+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Actual checkout totals by Chilean location, including shipping, taxes, pickup eligibility, payment costs, and corporate invoicing terms.",
+        "Whether the same SKU, size, batch, packaging, and warranty are being compared across Natura.cl and Falabella.com.",
+        "Whether price differences persist after promotions, coupons, multi-buy rules, loyalty benefits, and shipping thresholds are normalized.",
+        "Gross margin, referral commission, reseller discount, minimum order quantity, payment terms, and fulfillment SLA available from Natura's corporate-sales team.",
+        "Whether Natura or Falabella permits the proposed referral, quotation, advertising, resale, automated monitoring, or use of product imagery and trademarks."
+      ],
+      "participation_path": "Select three to five non-perishable, repeatedly listed SKUs. Record Natura.cl and Falabella.com prices, promotions, delivery dates, stock, and checkout totals for seven days. Separately build a one-page corporate-gifting sample with quantities and clearly labeled retail pricing; send it to 10 local businesses or procurement contacts only as a request-for-interest, without representing Natura or Falabella and without buying inventory. Falsify the wedge if there is no persistent price/availability difference, if shipping eliminates any spread, if minimum order quantities are unattractive, or if no qualified respondent requests a quote. Do not resell, scrape, advertise as an authorized seller, or use brand assets unless the applicable terms and permissions allow it.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The testable opportunity is not generic private label: it is a narrow price, availability, and assortment comparison for selected Natura products, followed by a compliant corporate-gifting or local fulfillment offer if the operator can obtain permission to resell or refer customers. The observable mechanism is channel fragmentation and promotional price variation, but no arbitrage profit should be assumed until checkout-level costs and marketplace rules are verified.",
+      "title": "Natura Chile catalog and corporate-gifting wedge across Natura.cl and Falabella.com",
+      "type": "distribution_test",
+      "unknowns": [
+        "Actual checkout totals by Chilean location, including shipping, taxes, pickup eligibility, payment costs, and corporate invoicing terms.",
+        "Whether the same SKU, size, batch, packaging, and warranty are being compared across Natura.cl and Falabella.com.",
+        "Whether price differences persist after promotions, coupons, multi-buy rules, loyalty benefits, and shipping thresholds are normalized.",
+        "Gross margin, referral commission, reseller discount, minimum order quantity, payment terms, and fulfillment SLA available from Natura's corporate-sales team.",
+        "Whether Natura or Falabella permits the proposed referral, quotation, advertising, resale, automated monitoring, or use of product imagery and trademarks.",
+        "Corporate buyer willingness to pay for curation, bundling, delivery coordination, personalization, and procurement convenience instead of buying directly.",
+        "Return, cancellation, damaged-goods, stockout, and late-delivery responsibility when the operator coordinates purchases from third-party channels.",
+        "Whether corporate buyers require formal tax invoices, vendor onboarding, purchase orders, sustainability documentation, or service-level commitments.",
+        "Demand volume and repeat frequency beyond a small number of one-off seasonal gift orders.",
+        "Whether the official Falabella launch is still in a launch-promotion period as of October 16, 2026, making current prices unrepresentative.",
+        "Written commercial permission and economics from Natura for corporate referral, authorized resale, or fulfillment/coordination services.",
+        "Normalized delivered checkout totals for equivalent SKUs and bundles across multiple Chilean destinations over time, excluding temporary promotion artifacts.",
+        "Corporate purchaser requirements for tax invoices, purchase orders, lead times, personalization, sustainability documentation, delivery proof, returns, and service levels.",
+        "Whether 10 or more qualified target businesses show concrete quote demand and whether any accept a transparent service fee or markup.",
+        "A conservative contribution margin after customer acquisition, quote preparation, reconciliation, delivery coordination, damaged/late-order allowance, and returns.",
+        "Whether a differentiated bundle can be offered without using Natura marks or assets in a manner requiring authorization."
+      ],
+      "value_capture_mechanism": "Potential cash-flow sources are direct product purchases by corporate gift buyers or permitted referral/resale economics. The immediately verifiable asset is a live catalog with product prices and delivery information; current examples include Natura hand creams and skincare products listed on Falabella.com. A small operator could first sell a curated quote-and-bundle service rather than hold inventory, but buyer demand and resale permission remain unverified.",
+      "verified_sales": null,
+      "vertical": "physical_distribution",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [
         "CMF's June 1, 2026 amendment includes detailed technical requirements, Annex 3, a developer portal, a formal testing period, and a July 2027 entry-into-force schedule, so there is a genuine technical implementation surface and deadline. Source: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
         "CMF launched ATENA on September 30, 2026 as a controlled environment for institutions to test integrations, verify adequacy with technical standards, test the participant directory, and validate business models. This directly competes with a basic conformance harness. Source: https://cmfchile.cl/portal/principal/623/w4-article-113974.html",
         "The official developer documentation provides API specifications, integration guidance, security specifications, examples, endpoints, and participant-directory material, lowering the information gap a commercial test asset would otherwise monetize. Source: https://cmfchile.atlassian.net/wiki/spaces/OFAC",
@@ -4486,6 +4574,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-16T12:25:43.949215+00:00",
+      "discovery_lens": "geographic_arbitrage",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The CMF published amendments to NCG No. 514, technical specifications for information exchange and payment initiation, and postponed entry into force until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        },
+        {
+          "claim": "ATENA provides a controlled environment to test integrations, interoperability with the participant directory, and business models before SFA entry into force.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF lanza Sandbox Tecnológico ATENA para la implementación del Sistema de Finanzas Abiertas",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.92,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_055b092ce47f55114c32",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-16T12:25:43.967836+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Start with the public CMF technical annex and ATENA materials. Build a minimal mock participant-directory/API test fixture and a checklist mapping one prospective participant’s endpoints to the published requirements. Contact only entities publicly listed as fintechs, payment providers, or financial institutions and offer a paid or unpaid discovery session subject to their authorization. Falsification test: interview five potential participants or implementation vendors and ask whether they already have an internal test harness, whether ATENA access is sufficient, and whether they would pay for a narrowly defined conformance test. Stop if none reports a concrete unresolved testing problem.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Small regulated or prospective SFA participants may face a concrete implementation and testing workload before July 2027. A narrow, reusable test harness or managed conformance-testing package could reduce integration uncertainty without attempting to become a regulated data-access provider.",
+      "title": "Chile SFA/ATENA interoperability test harness for small fintechs",
+      "type": "compliance_software",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell a fixed-scope SFA readiness diagnostic, test-plan package, mock API environment, and ATENA integration support. Revenue would come only if an identified fintech or financial institution agrees to pay for the defined testing work; no buyer, price, or conversion is assumed.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-14T08:25:29.883985+00:00",
       "discovery_lens": "business_model_migration",
       "estimated_capital": "",
@@ -4586,60 +4728,6 @@
       "value_capture_mechanism": "Offer a small paid dataset, monitoring subscription, or one-off queue-screening report focused on a single ISO/RTO and technology. Do not assume access to proprietary project data or permission to redistribute source datasets.",
       "verified_sales": null,
       "vertical": "energy_infrastructure",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
-      "discovered_at": "2026-10-14T00:24:07.415504+00:00",
-      "discovery_lens": "physical_commerce",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "The live seller page shows Natura products, product-level Chilean peso prices, promotions, delivery information, and checkout-oriented purchase options.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Natura | Falabella Chile",
-          "url": "https://www.falabella.com/falabella-cl/seller/Natura"
-        },
-        {
-          "claim": "Natura identifies its Chilean ecommerce site, app, consultants, stores, and corporate-gifting service as purchase or commercial channels.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Natura Chile: canales de compra y regalos corporativos",
-          "url": "https://www.natura.cl/encuentra-natura"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.91,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_ef5d3038f30393cb8c4f",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-14T00:24:07.431606+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Select three to five non-perishable, repeatedly listed SKUs. Record Natura.cl and Falabella.com prices, promotions, delivery dates, stock, and checkout totals for seven days. Separately build a one-page corporate-gifting sample with quantities and clearly labeled retail pricing; send it to 10 local businesses or procurement contacts only as a request-for-interest, without representing Natura or Falabella and without buying inventory. Falsify the wedge if there is no persistent price/availability difference, if shipping eliminates any spread, if minimum order quantities are unattractive, or if no qualified respondent requests a quote. Do not resell, scrape, advertise as an authorized seller, or use brand assets unless the applicable terms and permissions allow it.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "The testable opportunity is not generic private label: it is a narrow price, availability, and assortment comparison for selected Natura products, followed by a compliant corporate-gifting or local fulfillment offer if the operator can obtain permission to resell or refer customers. The observable mechanism is channel fragmentation and promotional price variation, but no arbitrage profit should be assumed until checkout-level costs and marketplace rules are verified.",
-      "title": "Natura Chile catalog and corporate-gifting wedge across Natura.cl and Falabella.com",
-      "type": "distribution_test",
-      "unknowns": [],
-      "value_capture_mechanism": "Potential cash-flow sources are direct product purchases by corporate gift buyers or permitted referral/resale economics. The immediately verifiable asset is a live catalog with product prices and delivery information; current examples include Natura hand creams and skincare products listed on Falabella.com. A small operator could first sell a curated quote-and-bundle service rather than hold inventory, but buyer demand and resale permission remain unverified.",
-      "verified_sales": null,
-      "vertical": "physical_distribution",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -4802,6 +4890,60 @@
       "value_capture_mechanism": "Coordinate sourcing of one narrowly specified material stream—such as end-of-life permanent magnets or industrial polishing waste—verify chain of custody, arrange third-party assay, and charge a disclosed sourcing or transaction fee only if a qualified counterparty accepts the material. The economic mechanism is verified-feedstock aggregation, not speculative mineral ownership.",
       "verified_sales": null,
       "vertical": "physical_distribution",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-16T12:25:43.949763+00:00",
+      "discovery_lens": "ai_open_source",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The repository describes an MIT-licensed, self-hosted browser-control layer using Chrome/Chromium CDP, with navigation, clicking, form input, screenshots, JavaScript, and network inspection.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Cereon Browser Operator",
+          "url": "https://github.com/cereon-labs/cereon-browser-operator"
+        },
+        {
+          "claim": "The repository describes a self-hosted browser automation platform with REST API, session persistence, multiple browser support, vision features, and an MIT license.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "agent-browser",
+          "url": "https://github.com/smouj/agent-browser"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.78,
+      "falsification_conditions": [],
+      "geography": "Chile/LatAm",
+      "id": "opp_5f895ba07087b66159c1",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-16T12:25:43.967939+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Select one workflow with non-sensitive test data and an explicit human approval before submission. Prototype with the MIT-licensed Cereon Browser Operator or AgentBrowser, keeping credentials and execution on the client’s machine. Measure completion rate, exception rate, human minutes per case, and model/API cost over 20 to 50 cases. Falsification test: ask three operators of the same workflow for anonymized sample steps and permission to run a 1-week sandbox pilot; abandon if no one supplies a repeatable task, baseline time, or authorized test environment.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A small operator can test whether one high-frequency, browser-only workflow—such as downloading statements, reconciling portal data, or preparing draft form entries—can be automated at lower total cost than manual handling. The opportunity is the workflow-specific implementation and maintenance, not a generic AI agency.",
+      "title": "Self-hosted browser-automation deployment for one repetitive Chilean back-office workflow",
+      "type": "open_source_workflow_product",
+      "unknowns": [],
+      "value_capture_mechanism": "Charge for a narrowly scoped deployment, workflow configuration, monitoring, and human-approval layer only after a real organization permits a pilot and confirms the task’s baseline labor or error cost. Do not resell hosted access to software whose license prohibits it.",
+      "verified_sales": null,
+      "vertical": "innovation_adoption",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -5079,13 +5221,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-16T08:23:26.266151+00:00",
+  "generated_at": "2026-10-16T12:26:12.680248+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 36,
-  "reviewed_cards": 38,
+  "reviewed_cards": 39,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 105,
-  "watch": 69
+  "total_distinct_opportunities": 107,
+  "watch": 71
 }

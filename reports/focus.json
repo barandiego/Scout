@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-10-16T08:23:26.266151+00:00",
+  "generated_at": "2026-10-16T12:26:12.680248+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -21,7 +21,7 @@
     },
     {
       "opportunity_id": "opp_f26e42aaabb91e157f9d",
-      "other_cards_in_theme": 30,
+      "other_cards_in_theme": 31,
       "reviewed": true,
       "status": "watch",
       "theme": "chile_open_finance",
@@ -103,15 +103,15 @@
   "headline_count": 12,
   "high_concentration": [
     {
-      "cards": 31,
-      "share": 0.449,
+      "cards": 32,
+      "share": 0.451,
       "theme": "chile_open_finance"
     }
   ],
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 26,
+  "theme_count": 27,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -145,9 +145,10 @@
         "opp_3b4a47b09fa6592f8c5b",
         "opp_660a3aa8f1b5b77975e4",
         "opp_b77b2be77b5c75b13b93",
-        "opp_1d697aded3d68db4909b"
+        "opp_1d697aded3d68db4909b",
+        "opp_055b092ce47f55114c32"
       ],
-      "count": 31,
+      "count": 32,
       "representative_id": "opp_f26e42aaabb91e157f9d",
       "reviewed_count": 19,
       "theme": "chile_open_finance"
@@ -320,11 +321,20 @@
     },
     {
       "all_opportunity_ids": [
+        "opp_5f895ba07087b66159c1"
+      ],
+      "count": 1,
+      "representative_id": "opp_5f895ba07087b66159c1",
+      "reviewed_count": 0,
+      "theme": "innovation_adoption:self_hosted_browser"
+    },
+    {
+      "all_opportunity_ids": [
         "opp_ef5d3038f30393cb8c4f"
       ],
       "count": 1,
       "representative_id": "opp_ef5d3038f30393cb8c4f",
-      "reviewed_count": 0,
+      "reviewed_count": 1,
       "theme": "physical_distribution:natura_catalog_corporate"
     },
     {
@@ -391,6 +401,6 @@
       "theme": "robotics_agritech:small_scale_hydroponic"
     }
   ],
-  "total_original_cards": 69,
+  "total_original_cards": 71,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }

@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 69
+Candidates: 71
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -280,6 +280,18 @@ Candidates: 69
 - Possible initial budget:
 - Source URLs: https://github.com/AndrewSispoidis/contemporary-agent-attacks; https://github.com/kindrat86/ai-agent-incident-database/blob/main/README.md
 
+## Self-hosted browser-automation deployment for one repetitive Chilean back-office workflow
+- Status: watch | innovation_adoption
+- Current idea: A small operator can test whether one high-frequency, browser-only workflow—such as downloading statements, reconciling portal data, or preparing draft form entries—can be automated at lower total cost than manual handling. The opportunity is the workflow-specific implementation and maintenance, not a generic AI agency.
+- Potential economic capture: Charge for a narrowly scoped deployment, workflow configuration, monitoring, and human-approval layer only after a real organization permits a pilot and confirms the task’s baseline labor or error cost. Do not resell hosted access to software whose license prohibits it.
+- **Research routes to test (NOT validated claims):**
+  - Identify a real technical capability not yet adopted in one buyer's high-value workflow.
+  - Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.
+  - Measure the fully loaded operating cost, human exceptions and distribution against the status quo.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://github.com/cereon-labs/cereon-browser-operator; https://github.com/smouj/agent-browser
+
 ## Self-hosted multilingual document extraction pilot using MonkeyOCRv2 or Mistral OCR 4
 - Status: watch | innovation_adoption
 - Current idea: A small operator can test whether document-heavy workflows that currently require paid OCR, manual transcription, or offshore data entry can be processed locally with lower variable cost and better privacy. The concrete asset is a deployable extraction pipeline for invoices, customs documents, purchase orders, or compliance files—not a generic AI consultancy.
@@ -484,6 +496,18 @@ Candidates: 69
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
+## Chile SFA/ATENA interoperability test harness for small fintechs
+- Status: watch | open_finance_chile
+- Current idea: Small regulated or prospective SFA participants may face a concrete implementation and testing workload before July 2027. A narrow, reusable test harness or managed conformance-testing package could reduce integration uncertainty without attempting to become a regulated data-access provider.
+- Potential economic capture: Sell a fixed-scope SFA readiness diagnostic, test-plan package, mock API environment, and ATENA integration support. Revenue would come only if an identified fintech or financial institution agrees to pay for the defined testing work; no buyer, price, or conversion is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
 ## Chile’s Open Finance implementation is moving from regulation to integration infrastructure
 - Status: watch | open_finance_chile
 - Current idea: The regulatory framework is becoming technically actionable, but banks, fintechs, data intermediaries, consent-management providers, compliance vendors, and integration specialists still have preparation time and implementation friction. This creates a window for infrastructure and localized financial-data products before mandatory adoption.
@@ -672,7 +696,7 @@ Candidates: 69
   - Compare local product availability to supplier catalogs and independent consumer interest.
   - Check import, tax, return, certification and delivery economics before estimating margin.
   - Try a legitimate pre-order/waitlist test with transparent fulfillment conditions.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Actual checkout totals by Chilean location, including shipping, taxes, pickup eligibility, payment costs, and corporate invoicing terms.; Whether the same SKU, size, batch, packaging, and warranty are being compared across Natura.cl and Falabella.com.; Whether price differences persist after promotions, coupons, multi-buy rules, loyalty benefits, and shipping thresholds are normalized.
 - Possible initial budget:
 - Source URLs: https://www.falabella.com/falabella-cl/seller/Natura; https://www.natura.cl/encuentra-natura
 

@@ -893,6 +893,42 @@
       "category": "innovation_adoption",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Select one workflow with non-sensitive test data and an explicit human approval before submission. Prototype with the MIT-licensed Cereon Browser Operator or AgentBrowser, keeping credentials and execution on the client’s machine. Measure completion rate, exception rate, human minutes per case, and model/API cost over 20 to 50 cases. Falsification test: ask three operators of the same workflow for anonymized sample steps and permission to run a 1-week sandbox pilot; abandon if no one supplies a repeatable task, baseline time, or authorized test environment.",
+      "current_thesis": "A small operator can test whether one high-frequency, browser-only workflow—such as downloading statements, reconciling portal data, or preparing draft form entries—can be automated at lower total cost than manual handling. The opportunity is the workflow-specific implementation and maintenance, not a generic AI agency.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile/LatAm",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Self-hosted browser-automation deployment for one repetitive Chilean back-office workflow",
+      "opportunity_id": "opp_5f895ba07087b66159c1",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a real technical capability not yet adopted in one buyer's high-value workflow.",
+        "Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.",
+        "Measure the fully loaded operating cost, human exceptions and distribution against the status quo."
+      ],
+      "supporting_source_urls": [
+        "https://github.com/cereon-labs/cereon-browser-operator",
+        "https://github.com/smouj/agent-browser"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Charge for a narrowly scoped deployment, workflow configuration, monitoring, and human-approval layer only after a real organization permits a pilot and confirms the task’s baseline labor or error cost. Do not resell hosted access to software whose license prohibits it.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "innovation_adoption",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Install MonkeyOCRv2 locally and assemble a 50–100-document benchmark from publicly available forms or documents supplied with permission. Compare field-level accuracy, processing time, and total compute cost against the cheapest acceptable paid OCR/API option. Then create one fixed-scope sample output for a document-heavy niche such as bookkeeping, freight forwarding, or import administration and send it to 10 identifiable operators; proceed only if the workflow can be tested without handling confidential data or violating document/API terms. Do not claim a customer, margin, or permission until one is independently obtained.",
       "current_thesis": "A small operator can test whether document-heavy workflows that currently require paid OCR, manual transcription, or offshore data entry can be processed locally with lower variable cost and better privacy. The concrete asset is a deployable extraction pipeline for invoices, customs documents, purchase orders, or compliance files—not a generic AI consultancy.",
       "founder_hours_initial_unverified_estimate": "",
@@ -1540,6 +1576,42 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Start with the public CMF technical annex and ATENA materials. Build a minimal mock participant-directory/API test fixture and a checklist mapping one prospective participant’s endpoints to the published requirements. Contact only entities publicly listed as fintechs, payment providers, or financial institutions and offer a paid or unpaid discovery session subject to their authorization. Falsification test: interview five potential participants or implementation vendors and ask whether they already have an internal test harness, whether ATENA access is sufficient, and whether they would pay for a narrowly defined conformance test. Stop if none reports a concrete unresolved testing problem.",
+      "current_thesis": "Small regulated or prospective SFA participants may face a concrete implementation and testing workload before July 2027. A narrow, reusable test harness or managed conformance-testing package could reduce integration uncertainty without attempting to become a regulated data-access provider.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile SFA/ATENA interoperability test harness for small fintechs",
+      "opportunity_id": "opp_055b092ce47f55114c32",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a fixed-scope SFA readiness diagnostic, test-plan package, mock API environment, and ATENA integration support. Revenue would come only if an identified fintech or financial institution agrees to pay for the defined testing work; no buyer, price, or conversion is assumed.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Build a Chile-specific SFA integration and testing layer; partner with regulated institutions or prospective participant entities; use the CMF developer portal and ATENA sandbox to validate interoperability.",
       "current_thesis": "The regulatory framework is becoming technically actionable, but banks, fintechs, data intermediaries, consent-management providers, compliance vendors, and integration specialists still have preparation time and implementation friction. This creates a window for infrastructure and localized financial-data products before mandatory adoption.",
       "founder_hours_initial_unverified_estimate": "",
@@ -2132,9 +2204,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "Chile",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "Actual checkout totals by Chilean location, including shipping, taxes, pickup eligibility, payment costs, and corporate invoicing terms.",
+        "Whether the same SKU, size, batch, packaging, and warranty are being compared across Natura.cl and Falabella.com.",
+        "Whether price differences persist after promotions, coupons, multi-buy rules, loyalty benefits, and shipping thresholds are normalized.",
+        "Gross margin, referral commission, reseller discount, minimum order quantity, payment terms, and fulfillment SLA available from Natura's corporate-sales team.",
+        "Whether Natura or Falabella permits the proposed referral, quotation, advertising, resale, automated monitoring, or use of product imagery and trademarks.",
+        "Corporate buyer willingness to pay for curation, bundling, delivery coordination, personalization, and procurement convenience instead of buying directly.",
+        "Return, cancellation, damaged-goods, stockout, and late-delivery responsibility when the operator coordinates purchases from third-party channels."
       ],
       "investment_authorized": false,
       "name": "Natura Chile catalog and corporate-gifting wedge across Natura.cl and Falabella.com",
@@ -2656,7 +2732,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-16T08:23:26.320136+00:00",
+  "generated_at": "2026-10-16T12:26:12.710700+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"
