@@ -85,3 +85,25 @@ A research-qualified idea beyond the old one-per-cycle review cap now
 remains WATCH/deferred_by_review_cap for subsequent reviews.
 No paid research trial, key change or increase to the live budget is
 triggered by this release.
+
+
+## HQ thematic focus (proposed, offline and non-authorizing)
+
+`python -m scout.cli library` now also prepares
+`reports/focus.json` and `reports/focus.md`, preserving all canonical
+opportunity IDs, critic/judge decisions, evidence gates and financial limits.
+`python -m scout.cli focus` can rebuild those two derived views without
+discovery, provider requests, customer contact or paid model calls.
+
+The thematic view highlights research concentration (for example, multiple
+Chile Open Finance integration proposals) and presents at most one editorial
+headline per broad theme. It **does not** merge, delete, reject, certify or
+execute opportunities: same-theme projects can have genuinely distinct
+economic mechanisms. The production pipeline is unchanged by this report.
+
+Future tooling: inspect the already downloaded Crawl4AI and GPT Researcher
+in offline, isolated adapters before any live source ingestion. Their findings
+must never be treated as verified evidence unless independently grounded in
+the existing Scout provider-returned source set. Mem0 and additional agent
+frameworks remain optional and unactivated, pending a measured need and
+separate approval.
