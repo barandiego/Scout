@@ -340,19 +340,19 @@
       "category": "energy_infrastructure",
       "commercially_validated": false,
       "competition_confirmed": false,
-      "current_participation_path": "Use ChileCompra and public tender records to identify one active or recently awarded building-efficiency project, then contact the named winning bidder or sponsoring entity with a sample five-page M&V report built from public building data. Offer a paid pilot on one building using existing invoices and meter readings. Falsify if no active bidder will disclose a subcontracting need, if required data cannot be accessed, or if the project contract does not recognize measurement or reporting as a paid deliverable.",
-      "current_thesis": "Small operators can participate without financing or owning a full ESCO by selling a narrow asset: baseline creation, meter-data cleaning, savings calculation, and post-installation verification for an existing contractor or sponsoring entity. The payer would need to be an identified ESCO, engineering contractor, sponsoring entity or public-project bidder—not an assumed government customer.",
+      "current_participation_path": "Use the SEC authorized-installer directory as a distribution list. Contact 10-20 listed installers and offer a no-commitment pilot: screen five of their existing commercial leads using anonymized electricity bills and site information, returning a standardized go/no-go report. Separately, recruit three small businesses through local business associations or direct outreach and request permission to analyze their last 12 electricity bills. The lowest-cost falsification test is to complete five screenings manually, without buying equipment or promising installation, and measure whether at least one installer or customer requests a paid follow-up. Do not perform regulated electrical design or submit connection paperwork unless partnered with an appropriately authorized professional.",
+      "current_thesis": "A small operator can reduce failed site visits and non-viable proposals by screening a customer’s load profile, roof/site, equipment eligibility, and preliminary network capacity before an authorized installer prepares a formal installation and connection proposal. The value is avoided engineering and sales effort plus potential electricity-bill savings; actual savings and payback remain site-specific and unproven.",
       "founder_hours_initial_unverified_estimate": "",
       "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "Chile, public buildings and municipalities with measurable electricity or thermal consumption",
+      "geography": "Chile, initially regions with high solar generation and constrained distribution capacity",
       "hypothesis_evaluation_questions": [
         "Who is the actual payer and what evidence establishes demand?",
         "What existing alternative already solves this job?",
         "What is net contribution after fulfillment, fees, support and acquisition?"
       ],
       "investment_authorized": false,
-      "name": "Public-building ESCO measurement and verification subcontractor",
-      "opportunity_id": "opp_bf2c12a513145f51fe3a",
+      "name": "SEC-verified solar-plus-storage prequalification for Chilean small businesses",
+      "opportunity_id": "opp_9ce303aff6dc0368c324",
       "pricing_confirmed": false,
       "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
       "regulatory_access_confirmed": false,
@@ -364,11 +364,12 @@
         "Verify permits and installed net payback under conservative power price scenarios."
       ],
       "supporting_source_urls": [
-        "https://atencionciudadana.minenergia.cl/tramites/informacion/20",
-        "https://www.minvu.gob.cl/postulacion/llamado-eficiencia-energetica-y-acondicionamiento-termico-ds-27-ano-2025/"
+        "https://www.sec.cl/gda/",
+        "https://www.sec.cl/plataformas-ernc/",
+        "https://energia.gob.cl/sites/default/files/documentos/sistemas-de-almacenamiento_web.pdf"
       ],
       "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "Sell a fixed-scope measurement-and-verification package: site data inventory, baseline model, monthly dashboard and savings-verification report. A second revenue source may be project documentation support, but only where a named contractor or sponsoring entity confirms procurement and payment terms.",
+      "value_capture_claim": "A narrowly defined paid pre-feasibility package sold to small commercial customers or delivered as a lead-qualification subcontract to SEC-authorized installers. The package should include bill/load analysis, preliminary solar-storage sizing, SEC equipment and connection checks, and a written go/no-go recommendation. Price, conversion rate, and margin are unknown and must be tested rather than assumed.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -2655,7 +2656,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-16T04:22:56.210403+00:00",
+  "generated_at": "2026-10-16T08:23:26.320136+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

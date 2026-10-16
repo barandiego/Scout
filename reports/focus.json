@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-10-16T04:22:56.182841+00:00",
+  "generated_at": "2026-10-16T08:23:26.266151+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -248,12 +248,12 @@
     },
     {
       "all_opportunity_ids": [
-        "opp_bf2c12a513145f51fe3a"
+        "opp_9ce303aff6dc0368c324"
       ],
       "count": 1,
-      "representative_id": "opp_bf2c12a513145f51fe3a",
+      "representative_id": "opp_9ce303aff6dc0368c324",
       "reviewed_count": 0,
-      "theme": "energy_infrastructure:public_building_esco"
+      "theme": "energy_infrastructure:sec_verified_solar"
     },
     {
       "all_opportunity_ids": [

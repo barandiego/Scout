@@ -112,17 +112,17 @@ Candidates: 69
 - Possible initial budget:
 - Source URLs: https://www.energy.gov/documents/craig-order-202-26-31-pios-exhibits-3-01-3-07-july-24-2026; https://www.energy.gov/documents/motion-intervene-motion-clarification-and-request-rehearing-and-stay-public-interest-36
 
-## Public-building ESCO measurement and verification subcontractor
+## SEC-verified solar-plus-storage prequalification for Chilean small businesses
 - Status: watch | energy_infrastructure
-- Current idea: Small operators can participate without financing or owning a full ESCO by selling a narrow asset: baseline creation, meter-data cleaning, savings calculation, and post-installation verification for an existing contractor or sponsoring entity. The payer would need to be an identified ESCO, engineering contractor, sponsoring entity or public-project bidder—not an assumed government customer.
-- Potential economic capture: Sell a fixed-scope measurement-and-verification package: site data inventory, baseline model, monthly dashboard and savings-verification report. A second revenue source may be project documentation support, but only where a named contractor or sponsoring entity confirms procurement and payment terms.
+- Current idea: A small operator can reduce failed site visits and non-viable proposals by screening a customer’s load profile, roof/site, equipment eligibility, and preliminary network capacity before an authorized installer prepares a formal installation and connection proposal. The value is avoided engineering and sales effort plus potential electricity-bill savings; actual savings and payback remain site-specific and unproven.
+- Potential economic capture: A narrowly defined paid pre-feasibility package sold to small commercial customers or delivered as a lead-qualification subcontract to SEC-authorized installers. The package should include bill/load analysis, preliminary solar-storage sizing, SEC equipment and connection checks, and a written go/no-go recommendation. Price, conversion rate, and margin are unknown and must be tested rather than assumed.
 - **Research routes to test (NOT validated claims):**
   - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
   - Compare owned asset, installer/distributor and project-finance participation.
   - Verify permits and installed net payback under conservative power price scenarios.
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
-- Source URLs: https://atencionciudadana.minenergia.cl/tramites/informacion/20; https://www.minvu.gob.cl/postulacion/llamado-eficiencia-energetica-y-acondicionamiento-termico-ds-27-ano-2025/
+- Source URLs: https://www.sec.cl/gda/; https://www.sec.cl/plataformas-ernc/; https://energia.gob.cl/sites/default/files/documentos/sistemas-de-almacenamiento_web.pdf
 
 ## AI and data-center growth are making electricity and grid access a binding cost constraint
 - Status: watch | general

@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-16T04:22:56.182841+00:00
+Generated: 2026-10-16T08:23:26.266151+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
 - Active research: 69 (0 HQ survivors, 69 watches)
-- Rejected opportunities excluded: 35
+- Rejected opportunities excluded: 36
 - Critic-and-judge reviewed: 38
 - Autonomous execution authorization: 0
 
@@ -453,6 +453,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
 
+### SEC-verified solar-plus-storage prequalification for Chilean small businesses [opp_9ce303aff6dc0368c324]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile, initially regions with high solar generation and constrained distribution capacity
+- Thesis: A small operator can reduce failed site visits and non-viable proposals by screening a customer’s load profile, roof/site, equipment eligibility, and preliminary network capacity before an authorized installer prepares a formal installation and connection proposal. The value is avoided engineering and sales effort plus potential electricity-bill savings; actual savings and payback remain site-specific and unproven.
+- Value capture: A narrowly defined paid pre-feasibility package sold to small commercial customers or delivered as a lead-qualification subcontract to SEC-authorized installers. The package should include bill/load analysis, preliminary solar-storage sizing, SEC equipment and connection checks, and a written go/no-go recommendation. Price, conversion rate, and margin are unknown and must be tested rather than assumed.
+- Participation hypothesis: Use the SEC authorized-installer directory as a distribution list. Contact 10-20 listed installers and offer a no-commitment pilot: screen five of their existing commercial leads using anonymized electricity bills and site information, returning a standardized go/no-go report. Separately, recruit three small businesses through local business associations or direct outreach and request permission to analyze their last 12 electricity bills. The lowest-cost falsification test is to complete five screenings manually, without buying equipment or pro
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sec.cl/gda/; https://www.sec.cl/plataformas-ernc/; https://energia.gob.cl/sites/default/files/documentos/sistemas-de-almacenamiento_web.pdf
+
 ### Self-hosted multilingual document extraction pilot using MonkeyOCRv2 or Mistral OCR 4 [opp_b9c90d663d7fab8d89c7]
 - Status: WATCH_REQUIRES_VALIDATION | innovation_adoption | Global; initial testing can target U.S. or Chilean Spanish documents
 - Thesis: A small operator can test whether document-heavy workflows that currently require paid OCR, manual transcription, or offshore data entry can be processed locally with lower variable cost and better privacy. The concrete asset is a deployable extraction pipeline for invoices, customs documents, purchase orders, or compliance files—not a generic AI consultancy.
@@ -632,16 +642,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://github.com/AndrewSispoidis/contemporary-agent-attacks; https://github.com/kindrat86/ai-agent-incident-database/blob/main/README.md
-
-### Public-building ESCO measurement and verification subcontractor [opp_bf2c12a513145f51fe3a]
-- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile, public buildings and municipalities with measurable electricity or thermal consumption
-- Thesis: Small operators can participate without financing or owning a full ESCO by selling a narrow asset: baseline creation, meter-data cleaning, savings calculation, and post-installation verification for an existing contractor or sponsoring entity. The payer would need to be an identified ESCO, engineering contractor, sponsoring entity or public-project bidder—not an assumed government customer.
-- Value capture: Sell a fixed-scope measurement-and-verification package: site data inventory, baseline model, monthly dashboard and savings-verification report. A second revenue source may be project documentation support, but only where a named contractor or sponsoring entity confirms procurement and payment terms.
-- Participation hypothesis: Use ChileCompra and public tender records to identify one active or recently awarded building-efficiency project, then contact the named winning bidder or sponsoring entity with a sample five-page M&V report built from public building data. Offer a paid pilot on one building using existing invoices and meter readings. Falsify if no active bidder will disclose a subcontracting need, if required data cannot be accessed, or if the project contract does not recognize measurement or reporting as a paid deliverable.
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://atencionciudadana.minenergia.cl/tramites/informacion/20; https://www.minvu.gob.cl/postulacion/llamado-eficiencia-energetica-y-acondicionamiento-termico-ds-27-ano-2025/
 
 ### Rare-earth secondary-material sourcing and assay brokerage as a testable micro-wedge [opp_45b7e9d57391da701819]
 - Status: WATCH_REQUIRES_VALIDATION | physical_distribution | United States
