@@ -1,11 +1,11 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-10-17T08:19:07.499020+00:00",
+  "generated_at": "2026-10-17T12:19:08.574038+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
-      "other_cards_in_theme": 3,
+      "other_cards_in_theme": 4,
       "reviewed": true,
       "status": "watch",
       "theme": "nfc_products",
@@ -34,6 +34,14 @@
       "status": "watch",
       "theme": "robotics_agritech:independent_field_service",
       "title": "Independent field-service and deployment support for autonomous agricultural weed-control robots"
+    },
+    {
+      "opportunity_id": "opp_2f1839bb1c72fe283049",
+      "other_cards_in_theme": 0,
+      "reviewed": true,
+      "status": "watch",
+      "theme": "robotics_agritech:raas_deployment_wedge",
+      "title": "Chile RaaS deployment wedge for industrial-floor cleaning"
     },
     {
       "opportunity_id": "opp_30978e90c9f1315f2e7c",
@@ -90,21 +98,13 @@
       "status": "watch",
       "theme": "general:permitting_transmission_process",
       "title": "Permitting and transmission-process modernization is opening a bottleneck-sensitive infrastructure opportunity"
-    },
-    {
-      "opportunity_id": "opp_c1dde7708010339fc2c8",
-      "other_cards_in_theme": 0,
-      "reviewed": true,
-      "status": "watch",
-      "theme": "general:industrial_robot_installations",
-      "title": "Industrial robot installations reached a record in 2025, with strongest growth in China and the United States"
     }
   ],
   "headline_count": 12,
   "high_concentration": [
     {
       "cards": 34,
-      "share": 0.453,
+      "share": 0.447,
       "theme": "chile_open_finance"
     }
   ],
@@ -178,9 +178,10 @@
         "opp_def87ec156069bf156db",
         "opp_90381bb2b8d50013dbb1",
         "opp_f27f698db291e47e237f",
+        "opp_d54cb21f051b71d41869",
         "opp_931a74c26757b6e74ee3"
       ],
-      "count": 4,
+      "count": 5,
       "representative_id": "opp_def87ec156069bf156db",
       "reviewed_count": 1,
       "theme": "nfc_products"
@@ -390,7 +391,7 @@
       ],
       "count": 1,
       "representative_id": "opp_2f1839bb1c72fe283049",
-      "reviewed_count": 0,
+      "reviewed_count": 1,
       "theme": "robotics_agritech:raas_deployment_wedge"
     },
     {
@@ -421,6 +422,6 @@
       "theme": "robotics_agritech:small_scale_hydroponic"
     }
   ],
-  "total_original_cards": 75,
+  "total_original_cards": 76,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }

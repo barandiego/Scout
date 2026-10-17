@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 75
+Candidates: 76
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -760,6 +760,18 @@ Candidates: 75
 - Possible initial budget:
 - Source URLs: https://masenlaces.com/store/faq; https://www.ondda.cl/; https://tarjetas-nfc.com/; https://nfctech.cl/
 
+## NFC/QR review-and-discovery plates for Chilean physical venues
+- Status: watch | physical_distribution
+- Current idea: The basic NFC-card market is already competitive and commoditized, so reselling generic digital business cards is weak. A narrower wedge is a preconfigured NFC/QR tabletop or storefront plate that routes visitors to a venue's Google review page, menu, booking link or product-discovery page, with a measurable scan-to-action report. The evidence supports customer willingness to pay for hardware and setup, but does not establish recurring software willingness to pay or conversion rates.
+- Potential economic capture: Sell a small installation package consisting of printed NFC/QR plates, destination-link setup and optional monthly replacement/analytics service. The defensible asset would be a reusable set of venue templates, installation SOPs and measured scan-to-action data by venue type. Do not assume recurring revenue until a pilot produces paid renewals.
+- **Research routes to test (NOT validated claims):**
+  - Compare local product availability to supplier catalogs and independent consumer interest.
+  - Check import, tax, return, certification and delivery economics before estimating margin.
+  - Try a legitimate pre-order/waitlist test with transparent fulfillment conditions.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://tarjetas-nfc.com/; https://www.tuk.cl/es-cl/pages/para-empresas; https://linkd.cl/
+
 ## Rare-earth secondary-material sourcing and assay brokerage as a testable micro-wedge
 - Status: watch | physical_distribution
 - Current idea: A small operator cannot economically reproduce mining or separation, but can test whether a narrow feedstock-identification and assay-coordination service reduces search friction for recyclers, processors, or manufacturers seeking specified rare-earth-bearing scrap.
@@ -816,7 +828,7 @@ Candidates: 75
   - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
   - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
   - Arrange a bounded field validation with an actual farm operator before scaling.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Whether VIC Robotics will authorize or pay an independent referral, implementation, or site-assessment partner.; The exact commission, fee, gross margin, payment trigger, exclusivity, lead ownership, and attribution period.; Whether UF 20/month applies to the relevant industrial model, surface area, contract term, geography, and service level.
 - Possible initial budget:
 - Source URLs: https://www.vicrobotics.com/about; https://www.vicrobotics.com/; https://www.vicrobotics.com/soluciones/limpieza-industrial-bodegas
 

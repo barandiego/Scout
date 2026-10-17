@@ -199,6 +199,100 @@
     {
       "ai_leverage": "",
       "authorized_for_execution": false,
+      "contrary_evidence": [
+        "There is genuine evidence that the underlying supply exists: VIC Robotics publicly describes RaaS beginning at UF 20/month, with installation, mapping, maintenance, hardware replacement, software updates, and local support included. It identifies cleaning use cases across supermarkets, logistics, hospitals, hotels, and industrial sites. Robotic Work states that it is an official PUDU distributor in Chile and has local technical capacity and spare parts. Dimacofi separately markets PUDU cleaning equipment with national support. Geoprospec markets Gausium robots in Chile and explicitly describes RaaS as a way to validate results before purchase. Intertrade markets GIROX autonomous cleaning in Chile and claims existing operation across several facility classes. These facts support supplier availability and category legitimacy, but they do not prove that an independent intermediary can capture value. Source URLs: https://www.vicrobotics.com/faq ; https://www.robotic-work.com/ ; https://www.dimacofi.cl/pudu-cc1-pro/ ; https://geoprospec.cl/robots-de-limpieza/ ; https://www.intertrade.cl/girox/"
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-14T16:27:32.216628+00:00",
+      "discovery_lens": "chile_technology_import",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "A Chilean company identifies itself as an official PUDU Robotics distributor and describes a Robot-as-a-Service model including hardware, installation, maintenance and 24/7 support, with monthly pricing from UF 25 on this page.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "VIC Robotics Chile — autonomous robotics and RaaS model",
+          "url": "https://www.vicrobotics.com/about"
+        },
+        {
+          "claim": "The supplier publicly lists robot unit prices, a RaaS price from UF 20/month, named operating/pilot locations in Chile, and a quote/contact route.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "VIC Robotics — product prices and RaaS terms",
+          "url": "https://www.vicrobotics.com/"
+        },
+        {
+          "claim": "The supplier presents an industrial-warehouse cleaning application and describes operation in live logistics environments.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "VIC Robotics — warehouse cleaning solution",
+          "url": "https://www.vicrobotics.com/soluciones/limpieza-industrial-bodegas"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.84,
+      "falsification_conditions": [
+        "Fatal if the supplier refuses written authorization or offers no compensable commercial role after a direct proposal.",
+        "Fatal if three qualified facilities refuse even a short site assessment or cannot identify the decision-maker and purchasing process.",
+        "Fatal if no facility provides documented cleaning labor hours, costs, floor area, or operating constraints sufficient to calculate a comparison.",
+        "Fatal if a supplier quote for the same site cannot be obtained within 10 business days or excludes the service components needed for a fair comparison.",
+        "Fatal if the modeled customer payback is not attractive using conservative assumptions after retaining necessary human cleaning labor and adding implementation costs.",
+        "Fatal if the intermediary cannot secure a written lead-registration, non-circumvention, or payment arrangement before making introductions.",
+        "Fatal if the robot requires substantial manual intervention such that the customer receives little measurable labor or quality benefit.",
+        "Fatal if competing suppliers can offer materially better price, service coverage, proof, or deployment terms for the same facility.",
+        "Proceed only if one supplier accepts the channel terms, at least three facilities permit measurement, and at least one measured facility requests a formal proposal or paid pilot."
+      ],
+      "geography": "Chile",
+      "id": "opp_2f1839bb1c72fe283049",
+      "judge_reviewed": true,
+      "judgment": "The underlying industrial-floor-cleaning use case is identifiable and local Chilean supply/support appears plausibly available through several distributors, so this is not yet fatally blocked by an unidentifiable buyer or practical pilot barrier. However, it does not survive as an HQ-worthy business case yet: the proposed intermediary has no written, compensable channel role; published RaaS starting prices do not establish site-level unit economics; and there is no independent, comparable evidence of labor displacement, throughput/quality improvement, uptime, or intervention burden in a Chilean target facility. The opportunity is therefore a tightly bounded validation hypothesis, not a validated distribution, leasing, or managed-operation business.",
+      "last_record_updated_at": "2026-10-17T12:19:08.221698+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Whether VIC Robotics will authorize or pay an independent referral, implementation, or site-assessment partner.",
+        "The exact commission, fee, gross margin, payment trigger, exclusivity, lead ownership, and attribution period.",
+        "Whether UF 20/month applies to the relevant industrial model, surface area, contract term, geography, and service level.",
+        "The customer's fully loaded baseline cost, including labor, supervision, chemicals, equipment, downtime, training, exceptions, and residual manual cleaning.",
+        "Robot utilization, actual labor displacement, cleaning quality, uptime, consumables, remapping frequency, and failure rates in Chilean warehouse or supermarket environments."
+      ],
+      "participation_path": "Select one facility class, such as warehouses or supermarkets. Use the supplier's public contact route to request written authorization for referrals and a no-cost or fixed-price pilot structure. Approach 10 locally identifiable facilities without claiming savings; ask only for permission to measure floor area, cleaning labor hours and operating constraints. Lowest-cost falsification: obtain three written facility responses and one supplier quote for the same site. Stop if no facility permits measurement, the supplier declines a channel arrangement, or the quoted deployment cannot be compared with the facility's documented cleaning cost.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A small operator does not need to import or finance a robot before validating demand. The executable wedge is lead generation, site qualification and paid pilot coordination for one narrow facility type, using an existing local supplier and its published commercial terms. No buyer, savings or margin is assumed until a facility accepts a site assessment and receives a formal quote.",
+      "title": "Chile RaaS deployment wedge for industrial-floor cleaning",
+      "type": "commercial_offer",
+      "unknowns": [
+        "Whether VIC Robotics will authorize or pay an independent referral, implementation, or site-assessment partner.",
+        "The exact commission, fee, gross margin, payment trigger, exclusivity, lead ownership, and attribution period.",
+        "Whether UF 20/month applies to the relevant industrial model, surface area, contract term, geography, and service level.",
+        "The customer's fully loaded baseline cost, including labor, supervision, chemicals, equipment, downtime, training, exceptions, and residual manual cleaning.",
+        "Robot utilization, actual labor displacement, cleaning quality, uptime, consumables, remapping frequency, and failure rates in Chilean warehouse or supermarket environments.",
+        "Whether target facilities have sufficient floor area, suitable floor surfaces, predictable routes, charging access, and layouts compatible with autonomous operation.",
+        "Procurement, insurance, safety, cybersecurity, data, labor, and site-access requirements.",
+        "Whether the listed customer references are current, independently verifiable, and comparable to the proposed facility type.",
+        "Whether existing distributors or the manufacturer prohibit third-party lead generation or already cover the target accounts.",
+        "The operator's available time, sales capability, Chilean local access, and cost of acquiring qualified facility conversations.",
+        "Whether a local supplier will provide written authorization, fee terms, lead registration, attribution period, and non-circumvention protection.",
+        "The exact customer decision-maker, procurement path, and willingness of a defined Chilean facility segment to permit measurement and consider a pilot.",
+        "A formal same-site quote specifying robot model, monthly fee, minimum term, installation, mapping, maintenance, replacement, consumables, exclusions, and service response commitments.",
+        "Conservative customer payback after residual cleaning labor, supervisor time, consumables, downtime, implementation, and any facility modifications.",
+        "Comparable independent performance evidence: cleaning coverage and quality, labor hours avoided, manual interventions per shift, uptime, safety incidents, and maintenance/spares turnaround in Chile.",
+        "Whether local spare-parts inventory and technician capacity are contractually committed rather than merely advertised.",
+        "Whether a narrow facility class has a repeatable floor geometry, enough operating hours, and enough addressable accounts to support a differentiated intermediary role."
+      ],
+      "value_capture_mechanism": "Potential revenue source is a supplier-authorized referral, implementation or site-assessment fee, but the existence and amount of such a fee are unknown and must be negotiated. The independently verifiable economic mechanism is a supplier quote for RaaS beginning at UF 20/month or direct equipment prices shown publicly; end-customer economics require facility-specific measurement.",
+      "verified_sales": null,
+      "vertical": "robotics_agritech",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": true,
       "discovered_at": "2026-10-12T00:16:18.700474+00:00",
@@ -3570,67 +3664,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-14T16:27:32.216628+00:00",
-      "discovery_lens": "chile_technology_import",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "A Chilean company identifies itself as an official PUDU Robotics distributor and describes a Robot-as-a-Service model including hardware, installation, maintenance and 24/7 support, with monthly pricing from UF 25 on this page.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "VIC Robotics Chile — autonomous robotics and RaaS model",
-          "url": "https://www.vicrobotics.com/about"
-        },
-        {
-          "claim": "The supplier publicly lists robot unit prices, a RaaS price from UF 20/month, named operating/pilot locations in Chile, and a quote/contact route.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "VIC Robotics — product prices and RaaS terms",
-          "url": "https://www.vicrobotics.com/"
-        },
-        {
-          "claim": "The supplier presents an industrial-warehouse cleaning application and describes operation in live logistics environments.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "VIC Robotics — warehouse cleaning solution",
-          "url": "https://www.vicrobotics.com/soluciones/limpieza-industrial-bodegas"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.89,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_2f1839bb1c72fe283049",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-14T16:27:32.230009+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Select one facility class, such as warehouses or supermarkets. Use the supplier's public contact route to request written authorization for referrals and a no-cost or fixed-price pilot structure. Approach 10 locally identifiable facilities without claiming savings; ask only for permission to measure floor area, cleaning labor hours and operating constraints. Lowest-cost falsification: obtain three written facility responses and one supplier quote for the same site. Stop if no facility permits measurement, the supplier declines a channel arrangement, or the quoted deployment cannot be compared with the facility's documented cleaning cost.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "A small operator does not need to import or finance a robot before validating demand. The executable wedge is lead generation, site qualification and paid pilot coordination for one narrow facility type, using an existing local supplier and its published commercial terms. No buyer, savings or margin is assumed until a facility accepts a site assessment and receives a formal quote.",
-      "title": "Chile RaaS deployment wedge for industrial-floor cleaning",
-      "type": "commercial_offer",
-      "unknowns": [],
-      "value_capture_mechanism": "Potential revenue source is a supplier-authorized referral, implementation or site-assessment fee, but the existence and amount of such a fee are unknown and must be negotiated. The independently verifiable economic mechanism is a supplier quote for RaaS beginning at UF 20/month or direct equipment prices shown publicly; end-customer economics require facility-specific measurement.",
-      "verified_sales": null,
-      "vertical": "robotics_agritech",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-15T20:20:46.384983+00:00",
       "discovery_lens": "open_finance_chile",
       "estimated_capital": "",
@@ -3867,6 +3900,67 @@
       "value_capture_mechanism": "One-time sale of a customized stand or card plus optional setup, profile maintenance, and analytics. Existing Chilean prices establish that customers already pay for the physical product; no unverified margin or conversion uplift is assumed.",
       "verified_sales": null,
       "vertical": "chile_localization",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-17T12:18:39.095783+00:00",
+      "discovery_lens": "nfc_smart_commerce",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Chile-based supplier lists nationwide shipping, business-volume pricing of CLP 11,990 per card at 50+ units, and NFC/QR digital-profile functionality.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Tarjetas NFC Chile — Tarjetas de Presentación NFC Personalizadas",
+          "url": "https://tarjetas-nfc.com/"
+        },
+        {
+          "claim": "Chile-based supplier states it has 2,500+ customers, offers NFC plus QR products including adhesive plates for tables, vitrines and packaging, and lists a single PVC card at CLP 32,990 with volume discounts.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "NFC para empresas – Productos NFC personalizados — TUK",
+          "url": "https://www.tuk.cl/es-cl/pages/para-empresas"
+        },
+        {
+          "claim": "Chile supplier lists a CLP 29,990 basic NFC card including a digital profile, unlimited remote updates and QR fallback, and describes configuration connected to Google Business Profile.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "LINKD — Tarjetas digitales NFC",
+          "url": "https://linkd.cl/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_d54cb21f051b71d41869",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-17T12:18:39.117757+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Buy or locally source 10-20 blank NFC/QR plates or cards and approach independently reachable venues such as cafes, salons, lodging properties or market stalls with a single fixed-price pilot. Use each venue's existing Google Business Profile or menu/booking URL; obtain permission before installation. Track unique redirect scans and completed review/menu/booking actions for 30 days. Lowest-cost falsification: pre-sell three pilots with deposits or written purchase commitments before buying inventory; stop if fewer than three venues agree to pay for hardware plus setup, or if measured scans do not exceed the venue's existing baseline. Existing Chilean suppliers can be used as procurement alternatives rather than competitors to imitate.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The basic NFC-card market is already competitive and commoditized, so reselling generic digital business cards is weak. A narrower wedge is a preconfigured NFC/QR tabletop or storefront plate that routes visitors to a venue's Google review page, menu, booking link or product-discovery page, with a measurable scan-to-action report. The evidence supports customer willingness to pay for hardware and setup, but does not establish recurring software willingness to pay or conversion rates.",
+      "title": "NFC/QR review-and-discovery plates for Chilean physical venues",
+      "type": "productized_physical_distribution",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell a small installation package consisting of printed NFC/QR plates, destination-link setup and optional monthly replacement/analytics service. The defensible asset would be a reusable set of venue templates, installation SOPs and measured scan-to-action data by venue type. Do not assume recurring revenue until a pilot produces paid renewals.",
+      "verified_sales": null,
+      "vertical": "physical_distribution",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -5475,13 +5569,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-17T08:19:07.499020+00:00",
+  "generated_at": "2026-10-17T12:19:08.574038+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 41,
-  "reviewed_cards": 40,
+  "reviewed_cards": 41,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 116,
-  "watch": 75
+  "total_distinct_opportunities": 117,
+  "watch": 76
 }

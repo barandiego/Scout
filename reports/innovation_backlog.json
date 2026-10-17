@@ -2429,6 +2429,43 @@
       "category": "physical_distribution",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Buy or locally source 10-20 blank NFC/QR plates or cards and approach independently reachable venues such as cafes, salons, lodging properties or market stalls with a single fixed-price pilot. Use each venue's existing Google Business Profile or menu/booking URL; obtain permission before installation. Track unique redirect scans and completed review/menu/booking actions for 30 days. Lowest-cost falsification: pre-sell three pilots with deposits or written purchase commitments before buying inventory; stop if fewer than three venues agree to pay for hardware plus setup, or if measured scans do not exceed the venue's existing baseline. Existing Chilean suppliers can be used as procurement alternatives rather than competitors to imitate.",
+      "current_thesis": "The basic NFC-card market is already competitive and commoditized, so reselling generic digital business cards is weak. A narrower wedge is a preconfigured NFC/QR tabletop or storefront plate that routes visitors to a venue's Google review page, menu, booking link or product-discovery page, with a measurable scan-to-action report. The evidence supports customer willingness to pay for hardware and setup, but does not establish recurring software willingness to pay or conversion rates.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "NFC/QR review-and-discovery plates for Chilean physical venues",
+      "opportunity_id": "opp_d54cb21f051b71d41869",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Compare local product availability to supplier catalogs and independent consumer interest.",
+        "Check import, tax, return, certification and delivery economics before estimating margin.",
+        "Try a legitimate pre-order/waitlist test with transparent fulfillment conditions."
+      ],
+      "supporting_source_urls": [
+        "https://tarjetas-nfc.com/",
+        "https://www.tuk.cl/es-cl/pages/para-empresas",
+        "https://linkd.cl/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a small installation package consisting of printed NFC/QR plates, destination-link setup and optional monthly replacement/analytics service. The defensible asset would be a reusable set of venue templates, installation SOPs and measured scan-to-action data by venue type. Do not assume recurring revenue until a pilot produces paid renewals.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "physical_distribution",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Choose one local waste stream and contact recyclers, demolition firms, electronics refurbishers, or industrial scrap handlers to ask whether they already separate the material and whether they permit sampling. Obtain written permission before handling material, pay for one small independent assay only after a processor states its required specifications, and compare the assay and logistics cost with an explicit purchase indication. Lowest-cost falsification: get three written specification sheets or rejection criteria from potential processors and test whether any will review a sample; stop if no qualified party provides specifications or a purchase pathway. No buyer, price, recovery rate, or margin is assumed.",
       "current_thesis": "A small operator cannot economically reproduce mining or separation, but can test whether a narrow feedstock-identification and assay-coordination service reduces search friction for recyclers, processors, or manufacturers seeking specified rare-earth-bearing scrap.",
       "founder_hours_initial_unverified_estimate": "",
@@ -2584,9 +2621,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "Chile",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "Whether VIC Robotics will authorize or pay an independent referral, implementation, or site-assessment partner.",
+        "The exact commission, fee, gross margin, payment trigger, exclusivity, lead ownership, and attribution period.",
+        "Whether UF 20/month applies to the relevant industrial model, surface area, contract term, geography, and service level.",
+        "The customer's fully loaded baseline cost, including labor, supervision, chemicals, equipment, downtime, training, exceptions, and residual manual cleaning.",
+        "Robot utilization, actual labor displacement, cleaning quality, uptime, consumables, remapping frequency, and failure rates in Chilean warehouse or supermarket environments.",
+        "Whether target facilities have sufficient floor area, suitable floor surfaces, predictable routes, charging access, and layouts compatible with autonomous operation.",
+        "Procurement, insurance, safety, cybersecurity, data, labor, and site-access requirements."
       ],
       "investment_authorized": false,
       "name": "Chile RaaS deployment wedge for industrial-floor cleaning",
@@ -2881,7 +2922,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-17T08:19:07.551275+00:00",
+  "generated_at": "2026-10-17T12:19:08.630486+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-17T08:19:07.499020+00:00
+Generated: 2026-10-17T12:19:08.574038+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 75 (0 HQ survivors, 75 watches)
+- Active research: 76 (0 HQ survivors, 76 watches)
 - Rejected opportunities excluded: 41
-- Critic-and-judge reviewed: 40
+- Critic-and-judge reviewed: 41
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -32,6 +32,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Whether the cited January 1, 2026 AFCI requirement applies to the exact project classes, inverter configurations, and connection pathways targeted by the product, ra; Whether SEC or distributors accept the proposed equipment/documentation combinations in practice and what causes actual TE4 or related filing rejections.; Number of Chilean distributed BESS projects currently being designed, installed, or submitted through the relevant process.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/; https://www.sec.cl/gda/; https://www.sec.cl/normas-tecnicas-electricas/
+
+### Chile RaaS deployment wedge for industrial-floor cleaning [opp_2f1839bb1c72fe283049]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile
+- Thesis: A small operator does not need to import or finance a robot before validating demand. The executable wedge is lead generation, site qualification and paid pilot coordination for one narrow facility type, using an existing local supplier and its published commercial terms. No buyer, savings or margin is assumed until a facility accepts a site assessment and receives a formal quote.
+- Value capture: Potential revenue source is a supplier-authorized referral, implementation or site-assessment fee, but the existence and amount of such a fee are unknown and must be negotiated. The independently verifiable economic mechanism is a supplier quote for RaaS beginning at UF 20/month or direct equipment prices shown publicly; end-customer economics require facility-specific measurement.
+- Participation hypothesis: Select one facility class, such as warehouses or supermarkets. Use the supplier's public contact route to request written authorization for referrals and a no-cost or fixed-price pilot structure. Approach 10 locally identifiable facilities without claiming savings; ask only for permission to measure floor area, cleaning labor hours and operating constraints. Lowest-cost falsification: obtain three written facility responses and one supplier quote for the same site. Stop if no facility permits measurement, the supplier declines a channel arrange
+- Critic/judge: The underlying industrial-floor-cleaning use case is identifiable and local Chilean supply/support appears plausibly available through several distributors, so this is not yet fatally blocked by an unidentifiable buyer or practical pilot barrier. However, it does not survive as an HQ-worthy business case yet: the proposed intermediary has no written, compensable channel role; published RaaS starting prices do not establish site-level un
+- Next evidence gaps: Whether VIC Robotics will authorize or pay an independent referral, implementation, or site-assessment partner.; The exact commission, fee, gross margin, payment trigger, exclusivity, lead ownership, and attribution period.; Whether UF 20/month applies to the relevant industrial model, surface area, contract term, geography, and service level.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.vicrobotics.com/about; https://www.vicrobotics.com/; https://www.vicrobotics.com/soluciones/limpieza-industrial-bodegas
 
 ### Chile SFA conformance and consent-flow testing for fintech participants before July 2027 [opp_f26e42aaabb91e157f9d]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -423,16 +433,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.agricultural-robotics.com/robot/robot-one; https://www.agricultural-robotics.com/robot/zurama-ai-inrow-weeder; https://arxiv.org/abs/2509.25056; https://farmdroid.com/
 
-### Chile RaaS deployment wedge for industrial-floor cleaning [opp_2f1839bb1c72fe283049]
-- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile
-- Thesis: A small operator does not need to import or finance a robot before validating demand. The executable wedge is lead generation, site qualification and paid pilot coordination for one narrow facility type, using an existing local supplier and its published commercial terms. No buyer, savings or margin is assumed until a facility accepts a site assessment and receives a formal quote.
-- Value capture: Potential revenue source is a supplier-authorized referral, implementation or site-assessment fee, but the existence and amount of such a fee are unknown and must be negotiated. The independently verifiable economic mechanism is a supplier quote for RaaS beginning at UF 20/month or direct equipment prices shown publicly; end-customer economics require facility-specific measurement.
-- Participation hypothesis: Select one facility class, such as warehouses or supermarkets. Use the supplier's public contact route to request written authorization for referrals and a no-cost or fixed-price pilot structure. Approach 10 locally identifiable facilities without claiming savings; ask only for permission to measure floor area, cleaning labor hours and operating constraints. Lowest-cost falsification: obtain three written facility responses and one supplier quote for the same site. Stop if no facility permits measurement, the supplier declines a channel arrange
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.vicrobotics.com/about; https://www.vicrobotics.com/; https://www.vicrobotics.com/soluciones/limpieza-industrial-bodegas
-
 ### Chile SFA implementation adapter for consent, directory and API conformance [opp_19c39afc662c8bd68101]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: Banks, card issuers, account providers and prospective fintech participants must translate the technical standard into consent management, participant-directory processes, secure interfaces, testing and operational controls. The likely value is in reducing implementation and certification friction, not in selling generic fintech strategy.
@@ -472,6 +472,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://linkd.cl/; https://www.ondda.cl/; https://www.tuk.cl/es-cl
+
+### NFC/QR review-and-discovery plates for Chilean physical venues [opp_d54cb21f051b71d41869]
+- Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile
+- Thesis: The basic NFC-card market is already competitive and commoditized, so reselling generic digital business cards is weak. A narrower wedge is a preconfigured NFC/QR tabletop or storefront plate that routes visitors to a venue's Google review page, menu, booking link or product-discovery page, with a measurable scan-to-action report. The evidence supports customer willingness to pay for hardware and setup, but does not establish recurring software willingness to pay or conversion rates.
+- Value capture: Sell a small installation package consisting of printed NFC/QR plates, destination-link setup and optional monthly replacement/analytics service. The defensible asset would be a reusable set of venue templates, installation SOPs and measured scan-to-action data by venue type. Do not assume recurring revenue until a pilot produces paid renewals.
+- Participation hypothesis: Buy or locally source 10-20 blank NFC/QR plates or cards and approach independently reachable venues such as cafes, salons, lodging properties or market stalls with a single fixed-price pilot. Use each venue's existing Google Business Profile or menu/booking URL; obtain permission before installation. Track unique redirect scans and completed review/menu/booking actions for 30 days. Lowest-cost falsification: pre-sell three pilots with deposits or written purchase commitments before buying inventory; stop if fewer than three venues agree to pay
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://tarjetas-nfc.com/; https://www.tuk.cl/es-cl/pages/para-empresas; https://linkd.cl/
 
 ### Pre-build testing and integration wedge for Chile's Open Finance System [opp_de6bbd059c9fa7fd72e5]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
