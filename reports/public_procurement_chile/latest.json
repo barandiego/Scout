@@ -1,53 +1,26 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 100000.0,
-      "buyer": "Hospital Dr. Eduardo Pereira Ramirez",
-      "closes_at": "2026-10-19T10:00:00",
-      "code": "875646-2557-COT26",
-      "estimated_budget": 100000.0,
-      "name": "(GGD)TUBO ET ANILLADO #6,5 C/BAL",
-      "products": 1,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 7215100.0,
-      "buyer": "COMPLEJO ASISTENCIAL DR. SOTERO DEL RIO",
-      "closes_at": "2026-10-19T15:00:00",
-      "code": "1057501-3601-COT26",
-      "estimated_budget": 7215100.0,
-      "name": "CATETER SNC 2 CUFF INFANTIL",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 7215100.0,
-      "buyer": "COMPLEJO ASISTENCIAL DR. SOTERO DEL RIO",
-      "closes_at": "2026-10-19T15:00:00",
-      "code": "1057501-3599-COT26",
-      "estimated_budget": 7215100.0,
-      "name": "ADAPTADOR DE TITANIO EQUIVALENTE A 5C4129",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 1500000.0,
-      "buyer": "Hospital Dr. Eduardo Pereira Ramirez",
-      "closes_at": "2026-10-18T10:00:00",
-      "code": "875646-2556-COT26",
-      "estimated_budget": 1500000.0,
-      "name": "MALLA COMPUESTA VISCERAL 37X28CM (POLIESTER+COLAG)",
+      "available_budget_clp": 7215000.0,
+      "buyer": "I MUNICIPALIDAD DE SAN ANTONIO",
+      "closes_at": "2026-10-17T17:00:00",
+      "code": "2756-198-COT26",
+      "estimated_budget": 7215000.0,
+      "name": "Contratación de Servicios de Transporte Aéreo Internacional, Transfer Terrestre y Hospedaje Salida Educativa del Instituto Comercial Maritimo Pacifico Sur",
       "products": 1,
       "region": "Región de Valparaíso"
     }
   ],
-  "active_structurally_reconstructable_count": 4,
+  "active_structurally_reconstructable_count": 1,
   "diagnostics": {
-    "api_failures": {},
+    "api_failures": {
+      "api_http_500": 1,
+      "api_http_504": 1
+    },
     "budget_exhausted": false,
     "detail_attempts": 20,
     "detail_cap_exhausted": true,
-    "details_fetched": 20,
+    "details_fetched": 18,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -56,27 +29,27 @@
     "pages_fetched": 1,
     "pagination_incomplete": false,
     "pagination_invalid": false,
-    "requests_used": 22,
-    "transient_retries": 1
+    "requests_used": 24,
+    "transient_retries": 3
   },
-  "generated_at": "2026-10-17T12:56:14Z",
-  "inserted_history": 20,
+  "generated_at": "2026-10-17T16:47:51Z",
+  "inserted_history": 18,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
+  "outcome": "DEGRADED_API_ERRORS",
   "phase1": {
-    "records": 20,
+    "records": 18,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 5
+      "no_observable_competitive_prices": 6
     },
-    "resolved": 16,
-    "structurally_reconstructable": 15,
+    "resolved": 17,
+    "structurally_reconstructable": 12,
     "with_observable_quote_totals": 11,
-    "with_purchase_order_indicator": 3
+    "with_purchase_order_indicator": 1
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-17T12:56:14Z"
+    "changed_to": "2026-10-17T16:47:51Z"
   }
 }
