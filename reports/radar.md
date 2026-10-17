@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-17T04:53:54.986627+00:00
+Generated: 2026-10-17T08:52:28.378705+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 91
+- New this cycle: 102
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
-- Categories: agriculture 255, ai 297, commerce 35, energy 585, robotics 628
+- Feed failures (fail-open for public intake only): none
+- Categories: agriculture 258, ai 297, commerce 35, energy 578, robotics 632
 
 ## Recently encountered signals
 
@@ -208,6 +208,12 @@ Generated: 2026-10-17T04:53:54.986627+00:00
 - Source: https://doi.org/10.66506/essp.172
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### swaroopvelaga4-hub/harvestAI-
+- Source: https://github.com/swaroopvelaga4-hub/harvestAI-
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
 
 ### Cost Optimized Design and Modeling of a Solar Powered EV Charging Station Using Battery Energy Storage System and Dual Active Bridge Converter
@@ -452,12 +458,6 @@ Generated: 2026-10-17T04:53:54.986627+00:00
 
 ### Optimizing hybrid microgrid operations with battery energy storage systems: A multi-objective dynamic economic emission dispatch approach
 - Source: https://doi.org/10.1007/s12046-026-03280-9
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Thermal management and fast charging optimization for lithium-ion battery energy storage systems: A data-driven nonlinear model predictive control approach
-- Source: https://doi.org/10.1080/15435075.2026.2745007
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
