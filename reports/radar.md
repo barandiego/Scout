@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-17T12:59:25.168385+00:00
+Generated: 2026-10-17T16:51:15.563584+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 100
+- New this cycle: 102
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
-- Categories: agriculture 262, ai 283, commerce 36, energy 582, robotics 637
+- Feed failures (fail-open for public intake only): none
+- Categories: agriculture 261, ai 286, commerce 36, energy 583, robotics 634
 
 ## Recently encountered signals
+
+### laxminaiknaik1-byte/AgriVision-AI
+- Source: https://github.com/laxminaiknaik1-byte/AgriVision-AI
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### Hydrogen and Biomass‐Based Hybrid Energy Storage Systems Converted Into Battery‐Dominant Energy Architectures for Grid Integration and Transportation Electrification
 - Source: https://doi.org/10.1002/bte2.70156
@@ -206,6 +212,36 @@ Generated: 2026-10-17T12:59:25.168385+00:00
 
 ### Opportunities and challenges of integrating battery energy storage in the electricity grid – perspectives from distribution system operators
 - Source: https://doi.org/10.66506/essp.172
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### Rock Thermal Energy Storage System with a Perforated Injection Pipe: A Residential Thermal Battery
+- Source: https://doi.org/10.26868/31114504.2026.25
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### MAXIMIZING RENEWABLE ENERGY UTILIZATION THROUGH BATTERY ENERGY STORAGE SYSTEMS (BESS) FOR PEAK SHAVING IN SOLAR POWER INTEGRATION
+- Source: https://doi.org/10.31963/elekterika.v22i2.5377
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### Pranaysatpute/crop-yield-prediction
+- Source: https://github.com/Pranaysatpute/crop-yield-prediction
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### Enhancing Residential Energy Resilience in Extreme Weather: Solar PV and Battery Storage Performance and User Perceptions in Atlantic Canada
+- Source: https://doi.org/10.26868/31114504.2026.197
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### A Hybrid Photovoltaic-Wind Smart-Grid Node with Landsman Converter, Battery Storage and IoT Monitoring
+- Source: https://doi.org/10.65521/ijaeee.v12i1.4351
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
@@ -422,42 +458,6 @@ Generated: 2026-10-17T12:59:25.168385+00:00
 
 ### Coordinated battery energy storage control and irradiance-condition-aware hybrid maximum power point tracking for a standalone photovoltaic system: design and experimental validati
 - Source: https://doi.org/10.2139/ssrn.7606961
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Enhancing solar farm viability through power-to-ice for cold chain logistics: techno-economic comparison against battery energy storage for curtailment reduction
-- Source: https://doi.org/10.1016/j.nexus.2026.100860
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### padmapriya-a-byte/agri-neural
-- Source: https://github.com/padmapriya-a-byte/agri-neural
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### sathyapriya-dotcom/agri-neural-twin
-- Source: https://github.com/sathyapriya-dotcom/agri-neural-twin
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### manshirai09/Digital-krshivaani-org
-- Source: https://github.com/manshirai09/Digital-krshivaani-org
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### dharunb576/Agri_Guru_pro
-- Source: https://github.com/dharunb576/Agri_Guru_pro
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Optimizing hybrid microgrid operations with battery energy storage systems: A multi-objective dynamic economic emission dispatch approach
-- Source: https://doi.org/10.1007/s12046-026-03280-9
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
