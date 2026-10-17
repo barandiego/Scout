@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-17T16:51:15.563584+00:00
+Generated: 2026-10-17T20:50:14.958749+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 102
+- New this cycle: 100
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 261, ai 286, commerce 36, energy 583, robotics 634
+- Categories: agriculture 265, ai 282, commerce 36, energy 581, robotics 636
 
 ## Recently encountered signals
 
@@ -214,6 +214,12 @@ Generated: 2026-10-17T16:51:15.563584+00:00
 - Source: https://doi.org/10.66506/essp.172
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### Jeeva1117/agronexa.AI
+- Source: https://github.com/Jeeva1117/agronexa.AI
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
 
 ### Rock Thermal Energy Storage System with a Perforated Injection Pipe: A Residential Thermal Battery
@@ -454,10 +460,4 @@ Generated: 2026-10-17T16:51:15.563584+00:00
 - Source: https://github.com/sumukhsmurthy3340/AI-Powered-Smart-Agriculture-System
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Coordinated battery energy storage control and irradiance-condition-aware hybrid maximum power point tracking for a standalone photovoltaic system: design and experimental validati
-- Source: https://doi.org/10.2139/ssrn.7606961
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
