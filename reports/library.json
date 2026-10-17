@@ -4544,60 +4544,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-14T12:27:10.771858+00:00",
-      "discovery_lens": "open_finance_chile",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "CMF states that Annex 3 and the Developers' Portal were incorporated on June 1, 2026, and that entry into force was postponed until July 2027.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
-          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
-        },
-        {
-          "claim": "The rule specifies SFA participant registers, information and payment-initiation services, API standards, authentication/security requirements, and third-party conformance evidence.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Norma de Carácter General N°514",
-          "url": "https://cmfchile.cl/normativa/ncg_514_2024.pdf"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.88,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_56dda86b89972247ff94",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-14T12:27:10.797621+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Start without claiming CMF approval or acting as a regulated participant. Download the current NCG 514 and Technical Annex/Developer Portal materials, implement a small local validator for one publicly documented API flow, and publish a reproducible demo showing failures and evidence output. Then contact Chilean banks, payment institutions, cooperatives, and fintechs listed or referenced in the CMF framework with a fixed-scope paid diagnostic proposal. Falsification test: within 10 business days, obtain three documented implementation pain points or one request to run the validator against a non-production test environment. If no qualified institution will review it or the public specifications are insufficient to build a useful check, stop.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "Regulated information providers, account providers, information-service providers, and payment-initiation providers have a bounded implementation and testing obligation before the July 2027 operating date. The directly monetizable problem is not generic fintech demand; it is reducing failed integration, security-test, data-quality, certificate, and regression-test work against the CMF-defined interface requirements.",
-      "title": "Chile SFA API conformance and test-harness wedge",
-      "type": "regulatory_infrastructure",
-      "unknowns": [],
-      "value_capture_mechanism": "A small operator could offer a narrowly scoped SFA conformance asset: automated schema/API contract tests, test data fixtures, certificate and mTLS checks, consent-flow regression tests, and evidence export for an institution's internal compliance or vendor review. Cash flow would come from a paid implementation or testing engagement with an entity preparing for SFA participation; no specific buyer, fee, or procurement commitment is verified.",
-      "verified_sales": null,
-      "vertical": "open_finance_chile",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-17T00:22:36.410633+00:00",
       "discovery_lens": "open_finance_chile",
       "estimated_capital": "",
@@ -4752,6 +4698,60 @@
       "value_capture_mechanism": "Sell a fixed-scope SFA readiness diagnostic, test-plan package, mock API environment, and ATENA integration support. Revenue would come only if an identified fintech or financial institution agrees to pay for the defined testing work; no buyer, price, or conversion is assumed.",
       "verified_sales": null,
       "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-17T04:20:14.432726+00:00",
+      "discovery_lens": "adoption_lag",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "DOE states that 219 small and medium-sized manufacturers received more than $40 million in implementation grants, with more than $83 million in matched industry investment; eligible project types include process sensors, monitors, VFDs, HVAC, onsite power, and heavy-machinery upgrades.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Industrial Training and Assessment Center Implementation Grant Awards",
+          "url": "https://www.energy.gov/mesc/industrial-research-and-assessment-center-implementation-grant-awards"
+        },
+        {
+          "claim": "DOE describes implementation grants for small and medium-sized manufacturers to carry out recommendations from energy assessments, including improvements in energy and material efficiency, productivity, waste, pollution, and cybersecurity.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "IAC Implementation Grants",
+          "url": "https://www.energy.gov/sites/default/files/2023-08/CX-028489.pdf"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_269134d5b04eaaaf0c33",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-17T04:20:14.465683+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use the public DOE awardee and qualified-assessment-provider lists to identify manufacturers with funded projects involving VFDs, motors, pumps, compressors, monitors, or process sensors. Send a fixed-scope offer for one retrofit type, such as installing and commissioning VFDs on eligible motor loads. Lowest-cost test: select 10 awardees or assessment providers, verify each facility's project scope from public records, and ask whether they are accepting outside installation bids or subcontractors. Do not assume grant eligibility, procurement permission, or incumbent-free status until confirmed directly.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A small operator could sell a narrowly defined hardware-and-installation package that converts an already funded energy recommendation into an operating project, rather than selling an energy study or generic consulting.",
+      "title": "Grant-aligned VFD and process-sensor retrofit package for small manufacturers",
+      "type": "industrial retrofit installation",
+      "unknowns": [],
+      "value_capture_mechanism": "Revenue from equipment procurement, installation, commissioning, and documented savings or grant-compliance support. The evidence does not establish a standard price, margin, or guaranteed customer conversion.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -5138,6 +5138,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-17T04:20:14.433657+00:00",
+      "discovery_lens": "adoption_lag",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "USDA reports lower unpaid labor expense for robotic-milking adopters among 50–149-head dairies and lower paid labor expense among 150–499-head dairies, based on 2021 survey data.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Robotic milking affects labor costs differently depending on farm size",
+          "url": "https://ers.usda.gov/data-products/charts-of-note/114160"
+        },
+        {
+          "claim": "USDA reports box robots serving approximately 50–70 cows each, costing $150,000–$200,000 during the sampled period, with annual maintenance expenses of $20,000–$25,000.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Precision Dairy Farming, Robotic Milking, and Profitability in the United States",
+          "url": "https://ers.usda.gov/sites/default/files/_laserfiche/publications/113706/ERR-356.pdf?v=31391"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.8,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_ab706c5f1aeb60ba7b7e",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-17T04:20:14.465910+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Map dairies with 50–499 cows in one region and contact existing robot manufacturers, dealers, and dairy-equipment service firms to determine whether they need independent service coverage or installation subcontractors. Lowest-cost falsification step: obtain three current dealer quotes for a representative dairy, interview five farms about labor availability and service response times, and ask two manufacturers whether independent maintenance or referral arrangements are permitted. Proceed only if a real service gap and authorized participation route are confirmed.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The high equipment price and recurring maintenance requirement create a possible entry point for a small operator as a local implementation, maintenance, monitoring, financing-introduction, or used-equipment partner rather than as a robot manufacturer.",
+      "title": "Small-dairy robotic-milking installation, financing, or service-partner wedge",
+      "type": "equipment participation and service partnership",
+      "unknowns": [],
+      "value_capture_mechanism": "Possible revenue sources include installation coordination, preventive maintenance, parts sourcing, monitoring, or referral fees where a manufacturer or dealer explicitly permits them. No buyer, commission, or margin is assumed by the evidence.",
+      "verified_sales": null,
+      "vertical": "robotics_agritech",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-15T00:22:35.658248+00:00",
       "discovery_lens": "vertical_farming_economics",
       "estimated_capital": "",
@@ -5353,13 +5407,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-17T00:22:59.126308+00:00",
+  "generated_at": "2026-10-17T04:20:28.017315+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 38,
+  "rejected_excluded": 39,
   "reviewed_cards": 40,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 111,
-  "watch": 73
+  "total_distinct_opportunities": 113,
+  "watch": 74
 }

@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 73
+Candidates: 74
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -99,6 +99,18 @@ Candidates: 73
 - Critical gaps: Whether the cited January 1, 2026 AFCI requirement applies to the exact project classes, inverter configurations, and connection pathways targeted by the product, rather than only specified cases or alternatives.; Whether SEC or distributors accept the proposed equipment/documentation combinations in practice and what causes actual TE4 or related filing rejections.; Number of Chilean distributed BESS projects currently being designed, installed, or submitted through the relevant process.
 - Possible initial budget:
 - Source URLs: https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/; https://www.sec.cl/gda/; https://www.sec.cl/normas-tecnicas-electricas/
+
+## Grant-aligned VFD and process-sensor retrofit package for small manufacturers
+- Status: watch | energy_infrastructure
+- Current idea: A small operator could sell a narrowly defined hardware-and-installation package that converts an already funded energy recommendation into an operating project, rather than selling an energy study or generic consulting.
+- Potential economic capture: Revenue from equipment procurement, installation, commissioning, and documented savings or grant-compliance support. The evidence does not establish a standard price, margin, or guaranteed customer conversion.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.energy.gov/mesc/industrial-research-and-assessment-center-implementation-grant-awards; https://www.energy.gov/sites/default/files/2023-08/CX-028489.pdf
 
 ## Interconnection-queue intelligence as a paid research asset for project developers
 - Status: watch | energy_infrastructure
@@ -411,18 +423,6 @@ Candidates: 73
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/615/articles-96819_doc_pdf.pdf
-
-## Chile SFA API conformance and test-harness wedge
-- Status: watch | open_finance_chile
-- Current idea: Regulated information providers, account providers, information-service providers, and payment-initiation providers have a bounded implementation and testing obligation before the July 2027 operating date. The directly monetizable problem is not generic fintech demand; it is reducing failed integration, security-test, data-quality, certificate, and regression-test work against the CMF-defined interface requirements.
-- Potential economic capture: A small operator could offer a narrowly scoped SFA conformance asset: automated schema/API contract tests, test data fixtures, certificate and mTLS checks, consent-flow regression tests, and evidence export for an institution's internal compliance or vendor review. Cash flow would come from a paid implementation or testing engagement with an entity preparing for SFA participation; no specific buyer, fee, or procurement commitment is verified.
-- **Research routes to test (NOT validated claims):**
-  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
-  - Check license perimeter, API access, legal compliance and competitor pricing.
-  - Test buyer procurement and technical access before writing integration infrastructure.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/normativa/ncg_514_2024.pdf
 
 ## Chile SFA conformance and consent-flow testing for fintech participants before July 2027
 - Status: watch | open_finance_chile
@@ -855,6 +855,18 @@ Candidates: 73
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.agricultural-robotics.com/robot/robot-one; https://www.agricultural-robotics.com/robot/zurama-ai-inrow-weeder; https://arxiv.org/abs/2509.25056; https://farmdroid.com/
+
+## Small-dairy robotic-milking installation, financing, or service-partner wedge
+- Status: watch | robotics_agritech
+- Current idea: The high equipment price and recurring maintenance requirement create a possible entry point for a small operator as a local implementation, maintenance, monitoring, financing-introduction, or used-equipment partner rather than as a robot manufacturer.
+- Potential economic capture: Possible revenue sources include installation coordination, preventive maintenance, parts sourcing, monitoring, or referral fees where a manufacturer or dealer explicitly permits them. No buyer, commission, or margin is assumed by the evidence.
+- **Research routes to test (NOT validated claims):**
+  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
+  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
+  - Arrange a bounded field validation with an actual farm operator before scaling.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://ers.usda.gov/data-products/charts-of-note/114160; https://ers.usda.gov/sites/default/files/_laserfiche/publications/113706/ERR-356.pdf?v=31391
 
 ## Small-factory robot deployment and commissioning wedge focused on food-sector applications
 - Status: watch | robotics_agritech

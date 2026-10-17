@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-17T00:22:59.126308+00:00
+Generated: 2026-10-17T04:20:28.017315+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 73 (0 HQ survivors, 73 watches)
-- Rejected opportunities excluded: 38
+- Active research: 74 (0 HQ survivors, 74 watches)
+- Rejected opportunities excluded: 39
 - Critic-and-judge reviewed: 40
 - Autonomous execution authorization: 0
 
@@ -593,16 +593,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/615/articles-96819_doc_pdf.pdf
 
-### Chile SFA API conformance and test-harness wedge [opp_56dda86b89972247ff94]
-- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
-- Thesis: Regulated information providers, account providers, information-service providers, and payment-initiation providers have a bounded implementation and testing obligation before the July 2027 operating date. The directly monetizable problem is not generic fintech demand; it is reducing failed integration, security-test, data-quality, certificate, and regression-test work against the CMF-defined interface requirements.
-- Value capture: A small operator could offer a narrowly scoped SFA conformance asset: automated schema/API contract tests, test data fixtures, certificate and mTLS checks, consent-flow regression tests, and evidence export for an institution's internal compliance or vendor review. Cash flow would come from a paid implementation or testing engagement with an entity preparing for SFA participation; no specific buyer, fee, or procurement commitment is ver
-- Participation hypothesis: Start without claiming CMF approval or acting as a regulated participant. Download the current NCG 514 and Technical Annex/Developer Portal materials, implement a small local validator for one publicly documented API flow, and publish a reproducible demo showing failures and evidence output. Then contact Chilean banks, payment institutions, cooperatives, and fintechs listed or referenced in the CMF framework with a fixed-scope paid diagnostic proposal. Falsification test: within 10 business days, obtain three documented implementation pain poin
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/normativa/ncg_514_2024.pdf
-
 ### Chile SFA conformance-test harness for API, consent and payment-initiation flows [opp_9511a8b5519c4a31790e]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: Financial institutions and prospective SFA participants must convert the published API and control requirements into repeatable integration and acceptance tests. A narrowly scoped reusable test harness could reduce internal engineering and certification-preparation work, but the evidence does not establish a guaranteed procurement budget or mandated external vendor.
@@ -632,6 +622,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
+### Grant-aligned VFD and process-sensor retrofit package for small manufacturers [opp_269134d5b04eaaaf0c33]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States
+- Thesis: A small operator could sell a narrowly defined hardware-and-installation package that converts an already funded energy recommendation into an operating project, rather than selling an energy study or generic consulting.
+- Value capture: Revenue from equipment procurement, installation, commissioning, and documented savings or grant-compliance support. The evidence does not establish a standard price, margin, or guaranteed customer conversion.
+- Participation hypothesis: Use the public DOE awardee and qualified-assessment-provider lists to identify manufacturers with funded projects involving VFDs, motors, pumps, compressors, monitors, or process sensors. Send a fixed-scope offer for one retrofit type, such as installing and commissioning VFDs on eligible motor loads. Lowest-cost test: select 10 awardees or assessment providers, verify each facility's project scope from public records, and ask whether they are accepting outside installation bids or subcontractors. Do not assume grant eligibility, procurement pe
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.energy.gov/mesc/industrial-research-and-assessment-center-implementation-grant-awards; https://www.energy.gov/sites/default/files/2023-08/CX-028489.pdf
 
 ### Interconnection-queue intelligence as a paid research asset for project developers [opp_471716894d06e79a4659]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States
@@ -702,6 +702,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.ndsu.edu/agriculture/sites/default/files/2026-02/2026%20ACAW%20ANDERSON%20Robotic%20Weeding%20PPT.pdf; https://smartsoilai.com/shop/autonomous-weeding-robot
+
+### Small-dairy robotic-milking installation, financing, or service-partner wedge [opp_ab706c5f1aeb60ba7b7e]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States
+- Thesis: The high equipment price and recurring maintenance requirement create a possible entry point for a small operator as a local implementation, maintenance, monitoring, financing-introduction, or used-equipment partner rather than as a robot manufacturer.
+- Value capture: Possible revenue sources include installation coordination, preventive maintenance, parts sourcing, monitoring, or referral fees where a manufacturer or dealer explicitly permits them. No buyer, commission, or margin is assumed by the evidence.
+- Participation hypothesis: Map dairies with 50–499 cows in one region and contact existing robot manufacturers, dealers, and dairy-equipment service firms to determine whether they need independent service coverage or installation subcontractors. Lowest-cost falsification step: obtain three current dealer quotes for a representative dairy, interview five farms about labor availability and service response times, and ask two manufacturers whether independent maintenance or referral arrangements are permitted. Proceed only if a real service gap and authorized participation
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://ers.usda.gov/data-products/charts-of-note/114160; https://ers.usda.gov/sites/default/files/_laserfiche/publications/113706/ERR-356.pdf?v=31391
 
 ### Small-scale hydroponic leafy-greens production only where local preorders support premium pricing [opp_57e35ef0850d9ba16936]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile, location-dependent
