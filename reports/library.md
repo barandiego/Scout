@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-17T16:18:10.070826+00:00
+Generated: 2026-10-17T20:14:45.923701+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
 - Active research: 78 (0 HQ survivors, 78 watches)
-- Rejected opportunities excluded: 42
+- Rejected opportunities excluded: 44
 - Critic-and-judge reviewed: 42
 - Autonomous execution authorization: 0
 
@@ -573,16 +573,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html
 
-### Chile Open Finance implementation wedge: conformance testing and developer-tooling assets [opp_76fc7b6bece7c6b747d4]
-- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
-- Thesis: The technical standard creates a defined implementation window before mandatory operation. A narrow product could package test fixtures, API conformance checks, consent-flow test cases, documentation templates, and monitoring for regulated participants or technology providers.
-- Value capture: Sell a narrowly scoped downloadable test suite or annual software subscription; alternatively license implementation documentation and automated test cases to participating firms. No buyer, price, or conversion rate is established by the evidence.
-- Participation hypothesis: Build a minimum conformance harness against the publicly available CMF technical specifications and developer-portal materials. Test whether two Chilean fintech or banking-technology contacts can run it and identify missing implementation requirements before attempting any sale. Stop if the specifications are inaccessible, materially incomplete, or prospective users do not agree to a technical evaluation.
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html
-
 ### Chile Open Finance implementation-readiness scanner for small fintechs and accounting platforms [opp_12eb144e4fe2a8d50297]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: A time-bounded compliance and integration window exists before mandatory participation. A narrowly scoped tool that converts the technical annex into endpoint checks, consent-flow tests, directory-readiness checks, and evidence reports could reduce implementation uncertainty without attempting to become a regulated financial-data intermediary.
@@ -702,6 +692,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.nyiso.com/documents/20142/49802416/DER-and-Aggregation-Participation-Model-FAQ.pdf/967117fb-8bbb-1916-651a-0f9dbe904780; https://www.nyiso.com/documents/20142/51465900/03a%20BPWG%202025-05-19%20Market%20Project%20Descriptions.pdf/7ae79489-5cd8-5715-200f-227204dad4a4
+
+### Open-source agent cost-control software with a directly published paid tier [opp_beb787a05eb10672a64b]
+- Status: WATCH_REQUIRES_VALIDATION | innovation_adoption | Global
+- Thesis: The concrete mechanism is not generic AI consulting: it is a low-cost software layer for self-hosted agent operators who need cost tracking, routing, quality controls or premium features. The public price confirms that at least one project is attempting direct software monetization, but adoption and willingness to pay are unverified.
+- Value capture: Possible capture routes are paid contributions, narrowly scoped integrations, hosted deployment only where explicitly permitted, or paid extensions/templates that solve a documented operational gap. No buyer, conversion rate or sustainable margin is established.
+- Participation hypothesis: Lowest-cost falsification: install one project locally, run a fixed benchmark of 20-50 representative agent tasks with and without the cost-control layer, and publish the measured token use, latency, failure rate and reproducibility. Then contact identifiable users or maintainers through the project's public issue/discussion channels with the benchmark and ask whether the measured improvement solves a paid problem. Do not sell managed services, claim savings, or assume licensing rights until the repository license and user response support it.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://github.com/aks-builds/agentsave; https://github.com/use-ash/apex
 
 ### Pilot NFC table placards for review capture and menu recovery in independent Chilean restaurants [opp_931a74c26757b6e74ee3]
 - Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile

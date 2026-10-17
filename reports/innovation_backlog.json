@@ -1038,6 +1038,42 @@
       "category": "innovation_adoption",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Lowest-cost falsification: install one project locally, run a fixed benchmark of 20-50 representative agent tasks with and without the cost-control layer, and publish the measured token use, latency, failure rate and reproducibility. Then contact identifiable users or maintainers through the project's public issue/discussion channels with the benchmark and ask whether the measured improvement solves a paid problem. Do not sell managed services, claim savings, or assume licensing rights until the repository license and user response support it.",
+      "current_thesis": "The concrete mechanism is not generic AI consulting: it is a low-cost software layer for self-hosted agent operators who need cost tracking, routing, quality controls or premium features. The public price confirms that at least one project is attempting direct software monetization, but adoption and willingness to pay are unverified.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Global",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Open-source agent cost-control software with a directly published paid tier",
+      "opportunity_id": "opp_beb787a05eb10672a64b",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a real technical capability not yet adopted in one buyer's high-value workflow.",
+        "Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.",
+        "Measure the fully loaded operating cost, human exceptions and distribution against the status quo."
+      ],
+      "supporting_source_urls": [
+        "https://github.com/aks-builds/agentsave",
+        "https://github.com/use-ash/apex"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Possible capture routes are paid contributions, narrowly scoped integrations, hosted deployment only where explicitly permitted, or paid extensions/templates that solve a documented operational gap. No buyer, conversion rate or sustainable margin is established.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "innovation_adoption",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Fork or locally run the open attack corpus and benchmark harnesses against a toy agent or a consenting test deployment. Create 20-30 tests covering prompt injection, unsafe tool calls, secret leakage, and spend approval; measure false positives, detection rate, latency, and model/API cost. Publish the methodology and ask 10 publicly identifiable software teams or developer communities whether they will submit a redacted workflow for a free baseline. Charge only after a participant requests a repeatable CI report or agrees to a paid pilot. Falsify if the test cannot produce reproducible failures on a real workflow, or if none of 10 relevant teams will submit a workflow, schedule a review, or request a paid rerun. Do not claim certification, legal compliance, or protection against all attacks.",
       "current_thesis": "Small teams deploying agents may be able to buy or commission a bounded test that identifies whether their agent can be induced to take unauthorized actions. The narrow wedge is an evidence-producing regression pack for one agent workflow, not generic AI consulting or a claim of comprehensive security.",
       "founder_hours_initial_unverified_estimate": "",
@@ -1179,42 +1215,6 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Offer a paid, fixed-scope pre-certification or integration-readiness review built around the public Annex 3 specifications: validate sample payloads, authentication flows, logging/versioning behavior and payment-initiation edge cases. The plausible payer is a prospective SFA participant or its implementation contractor, but willingness to pay and procurement authority are unverified.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "open_finance_chile",
-      "commercially_validated": false,
-      "competition_confirmed": false,
-      "current_participation_path": "Build a minimum conformance harness against the publicly available CMF technical specifications and developer-portal materials. Test whether two Chilean fintech or banking-technology contacts can run it and identify missing implementation requirements before attempting any sale. Stop if the specifications are inaccessible, materially incomplete, or prospective users do not agree to a technical evaluation.",
-      "current_thesis": "The technical standard creates a defined implementation window before mandatory operation. A narrow product could package test fixtures, API conformance checks, consent-flow test cases, documentation templates, and monitoring for regulated participants or technology providers.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "Chile",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "Chile Open Finance implementation wedge: conformance testing and developer-tooling assets",
-      "opportunity_id": "opp_76fc7b6bece7c6b747d4",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
-        "Check license perimeter, API access, legal compliance and competitor pricing.",
-        "Test buyer procurement and technical access before writing integration infrastructure."
-      ],
-      "supporting_source_urls": [
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "Sell a narrowly scoped downloadable test suite or annual software subscription; alternatively license implementation documentation and automated test cases to participating firms. No buyer, price, or conversion rate is established by the evidence.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -2998,7 +2998,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-17T16:18:10.131636+00:00",
+  "generated_at": "2026-10-17T20:14:45.989596+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

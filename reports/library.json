@@ -4523,60 +4523,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-14T20:22:41.897714+00:00",
-      "discovery_lens": "asset_ownership",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "CMF published the amended rule, technical annex, developer portal, and July 2027 entry-into-force timing.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
-          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
-        },
-        {
-          "claim": "The English CMF notice confirms that the technical specifications cover interoperability, information exchange, payment initiation, and implementation by participating entities.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
-          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.86,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_76fc7b6bece7c6b747d4",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-14T20:22:41.928669+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Build a minimum conformance harness against the publicly available CMF technical specifications and developer-portal materials. Test whether two Chilean fintech or banking-technology contacts can run it and identify missing implementation requirements before attempting any sale. Stop if the specifications are inaccessible, materially incomplete, or prospective users do not agree to a technical evaluation.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "The technical standard creates a defined implementation window before mandatory operation. A narrow product could package test fixtures, API conformance checks, consent-flow test cases, documentation templates, and monitoring for regulated participants or technology providers.",
-      "title": "Chile Open Finance implementation wedge: conformance testing and developer-tooling assets",
-      "type": "software_asset",
-      "unknowns": [],
-      "value_capture_mechanism": "Sell a narrowly scoped downloadable test suite or annual software subscription; alternatively license implementation documentation and automated test cases to participating firms. No buyer, price, or conversion rate is established by the evidence.",
-      "verified_sales": null,
-      "vertical": "open_finance_chile",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-15T04:22:32.106143+00:00",
       "discovery_lens": "geographic_arbitrage",
       "estimated_capital": "",
@@ -5225,6 +5171,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-17T20:14:28.528467+00:00",
+      "discovery_lens": "ai_open_source",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The repository describes an open-source agent efficiency platform with an LLM-free context filter, early-exit supervisor, cost tracking and a claimed approximately 30% token-cost reduction; the claim remains unverified until independently benchmarked.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "agentsave — Open-source AI agent efficiency platform",
+          "url": "https://github.com/aks-builds/agentsave"
+        },
+        {
+          "claim": "The repository states that Apex is free and open source and publishes premium pricing of $29.99 per month, $249 per year or $499 lifetime after September 30, 2026.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Apex — Self-hosted AI agent platform",
+          "url": "https://github.com/use-ash/apex"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.71,
+      "falsification_conditions": [],
+      "geography": "Global",
+      "id": "opp_beb787a05eb10672a64b",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-17T20:14:28.564565+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Lowest-cost falsification: install one project locally, run a fixed benchmark of 20-50 representative agent tasks with and without the cost-control layer, and publish the measured token use, latency, failure rate and reproducibility. Then contact identifiable users or maintainers through the project's public issue/discussion channels with the benchmark and ask whether the measured improvement solves a paid problem. Do not sell managed services, claim savings, or assume licensing rights until the repository license and user response support it.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The concrete mechanism is not generic AI consulting: it is a low-cost software layer for self-hosted agent operators who need cost tracking, routing, quality controls or premium features. The public price confirms that at least one project is attempting direct software monetization, but adoption and willingness to pay are unverified.",
+      "title": "Open-source agent cost-control software with a directly published paid tier",
+      "type": "open_source_software_monetization_test",
+      "unknowns": [],
+      "value_capture_mechanism": "Possible capture routes are paid contributions, narrowly scoped integrations, hosted deployment only where explicitly permitted, or paid extensions/templates that solve a documented operational gap. No buyer, conversion rate or sustainable margin is established.",
+      "verified_sales": null,
+      "vertical": "innovation_adoption",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-16T04:22:38.300776+00:00",
       "discovery_lens": "nfc_smart_commerce",
       "estimated_capital": "",
@@ -5710,13 +5710,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-17T16:18:10.070826+00:00",
+  "generated_at": "2026-10-17T20:14:45.923701+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 42,
+  "rejected_excluded": 44,
   "reviewed_cards": 42,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 120,
+  "total_distinct_opportunities": 122,
   "watch": 78
 }

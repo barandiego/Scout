@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-17T16:18:09.688891+00:00
+Generated: 2026-10-17T20:14:45.510314+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['energy_localization', 'wildcard', 'geographic_arbitrage']
-- raw_candidates: 3
-- parseable_candidates: 3
-- normalized_candidates: 3
+- lenses: ['ai_open_source', 'public_markets', 'physical_commerce']
+- raw_candidates: 2
+- parseable_candidates: 2
+- normalized_candidates: 2
 - normalization_rejected: 0
-- grounded_sources: 5
+- grounded_sources: 3
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 1
+- judge_attempts: 0
 - critic_reviews: 1
-- judge_reviews: 1
+- judge_reviews: 0
 - survivors: 0
-- watches: 3
-- rejected: 1
+- watches: 1
+- rejected: 2
 - errors_by_stage: {}
 - rejection_reasons: {'discarded_ungrounded_url': 1, 'insufficient_unique_evidence': 1}
-- cost_usd: 0.0447803
+- cost_usd: 0.02959675
 - cost_uncertain: False
-- budget_remaining_usd: 0.0352197
+- budget_remaining_usd: 0.05040325
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Tokenized-fund ledger reconciliation and allowlist-control test harness: deferred_by_review_cap
 - Battery-project dispatch and revenue-stack verification for Texas and California assets: deferred_by_review_cap
 - Chile SFA implementation adapter for consent, directory and API conformance: deferred_by_review_cap
 - Small- and mid-size farm robotic-weeding service using commercial robots instead of ownership: deferred_by_review_cap
@@ -51,6 +50,7 @@ No survivors. Scout does not manufacture a daily winner.
 - NFC/QR review-and-discovery plates for Chilean physical venues: deferred_by_review_cap
 - Energy-audit and retrofit origination for Chilean medium-sized firms: deferred_by_review_cap
 - Congestion-aware battery and demand-response screening for constrained Chilean nodes: deferred_by_review_cap
+- Open-source agent cost-control software with a directly published paid tier: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
@@ -64,44 +64,41 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 29,
+      "grounded_source_count": 24,
       "search_source_urls": [
-        "https://apnews.com/article/3bd62dd2d73ed711fa754ead1997634a",
-        "https://apnews.com/article/e78ccd51a7f66099d84fda885d2907a3",
-        "https://atencionciudadana.minenergia.cl/tramites/informacion/20",
-        "https://energia.gob.cl/mini-sitio/concurso-para-implementacion-de-piloto-de-cooperativa-de-energia-electrica",
-        "https://energia.gob.cl/node/26466",
-        "https://energia.gob.cl/noticias/nacional/nuevo-concurso-energia-comunitaria-asociativa-impulsa-generacion-distribuida-para-beneficiar-comunidades-locales",
-        "https://energia.gob.cl/sites/default/files/documento_cuenta-publica_2025.pdf",
-        "https://energia.gob.cl/sites/default/files/documentos/reporte_de_proyectos_-_julio_2025.pdf",
-        "https://es.wikipedia.org/wiki/Marketplaces_en_Am%C3%A9rica_Latina",
-        "https://www.agenciase.org/energia-a-tu-pyme/",
-        "https://www.bcentral.cl/contenido/-/details/documento-de-trabajo-n-465",
-        "https://www.cooperativa.cl/noticias/site/artic/20250930/pags-amp/20250930092946.html",
-        "https://www.coordinador.cl/novedades/energia-solar-y-eolica-marco-record-de-participacion-en-el-sistema-electrico-en-2025/",
-        "https://www.coordinador.cl/presentaciones/informe-monitoreo-de-la-competencia-en-el-mercado-electrico-2025/",
-        "https://www.coordinador.cl/wp-content/uploads/2024/11/Diagnostico-del-Uso-Esperado-del-Sistema-de-Transmision-PET2025.pdf",
-        "https://www.coordinador.cl/wp-content/uploads/2026/04/2026-04-23-INFORME-MONITOREO-2025-.pdf",
-        "https://www.coordinador.cl/wp-content/uploads/2026/04/Informe-Monitoreo-2025.pdf",
-        "https://www.coordinador.cl/wp-content/uploads/2026/06/Cuenta-Publica-Gestion-2025-CEN.pdf",
-        "https://www.corfo.gob.cl/sites/cpp/convocatoria/red-fomento-sostenible-construccion-sustentable-2025/",
-        "https://www.minvu.gob.cl/postulacion/llamado-eficiencia-energetica-y-acondicionamiento-termico-ds-27-ano-2025/",
-        "https://www.reddit.com/r/AmazonFBATips/comments/1tumdt3/alert_2026_why_latam_sellers_are_losing_shipments/",
-        "https://www.reddit.com/r/MapPorn/comments/1ibunc1/latin_america_largest_trading_partner_2000_vs_2024/",
-        "https://www.reddit.com/r/ValueInvesting/comments/1q2ke1k/mercadolibre_meli_is_my_1_conviction_right_now/",
-        "https://www.reddit.com/r/asklatinamerica/comments/1irk9q6",
-        "https://www.reddit.com/r/asklatinamerica/comments/1k6py48",
-        "https://www.reddit.com/r/asklatinamerica/comments/1lmalyy/why_is_conosur_so_expensive/",
-        "https://www.reddit.com/r/asklatinamerica/comments/1n7yd3m",
-        "https://www.reddit.com/r/shopify/comments/1jwf8kt",
-        "https://www.todolicitaciones.cl/licitacion/623663-15-LE25"
+        "https://assets.falabella.com/v3/assets/bltf4ed0b9a176c126e/blt34271eaf0fb835a5/Reporte%20de%20Sostenibilidad%202025.pdf",
+        "https://en.wikipedia.org/wiki/Falabella_%28retail_store%29",
+        "https://en.wikipedia.org/wiki/S.A.C.I._Falabella",
+        "https://es.wikipedia.org/wiki/Falabella",
+        "https://es.wikipedia.org/wiki/Grupo_Falabella",
+        "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/",
+        "https://falabellaretail.falabella.com/wp-content/uploads/2025/05/OR_REPORTE_FALABELLA_2024_v3.pdf",
+        "https://github.com/AgentForEach/AgentForEach",
+        "https://github.com/SII-Holos/synergy",
+        "https://github.com/aks-builds/agentsave",
+        "https://github.com/areal-project/AReaL",
+        "https://github.com/gizmax/Sandcastle",
+        "https://github.com/swarmclawai/swarmclaw",
+        "https://github.com/use-ash/apex",
+        "https://investors.grupofalabella.com/app/uploads/sites/2/2026/03/Annual-Report-2025.pdf",
+        "https://s27.q4cdn.com/743947716/files/doc_downloads/2026/2026-1-Final-Prospectus.pdf",
+        "https://unctad.org/system/files/official-document/ditccom2025d3_en.pdf",
+        "https://www.falabella.com/falabella-cl/brand/NATURA",
+        "https://www.falabella.com/falabella-cl/brand/NATURA?sid=HO_MD1_NAT_248",
+        "https://www.falabella.com/falabella-cl/seller/Natura",
+        "https://www.natura.cl/blog/mas-natura/guia-de-compra-online",
+        "https://www.reddit.com/r/SPACs/comments/1x4pte5/announcements_x_daily_discussion_for_tuesday/",
+        "https://www.reddit.com/r/pennystocks/comments/1wzx9z2/upcoming_penny_stock_catalysts_in_october_2026/",
+        "https://www.sec.gov/Archives/edgar/data/0001849867/000184986725000008/clst-20241231xars.pdf"
       ]
     },
     {
       "index": 0,
       "stage": "normalization",
       "outcome": "accepted",
-      "reasons": [],
+      "reasons": [
+        "discarded_ungrounded_url"
+      ],
       "changes": [
         "contrary_evidence:list_sanitized",
         "major_risks:list_sanitized",
@@ -109,7 +106,7 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 2,
+      "grounded_sources": 1,
       "retry_justified": false
     },
     {
@@ -128,119 +125,89 @@ No survivors. Scout does not manufacture a daily winner.
       "retry_justified": false
     },
     {
-      "index": 2,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [
-        "discarded_ungrounded_url"
-      ],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 1,
-      "retry_justified": false
-    },
-    {
       "stage": "critic",
-      "candidate_id": "opp_de6bbd059c9fa7fd72e5",
+      "candidate_id": "opp_76fc7b6bece7c6b747d4",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 27,
+      "grounded_source_count": 39,
       "search_source_urls": [
-        "https://cmfchile.atlassian.net/wiki/spaces/OFAC/pages/267649439/API%2BCuentas%2BOpen%2BFinance%2BChile%2Bv1.0.0",
-        "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812",
-        "https://cmfchile.cl/portal/principal/623/w4-article-92466.html",
+        "https://arxiv.org/abs/1901.11520",
+        "https://arxiv.org/abs/2003.12776",
+        "https://arxiv.org/abs/2610.14419",
+        "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=f91f133e-cc24-401b-9e65-e37cc9fd1613",
+        "https://cms.hacienda.cl/hacienda/assets/documento/descargar/586d2436b5866/1720038989",
+        "https://elpais.com/america/termometro-social/2024-10-07/digitalizacion-financiera-en-america-latina-enfrenta-nueva-era-de-transformacion-y-oportunidades.html",
+        "https://en.wikipedia.org/wiki/Draft%3AFinancial-grade_API",
         "https://en.wikipedia.org/wiki/Open_finance",
+        "https://es.wikipedia.org/wiki/Comisi%C3%B3n_para_el_Mercado_Financiero",
         "https://es.wikipedia.org/wiki/Fapro",
-        "https://es.wikipedia.org/wiki/Finanzas_abiertas",
         "https://es.wikipedia.org/wiki/ProntoPaga",
-        "https://es.wikipedia.org/wiki/Superintendencia_de_Bancos_e_Instituciones_Financieras_de_Chile",
         "https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_financiera",
+        "https://microservicio-documentos.senado.cl/v1/archivos/3d10572e-6b70-49cb-9248-e384696195f5?includeContent=true",
         "https://openfinance.cl/",
-        "https://openfinance.cl/",
-        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA",
         "https://openfinanceconnect.cl/",
         "https://openfinanceconnect.cl/en/",
+        "https://sfasandbox.cl/",
         "https://synaptic.cl/proyectos/boufin/",
-        "https://www.cmfchile.cl/portal/prensa/615/articles-71073_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/articles-100816_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/articles-80854_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/articles-82752_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/articles-92466_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html",
+        "https://www.bcentral.cl/documents/33528/133214/jvr21092021.pdf/a402635a-1b09-70e6-fb4e-f9e4f543c477?t=1693509440966",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html",
         "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
         "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-73961.html",
-        "https://www.reddit.com/r/fintech/comments/1jpa6g5/developer_friendly_fintech_apis/",
-        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000108/MNCjune2026signed.pdf"
+        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48738.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html",
+        "https://www.cnc.cl/wp-content/uploads/2022/01/PPT-Ley-Fintech-CNC.pdf",
+        "https://www.legal500.com/guides/chapter/chile-fintech/?export-pdf=",
+        "https://www.reddit.com/r/FinanzasChile/comments/1nnlenn",
+        "https://www.reddit.com/r/FinanzasChile/comments/1odi1nl/chilenos_trabajando_en_finanzas/",
+        "https://www.reddit.com/r/FinanzasChile/comments/1qwyxkv/duda_de_gastos_en_fondo_mutuo_enfoque_larrain/",
+        "https://www.reddit.com/r/FinanzasChile/comments/1uonyop/arm%C3%A9_una_p%C3%A1gina_gratis_que_punt%C3%BAa_activos_seg%C3%BAn/",
+        "https://www.reddit.com/r/RepublicadeChile/comments/1i3feoz",
+        "https://www.reddit.com/r/chile/comments/165qdri",
+        "https://www.reddit.com/r/chile/comments/1b3wudy",
+        "https://www.reddit.com/r/chile/comments/1c0573k",
+        "https://www.reddit.com/r/chile/comments/1s9i651/sigue_el_debate_caja_fiscal_sube_a_us_3600/",
+        "https://www.reddit.com/r/chileIT/comments/1jcs4sd",
+        "https://www.reddit.com/r/chileIT/comments/1rlaa9p/implement%C3%A9_un_sistema_de_finanzas_y_cotizaciones/",
+        "https://www.reddit.com/r/u_CryptoConexion/comments/1eejg9l",
+        "https://www.synaptic.cl/"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_de6bbd059c9fa7fd72e5",
-      "coercions": []
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_de6bbd059c9fa7fd72e5",
-      "response_status": "completed",
-      "incomplete_reason": "",
-      "grounded_source_count": 0,
-      "search_source_urls": []
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_de6bbd059c9fa7fd72e5",
-      "coercions": []
+      "candidate_id": "opp_76fc7b6bece7c6b747d4",
+      "coercions": [
+        "contrary_evidence"
+      ]
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 202,
-      "cache_write_tokens": 5476,
+      "reasoning_tokens": 365,
+      "cache_write_tokens": 5529,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0152446,
+      "cumulative_cost_usd": 0.01474425,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13838,
+      "input_tokens": 14101,
       "cached_tokens": 0,
-      "output_tokens": 1836,
+      "output_tokens": 1373,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0152446
+      "estimated_cost_usd": 0.01474425
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 143,
-      "cache_write_tokens": 5406,
+      "reasoning_tokens": 200,
+      "cache_write_tokens": 5170,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0298063,
+      "cumulative_cost_usd": 0.02959675,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13807,
+      "input_tokens": 13802,
       "cached_tokens": 0,
-      "output_tokens": 1275,
+      "output_tokens": 1528,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0145617
-    },
-    {
-      "stage": "judge",
-      "available": true,
-      "reasoning_tokens": 55,
-      "cache_write_tokens": 3112,
-      "accounting_notes": [],
-      "cumulative_cost_usd": 0.0447803,
-      "model": "gpt-5.6-terra",
-      "input_tokens": 3115,
-      "cached_tokens": 0,
-      "output_tokens": 599,
-      "web_search_calls": 0,
-      "estimated_cost_usd": 0.014974
+      "estimated_cost_usd": 0.0148525
     }
   ]
 }
