@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 74
+Candidates: 75
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -27,6 +27,18 @@ Candidates: 74
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.sosmee.com/; https://tnfc.cl/; https://publico.transbank.cl/productos-y-servicios/soluciones-para-ventas-presenciales/pocket-pos
+
+## NFC review-and-contact stand for Chilean hospitality venues
+- Status: watch | chile_localization
+- Current idea: A small operator should not compete on generic digital business cards. A narrower wedge is a countertop NFC/QR stand for restaurants, salons, tour operators, and lodging businesses that routes visitors to a review page, booking link, menu, or WhatsApp contact. The economic mechanism is increased attributable customer actions rather than the NFC hardware itself.
+- Potential economic capture: One-time sale of a customized stand or card plus optional setup, profile maintenance, and analytics. Existing Chilean prices establish that customers already pay for the physical product; no unverified margin or conversion uplift is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Find the smallest Chilean workflow whose economics differ from the original geography.
+  - Secure lawful access, partners and after-sales support rather than copy protected technology.
+  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://linkd.cl/; https://www.ondda.cl/; https://www.tuk.cl/es-cl
 
 ## Pilot NFC table placards for review capture and menu recovery in independent Chilean restaurants
 - Status: watch | chile_localization
@@ -652,6 +664,18 @@ Candidates: 74
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
 
+## Pre-compliance monitor for Chile Open Finance API participants
+- Status: watch | open_finance_chile
+- Current idea: The narrow executable opportunity is not generic fintech consulting. It is a low-cost monitoring and test harness that checks whether public participant-directory metadata, authorization endpoints, certificates, and documented API resources remain reachable and structurally conformant as firms prepare for implementation. The cash-flow source would be regulated or aspiring participants that need internal readiness evidence, but no buyer or contract is presumed.
+- Potential economic capture: Sell a self-serve monitoring subscription or one-time conformance report only after validating that a participant will pay for a concrete alert, test report, or scheduled regression check. Pricing and demand remain unverified.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=f91f133e-cc24-401b-9e65-e37cc9fd1613; https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA
+
 ## Pre-compliance monitoring for Chile’s Open Finance implementation
 - Status: watch | open_finance_chile
 - Current idea: A narrow monitoring asset could help fintechs, banks, integrators and compliance teams track participant registration, endpoint changes, implementation milestones and bank-data availability before mandatory operation. The evidence supports an information-access wedge, not yet a confirmed paying market.
@@ -831,18 +855,6 @@ Candidates: 74
 - Critical gaps: Number, size, crop mix, and geographic concentration of existing Chilean indoor or hydroponic growers that use artificial lighting.; Actual Chilean electricity tariffs, demand charges, time-of-use pricing, and renewable-energy arrangements applicable to target facilities.; Lighting, HVAC, pumping, dehumidification, and refrigeration shares of total site electricity consumption.
 - Possible initial budget:
 - Source URLs: https://arxiv.org/abs/2507.18419; https://arxiv.org/abs/2510.03686; https://ers.usda.gov/sites/default/files/_laserfiche/publications/108221/EIB-264.pdf
-
-## Shared-service autonomous mechanical weeding pilot for sugar beet and similar row crops
-- Status: watch | robotics_agritech
-- Current idea: The actionable gap is between proven field use and small-farm affordability/utilization. A fleet or seasonal rental/service model could test whether one machine can be economically utilized across multiple nearby farms, rather than requiring each farm to purchase equipment. The evidence does not establish a profitable per-acre price, local import permissions, or customer willingness to pay.
-- Potential economic capture: Potential cash-flow mechanisms are seasonal equipment rental, contracted mechanical-weeding passes, or brokerage/import coordination for a confirmed farm or cooperative order. The economic asset is a controlled field trial plus utilization and cost data, not a claimed robot margin or guaranteed service business.
-- **Research routes to test (NOT validated claims):**
-  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
-  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
-  - Arrange a bounded field validation with an actual farm operator before scaling.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://www.ndsu.edu/agriculture/sites/default/files/2026-02/2026%20ACAW%20ANDERSON%20Robotic%20Weeding%20PPT.pdf; https://smartsoilai.com/shop/autonomous-weeding-robot
 
 ## Small- and mid-size farm robotic-weeding service using commercial robots instead of ownership
 - Status: watch | robotics_agritech

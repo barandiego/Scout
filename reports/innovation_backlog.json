@@ -82,6 +82,43 @@
       "category": "chile_localization",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Create a one-page landing page showing one hospitality-specific design and a measurable destination such as Google review, WhatsApp booking, or reservation link. Approach ten independently identifiable local venues through public contact channels and offer a paid pilot or refundable preorder. Do not buy inventory until at least three venues pay or place deposits. Falsify if venues will not pay the published-market price for a venue-specific version, or if fewer than two of ten prospects agree to track taps or scans. Existing market participation can also occur by sourcing blank NFC-compatible stock and localizing the landing/profile layer, subject to supplier terms and applicable consumer/tax requirements.",
+      "current_thesis": "A small operator should not compete on generic digital business cards. A narrower wedge is a countertop NFC/QR stand for restaurants, salons, tour operators, and lodging businesses that routes visitors to a review page, booking link, menu, or WhatsApp contact. The economic mechanism is increased attributable customer actions rather than the NFC hardware itself.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "NFC review-and-contact stand for Chilean hospitality venues",
+      "opportunity_id": "opp_f27f698db291e47e237f",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Find the smallest Chilean workflow whose economics differ from the original geography.",
+        "Secure lawful access, partners and after-sales support rather than copy protected technology.",
+        "Run a buyer interview or mock listing to falsify assumptions before capital commitment."
+      ],
+      "supporting_source_urls": [
+        "https://linkd.cl/",
+        "https://www.ondda.cl/",
+        "https://www.tuk.cl/es-cl"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "One-time sale of a customized stand or card plus optional setup, profile maintenance, and analytics. Existing Chilean prices establish that customers already pay for the physical product; no unverified margin or conversion uplift is assumed.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "chile_localization",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Buy one or two existing Chilean restaurant NFC products at the listed retail price, install them in a consenting independent restaurant or a personally controlled venue, and run a 7-day A/B test: NFC/QR placard versus the restaurant's existing sign. Measure scans, landing-page visits, menu clicks, and review-page clicks using separate URLs. Do not claim review uplift or recurring revenue unless the pilot produces it. The lowest-cost falsification step is to ask 10 nearby restaurants for permission to place one free prototype for one week; stop if fewer than 2 agree or if taps are negligible. Distribution is direct local outreach to restaurant owners/managers, not an assumed marketplace partnership.",
       "current_thesis": "The opportunity is not novel NFC hardware; it is a narrowly testable replacement for printed table signage where the operator can measure taps, menu visits, and review-page visits. Existing supply and visible prices reduce hardware and willingness-to-pay uncertainty, but also indicate commodity competition.",
       "founder_hours_initial_unverified_estimate": "",
@@ -2080,6 +2117,43 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use the public directory/API documentation to build a small read-only prototype that checks endpoint availability, TLS/certificate expiry, schema changes, and directory metadata changes. Run it against public test or documented endpoints without requesting credentials or accessing personal financial data. Publish a sample anonymized report and ask identifiable participants or implementation vendors for paid design-partner feedback. Falsify if the public endpoints cannot be queried reliably, the documentation does not expose enough stable structure to test, or ten targeted outreach attempts produce no paid pilot or written request for the report. Do not represent the tool as regulatory compliance certification.",
+      "current_thesis": "The narrow executable opportunity is not generic fintech consulting. It is a low-cost monitoring and test harness that checks whether public participant-directory metadata, authorization endpoints, certificates, and documented API resources remain reachable and structurally conformant as firms prepare for implementation. The cash-flow source would be regulated or aspiring participants that need internal readiness evidence, but no buyer or contract is presumed.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Pre-compliance monitor for Chile Open Finance API participants",
+      "opportunity_id": "opp_f4c70f1adccbe9b2583e",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=f91f133e-cc24-401b-9e65-e37cc9fd1613",
+        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a self-serve monitoring subscription or one-time conformance report only after validating that a participant will pay for a concrete alert, test report, or scheduled regression check. Pricing and demand remain unverified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use only the public CMF Banks API and the public SFA participant-directory documentation to build a one-week prototype that records participant/API changes and produces a dated change log. Publish a sample report and contact 10 Chilean fintechs, banking-software vendors or compliance providers for paid pilot commitments. Falsify if fewer than two qualified prospects agree to review the prototype or no prospect identifies a recurring implementation decision it would pay to monitor. Do not represent the prototype as CMF-authorized or as an SFA participant.",
       "current_thesis": "A narrow monitoring asset could help fintechs, banks, integrators and compliance teams track participant registration, endpoint changes, implementation milestones and bank-data availability before mandatory operation. The evidence supports an information-access wedge, not yet a confirmed paying market.",
       "founder_hours_initial_unverified_estimate": "",
@@ -2663,42 +2737,6 @@
       "category": "robotics_agritech",
       "commercially_validated": false,
       "competition_confirmed": false,
-      "current_participation_path": "Do not purchase first. Identify one crop, one row spacing, and one local farm/cooperative willing to provide a test plot. Request written quotations, shipping terms, warranty, spare-parts availability, and field references from at least two suppliers; compare the quoted landed cost with the farm's current mechanical or manual weeding cost. Falsification test: secure a signed expression of interest for a paid or deposit-backed trial, or obtain enough operating-cost data to show a credible payback under local acreage. If suppliers cannot provide a verifiable quote/support plan or no grower will commit a test plot and payment, stop.",
-      "current_thesis": "The actionable gap is between proven field use and small-farm affordability/utilization. A fleet or seasonal rental/service model could test whether one machine can be economically utilized across multiple nearby farms, rather than requiring each farm to purchase equipment. The evidence does not establish a profitable per-acre price, local import permissions, or customer willingness to pay.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "United States; potentially adaptable to Chilean row-crop regions",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "Shared-service autonomous mechanical weeding pilot for sugar beet and similar row crops",
-      "opportunity_id": "opp_5b761b0ef329020c7bc2",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
-        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
-        "Arrange a bounded field validation with an actual farm operator before scaling."
-      ],
-      "supporting_source_urls": [
-        "https://www.ndsu.edu/agriculture/sites/default/files/2026-02/2026%20ACAW%20ANDERSON%20Robotic%20Weeding%20PPT.pdf",
-        "https://smartsoilai.com/shop/autonomous-weeding-robot"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "Potential cash-flow mechanisms are seasonal equipment rental, contracted mechanical-weeding passes, or brokerage/import coordination for a confirmed farm or cooperative order. The economic asset is a controlled field trial plus utilization and cost data, not a claimed robot margin or guaranteed service business.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "robotics_agritech",
-      "commercially_validated": false,
-      "competition_confirmed": false,
       "current_participation_path": "Pick one crop and tightly bounded geography. Build a one-page offer for a supervised robotic-weeding trial, using an existing commercial platform rather than claiming ownership. Contact growers through local extension offices, crop associations, farm-equipment dealers and public grower directories; ask for acreage, weed-control method, timing and a paid/refundable reservation contingent on equipment availability. Lowest-cost falsification: interview at least ten growers and seek two written reservations or deposits at a stated trial price before leasing or purchasing equipment. Stop if growers will only express general interest or if no authorized equipment-access route is available.",
       "current_thesis": "The executable wedge is not building a new robot; it is testing whether a small operator can aggregate demand and sell scheduled robotic weeding, field trials, or seasonal access while outsourcing equipment ownership to an existing manufacturer, dealer or equipment financier. Actual unit economics remain unverified and depend on crop, acreage, transport, supervision and robot availability.",
       "founder_hours_initial_unverified_estimate": "",
@@ -2843,7 +2881,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-17T04:20:28.078894+00:00",
+  "generated_at": "2026-10-17T08:19:07.551275+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

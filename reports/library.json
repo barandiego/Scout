@@ -3814,6 +3814,67 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-17T08:18:49.301669+00:00",
+      "discovery_lens": "chile_technology_import",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Chile-based supplier publishes stock availability, nationwide dispatch, editable profiles, QR fallback, prices from CLP 29,990 to CLP 49,990, and an enterprise dashboard/API offer.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "LINKD Chile NFC digital cards and enterprise CRM offering",
+          "url": "https://linkd.cl/"
+        },
+        {
+          "claim": "Chile-based supplier publishes NFC cards and acrylic stands with retail prices of CLP 19,990, CLP 24,990, and CLP 29,990, and markets them for measurable business interactions.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "ONDDA NFC solutions for businesses in Chile",
+          "url": "https://www.ondda.cl/"
+        },
+        {
+          "claim": "Chile-based supplier publishes NFC cards, stands, credentials, and wristbands, including a CLP 42,990 stand and nationwide shipping.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "TUK Chile NFC products",
+          "url": "https://www.tuk.cl/es-cl"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.88,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_f27f698db291e47e237f",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-17T08:18:49.340653+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Create a one-page landing page showing one hospitality-specific design and a measurable destination such as Google review, WhatsApp booking, or reservation link. Approach ten independently identifiable local venues through public contact channels and offer a paid pilot or refundable preorder. Do not buy inventory until at least three venues pay or place deposits. Falsify if venues will not pay the published-market price for a venue-specific version, or if fewer than two of ten prospects agree to track taps or scans. Existing market participation can also occur by sourcing blank NFC-compatible stock and localizing the landing/profile layer, subject to supplier terms and applicable consumer/tax requirements.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A small operator should not compete on generic digital business cards. A narrower wedge is a countertop NFC/QR stand for restaurants, salons, tour operators, and lodging businesses that routes visitors to a review page, booking link, menu, or WhatsApp contact. The economic mechanism is increased attributable customer actions rather than the NFC hardware itself.",
+      "title": "NFC review-and-contact stand for Chilean hospitality venues",
+      "type": "productized_physical_offer",
+      "unknowns": [],
+      "value_capture_mechanism": "One-time sale of a customized stand or card plus optional setup, profile maintenance, and analytics. Existing Chilean prices establish that customers already pay for the physical product; no unverified margin or conversion uplift is assumed.",
+      "verified_sales": null,
+      "vertical": "chile_localization",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-14T16:27:32.217293+00:00",
       "discovery_lens": "underserved_buyers",
       "estimated_capital": "",
@@ -3865,6 +3926,67 @@
       "type": "technical_enablement_asset",
       "unknowns": [],
       "value_capture_mechanism": "Possible payer categories are entities preparing for SFA participation or their technology vendors, but no specific payer, purchase order or pricing is evidenced. A defensible first transaction would be a paid technical-readiness assessment or integration prototype only after confirming the client's regulatory role and procurement process.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-17T08:18:49.302635+00:00",
+      "discovery_lens": "market_positioning",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF states that the technical annex and developer portal enable implementation work and that entry into force was postponed until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amendment to Open Finance System regulation",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "The portal provides official technical documentation, specifications, examples, endpoints, and integration guidance for Chile's Open Finance System.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF Open Finance developer portal",
+          "url": "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=f91f133e-cc24-401b-9e65-e37cc9fd1613"
+        },
+        {
+          "claim": "The documentation describes public APIs for active participants, organizations, authorization servers, and associated API resources.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Open Finance Chile participant-directory APIs",
+          "url": "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.93,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_f4c70f1adccbe9b2583e",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-17T08:18:49.340379+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use the public directory/API documentation to build a small read-only prototype that checks endpoint availability, TLS/certificate expiry, schema changes, and directory metadata changes. Run it against public test or documented endpoints without requesting credentials or accessing personal financial data. Publish a sample anonymized report and ask identifiable participants or implementation vendors for paid design-partner feedback. Falsify if the public endpoints cannot be queried reliably, the documentation does not expose enough stable structure to test, or ten targeted outreach attempts produce no paid pilot or written request for the report. Do not represent the tool as regulatory compliance certification.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The narrow executable opportunity is not generic fintech consulting. It is a low-cost monitoring and test harness that checks whether public participant-directory metadata, authorization endpoints, certificates, and documented API resources remain reachable and structurally conformant as firms prepare for implementation. The cash-flow source would be regulated or aspiring participants that need internal readiness evidence, but no buyer or contract is presumed.",
+      "title": "Pre-compliance monitor for Chile Open Finance API participants",
+      "type": "developer_tool",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell a self-serve monitoring subscription or one-time conformance report only after validating that a participant will pay for a concrete alert, test report, or scheduled regression check. Pricing and demand remain unverified.",
       "verified_sales": null,
       "vertical": "open_finance_chile",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
@@ -5084,60 +5206,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-14T12:27:10.773933+00:00",
-      "discovery_lens": "adoption_lag",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "North Dakota State University material reports approximately $80,000-$100,000 pricing for a robotic weeding system in 2024 and use on sugar beets in 2025.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "Robotic Weeding",
-          "url": "https://www.ndsu.edu/agriculture/sites/default/files/2026-02/2026%20ACAW%20ANDERSON%20Robotic%20Weeding%20PPT.pdf"
-        },
-        {
-          "claim": "A commercial marketplace displays an indicative FOB price of $12,000-$35,000, one-unit minimum order, and 30-60 day lead time; the page also states that final terms require a quote.",
-          "grounded_in_provider_search": true,
-          "source_type": "other",
-          "title": "Autonomous Row-Crop Weeding Robot",
-          "url": "https://smartsoilai.com/shop/autonomous-weeding-robot"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.69,
-      "falsification_conditions": [],
-      "geography": "United States; potentially adaptable to Chilean row-crop regions",
-      "id": "opp_5b761b0ef329020c7bc2",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-14T12:27:10.797823+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Do not purchase first. Identify one crop, one row spacing, and one local farm/cooperative willing to provide a test plot. Request written quotations, shipping terms, warranty, spare-parts availability, and field references from at least two suppliers; compare the quoted landed cost with the farm's current mechanical or manual weeding cost. Falsification test: secure a signed expression of interest for a paid or deposit-backed trial, or obtain enough operating-cost data to show a credible payback under local acreage. If suppliers cannot provide a verifiable quote/support plan or no grower will commit a test plot and payment, stop.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "The actionable gap is between proven field use and small-farm affordability/utilization. A fleet or seasonal rental/service model could test whether one machine can be economically utilized across multiple nearby farms, rather than requiring each farm to purchase equipment. The evidence does not establish a profitable per-acre price, local import permissions, or customer willingness to pay.",
-      "title": "Shared-service autonomous mechanical weeding pilot for sugar beet and similar row crops",
-      "type": "equipment_service",
-      "unknowns": [],
-      "value_capture_mechanism": "Potential cash-flow mechanisms are seasonal equipment rental, contracted mechanical-weeding passes, or brokerage/import coordination for a confirmed farm or cooperative order. The economic asset is a controlled field trial plus utilization and cost data, not a claimed robot margin or guaranteed service business.",
-      "verified_sales": null,
-      "vertical": "robotics_agritech",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-17T04:20:14.433657+00:00",
       "discovery_lens": "adoption_lag",
       "estimated_capital": "",
@@ -5407,13 +5475,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-17T04:20:28.017315+00:00",
+  "generated_at": "2026-10-17T08:19:07.499020+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 39,
+  "rejected_excluded": 41,
   "reviewed_cards": 40,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 113,
-  "watch": 74
+  "total_distinct_opportunities": 116,
+  "watch": 75
 }

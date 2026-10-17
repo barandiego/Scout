@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-17T04:20:28.017315+00:00
+Generated: 2026-10-17T08:19:07.499020+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 74 (0 HQ survivors, 74 watches)
-- Rejected opportunities excluded: 39
+- Active research: 75 (0 HQ survivors, 75 watches)
+- Rejected opportunities excluded: 41
 - Critic-and-judge reviewed: 40
 - Autonomous execution authorization: 0
 
@@ -463,6 +463,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.fne.gob.cl/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-pl; https://group.dhl.com/content/dam/deutschepostdhl/en/media-center/media-relations/documents/2025/e-commerce-trends-report-2025-business-edition.pdf; https://www.trade.gov/country-commercial-guides/chile-ecommerce
 
+### NFC review-and-contact stand for Chilean hospitality venues [opp_f27f698db291e47e237f]
+- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
+- Thesis: A small operator should not compete on generic digital business cards. A narrower wedge is a countertop NFC/QR stand for restaurants, salons, tour operators, and lodging businesses that routes visitors to a review page, booking link, menu, or WhatsApp contact. The economic mechanism is increased attributable customer actions rather than the NFC hardware itself.
+- Value capture: One-time sale of a customized stand or card plus optional setup, profile maintenance, and analytics. Existing Chilean prices establish that customers already pay for the physical product; no unverified margin or conversion uplift is assumed.
+- Participation hypothesis: Create a one-page landing page showing one hospitality-specific design and a measurable destination such as Google review, WhatsApp booking, or reservation link. Approach ten independently identifiable local venues through public contact channels and offer a paid pilot or refundable preorder. Do not buy inventory until at least three venues pay or place deposits. Falsify if venues will not pay the published-market price for a venue-specific version, or if fewer than two of ten prospects agree to track taps or scans. Existing market participatio
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://linkd.cl/; https://www.ondda.cl/; https://www.tuk.cl/es-cl
+
 ### Pre-build testing and integration wedge for Chile's Open Finance System [opp_de6bbd059c9fa7fd72e5]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: The immediate opportunity is not regulated financial intermediation; it is a narrow test asset for prospective participants: a conformance checklist, sandbox integration harness, consent-flow test suite or API observability package. The delay creates time for validation, but no buyer demand or permission to operate as a regulated participant is established.
@@ -472,6 +482,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
+
+### Pre-compliance monitor for Chile Open Finance API participants [opp_f4c70f1adccbe9b2583e]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: The narrow executable opportunity is not generic fintech consulting. It is a low-cost monitoring and test harness that checks whether public participant-directory metadata, authorization endpoints, certificates, and documented API resources remain reachable and structurally conformant as firms prepare for implementation. The cash-flow source would be regulated or aspiring participants that need internal readiness evidence, but no buyer or contract is presumed.
+- Value capture: Sell a self-serve monitoring subscription or one-time conformance report only after validating that a participant will pay for a concrete alert, test report, or scheduled regression check. Pricing and demand remain unverified.
+- Participation hypothesis: Use the public directory/API documentation to build a small read-only prototype that checks endpoint availability, TLS/certificate expiry, schema changes, and directory metadata changes. Run it against public test or documented endpoints without requesting credentials or accessing personal financial data. Publish a sample anonymized report and ask identifiable participants or implementation vendors for paid design-partner feedback. Falsify if the public endpoints cannot be queried reliably, the documentation does not expose enough stable struct
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=f91f133e-cc24-401b-9e65-e37cc9fd1613; https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA
 
 ### SEC-verified solar-plus-storage prequalification for Chilean small businesses [opp_9ce303aff6dc0368c324]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile, initially regions with high solar generation and constrained distribution capacity
@@ -692,16 +712,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://github.com/cereon-labs/cereon-browser-operator; https://github.com/smouj/agent-browser
-
-### Shared-service autonomous mechanical weeding pilot for sugar beet and similar row crops [opp_5b761b0ef329020c7bc2]
-- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States; potentially adaptable to Chilean row-crop regions
-- Thesis: The actionable gap is between proven field use and small-farm affordability/utilization. A fleet or seasonal rental/service model could test whether one machine can be economically utilized across multiple nearby farms, rather than requiring each farm to purchase equipment. The evidence does not establish a profitable per-acre price, local import permissions, or customer willingness to pay.
-- Value capture: Potential cash-flow mechanisms are seasonal equipment rental, contracted mechanical-weeding passes, or brokerage/import coordination for a confirmed farm or cooperative order. The economic asset is a controlled field trial plus utilization and cost data, not a claimed robot margin or guaranteed service business.
-- Participation hypothesis: Do not purchase first. Identify one crop, one row spacing, and one local farm/cooperative willing to provide a test plot. Request written quotations, shipping terms, warranty, spare-parts availability, and field references from at least two suppliers; compare the quoted landed cost with the farm's current mechanical or manual weeding cost. Falsification test: secure a signed expression of interest for a paid or deposit-backed trial, or obtain enough operating-cost data to show a credible payback under local acreage. If suppliers cannot provide
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.ndsu.edu/agriculture/sites/default/files/2026-02/2026%20ACAW%20ANDERSON%20Robotic%20Weeding%20PPT.pdf; https://smartsoilai.com/shop/autonomous-weeding-robot
 
 ### Small-dairy robotic-milking installation, financing, or service-partner wedge [opp_ab706c5f1aeb60ba7b7e]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States
