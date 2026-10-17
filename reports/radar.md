@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-16T20:54:49.658514+00:00
+Generated: 2026-10-17T01:06:17.441922+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
 - New this cycle: 101
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): chile_nfc_commerce_news:unavailable_or_invalid, chile_vertical_farming_news:unavailable_or_invalid, chile_robotics_news:unavailable_or_invalid, chile_energy_news:unavailable_or_invalid, global_robotic_farming_news:unavailable_or_invalid, chile_online_retail_news:unavailable_or_invalid
-- Categories: agriculture 253, ai 299, commerce 35, energy 589, robotics 624
+- Feed failures (fail-open for public intake only): none
+- Categories: agriculture 256, ai 303, commerce 35, energy 580, robotics 626
 
 ## Recently encountered signals
 
@@ -206,6 +206,12 @@ Generated: 2026-10-16T20:54:49.658514+00:00
 
 ### Opportunities and challenges of integrating battery energy storage in the electricity grid – perspectives from distribution system operators
 - Source: https://doi.org/10.66506/essp.172
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### Cost Optimized Design and Modeling of a Solar Powered EV Charging Station Using Battery Energy Storage System and Dual Active Bridge Converter
+- Source: https://doi.org/10.1109/resem70152.2026.11721721
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
@@ -454,10 +460,4 @@ Generated: 2026-10-16T20:54:49.658514+00:00
 - Source: https://doi.org/10.1080/15435075.2026.2745007
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### bikash-ananda/Digital-Agriculture
-- Source: https://github.com/bikash-ananda/Digital-Agriculture
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
