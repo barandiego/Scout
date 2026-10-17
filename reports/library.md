@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-16T20:18:49.479765+00:00
+Generated: 2026-10-17T00:22:59.126308+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
 - Active research: 73 (0 HQ survivors, 73 watches)
-- Rejected opportunities excluded: 37
+- Rejected opportunities excluded: 38
 - Critic-and-judge reviewed: 40
 - Autonomous execution authorization: 0
 
@@ -603,6 +603,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/normativa/ncg_514_2024.pdf
 
+### Chile SFA conformance-test harness for API, consent and payment-initiation flows [opp_9511a8b5519c4a31790e]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Financial institutions and prospective SFA participants must convert the published API and control requirements into repeatable integration and acceptance tests. A narrowly scoped reusable test harness could reduce internal engineering and certification-preparation work, but the evidence does not establish a guaranteed procurement budget or mandated external vendor.
+- Value capture: Offer a locally adapted executable test pack: API contract tests, consent-state tests, error/availability cases, payment-initiation test cases, test data generators and a results dashboard mapped to the CMF technical documentation. Possible cash-flow sources are paid pilot deployments, implementation support attached to the asset, or licensing by institutions preparing for SFA participation; actual willingness to pay remains unverified.
+- Participation hypothesis: Use the CMF developer documentation to build a small offline harness covering a few published endpoints and consent/error cases; do not connect to production systems or represent it as CMF-certified. Then identify publicly listed Chilean banks, payment issuers, account providers and fintech applicants, send a short demonstration with a fixed-scope pilot proposal, and record whether any party agrees to a paid proof of concept or supplies an authorized test environment. Lowest-cost falsification: before building full coverage, manually implement
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812
+
 ### Chile SFA implementation moves from rulemaking to integration testing [opp_82f282d8dc0896390ee7]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: The near-term bottleneck is shifting from legal uncertainty to implementation capacity, certification, consent, security, data mapping and payment-initiation integration. Value is likely to accrue before go-live to firms that reduce compliance and integration costs for banks, fintechs and data-access participants.
@@ -702,16 +712,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://es.scribd.com/document/1014311150/BOLETIN-1-INIA-FIA-Manejo-Sanitario-y-Otros-InIA-Chile; https://www.inside-grower.com/utility/PDF.aspx?id=26248&pagename=viewarticle.aspx&pub=IG
-
-### Testing and workflow infrastructure around DTCC tokenized-security settlement [opp_baf7eb33e64d74226047]
-- Status: WATCH_REQUIRES_VALIDATION | public_markets | United States
-- Thesis: The near-term wedge is operational interoperability rather than issuing speculative tokens: test-data generation, reconciliation between on-chain transfers and traditional security records, entitlement reporting, transaction exception handling, or audit evidence for firms preparing for tokenized settlement workflows.
-- Value capture: Potential payers are broker-dealers, custodians, market-infrastructure vendors or technology firms participating in the DTCC ecosystem. The cited sources do not establish that any particular organization is seeking an independent contractor or that a specific price is available.
-- Participation hypothesis: Use DTCC's announced use cases to create a sandbox-only reconciliation prototype: ingest a synthetic trade, map token transfer events to conventional settlement records, and produce an exception report. Approach vendors or participants named in public DTCC/SEC materials with the prototype and ask whether they have a test environment, vendor intake process, or paid proof-of-concept. Lowest-cost falsification: implement the reconciliation logic over a small synthetic dataset and obtain written confirmation from three relevant firms that the outpu
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.dtcc.com/press-releases/2026/dtcc-turns-tokenization-into-reality; https://www.sec.gov/newsroom/speeches-statements/corp-fin-statement-tokenized-securities-012826-statement-tokenized-securities
 
 ### Tokenized unified-ledger infrastructure is moving from concept toward financial-market architecture [opp_993ac5d080c7042af44c]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Global; Chile relevance through future interoperable financial-data and payment infrastructure

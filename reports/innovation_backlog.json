@@ -1378,6 +1378,42 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use the CMF developer documentation to build a small offline harness covering a few published endpoints and consent/error cases; do not connect to production systems or represent it as CMF-certified. Then identify publicly listed Chilean banks, payment issuers, account providers and fintech applicants, send a short demonstration with a fixed-scope pilot proposal, and record whether any party agrees to a paid proof of concept or supplies an authorized test environment. Lowest-cost falsification: before building full coverage, manually implement 5-10 API scenarios from the official specifications and seek three explicit pilot conversations; abandon or narrow the offer if no qualified participant will review the demo or pay for a defined test.",
+      "current_thesis": "Financial institutions and prospective SFA participants must convert the published API and control requirements into repeatable integration and acceptance tests. A narrowly scoped reusable test harness could reduce internal engineering and certification-preparation work, but the evidence does not establish a guaranteed procurement budget or mandated external vendor.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile SFA conformance-test harness for API, consent and payment-initiation flows",
+      "opportunity_id": "opp_9511a8b5519c4a31790e",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Offer a locally adapted executable test pack: API contract tests, consent-state tests, error/availability cases, payment-initiation test cases, test data generators and a results dashboard mapped to the CMF technical documentation. Possible cash-flow sources are paid pilot deployments, implementation support attached to the asset, or licensing by institutions preparing for SFA participation; actual willingness to pay remains unverified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Start without seeking production access or regulatory permissions: download the CMF NCG 514 materials and developer-portal specifications, build a small validator for one publicly specified data-exchange flow, and test it against self-created fixtures. Then contact Chilean fintechs, banks, cooperatives, card issuers, or implementation vendors only to ask whether they already possess an internal conformance harness and which test artifacts they must produce. Falsification threshold: stop if at least 10 relevant organizations or vendors show no need for external validation, already have equivalent tooling, or cannot identify a budget owner. The verifiable participation catalyst is the CMF's July 2027 implementation target and the publication of technical specifications; no buyer, sale, margin, or permission is assumed.",
       "current_thesis": "Financial institutions and regulated fintech participants will need to translate the CMF technical specifications into interoperable APIs, certificates, consent flows, testing procedures, and operational controls before the revised implementation date. A narrowly scoped testing and evidence asset could reduce integration rework and implementation risk without requiring the operator to become a regulated financial provider.",
       "founder_hours_initial_unverified_estimate": "",
@@ -2432,42 +2468,6 @@
       "category": "public_markets",
       "commercially_validated": false,
       "competition_confirmed": false,
-      "current_participation_path": "Use DTCC's announced use cases to create a sandbox-only reconciliation prototype: ingest a synthetic trade, map token transfer events to conventional settlement records, and produce an exception report. Approach vendors or participants named in public DTCC/SEC materials with the prototype and ask whether they have a test environment, vendor intake process, or paid proof-of-concept. Lowest-cost falsification: implement the reconciliation logic over a small synthetic dataset and obtain written confirmation from three relevant firms that the output matches a real internal control or integration requirement; stop if there is no identified test environment or procurement route. Do not handle customer assets or offer securities without required authorization.",
-      "current_thesis": "The near-term wedge is operational interoperability rather than issuing speculative tokens: test-data generation, reconciliation between on-chain transfers and traditional security records, entitlement reporting, transaction exception handling, or audit evidence for firms preparing for tokenized settlement workflows.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "United States",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "Testing and workflow infrastructure around DTCC tokenized-security settlement",
-      "opportunity_id": "opp_baf7eb33e64d74226047",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Find overlooked fundamentals and a named accessible security with dated primary filings.",
-        "Compare risked intrinsic value, market expectations and specific downside scenarios.",
-        "Define catalysts and invalidation thresholds before any governed investment decision."
-      ],
-      "supporting_source_urls": [
-        "https://www.dtcc.com/press-releases/2026/dtcc-turns-tokenization-into-reality",
-        "https://www.sec.gov/newsroom/speeches-statements/corp-fin-statement-tokenized-securities-012826-statement-tokenized-securities"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "Potential payers are broker-dealers, custodians, market-infrastructure vendors or technology firms participating in the DTCC ecosystem. The cited sources do not establish that any particular organization is seeking an independent contractor or that a specific price is available.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "public_markets",
-      "commercially_validated": false,
-      "competition_confirmed": false,
       "current_participation_path": "Build a local-only prototype using synthetic positions and publicly documented DTCC workflows. Demonstrate reconciliation across one Treasury security and one equity-token transfer, including mint, burn, wallet and corporate-action exceptions. Approach DTC Participants, custodians, transfer agents or back-office vendors only after the prototype is complete; seek a paid discovery or sandbox review rather than assuming production access. Falsify by testing whether three relevant firms will review the synthetic workflow and identify an actual unresolved control gap; stop if the workflow requires restricted DTC data or if existing vendor products already cover it at no incremental need.",
       "current_thesis": "DTC Participants and their service providers will need operational controls that reconcile traditional positions, tokenized entitlements, wallet movements and corporate-action records. This is a concrete integration problem, not proof of a broad tokenization market.",
       "founder_hours_initial_unverified_estimate": "",
@@ -2807,7 +2807,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-16T20:18:49.535562+00:00",
+  "generated_at": "2026-10-17T00:22:59.185540+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

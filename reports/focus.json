@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-10-16T20:18:49.479765+00:00",
+  "generated_at": "2026-10-17T00:22:59.126308+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -21,7 +21,7 @@
     },
     {
       "opportunity_id": "opp_f26e42aaabb91e157f9d",
-      "other_cards_in_theme": 32,
+      "other_cards_in_theme": 33,
       "reviewed": true,
       "status": "watch",
       "theme": "chile_open_finance",
@@ -103,15 +103,15 @@
   "headline_count": 12,
   "high_concentration": [
     {
-      "cards": 33,
-      "share": 0.452,
+      "cards": 34,
+      "share": 0.466,
       "theme": "chile_open_finance"
     }
   ],
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 28,
+  "theme_count": 27,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -147,9 +147,10 @@
         "opp_b77b2be77b5c75b13b93",
         "opp_1d697aded3d68db4909b",
         "opp_055b092ce47f55114c32",
-        "opp_1589efca2e61e92fd0d6"
+        "opp_1589efca2e61e92fd0d6",
+        "opp_9511a8b5519c4a31790e"
       ],
-      "count": 33,
+      "count": 34,
       "representative_id": "opp_f26e42aaabb91e157f9d",
       "reviewed_count": 20,
       "theme": "chile_open_finance"
@@ -346,15 +347,6 @@
       "representative_id": "opp_45b7e9d57391da701819",
       "reviewed_count": 0,
       "theme": "physical_distribution:rare_earth_secondary"
-    },
-    {
-      "all_opportunity_ids": [
-        "opp_baf7eb33e64d74226047"
-      ],
-      "count": 1,
-      "representative_id": "opp_baf7eb33e64d74226047",
-      "reviewed_count": 0,
-      "theme": "public_markets:testing_workflow_infrastructure"
     },
     {
       "all_opportunity_ids": [

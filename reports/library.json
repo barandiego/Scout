@@ -4598,6 +4598,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-17T00:22:36.410633+00:00",
+      "discovery_lens": "open_finance_chile",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The CMF states that its June 1, 2026 amendment to NCG 514 includes technical requirements for information exchange and payment initiation, facilitates participant incorporation, publishes the developer portal, and delays entry into force until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "The CMF developer portal provides technical documentation, specifications, examples, endpoint references and integration guidance for Chile’s Open Finance APIs.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Finanzas Abiertas CMF - Confluence",
+          "url": "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.92,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_9511a8b5519c4a31790e",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-17T00:22:36.437911+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use the CMF developer documentation to build a small offline harness covering a few published endpoints and consent/error cases; do not connect to production systems or represent it as CMF-certified. Then identify publicly listed Chilean banks, payment issuers, account providers and fintech applicants, send a short demonstration with a fixed-scope pilot proposal, and record whether any party agrees to a paid proof of concept or supplies an authorized test environment. Lowest-cost falsification: before building full coverage, manually implement 5-10 API scenarios from the official specifications and seek three explicit pilot conversations; abandon or narrow the offer if no qualified participant will review the demo or pay for a defined test.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Financial institutions and prospective SFA participants must convert the published API and control requirements into repeatable integration and acceptance tests. A narrowly scoped reusable test harness could reduce internal engineering and certification-preparation work, but the evidence does not establish a guaranteed procurement budget or mandated external vendor.",
+      "title": "Chile SFA conformance-test harness for API, consent and payment-initiation flows",
+      "type": "implementation_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Offer a locally adapted executable test pack: API contract tests, consent-state tests, error/availability cases, payment-initiation test cases, test data generators and a results dashboard mapped to the CMF technical documentation. Possible cash-flow sources are paid pilot deployments, implementation support attached to the asset, or licensing by institutions preparing for SFA participation; actual willingness to pay remains unverified.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-08T12:14:40.353799+00:00",
       "discovery_lens": "open_finance_chile",
       "estimated_capital": "",
@@ -5138,60 +5192,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-14T08:25:29.885273+00:00",
-      "discovery_lens": "tokenization_finance",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "DTCC reported production trades using DTC-tokenized assets on July 15, 2026, and stated that its Tokenization Service was expected to launch in October 2026.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "DTCC Turns Tokenization into Reality: U.S. Trades Successfully Processed Using DTC-Tokenized Assets",
-          "url": "https://www.dtcc.com/press-releases/2026/dtcc-turns-tokenization-into-reality"
-        },
-        {
-          "claim": "SEC staff described tokenized securities, issuer-sponsored and third-party custodial or synthetic models, and explained that tokenized records can represent ownership or security entitlements.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Statement on Tokenized Securities",
-          "url": "https://www.sec.gov/newsroom/speeches-statements/corp-fin-statement-tokenized-securities-012826-statement-tokenized-securities"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.88,
-      "falsification_conditions": [],
-      "geography": "United States",
-      "id": "opp_baf7eb33e64d74226047",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-14T08:25:29.912302+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Use DTCC's announced use cases to create a sandbox-only reconciliation prototype: ingest a synthetic trade, map token transfer events to conventional settlement records, and produce an exception report. Approach vendors or participants named in public DTCC/SEC materials with the prototype and ask whether they have a test environment, vendor intake process, or paid proof-of-concept. Lowest-cost falsification: implement the reconciliation logic over a small synthetic dataset and obtain written confirmation from three relevant firms that the output matches a real internal control or integration requirement; stop if there is no identified test environment or procurement route. Do not handle customer assets or offer securities without required authorization.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "The near-term wedge is operational interoperability rather than issuing speculative tokens: test-data generation, reconciliation between on-chain transfers and traditional security records, entitlement reporting, transaction exception handling, or audit evidence for firms preparing for tokenized settlement workflows.",
-      "title": "Testing and workflow infrastructure around DTCC tokenized-security settlement",
-      "type": "asset_or_service",
-      "unknowns": [],
-      "value_capture_mechanism": "Potential payers are broker-dealers, custodians, market-infrastructure vendors or technology firms participating in the DTCC ecosystem. The cited sources do not establish that any particular organization is seeking an independent contractor or that a specific price is available.",
-      "verified_sales": null,
-      "vertical": "public_markets",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-04T03:07:07.122051+00:00",
       "discovery_lens": "tokenization_finance",
       "estimated_capital": "",
@@ -5353,13 +5353,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-16T20:18:49.479765+00:00",
+  "generated_at": "2026-10-17T00:22:59.126308+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 37,
+  "rejected_excluded": 38,
   "reviewed_cards": 40,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 110,
+  "total_distinct_opportunities": 111,
   "watch": 73
 }

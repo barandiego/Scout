@@ -436,6 +436,18 @@ Candidates: 73
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836
 
+## Chile SFA conformance-test harness for API, consent and payment-initiation flows
+- Status: watch | open_finance_chile
+- Current idea: Financial institutions and prospective SFA participants must convert the published API and control requirements into repeatable integration and acceptance tests. A narrowly scoped reusable test harness could reduce internal engineering and certification-preparation work, but the evidence does not establish a guaranteed procurement budget or mandated external vendor.
+- Potential economic capture: Offer a locally adapted executable test pack: API contract tests, consent-state tests, error/availability cases, payment-initiation test cases, test data generators and a results dashboard mapped to the CMF technical documentation. Possible cash-flow sources are paid pilot deployments, implementation support attached to the asset, or licensing by institutions preparing for SFA participation; actual willingness to pay remains unverified.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812
+
 ## Chile SFA conformance-testing wedge ahead of the July 2027 implementation date
 - Status: watch | open_finance_chile
 - Current idea: Financial institutions and regulated fintech participants will need to translate the CMF technical specifications into interoperable APIs, certificates, consent flows, testing procedures, and operational controls before the revised implementation date. A narrowly scoped testing and evidence asset could reduce integration rework and implementation risk without requiring the operator to become a regulated financial provider.
@@ -759,18 +771,6 @@ Candidates: 73
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.sec.gov/Archives/edgar/data/929008/000092900826000021/wcc-2q2026slides.htm; https://www.sec.gov/Archives/edgar/data/2110029/000119312526344714/eroc-ex99_1.htm; https://www.sec.gov/Archives/edgar/data/1488139/000162828026051825/amerescoq22026supplement.htm
-
-## Testing and workflow infrastructure around DTCC tokenized-security settlement
-- Status: watch | public_markets
-- Current idea: The near-term wedge is operational interoperability rather than issuing speculative tokens: test-data generation, reconciliation between on-chain transfers and traditional security records, entitlement reporting, transaction exception handling, or audit evidence for firms preparing for tokenized settlement workflows.
-- Potential economic capture: Potential payers are broker-dealers, custodians, market-infrastructure vendors or technology firms participating in the DTCC ecosystem. The cited sources do not establish that any particular organization is seeking an independent contractor or that a specific price is available.
-- **Research routes to test (NOT validated claims):**
-  - Find overlooked fundamentals and a named accessible security with dated primary filings.
-  - Compare risked intrinsic value, market expectations and specific downside scenarios.
-  - Define catalysts and invalidation thresholds before any governed investment decision.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://www.dtcc.com/press-releases/2026/dtcc-turns-tokenization-into-reality; https://www.sec.gov/newsroom/speeches-statements/corp-fin-statement-tokenized-securities-012826-statement-tokenized-securities
 
 ## Tokenized-securities operational adapter for DTC Participants
 - Status: watch | public_markets
