@@ -576,6 +576,100 @@
       "ai_leverage": "",
       "authorized_for_execution": false,
       "contrary_evidence": [
+        "CMF formally amended the Open Finance regulation on June 1, 2026, added Technical Annex No. 3 and a developer portal, and postponed entry into force until July 2027 because of implementation complexity. This creates a genuine preparation window. https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "CMF launched ATENA on September 30, 2026, providing a controlled environment for integration testing, interoperability tests, and verification against technical standards. This supports genuine demand for readiness work, although it also competes directly with the proposed test asset. https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "The official developer documentation includes technical specifications, endpoint references, integration guidance, and participant-directory APIs, lowering the cost of building a prototype but also lowering the moat. https://cmfchile.atlassian.net/wiki/spaces/OFAC",
+        "CMF has actively consulted industry participants on implementation governance, technical standards, consent, payment initiation, and query-cost allocation, indicating that the ecosystem is still developing and may generate unresolved implementation problems. https://www.cmfchile.cl/portal/principal/623/w4-article-73961.html",
+        "Existing Chilean providers already advertise open-finance API integration, consent management, FAPI 2.0 security, architecture, and related services, demonstrating both market activity and competitive supply. https://synaptic.cl/proyectos/boufin/ ; https://openfinance.cl/"
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-14T16:27:32.217293+00:00",
+      "discovery_lens": "underserved_buyers",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF states that the June 1, 2026 modification includes technical elements for information exchange and payment initiation, adds Annex No. 3 and a developer portal, and postpones entry into force until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF modifies the regulation governing Chile's Open Finance System and adds technical annex",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        },
+        {
+          "claim": "CMF describes the technical annex, interoperability requirements and developer portal, and confirms the July 2027 implementation date.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF English summary of the Open Finance System amendment",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "CMF's regulatory plan identifies Open Finance technical annexes and related implementation work as an active regulatory program.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF 2025–2026 regulatory plan",
+          "url": "https://cmfchile.cl/portal/principal/613/w3-article-92556.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.84,
+      "falsification_conditions": [
+        "No qualified prospect provides a written problem statement, paid pilot, purchase-order path, or concrete budget within 10 customer conversations conducted with Chilean banks, fintechs, payment providers, or their technology vendors.",
+        "ATENA and official CMF materials enable a target participant to complete the proposed conformance or integration workflow without material external tooling.",
+        "At least three credible prospects state that the need is already covered by internal teams, existing vendors, or incumbent integrators and cannot justify an external purchase.",
+        "The proposed asset cannot demonstrate a measurable outcome such as reduced integration time, fewer conformance failures, faster certification, lower security-testing cost, or reduced regulatory implementation risk.",
+        "The only accessible buyers are entities without budget, authority, or a clear regulatory role in the SFA.",
+        "The regulatory schedule or technical standards are materially delayed, withdrawn, or changed such that a paid readiness need is unlikely before July 2027.",
+        "Required access, local contracting, data-protection, security, or regulated-participant constraints make delivery uneconomic for a small provider."
+      ],
+      "geography": "Chile",
+      "id": "opp_de6bbd059c9fa7fd72e5",
+      "judge_reviewed": true,
+      "judgment": "The cited CMF materials and developer documentation support that Chile’s Open Finance implementation work, technical standards, and a pre-effective-date testing environment are real; the regulatory change therefore is not rejected as unverified. A narrowly scoped, non-production technical-readiness assessment or tooling evaluation does not inherently require handling live customer financial data, initiating payments, or acting as an SFA participant, so unavailable regulated-data access is not yet a fatal condition. However, this is not yet an HQ-worthy surviving opportunity: ATENA, official documentation, and existing local integration/security providers may substantially substitute for the proposed harness, checklist, or observability product. No identified regulated payer, procurement path, willingness to pay, protected access advantage, or pricing evidence establishes plausible value capture. The viable research wedge is only a specific paid outcome—for example, independent evidence of reduced conformance failures or integration time for a defined participant type—not generic open-finance implementation support.",
+      "last_record_updated_at": "2026-10-17T16:18:09.612747+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Whether ATENA is sufficiently complete, stable, and accessible for all relevant participant categories, or whether it leaves substantial testing and observability gaps.",
+        "The number and identity of likely paying participants, their implementation budgets, procurement timelines, and willingness to hire a new foreign or unreferenced provider.",
+        "Whether CMF will publish certification tooling, conformance suites, test fixtures, sandbox environments, or other free assets that eliminate the proposed product gap.",
+        "Whether participation obligations, technical standards, payment-initiation requirements, cost-sharing rules, and implementation phases will change before or after July 3, 2027.",
+        "Whether the target customer is a regulated participant, a technology vendor, a systems integrator, or a prospective service provider; each has different buying authority and compliance requirements."
+      ],
+      "participation_path": "Use the official CMF developer materials to build a small test harness against any publicly available test environment or documentation, without accessing live financial data or representing a client as a regulated participant. Publish a technical demo and request five problem-validation interviews with fintech or financial-institution technology teams. Lowest-cost falsification: verify that the developer documentation exposes enough stable technical detail to build one automated conformance test and obtain at least one written request for a scoped paid assessment. Stop if no usable test environment/documentation exists or interviewees report that existing vendors already cover the need.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The immediate opportunity is not regulated financial intermediation; it is a narrow test asset for prospective participants: a conformance checklist, sandbox integration harness, consent-flow test suite or API observability package. The delay creates time for validation, but no buyer demand or permission to operate as a regulated participant is established.",
+      "title": "Pre-build testing and integration wedge for Chile's Open Finance System",
+      "type": "technical_enablement_asset",
+      "unknowns": [
+        "Whether ATENA is sufficiently complete, stable, and accessible for all relevant participant categories, or whether it leaves substantial testing and observability gaps.",
+        "The number and identity of likely paying participants, their implementation budgets, procurement timelines, and willingness to hire a new foreign or unreferenced provider.",
+        "Whether CMF will publish certification tooling, conformance suites, test fixtures, sandbox environments, or other free assets that eliminate the proposed product gap.",
+        "Whether participation obligations, technical standards, payment-initiation requirements, cost-sharing rules, and implementation phases will change before or after July 3, 2027.",
+        "Whether the target customer is a regulated participant, a technology vendor, a systems integrator, or a prospective service provider; each has different buying authority and compliance requirements.",
+        "Whether a small provider can obtain production-like test access without becoming or partnering with an authorized participant.",
+        "The actual competitive landscape in Chile, including banks' internal platforms, local consultancies, global systems integrators, API aggregators, security firms, and vendors not visible in public search results.",
+        "Expected pricing and gross margin for a readiness assessment, integration prototype, or recurring observability product.",
+        "Which exact participant category has an externally purchased, unmet need after using ATENA and official CMF resources.",
+        "Whether ATENA is accessible and sufficiently feature-complete for each relevant role, including test fixtures, conformance validation, error simulation, and observability.",
+        "Whether an unregulated technical vendor can obtain the necessary sandbox or production-like access without sponsorship by an authorized participant.",
+        "Named buyer, budget owner, procurement route, expected contract size, and willingness to pay for a measurable deliverable.",
+        "Whether CMF or incumbent vendors will provide free or bundled conformance tooling before buyer procurement occurs.",
+        "The applicable data-protection, security, subcontracting, and regulated-outsourcing obligations for delivery to each target client type.",
+        "Whether a readiness assessment can produce measurable, buyer-valued results that exceed the cost of internal implementation or incumbent support."
+      ],
+      "value_capture_mechanism": "Possible payer categories are entities preparing for SFA participation or their technology vendors, but no specific payer, purchase order or pricing is evidenced. A defensible first transaction would be a paid technical-readiness assessment or integration prototype only after confirming the client's regulatory role and procurement process.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [
         "The regulatory milestone is concrete: CMF amended the framework on June 1, 2026 and moved SFA effectiveness to July 2027, creating a finite preparation window. Source: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
         "The participant directory exposes structured participant, organization, authorization-server and API-resource data, and supports version/checksum/last-updated metadata that is technically suitable for reliable change detection. Source: https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA",
         "ATENA was launched in September 2026 and permits institutions to test technical adequacy and interoperability before July 2027, confirming that implementation work is active rather than purely hypothetical. Source: https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
@@ -3969,67 +4063,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-14T16:27:32.217293+00:00",
-      "discovery_lens": "underserved_buyers",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "CMF states that the June 1, 2026 modification includes technical elements for information exchange and payment initiation, adds Annex No. 3 and a developer portal, and postpones entry into force until July 2027.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "CMF modifies the regulation governing Chile's Open Finance System and adds technical annex",
-          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
-        },
-        {
-          "claim": "CMF describes the technical annex, interoperability requirements and developer portal, and confirms the July 2027 implementation date.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "CMF English summary of the Open Finance System amendment",
-          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
-        },
-        {
-          "claim": "CMF's regulatory plan identifies Open Finance technical annexes and related implementation work as an active regulatory program.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "CMF 2025–2026 regulatory plan",
-          "url": "https://cmfchile.cl/portal/principal/613/w3-article-92556.html"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.84,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_de6bbd059c9fa7fd72e5",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-14T16:27:32.230151+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Use the official CMF developer materials to build a small test harness against any publicly available test environment or documentation, without accessing live financial data or representing a client as a regulated participant. Publish a technical demo and request five problem-validation interviews with fintech or financial-institution technology teams. Lowest-cost falsification: verify that the developer documentation exposes enough stable technical detail to build one automated conformance test and obtain at least one written request for a scoped paid assessment. Stop if no usable test environment/documentation exists or interviewees report that existing vendors already cover the need.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "The immediate opportunity is not regulated financial intermediation; it is a narrow test asset for prospective participants: a conformance checklist, sandbox integration harness, consent-flow test suite or API observability package. The delay creates time for validation, but no buyer demand or permission to operate as a regulated participant is established.",
-      "title": "Pre-build testing and integration wedge for Chile's Open Finance System",
-      "type": "technical_enablement_asset",
-      "unknowns": [],
-      "value_capture_mechanism": "Possible payer categories are entities preparing for SFA participation or their technology vendors, but no specific payer, purchase order or pricing is evidenced. A defensible first transaction would be a paid technical-readiness assessment or integration prototype only after confirming the client's regulatory role and procurement process.",
-      "verified_sales": null,
-      "vertical": "open_finance_chile",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-17T08:18:49.302635+00:00",
       "discovery_lens": "market_positioning",
       "estimated_capital": "",
@@ -4922,6 +4955,114 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-17T16:17:48.307467+00:00",
+      "discovery_lens": "energy_localization",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The Coordinador describes accelerated battery-storage adoption and its relevance to renewable integration and system operation.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Informe de Monitoreo 2025",
+          "url": "https://www.coordinador.cl/wp-content/uploads/2026/04/Informe-Monitoreo-2025.pdf"
+        },
+        {
+          "claim": "The Coordinador reports zonal and hourly concentration effects associated with transmission restrictions, conventional-generation dependence and growing battery-storage deployment.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Informe de Monitoreo de la Competencia en el Mercado Eléctrico 2025",
+          "url": "https://www.coordinador.cl/presentaciones/informe-monitoreo-de-la-competencia-en-el-mercado-electrico-2025/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.78,
+      "falsification_conditions": [],
+      "geography": "Chile; candidate sites must be validated against the relevant transmission and distribution node",
+      "id": "opp_a71e28685127733c914e",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-17T16:17:48.351695+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Lowest-cost falsification: choose one publicly documented constrained corridor, download hourly nodal-price, generation and congestion data where available, and create a spreadsheet comparing a hypothetical small battery or flexible load against simple operating rules. Then obtain one paid data-access or feasibility commitment from an asset owner, developer or engineering firm before buying hardware. Falsify if the analysis cannot identify a materially different operating case after accounting for round-trip losses, degradation, interconnection, permits and network charges, or if no relevant project participant will pay for the screen. Participation must be through an owner, generator, retailer, aggregator or qualified engineering partner; do not assume market access.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A testable wedge is a paid screening product for renewable generators, large electricity users, landowners or engineering firms: identify sites where a battery, flexible load or local generation project might reduce curtailment, improve reliability or exploit time/location price differences. This is project origination and measurement, not a claim that a small operator can trade electricity or operate storage without regulatory and technical partners.",
+      "title": "Congestion-aware battery and demand-response screening for constrained Chilean nodes",
+      "type": "asset_or_project_origination",
+      "unknowns": [],
+      "value_capture_mechanism": "Potential cash-flow sources are a fixed feasibility-screening fee from a project developer or site owner, or a success fee negotiated with a licensed engineering/development partner after an independently verified project proceeds. No public evidence here establishes a standard fee, guaranteed spread, bankability or investable return.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-17T16:17:48.306357+00:00",
+      "discovery_lens": "energy_localization",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The Ministry of Energy and AgenciaSE announced a program encouraging energy audits and efficiency measures for medium-sized firms with annual sales between 25,000 and 100,000 UF.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Ministerio de Energía y AgenciaSE lanzan concurso para implementación de Auditorías Energéticas en medianas empresas",
+          "url": "https://energia.gob.cl/node/26466"
+        },
+        {
+          "claim": "AgenciaSE describes a Ministry of Energy program intended to co-finance energy-efficiency and renewable self-consumption projects for Chilean micro, small and medium-sized firms.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Energía a tu PYME",
+          "url": "https://www.agenciase.org/energia-a-tu-pyme/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.87,
+      "falsification_conditions": [],
+      "geography": "Chile, initially regions with industrial, commercial or tourism energy users",
+      "id": "opp_a78174a5084ecf85fdd7",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-17T16:17:48.351470+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Lowest-cost test: select 20 medium-sized businesses in one region, use publicly available company and facility information to identify likely high-load sites, and send a one-page offer for a paid utility-bill and equipment pre-screen. Do not promise subsidy eligibility. Falsify if at least 3 owners or facility managers will not provide a recent electricity bill or pay for a small diagnostic. A second route is to monitor AgenciaSE and ChileCompra for new audit, retrofit and ESCO procurements, then partner with a qualified engineering firm rather than bid independently. Public evidence confirms the program and procurement route, but not that an independent intermediary can claim funds or close projects.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The identifiable opportunity is not generic consulting: it is a narrowly scoped lead-generation, pre-audit and project-packaging service that helps eligible firms assemble an auditable list of electricity, thermal and self-generation measures suitable for subsidy, ESCO financing or contractor bidding.",
+      "title": "Energy-audit and retrofit origination for Chilean medium-sized firms",
+      "type": "service_offer",
+      "unknowns": [],
+      "value_capture_mechanism": "A small operator could sell a fixed-price site/data-screening package, then earn a disclosed referral or project-management fee only where a qualified engineering, ESCO or equipment provider independently contracts with the customer. The evidence does not establish a standard market price, conversion rate or permission to act as an ESCO.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-17T04:20:14.432726+00:00",
       "discovery_lens": "adoption_lag",
       "estimated_capital": "",
@@ -5569,13 +5710,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-17T12:19:08.574038+00:00",
+  "generated_at": "2026-10-17T16:18:10.070826+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 41,
-  "reviewed_cards": 41,
+  "rejected_excluded": 42,
+  "reviewed_cards": 42,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 117,
-  "watch": 76
+  "total_distinct_opportunities": 120,
+  "watch": 78
 }

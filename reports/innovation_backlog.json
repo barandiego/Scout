@@ -341,6 +341,78 @@
       "category": "energy_infrastructure",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Lowest-cost falsification: choose one publicly documented constrained corridor, download hourly nodal-price, generation and congestion data where available, and create a spreadsheet comparing a hypothetical small battery or flexible load against simple operating rules. Then obtain one paid data-access or feasibility commitment from an asset owner, developer or engineering firm before buying hardware. Falsify if the analysis cannot identify a materially different operating case after accounting for round-trip losses, degradation, interconnection, permits and network charges, or if no relevant project participant will pay for the screen. Participation must be through an owner, generator, retailer, aggregator or qualified engineering partner; do not assume market access.",
+      "current_thesis": "A testable wedge is a paid screening product for renewable generators, large electricity users, landowners or engineering firms: identify sites where a battery, flexible load or local generation project might reduce curtailment, improve reliability or exploit time/location price differences. This is project origination and measurement, not a claim that a small operator can trade electricity or operate storage without regulatory and technical partners.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile; candidate sites must be validated against the relevant transmission and distribution node",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Congestion-aware battery and demand-response screening for constrained Chilean nodes",
+      "opportunity_id": "opp_a71e28685127733c914e",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
+        "Compare owned asset, installer/distributor and project-finance participation.",
+        "Verify permits and installed net payback under conservative power price scenarios."
+      ],
+      "supporting_source_urls": [
+        "https://www.coordinador.cl/wp-content/uploads/2026/04/Informe-Monitoreo-2025.pdf",
+        "https://www.coordinador.cl/presentaciones/informe-monitoreo-de-la-competencia-en-el-mercado-electrico-2025/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Potential cash-flow sources are a fixed feasibility-screening fee from a project developer or site owner, or a success fee negotiated with a licensed engineering/development partner after an independently verified project proceeds. No public evidence here establishes a standard fee, guaranteed spread, bankability or investable return.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "energy_infrastructure",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Lowest-cost test: select 20 medium-sized businesses in one region, use publicly available company and facility information to identify likely high-load sites, and send a one-page offer for a paid utility-bill and equipment pre-screen. Do not promise subsidy eligibility. Falsify if at least 3 owners or facility managers will not provide a recent electricity bill or pay for a small diagnostic. A second route is to monitor AgenciaSE and ChileCompra for new audit, retrofit and ESCO procurements, then partner with a qualified engineering firm rather than bid independently. Public evidence confirms the program and procurement route, but not that an independent intermediary can claim funds or close projects.",
+      "current_thesis": "The identifiable opportunity is not generic consulting: it is a narrowly scoped lead-generation, pre-audit and project-packaging service that helps eligible firms assemble an auditable list of electricity, thermal and self-generation measures suitable for subsidy, ESCO financing or contractor bidding.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile, initially regions with industrial, commercial or tourism energy users",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Energy-audit and retrofit origination for Chilean medium-sized firms",
+      "opportunity_id": "opp_a78174a5084ecf85fdd7",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
+        "Compare owned asset, installer/distributor and project-finance participation.",
+        "Verify permits and installed net payback under conservative power price scenarios."
+      ],
+      "supporting_source_urls": [
+        "https://energia.gob.cl/node/26466",
+        "https://www.agenciase.org/energia-a-tu-pyme/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A small operator could sell a fixed-price site/data-screening package, then earn a disclosed referral or project-management fee only where a qualified engineering, ESCO or equipment provider independently contracts with the customer. The evidence does not establish a standard market price, conversion rate or permission to act as an ESCO.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "energy_infrastructure",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use the public DOE awardee and qualified-assessment-provider lists to identify manufacturers with funded projects involving VFDs, motors, pumps, compressors, monitors, or process sensors. Send a fixed-scope offer for one retrofit type, such as installing and commissioning VFDs on eligible motor loads. Lowest-cost test: select 10 awardees or assessment providers, verify each facility's project scope from public records, and ask whether they are accepting outside installation bids or subcontractors. Do not assume grant eligibility, procurement permission, or incumbent-free status until confirmed directly.",
       "current_thesis": "A small operator could sell a narrowly defined hardware-and-installation package that converts an already funded energy recommendation into an operating project, rather than selling an energy study or generic consulting.",
       "founder_hours_initial_unverified_estimate": "",
@@ -2086,9 +2158,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "Chile",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "Whether ATENA is sufficiently complete, stable, and accessible for all relevant participant categories, or whether it leaves substantial testing and observability gaps.",
+        "The number and identity of likely paying participants, their implementation budgets, procurement timelines, and willingness to hire a new foreign or unreferenced provider.",
+        "Whether CMF will publish certification tooling, conformance suites, test fixtures, sandbox environments, or other free assets that eliminate the proposed product gap.",
+        "Whether participation obligations, technical standards, payment-initiation requirements, cost-sharing rules, and implementation phases will change before or after July 3, 2027.",
+        "Whether the target customer is a regulated participant, a technology vendor, a systems integrator, or a prospective service provider; each has different buying authority and compliance requirements.",
+        "Whether a small provider can obtain production-like test access without becoming or partnering with an authorized participant.",
+        "The actual competitive landscape in Chile, including banks' internal platforms, local consultancies, global systems integrators, API aggregators, security firms, and vendors not visible in public search results."
       ],
       "investment_authorized": false,
       "name": "Pre-build testing and integration wedge for Chile's Open Finance System",
@@ -2922,7 +2998,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-17T12:19:08.630486+00:00",
+  "generated_at": "2026-10-17T16:18:10.131636+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

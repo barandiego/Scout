@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 76
+Candidates: 78
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -111,6 +111,30 @@ Candidates: 76
 - Critical gaps: Whether the cited January 1, 2026 AFCI requirement applies to the exact project classes, inverter configurations, and connection pathways targeted by the product, rather than only specified cases or alternatives.; Whether SEC or distributors accept the proposed equipment/documentation combinations in practice and what causes actual TE4 or related filing rejections.; Number of Chilean distributed BESS projects currently being designed, installed, or submitted through the relevant process.
 - Possible initial budget:
 - Source URLs: https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/; https://www.sec.cl/gda/; https://www.sec.cl/normas-tecnicas-electricas/
+
+## Congestion-aware battery and demand-response screening for constrained Chilean nodes
+- Status: watch | energy_infrastructure
+- Current idea: A testable wedge is a paid screening product for renewable generators, large electricity users, landowners or engineering firms: identify sites where a battery, flexible load or local generation project might reduce curtailment, improve reliability or exploit time/location price differences. This is project origination and measurement, not a claim that a small operator can trade electricity or operate storage without regulatory and technical partners.
+- Potential economic capture: Potential cash-flow sources are a fixed feasibility-screening fee from a project developer or site owner, or a success fee negotiated with a licensed engineering/development partner after an independently verified project proceeds. No public evidence here establishes a standard fee, guaranteed spread, bankability or investable return.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.coordinador.cl/wp-content/uploads/2026/04/Informe-Monitoreo-2025.pdf; https://www.coordinador.cl/presentaciones/informe-monitoreo-de-la-competencia-en-el-mercado-electrico-2025/
+
+## Energy-audit and retrofit origination for Chilean medium-sized firms
+- Status: watch | energy_infrastructure
+- Current idea: The identifiable opportunity is not generic consulting: it is a narrowly scoped lead-generation, pre-audit and project-packaging service that helps eligible firms assemble an auditable list of electricity, thermal and self-generation measures suitable for subsidy, ESCO financing or contractor bidding.
+- Potential economic capture: A small operator could sell a fixed-price site/data-screening package, then earn a disclosed referral or project-management fee only where a qualified engineering, ESCO or equipment provider independently contracts with the customer. The evidence does not establish a standard market price, conversion rate or permission to act as an ESCO.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://energia.gob.cl/node/26466; https://www.agenciase.org/energia-a-tu-pyme/
 
 ## Grant-aligned VFD and process-sensor retrofit package for small manufacturers
 - Status: watch | energy_infrastructure
@@ -660,7 +684,7 @@ Candidates: 76
   - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
   - Check license perimeter, API access, legal compliance and competitor pricing.
   - Test buyer procurement and technical access before writing integration infrastructure.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Whether ATENA is sufficiently complete, stable, and accessible for all relevant participant categories, or whether it leaves substantial testing and observability gaps.; The number and identity of likely paying participants, their implementation budgets, procurement timelines, and willingness to hire a new foreign or unreferenced provider.; Whether CMF will publish certification tooling, conformance suites, test fixtures, sandbox environments, or other free assets that eliminate the proposed product gap.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
 

@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-17T12:19:08.574038+00:00
+Generated: 2026-10-17T16:18:10.070826+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 76 (0 HQ survivors, 76 watches)
-- Rejected opportunities excluded: 41
-- Critic-and-judge reviewed: 41
+- Active research: 78 (0 HQ survivors, 78 watches)
+- Rejected opportunities excluded: 42
+- Critic-and-judge reviewed: 42
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -72,6 +72,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Number, size, crop mix, and geographic concentration of existing Chilean indoor or hydroponic growers that use artificial lighting.; Actual Chilean electricity tariffs, demand charges, time-of-use pricing, and renewable-energy arrangements applicable to target facilities.; Lighting, HVAC, pumping, dehumidification, and refrigeration shares of total site electricity consumption.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://arxiv.org/abs/2507.18419; https://arxiv.org/abs/2510.03686; https://ers.usda.gov/sites/default/files/_laserfiche/publications/108221/EIB-264.pdf
+
+### Pre-build testing and integration wedge for Chile's Open Finance System [opp_de6bbd059c9fa7fd72e5]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: The immediate opportunity is not regulated financial intermediation; it is a narrow test asset for prospective participants: a conformance checklist, sandbox integration harness, consent-flow test suite or API observability package. The delay creates time for validation, but no buyer demand or permission to operate as a regulated participant is established.
+- Value capture: Possible payer categories are entities preparing for SFA participation or their technology vendors, but no specific payer, purchase order or pricing is evidenced. A defensible first transaction would be a paid technical-readiness assessment or integration prototype only after confirming the client's regulatory role and procurement process.
+- Participation hypothesis: Use the official CMF developer materials to build a small test harness against any publicly available test environment or documentation, without accessing live financial data or representing a client as a regulated participant. Publish a technical demo and request five problem-validation interviews with fintech or financial-institution technology teams. Lowest-cost falsification: verify that the developer documentation exposes enough stable technical detail to build one automated conformance test and obtain at least one written request for a sc
+- Critic/judge: The cited CMF materials and developer documentation support that Chile’s Open Finance implementation work, technical standards, and a pre-effective-date testing environment are real; the regulatory change therefore is not rejected as unverified. A narrowly scoped, non-production technical-readiness assessment or tooling evaluation does not inherently require handling live customer financial data, initiating payments, or acting as an SFA
+- Next evidence gaps: Whether ATENA is sufficiently complete, stable, and accessible for all relevant participant categories, or whether it leaves substantial testing and observability ga; The number and identity of likely paying participants, their implementation budgets, procurement timelines, and willingness to hire a new foreign or unreferenced pro; Whether CMF will publish certification tooling, conformance suites, test fixtures, sandbox environments, or other free assets that eliminate the proposed product gap
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
 
 ### Pre-compliance monitoring for Chile’s Open Finance implementation [opp_8c5a7467be93278a7fb8]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -483,16 +493,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://tarjetas-nfc.com/; https://www.tuk.cl/es-cl/pages/para-empresas; https://linkd.cl/
 
-### Pre-build testing and integration wedge for Chile's Open Finance System [opp_de6bbd059c9fa7fd72e5]
-- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
-- Thesis: The immediate opportunity is not regulated financial intermediation; it is a narrow test asset for prospective participants: a conformance checklist, sandbox integration harness, consent-flow test suite or API observability package. The delay creates time for validation, but no buyer demand or permission to operate as a regulated participant is established.
-- Value capture: Possible payer categories are entities preparing for SFA participation or their technology vendors, but no specific payer, purchase order or pricing is evidenced. A defensible first transaction would be a paid technical-readiness assessment or integration prototype only after confirming the client's regulatory role and procurement process.
-- Participation hypothesis: Use the official CMF developer materials to build a small test harness against any publicly available test environment or documentation, without accessing live financial data or representing a client as a regulated participant. Publish a technical demo and request five problem-validation interviews with fintech or financial-institution technology teams. Lowest-cost falsification: verify that the developer documentation exposes enough stable technical detail to build one automated conformance test and obtain at least one written request for a sc
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
-
 ### Pre-compliance monitor for Chile Open Finance API participants [opp_f4c70f1adccbe9b2583e]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: The narrow executable opportunity is not generic fintech consulting. It is a low-cost monitoring and test harness that checks whether public participant-directory metadata, authorization endpoints, certificates, and documented API resources remain reachable and structurally conformant as firms prepare for implementation. The cash-flow source would be regulated or aspiring participants that need internal readiness evidence, but no buyer or contract is presumed.
@@ -652,6 +652,26 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
+### Congestion-aware battery and demand-response screening for constrained Chilean nodes [opp_a71e28685127733c914e]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile; candidate sites must be validated against the relevant transmission and distribution node
+- Thesis: A testable wedge is a paid screening product for renewable generators, large electricity users, landowners or engineering firms: identify sites where a battery, flexible load or local generation project might reduce curtailment, improve reliability or exploit time/location price differences. This is project origination and measurement, not a claim that a small operator can trade electricity or operate storage without regulatory and technical partners.
+- Value capture: Potential cash-flow sources are a fixed feasibility-screening fee from a project developer or site owner, or a success fee negotiated with a licensed engineering/development partner after an independently verified project proceeds. No public evidence here establishes a standard fee, guaranteed spread, bankability or investable return.
+- Participation hypothesis: Lowest-cost falsification: choose one publicly documented constrained corridor, download hourly nodal-price, generation and congestion data where available, and create a spreadsheet comparing a hypothetical small battery or flexible load against simple operating rules. Then obtain one paid data-access or feasibility commitment from an asset owner, developer or engineering firm before buying hardware. Falsify if the analysis cannot identify a materially different operating case after accounting for round-trip losses, degradation, interconnection
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.coordinador.cl/wp-content/uploads/2026/04/Informe-Monitoreo-2025.pdf; https://www.coordinador.cl/presentaciones/informe-monitoreo-de-la-competencia-en-el-mercado-electrico-2025/
+
+### Energy-audit and retrofit origination for Chilean medium-sized firms [opp_a78174a5084ecf85fdd7]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile, initially regions with industrial, commercial or tourism energy users
+- Thesis: The identifiable opportunity is not generic consulting: it is a narrowly scoped lead-generation, pre-audit and project-packaging service that helps eligible firms assemble an auditable list of electricity, thermal and self-generation measures suitable for subsidy, ESCO financing or contractor bidding.
+- Value capture: A small operator could sell a fixed-price site/data-screening package, then earn a disclosed referral or project-management fee only where a qualified engineering, ESCO or equipment provider independently contracts with the customer. The evidence does not establish a standard market price, conversion rate or permission to act as an ESCO.
+- Participation hypothesis: Lowest-cost test: select 20 medium-sized businesses in one region, use publicly available company and facility information to identify likely high-load sites, and send a one-page offer for a paid utility-bill and equipment pre-screen. Do not promise subsidy eligibility. Falsify if at least 3 owners or facility managers will not provide a recent electricity bill or pay for a small diagnostic. A second route is to monitor AgenciaSE and ChileCompra for new audit, retrofit and ESCO procurements, then partner with a qualified engineering firm rather
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://energia.gob.cl/node/26466; https://www.agenciase.org/energia-a-tu-pyme/
 
 ### Grant-aligned VFD and process-sensor retrofit package for small manufacturers [opp_269134d5b04eaaaf0c33]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States

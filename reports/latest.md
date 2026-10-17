@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-17T12:19:08.283213+00:00
+Generated: 2026-10-17T16:18:09.688891+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['asset_ownership', 'nfc_smart_commerce', 'vertical_farming_economics']
-- raw_candidates: 1
-- parseable_candidates: 1
-- normalized_candidates: 1
+- lenses: ['energy_localization', 'wildcard', 'geographic_arbitrage']
+- raw_candidates: 3
+- parseable_candidates: 3
+- normalized_candidates: 3
 - normalization_rejected: 0
-- grounded_sources: 3
+- grounded_sources: 5
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
 - critic_reviews: 1
 - judge_reviews: 1
 - survivors: 0
-- watches: 2
-- rejected: 0
+- watches: 3
+- rejected: 1
 - errors_by_stage: {}
-- rejection_reasons: {}
-- cost_usd: 0.04496925
+- rejection_reasons: {'discarded_ungrounded_url': 1, 'insufficient_unique_evidence': 1}
+- cost_usd: 0.0447803
 - cost_uncertain: False
-- budget_remaining_usd: 0.03503075
+- budget_remaining_usd: 0.0352197
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,8 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Rare-earth secondary-material sourcing and assay brokerage as a testable micro-wedge: deferred_by_review_cap
-- Chile SFA API conformance and sandbox test asset: deferred_by_review_cap
 - Tokenized-fund ledger reconciliation and allowlist-control test harness: deferred_by_review_cap
 - Battery-project dispatch and revenue-stack verification for Texas and California assets: deferred_by_review_cap
 - Chile SFA implementation adapter for consent, directory and API conformance: deferred_by_review_cap
@@ -51,12 +49,14 @@ No survivors. Scout does not manufacture a daily winner.
 - Pre-compliance monitor for Chile Open Finance API participants: deferred_by_review_cap
 - NFC review-and-contact stand for Chilean hospitality venues: deferred_by_review_cap
 - NFC/QR review-and-discovery plates for Chilean physical venues: deferred_by_review_cap
+- Energy-audit and retrofit origination for Chilean medium-sized firms: deferred_by_review_cap
+- Congestion-aware battery and demand-response screening for constrained Chilean nodes: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "research_queue_unreviewed=31"
+    "research_queue_unreviewed=32"
   ],
   "stages": [
     {
@@ -64,47 +64,37 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 39,
+      "grounded_source_count": 29,
       "search_source_urls": [
-        "https://aquaplants.cl/web/",
-        "https://arxiv.org/abs/2507.18419",
-        "https://arxiv.org/abs/2607.24385",
-        "https://arxiv.org/abs/2607.26968",
-        "https://comunicacion.falabella.com/sellers_internacionales/Productos%20prohibidos%20Internacional.pdf",
-        "https://dspace.nm-aist.ac.tz/server/api/core/bitstreams/2395aafb-da0f-4708-857d-f7decec527db/content",
-        "https://en.wikipedia.org/wiki/Electricity_sector_in_Chile",
-        "https://en.wikipedia.org/wiki/Falabella_%28retail_store%29",
-        "https://en.wikipedia.org/wiki/Kratky_method",
-        "https://en.wikipedia.org/wiki/Nutrient_film_technique",
-        "https://en.wikipedia.org/wiki/S.A.C.I._Falabella",
-        "https://es.scribd.com/document/1014311150/BOLETIN-1-INIA-FIA-Manejo-Sanitario-y-Otros-InIA-Chile",
-        "https://es.wikipedia.org/wiki/Grupo_Falabella",
-        "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/",
-        "https://fupress.org/journal/JAIRD/index.php/journal/article/view/77/43",
-        "https://linkd.cl/",
-        "https://nfcid.cl/",
-        "https://pdf.marketpublishers.com/lpinfo/global-nfc-smart-business-card-market-growth-2023-2029.pdf",
-        "https://pymevisible.cl/productos/tarjeta-google",
-        "https://repositorio.utalca.cl/repositorio/bitstreams/eea4aa1e-c00a-4e09-96fc-e2e64adb12a3/download",
-        "https://researchers.unab.cl/en/publications/human-powered-hydroponic-systems-an-environmental-and-economic-as/",
-        "https://tarjetas-nfc.com/",
-        "https://www.biosonda.cl/ckfinder/userfiles/files/promo-biosonsda.pdf",
-        "https://www.falabella.com/falabella-cl/page/comprar-tarjeta-cmr-ayuda",
-        "https://www.leomon.cl/inicio/invernadero-hidroponico-100-mts2-con-sistema-nft-525",
-        "https://www.mdpi.com/2311-7524/12/8/972",
-        "https://www.reddit.com/r/Futurology/comments/ss0bnf",
-        "https://www.reddit.com/r/NFC/comments/1v9xopz/anyone_here_running_an_nfc_business_for/",
-        "https://www.reddit.com/r/NFC/comments/1vfjp1k/nfc_suppliers/",
-        "https://www.reddit.com/r/NFC/comments/1vw9yun/nfc_business_cards_without_a_subscription_honest/",
-        "https://www.reddit.com/r/business/comments/1x14g4d/nfc_business_cards_for_entire_company/",
-        "https://www.reddit.com/r/farming/comments/t12lfc",
-        "https://www.reddit.com/r/phinvest/comments/1grlaeo/is_doing_agriculture_hydrophonic_a_profitable/",
-        "https://www.reddit.com/r/toolgifs/comments/12oiklw",
-        "https://www.reddit.com/r/u_Igor_Viznyy/comments/1t6zawz/my_roi_data_cost_to_grow_vs_supermarket_prices/",
-        "https://www.reddit.com/r/verticalfarming/comments/1hkjvao",
-        "https://www.reddit.com/r/verticalfarming/comments/pxaedl",
-        "https://www.reddit.com/r/verticalfarming/comments/tujf2z",
-        "https://www.tuk.cl/es-cl/pages/para-empresas"
+        "https://apnews.com/article/3bd62dd2d73ed711fa754ead1997634a",
+        "https://apnews.com/article/e78ccd51a7f66099d84fda885d2907a3",
+        "https://atencionciudadana.minenergia.cl/tramites/informacion/20",
+        "https://energia.gob.cl/mini-sitio/concurso-para-implementacion-de-piloto-de-cooperativa-de-energia-electrica",
+        "https://energia.gob.cl/node/26466",
+        "https://energia.gob.cl/noticias/nacional/nuevo-concurso-energia-comunitaria-asociativa-impulsa-generacion-distribuida-para-beneficiar-comunidades-locales",
+        "https://energia.gob.cl/sites/default/files/documento_cuenta-publica_2025.pdf",
+        "https://energia.gob.cl/sites/default/files/documentos/reporte_de_proyectos_-_julio_2025.pdf",
+        "https://es.wikipedia.org/wiki/Marketplaces_en_Am%C3%A9rica_Latina",
+        "https://www.agenciase.org/energia-a-tu-pyme/",
+        "https://www.bcentral.cl/contenido/-/details/documento-de-trabajo-n-465",
+        "https://www.cooperativa.cl/noticias/site/artic/20250930/pags-amp/20250930092946.html",
+        "https://www.coordinador.cl/novedades/energia-solar-y-eolica-marco-record-de-participacion-en-el-sistema-electrico-en-2025/",
+        "https://www.coordinador.cl/presentaciones/informe-monitoreo-de-la-competencia-en-el-mercado-electrico-2025/",
+        "https://www.coordinador.cl/wp-content/uploads/2024/11/Diagnostico-del-Uso-Esperado-del-Sistema-de-Transmision-PET2025.pdf",
+        "https://www.coordinador.cl/wp-content/uploads/2026/04/2026-04-23-INFORME-MONITOREO-2025-.pdf",
+        "https://www.coordinador.cl/wp-content/uploads/2026/04/Informe-Monitoreo-2025.pdf",
+        "https://www.coordinador.cl/wp-content/uploads/2026/06/Cuenta-Publica-Gestion-2025-CEN.pdf",
+        "https://www.corfo.gob.cl/sites/cpp/convocatoria/red-fomento-sostenible-construccion-sustentable-2025/",
+        "https://www.minvu.gob.cl/postulacion/llamado-eficiencia-energetica-y-acondicionamiento-termico-ds-27-ano-2025/",
+        "https://www.reddit.com/r/AmazonFBATips/comments/1tumdt3/alert_2026_why_latam_sellers_are_losing_shipments/",
+        "https://www.reddit.com/r/MapPorn/comments/1ibunc1/latin_america_largest_trading_partner_2000_vs_2024/",
+        "https://www.reddit.com/r/ValueInvesting/comments/1q2ke1k/mercadolibre_meli_is_my_1_conviction_right_now/",
+        "https://www.reddit.com/r/asklatinamerica/comments/1irk9q6",
+        "https://www.reddit.com/r/asklatinamerica/comments/1k6py48",
+        "https://www.reddit.com/r/asklatinamerica/comments/1lmalyy/why_is_conosur_so_expensive/",
+        "https://www.reddit.com/r/asklatinamerica/comments/1n7yd3m",
+        "https://www.reddit.com/r/shopify/comments/1jwf8kt",
+        "https://www.todolicitaciones.cl/licitacion/623663-15-LE25"
       ]
     },
     {
@@ -119,48 +109,85 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 3,
+      "grounded_sources": 2,
+      "retry_justified": false
+    },
+    {
+      "index": 1,
+      "stage": "normalization",
+      "outcome": "accepted",
+      "reasons": [],
+      "changes": [
+        "contrary_evidence:list_sanitized",
+        "major_risks:list_sanitized",
+        "unknowns:list_sanitized",
+        "falsification_conditions:list_sanitized",
+        "material_update:unknown_false"
+      ],
+      "grounded_sources": 2,
+      "retry_justified": false
+    },
+    {
+      "index": 2,
+      "stage": "normalization",
+      "outcome": "accepted",
+      "reasons": [
+        "discarded_ungrounded_url"
+      ],
+      "changes": [
+        "contrary_evidence:list_sanitized",
+        "major_risks:list_sanitized",
+        "unknowns:list_sanitized",
+        "falsification_conditions:list_sanitized",
+        "material_update:unknown_false"
+      ],
+      "grounded_sources": 1,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_2f1839bb1c72fe283049",
+      "candidate_id": "opp_de6bbd059c9fa7fd72e5",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 20,
+      "grounded_source_count": 27,
       "search_source_urls": [
-        "https://cdn.pudutech.com/Pudu_Robotics_Product_Brochure_V1_2_20250414_EN_998195fd54.pdf",
-        "https://de.wikipedia.org/wiki/Staubsaugerroboter",
-        "https://droidbazaar.com/brands/pudu-robotics",
-        "https://droidbazaar.com/brands/pudu-robotics/dealers/cl",
-        "https://geoprospec.cl/robots-de-limpieza/",
-        "https://it.wikipedia.org/wiki/Pudu_Robotics",
-        "https://processap.com/",
-        "https://radar.fieldbots.com/wp-content/uploads/2024/12/Biggest-Fleet-2024_ENGLISH.pdf",
-        "https://radar.fieldbots.com/wp-content/uploads/2025/12/BiggestFleet2025_Magazine_EN.pdf",
-        "https://radar.fieldbots.io/wp-content/uploads/2024/12/Biggest-Fleet-2024_EN-1.pdf",
-        "https://startup.genisisiq.com/pudu-robotics-a73399/",
-        "https://www.annualreports.com/HostedData/AnnualReportArchive/r/NASDAQ_RR_2023.pdf",
-        "https://www.dimacofi.cl/pudu-cc1-pro/",
-        "https://www.intertrade.cl/girox/",
-        "https://www.pudurobotics.com/es",
-        "https://www.reddit.com/r/smallbusiness/comments/16rvmmi",
-        "https://www.robocorpus.be/en/blog/pudu-vs-gausium-vergelijking.html",
-        "https://www.robotic-work.com/",
-        "https://www.techtimes.com/articles/324386/20260813/pudu-robotics-tops-global-cleaning-robot-rankings-launches-et1-fcc-blocks-us-sale.htm",
-        "https://www.vicrobotics.com/faq"
+        "https://cmfchile.atlassian.net/wiki/spaces/OFAC/pages/267649439/API%2BCuentas%2BOpen%2BFinance%2BChile%2Bv1.0.0",
+        "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812",
+        "https://cmfchile.cl/portal/principal/623/w4-article-92466.html",
+        "https://en.wikipedia.org/wiki/Open_finance",
+        "https://es.wikipedia.org/wiki/Fapro",
+        "https://es.wikipedia.org/wiki/Finanzas_abiertas",
+        "https://es.wikipedia.org/wiki/ProntoPaga",
+        "https://es.wikipedia.org/wiki/Superintendencia_de_Bancos_e_Instituciones_Financieras_de_Chile",
+        "https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_financiera",
+        "https://openfinance.cl/",
+        "https://openfinance.cl/",
+        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA",
+        "https://openfinanceconnect.cl/",
+        "https://openfinanceconnect.cl/en/",
+        "https://synaptic.cl/proyectos/boufin/",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-71073_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/articles-100816_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/articles-80854_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/articles-82752_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/articles-92466_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-73961.html",
+        "https://www.reddit.com/r/fintech/comments/1jpa6g5/developer_friendly_fintech_apis/",
+        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000108/MNCjune2026signed.pdf"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_2f1839bb1c72fe283049",
-      "coercions": [
-        "contrary_evidence"
-      ]
+      "candidate_id": "opp_de6bbd059c9fa7fd72e5",
+      "coercions": []
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_2f1839bb1c72fe283049",
+      "candidate_id": "opp_de6bbd059c9fa7fd72e5",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -168,7 +195,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_2f1839bb1c72fe283049",
+      "candidate_id": "opp_de6bbd059c9fa7fd72e5",
       "coercions": []
     }
   ],
@@ -176,44 +203,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 229,
-      "cache_write_tokens": 5576,
+      "reasoning_tokens": 202,
+      "cache_write_tokens": 5476,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0142088,
+      "cumulative_cost_usd": 0.0152446,
       "model": "gpt-5.6-luna",
-      "input_tokens": 14196,
+      "input_tokens": 13838,
       "cached_tokens": 0,
-      "output_tokens": 909,
+      "output_tokens": 1836,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0142088
+      "estimated_cost_usd": 0.0152446
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 140,
-      "cache_write_tokens": 5351,
+      "reasoning_tokens": 143,
+      "cache_write_tokens": 5406,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02870875,
+      "cumulative_cost_usd": 0.0298063,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13794,
+      "input_tokens": 13807,
       "cached_tokens": 0,
-      "output_tokens": 1228,
+      "output_tokens": 1275,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01449995
+      "estimated_cost_usd": 0.0145617
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 127,
-      "cache_write_tokens": 2873,
+      "reasoning_tokens": 55,
+      "cache_write_tokens": 3112,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.04496925,
+      "cumulative_cost_usd": 0.0447803,
       "model": "gpt-5.6-terra",
-      "input_tokens": 2876,
+      "input_tokens": 3115,
       "cached_tokens": 0,
-      "output_tokens": 756,
+      "output_tokens": 599,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.0162605
+      "estimated_cost_usd": 0.014974
     }
   ]
 }
