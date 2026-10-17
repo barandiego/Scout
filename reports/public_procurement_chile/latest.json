@@ -1,29 +1,55 @@
 {
-  "active_candidates": [],
-  "active_structurally_reconstructable_count": 0,
+  "active_candidates": [
+    {
+      "available_budget_clp": 2000000.0,
+      "buyer": "UNIVERSIDAD DE TARAPACA",
+      "closes_at": "2026-10-19T16:21:00",
+      "code": "5360-75-COT26",
+      "estimated_budget": 2000000.0,
+      "name": "FABRICACION E INSTALACION DE MUEBLES DE KITCHENETTE",
+      "products": 1,
+      "region": "Región de Arica y Parinacota"
+    }
+  ],
+  "active_structurally_reconstructable_count": 1,
   "diagnostics": {
     "api_failures": {
+      "api_http_500": 2,
       "api_http_504": 1
     },
-    "requests_used": 3,
-    "transient_retries": 2
+    "budget_exhausted": false,
+    "detail_attempts": 20,
+    "detail_cap_exhausted": true,
+    "details_fetched": 17,
+    "duplicate_listings": 0,
+    "invalid_listing_items": 0,
+    "malformed_details": 0,
+    "malformed_reasons": {},
+    "malformed_samples": [],
+    "pages_fetched": 1,
+    "pagination_incomplete": false,
+    "pagination_invalid": false,
+    "requests_used": 25,
+    "transient_retries": 4
   },
-  "generated_at": "2026-10-17T04:50:35Z",
-  "inserted_history": 0,
-  "note": "Transient ChileCompra/API availability failure after bounded retries. Cursor was not advanced; next scheduled run may retry safely.",
+  "generated_at": "2026-10-17T08:48:58Z",
+  "inserted_history": 17,
+  "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_TRANSIENT_API",
+  "outcome": "DEGRADED_API_ERRORS",
   "phase1": {
-    "records": 0,
-    "rejection_reasons": {},
-    "resolved": 0,
-    "structurally_reconstructable": 0,
-    "with_observable_quote_totals": 0,
+    "records": 17,
+    "rejection_reasons": {
+      "no_observable_competitive_prices": 2
+    },
+    "resolved": 16,
+    "structurally_reconstructable": 15,
+    "with_observable_quote_totals": 14,
     "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-17T04:50:35Z"
+    "changed_to": "2026-10-17T08:48:58Z"
   }
 }
