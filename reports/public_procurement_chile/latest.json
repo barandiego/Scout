@@ -1,125 +1,29 @@
 {
-  "active_candidates": [
-    {
-      "available_budget_clp": 700000.0,
-      "buyer": "ILUSTRE MUNICIPALIDAD DE CAMINA",
-      "closes_at": "2026-10-19T15:00:00",
-      "code": "4030-223-COT26",
-      "estimated_budget": 700000.0,
-      "name": "ADQUISICION DE MATERIALES DE CONVENIO DE PROMOCION",
-      "products": 4,
-      "region": "Región de Tarapacá"
-    },
-    {
-      "available_budget_clp": 1000000.0,
-      "buyer": "COMPLEJO ASISTENCIAL DR. SOTERO DEL RIO",
-      "closes_at": "2026-10-18T18:00:00",
-      "code": "1057501-3637-COT26",
-      "estimated_budget": 1000000.0,
-      "name": "20-340-100-222-00\tENUCLEATION EVISCERATION 22 MM EQUIV. A C-FCI-S6-1022",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 7215099.0,
-      "buyer": "COMPLEJO ASISTENCIAL DR. SOTERO DEL RIO",
-      "closes_at": "2026-10-18T18:00:00",
-      "code": "1057501-3638-COT26",
-      "estimated_budget": 7215099.0,
-      "name": "20-340-100-158-00\tPINZA EQUIV LIGASURE 10MM 37CM REF LS1037",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 1000000.0,
-      "buyer": "COMPLEJO ASISTENCIAL DR. SOTERO DEL RIO",
-      "closes_at": "2026-10-18T18:00:00",
-      "code": "1057501-3639-COT26",
-      "estimated_budget": 1000000.0,
-      "name": "20-340-100-117-00\tCOLLERA DONALSON PARA OTORRINO",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 1000000.0,
-      "buyer": "COMPLEJO ASISTENCIAL DR. SOTERO DEL RIO",
-      "closes_at": "2026-10-18T18:00:00",
-      "code": "1057501-3636-COT26",
-      "estimated_budget": 1000000.0,
-      "name": "20-340-100-303-00\tCEPILLO CITOLOGICO ENDOSOPICO DESECH.120CM   C- 149R",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 7215099.0,
-      "buyer": "COMPLEJO ASISTENCIAL DR. SOTERO DEL RIO",
-      "closes_at": "2026-10-18T18:00:00",
-      "code": "1057501-3635-COT26",
-      "estimated_budget": 7215099.0,
-      "name": "20-340-100-317-00\tSISTEMA DE SELLADO DE VASOS RECTO  CX LAPAROSCOPICA DE 5MM POR 35 CM (EQUIV A  ENSEAL)",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 7215099.0,
-      "buyer": "COMPLEJO ASISTENCIAL DR. SOTERO DEL RIO",
-      "closes_at": "2026-10-18T18:00:00",
-      "code": "1057501-3633-COT26",
-      "estimated_budget": 7215099.0,
-      "name": "20-340-100-355-00\tPINZA LAPAROSCOPICA DESCH. TIPO DISECTOR MARYLAND CAJA UNIDADES",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 2000000.0,
-      "buyer": "COMPLEJO ASISTENCIAL DR. SOTERO DEL RIO",
-      "closes_at": "2026-10-18T18:00:00",
-      "code": "1057501-3634-COT26",
-      "estimated_budget": 2000000.0,
-      "name": "TREPANO DONANTE",
-      "products": 2,
-      "region": "Región Metropolitana de Santiago"
-    }
-  ],
-  "active_structurally_reconstructable_count": 8,
+  "active_candidates": [],
+  "active_structurally_reconstructable_count": 0,
   "diagnostics": {
     "api_failures": {
-      "api_http_500": 1,
       "api_http_504": 1
     },
-    "budget_exhausted": false,
-    "detail_attempts": 20,
-    "detail_cap_exhausted": true,
-    "details_fetched": 18,
-    "duplicate_listings": 0,
-    "invalid_listing_items": 0,
-    "malformed_details": 0,
-    "malformed_reasons": {},
-    "malformed_samples": [],
-    "pages_fetched": 1,
-    "pagination_incomplete": false,
-    "pagination_invalid": false,
-    "requests_used": 24,
-    "transient_retries": 3
+    "requests_used": 3,
+    "transient_retries": 2
   },
-  "generated_at": "2026-10-17T20:46:51Z",
-  "inserted_history": 18,
-  "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
+  "generated_at": "2026-10-18T01:02:59Z",
+  "inserted_history": 0,
+  "note": "Transient ChileCompra/API availability failure after bounded retries. Cursor was not advanced; next scheduled run may retry safely.",
   "ok": false,
-  "outcome": "DEGRADED_API_ERRORS",
+  "outcome": "DEGRADED_TRANSIENT_API",
   "phase1": {
-    "records": 18,
-    "rejection_reasons": {
-      "no_observable_competitive_prices": 8
-    },
-    "resolved": 10,
-    "structurally_reconstructable": 10,
-    "with_observable_quote_totals": 2,
-    "with_purchase_order_indicator": 1
+    "records": 0,
+    "rejection_reasons": {},
+    "resolved": 0,
+    "structurally_reconstructable": 0,
+    "with_observable_quote_totals": 0,
+    "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-17T20:46:51Z"
+    "changed_to": "2026-10-18T01:02:59Z"
   }
 }
