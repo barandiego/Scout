@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-18T12:59:47.409275+00:00
+Generated: 2026-10-18T16:52:30.203220+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 100
+- New this cycle: 105
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 280, ai 272, commerce 35, energy 565, robotics 648
+- Categories: agriculture 286, ai 274, commerce 35, energy 562, robotics 643
 
 ## Recently encountered signals
+
+### Uday9021/smart-agriculture-system
+- Source: https://github.com/Uday9021/smart-agriculture-system
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### Real-Time Fuzzy Energy Management with Nighttime Progress Index and State of Charge Protection for Microgrids with Photovoltaic Generation and Battery Energy Storage
 - Source: https://doi.org/10.1016/j.rineng.2026.113575
@@ -220,6 +226,18 @@ Generated: 2026-10-18T12:59:47.409275+00:00
 - Source: https://doi.org/10.66506/essp.172
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### naina-modi123/agritech-smart-farming
+- Source: https://github.com/naina-modi123/agritech-smart-farming
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### ganavisk/KrushiPath
+- Source: https://github.com/ganavisk/KrushiPath
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
 
 ### thanmaye09/Auto-machine-AI-advance-added-in-Farming-
@@ -442,22 +460,4 @@ Generated: 2026-10-18T12:59:47.409275+00:00
 - Source: https://github.com/charithareddypc-blip/FarmFriendAI
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Advanced thermal energy storage and temperature uniformity control in battery systems using ester-based phase change materials combined with optimized thermal management architectu
-- Source: https://doi.org/10.1007/s10973-026-16351-0
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### chandan2208/FarmIQ
-- Source: https://github.com/chandan2208/FarmIQ
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Coordinated Daily Battery and Seasonal Hydrogen Storage with Integrated Waste Heat Recovery for Resilient Renewable-Powered Multi-Energy Data Centers
-- Source: https://doi.org/10.2139/ssrn.7606952
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
