@@ -1,55 +1,23 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 860000.0,
-      "buyer": "SERV NAC SALUD HOSPITAL DE LOS ANDES",
-      "closes_at": "2026-10-19T13:00:00",
-      "code": "617807-2385-COT26",
-      "estimated_budget": 860000.0,
-      "name": "HAAV COMPRA DE ALIMENTOS MEMO N° 97",
+      "available_budget_clp": 380000.0,
+      "buyer": "UNIVERSIDAD DE CHILE",
+      "closes_at": "2026-10-19T13:45:00",
+      "code": "5756-513-COT26",
+      "estimated_budget": 380000.0,
+      "name": "Pasajes aéreos internacionales Santiago – Rosario - sol 9710",
       "products": 1,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 350000.0,
-      "buyer": "SERV NAC SALUD HOSPITAL DE LOS ANDES",
-      "closes_at": "2026-10-19T12:00:00",
-      "code": "617807-2384-COT26",
-      "estimated_budget": 350000.0,
-      "name": "HAAV ARTICULO DE PABELLON 20261299",
-      "products": 1,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 550000.0,
-      "buyer": "SERV NAC SALUD HOSPITAL DE LOS ANDES",
-      "closes_at": "2026-10-19T11:00:00",
-      "code": "617807-2383-COT26",
-      "estimated_budget": 550000.0,
-      "name": "HAAV  HAAV ART DE ESCRITORIO 20261161",
-      "products": 1,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 1500000.0,
-      "buyer": "CORP NACIONAL FORESTAL",
-      "closes_at": "2026-10-19T12:00:00",
-      "code": "1421-48-COT26",
-      "estimated_budget": 1500000.0,
-      "name": "servicio de coffe break para DEPRIF",
-      "products": 2,
-      "region": "Región del Maule"
+      "region": "Región Metropolitana de Santiago"
     }
   ],
-  "active_structurally_reconstructable_count": 4,
+  "active_structurally_reconstructable_count": 1,
   "diagnostics": {
-    "api_failures": {
-      "api_http_504": 1
-    },
+    "api_failures": {},
     "budget_exhausted": false,
     "detail_attempts": 20,
     "detail_cap_exhausted": true,
-    "details_fetched": 19,
+    "details_fetched": 20,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -58,27 +26,27 @@
     "pages_fetched": 1,
     "pagination_incomplete": false,
     "pagination_invalid": false,
-    "requests_used": 24,
-    "transient_retries": 3
+    "requests_used": 21,
+    "transient_retries": 0
   },
-  "generated_at": "2026-10-18T12:55:56Z",
-  "inserted_history": 19,
+  "generated_at": "2026-10-18T16:48:45Z",
+  "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_API_ERRORS",
+  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
   "phase1": {
-    "records": 19,
+    "records": 20,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 5
+      "no_observable_competitive_prices": 7
     },
-    "resolved": 15,
-    "structurally_reconstructable": 14,
-    "with_observable_quote_totals": 10,
-    "with_purchase_order_indicator": 1
+    "resolved": 19,
+    "structurally_reconstructable": 13,
+    "with_observable_quote_totals": 12,
+    "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-18T12:55:56Z"
+    "changed_to": "2026-10-18T16:48:45Z"
   }
 }
