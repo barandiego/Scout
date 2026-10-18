@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 82
+Candidates: 83
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -736,6 +736,18 @@ Candidates: 82
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA; https://api.cmfchile.cl/
 
+## Pre-compliance Open Finance connectivity test for Chilean fintechs and smaller financial entities
+- Status: watch | open_finance_chile
+- Current idea: Entities that will need to participate may face integration, consent, testing and interoperability work before the July 2027 obligation. The evidence supports a narrow pre-compliance testing wedge, not a claim that a market or buyer has already been secured.
+- Potential economic capture: Offer a fixed-scope technical readiness test: map one prospective participant’s data-access and payment-initiation workflow against the CMF technical annex, build a non-production connector or mock integration, and deliver a gap report. Charge only after a prospective participant agrees to a paid diagnostic; no price is evidenced publicly.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/principal/613/articles-72652_doc_pdf.pdf
+
 ## SFA implementation moved from rulemaking toward interoperability testing
 - Status: watch | open_finance_chile
 - Current idea: The near-term bottleneck is shifting from legal authorization to implementation capacity: consent management, API interoperability, security testing, participant-directory integration, and compliance tooling. This lowers uncertainty for firms that can build infrastructure before mandatory participation begins.
@@ -868,6 +880,18 @@ Candidates: 82
 - Possible initial budget:
 - Source URLs: https://www.dtcc.com/products-and-services/digital-assets/tokenization/hub; https://www.dtcc.com/products-and-services/digital-assets/tokenization/live-production-trades
 
+## Application-specific cobot and machine-vision retrofit assessment for Chilean agroprocessors
+- Status: watch | robotics_agritech
+- Current idea: The opportunity is not importing an unproven robot or claiming an empty market. A small operator could test a narrow lead-generation and application-engineering wedge around one repetitive agroindustrial task, using existing local suppliers rather than holding inventory.
+- Potential economic capture: Sell a paid or supplier-sponsored feasibility assessment for one process—such as palletizing, repetitive pick-and-place or visual quality inspection—covering cycle-time observation, safety constraints, required components, indicative supplier quotation and a go/no-go recommendation. No equipment price, buyer, margin or conversion rate is evidenced, so these must be validated before scaling.
+- **Research routes to test (NOT validated claims):**
+  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
+  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
+  - Arrange a bounded field validation with an actual farm operator before scaling.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://fairino.cl/; https://thunderrobotics.cl/
+
 ## Chile RaaS deployment wedge for industrial-floor cleaning
 - Status: watch | robotics_agritech
 - Current idea: A small operator does not need to import or finance a robot before validating demand. The executable wedge is lead generation, site qualification and paid pilot coordination for one narrow facility type, using an existing local supplier and its published commercial terms. No buyer, savings or margin is assumed until a facility accepts a site assessment and receives a formal quote.
@@ -975,15 +999,3 @@ Candidates: 82
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://ifr.org/ifr-press-releases/news/us-robot-industry-returns-to-double-digit-growth; https://ifr.org/post/exciting-times-for-robot-suppliers; https://github.com/nexform-tech/litearm-mujoco
-
-## Small-scale hydroponic leafy-greens production only where local preorders support premium pricing
-- Status: watch | robotics_agritech
-- Current idea: The defensible opportunity is a low-capital validation of a local, high-turnover leafy-greens wedge—not a capital-intensive vertical farm. Hydroponics may work when a producer can obtain committed buyers, short delivery distances, and a price above the modeled CLP 800 reference. Indoor LED farming is especially weak as an untested proposition because energy is a major operating cost and Chilean evidence here supports outdoor/greenhouse hydroponics more directly than fully indoor farming. ([inside-grower.com](https://www.inside-grower.com/utility/PDF.aspx?id=26248&pagename=viewarticle.aspx&pub=IG&utm_source=openai))
-- Potential economic capture: Cash flow would come from pre-sold lettuce, herbs, or mixed greens delivered to identified households, restaurants, or specialty retailers. No specific buyer, recurring order, or current local price has been verified, so the economic mechanism must be tested with deposits rather than inferred from the INIA model.
-- **Research routes to test (NOT validated claims):**
-  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
-  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
-  - Arrange a bounded field validation with an actual farm operator before scaling.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://es.scribd.com/document/1014311150/BOLETIN-1-INIA-FIA-Manejo-Sanitario-y-Otros-InIA-Chile; https://www.inside-grower.com/utility/PDF.aspx?id=26248&pagename=viewarticle.aspx&pub=IG

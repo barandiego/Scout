@@ -2342,6 +2342,42 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use the CMF developer portal, technical annex and sandbox/test environment as the basis for a one-week demonstrator. Contact small Chilean fintechs, payment providers or financial-data operators found through public CMF registers and ask whether they will pay for a scoped compatibility test. Lowest-cost falsification: conduct ten structured outreach attempts and offer one no-cost 60-minute gap review; proceed only if at least one qualified entity supplies technical documentation, grants test access, or agrees in writing to a paid pilot. Do not represent the operator as a regulated participant or provide regulated financial services without checking applicable CMF requirements.",
+      "current_thesis": "Entities that will need to participate may face integration, consent, testing and interoperability work before the July 2027 obligation. The evidence supports a narrow pre-compliance testing wedge, not a claim that a market or buyer has already been secured.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Pre-compliance Open Finance connectivity test for Chilean fintechs and smaller financial entities",
+      "opportunity_id": "opp_bc3b9a823961fadca8e1",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://cmfchile.cl/portal/principal/613/articles-72652_doc_pdf.pdf"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Offer a fixed-scope technical readiness test: map one prospective participant’s data-access and payment-initiation workflow against the CMF technical annex, build a non-production connector or mock integration, and deliver a gap report. Charge only after a prospective participant agrees to a paid diagnostic; no price is evidenced publicly.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Build or sell SFA conformance testing, consent-management, API monitoring, data normalization, fraud controls, or integration middleware; participate in ATENA testing; partner with regulated institutions or prospective SFA providers.",
       "current_thesis": "The near-term bottleneck is shifting from legal authorization to implementation capacity: consent management, API interoperability, security testing, participant-directory integration, and compliance tooling. This lowers uncertainty for firms that can build infrastructure before mandatory participation begins.",
       "founder_hours_initial_unverified_estimate": "",
@@ -2766,6 +2802,42 @@
       "category": "robotics_agritech",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Select one task and one region, obtain supplier permission or referral terms before representing any equipment, and approach agroprocessors through public contact channels, industry associations or site visits. Use the integrators’ existing evaluation forms and request a supplier quotation only after a prospect describes a real process. Lowest-cost falsification: interview or visit ten agroprocessors, document whether the same task exists, and seek three written requests for a quotation or feasibility study; abandon the wedge if prospects will not share process data or accept a paid diagnostic.",
+      "current_thesis": "The opportunity is not importing an unproven robot or claiming an empty market. A small operator could test a narrow lead-generation and application-engineering wedge around one repetitive agroindustrial task, using existing local suppliers rather than holding inventory.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile, with an initial focus on Maule and central Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Application-specific cobot and machine-vision retrofit assessment for Chilean agroprocessors",
+      "opportunity_id": "opp_7e02ca9e2e24b8ac6b6b",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
+        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
+        "Arrange a bounded field validation with an actual farm operator before scaling."
+      ],
+      "supporting_source_urls": [
+        "https://fairino.cl/",
+        "https://thunderrobotics.cl/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a paid or supplier-sponsored feasibility assessment for one process—such as palletizing, repetitive pick-and-place or visual quality inspection—covering cycle-time observation, safety constraints, required components, indicative supplier quotation and a go/no-go recommendation. No equipment price, buyer, margin or conversion rate is evidenced, so these must be validated before scaling.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "robotics_agritech",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Select one facility class, such as warehouses or supermarkets. Use the supplier's public contact route to request written authorization for referrals and a no-cost or fixed-price pilot structure. Approach 10 locally identifiable facilities without claiming savings; ask only for permission to measure floor area, cleaning labor hours and operating constraints. Lowest-cost falsification: obtain three written facility responses and one supplier quote for the same site. Stop if no facility permits measurement, the supplier declines a channel arrangement, or the quoted deployment cannot be compared with the facility's documented cleaning cost.",
       "current_thesis": "A small operator does not need to import or finance a robot before validating demand. The executable wedge is lead generation, site qualification and paid pilot coordination for one narrow facility type, using an existing local supplier and its published commercial terms. No buyer, savings or margin is assumed until a facility accepts a site assessment and receives a formal quote.",
       "founder_hours_initial_unverified_estimate": "",
@@ -3106,46 +3178,10 @@
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Sell a narrowly defined deployment package for one repeatable task—such as pick-and-place, palletizing, or machine tending—including a simulated motion program, commissioning checklist, cycle-time measurement, and handoff documentation. The concrete asset is a reusable task-specific deployment template rather than a general automation consultancy.",
       "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "robotics_agritech",
-      "commercially_validated": false,
-      "competition_confirmed": false,
-      "current_participation_path": "Use or rent a small existing greenhouse or sheltered area instead of building a vertical farm. Produce one pilot crop cycle using a floating-root system, collect signed or paid weekly orders before planting, and record actual electricity, labor, mortality, water, packaging, delivery, and realized selling price. Falsification test: obtain at least 20 paid units or two repeat restaurant orders at a price above fully loaded pilot cost before purchasing a larger NFT or indoor system. If customers will not prepay or repeat at the required price, abandon the wedge.",
-      "current_thesis": "The defensible opportunity is a low-capital validation of a local, high-turnover leafy-greens wedge—not a capital-intensive vertical farm. Hydroponics may work when a producer can obtain committed buyers, short delivery distances, and a price above the modeled CLP 800 reference. Indoor LED farming is especially weak as an untested proposition because energy is a major operating cost and Chilean evidence here supports outdoor/greenhouse hydroponics more directly than fully indoor farming. ([inside-grower.com](https://www.inside-grower.com/utility/PDF.aspx?id=26248&pagename=viewarticle.aspx&pub=IG&utm_source=openai))",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "Chile, location-dependent",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "Small-scale hydroponic leafy-greens production only where local preorders support premium pricing",
-      "opportunity_id": "opp_57e35ef0850d9ba16936",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
-        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
-        "Arrange a bounded field validation with an actual farm operator before scaling."
-      ],
-      "supporting_source_urls": [
-        "https://es.scribd.com/document/1014311150/BOLETIN-1-INIA-FIA-Manejo-Sanitario-y-Otros-InIA-Chile",
-        "https://www.inside-grower.com/utility/PDF.aspx?id=26248&pagename=viewarticle.aspx&pub=IG"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "Cash flow would come from pre-sold lettuce, herbs, or mixed greens delivered to identified households, restaurants, or specialty retailers. No specific buyer, recurring order, or current local price has been verified, so the economic mechanism must be tested with deposits rather than inferred from the INIA model.",
-      "willingness_to_pay_confirmed": false
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-18T08:19:39.338084+00:00",
+  "generated_at": "2026-10-18T12:18:54.766137+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

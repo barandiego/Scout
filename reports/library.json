@@ -4333,6 +4333,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-18T12:18:29.612911+00:00",
+      "discovery_lens": "chile_technology_import",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Chile-based FAIRINO representation advertises collaborative robots, AMR, palletizing, pick-and-place, welding, vision, local engineering support and a 3–30 kg product range.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "FAIRINO Chile | Robots colaborativos, AMR, paletizado y automatización",
+          "url": "https://fairino.cl/"
+        },
+        {
+          "claim": "A Maule-based integrator advertises agroindustrial automation, machine vision, teleoperation and remote monitoring, and provides a public contact route for process challenges.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Thunder Robotics — Ingeniería Robótica para la Agroindustria",
+          "url": "https://thunderrobotics.cl/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.82,
+      "falsification_conditions": [],
+      "geography": "Chile, with an initial focus on Maule and central Chile",
+      "id": "opp_7e02ca9e2e24b8ac6b6b",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-18T12:18:29.632500+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Select one task and one region, obtain supplier permission or referral terms before representing any equipment, and approach agroprocessors through public contact channels, industry associations or site visits. Use the integrators’ existing evaluation forms and request a supplier quotation only after a prospect describes a real process. Lowest-cost falsification: interview or visit ten agroprocessors, document whether the same task exists, and seek three written requests for a quotation or feasibility study; abandon the wedge if prospects will not share process data or accept a paid diagnostic.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The opportunity is not importing an unproven robot or claiming an empty market. A small operator could test a narrow lead-generation and application-engineering wedge around one repetitive agroindustrial task, using existing local suppliers rather than holding inventory.",
+      "title": "Application-specific cobot and machine-vision retrofit assessment for Chilean agroprocessors",
+      "type": "application_specific_automation",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell a paid or supplier-sponsored feasibility assessment for one process—such as palletizing, repetitive pick-and-place or visual quality inspection—covering cycle-time observation, safety constraints, required components, indicative supplier quotation and a go/no-go recommendation. No equipment price, buyer, margin or conversion rate is evidenced, so these must be validated before scaling.",
+      "verified_sales": null,
+      "vertical": "robotics_agritech",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-15T16:24:52.024890+00:00",
       "discovery_lens": "cost_curve",
       "estimated_capital": "",
@@ -5521,6 +5575,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-18T12:18:29.612327+00:00",
+      "discovery_lens": "underserved_buyers",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF published the technical annex, developer portal, testing/sandbox arrangements and July 2027 entry into force for the amended Open Finance System rules.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        },
+        {
+          "claim": "CMF implementation material documents the Fintech Law and Open Finance System implementation context.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Implementación del Sistema de Finanzas Abiertas",
+          "url": "https://cmfchile.cl/portal/principal/613/articles-72652_doc_pdf.pdf"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.9,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_bc3b9a823961fadca8e1",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-18T12:18:29.632407+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use the CMF developer portal, technical annex and sandbox/test environment as the basis for a one-week demonstrator. Contact small Chilean fintechs, payment providers or financial-data operators found through public CMF registers and ask whether they will pay for a scoped compatibility test. Lowest-cost falsification: conduct ten structured outreach attempts and offer one no-cost 60-minute gap review; proceed only if at least one qualified entity supplies technical documentation, grants test access, or agrees in writing to a paid pilot. Do not represent the operator as a regulated participant or provide regulated financial services without checking applicable CMF requirements.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Entities that will need to participate may face integration, consent, testing and interoperability work before the July 2027 obligation. The evidence supports a narrow pre-compliance testing wedge, not a claim that a market or buyer has already been secured.",
+      "title": "Pre-compliance Open Finance connectivity test for Chilean fintechs and smaller financial entities",
+      "type": "regulatory_catalyst",
+      "unknowns": [],
+      "value_capture_mechanism": "Offer a fixed-scope technical readiness test: map one prospective participant’s data-access and payment-initiation workflow against the CMF technical annex, build a non-production connector or mock integration, and deliver a gap report. Charge only after a prospective participant agrees to a paid diagnostic; no price is evidenced publicly.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-15T04:22:32.106669+00:00",
       "discovery_lens": "ai_open_source",
       "estimated_capital": "",
@@ -5737,60 +5845,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-15T00:22:35.658248+00:00",
-      "discovery_lens": "vertical_farming_economics",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "The INIA/FIA material reports Chilean reference installation, energy, labor, production, and profitability calculations for 20 m² floating-root and NFT lettuce systems, including a CLP 800 per-unit modeled selling price.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Boletín INIA-FIA: Manejo Sanitario y Otros",
-          "url": "https://es.scribd.com/document/1014311150/BOLETIN-1-INIA-FIA-Manejo-Sanitario-y-Otros-InIA-Chile"
-        },
-        {
-          "claim": "The industry article identifies energy as a major operating-cost component of indoor farming, supporting caution against assuming that fully indoor LED production has the same economics as low-energy hydroponic greenhouse production.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "The Cost of Indoor Farming",
-          "url": "https://www.inside-grower.com/utility/PDF.aspx?id=26248&pagename=viewarticle.aspx&pub=IG"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.84,
-      "falsification_conditions": [],
-      "geography": "Chile, location-dependent",
-      "id": "opp_57e35ef0850d9ba16936",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-15T00:22:35.683544+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Use or rent a small existing greenhouse or sheltered area instead of building a vertical farm. Produce one pilot crop cycle using a floating-root system, collect signed or paid weekly orders before planting, and record actual electricity, labor, mortality, water, packaging, delivery, and realized selling price. Falsification test: obtain at least 20 paid units or two repeat restaurant orders at a price above fully loaded pilot cost before purchasing a larger NFT or indoor system. If customers will not prepay or repeat at the required price, abandon the wedge.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "The defensible opportunity is a low-capital validation of a local, high-turnover leafy-greens wedge—not a capital-intensive vertical farm. Hydroponics may work when a producer can obtain committed buyers, short delivery distances, and a price above the modeled CLP 800 reference. Indoor LED farming is especially weak as an untested proposition because energy is a major operating cost and Chilean evidence here supports outdoor/greenhouse hydroponics more directly than fully indoor farming. ([inside-grower.com](https://www.inside-grower.com/utility/PDF.aspx?id=26248&pagename=viewarticle.aspx&pub=IG&utm_source=openai))",
-      "title": "Small-scale hydroponic leafy-greens production only where local preorders support premium pricing",
-      "type": "preorder_production_test",
-      "unknowns": [],
-      "value_capture_mechanism": "Cash flow would come from pre-sold lettuce, herbs, or mixed greens delivered to identified households, restaurants, or specialty retailers. No specific buyer, recurring order, or current local price has been verified, so the economic mechanism must be tested with deposits rather than inferred from the INIA model.",
-      "verified_sales": null,
-      "vertical": "robotics_agritech",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-04T03:07:07.122051+00:00",
       "discovery_lens": "tokenization_finance",
       "estimated_capital": "",
@@ -5952,13 +6006,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-18T08:19:39.271425+00:00",
+  "generated_at": "2026-10-18T12:18:54.732682+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 46,
+  "rejected_excluded": 47,
   "reviewed_cards": 43,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 128,
-  "watch": 82
+  "total_distinct_opportunities": 130,
+  "watch": 83
 }

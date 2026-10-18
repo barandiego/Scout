@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-18T08:19:39.271425+00:00
+Generated: 2026-10-18T12:18:54.732682+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 82 (0 HQ survivors, 82 watches)
-- Rejected opportunities excluded: 46
+- Active research: 83 (0 HQ survivors, 83 watches)
+- Rejected opportunities excluded: 47
 - Critic-and-judge reviewed: 43
 - Autonomous execution authorization: 0
 
@@ -533,6 +533,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.bcn.cl/leychile/navegar?i=1212631; https://www.cne.cl/tarificacion/electrica/
 
+### Application-specific cobot and machine-vision retrofit assessment for Chilean agroprocessors [opp_7e02ca9e2e24b8ac6b6b]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile, with an initial focus on Maule and central Chile
+- Thesis: The opportunity is not importing an unproven robot or claiming an empty market. A small operator could test a narrow lead-generation and application-engineering wedge around one repetitive agroindustrial task, using existing local suppliers rather than holding inventory.
+- Value capture: Sell a paid or supplier-sponsored feasibility assessment for one process—such as palletizing, repetitive pick-and-place or visual quality inspection—covering cycle-time observation, safety constraints, required components, indicative supplier quotation and a go/no-go recommendation. No equipment price, buyer, margin or conversion rate is evidenced, so these must be validated before scaling.
+- Participation hypothesis: Select one task and one region, obtain supplier permission or referral terms before representing any equipment, and approach agroprocessors through public contact channels, industry associations or site visits. Use the integrators’ existing evaluation forms and request a supplier quotation only after a prospect describes a real process. Lowest-cost falsification: interview or visit ten agroprocessors, document whether the same task exists, and seek three written requests for a quotation or feasibility study; abandon the wedge if prospects will
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://fairino.cl/; https://thunderrobotics.cl/
+
 ### Battery-project dispatch and revenue-stack verification for Texas and California assets [opp_85d154e0b319e93cb301]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States, especially Texas and California
 - Thesis: More battery assets create a concrete need to verify whether dispatch behavior, market participation, and operating data support the revenue assumptions used in project financing, acquisition, or asset-management decisions.
@@ -753,6 +763,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://tarjetas-nfc.com/; https://www.ondda.cl/
 
+### Pre-compliance Open Finance connectivity test for Chilean fintechs and smaller financial entities [opp_bc3b9a823961fadca8e1]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Entities that will need to participate may face integration, consent, testing and interoperability work before the July 2027 obligation. The evidence supports a narrow pre-compliance testing wedge, not a claim that a market or buyer has already been secured.
+- Value capture: Offer a fixed-scope technical readiness test: map one prospective participant’s data-access and payment-initiation workflow against the CMF technical annex, build a non-production connector or mock integration, and deliver a gap report. Charge only after a prospective participant agrees to a paid diagnostic; no price is evidenced publicly.
+- Participation hypothesis: Use the CMF developer portal, technical annex and sandbox/test environment as the basis for a one-week demonstrator. Contact small Chilean fintechs, payment providers or financial-data operators found through public CMF registers and ask whether they will pay for a scoped compatibility test. Lowest-cost falsification: conduct ten structured outreach attempts and offer one no-cost 60-minute gap review; proceed only if at least one qualified entity supplies technical documentation, grants test access, or agrees in writing to a paid pilot. Do not
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/principal/613/articles-72652_doc_pdf.pdf
+
 ### Pre-spend and tool-use regression testing for AI agents using open attack corpora [opp_09bb69601be0706e7219]
 - Status: WATCH_REQUIRES_VALIDATION | innovation_adoption | Global; initial distribution can target Chilean and Latin American software teams
 - Thesis: Small teams deploying agents may be able to buy or commission a bounded test that identifies whether their agent can be induced to take unauthorized actions. The narrow wedge is an evidence-producing regression pack for one agent workflow, not generic AI consulting or a claim of comprehensive security.
@@ -792,16 +812,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://ers.usda.gov/data-products/charts-of-note/114160; https://ers.usda.gov/sites/default/files/_laserfiche/publications/113706/ERR-356.pdf?v=31391
-
-### Small-scale hydroponic leafy-greens production only where local preorders support premium pricing [opp_57e35ef0850d9ba16936]
-- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile, location-dependent
-- Thesis: The defensible opportunity is a low-capital validation of a local, high-turnover leafy-greens wedge—not a capital-intensive vertical farm. Hydroponics may work when a producer can obtain committed buyers, short delivery distances, and a price above the modeled CLP 800 reference. Indoor LED farming is especially weak as an untested proposition because energy is a major operating cost and Chilean evidence here supports outdoor/greenhouse hydroponics more directly than fully indoor farming. ([inside-grower.com](https://www.insi
-- Value capture: Cash flow would come from pre-sold lettuce, herbs, or mixed greens delivered to identified households, restaurants, or specialty retailers. No specific buyer, recurring order, or current local price has been verified, so the economic mechanism must be tested with deposits rather than inferred from the INIA model.
-- Participation hypothesis: Use or rent a small existing greenhouse or sheltered area instead of building a vertical farm. Produce one pilot crop cycle using a floating-root system, collect signed or paid weekly orders before planting, and record actual electricity, labor, mortality, water, packaging, delivery, and realized selling price. Falsification test: obtain at least 20 paid units or two repeat restaurant orders at a price above fully loaded pilot cost before purchasing a larger NFT or indoor system. If customers will not prepay or repeat at the required price, aba
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://es.scribd.com/document/1014311150/BOLETIN-1-INIA-FIA-Manejo-Sanitario-y-Otros-InIA-Chile; https://www.inside-grower.com/utility/PDF.aspx?id=26248&pagename=viewarticle.aspx&pub=IG
 
 ### Tokenized unified-ledger infrastructure is moving from concept toward financial-market architecture [opp_993ac5d080c7042af44c]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Global; Chile relevance through future interoperable financial-data and payment infrastructure

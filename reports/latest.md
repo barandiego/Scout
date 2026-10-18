@@ -1,10 +1,10 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-18T08:19:38.894364+00:00
+Generated: 2026-10-18T12:18:54.478546+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['cost_curve', 'open_finance_chile', 'adoption_lag']
+- lenses: ['underserved_buyers', 'seller_supply_gap', 'chile_technology_import']
 - raw_candidates: 2
 - parseable_candidates: 2
 - normalized_candidates: 2
@@ -20,9 +20,9 @@ Generated: 2026-10-18T08:19:38.894364+00:00
 - rejected: 1
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.0420089
+- cost_usd: 0.04483965
 - cost_uncertain: False
-- budget_remaining_usd: 0.0379911
+- budget_remaining_usd: 0.03516035
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,8 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- SEC-verified solar-plus-storage prequalification for Chilean small businesses: deferred_by_review_cap
-- Chile SFA/ATENA interoperability test harness for small fintechs: deferred_by_review_cap
 - Self-hosted browser-automation deployment for one repetitive Chilean back-office workflow: deferred_by_review_cap
 - Chile Open Finance interoperability pre-test harness for prospective SFA participants: deferred_by_review_cap
 - NYISO DER enrollment and telemetry wedge for 10–100 kW commercial assets: deferred_by_review_cap
@@ -51,12 +49,14 @@ No survivors. Scout does not manufacture a daily winner.
 - Chile beauty replenishment and gifting bundles around Natura’s new Falabella channel: deferred_by_review_cap
 - Chile SFA interoperability test harness for smaller financial institutions: deferred_by_review_cap
 - Independent retrofit and field-validation service for low-cost agricultural weeding robots: deferred_by_review_cap
+- Pre-compliance Open Finance connectivity test for Chilean fintechs and smaller financial entities: deferred_by_review_cap
+- Application-specific cobot and machine-vision retrofit assessment for Chilean agroprocessors: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "research_queue_unreviewed=34"
+    "research_queue_unreviewed=35"
   ],
   "stages": [
     {
@@ -64,37 +64,34 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 29,
+      "grounded_source_count": 26,
       "search_source_urls": [
-        "https://arxiv.org/abs/2112.02162",
-        "https://arxiv.org/abs/2509.25056",
-        "https://arxiv.org/abs/2512.10319",
-        "https://en.wikipedia.org/wiki/Agricultural_robot",
-        "https://fira-usa.com/wp-content/uploads/2025/10/FIRA-2025-Final-Press-Release.pdf",
-        "https://www.bcentral.cl/areas/politica-financiera/regulacion-prudencial",
-        "https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836",
-        "https://www.bcentral.cl/en/web/banco-central/areas/financial-markets/systems",
-        "https://www.bcentral.cl/es/areas/politica-financiera/informe-de-sistemas-de-pago",
-        "https://www.bcentral.cl/es/web/banco-central/areas/normativas/compendio-de-normas-monetarias-y-financieras",
-        "https://www.cmfchile.cl/educa/621/w3-article-69966.html",
-        "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa_tramite_cerrada.php",
-        "https://www.cmfchile.cl/institucional/mercados/consulta.php?Estado=VI&entidad=RGPSF&mercado=O",
-        "https://www.cmfchile.cl/portal/prensa/615/articles-79433_doc_pdf.pdf?ts=1710518028",
+        "https://arxiv.org/abs/2307.09874",
+        "https://cmfchile.cl/portal/principal/613/articles-72652_doc_pdf.pdf",
+        "https://en.wikipedia.org/wiki/Falabella_%28retail_store%29",
+        "https://en.wikipedia.org/wiki/FarmWise",
+        "https://en.wikipedia.org/wiki/Harvest_Automation",
+        "https://en.wikipedia.org/wiki/S.A.C.I._Falabella",
+        "https://es.wikipedia.org/wiki/Falabella",
+        "https://es.wikipedia.org/wiki/Grupo_Falabella",
+        "https://fairino.cl/",
+        "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/",
+        "https://falabellaretail.falabella.com/tiendas/",
+        "https://falabellaretail.falabella.com/wp-content/uploads/2025/05/OR_REPORTE_FALABELLA_2024_v3.pdf",
+        "https://motionyx.com/",
+        "https://production.na01.natura.com/on/demandware.static/-/Sites-NatChile-Library/default/v4451a1d4e6abdb654aa976752e4626774c6ec279/landing-page/sustentabilidad/PDFs/Informe_Integrado_Natura_Co_2024_vf-22-09-2025.pdf",
+        "https://thunderrobotics.cl/",
+        "https://www.agrotechagricola.cl/",
         "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
-        "https://www.cmfchile.cl/portal/principal/613/articles-83451_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48738.html",
-        "https://www.greenbeam.us/",
-        "https://www.lccmr.mn.gov/projects/2024/approved_work_plans/2024-076_approved_workplan.pdf",
-        "https://www.lccmr.mn.gov/proposals/2024/originals/proposal_2024-076.pdf",
-        "https://www.reddit.com/r/AgriTech/comments/1wwguu8/ndsu_rowcrop_robot_achieves_965_weeding_accuracy/",
-        "https://www.reddit.com/r/InterstellarKinetics/comments/1tfcly3/exclusive_american_farmers_are_deploying_laser/",
-        "https://www.reddit.com/r/STEW_ScTecEngWorld/comments/1ogi600",
-        "https://www.reddit.com/r/farming/comments/1hxqzku",
-        "https://www.reddit.com/r/hwstartups/comments/1qxq91n/engineering_student_startup_autonomous_weeding/",
-        "https://www.reddit.com/r/robotics/comments/1kxmal0/we_built_weedwarden_an_autonomous_weed_control/",
-        "https://www.reddit.com/r/robotics/comments/1l6z2s3/update_on_autonomous_weed_removal_rover/",
-        "https://www.sbir.gov/awards/214988"
+        "https://www.cmfchile.cl/portal/principal/613/articles-82381_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.falabella.com/falabella-cl/brand/NATURA",
+        "https://www.falabella.com/falabella-cl/seller/Natura",
+        "https://www.fne.gob.cl/wp-content/uploads/2019/12/aprob54a_F207_2019.pdf",
+        "https://www.klever-robotics.com/",
+        "https://www.natura.cl/encuentra-natura",
+        "https://www.reddit.com/r/RepublicadeChile/comments/1m7kvqz",
+        "https://www.reddit.com/r/chileIT/comments/1n5q0pa/duda_de_totalmente_de_curioso_qu%C3%A9_pasar%C3%ADa_si/"
       ]
     },
     {
@@ -129,41 +126,58 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_90381bb2b8d50013dbb1",
+      "candidate_id": "opp_57e35ef0850d9ba16936",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 18,
+      "grounded_source_count": 34,
       "search_source_urls": [
-        "https://chambers.com/downloads/gpg/931/data-protection-and-privacy-2024.pdf",
-        "https://en.wikipedia.org/wiki/Ley_Org%C3%A1nica_de_Protecci%C3%B3n_de_Datos_de_Car%C3%A1cter_Personal",
-        "https://necessaryandproportionate.org/uploads/2020-chile-en-faq.pdf",
-        "https://sosmee.com/en",
-        "https://tnfc.cl/",
-        "https://tnfc.cl/producto/tarjeta-nfc-de-presentacion-digital/",
-        "https://tnfc.cl/tienda/",
-        "https://www.bcn.cl/leychile/Navegar/imprimir?idNorma=141599&idParte=&idVersion=2026-12-01",
-        "https://www.bcn.cl/leychile/Navegar?dt=open&idLey=19628",
-        "https://www.bcn.cl/leychile/Navegar?idNorma=141599&idVersion=2023-05-09",
-        "https://www.bcn.cl/leychile/navegar?idNorma=141599&idParte=10528065&idVersion=2026-12-01",
-        "https://www.bcn.cl/leychile/navegar?idNorma=141599&idParte=8642686&idVersion=2026-12-01",
-        "https://www.ilo.org/sites/default/files/wcmsp5/groups/public/%40ed_dialogue/%40sector/documents/publication/wcms_921163.pdf",
-        "https://www.oecd.org/content/dam/oecd/en/publications/reports/2019/10/digital-government-in-chile-digital-identity_fe2e87b3/9ecba35e-en.pdf",
-        "https://www.privacysecurityacademy.com/wp-content/uploads/2025/05/DG-march-2025-dpl-report.pdf",
-        "https://www.sosmee.com/",
-        "https://www.sosmee.com/en",
-        "https://www.sosmee.com/es/products/sosmee-band"
+        "https://arxiv.org/abs/2507.21669",
+        "https://arxiv.org/abs/2609.27118",
+        "https://ca41d6b729.nxcli.io/assets/research-database/Allende-2014-Publication-10.pdf",
+        "https://elpais.com/chile/2026-07-07/cuanto-subira-la-cuenta-de-la-luz-en-chile-revise-el-alza-de-este-mes-y-como-calcular-la-boleta.html",
+        "https://en.wikipedia.org/wiki/Agriculture_in_Chile",
+        "https://en.wikipedia.org/wiki/Chile",
+        "https://en.wikipedia.org/wiki/Climate_of_Chile",
+        "https://en.wikipedia.org/wiki/Environmental_issues_in_Chile",
+        "https://en.wikipedia.org/wiki/Lettuce",
+        "https://es.scribd.com/document/1014311150/BOLETIN-1-INIA-FIA-Manejo-Sanitario-y-Otros-InIA-Chile",
+        "https://es.scribd.com/document/65212000/nft",
+        "https://es.wikipedia.org/wiki/Cambio_clim%C3%A1tico_en_Chile",
+        "https://iea.blob.core.windows.net/assets/f545917a-b119-4495-957b-fcc263deb391/Electricity_2026.pdf",
+        "https://ipm.ucanr.edu/legacy_assets/PDF/PMG/pmglettuce.pdf",
+        "https://repositorioinstitucional.ucm.cl/items/0b90f307-4fc7-457b-aa6f-4428605b4bed",
+        "https://www.agroprice.cl/precio/lechuga/mayorista-lo-valledor",
+        "https://www.chileagricola.cl/precios-mayoristas/",
+        "https://www.cne.cl/en/tarificacion/electrica/tarificacion-sistemas-medianos/proceso-de-tarificacion-2026-2030/",
+        "https://www.fao.org/4/i0526e/i0526e.pdf",
+        "https://www.govinfo.gov/content/pkg/GOVPUB-A-PURL-gpo19825/pdf/GOVPUB-A-PURL-gpo19825.pdf",
+        "https://www.inia.cl/2026/09/16/inia-pone-a-prueba-la-hidroponia-con-aguas-salinas-en-huasco/",
+        "https://www.mdpi.com/2311-7524/12/8/972",
+        "https://www.minsal.cl/reglamento-sanitario-de-los-alimentos/",
+        "https://www.nifa.usda.gov/sites/default/files/resource/Lettuce%20Good%20Agricultural%20Practices508.pdf",
+        "https://www.odepa.gob.cl/precios/mayoristas-frutas-y-hortalizas",
+        "https://www.reddit.com/r/Hydroponics/comments/135677s",
+        "https://www.reddit.com/r/Hydroponics/comments/1cikupf",
+        "https://www.reddit.com/r/Hydroponics/comments/1efz1j4",
+        "https://www.reddit.com/r/PrepperIntel/comments/1ugpqvf/produce_alliance_report_062626/",
+        "https://www.reddit.com/r/phinvest/comments/14nqief/starting_up_a_hydroponic_farming_business_got_any/",
+        "https://www.reddit.com/r/phinvest/comments/1grlaeo/is_doing_agriculture_hydrophonic_a_profitable/",
+        "https://www.reddit.com/r/verticalfarming/comments/1hkjvao",
+        "https://www.tridge.com/market-overview/fresh-lettuce/CL",
+        "https://www.verdufresh.cl/producto/lechuga-hidroponica/"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_90381bb2b8d50013dbb1",
+      "candidate_id": "opp_57e35ef0850d9ba16936",
       "coercions": [
+        "critic_case",
         "contrary_evidence"
       ]
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_90381bb2b8d50013dbb1",
+      "candidate_id": "opp_57e35ef0850d9ba16936",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -171,7 +185,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_90381bb2b8d50013dbb1",
+      "candidate_id": "opp_57e35ef0850d9ba16936",
       "coercions": []
     }
   ],
@@ -179,44 +193,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 160,
-      "cache_write_tokens": 5405,
+      "reasoning_tokens": 232,
+      "cache_write_tokens": 5635,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01458965,
+      "cumulative_cost_usd": 0.01464235,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13965,
+      "input_tokens": 14045,
       "cached_tokens": 0,
-      "output_tokens": 1272,
+      "output_tokens": 1293,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01458965
+      "estimated_cost_usd": 0.01464235
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 122,
-      "cache_write_tokens": 5351,
+      "reasoning_tokens": 159,
+      "cache_write_tokens": 5540,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0294064,
+      "cumulative_cost_usd": 0.02973915,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13656,
+      "input_tokens": 13773,
       "cached_tokens": 0,
-      "output_tokens": 1515,
+      "output_tokens": 1721,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01481675
+      "estimated_cost_usd": 0.0150968
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 54,
-      "cache_write_tokens": 2581,
+      "reasoning_tokens": 45,
+      "cache_write_tokens": 3297,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0420089,
+      "cumulative_cost_usd": 0.04483965,
       "model": "gpt-5.6-terra",
-      "input_tokens": 2584,
+      "input_tokens": 3300,
       "cached_tokens": 0,
-      "output_tokens": 512,
+      "output_tokens": 571,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.0126025
+      "estimated_cost_usd": 0.0151005
     }
   ]
 }
