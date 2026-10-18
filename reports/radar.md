@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-17T20:50:14.958749+00:00
+Generated: 2026-10-18T01:06:40.052562+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 100
+- New this cycle: 96
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 265, ai 282, commerce 36, energy 581, robotics 636
+- Categories: agriculture 262, ai 286, commerce 36, energy 579, robotics 637
 
 ## Recently encountered signals
+
+### Real-Time Fuzzy Energy Management with Nighttime Progress Index and State of Charge Protection for Microgrids with Photovoltaic Generation and Battery Energy Storage
+- Source: https://doi.org/10.1016/j.rineng.2026.113575
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
 
 ### laxminaiknaik1-byte/AgriVision-AI
 - Source: https://github.com/laxminaiknaik1-byte/AgriVision-AI
@@ -212,6 +218,12 @@ Generated: 2026-10-17T20:50:14.958749+00:00
 
 ### Opportunities and challenges of integrating battery energy storage in the electricity grid – perspectives from distribution system operators
 - Source: https://doi.org/10.66506/essp.172
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### The Optimal Integration of Photovoltaic (PV) and Battery Energy Storage Systems in Power Distribution Using Hybrid Flower Pollination and β-Hill Climbing
+- Source: https://doi.org/10.31963/elekterika.v22i2.5805
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
@@ -446,18 +458,6 @@ Generated: 2026-10-17T20:50:14.958749+00:00
 
 ### kapish63790-heven/AGRO-NEXUS
 - Source: https://github.com/kapish63790-heven/AGRO-NEXUS
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### parellibheemesh/smart-farming-agro-market-ai-frontend
-- Source: https://github.com/parellibheemesh/smart-farming-agro-market-ai-frontend
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### sumukhsmurthy3340/AI-Powered-Smart-Agriculture-System
-- Source: https://github.com/sumukhsmurthy3340/AI-Powered-Smart-Agriculture-System
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
