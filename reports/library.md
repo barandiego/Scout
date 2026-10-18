@@ -1,10 +1,10 @@
 # Scout — opportunity library
 
-Generated: 2026-10-18T00:21:56.177458+00:00
+Generated: 2026-10-18T04:21:10.921718+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 80 (0 HQ survivors, 80 watches)
+- Active research: 81 (0 HQ survivors, 81 watches)
 - Rejected opportunities excluded: 45
 - Critic-and-judge reviewed: 43
 - Autonomous execution authorization: 0
@@ -563,6 +563,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.eia.gov/todayinenergy/detail.php?id=67925; https://www.ferc.gov/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.ferc.gov%2Fsites%2Fdefault%2Ffiles%2F2025-05%2FTX25-4-000.pdf
 
+### Chile beauty replenishment and gifting bundles around Natura’s new Falabella channel [opp_3b6c4274052085a9b5b0]
+- Status: WATCH_REQUIRES_VALIDATION | ecommerce_niches | Chile
+- Thesis: A new high-intent marketplace destination creates a testable opening for narrowly defined bundles, comparison-led gifting pages, or replenishment assortments rather than a broad beauty store. The opportunity depends on acquiring inventory legally and proving that bundle convenience or price transparency produces paid demand after marketplace fees, shipping and returns.
+- Value capture: Purchase-and-resale spread or bundle markup on compliant, authorized inventory; alternatively, commission or referral revenue only if the relevant marketplace or supplier program explicitly permits it. No margin or permission is assumed.
+- Participation hypothesis: First, verify Falabella seller eligibility, category restrictions, brand/resale requirements, fees, fulfillment terms and whether Natura products may be resold. Obtain written supplier authorization or use only products for which resale rights are documented. Then create one small test assortment—such as a fragrance/body-care gift bundle or a repeat-purchase body-care set—using no more than 5–10 SKUs whose individual prices and stock can be observed on Natura.cl and Falabella. List only through an approved seller route, or run a compliant landi
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.natura.cl/c/home; https://www.falabella.com/falabella-cl/seller/Natura
+
 ### Chile Open Finance conformance-testing wedge ahead of July 2027 implementation [opp_3b4a47b09fa6592f8c5b]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: Entities preparing for participation face a bounded interoperability and conformance problem before a specific regulatory deadline. A narrowly scoped test harness, request validator, fixture generator and implementation checklist could reduce integration risk without requiring the operator to become a regulated financial participant.
@@ -698,7 +708,7 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Thesis: The combination of a large, changing queue and withdrawals creates a narrowly defined data problem: normalize queue status, withdrawal history, transmission region, project technology, and likely time-to-interconnection into a research product. The economic value would depend on whether developers, lenders, brokers, or equipment suppliers pay for project-screening data; the evidence does not establish that willingness to pay.
 - Value capture: Offer a small paid dataset, monitoring subscription, or one-off queue-screening report focused on a single ISO/RTO and technology. Do not assume access to proprietary project data or permission to redistribute source datasets.
 - Participation hypothesis: Download the public DOE and relevant ISO/RTO queue files, select one region, and manually produce a 20-project screening sample with reproducible fields and source links. Post a public sample and request paid preorders or structured feedback from identifiable developers and consultants. Falsify if the data cannot be normalized cheaply, source terms restrict the intended use, or no qualified user agrees to evaluate a paid pilot.
-- Critic/judge: deferred_by_review_cap
+- Critic/judge: critic_invalid_output
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.energy.gov/documents/craig-order-202-26-31-pios-exhibits-3-01-3-07-july-24-2026; https://www.energy.gov/documents/motion-intervene-motion-clarification-and-request-rehearing-and-stay-public-interest-36

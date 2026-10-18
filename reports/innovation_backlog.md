@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 80
+Candidates: 81
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -51,6 +51,18 @@ Candidates: 80
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://tarjetas-nfc.com/; https://www.ondda.cl/
+
+## Chile beauty replenishment and gifting bundles around Natura’s new Falabella channel
+- Status: watch | ecommerce_niches
+- Current idea: A new high-intent marketplace destination creates a testable opening for narrowly defined bundles, comparison-led gifting pages, or replenishment assortments rather than a broad beauty store. The opportunity depends on acquiring inventory legally and proving that bundle convenience or price transparency produces paid demand after marketplace fees, shipping and returns.
+- Potential economic capture: Purchase-and-resale spread or bundle markup on compliant, authorized inventory; alternatively, commission or referral revenue only if the relevant marketplace or supplier program explicitly permits it. No margin or permission is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Target a specific neglected customer subgroup with a measurable unmet product requirement.
+  - Compare imported/private-label, inventoryless fulfillment and existing domestic suppliers after landed costs.
+  - Test one narrower search/intention channel before expanding catalog or buying inventory.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.natura.cl/c/home; https://www.falabella.com/falabella-cl/seller/Natura
 
 ## Narrow Chilean e-commerce returns-recovery test for one product category
 - Status: watch | ecommerce_niches

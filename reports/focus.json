@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-10-18T00:21:56.177458+00:00",
+  "generated_at": "2026-10-18T04:21:10.921718+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -104,14 +104,14 @@
   "high_concentration": [
     {
       "cards": 33,
-      "share": 0.412,
+      "share": 0.407,
       "theme": "chile_open_finance"
     }
   ],
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 31,
+  "theme_count": 32,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -215,6 +215,15 @@
       "representative_id": "opp_9ed2c5cffcc241526473",
       "reviewed_count": 0,
       "theme": "agricultural_weeding_robots"
+    },
+    {
+      "all_opportunity_ids": [
+        "opp_3b6c4274052085a9b5b0"
+      ],
+      "count": 1,
+      "representative_id": "opp_3b6c4274052085a9b5b0",
+      "reviewed_count": 0,
+      "theme": "ecommerce_niches:beauty_replenishment_gifting"
     },
     {
       "all_opportunity_ids": [
@@ -442,6 +451,6 @@
       "theme": "robotics_agritech:small_scale_hydroponic"
     }
   ],
-  "total_original_cards": 80,
+  "total_original_cards": 81,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }
