@@ -1263,9 +1263,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "Chile",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "The number of Chilean entities that will actually be required to participate and the subset lacking internal compliance or integration capability.",
+        "Whether simplified participation materially reduces implementation burden for the intended small-firm segment.",
+        "Whether ATENA will expose enough automated diagnostics to eliminate most of the proposed product's functionality.",
+        "Actual willingness to pay for a fixed-price readiness assessment versus free CMF resources or existing consultants.",
+        "Typical contract value, sales-cycle length, and procurement requirements among banks, payment institutions, PSBIs, PSIPs, IPIs, and IPCs.",
+        "Whether technical-annex changes will be frequent enough to support recurring monitoring revenue.",
+        "Whether customer data, screenshots, and API artifacts can be safely uploaded without creating confidentiality, cybersecurity, or professional-liability concerns."
       ],
       "investment_authorized": false,
       "name": "Chile Open Finance implementation-readiness scanner for small fintechs and accounting platforms",
@@ -1358,6 +1362,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "A fixed-price local test package: API conformance checks, consent-flow simulation, payment-initiation test cases, reproducible defect reports, and ATENA test-run assistance. A small operator should charge only after confirming that the target entity has an implementation project, budget authority, and permission to test its integration; no buyer, price, or conversion rate is established by the evidence.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Use only the CMF technical annex and developer materials to build a minimal local harness for one documented flow, such as consented account-information exchange. Test it against published examples or a mock participant, then publish a short technical demo and ask Chilean fintechs, payment firms or regulated institutions whether the harness covers their pre-production test cases. Do not assume registration, production access or regulatory approval; the lowest-cost falsification is failure to obtain two independent requests for a paid pilot or a clearly documented missing test requirement.",
+      "current_thesis": "A narrow implementation bottleneck exists before the July 2027 effective date: participating entities must test certificates, signatures, scheduled maintenance, directory enrollment, interoperability and consent-based data exchange. A reusable conformance harness could reduce integration and pre-production testing work without becoming a generic consulting practice.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile Open-Finance conformance and integration test harness",
+      "opportunity_id": "opp_feb43070f6dba35f263f",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A downloadable or hosted test harness containing protocol fixtures, certificate/signature validation, consent-flow simulators, API contract tests, audit-log templates and compliance-oriented test reports. Possible payment mechanisms are software licensing, paid test environments or fixed-price implementation packages; actual willingness to pay is unverified.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -3073,6 +3113,42 @@
       "category": "robotics_agritech",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Select one crop and one measurable output, such as apple counts by block or maturity distribution. Use a low-cost camera mounted on an ATV, utility vehicle or handheld rig, process a small sample and compare predictions with the grower's eventual harvest or packhouse records. Approach growers, extension contacts or packhouses only with a paid or unpaid sample protocol, without claiming validated commercial accuracy. Falsify cheaply by testing three blocks and abandoning the offer if measurement error is not useful for an actual scheduling decision or if no operator will permit a small trial.",
+      "current_thesis": "The narrow wedge is not selling a full harvesting robot. It is collecting orchard blocks' fruit-count, maturity or yield-estimate data before harvest so growers can improve harvest scheduling, labor allocation and packhouse planning. This can be tested with a rented or owner-operated camera/vehicle setup before any capital-intensive robotics deployment.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States specialty-crop regions",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Low-cost orchard maturity and yield-scanning service using commercially available sensors",
+      "opportunity_id": "opp_9c53621ef496fb65470a",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
+        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
+        "Arrange a bounded field validation with an actual farm operator before scaling."
+      ],
+      "supporting_source_urls": [
+        "https://www.nifa.usda.gov/about-nifa/impacts/automation-specialty-crops",
+        "https://www.ars.usda.gov/research/project/?accnNo=448156"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Per-block scouting reports, seasonal monitoring or a data package sold to an orchard, packhouse or harvest coordinator. The economic mechanism is payment for improved harvest-timing and labor-planning information; price, conversion rate and savings are not established by the cited evidence and must be tested.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "robotics_agritech",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Pick one crop and tightly bounded geography. Build a one-page offer for a supervised robotic-weeding trial, using an existing commercial platform rather than claiming ownership. Contact growers through local extension offices, crop associations, farm-equipment dealers and public grower directories; ask for acreage, weed-control method, timing and a paid/refundable reservation contingent on equipment availability. Lowest-cost falsification: interview at least ten growers and seek two written reservations or deposits at a stated trial price before leasing or purchasing equipment. Stop if growers will only express general interest or if no authorized equipment-access route is available.",
       "current_thesis": "The executable wedge is not building a new robot; it is testing whether a small operator can aggregate demand and sell scheduled robotic weeding, field trials, or seasonal access while outsourcing equipment ownership to an existing manufacturer, dealer or equipment financier. Actual unit economics remain unverified and depend on crop, acreage, transport, supervision and robot availability.",
       "founder_hours_initial_unverified_estimate": "",
@@ -3181,7 +3257,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-18T12:18:54.766137+00:00",
+  "generated_at": "2026-10-18T16:19:03.913407+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"
