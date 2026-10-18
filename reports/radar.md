@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-18T08:52:43.388272+00:00
+Generated: 2026-10-18T12:59:47.409275+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 106
+- New this cycle: 100
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 275, ai 274, commerce 35, energy 577, robotics 639
+- Categories: agriculture 280, ai 272, commerce 35, energy 565, robotics 648
 
 ## Recently encountered signals
 
@@ -220,6 +220,18 @@ Generated: 2026-10-18T08:52:43.388272+00:00
 - Source: https://doi.org/10.66506/essp.172
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### thanmaye09/Auto-machine-AI-advance-added-in-Farming-
+- Source: https://github.com/thanmaye09/Auto-machine-AI-advance-added-in-Farming-
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### saadthetic/AgriLens-ECO
+- Source: https://github.com/saadthetic/AgriLens-ECO
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
 
 ### The Optimal Integration of Photovoltaic (PV) and Battery Energy Storage Systems in Power Distribution Using Hybrid Flower Pollination and β-Hill Climbing
@@ -448,16 +460,4 @@ Generated: 2026-10-18T08:52:43.388272+00:00
 - Source: https://doi.org/10.2139/ssrn.7606952
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### pawan9834/KrushiAR
-- Source: https://github.com/pawan9834/KrushiAR
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### kapish63790-heven/AGRO-NEXUS
-- Source: https://github.com/kapish63790-heven/AGRO-NEXUS
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
