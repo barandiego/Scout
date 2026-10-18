@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-18T04:54:58.095773+00:00
+Generated: 2026-10-18T08:52:43.388272+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 88
+- New this cycle: 106
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 262, ai 280, commerce 35, energy 578, robotics 645
+- Categories: agriculture 275, ai 274, commerce 35, energy 577, robotics 639
 
 ## Recently encountered signals
 
