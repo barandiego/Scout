@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 78
+Candidates: 80
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -111,6 +111,18 @@ Candidates: 78
 - Critical gaps: Whether the cited January 1, 2026 AFCI requirement applies to the exact project classes, inverter configurations, and connection pathways targeted by the product, rather than only specified cases or alternatives.; Whether SEC or distributors accept the proposed equipment/documentation combinations in practice and what causes actual TE4 or related filing rejections.; Number of Chilean distributed BESS projects currently being designed, installed, or submitted through the relevant process.
 - Possible initial budget:
 - Source URLs: https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/; https://www.sec.cl/gda/; https://www.sec.cl/normas-tecnicas-electricas/
+
+## Commercial battery dispatch and performance verification for four-hour storage projects
+- Status: watch | energy_infrastructure
+- Current idea: As projects shift from simple backup toward energy shifting and grid services, owners need evidence that installed capacity, state of charge, availability and dispatch performance match contracted or market requirements. A narrow independent wedge is third-party data reconciliation and monthly performance verification using inverter, EMS, meter and market-settlement exports; it is not battery ownership or speculative arbitrage.
+- Potential economic capture: Potential cash flow is a fixed-fee verification or diagnostic engagement paid by an owner, operator, lender, insurer or EPC contractor. The sources verify the operational trend and system-value need, not a standard price or guaranteed customer demand.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage; https://www.iea.org/commentaries/battery-storage-is-scaling-up-and-taking-on-a-larger-system-role
 
 ## Congestion-aware battery and demand-response screening for constrained Chilean nodes
 - Status: watch | energy_infrastructure
@@ -828,7 +840,7 @@ Candidates: 78
   - Find overlooked fundamentals and a named accessible security with dated primary filings.
   - Compare risked intrinsic value, market expectations and specific downside scenarios.
   - Define catalysts and invalidation thresholds before any governed investment decision.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Current share prices, enterprise values, forward revenue and EBITDA multiples, and whether valuation already discounts the cited backlog.; Backlog cancellation, termination, change-order, milestone-payment, and customer-concentration terms for each company.; Gross-margin and free-cash-flow economics by data-center project, including working-capital requirements, warranty exposure, liquidated damages, and financing costs.
 - Possible initial budget:
 - Source URLs: https://www.sec.gov/Archives/edgar/data/929008/000092900826000021/wcc-2q2026slides.htm; https://www.sec.gov/Archives/edgar/data/2110029/000119312526344714/eroc-ex99_1.htm; https://www.sec.gov/Archives/edgar/data/1488139/000162828026051825/amerescoq22026supplement.htm
 
@@ -855,6 +867,18 @@ Candidates: 78
 - Critical gaps: Whether VIC Robotics will authorize or pay an independent referral, implementation, or site-assessment partner.; The exact commission, fee, gross margin, payment trigger, exclusivity, lead ownership, and attribution period.; Whether UF 20/month applies to the relevant industrial model, surface area, contract term, geography, and service level.
 - Possible initial budget:
 - Source URLs: https://www.vicrobotics.com/about; https://www.vicrobotics.com/; https://www.vicrobotics.com/soluciones/limpieza-industrial-bodegas
+
+## Food-and-beverage robot-cell retrofit and commissioning wedge
+- Status: watch | robotics_agritech
+- Current idea: A testable opening exists in small food manufacturers that need one repetitive handling, palletizing or packaging step automated but cannot justify a full greenfield line. The concrete asset is a documented retrofit package using an existing robot, gripper, vision or safety components; the economic mechanism is reduced labor or increased throughput, subject to site-specific validation.
+- Potential economic capture: Possible cash flows are a paid process audit, paid proof-of-concept, or resale/integration fee from a qualified equipment supplier. No buyer, price, savings or installation permission is assumed until a specific plant and task are validated.
+- **Research routes to test (NOT validated claims):**
+  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
+  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
+  - Arrange a bounded field validation with an actual farm operator before scaling.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://ifr.org/news/us-robot-industry-returns-to-double-digit-growth/1st; https://ifr.org/news/five-million-robots-now-operate-in-factories-globally/
 
 ## Independent field-service and deployment support for autonomous agricultural weed-control robots
 - Status: watch | robotics_agritech

@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-10-17T20:14:45.923701+00:00",
+  "generated_at": "2026-10-18T00:21:56.177458+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -13,7 +13,7 @@
     },
     {
       "opportunity_id": "opp_7ea6a495427da87c8c5c",
-      "other_cards_in_theme": 11,
+      "other_cards_in_theme": 12,
       "reviewed": true,
       "status": "watch",
       "theme": "energy_infrastructure",
@@ -104,14 +104,14 @@
   "high_concentration": [
     {
       "cards": 33,
-      "share": 0.423,
+      "share": 0.412,
       "theme": "chile_open_finance"
     }
   ],
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 30,
+  "theme_count": 31,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -158,20 +158,21 @@
       "all_opportunity_ids": [
         "opp_7ea6a495427da87c8c5c",
         "opp_6c994db30cf257cb79ff",
+        "opp_8fd938450701fbd64711",
         "opp_23d88c6983c0e8ea6ece",
         "opp_e1b5e721a2d142909402",
         "opp_e93b820a7df3df5840b0",
         "opp_5c0fa78efa972e7da968",
         "opp_c1584a90439dd95ddbd7",
-        "opp_8fd938450701fbd64711",
         "opp_266f64450c92dcaf56b6",
         "opp_85d154e0b319e93cb301",
         "opp_a78174a5084ecf85fdd7",
-        "opp_a71e28685127733c914e"
+        "opp_a71e28685127733c914e",
+        "opp_85c23886f73fd6c4dff5"
       ],
-      "count": 12,
+      "count": 13,
       "representative_id": "opp_7ea6a495427da87c8c5c",
-      "reviewed_count": 7,
+      "reviewed_count": 8,
       "theme": "energy_infrastructure"
     },
     {
@@ -379,6 +380,15 @@
     },
     {
       "all_opportunity_ids": [
+        "opp_1944783f6fbdfee6890f"
+      ],
+      "count": 1,
+      "representative_id": "opp_1944783f6fbdfee6890f",
+      "reviewed_count": 0,
+      "theme": "robotics_agritech:food_beverage_robot"
+    },
+    {
+      "all_opportunity_ids": [
         "opp_99de522ad05d0e01cebc"
       ],
       "count": 1,
@@ -432,6 +442,6 @@
       "theme": "robotics_agritech:small_scale_hydroponic"
     }
   ],
-  "total_original_cards": 78,
+  "total_original_cards": 80,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }

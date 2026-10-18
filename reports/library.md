@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-17T20:14:45.923701+00:00
+Generated: 2026-10-18T00:21:56.177458+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 78 (0 HQ survivors, 78 watches)
-- Rejected opportunities excluded: 44
-- Critic-and-judge reviewed: 42
+- Active research: 80 (0 HQ survivors, 80 watches)
+- Rejected opportunities excluded: 45
+- Critic-and-judge reviewed: 43
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -92,6 +92,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Number of active or prospective SFA participants that lack internal monitoring capabilities.; Whether the production directory, sandbox and APIs will remain publicly accessible without restrictive authentication, rate limits or terms that prevent commercial r; Whether directory changes will be frequent or consequential enough to justify paid alerts rather than periodic manual review.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA; https://api.cmfchile.cl/
+
+### Speed-to-power infrastructure exposure: researchable public-company basket with a falsifiable backlog catalyst [opp_8fd938450701fbd64711]
+- Status: WATCH_REQUIRES_VALIDATION | public_markets | United States
+- Thesis: The investable mechanism is not generic AI demand but conversion of signed power-infrastructure orders into revenue, cash flow, and recurring operations-and-maintenance revenue. The main downside cases are order cancellations, financing stress, execution delays, customer concentration, and valuation already discounting the backlog.
+- Value capture: A small operator can conduct a defined public-market event study or paper portfolio around backlog conversion, quarterly free cash flow, cancellations, and service-revenue growth. Accessible vehicles include the cited listed companies’ common shares, but no purchase recommendation or expected return is implied.
+- Participation hypothesis: Create a paper basket or watchlist limited to WCC, EROC, and AMRC; record price, backlog, bookings, cancellations, gross margin, free cash flow, debt, and recurring-service revenue at the next two reported quarters. Falsify the thesis if backlog does not convert into revenue/cash flow, cancellations rise materially, or operating metrics lag the companies’ stated schedules. Only after that test should an investor evaluate position sizing and valuation independently.
+- Critic/judge: Survives as an HQ-worthy, narrowly framed research/watchlist hypothesis—not an investment thesis—because it uses dated SEC-source evidence, names accessible listed-company candidates, distinguishes awarded/contracted backlog from realized economics, and defines observable falsification tests. However, no valuation-versus-risked-value work, per-share dilution analysis, or liquidity verification is provided, so it cannot yet support a gov
+- Next evidence gaps: Current share prices, enterprise values, forward revenue and EBITDA multiples, and whether valuation already discounts the cited backlog.; Backlog cancellation, termination, change-order, milestone-payment, and customer-concentration terms for each company.; Gross-margin and free-cash-flow economics by data-center project, including working-capital requirements, warranty exposure, liquidated damages, and financing costs.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/929008/000092900826000021/wcc-2q2026slides.htm; https://www.sec.gov/Archives/edgar/data/2110029/000119312526344714/eroc-ex99_1.htm; https://www.sec.gov/Archives/edgar/data/1488139/000162828026051825/amerescoq22026supplement.htm
 
 ### AI and data-center growth are making electricity and grid access a binding cost constraint [opp_9806dd7c2bc14a3373b4]
 - Status: WATCH_REQUIRES_VALIDATION | general | global, with pronounced effects in the United States and other advanced power markets
@@ -523,16 +533,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://ifr.org/ifr-press-releases/news/us-robot-industry-returns-to-double-digit-growth; https://ifr.org/post/exciting-times-for-robot-suppliers; https://github.com/nexform-tech/litearm-mujoco
 
-### Speed-to-power infrastructure exposure: researchable public-company basket with a falsifiable backlog catalyst [opp_8fd938450701fbd64711]
-- Status: WATCH_REQUIRES_VALIDATION | public_markets | United States
-- Thesis: The investable mechanism is not generic AI demand but conversion of signed power-infrastructure orders into revenue, cash flow, and recurring operations-and-maintenance revenue. The main downside cases are order cancellations, financing stress, execution delays, customer concentration, and valuation already discounting the backlog.
-- Value capture: A small operator can conduct a defined public-market event study or paper portfolio around backlog conversion, quarterly free cash flow, cancellations, and service-revenue growth. Accessible vehicles include the cited listed companies’ common shares, but no purchase recommendation or expected return is implied.
-- Participation hypothesis: Create a paper basket or watchlist limited to WCC, EROC, and AMRC; record price, backlog, bookings, cancellations, gross margin, free cash flow, debt, and recurring-service revenue at the next two reported quarters. Falsify the thesis if backlog does not convert into revenue/cash flow, cancellations rise materially, or operating metrics lag the companies’ stated schedules. Only after that test should an investor evaluate position sizing and valuation independently.
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/929008/000092900826000021/wcc-2q2026slides.htm; https://www.sec.gov/Archives/edgar/data/2110029/000119312526344714/eroc-ex99_1.htm; https://www.sec.gov/Archives/edgar/data/1488139/000162828026051825/amerescoq22026supplement.htm
-
 ### 15-minute demand-charge diagnostic and retrofit kit for Chilean commercial sites [opp_5c54bef099722659c2b1]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile, initially regulated commercial customers on BT/AT demand tariffs
 - Thesis: A site with a short, avoidable power spike can pay recurring demand-related charges even when total monthly energy consumption is moderate. The concrete wedge is not generic energy consulting: obtain interval data and bills, identify the top avoidable peaks, then sell a fixed diagnostic plus an installable control package such as load sequencing, scheduled charging, or a small battery/controller retrofit.
@@ -643,6 +643,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
+### Commercial battery dispatch and performance verification for four-hour storage projects [opp_85c23886f73fd6c4dff5]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States
+- Thesis: As projects shift from simple backup toward energy shifting and grid services, owners need evidence that installed capacity, state of charge, availability and dispatch performance match contracted or market requirements. A narrow independent wedge is third-party data reconciliation and monthly performance verification using inverter, EMS, meter and market-settlement exports; it is not battery ownership or speculative arbitrage.
+- Value capture: Potential cash flow is a fixed-fee verification or diagnostic engagement paid by an owner, operator, lender, insurer or EPC contractor. The sources verify the operational trend and system-value need, not a standard price or guaranteed customer demand.
+- Participation hypothesis: Target one operating commercial or utility-scale battery whose owner can lawfully provide export files. Build a spreadsheet-based reconciliation of rated capacity, measured discharge, availability, round-trip losses and dispatch events for one month. Offer the first analysis as a narrowly scoped paid diagnostic or as a no-cost sample only when access is already authorized. Lowest-cost falsification: obtain one anonymized dataset from an operator or public filing and determine whether the required fields are present and whether discrepancies can
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage; https://www.iea.org/commentaries/battery-storage-is-scaling-up-and-taking-on-a-larger-system-role
+
 ### Congestion-aware battery and demand-response screening for constrained Chilean nodes [opp_a71e28685127733c914e]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile; candidate sites must be validated against the relevant transmission and distribution node
 - Thesis: A testable wedge is a paid screening product for renewable generators, large electricity users, landowners or engineering firms: identify sites where a battery, flexible load or local generation project might reduce curtailment, improve reliability or exploit time/location price differences. This is project origination and measurement, not a claim that a small operator can trade electricity or operate storage without regulatory and technical partners.
@@ -662,6 +672,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://energia.gob.cl/node/26466; https://www.agenciase.org/energia-a-tu-pyme/
+
+### Food-and-beverage robot-cell retrofit and commissioning wedge [opp_1944783f6fbdfee6890f]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States
+- Thesis: A testable opening exists in small food manufacturers that need one repetitive handling, palletizing or packaging step automated but cannot justify a full greenfield line. The concrete asset is a documented retrofit package using an existing robot, gripper, vision or safety components; the economic mechanism is reduced labor or increased throughput, subject to site-specific validation.
+- Value capture: Possible cash flows are a paid process audit, paid proof-of-concept, or resale/integration fee from a qualified equipment supplier. No buyer, price, savings or installation permission is assumed until a specific plant and task are validated.
+- Participation hypothesis: Select one narrow task—case packing, palletizing or tray handling—and one local food-manufacturing cluster. Use vendor-published component prices and a short site questionnaire to produce a no-install feasibility estimate. Approach plants only with a request for a 30-minute process interview, not a claim of guaranteed savings. Lowest-cost falsification: interview 10 plants and ask for cycle time, staffing, product variation, sanitation constraints and current downtime; require at least one plant to provide a paid feasibility engagement or verif
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://ifr.org/news/us-robot-industry-returns-to-double-digit-growth/1st; https://ifr.org/news/five-million-robots-now-operate-in-factories-globally/
 
 ### Grant-aligned VFD and process-sensor retrofit package for small manufacturers [opp_269134d5b04eaaaf0c33]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States

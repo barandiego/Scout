@@ -341,6 +341,42 @@
       "category": "energy_infrastructure",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Target one operating commercial or utility-scale battery whose owner can lawfully provide export files. Build a spreadsheet-based reconciliation of rated capacity, measured discharge, availability, round-trip losses and dispatch events for one month. Offer the first analysis as a narrowly scoped paid diagnostic or as a no-cost sample only when access is already authorized. Lowest-cost falsification: obtain one anonymized dataset from an operator or public filing and determine whether the required fields are present and whether discrepancies can be tied to an economically relevant issue; stop if data are inaccessible or findings cannot affect maintenance, settlement or warranty decisions.",
+      "current_thesis": "As projects shift from simple backup toward energy shifting and grid services, owners need evidence that installed capacity, state of charge, availability and dispatch performance match contracted or market requirements. A narrow independent wedge is third-party data reconciliation and monthly performance verification using inverter, EMS, meter and market-settlement exports; it is not battery ownership or speculative arbitrage.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Commercial battery dispatch and performance verification for four-hour storage projects",
+      "opportunity_id": "opp_85c23886f73fd6c4dff5",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
+        "Compare owned asset, installer/distributor and project-finance participation.",
+        "Verify permits and installed net payback under conservative power price scenarios."
+      ],
+      "supporting_source_urls": [
+        "https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage",
+        "https://www.iea.org/commentaries/battery-storage-is-scaling-up-and-taking-on-a-larger-system-role"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Potential cash flow is a fixed-fee verification or diagnostic engagement paid by an owner, operator, lender, insurer or EPC contractor. The sources verify the operational trend and system-value need, not a standard price or guaranteed customer demand.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "energy_infrastructure",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Lowest-cost falsification: choose one publicly documented constrained corridor, download hourly nodal-price, generation and congestion data where available, and create a spreadsheet comparing a hypothetical small battery or flexible load against simple operating rules. Then obtain one paid data-access or feasibility commitment from an asset owner, developer or engineering firm before buying hardware. Falsify if the analysis cannot identify a materially different operating case after accounting for round-trip losses, degradation, interconnection, permits and network charges, or if no relevant project participant will pay for the screen. Participation must be through an owner, generator, retailer, aggregator or qualified engineering partner; do not assume market access.",
       "current_thesis": "A testable wedge is a paid screening product for renewable generators, large electricity users, landowners or engineering firms: identify sites where a battery, flexible load or local generation project might reduce curtailment, improve reliability or exploit time/location price differences. This is project origination and measurement, not a claim that a small operator can trade electricity or operate storage without regulatory and technical partners.",
       "founder_hours_initial_unverified_estimate": "",
@@ -2624,9 +2660,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "United States",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "Current share prices, enterprise values, forward revenue and EBITDA multiples, and whether valuation already discounts the cited backlog.",
+        "Backlog cancellation, termination, change-order, milestone-payment, and customer-concentration terms for each company.",
+        "Gross-margin and free-cash-flow economics by data-center project, including working-capital requirements, warranty exposure, liquidated damages, and financing costs.",
+        "The proportion of ERock's Anthropic order that is firm, funded, non-cancellable, and profitable, plus Anthropic's ultimate deployment schedule.",
+        "For Ameresco, which of the six projects have executed EPC or offtake agreements, committed financing, permits, interconnection rights, and customer construction schedules.",
+        "Whether equipment supply, natural-gas availability, emissions rules, transmission constraints, or local permitting will delay onsite-generation projects.",
+        "Competitive pricing pressure and the extent to which hyperscalers, utilities, EPCs, and equipment manufacturers can internalize the economics."
       ],
       "investment_authorized": false,
       "name": "Speed-to-power infrastructure exposure: researchable public-company basket with a falsifiable backlog catalyst",
@@ -2725,6 +2765,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Potential revenue source is a supplier-authorized referral, implementation or site-assessment fee, but the existence and amount of such a fee are unknown and must be negotiated. The independently verifiable economic mechanism is a supplier quote for RaaS beginning at UF 20/month or direct equipment prices shown publicly; end-customer economics require facility-specific measurement.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "robotics_agritech",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Select one narrow task—case packing, palletizing or tray handling—and one local food-manufacturing cluster. Use vendor-published component prices and a short site questionnaire to produce a no-install feasibility estimate. Approach plants only with a request for a 30-minute process interview, not a claim of guaranteed savings. Lowest-cost falsification: interview 10 plants and ask for cycle time, staffing, product variation, sanitation constraints and current downtime; require at least one plant to provide a paid feasibility engagement or verifiable equipment quote before buying hardware or building a demo.",
+      "current_thesis": "A testable opening exists in small food manufacturers that need one repetitive handling, palletizing or packaging step automated but cannot justify a full greenfield line. The concrete asset is a documented retrofit package using an existing robot, gripper, vision or safety components; the economic mechanism is reduced labor or increased throughput, subject to site-specific validation.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Food-and-beverage robot-cell retrofit and commissioning wedge",
+      "opportunity_id": "opp_1944783f6fbdfee6890f",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
+        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
+        "Arrange a bounded field validation with an actual farm operator before scaling."
+      ],
+      "supporting_source_urls": [
+        "https://ifr.org/news/us-robot-industry-returns-to-double-digit-growth/1st",
+        "https://ifr.org/news/five-million-robots-now-operate-in-factories-globally/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Possible cash flows are a paid process audit, paid proof-of-concept, or resale/integration fee from a qualified equipment supplier. No buyer, price, savings or installation permission is assumed until a specific plant and task are validated.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -2998,7 +3074,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-17T20:14:45.989596+00:00",
+  "generated_at": "2026-10-18T00:21:56.213270+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

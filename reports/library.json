@@ -766,6 +766,100 @@
     {
       "ai_leverage": "",
       "authorized_for_execution": false,
+      "contrary_evidence": [
+        "WESCO reported Q2 2026 data-center sales of approximately $1.5 billion, up approximately 45% year over year, record total backlog up approximately 60%, record adjusted EBITDA up 24%, and raised its 2026 outlook. Source: https://www.sec.gov/Archives/edgar/data/929008/000092900826000021/wcc-2q2026earnings.htm",
+        "ERock reported a 470 MW Anthropic equipment purchase order, approximately $1.7 billion of contracted backlog, no outstanding debt, and $626.6 million of unrestricted cash at June 30, 2026. Source: https://www.sec.gov/Archives/edgar/data/2110029/000119312526344714/eroc-ex99_1.htm",
+        "Ameresco reported record Q2 new project awards of $1.8 billion, total backlog of $6.73 billion, six advanced data-center power plants, and more than 1 GW of firm generation capacity under development. Source: https://www.sec.gov/Archives/edgar/data/1488139/000162828026051825/amerescoq22026supplement.htm",
+        "The underlying power-availability constraint appears commercially meaningful: WESCO described data-center time-to-power as a multi-year issue, while Ameresco's projects include onsite generation and future grid connections. Source: https://www.sec.gov/Archives/edgar/data/929008/000092900826000021/wcc-2q2026slides.htm"
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-14T20:22:41.898650+00:00",
+      "discovery_lens": "early_adoption_investing",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "WESCO reported record Q2 2026 sales of $6.7 billion, approximately 45% data-center sales growth, and approximately 60% backlog growth.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "WESCO Q2 2026 webcast presentation",
+          "url": "https://www.sec.gov/Archives/edgar/data/929008/000092900826000021/wcc-2q2026slides.htm"
+        },
+        {
+          "claim": "ERock reported approximately $1.7 billion of contracted backlog, a 470 MW Anthropic equipment purchase order, and construction of a 366 MW project supporting Meta’s data-center campus.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "ERock Q2 2026 results",
+          "url": "https://www.sec.gov/Archives/edgar/data/2110029/000119312526344714/eroc-ex99_1.htm"
+        },
+        {
+          "claim": "Ameresco reported six advanced data-center power plants, $1.5 billion included in awarded backlog, more than 1 GW of firm generation capacity under development, and projected long-term O&M terms.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Ameresco Q2 2026 supplement",
+          "url": "https://www.sec.gov/Archives/edgar/data/1488139/000162828026051825/amerescoq22026supplement.htm"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.82,
+      "falsification_conditions": [
+        "Within the next two reported quarters, WESCO data-center sales growth materially decelerates without compensating margin or cash-flow improvement, or backlog growth reverses.",
+        "ERock reports material cancellations, customer deferrals, backlog reductions, production delays, loss-making projects, or continued revenue contraction despite its backlog.",
+        "ERock's backlog conversion is materially below the implied roughly two-year schedule, or ongoing-services growth fails to follow commissioned systems.",
+        "Ameresco's data-center awards fail to become fully contracted projects, financing or interconnection milestones slip, or expected in-service dates move beyond the stated 2028-2032 phases.",
+        "Across the basket, revenue and operating cash flow do not grow in line with backlog burn, or working capital and capex absorb most incremental gross profit.",
+        "Customer concentration, project cancellations, or competitive pricing reduce forward gross margins enough that backlog growth does not create per-share earnings or free-cash-flow growth.",
+        "A valuation review shows the basket trades at a premium that requires sustained backlog growth and execution materially above the companies' stated schedules."
+      ],
+      "geography": "United States",
+      "id": "opp_8fd938450701fbd64711",
+      "judge_reviewed": true,
+      "judgment": "Survives as an HQ-worthy, narrowly framed research/watchlist hypothesis—not an investment thesis—because it uses dated SEC-source evidence, names accessible listed-company candidates, distinguishes awarded/contracted backlog from realized economics, and defines observable falsification tests. However, no valuation-versus-risked-value work, per-share dilution analysis, or liquidity verification is provided, so it cannot yet support a governed investment decision. The three issuers also have materially different economics: WESCO is a leveraged distributor with working-capital and margin exposure; ERock has unusually large backlog relative to current revenue and apparent customer/order-conversion concentration; Ameresco's data-center projects have long-dated 2028–2032 execution, financing, permitting, interconnection, and capital-intensity risk. The stated catalyst is therefore not a near-term common basket catalyst, and much of the demand news may already be reflected in market expectations.",
+      "last_record_updated_at": "2026-10-18T00:21:55.881008+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Current share prices, enterprise values, forward revenue and EBITDA multiples, and whether valuation already discounts the cited backlog.",
+        "Backlog cancellation, termination, change-order, milestone-payment, and customer-concentration terms for each company.",
+        "Gross-margin and free-cash-flow economics by data-center project, including working-capital requirements, warranty exposure, liquidated damages, and financing costs.",
+        "The proportion of ERock's Anthropic order that is firm, funded, non-cancellable, and profitable, plus Anthropic's ultimate deployment schedule.",
+        "For Ameresco, which of the six projects have executed EPC or offtake agreements, committed financing, permits, interconnection rights, and customer construction schedules."
+      ],
+      "participation_path": "Create a paper basket or watchlist limited to WCC, EROC, and AMRC; record price, backlog, bookings, cancellations, gross margin, free cash flow, debt, and recurring-service revenue at the next two reported quarters. Falsify the thesis if backlog does not convert into revenue/cash flow, cancellations rise materially, or operating metrics lag the companies’ stated schedules. Only after that test should an investor evaluate position sizing and valuation independently.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The investable mechanism is not generic AI demand but conversion of signed power-infrastructure orders into revenue, cash flow, and recurring operations-and-maintenance revenue. The main downside cases are order cancellations, financing stress, execution delays, customer concentration, and valuation already discounting the backlog.",
+      "title": "Speed-to-power infrastructure exposure: researchable public-company basket with a falsifiable backlog catalyst",
+      "type": "public_equity_research",
+      "unknowns": [
+        "Current share prices, enterprise values, forward revenue and EBITDA multiples, and whether valuation already discounts the cited backlog.",
+        "Backlog cancellation, termination, change-order, milestone-payment, and customer-concentration terms for each company.",
+        "Gross-margin and free-cash-flow economics by data-center project, including working-capital requirements, warranty exposure, liquidated damages, and financing costs.",
+        "The proportion of ERock's Anthropic order that is firm, funded, non-cancellable, and profitable, plus Anthropic's ultimate deployment schedule.",
+        "For Ameresco, which of the six projects have executed EPC or offtake agreements, committed financing, permits, interconnection rights, and customer construction schedules.",
+        "Whether equipment supply, natural-gas availability, emissions rules, transmission constraints, or local permitting will delay onsite-generation projects.",
+        "Competitive pricing pressure and the extent to which hyperscalers, utilities, EPCs, and equipment manufacturers can internalize the economics.",
+        "Whether recurring O&M revenue will be material relative to project revenue and whether it produces attractive incremental returns on capital.",
+        "Tax-credit, regulatory, interest-rate, and power-price assumptions embedded in project economics.",
+        "Current market capitalization, enterprise value, share liquidity, float, average trading volume, and ownership concentration for each named security, especially EROC.",
+        "Risked DCF/SOTP or comparable-multiple valuation for each issuer, including explicit downside cases and the market growth/profitability assumptions already embedded in prices.",
+        "Backlog definitions and the proportions that are cancellable, funded, fixed-price, subject to customer milestones, contingent on financing/interconnection, or carry material liquidated-damages exposure.",
+        "Data-center-specific gross margins, working-capital cash conversion, capex, return on invested capital, and recurring O&M contribution for each issuer.",
+        "Debt maturities, covenants, revolver availability, project-finance obligations, committed capital, and plausible equity/convertible/warrant dilution under downside execution scenarios.",
+        "Customer concentration and counterparty-credit exposure, including whether the cited Anthropic order and Ameresco projects have binding, financed, non-cancellable contractual support.",
+        "Whether the disclosed Q2 2026 demand/backlog updates were already incorporated into prices and whether the next two reporting dates offer a genuinely differentiated catalyst."
+      ],
+      "value_capture_mechanism": "A small operator can conduct a defined public-market event study or paper portfolio around backlog conversion, quarterly free cash flow, cancellations, and service-revenue growth. Accessible vehicles include the cited listed companies’ common shares, but no purchase recommendation or expected return is implied.",
+      "verified_sales": null,
+      "vertical": "public_markets",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": true,
       "discovered_at": "2026-10-07T18:20:34.777731+00:00",
@@ -4246,67 +4340,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-14T20:22:41.898650+00:00",
-      "discovery_lens": "early_adoption_investing",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "WESCO reported record Q2 2026 sales of $6.7 billion, approximately 45% data-center sales growth, and approximately 60% backlog growth.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "WESCO Q2 2026 webcast presentation",
-          "url": "https://www.sec.gov/Archives/edgar/data/929008/000092900826000021/wcc-2q2026slides.htm"
-        },
-        {
-          "claim": "ERock reported approximately $1.7 billion of contracted backlog, a 470 MW Anthropic equipment purchase order, and construction of a 366 MW project supporting Meta’s data-center campus.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "ERock Q2 2026 results",
-          "url": "https://www.sec.gov/Archives/edgar/data/2110029/000119312526344714/eroc-ex99_1.htm"
-        },
-        {
-          "claim": "Ameresco reported six advanced data-center power plants, $1.5 billion included in awarded backlog, more than 1 GW of firm generation capacity under development, and projected long-term O&M terms.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Ameresco Q2 2026 supplement",
-          "url": "https://www.sec.gov/Archives/edgar/data/1488139/000162828026051825/amerescoq22026supplement.htm"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.82,
-      "falsification_conditions": [],
-      "geography": "United States",
-      "id": "opp_8fd938450701fbd64711",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-14T20:22:41.928926+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Create a paper basket or watchlist limited to WCC, EROC, and AMRC; record price, backlog, bookings, cancellations, gross margin, free cash flow, debt, and recurring-service revenue at the next two reported quarters. Falsify the thesis if backlog does not convert into revenue/cash flow, cancellations rise materially, or operating metrics lag the companies’ stated schedules. Only after that test should an investor evaluate position sizing and valuation independently.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "The investable mechanism is not generic AI demand but conversion of signed power-infrastructure orders into revenue, cash flow, and recurring operations-and-maintenance revenue. The main downside cases are order cancellations, financing stress, execution delays, customer concentration, and valuation already discounting the backlog.",
-      "title": "Speed-to-power infrastructure exposure: researchable public-company basket with a falsifiable backlog catalyst",
-      "type": "public_equity_research",
-      "unknowns": [],
-      "value_capture_mechanism": "A small operator can conduct a defined public-market event study or paper portfolio around backlog conversion, quarterly free cash flow, cancellations, and service-revenue growth. Accessible vehicles include the cited listed companies’ common shares, but no purchase recommendation or expected return is implied.",
-      "verified_sales": null,
-      "vertical": "public_markets",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-13T20:22:30.984395+00:00",
       "discovery_lens": "energy_localization",
       "estimated_capital": "",
@@ -4901,6 +4934,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-18T00:21:29.682648+00:00",
+      "discovery_lens": "energy_industrial",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "IEA reports 108 GW of new battery storage in 2025, 40% annual growth, approximately 80% utility-scale additions and increasing deployment of four-hour-or-longer systems.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Technology: Battery storage – Global Energy Review 2026",
+          "url": "https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage"
+        },
+        {
+          "claim": "IEA describes the shift toward energy shifting and renewables integration and the increasing duration of utility-scale batteries.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Battery storage is scaling up and taking on a larger system role",
+          "url": "https://www.iea.org/commentaries/battery-storage-is-scaling-up-and-taking-on-a-larger-system-role"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.82,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_85c23886f73fd6c4dff5",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-18T00:21:29.708401+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Target one operating commercial or utility-scale battery whose owner can lawfully provide export files. Build a spreadsheet-based reconciliation of rated capacity, measured discharge, availability, round-trip losses and dispatch events for one month. Offer the first analysis as a narrowly scoped paid diagnostic or as a no-cost sample only when access is already authorized. Lowest-cost falsification: obtain one anonymized dataset from an operator or public filing and determine whether the required fields are present and whether discrepancies can be tied to an economically relevant issue; stop if data are inaccessible or findings cannot affect maintenance, settlement or warranty decisions.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "As projects shift from simple backup toward energy shifting and grid services, owners need evidence that installed capacity, state of charge, availability and dispatch performance match contracted or market requirements. A narrow independent wedge is third-party data reconciliation and monthly performance verification using inverter, EMS, meter and market-settlement exports; it is not battery ownership or speculative arbitrage.",
+      "title": "Commercial battery dispatch and performance verification for four-hour storage projects",
+      "type": "monitoring_and_verification_offer",
+      "unknowns": [],
+      "value_capture_mechanism": "Potential cash flow is a fixed-fee verification or diagnostic engagement paid by an owner, operator, lender, insurer or EPC contractor. The sources verify the operational trend and system-value need, not a standard price or guaranteed customer demand.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-17T16:17:48.307467+00:00",
       "discovery_lens": "energy_localization",
       "estimated_capital": "",
@@ -5001,6 +5088,60 @@
       "value_capture_mechanism": "A small operator could sell a fixed-price site/data-screening package, then earn a disclosed referral or project-management fee only where a qualified engineering, ESCO or equipment provider independently contracts with the customer. The evidence does not establish a standard market price, conversion rate or permission to act as an ESCO.",
       "verified_sales": null,
       "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-18T00:21:29.682199+00:00",
+      "discovery_lens": "robotics_automation",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "IFR reports 38,000 US industrial-robot installations in 2025, 11% year-on-year growth, and 30% growth in food-industry installations.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "US Robot Industry Returns to Double Digit Growth",
+          "url": "https://ifr.org/news/us-robot-industry-returns-to-double-digit-growth/1st"
+        },
+        {
+          "claim": "IFR reports more than 600,000 global industrial-robot installations in 2025 and identifies easier programming, machine vision and integration as adoption drivers.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Five Million Robots now Operate in Factories Globally",
+          "url": "https://ifr.org/news/five-million-robots-now-operate-in-factories-globally/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.84,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_1944783f6fbdfee6890f",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-18T00:21:29.708281+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Select one narrow task—case packing, palletizing or tray handling—and one local food-manufacturing cluster. Use vendor-published component prices and a short site questionnaire to produce a no-install feasibility estimate. Approach plants only with a request for a 30-minute process interview, not a claim of guaranteed savings. Lowest-cost falsification: interview 10 plants and ask for cycle time, staffing, product variation, sanitation constraints and current downtime; require at least one plant to provide a paid feasibility engagement or verifiable equipment quote before buying hardware or building a demo.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A testable opening exists in small food manufacturers that need one repetitive handling, palletizing or packaging step automated but cannot justify a full greenfield line. The concrete asset is a documented retrofit package using an existing robot, gripper, vision or safety components; the economic mechanism is reduced labor or increased throughput, subject to site-specific validation.",
+      "title": "Food-and-beverage robot-cell retrofit and commissioning wedge",
+      "type": "automation_asset_service",
+      "unknowns": [],
+      "value_capture_mechanism": "Possible cash flows are a paid process audit, paid proof-of-concept, or resale/integration fee from a qualified equipment supplier. No buyer, price, savings or installation permission is assumed until a specific plant and task are validated.",
+      "verified_sales": null,
+      "vertical": "robotics_agritech",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -5710,13 +5851,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-17T20:14:45.923701+00:00",
+  "generated_at": "2026-10-18T00:21:56.177458+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 44,
-  "reviewed_cards": 42,
+  "rejected_excluded": 45,
+  "reviewed_cards": 43,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 122,
-  "watch": 78
+  "total_distinct_opportunities": 125,
+  "watch": 80
 }

@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-17T20:14:45.510314+00:00
+Generated: 2026-10-18T00:21:55.923370+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['ai_open_source', 'public_markets', 'physical_commerce']
-- raw_candidates: 2
-- parseable_candidates: 2
-- normalized_candidates: 2
+- lenses: ['regulation_infrastructure', 'robotics_automation', 'energy_industrial']
+- raw_candidates: 3
+- parseable_candidates: 3
+- normalized_candidates: 3
 - normalization_rejected: 0
-- grounded_sources: 3
+- grounded_sources: 5
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 0
+- judge_attempts: 1
 - critic_reviews: 1
-- judge_reviews: 0
+- judge_reviews: 1
 - survivors: 0
-- watches: 1
-- rejected: 2
+- watches: 3
+- rejected: 1
 - errors_by_stage: {}
 - rejection_reasons: {'discarded_ungrounded_url': 1, 'insufficient_unique_evidence': 1}
-- cost_usd: 0.02959675
+- cost_usd: 0.0486411
 - cost_uncertain: False
-- budget_remaining_usd: 0.05040325
+- budget_remaining_usd: 0.0313589
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,8 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Battery-project dispatch and revenue-stack verification for Texas and California assets: deferred_by_review_cap
-- Chile SFA implementation adapter for consent, directory and API conformance: deferred_by_review_cap
 - Small- and mid-size farm robotic-weeding service using commercial robots instead of ownership: deferred_by_review_cap
 - Chile Open Finance interoperability test harness for fintechs preparing for SFA: deferred_by_review_cap
 - Pilot NFC table placards for review capture and menu recovery in independent Chilean restaurants: deferred_by_review_cap
@@ -51,12 +49,14 @@ No survivors. Scout does not manufacture a daily winner.
 - Energy-audit and retrofit origination for Chilean medium-sized firms: deferred_by_review_cap
 - Congestion-aware battery and demand-response screening for constrained Chilean nodes: deferred_by_review_cap
 - Open-source agent cost-control software with a directly published paid tier: deferred_by_review_cap
+- Food-and-beverage robot-cell retrofit and commissioning wedge: deferred_by_review_cap
+- Commercial battery dispatch and performance verification for four-hour storage projects: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "research_queue_unreviewed=32"
+    "research_queue_unreviewed=33"
   ],
   "stages": [
     {
@@ -64,32 +64,27 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 24,
+      "grounded_source_count": 19,
       "search_source_urls": [
-        "https://assets.falabella.com/v3/assets/bltf4ed0b9a176c126e/blt34271eaf0fb835a5/Reporte%20de%20Sostenibilidad%202025.pdf",
-        "https://en.wikipedia.org/wiki/Falabella_%28retail_store%29",
-        "https://en.wikipedia.org/wiki/S.A.C.I._Falabella",
-        "https://es.wikipedia.org/wiki/Falabella",
-        "https://es.wikipedia.org/wiki/Grupo_Falabella",
-        "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/",
-        "https://falabellaretail.falabella.com/wp-content/uploads/2025/05/OR_REPORTE_FALABELLA_2024_v3.pdf",
-        "https://github.com/AgentForEach/AgentForEach",
-        "https://github.com/SII-Holos/synergy",
-        "https://github.com/aks-builds/agentsave",
-        "https://github.com/areal-project/AReaL",
-        "https://github.com/gizmax/Sandcastle",
-        "https://github.com/swarmclawai/swarmclaw",
-        "https://github.com/use-ash/apex",
-        "https://investors.grupofalabella.com/app/uploads/sites/2/2026/03/Annual-Report-2025.pdf",
-        "https://s27.q4cdn.com/743947716/files/doc_downloads/2026/2026-1-Final-Prospectus.pdf",
-        "https://unctad.org/system/files/official-document/ditccom2025d3_en.pdf",
-        "https://www.falabella.com/falabella-cl/brand/NATURA",
-        "https://www.falabella.com/falabella-cl/brand/NATURA?sid=HO_MD1_NAT_248",
-        "https://www.falabella.com/falabella-cl/seller/Natura",
-        "https://www.natura.cl/blog/mas-natura/guia-de-compra-online",
-        "https://www.reddit.com/r/SPACs/comments/1x4pte5/announcements_x_daily_discussion_for_tuesday/",
-        "https://www.reddit.com/r/pennystocks/comments/1wzx9z2/upcoming_penny_stock_catalysts_in_october_2026/",
-        "https://www.sec.gov/Archives/edgar/data/0001849867/000184986725000008/clst-20241231xars.pdf"
+        "https://ferc.gov/media/ferc-order-no-2222-fact-sheet",
+        "https://ifr.org/downloads/press_docs/2025-09-25-IFR_press_release_Americas_in_English.pdf",
+        "https://ifr.org/img/worldrobotics/Executive_Summary_WR_2025_Industrial_Robots.pdf",
+        "https://ifr.org/news/five-million-robots-now-operate-in-factories-globally/",
+        "https://ifr.org/news/us-robot-industry-returns-to-double-digit-growth/1st",
+        "https://ifr.org/news/us-robot-industry-returns-to-double-digit-growth/1st",
+        "https://ifr.org/pages/www.ifr.org",
+        "https://ifr.org/post/exciting-times-for-robot-suppliers",
+        "https://www.energy.gov/sites/default/files/2025-06/EAC%20Biennial%20Energy%20Storage%20Review_20250605_Final_v2.pdf",
+        "https://www.ferc.gov/ferc-order-no-2222-explainer-facilitating-participation-electricity-markets-distributed-energy?itid=lk_inline_enhanced-template",
+        "https://www.ferc.gov/ferc-order-no-2222-explainer-facilitating-participation-electricity-markets-distributed-energy?itid=lk_inline_enhanced-template",
+        "https://www.ferc.gov/sites/default/files/2025-01/ER22-1640-003.pdf",
+        "https://www.iea.org/commentaries/battery-storage-is-scaling-up-and-taking-on-a-larger-system-role",
+        "https://www.iea.org/events/batteries-and-secure-energy-transitions",
+        "https://www.iea.org/events/tcp-webinar-energy-efficiency-and-the-role-of-home-energy-storage-in-energy-transitions",
+        "https://www.iea.org/reports/batteries-and-secure-energy-transitions/executive-summary",
+        "https://www.iea.org/reports/batteries-and-secure-energy-transitions/policy-implications-and-recommendations",
+        "https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage",
+        "https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage"
       ]
     },
     {
@@ -125,89 +120,108 @@ No survivors. Scout does not manufacture a daily winner.
       "retry_justified": false
     },
     {
+      "index": 2,
+      "stage": "normalization",
+      "outcome": "accepted",
+      "reasons": [],
+      "changes": [
+        "contrary_evidence:list_sanitized",
+        "major_risks:list_sanitized",
+        "unknowns:list_sanitized",
+        "falsification_conditions:list_sanitized",
+        "material_update:unknown_false"
+      ],
+      "grounded_sources": 2,
+      "retry_justified": false
+    },
+    {
       "stage": "critic",
-      "candidate_id": "opp_76fc7b6bece7c6b747d4",
+      "candidate_id": "opp_8fd938450701fbd64711",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 39,
+      "grounded_source_count": 16,
       "search_source_urls": [
-        "https://arxiv.org/abs/1901.11520",
-        "https://arxiv.org/abs/2003.12776",
-        "https://arxiv.org/abs/2610.14419",
-        "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=f91f133e-cc24-401b-9e65-e37cc9fd1613",
-        "https://cms.hacienda.cl/hacienda/assets/documento/descargar/586d2436b5866/1720038989",
-        "https://elpais.com/america/termometro-social/2024-10-07/digitalizacion-financiera-en-america-latina-enfrenta-nueva-era-de-transformacion-y-oportunidades.html",
-        "https://en.wikipedia.org/wiki/Draft%3AFinancial-grade_API",
-        "https://en.wikipedia.org/wiki/Open_finance",
-        "https://es.wikipedia.org/wiki/Comisi%C3%B3n_para_el_Mercado_Financiero",
-        "https://es.wikipedia.org/wiki/Fapro",
-        "https://es.wikipedia.org/wiki/ProntoPaga",
-        "https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_financiera",
-        "https://microservicio-documentos.senado.cl/v1/archivos/3d10572e-6b70-49cb-9248-e384696195f5?includeContent=true",
-        "https://openfinance.cl/",
-        "https://openfinanceconnect.cl/",
-        "https://openfinanceconnect.cl/en/",
-        "https://sfasandbox.cl/",
-        "https://synaptic.cl/proyectos/boufin/",
-        "https://www.bcentral.cl/documents/33528/133214/jvr21092021.pdf/a402635a-1b09-70e6-fb4e-f9e4f543c477?t=1693509440966",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48738.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html",
-        "https://www.cnc.cl/wp-content/uploads/2022/01/PPT-Ley-Fintech-CNC.pdf",
-        "https://www.legal500.com/guides/chapter/chile-fintech/?export-pdf=",
-        "https://www.reddit.com/r/FinanzasChile/comments/1nnlenn",
-        "https://www.reddit.com/r/FinanzasChile/comments/1odi1nl/chilenos_trabajando_en_finanzas/",
-        "https://www.reddit.com/r/FinanzasChile/comments/1qwyxkv/duda_de_gastos_en_fondo_mutuo_enfoque_larrain/",
-        "https://www.reddit.com/r/FinanzasChile/comments/1uonyop/arm%C3%A9_una_p%C3%A1gina_gratis_que_punt%C3%BAa_activos_seg%C3%BAn/",
-        "https://www.reddit.com/r/RepublicadeChile/comments/1i3feoz",
-        "https://www.reddit.com/r/chile/comments/165qdri",
-        "https://www.reddit.com/r/chile/comments/1b3wudy",
-        "https://www.reddit.com/r/chile/comments/1c0573k",
-        "https://www.reddit.com/r/chile/comments/1s9i651/sigue_el_debate_caja_fiscal_sube_a_us_3600/",
-        "https://www.reddit.com/r/chileIT/comments/1jcs4sd",
-        "https://www.reddit.com/r/chileIT/comments/1rlaa9p/implement%C3%A9_un_sistema_de_finanzas_y_cotizaciones/",
-        "https://www.reddit.com/r/u_CryptoConexion/comments/1eejg9l",
-        "https://www.synaptic.cl/"
+        "https://www.sec.gov/Archives/edgar/data/0000874238/000087423826000041/a20251231annualreport.pdf",
+        "https://www.sec.gov/Archives/edgar/data/105016/000119312526322168/wso-ex99_1.htm",
+        "https://www.sec.gov/Archives/edgar/data/1167419/000110465926093406/riot-20260810xex99d2.htm",
+        "https://www.sec.gov/Archives/edgar/data/1488139/000162828026051825/amerescoq22026supplement.htm",
+        "https://www.sec.gov/Archives/edgar/data/1488139/000162828026051825/amrc_20260630x8-kxexx9911.htm",
+        "https://www.sec.gov/Archives/edgar/data/1488139/000162828026052190/amrc-20260630.htm",
+        "https://www.sec.gov/Archives/edgar/data/1527166/000152716626000045/cg2026063010q.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1828536/000182853626000100/ex991_evpressreleasex2026q2.htm",
+        "https://www.sec.gov/Archives/edgar/data/1878848/000114036126039453/ny20078226x3_ars.pdf",
+        "https://www.sec.gov/Archives/edgar/data/2110029/000119312526344714/eroc-ex99_1.htm",
+        "https://www.sec.gov/Archives/edgar/data/2110029/000119312526346922/eroc-20260630.htm",
+        "https://www.sec.gov/Archives/edgar/data/80420/000008042026000063/ex991-powlq2xfy2026earning.htm",
+        "https://www.sec.gov/Archives/edgar/data/929008/000092900825000021/wcc-2q2025slides.htm",
+        "https://www.sec.gov/Archives/edgar/data/929008/000092900826000021/wcc-2q2026earnings.htm",
+        "https://www.sec.gov/Archives/edgar/data/929008/000092900826000021/wcc-2q2026slides.htm",
+        "https://www.sec.gov/Archives/edgar/data/929008/000119312526159721/2025_wcc_annual_report.pdf"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_76fc7b6bece7c6b747d4",
+      "candidate_id": "opp_8fd938450701fbd64711",
       "coercions": [
-        "contrary_evidence"
+        "critic_case"
       ]
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_8fd938450701fbd64711",
+      "response_status": "completed",
+      "incomplete_reason": "",
+      "grounded_source_count": 0,
+      "search_source_urls": []
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_8fd938450701fbd64711",
+      "coercions": []
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 365,
-      "cache_write_tokens": 5529,
+      "reasoning_tokens": 252,
+      "cache_write_tokens": 5475,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01474425,
+      "cumulative_cost_usd": 0.01542935,
       "model": "gpt-5.6-luna",
-      "input_tokens": 14101,
+      "input_tokens": 13958,
       "cached_tokens": 0,
-      "output_tokens": 1373,
+      "output_tokens": 1970,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01474425
+      "estimated_cost_usd": 0.01542935
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 200,
-      "cache_write_tokens": 5170,
+      "reasoning_tokens": 160,
+      "cache_write_tokens": 5507,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02959675,
+      "cumulative_cost_usd": 0.0303061,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13802,
+      "input_tokens": 13779,
       "cached_tokens": 0,
-      "output_tokens": 1528,
+      "output_tokens": 1538,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0148525
+      "estimated_cost_usd": 0.01487675
+    },
+    {
+      "stage": "judge",
+      "available": true,
+      "reasoning_tokens": 98,
+      "cache_write_tokens": 3242,
+      "accounting_notes": [],
+      "cumulative_cost_usd": 0.0486411,
+      "model": "gpt-5.6-terra",
+      "input_tokens": 3245,
+      "cached_tokens": 0,
+      "output_tokens": 852,
+      "web_search_calls": 0,
+      "estimated_cost_usd": 0.018335
     }
   ]
 }
