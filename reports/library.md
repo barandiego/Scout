@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-18T04:21:10.921718+00:00
+Generated: 2026-10-18T08:19:39.271425+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 81 (0 HQ survivors, 81 watches)
-- Rejected opportunities excluded: 45
+- Active research: 82 (0 HQ survivors, 82 watches)
+- Rejected opportunities excluded: 46
 - Critic-and-judge reviewed: 43
 - Autonomous execution authorization: 0
 
@@ -463,16 +463,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/educa/621/w3-article-85051.html
 
-### Chile-localized NFC emergency/contact card with QR fallback [opp_90381bb2b8d50013dbb1]
-- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
-- Thesis: The executable wedge is not generic NFC consulting or hardware invention. It is a localized, preconfigured emergency-contact product sold as a physical tag/card with a QR fallback, Spanish instructions, editable contact fields, and optional replacement or update service. The evidence supports retail willingness to purchase comparable products, but does not establish a defensible subscription or enterprise contract.
-- Value capture: Revenue would come from one-time product sales, personalization, and potentially replacement/update fees. A plausible initial payer is an individual buyer or family purchasing an emergency-identification item; institutional demand from schools, senior-care providers, or employers remains unverified and should not be assumed.
-- Participation hypothesis: Source a small batch of writable NFC cards, tags, or bracelets from an established Chilean supplier; configure a simple mobile landing page that displays emergency contacts and medical notes only with the user's consent; include a QR code for phones that do not read NFC. List 10-20 units through a Chilean marketplace or simple checkout, using the observed SOSMee price of CLP 14,990 as a reference—not as proof of achievable margin. Falsification test: spend only enough to produce three prototypes and run five paid preorders from unrelated Chilea
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.sosmee.com/; https://tnfc.cl/; https://publico.transbank.cl/productos-y-servicios/soluciones-para-ventas-presenciales/pocket-pos
-
 ### Narrow Chilean e-commerce returns-recovery test for one product category [opp_fa54176321cf12d8b287]
 - Status: WATCH_REQUIRES_VALIDATION | ecommerce_niches | Chile
 - Thesis: There may be recoverable value in returned, refused, or lightly damaged inventory, but the evidence does not establish a standalone Chilean market, buyer, or margin. The executable wedge is a tightly bounded consignment experiment with one seller and one category, not a broad returns marketplace.
@@ -643,6 +633,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
+### Chile SFA interoperability test harness for smaller financial institutions [opp_202d7778855e693fe04b]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Banks, card issuers, account providers and smaller prospective participants will need repeatable testing of consent flows, interfaces, security controls and interoperability. The narrow opportunity is a reusable test harness and evidence pack, not an unlicensed financial-data service.
+- Value capture: Sell a fixed-scope conformance test package: simulated participant endpoints, consent-flow tests, API request/response validation, security-test evidence and defect reproduction. The payer would most plausibly be a fintech, regulated financial institution or technology vendor preparing for ATENA/SFA testing; no buyer, price or procurement commitment was verified.
+- Participation hypothesis: Use the publicly announced ATENA environment and CMF technical specifications as the test target. First build a minimal local mock of one SFA data-sharing flow and validate it against the published technical requirements. Then request access to ATENA through CMF, test the same flow in the sandbox, and approach named prospective participants only with a demonstrable defect/evidence report. Lowest-cost falsification: spend one week implementing one consent and account-data exchange flow from the technical annex; if the requirements are too incomp
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
 ### Chile SFA/ATENA interoperability test harness for small fintechs [opp_055b092ce47f55114c32]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: Small regulated or prospective SFA participants may face a concrete implementation and testing workload before July 2027. A narrow, reusable test harness or managed conformance-testing package could reduce integration uncertainty without attempting to become a regulated data-access provider.
@@ -702,6 +702,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.energy.gov/mesc/industrial-research-and-assessment-center-implementation-grant-awards; https://www.energy.gov/sites/default/files/2023-08/CX-028489.pdf
+
+### Independent retrofit and field-validation service for low-cost agricultural weeding robots [opp_2d12caab9bd8d5bc8fa9]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States; adaptable to Chilean specialty crops
+- Thesis: The practical gap is not proving that agricultural robotics exists; it is adapting and validating lower-cost platforms for one crop, row geometry and task. A small operator can test whether growers or research farms will pay for mapping, supervised trials and retrofit integration before attempting to manufacture a robot.
+- Value capture: Charge for a narrowly defined field trial: crop-row mapping, safety setup, autonomous-pass supervision, weed-detection benchmarking and a measured comparison with the farm’s existing method. Cash flow could come from a farm, university, equipment maker or public demonstration grant; no verified purchase order, price or margin was found.
+- Participation hypothesis: Do not buy or build a full commercial robot initially. Select one accessible crop block and use an existing small electric/robotic platform or a manually supervised prototype. Offer a paid or grant-funded 1–2 hectare validation with pre-agreed metrics: hectares covered per hour, crop damage, weed-removal rate, operator hours and downtime. Lowest-cost falsification: obtain permission for a half-day supervised test on a small plot and collect before/after weed counts; if the operator will not permit measurement or the robot cannot complete repeat
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://arxiv.org/abs/2509.25056; https://www.lccmr.mn.gov/projects/2024/approved_work_plans/2024-076_approved_workplan.pdf
 
 ### Interconnection-queue intelligence as a paid research asset for project developers [opp_471716894d06e79a4659]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States

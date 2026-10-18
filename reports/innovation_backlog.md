@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 81
+Candidates: 82
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -15,18 +15,6 @@ Candidates: 81
 - Critical gaps: The issuer associated with CIK 2110029 is not identified by name in the opportunity record, making independent issuer-level analysis incomplete.; Powell's exact data-center revenue, backlog percentage, customer concentration, contract cancellation provisions, payment milestones, gross margins, and expected conversion schedule are unknown.; The identity and credit quality of the customer behind the $400 million-plus order are undisclosed.
 - Possible initial budget:
 - Source URLs: https://www.sec.gov/Archives/edgar/data/80420/000008042026000063/ex991-powlq2xfy2026earning.htm; https://www.sec.gov/Archives/edgar/data/2110029/000119312526249668/d12401ds1a.htm
-
-## Chile-localized NFC emergency/contact card with QR fallback
-- Status: watch | chile_localization
-- Current idea: The executable wedge is not generic NFC consulting or hardware invention. It is a localized, preconfigured emergency-contact product sold as a physical tag/card with a QR fallback, Spanish instructions, editable contact fields, and optional replacement or update service. The evidence supports retail willingness to purchase comparable products, but does not establish a defensible subscription or enterprise contract.
-- Potential economic capture: Revenue would come from one-time product sales, personalization, and potentially replacement/update fees. A plausible initial payer is an individual buyer or family purchasing an emergency-identification item; institutional demand from schools, senior-care providers, or employers remains unverified and should not be assumed.
-- **Research routes to test (NOT validated claims):**
-  - Find the smallest Chilean workflow whose economics differ from the original geography.
-  - Secure lawful access, partners and after-sales support rather than copy protected technology.
-  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://www.sosmee.com/; https://tnfc.cl/; https://publico.transbank.cl/productos-y-servicios/soluciones-para-ventas-presenciales/pocket-pos
 
 ## NFC review-and-contact stand for Chilean hospitality venues
 - Status: watch | chile_localization
@@ -580,6 +568,18 @@ Candidates: 81
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
+## Chile SFA interoperability test harness for smaller financial institutions
+- Status: watch | open_finance_chile
+- Current idea: Banks, card issuers, account providers and smaller prospective participants will need repeatable testing of consent flows, interfaces, security controls and interoperability. The narrow opportunity is a reusable test harness and evidence pack, not an unlicensed financial-data service.
+- Potential economic capture: Sell a fixed-scope conformance test package: simulated participant endpoints, consent-flow tests, API request/response validation, security-test evidence and defect reproduction. The payer would most plausibly be a fintech, regulated financial institution or technology vendor preparing for ATENA/SFA testing; no buyer, price or procurement commitment was verified.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
 ## Chile SFA/ATENA interoperability test harness for small fintechs
 - Status: watch | open_finance_chile
 - Current idea: Small regulated or prospective SFA participants may face a concrete implementation and testing workload before July 2027. A narrow, reusable test harness or managed conformance-testing package could reduce integration uncertainty without attempting to become a regulated data-access provider.
@@ -915,6 +915,18 @@ Candidates: 81
 - Critical gaps: Actual willingness to pay for an independent third party separate from the drone seller, certified applicator or agronomist.; Whether farms already owning DJI Agras equipment have unmet needs that incumbent vendors do not cover.; Price per diagnostic, training day, operating trial or hectare, and achievable gross margin after travel and coordination time.
 - Possible initial budget:
 - Source URLs: https://agridrones.cl/products/; https://dronespray.cl/dji-agras-t70p/
+
+## Independent retrofit and field-validation service for low-cost agricultural weeding robots
+- Status: watch | robotics_agritech
+- Current idea: The practical gap is not proving that agricultural robotics exists; it is adapting and validating lower-cost platforms for one crop, row geometry and task. A small operator can test whether growers or research farms will pay for mapping, supervised trials and retrofit integration before attempting to manufacture a robot.
+- Potential economic capture: Charge for a narrowly defined field trial: crop-row mapping, safety setup, autonomous-pass supervision, weed-detection benchmarking and a measured comparison with the farm’s existing method. Cash flow could come from a farm, university, equipment maker or public demonstration grant; no verified purchase order, price or margin was found.
+- **Research routes to test (NOT validated claims):**
+  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
+  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
+  - Arrange a bounded field validation with an actual farm operator before scaling.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://arxiv.org/abs/2509.25056; https://www.lccmr.mn.gov/projects/2024/approved_work_plans/2024-076_approved_workplan.pdf
 
 ## Indoor-farm lighting and energy audit wedge for existing Chilean growers
 - Status: watch | robotics_agritech
