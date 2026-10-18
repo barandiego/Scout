@@ -1,27 +1,6 @@
 {
-  "active_candidates": [
-    {
-      "available_budget_clp": 310000.0,
-      "buyer": "I MUNICIPALIDAD DE CONCHALI",
-      "closes_at": "2026-10-21T08:30:00",
-      "code": "2296-637-COT26",
-      "estimated_budget": 310000.0,
-      "name": "ADQUISICIÓN DE AGUAS MINERALES Y SABORIZADAS | DISEPU - PGRM SB25-VE-0003",
-      "products": 3,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 417400.0,
-      "buyer": "I MUNICIPALIDAD DE CONCHALI",
-      "closes_at": "2026-10-20T08:30:00",
-      "code": "2296-636-COT26",
-      "estimated_budget": 417400.0,
-      "name": "ADQUISICIÓN DE GALLETAS Y MANÍ SALADO | DISEPU - PGRM SB25-VE-0003",
-      "products": 5,
-      "region": "Región Metropolitana de Santiago"
-    }
-  ],
-  "active_structurally_reconstructable_count": 2,
+  "active_candidates": [],
+  "active_structurally_reconstructable_count": 0,
   "diagnostics": {
     "api_failures": {
       "api_http_500": 1
@@ -38,10 +17,10 @@
     "pages_fetched": 1,
     "pagination_incomplete": false,
     "pagination_invalid": false,
-    "requests_used": 22,
-    "transient_retries": 1
+    "requests_used": 21,
+    "transient_retries": 0
   },
-  "generated_at": "2026-10-18T04:51:21Z",
+  "generated_at": "2026-10-18T08:49:20Z",
   "inserted_history": 19,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -49,16 +28,16 @@
   "phase1": {
     "records": 19,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 4
+      "no_observable_competitive_prices": 5
     },
-    "resolved": 17,
-    "structurally_reconstructable": 15,
-    "with_observable_quote_totals": 13,
-    "with_purchase_order_indicator": 1
+    "resolved": 19,
+    "structurally_reconstructable": 14,
+    "with_observable_quote_totals": 14,
+    "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-18T04:51:21Z"
+    "changed_to": "2026-10-18T08:49:20Z"
   }
 }
