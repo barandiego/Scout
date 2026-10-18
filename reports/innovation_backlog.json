@@ -82,6 +82,42 @@
       "category": "chile_localization",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Start with one Chilean hospitality business that already has at least two customer-facing locations or service points. Purchase one or two locally available units at the published retail price, configure separate destinations for Google Reviews and WhatsApp, and run a 14-day pre/post or matched-location test using tap counts, destination clicks, review volume, and inquiry volume. Only proceed to a paid multi-location pilot if the operator agrees in writing to share baseline and test-period metrics; do not assume review attribution, permissions, or incremental revenue. Existing suppliers provide direct purchase or demo routes, so no import approval is required for the falsification test.",
+      "current_thesis": "The opportunity is not generic NFC resale; it is a narrow deployment package for restaurants, cafés, hotels, barber shops, and clinics with multiple customer-contact points. The economic mechanism is a low-cost physical prompt that can route customers to reviews, reservations, or WhatsApp while allowing the operator to measure taps and clicks. Existing local prices provide a verifiable willingness-to-pay benchmark, but do not establish conversion uplift or margins.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "NFC review-and-reservation kits for Chilean multi-location hospitality businesses",
+      "opportunity_id": "opp_6f96496de207fbd68ffc",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Find the smallest Chilean workflow whose economics differ from the original geography.",
+        "Secure lawful access, partners and after-sales support rather than copy protected technology.",
+        "Run a buyer interview or mock listing to falsify assumptions before capital commitment."
+      ],
+      "supporting_source_urls": [
+        "https://www.ondda.cl/",
+        "https://www.aither.cl/tap/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell or import compliant NFC/QR stands, cards, or stickers as a standardized kit for one use case—such as review acquisition or reservation capture—with optional setup and analytics. The defensible wedge would be a repeatable deployment protocol and measurement dashboard for multi-location operators, not the NFC hardware itself.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "chile_localization",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Buy one or two existing Chilean restaurant NFC products at the listed retail price, install them in a consenting independent restaurant or a personally controlled venue, and run a 7-day A/B test: NFC/QR placard versus the restaurant's existing sign. Measure scans, landing-page visits, menu clicks, and review-page clicks using separate URLs. Do not claim review uplift or recurring revenue unless the pilot produces it. The lowest-cost falsification step is to ask 10 nearby restaurants for permission to place one free prototype for one week; stop if fewer than 2 agree or if taps are negligible. Distribution is direct local outreach to restaurant owners/managers, not an assumed marketplace partnership.",
       "current_thesis": "The opportunity is not novel NFC hardware; it is a narrowly testable replacement for printed table signage where the operator can measure taps, menu visits, and review-page visits. Existing supply and visible prices reduce hardware and willingness-to-pay uncertainty, but also indicate commodity competition.",
       "founder_hours_initial_unverified_estimate": "",
@@ -2806,6 +2842,46 @@
       "category": "public_markets",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use the company’s SEC filing as the baseline, then compare the next two reported quarters against backlog conversion, operating cash flow, gross margin, share count, and Walmart/GreenBox concentration. The lowest-cost falsification step is paper-trading or taking no position while recording the expected metrics before each earnings release. A thesis fails if backlog grows without corresponding revenue and cash conversion, if customer concentration worsens materially, or if dilution and implementation costs overwhelm operating improvement. This does not establish that the security is undervalued.",
+      "current_thesis": "The concrete mechanism is exposure to warehouse-automation revenue conversion and recurring support revenue through a publicly traded security, rather than an unlisted technology theme. The key falsifiable question is whether backlog converts into reported revenue and cash flow without excessive customer concentration, implementation delays, or dilution. The backlog is not equivalent to guaranteed near-term earnings.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Current share price, market capitalization, enterprise value, and valuation relative to realistic fiscal 2027-2030 revenue and free cash flow.",
+        "Fiscal Q3 2026 revenue recognition, backlog balance, gross margin, operating cash flow, free cash flow, and deployment slippage.",
+        "Whether backlog growth is incremental, reclassified, or predominantly extensions of Walmart and GreenBox commitments.",
+        "The exact economics, governance, funding obligations, customer concentration, and related-party terms of GreenBox, now reportedly rebranded as Exol.",
+        "Walmart's ability and willingness to delay, renegotiate, reduce, or internally substitute portions of planned automation deployments.",
+        "Warranty claims, system uptime, retrofit costs, installation bottlenecks, labor and component costs, and customer acceptance rates.",
+        "Fully diluted share count, stock-based compensation, outstanding warrants, and any future capital raising."
+      ],
+      "investment_authorized": false,
+      "name": "Symbotic: public-market exposure to contracted warehouse automation, with concentration and execution risk",
+      "opportunity_id": "opp_decc33f3027f68ae3faf",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Find overlooked fundamentals and a named accessible security with dated primary filings.",
+        "Compare risked intrinsic value, market expectations and specific downside scenarios.",
+        "Define catalysts and invalidation thresholds before any governed investment decision."
+      ],
+      "supporting_source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/0001837240/000119312526015495/ars_2025.pdf",
+        "https://ebs.publicnow.com/view/9A4CD81A9D4548A36FCD237CFB7E0DF8C5100E09"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A small investor can participate through the listed Symbotic equity, subject to brokerage access and normal market risk. A more conservative route is to build a position only after checking quarterly backlog, revenue recognition, operating cash flow, customer concentration, and dilution against the filing; no return or valuation advantage is established by the evidence alone.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "public_markets",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Build a local-only prototype using synthetic positions and publicly documented DTCC workflows. Demonstrate reconciliation across one Treasury security and one equity-token transfer, including mint, burn, wallet and corporate-action exceptions. Approach DTC Participants, custodians, transfer agents or back-office vendors only after the prototype is complete; seek a paid discovery or sandbox review rather than assuming production access. Falsify by testing whether three relevant firms will review the synthetic workflow and identify an actual unresolved control gap; stop if the workflow requires restricted DTC data or if existing vendor products already cover it at no incremental need.",
       "current_thesis": "DTC Participants and their service providers will need operational controls that reconcile traditional positions, tokenized entitlements, wallet movements and corporate-action records. This is a concrete integration problem, not proof of a broad tokenization market.",
       "founder_hours_initial_unverified_estimate": "",
@@ -3257,7 +3333,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-18T16:19:03.913407+00:00",
+  "generated_at": "2026-10-18T20:14:17.929169+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

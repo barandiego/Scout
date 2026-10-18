@@ -1,11 +1,11 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-10-18T16:19:03.833055+00:00",
+  "generated_at": "2026-10-18T20:14:17.895894+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
-      "other_cards_in_theme": 3,
+      "other_cards_in_theme": 4,
       "reviewed": true,
       "status": "watch",
       "theme": "nfc_products",
@@ -104,14 +104,14 @@
   "high_concentration": [
     {
       "cards": 36,
-      "share": 0.424,
+      "share": 0.414,
       "theme": "chile_open_finance"
     }
   ],
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 34,
+  "theme_count": 35,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -183,9 +183,10 @@
         "opp_def87ec156069bf156db",
         "opp_f27f698db291e47e237f",
         "opp_d54cb21f051b71d41869",
-        "opp_931a74c26757b6e74ee3"
+        "opp_931a74c26757b6e74ee3",
+        "opp_6f96496de207fbd68ffc"
       ],
-      "count": 4,
+      "count": 5,
       "representative_id": "opp_def87ec156069bf156db",
       "reviewed_count": 1,
       "theme": "nfc_products"
@@ -382,6 +383,15 @@
     },
     {
       "all_opportunity_ids": [
+        "opp_decc33f3027f68ae3faf"
+      ],
+      "count": 1,
+      "representative_id": "opp_decc33f3027f68ae3faf",
+      "reviewed_count": 1,
+      "theme": "public_markets:symbotic_public_market"
+    },
+    {
+      "all_opportunity_ids": [
         "opp_711ad4fbffe9d21b5212"
       ],
       "count": 1,
@@ -471,6 +481,6 @@
       "theme": "robotics_agritech:small_factory_robot"
     }
   ],
-  "total_original_cards": 85,
+  "total_original_cards": 87,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }

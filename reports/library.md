@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-18T16:19:03.833055+00:00
+Generated: 2026-10-18T20:14:17.895894+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 85 (0 HQ survivors, 85 watches)
+- Active research: 87 (0 HQ survivors, 87 watches)
 - Rejected opportunities excluded: 47
-- Critic-and-judge reviewed: 44
+- Critic-and-judge reviewed: 45
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -453,6 +453,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://cmfchile.atlassian.net/wiki/spaces/OFAC/pages/267649439/API%2BCuentas%2BOpen%2BFinance%2BChile%2Bv1.0.0; https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html
 
+### Symbotic: public-market exposure to contracted warehouse automation, with concentration and execution risk [opp_decc33f3027f68ae3faf]
+- Status: WATCH_REQUIRES_VALIDATION | public_markets | United States
+- Thesis: The concrete mechanism is exposure to warehouse-automation revenue conversion and recurring support revenue through a publicly traded security, rather than an unlisted technology theme. The key falsifiable question is whether backlog converts into reported revenue and cash flow without excessive customer concentration, implementation delays, or dilution. The backlog is not equivalent to guaranteed near-term earnings.
+- Value capture: A small investor can participate through the listed Symbotic equity, subject to brokerage access and normal market risk. A more conservative route is to build a position only after checking quarterly backlog, revenue recognition, operating cash flow, customer concentration, and dilution against the filing; no return or valuation advantage is established by the evidence alone.
+- Participation hypothesis: Use the company’s SEC filing as the baseline, then compare the next two reported quarters against backlog conversion, operating cash flow, gross margin, share count, and Walmart/GreenBox concentration. The lowest-cost falsification step is paper-trading or taking no position while recording the expected metrics before each earnings release. A thesis fails if backlog grows without corresponding revenue and cash conversion, if customer concentration worsens materially, or if dilution and implementation costs overwhelm operating improvement. This
+- Critic/judge: Symbotic is an accessible listed security supported by a dated SEC filing, so it clears the source-quality and accessibility gates. The proposed research question is appropriately falsifiable: whether a concentrated, long-duration backlog converts into revenue, cash flow, and per-share value. However, it does not yet establish the required valuation-versus-risked-value comparison. The evidence supports backlog and concentration, not an
+- Next evidence gaps: Current share price, market capitalization, enterprise value, and valuation relative to realistic fiscal 2027-2030 revenue and free cash flow.; Fiscal Q3 2026 revenue recognition, backlog balance, gross margin, operating cash flow, free cash flow, and deployment slippage.; Whether backlog growth is incremental, reclassified, or predominantly extensions of Walmart and GreenBox commitments.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/0001837240/000119312526015495/ars_2025.pdf; https://ebs.publicnow.com/view/9A4CD81A9D4548A36FCD237CFB7E0DF8C5100E09
+
 ### Small- and mid-size farm robotic-weeding service using commercial robots instead of ownership [opp_9ed2c5cffcc241526473]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States; potentially exportable to Chilean specialty-crop regions
 - Thesis: The executable wedge is not building a new robot; it is testing whether a small operator can aggregate demand and sell scheduled robotic weeding, field trials, or seasonal access while outsourcing equipment ownership to an existing manufacturer, dealer or equipment financier. Actual unit economics remain unverified and depend on crop, acreage, transport, supervision and robot availability.
@@ -752,6 +762,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.nifa.usda.gov/about-nifa/impacts/automation-specialty-crops; https://www.ars.usda.gov/research/project/?accnNo=448156
+
+### NFC review-and-reservation kits for Chilean multi-location hospitality businesses [opp_6f96496de207fbd68ffc]
+- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
+- Thesis: The opportunity is not generic NFC resale; it is a narrow deployment package for restaurants, cafés, hotels, barber shops, and clinics with multiple customer-contact points. The economic mechanism is a low-cost physical prompt that can route customers to reviews, reservations, or WhatsApp while allowing the operator to measure taps and clicks. Existing local prices provide a verifiable willingness-to-pay benchmark, but do not establish conversion uplift or margins.
+- Value capture: Sell or import compliant NFC/QR stands, cards, or stickers as a standardized kit for one use case—such as review acquisition or reservation capture—with optional setup and analytics. The defensible wedge would be a repeatable deployment protocol and measurement dashboard for multi-location operators, not the NFC hardware itself.
+- Participation hypothesis: Start with one Chilean hospitality business that already has at least two customer-facing locations or service points. Purchase one or two locally available units at the published retail price, configure separate destinations for Google Reviews and WhatsApp, and run a 14-day pre/post or matched-location test using tap counts, destination clicks, review volume, and inquiry volume. Only proceed to a paid multi-location pilot if the operator agrees in writing to share baseline and test-period metrics; do not assume review attribution, permissions,
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.ondda.cl/; https://www.aither.cl/tap/
 
 ### NYISO DER enrollment and telemetry wedge for 10–100 kW commercial assets [opp_94b1dcc19f8cc9f335ef]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | New York, United States

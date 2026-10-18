@@ -1,9 +1,9 @@
 {
   "buyer_qualified_count": 0,
-  "excluded_from_first_dollar_queue": 81,
+  "excluded_from_first_dollar_queue": 83,
   "first_dollar_verified": false,
-  "generated_at": "2026-10-18T16:19:03.833055+00:00",
-  "opportunity_count_reviewed": 85,
+  "generated_at": "2026-10-18T20:14:17.895894+00:00",
+  "opportunity_count_reviewed": 87,
   "revenue_usd_verified": null,
   "schema_version": 1,
   "selected": [
@@ -33,6 +33,33 @@
         "https://group.dhl.com/content/dam/deutschepostdhl/en/media-center/media-relations/documents/2025/e-commerce-trends-report-2025-business-edition.pdf"
       ],
       "vertical": "ecommerce_niches"
+    },
+    {
+      "automatic_outreach_authorized": false,
+      "automatic_purchase_authorized": false,
+      "buyer_verified": false,
+      "current_status": "WATCH_REQUIRES_VALIDATION",
+      "economic_status": "UNVALIDATED_NO_VERIFIED_BUYER_OR_SALE",
+      "first_distribution_hypothesis": "Start with one Chilean hospitality business that already has at least two customer-facing locations or service points. Purchase one or two locally available units at the published retail price, configure separate destinations for Google Reviews and WhatsApp, and run a 14-day pre/post or matched-location test using tap counts, destination clicks, review volume, and inquiry volume. Only proceed to a paid multi-location pilot if the operator agrees in writing to share baseline and test-period metrics; do not assume review attribution, permissions, or incremental revenue. Existing suppliers provide direct purchase or demo routes, so no import approval is required for the falsification test.",
+      "independent_review_status": "REVIEW_PENDING_DO_NOT_PROMOTE",
+      "missing_to_prove": [
+        "independent_critic_and_judge",
+        "independent_specific_buyer",
+        "written_price_or_paid_commitment",
+        "verified_fulfilment_and_unit_cost",
+        "distribution_permission_or_channel",
+        "actual_third_party_receipt"
+      ],
+      "next_no_spend_buyer_test": "Compare at least three real Chilean substitutes and published prices. Verify a legally deliverable owned product and obtain independent buyer interest before any stock, ads or paid accounts.",
+      "opportunity_id": "opp_6f96496de207fbd68ffc",
+      "origin": "EXISTING_SCOUT_WATCH_OR_SURVIVOR_NOT_NEW_OPPORTUNITY",
+      "revenue_verified": false,
+      "title": "NFC review-and-reservation kits for Chilean multi-location hospitality businesses",
+      "verified_source_urls": [
+        "https://www.ondda.cl/",
+        "https://www.aither.cl/tap/"
+      ],
+      "vertical": "chile_localization"
     },
     {
       "automatic_outreach_authorized": false,
@@ -86,33 +113,6 @@
         "https://www.sec.cl/normas-tecnicas-electricas/"
       ],
       "vertical": "energy_infrastructure"
-    },
-    {
-      "automatic_outreach_authorized": false,
-      "automatic_purchase_authorized": false,
-      "buyer_verified": false,
-      "current_status": "WATCH_REQUIRES_VALIDATION",
-      "economic_status": "UNVALIDATED_NO_VERIFIED_BUYER_OR_SALE",
-      "first_distribution_hypothesis": "Identify one existing Chilean hydroponic or controlled-environment grower willing to share two comparable production cycles. Measure lighting, HVAC and pump electricity; record kilograms harvested and sale prices; run one controlled lighting-schedule change while keeping crop and harvest criteria constant. Stop if the grower cannot provide baseline meter data, comparable harvest records or permission to alter the schedule. Do not invest in a new farm based on the cited evidence alone.",
-      "independent_review_status": "CRITIC_JUDGE_COMPLETE_NOT_COMMERCIAL_PROOF",
-      "missing_to_prove": [
-        "independent_specific_buyer",
-        "written_price_or_paid_commitment",
-        "verified_fulfilment_and_unit_cost",
-        "distribution_permission_or_channel",
-        "actual_third_party_receipt"
-      ],
-      "next_no_spend_buyer_test": "Find a real operator's measured baseline and proposed savings, plus equipment/installation prices, before a product or pilot.",
-      "opportunity_id": "opp_6c994db30cf257cb79ff",
-      "origin": "EXISTING_SCOUT_WATCH_OR_SURVIVOR_NOT_NEW_OPPORTUNITY",
-      "revenue_verified": false,
-      "title": "Indoor-farm lighting and energy audit wedge for existing Chilean growers",
-      "verified_source_urls": [
-        "https://arxiv.org/abs/2507.18419",
-        "https://arxiv.org/abs/2510.03686",
-        "https://ers.usda.gov/sites/default/files/_laserfiche/publications/108221/EIB-264.pdf"
-      ],
-      "vertical": "robotics_agritech"
     }
   ],
   "selection_type": "FOUNDER_REVIEW_QUEUE_NOT_AUTONOMOUS_ECONOMIC_EXECUTION",

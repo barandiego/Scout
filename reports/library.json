@@ -3867,6 +3867,92 @@
       "ai_leverage": "",
       "authorized_for_execution": false,
       "contrary_evidence": [],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-18T20:13:57.441420+00:00",
+      "discovery_lens": "early_adoption_investing",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The company reports approximately USD 22.5 billion of backlog as of September 27, 2025, says Walmart and GreenBox comprise the vast majority, and describes minimum 15-year software maintenance and support after preliminary system acceptance with annual renewals thereafter.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Symbotic 2025 Form 10-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001837240/000119312526015495/ars_2025.pdf"
+        },
+        {
+          "claim": "The filing summary independently reports Symbotic’s warehouse-automation deployments with major retailers and approximately USD 22.5 billion of backlog as of September 27, 2025.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Symbotic 2025 Form 10-K summary",
+          "url": "https://ebs.publicnow.com/view/9A4CD81A9D4548A36FCD237CFB7E0DF8C5100E09"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [
+        "Backlog recognition remains materially below the company's stated schedule for multiple quarters without a convincing customer-driven explanation.",
+        "Revenue grows but operating cash flow or free cash flow remains persistently negative after adjusting for timing-related working-capital movements.",
+        "Gross margin declines materially because of installation overruns, warranty costs, pricing concessions, or hardware inflation.",
+        "Walmart remains above roughly 80% of revenue or backlog while new-customer diversification fails to become economically material.",
+        "Walmart or GreenBox cancels, materially delays, renegotiates, or fails to fund deployments, or system acceptance becomes a recurring bottleneck.",
+        "Dilution from stock compensation, warrants, acquisitions, or equity issuance causes per-share operating progress to lag business growth.",
+        "The company requires repeated external financing despite its reported cash balance and improving profitability.",
+        "Independent evidence shows competing systems achieving comparable throughput, reliability, or total-cost-of-ownership outcomes at lower cost.",
+        "The current valuation implies sustained growth and margins that are unsupported by a defensible discounted-cash-flow or peer-relative analysis.",
+        "Customer concentration, related-party transactions, or governance disclosures worsen materially."
+      ],
+      "geography": "United States",
+      "id": "opp_decc33f3027f68ae3faf",
+      "judge_reviewed": true,
+      "judgment": "Symbotic is an accessible listed security supported by a dated SEC filing, so it clears the source-quality and accessibility gates. The proposed research question is appropriately falsifiable: whether a concentrated, long-duration backlog converts into revenue, cash flow, and per-share value. However, it does not yet establish the required valuation-versus-risked-value comparison. The evidence supports backlog and concentration, not an expectation of attractive shareholder returns at the current price. Walmart/GreenBox concentration, slow and acceptance-dependent deployment, related-party/JV complexity, and possible dilution or working-capital absorption are central economic risks rather than secondary caveats. This is research-worthy only if the next work produces a current fully diluted valuation, balance-sheet/liquidity review, cash-flow and margin normalization, and explicit downside/base/upside scenarios that risk-adjust backlog conversion. It is not an investable conclusion or a buy signal.",
+      "last_record_updated_at": "2026-10-18T20:14:17.638575+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Current share price, market capitalization, enterprise value, and valuation relative to realistic fiscal 2027-2030 revenue and free cash flow.",
+        "Fiscal Q3 2026 revenue recognition, backlog balance, gross margin, operating cash flow, free cash flow, and deployment slippage.",
+        "Whether backlog growth is incremental, reclassified, or predominantly extensions of Walmart and GreenBox commitments.",
+        "The exact economics, governance, funding obligations, customer concentration, and related-party terms of GreenBox, now reportedly rebranded as Exol.",
+        "Walmart's ability and willingness to delay, renegotiate, reduce, or internally substitute portions of planned automation deployments."
+      ],
+      "participation_path": "Use the company’s SEC filing as the baseline, then compare the next two reported quarters against backlog conversion, operating cash flow, gross margin, share count, and Walmart/GreenBox concentration. The lowest-cost falsification step is paper-trading or taking no position while recording the expected metrics before each earnings release. A thesis fails if backlog grows without corresponding revenue and cash conversion, if customer concentration worsens materially, or if dilution and implementation costs overwhelm operating improvement. This does not establish that the security is undervalued.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The concrete mechanism is exposure to warehouse-automation revenue conversion and recurring support revenue through a publicly traded security, rather than an unlisted technology theme. The key falsifiable question is whether backlog converts into reported revenue and cash flow without excessive customer concentration, implementation delays, or dilution. The backlog is not equivalent to guaranteed near-term earnings.",
+      "title": "Symbotic: public-market exposure to contracted warehouse automation, with concentration and execution risk",
+      "type": "public_security",
+      "unknowns": [
+        "Current share price, market capitalization, enterprise value, and valuation relative to realistic fiscal 2027-2030 revenue and free cash flow.",
+        "Fiscal Q3 2026 revenue recognition, backlog balance, gross margin, operating cash flow, free cash flow, and deployment slippage.",
+        "Whether backlog growth is incremental, reclassified, or predominantly extensions of Walmart and GreenBox commitments.",
+        "The exact economics, governance, funding obligations, customer concentration, and related-party terms of GreenBox, now reportedly rebranded as Exol.",
+        "Walmart's ability and willingness to delay, renegotiate, reduce, or internally substitute portions of planned automation deployments.",
+        "Warranty claims, system uptime, retrofit costs, installation bottlenecks, labor and component costs, and customer acceptance rates.",
+        "Fully diluted share count, stock-based compensation, outstanding warrants, and any future capital raising.",
+        "Sustainable gross margins and free-cash-flow margins after the business reaches a larger installation base.",
+        "Competitive win rates and switching costs versus Dematic, Honeywell, Daifuku, AutoStore, Ocado, Amazon Robotics, and other warehouse-automation providers.",
+        "Whether the cellumation acquisition improves economics or increases integration and capital-allocation risk.",
+        "Current share price, market capitalization, enterprise value, net cash/debt, liquidity runway, and fully diluted share count including SBC, warrants, and acquisition-related issuance.",
+        "The latest reported quarterly backlog, revenue conversion, gross margin, operating cash flow, capital expenditure, free cash flow, and deployment/acceptance performance following the September 2025 filing.",
+        "Contractual cancellation, termination, pricing-adjustment, minimum-purchase, payment, performance-guarantee, and acceptance provisions underlying the principal backlog.",
+        "A normalized project-level and consolidated cash-flow model separating installation working-capital swings from durable free-cash-flow generation.",
+        "GreenBox/Exol ownership, governance, funding, accounting, customer commitments, and the degree to which its backlog is economically comparable to third-party customer backlog.",
+        "A risked valuation with explicit bear/base/bull cases for backlog conversion, margins, concentration, timing, and dilution, benchmarked against the current enterprise value and relevant peers.",
+        "Whether recent operating improvements persist through multiple quarters and whether meaningful non-Walmart customer diversification becomes economically material."
+      ],
+      "value_capture_mechanism": "A small investor can participate through the listed Symbotic equity, subject to brokerage access and normal market risk. A more conservative route is to build a position only after checking quarterly backlog, revenue recognition, operating cash flow, customer concentration, and dilution against the filing; no return or valuation advantage is established by the evidence alone.",
+      "verified_sales": null,
+      "vertical": "public_markets",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
       "critic_reviewed": false,
       "discovered_at": "2026-10-15T20:20:46.386299+00:00",
       "discovery_lens": "adoption_lag",
@@ -5551,6 +5637,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-18T20:13:57.440880+00:00",
+      "discovery_lens": "chile_technology_import",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Chile-based supplier markets NFC products for restaurants, cafés, barber shops, hotels, clinics, and retail, including an acrylic NFC review stand priced at CLP 29,990, a presentation card at CLP 24,990, and an acrylic stand at CLP 19,990.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Soluciones NFC para negocios en Chile | ONDDA",
+          "url": "https://www.ondda.cl/"
+        },
+        {
+          "claim": "Chile-based supplier offers NFC/QR products that route customers to Google Reviews, Instagram, or WhatsApp, priced from CLP 34,990 with no monthly fee.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "AITHER TAP — NFC + QR para conectar con tus clientes",
+          "url": "https://www.aither.cl/tap/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.87,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_6f96496de207fbd68ffc",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-18T20:13:57.462070+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Start with one Chilean hospitality business that already has at least two customer-facing locations or service points. Purchase one or two locally available units at the published retail price, configure separate destinations for Google Reviews and WhatsApp, and run a 14-day pre/post or matched-location test using tap counts, destination clicks, review volume, and inquiry volume. Only proceed to a paid multi-location pilot if the operator agrees in writing to share baseline and test-period metrics; do not assume review attribution, permissions, or incremental revenue. Existing suppliers provide direct purchase or demo routes, so no import approval is required for the falsification test.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The opportunity is not generic NFC resale; it is a narrow deployment package for restaurants, cafés, hotels, barber shops, and clinics with multiple customer-contact points. The economic mechanism is a low-cost physical prompt that can route customers to reviews, reservations, or WhatsApp while allowing the operator to measure taps and clicks. Existing local prices provide a verifiable willingness-to-pay benchmark, but do not establish conversion uplift or margins.",
+      "title": "NFC review-and-reservation kits for Chilean multi-location hospitality businesses",
+      "type": "commercial_offer",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell or import compliant NFC/QR stands, cards, or stickers as a standardized kit for one use case—such as review acquisition or reservation capture—with optional setup and analytics. The defensible wedge would be a repeatable deployment protocol and measurement dashboard for multi-location operators, not the NFC hardware itself.",
+      "verified_sales": null,
+      "vertical": "chile_localization",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-16T20:18:25.722415+00:00",
       "discovery_lens": "energy_industrial",
       "estimated_capital": "",
@@ -6144,13 +6284,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-18T16:19:03.833055+00:00",
+  "generated_at": "2026-10-18T20:14:17.895894+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 47,
-  "reviewed_cards": 44,
+  "reviewed_cards": 45,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 132,
-  "watch": 85
+  "total_distinct_opportunities": 134,
+  "watch": 87
 }

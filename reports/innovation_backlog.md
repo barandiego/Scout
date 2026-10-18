@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 85
+Candidates: 87
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -27,6 +27,18 @@ Candidates: 85
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://linkd.cl/; https://www.ondda.cl/; https://www.tuk.cl/es-cl
+
+## NFC review-and-reservation kits for Chilean multi-location hospitality businesses
+- Status: watch | chile_localization
+- Current idea: The opportunity is not generic NFC resale; it is a narrow deployment package for restaurants, cafés, hotels, barber shops, and clinics with multiple customer-contact points. The economic mechanism is a low-cost physical prompt that can route customers to reviews, reservations, or WhatsApp while allowing the operator to measure taps and clicks. Existing local prices provide a verifiable willingness-to-pay benchmark, but do not establish conversion uplift or margins.
+- Potential economic capture: Sell or import compliant NFC/QR stands, cards, or stickers as a standardized kit for one use case—such as review acquisition or reservation capture—with optional setup and analytics. The defensible wedge would be a repeatable deployment protocol and measurement dashboard for multi-location operators, not the NFC hardware itself.
+- **Research routes to test (NOT validated claims):**
+  - Find the smallest Chilean workflow whose economics differ from the original geography.
+  - Secure lawful access, partners and after-sales support rather than copy protected technology.
+  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.ondda.cl/; https://www.aither.cl/tap/
 
 ## Pilot NFC table placards for review capture and menu recovery in independent Chilean restaurants
 - Status: watch | chile_localization
@@ -879,6 +891,18 @@ Candidates: 85
 - Critical gaps: Current share prices, enterprise values, forward revenue and EBITDA multiples, and whether valuation already discounts the cited backlog.; Backlog cancellation, termination, change-order, milestone-payment, and customer-concentration terms for each company.; Gross-margin and free-cash-flow economics by data-center project, including working-capital requirements, warranty exposure, liquidated damages, and financing costs.
 - Possible initial budget:
 - Source URLs: https://www.sec.gov/Archives/edgar/data/929008/000092900826000021/wcc-2q2026slides.htm; https://www.sec.gov/Archives/edgar/data/2110029/000119312526344714/eroc-ex99_1.htm; https://www.sec.gov/Archives/edgar/data/1488139/000162828026051825/amerescoq22026supplement.htm
+
+## Symbotic: public-market exposure to contracted warehouse automation, with concentration and execution risk
+- Status: watch | public_markets
+- Current idea: The concrete mechanism is exposure to warehouse-automation revenue conversion and recurring support revenue through a publicly traded security, rather than an unlisted technology theme. The key falsifiable question is whether backlog converts into reported revenue and cash flow without excessive customer concentration, implementation delays, or dilution. The backlog is not equivalent to guaranteed near-term earnings.
+- Potential economic capture: A small investor can participate through the listed Symbotic equity, subject to brokerage access and normal market risk. A more conservative route is to build a position only after checking quarterly backlog, revenue recognition, operating cash flow, customer concentration, and dilution against the filing; no return or valuation advantage is established by the evidence alone.
+- **Research routes to test (NOT validated claims):**
+  - Find overlooked fundamentals and a named accessible security with dated primary filings.
+  - Compare risked intrinsic value, market expectations and specific downside scenarios.
+  - Define catalysts and invalidation thresholds before any governed investment decision.
+- Critical gaps: Current share price, market capitalization, enterprise value, and valuation relative to realistic fiscal 2027-2030 revenue and free cash flow.; Fiscal Q3 2026 revenue recognition, backlog balance, gross margin, operating cash flow, free cash flow, and deployment slippage.; Whether backlog growth is incremental, reclassified, or predominantly extensions of Walmart and GreenBox commitments.
+- Possible initial budget:
+- Source URLs: https://www.sec.gov/Archives/edgar/data/0001837240/000119312526015495/ars_2025.pdf; https://ebs.publicnow.com/view/9A4CD81A9D4548A36FCD237CFB7E0DF8C5100E09
 
 ## Tokenized-securities operational adapter for DTC Participants
 - Status: watch | public_markets
