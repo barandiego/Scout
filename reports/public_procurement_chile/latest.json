@@ -1,9 +1,50 @@
 {
-  "active_candidates": [],
-  "active_structurally_reconstructable_count": 0,
+  "active_candidates": [
+    {
+      "available_budget_clp": 860000.0,
+      "buyer": "SERV NAC SALUD HOSPITAL DE LOS ANDES",
+      "closes_at": "2026-10-19T13:00:00",
+      "code": "617807-2385-COT26",
+      "estimated_budget": 860000.0,
+      "name": "HAAV COMPRA DE ALIMENTOS MEMO N° 97",
+      "products": 1,
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 350000.0,
+      "buyer": "SERV NAC SALUD HOSPITAL DE LOS ANDES",
+      "closes_at": "2026-10-19T12:00:00",
+      "code": "617807-2384-COT26",
+      "estimated_budget": 350000.0,
+      "name": "HAAV ARTICULO DE PABELLON 20261299",
+      "products": 1,
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 550000.0,
+      "buyer": "SERV NAC SALUD HOSPITAL DE LOS ANDES",
+      "closes_at": "2026-10-19T11:00:00",
+      "code": "617807-2383-COT26",
+      "estimated_budget": 550000.0,
+      "name": "HAAV  HAAV ART DE ESCRITORIO 20261161",
+      "products": 1,
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 1500000.0,
+      "buyer": "CORP NACIONAL FORESTAL",
+      "closes_at": "2026-10-19T12:00:00",
+      "code": "1421-48-COT26",
+      "estimated_budget": 1500000.0,
+      "name": "servicio de coffe break para DEPRIF",
+      "products": 2,
+      "region": "Región del Maule"
+    }
+  ],
+  "active_structurally_reconstructable_count": 4,
   "diagnostics": {
     "api_failures": {
-      "api_http_500": 1
+      "api_http_504": 1
     },
     "budget_exhausted": false,
     "detail_attempts": 20,
@@ -17,10 +58,10 @@
     "pages_fetched": 1,
     "pagination_incomplete": false,
     "pagination_invalid": false,
-    "requests_used": 21,
-    "transient_retries": 0
+    "requests_used": 24,
+    "transient_retries": 3
   },
-  "generated_at": "2026-10-18T08:49:20Z",
+  "generated_at": "2026-10-18T12:55:56Z",
   "inserted_history": 19,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -30,14 +71,14 @@
     "rejection_reasons": {
       "no_observable_competitive_prices": 5
     },
-    "resolved": 19,
+    "resolved": 15,
     "structurally_reconstructable": 14,
-    "with_observable_quote_totals": 14,
-    "with_purchase_order_indicator": 0
+    "with_observable_quote_totals": 10,
+    "with_purchase_order_indicator": 1
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-18T08:49:20Z"
+    "changed_to": "2026-10-18T12:55:56Z"
   }
 }
