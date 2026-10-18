@@ -1,23 +1,105 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 380000.0,
-      "buyer": "UNIVERSIDAD DE CHILE",
-      "closes_at": "2026-10-19T13:45:00",
-      "code": "5756-513-COT26",
-      "estimated_budget": 380000.0,
-      "name": "Pasajes aéreos internacionales Santiago – Rosario - sol 9710",
+      "available_budget_clp": 1200000.0,
+      "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+      "closes_at": "2026-10-19T17:45:00",
+      "code": "1057491-1889-COT26",
+      "estimated_budget": 1200000.0,
+      "name": "OSTEOTOMIA DE CORRECCION DEL EJE DEL RADIO IZQUIERDO RESECCION LIGAMENTO DE VICKERS Y PLASTIA ARTICULAR ANTEBRAZO IZQUIERDO",
       "products": 1,
       "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 600700.0,
+      "buyer": "DEPARTAMENTO PROVINCIAL DE EDUCACIÓN DE RANCO",
+      "closes_at": "2026-10-19T17:20:00",
+      "code": "5795-108-COT26",
+      "estimated_budget": 600700.0,
+      "name": "MESAS TECNICAS Y COMITE LOCAL",
+      "products": 1,
+      "region": "Región de Los Ríos"
+    },
+    {
+      "available_budget_clp": 690000.0,
+      "buyer": "UNIVERSIDAD METROPOLITANA DE CIENCIAS DE LA EDUCAC",
+      "closes_at": "2026-10-20T09:30:00",
+      "code": "1491849-31-COT26",
+      "estimated_budget": 690000.0,
+      "name": "Servicio de Coffee Break para 70 personas el día 22/12/2026 en el Liceo Gladys Valenzuela en el marco del Proyecto CONS-VCM-05",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 26000.0,
+      "buyer": "SECCIÓN COMPRAS XII ZONA",
+      "closes_at": "2026-10-19T17:15:00",
+      "code": "1079445-719-COT26",
+      "estimated_budget": 26000.0,
+      "name": "ADQ. PASAJES VEHICULO FISCAL BAHIA AZUL-PUNTA DELGADA",
+      "products": 1,
+      "region": "Región de Magallanes y de la Antártica"
+    },
+    {
+      "available_budget_clp": 7200000.0,
+      "buyer": "UNIVERSIDAD DE AYSEN",
+      "closes_at": "2026-10-20T12:00:00",
+      "code": "1057062-466-COT26",
+      "estimated_budget": 7200000.0,
+      "name": "Adquisición de libros de derecho según Fisabs 2290_URY 25991",
+      "products": 44,
+      "region": "Región Aysén del General Carlos Ibáñez del Campo"
+    },
+    {
+      "available_budget_clp": 440000.0,
+      "buyer": "Comandancia General del Cuerpo I.M.",
+      "closes_at": "2026-10-19T17:10:00",
+      "code": "2958-37-COT26",
+      "estimated_budget": 440000.0,
+      "name": "Adquisición de artículos de escritorio",
+      "products": 18,
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 26000.0,
+      "buyer": "SECCIÓN COMPRAS XII ZONA",
+      "closes_at": "2026-10-19T17:10:00",
+      "code": "1079445-717-COT26",
+      "estimated_budget": 26000.0,
+      "name": "ADQ. PASAJES VEHICULO FISCAL PAMPA GUANACO PUNTA DELGADA-BAHIA AZUL",
+      "products": 1,
+      "region": "Región de Magallanes y de la Antártica"
+    },
+    {
+      "available_budget_clp": 26000.0,
+      "buyer": "SECCIÓN COMPRAS XII ZONA",
+      "closes_at": "2026-10-19T17:15:00",
+      "code": "1079445-718-COT26",
+      "estimated_budget": 26000.0,
+      "name": "ADQ. PASAJES VEHICULO FISCAL PUNTA DELGADA-BAHIA AZUL",
+      "products": 1,
+      "region": "Región de Magallanes y de la Antártica"
+    },
+    {
+      "available_budget_clp": 26000.0,
+      "buyer": "SECCIÓN COMPRAS XII ZONA",
+      "closes_at": "2026-10-19T17:10:00",
+      "code": "1079445-716-COT26",
+      "estimated_budget": 26000.0,
+      "name": "ADQ. PASAJES VEHICULO FISCAL PAMPA GUANACO BAHIA AZUL-PUNTA DELGADA",
+      "products": 1,
+      "region": "Región de Magallanes y de la Antártica"
     }
   ],
-  "active_structurally_reconstructable_count": 1,
+  "active_structurally_reconstructable_count": 9,
   "diagnostics": {
-    "api_failures": {},
-    "budget_exhausted": false,
+    "api_failures": {
+      "api_http_504": 2
+    },
+    "budget_exhausted": true,
     "detail_attempts": 20,
-    "detail_cap_exhausted": true,
-    "details_fetched": 20,
+    "detail_cap_exhausted": false,
+    "details_fetched": 18,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -26,27 +108,27 @@
     "pages_fetched": 1,
     "pagination_incomplete": false,
     "pagination_invalid": false,
-    "requests_used": 21,
-    "transient_retries": 0
+    "requests_used": 25,
+    "transient_retries": 4
   },
-  "generated_at": "2026-10-18T16:48:45Z",
-  "inserted_history": 20,
+  "generated_at": "2026-10-18T20:46:18Z",
+  "inserted_history": 18,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
+  "outcome": "DEGRADED_API_ERRORS",
   "phase1": {
-    "records": 20,
+    "records": 18,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 7
+      "no_observable_competitive_prices": 3
     },
-    "resolved": 19,
-    "structurally_reconstructable": 13,
-    "with_observable_quote_totals": 12,
+    "resolved": 9,
+    "structurally_reconstructable": 15,
+    "with_observable_quote_totals": 6,
     "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-18T16:48:45Z"
+    "changed_to": "2026-10-18T20:46:18Z"
   }
 }
