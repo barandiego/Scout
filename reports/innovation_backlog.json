@@ -377,6 +377,42 @@
       "category": "energy_infrastructure",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Download the DOE checklist and technical references, build a spreadsheet or lightweight application covering 30–50 fields, and test it on publicly available BESS bid documents, RFPs, or vendor datasheets. Contact 10 U.S. BESS EPCs, developers, or public procurement offices with a sample redacted output. Falsification threshold: stop if fewer than 2 parties will provide real procurement documents or confirm that missing-evidence review is a current paid or bid-critical task. Do not claim engineering, safety, interconnection, or cybersecurity certification.",
+      "current_thesis": "BESS projects require more than a battery quote: procurement teams must evaluate technical specifications, interconnection requirements, component provenance, cybersecurity or supply-chain exposure, and mitigation evidence. A standardized evidence pack could reduce repeated bid-comparison work, but the existence of a paying market remains to be tested.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "BESS procurement evidence pack focused on supply-chain and grid-support requirements",
+      "opportunity_id": "opp_821fe989c63ca8db797f",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
+        "Compare owned asset, installer/distributor and project-finance participation.",
+        "Verify permits and installed net payback under conservative power price scenarios."
+      ],
+      "supporting_source_urls": [
+        "https://www.energy.gov/cmei/femp/articles/battery-energy-storage-system-procurement-checklist",
+        "https://www.energy.gov/ceser/articles/new-ceser-report-offers-supply-chain-mitigation-strategies-battery-storage-systems"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Create a narrowly scoped, machine-readable vendor-comparison pack that maps supplier documents to DOE procurement checklist fields, records missing evidence, and flags single-source or foreign-component dependencies. Potential cash flow would come from project developers, EPCs, or public-sector procurement teams purchasing a project-specific review; no buyer or fee is assumed.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "energy_infrastructure",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Lowest-cost test: download the definitive tender documents from the official Chilean electricity-tender portal, build a two-page compliance matrix and a simple storage-bid calculation workbook, then send it to 10 publicly identifiable Chilean storage/renewable developers or tender advisers asking whether one paid review would reduce submission risk. Do not claim authority to represent a bidder, submit an offer, or provide regulated engineering/legal advice. Falsify if no qualified contact confirms a specific missing deliverable or requests a paid pilot within 20 outreach attempts.",
       "current_thesis": "Developers and consortia that already control generation, storage or interconnection may need bid-ready documentation, dispatch/energy calculations, zone and time-block analysis, and compliance coordination before submitting. This is a procurement-enablement wedge, not evidence that an independent operator can win or resell electricity.",
       "founder_hours_initial_unverified_estimate": "",
@@ -1291,6 +1327,46 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "A narrowly scoped implementation asset: automated API conformance tests, consent-flow test fixtures, data-schema validators, and reproducible sandbox test cases for one participant type. Potential cash flow would come from paid test engagements or integration work only if an affected participant agrees to purchase it; no buyer or price is established by the evidence.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Use the public CMF developer materials and ATENA environment to implement only the highest-risk flows: consent lifecycle, participant-directory interaction, confirmation of funds, and one payment-initiation path. Recruit 3–5 Chilean fintech or payment-software teams from public participant lists, industry events, or direct outreach and offer a free diagnostic against their sandbox integration. Falsification threshold: stop if at least 3 technically relevant prospects will not provide a test endpoint, accept a diagnostic, or identify a concrete integration problem within 30 days. Do not market regulated financial services or initiate real payments without confirming the applicable CMF authorization requirements.",
+      "current_thesis": "Entities intending to participate must convert evolving technical requirements into working integrations and evidence that they can pass interoperability and compliance tests. The timing creates a bounded pre-regulatory implementation window rather than an indefinite market thesis.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "How many entities will be obligated or commercially motivated to participate by July 2027, segmented by role and implementation phase.",
+        "Whether ATENA includes sufficiently complete automated conformance coverage, reporting, fixtures, negative tests, payment-initiation scenarios, and regression testing to make a private harness unnecessary.",
+        "Whether CMF, banks, or certification bodies will recognize or rely on evidence exports from a third-party tool.",
+        "The actual buyer: regulated institution, fintech engineering team, systems integrator, certification provider, or software vendor.",
+        "Customer willingness to pay, expected contract size, procurement duration, and renewal potential.",
+        "How frequently the technical annex, sandbox behavior, security profile, or certification requirements will change before and after July 2027.",
+        "Whether prospects can legally and operationally provide test endpoints or representative fixtures for external diagnostics."
+      ],
+      "investment_authorized": false,
+      "name": "Chile Open Finance conformance test harness for early SFA participants",
+      "opportunity_id": "opp_33df5c0e60b44851d959",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A small operator could build a narrow, reusable test asset: API contract tests, consent-state fixtures, payment-initiation test cases, directory-registration checks, and an evidence-export function mapped to the CMF technical annex. The economic mechanism is sale or licensing of the test pack to participating fintechs, payment firms, or software vendors; no buyer, price, or conversion rate is assumed.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -3523,7 +3599,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-19T16:25:57.421438+00:00",
+  "generated_at": "2026-10-19T20:24:50.216786+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

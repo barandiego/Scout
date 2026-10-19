@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 92
+Candidates: 94
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -123,6 +123,18 @@ Candidates: 92
 - Critical gaps: Whether the cited January 1, 2026 AFCI requirement applies to the exact project classes, inverter configurations, and connection pathways targeted by the product, rather than only specified cases or alternatives.; Whether SEC or distributors accept the proposed equipment/documentation combinations in practice and what causes actual TE4 or related filing rejections.; Number of Chilean distributed BESS projects currently being designed, installed, or submitted through the relevant process.
 - Possible initial budget:
 - Source URLs: https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/; https://www.sec.cl/gda/; https://www.sec.cl/normas-tecnicas-electricas/
+
+## BESS procurement evidence pack focused on supply-chain and grid-support requirements
+- Status: watch | energy_infrastructure
+- Current idea: BESS projects require more than a battery quote: procurement teams must evaluate technical specifications, interconnection requirements, component provenance, cybersecurity or supply-chain exposure, and mitigation evidence. A standardized evidence pack could reduce repeated bid-comparison work, but the existence of a paying market remains to be tested.
+- Potential economic capture: Create a narrowly scoped, machine-readable vendor-comparison pack that maps supplier documents to DOE procurement checklist fields, records missing evidence, and flags single-source or foreign-component dependencies. Potential cash flow would come from project developers, EPCs, or public-sector procurement teams purchasing a project-specific review; no buyer or fee is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.energy.gov/cmei/femp/articles/battery-energy-storage-system-procurement-checklist; https://www.energy.gov/ceser/articles/new-ceser-report-offers-supply-chain-mitigation-strategies-battery-storage-systems
 
 ## Bid-support and compliance package for Chile’s 2026/01 regulated power-supply tender
 - Status: watch | energy_infrastructure
@@ -411,6 +423,18 @@ Candidates: 92
 - Critical gaps: Whether ATENA is sufficiently complete, reliable, and easy to use for real production-readiness testing.; Whether CMF or another authority will require independent conformance evidence, certification, audit trails, or third-party remediation.; Number of entities in each participant category that will actually need external help rather than internal engineering.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html
+
+## Chile Open Finance conformance test harness for early SFA participants
+- Status: watch | open_finance_chile
+- Current idea: Entities intending to participate must convert evolving technical requirements into working integrations and evidence that they can pass interoperability and compliance tests. The timing creates a bounded pre-regulatory implementation window rather than an indefinite market thesis.
+- Potential economic capture: A small operator could build a narrow, reusable test asset: API contract tests, consent-state fixtures, payment-initiation test cases, directory-registration checks, and an evidence-export function mapped to the CMF technical annex. The economic mechanism is sale or licensing of the test pack to participating fintechs, payment firms, or software vendors; no buyer, price, or conversion rate is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: How many entities will be obligated or commercially motivated to participate by July 2027, segmented by role and implementation phase.; Whether ATENA includes sufficiently complete automated conformance coverage, reporting, fixtures, negative tests, payment-initiation scenarios, and regression testing to make a private harness unnecessary.; Whether CMF, banks, or certification bodies will recognize or rely on evidence exports from a third-party tool.
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html
 
 ## Chile Open Finance conformance-testing wedge ahead of July 2027 implementation
 - Status: watch | open_finance_chile

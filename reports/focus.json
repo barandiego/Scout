@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-10-19T16:25:57.348851+00:00",
+  "generated_at": "2026-10-19T20:24:50.139869+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -13,7 +13,7 @@
     },
     {
       "opportunity_id": "opp_7ea6a495427da87c8c5c",
-      "other_cards_in_theme": 12,
+      "other_cards_in_theme": 13,
       "reviewed": true,
       "status": "watch",
       "theme": "energy_infrastructure",
@@ -21,7 +21,7 @@
     },
     {
       "opportunity_id": "opp_f26e42aaabb91e157f9d",
-      "other_cards_in_theme": 37,
+      "other_cards_in_theme": 38,
       "reviewed": true,
       "status": "watch",
       "theme": "chile_open_finance",
@@ -103,8 +103,8 @@
   "headline_count": 12,
   "high_concentration": [
     {
-      "cards": 38,
-      "share": 0.413,
+      "cards": 39,
+      "share": 0.415,
       "theme": "chile_open_finance"
     }
   ],
@@ -138,6 +138,7 @@
         "opp_74aed61a008c4b4bb5a1",
         "opp_12eb144e4fe2a8d50297",
         "opp_3b4a47b09fa6592f8c5b",
+        "opp_33df5c0e60b44851d959",
         "opp_19c39afc662c8bd68101",
         "opp_f4c70f1adccbe9b2583e",
         "opp_993ac5d080c7042af44c",
@@ -154,9 +155,9 @@
         "opp_b5bb525067a4142275e1",
         "opp_d52a4c290d45b663a6f3"
       ],
-      "count": 38,
+      "count": 39,
       "representative_id": "opp_f26e42aaabb91e157f9d",
-      "reviewed_count": 23,
+      "reviewed_count": 24,
       "theme": "chile_open_finance"
     },
     {
@@ -173,9 +174,10 @@
         "opp_a78174a5084ecf85fdd7",
         "opp_a71e28685127733c914e",
         "opp_85c23886f73fd6c4dff5",
-        "opp_20b079df210ea1d3088c"
+        "opp_20b079df210ea1d3088c",
+        "opp_821fe989c63ca8db797f"
       ],
-      "count": 13,
+      "count": 14,
       "representative_id": "opp_7ea6a495427da87c8c5c",
       "reviewed_count": 8,
       "theme": "energy_infrastructure"
@@ -502,6 +504,6 @@
       "theme": "robotics_agritech:small_hydroponic_propagation"
     }
   ],
-  "total_original_cards": 92,
+  "total_original_cards": 94,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }

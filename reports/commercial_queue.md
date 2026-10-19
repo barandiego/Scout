@@ -2,8 +2,8 @@
 
 Research assignment only. **Zero verified buyers, sales, or execution permissions.**
 
-- Generated: 2026-10-19T16:25:57.348851+00:00
-- Research cards reviewed: 92
+- Generated: 2026-10-19T20:24:50.139869+00:00
+- Research cards reviewed: 94
 - Narrow ideas selected for founder review: 4
 - Verified third-party receipts: **none**
 
@@ -25,13 +25,13 @@ Research assignment only. **Zero verified buyers, sales, or execution permission
 - Sources: https://www.ondda.cl/; https://www.aither.cl/tap/
 - Status: **WATCH — no automated outreach, spending, or execution**
 
-## 3. Chile Open Finance conformance-testing wedge ahead of July 2027 implementation
+## 3. Chile Open Finance conformance test harness for early SFA participants
 - Origin: existing Scout research; open_finance_chile; no new opportunity claim
 - Next falsifiable no-spend test: Identify one genuinely budget-owning regulated buyer, one conformance failure, and an independently accepted paid software deliverable before coding a broad financial integration.
-- Distribution hypothesis (not verified): Use only the CMF developer-portal and Annex 3 materials to build a minimal validator for one narrow flow. Publish a technical demo and contact 10 identifiable Chilean fintechs, payment operators, cooperatives or implementation firms listed in public SFA consultation/industry materials, asking whether they would pay for a 1-week conformance review. Do not claim regulatory approval, access rights or a buyer until one party agree
+- Distribution hypothesis (not verified): Use the public CMF developer materials and ATENA environment to implement only the highest-risk flows: consent lifecycle, participant-directory interaction, confirmation of funds, and one payment-initiation path. Recruit 3–5 Chilean fintech or payment-software teams from public participant lists, industry events, or direct outreach and offer a free diagnostic against their sandbox integration. Falsification threshold: stop if 
 - Independent critic/judge: CRITIC_JUDGE_COMPLETE_NOT_COMMERCIAL_PROOF
 - Missing: independent_specific_buyer, written_price_or_paid_commitment, verified_fulfilment_and_unit_cost, distribution_permission_or_channel, actual_third_party_receipt
-- Sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html
+- Sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html
 - Status: **WATCH — no automated outreach, spending, or execution**
 
 ## 4. BESS and inverter compliance pre-check for Chilean distributed-energy projects

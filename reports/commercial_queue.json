@@ -1,9 +1,9 @@
 {
   "buyer_qualified_count": 0,
-  "excluded_from_first_dollar_queue": 88,
+  "excluded_from_first_dollar_queue": 90,
   "first_dollar_verified": false,
-  "generated_at": "2026-10-19T16:25:57.348851+00:00",
-  "opportunity_count_reviewed": 92,
+  "generated_at": "2026-10-19T20:24:50.139869+00:00",
+  "opportunity_count_reviewed": 94,
   "revenue_usd_verified": null,
   "schema_version": 1,
   "selected": [
@@ -67,7 +67,7 @@
       "buyer_verified": false,
       "current_status": "WATCH_REQUIRES_VALIDATION",
       "economic_status": "UNVALIDATED_NO_VERIFIED_BUYER_OR_SALE",
-      "first_distribution_hypothesis": "Use only the CMF developer-portal and Annex 3 materials to build a minimal validator for one narrow flow. Publish a technical demo and contact 10 identifiable Chilean fintechs, payment operators, cooperatives or implementation firms listed in public SFA consultation/industry materials, asking whether they would pay for a 1-week conformance review. Do not claim regulatory approval, access rights or a buyer until one party agrees to a paid pilot. Lowest-cost falsification: spend one week building the validator and seek five technically specific interviews; abandon if no interviewee confirms an unresolved implementation problem or agrees to review a paid scope.",
+      "first_distribution_hypothesis": "Use the public CMF developer materials and ATENA environment to implement only the highest-risk flows: consent lifecycle, participant-directory interaction, confirmation of funds, and one payment-initiation path. Recruit 3–5 Chilean fintech or payment-software teams from public participant lists, industry events, or direct outreach and offer a free diagnostic against their sandbox integration. Falsification threshold: stop if at least 3 technically relevant prospects will not provide a test endpoint, accept a diagnostic, or identify a concrete integration problem within 30 days. Do not market regulated financial services or initiate real payments without confirming the applicable CMF authorization requirements.",
       "independent_review_status": "CRITIC_JUDGE_COMPLETE_NOT_COMMERCIAL_PROOF",
       "missing_to_prove": [
         "independent_specific_buyer",
@@ -77,13 +77,13 @@
         "actual_third_party_receipt"
       ],
       "next_no_spend_buyer_test": "Identify one genuinely budget-owning regulated buyer, one conformance failure, and an independently accepted paid software deliverable before coding a broad financial integration.",
-      "opportunity_id": "opp_3b4a47b09fa6592f8c5b",
+      "opportunity_id": "opp_33df5c0e60b44851d959",
       "origin": "EXISTING_SCOUT_WATCH_OR_SURVIVOR_NOT_NEW_OPPORTUNITY",
       "revenue_verified": false,
-      "title": "Chile Open Finance conformance-testing wedge ahead of July 2027 implementation",
+      "title": "Chile Open Finance conformance test harness for early SFA participants",
       "verified_source_urls": [
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html"
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html"
       ],
       "vertical": "open_finance_chile"
     },

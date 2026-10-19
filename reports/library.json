@@ -1275,6 +1275,96 @@
     {
       "ai_leverage": "",
       "authorized_for_execution": false,
+      "contrary_evidence": [
+        "CMF officially confirms that the technical annex defines interoperability requirements and that implementation is scheduled for July 2027, supporting a genuine regulatory trigger. Source: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "CMF launched ATENA as a controlled environment for testing integrations, directory interoperability, and compliance readiness, validating that participants face real testing needs. Source: https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "The technical materials appear sufficiently detailed to support automated testing around APIs, security, consent, directory operations, and payment flows. Source: https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/435749124/v1.0.0%2B-%2BModelo%2Bde%2Bgobierno",
+        "A Chile-specific commercial competitor publicly markets overlapping functionality, including FAPI 2.0, consent testing, payload auditing, chaos testing, and simulated Open Finance flows. Source: https://sfasandbox.cl/",
+        "The industry has identified potentially large implementation costs, which could support willingness to pay for tools that reduce integration risk, although this does not prove budget allocation to this product category. Source: https://www.df.cl/mercados/banca-fintech/bancos-aseguradoras-y-cooperativas-suben-el-tono-y-critican-la"
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-19T20:24:26.255685+00:00",
+      "discovery_lens": "business_model_migration",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF states that the technical annex defines interoperability requirements, the developer portal is available, and implementation entry was postponed to July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "CMF states that ATENA enables institutions to test integrations, interoperability with the participant directory, and readiness before the July 2027 SFA entry date.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF launches ATENA Technological Sandbox for the implementation of the Open Finance System",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.84,
+      "falsification_conditions": [
+        "At least three technically relevant prospects decline a diagnostic, refuse to provide a test endpoint or representative test material, or identify no concrete integration problem within 30 days.",
+        "ATENA provides equivalent or superior automated conformance, negative testing, regression, and evidence-export capabilities at no additional cost to participants.",
+        "The technical annex or sandbox changes materially enough that a narrow harness requires repeated rebuilds without customers agreeing to paid change-management or subscription terms.",
+        "Prospects state that certification evidence must come from CMF, an accredited certifier, an incumbent systems integrator, or an internally controlled process rather than a private tool.",
+        "No prospect will sign a paid pilot or provide a credible budget range after demonstrations to at least five qualified Chilean participants.",
+        "The accessible market is limited to too few participants for a small vendor to recover localization, support, security, and regulatory-liability costs.",
+        "The July 2027 implementation schedule is delayed again or phased in such a way that near-term testing urgency disappears.",
+        "The overlapping SFA-Sandbox competitor or established consultancies offer materially broader coverage, stronger trust, or lower pricing before customer validation."
+      ],
+      "geography": "Chile",
+      "id": "opp_33df5c0e60b44851d959",
+      "judge_reviewed": true,
+      "judgment": "The regulatory trigger is sufficiently grounded in CMF primary sources: a Technical Annex, developer materials, ATENA interoperability testing, and a July 2027 implementation entry point support a real implementation need. The proposed product is research-worthy as a narrow, non-regulated developer/compliance tool rather than a financial-service provider, and public technical materials plus a regulator sandbox indicate that initial development access is plausibly available. However, survival is conditional: ATENA may already supply much of the needed testing capability; a Chile-specific competitor appears to cover the central feature set; and no evidence establishes a reachable, budgeted buyer segment, accepted third-party evidence, or pricing capable of covering localization, security, support, and frequent specification changes. This is not yet an execution recommendation.",
+      "last_record_updated_at": "2026-10-19T20:24:49.642555+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "How many entities will be obligated or commercially motivated to participate by July 2027, segmented by role and implementation phase.",
+        "Whether ATENA includes sufficiently complete automated conformance coverage, reporting, fixtures, negative tests, payment-initiation scenarios, and regression testing to make a private harness unnecessary.",
+        "Whether CMF, banks, or certification bodies will recognize or rely on evidence exports from a third-party tool.",
+        "The actual buyer: regulated institution, fintech engineering team, systems integrator, certification provider, or software vendor.",
+        "Customer willingness to pay, expected contract size, procurement duration, and renewal potential."
+      ],
+      "participation_path": "Use the public CMF developer materials and ATENA environment to implement only the highest-risk flows: consent lifecycle, participant-directory interaction, confirmation of funds, and one payment-initiation path. Recruit 3–5 Chilean fintech or payment-software teams from public participant lists, industry events, or direct outreach and offer a free diagnostic against their sandbox integration. Falsification threshold: stop if at least 3 technically relevant prospects will not provide a test endpoint, accept a diagnostic, or identify a concrete integration problem within 30 days. Do not market regulated financial services or initiate real payments without confirming the applicable CMF authorization requirements.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Entities intending to participate must convert evolving technical requirements into working integrations and evidence that they can pass interoperability and compliance tests. The timing creates a bounded pre-regulatory implementation window rather than an indefinite market thesis.",
+      "title": "Chile Open Finance conformance test harness for early SFA participants",
+      "type": "regulatory_infrastructure_asset",
+      "unknowns": [
+        "How many entities will be obligated or commercially motivated to participate by July 2027, segmented by role and implementation phase.",
+        "Whether ATENA includes sufficiently complete automated conformance coverage, reporting, fixtures, negative tests, payment-initiation scenarios, and regression testing to make a private harness unnecessary.",
+        "Whether CMF, banks, or certification bodies will recognize or rely on evidence exports from a third-party tool.",
+        "The actual buyer: regulated institution, fintech engineering team, systems integrator, certification provider, or software vendor.",
+        "Customer willingness to pay, expected contract size, procurement duration, and renewal potential.",
+        "How frequently the technical annex, sandbox behavior, security profile, or certification requirements will change before and after July 2027.",
+        "Whether prospects can legally and operationally provide test endpoints or representative fixtures for external diagnostics.",
+        "Whether the existing SFA-Sandbox product is credible, adopted, competitively priced, and sufficiently complete.",
+        "Whether large implementation budgets will flow to internal engineering, major consultancies, core-banking vendors, or independent testing products.",
+        "Chile-specific sales, support, language, regulatory, and liability costs for a small operator.",
+        "Which exact participant role has an obligation and a near-term implementation deadline: data provider, data recipient, payment-initiating provider, directory participant, or software vendor.",
+        "Whether ATENA offers automated conformance suites, negative tests, reproducible fixtures, regression testing, diagnostics, or exportable evidence equivalent to the proposed wedge.",
+        "Whether a private testing provider may lawfully and operationally connect to participant sandbox endpoints and process test or representative data under applicable security and contractual requirements.",
+        "Whether CMF or any relevant assurance process recognizes third-party evidence, or whether the asset is valuable only as internal engineering tooling.",
+        "Number of realistically reachable prospects, buyer owner, procurement route, budget range, sales-cycle length, and viable annual contract value.",
+        "SFA-Sandbox's customer base, pricing, actual product maturity, and gaps that a narrowly positioned tool could exploit.",
+        "Rate and materiality of future changes to specifications and whether customers would pay for ongoing maintenance."
+      ],
+      "value_capture_mechanism": "A small operator could build a narrow, reusable test asset: API contract tests, consent-state fixtures, payment-initiation test cases, directory-registration checks, and an evidence-export function mapped to the CMF technical annex. The economic mechanism is sale or licensing of the test pack to participating fintechs, payment firms, or software vendors; no buyer, price, or conversion rate is assumed.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": true,
       "discovered_at": "2026-10-15T08:25:07.111121+00:00",
@@ -4902,6 +4992,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-19T20:24:26.256728+00:00",
+      "discovery_lens": "mining_materials",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "DOE provides a procurement checklist and technical specifications for commercial-scale lithium-ion BESS and related distributed-energy project development.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Battery Energy Storage System Procurement Checklist",
+          "url": "https://www.energy.gov/cmei/femp/articles/battery-energy-storage-system-procurement-checklist"
+        },
+        {
+          "claim": "DOE identifies supply-chain risks involving foreign-manufactured components in BESS, inverter-based resources, and transformers, and presents mitigation priorities for industry and government.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "New CESER Report Offers Supply Chain Mitigation Strategies for Battery Storage Systems",
+          "url": "https://www.energy.gov/ceser/articles/new-ceser-report-offers-supply-chain-mitigation-strategies-battery-storage-systems"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.78,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_821fe989c63ca8db797f",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-19T20:24:26.298925+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Download the DOE checklist and technical references, build a spreadsheet or lightweight application covering 30–50 fields, and test it on publicly available BESS bid documents, RFPs, or vendor datasheets. Contact 10 U.S. BESS EPCs, developers, or public procurement offices with a sample redacted output. Falsification threshold: stop if fewer than 2 parties will provide real procurement documents or confirm that missing-evidence review is a current paid or bid-critical task. Do not claim engineering, safety, interconnection, or cybersecurity certification.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "BESS projects require more than a battery quote: procurement teams must evaluate technical specifications, interconnection requirements, component provenance, cybersecurity or supply-chain exposure, and mitigation evidence. A standardized evidence pack could reduce repeated bid-comparison work, but the existence of a paying market remains to be tested.",
+      "title": "BESS procurement evidence pack focused on supply-chain and grid-support requirements",
+      "type": "procurement_evidence_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Create a narrowly scoped, machine-readable vendor-comparison pack that maps supplier documents to DOE procurement checklist fields, records missing evidence, and flags single-source or foreign-component dependencies. Potential cash flow would come from project developers, EPCs, or public-sector procurement teams purchasing a project-specific review; no buyer or fee is assumed.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-19T04:26:12.373053+00:00",
       "discovery_lens": "energy_localization",
       "estimated_capital": "",
@@ -6629,13 +6773,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-19T16:25:57.348851+00:00",
+  "generated_at": "2026-10-19T20:24:50.139869+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 50,
-  "reviewed_cards": 47,
+  "reviewed_cards": 48,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 142,
-  "watch": 92
+  "total_distinct_opportunities": 144,
+  "watch": 94
 }

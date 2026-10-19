@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-19T16:25:57.348851+00:00
+Generated: 2026-10-19T20:24:50.139869+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 92 (0 HQ survivors, 92 watches)
+- Active research: 94 (0 HQ survivors, 94 watches)
 - Rejected opportunities excluded: 50
-- Critic-and-judge reviewed: 47
+- Critic-and-judge reviewed: 48
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -152,6 +152,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Whether ATENA is sufficiently complete, reliable, and easy to use for real production-readiness testing.; Whether CMF or another authority will require independent conformance evidence, certification, audit trails, or third-party remediation.; Number of entities in each participant category that will actually need external help rather than internal engineering.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html
+
+### Chile Open Finance conformance test harness for early SFA participants [opp_33df5c0e60b44851d959]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Entities intending to participate must convert evolving technical requirements into working integrations and evidence that they can pass interoperability and compliance tests. The timing creates a bounded pre-regulatory implementation window rather than an indefinite market thesis.
+- Value capture: A small operator could build a narrow, reusable test asset: API contract tests, consent-state fixtures, payment-initiation test cases, directory-registration checks, and an evidence-export function mapped to the CMF technical annex. The economic mechanism is sale or licensing of the test pack to participating fintechs, payment firms, or software vendors; no buyer, price, or conversion rate is assumed.
+- Participation hypothesis: Use the public CMF developer materials and ATENA environment to implement only the highest-risk flows: consent lifecycle, participant-directory interaction, confirmation of funds, and one payment-initiation path. Recruit 3–5 Chilean fintech or payment-software teams from public participant lists, industry events, or direct outreach and offer a free diagnostic against their sandbox integration. Falsification threshold: stop if at least 3 technically relevant prospects will not provide a test endpoint, accept a diagnostic, or identify a concrete
+- Critic/judge: The regulatory trigger is sufficiently grounded in CMF primary sources: a Technical Annex, developer materials, ATENA interoperability testing, and a July 2027 implementation entry point support a real implementation need. The proposed product is research-worthy as a narrow, non-regulated developer/compliance tool rather than a financial-service provider, and public technical materials plus a regulator sandbox indicate that initial deve
+- Next evidence gaps: How many entities will be obligated or commercially motivated to participate by July 2027, segmented by role and implementation phase.; Whether ATENA includes sufficiently complete automated conformance coverage, reporting, fixtures, negative tests, payment-initiation scenarios, and regression testin; Whether CMF, banks, or certification bodies will recognize or rely on evidence exports from a third-party tool.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html
 
 ### Chile Open Finance conformance-testing wedge ahead of July 2027 implementation [opp_3b4a47b09fa6592f8c5b]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -612,6 +622,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.eia.gov/todayinenergy/detail.php?id=67925; https://www.eia.gov/todayinenergy/detail.php?id=66164
+
+### BESS procurement evidence pack focused on supply-chain and grid-support requirements [opp_821fe989c63ca8db797f]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States
+- Thesis: BESS projects require more than a battery quote: procurement teams must evaluate technical specifications, interconnection requirements, component provenance, cybersecurity or supply-chain exposure, and mitigation evidence. A standardized evidence pack could reduce repeated bid-comparison work, but the existence of a paying market remains to be tested.
+- Value capture: Create a narrowly scoped, machine-readable vendor-comparison pack that maps supplier documents to DOE procurement checklist fields, records missing evidence, and flags single-source or foreign-component dependencies. Potential cash flow would come from project developers, EPCs, or public-sector procurement teams purchasing a project-specific review; no buyer or fee is assumed.
+- Participation hypothesis: Download the DOE checklist and technical references, build a spreadsheet or lightweight application covering 30–50 fields, and test it on publicly available BESS bid documents, RFPs, or vendor datasheets. Contact 10 U.S. BESS EPCs, developers, or public procurement offices with a sample redacted output. Falsification threshold: stop if fewer than 2 parties will provide real procurement documents or confirm that missing-evidence review is a current paid or bid-critical task. Do not claim engineering, safety, interconnection, or cybersecurity cer
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.energy.gov/cmei/femp/articles/battery-energy-storage-system-procurement-checklist; https://www.energy.gov/ceser/articles/new-ceser-report-offers-supply-chain-mitigation-strategies-battery-storage-systems
 
 ### Bid-support and compliance package for Chile’s 2026/01 regulated power-supply tender [opp_20b079df210ea1d3088c]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile; SEN zones, especially Zone 2
