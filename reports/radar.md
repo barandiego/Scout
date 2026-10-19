@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-18T20:49:09.467815+00:00
+Generated: 2026-10-19T01:08:27.662553+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 102
+- New this cycle: 108
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): none
-- Categories: agriculture 286, ai 273, commerce 35, energy 560, robotics 646
+- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
+- Categories: agriculture 295, ai 271, commerce 35, energy 561, robotics 638
 
 ## Recently encountered signals
 
@@ -226,6 +226,12 @@ Generated: 2026-10-18T20:49:09.467815+00:00
 - Source: https://doi.org/10.66506/essp.172
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### smitdeshaval/Framing-app
+- Source: https://github.com/smitdeshaval/Framing-app
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
 
 ### naina-modi123/agritech-smart-farming
@@ -452,12 +458,6 @@ Generated: 2026-10-18T20:49:09.467815+00:00
 
 ### asyath/smart-farming-app
 - Source: https://github.com/asyath/smart-farming-app
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### charithareddypc-blip/FarmFriendAI
-- Source: https://github.com/charithareddypc-blip/FarmFriendAI
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
