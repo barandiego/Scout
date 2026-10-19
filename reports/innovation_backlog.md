@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 87
+Candidates: 89
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -364,18 +364,6 @@ Candidates: 87
 - Possible initial budget:
 - Source URLs: https://github.com/aks-builds/agentsave; https://github.com/use-ash/apex
 
-## Pre-spend and tool-use regression testing for AI agents using open attack corpora
-- Status: watch | innovation_adoption
-- Current idea: Small teams deploying agents may be able to buy or commission a bounded test that identifies whether their agent can be induced to take unauthorized actions. The narrow wedge is an evidence-producing regression pack for one agent workflow, not generic AI consulting or a claim of comprehensive security.
-- Potential economic capture: Potential cash flow comes from a fixed-scope test report, a reusable CI test package, or a low-cost hosted approval check for agent actions. The existence of a public $99/month hosted reference supports testing price sensitivity but does not prove that a new operator can achieve that price or obtain customers.
-- **Research routes to test (NOT validated claims):**
-  - Identify a real technical capability not yet adopted in one buyer's high-value workflow.
-  - Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.
-  - Measure the fully loaded operating cost, human exceptions and distribution against the status quo.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://github.com/AndrewSispoidis/contemporary-agent-attacks; https://github.com/kindrat86/ai-agent-incident-database/blob/main/README.md
-
 ## Self-hosted browser-automation deployment for one repetitive Chilean back-office workflow
 - Status: watch | innovation_adoption
 - Current idea: A small operator can test whether one high-frequency, browser-only workflow—such as downloading statements, reconciling portal data, or preparing draft form entries—can be automated at lower total cost than manual handling. The opportunity is the workflow-specific implementation and maintenance, not a generic AI agency.
@@ -712,6 +700,18 @@ Candidates: 87
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
 
+## Open-finance implementation monitoring and developer-readiness service
+- Status: watch | open_finance_chile
+- Current idea: The executable wedge is not becoming a data provider or payment initiator. It is a reusable compliance-and-integration monitoring asset for firms preparing against the published technical requirements: version tracking, endpoint checklists, test-case generation, change alerts and implementation documentation. The cash-flow source would need to be a verified paying firm or vendor; no buyer or price is assumed.
+- Potential economic capture: Charge for a narrowly scoped technical-readiness audit, recurring specification-change monitoring or reusable test harness, subject to the client's authorization and regulatory perimeter. The CMF timetable is a catalyst for preparation spending, not proof of demand or permission to handle financial data.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html
+
 ## Open-finance implementation test pack for Chilean fintechs
 - Status: watch | open_finance_chile
 - Current idea: The actionable wedge is a conformance-testing and data-mapping asset for one regulated or intending-to-register participant: API request/response fixtures, consent and authorization test cases, field-level mapping, error logs and a reproducible sandbox test report. This is narrower and cheaper to validate than building a consumer finance app before the system is operational.
@@ -843,6 +843,18 @@ Candidates: 87
 - Critical gaps: Unit landed cost for blank NFC tags, acrylic or printed displays, packaging, and Chilean delivery.; Contribution margin after payment fees, taxes, shipping, configuration, artwork, customer support, replacements, and failed deliveries.; Whether businesses will buy from a new operator when established local vendors already offer similar products and social proof.
 - Possible initial budget:
 - Source URLs: https://masenlaces.com/store/faq; https://www.ondda.cl/; https://tarjetas-nfc.com/; https://nfctech.cl/
+
+## NFC review-and-reorder plaques for Chilean independent merchants
+- Status: watch | physical_distribution
+- Current idea: A small operator should not compete on generic NFC business cards. A narrower offer is a preconfigured countertop or packaging plaque that sends customers to one measurable action—Google review, WhatsApp reorder, menu, booking or loyalty stamp—sold with a simple setup fee and optional replacement/update service. The economic mechanism is paid physical placement plus measurable reduction in friction between offline traffic and a merchant-owned digital channel.
+- Potential economic capture: Sell a locally printed NFC/QR plaque or tag with the merchant's destination URL, analytics link and replacement/update service. The verified price ceiling for comparable local products is approximately CLP 19,990–29,990 per unit; recurring revenue, conversion rate and merchant retention remain unverified.
+- **Research routes to test (NOT validated claims):**
+  - Compare local product availability to supplier catalogs and independent consumer interest.
+  - Check import, tax, return, certification and delivery economics before estimating margin.
+  - Try a legitimate pre-order/waitlist test with transparent fulfillment conditions.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.ondda.cl/; https://www.aither.cl/tap/
 
 ## NFC/QR review-and-discovery plates for Chilean physical venues
 - Status: watch | physical_distribution
@@ -1011,6 +1023,18 @@ Candidates: 87
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.nifa.usda.gov/about-nifa/impacts/automation-specialty-crops; https://www.ars.usda.gov/research/project/?accnNo=448156
+
+## Small hydroponic propagation and specialty-herb pilot, not commodity indoor lettuce
+- Status: watch | robotics_agritech
+- Current idea: Commodity indoor lettuce is not validated: the available evidence shows meaningful equipment cost and no demonstrated local premium or contracted offtake. A narrower testable wedge is propagation or high-value herbs sold locally with preorders, where the operator can avoid full indoor-farm buildout and test price, repeat demand and crop loss before purchasing automation or lighting.
+- Potential economic capture: Capture the difference between validated preorder revenue and variable production, packaging and delivery costs; optionally sell starter trays or recurring herb bundles. No margin, buyer, crop yield or payback period is assumed until measured. The asset is a small NFT/propagation setup that can be reused across crops rather than a large vertical farm.
+- **Research routes to test (NOT validated claims):**
+  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
+  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
+  - Arrange a bounded field validation with an actual farm operator before scaling.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.chileagricola.cl/precios-mayoristas/; https://es.scribd.com/document/1014311150/BOLETIN-1-INIA-FIA-Manejo-Sanitario-y-Otros-InIA-Chile; https://andinotech.cl/categoria-producto/hidroponia/sistema-de-cultivo-hidroponico/
 
 ## Small- and mid-size farm robotic-weeding service using commercial robots instead of ownership
 - Status: watch | robotics_agritech

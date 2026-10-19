@@ -4388,6 +4388,67 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-19T00:23:02.837871+00:00",
+      "discovery_lens": "vertical_farming_economics",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The Chilean agricultural information service states that its tool provides daily prices for more than 50 products across named Chilean wholesale markets, including basil, cilantro, parsley, spinach and lettuce.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Precios Mayoristas – Chile Agrícola / ODEPA",
+          "url": "https://www.chileagricola.cl/precios-mayoristas/"
+        },
+        {
+          "claim": "The reproduced INIA/FIA cost table reports approximately CLP 1,121,770 in fixed costs for a 20 m² NFT lettuce system, including structure, channels, pumps, tank, plumbing and labor.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Boletín INIA/FIA — Manejo sanitario y otros",
+          "url": "https://es.scribd.com/document/1014311150/BOLETIN-1-INIA-FIA-Manejo-Sanitario-y-Otros-InIA-Chile"
+        },
+        {
+          "claim": "A Chilean retailer lists hydroponic equipment including a dosing pump at CLP 215,900, EC controller at CLP 662,900 and pH controller at CLP 538,900, providing current local purchase references for capital equipment.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Sistema de Cultivo Hidropónico Indoor — Andino Tech",
+          "url": "https://andinotech.cl/categoria-producto/hidroponia/sistema-de-cultivo-hidroponico/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.78,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_663dbc19a60ec3cbcf52",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-19T00:23:02.874830+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use a small greenhouse or low-energy hydroponic setup rather than a fully indoor LED room. Select one crop with a visible price series on ODEPA/Chile Agrícola, contact ten restaurants, specialty grocers or direct consumers through publicly available channels, and request paid preorders or written price indications before expanding. Run one 4–8 week batch and record germination, harvestable units, kWh, water, labor hours, packaging, delivery and realized price. Falsify if there are no paid preorders before planting, if realized price does not cover measured variable costs, or if crop loss makes fulfillment unreliable. Do not claim restaurant demand, food-safety approval or wholesale access without direct verification.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Commodity indoor lettuce is not validated: the available evidence shows meaningful equipment cost and no demonstrated local premium or contracted offtake. A narrower testable wedge is propagation or high-value herbs sold locally with preorders, where the operator can avoid full indoor-farm buildout and test price, repeat demand and crop loss before purchasing automation or lighting.",
+      "title": "Small hydroponic propagation and specialty-herb pilot, not commodity indoor lettuce",
+      "type": "small_asset_and_local_supply_offer",
+      "unknowns": [],
+      "value_capture_mechanism": "Capture the difference between validated preorder revenue and variable production, packaging and delivery costs; optionally sell starter trays or recurring herb bundles. No margin, buyer, crop yield or payback period is assumed until measured. The asset is a small NFT/propagation setup that can be reused across crops rather than a large vertical farm.",
+      "verified_sales": null,
+      "vertical": "robotics_agritech",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-15T12:27:09.528615+00:00",
       "discovery_lens": "robotics_automation",
       "estimated_capital": "",
@@ -5637,6 +5698,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-19T00:23:02.836869+00:00",
+      "discovery_lens": "nfc_smart_commerce",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "A Chilean supplier lists an NFC business card at CLP 24,990 and acrylic NFC stands at CLP 19,990 and CLP 29,990, demonstrating an existing local purchase route and price reference.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Soluciones NFC para negocios en Chile",
+          "url": "https://www.ondda.cl/"
+        },
+        {
+          "claim": "A Chilean provider explicitly markets NFC and QR products for directing customers to Google reviews, Instagram and WhatsApp, confirming local alternatives and the relevant use cases.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "AITHER TAP — NFC + QR para conectar con tus clientes",
+          "url": "https://www.aither.cl/tap/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_ce00c60c8ebfd1d48cd2",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-19T00:23:02.874683+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Start with one vertical where the action is easy to measure, such as cafés or salons. Build a one-page landing page and one physical prototype using an inexpensive NFC tag and QR code. Approach 20 nearby businesses in person or through publicly listed contact channels; offer a seven-day unpaid or deposit-backed test only if the merchant agrees to place it at the point of sale and provide baseline and post-test scan/review counts. Falsify if fewer than three businesses agree to place the prototype, or if no tested merchant records a measurable action attributable to it. Do not assume permission to edit business profiles, collect customer data or make claims about incremental sales.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A small operator should not compete on generic NFC business cards. A narrower offer is a preconfigured countertop or packaging plaque that sends customers to one measurable action—Google review, WhatsApp reorder, menu, booking or loyalty stamp—sold with a simple setup fee and optional replacement/update service. The economic mechanism is paid physical placement plus measurable reduction in friction between offline traffic and a merchant-owned digital channel.",
+      "title": "NFC review-and-reorder plaques for Chilean independent merchants",
+      "type": "physical_product_plus_digital_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell a locally printed NFC/QR plaque or tag with the merchant's destination URL, analytics link and replacement/update service. The verified price ceiling for comparable local products is approximately CLP 19,990–29,990 per unit; recurring revenue, conversion rate and merchant retention remain unverified.",
+      "verified_sales": null,
+      "vertical": "physical_distribution",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-18T20:13:57.440880+00:00",
       "discovery_lens": "chile_technology_import",
       "estimated_capital": "",
@@ -5737,6 +5852,60 @@
       "value_capture_mechanism": "A fixed-scope asset qualification and telemetry-readiness package: inventory eligible sites, map each resource to NYISO requirements, identify missing interval-meter or telemetry data, and produce an aggregator-ready data room. The economic mechanism is payment for reducing enrollment and implementation labor; no wholesale revenue or customer savings is assumed.",
       "verified_sales": null,
       "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-19T00:23:02.838772+00:00",
+      "discovery_lens": "asset_ownership",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The CMF states that the June 1, 2026 amendment added Annex No. 3 technical specifications and a developer portal, while postponing entry into force until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "The CMF describes technical requirements for information exchange and payment initiation and says the amendment facilitates incorporation of different types of participating entities.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.9,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_b5bb525067a4142275e1",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-19T00:23:02.874552+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Download and study the official technical materials, build a public parser/checklist using only published documentation, and test distribution by sending a sample change log to Chilean fintechs, banks' technology vendors and compliance consultancies through publicly listed channels. Ask for a paid discovery session or written request for a specific deliverable before adding regulated integrations. Falsify if ten targeted firms show no interest in reviewing the sample, or if the work requires permissions, certifications or confidential specifications unavailable to the operator. Do not connect to customer accounts, initiate payments or represent oneself as an authorized participant without confirming the applicable CMF requirements.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The executable wedge is not becoming a data provider or payment initiator. It is a reusable compliance-and-integration monitoring asset for firms preparing against the published technical requirements: version tracking, endpoint checklists, test-case generation, change alerts and implementation documentation. The cash-flow source would need to be a verified paying firm or vendor; no buyer or price is assumed.",
+      "title": "Open-finance implementation monitoring and developer-readiness service",
+      "type": "software_asset_and_monitoring_service",
+      "unknowns": [],
+      "value_capture_mechanism": "Charge for a narrowly scoped technical-readiness audit, recurring specification-change monitoring or reusable test harness, subject to the client's authorization and regulatory perimeter. The CMF timetable is a catalyst for preparation spending, not proof of demand or permission to handle financial data.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -5899,60 +6068,6 @@
       "value_capture_mechanism": "Offer a fixed-scope technical readiness test: map one prospective participant’s data-access and payment-initiation workflow against the CMF technical annex, build a non-production connector or mock integration, and deliver a gap report. Charge only after a prospective participant agrees to a paid diagnostic; no price is evidenced publicly.",
       "verified_sales": null,
       "vertical": "open_finance_chile",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
-      "discovered_at": "2026-10-15T04:22:32.106669+00:00",
-      "discovery_lens": "ai_open_source",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "The repository describes a reproducible corpus with hundreds of agent-targeting attacks, benign negatives, a runner, holdout samples, and scoring for detection and false-positive rates.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "Contemporary Agent Attacks",
-          "url": "https://github.com/AndrewSispoidis/contemporary-agent-attacks"
-        },
-        {
-          "claim": "The repository documents a sourced incident dataset and identifies a public hosted pre-spend firewall priced at $99/month, providing a verifiable purchase reference for a narrowly scoped agent-action-control product.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "AI Agent Incident Database",
-          "url": "https://github.com/kindrat86/ai-agent-incident-database/blob/main/README.md"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.78,
-      "falsification_conditions": [],
-      "geography": "Global; initial distribution can target Chilean and Latin American software teams",
-      "id": "opp_09bb69601be0706e7219",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-15T04:22:32.120188+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Fork or locally run the open attack corpus and benchmark harnesses against a toy agent or a consenting test deployment. Create 20-30 tests covering prompt injection, unsafe tool calls, secret leakage, and spend approval; measure false positives, detection rate, latency, and model/API cost. Publish the methodology and ask 10 publicly identifiable software teams or developer communities whether they will submit a redacted workflow for a free baseline. Charge only after a participant requests a repeatable CI report or agrees to a paid pilot. Falsify if the test cannot produce reproducible failures on a real workflow, or if none of 10 relevant teams will submit a workflow, schedule a review, or request a paid rerun. Do not claim certification, legal compliance, or protection against all attacks.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "Small teams deploying agents may be able to buy or commission a bounded test that identifies whether their agent can be induced to take unauthorized actions. The narrow wedge is an evidence-producing regression pack for one agent workflow, not generic AI consulting or a claim of comprehensive security.",
-      "title": "Pre-spend and tool-use regression testing for AI agents using open attack corpora",
-      "type": "security_testing_asset",
-      "unknowns": [],
-      "value_capture_mechanism": "Potential cash flow comes from a fixed-scope test report, a reusable CI test package, or a low-cost hosted approval check for agent actions. The existence of a public $99/month hosted reference supports testing price sensitivity but does not prove that a new operator can achieve that price or obtain customers.",
-      "verified_sales": null,
-      "vertical": "innovation_adoption",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -6284,13 +6399,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-18T20:14:17.895894+00:00",
+  "generated_at": "2026-10-19T00:23:22.973427+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 47,
+  "rejected_excluded": 48,
   "reviewed_cards": 45,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 134,
-  "watch": 87
+  "total_distinct_opportunities": 137,
+  "watch": 89
 }

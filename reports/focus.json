@@ -1,11 +1,11 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-10-18T20:14:17.895894+00:00",
+  "generated_at": "2026-10-19T00:23:22.973427+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
-      "other_cards_in_theme": 4,
+      "other_cards_in_theme": 5,
       "reviewed": true,
       "status": "watch",
       "theme": "nfc_products",
@@ -21,7 +21,7 @@
     },
     {
       "opportunity_id": "opp_f26e42aaabb91e157f9d",
-      "other_cards_in_theme": 35,
+      "other_cards_in_theme": 36,
       "reviewed": true,
       "status": "watch",
       "theme": "chile_open_finance",
@@ -103,8 +103,8 @@
   "headline_count": 12,
   "high_concentration": [
     {
-      "cards": 36,
-      "share": 0.414,
+      "cards": 37,
+      "share": 0.416,
       "theme": "chile_open_finance"
     }
   ],
@@ -150,9 +150,10 @@
         "opp_9511a8b5519c4a31790e",
         "opp_202d7778855e693fe04b",
         "opp_bc3b9a823961fadca8e1",
-        "opp_feb43070f6dba35f263f"
+        "opp_feb43070f6dba35f263f",
+        "opp_b5bb525067a4142275e1"
       ],
-      "count": 36,
+      "count": 37,
       "representative_id": "opp_f26e42aaabb91e157f9d",
       "reviewed_count": 22,
       "theme": "chile_open_finance"
@@ -184,9 +185,10 @@
         "opp_f27f698db291e47e237f",
         "opp_d54cb21f051b71d41869",
         "opp_931a74c26757b6e74ee3",
-        "opp_6f96496de207fbd68ffc"
+        "opp_6f96496de207fbd68ffc",
+        "opp_ce00c60c8ebfd1d48cd2"
       ],
-      "count": 5,
+      "count": 6,
       "representative_id": "opp_def87ec156069bf156db",
       "reviewed_count": 1,
       "theme": "nfc_products"
@@ -200,15 +202,6 @@
       "representative_id": "opp_9806dd7c2bc14a3373b4",
       "reviewed_count": 2,
       "theme": "data_center_infrastructure"
-    },
-    {
-      "all_opportunity_ids": [
-        "opp_09bb69601be0706e7219"
-      ],
-      "count": 1,
-      "representative_id": "opp_09bb69601be0706e7219",
-      "reviewed_count": 0,
-      "theme": "agent_security"
     },
     {
       "all_opportunity_ids": [
@@ -479,8 +472,17 @@
       "representative_id": "opp_f2278f7ef99fae7e2528",
       "reviewed_count": 0,
       "theme": "robotics_agritech:small_factory_robot"
+    },
+    {
+      "all_opportunity_ids": [
+        "opp_663dbc19a60ec3cbcf52"
+      ],
+      "count": 1,
+      "representative_id": "opp_663dbc19a60ec3cbcf52",
+      "reviewed_count": 0,
+      "theme": "robotics_agritech:small_hydroponic_propagation"
     }
   ],
-  "total_original_cards": 87,
+  "total_original_cards": 89,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }

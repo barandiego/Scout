@@ -1145,42 +1145,6 @@
       "category": "innovation_adoption",
       "commercially_validated": false,
       "competition_confirmed": false,
-      "current_participation_path": "Fork or locally run the open attack corpus and benchmark harnesses against a toy agent or a consenting test deployment. Create 20-30 tests covering prompt injection, unsafe tool calls, secret leakage, and spend approval; measure false positives, detection rate, latency, and model/API cost. Publish the methodology and ask 10 publicly identifiable software teams or developer communities whether they will submit a redacted workflow for a free baseline. Charge only after a participant requests a repeatable CI report or agrees to a paid pilot. Falsify if the test cannot produce reproducible failures on a real workflow, or if none of 10 relevant teams will submit a workflow, schedule a review, or request a paid rerun. Do not claim certification, legal compliance, or protection against all attacks.",
-      "current_thesis": "Small teams deploying agents may be able to buy or commission a bounded test that identifies whether their agent can be induced to take unauthorized actions. The narrow wedge is an evidence-producing regression pack for one agent workflow, not generic AI consulting or a claim of comprehensive security.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "Global; initial distribution can target Chilean and Latin American software teams",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "Pre-spend and tool-use regression testing for AI agents using open attack corpora",
-      "opportunity_id": "opp_09bb69601be0706e7219",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Identify a real technical capability not yet adopted in one buyer's high-value workflow.",
-        "Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.",
-        "Measure the fully loaded operating cost, human exceptions and distribution against the status quo."
-      ],
-      "supporting_source_urls": [
-        "https://github.com/AndrewSispoidis/contemporary-agent-attacks",
-        "https://github.com/kindrat86/ai-agent-incident-database/blob/main/README.md"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "Potential cash flow comes from a fixed-scope test report, a reusable CI test package, or a low-cost hosted approval check for agent actions. The existence of a public $99/month hosted reference supports testing price sensitivity but does not prove that a new operator can achieve that price or obtain customers.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "innovation_adoption",
-      "commercially_validated": false,
-      "competition_confirmed": false,
       "current_participation_path": "Select one workflow with non-sensitive test data and an explicit human approval before submission. Prototype with the MIT-licensed Cereon Browser Operator or AgentBrowser, keeping credentials and execution on the client’s machine. Measure completion rate, exception rate, human minutes per case, and model/API cost over 20 to 50 cases. Falsification test: ask three operators of the same workflow for anonymized sample steps and permission to run a 1-week sandbox pilot; abandon if no one supplies a repeatable task, baseline time, or authorized test environment.",
       "current_thesis": "A small operator can test whether one high-frequency, browser-only workflow—such as downloading statements, reconciling portal data, or preparing draft form entries—can be automated at lower total cost than manual handling. The opportunity is the workflow-specific implementation and maintenance, not a generic AI agency.",
       "founder_hours_initial_unverified_estimate": "",
@@ -2259,6 +2223,42 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Download and study the official technical materials, build a public parser/checklist using only published documentation, and test distribution by sending a sample change log to Chilean fintechs, banks' technology vendors and compliance consultancies through publicly listed channels. Ask for a paid discovery session or written request for a specific deliverable before adding regulated integrations. Falsify if ten targeted firms show no interest in reviewing the sample, or if the work requires permissions, certifications or confidential specifications unavailable to the operator. Do not connect to customer accounts, initiate payments or represent oneself as an authorized participant without confirming the applicable CMF requirements.",
+      "current_thesis": "The executable wedge is not becoming a data provider or payment initiator. It is a reusable compliance-and-integration monitoring asset for firms preparing against the published technical requirements: version tracking, endpoint checklists, test-case generation, change alerts and implementation documentation. The cash-flow source would need to be a verified paying firm or vendor; no buyer or price is assumed.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Open-finance implementation monitoring and developer-readiness service",
+      "opportunity_id": "opp_b5bb525067a4142275e1",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Charge for a narrowly scoped technical-readiness audit, recurring specification-change monitoring or reusable test harness, subject to the client's authorization and regulatory perimeter. The CMF timetable is a catalyst for preparation spending, not proof of demand or permission to handle financial data.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Download the CMF technical material and developer documentation, build a small local test harness for one required data-sharing flow, and publish a redacted example report. Contact five Chilean fintechs or banking-integration vendors whose products visibly depend on account or payment data; ask whether they will pay for a one-week gap assessment. Falsify if the documentation is not sufficiently stable to implement a test case, if target firms already have internal tooling, or if none will provide a paid pilot or concrete integration requirement. Do not access real customer data or represent the test harness as CMF-certified.",
       "current_thesis": "The actionable wedge is a conformance-testing and data-mapping asset for one regulated or intending-to-register participant: API request/response fixtures, consent and authorization test cases, field-level mapping, error logs and a reproducible sandbox test report. This is narrower and cheaper to validate than building a consumer finance app before the system is operational.",
       "founder_hours_initial_unverified_estimate": "",
@@ -2681,6 +2681,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Sell a configured NFC-plus-QR countertop or table display at a transparent one-time price, optionally adding paid setup such as destination-link configuration, branded artwork and placement instructions. The economic mechanism is hardware markup and setup revenue; recurring analytics or CRM revenue should not be assumed until a buyer explicitly pays for it.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "physical_distribution",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Start with one vertical where the action is easy to measure, such as cafés or salons. Build a one-page landing page and one physical prototype using an inexpensive NFC tag and QR code. Approach 20 nearby businesses in person or through publicly listed contact channels; offer a seven-day unpaid or deposit-backed test only if the merchant agrees to place it at the point of sale and provide baseline and post-test scan/review counts. Falsify if fewer than three businesses agree to place the prototype, or if no tested merchant records a measurable action attributable to it. Do not assume permission to edit business profiles, collect customer data or make claims about incremental sales.",
+      "current_thesis": "A small operator should not compete on generic NFC business cards. A narrower offer is a preconfigured countertop or packaging plaque that sends customers to one measurable action—Google review, WhatsApp reorder, menu, booking or loyalty stamp—sold with a simple setup fee and optional replacement/update service. The economic mechanism is paid physical placement plus measurable reduction in friction between offline traffic and a merchant-owned digital channel.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "NFC review-and-reorder plaques for Chilean independent merchants",
+      "opportunity_id": "opp_ce00c60c8ebfd1d48cd2",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Compare local product availability to supplier catalogs and independent consumer interest.",
+        "Check import, tax, return, certification and delivery economics before estimating margin.",
+        "Try a legitimate pre-order/waitlist test with transparent fulfillment conditions."
+      ],
+      "supporting_source_urls": [
+        "https://www.ondda.cl/",
+        "https://www.aither.cl/tap/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a locally printed NFC/QR plaque or tag with the merchant's destination URL, analytics link and replacement/update service. The verified price ceiling for comparable local products is approximately CLP 19,990–29,990 per unit; recurring revenue, conversion rate and merchant retention remain unverified.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -3225,6 +3261,43 @@
       "category": "robotics_agritech",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use a small greenhouse or low-energy hydroponic setup rather than a fully indoor LED room. Select one crop with a visible price series on ODEPA/Chile Agrícola, contact ten restaurants, specialty grocers or direct consumers through publicly available channels, and request paid preorders or written price indications before expanding. Run one 4–8 week batch and record germination, harvestable units, kWh, water, labor hours, packaging, delivery and realized price. Falsify if there are no paid preorders before planting, if realized price does not cover measured variable costs, or if crop loss makes fulfillment unreliable. Do not claim restaurant demand, food-safety approval or wholesale access without direct verification.",
+      "current_thesis": "Commodity indoor lettuce is not validated: the available evidence shows meaningful equipment cost and no demonstrated local premium or contracted offtake. A narrower testable wedge is propagation or high-value herbs sold locally with preorders, where the operator can avoid full indoor-farm buildout and test price, repeat demand and crop loss before purchasing automation or lighting.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Small hydroponic propagation and specialty-herb pilot, not commodity indoor lettuce",
+      "opportunity_id": "opp_663dbc19a60ec3cbcf52",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
+        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
+        "Arrange a bounded field validation with an actual farm operator before scaling."
+      ],
+      "supporting_source_urls": [
+        "https://www.chileagricola.cl/precios-mayoristas/",
+        "https://es.scribd.com/document/1014311150/BOLETIN-1-INIA-FIA-Manejo-Sanitario-y-Otros-InIA-Chile",
+        "https://andinotech.cl/categoria-producto/hidroponia/sistema-de-cultivo-hidroponico/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Capture the difference between validated preorder revenue and variable production, packaging and delivery costs; optionally sell starter trays or recurring herb bundles. No margin, buyer, crop yield or payback period is assumed until measured. The asset is a small NFT/propagation setup that can be reused across crops rather than a large vertical farm.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "robotics_agritech",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Pick one crop and tightly bounded geography. Build a one-page offer for a supervised robotic-weeding trial, using an existing commercial platform rather than claiming ownership. Contact growers through local extension offices, crop associations, farm-equipment dealers and public grower directories; ask for acreage, weed-control method, timing and a paid/refundable reservation contingent on equipment availability. Lowest-cost falsification: interview at least ten growers and seek two written reservations or deposits at a stated trial price before leasing or purchasing equipment. Stop if growers will only express general interest or if no authorized equipment-access route is available.",
       "current_thesis": "The executable wedge is not building a new robot; it is testing whether a small operator can aggregate demand and sell scheduled robotic weeding, field trials, or seasonal access while outsourcing equipment ownership to an existing manufacturer, dealer or equipment financier. Actual unit economics remain unverified and depend on crop, acreage, transport, supervision and robot availability.",
       "founder_hours_initial_unverified_estimate": "",
@@ -3333,7 +3406,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-18T20:14:17.929169+00:00",
+  "generated_at": "2026-10-19T00:23:23.021399+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

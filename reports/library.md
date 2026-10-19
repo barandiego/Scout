@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-18T20:14:17.895894+00:00
+Generated: 2026-10-19T00:23:22.973427+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 87 (0 HQ survivors, 87 watches)
-- Rejected opportunities excluded: 47
+- Active research: 89 (0 HQ survivors, 89 watches)
+- Rejected opportunities excluded: 48
 - Critic-and-judge reviewed: 45
 - Autonomous execution authorization: 0
 
@@ -533,6 +533,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sec.cl/gda/; https://www.sec.cl/plataformas-ernc/; https://energia.gob.cl/sites/default/files/documentos/sistemas-de-almacenamiento_web.pdf
 
+### Small hydroponic propagation and specialty-herb pilot, not commodity indoor lettuce [opp_663dbc19a60ec3cbcf52]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile
+- Thesis: Commodity indoor lettuce is not validated: the available evidence shows meaningful equipment cost and no demonstrated local premium or contracted offtake. A narrower testable wedge is propagation or high-value herbs sold locally with preorders, where the operator can avoid full indoor-farm buildout and test price, repeat demand and crop loss before purchasing automation or lighting.
+- Value capture: Capture the difference between validated preorder revenue and variable production, packaging and delivery costs; optionally sell starter trays or recurring herb bundles. No margin, buyer, crop yield or payback period is assumed until measured. The asset is a small NFT/propagation setup that can be reused across crops rather than a large vertical farm.
+- Participation hypothesis: Use a small greenhouse or low-energy hydroponic setup rather than a fully indoor LED room. Select one crop with a visible price series on ODEPA/Chile Agrícola, contact ten restaurants, specialty grocers or direct consumers through publicly available channels, and request paid preorders or written price indications before expanding. Run one 4–8 week batch and record germination, harvestable units, kWh, water, labor hours, packaging, delivery and realized price. Falsify if there are no paid preorders before planting, if realized price does not co
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.chileagricola.cl/precios-mayoristas/; https://es.scribd.com/document/1014311150/BOLETIN-1-INIA-FIA-Manejo-Sanitario-y-Otros-InIA-Chile; https://andinotech.cl/categoria-producto/hidroponia/sistema-de-cultivo-hidroponico/
+
 ### Small-factory robot deployment and commissioning wedge focused on food-sector applications [opp_f2278f7ef99fae7e2528]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States
 - Thesis: More small and mid-sized food manufacturers may be purchasing flexible automation, but the economically reachable bottleneck is deployment: motion programming, end-effector setup, calibration, safety documentation, and repeatable production-cell validation.
@@ -763,6 +773,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.nifa.usda.gov/about-nifa/impacts/automation-specialty-crops; https://www.ars.usda.gov/research/project/?accnNo=448156
 
+### NFC review-and-reorder plaques for Chilean independent merchants [opp_ce00c60c8ebfd1d48cd2]
+- Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile
+- Thesis: A small operator should not compete on generic NFC business cards. A narrower offer is a preconfigured countertop or packaging plaque that sends customers to one measurable action—Google review, WhatsApp reorder, menu, booking or loyalty stamp—sold with a simple setup fee and optional replacement/update service. The economic mechanism is paid physical placement plus measurable reduction in friction between offline traffic and a merchant-owned digital channel.
+- Value capture: Sell a locally printed NFC/QR plaque or tag with the merchant's destination URL, analytics link and replacement/update service. The verified price ceiling for comparable local products is approximately CLP 19,990–29,990 per unit; recurring revenue, conversion rate and merchant retention remain unverified.
+- Participation hypothesis: Start with one vertical where the action is easy to measure, such as cafés or salons. Build a one-page landing page and one physical prototype using an inexpensive NFC tag and QR code. Approach 20 nearby businesses in person or through publicly listed contact channels; offer a seven-day unpaid or deposit-backed test only if the merchant agrees to place it at the point of sale and provide baseline and post-test scan/review counts. Falsify if fewer than three businesses agree to place the prototype, or if no tested merchant records a measurable a
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.ondda.cl/; https://www.aither.cl/tap/
+
 ### NFC review-and-reservation kits for Chilean multi-location hospitality businesses [opp_6f96496de207fbd68ffc]
 - Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
 - Thesis: The opportunity is not generic NFC resale; it is a narrow deployment package for restaurants, cafés, hotels, barber shops, and clinics with multiple customer-contact points. The economic mechanism is a low-cost physical prompt that can route customers to reviews, reservations, or WhatsApp while allowing the operator to measure taps and clicks. Existing local prices provide a verifiable willingness-to-pay benchmark, but do not establish conversion uplift or margins.
@@ -782,6 +802,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.nyiso.com/documents/20142/49802416/DER-and-Aggregation-Participation-Model-FAQ.pdf/967117fb-8bbb-1916-651a-0f9dbe904780; https://www.nyiso.com/documents/20142/51465900/03a%20BPWG%202025-05-19%20Market%20Project%20Descriptions.pdf/7ae79489-5cd8-5715-200f-227204dad4a4
+
+### Open-finance implementation monitoring and developer-readiness service [opp_b5bb525067a4142275e1]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: The executable wedge is not becoming a data provider or payment initiator. It is a reusable compliance-and-integration monitoring asset for firms preparing against the published technical requirements: version tracking, endpoint checklists, test-case generation, change alerts and implementation documentation. The cash-flow source would need to be a verified paying firm or vendor; no buyer or price is assumed.
+- Value capture: Charge for a narrowly scoped technical-readiness audit, recurring specification-change monitoring or reusable test harness, subject to the client's authorization and regulatory perimeter. The CMF timetable is a catalyst for preparation spending, not proof of demand or permission to handle financial data.
+- Participation hypothesis: Download and study the official technical materials, build a public parser/checklist using only published documentation, and test distribution by sending a sample change log to Chilean fintechs, banks' technology vendors and compliance consultancies through publicly listed channels. Ask for a paid discovery session or written request for a specific deliverable before adding regulated integrations. Falsify if ten targeted firms show no interest in reviewing the sample, or if the work requires permissions, certifications or confidential specifica
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html
 
 ### Open-source agent cost-control software with a directly published paid tier [opp_beb787a05eb10672a64b]
 - Status: WATCH_REQUIRES_VALIDATION | innovation_adoption | Global
@@ -812,16 +842,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/principal/613/articles-72652_doc_pdf.pdf
-
-### Pre-spend and tool-use regression testing for AI agents using open attack corpora [opp_09bb69601be0706e7219]
-- Status: WATCH_REQUIRES_VALIDATION | innovation_adoption | Global; initial distribution can target Chilean and Latin American software teams
-- Thesis: Small teams deploying agents may be able to buy or commission a bounded test that identifies whether their agent can be induced to take unauthorized actions. The narrow wedge is an evidence-producing regression pack for one agent workflow, not generic AI consulting or a claim of comprehensive security.
-- Value capture: Potential cash flow comes from a fixed-scope test report, a reusable CI test package, or a low-cost hosted approval check for agent actions. The existence of a public $99/month hosted reference supports testing price sensitivity but does not prove that a new operator can achieve that price or obtain customers.
-- Participation hypothesis: Fork or locally run the open attack corpus and benchmark harnesses against a toy agent or a consenting test deployment. Create 20-30 tests covering prompt injection, unsafe tool calls, secret leakage, and spend approval; measure false positives, detection rate, latency, and model/API cost. Publish the methodology and ask 10 publicly identifiable software teams or developer communities whether they will submit a redacted workflow for a free baseline. Charge only after a participant requests a repeatable CI report or agrees to a paid pilot. Falsi
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://github.com/AndrewSispoidis/contemporary-agent-attacks; https://github.com/kindrat86/ai-agent-incident-database/blob/main/README.md
 
 ### Rare-earth secondary-material sourcing and assay brokerage as a testable micro-wedge [opp_45b7e9d57391da701819]
 - Status: WATCH_REQUIRES_VALIDATION | physical_distribution | United States
