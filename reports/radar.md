@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-19T01:08:27.662553+00:00
+Generated: 2026-10-19T05:01:18.412179+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 108
+- New this cycle: 148
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
-- Categories: agriculture 295, ai 271, commerce 35, energy 561, robotics 638
+- Categories: agriculture 290, ai 284, commerce 34, energy 544, robotics 648
 
 ## Recently encountered signals
 
@@ -226,6 +226,12 @@ Generated: 2026-10-19T01:08:27.662553+00:00
 - Source: https://doi.org/10.66506/essp.172
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### Brain-Aligned Multimodal LLMs for Social and Emotional Understanding of Cartoon Movies
+- Source: https://arxiv.org/abs/2610.22706
+- Domain: ai | Suggested angle: Agent-enabled digital asset or localised specialised product
+- First test: Identify measurable customer job, willing buyer, existing competitors and unit economics.
 - Status: **unverified research lead**
 
 ### smitdeshaval/Framing-app
@@ -452,12 +458,6 @@ Generated: 2026-10-19T01:08:27.662553+00:00
 
 ### sanjay-coder-cloud/project1
 - Source: https://github.com/sanjay-coder-cloud/project1
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### asyath/smart-farming-app
-- Source: https://github.com/asyath/smart-farming-app
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
