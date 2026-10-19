@@ -1,94 +1,94 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 1200000.0,
-      "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
-      "closes_at": "2026-10-19T17:45:00",
-      "code": "1057491-1889-COT26",
-      "estimated_budget": 1200000.0,
-      "name": "OSTEOTOMIA DE CORRECCION DEL EJE DEL RADIO IZQUIERDO RESECCION LIGAMENTO DE VICKERS Y PLASTIA ARTICULAR ANTEBRAZO IZQUIERDO",
+      "available_budget_clp": 1080000.0,
+      "buyer": "SERVICIO DE SALUD DEL MAULE HOSPITAL DE MOLINA",
+      "closes_at": "2026-10-19T22:00:00",
+      "code": "363-318-COT26",
+      "estimated_budget": 1080000.0,
+      "name": "BAJADA OPACA DE DROGAS FOTOSENSIBLE ON 90.",
       "products": 1,
-      "region": "Región Metropolitana de Santiago"
+      "region": "Región del Maule"
     },
     {
-      "available_budget_clp": 600700.0,
-      "buyer": "DEPARTAMENTO PROVINCIAL DE EDUCACIÓN DE RANCO",
-      "closes_at": "2026-10-19T17:20:00",
-      "code": "5795-108-COT26",
-      "estimated_budget": 600700.0,
-      "name": "MESAS TECNICAS Y COMITE LOCAL",
-      "products": 1,
-      "region": "Región de Los Ríos"
-    },
-    {
-      "available_budget_clp": 690000.0,
-      "buyer": "UNIVERSIDAD METROPOLITANA DE CIENCIAS DE LA EDUCAC",
-      "closes_at": "2026-10-20T09:30:00",
-      "code": "1491849-31-COT26",
-      "estimated_budget": 690000.0,
-      "name": "Servicio de Coffee Break para 70 personas el día 22/12/2026 en el Liceo Gladys Valenzuela en el marco del Proyecto CONS-VCM-05",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 26000.0,
-      "buyer": "SECCIÓN COMPRAS XII ZONA",
-      "closes_at": "2026-10-19T17:15:00",
-      "code": "1079445-719-COT26",
-      "estimated_budget": 26000.0,
-      "name": "ADQ. PASAJES VEHICULO FISCAL BAHIA AZUL-PUNTA DELGADA",
-      "products": 1,
-      "region": "Región de Magallanes y de la Antártica"
-    },
-    {
-      "available_budget_clp": 7200000.0,
-      "buyer": "UNIVERSIDAD DE AYSEN",
-      "closes_at": "2026-10-20T12:00:00",
-      "code": "1057062-466-COT26",
-      "estimated_budget": 7200000.0,
-      "name": "Adquisición de libros de derecho según Fisabs 2290_URY 25991",
-      "products": 44,
-      "region": "Región Aysén del General Carlos Ibáñez del Campo"
-    },
-    {
-      "available_budget_clp": 440000.0,
-      "buyer": "Comandancia General del Cuerpo I.M.",
-      "closes_at": "2026-10-19T17:10:00",
-      "code": "2958-37-COT26",
-      "estimated_budget": 440000.0,
-      "name": "Adquisición de artículos de escritorio",
-      "products": 18,
+      "available_budget_clp": 1000000.0,
+      "buyer": "UNIVERSIDAD DE VALPARAISO",
+      "closes_at": "2026-10-19T23:59:00",
+      "code": "633470-159-COT26",
+      "estimated_budget": 1000000.0,
+      "name": "Adquisición de material de aseo - Facultad de Ingeniería",
+      "products": 9,
       "region": "Región de Valparaíso"
     },
     {
-      "available_budget_clp": 26000.0,
-      "buyer": "SECCIÓN COMPRAS XII ZONA",
-      "closes_at": "2026-10-19T17:10:00",
-      "code": "1079445-717-COT26",
-      "estimated_budget": 26000.0,
-      "name": "ADQ. PASAJES VEHICULO FISCAL PAMPA GUANACO PUNTA DELGADA-BAHIA AZUL",
-      "products": 1,
-      "region": "Región de Magallanes y de la Antártica"
+      "available_budget_clp": 1400000.0,
+      "buyer": "UNIVERSIDAD DE VALPARAISO",
+      "closes_at": "2026-10-19T23:59:00",
+      "code": "633470-160-COT26",
+      "estimated_budget": 1400000.0,
+      "name": "Adquisición de insumos de alimentación - Facultad de Ingeniería",
+      "products": 13,
+      "region": "Región de Valparaíso"
     },
     {
-      "available_budget_clp": 26000.0,
-      "buyer": "SECCIÓN COMPRAS XII ZONA",
-      "closes_at": "2026-10-19T17:15:00",
-      "code": "1079445-718-COT26",
-      "estimated_budget": 26000.0,
-      "name": "ADQ. PASAJES VEHICULO FISCAL PUNTA DELGADA-BAHIA AZUL",
+      "available_budget_clp": 450000.0,
+      "buyer": "UNIVERSIDAD METROPOLITANA DE CIENCIAS DE LA EDUCAC",
+      "closes_at": "2026-10-19T21:45:00",
+      "code": "1493149-78-COT26",
+      "estimated_budget": 450000.0,
+      "name": "URGENTE - Adquisición de ventilador de holograma",
       "products": 1,
-      "region": "Región de Magallanes y de la Antártica"
+      "region": "Región Metropolitana de Santiago"
     },
     {
-      "available_budget_clp": 26000.0,
-      "buyer": "SECCIÓN COMPRAS XII ZONA",
-      "closes_at": "2026-10-19T17:10:00",
-      "code": "1079445-716-COT26",
-      "estimated_budget": 26000.0,
-      "name": "ADQ. PASAJES VEHICULO FISCAL PAMPA GUANACO BAHIA AZUL-PUNTA DELGADA",
-      "products": 1,
-      "region": "Región de Magallanes y de la Antártica"
+      "available_budget_clp": 950000.0,
+      "buyer": "UNIVERSIDAD METROPOLITANA DE CIENCIAS DE LA EDUCAC",
+      "closes_at": "2026-10-19T21:35:00",
+      "code": "1493149-77-COT26",
+      "estimated_budget": 950000.0,
+      "name": "URGENTE - Adquisición de material de difusión (21 de octubre)",
+      "products": 2,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 2000000.0,
+      "buyer": "UNIVERSIDAD DE VALPARAISO",
+      "closes_at": "2026-10-19T23:59:00",
+      "code": "633470-158-COT26",
+      "estimated_budget": 2000000.0,
+      "name": "Adquisición de artículos de escritorio - Facultad de Ingeniería",
+      "products": 34,
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 230000.0,
+      "buyer": "UNIVERSIDAD DE ATACAMA",
+      "closes_at": "2026-10-20T08:00:00",
+      "code": "607603-83-COT26",
+      "estimated_budget": 230000.0,
+      "name": "Insumos para Impresora 3D",
+      "products": 6,
+      "region": "Región de Atacama"
+    },
+    {
+      "available_budget_clp": 975000.0,
+      "buyer": "Servicio de Biodiversidad y Áreas Protegidas",
+      "closes_at": "2026-10-21T03:12:00",
+      "code": "1495202-25-COT26",
+      "estimated_budget": 975000.0,
+      "name": "ADQUISICIÓN DE ARTÍCULOS PARA MEJORAR LA OPERATIVIDAD EN LAS AREAS PROTEGIDAS PARA LA DIRECCIÓN REGIONAL DE ANTOFAGASTA",
+      "products": 5,
+      "region": "Región de Antofagasta"
+    },
+    {
+      "available_budget_clp": 120000.0,
+      "buyer": "I MUNICIPALIDAD DE TIERRA AMARILLA",
+      "closes_at": "2026-10-19T21:25:00",
+      "code": "4484-142-COT26",
+      "estimated_budget": 120000.0,
+      "name": "COFFEE BREAK PROGRAMA ESTRATEGIA MHGAP",
+      "products": 24,
+      "region": "Región de Atacama"
     }
   ],
   "active_structurally_reconstructable_count": 9,
@@ -97,9 +97,9 @@
       "api_http_504": 2
     },
     "budget_exhausted": true,
-    "detail_attempts": 20,
+    "detail_attempts": 19,
     "detail_cap_exhausted": false,
-    "details_fetched": 18,
+    "details_fetched": 17,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -109,26 +109,26 @@
     "pagination_incomplete": false,
     "pagination_invalid": false,
     "requests_used": 25,
-    "transient_retries": 4
+    "transient_retries": 5
   },
-  "generated_at": "2026-10-18T20:46:18Z",
-  "inserted_history": 18,
+  "generated_at": "2026-10-19T01:04:43Z",
+  "inserted_history": 17,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
   "outcome": "DEGRADED_API_ERRORS",
   "phase1": {
-    "records": 18,
+    "records": 17,
     "rejection_reasons": {
       "no_observable_competitive_prices": 3
     },
-    "resolved": 9,
-    "structurally_reconstructable": 15,
-    "with_observable_quote_totals": 6,
-    "with_purchase_order_indicator": 0
+    "resolved": 8,
+    "structurally_reconstructable": 14,
+    "with_observable_quote_totals": 5,
+    "with_purchase_order_indicator": 4
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-18T20:46:18Z"
+    "changed_to": "2026-10-19T01:04:43Z"
   }
 }
