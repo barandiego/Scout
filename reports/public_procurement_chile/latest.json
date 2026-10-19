@@ -1,105 +1,103 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 1080000.0,
-      "buyer": "SERVICIO DE SALUD DEL MAULE HOSPITAL DE MOLINA",
-      "closes_at": "2026-10-19T22:00:00",
-      "code": "363-318-COT26",
-      "estimated_budget": 1080000.0,
-      "name": "BAJADA OPACA DE DROGAS FOTOSENSIBLE ON 90.",
-      "products": 1,
-      "region": "Región del Maule"
+      "available_budget_clp": 450000.0,
+      "buyer": "I. Municipalidad de General Lagos",
+      "closes_at": "2026-10-20T08:00:00",
+      "code": "835727-244-COT26",
+      "estimated_budget": 450000.0,
+      "name": "ADQUISICIÓN DE INSUMOS DE COMUNICACIÓN Y DIFUCIÓN, RELACIONDADAS CON EL CONVENIO DE EQUIDAD RURAL",
+      "products": 5,
+      "region": "Región de Arica y Parinacota"
     },
     {
-      "available_budget_clp": 1000000.0,
-      "buyer": "UNIVERSIDAD DE VALPARAISO",
-      "closes_at": "2026-10-19T23:59:00",
-      "code": "633470-159-COT26",
-      "estimated_budget": 1000000.0,
-      "name": "Adquisición de material de aseo - Facultad de Ingeniería",
-      "products": 9,
-      "region": "Región de Valparaíso"
+      "available_budget_clp": 5500000.0,
+      "buyer": "I. Municipalidad de General Lagos",
+      "closes_at": "2026-10-20T08:00:00",
+      "code": "835727-245-COT26",
+      "estimated_budget": 5500000.0,
+      "name": "ADQUISICIÓN DE CILINDROS DE OXÍGENO DE USO MEDICINAL, PARA USO EN LA POSTA DE SALUD RURAL DE VISVIRI, Y EN AMBULANCIAS BAJO LA ADMINISTRACIÓN DE LA ILUSTRE MUNICIPALIDAD DE GENERAL LAGOS",
+      "products": 1,
+      "region": "Región de Arica y Parinacota"
+    },
+    {
+      "available_budget_clp": 910000.0,
+      "buyer": "UNIVERSIDAD DE SANTIAGO DE CHILE",
+      "closes_at": "2026-10-20T10:00:00",
+      "code": "5067-2526-COT26",
+      "estimated_budget": 910000.0,
+      "name": "Sol.93924 CC84 / Adquisición de Insumos para Taller de Suturas",
+      "products": 4,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 1500000.0,
+      "buyer": "UNIVERSIDAD DE SANTIAGO DE CHILE",
+      "closes_at": "2026-10-20T10:00:00",
+      "code": "5067-2525-COT26",
+      "estimated_budget": 1500000.0,
+      "name": "Sol.93785 CC006 / Adquisición de Celular",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 258000.0,
+      "buyer": "UNIVERSIDAD DE SANTIAGO DE CHILE",
+      "closes_at": "2026-10-20T10:00:00",
+      "code": "5067-2524-COT26",
+      "estimated_budget": 258000.0,
+      "name": "Sol.93841 CC115 / Adquisición de Insumos de Laboratorio",
+      "products": 5,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 500000.0,
+      "buyer": "Dirección Regional de Gendarmeria - Metropolitana",
+      "closes_at": "2026-10-20T09:00:00",
+      "code": "1411-1367-COT26",
+      "estimated_budget": 500000.0,
+      "name": "ADQUISICIÓN DE SILLAS ERGONÓMICAS  PROGRAMA 01 PARA CAIS MELIPILLA",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 1300000.0,
+      "buyer": "UNIVERSIDAD DE SANTIAGO DE CHILE",
+      "closes_at": "2026-10-20T10:00:00",
+      "code": "867990-684-COT26",
+      "estimated_budget": 1300000.0,
+      "name": "Sol.93780 CC102 / Contratación de Servicio de Impresión (Regalos Publicitarios)",
+      "products": 3,
+      "region": "Región Metropolitana de Santiago"
     },
     {
       "available_budget_clp": 1400000.0,
       "buyer": "UNIVERSIDAD DE VALPARAISO",
-      "closes_at": "2026-10-19T23:59:00",
-      "code": "633470-160-COT26",
+      "closes_at": "2026-10-20T07:59:00",
+      "code": "633470-163-COT26",
       "estimated_budget": 1400000.0,
-      "name": "Adquisición de insumos de alimentación - Facultad de Ingeniería",
-      "products": 13,
+      "name": "Adquisición de material de trabajo - Escuela de Ingeniería Informática - Facultad de Ingeniería",
+      "products": 10,
       "region": "Región de Valparaíso"
     },
     {
-      "available_budget_clp": 450000.0,
-      "buyer": "UNIVERSIDAD METROPOLITANA DE CIENCIAS DE LA EDUCAC",
-      "closes_at": "2026-10-19T21:45:00",
-      "code": "1493149-78-COT26",
-      "estimated_budget": 450000.0,
-      "name": "URGENTE - Adquisición de ventilador de holograma",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 950000.0,
-      "buyer": "UNIVERSIDAD METROPOLITANA DE CIENCIAS DE LA EDUCAC",
-      "closes_at": "2026-10-19T21:35:00",
-      "code": "1493149-77-COT26",
-      "estimated_budget": 950000.0,
-      "name": "URGENTE - Adquisición de material de difusión (21 de octubre)",
-      "products": 2,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 2000000.0,
+      "available_budget_clp": 800000.0,
       "buyer": "UNIVERSIDAD DE VALPARAISO",
-      "closes_at": "2026-10-19T23:59:00",
-      "code": "633470-158-COT26",
-      "estimated_budget": 2000000.0,
-      "name": "Adquisición de artículos de escritorio - Facultad de Ingeniería",
-      "products": 34,
+      "closes_at": "2026-10-20T07:59:00",
+      "code": "633470-162-COT26",
+      "estimated_budget": 800000.0,
+      "name": "Adquisición de alimentos para programas de postgrado - Facultad de Ingeniería",
+      "products": 9,
       "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 230000.0,
-      "buyer": "UNIVERSIDAD DE ATACAMA",
-      "closes_at": "2026-10-20T08:00:00",
-      "code": "607603-83-COT26",
-      "estimated_budget": 230000.0,
-      "name": "Insumos para Impresora 3D",
-      "products": 6,
-      "region": "Región de Atacama"
-    },
-    {
-      "available_budget_clp": 975000.0,
-      "buyer": "Servicio de Biodiversidad y Áreas Protegidas",
-      "closes_at": "2026-10-21T03:12:00",
-      "code": "1495202-25-COT26",
-      "estimated_budget": 975000.0,
-      "name": "ADQUISICIÓN DE ARTÍCULOS PARA MEJORAR LA OPERATIVIDAD EN LAS AREAS PROTEGIDAS PARA LA DIRECCIÓN REGIONAL DE ANTOFAGASTA",
-      "products": 5,
-      "region": "Región de Antofagasta"
-    },
-    {
-      "available_budget_clp": 120000.0,
-      "buyer": "I MUNICIPALIDAD DE TIERRA AMARILLA",
-      "closes_at": "2026-10-19T21:25:00",
-      "code": "4484-142-COT26",
-      "estimated_budget": 120000.0,
-      "name": "COFFEE BREAK PROGRAMA ESTRATEGIA MHGAP",
-      "products": 24,
-      "region": "Región de Atacama"
     }
   ],
   "active_structurally_reconstructable_count": 9,
   "diagnostics": {
-    "api_failures": {
-      "api_http_504": 2
-    },
-    "budget_exhausted": true,
-    "detail_attempts": 19,
-    "detail_cap_exhausted": false,
-    "details_fetched": 17,
+    "api_failures": {},
+    "budget_exhausted": false,
+    "detail_attempts": 20,
+    "detail_cap_exhausted": true,
+    "details_fetched": 20,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -108,27 +106,27 @@
     "pages_fetched": 1,
     "pagination_incomplete": false,
     "pagination_invalid": false,
-    "requests_used": 25,
-    "transient_retries": 5
+    "requests_used": 21,
+    "transient_retries": 0
   },
-  "generated_at": "2026-10-19T01:04:43Z",
-  "inserted_history": 17,
+  "generated_at": "2026-10-19T04:56:17Z",
+  "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_API_ERRORS",
+  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
   "phase1": {
-    "records": 17,
+    "records": 20,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 3
+      "no_observable_competitive_prices": 1
     },
-    "resolved": 8,
-    "structurally_reconstructable": 14,
-    "with_observable_quote_totals": 5,
-    "with_purchase_order_indicator": 4
+    "resolved": 11,
+    "structurally_reconstructable": 19,
+    "with_observable_quote_totals": 10,
+    "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-19T01:04:43Z"
+    "changed_to": "2026-10-19T04:56:17Z"
   }
 }
