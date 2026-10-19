@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 91
+Candidates: 93
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -51,6 +51,18 @@ Candidates: 91
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://tarjetas-nfc.com/; https://www.ondda.cl/
+
+## SII sales-and-purchases exception dashboard for small accounting firms
+- Status: watch | chile_localization
+- Current idea: A narrowly defined dashboard or scheduled report could turn licensed SII data access into a repeatable deliverable: identify missing invoices, unusual purchase changes, overdue DTE reconciliation, or month-end filing exceptions. The economics are testable because the underlying API access has published prices rather than requiring unpriced data acquisition.
+- Potential economic capture: Sell a fixed monthly reconciliation pack or white-label dashboard to an accounting firm or software vendor that already serves Chilean SMEs. The offer should be limited to reproducible exception detection and exportable evidence, not bespoke bookkeeping or general AI consulting. The payer, final price, and achievable margin remain unverified.
+- **Research routes to test (NOT validated claims):**
+  - Find the smallest Chilean workflow whose economics differ from the original geography.
+  - Secure lawful access, partners and after-sales support rather than copy protected technology.
+  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://apipyme.cl/planes/; https://logicware.cl/desarrolladores/; https://datario.cl/precios
 
 ## Chile beauty replenishment and gifting bundles around Natura’s new Falabella channel
 - Status: watch | ecommerce_niches
@@ -420,7 +432,7 @@ Candidates: 91
   - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
   - Check license perimeter, API access, legal compliance and competitor pricing.
   - Test buyer procurement and technical access before writing integration infrastructure.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Whether ATENA is sufficiently complete, reliable, accessible, and supported for commercial participants.; Whether ATENA or CMF will issue formal conformance or certification reports that displace private pre-certification services.; The exact phased deadlines by participant category and how many entities face near-term implementation pressure.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html
 
@@ -745,6 +757,18 @@ Candidates: 91
   - Check license perimeter, API access, legal compliance and competitor pricing.
   - Test buyer procurement and technical access before writing integration infrastructure.
 - Critical gaps: No named prospective buyer has confirmed a specific unresolved implementation requirement.; No evidence of a paid pilot, target price, procurement path, or budget owner exists.; The number and characteristics of entities required to participate, including phased deadlines by entity type, are not mapped.
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
+
+## Open-finance implementation-readiness toolkit for Chilean fintech software vendors
+- Status: watch | open_finance_chile
+- Current idea: The near-term opportunity is not selling live account aggregation or payment initiation. A safer wedge is a reusable implementation-readiness asset: requirements matrix, consent-flow checklist, test-case library, data-field mapping and vendor-readiness assessment based on the published technical annex. Revenue would depend on finding software vendors that need preparation before the regulatory start date; no buyer demand or price was verified.
+- Potential economic capture: License or sell a standardized compliance-engineering workbook and test pack to Chilean fintech or vertical-software teams preparing for OFS participation. Do not claim regulatory advice, certification, access to bank APIs, or permission to use CMF materials beyond what the source licenses allow.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
 

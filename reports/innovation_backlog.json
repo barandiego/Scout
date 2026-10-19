@@ -151,6 +151,43 @@
     },
     {
       "capital_required_unverified_estimate": "",
+      "category": "chile_localization",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Buy or request trial access from an API provider, obtain written permission for the intended reporting use, and build a spreadsheet or lightweight dashboard for one narrow workflow such as comparing SII purchase records against a client-provided accounting export. Before building a full product, ask 10 Chilean accounting firms whether they will review a sample report and pay a small refundable pilot fee. Falsify if fewer than 2 firms agree to inspect the sample or if the API terms prohibit redistribution or derived client reports.",
+      "current_thesis": "A narrowly defined dashboard or scheduled report could turn licensed SII data access into a repeatable deliverable: identify missing invoices, unusual purchase changes, overdue DTE reconciliation, or month-end filing exceptions. The economics are testable because the underlying API access has published prices rather than requiring unpriced data acquisition.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "SII sales-and-purchases exception dashboard for small accounting firms",
+      "opportunity_id": "opp_c8a7ce7acdf289eff270",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Find the smallest Chilean workflow whose economics differ from the original geography.",
+        "Secure lawful access, partners and after-sales support rather than copy protected technology.",
+        "Run a buyer interview or mock listing to falsify assumptions before capital commitment."
+      ],
+      "supporting_source_urls": [
+        "https://apipyme.cl/planes/",
+        "https://logicware.cl/desarrolladores/",
+        "https://datario.cl/precios"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a fixed monthly reconciliation pack or white-label dashboard to an accounting firm or software vendor that already serves Chilean SMEs. The offer should be limited to reproducible exception detection and exportable evidence, not bespoke bookkeeping or general AI consulting. The payer, final price, and achievable margin remain unverified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
       "category": "ecommerce_niches",
       "commercially_validated": false,
       "competition_confirmed": false,
@@ -1303,9 +1340,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "Chile",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "Whether ATENA is sufficiently complete, reliable, accessible, and supported for commercial participants.",
+        "Whether ATENA or CMF will issue formal conformance or certification reports that displace private pre-certification services.",
+        "The exact phased deadlines by participant category and how many entities face near-term implementation pressure.",
+        "The number of likely participants and their technical maturity, internal engineering capacity, and consulting budgets.",
+        "Whether external vendors can obtain the credentials, directory access, sandbox access, and test fixtures needed to perform meaningful validation.",
+        "Whether the Annex 3 specifications and test artifacts are stable enough that a validator will not require frequent rework.",
+        "Whether SFA-Sandbox has paying customers, durable distribution, or merely a public demo."
       ],
       "investment_authorized": false,
       "name": "Chile Open Finance conformance-testing wedge ahead of July 2027 implementation",
@@ -2368,6 +2409,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Sell a fixed-price technical readiness assessment or test pack to a named fintech, bank vendor or integration contractor. Potential follow-on work is implementation, but no buyer, fee or permission should be assumed until an operator confirms that the organization must prepare for the OFS technical requirements.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Download and review the CMF technical materials, verify reuse and licensing terms, then create a small sample containing only public requirements and a traceability matrix. Contact Chilean fintechs or software vendors through public company channels and offer a paid 60-minute review of the sample, without representing it as legal advice. Falsify if no relevant team will provide a real integration scenario or pay for a narrowly scoped readiness review; do not build production connectors before official participant access and technical permissions exist.",
+      "current_thesis": "The near-term opportunity is not selling live account aggregation or payment initiation. A safer wedge is a reusable implementation-readiness asset: requirements matrix, consent-flow checklist, test-case library, data-field mapping and vendor-readiness assessment based on the published technical annex. Revenue would depend on finding software vendors that need preparation before the regulatory start date; no buyer demand or price was verified.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Open-finance implementation-readiness toolkit for Chilean fintech software vendors",
+      "opportunity_id": "opp_d52a4c290d45b663a6f3",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://cmfchile.cl/portal/principal/613/w3-article-92556.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "License or sell a standardized compliance-engineering workbook and test pack to Chilean fintech or vertical-software teams preparing for OFS participation. Do not claim regulatory advice, certification, access to bank APIs, or permission to use CMF materials beyond what the source licenses allow.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -3482,7 +3559,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-19T04:26:28.680563+00:00",
+  "generated_at": "2026-10-19T08:33:09.146541+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"
