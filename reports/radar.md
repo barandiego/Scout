@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-19T17:00:23.825816+00:00
+Generated: 2026-10-19T20:57:39.856013+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 103
+- New this cycle: 107
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): none
-- Categories: agriculture 297, ai 258, commerce 33, energy 552, robotics 660
+- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
+- Categories: agriculture 295, ai 257, commerce 33, energy 546, robotics 669
 
 ## Recently encountered signals
 
@@ -240,6 +240,12 @@ Generated: 2026-10-19T17:00:23.825816+00:00
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
+### eman/microgrid
+- Source: https://github.com/eman/microgrid
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
 ### dakshghuge/ShetkariAI
 - Source: https://github.com/dakshghuge/ShetkariAI
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
@@ -452,12 +458,6 @@ Generated: 2026-10-19T17:00:23.825816+00:00
 
 ### A Comparative Review of Soilless Precision Agriculture Techniques and Emerging Smart Farming Technologies
 - Source: https://doi.org/10.38094/jastt721251
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### vakulasai/agriguide-ai
-- Source: https://github.com/vakulasai/agriguide-ai
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
