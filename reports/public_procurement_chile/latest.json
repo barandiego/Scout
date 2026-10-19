@@ -2,96 +2,16 @@
   "active_candidates": [
     {
       "available_budget_clp": 450000.0,
-      "buyer": "I. Municipalidad de General Lagos",
-      "closes_at": "2026-10-20T08:00:00",
-      "code": "835727-244-COT26",
+      "buyer": "CENTRO DE ESTUDIOS AVANZADOS EN FRUTICULTURA CEAF",
+      "closes_at": "2026-10-22T18:01:00",
+      "code": "1538643-52-COT26",
       "estimated_budget": 450000.0,
-      "name": "ADQUISICIÓN DE INSUMOS DE COMUNICACIÓN Y DIFUCIÓN, RELACIONDADAS CON EL CONVENIO DE EQUIDAD RURAL",
-      "products": 5,
-      "region": "Región de Arica y Parinacota"
-    },
-    {
-      "available_budget_clp": 5500000.0,
-      "buyer": "I. Municipalidad de General Lagos",
-      "closes_at": "2026-10-20T08:00:00",
-      "code": "835727-245-COT26",
-      "estimated_budget": 5500000.0,
-      "name": "ADQUISICIÓN DE CILINDROS DE OXÍGENO DE USO MEDICINAL, PARA USO EN LA POSTA DE SALUD RURAL DE VISVIRI, Y EN AMBULANCIAS BAJO LA ADMINISTRACIÓN DE LA ILUSTRE MUNICIPALIDAD DE GENERAL LAGOS",
-      "products": 1,
-      "region": "Región de Arica y Parinacota"
-    },
-    {
-      "available_budget_clp": 910000.0,
-      "buyer": "UNIVERSIDAD DE SANTIAGO DE CHILE",
-      "closes_at": "2026-10-20T10:00:00",
-      "code": "5067-2526-COT26",
-      "estimated_budget": 910000.0,
-      "name": "Sol.93924 CC84 / Adquisición de Insumos para Taller de Suturas",
-      "products": 4,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 1500000.0,
-      "buyer": "UNIVERSIDAD DE SANTIAGO DE CHILE",
-      "closes_at": "2026-10-20T10:00:00",
-      "code": "5067-2525-COT26",
-      "estimated_budget": 1500000.0,
-      "name": "Sol.93785 CC006 / Adquisición de Celular",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 258000.0,
-      "buyer": "UNIVERSIDAD DE SANTIAGO DE CHILE",
-      "closes_at": "2026-10-20T10:00:00",
-      "code": "5067-2524-COT26",
-      "estimated_budget": 258000.0,
-      "name": "Sol.93841 CC115 / Adquisición de Insumos de Laboratorio",
-      "products": 5,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 500000.0,
-      "buyer": "Dirección Regional de Gendarmeria - Metropolitana",
-      "closes_at": "2026-10-20T09:00:00",
-      "code": "1411-1367-COT26",
-      "estimated_budget": 500000.0,
-      "name": "ADQUISICIÓN DE SILLAS ERGONÓMICAS  PROGRAMA 01 PARA CAIS MELIPILLA",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 1300000.0,
-      "buyer": "UNIVERSIDAD DE SANTIAGO DE CHILE",
-      "closes_at": "2026-10-20T10:00:00",
-      "code": "867990-684-COT26",
-      "estimated_budget": 1300000.0,
-      "name": "Sol.93780 CC102 / Contratación de Servicio de Impresión (Regalos Publicitarios)",
-      "products": 3,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 1400000.0,
-      "buyer": "UNIVERSIDAD DE VALPARAISO",
-      "closes_at": "2026-10-20T07:59:00",
-      "code": "633470-163-COT26",
-      "estimated_budget": 1400000.0,
-      "name": "Adquisición de material de trabajo - Escuela de Ingeniería Informática - Facultad de Ingeniería",
-      "products": 10,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 800000.0,
-      "buyer": "UNIVERSIDAD DE VALPARAISO",
-      "closes_at": "2026-10-20T07:59:00",
-      "code": "633470-162-COT26",
-      "estimated_budget": 800000.0,
-      "name": "Adquisición de alimentos para programas de postgrado - Facultad de Ingeniería",
-      "products": 9,
-      "region": "Región de Valparaíso"
+      "name": "Adquisición de Insumos y Reactivos de Laboratorio para el CEAF",
+      "products": 2,
+      "region": "Región del Libertador General Bernardo O´Higgins"
     }
   ],
-  "active_structurally_reconstructable_count": 9,
+  "active_structurally_reconstructable_count": 1,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -106,10 +26,10 @@
     "pages_fetched": 1,
     "pagination_incomplete": false,
     "pagination_invalid": false,
-    "requests_used": 21,
-    "transient_retries": 0
+    "requests_used": 23,
+    "transient_retries": 2
   },
-  "generated_at": "2026-10-19T04:56:17Z",
+  "generated_at": "2026-10-19T09:00:07Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -119,14 +39,14 @@
     "rejection_reasons": {
       "no_observable_competitive_prices": 1
     },
-    "resolved": 11,
+    "resolved": 19,
     "structurally_reconstructable": 19,
-    "with_observable_quote_totals": 10,
+    "with_observable_quote_totals": 18,
     "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-19T04:56:17Z"
+    "changed_to": "2026-10-19T09:00:07Z"
   }
 }
