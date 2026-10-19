@@ -3696,6 +3696,90 @@
     {
       "ai_leverage": "",
       "authorized_for_execution": false,
+      "contrary_evidence": [
+        "The opportunity is not fabricated: the official Outlier page lists Chile as an eligible location and describes remote Spanish AI-training work. A separate official listing specifically identifies Spanish (Chile) writers and advertises an average core-project rate of USD 10/hour, which is stronger than the supplied USD 7.50 claim. Outlier also presents flexible remote work and PayPal/AirTM payout options. Independent anecdotal evidence reports that some Chile-based workers completed hundreds of tasks and earned meaningful income, although this is self-reported and not representative. Sources: https://app.outlier.ai/opportunities/4522871005 ; https://app.outlier.ai/opportunities/4481627005 ; https://www.reddit.com/r/outlier_ai/comments/1jaijds_good_experience_with_outlier_from_chile"
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-19T04:26:12.374600+00:00",
+      "discovery_lens": "remote_paid_evaluation",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Official application page lists Chile among eligible remote locations, describes Spanish AI-training work and displays a current average rate of USD 7.50/hour for Spanish writing experts.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Spanish AI Training",
+          "url": "https://app.outlier.ai/opportunities/4522871005"
+        },
+        {
+          "claim": "Official FAQ states that applicants need identity verification, a resume and LinkedIn profile; rates vary; payment is processed weekly after onboarding and project work via listed payout methods.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Outlier FAQ: payment and application requirements",
+          "url": "https://outlier.ai/faq"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [
+        "The official application is closed, inaccessible, or no longer lists Chile as eligible.",
+        "The applicant cannot complete identity, payment, or skills verification despite meeting the stated requirements.",
+        "No paid project becomes available within a defined test period after qualification, such as 30 days.",
+        "The applicant receives no clear written rate and project terms before performing work.",
+        "Observed effective earnings fall materially below the advertised rate after onboarding, unpaid work, idle time, and fees.",
+        "Tasks are too scarce or unstable to produce a commercially meaningful monthly income.",
+        "Payments are delayed, withheld, reversed, or unavailable through the advertised payout methods.",
+        "A better verified alternative offers materially higher effective earnings for comparable effort and access."
+      ],
+      "geography": "Chile; remote",
+      "id": "opp_b835724445c10f768057",
+      "judge_reviewed": true,
+      "judgment": "The premise is supported by first-party Outlier application and FAQ pages, with a clear conditional participation path: a Chile resident can apply, verify identity, complete assessments, qualify for a project, and receive task-based contractor compensation. Outlier is a specific payer and the value-capture mechanism is direct. However, this is not yet HQ-worthy as a dependable income vertical or differentiated business wedge: rates are project/location-specific, task volume and acceptance are unproven, and the cited hourly figure is an advertised average rather than expected effective earnings. Treat it as a tightly bounded, low-capital application experiment only, with a 30-day post-qualification task-availability and effective-rate test before assigning meaningful Diego time or relying on it for income.",
+      "last_record_updated_at": "2026-10-19T04:26:28.163580+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Whether the cited application was still accepting new Chilean applicants on October 19, 2026, beyond being crawlable.",
+        "Whether a Chile-resident applicant would receive the USD 7.50, USD 10, or another rate.",
+        "Acceptance and qualification rates for Chilean applicants.",
+        "Expected paid task volume, project duration, and continuity after onboarding.",
+        "Whether onboarding, assessments, retraining, audits, rejected work, or platform downtime are paid."
+      ],
+      "participation_path": "Apply only through the official Outlier pages, complete the profile and skills assessment, and record whether Chile eligibility, displayed rate, payout method and task access are actually offered. Test viability after onboarding by accepting only work whose displayed terms and payment conditions are clear. Falsify if the application is closed, Chile is removed, identity/payment verification fails, or no paid task becomes available after qualification. Treat the listed USD 7.50/hour as an advertised average for a specified writing project, not guaranteed income.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "This is a currently accessible application route for possible freelance income, but it is not guaranteed work: acceptance, project qualification, available tasks, actual rate and payment eligibility remain conditional.",
+      "title": "Remote Spanish-language AI evaluation and writing applications open to Chile residents",
+      "type": "remote paid evaluation application",
+      "unknowns": [
+        "Whether the cited application was still accepting new Chilean applicants on October 19, 2026, beyond being crawlable.",
+        "Whether a Chile-resident applicant would receive the USD 7.50, USD 10, or another rate.",
+        "Acceptance and qualification rates for Chilean applicants.",
+        "Expected paid task volume, project duration, and continuity after onboarding.",
+        "Whether onboarding, assessments, retraining, audits, rejected work, or platform downtime are paid.",
+        "Effective hourly earnings after task-time limits, unpaid work, taxes, transfer fees, and currency conversion.",
+        "Whether PayPal, AirTM, or ACH is actually available and practical for the specific Chilean applicant.",
+        "Contractor tax, labor, privacy, dispute, account-suspension, and payment-reversal terms.",
+        "Whether the work is economically superior to alternative Chilean or international annotation platforms.",
+        "Current Chile-specific eligibility and the written rate actually presented to the individual applicant at onboarding.",
+        "Acceptance and qualification probability for qualified Chilean Spanish-language applicants.",
+        "Paid-task availability, utilization, and continuity over a 30-day and 90-day period.",
+        "Whether relevant payout rails are usable in Chile and the resulting transfer, conversion, tax, and compliance burden.",
+        "Observed effective hourly earnings and payment reliability relative to alternative verified remote annotation or writing channels.",
+        "Whether the work produces transferable skills, references, or AI capability return sufficient to justify the opportunity cost."
+      ],
+      "value_capture_mechanism": "The economic mechanism is direct task compensation from Outlier after selection and completed work. No application fee or deposit is indicated in the consulted pages; payout methods listed by Outlier include PayPal and AirTM, with ACH referenced in its FAQ.",
+      "verified_sales": null,
+      "vertical": "general",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": true,
       "discovered_at": "2026-10-09T04:11:50.771535+00:00",
@@ -4716,6 +4800,60 @@
       "type": "data_asset",
       "unknowns": [],
       "value_capture_mechanism": "Produce a paid recurring spreadsheet/API or diligence packet for storage developers, infrastructure investors, brokers, or lenders: project identifier, interconnection status, node or balancing-area data, announced capacity, milestone dates, and links to primary filings. Revenue would come from subscriptions, one-off diligence packets, or licensed data—not from assuming project ownership or guaranteed savings.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-19T04:26:12.373053+00:00",
+      "discovery_lens": "energy_localization",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Official tender portal identifies the active 2026/01 procurement for regulated customers and its supply blocks.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Licitación de Suministro 2026/01",
+          "url": "https://www.licitacioneselectricas.cl/licitaciones?estado=vigentes"
+        },
+        {
+          "claim": "Summarizes the final terms, 2,835 GWh/year structure, time blocks, eligible storage backup, milestones and December 4, 2026 bid deadline.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "CNE approves final terms and formally launches Supply Tender 2026/01",
+          "url": "https://jdf.cl/en/cne-aprueba-las-bases-definitivas-de-la-licitacion-de-suministro-2026-01-y-da-inicio-formal-al-proceso/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [],
+      "geography": "Chile; SEN zones, especially Zone 2",
+      "id": "opp_20b079df210ea1d3088c",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-19T04:26:12.415383+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Lowest-cost test: download the definitive tender documents from the official Chilean electricity-tender portal, build a two-page compliance matrix and a simple storage-bid calculation workbook, then send it to 10 publicly identifiable Chilean storage/renewable developers or tender advisers asking whether one paid review would reduce submission risk. Do not claim authority to represent a bidder, submit an offer, or provide regulated engineering/legal advice. Falsify if no qualified contact confirms a specific missing deliverable or requests a paid pilot within 20 outreach attempts.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Developers and consortia that already control generation, storage or interconnection may need bid-ready documentation, dispatch/energy calculations, zone and time-block analysis, and compliance coordination before submitting. This is a procurement-enablement wedge, not evidence that an independent operator can win or resell electricity.",
+      "title": "Bid-support and compliance package for Chile’s 2026/01 regulated power-supply tender",
+      "type": "public procurement participation",
+      "unknowns": [],
+      "value_capture_mechanism": "A small operator could sell a fixed-scope tender-readiness asset—requirements matrix, data-room checklist, storage one-cycle energy model, time-block/zone bid workbook and deadline monitoring—to an existing developer, EPC, legal adviser or consortium. No buyer, fee or conversion is assumed until outreach validates demand.",
       "verified_sales": null,
       "vertical": "energy_infrastructure",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
@@ -6399,13 +6537,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-19T00:23:22.973427+00:00",
+  "generated_at": "2026-10-19T04:26:28.597575+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 48,
-  "reviewed_cards": 45,
+  "reviewed_cards": 46,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 137,
-  "watch": 89
+  "total_distinct_opportunities": 139,
+  "watch": 91
 }

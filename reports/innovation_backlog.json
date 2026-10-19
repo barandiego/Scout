@@ -376,6 +376,42 @@
       "category": "energy_infrastructure",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Lowest-cost test: download the definitive tender documents from the official Chilean electricity-tender portal, build a two-page compliance matrix and a simple storage-bid calculation workbook, then send it to 10 publicly identifiable Chilean storage/renewable developers or tender advisers asking whether one paid review would reduce submission risk. Do not claim authority to represent a bidder, submit an offer, or provide regulated engineering/legal advice. Falsify if no qualified contact confirms a specific missing deliverable or requests a paid pilot within 20 outreach attempts.",
+      "current_thesis": "Developers and consortia that already control generation, storage or interconnection may need bid-ready documentation, dispatch/energy calculations, zone and time-block analysis, and compliance coordination before submitting. This is a procurement-enablement wedge, not evidence that an independent operator can win or resell electricity.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile; SEN zones, especially Zone 2",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Bid-support and compliance package for Chile’s 2026/01 regulated power-supply tender",
+      "opportunity_id": "opp_20b079df210ea1d3088c",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
+        "Compare owned asset, installer/distributor and project-finance participation.",
+        "Verify permits and installed net payback under conservative power price scenarios."
+      ],
+      "supporting_source_urls": [
+        "https://www.licitacioneselectricas.cl/licitaciones?estado=vigentes",
+        "https://jdf.cl/en/cne-aprueba-las-bases-definitivas-de-la-licitacion-de-suministro-2026-01-y-da-inicio-formal-al-proceso/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A small operator could sell a fixed-scope tender-readiness asset—requirements matrix, data-room checklist, storage one-cycle energy model, time-block/zone bid workbook and deadline monitoring—to an existing developer, EPC, legal adviser or consortium. No buyer, fee or conversion is assumed until outreach validates demand.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "energy_infrastructure",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Target one operating commercial or utility-scale battery whose owner can lawfully provide export files. Build a spreadsheet-based reconciliation of rated capacity, measured discharge, availability, round-trip losses and dispatch events for one month. Offer the first analysis as a narrowly scoped paid diagnostic or as a no-cost sample only when access is already authorized. Lowest-cost falsification: obtain one anonymized dataset from an operator or public filing and determine whether the required fields are present and whether discrepancies can be tied to an economically relevant issue; stop if data are inaccessible or findings cannot affect maintenance, settlement or warranty decisions.",
       "current_thesis": "As projects shift from simple backup toward energy shifting and grid services, owners need evidence that installed capacity, state of charge, availability and dispatch performance match contracted or market requirements. A narrow independent wedge is third-party data reconciliation and monthly performance verification using inverter, EMS, meter and market-settlement exports; it is not battery ownership or speculative arbitrage.",
       "founder_hours_initial_unverified_estimate": "",
@@ -1062,6 +1098,46 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Build or acquire permitting-data, environmental-review, interconnection, compliance, and project-development capabilities in regions with data-center or industrial load growth and transmission constraints.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "general",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Apply only through the official Outlier pages, complete the profile and skills assessment, and record whether Chile eligibility, displayed rate, payout method and task access are actually offered. Test viability after onboarding by accepting only work whose displayed terms and payment conditions are clear. Falsify if the application is closed, Chile is removed, identity/payment verification fails, or no paid task becomes available after qualification. Treat the listed USD 7.50/hour as an advertised average for a specified writing project, not guaranteed income.",
+      "current_thesis": "This is a currently accessible application route for possible freelance income, but it is not guaranteed work: acceptance, project qualification, available tasks, actual rate and payment eligibility remain conditional.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile; remote",
+      "hypothesis_evaluation_questions": [
+        "Whether the cited application was still accepting new Chilean applicants on October 19, 2026, beyond being crawlable.",
+        "Whether a Chile-resident applicant would receive the USD 7.50, USD 10, or another rate.",
+        "Acceptance and qualification rates for Chilean applicants.",
+        "Expected paid task volume, project duration, and continuity after onboarding.",
+        "Whether onboarding, assessments, retraining, audits, rejected work, or platform downtime are paid.",
+        "Effective hourly earnings after task-time limits, unpaid work, taxes, transfer fees, and currency conversion.",
+        "Whether PayPal, AirTM, or ACH is actually available and practical for the specific Chilean applicant."
+      ],
+      "investment_authorized": false,
+      "name": "Remote Spanish-language AI evaluation and writing applications open to Chile residents",
+      "opportunity_id": "opp_b835724445c10f768057",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Name a specific payer, customer job and credible reason existing alternatives fail.",
+        "Choose a low-cost differentiation wedge (availability, price, experience, distribution or technology).",
+        "Test channel, willingness to pay, ownership and contribution margin before building."
+      ],
+      "supporting_source_urls": [
+        "https://app.outlier.ai/opportunities/4522871005",
+        "https://outlier.ai/faq"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "The economic mechanism is direct task compensation from Outlier after selection and completed work. No application fee or deposit is indicated in the consulted pages; payout methods listed by Outlier include PayPal and AirTM, with ACH referenced in its FAQ.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -3406,7 +3482,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-19T00:23:23.021399+00:00",
+  "generated_at": "2026-10-19T04:26:28.680563+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

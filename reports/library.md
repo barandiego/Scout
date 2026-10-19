@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-19T00:23:22.973427+00:00
+Generated: 2026-10-19T04:26:28.597575+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 89 (0 HQ survivors, 89 watches)
+- Active research: 91 (0 HQ survivors, 91 watches)
 - Rejected opportunities excluded: 48
-- Critic-and-judge reviewed: 45
+- Critic-and-judge reviewed: 46
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -433,6 +433,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/80420/000008042026000063/ex991-powlq2xfy2026earning.htm; https://www.sec.gov/Archives/edgar/data/2110029/000119312526249668/d12401ds1a.htm
 
+### Remote Spanish-language AI evaluation and writing applications open to Chile residents [opp_b835724445c10f768057]
+- Status: WATCH_REQUIRES_VALIDATION | general | Chile; remote
+- Thesis: This is a currently accessible application route for possible freelance income, but it is not guaranteed work: acceptance, project qualification, available tasks, actual rate and payment eligibility remain conditional.
+- Value capture: The economic mechanism is direct task compensation from Outlier after selection and completed work. No application fee or deposit is indicated in the consulted pages; payout methods listed by Outlier include PayPal and AirTM, with ACH referenced in its FAQ.
+- Participation hypothesis: Apply only through the official Outlier pages, complete the profile and skills assessment, and record whether Chile eligibility, displayed rate, payout method and task access are actually offered. Test viability after onboarding by accepting only work whose displayed terms and payment conditions are clear. Falsify if the application is closed, Chile is removed, identity/payment verification fails, or no paid task becomes available after qualification. Treat the listed USD 7.50/hour as an advertised average for a specified writing project, not g
+- Critic/judge: The premise is supported by first-party Outlier application and FAQ pages, with a clear conditional participation path: a Chile resident can apply, verify identity, complete assessments, qualify for a project, and receive task-based contractor compensation. Outlier is a specific payer and the value-capture mechanism is direct. However, this is not yet HQ-worthy as a dependable income vertical or differentiated business wedge: rates are
+- Next evidence gaps: Whether the cited application was still accepting new Chilean applicants on October 19, 2026, beyond being crawlable.; Whether a Chile-resident applicant would receive the USD 7.50, USD 10, or another rate.; Acceptance and qualification rates for Chilean applicants.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://app.outlier.ai/opportunities/4522871005; https://outlier.ai/faq
+
 ### SFA implementation moved from rulemaking toward interoperability testing [opp_5f052d87513e10ac27fc]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: The near-term bottleneck is shifting from legal authorization to implementation capacity: consent management, API interoperability, security testing, participant-directory integration, and compliance tooling. This lowers uncertainty for firms that can build infrastructure before mandatory participation begins.
@@ -592,6 +602,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.eia.gov/todayinenergy/detail.php?id=67925; https://www.ferc.gov/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.ferc.gov%2Fsites%2Fdefault%2Ffiles%2F2025-05%2FTX25-4-000.pdf
+
+### Bid-support and compliance package for Chile’s 2026/01 regulated power-supply tender [opp_20b079df210ea1d3088c]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile; SEN zones, especially Zone 2
+- Thesis: Developers and consortia that already control generation, storage or interconnection may need bid-ready documentation, dispatch/energy calculations, zone and time-block analysis, and compliance coordination before submitting. This is a procurement-enablement wedge, not evidence that an independent operator can win or resell electricity.
+- Value capture: A small operator could sell a fixed-scope tender-readiness asset—requirements matrix, data-room checklist, storage one-cycle energy model, time-block/zone bid workbook and deadline monitoring—to an existing developer, EPC, legal adviser or consortium. No buyer, fee or conversion is assumed until outreach validates demand.
+- Participation hypothesis: Lowest-cost test: download the definitive tender documents from the official Chilean electricity-tender portal, build a two-page compliance matrix and a simple storage-bid calculation workbook, then send it to 10 publicly identifiable Chilean storage/renewable developers or tender advisers asking whether one paid review would reduce submission risk. Do not claim authority to represent a bidder, submit an offer, or provide regulated engineering/legal advice. Falsify if no qualified contact confirms a specific missing deliverable or requests a pa
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.licitacioneselectricas.cl/licitaciones?estado=vigentes; https://jdf.cl/en/cne-aprueba-las-bases-definitivas-de-la-licitacion-de-suministro-2026-01-y-da-inicio-formal-al-proceso/
 
 ### Chile beauty replenishment and gifting bundles around Natura’s new Falabella channel [opp_3b6c4274052085a9b5b0]
 - Status: WATCH_REQUIRES_VALIDATION | ecommerce_niches | Chile

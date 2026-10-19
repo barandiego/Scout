@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 89
+Candidates: 91
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -123,6 +123,18 @@ Candidates: 89
 - Critical gaps: Whether the cited January 1, 2026 AFCI requirement applies to the exact project classes, inverter configurations, and connection pathways targeted by the product, rather than only specified cases or alternatives.; Whether SEC or distributors accept the proposed equipment/documentation combinations in practice and what causes actual TE4 or related filing rejections.; Number of Chilean distributed BESS projects currently being designed, installed, or submitted through the relevant process.
 - Possible initial budget:
 - Source URLs: https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/; https://www.sec.cl/gda/; https://www.sec.cl/normas-tecnicas-electricas/
+
+## Bid-support and compliance package for Chile’s 2026/01 regulated power-supply tender
+- Status: watch | energy_infrastructure
+- Current idea: Developers and consortia that already control generation, storage or interconnection may need bid-ready documentation, dispatch/energy calculations, zone and time-block analysis, and compliance coordination before submitting. This is a procurement-enablement wedge, not evidence that an independent operator can win or resell electricity.
+- Potential economic capture: A small operator could sell a fixed-scope tender-readiness asset—requirements matrix, data-room checklist, storage one-cycle energy model, time-block/zone bid workbook and deadline monitoring—to an existing developer, EPC, legal adviser or consortium. No buyer, fee or conversion is assumed until outreach validates demand.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.licitacioneselectricas.cl/licitaciones?estado=vigentes; https://jdf.cl/en/cne-aprueba-las-bases-definitivas-de-la-licitacion-de-suministro-2026-01-y-da-inicio-formal-al-proceso/
 
 ## Commercial battery dispatch and performance verification for four-hour storage projects
 - Status: watch | energy_infrastructure
@@ -339,6 +351,18 @@ Candidates: 89
 - Critical gaps: Which specific customer segment will pay: utilities, developers, large loads, engineering firms, regulators, or investors?; Whether customers will pay for software or prefer incumbent engineering, environmental, legal, and owner-engineer providers.; Actual addressable spending on permitting analytics and documentation compared with total transmission and generation capex.
 - Possible initial budget:
 - Source URLs: https://www.energy.gov/oe/articles/does-office-electricity-publishes-2026-draft-national-transmission-needs-study?trk=public_post_comment-text; https://www.energy.gov/cmei/water/articles/does-hydropower-and-hydrokinetic-office-announces-funding-national-laboratory
+
+## Remote Spanish-language AI evaluation and writing applications open to Chile residents
+- Status: watch | general
+- Current idea: This is a currently accessible application route for possible freelance income, but it is not guaranteed work: acceptance, project qualification, available tasks, actual rate and payment eligibility remain conditional.
+- Potential economic capture: The economic mechanism is direct task compensation from Outlier after selection and completed work. No application fee or deposit is indicated in the consulted pages; payout methods listed by Outlier include PayPal and AirTM, with ACH referenced in its FAQ.
+- **Research routes to test (NOT validated claims):**
+  - Name a specific payer, customer job and credible reason existing alternatives fail.
+  - Choose a low-cost differentiation wedge (availability, price, experience, distribution or technology).
+  - Test channel, willingness to pay, ownership and contribution margin before building.
+- Critical gaps: Whether the cited application was still accepting new Chilean applicants on October 19, 2026, beyond being crawlable.; Whether a Chile-resident applicant would receive the USD 7.50, USD 10, or another rate.; Acceptance and qualification rates for Chilean applicants.
+- Possible initial budget:
+- Source URLs: https://app.outlier.ai/opportunities/4522871005; https://outlier.ai/faq
 
 ## Midstream critical-minerals processing is becoming a strategic bottleneck
 - Status: watch | geographic_arbitrage

@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-10-19T00:23:22.973427+00:00",
+  "generated_at": "2026-10-19T04:26:28.597575+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -13,7 +13,7 @@
     },
     {
       "opportunity_id": "opp_7ea6a495427da87c8c5c",
-      "other_cards_in_theme": 12,
+      "other_cards_in_theme": 13,
       "reviewed": true,
       "status": "watch",
       "theme": "energy_infrastructure",
@@ -104,14 +104,14 @@
   "high_concentration": [
     {
       "cards": 37,
-      "share": 0.416,
+      "share": 0.407,
       "theme": "chile_open_finance"
     }
   ],
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 35,
+  "theme_count": 36,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -172,9 +172,10 @@
         "opp_85d154e0b319e93cb301",
         "opp_a78174a5084ecf85fdd7",
         "opp_a71e28685127733c914e",
-        "opp_85c23886f73fd6c4dff5"
+        "opp_85c23886f73fd6c4dff5",
+        "opp_20b079df210ea1d3088c"
       ],
-      "count": 13,
+      "count": 14,
       "representative_id": "opp_7ea6a495427da87c8c5c",
       "reviewed_count": 8,
       "theme": "energy_infrastructure"
@@ -331,6 +332,15 @@
     },
     {
       "all_opportunity_ids": [
+        "opp_b835724445c10f768057"
+      ],
+      "count": 1,
+      "representative_id": "opp_b835724445c10f768057",
+      "reviewed_count": 1,
+      "theme": "general:remote_spanish_language"
+    },
+    {
+      "all_opportunity_ids": [
         "opp_71d0c9b815295110f006"
       ],
       "count": 1,
@@ -483,6 +493,6 @@
       "theme": "robotics_agritech:small_hydroponic_propagation"
     }
   ],
-  "total_original_cards": 89,
+  "total_original_cards": 91,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }
