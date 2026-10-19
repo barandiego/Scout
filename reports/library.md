@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-19T12:29:20.182258+00:00
+Generated: 2026-10-19T16:25:57.348851+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 93 (0 HQ survivors, 93 watches)
-- Rejected opportunities excluded: 49
+- Active research: 92 (0 HQ survivors, 92 watches)
+- Rejected opportunities excluded: 50
 - Critic-and-judge reviewed: 47
 - Autonomous execution authorization: 0
 
@@ -612,16 +612,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.eia.gov/todayinenergy/detail.php?id=67925; https://www.eia.gov/todayinenergy/detail.php?id=66164
-
-### Battery-storage interconnection and operating-data screening for project developers [opp_266f64450c92dcaf56b6]
-- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States, with an initial focus on California and Texas
-- Thesis: The investable or entrepreneurial wedge is not generic battery consulting; it is a small, auditable screening product that identifies projects with visible capacity, queue, transmission, permitting, or operating-data events that may change development priority or transaction timing.
-- Value capture: Produce a paid recurring spreadsheet/API or diligence packet for storage developers, infrastructure investors, brokers, or lenders: project identifier, interconnection status, node or balancing-area data, announced capacity, milestone dates, and links to primary filings. Revenue would come from subscriptions, one-off diligence packets, or licensed data—not from assuming project ownership or guaranteed savings.
-- Participation hypothesis: Start with one market and publicly available filings/data. Create a 20-project sample with source links and a clear update timestamp, then offer it to identifiable storage developers, project-finance professionals, or energy brokers. Lowest-cost falsification: send the sample to 15 relevant firms and measure whether at least one requests a paid refresh, custom field, or diligence report; if not, stop rather than infer demand. No claim is made that a buyer, subscription price, or data-access permission already exists.
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.eia.gov/todayinenergy/detail.php?id=67925; https://www.ferc.gov/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.ferc.gov%2Fsites%2Fdefault%2Ffiles%2F2025-05%2FTX25-4-000.pdf
 
 ### Bid-support and compliance package for Chile’s 2026/01 regulated power-supply tender [opp_20b079df210ea1d3088c]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile; SEN zones, especially Zone 2

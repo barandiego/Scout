@@ -1,15 +1,15 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-19T12:29:19.832345+00:00
+Generated: 2026-10-19T16:25:56.944492+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['ai_open_source', 'public_markets', 'physical_commerce']
-- raw_candidates: 1
-- parseable_candidates: 1
-- normalized_candidates: 1
+- lenses: ['regulation_infrastructure', 'robotics_automation', 'energy_industrial']
+- raw_candidates: 0
+- parseable_candidates: 0
+- normalized_candidates: 0
 - normalization_rejected: 0
-- grounded_sources: 3
+- grounded_sources: 0
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 0
@@ -20,9 +20,9 @@ Generated: 2026-10-19T12:29:19.832345+00:00
 - rejected: 1
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.04018695
+- cost_usd: 0.0274525
 - cost_uncertain: False
-- budget_remaining_usd: 0.03981305
+- budget_remaining_usd: 0.0525475
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -56,8 +56,8 @@ No survivors. Scout does not manufacture a daily winner.
 ```json
 {
   "notes": [
-    "deep_review_lane=fresh",
-    "research_queue_unreviewed=41"
+    "deep_review_lane=backlog",
+    "research_queue_unreviewed=40"
   ],
   "stages": [
     {
@@ -65,149 +65,118 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 52,
+      "grounded_source_count": 17,
       "search_source_urls": [
-        "https://aprea.gcs-web.com/news-releases/news-release-details/aprea-therapeutics-announces-oversubscribed-30-million-private",
-        "https://business.woonsocketcall.com/woonsocketcall/quote/historical?Symbol=NQ%3AAPRE",
-        "https://en.wikipedia.org/wiki/Falabella_%28retail_store%29",
-        "https://en.wikipedia.org/wiki/S.A.C.I._Falabella",
-        "https://es.wikipedia.org/wiki/Falabella",
-        "https://es.wikipedia.org/wiki/Grupo_Falabella",
-        "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/",
-        "https://falabellaretail.falabella.com/tiendas/",
-        "https://falabellaretail.falabella.com/wp-content/uploads/2025/05/OR_REPORTE_FALABELLA_2024_v3.pdf",
-        "https://finance.yahoo.com/sectors/healthcare/articles/aprea-therapeutics-announces-oversubscribed-30-120100832.html",
-        "https://github.com/pincerhq/pincer",
-        "https://github.com/use-ash/apex",
-        "https://github.com/usepulso/pulso",
-        "https://github.com/wuwei-io/wuwei",
-        "https://investors.grupofalabella.com/app/uploads/sites/2/2026/03/Annual-Report-2025.pdf",
-        "https://ir.aprea.com/news-and-events/press-releases?page=4",
-        "https://ir.aprea.com/news-and-events/press-releases?page=5",
-        "https://ir.aprea.com/news-releases/news-release-details/aprea-therapeutics-announces-56-million-private-placement-priced",
-        "https://ir.aprea.com/news-releases/news-release-details/aprea-therapeutics-announces-closing-oversubscribed-30-million/",
-        "https://ir.aprea.com/news-releases/news-release-details/aprea-therapeutics-reports-first-quarter-2026-financial-results/",
-        "https://ir.aprea.com/node/8646/pdf",
-        "https://ir.aprea.com/node/9881/pdf",
-        "https://ir.aprea.com/static-files/aa8061a9-4921-487c-8860-892e24461dfe",
-        "https://markets.financialcontent.com/observernewsonline/quote/historical?Symbol=NQ%3AAPRE",
-        "https://stockscan.io/stocks/APRE/price-history",
-        "https://www.falabella.com/falabella-cl/brand/NATURA",
-        "https://www.falabella.com/falabella-cl/brand/NATURA?sid=CP_LU1_PER_3053",
-        "https://www.falabella.com/falabella-cl/seller/Natura",
-        "https://www.natura.cl/blog/mas-natura/guia-de-compra-online",
-        "https://www.natura.cl/c/home",
-        "https://www.otcmarkets.com/filing/conv_pdf?guid=5xj-kFHS952tV3h&id=19437642",
-        "https://www.quiverquant.com/stock/APRE/historical-prices/",
-        "https://www.reddit.com/r/10xPennyStocks/comments/1hdebap",
-        "https://www.reddit.com/r/Biotechplays/comments/1hlglvr",
-        "https://www.reddit.com/r/Canadapennystocks/comments/1hlg82n",
-        "https://www.reddit.com/r/WallStreetbetsELITE/comments/1hdeayz",
-        "https://www.reddit.com/r/Wealthsimple_Penny/comments/1hh5327",
-        "https://www.reddit.com/r/biotech_stocks/comments/1hlgm1b",
-        "https://www.reddit.com/r/chileIT/comments/1n5q0pa/duda_de_totalmente_de_curioso_qu%C3%A9_pasar%C3%ADa_si/",
-        "https://www.reddit.com/r/edgar_news/comments/1qqltup/aprea_therapeutics_inc/",
-        "https://www.reddit.com/r/edgar_news/comments/1rv9lbt/aprea_therapeutics_inc/",
-        "https://www.reddit.com/r/edgar_news/comments/1s844ck/aprea_therapeutics_inc/",
-        "https://www.reddit.com/r/edgar_news/comments/1tbwys0/aprea_therapeutics_inc/",
-        "https://www.reddit.com/r/nasdaq/comments/1pptna9/aprea_therapeutics_ceo_issues_letter_to/",
-        "https://www.reddit.com/r/smallstreetbets/comments/1hnnod7",
-        "https://www.sec.gov/Archives/edgar/data/1446275/000144627526000011/offeringmemoformc.pdf",
-        "https://www.sec.gov/Archives/edgar/data/1516551/000162828026025370/skye-20251231x10k1.pdf",
-        "https://www.sec.gov/Archives/edgar/data/1781983/000110465926036821/tm2610566d1_8k.htm",
-        "https://www.sec.gov/Archives/edgar/data/1781983/000110465926059734/apre-20260513xex99d1.htm",
-        "https://www.sec.gov/Archives/edgar/data/1781983/000155837025005148/apre-20241231xars.pdf",
-        "https://www.sec.gov/Archives/edgar/data/1823652/000155485526000571/ARS.pdf",
-        "https://www.sec.gov/comments/SR-NASDAQ-2026-004/srnasdaq2026004-766947-2353974.pdf"
+        "https://github.com/Chestnut-Robotics/aero-hand-open/blob/main/README.md",
+        "https://github.com/Seeed-Projects/reBot-DevArm/",
+        "https://github.com/Source-robotics",
+        "https://github.com/acutronicrobotics/MARA",
+        "https://github.com/adafruit/awesome-open-source-robotic-arms",
+        "https://github.com/jackvial/assembler0",
+        "https://github.com/liyiteng/AM-ARM/blob/main/README.md",
+        "https://github.com/personalrobotics/ssik/issues/292",
+        "https://www.energy.gov/articles/energy-department-announces-500-million-strengthen-domestic-critical-materials-processing",
+        "https://www.energy.gov/articles/energy-department-announces-partnership-expand-reliable-affordable-energy-access-and-power",
+        "https://www.energy.gov/documents/science-technology-st-risk-matrix-2026",
+        "https://www.energy.gov/nepa/articles/cx-270931-deep-integration-bess-existing-large-commercial-building-automation-system",
+        "https://www.energy.gov/oe/articles/35m-available-strengthen-microgrids-remote-regions",
+        "https://www.energy.gov/sites/default/files/2024-03/doe-fy-2025-budget-vol-2-v3.pdf",
+        "https://www.energy.gov/sites/default/files/2024-10/BABA%20WAV%202025-01%20Proposed%20Project%20Specific%20Nonavailability%20Combined%20BESS%20Waiver%20-%204%20projects%2010-8.pdf",
+        "https://www.energy.gov/sites/default/files/2025-06/doe-fy-2026-vol-4-oe.pdf",
+        "https://www.energy.gov/sites/default/files/2025-08/doe-fy-2026-vol-4.pdf"
       ]
     },
     {
-      "index": 0,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 3,
-      "retry_justified": false
-    },
-    {
       "stage": "critic",
-      "candidate_id": "opp_10207774ea4218476603",
+      "candidate_id": "opp_266f64450c92dcaf56b6",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 29,
+      "grounded_source_count": 46,
       "search_source_urls": [
-        "https://ir.aprea.com/node/9881/pdf",
-        "https://ir.aprea.com/node/9881/pdf",
-        "https://www.govinfo.gov/content/pkg/ECONI-2026-04/pdf/ECONI-2026-04.pdf",
-        "https://www.quiverquant.com/stock/APRE/historical-prices/",
-        "https://www.reddit.com/r/Wiseek/comments/1st0feb/apre_aprea_therapeutics_registers_resale_of_743m/",
-        "https://www.reddit.com/r/WiseekAI/comments/1qqm7cj/apre_aprea_therapeutics_secures_56m_private/",
-        "https://www.reddit.com/r/edgar_news/comments/1pijywx/aprea_therapeutics_inc/",
-        "https://www.reddit.com/r/edgar_news/comments/1q8l0qd/aprea_therapeutics_inc/",
-        "https://www.reddit.com/r/edgar_news/comments/1ql58mh/aprea_therapeutics_inc/",
-        "https://www.reddit.com/r/edgar_news/comments/1qqltup/aprea_therapeutics_inc/",
-        "https://www.reddit.com/r/edgar_news/comments/1s844ck/aprea_therapeutics_inc/",
-        "https://www.sec.gov/Archives/edgar/data/1095981/000119312526134670/2025_ars.pdf",
-        "https://www.sec.gov/Archives/edgar/data/1781983/000110465926002490/apre-20260109xex99d1.htm",
-        "https://www.sec.gov/Archives/edgar/data/1781983/000110465926007988/tm264417d1_8k.htm",
-        "https://www.sec.gov/Archives/edgar/data/1781983/000110465926028068/apre-20251231x10k.htm",
-        "https://www.sec.gov/Archives/edgar/data/1781983/000110465926029519/tm268966d1_s3a.htm",
-        "https://www.sec.gov/Archives/edgar/data/1781983/000110465926032181/0001104659-26-032181-index.htm",
-        "https://www.sec.gov/Archives/edgar/data/1781983/000110465926032181/tm269283-1_424b3.htm",
-        "https://www.sec.gov/Archives/edgar/data/1781983/000110465926032181/tm269283-1_424b3.htm",
-        "https://www.sec.gov/Archives/edgar/data/1781983/000110465926052063/apre-20251231xars.pdf",
-        "https://www.sec.gov/Archives/edgar/data/1781983/000110465926059743/",
-        "https://www.sec.gov/Archives/edgar/data/1781983/000110465926059743/apre-20260331x10q.htm",
-        "https://www.sec.gov/Archives/edgar/data/1781983/000110465926059743/apre-20260331x10q.htm",
-        "https://www.sec.gov/Archives/edgar/data/1781983/000110465926062631/tm2614801d1_424b7.htm",
-        "https://www.sec.gov/Archives/edgar/data/1781983/000110465926062631/tm2614801d1_424b7.htm",
-        "https://www.sec.gov/Archives/edgar/data/1781983/000110465926094544/",
-        "https://www.sec.gov/Archives/edgar/data/1781983/000110465926094544/apre-20260630x10q.htm",
-        "https://www.sec.gov/Archives/edgar/data/1781983/000155837023011787/apre-20221231xars.pdf",
-        "https://www.sec.gov/Archives/edgar/data/1974640/000119312526177361/apge_ars_2026.pdf"
+        "https://apnews.com/article/5061f62a504297b6c384ee513ac47928",
+        "https://arxiv.org/abs/2101.05165",
+        "https://arxiv.org/abs/2307.16379",
+        "https://arxiv.org/abs/2502.15958",
+        "https://arxiv.org/abs/2609.10455",
+        "https://cleanpower.org/wp-content/uploads/2024/03/ACP-2023-Annual-Report-FINAL-3-6-24-Public-Version.pdf",
+        "https://en.wikipedia.org/wiki/Electric_Reliability_Council_of_Texas",
+        "https://en.wikipedia.org/wiki/EnergySage",
+        "https://en.wikipedia.org/wiki/Enfinity_Global_%28IPP%29",
+        "https://en.wikipedia.org/wiki/LS_Power",
+        "https://en.wikipedia.org/wiki/Open_energy_system_databases",
+        "https://en.wikipedia.org/wiki/PJM_Interconnection",
+        "https://fieldprospects.com/",
+        "https://gridglasses.com/data-coverage",
+        "https://gridglasses.com/developers",
+        "https://gridintelhq.com/",
+        "https://gridintelhq.com/compare/best-interconnection-queue-tools",
+        "https://gridpressure.com/",
+        "https://www.axios.com/local/san-antonio/2026/08/03/greg-abbott-halts-texas-data-centers-electric-grid",
+        "https://www.axios.com/newsletters/axios-san-antonio-99e13260-325b-11ef-9678-39ef204609d2",
+        "https://www.axios.com/newsletters/axios-san-antonio-bdd46110-569a-11f0-be3c-7b96d2ee1cfc",
+        "https://www.axonnpower.com/",
+        "https://www.battery.com/wp-content/uploads/2026/01/Battery-State-of-AI-Report-2025.pdf",
+        "https://www.caiso.com/documents/publicqueuereport.pdf",
+        "https://www.eia.gov/TodayinEnergy/detail.php?id=67925",
+        "https://www.energy.gov/media/328822",
+        "https://www.ercot.com/files/docs/2024/02/29/ERCOT-Monthly-February-2024.pdf",
+        "https://www.ercot.com/files/docs/2026/04/01/ERCOT_LargeLoad_Update_April2026_B-C_-Hearing.pdf",
+        "https://www.ercotqueue.com/",
+        "https://www.gridgatellc.com/",
+        "https://www.gridintelhq.com/faq",
+        "https://www.prospectorlabs.io/",
+        "https://www.reddit.com/r/AMD_Stock/comments/1wwotmp/texas_slice_of_the_dc_buildout/",
+        "https://www.reddit.com/r/CIFR_STOCK/comments/1whgmu4/update_on_ercot/",
+        "https://www.reddit.com/r/EnergyStorage/comments/15l5fvc",
+        "https://www.reddit.com/r/SOSStock/comments/1l4yifi",
+        "https://www.reddit.com/r/datacenter/comments/1w25yqu/texas_just_paused_new_data_center_grid/",
+        "https://www.reddit.com/r/energy/comments/1c0y77a/new_2024_queued_up_report_from_lawrence_berkeley/",
+        "https://www.reddit.com/r/energy/comments/1r9l7s2/how_solar_and_batteries_help_keep_lights_on/",
+        "https://www.reddit.com/r/energy/comments/1vfh7k0/texas_froze_data_centre_interconnections_over_a/",
+        "https://www.reddit.com/r/energy/comments/uw2etf",
+        "https://www.reddit.com/r/it/comments/1w65kic/texas_just_froze_new_data_centre_grid_connections/",
+        "https://www.reddit.com/r/texas/comments/1ef43ye",
+        "https://www.reddit.com/r/texas/comments/skzfvl",
+        "https://www.techradar.com/pro/ai-powered-software-could-recover-300gw-of-hidden-capacity-for-the-us-power-grid-enough-to-power-thousands-of-ai-data-centers",
+        "https://www.techradar.com/pro/the-storm-is-here-why-you-and-your-neighbors-may-be-paying-multibillion-dollar-bill-for-ai-data-centers-right-now-but-that-may-not-last-long-as-more-us-states-join-revolt-against-unjust-socialist-approach-to-electricity-bills"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_10207774ea4218476603",
-      "coercions": []
+      "candidate_id": "opp_266f64450c92dcaf56b6",
+      "coercions": [
+        "contrary_evidence"
+      ]
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 535,
-      "cache_write_tokens": 5538,
+      "reasoning_tokens": 215,
+      "cache_write_tokens": 5457,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0257759,
+      "cumulative_cost_usd": 0.01247485,
       "model": "gpt-5.6-luna",
-      "input_tokens": 20373,
+      "input_tokens": 9654,
       "cached_tokens": 0,
-      "output_tokens": 1187,
-      "web_search_calls": 2,
-      "estimated_cost_usd": 0.0257759
+      "output_tokens": 226,
+      "web_search_calls": 1,
+      "estimated_cost_usd": 0.01247485
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 142,
-      "cache_write_tokens": 5469,
+      "reasoning_tokens": 271,
+      "cache_write_tokens": 5429,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.04018695,
+      "cumulative_cost_usd": 0.0274525,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13848,
+      "input_tokens": 14087,
       "cached_tokens": 0,
-      "output_tokens": 1140,
+      "output_tokens": 1574,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01441105
+      "estimated_cost_usd": 0.01497765
     }
   ]
 }

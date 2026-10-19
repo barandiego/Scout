@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-10-19T12:29:20.182258+00:00",
+  "generated_at": "2026-10-19T16:25:57.348851+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -13,7 +13,7 @@
     },
     {
       "opportunity_id": "opp_7ea6a495427da87c8c5c",
-      "other_cards_in_theme": 13,
+      "other_cards_in_theme": 12,
       "reviewed": true,
       "status": "watch",
       "theme": "energy_infrastructure",
@@ -104,7 +104,7 @@
   "high_concentration": [
     {
       "cards": 38,
-      "share": 0.409,
+      "share": 0.413,
       "theme": "chile_open_finance"
     }
   ],
@@ -169,14 +169,13 @@
         "opp_e93b820a7df3df5840b0",
         "opp_5c0fa78efa972e7da968",
         "opp_c1584a90439dd95ddbd7",
-        "opp_266f64450c92dcaf56b6",
         "opp_85d154e0b319e93cb301",
         "opp_a78174a5084ecf85fdd7",
         "opp_a71e28685127733c914e",
         "opp_85c23886f73fd6c4dff5",
         "opp_20b079df210ea1d3088c"
       ],
-      "count": 14,
+      "count": 13,
       "representative_id": "opp_7ea6a495427da87c8c5c",
       "reviewed_count": 8,
       "theme": "energy_infrastructure"
@@ -503,6 +502,6 @@
       "theme": "robotics_agritech:small_hydroponic_propagation"
     }
   ],
-  "total_original_cards": 93,
+  "total_original_cards": 92,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }

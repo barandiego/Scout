@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 93
+Candidates: 92
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -111,18 +111,6 @@ Candidates: 93
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.eia.gov/todayinenergy/detail.php?id=67925; https://www.eia.gov/todayinenergy/detail.php?id=66164
-
-## Battery-storage interconnection and operating-data screening for project developers
-- Status: watch | energy_infrastructure
-- Current idea: The investable or entrepreneurial wedge is not generic battery consulting; it is a small, auditable screening product that identifies projects with visible capacity, queue, transmission, permitting, or operating-data events that may change development priority or transaction timing.
-- Potential economic capture: Produce a paid recurring spreadsheet/API or diligence packet for storage developers, infrastructure investors, brokers, or lenders: project identifier, interconnection status, node or balancing-area data, announced capacity, milestone dates, and links to primary filings. Revenue would come from subscriptions, one-off diligence packets, or licensed data—not from assuming project ownership or guaranteed savings.
-- **Research routes to test (NOT validated claims):**
-  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
-  - Compare owned asset, installer/distributor and project-finance participation.
-  - Verify permits and installed net payback under conservative power price scenarios.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://www.eia.gov/todayinenergy/detail.php?id=67925; https://www.ferc.gov/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.ferc.gov%2Fsites%2Fdefault%2Ffiles%2F2025-05%2FTX25-4-000.pdf
 
 ## BESS and inverter compliance pre-check for Chilean distributed-energy projects
 - Status: watch | energy_infrastructure

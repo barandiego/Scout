@@ -4902,60 +4902,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-15T12:27:09.529656+00:00",
-      "discovery_lens": "energy_industrial",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "EIA reports 43.6 GW of operational U.S. utility-scale battery storage at the end of 2025, 8.3 GW added in the first half of 2026, and 54 GW planned over the next two and a half years.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Battery storage capacity averaged 70% growth over the last three years",
-          "url": "https://www.eia.gov/todayinenergy/detail.php?id=67925"
-        },
-        {
-          "claim": "FERC granted an order directing transmission service for Compass Energy's 250 MW battery energy-storage facility, demonstrating a concrete regulatory and interconnection catalyst.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Compass Energy Storage LLC, FERC Order 191 FERC ¶ 61,115",
-          "url": "https://www.ferc.gov/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.ferc.gov%2Fsites%2Fdefault%2Ffiles%2F2025-05%2FTX25-4-000.pdf"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.89,
-      "falsification_conditions": [],
-      "geography": "United States, with an initial focus on California and Texas",
-      "id": "opp_266f64450c92dcaf56b6",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-15T12:27:09.553235+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Start with one market and publicly available filings/data. Create a 20-project sample with source links and a clear update timestamp, then offer it to identifiable storage developers, project-finance professionals, or energy brokers. Lowest-cost falsification: send the sample to 15 relevant firms and measure whether at least one requests a paid refresh, custom field, or diligence report; if not, stop rather than infer demand. No claim is made that a buyer, subscription price, or data-access permission already exists.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "The investable or entrepreneurial wedge is not generic battery consulting; it is a small, auditable screening product that identifies projects with visible capacity, queue, transmission, permitting, or operating-data events that may change development priority or transaction timing.",
-      "title": "Battery-storage interconnection and operating-data screening for project developers",
-      "type": "data_asset",
-      "unknowns": [],
-      "value_capture_mechanism": "Produce a paid recurring spreadsheet/API or diligence packet for storage developers, infrastructure investors, brokers, or lenders: project identifier, interconnection status, node or balancing-area data, announced capacity, milestone dates, and links to primary filings. Revenue would come from subscriptions, one-off diligence packets, or licensed data—not from assuming project ownership or guaranteed savings.",
-      "verified_sales": null,
-      "vertical": "energy_infrastructure",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-19T04:26:12.373053+00:00",
       "discovery_lens": "energy_localization",
       "estimated_capital": "",
@@ -6683,13 +6629,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-19T12:29:20.182258+00:00",
+  "generated_at": "2026-10-19T16:25:57.348851+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 49,
+  "rejected_excluded": 50,
   "reviewed_cards": 47,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
   "total_distinct_opportunities": 142,
-  "watch": 93
+  "watch": 92
 }

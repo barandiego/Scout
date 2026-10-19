@@ -336,42 +336,6 @@
       "category": "energy_infrastructure",
       "commercially_validated": false,
       "competition_confirmed": false,
-      "current_participation_path": "Start with one market and publicly available filings/data. Create a 20-project sample with source links and a clear update timestamp, then offer it to identifiable storage developers, project-finance professionals, or energy brokers. Lowest-cost falsification: send the sample to 15 relevant firms and measure whether at least one requests a paid refresh, custom field, or diligence report; if not, stop rather than infer demand. No claim is made that a buyer, subscription price, or data-access permission already exists.",
-      "current_thesis": "The investable or entrepreneurial wedge is not generic battery consulting; it is a small, auditable screening product that identifies projects with visible capacity, queue, transmission, permitting, or operating-data events that may change development priority or transaction timing.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "United States, with an initial focus on California and Texas",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "Battery-storage interconnection and operating-data screening for project developers",
-      "opportunity_id": "opp_266f64450c92dcaf56b6",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
-        "Compare owned asset, installer/distributor and project-finance participation.",
-        "Verify permits and installed net payback under conservative power price scenarios."
-      ],
-      "supporting_source_urls": [
-        "https://www.eia.gov/todayinenergy/detail.php?id=67925",
-        "https://www.ferc.gov/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.ferc.gov%2Fsites%2Fdefault%2Ffiles%2F2025-05%2FTX25-4-000.pdf"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "Produce a paid recurring spreadsheet/API or diligence packet for storage developers, infrastructure investors, brokers, or lenders: project identifier, interconnection status, node or balancing-area data, announced capacity, milestone dates, and links to primary filings. Revenue would come from subscriptions, one-off diligence packets, or licensed data—not from assuming project ownership or guaranteed savings.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "energy_infrastructure",
-      "commercially_validated": false,
-      "competition_confirmed": false,
       "current_participation_path": "Use the SEC's public installer and technical-documentation pages to identify 10 authorized distributed-generation installers. Send a one-page sample checklist covering RGR N°06/2024, AFCI status, equipment authorization and required filing fields. Ask whether they would pay for one review of a real but anonymized project, without promising approval. Test with one paid or explicitly unpaid pilot only after the installer confirms the scope. Falsify if installers report that they already perform the review internally, will not share a redacted equipment list, or do not value error reduction enough to accept a trial. Do not install, certify or submit electrical work without the required authorization.",
       "current_thesis": "A narrow, testable asset is a paid pre-check package for installers or project owners: collect equipment datasheets, compare the proposed battery/PCE/inverter configuration against the current SEC checklist, identify missing AFCI or documentation items, and produce a submission-ready gap list. The mechanism is avoided rework or rejected filings, not speculative battery arbitrage. The operator must avoid representing itself as an authorized electrical installer unless it actually has that authorization.",
       "founder_hours_initial_unverified_estimate": "",
@@ -3559,7 +3523,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-19T12:29:20.252387+00:00",
+  "generated_at": "2026-10-19T16:25:57.421438+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"
