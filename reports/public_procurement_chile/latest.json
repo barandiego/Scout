@@ -1,52 +1,29 @@
 {
-  "active_candidates": [
-    {
-      "available_budget_clp": 450000.0,
-      "buyer": "CENTRO DE ESTUDIOS AVANZADOS EN FRUTICULTURA CEAF",
-      "closes_at": "2026-10-22T18:01:00",
-      "code": "1538643-52-COT26",
-      "estimated_budget": 450000.0,
-      "name": "Adquisición de Insumos y Reactivos de Laboratorio para el CEAF",
-      "products": 2,
-      "region": "Región del Libertador General Bernardo O´Higgins"
-    }
-  ],
-  "active_structurally_reconstructable_count": 1,
+  "active_candidates": [],
+  "active_structurally_reconstructable_count": 0,
   "diagnostics": {
-    "api_failures": {},
-    "budget_exhausted": false,
-    "detail_attempts": 20,
-    "detail_cap_exhausted": true,
-    "details_fetched": 20,
-    "duplicate_listings": 0,
-    "invalid_listing_items": 0,
-    "malformed_details": 0,
-    "malformed_reasons": {},
-    "malformed_samples": [],
-    "pages_fetched": 1,
-    "pagination_incomplete": false,
-    "pagination_invalid": false,
-    "requests_used": 23,
+    "api_failures": {
+      "api_http_504": 1
+    },
+    "requests_used": 3,
     "transient_retries": 2
   },
-  "generated_at": "2026-10-19T09:00:07Z",
-  "inserted_history": 20,
-  "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
+  "generated_at": "2026-10-19T13:07:53Z",
+  "inserted_history": 0,
+  "note": "Transient ChileCompra/API availability failure after bounded retries. Cursor was not advanced; next scheduled run may retry safely.",
   "ok": false,
-  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
+  "outcome": "DEGRADED_TRANSIENT_API",
   "phase1": {
-    "records": 20,
-    "rejection_reasons": {
-      "no_observable_competitive_prices": 1
-    },
-    "resolved": 19,
-    "structurally_reconstructable": 19,
-    "with_observable_quote_totals": 18,
+    "records": 0,
+    "rejection_reasons": {},
+    "resolved": 0,
+    "structurally_reconstructable": 0,
+    "with_observable_quote_totals": 0,
     "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-19T09:00:07Z"
+    "changed_to": "2026-10-19T13:07:53Z"
   }
 }
