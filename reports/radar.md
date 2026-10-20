@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-20T04:57:53.614253+00:00
+Generated: 2026-10-20T09:01:29.211064+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 96
+- New this cycle: 97
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
-- Categories: agriculture 299, ai 248, commerce 32, energy 550, robotics 671
+- Feed failures (fail-open for public intake only): none
+- Categories: agriculture 301, ai 252, commerce 32, energy 547, robotics 668
 
 ## Recently encountered signals
+
+### refdr2025-droid/ECROP-fullstack
+- Source: https://github.com/refdr2025-droid/ECROP-fullstack
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### A coordinated control utilizing battery energy storage for low voltage ride-through enhancement and power quality improvement in grid-connected solar PV systems
 - Source: https://doi.org/10.1016/j.est.2026.125182
@@ -240,6 +246,18 @@ Generated: 2026-10-20T04:57:53.614253+00:00
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
+### Vaishhnavi2901/Cropvision-AI
+- Source: https://github.com/Vaishhnavi2901/Cropvision-AI
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### Kiran121005/Adaptive-Spiral-Solar-Wind-Energy-Harvesting-with-Smart-EV-Battery-Storage-and-Swapping
+- Source: https://github.com/Kiran121005/Adaptive-Spiral-Solar-Wind-Energy-Harvesting-with-Smart-EV-Battery-Storage-and-Swapping
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
 ### jacopoburiollo/megawatt
 - Source: https://github.com/jacopoburiollo/megawatt
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
@@ -442,22 +460,4 @@ Generated: 2026-10-20T04:57:53.614253+00:00
 - Source: https://doi.org/10.2147/nsa.s632332
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Codewithsempai/AgriGuard
-- Source: https://github.com/Codewithsempai/AgriGuard
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### 25A31A43G3/Quantum-Crop-ai-
-- Source: https://github.com/25A31A43G3/Quantum-Crop-ai-
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Headroom-Constrained Adaptive Power Oscillation Damping for Grid-Forming Battery Energy Storage Systems Under Modal-Estimation Uncertainty
-- Source: https://doi.org/10.3390/en19204871
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
