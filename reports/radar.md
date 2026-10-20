@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-20T13:13:01.130866+00:00
+Generated: 2026-10-20T16:59:33.764205+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 107
+- New this cycle: 109
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 305, ai 246, commerce 33, energy 545, robotics 671
+- Categories: agriculture 308, ai 238, commerce 35, energy 543, robotics 676
 
 ## Recently encountered signals
 
@@ -246,6 +246,30 @@ Generated: 2026-10-20T13:13:01.130866+00:00
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
+### hadjerk475-arch/hadjeragro_Data
+- Source: https://github.com/hadjerk475-arch/hadjeragro_Data
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### jouritr31-bot/agro-lina
+- Source: https://github.com/jouritr31-bot/agro-lina
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### alexlanni/solar-assistant-cyd
+- Source: https://github.com/alexlanni/solar-assistant-cyd
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### hadjerk475-arch/hadjeragro-Data
+- Source: https://github.com/hadjerk475-arch/hadjeragro-Data
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
 ### Vaishhnavi2901/cropvision-ai
 - Source: https://github.com/Vaishhnavi2901/cropvision-ai
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
@@ -436,28 +460,4 @@ Generated: 2026-10-20T13:13:01.130866+00:00
 - Source: https://github.com/Mahyoub88/solar-energy-systems
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### OPERATIONAL IMPACT ASSESSMENT OF ROOFTOP SOLAR PV AND BATTERY ENERGY STORAGE INTEGRATION ON A 22 KV URBAN DISTRIBUTION FEEDER IN DA NANG CITY, VIETNAM
-- Source: https://doi.org/10.30574/ijsra.2026.21.1.1903
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Reliability Analysis of a Photovoltaic System Integrated with a Battery Energy Storage System
-- Source: https://doi.org/10.2139/ssrn.7616077
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Design and Thermal Performance Analysis of a Novel Parallel-Serpentine Composite Channel Cold Plate for Energy Storage Battery
-- Source: https://doi.org/10.3233/atde261231
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### kerubopurity039-sys/Agrivoltaic
-- Source: https://github.com/kerubopurity039-sys/Agrivoltaic
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
