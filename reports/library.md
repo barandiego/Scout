@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-20T16:26:35.816726+00:00
+Generated: 2026-10-20T20:22:08.307244+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 100 (0 HQ survivors, 100 watches)
+- Active research: 103 (0 HQ survivors, 103 watches)
 - Rejected opportunities excluded: 56
-- Critic-and-judge reviewed: 49
+- Critic-and-judge reviewed: 50
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -152,6 +152,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Whether ATENA is sufficiently complete, reliable, and easy to use for real production-readiness testing.; Whether CMF or another authority will require independent conformance evidence, certification, audit trails, or third-party remediation.; Number of entities in each participant category that will actually need external help rather than internal engineering.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html
+
+### Chile Open Finance conformance and test-data pack [opp_71fab3dd10745ab77ebe]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: The regulatory timetable creates a bounded preparation window for reusable implementation artifacts: endpoint checklists, schema validators, consent-flow test cases, error-case fixtures, and conformance-report templates. This is an executable tooling wedge, not evidence of a guaranteed consulting market.
+- Value capture: Offer a self-contained validation package or annual update pack for regulated or participating entities preparing integrations. Do not claim regulatory approval, certification, or permission to access live financial data.
+- Participation hypothesis: Use only the public CMF technical annex and developer materials; build a local validator against publicly documented schemas and synthetic data. Distribute through a public repository, targeted technical demonstrations, and direct outreach to entities that publicly identify themselves as fintech or financial-service participants. Lowest-cost falsification: implement five high-friction schema and consent tests, show them to ten Chilean fintech or banking-technology contacts, and seek one paid pilot or written request for a specific missing artif
+- Critic/judge: The regulatory premise is adequately grounded by CMF primary sources: a technical annex/developer portal exists and the operating timetable was postponed to July 2027. The proposed asset can be built from public documentation and synthetic data, so it does not inherently require unavailable live financial-data access or claim a regulated approval role. However, HQ-worthiness is not established because the same public materials, CMF sand
+- Next evidence gaps: Whether CMF schemas, sandbox behavior, certification tests, error semantics, and consent requirements are complete and stable enough to reproduce locally.; Whether regulated entities are authorized and willing to use third-party validators or must rely on approved/internal controls.; Number of entities required to participate, their implementation budgets, and the proportion outsourcing conformance work.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html
 
 ### Chile Open Finance conformance test harness for early SFA participants [opp_33df5c0e60b44851d959]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -703,6 +713,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/615/articles-99378_doc_pdf.pdf
 
+### Chile renewable-curtailment dataset and screening tool for storage-site diligence [opp_2c91469d9606f67e42cc]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile
+- Thesis: A reproducible dataset, calculator, or fixed-scope report could reduce the initial screening cost for battery, hybrid-solar, and flexible-load projects by ranking plants and hours with recurring curtailed output. The evidence supports a data asset, not yet a proven subscription business.
+- Value capture: Sell a narrowly defined downloadable screening pack or per-project analysis containing plant-level curtailment history, hourly concentration, downloadable data, and a transparent methodology. Any recurring price, buyer conversion, or project revenue remains unverified.
+- Participation hypothesis: First inspect the dataset license and source terms, reproduce three plant-level calculations, and publish a one-page sample for one Chilean zone. Contact potential users through public storage-project developers, energy consultants, and industry events without asserting that they are buyers. Ask for a paid test only after confirming that the output changes a siting or underwriting decision. Lowest-cost falsification: obtain five short interviews or preorders; abandon if users will not provide a paid data request or cannot name a current decisio
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://zenodo.org/records/21652187; https://doi.org/10.3390/en19020334
+
 ### Chile SFA conformance-test harness for API, consent and payment-initiation flows [opp_9511a8b5519c4a31790e]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: Financial institutions and prospective SFA participants must convert the published API and control requirements into repeatable integration and acceptance tests. A narrowly scoped reusable test harness could reduce internal engineering and certification-preparation work, but the evidence does not establish a guaranteed procurement budget or mandated external vendor.
@@ -972,6 +992,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://jobs.lever.co/weloglobal/f1d3a94f-b3c4-47c2-b33b-55253a774375; https://jobs.lever.co/weloglobal?commitment=Remote
+
+### Spanish-language invoice-extraction evaluation pack for Chilean accounting workflows [opp_6cc32af3f79943589863]
+- Status: WATCH_REQUIRES_VALIDATION | innovation_adoption | Chile
+- Thesis: A small operator can build a reproducible Chile-focused evaluation asset rather than sell generic AI implementation: synthetic and permissioned invoice fixtures, Chilean tax-field schemas, accuracy scoring, and a model-cost comparison. The evidence supports technical feasibility and testability, but not willingness to pay.
+- Value capture: Sell a fixed-scope benchmark run, downloadable test pack, or hosted regression dashboard to software vendors and accounting-automation teams. Do not claim coverage of Chilean tax rules or production accuracy until independently tested on permitted documents.
+- Participation hypothesis: Start with synthetic invoices and public, permissioned examples; implement schemas for supplier tax ID, invoice folio, VAT, totals, currency, and line items; compare at least two open or API-based extractors using the public scorers. Distribution can begin through an open benchmark repository and technical communities, followed by outreach to accounting-software vendors. Lowest-cost falsification: release 20 cases and ask five target teams whether they would pay for a private 100-case evaluation or recurring regression run; abandon or narrow th
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://github.com/DocuPipe/DocuBench; https://github.com/mborges-dev/extraction-evals
 
 ### Tokenized unified-ledger infrastructure is moving from concept toward financial-market architecture [opp_993ac5d080c7042af44c]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Global; Chile relevance through future interoperable financial-data and payment infrastructure

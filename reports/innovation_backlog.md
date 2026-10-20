@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 100
+Candidates: 103
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -171,6 +171,18 @@ Candidates: 100
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.licitacioneselectricas.cl/licitaciones?estado=vigentes; https://jdf.cl/en/cne-aprueba-las-bases-definitivas-de-la-licitacion-de-suministro-2026-01-y-da-inicio-formal-al-proceso/
+
+## Chile renewable-curtailment dataset and screening tool for storage-site diligence
+- Status: watch | energy_infrastructure
+- Current idea: A reproducible dataset, calculator, or fixed-scope report could reduce the initial screening cost for battery, hybrid-solar, and flexible-load projects by ranking plants and hours with recurring curtailed output. The evidence supports a data asset, not yet a proven subscription business.
+- Potential economic capture: Sell a narrowly defined downloadable screening pack or per-project analysis containing plant-level curtailment history, hourly concentration, downloadable data, and a transparent methodology. Any recurring price, buyer conversion, or project revenue remains unverified.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://zenodo.org/records/21652187; https://doi.org/10.3390/en19020334
 
 ## Commercial battery dispatch and performance verification for four-hour storage projects
 - Status: watch | energy_infrastructure
@@ -460,6 +472,18 @@ Candidates: 100
 - Possible initial budget:
 - Source URLs: https://github.com/cereon-labs/cereon-browser-operator; https://github.com/smouj/agent-browser
 
+## Spanish-language invoice-extraction evaluation pack for Chilean accounting workflows
+- Status: watch | innovation_adoption
+- Current idea: A small operator can build a reproducible Chile-focused evaluation asset rather than sell generic AI implementation: synthetic and permissioned invoice fixtures, Chilean tax-field schemas, accuracy scoring, and a model-cost comparison. The evidence supports technical feasibility and testability, but not willingness to pay.
+- Potential economic capture: Sell a fixed-scope benchmark run, downloadable test pack, or hosted regression dashboard to software vendors and accounting-automation teams. Do not claim coverage of Chilean tax rules or production accuracy until independently tested on permitted documents.
+- **Research routes to test (NOT validated claims):**
+  - Identify a real technical capability not yet adopted in one buyer's high-value workflow.
+  - Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.
+  - Measure the fully loaded operating cost, human exceptions and distribution against the status quo.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://github.com/DocuPipe/DocuBench; https://github.com/mborges-dev/extraction-evals
+
 ## Chile Open Finance conformance and sandbox testing kit
 - Status: watch | open_finance_chile
 - Current idea: Entities that must connect as information providers, account providers, information-based service providers, or payment-initiation providers now have a defined technical target and a limited preparation window before mandatory operation.
@@ -471,6 +495,18 @@ Candidates: 100
 - Critical gaps: Whether ATENA is sufficiently complete, reliable, and easy to use for real production-readiness testing.; Whether CMF or another authority will require independent conformance evidence, certification, audit trails, or third-party remediation.; Number of entities in each participant category that will actually need external help rather than internal engineering.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html
+
+## Chile Open Finance conformance and test-data pack
+- Status: watch | open_finance_chile
+- Current idea: The regulatory timetable creates a bounded preparation window for reusable implementation artifacts: endpoint checklists, schema validators, consent-flow test cases, error-case fixtures, and conformance-report templates. This is an executable tooling wedge, not evidence of a guaranteed consulting market.
+- Potential economic capture: Offer a self-contained validation package or annual update pack for regulated or participating entities preparing integrations. Do not claim regulatory approval, certification, or permission to access live financial data.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Whether CMF schemas, sandbox behavior, certification tests, error semantics, and consent requirements are complete and stable enough to reproduce locally.; Whether regulated entities are authorized and willing to use third-party validators or must rely on approved/internal controls.; Number of entities required to participate, their implementation budgets, and the proportion outsourcing conformance work.
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html
 
 ## Chile Open Finance conformance test harness for early SFA participants
 - Status: watch | open_finance_chile

@@ -1276,6 +1276,92 @@
       "ai_leverage": "",
       "authorized_for_execution": false,
       "contrary_evidence": [
+        "CMF officially states that NCG 569 added the technical specifications and developer portal and postponed the OFS operating start until July 2027 because implementation is complex: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "The CMF developer materials already expose structured participant-directory APIs, versioning, endpoint discovery, authorization-server metadata, and API-resource information, reducing the novelty of a basic discovery or checklist product: https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA",
+        "The official integration model describes CMF-operated sandbox and production platforms, public APIs, local synchronization, version headers, certificates, and operational responsibilities, suggesting that much of the infrastructure and validation surface is centrally defined rather than requiring a third-party pack: https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437591/v1.0.0%2B-%2BModelo%2Bde%2BOperaci%2Bn%2Be%2BIntegraci%2Bn%2Bdel%2BDirectorio",
+        "Commercial competition already exists: Prodigio Tech advertises an NCG 514-compliant Open Finance wallet and integration stack with a 12–15 week implementation proposition, potentially bundling conformance work into a broader delivery offer: https://prodigypay.prodigio.tech/",
+        "A legal-sector summary identifies interoperability, certification, security, APIs, consent, participant directory, and test environments as requirements, implying that buyers may prefer full-service regulated implementation support over a narrow test-data pack: https://www.carey.cl/cmf-modifica-la-ncg-n514-incorpora-estandares-tecnicos-para-la-implementacion-del-sistema-de-finanzas-abiertas"
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-20T20:21:45.748815+00:00",
+      "discovery_lens": "fixed_scope_paid_research_asset",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF states that the amendment adds technical specifications and a developer portal, and postpones entry into force until July 2027 because implementation is complex.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "Official CMF record for the June 1, 2026 modification of NCG 514 incorporating Annex 3 and marking it as in force.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Norma de Carácter General N°569",
+          "url": "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.84,
+      "falsification_conditions": [
+        "Five representative high-friction tests cannot be implemented reproducibly from public CMF materials without undocumented assumptions or live participant access.",
+        "At least ten relevant Chilean fintech, bank-technology, payment, or compliance contacts produce no concrete integration problem, request for a missing artifact, pilot discussion, or paid validation.",
+        "Prospects state that CMF sandbox or existing vendors already provide equivalent validation at no incremental cost.",
+        "The technical annex, developer portal, schemas, or test procedures materially change before a pilot can be delivered, making maintenance uneconomic.",
+        "A target buyer requires certification, legal assurance, security accreditation, or liability coverage that the proposed asset cannot provide.",
+        "Established integrators bundle equivalent conformance testing into larger contracts at a price the standalone pack cannot compete with.",
+        "No buyer can be identified with budget authority and an implementation deadline before July 2027."
+      ],
+      "geography": "Chile",
+      "id": "opp_71fab3dd10745ab77ebe",
+      "judge_reviewed": true,
+      "judgment": "The regulatory premise is adequately grounded by CMF primary sources: a technical annex/developer portal exists and the operating timetable was postponed to July 2027. The proposed asset can be built from public documentation and synthetic data, so it does not inherently require unavailable live financial-data access or claim a regulated approval role. However, HQ-worthiness is not established because the same public materials, CMF sandbox/integration environment, and incumbent implementation vendors may make a standalone conformance pack non-differentiated and difficult to monetize. Treat this only as a narrowly scoped validation research hypothesis until a defined buyer confirms that official tools and existing vendors do not cover a specific required test or reporting gap.",
+      "last_record_updated_at": "2026-10-20T20:22:07.848875+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Whether CMF schemas, sandbox behavior, certification tests, error semantics, and consent requirements are complete and stable enough to reproduce locally.",
+        "Whether regulated entities are authorized and willing to use third-party validators or must rely on approved/internal controls.",
+        "Number of entities required to participate, their implementation budgets, and the proportion outsourcing conformance work.",
+        "Whether the target buyers have already selected banks, core-banking vendors, API gateways, consultants, or compliance providers.",
+        "Whether the pack would detect failures not already detected by CMF sandbox, official test suites, API gateways, or vendor tooling."
+      ],
+      "participation_path": "Use only the public CMF technical annex and developer materials; build a local validator against publicly documented schemas and synthetic data. Distribute through a public repository, targeted technical demonstrations, and direct outreach to entities that publicly identify themselves as fintech or financial-service participants. Lowest-cost falsification: implement five high-friction schema and consent tests, show them to ten Chilean fintech or banking-technology contacts, and seek one paid pilot or written request for a specific missing artifact. Stop if the annex is too incomplete to test locally or no contact identifies a concrete integration task.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The regulatory timetable creates a bounded preparation window for reusable implementation artifacts: endpoint checklists, schema validators, consent-flow test cases, error-case fixtures, and conformance-report templates. This is an executable tooling wedge, not evidence of a guaranteed consulting market.",
+      "title": "Chile Open Finance conformance and test-data pack",
+      "type": "fixed_scope_technical_asset",
+      "unknowns": [
+        "Whether CMF schemas, sandbox behavior, certification tests, error semantics, and consent requirements are complete and stable enough to reproduce locally.",
+        "Whether regulated entities are authorized and willing to use third-party validators or must rely on approved/internal controls.",
+        "Number of entities required to participate, their implementation budgets, and the proportion outsourcing conformance work.",
+        "Whether the target buyers have already selected banks, core-banking vendors, API gateways, consultants, or compliance providers.",
+        "Whether the pack would detect failures not already detected by CMF sandbox, official test suites, API gateways, or vendor tooling.",
+        "Potential Spanish-language, Chilean legal, security, liability, support, and procurement requirements.",
+        "Actual willingness to pay, acceptable price, renewal rate, and update burden.",
+        "Whether public outreach can reach CTOs, compliance officers, or implementation owners rather than non-buying developers.",
+        "Whether CMF provides an official certification suite, mandatory acceptance tests, or sandbox artifacts that leave a reproducible gap for third-party tooling.",
+        "The exact participant segments legally required or commercially motivated to integrate, their deadlines, and their conformance budgets.",
+        "Whether a third-party local validator can test meaningful consent, authorization, certificate, and error-handling behavior without live participant connectivity or credentials.",
+        "Which narrow workflow has unmet demand—for example, version-drift regression testing, synthetic consent/error fixtures, or audit-ready evidence reporting—and whether it can command a paid pilot.",
+        "Competitor pricing and whether established Chilean integrators bundle equivalent testing at effectively zero incremental cost.",
+        "Whether an annual update model can cover regulatory-change monitoring, support, and security expectations."
+      ],
+      "value_capture_mechanism": "Offer a self-contained validation package or annual update pack for regulated or participating entities preparing integrations. Do not claim regulatory approval, certification, or permission to access live financial data.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [
         "CMF officially confirms that the technical annex defines interoperability requirements and that implementation is scheduled for July 2027, supporting a genuine regulatory trigger. Source: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
         "CMF launched ATENA as a controlled environment for testing integrations, directory interoperability, and compliance readiness, validating that participants face real testing needs. Source: https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
         "The technical materials appear sufficiently detailed to support automated testing around APIs, security, consent, directory operations, and payment flows. Source: https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/435749124/v1.0.0%2B-%2BModelo%2Bde%2Bgobierno",
@@ -5455,6 +5541,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-20T20:21:45.747683+00:00",
+      "discovery_lens": "fixed_scope_paid_research_asset",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Provides validated plant-level daily and hourly curtailment data covering January 2022 to May 2026, with Parquet downloads and plant metadata.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "An errata-corrected, plant-level dataset of solar, wind and hydropower curtailment in Chile's National Electricity System (2022–2026)",
+          "url": "https://zenodo.org/records/21652187"
+        },
+        {
+          "claim": "Uses operational Chilean curtailment data and identifies storage and green hydrogen as potential applications of curtailment analysis.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Wind Energy Curtailment: Historical Case Study",
+          "url": "https://doi.org/10.3390/en19020334"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.88,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_2c91469d9606f67e42cc",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-20T20:21:45.802637+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "First inspect the dataset license and source terms, reproduce three plant-level calculations, and publish a one-page sample for one Chilean zone. Contact potential users through public storage-project developers, energy consultants, and industry events without asserting that they are buyers. Ask for a paid test only after confirming that the output changes a siting or underwriting decision. Lowest-cost falsification: obtain five short interviews or preorders; abandon if users will not provide a paid data request or cannot name a current decision the asset would affect.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A reproducible dataset, calculator, or fixed-scope report could reduce the initial screening cost for battery, hybrid-solar, and flexible-load projects by ranking plants and hours with recurring curtailed output. The evidence supports a data asset, not yet a proven subscription business.",
+      "title": "Chile renewable-curtailment dataset and screening tool for storage-site diligence",
+      "type": "licensed_reusable_data_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell a narrowly defined downloadable screening pack or per-project analysis containing plant-level curtailment history, hourly concentration, downloadable data, and a transparent methodology. Any recurring price, buyer conversion, or project revenue remains unverified.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-17T00:22:36.410633+00:00",
       "discovery_lens": "open_finance_chile",
       "estimated_capital": "",
@@ -6913,6 +7053,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-20T20:21:45.749832+00:00",
+      "discovery_lens": "ai_open_source",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Provides 72 hand-verified documents, JSON schemas, a standalone scorer, failure accounting, and Spanish among supported languages.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "DocuBench: Public benchmark for document data extraction",
+          "url": "https://github.com/DocuPipe/DocuBench"
+        },
+        {
+          "claim": "Provides reproducible comparisons of document-extraction models with cost and latency tracking and includes invoice-oriented tasks.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Extraction Evals",
+          "url": "https://github.com/mborges-dev/extraction-evals"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.78,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_6cc32af3f79943589863",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-20T20:21:45.802811+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Start with synthetic invoices and public, permissioned examples; implement schemas for supplier tax ID, invoice folio, VAT, totals, currency, and line items; compare at least two open or API-based extractors using the public scorers. Distribution can begin through an open benchmark repository and technical communities, followed by outreach to accounting-software vendors. Lowest-cost falsification: release 20 cases and ask five target teams whether they would pay for a private 100-case evaluation or recurring regression run; abandon or narrow the wedge if nobody supplies a real schema, corpus, or paid test request.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A small operator can build a reproducible Chile-focused evaluation asset rather than sell generic AI implementation: synthetic and permissioned invoice fixtures, Chilean tax-field schemas, accuracy scoring, and a model-cost comparison. The evidence supports technical feasibility and testability, but not willingness to pay.",
+      "title": "Spanish-language invoice-extraction evaluation pack for Chilean accounting workflows",
+      "type": "reusable_software_and_benchmark",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell a fixed-scope benchmark run, downloadable test pack, or hosted regression dashboard to software vendors and accounting-automation teams. Do not claim coverage of Chilean tax rules or production accuracy until independently tested on permitted documents.",
+      "verified_sales": null,
+      "vertical": "innovation_adoption",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-04T03:07:07.122051+00:00",
       "discovery_lens": "tokenization_finance",
       "estimated_capital": "",
@@ -7128,13 +7322,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-20T16:26:35.816726+00:00",
+  "generated_at": "2026-10-20T20:22:08.307244+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 56,
-  "reviewed_cards": 49,
+  "reviewed_cards": 50,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 156,
-  "watch": 100
+  "total_distinct_opportunities": 159,
+  "watch": 103
 }
