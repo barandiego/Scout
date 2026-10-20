@@ -1060,6 +1060,18 @@ Candidates: 94
 - Possible initial budget:
 - Source URLs: https://arxiv.org/abs/2509.25056; https://www.lccmr.mn.gov/projects/2024/approved_work_plans/2024-076_approved_workplan.pdf
 
+## Independent seasonal operations for agricultural weeding robots
+- Status: watch | robotics_agritech
+- Current idea: The hardware exists, but smaller growers may face a utilization, financing, operator-training and field-integration problem rather than a pure invention gap. A local operator could test whether aggregating demand for one crop/region makes a robot deployment economically usable without buying a robot upfront.
+- Potential economic capture: A brokered or subcontracted seasonal field operation: obtain a vendor quote, identify a grower cluster with compatible fields, and resell or coordinate a defined weeding deployment only if the vendor permits the arrangement and the grower signs a confirmed paid work order. Possible cash flow is a per-acre service or seasonal lease pass-through; no margin or buyer is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
+  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
+  - Arrange a bounded field validation with an actual farm operator before scaling.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.sec.gov/Archives/edgar/data/1760404/000110465926075802/tm2617498d1_partiiandiii.htm; https://fieldreport.caes.uga.edu/publications/B1594/agribots-autonomous-ground-robots-for-specialty-crops/
+
 ## Indoor-farm lighting and energy audit wedge for existing Chilean growers
 - Status: watch | robotics_agritech
 - Current idea: A new Chilean vertical-farm build is not sufficiently evidenced as investable here. The narrower executable wedge is measurement and scheduling support for an already-operating hydroponic or indoor grower, where the operator can compare lighting recipes, kWh per kg and peak demand before purchasing major equipment. This is an efficiency test, not evidence that indoor farming itself is profitable.
@@ -1119,15 +1131,3 @@ Candidates: 94
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://ers.usda.gov/data-products/charts-of-note/114160; https://ers.usda.gov/sites/default/files/_laserfiche/publications/113706/ERR-356.pdf?v=31391
-
-## Small-factory robot deployment and commissioning wedge focused on food-sector applications
-- Status: watch | robotics_agritech
-- Current idea: More small and mid-sized food manufacturers may be purchasing flexible automation, but the economically reachable bottleneck is deployment: motion programming, end-effector setup, calibration, safety documentation, and repeatable production-cell validation.
-- Potential economic capture: Sell a narrowly defined deployment package for one repeatable task—such as pick-and-place, palletizing, or machine tending—including a simulated motion program, commissioning checklist, cycle-time measurement, and handoff documentation. The concrete asset is a reusable task-specific deployment template rather than a general automation consultancy.
-- **Research routes to test (NOT validated claims):**
-  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
-  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
-  - Arrange a bounded field validation with an actual farm operator before scaling.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://ifr.org/ifr-press-releases/news/us-robot-industry-returns-to-double-digit-growth; https://ifr.org/post/exciting-times-for-robot-suppliers; https://github.com/nexform-tech/litearm-mujoco

@@ -4769,67 +4769,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-15T12:27:09.528615+00:00",
-      "discovery_lens": "robotics_automation",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "IFR reports 38,000 industrial robots installed in the United States in 2025, up 11% year over year, with food-sector installations up 30%.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "US Robot Industry Returns to Double Digit Growth",
-          "url": "https://ifr.org/ifr-press-releases/news/us-robot-industry-returns-to-double-digit-growth"
-        },
-        {
-          "claim": "IFR reports 603,307 global robot shipments in 2025, up 11.2%, and continued growth in broader industrial applications.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Exciting Times for Robot Suppliers!",
-          "url": "https://ifr.org/post/exciting-times-for-robot-suppliers"
-        },
-        {
-          "claim": "The repository documents a simulation environment with API compatibility between simulated and physical LiteArm control, enabling low-cost workflow prototyping without hardware.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "litearm-mujoco",
-          "url": "https://github.com/nexform-tech/litearm-mujoco"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.86,
-      "falsification_conditions": [],
-      "geography": "United States",
-      "id": "opp_f2278f7ef99fae7e2528",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-15T12:27:09.553435+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Use public robot and simulator tooling to build one demonstrable workflow, then contact local food manufacturers, contract packers, or regional system integrators with a fixed-scope paid pilot proposal. Lowest-cost falsification: build the workflow in simulation, publish a short cycle-time and setup demonstration, and request 10 discovery calls; abandon the wedge if no operator will provide a sample part, process video, or paid feasibility engagement. Do not assume access to a plant, robot, or customer budget before receiving explicit confirmation.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "More small and mid-sized food manufacturers may be purchasing flexible automation, but the economically reachable bottleneck is deployment: motion programming, end-effector setup, calibration, safety documentation, and repeatable production-cell validation.",
-      "title": "Small-factory robot deployment and commissioning wedge focused on food-sector applications",
-      "type": "service_asset",
-      "unknowns": [],
-      "value_capture_mechanism": "Sell a narrowly defined deployment package for one repeatable task—such as pick-and-place, palletizing, or machine tending—including a simulated motion program, commissioning checklist, cycle-time measurement, and handoff documentation. The concrete asset is a reusable task-specific deployment template rather than a general automation consultancy.",
-      "verified_sales": null,
-      "vertical": "robotics_agritech",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-13T20:22:30.984395+00:00",
       "discovery_lens": "energy_localization",
       "estimated_capital": "",
@@ -5910,6 +5849,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-20T00:26:06.357365+00:00",
+      "discovery_lens": "adoption_lag",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The filing describes BOTONY autonomous agricultural robots, 2025 leases to farms in seven states, and 2026 purchase and lease orders; it also describes a transition from robotics-as-a-service toward seasonal leases and direct sales.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Greenfield Robotics SEC filing",
+          "url": "https://www.sec.gov/Archives/edgar/data/1760404/000110465926075802/tm2617498d1_partiiandiii.htm"
+        },
+        {
+          "claim": "University of Georgia field guidance states that agricultural robots have demonstrated field applications but that high prices limit commercialization for small and medium-scale growers, identifying an access and utilization constraint.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Agribots: Autonomous Ground Robots for Specialty Crops",
+          "url": "https://fieldreport.caes.uga.edu/publications/B1594/agribots-autonomous-ground-robots-for-specialty-crops/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.83,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_828f64d8095cceeb57fa",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-20T00:26:06.387001+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Start with one crop and one region. Contact vendors with publicly documented purchase/lease or deployment offerings and request written service territory, minimum acreage, operator requirements, delivery timing and price. Separately interview 10 growers or crop consultants and ask for paid reservations or letters of intent at a quoted per-acre price. Falsify after spending only on outreach if vendors will not quote a route-compatible deployment, or if no grower will place a refundable reservation/paid pilot at the quoted price. Do not buy equipment, represent yourself as an authorized distributor, or promise performance before written vendor terms exist.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The hardware exists, but smaller growers may face a utilization, financing, operator-training and field-integration problem rather than a pure invention gap. A local operator could test whether aggregating demand for one crop/region makes a robot deployment economically usable without buying a robot upfront.",
+      "title": "Independent seasonal operations for agricultural weeding robots",
+      "type": "robotics_service_wedge",
+      "unknowns": [],
+      "value_capture_mechanism": "A brokered or subcontracted seasonal field operation: obtain a vendor quote, identify a grower cluster with compatible fields, and resell or coordinate a defined weeding deployment only if the vendor permits the arrangement and the grower signs a confirmed paid work order. Possible cash flow is a per-acre service or seasonal lease pass-through; no margin or buyer is assumed.",
+      "verified_sales": null,
+      "vertical": "robotics_agritech",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-14T20:22:41.899471+00:00",
       "discovery_lens": "asset_ownership",
       "estimated_capital": "",
@@ -6773,13 +6766,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-19T20:24:50.139869+00:00",
+  "generated_at": "2026-10-20T00:26:30.184104+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 50,
+  "rejected_excluded": 52,
   "reviewed_cards": 48,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 144,
+  "total_distinct_opportunities": 146,
   "watch": 94
 }

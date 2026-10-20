@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-19T20:24:50.139869+00:00
+Generated: 2026-10-20T00:26:30.184104+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
 - Active research: 94 (0 HQ survivors, 94 watches)
-- Rejected opportunities excluded: 50
+- Rejected opportunities excluded: 52
 - Critic-and-judge reviewed: 48
 - Autonomous execution authorization: 0
 
@@ -583,16 +583,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.chileagricola.cl/precios-mayoristas/; https://es.scribd.com/document/1014311150/BOLETIN-1-INIA-FIA-Manejo-Sanitario-y-Otros-InIA-Chile; https://andinotech.cl/categoria-producto/hidroponia/sistema-de-cultivo-hidroponico/
 
-### Small-factory robot deployment and commissioning wedge focused on food-sector applications [opp_f2278f7ef99fae7e2528]
-- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States
-- Thesis: More small and mid-sized food manufacturers may be purchasing flexible automation, but the economically reachable bottleneck is deployment: motion programming, end-effector setup, calibration, safety documentation, and repeatable production-cell validation.
-- Value capture: Sell a narrowly defined deployment package for one repeatable task—such as pick-and-place, palletizing, or machine tending—including a simulated motion program, commissioning checklist, cycle-time measurement, and handoff documentation. The concrete asset is a reusable task-specific deployment template rather than a general automation consultancy.
-- Participation hypothesis: Use public robot and simulator tooling to build one demonstrable workflow, then contact local food manufacturers, contract packers, or regional system integrators with a fixed-scope paid pilot proposal. Lowest-cost falsification: build the workflow in simulation, publish a short cycle-time and setup demonstration, and request 10 discovery calls; abandon the wedge if no operator will provide a sample part, process video, or paid feasibility engagement. Do not assume access to a plant, robot, or customer budget before receiving explicit confirmat
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://ifr.org/ifr-press-releases/news/us-robot-industry-returns-to-double-digit-growth; https://ifr.org/post/exciting-times-for-robot-suppliers; https://github.com/nexform-tech/litearm-mujoco
-
 ### 15-minute demand-charge diagnostic and retrofit kit for Chilean commercial sites [opp_5c54bef099722659c2b1]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile, initially regulated commercial customers on BT/AT demand tariffs
 - Thesis: A site with a short, avoidable power spike can pay recurring demand-related charges even when total monthly energy consumption is moderate. The concrete wedge is not generic energy consulting: obtain interval data and bills, identify the top avoidable peaks, then sell a fixed diagnostic plus an installable control package such as load sequencing, scheduled charging, or a small battery/controller retrofit.
@@ -792,6 +782,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://arxiv.org/abs/2509.25056; https://www.lccmr.mn.gov/projects/2024/approved_work_plans/2024-076_approved_workplan.pdf
+
+### Independent seasonal operations for agricultural weeding robots [opp_828f64d8095cceeb57fa]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States
+- Thesis: The hardware exists, but smaller growers may face a utilization, financing, operator-training and field-integration problem rather than a pure invention gap. A local operator could test whether aggregating demand for one crop/region makes a robot deployment economically usable without buying a robot upfront.
+- Value capture: A brokered or subcontracted seasonal field operation: obtain a vendor quote, identify a grower cluster with compatible fields, and resell or coordinate a defined weeding deployment only if the vendor permits the arrangement and the grower signs a confirmed paid work order. Possible cash flow is a per-acre service or seasonal lease pass-through; no margin or buyer is assumed.
+- Participation hypothesis: Start with one crop and one region. Contact vendors with publicly documented purchase/lease or deployment offerings and request written service territory, minimum acreage, operator requirements, delivery timing and price. Separately interview 10 growers or crop consultants and ask for paid reservations or letters of intent at a quoted per-acre price. Falsify after spending only on outreach if vendors will not quote a route-compatible deployment, or if no grower will place a refundable reservation/paid pilot at the quoted price. Do not buy equip
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/1760404/000110465926075802/tm2617498d1_partiiandiii.htm; https://fieldreport.caes.uga.edu/publications/B1594/agribots-autonomous-ground-robots-for-specialty-crops/
 
 ### Interconnection-queue intelligence as a paid research asset for project developers [opp_471716894d06e79a4659]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States

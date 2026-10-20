@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-10-19T20:24:50.139869+00:00",
+  "generated_at": "2026-10-20T00:26:30.184104+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -460,6 +460,15 @@
     },
     {
       "all_opportunity_ids": [
+        "opp_828f64d8095cceeb57fa"
+      ],
+      "count": 1,
+      "representative_id": "opp_828f64d8095cceeb57fa",
+      "reviewed_count": 0,
+      "theme": "robotics_agritech:independent_seasonal_operations"
+    },
+    {
+      "all_opportunity_ids": [
         "opp_9c53621ef496fb65470a"
       ],
       "count": 1,
@@ -484,15 +493,6 @@
       "representative_id": "opp_ab706c5f1aeb60ba7b7e",
       "reviewed_count": 0,
       "theme": "robotics_agritech:small_dairy_robotic"
-    },
-    {
-      "all_opportunity_ids": [
-        "opp_f2278f7ef99fae7e2528"
-      ],
-      "count": 1,
-      "representative_id": "opp_f2278f7ef99fae7e2528",
-      "reviewed_count": 0,
-      "theme": "robotics_agritech:small_factory_robot"
     },
     {
       "all_opportunity_ids": [
