@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-20T16:59:33.764205+00:00
+Generated: 2026-10-20T20:56:14.217764+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 109
+- New this cycle: 102
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): none
-- Categories: agriculture 308, ai 238, commerce 35, energy 543, robotics 676
+- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
+- Categories: agriculture 317, ai 231, commerce 34, energy 539, robotics 679
 
 ## Recently encountered signals
 
@@ -246,6 +246,12 @@ Generated: 2026-10-20T16:59:33.764205+00:00
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
+### shaik-fouzan/Krishi-mitra-ai
+- Source: https://github.com/shaik-fouzan/Krishi-mitra-ai
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
 ### hadjerk475-arch/hadjeragro_Data
 - Source: https://github.com/hadjerk475-arch/hadjeragro_Data
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
@@ -452,12 +458,6 @@ Generated: 2026-10-20T16:59:33.764205+00:00
 
 ### Aravindr017/Smart-Energy-Grid-and-Solar-Power-Forecasting-with-Battery-Optimization
 - Source: https://github.com/Aravindr017/Smart-Energy-Grid-and-Solar-Power-Forecasting-with-Battery-Optimization
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Mahyoub88/solar-energy-systems
-- Source: https://github.com/Mahyoub88/solar-energy-systems
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
