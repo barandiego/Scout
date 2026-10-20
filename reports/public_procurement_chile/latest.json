@@ -1,29 +1,104 @@
 {
-  "active_candidates": [],
-  "active_structurally_reconstructable_count": 0,
+  "active_candidates": [
+    {
+      "available_budget_clp": 360000.0,
+      "buyer": "UNIVERSIDAD DE CHILE",
+      "closes_at": "2026-10-21T08:30:00",
+      "code": "5517-479-COT26",
+      "estimated_budget": 360000.0,
+      "name": "SOL.779  Servicio de Alojamiento para invitado a Evento Departamental IV Seminario de guitarra Profesor Romilio Orellana",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 1100000.0,
+      "buyer": "UNIVERSIDAD DE CHILE",
+      "closes_at": "2026-10-21T08:00:00",
+      "code": "5517-478-COT26",
+      "estimated_budget": 1100000.0,
+      "name": "SOL.836   Compra de Notebook Museo de Arte Popular Americano",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 300000.0,
+      "buyer": "DELEGACIÓN PRESIDENCIAL PROVINCIAL DEL BIOBÍO",
+      "closes_at": "2026-10-21T00:30:00",
+      "code": "1976-138-COT26",
+      "estimated_budget": 300000.0,
+      "name": "MATERIALES PARA AYUDA SOCIAL",
+      "products": 1,
+      "region": "Región del Biobío"
+    },
+    {
+      "available_budget_clp": 5209596.0,
+      "buyer": "CORP MUNICIPAL DE SERVICIOS PUBLICOS TRASPASADOS DE RANCAGUA",
+      "closes_at": "2026-10-21T08:00:00",
+      "code": "557639-3174-COT26",
+      "estimated_budget": 5209596.0,
+      "name": "MOBILIARIO CECOSF (8090)",
+      "products": 16,
+      "region": "Región del Libertador General Bernardo O´Higgins"
+    },
+    {
+      "available_budget_clp": 850000.0,
+      "buyer": "UNIVERSIDAD DE CHILE",
+      "closes_at": "2026-10-21T17:00:00",
+      "code": "5598-78-COT26",
+      "estimated_budget": 850000.0,
+      "name": "Materiales de Robótica/ Harold Valenzuela",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 400000.0,
+      "buyer": "SERPLAC I Región",
+      "closes_at": "2026-10-22T09:00:00",
+      "code": "2038-47-COT26",
+      "estimated_budget": 400000.0,
+      "name": "ADQUISICION DE EQUIPAMIENTO DE DIFUSION PROGRAMA ELIGE VIVIR SANO",
+      "products": 3,
+      "region": "Región de Tarapacá"
+    }
+  ],
+  "active_structurally_reconstructable_count": 6,
   "diagnostics": {
     "api_failures": {
       "api_http_504": 1
     },
-    "requests_used": 3,
+    "budget_exhausted": false,
+    "detail_attempts": 20,
+    "detail_cap_exhausted": true,
+    "details_fetched": 19,
+    "duplicate_listings": 0,
+    "invalid_listing_items": 0,
+    "malformed_details": 0,
+    "malformed_reasons": {},
+    "malformed_samples": [],
+    "pages_fetched": 1,
+    "pagination_incomplete": false,
+    "pagination_invalid": false,
+    "requests_used": 23,
     "transient_retries": 2
   },
-  "generated_at": "2026-10-20T01:06:00Z",
-  "inserted_history": 0,
-  "note": "Transient ChileCompra/API availability failure after bounded retries. Cursor was not advanced; next scheduled run may retry safely.",
+  "generated_at": "2026-10-20T04:53:23Z",
+  "inserted_history": 19,
+  "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_TRANSIENT_API",
+  "outcome": "DEGRADED_API_ERRORS",
   "phase1": {
-    "records": 0,
-    "rejection_reasons": {},
-    "resolved": 0,
-    "structurally_reconstructable": 0,
-    "with_observable_quote_totals": 0,
-    "with_purchase_order_indicator": 0
+    "records": 19,
+    "rejection_reasons": {
+      "no_observable_competitive_prices": 3
+    },
+    "resolved": 13,
+    "structurally_reconstructable": 16,
+    "with_observable_quote_totals": 10,
+    "with_purchase_order_indicator": 1
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-20T01:06:00Z"
+    "changed_to": "2026-10-20T04:53:23Z"
   }
 }
