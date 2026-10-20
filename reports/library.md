@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-20T12:26:57.618799+00:00
+Generated: 2026-10-20T16:26:35.816726+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 99 (0 HQ survivors, 99 watches)
-- Rejected opportunities excluded: 54
+- Active research: 100 (0 HQ survivors, 100 watches)
+- Rejected opportunities excluded: 56
 - Critic-and-judge reviewed: 49
 - Autonomous execution authorization: 0
 
@@ -703,16 +703,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/615/articles-99378_doc_pdf.pdf
 
-### Chile SFA API conformance and sandbox test asset [opp_b77b2be77b5c75b13b93]
-- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
-- Thesis: Financial institutions and participating fintechs face a concrete interoperability and implementation deadline. A reusable conformance harness can reduce integration uncertainty before production testing, especially for authorization details, data scopes, API behavior, security, and payment-initiation edge cases.
-- Value capture: A paid implementation-readiness artifact: executable API contract tests, synthetic data fixtures, authorization-scope validation, error-case tests, and a machine-readable conformance report. Revenue would come from a fixed-scope technical assessment or integration-support engagement, not from access to regulated financial data.
-- Participation hypothesis: Use the CMF NCG 514 technical material and developer documentation to build a small mock provider/consumer harness with synthetic accounts and payment requests. Distribute it as a technical preview to Chilean fintechs, banks, account-information service applicants, and integration vendors through direct outreach or relevant fintech developer communities. Lowest-cost falsification: implement the highest-risk 10 endpoint and authorization cases, then request review from five identifiable Chilean fintech or banking integration teams; count only a
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/615/articles-96819_doc_pdf.pdf
-
 ### Chile SFA conformance-test harness for API, consent and payment-initiation flows [opp_9511a8b5519c4a31790e]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: Financial institutions and prospective SFA participants must convert the published API and control requirements into repeatable integration and acceptance tests. A narrowly scoped reusable test harness could reduce internal engineering and certification-preparation work, but the evidence does not establish a guaranteed procurement budget or mandated external vendor.
@@ -752,6 +742,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
+### Chilean Spanish speech-data recording project — CrowdGen by Appen [opp_96318e1351fad6b1e1dc]
+- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
+- Thesis: This is a narrowly defined, low-complexity data-collection assignment with a verifiable piece-rate mechanism. At the listed rate, 400 completed units would imply USD 12 gross before any applicable taxes or payment constraints, but completion time and acceptance are unknown; therefore it is a small paid test rather than a reliable income source.
+- Value capture: Submit accepted audio units under the project’s quality rules and receive the listed piece-rate payment if selected and if recordings pass validation.
+- Participation hypothesis: Apply through CrowdGen’s official Lever page, confirming current Chile residence and native Chilean Spanish status. Before recording all units, verify the project account, acceptance criteria and payout conditions. Lowest-cost falsification: apply, complete any qualification sample, and calculate actual minutes per accepted sentence; proceed only if the effective rate and payout terms are acceptable. No fee or deposit is indicated in the listing.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://jobs.lever.co/appen/27404a7a-4fca-42e3-bae4-072148d17dce; https://jobs.lever.co/appen/27404a7a-4fca-42e3-bae4-072148d17dce/apply?lever-source=BilingualJobs.io
 
 ### Commercial battery dispatch and performance verification for four-hour storage projects [opp_85c23886f73fd6c4dff5]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States
@@ -962,6 +962,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://ers.usda.gov/data-products/charts-of-note/114160; https://ers.usda.gov/sites/default/files/_laserfiche/publications/113706/ERR-356.pdf?v=31391
+
+### Spanish e-commerce search-result rater — Welo Data [opp_b9ae93d79856031de999]
+- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Santiago, Chile / Chile
+- Thesis: This is a concrete paid evaluation route for a Chile-based bilingual applicant with web research and language skills. The task-based wording means the advertised hourly figure may not equal guaranteed clock-time income, and the listing does not guarantee acceptance or continuous assignments.
+- Value capture: Pass qualification and complete assigned search-quality and e-commerce relevance-rating tasks as an independent contractor at the project’s stated task-based rate, subject to workload and quality requirements.
+- Participation hypothesis: Apply on Welo Data’s employer-hosted Lever page, selecting Chile/Santiago and presenting evidence of Spanish fluency, near-native English, web research and careful guideline-following. Lowest-cost falsification: apply and complete only the qualification steps; ask for the effective task-to-hour conversion, payout schedule and minimum withdrawal conditions before investing significant time. Stop if Chile eligibility, project access or payable workload cannot be confirmed.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://jobs.lever.co/weloglobal/f1d3a94f-b3c4-47c2-b33b-55253a774375; https://jobs.lever.co/weloglobal?commitment=Remote
 
 ### Tokenized unified-ledger infrastructure is moving from concept toward financial-market architecture [opp_993ac5d080c7042af44c]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Global; Chile relevance through future interoperable financial-data and payment infrastructure

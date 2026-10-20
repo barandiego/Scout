@@ -45,6 +45,42 @@
       "category": "chile_localization",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Apply through CrowdGen’s official Lever page, confirming current Chile residence and native Chilean Spanish status. Before recording all units, verify the project account, acceptance criteria and payout conditions. Lowest-cost falsification: apply, complete any qualification sample, and calculate actual minutes per accepted sentence; proceed only if the effective rate and payout terms are acceptable. No fee or deposit is indicated in the listing.",
+      "current_thesis": "This is a narrowly defined, low-complexity data-collection assignment with a verifiable piece-rate mechanism. At the listed rate, 400 completed units would imply USD 12 gross before any applicable taxes or payment constraints, but completion time and acceptance are unknown; therefore it is a small paid test rather than a reliable income source.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chilean Spanish speech-data recording project — CrowdGen by Appen",
+      "opportunity_id": "opp_96318e1351fad6b1e1dc",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Find the smallest Chilean workflow whose economics differ from the original geography.",
+        "Secure lawful access, partners and after-sales support rather than copy protected technology.",
+        "Run a buyer interview or mock listing to falsify assumptions before capital commitment."
+      ],
+      "supporting_source_urls": [
+        "https://jobs.lever.co/appen/27404a7a-4fca-42e3-bae4-072148d17dce",
+        "https://jobs.lever.co/appen/27404a7a-4fca-42e3-bae4-072148d17dce/apply?lever-source=BilingualJobs.io"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Submit accepted audio units under the project’s quality rules and receive the listed piece-rate payment if selected and if recordings pass validation.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "chile_localization",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Create a one-page landing page showing one hospitality-specific design and a measurable destination such as Google review, WhatsApp booking, or reservation link. Approach ten independently identifiable local venues through public contact channels and offer a paid pilot or refundable preorder. Do not buy inventory until at least three venues pay or place deposits. Falsify if venues will not pay the published-market price for a venue-specific version, or if fewer than two of ten prospects agree to track taps or scans. Existing market participation can also occur by sourcing blank NFC-compatible stock and localizing the landing/profile layer, subject to supplier terms and applicable consumer/tax requirements.",
       "current_thesis": "A small operator should not compete on generic digital business cards. A narrower wedge is a countertop NFC/QR stand for restaurants, salons, tour operators, and lodging businesses that routes visitors to a review page, booking link, menu, or WhatsApp contact. The economic mechanism is increased attributable customer actions rather than the NFC hardware itself.",
       "founder_hours_initial_unverified_estimate": "",
@@ -184,6 +220,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Sell a fixed monthly reconciliation pack or white-label dashboard to an accounting firm or software vendor that already serves Chilean SMEs. The offer should be limited to reproducible exception detection and exportable evidence, not bespoke bookkeeping or general AI consulting. The payer, final price, and achievable margin remain unverified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "chile_localization",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Apply on Welo Data’s employer-hosted Lever page, selecting Chile/Santiago and presenting evidence of Spanish fluency, near-native English, web research and careful guideline-following. Lowest-cost falsification: apply and complete only the qualification steps; ask for the effective task-to-hour conversion, payout schedule and minimum withdrawal conditions before investing significant time. Stop if Chile eligibility, project access or payable workload cannot be confirmed.",
+      "current_thesis": "This is a concrete paid evaluation route for a Chile-based bilingual applicant with web research and language skills. The task-based wording means the advertised hourly figure may not equal guaranteed clock-time income, and the listing does not guarantee acceptance or continuous assignments.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Santiago, Chile / Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Spanish e-commerce search-result rater — Welo Data",
+      "opportunity_id": "opp_b9ae93d79856031de999",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Find the smallest Chilean workflow whose economics differ from the original geography.",
+        "Secure lawful access, partners and after-sales support rather than copy protected technology.",
+        "Run a buyer interview or mock listing to falsify assumptions before capital commitment."
+      ],
+      "supporting_source_urls": [
+        "https://jobs.lever.co/weloglobal/f1d3a94f-b3c4-47c2-b33b-55253a774375",
+        "https://jobs.lever.co/weloglobal?commitment=Remote"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Pass qualification and complete assigned search-quality and e-commerce relevance-rating tasks as an independent contractor at the project’s stated task-based rate, subject to workload and quality requirements.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -1744,42 +1816,6 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "API aggregators, identity and consent providers, fraud and risk vendors, payment initiators, financial-data analytics firms, and institutions that help participants certify integrations may capture implementation and recurring platform revenue.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "open_finance_chile",
-      "commercially_validated": false,
-      "competition_confirmed": false,
-      "current_participation_path": "Use the CMF NCG 514 technical material and developer documentation to build a small mock provider/consumer harness with synthetic accounts and payment requests. Distribute it as a technical preview to Chilean fintechs, banks, account-information service applicants, and integration vendors through direct outreach or relevant fintech developer communities. Lowest-cost falsification: implement the highest-risk 10 endpoint and authorization cases, then request review from five identifiable Chilean fintech or banking integration teams; count only a request for a paid assessment, test review, or access to a formal procurement process as validation. Do not claim CMF certification or production permission.",
-      "current_thesis": "Financial institutions and participating fintechs face a concrete interoperability and implementation deadline. A reusable conformance harness can reduce integration uncertainty before production testing, especially for authorization details, data scopes, API behavior, security, and payment-initiation edge cases.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "Chile",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "Chile SFA API conformance and sandbox test asset",
-      "opportunity_id": "opp_b77b2be77b5c75b13b93",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
-        "Check license perimeter, API access, legal compliance and competitor pricing.",
-        "Test buyer procurement and technical access before writing integration infrastructure."
-      ],
-      "supporting_source_urls": [
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://cmfchile.cl/portal/prensa/615/articles-96819_doc_pdf.pdf"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "A paid implementation-readiness artifact: executable API contract tests, synthetic data fixtures, authorization-scope validation, error-case tests, and a machine-readable conformance report. Revenue would come from a fixed-scope technical assessment or integration-support engagement, not from access to regulated financial data.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -3783,7 +3819,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-20T12:26:57.677424+00:00",
+  "generated_at": "2026-10-20T16:26:35.891692+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"
