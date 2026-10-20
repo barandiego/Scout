@@ -1222,6 +1222,42 @@
       "category": "innovation_adoption",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Fork the openly licensed dataset, independently verify 20 records against their linked primary sources, add a deterministic JSONL test format, and release five example tests. Offer the pack to a small sample of agent-platform vendors, security consultancies, or internal developer-tool teams only as a time-boxed paid pilot if they request it; do not claim certification or regulatory sufficiency. Falsification threshold: if independent verification exposes material source-quality problems or no target user will run the five tests, stop. Lowest-cost test: produce a 20-record, one-risk-category benchmark and measure whether technically relevant users download, run, or request customization.",
+      "current_thesis": "The immediately testable asset is not a generic AI-governance consultancy. It is a versioned incident corpus plus a machine-readable rule/evaluation pack for procurement teams, insurers, security vendors, and agent-platform builders that need regression tests for spending, data-loss, and unintended-action controls. The public evidence supports the existence of the dataset and an advertised hosted product, not recurring demand or profitability.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Global",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Licensed AI-agent incident dataset with spend-control benchmark",
+      "opportunity_id": "opp_63db3fa3330ccbc1a03e",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a real technical capability not yet adopted in one buyer's high-value workflow.",
+        "Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.",
+        "Measure the fully loaded operating cost, human exceptions and distribution against the status quo."
+      ],
+      "supporting_source_urls": [
+        "https://github.com/kindrat86/ai-agent-incident-database/blob/main/README.md",
+        "https://github.com/paolodm/ai-coding-agents-incidents"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Package normalized incident records, source provenance, severity labels, and replayable approval tests as a paid data feed or self-hosted evaluation bundle. A small operator can initially monetize a narrowly scoped dataset for one risk class, such as unauthorized purchases or destructive coding-agent actions, rather than attempting a full compliance platform.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "innovation_adoption",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Lowest-cost falsification: install one project locally, run a fixed benchmark of 20-50 representative agent tasks with and without the cost-control layer, and publish the measured token use, latency, failure rate and reproducibility. Then contact identifiable users or maintainers through the project's public issue/discussion channels with the benchmark and ask whether the measured improvement solves a paid problem. Do not sell managed services, claim savings, or assume licensing rights until the repository license and user response support it.",
       "current_thesis": "The concrete mechanism is not generic AI consulting: it is a low-cost software layer for self-hosted agent operators who need cost tracking, routing, quality controls or premium features. The public price confirms that at least one project is attempting direct software monetization, but adoption and willingness to pay are unverified.",
       "founder_hours_initial_unverified_estimate": "",
@@ -1555,6 +1591,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "A downloadable or hosted test harness containing protocol fixtures, certificate/signature validation, consent-flow simulators, API contract tests, audit-log templates and compliance-oriented test reports. Possible payment mechanisms are software licensing, paid test environments or fixed-price implementation packages; actual willingness to pay is unverified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Download the CMF technical annex and developer materials, implement only one high-friction flow such as consented account-information retrieval or payment initiation, and publish a free validator that accepts sample payloads. Contact publicly listed Chilean fintech/API integrators and ask whether they will run a paid pilot against their existing sandbox; do not assume access, demand, or regulatory approval. Falsification threshold: if at least 10 targeted firms cannot identify a concrete validation problem or will not test a free prototype, stop. The lowest-cost test is a schema validator plus three simulated conformance cases, not a regulated production connection.",
+      "current_thesis": "A narrow reusable test harness could help prospective data providers, data-based service providers, and technical vendors validate API schemas, consent flows, error handling, and payment-initiation integration before production participation. The opportunity is implementation tooling, not a claim that regulated firms must buy it.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile Open-Finance conformance harness before July 2027 implementation",
+      "opportunity_id": "opp_911d89dad493afe4910f",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-99378_doc_pdf.pdf"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a downloadable conformance suite, local test environment, schema-diff alerts, and paid implementation support. A repeatable software asset is more defensible than generic consulting if it maps directly to CMF technical requirements and can be reused across participants.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -2960,9 +3032,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "United States",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "Whether any U.S. processor will review or purchase the proposed material stream from a new intermediary.",
+        "Exact feedstock chemistry, rare-earth content, contamination profile, moisture, coatings, and recovery yield.",
+        "Minimum acceptable lot size and delivered-cost ceiling for each potential buyer.",
+        "Assay method, laboratory cost, turnaround time, sampling representativeness, and dispute process.",
+        "Whether suppliers will permit sampling, chain-of-custody documentation, photography, transport, or resale.",
+        "Whether material is regulated as hazardous, universal, electronic, industrial, or ordinary scrap in the relevant jurisdictions.",
+        "Expected sourcing fee or gross margin after travel, labor, assay, insurance, packaging, freight, rejected loads, and payment delays."
       ],
       "investment_authorized": false,
       "name": "Rare-earth secondary-material sourcing and assay brokerage as a testable micro-wedge",
@@ -3670,7 +3746,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-20T04:24:14.856147+00:00",
+  "generated_at": "2026-10-20T08:26:43.203359+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

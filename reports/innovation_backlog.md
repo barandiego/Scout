@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 96
+Candidates: 98
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -388,6 +388,18 @@ Candidates: 96
 - Possible initial budget:
 - Source URLs: https://www.whitehouse.gov/presidential-actions/2026/01/adjusting-imports-of-processed-critical-minerals-and-their-derivative-products-into-the-united-states/; https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary
 
+## Licensed AI-agent incident dataset with spend-control benchmark
+- Status: watch | innovation_adoption
+- Current idea: The immediately testable asset is not a generic AI-governance consultancy. It is a versioned incident corpus plus a machine-readable rule/evaluation pack for procurement teams, insurers, security vendors, and agent-platform builders that need regression tests for spending, data-loss, and unintended-action controls. The public evidence supports the existence of the dataset and an advertised hosted product, not recurring demand or profitability.
+- Potential economic capture: Package normalized incident records, source provenance, severity labels, and replayable approval tests as a paid data feed or self-hosted evaluation bundle. A small operator can initially monetize a narrowly scoped dataset for one risk class, such as unauthorized purchases or destructive coding-agent actions, rather than attempting a full compliance platform.
+- **Research routes to test (NOT validated claims):**
+  - Identify a real technical capability not yet adopted in one buyer's high-value workflow.
+  - Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.
+  - Measure the fully loaded operating cost, human exceptions and distribution against the status quo.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://github.com/kindrat86/ai-agent-incident-database/blob/main/README.md; https://github.com/paolodm/ai-coding-agents-incidents
+
 ## Open-source agent cost-control software with a directly published paid tier
 - Status: watch | innovation_adoption
 - Current idea: The concrete mechanism is not generic AI consulting: it is a low-cost software layer for self-hosted agent operators who need cost tracking, routing, quality controls or premium features. The public price confirms that at least one project is attempting direct software monetization, but adoption and willingness to pay are unverified.
@@ -495,6 +507,18 @@ Candidates: 96
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html
+
+## Chile Open-Finance conformance harness before July 2027 implementation
+- Status: watch | open_finance_chile
+- Current idea: A narrow reusable test harness could help prospective data providers, data-based service providers, and technical vendors validate API schemas, consent flows, error handling, and payment-initiation integration before production participation. The opportunity is implementation tooling, not a claim that regulated firms must buy it.
+- Potential economic capture: Sell a downloadable conformance suite, local test environment, schema-diff alerts, and paid implementation support. A repeatable software asset is more defensible than generic consulting if it maps directly to CMF technical requirements and can be reused across participants.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/615/articles-99378_doc_pdf.pdf
 
 ## Chile publishes technical rules and developer infrastructure for Open Finance, with go-live deferred to July 2027
 - Status: watch | open_finance_chile
@@ -936,7 +960,7 @@ Candidates: 96
   - Compare local product availability to supplier catalogs and independent consumer interest.
   - Check import, tax, return, certification and delivery economics before estimating margin.
   - Try a legitimate pre-order/waitlist test with transparent fulfillment conditions.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Whether any U.S. processor will review or purchase the proposed material stream from a new intermediary.; Exact feedstock chemistry, rare-earth content, contamination profile, moisture, coatings, and recovery yield.; Minimum acceptable lot size and delivered-cost ceiling for each potential buyer.
 - Possible initial budget:
 - Source URLs: https://pubs.usgs.gov/periodicals/mcs2025/mcs2025_ver.1.0.pdf; https://pubs.usgs.gov/periodicals/mcs2025/mcs2025.pdf
 

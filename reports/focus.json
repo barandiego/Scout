@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-10-20T04:24:14.779454+00:00",
+  "generated_at": "2026-10-20T08:26:43.130836+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -21,7 +21,7 @@
     },
     {
       "opportunity_id": "opp_f26e42aaabb91e157f9d",
-      "other_cards_in_theme": 38,
+      "other_cards_in_theme": 39,
       "reviewed": true,
       "status": "watch",
       "theme": "chile_open_finance",
@@ -103,15 +103,15 @@
   "headline_count": 12,
   "high_concentration": [
     {
-      "cards": 39,
-      "share": 0.406,
+      "cards": 40,
+      "share": 0.408,
       "theme": "chile_open_finance"
     }
   ],
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 39,
+  "theme_count": 40,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -153,9 +153,10 @@
         "opp_bc3b9a823961fadca8e1",
         "opp_feb43070f6dba35f263f",
         "opp_b5bb525067a4142275e1",
-        "opp_d52a4c290d45b663a6f3"
+        "opp_d52a4c290d45b663a6f3",
+        "opp_911d89dad493afe4910f"
       ],
-      "count": 39,
+      "count": 40,
       "representative_id": "opp_f26e42aaabb91e157f9d",
       "reviewed_count": 24,
       "theme": "chile_open_finance"
@@ -361,6 +362,15 @@
     },
     {
       "all_opportunity_ids": [
+        "opp_63db3fa3330ccbc1a03e"
+      ],
+      "count": 1,
+      "representative_id": "opp_63db3fa3330ccbc1a03e",
+      "reviewed_count": 0,
+      "theme": "innovation_adoption:licensed_ai_agent"
+    },
+    {
+      "all_opportunity_ids": [
         "opp_beb787a05eb10672a64b"
       ],
       "count": 1,
@@ -392,7 +402,7 @@
       ],
       "count": 1,
       "representative_id": "opp_45b7e9d57391da701819",
-      "reviewed_count": 0,
+      "reviewed_count": 1,
       "theme": "physical_distribution:rare_earth_secondary"
     },
     {
@@ -522,6 +532,6 @@
       "theme": "robotics_agritech:small_hydroponic_propagation"
     }
   ],
-  "total_original_cards": 96,
+  "total_original_cards": 98,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }

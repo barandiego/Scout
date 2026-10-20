@@ -3872,6 +3872,91 @@
       "ai_leverage": "",
       "authorized_for_execution": false,
       "contrary_evidence": [
+        "The underlying market problem is real. USGS reports domestic rare-earth production alongside substantial U.S. reliance on imported compounds and metals, while recovery from batteries, permanent magnets, and fluorescent lamps remains limited: https://pubs.usgs.gov/periodicals/mcs2025/mcs2025_ver.1.0.pdf. The U.S. Department of Energy identifies end-of-life recovery and recycling as relevant parts of the rare-earth magnet supply chain: https://www.energy.gov/sites/default/files/2024-12/Neodymium%2520Magnets%2520Supply%2520Chain%2520Report%2520-%2520Final%5B1%5D.pdf. Multiple companies are actively developing domestic magnet-recycling and processing capacity, which could create future demand for qualified feedstock: https://hypromagusa.com/ ; https://www.usare.com/operations/ ; https://www.usstrategicmetals.com/us-strategic-metals-and-ionic-rare-earths-to-build-first-u-s-magnet-recycling-plant-in-missouri/. A narrowly defined broker could potentially create value if it aggregates a material stream that is too small or operationally inconvenient for a large processor to source directly. However, these facts establish strategic relevance, not broker margins or transaction feasibility."
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-15T12:27:09.530685+00:00",
+      "discovery_lens": "mining_materials",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "USGS reports 2024 domestic rare-earth production, 80% net import reliance for compounds and metals, and limited recovery from batteries, permanent magnets, and fluorescent lamps.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Mineral Commodity Summaries 2025",
+          "url": "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025_ver.1.0.pdf"
+        },
+        {
+          "claim": "USGS reports that production of multiple critical minerals is highly concentrated in a single country and that recycling supplied some minerals as the only domestic source.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Mineral Commodity Summaries 2025",
+          "url": "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025.pdf"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.78,
+      "falsification_conditions": [
+        "Three qualified processors decline to provide written specifications, sample-review procedures, or rejection criteria.",
+        "No processor provides a non-binding purchase indication or otherwise confirms a credible transaction pathway after reviewing representative material data.",
+        "The delivered cost of collection, preparation, assay, packaging, and freight exceeds the buyer's indicated value or leaves no defensible fee after conservative rejection assumptions.",
+        "Potential suppliers require volumes, certifications, equipment, or contractual commitments beyond the operator's feasible scale.",
+        "Assay results show rare-earth concentration or recoverability too low, variable, or contaminated for a buyer's process.",
+        "The material stream is already controlled by an incumbent recycler, scrap dealer, OEM, or processor on terms that prevent third-party access.",
+        "A 60-day outreach test produces no permission to sample, no buyer specification, and no paid or contractually committed pilot.",
+        "The operator cannot obtain appropriate insurance, transport authorization, chain-of-custody documentation, or legal clearance at an acceptable cost."
+      ],
+      "geography": "United States",
+      "id": "opp_45b7e9d57391da701819",
+      "judge_reviewed": true,
+      "judgment": "The proposed service has a real strategic-market signal: public USGS and DOE material supports constrained domestic rare-earth recovery and an active recycling/processing ecosystem. It also defines a potentially legitimate buyer job—qualified, documented feedstock identification and assay coordination—without requiring speculative ownership of material. However, it is not yet a viable physical-distribution or brokerage thesis: no particular feedstock, processor, supplier, acceptable specification, lot size, purchase indication, assay protocol, or delivered-price spread has been evidenced. Existing recyclers, scrap networks, and vertically integrated processors are credible direct competitors and may internalize the proposed coordination function. This survives only as a tightly bounded, low-cost research experiment; it does not support inventory purchases, collection activity, or an operating launch.",
+      "last_record_updated_at": "2026-10-20T08:26:42.679598+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Whether any U.S. processor will review or purchase the proposed material stream from a new intermediary.",
+        "Exact feedstock chemistry, rare-earth content, contamination profile, moisture, coatings, and recovery yield.",
+        "Minimum acceptable lot size and delivered-cost ceiling for each potential buyer.",
+        "Assay method, laboratory cost, turnaround time, sampling representativeness, and dispute process.",
+        "Whether suppliers will permit sampling, chain-of-custody documentation, photography, transport, or resale."
+      ],
+      "participation_path": "Choose one local waste stream and contact recyclers, demolition firms, electronics refurbishers, or industrial scrap handlers to ask whether they already separate the material and whether they permit sampling. Obtain written permission before handling material, pay for one small independent assay only after a processor states its required specifications, and compare the assay and logistics cost with an explicit purchase indication. Lowest-cost falsification: get three written specification sheets or rejection criteria from potential processors and test whether any will review a sample; stop if no qualified party provides specifications or a purchase pathway. No buyer, price, recovery rate, or margin is assumed.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A small operator cannot economically reproduce mining or separation, but can test whether a narrow feedstock-identification and assay-coordination service reduces search friction for recyclers, processors, or manufacturers seeking specified rare-earth-bearing scrap.",
+      "title": "Rare-earth secondary-material sourcing and assay brokerage as a testable micro-wedge",
+      "type": "physical_supply_chain",
+      "unknowns": [
+        "Whether any U.S. processor will review or purchase the proposed material stream from a new intermediary.",
+        "Exact feedstock chemistry, rare-earth content, contamination profile, moisture, coatings, and recovery yield.",
+        "Minimum acceptable lot size and delivered-cost ceiling for each potential buyer.",
+        "Assay method, laboratory cost, turnaround time, sampling representativeness, and dispute process.",
+        "Whether suppliers will permit sampling, chain-of-custody documentation, photography, transport, or resale.",
+        "Whether material is regulated as hazardous, universal, electronic, industrial, or ordinary scrap in the relevant jurisdictions.",
+        "Expected sourcing fee or gross margin after travel, labor, assay, insurance, packaging, freight, rejected loads, and payment delays.",
+        "Whether existing scrap dealers, recyclers, dismantlers, or processor procurement teams already capture the opportunity.",
+        "Whether future domestic recycling capacity will increase buyer demand or instead eliminate the need for an independent broker through vertical integration.",
+        "Whether the opportunity is local enough to support profitable logistics rather than requiring dispersed low-density collection.",
+        "Which single stream will be targeted, its source geography, ownership, expected composition, and reliably accessible volume.",
+        "Named buyers' written feedstock specifications, minimum lot sizes, sampling rules, assay requirements, rejection standards, payment terms, and delivered-cost ceilings.",
+        "Independent assay cost, sampling representativeness, turnaround time, custody/dispute procedures, and whether results predict actual recoverable value.",
+        "Collection, preparation, storage, insurance, compliance, packaging, and freight cost per usable kilogram or lot.",
+        "Whether any transaction leaves a defensible broker fee after conservative contamination and rejection assumptions.",
+        "Whether incumbent arrangements already control local supply and whether processors will accept an intermediary at all."
+      ],
+      "value_capture_mechanism": "Coordinate sourcing of one narrowly specified material stream—such as end-of-life permanent magnets or industrial polishing waste—verify chain of custody, arrange third-party assay, and charge a disclosed sourcing or transaction fee only if a qualified counterparty accepts the material. The economic mechanism is verified-feedstock aggregation, not speculative mineral ownership.",
+      "verified_sales": null,
+      "vertical": "physical_distribution",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [
         "The opportunity is not fabricated: the official Outlier page lists Chile as an eligible location and describes remote Spanish AI-training work. A separate official listing specifically identifies Spanish (Chile) writers and advertises an average core-project rate of USD 10/hour, which is stronger than the supplied USD 7.50 claim. Outlier also presents flexible remote work and PayPal/AirTM payout options. Independent anecdotal evidence reports that some Chile-based workers completed hundreds of tasks and earned meaningful income, although this is self-reported and not representative. Sources: https://app.outlier.ai/opportunities/4522871005 ; https://app.outlier.ai/opportunities/4481627005 ; https://www.reddit.com/r/outlier_ai/comments/1jaijds_good_experience_with_outlier_from_chile"
       ],
       "critic_reviewed": true,
@@ -5255,6 +5340,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-20T08:26:16.029795+00:00",
+      "discovery_lens": "asset_ownership",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF states that the amended NCG No. 514 adds technical specifications for interoperability, information exchange, and payment initiation, with entry into force postponed until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        },
+        {
+          "claim": "CMF material describes standardized APIs, data receivers, and the implementation structure of Chile’s Open Finance System.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF Open Finance System technical and regulatory material",
+          "url": "https://www.cmfchile.cl/portal/prensa/615/articles-99378_doc_pdf.pdf"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.9,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_911d89dad493afe4910f",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-20T08:26:16.075150+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Download the CMF technical annex and developer materials, implement only one high-friction flow such as consented account-information retrieval or payment initiation, and publish a free validator that accepts sample payloads. Contact publicly listed Chilean fintech/API integrators and ask whether they will run a paid pilot against their existing sandbox; do not assume access, demand, or regulatory approval. Falsification threshold: if at least 10 targeted firms cannot identify a concrete validation problem or will not test a free prototype, stop. The lowest-cost test is a schema validator plus three simulated conformance cases, not a regulated production connection.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A narrow reusable test harness could help prospective data providers, data-based service providers, and technical vendors validate API schemas, consent flows, error handling, and payment-initiation integration before production participation. The opportunity is implementation tooling, not a claim that regulated firms must buy it.",
+      "title": "Chile Open-Finance conformance harness before July 2027 implementation",
+      "type": "software_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell a downloadable conformance suite, local test environment, schema-diff alerts, and paid implementation support. A repeatable software asset is more defensible than generic consulting if it maps directly to CMF technical requirements and can be reused across participants.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-15T16:24:52.024042+00:00",
       "discovery_lens": "business_model_migration",
       "estimated_capital": "",
@@ -6011,6 +6150,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-20T08:26:16.030729+00:00",
+      "discovery_lens": "asset_ownership",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The repository describes 105 records, 95 documented incidents, $557 million in tracked direct losses, CC BY 4.0 licensing, source URLs for records, and an advertised $99/month hosted firewall.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "AI Agent Incident Database README",
+          "url": "https://github.com/kindrat86/ai-agent-incident-database/blob/main/README.md"
+        },
+        {
+          "claim": "The repository maintains a structured, ongoing corpus of security incidents involving AI coding agents, with CSV and JSON exports.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "AI Coding Agents Incidents",
+          "url": "https://github.com/paolodm/ai-coding-agents-incidents"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.72,
+      "falsification_conditions": [],
+      "geography": "Global",
+      "id": "opp_63db3fa3330ccbc1a03e",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-20T08:26:16.075375+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Fork the openly licensed dataset, independently verify 20 records against their linked primary sources, add a deterministic JSONL test format, and release five example tests. Offer the pack to a small sample of agent-platform vendors, security consultancies, or internal developer-tool teams only as a time-boxed paid pilot if they request it; do not claim certification or regulatory sufficiency. Falsification threshold: if independent verification exposes material source-quality problems or no target user will run the five tests, stop. Lowest-cost test: produce a 20-record, one-risk-category benchmark and measure whether technically relevant users download, run, or request customization.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The immediately testable asset is not a generic AI-governance consultancy. It is a versioned incident corpus plus a machine-readable rule/evaluation pack for procurement teams, insurers, security vendors, and agent-platform builders that need regression tests for spending, data-loss, and unintended-action controls. The public evidence supports the existence of the dataset and an advertised hosted product, not recurring demand or profitability.",
+      "title": "Licensed AI-agent incident dataset with spend-control benchmark",
+      "type": "dataset",
+      "unknowns": [],
+      "value_capture_mechanism": "Package normalized incident records, source provenance, severity labels, and replayable approval tests as a paid data feed or self-hosted evaluation bundle. A small operator can initially monetize a narrowly scoped dataset for one risk class, such as unauthorized purchases or destructive coding-agent actions, rather than attempting a full compliance platform.",
+      "verified_sales": null,
+      "vertical": "innovation_adoption",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-18T16:18:42.624438+00:00",
       "discovery_lens": "adoption_lag",
       "estimated_capital": "",
@@ -6497,60 +6690,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-15T12:27:09.530685+00:00",
-      "discovery_lens": "mining_materials",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "USGS reports 2024 domestic rare-earth production, 80% net import reliance for compounds and metals, and limited recovery from batteries, permanent magnets, and fluorescent lamps.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Mineral Commodity Summaries 2025",
-          "url": "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025_ver.1.0.pdf"
-        },
-        {
-          "claim": "USGS reports that production of multiple critical minerals is highly concentrated in a single country and that recycling supplied some minerals as the only domestic source.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Mineral Commodity Summaries 2025",
-          "url": "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025.pdf"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.82,
-      "falsification_conditions": [],
-      "geography": "United States",
-      "id": "opp_45b7e9d57391da701819",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-15T12:27:09.553562+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Choose one local waste stream and contact recyclers, demolition firms, electronics refurbishers, or industrial scrap handlers to ask whether they already separate the material and whether they permit sampling. Obtain written permission before handling material, pay for one small independent assay only after a processor states its required specifications, and compare the assay and logistics cost with an explicit purchase indication. Lowest-cost falsification: get three written specification sheets or rejection criteria from potential processors and test whether any will review a sample; stop if no qualified party provides specifications or a purchase pathway. No buyer, price, recovery rate, or margin is assumed.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "A small operator cannot economically reproduce mining or separation, but can test whether a narrow feedstock-identification and assay-coordination service reduces search friction for recyclers, processors, or manufacturers seeking specified rare-earth-bearing scrap.",
-      "title": "Rare-earth secondary-material sourcing and assay brokerage as a testable micro-wedge",
-      "type": "physical_supply_chain",
-      "unknowns": [],
-      "value_capture_mechanism": "Coordinate sourcing of one narrowly specified material stream—such as end-of-life permanent magnets or industrial polishing waste—verify chain of custody, arrange third-party assay, and charge a disclosed sourcing or transaction fee only if a qualified counterparty accepts the material. The economic mechanism is verified-feedstock aggregation, not speculative mineral ownership.",
-      "verified_sales": null,
-      "vertical": "physical_distribution",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-16T12:25:43.949763+00:00",
       "discovery_lens": "ai_open_source",
       "estimated_capital": "",
@@ -6874,13 +7013,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-20T04:24:14.779454+00:00",
+  "generated_at": "2026-10-20T08:26:43.130836+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 53,
-  "reviewed_cards": 48,
+  "reviewed_cards": 49,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 149,
-  "watch": 96
+  "total_distinct_opportunities": 151,
+  "watch": 98
 }

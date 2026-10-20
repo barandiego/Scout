@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-20T04:24:14.779454+00:00
+Generated: 2026-10-20T08:26:43.130836+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 96 (0 HQ survivors, 96 watches)
+- Active research: 98 (0 HQ survivors, 98 watches)
 - Rejected opportunities excluded: 53
-- Critic-and-judge reviewed: 48
+- Critic-and-judge reviewed: 49
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -453,6 +453,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/80420/000008042026000063/ex991-powlq2xfy2026earning.htm; https://www.sec.gov/Archives/edgar/data/2110029/000119312526249668/d12401ds1a.htm
 
+### Rare-earth secondary-material sourcing and assay brokerage as a testable micro-wedge [opp_45b7e9d57391da701819]
+- Status: WATCH_REQUIRES_VALIDATION | physical_distribution | United States
+- Thesis: A small operator cannot economically reproduce mining or separation, but can test whether a narrow feedstock-identification and assay-coordination service reduces search friction for recyclers, processors, or manufacturers seeking specified rare-earth-bearing scrap.
+- Value capture: Coordinate sourcing of one narrowly specified material stream—such as end-of-life permanent magnets or industrial polishing waste—verify chain of custody, arrange third-party assay, and charge a disclosed sourcing or transaction fee only if a qualified counterparty accepts the material. The economic mechanism is verified-feedstock aggregation, not speculative mineral ownership.
+- Participation hypothesis: Choose one local waste stream and contact recyclers, demolition firms, electronics refurbishers, or industrial scrap handlers to ask whether they already separate the material and whether they permit sampling. Obtain written permission before handling material, pay for one small independent assay only after a processor states its required specifications, and compare the assay and logistics cost with an explicit purchase indication. Lowest-cost falsification: get three written specification sheets or rejection criteria from potential processors
+- Critic/judge: The proposed service has a real strategic-market signal: public USGS and DOE material supports constrained domestic rare-earth recovery and an active recycling/processing ecosystem. It also defines a potentially legitimate buyer job—qualified, documented feedstock identification and assay coordination—without requiring speculative ownership of material. However, it is not yet a viable physical-distribution or brokerage thesis: no partic
+- Next evidence gaps: Whether any U.S. processor will review or purchase the proposed material stream from a new intermediary.; Exact feedstock chemistry, rare-earth content, contamination profile, moisture, coatings, and recovery yield.; Minimum acceptable lot size and delivered-cost ceiling for each potential buyer.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://pubs.usgs.gov/periodicals/mcs2025/mcs2025_ver.1.0.pdf; https://pubs.usgs.gov/periodicals/mcs2025/mcs2025.pdf
+
 ### Remote Spanish-language AI evaluation and writing applications open to Chile residents [opp_b835724445c10f768057]
 - Status: WATCH_REQUIRES_VALIDATION | general | Chile; remote
 - Thesis: This is a currently accessible application route for possible freelance income, but it is not guaranteed work: acceptance, project qualification, available tasks, actual rate and payment eligibility remain conditional.
@@ -673,6 +683,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html
 
+### Chile Open-Finance conformance harness before July 2027 implementation [opp_911d89dad493afe4910f]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: A narrow reusable test harness could help prospective data providers, data-based service providers, and technical vendors validate API schemas, consent flows, error handling, and payment-initiation integration before production participation. The opportunity is implementation tooling, not a claim that regulated firms must buy it.
+- Value capture: Sell a downloadable conformance suite, local test environment, schema-diff alerts, and paid implementation support. A repeatable software asset is more defensible than generic consulting if it maps directly to CMF technical requirements and can be reused across participants.
+- Participation hypothesis: Download the CMF technical annex and developer materials, implement only one high-friction flow such as consented account-information retrieval or payment initiation, and publish a free validator that accepts sample payloads. Contact publicly listed Chilean fintech/API integrators and ask whether they will run a paid pilot against their existing sandbox; do not assume access, demand, or regulatory approval. Falsification threshold: if at least 10 targeted firms cannot identify a concrete validation problem or will not test a free prototype, sto
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/615/articles-99378_doc_pdf.pdf
+
 ### Chile SFA API conformance and sandbox test asset [opp_b77b2be77b5c75b13b93]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: Financial institutions and participating fintechs face a concrete interoperability and implementation deadline. A reusable conformance harness can reduce integration uncertainty before production testing, especially for authorization details, data scopes, API behavior, security, and payment-initiation edge cases.
@@ -813,6 +833,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.energy.gov/documents/craig-order-202-26-31-pios-exhibits-3-01-3-07-july-24-2026; https://www.energy.gov/documents/motion-intervene-motion-clarification-and-request-rehearing-and-stay-public-interest-36
 
+### Licensed AI-agent incident dataset with spend-control benchmark [opp_63db3fa3330ccbc1a03e]
+- Status: WATCH_REQUIRES_VALIDATION | innovation_adoption | Global
+- Thesis: The immediately testable asset is not a generic AI-governance consultancy. It is a versioned incident corpus plus a machine-readable rule/evaluation pack for procurement teams, insurers, security vendors, and agent-platform builders that need regression tests for spending, data-loss, and unintended-action controls. The public evidence supports the existence of the dataset and an advertised hosted product, not recurring demand or profitability.
+- Value capture: Package normalized incident records, source provenance, severity labels, and replayable approval tests as a paid data feed or self-hosted evaluation bundle. A small operator can initially monetize a narrowly scoped dataset for one risk class, such as unauthorized purchases or destructive coding-agent actions, rather than attempting a full compliance platform.
+- Participation hypothesis: Fork the openly licensed dataset, independently verify 20 records against their linked primary sources, add a deterministic JSONL test format, and release five example tests. Offer the pack to a small sample of agent-platform vendors, security consultancies, or internal developer-tool teams only as a time-boxed paid pilot if they request it; do not claim certification or regulatory sufficiency. Falsification threshold: if independent verification exposes material source-quality problems or no target user will run the five tests, stop. Lowest-co
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://github.com/kindrat86/ai-agent-incident-database/blob/main/README.md; https://github.com/paolodm/ai-coding-agents-incidents
+
 ### Low-cost orchard maturity and yield-scanning service using commercially available sensors [opp_9c53621ef496fb65470a]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States specialty-crop regions
 - Thesis: The narrow wedge is not selling a full harvesting robot. It is collecting orchard blocks' fruit-count, maturity or yield-estimate data before harvest so growers can improve harvest scheduling, labor allocation and packhouse planning. This can be tested with a rented or owner-operated camera/vehicle setup before any capital-intensive robotics deployment.
@@ -902,16 +932,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/principal/613/articles-72652_doc_pdf.pdf
-
-### Rare-earth secondary-material sourcing and assay brokerage as a testable micro-wedge [opp_45b7e9d57391da701819]
-- Status: WATCH_REQUIRES_VALIDATION | physical_distribution | United States
-- Thesis: A small operator cannot economically reproduce mining or separation, but can test whether a narrow feedstock-identification and assay-coordination service reduces search friction for recyclers, processors, or manufacturers seeking specified rare-earth-bearing scrap.
-- Value capture: Coordinate sourcing of one narrowly specified material stream—such as end-of-life permanent magnets or industrial polishing waste—verify chain of custody, arrange third-party assay, and charge a disclosed sourcing or transaction fee only if a qualified counterparty accepts the material. The economic mechanism is verified-feedstock aggregation, not speculative mineral ownership.
-- Participation hypothesis: Choose one local waste stream and contact recyclers, demolition firms, electronics refurbishers, or industrial scrap handlers to ask whether they already separate the material and whether they permit sampling. Obtain written permission before handling material, pay for one small independent assay only after a processor states its required specifications, and compare the assay and logistics cost with an explicit purchase indication. Lowest-cost falsification: get three written specification sheets or rejection criteria from potential processors
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://pubs.usgs.gov/periodicals/mcs2025/mcs2025_ver.1.0.pdf; https://pubs.usgs.gov/periodicals/mcs2025/mcs2025.pdf
 
 ### Self-hosted browser-automation deployment for one repetitive Chilean back-office workflow [opp_5f895ba07087b66159c1]
 - Status: WATCH_REQUIRES_VALIDATION | innovation_adoption | Chile/LatAm

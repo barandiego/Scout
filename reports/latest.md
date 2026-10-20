@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-20T04:24:14.414024+00:00
+Generated: 2026-10-20T08:26:42.772437+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['underserved_buyers', 'seller_supply_gap', 'chile_technology_import']
-- raw_candidates: 3
-- parseable_candidates: 3
-- normalized_candidates: 3
+- lenses: ['early_adoption_investing', 'market_positioning', 'asset_ownership']
+- raw_candidates: 2
+- parseable_candidates: 2
+- normalized_candidates: 2
 - normalization_rejected: 0
-- grounded_sources: 6
+- grounded_sources: 4
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 0
+- judge_attempts: 1
 - critic_reviews: 1
-- judge_reviews: 0
+- judge_reviews: 1
 - survivors: 0
-- watches: 2
-- rejected: 1
+- watches: 3
+- rejected: 0
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.0301853
+- cost_usd: 0.04605135
 - cost_uncertain: False
-- budget_remaining_usd: 0.0498147
+- budget_remaining_usd: 0.03394865
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,8 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Chile SFA interoperability test harness for smaller financial institutions: deferred_by_review_cap
-- Independent retrofit and field-validation service for low-cost agricultural weeding robots: deferred_by_review_cap
 - Pre-compliance Open Finance connectivity test for Chilean fintechs and smaller financial entities: deferred_by_review_cap
 - Application-specific cobot and machine-vision retrofit assessment for Chilean agroprocessors: deferred_by_review_cap
 - Chile Open-Finance conformance and integration test harness: deferred_by_review_cap
@@ -51,13 +49,15 @@ No survivors. Scout does not manufacture a daily winner.
 - Independent seasonal operations for agricultural weeding robots: deferred_by_review_cap
 - Warehouse-cleaning robot pilot sold as an operating expense: deferred_by_review_cap
 - Independent commissioning and support wedge for imported cobots and industrial robots: deferred_by_review_cap
+- Chile Open-Finance conformance harness before July 2027 implementation: deferred_by_review_cap
+- Licensed AI-agent incident dataset with spend-control benchmark: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=fresh",
-    "research_queue_unreviewed=43"
+    "deep_review_lane=backlog",
+    "research_queue_unreviewed=44"
   ],
   "stages": [
     {
@@ -65,27 +65,30 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 19,
+      "grounded_source_count": 22,
       "search_source_urls": [
-        "https://agridrones.cl/",
-        "https://agrohome.cl/",
-        "https://arxiv.org/abs/2412.15369",
-        "https://dintass.cl/collections/robots-industriales",
-        "https://postimg.futunn.com/news-files/20250807/public/17545591767335794716915-17545591767337771612183.pdf",
-        "https://publico.transbank.cl/productos-y-servicios/soluciones-para-ventas-presenciales/autoservicio-estandar",
-        "https://scg-lm.s3.us-east-1.amazonaws.com/pdfs/hai_robotics_rb_2025_warehouse_automation_082625.pdf",
-        "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html",
-        "https://www.cmfchile.cl/portal/prensa/615/articles-71154_doc_pdf.pdf",
+        "https://arxiv.org/abs/2603.16453",
+        "https://arxiv.org/abs/2607.28956",
+        "https://arxiv.org/abs/2608.30730",
+        "https://arxiv.org/abs/2610.10942",
+        "https://cmfchile.cl/portal/principal/613/articles-86367_doc_pdf.pdf",
+        "https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive",
+        "https://github.com/VulcanLab/genai-security-incidents",
+        "https://github.com/emmanuelgjr/genai_incidents/blob/main/docs/paper/genai-incidents-methods.md",
+        "https://github.com/kindrat86/ai-agent-incident-database/blob/main/README.md",
+        "https://github.com/paolodm/ai-coding-agents-incidents",
+        "https://github.com/swarm-ai-research/wiki-agent-swarm-incident/blob/main/README.md",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-99378_doc_pdf.pdf",
         "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/principal/613/articles-73228_doc_pdf.pdf",
         "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.fne.gob.cl/wp-content/uploads/2014/03/OECD_-2012-Competition-and-payment-systems.pdf",
-        "https://www.kenresearch.com/industry-reports/chile-logistics-robotics-market",
-        "https://www.vicrobotics.com/",
-        "https://www.vicrobotics.com/about",
-        "https://www.vicrobotics.com/precios",
-        "https://www.vicrobotics.com/soluciones/limpieza-industrial-bodegas",
-        "https://www.visa.cl/content/dam/VCOM/download/about-visa/Visa_Core_Rules_and_Visa_Product_Chile_2025-04-12_EN.pdf"
+        "https://www.sec.gov/Archives/edgar/data/1646188/000101376223000645/fars2023_ondasholdings.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1760404/000176040425000008/offeringmemoformc.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1830909/000183090920000007/formc.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1832483/000183248326000034/finalserve_investorxdeck.htm",
+        "https://www.sec.gov/Archives/edgar/data/1833099/000183309925000017/offeringmemoformc.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1956955/000168316826006179/umac_ex9901.htm",
+        "https://www.sec.gov/Archives/edgar/data/2074973/000121390026071287/ea029548401ex99-2.htm",
+        "https://www.sec.gov/Archives/edgar/data/2074973/000121390026107261/ea030784201ex99-1.htm"
       ]
     },
     {
@@ -119,89 +122,117 @@ No survivors. Scout does not manufacture a daily winner.
       "retry_justified": false
     },
     {
-      "index": 2,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 2,
-      "retry_justified": false
-    },
-    {
       "stage": "critic",
-      "candidate_id": "opp_7a7628a87361c4a75738",
+      "candidate_id": "opp_45b7e9d57391da701819",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 24,
+      "grounded_source_count": 39,
       "search_source_urls": [
-        "https://armma.cl/pov/sistema-finanzas-abiertas",
-        "https://en.wikipedia.org/wiki/Draft%3AFinancial-grade_API",
-        "https://en.wikipedia.org/wiki/Open_finance",
-        "https://en.wikipedia.org/wiki/PEPPOL",
-        "https://en.wikipedia.org/wiki/SCION_%28Internet_architecture%29",
-        "https://es.wikipedia.org/wiki/Fapro",
-        "https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_financiera",
-        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA",
-        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/706413085/Gu%2Bas%2Bde%2Bpruebas%2BSandbox%2Bperiodo%2Bprevio%2Ba%2Bla%2Bentrada%2Ben%2Bvigencia",
-        "https://openfinanceconnect.cl/",
-        "https://openfinanceconnect.cl/en/",
-        "https://sfasandbox.cl/",
-        "https://www.aafm.cl/2016/wp-content/uploads/2025/09/Country-Report-Chile-2024.pdf",
-        "https://www.cmfchile.cl/portal/prensa/615/articles-110411_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-100482.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
-        "https://www.cmfchile.cl/portal/principal/613/articles-77019_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/articles-89581_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/articles-97312_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
-        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000069/MNCenglish.pdf"
+        "https://aiche.onlinelibrary.wiley.com/doi/full/10.1002/aic.70208",
+        "https://arxiv.org/abs/1209.4324",
+        "https://arxiv.org/abs/1710.04506",
+        "https://arxiv.org/abs/1905.04829",
+        "https://arxiv.org/abs/2309.15860",
+        "https://cotec.ca/our-business/assets-technologies/assets/basic-industries-venture-fund-i-/",
+        "https://en.wikipedia.org/wiki/Envela",
+        "https://en.wikipedia.org/wiki/MP_Materials",
+        "https://en.wikipedia.org/wiki/Magnequench",
+        "https://en.wikipedia.org/wiki/Neodymium",
+        "https://en.wikipedia.org/wiki/USA_Rare_Earth",
+        "https://en.wikipedia.org/wiki/Vulcan_Elements",
+        "https://hypromagusa.com/",
+        "https://hypromagusa.com/hypromag-usa-to-establish-early-magnet-finishing-capability-as-part-of-phased-texas-hub-development/",
+        "https://hypromagusa.com/projects/",
+        "https://investors.usare.com/static-files/47a7d9ef-1a28-4fa0-bbdb-f3fd0005ae0c",
+        "https://rareearthdirectory.com/rare-earth-companies-in-the-us/",
+        "https://rareearthdirectory.com/rare-earth-companies-in-the-us/recyclers/",
+        "https://www.energy.gov/sites/default/files/2024-12/Neodymium%2520Magnets%2520Supply%2520Chain%2520Report%2520-%2520Final%5B1%5D.pdf",
+        "https://www.energy.gov/sites/default/files/2024-12/Neodymium%2520Magnets%2520Supply%2520Chain%2520Report%2520-%2520Final%5B1%5D.pdf?refid=20251036",
+        "https://www.energy.gov/technologycommercialization/articles/ornl-licenses-rare-earth-magnet-recycling-process-momentum",
+        "https://www.reddit.com/r/AREC_stock/comments/1pdf2le/arec_eri_join_forces_to_strengthen_us_rare_earth/",
+        "https://www.reddit.com/r/NIOCORP_MINE/comments/1bzq8s6",
+        "https://www.reddit.com/r/NIOCORP_MINE/comments/1c723n6",
+        "https://www.reddit.com/r/NIOCORP_MINE/comments/1cm9qto",
+        "https://www.reddit.com/r/NIOCORP_MINE/comments/1dl20ny",
+        "https://www.reddit.com/r/NIOCORP_MINE/comments/1fue23z",
+        "https://www.reddit.com/r/NIOCORP_MINE/comments/1gfjua0",
+        "https://www.reddit.com/r/NIOCORP_MINE/comments/1gjhu15",
+        "https://www.reddit.com/r/NIOCORP_MINE/comments/1m0f943",
+        "https://www.reddit.com/r/NIOCORP_MINE/comments/1s51oqc/niocorp_mineusa_rare_earth_magnet_production/",
+        "https://www.reddit.com/r/Treaty_Creek/comments/174j6qy",
+        "https://www.reddit.com/r/u_RedChipCompanies/comments/1egmbie",
+        "https://www.sec.gov/Archives/edgar/data/2079013/000182912626010648/hallchadwickacq_ex99-3.htm",
+        "https://www.unitedre.com/technology/",
+        "https://www.usare.com/operations/",
+        "https://www.usitc.gov/publications/332/journals/jice_recovering_rare_earth_elements_from_e_waste.pdf",
+        "https://www.usitc.gov/sites/default/files/publications/332/journals/jice_recovering_rare_earth_elements_from_e_waste.pdf",
+        "https://www.usstrategicmetals.com/us-strategic-metals-and-ionic-rare-earths-to-build-first-u-s-magnet-recycling-plant-in-missouri/"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_7a7628a87361c4a75738",
+      "candidate_id": "opp_45b7e9d57391da701819",
       "coercions": [
-        "critic_case"
+        "critic_case",
+        "contrary_evidence"
       ]
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_45b7e9d57391da701819",
+      "response_status": "completed",
+      "incomplete_reason": "",
+      "grounded_source_count": 0,
+      "search_source_urls": []
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_45b7e9d57391da701819",
+      "coercions": []
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 379,
-      "cache_write_tokens": 5541,
+      "reasoning_tokens": 317,
+      "cache_write_tokens": 5412,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01520145,
+      "cumulative_cost_usd": 0.0147236,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13990,
+      "input_tokens": 13835,
       "cached_tokens": 0,
-      "output_tokens": 1772,
+      "output_tokens": 1405,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01520145
+      "estimated_cost_usd": 0.0147236
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 142,
-      "cache_write_tokens": 5181,
+      "reasoning_tokens": 148,
+      "cache_write_tokens": 5273,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0301853,
+      "cumulative_cost_usd": 0.02930085,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13658,
+      "input_tokens": 13756,
       "cached_tokens": 0,
-      "output_tokens": 1661,
+      "output_tokens": 1302,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01498385
+      "estimated_cost_usd": 0.01457725
+    },
+    {
+      "stage": "judge",
+      "available": true,
+      "reasoning_tokens": 194,
+      "cache_write_tokens": 3285,
+      "accounting_notes": [],
+      "cumulative_cost_usd": 0.04605135,
+      "model": "gpt-5.6-terra",
+      "input_tokens": 3288,
+      "cached_tokens": 0,
+      "output_tokens": 711,
+      "web_search_calls": 0,
+      "estimated_cost_usd": 0.0167505
     }
   ]
 }
