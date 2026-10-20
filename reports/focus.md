@@ -2,11 +2,11 @@
 
 **Editorial theme grouping only; original opportunity records and gates are unchanged.**
 
-Canonical active cards: 98 | themes: 40 | headline cards: 12
+Canonical active cards: 99 | themes: 41 | headline cards: 12
 
 ## Saturated research themes
 
-- chile_open_finance: 40 cards (40.8%)
+- chile_open_finance: 40 cards (40.4%)
 
 ## One headline per theme
 

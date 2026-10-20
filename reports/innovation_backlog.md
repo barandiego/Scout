@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 98
+Candidates: 99
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -231,6 +231,18 @@ Candidates: 98
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.sec.cl/gda/; https://www.sec.cl/plataformas-ernc/; https://energia.gob.cl/sites/default/files/documentos/sistemas-de-almacenamiento_web.pdf
+
+## Small-scale storage and control feasibility wedge for Chilean distributed generators
+- Status: watch | energy_infrastructure
+- Current idea: A narrow opportunity exists to sell a site-specific storage-and-control pre-feasibility package to existing distributed-generation or high-load sites, focused on identifying whether storage can reduce curtailment, shift consumption or improve connection economics. This is an evidence-backed market-participation test, not proof that a battery project will pay back.
+- Potential economic capture: Charge for a fixed-scope measurement and decision package: interval-load analysis, export/curtailment scenario model, preliminary battery sizing, connection/regulatory checklist and vendor-neutral request-for-quotation specification. Hardware sales, financing, savings and project margins remain unknown.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://energia.gob.cl/consultas-publicas/modificaciones-al-reglamento-ds-ndeg88-para-medios-de-generacion-de-pequena-escala; https://iea.blob.core.windows.net/assets/48eccb83-984c-45d2-bf78-67a61e88d241/Renewables2025.pdf; https://energia.gob.cl/iniciativas/rebaja-del-umbral-para-optar-al-regimen-de-clientes-libres
 
 ## AI and data-center growth are making electricity and grid access a binding cost constraint
 - Status: watch | general

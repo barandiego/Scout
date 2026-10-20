@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-10-20T08:26:43.130836+00:00",
+  "generated_at": "2026-10-20T12:26:57.618799+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -104,14 +104,14 @@
   "high_concentration": [
     {
       "cards": 40,
-      "share": 0.408,
+      "share": 0.404,
       "theme": "chile_open_finance"
     }
   ],
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 40,
+  "theme_count": 41,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -287,6 +287,15 @@
       "representative_id": "opp_9ce303aff6dc0368c324",
       "reviewed_count": 0,
       "theme": "energy_infrastructure:sec_verified_solar"
+    },
+    {
+      "all_opportunity_ids": [
+        "opp_3fc8fe5d5af829de71b9"
+      ],
+      "count": 1,
+      "representative_id": "opp_3fc8fe5d5af829de71b9",
+      "reviewed_count": 0,
+      "theme": "energy_infrastructure:small_scale_storage"
     },
     {
       "all_opportunity_ids": [
@@ -532,6 +541,6 @@
       "theme": "robotics_agritech:small_hydroponic_propagation"
     }
   ],
-  "total_original_cards": 98,
+  "total_original_cards": 99,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }

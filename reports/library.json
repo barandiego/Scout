@@ -4854,6 +4854,67 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-20T12:26:32.656475+00:00",
+      "discovery_lens": "energy_localization",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Chile's Ministry of Energy describes proposed changes covering storage operation and valuation, PMGD monitoring, curtailment, connection procedures and price mechanisms.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Ministry of Energy — proposed modifications to DS 88",
+          "url": "https://energia.gob.cl/consultas-publicas/modificaciones-al-reglamento-ds-ndeg88-para-medios-de-generacion-de-pequena-escala"
+        },
+        {
+          "claim": "The IEA identifies Chilean solar surpluses, infrastructure limits, curtailment and deployment of storage and grid expansion as relevant system issues.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "IEA — Renewables 2025",
+          "url": "https://iea.blob.core.windows.net/assets/48eccb83-984c-45d2-bf78-67a61e88d241/Renewables2025.pdf"
+        },
+        {
+          "claim": "Since February 2025, customers with connected power above 300 kW may voluntarily choose the free-customer regime, creating a verifiable population for tariff and flexibility screening.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Ministry of Energy — reduced threshold for free customers",
+          "url": "https://energia.gob.cl/iniciativas/rebaja-del-umbral-para-optar-al-regimen-de-clientes-libres"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.69,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_3fc8fe5d5af829de71b9",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-20T12:26:32.688926+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Select 5 identifiable Chilean PMGD, commercial or industrial sites with public contact channels and ask for 12 months of interval consumption/generation data plus tariff and connection information. Produce one paid or explicitly authorized no-cost screening only if the site owner agrees that the output is for internal evaluation. Falsify if data cannot be obtained, if no site has a measurable dispatch or connection problem, or if modeled value cannot cover the cost of a later engineering study. Do not claim regulatory approval, battery savings, grid access or a customer mandate before verification.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A narrow opportunity exists to sell a site-specific storage-and-control pre-feasibility package to existing distributed-generation or high-load sites, focused on identifying whether storage can reduce curtailment, shift consumption or improve connection economics. This is an evidence-backed market-participation test, not proof that a battery project will pay back.",
+      "title": "Small-scale storage and control feasibility wedge for Chilean distributed generators",
+      "type": "regulatory_market_entry",
+      "unknowns": [],
+      "value_capture_mechanism": "Charge for a fixed-scope measurement and decision package: interval-load analysis, export/curtailment scenario model, preliminary battery sizing, connection/regulatory checklist and vendor-neutral request-for-quotation specification. Hardware sales, financing, savings and project margins remain unknown.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-13T20:22:30.984395+00:00",
       "discovery_lens": "energy_localization",
       "estimated_capital": "",
@@ -7013,13 +7074,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-20T08:26:43.130836+00:00",
+  "generated_at": "2026-10-20T12:26:57.618799+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 53,
+  "rejected_excluded": 54,
   "reviewed_cards": 49,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 151,
-  "watch": 98
+  "total_distinct_opportunities": 153,
+  "watch": 99
 }

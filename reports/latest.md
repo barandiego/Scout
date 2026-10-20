@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-20T08:26:42.772437+00:00
+Generated: 2026-10-20T12:26:57.289431+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['early_adoption_investing', 'market_positioning', 'asset_ownership']
+- lenses: ['nfc_smart_commerce', 'vertical_farming_economics', 'energy_localization']
 - raw_candidates: 2
 - parseable_candidates: 2
 - normalized_candidates: 2
 - normalization_rejected: 0
-- grounded_sources: 4
+- grounded_sources: 6
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
 - critic_reviews: 1
 - judge_reviews: 1
 - survivors: 0
-- watches: 3
-- rejected: 0
+- watches: 1
+- rejected: 1
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.04605135
+- cost_usd: 0.0436652
 - cost_uncertain: False
-- budget_remaining_usd: 0.03394865
+- budget_remaining_usd: 0.0363348
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Pre-compliance Open Finance connectivity test for Chilean fintechs and smaller financial entities: deferred_by_review_cap
 - Application-specific cobot and machine-vision retrofit assessment for Chilean agroprocessors: deferred_by_review_cap
 - Chile Open-Finance conformance and integration test harness: deferred_by_review_cap
 - Low-cost orchard maturity and yield-scanning service using commercially available sensors: deferred_by_review_cap
@@ -51,13 +50,14 @@ No survivors. Scout does not manufacture a daily winner.
 - Independent commissioning and support wedge for imported cobots and industrial robots: deferred_by_review_cap
 - Chile Open-Finance conformance harness before July 2027 implementation: deferred_by_review_cap
 - Licensed AI-agent incident dataset with spend-control benchmark: deferred_by_review_cap
+- Small-scale storage and control feasibility wedge for Chilean distributed generators: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=backlog",
-    "research_queue_unreviewed=44"
+    "deep_review_lane=fresh",
+    "research_queue_unreviewed=45"
   ],
   "stages": [
     {
@@ -65,30 +65,42 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 22,
+      "grounded_source_count": 34,
       "search_source_urls": [
-        "https://arxiv.org/abs/2603.16453",
-        "https://arxiv.org/abs/2607.28956",
-        "https://arxiv.org/abs/2608.30730",
-        "https://arxiv.org/abs/2610.10942",
-        "https://cmfchile.cl/portal/principal/613/articles-86367_doc_pdf.pdf",
-        "https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive",
-        "https://github.com/VulcanLab/genai-security-incidents",
-        "https://github.com/emmanuelgjr/genai_incidents/blob/main/docs/paper/genai-incidents-methods.md",
-        "https://github.com/kindrat86/ai-agent-incident-database/blob/main/README.md",
-        "https://github.com/paolodm/ai-coding-agents-incidents",
-        "https://github.com/swarm-ai-research/wiki-agent-swarm-incident/blob/main/README.md",
-        "https://www.cmfchile.cl/portal/prensa/615/articles-99378_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.sec.gov/Archives/edgar/data/1646188/000101376223000645/fars2023_ondasholdings.pdf",
-        "https://www.sec.gov/Archives/edgar/data/1760404/000176040425000008/offeringmemoformc.pdf",
-        "https://www.sec.gov/Archives/edgar/data/1830909/000183090920000007/formc.pdf",
-        "https://www.sec.gov/Archives/edgar/data/1832483/000183248326000034/finalserve_investorxdeck.htm",
-        "https://www.sec.gov/Archives/edgar/data/1833099/000183309925000017/offeringmemoformc.pdf",
-        "https://www.sec.gov/Archives/edgar/data/1956955/000168316826006179/umac_ex9901.htm",
-        "https://www.sec.gov/Archives/edgar/data/2074973/000121390026071287/ea029548401ex99-2.htm",
-        "https://www.sec.gov/Archives/edgar/data/2074973/000121390026107261/ea030784201ex99-1.htm"
+        "https://arxiv.org/abs/2008.01325",
+        "https://arxiv.org/abs/2303.04433",
+        "https://arxiv.org/abs/2606.13401",
+        "https://credencialeschile.cl/categoria-producto/nfc/",
+        "https://dash.harvard.edu/bitstreams/13b98a75-87b6-4339-840b-b11381657c20/download",
+        "https://documents1.worldbank.org/curated/en/103361524057787356/pdf/RWSAT-AUS.pdf",
+        "https://en.wikipedia.org/wiki/2025_Chile_blackout",
+        "https://en.wikipedia.org/wiki/Curtailment_in_Chile",
+        "https://en.wikipedia.org/wiki/Electricity_sector_in_Chile",
+        "https://en.wikipedia.org/wiki/Energy_in_Chile",
+        "https://energia.gob.cl/consultas-publicas/modificaciones-al-reglamento-ds-ndeg88-para-medios-de-generacion-de-pequena-escala",
+        "https://energia.gob.cl/consultas-publicas/modificaciones-al-reglamento-ds-ndeg88-para-medios-de-generacion-de-pequena-escala",
+        "https://energia.gob.cl/iniciativas/rebaja-del-umbral-para-optar-al-regimen-de-clientes-libres",
+        "https://es.scribd.com/document/1014311150/BOLETIN-1-INIA-FIA-Manejo-Sanitario-y-Otros-InIA-Chile",
+        "https://es.wikipedia.org/wiki/Sector_el%C3%A9ctrico_en_Chile",
+        "https://iea.blob.core.windows.net/assets/48eccb83-984c-45d2-bf78-67a61e88d241/Renewables2025.pdf",
+        "https://iea.blob.core.windows.net/assets/f545917a-b119-4495-957b-fcc263deb391/Electricity_2026.pdf",
+        "https://it.wikipedia.org/wiki/Skyfarming",
+        "https://kraftdo.cl/",
+        "https://nfcnexo.cl/",
+        "https://nfcnexo.cl/",
+        "https://nfctech.cl/",
+        "https://production.solarmarkt.ch/solarmarkt/news-schulungen-messen/news/global_market_outlook_2025_v1_aaebd9698b.pdf",
+        "https://pymevisible.cl/productos/tarjeta-google",
+        "https://tnfc.cl/",
+        "https://www.aither.cl/tap/",
+        "https://www.apec.org/docs/default-source/publications/2025/12/225_ewg_apec-energy-demand-and-supply-outlook-volume-2.pdf?sfvrsn=2a2b92ef_1",
+        "https://www.citytap.cl/",
+        "https://www.reddit.com/r/Hydroponics/comments/1es167q",
+        "https://www.reddit.com/r/Hydroponics/comments/1jz870f",
+        "https://www.reddit.com/r/Hydroponics/comments/1nuohxp/hydroponics_to_save_money/",
+        "https://www.reddit.com/r/verticalfarming/comments/1hkjvao",
+        "https://www.reddit.com/r/verticalfarming/comments/tujf2z",
+        "https://www.vittaserviciosgraficos.cl/products/llaveros-inteligentes-nfc"
       ]
     },
     {
@@ -103,7 +115,7 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 2,
+      "grounded_sources": 3,
       "retry_justified": false
     },
     {
@@ -118,68 +130,60 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 2,
+      "grounded_sources": 3,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_45b7e9d57391da701819",
+      "candidate_id": "opp_9dcfdaa6dfe9fe411798",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 39,
+      "grounded_source_count": 32,
       "search_source_urls": [
-        "https://aiche.onlinelibrary.wiley.com/doi/full/10.1002/aic.70208",
-        "https://arxiv.org/abs/1209.4324",
-        "https://arxiv.org/abs/1710.04506",
-        "https://arxiv.org/abs/1905.04829",
-        "https://arxiv.org/abs/2309.15860",
-        "https://cotec.ca/our-business/assets-technologies/assets/basic-industries-venture-fund-i-/",
-        "https://en.wikipedia.org/wiki/Envela",
-        "https://en.wikipedia.org/wiki/MP_Materials",
-        "https://en.wikipedia.org/wiki/Magnequench",
-        "https://en.wikipedia.org/wiki/Neodymium",
-        "https://en.wikipedia.org/wiki/USA_Rare_Earth",
-        "https://en.wikipedia.org/wiki/Vulcan_Elements",
-        "https://hypromagusa.com/",
-        "https://hypromagusa.com/hypromag-usa-to-establish-early-magnet-finishing-capability-as-part-of-phased-texas-hub-development/",
-        "https://hypromagusa.com/projects/",
-        "https://investors.usare.com/static-files/47a7d9ef-1a28-4fa0-bbdb-f3fd0005ae0c",
-        "https://rareearthdirectory.com/rare-earth-companies-in-the-us/",
-        "https://rareearthdirectory.com/rare-earth-companies-in-the-us/recyclers/",
-        "https://www.energy.gov/sites/default/files/2024-12/Neodymium%2520Magnets%2520Supply%2520Chain%2520Report%2520-%2520Final%5B1%5D.pdf",
-        "https://www.energy.gov/sites/default/files/2024-12/Neodymium%2520Magnets%2520Supply%2520Chain%2520Report%2520-%2520Final%5B1%5D.pdf?refid=20251036",
-        "https://www.energy.gov/technologycommercialization/articles/ornl-licenses-rare-earth-magnet-recycling-process-momentum",
-        "https://www.reddit.com/r/AREC_stock/comments/1pdf2le/arec_eri_join_forces_to_strengthen_us_rare_earth/",
-        "https://www.reddit.com/r/NIOCORP_MINE/comments/1bzq8s6",
-        "https://www.reddit.com/r/NIOCORP_MINE/comments/1c723n6",
-        "https://www.reddit.com/r/NIOCORP_MINE/comments/1cm9qto",
-        "https://www.reddit.com/r/NIOCORP_MINE/comments/1dl20ny",
-        "https://www.reddit.com/r/NIOCORP_MINE/comments/1fue23z",
-        "https://www.reddit.com/r/NIOCORP_MINE/comments/1gfjua0",
-        "https://www.reddit.com/r/NIOCORP_MINE/comments/1gjhu15",
-        "https://www.reddit.com/r/NIOCORP_MINE/comments/1m0f943",
-        "https://www.reddit.com/r/NIOCORP_MINE/comments/1s51oqc/niocorp_mineusa_rare_earth_magnet_production/",
-        "https://www.reddit.com/r/Treaty_Creek/comments/174j6qy",
-        "https://www.reddit.com/r/u_RedChipCompanies/comments/1egmbie",
-        "https://www.sec.gov/Archives/edgar/data/2079013/000182912626010648/hallchadwickacq_ex99-3.htm",
-        "https://www.unitedre.com/technology/",
-        "https://www.usare.com/operations/",
-        "https://www.usitc.gov/publications/332/journals/jice_recovering_rare_earth_elements_from_e_waste.pdf",
-        "https://www.usitc.gov/sites/default/files/publications/332/journals/jice_recovering_rare_earth_elements_from_e_waste.pdf",
-        "https://www.usstrategicmetals.com/us-strategic-metals-and-ionic-rare-earths-to-build-first-u-s-magnet-recycling-plant-in-missouri/"
+        "https://accessa.cl/",
+        "https://cdn.globalcherrysummit.com/2026/01/Manual-del-Expositor-_-Auspiciador-GCS-2026-ESP.pdf",
+        "https://en.wikipedia.org/wiki/EventMobi",
+        "https://en.wikipedia.org/wiki/Poken",
+        "https://es.wikipedia.org/wiki/Gafete",
+        "https://es.wikipedia.org/wiki/TOC_Biometrics",
+        "https://es.wikipedia.org/wiki/Tarjeta_C%C3%ADvica",
+        "https://identicard.cl/pages/servicios",
+        "https://itecsa.cl/pages/cotizador_de_credenciales",
+        "https://jobsoft.cl/",
+        "https://pasdek.com/",
+        "https://primepass.cl/",
+        "https://tauto.cl/",
+        "https://tecnocard.cl/",
+        "https://tramites.inapi.cl/Trademark/TrademarkDailyStatus/DownloadFile?dailyStatesTypeId=2&filedate=09%2F01%2F2024+12%3A00%3A00+a.+m.&stream_id=a0e793c8-f7ae-ee11-892f-040973dcfef1",
+        "https://tramites.inapi.cl/TrademarkNewGazette/DownloadFile?date=06%2F23%2F2025+00%3A00%3A00&stream_id=436c9855-4350-f011-8945-040973dcfef1",
+        "https://www.anfp.cl/wp-content/uploads/2026/01/Instructivo-de-Acreditacion-ANFP-2026.pdf",
+        "https://www.bcentral.cl/documents/33528/112439/50001480%2BBases%2BLicitaci%C3%B3n%2BCAMBIO%2BTECNOLOG%C3%8DA%2BDE%2BCREDENCIALES.pdf/71ec539a-5457-c027-cc7f-fd2a9d49db67?t=1742397235527",
+        "https://www.capterra.cl/directory/30950/event-check-in/software",
+        "https://www.chapaspublicitarias.cl/lanyardsyportacredenciales/credenciales-eventos.html",
+        "https://www.pass.cl/",
+        "https://www.portaldisc.com/pdf/PortalTickets_Acreditacion.pdf",
+        "https://www.reddit.com/r/NFC/comments/1haj50i",
+        "https://www.reddit.com/r/NFC/comments/1vreyqj/tarjetas_nfc/",
+        "https://www.reddit.com/r/chile/comments/swoa5d",
+        "https://www.reddit.com/r/chileIT/comments/1jqqcrk",
+        "https://www.reddit.com/r/chileIT/comments/1ltj1d8",
+        "https://www.reddit.com/r/flipperzero/comments/1gsaz96",
+        "https://www.reddit.com/r/u_Illustrious-Finance3/comments/1ef7xpo",
+        "https://www.reddit.com/r/u_advantidgeinc/comments/1rlz08p/considerations_for_largeformat_event_credentials/",
+        "https://www.techradar.com/pro/factorial-hr-software-review",
+        "https://www.tuk.cl/es-cl/pages/para-empresas"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_45b7e9d57391da701819",
+      "candidate_id": "opp_9dcfdaa6dfe9fe411798",
       "coercions": [
-        "critic_case",
         "contrary_evidence"
       ]
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_45b7e9d57391da701819",
+      "candidate_id": "opp_9dcfdaa6dfe9fe411798",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -187,7 +191,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_45b7e9d57391da701819",
+      "candidate_id": "opp_9dcfdaa6dfe9fe411798",
       "coercions": []
     }
   ],
@@ -195,44 +199,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 317,
-      "cache_write_tokens": 5412,
+      "reasoning_tokens": 420,
+      "cache_write_tokens": 5607,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0147236,
+      "cumulative_cost_usd": 0.01514255,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13835,
+      "input_tokens": 14153,
       "cached_tokens": 0,
-      "output_tokens": 1405,
+      "output_tokens": 1693,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0147236
+      "estimated_cost_usd": 0.01514255
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 148,
-      "cache_write_tokens": 5273,
+      "reasoning_tokens": 163,
+      "cache_write_tokens": 5333,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02930085,
+      "cumulative_cost_usd": 0.0299992,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13756,
+      "input_tokens": 13938,
       "cached_tokens": 0,
-      "output_tokens": 1302,
+      "output_tokens": 1502,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01457725
+      "estimated_cost_usd": 0.01485665
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 194,
-      "cache_write_tokens": 3285,
+      "reasoning_tokens": 99,
+      "cache_write_tokens": 2848,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.04605135,
+      "cumulative_cost_usd": 0.0436652,
       "model": "gpt-5.6-terra",
-      "input_tokens": 3288,
+      "input_tokens": 2851,
       "cached_tokens": 0,
-      "output_tokens": 711,
+      "output_tokens": 545,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.0167505
+      "estimated_cost_usd": 0.013666
     }
   ]
 }

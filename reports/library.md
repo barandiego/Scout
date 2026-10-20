@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-20T08:26:43.130836+00:00
+Generated: 2026-10-20T12:26:57.618799+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 98 (0 HQ survivors, 98 watches)
-- Rejected opportunities excluded: 53
+- Active research: 99 (0 HQ survivors, 99 watches)
+- Rejected opportunities excluded: 54
 - Critic-and-judge reviewed: 49
 - Autonomous execution authorization: 0
 
@@ -592,6 +592,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.chileagricola.cl/precios-mayoristas/; https://es.scribd.com/document/1014311150/BOLETIN-1-INIA-FIA-Manejo-Sanitario-y-Otros-InIA-Chile; https://andinotech.cl/categoria-producto/hidroponia/sistema-de-cultivo-hidroponico/
+
+### Small-scale storage and control feasibility wedge for Chilean distributed generators [opp_3fc8fe5d5af829de71b9]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile
+- Thesis: A narrow opportunity exists to sell a site-specific storage-and-control pre-feasibility package to existing distributed-generation or high-load sites, focused on identifying whether storage can reduce curtailment, shift consumption or improve connection economics. This is an evidence-backed market-participation test, not proof that a battery project will pay back.
+- Value capture: Charge for a fixed-scope measurement and decision package: interval-load analysis, export/curtailment scenario model, preliminary battery sizing, connection/regulatory checklist and vendor-neutral request-for-quotation specification. Hardware sales, financing, savings and project margins remain unknown.
+- Participation hypothesis: Select 5 identifiable Chilean PMGD, commercial or industrial sites with public contact channels and ask for 12 months of interval consumption/generation data plus tariff and connection information. Produce one paid or explicitly authorized no-cost screening only if the site owner agrees that the output is for internal evaluation. Falsify if data cannot be obtained, if no site has a measurable dispatch or connection problem, or if modeled value cannot cover the cost of a later engineering study. Do not claim regulatory approval, battery savings,
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://energia.gob.cl/consultas-publicas/modificaciones-al-reglamento-ds-ndeg88-para-medios-de-generacion-de-pequena-escala; https://iea.blob.core.windows.net/assets/48eccb83-984c-45d2-bf78-67a61e88d241/Renewables2025.pdf; https://energia.gob.cl/iniciativas/rebaja-del-umbral-para-optar-al-regimen-de-clientes-libres
 
 ### 15-minute demand-charge diagnostic and retrofit kit for Chilean commercial sites [opp_5c54bef099722659c2b1]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile, initially regulated commercial customers on BT/AT demand tariffs

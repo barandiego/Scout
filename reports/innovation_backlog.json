@@ -699,6 +699,43 @@
     },
     {
       "capital_required_unverified_estimate": "",
+      "category": "energy_infrastructure",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Select 5 identifiable Chilean PMGD, commercial or industrial sites with public contact channels and ask for 12 months of interval consumption/generation data plus tariff and connection information. Produce one paid or explicitly authorized no-cost screening only if the site owner agrees that the output is for internal evaluation. Falsify if data cannot be obtained, if no site has a measurable dispatch or connection problem, or if modeled value cannot cover the cost of a later engineering study. Do not claim regulatory approval, battery savings, grid access or a customer mandate before verification.",
+      "current_thesis": "A narrow opportunity exists to sell a site-specific storage-and-control pre-feasibility package to existing distributed-generation or high-load sites, focused on identifying whether storage can reduce curtailment, shift consumption or improve connection economics. This is an evidence-backed market-participation test, not proof that a battery project will pay back.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Small-scale storage and control feasibility wedge for Chilean distributed generators",
+      "opportunity_id": "opp_3fc8fe5d5af829de71b9",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
+        "Compare owned asset, installer/distributor and project-finance participation.",
+        "Verify permits and installed net payback under conservative power price scenarios."
+      ],
+      "supporting_source_urls": [
+        "https://energia.gob.cl/consultas-publicas/modificaciones-al-reglamento-ds-ndeg88-para-medios-de-generacion-de-pequena-escala",
+        "https://iea.blob.core.windows.net/assets/48eccb83-984c-45d2-bf78-67a61e88d241/Renewables2025.pdf",
+        "https://energia.gob.cl/iniciativas/rebaja-del-umbral-para-optar-al-regimen-de-clientes-libres"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Charge for a fixed-scope measurement and decision package: interval-load analysis, export/curtailment scenario model, preliminary battery sizing, connection/regulatory checklist and vendor-neutral request-for-quotation specification. Hardware sales, financing, savings and project margins remain unknown.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
       "category": "general",
       "commercially_validated": false,
       "competition_confirmed": false,
@@ -3746,7 +3783,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-20T08:26:43.203359+00:00",
+  "generated_at": "2026-10-20T12:26:57.677424+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"
