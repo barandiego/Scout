@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-10-20T00:26:30.184104+00:00",
+  "generated_at": "2026-10-20T04:24:14.779454+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -104,14 +104,14 @@
   "high_concentration": [
     {
       "cards": 39,
-      "share": 0.415,
+      "share": 0.406,
       "theme": "chile_open_finance"
     }
   ],
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 37,
+  "theme_count": 39,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -397,6 +397,15 @@
     },
     {
       "all_opportunity_ids": [
+        "opp_8c16fed4c2cf73d19319"
+      ],
+      "count": 1,
+      "representative_id": "opp_8c16fed4c2cf73d19319",
+      "reviewed_count": 0,
+      "theme": "physical_distribution:warehouse_cleaning_robot"
+    },
+    {
+      "all_opportunity_ids": [
         "opp_decc33f3027f68ae3faf"
       ],
       "count": 1,
@@ -430,6 +439,15 @@
       "representative_id": "opp_1944783f6fbdfee6890f",
       "reviewed_count": 0,
       "theme": "robotics_agritech:food_beverage_robot"
+    },
+    {
+      "all_opportunity_ids": [
+        "opp_f4c3bdd269dc1732bf3a"
+      ],
+      "count": 1,
+      "representative_id": "opp_f4c3bdd269dc1732bf3a",
+      "reviewed_count": 0,
+      "theme": "robotics_agritech:independent_commissioning_support"
     },
     {
       "all_opportunity_ids": [
@@ -504,6 +522,6 @@
       "theme": "robotics_agritech:small_hydroponic_propagation"
     }
   ],
-  "total_original_cards": 94,
+  "total_original_cards": 96,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }

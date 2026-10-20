@@ -5795,6 +5795,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-20T04:23:55.304172+00:00",
+      "discovery_lens": "chile_technology_import",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "A Chilean seller lists industrial robots and cobots with public reference prices and says it offers installation, leveling, commissioning, and operator training nationwide; imported machines can be quoted through public channels.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Robots industriales y cobots en Chile",
+          "url": "https://dintass.cl/collections/robots-industriales"
+        },
+        {
+          "claim": "A Chilean robotics provider publicly offers robot-as-a-service, local installation and support, and listed prices for autonomous robots, demonstrating an existing commercial route for imported robotics deployment.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "VIC Robotics Chile | Cobots, Limpieza Autónoma y Automatización Industrial",
+          "url": "https://www.vicrobotics.com/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.82,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_f4c3bdd269dc1732bf3a",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-20T04:23:55.353458+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Choose one machine class, such as 5–10 kg welding cobots. Prepare a one-page commissioning checklist and a simulated work-cell acceptance test using public specifications. Contact listed distributors through their public quote channels and ask whether they already outsource commissioning or need an independent local technician. Do not buy equipment. Falsify after five documented contacts fail to produce a paid trial, subcontract discussion, or access to a machine for inspection.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The equipment is commercially purchasable, but the purchase decision also requires process fit, electrical checks, installation, operator training, and commissioning. A small operator could test a narrowly specialized subcontracting or referral role rather than importing inventory.",
+      "title": "Independent commissioning and support wedge for imported cobots and industrial robots",
+      "type": "service_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Charge for a fixed commissioning, electrical/process-readiness inspection, operator-training, or maintenance visit only if a distributor or end customer agrees to purchase it. Alternatively, seek a documented referral or subcontract arrangement; no such permission or fee was verified.",
+      "verified_sales": null,
+      "vertical": "robotics_agritech",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-18T08:19:14.984783+00:00",
       "discovery_lens": "adoption_lag",
       "estimated_capital": "",
@@ -6761,18 +6815,72 @@
       "vertical": "public_markets",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-20T04:23:55.304942+00:00",
+      "discovery_lens": "underserved_buyers",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "VIC Robotics publishes a Chilean RaaS offer starting at UF 20 per month, with maintenance, support, installation, and contracts of 12 to 36 months.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Precios Arriendo Robot Chile | RaaS desde UF 20/mes",
+          "url": "https://www.vicrobotics.com/precios"
+        },
+        {
+          "claim": "The provider publishes warehouse-cleaning use cases, a free technical evaluation route, RaaS pricing from UF 20 per month, and outright prices for specific robots.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Robot de Limpieza Industrial para Bodegas | Arriendo en Chile",
+          "url": "https://www.vicrobotics.com/soluciones/limpieza-industrial-bodegas"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.84,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_8c16fed4c2cf73d19319",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-20T04:23:55.353240+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Select one local facility type and compile a list of publicly identifiable sites with large hard-floor areas. Send a factual one-page pilot brief referencing the provider’s published RaaS price and request permission to forward the inquiry to the provider. Run one no-cost discovery call or site walk only after the facility expresses interest; stop if no facility agrees to discuss floor area, cleaning labor, or a pilot. Do not represent the provider, promise savings, or purchase a robot without written authorization.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The offer creates a concrete procurement and pilot mechanism for warehouses, supermarkets, offices, clinics, and hotels that may prefer a monthly operating expense over capital purchase. The evidence verifies an available offer, not unmet demand or customer savings.",
+      "title": "Warehouse-cleaning robot pilot sold as an operating expense",
+      "type": "equipment_distribution",
+      "unknowns": [],
+      "value_capture_mechanism": "Participate as a site-identification and pilot coordinator only if the provider accepts referrals or a target facility requests an introduction. A small operator could also sell a paid site-measurement or cleaning-route feasibility study, but no buyer, referral fee, or margin was verified.",
+      "verified_sales": null,
+      "vertical": "physical_distribution",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
     }
   ],
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-20T00:26:30.184104+00:00",
+  "generated_at": "2026-10-20T04:24:14.779454+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 52,
+  "rejected_excluded": 53,
   "reviewed_cards": 48,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 146,
-  "watch": 94
+  "total_distinct_opportunities": 149,
+  "watch": 96
 }

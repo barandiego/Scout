@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-20T00:26:30.184104+00:00
+Generated: 2026-10-20T04:24:14.779454+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 94 (0 HQ survivors, 94 watches)
-- Rejected opportunities excluded: 52
+- Active research: 96 (0 HQ survivors, 96 watches)
+- Rejected opportunities excluded: 53
 - Critic-and-judge reviewed: 48
 - Autonomous execution authorization: 0
 
@@ -773,6 +773,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.energy.gov/mesc/industrial-research-and-assessment-center-implementation-grant-awards; https://www.energy.gov/sites/default/files/2023-08/CX-028489.pdf
 
+### Independent commissioning and support wedge for imported cobots and industrial robots [opp_f4c3bdd269dc1732bf3a]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile
+- Thesis: The equipment is commercially purchasable, but the purchase decision also requires process fit, electrical checks, installation, operator training, and commissioning. A small operator could test a narrowly specialized subcontracting or referral role rather than importing inventory.
+- Value capture: Charge for a fixed commissioning, electrical/process-readiness inspection, operator-training, or maintenance visit only if a distributor or end customer agrees to purchase it. Alternatively, seek a documented referral or subcontract arrangement; no such permission or fee was verified.
+- Participation hypothesis: Choose one machine class, such as 5–10 kg welding cobots. Prepare a one-page commissioning checklist and a simulated work-cell acceptance test using public specifications. Contact listed distributors through their public quote channels and ask whether they already outsource commissioning or need an independent local technician. Do not buy equipment. Falsify after five documented contacts fail to produce a paid trial, subcontract discussion, or access to a machine for inspection.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://dintass.cl/collections/robots-industriales; https://www.vicrobotics.com/
+
 ### Independent retrofit and field-validation service for low-cost agricultural weeding robots [opp_2d12caab9bd8d5bc8fa9]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States; adaptable to Chilean specialty crops
 - Thesis: The practical gap is not proving that agricultural robotics exists; it is adapting and validating lower-cost platforms for one crop, row geometry and task. A small operator can test whether growers or research farms will pay for mapping, supervised trials and retrofit integration before attempting to manufacture a robot.
@@ -952,3 +962,13 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.dtcc.com/products-and-services/digital-assets/tokenization/hub; https://www.dtcc.com/products-and-services/digital-assets/tokenization/live-production-trades
+
+### Warehouse-cleaning robot pilot sold as an operating expense [opp_8c16fed4c2cf73d19319]
+- Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile
+- Thesis: The offer creates a concrete procurement and pilot mechanism for warehouses, supermarkets, offices, clinics, and hotels that may prefer a monthly operating expense over capital purchase. The evidence verifies an available offer, not unmet demand or customer savings.
+- Value capture: Participate as a site-identification and pilot coordinator only if the provider accepts referrals or a target facility requests an introduction. A small operator could also sell a paid site-measurement or cleaning-route feasibility study, but no buyer, referral fee, or margin was verified.
+- Participation hypothesis: Select one local facility type and compile a list of publicly identifiable sites with large hard-floor areas. Send a factual one-page pilot brief referencing the provider’s published RaaS price and request permission to forward the inquiry to the provider. Run one no-cost discovery call or site walk only after the facility expresses interest; stop if no facility agrees to discuss floor area, cleaning labor, or a pilot. Do not represent the provider, promise savings, or purchase a robot without written authorization.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.vicrobotics.com/precios; https://www.vicrobotics.com/soluciones/limpieza-industrial-bodegas

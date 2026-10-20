@@ -2987,6 +2987,42 @@
     },
     {
       "capital_required_unverified_estimate": "",
+      "category": "physical_distribution",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Select one local facility type and compile a list of publicly identifiable sites with large hard-floor areas. Send a factual one-page pilot brief referencing the provider’s published RaaS price and request permission to forward the inquiry to the provider. Run one no-cost discovery call or site walk only after the facility expresses interest; stop if no facility agrees to discuss floor area, cleaning labor, or a pilot. Do not represent the provider, promise savings, or purchase a robot without written authorization.",
+      "current_thesis": "The offer creates a concrete procurement and pilot mechanism for warehouses, supermarkets, offices, clinics, and hotels that may prefer a monthly operating expense over capital purchase. The evidence verifies an available offer, not unmet demand or customer savings.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Warehouse-cleaning robot pilot sold as an operating expense",
+      "opportunity_id": "opp_8c16fed4c2cf73d19319",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Compare local product availability to supplier catalogs and independent consumer interest.",
+        "Check import, tax, return, certification and delivery economics before estimating margin.",
+        "Try a legitimate pre-order/waitlist test with transparent fulfillment conditions."
+      ],
+      "supporting_source_urls": [
+        "https://www.vicrobotics.com/precios",
+        "https://www.vicrobotics.com/soluciones/limpieza-industrial-bodegas"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Participate as a site-identification and pilot coordinator only if the provider accepts referrals or a target facility requests an introduction. A small operator could also sell a paid site-measurement or cleaning-route feasibility study, but no buyer, referral fee, or margin was verified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
       "category": "public_markets",
       "commercially_validated": false,
       "competition_confirmed": false,
@@ -3253,6 +3289,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Possible cash flows are a paid process audit, paid proof-of-concept, or resale/integration fee from a qualified equipment supplier. No buyer, price, savings or installation permission is assumed until a specific plant and task are validated.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "robotics_agritech",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Choose one machine class, such as 5–10 kg welding cobots. Prepare a one-page commissioning checklist and a simulated work-cell acceptance test using public specifications. Contact listed distributors through their public quote channels and ask whether they already outsource commissioning or need an independent local technician. Do not buy equipment. Falsify after five documented contacts fail to produce a paid trial, subcontract discussion, or access to a machine for inspection.",
+      "current_thesis": "The equipment is commercially purchasable, but the purchase decision also requires process fit, electrical checks, installation, operator training, and commissioning. A small operator could test a narrowly specialized subcontracting or referral role rather than importing inventory.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Independent commissioning and support wedge for imported cobots and industrial robots",
+      "opportunity_id": "opp_f4c3bdd269dc1732bf3a",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
+        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
+        "Arrange a bounded field validation with an actual farm operator before scaling."
+      ],
+      "supporting_source_urls": [
+        "https://dintass.cl/collections/robots-industriales",
+        "https://www.vicrobotics.com/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Charge for a fixed commissioning, electrical/process-readiness inspection, operator-training, or maintenance visit only if a distributor or end customer agrees to purchase it. Alternatively, seek a documented referral or subcontract arrangement; no such permission or fee was verified.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -3598,7 +3670,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-20T00:26:30.244228+00:00",
+  "generated_at": "2026-10-20T04:24:14.856147+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

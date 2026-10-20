@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 94
+Candidates: 96
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -940,6 +940,18 @@ Candidates: 94
 - Possible initial budget:
 - Source URLs: https://pubs.usgs.gov/periodicals/mcs2025/mcs2025_ver.1.0.pdf; https://pubs.usgs.gov/periodicals/mcs2025/mcs2025.pdf
 
+## Warehouse-cleaning robot pilot sold as an operating expense
+- Status: watch | physical_distribution
+- Current idea: The offer creates a concrete procurement and pilot mechanism for warehouses, supermarkets, offices, clinics, and hotels that may prefer a monthly operating expense over capital purchase. The evidence verifies an available offer, not unmet demand or customer savings.
+- Potential economic capture: Participate as a site-identification and pilot coordinator only if the provider accepts referrals or a target facility requests an introduction. A small operator could also sell a paid site-measurement or cleaning-route feasibility study, but no buyer, referral fee, or margin was verified.
+- **Research routes to test (NOT validated claims):**
+  - Compare local product availability to supplier catalogs and independent consumer interest.
+  - Check import, tax, return, certification and delivery economics before estimating margin.
+  - Try a legitimate pre-order/waitlist test with transparent fulfillment conditions.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.vicrobotics.com/precios; https://www.vicrobotics.com/soluciones/limpieza-industrial-bodegas
+
 ## Grid connection capacity is becoming a monetizable bottleneck
 - Status: watch | public_markets
 - Current idea: Projects can be delayed despite available generation and storage economics. Technologies and services that increase utilization of existing networks may have value before major transmission construction is completed.
@@ -1023,6 +1035,18 @@ Candidates: 94
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://ifr.org/news/us-robot-industry-returns-to-double-digit-growth/1st; https://ifr.org/news/five-million-robots-now-operate-in-factories-globally/
+
+## Independent commissioning and support wedge for imported cobots and industrial robots
+- Status: watch | robotics_agritech
+- Current idea: The equipment is commercially purchasable, but the purchase decision also requires process fit, electrical checks, installation, operator training, and commissioning. A small operator could test a narrowly specialized subcontracting or referral role rather than importing inventory.
+- Potential economic capture: Charge for a fixed commissioning, electrical/process-readiness inspection, operator-training, or maintenance visit only if a distributor or end customer agrees to purchase it. Alternatively, seek a documented referral or subcontract arrangement; no such permission or fee was verified.
+- **Research routes to test (NOT validated claims):**
+  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
+  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
+  - Arrange a bounded field validation with an actual farm operator before scaling.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://dintass.cl/collections/robots-industriales; https://www.vicrobotics.com/
 
 ## Independent field-service and deployment support for autonomous agricultural weed-control robots
 - Status: watch | robotics_agritech
