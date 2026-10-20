@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-20T09:01:29.211064+00:00
+Generated: 2026-10-20T13:13:01.130866+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 97
+- New this cycle: 107
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 301, ai 252, commerce 32, energy 547, robotics 668
+- Categories: agriculture 305, ai 246, commerce 33, energy 545, robotics 671
 
 ## Recently encountered signals
 
@@ -246,6 +246,18 @@ Generated: 2026-10-20T09:01:29.211064+00:00
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
+### Vaishhnavi2901/cropvision-ai
+- Source: https://github.com/Vaishhnavi2901/cropvision-ai
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### Vaishhnavi2901/stress-vision-ai
+- Source: https://github.com/Vaishhnavi2901/stress-vision-ai
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
 ### Vaishhnavi2901/Cropvision-AI
 - Source: https://github.com/Vaishhnavi2901/Cropvision-AI
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
@@ -446,18 +458,6 @@ Generated: 2026-10-20T09:01:29.211064+00:00
 
 ### kerubopurity039-sys/Agrivoltaic
 - Source: https://github.com/kerubopurity039-sys/Agrivoltaic
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### vijayalakshmichemikela-cloud/intelligentparking-ai
-- Source: https://github.com/vijayalakshmichemikela-cloud/intelligentparking-ai
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Green Nanoparticles in Precision Agriculture: A Critical Review of Smart Crop Management, Nano-Enabled Delivery Systems, and Sustainable Farming
-- Source: https://doi.org/10.2147/nsa.s632332
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
