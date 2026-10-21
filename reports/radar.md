@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-21T09:03:26.473788+00:00
+Generated: 2026-10-21T13:13:21.746432+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 95
+- New this cycle: 112
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
-- Categories: agriculture 321, ai 221, commerce 34, energy 524, robotics 700
+- Feed failures (fail-open for public intake only): none
+- Categories: agriculture 326, ai 214, commerce 35, energy 518, robotics 707
 
 ## Recently encountered signals
 
@@ -246,6 +246,36 @@ Generated: 2026-10-21T09:03:26.473788+00:00
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
+### A scenario-adaptive AHP-FCE framework for lithium-ion battery thermal management: Optimal strategy selection in energy storage, supercars, and marine propulsion
+- Source: https://doi.org/10.1016/j.tsep.2026.104964
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### pallavikurhade1234/agriculture-website
+- Source: https://github.com/pallavikurhade1234/agriculture-website
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### Integrated energy and thermal management for battery energy storage systems in range-extended electric vehicles based on generative adversarial imitation learning
+- Source: https://doi.org/10.1016/j.est.2026.125212
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### PRECISION AGRICULTURE AND SMART FARMING: DIGITAL TECHNOLOGIES FOR SUSTAINABLE CROP PRODUCTION
+- Source: https://doi.org/10.21474/jnaves01/154
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### Degradation-Aware Deep Reinforcement Learning for Battery Energy Storage Dispatch in Industrial Microgrids and Its Real-Time Deployment Validation
+- Source: https://doi.org/10.3390/en19204997
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
 ### Mahalakshmi2848/VIRTUAL-ASSISTANT-WITH-SMART-UI-FOR-AGRICULTURAL-SUPPORT-
 - Source: https://github.com/Mahalakshmi2848/VIRTUAL-ASSISTANT-WITH-SMART-UI-FOR-AGRICULTURAL-SUPPORT-
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
@@ -430,34 +460,4 @@ Generated: 2026-10-21T09:03:26.473788+00:00
 - Source: https://doi.org/10.1109/resem70152.2026.11721721
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Multi-Objective Cooperative Optimization of Building-Integrated Photovoltaics and Battery Energy Storage Systems
-- Source: https://doi.org/10.1109/icepet70032.2026.11725932
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Solar PV Based Multi-Chemistry Battery Charging System with Energy Storage
-- Source: https://doi.org/10.1109/resem70152.2026.11721927
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Aryansingh-dev31/AgriSmart
-- Source: https://github.com/Aryansingh-dev31/AgriSmart
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Energy cost optimization for the Flexible Job Shop Scheduling Problem considering Photovoltaic and Battery Energy Storage Systems
-- Source: https://doi.org/10.1016/j.jmsy.2026.09.015
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### ChrisJeyan/En-Vayal
-- Source: https://github.com/ChrisJeyan/En-Vayal
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
