@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-20T20:56:14.217764+00:00
+Generated: 2026-10-21T01:09:28.162845+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 102
+- New this cycle: 108
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
-- Categories: agriculture 317, ai 231, commerce 34, energy 539, robotics 679
+- Feed failures (fail-open for public intake only): none
+- Categories: agriculture 320, ai 226, commerce 34, energy 534, robotics 686
 
 ## Recently encountered signals
 
@@ -246,6 +246,18 @@ Generated: 2026-10-20T20:56:14.217764+00:00
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
+### Full-scale experimental investigation of distinct thermal runaway propagation mechanisms and fire development in lithium-ion battery energy storage cabinets
+- Source: https://doi.org/10.1016/j.est.2026.125130
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### Assessing Photovoltaic Power Plants With Battery Energy Storage for Capacity Reserve Auctions in Brazil
+- Source: https://doi.org/10.1002/est2.70543
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
 ### shaik-fouzan/Krishi-mitra-ai
 - Source: https://github.com/shaik-fouzan/Krishi-mitra-ai
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
@@ -448,16 +460,4 @@ Generated: 2026-10-20T20:56:14.217764+00:00
 - Source: https://github.com/varunsandesh0425-VK/Agrihelp-AI
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### MasterKai19/Krishi-Smart-Farming-Platform
-- Source: https://github.com/MasterKai19/Krishi-Smart-Farming-Platform
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Aravindr017/Smart-Energy-Grid-and-Solar-Power-Forecasting-with-Battery-Optimization
-- Source: https://github.com/Aravindr017/Smart-Energy-Grid-and-Solar-Power-Forecasting-with-Battery-Optimization
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
