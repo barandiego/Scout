@@ -1,25 +1,14 @@
 {
-  "active_candidates": [
-    {
-      "available_budget_clp": 1200000.0,
-      "buyer": "Ilustre Municipalidad de Cochamó - Salud",
-      "closes_at": "2026-10-22T10:00:00",
-      "code": "4834-115-COT26",
-      "estimated_budget": 1200000.0,
-      "name": "MANTENCIÓN KILOMETRAJE Y REPARACIÓN CABINA CLÍNICA AMBULANCIA TOYOTA HILIX.",
-      "products": 2,
-      "region": "Región de los Lagos"
-    }
-  ],
-  "active_structurally_reconstructable_count": 1,
+  "active_candidates": [],
+  "active_structurally_reconstructable_count": 0,
   "diagnostics": {
     "api_failures": {
-      "api_http_504": 3
+      "api_http_504": 4
     },
     "budget_exhausted": true,
-    "detail_attempts": 18,
+    "detail_attempts": 15,
     "detail_cap_exhausted": false,
-    "details_fetched": 15,
+    "details_fetched": 11,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -29,26 +18,24 @@
     "pagination_incomplete": false,
     "pagination_invalid": false,
     "requests_used": 25,
-    "transient_retries": 6
+    "transient_retries": 9
   },
-  "generated_at": "2026-10-21T04:54:02Z",
-  "inserted_history": 15,
+  "generated_at": "2026-10-21T08:57:53Z",
+  "inserted_history": 11,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
   "outcome": "DEGRADED_API_ERRORS",
   "phase1": {
-    "records": 15,
-    "rejection_reasons": {
-      "no_observable_competitive_prices": 1
-    },
-    "resolved": 14,
-    "structurally_reconstructable": 14,
-    "with_observable_quote_totals": 13,
+    "records": 11,
+    "rejection_reasons": {},
+    "resolved": 11,
+    "structurally_reconstructable": 11,
+    "with_observable_quote_totals": 11,
     "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-21T04:54:02Z"
+    "changed_to": "2026-10-21T08:57:53Z"
   }
 }
