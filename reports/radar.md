@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-21T04:58:28.153627+00:00
+Generated: 2026-10-21T09:03:26.473788+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 148
+- New this cycle: 95
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
-- Categories: agriculture 316, ai 223, commerce 34, energy 532, robotics 695
+- Categories: agriculture 321, ai 221, commerce 34, energy 524, robotics 700
 
 ## Recently encountered signals
 
@@ -246,6 +246,12 @@ Generated: 2026-10-21T04:58:28.153627+00:00
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
+### Mahalakshmi2848/VIRTUAL-ASSISTANT-WITH-SMART-UI-FOR-AGRICULTURAL-SUPPORT-
+- Source: https://github.com/Mahalakshmi2848/VIRTUAL-ASSISTANT-WITH-SMART-UI-FOR-AGRICULTURAL-SUPPORT-
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
 ### Full-scale experimental investigation of distinct thermal runaway propagation mechanisms and fire development in lithium-ion battery energy storage cabinets
 - Source: https://doi.org/10.1016/j.est.2026.125130
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
@@ -452,12 +458,6 @@ Generated: 2026-10-21T04:58:28.153627+00:00
 
 ### ChrisJeyan/En-Vayal
 - Source: https://github.com/ChrisJeyan/En-Vayal
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### varunsandesh0425-VK/Agrihelp-AI
-- Source: https://github.com/varunsandesh0425-VK/Agrihelp-AI
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
