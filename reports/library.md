@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-21T04:25:06.404072+00:00
+Generated: 2026-10-21T08:28:18.622340+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 104 (0 HQ survivors, 104 watches)
-- Rejected opportunities excluded: 57
+- Active research: 105 (0 HQ survivors, 105 watches)
+- Rejected opportunities excluded: 58
 - Critic-and-judge reviewed: 51
 - Autonomous execution authorization: 0
 
@@ -553,6 +553,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.fne.gob.cl/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-pl; https://group.dhl.com/content/dam/deutschepostdhl/en/media-center/media-relations/documents/2025/e-commerce-trends-report-2025-business-edition.pdf; https://www.trade.gov/country-commercial-guides/chile-ecommerce
 
+### Natura marketplace price-and-assortment test on Falabella.com Chile [opp_e2a66e0f6074d07578b8]
+- Status: WATCH_REQUIRES_VALIDATION | ecommerce_niches | Chile
+- Thesis: A concrete wedge exists for testing whether selected Natura bundles, gift packs or hard-to-find SKUs can acquire demand through Falabella's existing marketplace traffic and fulfillment network. The evidence does not establish resale permission, margin or arbitrage profit.
+- Value capture: Potential cash flow is direct consumer purchase of a legally sourced bundle or value-added assortment. The operator would capture any verified spread after product cost, marketplace fees, shipping, taxes, returns and permitted seller costs. No margin is assumed.
+- Participation hypothesis: First use Falabella's public Natura catalogue to record 20 comparable SKUs, prices, stock/fulfillment options and reviews. Create a spreadsheet of bundle hypotheses using only products that can be lawfully sourced and listed under the platform's seller rules. Lowest-cost falsification: run a non-inventory demand test through compliant marketplace participation or a permitted landing page, seeking a small number of paid reservations or completed purchases; do not buy inventory until unit economics and listing permission are confirmed. If reserva
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/; https://www.falabella.com/falabella-cl/seller/Natura; https://www.falabella.com/falabella-cl/page/sobre-falabella-com
+
 ### NFC review-and-contact stand for Chilean hospitality venues [opp_f27f698db291e47e237f]
 - Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
 - Thesis: A small operator should not compete on generic digital business cards. A narrower wedge is a countertop NFC/QR stand for restaurants, salons, tour operators, and lodging businesses that routes visitors to a review page, booking link, menu, or WhatsApp contact. The economic mechanism is increased attributable customer actions rather than the NFC hardware itself.
@@ -642,16 +652,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://fairino.cl/; https://thunderrobotics.cl/
-
-### Battery-project dispatch and revenue-stack verification for Texas and California assets [opp_85d154e0b319e93cb301]
-- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States, especially Texas and California
-- Thesis: More battery assets create a concrete need to verify whether dispatch behavior, market participation, and operating data support the revenue assumptions used in project financing, acquisition, or asset-management decisions.
-- Value capture: A low-cost independent data product that reconciles public generation, price, outage, and interconnection data for a named battery project or project portfolio, producing an evidence pack for diligence or post-commissioning performance review. The offer is valuable only if a project owner, lender, buyer, or operator confirms that the analysis is used in a transaction or operating decision.
-- Participation hypothesis: Start with one public battery asset in ERCOT or CAISO. Combine EIA plant data, ISO market-price/dispatch data, and public interconnection or permitting records into a reproducible report comparing expected versus observed availability, charging/discharging timing, and price-arbitrage exposure. Send the report to the asset owner, lender, broker, or energy-market consultant and ask for a paid review or permission to analyze a second asset; do not infer project EBITDA or claim access to proprietary bids. Lowest-cost falsification: complete one ass
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.eia.gov/todayinenergy/detail.php?id=67925; https://www.eia.gov/todayinenergy/detail.php?id=66164
 
 ### BESS procurement evidence pack focused on supply-chain and grid-support requirements [opp_821fe989c63ca8db797f]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States
@@ -762,6 +762,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
+### Chile SFA/ATENA conformance test harness for early interoperability testing [opp_31dfdad2eb2f74b28e49]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Participants may need repeatable testing of API interoperability, directory participation and payment-initiation flows before production compliance. The evidence supports a narrowly scoped testing asset, not a general consulting business.
+- Value capture: A small operator could package an open-source or low-cost conformance test suite, fixture data and automated test reports for one narrowly defined SFA Annex 3 workflow. Possible revenue would be from paid pilot access, implementation support or hosted test execution; buyer identity and willingness to pay remain unverified.
+- Participation hypothesis: Use the CMF developer portal and ATENA environment to identify one technically testable Annex 3 flow. Build a minimal local mock provider/consumer and publish a reproducible test report. Then request feedback from listed prospective participants or relevant Chilean fintech associations; do not assume access, endorsement or paid demand. Lowest-cost falsification: spend one week implementing a single interoperability test and ask at least five identifiable potential participants whether they would run it or pay for a hosted version. Stop if the t
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
 ### Chile SFA/ATENA conformance-test asset for prospective participants [opp_6cea461c4316ad0c1441]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile

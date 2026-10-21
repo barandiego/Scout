@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 104
+Candidates: 105
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -112,6 +112,18 @@ Candidates: 104
 - Possible initial budget:
 - Source URLs: https://www.fne.gob.cl/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-plataformas/; https://group.dhl.com/content/dam/deutschepostdhl/en/media-center/media-relations/documents/2025/e-commerce-trends-report-2025-business-edition.pdf; https://www.trade.gov/country-commercial-guides/chile-ecommerce
 
+## Natura marketplace price-and-assortment test on Falabella.com Chile
+- Status: watch | ecommerce_niches
+- Current idea: A concrete wedge exists for testing whether selected Natura bundles, gift packs or hard-to-find SKUs can acquire demand through Falabella's existing marketplace traffic and fulfillment network. The evidence does not establish resale permission, margin or arbitrage profit.
+- Potential economic capture: Potential cash flow is direct consumer purchase of a legally sourced bundle or value-added assortment. The operator would capture any verified spread after product cost, marketplace fees, shipping, taxes, returns and permitted seller costs. No margin is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Target a specific neglected customer subgroup with a measurable unmet product requirement.
+  - Compare imported/private-label, inventoryless fulfillment and existing domestic suppliers after landed costs.
+  - Test one narrower search/intention channel before expanding catalog or buying inventory.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/; https://www.falabella.com/falabella-cl/seller/Natura; https://www.falabella.com/falabella-cl/page/sobre-falabella-com
+
 ## 15-minute demand-charge diagnostic and retrofit kit for Chilean commercial sites
 - Status: watch | energy_infrastructure
 - Current idea: A site with a short, avoidable power spike can pay recurring demand-related charges even when total monthly energy consumption is moderate. The concrete wedge is not generic energy consulting: obtain interval data and bills, identify the top avoidable peaks, then sell a fixed diagnostic plus an installable control package such as load sequencing, scheduled charging, or a small battery/controller retrofit.
@@ -123,18 +135,6 @@ Candidates: 104
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.bcn.cl/leychile/navegar?i=1212631; https://www.cne.cl/tarificacion/electrica/
-
-## Battery-project dispatch and revenue-stack verification for Texas and California assets
-- Status: watch | energy_infrastructure
-- Current idea: More battery assets create a concrete need to verify whether dispatch behavior, market participation, and operating data support the revenue assumptions used in project financing, acquisition, or asset-management decisions.
-- Potential economic capture: A low-cost independent data product that reconciles public generation, price, outage, and interconnection data for a named battery project or project portfolio, producing an evidence pack for diligence or post-commissioning performance review. The offer is valuable only if a project owner, lender, buyer, or operator confirms that the analysis is used in a transaction or operating decision.
-- **Research routes to test (NOT validated claims):**
-  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
-  - Compare owned asset, installer/distributor and project-finance participation.
-  - Verify permits and installed net payback under conservative power price scenarios.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://www.eia.gov/todayinenergy/detail.php?id=67925; https://www.eia.gov/todayinenergy/detail.php?id=66164
 
 ## BESS and inverter compliance pre-check for Chilean distributed-energy projects
 - Status: watch | energy_infrastructure
@@ -723,6 +723,18 @@ Candidates: 104
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
+## Chile SFA/ATENA conformance test harness for early interoperability testing
+- Status: watch | open_finance_chile
+- Current idea: Participants may need repeatable testing of API interoperability, directory participation and payment-initiation flows before production compliance. The evidence supports a narrowly scoped testing asset, not a general consulting business.
+- Potential economic capture: A small operator could package an open-source or low-cost conformance test suite, fixture data and automated test reports for one narrowly defined SFA Annex 3 workflow. Possible revenue would be from paid pilot access, implementation support or hosted test execution; buyer identity and willingness to pay remain unverified.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
 ## Chile SFA/ATENA conformance-test asset for prospective participants
 - Status: watch | open_finance_chile

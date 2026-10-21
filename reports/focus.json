@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-10-21T04:25:06.404072+00:00",
+  "generated_at": "2026-10-21T08:28:18.622340+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -13,7 +13,7 @@
     },
     {
       "opportunity_id": "opp_7ea6a495427da87c8c5c",
-      "other_cards_in_theme": 13,
+      "other_cards_in_theme": 12,
       "reviewed": true,
       "status": "watch",
       "theme": "energy_infrastructure",
@@ -21,7 +21,7 @@
     },
     {
       "opportunity_id": "opp_f26e42aaabb91e157f9d",
-      "other_cards_in_theme": 40,
+      "other_cards_in_theme": 41,
       "reviewed": true,
       "status": "watch",
       "theme": "chile_open_finance",
@@ -103,15 +103,15 @@
   "headline_count": 12,
   "high_concentration": [
     {
-      "cards": 41,
-      "share": 0.394,
+      "cards": 42,
+      "share": 0.4,
       "theme": "chile_open_finance"
     }
   ],
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 45,
+  "theme_count": 46,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -155,9 +155,10 @@
         "opp_b5bb525067a4142275e1",
         "opp_d52a4c290d45b663a6f3",
         "opp_911d89dad493afe4910f",
-        "opp_6cea461c4316ad0c1441"
+        "opp_6cea461c4316ad0c1441",
+        "opp_31dfdad2eb2f74b28e49"
       ],
-      "count": 41,
+      "count": 42,
       "representative_id": "opp_f26e42aaabb91e157f9d",
       "reviewed_count": 26,
       "theme": "chile_open_finance"
@@ -172,14 +173,13 @@
         "opp_e93b820a7df3df5840b0",
         "opp_5c0fa78efa972e7da968",
         "opp_c1584a90439dd95ddbd7",
-        "opp_85d154e0b319e93cb301",
         "opp_a78174a5084ecf85fdd7",
         "opp_a71e28685127733c914e",
         "opp_85c23886f73fd6c4dff5",
         "opp_20b079df210ea1d3088c",
         "opp_821fe989c63ca8db797f"
       ],
-      "count": 14,
+      "count": 13,
       "representative_id": "opp_7ea6a495427da87c8c5c",
       "reviewed_count": 8,
       "theme": "energy_infrastructure"
@@ -261,6 +261,15 @@
       "representative_id": "opp_fa54176321cf12d8b287",
       "reviewed_count": 0,
       "theme": "ecommerce_niches:narrow_e_commerce"
+    },
+    {
+      "all_opportunity_ids": [
+        "opp_e2a66e0f6074d07578b8"
+      ],
+      "count": 1,
+      "representative_id": "opp_e2a66e0f6074d07578b8",
+      "reviewed_count": 0,
+      "theme": "ecommerce_niches:natura_marketplace_price"
     },
     {
       "all_opportunity_ids": [
@@ -578,6 +587,6 @@
       "theme": "robotics_agritech:small_hydroponic_propagation"
     }
   ],
-  "total_original_cards": 104,
+  "total_original_cards": 105,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }

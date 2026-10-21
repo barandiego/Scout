@@ -333,6 +333,43 @@
     },
     {
       "capital_required_unverified_estimate": "",
+      "category": "ecommerce_niches",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "First use Falabella's public Natura catalogue to record 20 comparable SKUs, prices, stock/fulfillment options and reviews. Create a spreadsheet of bundle hypotheses using only products that can be lawfully sourced and listed under the platform's seller rules. Lowest-cost falsification: run a non-inventory demand test through compliant marketplace participation or a permitted landing page, seeking a small number of paid reservations or completed purchases; do not buy inventory until unit economics and listing permission are confirmed. If reservations do not occur at the observed price, abandon the wedge.",
+      "current_thesis": "A concrete wedge exists for testing whether selected Natura bundles, gift packs or hard-to-find SKUs can acquire demand through Falabella's existing marketplace traffic and fulfillment network. The evidence does not establish resale permission, margin or arbitrage profit.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Natura marketplace price-and-assortment test on Falabella.com Chile",
+      "opportunity_id": "opp_e2a66e0f6074d07578b8",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Target a specific neglected customer subgroup with a measurable unmet product requirement.",
+        "Compare imported/private-label, inventoryless fulfillment and existing domestic suppliers after landed costs.",
+        "Test one narrower search/intention channel before expanding catalog or buying inventory."
+      ],
+      "supporting_source_urls": [
+        "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/",
+        "https://www.falabella.com/falabella-cl/seller/Natura",
+        "https://www.falabella.com/falabella-cl/page/sobre-falabella-com"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Potential cash flow is direct consumer purchase of a legally sourced bundle or value-added assortment. The operator would capture any verified spread after product cost, marketplace fees, shipping, taxes, returns and permitted seller costs. No margin is assumed.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
       "category": "energy_infrastructure",
       "commercially_validated": false,
       "competition_confirmed": false,
@@ -365,42 +402,6 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Charge for a paid bill-and-interval-data audit, then earn from implementation through a fixed-fee control retrofit or a documented share of verified bill savings. Do not assume savings until a baseline and tariff calculation are completed.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "energy_infrastructure",
-      "commercially_validated": false,
-      "competition_confirmed": false,
-      "current_participation_path": "Start with one public battery asset in ERCOT or CAISO. Combine EIA plant data, ISO market-price/dispatch data, and public interconnection or permitting records into a reproducible report comparing expected versus observed availability, charging/discharging timing, and price-arbitrage exposure. Send the report to the asset owner, lender, broker, or energy-market consultant and ask for a paid review or permission to analyze a second asset; do not infer project EBITDA or claim access to proprietary bids. Lowest-cost falsification: complete one asset report in under one week and seek three concrete reactions—data correction, request for a second asset, or paid diligence. If none occurs, reject the opportunity.",
-      "current_thesis": "More battery assets create a concrete need to verify whether dispatch behavior, market participation, and operating data support the revenue assumptions used in project financing, acquisition, or asset-management decisions.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "United States, especially Texas and California",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "Battery-project dispatch and revenue-stack verification for Texas and California assets",
-      "opportunity_id": "opp_85d154e0b319e93cb301",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
-        "Compare owned asset, installer/distributor and project-finance participation.",
-        "Verify permits and installed net payback under conservative power price scenarios."
-      ],
-      "supporting_source_urls": [
-        "https://www.eia.gov/todayinenergy/detail.php?id=67925",
-        "https://www.eia.gov/todayinenergy/detail.php?id=66164"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "A low-cost independent data product that reconciles public generation, price, outage, and interconnection data for a named battery project or project portfolio, producing an evidence pack for diligence or post-commissioning performance review. The offer is valuable only if a project owner, lender, buyer, or operator confirms that the analysis is used in a transaction or operating decision.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -2281,6 +2282,42 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use the CMF developer portal and ATENA environment to identify one technically testable Annex 3 flow. Build a minimal local mock provider/consumer and publish a reproducible test report. Then request feedback from listed prospective participants or relevant Chilean fintech associations; do not assume access, endorsement or paid demand. Lowest-cost falsification: spend one week implementing a single interoperability test and ask at least five identifiable potential participants whether they would run it or pay for a hosted version. Stop if the test cannot be mapped cleanly to the published specification or no participant agrees to evaluate it.",
+      "current_thesis": "Participants may need repeatable testing of API interoperability, directory participation and payment-initiation flows before production compliance. The evidence supports a narrowly scoped testing asset, not a general consulting business.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile SFA/ATENA conformance test harness for early interoperability testing",
+      "opportunity_id": "opp_31dfdad2eb2f74b28e49",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A small operator could package an open-source or low-cost conformance test suite, fixture data and automated test reports for one narrowly defined SFA Annex 3 workflow. Possible revenue would be from paid pilot access, implementation support or hosted test execution; buyer identity and willingness to pay remain unverified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use only the CMF-published technical annex, developer materials, and ATENA access rules to build a local validator for one narrow component, such as consent, data exchange, payment initiation, or participant-directory interoperability. Run the validator against mock endpoints and publicly documented examples. Then contact prospective SFA participants through publicly listed institutional channels with a no-cost diagnostic request, explicitly asking whether external testing support is permitted and whether they would pay for a pilot. Lowest-cost falsification: spend one week implementing 10-20 published test cases and obtain either (a) a successful ATENA/mock interoperability result or (b) three written rejections/no-interest responses from plausible participants. Do not represent the operator as a CMF-approved tester or access private systems without authorization.",
       "current_thesis": "The near-term value is not operating a regulated financial product; it is reducing integration and compliance uncertainty before the July 2027 implementation deadline. A narrowly scoped conformance harness could convert public technical requirements into repeatable test cases and evidence packets.",
       "founder_hours_initial_unverified_estimate": "",
@@ -3971,7 +4008,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-21T04:25:06.490954+00:00",
+  "generated_at": "2026-10-21T08:28:18.707567+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

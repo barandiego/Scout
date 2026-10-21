@@ -4666,6 +4666,67 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-21T08:27:50.373426+00:00",
+      "discovery_lens": "business_model_migration",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Falabella states that Natura opened an official Chilean ecommerce store with an initial portfolio of 110 products and online purchase, pickup, exchange and return options.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Natura llega a Falabella.com con su nueva Tienda Oficial",
+          "url": "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/"
+        },
+        {
+          "claim": "The live seller page displays 109 Natura results with consumer prices, delivery/pickup options and discounts.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Natura | Falabella Chile",
+          "url": "https://www.falabella.com/falabella-cl/seller/Natura"
+        },
+        {
+          "claim": "Falabella describes its marketplace as hosting products from brands, enterprises and SMEs and provides a Chile-wide pickup and returns network.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "¿Qué es falabella.com?",
+          "url": "https://www.falabella.com/falabella-cl/page/sobre-falabella-com"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.82,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_e2a66e0f6074d07578b8",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-21T08:27:50.419405+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "First use Falabella's public Natura catalogue to record 20 comparable SKUs, prices, stock/fulfillment options and reviews. Create a spreadsheet of bundle hypotheses using only products that can be lawfully sourced and listed under the platform's seller rules. Lowest-cost falsification: run a non-inventory demand test through compliant marketplace participation or a permitted landing page, seeking a small number of paid reservations or completed purchases; do not buy inventory until unit economics and listing permission are confirmed. If reservations do not occur at the observed price, abandon the wedge.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A concrete wedge exists for testing whether selected Natura bundles, gift packs or hard-to-find SKUs can acquire demand through Falabella's existing marketplace traffic and fulfillment network. The evidence does not establish resale permission, margin or arbitrage profit.",
+      "title": "Natura marketplace price-and-assortment test on Falabella.com Chile",
+      "type": "physical_distribution",
+      "unknowns": [],
+      "value_capture_mechanism": "Potential cash flow is direct consumer purchase of a legally sourced bundle or value-added assortment. The operator would capture any verified spread after product cost, marketplace fees, shipping, taxes, returns and permitted seller costs. No margin is assumed.",
+      "verified_sales": null,
+      "vertical": "ecommerce_niches",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-17T08:18:49.301669+00:00",
       "discovery_lens": "chile_technology_import",
       "estimated_capital": "",
@@ -5193,60 +5254,6 @@
       "value_capture_mechanism": "Sell a paid or supplier-sponsored feasibility assessment for one process—such as palletizing, repetitive pick-and-place or visual quality inspection—covering cycle-time observation, safety constraints, required components, indicative supplier quotation and a go/no-go recommendation. No equipment price, buyer, margin or conversion rate is evidenced, so these must be validated before scaling.",
       "verified_sales": null,
       "vertical": "robotics_agritech",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
-      "discovered_at": "2026-10-15T16:24:52.024890+00:00",
-      "discovery_lens": "cost_curve",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "EIA reports nearly 52 GW of U.S. utility-scale battery nameplate capacity by the first half of 2026 and 54 GW of additional capacity planned over the next two and a half years.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "EIA: Battery storage capacity averaged 70% growth over the last three years",
-          "url": "https://www.eia.gov/todayinenergy/detail.php?id=67925"
-        },
-        {
-          "claim": "EIA identifies price arbitrage—buying electricity at low prices and selling at high prices—as an increasingly prevalent primary use of utility-scale batteries.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "EIA: Utility-scale batteries are more commonly used for price arbitrage",
-          "url": "https://www.eia.gov/todayinenergy/detail.php?id=66164"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.8,
-      "falsification_conditions": [],
-      "geography": "United States, especially Texas and California",
-      "id": "opp_85d154e0b319e93cb301",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-15T16:24:52.047504+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Start with one public battery asset in ERCOT or CAISO. Combine EIA plant data, ISO market-price/dispatch data, and public interconnection or permitting records into a reproducible report comparing expected versus observed availability, charging/discharging timing, and price-arbitrage exposure. Send the report to the asset owner, lender, broker, or energy-market consultant and ask for a paid review or permission to analyze a second asset; do not infer project EBITDA or claim access to proprietary bids. Lowest-cost falsification: complete one asset report in under one week and seek three concrete reactions—data correction, request for a second asset, or paid diligence. If none occurs, reject the opportunity.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "More battery assets create a concrete need to verify whether dispatch behavior, market participation, and operating data support the revenue assumptions used in project financing, acquisition, or asset-management decisions.",
-      "title": "Battery-project dispatch and revenue-stack verification for Texas and California assets",
-      "type": "market-data_and_operations_asset",
-      "unknowns": [],
-      "value_capture_mechanism": "A low-cost independent data product that reconciles public generation, price, outage, and interconnection data for a named battery project or project portfolio, producing an evidence pack for diligence or post-commissioning performance review. The offer is valuable only if a project owner, lender, buyer, or operator confirms that the analysis is used in a transaction or operating decision.",
-      "verified_sales": null,
-      "vertical": "energy_infrastructure",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -5839,6 +5846,60 @@
       "type": "compliance_technology",
       "unknowns": [],
       "value_capture_mechanism": "Sell a fixed-scope conformance test package: simulated participant endpoints, consent-flow tests, API request/response validation, security-test evidence and defect reproduction. The payer would most plausibly be a fintech, regulated financial institution or technology vendor preparing for ATENA/SFA testing; no buyer, price or procurement commitment was verified.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-21T08:27:50.372495+00:00",
+      "discovery_lens": "tokenization_finance",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF published technical specifications for information exchange and payment initiation and postponed entry into force until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
+          "url": "https://cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        },
+        {
+          "claim": "ATENA provides a controlled environment for testing integrations, interoperability with the participant directory and preparation for SFA requirements.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF lanza Sandbox Tecnológico ATENA para la implementación del Sistema de Finanzas Abiertas",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.88,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_31dfdad2eb2f74b28e49",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-21T08:27:50.419157+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use the CMF developer portal and ATENA environment to identify one technically testable Annex 3 flow. Build a minimal local mock provider/consumer and publish a reproducible test report. Then request feedback from listed prospective participants or relevant Chilean fintech associations; do not assume access, endorsement or paid demand. Lowest-cost falsification: spend one week implementing a single interoperability test and ask at least five identifiable potential participants whether they would run it or pay for a hosted version. Stop if the test cannot be mapped cleanly to the published specification or no participant agrees to evaluate it.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Participants may need repeatable testing of API interoperability, directory participation and payment-initiation flows before production compliance. The evidence supports a narrowly scoped testing asset, not a general consulting business.",
+      "title": "Chile SFA/ATENA conformance test harness for early interoperability testing",
+      "type": "software_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "A small operator could package an open-source or low-cost conformance test suite, fixture data and automated test reports for one narrowly defined SFA Annex 3 workflow. Possible revenue would be from paid pilot access, implementation support or hosted test execution; buyer identity and willingness to pay remain unverified.",
       "verified_sales": null,
       "vertical": "open_finance_chile",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
@@ -7414,13 +7475,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-21T04:25:06.404072+00:00",
+  "generated_at": "2026-10-21T08:28:18.622340+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 57,
+  "rejected_excluded": 58,
   "reviewed_cards": 51,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 161,
-  "watch": 104
+  "total_distinct_opportunities": 163,
+  "watch": 105
 }
