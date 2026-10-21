@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-21T08:28:18.622340+00:00
+Generated: 2026-10-21T12:28:19.755279+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 105 (0 HQ survivors, 105 watches)
+- Active research: 107 (0 HQ survivors, 107 watches)
 - Rejected opportunities excluded: 58
-- Critic-and-judge reviewed: 51
+- Critic-and-judge reviewed: 52
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -242,6 +242,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: How many Chilean entities will actually be required to participate, by participant category and implementation phase.; Whether ATENA will remain free, become mandatory, provide conformance evidence, or satisfy most buyer testing needs.; Whether CMF, banks, or industry groups will recognize third-party test results as useful evidence.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836
+
+### Chile SFA interoperability readiness kit for prospective PSBI/PSIP participants [opp_1d8ec69c28f37b2eceef]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Prospective information-based and payment-initiation providers have a bounded implementation window before regulated interoperability becomes operational. The immediate value is reducing integration, consent, security and conformance risk rather than selling generic fintech software.
+- Value capture: A small operator could sell a narrowly scoped readiness artifact: API conformance test harness, consent-flow test cases, implementation checklist, and evidence pack for internal engineering or regulatory review. The payer would plausibly be a fintech or financial institution preparing for SFA participation, but no public source verifies a specific customer's willingness to pay or a market price.
+- Participation hypothesis: Use only the public CMF technical annex and Developers' Portal to implement a minimal sandbox or mock participant covering one information-sharing flow and one consent/error flow. Offer the artifact to 5 Chilean fintechs or financial institutions identified from public CMF registries; ask for a paid technical review or written rejection before building further. Falsify if the documentation is not sufficiently complete to create repeatable tests, or if at least one target declines a fixed-scope review after seeing the working test harness. Do no
+- Critic/judge: The regulatory premise is sufficiently grounded in CMF primary sources: Chile’s SFA technical annex, developer materials, phased implementation, and July 2027 effective date are not merely an unverified regulatory-change claim. A narrowly scoped, non-production readiness-review artifact can plausibly be researched without the operator itself becoming a PSBI/PSIP or handling live customer financial data. However, the opportunity has not
+- Next evidence gaps: No evidence identifies a specific Chilean fintech or financial institution with an approved budget or stated willingness to pay for this artifact.; No price benchmarks, sales-cycle data, procurement requirements, or gross-margin assumptions are provided.; The exact scope, stability, access conditions, and certification workflow of the CMF sandbox and APIs may continue changing before July 2027.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html
 
 ### Chile SFA interoperability test harness for regulated participants [opp_f696eab5c7c7590b79fa]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -1002,6 +1012,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://github.com/cereon-labs/cereon-browser-operator; https://github.com/smouj/agent-browser
+
+### Single-station machine-vision retrofit for legacy production lines [opp_631d598a14ec7d41696a]
+- Status: WATCH_REQUIRES_VALIDATION | competitive_positioning | United States
+- Thesis: A narrowly defined pass/fail inspection retrofit can address a buyer segment that cannot justify a new robotic cell but can test one quality-control bottleneck. The economic mechanism is avoided scrap, rework or manual inspection, but savings must be measured at the individual line.
+- Value capture: Sell a fixed-scope diagnostic and pilot for one inspection point using commercially available vision hardware and an existing PLC or operator workflow. The payer would plausibly be a small manufacturer or automation integrator, but no cited source verifies a particular buyer, conversion rate or margin.
+- Participation hypothesis: Select one local manufacturer with a visible manual inspection step. Record baseline defect-detection rate, inspection labor and scrap for 1-2 production shifts; then assemble or quote a single-camera prototype using off-the-shelf components. Request permission for a no-production-risk shadow-mode trial and charge only after an agreed pass/fail metric is demonstrated. Falsify if the defect class cannot be separated reliably from normal variation, the customer will not share baseline measurements, or the measured avoided cost cannot support the
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://sagnikbhattacharya.com/blog/ai-visual-inspection-cost; https://automationsolinc.com/resources/blog/small-scale-retrofits-a-smart-bridge-to-automation-reliability/
 
 ### Small-dairy robotic-milking installation, financing, or service-partner wedge [opp_ab706c5f1aeb60ba7b7e]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States

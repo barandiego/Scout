@@ -260,6 +260,42 @@
     },
     {
       "capital_required_unverified_estimate": "",
+      "category": "competitive_positioning",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Select one local manufacturer with a visible manual inspection step. Record baseline defect-detection rate, inspection labor and scrap for 1-2 production shifts; then assemble or quote a single-camera prototype using off-the-shelf components. Request permission for a no-production-risk shadow-mode trial and charge only after an agreed pass/fail metric is demonstrated. Falsify if the defect class cannot be separated reliably from normal variation, the customer will not share baseline measurements, or the measured avoided cost cannot support the quoted hardware and installation expense.",
+      "current_thesis": "A narrowly defined pass/fail inspection retrofit can address a buyer segment that cannot justify a new robotic cell but can test one quality-control bottleneck. The economic mechanism is avoided scrap, rework or manual inspection, but savings must be measured at the individual line.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Single-station machine-vision retrofit for legacy production lines",
+      "opportunity_id": "opp_631d598a14ec7d41696a",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Segment the incumbent market by customers who pay too much or wait too long for one outcome.",
+        "Offer materially different positioning, delivery, price or specialisation with clear unit economics.",
+        "Test switching and repeat purchase evidence before scaling acquisition."
+      ],
+      "supporting_source_urls": [
+        "https://sagnikbhattacharya.com/blog/ai-visual-inspection-cost",
+        "https://automationsolinc.com/resources/blog/small-scale-retrofits-a-smart-bridge-to-automation-reliability/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a fixed-scope diagnostic and pilot for one inspection point using commercially available vision hardware and an existing PLC or operator workflow. The payer would plausibly be a small manufacturer or automation integrator, but no cited source verifies a particular buyer, conversion rate or margin.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
       "category": "ecommerce_niches",
       "commercially_validated": false,
       "competition_confirmed": false,
@@ -2206,6 +2242,46 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use only the public CMF technical annex and Developers' Portal to implement a minimal sandbox or mock participant covering one information-sharing flow and one consent/error flow. Offer the artifact to 5 Chilean fintechs or financial institutions identified from public CMF registries; ask for a paid technical review or written rejection before building further. Falsify if the documentation is not sufficiently complete to create repeatable tests, or if at least one target declines a fixed-scope review after seeing the working test harness. Do not represent the service as legal or regulatory approval.",
+      "current_thesis": "Prospective information-based and payment-initiation providers have a bounded implementation window before regulated interoperability becomes operational. The immediate value is reducing integration, consent, security and conformance risk rather than selling generic fintech software.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "No evidence identifies a specific Chilean fintech or financial institution with an approved budget or stated willingness to pay for this artifact.",
+        "No price benchmarks, sales-cycle data, procurement requirements, or gross-margin assumptions are provided.",
+        "The exact scope, stability, access conditions, and certification workflow of the CMF sandbox and APIs may continue changing before July 2027.",
+        "It is unknown whether the proposed harness would provide capabilities materially beyond ATENA, official conformance materials, or internal testing suites.",
+        "The number of prospective PSBI and PSIP participants that are both technically underprepared and willing to buy external help is unknown.",
+        "It is unknown whether the operator has Spanish-language regulatory, FAPI 2.0, Chilean security, and enterprise-sales credibility.",
+        "The claim that five prospects can be identified from public CMF registries and reached efficiently is unverified."
+      ],
+      "investment_authorized": false,
+      "name": "Chile SFA interoperability readiness kit for prospective PSBI/PSIP participants",
+      "opportunity_id": "opp_1d8ec69c28f37b2eceef",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A small operator could sell a narrowly scoped readiness artifact: API conformance test harness, consent-flow test cases, implementation checklist, and evidence pack for internal engineering or regulatory review. The payer would plausibly be a fintech or financial institution preparing for SFA participation, but no public source verifies a specific customer's willingness to pay or a market price.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use the CMF's published NCG 514 Annex 3 and ATENA materials to implement only one testable wedge: a local validator for participant-directory, webhook and authentication flows. Run it against the documented examples/specifications, publish a reproducible open demo, then contact identifiable SFA participants or implementation vendors through public company channels with a request for a paid pilot or technical review; do not represent the tool as CMF-approved. Lowest-cost falsification: spend one week implementing the validator and ask at least three publicly identifiable SFA participants or vendors whether the resulting test report would be useful enough to evaluate in their ATENA/pre-production process. Stop if the specifications are insufficient to produce repeatable tests or no qualified respondent agrees to review it.",
       "current_thesis": "Entities preparing for SFA participation must validate API behavior, directory interactions, certificates, webhooks, authorization flows and version changes before the July 2027 deadline. The published technical requirements and sandbox create a bounded implementation problem rather than a generic fintech opportunity.",
       "founder_hours_initial_unverified_estimate": "",
@@ -4008,7 +4084,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-21T08:28:18.707567+00:00",
+  "generated_at": "2026-10-21T12:28:19.837019+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

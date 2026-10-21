@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 105
+Candidates: 107
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -87,6 +87,18 @@ Candidates: 105
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://jobs.lever.co/weloglobal/f1d3a94f-b3c4-47c2-b33b-55253a774375; https://jobs.lever.co/weloglobal?commitment=Remote
+
+## Single-station machine-vision retrofit for legacy production lines
+- Status: watch | competitive_positioning
+- Current idea: A narrowly defined pass/fail inspection retrofit can address a buyer segment that cannot justify a new robotic cell but can test one quality-control bottleneck. The economic mechanism is avoided scrap, rework or manual inspection, but savings must be measured at the individual line.
+- Potential economic capture: Sell a fixed-scope diagnostic and pilot for one inspection point using commercially available vision hardware and an existing PLC or operator workflow. The payer would plausibly be a small manufacturer or automation integrator, but no cited source verifies a particular buyer, conversion rate or margin.
+- **Research routes to test (NOT validated claims):**
+  - Segment the incumbent market by customers who pay too much or wait too long for one outcome.
+  - Offer materially different positioning, delivery, price or specialisation with clear unit economics.
+  - Test switching and repeat purchase evidence before scaling acquisition.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://sagnikbhattacharya.com/blog/ai-visual-inspection-cost; https://automationsolinc.com/resources/blog/small-scale-retrofits-a-smart-bridge-to-automation-reliability/
 
 ## Chile beauty replenishment and gifting bundles around Natura’s new Falabella channel
 - Status: watch | ecommerce_niches
@@ -699,6 +711,18 @@ Candidates: 105
 - Critical gaps: How many Chilean entities will actually be required to participate, by participant category and implementation phase.; Whether ATENA will remain free, become mandatory, provide conformance evidence, or satisfy most buyer testing needs.; Whether CMF, banks, or industry groups will recognize third-party test results as useful evidence.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836
+
+## Chile SFA interoperability readiness kit for prospective PSBI/PSIP participants
+- Status: watch | open_finance_chile
+- Current idea: Prospective information-based and payment-initiation providers have a bounded implementation window before regulated interoperability becomes operational. The immediate value is reducing integration, consent, security and conformance risk rather than selling generic fintech software.
+- Potential economic capture: A small operator could sell a narrowly scoped readiness artifact: API conformance test harness, consent-flow test cases, implementation checklist, and evidence pack for internal engineering or regulatory review. The payer would plausibly be a fintech or financial institution preparing for SFA participation, but no public source verifies a specific customer's willingness to pay or a market price.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: No evidence identifies a specific Chilean fintech or financial institution with an approved budget or stated willingness to pay for this artifact.; No price benchmarks, sales-cycle data, procurement requirements, or gross-margin assumptions are provided.; The exact scope, stability, access conditions, and certification workflow of the CMF sandbox and APIs may continue changing before July 2027.
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html
 
 ## Chile SFA interoperability test harness for regulated participants
 - Status: watch | open_finance_chile

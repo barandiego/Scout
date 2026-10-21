@@ -2051,6 +2051,87 @@
     {
       "ai_leverage": "",
       "authorized_for_execution": false,
+      "contrary_evidence": [
+        "The opportunity is not imaginary. CMF published technical specifications for information exchange and payment initiation, postponed entry into force to July 2027 because of implementation complexity, and introduced phased implementation, simplified participation, a pilot period, and a sandbox. Chilean law establishes SFA participant categories and requires payment-initiation providers to register and meet risk-management and client-information requirements. These facts support a bounded implementation need. The existence of ATENA may also increase awareness and demand for complementary testing, documentation, and independent review rather than eliminate the market entirely. Sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html ; https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html ; https://www.leychile.cl/leychile/Navegar?idNorma=1187323&idParte=10393566"
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-21T12:27:58.406860+00:00",
+      "discovery_lens": "open_finance_chile",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF says the technical annex and Developers' Portal provide the elements needed for implementation, including information exchange and payment initiation; entry into force was postponed until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "CMF describes the SFA participant roles, mandatory information providers, voluntary information-based and payment-initiation providers, gradual implementation, and technical manual process.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF publica norma que regula el Sistema de Finanzas Abiertas en el marco de la Ley Fintec",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [
+        "ATENA and official CMF materials cover the proposed information-sharing, consent, error, and conformance tests sufficiently that target customers see no material gap.",
+        "At least five qualified prospects are shown a working narrowly scoped harness and none agrees to a paid fixed-scope review or provides a concrete procurement path.",
+        "Prospects consistently prefer existing vendors, internal engineering, or consultants and cannot identify an unmet testing or evidence-pack need.",
+        "The relevant APIs, security profile, or certification process changes materially enough that maintaining a standalone artifact requires uneconomic rework.",
+        "The target list contains too few voluntary PSBI/PSIP candidates with an immediate implementation need to support repeatable sales.",
+        "A paid pilot reveals that customers require legal opinions, formal certification, penetration testing, or production integration beyond the operator's capability and budget."
+      ],
+      "geography": "Chile",
+      "id": "opp_1d8ec69c28f37b2eceef",
+      "judge_reviewed": true,
+      "judgment": "The regulatory premise is sufficiently grounded in CMF primary sources: Chile’s SFA technical annex, developer materials, phased implementation, and July 2027 effective date are not merely an unverified regulatory-change claim. A narrowly scoped, non-production readiness-review artifact can plausibly be researched without the operator itself becoming a PSBI/PSIP or handling live customer financial data. However, the opportunity has not established that the necessary sandbox/API access is stable and usable for third-party testing, nor that a defined regulated payer has a budgeted gap beyond CMF materials, ATENA, internal teams, incumbent consultants, and existing SFA/FAPI vendors. The likely offering is episodic high-touch consulting/compliance support, with unproven repeatability and value capture. It survives only as a customer-discovery hypothesis, not as an HQ-worthy validated business case.",
+      "last_record_updated_at": "2026-10-21T12:28:19.288487+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "No evidence identifies a specific Chilean fintech or financial institution with an approved budget or stated willingness to pay for this artifact.",
+        "No price benchmarks, sales-cycle data, procurement requirements, or gross-margin assumptions are provided.",
+        "The exact scope, stability, access conditions, and certification workflow of the CMF sandbox and APIs may continue changing before July 2027.",
+        "It is unknown whether the proposed harness would provide capabilities materially beyond ATENA, official conformance materials, or internal testing suites.",
+        "The number of prospective PSBI and PSIP participants that are both technically underprepared and willing to buy external help is unknown."
+      ],
+      "participation_path": "Use only the public CMF technical annex and Developers' Portal to implement a minimal sandbox or mock participant covering one information-sharing flow and one consent/error flow. Offer the artifact to 5 Chilean fintechs or financial institutions identified from public CMF registries; ask for a paid technical review or written rejection before building further. Falsify if the documentation is not sufficiently complete to create repeatable tests, or if at least one target declines a fixed-scope review after seeing the working test harness. Do not represent the service as legal or regulatory approval.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Prospective information-based and payment-initiation providers have a bounded implementation window before regulated interoperability becomes operational. The immediate value is reducing integration, consent, security and conformance risk rather than selling generic fintech software.",
+      "title": "Chile SFA interoperability readiness kit for prospective PSBI/PSIP participants",
+      "type": "compliance_infrastructure",
+      "unknowns": [
+        "No evidence identifies a specific Chilean fintech or financial institution with an approved budget or stated willingness to pay for this artifact.",
+        "No price benchmarks, sales-cycle data, procurement requirements, or gross-margin assumptions are provided.",
+        "The exact scope, stability, access conditions, and certification workflow of the CMF sandbox and APIs may continue changing before July 2027.",
+        "It is unknown whether the proposed harness would provide capabilities materially beyond ATENA, official conformance materials, or internal testing suites.",
+        "The number of prospective PSBI and PSIP participants that are both technically underprepared and willing to buy external help is unknown.",
+        "It is unknown whether the operator has Spanish-language regulatory, FAPI 2.0, Chilean security, and enterprise-sales credibility.",
+        "The claim that five prospects can be identified from public CMF registries and reached efficiently is unverified.",
+        "No evidence establishes recurring revenue; the offering may be a one-off review with significant customization.",
+        "Which exact consented-data workflow is being tested, including data holder, consent lifecycle, security profile, and whether the provider will access only synthetic/sandbox data.",
+        "Whether a non-participant vendor can access and use the relevant sandbox, directory, APIs, and conformance workflow on commercially practical terms.",
+        "What material gap remains after ATENA, CMF documentation, and existing commercial SFA/FAPI implementation/testing offerings.",
+        "The number and identity of prospective PSBI/PSIP buyers with near-term implementation plans, procurement authority, and an unmet external-testing need.",
+        "Whether a buyer will pay for a fixed-scope review, at what price, and whether delivery can be standardized rather than customized consulting.",
+        "Whether the operator can credibly meet Chilean security, Spanish-language, FAPI/OpenID, financial-sector procurement, and liability expectations."
+      ],
+      "value_capture_mechanism": "A small operator could sell a narrowly scoped readiness artifact: API conformance test harness, consent-flow test cases, implementation checklist, and evidence pack for internal engineering or regulatory review. The payer would plausibly be a fintech or financial institution preparing for SFA participation, but no public source verifies a specific customer's willingness to pay or a market price.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": true,
       "discovered_at": "2026-10-12T20:12:23.036591+00:00",
@@ -7152,6 +7233,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-21T12:27:58.408020+00:00",
+      "discovery_lens": "underserved_buyers",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The source describes small manufacturers beginning with one camera and one product feature, and gives indicative smart-camera costs of approximately $5,000-$15,000 before more complex integration.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "How Much Does AI Visual Inspection Cost a Small Manufacturer?",
+          "url": "https://sagnikbhattacharya.com/blog/ai-visual-inspection-cost"
+        },
+        {
+          "claim": "An automation integrator reports that small and midsize manufacturers use affordable retrofits to bridge aging equipment, unsupported components and postponed capital replacement.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Small-Scale Retrofits: A Smart Bridge to Automation Reliability",
+          "url": "https://automationsolinc.com/resources/blog/small-scale-retrofits-a-smart-bridge-to-automation-reliability/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.72,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_631d598a14ec7d41696a",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-21T12:27:58.454063+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Select one local manufacturer with a visible manual inspection step. Record baseline defect-detection rate, inspection labor and scrap for 1-2 production shifts; then assemble or quote a single-camera prototype using off-the-shelf components. Request permission for a no-production-risk shadow-mode trial and charge only after an agreed pass/fail metric is demonstrated. Falsify if the defect class cannot be separated reliably from normal variation, the customer will not share baseline measurements, or the measured avoided cost cannot support the quoted hardware and installation expense.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A narrowly defined pass/fail inspection retrofit can address a buyer segment that cannot justify a new robotic cell but can test one quality-control bottleneck. The economic mechanism is avoided scrap, rework or manual inspection, but savings must be measured at the individual line.",
+      "title": "Single-station machine-vision retrofit for legacy production lines",
+      "type": "retrofit_offer",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell a fixed-scope diagnostic and pilot for one inspection point using commercially available vision hardware and an existing PLC or operator workflow. The payer would plausibly be a small manufacturer or automation integrator, but no cited source verifies a particular buyer, conversion rate or margin.",
+      "verified_sales": null,
+      "vertical": "competitive_positioning",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-17T04:20:14.433657+00:00",
       "discovery_lens": "adoption_lag",
       "estimated_capital": "",
@@ -7475,13 +7610,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-21T08:28:18.622340+00:00",
+  "generated_at": "2026-10-21T12:28:19.755279+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 58,
-  "reviewed_cards": 51,
+  "reviewed_cards": 52,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 163,
-  "watch": 105
+  "total_distinct_opportunities": 165,
+  "watch": 107
 }
