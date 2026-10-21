@@ -1,29 +1,240 @@
 {
-  "active_candidates": [],
-  "active_structurally_reconstructable_count": 0,
-  "diagnostics": {
-    "api_failures": {
-      "api_http_504": 1
+  "active_candidates": [
+    {
+      "available_budget_clp": 380000.0,
+      "buyer": "UNIVERSIDAD DE PLAYA ANCHA DE CIENCIAS DE LA EDUCACION",
+      "closes_at": "2026-10-23T11:00:00",
+      "code": "4469-333-COT26",
+      "estimated_budget": 380000.0,
+      "name": "SC 40677(CS) ADQUISICION DE TABLET",
+      "products": 1,
+      "region": "Región de Valparaíso"
     },
-    "requests_used": 3,
-    "transient_retries": 2
+    {
+      "available_budget_clp": 1.0,
+      "buyer": "2 Juzgado de Familia de San Miguel",
+      "closes_at": "2026-10-23T13:00:00",
+      "code": "730377-20-COT26",
+      "estimated_budget": 1.0,
+      "name": "Insumos computacionales",
+      "products": 4,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 500000.0,
+      "buyer": "I MUNICIPALIDAD DE DONIHUE",
+      "closes_at": "2026-10-23T09:00:00",
+      "code": "4161-360-COT26",
+      "estimated_budget": 500000.0,
+      "name": "Servicios de transporte, salida pedagógica alumnos Liceo Claudio Arrau, Campeonato Nacional de Bádminton Clasificatorio, actividad que se desarrollará en Santiago.",
+      "products": 1,
+      "region": "Región del Libertador General Bernardo O´Higgins"
+    },
+    {
+      "available_budget_clp": 7215100.0,
+      "buyer": "I. Municipalidad Sagrada Familia",
+      "closes_at": "2026-10-22T14:00:00",
+      "code": "439-437-COT26",
+      "estimated_budget": 7215100.0,
+      "name": "ADQUISICIÓN DE MATERIALES EDUCATIVOS Y DE APOYO PARA SALAS CUNA Y JARDINES INFANTILES.",
+      "products": 7,
+      "region": "Región del Maule"
+    },
+    {
+      "available_budget_clp": 800000.0,
+      "buyer": "I MUNICIPALIDAD DE SAAVEDRA",
+      "closes_at": "2026-10-22T15:00:00",
+      "code": "3611-224-COT26",
+      "estimated_budget": 800000.0,
+      "name": "Curso Herramientas para la Transversalización del enfoque con pertinencia Cultural",
+      "products": 1,
+      "region": "Región de la Araucanía"
+    },
+    {
+      "available_budget_clp": 352240.0,
+      "buyer": "HOSPITAL DE ALTO HOSPICIO",
+      "closes_at": "2026-10-22T14:00:00",
+      "code": "1350296-604-COT26",
+      "estimated_budget": 352240.0,
+      "name": "ADQ /\"ADQUISICIÓN DE SERVICIO DE DIAGNOSTICO PARA VEHICULO INSTITUCIONAL DEL HOSPITAL DE ALTO HOSPICIO; FR 2026-1450\"",
+      "products": 1,
+      "region": "Región de Tarapacá"
+    },
+    {
+      "available_budget_clp": 475000.0,
+      "buyer": "Hospital de Castro",
+      "closes_at": "2026-10-22T14:00:00",
+      "code": "1514-591-COT26",
+      "estimated_budget": 475000.0,
+      "name": "COMPRA DE DECORACION NAVIDEÑA E IMPLEMENTOS PARA LA SALA DE LA OIRS",
+      "products": 1,
+      "region": "Región de los Lagos"
+    },
+    {
+      "available_budget_clp": 200000.0,
+      "buyer": "I MUNICIPALIDAD DE FREIRE",
+      "closes_at": "2026-10-23T12:00:00",
+      "code": "3890-68-COT26",
+      "estimated_budget": 200000.0,
+      "name": "ADQUISICION DE 2 PISTOLAS PULVERIZADORA Y 1 SET DE BOQUILLAS PARA HIDRO LAVADORA PROFESIONAL DE AGUA FRIA/CALIENTE DEL RELLENO SANITARIO DE FREIRE",
+      "products": 2,
+      "region": "Región de la Araucanía"
+    },
+    {
+      "available_budget_clp": 360000.0,
+      "buyer": "I MUNICIPALIDAD DE CATEMU",
+      "closes_at": "2026-10-22T18:00:00",
+      "code": "4280-430-COT26",
+      "estimated_budget": 360000.0,
+      "name": "Almuerzos - Usuarios Prodesal \"Capacitación Poda Post Heladas\"",
+      "products": 1,
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 600000.0,
+      "buyer": "INSTITUTO DE INVESTIGACIONES AGROPECUARIAS",
+      "closes_at": "2026-10-22T15:00:00",
+      "code": "1107282-259-COT26",
+      "estimated_budget": 600000.0,
+      "name": "Se requiere Suministro de Equipamiento para Pilotaje de Alimentos Cárnicos Madurados – Proyecto FIA INIA",
+      "products": 1,
+      "region": "Región de los Lagos"
+    },
+    {
+      "available_budget_clp": 200277.0,
+      "buyer": "I MUNICIPALIDAD DE QUINTERO",
+      "closes_at": "2026-10-23T09:00:00",
+      "code": "4548-621-COT26",
+      "estimated_budget": 200277.0,
+      "name": "FINANZAS - TIMBRES PARA DOCUMENTACION CONTABLE DE LA DIRECCION DE FINANZAS",
+      "products": 1,
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 1000000.0,
+      "buyer": "I MUNICIPALIDAD DE QUILICURA",
+      "closes_at": "2026-10-22T13:55:00",
+      "code": "2483-496-COT26",
+      "estimated_budget": 1000000.0,
+      "name": "ADQUISICIÓN DE HERRAMIENTAS DE CARPINTERÍA PARA EL EQUIPO DE MANTENCIÓN DE DEPENDENCIAS MUNICIPALES",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 3720000.0,
+      "buyer": "DIDECO",
+      "closes_at": "2026-10-26T15:00:00",
+      "code": "1452433-183-COT26",
+      "estimated_budget": 3720000.0,
+      "name": "Servicio de reparación y mantención de recintos deportivos municipales, Gimnasio Barros Arana – Estadio Municipal de Barros Arana – Estadio Municipal de Teodoro Schmidt y Estadio Municipal de Hualpin",
+      "products": 4,
+      "region": "Región de la Araucanía"
+    },
+    {
+      "available_budget_clp": 830000.0,
+      "buyer": "I MUNICIPALIDAD DE CARAHUE",
+      "closes_at": "2026-10-23T10:00:00",
+      "code": "3587-269-COT26",
+      "estimated_budget": 830000.0,
+      "name": "COMPRA MEDICAMENTOS PARA TTO TDHA, TOC Y OTROS - OCTUBRE 2026",
+      "products": 4,
+      "region": "Región de la Araucanía"
+    },
+    {
+      "available_budget_clp": 600000.0,
+      "buyer": "MINISTERIO PUBLICO",
+      "closes_at": "2026-10-23T13:00:00",
+      "code": "697202-83-COT26",
+      "estimated_budget": 600000.0,
+      "name": "SERVICIO DE CAJAS SNACKS PARA ACTIVIDAD PLAN CALIDAD DE VIDA DE LA FISCALÍA REGIONAL DE VALPARAÍSO .",
+      "products": 1,
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 1008000.0,
+      "buyer": "I MUNICIPALIDAD DE LOS ANGELES",
+      "closes_at": "2026-10-28T14:00:00",
+      "code": "2408-569-COT26",
+      "estimated_budget": 1008000.0,
+      "name": "(3241) SERVICIO DE CAPACITACION :TALLER DEFENSA PERSONAL",
+      "products": 1,
+      "region": "Región del Biobío"
+    },
+    {
+      "available_budget_clp": 258000.0,
+      "buyer": "UNIVERSIDAD DE SANTIAGO DE CHILE",
+      "closes_at": "2026-10-22T15:00:00",
+      "code": "5067-2556-COT26",
+      "estimated_budget": 258000.0,
+      "name": "Adquisición de Materiales para Talleres - Facultad de Humanidades (FAHU), USACH",
+      "products": 6,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 95000.0,
+      "buyer": "CORP MUNICIPAL DE SERVICIOS PUBLICOS TRASPASADOS DE RANCAGUA",
+      "closes_at": "2026-10-22T14:00:00",
+      "code": "557639-3223-COT26",
+      "estimated_budget": 95000.0,
+      "name": "Adquisición de Frazadas, Mantas y Cortinas-COLEGIO PABLO GARRIDO",
+      "products": 3,
+      "region": "Región del Libertador General Bernardo O´Higgins"
+    },
+    {
+      "available_budget_clp": 350000.0,
+      "buyer": "ILUSTRE MUNICIPALIDAD DE RIO VERDE",
+      "closes_at": "2026-10-23T14:00:00",
+      "code": "3595-254-COT26",
+      "estimated_budget": 350000.0,
+      "name": "ADQUISICIÓN E IMPRESIÓN DE LETRERO VINILICO DEL CROQUIS SECTORIAL POSTA DE SALUD RURAL",
+      "products": 1,
+      "region": "Región de Magallanes y de la Antártica"
+    },
+    {
+      "available_budget_clp": 450000.0,
+      "buyer": "JUNTA NACIONAL DE JARDINES         INFANTILES",
+      "closes_at": "2026-10-26T12:00:00",
+      "code": "852-116-COT26",
+      "estimated_budget": 450000.0,
+      "name": "ADQUISICIÓN DE “ACCESORIOS E INSUMOS P02 ALTERNATIVOS”",
+      "products": 3,
+      "region": "Región de la Araucanía"
+    }
+  ],
+  "active_structurally_reconstructable_count": 20,
+  "diagnostics": {
+    "api_failures": {},
+    "budget_exhausted": false,
+    "detail_attempts": 20,
+    "detail_cap_exhausted": true,
+    "details_fetched": 20,
+    "duplicate_listings": 0,
+    "invalid_listing_items": 0,
+    "malformed_details": 0,
+    "malformed_reasons": {},
+    "malformed_samples": [],
+    "pages_fetched": 1,
+    "pagination_incomplete": false,
+    "pagination_invalid": false,
+    "requests_used": 21,
+    "transient_retries": 0
   },
-  "generated_at": "2026-10-21T13:09:06Z",
-  "inserted_history": 0,
-  "note": "Transient ChileCompra/API availability failure after bounded retries. Cursor was not advanced; next scheduled run may retry safely.",
+  "generated_at": "2026-10-21T16:55:12Z",
+  "inserted_history": 20,
+  "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_TRANSIENT_API",
+  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
   "phase1": {
-    "records": 0,
+    "records": 20,
     "rejection_reasons": {},
     "resolved": 0,
-    "structurally_reconstructable": 0,
+    "structurally_reconstructable": 20,
     "with_observable_quote_totals": 0,
     "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-21T13:09:06Z"
+    "changed_to": "2026-10-21T16:55:12Z"
   }
 }
