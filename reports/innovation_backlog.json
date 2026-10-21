@@ -2281,6 +2281,42 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use only the CMF-published technical annex, developer materials, and ATENA access rules to build a local validator for one narrow component, such as consent, data exchange, payment initiation, or participant-directory interoperability. Run the validator against mock endpoints and publicly documented examples. Then contact prospective SFA participants through publicly listed institutional channels with a no-cost diagnostic request, explicitly asking whether external testing support is permitted and whether they would pay for a pilot. Lowest-cost falsification: spend one week implementing 10-20 published test cases and obtain either (a) a successful ATENA/mock interoperability result or (b) three written rejections/no-interest responses from plausible participants. Do not represent the operator as a CMF-approved tester or access private systems without authorization.",
+      "current_thesis": "The near-term value is not operating a regulated financial product; it is reducing integration and compliance uncertainty before the July 2027 implementation deadline. A narrowly scoped conformance harness could convert public technical requirements into repeatable test cases and evidence packets.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile SFA/ATENA conformance-test asset for prospective participants",
+      "opportunity_id": "opp_6cea461c4316ad0c1441",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A paid fixed-scope validation package or reusable testing software that checks an institution’s implementation against the published SFA technical requirements and produces a defect/evidence report. Revenue is unverified until an eligible institution agrees to pay; no margin or buyer commitment is assumed.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Start with the public CMF technical annex and ATENA materials. Build a minimal mock participant-directory/API test fixture and a checklist mapping one prospective participant’s endpoints to the published requirements. Contact only entities publicly listed as fintechs, payment providers, or financial institutions and offer a paid or unpaid discovery session subject to their authorization. Falsification test: interview five potential participants or implementation vendors and ask whether they already have an internal test harness, whether ATENA access is sufficient, and whether they would pay for a narrowly defined conformance test. Stop if none reports a concrete unresolved testing problem.",
       "current_thesis": "Small regulated or prospective SFA participants may face a concrete implementation and testing workload before July 2027. A narrow, reusable test harness or managed conformance-testing package could reduce integration uncertainty without attempting to become a regulated data-access provider.",
       "founder_hours_initial_unverified_estimate": "",
@@ -3026,9 +3062,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "United States",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "Whether fund administrators, transfer agents, or tokenization platforms currently pay separately for external workflow-test tooling.",
+        "The identity of the economic buyer and whether the budget sits with compliance, operations, engineering, vendor management, or implementation teams.",
+        "Required test coverage across chains, smart-contract standards, transfer-agent systems, investor-accounting systems, and exception-management procedures.",
+        "Whether buyers would accept a local or open-source harness without SOC 2, penetration testing, audit trails, support, indemnities, and formal validation documentation.",
+        "The size and frequency of reconciliation failures, failed transactions, allowlist errors, or audit findings that could create measurable willingness to pay.",
+        "Whether incumbent transfer agents and tokenization platforms already provide equivalent testing, certification, sandbox, or acceptance-testing functionality.",
+        "Whether the intended market is actually the United States or Chile, and whether Chilean institutions have comparable tokenized-fund deployment and regulatory demand."
       ],
       "investment_authorized": false,
       "name": "Tokenized-fund ledger reconciliation and allowlist-control test harness",
@@ -3931,7 +3971,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-20T20:22:08.384081+00:00",
+  "generated_at": "2026-10-21T00:24:03.327243+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

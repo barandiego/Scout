@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-20T20:22:08.307244+00:00
+Generated: 2026-10-21T00:24:03.249854+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 103 (0 HQ survivors, 103 watches)
+- Active research: 104 (0 HQ survivors, 104 watches)
 - Rejected opportunities excluded: 56
-- Critic-and-judge reviewed: 50
+- Critic-and-judge reviewed: 51
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -513,6 +513,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/0001837240/000119312526015495/ars_2025.pdf; https://ebs.publicnow.com/view/9A4CD81A9D4548A36FCD237CFB7E0DF8C5100E09
 
+### Tokenized-fund ledger reconciliation and allowlist-control test harness [opp_660a3aa8f1b5b77975e4]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | United States
+- Thesis: Tokenization does not eliminate transfer-agent and fund-administration work; it adds reconciliation, exception handling, wallet eligibility, and audit evidence that must operate across blockchain and traditional books and records.
+- Value capture: A narrowly scoped software or testing asset that validates tokenized-share workflows: wallet allowlist changes, mint/burn events, investor-record reconciliation, transfer restrictions, failed transactions, and audit-log completeness. The economic mechanism is avoided operational error and faster pre-launch or vendor acceptance testing, not a claim of regulatory approval.
+- Participation hypothesis: Build a local test harness against the publicly described workflows and SEC filing requirements using synthetic investor, wallet, mint, burn, and reconciliation events. Publish a short reproducible test report and approach fund administrators, digital transfer agents, transfer-agent vendors, or tokenization platforms only for a paid technical evaluation or subcontracted implementation; do not handle securities, custody, KYC decisions, or production wallets. Lowest-cost falsification: obtain one public tokenized-fund filing, implement 10-20 synt
+- Critic/judge: The cited U.S. SEC filings credibly support that tokenized-fund operations can require wallet allowlists, reconciliation to authoritative transfer-agent records, transfer controls, and audit evidence. A non-production synthetic test harness could avoid directly performing custody, KYC, transfer-agent, or securities activity, so legal/API impossibility is not established. However, this does not yet qualify as a Chile open-finance opportu
+- Next evidence gaps: Whether fund administrators, transfer agents, or tokenization platforms currently pay separately for external workflow-test tooling.; The identity of the economic buyer and whether the budget sits with compliance, operations, engineering, vendor management, or implementation teams.; Required test coverage across chains, smart-contract standards, transfer-agent systems, investor-accounting systems, and exception-management procedures.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/843781/000003014626000437/cik0000843781_102708.htm; https://www.sec.gov/Archives/edgar/data/831114/000139834426000957/fp0097248-1_40app.htm
+
 ### Small- and mid-size farm robotic-weeding service using commercial robots instead of ownership [opp_9ed2c5cffcc241526473]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States; potentially exportable to Chilean specialty-crop regions
 - Thesis: The executable wedge is not building a new robot; it is testing whether a small operator can aggregate demand and sell scheduled robotic weeding, field trials, or seasonal access while outsourcing equipment ownership to an existing manufacturer, dealer or equipment financier. Actual unit economics remain unverified and depend on crop, acreage, transport, supervision and robot availability.
@@ -752,6 +762,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
+### Chile SFA/ATENA conformance-test asset for prospective participants [opp_6cea461c4316ad0c1441]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: The near-term value is not operating a regulated financial product; it is reducing integration and compliance uncertainty before the July 2027 implementation deadline. A narrowly scoped conformance harness could convert public technical requirements into repeatable test cases and evidence packets.
+- Value capture: A paid fixed-scope validation package or reusable testing software that checks an institution’s implementation against the published SFA technical requirements and produces a defect/evidence report. Revenue is unverified until an eligible institution agrees to pay; no margin or buyer commitment is assumed.
+- Participation hypothesis: Use only the CMF-published technical annex, developer materials, and ATENA access rules to build a local validator for one narrow component, such as consent, data exchange, payment initiation, or participant-directory interoperability. Run the validator against mock endpoints and publicly documented examples. Then contact prospective SFA participants through publicly listed institutional channels with a no-cost diagnostic request, explicitly asking whether external testing support is permitted and whether they would pay for a pilot. Lowest-cost
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
 ### Chile SFA/ATENA interoperability test harness for small fintechs [opp_055b092ce47f55114c32]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -1012,16 +1032,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.bis.org/media-releases/20250624-next-generation-monetary-and-financial-system-takes-shape-based-tokenised-unified-ledger-bis; https://www.bis.org/publications/aer-2025/next-generation-monetary-financial-system
-
-### Tokenized-fund ledger reconciliation and allowlist-control test harness [opp_660a3aa8f1b5b77975e4]
-- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | United States
-- Thesis: Tokenization does not eliminate transfer-agent and fund-administration work; it adds reconciliation, exception handling, wallet eligibility, and audit evidence that must operate across blockchain and traditional books and records.
-- Value capture: A narrowly scoped software or testing asset that validates tokenized-share workflows: wallet allowlist changes, mint/burn events, investor-record reconciliation, transfer restrictions, failed transactions, and audit-log completeness. The economic mechanism is avoided operational error and faster pre-launch or vendor acceptance testing, not a claim of regulatory approval.
-- Participation hypothesis: Build a local test harness against the publicly described workflows and SEC filing requirements using synthetic investor, wallet, mint, burn, and reconciliation events. Publish a short reproducible test report and approach fund administrators, digital transfer agents, transfer-agent vendors, or tokenization platforms only for a paid technical evaluation or subcontracted implementation; do not handle securities, custody, KYC decisions, or production wallets. Lowest-cost falsification: obtain one public tokenized-fund filing, implement 10-20 synt
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/843781/000003014626000437/cik0000843781_102708.htm; https://www.sec.gov/Archives/edgar/data/831114/000139834426000957/fp0097248-1_40app.htm
 
 ### Tokenized-securities operational adapter for DTC Participants [opp_711ad4fbffe9d21b5212]
 - Status: WATCH_REQUIRES_VALIDATION | public_markets | United States

@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 103
+Candidates: 104
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -724,6 +724,18 @@ Candidates: 103
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
+## Chile SFA/ATENA conformance-test asset for prospective participants
+- Status: watch | open_finance_chile
+- Current idea: The near-term value is not operating a regulated financial product; it is reducing integration and compliance uncertainty before the July 2027 implementation deadline. A narrowly scoped conformance harness could convert public technical requirements into repeatable test cases and evidence packets.
+- Potential economic capture: A paid fixed-scope validation package or reusable testing software that checks an institution’s implementation against the published SFA technical requirements and produces a defect/evidence report. Revenue is unverified until an eligible institution agrees to pay; no margin or buyer commitment is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
 ## Chile SFA/ATENA interoperability test harness for small fintechs
 - Status: watch | open_finance_chile
 - Current idea: Small regulated or prospective SFA participants may face a concrete implementation and testing workload before July 2027. A narrow, reusable test harness or managed conformance-testing package could reduce integration uncertainty without attempting to become a regulated data-access provider.
@@ -960,7 +972,7 @@ Candidates: 103
   - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
   - Check license perimeter, API access, legal compliance and competitor pricing.
   - Test buyer procurement and technical access before writing integration infrastructure.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Whether fund administrators, transfer agents, or tokenization platforms currently pay separately for external workflow-test tooling.; The identity of the economic buyer and whether the budget sits with compliance, operations, engineering, vendor management, or implementation teams.; Required test coverage across chains, smart-contract standards, transfer-agent systems, investor-accounting systems, and exception-management procedures.
 - Possible initial budget:
 - Source URLs: https://www.sec.gov/Archives/edgar/data/843781/000003014626000437/cik0000843781_102708.htm; https://www.sec.gov/Archives/edgar/data/831114/000139834426000957/fp0097248-1_40app.htm
 

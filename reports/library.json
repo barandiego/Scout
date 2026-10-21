@@ -4382,6 +4382,98 @@
     {
       "ai_leverage": "",
       "authorized_for_execution": false,
+      "contrary_evidence": [
+        "SEC filings support the existence of concrete controls involving whitelisted wallets, reconciliation, transfer restrictions, error correction, auditability, and transfer-agent procedures. Source: https://www.sec.gov/Archives/edgar/data/831114/000139834426000957/fp0097248-1_40app.htm",
+        "A separate SEC filing describes a digital transfer agent maintaining an allowlist for tokenized shares, indicating that the proposed workflow is not hypothetical. Source: https://www.sec.gov/Archives/edgar/data/2045872/000119312526349138/bsol-20260813.htm",
+        "JPMorgan explicitly markets Kinexys Fund Flow as reducing manual reconciliation burdens in tokenized-fund operations, validating the pain point but also demonstrating incumbent competition. Source: https://www.jpmorgan.com/kinexys/fund-flow",
+        "Independent market commentary indicates tokenized U.S. Treasury and money-market funds reached approximately $14.2 billion by June 2026, showing meaningful growth but still a narrow market relative to traditional fund assets. Source: https://www.allium.so/reports/tokenized-us-funds-june-2026",
+        "PwC forecasts substantial tokenized-fund growth, which could expand the eventual buyer pool, but this is a forecast rather than evidence of current software procurement demand. Source: https://www.pwc.com/us/en/industries/financial-services/library/tokenizing-assets.html",
+        "The New York Fed describes U.S. tokenized-fund activity as concentrated primarily in money-market funds and private funds, suggesting the addressable workflow may be narrower and more heterogeneous than the thesis implies. Source: https://libertystreeteconomics.newyorkfed.org/2025/09/the-emergence-of-tokenized-investment-funds-and-their-use-cases/",
+        "The ECB characterizes tokenized money-market funds as very small compared with conventional regulated money-market funds, which is contrary evidence against near-term scale. Source: https://www.ecb.europa.eu/press/financial-stability-publications/macroprudential-bulletin/html/ecb.mpbu202604_04.el.html"
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-15T16:24:52.023096+00:00",
+      "discovery_lens": "tokenization_finance",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The fund describes Token-Enabled shares, traditional official books and records, blockchain mirroring, purchases through BNY, and a constant $1 NAV structure.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "BNY Dreyfus Treasury Securities Cash Management prospectus: Token-Enabled shares",
+          "url": "https://www.sec.gov/Archives/edgar/data/843781/000003014626000437/cik0000843781_102708.htm"
+        },
+        {
+          "claim": "The filing describes whitelisted wallets, digital-register reconciliation with transfer-agent records at least daily, transfer restrictions, and risks from discrepancies or delayed processing.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Superstate tokenized ETF filing",
+          "url": "https://www.sec.gov/Archives/edgar/data/831114/000139834426000957/fp0097248-1_40app.htm"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.78,
+      "falsification_conditions": [
+        "Five or more relevant service providers, including transfer agents, fund administrators, custodians, or tokenization platforms, decline to identify a current testing or reconciliation pain point.",
+        "No qualified stakeholder agrees to review the synthetic test report within 60 days.",
+        "No stakeholder will pay for a limited evaluation, pilot, implementation subcontract, or narrowly defined validation engagement after seeing the artifact.",
+        "Incumbent providers demonstrate that equivalent reconciliation, allowlist, exception, and audit-log testing is already included in their platforms at no incremental cost.",
+        "The test harness cannot reproduce at least 10 to 20 realistic workflow cases across allowlist changes, mint, burn, transfer, failed transaction, conversion, reconciliation, and audit-log scenarios.",
+        "A prospective buyer requires production-system integration, formal validation, or regulated-vendor credentials that exceed the available resources and cannot be obtained through a partner.",
+        "Customer interviews show that reconciliation and testing are infrequent launch tasks with no recurring budget or that buyers prefer consulting services rather than software.",
+        "The United States market produces no reachable buyer while the Chilean market lacks sufficient tokenized-fund activity or has materially different requirements.",
+        "The opportunity cannot demonstrate a quantified economic benefit, such as reduced manual hours, fewer exceptions, faster launch acceptance, or avoidance of a documented operational incident."
+      ],
+      "geography": "United States",
+      "id": "opp_660a3aa8f1b5b77975e4",
+      "judge_reviewed": true,
+      "judgment": "The cited U.S. SEC filings credibly support that tokenized-fund operations can require wallet allowlists, reconciliation to authoritative transfer-agent records, transfer controls, and audit evidence. A non-production synthetic test harness could avoid directly performing custody, KYC, transfer-agent, or securities activity, so legal/API impossibility is not established. However, this does not yet qualify as a Chile open-finance opportunity: the geography is the United States, the regulatory evidence is U.S.-specific, and there is no evidence that Chilean fund administrators, transfer agents, regulated payers, or tokenization providers have comparable deployments, accessible interfaces, or procurement demand. The commercial wedge is also unproven because likely buyers are concentrated, highly regulated institutions that may require deep integrations, security assurance, support, and liability commitments; incumbents may bundle equivalent capabilities. Retain only as research contingent on validating a specific Chilean regulated payer and consented-data/testing workflow, or explicitly reclassify it as a U.S. tokenized-funds infrastructure hypothesis.",
+      "last_record_updated_at": "2026-10-21T00:24:02.756769+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Whether fund administrators, transfer agents, or tokenization platforms currently pay separately for external workflow-test tooling.",
+        "The identity of the economic buyer and whether the budget sits with compliance, operations, engineering, vendor management, or implementation teams.",
+        "Required test coverage across chains, smart-contract standards, transfer-agent systems, investor-accounting systems, and exception-management procedures.",
+        "Whether buyers would accept a local or open-source harness without SOC 2, penetration testing, audit trails, support, indemnities, and formal validation documentation.",
+        "The size and frequency of reconciliation failures, failed transactions, allowlist errors, or audit findings that could create measurable willingness to pay."
+      ],
+      "participation_path": "Build a local test harness against the publicly described workflows and SEC filing requirements using synthetic investor, wallet, mint, burn, and reconciliation events. Publish a short reproducible test report and approach fund administrators, digital transfer agents, transfer-agent vendors, or tokenization platforms only for a paid technical evaluation or subcontracted implementation; do not handle securities, custody, KYC decisions, or production wallets. Lowest-cost falsification: obtain one public tokenized-fund filing, implement 10-20 synthetic reconciliation and allowlist test cases, and ask at least five identifiable service providers whether they will review the artifact or pay for a limited pilot. Stop if no operational stakeholder confirms a current testing or reconciliation pain point.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Tokenization does not eliminate transfer-agent and fund-administration work; it adds reconciliation, exception handling, wallet eligibility, and audit evidence that must operate across blockchain and traditional books and records.",
+      "title": "Tokenized-fund ledger reconciliation and allowlist-control test harness",
+      "type": "compliance_infrastructure",
+      "unknowns": [
+        "Whether fund administrators, transfer agents, or tokenization platforms currently pay separately for external workflow-test tooling.",
+        "The identity of the economic buyer and whether the budget sits with compliance, operations, engineering, vendor management, or implementation teams.",
+        "Required test coverage across chains, smart-contract standards, transfer-agent systems, investor-accounting systems, and exception-management procedures.",
+        "Whether buyers would accept a local or open-source harness without SOC 2, penetration testing, audit trails, support, indemnities, and formal validation documentation.",
+        "The size and frequency of reconciliation failures, failed transactions, allowlist errors, or audit findings that could create measurable willingness to pay.",
+        "Whether incumbent transfer agents and tokenization platforms already provide equivalent testing, certification, sandbox, or acceptance-testing functionality.",
+        "Whether the intended market is actually the United States or Chile, and whether Chilean institutions have comparable tokenized-fund deployment and regulatory demand.",
+        "Potential legal and commercial exposure if the artifact is interpreted as testing regulatory compliance rather than merely testing technical workflows.",
+        "Whether tokenized-fund adoption will broaden beyond Treasury and money-market products quickly enough to support a durable standalone niche.",
+        "The founder's ability to obtain identifiable customer interviews, secure data, domain expertise, and enterprise procurement access.",
+        "Whether any Chilean regulated fund sponsor, administrator, custodian, transfer-agent equivalent, or fintech currently operates tokenized-fund workflows requiring these controls.",
+        "Which Chilean regulator and legal regime would govern tokenized fund interests, authoritative investor records, wallet eligibility, and outsourced testing services.",
+        "Whether a local harness can test against legally and technically accessible sandbox/API interfaces rather than private institutional systems.",
+        "Whether the narrow artifact can remain clearly outside regulated activity and outside representations of regulatory-compliance certification.",
+        "Whether a buyer will pay for a limited evaluation rather than require an implementation partner or bundled incumbent tooling.",
+        "Measured frequency, cost, and materiality of reconciliation, allowlist, and audit-log failures sufficient to support recurring pricing."
+      ],
+      "value_capture_mechanism": "A narrowly scoped software or testing asset that validates tokenized-share workflows: wallet allowlist changes, mint/burn events, investor-record reconciliation, transfer restrictions, failed transactions, and audit-log completeness. The economic mechanism is avoided operational error and faster pre-launch or vendor acceptance testing, not a claim of regulatory approval.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
       "discovered_at": "2026-10-15T20:20:46.386299+00:00",
@@ -5747,6 +5839,60 @@
       "type": "compliance_technology",
       "unknowns": [],
       "value_capture_mechanism": "Sell a fixed-scope conformance test package: simulated participant endpoints, consent-flow tests, API request/response validation, security-test evidence and defect reproduction. The payer would most plausibly be a fintech, regulated financial institution or technology vendor preparing for ATENA/SFA testing; no buyer, price or procurement commitment was verified.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-21T00:23:40.322240+00:00",
+      "discovery_lens": "regulation_infrastructure",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The CMF published an amendment to NCG 514 on June 1, 2026; it includes technical specifications for information exchange and payment initiation and postpones entry into force until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
+          "url": "https://cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        },
+        {
+          "claim": "ATENA launched on September 30, 2026 as a controlled environment for institutions to test integrations, interoperability with the participant directory, and business models before SFA entry into force.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF lanza Sandbox Tecnológico ATENA para la implementación del Sistema de Finanzas Abiertas",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.91,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_6cea461c4316ad0c1441",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-21T00:23:40.360306+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use only the CMF-published technical annex, developer materials, and ATENA access rules to build a local validator for one narrow component, such as consent, data exchange, payment initiation, or participant-directory interoperability. Run the validator against mock endpoints and publicly documented examples. Then contact prospective SFA participants through publicly listed institutional channels with a no-cost diagnostic request, explicitly asking whether external testing support is permitted and whether they would pay for a pilot. Lowest-cost falsification: spend one week implementing 10-20 published test cases and obtain either (a) a successful ATENA/mock interoperability result or (b) three written rejections/no-interest responses from plausible participants. Do not represent the operator as a CMF-approved tester or access private systems without authorization.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The near-term value is not operating a regulated financial product; it is reducing integration and compliance uncertainty before the July 2027 implementation deadline. A narrowly scoped conformance harness could convert public technical requirements into repeatable test cases and evidence packets.",
+      "title": "Chile SFA/ATENA conformance-test asset for prospective participants",
+      "type": "regulatory_infrastructure",
+      "unknowns": [],
+      "value_capture_mechanism": "A paid fixed-scope validation package or reusable testing software that checks an institution’s implementation against the published SFA technical requirements and produces a defect/evidence report. Revenue is unverified until an eligible institution agrees to pay; no margin or buyer commitment is assumed.",
       "verified_sales": null,
       "vertical": "open_finance_chile",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
@@ -7161,60 +7307,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-15T16:24:52.023096+00:00",
-      "discovery_lens": "tokenization_finance",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "The fund describes Token-Enabled shares, traditional official books and records, blockchain mirroring, purchases through BNY, and a constant $1 NAV structure.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "BNY Dreyfus Treasury Securities Cash Management prospectus: Token-Enabled shares",
-          "url": "https://www.sec.gov/Archives/edgar/data/843781/000003014626000437/cik0000843781_102708.htm"
-        },
-        {
-          "claim": "The filing describes whitelisted wallets, digital-register reconciliation with transfer-agent records at least daily, transfer restrictions, and risks from discrepancies or delayed processing.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Superstate tokenized ETF filing",
-          "url": "https://www.sec.gov/Archives/edgar/data/831114/000139834426000957/fp0097248-1_40app.htm"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.87,
-      "falsification_conditions": [],
-      "geography": "United States",
-      "id": "opp_660a3aa8f1b5b77975e4",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-15T16:24:52.047369+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Build a local test harness against the publicly described workflows and SEC filing requirements using synthetic investor, wallet, mint, burn, and reconciliation events. Publish a short reproducible test report and approach fund administrators, digital transfer agents, transfer-agent vendors, or tokenization platforms only for a paid technical evaluation or subcontracted implementation; do not handle securities, custody, KYC decisions, or production wallets. Lowest-cost falsification: obtain one public tokenized-fund filing, implement 10-20 synthetic reconciliation and allowlist test cases, and ask at least five identifiable service providers whether they will review the artifact or pay for a limited pilot. Stop if no operational stakeholder confirms a current testing or reconciliation pain point.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "Tokenization does not eliminate transfer-agent and fund-administration work; it adds reconciliation, exception handling, wallet eligibility, and audit evidence that must operate across blockchain and traditional books and records.",
-      "title": "Tokenized-fund ledger reconciliation and allowlist-control test harness",
-      "type": "compliance_infrastructure",
-      "unknowns": [],
-      "value_capture_mechanism": "A narrowly scoped software or testing asset that validates tokenized-share workflows: wallet allowlist changes, mint/burn events, investor-record reconciliation, transfer restrictions, failed transactions, and audit-log completeness. The economic mechanism is avoided operational error and faster pre-launch or vendor acceptance testing, not a claim of regulatory approval.",
-      "verified_sales": null,
-      "vertical": "open_finance_chile",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-16T20:18:25.723823+00:00",
       "discovery_lens": "tokenization_finance",
       "estimated_capital": "",
@@ -7322,13 +7414,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-20T20:22:08.307244+00:00",
+  "generated_at": "2026-10-21T00:24:03.249854+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 56,
-  "reviewed_cards": 50,
+  "reviewed_cards": 51,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 159,
-  "watch": 103
+  "total_distinct_opportunities": 160,
+  "watch": 104
 }

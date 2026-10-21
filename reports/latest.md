@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-20T20:22:07.946914+00:00
+Generated: 2026-10-21T00:24:02.856703+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['fixed_scope_paid_research_asset', 'geographic_arbitrage', 'ai_open_source']
-- raw_candidates: 3
-- parseable_candidates: 3
-- normalized_candidates: 3
+- lenses: ['public_markets', 'physical_commerce', 'regulation_infrastructure']
+- raw_candidates: 1
+- parseable_candidates: 1
+- normalized_candidates: 1
 - normalization_rejected: 0
-- grounded_sources: 6
+- grounded_sources: 2
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
 - critic_reviews: 1
 - judge_reviews: 1
 - survivors: 0
-- watches: 3
+- watches: 2
 - rejected: 0
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.0423902
+- cost_usd: 0.0461528
 - cost_uncertain: False
-- budget_remaining_usd: 0.0376098
+- budget_remaining_usd: 0.0338472
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Open-finance implementation monitoring and developer-readiness service: deferred_by_review_cap
 - NFC review-and-reorder plaques for Chilean independent merchants: deferred_by_review_cap
 - Small hydroponic propagation and specialty-herb pilot, not commodity indoor lettuce: deferred_by_review_cap
 - Bid-support and compliance package for Chile’s 2026/01 regulated power-supply tender: deferred_by_review_cap
@@ -51,12 +50,13 @@ No survivors. Scout does not manufacture a daily winner.
 - Chile renewable-curtailment dataset and screening tool for storage-site diligence: deferred_by_review_cap
 - Spanish-language invoice-extraction evaluation pack for Chilean accounting workflows: deferred_by_review_cap
 - Chile Open Finance conformance and test-data pack: The regulatory premise is adequately grounded by CMF primary sources: a technical annex/developer portal exists and the operating timetable was postponed to July 2027. The proposed asset can be built from public documentation and synthetic data, so it does not inherently require unavailable live financial-data access or claim a regulated approval role. However, HQ-worthiness is not established because the same public materials, CMF sandbox/integration environment, and incumbent implementation vendors may make a standalone conformance pack non-differentiated and difficult to monetize. Treat this only as a narrowly scoped validation research hypothesis until a defined buyer confirms that official tools and existing vendors do not cover a specific required test or reporting gap.
+- Chile SFA/ATENA conformance-test asset for prospective participants: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=fresh",
+    "deep_review_lane=backlog",
     "research_queue_unreviewed=48"
   ],
   "stages": [
@@ -65,39 +65,35 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 31,
+      "grounded_source_count": 27,
       "search_source_urls": [
-        "https://arxiv.org/abs/2509.04469",
-        "https://arxiv.org/abs/2511.05547",
-        "https://arxiv.org/abs/2606.06242",
-        "https://arxiv.org/abs/2606.25343",
-        "https://climate.org/wp-content/uploads/2025/09/Final-Chile-Report.pdf",
+        "https://arxiv.org/abs/2610.14120",
+        "https://assets.falabella.com/v3/assets/bltf4ed0b9a176c126e/blt34271eaf0fb835a5/Reporte%20de%20Sostenibilidad%202025.pdf",
         "https://cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://cmfchile.cl/portal/principal/613/articles-86367_doc_pdf.pdf",
-        "https://cmfchile.cl/portal/principal/613/w3-article-92556.html",
-        "https://de.wikipedia.org/wiki/Energiewende_nach_L%C3%A4ndern",
-        "https://doi.org/10.3390/en19020334",
-        "https://en.wikipedia.org/wiki/Curtailment_in_Chile",
-        "https://en.wikipedia.org/wiki/Solar_power_in_Chile",
-        "https://es.wikipedia.org/wiki/Transici%C3%B3n_energ%C3%A9tica",
-        "https://github.com/DocuPipe/DocuBench",
-        "https://github.com/DrewKraken/invoice-extraction-benchmark",
-        "https://github.com/OmarFaig/Assay",
-        "https://github.com/abimaelmartell/ExtractBench",
-        "https://github.com/heethanjan/invoice-haystack",
-        "https://github.com/mborges-dev/extraction-evals",
-        "https://iea.blob.core.windows.net/assets/48eccb83-984c-45d2-bf78-67a61e88d241/Renewables2025.pdf",
-        "https://pt.wikipedia.org/wiki/Sistema_de_armazenamento_de_energia_em_baterias",
-        "https://renmad.com/chile/wp-content/uploads/ENG-Agenda-Preliminar-RENMAD-Chile-20251.pdf",
+        "https://en.wikipedia.org/wiki/Falabella_%28retail_store%29",
+        "https://es.wikipedia.org/wiki/Falabella",
+        "https://es.wikipedia.org/wiki/Grupo_Falabella",
+        "https://falabellaretail.falabella.com/noticias/falabella-gana-ecommerce-award-2025-retail-fashion-style/",
+        "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/",
+        "https://falabellaretail.falabella.com/tiendas/",
+        "https://falabellaretail.falabella.com/wp-content/uploads/2025/05/OR_REPORTE_FALABELLA_2024_v3.pdf",
+        "https://investors.grupofalabella.com/app/uploads/sites/2/2026/03/Annual-Report-2025.pdf",
         "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-50100_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-99098_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://www.cmfchile.cl/portal/principal/613/articles-108985_recurso_1.pdf",
         "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.global-climatescope.org/downloads/CS2025_20251103.pdf",
-        "https://www.reddit.com/r/EnergyAndPower/comments/1kgwpm7",
-        "https://www.reddit.com/r/Rag/comments/1wmc7n2/i_benchmarked_7_document_parsing_apis_on_the_same/",
-        "https://www.reddit.com/r/aussie/comments/1o8ztt0",
-        "https://www.reddit.com/r/climatechange/comments/1w06nyc/battery_boom_brings_roundtheclock_solar_closer/",
-        "https://www.reddit.com/r/opensource/comments/1iu8uud",
-        "https://zenodo.org/records/21652187"
+        "https://www.falabella.com/falabella-cl/brand/NATURA?mkid=LP_HM_NAT_36",
+        "https://www.falabella.com/falabella-cl/seller/Natura",
+        "https://www.natura.cl/blog/mas-natura/guia-de-compra-online",
+        "https://www.natura.cl/c/home",
+        "https://www.natura.cl/encuentra-natura",
+        "https://www.reddit.com/r/AmazonASGTGSellers/comments/1myz9m4",
+        "https://www.reddit.com/r/PERU/comments/1iz47pn",
+        "https://www.reddit.com/r/chile/comments/1l519uu",
+        "https://www.reddit.com/r/chileIT/comments/1k8mimy",
+        "https://www.reddit.com/r/chilegames/comments/1i5p7h7/es_seguro_comprar_en_falabella/"
       ]
     },
     {
@@ -116,76 +112,62 @@ No survivors. Scout does not manufacture a daily winner.
       "retry_justified": false
     },
     {
-      "index": 1,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 2,
-      "retry_justified": false
-    },
-    {
-      "index": 2,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 2,
-      "retry_justified": false
-    },
-    {
       "stage": "critic",
-      "candidate_id": "opp_71fab3dd10745ab77ebe",
+      "candidate_id": "opp_660a3aa8f1b5b77975e4",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 24,
+      "grounded_source_count": 40,
       "search_source_urls": [
-        "https://cmfchile.atlassian.net/wiki/spaces/OFAC/pages/267649439/API%2BCuentas%2BOpen%2BFinance%2BChile%2Bv1.0.0?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812",
-        "https://cmfchile.cl/portal/principal/613/articles-86367_doc_pdf.pdf",
-        "https://econosur.org/insights/chile/saas/",
-        "https://en.wikipedia.org/wiki/Open_finance",
-        "https://es.wikipedia.org/wiki/Fapro",
-        "https://es.wikipedia.org/wiki/ProntoPaga",
-        "https://es.wikipedia.org/wiki/Superintendencia_de_Bancos_e_Instituciones_Financieras_de_Chile",
-        "https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_financiera",
-        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA",
-        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437591/v1.0.0%2B-%2BModelo%2Bde%2BOperaci%2Bn%2Be%2BIntegraci%2Bn%2Bdel%2BDirectorio",
-        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/443090696/Hist%2Brico-Apis%2BP%2Bblicas",
-        "https://prodigypay.prodigio.tech/",
-        "https://www.bcentral.cl/areas/mercados-financieros/sistemas",
-        "https://www.carey.cl/cmf-modifica-la-ncg-n514-e-incorpora-estandares-tecnicos-para-la-implementacion-del-sistema-de-finanzas-abiertas",
-        "https://www.carey.cl/en/cmf-amends-ncg-no-514-and-incorporates-technical-standards-for-the-implementation-of-the-open-finance-system",
-        "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html",
-        "https://www.cmfchile.cl/portal/principal/613/articles-102557_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/articles-92466_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/articles-95894_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/articles-96504_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.minsait.com/es/estudios/open-finance-en-chile-de-la-implementacion-regulatoria-a-la-oportunidad-de-negocio",
-        "https://www.reddit.com/r/devsfinanzas/comments/1rv8lth/acceso_a_apis_de_open_finance/",
-        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000108/MNCjune2026signed.pdf"
+        "https://apnews.com/article/bfd41220717fe9b6ebcd0305005e0018",
+        "https://arxiv.org/abs/2508.11651",
+        "https://arxiv.org/abs/2606.01131",
+        "https://arxiv.org/abs/2610.05873",
+        "https://arxiv.org/abs/2610.06856",
+        "https://axis-intelligence.com/tokenized-fund-statistics/",
+        "https://axis-intelligence.com/wp-content/dashboard/tokenized-fund-statistics-dashboard.html",
+        "https://bitwiseinvestments.com/newsroom/bitwise-announces-inaugural-tokenized-fund",
+        "https://cryptoeconomics.com/assets/tokenized-funds/",
+        "https://en.wikipedia.org/wiki/Arcesium",
+        "https://en.wikipedia.org/wiki/Assets_under_management",
+        "https://en.wikipedia.org/wiki/Franklin_Templeton",
+        "https://en.wikipedia.org/wiki/Galaxy_Digital_%28company%29",
+        "https://fii-institute.org/wp-content/uploads/2026/03/FII_IR2601_S-1.pdf",
+        "https://images.ctfassets.net/k3n74unfin40/6NFrMfE6KZT0ktpIm7F1Jw/a0a22cca82d413e5c45c95f32d8e5491/MktIntel_2026.01.10_Tokenization.pdf",
+        "https://libertystreeteconomics.newyorkfed.org/2025/09/the-emergence-of-tokenized-investment-funds-and-their-use-cases/",
+        "https://research.ark-invest.com/hubfs/1_Download_Files_ARK-Invest/Big_Ideas/ARKInvest%20BigIdeas2026.pdf",
+        "https://web-assets.bcg.com/78/cf/bbb3a3044db782077c75b907d719/2026-gam-report-apr-2026.pdf",
+        "https://www.allium.so/reports/tokenized-us-funds-june-2026",
+        "https://www.axios.com/2026/06/09/exclusive-wall-street-embraces-crypto-banks-bitcoin",
+        "https://www.blockchain-council.org/news/institutional-tokenized-asset-adoption-2026-trends-challenges-opportunities/",
+        "https://www.ecb.europa.eu/press/financial-stability-publications/macroprudential-bulletin/html/ecb.mpbu202604_04.el.html",
+        "https://www.fia.org/sites/default/files/2025-08/FULL%20REPORT%20-%20DLT%20REPORT.pdf",
+        "https://www.imf.org/-/media/files/publications/imf-notes/2026/english/insea2026001.pdf",
+        "https://www.jpmorgan.com/kinexys/fund-flow",
+        "https://www.pwc.com/us/en/industries/financial-services/library/tokenizing-assets.html",
+        "https://www.reddit.com/r/Backpack_official/comments/1x9vh47/backpack_leads_7day_tokenized_stock_holder_growth/",
+        "https://www.reddit.com/r/RWATimes/comments/1ruyd7y/circles_usyc_becomes_largest_tokenized_fund_as/",
+        "https://www.reddit.com/r/RWATimes/comments/1tj9ovl/securitize_posts_record_q1_revenue_with_34/",
+        "https://www.reddit.com/r/RWATimes/comments/1tmddb6/tokenized_realworld_assets_hit_314_billion_as/",
+        "https://www.reddit.com/r/RWATimes/comments/1tov67l/tokenized_rwas_are_quietly_building_defis_next/",
+        "https://www.reddit.com/r/RWATimes/comments/1u8jn45/tokenized_asset_market_tops_43billion_as/",
+        "https://www.reddit.com/r/RWATimes/comments/1u8q6ss/tokenized_asset_market_tops_43billion_as/",
+        "https://www.reddit.com/r/SECZ/comments/1tr500k/securitize_reports_record_revenue_as/",
+        "https://www.reddit.com/r/cardano/comments/1sac5ij/cardano_foundation_activity_and_financial/",
+        "https://www.reddit.com/r/defi/comments/1tk1g41/only_10_of_tokenized_rwas_are_actively_used_as/",
+        "https://www.reddit.com/r/kava_platform/comments/1udn92u/tokenized_rwa_market_surges_589_since_2025_record/",
+        "https://www.reddit.com/r/solana/comments/1uo49ne/solana_ecosystem_news_july_52026/",
+        "https://www.sec.gov/Archives/edgar/data/2045872/000119312526349138/bsol-20260813.htm",
+        "https://www.sec.gov/Archives/edgar/data/831114/000139834426000957/fp0097248-1_40app.htm"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_71fab3dd10745ab77ebe",
+      "candidate_id": "opp_660a3aa8f1b5b77975e4",
       "coercions": []
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_71fab3dd10745ab77ebe",
+      "candidate_id": "opp_660a3aa8f1b5b77975e4",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -193,7 +175,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_71fab3dd10745ab77ebe",
+      "candidate_id": "opp_660a3aa8f1b5b77975e4",
       "coercions": []
     }
   ],
@@ -201,44 +183,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 251,
-      "cache_write_tokens": 5430,
+      "reasoning_tokens": 265,
+      "cache_write_tokens": 5164,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0150577,
+      "cumulative_cost_usd": 0.0140472,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13863,
+      "input_tokens": 13659,
       "cached_tokens": 0,
-      "output_tokens": 1678,
+      "output_tokens": 881,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0150577
+      "estimated_cost_usd": 0.0140472
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 187,
-      "cache_write_tokens": 5216,
+      "reasoning_tokens": 156,
+      "cache_write_tokens": 5344,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0294487,
+      "cumulative_cost_usd": 0.0288678,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13541,
+      "input_tokens": 13995,
       "cached_tokens": 0,
-      "output_tokens": 1185,
+      "output_tokens": 1462,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.014391
+      "estimated_cost_usd": 0.0148206
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 0,
-      "cache_write_tokens": 2899,
+      "reasoning_tokens": 124,
+      "cache_write_tokens": 3638,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0423902,
+      "cumulative_cost_usd": 0.0461528,
       "model": "gpt-5.6-terra",
-      "input_tokens": 2902,
+      "input_tokens": 3641,
       "cached_tokens": 0,
-      "output_tokens": 474,
+      "output_tokens": 682,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.0129415
+      "estimated_cost_usd": 0.017285
     }
   ]
 }
