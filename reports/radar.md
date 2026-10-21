@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-21T16:59:45.653744+00:00
+Generated: 2026-10-21T20:57:03.439143+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 68
+- New this cycle: 115
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): github_robotics:unavailable_or_invalid, github_agriculture:unavailable_or_invalid, github_ai:unavailable_or_invalid, github_energy:unavailable_or_invalid, crossref_energy:unavailable_or_invalid
-- Categories: agriculture 336, ai 216, commerce 35, energy 512, robotics 701
+- Feed failures (fail-open for public intake only): none
+- Categories: agriculture 343, ai 212, commerce 35, energy 507, robotics 703
 
 ## Recently encountered signals
 
@@ -246,6 +246,24 @@ Generated: 2026-10-21T16:59:45.653744+00:00
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
+### msrayhaankhan-ui/CULTIVAI
+- Source: https://github.com/msrayhaankhan-ui/CULTIVAI
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### munezerojd/ireme-pp
+- Source: https://github.com/munezerojd/ireme-pp
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### Piping Configuration and Thermal Performance Optimization of a Direct Refrigerant Cooling System for a Vertically Stacked Lithium-Ion Battery Energy Storage System
+- Source: https://doi.org/10.2139/ssrn.7649670
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
 ### A scenario-adaptive AHP-FCE framework for lithium-ion battery thermal management: Optimal strategy selection in energy storage, supercars, and marine propulsion
 - Source: https://doi.org/10.1016/j.tsep.2026.104964
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
@@ -440,24 +458,6 @@ Generated: 2026-10-21T16:59:45.653744+00:00
 
 ### Enhancing Residential Energy Resilience in Extreme Weather: Solar PV and Battery Storage Performance and User Perceptions in Atlantic Canada
 - Source: https://doi.org/10.26868/31114504.2026.197
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### A Hybrid Photovoltaic-Wind Smart-Grid Node with Landsman Converter, Battery Storage and IoT Monitoring
-- Source: https://doi.org/10.65521/ijaeee.v12i1.4351
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### swaroopvelaga4-hub/harvestAI-
-- Source: https://github.com/swaroopvelaga4-hub/harvestAI-
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Cost Optimized Design and Modeling of a Solar Powered EV Charging Station Using Battery Energy Storage System and Dual Active Bridge Converter
-- Source: https://doi.org/10.1109/resem70152.2026.11721721
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
