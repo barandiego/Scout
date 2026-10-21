@@ -1,10 +1,10 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-21T00:24:02.856703+00:00
+Generated: 2026-10-21T04:25:06.018177+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['public_markets', 'physical_commerce', 'regulation_infrastructure']
+- lenses: ['robotics_automation', 'energy_industrial', 'mining_materials']
 - raw_candidates: 1
 - parseable_candidates: 1
 - normalized_candidates: 1
@@ -12,17 +12,17 @@ Generated: 2026-10-21T00:24:02.856703+00:00
 - grounded_sources: 2
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 1
+- judge_attempts: 0
 - critic_reviews: 1
-- judge_reviews: 1
+- judge_reviews: 0
 - survivors: 0
-- watches: 2
-- rejected: 0
+- watches: 0
+- rejected: 1
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.0461528
+- cost_usd: 0.0280044
 - cost_uncertain: False
-- budget_remaining_usd: 0.0338472
+- budget_remaining_usd: 0.0519956
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -56,7 +56,7 @@ No survivors. Scout does not manufacture a daily winner.
 ```json
 {
   "notes": [
-    "deep_review_lane=backlog",
+    "deep_review_lane=fresh",
     "research_queue_unreviewed=48"
   ],
   "stages": [
@@ -65,35 +65,26 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 27,
+      "grounded_source_count": 18,
       "search_source_urls": [
-        "https://arxiv.org/abs/2610.14120",
-        "https://assets.falabella.com/v3/assets/bltf4ed0b9a176c126e/blt34271eaf0fb835a5/Reporte%20de%20Sostenibilidad%202025.pdf",
-        "https://cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://en.wikipedia.org/wiki/Falabella_%28retail_store%29",
-        "https://es.wikipedia.org/wiki/Falabella",
-        "https://es.wikipedia.org/wiki/Grupo_Falabella",
-        "https://falabellaretail.falabella.com/noticias/falabella-gana-ecommerce-award-2025-retail-fashion-style/",
-        "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/",
-        "https://falabellaretail.falabella.com/tiendas/",
-        "https://falabellaretail.falabella.com/wp-content/uploads/2025/05/OR_REPORTE_FALABELLA_2024_v3.pdf",
-        "https://investors.grupofalabella.com/app/uploads/sites/2/2026/03/Annual-Report-2025.pdf",
-        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
-        "https://www.cmfchile.cl/portal/prensa/615/articles-50100_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/615/articles-99098_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
-        "https://www.cmfchile.cl/portal/principal/613/articles-108985_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.falabella.com/falabella-cl/brand/NATURA?mkid=LP_HM_NAT_36",
-        "https://www.falabella.com/falabella-cl/seller/Natura",
-        "https://www.natura.cl/blog/mas-natura/guia-de-compra-online",
-        "https://www.natura.cl/c/home",
-        "https://www.natura.cl/encuentra-natura",
-        "https://www.reddit.com/r/AmazonASGTGSellers/comments/1myz9m4",
-        "https://www.reddit.com/r/PERU/comments/1iz47pn",
-        "https://www.reddit.com/r/chile/comments/1l519uu",
-        "https://www.reddit.com/r/chileIT/comments/1k8mimy",
-        "https://www.reddit.com/r/chilegames/comments/1i5p7h7/es_seguro_comprar_en_falabella/"
+        "https://ifr.org/downloads/press_docs/2025-09-25-IFR_press_release_Americas_in_English.pdf",
+        "https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally?trk=public_post_comment-text",
+        "https://ifr.org/img/worldrobotics/2023_WR_extended_version.pdf",
+        "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf",
+        "https://www.energy.gov/cmei/femp/energy-and-project-procurement-development-services",
+        "https://www.energy.gov/documents/science-technology-st-risk-matrix-2026",
+        "https://www.energy.gov/oe/articles/does-office-electricity-reopens-beyond-meter-prize-new-goals-larger-prize-pool",
+        "https://www.energy.gov/oe/funding-opportunities-and-requests-information",
+        "https://www.energy.gov/sites/default/files/2025-06/EAC%20Biennial%20Energy%20Storage%20Review_20250605_Final_v2.pdf",
+        "https://www.energy.gov/sites/default/files/2025-08/doe-fy-2026-vol-4.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1375877/000110465926060672/tm2614624d1_ex99-1.htm",
+        "https://www.sec.gov/Archives/edgar/data/1375877/000110465926101856/tm2623883d1_ex99-1.htm",
+        "https://www.sec.gov/Archives/edgar/data/1819438/000181943826000072/a2026q2earningsrelease.htm",
+        "https://www.sec.gov/Archives/edgar/data/1852131/000185213126000020/projectpreviewpressrelease.htm",
+        "https://www.sec.gov/Archives/edgar/data/1889112/000118518526004277/inobatas425092426.htm",
+        "https://www.sec.gov/Archives/edgar/data/2011053/000149315226044790/ex99-1.htm",
+        "https://www.usgs.gov/centers/national-minerals-information-center/materials-flow",
+        "https://www.usgs.gov/programs/mineral-resources-program/science/about-2025-list-critical-minerals"
       ]
     },
     {
@@ -113,114 +104,58 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_660a3aa8f1b5b77975e4",
+      "candidate_id": "opp_b038e05c721977c46855",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 40,
+      "grounded_source_count": 9,
       "search_source_urls": [
-        "https://apnews.com/article/bfd41220717fe9b6ebcd0305005e0018",
-        "https://arxiv.org/abs/2508.11651",
-        "https://arxiv.org/abs/2606.01131",
-        "https://arxiv.org/abs/2610.05873",
-        "https://arxiv.org/abs/2610.06856",
-        "https://axis-intelligence.com/tokenized-fund-statistics/",
-        "https://axis-intelligence.com/wp-content/dashboard/tokenized-fund-statistics-dashboard.html",
-        "https://bitwiseinvestments.com/newsroom/bitwise-announces-inaugural-tokenized-fund",
-        "https://cryptoeconomics.com/assets/tokenized-funds/",
-        "https://en.wikipedia.org/wiki/Arcesium",
-        "https://en.wikipedia.org/wiki/Assets_under_management",
-        "https://en.wikipedia.org/wiki/Franklin_Templeton",
-        "https://en.wikipedia.org/wiki/Galaxy_Digital_%28company%29",
-        "https://fii-institute.org/wp-content/uploads/2026/03/FII_IR2601_S-1.pdf",
-        "https://images.ctfassets.net/k3n74unfin40/6NFrMfE6KZT0ktpIm7F1Jw/a0a22cca82d413e5c45c95f32d8e5491/MktIntel_2026.01.10_Tokenization.pdf",
-        "https://libertystreeteconomics.newyorkfed.org/2025/09/the-emergence-of-tokenized-investment-funds-and-their-use-cases/",
-        "https://research.ark-invest.com/hubfs/1_Download_Files_ARK-Invest/Big_Ideas/ARKInvest%20BigIdeas2026.pdf",
-        "https://web-assets.bcg.com/78/cf/bbb3a3044db782077c75b907d719/2026-gam-report-apr-2026.pdf",
-        "https://www.allium.so/reports/tokenized-us-funds-june-2026",
-        "https://www.axios.com/2026/06/09/exclusive-wall-street-embraces-crypto-banks-bitcoin",
-        "https://www.blockchain-council.org/news/institutional-tokenized-asset-adoption-2026-trends-challenges-opportunities/",
-        "https://www.ecb.europa.eu/press/financial-stability-publications/macroprudential-bulletin/html/ecb.mpbu202604_04.el.html",
-        "https://www.fia.org/sites/default/files/2025-08/FULL%20REPORT%20-%20DLT%20REPORT.pdf",
-        "https://www.imf.org/-/media/files/publications/imf-notes/2026/english/insea2026001.pdf",
-        "https://www.jpmorgan.com/kinexys/fund-flow",
-        "https://www.pwc.com/us/en/industries/financial-services/library/tokenizing-assets.html",
-        "https://www.reddit.com/r/Backpack_official/comments/1x9vh47/backpack_leads_7day_tokenized_stock_holder_growth/",
-        "https://www.reddit.com/r/RWATimes/comments/1ruyd7y/circles_usyc_becomes_largest_tokenized_fund_as/",
-        "https://www.reddit.com/r/RWATimes/comments/1tj9ovl/securitize_posts_record_q1_revenue_with_34/",
-        "https://www.reddit.com/r/RWATimes/comments/1tmddb6/tokenized_realworld_assets_hit_314_billion_as/",
-        "https://www.reddit.com/r/RWATimes/comments/1tov67l/tokenized_rwas_are_quietly_building_defis_next/",
-        "https://www.reddit.com/r/RWATimes/comments/1u8jn45/tokenized_asset_market_tops_43billion_as/",
-        "https://www.reddit.com/r/RWATimes/comments/1u8q6ss/tokenized_asset_market_tops_43billion_as/",
-        "https://www.reddit.com/r/SECZ/comments/1tr500k/securitize_reports_record_revenue_as/",
-        "https://www.reddit.com/r/cardano/comments/1sac5ij/cardano_foundation_activity_and_financial/",
-        "https://www.reddit.com/r/defi/comments/1tk1g41/only_10_of_tokenized_rwas_are_actively_used_as/",
-        "https://www.reddit.com/r/kava_platform/comments/1udn92u/tokenized_rwa_market_surges_589_since_2025_record/",
-        "https://www.reddit.com/r/solana/comments/1uo49ne/solana_ecosystem_news_july_52026/",
-        "https://www.sec.gov/Archives/edgar/data/2045872/000119312526349138/bsol-20260813.htm",
-        "https://www.sec.gov/Archives/edgar/data/831114/000139834426000957/fp0097248-1_40app.htm"
+        "https://stage.energy.gov/oe/listings/news-and-highlights",
+        "https://www.energy.gov/oe/articles/does-office-electricity-reopens-beyond-meter-prize-new-goals-larger-prize-pool",
+        "https://www.energy.gov/oe/articles/us-department-energy-launches-prizes-grid-edge-technologies-emerging-energy-storage",
+        "https://www.energy.gov/oe/join-office-electricity-dtech-2026-san-diego-ca-february-2-5-2026",
+        "https://www.energy.gov/oe/listings/energy-storage",
+        "https://www.energy.gov/oe/listings/grid-deployment-office-news?page=1",
+        "https://www.energy.gov/oe/listings/oe-recovery-act-news?page=1",
+        "https://www.energy.gov/oe/listings/oe-recovery-act-news?page=2",
+        "https://www.energy.gov/topics/storage"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_660a3aa8f1b5b77975e4",
-      "coercions": []
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_660a3aa8f1b5b77975e4",
-      "response_status": "completed",
-      "incomplete_reason": "",
-      "grounded_source_count": 0,
-      "search_source_urls": []
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_660a3aa8f1b5b77975e4",
-      "coercions": []
+      "candidate_id": "opp_b038e05c721977c46855",
+      "coercions": [
+        "contrary_evidence"
+      ]
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 265,
-      "cache_write_tokens": 5164,
+      "reasoning_tokens": 258,
+      "cache_write_tokens": 5483,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0140472,
+      "cumulative_cost_usd": 0.01403935,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13659,
+      "input_tokens": 13894,
       "cached_tokens": 0,
-      "output_tokens": 881,
+      "output_tokens": 822,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0140472
+      "estimated_cost_usd": 0.01403935
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 156,
-      "cache_write_tokens": 5344,
+      "reasoning_tokens": 132,
+      "cache_write_tokens": 5293,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0288678,
+      "cumulative_cost_usd": 0.0280044,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13995,
+      "input_tokens": 12850,
       "cached_tokens": 0,
-      "output_tokens": 1462,
+      "output_tokens": 942,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0148206
-    },
-    {
-      "stage": "judge",
-      "available": true,
-      "reasoning_tokens": 124,
-      "cache_write_tokens": 3638,
-      "accounting_notes": [],
-      "cumulative_cost_usd": 0.0461528,
-      "model": "gpt-5.6-terra",
-      "input_tokens": 3641,
-      "cached_tokens": 0,
-      "output_tokens": 682,
-      "web_search_calls": 0,
-      "estimated_cost_usd": 0.017285
+      "estimated_cost_usd": 0.01396505
     }
   ]
 }
