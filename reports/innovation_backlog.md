@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 107
+Candidates: 108
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -672,7 +672,7 @@ Candidates: 107
   - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
   - Check license perimeter, API access, legal compliance and competitor pricing.
   - Test buyer procurement and technical access before writing integration infrastructure.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Which participant class has the most urgent uncovered implementation gap: IPI, IPC, PSBI, PSIP or another role?; Whether the CMF will recognize, recommend, or even permit reliance on an independent validator or test harness.; Whether the Developers' Portal and sandbox already provide equivalent schemas, test cases, consent examples, directory workflows and validation tooling.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/educa/621/w3-article-85051.html
 
@@ -855,6 +855,18 @@ Candidates: 107
 - Critical gaps: Whether ATENA is free, subsidized, or commercially monetizable for third-party vendors.; The number of institutions that will actually enroll, connect, and maintain production-grade participation.; The final rollout schedule by participant type and whether July 2027 is the first effective phase rather than broad market availability.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
+## CMF Open Finance sandbox conformance kit for smaller Chilean participants
+- Status: watch | open_finance_chile
+- Current idea: Entities that intend to participate have a defined technical target and a testing window before July 2027. A narrowly scoped implementation asset could reduce integration and conformance-testing work, but demand from named paying customers is not independently verified.
+- Potential economic capture: Sell a self-hosted or hosted test harness that validates API payloads, consent flows, payment-initiation edge cases, and required technical fields against the CMF specifications; optionally charge for implementation support. This is a concrete software asset, not a general AI consultancy.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/prensa/625/w4-article-110881.html
 
 ## Compliance-and-integration tooling for Chile's Open Finance implementation
 - Status: watch | open_finance_chile

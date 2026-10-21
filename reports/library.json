@@ -384,6 +384,101 @@
     {
       "ai_leverage": "",
       "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-15T20:20:46.384983+00:00",
+      "discovery_lens": "open_finance_chile",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF's NCG 514 regulates Chile's Sistema de Finanzas Abiertas and is listed as vigente.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Norma de Carácter General N°514",
+          "url": "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html"
+        },
+        {
+          "claim": "CMF announced the technical annex and Developers' Portal and stated that entry into force was postponed until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "CMF describes consent-based information exchange through secure remote interfaces among financial information providers and service providers.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "¿Qué son las finanzas abiertas?",
+          "url": "https://www.cmfchile.cl/educa/621/w3-article-85051.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [
+        "Three or more independent target participants state that their existing vendors or internal teams already cover the proposed validator, consent-flow reference implementation and documentation package.",
+        "No target participant identifies a concrete conformance problem that is both urgent before July 3, 2027 and costly enough to fund externally.",
+        "No paid pilot, letter of intent, scoped statement of work, or explicit budget owner is obtained after structured interviews with at least five relevant participants.",
+        "The CMF Developers' Portal and sandbox provide materially equivalent automated validation and test artifacts at no cost.",
+        "The relevant participant classes are exempt, delayed, simplified, or able to rely on incumbent providers in a way that eliminates demand for a standalone tool.",
+        "A bank or fintech procurement process requires certifications, insurance, references or local support that the proposed venture cannot economically obtain.",
+        "An incumbent vendor bundles the same functionality into a broader SFA, API-management, consent-management or cybersecurity platform at a price the wedge cannot undercut while maintaining acceptable margins.",
+        "Technical changes to NCG 514, NCG 569 or the annex invalidate the prototype before any customer can deploy it.",
+        "The product cannot be used without access to nonpublic specifications, regulated test data, certification credentials or privileged participant-directory access.",
+        "The business requires bespoke integration and consulting for every customer, causing the supposed product wedge to collapse into low-margin services."
+      ],
+      "geography": "Chile",
+      "id": "opp_19c39afc662c8bd68101",
+      "judge_reviewed": true,
+      "judgment": "The regulatory premise is adequately grounded in CMF primary materials: NCG 514 is in force, the technical annex and Developers' Portal were announced, and the production timetable was deferred to July 2027. Therefore this is not rejected for an unverified or misread regulatory change. A narrow, non-certified implementation-support wedge based solely on published specifications appears legally and technically plausible at the discovery/prototype stage. However, no evidence establishes that an independent harness, reference consent implementation, or validator is necessary, purchasable, or permitted to play a meaningful role in conformance. Existing SFA platform and integration vendors may bundle the functionality, while regulated-entity procurement, security review, insurance, and bespoke integration needs could eliminate software-like margins. The opportunity survives only as tightly scoped buyer and access validation, not as an HQ-worthy commercial conclusion yet.",
+      "last_record_updated_at": "2026-10-21T16:25:31.663466+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Which participant class has the most urgent uncovered implementation gap: IPI, IPC, PSBI, PSIP or another role?",
+        "Whether the CMF will recognize, recommend, or even permit reliance on an independent validator or test harness.",
+        "Whether the Developers' Portal and sandbox already provide equivalent schemas, test cases, consent examples, directory workflows and validation tooling.",
+        "The exact phased deadlines and mandatory testing or certification gates applicable to each participant class.",
+        "Number of entities expected to participate and their implementation budgets."
+      ],
+      "participation_path": "First, download the CMF technical annex and Developers' Portal materials, map one narrow participant workflow, and build a local validator or consent-flow prototype using only published specifications. Then contact publicly listed SFA participants or fintech applicants with a no-commitment technical review request; do not represent the prototype as CMF-certified. Lowest-cost falsification: obtain three independent technical interviews and ask whether the same concrete conformance artifact would be purchased or used, and whether their current vendor stack already covers it. Stop if no participant confirms an uncovered requirement or permits a paid pilot.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Banks, card issuers, account providers and prospective fintech participants must translate the technical standard into consent management, participant-directory processes, secure interfaces, testing and operational controls. The likely value is in reducing implementation and certification friction, not in selling generic fintech strategy.",
+      "title": "Chile SFA implementation adapter for consent, directory and API conformance",
+      "type": "regulatory_implementation_wedge",
+      "unknowns": [
+        "Which participant class has the most urgent uncovered implementation gap: IPI, IPC, PSBI, PSIP or another role?",
+        "Whether the CMF will recognize, recommend, or even permit reliance on an independent validator or test harness.",
+        "Whether the Developers' Portal and sandbox already provide equivalent schemas, test cases, consent examples, directory workflows and validation tooling.",
+        "The exact phased deadlines and mandatory testing or certification gates applicable to each participant class.",
+        "Number of entities expected to participate and their implementation budgets.",
+        "Named procurement owners, buying process, acceptable vendor qualifications and security requirements.",
+        "Whether banks and fintechs prefer Chile-local support, incumbent global vendors, or internal engineering teams.",
+        "Actual pricing, gross margins, deployment cost, maintenance burden and liability exposure.",
+        "Whether technical specifications will continue changing before production implementation.",
+        "Whether an open-source tool could be monetized without creating support, indemnity or certification-risk obligations.",
+        "Evidence of any paid pilot, customer commitment, active request for proposal, or repeated buyer-confirmed pain.",
+        "The commercial and legal implications of handling consent records, audit evidence, security controls or regulated data.",
+        "Exact legal and technical access terms for the Developers' Portal, sandbox, directory, test credentials, schemas, and conformance/certification workflows.",
+        "Whether an independent implementation vendor can use official artifacts and test environments without being a regulated participant or an authorized supplier.",
+        "The specific participant class with an imminent, externally funded, uncovered compliance gap and its applicable deadlines.",
+        "Whether any target buyer would pay for a standalone artifact rather than a bundled incumbent platform or implementation partner.",
+        "Named economic buyer, procurement path, required vendor qualifications, expected contract size, deployment effort, and support/liability terms.",
+        "Whether the proposed workflow can avoid custody or processing of regulated customer data and consent records.",
+        "Whether a repeatable product can be delivered using only public standards, rather than privileged access and bespoke customer integration."
+      ],
+      "value_capture_mechanism": "A narrowly scoped implementation asset: an open-source or low-cost conformance test harness, consent-flow reference implementation, API schema validator, and documentation package for one participant class. Possible cash-flow sources are paid pilot implementations, integration work, or licensing/support from regulated entities and fintech applicants; no buyer, price or permission is yet verified.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
       "contrary_evidence": [
         "There is credible evidence that commercial deployment is beginning: Greenfield reported leasing 23 BOTONY robots to farms in seven states in 2025, with additional purchase and lease orders and contracts planned across more states for the 2026 growing season. Source: https://www.sec.gov/Archives/edgar/data/1760404/000110465926075802/tm2617498d1_partiiandiii.htm. FarmDroid publicly markets an operational seeding and weeding platform, states that it can work multiple fields, and describes support and specialist onboarding. Source: https://farmdroid.com/contact/ ; https://farmdroid.com/blog/your-farmdroid-journey-from-purchase-to-precision-farming/. Academic and government evidence supports a real underlying need: labor shortages, herbicide resistance, and precision-agriculture benefits can create adoption incentives. Sources: https://doi.org/10.1111/agec.12856 ; https://www.gao.gov/products/gao-24-105962. These facts support testing a narrowly scoped deployment-support service, especially for high-value crops or farms lacking technical staff. They do not establish that an independent operator captures attractive economics."
       ],
@@ -4625,67 +4720,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-15T20:20:46.384983+00:00",
-      "discovery_lens": "open_finance_chile",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "CMF's NCG 514 regulates Chile's Sistema de Finanzas Abiertas and is listed as vigente.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Norma de Carácter General N°514",
-          "url": "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html"
-        },
-        {
-          "claim": "CMF announced the technical annex and Developers' Portal and stated that entry into force was postponed until July 2027.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
-          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
-        },
-        {
-          "claim": "CMF describes consent-based information exchange through secure remote interfaces among financial information providers and service providers.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "¿Qué son las finanzas abiertas?",
-          "url": "https://www.cmfchile.cl/educa/621/w3-article-85051.html"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.91,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_19c39afc662c8bd68101",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-15T20:20:46.413699+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "First, download the CMF technical annex and Developers' Portal materials, map one narrow participant workflow, and build a local validator or consent-flow prototype using only published specifications. Then contact publicly listed SFA participants or fintech applicants with a no-commitment technical review request; do not represent the prototype as CMF-certified. Lowest-cost falsification: obtain three independent technical interviews and ask whether the same concrete conformance artifact would be purchased or used, and whether their current vendor stack already covers it. Stop if no participant confirms an uncovered requirement or permits a paid pilot.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "Banks, card issuers, account providers and prospective fintech participants must translate the technical standard into consent management, participant-directory processes, secure interfaces, testing and operational controls. The likely value is in reducing implementation and certification friction, not in selling generic fintech strategy.",
-      "title": "Chile SFA implementation adapter for consent, directory and API conformance",
-      "type": "regulatory_implementation_wedge",
-      "unknowns": [],
-      "value_capture_mechanism": "A narrowly scoped implementation asset: an open-source or low-cost conformance test harness, consent-flow reference implementation, API schema validator, and documentation package for one participant class. Possible cash-flow sources are paid pilot implementations, integration work, or licensing/support from regulated entities and fintech applicants; no buyer, price or permission is yet verified.",
-      "verified_sales": null,
-      "vertical": "open_finance_chile",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-10T16:09:06.777917+00:00",
       "discovery_lens": "geographic_arbitrage",
       "estimated_capital": "",
@@ -6153,6 +6187,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-21T16:24:58.090541+00:00",
+      "discovery_lens": "chile_technology_import",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The CMF published technical specifications, a developer portal, simplified participation provisions, a technology sandbox, and postponed entry into force to July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "The CMF states that the technical annex covers interoperability, information exchange, payment initiation, and implementation phases for the Chilean Open Finance System.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
+          "url": "https://cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.82,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_f56b1fbbad100489cfa5",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-21T16:24:58.110090+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Build a minimal demonstrator using only the CMF-published technical annex and developer-portal materials. Test the lowest-cost wedge by creating five conformance tests and a sample participant adapter, then request non-binding technical feedback from publicly identifiable Chilean fintechs, payment providers, or financial-data intermediaries. Proceed only if at least three organizations confirm a relevant integration problem and one agrees to a paid pilot or written procurement process. Do not assume sandbox access, regulatory authorization, or buyer willingness until separately confirmed.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Entities that intend to participate have a defined technical target and a testing window before July 2027. A narrowly scoped implementation asset could reduce integration and conformance-testing work, but demand from named paying customers is not independently verified.",
+      "title": "CMF Open Finance sandbox conformance kit for smaller Chilean participants",
+      "type": "software_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell a self-hosted or hosted test harness that validates API payloads, consent flows, payment-initiation edge cases, and required technical fields against the CMF specifications; optionally charge for implementation support. This is a concrete software asset, not a general AI consultancy.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-18T00:21:29.682648+00:00",
       "discovery_lens": "energy_industrial",
       "estimated_capital": "",
@@ -7610,13 +7698,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-21T12:28:19.755279+00:00",
+  "generated_at": "2026-10-21T16:25:32.111359+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 58,
-  "reviewed_cards": 52,
+  "reviewed_cards": 53,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 165,
-  "watch": 107
+  "total_distinct_opportunities": 166,
+  "watch": 108
 }

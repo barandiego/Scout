@@ -2095,9 +2095,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "Chile",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "Which participant class has the most urgent uncovered implementation gap: IPI, IPC, PSBI, PSIP or another role?",
+        "Whether the CMF will recognize, recommend, or even permit reliance on an independent validator or test harness.",
+        "Whether the Developers' Portal and sandbox already provide equivalent schemas, test cases, consent examples, directory workflows and validation tooling.",
+        "The exact phased deadlines and mandatory testing or certification gates applicable to each participant class.",
+        "Number of entities expected to participate and their implementation budgets.",
+        "Named procurement owners, buying process, acceptable vendor qualifications and security requirements.",
+        "Whether banks and fintechs prefer Chile-local support, incumbent global vendors, or internal engineering teams."
       ],
       "investment_authorized": false,
       "name": "Chile SFA implementation adapter for consent, directory and API conformance",
@@ -2699,6 +2703,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "API gateways, consent and identity management, data-quality tools, fraud controls, payment-initiation services, compliance implementation, and vertical applications using permissioned financial data.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Build a minimal demonstrator using only the CMF-published technical annex and developer-portal materials. Test the lowest-cost wedge by creating five conformance tests and a sample participant adapter, then request non-binding technical feedback from publicly identifiable Chilean fintechs, payment providers, or financial-data intermediaries. Proceed only if at least three organizations confirm a relevant integration problem and one agrees to a paid pilot or written procurement process. Do not assume sandbox access, regulatory authorization, or buyer willingness until separately confirmed.",
+      "current_thesis": "Entities that intend to participate have a defined technical target and a testing window before July 2027. A narrowly scoped implementation asset could reduce integration and conformance-testing work, but demand from named paying customers is not independently verified.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "CMF Open Finance sandbox conformance kit for smaller Chilean participants",
+      "opportunity_id": "opp_f56b1fbbad100489cfa5",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a self-hosted or hosted test harness that validates API payloads, consent flows, payment-initiation edge cases, and required technical fields against the CMF specifications; optionally charge for implementation support. This is a concrete software asset, not a general AI consultancy.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -4084,7 +4124,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-21T12:28:19.837019+00:00",
+  "generated_at": "2026-10-21T16:25:32.164163+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

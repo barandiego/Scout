@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-10-21T12:28:19.755279+00:00",
+  "generated_at": "2026-10-21T16:25:32.111359+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -21,7 +21,7 @@
     },
     {
       "opportunity_id": "opp_f26e42aaabb91e157f9d",
-      "other_cards_in_theme": 42,
+      "other_cards_in_theme": 43,
       "reviewed": true,
       "status": "watch",
       "theme": "chile_open_finance",
@@ -103,8 +103,8 @@
   "headline_count": 12,
   "high_concentration": [
     {
-      "cards": 43,
-      "share": 0.402,
+      "cards": 44,
+      "share": 0.407,
       "theme": "chile_open_finance"
     }
   ],
@@ -118,6 +118,7 @@
         "opp_f26e42aaabb91e157f9d",
         "opp_8c5a7467be93278a7fb8",
         "opp_de6bbd059c9fa7fd72e5",
+        "opp_19c39afc662c8bd68101",
         "opp_f3ed71056a8945eb39da",
         "opp_a8a38cf6ef6ec7de4fdb",
         "opp_c1cd86e33e0ccaf8bbbd",
@@ -142,7 +143,6 @@
         "opp_33df5c0e60b44851d959",
         "opp_71fab3dd10745ab77ebe",
         "opp_1d8ec69c28f37b2eceef",
-        "opp_19c39afc662c8bd68101",
         "opp_f4c70f1adccbe9b2583e",
         "opp_993ac5d080c7042af44c",
         "opp_82f282d8dc0896390ee7",
@@ -157,11 +157,12 @@
         "opp_d52a4c290d45b663a6f3",
         "opp_911d89dad493afe4910f",
         "opp_6cea461c4316ad0c1441",
-        "opp_31dfdad2eb2f74b28e49"
+        "opp_31dfdad2eb2f74b28e49",
+        "opp_f56b1fbbad100489cfa5"
       ],
-      "count": 43,
+      "count": 44,
       "representative_id": "opp_f26e42aaabb91e157f9d",
-      "reviewed_count": 27,
+      "reviewed_count": 28,
       "theme": "chile_open_finance"
     },
     {
@@ -597,6 +598,6 @@
       "theme": "robotics_agritech:small_hydroponic_propagation"
     }
   ],
-  "total_original_cards": 107,
+  "total_original_cards": 108,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }

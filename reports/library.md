@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-21T12:28:19.755279+00:00
+Generated: 2026-10-21T16:25:32.111359+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 107 (0 HQ survivors, 107 watches)
+- Active research: 108 (0 HQ survivors, 108 watches)
 - Rejected opportunities excluded: 58
-- Critic-and-judge reviewed: 52
+- Critic-and-judge reviewed: 53
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -52,6 +52,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Whether any specific SFA participant has an unmet testing problem that is not already covered by ATENA, official CMF documentation, internal QA, or an incumbent impl; The number of entities that will actively participate before July 2027 and the subset with budget for external testing.; Whether ATENA provides executable test cases, test-data support, automated assertions, certification evidence, or only an environment and operational guidance.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836
+
+### Chile SFA implementation adapter for consent, directory and API conformance [opp_19c39afc662c8bd68101]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Banks, card issuers, account providers and prospective fintech participants must translate the technical standard into consent management, participant-directory processes, secure interfaces, testing and operational controls. The likely value is in reducing implementation and certification friction, not in selling generic fintech strategy.
+- Value capture: A narrowly scoped implementation asset: an open-source or low-cost conformance test harness, consent-flow reference implementation, API schema validator, and documentation package for one participant class. Possible cash-flow sources are paid pilot implementations, integration work, or licensing/support from regulated entities and fintech applicants; no buyer, price or permission is yet verified.
+- Participation hypothesis: First, download the CMF technical annex and Developers' Portal materials, map one narrow participant workflow, and build a local validator or consent-flow prototype using only published specifications. Then contact publicly listed SFA participants or fintech applicants with a no-commitment technical review request; do not represent the prototype as CMF-certified. Lowest-cost falsification: obtain three independent technical interviews and ask whether the same concrete conformance artifact would be purchased or used, and whether their current ve
+- Critic/judge: The regulatory premise is adequately grounded in CMF primary materials: NCG 514 is in force, the technical annex and Developers' Portal were announced, and the production timetable was deferred to July 2027. Therefore this is not rejected for an unverified or misread regulatory change. A narrow, non-certified implementation-support wedge based solely on published specifications appears legally and technically plausible at the discovery/
+- Next evidence gaps: Which participant class has the most urgent uncovered implementation gap: IPI, IPC, PSBI, PSIP or another role?; Whether the CMF will recognize, recommend, or even permit reliance on an independent validator or test harness.; Whether the Developers' Portal and sandbox already provide equivalent schemas, test cases, consent examples, directory workflows and validation tooling.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/educa/621/w3-article-85051.html
 
 ### Independent field-service and deployment support for autonomous agricultural weed-control robots [opp_99de522ad05d0e01cebc]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States; potentially other markets only after manufacturer authorization
@@ -543,16 +553,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.agricultural-robotics.com/robot/robot-one; https://www.agricultural-robotics.com/robot/zurama-ai-inrow-weeder; https://arxiv.org/abs/2509.25056; https://farmdroid.com/
 
-### Chile SFA implementation adapter for consent, directory and API conformance [opp_19c39afc662c8bd68101]
-- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
-- Thesis: Banks, card issuers, account providers and prospective fintech participants must translate the technical standard into consent management, participant-directory processes, secure interfaces, testing and operational controls. The likely value is in reducing implementation and certification friction, not in selling generic fintech strategy.
-- Value capture: A narrowly scoped implementation asset: an open-source or low-cost conformance test harness, consent-flow reference implementation, API schema validator, and documentation package for one participant class. Possible cash-flow sources are paid pilot implementations, integration work, or licensing/support from regulated entities and fintech applicants; no buyer, price or permission is yet verified.
-- Participation hypothesis: First, download the CMF technical annex and Developers' Portal materials, map one narrow participant workflow, and build a local validator or consent-flow prototype using only published specifications. Then contact publicly listed SFA participants or fintech applicants with a no-commitment technical review request; do not represent the prototype as CMF-certified. Lowest-cost falsification: obtain three independent technical interviews and ask whether the same concrete conformance artifact would be purchased or used, and whether their current ve
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/educa/621/w3-article-85051.html
-
 ### Narrow Chilean e-commerce returns-recovery test for one product category [opp_fa54176321cf12d8b287]
 - Status: WATCH_REQUIRES_VALIDATION | ecommerce_niches | Chile
 - Thesis: There may be recoverable value in returned, refused, or lightly damaged inventory, but the evidence does not establish a standalone Chilean market, buyer, or margin. The executable wedge is a tightly bounded consignment experiment with one seller and one category, not a broad returns marketplace.
@@ -812,6 +812,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://jobs.lever.co/appen/27404a7a-4fca-42e3-bae4-072148d17dce; https://jobs.lever.co/appen/27404a7a-4fca-42e3-bae4-072148d17dce/apply?lever-source=BilingualJobs.io
+
+### CMF Open Finance sandbox conformance kit for smaller Chilean participants [opp_f56b1fbbad100489cfa5]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Entities that intend to participate have a defined technical target and a testing window before July 2027. A narrowly scoped implementation asset could reduce integration and conformance-testing work, but demand from named paying customers is not independently verified.
+- Value capture: Sell a self-hosted or hosted test harness that validates API payloads, consent flows, payment-initiation edge cases, and required technical fields against the CMF specifications; optionally charge for implementation support. This is a concrete software asset, not a general AI consultancy.
+- Participation hypothesis: Build a minimal demonstrator using only the CMF-published technical annex and developer-portal materials. Test the lowest-cost wedge by creating five conformance tests and a sample participant adapter, then request non-binding technical feedback from publicly identifiable Chilean fintechs, payment providers, or financial-data intermediaries. Proceed only if at least three organizations confirm a relevant integration problem and one agrees to a paid pilot or written procurement process. Do not assume sandbox access, regulatory authorization, or
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/prensa/625/w4-article-110881.html
 
 ### Commercial battery dispatch and performance verification for four-hour storage projects [opp_85c23886f73fd6c4dff5]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States
