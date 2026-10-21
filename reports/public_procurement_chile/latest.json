@@ -3,39 +3,27 @@
   "active_structurally_reconstructable_count": 0,
   "diagnostics": {
     "api_failures": {
-      "api_http_504": 4
+      "api_http_504": 1
     },
-    "budget_exhausted": true,
-    "detail_attempts": 15,
-    "detail_cap_exhausted": false,
-    "details_fetched": 11,
-    "duplicate_listings": 0,
-    "invalid_listing_items": 0,
-    "malformed_details": 0,
-    "malformed_reasons": {},
-    "malformed_samples": [],
-    "pages_fetched": 1,
-    "pagination_incomplete": false,
-    "pagination_invalid": false,
-    "requests_used": 25,
-    "transient_retries": 9
+    "requests_used": 3,
+    "transient_retries": 2
   },
-  "generated_at": "2026-10-21T08:57:53Z",
-  "inserted_history": 11,
-  "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
+  "generated_at": "2026-10-21T13:09:06Z",
+  "inserted_history": 0,
+  "note": "Transient ChileCompra/API availability failure after bounded retries. Cursor was not advanced; next scheduled run may retry safely.",
   "ok": false,
-  "outcome": "DEGRADED_API_ERRORS",
+  "outcome": "DEGRADED_TRANSIENT_API",
   "phase1": {
-    "records": 11,
+    "records": 0,
     "rejection_reasons": {},
-    "resolved": 11,
-    "structurally_reconstructable": 11,
-    "with_observable_quote_totals": 11,
+    "resolved": 0,
+    "structurally_reconstructable": 0,
+    "with_observable_quote_totals": 0,
     "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-21T08:57:53Z"
+    "changed_to": "2026-10-21T13:09:06Z"
   }
 }
