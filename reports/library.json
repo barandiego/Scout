@@ -1631,6 +1631,89 @@
     {
       "ai_leverage": "",
       "authorized_for_execution": false,
+      "contrary_evidence": [
+        "The CMF published technical specifications, a developer portal, testing provisions, and a revised July 2027 implementation date, which creates a genuine development window. The legal framework permits pilots and anticipates APIs, authentication, participant directories, and information exchange, so testing and conformance work are plausible needs. The CMF's own statement that implementation is complex supports the possibility of demand for specialized implementation assistance. However, none of this proves that a narrow independent validator will be purchased. Existing providers already expose Chilean financial-data connectivity and reconciliation functionality: Fintoc markets a single API for connecting Chilean bank accounts and automating reconciliation, while Belvo provides regional open-finance infrastructure and Chilean fiscal-data access. The presence of a regulator sandbox is contrary evidence against the assumption that a private sandbox-data product is necessary. Sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html ; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html ; https://www.leychile.cl/leychile/Navegar?idNorma=1187323&idParte=10393566 ; https://www.fintoc.com/cl/producto/connections ; https://developers.belvo.com/es/apis/belvoopenapispec/links ; https://publications.iadb.org/publications/english/document/Open-Finance-in-Latin-America-and-the-Caribbean-Great-Opportunities-Large-Challenges.pdf"
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-21T20:21:55.477461+00:00",
+      "discovery_lens": "asset_ownership",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF states that the amended rule includes technical specifications for information exchange and payment initiation, a developer portal, and a July 2027 entry-into-force date.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        },
+        {
+          "claim": "The English CMF notice confirms that the technical annex enables development for interoperability and that the implementation deadline was postponed to July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.83,
+      "falsification_conditions": [
+        "Three or more relevant Chilean banks, fintechs, API providers, or systems integrators decline to review the prototype or state that they would not pay for the proposed functionality.",
+        "No qualified prospect signs a paid pilot, letter of intent, or equivalent commercial commitment within 90 days after a working demonstration is shown.",
+        "Prospects consistently classify the feature as an internal engineering task, an included capability of an incumbent provider, or a consulting deliverable rather than a separately purchased product.",
+        "The CMF changes, delays, withdraws, or materially revises the technical annex or July 2027 implementation schedule in a way that invalidates the prototype.",
+        "The regulator sandbox and official conformance tooling provide materially equivalent validation, test data, consent logging, or reconciliation functionality at no charge.",
+        "A credible incumbent launches an integrated competing feature with distribution to the target buyers before the proposed pilot can be delivered.",
+        "Required customer data, certifications, legal permissions, or production access cannot be obtained without costs or liabilities inconsistent with a small-operator test."
+      ],
+      "geography": "Chile",
+      "id": "opp_90d159d76ff43f002fe6",
+      "judge_reviewed": true,
+      "judgment": "The underlying regulatory timing is supported by CMF primary notices, so this is not rejected for an unverified or misread regulatory change. A narrowly scoped, offline validator built only from published specifications and synthetic/public test materials appears technically plausible without requiring production financial-data access. However, the proposal has not selected an exact consented-data workflow, regulated payer, buyer owner, or separately budgeted compliance need. Its candidate features overlap with regulator-provided sandbox/conformance functions, internal engineering, systems integrators, and incumbent connectivity providers. The evidence establishes an implementation window, not viable value capture. It survives only as tightly bounded research to test paid demand and permissible technical access before any integration or handling of customer data.",
+      "last_record_updated_at": "2026-10-21T20:22:15.916107+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Which entities are legally required to participate in each implementation phase and when each phase becomes operational.",
+        "Whether the CMF technical annex, developer portal, schemas, authentication rules, and certification requirements are complete and stable enough to support a commercial product.",
+        "The number of Chilean institutions that will buy third-party validation rather than use internal engineering, auditors, core-banking vendors, aggregators, or consulting firms.",
+        "Whether regulated buyers recognize consent-log or reconciliation tooling as a separately budgeted purchase.",
+        "Potential procurement, registration, cybersecurity, data-protection, outsourcing, liability, and regulatory-representation requirements."
+      ],
+      "participation_path": "Use the CMF developer materials to define one narrowly scoped validator. Build a local proof of concept against publicly available technical specifications, then contact identifiable Chilean fintechs, API providers, or financial institutions already preparing for SFA participation. Ask for a paid or explicitly authorized test using synthetic data; do not access financial data or represent regulatory compliance without authorization. Falsification step: spend no more than one week building a validator for one published payload or consent rule, publish a short technical demo, and record whether at least three relevant organizations agree to review it and whether any will pay for a scoped pilot. If none will review or pay, discard the opportunity.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The implementation window creates a bounded opportunity to build and validate a reusable conformance, consent-log, sandbox-data, or reconciliation component before regulated participants must operate against the standard. The evidence supports an implementation requirement, not proven customer demand or revenue.",
+      "title": "Chile Open Finance consent-and-data-quality test for fintech onboarding",
+      "type": "software_asset",
+      "unknowns": [
+        "Which entities are legally required to participate in each implementation phase and when each phase becomes operational.",
+        "Whether the CMF technical annex, developer portal, schemas, authentication rules, and certification requirements are complete and stable enough to support a commercial product.",
+        "The number of Chilean institutions that will buy third-party validation rather than use internal engineering, auditors, core-banking vendors, aggregators, or consulting firms.",
+        "Whether regulated buyers recognize consent-log or reconciliation tooling as a separately budgeted purchase.",
+        "Potential procurement, registration, cybersecurity, data-protection, outsourcing, liability, and regulatory-representation requirements.",
+        "Pricing, gross margin, support burden, integration effort, and expected sales-cycle duration.",
+        "Whether existing providers such as Fintoc, Belvo, Floid, banks, systems integrators, or CMF ecosystem vendors will add equivalent functionality before a startup can sell it.",
+        "Whether public technical specifications include enough synthetic or test data to validate a useful product without privileged access.",
+        "Whether the market is large enough for a narrow Chile-only product or requires regional expansion.",
+        "Which specific SFA participants will face the relevant obligation, on what phase schedule, and who owns procurement for the selected workflow.",
+        "Whether a private tool can obtain sufficient legally permitted API, sandbox, or synthetic-data access to provide meaningful validation without privileged customer data.",
+        "Whether CMF tooling is functionally incomplete enough for a third-party validator to be valuable.",
+        "Whether any identifiable regulated fintech, bank, API provider, or integrator will commit budget to a paid pilot, and at what price and sales-cycle length.",
+        "The precise license, data-protection, cybersecurity, outsourcing, certification, and contractual requirements for operating the chosen workflow.",
+        "Whether a defensible wedge exists beyond generic API/schema checks—for example, a specific auditable consent-evidence or exception-reconciliation requirement not already supplied by incumbents or the regulator."
+      ],
+      "value_capture_mechanism": "A small operator could package a narrow developer asset—such as an automated validator for consent records, API payloads, or account/payment-data reconciliation—and sell access or implementation support only after obtaining a paying pilot. No buyer, price, margin, or permission is established by the evidence.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": true,
       "discovered_at": "2026-10-15T04:22:32.106143+00:00",
@@ -4903,6 +4986,67 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-21T20:21:55.478693+00:00",
+      "discovery_lens": "nfc_smart_commerce",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "A Chilean Mercado Libre listing shows NTAG215 NFC tags available for purchase, with a listed pack price of $6,490 CLP and nationwide shipping.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Nfc Tag 215 10uni 13,56 Mhz A 25mm Adhesivo Tarjeta Set",
+          "url": "https://www.mercadolibre.cl/nfc-tag-215-10uni-1356-mhz-a-25mm-adhesivo-tarjeta-set/p/MLC2098562674"
+        },
+        {
+          "claim": "The Chilean marketplace search shows multiple NFC products, including review-link cards listed at $12,990 CLP and other NFC tags and cards.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Tarjetas Nfc | MercadoLibre",
+          "url": "https://listado.mercadolibre.cl/tarjetas-nfc"
+        },
+        {
+          "claim": "A Chilean provider advertises NFC digital cards, QR fallback, nationwide dispatch, and configuration linked to a Google Business Profile.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "LINKD — Tarjetas digitales NFC · Tarjetas de presentación inteligentes · Chile",
+          "url": "https://linkd.cl/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.72,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_1003190617673d0a5401",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-21T20:21:55.541288+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Buy a small batch of blank tags at the observed retail price, configure one landing page with UTM tracking and QR fallback, and place it with one consenting local merchant at no charge for a 14-day test. Measure scans, completed reviews or visits, and merchant-requested continuation. Ask the merchant to name a price only after observing results. Falsification step: test three merchants in the same neighborhood; abandon the wedge if there are no attributable actions or if merchants decline any paid continuation. Do not claim Google, Instagram, payment, or marketplace integration without permission.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The hardware is commoditized, so a defensible wedge is not selling generic NFC cards. A testable offer is a configured, merchant-specific card or countertop token that routes customers to one measurable action—review, menu, reservation, reorder, or product discovery—with printed fallback and a simple monthly reporting layer. Existing listings establish purchase availability and observed retail prices, but not merchant willingness to pay.",
+      "title": "NFC-enabled review and discovery cards for Chilean local merchants",
+      "type": "physical_product",
+      "unknowns": [],
+      "value_capture_mechanism": "Revenue could come from a one-time configured physical kit plus optional reporting or replacement sales. The payer would plausibly be an individual restaurant, salon, accommodation, or independent retailer, but no paying customer or acceptable price is verified.",
+      "verified_sales": null,
+      "vertical": "general",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-17T12:18:39.095783+00:00",
       "discovery_lens": "nfc_smart_commerce",
       "estimated_capital": "",
@@ -6835,6 +6979,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-21T20:21:55.479849+00:00",
+      "discovery_lens": "market_positioning",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Falabella’s seller page displays Natura products, prices, discounts, delivery information, and more than 100 results.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Natura | Falabella Chile",
+          "url": "https://www.falabella.com/falabella-cl/seller/Natura"
+        },
+        {
+          "claim": "Natura’s Chilean site presents its direct ecommerce, app, beauty consultants, and stores as active purchase channels.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Natura Chile",
+          "url": "https://www.natura.cl/encuentra-natura"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.69,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_49094e54aa9a3ec43bc2",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-21T20:21:55.541537+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Create a one-brand, 20-SKU comparison using only publicly accessible pages and manual collection. Approach authorized retailers or marketplace sellers with a sample showing price and availability changes, asking whether they would pay for a weekly report or dashboard. Do not scrape behind login, misrepresent affiliation, or redistribute product content. Falsification step: obtain explicit interest from three identifiable sellers or brands and one paid trial; otherwise treat the signal as ordinary marketplace competition and discard it.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The evidence supports a narrow monitoring wedge: track SKU, channel, price, discount, availability, and delivery differences between Natura’s direct channel and Falabella.com for authorized resellers or competing beauty retailers. It does not establish that Natura or sellers will buy such a service.",
+      "title": "Marketplace-specific catalog and offer monitoring for Natura Chile sellers",
+      "type": "data_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "A reusable spreadsheet or lightweight alerting asset could be sold to a specific reseller, distributor, or competing brand that already has permission to sell products and needs channel-price intelligence. No buyer, price, margin, or resale permission is verified.",
+      "verified_sales": null,
+      "vertical": "competitive_positioning",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-19T00:23:02.836869+00:00",
       "discovery_lens": "nfc_smart_commerce",
       "estimated_capital": "",
@@ -7698,13 +7896,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-21T16:25:32.111359+00:00",
+  "generated_at": "2026-10-21T20:22:16.484813+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 58,
-  "reviewed_cards": 53,
+  "reviewed_cards": 54,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 166,
-  "watch": 108
+  "total_distinct_opportunities": 169,
+  "watch": 111
 }

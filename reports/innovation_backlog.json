@@ -263,6 +263,42 @@
       "category": "competitive_positioning",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Create a one-brand, 20-SKU comparison using only publicly accessible pages and manual collection. Approach authorized retailers or marketplace sellers with a sample showing price and availability changes, asking whether they would pay for a weekly report or dashboard. Do not scrape behind login, misrepresent affiliation, or redistribute product content. Falsification step: obtain explicit interest from three identifiable sellers or brands and one paid trial; otherwise treat the signal as ordinary marketplace competition and discard it.",
+      "current_thesis": "The evidence supports a narrow monitoring wedge: track SKU, channel, price, discount, availability, and delivery differences between Natura’s direct channel and Falabella.com for authorized resellers or competing beauty retailers. It does not establish that Natura or sellers will buy such a service.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Marketplace-specific catalog and offer monitoring for Natura Chile sellers",
+      "opportunity_id": "opp_49094e54aa9a3ec43bc2",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Segment the incumbent market by customers who pay too much or wait too long for one outcome.",
+        "Offer materially different positioning, delivery, price or specialisation with clear unit economics.",
+        "Test switching and repeat purchase evidence before scaling acquisition."
+      ],
+      "supporting_source_urls": [
+        "https://www.falabella.com/falabella-cl/seller/Natura",
+        "https://www.natura.cl/encuentra-natura"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A reusable spreadsheet or lightweight alerting asset could be sold to a specific reseller, distributor, or competing brand that already has permission to sell products and needs channel-price intelligence. No buyer, price, margin, or resale permission is verified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "competitive_positioning",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Select one local manufacturer with a visible manual inspection step. Record baseline defect-detection rate, inspection labor and scrap for 1-2 production shifts; then assemble or quote a single-camera prototype using off-the-shelf components. Request permission for a no-production-risk shadow-mode trial and charge only after an agreed pass/fail metric is demonstrated. Falsify if the defect class cannot be separated reliably from normal variation, the customer will not share baseline measurements, or the measured avoided cost cannot support the quoted hardware and installation expense.",
       "current_thesis": "A narrowly defined pass/fail inspection retrofit can address a buyer segment that cannot justify a new robotic cell but can test one quality-control bottleneck. The economic mechanism is avoided scrap, rework or manual inspection, but savings must be measured at the individual line.",
       "founder_hours_initial_unverified_estimate": "",
@@ -1284,6 +1320,43 @@
       "category": "general",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Buy a small batch of blank tags at the observed retail price, configure one landing page with UTM tracking and QR fallback, and place it with one consenting local merchant at no charge for a 14-day test. Measure scans, completed reviews or visits, and merchant-requested continuation. Ask the merchant to name a price only after observing results. Falsification step: test three merchants in the same neighborhood; abandon the wedge if there are no attributable actions or if merchants decline any paid continuation. Do not claim Google, Instagram, payment, or marketplace integration without permission.",
+      "current_thesis": "The hardware is commoditized, so a defensible wedge is not selling generic NFC cards. A testable offer is a configured, merchant-specific card or countertop token that routes customers to one measurable action—review, menu, reservation, reorder, or product discovery—with printed fallback and a simple monthly reporting layer. Existing listings establish purchase availability and observed retail prices, but not merchant willingness to pay.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "NFC-enabled review and discovery cards for Chilean local merchants",
+      "opportunity_id": "opp_1003190617673d0a5401",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Name a specific payer, customer job and credible reason existing alternatives fail.",
+        "Choose a low-cost differentiation wedge (availability, price, experience, distribution or technology).",
+        "Test channel, willingness to pay, ownership and contribution margin before building."
+      ],
+      "supporting_source_urls": [
+        "https://www.mercadolibre.cl/nfc-tag-215-10uni-1356-mhz-a-25mm-adhesivo-tarjeta-set/p/MLC2098562674",
+        "https://listado.mercadolibre.cl/tarjetas-nfc",
+        "https://linkd.cl/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Revenue could come from a one-time configured physical kit plus optional reporting or replacement sales. The payer would plausibly be an individual restaurant, salon, accommodation, or independent retailer, but no paying customer or acceptable price is verified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "general",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Track projects entering DOE, FERC, or state permitting pipelines; sell permitting analytics, environmental documentation, stakeholder coordination, or specialized engineering services; selectively invest in developers with advanced permits.",
       "current_thesis": "Projects and service providers that reduce permitting time, improve documentation, standardize environmental review, or connect constrained generation and large loads may capture value as grid investment accelerates.",
       "founder_hours_initial_unverified_estimate": "",
@@ -1701,6 +1774,46 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Offer a paid, fixed-scope pre-certification or integration-readiness review built around the public Annex 3 specifications: validate sample payloads, authentication flows, logging/versioning behavior and payment-initiation edge cases. The plausible payer is a prospective SFA participant or its implementation contractor, but willingness to pay and procurement authority are unverified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Use the CMF developer materials to define one narrowly scoped validator. Build a local proof of concept against publicly available technical specifications, then contact identifiable Chilean fintechs, API providers, or financial institutions already preparing for SFA participation. Ask for a paid or explicitly authorized test using synthetic data; do not access financial data or represent regulatory compliance without authorization. Falsification step: spend no more than one week building a validator for one published payload or consent rule, publish a short technical demo, and record whether at least three relevant organizations agree to review it and whether any will pay for a scoped pilot. If none will review or pay, discard the opportunity.",
+      "current_thesis": "The implementation window creates a bounded opportunity to build and validate a reusable conformance, consent-log, sandbox-data, or reconciliation component before regulated participants must operate against the standard. The evidence supports an implementation requirement, not proven customer demand or revenue.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Which entities are legally required to participate in each implementation phase and when each phase becomes operational.",
+        "Whether the CMF technical annex, developer portal, schemas, authentication rules, and certification requirements are complete and stable enough to support a commercial product.",
+        "The number of Chilean institutions that will buy third-party validation rather than use internal engineering, auditors, core-banking vendors, aggregators, or consulting firms.",
+        "Whether regulated buyers recognize consent-log or reconciliation tooling as a separately budgeted purchase.",
+        "Potential procurement, registration, cybersecurity, data-protection, outsourcing, liability, and regulatory-representation requirements.",
+        "Pricing, gross margin, support burden, integration effort, and expected sales-cycle duration.",
+        "Whether existing providers such as Fintoc, Belvo, Floid, banks, systems integrators, or CMF ecosystem vendors will add equivalent functionality before a startup can sell it."
+      ],
+      "investment_authorized": false,
+      "name": "Chile Open Finance consent-and-data-quality test for fintech onboarding",
+      "opportunity_id": "opp_90d159d76ff43f002fe6",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A small operator could package a narrow developer asset—such as an automated validator for consent records, API payloads, or account/payment-data reconciliation—and sell access or implementation support only after obtaining a paying pilot. No buyer, price, margin, or permission is established by the evidence.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -4124,7 +4237,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-21T16:25:32.164163+00:00",
+  "generated_at": "2026-10-21T20:22:16.575675+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

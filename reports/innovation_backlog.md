@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 108
+Candidates: 111
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -87,6 +87,18 @@ Candidates: 108
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://jobs.lever.co/weloglobal/f1d3a94f-b3c4-47c2-b33b-55253a774375; https://jobs.lever.co/weloglobal?commitment=Remote
+
+## Marketplace-specific catalog and offer monitoring for Natura Chile sellers
+- Status: watch | competitive_positioning
+- Current idea: The evidence supports a narrow monitoring wedge: track SKU, channel, price, discount, availability, and delivery differences between Natura’s direct channel and Falabella.com for authorized resellers or competing beauty retailers. It does not establish that Natura or sellers will buy such a service.
+- Potential economic capture: A reusable spreadsheet or lightweight alerting asset could be sold to a specific reseller, distributor, or competing brand that already has permission to sell products and needs channel-price intelligence. No buyer, price, margin, or resale permission is verified.
+- **Research routes to test (NOT validated claims):**
+  - Segment the incumbent market by customers who pay too much or wait too long for one outcome.
+  - Offer materially different positioning, delivery, price or specialisation with clear unit economics.
+  - Test switching and repeat purchase evidence before scaling acquisition.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.falabella.com/falabella-cl/seller/Natura; https://www.natura.cl/encuentra-natura
 
 ## Single-station machine-vision retrofit for legacy production lines
 - Status: watch | competitive_positioning
@@ -412,6 +424,18 @@ Candidates: 108
 - Possible initial budget:
 - Source URLs: https://openai.com/index/introducing-the-agents-api/; https://www.axios.com/2026/09/29/openai-dev-day-2026-dots-space-sol
 
+## NFC-enabled review and discovery cards for Chilean local merchants
+- Status: watch | general
+- Current idea: The hardware is commoditized, so a defensible wedge is not selling generic NFC cards. A testable offer is a configured, merchant-specific card or countertop token that routes customers to one measurable action—review, menu, reservation, reorder, or product discovery—with printed fallback and a simple monthly reporting layer. Existing listings establish purchase availability and observed retail prices, but not merchant willingness to pay.
+- Potential economic capture: Revenue could come from a one-time configured physical kit plus optional reporting or replacement sales. The payer would plausibly be an individual restaurant, salon, accommodation, or independent retailer, but no paying customer or acceptable price is verified.
+- **Research routes to test (NOT validated claims):**
+  - Name a specific payer, customer job and credible reason existing alternatives fail.
+  - Choose a low-cost differentiation wedge (availability, price, experience, distribution or technology).
+  - Test channel, willingness to pay, ownership and contribution margin before building.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.mercadolibre.cl/nfc-tag-215-10uni-1356-mhz-a-25mm-adhesivo-tarjeta-set/p/MLC2098562674; https://listado.mercadolibre.cl/tarjetas-nfc; https://linkd.cl/
+
 ## Permitting and transmission-process modernization is opening a bottleneck-sensitive infrastructure opportunity
 - Status: watch | general
 - Current idea: Projects and service providers that reduce permitting time, improve documentation, standardize environmental review, or connect constrained generation and large loads may capture value as grid investment accelerates.
@@ -543,6 +567,18 @@ Candidates: 108
 - Critical gaps: Whether ATENA is sufficiently complete, reliable, accessible, and supported for commercial participants.; Whether ATENA or CMF will issue formal conformance or certification reports that displace private pre-certification services.; The exact phased deadlines by participant category and how many entities face near-term implementation pressure.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html
+
+## Chile Open Finance consent-and-data-quality test for fintech onboarding
+- Status: watch | open_finance_chile
+- Current idea: The implementation window creates a bounded opportunity to build and validate a reusable conformance, consent-log, sandbox-data, or reconciliation component before regulated participants must operate against the standard. The evidence supports an implementation requirement, not proven customer demand or revenue.
+- Potential economic capture: A small operator could package a narrow developer asset—such as an automated validator for consent records, API payloads, or account/payment-data reconciliation—and sell access or implementation support only after obtaining a paying pilot. No buyer, price, margin, or permission is established by the evidence.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Which entities are legally required to participate in each implementation phase and when each phase becomes operational.; Whether the CMF technical annex, developer portal, schemas, authentication rules, and certification requirements are complete and stable enough to support a commercial product.; The number of Chilean institutions that will buy third-party validation rather than use internal engineering, auditors, core-banking vendors, aggregators, or consulting firms.
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html
 
 ## Chile Open Finance implementation-readiness scanner for small fintechs and accounting platforms
 - Status: watch | open_finance_chile

@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-21T16:25:32.111359+00:00
+Generated: 2026-10-21T20:22:16.484813+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 108 (0 HQ survivors, 108 watches)
+- Active research: 111 (0 HQ survivors, 111 watches)
 - Rejected opportunities excluded: 58
-- Critic-and-judge reviewed: 53
+- Critic-and-judge reviewed: 54
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -192,6 +192,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Whether ATENA is sufficiently complete, reliable, accessible, and supported for commercial participants.; Whether ATENA or CMF will issue formal conformance or certification reports that displace private pre-certification services.; The exact phased deadlines by participant category and how many entities face near-term implementation pressure.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html
+
+### Chile Open Finance consent-and-data-quality test for fintech onboarding [opp_90d159d76ff43f002fe6]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: The implementation window creates a bounded opportunity to build and validate a reusable conformance, consent-log, sandbox-data, or reconciliation component before regulated participants must operate against the standard. The evidence supports an implementation requirement, not proven customer demand or revenue.
+- Value capture: A small operator could package a narrow developer asset—such as an automated validator for consent records, API payloads, or account/payment-data reconciliation—and sell access or implementation support only after obtaining a paying pilot. No buyer, price, margin, or permission is established by the evidence.
+- Participation hypothesis: Use the CMF developer materials to define one narrowly scoped validator. Build a local proof of concept against publicly available technical specifications, then contact identifiable Chilean fintechs, API providers, or financial institutions already preparing for SFA participation. Ask for a paid or explicitly authorized test using synthetic data; do not access financial data or represent regulatory compliance without authorization. Falsification step: spend no more than one week building a validator for one published payload or consent rule, p
+- Critic/judge: The underlying regulatory timing is supported by CMF primary notices, so this is not rejected for an unverified or misread regulatory change. A narrowly scoped, offline validator built only from published specifications and synthetic/public test materials appears technically plausible without requiring production financial-data access. However, the proposal has not selected an exact consented-data workflow, regulated payer, buyer owner,
+- Next evidence gaps: Which entities are legally required to participate in each implementation phase and when each phase becomes operational.; Whether the CMF technical annex, developer portal, schemas, authentication rules, and certification requirements are complete and stable enough to support a commerci; The number of Chilean institutions that will buy third-party validation rather than use internal engineering, auditors, core-banking vendors, aggregators, or consult
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html
 
 ### Chile Open Finance implementation-readiness scanner for small fintechs and accounting platforms [opp_12eb144e4fe2a8d50297]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -583,6 +593,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://linkd.cl/; https://www.ondda.cl/; https://www.tuk.cl/es-cl
 
+### NFC-enabled review and discovery cards for Chilean local merchants [opp_1003190617673d0a5401]
+- Status: WATCH_REQUIRES_VALIDATION | general | Chile
+- Thesis: The hardware is commoditized, so a defensible wedge is not selling generic NFC cards. A testable offer is a configured, merchant-specific card or countertop token that routes customers to one measurable action—review, menu, reservation, reorder, or product discovery—with printed fallback and a simple monthly reporting layer. Existing listings establish purchase availability and observed retail prices, but not merchant willingness to pay.
+- Value capture: Revenue could come from a one-time configured physical kit plus optional reporting or replacement sales. The payer would plausibly be an individual restaurant, salon, accommodation, or independent retailer, but no paying customer or acceptable price is verified.
+- Participation hypothesis: Buy a small batch of blank tags at the observed retail price, configure one landing page with UTM tracking and QR fallback, and place it with one consenting local merchant at no charge for a 14-day test. Measure scans, completed reviews or visits, and merchant-requested continuation. Ask the merchant to name a price only after observing results. Falsification step: test three merchants in the same neighborhood; abandon the wedge if there are no attributable actions or if merchants decline any paid continuation. Do not claim Google, Instagram, p
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.mercadolibre.cl/nfc-tag-215-10uni-1356-mhz-a-25mm-adhesivo-tarjeta-set/p/MLC2098562674; https://listado.mercadolibre.cl/tarjetas-nfc; https://linkd.cl/
+
 ### NFC/QR review-and-discovery plates for Chilean physical venues [opp_d54cb21f051b71d41869]
 - Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile
 - Thesis: The basic NFC-card market is already competitive and commoditized, so reselling generic digital business cards is weak. A narrower wedge is a preconfigured NFC/QR tabletop or storefront plate that routes visitors to a venue's Google review page, menu, booking link or product-discovery page, with a measurable scan-to-action report. The evidence supports customer willingness to pay for hardware and setup, but does not establish recurring software willingness to pay or conversion rates.
@@ -932,6 +952,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.nifa.usda.gov/about-nifa/impacts/automation-specialty-crops; https://www.ars.usda.gov/research/project/?accnNo=448156
+
+### Marketplace-specific catalog and offer monitoring for Natura Chile sellers [opp_49094e54aa9a3ec43bc2]
+- Status: WATCH_REQUIRES_VALIDATION | competitive_positioning | Chile
+- Thesis: The evidence supports a narrow monitoring wedge: track SKU, channel, price, discount, availability, and delivery differences between Natura’s direct channel and Falabella.com for authorized resellers or competing beauty retailers. It does not establish that Natura or sellers will buy such a service.
+- Value capture: A reusable spreadsheet or lightweight alerting asset could be sold to a specific reseller, distributor, or competing brand that already has permission to sell products and needs channel-price intelligence. No buyer, price, margin, or resale permission is verified.
+- Participation hypothesis: Create a one-brand, 20-SKU comparison using only publicly accessible pages and manual collection. Approach authorized retailers or marketplace sellers with a sample showing price and availability changes, asking whether they would pay for a weekly report or dashboard. Do not scrape behind login, misrepresent affiliation, or redistribute product content. Falsification step: obtain explicit interest from three identifiable sellers or brands and one paid trial; otherwise treat the signal as ordinary marketplace competition and discard it.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.falabella.com/falabella-cl/seller/Natura; https://www.natura.cl/encuentra-natura
 
 ### NFC review-and-reorder plaques for Chilean independent merchants [opp_ce00c60c8ebfd1d48cd2]
 - Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile
