@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-22T13:57:54.064824+00:00
+Generated: 2026-10-22T20:13:55.510825+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 140
+- New this cycle: 124
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
-- Categories: agriculture 352, ai 191, commerce 34, energy 496, robotics 727
+- Feed failures (fail-open for public intake only): none
+- Categories: agriculture 361, ai 185, commerce 34, energy 501, robotics 719
 
 ## Recently encountered signals
+
+### Sumit8055-arch/-NexHR-Agri-Bringing-AI-Smart-Farming-Digital-Innovation-Together-
+- Source: https://github.com/Sumit8055-arch/-NexHR-Agri-Bringing-AI-Smart-Farming-Digital-Innovation-Together-
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### Ashish2876/FarmVision-The-AgriRover
 - Source: https://github.com/Ashish2876/FarmVision-The-AgriRover
@@ -264,6 +270,18 @@ Generated: 2026-10-22T13:57:54.064824+00:00
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
+### A systematic comparison of data-driven and robust DC-link voltage control for photovoltaic–battery energy storage systems
+- Source: https://doi.org/10.1016/j.jestch.2026.102574
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### cloudndflyy/AI-Farmer-Crop-Selling-Advisor
+- Source: https://github.com/cloudndflyy/AI-Farmer-Crop-Selling-Advisor
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
 ### wuy509019/VRFB-PV-Micogrid-and-Its-Techno-Economic-Analysis
 - Source: https://github.com/wuy509019/VRFB-PV-Micogrid-and-Its-Techno-Economic-Analysis
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
@@ -440,24 +458,6 @@ Generated: 2026-10-22T13:57:54.064824+00:00
 
 ### thanmaye09/Auto-machine-AI-advance-added-in-Farming-
 - Source: https://github.com/thanmaye09/Auto-machine-AI-advance-added-in-Farming-
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### saadthetic/AgriLens-ECO
-- Source: https://github.com/saadthetic/AgriLens-ECO
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### The Optimal Integration of Photovoltaic (PV) and Battery Energy Storage Systems in Power Distribution Using Hybrid Flower Pollination and β-Hill Climbing
-- Source: https://doi.org/10.31963/elekterika.v22i2.5805
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Jeeva1117/agronexa.AI
-- Source: https://github.com/Jeeva1117/agronexa.AI
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
