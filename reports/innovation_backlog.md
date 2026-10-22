@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 115
+Candidates: 117
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -171,6 +171,18 @@ Candidates: 115
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.fne.gob.cl/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-plataformas/; https://group.dhl.com/content/dam/deutschepostdhl/en/media-center/media-relations/documents/2025/e-commerce-trends-report-2025-business-edition.pdf; https://www.trade.gov/country-commercial-guides/chile-ecommerce
+
+## Narrow private-label test for underserved marketplace products in Chile
+- Status: watch | ecommerce_niches
+- Current idea: Marketplace participation is economically measurable, but the evidence does not identify a specific product shortage or arbitrage spread. The actionable wedge is a low-inventory test of one differentiated, non-regulated product with verified landed cost and marketplace fees.
+- Potential economic capture: Cash flow would come from direct product sales after marketplace commission, logistics, returns, taxes, and inventory costs. No margin should be assumed until a live listing or supplier quotation validates unit economics.
+- **Research routes to test (NOT validated claims):**
+  - Target a specific neglected customer subgroup with a measurable unmet product requirement.
+  - Compare imported/private-label, inventoryless fulfillment and existing domestic suppliers after landed costs.
+  - Test one narrower search/intention channel before expanding catalog or buying inventory.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://ayudaseller.falabella.com/articles/es/Knowledge/Comisiones-de-venta-Chile; https://sellers.mercadolibre.com/landing/pricing; https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/
 
 ## Natura marketplace price-and-assortment test on Falabella.com Chile
 - Status: watch | ecommerce_niches
@@ -1251,6 +1263,18 @@ Candidates: 115
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://fairino.cl/; https://thunderrobotics.cl/
+
+## Bid as a small supplier or integrator around Chilean public-sector collaborative-robot purchases
+- Status: watch | robotics_agritech
+- Current idea: A concrete demand signal exists for a single cobot acquisition, but the evidence does not prove repeat demand, reseller authorization, or attractive margins. The feasible wedge is quote preparation, local integration, training, or compliant sourcing rather than speculative inventory.
+- Potential economic capture: Potential cash flow would come from winning the tender or subcontracting/integrating the specified equipment. The public record confirms a procurement process but does not establish the winning price, supplier margin, or eligibility of an independent operator.
+- **Research routes to test (NOT validated claims):**
+  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
+  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
+  - Arrange a bounded field validation with an actual farm operator before scaling.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=EcOU%2FNAETsEAzivMPKQg7w%3D%3D; https://www.en-standard.eu/une-en-iso-10218-1-2026-robotics-safety-requirements-part-1-industrial-robots-iso-10218-1-2025/
 
 ## Chile RaaS deployment wedge for industrial-floor cleaning
 - Status: watch | robotics_agritech

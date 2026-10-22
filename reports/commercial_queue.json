@@ -1,9 +1,9 @@
 {
   "buyer_qualified_count": 0,
-  "excluded_from_first_dollar_queue": 111,
+  "excluded_from_first_dollar_queue": 113,
   "first_dollar_verified": false,
-  "generated_at": "2026-10-22T13:28:12.664602+00:00",
-  "opportunity_count_reviewed": 115,
+  "generated_at": "2026-10-22T19:45:10.479855+00:00",
+  "opportunity_count_reviewed": 117,
   "revenue_usd_verified": null,
   "schema_version": 1,
   "selected": [

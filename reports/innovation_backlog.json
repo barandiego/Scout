@@ -517,6 +517,43 @@
       "category": "ecommerce_niches",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Select one narrow product with a documented local price gap or underserved specification, obtain a small supplier sample or pre-order commitment, calculate all marketplace and delivery charges, and test a compliant listing on Falabella.com or Mercado Libre. Lowest-cost falsification: before importing inventory, compare three local retail prices, obtain one landed-cost quotation, and run a small paid listing or reservation test; stop if expected contribution is negative after platform and fulfillment costs.",
+      "current_thesis": "Marketplace participation is economically measurable, but the evidence does not identify a specific product shortage or arbitrage spread. The actionable wedge is a low-inventory test of one differentiated, non-regulated product with verified landed cost and marketplace fees.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Narrow private-label test for underserved marketplace products in Chile",
+      "opportunity_id": "opp_57a45d336ccad5f1c63e",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Target a specific neglected customer subgroup with a measurable unmet product requirement.",
+        "Compare imported/private-label, inventoryless fulfillment and existing domestic suppliers after landed costs.",
+        "Test one narrower search/intention channel before expanding catalog or buying inventory."
+      ],
+      "supporting_source_urls": [
+        "https://ayudaseller.falabella.com/articles/es/Knowledge/Comisiones-de-venta-Chile",
+        "https://sellers.mercadolibre.com/landing/pricing",
+        "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Cash flow would come from direct product sales after marketplace commission, logistics, returns, taxes, and inventory costs. No margin should be assumed until a live listing or supplier quotation validates unit economics.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "ecommerce_niches",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "First use Falabella's public Natura catalogue to record 20 comparable SKUs, prices, stock/fulfillment options and reviews. Create a spreadsheet of bundle hypotheses using only products that can be lawfully sourced and listed under the platform's seller rules. Lowest-cost falsification: run a non-inventory demand test through compliant marketplace participation or a permitted landing page, seeking a small number of paid reservations or completed purchases; do not buy inventory until unit economics and listing permission are confirmed. If reservations do not occur at the observed price, abandon the wedge.",
       "current_thesis": "A concrete wedge exists for testing whether selected Natura bundles, gift packs or hard-to-find SKUs can acquire demand through Falabella's existing marketplace traffic and fulfillment network. The evidence does not establish resale permission, margin or arbitrage profit.",
       "founder_hours_initial_unverified_estimate": "",
@@ -3971,6 +4008,42 @@
       "category": "robotics_agritech",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Retrieve the tender annex, compare its requirements with available cobot vendors, and verify Mercado Público supplier eligibility and deadlines. If the tender is closed, use it only as a demand-validation lead: identify the institution’s future procurement or related tenders and submit questions or bids only through the official platform. Lowest-cost falsification: spend several hours extracting the technical requirements and requesting written distributor quotations; abandon if landed cost, certifications, delivery, or eligibility cannot meet the tender conditions.",
+      "current_thesis": "A concrete demand signal exists for a single cobot acquisition, but the evidence does not prove repeat demand, reseller authorization, or attractive margins. The feasible wedge is quote preparation, local integration, training, or compliant sourcing rather than speculative inventory.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Bid as a small supplier or integrator around Chilean public-sector collaborative-robot purchases",
+      "opportunity_id": "opp_6fed166e1f1a1ba78706",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
+        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
+        "Arrange a bounded field validation with an actual farm operator before scaling."
+      ],
+      "supporting_source_urls": [
+        "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=EcOU%2FNAETsEAzivMPKQg7w%3D%3D",
+        "https://www.en-standard.eu/une-en-iso-10218-1-2026-robotics-safety-requirements-part-1-industrial-robots-iso-10218-1-2025/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Potential cash flow would come from winning the tender or subcontracting/integrating the specified equipment. The public record confirms a procurement process but does not establish the winning price, supplier margin, or eligibility of an independent operator.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "robotics_agritech",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Select one facility class, such as warehouses or supermarkets. Use the supplier's public contact route to request written authorization for referrals and a no-cost or fixed-price pilot structure. Approach 10 locally identifiable facilities without claiming savings; ask only for permission to measure floor area, cleaning labor hours and operating constraints. Lowest-cost falsification: obtain three written facility responses and one supplier quote for the same site. Stop if no facility permits measurement, the supplier declines a channel arrangement, or the quoted deployment cannot be compared with the facility's documented cleaning cost.",
       "current_thesis": "A small operator does not need to import or finance a robot before validating demand. The executable wedge is lead generation, site qualification and paid pilot coordination for one narrow facility type, using an existing local supplier and its published commercial terms. No buyer, savings or margin is assumed until a facility accepts a site assessment and receives a formal quote.",
       "founder_hours_initial_unverified_estimate": "",
@@ -4384,7 +4457,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-22T13:28:12.756661+00:00",
+  "generated_at": "2026-10-22T19:45:10.563082+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

@@ -4945,6 +4945,67 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-22T19:44:53.229675+00:00",
+      "discovery_lens": "physical_commerce",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Falabella states that commissions are charged by product category and that logistics arrangements affect seller economics.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Comisiones de venta (Chile)",
+          "url": "https://ayudaseller.falabella.com/articles/es/Knowledge/Comisiones-de-venta-Chile"
+        },
+        {
+          "claim": "Mercado Libre publishes Chile-specific selling-fee mechanics, additional per-unit fees for lower-priced products, and minimum listing-price information.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Mercado Libre Global Selling pricing",
+          "url": "https://sellers.mercadolibre.com/landing/pricing"
+        },
+        {
+          "claim": "Falabella reports Natura’s launch of an official Chilean marketplace store with an initial 110-product portfolio, confirming active brand participation in the channel.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Natura llega a Falabella.com con su nueva Tienda Oficial",
+          "url": "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.79,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_57a45d336ccad5f1c63e",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-22T19:44:53.286336+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Select one narrow product with a documented local price gap or underserved specification, obtain a small supplier sample or pre-order commitment, calculate all marketplace and delivery charges, and test a compliant listing on Falabella.com or Mercado Libre. Lowest-cost falsification: before importing inventory, compare three local retail prices, obtain one landed-cost quotation, and run a small paid listing or reservation test; stop if expected contribution is negative after platform and fulfillment costs.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Marketplace participation is economically measurable, but the evidence does not identify a specific product shortage or arbitrage spread. The actionable wedge is a low-inventory test of one differentiated, non-regulated product with verified landed cost and marketplace fees.",
+      "title": "Narrow private-label test for underserved marketplace products in Chile",
+      "type": "marketplace_distribution",
+      "unknowns": [],
+      "value_capture_mechanism": "Cash flow would come from direct product sales after marketplace commission, logistics, returns, taxes, and inventory costs. No margin should be assumed until a live listing or supplier quotation validates unit economics.",
+      "verified_sales": null,
+      "vertical": "ecommerce_niches",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-21T08:27:50.373426+00:00",
       "discovery_lens": "business_model_migration",
       "estimated_capital": "",
@@ -5702,6 +5763,60 @@
       "value_capture_mechanism": "Create a narrowly scoped, machine-readable vendor-comparison pack that maps supplier documents to DOE procurement checklist fields, records missing evidence, and flags single-source or foreign-component dependencies. Potential cash flow would come from project developers, EPCs, or public-sector procurement teams purchasing a project-specific review; no buyer or fee is assumed.",
       "verified_sales": null,
       "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-22T19:44:53.228771+00:00",
+      "discovery_lens": "robotics_automation",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Mercado Público records a Universidad de Tarapacá tender for one collaborative robotic arm, including technical specifications, contracting requirements, and a public bidding route.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Adquisición de Brazo Robótico Colaborativo UTA22991",
+          "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=EcOU%2FNAETsEAzivMPKQg7w%3D%3D"
+        },
+        {
+          "claim": "The current industrial-robot safety standard describes safety requirements relevant to evaluating whether a proposed robotic-arm offering can satisfy industrial deployment requirements.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "UNE EN ISO 10218-1:2026",
+          "url": "https://www.en-standard.eu/une-en-iso-10218-1-2026-robotics-safety-requirements-part-1-industrial-robots-iso-10218-1-2025/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.88,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_6fed166e1f1a1ba78706",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-22T19:44:53.286038+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Retrieve the tender annex, compare its requirements with available cobot vendors, and verify Mercado Público supplier eligibility and deadlines. If the tender is closed, use it only as a demand-validation lead: identify the institution’s future procurement or related tenders and submit questions or bids only through the official platform. Lowest-cost falsification: spend several hours extracting the technical requirements and requesting written distributor quotations; abandon if landed cost, certifications, delivery, or eligibility cannot meet the tender conditions.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A concrete demand signal exists for a single cobot acquisition, but the evidence does not prove repeat demand, reseller authorization, or attractive margins. The feasible wedge is quote preparation, local integration, training, or compliant sourcing rather than speculative inventory.",
+      "title": "Bid as a small supplier or integrator around Chilean public-sector collaborative-robot purchases",
+      "type": "public_procurement",
+      "unknowns": [],
+      "value_capture_mechanism": "Potential cash flow would come from winning the tender or subcontracting/integrating the specified equipment. The public record confirms a procurement process but does not establish the winning price, supplier margin, or eligibility of an independent operator.",
+      "verified_sales": null,
+      "vertical": "robotics_agritech",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -8139,13 +8254,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-22T13:28:12.664602+00:00",
+  "generated_at": "2026-10-22T19:45:10.479855+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 60,
+  "rejected_excluded": 61,
   "reviewed_cards": 55,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 175,
-  "watch": 115
+  "total_distinct_opportunities": 178,
+  "watch": 117
 }

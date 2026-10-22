@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-22T13:28:12.664602+00:00
+Generated: 2026-10-22T19:45:10.479855+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 115 (0 HQ survivors, 115 watches)
-- Rejected opportunities excluded: 60
+- Active research: 117 (0 HQ survivors, 117 watches)
+- Rejected opportunities excluded: 61
 - Critic-and-judge reviewed: 55
 - Autonomous execution authorization: 0
 
@@ -583,6 +583,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.fne.gob.cl/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-pl; https://group.dhl.com/content/dam/deutschepostdhl/en/media-center/media-relations/documents/2025/e-commerce-trends-report-2025-business-edition.pdf; https://www.trade.gov/country-commercial-guides/chile-ecommerce
 
+### Narrow private-label test for underserved marketplace products in Chile [opp_57a45d336ccad5f1c63e]
+- Status: WATCH_REQUIRES_VALIDATION | ecommerce_niches | Chile
+- Thesis: Marketplace participation is economically measurable, but the evidence does not identify a specific product shortage or arbitrage spread. The actionable wedge is a low-inventory test of one differentiated, non-regulated product with verified landed cost and marketplace fees.
+- Value capture: Cash flow would come from direct product sales after marketplace commission, logistics, returns, taxes, and inventory costs. No margin should be assumed until a live listing or supplier quotation validates unit economics.
+- Participation hypothesis: Select one narrow product with a documented local price gap or underserved specification, obtain a small supplier sample or pre-order commitment, calculate all marketplace and delivery charges, and test a compliant listing on Falabella.com or Mercado Libre. Lowest-cost falsification: before importing inventory, compare three local retail prices, obtain one landed-cost quotation, and run a small paid listing or reservation test; stop if expected contribution is negative after platform and fulfillment costs.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://ayudaseller.falabella.com/articles/es/Knowledge/Comisiones-de-venta-Chile; https://sellers.mercadolibre.com/landing/pricing; https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/
+
 ### Natura marketplace price-and-assortment test on Falabella.com Chile [opp_e2a66e0f6074d07578b8]
 - Status: WATCH_REQUIRES_VALIDATION | ecommerce_niches | Chile
 - Thesis: A concrete wedge exists for testing whether selected Natura bundles, gift packs or hard-to-find SKUs can acquire demand through Falabella's existing marketplace traffic and fulfillment network. The evidence does not establish resale permission, margin or arbitrage profit.
@@ -712,6 +722,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.energy.gov/cmei/femp/articles/battery-energy-storage-system-procurement-checklist; https://www.energy.gov/ceser/articles/new-ceser-report-offers-supply-chain-mitigation-strategies-battery-storage-systems
+
+### Bid as a small supplier or integrator around Chilean public-sector collaborative-robot purchases [opp_6fed166e1f1a1ba78706]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile
+- Thesis: A concrete demand signal exists for a single cobot acquisition, but the evidence does not prove repeat demand, reseller authorization, or attractive margins. The feasible wedge is quote preparation, local integration, training, or compliant sourcing rather than speculative inventory.
+- Value capture: Potential cash flow would come from winning the tender or subcontracting/integrating the specified equipment. The public record confirms a procurement process but does not establish the winning price, supplier margin, or eligibility of an independent operator.
+- Participation hypothesis: Retrieve the tender annex, compare its requirements with available cobot vendors, and verify Mercado Público supplier eligibility and deadlines. If the tender is closed, use it only as a demand-validation lead: identify the institution’s future procurement or related tenders and submit questions or bids only through the official platform. Lowest-cost falsification: spend several hours extracting the technical requirements and requesting written distributor quotations; abandon if landed cost, certifications, delivery, or eligibility cannot meet
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=EcOU%2FNAETsEAzivMPKQg7w%3D%3D; https://www.en-standard.eu/une-en-iso-10218-1-2026-robotics-safety-requirements-part-1-industrial-robots-iso-10218-1-2025/
 
 ### Bid-support and compliance package for Chile’s 2026/01 regulated power-supply tender [opp_20b079df210ea1d3088c]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile; SEN zones, especially Zone 2
