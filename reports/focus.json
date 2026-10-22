@@ -1,11 +1,11 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-10-22T19:45:10.479855+00:00",
+  "generated_at": "2026-10-22T22:58:40.612409+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
-      "other_cards_in_theme": 6,
+      "other_cards_in_theme": 5,
       "reviewed": true,
       "status": "watch",
       "theme": "nfc_products",
@@ -13,7 +13,7 @@
     },
     {
       "opportunity_id": "opp_7ea6a495427da87c8c5c",
-      "other_cards_in_theme": 13,
+      "other_cards_in_theme": 14,
       "reviewed": true,
       "status": "watch",
       "theme": "energy_infrastructure",
@@ -104,14 +104,14 @@
   "high_concentration": [
     {
       "cards": 46,
-      "share": 0.393,
+      "share": 0.387,
       "theme": "chile_open_finance"
     }
   ],
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 52,
+  "theme_count": 54,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -182,9 +182,10 @@
         "opp_85c23886f73fd6c4dff5",
         "opp_20b079df210ea1d3088c",
         "opp_821fe989c63ca8db797f",
-        "opp_e28d4caaa77e09a2caa9"
+        "opp_e28d4caaa77e09a2caa9",
+        "opp_49a6d20d0f91b3d23a8b"
       ],
-      "count": 14,
+      "count": 15,
       "representative_id": "opp_7ea6a495427da87c8c5c",
       "reviewed_count": 8,
       "theme": "energy_infrastructure"
@@ -195,11 +196,10 @@
         "opp_f27f698db291e47e237f",
         "opp_d54cb21f051b71d41869",
         "opp_1003190617673d0a5401",
-        "opp_931a74c26757b6e74ee3",
         "opp_6f96496de207fbd68ffc",
         "opp_ce00c60c8ebfd1d48cd2"
       ],
-      "count": 7,
+      "count": 6,
       "representative_id": "opp_def87ec156069bf156db",
       "reviewed_count": 1,
       "theme": "nfc_products"
@@ -495,6 +495,15 @@
     },
     {
       "all_opportunity_ids": [
+        "opp_4ac887930a777d12d31b"
+      ],
+      "count": 1,
+      "representative_id": "opp_4ac887930a777d12d31b",
+      "reviewed_count": 0,
+      "theme": "physical_distribution:critical_mineral_recycling"
+    },
+    {
+      "all_opportunity_ids": [
         "opp_ef5d3038f30393cb8c4f"
       ],
       "count": 1,
@@ -528,6 +537,15 @@
       "representative_id": "opp_decc33f3027f68ae3faf",
       "reviewed_count": 1,
       "theme": "public_markets:symbotic_public_market"
+    },
+    {
+      "all_opportunity_ids": [
+        "opp_9bafd4dcad1184f971fd"
+      ],
+      "count": 1,
+      "representative_id": "opp_9bafd4dcad1184f971fd",
+      "reviewed_count": 0,
+      "theme": "public_markets:tokenized_collateral_operational"
     },
     {
       "all_opportunity_ids": [
@@ -647,6 +665,6 @@
       "theme": "robotics_agritech:small_hydroponic_propagation"
     }
   ],
-  "total_original_cards": 117,
+  "total_original_cards": 119,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }

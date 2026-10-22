@@ -6743,6 +6743,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-22T22:58:15.832772+00:00",
+      "discovery_lens": "mining_materials",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "GAO states that available recycling feedstock is often landfilled or exported for processing and examines barriers to deploying substitution and recycling technologies for critical minerals.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Critical Minerals: Reducing U.S. Import Reliance with Substitution and Recycling Technologies",
+          "url": "https://www.gao.gov/products/gao-26-108687"
+        },
+        {
+          "claim": "IEA identifies current market, investment, technology, and supply-chain issues affecting critical minerals, including the role of Latin America and downstream supply security.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Global Critical Minerals Outlook 2026",
+          "url": "https://www.iea.org/reports/global-critical-minerals-outlook-2026"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.82,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_4ac887930a777d12d31b",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-22T22:58:15.861775+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Select one material stream—such as discarded electronics from a university, repair network, or municipal program—and obtain written permission for a 30-day collection test. Contact three licensed recyclers or processors and request their current accepted-material specifications, minimum lot size, assay requirements, and purchase terms. Stop if no processor provides written acceptance criteria or if collection permission cannot be obtained without material cost.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A small operator can test whether a geographically concentrated stream of discarded electronics or industrial scrap can be aggregated, documented, and routed to an existing licensed processor rather than attempting to build a refinery.",
+      "title": "Critical-mineral recycling feedstock locator focused on discarded electronics",
+      "type": "physical_supply_chain_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "A documented feedstock-aggregation route: obtain material from one identifiable institutional source, sort and record composition, then sell or transfer it to an existing recycler or processor under its stated acceptance terms. Revenue, price, and acceptance are unknown until verified.",
+      "verified_sales": null,
+      "vertical": "physical_distribution",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-17T16:17:48.306357+00:00",
       "discovery_lens": "energy_localization",
       "estimated_capital": "",
@@ -7111,6 +7165,60 @@
       "type": "dataset_or_research_asset",
       "unknowns": [],
       "value_capture_mechanism": "Offer a small paid dataset, monitoring subscription, or one-off queue-screening report focused on a single ISO/RTO and technology. Do not assume access to proprietary project data or permission to redistribute source datasets.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-22T22:58:15.832071+00:00",
+      "discovery_lens": "energy_industrial",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "DOE materials report approximately 10,300 active U.S. interconnection projects at the end of 2024, including approximately 890 GW of storage and 408 GW with draft or executed interconnection agreements.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Interconnection Queue Data and Analysis",
+          "url": "https://www.energy.gov/documents/craig-order-202-26-31-pios-exhibits-3-01-3-07-july-24-2026"
+        },
+        {
+          "claim": "FERC describes financial-readiness and site-control requirements and publicly available transmission-capacity heatmaps intended to reduce speculative queue participation.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Explainer on the Interconnection Final Rule",
+          "url": "https://www.ferc.gov/explainer-interconnection-final-rule"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_49a6d20d0f91b3d23a8b",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-22T22:58:15.861687+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use DOE queue data, ISO/RTO interconnection postings, FERC heatmaps, and county property records to create a sample of 25 projects in one ISO. Publish the methodology and contact project developers, storage integrators, and infrastructure investors with the sample. Falsify if at least 10 relevant organizations do not request the sample, identify errors, or agree to a paid pilot at any stated price.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Developers, lenders, and equipment providers face a large screening problem: distinguishing projects with credible site control, queue progress, and transmission feasibility from speculative queue inventory.",
+      "title": "Interconnection-queue readiness dataset for battery and hybrid projects",
+      "type": "data_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "A narrowly scoped, regularly updated dataset ranking battery and solar-plus-storage projects by observable readiness indicators, sold as a downloadable project-screening file or paid alert feed. No buyer, price, or conversion rate is assumed.",
       "verified_sales": null,
       "vertical": "energy_infrastructure",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
@@ -7607,60 +7715,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-16T04:22:38.300776+00:00",
-      "discovery_lens": "nfc_smart_commerce",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "A Chilean vendor publicly lists NFC business stands, restaurant placards, Google-review products, prices, volume pricing, online purchase, and shipping within Chile.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "Tarjetas NFC Chile — tarjetas, stands y productos para restaurantes con precios publicados",
-          "url": "https://tarjetas-nfc.com/"
-        },
-        {
-          "claim": "A second Chilean vendor publicly lists NFC business stands and cards with retail prices and a business-oriented sales route.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "Soluciones NFC para negocios en Chile | ONDDA",
-          "url": "https://www.ondda.cl/"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.88,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_931a74c26757b6e74ee3",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-16T04:22:38.313097+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Buy one or two existing Chilean restaurant NFC products at the listed retail price, install them in a consenting independent restaurant or a personally controlled venue, and run a 7-day A/B test: NFC/QR placard versus the restaurant's existing sign. Measure scans, landing-page visits, menu clicks, and review-page clicks using separate URLs. Do not claim review uplift or recurring revenue unless the pilot produces it. The lowest-cost falsification step is to ask 10 nearby restaurants for permission to place one free prototype for one week; stop if fewer than 2 agree or if taps are negligible. Distribution is direct local outreach to restaurant owners/managers, not an assumed marketplace partnership.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "The opportunity is not novel NFC hardware; it is a narrowly testable replacement for printed table signage where the operator can measure taps, menu visits, and review-page visits. Existing supply and visible prices reduce hardware and willingness-to-pay uncertainty, but also indicate commodity competition.",
-      "title": "Pilot NFC table placards for review capture and menu recovery in independent Chilean restaurants",
-      "type": "physical_product_with_measurable_conversion",
-      "unknowns": [],
-      "value_capture_mechanism": "Sell or resell a small batch of branded NFC-plus-QR table placards, with a simple redirect page that separates menu visits from review-page visits. The economic mechanism is a one-time hardware sale plus an optional recurring fee only if the restaurant values reporting or editable destinations. No recurring willingness-to-pay is established by the evidence.",
-      "verified_sales": null,
-      "vertical": "chile_localization",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-22T00:23:58.711347+00:00",
       "discovery_lens": "energy_localization",
       "estimated_capital": "",
@@ -8147,6 +8201,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-22T22:58:15.833365+00:00",
+      "discovery_lens": "tokenization_finance",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "SEC-filed testimony reports production tokenized-security transactions processed by DTCC with more than 30 financial institutions and describes Treasury/repo DvP, equity DvP, securities lending, collateral pledges, token transfers, and CCP-margin workflows.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Written Testimony on Wall Street Blockchain and Digital Asset Infrastructure",
+          "url": "https://www.sec.gov/files/cft-written-wall-street-blockchain-august-2026.pdf"
+        },
+        {
+          "claim": "The SEC states that tokenized securities remain subject to securities regulation and identifies settlement modernization, ownership visibility, and corporate-action processes as relevant tokenization effects.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Remarks at the Asset Management Derivatives Forum 2026: Treasuries and Tokenization",
+          "url": "https://www.sec.gov/newsroom/speeches-statements/uyeda-remarks-asset-management-derivatives-forum-020926"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.78,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_9bafd4dcad1184f971fd",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-22T22:58:15.861850+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use the SEC-cited workflow list to select one process, such as collateral-pledge reconciliation. Build a local prototype using synthetic records and publicly documented transaction schemas, then request a technical discovery call or sandbox documentation from relevant market-infrastructure participants. Falsify if the workflow cannot be reproduced with public documentation or if three qualified practitioners do not confirm that the reconciliation problem exists and is materially manual.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The executable wedge is not issuing a token or selling investment advice; it is testing whether a small compliance, reconciliation, or transaction-monitoring utility can reduce manual work around a specific tokenized-collateral workflow.",
+      "title": "Tokenized-collateral operational test around DTCC production launch",
+      "type": "market_participation",
+      "unknowns": [],
+      "value_capture_mechanism": "A narrowly defined software utility that reconciles wallet/ledger events with conventional custody or collateral records, initially demonstrated against public test data or a sandbox. No production access, buyer, pricing, or regulatory permission is assumed.",
+      "verified_sales": null,
+      "vertical": "public_markets",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-16T20:18:25.723823+00:00",
       "discovery_lens": "tokenization_finance",
       "estimated_capital": "",
@@ -8254,13 +8362,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-22T19:45:10.479855+00:00",
+  "generated_at": "2026-10-22T22:58:40.612409+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 61,
+  "rejected_excluded": 62,
   "reviewed_cards": 55,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 178,
-  "watch": 117
+  "total_distinct_opportunities": 181,
+  "watch": 119
 }

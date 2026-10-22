@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-22T19:45:10.479855+00:00
+Generated: 2026-10-22T22:58:40.612409+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 117 (0 HQ survivors, 117 watches)
-- Rejected opportunities excluded: 61
+- Active research: 119 (0 HQ survivors, 119 watches)
+- Rejected opportunities excluded: 62
 - Critic-and-judge reviewed: 55
 - Autonomous execution authorization: 0
 
@@ -903,6 +903,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.coordinador.cl/wp-content/uploads/2026/04/Informe-Monitoreo-2025.pdf; https://www.coordinador.cl/presentaciones/informe-monitoreo-de-la-competencia-en-el-mercado-electrico-2025/
 
+### Critical-mineral recycling feedstock locator focused on discarded electronics [opp_4ac887930a777d12d31b]
+- Status: WATCH_REQUIRES_VALIDATION | physical_distribution | United States
+- Thesis: A small operator can test whether a geographically concentrated stream of discarded electronics or industrial scrap can be aggregated, documented, and routed to an existing licensed processor rather than attempting to build a refinery.
+- Value capture: A documented feedstock-aggregation route: obtain material from one identifiable institutional source, sort and record composition, then sell or transfer it to an existing recycler or processor under its stated acceptance terms. Revenue, price, and acceptance are unknown until verified.
+- Participation hypothesis: Select one material stream—such as discarded electronics from a university, repair network, or municipal program—and obtain written permission for a 30-day collection test. Contact three licensed recyclers or processors and request their current accepted-material specifications, minimum lot size, assay requirements, and purchase terms. Stop if no processor provides written acceptance criteria or if collection permission cannot be obtained without material cost.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.gao.gov/products/gao-26-108687; https://www.iea.org/reports/global-critical-minerals-outlook-2026
+
 ### Energy-audit and retrofit origination for Chilean medium-sized firms [opp_a78174a5084ecf85fdd7]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile, initially regions with industrial, commercial or tourism energy users
 - Thesis: The identifiable opportunity is not generic consulting: it is a narrowly scoped lead-generation, pre-audit and project-packaging service that helps eligible firms assemble an auditable list of electricity, thermal and self-generation measures suitable for subsidy, ESCO financing or contractor bidding.
@@ -972,6 +982,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.energy.gov/documents/craig-order-202-26-31-pios-exhibits-3-01-3-07-july-24-2026; https://www.energy.gov/documents/motion-intervene-motion-clarification-and-request-rehearing-and-stay-public-interest-36
+
+### Interconnection-queue readiness dataset for battery and hybrid projects [opp_49a6d20d0f91b3d23a8b]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States
+- Thesis: Developers, lenders, and equipment providers face a large screening problem: distinguishing projects with credible site control, queue progress, and transmission feasibility from speculative queue inventory.
+- Value capture: A narrowly scoped, regularly updated dataset ranking battery and solar-plus-storage projects by observable readiness indicators, sold as a downloadable project-screening file or paid alert feed. No buyer, price, or conversion rate is assumed.
+- Participation hypothesis: Use DOE queue data, ISO/RTO interconnection postings, FERC heatmaps, and county property records to create a sample of 25 projects in one ISO. Publish the methodology and contact project developers, storage integrators, and infrastructure investors with the sample. Falsify if at least 10 relevant organizations do not request the sample, identify errors, or agree to a paid pilot at any stated price.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.energy.gov/documents/craig-order-202-26-31-pios-exhibits-3-01-3-07-july-24-2026; https://www.ferc.gov/explainer-interconnection-final-rule
 
 ### Licensed AI-agent incident dataset with spend-control benchmark [opp_63db3fa3330ccbc1a03e]
 - Status: WATCH_REQUIRES_VALIDATION | innovation_adoption | Global
@@ -1063,16 +1083,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://github.com/aks-builds/agentsave; https://github.com/use-ash/apex
 
-### Pilot NFC table placards for review capture and menu recovery in independent Chilean restaurants [opp_931a74c26757b6e74ee3]
-- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
-- Thesis: The opportunity is not novel NFC hardware; it is a narrowly testable replacement for printed table signage where the operator can measure taps, menu visits, and review-page visits. Existing supply and visible prices reduce hardware and willingness-to-pay uncertainty, but also indicate commodity competition.
-- Value capture: Sell or resell a small batch of branded NFC-plus-QR table placards, with a simple redirect page that separates menu visits from review-page visits. The economic mechanism is a one-time hardware sale plus an optional recurring fee only if the restaurant values reporting or editable destinations. No recurring willingness-to-pay is established by the evidence.
-- Participation hypothesis: Buy one or two existing Chilean restaurant NFC products at the listed retail price, install them in a consenting independent restaurant or a personally controlled venue, and run a 7-day A/B test: NFC/QR placard versus the restaurant's existing sign. Measure scans, landing-page visits, menu clicks, and review-page clicks using separate URLs. Do not claim review uplift or recurring revenue unless the pilot produces it. The lowest-cost falsification step is to ask 10 nearby restaurants for permission to place one free prototype for one week; stop
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://tarjetas-nfc.com/; https://www.ondda.cl/
-
 ### PMGD battery-congestion screening and dispatch-rights data product [opp_e28d4caaa77e09a2caa9]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile, initially zonal transmission-constrained areas with PMGD concentration
 - Thesis: A PMGD owner or developer may need a low-cost way to screen whether adding a battery can reduce restricted-hour exposure, improve dispatchability, or avoid pursuing a connection configuration that is operationally constrained. The evidence supports a congestion-screening problem, but does not establish that any particular project will be profitable.
@@ -1162,6 +1172,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.bis.org/media-releases/20250624-next-generation-monetary-and-financial-system-takes-shape-based-tokenised-unified-ledger-bis; https://www.bis.org/publications/aer-2025/next-generation-monetary-financial-system
+
+### Tokenized-collateral operational test around DTCC production launch [opp_9bafd4dcad1184f971fd]
+- Status: WATCH_REQUIRES_VALIDATION | public_markets | United States
+- Thesis: The executable wedge is not issuing a token or selling investment advice; it is testing whether a small compliance, reconciliation, or transaction-monitoring utility can reduce manual work around a specific tokenized-collateral workflow.
+- Value capture: A narrowly defined software utility that reconciles wallet/ledger events with conventional custody or collateral records, initially demonstrated against public test data or a sandbox. No production access, buyer, pricing, or regulatory permission is assumed.
+- Participation hypothesis: Use the SEC-cited workflow list to select one process, such as collateral-pledge reconciliation. Build a local prototype using synthetic records and publicly documented transaction schemas, then request a technical discovery call or sandbox documentation from relevant market-infrastructure participants. Falsify if the workflow cannot be reproduced with public documentation or if three qualified practitioners do not confirm that the reconciliation problem exists and is materially manual.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sec.gov/files/cft-written-wall-street-blockchain-august-2026.pdf; https://www.sec.gov/newsroom/speeches-statements/uyeda-remarks-asset-management-derivatives-forum-020926
 
 ### Tokenized-securities operational adapter for DTC Participants [opp_711ad4fbffe9d21b5212]
 - Status: WATCH_REQUIRES_VALIDATION | public_markets | United States

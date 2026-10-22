@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 117
+Candidates: 119
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -75,18 +75,6 @@ Candidates: 117
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.ondda.cl/; https://www.aither.cl/tap/
-
-## Pilot NFC table placards for review capture and menu recovery in independent Chilean restaurants
-- Status: watch | chile_localization
-- Current idea: The opportunity is not novel NFC hardware; it is a narrowly testable replacement for printed table signage where the operator can measure taps, menu visits, and review-page visits. Existing supply and visible prices reduce hardware and willingness-to-pay uncertainty, but also indicate commodity competition.
-- Potential economic capture: Sell or resell a small batch of branded NFC-plus-QR table placards, with a simple redirect page that separates menu visits from review-page visits. The economic mechanism is a one-time hardware sale plus an optional recurring fee only if the restaurant values reporting or editable destinations. No recurring willingness-to-pay is established by the evidence.
-- **Research routes to test (NOT validated claims):**
-  - Find the smallest Chilean workflow whose economics differ from the original geography.
-  - Secure lawful access, partners and after-sales support rather than copy protected technology.
-  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://tarjetas-nfc.com/; https://www.ondda.cl/
 
 ## SII sales-and-purchases exception dashboard for small accounting firms
 - Status: watch | chile_localization
@@ -315,6 +303,18 @@ Candidates: 117
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.energy.gov/documents/craig-order-202-26-31-pios-exhibits-3-01-3-07-july-24-2026; https://www.energy.gov/documents/motion-intervene-motion-clarification-and-request-rehearing-and-stay-public-interest-36
+
+## Interconnection-queue readiness dataset for battery and hybrid projects
+- Status: watch | energy_infrastructure
+- Current idea: Developers, lenders, and equipment providers face a large screening problem: distinguishing projects with credible site control, queue progress, and transmission feasibility from speculative queue inventory.
+- Potential economic capture: A narrowly scoped, regularly updated dataset ranking battery and solar-plus-storage projects by observable readiness indicators, sold as a downloadable project-screening file or paid alert feed. No buyer, price, or conversion rate is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.energy.gov/documents/craig-order-202-26-31-pios-exhibits-3-01-3-07-july-24-2026; https://www.ferc.gov/explainer-interconnection-final-rule
 
 ## NYISO DER enrollment and telemetry wedge for 10–100 kW commercial assets
 - Status: watch | energy_infrastructure
@@ -1132,6 +1132,18 @@ Candidates: 117
 - Possible initial budget:
 - Source URLs: https://www.sec.gov/Archives/edgar/data/843781/000003014626000437/cik0000843781_102708.htm; https://www.sec.gov/Archives/edgar/data/831114/000139834426000957/fp0097248-1_40app.htm
 
+## Critical-mineral recycling feedstock locator focused on discarded electronics
+- Status: watch | physical_distribution
+- Current idea: A small operator can test whether a geographically concentrated stream of discarded electronics or industrial scrap can be aggregated, documented, and routed to an existing licensed processor rather than attempting to build a refinery.
+- Potential economic capture: A documented feedstock-aggregation route: obtain material from one identifiable institutional source, sort and record composition, then sell or transfer it to an existing recycler or processor under its stated acceptance terms. Revenue, price, and acceptance are unknown until verified.
+- **Research routes to test (NOT validated claims):**
+  - Compare local product availability to supplier catalogs and independent consumer interest.
+  - Check import, tax, return, certification and delivery economics before estimating margin.
+  - Try a legitimate pre-order/waitlist test with transparent fulfillment conditions.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.gao.gov/products/gao-26-108687; https://www.iea.org/reports/global-critical-minerals-outlook-2026
+
 ## Natura Chile catalog and corporate-gifting wedge across Natura.cl and Falabella.com
 - Status: watch | physical_distribution
 - Current idea: The testable opportunity is not generic private label: it is a narrow price, availability, and assortment comparison for selected Natura products, followed by a compliant corporate-gifting or local fulfillment offer if the operator can obtain permission to resell or refer customers. The observable mechanism is channel fragmentation and promotional price variation, but no arbitrage profit should be assumed until checkout-level costs and marketplace rules are verified.
@@ -1239,6 +1251,18 @@ Candidates: 117
 - Critical gaps: Current share price, market capitalization, enterprise value, and valuation relative to realistic fiscal 2027-2030 revenue and free cash flow.; Fiscal Q3 2026 revenue recognition, backlog balance, gross margin, operating cash flow, free cash flow, and deployment slippage.; Whether backlog growth is incremental, reclassified, or predominantly extensions of Walmart and GreenBox commitments.
 - Possible initial budget:
 - Source URLs: https://www.sec.gov/Archives/edgar/data/0001837240/000119312526015495/ars_2025.pdf; https://ebs.publicnow.com/view/9A4CD81A9D4548A36FCD237CFB7E0DF8C5100E09
+
+## Tokenized-collateral operational test around DTCC production launch
+- Status: watch | public_markets
+- Current idea: The executable wedge is not issuing a token or selling investment advice; it is testing whether a small compliance, reconciliation, or transaction-monitoring utility can reduce manual work around a specific tokenized-collateral workflow.
+- Potential economic capture: A narrowly defined software utility that reconciles wallet/ledger events with conventional custody or collateral records, initially demonstrated against public test data or a sandbox. No production access, buyer, pricing, or regulatory permission is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Find overlooked fundamentals and a named accessible security with dated primary filings.
+  - Compare risked intrinsic value, market expectations and specific downside scenarios.
+  - Define catalysts and invalidation thresholds before any governed investment decision.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.sec.gov/files/cft-written-wall-street-blockchain-august-2026.pdf; https://www.sec.gov/newsroom/speeches-statements/uyeda-remarks-asset-management-derivatives-forum-020926
 
 ## Tokenized-securities operational adapter for DTC Participants
 - Status: watch | public_markets
