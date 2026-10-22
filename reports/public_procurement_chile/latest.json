@@ -1,37 +1,207 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 900000.0,
-      "buyer": "FONDO HOSPITAL DE LA DIRECCION DE PREVISION DE CARABINEROS DE CHILE",
-      "closes_at": "2026-10-23T10:54:00",
-      "code": "948354-348-COT26",
-      "estimated_budget": 900000.0,
-      "name": "Adquisición de Soportes para Veladores de Paciente del Hospital de la Dirección de Previsión de Carabineros de Chile",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 2100000.0,
-      "buyer": "UNIVERSIDAD DE CHILE",
-      "closes_at": "2026-10-24T09:43:00",
-      "code": "5153-1959-COT26",
-      "estimated_budget": 2100000.0,
-      "name": "IMB_REGULADOR DE OXIGENO PORTATIL_MM731",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 1700000.0,
-      "buyer": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUR",
-      "closes_at": "2026-10-23T10:55:00",
-      "code": "1422825-1207-COT26",
-      "estimated_budget": 1700000.0,
-      "name": "(RCP) Repuestos para Mesa Quirúrgica marca Trumpf modelo Saturn 3.02",
+      "available_budget_clp": 4879000.0,
+      "buyer": "Servicio Local de Educación Pública Licancabur",
+      "closes_at": "2026-10-26T15:00:00",
+      "code": "1233623-939-COT26",
+      "estimated_budget": 4879000.0,
+      "name": "ADQUISICION DE TOLDOS PARA EL LICEO CESAREO AGUIRRE DE CALAMA",
       "products": 2,
+      "region": "Región de Antofagasta"
+    },
+    {
+      "available_budget_clp": 3000000.0,
+      "buyer": "Centro de Educación y Trabajo Colina 1",
+      "closes_at": "2026-10-23T17:10:00",
+      "code": "1172953-335-COT26",
+      "estimated_budget": 3000000.0,
+      "name": "ADQUISICIÓN MATERIALES  TALLER CERRAJERÍAERÍA CET COLINA 1",
+      "products": 15,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 150745.0,
+      "buyer": "Plan Buen Vivir",
+      "closes_at": "2026-10-23T17:15:00",
+      "code": "1457776-21-COT26",
+      "estimated_budget": 150745.0,
+      "name": "PBV - Adquisición de materiales de oficina (Metropolitana)",
+      "products": 13,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 500000.0,
+      "buyer": "I MUNICIPALIDAD DE CABILDO",
+      "closes_at": "2026-10-23T17:10:00",
+      "code": "3621-387-COT26",
+      "estimated_budget": 500000.0,
+      "name": "COMPRA DE TELAS",
+      "products": 1,
       "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 180000.0,
+      "buyer": "Servicio Nacional de Pesca y Acuicultura",
+      "closes_at": "2026-10-23T17:30:00",
+      "code": "1988-30-COT26",
+      "estimated_budget": 180000.0,
+      "name": "Insumos y repuestos computacionales, para impresoras de la Dirección Regional de Magallanes y de la Antártica Chilena, del Servicio Nacional de Pesca y Acuicultura.",
+      "products": 2,
+      "region": "Región de Magallanes y de la Antártica"
+    },
+    {
+      "available_budget_clp": 3500000.0,
+      "buyer": "I MUNICIPALIDAD DE CHILE CHICO",
+      "closes_at": "2026-10-26T15:00:00",
+      "code": "4609-291-COT26",
+      "estimated_budget": 3500000.0,
+      "name": "REPUESTOS EQUIPO PESADO",
+      "products": 5,
+      "region": "Región Aysén del General Carlos Ibáñez del Campo"
+    },
+    {
+      "available_budget_clp": 1200000.0,
+      "buyer": "I MUNICIPALIDAD DE NUEVA IMPERIAL",
+      "closes_at": "2026-10-26T13:00:00",
+      "code": "3485-1062-COT26",
+      "estimated_budget": 1200000.0,
+      "name": "ALIMENTOS PARA PERROS",
+      "products": 1,
+      "region": "Región de la Araucanía"
+    },
+    {
+      "available_budget_clp": 120000.0,
+      "buyer": "I MUNICIPALIDAD DE LA CISTERNA",
+      "closes_at": "2026-10-24T15:00:00",
+      "code": "2765-562-COT26",
+      "estimated_budget": 120000.0,
+      "name": "Adq. de protector solar - DIDESO",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 600000.0,
+      "buyer": "SERVICIO DE SALUD VINA DEL MAR QUILLOTA",
+      "closes_at": "2026-10-23T17:15:00",
+      "code": "1702-480-COT26",
+      "estimated_budget": 600000.0,
+      "name": "LABORATORIO, TIRAS REACTIVAS ORINA",
+      "products": 1,
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 7215100.0,
+      "buyer": "UNIVERSIDAD DE CHILE",
+      "closes_at": "2026-10-23T17:15:00",
+      "code": "5153-2012-COT26",
+      "estimated_budget": 7215100.0,
+      "name": "IMB_SERVICIO DE GESTIÓN DE FILAS Y CAPACIDAD DE AUTOPAGO",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 860000.0,
+      "buyer": "SERPLAC XI Región",
+      "closes_at": "2026-10-27T09:00:00",
+      "code": "1458-26-COT26",
+      "estimated_budget": 860000.0,
+      "name": "Adquisición de Kerosene para calefacción",
+      "products": 1,
+      "region": "Región Aysén del General Carlos Ibáñez del Campo"
+    },
+    {
+      "available_budget_clp": 1071000.0,
+      "buyer": "HOSPITAL CLAUDIO VICUNA",
+      "closes_at": "2026-10-26T15:00:00",
+      "code": "898-1256-COT26",
+      "estimated_budget": 1071000.0,
+      "name": "Adquisición de cables de presión invasiva",
+      "products": 1,
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 1000000.0,
+      "buyer": "I MUNICIPALIDAD PEDRO AGUIRRE CERDA",
+      "closes_at": "2026-10-24T15:00:00",
+      "code": "2395-1053-COT26",
+      "estimated_budget": 1000000.0,
+      "name": "(Sol. Ped. 976) Material de Ferreteria , Programa MAIS, CESFAM Amador Neghme",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 3000000.0,
+      "buyer": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL",
+      "closes_at": "2026-10-27T10:00:00",
+      "code": "509876-62-COT26",
+      "estimated_budget": 3000000.0,
+      "name": "Servicio producción actividades educación patrimonial SERPAT LOS RIOS",
+      "products": 1,
+      "region": "Región de Los Ríos"
+    },
+    {
+      "available_budget_clp": 1300000.0,
+      "buyer": "UNIVERSIDAD DE SANTIAGO DE CHILE",
+      "closes_at": "2026-10-23T17:30:00",
+      "code": "867990-722-COT26",
+      "estimated_budget": 1300000.0,
+      "name": "Sol.93780 CC102 / Contratación de Servicio de Impresión (Regalos Publicitarios)",
+      "products": 3,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 3500000.0,
+      "buyer": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+      "closes_at": "2026-10-26T09:00:00",
+      "code": "979-138-COT26",
+      "estimated_budget": 3500000.0,
+      "name": "Adquisición de un Dron para la Dirección de Vialidad",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 550000.0,
+      "buyer": "I MUNICIPALIDAD DE PADRE LAS CASAS",
+      "closes_at": "2026-10-26T18:00:00",
+      "code": "2548-300-COT26",
+      "estimated_budget": 550000.0,
+      "name": "CONTRATACIÓN DE SERVICIOS HABILITACIÓN PUERTA DE ALUMINIO, EDIFICIO VILLA ALEGRE, COMUNA DE PADRE LAS CASAS",
+      "products": 1,
+      "region": "Región de la Araucanía"
+    },
+    {
+      "available_budget_clp": 60000.0,
+      "buyer": "SERVICIO DE SALUD COQUIMBO HOSPITAL LA SERENA",
+      "closes_at": "2026-10-26T10:00:00",
+      "code": "1057439-5823-COT26",
+      "estimated_budget": 60000.0,
+      "name": "Tapones auditivos reutilizables",
+      "products": 1,
+      "region": "Región de Coquimbo"
+    },
+    {
+      "available_budget_clp": 300000.0,
+      "buyer": "I MUNICIPALIDAD DE LOS LAGOS",
+      "closes_at": "2026-10-26T16:00:00",
+      "code": "1723-273-COT26",
+      "estimated_budget": 300000.0,
+      "name": "15 galvanos, según términos adjuntos",
+      "products": 1,
+      "region": "Región de Los Ríos"
+    },
+    {
+      "available_budget_clp": 1500000.0,
+      "buyer": "SERVICIO DE SALUD ARAUCANIA NORTE HOSPITAL DE ANGOL",
+      "closes_at": "2026-10-23T17:30:00",
+      "code": "1075337-2120-COT26",
+      "estimated_budget": 1500000.0,
+      "name": "jli Compra Servicios de Coffe Break para Capacitación",
+      "products": 1,
+      "region": "Región de la Araucanía"
     }
   ],
-  "active_structurally_reconstructable_count": 3,
+  "active_structurally_reconstructable_count": 20,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -49,24 +219,22 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-10-22T13:54:47Z",
+  "generated_at": "2026-10-22T20:12:34Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
   "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
   "phase1": {
     "records": 20,
-    "rejection_reasons": {
-      "no_observable_competitive_prices": 8
-    },
-    "resolved": 17,
-    "structurally_reconstructable": 12,
-    "with_observable_quote_totals": 9,
-    "with_purchase_order_indicator": 5
+    "rejection_reasons": {},
+    "resolved": 0,
+    "structurally_reconstructable": 20,
+    "with_observable_quote_totals": 0,
+    "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-22T13:54:47Z"
+    "changed_to": "2026-10-22T20:12:34Z"
   }
 }
