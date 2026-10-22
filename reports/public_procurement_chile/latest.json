@@ -1,33 +1,33 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 2200000.0,
-      "buyer": "UNIVERSIDAD DE VALPARAISO",
-      "closes_at": "2026-10-23T10:00:00",
-      "code": "4895-257-COT26",
-      "estimated_budget": 2200000.0,
-      "name": "SOLICITUD DE COTIZACION COMPRA DE MATERIALES DE TALLER PARA LA ESCUELA DE OBSTETRICIA Y PUERICULTURA",
-      "products": 24,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 2080000.0,
-      "buyer": "UNIVERSIDAD DE VALPARAISO",
-      "closes_at": "2026-10-23T17:00:00",
-      "code": "633470-178-COT26",
-      "estimated_budget": 2080000.0,
-      "name": "Adquisición de sillas, escritorios y cajoneras - Escuela de Ingeniería Oceánica - Facultad de Ingeniería",
-      "products": 5,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 1500000.0,
-      "buyer": "UNIVERSIDAD DE VALPARAISO",
-      "closes_at": "2026-10-23T17:00:00",
-      "code": "633470-179-COT26",
-      "estimated_budget": 1500000.0,
-      "name": "Adquisición de sillas altas regulables - Escuela de Ingeniería Civil Biomédica - Facultad de Ingeniería",
+      "available_budget_clp": 900000.0,
+      "buyer": "FONDO HOSPITAL DE LA DIRECCION DE PREVISION DE CARABINEROS DE CHILE",
+      "closes_at": "2026-10-23T10:54:00",
+      "code": "948354-348-COT26",
+      "estimated_budget": 900000.0,
+      "name": "Adquisición de Soportes para Veladores de Paciente del Hospital de la Dirección de Previsión de Carabineros de Chile",
       "products": 1,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 2100000.0,
+      "buyer": "UNIVERSIDAD DE CHILE",
+      "closes_at": "2026-10-24T09:43:00",
+      "code": "5153-1959-COT26",
+      "estimated_budget": 2100000.0,
+      "name": "IMB_REGULADOR DE OXIGENO PORTATIL_MM731",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 1700000.0,
+      "buyer": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUR",
+      "closes_at": "2026-10-23T10:55:00",
+      "code": "1422825-1207-COT26",
+      "estimated_budget": 1700000.0,
+      "name": "(RCP) Repuestos para Mesa Quirúrgica marca Trumpf modelo Saturn 3.02",
+      "products": 2,
       "region": "Región de Valparaíso"
     }
   ],
@@ -49,7 +49,7 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-10-22T04:54:28Z",
+  "generated_at": "2026-10-22T13:54:47Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -57,16 +57,16 @@
   "phase1": {
     "records": 20,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 1
+      "no_observable_competitive_prices": 8
     },
     "resolved": 17,
-    "structurally_reconstructable": 19,
-    "with_observable_quote_totals": 16,
-    "with_purchase_order_indicator": 2
+    "structurally_reconstructable": 12,
+    "with_observable_quote_totals": 9,
+    "with_purchase_order_indicator": 5
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-22T04:54:28Z"
+    "changed_to": "2026-10-22T13:54:47Z"
   }
 }
