@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-22T04:26:22.601607+00:00
+Generated: 2026-10-22T13:28:12.202287+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['remote_paid_evaluation', 'inventoryless_product_validation', 'fixed_scope_paid_research_asset']
-- raw_candidates: 3
-- parseable_candidates: 3
-- normalized_candidates: 3
+- lenses: ['geographic_arbitrage', 'ai_open_source', 'public_markets']
+- raw_candidates: 2
+- parseable_candidates: 2
+- normalized_candidates: 2
 - normalization_rejected: 0
-- grounded_sources: 6
+- grounded_sources: 5
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
 - critic_reviews: 1
 - judge_reviews: 1
 - survivors: 0
-- watches: 2
-- rejected: 1
+- watches: 3
+- rejected: 0
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.05619395
+- cost_usd: 0.0578091
 - cost_uncertain: False
-- budget_remaining_usd: 0.02380605
+- budget_remaining_usd: 0.0221909
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,8 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Chile Open-Finance conformance harness before July 2027 implementation: deferred_by_review_cap
-- Licensed AI-agent incident dataset with spend-control benchmark: deferred_by_review_cap
 - Small-scale storage and control feasibility wedge for Chilean distributed generators: deferred_by_review_cap
 - Spanish e-commerce search-result rater — Welo Data: deferred_by_review_cap
 - Chilean Spanish speech-data recording project — CrowdGen by Appen: deferred_by_review_cap
@@ -51,13 +49,15 @@ No survivors. Scout does not manufacture a daily winner.
 - PMGD battery-congestion screening and dispatch-rights data product: deferred_by_review_cap
 - Apply for Spanish AI-training projects available to Chile residents: deferred_by_review_cap
 - TELUS Digital Online Data Analyst — Chile: deferred_by_review_cap
+- Chile Open Finance conformance and integration test harness: deferred_by_review_cap
+- Local-first Chilean DTE invoice reconciliation and exception review: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=fresh",
-    "research_queue_unreviewed=54"
+    "deep_review_lane=backlog",
+    "research_queue_unreviewed=55"
   ],
   "stages": [
     {
@@ -65,35 +65,83 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 27,
+      "grounded_source_count": 75,
       "search_source_urls": [
-        "https://app.outlier.ai/login?job_post_id=4476998005",
-        "https://app.outlier.ai/opportunities/4492261005",
-        "https://app.outlier.ai/opportunities/4522871005",
-        "https://cdn.blue.stag.prolific.com/Prolific_Brand_Guidelines_c954066b8c.pdf",
-        "https://jobs.telusdigital.com/bs_BA/MoroccoCareers/PipelineDetail/Internet-Domain-Assessor-Spanish-Speakers-in-Chile/71900",
-        "https://jobs.telusdigital.com/fr/search/jobs/in/chile?cfm5=AI+Community&ns_category=ai-community",
-        "https://jobs.telusdigital.com/search/cfm3/russian-spanish/cfm5/ai-community/jobs?ns_category=artificial-intelligence",
-        "https://jobs.telusdigital.com/search/jobs/in/chile?cfm5=AI+Community&ns_category=ai-community",
-        "https://media.prolific.com/Press_Release_Prolific_announces_25m_funding_to_improve_AI_systems_with_high_quality_verifiable_human_insights_20230712_b631c0dce3.pdf",
-        "https://outlier.ai/faq",
-        "https://participant-help.prolific.com/en/articles/445007-who-can-participate-in-studies-on-prolific",
-        "https://participant-help.prolific.com/en/articles/445013-does-my-phone-number-need-to-correspond-to-my-country-of-residence",
-        "https://participant-help.prolific.com/en/articles/445043-underpaying-studies",
-        "https://participant-help.prolific.com/en/articles/445046-can-i-access-studies-while-on-holiday-abroad",
-        "https://participant-help.prolific.com/en/articles/445055-how-do-i-connect-my-paypal-to-my-prolific-account",
-        "https://participant-help.prolific.com/en/articles/445057-how-do-currencies-work-on-prolific",
-        "https://participant-help.prolific.com/en/articles/445062-how-do-i-cash-out-on-prolific",
-        "https://participant-help.prolific.com/en/articles/445064-i-m-having-issues-cashing-out",
-        "https://participant-help.prolific.com/en/articles/445071-how-much-have-i-earned-from-prolific-and-do-i-have-to-pay-tax",
-        "https://participant-help.prolific.com/en/articles/445079-i-m-moving-countries-can-i-keep-my-account",
-        "https://participant-help.prolific.com/en/articles/580553-verification-and-onboarding-guide",
-        "https://participant-help.prolific.com/en/articles/768112-how-do-i-unlock-language-studies",
-        "https://www.prolific.com/blog/top-tips-for-study-success-sharing-insider-knowledge-from-the-researcher-support-team/",
-        "https://www.prolific.com/participants-frequently-asked-questions",
-        "https://www.prolific.com/participants-how-it-works",
-        "https://www.telusdigital.com/media/data-collection.pdf",
-        "https://www.telusdigital.com/media/nelsonhall-neat-evaluation-content-moderation.pdf"
+        "https://arxiv.org/abs/0905.2480",
+        "https://arxiv.org/abs/1010.6280",
+        "https://arxiv.org/abs/1412.1535",
+        "https://arxiv.org/abs/1911.01280",
+        "https://arxiv.org/abs/2005.03843",
+        "https://arxiv.org/abs/2111.04427",
+        "https://arxiv.org/abs/2410.00705",
+        "https://arxiv.org/abs/2609.04356",
+        "https://cmfchile.cl/portal/principal/613/articles-86830_recurso_2.pdf",
+        "https://en.wikipedia.org/wiki/Economy_of_Chile",
+        "https://en.wikipedia.org/wiki/Electronic_invoicing",
+        "https://es.wikipedia.org/wiki/Factura",
+        "https://es.wikipedia.org/wiki/Factura_electr%C3%B3nica",
+        "https://es.wikipedia.org/wiki/LibreDTE",
+        "https://github.com/KazKozDev/docket",
+        "https://github.com/Leop007/ocr.ai",
+        "https://github.com/Rayaanxrio/DocExtract",
+        "https://github.com/kotiniiqq/offline-doc-extractor",
+        "https://github.com/renefichtmueller/PaperCortex",
+        "https://github.com/superintelligenceco/invoice-agent",
+        "https://infomemo.theocc.com/infomemos?number=59110",
+        "https://investors.optimum.com/investor-faq",
+        "https://investors.optimum.com/news-events/press-releases",
+        "https://investors.optimum.com/sec-filings/all-sec-filings/content/0001213900-26-063179/0001213900-26-063179.pdf",
+        "https://support.google.com/corporate-suppliers/answer/9936175/invoicing-requirements-by-country?cc=CL&hl=en",
+        "https://www.apec.org/apecapi/publication/getfile?publicationId=7cbe152c-5eca-48ba-8e12-ee4057661acd",
+        "https://www.chileatiende.gob.cl/fichas/13505-emision-desde-portal-mipyme-de-documentos-tributarios-electronicos-dte",
+        "https://www.cmfchile.cl/normativa/ncg_569_2026.pdf",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-99098_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/principal/613/articles-108813_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.odepa.gob.cl/estadisticas-del-sector/precios-internacionales",
+        "https://www.oecd.org/content/dam/oecd/en/publications/reports/2022/09/tax-administration-3-0-and-electronic-invoicing_59ac73c5/2ffc88ed-en.pdf",
+        "https://www.reddit.com/r/AVPT/comments/1ff5a9j",
+        "https://www.reddit.com/r/EcommerceWebsite/comments/1wfqbnu/why_comparing_prices_across_regions_can_produce/",
+        "https://www.reddit.com/r/IMadeThis/comments/1rfabxz/built_a_tool_to_compare_global_product_prices/",
+        "https://www.reddit.com/r/OPTIMUM/comments/1tu0v9p/optimum_stock_jumps_68_today_june_1st/",
+        "https://www.reddit.com/r/OceanPower/comments/1q9dx7r/new_optt_investors_please_be_patient_this_is_only/",
+        "https://www.reddit.com/r/OptimumOfficial/comments/1rdue08/optimum_stock_drops_like_a_lead_balloon/",
+        "https://www.reddit.com/r/OptimumOfficial/comments/1tui8cz/optimums_temporary_stock_uptick/",
+        "https://www.reddit.com/r/StockTitan/comments/1ttq0kh/optu_optimum_subsidiary_announces_launch_of/",
+        "https://www.reddit.com/r/StockTitan/comments/1ttrmhn/top_gainers_premarket_jun_1_2026_905_am_et_optu/",
+        "https://www.reddit.com/r/StockTitan/comments/1uova3k/optu_optimum_subsidiary_announces_final_results/",
+        "https://www.reddit.com/r/Wiseek/comments/1ukkpet/optu_optimum_communications_announces_preliminary/",
+        "https://www.reddit.com/r/asklatinamerica/comments/1irk9q6",
+        "https://www.reddit.com/r/asklatinamerica/comments/1j1bhgh/deleted_by_user/",
+        "https://www.reddit.com/r/asklatinamerica/comments/1lmalyy/why_is_conosur_so_expensive/",
+        "https://www.reddit.com/r/asklatinamerica/comments/1n7yd3m",
+        "https://www.reddit.com/r/asklatinamerica/comments/d1d9s7",
+        "https://www.reddit.com/r/asklatinamerica/comments/uc5tqq",
+        "https://www.reddit.com/r/chileIT/comments/1mqixp2/set_de_prueba_del_sii_chile_rechazado_el/",
+        "https://www.reddit.com/r/chileIT/comments/1qe0iyl/ayuda_certificaci%C3%B3n_consumo_de_folios_rvd_ex_rcof/",
+        "https://www.reddit.com/r/chileIT/comments/1rhuwu3/creacion_de_factura_electronica_a_partir_de_xml/",
+        "https://www.reddit.com/r/datasets/comments/lfpicm",
+        "https://www.reddit.com/r/dropshipping/comments/1r7tgaw/if_youre_doing_dropshipping_in_latin_america_and/",
+        "https://www.reddit.com/r/ecommerce/comments/gja5l4",
+        "https://www.reddit.com/r/u_Abasto-News/comments/1x4wtbo/retail_in_latin_america_optimism_grows_prices/",
+        "https://www.sec.gov/Archives/edgar/data/1163653/000110465925033359/tm256707d54_424b2.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1477333/000147733325000069/fy202410k1.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1600620/000114036126020402/ef20072568_8k.htm",
+        "https://www.sec.gov/Archives/edgar/data/1666700/000119312526151223/d22177dars.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1702780/000121390026063161/ea029287101ex99-1.htm",
+        "https://www.sec.gov/Archives/edgar/data/1702780/000121390026063161/ea029287101ex99-3.htm",
+        "https://www.sec.gov/Archives/edgar/data/1711929/000121390026024139/0001213900-26-024139-index.html",
+        "https://www.sii.cl/destacados/factura_electronica/guias_ayuda/factura_electronica.html",
+        "https://www.sii.cl/factura_electronica/factura_sii/",
+        "https://www.sii.cl/factura_electronica/informacion.htm",
+        "https://www.sii.cl/factura_electronica/menu.htm",
+        "https://www.sii.cl/preguntas_frecuentes/factura_electronica/001_003_6625.htm",
+        "https://www.sii.gov.cl/",
+        "https://www.usitc.gov/publications/332/pub2521.pdf",
+        "https://www.youtube.com/watch?v=36AzLilfHY4",
+        "https://www.youtube.com/watch?v=Qcr9e2muiHc",
+        "https://zeus.sii.cl/IVA2000/Static/Formato_XML.html"
       ]
     },
     {
@@ -108,7 +156,7 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 2,
+      "grounded_sources": 3,
       "retry_justified": false
     },
     {
@@ -127,72 +175,65 @@ No survivors. Scout does not manufacture a daily winner.
       "retry_justified": false
     },
     {
-      "index": 2,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 2,
-      "retry_justified": false
-    },
-    {
       "stage": "critic",
-      "candidate_id": "opp_9d1ccd0ba2d8fee528af",
+      "candidate_id": "opp_1d697aded3d68db4909b",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 33,
+      "grounded_source_count": 40,
       "search_source_urls": [
-        "https://25531353.fs1.hubspotusercontent-eu1.net/hubfs/25531353/Prolific%20Participant%20Wellbeing%20Report%202024.pdf",
-        "https://25531353.fs1.hubspotusercontent-eu1.net/hubfs/25531353/Prolific%20Participant%20Wellbeing%20Report%202025%20%281%29.pdf",
-        "https://api.drum.lib.umd.edu/server/api/core/bitstreams/97d60bbf-354e-4955-8228-53aa075ab9d5/content",
-        "https://arxiv.org/abs/2201.05348",
-        "https://arxiv.org/abs/2203.14695",
-        "https://bfi.uchicago.edu/wp-content/uploads/2024/06/BFI_WP_2024-74-1.pdf",
-        "https://job-boards.greenhouse.io/prolificacademicltd/jobs/4850230101",
-        "https://participant-help.prolific.com/en/articles/445006-how-do-i-become-a-participant-on-prolific",
-        "https://participant-help.prolific.com/en/articles/445007-who-can-participate-in-studies-on-prolific",
-        "https://participant-help.prolific.com/en/articles/445024-why-am-i-not-receiving-any-studies",
-        "https://participant-help.prolific.com/en/articles/445025-why-am-i-not-seeing-studies-or-study-places-available",
-        "https://participant-help.prolific.com/en/articles/445051-limited-access",
-        "https://participant-help.prolific.com/en/articles/449632-data-deletion-notice-faq",
-        "https://participant-help.prolific.com/en/articles/455009-participating-in-and-waiting-for-studies",
-        "https://participant-help.prolific.com/en/articles/580553-verification-and-onboarding-guide",
-        "https://publications.iadb.org/publications/english/document/Measuring-the-Sources-of-Taste-Based-Discrimination-Using-List-Experiments.pdf",
-        "https://www.finder.com/make-money-online/prolific-review",
-        "https://www.nber.org/system/files/chapters/c15329/c15329.pdf",
-        "https://www.prolific.com/participants-how-it-works",
-        "https://www.reddit.com/r/ProlificAc/comments/1c4365j",
-        "https://www.reddit.com/r/ProlificAc/comments/1h2pxqn",
-        "https://www.reddit.com/r/ProlificAc/comments/1ieff6y",
-        "https://www.reddit.com/r/ProlificAc/comments/1va9ltf/only_received_one_study_after_being_on_the/",
-        "https://www.reddit.com/r/ProlificAc/comments/1w4h27g/prolific_is_offloading_and_putting_us/",
-        "https://www.reddit.com/r/beermoney/comments/1b2dfft",
-        "https://www.reddit.com/r/beermoney/comments/1cnwmby/prolific_megathread/",
-        "https://www.reddit.com/r/beermoney/comments/1frv3fz/prolific_megathread/",
-        "https://www.reddit.com/r/beermoney/comments/1jn788p",
-        "https://www.reddit.com/r/beermoney/comments/1nzlkfz/prolific_megathread/",
-        "https://www.reddit.com/r/beermoney/comments/1rzx89v/prolific_megathread/",
-        "https://www.reddit.com/r/u_Known-Activity-M8/comments/1x2qvho/prolific_needs_to_address_payments_for/",
-        "https://www.techradar.com/pro/software-services/i-tested-the-7-best-survey-and-poll-apps-to-earn-money-in-2026",
-        "https://www.trustpilot.com/review/www.prolific.com"
+        "https://apimarket.bci.cl/en/home",
+        "https://arxiv.org/abs/1901.11520",
+        "https://arxiv.org/abs/1911.01235",
+        "https://arxiv.org/abs/2003.12776",
+        "https://arxiv.org/abs/2210.01109",
+        "https://banq.ai/providers/country/cl",
+        "https://cdn3.bci.cl/uploads/e0a34688-e964-41b8-8260-8825b96cd532/original/annual-report-2021.pdf",
+        "https://en.wikipedia.org/wiki/Noda_%28company%29",
+        "https://en.wikipedia.org/wiki/Open_banking",
+        "https://en.wikipedia.org/wiki/Open_finance",
+        "https://es.wikipedia.org/wiki/Fapro",
+        "https://es.wikipedia.org/wiki/Finanzas_abiertas",
+        "https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_financiera",
+        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA",
+        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/435749124/v1.0.0%2B-%2BModelo%2Bde%2Bgobierno",
+        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/435749531/V1.0.0%2B-%2BEspecificaci%2Bn%2Bde%2BWebhooks%2BSFA",
+        "https://openfinanceconnect.cl/en/",
+        "https://sfasandbox.cl/",
+        "https://sfasandbox.cl/docs.php",
+        "https://www.bancoestado.cl/content/dam/bancoestado-public/portal-investor-relations/pdf/financial-information/annual/integrated-annual-report-bancoestado2023.pdf",
+        "https://www.bcentral.cl/documents/33528/7849961/Financial%2BStability%2BReport%2BSecond%2BHalf%2B2025.pdf/83c6bb57-4793-0438-3959-bfd68fea216f?t=1765546573527",
+        "https://www.carey.cl/en/cmf-amends-ncg-no-514-and-incorporates-technical-standards-for-the-implementation-of-the-open-finance-system",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-110411_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://www.cmfchile.cl/portal/principal/613/articles-76009_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.legal500.com/guides/chapter/chile-fintech/?export-pdf=",
+        "https://www.openbankingtracker.com/country/chile",
+        "https://www.reddit.com/r/fintech/comments/1d7grze/banks_with_apis/",
+        "https://www.reddit.com/r/fintech/comments/1faatqw/how_exactly_do_open_banking_apis_work/",
+        "https://www.reddit.com/r/fintech/comments/1hncvvk/ama_2024_review_of_fintech_app_developer_fintech/",
+        "https://www.reddit.com/r/fintech/comments/1jpa6g5/developer_friendly_fintech_apis/",
+        "https://www.reddit.com/r/fintech/comments/1jqbcj5/which_open_banking_api_is_best_for_your_fintech/",
+        "https://www.reddit.com/r/fintech/comments/1lfb39v/best_open_banking_provider_for_transactions_only/",
+        "https://www.reddit.com/r/fintech/comments/1lu7lpk",
+        "https://www.reddit.com/r/fintech/comments/1qpao4w/plaid_api_for_emerging_markets/",
+        "https://www.reddit.com/r/fintech/comments/1r1sb1s/fintech_moves_fast_but_api_testing_is_struggling/",
+        "https://www.reddit.com/r/fintech/comments/1uce8nb/removed/",
+        "https://www.reddit.com/r/fintechdev/comments/103upal/fintech_apis_directory/",
+        "https://www.reddit.com/r/fintechdev/comments/1v5fv28/what_do_you_look_for_first_when_evaluating_a/"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_9d1ccd0ba2d8fee528af",
+      "candidate_id": "opp_1d697aded3d68db4909b",
       "coercions": [
+        "critic_case",
         "contrary_evidence"
       ]
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_9d1ccd0ba2d8fee528af",
+      "candidate_id": "opp_1d697aded3d68db4909b",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -200,7 +241,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_9d1ccd0ba2d8fee528af",
+      "candidate_id": "opp_1d697aded3d68db4909b",
       "coercions": []
     }
   ],
@@ -208,44 +249,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 322,
-      "cache_write_tokens": 5328,
+      "reasoning_tokens": 407,
+      "cache_write_tokens": 5403,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0263214,
+      "cumulative_cost_usd": 0.02658255,
       "model": "gpt-5.6-luna",
-      "input_tokens": 19787,
+      "input_tokens": 22412,
       "cached_tokens": 0,
-      "output_tokens": 1748,
+      "output_tokens": 1525,
       "web_search_calls": 2,
-      "estimated_cost_usd": 0.0263214
+      "estimated_cost_usd": 0.02658255
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 129,
-      "cache_write_tokens": 5217,
+      "reasoning_tokens": 146,
+      "cache_write_tokens": 5325,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.04054545,
+      "cumulative_cost_usd": 0.0412376,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13786,
+      "input_tokens": 13766,
       "cached_tokens": 0,
-      "output_tokens": 1005,
+      "output_tokens": 1363,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01422405
+      "estimated_cost_usd": 0.01465505
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 294,
-      "cache_write_tokens": 2609,
+      "reasoning_tokens": 74,
+      "cache_write_tokens": 3463,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.05619395,
+      "cumulative_cost_usd": 0.0578091,
       "model": "gpt-5.6-terra",
-      "input_tokens": 2612,
+      "input_tokens": 3466,
       "cached_tokens": 0,
-      "output_tokens": 760,
+      "output_tokens": 659,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.0156485
+      "estimated_cost_usd": 0.0165715
     }
   ]
 }

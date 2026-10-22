@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 113
+Candidates: 115
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -39,6 +39,18 @@ Candidates: 113
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://jobs.lever.co/appen/27404a7a-4fca-42e3-bae4-072148d17dce; https://jobs.lever.co/appen/27404a7a-4fca-42e3-bae4-072148d17dce/apply?lever-source=BilingualJobs.io
+
+## Local-first Chilean DTE invoice reconciliation and exception review
+- Status: watch | chile_localization
+- Current idea: A small operator can test a narrow workflow that converts supplier DTE XML/PDF files into validated purchase records, flags discrepancies against purchase orders or accounting exports, and routes only exceptions for human review. Local processing can reduce cloud-API cost and may be useful where accounting data cannot leave the operator's infrastructure.
+- Potential economic capture: A paid pilot or per-document reconciliation service for a defined workflow; possible cash-flow source is the operator currently paying staff or an accounting provider to re-key, validate or reconcile supplier invoices. No buyer, price or margin is assumed until interviews or a paid pilot confirm it.
+- **Research routes to test (NOT validated claims):**
+  - Find the smallest Chilean workflow whose economics differ from the original geography.
+  - Secure lawful access, partners and after-sales support rather than copy protected technology.
+  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://github.com/Rayaanxrio/DocExtract; https://www.sii.cl/destacados/factura_electronica/guias_ayuda/factura_electronica.html; https://zeus.sii.cl/IVA2000/Static/Formato_XML.html
 
 ## NFC review-and-contact stand for Chilean hospitality venues
 - Status: watch | chile_localization
@@ -556,6 +568,18 @@ Candidates: 113
 - Possible initial budget:
 - Source URLs: https://github.com/DocuPipe/DocuBench; https://github.com/mborges-dev/extraction-evals
 
+## Chile Open Finance conformance and integration test harness
+- Status: watch | open_finance_chile
+- Current idea: The implementation window creates a concrete, time-bounded testing problem: prospective participants and technology vendors need to validate API schemas, authentication, error handling, certificates, logs and data mappings before production participation. A narrowly scoped conformance harness is more testable than selling generic fintech consulting.
+- Potential economic capture: A fixed-fee validation package, hosted test environment or paid implementation support may be possible, but no buyer, price or permission is established by the evidence. The initial economic test is whether an identifiable participant will provide technical materials or pay for a limited conformance assessment.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/normativa/ncg_569_2026.pdf
+
 ## Chile Open Finance conformance and sandbox testing kit
 - Status: watch | open_finance_chile
 - Current idea: Entities that must connect as information providers, account providers, information-based service providers, or payment-initiation providers now have a defined technical target and a limited preparation window before mandatory operation.
@@ -648,7 +672,7 @@ Candidates: 113
   - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
   - Check license perimeter, API access, legal compliance and competitor pricing.
   - Test buyer procurement and technical access before writing integration infrastructure.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Whether ATENA access is open to external vendors, consultants, and service providers, or restricted to regulated/registered participants.; Whether CMF will accept third-party test reports or require participants to use only official certification and sandbox procedures.; The number of entities that will actually need external help, segmented by banks, payment providers, account-information providers, and fintech applicants.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
