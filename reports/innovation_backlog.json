@@ -45,6 +45,42 @@
       "category": "chile_localization",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Create one profile using Chile residence, valid ID, current resume and relevant writing/translation evidence; complete the identity and skills assessments; before investing more than 60–90 minutes, verify that the dashboard exposes a Chile-eligible project and a displayed tasking/payment rate. Falsify the opportunity if Chile eligibility disappears, the required language qualification is unavailable, or no paid project is offered after the assessment. Do not treat application approval as income.",
+      "current_thesis": "A qualified Chile-based Spanish writer, translator, editor, journalist, or humanities student can test access to paid project work without paying an application fee. This is an application opportunity, not guaranteed income; project availability and acceptance remain uncertain.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Apply for Spanish AI-training projects available to Chile residents",
+      "opportunity_id": "opp_fd7b381a5c855e56ebe5",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Find the smallest Chilean workflow whose economics differ from the original geography.",
+        "Secure lawful access, partners and after-sales support rather than copy protected technology.",
+        "Run a buyer interview or mock listing to falsify assumptions before capital commitment."
+      ],
+      "supporting_source_urls": [
+        "https://app.outlier.ai/opportunities/4522871005",
+        "https://outlier.ai/faq"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Hourly freelance compensation for completed, accepted AI-evaluation tasks. The listed Spanish-Mexico writing rate averages USD 7.50/hour for core project work, while rates may vary by expertise, location, project and non-core task type. Payments are described as PayPal or AirTM, with weekly processing after onboarding and project participation.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "chile_localization",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Apply through CrowdGen’s official Lever page, confirming current Chile residence and native Chilean Spanish status. Before recording all units, verify the project account, acceptance criteria and payout conditions. Lowest-cost falsification: apply, complete any qualification sample, and calculate actual minutes per accepted sentence; proceed only if the effective rate and payout terms are acceptable. No fee or deposit is indicated in the listing.",
       "current_thesis": "This is a narrowly defined, low-complexity data-collection assignment with a verifiable piece-rate mechanism. At the listed rate, 400 completed units would imply USD 12 gross before any applicable taxes or payment constraints, but completion time and acceptance are unknown; therefore it is a small paid test rather than a reliable income source.",
       "founder_hours_initial_unverified_estimate": "",
@@ -256,6 +292,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Pass qualification and complete assigned search-quality and e-commerce relevance-rating tasks as an independent contractor at the project’s stated task-based rate, subject to workload and quality requirements.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "chile_localization",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Apply only through the TELUS Digital Chile listing and record the requisition number. Complete the initial application, then ask for the written contract or project terms showing rate, expected availability, payment method and tax treatment before accepting work. Falsify as an economically actionable opportunity if the requisition closes, Chile eligibility is removed, or the company will not disclose payment terms before tasking. No fee or deposit should be paid.",
+      "current_thesis": "A Chile resident with Spanish fluency can submit an application for part-time search/data-quality evaluation work. The public listing verifies an open application route and qualification process, but does not verify a rate, hours guarantee or hiring outcome.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "TELUS Digital Online Data Analyst — Chile",
+      "opportunity_id": "opp_aa530d20999e193d9ca5",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Find the smallest Chilean workflow whose economics differ from the original geography.",
+        "Secure lawful access, partners and after-sales support rather than copy protected technology.",
+        "Run a buyer interview or mock listing to falsify assumptions before capital commitment."
+      ],
+      "supporting_source_urls": [
+        "https://jobs.telusdigital.com/search/jobs/in/chile?cfm5=AI+Community&ns_category=ai-community",
+        "https://jobs.telusdigital.com/bs_BA/MoroccoCareers/PipelineDetail/Internet-Domain-Assessor-Spanish-Speakers-in-Chile/71900"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Potential freelance or part-time compensation for rating and validating online information after passing language, critical-thinking, role-specific, compliance and identity checks. No public rate was found, so expected earnings cannot be responsibly estimated.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -4235,7 +4307,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-22T00:24:14.153493+00:00",
+  "generated_at": "2026-10-22T04:26:23.093761+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

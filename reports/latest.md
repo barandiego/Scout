@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-22T00:24:13.634795+00:00
+Generated: 2026-10-22T04:26:22.601607+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['vertical_farming_economics', 'energy_localization', 'wildcard']
-- raw_candidates: 1
-- parseable_candidates: 1
-- normalized_candidates: 1
+- lenses: ['remote_paid_evaluation', 'inventoryless_product_validation', 'fixed_scope_paid_research_asset']
+- raw_candidates: 3
+- parseable_candidates: 3
+- normalized_candidates: 3
 - normalization_rejected: 0
-- grounded_sources: 2
+- grounded_sources: 6
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 0
+- judge_attempts: 1
 - critic_reviews: 1
-- judge_reviews: 0
+- judge_reviews: 1
 - survivors: 0
-- watches: 1
+- watches: 2
 - rejected: 1
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.02881225
+- cost_usd: 0.05619395
 - cost_uncertain: False
-- budget_remaining_usd: 0.05118775
+- budget_remaining_usd: 0.02380605
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,8 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Warehouse-cleaning robot pilot sold as an operating expense: deferred_by_review_cap
-- Independent commissioning and support wedge for imported cobots and industrial robots: deferred_by_review_cap
 - Chile Open-Finance conformance harness before July 2027 implementation: deferred_by_review_cap
 - Licensed AI-agent incident dataset with spend-control benchmark: deferred_by_review_cap
 - Small-scale storage and control feasibility wedge for Chilean distributed generators: deferred_by_review_cap
@@ -51,13 +49,15 @@ No survivors. Scout does not manufacture a daily winner.
 - Marketplace-specific catalog and offer monitoring for Natura Chile sellers: deferred_by_review_cap
 - Chile Open Finance consent-and-data-quality test for fintech onboarding: The underlying regulatory timing is supported by CMF primary notices, so this is not rejected for an unverified or misread regulatory change. A narrowly scoped, offline validator built only from published specifications and synthetic/public test materials appears technically plausible without requiring production financial-data access. However, the proposal has not selected an exact consented-data workflow, regulated payer, buyer owner, or separately budgeted compliance need. Its candidate features overlap with regulator-provided sandbox/conformance functions, internal engineering, systems integrators, and incumbent connectivity providers. The evidence establishes an implementation window, not viable value capture. It survives only as tightly bounded research to test paid demand and permissible technical access before any integration or handling of customer data.
 - PMGD battery-congestion screening and dispatch-rights data product: deferred_by_review_cap
+- Apply for Spanish AI-training projects available to Chile residents: deferred_by_review_cap
+- TELUS Digital Online Data Analyst — Chile: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=backlog",
-    "research_queue_unreviewed=52"
+    "deep_review_lane=fresh",
+    "research_queue_unreviewed=54"
   ],
   "stages": [
     {
@@ -65,26 +65,35 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 18,
+      "grounded_source_count": 27,
       "search_source_urls": [
-        "https://bibliotecadigital.odepa.gob.cl/bitstreams/62c574dc-f15a-4457-b93f-33b30827342f/download",
-        "https://cartas.coordinador.cl/show/687529af3563573f157d308c",
-        "https://energia.gob.cl/node/24845",
-        "https://energia.gob.cl/noticias/nacional/caf-y-ministerio-de-energia-de-chile-lanzan-licitacion-para-estudio-clave-en-la-transicion-energetica-justa?page=3",
-        "https://energia.gob.cl/sites/default/files/documento_cuenta-publica_2025.pdf",
-        "https://energia.gob.cl/sites/default/files/documentos/informe_definitivo_pelp_2023-2027.pdf",
-        "https://energia.gob.cl/sites/default/files/documentos/reporte_de_proyectos_-_julio_2025.pdf",
-        "https://www.coordinador.cl/",
-        "https://www.coordinador.cl/novedades/coordinador-electrico-presenta-informe-de-monitoreo-de-la-competencia-con-desafios-estructurales/",
-        "https://www.coordinador.cl/novedades/informacion-respecto-de-la-situacion-del-sistema-electrico-nacional/",
-        "https://www.coordinador.cl/presentaciones/informe-monitoreo-de-la-competencia-en-el-mercado-electrico-2025/",
-        "https://www.coordinador.cl/wp-content/uploads/2026/04/Informe-Monitoreo-2025.pdf",
-        "https://www.coordinador.cl/wp-content/uploads/2026/06/Cuenta-Publica-Gestion-2025-CEN.pdf",
-        "https://www.energia.gob.cl/noticias/nacional/ministra-rincon-acompana-al-presidente-kast-en-jornada-clave-para-la-energia-en-antofagasta",
-        "https://www.energia.gob.cl/noticias/nacional/taller-online-desarrollo-de-proyectos-de-energia-tramitaciones-seguimiento",
-        "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=%2FkQDE5Hbf+CzMWL4Hzz0Fg%3D%3D",
-        "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=9VYrREuNkyc8M+gDwYlObA%3D%3D",
-        "https://www.odepa.gob.cl/sustentabilidad/agua-agropecuario-forestal"
+        "https://app.outlier.ai/login?job_post_id=4476998005",
+        "https://app.outlier.ai/opportunities/4492261005",
+        "https://app.outlier.ai/opportunities/4522871005",
+        "https://cdn.blue.stag.prolific.com/Prolific_Brand_Guidelines_c954066b8c.pdf",
+        "https://jobs.telusdigital.com/bs_BA/MoroccoCareers/PipelineDetail/Internet-Domain-Assessor-Spanish-Speakers-in-Chile/71900",
+        "https://jobs.telusdigital.com/fr/search/jobs/in/chile?cfm5=AI+Community&ns_category=ai-community",
+        "https://jobs.telusdigital.com/search/cfm3/russian-spanish/cfm5/ai-community/jobs?ns_category=artificial-intelligence",
+        "https://jobs.telusdigital.com/search/jobs/in/chile?cfm5=AI+Community&ns_category=ai-community",
+        "https://media.prolific.com/Press_Release_Prolific_announces_25m_funding_to_improve_AI_systems_with_high_quality_verifiable_human_insights_20230712_b631c0dce3.pdf",
+        "https://outlier.ai/faq",
+        "https://participant-help.prolific.com/en/articles/445007-who-can-participate-in-studies-on-prolific",
+        "https://participant-help.prolific.com/en/articles/445013-does-my-phone-number-need-to-correspond-to-my-country-of-residence",
+        "https://participant-help.prolific.com/en/articles/445043-underpaying-studies",
+        "https://participant-help.prolific.com/en/articles/445046-can-i-access-studies-while-on-holiday-abroad",
+        "https://participant-help.prolific.com/en/articles/445055-how-do-i-connect-my-paypal-to-my-prolific-account",
+        "https://participant-help.prolific.com/en/articles/445057-how-do-currencies-work-on-prolific",
+        "https://participant-help.prolific.com/en/articles/445062-how-do-i-cash-out-on-prolific",
+        "https://participant-help.prolific.com/en/articles/445064-i-m-having-issues-cashing-out",
+        "https://participant-help.prolific.com/en/articles/445071-how-much-have-i-earned-from-prolific-and-do-i-have-to-pay-tax",
+        "https://participant-help.prolific.com/en/articles/445079-i-m-moving-countries-can-i-keep-my-account",
+        "https://participant-help.prolific.com/en/articles/580553-verification-and-onboarding-guide",
+        "https://participant-help.prolific.com/en/articles/768112-how-do-i-unlock-language-studies",
+        "https://www.prolific.com/blog/top-tips-for-study-success-sharing-insider-knowledge-from-the-researcher-support-team/",
+        "https://www.prolific.com/participants-frequently-asked-questions",
+        "https://www.prolific.com/participants-how-it-works",
+        "https://www.telusdigital.com/media/data-collection.pdf",
+        "https://www.telusdigital.com/media/nelsonhall-neat-evaluation-content-moderation.pdf"
       ]
     },
     {
@@ -103,90 +112,140 @@ No survivors. Scout does not manufacture a daily winner.
       "retry_justified": false
     },
     {
+      "index": 1,
+      "stage": "normalization",
+      "outcome": "accepted",
+      "reasons": [],
+      "changes": [
+        "contrary_evidence:list_sanitized",
+        "major_risks:list_sanitized",
+        "unknowns:list_sanitized",
+        "falsification_conditions:list_sanitized",
+        "material_update:unknown_false"
+      ],
+      "grounded_sources": 2,
+      "retry_justified": false
+    },
+    {
+      "index": 2,
+      "stage": "normalization",
+      "outcome": "accepted",
+      "reasons": [],
+      "changes": [
+        "contrary_evidence:list_sanitized",
+        "major_risks:list_sanitized",
+        "unknowns:list_sanitized",
+        "falsification_conditions:list_sanitized",
+        "material_update:unknown_false"
+      ],
+      "grounded_sources": 2,
+      "retry_justified": false
+    },
+    {
       "stage": "critic",
-      "candidate_id": "opp_9ed2c5cffcc241526473",
+      "candidate_id": "opp_9d1ccd0ba2d8fee528af",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 40,
+      "grounded_source_count": 33,
       "search_source_urls": [
-        "https://acsess.onlinelibrary.wiley.com/doi/10.1002/agj2.70246",
-        "https://arxiv.org/abs/2103.11294",
-        "https://arxiv.org/abs/2112.02162",
-        "https://arxiv.org/abs/2401.13931",
-        "https://arxiv.org/abs/2405.09118",
-        "https://bsssjournals.onlinelibrary.wiley.com/doi/10.1111/ejss.70302",
-        "https://doi.org/10.4081/ija.2021.1865",
-        "https://en.wikipedia.org/wiki/Agricultural_robot",
-        "https://en.wikipedia.org/wiki/Controlled_traffic_farming",
-        "https://en.wikipedia.org/wiki/Crop_scouting",
-        "https://en.wikipedia.org/wiki/FarmWise",
-        "https://en.wikipedia.org/wiki/Hands_Free_Hectare",
-        "https://en.wikipedia.org/wiki/Trap_crop",
-        "https://hohpublica.uni-hohenheim.de/bitstreams/ec18b0d5-4e7d-45c5-a54b-32144ad64198/download",
-        "https://link.springer.com/article/10.1007/s11119-026-10425-7",
-        "https://link.springer.com/article/10.1007/s11119-026-10445-3",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11510896/",
-        "https://www.ars.usda.gov/research/publications/publication/?seqNo115=351065",
-        "https://www.ers.usda.gov/media/8791/err-217.pdf?v=90122",
-        "https://www.frontiersin.org/journals/agronomy/articles/10.3389/fagro.2024.1388452/pdf?isPublishedV2=false",
-        "https://www.jstage.jst.go.jp/article/jsamfe/88/2/88_116/_pdf/-char/en",
-        "https://www.mdpi.com/1424-8220/24/20/6743/pdf?version=1729411690",
-        "https://www.mdpi.com/1424-8220/26/10/2925",
-        "https://www.mdpi.com/2073-4395/16/19/1928",
-        "https://www.mdpi.com/2624-7402/8/4/133",
-        "https://www.reddit.com/r/AgriTech/comments/1wor6vu/for_ag_robots_pest_detection_may_not_be_the/",
-        "https://www.reddit.com/r/AgriTech/comments/1wwguu8/ndsu_rowcrop_robot_achieves_965_weeding_accuracy/",
-        "https://www.reddit.com/r/Agriculture/comments/jcq4h1",
-        "https://www.reddit.com/r/Futurology/comments/11pguw9/aipowered_robots_cut_out_weeds_while_leaving/",
-        "https://www.reddit.com/r/Futurology/comments/mz2nff",
-        "https://www.reddit.com/r/farming/comments/1hxqzku",
-        "https://www.reddit.com/r/farmingsimulator/comments/1iv8dcw",
-        "https://www.reddit.com/r/farmingsimulator/comments/hzll2d",
-        "https://www.reddit.com/r/robotics/comments/11clbkk",
-        "https://www.reddit.com/r/robotics/comments/1l7td89",
-        "https://www.reddit.com/r/robotics/comments/1sfylpx/aigens_autonomous_solar_robots_identify_and/",
-        "https://www.reddit.com/r/u_imeritdigital/comments/1vy1du8/a_weed_and_a_crop_can_share_the_same_pixel/",
-        "https://www.researchgate.net/journal/AgriEngineering-2624-7402/publication/383953172_Recent_Advances_in_Agricultural_Robots_for_Automated_Weeding/links/67dd8fc0e62c604a0df8e6a1/Recent-Advances-in-Agricultural-Robots-for-Automated-Weeding.pdf",
-        "https://www.sciencedirect.com/science/article/pii/S0167880923005200",
-        "https://www.sciencedirect.com/science/article/pii/S016816991830276X"
+        "https://25531353.fs1.hubspotusercontent-eu1.net/hubfs/25531353/Prolific%20Participant%20Wellbeing%20Report%202024.pdf",
+        "https://25531353.fs1.hubspotusercontent-eu1.net/hubfs/25531353/Prolific%20Participant%20Wellbeing%20Report%202025%20%281%29.pdf",
+        "https://api.drum.lib.umd.edu/server/api/core/bitstreams/97d60bbf-354e-4955-8228-53aa075ab9d5/content",
+        "https://arxiv.org/abs/2201.05348",
+        "https://arxiv.org/abs/2203.14695",
+        "https://bfi.uchicago.edu/wp-content/uploads/2024/06/BFI_WP_2024-74-1.pdf",
+        "https://job-boards.greenhouse.io/prolificacademicltd/jobs/4850230101",
+        "https://participant-help.prolific.com/en/articles/445006-how-do-i-become-a-participant-on-prolific",
+        "https://participant-help.prolific.com/en/articles/445007-who-can-participate-in-studies-on-prolific",
+        "https://participant-help.prolific.com/en/articles/445024-why-am-i-not-receiving-any-studies",
+        "https://participant-help.prolific.com/en/articles/445025-why-am-i-not-seeing-studies-or-study-places-available",
+        "https://participant-help.prolific.com/en/articles/445051-limited-access",
+        "https://participant-help.prolific.com/en/articles/449632-data-deletion-notice-faq",
+        "https://participant-help.prolific.com/en/articles/455009-participating-in-and-waiting-for-studies",
+        "https://participant-help.prolific.com/en/articles/580553-verification-and-onboarding-guide",
+        "https://publications.iadb.org/publications/english/document/Measuring-the-Sources-of-Taste-Based-Discrimination-Using-List-Experiments.pdf",
+        "https://www.finder.com/make-money-online/prolific-review",
+        "https://www.nber.org/system/files/chapters/c15329/c15329.pdf",
+        "https://www.prolific.com/participants-how-it-works",
+        "https://www.reddit.com/r/ProlificAc/comments/1c4365j",
+        "https://www.reddit.com/r/ProlificAc/comments/1h2pxqn",
+        "https://www.reddit.com/r/ProlificAc/comments/1ieff6y",
+        "https://www.reddit.com/r/ProlificAc/comments/1va9ltf/only_received_one_study_after_being_on_the/",
+        "https://www.reddit.com/r/ProlificAc/comments/1w4h27g/prolific_is_offloading_and_putting_us/",
+        "https://www.reddit.com/r/beermoney/comments/1b2dfft",
+        "https://www.reddit.com/r/beermoney/comments/1cnwmby/prolific_megathread/",
+        "https://www.reddit.com/r/beermoney/comments/1frv3fz/prolific_megathread/",
+        "https://www.reddit.com/r/beermoney/comments/1jn788p",
+        "https://www.reddit.com/r/beermoney/comments/1nzlkfz/prolific_megathread/",
+        "https://www.reddit.com/r/beermoney/comments/1rzx89v/prolific_megathread/",
+        "https://www.reddit.com/r/u_Known-Activity-M8/comments/1x2qvho/prolific_needs_to_address_payments_for/",
+        "https://www.techradar.com/pro/software-services/i-tested-the-7-best-survey-and-poll-apps-to-earn-money-in-2026",
+        "https://www.trustpilot.com/review/www.prolific.com"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_9ed2c5cffcc241526473",
+      "candidate_id": "opp_9d1ccd0ba2d8fee528af",
       "coercions": [
         "contrary_evidence"
       ]
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_9d1ccd0ba2d8fee528af",
+      "response_status": "completed",
+      "incomplete_reason": "",
+      "grounded_source_count": 0,
+      "search_source_urls": []
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_9d1ccd0ba2d8fee528af",
+      "coercions": []
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 320,
-      "cache_write_tokens": 5462,
+      "reasoning_tokens": 322,
+      "cache_write_tokens": 5328,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0141377,
+      "cumulative_cost_usd": 0.0263214,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13827,
+      "input_tokens": 19787,
       "cached_tokens": 0,
-      "output_tokens": 916,
-      "web_search_calls": 1,
-      "estimated_cost_usd": 0.0141377
+      "output_tokens": 1748,
+      "web_search_calls": 2,
+      "estimated_cost_usd": 0.0263214
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 180,
-      "cache_write_tokens": 5471,
+      "reasoning_tokens": 129,
+      "cache_write_tokens": 5217,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02881225,
+      "cumulative_cost_usd": 0.04054545,
       "model": "gpt-5.6-luna",
-      "input_tokens": 14091,
+      "input_tokens": 13786,
       "cached_tokens": 0,
-      "output_tokens": 1319,
+      "output_tokens": 1005,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01467455
+      "estimated_cost_usd": 0.01422405
+    },
+    {
+      "stage": "judge",
+      "available": true,
+      "reasoning_tokens": 294,
+      "cache_write_tokens": 2609,
+      "accounting_notes": [],
+      "cumulative_cost_usd": 0.05619395,
+      "model": "gpt-5.6-terra",
+      "input_tokens": 2612,
+      "cached_tokens": 0,
+      "output_tokens": 760,
+      "web_search_calls": 0,
+      "estimated_cost_usd": 0.0156485
     }
   ]
 }

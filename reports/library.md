@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-22T00:24:14.067720+00:00
+Generated: 2026-10-22T04:26:22.997134+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 111 (0 HQ survivors, 111 watches)
-- Rejected opportunities excluded: 59
+- Active research: 113 (0 HQ survivors, 113 watches)
+- Rejected opportunities excluded: 60
 - Critic-and-judge reviewed: 54
 - Autonomous execution authorization: 0
 
@@ -673,6 +673,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://fairino.cl/; https://thunderrobotics.cl/
 
+### Apply for Spanish AI-training projects available to Chile residents [opp_fd7b381a5c855e56ebe5]
+- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
+- Thesis: A qualified Chile-based Spanish writer, translator, editor, journalist, or humanities student can test access to paid project work without paying an application fee. This is an application opportunity, not guaranteed income; project availability and acceptance remain uncertain.
+- Value capture: Hourly freelance compensation for completed, accepted AI-evaluation tasks. The listed Spanish-Mexico writing rate averages USD 7.50/hour for core project work, while rates may vary by expertise, location, project and non-core task type. Payments are described as PayPal or AirTM, with weekly processing after onboarding and project participation.
+- Participation hypothesis: Create one profile using Chile residence, valid ID, current resume and relevant writing/translation evidence; complete the identity and skills assessments; before investing more than 60–90 minutes, verify that the dashboard exposes a Chile-eligible project and a displayed tasking/payment rate. Falsify the opportunity if Chile eligibility disappears, the required language qualification is unavailable, or no paid project is offered after the assessment. Do not treat application approval as income.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://app.outlier.ai/opportunities/4522871005; https://outlier.ai/faq
+
 ### BESS procurement evidence pack focused on supply-chain and grid-support requirements [opp_821fe989c63ca8db797f]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States
 - Thesis: BESS projects require more than a battery quote: procurement teams must evaluate technical specifications, interconnection requirements, component provenance, cybersecurity or supply-chain exposure, and mitigation evidence. A standardized evidence pack could reduce repeated bid-comparison work, but the existence of a paying market remains to be tested.
@@ -1092,6 +1102,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://github.com/DocuPipe/DocuBench; https://github.com/mborges-dev/extraction-evals
+
+### TELUS Digital Online Data Analyst — Chile [opp_aa530d20999e193d9ca5]
+- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
+- Thesis: A Chile resident with Spanish fluency can submit an application for part-time search/data-quality evaluation work. The public listing verifies an open application route and qualification process, but does not verify a rate, hours guarantee or hiring outcome.
+- Value capture: Potential freelance or part-time compensation for rating and validating online information after passing language, critical-thinking, role-specific, compliance and identity checks. No public rate was found, so expected earnings cannot be responsibly estimated.
+- Participation hypothesis: Apply only through the TELUS Digital Chile listing and record the requisition number. Complete the initial application, then ask for the written contract or project terms showing rate, expected availability, payment method and tax treatment before accepting work. Falsify as an economically actionable opportunity if the requisition closes, Chile eligibility is removed, or the company will not disclose payment terms before tasking. No fee or deposit should be paid.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://jobs.telusdigital.com/search/jobs/in/chile?cfm5=AI+Community&ns_category=ai-community; https://jobs.telusdigital.com/bs_BA/MoroccoCareers/PipelineDetail/Internet-Domain-Assessor-Spanish-Speakers-in-Chile/71900
 
 ### Tokenized unified-ledger infrastructure is moving from concept toward financial-market architecture [opp_993ac5d080c7042af44c]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Global; Chile relevance through future interoperable financial-data and payment infrastructure

@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 111
+Candidates: 113
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -15,6 +15,18 @@ Candidates: 111
 - Critical gaps: The issuer associated with CIK 2110029 is not identified by name in the opportunity record, making independent issuer-level analysis incomplete.; Powell's exact data-center revenue, backlog percentage, customer concentration, contract cancellation provisions, payment milestones, gross margins, and expected conversion schedule are unknown.; The identity and credit quality of the customer behind the $400 million-plus order are undisclosed.
 - Possible initial budget:
 - Source URLs: https://www.sec.gov/Archives/edgar/data/80420/000008042026000063/ex991-powlq2xfy2026earning.htm; https://www.sec.gov/Archives/edgar/data/2110029/000119312526249668/d12401ds1a.htm
+
+## Apply for Spanish AI-training projects available to Chile residents
+- Status: watch | chile_localization
+- Current idea: A qualified Chile-based Spanish writer, translator, editor, journalist, or humanities student can test access to paid project work without paying an application fee. This is an application opportunity, not guaranteed income; project availability and acceptance remain uncertain.
+- Potential economic capture: Hourly freelance compensation for completed, accepted AI-evaluation tasks. The listed Spanish-Mexico writing rate averages USD 7.50/hour for core project work, while rates may vary by expertise, location, project and non-core task type. Payments are described as PayPal or AirTM, with weekly processing after onboarding and project participation.
+- **Research routes to test (NOT validated claims):**
+  - Find the smallest Chilean workflow whose economics differ from the original geography.
+  - Secure lawful access, partners and after-sales support rather than copy protected technology.
+  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://app.outlier.ai/opportunities/4522871005; https://outlier.ai/faq
 
 ## Chilean Spanish speech-data recording project — CrowdGen by Appen
 - Status: watch | chile_localization
@@ -87,6 +99,18 @@ Candidates: 111
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://jobs.lever.co/weloglobal/f1d3a94f-b3c4-47c2-b33b-55253a774375; https://jobs.lever.co/weloglobal?commitment=Remote
+
+## TELUS Digital Online Data Analyst — Chile
+- Status: watch | chile_localization
+- Current idea: A Chile resident with Spanish fluency can submit an application for part-time search/data-quality evaluation work. The public listing verifies an open application route and qualification process, but does not verify a rate, hours guarantee or hiring outcome.
+- Potential economic capture: Potential freelance or part-time compensation for rating and validating online information after passing language, critical-thinking, role-specific, compliance and identity checks. No public rate was found, so expected earnings cannot be responsibly estimated.
+- **Research routes to test (NOT validated claims):**
+  - Find the smallest Chilean workflow whose economics differ from the original geography.
+  - Secure lawful access, partners and after-sales support rather than copy protected technology.
+  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://jobs.telusdigital.com/search/jobs/in/chile?cfm5=AI+Community&ns_category=ai-community; https://jobs.telusdigital.com/bs_BA/MoroccoCareers/PipelineDetail/Internet-Domain-Assessor-Spanish-Speakers-in-Chile/71900
 
 ## Marketplace-specific catalog and offer monitoring for Natura Chile sellers
 - Status: watch | competitive_positioning

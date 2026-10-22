@@ -5453,6 +5453,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-22T04:25:59.566721+00:00",
+      "discovery_lens": "remote_paid_evaluation",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The opportunity lists Chile among eligible remote locations, describes Spanish AI-training evaluation tasks, identifies relevant writing/translation qualifications, states an average core rate of USD 7.50/hour for Spanish-Mexico writing experts, and lists PayPal/AirTM payment.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Spanish AI Training — Outlier opportunity",
+          "url": "https://app.outlier.ai/opportunities/4522871005"
+        },
+        {
+          "claim": "Outlier states that applicants need identity verification, a resume and LinkedIn profile; project qualification precedes tasking; rates are shown before project work; and payments are processed weekly via PayPal, AirTM or ACH.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Outlier AI FAQ — onboarding and payment",
+          "url": "https://outlier.ai/faq"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.9,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_fd7b381a5c855e56ebe5",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-22T04:25:59.625669+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Create one profile using Chile residence, valid ID, current resume and relevant writing/translation evidence; complete the identity and skills assessments; before investing more than 60–90 minutes, verify that the dashboard exposes a Chile-eligible project and a displayed tasking/payment rate. Falsify the opportunity if Chile eligibility disappears, the required language qualification is unavailable, or no paid project is offered after the assessment. Do not treat application approval as income.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A qualified Chile-based Spanish writer, translator, editor, journalist, or humanities student can test access to paid project work without paying an application fee. This is an application opportunity, not guaranteed income; project availability and acceptance remain uncertain.",
+      "title": "Apply for Spanish AI-training projects available to Chile residents",
+      "type": "remote_paid_evaluation",
+      "unknowns": [],
+      "value_capture_mechanism": "Hourly freelance compensation for completed, accepted AI-evaluation tasks. The listed Spanish-Mexico writing rate averages USD 7.50/hour for core project work, while rates may vary by expertise, location, project and non-core task type. Payments are described as PayPal or AirTM, with weekly processing after onboarding and project participation.",
+      "verified_sales": null,
+      "vertical": "chile_localization",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-19T20:24:26.256728+00:00",
       "discovery_lens": "mining_materials",
       "estimated_capital": "",
@@ -7721,6 +7775,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-22T04:25:59.567904+00:00",
+      "discovery_lens": "remote_paid_evaluation",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The current search page shows one Chile-based, remote, part-time Spanish listing: Online Data Analyst — Chile, ReqEG-798, and describes application, assessment, compliance and onboarding stages.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "TELUS Digital AI Community jobs in Chile",
+          "url": "https://jobs.telusdigital.com/search/jobs/in/chile?cfm5=AI+Community&ns_category=ai-community"
+        },
+        {
+          "claim": "TELUS describes a Chile-eligible remote freelance evaluation role, states that prior professional experience is not required, requires Spanish/English communication and Chile familiarity, and requires passing an assessment and quality checks.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "TELUS Digital Internet Domain Assessor — Chile",
+          "url": "https://jobs.telusdigital.com/bs_BA/MoroccoCareers/PipelineDetail/Internet-Domain-Assessor-Spanish-Speakers-in-Chile/71900"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.84,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_aa530d20999e193d9ca5",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-22T04:25:59.625918+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Apply only through the TELUS Digital Chile listing and record the requisition number. Complete the initial application, then ask for the written contract or project terms showing rate, expected availability, payment method and tax treatment before accepting work. Falsify as an economically actionable opportunity if the requisition closes, Chile eligibility is removed, or the company will not disclose payment terms before tasking. No fee or deposit should be paid.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A Chile resident with Spanish fluency can submit an application for part-time search/data-quality evaluation work. The public listing verifies an open application route and qualification process, but does not verify a rate, hours guarantee or hiring outcome.",
+      "title": "TELUS Digital Online Data Analyst — Chile",
+      "type": "remote_paid_evaluation",
+      "unknowns": [],
+      "value_capture_mechanism": "Potential freelance or part-time compensation for rating and validating online information after passing language, critical-thinking, role-specific, compliance and identity checks. No public rate was found, so expected earnings cannot be responsibly estimated.",
+      "verified_sales": null,
+      "vertical": "chile_localization",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-04T03:07:07.122051+00:00",
       "discovery_lens": "tokenization_finance",
       "estimated_capital": "",
@@ -7882,13 +7990,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-22T00:24:14.067720+00:00",
+  "generated_at": "2026-10-22T04:26:22.997134+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 59,
+  "rejected_excluded": 60,
   "reviewed_cards": 54,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 170,
-  "watch": 111
+  "total_distinct_opportunities": 173,
+  "watch": 113
 }
