@@ -1,107 +1,37 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 228183.0,
-      "buyer": "UNIVERSIDAD DE ATACAMA",
-      "closes_at": "2026-10-23T08:00:00",
-      "code": "511451-165-COT26",
-      "estimated_budget": 228183.0,
-      "name": "Pendrives USB personalizados institucionales – DPTO CJ",
-      "products": 1,
-      "region": "Región de Atacama"
-    },
-    {
-      "available_budget_clp": 643892.0,
-      "buyer": "Arsenal Naval Talcahuano",
-      "closes_at": "2026-10-23T08:00:00",
-      "code": "2952-254-COT26",
-      "estimated_budget": 658.0,
-      "name": "ADQUISICION DE ARTICULOS PARA MANTENIMIENTO",
-      "products": 1,
-      "region": "Región del Biobío"
-    },
-    {
-      "available_budget_clp": 60000.0,
-      "buyer": "UNIVERSIDAD DE ATACAMA",
-      "closes_at": "2026-10-23T08:00:00",
-      "code": "511451-164-COT26",
-      "estimated_budget": 60000.0,
-      "name": "Cable de extensión USB 2.0 de 3 metros (USB-A macho a USB-A hembra).",
-      "products": 1,
-      "region": "Región de Atacama"
-    },
-    {
-      "available_budget_clp": 300000.0,
-      "buyer": "UNIVERSIDAD DE ATACAMA",
-      "closes_at": "2026-10-23T08:00:00",
-      "code": "511451-163-COT26",
-      "estimated_budget": 300000.0,
-      "name": "Agendas institucionales personalizadas para actividades de la Carrera de  Derecho - POA CJ",
-      "products": 1,
-      "region": "Región de Atacama"
-    },
-    {
-      "available_budget_clp": 7000000.0,
-      "buyer": "Centro de Educación y Trabajo Prisión Arica",
-      "closes_at": "2026-10-26T14:00:00",
-      "code": "1250590-1-COT26",
-      "estimated_budget": 7000000.0,
-      "name": "CET LYNCH, COMPRA DE VESTUARIOS DE TRABAJO PARA USUARIOS. (F. 86)",
-      "products": 25,
-      "region": "Región de Arica y Parinacota"
-    },
-    {
-      "available_budget_clp": 330000.0,
-      "buyer": "UNIVERSIDAD DE ATACAMA",
-      "closes_at": "2026-10-23T08:00:00",
-      "code": "511451-162-COT26",
-      "estimated_budget": 330000.0,
-      "name": "COMPRA DE MATERIALES SENSORIALES - POA CJ",
-      "products": 1,
-      "region": "Región de Atacama"
-    },
-    {
-      "available_budget_clp": 400000.0,
-      "buyer": "UNIVERSIDAD DE ATACAMA",
-      "closes_at": "2026-10-23T08:00:00",
-      "code": "511451-161-COT26",
-      "estimated_budget": 400000.0,
-      "name": "Compra de libros - POA CJ",
-      "products": 5,
-      "region": "Región de Atacama"
-    },
-    {
-      "available_budget_clp": 1530000.0,
-      "buyer": "SLEP MARGA MARGA",
-      "closes_at": "2026-10-22T21:57:00",
-      "code": "1480972-709-COT26",
-      "estimated_budget": 1530000.0,
-      "name": "SERVICIO DE AMPLIFICACIÓN E ILUMINACIÓN PASIÓN DE JESÚS 1467-2 - LIMACHE",
-      "products": 4,
+      "available_budget_clp": 2200000.0,
+      "buyer": "UNIVERSIDAD DE VALPARAISO",
+      "closes_at": "2026-10-23T10:00:00",
+      "code": "4895-257-COT26",
+      "estimated_budget": 2200000.0,
+      "name": "SOLICITUD DE COTIZACION COMPRA DE MATERIALES DE TALLER PARA LA ESCUELA DE OBSTETRICIA Y PUERICULTURA",
+      "products": 24,
       "region": "Región de Valparaíso"
     },
     {
-      "available_budget_clp": 2000000.0,
-      "buyer": "Departamento Provincial Choapa",
-      "closes_at": "2026-10-23T14:00:00",
-      "code": "1482-37-COT26",
-      "estimated_budget": 2000000.0,
-      "name": "Servicio integral para Jornada Acción 3 Plan Regional de Educación DEPROV Choapa, el 27 de octubre de 2026, para 50 personas.",
-      "products": 1,
-      "region": "Región de Coquimbo"
+      "available_budget_clp": 2080000.0,
+      "buyer": "UNIVERSIDAD DE VALPARAISO",
+      "closes_at": "2026-10-23T17:00:00",
+      "code": "633470-178-COT26",
+      "estimated_budget": 2080000.0,
+      "name": "Adquisición de sillas, escritorios y cajoneras - Escuela de Ingeniería Oceánica - Facultad de Ingeniería",
+      "products": 5,
+      "region": "Región de Valparaíso"
     },
     {
-      "available_budget_clp": 200000.0,
-      "buyer": "UNIVERSIDAD DE ATACAMA",
-      "closes_at": "2026-10-23T08:00:00",
-      "code": "511451-160-COT26",
-      "estimated_budget": 200000.0,
-      "name": "Chaquetas corporativas institucionales para dama -",
+      "available_budget_clp": 1500000.0,
+      "buyer": "UNIVERSIDAD DE VALPARAISO",
+      "closes_at": "2026-10-23T17:00:00",
+      "code": "633470-179-COT26",
+      "estimated_budget": 1500000.0,
+      "name": "Adquisición de sillas altas regulables - Escuela de Ingeniería Civil Biomédica - Facultad de Ingeniería",
       "products": 1,
-      "region": "Región de Atacama"
+      "region": "Región de Valparaíso"
     }
   ],
-  "active_structurally_reconstructable_count": 10,
+  "active_structurally_reconstructable_count": 3,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -119,22 +49,24 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-10-22T01:04:08Z",
+  "generated_at": "2026-10-22T04:54:28Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
   "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
   "phase1": {
     "records": 20,
-    "rejection_reasons": {},
-    "resolved": 10,
-    "structurally_reconstructable": 20,
-    "with_observable_quote_totals": 10,
-    "with_purchase_order_indicator": 6
+    "rejection_reasons": {
+      "no_observable_competitive_prices": 1
+    },
+    "resolved": 17,
+    "structurally_reconstructable": 19,
+    "with_observable_quote_totals": 16,
+    "with_purchase_order_indicator": 2
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-22T01:04:08Z"
+    "changed_to": "2026-10-22T04:54:28Z"
   }
 }
