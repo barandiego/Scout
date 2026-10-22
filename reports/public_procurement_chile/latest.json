@@ -1,137 +1,107 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 650000.0,
-      "buyer": "CENTRO REFERENCIAL DE SALUD DR SALVADOR ALLENDE GOSSENS",
-      "closes_at": "2026-10-26T10:00:00",
-      "code": "1532-345-COT26",
-      "estimated_budget": 650000.0,
-      "name": "TOALLA DE SECADO IGUAL O SIMILAR A WYPALL",
+      "available_budget_clp": 228183.0,
+      "buyer": "UNIVERSIDAD DE ATACAMA",
+      "closes_at": "2026-10-23T08:00:00",
+      "code": "511451-165-COT26",
+      "estimated_budget": 228183.0,
+      "name": "Pendrives USB personalizados institucionales – DPTO CJ",
       "products": 1,
-      "region": "Región Metropolitana de Santiago"
+      "region": "Región de Atacama"
     },
     {
-      "available_budget_clp": 140000.0,
-      "buyer": "CORP MUNICIPAL DE SERVICIOS PUBLICOS TRASPASADOS DE RANCAGUA",
-      "closes_at": "2026-10-22T18:00:00",
-      "code": "557639-3248-COT26",
-      "estimated_budget": 140000.0,
-      "name": "TRASLADO LOCAL - COL EDUARDO DE GEYTER",
+      "available_budget_clp": 643892.0,
+      "buyer": "Arsenal Naval Talcahuano",
+      "closes_at": "2026-10-23T08:00:00",
+      "code": "2952-254-COT26",
+      "estimated_budget": 658.0,
+      "name": "ADQUISICION DE ARTICULOS PARA MANTENIMIENTO",
       "products": 1,
-      "region": "Región del Libertador General Bernardo O´Higgins"
+      "region": "Región del Biobío"
+    },
+    {
+      "available_budget_clp": 60000.0,
+      "buyer": "UNIVERSIDAD DE ATACAMA",
+      "closes_at": "2026-10-23T08:00:00",
+      "code": "511451-164-COT26",
+      "estimated_budget": 60000.0,
+      "name": "Cable de extensión USB 2.0 de 3 metros (USB-A macho a USB-A hembra).",
+      "products": 1,
+      "region": "Región de Atacama"
+    },
+    {
+      "available_budget_clp": 300000.0,
+      "buyer": "UNIVERSIDAD DE ATACAMA",
+      "closes_at": "2026-10-23T08:00:00",
+      "code": "511451-163-COT26",
+      "estimated_budget": 300000.0,
+      "name": "Agendas institucionales personalizadas para actividades de la Carrera de  Derecho - POA CJ",
+      "products": 1,
+      "region": "Región de Atacama"
+    },
+    {
+      "available_budget_clp": 7000000.0,
+      "buyer": "Centro de Educación y Trabajo Prisión Arica",
+      "closes_at": "2026-10-26T14:00:00",
+      "code": "1250590-1-COT26",
+      "estimated_budget": 7000000.0,
+      "name": "CET LYNCH, COMPRA DE VESTUARIOS DE TRABAJO PARA USUARIOS. (F. 86)",
+      "products": 25,
+      "region": "Región de Arica y Parinacota"
+    },
+    {
+      "available_budget_clp": 330000.0,
+      "buyer": "UNIVERSIDAD DE ATACAMA",
+      "closes_at": "2026-10-23T08:00:00",
+      "code": "511451-162-COT26",
+      "estimated_budget": 330000.0,
+      "name": "COMPRA DE MATERIALES SENSORIALES - POA CJ",
+      "products": 1,
+      "region": "Región de Atacama"
+    },
+    {
+      "available_budget_clp": 400000.0,
+      "buyer": "UNIVERSIDAD DE ATACAMA",
+      "closes_at": "2026-10-23T08:00:00",
+      "code": "511451-161-COT26",
+      "estimated_budget": 400000.0,
+      "name": "Compra de libros - POA CJ",
+      "products": 5,
+      "region": "Región de Atacama"
+    },
+    {
+      "available_budget_clp": 1530000.0,
+      "buyer": "SLEP MARGA MARGA",
+      "closes_at": "2026-10-22T21:57:00",
+      "code": "1480972-709-COT26",
+      "estimated_budget": 1530000.0,
+      "name": "SERVICIO DE AMPLIFICACIÓN E ILUMINACIÓN PASIÓN DE JESÚS 1467-2 - LIMACHE",
+      "products": 4,
+      "region": "Región de Valparaíso"
     },
     {
       "available_budget_clp": 2000000.0,
-      "buyer": "SERVICIO DE SALUD DEL MAULE HOSPITAL DE CURICO",
-      "closes_at": "2026-10-22T17:50:00",
-      "code": "1003473-4814-COT26",
+      "buyer": "Departamento Provincial Choapa",
+      "closes_at": "2026-10-23T14:00:00",
+      "code": "1482-37-COT26",
       "estimated_budget": 2000000.0,
-      "name": "SOLICITUD ESPECIAL CX RODILLA PRIMARIA",
+      "name": "Servicio integral para Jornada Acción 3 Plan Regional de Educación DEPROV Choapa, el 27 de octubre de 2026, para 50 personas.",
       "products": 1,
-      "region": "Región del Maule"
+      "region": "Región de Coquimbo"
     },
     {
-      "available_budget_clp": 1700000.0,
-      "buyer": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
-      "closes_at": "2026-10-22T17:50:00",
-      "code": "1057547-2369-COT26",
-      "estimated_budget": 1700000.0,
-      "name": "4450704 INCENTIVADOR RESPIRAT. 4000 M",
+      "available_budget_clp": 200000.0,
+      "buyer": "UNIVERSIDAD DE ATACAMA",
+      "closes_at": "2026-10-23T08:00:00",
+      "code": "511451-160-COT26",
+      "estimated_budget": 200000.0,
+      "name": "Chaquetas corporativas institucionales para dama -",
       "products": 1,
-      "region": "Región de Los Ríos"
-    },
-    {
-      "available_budget_clp": 1572285.0,
-      "buyer": "I MUNICIPALIDAD DE TOME",
-      "closes_at": "2026-10-23T10:00:00",
-      "code": "2656-1199-COT26",
-      "estimated_budget": 1572285.0,
-      "name": "COMPRA DE PLANTAS PARA JARDIN",
-      "products": 1,
-      "region": "Región del Biobío"
-    },
-    {
-      "available_budget_clp": 1000000.0,
-      "buyer": "Hospital Dr. Eduardo Pereira Ramirez",
-      "closes_at": "2026-10-22T18:00:00",
-      "code": "875646-2630-COT26",
-      "estimated_budget": 1000000.0,
-      "name": "APOSITO ALGODON 10*30(TEJIDO ESTERIL) 1 EMPAQUE",
-      "products": 1,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 132000.0,
-      "buyer": "CORPORACION CULTURAL Y DE TURISMO MUNICIPAL DE PELARCO",
-      "closes_at": "2026-10-22T18:00:00",
-      "code": "1367960-179-COT26",
-      "estimated_budget": 132000.0,
-      "name": "Confección de 6 Palomas Publicitarias con instalación, FIESTA HALLOWEEN PELARCO 2026",
-      "products": 1,
-      "region": "Región del Maule"
-    },
-    {
-      "available_budget_clp": 540000.0,
-      "buyer": "MUNICIPALIDAD DE CONCEPCION",
-      "closes_at": "2026-10-22T17:52:00",
-      "code": "1504119-83-COT26",
-      "estimated_budget": 540000.0,
-      "name": "Adquisición de mobiliario para el Centro de Creación Concepción (C3), perteneciente a la Dirección de Cultura de la Municipalidad de Concepción",
-      "products": 1,
-      "region": "Región del Biobío"
-    },
-    {
-      "available_budget_clp": 4500000.0,
-      "buyer": "SERVICIO DE SALUD DEL MAULE HOSPITAL DE CURICO",
-      "closes_at": "2026-10-22T17:50:00",
-      "code": "5083-63-COT26",
-      "estimated_budget": 4500000.0,
-      "name": "SOLICITUD ESPECIAL CX RODILLA PRIMARIA",
-      "products": 1,
-      "region": "Región del Maule"
-    },
-    {
-      "available_budget_clp": 1398593.0,
-      "buyer": "I MUNICIPALIDAD DE PUREN",
-      "closes_at": "2026-10-23T09:00:00",
-      "code": "3799-339-COT26",
-      "estimated_budget": 1398593.0,
-      "name": "SILLA SALA DE CONCEJO MUNICIPAL",
-      "products": 1,
-      "region": "Región de la Araucanía"
-    },
-    {
-      "available_budget_clp": 350000.0,
-      "buyer": "UNIVERSIDAD DE CHILE",
-      "closes_at": "2026-10-26T09:00:00",
-      "code": "5429-105-COT26",
-      "estimated_budget": 350000.0,
-      "name": "TV sala Portugal 24",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 650000.0,
-      "buyer": "SERVICIO LOCAL DE EDUCACION PUBLICA DE COLCHAGUA",
-      "closes_at": "2026-10-22T17:55:00",
-      "code": "1126920-181-COT26",
-      "estimated_budget": 650000.0,
-      "name": "VITRINA EQUIPAMIENTO GASTRONOMIA CECH",
-      "products": 1,
-      "region": "Región del Libertador General Bernardo O´Higgins"
-    },
-    {
-      "available_budget_clp": 1360000.0,
-      "buyer": "Hospital San Jose - Casablanca",
-      "closes_at": "2026-10-22T18:00:00",
-      "code": "899-215-COT26",
-      "estimated_budget": 1360000.0,
-      "name": "ADQUISICIÓN VESTUARIO PARA UNIDADES CLINICAS DEL HOSPITAL",
-      "products": 4,
-      "region": "Región de Valparaíso"
+      "region": "Región de Atacama"
     }
   ],
-  "active_structurally_reconstructable_count": 13,
+  "active_structurally_reconstructable_count": 10,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -149,24 +119,22 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-10-21T20:53:49Z",
+  "generated_at": "2026-10-22T01:04:08Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
   "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
   "phase1": {
     "records": 20,
-    "rejection_reasons": {
-      "no_observable_competitive_prices": 5
-    },
-    "resolved": 7,
-    "structurally_reconstructable": 15,
-    "with_observable_quote_totals": 2,
-    "with_purchase_order_indicator": 1
+    "rejection_reasons": {},
+    "resolved": 10,
+    "structurally_reconstructable": 20,
+    "with_observable_quote_totals": 10,
+    "with_purchase_order_indicator": 6
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-21T20:53:49Z"
+    "changed_to": "2026-10-22T01:04:08Z"
   }
 }
