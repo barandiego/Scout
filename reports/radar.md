@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-21T20:57:03.439143+00:00
+Generated: 2026-10-22T01:07:53.563755+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 115
+- New this cycle: 111
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 343, ai 212, commerce 35, energy 507, robotics 703
+- Categories: agriculture 344, ai 207, commerce 35, energy 507, robotics 707
 
 ## Recently encountered signals
 
@@ -246,6 +246,12 @@ Generated: 2026-10-21T20:57:03.439143+00:00
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
+### wuy509019/VRFB-PV-Micogrid-and-Its-Techno-Economic-Analysis
+- Source: https://github.com/wuy509019/VRFB-PV-Micogrid-and-Its-Techno-Economic-Analysis
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
 ### msrayhaankhan-ui/CULTIVAI
 - Source: https://github.com/msrayhaankhan-ui/CULTIVAI
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
@@ -454,10 +460,4 @@ Generated: 2026-10-21T20:57:03.439143+00:00
 - Source: https://github.com/Pranaysatpute/crop-yield-prediction
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Enhancing Residential Energy Resilience in Extreme Weather: Solar PV and Battery Storage Performance and User Perceptions in Atlantic Canada
-- Source: https://doi.org/10.26868/31114504.2026.197
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
