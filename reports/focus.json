@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-10-21T20:22:16.484813+00:00",
+  "generated_at": "2026-10-22T00:24:14.067720+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -13,7 +13,7 @@
     },
     {
       "opportunity_id": "opp_7ea6a495427da87c8c5c",
-      "other_cards_in_theme": 12,
+      "other_cards_in_theme": 13,
       "reviewed": true,
       "status": "watch",
       "theme": "energy_infrastructure",
@@ -111,7 +111,7 @@
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 48,
+  "theme_count": 47,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -180,9 +180,10 @@
         "opp_a71e28685127733c914e",
         "opp_85c23886f73fd6c4dff5",
         "opp_20b079df210ea1d3088c",
-        "opp_821fe989c63ca8db797f"
+        "opp_821fe989c63ca8db797f",
+        "opp_e28d4caaa77e09a2caa9"
       ],
-      "count": 13,
+      "count": 14,
       "representative_id": "opp_7ea6a495427da87c8c5c",
       "reviewed_count": 8,
       "theme": "energy_infrastructure"
@@ -211,15 +212,6 @@
       "representative_id": "opp_9806dd7c2bc14a3373b4",
       "reviewed_count": 2,
       "theme": "data_center_infrastructure"
-    },
-    {
-      "all_opportunity_ids": [
-        "opp_9ed2c5cffcc241526473"
-      ],
-      "count": 1,
-      "representative_id": "opp_9ed2c5cffcc241526473",
-      "reviewed_count": 0,
-      "theme": "agricultural_weeding_robots"
     },
     {
       "all_opportunity_ids": [

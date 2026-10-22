@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-21T20:22:16.484813+00:00
+Generated: 2026-10-22T00:24:14.067720+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
 - Active research: 111 (0 HQ survivors, 111 watches)
-- Rejected opportunities excluded: 58
+- Rejected opportunities excluded: 59
 - Critic-and-judge reviewed: 54
 - Autonomous execution authorization: 0
 
@@ -553,16 +553,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/843781/000003014626000437/cik0000843781_102708.htm; https://www.sec.gov/Archives/edgar/data/831114/000139834426000957/fp0097248-1_40app.htm
 
-### Small- and mid-size farm robotic-weeding service using commercial robots instead of ownership [opp_9ed2c5cffcc241526473]
-- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States; potentially exportable to Chilean specialty-crop regions
-- Thesis: The executable wedge is not building a new robot; it is testing whether a small operator can aggregate demand and sell scheduled robotic weeding, field trials, or seasonal access while outsourcing equipment ownership to an existing manufacturer, dealer or equipment financier. Actual unit economics remain unverified and depend on crop, acreage, transport, supervision and robot availability.
-- Value capture: Potential mechanisms are per-acre field service, seasonal minimums, equipment brokerage, or referral/commission arrangements with a manufacturer or dealer. No price, margin, buyer commitment or manufacturer permission is assumed. The economic test is whether a grower will sign a paid or refundable reservation for a defined trial before equipment is acquired.
-- Participation hypothesis: Pick one crop and tightly bounded geography. Build a one-page offer for a supervised robotic-weeding trial, using an existing commercial platform rather than claiming ownership. Contact growers through local extension offices, crop associations, farm-equipment dealers and public grower directories; ask for acreage, weed-control method, timing and a paid/refundable reservation contingent on equipment availability. Lowest-cost falsification: interview at least ten growers and seek two written reservations or deposits at a stated trial price befor
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.agricultural-robotics.com/robot/robot-one; https://www.agricultural-robotics.com/robot/zurama-ai-inrow-weeder; https://arxiv.org/abs/2509.25056; https://farmdroid.com/
-
 ### Narrow Chilean e-commerce returns-recovery test for one product category [opp_fa54176321cf12d8b287]
 - Status: WATCH_REQUIRES_VALIDATION | ecommerce_niches | Chile
 - Thesis: There may be recoverable value in returned, refused, or lightly damaged inventory, but the evidence does not establish a standalone Chilean market, buyer, or margin. The executable wedge is a tightly bounded consignment experiment with one seller and one category, not a broad returns marketplace.
@@ -1032,6 +1022,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://tarjetas-nfc.com/; https://www.ondda.cl/
+
+### PMGD battery-congestion screening and dispatch-rights data product [opp_e28d4caaa77e09a2caa9]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile, initially zonal transmission-constrained areas with PMGD concentration
+- Thesis: A PMGD owner or developer may need a low-cost way to screen whether adding a battery can reduce restricted-hour exposure, improve dispatchability, or avoid pursuing a connection configuration that is operationally constrained. The evidence supports a congestion-screening problem, but does not establish that any particular project will be profitable.
+- Value capture: Sell a project-specific screening package consisting of a public-data congestion map, hourly curtailment/restriction scenarios, battery-sizing sensitivities, and a go/no-go memo. A later, separately contracted implementation or engineering referral could follow, but no buyer, price or conversion rate is assumed.
+- Participation hypothesis: Build a spreadsheet or lightweight web tool using publicly available CEN PMGD, transmission-congestion, market-price and connection-rule data. Select 10 identifiable PMGD or prospective-project cases from public records, produce one-page no-cost screening outputs, and ask project owners, developers or electrical engineering firms whether the report changes a live battery or interconnection decision. Falsification threshold: stop if at least 5 of 10 relevant contacts cannot validate a current decision need, or if none will pay for a paid pilot a
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.coordinador.cl/presentaciones/informe-monitoreo-de-la-competencia-en-el-mercado-electrico-2025/; https://cartas.coordinador.cl/show/687529af3563573f157d308c
 
 ### Pre-compliance Open Finance connectivity test for Chilean fintechs and smaller financial entities [opp_bc3b9a823961fadca8e1]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile

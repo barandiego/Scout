@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-21T20:22:16.026040+00:00
+Generated: 2026-10-22T00:24:13.634795+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['market_positioning', 'asset_ownership', 'nfc_smart_commerce']
-- raw_candidates: 3
-- parseable_candidates: 3
-- normalized_candidates: 3
+- lenses: ['vertical_farming_economics', 'energy_localization', 'wildcard']
+- raw_candidates: 1
+- parseable_candidates: 1
+- normalized_candidates: 1
 - normalization_rejected: 0
-- grounded_sources: 7
+- grounded_sources: 2
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 1
+- judge_attempts: 0
 - critic_reviews: 1
-- judge_reviews: 1
+- judge_reviews: 0
 - survivors: 0
-- watches: 3
-- rejected: 0
+- watches: 1
+- rejected: 1
 - errors_by_stage: {}
-- rejection_reasons: {'discarded_ungrounded_url': 1}
-- cost_usd: 0.04360785
+- rejection_reasons: {}
+- cost_usd: 0.02881225
 - cost_uncertain: False
-- budget_remaining_usd: 0.03639215
+- budget_remaining_usd: 0.05118775
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Independent seasonal operations for agricultural weeding robots: deferred_by_review_cap
 - Warehouse-cleaning robot pilot sold as an operating expense: deferred_by_review_cap
 - Independent commissioning and support wedge for imported cobots and industrial robots: deferred_by_review_cap
 - Chile Open-Finance conformance harness before July 2027 implementation: deferred_by_review_cap
@@ -51,12 +50,13 @@ No survivors. Scout does not manufacture a daily winner.
 - NFC-enabled review and discovery cards for Chilean local merchants: deferred_by_review_cap
 - Marketplace-specific catalog and offer monitoring for Natura Chile sellers: deferred_by_review_cap
 - Chile Open Finance consent-and-data-quality test for fintech onboarding: The underlying regulatory timing is supported by CMF primary notices, so this is not rejected for an unverified or misread regulatory change. A narrowly scoped, offline validator built only from published specifications and synthetic/public test materials appears technically plausible without requiring production financial-data access. However, the proposal has not selected an exact consented-data workflow, regulated payer, buyer owner, or separately budgeted compliance need. Its candidate features overlap with regulator-provided sandbox/conformance functions, internal engineering, systems integrators, and incumbent connectivity providers. The evidence establishes an implementation window, not viable value capture. It survives only as tightly bounded research to test paid demand and permissible technical access before any integration or handling of customer data.
+- PMGD battery-congestion screening and dispatch-rights data product: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=fresh",
+    "deep_review_lane=backlog",
     "research_queue_unreviewed=52"
   ],
   "stages": [
@@ -65,38 +65,26 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 30,
+      "grounded_source_count": 18,
       "search_source_urls": [
-        "https://cmfchile.cl/portal/principal/613/articles-86367_doc_pdf.pdf",
-        "https://en.wikipedia.org/wiki/Falabella_%28retail_store%29",
-        "https://en.wikipedia.org/wiki/S.A.C.I._Falabella",
-        "https://es.wikipedia.org/wiki/Falabella",
-        "https://es.wikipedia.org/wiki/Grupo_Falabella",
-        "https://es.wikipedia.org/wiki/MercadoLibre",
-        "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/",
-        "https://linkd.cl/",
-        "https://listado.mercadolibre.cl/nfc-tag",
-        "https://listado.mercadolibre.cl/tarjetas-nfc",
-        "https://production.na01.natura.com/on/demandware.static/-/Sites-NatChile-Library/default/v4451a1d4e6abdb654aa976752e4626774c6ec279/landing-page/sustentabilidad/PDFs/Informe_Integrado_Natura_Co_2024_vf-22-09-2025.pdf",
-        "https://pt.wikipedia.org/wiki/Falabella_%28empresa%29",
-        "https://static.rede.natura.net/terminos-y-condiciones-31-01-chile.pdf",
-        "https://www.cmfchile.cl/portal/prensa/615/articles-100979_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.falabella.com/falabella-cl/brand/NATURA?mkid=LP_HM_NAT_36",
-        "https://www.falabella.com/falabella-cl/seller/Natura",
-        "https://www.falabella.com/static/staticContent/content/minisitios/rse/contenidoDescargable/REPORTEOFICIAL.PDF",
-        "https://www.fne.gob.cl/wp-content/uploads/2019/12/aprob54a_F207_2019.pdf",
-        "https://www.mercadolibre.cl/nfc-tag-215-10uni-1356-mhz-a-25mm-adhesivo-tarjeta-set/p/MLC2098562674",
-        "https://www.natura.cl/blog/mas-natura/guia-de-compra-online",
-        "https://www.natura.cl/c/home",
-        "https://www.natura.cl/encuentra-natura",
-        "https://www.reddit.com/r/PERU/comments/1iz47pn",
-        "https://www.reddit.com/r/RepublicadeChile/comments/1m7kvqz",
-        "https://www.reddit.com/r/chile/comments/1ugtuww/parece_que_van_a_despedir_a_alguien/",
-        "https://www.reddit.com/r/chile/comments/1wsk27i/en_coyhaique_van_a_abrir_un_falabella_y_en_el/",
-        "https://www.reddit.com/r/chileIT/comments/1n5q0pa/duda_de_totalmente_de_curioso_qu%C3%A9_pasar%C3%ADa_si/",
-        "https://www.reddit.com/r/rediturras/comments/1hwtcc7"
+        "https://bibliotecadigital.odepa.gob.cl/bitstreams/62c574dc-f15a-4457-b93f-33b30827342f/download",
+        "https://cartas.coordinador.cl/show/687529af3563573f157d308c",
+        "https://energia.gob.cl/node/24845",
+        "https://energia.gob.cl/noticias/nacional/caf-y-ministerio-de-energia-de-chile-lanzan-licitacion-para-estudio-clave-en-la-transicion-energetica-justa?page=3",
+        "https://energia.gob.cl/sites/default/files/documento_cuenta-publica_2025.pdf",
+        "https://energia.gob.cl/sites/default/files/documentos/informe_definitivo_pelp_2023-2027.pdf",
+        "https://energia.gob.cl/sites/default/files/documentos/reporte_de_proyectos_-_julio_2025.pdf",
+        "https://www.coordinador.cl/",
+        "https://www.coordinador.cl/novedades/coordinador-electrico-presenta-informe-de-monitoreo-de-la-competencia-con-desafios-estructurales/",
+        "https://www.coordinador.cl/novedades/informacion-respecto-de-la-situacion-del-sistema-electrico-nacional/",
+        "https://www.coordinador.cl/presentaciones/informe-monitoreo-de-la-competencia-en-el-mercado-electrico-2025/",
+        "https://www.coordinador.cl/wp-content/uploads/2026/04/Informe-Monitoreo-2025.pdf",
+        "https://www.coordinador.cl/wp-content/uploads/2026/06/Cuenta-Publica-Gestion-2025-CEN.pdf",
+        "https://www.energia.gob.cl/noticias/nacional/ministra-rincon-acompana-al-presidente-kast-en-jornada-clave-para-la-energia-en-antofagasta",
+        "https://www.energia.gob.cl/noticias/nacional/taller-online-desarrollo-de-proyectos-de-energia-tramitaciones-seguimiento",
+        "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=%2FkQDE5Hbf+CzMWL4Hzz0Fg%3D%3D",
+        "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=9VYrREuNkyc8M+gDwYlObA%3D%3D",
+        "https://www.odepa.gob.cl/sustentabilidad/agua-agropecuario-forestal"
       ]
     },
     {
@@ -115,140 +103,90 @@ No survivors. Scout does not manufacture a daily winner.
       "retry_justified": false
     },
     {
-      "index": 1,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 3,
-      "retry_justified": false
-    },
-    {
-      "index": 2,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [
-        "discarded_ungrounded_url"
-      ],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 2,
-      "retry_justified": false
-    },
-    {
       "stage": "critic",
-      "candidate_id": "opp_90d159d76ff43f002fe6",
+      "candidate_id": "opp_9ed2c5cffcc241526473",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 31,
+      "grounded_source_count": 40,
       "search_source_urls": [
-        "https://arxiv.org/abs/2306.06031",
-        "https://arxiv.org/abs/2307.10485",
-        "https://belvo.com/es/",
-        "https://belvo.com/es/blog/somos-estandar-del-open-finance-latinoamerica/",
-        "https://developers.belvo.com/apis/belvoopenapispec/investments-brazil",
-        "https://developers.belvo.com/es/apis/belvoopenapispec/links",
-        "https://developers.belvo.com/pt-br/apis/belvoopenapispec/institutions/listinstitutions",
-        "https://en.wikipedia.org/wiki/Open_finance",
-        "https://es.wikipedia.org/wiki/Bolsa_Electr%C3%B3nica_de_Chile",
-        "https://es.wikipedia.org/wiki/Fapro",
-        "https://es.wikipedia.org/wiki/Finanzas_abiertas",
-        "https://es.wikipedia.org/wiki/Fintual_%28empresa%29",
-        "https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_financiera",
-        "https://openfinance.institute/proveedores",
-        "https://publications.iadb.org/publications/english/document/Open-Finance-in-Latin-America-and-the-Caribbean-Great-Opportunities-Large-Challenges.pdf",
-        "https://www.camara.cl/fiscalizacion/oficios_fiscalizacion/detalle_oficio.aspx?prmIdOficio=325576",
-        "https://www.cmfchile.cl/portal/prensa/615/articles-87624_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.df.cl/noticias/site/docs/20250925/20250925181657/suplemento_20250926.pdf",
-        "https://www.df.cl/noticias/site/docs/20251219/20251219141240/suplemento_20251222.pdf",
-        "https://www.fintoc.com/cl/producto/connections",
-        "https://www.imf.org/-/media/files/publications/cr/2025/english/1chlea2025001-print-pdf.pdf",
-        "https://www.leychile.cl/leychile/Navegar?idNorma=1187323&idParte=10393566",
-        "https://www.openbankingtracker.com/open-banking-apis-latin-america",
-        "https://www.reddit.com/r/ChileStartup/comments/1vuieis/duda_sobre_material_y_fuentes_para_fintech/",
-        "https://www.reddit.com/r/chileIT/comments/1jcs4sd",
-        "https://www.reddit.com/r/fintech/comments/1lu7lpk",
-        "https://www.reddit.com/r/fintech/comments/1o2mw9k/the_financial_data_api_market_is_broken_heres_why/",
-        "https://www.reddit.com/r/u_CryptoConexion/comments/1eejg9l",
-        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000069/MNCenglish.pdf"
+        "https://acsess.onlinelibrary.wiley.com/doi/10.1002/agj2.70246",
+        "https://arxiv.org/abs/2103.11294",
+        "https://arxiv.org/abs/2112.02162",
+        "https://arxiv.org/abs/2401.13931",
+        "https://arxiv.org/abs/2405.09118",
+        "https://bsssjournals.onlinelibrary.wiley.com/doi/10.1111/ejss.70302",
+        "https://doi.org/10.4081/ija.2021.1865",
+        "https://en.wikipedia.org/wiki/Agricultural_robot",
+        "https://en.wikipedia.org/wiki/Controlled_traffic_farming",
+        "https://en.wikipedia.org/wiki/Crop_scouting",
+        "https://en.wikipedia.org/wiki/FarmWise",
+        "https://en.wikipedia.org/wiki/Hands_Free_Hectare",
+        "https://en.wikipedia.org/wiki/Trap_crop",
+        "https://hohpublica.uni-hohenheim.de/bitstreams/ec18b0d5-4e7d-45c5-a54b-32144ad64198/download",
+        "https://link.springer.com/article/10.1007/s11119-026-10425-7",
+        "https://link.springer.com/article/10.1007/s11119-026-10445-3",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11510896/",
+        "https://www.ars.usda.gov/research/publications/publication/?seqNo115=351065",
+        "https://www.ers.usda.gov/media/8791/err-217.pdf?v=90122",
+        "https://www.frontiersin.org/journals/agronomy/articles/10.3389/fagro.2024.1388452/pdf?isPublishedV2=false",
+        "https://www.jstage.jst.go.jp/article/jsamfe/88/2/88_116/_pdf/-char/en",
+        "https://www.mdpi.com/1424-8220/24/20/6743/pdf?version=1729411690",
+        "https://www.mdpi.com/1424-8220/26/10/2925",
+        "https://www.mdpi.com/2073-4395/16/19/1928",
+        "https://www.mdpi.com/2624-7402/8/4/133",
+        "https://www.reddit.com/r/AgriTech/comments/1wor6vu/for_ag_robots_pest_detection_may_not_be_the/",
+        "https://www.reddit.com/r/AgriTech/comments/1wwguu8/ndsu_rowcrop_robot_achieves_965_weeding_accuracy/",
+        "https://www.reddit.com/r/Agriculture/comments/jcq4h1",
+        "https://www.reddit.com/r/Futurology/comments/11pguw9/aipowered_robots_cut_out_weeds_while_leaving/",
+        "https://www.reddit.com/r/Futurology/comments/mz2nff",
+        "https://www.reddit.com/r/farming/comments/1hxqzku",
+        "https://www.reddit.com/r/farmingsimulator/comments/1iv8dcw",
+        "https://www.reddit.com/r/farmingsimulator/comments/hzll2d",
+        "https://www.reddit.com/r/robotics/comments/11clbkk",
+        "https://www.reddit.com/r/robotics/comments/1l7td89",
+        "https://www.reddit.com/r/robotics/comments/1sfylpx/aigens_autonomous_solar_robots_identify_and/",
+        "https://www.reddit.com/r/u_imeritdigital/comments/1vy1du8/a_weed_and_a_crop_can_share_the_same_pixel/",
+        "https://www.researchgate.net/journal/AgriEngineering-2624-7402/publication/383953172_Recent_Advances_in_Agricultural_Robots_for_Automated_Weeding/links/67dd8fc0e62c604a0df8e6a1/Recent-Advances-in-Agricultural-Robots-for-Automated-Weeding.pdf",
+        "https://www.sciencedirect.com/science/article/pii/S0167880923005200",
+        "https://www.sciencedirect.com/science/article/pii/S016816991830276X"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_90d159d76ff43f002fe6",
+      "candidate_id": "opp_9ed2c5cffcc241526473",
       "coercions": [
         "contrary_evidence"
       ]
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_90d159d76ff43f002fe6",
-      "response_status": "completed",
-      "incomplete_reason": "",
-      "grounded_source_count": 0,
-      "search_source_urls": []
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_90d159d76ff43f002fe6",
-      "coercions": []
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 251,
-      "cache_write_tokens": 5237,
+      "reasoning_tokens": 320,
+      "cache_write_tokens": 5462,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01529925,
+      "cumulative_cost_usd": 0.0141377,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13739,
+      "input_tokens": 13827,
       "cached_tokens": 0,
-      "output_tokens": 1908,
+      "output_tokens": 916,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01529925
+      "estimated_cost_usd": 0.0141377
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 152,
-      "cache_write_tokens": 5268,
+      "reasoning_tokens": 180,
+      "cache_write_tokens": 5471,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02967785,
+      "cumulative_cost_usd": 0.02881225,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13772,
+      "input_tokens": 14091,
       "cached_tokens": 0,
-      "output_tokens": 1134,
+      "output_tokens": 1319,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0143786
-    },
-    {
-      "stage": "judge",
-      "available": true,
-      "reasoning_tokens": 57,
-      "cache_write_tokens": 2872,
-      "accounting_notes": [],
-      "cumulative_cost_usd": 0.04360785,
-      "model": "gpt-5.6-terra",
-      "input_tokens": 2875,
-      "cached_tokens": 0,
-      "output_tokens": 562,
-      "web_search_calls": 0,
-      "estimated_cost_usd": 0.01393
+      "estimated_cost_usd": 0.01467455
     }
   ]
 }
