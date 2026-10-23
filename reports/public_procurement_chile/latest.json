@@ -1,12 +1,155 @@
 {
-  "active_candidates": [],
-  "active_structurally_reconstructable_count": 0,
+  "active_candidates": [
+    {
+      "available_budget_clp": 6000000.0,
+      "buyer": "I MUNICIPALIDAD DE TENO",
+      "closes_at": "2026-10-26T09:00:00",
+      "code": "872535-515-COT26",
+      "estimated_budget": 6000000.0,
+      "name": "CONTRATACION SERVICIO DE LEVANTAMIENTO TOPOGRÁFICO CALLES: ORTÚZAR, SERRANO, ALMIRANTE LATORRE, ARTURO PRAT, SAN JUAN DE DIOS, SOTOMAYOR Y ESMERALDA, CALLES CÉNTRICAS DE LA COMUNA DE TENO",
+      "products": 1,
+      "region": "Región del Maule"
+    },
+    {
+      "available_budget_clp": 4500000.0,
+      "buyer": "I MUNICIPALIDAD DE CURICO",
+      "closes_at": "2026-10-26T12:00:00",
+      "code": "2440-2020-COT26",
+      "estimated_budget": 4500000.0,
+      "name": "SALIDA PEDAGÓGICAS  ESCUELA ITALIA",
+      "products": 1,
+      "region": "Región del Maule"
+    },
+    {
+      "available_budget_clp": 357000.0,
+      "buyer": "GOBIERNO REGIONAL DE TARAPACA",
+      "closes_at": "2026-10-24T11:00:00",
+      "code": "768-129-COT26",
+      "estimated_budget": 357000.0,
+      "name": "Servicio de Actualización Técnica, Compatibilidad de Componentes y Mitigación de Vulnerabilidades PHP/WordPress para Gobierno Regional de Tarapacá.",
+      "products": 1,
+      "region": "Región de Tarapacá"
+    },
+    {
+      "available_budget_clp": 2000000.0,
+      "buyer": "SERVICIO DE SALUD ATACAMA HOSPITAL COPIA",
+      "closes_at": "2026-10-27T08:00:00",
+      "code": "1554-561-COT26",
+      "estimated_budget": 2000000.0,
+      "name": "REQUERIMIENTO PRECINTOS DESECHABLES / SERVICIO DE ESTERILIZACION",
+      "products": 1,
+      "region": "Región de Atacama"
+    },
+    {
+      "available_budget_clp": 350000.0,
+      "buyer": "I MUNICIPALIDAD DE CURICO",
+      "closes_at": "2026-10-24T11:00:00",
+      "code": "2436-1697-COT26",
+      "estimated_budget": 350000.0,
+      "name": "Adquisicion de insumos de alimentos y elementos de proteccion, necesarios para Ecomercado solidarios",
+      "products": 1,
+      "region": "Región del Maule"
+    },
+    {
+      "available_budget_clp": 301910.0,
+      "buyer": "BASE INFANTERIA DE MARINA CONCON",
+      "closes_at": "2026-10-27T10:00:00",
+      "code": "576181-174-COT26",
+      "estimated_budget": 301910.0,
+      "name": "ADQUISICION DE 02 NEUMATICOS PARA AU-503",
+      "products": 1,
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 235918.0,
+      "buyer": "ILUSTRE MUNICIPALIDAD DE SAN CARLOS",
+      "closes_at": "2026-10-26T12:00:00",
+      "code": "2724-952-COT26",
+      "estimated_budget": 235918.0,
+      "name": "KITS ERGONOMICOS",
+      "products": 1,
+      "region": "Región del Ñuble"
+    },
+    {
+      "available_budget_clp": 3873450.0,
+      "buyer": "CENTRO DE REFERENCIA DE SALUD DE PENALOLEN CORDILLERA ORIENTE",
+      "closes_at": "2026-10-26T11:30:00",
+      "code": "1973-951-COT26",
+      "estimated_budget": 3873450.0,
+      "name": "INSTRUMENTAL DE PERIODONCIA",
+      "products": 10,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 1200000.0,
+      "buyer": "Centro de Educación y Trabajo San Carlos",
+      "closes_at": "2026-10-26T12:00:00",
+      "code": "1250623-30-COT26",
+      "estimated_budget": 1200000.0,
+      "name": "C.E.T San Carlos Bandera Nacional e Institucional",
+      "products": 4,
+      "region": "Región del Ñuble"
+    },
+    {
+      "available_budget_clp": 6600000.0,
+      "buyer": "COMPLEJO ASISTENCIAL DR. SOTERO DEL RIO",
+      "closes_at": "2026-10-26T08:00:00",
+      "code": "1057501-3707-COT26",
+      "estimated_budget": 6600000.0,
+      "name": "41-333-200-386-00 CABLE PARA SENSOR DE O2 / MAQUINA DE ANESTECIA EQUIVALENTE A MINDRAY",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 210000.0,
+      "buyer": "SERVICIO DE SALUD DE ARICA Y PARINACOTA",
+      "closes_at": "2026-10-26T14:00:00",
+      "code": "635-625-COT26",
+      "estimated_budget": 210000.0,
+      "name": "COMPRA DE HERVIDOR 20 LITROS UNIDAD FORENSE",
+      "products": 1,
+      "region": "Región de Arica y Parinacota"
+    },
+    {
+      "available_budget_clp": 5600000.0,
+      "buyer": "SERVICIO SALUD OCCIDENTE HOSPITAL DR FELIX BULNES CERDA",
+      "closes_at": "2026-10-24T10:40:00",
+      "code": "1002772-2847-COT26",
+      "estimated_budget": 5600000.0,
+      "name": "BROCA CANULADA PARA TOGGLELOC 4.5MM *ADJUNTAR FICHA TECNICA* ANCLA ZIPTIGHT AC JOINT 1 *ADJUNTAR FICHA TECNICA* KIT DE COLOCACION ZIPTIGHT AC *ADJUNTAR FICHA TECNICA*",
+      "products": 3,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 6000000.0,
+      "buyer": "SERVICIO DE SALUD METROPOLITANA NORTE HOSPITAL SAN JOSE",
+      "closes_at": "2026-10-24T11:00:00",
+      "code": "1549-4434-COT26",
+      "estimated_budget": 6000000.0,
+      "name": "252-4068 PRÓTESIS ACRÍLICA",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 99998.0,
+      "buyer": "I MUNICIPALIDAD DE ANTOFAGASTA",
+      "closes_at": "2026-10-24T11:00:00",
+      "code": "2429-1132-COT26",
+      "estimated_budget": 99998.0,
+      "name": "BAUL ORGANIZADOR 100 LTS. (DIRECCION DE CULTURA)",
+      "products": 1,
+      "region": "Región de Antofagasta"
+    }
+  ],
+  "active_structurally_reconstructable_count": 14,
   "diagnostics": {
-    "api_failures": {},
+    "api_failures": {
+      "api_rate_limited": 1
+    },
     "budget_exhausted": false,
     "detail_attempts": 20,
     "detail_cap_exhausted": true,
-    "details_fetched": 20,
+    "details_fetched": 19,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -18,24 +161,24 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-10-23T05:02:59Z",
-  "inserted_history": 20,
+  "generated_at": "2026-10-23T13:35:35Z",
+  "inserted_history": 19,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
+  "outcome": "DEGRADED_API_ERRORS",
   "phase1": {
-    "records": 20,
+    "records": 19,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 2
+      "no_observable_competitive_prices": 3
     },
-    "resolved": 20,
-    "structurally_reconstructable": 18,
-    "with_observable_quote_totals": 18,
-    "with_purchase_order_indicator": 1
+    "resolved": 5,
+    "structurally_reconstructable": 16,
+    "with_observable_quote_totals": 2,
+    "with_purchase_order_indicator": 2
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-23T05:02:59Z"
+    "changed_to": "2026-10-23T13:35:35Z"
   }
 }
