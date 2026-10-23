@@ -1,97 +1,6 @@
 {
-  "active_candidates": [
-    {
-      "available_budget_clp": 3300000.0,
-      "buyer": "UNIVERSIDAD DE VALPARAISO",
-      "closes_at": "2026-10-24T08:00:00",
-      "code": "5762-160-COT26",
-      "estimated_budget": 3300000.0,
-      "name": "ADQUISICIÓN, INSTALACIÓN Y MANTENCION PREVENTIVA Y/O CORRECTIVA DE EQUIPOS DE CLIMATIZACIÓN",
-      "products": 3,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 700000.0,
-      "buyer": "HOSPITAL BASE OSORNO",
-      "closes_at": "2026-10-23T20:30:00",
-      "code": "1063538-2457-COT26",
-      "estimated_budget": 700000.0,
-      "name": "Catéteres urinarios",
-      "products": 2,
-      "region": "Región de los Lagos"
-    },
-    {
-      "available_budget_clp": 900000.0,
-      "buyer": "HOSPITAL BASE OSORNO",
-      "closes_at": "2026-10-23T20:30:00",
-      "code": "1063538-2456-COT26",
-      "estimated_budget": 900000.0,
-      "name": "Catéteres vasculares y de acceso venoso",
-      "products": 2,
-      "region": "Región de los Lagos"
-    },
-    {
-      "available_budget_clp": 165500.0,
-      "buyer": "DELEGACIÓN PRESIDENCIAL PROVINCIAL DE ISLA DE PASCUA",
-      "closes_at": "2026-10-27T11:00:00",
-      "code": "4373-63-COT26",
-      "estimated_budget": 165500.0,
-      "name": "ADQUISICIÓN DE ALFOMBRA DE PVC- MANGERA Y BIDÓN PARA LA DELEGACIÓN PRESIDENCIAL PROVINCIAL DE ISLA DE PASCUA.",
-      "products": 3,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 1761200.0,
-      "buyer": "SECCIÓN COMPRAS VIII ZONA",
-      "closes_at": "2026-10-26T10:00:00",
-      "code": "1079576-129-COT26",
-      "estimated_budget": 1761200.0,
-      "name": "ADQUISICION  DE  PUERTA DE ACCESO PRINCIPAL DE LA 3RA. COMISARÍA NACIMIENTO  Y TENENCIA  HIGUERAS .",
-      "products": 2,
-      "region": "Región del Biobío"
-    },
-    {
-      "available_budget_clp": 220000.0,
-      "buyer": "UNIVERSIDAD DE TALCA",
-      "closes_at": "2026-10-23T20:15:00",
-      "code": "1469-3654-COT26",
-      "estimated_budget": 220000.0,
-      "name": "20-44468 ADQUISICIÓN DE ARTÍCULOS CORPORATIVOS",
-      "products": 2,
-      "region": "Región del Maule"
-    },
-    {
-      "available_budget_clp": 7000000.0,
-      "buyer": "I MUNICIPALIDAD DE MAULE",
-      "closes_at": "2026-10-23T20:10:00",
-      "code": "3880-505-COT26",
-      "estimated_budget": 7000000.0,
-      "name": "SERVICIO DE PRODUCCIÓN DE EVENTO DÍA DEL  FUNCIONARIO 2026\" Administración Municipal",
-      "products": 1,
-      "region": "Región del Maule"
-    },
-    {
-      "available_budget_clp": 2351250.0,
-      "buyer": "I MUNICIPALIDAD LO BARNECHEA",
-      "closes_at": "2026-10-26T09:30:00",
-      "code": "2735-1347-COT26",
-      "estimated_budget": 2351250.0,
-      "name": "ADQUISICIÓN DE 25 TECLADOS ERGONÓMICOS ALÁMBRICOS Y 25 MOUSE VERTICAL ERGONÓMICOS",
-      "products": 2,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 4700000.0,
-      "buyer": "I MUNICIPALIDAD DE CANELA",
-      "closes_at": "2026-10-23T20:15:00",
-      "code": "2288-729-COT26",
-      "estimated_budget": 4700000.0,
-      "name": "Servicio horas máquina Retroexcavadora",
-      "products": 1,
-      "region": "Región de Coquimbo"
-    }
-  ],
-  "active_structurally_reconstructable_count": 9,
+  "active_candidates": [],
+  "active_structurally_reconstructable_count": 0,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -109,7 +18,7 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-10-22T23:27:34Z",
+  "generated_at": "2026-10-23T05:02:59Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -119,14 +28,14 @@
     "rejection_reasons": {
       "no_observable_competitive_prices": 2
     },
-    "resolved": 11,
+    "resolved": 20,
     "structurally_reconstructable": 18,
-    "with_observable_quote_totals": 9,
-    "with_purchase_order_indicator": 3
+    "with_observable_quote_totals": 18,
+    "with_purchase_order_indicator": 1
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-22T23:27:34Z"
+    "changed_to": "2026-10-23T05:02:59Z"
   }
 }
