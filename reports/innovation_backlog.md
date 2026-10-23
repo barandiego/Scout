@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 122
+Candidates: 123
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -783,6 +783,18 @@ Candidates: 122
 - Critical gaps: Whether ATENA produces an official or procurement-acceptable conformance result, or merely supports development testing.; Whether the CMF will publish formal certification, audit, reporting, or evidence requirements that create demand for an external artifact.; The number of institutions required to participate in each implementation phase and the subset with budget authority for external testing.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html
+
+## Chile SFA developer-conformance test harness before July 2027 implementation
+- Status: watch | open_finance_chile
+- Current idea: A narrowly scoped interoperability and conformance test asset could be useful before regulated entities need production readiness. This is a preparatory wedge, not evidence of an established market or guaranteed demand.
+- Potential economic capture: Sell or license a downloadable/API-based test suite, schema validator, mock participant server, and compliance-oriented test reports. No verified price or buyer contract was found.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cdn.hacienda.cl/asset/hacienda_prod/attachment/e3c0a8c3b7d47dbb3f9b3e28a1bb11881759c8266302d7fc2de981ec599c369a/1769809551?_expiration=1776720910&_hash=Ue9QaJpD7YDUx8eM3myFf9t86l0s3XUWOW6FWuweMf8
 
 ## Chile SFA implementation adapter for consent, directory and API conformance
 - Status: watch | open_finance_chile

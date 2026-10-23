@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-23T09:07:23.417833+00:00
+Generated: 2026-10-23T16:28:51.082903+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 122 (0 HQ survivors, 122 watches)
-- Rejected opportunities excluded: 63
+- Active research: 123 (0 HQ survivors, 123 watches)
+- Rejected opportunities excluded: 64
 - Critic-and-judge reviewed: 57
 - Autonomous execution authorization: 0
 
@@ -832,6 +832,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812
+
+### Chile SFA developer-conformance test harness before July 2027 implementation [opp_32e5affc69f7f526e7c4]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: A narrowly scoped interoperability and conformance test asset could be useful before regulated entities need production readiness. This is a preparatory wedge, not evidence of an established market or guaranteed demand.
+- Value capture: Sell or license a downloadable/API-based test suite, schema validator, mock participant server, and compliance-oriented test reports. No verified price or buyer contract was found.
+- Participation hypothesis: Use only the CMF technical annex and developer materials as the specification. Build a minimal validator for one exchange flow and one payment-initiation flow; publish reproducible test results and request technical feedback from listed prospective participants or ecosystem developers. Falsification step: spend one weekend implementing a small subset, then check whether the official materials are sufficiently complete and whether at least three identifiable ecosystem participants will review or test it. Do not process live financial data or cla
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cdn.hacienda.cl/asset/hacienda_prod/attachment/e3c0a8c3b7d47dbb3f9b3e28a1bb11881759c8266302d7fc2de981ec599c369a/1769809551?_expiration=1776720910&_hash=Ue9QaJpD7YDUx8eM3myF
 
 ### Chile SFA implementation moves from rulemaking to integration testing [opp_82f282d8dc0896390ee7]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile

@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-23T09:07:22.965024+00:00
+Generated: 2026-10-23T16:28:50.681584+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['adoption_lag', 'underserved_buyers', 'seller_supply_gap']
-- raw_candidates: 3
-- parseable_candidates: 3
-- normalized_candidates: 3
+- lenses: ['chile_technology_import', 'early_adoption_investing', 'market_positioning']
+- raw_candidates: 2
+- parseable_candidates: 2
+- normalized_candidates: 2
 - normalization_rejected: 0
-- grounded_sources: 5
+- grounded_sources: 4
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
 - critic_reviews: 1
 - judge_reviews: 1
 - survivors: 0
-- watches: 3
+- watches: 1
 - rejected: 1
 - errors_by_stage: {}
-- rejection_reasons: {'discarded_ungrounded_url': 1, 'underlying_not_verified_real': 1, 'insufficient_unique_evidence': 1, 'no_credible_source_class': 1, 'low_evidence_confidence': 1, 'not_actionable': 1}
-- cost_usd: 0.04510105
+- rejection_reasons: {}
+- cost_usd: 0.0433751
 - cost_uncertain: False
-- budget_remaining_usd: 0.03489895
+- budget_remaining_usd: 0.0366249
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Natura marketplace price-and-assortment test on Falabella.com Chile: deferred_by_review_cap
 - Single-station machine-vision retrofit for legacy production lines: deferred_by_review_cap
 - Chile SFA interoperability readiness kit for prospective PSBI/PSIP participants: The regulatory premise is sufficiently grounded in CMF primary sources: Chile’s SFA technical annex, developer materials, phased implementation, and July 2027 effective date are not merely an unverified regulatory-change claim. A narrowly scoped, non-production readiness-review artifact can plausibly be researched without the operator itself becoming a PSBI/PSIP or handling live customer financial data. However, the opportunity has not established that the necessary sandbox/API access is stable and usable for third-party testing, nor that a defined regulated payer has a budgeted gap beyond CMF materials, ATENA, internal teams, incumbent consultants, and existing SFA/FAPI vendors. The likely offering is episodic high-touch consulting/compliance support, with unproven repeatability and value capture. It survives only as a customer-discovery hypothesis, not as an HQ-worthy validated business case.
 - CMF Open Finance sandbox conformance kit for smaller Chilean participants: deferred_by_review_cap
@@ -51,13 +50,14 @@ No survivors. Scout does not manufacture a daily winner.
 - Chile SFA API conformance and consent-flow test harness before July 2027 go-live: The regulatory and technical premise is sufficiently grounded to justify further HQ research: CMF primary materials indicate an SFA technical annex, developer documentation, and a pre-go-live testing period through July 2027, while the published account APIs make deterministic conformance tests technically plausible. No fatal regulatory-misread or unavailable-data condition is established on the supplied record. However, this is not yet a validated business wedge. The official ATENA sandbox and visible local offerings (including SFA-Sandbox and NEXOS SFA) may substantially substitute for the proposed testing, mock, consent-flow, and reporting package. The likely customer set is limited, access to real participant implementations is unproven, and an independent evidence report may have little value if formal certification, trusted-assessor status, or incumbent integrator relationships determine procurement. Retain only as a narrow research hypothesis: identify a specific participant class and a defect category that official tooling and incumbent vendors do not cover, then verify willingness to pay before building broad infrastructure.
 - Transparent used-robot sourcing and pre-purchase inspection for small manufacturers: deferred_by_review_cap
 - Low-cost narrow-row weeding robot as a paid field trial or custom build: deferred_by_review_cap
+- Chile SFA developer-conformance test harness before July 2027 implementation: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=backlog",
-    "research_queue_unreviewed=60"
+    "deep_review_lane=fresh",
+    "research_queue_unreviewed=61"
   ],
   "stages": [
     {
@@ -65,49 +65,45 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 41,
+      "grounded_source_count": 37,
       "search_source_urls": [
-        "https://apnews.com/article/cbb16a14376e34c48733618616c5afe2",
-        "https://arxiv.org/abs/2112.02162",
-        "https://arxiv.org/abs/2506.06798",
-        "https://arxiv.org/abs/2509.25056",
-        "https://arxiv.org/abs/2605.23863",
-        "https://en.wikipedia.org/wiki/Agricultural_robot",
-        "https://en.wikipedia.org/wiki/Computer_Automation",
-        "https://en.wikipedia.org/wiki/FarmWise",
-        "https://en.wikipedia.org/wiki/Industrial_robot",
-        "https://en.wikipedia.org/wiki/Neocortex_AI",
-        "https://en.wikipedia.org/wiki/Wolf_Robotics",
-        "https://formic.co/resources/articles/used-robot-vs-robots-as-a-service?trk=article-ssr-frontend-pulse_little-text-block",
-        "https://igam.com/robot-capabilities/",
-        "https://igam.com/robot-inventory/",
-        "https://ir.richtechrobotics.com/static-files/e07bfd81-eaee-4bab-bbba-816e556ecf95",
-        "https://merger.com/wp-content/uploads/2025/12/Q2-2023-Manufacturing-Automation-Industry-Report-Final.pdf",
-        "https://palletizersystem.com/used-palletizer/",
-        "https://par.nsf.gov/servlets/purl/10350121",
-        "https://pexara.ai/resources/2026-08-10-used-arm-split-transparency",
-        "https://roboquo.com/",
-        "https://robotrfq.com/",
-        "https://www.axa-im-usa.com/document/4557/view",
-        "https://www.ballardintl.com/",
-        "https://www.fivewestfinancial.com/blog/robotics-automation-private-party-purchase.html",
-        "https://www.harmonicrange.com/",
-        "https://www.harmonicrange.com/prices",
-        "https://www.kuka.com/-/media/kuka-corporate/documents/press/news/2023/05/kuka-press-release_automation-in-smes-to-combat-shortage-of-skilled-workers.pdf?hash=9F0A3F38C97F8AF4F19961E66854E33D&rev=-1",
-        "https://www.ndsu.edu/agriculture/sites/default/files/2026-02/2026%20ACAW%20ANDERSON%20Robotic%20Weeding%20PPT.pdf",
-        "https://www.reddit.com/r/AskRobotics/comments/1x6er07/buying_your_first_used_industrial_robot_what_do/",
-        "https://www.reddit.com/r/PLC/comments/oq43lk",
-        "https://www.reddit.com/r/automation/comments/1v7xu4t/how_expensive_is_it_really_to_deploy_industrial/",
-        "https://www.reddit.com/r/indianeconomy/comments/1x7hw4j/indias_robot_boom_why_low_labor_costs_are_no/",
-        "https://www.reddit.com/r/manufacturing/comments/y5bz30/low_cost_automation/",
-        "https://www.reddit.com/r/robotics/comments/12l4xfm",
-        "https://www.reddit.com/r/robotics/comments/18upls9/why_dont_robotics_manufactures_post_prices/",
-        "https://www.reddit.com/r/robotics/comments/1ep4q46",
-        "https://www.reddit.com/r/robotics/comments/1eqr4mx",
-        "https://www.reddit.com/r/robotics/comments/1mjbm83",
-        "https://www.reddit.com/r/robotics/comments/1x51xaa/whats_stopping_small_manufacturers_from_adopting/",
-        "https://www.reddit.com/r/stocks/comments/1hiyfzi",
-        "https://www.tycherobot.com/what-does-a-used-industrial-robot-cost"
+        "https://arxiv.org/abs/2306.06031",
+        "https://arxiv.org/abs/2605.28714",
+        "https://arxiv.org/abs/2606.05594",
+        "https://arxiv.org/abs/2606.24783",
+        "https://cdn.hacienda.cl/asset/hacienda_prod/attachment/e3c0a8c3b7d47dbb3f9b3e28a1bb11881759c8266302d7fc2de981ec599c369a/1769809551?_expiration=1776720910&_hash=Ue9QaJpD7YDUx8eM3myFf9t86l0s3XUWOW6FWuweMf8",
+        "https://dintass.cl/collections/robots-industriales",
+        "https://en.wikipedia.org/wiki/Open_banking",
+        "https://en.wikipedia.org/wiki/Open_finance",
+        "https://es.wikipedia.org/wiki/Comisi%C3%B3n_para_el_Mercado_Financiero",
+        "https://publico.transbank.cl/productos-y-servicios/soluciones-para-ventas-presenciales/pocket-pos",
+        "https://reviewstandapp.com/mayorista/proveedor-atriles-tarjetas-nfc-virgenes-chile",
+        "https://totemsantiago.carrd.co/",
+        "https://www.aither.cl/tap/",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.elibrary.imf.org/downloadpdf/view/journals/002/2025/037/article-A001-en.pdf",
+        "https://www.imf.org/-/media/files/publications/cr/2024/english/1chlea2024002.pdf",
+        "https://www.imf.org/_next/data/EpnxHCnVQm0tS7VzM-X4o/en/-/media/files/publications/cr/2024/english/1chlea2024002.pdf.json",
+        "https://www.klap.cl/",
+        "https://www.ondda.cl/",
+        "https://www.proplus.cl/robotica/",
+        "https://www.puntotap.cl/condiciones-de-venta",
+        "https://www.reddit.com/r/Compliance_Advisor/comments/1r9qx01/money_laundering_act_of_10_february_2026_all/",
+        "https://www.reddit.com/r/FinCrimeAcademy/comments/1vl6vni/amlo_duties_under_sec_5_6_15_gwg_by_the_2026_amla/",
+        "https://www.reddit.com/r/KPTI/comments/1wdfe9y/8k_filed/",
+        "https://www.reddit.com/r/OriginFinancial/comments/1rnl41a/api/",
+        "https://www.reddit.com/r/PersonalFinanceCanada/comments/1t65mhe/open_banking_apis_thought_they_were_expected_for/",
+        "https://www.reddit.com/r/SPACs/comments/1vqiuvc/announcements_x_daily_discussion_for_monday/",
+        "https://www.reddit.com/r/chileIT/comments/1gf8fev/apis_bancarias/",
+        "https://www.reddit.com/r/eupersonalfinance/comments/k4ny3j",
+        "https://www.reddit.com/r/fintech/comments/1ql0iud/2026_revisiting_the_idea_of_a_finance_api_for/",
+        "https://www.reddit.com/r/fintech/comments/1we8c86/when_does_an_openbanking_connection_stop_being/",
+        "https://www.reddit.com/r/mcp/comments/1vccamk/i_built_an_mcp_server_for_brazilian_personal/",
+        "https://www.reddit.com/r/pennystocks/comments/1wzx9z2/upcoming_penny_stock_catalysts_in_october_2026/",
+        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000108/MNCjune2026signed.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1369568/000119312525080296/d920637dars.pdf",
+        "https://www.tuk.cl/es-cl/collections/todos-los-productos"
       ]
     },
     {
@@ -122,7 +118,7 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 3,
+      "grounded_sources": 2,
       "retry_justified": false
     },
     {
@@ -141,73 +137,64 @@ No survivors. Scout does not manufacture a daily winner.
       "retry_justified": false
     },
     {
-      "index": 2,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [
-        "discarded_ungrounded_url"
-      ],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 0,
-      "retry_justified": false
-    },
-    {
       "stage": "critic",
-      "candidate_id": "opp_9ce303aff6dc0368c324",
+      "candidate_id": "opp_9fdb56b2c4f09d058423",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 32,
+      "grounded_source_count": 40,
       "search_source_urls": [
-        "https://arxiv.org/abs/2012.15371",
-        "https://arxiv.org/abs/2303.04433",
-        "https://arxiv.org/abs/2501.09551",
-        "https://arxiv.org/abs/2606.30359",
-        "https://en.wikipedia.org/wiki/Curtailment_in_Chile",
-        "https://en.wikipedia.org/wiki/Solar_power_in_Chile",
-        "https://energia.gob.cl/sites/default/files/documentos/sistemas-de-almacenamiento_web.pdf",
-        "https://www.coordinador.cl/novedades/coordinador-electrico-presenta-informe-de-monitoreo-de-la-competencia-con-desafios-estructurales/",
-        "https://www.energia.gob.cl/noticias/nacional/ministra-rincon-inaugura-en-tarapaca-planta-fotovoltaica-con-uno-de-los-sistemas-de-almacenamiento-mas-grandes-de-latinoamerica",
-        "https://www.energyfintech.com/blog/observatorio-net-billing-chile",
-        "https://www.marwellsolar.com/chile-ci-bess-market-guide/",
-        "https://www.mordorintelligence.com/es/industry-reports/chile-solar-energy-market",
-        "https://www.pv-magazine-latam.com/2025/08/28/la-capacidad-instalada-en-pequena-escala-alcanza-3-962-mw-en-chile-con-predominio-solar-el-netbilling-alcanza-370-mw/",
-        "https://www.pv-magazine-latam.com/2026/07/01/chile-supera-los-500-mw-en-autoconsumo-bajo-netbilling/",
-        "https://www.pv-magazine.com/2026/07/02/pv-capacity-under-chiles-net-billing-scheme-exceeds-500-mw/",
-        "https://www.reddit.com/r/EnergyAndPower/comments/1kgwpm7",
-        "https://www.reddit.com/r/OptimistsUnite/comments/1jfjljf",
-        "https://www.reddit.com/r/OptimistsUnite/comments/1ko5zj9",
-        "https://www.reddit.com/r/climatechange/comments/1w06nyc/battery_boom_brings_roundtheclock_solar_closer/",
-        "https://www.reddit.com/r/solar/comments/1ixako0",
-        "https://www.reddit.com/r/solar/comments/1kp3a3j",
-        "https://www.reddit.com/r/solar/comments/1lpdmo0",
-        "https://www.reddit.com/r/solar/comments/1mp7891",
-        "https://www.reddit.com/r/solar/comments/1op9qt4",
-        "https://www.reddit.com/r/solar/comments/1pjd0qh/are_solar_prices_expected_to_change_at_all_now/",
-        "https://www.reddit.com/r/solar/comments/1wh6rof/is_business_booming/",
-        "https://www.reddit.com/r/solarenergy/comments/1t03axx/the_solar_and_battery_landscape_is_shifting_heres/",
-        "https://www.sec.cl/gda/",
-        "https://www.sec.cl/gda/pip/",
-        "https://www.sec.cl/ministerio-de-energia-y-sec-lanzan-plataforma-de-informacion-publica-para-generacion-distribuida/",
-        "https://www.sec.cl/sitio-web/wp-content/uploads/2021/12/1-Generacion-Distribuida.pdf",
-        "https://www.spec.cl/en/publicaciones/2026-almacenamiento-corta-duracion/"
+        "https://5.imimg.com/data5/SELLER/Doc/2024/12/470045374/YM/HN/TS/18936152/instant-google-review-card.pdf",
+        "https://arxiv.org/abs/1901.01642",
+        "https://arxiv.org/abs/1902.05413",
+        "https://arxiv.org/abs/1904.10623",
+        "https://arxiv.org/abs/2401.11345",
+        "https://documents1.worldbank.org/curated/en/099835305172210068/pdf/P164770-6919c515-c81d-41ff-b5c8-3899c587e8ee.pdf",
+        "https://en.wikipedia.org/wiki/Digital_business_card",
+        "https://en.wikipedia.org/wiki/Reputation_marketing",
+        "https://estudiosdeadministracion.uchile.cl/index.php/EDA/article/download/58138/65182",
+        "https://greengraphic.cl/products/tarjeta-nfc-con-diseno-personalizado-pvc-tarjeta-de-presentacion-virtual-copia?variant=67654606618794",
+        "https://library.institutpendidikan.ac.id/wp-content/uploads/2024/08/Digital-and-social-media-marketing-and-advertising-collection-Garris-Molly._-Mishra-Karen-E-A-beginner_s-guide-to-mobile-marketing-Business-Expert-Press-2015.pdf",
+        "https://manuals.plus/asin/B0CSXGC11L.pdf",
+        "https://member.aloa.org/membersonly/keynotes/archives/Keynotes-2024-03_FINAL_lowres.pdf",
+        "https://nfctech.cl/tarjetas-nfc-resenas-google",
+        "https://puntua.cl/",
+        "https://puntua.cl/",
+        "https://pymevisible.cl/tarjeta-nfc-qr",
+        "https://pymevisible.cl/tarjeta-nfc-qr",
+        "https://resenafacil.cl/",
+        "https://reviewstandapp.com/",
+        "https://reviewstandapp.com/",
+        "https://tarjetas-nfc.com/",
+        "https://vluetechservices.cl/catalogo/",
+        "https://www.aither.cl/tap/",
+        "https://www.mercadolibre.cl/tarjeta-nfc-para-google-review-blanco-con-qr-dinamico/p/MLC56647310",
+        "https://www.opinapp.cl/",
+        "https://www.opinapp.cl/",
+        "https://www.reddit.com/r/BusinessPH/comments/1xasvwi/im_planning_to_sell_customizable_nfc_card_with/",
+        "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1uyevyp/i_kept_watching_happy_customers_walk_out_and/",
+        "https://www.reddit.com/r/Entrepreneurs/comments/1txlk8v/would_you_pay_for_a_tool_that_collects_reviews/",
+        "https://www.reddit.com/r/GoogleMyBusiness/comments/1wsx83l/the_google_review_card_trend_what_they_are_what/",
+        "https://www.reddit.com/r/GoogleReviewTools/comments/1siysju/are_nfc_google_review_stands_better_than_qr_codes/",
+        "https://www.reddit.com/r/HonestSideHustles/comments/1wuxhnl/selling_google_review_cardswhats_this_side_hustle/",
+        "https://www.reddit.com/r/NFC/comments/1v9xopz/anyone_here_running_an_nfc_business_for/",
+        "https://www.reddit.com/r/SmallBusinessOwners/comments/1qv3d08/spotted_this_review_nfcqr_card_at_acafe/",
+        "https://www.reddit.com/r/WeirdSideHustles/comments/1uubz2f/teenagers_are_making_money_selling_google_review/",
+        "https://www.reddit.com/r/phinvest/comments/1w57k2r/nfc_cards/",
+        "https://www.reddit.com/r/smallbusiness/comments/1aerudv",
+        "https://www.reddit.com/r/u_UnifyTap/comments/1u73r8v/how_do_nfc_google_review_cards_and_qr_review/",
+        "https://www.resename.cl/products/tarjeta-nfc-para-google-reviews"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_9ce303aff6dc0368c324",
+      "candidate_id": "opp_9fdb56b2c4f09d058423",
       "coercions": [
         "contrary_evidence"
       ]
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_9ce303aff6dc0368c324",
+      "candidate_id": "opp_9fdb56b2c4f09d058423",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -215,7 +202,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_9ce303aff6dc0368c324",
+      "candidate_id": "opp_9fdb56b2c4f09d058423",
       "coercions": []
     }
   ],
@@ -223,44 +210,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 198,
-      "cache_write_tokens": 5549,
+      "reasoning_tokens": 287,
+      "cache_write_tokens": 5420,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01523405,
+      "cumulative_cost_usd": 0.0145636,
       "model": "gpt-5.6-luna",
-      "input_tokens": 14151,
+      "input_tokens": 13867,
       "cached_tokens": 0,
-      "output_tokens": 1772,
+      "output_tokens": 1266,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01523405
+      "estimated_cost_usd": 0.0145636
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 195,
-      "cache_write_tokens": 5388,
+      "reasoning_tokens": 196,
+      "cache_write_tokens": 5168,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02987505,
+      "cumulative_cost_usd": 0.0290576,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13878,
+      "input_tokens": 13654,
       "cached_tokens": 0,
-      "output_tokens": 1330,
+      "output_tokens": 1254,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.014641
+      "estimated_cost_usd": 0.014494
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 86,
-      "cache_write_tokens": 2944,
+      "reasoning_tokens": 0,
+      "cache_write_tokens": 3027,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.04510105,
+      "cumulative_cost_usd": 0.0433751,
       "model": "gpt-5.6-terra",
-      "input_tokens": 2947,
+      "input_tokens": 3030,
       "cached_tokens": 0,
-      "output_tokens": 655,
+      "output_tokens": 562,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.015226
+      "estimated_cost_usd": 0.0143175
     }
   ]
 }

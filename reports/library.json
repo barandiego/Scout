@@ -6436,6 +6436,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-23T16:28:22.696391+00:00",
+      "discovery_lens": "chile_technology_import",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF states that the amendment incorporates technical specifications, a developer portal, and postpones entry into force until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "Chile’s Hacienda material describes the open-finance framework, participating entities, payment initiation, and implementation timelines.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Chile’s Fintech and Open Finance Bill",
+          "url": "https://cdn.hacienda.cl/asset/hacienda_prod/attachment/e3c0a8c3b7d47dbb3f9b3e28a1bb11881759c8266302d7fc2de981ec599c369a/1769809551?_expiration=1776720910&_hash=Ue9QaJpD7YDUx8eM3myFf9t86l0s3XUWOW6FWuweMf8"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_32e5affc69f7f526e7c4",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-23T16:28:22.725304+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use only the CMF technical annex and developer materials as the specification. Build a minimal validator for one exchange flow and one payment-initiation flow; publish reproducible test results and request technical feedback from listed prospective participants or ecosystem developers. Falsification step: spend one weekend implementing a small subset, then check whether the official materials are sufficiently complete and whether at least three identifiable ecosystem participants will review or test it. Do not process live financial data or claim CMF certification.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A narrowly scoped interoperability and conformance test asset could be useful before regulated entities need production readiness. This is a preparatory wedge, not evidence of an established market or guaranteed demand.",
+      "title": "Chile SFA developer-conformance test harness before July 2027 implementation",
+      "type": "software_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell or license a downloadable/API-based test suite, schema validator, mock participant server, and compliance-oriented test reports. No verified price or buyer contract was found.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-08T12:14:40.353799+00:00",
       "discovery_lens": "open_finance_chile",
       "estimated_capital": "",
@@ -8595,13 +8649,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-23T09:07:23.417833+00:00",
+  "generated_at": "2026-10-23T16:28:51.082903+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 63,
+  "rejected_excluded": 64,
   "reviewed_cards": 57,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 185,
-  "watch": 122
+  "total_distinct_opportunities": 187,
+  "watch": 123
 }

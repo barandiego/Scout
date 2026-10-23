@@ -2468,6 +2468,42 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use only the CMF technical annex and developer materials as the specification. Build a minimal validator for one exchange flow and one payment-initiation flow; publish reproducible test results and request technical feedback from listed prospective participants or ecosystem developers. Falsification step: spend one weekend implementing a small subset, then check whether the official materials are sufficiently complete and whether at least three identifiable ecosystem participants will review or test it. Do not process live financial data or claim CMF certification.",
+      "current_thesis": "A narrowly scoped interoperability and conformance test asset could be useful before regulated entities need production readiness. This is a preparatory wedge, not evidence of an established market or guaranteed demand.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile SFA developer-conformance test harness before July 2027 implementation",
+      "opportunity_id": "opp_32e5affc69f7f526e7c4",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://cdn.hacienda.cl/asset/hacienda_prod/attachment/e3c0a8c3b7d47dbb3f9b3e28a1bb11881759c8266302d7fc2de981ec599c369a/1769809551?_expiration=1776720910&_hash=Ue9QaJpD7YDUx8eM3myFf9t86l0s3XUWOW6FWuweMf8"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell or license a downloadable/API-based test suite, schema validator, mock participant server, and compliance-oriented test reports. No verified price or buyer contract was found.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "First, download the CMF technical annex and Developers' Portal materials, map one narrow participant workflow, and build a local validator or consent-flow prototype using only published specifications. Then contact publicly listed SFA participants or fintech applicants with a no-commitment technical review request; do not represent the prototype as CMF-certified. Lowest-cost falsification: obtain three independent technical interviews and ask whether the same concrete conformance artifact would be purchased or used, and whether their current vendor stack already covers it. Stop if no participant confirms an uncovered requirement or permits a paid pilot.",
       "current_thesis": "Banks, card issuers, account providers and prospective fintech participants must translate the technical standard into consent management, participant-directory processes, secure interfaces, testing and operational controls. The likely value is in reducing implementation and certification friction, not in selling generic fintech strategy.",
       "founder_hours_initial_unverified_estimate": "",
@@ -4646,7 +4682,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-23T09:07:23.514205+00:00",
+  "generated_at": "2026-10-23T16:28:51.141817+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"
