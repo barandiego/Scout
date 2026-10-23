@@ -2066,6 +2066,91 @@
     {
       "ai_leverage": "",
       "authorized_for_execution": false,
+      "contrary_evidence": [
+        "The opportunity has a genuine trigger. CMF states that the June 1, 2026 amendment incorporated technical interoperability specifications, launched the developer portal, and postponed entry into force until July 2027. Source: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html. The account API documentation defines concrete account, balance, overdraft, and transaction endpoints with authentication, pagination, response codes, and consent-related access patterns, making at least a narrow deterministic test suite technically feasible. Source: https://cmfchile.atlassian.net/wiki/spaces/OFAC/pages/267649439/API%2BCuentas%2BOpen%2BFinance%2BChile%2Bv1.0.0. The regulator has explicitly encouraged institutions to test integrations and business models before go-live, which may create demand for implementation support. Source: https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html. A small, local, fixed-scope diagnostic could still win if it is cheaper and faster than a major consultancy, especially for smaller PSBI or PSIP participants."
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-23T03:23:15.926600+00:00",
+      "discovery_lens": "open_finance_chile",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The CMF states that the June 1, 2026 amendment to General Rule No. 514 incorporates technical specifications for interoperability, publishes a Developers’ Portal, and postpones entry into force until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "The CMF developer documentation specifies account-information APIs, including account listing, account details, balances, overdraft information and transactions, for PSBI and PSIP providers using customer consent.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "API Cuentas – Open Finance Chile v1.0.0",
+          "url": "https://cmfchile.atlassian.net/wiki/spaces/OFAC/pages/267649439/API%2BCuentas%2BOpen%2BFinance%2BChile%2Bv1.0.0"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.91,
+      "falsification_conditions": [
+        "At least five credible prospective participants decline to review the demo or state that ATENA, internal teams, or incumbent vendors already satisfy the need.",
+        "No participant agrees to a paid pilot, letter of intent, or paid diagnostic after being shown deterministic failures on the published APIs.",
+        "ATENA offers materially overlapping automated conformance, consent-flow, security, and reporting capabilities at no or low cost.",
+        "The official specifications remain too incomplete, change too frequently, or lack stable test vectors for repeatable pass/fail results.",
+        "A recognized certification requirement makes the proposed report unusable without accreditation or a formal partner.",
+        "Competitors such as SFA-Sandbox or NEXOS SFA demonstrate broader functionality and materially stronger market access at comparable pricing.",
+        "The test suite cannot identify meaningful defects beyond superficial schema and HTTP-status validation.",
+        "No customer can be acquired at a price that covers maintenance for specification changes, security updates, support, and Chilean market access."
+      ],
+      "geography": "Chile",
+      "id": "opp_adbd4e7c0a69c655a351",
+      "judge_reviewed": true,
+      "judgment": "The regulatory and technical premise is sufficiently grounded to justify further HQ research: CMF primary materials indicate an SFA technical annex, developer documentation, and a pre-go-live testing period through July 2027, while the published account APIs make deterministic conformance tests technically plausible. No fatal regulatory-misread or unavailable-data condition is established on the supplied record. However, this is not yet a validated business wedge. The official ATENA sandbox and visible local offerings (including SFA-Sandbox and NEXOS SFA) may substantially substitute for the proposed testing, mock, consent-flow, and reporting package. The likely customer set is limited, access to real participant implementations is unproven, and an independent evidence report may have little value if formal certification, trusted-assessor status, or incumbent integrator relationships determine procurement. Retain only as a narrow research hypothesis: identify a specific participant class and a defect category that official tooling and incumbent vendors do not cover, then verify willingness to pay before building broad infrastructure.",
+      "last_record_updated_at": "2026-10-23T03:23:42.313163+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "The number of entities that will actually need external conformance tooling, rather than using ATENA, internal engineering, vendors, or consultants.",
+        "Whether ATENA provides equivalent automated endpoint, consent, security, and evidence-reporting functionality or only a basic testing environment.",
+        "Whether CMF will require a formally accredited or recognized certification artifact, which could make an independent report commercially insufficient.",
+        "The final stability of the API, authentication, consent, payment-initiation, versioning, and certification requirements before July 2027.",
+        "The size of the addressable participant market and realistic willingness to pay."
+      ],
+      "participation_path": "Use only the official CMF developer portal and API specification to build a small local test suite covering the published account endpoints. Publish a non-production demo and test report. Then identify entities in the CMF participant directory and request permission for a fixed-scope technical pilot; do not access production systems or claim regulatory approval. Lowest-cost falsification: spend one to two days implementing tests for /accounts, /accounts/{accountID}/balance, and /accounts/{accountID}/transactions against a mock server, then ask at least five listed or publicly identifiable prospective participants whether the tests expose a problem they would pay to remediate. Kill the wedge if the specification is too incomplete to produce deterministic tests or if no prospective participant agrees to review the demo.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A newly published, testable API specification creates a finite implementation and interoperability problem before mandatory participation. The potentially monetizable gap is not generic fintech advice but a reusable software asset that detects schema, authentication, consent, endpoint, and response-conformance failures against the official specification.",
+      "title": "Chile SFA API conformance and consent-flow test harness before July 2027 go-live",
+      "type": "regulatory_implementation_asset",
+      "unknowns": [
+        "The number of entities that will actually need external conformance tooling, rather than using ATENA, internal engineering, vendors, or consultants.",
+        "Whether ATENA provides equivalent automated endpoint, consent, security, and evidence-reporting functionality or only a basic testing environment.",
+        "Whether CMF will require a formally accredited or recognized certification artifact, which could make an independent report commercially insufficient.",
+        "The final stability of the API, authentication, consent, payment-initiation, versioning, and certification requirements before July 2027.",
+        "The size of the addressable participant market and realistic willingness to pay.",
+        "Whether prospective participants will permit external testing against their implementations or share failures.",
+        "The founder's ability to support Spanish-language regulatory interpretation, FAPI/OAuth security testing, mTLS, JWS, and production-grade evidence handling.",
+        "Whether existing Chilean vendors can bundle this capability into broader regulatory implementation contracts at little incremental cost.",
+        "Whether ATENA includes automated API conformance, security/FAPI testing, consent-flow validation, mock services, and exportable evidence reports, versus a more basic interoperability sandbox.",
+        "Whether CMF will mandate, recognize, or otherwise influence certification/conformance evidence and who can issue it.",
+        "The number and category of PSBI, PSIP, and data-provider participants that will build or materially modify interfaces before go-live.",
+        "Which exact workflow has an unsatisfied payer: for example, pre-release regression evidence for a smaller regulated data provider rather than generic SFA implementation.",
+        "Actual procurement ownership, budget, implementation timelines, and willingness to buy a standalone tool rather than consultancy or incumbent-vendor support.",
+        "Competitor functionality, pricing, installed base, and whether they already serve the likely early participants.",
+        "Whether published specifications and official test vectors are stable enough to support repeatable, commercially credible pass/fail tests.",
+        "Whether a paid pilot can be obtained from a prospective participant after demonstrating a defect that ATENA and existing tools do not catch."
+      ],
+      "value_capture_mechanism": "Sell a narrowly scoped executable conformance package: automated API tests, mock participant endpoints, consent-flow test cases, schema validators, and a machine-readable compliance evidence report. A plausible payer is an entity preparing to participate as a PSBI, PSIP, or regulated data provider; whether any particular entity will purchase is unverified.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": true,
       "discovered_at": "2026-10-13T04:13:35.306242+00:00",
@@ -8362,13 +8447,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-22T22:58:40.612409+00:00",
+  "generated_at": "2026-10-23T03:23:42.799618+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 62,
-  "reviewed_cards": 55,
+  "reviewed_cards": 56,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 181,
-  "watch": 119
+  "total_distinct_opportunities": 182,
+  "watch": 120
 }

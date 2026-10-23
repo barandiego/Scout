@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-22T22:58:40.612409+00:00
+Generated: 2026-10-23T03:23:42.799618+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 119 (0 HQ survivors, 119 watches)
+- Active research: 120 (0 HQ survivors, 120 watches)
 - Rejected opportunities excluded: 62
-- Critic-and-judge reviewed: 55
+- Critic-and-judge reviewed: 56
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -242,6 +242,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Whether July 2027 is achievable or whether further postponements will occur.; The exact phase-by-phase dates for data access, payment initiation, and different participant groups.; When commercially meaningful API traffic and consumer adoption will emerge.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
+### Chile SFA API conformance and consent-flow test harness before July 2027 go-live [opp_adbd4e7c0a69c655a351]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: A newly published, testable API specification creates a finite implementation and interoperability problem before mandatory participation. The potentially monetizable gap is not generic fintech advice but a reusable software asset that detects schema, authentication, consent, endpoint, and response-conformance failures against the official specification.
+- Value capture: Sell a narrowly scoped executable conformance package: automated API tests, mock participant endpoints, consent-flow test cases, schema validators, and a machine-readable compliance evidence report. A plausible payer is an entity preparing to participate as a PSBI, PSIP, or regulated data provider; whether any particular entity will purchase is unverified.
+- Participation hypothesis: Use only the official CMF developer portal and API specification to build a small local test suite covering the published account endpoints. Publish a non-production demo and test report. Then identify entities in the CMF participant directory and request permission for a fixed-scope technical pilot; do not access production systems or claim regulatory approval. Lowest-cost falsification: spend one to two days implementing tests for /accounts, /accounts/{accountID}/balance, and /accounts/{accountID}/transactions against a mock server, then ask
+- Critic/judge: The regulatory and technical premise is sufficiently grounded to justify further HQ research: CMF primary materials indicate an SFA technical annex, developer documentation, and a pre-go-live testing period through July 2027, while the published account APIs make deterministic conformance tests technically plausible. No fatal regulatory-misread or unavailable-data condition is established on the supplied record. However, this is not yet
+- Next evidence gaps: The number of entities that will actually need external conformance tooling, rather than using ATENA, internal engineering, vendors, or consultants.; Whether ATENA provides equivalent automated endpoint, consent, security, and evidence-reporting functionality or only a basic testing environment.; Whether CMF will require a formally accredited or recognized certification artifact, which could make an independent report commercially insufficient.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.atlassian.net/wiki/spaces/OFAC/pages/267649439/API%2BCuentas%2BOpen%2BFinance%2BChile%2Bv1.0.0
 
 ### Chile SFA conformance-testing wedge ahead of the July 2027 implementation date [opp_20f82e47fa9080b32bd2]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile

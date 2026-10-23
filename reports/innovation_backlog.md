@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 119
+Candidates: 120
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -735,6 +735,18 @@ Candidates: 119
 - Critical gaps: Whether July 2027 is achievable or whether further postponements will occur.; The exact phase-by-phase dates for data access, payment initiation, and different participant groups.; When commercially meaningful API traffic and consumer adoption will emerge.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
+## Chile SFA API conformance and consent-flow test harness before July 2027 go-live
+- Status: watch | open_finance_chile
+- Current idea: A newly published, testable API specification creates a finite implementation and interoperability problem before mandatory participation. The potentially monetizable gap is not generic fintech advice but a reusable software asset that detects schema, authentication, consent, endpoint, and response-conformance failures against the official specification.
+- Potential economic capture: Sell a narrowly scoped executable conformance package: automated API tests, mock participant endpoints, consent-flow test cases, schema validators, and a machine-readable compliance evidence report. A plausible payer is an entity preparing to participate as a PSBI, PSIP, or regulated data provider; whether any particular entity will purchase is unverified.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: The number of entities that will actually need external conformance tooling, rather than using ATENA, internal engineering, vendors, or consultants.; Whether ATENA provides equivalent automated endpoint, consent, security, and evidence-reporting functionality or only a basic testing environment.; Whether CMF will require a formally accredited or recognized certification artifact, which could make an independent report commercially insufficient.
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.atlassian.net/wiki/spaces/OFAC/pages/267649439/API%2BCuentas%2BOpen%2BFinance%2BChile%2Bv1.0.0
 
 ## Chile SFA conformance and consent-flow testing for fintech participants before July 2027
 - Status: watch | open_finance_chile

@@ -2307,6 +2307,46 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use only the official CMF developer portal and API specification to build a small local test suite covering the published account endpoints. Publish a non-production demo and test report. Then identify entities in the CMF participant directory and request permission for a fixed-scope technical pilot; do not access production systems or claim regulatory approval. Lowest-cost falsification: spend one to two days implementing tests for /accounts, /accounts/{accountID}/balance, and /accounts/{accountID}/transactions against a mock server, then ask at least five listed or publicly identifiable prospective participants whether the tests expose a problem they would pay to remediate. Kill the wedge if the specification is too incomplete to produce deterministic tests or if no prospective participant agrees to review the demo.",
+      "current_thesis": "A newly published, testable API specification creates a finite implementation and interoperability problem before mandatory participation. The potentially monetizable gap is not generic fintech advice but a reusable software asset that detects schema, authentication, consent, endpoint, and response-conformance failures against the official specification.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "The number of entities that will actually need external conformance tooling, rather than using ATENA, internal engineering, vendors, or consultants.",
+        "Whether ATENA provides equivalent automated endpoint, consent, security, and evidence-reporting functionality or only a basic testing environment.",
+        "Whether CMF will require a formally accredited or recognized certification artifact, which could make an independent report commercially insufficient.",
+        "The final stability of the API, authentication, consent, payment-initiation, versioning, and certification requirements before July 2027.",
+        "The size of the addressable participant market and realistic willingness to pay.",
+        "Whether prospective participants will permit external testing against their implementations or share failures.",
+        "The founder's ability to support Spanish-language regulatory interpretation, FAPI/OAuth security testing, mTLS, JWS, and production-grade evidence handling."
+      ],
+      "investment_authorized": false,
+      "name": "Chile SFA API conformance and consent-flow test harness before July 2027 go-live",
+      "opportunity_id": "opp_adbd4e7c0a69c655a351",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://cmfchile.atlassian.net/wiki/spaces/OFAC/pages/267649439/API%2BCuentas%2BOpen%2BFinance%2BChile%2Bv1.0.0"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a narrowly scoped executable conformance package: automated API tests, mock participant endpoints, consent-flow test cases, schema validators, and a machine-readable compliance evidence report. A plausible payer is an entity preparing to participate as a PSBI, PSIP, or regulated data provider; whether any particular entity will purchase is unverified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use only public CMF SFA materials and developer-portal documentation to build a mock participant, consent journey and API contract tests. Publish a short reproducible test report and contact named entities listed in the official SFA participant/developer materials to ask whether they will pay for a sandbox conformance review. Falsification step: spend no more than one week implementing the highest-priority public flows; if the specifications are not sufficiently complete to produce executable tests or no relevant participant agrees to a discovery call, discard the opportunity. Do not connect to live financial accounts or claim regulatory certification.",
       "current_thesis": "Entities preparing to participate will need to translate the technical specifications into working consent, security, API and interoperability test flows. The actionable wedge is not generic fintech consulting but a reusable conformance-test harness, test-data pack and defect log for specific SFA flows.",
       "founder_hours_initial_unverified_estimate": "",
@@ -4529,7 +4569,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-22T22:58:40.664706+00:00",
+  "generated_at": "2026-10-23T03:23:42.887424+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"
