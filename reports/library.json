@@ -861,6 +861,100 @@
     {
       "ai_leverage": "",
       "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-16T08:23:11.651929+00:00",
+      "discovery_lens": "energy_localization",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "SEC states that netbilling permits users to sell surplus electricity to the distributor at a regulated price and that connection requires an authorized installer/professional and SEC authorization.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Generación Distribuida para Autoconsumo",
+          "url": "https://www.sec.cl/gda/"
+        },
+        {
+          "claim": "SEC provides online connection processing, authorized-product information, installer-related processes, and a preliminary map for assessing available low-voltage distribution capacity.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Plataformas ERNC: generación distribuida para autoconsumo",
+          "url": "https://www.sec.cl/plataformas-ernc/"
+        },
+        {
+          "claim": "The Ministry of Energy document explains that surplus injections are remunerated using the distributor’s regulated energy charge and gives a historical example where the injection value was below the retail purchase price.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Sistemas de almacenamiento con energía solar fotovoltaica en Chile",
+          "url": "https://energia.gob.cl/sites/default/files/documentos/sistemas-de-almacenamiento_web.pdf"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.78,
+      "falsification_conditions": [
+        "After screening at least 20 qualified commercial leads, fewer than three installers agree to a paid or recurring pilot, or no customer pays for the service.",
+        "At least 80 percent of contacted installers already provide materially equivalent pre-feasibility analysis free of charge and reject an outsourced version.",
+        "The median customer will not pay enough to cover labor, customer acquisition, data handling, professional review, and liability costs at a target gross margin of at least 40 percent.",
+        "Formal distributor or installer reviews invalidate the preliminary capacity or technical go/no-go conclusion in more than 20 percent of screened cases.",
+        "Screening does not produce a measurable improvement in installer conversion, avoided site visits, proposal cycle time, or engineering cost after a controlled pilot.",
+        "Battery-inclusive projects show unattractive or highly uncertain payback for the target small-business segment under actual tariffs and export compensation.",
+        "The operator is required in practice to hold authorization, employ a qualified professional, or accept liability that makes the lightweight subcontract model uneconomic.",
+        "Installers refuse to share leads or customer data, or customer-acquisition costs exceed the expected gross profit from converted projects.",
+        "The service cannot be standardized across at least two regions or distribution companies without substantial bespoke engineering work."
+      ],
+      "geography": "Chile, initially regions with high solar generation and constrained distribution capacity",
+      "id": "opp_9ce303aff6dc0368c324",
+      "judge_reviewed": true,
+      "judgment": "This is a plausible, narrow Chile-specific service wedge rather than an investable solar/storage asset thesis: SEC’s distributed-generation platforms, installer requirements, equipment information, and preliminary low-voltage-capacity data provide a real regulatory/workflow substrate for prequalification. The proposed payer types are identifiable—SEC-authorized installers or small-commercial customers—and the service can be falsified cheaply before making any operating commitment. However, no named off-taker, installer, or paying customer has been validated; willingness to pay, repeatability, liability allocation, and unit economics are all unresolved. It should survive only as research into whether prequalification reduces installer sales-engineering cost or improves conversion enough to support a paid subcontract, not as evidence that solar-plus-storage projects themselves have attractive economics.",
+      "last_record_updated_at": "2026-10-23T09:07:22.853847+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Whether small Chilean businesses will pay directly for a pre-feasibility report rather than obtain a free installer quote.",
+        "Whether authorized installers experience enough wasted sales and engineering effort to justify outsourcing lead qualification.",
+        "The number, geographic distribution, and commercial accessibility of SEC-listed installers willing to participate.",
+        "Actual price points, delivery time, analyst labor cost, gross margin, and repeat purchase rate.",
+        "Whether preliminary SEC capacity information predicts formal distributor connection outcomes with sufficient accuracy."
+      ],
+      "participation_path": "Use the SEC authorized-installer directory as a distribution list. Contact 10-20 listed installers and offer a no-commitment pilot: screen five of their existing commercial leads using anonymized electricity bills and site information, returning a standardized go/no-go report. Separately, recruit three small businesses through local business associations or direct outreach and request permission to analyze their last 12 electricity bills. The lowest-cost falsification test is to complete five screenings manually, without buying equipment or promising installation, and measure whether at least one installer or customer requests a paid follow-up. Do not perform regulated electrical design or submit connection paperwork unless partnered with an appropriately authorized professional.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A small operator can reduce failed site visits and non-viable proposals by screening a customer’s load profile, roof/site, equipment eligibility, and preliminary network capacity before an authorized installer prepares a formal installation and connection proposal. The value is avoided engineering and sales effort plus potential electricity-bill savings; actual savings and payback remain site-specific and unproven.",
+      "title": "SEC-verified solar-plus-storage prequalification for Chilean small businesses",
+      "type": "service_offer",
+      "unknowns": [
+        "Whether small Chilean businesses will pay directly for a pre-feasibility report rather than obtain a free installer quote.",
+        "Whether authorized installers experience enough wasted sales and engineering effort to justify outsourcing lead qualification.",
+        "The number, geographic distribution, and commercial accessibility of SEC-listed installers willing to participate.",
+        "Actual price points, delivery time, analyst labor cost, gross margin, and repeat purchase rate.",
+        "Whether preliminary SEC capacity information predicts formal distributor connection outcomes with sufficient accuracy.",
+        "Whether the proposed screening materially improves installer conversion, reduces site visits, or shortens sales cycles.",
+        "Customer acquisition cost through installer directories, business associations, and direct outreach.",
+        "The legal and professional-liability boundary between informational screening and regulated electrical or engineering advice.",
+        "How battery degradation, replacement cost, tariffs, demand charges, export compensation, financing, and tax treatment affect customer payback.",
+        "Whether installer software, distributors, EPCs, or existing consultants already provide equivalent screening at no separate charge.",
+        "Whether installers will share customer bills and site data with an external operator under privacy and commercial-confidentiality constraints.",
+        "Regional differences in tariffs, distribution companies, solar resource, congestion, and installer density.",
+        "Which specific Chilean installer, EPC, distributor-adjacent engineering firm, or business association will act as a pilot counterpart or buyer.",
+        "Whether installers will pay per screened lead, subscribe, or only accept a free pilot; and the price, conversion rate, CAC, labor cost, and achievable gross margin.",
+        "Whether formal installer/distributor reviews overturn preliminary conclusions at a tolerable rate.",
+        "Measured change in avoided site visits, proposal turnaround, engineering hours, conversion, and installed-project yield versus each installer’s current workflow.",
+        "Whether customer demand is strongest for solar-only load matching, storage resilience/demand management, or simply connection-risk screening.",
+        "The required credentialing, insurance, contractual disclaimers, and qualified-professional review cost for lawful delivery.",
+        "Conservative installed net payback by target tariff/load segment, including storage only where it adds demonstrated value rather than relying on vendor performance claims."
+      ],
+      "value_capture_mechanism": "A narrowly defined paid pre-feasibility package sold to small commercial customers or delivered as a lead-qualification subcontract to SEC-authorized installers. The package should include bill/load analysis, preliminary solar-storage sizing, SEC equipment and connection checks, and a written go/no-go recommendation. Price, conversion rate, and margin are unknown and must be tested rather than assumed.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
       "contrary_evidence": [
         "WESCO reported Q2 2026 data-center sales of approximately $1.5 billion, up approximately 45% year over year, record total backlog up approximately 60%, record adjusted EBITDA up 24%, and raised its 2026 outlook. Source: https://www.sec.gov/Archives/edgar/data/929008/000092900826000021/wcc-2q2026earnings.htm",
         "ERock reported a 470 MW Anthropic equipment purchase order, approximately $1.7 billion of contracted backlog, no outstanding debt, and $626.6 million of unrestricted cash at June 30, 2026. Source: https://www.sec.gov/Archives/edgar/data/2110029/000119312526344714/eroc-ex99_1.htm",
@@ -5396,67 +5490,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-16T08:23:11.651929+00:00",
-      "discovery_lens": "energy_localization",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "SEC states that netbilling permits users to sell surplus electricity to the distributor at a regulated price and that connection requires an authorized installer/professional and SEC authorization.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Generación Distribuida para Autoconsumo",
-          "url": "https://www.sec.cl/gda/"
-        },
-        {
-          "claim": "SEC provides online connection processing, authorized-product information, installer-related processes, and a preliminary map for assessing available low-voltage distribution capacity.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Plataformas ERNC: generación distribuida para autoconsumo",
-          "url": "https://www.sec.cl/plataformas-ernc/"
-        },
-        {
-          "claim": "The Ministry of Energy document explains that surplus injections are remunerated using the distributor’s regulated energy charge and gives a historical example where the injection value was below the retail purchase price.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Sistemas de almacenamiento con energía solar fotovoltaica en Chile",
-          "url": "https://energia.gob.cl/sites/default/files/documentos/sistemas-de-almacenamiento_web.pdf"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.78,
-      "falsification_conditions": [],
-      "geography": "Chile, initially regions with high solar generation and constrained distribution capacity",
-      "id": "opp_9ce303aff6dc0368c324",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-16T08:23:11.678625+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Use the SEC authorized-installer directory as a distribution list. Contact 10-20 listed installers and offer a no-commitment pilot: screen five of their existing commercial leads using anonymized electricity bills and site information, returning a standardized go/no-go report. Separately, recruit three small businesses through local business associations or direct outreach and request permission to analyze their last 12 electricity bills. The lowest-cost falsification test is to complete five screenings manually, without buying equipment or promising installation, and measure whether at least one installer or customer requests a paid follow-up. Do not perform regulated electrical design or submit connection paperwork unless partnered with an appropriately authorized professional.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "A small operator can reduce failed site visits and non-viable proposals by screening a customer’s load profile, roof/site, equipment eligibility, and preliminary network capacity before an authorized installer prepares a formal installation and connection proposal. The value is avoided engineering and sales effort plus potential electricity-bill savings; actual savings and payback remain site-specific and unproven.",
-      "title": "SEC-verified solar-plus-storage prequalification for Chilean small businesses",
-      "type": "service_offer",
-      "unknowns": [],
-      "value_capture_mechanism": "A narrowly defined paid pre-feasibility package sold to small commercial customers or delivered as a lead-qualification subcontract to SEC-authorized installers. The package should include bill/load analysis, preliminary solar-storage sizing, SEC equipment and connection checks, and a written go/no-go recommendation. Price, conversion rate, and margin are unknown and must be tested rather than assumed.",
-      "verified_sales": null,
-      "vertical": "energy_infrastructure",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-19T08:32:46.619027+00:00",
       "discovery_lens": "fixed_scope_paid_research_asset",
       "estimated_capital": "",
@@ -5632,6 +5665,67 @@
       "value_capture_mechanism": "Charge for a fixed-scope measurement and decision package: interval-load analysis, export/curtailment scenario model, preliminary battery sizing, connection/regulatory checklist and vendor-neutral request-for-quotation specification. Hardware sales, financing, savings and project margins remain unknown.",
       "verified_sales": null,
       "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-23T09:06:55.339259+00:00",
+      "discovery_lens": "adoption_lag",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Public inventory includes used industrial robots with visible listings, including a used Yaskawa Motoman unit listed at $10,000; the marketplace targets small fabricators as well as larger OEMs.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Robot Inventory - iGAM",
+          "url": "https://igam.com/robot-inventory/"
+        },
+        {
+          "claim": "Used-robot purchasing has material diligence issues involving licensing, controller generation, condition and opaque pricing; the source identifies multiple dealer inventories without published prices.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Buying a used industrial robot: What to verify before you wire funds",
+          "url": "https://www.fivewestfinancial.com/blog/robotics-automation-private-party-purchase.html"
+        },
+        {
+          "claim": "The marketplace reports transaction and asking-price examples across specific robot models, providing an observable price-discovery and resale reference.",
+          "grounded_in_provider_search": true,
+          "source_type": "other",
+          "title": "Used Industrial Robot Prices - Market Data & Price Guide",
+          "url": "https://www.harmonicrange.com/prices"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.82,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_466390b18f98e532423c",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-23T09:06:55.403132+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Select one local manufacturing workflow and publish a one-page checklist covering payload, reach, controller, software-license transfer, safety equipment and required peripherals. Use publicly listed inventory from iGAM or comparable dealers to create three candidate configurations. Falsification step: contact 10 small manufacturers or fabrication shops with a specific used-robot configuration and ask whether they would pay for an independent pre-purchase inspection or written compatibility review; do not buy inventory or represent yourself as an authorized integrator. A positive test requires at least one paid inspection or written purchase commitment, not merely interest.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The executable wedge is not generic automation consulting; it is a narrowly scoped sourcing-and-verification service for one repeatable application, such as machine tending or palletizing. The economic mechanism is reducing search, mis-purchase and commissioning risk before a capital purchase.",
+      "title": "Transparent used-robot sourcing and pre-purchase inspection for small manufacturers",
+      "type": "service_offer",
+      "unknowns": [],
+      "value_capture_mechanism": "A fixed-fee inspection, compatibility report and sourcing package, with any success fee disclosed only if a buyer independently agrees to it. No buyer, conversion rate or margin is assumed.",
+      "verified_sales": null,
+      "vertical": "robotics_agritech",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -7368,6 +7462,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-23T09:06:55.340652+00:00",
+      "discovery_lens": "adoption_lag",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The paper describes an open-source over-the-row agricultural robot, reports a commodity-material build cost of approximately $5,000-$6,000, and reports experimental weed-reduction results in flax plots.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "AgriCruiser: An Open Source Agriculture Robot for Over-the-row Navigation",
+          "url": "https://arxiv.org/abs/2509.25056"
+        },
+        {
+          "claim": "The presentation lists a commercial robotic-weeding price of approximately $80,000-$100,000 and identifies weeding as a service business model.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Robotic Weeding",
+          "url": "https://www.ndsu.edu/agriculture/sites/default/files/2026-02/2026%20ACAW%20ANDERSON%20Robotic%20Weeding%20PPT.pdf"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.71,
+      "falsification_conditions": [],
+      "geography": "United States; adaptable internationally",
+      "id": "opp_32c9ef20cb6badbd9957",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-23T09:06:55.403360+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Choose one locally accessible crop with narrow, regular rows and document the target weed-control task. Reproduce only the minimum navigation and treatment subsystem from the open-source design; do not claim commercial field readiness. Falsification step: obtain written permission from one farm or research plot for a small, supervised test and compare treated versus untreated rows using a predefined measure such as weed count, crop damage and operator hours. Stop if no farm will permit a paid or supervised trial, or if the robot cannot complete a repeatable pass without manual intervention.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A small operator could test a limited wedge: build or adapt a low-cost platform for one crop and row geometry, then charge for a supervised field trial or per-acre weeding service. The economic mechanism is substituting a lower-capital experimental service for immediate purchase of a commercial machine.",
+      "title": "Low-cost narrow-row weeding robot as a paid field trial or custom build",
+      "type": "asset_or_service",
+      "unknowns": [],
+      "value_capture_mechanism": "Paid pilot, per-acre field service, or custom adaptation fee. Crop suitability, labor savings, agronomic efficacy and permission to operate remain unverified and must be established with a farm customer.",
+      "verified_sales": null,
+      "vertical": "robotics_agritech",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-18T16:18:42.624438+00:00",
       "discovery_lens": "adoption_lag",
       "estimated_capital": "",
@@ -8447,13 +8595,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-23T03:23:42.799618+00:00",
+  "generated_at": "2026-10-23T09:07:23.417833+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 62,
-  "reviewed_cards": 56,
+  "rejected_excluded": 63,
+  "reviewed_cards": 57,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 182,
-  "watch": 120
+  "total_distinct_opportunities": 185,
+  "watch": 122
 }

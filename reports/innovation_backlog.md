@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 120
+Candidates: 122
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -348,7 +348,7 @@ Candidates: 120
   - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
   - Compare owned asset, installer/distributor and project-finance participation.
   - Verify permits and installed net payback under conservative power price scenarios.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Whether small Chilean businesses will pay directly for a pre-feasibility report rather than obtain a free installer quote.; Whether authorized installers experience enough wasted sales and engineering effort to justify outsourcing lead qualification.; The number, geographic distribution, and commercial accessibility of SEC-listed installers willing to participate.
 - Possible initial budget:
 - Source URLs: https://www.sec.cl/gda/; https://www.sec.cl/plataformas-ernc/; https://energia.gob.cl/sites/default/files/documentos/sistemas-de-almacenamiento_web.pdf
 
@@ -1408,6 +1408,18 @@ Candidates: 120
 - Possible initial budget:
 - Source URLs: https://arxiv.org/abs/2507.18419; https://arxiv.org/abs/2510.03686; https://ers.usda.gov/sites/default/files/_laserfiche/publications/108221/EIB-264.pdf
 
+## Low-cost narrow-row weeding robot as a paid field trial or custom build
+- Status: watch | robotics_agritech
+- Current idea: A small operator could test a limited wedge: build or adapt a low-cost platform for one crop and row geometry, then charge for a supervised field trial or per-acre weeding service. The economic mechanism is substituting a lower-capital experimental service for immediate purchase of a commercial machine.
+- Potential economic capture: Paid pilot, per-acre field service, or custom adaptation fee. Crop suitability, labor savings, agronomic efficacy and permission to operate remain unverified and must be established with a farm customer.
+- **Research routes to test (NOT validated claims):**
+  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
+  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
+  - Arrange a bounded field validation with an actual farm operator before scaling.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://arxiv.org/abs/2509.25056; https://www.ndsu.edu/agriculture/sites/default/files/2026-02/2026%20ACAW%20ANDERSON%20Robotic%20Weeding%20PPT.pdf
+
 ## Low-cost orchard maturity and yield-scanning service using commercially available sensors
 - Status: watch | robotics_agritech
 - Current idea: The narrow wedge is not selling a full harvesting robot. It is collecting orchard blocks' fruit-count, maturity or yield-estimate data before harvest so growers can improve harvest scheduling, labor allocation and packhouse planning. This can be tested with a rented or owner-operated camera/vehicle setup before any capital-intensive robotics deployment.
@@ -1443,3 +1455,15 @@ Candidates: 120
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://ers.usda.gov/data-products/charts-of-note/114160; https://ers.usda.gov/sites/default/files/_laserfiche/publications/113706/ERR-356.pdf?v=31391
+
+## Transparent used-robot sourcing and pre-purchase inspection for small manufacturers
+- Status: watch | robotics_agritech
+- Current idea: The executable wedge is not generic automation consulting; it is a narrowly scoped sourcing-and-verification service for one repeatable application, such as machine tending or palletizing. The economic mechanism is reducing search, mis-purchase and commissioning risk before a capital purchase.
+- Potential economic capture: A fixed-fee inspection, compatibility report and sourcing package, with any success fee disclosed only if a buyer independently agrees to it. No buyer, conversion rate or margin is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
+  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
+  - Arrange a bounded field validation with an actual farm operator before scaling.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://igam.com/robot-inventory/; https://www.fivewestfinancial.com/blog/robotics-automation-private-party-purchase.html; https://www.harmonicrange.com/prices

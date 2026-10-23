@@ -1034,9 +1034,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "Chile, initially regions with high solar generation and constrained distribution capacity",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "Whether small Chilean businesses will pay directly for a pre-feasibility report rather than obtain a free installer quote.",
+        "Whether authorized installers experience enough wasted sales and engineering effort to justify outsourcing lead qualification.",
+        "The number, geographic distribution, and commercial accessibility of SEC-listed installers willing to participate.",
+        "Actual price points, delivery time, analyst labor cost, gross margin, and repeat purchase rate.",
+        "Whether preliminary SEC capacity information predicts formal distributor connection outcomes with sufficient accuracy.",
+        "Whether the proposed screening materially improves installer conversion, reduces site visits, or shortens sales cycles.",
+        "Customer acquisition cost through installer directories, business associations, and direct outreach."
       ],
       "investment_authorized": false,
       "name": "SEC-verified solar-plus-storage prequalification for Chilean small businesses",
@@ -4463,6 +4467,42 @@
       "category": "robotics_agritech",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Choose one locally accessible crop with narrow, regular rows and document the target weed-control task. Reproduce only the minimum navigation and treatment subsystem from the open-source design; do not claim commercial field readiness. Falsification step: obtain written permission from one farm or research plot for a small, supervised test and compare treated versus untreated rows using a predefined measure such as weed count, crop damage and operator hours. Stop if no farm will permit a paid or supervised trial, or if the robot cannot complete a repeatable pass without manual intervention.",
+      "current_thesis": "A small operator could test a limited wedge: build or adapt a low-cost platform for one crop and row geometry, then charge for a supervised field trial or per-acre weeding service. The economic mechanism is substituting a lower-capital experimental service for immediate purchase of a commercial machine.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States; adaptable internationally",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Low-cost narrow-row weeding robot as a paid field trial or custom build",
+      "opportunity_id": "opp_32c9ef20cb6badbd9957",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
+        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
+        "Arrange a bounded field validation with an actual farm operator before scaling."
+      ],
+      "supporting_source_urls": [
+        "https://arxiv.org/abs/2509.25056",
+        "https://www.ndsu.edu/agriculture/sites/default/files/2026-02/2026%20ACAW%20ANDERSON%20Robotic%20Weeding%20PPT.pdf"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Paid pilot, per-acre field service, or custom adaptation fee. Crop suitability, labor savings, agronomic efficacy and permission to operate remain unverified and must be established with a farm customer.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "robotics_agritech",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Select one crop and one measurable output, such as apple counts by block or maturity distribution. Use a low-cost camera mounted on an ATV, utility vehicle or handheld rig, process a small sample and compare predictions with the grower's eventual harvest or packhouse records. Approach growers, extension contacts or packhouses only with a paid or unpaid sample protocol, without claiming validated commercial accuracy. Falsify cheaply by testing three blocks and abandoning the offer if measurement error is not useful for an actual scheduling decision or if no operator will permit a small trial.",
       "current_thesis": "The narrow wedge is not selling a full harvesting robot. It is collecting orchard blocks' fruit-count, maturity or yield-estimate data before harvest so growers can improve harvest scheduling, labor allocation and packhouse planning. This can be tested with a rented or owner-operated camera/vehicle setup before any capital-intensive robotics deployment.",
       "founder_hours_initial_unverified_estimate": "",
@@ -4566,10 +4606,47 @@
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Possible revenue sources include installation coordination, preventive maintenance, parts sourcing, monitoring, or referral fees where a manufacturer or dealer explicitly permits them. No buyer, commission, or margin is assumed by the evidence.",
       "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "robotics_agritech",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Select one local manufacturing workflow and publish a one-page checklist covering payload, reach, controller, software-license transfer, safety equipment and required peripherals. Use publicly listed inventory from iGAM or comparable dealers to create three candidate configurations. Falsification step: contact 10 small manufacturers or fabrication shops with a specific used-robot configuration and ask whether they would pay for an independent pre-purchase inspection or written compatibility review; do not buy inventory or represent yourself as an authorized integrator. A positive test requires at least one paid inspection or written purchase commitment, not merely interest.",
+      "current_thesis": "The executable wedge is not generic automation consulting; it is a narrowly scoped sourcing-and-verification service for one repeatable application, such as machine tending or palletizing. The economic mechanism is reducing search, mis-purchase and commissioning risk before a capital purchase.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Transparent used-robot sourcing and pre-purchase inspection for small manufacturers",
+      "opportunity_id": "opp_466390b18f98e532423c",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
+        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
+        "Arrange a bounded field validation with an actual farm operator before scaling."
+      ],
+      "supporting_source_urls": [
+        "https://igam.com/robot-inventory/",
+        "https://www.fivewestfinancial.com/blog/robotics-automation-private-party-purchase.html",
+        "https://www.harmonicrange.com/prices"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A fixed-fee inspection, compatibility report and sourcing package, with any success fee disclosed only if a buyer independently agrees to it. No buyer, conversion rate or margin is assumed.",
+      "willingness_to_pay_confirmed": false
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-23T03:23:42.887424+00:00",
+  "generated_at": "2026-10-23T09:07:23.514205+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

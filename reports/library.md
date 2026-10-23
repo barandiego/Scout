@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-23T03:23:42.799618+00:00
+Generated: 2026-10-23T09:07:23.417833+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 120 (0 HQ survivors, 120 watches)
-- Rejected opportunities excluded: 62
-- Critic-and-judge reviewed: 56
+- Active research: 122 (0 HQ survivors, 122 watches)
+- Rejected opportunities excluded: 63
+- Critic-and-judge reviewed: 57
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -102,6 +102,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Number of active or prospective SFA participants that lack internal monitoring capabilities.; Whether the production directory, sandbox and APIs will remain publicly accessible without restrictive authentication, rate limits or terms that prevent commercial r; Whether directory changes will be frequent or consequential enough to justify paid alerts rather than periodic manual review.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA; https://api.cmfchile.cl/
+
+### SEC-verified solar-plus-storage prequalification for Chilean small businesses [opp_9ce303aff6dc0368c324]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile, initially regions with high solar generation and constrained distribution capacity
+- Thesis: A small operator can reduce failed site visits and non-viable proposals by screening a customer’s load profile, roof/site, equipment eligibility, and preliminary network capacity before an authorized installer prepares a formal installation and connection proposal. The value is avoided engineering and sales effort plus potential electricity-bill savings; actual savings and payback remain site-specific and unproven.
+- Value capture: A narrowly defined paid pre-feasibility package sold to small commercial customers or delivered as a lead-qualification subcontract to SEC-authorized installers. The package should include bill/load analysis, preliminary solar-storage sizing, SEC equipment and connection checks, and a written go/no-go recommendation. Price, conversion rate, and margin are unknown and must be tested rather than assumed.
+- Participation hypothesis: Use the SEC authorized-installer directory as a distribution list. Contact 10-20 listed installers and offer a no-commitment pilot: screen five of their existing commercial leads using anonymized electricity bills and site information, returning a standardized go/no-go report. Separately, recruit three small businesses through local business associations or direct outreach and request permission to analyze their last 12 electricity bills. The lowest-cost falsification test is to complete five screenings manually, without buying equipment or pro
+- Critic/judge: This is a plausible, narrow Chile-specific service wedge rather than an investable solar/storage asset thesis: SEC’s distributed-generation platforms, installer requirements, equipment information, and preliminary low-voltage-capacity data provide a real regulatory/workflow substrate for prequalification. The proposed payer types are identifiable—SEC-authorized installers or small-commercial customers—and the service can be falsified ch
+- Next evidence gaps: Whether small Chilean businesses will pay directly for a pre-feasibility report rather than obtain a free installer quote.; Whether authorized installers experience enough wasted sales and engineering effort to justify outsourcing lead qualification.; The number, geographic distribution, and commercial accessibility of SEC-listed installers willing to participate.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sec.cl/gda/; https://www.sec.cl/plataformas-ernc/; https://energia.gob.cl/sites/default/files/documentos/sistemas-de-almacenamiento_web.pdf
 
 ### Speed-to-power infrastructure exposure: researchable public-company basket with a falsifiable backlog catalyst [opp_8fd938450701fbd64711]
 - Status: WATCH_REQUIRES_VALIDATION | public_markets | United States
@@ -653,16 +663,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=f91f133e-cc24-401b-9e65-e37cc9fd1613; https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA
 
-### SEC-verified solar-plus-storage prequalification for Chilean small businesses [opp_9ce303aff6dc0368c324]
-- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile, initially regions with high solar generation and constrained distribution capacity
-- Thesis: A small operator can reduce failed site visits and non-viable proposals by screening a customer’s load profile, roof/site, equipment eligibility, and preliminary network capacity before an authorized installer prepares a formal installation and connection proposal. The value is avoided engineering and sales effort plus potential electricity-bill savings; actual savings and payback remain site-specific and unproven.
-- Value capture: A narrowly defined paid pre-feasibility package sold to small commercial customers or delivered as a lead-qualification subcontract to SEC-authorized installers. The package should include bill/load analysis, preliminary solar-storage sizing, SEC equipment and connection checks, and a written go/no-go recommendation. Price, conversion rate, and margin are unknown and must be tested rather than assumed.
-- Participation hypothesis: Use the SEC authorized-installer directory as a distribution list. Contact 10-20 listed installers and offer a no-commitment pilot: screen five of their existing commercial leads using anonymized electricity bills and site information, returning a standardized go/no-go report. Separately, recruit three small businesses through local business associations or direct outreach and request permission to analyze their last 12 electricity bills. The lowest-cost falsification test is to complete five screenings manually, without buying equipment or pro
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.sec.cl/gda/; https://www.sec.cl/plataformas-ernc/; https://energia.gob.cl/sites/default/files/documentos/sistemas-de-almacenamiento_web.pdf
-
 ### SII sales-and-purchases exception dashboard for small accounting firms [opp_c8a7ce7acdf289eff270]
 - Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
 - Thesis: A narrowly defined dashboard or scheduled report could turn licensed SII data access into a repeatable deliverable: identify missing invoices, unusual purchase changes, overdue DTE reconciliation, or month-end filing exceptions. The economics are testable because the underlying API access has published prices rather than requiring unpriced data acquisition.
@@ -692,6 +692,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://energia.gob.cl/consultas-publicas/modificaciones-al-reglamento-ds-ndeg88-para-medios-de-generacion-de-pequena-escala; https://iea.blob.core.windows.net/assets/48eccb83-984c-45d2-bf78-67a61e88d241/Renewables2025.pdf; https://energia.gob.cl/iniciativas/rebaja-del-umbral-para-optar-al-regimen-de-clientes-libres
+
+### Transparent used-robot sourcing and pre-purchase inspection for small manufacturers [opp_466390b18f98e532423c]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States
+- Thesis: The executable wedge is not generic automation consulting; it is a narrowly scoped sourcing-and-verification service for one repeatable application, such as machine tending or palletizing. The economic mechanism is reducing search, mis-purchase and commissioning risk before a capital purchase.
+- Value capture: A fixed-fee inspection, compatibility report and sourcing package, with any success fee disclosed only if a buyer independently agrees to it. No buyer, conversion rate or margin is assumed.
+- Participation hypothesis: Select one local manufacturing workflow and publish a one-page checklist covering payload, reach, controller, software-license transfer, safety equipment and required peripherals. Use publicly listed inventory from iGAM or comparable dealers to create three candidate configurations. Falsification step: contact 10 small manufacturers or fabrication shops with a specific used-robot configuration and ask whether they would pay for an independent pre-purchase inspection or written compatibility review; do not buy inventory or represent yourself as
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://igam.com/robot-inventory/; https://www.fivewestfinancial.com/blog/robotics-automation-private-party-purchase.html; https://www.harmonicrange.com/prices
 
 ### 15-minute demand-charge diagnostic and retrofit kit for Chilean commercial sites [opp_5c54bef099722659c2b1]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile, initially regulated commercial customers on BT/AT demand tariffs
@@ -1012,6 +1022,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://github.com/kindrat86/ai-agent-incident-database/blob/main/README.md; https://github.com/paolodm/ai-coding-agents-incidents
+
+### Low-cost narrow-row weeding robot as a paid field trial or custom build [opp_32c9ef20cb6badbd9957]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States; adaptable internationally
+- Thesis: A small operator could test a limited wedge: build or adapt a low-cost platform for one crop and row geometry, then charge for a supervised field trial or per-acre weeding service. The economic mechanism is substituting a lower-capital experimental service for immediate purchase of a commercial machine.
+- Value capture: Paid pilot, per-acre field service, or custom adaptation fee. Crop suitability, labor savings, agronomic efficacy and permission to operate remain unverified and must be established with a farm customer.
+- Participation hypothesis: Choose one locally accessible crop with narrow, regular rows and document the target weed-control task. Reproduce only the minimum navigation and treatment subsystem from the open-source design; do not claim commercial field readiness. Falsification step: obtain written permission from one farm or research plot for a small, supervised test and compare treated versus untreated rows using a predefined measure such as weed count, crop damage and operator hours. Stop if no farm will permit a paid or supervised trial, or if the robot cannot complete
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://arxiv.org/abs/2509.25056; https://www.ndsu.edu/agriculture/sites/default/files/2026-02/2026%20ACAW%20ANDERSON%20Robotic%20Weeding%20PPT.pdf
 
 ### Low-cost orchard maturity and yield-scanning service using commercially available sensors [opp_9c53621ef496fb65470a]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States specialty-crop regions

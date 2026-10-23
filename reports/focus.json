@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-10-23T03:23:42.799618+00:00",
+  "generated_at": "2026-10-23T09:07:23.417833+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -42,6 +42,14 @@
       "status": "watch",
       "theme": "robotics_agritech:raas_deployment_wedge",
       "title": "Chile RaaS deployment wedge for industrial-floor cleaning"
+    },
+    {
+      "opportunity_id": "opp_9ce303aff6dc0368c324",
+      "other_cards_in_theme": 0,
+      "reviewed": true,
+      "status": "watch",
+      "theme": "energy_infrastructure:sec_verified_solar",
+      "title": "SEC-verified solar-plus-storage prequalification for Chilean small businesses"
     },
     {
       "opportunity_id": "opp_30978e90c9f1315f2e7c",
@@ -90,28 +98,20 @@
       "status": "watch",
       "theme": "general:api_security_compliance",
       "title": "API security and compliance are becoming a product layer for cloud and platform ecosystems"
-    },
-    {
-      "opportunity_id": "opp_7209beea24406589b8bc",
-      "other_cards_in_theme": 0,
-      "reviewed": true,
-      "status": "watch",
-      "theme": "general:permitting_transmission_process",
-      "title": "Permitting and transmission-process modernization is opening a bottleneck-sensitive infrastructure opportunity"
     }
   ],
   "headline_count": 12,
   "high_concentration": [
     {
       "cards": 47,
-      "share": 0.392,
+      "share": 0.385,
       "theme": "chile_open_finance"
     }
   ],
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 54,
+  "theme_count": 56,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -374,7 +374,7 @@
       ],
       "count": 1,
       "representative_id": "opp_9ce303aff6dc0368c324",
-      "reviewed_count": 0,
+      "reviewed_count": 1,
       "theme": "energy_infrastructure:sec_verified_solar"
     },
     {
@@ -631,6 +631,15 @@
     },
     {
       "all_opportunity_ids": [
+        "opp_32c9ef20cb6badbd9957"
+      ],
+      "count": 1,
+      "representative_id": "opp_32c9ef20cb6badbd9957",
+      "reviewed_count": 0,
+      "theme": "robotics_agritech:low_cost_narrow"
+    },
+    {
+      "all_opportunity_ids": [
         "opp_9c53621ef496fb65470a"
       ],
       "count": 1,
@@ -664,8 +673,17 @@
       "representative_id": "opp_663dbc19a60ec3cbcf52",
       "reviewed_count": 0,
       "theme": "robotics_agritech:small_hydroponic_propagation"
+    },
+    {
+      "all_opportunity_ids": [
+        "opp_466390b18f98e532423c"
+      ],
+      "count": 1,
+      "representative_id": "opp_466390b18f98e532423c",
+      "reviewed_count": 0,
+      "theme": "robotics_agritech:transparent_used_robot"
     }
   ],
-  "total_original_cards": 120,
+  "total_original_cards": 122,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }
