@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 123
+Candidates: 124
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -628,6 +628,18 @@ Candidates: 123
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html
 
+## Chile Open Finance conformance-test harness for fintech/API teams
+- Status: watch | open_finance_chile
+- Current idea: A reusable local test harness could reduce integration and certification risk before mandatory participation begins. The opportunity is time-bounded by the July 2027 implementation milestone, but demand and willingness to pay are not yet verified.
+- Potential economic capture: Sell or license a self-hosted validation suite that checks API payloads, consent flows, security certificates, error handling and payment-initiation test cases against the CMF technical annex. A paid implementation package could be an optional add-on, but this is not established as a buyer requirement.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/613/articles-82752_recurso_1.pdf
+
 ## Chile Open Finance conformance-testing wedge ahead of July 2027 implementation
 - Status: watch | open_finance_chile
 - Current idea: Entities preparing for participation face a bounded interoperability and conformance problem before a specific regulatory deadline. A narrowly scoped test harness, request validator, fixture generator and implementation checklist could reduce integration risk without requiring the operator to become a regulated financial participant.
@@ -912,7 +924,7 @@ Candidates: 123
   - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
   - Check license perimeter, API access, legal compliance and competitor pricing.
   - Test buyer procurement and technical access before writing integration infrastructure.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: How many small fintechs or prospective SFA participants are actually required to integrate, and how many will participate voluntarily before mandatory milestones.; Whether ATENA is sufficiently complete for end-to-end testing or leaves important gaps in mocks, negative cases, automation, certification evidence, observability, and regression testing.; Whether the CMF will recognize third-party test reports or whether customers must rely only on their own ATENA results.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
