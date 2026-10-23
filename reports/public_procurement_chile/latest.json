@@ -1,207 +1,27 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 750000.0,
-      "buyer": "MUNICIPALIDAD DE ALTO HOSPICIO",
-      "closes_at": "2026-10-26T09:00:00",
-      "code": "3447-471-COT26",
-      "estimated_budget": 750000.0,
-      "name": "Adquisición de colaciones para la actividad Noche Bailable de Disfraces, Alto Hospicio 2026.",
-      "products": 1,
-      "region": "Región de Tarapacá"
-    },
-    {
-      "available_budget_clp": 90000.0,
-      "buyer": "Zona de Bienestar \"Coyhaique\"",
-      "closes_at": "2026-10-26T09:00:00",
-      "code": "911089-103-COT26",
-      "estimated_budget": 90000.0,
-      "name": "ADQUISICION DEL SERVICIO DE MANTENIMIENTO PARA REVISION Y REGULACION DE FRENOS CAMIONETA MAXUS DE CARGO DE LA ZBCOYH",
-      "products": 1,
-      "region": "Región Aysén del General Carlos Ibáñez del Campo"
-    },
-    {
-      "available_budget_clp": 6744602.0,
-      "buyer": "CORPORACIÓN MUNICIPAL DE ADMINISTRACIÓN SITIO PATRIMONIO MUNDIAL ÁREA",
-      "closes_at": "2026-10-27T14:00:00",
-      "code": "1298708-26-COT26",
-      "estimated_budget": 6744602.0,
-      "name": "\"ADQUISICIÓN DE MATERIALES Y HERRAMIENTAS  PARA REPARACIÓN DE FACHADAS – OCTUBRE 2026\"",
-      "products": 35,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 350000.0,
-      "buyer": "DIRECCION SALUD RURAL",
-      "closes_at": "2026-10-26T09:00:00",
-      "code": "3950-692-COT26",
-      "estimated_budget": 350000.0,
-      "name": "brazalete manguito de toma de presion",
-      "products": 2,
-      "region": "Región Aysén del General Carlos Ibáñez del Campo"
-    },
-    {
-      "available_budget_clp": 700000.0,
-      "buyer": "ILUSTRE MUNICIPALIDAD DE CUREPTO",
-      "closes_at": "2026-10-26T15:00:00",
-      "code": "4314-323-COT26",
-      "estimated_budget": 700000.0,
-      "name": "Sets de cucharas de madera y tenedores ecológicos",
-      "products": 2,
-      "region": "Región del Maule"
-    },
-    {
-      "available_budget_clp": 5300000.0,
-      "buyer": "I MUNICIPALIDAD DE SANTIAGO",
-      "closes_at": "2026-10-27T09:00:00",
-      "code": "2452-99-COT26",
-      "estimated_budget": 5300000.0,
-      "name": "12763 - Mobiliario Promoción",
-      "products": 6,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 60000.0,
-      "buyer": "CORPORACION DE DESARROLLO TERRITORIAL Y TURISMO DE LA REGION METROPOLITANA",
-      "closes_at": "2026-10-24T18:00:00",
-      "code": "1422039-291-COT26",
-      "estimated_budget": 60000.0,
-      "name": "SC045 ADQUSICIÓN DE GRÁFICA EN PVC - FUNCIONAMIENTO",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 372000.0,
-      "buyer": "SERVICIO NACIONAL DE SALUD HOSPITAL DE RIO NEGRO",
-      "closes_at": "2026-10-27T10:30:00",
-      "code": "1057531-160-COT26",
-      "estimated_budget": 372000.0,
-      "name": "Compra “Alimentos” para Actividades de Jornadas de Autocuidado. Con despachos parciales para día 19 y 26 noviembre y 03 diciembre de 2026 de acuerdo con detalle adjunto.",
+      "available_budget_clp": 900000.0,
+      "buyer": "I MUNICIPALIDAD DE RIO BUENO",
+      "closes_at": "2026-10-24T20:40:00",
+      "code": "3853-615-COT26",
+      "estimated_budget": 900000.0,
+      "name": "SERVICIOS DE MANTENCIÓN Y REPARACIÓN DE INFRAESTRUCTURA – SECTOR 3 Y DEPENDENCIAS DE SALUD",
       "products": 4,
-      "region": "Región de los Lagos"
+      "region": "Región de Los Ríos"
     },
     {
-      "available_budget_clp": 325000.0,
-      "buyer": "MUNICIPALIDAD DE RECOLETA",
-      "closes_at": "2026-10-27T09:00:00",
-      "code": "1431841-1282-COT26",
-      "estimated_budget": 325000.0,
-      "name": "SM  7177 - SERVICIO DE PRODUCCIÓN DE ACTIVIDAD RECREATIVA PROYECTO CHACARITAS JUNIOR DEPTO. DE SALUD",
+      "available_budget_clp": 3000000.0,
+      "buyer": "I MUNICIPALIDAD DE SAN PEDRO DE ATACAMA",
+      "closes_at": "2026-10-26T00:24:00",
+      "code": "4999-43-COT26",
+      "estimated_budget": 3000000.0,
+      "name": "Servicio de recarga de extintores y otros, DESAM San Pedro de Atacama",
       "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 3322000.0,
-      "buyer": "I MUNICIPALIDAD DE VILCUN",
-      "closes_at": "2026-10-26T15:00:00",
-      "code": "3494-392-COT26",
-      "estimated_budget": 3322000.0,
-      "name": "NORMALIZACION RED DE GAS Y OBTENCION DE SELLO VERDE PARA COCINA DE ESCUELA DAGOBERTO GODOY - SOLICITUD N° 14593",
-      "products": 1,
-      "region": "Región de la Araucanía"
-    },
-    {
-      "available_budget_clp": 80000.0,
-      "buyer": "I MUNICIPALIDAD DE CABRERO DEPARTAMENTO DE SALUD",
-      "closes_at": "2026-10-24T16:55:00",
-      "code": "4083-680-COT26",
-      "estimated_budget": 80000.0,
-      "name": "Galvano de Cristal NP Nº 736, Conv. más salud en comunidad",
-      "products": 1,
-      "region": "Región del Biobío"
-    },
-    {
-      "available_budget_clp": 4150000.0,
-      "buyer": "DIRECCION GENERAL DEL TERRITORIO MARIT Y MM (AB)",
-      "closes_at": "2026-10-28T10:00:00",
-      "code": "813685-152-COT26",
-      "estimated_budget": 4150000.0,
-      "name": "ADQUISICIÓN DE ACCESORIOS FOROGRÁFICOS",
-      "products": 1,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 760000.0,
-      "buyer": "Biblioteca del Congreso Nacional",
-      "closes_at": "2026-10-28T10:00:00",
-      "code": "2020-215-COT26",
-      "estimated_budget": 760000.0,
-      "name": "Compra de Papeleros y Basureros para la BCN.",
-      "products": 2,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 500000.0,
-      "buyer": "SLEP MARGA MARGA",
-      "closes_at": "2026-10-26T13:00:00",
-      "code": "1480972-751-COT26",
-      "estimated_budget": 500000.0,
-      "name": "COLACIONES JARDIN SOL NACIENTE",
-      "products": 4,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 999205.0,
-      "buyer": "Servicio Local de Educación Pública Aysén",
-      "closes_at": "2026-10-26T12:00:00",
-      "code": "1233615-857-COT26",
-      "estimated_budget": 999205.0,
-      "name": "TRM/SOL 2013 MATERIALES DEPORTIVOS LICEO BICENTENARIO RURAL CERRO CASTILLO",
-      "products": 1,
-      "region": "Región Aysén del General Carlos Ibáñez del Campo"
-    },
-    {
-      "available_budget_clp": 1477600.0,
-      "buyer": "SERVICIO LOCAL DE EDUCACION PUBLICA DE COLCHAGUA",
-      "closes_at": "2026-10-26T07:00:00",
-      "code": "1126920-200-COT26",
-      "estimated_budget": 1477600.0,
-      "name": "EQUIPAMIENTO AUDIOVISUAL INCOSAF",
-      "products": 3,
-      "region": "Región del Libertador General Bernardo O´Higgins"
-    },
-    {
-      "available_budget_clp": 39990.0,
-      "buyer": "SERVICIO DE SALUD COQUIMBO HOSPITAL COMB",
-      "closes_at": "2026-10-28T10:00:00",
-      "code": "2147-495-COT26",
-      "estimated_budget": 39990.0,
-      "name": "PÉPLICA ANATOMICAS DE DIENTES PARA EDUCACIÓN EN HIGIENE Y SALUD BUCAL/ FSC N°6",
-      "products": 1,
-      "region": "Región de Coquimbo"
-    },
-    {
-      "available_budget_clp": 150000.0,
-      "buyer": "SECCIÓN COMPRAS X ZONA",
-      "closes_at": "2026-10-27T09:00:00",
-      "code": "1079639-1054-COT26",
-      "estimated_budget": 150000.0,
-      "name": "ADQUISICIÓN DE KIT MANTENCIÓN ORIGINAL EPSON L6490 - TIC CHILOÉ",
-      "products": 1,
-      "region": "Región de los Lagos"
-    },
-    {
-      "available_budget_clp": 250000.0,
-      "buyer": "I MUNICIPALIDAD DE FREIRINA",
-      "closes_at": "2026-10-26T08:00:00",
-      "code": "4355-1064-COT26",
-      "estimated_budget": 250000.0,
-      "name": "INSUMOS VARIOS CORONACION REINA",
-      "products": 3,
-      "region": "Región de Atacama"
-    },
-    {
-      "available_budget_clp": 7006000.0,
-      "buyer": "INSTITUTO DE DESARROLLO AGROPECUARIO",
-      "closes_at": "2026-10-28T15:00:00",
-      "code": "1127-38-COT26",
-      "estimated_budget": 7006000.0,
-      "name": "Impresión Catálogo de Papas Nativas de Chiloé.",
-      "products": 1,
-      "region": "Región de los Lagos"
+      "region": "Región de Antofagasta"
     }
   ],
-  "active_structurally_reconstructable_count": 20,
+  "active_structurally_reconstructable_count": 2,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -219,22 +39,24 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-10-23T19:59:20Z",
+  "generated_at": "2026-10-23T23:14:03Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
   "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
   "phase1": {
     "records": 20,
-    "rejection_reasons": {},
-    "resolved": 0,
-    "structurally_reconstructable": 20,
-    "with_observable_quote_totals": 0,
-    "with_purchase_order_indicator": 0
+    "rejection_reasons": {
+      "no_observable_competitive_prices": 16
+    },
+    "resolved": 18,
+    "structurally_reconstructable": 4,
+    "with_observable_quote_totals": 2,
+    "with_purchase_order_indicator": 2
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-23T19:59:20Z"
+    "changed_to": "2026-10-23T23:14:03Z"
   }
 }
