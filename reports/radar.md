@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-23T05:07:41.087977+00:00
+Generated: 2026-10-23T13:39:49.114316+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 146
+- New this cycle: 143
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 350, ai 193, commerce 34, energy 498, robotics 725
+- Categories: agriculture 366, ai 191, commerce 33, energy 494, robotics 716
 
 ## Recently encountered signals
+
+### iamlogesh26-crypto/AgriHelp-Smart-Agriculture-Assistant
+- Source: https://github.com/iamlogesh26-crypto/AgriHelp-Smart-Agriculture-Assistant
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### Sumit8055-arch/-NexHR-Agri-Bringing-AI-Smart-Farming-Digital-Innovation-Together-
 - Source: https://github.com/Sumit8055-arch/-NexHR-Agri-Bringing-AI-Smart-Farming-Digital-Innovation-Together-
@@ -270,6 +276,30 @@ Generated: 2026-10-23T05:07:41.087977+00:00
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
+### Sensor-Based IoT Platform for Real-Time Monitoring and Cloud Visualization of Solar PV Generation and Battery Energy Storage System
+- Source: https://doi.org/10.55041/ijsrem68207
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### Sreejith200616/agrosentinel-AI
+- Source: https://github.com/Sreejith200616/agrosentinel-AI
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### Experimental Investigation and Evaluation of a Directly Heated High-Temperature Solid Media Thermal Energy Storage System for Cabin Heating in Battery Electric Vehicles
+- Source: https://doi.org/10.3390/en19215045
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### Electrochemical energy storage beyond steady state: Real world automotive dynamics as a missing dimension in battery science
+- Source: https://doi.org/10.1016/j.rser.2026.117625
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
 ### Decision language models as affordable and rapid alternatives to LLM judges of clinical generative AI
 - Source: https://arxiv.org/abs/2610.28826
 - Domain: ai | Suggested angle: Agent-enabled digital asset or localised specialised product
@@ -428,36 +458,6 @@ Generated: 2026-10-23T05:07:41.087977+00:00
 
 ### dakshghuge/ShetkariAI
 - Source: https://github.com/dakshghuge/ShetkariAI
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### shraddhey-010/AgriTech
-- Source: https://github.com/shraddhey-010/AgriTech
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Brain-Aligned Multimodal LLMs for Social and Emotional Understanding of Cartoon Movies
-- Source: https://arxiv.org/abs/2610.22706
-- Domain: ai | Suggested angle: Agent-enabled digital asset or localised specialised product
-- First test: Identify measurable customer job, willing buyer, existing competitors and unit economics.
-- Status: **unverified research lead**
-
-### smitdeshaval/Framing-app
-- Source: https://github.com/smitdeshaval/Framing-app
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### naina-modi123/agritech-smart-farming
-- Source: https://github.com/naina-modi123/agritech-smart-farming
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### ganavisk/KrushiPath
-- Source: https://github.com/ganavisk/KrushiPath
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
