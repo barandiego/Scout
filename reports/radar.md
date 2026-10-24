@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-24T18:54:43.359904+00:00
+Generated: 2026-10-24T22:36:31.092183+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 111
+- New this cycle: 101
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
-- Categories: agriculture 395, ai 155, commerce 33, energy 492, robotics 725
+- Categories: agriculture 397, ai 149, commerce 33, energy 489, robotics 732
 
 ## Recently encountered signals
+
+### rohitbhagadkar79-crypto/Agro-Solutin
+- Source: https://github.com/rohitbhagadkar79-crypto/Agro-Solutin
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### thehmfpk/kisanlens-ai
 - Source: https://github.com/thehmfpk/kisanlens-ai
@@ -454,10 +460,4 @@ Generated: 2026-10-24T18:54:43.359904+00:00
 - Source: https://doi.org/10.1002/est2.70543
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### shaik-fouzan/Krishi-mitra-ai
-- Source: https://github.com/shaik-fouzan/Krishi-mitra-ai
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
