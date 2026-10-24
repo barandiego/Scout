@@ -1,27 +1,37 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 1870000.0,
-      "buyer": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
-      "closes_at": "2026-10-27T10:00:00",
-      "code": "1057494-631-COT26",
-      "estimated_budget": 1870000.0,
-      "name": "Insmos ergonomicos S-COM 28132",
-      "products": 2,
+      "available_budget_clp": 800000.0,
+      "buyer": "Hospital Sanatorio San José de Maipo",
+      "closes_at": "2026-10-25T19:30:00",
+      "code": "2153-490-COT26",
+      "estimated_budget": 800000.0,
+      "name": "INSUMOS H.AMIGO",
+      "products": 3,
       "region": "Región Metropolitana de Santiago"
     },
     {
-      "available_budget_clp": 500000.0,
-      "buyer": "CENTRAL DE ABASTECIMIENTO DEL SISTEMA NACIONAL DE SERVICIO DE SALUD",
-      "closes_at": "2026-10-25T15:47:00",
-      "code": "2268-170-COT26",
-      "estimated_budget": 500000.0,
-      "name": "SERVICIO DE REINGRESO DE SOLICITUD DE REGISTRO DE MARCA ANTE INAPI",
+      "available_budget_clp": 7215100.0,
+      "buyer": "SERVICIO DE SALUD METROPOLITANO SUR HOSP",
+      "closes_at": "2026-10-26T18:00:00",
+      "code": "2069-2744-COT26",
+      "estimated_budget": 7215100.0,
+      "name": "GMC-CP-112026-CANULA DE TRAQUEOTOMIA SIN BALON CON CAMISA Nº 7 UNIDAD (KIT)-AG",
       "products": 1,
       "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 713700.0,
+      "buyer": "Servicio de Biodiversidad y Áreas Protegidas",
+      "closes_at": "2026-10-25T20:03:00",
+      "code": "1492433-23-COT26",
+      "estimated_budget": 713700.0,
+      "name": "MANTENCION DE 2 BUGGIES O VEHÍCULOS UTILITARIOS TODOTERRENO DEL PARQUE NACIONAL VICENTE PEREZ ROSALES-CONVENIO SBAP-CONAF",
+      "products": 1,
+      "region": "Región de los Lagos"
     }
   ],
-  "active_structurally_reconstructable_count": 2,
+  "active_structurally_reconstructable_count": 3,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -39,7 +49,7 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-10-24T18:51:11Z",
+  "generated_at": "2026-10-24T22:34:29Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -47,16 +57,16 @@
   "phase1": {
     "records": 20,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 5
+      "no_observable_competitive_prices": 9
     },
-    "resolved": 18,
-    "structurally_reconstructable": 15,
-    "with_observable_quote_totals": 13,
+    "resolved": 17,
+    "structurally_reconstructable": 11,
+    "with_observable_quote_totals": 8,
     "with_purchase_order_indicator": 2
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-24T18:51:11Z"
+    "changed_to": "2026-10-24T22:34:29Z"
   }
 }
