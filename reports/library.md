@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-23T22:54:13.436888+00:00
+Generated: 2026-10-24T03:17:48.032406+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 124 (0 HQ survivors, 124 watches)
+- Active research: 127 (0 HQ survivors, 127 watches)
 - Rejected opportunities excluded: 64
-- Critic-and-judge reviewed: 58
+- Critic-and-judge reviewed: 59
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -22,6 +22,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Unit landed cost for blank NFC tags, acrylic or printed displays, packaging, and Chilean delivery.; Contribution margin after payment fees, taxes, shipping, configuration, artwork, customer support, replacements, and failed deliveries.; Whether businesses will buy from a new operator when established local vendors already offer similar products and social proof.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://masenlaces.com/store/faq; https://www.ondda.cl/; https://tarjetas-nfc.com/; https://nfctech.cl/
+
+### Apply for Chilean-Spanish AI training and evaluation contracts [opp_36a79f45b8a96526d2d1]
+- Status: WATCH_REQUIRES_VALIDATION | general | Chile
+- Thesis: This is an executable income opportunity rather than merely a sector trend, but workload is contingent on qualification, project availability, and acceptance; listed rates do not establish guaranteed hours or earnings.
+- Value capture: Complete employer/platform applications, language or quality assessments, identity verification where required, and paid evaluation, annotation, writing, or recording tasks. No application fee or deposit is indicated in the consulted listings.
+- Participation hypothesis: Apply first to the Meridial/Greenhouse Chilean-Spanish Language Expert listing and the Welocalize Chile data-rater listing; separately apply to the Lemon Recruitment Chilean-Spanish audio project if the stated PayPal/Payoneer terms are acceptable. Before investing substantial time, verify that the application remains open, ask whether Chile-based applicants can actually receive assignments, confirm the payment method and minimum payout, and complete only the initial qualification test. Falsification test: submit applications to two listings and
+- Critic/judge: Primary job-board evidence supports a real, Chile-accessible freelance application path with an identified payer and stated compensation, so the premise is not fabricated and the opportunity is not demonstrably closed. However, it is contingent gig work rather than a durable differentiated business: acceptance, paid-task volume, effective rate, and payout reliability remain unverified. The clearest verified path (Welocalize) is low-paid
+- Next evidence gaps: Whether the Meridial listing supplied in the evidence is still open, because the supplied job ID differs from the current Chile listing found independently.; Applicant acceptance rates and the percentage of applicants who receive paid work.; Actual effective hourly earnings after qualification tests, training, rejected tasks, downtime, and payment friction.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://job-boards.greenhouse.io/agency/jobs/4655007101; https://welocalize-4.careers-page.com/jobs/50b2a78d-b9fe-44e6-a2e5-b5e3749fc251; https://lemonr.careers-page.com/jobs/51c79bdb-c61d-43b9-856b-2cc5bf4cffca
 
 ### BESS and inverter compliance pre-check for Chilean distributed-energy projects [opp_7ea6a495427da87c8c5c]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile
@@ -772,6 +782,26 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.licitacioneselectricas.cl/licitaciones?estado=vigentes; https://jdf.cl/en/cne-aprueba-las-bases-definitivas-de-la-licitacion-de-suministro-2026-01-y-da-inicio-formal-al-proceso/
+
+### Bilingual AI safety evaluator contract accessible from Chile [opp_b55f1420dab520bdff40]
+- Status: WATCH_REQUIRES_VALIDATION | general | Chile
+- Thesis: A qualified bilingual applicant can test a specific paid-work channel involving rating model outputs and flagging unsafe or illogical responses; actual income remains uncertain because the listing does not guarantee hours or acceptance.
+- Value capture: Apply through the employer’s application page, pass screening, and complete hourly safety-data evaluation assignments if accepted. The work may involve disturbing content, so applicant suitability is a material constraint.
+- Participation hypothesis: Submit an application only after checking that the role still accepts applicants from Chile and that contractor payout terms are disclosed during onboarding. Falsification test: complete the free application and any stated screening, then require written confirmation of rate, payment method, payment schedule, and expected task availability before doing project work; abandon the route if any fee, deposit, purchase, or unpaid production sample is requested.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.opentrain.ai/jobs/bilingual-ai-safety-data-evaluator-english-spanish-c1--cmni8aczu001004l4jlwcn0fe/; https://cl.linkedin.com/jobs/view/quality-evaluator-%E2%80%93-english-at-anyone-ai-4478597242
+
+### Build a pre-compliance prototype for Chile’s Open Finance APIs [opp_ed6870a3272f346bc0b3]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: The evidence supports a timing window for a technical validation asset—not a proven customer or revenue opportunity. A small operator could test whether regulated or prospective participating entities need help validating consent, security, API integration, logging, or payment-initiation flows before implementation.
+- Value capture: Offer a narrowly scoped, fixed-output API conformance or sandbox-readiness assessment using the public CMF documentation. Any payment, buyer, permissions, production access, or regulatory status must be confirmed directly; the public evidence does not establish them.
+- Participation hypothesis: Use the CMF developer portal and technical documentation to build a local mock integration checklist and one demonstrable consent/payment-initiation test harness. Contact identifiable entities only through publicly listed channels and ask whether they will review a non-production prototype or purchase a bounded technical assessment. Falsification test: within 21 days, obtain at least three substantive responses from potential participants or developers and one request for a scoped technical review; if not, return zero rather than treating regul
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812
 
 ### Chile beauty replenishment and gifting bundles around Natura’s new Falabella channel [opp_3b6c4274052085a9b5b0]
 - Status: WATCH_REQUIRES_VALIDATION | ecommerce_niches | Chile

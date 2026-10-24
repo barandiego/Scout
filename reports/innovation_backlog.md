@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 124
+Candidates: 127
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -388,6 +388,18 @@ Candidates: 124
 - Possible initial budget:
 - Source URLs: https://www.nist.gov/news-events/news/2026/05/guidelines-secure-deployment-restful-web-apis-draft-sp-800-228a-available; https://www.fedramp.gov/2026/
 
+## Apply for Chilean-Spanish AI training and evaluation contracts
+- Status: watch | general
+- Current idea: This is an executable income opportunity rather than merely a sector trend, but workload is contingent on qualification, project availability, and acceptance; listed rates do not establish guaranteed hours or earnings.
+- Potential economic capture: Complete employer/platform applications, language or quality assessments, identity verification where required, and paid evaluation, annotation, writing, or recording tasks. No application fee or deposit is indicated in the consulted listings.
+- **Research routes to test (NOT validated claims):**
+  - Name a specific payer, customer job and credible reason existing alternatives fail.
+  - Choose a low-cost differentiation wedge (availability, price, experience, distribution or technology).
+  - Test channel, willingness to pay, ownership and contribution margin before building.
+- Critical gaps: Whether the Meridial listing supplied in the evidence is still open, because the supplied job ID differs from the current Chile listing found independently.; Applicant acceptance rates and the percentage of applicants who receive paid work.; Actual effective hourly earnings after qualification tests, training, rejected tasks, downtime, and payment friction.
+- Possible initial budget:
+- Source URLs: https://job-boards.greenhouse.io/agency/jobs/4655007101; https://welocalize-4.careers-page.com/jobs/50b2a78d-b9fe-44e6-a2e5-b5e3749fc251; https://lemonr.careers-page.com/jobs/51c79bdb-c61d-43b9-856b-2cc5bf4cffca
+
 ## Battery storage deployment accelerates as a grid-scale economic asset
 - Status: watch | general
 - Current idea: Storage is shifting from an intermittency add-on toward core grid infrastructure, increasing the value of flexible capacity, ancillary services, and interconnection-ready projects.
@@ -411,6 +423,18 @@ Candidates: 124
 - Critical gaps: Project-level unlevered IRRs, net present values, and payback periods by market, duration, degradation profile, and revenue stack.; How quickly arbitrage spreads, ancillary-service prices, and capacity prices decline as storage penetration increases.; The proportion of the cited global capacity that is contracted, subsidized, vertically integrated, or economically marginal.
 - Possible initial budget:
 - Source URLs: https://www.iea.org/reports/electricity-2026/flexibility; https://www.iea.org/reports/energy-technology-perspectives-2026/executive-summary
+
+## Bilingual AI safety evaluator contract accessible from Chile
+- Status: watch | general
+- Current idea: A qualified bilingual applicant can test a specific paid-work channel involving rating model outputs and flagging unsafe or illogical responses; actual income remains uncertain because the listing does not guarantee hours or acceptance.
+- Potential economic capture: Apply through the employer’s application page, pass screening, and complete hourly safety-data evaluation assignments if accepted. The work may involve disturbing content, so applicant suitability is a material constraint.
+- **Research routes to test (NOT validated claims):**
+  - Name a specific payer, customer job and credible reason existing alternatives fail.
+  - Choose a low-cost differentiation wedge (availability, price, experience, distribution or technology).
+  - Test channel, willingness to pay, ownership and contribution margin before building.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.opentrain.ai/jobs/bilingual-ai-safety-data-evaluator-english-spanish-c1--cmni8aczu001004l4jlwcn0fe/; https://cl.linkedin.com/jobs/view/quality-evaluator-%E2%80%93-english-at-anyone-ai-4478597242
 
 ## CMS is advancing standardized payer APIs and interoperability requirements
 - Status: watch | general
@@ -579,6 +603,18 @@ Candidates: 124
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://github.com/DocuPipe/DocuBench; https://github.com/mborges-dev/extraction-evals
+
+## Build a pre-compliance prototype for Chile’s Open Finance APIs
+- Status: watch | open_finance_chile
+- Current idea: The evidence supports a timing window for a technical validation asset—not a proven customer or revenue opportunity. A small operator could test whether regulated or prospective participating entities need help validating consent, security, API integration, logging, or payment-initiation flows before implementation.
+- Potential economic capture: Offer a narrowly scoped, fixed-output API conformance or sandbox-readiness assessment using the public CMF documentation. Any payment, buyer, permissions, production access, or regulatory status must be confirmed directly; the public evidence does not establish them.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812
 
 ## Chile Open Finance conformance and integration test harness
 - Status: watch | open_finance_chile

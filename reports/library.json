@@ -108,6 +108,100 @@
       "ai_leverage": "",
       "authorized_for_execution": false,
       "contrary_evidence": [
+        "The Meridial application page currently identifies a remote Chilean-Spanish language-specialist contract role and publishes a US$8–65/hour range, indicating that higher-paying specialist work may exist for qualified applicants. Source: https://job-boards.greenhouse.io/agency/jobs/4655768101",
+        "The Welocalize page currently describes a Chile-remote freelance Spanish AI-rater project with a stated US$6/hour rate and 5–15 variable weekly hours, suggesting a concrete application path rather than a purely speculative trend. Source: https://welocalize-4.careers-page.com/jobs/50b2a78d-b9fe-44e6-a2e5-b5e3749fc251",
+        "The Lemon page describes a Chile-remote audio-recording project requiring 400 sentences and offering Payoneer or PayPal, which could provide a short, bounded paid task if the hourly compensation is confirmed. Source: https://lemonr.careers-page.com/jobs/51c79bdb-c61d-43b9-856b-2cc5bf4cffca",
+        "The listings do not indicate an application fee or deposit, reducing—but not eliminating—the financial downside of testing the opportunity."
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-24T03:17:26.441284+00:00",
+      "discovery_lens": "remote_paid_evaluation",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Employer application page identifies a remote contract role for Spanish (Chile) specialists, lists Chile as the location, and publishes a US$8–65/hour range subject to experience and geography.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Spanish (Chile) Language Expert - Freelance AI Trainer Project",
+          "url": "https://job-boards.greenhouse.io/agency/jobs/4655007101"
+        },
+        {
+          "claim": "Application page lists remote freelance work in Chile, US$6/hour based on completed tasks, 5–15 variable weekly hours, and required language, quality, and training assessments.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Spanish AI Data Rater",
+          "url": "https://welocalize-4.careers-page.com/jobs/50b2a78d-b9fe-44e6-a2e5-b5e3749fc251"
+        },
+        {
+          "claim": "Listing states Chile-remote audio recording work, US$12/hour, 400 sentences, and Payoneer or PayPal payment; the page contains inconsistent monthly/hourly compensation text, so payment terms require verification before relying on it.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Audio Annotator Spanish Chile (WFH remote)",
+          "url": "https://lemonr.careers-page.com/jobs/51c79bdb-c61d-43b9-856b-2cc5bf4cffca"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.84,
+      "falsification_conditions": [
+        "Both the current Meridial and Welocalize application paths are closed, unavailable to Chile residents, or fail to produce an assessment or substantive response within 14 days.",
+        "The Lemon recruiter cannot confirm in writing before work begins that compensation is US$12/hour or a clearly acceptable fixed amount, including payment method and minimum payout.",
+        "Any listing requires an upfront fee, deposit, paid course, purchase of equipment, or extensive unpaid production work.",
+        "After qualification, available paid work is less than approximately 5 hours per week for four consecutive weeks, unless the applicant's objective is only a one-off recording task.",
+        "The actual effective gross rate, calculated from total application, testing, training, and task time, is below the applicant's minimum acceptable rate.",
+        "The advertised rate is reduced materially after acceptance, tasks are routinely rejected without transparent criteria, or payment is delayed or disputed.",
+        "No Chilean applicant can verify a successful payout from the relevant project within a reasonable period."
+      ],
+      "geography": "Chile",
+      "id": "opp_36a79f45b8a96526d2d1",
+      "judge_reviewed": true,
+      "judgment": "Primary job-board evidence supports a real, Chile-accessible freelance application path with an identified payer and stated compensation, so the premise is not fabricated and the opportunity is not demonstrably closed. However, it is contingent gig work rather than a durable differentiated business: acceptance, paid-task volume, effective rate, and payout reliability remain unverified. The clearest verified path (Welocalize) is low-paid and variable (US$6/hour, 5–15 hours/week), while the higher Meridial range has no demonstrated expected rate or guaranteed workload. Treat this only as a tightly time-boxed, low-cost income/market-validation test, not a dependable income strategy or an AI-leverage venture. Do not rely on the Lemon listing until its internally inconsistent compensation is confirmed in writing.",
+      "last_record_updated_at": "2026-10-24T03:17:47.555258+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Whether the Meridial listing supplied in the evidence is still open, because the supplied job ID differs from the current Chile listing found independently.",
+        "Applicant acceptance rates and the percentage of applicants who receive paid work.",
+        "Actual effective hourly earnings after qualification tests, training, rejected tasks, downtime, and payment friction.",
+        "Whether Chilean contractors can use the stated payment methods and what minimum payout, withholding, conversion, or transfer fees apply.",
+        "How many hours or tasks are available after onboarding and how long each project remains active."
+      ],
+      "participation_path": "Apply first to the Meridial/Greenhouse Chilean-Spanish Language Expert listing and the Welocalize Chile data-rater listing; separately apply to the Lemon Recruitment Chilean-Spanish audio project if the stated PayPal/Payoneer terms are acceptable. Before investing substantial time, verify that the application remains open, ask whether Chile-based applicants can actually receive assignments, confirm the payment method and minimum payout, and complete only the initial qualification test. Falsification test: submit applications to two listings and record whether an assessment or paid task is offered within 14 days; treat no response, no Chile eligibility, unpaid speculative work, or changed compensation as failure.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "This is an executable income opportunity rather than merely a sector trend, but workload is contingent on qualification, project availability, and acceptance; listed rates do not establish guaranteed hours or earnings.",
+      "title": "Apply for Chilean-Spanish AI training and evaluation contracts",
+      "type": "remote_paid_evaluation",
+      "unknowns": [
+        "Whether the Meridial listing supplied in the evidence is still open, because the supplied job ID differs from the current Chile listing found independently.",
+        "Applicant acceptance rates and the percentage of applicants who receive paid work.",
+        "Actual effective hourly earnings after qualification tests, training, rejected tasks, downtime, and payment friction.",
+        "Whether Chilean contractors can use the stated payment methods and what minimum payout, withholding, conversion, or transfer fees apply.",
+        "How many hours or tasks are available after onboarding and how long each project remains active.",
+        "Whether the US$65 upper bound is attainable for a Chile-based applicant or is limited to unusually credentialed specialists in higher-paying geographies.",
+        "Whether the Lemon compensation is US$12/hour, US$10–12/month, or another amount; the page is internally inconsistent.",
+        "Tax, social-security, consumer-protection, and contractor-classification obligations in Chile.",
+        "Whether any work requires recording sensitive personal data, signing restrictive confidentiality terms, or completing unpaid speculative samples.",
+        "Whether the cited Greenhouse/Meridial Chile role associated with the exact supplied job ID remains open and accepts new Chilean applicants.",
+        "Actual assessment pass rate, onboarding time, paid-task availability, and project retention for Chilean contractors.",
+        "Typical awarded rate and expected weekly hours for the Meridial role, especially for applicants without scarce domain credentials.",
+        "Payment eligibility in Chile, payout thresholds, transfer fees, withholding, and tax treatment.",
+        "Whether qualification samples are reasonable screening tasks or amount to substantial unpaid production work.",
+        "Whether any completed task is routinely rejected or compensated under transparent and appealable quality rules.",
+        "Whether the applicant's minimum acceptable effective hourly rate makes even the verified Welocalize path economically rational."
+      ],
+      "value_capture_mechanism": "Complete employer/platform applications, language or quality assessments, identity verification where required, and paid evaluation, annotation, writing, or recording tasks. No application fee or deposit is indicated in the consulted listings.",
+      "verified_sales": null,
+      "vertical": "general",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [
         "There is genuine regulatory complexity that could create demand. SEC identifies RGR N°06/2024 as the technical instruction for battery energy-storage systems, and the published document covers BESS composition and technical requirements. SEC also maintains formal product-authorization and TE4 declaration systems, including public visibility into rejected or inscrita filings. These facts support the existence of a compliance workflow and potential error-reduction value, but they do not establish that an independent pre-check is required or monetizable. Sources: https://www.sec.cl/sitio-web/wp-content/uploads/2025/01/RGR-N-06-2024_v4.pdf ; https://wlhttp.sec.cl/productManager/login ; https://wlhttp.sec.cl/edeclaradorTE4/usuarioPublicoERNC.do\n\nSEC's public installer-search system explicitly includes review of installations and preparation of electrical projects among installer work categories, which is contrary evidence to the assumption that installers lack review capability. Source: https://wlhttp.sec.cl/buscadorinstaladores/buscador.do\n\nThe regulatory framework appears active rather than static: SEC lists later modifications to the distributed-generation instructions and current public consultation or training activity. This supports a need for monitoring, but also increases product-maintenance burden and the risk that a low-priced checklist cannot remain accurate. Sources: https://www.sec.cl/gda/norma-tecnica-e-instructivos/ ; https://www.sec.cl/home-area-instalaciones/"
       ],
       "critic_reviewed": true,
@@ -6144,6 +6238,114 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-24T03:17:26.442345+00:00",
+      "discovery_lens": "remote_paid_evaluation",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Listing describes a remote hourly contractor role for Spanish-English evaluation, states worldwide availability, and lists US$14–24/hour with US$20/hour shown.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Bilingual AI Safety Data Evaluator – Remote",
+          "url": "https://www.opentrain.ai/jobs/bilingual-ai-safety-data-evaluator-english-spanish-c1--cmni8aczu001004l4jlwcn0fe/"
+        },
+        {
+          "claim": "LinkedIn listing shows a remote independent-contractor evaluator role in Chile/LATAM with published compensation of US$7–12/hour and up to three months of part-time commitment.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Quality Evaluator – Fluent English (Europe & LATAM)",
+          "url": "https://cl.linkedin.com/jobs/view/quality-evaluator-%E2%80%93-english-at-anyone-ai-4478597242"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.78,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_b55f1420dab520bdff40",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-24T03:17:26.504382+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Submit an application only after checking that the role still accepts applicants from Chile and that contractor payout terms are disclosed during onboarding. Falsification test: complete the free application and any stated screening, then require written confirmation of rate, payment method, payment schedule, and expected task availability before doing project work; abandon the route if any fee, deposit, purchase, or unpaid production sample is requested.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A qualified bilingual applicant can test a specific paid-work channel involving rating model outputs and flagging unsafe or illogical responses; actual income remains uncertain because the listing does not guarantee hours or acceptance.",
+      "title": "Bilingual AI safety evaluator contract accessible from Chile",
+      "type": "remote_paid_evaluation",
+      "unknowns": [],
+      "value_capture_mechanism": "Apply through the employer’s application page, pass screening, and complete hourly safety-data evaluation assignments if accepted. The work may involve disturbing content, so applicant suitability is a material constraint.",
+      "verified_sales": null,
+      "vertical": "general",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-24T03:17:26.443353+00:00",
+      "discovery_lens": "wildcard",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF states that the amendment includes technical specifications for interoperability and payment initiation, publishes a developer portal, and postpones entry into force until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "Official CMF documentation provides API specifications, integration and operational guidance, security specifications, and a participant directory.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Finanzas Abiertas CMF - Portal del desarrollador",
+          "url": "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.74,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_ed6870a3272f346bc0b3",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-24T03:17:26.504603+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use the CMF developer portal and technical documentation to build a local mock integration checklist and one demonstrable consent/payment-initiation test harness. Contact identifiable entities only through publicly listed channels and ask whether they will review a non-production prototype or purchase a bounded technical assessment. Falsification test: within 21 days, obtain at least three substantive responses from potential participants or developers and one request for a scoped technical review; if not, return zero rather than treating regulation as demand.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The evidence supports a timing window for a technical validation asset—not a proven customer or revenue opportunity. A small operator could test whether regulated or prospective participating entities need help validating consent, security, API integration, logging, or payment-initiation flows before implementation.",
+      "title": "Build a pre-compliance prototype for Chile’s Open Finance APIs",
+      "type": "narrow_testable_wedge",
+      "unknowns": [],
+      "value_capture_mechanism": "Offer a narrowly scoped, fixed-output API conformance or sandbox-readiness assessment using the public CMF documentation. Any payment, buyer, permissions, production access, or regulatory status must be confirmed directly; the public evidence does not establish them.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-18T04:20:53.374895+00:00",
       "discovery_lens": "business_model_migration",
       "estimated_capital": "",
@@ -8735,13 +8937,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-23T22:54:13.436888+00:00",
+  "generated_at": "2026-10-24T03:17:48.032406+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 64,
-  "reviewed_cards": 58,
+  "reviewed_cards": 59,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 188,
-  "watch": 124
+  "total_distinct_opportunities": 191,
+  "watch": 127
 }

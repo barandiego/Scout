@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-10-23T22:54:13.436888+00:00",
+  "generated_at": "2026-10-24T03:17:48.032406+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -21,7 +21,7 @@
     },
     {
       "opportunity_id": "opp_f26e42aaabb91e157f9d",
-      "other_cards_in_theme": 48,
+      "other_cards_in_theme": 49,
       "reviewed": true,
       "status": "watch",
       "theme": "chile_open_finance",
@@ -50,6 +50,14 @@
       "status": "watch",
       "theme": "energy_infrastructure:sec_verified_solar",
       "title": "SEC-verified solar-plus-storage prequalification for Chilean small businesses"
+    },
+    {
+      "opportunity_id": "opp_36a79f45b8a96526d2d1",
+      "other_cards_in_theme": 0,
+      "reviewed": true,
+      "status": "watch",
+      "theme": "general:apply_spanish_ai",
+      "title": "Apply for Chilean-Spanish AI training and evaluation contracts"
     },
     {
       "opportunity_id": "opp_30978e90c9f1315f2e7c",
@@ -90,28 +98,20 @@
       "status": "watch",
       "theme": "geographic_arbitrage:midstream_critical_minerals",
       "title": "Midstream critical-minerals processing is becoming a strategic bottleneck"
-    },
-    {
-      "opportunity_id": "opp_4d35ac86771c99fe0eec",
-      "other_cards_in_theme": 0,
-      "reviewed": true,
-      "status": "watch",
-      "theme": "general:api_security_compliance",
-      "title": "API security and compliance are becoming a product layer for cloud and platform ecosystems"
     }
   ],
   "headline_count": 12,
   "high_concentration": [
     {
-      "cards": 49,
-      "share": 0.395,
+      "cards": 50,
+      "share": 0.394,
       "theme": "chile_open_finance"
     }
   ],
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 56,
+  "theme_count": 58,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -163,9 +163,10 @@
         "opp_f56b1fbbad100489cfa5",
         "opp_8173c8a9e4dbb2d4ed8c",
         "opp_32e5affc69f7f526e7c4",
-        "opp_cc801200847ba7165b70"
+        "opp_cc801200847ba7165b70",
+        "opp_ed6870a3272f346bc0b3"
       ],
-      "count": 49,
+      "count": 50,
       "representative_id": "opp_f26e42aaabb91e157f9d",
       "reviewed_count": 32,
       "theme": "chile_open_finance"
@@ -396,6 +397,24 @@
       "representative_id": "opp_4d35ac86771c99fe0eec",
       "reviewed_count": 1,
       "theme": "general:api_security_compliance"
+    },
+    {
+      "all_opportunity_ids": [
+        "opp_36a79f45b8a96526d2d1"
+      ],
+      "count": 1,
+      "representative_id": "opp_36a79f45b8a96526d2d1",
+      "reviewed_count": 1,
+      "theme": "general:apply_spanish_ai"
+    },
+    {
+      "all_opportunity_ids": [
+        "opp_b55f1420dab520bdff40"
+      ],
+      "count": 1,
+      "representative_id": "opp_b55f1420dab520bdff40",
+      "reviewed_count": 0,
+      "theme": "general:bilingual_ai_safety"
     },
     {
       "all_opportunity_ids": [
@@ -686,6 +705,6 @@
       "theme": "robotics_agritech:transparent_used_robot"
     }
   ],
-  "total_original_cards": 124,
+  "total_original_cards": 127,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }

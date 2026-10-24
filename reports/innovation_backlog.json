@@ -1186,6 +1186,47 @@
       "category": "general",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Apply first to the Meridial/Greenhouse Chilean-Spanish Language Expert listing and the Welocalize Chile data-rater listing; separately apply to the Lemon Recruitment Chilean-Spanish audio project if the stated PayPal/Payoneer terms are acceptable. Before investing substantial time, verify that the application remains open, ask whether Chile-based applicants can actually receive assignments, confirm the payment method and minimum payout, and complete only the initial qualification test. Falsification test: submit applications to two listings and record whether an assessment or paid task is offered within 14 days; treat no response, no Chile eligibility, unpaid speculative work, or changed compensation as failure.",
+      "current_thesis": "This is an executable income opportunity rather than merely a sector trend, but workload is contingent on qualification, project availability, and acceptance; listed rates do not establish guaranteed hours or earnings.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Whether the Meridial listing supplied in the evidence is still open, because the supplied job ID differs from the current Chile listing found independently.",
+        "Applicant acceptance rates and the percentage of applicants who receive paid work.",
+        "Actual effective hourly earnings after qualification tests, training, rejected tasks, downtime, and payment friction.",
+        "Whether Chilean contractors can use the stated payment methods and what minimum payout, withholding, conversion, or transfer fees apply.",
+        "How many hours or tasks are available after onboarding and how long each project remains active.",
+        "Whether the US$65 upper bound is attainable for a Chile-based applicant or is limited to unusually credentialed specialists in higher-paying geographies.",
+        "Whether the Lemon compensation is US$12/hour, US$10–12/month, or another amount; the page is internally inconsistent."
+      ],
+      "investment_authorized": false,
+      "name": "Apply for Chilean-Spanish AI training and evaluation contracts",
+      "opportunity_id": "opp_36a79f45b8a96526d2d1",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Name a specific payer, customer job and credible reason existing alternatives fail.",
+        "Choose a low-cost differentiation wedge (availability, price, experience, distribution or technology).",
+        "Test channel, willingness to pay, ownership and contribution margin before building."
+      ],
+      "supporting_source_urls": [
+        "https://job-boards.greenhouse.io/agency/jobs/4655007101",
+        "https://welocalize-4.careers-page.com/jobs/50b2a78d-b9fe-44e6-a2e5-b5e3749fc251",
+        "https://lemonr.careers-page.com/jobs/51c79bdb-c61d-43b9-856b-2cc5bf4cffca"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Complete employer/platform applications, language or quality assessments, identity verification where required, and paid evaluation, annotation, writing, or recording tasks. No application fee or deposit is indicated in the consulted listings.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "general",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Track regional capacity markets, congestion, curtailment, interconnection queues, and utility procurement; pilot storage paired with solar or industrial loads.",
       "current_thesis": "Storage is shifting from an intermittency add-on toward core grid infrastructure, increasing the value of flexible capacity, ancillary services, and interconnection-ready projects.",
       "founder_hours_initial_unverified_estimate": "",
@@ -1259,6 +1300,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Battery development, grid-scale storage, energy management software, aggregation, ancillary services, interconnection support and behind-the-meter demand management.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "general",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Submit an application only after checking that the role still accepts applicants from Chile and that contractor payout terms are disclosed during onboarding. Falsification test: complete the free application and any stated screening, then require written confirmation of rate, payment method, payment schedule, and expected task availability before doing project work; abandon the route if any fee, deposit, purchase, or unpaid production sample is requested.",
+      "current_thesis": "A qualified bilingual applicant can test a specific paid-work channel involving rating model outputs and flagging unsafe or illogical responses; actual income remains uncertain because the listing does not guarantee hours or acceptance.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Bilingual AI safety evaluator contract accessible from Chile",
+      "opportunity_id": "opp_b55f1420dab520bdff40",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Name a specific payer, customer job and credible reason existing alternatives fail.",
+        "Choose a low-cost differentiation wedge (availability, price, experience, distribution or technology).",
+        "Test channel, willingness to pay, ownership and contribution margin before building."
+      ],
+      "supporting_source_urls": [
+        "https://www.opentrain.ai/jobs/bilingual-ai-safety-data-evaluator-english-spanish-c1--cmni8aczu001004l4jlwcn0fe/",
+        "https://cl.linkedin.com/jobs/view/quality-evaluator-%E2%80%93-english-at-anyone-ai-4478597242"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Apply through the employer’s application page, pass screening, and complete hourly safety-data evaluation assignments if accepted. The work may involve disturbing content, so applicant suitability is a material constraint.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -1800,6 +1877,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Sell a fixed-scope benchmark run, downloadable test pack, or hosted regression dashboard to software vendors and accounting-automation teams. Do not claim coverage of Chilean tax rules or production accuracy until independently tested on permitted documents.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Use the CMF developer portal and technical documentation to build a local mock integration checklist and one demonstrable consent/payment-initiation test harness. Contact identifiable entities only through publicly listed channels and ask whether they will review a non-production prototype or purchase a bounded technical assessment. Falsification test: within 21 days, obtain at least three substantive responses from potential participants or developers and one request for a scoped technical review; if not, return zero rather than treating regulation as demand.",
+      "current_thesis": "The evidence supports a timing window for a technical validation asset—not a proven customer or revenue opportunity. A small operator could test whether regulated or prospective participating entities need help validating consent, security, API integration, logging, or payment-initiation flows before implementation.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Build a pre-compliance prototype for Chile’s Open Finance APIs",
+      "opportunity_id": "opp_ed6870a3272f346bc0b3",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Offer a narrowly scoped, fixed-output API conformance or sandbox-readiness assessment using the public CMF documentation. Any payment, buyer, permissions, production access, or regulatory status must be confirmed directly; the public evidence does not establish them.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -4722,7 +4835,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-23T22:54:13.483794+00:00",
+  "generated_at": "2026-10-24T03:17:48.125460+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"
