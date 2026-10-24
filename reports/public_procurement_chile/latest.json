@@ -1,27 +1,37 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 900000.0,
-      "buyer": "I MUNICIPALIDAD DE RIO BUENO",
-      "closes_at": "2026-10-24T20:40:00",
-      "code": "3853-615-COT26",
-      "estimated_budget": 900000.0,
-      "name": "SERVICIOS DE MANTENCIÓN Y REPARACIÓN DE INFRAESTRUCTURA – SECTOR 3 Y DEPENDENCIAS DE SALUD",
-      "products": 4,
-      "region": "Región de Los Ríos"
+      "available_budget_clp": 190000.0,
+      "buyer": "UNIVERSIDAD DE VALPARAISO",
+      "closes_at": "2026-10-26T15:00:00",
+      "code": "4894-340-COT26",
+      "estimated_budget": 190000.0,
+      "name": "Calefont 13 Litros Gas Licuado • Tiro Natural CFN-13GLSI SINDELEN",
+      "products": 1,
+      "region": "Región de Valparaíso"
     },
     {
-      "available_budget_clp": 3000000.0,
-      "buyer": "I MUNICIPALIDAD DE SAN PEDRO DE ATACAMA",
-      "closes_at": "2026-10-26T00:24:00",
-      "code": "4999-43-COT26",
-      "estimated_budget": 3000000.0,
-      "name": "Servicio de recarga de extintores y otros, DESAM San Pedro de Atacama",
-      "products": 1,
-      "region": "Región de Antofagasta"
+      "available_budget_clp": 1200000.0,
+      "buyer": "UNIVERSIDAD DE VALPARAISO",
+      "closes_at": "2026-10-26T15:00:00",
+      "code": "4894-339-COT26",
+      "estimated_budget": 1200000.0,
+      "name": "SUMINISTRO DE EXTINTORES PQS Y CO2",
+      "products": 2,
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 900000.0,
+      "buyer": "UNIVERSIDAD DE VALPARAISO",
+      "closes_at": "2026-10-26T15:00:00",
+      "code": "4894-338-COT26",
+      "estimated_budget": 900000.0,
+      "name": "Cortaviento Unisex color azúl con logo bordado",
+      "products": 2,
+      "region": "Región de Valparaíso"
     }
   ],
-  "active_structurally_reconstructable_count": 2,
+  "active_structurally_reconstructable_count": 3,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -39,7 +49,7 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-10-23T23:14:03Z",
+  "generated_at": "2026-10-24T04:47:47Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -47,16 +57,16 @@
   "phase1": {
     "records": 20,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 16
+      "no_observable_competitive_prices": 5
     },
-    "resolved": 18,
-    "structurally_reconstructable": 4,
-    "with_observable_quote_totals": 2,
-    "with_purchase_order_indicator": 2
+    "resolved": 17,
+    "structurally_reconstructable": 15,
+    "with_observable_quote_totals": 12,
+    "with_purchase_order_indicator": 1
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-23T23:14:03Z"
+    "changed_to": "2026-10-24T04:47:47Z"
   }
 }
