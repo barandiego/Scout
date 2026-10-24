@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-24T04:51:21.169161+00:00
+Generated: 2026-10-24T12:49:43.296560+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 124
+- New this cycle: 119
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): none
-- Categories: agriculture 389, ai 154, commerce 32, energy 512, robotics 713
+- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
+- Categories: agriculture 395, ai 154, commerce 34, energy 499, robotics 718
 
 ## Recently encountered signals
+
+### thehmfpk/kisanlens-ai
+- Source: https://github.com/thehmfpk/kisanlens-ai
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### samarthpatare/FARM_AI
 - Source: https://github.com/samarthpatare/FARM_AI
@@ -300,6 +306,18 @@ Generated: 2026-10-24T04:51:21.169161+00:00
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
+### vishalgautam726js-cmd/Smart-Farming-Information
+- Source: https://github.com/vishalgautam726js-cmd/Smart-Farming-Information
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### Kabir-Lord/agri-AI
+- Source: https://github.com/Kabir-Lord/agri-AI
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
 ### TanishBane/Nexfield
 - Source: https://github.com/TanishBane/Nexfield
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
@@ -442,22 +460,4 @@ Generated: 2026-10-24T04:51:21.169161+00:00
 - Source: https://github.com/shaik-fouzan/Krishi-mitra-ai
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### hadjerk475-arch/hadjeragro_Data
-- Source: https://github.com/hadjerk475-arch/hadjeragro_Data
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### jouritr31-bot/agro-lina
-- Source: https://github.com/jouritr31-bot/agro-lina
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### alexlanni/solar-assistant-cyd
-- Source: https://github.com/alexlanni/solar-assistant-cyd
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
