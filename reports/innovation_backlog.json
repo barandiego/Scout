@@ -227,6 +227,42 @@
       "category": "chile_localization",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use only provider-authorized API access and confirm redistribution/derived-report rights before selling. Build a no-code or script prototype for 20 public-company records using the free quota. Contact five Chilean accounting, procurement or compliance firms with a sample report and ask whether they will pay for a one-month pilot; do not collect client credentials or promise regulated compliance outcomes. Kill the test if fewer than two firms request a paid pilot or if the API terms prohibit the proposed report. Lowest-cost falsification is a manually prepared sample plus five buyer interviews, before purchasing a paid plan.",
+      "current_thesis": "A reproducible asset could monitor a defined list of Chilean companies for changes in business activity, tax-resolution status or published DTE contact data, producing a dated CSV/PDF exception report rather than manual research. The evidence supports data availability and paid API infrastructure, but does not establish willingness to pay, legal permission to redistribute the resulting data, or sufficient margin.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "SII company-record change monitor for accounting and compliance firms",
+      "opportunity_id": "opp_40dcdc904cd9586f5e77",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Find the smallest Chilean workflow whose economics differ from the original geography.",
+        "Secure lawful access, partners and after-sales support rather than copy protected technology.",
+        "Run a buyer interview or mock listing to falsify assumptions before capital commitment."
+      ],
+      "supporting_source_urls": [
+        "https://www.sre.cl/",
+        "https://rutapi.cl/documentacion"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Fixed-price monitoring pack or recurring report for an accounting, procurement or compliance operator that already maintains a company watchlist. Revenue, pricing and buyer conversion are unverified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "chile_localization",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Buy or request trial access from an API provider, obtain written permission for the intended reporting use, and build a spreadsheet or lightweight dashboard for one narrow workflow such as comparing SII purchase records against a client-provided accounting export. Before building a full product, ask 10 Chilean accounting firms whether they will review a sample report and pay a small refundable pilot fee. Falsify if fewer than 2 firms agree to inspect the sample or if the API terms prohibit redistribution or derived client reports.",
       "current_thesis": "A narrowly defined dashboard or scheduled report could turn licensed SII data access into a repeatable deliverable: identify missing invoices, unusual purchase changes, overdue DTE reconciliation, or month-end filing exceptions. The economics are testable because the underlying API access has published prices rather than requiring unpriced data acquisition.",
       "founder_hours_initial_unverified_estimate": "",
@@ -1818,9 +1854,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "Chile/LatAm",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "Which exact workflow, buyer, and Chilean industry are targeted.",
+        "Whether the workflow is legally and contractually automatable, including portal terms, credential-sharing rules, and data-processing obligations.",
+        "Human labor minutes per case, fully loaded labor cost, error cost, transaction volume, and achievable net savings.",
+        "Completion rate, exception rate, false actions, recovery time, and uptime over a statistically meaningful production sample.",
+        "Whether target portals expose stable APIs or approved integration channels that would displace browser automation.",
+        "Customer willingness to permit local credential handling, unattended execution, screenshots, network inspection, or model inference.",
+        "Support burden after portal changes and who pays for maintenance."
       ],
       "investment_authorized": false,
       "name": "Self-hosted browser-automation deployment for one repetitive Chilean back-office workflow",
@@ -3661,6 +3701,42 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use only publicly available CMF specifications and clearly separate original analysis/code from copied regulatory text. Build a small test harness covering five documented API/error cases. Ask three Chilean fintech or banking-infrastructure firms whether they would review it and pay for a pilot or code review; do not represent the asset as CMF-approved or offer regulated implementation advice. Lowest-cost falsification is a public Git repository with five tests and direct outreach to prospective implementers. Kill the test if no technically responsible contact agrees to review or if the specifications cannot support deterministic tests.",
+      "current_thesis": "A narrowly scoped reusable asset could be a versioned conformance-test workbook or sandbox test harness for prospective participants and software vendors: endpoint cases, consent-flow checks, error fixtures and release-difference logs. The mechanism is pre-implementation risk reduction, not access to live customer financial data.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Pre-implementation testing asset for Chile Open Finance integrations",
+      "opportunity_id": "opp_962e03a6a16029e4f872",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a fixed-price test pack or license it to fintech integrators, banks, payment firms or software vendors preparing for OFS participation. Buyer identity, price, procurement route and permission to reuse CMF materials remain unverified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Build or sell SFA conformance testing, consent-management, API monitoring, data normalization, fraud controls, or integration middleware; participate in ATENA testing; partner with regulated institutions or prospective SFA providers.",
       "current_thesis": "The near-term bottleneck is shifting from legal authorization to implementation capacity: consent management, API interoperability, security testing, participant-directory integration, and compliance tooling. This lowers uncertainty for firms that can build infrastructure before mandatory participation begins.",
       "founder_hours_initial_unverified_estimate": "",
@@ -4835,7 +4911,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-24T03:17:48.125460+00:00",
+  "generated_at": "2026-10-24T08:39:14.208430+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

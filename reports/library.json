@@ -4834,6 +4834,90 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": true,
+      "discovered_at": "2026-10-16T12:25:43.949763+00:00",
+      "discovery_lens": "ai_open_source",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The repository describes an MIT-licensed, self-hosted browser-control layer using Chrome/Chromium CDP, with navigation, clicking, form input, screenshots, JavaScript, and network inspection.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Cereon Browser Operator",
+          "url": "https://github.com/cereon-labs/cereon-browser-operator"
+        },
+        {
+          "claim": "The repository describes a self-hosted browser automation platform with REST API, session persistence, multiple browser support, vision features, and an MIT license.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "agent-browser",
+          "url": "https://github.com/smouj/agent-browser"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.72,
+      "falsification_conditions": [
+        "Three qualified operators cannot provide a repeatable workflow, baseline metrics, authorized test data, and a sandbox or supervised pilot within 30 days.",
+        "A supervised pilot cannot achieve at least 95% correct completion, or exception handling requires more human time than the original process.",
+        "Expected monthly gross savings are less than 3 times recurring maintenance, support, hosting, model, and compliance costs.",
+        "The target portal blocks automation, requires prohibited credential practices, or offers an approved API whose total cost is lower and reliability higher.",
+        "No customer agrees to pay for deployment plus ongoing maintenance after observing measured pilot results.",
+        "Portal changes or authentication challenges cause more than one material incident per month during a three-month pilot.",
+        "The workflow contains frequent judgment, document ambiguity, or irreversible actions that make human approval operationally dominant.",
+        "The implementation cannot be reused across at least two customers without substantial bespoke engineering.",
+        "Security or privacy review by a target customer rejects local browser control, screenshots, credential storage, or model/API access."
+      ],
+      "geography": "Chile/LatAm",
+      "id": "opp_5f895ba07087b66159c1",
+      "judge_reviewed": true,
+      "judgment": "This is a valid research hypothesis, not a survivor: the cited open-source projects establish only technical availability of browser control, not a concrete buyer job, demand, unit economics, authorized production access, or repeatable distribution. The opportunity appropriately avoids claiming market validation and names falsifiers, so the fatal conditions are not yet triggered. However, it does not satisfy the required evidence of a newly economical customer task, documented adoption gap, demonstrated integration/fallback safety, proprietary workflow/data/distribution advantage, or comparison against manual work, incumbents, approved APIs, and direct general-purpose AI use. Until one named, permissioned workflow produces measured pilot results and a paid continuation, it remains a potentially generic implementation service rather than an HQ-worthy differentiated product thesis.",
+      "last_record_updated_at": "2026-10-24T08:39:13.599039+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Which exact workflow, buyer, and Chilean industry are targeted.",
+        "Whether the workflow is legally and contractually automatable, including portal terms, credential-sharing rules, and data-processing obligations.",
+        "Human labor minutes per case, fully loaded labor cost, error cost, transaction volume, and achievable net savings.",
+        "Completion rate, exception rate, false actions, recovery time, and uptime over a statistically meaningful production sample.",
+        "Whether target portals expose stable APIs or approved integration channels that would displace browser automation."
+      ],
+      "participation_path": "Select one workflow with non-sensitive test data and an explicit human approval before submission. Prototype with the MIT-licensed Cereon Browser Operator or AgentBrowser, keeping credentials and execution on the client’s machine. Measure completion rate, exception rate, human minutes per case, and model/API cost over 20 to 50 cases. Falsification test: ask three operators of the same workflow for anonymized sample steps and permission to run a 1-week sandbox pilot; abandon if no one supplies a repeatable task, baseline time, or authorized test environment.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A small operator can test whether one high-frequency, browser-only workflow—such as downloading statements, reconciling portal data, or preparing draft form entries—can be automated at lower total cost than manual handling. The opportunity is the workflow-specific implementation and maintenance, not a generic AI agency.",
+      "title": "Self-hosted browser-automation deployment for one repetitive Chilean back-office workflow",
+      "type": "open_source_workflow_product",
+      "unknowns": [
+        "Which exact workflow, buyer, and Chilean industry are targeted.",
+        "Whether the workflow is legally and contractually automatable, including portal terms, credential-sharing rules, and data-processing obligations.",
+        "Human labor minutes per case, fully loaded labor cost, error cost, transaction volume, and achievable net savings.",
+        "Completion rate, exception rate, false actions, recovery time, and uptime over a statistically meaningful production sample.",
+        "Whether target portals expose stable APIs or approved integration channels that would displace browser automation.",
+        "Customer willingness to permit local credential handling, unattended execution, screenshots, network inspection, or model inference.",
+        "Support burden after portal changes and who pays for maintenance.",
+        "Pricing, gross margin, customer acquisition cost, sales cycle, and repeatability across customers.",
+        "Whether the referenced repositories are actively maintained, secure, production-tested, and suitable for commercial deployment.",
+        "Impact of Chilean data-protection, cybersecurity, financial-sector, and sector-specific compliance requirements.",
+        "The exact participant, buyer, recurring job, volume, error consequence, and current manual workaround.",
+        "Whether a target organization will authorize a pilot, provide a safe test environment, and pay after observed performance.",
+        "Measured end-to-end completion, false-action, escalation, recovery, uptime, and maintenance metrics across representative cases over time.",
+        "Fully loaded economics including labor, engineering, security/compliance review, hosting/model cost, support, incident response, and sales costs.",
+        "Whether workflows can be reused across customers without bespoke portal adaptation and customer-specific compliance work.",
+        "The practical path to a proprietary workflow asset, data feedback loop, integration partnership, or distribution advantage."
+      ],
+      "value_capture_mechanism": "Charge for a narrowly scoped deployment, workflow configuration, monitoring, and human-approval layer only after a real organization permits a pilot and confirms the task’s baseline labor or error cost. Do not resell hosted access to software whose license prohibits it.",
+      "verified_sales": null,
+      "vertical": "innovation_adoption",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": true,
       "discovered_at": "2026-10-09T04:11:50.771535+00:00",
       "discovery_lens": "open_finance_chile",
       "estimated_capital": "",
@@ -8398,34 +8482,34 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-16T12:25:43.949763+00:00",
-      "discovery_lens": "ai_open_source",
+      "discovered_at": "2026-10-24T08:38:52.199100+00:00",
+      "discovery_lens": "fixed_scope_paid_research_asset",
       "estimated_capital": "",
       "estimated_founder_hours_initial": "",
       "estimated_founder_hours_ongoing": "",
       "evidence": [
         {
-          "claim": "The repository describes an MIT-licensed, self-hosted browser-control layer using Chrome/Chromium CDP, with navigation, clicking, form input, screenshots, JavaScript, and network inspection.",
+          "claim": "CMF reports that the amendment adds technical specifications and a developer portal for Open Finance, while postponing entry into force until July 2027.",
           "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "Cereon Browser Operator",
-          "url": "https://github.com/cereon-labs/cereon-browser-operator"
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
         },
         {
-          "claim": "The repository describes a self-hosted browser automation platform with REST API, session persistence, multiple browser support, vision features, and an MIT license.",
+          "claim": "The official CMF developer documentation contains API specifications, integration and operations guidance, security specifications and a participant directory.",
           "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "agent-browser",
-          "url": "https://github.com/smouj/agent-browser"
+          "source_type": "primary",
+          "title": "Finanzas Abiertas CMF — portal del desarrollador",
+          "url": "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812"
         }
       ],
       "evidence_confidence_model_estimate": 0.78,
       "falsification_conditions": [],
-      "geography": "Chile/LatAm",
-      "id": "opp_5f895ba07087b66159c1",
+      "geography": "Chile",
+      "id": "opp_962e03a6a16029e4f872",
       "judge_reviewed": false,
       "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-16T12:25:43.967939+00:00",
+      "last_record_updated_at": "2026-10-24T08:38:52.255275+00:00",
       "material_update": false,
       "missing_execution_proof": [
         "independent_critic_and_judge",
@@ -8434,16 +8518,70 @@
       "next_validation_questions": [
         "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
       ],
-      "participation_path": "Select one workflow with non-sensitive test data and an explicit human approval before submission. Prototype with the MIT-licensed Cereon Browser Operator or AgentBrowser, keeping credentials and execution on the client’s machine. Measure completion rate, exception rate, human minutes per case, and model/API cost over 20 to 50 cases. Falsification test: ask three operators of the same workflow for anonymized sample steps and permission to run a 1-week sandbox pilot; abandon if no one supplies a repeatable task, baseline time, or authorized test environment.",
+      "participation_path": "Use only publicly available CMF specifications and clearly separate original analysis/code from copied regulatory text. Build a small test harness covering five documented API/error cases. Ask three Chilean fintech or banking-infrastructure firms whether they would review it and pay for a pilot or code review; do not represent the asset as CMF-approved or offer regulated implementation advice. Lowest-cost falsification is a public Git repository with five tests and direct outreach to prospective implementers. Kill the test if no technically responsible contact agrees to review or if the specifications cannot support deterministic tests.",
       "research_status": "WATCH_REQUIRES_VALIDATION",
       "status": "watch",
-      "thesis": "A small operator can test whether one high-frequency, browser-only workflow—such as downloading statements, reconciling portal data, or preparing draft form entries—can be automated at lower total cost than manual handling. The opportunity is the workflow-specific implementation and maintenance, not a generic AI agency.",
-      "title": "Self-hosted browser-automation deployment for one repetitive Chilean back-office workflow",
-      "type": "open_source_workflow_product",
+      "thesis": "A narrowly scoped reusable asset could be a versioned conformance-test workbook or sandbox test harness for prospective participants and software vendors: endpoint cases, consent-flow checks, error fixtures and release-difference logs. The mechanism is pre-implementation risk reduction, not access to live customer financial data.",
+      "title": "Pre-implementation testing asset for Chile Open Finance integrations",
+      "type": "fixed_scope_paid_research_asset",
       "unknowns": [],
-      "value_capture_mechanism": "Charge for a narrowly scoped deployment, workflow configuration, monitoring, and human-approval layer only after a real organization permits a pilot and confirms the task’s baseline labor or error cost. Do not resell hosted access to software whose license prohibits it.",
+      "value_capture_mechanism": "Sell a fixed-price test pack or license it to fintech integrators, banks, payment firms or software vendors preparing for OFS participation. Buyer identity, price, procurement route and permission to reuse CMF materials remain unverified.",
       "verified_sales": null,
-      "vertical": "innovation_adoption",
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-24T08:38:52.197691+00:00",
+      "discovery_lens": "fixed_scope_paid_research_asset",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The service states that it provides an API for current Chilean taxpayer information, including legal name, RUT, economic activities, DTE email, resolution and business activity; it advertises a public token with 200 daily queries and paid higher-volume plans.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Servicio de Registro de Empresas — API pública de información de contribuyentes chilenos",
+          "url": "https://www.sre.cl/"
+        },
+        {
+          "claim": "The documentation describes API endpoints for Chilean companies, taxpayers and economic activities published by SII, confirming an existing technical route for reproducible company-data retrieval.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Documentación API RutAPI",
+          "url": "https://rutapi.cl/documentacion"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.72,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_40dcdc904cd9586f5e77",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-24T08:38:52.255488+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use only provider-authorized API access and confirm redistribution/derived-report rights before selling. Build a no-code or script prototype for 20 public-company records using the free quota. Contact five Chilean accounting, procurement or compliance firms with a sample report and ask whether they will pay for a one-month pilot; do not collect client credentials or promise regulated compliance outcomes. Kill the test if fewer than two firms request a paid pilot or if the API terms prohibit the proposed report. Lowest-cost falsification is a manually prepared sample plus five buyer interviews, before purchasing a paid plan.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A reproducible asset could monitor a defined list of Chilean companies for changes in business activity, tax-resolution status or published DTE contact data, producing a dated CSV/PDF exception report rather than manual research. The evidence supports data availability and paid API infrastructure, but does not establish willingness to pay, legal permission to redistribute the resulting data, or sufficient margin.",
+      "title": "SII company-record change monitor for accounting and compliance firms",
+      "type": "fixed_scope_paid_research_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Fixed-price monitoring pack or recurring report for an accounting, procurement or compliance operator that already maintains a company watchlist. Revenue, pricing and buyer conversion are unverified.",
+      "verified_sales": null,
+      "vertical": "chile_localization",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -8937,13 +9075,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-24T03:17:48.032406+00:00",
+  "generated_at": "2026-10-24T08:39:14.106384+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 64,
-  "reviewed_cards": 59,
+  "reviewed_cards": 60,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 191,
-  "watch": 127
+  "total_distinct_opportunities": 193,
+  "watch": 129
 }

@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-24T03:17:48.032406+00:00
+Generated: 2026-10-24T08:39:14.106384+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 127 (0 HQ survivors, 127 watches)
+- Active research: 129 (0 HQ survivors, 129 watches)
 - Rejected opportunities excluded: 64
-- Critic-and-judge reviewed: 59
+- Critic-and-judge reviewed: 60
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -562,6 +562,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Whether the cited application was still accepting new Chilean applicants on October 19, 2026, beyond being crawlable.; Whether a Chile-resident applicant would receive the USD 7.50, USD 10, or another rate.; Acceptance and qualification rates for Chilean applicants.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://app.outlier.ai/opportunities/4522871005; https://outlier.ai/faq
+
+### Self-hosted browser-automation deployment for one repetitive Chilean back-office workflow [opp_5f895ba07087b66159c1]
+- Status: WATCH_REQUIRES_VALIDATION | innovation_adoption | Chile/LatAm
+- Thesis: A small operator can test whether one high-frequency, browser-only workflow—such as downloading statements, reconciling portal data, or preparing draft form entries—can be automated at lower total cost than manual handling. The opportunity is the workflow-specific implementation and maintenance, not a generic AI agency.
+- Value capture: Charge for a narrowly scoped deployment, workflow configuration, monitoring, and human-approval layer only after a real organization permits a pilot and confirms the task’s baseline labor or error cost. Do not resell hosted access to software whose license prohibits it.
+- Participation hypothesis: Select one workflow with non-sensitive test data and an explicit human approval before submission. Prototype with the MIT-licensed Cereon Browser Operator or AgentBrowser, keeping credentials and execution on the client’s machine. Measure completion rate, exception rate, human minutes per case, and model/API cost over 20 to 50 cases. Falsification test: ask three operators of the same workflow for anonymized sample steps and permission to run a 1-week sandbox pilot; abandon if no one supplies a repeatable task, baseline time, or authorized test
+- Critic/judge: This is a valid research hypothesis, not a survivor: the cited open-source projects establish only technical availability of browser control, not a concrete buyer job, demand, unit economics, authorized production access, or repeatable distribution. The opportunity appropriately avoids claiming market validation and names falsifiers, so the fatal conditions are not yet triggered. However, it does not satisfy the required evidence of a n
+- Next evidence gaps: Which exact workflow, buyer, and Chilean industry are targeted.; Whether the workflow is legally and contractually automatable, including portal terms, credential-sharing rules, and data-processing obligations.; Human labor minutes per case, fully loaded labor cost, error cost, transaction volume, and achievable net savings.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://github.com/cereon-labs/cereon-browser-operator; https://github.com/smouj/agent-browser
 
 ### SFA implementation moved from rulemaking toward interoperability testing [opp_5f052d87513e10ac27fc]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -1183,15 +1193,25 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/principal/613/articles-72652_doc_pdf.pdf
 
-### Self-hosted browser-automation deployment for one repetitive Chilean back-office workflow [opp_5f895ba07087b66159c1]
-- Status: WATCH_REQUIRES_VALIDATION | innovation_adoption | Chile/LatAm
-- Thesis: A small operator can test whether one high-frequency, browser-only workflow—such as downloading statements, reconciling portal data, or preparing draft form entries—can be automated at lower total cost than manual handling. The opportunity is the workflow-specific implementation and maintenance, not a generic AI agency.
-- Value capture: Charge for a narrowly scoped deployment, workflow configuration, monitoring, and human-approval layer only after a real organization permits a pilot and confirms the task’s baseline labor or error cost. Do not resell hosted access to software whose license prohibits it.
-- Participation hypothesis: Select one workflow with non-sensitive test data and an explicit human approval before submission. Prototype with the MIT-licensed Cereon Browser Operator or AgentBrowser, keeping credentials and execution on the client’s machine. Measure completion rate, exception rate, human minutes per case, and model/API cost over 20 to 50 cases. Falsification test: ask three operators of the same workflow for anonymized sample steps and permission to run a 1-week sandbox pilot; abandon if no one supplies a repeatable task, baseline time, or authorized test
+### Pre-implementation testing asset for Chile Open Finance integrations [opp_962e03a6a16029e4f872]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: A narrowly scoped reusable asset could be a versioned conformance-test workbook or sandbox test harness for prospective participants and software vendors: endpoint cases, consent-flow checks, error fixtures and release-difference logs. The mechanism is pre-implementation risk reduction, not access to live customer financial data.
+- Value capture: Sell a fixed-price test pack or license it to fintech integrators, banks, payment firms or software vendors preparing for OFS participation. Buyer identity, price, procurement route and permission to reuse CMF materials remain unverified.
+- Participation hypothesis: Use only publicly available CMF specifications and clearly separate original analysis/code from copied regulatory text. Build a small test harness covering five documented API/error cases. Ask three Chilean fintech or banking-infrastructure firms whether they would review it and pay for a pilot or code review; do not represent the asset as CMF-approved or offer regulated implementation advice. Lowest-cost falsification is a public Git repository with five tests and direct outreach to prospective implementers. Kill the test if no technically res
 - Critic/judge: deferred_by_review_cap
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://github.com/cereon-labs/cereon-browser-operator; https://github.com/smouj/agent-browser
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812
+
+### SII company-record change monitor for accounting and compliance firms [opp_40dcdc904cd9586f5e77]
+- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
+- Thesis: A reproducible asset could monitor a defined list of Chilean companies for changes in business activity, tax-resolution status or published DTE contact data, producing a dated CSV/PDF exception report rather than manual research. The evidence supports data availability and paid API infrastructure, but does not establish willingness to pay, legal permission to redistribute the resulting data, or sufficient margin.
+- Value capture: Fixed-price monitoring pack or recurring report for an accounting, procurement or compliance operator that already maintains a company watchlist. Revenue, pricing and buyer conversion are unverified.
+- Participation hypothesis: Use only provider-authorized API access and confirm redistribution/derived-report rights before selling. Build a no-code or script prototype for 20 public-company records using the free quota. Contact five Chilean accounting, procurement or compliance firms with a sample report and ask whether they will pay for a one-month pilot; do not collect client credentials or promise regulated compliance outcomes. Kill the test if fewer than two firms request a paid pilot or if the API terms prohibit the proposed report. Lowest-cost falsification is a ma
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sre.cl/; https://rutapi.cl/documentacion
 
 ### Single-station machine-vision retrofit for legacy production lines [opp_631d598a14ec7d41696a]
 - Status: WATCH_REQUIRES_VALIDATION | competitive_positioning | United States

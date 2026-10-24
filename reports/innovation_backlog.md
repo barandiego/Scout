@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 127
+Candidates: 129
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -75,6 +75,18 @@ Candidates: 127
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.ondda.cl/; https://www.aither.cl/tap/
+
+## SII company-record change monitor for accounting and compliance firms
+- Status: watch | chile_localization
+- Current idea: A reproducible asset could monitor a defined list of Chilean companies for changes in business activity, tax-resolution status or published DTE contact data, producing a dated CSV/PDF exception report rather than manual research. The evidence supports data availability and paid API infrastructure, but does not establish willingness to pay, legal permission to redistribute the resulting data, or sufficient margin.
+- Potential economic capture: Fixed-price monitoring pack or recurring report for an accounting, procurement or compliance operator that already maintains a company watchlist. Revenue, pricing and buyer conversion are unverified.
+- **Research routes to test (NOT validated claims):**
+  - Find the smallest Chilean workflow whose economics differ from the original geography.
+  - Secure lawful access, partners and after-sales support rather than copy protected technology.
+  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.sre.cl/; https://rutapi.cl/documentacion
 
 ## SII sales-and-purchases exception dashboard for small accounting firms
 - Status: watch | chile_localization
@@ -588,7 +600,7 @@ Candidates: 127
   - Identify a real technical capability not yet adopted in one buyer's high-value workflow.
   - Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.
   - Measure the fully loaded operating cost, human exceptions and distribution against the status quo.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Which exact workflow, buyer, and Chilean industry are targeted.; Whether the workflow is legally and contractually automatable, including portal terms, credential-sharing rules, and data-processing obligations.; Human labor minutes per case, fully loaded labor cost, error cost, transaction volume, and achievable net savings.
 - Possible initial budget:
 - Source URLs: https://github.com/cereon-labs/cereon-browser-operator; https://github.com/smouj/agent-browser
 
@@ -1155,6 +1167,18 @@ Candidates: 127
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/principal/613/articles-72652_doc_pdf.pdf
+
+## Pre-implementation testing asset for Chile Open Finance integrations
+- Status: watch | open_finance_chile
+- Current idea: A narrowly scoped reusable asset could be a versioned conformance-test workbook or sandbox test harness for prospective participants and software vendors: endpoint cases, consent-flow checks, error fixtures and release-difference logs. The mechanism is pre-implementation risk reduction, not access to live customer financial data.
+- Potential economic capture: Sell a fixed-price test pack or license it to fintech integrators, banks, payment firms or software vendors preparing for OFS participation. Buyer identity, price, procurement route and permission to reuse CMF materials remain unverified.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812
 
 ## SFA implementation moved from rulemaking toward interoperability testing
 - Status: watch | open_finance_chile
