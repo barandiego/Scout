@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-24T15:24:32.330381+00:00
+Generated: 2026-10-24T18:36:06.584706+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
 - Active research: 130 (0 HQ survivors, 130 watches)
-- Rejected opportunities excluded: 64
-- Critic-and-judge reviewed: 61
+- Rejected opportunities excluded: 65
+- Critic-and-judge reviewed: 62
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -242,6 +242,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: The number of Chilean entities that will actually be required to participate and the subset lacking internal compliance or integration capability.; Whether simplified participation materially reduces implementation burden for the intended small-firm segment.; Whether ATENA will expose enough automated diagnostics to eliminate most of the proposed product's functionality.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://api.cmfchile.cl/
+
+### Chile Open Finance interoperability pre-test harness for prospective SFA participants [opp_1589efca2e61e92fd0d6]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Entities preparing to participate need a way to detect API, consent, security, interoperability and payment-initiation defects before formal implementation. The evidence supports a concrete testing requirement, but does not establish a guaranteed market size, buyer budget or willingness to pay.
+- Value capture: A narrowly scoped, paid technical artifact or service: an SFA conformance-test pack that maps the published technical annex to executable API tests, sample payloads, consent-flow checks, error cases and an ATENA test checklist. Revenue would come only if an identifiable regulated or fintech entity agrees to pay for the pack or a test engagement; no buyer, price or margin is assumed.
+- Participation hypothesis: Use the CMF developer materials and ATENA environment as the participation route. First build a minimal open-source test runner covering one published data-access flow and one payment-initiation/error flow. Contact organizations listed or discoverable through the CMF participant/developer materials only after confirming the relevant onboarding and permission requirements. Offer a fixed-scope pilot without claiming certification or regulatory approval. Lowest-cost falsification: spend one day extracting the technical requirements into 10–20 test
+- Critic/judge: The regulatory premise is adequately grounded by CMF primary materials: the SFA technical annex exists, ATENA has been launched, and the stated July 2027 timing is not merely an unverified regulatory-change claim. A narrowly framed pre-test artifact/service is not inherently outside a viable compliance perimeter if it avoids holding customer data, initiating payments, or representing itself as CMF certification. However, the essential c
+- Next evidence gaps: Whether ATENA is freely accessible to independent software vendors, consultants, or only eligible prospective participants.; Whether ATENA exposes automated pass/fail results, certification-like evidence, reusable test fixtures, or only a controlled environment.; The number of entities required or likely to participate in the first implementation phases.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
 ### Chile Open Finance interoperability test harness for fintechs preparing for SFA [opp_1d697aded3d68db4909b]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -852,16 +862,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/613/articles-82752_recurso_1.pdf
-
-### Chile Open Finance interoperability pre-test harness for prospective SFA participants [opp_1589efca2e61e92fd0d6]
-- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
-- Thesis: Entities preparing to participate need a way to detect API, consent, security, interoperability and payment-initiation defects before formal implementation. The evidence supports a concrete testing requirement, but does not establish a guaranteed market size, buyer budget or willingness to pay.
-- Value capture: A narrowly scoped, paid technical artifact or service: an SFA conformance-test pack that maps the published technical annex to executable API tests, sample payloads, consent-flow checks, error cases and an ATENA test checklist. Revenue would come only if an identifiable regulated or fintech entity agrees to pay for the pack or a test engagement; no buyer, price or margin is assumed.
-- Participation hypothesis: Use the CMF developer materials and ATENA environment as the participation route. First build a minimal open-source test runner covering one published data-access flow and one payment-initiation/error flow. Contact organizations listed or discoverable through the CMF participant/developer materials only after confirming the relevant onboarding and permission requirements. Offer a fixed-scope pilot without claiming certification or regulatory approval. Lowest-cost falsification: spend one day extracting the technical requirements into 10–20 test
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
 ### Chile Open-Finance conformance and integration test harness [opp_feb43070f6dba35f263f]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile

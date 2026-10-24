@@ -744,7 +744,7 @@ Candidates: 130
   - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
   - Check license perimeter, API access, legal compliance and competitor pricing.
   - Test buyer procurement and technical access before writing integration infrastructure.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Whether ATENA is freely accessible to independent software vendors, consultants, or only eligible prospective participants.; Whether ATENA exposes automated pass/fail results, certification-like evidence, reusable test fixtures, or only a controlled environment.; The number of entities required or likely to participate in the first implementation phases.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 

@@ -2318,9 +2318,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "Chile",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "Whether ATENA is freely accessible to independent software vendors, consultants, or only eligible prospective participants.",
+        "Whether ATENA exposes automated pass/fail results, certification-like evidence, reusable test fixtures, or only a controlled environment.",
+        "The number of entities required or likely to participate in the first implementation phases.",
+        "Which organizations own the budget for SFA conformance, interoperability, security, and payment-initiation testing.",
+        "Whether Chilean banks, fintechs, payment providers, and technology vendors already possess equivalent internal or commercial test suites.",
+        "Whether the technical annex and developer portal will remain stable through July 2027.",
+        "The legal and commercial liability associated with incorrectly implying compliance, certification, or regulatory readiness."
       ],
       "investment_authorized": false,
       "name": "Chile Open Finance interoperability pre-test harness for prospective SFA participants",
@@ -4951,7 +4955,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-24T15:24:32.415373+00:00",
+  "generated_at": "2026-10-24T18:36:06.694145+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

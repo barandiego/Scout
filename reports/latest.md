@@ -1,15 +1,15 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-24T15:24:31.969602+00:00
+Generated: 2026-10-24T18:36:06.138967+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['ai_open_source', 'public_markets', 'physical_commerce']
+- lenses: ['regulation_infrastructure', 'robotics_automation', 'energy_industrial']
 - raw_candidates: 1
 - parseable_candidates: 1
 - normalized_candidates: 1
 - normalization_rejected: 0
-- grounded_sources: 2
+- grounded_sources: 1
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
@@ -17,12 +17,12 @@ Generated: 2026-10-24T15:24:31.969602+00:00
 - judge_reviews: 1
 - survivors: 0
 - watches: 1
-- rejected: 0
+- rejected: 1
 - errors_by_stage: {}
-- rejection_reasons: {'discarded_ungrounded_url': 1}
-- cost_usd: 0.0426454
+- rejection_reasons: {'discarded_ungrounded_url': 1, 'insufficient_unique_evidence': 1}
+- cost_usd: 0.04313905
 - cost_uncertain: False
-- budget_remaining_usd: 0.0373546
+- budget_remaining_usd: 0.03686095
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -56,8 +56,8 @@ No survivors. Scout does not manufacture a daily winner.
 ```json
 {
   "notes": [
-    "deep_review_lane=fresh",
-    "research_queue_unreviewed=64"
+    "deep_review_lane=backlog",
+    "research_queue_unreviewed=63"
   ],
   "stages": [
     {
@@ -65,28 +65,26 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 20,
+      "grounded_source_count": 18,
       "search_source_urls": [
-        "https://api.cmfchile.cl/",
-        "https://cdn.hacienda.cl/asset/hacienda_prod/attachment/e3c0a8c3b7d47dbb3f9b3e28a1bb11881759c8266302d7fc2de981ec599c369a/1769809551?_expiration=1776720910&_hash=Ue9QaJpD7YDUx8eM3myFf9t86l0s3XUWOW6FWuweMf8",
-        "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812",
-        "https://cmfchile.cl/portal/prensa/625/w4-article-113897.html",
-        "https://cmfchile.cl/portal/principal/613/articles-86367_doc_pdf.pdf",
-        "https://es.linkedin.com/posts/daniela-sarra-toriszay_hoy-marcamos-un-hito-important%C3%ADsimo-en-nuestro-activity-7503225678528679936-3ghA",
-        "https://es.wikipedia.org/wiki/Grupo_Falabella",
-        "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/",
-        "https://github.com/GammaLabTechnologies/harmonist",
-        "https://github.com/Hocsman/Relayer",
-        "https://github.com/sakurablush/zeroagent-studio",
-        "https://github.com/use-ash/apex",
-        "https://github.com/usepulso/pulso",
-        "https://production.na01.natura.com/on/demandware.static/-/Sites-NatChile-Library/default/v4451a1d4e6abdb654aa976752e4626774c6ec279/landing-page/sustentabilidad/PDFs/Informe_Integrado_Natura_Co_2024_vf-22-09-2025.pdf",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.falabella.com/falabella-cl/seller/Natura",
-        "https://www.reddit.com/r/RepublicadeChile/comments/1m7kvqz",
-        "https://www.reddit.com/r/chileIT/comments/1gf8fev/apis_bancarias/",
-        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000108/MNCjune2026signed.pdf",
-        "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000038/a2026-annualxreportxwebxfi.pdf"
+        "https://ferc.gov/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fferc.gov%2Fsites%2Fdefault%2Ffiles%2F2023-05%2FER21-2455-003.pdf",
+        "https://ferc.gov/opp/markets-resources",
+        "https://www.energy.gov/cmei/femp/articles/battery-energy-storage-system-procurement-checklist",
+        "https://www.energy.gov/sites/default/files/2024-03/doe-fy-2025-budget-vol-2-v3.pdf",
+        "https://www.energy.gov/sites/default/files/2024-12/20212024-Four%20Year%20Review%20of%20Supply%20Chains%20for%20the%20Energy%20Sector%20Industrial%20Base.pdf",
+        "https://www.energy.gov/sites/default/files/2025-01/BESSIE_supply-chain-battery-report_111124_OPENRELEASE_SJ_1.pdf?trk=article-ssr-frontend-pulse_little-text-block",
+        "https://www.ferc.gov/ferc-order-no-2222-explainer-facilitating-participation-electricity-markets-distributed-energy?itid=lk_inline_enhanced-template",
+        "https://www.ferc.gov/ferc-order-no-2222-explainer-facilitating-participation-electricity-markets-distributed-energy?trk=article-ssr-frontend-pulse_little-text-block",
+        "https://www.ferc.gov/media/ferc-order-no-2222-fact-sheet",
+        "https://www.ferc.gov/news-events/news/commissioner-christies-concurrence-pjms-order-no-2222-third-compliance-and-section",
+        "https://www.ferc.gov/news-events/news/ferc-addresses-demand-response-opt-out-certain-der-aggregations",
+        "https://www.ferc.gov/sites/default/files/2020-09/E-1-facts.pdf",
+        "https://www.ferc.gov/sites/default/files/2025-01/ER22-1640-003.pdf",
+        "https://www.nist.gov/blogs/manufacturing-innovation-blog/whats-coming-us-manufacturing-2025",
+        "https://www.nist.gov/document/manufacturers-guide-industry-40-technologies",
+        "https://www.nist.gov/mep/manufacturing-reports/best-practices",
+        "https://www.nist.gov/mep/robotics-and-manufacturing-automation",
+        "https://www.nist.gov/programs-projects/performance-emerging-technologies-robotics"
       ]
     },
     {
@@ -103,46 +101,49 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 2,
+      "grounded_sources": 1,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_63bc9b9bc5ff0bfbcf2e",
+      "candidate_id": "opp_1589efca2e61e92fd0d6",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 18,
+      "grounded_source_count": 21,
       "search_source_urls": [
-        "https://chirgwin.cl/en/chile-advances-the-implementation-of-its-open-finance-system/",
+        "https://boufin.com/recursos/blog/panorama-fintech-chile-2026/",
+        "https://chocale.cl/2026/08/la-cmf-avanza-en-la-implementacion-del-sfa-sandbox-atena-estara-disponible-en-octubre/",
+        "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812",
         "https://cmfchile.cl/portal/prensa/625/w4-article-113897.html",
         "https://cmfchile.cl/portal/principal/613/articles-102557_recurso_1.pdf",
-        "https://lawfice.cl/blog/open-finance-chile-foreign-fintechs/",
-        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/435749124/v1.0.0%2B-%2BModelo%2Bde%2Bgobierno",
-        "https://openfinanceconnect.cl/en/",
-        "https://ozoneapi.com/blog/what-our-regional-gms-are-expecting-in-open-finance-this-h2/",
-        "https://ozoneapi.com/the-open-finance-tracker/library/open-finance-system-sistema-de-finanzas-abiertas-sfa-chile/",
-        "https://sfasandbox.cl/",
-        "https://vlex.cl/vid/oficio-circular-n-1426-1135823863",
+        "https://ebs.publicnow.com/view/88FF29E7D57412B43A2B3334E1BE0846BBEB4725",
+        "https://en.wikipedia.org/wiki/Open_finance",
+        "https://es.wikipedia.org/wiki/Fapro",
+        "https://es.wikipedia.org/wiki/ProntoPaga",
+        "https://incie.org/latam/el-nuevo-mapa-competitivo-de-las-finanzas-abiertas/",
+        "https://one.oecd.org/document/DAF/COMP/LACCF%282024%2916/en/pdf",
         "https://www.cmfchile.cl/portal/prensa/615/articles-110411_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-99098_doc_pdf.pdf",
         "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/principal/613/articles-92466_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/articles-96504_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-112955.html?trk=public_post_comment-text",
         "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
         "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
-        "https://www.legal500.com/guides/chapter/chile-fintech/?export-pdf=",
-        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000069/MNCenglish.pdf"
+        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html",
+        "https://www.elibrary.imf.org/downloadpdf/view/journals/002/2025/037/article-A001-en.pdf",
+        "https://www.fiskil.com/es/open-finance-tracker/chile",
+        "https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/09/competition-fintechs-and-open-banking_8b85b99b/de9fe6b4-en.pdf"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_63bc9b9bc5ff0bfbcf2e",
+      "candidate_id": "opp_1589efca2e61e92fd0d6",
       "coercions": [
         "contrary_evidence"
       ]
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_63bc9b9bc5ff0bfbcf2e",
+      "candidate_id": "opp_1589efca2e61e92fd0d6",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -150,7 +151,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_63bc9b9bc5ff0bfbcf2e",
+      "candidate_id": "opp_1589efca2e61e92fd0d6",
       "coercions": []
     }
   ],
@@ -158,44 +159,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 347,
-      "cache_write_tokens": 5542,
+      "reasoning_tokens": 142,
+      "cache_write_tokens": 5466,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0142209,
+      "cumulative_cost_usd": 0.0141385,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13761,
+      "input_tokens": 13974,
       "cached_tokens": 0,
-      "output_tokens": 993,
+      "output_tokens": 892,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0142209
+      "estimated_cost_usd": 0.0141385
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 166,
-      "cache_write_tokens": 5324,
+      "reasoning_tokens": 227,
+      "cache_write_tokens": 5375,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0288899,
+      "cumulative_cost_usd": 0.02880805,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13374,
+      "input_tokens": 13856,
       "cached_tokens": 0,
-      "output_tokens": 1440,
+      "output_tokens": 1358,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.014669
+      "estimated_cost_usd": 0.01466955
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 75,
-      "cache_write_tokens": 2495,
+      "reasoning_tokens": 62,
+      "cache_write_tokens": 2610,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0426454,
+      "cumulative_cost_usd": 0.04313905,
       "model": "gpt-5.6-terra",
-      "input_tokens": 2498,
+      "input_tokens": 2613,
       "cached_tokens": 0,
-      "output_tokens": 626,
+      "output_tokens": 650,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.0137555
+      "estimated_cost_usd": 0.014331
     }
   ]
 }
