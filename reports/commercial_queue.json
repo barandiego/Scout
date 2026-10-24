@@ -1,9 +1,9 @@
 {
   "buyer_qualified_count": 0,
-  "excluded_from_first_dollar_queue": 125,
+  "excluded_from_first_dollar_queue": 126,
   "first_dollar_verified": false,
-  "generated_at": "2026-10-24T08:39:14.106384+00:00",
-  "opportunity_count_reviewed": 129,
+  "generated_at": "2026-10-24T15:24:32.330381+00:00",
+  "opportunity_count_reviewed": 130,
   "revenue_usd_verified": null,
   "schema_version": 1,
   "selected": [
@@ -67,7 +67,7 @@
       "buyer_verified": false,
       "current_status": "WATCH_REQUIRES_VALIDATION",
       "economic_status": "UNVALIDATED_NO_VERIFIED_BUYER_OR_SALE",
-      "first_distribution_hypothesis": "Use the public CMF developer materials and ATENA environment to implement only the highest-risk flows: consent lifecycle, participant-directory interaction, confirmation of funds, and one payment-initiation path. Recruit 3–5 Chilean fintech or payment-software teams from public participant lists, industry events, or direct outreach and offer a free diagnostic against their sandbox integration. Falsification threshold: stop if at least 3 technically relevant prospects will not provide a test endpoint, accept a diagnostic, or identify a concrete integration problem within 30 days. Do not market regulated financial services or initiate real payments without confirming the applicable CMF authorization requirements.",
+      "first_distribution_hypothesis": "Download the published CMF specifications and build a minimal test suite covering only publicly documented endpoints, authentication, schema validation, consent/error cases, and participant-directory interoperability. Run it against any available sandbox or mock server. Publish a reproducible report and contact prospective participants or implementation vendors with a fixed-scope paid pilot proposal only after confirming that the tests match their integration requirements. Lowest-cost falsification: implement 10–15 checks in one week and ask at least five Chilean fintech/banking integration teams whether they would run the harness against a non-production endpoint or pay for a narrowly scoped readiness report; abandon if none will provide access, feedback, or a paid pilot.",
       "independent_review_status": "CRITIC_JUDGE_COMPLETE_NOT_COMMERCIAL_PROOF",
       "missing_to_prove": [
         "independent_specific_buyer",
@@ -77,13 +77,13 @@
         "actual_third_party_receipt"
       ],
       "next_no_spend_buyer_test": "Identify one genuinely budget-owning regulated buyer, one conformance failure, and an independently accepted paid software deliverable before coding a broad financial integration.",
-      "opportunity_id": "opp_33df5c0e60b44851d959",
+      "opportunity_id": "opp_63bc9b9bc5ff0bfbcf2e",
       "origin": "EXISTING_SCOUT_WATCH_OR_SURVIVOR_NOT_NEW_OPPORTUNITY",
       "revenue_verified": false,
-      "title": "Chile Open Finance conformance test harness for early SFA participants",
+      "title": "ATENA interoperability smoke-test harness for Chilean Open Finance participants",
       "verified_source_urls": [
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html"
+        "https://cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
       ],
       "vertical": "open_finance_chile"
     },

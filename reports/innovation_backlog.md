@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 129
+Candidates: 130
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -615,6 +615,18 @@ Candidates: 129
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://github.com/DocuPipe/DocuBench; https://github.com/mborges-dev/extraction-evals
+
+## ATENA interoperability smoke-test harness for Chilean Open Finance participants
+- Status: watch | open_finance_chile
+- Current idea: Financial institutions and prospective Open Finance participants have a time-bounded need to detect API, security, consent, directory, and interoperability failures before production obligations begin. The opportunity is narrower than general Open Finance consulting: a repeatable automated conformance and regression-testing asset aligned to published CMF specifications.
+- Potential economic capture: A small operator could package a self-hosted test harness that runs documented API checks, produces evidence logs and remediation tickets, and optionally adds an AI-assisted parser for failed responses. The potential payer is an institution preparing an ATENA integration or a technology vendor integrating on its behalf; no buyer, price, or procurement commitment is established by the evidence.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Number of institutions and technology vendors that must participate in the first implementation phases.; Which entities will have a budget and procurement authority for external conformance tooling.; Whether ATENA exposes sufficient automated interfaces for third-party test execution, result export, CI integration, and repeatable regression testing.
+- Possible initial budget:
+- Source URLs: https://cmfchile.cl/portal/prensa/625/w4-article-113897.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html
 
 ## Build a pre-compliance prototype for Chile’s Open Finance APIs
 - Status: watch | open_finance_chile

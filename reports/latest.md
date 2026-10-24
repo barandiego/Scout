@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-24T08:39:13.727237+00:00
+Generated: 2026-10-24T15:24:31.969602+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['inventoryless_product_validation', 'fixed_scope_paid_research_asset', 'geographic_arbitrage']
-- raw_candidates: 2
-- parseable_candidates: 2
-- normalized_candidates: 2
+- lenses: ['ai_open_source', 'public_markets', 'physical_commerce']
+- raw_candidates: 1
+- parseable_candidates: 1
+- normalized_candidates: 1
 - normalization_rejected: 0
-- grounded_sources: 4
+- grounded_sources: 2
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
 - critic_reviews: 1
 - judge_reviews: 1
 - survivors: 0
-- watches: 3
+- watches: 1
 - rejected: 0
 - errors_by_stage: {}
-- rejection_reasons: {}
-- cost_usd: 0.0426629
+- rejection_reasons: {'discarded_ungrounded_url': 1}
+- cost_usd: 0.0426454
 - cost_uncertain: False
-- budget_remaining_usd: 0.0373371
+- budget_remaining_usd: 0.0373546
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- PMGD battery-congestion screening and dispatch-rights data product: deferred_by_review_cap
 - Apply for Spanish AI-training projects available to Chile residents: deferred_by_review_cap
 - TELUS Digital Online Data Analyst — Chile: deferred_by_review_cap
 - Chile Open Finance conformance and integration test harness: deferred_by_review_cap
@@ -51,12 +50,13 @@ No survivors. Scout does not manufacture a daily winner.
 - Apply for Chilean-Spanish AI training and evaluation contracts: Primary job-board evidence supports a real, Chile-accessible freelance application path with an identified payer and stated compensation, so the premise is not fabricated and the opportunity is not demonstrably closed. However, it is contingent gig work rather than a durable differentiated business: acceptance, paid-task volume, effective rate, and payout reliability remain unverified. The clearest verified path (Welocalize) is low-paid and variable (US$6/hour, 5–15 hours/week), while the higher Meridial range has no demonstrated expected rate or guaranteed workload. Treat this only as a tightly time-boxed, low-cost income/market-validation test, not a dependable income strategy or an AI-leverage venture. Do not rely on the Lemon listing until its internally inconsistent compensation is confirmed in writing.
 - Pre-implementation testing asset for Chile Open Finance integrations: deferred_by_review_cap
 - SII company-record change monitor for accounting and compliance firms: deferred_by_review_cap
+- ATENA interoperability smoke-test harness for Chilean Open Finance participants: The regulatory premise is sufficiently grounded by CMF primary sources: ATENA and the July 2027 framework timing appear to be real, and published technical materials make a narrow conformance/readiness-testing wedge plausible. However, this is not yet a demonstrated software business. The core product may be substantially substituted by CMF’s own sandbox, public specifications, internal QA teams, implementation vendors, and established Open Finance tooling. Crucially, there is no evidence that a third party can obtain the necessary non-production access or automate ATENA workflows, nor that regulated buyers will procure an external harness rather than consulting or incumbent-platform support. The opportunity survives only as tightly scoped HQ research into technical access, mandatory test requirements, buyer ownership, and willingness to pay—not as an execution recommendation.
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=backlog",
+    "deep_review_lane=fresh",
     "research_queue_unreviewed=64"
   ],
   "stages": [
@@ -65,65 +65,37 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 35,
+      "grounded_source_count": 20,
       "search_source_urls": [
-        "https://apipyme.cl/",
+        "https://api.cmfchile.cl/",
         "https://cdn.hacienda.cl/asset/hacienda_prod/attachment/e3c0a8c3b7d47dbb3f9b3e28a1bb11881759c8266302d7fc2de981ec599c369a/1769809551?_expiration=1776720910&_hash=Ue9QaJpD7YDUx8eM3myFf9t86l0s3XUWOW6FWuweMf8",
         "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812",
-        "https://en.wikipedia.org/wiki/Open_finance",
-        "https://es.wikipedia.org/wiki/Falabella",
+        "https://cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://cmfchile.cl/portal/principal/613/articles-86367_doc_pdf.pdf",
+        "https://es.linkedin.com/posts/daniela-sarra-toriszay_hoy-marcamos-un-hito-important%C3%ADsimo-en-nuestro-activity-7503225678528679936-3ghA",
         "https://es.wikipedia.org/wiki/Grupo_Falabella",
-        "https://es.wikipedia.org/wiki/LibreDTE",
-        "https://es.wikipedia.org/wiki/Marketplaces_en_Am%C3%A9rica_Latina",
         "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/",
-        "https://recalar.cl/marcas/natura/",
-        "https://rutapi.cl/documentacion",
-        "https://teclazo.com/keyword/cl/natura",
-        "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa2.php?entidad_web=ALL&enviado=1&hidden_mercado=%25&materia=ALL&numero=514&tiponorma=NCG",
+        "https://github.com/GammaLabTechnologies/harmonist",
+        "https://github.com/Hocsman/Relayer",
+        "https://github.com/sakurablush/zeroagent-studio",
+        "https://github.com/use-ash/apex",
+        "https://github.com/usepulso/pulso",
+        "https://production.na01.natura.com/on/demandware.static/-/Sites-NatChile-Library/default/v4451a1d4e6abdb654aa976752e4626774c6ec279/landing-page/sustentabilidad/PDFs/Informe_Integrado_Natura_Co_2024_vf-22-09-2025.pdf",
         "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.dipres.gob.cl/597/articles-321803_doc_pdf1.pdf",
         "https://www.falabella.com/falabella-cl/seller/Natura",
-        "https://www.imf.org/-/media/files/publications/cr/2024/english/1chlea2024002.pdf",
-        "https://www.imf.org/_next/data/EpnxHCnVQm0tS7VzM-X4o/en/-/media/files/publications/cr/2024/english/1chlea2024002.pdf.json",
-        "https://www.mediabanco.com/el-boom-del-cuidado-personal-en-delivery-pedidos-de-belleza-en-apps-crecen-hasta-un-32-y-natura-se-suma-a-rappi-con-mas-de-150-productos/",
-        "https://www.reddit.com/r/chileIT/comments/1ckjdps",
-        "https://www.reddit.com/r/chileIT/comments/1fzv5ka",
-        "https://www.reddit.com/r/chileIT/comments/1ifvct6/software_minimarket_boletas_sii/",
-        "https://www.reddit.com/r/chileIT/comments/1ikedxa",
-        "https://www.reddit.com/r/chileIT/comments/1ohgh13/riesgos_legales_en_chile_al_hacer_scraping/",
-        "https://www.reddit.com/r/chileIT/comments/1q51kbh/visualizaci%C3%B3n_info_sii_empresa/",
-        "https://www.reddit.com/r/chileIT/comments/1qe0iyl/ayuda_certificaci%C3%B3n_consumo_de_folios_rvd_ex_rcof/",
-        "https://www.reddit.com/r/chileIT/comments/1r942en/integraci%C3%B3n_sii_dashboard/",
-        "https://www.reddit.com/r/chileIT/comments/1rjqpio/api_sii/",
-        "https://www.reddit.com/r/chileIT/comments/1vfp56i/hicimos_notta_el_sii_como_api_rest_cli_y_mcp/",
-        "https://www.reddit.com/r/chileIT/comments/1w5b3bo/apiscrapping_a_alguna_pagina_para_obtener_las/",
-        "https://www.reddit.com/r/chileIT/comments/1wtp81a/liber%C3%A9_mi_c%C3%B3digo_para_emitir_boletas_electr%C3%B3nicas/",
-        "https://www.sii.cl/ccp/formato_envio_cp_electronico_052022.pdf",
-        "https://www.sii.cl/normativa_legislacion/resoluciones/2021/reso27.pdf",
-        "https://www.sre.cl/",
-        "https://www.tupana.ai/api-sii"
+        "https://www.reddit.com/r/RepublicadeChile/comments/1m7kvqz",
+        "https://www.reddit.com/r/chileIT/comments/1gf8fev/apis_bancarias/",
+        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000108/MNCjune2026signed.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000038/a2026-annualxreportxwebxfi.pdf"
       ]
     },
     {
       "index": 0,
       "stage": "normalization",
       "outcome": "accepted",
-      "reasons": [],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
+      "reasons": [
+        "discarded_ungrounded_url"
       ],
-      "grounded_sources": 2,
-      "retry_justified": false
-    },
-    {
-      "index": 1,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [],
       "changes": [
         "contrary_evidence:list_sanitized",
         "major_risks:list_sanitized",
@@ -136,41 +108,41 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_5f895ba07087b66159c1",
+      "candidate_id": "opp_63bc9b9bc5ff0bfbcf2e",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 18,
       "search_source_urls": [
-        "https://assets.ctfassets.net/5965pury2lcm/4Hj6TsYITGJhhuk6CTLXkO/10a2c7efcfd6808070de9941b13c1ab1/State_of_automation_in_banking_and_financial_services_2026.pdf",
-        "https://glama.ai/mcp/servers/dostertags/sii",
-        "https://marketing.auxis.com/hubfs/2025%20PDFs/2025%20Nearshore%20Market%20Trends%20Report_Retail%20%26%20Restaurants%20%281%29.pdf",
-        "https://newsroom.mastercard.com/news/latin-america/en/newsroom/press-releases/pr-en/2026/september/mastercard-study-finds-cybersecurity-concerns-are-emerging-as-a-key-barrier-to-sme-digital-growth-in-lac?trk=public_post_comment-text",
-        "https://practiceguides.chambers.com/practice-guides/information-technology-2026/chile/trends-and-developments",
-        "https://privatebank.jpmorgan.com/latam/en/insights/markets-and-investing/ideas-and-insights/latin-americas-challenge-isnt-adopting-ai-but-turning-it-into-economic-growth",
-        "https://publications.iadb.org/publications/english/document/Tech-Report-RPA.pdf",
-        "https://repositorio.cepal.org/bitstreams/886f25f2-fb25-48e5-8010-67ee53de1d58/download",
-        "https://www.automatizatech.cl/terminos/",
-        "https://www.globallogic.com/wp-content/uploads/2023/04/Hyperautomation-RPA-Final.pdf",
-        "https://www.iza.org/index.php/en/publications/dp/18314/the-rise-of-robotic-process-automation-in-chile-technological-adoption-perceptions-and-potential-social-impact-in-a-post-covid-economy",
-        "https://www.mckinsey.com/mgi/our-research/agents-robots-and-us-how-ai-reshapes-work-and-skills-in-latin-america",
-        "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/09/digital-government-review-of-latin-america-and-the-caribbean_75a4be05/29f32e64-en.pdf",
-        "https://www.sea.gob.cl/en/noticias/nuevo-protocolo-guiara-uso-de-inteligencia-artificial-en-el-sea",
-        "https://www.sii.cl/sobre_el_sii/terminos_sitio_web.html",
-        "https://www.torrenegra.consulting/en/insights/ai-adoption-latin-america",
-        "https://www.trade.gov/country-commercial-guides/chile-digital-economy",
-        "https://www.trade.gov/market-intelligence/chile-artificial-intelligence"
+        "https://chirgwin.cl/en/chile-advances-the-implementation-of-its-open-finance-system/",
+        "https://cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://cmfchile.cl/portal/principal/613/articles-102557_recurso_1.pdf",
+        "https://lawfice.cl/blog/open-finance-chile-foreign-fintechs/",
+        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/435749124/v1.0.0%2B-%2BModelo%2Bde%2Bgobierno",
+        "https://openfinanceconnect.cl/en/",
+        "https://ozoneapi.com/blog/what-our-regional-gms-are-expecting-in-open-finance-this-h2/",
+        "https://ozoneapi.com/the-open-finance-tracker/library/open-finance-system-sistema-de-finanzas-abiertas-sfa-chile/",
+        "https://sfasandbox.cl/",
+        "https://vlex.cl/vid/oficio-circular-n-1426-1135823863",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-110411_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/principal/613/articles-92466_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/articles-96504_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://www.legal500.com/guides/chapter/chile-fintech/?export-pdf=",
+        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000069/MNCenglish.pdf"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_5f895ba07087b66159c1",
+      "candidate_id": "opp_63bc9b9bc5ff0bfbcf2e",
       "coercions": [
         "contrary_evidence"
       ]
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_5f895ba07087b66159c1",
+      "candidate_id": "opp_63bc9b9bc5ff0bfbcf2e",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -178,7 +150,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_5f895ba07087b66159c1",
+      "candidate_id": "opp_63bc9b9bc5ff0bfbcf2e",
       "coercions": []
     }
   ],
@@ -186,44 +158,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 396,
-      "cache_write_tokens": 5124,
+      "reasoning_tokens": 347,
+      "cache_write_tokens": 5542,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0147448,
+      "cumulative_cost_usd": 0.0142209,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13803,
+      "input_tokens": 13761,
       "cached_tokens": 0,
-      "output_tokens": 1440,
+      "output_tokens": 993,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0147448
+      "estimated_cost_usd": 0.0142209
     },
     {
       "stage": "critic",
       "available": true,
       "reasoning_tokens": 166,
-      "cache_write_tokens": 5196,
+      "cache_write_tokens": 5324,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0292534,
+      "cumulative_cost_usd": 0.0288899,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13696,
+      "input_tokens": 13374,
       "cached_tokens": 0,
-      "output_tokens": 1258,
+      "output_tokens": 1440,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0145086
+      "estimated_cost_usd": 0.014669
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 114,
-      "cache_write_tokens": 2515,
+      "reasoning_tokens": 75,
+      "cache_write_tokens": 2495,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0426629,
+      "cumulative_cost_usd": 0.0426454,
       "model": "gpt-5.6-terra",
-      "input_tokens": 2518,
+      "input_tokens": 2498,
       "cached_tokens": 0,
-      "output_tokens": 593,
+      "output_tokens": 626,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.0134095
+      "estimated_cost_usd": 0.0137555
     }
   ]
 }

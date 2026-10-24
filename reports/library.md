@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-24T08:39:14.106384+00:00
+Generated: 2026-10-24T15:24:32.330381+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 129 (0 HQ survivors, 129 watches)
+- Active research: 130 (0 HQ survivors, 130 watches)
 - Rejected opportunities excluded: 64
-- Critic-and-judge reviewed: 60
+- Critic-and-judge reviewed: 61
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -152,6 +152,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: No quantified total addressable market, buyer budget, willingness to pay, or evidence that API-specific compliance is purchased separately from broader GRC, cloud-se; No evidence of customer interviews, pilots, design partners, conversion rates, procurement cycles, or channel access through assessors and government contractors.; No defined initial product, pricing, implementation burden, gross-margin profile, or estimate of required capital and engineering hours.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.nist.gov/news-events/news/2026/05/guidelines-secure-deployment-restful-web-apis-draft-sp-800-228a-available; https://www.fedramp.gov/2026/
+
+### ATENA interoperability smoke-test harness for Chilean Open Finance participants [opp_63bc9b9bc5ff0bfbcf2e]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Financial institutions and prospective Open Finance participants have a time-bounded need to detect API, security, consent, directory, and interoperability failures before production obligations begin. The opportunity is narrower than general Open Finance consulting: a repeatable automated conformance and regression-testing asset aligned to published CMF specifications.
+- Value capture: A small operator could package a self-hosted test harness that runs documented API checks, produces evidence logs and remediation tickets, and optionally adds an AI-assisted parser for failed responses. The potential payer is an institution preparing an ATENA integration or a technology vendor integrating on its behalf; no buyer, price, or procurement commitment is established by the evidence.
+- Participation hypothesis: Download the published CMF specifications and build a minimal test suite covering only publicly documented endpoints, authentication, schema validation, consent/error cases, and participant-directory interoperability. Run it against any available sandbox or mock server. Publish a reproducible report and contact prospective participants or implementation vendors with a fixed-scope paid pilot proposal only after confirming that the tests match their integration requirements. Lowest-cost falsification: implement 10–15 checks in one week and ask at
+- Critic/judge: The regulatory premise is sufficiently grounded by CMF primary sources: ATENA and the July 2027 framework timing appear to be real, and published technical materials make a narrow conformance/readiness-testing wedge plausible. However, this is not yet a demonstrated software business. The core product may be substantially substituted by CMF’s own sandbox, public specifications, internal QA teams, implementation vendors, and established
+- Next evidence gaps: Number of institutions and technology vendors that must participate in the first implementation phases.; Which entities will have a budget and procurement authority for external conformance tooling.; Whether ATENA exposes sufficient automated interfaces for third-party test execution, result export, CI integration, and repeatable regression testing.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://cmfchile.cl/portal/prensa/625/w4-article-113897.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html
 
 ### Battery storage deployment accelerates as a grid-scale economic asset [opp_e1b5e721a2d142909402]
 - Status: WATCH_REQUIRES_VALIDATION | general | Global

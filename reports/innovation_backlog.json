@@ -1924,6 +1924,46 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Download the published CMF specifications and build a minimal test suite covering only publicly documented endpoints, authentication, schema validation, consent/error cases, and participant-directory interoperability. Run it against any available sandbox or mock server. Publish a reproducible report and contact prospective participants or implementation vendors with a fixed-scope paid pilot proposal only after confirming that the tests match their integration requirements. Lowest-cost falsification: implement 10–15 checks in one week and ask at least five Chilean fintech/banking integration teams whether they would run the harness against a non-production endpoint or pay for a narrowly scoped readiness report; abandon if none will provide access, feedback, or a paid pilot.",
+      "current_thesis": "Financial institutions and prospective Open Finance participants have a time-bounded need to detect API, security, consent, directory, and interoperability failures before production obligations begin. The opportunity is narrower than general Open Finance consulting: a repeatable automated conformance and regression-testing asset aligned to published CMF specifications.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Number of institutions and technology vendors that must participate in the first implementation phases.",
+        "Which entities will have a budget and procurement authority for external conformance tooling.",
+        "Whether ATENA exposes sufficient automated interfaces for third-party test execution, result export, CI integration, and repeatable regression testing.",
+        "Whether CMF will publish an authoritative conformance test suite, certification process, or machine-readable test vectors that would commoditize the product.",
+        "Actual test coverage required beyond publicly documented endpoint checks, including mTLS, certificates, consent states, security profiles, rate limits, availability, operational incidents, and payment initiation.",
+        "Whether target institutions will permit a small external operator to access non-production endpoints and sensitive integration metadata.",
+        "Willingness to pay, acceptable pricing, sales-cycle length, and whether buyers prefer a consulting readiness assessment over software."
+      ],
+      "investment_authorized": false,
+      "name": "ATENA interoperability smoke-test harness for Chilean Open Finance participants",
+      "opportunity_id": "opp_63bc9b9bc5ff0bfbcf2e",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A small operator could package a self-hosted test harness that runs documented API checks, produces evidence logs and remediation tickets, and optionally adds an AI-assisted parser for failed responses. The potential payer is an institution preparing an ATENA integration or a technology vendor integrating on its behalf; no buyer, price, or procurement commitment is established by the evidence.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use the CMF developer portal and technical documentation to build a local mock integration checklist and one demonstrable consent/payment-initiation test harness. Contact identifiable entities only through publicly listed channels and ask whether they will review a non-production prototype or purchase a bounded technical assessment. Falsification test: within 21 days, obtain at least three substantive responses from potential participants or developers and one request for a scoped technical review; if not, return zero rather than treating regulation as demand.",
       "current_thesis": "The evidence supports a timing window for a technical validation asset—not a proven customer or revenue opportunity. A small operator could test whether regulated or prospective participating entities need help validating consent, security, API integration, logging, or payment-initiation flows before implementation.",
       "founder_hours_initial_unverified_estimate": "",
@@ -4911,7 +4951,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-24T08:39:14.208430+00:00",
+  "generated_at": "2026-10-24T15:24:32.415373+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"
