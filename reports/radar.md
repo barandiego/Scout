@@ -1,16 +1,40 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-23T23:16:57.783375+00:00
+Generated: 2026-10-24T04:51:21.169161+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 104
+- New this cycle: 124
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
-- Categories: agriculture 375, ai 172, commerce 33, energy 499, robotics 721
+- Feed failures (fail-open for public intake only): none
+- Categories: agriculture 389, ai 154, commerce 32, energy 512, robotics 713
 
 ## Recently encountered signals
+
+### samarthpatare/FARM_AI
+- Source: https://github.com/samarthpatare/FARM_AI
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### PreethaJ05/AgriConnect
+- Source: https://github.com/PreethaJ05/AgriConnect
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### samarthpatare/Agrosathi_AI
+- Source: https://github.com/samarthpatare/Agrosathi_AI
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### samarthpatare/AGROSATHI_AI---SAMART-FARMING-BETTER-FUTURE
+- Source: https://github.com/samarthpatare/AGROSATHI_AI---SAMART-FARMING-BETTER-FUTURE
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### iamlogesh26-crypto/AgriHelp-Smart-Agriculture-Assistant
 - Source: https://github.com/iamlogesh26-crypto/AgriHelp-Smart-Agriculture-Assistant
@@ -436,28 +460,4 @@ Generated: 2026-10-23T23:16:57.783375+00:00
 - Source: https://github.com/alexlanni/solar-assistant-cyd
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### hadjerk475-arch/hadjeragro-Data
-- Source: https://github.com/hadjerk475-arch/hadjeragro-Data
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Vaishhnavi2901/cropvision-ai
-- Source: https://github.com/Vaishhnavi2901/cropvision-ai
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Vaishhnavi2901/stress-vision-ai
-- Source: https://github.com/Vaishhnavi2901/stress-vision-ai
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Vaishhnavi2901/Cropvision-AI
-- Source: https://github.com/Vaishhnavi2901/Cropvision-AI
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
