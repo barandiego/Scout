@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-25T15:34:02.890272+00:00
+Generated: 2026-10-25T18:44:24.204522+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['early_adoption_investing', 'market_positioning', 'asset_ownership']
-- raw_candidates: 2
-- parseable_candidates: 2
-- normalized_candidates: 2
+- lenses: ['nfc_smart_commerce', 'vertical_farming_economics', 'energy_localization']
+- raw_candidates: 1
+- parseable_candidates: 1
+- normalized_candidates: 1
 - normalization_rejected: 0
-- grounded_sources: 3
+- grounded_sources: 2
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 0
+- judge_attempts: 1
 - critic_reviews: 1
-- judge_reviews: 0
+- judge_reviews: 1
 - survivors: 0
-- watches: 1
-- rejected: 2
+- watches: 0
+- rejected: 1
 - errors_by_stage: {}
-- rejection_reasons: {'discarded_ungrounded_url': 1, 'insufficient_unique_evidence': 1}
-- cost_usd: 0.0282239
+- rejection_reasons: {}
+- cost_usd: 0.0535486
 - cost_uncertain: False
-- budget_remaining_usd: 0.0517761
+- budget_remaining_usd: 0.0264514
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -56,7 +56,7 @@ No survivors. Scout does not manufacture a daily winner.
 ```json
 {
   "notes": [
-    "deep_review_lane=backlog",
+    "deep_review_lane=fresh",
     "research_queue_unreviewed=64"
   ],
   "stages": [
@@ -65,28 +65,33 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 20,
+      "grounded_source_count": 25,
       "search_source_urls": [
-        "https://arxiv.org/abs/2302.08091",
-        "https://arxiv.org/abs/2401.02851",
-        "https://cmfchile.cl/portal/principal/613/articles-86367_doc_pdf.pdf",
-        "https://cmfchile.cl/portal/principal/623/w4-article-113974.html",
-        "https://www.cmfchile.cl/portal/prensa/615/articles-99378_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-102547.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.sec.gov/Archives/edgar/data/1083301/000162828026064757/muskieexpansionpr.htm",
-        "https://www.sec.gov/Archives/edgar/data/1111711/000111171126000045/nix-20260331.htm",
-        "https://www.sec.gov/Archives/edgar/data/1168165/000186827526000104/ceg-20260630.htm",
-        "https://www.sec.gov/Archives/edgar/data/1296445/000119312526166801/ora_annual_report_2025.pdf",
-        "https://www.sec.gov/Archives/edgar/data/1664703/000162828025016212/a202410kars.pdf",
-        "https://www.sec.gov/Archives/edgar/data/1680247/000168024726000112/propwrtargaannouncement.htm",
-        "https://www.sec.gov/Archives/edgar/data/1878848/000114036126039453/ny20078226x3_ars.pdf",
-        "https://www.sec.gov/Archives/edgar/data/1993004/000199300426000031/ex991pressreleaseq12026.htm",
-        "https://www.sec.gov/Archives/edgar/data/2028336/000121390026101642/ea0305716-8k_newera.htm",
-        "https://www.sec.gov/Archives/edgar/data/64463/000162828026058625/solunaholdings-2025ars.pdf"
+        "https://arxiv.org/abs/2507.18419",
+        "https://credencialeschile.cl/categoria-producto/nfc/",
+        "https://digitallibrary.un.org/record/3952436/files/E_ESCWA_SDPD_2019_INF.8-EN.pdf",
+        "https://econosur.org/insights/chile/battery-storage-grid-bottleneck/",
+        "https://elpais.com/america-futura/2024-12-19/la-caida-de-los-precios-de-las-baterias-impulsa-un-boom-de-almacenamiento-de-energia-limpia.html",
+        "https://elpais.com/elpais/2019/02/28/escaparate/1551375000_956298.html",
+        "https://en.wikipedia.org/wiki/Curtailment_in_Chile",
+        "https://en.wikipedia.org/wiki/Solar_power_in_Chile",
+        "https://es.wikipedia.org/wiki/Apag%C3%B3n_de_Chile_de_2025",
+        "https://globalenergymonitor.org/wp-content/uploads/2026/03/GEM-Solar-Battery-Storage-Brief-March-2026.pdf",
+        "https://iea.blob.core.windows.net/assets/b73798cb-e452-42b9-9d8a-07542de7a041/Electricity_2026.pdf",
+        "https://iea.blob.core.windows.net/assets/f545917a-b119-4495-957b-fcc263deb391/Electricity_2026.pdf",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12225668/",
+        "https://researchers.unab.cl/en/publications/human-powered-hydroponic-systems-an-environmental-and-economic-as/",
+        "https://smallfarms.cornell.edu/wp-content/uploads/2022/06/Promise-of-Urban-Ag_Full_102919.pdf",
+        "https://www.apec.org/docs/default-source/publications/2025/8/225_ewg_apec-urban-energy-report.pdf?sfvrsn=f9e08006_1",
+        "https://www.guiachileenergia.cl/coordinador-electrico-presenta-informe-de-monitoreo-de-la-competencia-con-desafios-estructurales/",
+        "https://www.itpro.com/infrastructure/data-centres/is-bess-the-key-to-data-center-energy-demand",
+        "https://www.mdpi.com/2311-7524/12/8/972",
+        "https://www.ondda.cl/",
+        "https://www.puntotap.cl/",
+        "https://www.pv-magazine.com/2026/02/24/solar-curtailment-rises-in-chile-as-grid-constraints-persist/",
+        "https://www.pv-tech.org/energy-storage-alleviated-solar-pv-wind-curtailment-increase-in-chile-in-2025/",
+        "https://www.spec.cl/en/publicaciones/2026-almacenamiento-corta-duracion/",
+        "https://www.spec.cl/es/publicaciones/2026-almacenamiento-corta-duracion/"
       ]
     },
     {
@@ -105,62 +110,67 @@ No survivors. Scout does not manufacture a daily winner.
       "retry_justified": false
     },
     {
-      "index": 1,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [
-        "discarded_ungrounded_url"
-      ],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 1,
-      "retry_justified": false
-    },
-    {
       "stage": "critic",
-      "candidate_id": "opp_711ad4fbffe9d21b5212",
+      "candidate_id": "opp_54c3ec668fab2806bc76",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 28,
+      "grounded_source_count": 35,
       "search_source_urls": [
-        "https://arxiv.org/abs/2606.26704",
-        "https://bitgo.com/resources/blog/inside-the-infrastructure-powering-dtccs-tokenized-securities-milestone/",
-        "https://dtcclearning.com/helpfiles/dda/tokenization_service/Content/Topics/tokenization_srvc/welcome.htm?TocPath=_____2",
-        "https://en.wikipedia.org/wiki/Depository_Trust_%26_Clearing_Corporation",
-        "https://en.wikipedia.org/wiki/Electronic_Regulatory_Reporting",
-        "https://en.wikipedia.org/wiki/Galaxy_Digital_%28company%29",
-        "https://en.wikipedia.org/wiki/Securities_market_participants_%28United_States%29",
-        "https://files.dtcc.com/download/assets/DTCC-Annual-Report-2025-Print.pdf/5a8ba6f834ee11f1b9febe94a776c653",
-        "https://regalert.today/document/sec-division-of-trading-and-markets-no-action-letter-the-depository-trust-compan-7c79315b-ebf4-45f7-acad-27c55faba41a",
-        "https://remwm.com/tokenization/tokenization-platforms",
-        "https://www.dtcc.com/-/media/Files/Downloads/digital-assets/dtc-tokenization-service-faq.pdf",
-        "https://www.dtcc.com/-/media/Files/Downloads/digital-assets/tokenization-journey-timeline.pdf",
-        "https://www.dtcc.com/insights/2026/dtcc-consulting-supports-clients-through-change",
-        "https://www.dtcc.com/insights/2026/tokenization-readiness-5-decisions-before-onboarding",
-        "https://www.dtcc.com/press-releases/2025/paving-the-way-to-tokenized-dtc-custodied-assets",
-        "https://www.dtcc.com/products-and-services/digital-assets/tokenization/hub",
-        "https://www.dtcc.com/products-and-services/digital-assets/tokenization?trk=article-ssr-frontend-pulse_little-text-block",
-        "https://www.govinfo.gov/content/pkg/FR-2026-06-22/html/2026-12403.htm",
-        "https://www.morganlewis.com/pubs/2026/01/new-sec-guidance-provides-regulatory-pathway-for-dtc-securities-tokenization-services",
-        "https://www.reddit.com/r/Chainlink/comments/1uxe3gq/the_dtcc_processes_its_firstever_production/",
-        "https://www.reddit.com/r/Hedera/comments/1bq9zu4",
-        "https://www.reddit.com/r/Hedera/comments/1dcd464",
-        "https://www.reddit.com/r/Superstonk/comments/12csctc",
-        "https://www.reddit.com/r/Superstonk/comments/1q2w9b7/dtcc_to_tokenize_dtccustodied_us_treasury/",
-        "https://www.sec.gov/file/ctf-memo-dtcc-062025",
-        "https://www.sec.gov/files/cft-written-wall-street-blockchain-august-2026.pdf",
-        "https://www.sec.gov/files/rules/sro/nysetex/2026/34-105338.pdf",
-        "https://www.zensar.com/insights/white-paper/banking-and-financial-services/it-services/dtcc-tokenization-service-operational-readiness-framework-for-tokenized-securities"
+        "https://arxiv.org/abs/2202.04561",
+        "https://buenu.cl/precios",
+        "https://chileqr.cl/shop/",
+        "https://csiinformaticos.cl/menu-digital/",
+        "https://elmenu.cl/",
+        "https://en.wikipedia.org/wiki/Google_Maps",
+        "https://en.wikipedia.org/wiki/Yelp",
+        "https://es.wikipedia.org/wiki/C%C3%B3digo_QR",
+        "https://menue.cl/",
+        "https://open-market.cl/carta-digital",
+        "https://rbr.business.rutgers.edu/sites/default/files/documents/RBR-100103.pdf",
+        "https://support.google.com/contributionpolicy/answer/16597558?hl=en",
+        "https://support.google.com/contributionpolicy/answer/7400114?partner-code=GwbRtvWM2BbO",
+        "https://time.com/6192933/fake-reviews-regulation/",
+        "https://transformaturismo.cl/wp-content/uploads/2023/05/6.-Catalogo-de-soluciones-y-proveedores.pdf",
+        "https://www.cartaenqr.cl/service/restaurante/",
+        "https://www.easyqr.cl/",
+        "https://www.grupomodelo.com/sites/g/files/seuoyk516/files/2021-03/BP-Menu-Digital-040620.pdf",
+        "https://www.mesadigital.cl/",
+        "https://www.nearmedia.co/content/files/2023/10/FTC-2022-0070-0034_attachment_1.pdf",
+        "https://www.reddit.com/r/GoogleMaps/comments/18nn9gf",
+        "https://www.reddit.com/r/GoogleMaps/comments/1le93jn/banned_from_local_guide_program_please_help/",
+        "https://www.reddit.com/r/GoogleMaps/comments/1qo6udy/review_declined_the_company_has_posting/",
+        "https://www.reddit.com/r/GoogleMaps/comments/1rmznjo/reported_business_for_incentivized_reviews_google/",
+        "https://www.reddit.com/r/GoogleMyBusiness/comments/1vf1o6m/profile_restricted_for_fake_engagement/",
+        "https://www.reddit.com/r/GoogleMyBusiness/comments/1w9n8ri/removed/",
+        "https://www.reddit.com/r/GoogleMyBusiness/comments/1wt2u0f/google_not_allowing_customers_to_add_reviews_on/",
+        "https://www.reddit.com/r/GoogleSupport/comments/1u6505t/gbp_reviews_visible_to_reviewer_but_hidden/",
+        "https://www.reddit.com/r/LocalGuides/comments/10vxmzi",
+        "https://www.reddit.com/r/LocalGuides/comments/15yfvgf",
+        "https://www.reddit.com/r/chile/comments/173q4a4",
+        "https://www.reddit.com/r/localseo/comments/1oksjwx",
+        "https://www.restoclick.cl/carta-qr-menu-digital",
+        "https://www.tomsguide.com/ai/google-gemini/i-just-tried-the-new-google-maps-update-and-these-3-new-features-are-game-changers",
+        "https://www.westerndownslibraries.com/wp-content/uploads/eBook.pdf"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_711ad4fbffe9d21b5212",
+      "candidate_id": "opp_54c3ec668fab2806bc76",
+      "coercions": [
+        "contrary_evidence"
+      ]
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_54c3ec668fab2806bc76",
+      "response_status": "completed",
+      "incomplete_reason": "",
+      "grounded_source_count": 0,
+      "search_source_urls": []
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_54c3ec668fab2806bc76",
       "coercions": []
     }
   ],
@@ -168,30 +178,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 253,
-      "cache_write_tokens": 5414,
+      "reasoning_tokens": 524,
+      "cache_write_tokens": 5551,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0137897,
+      "cumulative_cost_usd": 0.01444015,
       "model": "gpt-5.6-luna",
-      "input_tokens": 9813,
+      "input_tokens": 14141,
       "cached_tokens": 0,
-      "output_tokens": 1297,
+      "output_tokens": 1112,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0137897
+      "estimated_cost_usd": 0.01444015
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 134,
-      "cache_write_tokens": 5256,
+      "reasoning_tokens": 228,
+      "cache_write_tokens": 5281,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0282239,
+      "cumulative_cost_usd": 0.0398686,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13735,
+      "input_tokens": 18592,
       "cached_tokens": 0,
-      "output_tokens": 1187,
-      "web_search_calls": 1,
-      "estimated_cost_usd": 0.0144342
+      "output_tokens": 1205,
+      "web_search_calls": 2,
+      "estimated_cost_usd": 0.02542845
+    },
+    {
+      "stage": "judge",
+      "available": true,
+      "reasoning_tokens": 115,
+      "cache_write_tokens": 2628,
+      "accounting_notes": [],
+      "cumulative_cost_usd": 0.0535486,
+      "model": "gpt-5.6-terra",
+      "input_tokens": 2631,
+      "cached_tokens": 0,
+      "output_tokens": 592,
+      "web_search_calls": 0,
+      "estimated_cost_usd": 0.01368
     }
   ]
 }

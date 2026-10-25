@@ -9260,13 +9260,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-25T15:34:03.345482+00:00",
+  "generated_at": "2026-10-25T18:44:24.570945+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 70,
+  "rejected_excluded": 71,
   "reviewed_cards": 62,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 201,
+  "total_distinct_opportunities": 202,
   "watch": 131
 }
