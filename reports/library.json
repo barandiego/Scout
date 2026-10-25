@@ -5925,6 +5925,67 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-25T08:57:23.884988+00:00",
+      "discovery_lens": "chile_technology_import",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The CMF states that the amendment includes technical specifications, a Developers' Portal, a testing area or Technological Sandbox, simplified participation for smaller entities, and postpones entry into force until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "The CMF describes the Open Finance System under Chile's Fintech Act and its intended ability to let individuals and businesses share financial information to access improved conditions or products.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF issues regulation governing the Open Finance System as part of the Fintech Act",
+          "url": "https://www.cmfchile.cl/portal/principal/613/articles-82752_recurso_1.pdf"
+        },
+        {
+          "claim": "A CMF implementation document identifies a developer portal, sandbox, standardized APIs and payment initiation among the Chilean Open Finance implementation components.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Avances en la Implementación de la Ley Fintec",
+          "url": "https://www.cmfchile.cl/portal/prensa/615/articles-99083_doc_pdf.pdf"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.79,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_feeb29504969ee6e91ea",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-25T08:57:23.941876+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use the CMF developer portal and published technical materials to build a small demonstrator that validates one documented test flow without using real customer data. Identify 10 entities listed or described by CMF as potential participants, technology providers or affected institutions, and ask for a paid discovery or permission to test against their non-production environment. The lowest-cost falsification is to complete the demonstrator and seek one written statement of scope, access and payment from an eligible entity; stop if the CMF materials cannot support a reproducible test flow or if all prospects require regulated authorization the operator does not possess.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The actionable wedge is not launching an unlicensed financial product. It is a narrowly scoped implementation asset: API conformance checklists, test fixtures, consent-flow documentation and sandbox integration support for entities preparing before the regulatory start date. The timing creates a defined external milestone, but commercial demand and pricing remain unverified.",
+      "title": "Pre-compliance implementation and sandbox testing for Chile Open Finance participants",
+      "type": "implementation_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Charge for a fixed-scope technical readiness assessment or implementation package only after identifying an entity that is permitted to participate and confirms a concrete integration need. Do not handle financial credentials, provide regulated advice or represent regulatory approval.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-17T08:18:49.302635+00:00",
       "discovery_lens": "market_positioning",
       "estimated_capital": "",
@@ -9199,13 +9260,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-25T03:12:32.066251+00:00",
+  "generated_at": "2026-10-25T08:57:44.870562+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 67,
+  "rejected_excluded": 68,
   "reviewed_cards": 62,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 197,
-  "watch": 130
+  "total_distinct_opportunities": 199,
+  "watch": 131
 }

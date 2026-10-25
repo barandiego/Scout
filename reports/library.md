@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-25T03:12:32.066251+00:00
+Generated: 2026-10-25T08:57:44.870562+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 130 (0 HQ survivors, 130 watches)
-- Rejected opportunities excluded: 67
+- Active research: 131 (0 HQ survivors, 131 watches)
+- Rejected opportunities excluded: 68
 - Critic-and-judge reviewed: 62
 - Autonomous execution authorization: 0
 
@@ -712,6 +712,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://tarjetas-nfc.com/; https://www.tuk.cl/es-cl/pages/para-empresas; https://linkd.cl/
+
+### Pre-compliance implementation and sandbox testing for Chile Open Finance participants [opp_feeb29504969ee6e91ea]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: The actionable wedge is not launching an unlicensed financial product. It is a narrowly scoped implementation asset: API conformance checklists, test fixtures, consent-flow documentation and sandbox integration support for entities preparing before the regulatory start date. The timing creates a defined external milestone, but commercial demand and pricing remain unverified.
+- Value capture: Charge for a fixed-scope technical readiness assessment or implementation package only after identifying an entity that is permitted to participate and confirms a concrete integration need. Do not handle financial credentials, provide regulated advice or represent regulatory approval.
+- Participation hypothesis: Use the CMF developer portal and published technical materials to build a small demonstrator that validates one documented test flow without using real customer data. Identify 10 entities listed or described by CMF as potential participants, technology providers or affected institutions, and ask for a paid discovery or permission to test against their non-production environment. The lowest-cost falsification is to complete the demonstrator and seek one written statement of scope, access and payment from an eligible entity; stop if the CMF mater
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/613/articles-82752_recurso_1.pdf; https://www.cmfchile.cl/portal/prensa/615/articles-99083_doc_pdf.pdf
 
 ### Pre-compliance monitor for Chile Open Finance API participants [opp_f4c70f1adccbe9b2583e]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile

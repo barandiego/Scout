@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 130
+Candidates: 131
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -1143,6 +1143,18 @@ Candidates: 130
 - Critical gaps: Whether ATENA is sufficiently complete, stable, and accessible for all relevant participant categories, or whether it leaves substantial testing and observability gaps.; The number and identity of likely paying participants, their implementation budgets, procurement timelines, and willingness to hire a new foreign or unreferenced provider.; Whether CMF will publish certification tooling, conformance suites, test fixtures, sandbox environments, or other free assets that eliminate the proposed product gap.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
+
+## Pre-compliance implementation and sandbox testing for Chile Open Finance participants
+- Status: watch | open_finance_chile
+- Current idea: The actionable wedge is not launching an unlicensed financial product. It is a narrowly scoped implementation asset: API conformance checklists, test fixtures, consent-flow documentation and sandbox integration support for entities preparing before the regulatory start date. The timing creates a defined external milestone, but commercial demand and pricing remain unverified.
+- Potential economic capture: Charge for a fixed-scope technical readiness assessment or implementation package only after identifying an entity that is permitted to participate and confirms a concrete integration need. Do not handle financial credentials, provide regulated advice or represent regulatory approval.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/613/articles-82752_recurso_1.pdf; https://www.cmfchile.cl/portal/prensa/615/articles-99083_doc_pdf.pdf
 
 ## Pre-compliance monitor for Chile Open Finance API participants
 - Status: watch | open_finance_chile

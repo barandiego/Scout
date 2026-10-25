@@ -3632,6 +3632,43 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use the CMF developer portal and published technical materials to build a small demonstrator that validates one documented test flow without using real customer data. Identify 10 entities listed or described by CMF as potential participants, technology providers or affected institutions, and ask for a paid discovery or permission to test against their non-production environment. The lowest-cost falsification is to complete the demonstrator and seek one written statement of scope, access and payment from an eligible entity; stop if the CMF materials cannot support a reproducible test flow or if all prospects require regulated authorization the operator does not possess.",
+      "current_thesis": "The actionable wedge is not launching an unlicensed financial product. It is a narrowly scoped implementation asset: API conformance checklists, test fixtures, consent-flow documentation and sandbox integration support for entities preparing before the regulatory start date. The timing creates a defined external milestone, but commercial demand and pricing remain unverified.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Pre-compliance implementation and sandbox testing for Chile Open Finance participants",
+      "opportunity_id": "opp_feeb29504969ee6e91ea",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/613/articles-82752_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-99083_doc_pdf.pdf"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Charge for a fixed-scope technical readiness assessment or implementation package only after identifying an entity that is permitted to participate and confirms a concrete integration need. Do not handle financial credentials, provide regulated advice or represent regulatory approval.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use the public directory/API documentation to build a small read-only prototype that checks endpoint availability, TLS/certificate expiry, schema changes, and directory metadata changes. Run it against public test or documented endpoints without requesting credentials or accessing personal financial data. Publish a sample anonymized report and ask identifiable participants or implementation vendors for paid design-partner feedback. Falsify if the public endpoints cannot be queried reliably, the documentation does not expose enough stable structure to test, or ten targeted outreach attempts produce no paid pilot or written request for the report. Do not represent the tool as regulatory compliance certification.",
       "current_thesis": "The narrow executable opportunity is not generic fintech consulting. It is a low-cost monitoring and test harness that checks whether public participant-directory metadata, authorization endpoints, certificates, and documented API resources remain reachable and structurally conformant as firms prepare for implementation. The cash-flow source would be regulated or aspiring participants that need internal readiness evidence, but no buyer or contract is presumed.",
       "founder_hours_initial_unverified_estimate": "",
@@ -4956,7 +4993,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-25T03:12:32.176449+00:00",
+  "generated_at": "2026-10-25T08:57:44.973969+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

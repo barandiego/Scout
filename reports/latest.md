@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-25T03:12:31.621226+00:00
+Generated: 2026-10-25T08:57:44.457925+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['cost_curve', 'open_finance_chile', 'adoption_lag']
-- raw_candidates: 1
-- parseable_candidates: 1
-- normalized_candidates: 1
+- lenses: ['underserved_buyers', 'seller_supply_gap', 'chile_technology_import']
+- raw_candidates: 2
+- parseable_candidates: 2
+- normalized_candidates: 2
 - normalization_rejected: 0
-- grounded_sources: 3
+- grounded_sources: 6
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 0
+- judge_attempts: 1
 - critic_reviews: 1
-- judge_reviews: 0
+- judge_reviews: 1
 - survivors: 0
 - watches: 1
 - rejected: 1
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.02907965
+- cost_usd: 0.0426349
 - cost_uncertain: False
-- budget_remaining_usd: 0.05092035
+- budget_remaining_usd: 0.0373651
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- TELUS Digital Online Data Analyst — Chile: deferred_by_review_cap
 - Chile Open Finance conformance and integration test harness: deferred_by_review_cap
 - Local-first Chilean DTE invoice reconciliation and exception review: deferred_by_review_cap
 - Bid as a small supplier or integrator around Chilean public-sector collaborative-robot purchases: deferred_by_review_cap
@@ -51,13 +50,14 @@ No survivors. Scout does not manufacture a daily winner.
 - SII company-record change monitor for accounting and compliance firms: deferred_by_review_cap
 - ATENA interoperability smoke-test harness for Chilean Open Finance participants: The regulatory premise is sufficiently grounded by CMF primary sources: ATENA and the July 2027 framework timing appear to be real, and published technical materials make a narrow conformance/readiness-testing wedge plausible. However, this is not yet a demonstrated software business. The core product may be substantially substituted by CMF’s own sandbox, public specifications, internal QA teams, implementation vendors, and established Open Finance tooling. Crucially, there is no evidence that a third party can obtain the necessary non-production access or automate ATENA workflows, nor that regulated buyers will procure an external harness rather than consulting or incumbent-platform support. The opportunity survives only as tightly scoped HQ research into technical access, mandatory test requirements, buyer ownership, and willingness to pay—not as an execution recommendation.
 - Chile SFA consent-and-API conformance test harness for early participants: deferred_by_review_cap
+- Pre-compliance implementation and sandbox testing for Chile Open Finance participants: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=backlog",
-    "research_queue_unreviewed=63"
+    "deep_review_lane=fresh",
+    "research_queue_unreviewed=64"
   ],
   "stages": [
     {
@@ -65,31 +65,27 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 23,
+      "grounded_source_count": 19,
       "search_source_urls": [
-        "https://arxiv.org/abs/2504.11816",
-        "https://arxiv.org/abs/2504.20189",
-        "https://arxiv.org/abs/2509.25056",
-        "https://arxiv.org/abs/2603.28576",
-        "https://docs.compute.finance/",
-        "https://docs.compute.tech/api-reference",
-        "https://docs.digitalocean.com/products/inference/details/pricing/",
-        "https://huggingface.co/docs/inference-providers/pricing",
-        "https://www.bcentral.cl/documents/33528/133214/pgs06042022.pdf/669eb3a8-b0b8-06bc-8df7-3052f489bde7?t=1693417865670",
-        "https://www.bcentral.cl/documents/33528/133217/jpa_17112022.pdf/54d7647e-d58b-0fd9-032f-1c4fd829e7f7?t=1668695311853",
-        "https://www.bcentral.cl/documents/33528/6156422/ISIP_2024.pdf/880f1337-7904-2386-c815-077cfcb7896b?t=1723237699550",
-        "https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836",
-        "https://www.bcentral.cl/es/web/banco-central/preguntas-frecuentes",
-        "https://www.cmfchile.cl/educa/621/w3-article-85051.html",
-        "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html",
-        "https://www.cmfchile.cl/portal/principal/613/articles-83451_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-77242.html",
-        "https://www.greenbeam.us/",
-        "https://www.reddit.com/r/LocalLLaMA/comments/1wcyuhf/are_inference_providers_able_to_make_any_margins/",
-        "https://www.uc.cl/noticias/uc-chile-researchers-develop-an-ai-powered-harvesting-robot/",
-        "https://www.whitehouse.gov/wp-content/uploads/2026/04/2026-Economic-Report-of-the-President.pdf",
-        "https://zimex.cl/terramow-chile/"
+        "https://cmfchile.cl/portal/principal/613/articles-86367_doc_pdf.pdf",
+        "https://es.linkedin.com/posts/daniela-sarra-toriszay_hoy-marcamos-un-hito-important%C3%ADsimo-en-nuestro-activity-7503225678528679936-3ghA",
+        "https://es.wikipedia.org/wiki/Grupo_Falabella",
+        "https://production.na01.natura.com/on/demandware.static/-/Sites-NatChile-Library/default/v4451a1d4e6abdb654aa976752e4626774c6ec279/landing-page/sustentabilidad/PDFs/Informe_Integrado_Natura_Co_2024_vf-22-09-2025.pdf",
+        "https://pulga.cl/product/pack-nfc-qr-para-negocios-2-soportes-tarje",
+        "https://pymevisible.cl/productos",
+        "https://pymevisible.cl/productos/llavero-instagram",
+        "https://static.rede.natura.net/html/chile/faq/faq-chile-3.html",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-99083_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/articles-73477_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/articles-82752_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.falabella.com/falabella-cl/brand/NATURA",
+        "https://www.falabella.com/falabella-cl/seller/Natura",
+        "https://www.mediabanco.com/natura-llega-a-falabella-y-amplia-su-propuesta-omnicanal-en-chile-2/",
+        "https://www.natura.cl/condiciones-cupones",
+        "https://www.natura.cl/encuentra-natura",
+        "https://www.puntotap.cl/condiciones-de-venta",
+        "https://www.sernac.gob.cl/portal/619/articles-62983_archivo_01.pdf"
       ]
     },
     {
@@ -108,79 +104,121 @@ No survivors. Scout does not manufacture a daily winner.
       "retry_justified": false
     },
     {
+      "index": 1,
+      "stage": "normalization",
+      "outcome": "accepted",
+      "reasons": [],
+      "changes": [
+        "contrary_evidence:list_sanitized",
+        "major_risks:list_sanitized",
+        "unknowns:list_sanitized",
+        "falsification_conditions:list_sanitized",
+        "material_update:unknown_false"
+      ],
+      "grounded_sources": 3,
+      "retry_justified": false
+    },
+    {
       "stage": "critic",
-      "candidate_id": "opp_94b1dcc19f8cc9f335ef",
+      "candidate_id": "opp_e81e3ced9351aad494fb",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 29,
       "search_source_urls": [
-        "https://arxiv.org/abs/2006.06673",
-        "https://arxiv.org/abs/2306.08258",
-        "https://arxiv.org/abs/2307.02004",
-        "https://arxiv.org/abs/2409.00107",
-        "https://documents.dps.ny.gov/PTC/der",
-        "https://en.wikipedia.org/wiki/Edison_Electric_Institute",
-        "https://en.wikipedia.org/wiki/ISO_New_England",
-        "https://en.wikipedia.org/wiki/List_of_power_stations_in_New_York",
-        "https://en.wikipedia.org/wiki/Local_flexibility_markets",
-        "https://en.wikipedia.org/wiki/Long_Island_Power_Authority",
-        "https://en.wikipedia.org/wiki/Regional_transmission_organization_%28North_America%29",
-        "https://escholarship.org/uc/item/5sv0g87t",
-        "https://iedr.nyserda.ny.gov/",
-        "https://jointutilitiesofny.org/node/8863",
-        "https://nyisoviewer.etariff.biz/ViewerDocLibrary/FercDockets/NYISO%20DER%20Section%20205%20Filing%20Letter%20%28FINAL%29_23784.htm",
-        "https://nyisoviewer.etariff.biz/ViewerDocLibrary/Filing/Filing5049/5049FilingSections/MST%204.1%20FID%205049%20redline_33672.htm",
-        "https://nyisoviewer.etariff.biz/ViewerDocLibrary/temp/4efb5d28-f7c2-4dc5-a0cd-d158dbce4bce.pdf",
-        "https://nyisoviewer.etariff.biz/viewerdoclibrary/Filing/Filing5106/Attachments/Att%20I%20-%20Clean%20MST.pdf",
-        "https://nyisoviewer.etariff.biz/viewerdoclibrary/Filing/Filing5358/5358FilingSections/MST%2013%20FID5358%20clean_37637.htm",
-        "https://www.caiso.com/generation-transmission/generation/distributed-energy-resources",
-        "https://www.cenhud.com/en/my-energy/distributed-generation/new-york-iso-wholesale-market/",
-        "https://www.coned.com/en/save-money/using-distributed-generation-energy-sources/join-the-wholesale-market-with-distributed-generation",
-        "https://www.ferc.gov/ferc-order-no-2222-explainer-facilitating-participation-electricity-markets-distributed-energy",
-        "https://www.nyiso.com/documents/20142/29448212/4%20%28DER%29%20Aggregation%20Manual%20Draft%20-%20Part%20I%20-%20Clean.pdf/70793f1f-7b1f-bce4-1c0c-758014a774e4",
-        "https://www.nyiso.com/documents/20142/3625950/mpug.pdf",
-        "https://www.nyiso.com/documents/20142/37883690/DER-DRAFT-M-Aggregation-Manual-Part2.pdf/11821bd4-f3f1-ef5e-c2c8-c71beb7132d7",
-        "https://www.nyiso.com/documents/20142/49802416/DER-and-Aggregation-Participation-Model-FAQ.pdf/967117fb-8bbb-1916-651a-0f9dbe904780",
-        "https://www.nyseg.com/en/smart-energy/innovation/distributed-energy-resources-aggregation",
-        "https://www.reddit.com/r/energy/comments/1io3tk4"
+        "https://d3cnqzq0ivprch.cloudfront.net/support-api/production/pdf-1612397585046.pdf",
+        "https://downloads.regulations.gov/FTC-2023-0047-0068/attachment_2.pdf",
+        "https://pymevisible.cl/",
+        "https://pymevisible.cl/llavero-nfc-qr",
+        "https://pymevisible.cl/productos/adhesivo-personalizado",
+        "https://pymevisible.cl/stand-nfc-qr",
+        "https://pymevisible.cl/tarjeta-nfc-qr",
+        "https://rbr.business.rutgers.edu/sites/default/files/documents/RBR-100103.pdf",
+        "https://search.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers",
+        "https://storage.googleapis.com/msgsndr/SBFkmZtlt4Bdr7o3KnkA/media/68e3449a32a1d184c9d2f472.pdf",
+        "https://support.google.com/business/answer/3474122?hl=en-en",
+        "https://support.google.com/business/answer/7400114?hl=en-1",
+        "https://support.google.com/business/answer/7400114?rd=1&ref_topic=4540086&visit_id=638960789983224052-4247463895",
+        "https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers",
+        "https://www.puntotap.cl/condiciones-de-venta",
+        "https://www.reddit.com/r/GoogleMaps/comments/1rmznjo/reported_business_for_incentivized_reviews_google/",
+        "https://www.reddit.com/r/GoogleMyBusiness/comments/1rj5t3c/are_google_review_filter_pages_allowed/",
+        "https://www.reddit.com/r/GoogleMyBusiness/comments/1uxsh4t/approximately_800_genuine_google_reviews/",
+        "https://www.reddit.com/r/GoogleMyBusiness/comments/1w9n8ri/removed/",
+        "https://www.reddit.com/r/GoogleMyBusiness/comments/1x0sy0n/google_removed_all_our_reviews_flagged_us_for/",
+        "https://www.reddit.com/r/GoogleSupport/comments/1u6505t/gbp_reviews_visible_to_reviewer_but_hidden/",
+        "https://www.reddit.com/r/LocalGuides/comments/1ta4e9l/offering_incentive_inkind_for_reviews/",
+        "https://www.reddit.com/r/googlebusinessprofile/comments/1vpjwcp/google_explicitly_bans_review_incentives_so_how/",
+        "https://www.reddit.com/r/localseo/comments/1wr46nu/googles_own_pages_say_owners_cant_delete_reviews/",
+        "https://www.reddit.com/r/localseo/comments/1xbcoas/how_we_got_300_google_reviews_my_personal/",
+        "https://www.reddit.com/r/smallbusiness/comments/191lefw/how_to_get_more_google_reviews/",
+        "https://www.reddit.com/r/smallbusiness/comments/1v2hh12/giving_employees_credit_for_google_reviews_need/",
+        "https://www.seroundtable.com/google-business-profile-review-policies-updated-40962.html",
+        "https://www.smilemultimedia.com/sites/default/files/Google-Reviews.pdf"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_94b1dcc19f8cc9f335ef",
+      "candidate_id": "opp_e81e3ced9351aad494fb",
       "coercions": [
         "contrary_evidence"
       ]
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_e81e3ced9351aad494fb",
+      "response_status": "completed",
+      "incomplete_reason": "",
+      "grounded_source_count": 0,
+      "search_source_urls": []
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_e81e3ced9351aad494fb",
+      "coercions": []
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 293,
-      "cache_write_tokens": 5422,
+      "reasoning_tokens": 263,
+      "cache_write_tokens": 5130,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0142287,
+      "cumulative_cost_usd": 0.0146563,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13578,
+      "input_tokens": 13293,
       "cached_tokens": 0,
-      "output_tokens": 1035,
+      "output_tokens": 1451,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0142287
+      "estimated_cost_usd": 0.0146563
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 183,
-      "cache_write_tokens": 5451,
+      "reasoning_tokens": 142,
+      "cache_write_tokens": 5320,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02907965,
+      "cumulative_cost_usd": 0.0289049,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13874,
+      "input_tokens": 13781,
       "cached_tokens": 0,
-      "output_tokens": 1503,
+      "output_tokens": 1022,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01485095
+      "estimated_cost_usd": 0.0142486
+    },
+    {
+      "stage": "judge",
+      "available": true,
+      "reasoning_tokens": 76,
+      "cache_write_tokens": 2936,
+      "accounting_notes": [],
+      "cumulative_cost_usd": 0.0426349,
+      "model": "gpt-5.6-terra",
+      "input_tokens": 2939,
+      "cached_tokens": 0,
+      "output_tokens": 532,
+      "web_search_calls": 0,
+      "estimated_cost_usd": 0.01373
     }
   ]
 }
