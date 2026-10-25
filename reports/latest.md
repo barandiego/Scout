@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-25T18:44:24.204522+00:00
+Generated: 2026-10-25T22:18:37.302310+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['nfc_smart_commerce', 'vertical_farming_economics', 'energy_localization']
-- raw_candidates: 1
-- parseable_candidates: 1
-- normalized_candidates: 1
+- lenses: ['wildcard', 'remote_paid_evaluation', 'inventoryless_product_validation']
+- raw_candidates: 2
+- parseable_candidates: 2
+- normalized_candidates: 2
 - normalization_rejected: 0
-- grounded_sources: 2
+- grounded_sources: 4
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
 - critic_reviews: 1
 - judge_reviews: 1
 - survivors: 0
-- watches: 0
-- rejected: 1
+- watches: 3
+- rejected: 0
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.0535486
+- cost_usd: 0.04466775
 - cost_uncertain: False
-- budget_remaining_usd: 0.0264514
+- budget_remaining_usd: 0.03533225
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,8 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Local-first Chilean DTE invoice reconciliation and exception review: deferred_by_review_cap
-- Bid as a small supplier or integrator around Chilean public-sector collaborative-robot purchases: deferred_by_review_cap
 - Narrow private-label test for underserved marketplace products in Chile: deferred_by_review_cap
 - Interconnection-queue readiness dataset for battery and hybrid projects: deferred_by_review_cap
 - Critical-mineral recycling feedstock locator focused on discarded electronics: deferred_by_review_cap
@@ -51,13 +49,15 @@ No survivors. Scout does not manufacture a daily winner.
 - Chile SFA consent-and-API conformance test harness for early participants: deferred_by_review_cap
 - Pre-compliance implementation and sandbox testing for Chile Open Finance participants: deferred_by_review_cap
 - Chile Open Finance conformance-test harness for early sandbox participants: deferred_by_review_cap
+- Apply to TELUS Digital Online Data Analyst — Chile: deferred_by_review_cap
+- Apply to Outlier Spanish–Chile AI-training evaluation work: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=fresh",
-    "research_queue_unreviewed=64"
+    "deep_review_lane=backlog",
+    "research_queue_unreviewed=65"
   ],
   "stages": [
     {
@@ -65,33 +65,28 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 25,
+      "grounded_source_count": 20,
       "search_source_urls": [
-        "https://arxiv.org/abs/2507.18419",
-        "https://credencialeschile.cl/categoria-producto/nfc/",
-        "https://digitallibrary.un.org/record/3952436/files/E_ESCWA_SDPD_2019_INF.8-EN.pdf",
-        "https://econosur.org/insights/chile/battery-storage-grid-bottleneck/",
-        "https://elpais.com/america-futura/2024-12-19/la-caida-de-los-precios-de-las-baterias-impulsa-un-boom-de-almacenamiento-de-energia-limpia.html",
-        "https://elpais.com/elpais/2019/02/28/escaparate/1551375000_956298.html",
-        "https://en.wikipedia.org/wiki/Curtailment_in_Chile",
-        "https://en.wikipedia.org/wiki/Solar_power_in_Chile",
-        "https://es.wikipedia.org/wiki/Apag%C3%B3n_de_Chile_de_2025",
-        "https://globalenergymonitor.org/wp-content/uploads/2026/03/GEM-Solar-Battery-Storage-Brief-March-2026.pdf",
-        "https://iea.blob.core.windows.net/assets/b73798cb-e452-42b9-9d8a-07542de7a041/Electricity_2026.pdf",
-        "https://iea.blob.core.windows.net/assets/f545917a-b119-4495-957b-fcc263deb391/Electricity_2026.pdf",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12225668/",
-        "https://researchers.unab.cl/en/publications/human-powered-hydroponic-systems-an-environmental-and-economic-as/",
-        "https://smallfarms.cornell.edu/wp-content/uploads/2022/06/Promise-of-Urban-Ag_Full_102919.pdf",
-        "https://www.apec.org/docs/default-source/publications/2025/8/225_ewg_apec-urban-energy-report.pdf?sfvrsn=f9e08006_1",
-        "https://www.guiachileenergia.cl/coordinador-electrico-presenta-informe-de-monitoreo-de-la-competencia-con-desafios-estructurales/",
-        "https://www.itpro.com/infrastructure/data-centres/is-bess-the-key-to-data-center-energy-demand",
-        "https://www.mdpi.com/2311-7524/12/8/972",
-        "https://www.ondda.cl/",
-        "https://www.puntotap.cl/",
-        "https://www.pv-magazine.com/2026/02/24/solar-curtailment-rises-in-chile-as-grid-constraints-persist/",
-        "https://www.pv-tech.org/energy-storage-alleviated-solar-pv-wind-curtailment-increase-in-chile-in-2025/",
-        "https://www.spec.cl/en/publicaciones/2026-almacenamiento-corta-duracion/",
-        "https://www.spec.cl/es/publicaciones/2026-almacenamiento-corta-duracion/"
+        "https://app.outlier.ai/login?job_post_id=4476998005",
+        "https://es.linkedin.com/posts/daniela-sarra-toriszay_hoy-marcamos-un-hito-important%C3%ADsimo-en-nuestro-activity-7503225678528679936-3ghA",
+        "https://es.wikipedia.org/wiki/Falabella",
+        "https://es.wikipedia.org/wiki/Grupo_Falabella",
+        "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/",
+        "https://investors.grupofalabella.com/app/uploads/sites/2/2021/12/Falabella_2021_Annual_Report.pdf",
+        "https://jobs.telusdigital.com/search/cfm3/russian-spanish/cfm5/ai-community/jobs/in/country/chile?ns_category=artificial-intelligence",
+        "https://static.rede.natura.net/html/chile/faq/faq-chile-3.html",
+        "https://www.chileatiende.gob.cl/fichas/4201-pagar-derechos-aduaneros-por-importaciones-realizadas-via-postal",
+        "https://www.falabella.com/falabella-cl/brand/NATURA",
+        "https://www.falabella.com/falabella-cl/seller/Natura",
+        "https://www.fedex.com/content/dam/fedex/us-united-states/International/Chile_Implements_VAT_for_Low_Value_Shipments_and_Increase_De_Minimis_Threshold.pdf",
+        "https://www.mercadolibre.cl/tienda/natura",
+        "https://www.natura.cl/encuentra-natura",
+        "https://www.naturabrasil.com/pages/faqs",
+        "https://www.sernac.gob.cl/portal/619/articles-62983_archivo_01.pdf",
+        "https://www.sii.cl/destacados/guia_emprendedor/guia_marketplaces.pdf",
+        "https://www.sii.cl/destacados/iva_bienes/plataformas_inscritas/",
+        "https://www.sii.cl/vat/directive_84_2025_eng.pdf",
+        "https://www.sii.cl/vat/general_instruction_39_2025.pdf"
       ]
     },
     {
@@ -110,59 +105,67 @@ No survivors. Scout does not manufacture a daily winner.
       "retry_justified": false
     },
     {
+      "index": 1,
+      "stage": "normalization",
+      "outcome": "accepted",
+      "reasons": [],
+      "changes": [
+        "contrary_evidence:list_sanitized",
+        "major_risks:list_sanitized",
+        "unknowns:list_sanitized",
+        "falsification_conditions:list_sanitized",
+        "material_update:unknown_false"
+      ],
+      "grounded_sources": 2,
+      "retry_justified": false
+    },
+    {
       "stage": "critic",
-      "candidate_id": "opp_54c3ec668fab2806bc76",
+      "candidate_id": "opp_9511a8b5519c4a31790e",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 35,
+      "grounded_source_count": 28,
       "search_source_urls": [
-        "https://arxiv.org/abs/2202.04561",
-        "https://buenu.cl/precios",
-        "https://chileqr.cl/shop/",
-        "https://csiinformaticos.cl/menu-digital/",
-        "https://elmenu.cl/",
-        "https://en.wikipedia.org/wiki/Google_Maps",
-        "https://en.wikipedia.org/wiki/Yelp",
-        "https://es.wikipedia.org/wiki/C%C3%B3digo_QR",
-        "https://menue.cl/",
-        "https://open-market.cl/carta-digital",
-        "https://rbr.business.rutgers.edu/sites/default/files/documents/RBR-100103.pdf",
-        "https://support.google.com/contributionpolicy/answer/16597558?hl=en",
-        "https://support.google.com/contributionpolicy/answer/7400114?partner-code=GwbRtvWM2BbO",
-        "https://time.com/6192933/fake-reviews-regulation/",
-        "https://transformaturismo.cl/wp-content/uploads/2023/05/6.-Catalogo-de-soluciones-y-proveedores.pdf",
-        "https://www.cartaenqr.cl/service/restaurante/",
-        "https://www.easyqr.cl/",
-        "https://www.grupomodelo.com/sites/g/files/seuoyk516/files/2021-03/BP-Menu-Digital-040620.pdf",
-        "https://www.mesadigital.cl/",
-        "https://www.nearmedia.co/content/files/2023/10/FTC-2022-0070-0034_attachment_1.pdf",
-        "https://www.reddit.com/r/GoogleMaps/comments/18nn9gf",
-        "https://www.reddit.com/r/GoogleMaps/comments/1le93jn/banned_from_local_guide_program_please_help/",
-        "https://www.reddit.com/r/GoogleMaps/comments/1qo6udy/review_declined_the_company_has_posting/",
-        "https://www.reddit.com/r/GoogleMaps/comments/1rmznjo/reported_business_for_incentivized_reviews_google/",
-        "https://www.reddit.com/r/GoogleMyBusiness/comments/1vf1o6m/profile_restricted_for_fake_engagement/",
-        "https://www.reddit.com/r/GoogleMyBusiness/comments/1w9n8ri/removed/",
-        "https://www.reddit.com/r/GoogleMyBusiness/comments/1wt2u0f/google_not_allowing_customers_to_add_reviews_on/",
-        "https://www.reddit.com/r/GoogleSupport/comments/1u6505t/gbp_reviews_visible_to_reviewer_but_hidden/",
-        "https://www.reddit.com/r/LocalGuides/comments/10vxmzi",
-        "https://www.reddit.com/r/LocalGuides/comments/15yfvgf",
-        "https://www.reddit.com/r/chile/comments/173q4a4",
-        "https://www.reddit.com/r/localseo/comments/1oksjwx",
-        "https://www.restoclick.cl/carta-qr-menu-digital",
-        "https://www.tomsguide.com/ai/google-gemini/i-just-tried-the-new-google-maps-update-and-these-3-new-features-are-game-changers",
-        "https://www.westerndownslibraries.com/wp-content/uploads/eBook.pdf"
+        "https://chirgwin.cl/en/chile-advances-the-implementation-of-its-open-finance-system/",
+        "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=f7cca9af-5246-47a4-b6ac-647bd38df702",
+        "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=f7cca9af-5246-47a4-b6ac-647bd38df702",
+        "https://cmfchile.cl/portal/principal/613/articles-89527_recurso_2.pdf",
+        "https://cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_financiera",
+        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/435749124/v1.0.0%2B-%2BModelo%2Bde%2Bgobierno",
+        "https://openfinanceconnect.cl/",
+        "https://openfinanceconnect.cl/en/",
+        "https://www.cmfchile.cl/educa/621/w3-article-85051.html",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-100979_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-100979_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-102547.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-102547.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/principal/613/articles-92466_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/articles-93115_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/articles-96504_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.reddit.com/r/chileIT/comments/1gf8fev/apis_bancarias/",
+        "https://www.reddit.com/r/chileIT/comments/1jcs4sd",
+        "https://www.reddit.com/r/chileIT/comments/1tb63ai/error_en_api_cmf/",
+        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000108/MNCjune2026signed.pdf"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_54c3ec668fab2806bc76",
+      "candidate_id": "opp_9511a8b5519c4a31790e",
       "coercions": [
-        "contrary_evidence"
+        "critic_case"
       ]
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_54c3ec668fab2806bc76",
+      "candidate_id": "opp_9511a8b5519c4a31790e",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -170,7 +173,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_54c3ec668fab2806bc76",
+      "candidate_id": "opp_9511a8b5519c4a31790e",
       "coercions": []
     }
   ],
@@ -178,44 +181,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 524,
-      "cache_write_tokens": 5551,
+      "reasoning_tokens": 220,
+      "cache_write_tokens": 5132,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01444015,
+      "cumulative_cost_usd": 0.0143186,
       "model": "gpt-5.6-luna",
-      "input_tokens": 14141,
+      "input_tokens": 13584,
       "cached_tokens": 0,
-      "output_tokens": 1112,
+      "output_tokens": 1121,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01444015
+      "estimated_cost_usd": 0.0143186
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 228,
-      "cache_write_tokens": 5281,
+      "reasoning_tokens": 140,
+      "cache_write_tokens": 5401,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0398686,
+      "cumulative_cost_usd": 0.02918125,
       "model": "gpt-5.6-luna",
-      "input_tokens": 18592,
+      "input_tokens": 13645,
       "cached_tokens": 0,
-      "output_tokens": 1205,
-      "web_search_calls": 2,
-      "estimated_cost_usd": 0.02542845
+      "output_tokens": 1553,
+      "web_search_calls": 1,
+      "estimated_cost_usd": 0.01486265
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 115,
-      "cache_write_tokens": 2628,
+      "reasoning_tokens": 63,
+      "cache_write_tokens": 3245,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0535486,
+      "cumulative_cost_usd": 0.04466775,
       "model": "gpt-5.6-terra",
-      "input_tokens": 2631,
+      "input_tokens": 3248,
       "cached_tokens": 0,
-      "output_tokens": 592,
+      "output_tokens": 614,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.01368
+      "estimated_cost_usd": 0.0154865
     }
   ]
 }

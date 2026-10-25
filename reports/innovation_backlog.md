@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 131
+Candidates: 133
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -27,6 +27,30 @@ Candidates: 131
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://app.outlier.ai/opportunities/4522871005; https://outlier.ai/faq
+
+## Apply to Outlier Spanish–Chile AI-training evaluation work
+- Status: watch | chile_localization
+- Current idea: A qualified Spanish-speaking Chile-based coder may obtain paid AI-training evaluation assignments after screening, but the economic opportunity is contingent and should not be treated as present income before a contract and payable task are issued.
+- Potential economic capture: Weekly contractor payments for accepted AI-training tasks, if the applicant passes onboarding and receives work; exact compensation is unknown from the public application page.
+- **Research routes to test (NOT validated claims):**
+  - Find the smallest Chilean workflow whose economics differ from the original geography.
+  - Secure lawful access, partners and after-sales support rather than copy protected technology.
+  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://app.outlier.ai/login?job_post_id=4476998005; https://jobs.telusdigital.com/search/cfm3/russian-spanish/cfm5/ai-community/jobs/in/country/chile?ns_category=artificial-intelligence
+
+## Apply to TELUS Digital Online Data Analyst — Chile
+- Status: watch | chile_localization
+- Current idea: A Chile-based applicant may be able to earn contractor income by completing data-quality or search-relevance evaluation work, subject to screening and available task volume. Application is not evidence of income.
+- Potential economic capture: Hourly or task-based contractor payments from TELUS Digital, if the applicant passes screening and receives assignments; exact rate and payment conditions remain unverified.
+- **Research routes to test (NOT validated claims):**
+  - Find the smallest Chilean workflow whose economics differ from the original geography.
+  - Secure lawful access, partners and after-sales support rather than copy protected technology.
+  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://jobs.telusdigital.com/search/cfm3/russian-spanish/cfm5/ai-community/jobs/in/country/chile?ns_category=artificial-intelligence; https://www.sii.cl/destacados/iva_bienes/plataformas_inscritas/
 
 ## Chilean Spanish speech-data recording project — CrowdGen by Appen
 - Status: watch | chile_localization
@@ -840,7 +864,7 @@ Candidates: 131
   - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
   - Check license perimeter, API access, legal compliance and competitor pricing.
   - Test buyer procurement and technical access before writing integration infrastructure.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Whether regulated entities must pass an external conformance or certification process and whether third-party tools are accepted as evidence.; Whether ATENA exposes sufficient automated coverage, reusable test fixtures, negative cases, payment-initiation scenarios, consent-state transitions, reporting, and CI/CD integration for institution-internal use.; Whether ATENA access is available to all prospective participants, only registered entities, or selected participants, and what credentials, onboarding, service levels, and usage restrictions apply.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812
 

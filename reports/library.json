@@ -2510,6 +2510,93 @@
     {
       "ai_leverage": "",
       "authorized_for_execution": false,
+      "contrary_evidence": [
+        "The CMF confirms a concrete regulatory implementation program, technical annex, developer portal, payment-initiation requirements, testing mechanisms, and a July 2027 effective date. This supports genuine implementation demand. ([cmfchile.cl](https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html?utm_source=openai))",
+        "The official developer portal provides API specifications, examples, endpoint references, integration guidance, security documentation, and participant-directory information, making an executable test product technically feasible. ([cmfchile.atlassian.net](https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=f7cca9af-5246-47a4-b6ac-647bd38df702&utm_source=openai))",
+        "ATENA launched on September 30, 2026 and is expressly designed for secure integration testing, conformity verification, and interoperability testing. This is the clearest contrary evidence against a broad standalone harness. ([cmfchile.cl](https://cmfchile.cl/portal/principal/623/w4-article-113974.html?utm_source=openai))",
+        "The framework uses phased implementation and a trial period, which may create several buying windows for targeted tooling rather than eliminate demand altogether. ([cmfchile.cl](https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html?utm_source=openai))",
+        "The official materials do not establish that ATENA replaces internal regression testing, pre-integration testing, CI/CD integration, evidence packaging, or multi-institution test orchestration. A narrow complementary product could therefore retain value, but this is an inference rather than demonstrated demand. ([cmfchile.cl](https://cmfchile.cl/portal/principal/623/w4-article-113974.html?utm_source=openai))"
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-17T00:22:36.410633+00:00",
+      "discovery_lens": "open_finance_chile",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The CMF states that its June 1, 2026 amendment to NCG 514 includes technical requirements for information exchange and payment initiation, facilitates participant incorporation, publishes the developer portal, and delays entry into force until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "The CMF developer portal provides technical documentation, specifications, examples, endpoint references and integration guidance for Chile’s Open Finance APIs.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Finanzas Abiertas CMF - Confluence",
+          "url": "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [
+        "Fatal if three qualified prospective participants—including at least one bank, payment institution, or likely SFA participant—decline to review a five-to-ten-scenario demo because ATENA or internal tooling already covers the need.",
+        "Fatal if ATENA provides automated conformance coverage, test data, consent and payment-initiation scenarios, results reporting, and integration hooks sufficient for the target customers' internal acceptance workflows.",
+        "Fatal if no participant will authorize access to a sandbox or test environment, making meaningful validation impossible.",
+        "Fatal if participants confirm that no external vendor, tool, or paid implementation support is budgeted or permitted for SFA testing.",
+        "Fatal if the CMF or participants indicate that only official CMF tooling or an approved certification process may be used for conformance evidence.",
+        "Narrow or abandon the standalone license model if customers will only pay for implementation consulting, environment setup, or custom integration.",
+        "Narrow the product to CI/CD regression testing, evidence/report generation, or a connector layer around ATENA if the sandbox handles baseline conformance but not institution-internal workflows.",
+        "Abandon or pause if the technical portal changes materially during the first pilot and the expected maintenance burden exceeds the pilot revenue."
+      ],
+      "geography": "Chile",
+      "id": "opp_9511a8b5519c4a31790e",
+      "judge_reviewed": true,
+      "judgment": "The regulatory premise is sufficiently grounded by CMF primary sources: NCG 514’s technical annex, developer documentation, and a July 2027 effective date create a credible implementation window. Public technical documentation makes an offline, specification-derived test asset technically feasible, and a narrowly positioned product need not process production financial data or act as a regulated participant. However, the proposed broad conformance harness materially overlaps with CMF’s ATENA sandbox, reportedly launched for integration, conformity, and interoperability testing. The evidence does not establish paid demand, permissible sandbox access for a vendor, acceptance of third-party testing evidence, or a defensible advantage over ATENA plus existing enterprise API-testing tools. This survives only as a tightly scoped validation hypothesis—e.g., CI/CD regression packs, evidence packaging, or ATENA-adjacent internal workflow tooling—not as a presumed standalone conformance-testing software market.",
+      "last_record_updated_at": "2026-10-25T22:18:37.172237+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Whether regulated entities must pass an external conformance or certification process and whether third-party tools are accepted as evidence.",
+        "Whether ATENA exposes sufficient automated coverage, reusable test fixtures, negative cases, payment-initiation scenarios, consent-state transitions, reporting, and CI/CD integration for institution-internal use.",
+        "Whether ATENA access is available to all prospective participants, only registered entities, or selected participants, and what credentials, onboarding, service levels, and usage restrictions apply.",
+        "The number of likely Chilean participants, their implementation budgets, procurement cycles, and willingness to buy a narrowly scoped harness.",
+        "Whether the technical annex and developer portal are stable enough to support a durable product; versioning and further amendments may create maintenance costs. ([cmfchile.cl](https://www.cmfchile.cl/portal/prensa/625/w4-article-102547.html?utm_source=openai))"
+      ],
+      "participation_path": "Use the CMF developer documentation to build a small offline harness covering a few published endpoints and consent/error cases; do not connect to production systems or represent it as CMF-certified. Then identify publicly listed Chilean banks, payment issuers, account providers and fintech applicants, send a short demonstration with a fixed-scope pilot proposal, and record whether any party agrees to a paid proof of concept or supplies an authorized test environment. Lowest-cost falsification: before building full coverage, manually implement 5-10 API scenarios from the official specifications and seek three explicit pilot conversations; abandon or narrow the offer if no qualified participant will review the demo or pay for a defined test.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Financial institutions and prospective SFA participants must convert the published API and control requirements into repeatable integration and acceptance tests. A narrowly scoped reusable test harness could reduce internal engineering and certification-preparation work, but the evidence does not establish a guaranteed procurement budget or mandated external vendor.",
+      "title": "Chile SFA conformance-test harness for API, consent and payment-initiation flows",
+      "type": "implementation_asset",
+      "unknowns": [
+        "Whether regulated entities must pass an external conformance or certification process and whether third-party tools are accepted as evidence.",
+        "Whether ATENA exposes sufficient automated coverage, reusable test fixtures, negative cases, payment-initiation scenarios, consent-state transitions, reporting, and CI/CD integration for institution-internal use.",
+        "Whether ATENA access is available to all prospective participants, only registered entities, or selected participants, and what credentials, onboarding, service levels, and usage restrictions apply.",
+        "The number of likely Chilean participants, their implementation budgets, procurement cycles, and willingness to buy a narrowly scoped harness.",
+        "Whether the technical annex and developer portal are stable enough to support a durable product; versioning and further amendments may create maintenance costs. ([cmfchile.cl](https://www.cmfchile.cl/portal/prensa/625/w4-article-102547.html?utm_source=openai))",
+        "Whether banks and fintechs already have enterprise API testing, contract-testing, identity, consent, and payment-automation infrastructure that can be adapted at lower cost.",
+        "Whether the economic buyer is compliance, engineering, architecture, payment operations, or an external system integrator.",
+        "Whether a local-language and locally mapped product creates enough advantage over generic Postman, OpenAPI, Pact, Schemathesis, Playwright, or enterprise testing tools.",
+        "Whether ATENA supports automated execution, reusable fixtures, negative/error coverage, consent-state transitions, payment-initiation flows, reporting, and CI/CD hooks at a level sufficient for internal acceptance testing.",
+        "Whether CMF rules or participant policies permit third-party tools and externally generated test evidence, versus requiring official tooling or prescribed certification processes.",
+        "Which entities are legally required or commercially likely to participate in the SFA, their implementation sequence, and their actual testing budgets.",
+        "Whether a regulated institution will grant an authorized non-production environment and pay for a fixed-scope pilot.",
+        "Who owns procurement—compliance, architecture, engineering, payments operations, or systems integrators—and whether that buyer has an urgent, unserved workflow.",
+        "Whether a narrow ATENA-complementary wedge can command pricing above support and specification-maintenance costs."
+      ],
+      "value_capture_mechanism": "Offer a locally adapted executable test pack: API contract tests, consent-state tests, error/availability cases, payment-initiation test cases, test data generators and a results dashboard mapped to the CMF technical documentation. Possible cash-flow sources are paid pilot deployments, implementation support attached to the asset, or licensing by institutions preparing for SFA participation; actual willingness to pay remains unverified.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": true,
       "discovered_at": "2026-10-13T04:13:35.306242+00:00",
@@ -6453,6 +6540,114 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-25T22:18:12.768543+00:00",
+      "discovery_lens": "remote_paid_evaluation",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Outlier’s official application page identifies a Spanish–Chile AI-training role and states competitive pay, weekly delivery, and flexible scheduling.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Outlier — Coding Expertise for AI Training (Spanish - Chile)",
+          "url": "https://app.outlier.ai/login?job_post_id=4476998005"
+        },
+        {
+          "claim": "A separate official employer listing confirms that Chile-based Spanish-language remote AI/data-evaluation work is currently being recruited, supporting the existence of this assignment category but not Outlier’s rate or acceptance terms.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Online Data Analyst - Chile",
+          "url": "https://jobs.telusdigital.com/search/cfm3/russian-spanish/cfm5/ai-community/jobs/in/country/chile?ns_category=artificial-intelligence"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.8,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_93e4ca60385e20e286ec",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-25T22:18:12.825002+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Apply only through Outlier’s official application page and do not pay deposits or access fees. During onboarding, verify the written rate, payable activity, payout method, dispute rules, contractor status, age requirement, and Chile availability. Lowest-cost falsification: submit the application using existing credentials and discontinue if the role is unavailable, the applicant is ineligible, or compensation terms are withheld until after an extensive unpaid process.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A qualified Spanish-speaking Chile-based coder may obtain paid AI-training evaluation assignments after screening, but the economic opportunity is contingent and should not be treated as present income before a contract and payable task are issued.",
+      "title": "Apply to Outlier Spanish–Chile AI-training evaluation work",
+      "type": "paid_remote_assignment",
+      "unknowns": [],
+      "value_capture_mechanism": "Weekly contractor payments for accepted AI-training tasks, if the applicant passes onboarding and receives work; exact compensation is unknown from the public application page.",
+      "verified_sales": null,
+      "vertical": "chile_localization",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-25T22:18:12.767515+00:00",
+      "discovery_lens": "remote_paid_evaluation",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "TELUS Digital’s official jobs page lists one remote, part-time Online Data Analyst role in Chile with Spanish-language classification.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Online Data Analyst - Chile",
+          "url": "https://jobs.telusdigital.com/search/cfm3/russian-spanish/cfm5/ai-community/jobs/in/country/chile?ns_category=artificial-intelligence"
+        },
+        {
+          "claim": "Chile’s SII explains current tax treatment for certain remote purchases and registered platforms; this does not verify TELUS compensation, so payment and tax conditions must be confirmed in the employer contract.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "IVA Bienes | Plataformas Inscritas",
+          "url": "https://www.sii.cl/destacados/iva_bienes/plataformas_inscritas/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_78e3949cb81b530dd931",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-25T22:18:12.824739+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Apply through TELUS Digital’s official Chile job page without paying any fee. Before investing substantial time, capture the full application terms and ask support or the contract portal to confirm rate basis, minimum task availability, payout method, tax treatment, age eligibility, and whether Chile residence is sufficient. Lowest-cost falsification: complete the application and stop if the role is closed, Chile eligibility is rejected, or compensation/payment terms are not disclosed before acceptance.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A Chile-based applicant may be able to earn contractor income by completing data-quality or search-relevance evaluation work, subject to screening and available task volume. Application is not evidence of income.",
+      "title": "Apply to TELUS Digital Online Data Analyst — Chile",
+      "type": "paid_remote_assignment",
+      "unknowns": [],
+      "value_capture_mechanism": "Hourly or task-based contractor payments from TELUS Digital, if the applicant passes screening and receives assignments; exact rate and payment conditions remain unverified.",
+      "verified_sales": null,
+      "vertical": "chile_localization",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-19T20:24:26.256728+00:00",
       "discovery_lens": "mining_materials",
       "estimated_capital": "",
@@ -7093,60 +7288,6 @@
       "value_capture_mechanism": "Sell a narrowly defined downloadable screening pack or per-project analysis containing plant-level curtailment history, hourly concentration, downloadable data, and a transparent methodology. Any recurring price, buyer conversion, or project revenue remains unverified.",
       "verified_sales": null,
       "vertical": "energy_infrastructure",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
-      "discovered_at": "2026-10-17T00:22:36.410633+00:00",
-      "discovery_lens": "open_finance_chile",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "The CMF states that its June 1, 2026 amendment to NCG 514 includes technical requirements for information exchange and payment initiation, facilitates participant incorporation, publishes the developer portal, and delays entry into force until July 2027.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
-          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
-        },
-        {
-          "claim": "The CMF developer portal provides technical documentation, specifications, examples, endpoint references and integration guidance for Chile’s Open Finance APIs.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Finanzas Abiertas CMF - Confluence",
-          "url": "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.92,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_9511a8b5519c4a31790e",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-17T00:22:36.437911+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Use the CMF developer documentation to build a small offline harness covering a few published endpoints and consent/error cases; do not connect to production systems or represent it as CMF-certified. Then identify publicly listed Chilean banks, payment issuers, account providers and fintech applicants, send a short demonstration with a fixed-scope pilot proposal, and record whether any party agrees to a paid proof of concept or supplies an authorized test environment. Lowest-cost falsification: before building full coverage, manually implement 5-10 API scenarios from the official specifications and seek three explicit pilot conversations; abandon or narrow the offer if no qualified participant will review the demo or pay for a defined test.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "Financial institutions and prospective SFA participants must convert the published API and control requirements into repeatable integration and acceptance tests. A narrowly scoped reusable test harness could reduce internal engineering and certification-preparation work, but the evidence does not establish a guaranteed procurement budget or mandated external vendor.",
-      "title": "Chile SFA conformance-test harness for API, consent and payment-initiation flows",
-      "type": "implementation_asset",
-      "unknowns": [],
-      "value_capture_mechanism": "Offer a locally adapted executable test pack: API contract tests, consent-state tests, error/availability cases, payment-initiation test cases, test data generators and a results dashboard mapped to the CMF technical documentation. Possible cash-flow sources are paid pilot deployments, implementation support attached to the asset, or licensing by institutions preparing for SFA participation; actual willingness to pay remains unverified.",
-      "verified_sales": null,
-      "vertical": "open_finance_chile",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -9260,13 +9401,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-25T18:44:24.570945+00:00",
+  "generated_at": "2026-10-25T22:18:37.805908+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 71,
-  "reviewed_cards": 62,
+  "reviewed_cards": 63,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 202,
-  "watch": 131
+  "total_distinct_opportunities": 204,
+  "watch": 133
 }

@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-25T18:44:24.570945+00:00
+Generated: 2026-10-25T22:18:37.805908+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 131 (0 HQ survivors, 131 watches)
+- Active research: 133 (0 HQ survivors, 133 watches)
 - Rejected opportunities excluded: 71
-- Critic-and-judge reviewed: 62
+- Critic-and-judge reviewed: 63
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -292,6 +292,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: The number of entities that will actually need external conformance tooling, rather than using ATENA, internal engineering, vendors, or consultants.; Whether ATENA provides equivalent automated endpoint, consent, security, and evidence-reporting functionality or only a basic testing environment.; Whether CMF will require a formally accredited or recognized certification artifact, which could make an independent report commercially insufficient.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.atlassian.net/wiki/spaces/OFAC/pages/267649439/API%2BCuentas%2BOpen%2BFinance%2BChile%2Bv1.0.0
+
+### Chile SFA conformance-test harness for API, consent and payment-initiation flows [opp_9511a8b5519c4a31790e]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Financial institutions and prospective SFA participants must convert the published API and control requirements into repeatable integration and acceptance tests. A narrowly scoped reusable test harness could reduce internal engineering and certification-preparation work, but the evidence does not establish a guaranteed procurement budget or mandated external vendor.
+- Value capture: Offer a locally adapted executable test pack: API contract tests, consent-state tests, error/availability cases, payment-initiation test cases, test data generators and a results dashboard mapped to the CMF technical documentation. Possible cash-flow sources are paid pilot deployments, implementation support attached to the asset, or licensing by institutions preparing for SFA participation; actual willingness to pay remains unverified.
+- Participation hypothesis: Use the CMF developer documentation to build a small offline harness covering a few published endpoints and consent/error cases; do not connect to production systems or represent it as CMF-certified. Then identify publicly listed Chilean banks, payment issuers, account providers and fintech applicants, send a short demonstration with a fixed-scope pilot proposal, and record whether any party agrees to a paid proof of concept or supplies an authorized test environment. Lowest-cost falsification: before building full coverage, manually implement
+- Critic/judge: The regulatory premise is sufficiently grounded by CMF primary sources: NCG 514’s technical annex, developer documentation, and a July 2027 effective date create a credible implementation window. Public technical documentation makes an offline, specification-derived test asset technically feasible, and a narrowly positioned product need not process production financial data or act as a regulated participant. However, the proposed broad
+- Next evidence gaps: Whether regulated entities must pass an external conformance or certification process and whether third-party tools are accepted as evidence.; Whether ATENA exposes sufficient automated coverage, reusable test fixtures, negative cases, payment-initiation scenarios, consent-state transitions, reporting, and; Whether ATENA access is available to all prospective participants, only registered entities, or selected participants, and what credentials, onboarding, service leve
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812
 
 ### Chile SFA conformance-testing wedge ahead of the July 2027 implementation date [opp_20f82e47fa9080b32bd2]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -803,6 +813,26 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://app.outlier.ai/opportunities/4522871005; https://outlier.ai/faq
 
+### Apply to Outlier Spanish–Chile AI-training evaluation work [opp_93e4ca60385e20e286ec]
+- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
+- Thesis: A qualified Spanish-speaking Chile-based coder may obtain paid AI-training evaluation assignments after screening, but the economic opportunity is contingent and should not be treated as present income before a contract and payable task are issued.
+- Value capture: Weekly contractor payments for accepted AI-training tasks, if the applicant passes onboarding and receives work; exact compensation is unknown from the public application page.
+- Participation hypothesis: Apply only through Outlier’s official application page and do not pay deposits or access fees. During onboarding, verify the written rate, payable activity, payout method, dispute rules, contractor status, age requirement, and Chile availability. Lowest-cost falsification: submit the application using existing credentials and discontinue if the role is unavailable, the applicant is ineligible, or compensation terms are withheld until after an extensive unpaid process.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://app.outlier.ai/login?job_post_id=4476998005; https://jobs.telusdigital.com/search/cfm3/russian-spanish/cfm5/ai-community/jobs/in/country/chile?ns_category=artificial-intelligence
+
+### Apply to TELUS Digital Online Data Analyst — Chile [opp_78e3949cb81b530dd931]
+- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
+- Thesis: A Chile-based applicant may be able to earn contractor income by completing data-quality or search-relevance evaluation work, subject to screening and available task volume. Application is not evidence of income.
+- Value capture: Hourly or task-based contractor payments from TELUS Digital, if the applicant passes screening and receives assignments; exact rate and payment conditions remain unverified.
+- Participation hypothesis: Apply through TELUS Digital’s official Chile job page without paying any fee. Before investing substantial time, capture the full application terms and ask support or the contract portal to confirm rate basis, minimum task availability, payout method, tax treatment, age eligibility, and whether Chile residence is sufficient. Lowest-cost falsification: complete the application and stop if the role is closed, Chile eligibility is rejected, or compensation/payment terms are not disclosed before acceptance.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://jobs.telusdigital.com/search/cfm3/russian-spanish/cfm5/ai-community/jobs/in/country/chile?ns_category=artificial-intelligence; https://www.sii.cl/destacados/iva_bienes/plataformas_inscritas/
+
 ### BESS procurement evidence pack focused on supply-chain and grid-support requirements [opp_821fe989c63ca8db797f]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States
 - Thesis: BESS projects require more than a battery quote: procurement teams must evaluate technical specifications, interconnection requirements, component provenance, cybersecurity or supply-chain exposure, and mitigation evidence. A standardized evidence pack could reduce repeated bid-comparison work, but the existence of a paying market remains to be tested.
@@ -922,16 +952,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://zenodo.org/records/21652187; https://doi.org/10.3390/en19020334
-
-### Chile SFA conformance-test harness for API, consent and payment-initiation flows [opp_9511a8b5519c4a31790e]
-- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
-- Thesis: Financial institutions and prospective SFA participants must convert the published API and control requirements into repeatable integration and acceptance tests. A narrowly scoped reusable test harness could reduce internal engineering and certification-preparation work, but the evidence does not establish a guaranteed procurement budget or mandated external vendor.
-- Value capture: Offer a locally adapted executable test pack: API contract tests, consent-state tests, error/availability cases, payment-initiation test cases, test data generators and a results dashboard mapped to the CMF technical documentation. Possible cash-flow sources are paid pilot deployments, implementation support attached to the asset, or licensing by institutions preparing for SFA participation; actual willingness to pay remains unverified.
-- Participation hypothesis: Use the CMF developer documentation to build a small offline harness covering a few published endpoints and consent/error cases; do not connect to production systems or represent it as CMF-certified. Then identify publicly listed Chilean banks, payment issuers, account providers and fintech applicants, send a short demonstration with a fixed-scope pilot proposal, and record whether any party agrees to a paid proof of concept or supplies an authorized test environment. Lowest-cost falsification: before building full coverage, manually implement
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812
 
 ### Chile SFA developer-conformance test harness before July 2027 implementation [opp_32e5affc69f7f526e7c4]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile

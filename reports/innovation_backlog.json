@@ -81,6 +81,78 @@
       "category": "chile_localization",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Apply only through Outlier’s official application page and do not pay deposits or access fees. During onboarding, verify the written rate, payable activity, payout method, dispute rules, contractor status, age requirement, and Chile availability. Lowest-cost falsification: submit the application using existing credentials and discontinue if the role is unavailable, the applicant is ineligible, or compensation terms are withheld until after an extensive unpaid process.",
+      "current_thesis": "A qualified Spanish-speaking Chile-based coder may obtain paid AI-training evaluation assignments after screening, but the economic opportunity is contingent and should not be treated as present income before a contract and payable task are issued.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Apply to Outlier Spanish–Chile AI-training evaluation work",
+      "opportunity_id": "opp_93e4ca60385e20e286ec",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Find the smallest Chilean workflow whose economics differ from the original geography.",
+        "Secure lawful access, partners and after-sales support rather than copy protected technology.",
+        "Run a buyer interview or mock listing to falsify assumptions before capital commitment."
+      ],
+      "supporting_source_urls": [
+        "https://app.outlier.ai/login?job_post_id=4476998005",
+        "https://jobs.telusdigital.com/search/cfm3/russian-spanish/cfm5/ai-community/jobs/in/country/chile?ns_category=artificial-intelligence"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Weekly contractor payments for accepted AI-training tasks, if the applicant passes onboarding and receives work; exact compensation is unknown from the public application page.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "chile_localization",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Apply through TELUS Digital’s official Chile job page without paying any fee. Before investing substantial time, capture the full application terms and ask support or the contract portal to confirm rate basis, minimum task availability, payout method, tax treatment, age eligibility, and whether Chile residence is sufficient. Lowest-cost falsification: complete the application and stop if the role is closed, Chile eligibility is rejected, or compensation/payment terms are not disclosed before acceptance.",
+      "current_thesis": "A Chile-based applicant may be able to earn contractor income by completing data-quality or search-relevance evaluation work, subject to screening and available task volume. Application is not evidence of income.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Apply to TELUS Digital Online Data Analyst — Chile",
+      "opportunity_id": "opp_78e3949cb81b530dd931",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Find the smallest Chilean workflow whose economics differ from the original geography.",
+        "Secure lawful access, partners and after-sales support rather than copy protected technology.",
+        "Run a buyer interview or mock listing to falsify assumptions before capital commitment."
+      ],
+      "supporting_source_urls": [
+        "https://jobs.telusdigital.com/search/cfm3/russian-spanish/cfm5/ai-community/jobs/in/country/chile?ns_category=artificial-intelligence",
+        "https://www.sii.cl/destacados/iva_bienes/plataformas_inscritas/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Hourly or task-based contractor payments from TELUS Digital, if the applicant passes screening and receives assignments; exact rate and payment conditions remain unverified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "chile_localization",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Apply through CrowdGen’s official Lever page, confirming current Chile residence and native Chilean Spanish status. Before recording all units, verify the project account, acceptance criteria and payout conditions. Lowest-cost falsification: apply, complete any qualification sample, and calculate actual minutes per accepted sentence; proceed only if the effective rate and payout terms are acceptable. No fee or deposit is indicated in the listing.",
       "current_thesis": "This is a narrowly defined, low-complexity data-collection assignment with a verifiable piece-rate mechanism. At the listed rate, 400 completed units would imply USD 12 gross before any applicable taxes or payment constraints, but completion time and acceptance are unknown; therefore it is a small paid test rather than a reliable income source.",
       "founder_hours_initial_unverified_estimate": "",
@@ -2631,9 +2703,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "Chile",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "Whether regulated entities must pass an external conformance or certification process and whether third-party tools are accepted as evidence.",
+        "Whether ATENA exposes sufficient automated coverage, reusable test fixtures, negative cases, payment-initiation scenarios, consent-state transitions, reporting, and CI/CD integration for institution-internal use.",
+        "Whether ATENA access is available to all prospective participants, only registered entities, or selected participants, and what credentials, onboarding, service levels, and usage restrictions apply.",
+        "The number of likely Chilean participants, their implementation budgets, procurement cycles, and willingness to buy a narrowly scoped harness.",
+        "Whether the technical annex and developer portal are stable enough to support a durable product; versioning and further amendments may create maintenance costs. ([cmfchile.cl](https://www.cmfchile.cl/portal/prensa/625/w4-article-102547.html?utm_source=openai))",
+        "Whether banks and fintechs already have enterprise API testing, contract-testing, identity, consent, and payment-automation infrastructure that can be adapted at lower cost.",
+        "Whether the economic buyer is compliance, engineering, architecture, payment operations, or an external system integrator."
       ],
       "investment_authorized": false,
       "name": "Chile SFA conformance-test harness for API, consent and payment-initiation flows",
@@ -4993,7 +5069,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-25T18:44:24.665045+00:00",
+  "generated_at": "2026-10-25T22:18:37.906961+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"
