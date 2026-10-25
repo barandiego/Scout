@@ -1,6 +1,27 @@
 {
-  "active_candidates": [],
-  "active_structurally_reconstructable_count": 0,
+  "active_candidates": [
+    {
+      "available_budget_clp": 2400000.0,
+      "buyer": "HOSPITAL PUERTO MONTT SERVICIO DE SALUD DEL RELONCAVI",
+      "closes_at": "2026-10-27T09:47:00",
+      "code": "1057539-4693-COT26",
+      "estimated_budget": 2400000.0,
+      "name": "VENTANA RED ISH DIG DETECTION KIT y  BENCHMARK SPECIAL STAINS CLEANING KIT",
+      "products": 2,
+      "region": "Región de los Lagos"
+    },
+    {
+      "available_budget_clp": 345000.0,
+      "buyer": "I MUNICIPALIDAD DE COCHRANE",
+      "closes_at": "2026-10-27T09:59:00",
+      "code": "3797-493-COT26",
+      "estimated_budget": 345000.0,
+      "name": "MATERIAL DIDACTICO PRLAC",
+      "products": 1,
+      "region": "Región Aysén del General Carlos Ibáñez del Campo"
+    }
+  ],
+  "active_structurally_reconstructable_count": 2,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -18,7 +39,7 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-10-25T04:55:53Z",
+  "generated_at": "2026-10-25T13:14:38Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -26,16 +47,16 @@
   "phase1": {
     "records": 20,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 5
+      "no_observable_competitive_prices": 15
     },
-    "resolved": 20,
-    "structurally_reconstructable": 15,
-    "with_observable_quote_totals": 15,
-    "with_purchase_order_indicator": 1
+    "resolved": 18,
+    "structurally_reconstructable": 5,
+    "with_observable_quote_totals": 3,
+    "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-25T04:55:53Z"
+    "changed_to": "2026-10-25T13:14:38Z"
   }
 }
