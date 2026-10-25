@@ -676,6 +676,18 @@ Candidates: 131
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html
 
+## Chile Open Finance conformance-test harness for early sandbox participants
+- Status: watch | open_finance_chile
+- Current idea: Institutions preparing for participation will need repeatable integration, regression, and evidence-generation workflows rather than one-off manual testing. A narrowly scoped software asset could reduce repeated compliance-testing effort across multiple implementations.
+- Potential economic capture: A subscription or fixed-fee license for a reusable test harness covering API conformance, directory registration, version-diff detection, request/response logging, and exportable test evidence. The evidence does not establish a market price, procurement commitment, or willingness to pay.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://cmfchile.cl/portal/principal/623/w4-article-113974.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html
+
 ## Chile Open Finance conformance-test harness for fintech/API teams
 - Status: watch | open_finance_chile
 - Current idea: A reusable local test harness could reduce integration and certification risk before mandatory participation begins. The opportunity is time-bounded by the July 2027 implementation milestone, but demand and willingness to pay are not yet verified.
@@ -1383,18 +1395,6 @@ Candidates: 131
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.sec.gov/files/cft-written-wall-street-blockchain-august-2026.pdf; https://www.sec.gov/newsroom/speeches-statements/uyeda-remarks-asset-management-derivatives-forum-020926
-
-## Tokenized-securities operational adapter for DTC Participants
-- Status: watch | public_markets
-- Current idea: DTC Participants and their service providers will need operational controls that reconcile traditional positions, tokenized entitlements, wallet movements and corporate-action records. This is a concrete integration problem, not proof of a broad tokenization market.
-- Potential economic capture: A narrow reconciliation-control asset: a software connector or auditable workbook that compares DTC position files, token-transfer events and internal books, flags unmatched mint/burn/transfer events, and generates exception evidence. The likely cash-flow source is implementation or recurring control-monitoring work for firms preparing for the service; no buyer, price or permission is presumed.
-- **Research routes to test (NOT validated claims):**
-  - Find overlooked fundamentals and a named accessible security with dated primary filings.
-  - Compare risked intrinsic value, market expectations and specific downside scenarios.
-  - Define catalysts and invalidation thresholds before any governed investment decision.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://www.dtcc.com/products-and-services/digital-assets/tokenization/hub; https://www.dtcc.com/products-and-services/digital-assets/tokenization/live-production-trades
 
 ## Application-specific cobot and machine-vision retrofit assessment for Chilean agroprocessors
 - Status: watch | robotics_agritech

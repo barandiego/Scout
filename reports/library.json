@@ -6831,6 +6831,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-25T15:33:47.778670+00:00",
+      "discovery_lens": "asset_ownership",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF states that ATENA enables institutions to test integrations, interoperability with the Directory of Participants, and preparation for technical compliance before the Open Finance System enters into force in July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF launches ATENA Technological Sandbox for the implementation of the Open Finance System",
+          "url": "https://cmfchile.cl/portal/principal/623/w4-article-113974.html"
+        },
+        {
+          "claim": "CMF describes the 2026 amendment to General Rule No. 514 and incorporation of the technical annex governing implementation of Chile’s Open Finance System.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.88,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_2eab3c54ff3018b1187b",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-25T15:33:47.835282+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Build a minimal local harness against publicly available ATENA/Open Finance technical specifications and test it with one consenting fintech, bank, or technology provider. Falsify cheaply by asking five prospective participants whether they can run the test suite without procurement approval and whether at least one would pay for a pilot; stop if the specifications are inaccessible, sandbox access is unavailable, or no participant identifies a recurring testing burden. Do not represent the tool as CMF-approved or use production financial data without authorization.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Institutions preparing for participation will need repeatable integration, regression, and evidence-generation workflows rather than one-off manual testing. A narrowly scoped software asset could reduce repeated compliance-testing effort across multiple implementations.",
+      "title": "Chile Open Finance conformance-test harness for early sandbox participants",
+      "type": "reusable_software_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "A subscription or fixed-fee license for a reusable test harness covering API conformance, directory registration, version-diff detection, request/response logging, and exportable test evidence. The evidence does not establish a market price, procurement commitment, or willingness to pay.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-23T22:53:50.528660+00:00",
       "discovery_lens": "asset_ownership",
       "estimated_capital": "",
@@ -9153,60 +9207,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-16T20:18:25.723823+00:00",
-      "discovery_lens": "tokenization_finance",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "DTCC says its Tokenization Service is expected to launch in the fourth quarter of 2026, is limited to eligible DTC Participants and clients, and will support selected securities, wallet registration, token minting and burning, and token transfers.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "DTCC Tokenization Hub",
-          "url": "https://www.dtcc.com/products-and-services/digital-assets/tokenization/hub"
-        },
-        {
-          "claim": "DTCC reports live production transactions involving tokenized DTC-custodied Treasury and equity assets and says the expected service launch is October 2026.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Tokenization Becomes a Reality",
-          "url": "https://www.dtcc.com/products-and-services/digital-assets/tokenization/live-production-trades"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.88,
-      "falsification_conditions": [],
-      "geography": "United States",
-      "id": "opp_711ad4fbffe9d21b5212",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-16T20:18:25.754369+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Build a local-only prototype using synthetic positions and publicly documented DTCC workflows. Demonstrate reconciliation across one Treasury security and one equity-token transfer, including mint, burn, wallet and corporate-action exceptions. Approach DTC Participants, custodians, transfer agents or back-office vendors only after the prototype is complete; seek a paid discovery or sandbox review rather than assuming production access. Falsify by testing whether three relevant firms will review the synthetic workflow and identify an actual unresolved control gap; stop if the workflow requires restricted DTC data or if existing vendor products already cover it at no incremental need.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "DTC Participants and their service providers will need operational controls that reconcile traditional positions, tokenized entitlements, wallet movements and corporate-action records. This is a concrete integration problem, not proof of a broad tokenization market.",
-      "title": "Tokenized-securities operational adapter for DTC Participants",
-      "type": "infrastructure_adapter",
-      "unknowns": [],
-      "value_capture_mechanism": "A narrow reconciliation-control asset: a software connector or auditable workbook that compares DTC position files, token-transfer events and internal books, flags unmatched mint/burn/transfer events, and generates exception evidence. The likely cash-flow source is implementation or recurring control-monitoring work for firms preparing for the service; no buyer, price or permission is presumed.",
-      "verified_sales": null,
-      "vertical": "public_markets",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-20T04:23:55.304942+00:00",
       "discovery_lens": "underserved_buyers",
       "estimated_capital": "",
@@ -9260,13 +9260,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-25T08:57:44.870562+00:00",
+  "generated_at": "2026-10-25T15:34:03.345482+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 68,
+  "rejected_excluded": 70,
   "reviewed_cards": 62,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 199,
+  "total_distinct_opportunities": 201,
   "watch": 131
 }

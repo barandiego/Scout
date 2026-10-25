@@ -2120,6 +2120,42 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Build a minimal local harness against publicly available ATENA/Open Finance technical specifications and test it with one consenting fintech, bank, or technology provider. Falsify cheaply by asking five prospective participants whether they can run the test suite without procurement approval and whether at least one would pay for a pilot; stop if the specifications are inaccessible, sandbox access is unavailable, or no participant identifies a recurring testing burden. Do not represent the tool as CMF-approved or use production financial data without authorization.",
+      "current_thesis": "Institutions preparing for participation will need repeatable integration, regression, and evidence-generation workflows rather than one-off manual testing. A narrowly scoped software asset could reduce repeated compliance-testing effort across multiple implementations.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile Open Finance conformance-test harness for early sandbox participants",
+      "opportunity_id": "opp_2eab3c54ff3018b1187b",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A subscription or fixed-fee license for a reusable test harness covering API conformance, directory registration, version-diff detection, request/response logging, and exportable test evidence. The evidence does not establish a market price, procurement commitment, or willingness to pay.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Build a narrow prototype from the CMF technical annex and developer-portal specifications. Publish a demo validator for one information-sharing flow, then contact entities listed or expected to participate through the CMF ecosystem and ask for a paid pilot or written commitment before expanding. Lowest-cost falsification: implement 10-20 conformance checks and request three paid pilot quotes or deposits; stop if prospects will only provide informal interest or require permissions/data unavailable to the operator.",
       "current_thesis": "A reusable local test harness could reduce integration and certification risk before mandatory participation begins. The opportunity is time-bounded by the July 2027 implementation milestone, but demand and willingness to pay are not yet verified.",
       "founder_hours_initial_unverified_estimate": "",
@@ -4396,42 +4432,6 @@
     },
     {
       "capital_required_unverified_estimate": "",
-      "category": "public_markets",
-      "commercially_validated": false,
-      "competition_confirmed": false,
-      "current_participation_path": "Build a local-only prototype using synthetic positions and publicly documented DTCC workflows. Demonstrate reconciliation across one Treasury security and one equity-token transfer, including mint, burn, wallet and corporate-action exceptions. Approach DTC Participants, custodians, transfer agents or back-office vendors only after the prototype is complete; seek a paid discovery or sandbox review rather than assuming production access. Falsify by testing whether three relevant firms will review the synthetic workflow and identify an actual unresolved control gap; stop if the workflow requires restricted DTC data or if existing vendor products already cover it at no incremental need.",
-      "current_thesis": "DTC Participants and their service providers will need operational controls that reconcile traditional positions, tokenized entitlements, wallet movements and corporate-action records. This is a concrete integration problem, not proof of a broad tokenization market.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "United States",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "Tokenized-securities operational adapter for DTC Participants",
-      "opportunity_id": "opp_711ad4fbffe9d21b5212",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Find overlooked fundamentals and a named accessible security with dated primary filings.",
-        "Compare risked intrinsic value, market expectations and specific downside scenarios.",
-        "Define catalysts and invalidation thresholds before any governed investment decision."
-      ],
-      "supporting_source_urls": [
-        "https://www.dtcc.com/products-and-services/digital-assets/tokenization/hub",
-        "https://www.dtcc.com/products-and-services/digital-assets/tokenization/live-production-trades"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "A narrow reconciliation-control asset: a software connector or auditable workbook that compares DTC position files, token-transfer events and internal books, flags unmatched mint/burn/transfer events, and generates exception evidence. The likely cash-flow source is implementation or recurring control-monitoring work for firms preparing for the service; no buyer, price or permission is presumed.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
       "category": "robotics_agritech",
       "commercially_validated": false,
       "competition_confirmed": false,
@@ -4993,7 +4993,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-25T08:57:44.973969+00:00",
+  "generated_at": "2026-10-25T15:34:03.449200+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

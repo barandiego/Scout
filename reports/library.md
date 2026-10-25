@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-25T08:57:44.870562+00:00
+Generated: 2026-10-25T15:34:03.345482+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
 - Active research: 131 (0 HQ survivors, 131 watches)
-- Rejected opportunities excluded: 68
+- Rejected opportunities excluded: 70
 - Critic-and-judge reviewed: 62
 - Autonomous execution authorization: 0
 
@@ -873,6 +873,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/normativa/ncg_569_2026.pdf
 
+### Chile Open Finance conformance-test harness for early sandbox participants [opp_2eab3c54ff3018b1187b]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Institutions preparing for participation will need repeatable integration, regression, and evidence-generation workflows rather than one-off manual testing. A narrowly scoped software asset could reduce repeated compliance-testing effort across multiple implementations.
+- Value capture: A subscription or fixed-fee license for a reusable test harness covering API conformance, directory registration, version-diff detection, request/response logging, and exportable test evidence. The evidence does not establish a market price, procurement commitment, or willingness to pay.
+- Participation hypothesis: Build a minimal local harness against publicly available ATENA/Open Finance technical specifications and test it with one consenting fintech, bank, or technology provider. Falsify cheaply by asking five prospective participants whether they can run the test suite without procurement approval and whether at least one would pay for a pilot; stop if the specifications are inaccessible, sandbox access is unavailable, or no participant identifies a recurring testing burden. Do not represent the tool as CMF-approved or use production financial data w
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://cmfchile.cl/portal/principal/623/w4-article-113974.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html
+
 ### Chile Open Finance conformance-test harness for fintech/API teams [opp_cc801200847ba7165b70]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: A reusable local test harness could reduce integration and certification risk before mandatory participation begins. The opportunity is time-bounded by the July 2027 implementation milestone, but demand and willingness to pay are not yet verified.
@@ -1302,16 +1312,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sec.gov/files/cft-written-wall-street-blockchain-august-2026.pdf; https://www.sec.gov/newsroom/speeches-statements/uyeda-remarks-asset-management-derivatives-forum-020926
-
-### Tokenized-securities operational adapter for DTC Participants [opp_711ad4fbffe9d21b5212]
-- Status: WATCH_REQUIRES_VALIDATION | public_markets | United States
-- Thesis: DTC Participants and their service providers will need operational controls that reconcile traditional positions, tokenized entitlements, wallet movements and corporate-action records. This is a concrete integration problem, not proof of a broad tokenization market.
-- Value capture: A narrow reconciliation-control asset: a software connector or auditable workbook that compares DTC position files, token-transfer events and internal books, flags unmatched mint/burn/transfer events, and generates exception evidence. The likely cash-flow source is implementation or recurring control-monitoring work for firms preparing for the service; no buyer, price or permission is presumed.
-- Participation hypothesis: Build a local-only prototype using synthetic positions and publicly documented DTCC workflows. Demonstrate reconciliation across one Treasury security and one equity-token transfer, including mint, burn, wallet and corporate-action exceptions. Approach DTC Participants, custodians, transfer agents or back-office vendors only after the prototype is complete; seek a paid discovery or sandbox review rather than assuming production access. Falsify by testing whether three relevant firms will review the synthetic workflow and identify an actual unre
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.dtcc.com/products-and-services/digital-assets/tokenization/hub; https://www.dtcc.com/products-and-services/digital-assets/tokenization/live-production-trades
 
 ### Warehouse-cleaning robot pilot sold as an operating expense [opp_8c16fed4c2cf73d19319]
 - Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile
