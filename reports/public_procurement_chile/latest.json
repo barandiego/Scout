@@ -1,27 +1,37 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 2400000.0,
-      "buyer": "HOSPITAL PUERTO MONTT SERVICIO DE SALUD DEL RELONCAVI",
-      "closes_at": "2026-10-27T09:47:00",
-      "code": "1057539-4693-COT26",
-      "estimated_budget": 2400000.0,
-      "name": "VENTANA RED ISH DIG DETECTION KIT y  BENCHMARK SPECIAL STAINS CLEANING KIT",
-      "products": 2,
-      "region": "Región de los Lagos"
+      "available_budget_clp": 1000000.0,
+      "buyer": "I. Municipalidad Sagrada Familia",
+      "closes_at": "2026-10-26T16:15:00",
+      "code": "4134-695-COT26",
+      "estimated_budget": 1000000.0,
+      "name": "SERVICIO DE ENCARPADO PARA INAUGURACIÓN DE TEMPORADA DE RIEGO 2027 CON VISITA PROTOCOLAR DE MINISTRO DE AGRICULTURA",
+      "products": 1,
+      "region": "Región del Maule"
     },
     {
-      "available_budget_clp": 345000.0,
-      "buyer": "I MUNICIPALIDAD DE COCHRANE",
-      "closes_at": "2026-10-27T09:59:00",
-      "code": "3797-493-COT26",
-      "estimated_budget": 345000.0,
-      "name": "MATERIAL DIDACTICO PRLAC",
+      "available_budget_clp": 200000.0,
+      "buyer": "CORP MUNICIPAL DE SERVICIOS PUBLICOS TRASPASADOS DE RANCAGUA",
+      "closes_at": "2026-10-27T18:16:00",
+      "code": "557639-3291-COT26",
+      "estimated_budget": 200000.0,
+      "name": "PACK ALIMENTACIÓN - COL EDUARDO DE GEYTER",
       "products": 1,
-      "region": "Región Aysén del General Carlos Ibáñez del Campo"
+      "region": "Región del Libertador General Bernardo O´Higgins"
+    },
+    {
+      "available_budget_clp": 40000.0,
+      "buyer": "I MUNICIPALIDAD DE CONCHALI",
+      "closes_at": "2026-10-27T15:00:00",
+      "code": "2296-652-COT26",
+      "estimated_budget": 40000.0,
+      "name": "ADQUISICIÓN DE 4 CABLES USB (3 PIES PARA CAMARA NIKON COOLPIX B500) | TRÁNSITO",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
     }
   ],
-  "active_structurally_reconstructable_count": 2,
+  "active_structurally_reconstructable_count": 3,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -39,7 +49,7 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-10-25T13:14:38Z",
+  "generated_at": "2026-10-25T19:07:01Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -47,16 +57,16 @@
   "phase1": {
     "records": 20,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 15
+      "no_observable_competitive_prices": 8
     },
-    "resolved": 18,
-    "structurally_reconstructable": 5,
-    "with_observable_quote_totals": 3,
+    "resolved": 17,
+    "structurally_reconstructable": 12,
+    "with_observable_quote_totals": 9,
     "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-25T13:14:38Z"
+    "changed_to": "2026-10-25T19:07:01Z"
   }
 }
