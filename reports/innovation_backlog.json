@@ -992,42 +992,6 @@
       "category": "energy_infrastructure",
       "commercially_validated": false,
       "competition_confirmed": false,
-      "current_participation_path": "Use NYISO’s public DER participation FAQ and market-project documents to create a checklist and spreadsheet prototype. Select one local segment such as small warehouses with batteries or refrigeration loads. Contact existing NYISO market participants or DER aggregators listed in public market-participant materials and ask whether they will review five anonymized asset records. Falsify cheaply by attempting to produce a complete qualification pack from public information for five facilities; stop if required data cannot be obtained without utility, owner or aggregator permissions, or if aggregators already provide the same function internally.",
-      "current_thesis": "Small commercial batteries, generators and flexible loads may have an additional wholesale-market participation route, but enrollment friction creates a narrow operational-data and qualification problem before any market revenue is realized.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "New York, United States",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "NYISO DER enrollment and telemetry wedge for 10–100 kW commercial assets",
-      "opportunity_id": "opp_94b1dcc19f8cc9f335ef",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
-        "Compare owned asset, installer/distributor and project-finance participation.",
-        "Verify permits and installed net payback under conservative power price scenarios."
-      ],
-      "supporting_source_urls": [
-        "https://www.nyiso.com/documents/20142/49802416/DER-and-Aggregation-Participation-Model-FAQ.pdf/967117fb-8bbb-1916-651a-0f9dbe904780",
-        "https://www.nyiso.com/documents/20142/51465900/03a%20BPWG%202025-05-19%20Market%20Project%20Descriptions.pdf/7ae79489-5cd8-5715-200f-227204dad4a4"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "A fixed-scope asset qualification and telemetry-readiness package: inventory eligible sites, map each resource to NYISO requirements, identify missing interval-meter or telemetry data, and produce an aggregator-ready data room. The economic mechanism is payment for reducing enrollment and implementation labor; no wholesale revenue or customer savings is assumed.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "energy_infrastructure",
-      "commercially_validated": false,
-      "competition_confirmed": false,
       "current_participation_path": "Build a spreadsheet or lightweight web tool using publicly available CEN PMGD, transmission-congestion, market-price and connection-rule data. Select 10 identifiable PMGD or prospective-project cases from public records, produce one-page no-cost screening outputs, and ask project owners, developers or electrical engineering firms whether the report changes a live battery or interconnection decision. Falsification threshold: stop if at least 5 of 10 relevant contacts cannot validate a current decision need, or if none will pay for a paid pilot at a price agreed before delivery. Do not install equipment, claim grid permissions, or represent dispatch revenue without project-specific validation.",
       "current_thesis": "A PMGD owner or developer may need a low-cost way to screen whether adding a battery can reduce restricted-hour exposure, improve dispatchability, or avoid pursuing a connection configuration that is operationally constrained. The evidence supports a congestion-screening problem, but does not establish that any particular project will be profitable.",
       "founder_hours_initial_unverified_estimate": "",
@@ -2694,6 +2658,43 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "A paid, fixed-scope conformance pack: API/schema validation, certificate and signature checks, consent-flow test cases, payment-initiation test cases where applicable, and an exportable evidence report for an institution's internal implementation team. The economic mechanism is payment for reduced engineering and compliance-validation effort; no public evidence establishes a standard price, procurement commitment, or guaranteed buyer.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Build a local prototype against the public NCG 514 requirements and any CMF technical materials currently available; implement only non-sensitive mock data and consent flows. Contact publicly listed Chilean fintechs, payment providers, banks or industry associations to request five short discovery interviews, explicitly asking which SFA interface or consent tests they must evidence and whether they would pay for a sandbox validation run. Falsify the opportunity if at least two likely participants cannot identify a concrete test obligation, lack an internal owner/budget, or reject a paid one-day validation using the prototype. Do not represent the prototype as CMF-approved or offer regulated financial services.",
+      "current_thesis": "Banks, account providers, fintech participants and other regulated institutions will need to validate consent handling, directory participation, API behavior, security controls and data exchange before or during staged onboarding. A reusable test asset could reduce repeated manual integration and compliance-validation work, but the exact mandatory test requirements remain dependent on technical specifications.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile SFA consent-and-API conformance test harness for early participants",
+      "opportunity_id": "opp_72a43af466b08d9345bd",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html",
+        "https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A narrowly scoped paid test package or software asset: automated mock-provider endpoints, consent-state test cases, schema/field validation, negative tests for unauthorized access, audit-log checks and exportable evidence packs. The economic mechanism is selling reduced integration and pre-certification effort rather than selling financial intermediation or customer data.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -4955,7 +4956,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-24T22:14:57.856219+00:00",
+  "generated_at": "2026-10-25T03:12:32.176449+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

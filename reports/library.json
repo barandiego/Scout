@@ -5437,6 +5437,67 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-25T03:12:13.882291+00:00",
+      "discovery_lens": "open_finance_chile",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF lists NCG 514 as the vigente regulation governing Chile’s Sistema de Finanzas Abiertas, dated July 3, 2024.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Norma de Carácter General N°514: Norma que regula el Sistema de Finanzas Abiertas",
+          "url": "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html"
+        },
+        {
+          "claim": "CMF describes mandatory information/account-provider participation, voluntary information-based and payment-initiation providers, remote automated interfaces, consent requirements, staged implementation and future technical manuals.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF publica norma que regula el Sistema de Finanzas Abiertas en el marco de la Ley Fintec",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html"
+        },
+        {
+          "claim": "Banco Central de Chile reports that CMF continued implementation of SFA technical aspects, including a 2025 consultation on participant directory, security, interface operation and user-consent administration, with subsequent implementation periods.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Informe de Estabilidad Financiera, Segundo Semestre 2025",
+          "url": "https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.82,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_72a43af466b08d9345bd",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-25T03:12:13.927889+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Build a local prototype against the public NCG 514 requirements and any CMF technical materials currently available; implement only non-sensitive mock data and consent flows. Contact publicly listed Chilean fintechs, payment providers, banks or industry associations to request five short discovery interviews, explicitly asking which SFA interface or consent tests they must evidence and whether they would pay for a sandbox validation run. Falsify the opportunity if at least two likely participants cannot identify a concrete test obligation, lack an internal owner/budget, or reject a paid one-day validation using the prototype. Do not represent the prototype as CMF-approved or offer regulated financial services.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Banks, account providers, fintech participants and other regulated institutions will need to validate consent handling, directory participation, API behavior, security controls and data exchange before or during staged onboarding. A reusable test asset could reduce repeated manual integration and compliance-validation work, but the exact mandatory test requirements remain dependent on technical specifications.",
+      "title": "Chile SFA consent-and-API conformance test harness for early participants",
+      "type": "compliance_software_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "A narrowly scoped paid test package or software asset: automated mock-provider endpoints, consent-state test cases, schema/field validation, negative tests for unauthorized access, audit-log checks and exportable evidence packs. The economic mechanism is selling reduced integration and pre-certification effort rather than selling financial intermediation or customer data.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-22T13:27:42.382920+00:00",
       "discovery_lens": "ai_open_source",
       "estimated_capital": "",
@@ -8275,60 +8336,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-16T20:18:25.722415+00:00",
-      "discovery_lens": "energy_industrial",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "NYISO states that an aggregator may combine individual DERs as small as 10 kW for wholesale energy, ancillary services and ICAP markets.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "New York ISO Market Training - Frequently Asked Questions: DER and Aggregation Participation Model",
-          "url": "https://www.nyiso.com/documents/20142/49802416/DER-and-Aggregation-Participation-Model-FAQ.pdf/967117fb-8bbb-1916-651a-0f9dbe904780"
-        },
-        {
-          "claim": "NYISO identifies bidding obligations, metering and telemetry requirements, and industrial-load operating parameters as participation barriers and proposes 2026 market-design work to improve DSR enrollment.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "2026 Market Project Descriptions",
-          "url": "https://www.nyiso.com/documents/20142/51465900/03a%20BPWG%202025-05-19%20Market%20Project%20Descriptions.pdf/7ae79489-5cd8-5715-200f-227204dad4a4"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.9,
-      "falsification_conditions": [],
-      "geography": "New York, United States",
-      "id": "opp_94b1dcc19f8cc9f335ef",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-16T20:18:25.754172+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Use NYISO’s public DER participation FAQ and market-project documents to create a checklist and spreadsheet prototype. Select one local segment such as small warehouses with batteries or refrigeration loads. Contact existing NYISO market participants or DER aggregators listed in public market-participant materials and ask whether they will review five anonymized asset records. Falsify cheaply by attempting to produce a complete qualification pack from public information for five facilities; stop if required data cannot be obtained without utility, owner or aggregator permissions, or if aggregators already provide the same function internally.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "Small commercial batteries, generators and flexible loads may have an additional wholesale-market participation route, but enrollment friction creates a narrow operational-data and qualification problem before any market revenue is realized.",
-      "title": "NYISO DER enrollment and telemetry wedge for 10–100 kW commercial assets",
-      "type": "market-access_enabler",
-      "unknowns": [],
-      "value_capture_mechanism": "A fixed-scope asset qualification and telemetry-readiness package: inventory eligible sites, map each resource to NYISO requirements, identify missing interval-meter or telemetry data, and produce an aggregator-ready data room. The economic mechanism is payment for reducing enrollment and implementation labor; no wholesale revenue or customer savings is assumed.",
-      "verified_sales": null,
-      "vertical": "energy_infrastructure",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-19T00:23:02.838772+00:00",
       "discovery_lens": "asset_ownership",
       "estimated_capital": "",
@@ -9192,13 +9199,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-24T22:14:57.804950+00:00",
+  "generated_at": "2026-10-25T03:12:32.066251+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 66,
+  "rejected_excluded": 67,
   "reviewed_cards": 62,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 196,
+  "total_distinct_opportunities": 197,
   "watch": 130
 }

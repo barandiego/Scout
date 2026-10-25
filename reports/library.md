@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-24T22:14:57.804950+00:00
+Generated: 2026-10-25T03:12:32.066251+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
 - Active research: 130 (0 HQ survivors, 130 watches)
-- Rejected opportunities excluded: 66
+- Rejected opportunities excluded: 67
 - Critic-and-judge reviewed: 62
 - Autonomous execution authorization: 0
 
@@ -633,6 +633,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/843781/000003014626000437/cik0000843781_102708.htm; https://www.sec.gov/Archives/edgar/data/831114/000139834426000957/fp0097248-1_40app.htm
 
+### Chile SFA consent-and-API conformance test harness for early participants [opp_72a43af466b08d9345bd]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Banks, account providers, fintech participants and other regulated institutions will need to validate consent handling, directory participation, API behavior, security controls and data exchange before or during staged onboarding. A reusable test asset could reduce repeated manual integration and compliance-validation work, but the exact mandatory test requirements remain dependent on technical specifications.
+- Value capture: A narrowly scoped paid test package or software asset: automated mock-provider endpoints, consent-state test cases, schema/field validation, negative tests for unauthorized access, audit-log checks and exportable evidence packs. The economic mechanism is selling reduced integration and pre-certification effort rather than selling financial intermediation or customer data.
+- Participation hypothesis: Build a local prototype against the public NCG 514 requirements and any CMF technical materials currently available; implement only non-sensitive mock data and consent flows. Contact publicly listed Chilean fintechs, payment providers, banks or industry associations to request five short discovery interviews, explicitly asking which SFA interface or consent tests they must evidence and whether they would pay for a sandbox validation run. Falsify the opportunity if at least two likely participants cannot identify a concrete test obligation, lack
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html; https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836
+
 ### Local-first Chilean DTE invoice reconciliation and exception review [opp_8ed1b40a94786a3e6997]
 - Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
 - Thesis: A small operator can test a narrow workflow that converts supplier DTE XML/PDF files into validated purchase records, flags discrepancies against purchase orders or accounting exports, and routes only exceptions for human review. Local processing can reduce cloud-API cost and may be useful where accounting data cannot leave the operator's infrastructure.
@@ -1142,16 +1152,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.ondda.cl/; https://www.aither.cl/tap/
-
-### NYISO DER enrollment and telemetry wedge for 10–100 kW commercial assets [opp_94b1dcc19f8cc9f335ef]
-- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | New York, United States
-- Thesis: Small commercial batteries, generators and flexible loads may have an additional wholesale-market participation route, but enrollment friction creates a narrow operational-data and qualification problem before any market revenue is realized.
-- Value capture: A fixed-scope asset qualification and telemetry-readiness package: inventory eligible sites, map each resource to NYISO requirements, identify missing interval-meter or telemetry data, and produce an aggregator-ready data room. The economic mechanism is payment for reducing enrollment and implementation labor; no wholesale revenue or customer savings is assumed.
-- Participation hypothesis: Use NYISO’s public DER participation FAQ and market-project documents to create a checklist and spreadsheet prototype. Select one local segment such as small warehouses with batteries or refrigeration loads. Contact existing NYISO market participants or DER aggregators listed in public market-participant materials and ask whether they will review five anonymized asset records. Falsify cheaply by attempting to produce a complete qualification pack from public information for five facilities; stop if required data cannot be obtained without utili
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.nyiso.com/documents/20142/49802416/DER-and-Aggregation-Participation-Model-FAQ.pdf/967117fb-8bbb-1916-651a-0f9dbe904780; https://www.nyiso.com/documents/20142/51465900/03a%20BPWG%202025-05-19%20Market%20Project%20Descriptions.pdf/7ae79489-5cd8-5715-200f-227204dad4a4
 
 ### Open-finance implementation monitoring and developer-readiness service [opp_b5bb525067a4142275e1]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile

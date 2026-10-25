@@ -328,18 +328,6 @@ Candidates: 130
 - Possible initial budget:
 - Source URLs: https://www.energy.gov/documents/craig-order-202-26-31-pios-exhibits-3-01-3-07-july-24-2026; https://www.ferc.gov/explainer-interconnection-final-rule
 
-## NYISO DER enrollment and telemetry wedge for 10–100 kW commercial assets
-- Status: watch | energy_infrastructure
-- Current idea: Small commercial batteries, generators and flexible loads may have an additional wholesale-market participation route, but enrollment friction creates a narrow operational-data and qualification problem before any market revenue is realized.
-- Potential economic capture: A fixed-scope asset qualification and telemetry-readiness package: inventory eligible sites, map each resource to NYISO requirements, identify missing interval-meter or telemetry data, and produce an aggregator-ready data room. The economic mechanism is payment for reducing enrollment and implementation labor; no wholesale revenue or customer savings is assumed.
-- **Research routes to test (NOT validated claims):**
-  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
-  - Compare owned asset, installer/distributor and project-finance participation.
-  - Verify permits and installed net payback under conservative power price scenarios.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://www.nyiso.com/documents/20142/49802416/DER-and-Aggregation-Participation-Model-FAQ.pdf/967117fb-8bbb-1916-651a-0f9dbe904780; https://www.nyiso.com/documents/20142/51465900/03a%20BPWG%202025-05-19%20Market%20Project%20Descriptions.pdf/7ae79489-5cd8-5715-200f-227204dad4a4
-
 ## PMGD battery-congestion screening and dispatch-rights data product
 - Status: watch | energy_infrastructure
 - Current idea: A PMGD owner or developer may need a low-cost way to screen whether adding a battery can reduce restricted-hour exposure, improve dispatchability, or avoid pursuing a connection configuration that is operationally constrained. The evidence supports a congestion-screening problem, but does not establish that any particular project will be profitable.
@@ -855,6 +843,18 @@ Candidates: 130
 - Critical gaps: Whether ATENA produces an official or procurement-acceptable conformance result, or merely supports development testing.; Whether the CMF will publish formal certification, audit, reporting, or evidence requirements that create demand for an external artifact.; The number of institutions required to participate in each implementation phase and the subset with budget authority for external testing.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html
+
+## Chile SFA consent-and-API conformance test harness for early participants
+- Status: watch | open_finance_chile
+- Current idea: Banks, account providers, fintech participants and other regulated institutions will need to validate consent handling, directory participation, API behavior, security controls and data exchange before or during staged onboarding. A reusable test asset could reduce repeated manual integration and compliance-validation work, but the exact mandatory test requirements remain dependent on technical specifications.
+- Potential economic capture: A narrowly scoped paid test package or software asset: automated mock-provider endpoints, consent-state test cases, schema/field validation, negative tests for unauthorized access, audit-log checks and exportable evidence packs. The economic mechanism is selling reduced integration and pre-certification effort rather than selling financial intermediation or customer data.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html; https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836
 
 ## Chile SFA developer-conformance test harness before July 2027 implementation
 - Status: watch | open_finance_chile
