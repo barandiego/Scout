@@ -1,37 +1,67 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 1000000.0,
-      "buyer": "I. Municipalidad Sagrada Familia",
-      "closes_at": "2026-10-26T16:15:00",
-      "code": "4134-695-COT26",
-      "estimated_budget": 1000000.0,
-      "name": "SERVICIO DE ENCARPADO PARA INAUGURACIÓN DE TEMPORADA DE RIEGO 2027 CON VISITA PROTOCOLAR DE MINISTRO DE AGRICULTURA",
+      "available_budget_clp": 5950000.0,
+      "buyer": "HOSPITAL PUERTO MONTT SERVICIO DE SALUD DEL RELONCAVI",
+      "closes_at": "2026-10-28T16:00:00",
+      "code": "1057539-4711-COT26",
+      "estimated_budget": 5950000.0,
+      "name": "ADQUISICION DE MONITOR DE SIGNOS VITALES",
       "products": 1,
-      "region": "Región del Maule"
+      "region": "Región de los Lagos"
     },
     {
-      "available_budget_clp": 200000.0,
-      "buyer": "CORP MUNICIPAL DE SERVICIOS PUBLICOS TRASPASADOS DE RANCAGUA",
-      "closes_at": "2026-10-27T18:16:00",
-      "code": "557639-3291-COT26",
-      "estimated_budget": 200000.0,
-      "name": "PACK ALIMENTACIÓN - COL EDUARDO DE GEYTER",
+      "available_budget_clp": 1750000.0,
+      "buyer": "LSDH 91 SARGENTO ALDEA",
+      "closes_at": "2026-10-30T11:00:00",
+      "code": "685103-131-COT26",
+      "estimated_budget": 1750000.0,
+      "name": "ADQUISICION DE SELLOS MECANICOS PARA OPERACION BASE SOBERANIA F-2",
       "products": 1,
-      "region": "Región del Libertador General Bernardo O´Higgins"
+      "region": "Región de Magallanes y de la Antártica"
     },
     {
-      "available_budget_clp": 40000.0,
-      "buyer": "I MUNICIPALIDAD DE CONCHALI",
-      "closes_at": "2026-10-27T15:00:00",
-      "code": "2296-652-COT26",
-      "estimated_budget": 40000.0,
-      "name": "ADQUISICIÓN DE 4 CABLES USB (3 PIES PARA CAMARA NIKON COOLPIX B500) | TRÁNSITO",
+      "available_budget_clp": 450000.0,
+      "buyer": "LSDH 91 SARGENTO ALDEA",
+      "closes_at": "2026-10-30T11:00:00",
+      "code": "685103-130-COT26",
+      "estimated_budget": 450000.0,
+      "name": "ADQUISICION DE REPUESTOS PARA OPERACION BASE SOBERANIA F-2 (BARCAZAS )",
       "products": 1,
-      "region": "Región Metropolitana de Santiago"
+      "region": "Región de Magallanes y de la Antártica"
+    },
+    {
+      "available_budget_clp": 2853620.0,
+      "buyer": "HOSPITAL PUERTO MONTT SERVICIO DE SALUD DEL RELONCAVI",
+      "closes_at": "2026-10-28T16:00:00",
+      "code": "1057539-4710-COT26",
+      "estimated_budget": 2853620.0,
+      "name": "ADQUISICION DE REFRIGERADOR CLINICO",
+      "products": 1,
+      "region": "Región de los Lagos"
+    },
+    {
+      "available_budget_clp": 250000.0,
+      "buyer": "SLEP MARGA MARGA",
+      "closes_at": "2026-10-27T12:00:00",
+      "code": "1480972-761-COT26",
+      "estimated_budget": 250000.0,
+      "name": "GALVANO ESCUELA LA RAMAYANA",
+      "products": 2,
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 4996572.0,
+      "buyer": "HOSPITAL PUERTO MONTT SERVICIO DE SALUD DEL RELONCAVI",
+      "closes_at": "2026-10-28T16:00:00",
+      "code": "1057539-4709-COT26",
+      "estimated_budget": 4996572.0,
+      "name": "ADQUISICION DE SILLON DENTAL SUBTITULO 29",
+      "products": 1,
+      "region": "Región de los Lagos"
     }
   ],
-  "active_structurally_reconstructable_count": 3,
+  "active_structurally_reconstructable_count": 6,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -49,7 +79,7 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-10-25T19:07:01Z",
+  "generated_at": "2026-10-25T22:39:18Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -57,16 +87,16 @@
   "phase1": {
     "records": 20,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 8
+      "no_observable_competitive_prices": 6
     },
-    "resolved": 17,
-    "structurally_reconstructable": 12,
-    "with_observable_quote_totals": 9,
-    "with_purchase_order_indicator": 0
+    "resolved": 14,
+    "structurally_reconstructable": 14,
+    "with_observable_quote_totals": 8,
+    "with_purchase_order_indicator": 2
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-25T19:07:01Z"
+    "changed_to": "2026-10-25T22:39:18Z"
   }
 }
