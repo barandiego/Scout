@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-26T15:20:23.361722+00:00
+Generated: 2026-10-26T21:07:07.238600+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 162
+- New this cycle: 160
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): none
-- Categories: agriculture 432, ai 125, commerce 33, energy 474, robotics 736
+- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
+- Categories: agriculture 434, ai 126, commerce 22, energy 468, robotics 750
 
 ## Recently encountered signals
 
@@ -360,6 +360,18 @@ Generated: 2026-10-26T15:20:23.361722+00:00
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
+### shauryaofficial2008-sys/Hacksphere-3.0-BITS-HYD
+- Source: https://github.com/shauryaofficial2008-sys/Hacksphere-3.0-BITS-HYD
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### satyamranjandubey-collab/smart-agri-portal
+- Source: https://github.com/satyamranjandubey-collab/smart-agri-portal
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
 ### nishad-uday/smart-agri-advisory
 - Source: https://github.com/nishad-uday/smart-agri-advisory
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
@@ -446,18 +458,6 @@ Generated: 2026-10-26T15:20:23.361722+00:00
 
 ### samarthjadhav658-coder/annadata-ai
 - Source: https://github.com/samarthjadhav658-coder/annadata-ai
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### jorepallichandana4-dev/Rural-Connect
-- Source: https://github.com/jorepallichandana4-dev/Rural-Connect
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### nihaldharpure-sketch/FarmTech-Smart-Agricultural-System
-- Source: https://github.com/nihaldharpure-sketch/FarmTech-Smart-Agricultural-System
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
