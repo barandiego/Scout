@@ -1,87 +1,67 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 610000.0,
-      "buyer": "SERVICIO NACIONAL DE SALUD HOSPITAL DE C",
-      "closes_at": "2026-10-27T08:00:00",
-      "code": "1691-1960-COT26",
-      "estimated_budget": 610000.0,
-      "name": "EFCC- SET DE IRRIGACION EN Y PARA UROLOGIA CON CONECTOR LUER UD PARA REPOSICIÓN DE INS. CLINICOS HRC",
-      "products": 1,
-      "region": "Región Aysén del General Carlos Ibáñez del Campo"
+      "available_budget_clp": 180000.0,
+      "buyer": "I MUNICIPALIDAD DE COPIAPO",
+      "closes_at": "2026-11-01T06:05:00",
+      "code": "2381-966-COT26",
+      "estimated_budget": 180000.0,
+      "name": "ADQUISICIÓN DE MATERIALES DE OFICINA PARA TALLER DE MHGAP DEL CESFAM PALOMAR",
+      "products": 9,
+      "region": "Región de Atacama"
     },
     {
-      "available_budget_clp": 270000.0,
-      "buyer": "SERVICIO NACIONAL DE SALUD HOSPITAL DE C",
-      "closes_at": "2026-10-27T08:00:00",
-      "code": "1691-1959-COT26",
-      "estimated_budget": 270000.0,
-      "name": "EFCC - SENSOR DE OXIMETRIA DE PULSO NEONATAL RD < 1 KG UD PARA REPOSICIÓN DE INS. CLINICOS HRC",
+      "available_budget_clp": 774000.0,
+      "buyer": "SERVICIO LOCAL DE EDUCACION COSTA ARAUCANIA",
+      "closes_at": "2026-10-28T06:52:00",
+      "code": "1028897-745-COT26",
+      "estimated_budget": 774000.0,
+      "name": "SP 1104 Servicio traslado estudiantes Esc. Alejandro Gorostiaga desde Imperial hacia la ciudad de Pucón",
       "products": 1,
-      "region": "Región Aysén del General Carlos Ibáñez del Campo"
+      "region": "Región de la Araucanía"
     },
     {
-      "available_budget_clp": 120000.0,
-      "buyer": "SERVICIO NACIONAL DE SALUD HOSPITAL DE C",
-      "closes_at": "2026-10-27T08:00:00",
-      "code": "1691-1958-COT26",
-      "estimated_budget": 120000.0,
-      "name": "EFCC - SONDA ASPIRACION CERRADA 14FR PARA TRAQUEOSTOMIA PARA REPOSICION DE INS. CLINICOS DEL HRC",
-      "products": 1,
-      "region": "Región Aysén del General Carlos Ibáñez del Campo"
+      "available_budget_clp": 655820.0,
+      "buyer": "SERVICIO NACIONAL DE SALUD HOSPITAL DE CORONEL",
+      "closes_at": "2026-10-27T13:13:00",
+      "code": "1058035-335-COT26",
+      "estimated_budget": 655820.0,
+      "name": "FARMACOS (SOLICITUD DE REPOSICIÓN N° 365 DE FECHA 05/10/2026)",
+      "products": 2,
+      "region": "Región del Biobío"
     },
     {
-      "available_budget_clp": 3100000.0,
-      "buyer": "SERVICIO NACIONAL DE SALUD HOSPITAL DE C",
-      "closes_at": "2026-10-27T08:00:00",
-      "code": "1691-1957-COT26",
-      "estimated_budget": 3100000.0,
-      "name": "EFCC - SABANA OFTALMOLOGICA UD 165 X 254 CM PARA REPOSICIÓN DE INS. CLINICOS DEL HRC.",
+      "available_budget_clp": 1020000.0,
+      "buyer": "SLEP MARGA MARGA",
+      "closes_at": "2026-10-27T16:20:00",
+      "code": "1480972-748-COT26",
+      "estimated_budget": 1020000.0,
+      "name": "SALIDA PEDAGOGICA MUSEO HISTORIA NATURAL Y PLANETARIO (BUS Y ENTRADAS) 10 NOV BRASILIA RBD 1468-8",
       "products": 1,
-      "region": "Región Aysén del General Carlos Ibáñez del Campo"
+      "region": "Región de Valparaíso"
     },
     {
-      "available_budget_clp": 1800000.0,
-      "buyer": "SERVICIO NACIONAL DE SALUD HOSPITAL DE C",
-      "closes_at": "2026-10-27T08:00:00",
-      "code": "1691-1956-COT26",
-      "estimated_budget": 1800000.0,
-      "name": "EFCC- MEDIAS ANTIEMBOLICAS PAR TALLA L PARA REPOSICIÓN INS. CLINICOS HRC.",
-      "products": 1,
-      "region": "Región Aysén del General Carlos Ibáñez del Campo"
+      "available_budget_clp": 300000.0,
+      "buyer": "I MUNICIPALIDAD DE NOGALES",
+      "closes_at": "2026-10-29T08:18:00",
+      "code": "3632-142-COT26",
+      "estimated_budget": 300000.0,
+      "name": "ADQUISICION DE MATERIALES DE USO Y CONSUMO PARA PROGRAMA MAS SALUD EN COMUNIDAD DESAM NOGALES",
+      "products": 3,
+      "region": "Región de Valparaíso"
     },
     {
-      "available_budget_clp": 603000.0,
-      "buyer": "DEPARTAMENTO PROVINCIAL DE EDUCACIÓN DE RANCO",
-      "closes_at": "2026-10-27T00:45:00",
-      "code": "5795-112-COT26",
-      "estimated_budget": 603000.0,
-      "name": "EL MAITEN ART ESCRITORIO",
-      "products": 1,
-      "region": "Región de Los Ríos"
-    },
-    {
-      "available_budget_clp": 350000.0,
-      "buyer": "CORP CULTURAL MATUCANA CIEN",
-      "closes_at": "2026-10-27T10:00:00",
-      "code": "1457281-112-COT26",
-      "estimated_budget": 350000.0,
-      "name": "Adquisición de disco duro interno 6 TB para sistema de videovigilancia (CCTV) de M100",
+      "available_budget_clp": 2600000.0,
+      "buyer": "CORP MUNIC EDUC SALUD Y ATENCION",
+      "closes_at": "2026-10-29T10:53:00",
+      "code": "1211839-526-COT26",
+      "estimated_budget": 2600000.0,
+      "name": "Materiales de construcción",
       "products": 1,
       "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 730000.0,
-      "buyer": "I MUNICIPALIDAD DE QUINTA DE TILCOCO",
-      "closes_at": "2026-10-27T00:18:00",
-      "code": "3500-190-COT26",
-      "estimated_budget": 730000.0,
-      "name": "Servicio de transporte para salida pedagógica a kidzania para alumnos de 2do Básico del liceo república de Italia básica",
-      "products": 1,
-      "region": "Región del Libertador General Bernardo O´Higgins"
     }
   ],
-  "active_structurally_reconstructable_count": 8,
+  "active_structurally_reconstructable_count": 6,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -99,7 +79,7 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-10-26T04:58:56Z",
+  "generated_at": "2026-10-26T15:17:26Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -109,14 +89,14 @@
     "rejection_reasons": {
       "no_observable_competitive_prices": 3
     },
-    "resolved": 12,
+    "resolved": 14,
     "structurally_reconstructable": 17,
-    "with_observable_quote_totals": 9,
-    "with_purchase_order_indicator": 2
+    "with_observable_quote_totals": 11,
+    "with_purchase_order_indicator": 5
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-26T04:58:56Z"
+    "changed_to": "2026-10-26T15:17:26Z"
   }
 }
