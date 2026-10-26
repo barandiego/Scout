@@ -1,73 +1,205 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 180000.0,
-      "buyer": "I MUNICIPALIDAD DE COPIAPO",
-      "closes_at": "2026-11-01T06:05:00",
-      "code": "2381-966-COT26",
-      "estimated_budget": 180000.0,
-      "name": "ADQUISICIÓN DE MATERIALES DE OFICINA PARA TALLER DE MHGAP DEL CESFAM PALOMAR",
-      "products": 9,
-      "region": "Región de Atacama"
+      "available_budget_clp": 5200000.0,
+      "buyer": "INSTITUTO DE FOMENTO PESQUERO",
+      "closes_at": "2026-10-28T08:00:00",
+      "code": "1049-1841-COT26",
+      "estimated_budget": 5200000.0,
+      "name": "SERVICIO DE FUMIGACIÓN SEDE IFOP VALPARAISO Y BODEGA IFOP VALPARAISO",
+      "products": 1,
+      "region": "Región de Valparaíso"
     },
     {
-      "available_budget_clp": 774000.0,
-      "buyer": "SERVICIO LOCAL DE EDUCACION COSTA ARAUCANIA",
-      "closes_at": "2026-10-28T06:52:00",
-      "code": "1028897-745-COT26",
-      "estimated_budget": 774000.0,
-      "name": "SP 1104 Servicio traslado estudiantes Esc. Alejandro Gorostiaga desde Imperial hacia la ciudad de Pucón",
+      "available_budget_clp": 200000.0,
+      "buyer": "I MUNICIPALIDAD DE CANELA",
+      "closes_at": "2026-10-27T18:00:00",
+      "code": "3754-144-COT26",
+      "estimated_budget": 200000.0,
+      "name": "Adquisicion de Caja Herramientas Multiuso para Cesfam Canela",
+      "products": 1,
+      "region": "Región de Coquimbo"
+    },
+    {
+      "available_budget_clp": 536000.0,
+      "buyer": "Carabineros de Chile - X Zona Los Lagos",
+      "closes_at": "2026-10-27T18:30:00",
+      "code": "4180-75-COT26",
+      "estimated_budget": 536000.0,
+      "name": "ADQUISICION DE SILLAS ESCRITORIO EJECTUVIAS ERGONOMICAS RECLINABLES",
+      "products": 1,
+      "region": "Región de los Lagos"
+    },
+    {
+      "available_budget_clp": 50000.0,
+      "buyer": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+      "closes_at": "2026-10-27T18:00:00",
+      "code": "5668-87-COT26",
+      "estimated_budget": 50000.0,
+      "name": "CABLE TELEFONICO Y HDMI",
+      "products": 2,
+      "region": "Región de Los Ríos"
+    },
+    {
+      "available_budget_clp": 1030000.0,
+      "buyer": "CORPORACION DE DESARROLLO SOCIAL DE BUIN",
+      "closes_at": "2026-10-28T08:30:00",
+      "code": "1274189-549-COT26",
+      "estimated_budget": 1030000.0,
+      "name": "BEBEDERO - PROMOCION DE LA SALUD - Dirección de Salud - Solic nro - 0528",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 3500000.0,
+      "buyer": "I MUNICIPALIDAD DE PROVIDENCIA",
+      "closes_at": "2026-10-29T15:00:00",
+      "code": "2462-223-COT26",
+      "estimated_budget": 3500000.0,
+      "name": "ADQUISICIÓN DE MATERIALES DE DIFUSIÓN",
+      "products": 3,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 7050000.0,
+      "buyer": "I MUNICIPALIDAD DE RENGO",
+      "closes_at": "2026-10-28T09:30:00",
+      "code": "2776-852-COT26",
+      "estimated_budget": 7050000.0,
+      "name": "S.P. N°175851,SEGURIDAD PUBLICA. ARRIENDO DE CAMION HIDROELEVADOR POR UN PERIODO DE 34 DIAS, , SEGÚN LO ESTABLECIDO EN LOS TERMINOS DE REQUERIMIENTO ADJUNTOS",
+      "products": 1,
+      "region": "Región del Libertador General Bernardo O´Higgins"
+    },
+    {
+      "available_budget_clp": 597000.0,
+      "buyer": "I MUNICIPALIDAD DE OSORNO",
+      "closes_at": "2026-10-29T08:00:00",
+      "code": "2306-1000-COT26",
+      "estimated_budget": 597000.0,
+      "name": "ADQUISICION DE MATERIALES DEPORTIVOS PROGRAMA 4A7 ESC.ESPAÑA FONDOS SERNAMEG",
+      "products": 14,
+      "region": "Región de los Lagos"
+    },
+    {
+      "available_budget_clp": 432000.0,
+      "buyer": "SECCIÓN COMPRAS IX ZONA",
+      "closes_at": "2026-10-27T18:00:00",
+      "code": "1078177-909-COT26",
+      "estimated_budget": 432000.0,
+      "name": "ADQUISICIÓN DE 01 LAVADORA Y 01 SECADORA PARA PASO MAMUIL MALAL  T. CURARREHUE (F)  DE LA 9NA COM. PUCÓN.",
+      "products": 2,
+      "region": "Región de la Araucanía"
+    },
+    {
+      "available_budget_clp": 6000000.0,
+      "buyer": "I MUNICIPALIDAD DE PUMANQUE",
+      "closes_at": "2026-10-28T18:30:00",
+      "code": "3717-193-COT26",
+      "estimated_budget": 6000000.0,
+      "name": "Adquisición de 15 tablets y accesorios.- Escuela Rincón Los Perales.-",
+      "products": 1,
+      "region": "Región del Libertador General Bernardo O´Higgins"
+    },
+    {
+      "available_budget_clp": 2563000.0,
+      "buyer": "I MUNICIPALIDAD DE TEMUCO",
+      "closes_at": "2026-10-28T18:00:00",
+      "code": "1658-1643-COT26",
+      "estimated_budget": 2563000.0,
+      "name": "S11-26/OPERACIONES/DEPTO. DE AGUAS LLUVIAS/SERVICIO DE REPARACION Y MANTENCIÓN DE VEREDAS EN CENTENARIO ENTRE NAHUELBUTA Y CONCEPCIÓN.",
       "products": 1,
       "region": "Región de la Araucanía"
     },
     {
-      "available_budget_clp": 655820.0,
-      "buyer": "SERVICIO NACIONAL DE SALUD HOSPITAL DE CORONEL",
-      "closes_at": "2026-10-27T13:13:00",
-      "code": "1058035-335-COT26",
-      "estimated_budget": 655820.0,
-      "name": "FARMACOS (SOLICITUD DE REPOSICIÓN N° 365 DE FECHA 05/10/2026)",
-      "products": 2,
+      "available_budget_clp": 1500000.0,
+      "buyer": "UNIVERSIDAD DE ATACAMA",
+      "closes_at": "2026-10-29T10:00:00",
+      "code": "5960-107-COT26",
+      "estimated_budget": 1500000.0,
+      "name": "Adquisición de Ropa corporativa",
+      "products": 6,
+      "region": "Región de Atacama"
+    },
+    {
+      "available_budget_clp": 800000.0,
+      "buyer": "Departamento de Salud",
+      "closes_at": "2026-10-27T19:00:00",
+      "code": "3507-731-COT26",
+      "estimated_budget": 800000.0,
+      "name": "Servicio de Chef para taller alimentación saludable  - Cecosf Texas",
+      "products": 1,
+      "region": "Región de los Lagos"
+    },
+    {
+      "available_budget_clp": 778100.0,
+      "buyer": "UNIVERSIDAD DE SANTIAGO DE CHILE",
+      "closes_at": "2026-10-28T10:00:00",
+      "code": "5067-2620-COT26",
+      "estimated_budget": 778100.0,
+      "name": "Adquisición de Kit de Automatización para Departamento de Tecnologías Industriales (DTI), FACTEC - Proyectos de Innovación Docente. Dirección de Pregrado, Vicerrectoría Académica USACH",
+      "products": 3,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 7215100.0,
+      "buyer": "COMPLEJO ASISTENCIAL DR. SOTERO DEL RIO",
+      "closes_at": "2026-10-27T18:00:00",
+      "code": "1058095-459-COT26",
+      "estimated_budget": 7215100.0,
+      "name": "SUERO FISIOLOGICO 0,9% 3.000 ML BOLSA",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 989678.0,
+      "buyer": "I MUNICIPALIDAD ESTACION CENTRAL",
+      "closes_at": "2026-10-28T10:00:00",
+      "code": "2432-853-COT26",
+      "estimated_budget": 989678.0,
+      "name": "SOL797-DIDECO-ENVASES, UTENSILIOS Y CONTENEDORES.",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 1649300.0,
+      "buyer": "I MUNICIPALIDAD DE TOME",
+      "closes_at": "2026-10-28T08:00:00",
+      "code": "2656-1236-COT26",
+      "estimated_budget": 1649300.0,
+      "name": "ADQUISICIÓN MATERIALES",
+      "products": 1,
       "region": "Región del Biobío"
     },
     {
-      "available_budget_clp": 1020000.0,
-      "buyer": "SLEP MARGA MARGA",
-      "closes_at": "2026-10-27T16:20:00",
-      "code": "1480972-748-COT26",
-      "estimated_budget": 1020000.0,
-      "name": "SALIDA PEDAGOGICA MUSEO HISTORIA NATURAL Y PLANETARIO (BUS Y ENTRADAS) 10 NOV BRASILIA RBD 1468-8",
+      "available_budget_clp": 7200000.0,
+      "buyer": "I MUNICIPALIDAD DE IQUIQUE",
+      "closes_at": "2026-10-27T18:20:00",
+      "code": "2404-669-COT26",
+      "estimated_budget": 7200000.0,
+      "name": "ADQUISICION DE SERVICIO DE REPARACION CORRECTIVA PARA RODILLO COMPACTADOR BOMAG",
       "products": 1,
-      "region": "Región de Valparaíso"
+      "region": "Región de Tarapacá"
     },
     {
-      "available_budget_clp": 300000.0,
-      "buyer": "I MUNICIPALIDAD DE NOGALES",
-      "closes_at": "2026-10-29T08:18:00",
-      "code": "3632-142-COT26",
-      "estimated_budget": 300000.0,
-      "name": "ADQUISICION DE MATERIALES DE USO Y CONSUMO PARA PROGRAMA MAS SALUD EN COMUNIDAD DESAM NOGALES",
-      "products": 3,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 2600000.0,
-      "buyer": "CORP MUNIC EDUC SALUD Y ATENCION",
-      "closes_at": "2026-10-29T10:53:00",
-      "code": "1211839-526-COT26",
-      "estimated_budget": 2600000.0,
-      "name": "Materiales de construcción",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
+      "available_budget_clp": 473016.0,
+      "buyer": "SUBSECRETARIA DE SALUD PUBLICA",
+      "closes_at": "2026-10-29T09:00:00",
+      "code": "5602-289-COT26",
+      "estimated_budget": 473016.0,
+      "name": "COMPRA DE ZAPATOS DE SEGURIDAD PARA UNIDAD DE LOGISTICA, SOLICITUD N° 2026100043",
+      "products": 2,
+      "region": "Región de Arica y Parinacota"
     }
   ],
-  "active_structurally_reconstructable_count": 6,
+  "active_structurally_reconstructable_count": 19,
   "diagnostics": {
-    "api_failures": {},
+    "api_failures": {
+      "api_rate_limited": 1
+    },
     "budget_exhausted": false,
     "detail_attempts": 20,
     "detail_cap_exhausted": true,
-    "details_fetched": 20,
+    "details_fetched": 19,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -79,24 +211,22 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-10-26T15:17:26Z",
-  "inserted_history": 20,
+  "generated_at": "2026-10-26T21:05:11Z",
+  "inserted_history": 19,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
+  "outcome": "DEGRADED_API_ERRORS",
   "phase1": {
-    "records": 20,
-    "rejection_reasons": {
-      "no_observable_competitive_prices": 3
-    },
-    "resolved": 14,
-    "structurally_reconstructable": 17,
-    "with_observable_quote_totals": 11,
-    "with_purchase_order_indicator": 5
+    "records": 19,
+    "rejection_reasons": {},
+    "resolved": 0,
+    "structurally_reconstructable": 19,
+    "with_observable_quote_totals": 0,
+    "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-26T15:17:26Z"
+    "changed_to": "2026-10-26T21:05:11Z"
   }
 }
