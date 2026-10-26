@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-25T22:18:37.805908+00:00
+Generated: 2026-10-26T03:13:45.202933+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 133 (0 HQ survivors, 133 watches)
-- Rejected opportunities excluded: 71
-- Critic-and-judge reviewed: 63
+- Active research: 135 (0 HQ survivors, 135 watches)
+- Rejected opportunities excluded: 72
+- Critic-and-judge reviewed: 64
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -262,6 +262,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Whether ATENA access is open to external vendors, consultants, and service providers, or restricted to regulated/registered participants.; Whether CMF will accept third-party test reports or require participants to use only official certification and sandbox procedures.; The number of entities that will actually need external help, segmented by banks, payment providers, account-information providers, and fintech applicants.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
+### Chile Open-Finance sandbox conformance kit for small participants [opp_6815e39c170199386f97]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Small regulated or potentially participating entities will need repeatable testing, API-conformance checks, consent-flow documentation, and implementation evidence before the July 2027 deadline. The opportunity is narrower than general fintech consulting: a reusable test pack, schema validator, mock participant, and fixed-scope readiness report.
+- Value capture: A downloadable or self-hosted conformance asset could be sold as a fixed-price implementation package, with optional paid updates when CMF technical specifications change. The evidence supports a regulatory implementation deadline and available sandbox, but does not establish a market price, guaranteed demand, or permission to act as a regulated participant.
+- Participation hypothesis: Use only CMF-published specifications and sandbox documentation. Build a minimal validator/mock that tests one narrow flow, such as consent and account-information exchange. Publish a free sample using synthetic data and contact potential participant categories through public channels, asking whether they would pay for a fixed-scope pre-certification test. Falsification step: spend no more than one week implementing the narrowest endpoint and seek three written expressions of interest or one paid pilot; if none appears, stop. Do not access real
+- Critic/judge: The regulatory premise is sufficiently grounded by CMF primary sources in the supplied provenance: technical standards, a testing environment, simplified participation, and a July 2027 effective start are credible. A vendor can plausibly offer non-regulated, synthetic-data tooling or research around published specifications without needing to become a financial participant. However, this does not yet survive as an HQ-worthy commercial o
+- Next evidence gaps: The number and identity of small entities that must participate, by participant category.; Whether ATENA provides automated test cases, validation reports, mock services, and evidence artifacts sufficient to displace the proposed product.; Whether external validators or readiness reports have regulatory, procurement, or certification value.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html
 
 ### Chile publishes technical rules and developer infrastructure for Open Finance, with go-live deferred to July 2027 [opp_a52d2e8482508d0a2b4c]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -1142,6 +1152,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://github.com/kindrat86/ai-agent-incident-database/blob/main/README.md; https://github.com/paolodm/ai-coding-agents-incidents
+
+### Local document-extraction appliance for Chilean invoice and customs workflows [opp_1e56231188a972422e29]
+- Status: WATCH_REQUIRES_VALIDATION | innovation_adoption | Chile
+- Thesis: A small operator can assemble a reproducible appliance for one document class—such as supplier invoices, import documents, or transport paperwork—without paying per-page cloud OCR or sending documents off-site. The economically testable wedge is not generic AI automation; it is a fixed deliverable that converts a defined folder of Spanish-language documents into validated fields plus an exception queue.
+- Value capture: Sell a narrowly scoped self-hosted package, installation, or annual update asset to a business that already processes repetitive documents. The sources establish technical capability and licenses, but do not establish a buyer, price, accuracy on Chilean documents, or permission to resell third-party components without checking each license and trademark condition.
+- Participation hypothesis: Select one document class and obtain 30–50 genuinely representative samples with written permission from a prospective user. Benchmark extraction against manually verified fields using local OCR/schema extraction, then price only after measuring error and review time. Falsification step: build a local prototype using the Apache-2.0 or MIT-licensed components, test 30 documents, and ask the document owner to compare it with their current process; abandon the wedge if field accuracy or review savings is not materially better than their current me
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://github.com/sarcascoder/dacu; https://github.com/MorpheusEMH/kreuzberg
 
 ### Low-cost narrow-row weeding robot as a paid field trial or custom build [opp_32c9ef20cb6badbd9957]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States; adaptable internationally

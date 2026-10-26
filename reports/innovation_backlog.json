@@ -1848,6 +1848,42 @@
       "category": "innovation_adoption",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Select one document class and obtain 30–50 genuinely representative samples with written permission from a prospective user. Benchmark extraction against manually verified fields using local OCR/schema extraction, then price only after measuring error and review time. Falsification step: build a local prototype using the Apache-2.0 or MIT-licensed components, test 30 documents, and ask the document owner to compare it with their current process; abandon the wedge if field accuracy or review savings is not materially better than their current method. Do not claim compliance, accuracy, or savings before measurement.",
+      "current_thesis": "A small operator can assemble a reproducible appliance for one document class—such as supplier invoices, import documents, or transport paperwork—without paying per-page cloud OCR or sending documents off-site. The economically testable wedge is not generic AI automation; it is a fixed deliverable that converts a defined folder of Spanish-language documents into validated fields plus an exception queue.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Local document-extraction appliance for Chilean invoice and customs workflows",
+      "opportunity_id": "opp_1e56231188a972422e29",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a real technical capability not yet adopted in one buyer's high-value workflow.",
+        "Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.",
+        "Measure the fully loaded operating cost, human exceptions and distribution against the status quo."
+      ],
+      "supporting_source_urls": [
+        "https://github.com/sarcascoder/dacu",
+        "https://github.com/MorpheusEMH/kreuzberg"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a narrowly scoped self-hosted package, installation, or annual update asset to a business that already processes repetitive documents. The sources establish technical capability and licenses, but do not establish a buyer, price, accuracy on Chilean documents, or permission to resell third-party components without checking each license and trademark condition.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "innovation_adoption",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Lowest-cost falsification: install one project locally, run a fixed benchmark of 20-50 representative agent tasks with and without the cost-control layer, and publish the measured token use, latency, failure rate and reproducibility. Then contact identifiable users or maintainers through the project's public issue/discussion channels with the benchmark and ask whether the measured improvement solves a paid problem. Do not sell managed services, claim savings, or assume licensing rights until the repository license and user response support it.",
       "current_thesis": "The concrete mechanism is not generic AI consulting: it is a low-cost software layer for self-hosted agent operators who need cost tracking, routing, quality controls or premium features. The public price confirms that at least one project is attempting direct software monetization, but adoption and willingness to pay are unverified.",
       "founder_hours_initial_unverified_estimate": "",
@@ -2529,6 +2565,46 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Sell a downloadable conformance suite, local test environment, schema-diff alerts, and paid implementation support. A repeatable software asset is more defensible than generic consulting if it maps directly to CMF technical requirements and can be reused across participants.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Use only CMF-published specifications and sandbox documentation. Build a minimal validator/mock that tests one narrow flow, such as consent and account-information exchange. Publish a free sample using synthetic data and contact potential participant categories through public channels, asking whether they would pay for a fixed-scope pre-certification test. Falsification step: spend no more than one week implementing the narrowest endpoint and seek three written expressions of interest or one paid pilot; if none appears, stop. Do not access real customer data, represent a financial institution, or claim CMF approval.",
+      "current_thesis": "Small regulated or potentially participating entities will need repeatable testing, API-conformance checks, consent-flow documentation, and implementation evidence before the July 2027 deadline. The opportunity is narrower than general fintech consulting: a reusable test pack, schema validator, mock participant, and fixed-scope readiness report.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "The number and identity of small entities that must participate, by participant category.",
+        "Whether ATENA provides automated test cases, validation reports, mock services, and evidence artifacts sufficient to displace the proposed product.",
+        "Whether external validators or readiness reports have regulatory, procurement, or certification value.",
+        "The required accreditation or certification status for a vendor selling conformance testing or pre-certification services.",
+        "Actual willingness to pay, budget owner, procurement cycle, and acceptable price range.",
+        "Whether customers prefer Spanish-language consulting and implementation support over self-hosted software.",
+        "The maturity, stability, and versioning policy of the CMF technical specifications and APIs."
+      ],
+      "investment_authorized": false,
+      "name": "Chile Open-Finance sandbox conformance kit for small participants",
+      "opportunity_id": "opp_6815e39c170199386f97",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A downloadable or self-hosted conformance asset could be sold as a fixed-price implementation package, with optional paid updates when CMF technical specifications change. The evidence supports a regulatory implementation deadline and available sandbox, but does not establish a market price, guaranteed demand, or permission to act as a regulated participant.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -5069,7 +5145,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-25T22:18:37.906961+00:00",
+  "generated_at": "2026-10-26T03:13:45.299021+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

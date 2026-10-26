@@ -2245,6 +2245,91 @@
     {
       "ai_leverage": "",
       "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-26T03:13:17.687461+00:00",
+      "discovery_lens": "fixed_scope_paid_research_asset",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF published technical implementation specifications, a developer portal, a technological sandbox, simplified participation, and postponed the system's effective start to July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        },
+        {
+          "claim": "The amended regulation includes interoperability and payment-initiation requirements, a trial period, testing area, simplified participation, and a July 2027 effective date.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.82,
+      "falsification_conditions": [
+        "Three or more target institutions state in writing that CMF's ATENA and official materials are sufficient for their testing needs and that they would not pay for external tooling.",
+        "No target buyer agrees to a paid pilot, letter of intent, or paid discovery after outreach to at least 15 qualified institutions or service providers.",
+        "The proposed validator cannot produce materially different, time-saving, or audit-useful outputs compared with ATENA and official CMF test procedures.",
+        "A credible incumbent systems integrator, API vendor, or certification provider already supplies an equivalent product bundled into broader implementation work at no separately visible price.",
+        "CMF restricts conformance certification or readiness claims to approved entities, making the proposed report commercially or legally unusable.",
+        "Technical specifications change frequently enough that maintenance costs exceed plausible recurring revenue.",
+        "The addressable buyer set is too small to support recurring updates after accounting for Chile-specific localization, sales, support, and compliance costs.",
+        "Target buyers require end-to-end implementation, security assessment, or certification rather than a fixed-scope research asset, causing the product to become an unplanned consulting engagement."
+      ],
+      "geography": "Chile",
+      "id": "opp_6815e39c170199386f97",
+      "judge_reviewed": true,
+      "judgment": "The regulatory premise is sufficiently grounded by CMF primary sources in the supplied provenance: technical standards, a testing environment, simplified participation, and a July 2027 effective start are credible. A vendor can plausibly offer non-regulated, synthetic-data tooling or research around published specifications without needing to become a financial participant. However, this does not yet survive as an HQ-worthy commercial opportunity because the official ATENA sandbox and CMF materials may already cover the core conformance need; no evidence establishes a legally meaningful role for third-party readiness reports, a buyer with budget, willingness to pay, or a differentiated output. The narrow wedge can be researched, but should not be treated as validated value capture until technical overlap with ATENA, vendor-perimeter constraints, and paid demand are demonstrated.",
+      "last_record_updated_at": "2026-10-26T03:13:44.709511+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "The number and identity of small entities that must participate, by participant category.",
+        "Whether ATENA provides automated test cases, validation reports, mock services, and evidence artifacts sufficient to displace the proposed product.",
+        "Whether external validators or readiness reports have regulatory, procurement, or certification value.",
+        "The required accreditation or certification status for a vendor selling conformance testing or pre-certification services.",
+        "Actual willingness to pay, budget owner, procurement cycle, and acceptable price range."
+      ],
+      "participation_path": "Use only CMF-published specifications and sandbox documentation. Build a minimal validator/mock that tests one narrow flow, such as consent and account-information exchange. Publish a free sample using synthetic data and contact potential participant categories through public channels, asking whether they would pay for a fixed-scope pre-certification test. Falsification step: spend no more than one week implementing the narrowest endpoint and seek three written expressions of interest or one paid pilot; if none appears, stop. Do not access real customer data, represent a financial institution, or claim CMF approval.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Small regulated or potentially participating entities will need repeatable testing, API-conformance checks, consent-flow documentation, and implementation evidence before the July 2027 deadline. The opportunity is narrower than general fintech consulting: a reusable test pack, schema validator, mock participant, and fixed-scope readiness report.",
+      "title": "Chile Open-Finance sandbox conformance kit for small participants",
+      "type": "fixed_scope_paid_research_asset",
+      "unknowns": [
+        "The number and identity of small entities that must participate, by participant category.",
+        "Whether ATENA provides automated test cases, validation reports, mock services, and evidence artifacts sufficient to displace the proposed product.",
+        "Whether external validators or readiness reports have regulatory, procurement, or certification value.",
+        "The required accreditation or certification status for a vendor selling conformance testing or pre-certification services.",
+        "Actual willingness to pay, budget owner, procurement cycle, and acceptable price range.",
+        "Whether customers prefer Spanish-language consulting and implementation support over self-hosted software.",
+        "The maturity, stability, and versioning policy of the CMF technical specifications and APIs.",
+        "Whether major Chilean banks, processors, core-banking vendors, and systems integrators already offer equivalent tooling.",
+        "Potential legal, privacy, cybersecurity, professional-liability, and misrepresentation exposure from issuing readiness reports.",
+        "Whether implementation dates, participant obligations, or technical specifications will be amended again before July 2027.",
+        "Whether a single narrow flow such as consent and account-information exchange is representative enough to produce a useful paid deliverable.",
+        "Whether CMF's ATENA environment already provides automated test cases, reference mocks, validation outputs, and evidence adequate for participant needs.",
+        "Whether a third-party vendor may lawfully market conformance, readiness, or pre-certification services, and what disclaimers or non-certification positioning are required.",
+        "The exact participant categories, phased obligations, number of small entities, and timing that create a real implementation need before July 2027.",
+        "Which precise workflow has unmet value beyond CMF tooling, such as machine-readable regression testing for a specified consent or account-information API flow.",
+        "Whether regulated entities will procure an external asset, who owns the budget, and whether at least one will pay rather than use internal teams or incumbent providers.",
+        "Competitor coverage and pricing among banks, core vendors, API providers, systems integrators, and regulatory advisers.",
+        "Whether the tool can remain entirely synthetic-data and specification-based, avoiding regulated data access and a materially heavier compliance profile."
+      ],
+      "value_capture_mechanism": "A downloadable or self-hosted conformance asset could be sold as a fixed-price implementation package, with optional paid updates when CMF technical specifications change. The evidence supports a regulatory implementation deadline and available sandbox, but does not establish a market price, guaranteed demand, or permission to act as a regulated participant.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
       "contrary_evidence": [
         "The CMF itself describes the system as complex and postponed entry into force until July 2027, indicating implementation friction rather than immediate commercial readiness. Source: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
         "The CMF has already supplied a public developer portal and a technological sandbox, directly reducing the scarcity value of basic documentation, testing, and interoperability tooling. Source: https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
@@ -8322,6 +8407,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-26T03:13:17.688335+00:00",
+      "discovery_lens": "ai_open_source",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The repository describes a self-hosted, API-compatible OCR/document-extraction service using local inference, with a claimed 16–40x lower cost than cloud alternatives and an optional human-review layer; these cost claims require independent benchmarking.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "GitHub - sarcascoder/dacu",
+          "url": "https://github.com/sarcascoder/dacu"
+        },
+        {
+          "claim": "The repository provides local document extraction across many formats, REST/API/CLI options, extensible OCR backends, and states that the framework is MIT licensed for commercial and closed-source use.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "GitHub - MorpheusEMH/kreuzberg",
+          "url": "https://github.com/MorpheusEMH/kreuzberg"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.83,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_1e56231188a972422e29",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-26T03:13:17.759143+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Select one document class and obtain 30–50 genuinely representative samples with written permission from a prospective user. Benchmark extraction against manually verified fields using local OCR/schema extraction, then price only after measuring error and review time. Falsification step: build a local prototype using the Apache-2.0 or MIT-licensed components, test 30 documents, and ask the document owner to compare it with their current process; abandon the wedge if field accuracy or review savings is not materially better than their current method. Do not claim compliance, accuracy, or savings before measurement.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A small operator can assemble a reproducible appliance for one document class—such as supplier invoices, import documents, or transport paperwork—without paying per-page cloud OCR or sending documents off-site. The economically testable wedge is not generic AI automation; it is a fixed deliverable that converts a defined folder of Spanish-language documents into validated fields plus an exception queue.",
+      "title": "Local document-extraction appliance for Chilean invoice and customs workflows",
+      "type": "fixed_scope_paid_research_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell a narrowly scoped self-hosted package, installation, or annual update asset to a business that already processes repetitive documents. The sources establish technical capability and licenses, but do not establish a buyer, price, accuracy on Chilean documents, or permission to resell third-party components without checking each license and trademark condition.",
+      "verified_sales": null,
+      "vertical": "innovation_adoption",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-23T09:06:55.340652+00:00",
       "discovery_lens": "adoption_lag",
       "estimated_capital": "",
@@ -9401,13 +9540,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-25T22:18:37.805908+00:00",
+  "generated_at": "2026-10-26T03:13:45.202933+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 71,
-  "reviewed_cards": 63,
+  "rejected_excluded": 72,
+  "reviewed_cards": 64,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 204,
-  "watch": 133
+  "total_distinct_opportunities": 207,
+  "watch": 135
 }

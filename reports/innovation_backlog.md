@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 133
+Candidates: 135
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -592,6 +592,18 @@ Candidates: 133
 - Possible initial budget:
 - Source URLs: https://github.com/kindrat86/ai-agent-incident-database/blob/main/README.md; https://github.com/paolodm/ai-coding-agents-incidents
 
+## Local document-extraction appliance for Chilean invoice and customs workflows
+- Status: watch | innovation_adoption
+- Current idea: A small operator can assemble a reproducible appliance for one document class—such as supplier invoices, import documents, or transport paperwork—without paying per-page cloud OCR or sending documents off-site. The economically testable wedge is not generic AI automation; it is a fixed deliverable that converts a defined folder of Spanish-language documents into validated fields plus an exception queue.
+- Potential economic capture: Sell a narrowly scoped self-hosted package, installation, or annual update asset to a business that already processes repetitive documents. The sources establish technical capability and licenses, but do not establish a buyer, price, accuracy on Chilean documents, or permission to resell third-party components without checking each license and trademark condition.
+- **Research routes to test (NOT validated claims):**
+  - Identify a real technical capability not yet adopted in one buyer's high-value workflow.
+  - Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.
+  - Measure the fully loaded operating cost, human exceptions and distribution against the status quo.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://github.com/sarcascoder/dacu; https://github.com/MorpheusEMH/kreuzberg
+
 ## Open-source agent cost-control software with a directly published paid tier
 - Status: watch | innovation_adoption
 - Current idea: The concrete mechanism is not generic AI consulting: it is a low-cost software layer for self-hosted agent operators who need cost tracking, routing, quality controls or premium features. The public price confirms that at least one project is attempting direct software monetization, but adoption and willingness to pay are unverified.
@@ -807,6 +819,18 @@ Candidates: 133
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/615/articles-99378_doc_pdf.pdf
+
+## Chile Open-Finance sandbox conformance kit for small participants
+- Status: watch | open_finance_chile
+- Current idea: Small regulated or potentially participating entities will need repeatable testing, API-conformance checks, consent-flow documentation, and implementation evidence before the July 2027 deadline. The opportunity is narrower than general fintech consulting: a reusable test pack, schema validator, mock participant, and fixed-scope readiness report.
+- Potential economic capture: A downloadable or self-hosted conformance asset could be sold as a fixed-price implementation package, with optional paid updates when CMF technical specifications change. The evidence supports a regulatory implementation deadline and available sandbox, but does not establish a market price, guaranteed demand, or permission to act as a regulated participant.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: The number and identity of small entities that must participate, by participant category.; Whether ATENA provides automated test cases, validation reports, mock services, and evidence artifacts sufficient to displace the proposed product.; Whether external validators or readiness reports have regulatory, procurement, or certification value.
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html
 
 ## Chile publishes technical rules and developer infrastructure for Open Finance, with go-live deferred to July 2027
 - Status: watch | open_finance_chile
