@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-10-26T03:13:45.202933+00:00",
+  "generated_at": "2026-10-26T09:43:05.800437+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -21,7 +21,7 @@
     },
     {
       "opportunity_id": "opp_f26e42aaabb91e157f9d",
-      "other_cards_in_theme": 55,
+      "other_cards_in_theme": 56,
       "reviewed": true,
       "status": "watch",
       "theme": "chile_open_finance",
@@ -103,15 +103,15 @@
   "headline_count": 12,
   "high_concentration": [
     {
-      "cards": 56,
-      "share": 0.415,
+      "cards": 57,
+      "share": 0.416,
       "theme": "chile_open_finance"
     }
   ],
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 60,
+  "theme_count": 61,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -154,6 +154,7 @@
         "opp_f4c70f1adccbe9b2583e",
         "opp_72a43af466b08d9345bd",
         "opp_feeb29504969ee6e91ea",
+        "opp_68b251b56fcd3101a22e",
         "opp_993ac5d080c7042af44c",
         "opp_82f282d8dc0896390ee7",
         "opp_202d7778855e693fe04b",
@@ -172,7 +173,7 @@
         "opp_962e03a6a16029e4f872",
         "opp_2eab3c54ff3018b1187b"
       ],
-      "count": 56,
+      "count": 57,
       "representative_id": "opp_f26e42aaabb91e157f9d",
       "reviewed_count": 36,
       "theme": "chile_open_finance"
@@ -358,6 +359,15 @@
       "representative_id": "opp_57a45d336ccad5f1c63e",
       "reviewed_count": 0,
       "theme": "ecommerce_niches:narrow_private_label"
+    },
+    {
+      "all_opportunity_ids": [
+        "opp_484a01686085457d3c31"
+      ],
+      "count": 1,
+      "representative_id": "opp_484a01686085457d3c31",
+      "reviewed_count": 0,
+      "theme": "ecommerce_niches:natura_marketplace_catalog"
     },
     {
       "all_opportunity_ids": [
@@ -729,6 +739,6 @@
       "theme": "robotics_agritech:transparent_used_robot"
     }
   ],
-  "total_original_cards": 135,
+  "total_original_cards": 137,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }

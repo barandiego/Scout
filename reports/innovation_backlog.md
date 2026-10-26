@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 135
+Candidates: 137
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -207,6 +207,18 @@ Candidates: 135
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://ayudaseller.falabella.com/articles/es/Knowledge/Comisiones-de-venta-Chile; https://sellers.mercadolibre.com/landing/pricing; https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/
+
+## Natura marketplace catalog and fulfillment wedge in Chile
+- Status: watch | ecommerce_niches
+- Current idea: A large, newly distributed catalog creates a narrow operational opportunity around product-data quality, marketplace discoverability, inventory monitoring, price tracking and localized merchandising rather than generic ecommerce consulting.
+- Potential economic capture: A small operator could sell a defined catalog-monitoring or marketplace-operations deliverable: weekly SKU/price/stock audits, competitor-price alerts, listing-error detection and conversion-oriented content changes. The economic mechanism is a paid operational service or performance-linked improvement, but willingness to pay and attribution are unverified.
+- **Research routes to test (NOT validated claims):**
+  - Target a specific neglected customer subgroup with a measurable unmet product requirement.
+  - Compare imported/private-label, inventoryless fulfillment and existing domestic suppliers after landed costs.
+  - Test one narrower search/intention channel before expanding catalog or buying inventory.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://news.mercadolibre.com/tienda-oficial-natura-chile; https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/; https://www.falabella.com/falabella-cl/seller/Natura
 
 ## Natura marketplace price-and-assortment test on Falabella.com Chile
 - Status: watch | ecommerce_niches
@@ -771,6 +783,18 @@ Candidates: 135
 - Critical gaps: The number of Chilean entities that will actually be required to participate and the subset lacking internal compliance or integration capability.; Whether simplified participation materially reduces implementation burden for the intended small-firm segment.; Whether ATENA will expose enough automated diagnostics to eliminate most of the proposed product's functionality.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://api.cmfchile.cl/
+
+## Chile Open Finance implementation-readiness test
+- Status: watch | open_finance_chile
+- Current idea: The change creates a time-bounded implementation problem for smaller financial or technology participants that may need interoperability, consent, security, testing and payment-initiation documentation before production participation.
+- Potential economic capture: A narrowly scoped asset could be a reusable conformance checklist, sandbox test harness, consent-state test cases or implementation-gap assessment for prospective participants. Revenue would come from a paid technical assessment or pilot, but the existence of willing paying customers is not yet verified.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html; https://chirgwin.cl/en/chile-advances-the-implementation-of-its-open-finance-system/
 
 ## Chile Open Finance interoperability pre-test harness for prospective SFA participants
 - Status: watch | open_finance_chile

@@ -5609,6 +5609,67 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-26T09:42:45.353816+00:00",
+      "discovery_lens": "regulation_infrastructure",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF states that the amendment adds technical specifications, payment-initiation requirements, a developer portal, simplified participation, a technological sandbox and a July 2027 effective date.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "CMF identifies technical annexes for the Open Finance System as part of its 2025-2026 regulatory plan.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF presents its 2025-2026 Regulatory Plan",
+          "url": "https://cmfchile.cl/portal/principal/613/w3-article-92556.html"
+        },
+        {
+          "claim": "Independent legal-sector coverage describes the technical annex as covering data sharing, payment initiation and interoperability under Chile’s Fintech Law.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Chile advances the implementation of its Open Finance System",
+          "url": "https://chirgwin.cl/en/chile-advances-the-implementation-of-its-open-finance-system/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.91,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_68b251b56fcd3101a22e",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-26T09:42:45.408396+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use the CMF announcement and developer materials to translate one narrow requirement—such as consent-state handling or payment-initiation message flows—into a test checklist and mock API fixture. Validate it against any publicly available sandbox or developer documentation; do not connect to financial institutions or represent regulatory approval. Falsify by requesting five short discovery calls from identifiable Chilean fintechs, payment providers or software vendors and testing whether at least one will review the checklist or pay for a fixed-scope assessment.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The change creates a time-bounded implementation problem for smaller financial or technology participants that may need interoperability, consent, security, testing and payment-initiation documentation before production participation.",
+      "title": "Chile Open Finance implementation-readiness test",
+      "type": "regulation_infrastructure",
+      "unknowns": [],
+      "value_capture_mechanism": "A narrowly scoped asset could be a reusable conformance checklist, sandbox test harness, consent-state test cases or implementation-gap assessment for prospective participants. Revenue would come from a paid technical assessment or pilot, but the existence of willing paying customers is not yet verified.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-25T03:12:13.882291+00:00",
       "discovery_lens": "open_finance_chile",
       "estimated_capital": "",
@@ -5843,6 +5904,67 @@
       "type": "marketplace_distribution",
       "unknowns": [],
       "value_capture_mechanism": "Cash flow would come from direct product sales after marketplace commission, logistics, returns, taxes, and inventory costs. No margin should be assumed until a live listing or supplier quotation validates unit economics.",
+      "verified_sales": null,
+      "vertical": "ecommerce_niches",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-26T09:42:45.352711+00:00",
+      "discovery_lens": "physical_commerce",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Mercado Libre reports Natura’s Chile pilot had 285 products, more than 320,000 visits and over 30,000 units shipped; products use Mercado Libre fulfillment and nationwide delivery.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Natura lanza nueva tienda oficial en Mercado Libre en Chile",
+          "url": "https://news.mercadolibre.com/tienda-oficial-natura-chile"
+        },
+        {
+          "claim": "Falabella reports a Natura official store launch with an initial 110-product portfolio and omnichannel delivery, pickup, exchange and return options.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Natura llega a Falabella.com con su nueva Tienda Oficial",
+          "url": "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/"
+        },
+        {
+          "claim": "The live seller page shows publicly purchasable Natura listings, prices, discounts, reviews and delivery or pickup indicators.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Natura | Falabella Chile",
+          "url": "https://www.falabella.com/falabella-cl/seller/Natura"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.88,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_484a01686085457d3c31",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-26T09:42:45.408656+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use only publicly visible Natura listings on Mercado Libre and Falabella to build a 20-SKU audit covering title quality, variant completeness, stock status, delivery promises, discounts and search placement. Send the audit to identifiable marketplace sellers or authorized distributors without claiming access or permission. Falsify by testing whether three independent sellers respond to a concrete paid pilot proposal; stop if there is no response or if listing data cannot support repeatable findings.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A large, newly distributed catalog creates a narrow operational opportunity around product-data quality, marketplace discoverability, inventory monitoring, price tracking and localized merchandising rather than generic ecommerce consulting.",
+      "title": "Natura marketplace catalog and fulfillment wedge in Chile",
+      "type": "physical_commerce",
+      "unknowns": [],
+      "value_capture_mechanism": "A small operator could sell a defined catalog-monitoring or marketplace-operations deliverable: weekly SKU/price/stock audits, competitor-price alerts, listing-error detection and conversion-oriented content changes. The economic mechanism is a paid operational service or performance-linked improvement, but willingness to pay and attribution are unverified.",
       "verified_sales": null,
       "vertical": "ecommerce_niches",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
@@ -8055,8 +8177,8 @@
       "geography": "United States",
       "id": "opp_269134d5b04eaaaf0c33",
       "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-17T04:20:14.465683+00:00",
+      "judgment": "critic_invalid_output",
+      "last_record_updated_at": "2026-10-26T09:43:05.260593+00:00",
       "material_update": false,
       "missing_execution_proof": [
         "independent_critic_and_judge",
@@ -9540,13 +9662,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-26T03:13:45.202933+00:00",
+  "generated_at": "2026-10-26T09:43:05.800437+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 72,
   "reviewed_cards": 64,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 207,
-  "watch": 135
+  "total_distinct_opportunities": 209,
+  "watch": 137
 }

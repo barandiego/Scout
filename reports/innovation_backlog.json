@@ -626,6 +626,43 @@
       "category": "ecommerce_niches",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use only publicly visible Natura listings on Mercado Libre and Falabella to build a 20-SKU audit covering title quality, variant completeness, stock status, delivery promises, discounts and search placement. Send the audit to identifiable marketplace sellers or authorized distributors without claiming access or permission. Falsify by testing whether three independent sellers respond to a concrete paid pilot proposal; stop if there is no response or if listing data cannot support repeatable findings.",
+      "current_thesis": "A large, newly distributed catalog creates a narrow operational opportunity around product-data quality, marketplace discoverability, inventory monitoring, price tracking and localized merchandising rather than generic ecommerce consulting.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Natura marketplace catalog and fulfillment wedge in Chile",
+      "opportunity_id": "opp_484a01686085457d3c31",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Target a specific neglected customer subgroup with a measurable unmet product requirement.",
+        "Compare imported/private-label, inventoryless fulfillment and existing domestic suppliers after landed costs.",
+        "Test one narrower search/intention channel before expanding catalog or buying inventory."
+      ],
+      "supporting_source_urls": [
+        "https://news.mercadolibre.com/tienda-oficial-natura-chile",
+        "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/",
+        "https://www.falabella.com/falabella-cl/seller/Natura"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A small operator could sell a defined catalog-monitoring or marketplace-operations deliverable: weekly SKU/price/stock audits, competitor-price alerts, listing-error detection and conversion-oriented content changes. The economic mechanism is a paid operational service or performance-linked improvement, but willingness to pay and attribution are unverified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "ecommerce_niches",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "First use Falabella's public Natura catalogue to record 20 comparable SKUs, prices, stock/fulfillment options and reviews. Create a spreadsheet of bundle hypotheses using only products that can be lawfully sourced and listed under the platform's seller rules. Lowest-cost falsification: run a non-inventory demand test through compliant marketplace participation or a permitted landing page, seeking a small number of paid reservations or completed purchases; do not buy inventory until unit economics and listing permission are confirmed. If reservations do not occur at the observed price, abandon the wedge.",
       "current_thesis": "A concrete wedge exists for testing whether selected Natura bundles, gift packs or hard-to-find SKUs can acquire demand through Falabella's existing marketplace traffic and fulfillment network. The evidence does not establish resale permission, margin or arbitrage profit.",
       "founder_hours_initial_unverified_estimate": "",
@@ -2413,6 +2450,43 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Sell a self-serve or manually assisted conformance assessment: upload API specifications, consent-flow screenshots, and test responses; receive a gap report mapped to the CMF technical annex. A later paid product could monitor changes to the developer portal, but recurring demand and willingness to pay are unproven.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Use the CMF announcement and developer materials to translate one narrow requirement—such as consent-state handling or payment-initiation message flows—into a test checklist and mock API fixture. Validate it against any publicly available sandbox or developer documentation; do not connect to financial institutions or represent regulatory approval. Falsify by requesting five short discovery calls from identifiable Chilean fintechs, payment providers or software vendors and testing whether at least one will review the checklist or pay for a fixed-scope assessment.",
+      "current_thesis": "The change creates a time-bounded implementation problem for smaller financial or technology participants that may need interoperability, consent, security, testing and payment-initiation documentation before production participation.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile Open Finance implementation-readiness test",
+      "opportunity_id": "opp_68b251b56fcd3101a22e",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://cmfchile.cl/portal/principal/613/w3-article-92556.html",
+        "https://chirgwin.cl/en/chile-advances-the-implementation-of-its-open-finance-system/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A narrowly scoped asset could be a reusable conformance checklist, sandbox test harness, consent-state test cases or implementation-gap assessment for prospective participants. Revenue would come from a paid technical assessment or pilot, but the existence of willing paying customers is not yet verified.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -5145,7 +5219,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-26T03:13:45.299021+00:00",
+  "generated_at": "2026-10-26T09:43:05.905826+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

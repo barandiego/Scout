@@ -1,10 +1,10 @@
 # Scout — opportunity library
 
-Generated: 2026-10-26T03:13:45.202933+00:00
+Generated: 2026-10-26T09:43:05.800437+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 135 (0 HQ survivors, 135 watches)
+- Active research: 137 (0 HQ survivors, 137 watches)
 - Rejected opportunities excluded: 72
 - Critic-and-judge reviewed: 64
 - Autonomous execution authorization: 0
@@ -653,6 +653,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/843781/000003014626000437/cik0000843781_102708.htm; https://www.sec.gov/Archives/edgar/data/831114/000139834426000957/fp0097248-1_40app.htm
 
+### Chile Open Finance implementation-readiness test [opp_68b251b56fcd3101a22e]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: The change creates a time-bounded implementation problem for smaller financial or technology participants that may need interoperability, consent, security, testing and payment-initiation documentation before production participation.
+- Value capture: A narrowly scoped asset could be a reusable conformance checklist, sandbox test harness, consent-state test cases or implementation-gap assessment for prospective participants. Revenue would come from a paid technical assessment or pilot, but the existence of willing paying customers is not yet verified.
+- Participation hypothesis: Use the CMF announcement and developer materials to translate one narrow requirement—such as consent-state handling or payment-initiation message flows—into a test checklist and mock API fixture. Validate it against any publicly available sandbox or developer documentation; do not connect to financial institutions or represent regulatory approval. Falsify by requesting five short discovery calls from identifiable Chilean fintechs, payment providers or software vendors and testing whether at least one will review the checklist or pay for a fixed
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html; https://chirgwin.cl/en/chile-advances-the-implementation-of-its-open-finance-system/
+
 ### Chile SFA consent-and-API conformance test harness for early participants [opp_72a43af466b08d9345bd]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: Banks, account providers, fintech participants and other regulated institutions will need to validate consent handling, directory participation, API behavior, security controls and data exchange before or during staged onboarding. A reusable test asset could reduce repeated manual integration and compliance-validation work, but the exact mandatory test requirements remain dependent on technical specifications.
@@ -692,6 +702,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://ayudaseller.falabella.com/articles/es/Knowledge/Comisiones-de-venta-Chile; https://sellers.mercadolibre.com/landing/pricing; https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/
+
+### Natura marketplace catalog and fulfillment wedge in Chile [opp_484a01686085457d3c31]
+- Status: WATCH_REQUIRES_VALIDATION | ecommerce_niches | Chile
+- Thesis: A large, newly distributed catalog creates a narrow operational opportunity around product-data quality, marketplace discoverability, inventory monitoring, price tracking and localized merchandising rather than generic ecommerce consulting.
+- Value capture: A small operator could sell a defined catalog-monitoring or marketplace-operations deliverable: weekly SKU/price/stock audits, competitor-price alerts, listing-error detection and conversion-oriented content changes. The economic mechanism is a paid operational service or performance-linked improvement, but willingness to pay and attribution are unverified.
+- Participation hypothesis: Use only publicly visible Natura listings on Mercado Libre and Falabella to build a 20-SKU audit covering title quality, variant completeness, stock status, delivery promises, discounts and search placement. Send the audit to identifiable marketplace sellers or authorized distributors without claiming access or permission. Falsify by testing whether three independent sellers respond to a concrete paid pilot proposal; stop if there is no response or if listing data cannot support repeatable findings.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://news.mercadolibre.com/tienda-oficial-natura-chile; https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/; https://www.falabella.com/falabella-cl/seller/Natura
 
 ### Natura marketplace price-and-assortment test on Falabella.com Chile [opp_e2a66e0f6074d07578b8]
 - Status: WATCH_REQUIRES_VALIDATION | ecommerce_niches | Chile
@@ -1088,7 +1108,7 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Thesis: A small operator could sell a narrowly defined hardware-and-installation package that converts an already funded energy recommendation into an operating project, rather than selling an energy study or generic consulting.
 - Value capture: Revenue from equipment procurement, installation, commissioning, and documented savings or grant-compliance support. The evidence does not establish a standard price, margin, or guaranteed customer conversion.
 - Participation hypothesis: Use the public DOE awardee and qualified-assessment-provider lists to identify manufacturers with funded projects involving VFDs, motors, pumps, compressors, monitors, or process sensors. Send a fixed-scope offer for one retrofit type, such as installing and commissioning VFDs on eligible motor loads. Lowest-cost test: select 10 awardees or assessment providers, verify each facility's project scope from public records, and ask whether they are accepting outside installation bids or subcontractors. Do not assume grant eligibility, procurement pe
-- Critic/judge: deferred_by_review_cap
+- Critic/judge: critic_invalid_output
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.energy.gov/mesc/industrial-research-and-assessment-center-implementation-grant-awards; https://www.energy.gov/sites/default/files/2023-08/CX-028489.pdf
