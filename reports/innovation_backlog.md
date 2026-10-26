@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 137
+Candidates: 138
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -675,6 +675,18 @@ Candidates: 137
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812
+
+## Chile Open Finance cash-flow underwriting adapter for MSME lenders
+- Status: watch | open_finance_chile
+- Current idea: A small operator has a defined pre-compliance window to build and test a narrow data-normalization or cash-flow underwriting adapter before regulated participants must implement the system. The opportunity is not lending itself; it is reducing integration and interpretation work for a specific lender, accounting platform, or financial-data participant.
+- Potential economic capture: Potentially a paid pilot, implementation fee, or recurring software fee from an identified regulated participant or financial-software provider. No buyer, price, or conversion is assumed until validated.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html
 
 ## Chile Open Finance conformance and integration test harness
 - Status: watch | open_finance_chile
@@ -1624,18 +1636,6 @@ Candidates: 137
 - Possible initial budget:
 - Source URLs: https://www.chileagricola.cl/precios-mayoristas/; https://es.scribd.com/document/1014311150/BOLETIN-1-INIA-FIA-Manejo-Sanitario-y-Otros-InIA-Chile; https://andinotech.cl/categoria-producto/hidroponia/sistema-de-cultivo-hidroponico/
 
-## Small-dairy robotic-milking installation, financing, or service-partner wedge
-- Status: watch | robotics_agritech
-- Current idea: The high equipment price and recurring maintenance requirement create a possible entry point for a small operator as a local implementation, maintenance, monitoring, financing-introduction, or used-equipment partner rather than as a robot manufacturer.
-- Potential economic capture: Possible revenue sources include installation coordination, preventive maintenance, parts sourcing, monitoring, or referral fees where a manufacturer or dealer explicitly permits them. No buyer, commission, or margin is assumed by the evidence.
-- **Research routes to test (NOT validated claims):**
-  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
-  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
-  - Arrange a bounded field validation with an actual farm operator before scaling.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://ers.usda.gov/data-products/charts-of-note/114160; https://ers.usda.gov/sites/default/files/_laserfiche/publications/113706/ERR-356.pdf?v=31391
-
 ## Transparent used-robot sourcing and pre-purchase inspection for small manufacturers
 - Status: watch | robotics_agritech
 - Current idea: The executable wedge is not generic automation consulting; it is a narrowly scoped sourcing-and-verification service for one repeatable application, such as machine tending or palletizing. The economic mechanism is reducing search, mis-purchase and commissioning risk before a capital purchase.
@@ -1647,3 +1647,15 @@ Candidates: 137
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://igam.com/robot-inventory/; https://www.fivewestfinancial.com/blog/robotics-automation-private-party-purchase.html; https://www.harmonicrange.com/prices
+
+## Water-efficiency field validation service for Chilean irrigated agriculture
+- Status: watch | robotics_agritech
+- Current idea: A narrow, testable offer is field measurement and ROI verification for one irrigation retrofit or water-saving production practice, rather than a broad smart-farming platform. The economic mechanism is helping a producer or installer document water use, crop performance, and payback for an existing investment or grant/procurement decision.
+- Potential economic capture: Potential payment from a farm, irrigation installer, exporter, agricultural cooperative, or technology supplier for a small baseline-and-follow-up measurement project. No savings, buyer, or subsidy eligibility is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
+  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
+  - Arrange a bounded field validation with an actual farm operator before scaling.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Economic+Outlook+for+Chilean+Agriculture_Santiago_Chile_CI2024-0001.pdf; https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Biotechnology+and+Other+New+Production+Technologies+Annual_Santiago_Chile_CI2025-0031.pdf

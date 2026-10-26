@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-26T18:14:50.477346+00:00
+Generated: 2026-10-26T23:34:56.422612+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 137 (0 HQ survivors, 137 watches)
-- Rejected opportunities excluded: 74
+- Active research: 138 (0 HQ survivors, 138 watches)
+- Rejected opportunities excluded: 76
 - Critic-and-judge reviewed: 64
 - Autonomous execution authorization: 0
 
@@ -923,6 +923,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.natura.cl/c/home; https://www.falabella.com/falabella-cl/seller/Natura
 
+### Chile Open Finance cash-flow underwriting adapter for MSME lenders [opp_d6ffaf44890e8156d04e]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: A small operator has a defined pre-compliance window to build and test a narrow data-normalization or cash-flow underwriting adapter before regulated participants must implement the system. The opportunity is not lending itself; it is reducing integration and interpretation work for a specific lender, accounting platform, or financial-data participant.
+- Value capture: Potentially a paid pilot, implementation fee, or recurring software fee from an identified regulated participant or financial-software provider. No buyer, price, or conversion is assumed until validated.
+- Participation hypothesis: Use the CMF developer portal and technical annex to build a minimal adapter for one narrow use case, such as importing consented transaction data into a standardized monthly cash-flow view for MSME credit review. Lowest-cost falsification: interview 5 Chilean fintechs, cooperatives, factoring firms, or lenders that are publicly identified as likely SFA participants; ask whether they have a funded 2026-2027 implementation problem and request a sample anonymized schema or publicly available test data. Do not handle live financial data or represen
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html
+
 ### Chile Open Finance conformance and integration test harness [opp_8173c8a9e4dbb2d4ed8c]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: The implementation window creates a concrete, time-bounded testing problem: prospective participants and technology vendors need to validate API schemas, authentication, error handling, certificates, logs and data mappings before production participation. A narrowly scoped conformance harness is more testable than selling generic fintech consulting.
@@ -1313,16 +1323,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://sagnikbhattacharya.com/blog/ai-visual-inspection-cost; https://automationsolinc.com/resources/blog/small-scale-retrofits-a-smart-bridge-to-automation-reliability/
 
-### Small-dairy robotic-milking installation, financing, or service-partner wedge [opp_ab706c5f1aeb60ba7b7e]
-- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States
-- Thesis: The high equipment price and recurring maintenance requirement create a possible entry point for a small operator as a local implementation, maintenance, monitoring, financing-introduction, or used-equipment partner rather than as a robot manufacturer.
-- Value capture: Possible revenue sources include installation coordination, preventive maintenance, parts sourcing, monitoring, or referral fees where a manufacturer or dealer explicitly permits them. No buyer, commission, or margin is assumed by the evidence.
-- Participation hypothesis: Map dairies with 50–499 cows in one region and contact existing robot manufacturers, dealers, and dairy-equipment service firms to determine whether they need independent service coverage or installation subcontractors. Lowest-cost falsification step: obtain three current dealer quotes for a representative dairy, interview five farms about labor availability and service response times, and ask two manufacturers whether independent maintenance or referral arrangements are permitted. Proceed only if a real service gap and authorized participation
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://ers.usda.gov/data-products/charts-of-note/114160; https://ers.usda.gov/sites/default/files/_laserfiche/publications/113706/ERR-356.pdf?v=31391
-
 ### Spanish e-commerce search-result rater — Welo Data [opp_b9ae93d79856031de999]
 - Status: WATCH_REQUIRES_VALIDATION | chile_localization | Santiago, Chile / Chile
 - Thesis: This is a concrete paid evaluation route for a Chile-based bilingual applicant with web research and language skills. The task-based wording means the advertised hourly figure may not equal guaranteed clock-time income, and the listing does not guarantee acceptance or continuous assignments.
@@ -1382,3 +1382,13 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.vicrobotics.com/precios; https://www.vicrobotics.com/soluciones/limpieza-industrial-bodegas
+
+### Water-efficiency field validation service for Chilean irrigated agriculture [opp_1d5fe6f12eac5a48f84c]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile, especially Coquimbo and central agricultural regions
+- Thesis: A narrow, testable offer is field measurement and ROI verification for one irrigation retrofit or water-saving production practice, rather than a broad smart-farming platform. The economic mechanism is helping a producer or installer document water use, crop performance, and payback for an existing investment or grant/procurement decision.
+- Value capture: Potential payment from a farm, irrigation installer, exporter, agricultural cooperative, or technology supplier for a small baseline-and-follow-up measurement project. No savings, buyer, or subsidy eligibility is assumed.
+- Participation hypothesis: Partner with one local irrigation installer or farm to instrument a single block using low-cost flow meters, soil-moisture readings, and manual crop/output records; compare against a nearby untreated block where feasible. Lowest-cost falsification: obtain permission for a 2-4 week baseline measurement before proposing equipment or software, and ask the partner to specify the decision the measurement would change. Stop if no operator will provide site access, baseline records, or a decision deadline.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Economic+Outlook+for+Chilean+Agriculture_Santiago_Chile_CI2024-0001.pdf; https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Biotechnology+and+Other+New+Production+Technologies+Annual_Santiago_Chile_CI2025-0031.pdf

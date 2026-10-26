@@ -2109,6 +2109,42 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use the CMF developer portal and technical annex to build a minimal adapter for one narrow use case, such as importing consented transaction data into a standardized monthly cash-flow view for MSME credit review. Lowest-cost falsification: interview 5 Chilean fintechs, cooperatives, factoring firms, or lenders that are publicly identified as likely SFA participants; ask whether they have a funded 2026-2027 implementation problem and request a sample anonymized schema or publicly available test data. Do not handle live financial data or represent regulated access without the required authorization. A positive test requires at least one qualified organization to provide a written problem definition, test schema, or paid discovery commitment.",
+      "current_thesis": "A small operator has a defined pre-compliance window to build and test a narrow data-normalization or cash-flow underwriting adapter before regulated participants must implement the system. The opportunity is not lending itself; it is reducing integration and interpretation work for a specific lender, accounting platform, or financial-data participant.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile Open Finance cash-flow underwriting adapter for MSME lenders",
+      "opportunity_id": "opp_d6ffaf44890e8156d04e",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Potentially a paid pilot, implementation fee, or recurring software fee from an identified regulated participant or financial-software provider. No buyer, price, or conversion is assumed until validated.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use only the public CMF technical annex and developer-portal materials to build a small command-line validator for one narrow artifact, such as schema validation, required fields, pagination and error-response checks. Publish a reproducible demo with synthetic data and no claims of regulatory certification. Contact named participants or vendors identified in public CMF materials and ask for one anonymized API example or a 30-minute review. The lowest-cost falsification is to test whether any relevant technical team will review the validator or pay for a bounded pre-compliance check; stop if the public specifications are insufficient to define tests, if access requires non-public permissions, or if prospective participants already have equivalent tooling.",
       "current_thesis": "The implementation window creates a concrete, time-bounded testing problem: prospective participants and technology vendors need to validate API schemas, authentication, error handling, certificates, logs and data mappings before production participation. A narrowly scoped conformance harness is more testable than selling generic fintech consulting.",
       "founder_hours_initial_unverified_estimate": "",
@@ -5149,42 +5185,6 @@
       "category": "robotics_agritech",
       "commercially_validated": false,
       "competition_confirmed": false,
-      "current_participation_path": "Map dairies with 50–499 cows in one region and contact existing robot manufacturers, dealers, and dairy-equipment service firms to determine whether they need independent service coverage or installation subcontractors. Lowest-cost falsification step: obtain three current dealer quotes for a representative dairy, interview five farms about labor availability and service response times, and ask two manufacturers whether independent maintenance or referral arrangements are permitted. Proceed only if a real service gap and authorized participation route are confirmed.",
-      "current_thesis": "The high equipment price and recurring maintenance requirement create a possible entry point for a small operator as a local implementation, maintenance, monitoring, financing-introduction, or used-equipment partner rather than as a robot manufacturer.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "United States",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "Small-dairy robotic-milking installation, financing, or service-partner wedge",
-      "opportunity_id": "opp_ab706c5f1aeb60ba7b7e",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
-        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
-        "Arrange a bounded field validation with an actual farm operator before scaling."
-      ],
-      "supporting_source_urls": [
-        "https://ers.usda.gov/data-products/charts-of-note/114160",
-        "https://ers.usda.gov/sites/default/files/_laserfiche/publications/113706/ERR-356.pdf?v=31391"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "Possible revenue sources include installation coordination, preventive maintenance, parts sourcing, monitoring, or referral fees where a manufacturer or dealer explicitly permits them. No buyer, commission, or margin is assumed by the evidence.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "robotics_agritech",
-      "commercially_validated": false,
-      "competition_confirmed": false,
       "current_participation_path": "Select one local manufacturing workflow and publish a one-page checklist covering payload, reach, controller, software-license transfer, safety equipment and required peripherals. Use publicly listed inventory from iGAM or comparable dealers to create three candidate configurations. Falsification step: contact 10 small manufacturers or fabrication shops with a specific used-robot configuration and ask whether they would pay for an independent pre-purchase inspection or written compatibility review; do not buy inventory or represent yourself as an authorized integrator. A positive test requires at least one paid inspection or written purchase commitment, not merely interest.",
       "current_thesis": "The executable wedge is not generic automation consulting; it is a narrowly scoped sourcing-and-verification service for one repeatable application, such as machine tending or palletizing. The economic mechanism is reducing search, mis-purchase and commissioning risk before a capital purchase.",
       "founder_hours_initial_unverified_estimate": "",
@@ -5216,10 +5216,46 @@
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "A fixed-fee inspection, compatibility report and sourcing package, with any success fee disclosed only if a buyer independently agrees to it. No buyer, conversion rate or margin is assumed.",
       "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "robotics_agritech",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Partner with one local irrigation installer or farm to instrument a single block using low-cost flow meters, soil-moisture readings, and manual crop/output records; compare against a nearby untreated block where feasible. Lowest-cost falsification: obtain permission for a 2-4 week baseline measurement before proposing equipment or software, and ask the partner to specify the decision the measurement would change. Stop if no operator will provide site access, baseline records, or a decision deadline.",
+      "current_thesis": "A narrow, testable offer is field measurement and ROI verification for one irrigation retrofit or water-saving production practice, rather than a broad smart-farming platform. The economic mechanism is helping a producer or installer document water use, crop performance, and payback for an existing investment or grant/procurement decision.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile, especially Coquimbo and central agricultural regions",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Water-efficiency field validation service for Chilean irrigated agriculture",
+      "opportunity_id": "opp_1d5fe6f12eac5a48f84c",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
+        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
+        "Arrange a bounded field validation with an actual farm operator before scaling."
+      ],
+      "supporting_source_urls": [
+        "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Economic+Outlook+for+Chilean+Agriculture_Santiago_Chile_CI2024-0001.pdf",
+        "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Biotechnology+and+Other+New+Production+Technologies+Annual_Santiago_Chile_CI2025-0031.pdf"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Potential payment from a farm, irrigation installer, exporter, agricultural cooperative, or technology supplier for a small baseline-and-follow-up measurement project. No savings, buyer, or subsidy eligibility is assumed.",
+      "willingness_to_pay_confirmed": false
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-26T18:14:50.553168+00:00",
+  "generated_at": "2026-10-26T23:34:56.474763+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

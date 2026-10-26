@@ -7179,6 +7179,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-26T23:34:33.081511+00:00",
+      "discovery_lens": "business_model_migration",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF states that the technical annex and developer portal provide the specifications needed for interoperability, information exchange, and payment initiation, with entry into force postponed until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "CMF describes the system as consented sharing of financial information through automated interfaces and identifies smaller companies and underserved users as intended beneficiaries.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF issues regulation governing the Open Finance System as part of the Fintech Act",
+          "url": "https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.93,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_d6ffaf44890e8156d04e",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-26T23:34:33.119892+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use the CMF developer portal and technical annex to build a minimal adapter for one narrow use case, such as importing consented transaction data into a standardized monthly cash-flow view for MSME credit review. Lowest-cost falsification: interview 5 Chilean fintechs, cooperatives, factoring firms, or lenders that are publicly identified as likely SFA participants; ask whether they have a funded 2026-2027 implementation problem and request a sample anonymized schema or publicly available test data. Do not handle live financial data or represent regulated access without the required authorization. A positive test requires at least one qualified organization to provide a written problem definition, test schema, or paid discovery commitment.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A small operator has a defined pre-compliance window to build and test a narrow data-normalization or cash-flow underwriting adapter before regulated participants must implement the system. The opportunity is not lending itself; it is reducing integration and interpretation work for a specific lender, accounting platform, or financial-data participant.",
+      "title": "Chile Open Finance cash-flow underwriting adapter for MSME lenders",
+      "type": "regulatory infrastructure wedge",
+      "unknowns": [],
+      "value_capture_mechanism": "Potentially a paid pilot, implementation fee, or recurring software fee from an identified regulated participant or financial-software provider. No buyer, price, or conversion is assumed until validated.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-22T13:27:42.385222+00:00",
       "discovery_lens": "ai_open_source",
       "estimated_capital": "",
@@ -9285,60 +9339,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-17T04:20:14.433657+00:00",
-      "discovery_lens": "adoption_lag",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "USDA reports lower unpaid labor expense for robotic-milking adopters among 50–149-head dairies and lower paid labor expense among 150–499-head dairies, based on 2021 survey data.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Robotic milking affects labor costs differently depending on farm size",
-          "url": "https://ers.usda.gov/data-products/charts-of-note/114160"
-        },
-        {
-          "claim": "USDA reports box robots serving approximately 50–70 cows each, costing $150,000–$200,000 during the sampled period, with annual maintenance expenses of $20,000–$25,000.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Precision Dairy Farming, Robotic Milking, and Profitability in the United States",
-          "url": "https://ers.usda.gov/sites/default/files/_laserfiche/publications/113706/ERR-356.pdf?v=31391"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.8,
-      "falsification_conditions": [],
-      "geography": "United States",
-      "id": "opp_ab706c5f1aeb60ba7b7e",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-17T04:20:14.465910+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Map dairies with 50–499 cows in one region and contact existing robot manufacturers, dealers, and dairy-equipment service firms to determine whether they need independent service coverage or installation subcontractors. Lowest-cost falsification step: obtain three current dealer quotes for a representative dairy, interview five farms about labor availability and service response times, and ask two manufacturers whether independent maintenance or referral arrangements are permitted. Proceed only if a real service gap and authorized participation route are confirmed.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "The high equipment price and recurring maintenance requirement create a possible entry point for a small operator as a local implementation, maintenance, monitoring, financing-introduction, or used-equipment partner rather than as a robot manufacturer.",
-      "title": "Small-dairy robotic-milking installation, financing, or service-partner wedge",
-      "type": "equipment participation and service partnership",
-      "unknowns": [],
-      "value_capture_mechanism": "Possible revenue sources include installation coordination, preventive maintenance, parts sourcing, monitoring, or referral fees where a manufacturer or dealer explicitly permits them. No buyer, commission, or margin is assumed by the evidence.",
-      "verified_sales": null,
-      "vertical": "robotics_agritech",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-20T16:26:20.976884+00:00",
       "discovery_lens": "remote_paid_evaluation",
       "estimated_capital": "",
@@ -9657,18 +9657,72 @@
       "vertical": "physical_distribution",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-26T23:34:33.082430+00:00",
+      "discovery_lens": "cost_curve",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "USDA reports prolonged drought conditions, low reservoir levels in northern Chile, and agricultural producers’ investment in efficient irrigation, storage, and technology.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Economic Outlook for Chilean Agriculture",
+          "url": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Economic+Outlook+for+Chilean+Agriculture_Santiago_Chile_CI2024-0001.pdf"
+        },
+        {
+          "claim": "USDA reports that INIA began test planting a rice variety using 50% less water than traditional rice in 2025.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Biotechnology and Other New Production Technologies Annual: Chile",
+          "url": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Biotechnology+and+Other+New+Production+Technologies+Annual_Santiago_Chile_CI2025-0031.pdf"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.78,
+      "falsification_conditions": [],
+      "geography": "Chile, especially Coquimbo and central agricultural regions",
+      "id": "opp_1d5fe6f12eac5a48f84c",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-26T23:34:33.120027+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Partner with one local irrigation installer or farm to instrument a single block using low-cost flow meters, soil-moisture readings, and manual crop/output records; compare against a nearby untreated block where feasible. Lowest-cost falsification: obtain permission for a 2-4 week baseline measurement before proposing equipment or software, and ask the partner to specify the decision the measurement would change. Stop if no operator will provide site access, baseline records, or a decision deadline.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A narrow, testable offer is field measurement and ROI verification for one irrigation retrofit or water-saving production practice, rather than a broad smart-farming platform. The economic mechanism is helping a producer or installer document water use, crop performance, and payback for an existing investment or grant/procurement decision.",
+      "title": "Water-efficiency field validation service for Chilean irrigated agriculture",
+      "type": "measurement-and-adoption wedge",
+      "unknowns": [],
+      "value_capture_mechanism": "Potential payment from a farm, irrigation installer, exporter, agricultural cooperative, or technology supplier for a small baseline-and-follow-up measurement project. No savings, buyer, or subsidy eligibility is assumed.",
+      "verified_sales": null,
+      "vertical": "robotics_agritech",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
     }
   ],
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-26T18:14:50.477346+00:00",
+  "generated_at": "2026-10-26T23:34:56.422612+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 74,
+  "rejected_excluded": 76,
   "reviewed_cards": 64,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 211,
-  "watch": 137
+  "total_distinct_opportunities": 214,
+  "watch": 138
 }
