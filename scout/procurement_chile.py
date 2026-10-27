@@ -51,8 +51,32 @@ def _main():
     observed=datetime.now(timezone.utc).replace(microsecond=0)
     observed_iso=observed.isoformat().replace("+00:00","Z")
     st=ProcurementStore(ROOT/a.state)
+    cooldown=st.latest_rate_limit_cooldown()
+    if cooldown and DT(cooldown)>observed:  # noqa: F405
+        report={
+            "schema_version":1,"generated_at":observed_iso,"ok":False,
+            "window":{"changed_from":st.latest_cursor(),"changed_to":observed_iso},
+            "outcome":"DEGRADED_QUOTA_COOLDOWN","inserted_history":0,
+            "diagnostics":{"api_failures":{},"requests_used":0,"transient_retries":0,
+                           "rate_limit_cooldown_until":cooldown},
+            "phase1":{"records":0,"resolved":0,"structurally_reconstructable":0,
+                      "with_observable_quote_totals":0,"with_purchase_order_indicator":0,"rejection_reasons":{}},
+            "active_structurally_reconstructable_count":0,"active_candidates":[],
+            "note":"A previous 429 triggered a conservative 26-hour cooldown; no API request was made."
+        }
+        if a.cmd=="monitor":
+            atomic_write(ROOT/a.report,json.dumps(report,ensure_ascii=False,sort_keys=True,indent=2)+"\n")
+        print(json.dumps(report,ensure_ascii=False,indent=2))
+        return 2
     if a.cmd=="backfill":
-        records,diag=client.historical_window(published_from=a.start,published_to=a.end,observed_at=observed_iso,max_pages=int(lim["max_list_pages"]),max_details=int(lim["max_detail_requests"]),states=["cerrada","proveedor_seleccionado","desierta","cancelada","oc_emitida"])
+        try:
+            records,diag=client.historical_window(published_from=a.start,published_to=a.end,observed_at=observed_iso,max_pages=int(lim["max_list_pages"]),max_details=int(lim["max_detail_requests"]),states=["cerrada","proveedor_seleccionado","desierta","cancelada","oc_emitida"])
+        except ProcurementAPIError as exc:  # noqa: F405
+            if str(exc)=="api_rate_limited":
+                st.set_rate_limit_cooldown((datetime.now(timezone.utc)+timedelta(hours=26)).isoformat())
+            raise
+        if diag.get("api_failures",{}).get("api_rate_limited"):
+            st.set_rate_limit_cooldown((datetime.now(timezone.utc)+timedelta(hours=26)).isoformat())
         inserted=sum(st.add_history(r) for r in records)
         healthy, _ = monitor_health(diag)
         print(json.dumps({"ok":healthy,"inserted":inserted,"diagnostics":diag,"phase1":phase1_report(records)},indent=2))  # noqa: F405
@@ -65,6 +89,8 @@ def _main():
     except ProcurementAPIError as exc:  # noqa: F405
         reason=str(exc)
         if reason not in TRANSIENT_MONITOR_ERRORS: raise
+        if reason=="api_rate_limited":
+            st.set_rate_limit_cooldown((datetime.now(timezone.utc)+timedelta(hours=26)).isoformat())
         report={
             "schema_version":1,"generated_at":observed_iso,"window":{"changed_from":changed_from,"changed_to":observed_iso},
             "ok":False,"outcome":"DEGRADED_TRANSIENT_API","inserted_history":0,
@@ -76,6 +102,8 @@ def _main():
         atomic_write(ROOT/a.report,json.dumps(report,ensure_ascii=False,sort_keys=True,indent=2)+"\n")
         print(json.dumps(report,ensure_ascii=False,indent=2))
         return 2
+    if diag.get("api_failures",{}).get("api_rate_limited"):
+        st.set_rate_limit_cooldown((datetime.now(timezone.utc)+timedelta(hours=26)).isoformat())
     inserted=sum(st.add_history(r) for r in records)
     healthy, outcome = monitor_health(diag)
     # Partial records can be persisted for forensic recovery; cursor advancement

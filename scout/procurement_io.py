@@ -198,6 +198,23 @@ class ProcurementStore:
     def add_history(self,r): return self._append({"event_id":f"history:{r.code}:{r.last_changed_at}:{r.digest()[:16]}","kind":"history_snapshot","record":r.model_dump()})
     def add_shadow_decision(self,d): return self._append({"event_id":f"shadow:{d.procurement_code}:{d.decision_at}","kind":"shadow_decision","decision":d.model_dump()})
     def add_outcome(self,o): return self._append({"event_id":f"outcome:{o.procurement_code}:{o.resolved_at}","kind":"outcome","outcome":o.model_dump()})
+    def latest_rate_limit_cooldown(self):
+        values = []
+        for event in self.events:
+            if event.get("kind") == "rate_limit_cooldown":
+                value = TS(event.get("retry_after"))
+                if not value:
+                    raise ProcurementDataError("invalid_rate_limit_cooldown")
+                values.append(value)
+        return max(values, key=DT) if values else None
+
+    def set_rate_limit_cooldown(self, retry_after):
+        value = TS(retry_after)
+        if not value:
+            raise ProcurementDataError("invalid_rate_limit_cooldown")
+        return self._append({"event_id": "quota_cooldown:" + value,
+                             "kind": "rate_limit_cooldown", "retry_after": value})
+
     def latest_cursor(self):
         prior=[e["changed_through"] for e in self.events if e.get("kind")=="sync_cursor"]
         return max(prior,key=DT) if prior else None
