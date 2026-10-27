@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-27T14:46:07.093528+00:00
+Generated: 2026-10-27T20:49:19.606480+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 145
+- New this cycle: 161
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): arxiv_ai:unavailable_or_invalid, crossref_energy:unavailable_or_invalid
-- Categories: agriculture 446, ai 109, commerce 18, energy 473, robotics 754
+- Categories: agriculture 458, ai 103, commerce 11, energy 470, robotics 758
 
 ## Recently encountered signals
 
@@ -372,6 +372,30 @@ Generated: 2026-10-27T14:46:07.093528+00:00
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
+### sonu-tech006/KrishiSignal-AI-Smart-Farming-Platform
+- Source: https://github.com/sonu-tech006/KrishiSignal-AI-Smart-Farming-Platform
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### Ritesh2305/agritech-mern
+- Source: https://github.com/Ritesh2305/agritech-mern
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### developer457x/AgriScan
+- Source: https://github.com/developer457x/AgriScan
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### mraman8969/AgroSphere
+- Source: https://github.com/mraman8969/AgroSphere
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
 ### geetmalhotra576-hub/Crop-Sentinel
 - Source: https://github.com/geetmalhotra576-hub/Crop-Sentinel
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
@@ -436,28 +460,4 @@ Generated: 2026-10-27T14:46:07.093528+00:00
 - Source: https://github.com/bhoomimali/SunBank
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Economic viability of battery energy storage under divergent electricity market structures: insights from developed and emerging economies
-- Source: https://doi.org/10.1016/j.ref.2026.100974
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Towards proactive control of grid-scale battery energy storage using dynamic preview length
-- Source: https://doi.org/10.1016/j.est.2026.125289
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Real-Time Battery Energy Storage Control in Microgrids via Imitation Learning from Model Predictive Optimization
-- Source: https://doi.org/10.2139/ssrn.7662663
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### ambatimanosaikumar-cloud/Smart-Crop-Advisor
-- Source: https://github.com/ambatimanosaikumar-cloud/Smart-Crop-Advisor
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
