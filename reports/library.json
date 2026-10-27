@@ -6433,67 +6433,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-17T08:18:49.302635+00:00",
-      "discovery_lens": "market_positioning",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "CMF states that the technical annex and developer portal enable implementation work and that entry into force was postponed until July 2027.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "CMF amendment to Open Finance System regulation",
-          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
-        },
-        {
-          "claim": "The portal provides official technical documentation, specifications, examples, endpoints, and integration guidance for Chile's Open Finance System.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "CMF Open Finance developer portal",
-          "url": "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=f91f133e-cc24-401b-9e65-e37cc9fd1613"
-        },
-        {
-          "claim": "The documentation describes public APIs for active participants, organizations, authorization servers, and associated API resources.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Open Finance Chile participant-directory APIs",
-          "url": "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.93,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_f4c70f1adccbe9b2583e",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-17T08:18:49.340379+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Use the public directory/API documentation to build a small read-only prototype that checks endpoint availability, TLS/certificate expiry, schema changes, and directory metadata changes. Run it against public test or documented endpoints without requesting credentials or accessing personal financial data. Publish a sample anonymized report and ask identifiable participants or implementation vendors for paid design-partner feedback. Falsify if the public endpoints cannot be queried reliably, the documentation does not expose enough stable structure to test, or ten targeted outreach attempts produce no paid pilot or written request for the report. Do not represent the tool as regulatory compliance certification.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "The narrow executable opportunity is not generic fintech consulting. It is a low-cost monitoring and test harness that checks whether public participant-directory metadata, authorization endpoints, certificates, and documented API resources remain reachable and structurally conformant as firms prepare for implementation. The cash-flow source would be regulated or aspiring participants that need internal readiness evidence, but no buyer or contract is presumed.",
-      "title": "Pre-compliance monitor for Chile Open Finance API participants",
-      "type": "developer_tool",
-      "unknowns": [],
-      "value_capture_mechanism": "Sell a self-serve monitoring subscription or one-time conformance report only after validating that a participant will pay for a concrete alert, test report, or scheduled regression check. Pricing and demand remain unverified.",
-      "verified_sales": null,
-      "vertical": "open_finance_chile",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-19T08:32:46.619027+00:00",
       "discovery_lens": "fixed_scope_paid_research_asset",
       "estimated_capital": "",
@@ -9600,6 +9539,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-27T09:36:23.911695+00:00",
+      "discovery_lens": "chile_technology_import",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Lists tender 1107276-27-LE26, a 50-liter agricultural unmanned aircraft with automated planning, real-time flow control, safety and technical support; publication October 19, 2026; closing October 29, 2026; estimated amount between 100 and 1,000 UTM.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Adquisición de un Dron Fumigador - INIA / Mercado Público listing mirror",
+          "url": "https://static.todolicitaciones.cl/licitacion/1107276-27-LE26/adquisicion-de-un-dron-fumigador"
+        },
+        {
+          "claim": "Confirms that public-sector purchasing opportunities are conducted through Mercado Público, where public entities publish procurement processes and suppliers offer products and services.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "ChileCompra: Find business opportunities",
+          "url": "https://www.chilecompra.cl/encuentra-oportunidades-de-negocio/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [],
+      "geography": "Chile, Atacama",
+      "id": "opp_28d6d6ee064292c6d3a4",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-27T09:36:23.936908+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Lowest-cost falsification: download the complete tender bases and technical annexes from Mercado Público, then request written quotes and delivery terms from at least three manufacturers or authorized distributors for a 50-liter agricultural spraying drone. Separately ask the tender contact whether foreign-manufacturer authorization, aviation permissions, pesticide-application credentials, local service capacity, bid guarantees and Chilean tax/procurement registration are required. Proceed only if the delivered configuration can meet the tender specification and a qualified prime bidder confirms a permitted subcontracting or reseller route. The public listing is time-sensitive: the cited page showed an October 29, 2026 closing date.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "This is a concrete purchase event rather than general interest in agricultural robotics. The value is concentrated in supplying an already specified system, importing or sourcing the aircraft, and providing local setup, training, maintenance and operational support.",
+      "title": "Supply and support an agricultural spraying drone for INIA/Atacama public procurement",
+      "type": "public_procurement_opportunity",
+      "unknowns": [],
+      "value_capture_mechanism": "Bid directly if eligible, or participate through a Chilean company that can contract with Mercado Público as the prime supplier. A small operator could instead locate a compliant manufacturer, obtain a written reseller or service authorization, and offer the package to an established Chilean agricultural-equipment vendor as a subcontracted technology and support component. Do not assume eligibility, certification, import clearance or authorization until confirmed in the tender documents and with the purchasing entity.",
+      "verified_sales": null,
+      "vertical": "robotics_agritech",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-22T04:25:59.567904+00:00",
       "discovery_lens": "remote_paid_evaluation",
       "estimated_capital": "",
@@ -9869,13 +9862,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-27T03:43:32.268721+00:00",
+  "generated_at": "2026-10-27T09:36:42.654293+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 76,
+  "rejected_excluded": 77,
   "reviewed_cards": 65,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 216,
+  "total_distinct_opportunities": 217,
   "watch": 140
 }

@@ -4008,43 +4008,6 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
-      "current_participation_path": "Use the public directory/API documentation to build a small read-only prototype that checks endpoint availability, TLS/certificate expiry, schema changes, and directory metadata changes. Run it against public test or documented endpoints without requesting credentials or accessing personal financial data. Publish a sample anonymized report and ask identifiable participants or implementation vendors for paid design-partner feedback. Falsify if the public endpoints cannot be queried reliably, the documentation does not expose enough stable structure to test, or ten targeted outreach attempts produce no paid pilot or written request for the report. Do not represent the tool as regulatory compliance certification.",
-      "current_thesis": "The narrow executable opportunity is not generic fintech consulting. It is a low-cost monitoring and test harness that checks whether public participant-directory metadata, authorization endpoints, certificates, and documented API resources remain reachable and structurally conformant as firms prepare for implementation. The cash-flow source would be regulated or aspiring participants that need internal readiness evidence, but no buyer or contract is presumed.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "Chile",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "Pre-compliance monitor for Chile Open Finance API participants",
-      "opportunity_id": "opp_f4c70f1adccbe9b2583e",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
-        "Check license perimeter, API access, legal compliance and competitor pricing.",
-        "Test buyer procurement and technical access before writing integration infrastructure."
-      ],
-      "supporting_source_urls": [
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=f91f133e-cc24-401b-9e65-e37cc9fd1613",
-        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "Sell a self-serve monitoring subscription or one-time conformance report only after validating that a participant will pay for a concrete alert, test report, or scheduled regression check. Pricing and demand remain unverified.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "open_finance_chile",
-      "commercially_validated": false,
-      "competition_confirmed": false,
       "current_participation_path": "Use only the public CMF Banks API and the public SFA participant-directory documentation to build a one-week prototype that records participant/API changes and produces a dated change log. Publish a sample report and contact 10 Chilean fintechs, banking-software vendors or compliance providers for paid pilot commitments. Falsify if fewer than two qualified prospects agree to review the prototype or no prospect identifies a recurring implementation decision it would pay to monitor. Do not represent the prototype as CMF-authorized or as an SFA participant.",
       "current_thesis": "A narrow monitoring asset could help fintechs, banks, integrators and compliance teams track participant registration, endpoint changes, implementation milestones and bank-data availability before mandatory operation. The evidence supports an information-access wedge, not yet a confirmed paying market.",
       "founder_hours_initial_unverified_estimate": "",
@@ -5263,6 +5226,42 @@
       "category": "robotics_agritech",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Lowest-cost falsification: download the complete tender bases and technical annexes from Mercado Público, then request written quotes and delivery terms from at least three manufacturers or authorized distributors for a 50-liter agricultural spraying drone. Separately ask the tender contact whether foreign-manufacturer authorization, aviation permissions, pesticide-application credentials, local service capacity, bid guarantees and Chilean tax/procurement registration are required. Proceed only if the delivered configuration can meet the tender specification and a qualified prime bidder confirms a permitted subcontracting or reseller route. The public listing is time-sensitive: the cited page showed an October 29, 2026 closing date.",
+      "current_thesis": "This is a concrete purchase event rather than general interest in agricultural robotics. The value is concentrated in supplying an already specified system, importing or sourcing the aircraft, and providing local setup, training, maintenance and operational support.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile, Atacama",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Supply and support an agricultural spraying drone for INIA/Atacama public procurement",
+      "opportunity_id": "opp_28d6d6ee064292c6d3a4",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
+        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
+        "Arrange a bounded field validation with an actual farm operator before scaling."
+      ],
+      "supporting_source_urls": [
+        "https://static.todolicitaciones.cl/licitacion/1107276-27-LE26/adquisicion-de-un-dron-fumigador",
+        "https://www.chilecompra.cl/encuentra-oportunidades-de-negocio/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Bid directly if eligible, or participate through a Chilean company that can contract with Mercado Público as the prime supplier. A small operator could instead locate a compliant manufacturer, obtain a written reseller or service authorization, and offer the package to an established Chilean agricultural-equipment vendor as a subcontracted technology and support component. Do not assume eligibility, certification, import clearance or authorization until confirmed in the tender documents and with the purchasing entity.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "robotics_agritech",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Select one local manufacturing workflow and publish a one-page checklist covering payload, reach, controller, software-license transfer, safety equipment and required peripherals. Use publicly listed inventory from iGAM or comparable dealers to create three candidate configurations. Falsification step: contact 10 small manufacturers or fabrication shops with a specific used-robot configuration and ask whether they would pay for an independent pre-purchase inspection or written compatibility review; do not buy inventory or represent yourself as an authorized integrator. A positive test requires at least one paid inspection or written purchase commitment, not merely interest.",
       "current_thesis": "The executable wedge is not generic automation consulting; it is a narrowly scoped sourcing-and-verification service for one repeatable application, such as machine tending or palletizing. The economic mechanism is reducing search, mis-purchase and commissioning risk before a capital purchase.",
       "founder_hours_initial_unverified_estimate": "",
@@ -5333,7 +5332,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-27T03:43:32.356426+00:00",
+  "generated_at": "2026-10-27T09:36:42.713126+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

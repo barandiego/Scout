@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-27T03:43:32.268721+00:00
+Generated: 2026-10-27T09:36:42.654293+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
 - Active research: 140 (0 HQ survivors, 140 watches)
-- Rejected opportunities excluded: 76
+- Rejected opportunities excluded: 77
 - Critic-and-judge reviewed: 65
 - Autonomous execution authorization: 0
 
@@ -783,16 +783,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/613/articles-82752_recurso_1.pdf; https://www.cmfchile.cl/portal/prensa/615/articles-99083_doc_pdf.pdf
 
-### Pre-compliance monitor for Chile Open Finance API participants [opp_f4c70f1adccbe9b2583e]
-- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
-- Thesis: The narrow executable opportunity is not generic fintech consulting. It is a low-cost monitoring and test harness that checks whether public participant-directory metadata, authorization endpoints, certificates, and documented API resources remain reachable and structurally conformant as firms prepare for implementation. The cash-flow source would be regulated or aspiring participants that need internal readiness evidence, but no buyer or contract is presumed.
-- Value capture: Sell a self-serve monitoring subscription or one-time conformance report only after validating that a participant will pay for a concrete alert, test report, or scheduled regression check. Pricing and demand remain unverified.
-- Participation hypothesis: Use the public directory/API documentation to build a small read-only prototype that checks endpoint availability, TLS/certificate expiry, schema changes, and directory metadata changes. Run it against public test or documented endpoints without requesting credentials or accessing personal financial data. Publish a sample anonymized report and ask identifiable participants or implementation vendors for paid design-partner feedback. Falsify if the public endpoints cannot be queried reliably, the documentation does not expose enough stable struct
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=f91f133e-cc24-401b-9e65-e37cc9fd1613; https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA
-
 ### SII sales-and-purchases exception dashboard for small accounting firms [opp_c8a7ce7acdf289eff270]
 - Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
 - Thesis: A narrowly defined dashboard or scheduled report could turn licensed SII data access into a repeatable deliverable: identify missing invoices, unusual purchase changes, overdue DTE reconciliation, or month-end filing exceptions. The economics are testable because the underlying API access has published prices rather than requiring unpriced data acquisition.
@@ -1362,6 +1352,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://github.com/DocuPipe/DocuBench; https://github.com/mborges-dev/extraction-evals
+
+### Supply and support an agricultural spraying drone for INIA/Atacama public procurement [opp_28d6d6ee064292c6d3a4]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile, Atacama
+- Thesis: This is a concrete purchase event rather than general interest in agricultural robotics. The value is concentrated in supplying an already specified system, importing or sourcing the aircraft, and providing local setup, training, maintenance and operational support.
+- Value capture: Bid directly if eligible, or participate through a Chilean company that can contract with Mercado Público as the prime supplier. A small operator could instead locate a compliant manufacturer, obtain a written reseller or service authorization, and offer the package to an established Chilean agricultural-equipment vendor as a subcontracted technology and support component. Do not assume eligibility, certification, import clearance or au
+- Participation hypothesis: Lowest-cost falsification: download the complete tender bases and technical annexes from Mercado Público, then request written quotes and delivery terms from at least three manufacturers or authorized distributors for a 50-liter agricultural spraying drone. Separately ask the tender contact whether foreign-manufacturer authorization, aviation permissions, pesticide-application credentials, local service capacity, bid guarantees and Chilean tax/procurement registration are required. Proceed only if the delivered configuration can meet the tender
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://static.todolicitaciones.cl/licitacion/1107276-27-LE26/adquisicion-de-un-dron-fumigador; https://www.chilecompra.cl/encuentra-oportunidades-de-negocio/
 
 ### TELUS Digital Online Data Analyst — Chile [opp_aa530d20999e193d9ca5]
 - Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile

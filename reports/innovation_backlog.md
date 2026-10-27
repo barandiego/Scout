@@ -1264,18 +1264,6 @@ Candidates: 140
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/613/articles-82752_recurso_1.pdf; https://www.cmfchile.cl/portal/prensa/615/articles-99083_doc_pdf.pdf
 
-## Pre-compliance monitor for Chile Open Finance API participants
-- Status: watch | open_finance_chile
-- Current idea: The narrow executable opportunity is not generic fintech consulting. It is a low-cost monitoring and test harness that checks whether public participant-directory metadata, authorization endpoints, certificates, and documented API resources remain reachable and structurally conformant as firms prepare for implementation. The cash-flow source would be regulated or aspiring participants that need internal readiness evidence, but no buyer or contract is presumed.
-- Potential economic capture: Sell a self-serve monitoring subscription or one-time conformance report only after validating that a participant will pay for a concrete alert, test report, or scheduled regression check. Pricing and demand remain unverified.
-- **Research routes to test (NOT validated claims):**
-  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
-  - Check license perimeter, API access, legal compliance and competitor pricing.
-  - Test buyer procurement and technical access before writing integration infrastructure.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=f91f133e-cc24-401b-9e65-e37cc9fd1613; https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA
-
 ## Pre-compliance monitoring for Chile’s Open Finance implementation
 - Status: watch | open_finance_chile
 - Current idea: A narrow monitoring asset could help fintechs, banks, integrators and compliance teams track participant registration, endpoint changes, implementation milestones and bank-data availability before mandatory operation. The evidence supports an information-access wedge, not yet a confirmed paying market.
@@ -1659,6 +1647,18 @@ Candidates: 140
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.chileagricola.cl/precios-mayoristas/; https://es.scribd.com/document/1014311150/BOLETIN-1-INIA-FIA-Manejo-Sanitario-y-Otros-InIA-Chile; https://andinotech.cl/categoria-producto/hidroponia/sistema-de-cultivo-hidroponico/
+
+## Supply and support an agricultural spraying drone for INIA/Atacama public procurement
+- Status: watch | robotics_agritech
+- Current idea: This is a concrete purchase event rather than general interest in agricultural robotics. The value is concentrated in supplying an already specified system, importing or sourcing the aircraft, and providing local setup, training, maintenance and operational support.
+- Potential economic capture: Bid directly if eligible, or participate through a Chilean company that can contract with Mercado Público as the prime supplier. A small operator could instead locate a compliant manufacturer, obtain a written reseller or service authorization, and offer the package to an established Chilean agricultural-equipment vendor as a subcontracted technology and support component. Do not assume eligibility, certification, import clearance or authorization until confirmed in the tender documents and with the purchasing entity.
+- **Research routes to test (NOT validated claims):**
+  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
+  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
+  - Arrange a bounded field validation with an actual farm operator before scaling.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://static.todolicitaciones.cl/licitacion/1107276-27-LE26/adquisicion-de-un-dron-fumigador; https://www.chilecompra.cl/encuentra-oportunidades-de-negocio/
 
 ## Transparent used-robot sourcing and pre-purchase inspection for small manufacturers
 - Status: watch | robotics_agritech
