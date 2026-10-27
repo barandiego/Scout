@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-26T21:07:07.238600+00:00
+Generated: 2026-10-27T05:20:41.384088+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 160
+- New this cycle: 157
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
-- Categories: agriculture 434, ai 126, commerce 22, energy 468, robotics 750
+- Feed failures (fail-open for public intake only): arxiv_ai:unavailable_or_invalid
+- Categories: agriculture 436, ai 108, commerce 18, energy 478, robotics 760
 
 ## Recently encountered signals
 
@@ -360,6 +360,12 @@ Generated: 2026-10-26T21:07:07.238600+00:00
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
+### Constraint-Consistent Multi-Service Scheduling of Grid-Connected Battery Energy Storage Systems for Frequency and Demand Flexibility Support
+- Source: https://doi.org/10.1109/sege70974.2026.11738944
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
 ### shauryaofficial2008-sys/Hacksphere-3.0-BITS-HYD
 - Source: https://github.com/shauryaofficial2008-sys/Hacksphere-3.0-BITS-HYD
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
@@ -452,12 +458,6 @@ Generated: 2026-10-26T21:07:07.238600+00:00
 
 ### GSK-Chaitanya05/Skillbridge-Project
 - Source: https://github.com/GSK-Chaitanya05/Skillbridge-Project
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### samarthjadhav658-coder/annadata-ai
-- Source: https://github.com/samarthjadhav658-coder/annadata-ai
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
