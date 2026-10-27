@@ -1,4 +1,3 @@
-from datetime import datetime, timezone
 from email.message import Message
 from urllib.error import HTTPError
 
@@ -9,10 +8,13 @@ from scout.procurement_core import ProcurementAPIError
 
 
 @pytest.mark.parametrize("window", ["historical", "changed"])
-def test_rate_limit_stops_the_remaining_details(window):
+@pytest.mark.parametrize("budget", [2, 10])
+def test_rate_limit_stops_the_remaining_details(window, budget):
     calls = []
-    listing = {"success": "OK", "payload": {"items": [{"codigo": "A"}, {"codigo": "B"}],
-                           "paginacion": {"total_paginas": 1, "numero_pagina": 1}}}
+    listing = {"success": "OK", "payload": {
+        "items": [{"codigo": "A"}, {"codigo": "B"}],
+        "paginacion": {"total_paginas": 1, "numero_pagina": 1},
+    }}
 
     def transport(url, headers, timeout):
         calls.append(url)
@@ -22,7 +24,7 @@ def test_rate_limit_stops_the_remaining_details(window):
             pytest.fail("must not request another detail after rate limit")
         return listing
 
-    client = procurement_io.ChileCompraClient("not-a-secret", request_limit=10,
+    client = procurement_io.ChileCompraClient("not-a-secret", request_limit=budget,
                                               transport=transport, sleep_fn=lambda _: None)
     common = dict(observed_at="2026-06-04T12:00:00Z", max_pages=1, max_details=2)
     if window == "changed":
@@ -34,71 +36,33 @@ def test_rate_limit_stops_the_remaining_details(window):
     assert diag["api_failures"] == {"api_rate_limited": 1}
     assert diag["detail_attempts"] == 1
     assert diag["requests_used"] == 2
+    assert diag["budget_exhausted"] is (budget == 2)
 
 
-def test_rate_limit_with_short_retry_after_honors_delay_and_budget():
+@pytest.mark.parametrize("retry_after", ["0", "5", "86400", None])
+def test_429_never_retries_even_if_retry_after_is_short(monkeypatch, retry_after):
+    # ChileCompra documents 429 as a daily quota exhaustion; do not hammer it.
     calls, sleeps = [], []
-
-    def transport(url, headers, timeout):
-        calls.append(url)
-        if len(calls) == 1:
-            raise procurement_io.RateLimitedError(retry_after_seconds=3)
-        return {"payload": {"items": []}}
-
-    client = procurement_io.ChileCompraClient("test", request_limit=2,
-                                              transport=transport, sleep_fn=sleeps.append)
-    client.list_page()
-    assert sleeps == [3]
-    assert len(calls) == client.budget.used == 2
-    assert client.transient_retries == 1
-
-
-@pytest.mark.parametrize("delay", [None, 31, -1, float("nan")])
-def test_rate_limit_invalid_or_excessive_wait_fails_without_retry(delay):
-    calls, sleeps = [], []
-    def transport(url, headers, timeout):
-        calls.append(url)
-        raise procurement_io.RateLimitedError(retry_after_seconds=delay)
-    client = procurement_io.ChileCompraClient("test", request_limit=5,
-                                              transport=transport, sleep_fn=sleeps.append)
-    with pytest.raises(ProcurementAPIError, match="api_rate_limited"):
-        client.list_page()
-    assert len(calls) == client.budget.used == 1
-    assert sleeps == []
-
-
-def test_transport_captures_retry_after_without_disclosing_url(monkeypatch):
     headers = Message()
-    headers["Retry-After"] = "5"
+    if retry_after is not None:
+        headers["Retry-After"] = retry_after
+
     def reject(request, timeout):
+        calls.append(request.full_url)
         raise HTTPError(request.full_url, 429, "throttled", headers, None)
+
     monkeypatch.setattr(procurement_io, "urlopen", reject)
+    client = procurement_io.ChileCompraClient("fixture-secret", request_limit=5,
+                                              sleep_fn=sleeps.append)
     with pytest.raises(ProcurementAPIError) as caught:
-        procurement_io._transport("https://example.invalid/private", {"ticket": "secret"}, 1)
-    assert str(caught.value) == "api_rate_limited"
-    assert caught.value.retry_after_seconds == 5
-
-
-def test_retry_after_http_date_uses_utc_and_rejects_invalid():
-    now = datetime(2026, 6, 4, 12, 0, 0, tzinfo=timezone.utc)
-    assert procurement_io._retry_after_seconds("Thu, 04 Jun 2026 12:00:07 GMT", now) == 7
-    assert procurement_io._retry_after_seconds("invalid", now) is None
-
-
-def test_rate_limit_retry_cannot_exceed_request_budget():
-    calls, sleeps = [], []
-    def transport(url, headers, timeout):
-        calls.append(url)
-        raise procurement_io.RateLimitedError(retry_after_seconds=1)
-    client = procurement_io.ChileCompraClient("test", request_limit=1,
-                                              transport=transport, sleep_fn=sleeps.append)
-    with pytest.raises(ProcurementAPIError, match="api_rate_limited"):
         client.list_page()
+    assert str(caught.value) == "api_rate_limited"
     assert len(calls) == client.budget.used == 1
+    assert client.transient_retries == 0
     assert sleeps == []
 
 
-def test_exhausted_rate_limit_keeps_monitor_degraded():
+def test_rate_limit_keeps_monitor_degraded():
     from scout.procurement_chile import monitor_health
     diag = {"api_failures": {"api_rate_limited": 1}, "budget_exhausted": False}
     assert monitor_health(diag) == (False, "DEGRADED_API_ERRORS")

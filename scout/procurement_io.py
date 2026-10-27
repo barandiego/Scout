@@ -1,10 +1,8 @@
 """Bounded read-only ChileCompra adapter and isolated procurement state store."""
 from __future__ import annotations
 import json
-import math
 import time
-from datetime import datetime, timezone
-from email.utils import parsedate_to_datetime
+from datetime import datetime
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Callable
@@ -43,34 +41,6 @@ class RequestBudget:
         if self.used>=self.limit: raise ProcurementAPIError("request_budget_exhausted")
         self.used+=1
 
-MAX_RATE_LIMIT_WAIT_SECONDS = 30.0
-
-
-class RateLimitedError(ProcurementAPIError):
-    def __init__(self, retry_after_seconds=None):
-        super().__init__("api_rate_limited")
-        self.retry_after_seconds = retry_after_seconds
-
-
-def _retry_after_seconds(value, now=None):
-    """Parse a delay without retaining headers, URL, ticket or response body."""
-    if not isinstance(value, str):
-        return None
-    value = value.strip()
-    if value.isascii() and value.isdigit():
-        try:
-            return float(int(value))
-        except (ValueError, OverflowError):
-            return None
-    try:
-        deadline = parsedate_to_datetime(value)
-        if deadline.tzinfo is None:
-            return None
-        return max(0.0, (deadline - (now or datetime.now(timezone.utc))).total_seconds())
-    except (TypeError, ValueError, OverflowError):
-        return None
-
-
 def _transport(url,headers,timeout):
     try:
         with urlopen(Request(url,headers=headers,method="GET"),timeout=timeout) as r:
@@ -79,11 +49,7 @@ def _transport(url,headers,timeout):
             data=json.loads(raw.decode("utf-8"))
             if not isinstance(data,dict): raise ProcurementAPIError("invalid_api_json")
             return data
-    except HTTPError as e:
-        if e.code == 429:
-            delay = _retry_after_seconds(e.headers.get("Retry-After") if e.headers else None)
-            raise RateLimitedError(delay) from None
-        raise ProcurementAPIError(f"api_http_{e.code}") from None
+    except HTTPError as e: raise ProcurementAPIError("api_rate_limited" if e.code==429 else f"api_http_{e.code}") from None
     except (URLError,TimeoutError): raise ProcurementAPIError("api_transport_error") from None
     except (UnicodeDecodeError,json.JSONDecodeError): raise ProcurementAPIError("invalid_api_json") from None
 class ChileCompraClient:
@@ -102,20 +68,10 @@ class ChileCompraClient:
                 return self.transport(self.base_url+path+q,{"ticket":self.ticket},self.timeout)
             except ProcurementAPIError as e:
                 reason=str(e)
-                delay=self.retry_backoff_seconds*(2**attempt)
-                if isinstance(e, RateLimitedError):
-                    server_delay=e.retry_after_seconds
-                    if (type(server_delay) not in (int,float) or not math.isfinite(server_delay)
-                        or server_delay<0 or server_delay>MAX_RATE_LIMIT_WAIT_SECONDS):
-                        raise
-                    delay=max(delay,server_delay)
-                    retryable=delay<=MAX_RATE_LIMIT_WAIT_SECONDS
-                else:
-                    retryable=reason in transient
-                can_retry=retryable and attempt<self.retry_limit and self.budget.used<self.budget.limit
+                can_retry=reason in transient and attempt<self.retry_limit and self.budget.used<self.budget.limit
                 if not can_retry: raise
                 self.transient_retries+=1
-                self.sleep_fn(delay)
+                self.sleep_fn(self.retry_backoff_seconds*(2**attempt))
         raise ProcurementAPIError("unreachable_retry_state")
     def list_page(self,*,published_from=None,published_to=None,changed_from=None,changed_to=None,page=1,page_size=15,states=None,region=None,query=None):
         if type(page) is not int or page<1 or type(page_size) is not int or not 1<=page_size<=50: raise ProcurementAPIError("invalid_pagination")
