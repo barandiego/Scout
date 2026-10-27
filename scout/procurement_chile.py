@@ -54,7 +54,9 @@ def _main():
     if a.cmd=="backfill":
         records,diag=client.historical_window(published_from=a.start,published_to=a.end,observed_at=observed_iso,max_pages=int(lim["max_list_pages"]),max_details=int(lim["max_detail_requests"]),states=["cerrada","proveedor_seleccionado","desierta","cancelada","oc_emitida"])
         inserted=sum(st.add_history(r) for r in records)
-        print(json.dumps({"ok":True,"inserted":inserted,"diagnostics":diag,"phase1":phase1_report(records)},indent=2)); return 0  # noqa: F405
+        healthy, _ = monitor_health(diag)
+        print(json.dumps({"ok":healthy,"inserted":inserted,"diagnostics":diag,"phase1":phase1_report(records)},indent=2))  # noqa: F405
+        return 0 if healthy else 2
     if a.lookback_hours<1 or a.lookback_hours>24: raise ProcurementAPIError("invalid_monitor_lookback")  # noqa: F405
     cursor=st.latest_cursor()
     changed_from=cursor or (observed-timedelta(hours=a.lookback_hours)).isoformat().replace("+00:00","Z")
