@@ -1,47 +1,117 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 628320.0,
-      "buyer": "CENTRO DE FORMACION TECNICA ESTATAL DE MAGALLANES",
-      "closes_at": "2026-10-29T17:00:00",
-      "code": "1109692-260-COT26",
-      "estimated_budget": 628320.0,
-      "name": "Adquisición de Manteles Institucionales Proceso de Admisión 2027, Entrega en la Comuna de Punta Arenas",
+      "available_budget_clp": 125000.0,
+      "buyer": "UNIVERSIDAD DE TARAPACA",
+      "closes_at": "2026-10-28T14:30:00",
+      "code": "1053139-148-COT26",
+      "estimated_budget": 125000.0,
+      "name": "Artículos de oficina, para la carrera Ingeniería Eléctrica y Electrónica- DIEE",
+      "products": 3,
+      "region": "Región de Arica y Parinacota"
+    },
+    {
+      "available_budget_clp": 7000000.0,
+      "buyer": "SERVICIO DE SALUD ACONCAGUA",
+      "closes_at": "2026-10-29T14:00:00",
+      "code": "2200-252-COT26",
+      "estimated_budget": 7000000.0,
+      "name": "JORNADA ANUAL PRAPS MAS SALUD EN COMUNIDAD Y JORNADA ANUAL MACROZONAL CHILE CRECE CONTIGO - DAP",
+      "products": 2,
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 3500000.0,
+      "buyer": "CORP NACIONAL FORESTAL",
+      "closes_at": "2026-10-29T15:00:00",
+      "code": "4644-103-COT26",
+      "estimated_budget": 3500000.0,
+      "name": "ARTICULOS PARA FAENA GORE MAÑIHUALES SIC: 453 SIRE:418",
+      "products": 14,
+      "region": "Región Aysén del General Carlos Ibáñez del Campo"
+    },
+    {
+      "available_budget_clp": 3678000.0,
+      "buyer": "SERVICIO AGRICOLA Y GANADERO",
+      "closes_at": "2026-10-29T11:00:00",
+      "code": "1161-300-COT26",
+      "estimated_budget": 3678000.0,
+      "name": "LPAT Adquisición de materiales y contratación de servicios de reparación y mantención – CFT Rio Encuentro, comuna de Palena",
       "products": 5,
-      "region": "Región de Magallanes y de la Antártica"
+      "region": "Región de los Lagos"
     },
     {
-      "available_budget_clp": 1313086.0,
-      "buyer": "CENTRO DE FORMACION TECNICA ESTATAL DE MAGALLANES",
-      "closes_at": "2026-10-28T20:00:00",
-      "code": "1109692-261-COT26",
-      "estimated_budget": 1313086.0,
-      "name": "Adq.de Insumos y Fármacos veterinarios con entrega en la Ciudad de Porvenir, Tierra del Fuego.",
-      "products": 27,
-      "region": "Región de Magallanes y de la Antártica"
+      "available_budget_clp": 5000000.0,
+      "buyer": "I MUNICIPALIDAD DE LA PINTANA",
+      "closes_at": "2026-10-29T16:00:00",
+      "code": "2273-906-COT26",
+      "estimated_budget": 5000000.0,
+      "name": "MANTENCION Y REPARACION DE DRON, EXP. 16466 MEMORANDUM 28615 ear.",
+      "products": 3,
+      "region": "Región Metropolitana de Santiago"
     },
     {
-      "available_budget_clp": 4662750.0,
-      "buyer": "UNIVERSIDAD ARTURO PRAT",
-      "closes_at": "2026-10-29T13:00:00",
-      "code": "2013-1830-COT26",
-      "estimated_budget": 4662750.0,
-      "name": "ADQUISICIÓN DE MATERIAL DE OFICINA",
-      "products": 1,
+      "available_budget_clp": 600000.0,
+      "buyer": "CENTRO DE FORMACION TECNICA DE LA REGION DE TARAPACA",
+      "closes_at": "2026-10-28T13:30:00",
+      "code": "1026727-385-COT26",
+      "estimated_budget": 600000.0,
+      "name": "Adquisición de insumos y material de microscopía para la carrera TNS Enfermería del CFT",
+      "products": 7,
       "region": "Región de Tarapacá"
     },
     {
-      "available_budget_clp": 3000000.0,
-      "buyer": "UNIVERSIDAD DE VALPARAISO",
-      "closes_at": "2026-10-28T16:00:00",
-      "code": "633470-192-COT26",
-      "estimated_budget": 3000000.0,
-      "name": "Adquisición de sillas ergonómicas - Escuela de Ingeniería Informática - Facultad de Ingeniería",
+      "available_budget_clp": 950000.0,
+      "buyer": "Division de Bienestar Social",
+      "closes_at": "2026-10-28T11:40:00",
+      "code": "796290-89-COT26",
+      "estimated_budget": 950000.0,
+      "name": "GBS-117-RU-ÁRTICULOS DE FERRETERÍA PARA INSTALACIÓN DE CÁMARAS CASINO CB1° JAIME BADILLA.",
+      "products": 19,
+      "region": "Región de los Lagos"
+    },
+    {
+      "available_budget_clp": 396508.0,
+      "buyer": "Servicio de Salud del Reloncaví",
+      "closes_at": "2026-10-28T15:00:00",
+      "code": "4906-112-COT26",
+      "estimated_budget": 396508.0,
+      "name": "Parches Desfibriladores Ud. de Urgencia del Cesfam Rio Negro Hornopirén",
+      "products": 2,
+      "region": "Región de los Lagos"
+    },
+    {
+      "available_budget_clp": 400000.0,
+      "buyer": "I MUNICIPALIDAD DE PERQUENCO",
+      "closes_at": "2026-10-28T12:00:00",
+      "code": "4324-136-COT26",
+      "estimated_budget": 400000.0,
+      "name": "Insumos de Escritorio Cesfam y Postas",
+      "products": 6,
+      "region": "Región de la Araucanía"
+    },
+    {
+      "available_budget_clp": 3080000.0,
+      "buyer": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA SANTIAGO CENTR",
+      "closes_at": "2026-10-28T11:35:00",
+      "code": "1485217-110-COT26",
+      "estimated_budget": 3080000.0,
+      "name": "ISB // MATERIALES BIBLIOTECA INSUCO",
+      "products": 20,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 1160406.0,
+      "buyer": "I MUNICIPALIDAD DE LA ESTRELLA",
+      "closes_at": "2026-10-28T11:49:00",
+      "code": "4769-90-COT26",
+      "estimated_budget": 1160406.0,
+      "name": "Servicios profesionales de Terapeuta Ocupacional - Programa Más Salud en Comunidad",
       "products": 1,
-      "region": "Región de Valparaíso"
+      "region": "Región del Libertador General Bernardo O´Higgins"
     }
   ],
-  "active_structurally_reconstructable_count": 4,
+  "active_structurally_reconstructable_count": 11,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -59,7 +129,7 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-10-27T05:16:29Z",
+  "generated_at": "2026-10-27T14:39:34Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -67,16 +137,16 @@
   "phase1": {
     "records": 20,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 2
+      "no_observable_competitive_prices": 8
     },
-    "resolved": 16,
-    "structurally_reconstructable": 18,
-    "with_observable_quote_totals": 14,
-    "with_purchase_order_indicator": 0
+    "resolved": 9,
+    "structurally_reconstructable": 12,
+    "with_observable_quote_totals": 1,
+    "with_purchase_order_indicator": 1
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-27T05:16:29Z"
+    "changed_to": "2026-10-27T14:39:34Z"
   }
 }
