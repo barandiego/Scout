@@ -1,16 +1,28 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-27T05:20:41.384088+00:00
+Generated: 2026-10-27T14:46:07.093528+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 157
+- New this cycle: 145
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): arxiv_ai:unavailable_or_invalid
-- Categories: agriculture 436, ai 108, commerce 18, energy 478, robotics 760
+- Feed failures (fail-open for public intake only): arxiv_ai:unavailable_or_invalid, crossref_energy:unavailable_or_invalid
+- Categories: agriculture 446, ai 109, commerce 18, energy 473, robotics 754
 
 ## Recently encountered signals
+
+### vikkychy/FARMORA
+- Source: https://github.com/vikkychy/FARMORA
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### Mohit-choudhary572/Bravo
+- Source: https://github.com/Mohit-choudhary572/Bravo
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### muhammadnajeebullah645-crypto/Smart-Agriculture-and-Future-Farming-System
 - Source: https://github.com/muhammadnajeebullah645-crypto/Smart-Agriculture-and-Future-Farming-System
@@ -360,6 +372,18 @@ Generated: 2026-10-27T05:20:41.384088+00:00
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
+### geetmalhotra576-hub/Crop-Sentinel
+- Source: https://github.com/geetmalhotra576-hub/Crop-Sentinel
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### GIW2026Hackathon/DairyHub
+- Source: https://github.com/GIW2026Hackathon/DairyHub
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
 ### Constraint-Consistent Multi-Service Scheduling of Grid-Connected Battery Energy Storage Systems for Frequency and Demand Flexibility Support
 - Source: https://doi.org/10.1109/sege70974.2026.11738944
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
@@ -434,30 +458,6 @@ Generated: 2026-10-27T05:20:41.384088+00:00
 
 ### ambatimanosaikumar-cloud/Smart-Crop-Advisor
 - Source: https://github.com/ambatimanosaikumar-cloud/Smart-Crop-Advisor
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### premmendhekar/NPK-Precision-Agriculture
-- Source: https://github.com/premmendhekar/NPK-Precision-Agriculture
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### rohankpersonal77-netizen/KrishiMitra_AI
-- Source: https://github.com/rohankpersonal77-netizen/KrishiMitra_AI
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Aayushp11607/Cropsense_AI
-- Source: https://github.com/Aayushp11607/Cropsense_AI
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### GSK-Chaitanya05/Skillbridge-Project
-- Source: https://github.com/GSK-Chaitanya05/Skillbridge-Project
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
