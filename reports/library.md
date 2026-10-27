@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-26T23:34:56.422612+00:00
+Generated: 2026-10-27T03:43:32.268721+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 138 (0 HQ survivors, 138 watches)
+- Active research: 140 (0 HQ survivors, 140 watches)
 - Rejected opportunities excluded: 76
-- Critic-and-judge reviewed: 64
+- Critic-and-judge reviewed: 65
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -62,6 +62,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Whether any specific SFA participant has an unmet testing problem that is not already covered by ATENA, official CMF documentation, internal QA, or an incumbent impl; The number of entities that will actively participate before July 2027 and the subset with budget for external testing.; Whether ATENA provides executable test cases, test-data support, automated assertions, certification evidence, or only an environment and operational guidance.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836
+
+### Chile SFA conformance and consent-flow testing for smaller regulated participants [opp_0780c88e2a2577968655]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Smaller financial institutions and prospective SFA participants must translate the technical annex, consent requirements, security controls, and API behavior into working integrations before a regulated production deadline. The near-term value is implementation-risk reduction rather than a speculative consumer app.
+- Value capture: A narrowly scoped conformance pack: test cases for consent, authentication, data-access and payment-initiation flows; API contract checks; evidence logs; and remediation reports. The potential payer is a participating or intending-to-participate financial institution or fintech that needs implementation evidence. No price or purchase commitment was found, so willingness to pay remains unverified.
+- Participation hypothesis: Use the CMF developer portal and sandbox to build a small demonstrator covering one consented account-information flow and one negative/error flow. Publish the test results and a fixed-scope sample checklist, then ask named Chilean regulated entities or implementation vendors whether they will pay for a paid pilot. Falsification step: before building a full product, obtain at least one written request for a paid assessment or a concrete request to run the checklist against an entity's test endpoint; otherwise discard the wedge.
+- Critic/judge: The regulatory premise is sufficiently grounded by CMF primary materials: NCG 514 is in force and the cited amendment/technical annex, sandbox, developer portal, simplified participation, and staged timing are plausible. The proposed work can operate against consented test/sandbox environments, so there is no demonstrated legal or technical data-access fatality. However, this is not yet HQ-worthy as a standalone service asset: the offic
+- Next evidence gaps: Number of Chilean entities that will actually need external conformance assistance, segmented by role and size.; Whether simplified participation materially reduces the technical burden for the target smaller entities.; Whether CMF sandbox results or formal registration require third-party validation, or merely self-testing and evidence submission.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html; https://www.bcentral.cl/documents/33528/7849961/Financial%2BStability%2BReport%2BSecond%2BHalf%2B2025.pdf/83c6bb57-4793-0438-3959-bfd68fea216f?t=1765546573527
 
 ### Chile SFA implementation adapter for consent, directory and API conformance [opp_19c39afc662c8bd68101]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -672,6 +682,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html; https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836
+
+### Independent field-service and leasing wedge around autonomous agricultural robots [opp_6ec905db3915e1dcfb85]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States
+- Thesis: The executable gap is not inventing another robot; it is reducing adoption friction for farms that cannot justify or operationally support a full purchase. A local deployment, monitoring and maintenance layer could participate where the manufacturer permits third-party service or channel partners.
+- Value capture: Potential cash-flow sources are manufacturer-paid deployment/service contracts, farm-paid short-term leasing, or per-acre/per-field operating fees. The evidence confirms leasing and farm deployment, but does not establish third-party reseller authorization, local service margins, or a farm's willingness to pay an independent operator.
+- Participation hypothesis: Do not buy inventory first. Select one crop and geography served by a robot manufacturer, identify farms already using or publicly trialing autonomous equipment, and offer a paid field-readiness assessment covering access, mapping, charging, safety and staffing. Falsification step: contact the manufacturer and ten target farms; proceed only if the manufacturer confirms a channel/service route and at least one farm agrees to a paid or deposit-backed pilot. Otherwise treat the opportunity as unverified.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/1760404/000110465926075802/tm2617498d1_partiiandiii.htm; https://www.demeterobotics.com/; https://www.harnix.md/
 
 ### Local-first Chilean DTE invoice reconciliation and exception review [opp_8ed1b40a94786a3e6997]
 - Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile

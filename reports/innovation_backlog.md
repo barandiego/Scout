@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 138
+Candidates: 140
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -916,6 +916,18 @@ Candidates: 138
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836
 
+## Chile SFA conformance and consent-flow testing for smaller regulated participants
+- Status: watch | open_finance_chile
+- Current idea: Smaller financial institutions and prospective SFA participants must translate the technical annex, consent requirements, security controls, and API behavior into working integrations before a regulated production deadline. The near-term value is implementation-risk reduction rather than a speculative consumer app.
+- Potential economic capture: A narrowly scoped conformance pack: test cases for consent, authentication, data-access and payment-initiation flows; API contract checks; evidence logs; and remediation reports. The potential payer is a participating or intending-to-participate financial institution or fintech that needs implementation evidence. No price or purchase commitment was found, so willingness to pay remains unverified.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Number of Chilean entities that will actually need external conformance assistance, segmented by role and size.; Whether simplified participation materially reduces the technical burden for the target smaller entities.; Whether CMF sandbox results or formal registration require third-party validation, or merely self-testing and evidence submission.
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html; https://www.bcentral.cl/documents/33528/7849961/Financial%2BStability%2BReport%2BSecond%2BHalf%2B2025.pdf/83c6bb57-4793-0438-3959-bfd68fea216f?t=1765546573527
+
 ## Chile SFA conformance-test harness for API, consent and payment-initiation flows
 - Status: watch | open_finance_chile
 - Current idea: Financial institutions and prospective SFA participants must convert the published API and control requirements into repeatable integration and acceptance tests. A narrowly scoped reusable test harness could reduce internal engineering and certification-preparation work, but the evidence does not establish a guaranteed procurement budget or mandated external vendor.
@@ -1551,6 +1563,18 @@ Candidates: 138
 - Critical gaps: Whether any target manufacturer permits independent deployment, mapping, maintenance, remote monitoring, or customer-facing operation.; Whether manufacturer warranties, software licenses, telemetry systems, and safety policies restrict third-party intervention.; Actual number of deployed robots in the target U.S. region, crop mix, operating season length, and service-call density.
 - Possible initial budget:
 - Source URLs: https://www.sec.gov/Archives/edgar/data/1760404/000110465926075802/tm2617498d1_partiiandiii.htm; https://www.haggertyagrobotics.com/farmdroid-fd20; https://www.agricultural-robotics.com/robot/robot-one
+
+## Independent field-service and leasing wedge around autonomous agricultural robots
+- Status: watch | robotics_agritech
+- Current idea: The executable gap is not inventing another robot; it is reducing adoption friction for farms that cannot justify or operationally support a full purchase. A local deployment, monitoring and maintenance layer could participate where the manufacturer permits third-party service or channel partners.
+- Potential economic capture: Potential cash-flow sources are manufacturer-paid deployment/service contracts, farm-paid short-term leasing, or per-acre/per-field operating fees. The evidence confirms leasing and farm deployment, but does not establish third-party reseller authorization, local service margins, or a farm's willingness to pay an independent operator.
+- **Research routes to test (NOT validated claims):**
+  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
+  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
+  - Arrange a bounded field validation with an actual farm operator before scaling.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.sec.gov/Archives/edgar/data/1760404/000110465926075802/tm2617498d1_partiiandiii.htm; https://www.demeterobotics.com/; https://www.harnix.md/
 
 ## Independent operating-support wedge around DJI agricultural drones already sold in Chile
 - Status: watch | robotics_agritech

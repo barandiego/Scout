@@ -1,15 +1,15 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-26T23:34:56.173498+00:00
+Generated: 2026-10-27T03:43:31.952250+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['tokenization_finance', 'business_model_migration', 'cost_curve']
-- raw_candidates: 3
-- parseable_candidates: 3
-- normalized_candidates: 3
+- lenses: ['open_finance_chile', 'adoption_lag', 'underserved_buyers']
+- raw_candidates: 2
+- parseable_candidates: 2
+- normalized_candidates: 2
 - normalization_rejected: 0
-- grounded_sources: 5
+- grounded_sources: 6
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
@@ -17,12 +17,12 @@ Generated: 2026-10-26T23:34:56.173498+00:00
 - judge_reviews: 1
 - survivors: 0
 - watches: 2
-- rejected: 2
+- rejected: 0
 - errors_by_stage: {}
-- rejection_reasons: {'discarded_ungrounded_url': 1, 'insufficient_unique_evidence': 1}
-- cost_usd: 0.04403045
+- rejection_reasons: {}
+- cost_usd: 0.04363905
 - cost_uncertain: False
-- budget_remaining_usd: 0.03596955
+- budget_remaining_usd: 0.03636095
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,8 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Low-cost narrow-row weeding robot as a paid field trial or custom build: deferred_by_review_cap
-- Chile SFA developer-conformance test harness before July 2027 implementation: deferred_by_review_cap
 - Chile Open Finance conformance-test harness for fintech/API teams: deferred_by_review_cap
 - Bilingual AI safety evaluator contract accessible from Chile: deferred_by_review_cap
 - Build a pre-compliance prototype for Chile’s Open Finance APIs: deferred_by_review_cap
@@ -51,13 +49,15 @@ No survivors. Scout does not manufacture a daily winner.
 - Natura marketplace catalog and fulfillment wedge in Chile: deferred_by_review_cap
 - Chile Open Finance cash-flow underwriting adapter for MSME lenders: deferred_by_review_cap
 - Water-efficiency field validation service for Chilean irrigated agriculture: deferred_by_review_cap
+- Independent field-service and leasing wedge around autonomous agricultural robots: deferred_by_review_cap
+- Chile SFA conformance and consent-flow testing for smaller regulated participants: The regulatory premise is sufficiently grounded by CMF primary materials: NCG 514 is in force and the cited amendment/technical annex, sandbox, developer portal, simplified participation, and staged timing are plausible. The proposed work can operate against consented test/sandbox environments, so there is no demonstrated legal or technical data-access fatality. However, this is not yet HQ-worthy as a standalone service asset: the official sandbox and published technical requirements may commoditize the core checklist, smaller entities may face reduced obligations or outsource implementation, and there is no validated buyer, budget, paid demand, or durable differentiation against local integrators, cybersecurity firms, core vendors, and internal teams. It survives only as a tightly scoped pre-build validation wedge: paid conformance-readiness assessment for a specific regulated role and API flow, contingent on buyer evidence.
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=backlog",
-    "research_queue_unreviewed=68"
+    "deep_review_lane=fresh",
+    "research_queue_unreviewed=69"
   ],
   "stages": [
     {
@@ -65,26 +65,29 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 18,
+      "grounded_source_count": 21,
       "search_source_urls": [
-        "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Biotechnology+and+Other+New+Production+Technologies+Annual_Santiago_Chile_CI2025-0031.pdf",
-        "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Economic+Outlook+for+Chilean+Agriculture_Santiago_Chile_CI2024-0001.pdf",
-        "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Grain+and+Feed+Annual_Santiago_Chile_CI2025-0004.pdf",
+        "https://arxiv.org/abs/2104.08934",
+        "https://arxiv.org/abs/2509.25056",
+        "https://clrc.ca.gov/pub/2024/MM24-05.pdf",
+        "https://en.wikipedia.org/wiki/FarmWise",
+        "https://ramistech.com/",
+        "https://v12customrobotics.com/pricing",
+        "https://www.bcentral.cl/documents/33528/5773323/fsr-1h-2024.pdf/064c0184-b2cb-2e03-27b3-fd487bb1190f?t=1717175352024",
+        "https://www.bcentral.cl/documents/33528/7849961/Financial%2BStability%2BReport%2BSecond%2BHalf%2B2025.pdf/83c6bb57-4793-0438-3959-bfd68fea216f?t=1765546573527",
+        "https://www.bcentral.cl/documents/d/banco-central/financial-stability-report-second-half-2025-pdf?download=true",
+        "https://www.cmfchile.cl/educa/621/w3-article-85051.html",
         "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-71459_doc_pdf.pdf",
         "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html",
         "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html",
-        "https://www.energy.gov/sites/default/files/2025-01/2025.01.13_DOE_Incremental_Cost_Report_for_publication.pdf",
-        "https://www.energy.gov/sites/default/files/2025-06/EAC%20Biennial%20Energy%20Storage%20Review_20250605_Final_v2.pdf",
-        "https://www.sec.gov/Archives/edgar/data/1627282/000162728226000067/ex_991xcalibertokenization.htm",
-        "https://www.sec.gov/Archives/edgar/data/1648960/000121390026102642/ea030647101ex99-1.htm",
-        "https://www.sec.gov/Archives/edgar/data/1682149/000110465926011064/tm265423d1_ex99-1.htm",
-        "https://www.sec.gov/Archives/edgar/data/2034269/000121390025102783/ea026272001ex99-1_cantor2.htm",
-        "https://www.sec.gov/Archives/edgar/data/2036307/000149315226038403/form10-q.htm",
-        "https://www.sec.gov/Archives/edgar/data/2094496/000162828026056164/exhibit991-secz2q26earning.htm",
-        "https://www.sec.gov/files/cft-written-wall-street-blockchain-august-2026.pdf",
-        "https://www.sec.gov/newsroom/speeches-statements/peirce-121125-tokenization-trending-statement-division-trading-markets-no-action-letter-related-dtcs-development"
+        "https://www.demeterobotics.com/",
+        "https://www.edge-ai-vision.com/wp-content/uploads/2025/09/BW07_Chang_Tensorfield_2025.pdf",
+        "https://www.greenbeam.us/",
+        "https://www.harnix.md/",
+        "https://www.nber.org/papers/w33410",
+        "https://www.opendroids.com/robots-for-agriculture",
+        "https://www.sec.gov/Archives/edgar/data/1760404/000110465926075802/tm2617498d1_partiiandiii.htm"
       ]
     },
     {
@@ -99,28 +102,11 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 2,
+      "grounded_sources": 3,
       "retry_justified": false
     },
     {
       "index": 1,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [
-        "discarded_ungrounded_url"
-      ],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 1,
-      "retry_justified": false
-    },
-    {
-      "index": 2,
       "stage": "normalization",
       "outcome": "accepted",
       "reasons": [],
@@ -131,51 +117,46 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 2,
+      "grounded_sources": 3,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_ab706c5f1aeb60ba7b7e",
+      "candidate_id": "opp_0780c88e2a2577968655",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 23,
+      "grounded_source_count": 18,
       "search_source_urls": [
-        "https://aednet.org/aed-foundation-releases-2026-technician-shortage-research-report/",
-        "https://aednet.org/reports-and-publications/research-reports/the-equipment-industry-technician-shortage/",
-        "https://apnews.com/article/df6087837925c14cfdd7ad2f80410a54",
-        "https://assets.noviams.com/novi-file-uploads/dpc/DPC_Perspectives_E-Newletters/2023/DPC_Perspectives_Spring_2023_Layout-f8861ccd.pdf",
-        "https://content.farmjournal.com/hubfs/Audience%20Development/Whitepapers/State%20of%20the%20Dairy%20Industry%20-%202026%20Report.pdf",
-        "https://dairy.extension.wisc.edu/articles/making-the-switch-to-robots-a-new-budgeting-tool-for-transitioning-to-automatic-milking-systems/",
-        "https://dairy.unl.edu/automatic-milking-systems-good-bad-and-unknown/",
-        "https://ers.usda.gov/sites/default/files/_laserfiche/publications/113706/ERR-356.pdf?v=31391",
-        "https://research.ncsu.edu/new-usda-report-explores-the-economics-of-precision-agriculture-in-dairy-farming/",
-        "https://www.agproud.com/articles/30999-what-it-will-take-to-get-more-robotic-milking-systems-in-the-south",
-        "https://www.agwestfc.com/docs/default-source/business-resources/industry-insights/industry-perspectives/dairy-industry-perspective.pdf",
-        "https://www.choicesmagazine.org/UserFiles/file/cmsarticle_1012.pdf",
-        "https://www.choicesmagazine.org/choices-magazine/theme-articles/dairy-theme/labor-constraints-and-automation-trends-in-california-and-wisconsin-dairy-farming",
-        "https://www.ers.usda.gov/publications/109625",
-        "https://www.ers.usda.gov/publications/113704",
-        "https://www.lelyna.com/us/centers/leedstone/",
-        "https://www.producer.com/crops/where-did-all-the-service-technicians-go/",
-        "https://www.reddit.com/r/dairyfarming/comments/1lxwmf0",
-        "https://www.reddit.com/r/dairyfarming/comments/1wxch4k/which_milking_robot/",
-        "https://www.reddit.com/r/farming/comments/16iku1r",
-        "https://www.reddit.com/r/farming/comments/1gyg4g5",
-        "https://www.usda.gov/sites/default/files/documents/Larry_Tranel.pdf",
-        "https://www.wgdairysupply.com/careers.html"
+        "https://aws.amazon.com/financial-services/security-compliance/compliance-center/cl/",
+        "https://cdn.hacienda.cl/asset/hacienda_prod/attachment/55ae5a946c68e825350d2e597beaf182784e2a44c12d940825de385ac86c3a48/1769806131?_expiration=1779209830&_hash=GnLTKgBtl29_dxqnaESfGq58CAmQwR3bxHp9dryTGZE",
+        "https://chocale.cl/?opinion=finanzas-abiertas-en-chile-que-paso-con-los-plazos-y-que-viene-para-los-clientes",
+        "https://cmfchile.cl/portal/prensa/625/w4-article-92449.html",
+        "https://cmfchile.cl/portal/principal/613/articles-86462_doc_pdf.pdf",
+        "https://cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://marcodigital.cl/biblioteca/normativas/cmf-ncg-514-finanzas-abiertas",
+        "https://www.carey.cl/cmf-modifica-la-ncg-n514-e-incorpora-estandares-tecnicos-para-la-implementacion-del-sistema-de-finanzas-abiertas",
+        "https://www.carey.cl/en/cmf-amends-ncg-no-514-and-incorporates-technical-standards-for-the-implementation-of-the-open-finance-system",
+        "https://www.cgap.org/research/publication/open-finance-oversight-and-supervision-emerging-practices-and-early-lessons",
+        "https://www.cmfchile.cl/institucional/mercados/ver_archivo.php?archivo=%2Fweb%2Fcompendio%2Fncg%2Fncg_514_2024.pdf",
+        "https://www.cmfchile.cl/normativa/ncg_569_2026.pdf",
+        "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-96819_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/principal/613/articles-100979_doc_pdf.pdf",
+        "https://www.cuatrecasas.com/es/latam/financiero/art/costos-beneficios-sistema-finanzas-abiertas",
+        "https://www.publicnow.com/view/DDCB30A10BC8E91299EC3F47C26D24D2CC1133C0"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_ab706c5f1aeb60ba7b7e",
+      "candidate_id": "opp_0780c88e2a2577968655",
       "coercions": [
         "contrary_evidence"
       ]
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_ab706c5f1aeb60ba7b7e",
+      "candidate_id": "opp_0780c88e2a2577968655",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -183,7 +164,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_ab706c5f1aeb60ba7b7e",
+      "candidate_id": "opp_0780c88e2a2577968655",
       "coercions": []
     }
   ],
@@ -191,44 +172,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 202,
-      "cache_write_tokens": 5595,
+      "reasoning_tokens": 284,
+      "cache_write_tokens": 5425,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01523135,
+      "cumulative_cost_usd": 0.01479565,
       "model": "gpt-5.6-luna",
-      "input_tokens": 14078,
+      "input_tokens": 13910,
       "cached_tokens": 0,
-      "output_tokens": 1780,
+      "output_tokens": 1452,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01523135
+      "estimated_cost_usd": 0.01479565
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 181,
-      "cache_write_tokens": 5266,
+      "reasoning_tokens": 164,
+      "cache_write_tokens": 5522,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02973245,
+      "cumulative_cost_usd": 0.02962055,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13599,
+      "input_tokens": 14038,
       "cached_tokens": 0,
-      "output_tokens": 1265,
+      "output_tokens": 1451,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0145011
+      "estimated_cost_usd": 0.0148249
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 90,
-      "cache_write_tokens": 2952,
+      "reasoning_tokens": 0,
+      "cache_write_tokens": 2917,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.04403045,
+      "cumulative_cost_usd": 0.04363905,
       "model": "gpt-5.6-terra",
-      "input_tokens": 2955,
+      "input_tokens": 2920,
       "cached_tokens": 0,
-      "output_tokens": 576,
+      "output_tokens": 560,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.014298
+      "estimated_cost_usd": 0.0140185
     }
   ]
 }

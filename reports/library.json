@@ -480,6 +480,98 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": true,
+      "discovered_at": "2026-10-27T03:43:07.772897+00:00",
+      "discovery_lens": "open_finance_chile",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The CMF added technical specifications, a developer portal, testing sandbox, simplified participation, and postponed entry into force until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        },
+        {
+          "claim": "NCG 514 is the vigente CMF rule regulating Chile's Sistema de Finanzas Abiertas.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Norma de Carácter General N°514",
+          "url": "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html"
+        },
+        {
+          "claim": "Banco Central describes the staged implementation and differentiated implementation deadlines for banks, card issuers and account providers.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Financial Stability Report, Second Half 2025",
+          "url": "https://www.bcentral.cl/documents/33528/7849961/Financial%2BStability%2BReport%2BSecond%2BHalf%2B2025.pdf/83c6bb57-4793-0438-3959-bfd68fea216f?t=1765546573527"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.82,
+      "falsification_conditions": [
+        "Discard the opportunity if at least 20 targeted Chilean regulated entities, fintechs, or implementation vendors produce no qualified discovery calls or no concrete testing pain within 60 days.",
+        "Discard the standalone product thesis if the CMF or a major incumbent releases an adequate free or bundled conformance suite covering the proposed core test cases and evidence outputs.",
+        "Discard the paid-service thesis if no target buyer will sign a paid pilot, paid assessment, or written procurement request before substantial product development.",
+        "Treat the opportunity as nonviable if prospects view the work as ordinary internal QA or existing vendor scope and will not allocate a separate budget.",
+        "Treat the smaller-participant wedge as falsified if most smaller entities either qualify for simplified participation with minimal testing or outsource all implementation to vendors that will not subcontract the work.",
+        "Treat the timing thesis as falsified if the July 2027 date is materially postponed again, or if clients do not expect meaningful testing or registration work before January 2027.",
+        "Treat differentiation as insufficient if a competent Chilean API or cybersecurity consultancy can reproduce the checklist and reporting package in less than one week without specialized assets.",
+        "Require abandonment or repositioning if testing requires access to sensitive production-like data that prospects cannot legally or operationally share with an external provider."
+      ],
+      "geography": "Chile",
+      "id": "opp_0780c88e2a2577968655",
+      "judge_reviewed": true,
+      "judgment": "The regulatory premise is sufficiently grounded by CMF primary materials: NCG 514 is in force and the cited amendment/technical annex, sandbox, developer portal, simplified participation, and staged timing are plausible. The proposed work can operate against consented test/sandbox environments, so there is no demonstrated legal or technical data-access fatality. However, this is not yet HQ-worthy as a standalone service asset: the official sandbox and published technical requirements may commoditize the core checklist, smaller entities may face reduced obligations or outsource implementation, and there is no validated buyer, budget, paid demand, or durable differentiation against local integrators, cybersecurity firms, core vendors, and internal teams. It survives only as a tightly scoped pre-build validation wedge: paid conformance-readiness assessment for a specific regulated role and API flow, contingent on buyer evidence.",
+      "last_record_updated_at": "2026-10-27T03:43:31.830409+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Number of Chilean entities that will actually need external conformance assistance, segmented by role and size.",
+        "Whether simplified participation materially reduces the technical burden for the target smaller entities.",
+        "Whether CMF sandbox results or formal registration require third-party validation, or merely self-testing and evidence submission.",
+        "Whether the CMF will provide an official conformance suite, automated test harness, certification process, or reusable reporting templates that eliminate most product differentiation.",
+        "Budget ownership: engineering, compliance, risk, legal, procurement, or an implementation vendor."
+      ],
+      "participation_path": "Use the CMF developer portal and sandbox to build a small demonstrator covering one consented account-information flow and one negative/error flow. Publish the test results and a fixed-scope sample checklist, then ask named Chilean regulated entities or implementation vendors whether they will pay for a paid pilot. Falsification step: before building a full product, obtain at least one written request for a paid assessment or a concrete request to run the checklist against an entity's test endpoint; otherwise discard the wedge.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Smaller financial institutions and prospective SFA participants must translate the technical annex, consent requirements, security controls, and API behavior into working integrations before a regulated production deadline. The near-term value is implementation-risk reduction rather than a speculative consumer app.",
+      "title": "Chile SFA conformance and consent-flow testing for smaller regulated participants",
+      "type": "service_asset",
+      "unknowns": [
+        "Number of Chilean entities that will actually need external conformance assistance, segmented by role and size.",
+        "Whether simplified participation materially reduces the technical burden for the target smaller entities.",
+        "Whether CMF sandbox results or formal registration require third-party validation, or merely self-testing and evidence submission.",
+        "Whether the CMF will provide an official conformance suite, automated test harness, certification process, or reusable reporting templates that eliminate most product differentiation.",
+        "Budget ownership: engineering, compliance, risk, legal, procurement, or an implementation vendor.",
+        "Expected price range and gross margin for a fixed-scope assessment.",
+        "Availability and strength of Chilean API integrators, cybersecurity firms, law firms, and core-banking vendors already selling adjacent services.",
+        "How many smaller regulated participants are technically capable of participating directly rather than outsourcing to larger technology providers.",
+        "Whether the relevant APIs, test endpoints, consent flows, and security requirements will remain stable through the July 2027 launch.",
+        "Whether the opportunity is seasonal and concentrated in a short pre-deadline window, making ongoing revenue and utilization poor.",
+        "Whether English-language or foreign providers can obtain the local trust, data-handling assurances, and institutional access required to win regulated customers.",
+        "Whether CMF requires, recognizes, or materially benefits from third-party validation versus participant self-testing.",
+        "Whether the official developer portal/sandbox includes automated conformance tests, reporting, or certification features that overlap the proposed offer.",
+        "Which exact participant category has both direct technical responsibility and budget for external readiness testing.",
+        "Number of addressable smaller institutions/fintechs, their implementation schedules, and their dependence on outside vendors.",
+        "Evidence of willingness to pay: paid pilot, procurement request, price range, sales cycle, and gross margin.",
+        "Whether one narrowly defined flow—such as consented account-information authorization plus negative security cases—produces a measurable reduction in sandbox failures, audit burden, or launch delay.",
+        "The incumbent landscape and whether prospective implementation vendors would subcontract or channel the work rather than compete with it."
+      ],
+      "value_capture_mechanism": "A narrowly scoped conformance pack: test cases for consent, authentication, data-access and payment-initiation flows; API contract checks; evidence logs; and remediation reports. The potential payer is a participating or intending-to-participate financial institution or fintech that needs implementation evidence. No price or purchase commitment was found, so willingness to pay remains unverified.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": true,
       "discovered_at": "2026-10-15T20:20:46.384983+00:00",
       "discovery_lens": "open_finance_chile",
       "estimated_capital": "",
@@ -5731,6 +5823,67 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-27T03:43:07.773698+00:00",
+      "discovery_lens": "adoption_lag",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Greenfield describes BOTONY autonomous agricultural robots, 23 leased robots on farms in seven states in 2025, and 2026 purchase and lease orders.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Greenfield Robotics SEC filing",
+          "url": "https://www.sec.gov/Archives/edgar/data/1760404/000110465926075802/tm2617498d1_partiiandiii.htm"
+        },
+        {
+          "claim": "A separate agricultural robotics provider describes a robot-as-a-service model with fixed pricing per acre or bin, maintenance and software included.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Demeter Robotics",
+          "url": "https://www.demeterobotics.com/"
+        },
+        {
+          "claim": "Another provider describes a low-upfront, recurring per-kilogram harvesting service model, evidencing that usage-based agricultural robotics participation is commercially contemplated.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "HARNIX harvesting robots",
+          "url": "https://www.harnix.md/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.82,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_6ec905db3915e1dcfb85",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-27T03:43:07.818312+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Do not buy inventory first. Select one crop and geography served by a robot manufacturer, identify farms already using or publicly trialing autonomous equipment, and offer a paid field-readiness assessment covering access, mapping, charging, safety and staffing. Falsification step: contact the manufacturer and ten target farms; proceed only if the manufacturer confirms a channel/service route and at least one farm agrees to a paid or deposit-backed pilot. Otherwise treat the opportunity as unverified.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The executable gap is not inventing another robot; it is reducing adoption friction for farms that cannot justify or operationally support a full purchase. A local deployment, monitoring and maintenance layer could participate where the manufacturer permits third-party service or channel partners.",
+      "title": "Independent field-service and leasing wedge around autonomous agricultural robots",
+      "type": "service_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Potential cash-flow sources are manufacturer-paid deployment/service contracts, farm-paid short-term leasing, or per-acre/per-field operating fees. The evidence confirms leasing and farm deployment, but does not establish third-party reseller authorization, local service margins, or a farm's willingness to pay an independent operator.",
+      "verified_sales": null,
+      "vertical": "robotics_agritech",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-22T13:27:42.382920+00:00",
       "discovery_lens": "ai_open_source",
       "estimated_capital": "",
@@ -9716,13 +9869,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-26T23:34:56.422612+00:00",
+  "generated_at": "2026-10-27T03:43:32.268721+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 76,
-  "reviewed_cards": 64,
+  "reviewed_cards": 65,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 214,
-  "watch": 138
+  "total_distinct_opportunities": 216,
+  "watch": 140
 }

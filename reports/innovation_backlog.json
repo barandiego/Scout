@@ -2883,6 +2883,47 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use the CMF developer portal and sandbox to build a small demonstrator covering one consented account-information flow and one negative/error flow. Publish the test results and a fixed-scope sample checklist, then ask named Chilean regulated entities or implementation vendors whether they will pay for a paid pilot. Falsification step: before building a full product, obtain at least one written request for a paid assessment or a concrete request to run the checklist against an entity's test endpoint; otherwise discard the wedge.",
+      "current_thesis": "Smaller financial institutions and prospective SFA participants must translate the technical annex, consent requirements, security controls, and API behavior into working integrations before a regulated production deadline. The near-term value is implementation-risk reduction rather than a speculative consumer app.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Number of Chilean entities that will actually need external conformance assistance, segmented by role and size.",
+        "Whether simplified participation materially reduces the technical burden for the target smaller entities.",
+        "Whether CMF sandbox results or formal registration require third-party validation, or merely self-testing and evidence submission.",
+        "Whether the CMF will provide an official conformance suite, automated test harness, certification process, or reusable reporting templates that eliminate most product differentiation.",
+        "Budget ownership: engineering, compliance, risk, legal, procurement, or an implementation vendor.",
+        "Expected price range and gross margin for a fixed-scope assessment.",
+        "Availability and strength of Chilean API integrators, cybersecurity firms, law firms, and core-banking vendors already selling adjacent services."
+      ],
+      "investment_authorized": false,
+      "name": "Chile SFA conformance and consent-flow testing for smaller regulated participants",
+      "opportunity_id": "opp_0780c88e2a2577968655",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html",
+        "https://www.bcentral.cl/documents/33528/7849961/Financial%2BStability%2BReport%2BSecond%2BHalf%2B2025.pdf/83c6bb57-4793-0438-3959-bfd68fea216f?t=1765546573527"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A narrowly scoped conformance pack: test cases for consent, authentication, data-access and payment-initiation flows; API contract checks; evidence logs; and remediation reports. The potential payer is a participating or intending-to-participate financial institution or fintech that needs implementation evidence. No price or purchase commitment was found, so willingness to pay remains unverified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use the CMF developer documentation to build a small offline harness covering a few published endpoints and consent/error cases; do not connect to production systems or represent it as CMF-certified. Then identify publicly listed Chilean banks, payment issuers, account providers and fintech applicants, send a short demonstration with a fixed-scope pilot proposal, and record whether any party agrees to a paid proof of concept or supplies an authorized test environment. Lowest-cost falsification: before building full coverage, manually implement 5-10 API scenarios from the official specifications and seek three explicit pilot conversations; abandon or narrow the offer if no qualified participant will review the demo or pay for a defined test.",
       "current_thesis": "Financial institutions and prospective SFA participants must convert the published API and control requirements into repeatable integration and acceptance tests. A narrowly scoped reusable test harness could reduce internal engineering and certification-preparation work, but the evidence does not establish a guaranteed procurement budget or mandated external vendor.",
       "founder_hours_initial_unverified_estimate": "",
@@ -4923,6 +4964,43 @@
       "category": "robotics_agritech",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Do not buy inventory first. Select one crop and geography served by a robot manufacturer, identify farms already using or publicly trialing autonomous equipment, and offer a paid field-readiness assessment covering access, mapping, charging, safety and staffing. Falsification step: contact the manufacturer and ten target farms; proceed only if the manufacturer confirms a channel/service route and at least one farm agrees to a paid or deposit-backed pilot. Otherwise treat the opportunity as unverified.",
+      "current_thesis": "The executable gap is not inventing another robot; it is reducing adoption friction for farms that cannot justify or operationally support a full purchase. A local deployment, monitoring and maintenance layer could participate where the manufacturer permits third-party service or channel partners.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Independent field-service and leasing wedge around autonomous agricultural robots",
+      "opportunity_id": "opp_6ec905db3915e1dcfb85",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
+        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
+        "Arrange a bounded field validation with an actual farm operator before scaling."
+      ],
+      "supporting_source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1760404/000110465926075802/tm2617498d1_partiiandiii.htm",
+        "https://www.demeterobotics.com/",
+        "https://www.harnix.md/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Potential cash-flow sources are manufacturer-paid deployment/service contracts, farm-paid short-term leasing, or per-acre/per-field operating fees. The evidence confirms leasing and farm deployment, but does not establish third-party reseller authorization, local service margins, or a farm's willingness to pay an independent operator.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "robotics_agritech",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use the publicly listed DJI Agras T70P/T25P/T100 price and support claims to create a one-page operating assessment. Approach farms, agricultural contractors or cooperatives that can legally use the equipment; do not promise authorization or agronomic results. Run one paid or explicitly pre-paid pilot measuring hectares covered, refill time, downtime, labor hours and chemical-use records. Falsify if no operator permits an on-site assessment, no farm supplies a measurable use case, or the pilot cannot produce a cost comparison against its current spraying method.",
       "current_thesis": "The defensible wedge is not importing the drone or claiming a supply gap. It is a testable local operating layer: pre-purchase field assessment, application planning, operator training, maintenance coordination and utilization reporting for farms that already have access to the equipment. The payer and price remain unverified.",
       "founder_hours_initial_unverified_estimate": "",
@@ -5255,7 +5333,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-26T23:34:56.474763+00:00",
+  "generated_at": "2026-10-27T03:43:32.356426+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"
