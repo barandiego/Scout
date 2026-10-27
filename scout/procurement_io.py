@@ -90,7 +90,7 @@ class ChileCompraClient:
         return self._get("/v2/compra-agil/"+quote(code,safe=""))
     def historical_window(self,*,published_from,published_to,observed_at,max_pages,max_details,states=None):
         if type(max_pages) is not int or max_pages<=0 or type(max_details) is not int or max_details<=0: raise ProcurementAPIError("invalid_history_caps")
-        records=[]; codes=set(); duplicates=malformed=pages=detail_attempts=0; malformed_reasons={}; malformed_samples=[]; api_failures={}; budget_exhausted=False
+        records=[]; codes=set(); duplicates=malformed=pages=detail_attempts=0; malformed_reasons={}; malformed_samples=[]; api_failures={}; budget_exhausted=False; rate_limited=False
         for page in range(1,max_pages+1):
             payload=D(_payload(self.list_page(published_from=published_from,published_to=published_to,page=page,page_size=50,states=states)))
             items=L(payload.get("items")); pag=D(payload.get("paginacion")); pages+=1
@@ -108,6 +108,9 @@ class ChileCompraClient:
                 except ProcurementAPIError as e:
                     reason=str(e) or e.__class__.__name__
                     api_failures[reason]=api_failures.get(reason,0)+1
+                    if reason=="api_rate_limited":
+                        rate_limited=True; budget_exhausted=self.budget.used>=self.budget.limit
+                        break
                     if reason=="request_budget_exhausted" or self.budget.used>=self.budget.limit:
                         budget_exhausted=True
                         break
@@ -118,14 +121,14 @@ class ChileCompraClient:
                     reason=str(e) or e.__class__.__name__
                     malformed_reasons[reason]=malformed_reasons.get(reason,0)+1
                     if len(malformed_samples)<1: malformed_samples.append({"code":code,"reason":reason,**_detail_shape(raw)})
-            if detail_attempts>=max_details or budget_exhausted: break
+            if detail_attempts>=max_details or budget_exhausted or rate_limited: break
             total=nonneg_i(pag.get("total_paginas")); current=nonneg_i(pag.get("numero_pagina"))
             if total is None or current is None or current>=total: break
         return records,{"pages_fetched":pages,"detail_attempts":detail_attempts,"details_fetched":len(records),"duplicate_listings":duplicates,"malformed_details":malformed,"malformed_reasons":dict(sorted(malformed_reasons.items())),"malformed_samples":malformed_samples,"api_failures":dict(sorted(api_failures.items())),"transient_retries":self.transient_retries,"budget_exhausted":budget_exhausted,"requests_used":self.budget.used}
 
     def changed_window(self,*,changed_from,changed_to,observed_at,max_pages,max_details,states=None):
         if type(max_pages) is not int or max_pages<=0 or type(max_details) is not int or max_details<=0: raise ProcurementAPIError("invalid_change_caps")
-        records=[]; codes=set(); duplicates=malformed=pages=detail_attempts=0; malformed_reasons={}; malformed_samples=[]; api_failures={}; budget_exhausted=False
+        records=[]; codes=set(); duplicates=malformed=pages=detail_attempts=0; malformed_reasons={}; malformed_samples=[]; api_failures={}; budget_exhausted=False; rate_limited=False
         detail_cap_exhausted=False; pagination_incomplete=False; pagination_invalid=False; invalid_listing_items=0
         for page in range(1,max_pages+1):
             payload=D(_payload(self.list_page(changed_from=changed_from,changed_to=changed_to,page=page,page_size=50,states=states)))
@@ -151,6 +154,9 @@ class ChileCompraClient:
                 except ProcurementAPIError as e:
                     reason=str(e) or e.__class__.__name__
                     api_failures[reason]=api_failures.get(reason,0)+1
+                    if reason=="api_rate_limited":
+                        rate_limited=True; budget_exhausted=self.budget.used>=self.budget.limit
+                        break
                     if reason=="request_budget_exhausted" or self.budget.used>=self.budget.limit:
                         budget_exhausted=True
                         break
@@ -161,7 +167,7 @@ class ChileCompraClient:
                     reason=str(e) or e.__class__.__name__
                     malformed_reasons[reason]=malformed_reasons.get(reason,0)+1
                     if len(malformed_samples)<1: malformed_samples.append({"code":code,"reason":reason,**_detail_shape(raw)})
-            if detail_cap_exhausted or budget_exhausted: break
+            if detail_cap_exhausted or budget_exhausted or rate_limited: break
             total=nonneg_i(pag.get("total_paginas")); current=nonneg_i(pag.get("numero_pagina"))
             if total is None or current is None or total<1 or current!=page or current>total:
                 pagination_invalid=True
@@ -192,6 +198,23 @@ class ProcurementStore:
     def add_history(self,r): return self._append({"event_id":f"history:{r.code}:{r.last_changed_at}:{r.digest()[:16]}","kind":"history_snapshot","record":r.model_dump()})
     def add_shadow_decision(self,d): return self._append({"event_id":f"shadow:{d.procurement_code}:{d.decision_at}","kind":"shadow_decision","decision":d.model_dump()})
     def add_outcome(self,o): return self._append({"event_id":f"outcome:{o.procurement_code}:{o.resolved_at}","kind":"outcome","outcome":o.model_dump()})
+    def latest_rate_limit_cooldown(self):
+        values = []
+        for event in self.events:
+            if event.get("kind") == "rate_limit_cooldown":
+                value = TS(event.get("retry_after"))
+                if not value:
+                    raise ProcurementDataError("invalid_rate_limit_cooldown")
+                values.append(value)
+        return max(values, key=DT) if values else None
+
+    def set_rate_limit_cooldown(self, retry_after):
+        value = TS(retry_after)
+        if not value:
+            raise ProcurementDataError("invalid_rate_limit_cooldown")
+        return self._append({"event_id": "quota_cooldown:" + value,
+                             "kind": "rate_limit_cooldown", "retry_after": value})
+
     def latest_cursor(self):
         prior=[e["changed_through"] for e in self.events if e.get("kind")=="sync_cursor"]
         return max(prior,key=DT) if prior else None

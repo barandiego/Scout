@@ -624,6 +624,7 @@ def test_monitor_malformed_detail_is_not_complete_or_cursor_safe():
     ("pagination_invalid", "DEGRADED_INCOMPLETE_SOURCE_WINDOW"),
     ("invalid_listing_items", "DEGRADED_INCOMPLETE_SOURCE_WINDOW"),
     ("malformed_details", "DEGRADED_MALFORMED_DETAIL"),
+    ("api_failures", "DEGRADED_API_ERRORS"),
 ])
 def test_degraded_monitor_persists_partial_records_and_never_advances_cursor(
     tmp_path, monkeypatch, flag, outcome,
@@ -643,7 +644,7 @@ def test_degraded_monitor_persists_partial_records_and_never_advances_cursor(
         "pagination_incomplete": False, "pagination_invalid": False,
         "invalid_listing_items": 0, "requests_used": 2,
     }
-    diagnostics[flag] = 1 if flag in ("invalid_listing_items", "malformed_details") else True
+    diagnostics[flag] = {"api_rate_limited": 1} if flag == "api_failures" else 1 if flag in ("invalid_listing_items", "malformed_details") else True
 
     class FixtureClient:
         def __init__(self, *args, **kwargs):
