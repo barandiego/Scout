@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-27T09:36:42.383706+00:00
+Generated: 2026-10-27T17:28:53.667388+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['seller_supply_gap', 'chile_technology_import', 'early_adoption_investing']
+- lenses: ['market_positioning', 'asset_ownership', 'nfc_smart_commerce']
 - raw_candidates: 1
 - parseable_candidates: 1
 - normalized_candidates: 1
 - normalization_rejected: 0
-- grounded_sources: 2
+- grounded_sources: 3
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 0
+- judge_attempts: 1
 - critic_reviews: 1
-- judge_reviews: 0
+- judge_reviews: 1
 - survivors: 0
-- watches: 1
+- watches: 0
 - rejected: 1
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.0289223
+- cost_usd: 0.0446995
 - cost_uncertain: False
-- budget_remaining_usd: 0.0510777
+- budget_remaining_usd: 0.0353005
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -56,7 +56,7 @@ No survivors. Scout does not manufacture a daily winner.
 ```json
 {
   "notes": [
-    "deep_review_lane=backlog",
+    "deep_review_lane=fresh",
     "research_queue_unreviewed=69"
   ],
   "stages": [
@@ -65,28 +65,27 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 20,
+      "grounded_source_count": 19,
       "search_source_urls": [
-        "https://credencialeschile.cl/categoria-producto/nfc/",
-        "https://en.wikipedia.org/wiki/Built_Robotics",
-        "https://fprimecapital.com/wp-content/uploads/2026/03/State-of-Robotics-2026.pptx.pdf",
-        "https://pymevisible.cl/productos/adhesivo-personalizado",
-        "https://static.todolicitaciones.cl/licitacion/1107276-27-LE26/adquisicion-de-un-dron-fumigador",
-        "https://tnfc.cl/tienda/",
-        "https://www.aither.cl/tap/",
-        "https://www.chilecompra.cl/2025/08/chilecompra-lanza-licitacion-inedita-para-aplicar-inteligencia-artificial-en-compras-publicas-y-fortalecer-lucha-anticorrupcion/",
-        "https://www.chilecompra.cl/encuentra-oportunidades-de-negocio/",
-        "https://www.chilecompra.cl/wp-content/uploads/2026/02/2024-08-boletin-proveedores.pdf",
-        "https://www.cmfchile.cl/portal/prensa/615/articles-71154_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/principal/613/articles-108813_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cnr.gob.cl/cnr-impulsa-la-seguridad-hidrica-con-concurso-nacional-orientado-a-la-innovacion-en-riego/",
-        "https://www.corfo.gob.cl/sites/cpp/convocatoria/bienes-publicos-metropolitana-convocatoria-2026/",
-        "https://www.open-contracting.org/wp-content/uploads/2025/05/OO-OCP2025-bo-chile-public-procurement-case-study.pdf",
+        "https://americasmi.com/wp-content/uploads/2023/03/digital-payment-trends-in-2023_kushki.pdf",
+        "https://assets.falabella.com/v3/assets/blt7c5c2f2f888a7cc3/bltbf691046ad7ab067/6a1c6f18b19e4a79f901dfe4/Poli%CC%81ticas-de-privacidad-Bases_Legales-CL.pdf",
+        "https://es.wikipedia.org/wiki/Pago_sin_contacto",
+        "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/",
+        "https://onetap.cl/",
+        "https://planillaspyme.cl/tarjetas-nfc-menu-carta/",
+        "https://pymevisible.cl/productos/tarjeta-google",
+        "https://tarjetas-nfc.com/",
+        "https://vluetechservices.cl/catalogo/tarjetas-nfc-resenas/",
+        "https://www.bostonfed.org/-/media/Documents/PaymentStrategies/payment-strategies-contactless-report-2019.pdf",
+        "https://www.cerok.cl/",
+        "https://www.falabella.com/falabella-cl/brand/NATURA",
+        "https://www.falabella.com/falabella-cl/seller/Natura",
+        "https://www.mk11.cl/productos-y-servicios/negocio-inteligente/tarjetas-inteligentes",
+        "https://www.oecd.org/content/dam/oecd/en/publications/reports/2019/10/digital-government-in-chile-digital-identity_fe2e87b3/9ecba35e-en.pdf",
         "https://www.puntotap.cl/condiciones-de-venta",
-        "https://www.reddit.com/r/RoboStrategy/comments/1vx7lw8/first_robostrategy_shareholder_letter/",
-        "https://www.sec.gov/Archives/edgar/data/1885551/000110465926002110/tm262665d1_497ad.pdf"
+        "https://www.seacom.cl/blog/nfc-y-pagos-sin-contacto-el-rol-de-los-terminales-pos-modernos",
+        "https://www.visa.cl/content/dam/VCOM/download/about-visa/Visa_Core_Rules_and_Visa_Product_Chile_2025-04-12_EN.pdf",
+        "https://www.visa.com.ec/content/dam/VCOM/regional/lac/ENG/Default/Partner%20With%20Us/Info%20for%20Partners/visa-landscape/infographics/Visa%20Contactless%20Infographic_ENG.pdf"
       ]
     },
     {
@@ -101,77 +100,117 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 2,
+      "grounded_sources": 3,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_f4c70f1adccbe9b2583e",
+      "candidate_id": "opp_11cec85c0c0151850009",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 22,
+      "grounded_source_count": 38,
       "search_source_urls": [
-        "https://chirgwin.cl/en/chile-advances-the-implementation-of-its-open-finance-system/",
-        "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=f91f133e-cc24-401b-9e65-e37cc9fd1613",
-        "https://cmfchile.cl/portal/prensa/615/articles-73477_doc_pdf.pdf",
-        "https://cmfchile.cl/portal/principal/613/articles-86367_doc_pdf.pdf",
-        "https://cmfchile.cl/portal/principal/623/w4-article-113974.html",
-        "https://cmfchile.cl/portal/principal/623/w4-article-92466.html",
-        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA",
-        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA",
-        "https://openfinanceconnect.cl/",
-        "https://openfinanceconnect.cl/en/",
-        "https://ozoneapi.com/blog/what-our-regional-gms-are-expecting-in-open-finance-this-h2/",
-        "https://ozoneapi.com/blog/what-our-regional-gms-are-expecting-in-open-finance-this-h2/",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/principal/613/articles-82752_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.imf.org/-/media/files/publications/cr/2024/english/1chlea2024002.pdf",
-        "https://www.legal500.com/guides/chapter/chile-fintech/?export-pdf=",
-        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000069/MNCenglish.pdf",
-        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000098/managementcommentary2q20.htm"
+        "https://apnews.com/article/65e3d8840da9a5e140b65c482317d14a",
+        "https://b2befree.cl/producto/tarjeta-nfc-google-resenas-presentacion/",
+        "https://d31tqelrmghhhr.cloudfront.net/2025/02/CCB_GooglePay_FAQ2025-1.pdf",
+        "https://downloads.regulations.gov/FTC-2022-0070-0034/attachment_1.pdf",
+        "https://en.wikipedia.org/wiki/Local_search_%28Internet%29",
+        "https://en.wikipedia.org/wiki/Local_search_engine_optimisation",
+        "https://gustavoqsaraiva.com/Incentives_to_Fake_Reviews_in_Online_Platforms_Source.pdf",
+        "https://nfctech.cl/tarjetas-nfc-resenas-google",
+        "https://puntua.cl/",
+        "https://puntua.cl/",
+        "https://pymevisible.cl/tarjeta-nfc-qr",
+        "https://pymevisible.cl/tarjeta-nfc-qr",
+        "https://rbr.business.rutgers.edu/sites/default/files/documents/RBR-100103.pdf",
+        "https://storage.googleapis.com/msgsndr/SBFkmZtlt4Bdr7o3KnkA/media/68e3449a32a1d184c9d2f472.pdf",
+        "https://support.google.com/business/answer/7400114?hl=en-1",
+        "https://support.google.com/business/answer/7400114?hl=en-1",
+        "https://tarjetas-nfc.com/",
+        "https://tepuy3d.cl/products/tarjeta-nfc-para-reviews-de-google",
+        "https://time.com/6192933/fake-reviews-regulation/",
+        "https://vluetechservices.cl/catalogo/",
+        "https://vluetechservices.cl/catalogo/tarjetas-nfc-resenas/",
+        "https://vluetechservices.cl/catalogo/tarjetas-nfc-resenas/",
+        "https://www.larefactoria.cl/placas-nfc",
+        "https://www.opinapp.cl/",
+        "https://www.reddit.com/r/GoogleMyBusiness/comments/1sd0wbs/googles_review_system_is_broken_and_is_actively/",
+        "https://www.reddit.com/r/GoogleMyBusiness/comments/1tn81br/google_keeps_removing_real_reviews_from_my_google/",
+        "https://www.reddit.com/r/GoogleMyBusiness/comments/1uxsh4t/approximately_800_genuine_google_reviews/",
+        "https://www.reddit.com/r/GoogleMyBusiness/comments/1vf1o6m/profile_restricted_for_fake_engagement/",
+        "https://www.reddit.com/r/GoogleMyBusiness/comments/1w9l37a/reviews_removed_for_incentivization_appeal_or_no/",
+        "https://www.reddit.com/r/GoogleMyBusiness/comments/1w9n8ri/removed/",
+        "https://www.reddit.com/r/GoogleMyBusiness/comments/1x0sy0n/google_removed_all_our_reviews_flagged_us_for/",
+        "https://www.reddit.com/r/GoogleSupport/comments/1u6505t/gbp_reviews_visible_to_reviewer_but_hidden/",
+        "https://www.reddit.com/r/LocalGuides/comments/1ta4e9l/offering_incentive_inkind_for_reviews/",
+        "https://www.reddit.com/r/SEO/comments/1fh3b3c",
+        "https://www.reddit.com/r/googlebusinessprofile/comments/1ool315/help_fake_reviews_on_my_gmb/",
+        "https://www.reddit.com/r/localseo/comments/1wr46nu/googles_own_pages_say_owners_cant_delete_reviews/",
+        "https://www.resename.cl/products/tarjeta-nfc-para-google-reviews",
+        "https://www.smilemultimedia.com/sites/default/files/Google-Reviews.pdf"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_f4c70f1adccbe9b2583e",
-      "coercions": [
-        "critic_case",
-        "contrary_evidence"
-      ]
+      "candidate_id": "opp_11cec85c0c0151850009",
+      "coercions": []
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_11cec85c0c0151850009",
+      "response_status": "completed",
+      "incomplete_reason": "",
+      "grounded_source_count": 0,
+      "search_source_urls": []
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_11cec85c0c0151850009",
+      "coercions": []
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 326,
-      "cache_write_tokens": 5574,
+      "reasoning_tokens": 362,
+      "cache_write_tokens": 5069,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0142497,
+      "cumulative_cost_usd": 0.01416405,
       "model": "gpt-5.6-luna",
-      "input_tokens": 14095,
+      "input_tokens": 13409,
       "cached_tokens": 0,
-      "output_tokens": 960,
+      "output_tokens": 1024,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0142497
+      "estimated_cost_usd": 0.01416405
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 244,
-      "cache_write_tokens": 5532,
+      "reasoning_tokens": 158,
+      "cache_write_tokens": 5415,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0289223,
+      "cumulative_cost_usd": 0.028843,
       "model": "gpt-5.6-luna",
-      "input_tokens": 14072,
+      "input_tokens": 13983,
       "cached_tokens": 0,
-      "output_tokens": 1318,
+      "output_tokens": 1343,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0146726
+      "estimated_cost_usd": 0.01467895
+    },
+    {
+      "stage": "judge",
+      "available": true,
+      "reasoning_tokens": 45,
+      "cache_write_tokens": 3417,
+      "accounting_notes": [],
+      "cumulative_cost_usd": 0.0446995,
+      "model": "gpt-5.6-terra",
+      "input_tokens": 3420,
+      "cached_tokens": 0,
+      "output_tokens": 609,
+      "web_search_calls": 0,
+      "estimated_cost_usd": 0.0158565
     }
   ]
 }
