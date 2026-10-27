@@ -6189,67 +6189,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-17T08:18:49.301669+00:00",
-      "discovery_lens": "chile_technology_import",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "Chile-based supplier publishes stock availability, nationwide dispatch, editable profiles, QR fallback, prices from CLP 29,990 to CLP 49,990, and an enterprise dashboard/API offer.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "LINKD Chile NFC digital cards and enterprise CRM offering",
-          "url": "https://linkd.cl/"
-        },
-        {
-          "claim": "Chile-based supplier publishes NFC cards and acrylic stands with retail prices of CLP 19,990, CLP 24,990, and CLP 29,990, and markets them for measurable business interactions.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "ONDDA NFC solutions for businesses in Chile",
-          "url": "https://www.ondda.cl/"
-        },
-        {
-          "claim": "Chile-based supplier publishes NFC cards, stands, credentials, and wristbands, including a CLP 42,990 stand and nationwide shipping.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "TUK Chile NFC products",
-          "url": "https://www.tuk.cl/es-cl"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.88,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_f27f698db291e47e237f",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-17T08:18:49.340653+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Create a one-page landing page showing one hospitality-specific design and a measurable destination such as Google review, WhatsApp booking, or reservation link. Approach ten independently identifiable local venues through public contact channels and offer a paid pilot or refundable preorder. Do not buy inventory until at least three venues pay or place deposits. Falsify if venues will not pay the published-market price for a venue-specific version, or if fewer than two of ten prospects agree to track taps or scans. Existing market participation can also occur by sourcing blank NFC-compatible stock and localizing the landing/profile layer, subject to supplier terms and applicable consumer/tax requirements.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "A small operator should not compete on generic digital business cards. A narrower wedge is a countertop NFC/QR stand for restaurants, salons, tour operators, and lodging businesses that routes visitors to a review page, booking link, menu, or WhatsApp contact. The economic mechanism is increased attributable customer actions rather than the NFC hardware itself.",
-      "title": "NFC review-and-contact stand for Chilean hospitality venues",
-      "type": "productized_physical_offer",
-      "unknowns": [],
-      "value_capture_mechanism": "One-time sale of a customized stand or card plus optional setup, profile maintenance, and analytics. Existing Chilean prices establish that customers already pay for the physical product; no unverified margin or conversion uplift is assumed.",
-      "verified_sales": null,
-      "vertical": "chile_localization",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-21T20:21:55.478693+00:00",
       "discovery_lens": "nfc_smart_commerce",
       "estimated_capital": "",
@@ -8243,6 +8182,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-27T23:29:44.670134+00:00",
+      "discovery_lens": "energy_localization",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Cochilco reports 2025 seawater use of 8.11 m³/s, 70.4% desalinated, and increasing electricity relevance for desalination and pumping.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Minería del cobre aumenta uso de agua de mar en 2025 y reduce en 7% la extracción de agua continental",
+          "url": "https://www.cochilco.cl/web/mineria-del-cobre-aumenta-uso-de-agua-de-mar-en-2025-y-reduce-en-7-la-extraccion-de-agua-continental/"
+        },
+        {
+          "claim": "Cochilco projects increased seawater demand and explains that electricity materially affects desalination and pumping costs.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Proyección de la demanda de agua en la minería del cobre, período 2025–2034",
+          "url": "https://www.cochilco.cl/web/download/1014/2026/15565/informe-proyeccion-del-consumo-de-agua-en-la-mineria-del-cobre-periodo-2025-2034.pdf"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.9,
+      "falsification_conditions": [],
+      "geography": "Northern Chile",
+      "id": "opp_7b3f746b484aac912c2b",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-27T23:29:44.704077+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use publicly available Cochilco data to build a spreadsheet-based benchmark for kWh per m³ and pumping intensity. Contact publicly listed desalination, pumping, mining-engineering, or equipment firms and offer one no-permission-required sample analysis using published project information or synthetic data clearly labeled as such. Falsification test: spend no more than one week determining whether a technically qualified contact will share a small anonymized time series or accept a paid pilot; stop if neither occurs. Do not install equipment, represent a mine, or claim savings before receiving site data.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Existing and expanding desalination and pumping assets have a measurable electricity-cost exposure. A narrowly scoped measurement and verification asset could identify avoidable energy consumption, abnormal pump performance, tariff exposure, or maintenance-related losses without requiring the operator to build generation or storage.",
+      "title": "Energy-performance verification for desalination and seawater-pumping systems in Chilean mining",
+      "type": "service_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell a fixed-scope diagnostic consisting of a data request, power/water-intensity baseline, anomaly analysis, and quantified intervention shortlist. A second step could be performance monitoring or verification for an equipment supplier, engineering contractor, or operating site, but recurring payment and buyer authority must be validated rather than assumed.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-18T00:21:29.682199+00:00",
       "discovery_lens": "robotics_automation",
       "estimated_capital": "",
@@ -9215,6 +9208,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-27T23:29:44.670693+00:00",
+      "discovery_lens": "wildcard",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The CMF states that technical specifications and a Developers’ Portal were published and that entry into force was postponed until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "ATENA is described as a controlled environment for testing integrations, interoperability, participant-directory functions, and business-model validation before the planned July 2027 implementation.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF launches ATENA Technological Sandbox for the implementation of the Open Finance System",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.94,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_8c21e3ab01eded9b19de",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-27T23:29:44.703966+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Download and study the CMF technical materials and ATENA information, then build a small demonstrator that validates schema handling, consent records, error logging, and test-case reporting without connecting to real customer data. Use the demonstrator to request informational interviews or a limited paid assessment from fintechs, payment firms, or regulated entities publicly preparing for participation. Falsification test: obtain confirmation from at least one identifiable potential participant that the artifact addresses an existing implementation task; stop if contacts only express general interest without sharing a concrete requirement or test environment.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Entities preparing to participate may need test cases, integration checklists, consent-flow documentation, API observability, and evidence packages before production participation. The opportunity is narrower than building a full fintech product: create reusable testing and readiness artifacts against the official specifications.",
+      "title": "Pre-compliance integration and testing package for Chile’s Open Finance System",
+      "type": "regulatory_technology_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell a fixed-price readiness assessment, test harness, documentation package, or integration QA engagement to an entity that is already eligible or preparing to participate. Payment is contingent on validating that a prospective participant has an internal implementation budget and will permit testing against its own environment.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-18T12:18:29.612327+00:00",
       "discovery_lens": "underserved_buyers",
       "estimated_capital": "",
@@ -9862,13 +9909,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-27T17:28:53.949503+00:00",
+  "generated_at": "2026-10-27T23:30:10.615779+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 78,
+  "rejected_excluded": 79,
   "reviewed_cards": 65,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 218,
-  "watch": 140
+  "total_distinct_opportunities": 220,
+  "watch": 141
 }

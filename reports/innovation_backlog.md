@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 140
+Candidates: 141
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -75,18 +75,6 @@ Candidates: 140
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://github.com/Rayaanxrio/DocExtract; https://www.sii.cl/destacados/factura_electronica/guias_ayuda/factura_electronica.html; https://zeus.sii.cl/IVA2000/Static/Formato_XML.html
-
-## NFC review-and-contact stand for Chilean hospitality venues
-- Status: watch | chile_localization
-- Current idea: A small operator should not compete on generic digital business cards. A narrower wedge is a countertop NFC/QR stand for restaurants, salons, tour operators, and lodging businesses that routes visitors to a review page, booking link, menu, or WhatsApp contact. The economic mechanism is increased attributable customer actions rather than the NFC hardware itself.
-- Potential economic capture: One-time sale of a customized stand or card plus optional setup, profile maintenance, and analytics. Existing Chilean prices establish that customers already pay for the physical product; no unverified margin or conversion uplift is assumed.
-- **Research routes to test (NOT validated claims):**
-  - Find the smallest Chilean workflow whose economics differ from the original geography.
-  - Secure lawful access, partners and after-sales support rather than copy protected technology.
-  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://linkd.cl/; https://www.ondda.cl/; https://www.tuk.cl/es-cl
 
 ## NFC review-and-reservation kits for Chilean multi-location hospitality businesses
 - Status: watch | chile_localization
@@ -327,6 +315,18 @@ Candidates: 140
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://energia.gob.cl/node/26466; https://www.agenciase.org/energia-a-tu-pyme/
+
+## Energy-performance verification for desalination and seawater-pumping systems in Chilean mining
+- Status: watch | energy_infrastructure
+- Current idea: Existing and expanding desalination and pumping assets have a measurable electricity-cost exposure. A narrowly scoped measurement and verification asset could identify avoidable energy consumption, abnormal pump performance, tariff exposure, or maintenance-related losses without requiring the operator to build generation or storage.
+- Potential economic capture: Sell a fixed-scope diagnostic consisting of a data request, power/water-intensity baseline, anomaly analysis, and quantified intervention shortlist. A second step could be performance monitoring or verification for an equipment supplier, engineering contractor, or operating site, but recurring payment and buyer authority must be validated rather than assumed.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cochilco.cl/web/mineria-del-cobre-aumenta-uso-de-agua-de-mar-en-2025-y-reduce-en-7-la-extraccion-de-agua-continental/; https://www.cochilco.cl/web/download/1014/2026/15565/informe-proyeccion-del-consumo-de-agua-en-la-mineria-del-cobre-periodo-2025-2034.pdf
 
 ## Grant-aligned VFD and process-sensor retrofit package for small manufacturers
 - Status: watch | energy_infrastructure
@@ -1263,6 +1263,18 @@ Candidates: 140
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/613/articles-82752_recurso_1.pdf; https://www.cmfchile.cl/portal/prensa/615/articles-99083_doc_pdf.pdf
+
+## Pre-compliance integration and testing package for Chile’s Open Finance System
+- Status: watch | open_finance_chile
+- Current idea: Entities preparing to participate may need test cases, integration checklists, consent-flow documentation, API observability, and evidence packages before production participation. The opportunity is narrower than building a full fintech product: create reusable testing and readiness artifacts against the official specifications.
+- Potential economic capture: Sell a fixed-price readiness assessment, test harness, documentation package, or integration QA engagement to an entity that is already eligible or preparing to participate. Payment is contingent on validating that a prospective participant has an internal implementation budget and will permit testing against its own environment.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html
 
 ## Pre-compliance monitoring for Chile’s Open Finance implementation
 - Status: watch | open_finance_chile

@@ -226,43 +226,6 @@
       "category": "chile_localization",
       "commercially_validated": false,
       "competition_confirmed": false,
-      "current_participation_path": "Create a one-page landing page showing one hospitality-specific design and a measurable destination such as Google review, WhatsApp booking, or reservation link. Approach ten independently identifiable local venues through public contact channels and offer a paid pilot or refundable preorder. Do not buy inventory until at least three venues pay or place deposits. Falsify if venues will not pay the published-market price for a venue-specific version, or if fewer than two of ten prospects agree to track taps or scans. Existing market participation can also occur by sourcing blank NFC-compatible stock and localizing the landing/profile layer, subject to supplier terms and applicable consumer/tax requirements.",
-      "current_thesis": "A small operator should not compete on generic digital business cards. A narrower wedge is a countertop NFC/QR stand for restaurants, salons, tour operators, and lodging businesses that routes visitors to a review page, booking link, menu, or WhatsApp contact. The economic mechanism is increased attributable customer actions rather than the NFC hardware itself.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "Chile",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "NFC review-and-contact stand for Chilean hospitality venues",
-      "opportunity_id": "opp_f27f698db291e47e237f",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Find the smallest Chilean workflow whose economics differ from the original geography.",
-        "Secure lawful access, partners and after-sales support rather than copy protected technology.",
-        "Run a buyer interview or mock listing to falsify assumptions before capital commitment."
-      ],
-      "supporting_source_urls": [
-        "https://linkd.cl/",
-        "https://www.ondda.cl/",
-        "https://www.tuk.cl/es-cl"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "One-time sale of a customized stand or card plus optional setup, profile maintenance, and analytics. Existing Chilean prices establish that customers already pay for the physical product; no unverified margin or conversion uplift is assumed.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "chile_localization",
-      "commercially_validated": false,
-      "competition_confirmed": false,
       "current_participation_path": "Start with one Chilean hospitality business that already has at least two customer-facing locations or service points. Purchase one or two locally available units at the published retail price, configure separate destinations for Google Reviews and WhatsApp, and run a 14-day pre/post or matched-location test using tap counts, destination clicks, review volume, and inquiry volume. Only proceed to a paid multi-location pilot if the operator agrees in writing to share baseline and test-period metrics; do not assume review attribution, permissions, or incremental revenue. Existing suppliers provide direct purchase or demo routes, so no import approval is required for the falsification test.",
       "current_thesis": "The opportunity is not generic NFC resale; it is a narrow deployment package for restaurants, cafés, hotels, barber shops, and clinics with multiple customer-contact points. The economic mechanism is a low-cost physical prompt that can route customers to reviews, reservations, or WhatsApp while allowing the operator to measure taps and clicks. Existing local prices provide a verifiable willingness-to-pay benchmark, but do not establish conversion uplift or margins.",
       "founder_hours_initial_unverified_estimate": "",
@@ -986,6 +949,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "A small operator could sell a fixed-price site/data-screening package, then earn a disclosed referral or project-management fee only where a qualified engineering, ESCO or equipment provider independently contracts with the customer. The evidence does not establish a standard market price, conversion rate or permission to act as an ESCO.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "energy_infrastructure",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Use publicly available Cochilco data to build a spreadsheet-based benchmark for kWh per m³ and pumping intensity. Contact publicly listed desalination, pumping, mining-engineering, or equipment firms and offer one no-permission-required sample analysis using published project information or synthetic data clearly labeled as such. Falsification test: spend no more than one week determining whether a technically qualified contact will share a small anonymized time series or accept a paid pilot; stop if neither occurs. Do not install equipment, represent a mine, or claim savings before receiving site data.",
+      "current_thesis": "Existing and expanding desalination and pumping assets have a measurable electricity-cost exposure. A narrowly scoped measurement and verification asset could identify avoidable energy consumption, abnormal pump performance, tariff exposure, or maintenance-related losses without requiring the operator to build generation or storage.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Northern Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Energy-performance verification for desalination and seawater-pumping systems in Chilean mining",
+      "opportunity_id": "opp_7b3f746b484aac912c2b",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
+        "Compare owned asset, installer/distributor and project-finance participation.",
+        "Verify permits and installed net payback under conservative power price scenarios."
+      ],
+      "supporting_source_urls": [
+        "https://www.cochilco.cl/web/mineria-del-cobre-aumenta-uso-de-agua-de-mar-en-2025-y-reduce-en-7-la-extraccion-de-agua-continental/",
+        "https://www.cochilco.cl/web/download/1014/2026/15565/informe-proyeccion-del-consumo-de-agua-en-la-mineria-del-cobre-periodo-2025-2034.pdf"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a fixed-scope diagnostic consisting of a data request, power/water-intensity baseline, anomaly analysis, and quantified intervention shortlist. A second step could be performance monitoring or verification for an equipment supplier, engineering contractor, or operating site, but recurring payment and buyer authority must be validated rather than assumed.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -4008,6 +4007,42 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Download and study the CMF technical materials and ATENA information, then build a small demonstrator that validates schema handling, consent records, error logging, and test-case reporting without connecting to real customer data. Use the demonstrator to request informational interviews or a limited paid assessment from fintechs, payment firms, or regulated entities publicly preparing for participation. Falsification test: obtain confirmation from at least one identifiable potential participant that the artifact addresses an existing implementation task; stop if contacts only express general interest without sharing a concrete requirement or test environment.",
+      "current_thesis": "Entities preparing to participate may need test cases, integration checklists, consent-flow documentation, API observability, and evidence packages before production participation. The opportunity is narrower than building a full fintech product: create reusable testing and readiness artifacts against the official specifications.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Pre-compliance integration and testing package for Chile’s Open Finance System",
+      "opportunity_id": "opp_8c21e3ab01eded9b19de",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a fixed-price readiness assessment, test harness, documentation package, or integration QA engagement to an entity that is already eligible or preparing to participate. Payment is contingent on validating that a prospective participant has an internal implementation budget and will permit testing against its own environment.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use only the public CMF Banks API and the public SFA participant-directory documentation to build a one-week prototype that records participant/API changes and produces a dated change log. Publish a sample report and contact 10 Chilean fintechs, banking-software vendors or compliance providers for paid pilot commitments. Falsify if fewer than two qualified prospects agree to review the prototype or no prospect identifies a recurring implementation decision it would pay to monitor. Do not represent the prototype as CMF-authorized or as an SFA participant.",
       "current_thesis": "A narrow monitoring asset could help fintechs, banks, integrators and compliance teams track participant registration, endpoint changes, implementation milestones and bank-data availability before mandatory operation. The evidence supports an information-access wedge, not yet a confirmed paying market.",
       "founder_hours_initial_unverified_estimate": "",
@@ -5332,7 +5367,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-27T17:28:54.012181+00:00",
+  "generated_at": "2026-10-27T23:30:10.677035+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

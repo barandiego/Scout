@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-27T17:28:53.949503+00:00
+Generated: 2026-10-27T23:30:10.615779+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 140 (0 HQ survivors, 140 watches)
-- Rejected opportunities excluded: 78
+- Active research: 141 (0 HQ survivors, 141 watches)
+- Rejected opportunities excluded: 79
 - Critic-and-judge reviewed: 65
 - Autonomous execution authorization: 0
 
@@ -743,16 +743,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/; https://www.falabella.com/falabella-cl/seller/Natura; https://www.falabella.com/falabella-cl/page/sobre-falabella-com
 
-### NFC review-and-contact stand for Chilean hospitality venues [opp_f27f698db291e47e237f]
-- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
-- Thesis: A small operator should not compete on generic digital business cards. A narrower wedge is a countertop NFC/QR stand for restaurants, salons, tour operators, and lodging businesses that routes visitors to a review page, booking link, menu, or WhatsApp contact. The economic mechanism is increased attributable customer actions rather than the NFC hardware itself.
-- Value capture: One-time sale of a customized stand or card plus optional setup, profile maintenance, and analytics. Existing Chilean prices establish that customers already pay for the physical product; no unverified margin or conversion uplift is assumed.
-- Participation hypothesis: Create a one-page landing page showing one hospitality-specific design and a measurable destination such as Google review, WhatsApp booking, or reservation link. Approach ten independently identifiable local venues through public contact channels and offer a paid pilot or refundable preorder. Do not buy inventory until at least three venues pay or place deposits. Falsify if venues will not pay the published-market price for a venue-specific version, or if fewer than two of ten prospects agree to track taps or scans. Existing market participatio
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://linkd.cl/; https://www.ondda.cl/; https://www.tuk.cl/es-cl
-
 ### NFC-enabled review and discovery cards for Chilean local merchants [opp_1003190617673d0a5401]
 - Status: WATCH_REQUIRES_VALIDATION | general | Chile
 - Thesis: The hardware is commoditized, so a defensible wedge is not selling generic NFC cards. A testable offer is a configured, merchant-specific card or countertop token that routes customers to one measurable action—review, menu, reservation, reorder, or product discovery—with printed fallback and a simple monthly reporting layer. Existing listings establish purchase availability and observed retail prices, but not merchant willingness to pay.
@@ -1113,6 +1103,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://energia.gob.cl/node/26466; https://www.agenciase.org/energia-a-tu-pyme/
 
+### Energy-performance verification for desalination and seawater-pumping systems in Chilean mining [opp_7b3f746b484aac912c2b]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Northern Chile
+- Thesis: Existing and expanding desalination and pumping assets have a measurable electricity-cost exposure. A narrowly scoped measurement and verification asset could identify avoidable energy consumption, abnormal pump performance, tariff exposure, or maintenance-related losses without requiring the operator to build generation or storage.
+- Value capture: Sell a fixed-scope diagnostic consisting of a data request, power/water-intensity baseline, anomaly analysis, and quantified intervention shortlist. A second step could be performance monitoring or verification for an equipment supplier, engineering contractor, or operating site, but recurring payment and buyer authority must be validated rather than assumed.
+- Participation hypothesis: Use publicly available Cochilco data to build a spreadsheet-based benchmark for kWh per m³ and pumping intensity. Contact publicly listed desalination, pumping, mining-engineering, or equipment firms and offer one no-permission-required sample analysis using published project information or synthetic data clearly labeled as such. Falsification test: spend no more than one week determining whether a technically qualified contact will share a small anonymized time series or accept a paid pilot; stop if neither occurs. Do not install equipment, re
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cochilco.cl/web/mineria-del-cobre-aumenta-uso-de-agua-de-mar-en-2025-y-reduce-en-7-la-extraccion-de-agua-continental/; https://www.cochilco.cl/web/download/1014/2026/15565/informe-proyeccion-del-consumo-de-agua-en-la-mineria-del-cobre-periodo-2025-2034.pdf
+
 ### Food-and-beverage robot-cell retrofit and commissioning wedge [opp_1944783f6fbdfee6890f]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States
 - Thesis: A testable opening exists in small food manufacturers that need one repetitive handling, palletizing or packaging step automated but cannot justify a full greenfield line. The concrete asset is a documented retrofit package using an existing robot, gripper, vision or safety components; the economic mechanism is reduced labor or increased throughput, subject to site-specific validation.
@@ -1292,6 +1292,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.coordinador.cl/presentaciones/informe-monitoreo-de-la-competencia-en-el-mercado-electrico-2025/; https://cartas.coordinador.cl/show/687529af3563573f157d308c
+
+### Pre-compliance integration and testing package for Chile’s Open Finance System [opp_8c21e3ab01eded9b19de]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Entities preparing to participate may need test cases, integration checklists, consent-flow documentation, API observability, and evidence packages before production participation. The opportunity is narrower than building a full fintech product: create reusable testing and readiness artifacts against the official specifications.
+- Value capture: Sell a fixed-price readiness assessment, test harness, documentation package, or integration QA engagement to an entity that is already eligible or preparing to participate. Payment is contingent on validating that a prospective participant has an internal implementation budget and will permit testing against its own environment.
+- Participation hypothesis: Download and study the CMF technical materials and ATENA information, then build a small demonstrator that validates schema handling, consent records, error logging, and test-case reporting without connecting to real customer data. Use the demonstrator to request informational interviews or a limited paid assessment from fintechs, payment firms, or regulated entities publicly preparing for participation. Falsification test: obtain confirmation from at least one identifiable potential participant that the artifact addresses an existing implement
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html
 
 ### Pre-compliance Open Finance connectivity test for Chilean fintechs and smaller financial entities [opp_bc3b9a823961fadca8e1]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
