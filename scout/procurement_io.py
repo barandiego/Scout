@@ -115,7 +115,10 @@ class ChileCompraClient:
                         budget_exhausted=True
                         break
                     continue
-                try: records.append(normalize_detail(raw,observed_at=observed_at))
+                try:
+                    record=normalize_detail(raw,observed_at=observed_at)
+                    if record.code != code: raise ProcurementDataError("detail_code_mismatch")
+                    records.append(record)
                 except ProcurementDataError as e:
                     malformed+=1
                     reason=str(e) or e.__class__.__name__
@@ -161,7 +164,10 @@ class ChileCompraClient:
                         budget_exhausted=True
                         break
                     continue
-                try: records.append(normalize_detail(raw,observed_at=observed_at))
+                try:
+                    record=normalize_detail(raw,observed_at=observed_at)
+                    if record.code != code: raise ProcurementDataError("detail_code_mismatch")
+                    records.append(record)
                 except ProcurementDataError as e:
                     malformed+=1
                     reason=str(e) or e.__class__.__name__
