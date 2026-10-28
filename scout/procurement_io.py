@@ -234,4 +234,3 @@ class ProcurementStore:
         prior=[e["changed_through"] for e in self.events if e.get("kind")=="sync_cursor"]
         if prior and DT(cur)<max(DT(x) for x in prior): raise ProcurementDataError("sync_cursor_regression")
         return self._append({"event_id":"cursor:"+cur,"kind":"sync_cursor","changed_through":cur})
-
