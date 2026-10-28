@@ -379,7 +379,7 @@ def test_malformed_timestamp_shape_is_sanitized():
     assert sample["date_shape"]["fecha_cierre"] == {
         "present": True, "type": "str", "parseable_iso": False, "timezone_aware": False
     }
-    assert "Fixture de �tiles estandarizados" not in json.dumps(sample, ensure_ascii=False)
+    assert "Fixture de útiles estandarizados" not in json.dumps(sample, ensure_ascii=False)
 
 
 def test_real_api_naive_timestamps_are_preserved_without_invented_timezone():
