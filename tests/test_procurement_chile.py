@@ -710,4 +710,3 @@ def test_history_extra_event_metadata_is_not_silently_ignored(tmp_path):
     later = original.model_copy(update={"source_observed_at": "2026-06-02T00:00:00Z"})
     with pytest.raises(ProcurementDataError, match="immutable_event_conflict"):
         ProcurementStore(path).add_history(later)
-
