@@ -9,7 +9,8 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 import yaml
 from .procurement_core import *  # noqa: F403 - explicit experiment facade
-from .procurement_io import ChileCompraClient, ProcurementStore, RequestBudget
+from .procurement_io import ChileCompraClient, ProcurementStore, RequestBudget, _transport
+from .procurement_recovery import next_window, record_window
 from .state import atomic_write
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -40,6 +41,7 @@ def _main():
     v=sp.add_parser("validate-fixture"); v.add_argument("path")
     b=sp.add_parser("backfill"); b.add_argument("--from",dest="start",required=True); b.add_argument("--to",dest="end",required=True); b.add_argument("--state",default="state/public_procurement_chile/events.jsonl")
     m=sp.add_parser("monitor"); m.add_argument("--state",default="state/public_procurement_chile/events.jsonl"); m.add_argument("--report",default="reports/public_procurement_chile/latest.json"); m.add_argument("--lookback-hours",type=int,default=6)
+    r=sp.add_parser("recover"); r.add_argument("--from",dest="start",required=True); r.add_argument("--to",dest="end",required=True); r.add_argument("--state",required=True)
     a=p.parse_args()
     if a.cmd=="validate-fixture":
         r=normalize_detail(json.loads(Path(a.path).read_text(encoding="utf-8")),observed_at=datetime.now(timezone.utc).isoformat())  # noqa: F405
@@ -50,8 +52,16 @@ def _main():
     client=ChileCompraClient(os.environ.get("CHILECOMPRA_TICKET","").strip(),request_limit=int(lim["max_requests_per_run"]))
     observed=datetime.now(timezone.utc).replace(microsecond=0)
     observed_iso=observed.isoformat().replace("+00:00","Z")
+    if a.cmd=="recover" and (ROOT/a.state).resolve()==(ROOT/"state/public_procurement_chile/events.jsonl").resolve():
+        raise ProcurementAPIError("recovery_requires_isolated_state")  # noqa: F405
     st=ProcurementStore(ROOT/a.state)
     cooldown=st.latest_rate_limit_cooldown()
+    if a.cmd=="recover":
+        # An isolated recovery state must still honor a known monitor cooldown.
+        canonical=ProcurementStore(ROOT/"state/public_procurement_chile/events.jsonl")
+        other=canonical.latest_rate_limit_cooldown()
+        if other and (not cooldown or DT(other)>DT(cooldown)):  # noqa: F405
+            cooldown=other
     if cooldown and DT(cooldown)>observed:  # noqa: F405
         report={
             "schema_version":1,"generated_at":observed_iso,"ok":False,
@@ -67,6 +77,45 @@ def _main():
         if a.cmd=="monitor":
             atomic_write(ROOT/a.report,json.dumps(report,ensure_ascii=False,sort_keys=True,indent=2)+"\n")
         print(json.dumps(report,ensure_ascii=False,indent=2))
+        return 2
+    if a.cmd=="recover":
+        if getattr(client,"transport",None) is _transport:
+            raise ProcurementAPIError("recovery_live_not_supported")  # noqa: F405
+        # The fixed interval identifies a persistent, idempotent plan.  Each
+        # invocation performs at most one bounded request window and never
+        # advances the canonical source cursor.
+        plan, start, end=next_window(st, a.start, a.end)
+        if start is None:
+            print(json.dumps({"ok":False,"outcome":"RECOVERY_OBSERVED_NOT_CERTIFIED",
+                              "requests_used":0,"cursor_advanced":False}))
+            return 2
+        try:
+            records,diag=client.changed_window(changed_from=start,changed_to=end,
+                observed_at=observed_iso,max_pages=int(lim["max_list_pages"]),
+                max_details=int(lim["max_detail_requests"]))
+        except ProcurementAPIError as exc:  # noqa: F405
+            if str(exc)=="api_rate_limited":
+                st.set_rate_limit_cooldown((observed+timedelta(hours=26)).isoformat())
+            raise
+        if diag.get("api_failures",{}).get("api_rate_limited"):
+            st.set_rate_limit_cooldown((observed+timedelta(hours=26)).isoformat())
+        inserted=sum(st.add_history(record) for record in records)
+        healthy,_=monitor_health(diag)
+        cap=(diag.get("detail_cap_exhausted") or diag.get("pagination_incomplete"))
+        clean_split=cap and not (diag.get("api_failures") or diag.get("budget_exhausted")
+            or diag.get("malformed_details") or diag.get("pagination_invalid")
+            or diag.get("invalid_listing_items"))
+        action=None
+        if healthy:
+            action="observed"
+        elif clean_split and (DT(end)-DT(start)).total_seconds()>=2:  # noqa: F405
+            action="split"
+        if action:
+            record_window(st,plan,start,end,action)
+        print(json.dumps({"ok":False,"outcome":"RECOVERY_PROVISIONAL",
+            "window":{"changed_from":start,"changed_to":end},"action":action or "retry_required",
+            "inserted_history":inserted,"diagnostics":diag,"cursor_advanced":False,
+            "note":"Partial research recovery only; source completeness is not verified."},indent=2))
         return 2
     if a.cmd=="backfill":
         try:
