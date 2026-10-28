@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-28T17:54:59.902817+00:00
+Generated: 2026-10-28T23:53:53.553586+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['physical_commerce', 'regulation_infrastructure', 'robotics_automation']
+- lenses: ['energy_industrial', 'mining_materials', 'tokenization_finance']
 - raw_candidates: 1
 - parseable_candidates: 1
 - normalized_candidates: 1
 - normalization_rejected: 0
-- grounded_sources: 2
+- grounded_sources: 1
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 1
+- judge_attempts: 0
 - critic_reviews: 1
-- judge_reviews: 1
+- judge_reviews: 0
 - survivors: 0
-- watches: 1
-- rejected: 0
+- watches: 0
+- rejected: 2
 - errors_by_stage: {}
-- rejection_reasons: {}
-- cost_usd: 0.04236815
+- rejection_reasons: {'discarded_ungrounded_url': 1, 'insufficient_unique_evidence': 1}
+- cost_usd: 0.02889085
 - cost_uncertain: False
-- budget_remaining_usd: 0.03763185
+- budget_remaining_usd: 0.05110915
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -56,8 +56,8 @@ No survivors. Scout does not manufacture a daily winner.
 ```json
 {
   "notes": [
-    "deep_review_lane=fresh",
-    "research_queue_unreviewed=70"
+    "deep_review_lane=backlog",
+    "research_queue_unreviewed=69"
   ],
   "stages": [
     {
@@ -65,31 +65,35 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 16,
+      "grounded_source_count": 18,
       "search_source_urls": [
-        "https://cmfchile.cl/portal/prensa/625/w4-article-113897.html",
-        "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/",
-        "https://ifr.org/downloads/press_docs/PressConference2025_presentation.pdf",
-        "https://ifr.org/img/worldrobotics/Executive_Summary_WR_2025_Industrial_Robots.pdf",
-        "https://ifr.org/news/five-million-robots-now-operate-in-factories-globally/",
-        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
-        "https://www.cmfchile.cl/portal/prensa/615/articles-87624_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-100482.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-102547.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110411.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-112955.html?trk=public_post_comment-text",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-92449.html",
-        "https://www.cmfchile.cl/portal/principal/613/articles-89581_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html"
+        "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025.pdf",
+        "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025_bef_2025Feb3.pdf",
+        "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025_ver.1.0.pdf",
+        "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf",
+        "https://pubs.usgs.gov/publication/mcs2026",
+        "https://www.sec.gov/about/divisions-offices/division-corporation-finance/corpfin-crypto-assets",
+        "https://www.sec.gov/files/rules/sro/nysetex/2026/34-105338.pdf",
+        "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment",
+        "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment",
+        "https://www.sec.gov/newsroom/speeches-statements/corp-fin-statement-tokenized-securities-012826-statement-tokenized-securities",
+        "https://www.sec.gov/newsroom/speeches-statements/peirce-121125-tokenization-trending-statement-division-trading-markets-no-action-letter-related-dtcs-development",
+        "https://www.sec.gov/newsroom/speeches-statements/peirce-slumber-number-innovation-exemption-statement-091726",
+        "https://www.sec.gov/newsroom/speeches-statements/uyeda-statement-innovation-exemption-091726",
+        "https://www.sec.gov/rules-regulations/self-regulatory-organization-rulemaking/sr-nasdaq-2025-072",
+        "https://www.usgs.gov/centers/national-minerals-information-center/mineral-commodity-summaries/",
+        "https://www.usgs.gov/national-minerals-information-center",
+        "https://www.usgs.gov/news/science-snippet/interior-department-releases-final-2025-list-critical-minerals?source=pmbug.com",
+        "https://www.usgs.gov/programs/mineral-resources-program/science/about-2025-list-critical-minerals"
       ]
     },
     {
       "index": 0,
       "stage": "normalization",
       "outcome": "accepted",
-      "reasons": [],
+      "reasons": [
+        "discarded_ungrounded_url"
+      ],
       "changes": [
         "contrary_evidence:list_sanitized",
         "major_risks:list_sanitized",
@@ -97,56 +101,39 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 2,
+      "grounded_sources": 1,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_c692e8312568453cf11f",
+      "candidate_id": "opp_a78174a5084ecf85fdd7",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 20,
+      "grounded_source_count": 18,
       "search_source_urls": [
-        "https://chocale.cl/2026/10/sandbox-atena-el-gran-ensayo-antes-de-la-puesta-en-marcha-del-sistema-de-finanzas-abiertas/",
-        "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812",
-        "https://cmfchile.cl/portal/prensa/625/w4-article-113897.html",
-        "https://cmfchile.cl/portal/principal/623/w4-article-80196.html",
-        "https://cmfchile.cl/portal/principal/623/w4-article-92466.html",
-        "https://en.wikipedia.org/wiki/Open_finance",
-        "https://openfinance.cl/",
-        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA",
-        "https://sfasandbox.cl/",
-        "https://www.centerforfinancialinclusion.org/wp-content/uploads/2026/03/Who-Pays-for-What-Pricing-and-Monetization-Options-in-Open-Finance.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/articles-82752_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/articles-92466_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/articles-96504_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-73961.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-80854.html",
-        "https://www.findevgateway.org/sites/default/files/publications/2026/Open%20Finance%20Implementation%20White%20Paper%20-%20Mazer-Dias%20-%20March%202025.pdf",
-        "https://www.legal500.com/guides/chapter/chile-fintech/?export-pdf=",
-        "https://www.reddit.com/r/chileIT/comments/1gf8fev/apis_bancarias/"
+        "https://energia.gob.cl/noticias/magallanes-y-de-la-antartica-chilena/ministerio-de-energia-y-agenciase-lanzan-concurso-para-implementacion-de-auditorias-energeticas-en-medianas-empresas",
+        "https://energia.gob.cl/panel/auditorias",
+        "https://energia.gob.cl/sites/default/files/documento_cuenta-publica_2025.pdf",
+        "https://energia.gob.cl/sites/default/files/documentos/20251204_informe_criterios_de_reporte_energetico.pdf",
+        "https://es.wikipedia.org/wiki/ChileCompra",
+        "https://www.agenciase.org/bancoestado/",
+        "https://www.agenciase.org/concurso-de-auditorias-energeticas-en-medianas-empresas/",
+        "https://www.agenciase.org/convocatorias/",
+        "https://www.agenciase.org/energia-a-tu-pyme/",
+        "https://www.agenciase.org/fomento-al-ahorro/",
+        "https://www.agenciase.org/implementacion-y-certificacion-de-sge-basados-en-iso-50001/",
+        "https://www.agenciase.org/que-es-el-concurso-de-implementacion-de-proyectos-de-sostenibilidad-energetica-en-mipymes/",
+        "https://www.agenciase.org/wp-content/uploads/2020/04/BT-GE-MIPYME_Rev6-abm-28-04-20-VF.pdf",
+        "https://www.agenciase.org/wp-content/uploads/2020/05/tupyme-1.pdf",
+        "https://www.agenciase.org/wp-content/uploads/2021/10/Contrato-MiPyMEs-2021-VF-Protegido.pdf",
+        "https://www.chilecompra.cl/estadisticas-mercado-publico/",
+        "https://www.emb.cl/electroindustria/articulo.mvc?act=4&srch=recambio&tip=&xid=4715&xit=",
+        "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=qMW5m%2FB80gzdl0piCZF8Yg%3D%3D"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_c692e8312568453cf11f",
-      "coercions": [
-        "contrary_evidence"
-      ]
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_c692e8312568453cf11f",
-      "response_status": "completed",
-      "incomplete_reason": "",
-      "grounded_source_count": 0,
-      "search_source_urls": []
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_c692e8312568453cf11f",
+      "candidate_id": "opp_a78174a5084ecf85fdd7",
       "coercions": []
     }
   ],
@@ -154,44 +141,30 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 161,
-      "cache_write_tokens": 5578,
+      "reasoning_tokens": 305,
+      "cache_write_tokens": 5501,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0139323,
+      "cumulative_cost_usd": 0.01421485,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13959,
+      "input_tokens": 14017,
       "cached_tokens": 0,
-      "output_tokens": 718,
+      "output_tokens": 947,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0139323
+      "estimated_cost_usd": 0.01421485
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 100,
-      "cache_write_tokens": 5289,
+      "reasoning_tokens": 142,
+      "cache_write_tokens": 5252,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02818015,
+      "cumulative_cost_usd": 0.02889085,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13575,
+      "input_tokens": 13613,
       "cached_tokens": 0,
-      "output_tokens": 1057,
+      "output_tokens": 1409,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01424785
-    },
-    {
-      "stage": "judge",
-      "available": true,
-      "reasoning_tokens": 52,
-      "cache_write_tokens": 2764,
-      "accounting_notes": [],
-      "cumulative_cost_usd": 0.04236815,
-      "model": "gpt-5.6-terra",
-      "input_tokens": 2767,
-      "cached_tokens": 0,
-      "output_tokens": 606,
-      "web_search_calls": 0,
-      "estimated_cost_usd": 0.014188
+      "estimated_cost_usd": 0.014676
     }
   ]
 }

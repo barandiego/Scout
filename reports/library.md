@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-28T17:55:00.191748+00:00
+Generated: 2026-10-28T23:53:53.960961+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 144 (0 HQ survivors, 144 watches)
-- Rejected opportunities excluded: 79
+- Active research: 143 (0 HQ survivors, 143 watches)
+- Rejected opportunities excluded: 81
 - Critic-and-judge reviewed: 68
 - Autonomous execution authorization: 0
 
@@ -1122,16 +1122,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.gao.gov/products/gao-26-108687; https://www.iea.org/reports/global-critical-minerals-outlook-2026
-
-### Energy-audit and retrofit origination for Chilean medium-sized firms [opp_a78174a5084ecf85fdd7]
-- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile, initially regions with industrial, commercial or tourism energy users
-- Thesis: The identifiable opportunity is not generic consulting: it is a narrowly scoped lead-generation, pre-audit and project-packaging service that helps eligible firms assemble an auditable list of electricity, thermal and self-generation measures suitable for subsidy, ESCO financing or contractor bidding.
-- Value capture: A small operator could sell a fixed-price site/data-screening package, then earn a disclosed referral or project-management fee only where a qualified engineering, ESCO or equipment provider independently contracts with the customer. The evidence does not establish a standard market price, conversion rate or permission to act as an ESCO.
-- Participation hypothesis: Lowest-cost test: select 20 medium-sized businesses in one region, use publicly available company and facility information to identify likely high-load sites, and send a one-page offer for a paid utility-bill and equipment pre-screen. Do not promise subsidy eligibility. Falsify if at least 3 owners or facility managers will not provide a recent electricity bill or pay for a small diagnostic. A second route is to monitor AgenciaSE and ChileCompra for new audit, retrofit and ESCO procurements, then partner with a qualified engineering firm rather
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://energia.gob.cl/node/26466; https://www.agenciase.org/energia-a-tu-pyme/
 
 ### Energy-performance verification for desalination and seawater-pumping systems in Chilean mining [opp_7b3f746b484aac912c2b]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Northern Chile

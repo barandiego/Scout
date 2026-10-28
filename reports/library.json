@@ -8399,60 +8399,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-17T16:17:48.306357+00:00",
-      "discovery_lens": "energy_localization",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "The Ministry of Energy and AgenciaSE announced a program encouraging energy audits and efficiency measures for medium-sized firms with annual sales between 25,000 and 100,000 UF.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Ministerio de Energía y AgenciaSE lanzan concurso para implementación de Auditorías Energéticas en medianas empresas",
-          "url": "https://energia.gob.cl/node/26466"
-        },
-        {
-          "claim": "AgenciaSE describes a Ministry of Energy program intended to co-finance energy-efficiency and renewable self-consumption projects for Chilean micro, small and medium-sized firms.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Energía a tu PYME",
-          "url": "https://www.agenciase.org/energia-a-tu-pyme/"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.87,
-      "falsification_conditions": [],
-      "geography": "Chile, initially regions with industrial, commercial or tourism energy users",
-      "id": "opp_a78174a5084ecf85fdd7",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-17T16:17:48.351470+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Lowest-cost test: select 20 medium-sized businesses in one region, use publicly available company and facility information to identify likely high-load sites, and send a one-page offer for a paid utility-bill and equipment pre-screen. Do not promise subsidy eligibility. Falsify if at least 3 owners or facility managers will not provide a recent electricity bill or pay for a small diagnostic. A second route is to monitor AgenciaSE and ChileCompra for new audit, retrofit and ESCO procurements, then partner with a qualified engineering firm rather than bid independently. Public evidence confirms the program and procurement route, but not that an independent intermediary can claim funds or close projects.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "The identifiable opportunity is not generic consulting: it is a narrowly scoped lead-generation, pre-audit and project-packaging service that helps eligible firms assemble an auditable list of electricity, thermal and self-generation measures suitable for subsidy, ESCO financing or contractor bidding.",
-      "title": "Energy-audit and retrofit origination for Chilean medium-sized firms",
-      "type": "service_offer",
-      "unknowns": [],
-      "value_capture_mechanism": "A small operator could sell a fixed-price site/data-screening package, then earn a disclosed referral or project-management fee only where a qualified engineering, ESCO or equipment provider independently contracts with the customer. The evidence does not establish a standard market price, conversion rate or permission to act as an ESCO.",
-      "verified_sales": null,
-      "vertical": "energy_infrastructure",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-27T23:29:44.670134+00:00",
       "discovery_lens": "energy_localization",
       "estimated_capital": "",
@@ -10180,13 +10126,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-28T17:55:00.191748+00:00",
+  "generated_at": "2026-10-28T23:53:53.960961+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 79,
+  "rejected_excluded": 81,
   "reviewed_cards": 68,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 223,
-  "watch": 144
+  "total_distinct_opportunities": 224,
+  "watch": 143
 }

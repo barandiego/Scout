@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 144
+Candidates: 143
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -303,18 +303,6 @@ Candidates: 144
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.coordinador.cl/wp-content/uploads/2026/04/Informe-Monitoreo-2025.pdf; https://www.coordinador.cl/presentaciones/informe-monitoreo-de-la-competencia-en-el-mercado-electrico-2025/
-
-## Energy-audit and retrofit origination for Chilean medium-sized firms
-- Status: watch | energy_infrastructure
-- Current idea: The identifiable opportunity is not generic consulting: it is a narrowly scoped lead-generation, pre-audit and project-packaging service that helps eligible firms assemble an auditable list of electricity, thermal and self-generation measures suitable for subsidy, ESCO financing or contractor bidding.
-- Potential economic capture: A small operator could sell a fixed-price site/data-screening package, then earn a disclosed referral or project-management fee only where a qualified engineering, ESCO or equipment provider independently contracts with the customer. The evidence does not establish a standard market price, conversion rate or permission to act as an ESCO.
-- **Research routes to test (NOT validated claims):**
-  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
-  - Compare owned asset, installer/distributor and project-finance participation.
-  - Verify permits and installed net payback under conservative power price scenarios.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://energia.gob.cl/node/26466; https://www.agenciase.org/energia-a-tu-pyme/
 
 ## Energy-performance verification for desalination and seawater-pumping systems in Chilean mining
 - Status: watch | energy_infrastructure
