@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-28T03:59:24.589015+00:00
+Generated: 2026-10-28T10:29:39.102619+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 142 (0 HQ survivors, 142 watches)
+- Active research: 143 (0 HQ survivors, 143 watches)
 - Rejected opportunities excluded: 79
-- Critic-and-judge reviewed: 66
+- Critic-and-judge reviewed: 67
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -102,6 +102,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Number, size, crop mix, and geographic concentration of existing Chilean indoor or hydroponic growers that use artificial lighting.; Actual Chilean electricity tariffs, demand charges, time-of-use pricing, and renewable-energy arrangements applicable to target facilities.; Lighting, HVAC, pumping, dehumidification, and refrigeration shares of total site electricity consumption.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://arxiv.org/abs/2507.18419; https://arxiv.org/abs/2510.03686; https://ers.usda.gov/sites/default/files/_laserfiche/publications/108221/EIB-264.pdf
+
+### NFC/QR review-and-discovery plates for Chilean physical venues [opp_d54cb21f051b71d41869]
+- Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile
+- Thesis: The basic NFC-card market is already competitive and commoditized, so reselling generic digital business cards is weak. A narrower wedge is a preconfigured NFC/QR tabletop or storefront plate that routes visitors to a venue's Google review page, menu, booking link or product-discovery page, with a measurable scan-to-action report. The evidence supports customer willingness to pay for hardware and setup, but does not establish recurring software willingness to pay or conversion rates.
+- Value capture: Sell a small installation package consisting of printed NFC/QR plates, destination-link setup and optional monthly replacement/analytics service. The defensible asset would be a reusable set of venue templates, installation SOPs and measured scan-to-action data by venue type. Do not assume recurring revenue until a pilot produces paid renewals.
+- Participation hypothesis: Buy or locally source 10-20 blank NFC/QR plates or cards and approach independently reachable venues such as cafes, salons, lodging properties or market stalls with a single fixed-price pilot. Use each venue's existing Google Business Profile or menu/booking URL; obtain permission before installation. Track unique redirect scans and completed review/menu/booking actions for 30 days. Lowest-cost falsification: pre-sell three pilots with deposits or written purchase commitments before buying inventory; stop if fewer than three venues agree to pay
+- Critic/judge: The category clears the basic physical-distribution threshold: there is an identifiable product (NFC/QR venue plates or stands), a defined buyer (physical venues), multiple apparently Chile-based procurement alternatives, and direct evidence of real local competition. That competition is not an absence-of-market assumption; it also substantially weakens the proposed differentiation. The exact review/discovery plate, installation, and an
+- Next evidence gaps: Actual landed unit cost, customization cost, installation time, delivery cost, payment fees, defect/replacement rate, and gross margin at pilot scale.; Whether venues will pay materially more than the direct prices offered by existing Chilean suppliers.; Incremental conversion from plate exposure to completed reviews, bookings, menu views, orders, or revenue by venue type.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://tarjetas-nfc.com/; https://www.tuk.cl/es-cl/pages/para-empresas; https://linkd.cl/
 
 ### Pre-build testing and integration wedge for Chile's Open Finance System [opp_de6bbd059c9fa7fd72e5]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -693,6 +703,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html; https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836
 
+### Chile SFA/ATENA interoperability test harness for small participating entities [opp_1e211b9f8b40a404bf8c]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Entities that intend to participate have a defined technical target and a public test environment before production. A narrowly scoped, reusable test harness could reduce integration and conformance-testing work without requiring the operator to become a regulated financial participant.
+- Value capture: Sell or license a Chile-specific package containing API request/response fixtures, schema validation, participant-directory test cases, credential-flow checks, automated regression reports, and ATENA test-run assistance. Revenue should be validated before assuming a recurring software model; the initial offer can be a paid diagnostic or fixed-scope implementation asset.
+- Participation hypothesis: Build the smallest open-source-compatible validator from the CMF technical annex and developer materials; test it against ATENA using only permitted sandbox access and public documentation. Contact potential participants through public industry events, fintech associations, or published CMF ecosystem channels, offering a no-cost gap report rather than claiming certification or regulatory approval. Falsification step: within 10 business days, implement five high-value validation cases and ask at least five identifiable Chilean fintechs, payment
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-113897.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html
+
 ### Independent field-service and leasing wedge around autonomous agricultural robots [opp_6ec905db3915e1dcfb85]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States
 - Thesis: The executable gap is not inventing another robot; it is reducing adoption friction for farms that cannot justify or operationally support a full purchase. A local deployment, monitoring and maintenance layer could participate where the manufacturer permits third-party service or channel partners.
@@ -762,16 +782,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.mercadolibre.cl/nfc-tag-215-10uni-1356-mhz-a-25mm-adhesivo-tarjeta-set/p/MLC2098562674; https://listado.mercadolibre.cl/tarjetas-nfc; https://linkd.cl/
-
-### NFC/QR review-and-discovery plates for Chilean physical venues [opp_d54cb21f051b71d41869]
-- Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile
-- Thesis: The basic NFC-card market is already competitive and commoditized, so reselling generic digital business cards is weak. A narrower wedge is a preconfigured NFC/QR tabletop or storefront plate that routes visitors to a venue's Google review page, menu, booking link or product-discovery page, with a measurable scan-to-action report. The evidence supports customer willingness to pay for hardware and setup, but does not establish recurring software willingness to pay or conversion rates.
-- Value capture: Sell a small installation package consisting of printed NFC/QR plates, destination-link setup and optional monthly replacement/analytics service. The defensible asset would be a reusable set of venue templates, installation SOPs and measured scan-to-action data by venue type. Do not assume recurring revenue until a pilot produces paid renewals.
-- Participation hypothesis: Buy or locally source 10-20 blank NFC/QR plates or cards and approach independently reachable venues such as cafes, salons, lodging properties or market stalls with a single fixed-price pilot. Use each venue's existing Google Business Profile or menu/booking URL; obtain permission before installation. Track unique redirect scans and completed review/menu/booking actions for 30 days. Lowest-cost falsification: pre-sell three pilots with deposits or written purchase commitments before buying inventory; stop if fewer than three venues agree to pay
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://tarjetas-nfc.com/; https://www.tuk.cl/es-cl/pages/para-empresas; https://linkd.cl/
 
 ### Pre-compliance implementation and sandbox testing for Chile Open Finance participants [opp_feeb29504969ee6e91ea]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile

@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 142
+Candidates: 143
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -1108,6 +1108,18 @@ Candidates: 142
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
+## Chile SFA/ATENA interoperability test harness for small participating entities
+- Status: watch | open_finance_chile
+- Current idea: Entities that intend to participate have a defined technical target and a public test environment before production. A narrowly scoped, reusable test harness could reduce integration and conformance-testing work without requiring the operator to become a regulated financial participant.
+- Potential economic capture: Sell or license a Chile-specific package containing API request/response fixtures, schema validation, participant-directory test cases, credential-flow checks, automated regression reports, and ATENA test-run assistance. Revenue should be validated before assuming a recurring software model; the initial offer can be a paid diagnostic or fixed-scope implementation asset.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-113897.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html
+
 ## Chile’s Open Finance implementation is moving from regulation to integration infrastructure
 - Status: watch | open_finance_chile
 - Current idea: The regulatory framework is becoming technically actionable, but banks, fintechs, data intermediaries, consent-management providers, compliance vendors, and integration specialists still have preparation time and implementation friction. This creates a window for infrastructure and localized financial-data products before mandatory adoption.
@@ -1428,7 +1440,7 @@ Candidates: 142
   - Compare local product availability to supplier catalogs and independent consumer interest.
   - Check import, tax, return, certification and delivery economics before estimating margin.
   - Try a legitimate pre-order/waitlist test with transparent fulfillment conditions.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Actual landed unit cost, customization cost, installation time, delivery cost, payment fees, defect/replacement rate, and gross margin at pilot scale.; Whether venues will pay materially more than the direct prices offered by existing Chilean suppliers.; Incremental conversion from plate exposure to completed reviews, bookings, menu views, orders, or revenue by venue type.
 - Possible initial budget:
 - Source URLs: https://tarjetas-nfc.com/; https://www.tuk.cl/es-cl/pages/para-empresas; https://linkd.cl/
 
