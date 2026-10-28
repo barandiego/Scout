@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-28T10:29:39.102619+00:00
+Generated: 2026-10-28T17:55:00.191748+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 143 (0 HQ survivors, 143 watches)
+- Active research: 144 (0 HQ survivors, 144 watches)
 - Rejected opportunities excluded: 79
-- Critic-and-judge reviewed: 67
+- Critic-and-judge reviewed: 68
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -292,6 +292,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Whether ATENA access is open to external vendors, consultants, and service providers, or restricted to regulated/registered participants.; Whether CMF will accept third-party test reports or require participants to use only official certification and sandbox procedures.; The number of entities that will actually need external help, segmented by banks, payment providers, account-information providers, and fintech applicants.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
+### Chile Open Finance interoperability test harness for smaller regulated participants [opp_c692e8312568453cf11f]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Smaller financial institutions and fintech participants must validate API interoperability, participant-directory interactions, credentials and technical compliance before production participation. The regulatory timetable creates a bounded pre-production testing window rather than an indefinite market trend.
+- Value capture: A narrowly scoped test harness or implementation package could charge for documented conformance testing, integration diagnostics, synthetic test-data scenarios and evidence packages prepared for an institution’s internal compliance or engineering review. Actual willingness to pay, pricing and procurement route are unverified.
+- Participation hypothesis: Build the smallest non-production demonstrator against publicly available CMF technical specifications and ATENA documentation: implement one read-data flow, one payment-initiation mock flow and participant-directory/credential checks using synthetic data. Publish a test report and offer it to a small sample of Chilean fintechs, payment operators or financial institutions for feedback; do not represent the service as CMF-approved or assume access to private endpoints. Falsification step: before building a full product, interview or email 10 ide
+- Critic/judge: The regulatory premise is sufficiently grounded by CMF primary sources: a technical annex, ATENA sandbox, and a planned July 2027 entry-into-force date support a real pre-production interoperability window. A narrowly scoped service can plausibly avoid handling live customer data by using synthetic data and operating only under each participant's own sandbox permissions. However, the proposed generic test-harness wedge is materially thr
+- Next evidence gaps: Whether ATENA is free, sufficiently complete and available to every relevant participant, and whether it exposes enough functionality for external vendors to build d; Whether CMF or industry bodies will define an official certification, conformance-test format or evidence package that buyers must obtain.; The number of smaller institutions and fintechs that will actually be required to participate, their implementation budgets and their decision-making timelines.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://cmfchile.cl/portal/prensa/625/w4-article-113897.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html
 
 ### Chile Open-Finance sandbox conformance kit for small participants [opp_6815e39c170199386f97]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile

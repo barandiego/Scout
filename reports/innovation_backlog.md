@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 143
+Candidates: 144
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -843,6 +843,18 @@ Candidates: 143
 - Critical gaps: Whether ATENA access is open to external vendors, consultants, and service providers, or restricted to regulated/registered participants.; Whether CMF will accept third-party test reports or require participants to use only official certification and sandbox procedures.; The number of entities that will actually need external help, segmented by banks, payment providers, account-information providers, and fintech applicants.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
+## Chile Open Finance interoperability test harness for smaller regulated participants
+- Status: watch | open_finance_chile
+- Current idea: Smaller financial institutions and fintech participants must validate API interoperability, participant-directory interactions, credentials and technical compliance before production participation. The regulatory timetable creates a bounded pre-production testing window rather than an indefinite market trend.
+- Potential economic capture: A narrowly scoped test harness or implementation package could charge for documented conformance testing, integration diagnostics, synthetic test-data scenarios and evidence packages prepared for an institution’s internal compliance or engineering review. Actual willingness to pay, pricing and procurement route are unverified.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Whether ATENA is free, sufficiently complete and available to every relevant participant, and whether it exposes enough functionality for external vendors to build differentiated tooling.; Whether CMF or industry bodies will define an official certification, conformance-test format or evidence package that buyers must obtain.; The number of smaller institutions and fintechs that will actually be required to participate, their implementation budgets and their decision-making timelines.
+- Possible initial budget:
+- Source URLs: https://cmfchile.cl/portal/prensa/625/w4-article-113897.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html
 
 ## Chile Open-Finance conformance and integration test harness
 - Status: watch | open_finance_chile

@@ -2525,6 +2525,89 @@
     {
       "ai_leverage": "",
       "authorized_for_execution": false,
+      "contrary_evidence": [
+        "There is meaningful positive evidence against rejecting the opportunity outright. CMF launched ATENA on September 30, 2026 and explicitly invited institutions to use it to test integrations, participant-directory interactions and business models before the planned July 2027 entry into force. CMF also published a technical annex covering information exchange and payment initiation and stated that entities could begin development. The official developer documentation includes specifications, examples, endpoint references, security and participant-directory material, reducing technical ambiguity and making a low-cost demonstrator feasible. The regulatory process has also involved industry consultation, indicating that implementation complexity is recognized by participants. However, these facts establish a testing need, not paid demand for an independent third-party product. Sources: https://cmfchile.cl/portal/prensa/625/w4-article-113897.html ; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html ; https://cmfchile.atlassian.net/wiki/spaces/OFAC ; https://www.cmfchile.cl/portal/principal/623/w4-article-80196.html"
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-28T17:54:35.964932+00:00",
+      "discovery_lens": "regulation_infrastructure",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF launched ATENA to let institutions test integrations, interoperability with the participant directory and technical readiness before the Open Finance System’s planned July 2027 entry into force.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF lanza Sandbox Tecnológico ATENA para la implementación del Sistema de Finanzas Abiertas",
+          "url": "https://cmfchile.cl/portal/prensa/625/w4-article-113897.html"
+        },
+        {
+          "claim": "CMF published the technical annex covering information exchange and payment initiation, added simplified participation and pilot testing, and postponed entry into force to July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.84,
+      "falsification_conditions": [
+        "Ten identifiable target participants are contacted and none agrees to test the demonstrator, provide technical feedback or discuss a paid diagnostic.",
+        "At least five target participants confirm that ATENA and incumbent vendors already cover their testing and evidence needs at no additional cost.",
+        "CMF documentation or ATENA access rules prohibit the proposed external testing, automation or evidence-generation workflow.",
+        "The regulatory timetable is postponed beyond July 2027, materially narrowed, or made nonmandatory for the targeted smaller participants.",
+        "The technical standards change substantially enough that a demonstrator built from the current specifications becomes unusable before customer validation.",
+        "Prospective customers state that procurement requires formal CMF accreditation, certifications or liability coverage unavailable to the operator.",
+        "A competitor offers materially equivalent conformance testing, reporting and support at a price below the opportunity's feasible delivery cost.",
+        "No respondent identifies a concrete compliance, engineering or launch decision for which an independent diagnostic would change timing, risk or budget."
+      ],
+      "geography": "Chile",
+      "id": "opp_c692e8312568453cf11f",
+      "judge_reviewed": true,
+      "judgment": "The regulatory premise is sufficiently grounded by CMF primary sources: a technical annex, ATENA sandbox, and a planned July 2027 entry-into-force date support a real pre-production interoperability window. A narrowly scoped service can plausibly avoid handling live customer data by using synthetic data and operating only under each participant's own sandbox permissions. However, the proposed generic test-harness wedge is materially threatened by overlap with CMF-provided ATENA, public developer documentation, and likely incumbent integrators/consultants. There is no evidence yet of a mandatory independent certification/evidence requirement, paid procurement route, buyer budget, or differentiated capability that ATENA does not provide. It is HQ-worthy only as a buyer-validation research case, not as a validated infrastructure business.",
+      "last_record_updated_at": "2026-10-28T17:54:59.809307+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Whether ATENA is free, sufficiently complete and available to every relevant participant, and whether it exposes enough functionality for external vendors to build differentiated tooling.",
+        "Whether CMF or industry bodies will define an official certification, conformance-test format or evidence package that buyers must obtain.",
+        "The number of smaller institutions and fintechs that will actually be required to participate, their implementation budgets and their decision-making timelines.",
+        "Whether prospective buyers already have internal implementation owners, incumbent systems integrators, security consultants or vendor-provided test tooling.",
+        "Whether external access to ATENA, the participant directory, credentials and payment-initiation test flows is operationally straightforward under a third party's permissions."
+      ],
+      "participation_path": "Build the smallest non-production demonstrator against publicly available CMF technical specifications and ATENA documentation: implement one read-data flow, one payment-initiation mock flow and participant-directory/credential checks using synthetic data. Publish a test report and offer it to a small sample of Chilean fintechs, payment operators or financial institutions for feedback; do not represent the service as CMF-approved or assume access to private endpoints. Falsification step: before building a full product, interview or email 10 identifiable prospective participants and ask whether they already have an internal implementation owner, whether they will use ATENA, and whether they would pay for an external conformance diagnostic. Proceed only if at least one respondent agrees to test the demonstrator under its own permissions.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Smaller financial institutions and fintech participants must validate API interoperability, participant-directory interactions, credentials and technical compliance before production participation. The regulatory timetable creates a bounded pre-production testing window rather than an indefinite market trend.",
+      "title": "Chile Open Finance interoperability test harness for smaller regulated participants",
+      "type": "infrastructure_offer",
+      "unknowns": [
+        "Whether ATENA is free, sufficiently complete and available to every relevant participant, and whether it exposes enough functionality for external vendors to build differentiated tooling.",
+        "Whether CMF or industry bodies will define an official certification, conformance-test format or evidence package that buyers must obtain.",
+        "The number of smaller institutions and fintechs that will actually be required to participate, their implementation budgets and their decision-making timelines.",
+        "Whether prospective buyers already have internal implementation owners, incumbent systems integrators, security consultants or vendor-provided test tooling.",
+        "Whether external access to ATENA, the participant directory, credentials and payment-initiation test flows is operationally straightforward under a third party's permissions.",
+        "Actual pricing, procurement cycles, liability requirements, data-security review requirements and Spanish-language support expectations.",
+        "Whether July 2027 is a hard commercial deadline or whether further regulatory, technical or implementation delays will reduce urgency.",
+        "Whether the proposed demonstrator can test production-relevant edge cases rather than merely reproduce publicly available examples.",
+        "Whether ATENA is available to all relevant small participants, its cost and functional coverage, and whether it permits external service-provider access or automation.",
+        "Which entities are obligated or economically motivated to participate, their actual launch dates, and the size of their implementation/testing budgets.",
+        "Whether CMF, industry bodies, or counterparties will require a conformance certificate or specific evidence artifact beyond sandbox testing.",
+        "Whether any target buyer will pay for an independent diagnostic rather than use ATENA, internal teams, existing vendors, or competing Chilean open-finance providers.",
+        "The procurement owner, sales cycle, pricing ceiling, security review, data-processing terms, and liability requirements for a service that touches credentials or test integrations.",
+        "Whether a provider can demonstrate production-relevant edge-case coverage without access to private endpoints or live regulated data."
+      ],
+      "value_capture_mechanism": "A narrowly scoped test harness or implementation package could charge for documented conformance testing, integration diagnostics, synthetic test-data scenarios and evidence packages prepared for an institution’s internal compliance or engineering review. Actual willingness to pay, pricing and procurement route are unverified.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": true,
       "discovered_at": "2026-10-26T03:13:17.687461+00:00",
@@ -10097,13 +10180,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-28T10:29:39.102619+00:00",
+  "generated_at": "2026-10-28T17:55:00.191748+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 79,
-  "reviewed_cards": 67,
+  "reviewed_cards": 68,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 222,
-  "watch": 143
+  "total_distinct_opportunities": 223,
+  "watch": 144
 }

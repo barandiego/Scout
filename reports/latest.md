@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-28T10:29:38.705272+00:00
+Generated: 2026-10-28T17:54:59.902817+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['geographic_arbitrage', 'ai_open_source', 'public_markets']
+- lenses: ['physical_commerce', 'regulation_infrastructure', 'robotics_automation']
 - raw_candidates: 1
 - parseable_candidates: 1
 - normalized_candidates: 1
 - normalization_rejected: 0
-- grounded_sources: 3
+- grounded_sources: 2
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
 - critic_reviews: 1
 - judge_reviews: 1
 - survivors: 0
-- watches: 2
+- watches: 1
 - rejected: 0
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.04348985
+- cost_usd: 0.04236815
 - cost_uncertain: False
-- budget_remaining_usd: 0.03651015
+- budget_remaining_usd: 0.03763185
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- SII company-record change monitor for accounting and compliance firms: deferred_by_review_cap
 - ATENA interoperability smoke-test harness for Chilean Open Finance participants: The regulatory premise is sufficiently grounded by CMF primary sources: ATENA and the July 2027 framework timing appear to be real, and published technical materials make a narrow conformance/readiness-testing wedge plausible. However, this is not yet a demonstrated software business. The core product may be substantially substituted by CMF’s own sandbox, public specifications, internal QA teams, implementation vendors, and established Open Finance tooling. Crucially, there is no evidence that a third party can obtain the necessary non-production access or automate ATENA workflows, nor that regulated buyers will procure an external harness rather than consulting or incumbent-platform support. The opportunity survives only as tightly scoped HQ research into technical access, mandatory test requirements, buyer ownership, and willingness to pay—not as an execution recommendation.
 - Chile SFA consent-and-API conformance test harness for early participants: deferred_by_review_cap
 - Pre-compliance implementation and sandbox testing for Chile Open Finance participants: deferred_by_review_cap
@@ -51,12 +50,13 @@ No survivors. Scout does not manufacture a daily winner.
 - Energy-performance verification for desalination and seawater-pumping systems in Chilean mining: deferred_by_review_cap
 - Apply to Outlier Spanish-Chile AI training evaluation assignment: A primary, Chile-specific Outlier application page is credible evidence of an available route to test foreign-paid remote demand, and the no-inventory model avoids the import, landed-cost, and distribution barriers that normally make geographic-arbitrage ideas fail. However, this is not yet a validated arbitrage opportunity: the posting does not establish a Chile-specific rate, paid-hour volume, screening conversion, project continuity, payout usability, or net hourly economics. Foreign demand is evidenced by the employer’s role posting rather than solely anecdotal reports, so the foreign-traction fatal condition is not met. The appropriate HQ conclusion is a tightly bounded research test, not an income or business claim.
 - Chile SFA/ATENA interoperability test harness for small participating entities: deferred_by_review_cap
+- Chile Open Finance interoperability test harness for smaller regulated participants: The regulatory premise is sufficiently grounded by CMF primary sources: a technical annex, ATENA sandbox, and a planned July 2027 entry-into-force date support a real pre-production interoperability window. A narrowly scoped service can plausibly avoid handling live customer data by using synthetic data and operating only under each participant's own sandbox permissions. However, the proposed generic test-harness wedge is materially threatened by overlap with CMF-provided ATENA, public developer documentation, and likely incumbent integrators/consultants. There is no evidence yet of a mandatory independent certification/evidence requirement, paid procurement route, buyer budget, or differentiated capability that ATENA does not provide. It is HQ-worthy only as a buyer-validation research case, not as a validated infrastructure business.
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=backlog",
+    "deep_review_lane=fresh",
     "research_queue_unreviewed=70"
   ],
   "stages": [
@@ -65,30 +65,24 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 22,
+      "grounded_source_count": 16,
       "search_source_urls": [
-        "https://arxiv.org/abs/2302.08091",
-        "https://arxiv.org/abs/2307.14334",
-        "https://arxiv.org/abs/2401.02851",
-        "https://arxiv.org/abs/2610.28826",
         "https://cmfchile.cl/portal/prensa/625/w4-article-113897.html",
-        "https://cmfchile.cl/portal/principal/613/articles-86462_doc_pdf.pdf",
-        "https://github.com/Muvon/octomind",
-        "https://github.com/Wilberry/agent-workbench",
-        "https://github.com/antiv/mate",
-        "https://github.com/apowerb/apowerb",
-        "https://github.com/boundflow/boundflow",
-        "https://github.com/dshakes/lantern",
-        "https://github.com/gethamster/horde",
-        "https://github.com/wanxingai/LightAgent",
-        "https://github.github.com/gh-aw/slides/20260224-github-agentic-workflows.pdf",
+        "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/",
+        "https://ifr.org/downloads/press_docs/PressConference2025_presentation.pdf",
+        "https://ifr.org/img/worldrobotics/Executive_Summary_WR_2025_Industrial_Robots.pdf",
+        "https://ifr.org/news/five-million-robots-now-operate-in-factories-globally/",
         "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
-        "https://www.cmfchile.cl/portal/prensa/615/articles-99098_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-87624_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-100482.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-102547.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110411.html",
         "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/principal/613/articles-82381_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-112955.html?trk=public_post_comment-text",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-92449.html",
+        "https://www.cmfchile.cl/portal/principal/613/articles-89581_doc_pdf.pdf",
         "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.sec.gov/Archives/edgar/data/1136174/000162828024033292/a20231231-10kasfiled.pdf",
-        "https://www.sec.gov/Archives/edgar/data/810902/000119312515379716/filename15.pdf"
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html"
       ]
     },
     {
@@ -103,45 +97,48 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 3,
+      "grounded_sources": 2,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_d54cb21f051b71d41869",
+      "candidate_id": "opp_c692e8312568453cf11f",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 19,
+      "grounded_source_count": 20,
       "search_source_urls": [
-        "https://chileqr.cl/docs/analitica-y-metricas-de-uso/",
-        "https://greengraphic.cl/products/tarjeta-nfc-con-diseno-personalizado-pvc-tarjeta-de-presentacion-virtual-copia?variant=67654606618794",
-        "https://menudigitalchile.cl/product/totem-pro-nfc-y-qr-para-resenas-de-google/",
-        "https://pymevisible.cl/stand-nfc-qr",
-        "https://reviewworks.us/",
-        "https://support.google.com/business/answer/16816815?hl=en-GB",
-        "https://vluetechservices.cl/catalogo/tarjetas-nfc-resenas/",
-        "https://wildirismarketing.com/wp-content/uploads/2025/05/Google-Business-Profiles-in-2025.pdf",
-        "https://www.agencia7.cl/",
-        "https://www.lumacards.com/google-review-card",
-        "https://www.mesadigital.cl/",
-        "https://www.puntotap.cl/",
-        "https://www.reddit.com/r/GoogleMyBusiness/comments/1rj5t3c/are_google_review_filter_pages_allowed/",
-        "https://www.reddit.com/r/GoogleMyBusiness/comments/1uxsh4t/approximately_800_genuine_google_reviews/",
-        "https://www.reddit.com/r/GoogleMyBusiness/comments/1vf1o6m/profile_restricted_for_fake_engagement/",
-        "https://www.reddit.com/r/GoogleMyBusiness/comments/1w9n8ri/removed/",
-        "https://www.reddit.com/r/GoogleMyBusiness/comments/1xemz5w/google_reviews_with_qr_code/",
-        "https://www.reddit.com/r/googlebusinessprofile/comments/1wcm91z/tips_for_collecting_reviews_for_a_car_dealership/",
-        "https://www.simpleqr.cl/"
+        "https://chocale.cl/2026/10/sandbox-atena-el-gran-ensayo-antes-de-la-puesta-en-marcha-del-sistema-de-finanzas-abiertas/",
+        "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812",
+        "https://cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://cmfchile.cl/portal/principal/623/w4-article-80196.html",
+        "https://cmfchile.cl/portal/principal/623/w4-article-92466.html",
+        "https://en.wikipedia.org/wiki/Open_finance",
+        "https://openfinance.cl/",
+        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA",
+        "https://sfasandbox.cl/",
+        "https://www.centerforfinancialinclusion.org/wp-content/uploads/2026/03/Who-Pays-for-What-Pricing-and-Monetization-Options-in-Open-Finance.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/articles-82752_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/articles-92466_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/articles-96504_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-73961.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-80854.html",
+        "https://www.findevgateway.org/sites/default/files/publications/2026/Open%20Finance%20Implementation%20White%20Paper%20-%20Mazer-Dias%20-%20March%202025.pdf",
+        "https://www.legal500.com/guides/chapter/chile-fintech/?export-pdf=",
+        "https://www.reddit.com/r/chileIT/comments/1gf8fev/apis_bancarias/"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_d54cb21f051b71d41869",
-      "coercions": []
+      "candidate_id": "opp_c692e8312568453cf11f",
+      "coercions": [
+        "contrary_evidence"
+      ]
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_d54cb21f051b71d41869",
+      "candidate_id": "opp_c692e8312568453cf11f",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -149,7 +146,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_d54cb21f051b71d41869",
+      "candidate_id": "opp_c692e8312568453cf11f",
       "coercions": []
     }
   ],
@@ -157,44 +154,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 273,
-      "cache_write_tokens": 5418,
+      "reasoning_tokens": 161,
+      "cache_write_tokens": 5578,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0142047,
+      "cumulative_cost_usd": 0.0139323,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13975,
+      "input_tokens": 13959,
       "cached_tokens": 0,
-      "output_tokens": 949,
+      "output_tokens": 718,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0142047
+      "estimated_cost_usd": 0.0139323
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 135,
-      "cache_write_tokens": 5397,
+      "reasoning_tokens": 100,
+      "cache_write_tokens": 5289,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02755135,
+      "cumulative_cost_usd": 0.02818015,
       "model": "gpt-5.6-luna",
-      "input_tokens": 8028,
+      "input_tokens": 13575,
       "cached_tokens": 0,
-      "output_tokens": 1226,
+      "output_tokens": 1057,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01334665
+      "estimated_cost_usd": 0.01424785
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 107,
-      "cache_write_tokens": 2893,
+      "reasoning_tokens": 52,
+      "cache_write_tokens": 2764,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.04348985,
+      "cumulative_cost_usd": 0.04236815,
       "model": "gpt-5.6-terra",
-      "input_tokens": 2896,
+      "input_tokens": 2767,
       "cached_tokens": 0,
-      "output_tokens": 725,
+      "output_tokens": 606,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.0159385
+      "estimated_cost_usd": 0.014188
     }
   ]
 }
