@@ -401,9 +401,22 @@ def build_snapshot(existing: dict | None, incoming: list[dict], *,
             old["signal_metric"] = item["signal_metric"]
             old["quality_signal_score"] = item["quality_signal_score"]
             old["last_observed_at"] = now.isoformat()
-    leads = sorted(retained.values(),
-                   key=lambda x: (x.get("quality_signal_score", 0),
-                                  x["first_seen"], x["id"]), reverse=True)[:MAX_LEADS]
+    ranked = sorted(retained.values(),
+                    key=lambda x: (x.get("quality_signal_score", 0),
+                                   x["first_seen"], x["id"]), reverse=True)
+    # Reserve bounded space for each existing research lane before filling
+    # remaining slots by the same global ranking. Scores indicate topic
+    # relevance, not commercial quality, and reserved leads remain unverified.
+    lane_slots = min(100, MAX_LEADS // len(RELEVANCE_WORDS))
+    selected_ids = set()
+    for category in RELEVANCE_WORDS:
+        selected_ids.update(x["id"] for x in
+                            [x for x in ranked if x.get("category") == category][:lane_slots])
+    for item in ranked:
+        if len(selected_ids) >= MAX_LEADS:
+            break
+        selected_ids.add(item["id"])
+    leads = [item for item in ranked if item["id"] in selected_ids]
     return {
         "schema_version": 1, "generated_at": now.astimezone(timezone.utc).isoformat(),
         "source_type": "UNREVIEWED_PUBLIC_SOURCE_SIGNALS",
