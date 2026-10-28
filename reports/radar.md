@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-27T20:49:19.606480+00:00
+Generated: 2026-10-28T05:59:23.077882+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 161
+- New this cycle: 185
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): arxiv_ai:unavailable_or_invalid, crossref_energy:unavailable_or_invalid
-- Categories: agriculture 458, ai 103, commerce 11, energy 470, robotics 758
+- Feed failures (fail-open for public intake only): none
+- Categories: agriculture 459, ai 98, commerce 2, energy 477, robotics 764
 
 ## Recently encountered signals
 
@@ -372,6 +372,36 @@ Generated: 2026-10-27T20:49:19.606480+00:00
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
+### A review of immersion cooling for lithium-ion battery energy storage systems: thermal performance and scale-up challenges
+- Source: https://doi.org/10.1016/j.applthermaleng.2026.133823
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### Impact Analysis of Battery Energy Storage System and Demand Response in Microgrid
+- Source: https://doi.org/10.3390/en19215105
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### Distributionally Robust Whole-Process Restoration of Power Systems with Photovoltaic–Battery Energy Storage Stations and Flexible Loads
+- Source: https://doi.org/10.3390/app162110584
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### REGULATORY FRAMEWORK FOR THE BATTERY ENERGY STORAGE SYSTEMS (BESS) IN THE ELECTRICITY MARKET
+- Source: https://doi.org/10.20535/1813-5420.3.2026.370165
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### Optimal Allocation of Battery Energy Storage Systems in Solar Integrated Distribution Networks Using Particle Swarm Optimization Technique
+- Source: https://doi.org/10.67047/tepes.1891780
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
 ### sonu-tech006/KrishiSignal-AI-Smart-Farming-Platform
 - Source: https://github.com/sonu-tech006/KrishiSignal-AI-Smart-Farming-Platform
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
@@ -430,34 +460,4 @@ Generated: 2026-10-27T20:49:19.606480+00:00
 - Source: https://github.com/nishad-uday/smart-agri-advisory
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Comparison of different dynamic network tariffs for economically operating battery energy storage systems in distribution grids
-- Source: https://doi.org/10.1049/icp.2026.3658
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### GIW2026Hackathon/AgriHerd
-- Source: https://github.com/GIW2026Hackathon/AgriHerd
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### sec25ec333/AgriShield-AI-Intelligent-Precision-Pesticide-Spraying-System
-- Source: https://github.com/sec25ec333/AgriShield-AI-Intelligent-Precision-Pesticide-Spraying-System
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Aayushp11607/Cropsense-AI
-- Source: https://github.com/Aayushp11607/Cropsense-AI
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### bhoomimali/SunBank
-- Source: https://github.com/bhoomimali/SunBank
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
