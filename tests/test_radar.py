@@ -241,3 +241,39 @@ def test_google_news_chile_rss_topic_source_enforced():
     assert len(got)==1 and got[0]["category"]=="robotics"
     assert got[0]["url"].startswith("https://news.google.com/")
     assert got[0]["evidence_status"]=="PUBLIC_SOURCE_SIGNAL_NOT_VERIFIED_MARKET_DEMAND"
+
+
+def test_retention_preserves_sparse_lanes_when_other_sources_flood():
+    def lead(i, category, title, score):
+        return {"id": f"rad_{i}", "url": f"https://example.org/{i}",
+                "title": title, "summary": "", "category": category,
+                "quality_signal_score": score, "first_seen": NOW.isoformat(),
+                "signal_metric": {}, "survivor": False, "buyer_verified": False}
+    incoming = [lead(i, "robotics", "robot actuator", 2) for i in range(1800)]
+    incoming += [lead("commerce", "commerce", "ecommerce", 1),
+                 lead("energy", "energy", "energy", 1)]
+    result = build_snapshot(None, incoming, now=NOW, errors=[])
+    assert result["current_rolling_leads"] == 1800
+    assert result["counts_by_category"]["commerce"] == 1
+    assert result["counts_by_category"]["energy"] == 1
+    assert result["counts_by_category"]["robotics"] == 1798
+    assert all(not x["survivor"] and not x["buyer_verified"] for x in result["leads"])
+
+
+def test_balanced_retention_does_not_invent_leads_and_is_stable_across_restart():
+    incoming = [
+        {"id": f"rad_{i}", "url": f"https://example.org/{i}",
+         "title": "robot actuator", "summary": "", "category": "robotics",
+         "quality_signal_score": 2, "first_seen": NOW.isoformat(),
+         "signal_metric": {}, "survivor": False, "buyer_verified": False}
+        for i in range(1801)
+    ]
+    incoming.append({"id": "rad_c", "url": "https://example.org/c",
+                     "title": "ecommerce", "summary": "", "category": "commerce",
+                     "quality_signal_score": 1, "first_seen": NOW.isoformat(),
+                     "signal_metric": {}, "survivor": False, "buyer_verified": False})
+    first = build_snapshot(None, incoming, now=NOW, errors=[])
+    second = build_snapshot(first, [], now=NOW + timedelta(hours=4), errors=[])
+    assert [x["id"] for x in first["leads"]] == [x["id"] for x in second["leads"]]
+    assert second["counts_by_category"] == {"robotics": 1799, "commerce": 1}
+    assert second["new_signals_this_cycle"] == 0
