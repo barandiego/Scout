@@ -302,7 +302,7 @@ def test_pagination_duplicate_handling_and_caps():
         published_from="2026-06-01T00:00:00Z", published_to="2026-06-05T00:00:00Z",
         observed_at=OBSERVED, max_pages=2, max_details=2)
     assert [r.code for r in records] == ["999999-1-COT26", "999999-2-COT26"]
-    assert diag == {"pages_fetched": 2, "detail_attempts": 2, "details_fetched": 2, "duplicate_listings": 1, "malformed_details": 0, "malformed_reasons": {}, "malformed_samples": [], "api_failures": {}, "transient_retries": 0, "budget_exhausted": False, "requests_used": 4}
+    assert diag == {"pages_fetched": 2, "detail_attempts": 2, "details_fetched": 2, "duplicate_listings": 1, "malformed_details": 0, "malformed_reasons": {}, "malformed_samples": [], "api_failures": {}, "transient_retries": 0, "budget_exhausted": False, "requests_used": 4, "detail_cap_exhausted": False, "pagination_incomplete": False, "pagination_invalid": False, "invalid_listing_items": 0}
 
 
 def test_malformed_detail_attempts_are_bounded_and_reported():
@@ -737,3 +737,56 @@ def test_detail_must_match_requested_listing_code(window):
     assert rows == []
     assert diag["malformed_reasons"]["detail_code_mismatch"] == 1
     assert procurement_cli.monitor_health(diag) == (False, "DEGRADED_MALFORMED_DETAIL")
+
+@pytest.mark.parametrize(("items", "pagination", "max_pages", "max_details", "reason"), [
+    ([{"codigo": "A"}, {"codigo": "B"}], {"total_paginas": 1, "numero_pagina": 1}, 1, 1, "detail_cap_exhausted"),
+    ([{"codigo": "A"}], {"total_paginas": 2, "numero_pagina": 1}, 1, 5, "pagination_incomplete"),
+    ([], {}, 1, 5, "pagination_invalid"),
+    ({}, {"total_paginas": 1, "numero_pagina": 1}, 1, 5, "invalid_listing_items"),
+    ([{}], {"total_paginas": 1, "numero_pagina": 1}, 1, 5, "invalid_listing_items"),
+])
+def test_backfill_incomplete_listing_never_reports_complete(items, pagination, max_pages, max_details, reason):
+    listing = {"success": "OK", "payload": {"items": items, "paginacion": pagination}}
+    client = ChileCompraClient("synthetic", request_limit=10,
+        transport=lambda url, _headers, _timeout:
+            detail_for_url(url) if "/v2/compra-agil/" in url else listing)
+    _, diag = client.historical_window(published_from="2026-06-01T00:00:00Z",
+        published_to="2026-06-02T00:00:00Z", observed_at=OBSERVED,
+        max_pages=max_pages, max_details=max_details)
+    assert diag[reason]
+    assert procurement_cli.monitor_health(diag) == (False, "DEGRADED_INCOMPLETE_SOURCE_WINDOW")
+
+
+def test_backfill_exact_detail_cap_on_final_page_is_complete():
+    listing = {"success": "OK", "payload": {"items": [{"codigo": "A"}],
+               "paginacion": {"total_paginas": 1, "numero_pagina": 1}}}
+    client = ChileCompraClient("synthetic", request_limit=5,
+        transport=lambda url, _headers, _timeout:
+            detail_for_url(url) if "/v2/compra-agil/" in url else listing)
+    rows, diag = client.historical_window(published_from="2026-06-01T00:00:00Z",
+        published_to="2026-06-02T00:00:00Z", observed_at=OBSERVED, max_pages=1, max_details=1)
+    assert len(rows) == 1
+    assert procurement_cli.monitor_health(diag) == (True, "COMPLETE")
+
+
+def test_backfill_cli_reports_partial_window_and_persists_records(tmp_path, monkeypatch, capsys):
+    import sys
+    listing = {"success": "OK", "payload": {"items": [{"codigo": "A"}, {"codigo": "B"}],
+               "paginacion": {"total_paginas": 1, "numero_pagina": 1}}}
+    class FixtureClient(ChileCompraClient):
+        def __init__(self, ticket, *, request_limit):
+            super().__init__(ticket, request_limit=request_limit,
+                transport=lambda url, _headers, _timeout:
+                    detail_for_url(url) if "/v2/compra-agil/" in url else listing)
+    monkeypatch.setattr(procurement_cli, "ChileCompraClient", FixtureClient)
+    monkeypatch.setattr(procurement_cli, "ROOT", tmp_path)
+    monkeypatch.setattr(procurement_cli, "_config", lambda: {"live_api_enabled": True,
+        "limits": {"max_requests_per_run": 5, "max_list_pages": 1, "max_detail_requests": 1}})
+    monkeypatch.setenv("CHILECOMPRA_TICKET", "fixture-only")
+    monkeypatch.setattr(sys, "argv", ["procurement", "backfill", "--from", "2026-06-01T00:00:00Z",
+        "--to", "2026-06-02T00:00:00Z", "--state", "events.jsonl"])
+    assert procurement_cli._main() == 2
+    report = json.loads(capsys.readouterr().out)
+    assert report["ok"] is False
+    assert report["diagnostics"]["detail_cap_exhausted"] is True
+    assert len(ProcurementStore(tmp_path / "events.jsonl").events) == 1
