@@ -379,7 +379,7 @@ def test_malformed_timestamp_shape_is_sanitized():
     assert sample["date_shape"]["fecha_cierre"] == {
         "present": True, "type": "str", "parseable_iso": False, "timezone_aware": False
     }
-    assert "Fixture de útiles estandarizados" not in json.dumps(sample, ensure_ascii=False)
+    assert "Fixture de �tiles estandarizados" not in json.dumps(sample, ensure_ascii=False)
 
 
 def test_real_api_naive_timestamps_are_preserved_without_invented_timezone():
@@ -677,3 +677,37 @@ def test_degraded_monitor_persists_partial_records_and_never_advances_cursor(
     assert report["outcome"] == outcome
     assert report["inserted_history"] == 1
     assert report["diagnostics"][flag]
+
+
+def test_history_reobservation_with_new_observed_at_is_idempotent(tmp_path):
+    path = tmp_path / "events.jsonl"
+    original = record()
+    later = original.model_copy(update={"source_observed_at": "2026-06-02T00:00:00Z"})
+    assert ProcurementStore(path).add_history(original)
+    assert not ProcurementStore(path).add_history(later)
+    events = ProcurementStore(path).events
+    assert len(events) == 1
+    assert events[0]["record"]["source_observed_at"] == original.source_observed_at
+
+
+def test_history_collision_still_raises_immutable_conflict(tmp_path, monkeypatch):
+    path = tmp_path / "events.jsonl"
+    original = record()
+    monkeypatch.setattr(type(original), "digest", lambda self: "0" * 64)
+    assert ProcurementStore(path).add_history(original)
+    changed = original.model_copy(update={"status": "cerrada", "source_observed_at": "2026-06-02T00:00:00Z"})
+    with pytest.raises(ProcurementDataError, match="immutable_event_conflict"):
+        ProcurementStore(path).add_history(changed)
+
+
+def test_history_extra_event_metadata_is_not_silently_ignored(tmp_path):
+    path = tmp_path / "events.jsonl"
+    original = record()
+    assert ProcurementStore(path).add_history(original)
+    event = json.loads(path.read_text(encoding="utf-8"))
+    event["unexpected_metadata"] = "preserve-conflict"
+    path.write_text(json.dumps(event) + "\n", encoding="utf-8")
+    later = original.model_copy(update={"source_observed_at": "2026-06-02T00:00:00Z"})
+    with pytest.raises(ProcurementDataError, match="immutable_event_conflict"):
+        ProcurementStore(path).add_history(later)
+
