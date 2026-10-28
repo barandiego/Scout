@@ -1,37 +1,27 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 5250000.0,
-      "buyer": "CORPORACION DEPORTIVA MUNICIPAL DE SAN PEDRO DE LA PAZ",
-      "closes_at": "2026-10-29T15:00:00",
-      "code": "1538637-19-COT26",
-      "estimated_budget": 5250000.0,
-      "name": "Servicio integral de alimentación, pantalla LED y producción audiovisual para World Triathlon Cup San Pedro de la Paz 2026",
-      "products": 4,
-      "region": "Región del Biobío"
-    },
-    {
-      "available_budget_clp": 240000.0,
-      "buyer": "MINEDUC ADMINISTRACION VIII REGION",
-      "closes_at": "2026-10-29T04:31:00",
-      "code": "1756-139-COT26",
-      "estimated_budget": 240000.0,
-      "name": "Contratación Servicio personal Profesional del área Actividad Física y Desarollo Sicomotor para relatoria jornada educ. parvularia",
+      "available_budget_clp": 199968.0,
+      "buyer": "ILUSTRE MUNICIPALIDAD DE SAN CARLOS",
+      "closes_at": "2026-10-30T12:12:00",
+      "code": "2727-632-COT26",
+      "estimated_budget": 199968.0,
+      "name": "ARTICULOS DE DIFUSION PARA CONVENIO HPV I CESFAM DR. JOSE DURAN TRUJILLO",
       "products": 1,
-      "region": "Región del Biobío"
+      "region": "Región del Ñuble"
     },
     {
-      "available_budget_clp": 645860.0,
-      "buyer": "CORP MUNICIPAL DE SERVICIOS PUBLICOS TRASPASADOS DE RANCAGUA",
-      "closes_at": "2026-10-29T08:00:00",
-      "code": "557639-3397-COT26",
-      "estimated_budget": 645860.0,
-      "name": "MATERIALES SALAS DE ESTIMULACIÓN Y TALLERES DE GESTANTES CHCC (15107)",
-      "products": 27,
-      "region": "Región del Libertador General Bernardo O´Higgins"
+      "available_budget_clp": 7200000.0,
+      "buyer": "Universidad de Chile",
+      "closes_at": "2026-10-29T12:46:00",
+      "code": "1540667-184-COT26",
+      "estimated_budget": 7200000.0,
+      "name": "MANTENCION PREVENTIVA INYECTORA MEDIO CONTRASTE",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
     }
   ],
-  "active_structurally_reconstructable_count": 3,
+  "active_structurally_reconstructable_count": 2,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -49,22 +39,24 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-10-28T05:55:10Z",
+  "generated_at": "2026-10-28T15:13:06Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
   "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
   "phase1": {
     "records": 20,
-    "rejection_reasons": {},
-    "resolved": 17,
-    "structurally_reconstructable": 20,
-    "with_observable_quote_totals": 17,
+    "rejection_reasons": {
+      "no_observable_competitive_prices": 14
+    },
+    "resolved": 18,
+    "structurally_reconstructable": 6,
+    "with_observable_quote_totals": 4,
     "with_purchase_order_indicator": 3
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-28T05:55:10Z"
+    "changed_to": "2026-10-28T15:13:06Z"
   }
 }
