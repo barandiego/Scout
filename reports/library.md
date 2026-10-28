@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-27T23:30:10.615779+00:00
+Generated: 2026-10-28T03:59:24.589015+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 141 (0 HQ survivors, 141 watches)
+- Active research: 142 (0 HQ survivors, 142 watches)
 - Rejected opportunities excluded: 79
-- Critic-and-judge reviewed: 65
+- Critic-and-judge reviewed: 66
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -162,6 +162,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: No quantified total addressable market, buyer budget, willingness to pay, or evidence that API-specific compliance is purchased separately from broader GRC, cloud-se; No evidence of customer interviews, pilots, design partners, conversion rates, procurement cycles, or channel access through assessors and government contractors.; No defined initial product, pricing, implementation burden, gross-margin profile, or estimate of required capital and engineering hours.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.nist.gov/news-events/news/2026/05/guidelines-secure-deployment-restful-web-apis-draft-sp-800-228a-available; https://www.fedramp.gov/2026/
+
+### Apply to Outlier Spanish-Chile AI training evaluation assignment [opp_1426f3e0ac915111a8b6]
+- Status: WATCH_REQUIRES_VALIDATION | geographic_arbitrage | Chile
+- Thesis: A qualified Chile-based bilingual or technical applicant can test access to paid model-evaluation work without inventory, advertising spend, or an application fee. The evidence verifies an application route, not guaranteed acceptance, hours, realized hourly income, or Chile-specific compensation.
+- Value capture: Hourly or task-based contractor compensation for completing assigned AI-training, evaluation, coding, or language-review tasks; weekly payout is advertised, but the exact Chile rate, available hours, tax treatment, age rule, and payout method remain unverified.
+- Participation hypothesis: Use the Chile-specific application page, complete the qualification and identity/onboarding steps only if no fee or deposit is requested, and record whether the applicant receives a project invitation and explicit Chile-specific rate. Lowest-cost falsification: one qualified Chile-based applicant submits a single application and stops before accepting any paid or unpaid work unless the platform states the rate, task terms, payout method, and eligibility in writing. Treat acceptance as an application result, not evidence of income. No buyer, min
+- Critic/judge: A primary, Chile-specific Outlier application page is credible evidence of an available route to test foreign-paid remote demand, and the no-inventory model avoids the import, landed-cost, and distribution barriers that normally make geographic-arbitrage ideas fail. However, this is not yet a validated arbitrage opportunity: the posting does not establish a Chile-specific rate, paid-hour volume, screening conversion, project continuity,
+- Next evidence gaps: Chile-specific hourly or per-task rate; Probability of passing screening and receiving a project; Whether the advertised role remains open as of the applicant's submission date
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://app.outlier.ai/login?job_post_id=4476998005; https://outlier.ai/
 
 ### ATENA interoperability smoke-test harness for Chilean Open Finance participants [opp_63bc9b9bc5ff0bfbcf2e]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile

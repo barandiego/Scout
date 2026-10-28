@@ -1401,6 +1401,92 @@
     {
       "ai_leverage": "",
       "authorized_for_execution": false,
+      "contrary_evidence": [
+        "The opportunity is not obviously fraudulent: the Chile-specific application page is publicly reachable and identifies the exact Spanish-Chile coding role. Outlier states that rates are disclosed before project work, payments are processed weekly, and work is performed remotely on a flexible schedule. Its FAQ confirms that the platform is operated by Scale AI and that contributors have completed paid work. A Chile-based user report describes receiving approximately $500 over several weeks, although this is anecdotal and cannot establish typical results. Sources: https://app.outlier.ai/login?job_post_id=4476998005, https://outlier.ai/faq, https://www.reddit.com/r/outlier_ai/comments/1jaijds/Good_experience_with_Outlier_from_Chile"
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-28T03:59:03.550412+00:00",
+      "discovery_lens": "remote_paid_evaluation",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The page identifies a Spanish-Chile AI-training application, says work is flexible, and advertises competitive weekly pay.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Outlier application: Coding Expertise for AI Training (Spanish - Chile)",
+          "url": "https://app.outlier.ai/login?job_post_id=4476998005"
+        },
+        {
+          "claim": "Outlier describes freelance AI-training work and quality-based rewards paid weekly.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Outlier AI trainer opportunities",
+          "url": "https://outlier.ai/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [
+        "A qualified Chile-based applicant cannot complete the application because the role is closed, unavailable in Chile, or restricted to another jurisdiction.",
+        "The applicant passes screening but receives no project invitation within 30 days.",
+        "The applicant receives a project but the written rate is below the applicant's minimum acceptable net hourly rate after estimating onboarding, tasking, review, tax, and payout costs.",
+        "Available work averages fewer than 5 paid hours per week over a 30-day observation period.",
+        "More than 20% of recorded working time is unpaid onboarding, waiting, rejected-task remediation, or mandatory qualification activity.",
+        "The stated payout method is unavailable to the applicant or payment is materially delayed or withheld without a clear contractual basis.",
+        "The platform requests an application fee, deposit, purchase, or other upfront payment."
+      ],
+      "geography": "Chile",
+      "id": "opp_1426f3e0ac915111a8b6",
+      "judge_reviewed": true,
+      "judgment": "A primary, Chile-specific Outlier application page is credible evidence of an available route to test foreign-paid remote demand, and the no-inventory model avoids the import, landed-cost, and distribution barriers that normally make geographic-arbitrage ideas fail. However, this is not yet a validated arbitrage opportunity: the posting does not establish a Chile-specific rate, paid-hour volume, screening conversion, project continuity, payout usability, or net hourly economics. Foreign demand is evidenced by the employer’s role posting rather than solely anecdotal reports, so the foreign-traction fatal condition is not met. The appropriate HQ conclusion is a tightly bounded research test, not an income or business claim.",
+      "last_record_updated_at": "2026-10-28T03:59:24.044820+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Chile-specific hourly or per-task rate",
+        "Probability of passing screening and receiving a project",
+        "Whether the advertised role remains open as of the applicant's submission date",
+        "Expected weekly task volume and continuity",
+        "Whether onboarding, assessments, rework, and quality-review time are compensated"
+      ],
+      "participation_path": "Use the Chile-specific application page, complete the qualification and identity/onboarding steps only if no fee or deposit is requested, and record whether the applicant receives a project invitation and explicit Chile-specific rate. Lowest-cost falsification: one qualified Chile-based applicant submits a single application and stops before accepting any paid or unpaid work unless the platform states the rate, task terms, payout method, and eligibility in writing. Treat acceptance as an application result, not evidence of income. No buyer, minimum hours, or realized earnings are assumed.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A qualified Chile-based bilingual or technical applicant can test access to paid model-evaluation work without inventory, advertising spend, or an application fee. The evidence verifies an application route, not guaranteed acceptance, hours, realized hourly income, or Chile-specific compensation.",
+      "title": "Apply to Outlier Spanish-Chile AI training evaluation assignment",
+      "type": "remote_paid_evaluation",
+      "unknowns": [
+        "Chile-specific hourly or per-task rate",
+        "Probability of passing screening and receiving a project",
+        "Whether the advertised role remains open as of the applicant's submission date",
+        "Expected weekly task volume and continuity",
+        "Whether onboarding, assessments, rework, and quality-review time are compensated",
+        "Actual net income after taxes, payment fees, foreign-exchange spreads, and equipment costs",
+        "Availability of PayPal, AirTM, or ACH for the applicant's exact Chile banking situation",
+        "Eligibility requirements involving degree, work authorization, age, identity, or tax registration",
+        "Frequency and process of account suspension, deactivation, rejected work, or disputed payments",
+        "Whether Spanish-Chile demand is temporary, saturated, or tied to a short-lived client project",
+        "Written Chile-specific compensation rate and whether it is hourly or task-based.",
+        "Probability that a qualified Chilean applicant passes screening and receives an active project.",
+        "Paid hours available per week and continuity over at least 30 days.",
+        "Whether qualifications and mandatory onboarding are compensated.",
+        "Actual net earnings after tax, payout, FX, equipment, and unpaid-time costs.",
+        "Exact eligibility, identity, tax, work-authorization, and payout requirements for the applicant.",
+        "Whether the currently observed Chile-specific opening remains available at submission time.",
+        "Competitive local and regional supply of comparable Spanish-Chile AI-evaluation labor."
+      ],
+      "value_capture_mechanism": "Hourly or task-based contractor compensation for completing assigned AI-training, evaluation, coding, or language-review tasks; weekly payout is advertised, but the exact Chile rate, available hours, tax treatment, age rule, and payout method remain unverified.",
+      "verified_sales": null,
+      "vertical": "geographic_arbitrage",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": true,
       "discovered_at": "2026-10-24T15:23:59.094152+00:00",
@@ -9909,13 +9995,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-27T23:30:10.615779+00:00",
+  "generated_at": "2026-10-28T03:59:24.589015+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 79,
-  "reviewed_cards": 65,
+  "reviewed_cards": 66,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 220,
-  "watch": 141
+  "total_distinct_opportunities": 221,
+  "watch": 142
 }

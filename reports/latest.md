@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-27T23:30:10.312020+00:00
+Generated: 2026-10-28T03:59:24.168027+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['vertical_farming_economics', 'energy_localization', 'wildcard']
-- raw_candidates: 2
-- parseable_candidates: 2
-- normalized_candidates: 2
+- lenses: ['remote_paid_evaluation', 'inventoryless_product_validation', 'fixed_scope_paid_research_asset']
+- raw_candidates: 1
+- parseable_candidates: 1
+- normalized_candidates: 1
 - normalization_rejected: 0
-- grounded_sources: 4
+- grounded_sources: 2
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
 - critic_reviews: 1
 - judge_reviews: 1
 - survivors: 0
-- watches: 2
-- rejected: 1
+- watches: 1
+- rejected: 0
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.0432494
+- cost_usd: 0.0395171
 - cost_uncertain: False
-- budget_remaining_usd: 0.0367506
+- budget_remaining_usd: 0.0404829
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Apply for Chilean-Spanish AI training and evaluation contracts: Primary job-board evidence supports a real, Chile-accessible freelance application path with an identified payer and stated compensation, so the premise is not fabricated and the opportunity is not demonstrably closed. However, it is contingent gig work rather than a durable differentiated business: acceptance, paid-task volume, effective rate, and payout reliability remain unverified. The clearest verified path (Welocalize) is low-paid and variable (US$6/hour, 5–15 hours/week), while the higher Meridial range has no demonstrated expected rate or guaranteed workload. Treat this only as a tightly time-boxed, low-cost income/market-validation test, not a dependable income strategy or an AI-leverage venture. Do not rely on the Lemon listing until its internally inconsistent compensation is confirmed in writing.
 - Pre-implementation testing asset for Chile Open Finance integrations: deferred_by_review_cap
 - SII company-record change monitor for accounting and compliance firms: deferred_by_review_cap
 - ATENA interoperability smoke-test harness for Chilean Open Finance participants: The regulatory premise is sufficiently grounded by CMF primary sources: ATENA and the July 2027 framework timing appear to be real, and published technical materials make a narrow conformance/readiness-testing wedge plausible. However, this is not yet a demonstrated software business. The core product may be substantially substituted by CMF’s own sandbox, public specifications, internal QA teams, implementation vendors, and established Open Finance tooling. Crucially, there is no evidence that a third party can obtain the necessary non-production access or automate ATENA workflows, nor that regulated buyers will procure an external harness rather than consulting or incumbent-platform support. The opportunity survives only as tightly scoped HQ research into technical access, mandatory test requirements, buyer ownership, and willingness to pay—not as an execution recommendation.
@@ -51,12 +50,13 @@ No survivors. Scout does not manufacture a daily winner.
 - Supply and support an agricultural spraying drone for INIA/Atacama public procurement: deferred_by_review_cap
 - Pre-compliance integration and testing package for Chile’s Open Finance System: deferred_by_review_cap
 - Energy-performance verification for desalination and seawater-pumping systems in Chilean mining: deferred_by_review_cap
+- Apply to Outlier Spanish-Chile AI training evaluation assignment: A primary, Chile-specific Outlier application page is credible evidence of an available route to test foreign-paid remote demand, and the no-inventory model avoids the import, landed-cost, and distribution barriers that normally make geographic-arbitrage ideas fail. However, this is not yet a validated arbitrage opportunity: the posting does not establish a Chile-specific rate, paid-hour volume, screening conversion, project continuity, payout usability, or net hourly economics. Foreign demand is evidenced by the employer’s role posting rather than solely anecdotal reports, so the foreign-traction fatal condition is not met. The appropriate HQ conclusion is a tightly bounded research test, not an income or business claim.
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=backlog",
+    "deep_review_lane=fresh",
     "research_queue_unreviewed=70"
   ],
   "stages": [
@@ -65,26 +65,24 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 18,
+      "grounded_source_count": 16,
       "search_source_urls": [
-        "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa2.php?entidad_web=RGAGF&hidden_mercado=V",
-        "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-112955.html?trk=public_post_comment-text",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html",
-        "https://www.cmfchile.cl/portal/principal/613/articles-50600_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48738.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html",
-        "https://www.cochilco.cl/web/costos-de-inversion-de-proyectos-de-extraccion-y-procesamiento-de-minerales/",
-        "https://www.cochilco.cl/web/download/1014/2026/15565/informe-proyeccion-del-consumo-de-agua-en-la-mineria-del-cobre-periodo-2025-2034.pdf",
-        "https://www.cochilco.cl/web/download/1014/2026/15581/informe-proyeccion-de-la-demanda-de-agua-en-la-mineria-del-cobre-en-chile-periodo-2025-2034.pdf",
-        "https://www.cochilco.cl/web/download/817/2023/11357/agua-en-la-mineria-del-cobre-actualizacion-2022.pdf",
-        "https://www.cochilco.cl/web/download/991/2025/13620/proyeccion-del-consumo-de-energia-electrica-en-la-mineria-del-cobre-periodo-2024-2034.pdf",
-        "https://www.cochilco.cl/web/download/991/2025/13626/proyeccion-de-la-demanda-de-agua-en-la-mineria-del-cobre-periodo-2024-2034.pdf",
-        "https://www.cochilco.cl/web/mineria-del-cobre-aumenta-uso-de-agua-de-mar-en-2025-y-reduce-en-7-la-extraccion-de-agua-continental/"
+        "https://app.outlier.ai/login?job_post_id=4476998005",
+        "https://app.outlier.ai/login?job_post_id=4476998005",
+        "https://app.outlier.ai/opportunities/4493253005",
+        "https://app.outlier.ai/opportunities?adgroup_id=%7B%7Badset.id%7D%7D&domain=spanish&language=ES&locale=CL&pod=languages",
+        "https://comunicacion.falabella.com/CL/TyC/2024/14082024-FCOM-IMP-TermsandConditions-Sellers-ENG-IMP-PE-CL.pdf",
+        "https://comunicacion.falabella.com/sellers_internacionales/Productos%20prohibidos%20Internacional.pdf",
+        "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/",
+        "https://outlier.ai/",
+        "https://static.rede.natura.net/html/faq-12-4-2022.html",
+        "https://www.cepal.org/sites/default/files/events/files/chile_2022.pdf",
+        "https://www.falabella.com/falabella-cl/page/data-pricing",
+        "https://www.falabella.com/falabella-cl/seller/Natura",
+        "https://www.fne.gob.cl/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-plataformas/",
+        "https://www.mediabanco.com/el-boom-del-cuidado-personal-en-delivery-pedidos-de-belleza-en-apps-crecen-hasta-un-32-y-natura-se-suma-a-rappi-con-mas-de-150-productos/",
+        "https://www.natura.cl/blog/mas-natura/guia-de-compra-online",
+        "https://www.natura.cl/c/descuentos"
       ]
     },
     {
@@ -103,58 +101,54 @@ No survivors. Scout does not manufacture a daily winner.
       "retry_justified": false
     },
     {
-      "index": 1,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 2,
-      "retry_justified": false
-    },
-    {
       "stage": "critic",
-      "candidate_id": "opp_f27f698db291e47e237f",
+      "candidate_id": "opp_1426f3e0ac915111a8b6",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 18,
+      "grounded_source_count": 30,
       "search_source_urls": [
-        "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Food+Service+-+Hotel+Restaurant+Institutional_Santiago_Chile_09-30-2021.pdf",
-        "https://blackboxintelligence.com/wp-content/uploads/2024/07/The-Ultimate-Google-Business-Restaurant-Marketing-Playbook-by-GuestXM.pdf",
-        "https://brenthecht.com/publications/cscw2020_restaurantratings.pdf",
-        "https://ecommons.cornell.edu/bitstreams/05e4ee89-d995-45b5-9980-fd65c7915da5/download",
-        "https://linkd.cl/",
-        "https://publications.iadb.org/publications/english/document/Gastronomy-Trends-and-Digital-Strategies-Art-Culture-and-New-Technologies-in-Latin-America-and-the-Caribbean.pdf",
-        "https://puntua.cl/",
-        "https://puntua.cl/quienes-somos",
-        "https://pymevisible.cl/",
-        "https://pymevisible.cl/stand-nfc-qr",
-        "https://resenafacil.cl/",
-        "https://www.brenthecht.com/publications/cscw2020_restaurantratings.pdf",
-        "https://www.larefactoria.cl/placas-nfc",
-        "https://www.ondda.cl/",
-        "https://www.ondda.cl/producto/stand-acrilico-nfc/",
-        "https://www.tuk.cl/es-cl/collections/descuento-normal",
-        "https://www.tuk.cl/es-cl/collections/todos-los-productos",
-        "https://www.tuk.cl/es-cl/pages/para-empresas"
+        "https://aipaylist.com/platforms/outlier",
+        "https://aitrainerguide.com/outlier-review/",
+        "https://aitrainers.jobs/platforms/outlier/pay",
+        "https://app.outlier.ai/login?job_post_id=4476998005",
+        "https://app.outlier.ai/opportunities/4494070005?trk=public_jobs_apply-link-offsite_sign-up-modal-sign-up-later",
+        "https://marin.granicus.com/MetaViewer.php?event_id=4029&meta_id=1384819&view_id=33",
+        "https://outlier.ai/faq",
+        "https://outlier.ai/legal/terms-of-use?ajs=626a11d5-0096-45b8-8eda-36df039f2043",
+        "https://outlierventures.io/wp-content/uploads/2024/02/AI_thesis_v9-1.pdf",
+        "https://parailabs.com/reviews/outlier-ai",
+        "https://s202.q4cdn.com/436759741/files/doc_financials/annual/d0d36071-97a0-401d-b6ae-bcefc3056131.pdf",
+        "https://s21.q4cdn.com/306803720/files/doc_financials/2023/q4/10-K.pdf",
+        "https://s29.q4cdn.com/699473945/files/doc_financials/2025/q2/4ddf09e3-a313-4778-be72-5bfbef7bfce3.pdf",
+        "https://www.corridoor.org/platforms/outlier",
+        "https://www.perplexity.ai/rest/finance/documents/pdf/0001213900-24-081111?exchange=NASDAQ&ticker=WORX",
+        "https://www.reddit.com/r/Upwork/comments/1po9euu/inquiry_about_an_scaleai_ai_trainer_role_via/",
+        "https://www.reddit.com/r/beermoneyglobal/comments/1g9og1y",
+        "https://www.reddit.com/r/outlier_ai/comments/1dkoflk",
+        "https://www.reddit.com/r/outlier_ai/comments/1f9szir",
+        "https://www.reddit.com/r/outlier_ai/comments/1jaijds",
+        "https://www.reddit.com/r/outlier_ai/comments/1k5iuhe",
+        "https://www.reddit.com/r/outlier_ai/comments/1kychjm",
+        "https://www.reddit.com/r/outlier_ai/comments/1ofn880/how_profitable_is_working_with_outlier_and_how/",
+        "https://www.reddit.com/r/outlier_ai/comments/1pu0imd/i_got_put_down_as_an_unapproved_annotator_this_is/",
+        "https://www.reddit.com/r/outlier_ai/comments/1q28vsl/info_re_project_availability_for_new_cbs/",
+        "https://www.reddit.com/r/outlier_ai/comments/1r7guss/work_authorisation/",
+        "https://www.reddit.com/r/outlier_ai/comments/1ublxnm/wage_theft/",
+        "https://www.scribd.com/document/1045584208/Understanding-Project-Availability-Outlier",
+        "https://www.themodernwallet.com/guides/is-outlier-ai-legit/",
+        "https://www.trustpilot.com/review/outlier.ai"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_f27f698db291e47e237f",
+      "candidate_id": "opp_1426f3e0ac915111a8b6",
       "coercions": [
-        "critic_case",
         "contrary_evidence"
       ]
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_f27f698db291e47e237f",
+      "candidate_id": "opp_1426f3e0ac915111a8b6",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -162,7 +156,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_f27f698db291e47e237f",
+      "candidate_id": "opp_1426f3e0ac915111a8b6",
       "coercions": []
     }
   ],
@@ -170,44 +164,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 167,
-      "cache_write_tokens": 5451,
+      "reasoning_tokens": 132,
+      "cache_write_tokens": 5160,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01454815,
+      "cumulative_cost_usd": 0.0128386,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13668,
+      "input_tokens": 9141,
       "cached_tokens": 0,
-      "output_tokens": 1285,
+      "output_tokens": 627,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01454815
+      "estimated_cost_usd": 0.0128386
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 163,
-      "cache_write_tokens": 5281,
+      "reasoning_tokens": 135,
+      "cache_write_tokens": 5188,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0293764,
+      "cumulative_cost_usd": 0.0267796,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13683,
+      "input_tokens": 13422,
       "cached_tokens": 0,
-      "output_tokens": 1523,
+      "output_tokens": 831,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01482825
+      "estimated_cost_usd": 0.013941
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 62,
-      "cache_write_tokens": 2542,
+      "reasoning_tokens": 127,
+      "cache_write_tokens": 2539,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0432494,
+      "cumulative_cost_usd": 0.0395171,
       "model": "gpt-5.6-terra",
-      "input_tokens": 2545,
+      "input_tokens": 2542,
       "cached_tokens": 0,
-      "output_tokens": 626,
+      "output_tokens": 532,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.013873
+      "estimated_cost_usd": 0.0127375
     }
   ]
 }

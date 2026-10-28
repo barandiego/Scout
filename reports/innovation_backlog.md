@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 141
+Candidates: 142
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -579,6 +579,18 @@ Candidates: 141
 - Critical gaps: Whether the cited application was still accepting new Chilean applicants on October 19, 2026, beyond being crawlable.; Whether a Chile-resident applicant would receive the USD 7.50, USD 10, or another rate.; Acceptance and qualification rates for Chilean applicants.
 - Possible initial budget:
 - Source URLs: https://app.outlier.ai/opportunities/4522871005; https://outlier.ai/faq
+
+## Apply to Outlier Spanish-Chile AI training evaluation assignment
+- Status: watch | geographic_arbitrage
+- Current idea: A qualified Chile-based bilingual or technical applicant can test access to paid model-evaluation work without inventory, advertising spend, or an application fee. The evidence verifies an application route, not guaranteed acceptance, hours, realized hourly income, or Chile-specific compensation.
+- Potential economic capture: Hourly or task-based contractor compensation for completing assigned AI-training, evaluation, coding, or language-review tasks; weekly payout is advertised, but the exact Chile rate, available hours, tax treatment, age rule, and payout method remain unverified.
+- **Research routes to test (NOT validated claims):**
+  - Test a foreign-proven product with verifiable Chilean competitor coverage and local price/feature comparisons.
+  - Localise distribution, after-sales support or financing rather than merely translating a product.
+  - Use an authorised small supplier quote and real buyer signal before import.
+- Critical gaps: Chile-specific hourly or per-task rate; Probability of passing screening and receiving a project; Whether the advertised role remains open as of the applicant's submission date
+- Possible initial budget:
+- Source URLs: https://app.outlier.ai/login?job_post_id=4476998005; https://outlier.ai/
 
 ## Midstream critical-minerals processing is becoming a strategic bottleneck
 - Status: watch | geographic_arbitrage

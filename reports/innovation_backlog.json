@@ -1808,6 +1808,46 @@
       "category": "geographic_arbitrage",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use the Chile-specific application page, complete the qualification and identity/onboarding steps only if no fee or deposit is requested, and record whether the applicant receives a project invitation and explicit Chile-specific rate. Lowest-cost falsification: one qualified Chile-based applicant submits a single application and stops before accepting any paid or unpaid work unless the platform states the rate, task terms, payout method, and eligibility in writing. Treat acceptance as an application result, not evidence of income. No buyer, minimum hours, or realized earnings are assumed.",
+      "current_thesis": "A qualified Chile-based bilingual or technical applicant can test access to paid model-evaluation work without inventory, advertising spend, or an application fee. The evidence verifies an application route, not guaranteed acceptance, hours, realized hourly income, or Chile-specific compensation.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Chile-specific hourly or per-task rate",
+        "Probability of passing screening and receiving a project",
+        "Whether the advertised role remains open as of the applicant's submission date",
+        "Expected weekly task volume and continuity",
+        "Whether onboarding, assessments, rework, and quality-review time are compensated",
+        "Actual net income after taxes, payment fees, foreign-exchange spreads, and equipment costs",
+        "Availability of PayPal, AirTM, or ACH for the applicant's exact Chile banking situation"
+      ],
+      "investment_authorized": false,
+      "name": "Apply to Outlier Spanish-Chile AI training evaluation assignment",
+      "opportunity_id": "opp_1426f3e0ac915111a8b6",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Test a foreign-proven product with verifiable Chilean competitor coverage and local price/feature comparisons.",
+        "Localise distribution, after-sales support or financing rather than merely translating a product.",
+        "Use an authorised small supplier quote and real buyer signal before import."
+      ],
+      "supporting_source_urls": [
+        "https://app.outlier.ai/login?job_post_id=4476998005",
+        "https://outlier.ai/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Hourly or task-based contractor compensation for completing assigned AI-training, evaluation, coding, or language-review tasks; weekly payout is advertised, but the exact Chile rate, available hours, tax treatment, age rule, and payout method remain unverified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "geographic_arbitrage",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Partner with mining companies, recyclers, industrial users or governments on processing projects; provide equipment, logistics, feedstock aggregation, certification or project finance.",
       "current_thesis": "Processing, separation, recycling and precursor production may command strategic premiums even where upstream ore supply is available.",
       "founder_hours_initial_unverified_estimate": "",
@@ -5367,7 +5407,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-27T23:30:10.677035+00:00",
+  "generated_at": "2026-10-28T03:59:24.686720+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"
