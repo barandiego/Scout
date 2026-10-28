@@ -195,7 +195,17 @@ class ProcurementStore:
                 if old!=e: raise ProcurementDataError("immutable_event_conflict")
                 return False
         self.events.append(e); atomic_write(self.path,"".join(json.dumps(x,ensure_ascii=False,sort_keys=True,allow_nan=False)+"\n" for x in self.events)); return True
-    def add_history(self,r): return self._append({"event_id":f"history:{r.code}:{r.last_changed_at}:{r.digest()[:16]}","kind":"history_snapshot","record":r.model_dump()})
+    def add_history(self,r):
+        event={"event_id":f"history:{r.code}:{r.last_changed_at}:{r.digest()[:16]}","kind":"history_snapshot","record":r.model_dump()}
+        for old in self.events:
+            if old["event_id"] != event["event_id"]: continue
+            # Identity excludes observation time; preserve the first observation.
+            if old.get("kind") == "history_snapshot" and isinstance(old.get("record"),dict):
+                prior={k:v for k,v in old["record"].items() if k != "source_observed_at"}
+                current={k:v for k,v in event["record"].items() if k != "source_observed_at"}
+                if prior == current and set(old) == set(event): return False
+            break
+        return self._append(event)
     def add_shadow_decision(self,d): return self._append({"event_id":f"shadow:{d.procurement_code}:{d.decision_at}","kind":"shadow_decision","decision":d.model_dump()})
     def add_outcome(self,o): return self._append({"event_id":f"outcome:{o.procurement_code}:{o.resolved_at}","kind":"outcome","outcome":o.model_dump()})
     def latest_rate_limit_cooldown(self):
@@ -224,3 +234,4 @@ class ProcurementStore:
         prior=[e["changed_through"] for e in self.events if e.get("kind")=="sync_cursor"]
         if prior and DT(cur)<max(DT(x) for x in prior): raise ProcurementDataError("sync_cursor_regression")
         return self._append({"event_id":"cursor:"+cur,"kind":"sync_cursor","changed_through":cur})
+
