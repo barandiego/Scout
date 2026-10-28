@@ -37,6 +37,12 @@ def raw_detail():
     return json.loads(FIXTURE.read_text(encoding="utf-8"))
 
 
+def detail_for_url(url):
+    raw = raw_detail()
+    raw["payload"]["codigo"] = urlparse(url).path.rsplit("/", 1)[-1]
+    return raw
+
+
 def record():
     return normalize_detail(raw_detail(), observed_at=OBSERVED)
 
@@ -511,7 +517,7 @@ def test_monitor_partial_detail_cap_never_claims_complete():
     }
 
     def transport(url, headers, timeout):
-        return raw_detail() if "/v2/compra-agil/" in url else listing
+        return detail_for_url(url) if "/v2/compra-agil/" in url else listing
 
     client = ChileCompraClient("synthetic", request_limit=25, transport=transport)
     rows, diag = client.changed_window(
@@ -539,7 +545,7 @@ def test_exact_detail_limit_on_final_page_is_still_complete():
     client = ChileCompraClient(
         "synthetic", request_limit=25,
         transport=lambda url, _headers, _timeout:
-            raw_detail() if "/v2/compra-agil/" in url else listing,
+            detail_for_url(url) if "/v2/compra-agil/" in url else listing,
     )
     rows, diag = client.changed_window(
         changed_from="2026-06-01T00:00:00Z",
@@ -710,3 +716,24 @@ def test_history_extra_event_metadata_is_not_silently_ignored(tmp_path):
     later = original.model_copy(update={"source_observed_at": "2026-06-02T00:00:00Z"})
     with pytest.raises(ProcurementDataError, match="immutable_event_conflict"):
         ProcurementStore(path).add_history(later)
+
+
+@pytest.mark.parametrize("window", ["changed", "historical"])
+def test_detail_must_match_requested_listing_code(window):
+    listing = {"success": "OK", "payload": {
+        "items": [{"codigo": "OTHER-CODE"}],
+        "paginacion": {"total_paginas": 1, "numero_pagina": 1},
+    }}
+    client = ChileCompraClient("synthetic", request_limit=3,
+        transport=lambda url, _headers, _timeout:
+            raw_detail() if "/v2/compra-agil/" in url else listing)
+    common = dict(observed_at=OBSERVED, max_pages=1, max_details=1)
+    if window == "changed":
+        rows, diag = client.changed_window(changed_from="2026-06-01T00:00:00Z",
+                                           changed_to="2026-06-02T00:00:00Z", **common)
+    else:
+        rows, diag = client.historical_window(published_from="2026-06-01T00:00:00Z",
+                                              published_to="2026-06-02T00:00:00Z", **common)
+    assert rows == []
+    assert diag["malformed_reasons"]["detail_code_mismatch"] == 1
+    assert procurement_cli.monitor_health(diag) == (False, "DEGRADED_MALFORMED_DETAIL")
