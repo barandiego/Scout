@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-28T05:59:23.077882+00:00
+Generated: 2026-10-28T15:16:27.551195+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 185
+- New this cycle: 142
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): none
-- Categories: agriculture 459, ai 98, commerce 2, energy 477, robotics 764
+- Feed failures (fail-open for public intake only): github_agriculture:unavailable_or_invalid, github_ai:unavailable_or_invalid, github_energy:unavailable_or_invalid
+- Categories: agriculture 459, ai 97, commerce 1, energy 476, robotics 767
 
 ## Recently encountered signals
 
@@ -372,6 +372,12 @@ Generated: 2026-10-28T05:59:23.077882+00:00
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
+### Assessing the Value of Battery Energy Storage in Day-Ahead and Intraday Electricity Markets for Wind Energy Suppliers
+- Source: https://doi.org/10.1016/j.ifacol.2026.10.064
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
 ### A review of immersion cooling for lithium-ion battery energy storage systems: thermal performance and scale-up challenges
 - Source: https://doi.org/10.1016/j.applthermaleng.2026.133823
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
@@ -452,12 +458,6 @@ Generated: 2026-10-28T05:59:23.077882+00:00
 
 ### satyamranjandubey-collab/smart-agri-portal
 - Source: https://github.com/satyamranjandubey-collab/smart-agri-portal
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### nishad-uday/smart-agri-advisory
-- Source: https://github.com/nishad-uday/smart-agri-advisory
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
