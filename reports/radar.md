@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-28T15:16:27.551195+00:00
+Generated: 2026-10-28T21:12:48.436675+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 142
+- New this cycle: 196
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): github_agriculture:unavailable_or_invalid, github_ai:unavailable_or_invalid, github_energy:unavailable_or_invalid
-- Categories: agriculture 459, ai 97, commerce 1, energy 476, robotics 767
+- Feed failures (fail-open for public intake only): none
+- Categories: agriculture 466, ai 96, commerce 1, energy 474, robotics 763
 
 ## Recently encountered signals
 
@@ -372,6 +372,24 @@ Generated: 2026-10-28T15:16:27.551195+00:00
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
+### Sahilpatil-96/Agri-Ledger
+- Source: https://github.com/Sahilpatil-96/Agri-Ledger
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### morerohitr28/Weather_Crop_Recommendation_System
+- Source: https://github.com/morerohitr28/Weather_Crop_Recommendation_System
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### Xavier0707/krishimitra
+- Source: https://github.com/Xavier0707/krishimitra
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
 ### Assessing the Value of Battery Energy Storage in Day-Ahead and Intraday Electricity Markets for Wind Energy Suppliers
 - Source: https://doi.org/10.1016/j.ifacol.2026.10.064
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
@@ -440,24 +458,6 @@ Generated: 2026-10-28T15:16:27.551195+00:00
 
 ### GIW2026Hackathon/DairyHub
 - Source: https://github.com/GIW2026Hackathon/DairyHub
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Constraint-Consistent Multi-Service Scheduling of Grid-Connected Battery Energy Storage Systems for Frequency and Demand Flexibility Support
-- Source: https://doi.org/10.1109/sege70974.2026.11738944
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### shauryaofficial2008-sys/Hacksphere-3.0-BITS-HYD
-- Source: https://github.com/shauryaofficial2008-sys/Hacksphere-3.0-BITS-HYD
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### satyamranjandubey-collab/smart-agri-portal
-- Source: https://github.com/satyamranjandubey-collab/smart-agri-portal
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
