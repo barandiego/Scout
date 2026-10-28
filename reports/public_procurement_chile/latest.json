@@ -1,197 +1,37 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 5000000.0,
-      "buyer": "I MUNICIPALIDAD DE LO PRADO",
-      "closes_at": "2026-10-29T11:00:00",
-      "code": "2412-533-COT26",
-      "estimated_budget": 5000000.0,
-      "name": "“PARQUE ELECTRONICO COMUNIDAD CRECE” (CIP N°408 CDP N°320 EXP:20404)",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 300000.0,
-      "buyer": "I MUNICIPALIDAD DE PELLUHUE",
-      "closes_at": "2026-10-28T18:00:00",
-      "code": "3251-47-COT26",
-      "estimated_budget": 300000.0,
-      "name": "Toldos con publicidad",
-      "products": 1,
-      "region": "Región del Maule"
-    },
-    {
-      "available_budget_clp": 7200000.0,
-      "buyer": "Clínica Reproducción Humana UV",
-      "closes_at": "2026-10-28T18:00:00",
-      "code": "1359575-154-COT26",
-      "estimated_budget": 7200000.0,
-      "name": "Kit de vitrificación, descongelación, placas y medios para laboratorio FIV, CRH",
-      "products": 6,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 3000000.0,
-      "buyer": "Comité SEP",
-      "closes_at": "2026-10-29T13:00:00",
-      "code": "1412-34-COT26",
-      "estimated_budget": 3000000.0,
-      "name": "Servicio de reparación de cielo en Sala de reuniones SEP",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 700000.0,
-      "buyer": "I MUNICIPALIDAD ESTACION CENTRAL",
-      "closes_at": "2026-10-29T09:00:00",
-      "code": "2432-857-COT26",
-      "estimated_budget": 700000.0,
-      "name": "SOL803-DIDECO-TELEVISOR PARA VETERINARIA MUNICIPAL.",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 1200000.0,
-      "buyer": "ILUSTRE MINICIPALIDAD DE COMBARBALA",
-      "closes_at": "2026-10-29T17:00:00",
-      "code": "3615-171-COT26",
-      "estimated_budget": 1200000.0,
-      "name": "PISO DE GOMA EVA PARA ESCUELA DE COGOTÍ 18 - COMUNA DE COMBARBALÁ.",
-      "products": 1,
-      "region": "Región de Coquimbo"
-    },
-    {
-      "available_budget_clp": 118940.0,
-      "buyer": "Ejercito de Chile",
-      "closes_at": "2026-10-29T09:00:00",
-      "code": "3524-77-COT26",
-      "estimated_budget": 118940.0,
-      "name": "ADQUISICION DE REPUESTOS PARA VEHICULOS",
+      "available_budget_clp": 5250000.0,
+      "buyer": "CORPORACION DEPORTIVA MUNICIPAL DE SAN PEDRO DE LA PAZ",
+      "closes_at": "2026-10-29T15:00:00",
+      "code": "1538637-19-COT26",
+      "estimated_budget": 5250000.0,
+      "name": "Servicio integral de alimentación, pantalla LED y producción audiovisual para World Triathlon Cup San Pedro de la Paz 2026",
       "products": 4,
-      "region": "Región Metropolitana de Santiago"
+      "region": "Región del Biobío"
     },
     {
-      "available_budget_clp": 2000000.0,
-      "buyer": "DIRECCION DE LOGISTICA DE CARABINEROS",
-      "closes_at": "2026-10-29T15:30:00",
-      "code": "3326-616-COT26",
-      "estimated_budget": 2000000.0,
-      "name": "SERVICIO DE MANTENCIÓN CORRECTIVA PARA EL VEHÍCULO FISCAL C-161, MARCA DODGE, MODELO RAM 3500, AÑO 2018, DE CARGO DEL GRUPO CABALLERÍA",
+      "available_budget_clp": 240000.0,
+      "buyer": "MINEDUC ADMINISTRACION VIII REGION",
+      "closes_at": "2026-10-29T04:31:00",
+      "code": "1756-139-COT26",
+      "estimated_budget": 240000.0,
+      "name": "Contratación Servicio personal Profesional del área Actividad Física y Desarollo Sicomotor para relatoria jornada educ. parvularia",
       "products": 1,
-      "region": "Región Metropolitana de Santiago"
+      "region": "Región del Biobío"
     },
     {
-      "available_budget_clp": 1500000.0,
-      "buyer": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-      "closes_at": "2026-10-29T15:30:00",
-      "code": "1291-24-COT26",
-      "estimated_budget": 1500000.0,
-      "name": "adquisición de hormigón",
-      "products": 1,
-      "region": "Región del Maule"
-    },
-    {
-      "available_budget_clp": 3017794.0,
-      "buyer": "Corporación Cultural Municipal de Ovalle",
-      "closes_at": "2026-10-28T17:45:00",
-      "code": "1275930-60-COT26",
-      "estimated_budget": 3017794.0,
-      "name": "Servicio de impresión Piezas Gráficas - Proyecto Fiesta De La Primavera De Ovalle: Camino Al Bicentenario, financiado por el Gobierno Regional de Coquimbo.",
-      "products": 4,
-      "region": "Región de Coquimbo"
-    },
-    {
-      "available_budget_clp": 1400000.0,
-      "buyer": "DELEGACIÓN PRESIDENCIAL PROVINCIAL DE PARINACOTA",
-      "closes_at": "2026-10-29T16:00:00",
-      "code": "1707-57-COT26",
-      "estimated_budget": 1400000.0,
-      "name": "Adquisición de tóner originales para las impresoras de la Delegación Presidencial Provincial de Parinacota",
-      "products": 1,
-      "region": "Región de Arica y Parinacota"
-    },
-    {
-      "available_budget_clp": 310000.0,
-      "buyer": "ILUSTRE MUNICIPALIDAD DE MACUL",
-      "closes_at": "2026-10-28T18:00:00",
-      "code": "2287-697-COT26",
-      "estimated_budget": 310000.0,
-      "name": "CORTINAS ROLLER/DIDECO/PROGRAMAS SOCIALES",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 75000.0,
-      "buyer": "Servicio de Salud del Reloncaví",
-      "closes_at": "2026-10-28T18:00:00",
-      "code": "1666-352-COT26",
-      "estimated_budget": 75000.0,
-      "name": "Malla mosquitera y 4 focos les para jardín",
-      "products": 2,
-      "region": "Región de los Lagos"
-    },
-    {
-      "available_budget_clp": 1800000.0,
-      "buyer": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-      "closes_at": "2026-10-30T09:30:00",
-      "code": "2216-202-COT26",
-      "estimated_budget": 1800000.0,
-      "name": "SERVICIO DE DISEÑO, FABRICACIÓN E INSTALACIÓN DE GRÁFICAS Y SEÑALÉTICAS INSTITUCIONALES",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 500000.0,
-      "buyer": "UNIVERSIDAD DE CHILE",
-      "closes_at": "2026-11-02T11:11:00",
-      "code": "5504-406-COT26",
-      "estimated_budget": 500000.0,
-      "name": "COMPRA E INSTALACION DE REPISA",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 523600.0,
-      "buyer": "I MUNICIPALIDAD DE PAINE",
-      "closes_at": "2026-10-29T10:00:00",
-      "code": "2788-578-COT26",
-      "estimated_budget": 523600.0,
-      "name": "FACSIMILES EXTRACTO LEY ALCOHOLES - DEPTO. DE RENTAS",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 1800000.0,
-      "buyer": "I MUNICIPALIDAD DE DONIHUE",
-      "closes_at": "2026-10-28T17:50:00",
-      "code": "4161-370-COT26",
-      "estimated_budget": 1800000.0,
-      "name": "SERVICIO DE LIMPIEZA DE ALCANTARILLADO, COLEGIO PLAZUELA",
-      "products": 1,
-      "region": "Región del Libertador General Bernardo O´Higgins"
-    },
-    {
-      "available_budget_clp": 900000.0,
-      "buyer": "SERVICIO SALUD COQUIMBO HOSP DE SALAMANC",
+      "available_budget_clp": 645860.0,
+      "buyer": "CORP MUNICIPAL DE SERVICIOS PUBLICOS TRASPASADOS DE RANCAGUA",
       "closes_at": "2026-10-29T08:00:00",
-      "code": "1660-400-COT26",
-      "estimated_budget": 900000.0,
-      "name": "8 Und. FOCOS SOLAR DE CALLE 300w IP65 CON CONTROL REMOTO,BRAZO DE SOPORTE PARA INSTALACIÓN",
-      "products": 1,
-      "region": "Región de Coquimbo"
-    },
-    {
-      "available_budget_clp": 492000.0,
-      "buyer": "DELEGACIÓN PRESIDENCIAL REGIONAL METROPOLITANA DE SANTIAGO",
-      "closes_at": "2026-10-29T10:00:00",
-      "code": "877-162-COT26",
-      "estimated_budget": 492000.0,
-      "name": "Adquisición de bolsas y placas de urostomia - ORASMI",
-      "products": 2,
-      "region": "Región Metropolitana de Santiago"
+      "code": "557639-3397-COT26",
+      "estimated_budget": 645860.0,
+      "name": "MATERIALES SALAS DE ESTIMULACIÓN Y TALLERES DE GESTANTES CHCC (15107)",
+      "products": 27,
+      "region": "Región del Libertador General Bernardo O´Higgins"
     }
   ],
-  "active_structurally_reconstructable_count": 19,
+  "active_structurally_reconstructable_count": 3,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -209,7 +49,7 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-10-27T20:47:35Z",
+  "generated_at": "2026-10-28T05:55:10Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -217,14 +57,14 @@
   "phase1": {
     "records": 20,
     "rejection_reasons": {},
-    "resolved": 1,
+    "resolved": 17,
     "structurally_reconstructable": 20,
-    "with_observable_quote_totals": 1,
-    "with_purchase_order_indicator": 1
+    "with_observable_quote_totals": 17,
+    "with_purchase_order_indicator": 3
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-27T20:47:35Z"
+    "changed_to": "2026-10-28T05:55:10Z"
   }
 }
