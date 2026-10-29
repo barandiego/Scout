@@ -1,14 +1,63 @@
 {
-  "active_candidates": [],
-  "active_structurally_reconstructable_count": 0,
-  "diagnostics": {
-    "api_failures": {
-      "api_rate_limited": 1
+  "active_candidates": [
+    {
+      "available_budget_clp": 1500000.0,
+      "buyer": "UNIVERSIDAD DE CHILE",
+      "closes_at": "2026-10-30T12:13:00",
+      "code": "800-7429-COT26",
+      "estimated_budget": 1500000.0,
+      "name": "9.1612 HEMOFILTRO RENAL HF-700 C/LINEA A.V. STANDARD 228",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
     },
+    {
+      "available_budget_clp": 900000.0,
+      "buyer": "I MUNICIPALIDAD DE FREIRINA",
+      "closes_at": "2026-10-30T12:10:00",
+      "code": "4355-1081-COT26",
+      "estimated_budget": 900000.0,
+      "name": "SERVICIO DE TRASLADOS VARIOS",
+      "products": 3,
+      "region": "Región de Atacama"
+    },
+    {
+      "available_budget_clp": 345750.0,
+      "buyer": "SECRETARIA REGIONAL MINISTERIAL DE EDUCACION XI REGION",
+      "closes_at": "2026-11-04T11:30:00",
+      "code": "1758-260-COT26",
+      "estimated_budget": 345750.0,
+      "name": "SERVICIO NARRATIVO FERIA INTERNACIONAL DEL LIBRO EN COYHAIQUE",
+      "products": 1,
+      "region": "Región Aysén del General Carlos Ibáñez del Campo"
+    },
+    {
+      "available_budget_clp": 2200000.0,
+      "buyer": "SERVICIO DE SALUD COQUIMBO HOSPITAL DE COQUIMBO",
+      "closes_at": "2026-11-02T10:00:00",
+      "code": "1011254-516-COT26",
+      "estimated_budget": 2200000.0,
+      "name": "REPARACION DE OPTICA DE CISTOSCOPIO 4MM 30°",
+      "products": 1,
+      "region": "Región de Coquimbo"
+    },
+    {
+      "available_budget_clp": 965000.0,
+      "buyer": "SERVICIO NACIONAL DE SALUD HOSPITAL DE T",
+      "closes_at": "2026-10-30T12:28:00",
+      "code": "1643-975-COT26",
+      "estimated_budget": 965000.0,
+      "name": "Adquisición de Mascarillas Laríngeas tipo Fastrach Medidas Fotografía Referencia Adjunta / Despacho Incluido",
+      "products": 2,
+      "region": "Región Metropolitana de Santiago"
+    }
+  ],
+  "active_structurally_reconstructable_count": 5,
+  "diagnostics": {
+    "api_failures": {},
     "budget_exhausted": false,
     "detail_attempts": 20,
     "detail_cap_exhausted": true,
-    "details_fetched": 19,
+    "details_fetched": 20,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -20,24 +69,24 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-10-29T05:59:49Z",
-  "inserted_history": 19,
+  "generated_at": "2026-10-29T15:17:58Z",
+  "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_API_ERRORS",
+  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
   "phase1": {
-    "records": 19,
+    "records": 20,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 1
+      "no_observable_competitive_prices": 7
     },
-    "resolved": 19,
-    "structurally_reconstructable": 18,
-    "with_observable_quote_totals": 18,
+    "resolved": 15,
+    "structurally_reconstructable": 13,
+    "with_observable_quote_totals": 8,
     "with_purchase_order_indicator": 4
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-29T05:59:49Z"
+    "changed_to": "2026-10-29T15:17:58Z"
   }
 }
