@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 144
+Candidates: 146
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -75,6 +75,18 @@ Candidates: 144
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://github.com/Rayaanxrio/DocExtract; https://www.sii.cl/destacados/factura_electronica/guias_ayuda/factura_electronica.html; https://zeus.sii.cl/IVA2000/Static/Formato_XML.html
+
+## NFC review-and-contact hardware reseller for Chilean service businesses
+- Status: watch | chile_localization
+- Current idea: A generic NFC tag is not an attractive standalone opportunity. A testable wedge is a standardized, industry-specific installation bundle—for example, a review/contact station for independently operated salons, restaurants, or accommodation properties—where the physical item is paired with placement instructions, destination configuration, and a measurable scan-to-contact or review workflow.
+- Potential economic capture: Revenue would come from selling configured physical units or small batches, potentially through local business-supplier channels or direct outreach. The evidence supports observed retail prices, not a new margin, repeat-purchase rate, or buyer commitment.
+- **Research routes to test (NOT validated claims):**
+  - Find the smallest Chilean workflow whose economics differ from the original geography.
+  - Secure lawful access, partners and after-sales support rather than copy protected technology.
+  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.aither.cl/tap/; https://pymevisible.cl/productos
 
 ## NFC review-and-reservation kits for Chilean multi-location hospitality businesses
 - Status: watch | chile_localization
@@ -867,6 +879,18 @@ Candidates: 144
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/615/articles-99378_doc_pdf.pdf
+
+## Chile Open-Finance conformance test harness for small fintech participants
+- Status: watch | open_finance_chile
+- Current idea: Smaller prospective participants will need repeatable testing for consent, enrollment, directory, security, information exchange, and payment-initiation flows before production participation. The regulatory deadline creates a dated implementation catalyst, but does not prove willingness to pay.
+- Potential economic capture: A self-serve or locally installable conformance-test package that validates API payloads, certificates, consent states, error handling, and sandbox behavior against CMF specifications. Potential cash-flow sources are fintechs, payment providers, or implementation vendors purchasing licenses or test runs; no buyer, price, or margin is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Number of regulated and prospective small participants that must implement the relevant flows.; Whether ATENA is fully accessible to independent software vendors or only to registered/prospective participants.; Whether ATENA exposes automated APIs, reusable test fixtures, CI/CD integration, bulk testing, historical regression testing, or exportable audit evidence.
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html
 
 ## Chile Open-Finance sandbox conformance kit for small participants
 - Status: watch | open_finance_chile

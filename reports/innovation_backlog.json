@@ -226,6 +226,42 @@
       "category": "chile_localization",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Buy one existing Chilean unit at the advertised retail price, create a single industry-specific configuration, and offer a paid pilot to five nearby businesses through an existing merchant association, local supplier, or direct in-person outreach. Track installation acceptance and scans for two weeks. Falsify if businesses will not pay the prevailing hardware price, cannot identify a useful placement, or show no measurable usage; do not build software or inventory before that test.",
+      "current_thesis": "A generic NFC tag is not an attractive standalone opportunity. A testable wedge is a standardized, industry-specific installation bundle—for example, a review/contact station for independently operated salons, restaurants, or accommodation properties—where the physical item is paired with placement instructions, destination configuration, and a measurable scan-to-contact or review workflow.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "NFC review-and-contact hardware reseller for Chilean service businesses",
+      "opportunity_id": "opp_4597c36d99d4f69a9e20",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Find the smallest Chilean workflow whose economics differ from the original geography.",
+        "Secure lawful access, partners and after-sales support rather than copy protected technology.",
+        "Run a buyer interview or mock listing to falsify assumptions before capital commitment."
+      ],
+      "supporting_source_urls": [
+        "https://www.aither.cl/tap/",
+        "https://pymevisible.cl/productos"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Revenue would come from selling configured physical units or small batches, potentially through local business-supplier channels or direct outreach. The evidence supports observed retail prices, not a new margin, repeat-purchase rate, or buyer commitment.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "chile_localization",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Start with one Chilean hospitality business that already has at least two customer-facing locations or service points. Purchase one or two locally available units at the published retail price, configure separate destinations for Google Reviews and WhatsApp, and run a 14-day pre/post or matched-location test using tap counts, destination clicks, review volume, and inquiry volume. Only proceed to a paid multi-location pilot if the operator agrees in writing to share baseline and test-period metrics; do not assume review attribution, permissions, or incremental revenue. Existing suppliers provide direct purchase or demo routes, so no import approval is required for the falsification test.",
       "current_thesis": "The opportunity is not generic NFC resale; it is a narrow deployment package for restaurants, cafés, hotels, barber shops, and clinics with multiple customer-contact points. The economic mechanism is a low-cost physical prompt that can route customers to reviews, reservations, or WhatsApp while allowing the operator to measure taps and clicks. Existing local prices provide a verifiable willingness-to-pay benchmark, but do not establish conversion uplift or margins.",
       "founder_hours_initial_unverified_estimate": "",
@@ -2722,6 +2758,46 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Sell a downloadable conformance suite, local test environment, schema-diff alerts, and paid implementation support. A repeatable software asset is more defensible than generic consulting if it maps directly to CMF technical requirements and can be reused across participants.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Build only the smallest validator for one published CMF flow using the official technical specifications. Attempt to run it against the CMF sandbox or documented test area, then contact a small Chilean fintech or payment provider with a working demo and ask whether it would pay for a pre-production test report. Falsify the opportunity if the specification is inaccessible, the sandbox cannot be used by an independent developer, or five targeted prospective participants show no interest in testing a concrete workflow.",
+      "current_thesis": "Smaller prospective participants will need repeatable testing for consent, enrollment, directory, security, information exchange, and payment-initiation flows before production participation. The regulatory deadline creates a dated implementation catalyst, but does not prove willingness to pay.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Number of regulated and prospective small participants that must implement the relevant flows.",
+        "Whether ATENA is fully accessible to independent software vendors or only to registered/prospective participants.",
+        "Whether ATENA exposes automated APIs, reusable test fixtures, CI/CD integration, bulk testing, historical regression testing, or exportable audit evidence.",
+        "Whether CMF/APIBox test behavior will remain stable enough for an external product to maintain economically.",
+        "Actual buyer: fintech, payment-initiation provider, data provider, bank, systems integrator, auditor, or compliance officer.",
+        "Willingness to pay, acceptable price, sales cycle, procurement requirements, and expected gross margin.",
+        "How much implementation will be outsourced to local Chilean consultancies or incumbent API/security vendors."
+      ],
+      "investment_authorized": false,
+      "name": "Chile Open-Finance conformance test harness for small fintech participants",
+      "opportunity_id": "opp_f3fe202e8fef580525fb",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A self-serve or locally installable conformance-test package that validates API payloads, certificates, consent states, error handling, and sandbox behavior against CMF specifications. Potential cash-flow sources are fintechs, payment providers, or implementation vendors purchasing licenses or test runs; no buyer, price, or margin is assumed.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -5495,7 +5571,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-29T14:57:25.525308+00:00",
+  "generated_at": "2026-10-29T20:53:21.051180+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

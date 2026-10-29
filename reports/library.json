@@ -2608,6 +2608,100 @@
     {
       "ai_leverage": "",
       "authorized_for_execution": false,
+      "contrary_evidence": [
+        "The CMF launched ATENA on September 30, 2026, specifically to let institutions test integrations, verify conformity with technical standards, and perform interoperability tests before the July 2027 launch. This directly overlaps with the proposed product's core functionality. Source: https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "The CMF's official developer portal already publishes API specifications, integration and operational guidance, security specifications, participant-directory documentation, and examples. Source: https://cmfchile.atlassian.net/wiki/spaces/OFAC",
+        "The official technical materials indicate that security conformance tests should produce a Security Conformance Report, suggesting that at least part of the proposed reporting function is already specified or delegated to established standards rather than being an unserved need. Source: https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/435749124/v1.0.0%2B-%2BModelo+de+gobierno",
+        "The CMF describes simplified participation for smaller entities and a trial period, which may reduce the amount of bespoke tooling smaller participants need to purchase. Source: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "The CMF's FAQ states that pre-registration for sandbox and directory testing begins in October 2026, while the formal system entry date is July 3, 2027. This creates a deadline but also leaves a long period in which buyers may defer procurement or rely on internal teams and free official tooling. Source: https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782129720",
+        "The CMF has not yet fully resolved all implementation economics; its FAQ identifies publication of Annex 4 on incremental costs as a future milestone, and independent reporting describes cost-sharing as an unresolved issue. This uncertainty can delay budgets and participation decisions. Source: https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782129720"
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-29T20:52:48.260241+00:00",
+      "discovery_lens": "chile_technology_import",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF states that the technical annex and developer portal enable development, that a trial period and technology sandbox will be available, and that entry into force is postponed until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "CMF defines information-based service providers and payment-initiation service providers and describes the regulated Open Finance System implementation framework.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF issues regulation governing the Open Finance System as part of the Fintech Act",
+          "url": "https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [
+        "ATENA provides sufficient automated validation, interoperability testing, and evidence/reporting for the target workflows at no charge or at a price below the product's viable cost structure.",
+        "Independent developers cannot obtain sandbox access, test credentials, or sufficient specifications without becoming an eligible participant or contracting through an incumbent.",
+        "Five targeted Chilean prospective participants or implementation vendors decline a concrete paid pilot after seeing a working validator and a quantified time-saving or audit benefit.",
+        "Prospective buyers state that internal engineering teams or existing implementation vendors will handle conformance testing without external software.",
+        "A prototype cannot validate one complete published flow end-to-end against the official sandbox or specifications within a reasonable development effort.",
+        "The CMF/APIBox specifications change frequently enough that maintenance cost exceeds expected subscription or license revenue.",
+        "The target segment has fewer than enough reachable buyers to support a viable business after accounting for sales, localization, support, and regulatory risk.",
+        "No buyer will pay for differentiated capabilities such as CI/CD regression testing, multi-provider comparison, signed evidence packages, or continuous monitoring.",
+        "The regulatory timetable slips materially beyond July 2027 or participation requirements are simplified enough to eliminate the need for independent testing tooling."
+      ],
+      "geography": "Chile",
+      "id": "opp_f3fe202e8fef580525fb",
+      "judge_reviewed": true,
+      "judgment": "Regulatory premise is sufficiently grounded: CMF official materials support an Open Finance implementation framework, a technical annex/developer materials, ATENA testing, and a July 2027 operational timetable. A narrowly scoped conformance-support product is not inherently outside the regulatory perimeter, and it may avoid handling production customer data if designed around synthetic/sandbox test data. However, the broad proposed harness substantially overlaps with free regulator-provided ATENA functionality, official specifications, trial arrangements, and standardized conformance reporting. The required commercial differentiation—automated CI/CD regression, reusable fixtures, signed audit evidence, or cross-participant diagnostics—has not been demonstrated, nor have sandbox access rights for an independent vendor, buyer ownership, pricing, or repeat demand. This is therefore worth tightly bounded validation, not a conclusion that a viable standalone software business exists.",
+      "last_record_updated_at": "2026-10-29T20:53:20.379820+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Number of regulated and prospective small participants that must implement the relevant flows.",
+        "Whether ATENA is fully accessible to independent software vendors or only to registered/prospective participants.",
+        "Whether ATENA exposes automated APIs, reusable test fixtures, CI/CD integration, bulk testing, historical regression testing, or exportable audit evidence.",
+        "Whether CMF/APIBox test behavior will remain stable enough for an external product to maintain economically.",
+        "Actual buyer: fintech, payment-initiation provider, data provider, bank, systems integrator, auditor, or compliance officer."
+      ],
+      "participation_path": "Build only the smallest validator for one published CMF flow using the official technical specifications. Attempt to run it against the CMF sandbox or documented test area, then contact a small Chilean fintech or payment provider with a working demo and ask whether it would pay for a pre-production test report. Falsify the opportunity if the specification is inaccessible, the sandbox cannot be used by an independent developer, or five targeted prospective participants show no interest in testing a concrete workflow.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Smaller prospective participants will need repeatable testing for consent, enrollment, directory, security, information exchange, and payment-initiation flows before production participation. The regulatory deadline creates a dated implementation catalyst, but does not prove willingness to pay.",
+      "title": "Chile Open-Finance conformance test harness for small fintech participants",
+      "type": "software_asset",
+      "unknowns": [
+        "Number of regulated and prospective small participants that must implement the relevant flows.",
+        "Whether ATENA is fully accessible to independent software vendors or only to registered/prospective participants.",
+        "Whether ATENA exposes automated APIs, reusable test fixtures, CI/CD integration, bulk testing, historical regression testing, or exportable audit evidence.",
+        "Whether CMF/APIBox test behavior will remain stable enough for an external product to maintain economically.",
+        "Actual buyer: fintech, payment-initiation provider, data provider, bank, systems integrator, auditor, or compliance officer.",
+        "Willingness to pay, acceptable price, sales cycle, procurement requirements, and expected gross margin.",
+        "How much implementation will be outsourced to local Chilean consultancies or incumbent API/security vendors.",
+        "Whether smaller participants can use simplified participation in ways that avoid building substantial integrations.",
+        "Final requirements and economics after the planned incremental-cost materials and later technical changes.",
+        "Whether payment initiation and other unfinished or evolving flows create enough complexity to support a specialized product.",
+        "Market size after the one-time pre-production compliance period.",
+        "Legal, localization, support, data-residency, certificate-management, and liability requirements for a foreign or independent vendor.",
+        "Whether ATENA is accessible to independent software providers and permits automated, repeatable testing through APIs or test credentials.",
+        "What ATENA does not provide: CI/CD invocation, regression suites, replayable fixtures, bulk testing, evidence export, monitoring, or multi-provider diagnostics.",
+        "Which exact regulated payer has a recurring pain point and budget: payment initiator, information-service provider, bank, implementation consultancy, auditor, or API/security vendor.",
+        "The number of reachable participants with nontrivial implementation obligations and their outsourcing versus internal-build preferences.",
+        "Concrete willingness to pay, acceptable contract structure, procurement cycle, and gross-margin potential versus free official tooling.",
+        "Whether an external tool can validate a complete published workflow against official test infrastructure without accessing production financial data or participant secrets.",
+        "Final technical obligations, conformance-report expectations, incremental-cost rules, and any timetable changes before July 2027."
+      ],
+      "value_capture_mechanism": "A self-serve or locally installable conformance-test package that validates API payloads, certificates, consent states, error handling, and sandbox behavior against CMF specifications. Potential cash-flow sources are fintechs, payment providers, or implementation vendors purchasing licenses or test runs; no buyer, price, or margin is assumed.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": true,
       "discovered_at": "2026-10-26T03:13:17.687461+00:00",
@@ -9205,6 +9299,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-29T20:52:48.261229+00:00",
+      "discovery_lens": "market_positioning",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "A Chilean supplier publicly offers NFC+QR hardware for Google reviews, Instagram, and WhatsApp from CLP 34,990 with no monthly fee.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "AITHER TAP — NFC + QR para conectar con tus clientes",
+          "url": "https://www.aither.cl/tap/"
+        },
+        {
+          "claim": "A Chilean catalog publicly lists multiple NFC/QR products and prices, including stands at CLP 20,000, cards at CLP 10,000, and personalized stands at CLP 30,000.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Stands NFC + QR, tarjetas NFC y llaveros",
+          "url": "https://pymevisible.cl/productos"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.82,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_4597c36d99d4f69a9e20",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-29T20:52:48.330210+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Buy one existing Chilean unit at the advertised retail price, create a single industry-specific configuration, and offer a paid pilot to five nearby businesses through an existing merchant association, local supplier, or direct in-person outreach. Track installation acceptance and scans for two weeks. Falsify if businesses will not pay the prevailing hardware price, cannot identify a useful placement, or show no measurable usage; do not build software or inventory before that test.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A generic NFC tag is not an attractive standalone opportunity. A testable wedge is a standardized, industry-specific installation bundle—for example, a review/contact station for independently operated salons, restaurants, or accommodation properties—where the physical item is paired with placement instructions, destination configuration, and a measurable scan-to-contact or review workflow.",
+      "title": "NFC review-and-contact hardware reseller for Chilean service businesses",
+      "type": "physical_product",
+      "unknowns": [],
+      "value_capture_mechanism": "Revenue would come from selling configured physical units or small batches, potentially through local business-supplier channels or direct outreach. The evidence supports observed retail prices, not a new margin, repeat-purchase rate, or buyer commitment.",
+      "verified_sales": null,
+      "vertical": "chile_localization",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-19T00:23:02.836869+00:00",
       "discovery_lens": "nfc_smart_commerce",
       "estimated_capital": "",
@@ -10230,13 +10378,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-29T14:57:25.450560+00:00",
+  "generated_at": "2026-10-29T20:53:20.933966+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 82,
-  "reviewed_cards": 69,
+  "reviewed_cards": 70,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 226,
-  "watch": 144
+  "total_distinct_opportunities": 228,
+  "watch": 146
 }

@@ -1,11 +1,11 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-10-29T14:57:25.450560+00:00",
+  "generated_at": "2026-10-29T20:53:20.933966+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
-      "other_cards_in_theme": 4,
+      "other_cards_in_theme": 5,
       "reviewed": true,
       "status": "watch",
       "theme": "nfc_products",
@@ -21,7 +21,7 @@
     },
     {
       "opportunity_id": "opp_f26e42aaabb91e157f9d",
-      "other_cards_in_theme": 60,
+      "other_cards_in_theme": 61,
       "reviewed": true,
       "status": "watch",
       "theme": "chile_open_finance",
@@ -103,8 +103,8 @@
   "headline_count": 12,
   "high_concentration": [
     {
-      "cards": 61,
-      "share": 0.424,
+      "cards": 62,
+      "share": 0.425,
       "theme": "chile_open_finance"
     }
   ],
@@ -153,6 +153,7 @@
         "opp_63bc9b9bc5ff0bfbcf2e",
         "opp_6815e39c170199386f97",
         "opp_c692e8312568453cf11f",
+        "opp_f3fe202e8fef580525fb",
         "opp_72a43af466b08d9345bd",
         "opp_feeb29504969ee6e91ea",
         "opp_68b251b56fcd3101a22e",
@@ -177,9 +178,9 @@
         "opp_d6ffaf44890e8156d04e",
         "opp_8c21e3ab01eded9b19de"
       ],
-      "count": 61,
+      "count": 62,
       "representative_id": "opp_f26e42aaabb91e157f9d",
-      "reviewed_count": 38,
+      "reviewed_count": 39,
       "theme": "chile_open_finance"
     },
     {
@@ -211,9 +212,10 @@
         "opp_d54cb21f051b71d41869",
         "opp_1003190617673d0a5401",
         "opp_6f96496de207fbd68ffc",
-        "opp_ce00c60c8ebfd1d48cd2"
+        "opp_ce00c60c8ebfd1d48cd2",
+        "opp_4597c36d99d4f69a9e20"
       ],
-      "count": 5,
+      "count": 6,
       "representative_id": "opp_def87ec156069bf156db",
       "reviewed_count": 2,
       "theme": "nfc_products"
@@ -770,6 +772,6 @@
       "theme": "robotics_agritech:water_efficiency_field"
     }
   ],
-  "total_original_cards": 144,
+  "total_original_cards": 146,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }

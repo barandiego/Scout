@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-29T14:57:25.450560+00:00
+Generated: 2026-10-29T20:53:20.933966+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 144 (0 HQ survivors, 144 watches)
+- Active research: 146 (0 HQ survivors, 146 watches)
 - Rejected opportunities excluded: 82
-- Critic-and-judge reviewed: 69
+- Critic-and-judge reviewed: 70
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -302,6 +302,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Whether ATENA is free, sufficiently complete and available to every relevant participant, and whether it exposes enough functionality for external vendors to build d; Whether CMF or industry bodies will define an official certification, conformance-test format or evidence package that buyers must obtain.; The number of smaller institutions and fintechs that will actually be required to participate, their implementation budgets and their decision-making timelines.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://cmfchile.cl/portal/prensa/625/w4-article-113897.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html
+
+### Chile Open-Finance conformance test harness for small fintech participants [opp_f3fe202e8fef580525fb]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Smaller prospective participants will need repeatable testing for consent, enrollment, directory, security, information exchange, and payment-initiation flows before production participation. The regulatory deadline creates a dated implementation catalyst, but does not prove willingness to pay.
+- Value capture: A self-serve or locally installable conformance-test package that validates API payloads, certificates, consent states, error handling, and sandbox behavior against CMF specifications. Potential cash-flow sources are fintechs, payment providers, or implementation vendors purchasing licenses or test runs; no buyer, price, or margin is assumed.
+- Participation hypothesis: Build only the smallest validator for one published CMF flow using the official technical specifications. Attempt to run it against the CMF sandbox or documented test area, then contact a small Chilean fintech or payment provider with a working demo and ask whether it would pay for a pre-production test report. Falsify the opportunity if the specification is inaccessible, the sandbox cannot be used by an independent developer, or five targeted prospective participants show no interest in testing a concrete workflow.
+- Critic/judge: Regulatory premise is sufficiently grounded: CMF official materials support an Open Finance implementation framework, a technical annex/developer materials, ATENA testing, and a July 2027 operational timetable. A narrowly scoped conformance-support product is not inherently outside the regulatory perimeter, and it may avoid handling production customer data if designed around synthetic/sandbox test data. However, the broad proposed harn
+- Next evidence gaps: Number of regulated and prospective small participants that must implement the relevant flows.; Whether ATENA is fully accessible to independent software vendors or only to registered/prospective participants.; Whether ATENA exposes automated APIs, reusable test fixtures, CI/CD integration, bulk testing, historical regression testing, or exportable audit evidence.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html
 
 ### Chile Open-Finance sandbox conformance kit for small participants [opp_6815e39c170199386f97]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -1262,6 +1272,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.falabella.com/falabella-cl/seller/Natura; https://www.natura.cl/encuentra-natura
+
+### NFC review-and-contact hardware reseller for Chilean service businesses [opp_4597c36d99d4f69a9e20]
+- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
+- Thesis: A generic NFC tag is not an attractive standalone opportunity. A testable wedge is a standardized, industry-specific installation bundle—for example, a review/contact station for independently operated salons, restaurants, or accommodation properties—where the physical item is paired with placement instructions, destination configuration, and a measurable scan-to-contact or review workflow.
+- Value capture: Revenue would come from selling configured physical units or small batches, potentially through local business-supplier channels or direct outreach. The evidence supports observed retail prices, not a new margin, repeat-purchase rate, or buyer commitment.
+- Participation hypothesis: Buy one existing Chilean unit at the advertised retail price, create a single industry-specific configuration, and offer a paid pilot to five nearby businesses through an existing merchant association, local supplier, or direct in-person outreach. Track installation acceptance and scans for two weeks. Falsify if businesses will not pay the prevailing hardware price, cannot identify a useful placement, or show no measurable usage; do not build software or inventory before that test.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.aither.cl/tap/; https://pymevisible.cl/productos
 
 ### NFC review-and-reorder plaques for Chilean independent merchants [opp_ce00c60c8ebfd1d48cd2]
 - Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile
