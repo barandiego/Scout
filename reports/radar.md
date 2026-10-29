@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-28T21:12:48.436675+00:00
+Generated: 2026-10-29T06:06:47.642677+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 196
+- New this cycle: 166
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 466, ai 96, commerce 1, energy 474, robotics 763
+- Categories: agriculture 469, ai 95, energy 473, robotics 763
 
 ## Recently encountered signals
 
@@ -372,6 +372,18 @@ Generated: 2026-10-28T21:12:48.436675+00:00
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
+### igormesarec/home_energy_intelligence
+- Source: https://github.com/igormesarec/home_energy_intelligence
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### rishiragavendra/SUSTAINABLE-GREEN-GRID-POWER-ALLOCATOR
+- Source: https://github.com/rishiragavendra/SUSTAINABLE-GREEN-GRID-POWER-ALLOCATOR
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
 ### Sahilpatil-96/Agri-Ledger
 - Source: https://github.com/Sahilpatil-96/Agri-Ledger
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
@@ -446,18 +458,6 @@ Generated: 2026-10-28T21:12:48.436675+00:00
 
 ### mraman8969/AgroSphere
 - Source: https://github.com/mraman8969/AgroSphere
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### geetmalhotra576-hub/Crop-Sentinel
-- Source: https://github.com/geetmalhotra576-hub/Crop-Sentinel
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### GIW2026Hackathon/DairyHub
-- Source: https://github.com/GIW2026Hackathon/DairyHub
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
