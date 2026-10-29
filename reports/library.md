@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-29T04:23:21.363916+00:00
+Generated: 2026-10-29T14:57:25.450560+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 143 (0 HQ survivors, 143 watches)
+- Active research: 144 (0 HQ survivors, 144 watches)
 - Rejected opportunities excluded: 82
-- Critic-and-judge reviewed: 68
+- Critic-and-judge reviewed: 69
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -493,6 +493,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html
 
+### Congestion-aware battery and demand-response screening for constrained Chilean nodes [opp_a71e28685127733c914e]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile; candidate sites must be validated against the relevant transmission and distribution node
+- Thesis: A testable wedge is a paid screening product for renewable generators, large electricity users, landowners or engineering firms: identify sites where a battery, flexible load or local generation project might reduce curtailment, improve reliability or exploit time/location price differences. This is project origination and measurement, not a claim that a small operator can trade electricity or operate storage without regulatory and technical partners.
+- Value capture: Potential cash-flow sources are a fixed feasibility-screening fee from a project developer or site owner, or a success fee negotiated with a licensed engineering/development partner after an independently verified project proceeds. No public evidence here establishes a standard fee, guaranteed spread, bankability or investable return.
+- Participation hypothesis: Lowest-cost falsification: choose one publicly documented constrained corridor, download hourly nodal-price, generation and congestion data where available, and create a spreadsheet comparing a hypothetical small battery or flexible load against simple operating rules. Then obtain one paid data-access or feasibility commitment from an asset owner, developer or engineering firm before buying hardware. Falsify if the analysis cannot identify a materially different operating case after accounting for round-trip losses, degradation, interconnection
+- Critic/judge: The underlying Chilean grid condition is credible enough to justify narrow, paid pre-development screening research: the cited Coordinador material supports ongoing transmission restrictions, zonal effects, and growing storage deployment. The proposal correctly avoids assuming that the provider itself can own, dispatch, or trade a battery. However, it has not yet identified a named paying customer, constrained node, implementation partn
+- Next evidence gaps: Whether a specific constrained node has persistent, forecastable spreads after round-trip efficiency, degradation, cycling limits, charging costs, imbalance exposure; Whether public data is sufficiently granular, reliable, and timely for bankable site screening rather than retrospective analysis.; The actual willingness of Chilean generators, large users, landowners, or engineering firms to pay for an independent screen.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.coordinador.cl/wp-content/uploads/2026/04/Informe-Monitoreo-2025.pdf; https://www.coordinador.cl/presentaciones/informe-monitoreo-de-la-competencia-en-el-mercado-electrico-2025/
+
 ### EU AI Act transparency and enforcement obligations are becoming operational [opp_0b970dfcca09a4135b23]
 - Status: WATCH_REQUIRES_VALIDATION | general | European Union
 - Thesis: AI providers and downstream deployers face higher compliance, documentation, labeling, monitoring, and assurance costs, while compliant infrastructure becomes a procurement requirement for EU-facing products.
@@ -692,6 +702,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Whether fund administrators, transfer agents, or tokenization platforms currently pay separately for external workflow-test tooling.; The identity of the economic buyer and whether the budget sits with compliance, operations, engineering, vendor management, or implementation teams.; Required test coverage across chains, smart-contract standards, transfer-agent systems, investor-accounting systems, and exception-management procedures.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/843781/000003014626000437/cik0000843781_102708.htm; https://www.sec.gov/Archives/edgar/data/831114/000139834426000957/fp0097248-1_40app.htm
+
+### Per-acre robotic weeding/scouting deployment for specialty-crop growers priced out of ownership [opp_70d50801d0b809f81137]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States specialty-crop regions
+- Thesis: The likely bottleneck is not proof that automation can work, but access to equipment and crop-specific operating capability for growers who cannot justify a capital purchase. A narrow wedge is a paid, per-acre deployment using an existing robot, drone or sensing platform for one measurable task such as mechanical weeding, crop scouting or targeted spraying.
+- Value capture: Charge per-acre or per-field for deployment, reporting and operational labor; alternatively earn a referral or implementation fee only if an equipment owner, dealer or grower explicitly agrees. Do not assume recurring revenue, savings, or resale economics before a paid trial.
+- Participation hypothesis: Start with one crop and one task in a defined local growing region. Identify publicly listed growers, custom operators, extension contacts and equipment vendors; ask whether they will authorize a small paid or no-cost comparison trial. Use an existing commercial platform or rent/borrow one rather than building hardware. Benchmark treated acreage against the grower's current labor or chemical-control method using pre-agreed measures: labor hours, weed-control score, crop damage, acres completed and total operating cost. The lowest-cost falsifica
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.nifa.usda.gov/about-nifa/impacts/automation-specialty-crops; https://ers.usda.gov/topics/farm-economy/farm-labor; https://fieldreport.caes.uga.edu/publications/B1594/agribots-autonomous-ground-robots-for-specialty-crops/; https://maiaapples.com/wp-content/uploads/2024/01/NYFQ-BOOK-Summer-2023_FINAL.pdf
 
 ### Chile Open Finance implementation-readiness test [opp_68b251b56fcd3101a22e]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -1102,16 +1122,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage; https://www.iea.org/commentaries/battery-storage-is-scaling-up-and-taking-on-a-larger-system-role
-
-### Congestion-aware battery and demand-response screening for constrained Chilean nodes [opp_a71e28685127733c914e]
-- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile; candidate sites must be validated against the relevant transmission and distribution node
-- Thesis: A testable wedge is a paid screening product for renewable generators, large electricity users, landowners or engineering firms: identify sites where a battery, flexible load or local generation project might reduce curtailment, improve reliability or exploit time/location price differences. This is project origination and measurement, not a claim that a small operator can trade electricity or operate storage without regulatory and technical partners.
-- Value capture: Potential cash-flow sources are a fixed feasibility-screening fee from a project developer or site owner, or a success fee negotiated with a licensed engineering/development partner after an independently verified project proceeds. No public evidence here establishes a standard fee, guaranteed spread, bankability or investable return.
-- Participation hypothesis: Lowest-cost falsification: choose one publicly documented constrained corridor, download hourly nodal-price, generation and congestion data where available, and create a spreadsheet comparing a hypothetical small battery or flexible load against simple operating rules. Then obtain one paid data-access or feasibility commitment from an asset owner, developer or engineering firm before buying hardware. Falsify if the analysis cannot identify a materially different operating case after accounting for round-trip losses, degradation, interconnection
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.coordinador.cl/wp-content/uploads/2026/04/Informe-Monitoreo-2025.pdf; https://www.coordinador.cl/presentaciones/informe-monitoreo-de-la-competencia-en-el-mercado-electrico-2025/
 
 ### Critical-mineral recycling feedstock locator focused on discarded electronics [opp_4ac887930a777d12d31b]
 - Status: WATCH_REQUIRES_VALIDATION | physical_distribution | United States

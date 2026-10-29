@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 143
+Candidates: 144
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -300,7 +300,7 @@ Candidates: 143
   - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
   - Compare owned asset, installer/distributor and project-finance participation.
   - Verify permits and installed net payback under conservative power price scenarios.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Whether a specific constrained node has persistent, forecastable spreads after round-trip efficiency, degradation, cycling limits, charging costs, imbalance exposure, and network charges.; Whether public data is sufficiently granular, reliable, and timely for bankable site screening rather than retrospective analysis.; The actual willingness of Chilean generators, large users, landowners, or engineering firms to pay for an independent screen.
 - Possible initial budget:
 - Source URLs: https://www.coordinador.cl/wp-content/uploads/2026/04/Informe-Monitoreo-2025.pdf; https://www.coordinador.cl/presentaciones/informe-monitoreo-de-la-competencia-en-el-mercado-electrico-2025/
 
@@ -1671,6 +1671,18 @@ Candidates: 143
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.nifa.usda.gov/about-nifa/impacts/automation-specialty-crops; https://www.ars.usda.gov/research/project/?accnNo=448156
+
+## Per-acre robotic weeding/scouting deployment for specialty-crop growers priced out of ownership
+- Status: watch | robotics_agritech
+- Current idea: The likely bottleneck is not proof that automation can work, but access to equipment and crop-specific operating capability for growers who cannot justify a capital purchase. A narrow wedge is a paid, per-acre deployment using an existing robot, drone or sensing platform for one measurable task such as mechanical weeding, crop scouting or targeted spraying.
+- Potential economic capture: Charge per-acre or per-field for deployment, reporting and operational labor; alternatively earn a referral or implementation fee only if an equipment owner, dealer or grower explicitly agrees. Do not assume recurring revenue, savings, or resale economics before a paid trial.
+- **Research routes to test (NOT validated claims):**
+  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
+  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
+  - Arrange a bounded field validation with an actual farm operator before scaling.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.nifa.usda.gov/about-nifa/impacts/automation-specialty-crops; https://ers.usda.gov/topics/farm-economy/farm-labor; https://fieldreport.caes.uga.edu/publications/B1594/agribots-autonomous-ground-robots-for-specialty-crops/; https://maiaapples.com/wp-content/uploads/2024/01/NYFQ-BOOK-Summer-2023_FINAL.pdf
 
 ## Small hydroponic propagation and specialty-herb pilot, not commodity indoor lettuce
 - Status: watch | robotics_agritech

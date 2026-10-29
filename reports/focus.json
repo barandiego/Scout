@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-10-29T04:23:21.363916+00:00",
+  "generated_at": "2026-10-29T14:57:25.450560+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -104,14 +104,14 @@
   "high_concentration": [
     {
       "cards": 61,
-      "share": 0.427,
+      "share": 0.424,
       "theme": "chile_open_finance"
     }
   ],
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 63,
+  "theme_count": 64,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -202,7 +202,7 @@
       ],
       "count": 15,
       "representative_id": "opp_7ea6a495427da87c8c5c",
-      "reviewed_count": 8,
+      "reviewed_count": 9,
       "theme": "energy_infrastructure"
     },
     {
@@ -237,6 +237,15 @@
       "representative_id": "opp_99de522ad05d0e01cebc",
       "reviewed_count": 1,
       "theme": "robotics_agritech:independent_field_service"
+    },
+    {
+      "all_opportunity_ids": [
+        "opp_70d50801d0b809f81137"
+      ],
+      "count": 1,
+      "representative_id": "opp_70d50801d0b809f81137",
+      "reviewed_count": 0,
+      "theme": "agricultural_weeding_robots"
     },
     {
       "all_opportunity_ids": [
@@ -761,6 +770,6 @@
       "theme": "robotics_agritech:water_efficiency_field"
     }
   ],
-  "total_original_cards": 143,
+  "total_original_cards": 144,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }

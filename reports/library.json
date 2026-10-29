@@ -4236,6 +4236,89 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": true,
+      "discovered_at": "2026-10-17T16:17:48.307467+00:00",
+      "discovery_lens": "energy_localization",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The Coordinador describes accelerated battery-storage adoption and its relevance to renewable integration and system operation.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Informe de Monitoreo 2025",
+          "url": "https://www.coordinador.cl/wp-content/uploads/2026/04/Informe-Monitoreo-2025.pdf"
+        },
+        {
+          "claim": "The Coordinador reports zonal and hourly concentration effects associated with transmission restrictions, conventional-generation dependence and growing battery-storage deployment.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Informe de Monitoreo de la Competencia en el Mercado Eléctrico 2025",
+          "url": "https://www.coordinador.cl/presentaciones/informe-monitoreo-de-la-competencia-en-el-mercado-electrico-2025/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.78,
+      "falsification_conditions": [
+        "A backtest across at least one year of hourly data fails to show a positive risk-adjusted project value after efficiency, degradation, capex, interconnection, permitting, financing, and network costs.",
+        "The apparent opportunity depends on a small number of historical price spikes that are not robust under alternative dispatch assumptions or forward congestion scenarios.",
+        "At least 20 qualified prospective buyers are contacted and none agrees to pay for a pilot, paid data review, or feasibility screen within 90 days.",
+        "Three or more relevant developers, generators, retailers, aggregators, or engineering firms state that they already possess equivalent screening capability and would not outsource it.",
+        "A qualified partner cannot be secured on terms that leave the screening provider a commercially meaningful share of project economics.",
+        "The target node is likely to be materially relieved by committed transmission or storage projects before a screened project could reach commercial operation.",
+        "The screen cannot produce a specific site, operating case, partner, and next-stage development action rather than only a generic congestion narrative.",
+        "Projected customer value is lower than the cost of acquiring, validating, and updating nodal, interconnection, and regulatory data."
+      ],
+      "geography": "Chile; candidate sites must be validated against the relevant transmission and distribution node",
+      "id": "opp_a71e28685127733c914e",
+      "judge_reviewed": true,
+      "judgment": "The underlying Chilean grid condition is credible enough to justify narrow, paid pre-development screening research: the cited Coordinador material supports ongoing transmission restrictions, zonal effects, and growing storage deployment. The proposal correctly avoids assuming that the provider itself can own, dispatch, or trade a battery. However, it has not yet identified a named paying customer, constrained node, implementation partner, or verified unit economics for either the screened asset or the screening service. Therefore it is HQ-worthy as a tightly scoped validation hypothesis, not as an investable storage/origination business.",
+      "last_record_updated_at": "2026-10-29T14:57:24.946017+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Whether a specific constrained node has persistent, forecastable spreads after round-trip efficiency, degradation, cycling limits, charging costs, imbalance exposure, and network charges.",
+        "Whether public data is sufficiently granular, reliable, and timely for bankable site screening rather than retrospective analysis.",
+        "The actual willingness of Chilean generators, large users, landowners, or engineering firms to pay for an independent screen.",
+        "Typical screening fees, success-fee percentages, sales-cycle length, and probability of conversion into a financed project.",
+        "Whether target customers perceive the product as differentiated from existing developer, trader, EPC, consultant, and optimizer capabilities."
+      ],
+      "participation_path": "Lowest-cost falsification: choose one publicly documented constrained corridor, download hourly nodal-price, generation and congestion data where available, and create a spreadsheet comparing a hypothetical small battery or flexible load against simple operating rules. Then obtain one paid data-access or feasibility commitment from an asset owner, developer or engineering firm before buying hardware. Falsify if the analysis cannot identify a materially different operating case after accounting for round-trip losses, degradation, interconnection, permits and network charges, or if no relevant project participant will pay for the screen. Participation must be through an owner, generator, retailer, aggregator or qualified engineering partner; do not assume market access.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A testable wedge is a paid screening product for renewable generators, large electricity users, landowners or engineering firms: identify sites where a battery, flexible load or local generation project might reduce curtailment, improve reliability or exploit time/location price differences. This is project origination and measurement, not a claim that a small operator can trade electricity or operate storage without regulatory and technical partners.",
+      "title": "Congestion-aware battery and demand-response screening for constrained Chilean nodes",
+      "type": "asset_or_project_origination",
+      "unknowns": [
+        "Whether a specific constrained node has persistent, forecastable spreads after round-trip efficiency, degradation, cycling limits, charging costs, imbalance exposure, and network charges.",
+        "Whether public data is sufficiently granular, reliable, and timely for bankable site screening rather than retrospective analysis.",
+        "The actual willingness of Chilean generators, large users, landowners, or engineering firms to pay for an independent screen.",
+        "Typical screening fees, success-fee percentages, sales-cycle length, and probability of conversion into a financed project.",
+        "Whether target customers perceive the product as differentiated from existing developer, trader, EPC, consultant, and optimizer capabilities.",
+        "The interconnection queue, permitting status, land control, water or environmental constraints, and local grid-code requirements at candidate sites.",
+        "The effect of upcoming transmission projects, changing dispatch rules, ancillary-service reforms, and additional BESS deployment on projected spreads.",
+        "Whether flexible load or demand response can obtain sufficient compensation and operational access at the relevant distribution or transmission node.",
+        "Whether a small operator can obtain a credible licensed engineering or market-participation partner without surrendering most of the economics.",
+        "Potential conflicts of interest if the provider recommends sites while also receiving a project success fee.",
+        "Named initial buyer/offtaker and its budget, procurement path, and willingness to pay a fixed pilot or feasibility fee.",
+        "A specific Chilean node/corridor, candidate asset size and duration, interconnection status, and credible operating case.",
+        "Installed capex, EPC and interconnection-upgrade costs, O&M, warranty/augmentation terms, debt/equity assumptions, and conservative project NPV/payback.",
+        "Whether available public data is granular and reliable enough to produce decisions that differ materially from incumbent developer or optimizer analysis.",
+        "Terms with a named engineering, developer, generator, retailer, aggregator, or asset owner that preserve meaningful economics for the screening provider.",
+        "Forward impact and timing of transmission reinforcements, queue projects, new BESS capacity, and dispatch/market-rule changes at the target node."
+      ],
+      "value_capture_mechanism": "Potential cash-flow sources are a fixed feasibility-screening fee from a project developer or site owner, or a success fee negotiated with a licensed engineering/development partner after an independently verified project proceeds. No public evidence here establishes a standard fee, guaranteed spread, bankability or investable return.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": true,
       "discovered_at": "2026-10-03T20:05:14.856750+00:00",
       "discovery_lens": "regulation_infrastructure",
       "estimated_capital": "",
@@ -5964,6 +6047,81 @@
       "value_capture_mechanism": "A narrowly scoped software or testing asset that validates tokenized-share workflows: wallet allowlist changes, mint/burn events, investor-record reconciliation, transfer restrictions, failed transactions, and audit-log completeness. The economic mechanism is avoided operational error and faster pre-launch or vendor acceptance testing, not a claim of regulatory approval.",
       "verified_sales": null,
       "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-29T14:56:55.188173+00:00",
+      "discovery_lens": "adoption_lag",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "USDA NIFA documents field-tested specialty-crop automation, including robotic weeding, automated spraying, crop sensing, harvesting systems and reported labor or input benefits.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Automation for Specialty Crops",
+          "url": "https://www.nifa.usda.gov/about-nifa/impacts/automation-specialty-crops"
+        },
+        {
+          "claim": "USDA ERS reports that wages and salaries plus contract labor represented 42% of production expenses for greenhouse and nursery operations and 40% for fruit and tree-nut operations in 2022.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Farm Labor",
+          "url": "https://ers.usda.gov/topics/farm-economy/farm-labor"
+        },
+        {
+          "claim": "University of Georgia Extension reports a baseline agricultural-robot price around $20,000, with specialized systems potentially exceeding $400,000, and identifies high purchase cost as a barrier for small and medium growers.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Agribots: Autonomous Ground Robots for Specialty Crops",
+          "url": "https://fieldreport.caes.uga.edu/publications/B1594/agribots-autonomous-ground-robots-for-specialty-crops/"
+        },
+        {
+          "claim": "An orchard-technology industry publication lists a precision orchard service example priced at $100 per acre with a 100-acre minimum and a one-time setup fee, providing a public price anchor for per-acre crop intelligence.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Orchard Robotics and Precision Orchard Services",
+          "url": "https://maiaapples.com/wp-content/uploads/2024/01/NYFQ-BOOK-Summer-2023_FINAL.pdf"
+        },
+        {
+          "claim": "A marketplace listing gives an indicative purchase price of $12,000–$35,000 per autonomous row-crop weeding unit and permits a quote request; this is a vendor/marketplace claim, not independently verified transaction evidence.",
+          "grounded_in_provider_search": true,
+          "source_type": "other",
+          "title": "Autonomous Row-Crop Weeding Robot",
+          "url": "https://smartsoilai.com/shop/autonomous-weeding-robot"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.84,
+      "falsification_conditions": [],
+      "geography": "United States specialty-crop regions",
+      "id": "opp_70d50801d0b809f81137",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-29T14:56:55.219655+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Start with one crop and one task in a defined local growing region. Identify publicly listed growers, custom operators, extension contacts and equipment vendors; ask whether they will authorize a small paid or no-cost comparison trial. Use an existing commercial platform or rent/borrow one rather than building hardware. Benchmark treated acreage against the grower's current labor or chemical-control method using pre-agreed measures: labor hours, weed-control score, crop damage, acres completed and total operating cost. The lowest-cost falsification is to obtain three written refusals or no-response outcomes from relevant operators, or to run a 1–5 acre trial and find that the measured cost or performance is not better than the incumbent method. Publicly visible price anchors include approximately $100 per acre for an orchard-management software/service example and $12,000–$35,000 for an indicative autonomous row-crop weeding unit; these are not evidence that a buyer will pay for the proposed service.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The likely bottleneck is not proof that automation can work, but access to equipment and crop-specific operating capability for growers who cannot justify a capital purchase. A narrow wedge is a paid, per-acre deployment using an existing robot, drone or sensing platform for one measurable task such as mechanical weeding, crop scouting or targeted spraying.",
+      "title": "Per-acre robotic weeding/scouting deployment for specialty-crop growers priced out of ownership",
+      "type": "adoption_lag",
+      "unknowns": [],
+      "value_capture_mechanism": "Charge per-acre or per-field for deployment, reporting and operational labor; alternatively earn a referral or implementation fee only if an equipment owner, dealer or grower explicitly agrees. Do not assume recurring revenue, savings, or resale economics before a paid trial.",
+      "verified_sales": null,
+      "vertical": "robotics_agritech",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -8291,60 +8449,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-17T16:17:48.307467+00:00",
-      "discovery_lens": "energy_localization",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "The Coordinador describes accelerated battery-storage adoption and its relevance to renewable integration and system operation.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Informe de Monitoreo 2025",
-          "url": "https://www.coordinador.cl/wp-content/uploads/2026/04/Informe-Monitoreo-2025.pdf"
-        },
-        {
-          "claim": "The Coordinador reports zonal and hourly concentration effects associated with transmission restrictions, conventional-generation dependence and growing battery-storage deployment.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Informe de Monitoreo de la Competencia en el Mercado Eléctrico 2025",
-          "url": "https://www.coordinador.cl/presentaciones/informe-monitoreo-de-la-competencia-en-el-mercado-electrico-2025/"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.78,
-      "falsification_conditions": [],
-      "geography": "Chile; candidate sites must be validated against the relevant transmission and distribution node",
-      "id": "opp_a71e28685127733c914e",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-17T16:17:48.351695+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Lowest-cost falsification: choose one publicly documented constrained corridor, download hourly nodal-price, generation and congestion data where available, and create a spreadsheet comparing a hypothetical small battery or flexible load against simple operating rules. Then obtain one paid data-access or feasibility commitment from an asset owner, developer or engineering firm before buying hardware. Falsify if the analysis cannot identify a materially different operating case after accounting for round-trip losses, degradation, interconnection, permits and network charges, or if no relevant project participant will pay for the screen. Participation must be through an owner, generator, retailer, aggregator or qualified engineering partner; do not assume market access.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "A testable wedge is a paid screening product for renewable generators, large electricity users, landowners or engineering firms: identify sites where a battery, flexible load or local generation project might reduce curtailment, improve reliability or exploit time/location price differences. This is project origination and measurement, not a claim that a small operator can trade electricity or operate storage without regulatory and technical partners.",
-      "title": "Congestion-aware battery and demand-response screening for constrained Chilean nodes",
-      "type": "asset_or_project_origination",
-      "unknowns": [],
-      "value_capture_mechanism": "Potential cash-flow sources are a fixed feasibility-screening fee from a project developer or site owner, or a success fee negotiated with a licensed engineering/development partner after an independently verified project proceeds. No public evidence here establishes a standard fee, guaranteed spread, bankability or investable return.",
-      "verified_sales": null,
-      "vertical": "energy_infrastructure",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-22T22:58:15.832772+00:00",
       "discovery_lens": "mining_materials",
       "estimated_capital": "",
@@ -10126,13 +10230,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-29T04:23:21.363916+00:00",
+  "generated_at": "2026-10-29T14:57:25.450560+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 82,
-  "reviewed_cards": 68,
+  "reviewed_cards": 69,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 225,
-  "watch": 143
+  "total_distinct_opportunities": 226,
+  "watch": 144
 }
