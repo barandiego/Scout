@@ -1,123 +1,14 @@
 {
-  "active_candidates": [
-    {
-      "available_budget_clp": 7215000.0,
-      "buyer": "FISCALIZACION Y CONTROL",
-      "closes_at": "2026-11-02T10:00:00",
-      "code": "3755-133-COT26",
-      "estimated_budget": 7215000.0,
-      "name": "ADQUISICION DE LICENCIAS VEEAM DATA PLATFORM ADVANCED",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 265000.0,
-      "buyer": "UNIVERSIDAD DE CHILE",
-      "closes_at": "2026-10-29T18:30:00",
-      "code": "5178-5357-COT26",
-      "estimated_budget": 265000.0,
-      "name": "CAFETERAS PRENSA FRANCESA PERSONALIZADAS / SP 1073829 - CJ",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 1600000.0,
-      "buyer": "I MUNICIPALIDAD DE OSORNO",
-      "closes_at": "2026-10-29T18:30:00",
-      "code": "2306-1030-COT26",
-      "estimated_budget": 1600000.0,
-      "name": "ADQUISICION DE INSUMOS COMPUTACIONALES PARA ESCUELA ESPAÑA, FONDOS SEP.",
-      "products": 5,
-      "region": "Región de los Lagos"
-    },
-    {
-      "available_budget_clp": 6000000.0,
-      "buyer": "DELEGACIÓN PRESIDENCIAL PROVINCIAL DE TIERRA DEL F",
-      "closes_at": "2026-11-02T08:00:00",
-      "code": "1536-151-COT26",
-      "estimated_budget": 6000000.0,
-      "name": "Obras menores paso Bellavista",
-      "products": 1,
-      "region": "Región de Magallanes y de la Antártica"
-    },
-    {
-      "available_budget_clp": 2629900.0,
-      "buyer": "Corporación Cultural de Antofagasta",
-      "closes_at": "2026-10-30T09:00:00",
-      "code": "1357605-151-COT26",
-      "estimated_budget": 2629900.0,
-      "name": "SERVICIO DE CATERING",
-      "products": 1,
-      "region": "Región de Antofagasta"
-    },
-    {
-      "available_budget_clp": 45000.0,
-      "buyer": "SECCIÓN COMPRAS I ZONA",
-      "closes_at": "2026-10-29T18:10:00",
-      "code": "1079967-789-COT26",
-      "estimated_budget": 45000.0,
-      "name": "ADQUISICIÓN DE JUEGO DE PASTILLAS DE FRENOS PARA EL VEHÍCULO POLICIAL VPC-1023 DE LA SIP 3RA. COMISARIA ALTO HOSPICIO",
-      "products": 1,
-      "region": "Región de Tarapacá"
-    },
-    {
-      "available_budget_clp": 1500000.0,
-      "buyer": "UNIVERSIDAD DE TALCA",
-      "closes_at": "2026-10-29T18:10:00",
-      "code": "1469-3802-COT26",
-      "estimated_budget": 1500000.0,
-      "name": "20-44830 ADQUISICIÓN DE ESCRITORIO 140x70 Y ESCRITORIO TIPO L",
-      "products": 2,
-      "region": "Región del Maule"
-    },
-    {
-      "available_budget_clp": 4000000.0,
-      "buyer": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-      "closes_at": "2026-10-29T18:10:00",
-      "code": "1182-19-COT26",
-      "estimated_budget": 4000000.0,
-      "name": "CONTRATACIÓN DEL SERVICIO DE MANTENIMIENTO PREVENTIVO DEL SISTEMA DE CLIMATIZACIÓN CENTRAL VRV DEL EDIFICIO MOP TALCA Y SUMINISTRO E INSTALACIÓN DE 10 TARJETAS PCB",
-      "products": 1,
-      "region": "Región del Maule"
-    },
-    {
-      "available_budget_clp": 425350.0,
-      "buyer": "UNIVERSIDAD DE ATACAMA",
-      "closes_at": "2026-10-30T09:00:00",
-      "code": "5956-232-COT26",
-      "estimated_budget": 425350.0,
-      "name": "Compra de 1 impresora multifuncional canon MAXIFY GX7110, o maxify GX6110 Tinta color ADF Dúplex WiFi LAN USB o similar característica/ Secretaria Depto. Educación",
-      "products": 1,
-      "region": "Región de Atacama"
-    },
-    {
-      "available_budget_clp": 250000.0,
-      "buyer": "I MUNICIPALIDAD DE TOME",
-      "closes_at": "2026-10-29T19:00:00",
-      "code": "2656-1279-COT26",
-      "estimated_budget": 250000.0,
-      "name": "Adquisición de mobiliario",
-      "products": 1,
-      "region": "Región del Biobío"
-    },
-    {
-      "available_budget_clp": 52000.0,
-      "buyer": "I MUNICIPALIDAD DE LA CISTERNA",
-      "closes_at": "2026-10-30T09:24:00",
-      "code": "2765-549-COT26",
-      "estimated_budget": 52000.0,
-      "name": "Adquisición de insumos quirúrgicos",
-      "products": 6,
-      "region": "Región Metropolitana de Santiago"
-    }
-  ],
-  "active_structurally_reconstructable_count": 11,
+  "active_candidates": [],
+  "active_structurally_reconstructable_count": 0,
   "diagnostics": {
-    "api_failures": {},
+    "api_failures": {
+      "api_rate_limited": 1
+    },
     "budget_exhausted": false,
     "detail_attempts": 20,
     "detail_cap_exhausted": true,
-    "details_fetched": 20,
+    "details_fetched": 19,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -129,24 +20,24 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-10-28T21:10:55Z",
-  "inserted_history": 20,
+  "generated_at": "2026-10-29T05:59:49Z",
+  "inserted_history": 19,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
+  "outcome": "DEGRADED_API_ERRORS",
   "phase1": {
-    "records": 20,
+    "records": 19,
     "rejection_reasons": {
       "no_observable_competitive_prices": 1
     },
-    "resolved": 9,
-    "structurally_reconstructable": 19,
-    "with_observable_quote_totals": 8,
-    "with_purchase_order_indicator": 7
+    "resolved": 19,
+    "structurally_reconstructable": 18,
+    "with_observable_quote_totals": 18,
+    "with_purchase_order_indicator": 4
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-28T21:10:55Z"
+    "changed_to": "2026-10-29T05:59:49Z"
   }
 }
