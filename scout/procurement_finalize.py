@@ -23,6 +23,11 @@ class FinalizeError(RuntimeError):
     pass
 
 
+def _blob_id(data: bytes) -> str:
+    """Git SHA-1 blob ID for the exact validated bytes."""
+    return hashlib.sha1(b"blob " + str(len(data)).encode("ascii") + b"\0" + data).hexdigest()
+
+
 def _git(root: Path, *args: str) -> str:
     try:
         result = subprocess.run(["git", *args], cwd=root, text=True,
@@ -56,6 +61,8 @@ def finalize(root: Path, *, report: Path, run_id: str, exit_code: int,
         raise FinalizeError("state_missing")
     if _git(root, "diff", "--cached", "--name-only"):
         raise FinalizeError("staged_changes_present")
+    if _git(root, "rev-parse", "--show-object-format") != "sha1":
+        raise FinalizeError("unsupported_git_object_format")
     head = _git(root, "rev-parse", "HEAD")
     if _git(root, "ls-remote", "origin", "refs/heads/main") != head + "\trefs/heads/main":
         raise FinalizeError("remote_head_changed")
@@ -85,6 +92,12 @@ def finalize(root: Path, *, report: Path, run_id: str, exit_code: int,
     if state.exists():
         paths.append(STATE.as_posix())
     _git(root, "add", "-A", "--", *paths)
+    # Bind staged Git blobs to the exact bytes validated above.
+    if (_git(root, "rev-parse", ":" + REPORT.as_posix()) != _blob_id(report_bytes)
+        or _git(root, "rev-parse", ":" + STATE.as_posix()) != _blob_id(state_bytes)):
+        raise FinalizeError("staged_evidence_changed")
+    if _git(root, "diff", "--cached", "--name-status", "--", MARKER.as_posix()) != "D\t" + MARKER.as_posix():
+        raise FinalizeError("marker_deletion_not_staged")
     _git(root, "commit", "-m", "chore: persist controlled procurement completion")
     _git(root, "push", "origin", "HEAD:refs/heads/main")
     return receipt
