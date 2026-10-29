@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-29T15:21:23.237197+00:00
+Generated: 2026-10-29T21:16:38.336787+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 179
+- New this cycle: 161
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 475, ai 95, energy 469, robotics 761
+- Categories: agriculture 478, ai 94, energy 467, robotics 761
 
 ## Recently encountered signals
 
@@ -378,6 +378,18 @@ Generated: 2026-10-29T15:21:23.237197+00:00
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
+### Battery degradation and energy storage optimization in building photovoltaic storage systems considering cycle–calendar aging and temperature effects
+- Source: https://doi.org/10.1016/j.enbuild.2026.118444
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### shreyumurthy07-svg/Krushi
+- Source: https://github.com/shreyumurthy07-svg/Krushi
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
 ### madhavkorrapati/Agropulse-ai
 - Source: https://github.com/madhavkorrapati/Agropulse-ai
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
@@ -446,18 +458,6 @@ Generated: 2026-10-29T15:21:23.237197+00:00
 
 ### Impact Analysis of Battery Energy Storage System and Demand Response in Microgrid
 - Source: https://doi.org/10.3390/en19215105
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Distributionally Robust Whole-Process Restoration of Power Systems with Photovoltaic–Battery Energy Storage Stations and Flexible Loads
-- Source: https://doi.org/10.3390/app162110584
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### REGULATORY FRAMEWORK FOR THE BATTERY ENERGY STORAGE SYSTEMS (BESS) IN THE ELECTRICITY MARKET
-- Source: https://doi.org/10.20535/1813-5420.3.2026.370165
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
