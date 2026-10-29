@@ -10126,13 +10126,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-28T23:53:53.960961+00:00",
+  "generated_at": "2026-10-29T04:23:21.363916+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 81,
+  "rejected_excluded": 82,
   "reviewed_cards": 68,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 224,
+  "total_distinct_opportunities": 225,
   "watch": 143
 }

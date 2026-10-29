@@ -1,15 +1,15 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-28T23:53:53.553586+00:00
+Generated: 2026-10-29T04:23:20.967706+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['energy_industrial', 'mining_materials', 'tokenization_finance']
+- lenses: ['business_model_migration', 'cost_curve', 'open_finance_chile']
 - raw_candidates: 1
 - parseable_candidates: 1
 - normalized_candidates: 1
 - normalization_rejected: 0
-- grounded_sources: 1
+- grounded_sources: 2
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 0
@@ -17,12 +17,12 @@ Generated: 2026-10-28T23:53:53.553586+00:00
 - judge_reviews: 0
 - survivors: 0
 - watches: 0
-- rejected: 2
+- rejected: 1
 - errors_by_stage: {}
-- rejection_reasons: {'discarded_ungrounded_url': 1, 'insufficient_unique_evidence': 1}
-- cost_usd: 0.02889085
+- rejection_reasons: {}
+- cost_usd: 0.0282824
 - cost_uncertain: False
-- budget_remaining_usd: 0.05110915
+- budget_remaining_usd: 0.0517176
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -56,7 +56,7 @@ No survivors. Scout does not manufacture a daily winner.
 ```json
 {
   "notes": [
-    "deep_review_lane=backlog",
+    "deep_review_lane=fresh",
     "research_queue_unreviewed=69"
   ],
   "stages": [
@@ -67,104 +67,105 @@ No survivors. Scout does not manufacture a daily winner.
       "incomplete_reason": "",
       "grounded_source_count": 18,
       "search_source_urls": [
-        "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025.pdf",
-        "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025_bef_2025Feb3.pdf",
-        "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025_ver.1.0.pdf",
-        "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf",
-        "https://pubs.usgs.gov/publication/mcs2026",
-        "https://www.sec.gov/about/divisions-offices/division-corporation-finance/corpfin-crypto-assets",
-        "https://www.sec.gov/files/rules/sro/nysetex/2026/34-105338.pdf",
-        "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment",
-        "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment",
-        "https://www.sec.gov/newsroom/speeches-statements/corp-fin-statement-tokenized-securities-012826-statement-tokenized-securities",
-        "https://www.sec.gov/newsroom/speeches-statements/peirce-121125-tokenization-trending-statement-division-trading-markets-no-action-letter-related-dtcs-development",
-        "https://www.sec.gov/newsroom/speeches-statements/peirce-slumber-number-innovation-exemption-statement-091726",
-        "https://www.sec.gov/newsroom/speeches-statements/uyeda-statement-innovation-exemption-091726",
-        "https://www.sec.gov/rules-regulations/self-regulatory-organization-rulemaking/sr-nasdaq-2025-072",
-        "https://www.usgs.gov/centers/national-minerals-information-center/mineral-commodity-summaries/",
-        "https://www.usgs.gov/national-minerals-information-center",
-        "https://www.usgs.gov/news/science-snippet/interior-department-releases-final-2025-list-critical-minerals?source=pmbug.com",
-        "https://www.usgs.gov/programs/mineral-resources-program/science/about-2025-list-critical-minerals"
+        "https://cmfchile.cl/portal/prensa/625/w4-article-100482.html",
+        "https://www.cmfchile.cl/educa/621/w3-article-85051.html",
+        "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa2.php?entidad_web=ALL&enviado=1&hidden_mercado=%25&materia=ALL&numero=514&tiponorma=NCG",
+        "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa2.php?entidad_web=CSCRE&hidden_mercado=S",
+        "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-94764_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-94764_doc_pdf.pdf?ts=1748382896",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-102547.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-112955.html?trk=public_post_comment-text",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-92449.html",
+        "https://www.cmfchile.cl/portal/principal/613/articles-49853_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/articles-50600_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/articles-93115_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/articles-99083_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48738.html"
       ]
     },
     {
       "index": 0,
       "stage": "normalization",
       "outcome": "accepted",
-      "reasons": [
-        "discarded_ungrounded_url"
-      ],
+      "reasons": [],
       "changes": [
+        "signal:sanitized",
         "contrary_evidence:list_sanitized",
         "major_risks:list_sanitized",
         "unknowns:list_sanitized",
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 1,
+      "grounded_sources": 2,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_a78174a5084ecf85fdd7",
+      "candidate_id": "opp_2ea495f09fcede453a6c",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 18,
       "search_source_urls": [
-        "https://energia.gob.cl/noticias/magallanes-y-de-la-antartica-chilena/ministerio-de-energia-y-agenciase-lanzan-concurso-para-implementacion-de-auditorias-energeticas-en-medianas-empresas",
-        "https://energia.gob.cl/panel/auditorias",
-        "https://energia.gob.cl/sites/default/files/documento_cuenta-publica_2025.pdf",
-        "https://energia.gob.cl/sites/default/files/documentos/20251204_informe_criterios_de_reporte_energetico.pdf",
-        "https://es.wikipedia.org/wiki/ChileCompra",
-        "https://www.agenciase.org/bancoestado/",
-        "https://www.agenciase.org/concurso-de-auditorias-energeticas-en-medianas-empresas/",
-        "https://www.agenciase.org/convocatorias/",
-        "https://www.agenciase.org/energia-a-tu-pyme/",
-        "https://www.agenciase.org/fomento-al-ahorro/",
-        "https://www.agenciase.org/implementacion-y-certificacion-de-sge-basados-en-iso-50001/",
-        "https://www.agenciase.org/que-es-el-concurso-de-implementacion-de-proyectos-de-sostenibilidad-energetica-en-mipymes/",
-        "https://www.agenciase.org/wp-content/uploads/2020/04/BT-GE-MIPYME_Rev6-abm-28-04-20-VF.pdf",
-        "https://www.agenciase.org/wp-content/uploads/2020/05/tupyme-1.pdf",
-        "https://www.agenciase.org/wp-content/uploads/2021/10/Contrato-MiPyMEs-2021-VF-Protegido.pdf",
-        "https://www.chilecompra.cl/estadisticas-mercado-publico/",
-        "https://www.emb.cl/electroindustria/articulo.mvc?act=4&srch=recambio&tip=&xid=4715&xit=",
-        "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=qMW5m%2FB80gzdl0piCZF8Yg%3D%3D"
+        "https://cmfchile.cl/portal/prensa/625/w4-article-100482.html",
+        "https://cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://en.wikipedia.org/wiki/Open_finance",
+        "https://openfinanceconnect.cl/en/",
+        "https://www.carey.cl/cmf-modifica-la-ncg-n514-e-incorpora-estandares-tecnicos-para-la-implementacion-del-sistema-de-finanzas-abiertas",
+        "https://www.carey.cl/en/cmf-amends-ncg-no-514-and-incorporates-technical-standards-for-the-implementation-of-the-open-finance-system",
+        "https://www.cmfchile.cl/normativa/ncg_569_2026.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://www.cmfchile.cl/portal/principal/613/articles-100816_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/articles-89573_doc_pdf.pdf?ts=1736947420",
+        "https://www.cmfchile.cl/portal/principal/613/articles-92466_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/articles-96504_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113806.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-80196.html",
+        "https://www.minsait.com/es/estudios/open-finance-en-chile-de-la-implementacion-regulatoria-a-la-oportunidad-de-negocio"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_a78174a5084ecf85fdd7",
-      "coercions": []
+      "candidate_id": "opp_2ea495f09fcede453a6c",
+      "coercions": [
+        "contrary_evidence"
+      ]
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 305,
-      "cache_write_tokens": 5501,
+      "reasoning_tokens": 192,
+      "cache_write_tokens": 5580,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01421485,
+      "cumulative_cost_usd": 0.0140348,
       "model": "gpt-5.6-luna",
-      "input_tokens": 14017,
+      "input_tokens": 13979,
       "cached_tokens": 0,
-      "output_tokens": 947,
+      "output_tokens": 800,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01421485
+      "estimated_cost_usd": 0.0140348
     },
     {
       "stage": "critic",
       "available": true,
       "reasoning_tokens": 142,
-      "cache_write_tokens": 5252,
+      "cache_write_tokens": 5344,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02889085,
+      "cumulative_cost_usd": 0.0282824,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13613,
+      "input_tokens": 13656,
       "cached_tokens": 0,
-      "output_tokens": 1409,
+      "output_tokens": 1041,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.014676
+      "estimated_cost_usd": 0.0142476
     }
   ]
 }
