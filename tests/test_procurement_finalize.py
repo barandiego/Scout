@@ -25,8 +25,14 @@ def env(tmp_path, monkeypatch):
     calls = []
     def fake_git(root, *args):
         calls.append(args)
+        if args[:2] == ("rev-parse", "--show-object-format"):
+            return "sha1"
+        if args[:1] == ("rev-parse",) and args[1].startswith(":"):
+            return final._blob_id((tmp_path / args[1][1:]).read_bytes())
         if args[:1] == ("rev-parse",):
             return HEAD
+        if args[:3] == ("diff", "--cached", "--name-status"):
+            return "D\t" + final.MARKER.as_posix()
         if args[:1] == ("ls-remote",):
             return HEAD + "\trefs/heads/main"
         if args[:1] == ("show",):
@@ -51,7 +57,8 @@ def test_known_degraded_result_commits_report_and_marker_removal_together(env):
     add = next(call for call in calls if call[0] == "add")
     assert final.REPORT.as_posix() in add
     assert final.MARKER.as_posix() in add
-    assert [call[0] for call in calls][-3:] == ["add", "commit", "push"]
+    assert [call[0] for call in calls][-2:] == ["commit", "push"]
+    assert calls.index(add) < next(i for i, call in enumerate(calls) if call[0] == "commit")
 
 
 def test_changed_remote_blocks_before_marker_or_report_mutation(env, monkeypatch):
@@ -158,3 +165,42 @@ def test_missing_state_cannot_be_reported_as_durable(env):
         run(env)
     assert marker.exists()
     assert not any(call[0] == "push" for call in calls)
+
+@pytest.mark.parametrize("target", ["state", "report"])
+def test_changed_staged_bytes_block_commit_and_push(env, monkeypatch, target):
+    root, marker, report, calls = env
+    original = final._git
+    def race(root, *args):
+        if args[0] == "add":
+            path = root / (final.STATE if target == "state" else final.REPORT)
+            path.write_text("changed after validation", encoding="utf-8")
+        return original(root, *args)
+    monkeypatch.setattr(final, "_git", race)
+    with pytest.raises(final.FinalizeError, match="staged_evidence_changed"):
+        run(env)
+    assert not any(call[0] in ("commit", "push") for call in calls)
+
+
+def test_missing_staged_marker_deletion_blocks_commit(env, monkeypatch):
+    root, marker, report, calls = env
+    original = final._git
+    def missing_deletion(root, *args):
+        if args[:3] == ("diff", "--cached", "--name-status"):
+            return ""
+        return original(root, *args)
+    monkeypatch.setattr(final, "_git", missing_deletion)
+    with pytest.raises(final.FinalizeError, match="marker_deletion_not_staged"):
+        run(env)
+    assert not any(call[0] in ("commit", "push") for call in calls)
+
+
+def test_blob_id_matches_real_git_index(tmp_path):
+    import subprocess
+    subprocess.run(["git", "init", "-q"], cwd=tmp_path, check=True)
+    data = '{"observacion":"válida"}\n'.encode("utf-8")
+    (tmp_path / "record.json").write_bytes(data)
+    subprocess.run(["git", "-c", "core.autocrlf=false", "add", "record.json"],
+                   cwd=tmp_path, check=True)
+    result = subprocess.run(["git", "rev-parse", ":record.json"], cwd=tmp_path,
+                            text=True, capture_output=True, check=True)
+    assert result.stdout.strip() == final._blob_id(data)
