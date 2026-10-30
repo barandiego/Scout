@@ -1964,42 +1964,6 @@
       "category": "innovation_adoption",
       "commercially_validated": false,
       "competition_confirmed": false,
-      "current_participation_path": "Lowest-cost falsification: install one project locally, run a fixed benchmark of 20-50 representative agent tasks with and without the cost-control layer, and publish the measured token use, latency, failure rate and reproducibility. Then contact identifiable users or maintainers through the project's public issue/discussion channels with the benchmark and ask whether the measured improvement solves a paid problem. Do not sell managed services, claim savings, or assume licensing rights until the repository license and user response support it.",
-      "current_thesis": "The concrete mechanism is not generic AI consulting: it is a low-cost software layer for self-hosted agent operators who need cost tracking, routing, quality controls or premium features. The public price confirms that at least one project is attempting direct software monetization, but adoption and willingness to pay are unverified.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "Global",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "Open-source agent cost-control software with a directly published paid tier",
-      "opportunity_id": "opp_beb787a05eb10672a64b",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Identify a real technical capability not yet adopted in one buyer's high-value workflow.",
-        "Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.",
-        "Measure the fully loaded operating cost, human exceptions and distribution against the status quo."
-      ],
-      "supporting_source_urls": [
-        "https://github.com/aks-builds/agentsave",
-        "https://github.com/use-ash/apex"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "Possible capture routes are paid contributions, narrowly scoped integrations, hosted deployment only where explicitly permitted, or paid extensions/templates that solve a documented operational gap. No buyer, conversion rate or sustainable margin is established.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "innovation_adoption",
-      "commercially_validated": false,
-      "competition_confirmed": false,
       "current_participation_path": "Select one workflow with non-sensitive test data and an explicit human approval before submission. Prototype with the MIT-licensed Cereon Browser Operator or AgentBrowser, keeping credentials and execution on the client’s machine. Measure completion rate, exception rate, human minutes per case, and model/API cost over 20 to 50 cases. Falsification test: ask three operators of the same workflow for anonymized sample steps and permission to run a 1-week sandbox pilot; abandon if no one supplies a repeatable task, baseline time, or authorized test environment.",
       "current_thesis": "A small operator can test whether one high-frequency, browser-only workflow—such as downloading statements, reconciling portal data, or preparing draft form entries—can be automated at lower total cost than manual handling. The opportunity is the workflow-specific implementation and maintenance, not a generic AI agency.",
       "founder_hours_initial_unverified_estimate": "",
@@ -4591,6 +4555,43 @@
       "category": "physical_distribution",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Buy or locally source a small batch of NFC cards, plaques, or tags; create three narrowly scoped prototypes for restaurants, salons, and retail shelves; approach businesses already displaying QR codes or collecting Google reviews; offer a paid pilot at or below the observed CLP 10,000–25,000 hardware price and measure scans, completed actions, and repeat-order interest. Falsify cheaply by pre-selling five pilots before buying inventory beyond samples. Do not assume Google-review compliance, attribution quality, or permission to place hardware until each business confirms it.",
+      "current_thesis": "The hardware itself is commoditized, so the executable wedge is not inventing NFC technology. It is packaging inexpensive NFC plaques, table cards, shelf labels, or counter displays around one measurable action such as opening a menu, requesting a review, joining a loyalty list, or viewing a product page. The available retail prices provide a visible customer price anchor, but do not establish sustainable margins or demand for a new operator.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "NFC review-and-discovery stations for Chilean restaurants and local retailers",
+      "opportunity_id": "opp_7a4c2697266c85e82693",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Compare local product availability to supplier catalogs and independent consumer interest.",
+        "Check import, tax, return, certification and delivery economics before estimating margin.",
+        "Try a legitimate pre-order/waitlist test with transparent fulfillment conditions."
+      ],
+      "supporting_source_urls": [
+        "https://pymevisible.cl/productos/tarjeta-google",
+        "https://tarjetas-nfc.com/precios",
+        "https://nfcid.cl/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "One-time sale of configured NFC displays, potentially with replacement or reprogramming fees. A small operator should avoid assuming subscription revenue unless customers explicitly request ongoing management. The defensible asset could be a reusable template library and deployment process for specific Chilean business formats, not the NFC chip itself.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "physical_distribution",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Start with one vertical where the action is easy to measure, such as cafés or salons. Build a one-page landing page and one physical prototype using an inexpensive NFC tag and QR code. Approach 20 nearby businesses in person or through publicly listed contact channels; offer a seven-day unpaid or deposit-backed test only if the merchant agrees to place it at the point of sale and provide baseline and post-test scan/review counts. Falsify if fewer than three businesses agree to place the prototype, or if no tested merchant records a measurable action attributable to it. Do not assume permission to edit business profiles, collect customer data or make claims about incremental sales.",
       "current_thesis": "A small operator should not compete on generic NFC business cards. A narrower offer is a preconfigured countertop or packaging plaque that sends customers to one measurable action—Google review, WhatsApp reorder, menu, booking or loyalty stamp—sold with a simple setup fee and optional replacement/update service. The economic mechanism is paid physical placement plus measurable reduction in friction between offline traffic and a merchant-owned digital channel.",
       "founder_hours_initial_unverified_estimate": "",
@@ -5465,6 +5466,44 @@
       "category": "robotics_agritech",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use the publicly listed CLP 4,790,000 100 m² system as a capital benchmark and request a written quotation for a smaller sunlight-based NFT installation. Before purchasing, secure nonbinding product specifications and price commitments from at least three prospective local buyers such as restaurants, specialty grocers, or produce distributors; then run one crop cycle with documented labor hours, energy, water, sell-through, rejection, and realized price. Falsify by spending only on buyer interviews, samples, and a small test bed; abandon the production route if buyers will not commit to a price or recurring pickup schedule that covers measured direct costs.",
+      "current_thesis": "The evidence does not support building a capital-intensive LED vertical farm as a small-operator opportunity. A narrower, testable mechanism is selling or operating sunlight-based NFT capacity near a verified local buyer, where the offer is fresher or more reliable supply rather than lower commodity cost. Payback remains unproven because the cited Chilean gross-margin study is not directly comparable to every commercial NFT design and does not establish a buyer contract.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile, especially northern and central regions",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Sunlit NFT hydroponic production or retrofit pilots instead of LED vertical farming",
+      "opportunity_id": "opp_cfc46692cbd4d25d1a9c",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
+        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
+        "Arrange a bounded field validation with an actual farm operator before scaling."
+      ],
+      "supporting_source_urls": [
+        "https://www.invernadero.cl/",
+        "https://www.mdpi.com/2311-7524/12/8/972",
+        "https://www.inside-grower.com/utility/PDF.aspx?id=26248&pagename=viewarticle.aspx&pub=IG",
+        "https://coloradoproduce.org/wp-content/uploads/2023/07/cit_97817_2022-harvest-report_r6-digital_prod.pdf"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Possible cash flows are equipment sale, installation, crop-management support, or production of a contracted crop. The lowest-risk asset position is a small retrofit or pilot system using commercially listed components, not ownership of a large indoor farm. No margin, crop price, or utilization rate should be assumed until measured locally.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "robotics_agritech",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Lowest-cost falsification: download the complete tender bases and technical annexes from Mercado Público, then request written quotes and delivery terms from at least three manufacturers or authorized distributors for a 50-liter agricultural spraying drone. Separately ask the tender contact whether foreign-manufacturer authorization, aviation permissions, pesticide-application credentials, local service capacity, bid guarantees and Chilean tax/procurement registration are required. Proceed only if the delivered configuration can meet the tender specification and a qualified prime bidder confirms a permitted subcontracting or reseller route. The public listing is time-sensitive: the cited page showed an October 29, 2026 closing date.",
       "current_thesis": "This is a concrete purchase event rather than general interest in agricultural robotics. The value is concentrated in supplying an already specified system, importing or sourcing the aircraft, and providing local setup, training, maintenance and operational support.",
       "founder_hours_initial_unverified_estimate": "",
@@ -5571,7 +5610,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-29T20:53:21.051180+00:00",
+  "generated_at": "2026-10-30T04:23:42.458605+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 146
+Candidates: 147
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -627,18 +627,6 @@ Candidates: 146
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://github.com/sarcascoder/dacu; https://github.com/MorpheusEMH/kreuzberg
-
-## Open-source agent cost-control software with a directly published paid tier
-- Status: watch | innovation_adoption
-- Current idea: The concrete mechanism is not generic AI consulting: it is a low-cost software layer for self-hosted agent operators who need cost tracking, routing, quality controls or premium features. The public price confirms that at least one project is attempting direct software monetization, but adoption and willingness to pay are unverified.
-- Potential economic capture: Possible capture routes are paid contributions, narrowly scoped integrations, hosted deployment only where explicitly permitted, or paid extensions/templates that solve a documented operational gap. No buyer, conversion rate or sustainable margin is established.
-- **Research routes to test (NOT validated claims):**
-  - Identify a real technical capability not yet adopted in one buyer's high-value workflow.
-  - Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.
-  - Measure the fully loaded operating cost, human exceptions and distribution against the status quo.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://github.com/aks-builds/agentsave; https://github.com/use-ash/apex
 
 ## Self-hosted browser-automation deployment for one repetitive Chilean back-office workflow
 - Status: watch | innovation_adoption
@@ -1444,6 +1432,18 @@ Candidates: 146
 - Possible initial budget:
 - Source URLs: https://masenlaces.com/store/faq; https://www.ondda.cl/; https://tarjetas-nfc.com/; https://nfctech.cl/
 
+## NFC review-and-discovery stations for Chilean restaurants and local retailers
+- Status: watch | physical_distribution
+- Current idea: The hardware itself is commoditized, so the executable wedge is not inventing NFC technology. It is packaging inexpensive NFC plaques, table cards, shelf labels, or counter displays around one measurable action such as opening a menu, requesting a review, joining a loyalty list, or viewing a product page. The available retail prices provide a visible customer price anchor, but do not establish sustainable margins or demand for a new operator.
+- Potential economic capture: One-time sale of configured NFC displays, potentially with replacement or reprogramming fees. A small operator should avoid assuming subscription revenue unless customers explicitly request ongoing management. The defensible asset could be a reusable template library and deployment process for specific Chilean business formats, not the NFC chip itself.
+- **Research routes to test (NOT validated claims):**
+  - Compare local product availability to supplier catalogs and independent consumer interest.
+  - Check import, tax, return, certification and delivery economics before estimating margin.
+  - Try a legitimate pre-order/waitlist test with transparent fulfillment conditions.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://pymevisible.cl/productos/tarjeta-google; https://tarjetas-nfc.com/precios; https://nfcid.cl/
+
 ## NFC review-and-reorder plaques for Chilean independent merchants
 - Status: watch | physical_distribution
 - Current idea: A small operator should not compete on generic NFC business cards. A narrower offer is a preconfigured countertop or packaging plaque that sends customers to one measurable action—Google review, WhatsApp reorder, menu, booking or loyalty stamp—sold with a simple setup fee and optional replacement/update service. The economic mechanism is paid physical placement plus measurable reduction in friction between offline traffic and a merchant-owned digital channel.
@@ -1719,6 +1719,18 @@ Candidates: 146
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.chileagricola.cl/precios-mayoristas/; https://es.scribd.com/document/1014311150/BOLETIN-1-INIA-FIA-Manejo-Sanitario-y-Otros-InIA-Chile; https://andinotech.cl/categoria-producto/hidroponia/sistema-de-cultivo-hidroponico/
+
+## Sunlit NFT hydroponic production or retrofit pilots instead of LED vertical farming
+- Status: watch | robotics_agritech
+- Current idea: The evidence does not support building a capital-intensive LED vertical farm as a small-operator opportunity. A narrower, testable mechanism is selling or operating sunlight-based NFT capacity near a verified local buyer, where the offer is fresher or more reliable supply rather than lower commodity cost. Payback remains unproven because the cited Chilean gross-margin study is not directly comparable to every commercial NFT design and does not establish a buyer contract.
+- Potential economic capture: Possible cash flows are equipment sale, installation, crop-management support, or production of a contracted crop. The lowest-risk asset position is a small retrofit or pilot system using commercially listed components, not ownership of a large indoor farm. No margin, crop price, or utilization rate should be assumed until measured locally.
+- **Research routes to test (NOT validated claims):**
+  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
+  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
+  - Arrange a bounded field validation with an actual farm operator before scaling.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.invernadero.cl/; https://www.mdpi.com/2311-7524/12/8/972; https://www.inside-grower.com/utility/PDF.aspx?id=26248&pagename=viewarticle.aspx&pub=IG; https://coloradoproduce.org/wp-content/uploads/2023/07/cit_97817_2022-harvest-report_r6-digital_prod.pdf
 
 ## Supply and support an agricultural spraying drone for INIA/Atacama public procurement
 - Status: watch | robotics_agritech

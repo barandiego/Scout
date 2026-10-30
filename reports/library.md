@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-29T20:53:20.933966+00:00
+Generated: 2026-10-30T04:23:42.360193+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 146 (0 HQ survivors, 146 watches)
-- Rejected opportunities excluded: 82
+- Active research: 147 (0 HQ survivors, 147 watches)
+- Rejected opportunities excluded: 83
 - Critic-and-judge reviewed: 70
 - Autonomous execution authorization: 0
 
@@ -723,6 +723,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.nifa.usda.gov/about-nifa/impacts/automation-specialty-crops; https://ers.usda.gov/topics/farm-economy/farm-labor; https://fieldreport.caes.uga.edu/publications/B1594/agribots-autonomous-ground-robots-for-specialty-crops/; https://maiaapples.com/wp-content/uploads/2024/01/NYFQ-BOOK-Summer-2023_FINAL.pdf
 
+### Sunlit NFT hydroponic production or retrofit pilots instead of LED vertical farming [opp_cfc46692cbd4d25d1a9c]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile, especially northern and central regions
+- Thesis: The evidence does not support building a capital-intensive LED vertical farm as a small-operator opportunity. A narrower, testable mechanism is selling or operating sunlight-based NFT capacity near a verified local buyer, where the offer is fresher or more reliable supply rather than lower commodity cost. Payback remains unproven because the cited Chilean gross-margin study is not directly comparable to every commercial NFT design and does not establish a buyer contract.
+- Value capture: Possible cash flows are equipment sale, installation, crop-management support, or production of a contracted crop. The lowest-risk asset position is a small retrofit or pilot system using commercially listed components, not ownership of a large indoor farm. No margin, crop price, or utilization rate should be assumed until measured locally.
+- Participation hypothesis: Use the publicly listed CLP 4,790,000 100 m² system as a capital benchmark and request a written quotation for a smaller sunlight-based NFT installation. Before purchasing, secure nonbinding product specifications and price commitments from at least three prospective local buyers such as restaurants, specialty grocers, or produce distributors; then run one crop cycle with documented labor hours, energy, water, sell-through, rejection, and realized price. Falsify by spending only on buyer interviews, samples, and a small test bed; abandon the pr
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.invernadero.cl/; https://www.mdpi.com/2311-7524/12/8/972; https://www.inside-grower.com/utility/PDF.aspx?id=26248&pagename=viewarticle.aspx&pub=IG; https://coloradoproduce.org/wp-content/uploads/2023/07/cit_97817_2022-harvest-report_r6-digital_prod.pdf
+
 ### Chile Open Finance implementation-readiness test [opp_68b251b56fcd3101a22e]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: The change creates a time-bounded implementation problem for smaller financial or technology participants that may need interoperability, consent, security, testing and payment-initiation documentation before production participation.
@@ -812,6 +822,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/; https://www.falabella.com/falabella-cl/seller/Natura; https://www.falabella.com/falabella-cl/page/sobre-falabella-com
+
+### NFC review-and-discovery stations for Chilean restaurants and local retailers [opp_7a4c2697266c85e82693]
+- Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile
+- Thesis: The hardware itself is commoditized, so the executable wedge is not inventing NFC technology. It is packaging inexpensive NFC plaques, table cards, shelf labels, or counter displays around one measurable action such as opening a menu, requesting a review, joining a loyalty list, or viewing a product page. The available retail prices provide a visible customer price anchor, but do not establish sustainable margins or demand for a new operator.
+- Value capture: One-time sale of configured NFC displays, potentially with replacement or reprogramming fees. A small operator should avoid assuming subscription revenue unless customers explicitly request ongoing management. The defensible asset could be a reusable template library and deployment process for specific Chilean business formats, not the NFC chip itself.
+- Participation hypothesis: Buy or locally source a small batch of NFC cards, plaques, or tags; create three narrowly scoped prototypes for restaurants, salons, and retail shelves; approach businesses already displaying QR codes or collecting Google reviews; offer a paid pilot at or below the observed CLP 10,000–25,000 hardware price and measure scans, completed actions, and repeat-order interest. Falsify cheaply by pre-selling five pilots before buying inventory beyond samples. Do not assume Google-review compliance, attribution quality, or permission to place hardware u
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://pymevisible.cl/productos/tarjeta-google; https://tarjetas-nfc.com/precios; https://nfcid.cl/
 
 ### NFC-enabled review and discovery cards for Chilean local merchants [opp_1003190617673d0a5401]
 - Status: WATCH_REQUIRES_VALIDATION | general | Chile
@@ -1322,16 +1342,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
-
-### Open-source agent cost-control software with a directly published paid tier [opp_beb787a05eb10672a64b]
-- Status: WATCH_REQUIRES_VALIDATION | innovation_adoption | Global
-- Thesis: The concrete mechanism is not generic AI consulting: it is a low-cost software layer for self-hosted agent operators who need cost tracking, routing, quality controls or premium features. The public price confirms that at least one project is attempting direct software monetization, but adoption and willingness to pay are unverified.
-- Value capture: Possible capture routes are paid contributions, narrowly scoped integrations, hosted deployment only where explicitly permitted, or paid extensions/templates that solve a documented operational gap. No buyer, conversion rate or sustainable margin is established.
-- Participation hypothesis: Lowest-cost falsification: install one project locally, run a fixed benchmark of 20-50 representative agent tasks with and without the cost-control layer, and publish the measured token use, latency, failure rate and reproducibility. Then contact identifiable users or maintainers through the project's public issue/discussion channels with the benchmark and ask whether the measured improvement solves a paid problem. Do not sell managed services, claim savings, or assume licensing rights until the repository license and user response support it.
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://github.com/aks-builds/agentsave; https://github.com/use-ash/apex
 
 ### PMGD battery-congestion screening and dispatch-rights data product [opp_e28d4caaa77e09a2caa9]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile, initially zonal transmission-constrained areas with PMGD concentration

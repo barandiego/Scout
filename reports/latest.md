@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-29T20:53:20.517326+00:00
+Generated: 2026-10-30T04:23:41.983115+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['chile_technology_import', 'early_adoption_investing', 'market_positioning']
+- lenses: ['asset_ownership', 'nfc_smart_commerce', 'vertical_farming_economics']
 - raw_candidates: 2
 - parseable_candidates: 2
 - normalized_candidates: 2
 - normalization_rejected: 0
-- grounded_sources: 4
+- grounded_sources: 7
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 1
+- judge_attempts: 0
 - critic_reviews: 1
-- judge_reviews: 1
+- judge_reviews: 0
 - survivors: 0
 - watches: 2
-- rejected: 0
+- rejected: 1
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.0444638
+- cost_usd: 0.02990315
 - cost_uncertain: False
-- budget_remaining_usd: 0.0355362
+- budget_remaining_usd: 0.05009685
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,8 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Chile Open Finance conformance-test harness for early sandbox participants: deferred_by_review_cap
-- Apply to TELUS Digital Online Data Analyst — Chile: deferred_by_review_cap
 - Apply to Outlier Spanish–Chile AI-training evaluation work: deferred_by_review_cap
 - Local document-extraction appliance for Chilean invoice and customs workflows: deferred_by_review_cap
 - Chile Open-Finance sandbox conformance kit for small participants: The regulatory premise is sufficiently grounded by CMF primary sources in the supplied provenance: technical standards, a testing environment, simplified participation, and a July 2027 effective start are credible. A vendor can plausibly offer non-regulated, synthetic-data tooling or research around published specifications without needing to become a financial participant. However, this does not yet survive as an HQ-worthy commercial opportunity because the official ATENA sandbox and CMF materials may already cover the core conformance need; no evidence establishes a legally meaningful role for third-party readiness reports, a buyer with budget, willingness to pay, or a differentiated output. The narrow wedge can be researched, but should not be treated as validated value capture until technical overlap with ATENA, vendor-perimeter constraints, and paid demand are demonstrated.
@@ -51,13 +49,15 @@ No survivors. Scout does not manufacture a daily winner.
 - Per-acre robotic weeding/scouting deployment for specialty-crop growers priced out of ownership: deferred_by_review_cap
 - NFC review-and-contact hardware reseller for Chilean service businesses: deferred_by_review_cap
 - Chile Open-Finance conformance test harness for small fintech participants: Regulatory premise is sufficiently grounded: CMF official materials support an Open Finance implementation framework, a technical annex/developer materials, ATENA testing, and a July 2027 operational timetable. A narrowly scoped conformance-support product is not inherently outside the regulatory perimeter, and it may avoid handling production customer data if designed around synthetic/sandbox test data. However, the broad proposed harness substantially overlaps with free regulator-provided ATENA functionality, official specifications, trial arrangements, and standardized conformance reporting. The required commercial differentiation—automated CI/CD regression, reusable fixtures, signed audit evidence, or cross-participant diagnostics—has not been demonstrated, nor have sandbox access rights for an independent vendor, buyer ownership, pricing, or repeat demand. This is therefore worth tightly bounded validation, not a conclusion that a viable standalone software business exists.
+- Sunlit NFT hydroponic production or retrofit pilots instead of LED vertical farming: deferred_by_review_cap
+- NFC review-and-discovery stations for Chilean restaurants and local retailers: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=fresh",
-    "research_queue_unreviewed=70"
+    "deep_review_lane=backlog",
+    "research_queue_unreviewed=71"
   ],
   "stages": [
     {
@@ -65,28 +65,33 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 20,
+      "grounded_source_count": 25,
       "search_source_urls": [
-        "https://cmfchile.cl/portal/principal/613/articles-86367_doc_pdf.pdf",
-        "https://en.wikipedia.org/wiki/List_of_S%26P_600_companies",
-        "https://flowstatechile.com/",
-        "https://fprimecapital.com/wp-content/uploads/2026/03/State-of-Robotics-2026.pptx.pdf",
-        "https://linktr.ee/CHILENFC2",
-        "https://pymevisible.cl/productos",
-        "https://www.aither.cl/tap/",
-        "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa_tramite_ver_archivo.php?id=2025071034&seq=1",
-        "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html",
+        "https://anyponics.com/guide/hydroponics-electricity-cost",
+        "https://aquaplants.cl/web/",
+        "https://aquaplants.cl/web/product-category/kits/?add-to-cart=5953",
+        "https://aquaplants.cl/web/product/standfarm-aquaplants-pro/",
+        "https://ccd.uky.edu/sites/default/files/2024-11/ccd-cp-063_hydroponic-lettuce.pdf",
+        "https://coloradoproduce.org/wp-content/uploads/2023/07/cit_97817_2022-harvest-report_r6-digital_prod.pdf",
+        "https://elpais.com/elpais/2019/02/28/escaparate/1551375000_956298.html",
+        "https://en.wikipedia.org/wiki/Open_finance",
+        "https://en.wikipedia.org/wiki/Radio-frequency_identification",
+        "https://en.wikipedia.org/wiki/Water_supply_and_sanitation_in_Chile",
+        "https://es.scribd.com/document/1014311150/BOLETIN-1-INIA-FIA-Manejo-Sanitario-y-Otros-InIA-Chile",
+        "https://nfcid.cl/",
+        "https://pymevisible.cl/productos/tarjeta-google",
+        "https://tarjetas-nfc.com/precios",
+        "https://www.axios.com/2022/11/08/lettuce-hydroponics-drought-climate-teen-romaine-iceberg",
         "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-77242.html",
-        "https://www.formdsignal.com/filings/0002149419-26-000001",
-        "https://www.intro-act.com/uploads/allnewsletter/20260421160711842111604.pdf",
-        "https://www.klap.cl/en/home-comercios",
-        "https://www.nasdaqprivatemarket.com/wp-content/uploads/2026/03/Secondary-Scene-2026-Outlook.pdf",
-        "https://www.reddit.com/r/RoboStrategy/comments/1vx7lw8/first_robostrategy_shareholder_letter/",
-        "https://www.sec.gov/Archives/edgar/data/1966780/000166516023000295/offeringmemoformc.pdf",
-        "https://www.secinfo.com/%24/SEC/Registrant.asp?CIK=2149419"
+        "https://www.imf.org/-/media/files/publications/cr/2024/english/1chlea2024002.pdf",
+        "https://www.inside-grower.com/utility/PDF.aspx?id=26248&pagename=viewarticle.aspx&pub=IG",
+        "https://www.invernadero.cl/",
+        "https://www.lexmundi.com/media/50fiflkp/guide_chile.pdf",
+        "https://www.mdpi.com/2311-7524/12/8/972",
+        "https://www.reddit.com/r/chileIT/comments/1gf8fev/apis_bancarias/",
+        "https://www.reddit.com/r/u_Igor_Viznyy/comments/1v72bym/built_a_30plant_diy_hydroponic_tower_for_78_just/",
+        "https://www.vtfarmtoplate.com/sites/default/files/2025-12/Plug%20and%20Produce%20Slides.pdf",
+        "https://www.yapo.cl/anuncios-casificados-muebles-hogar-y-jardin-plantas-y-jardin/cultivo-vertical-eficiente/26687143"
       ]
     },
     {
@@ -101,7 +106,7 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 2,
+      "grounded_sources": 3,
       "retry_justified": false
     },
     {
@@ -116,97 +121,79 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 2,
+      "grounded_sources": 4,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_f3fe202e8fef580525fb",
+      "candidate_id": "opp_beb787a05eb10672a64b",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 18,
+      "grounded_source_count": 25,
       "search_source_urls": [
-        "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812",
-        "https://cmfchile.cl/portal/principal/613/articles-86367_doc_pdf.pdf",
-        "https://cmfchile.cl/portal/principal/613/articles-92466_recurso_1.pdf",
-        "https://cmfchile.cl/portal/principal/613/articles-96504_recurso_1.pdf",
-        "https://cmfchile.cl/portal/principal/623/w4-article-73961.html",
-        "https://cmfchile.cl/portal/principal/623/w4-article-76612.html",
-        "https://cmfchile.cl/portal/principal/623/w4-article-92466.html",
-        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA",
-        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/435749124/v1.0.0%2B-%2BModelo%2Bde%2Bgobierno",
-        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
-        "https://www.cmfchile.cl/portal/principal/613/articles-108813_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
-        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782129720",
-        "https://www.legal500.com/intelligence/chile/finance-and-banking/cmf-launches-atena-technology-sandbox-to-advance-implementation-of-the-open-finance-system",
-        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000108/MNCjune2026signed.pdf"
+        "https://agentbudget.dev/",
+        "https://agentbudget.dev/agentbudget_whitepaper_v1.pdf",
+        "https://agentcost.tech/pricing",
+        "https://argus.agentdeployment.co/",
+        "https://arxiv.org/abs/2604.22750",
+        "https://arxiv.org/abs/2608.13568",
+        "https://arxiv.org/abs/2610.20394",
+        "https://arxiv.org/abs/2610.22732",
+        "https://en.wikipedia.org/wiki/Cost-sharing_mechanism",
+        "https://en.wikipedia.org/wiki/Hermes_Agent",
+        "https://en.wikipedia.org/wiki/OpenHands",
+        "https://github.com/Davmunrey/Trazum/",
+        "https://github.com/theagentplane/tokenops",
+        "https://github.com/use-ash/apex",
+        "https://llmkit.sh/",
+        "https://openreview.net/pdf/969cd1d8b01a45caef5ad3d26e16e99986ec1ba9.pdf",
+        "https://polyrob.dev/",
+        "https://pypi.org/project/agentsave-dashboard/",
+        "https://riskkernel.com/",
+        "https://self-sovereign-agent.github.io/paper.pdf",
+        "https://spendveto.com/pricing",
+        "https://victorchen96.github.io/auto_research/auto_research_survey.pdf",
+        "https://www.agentcost.io/",
+        "https://www.omninode.ai/",
+        "https://www.techradar.com/pro/wanted-token-spend-control-and-governance-without-slowing-down-agentic-ai-innovation"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_f3fe202e8fef580525fb",
-      "coercions": []
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_f3fe202e8fef580525fb",
-      "response_status": "completed",
-      "incomplete_reason": "",
-      "grounded_source_count": 0,
-      "search_source_urls": []
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_f3fe202e8fef580525fb",
-      "coercions": []
+      "candidate_id": "opp_beb787a05eb10672a64b",
+      "coercions": [
+        "contrary_evidence"
+      ]
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 211,
-      "cache_write_tokens": 5434,
+      "reasoning_tokens": 331,
+      "cache_write_tokens": 5426,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0144825,
+      "cumulative_cost_usd": 0.0152091,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13854,
+      "input_tokens": 13907,
       "cached_tokens": 0,
-      "output_tokens": 1200,
+      "output_tokens": 1797,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0144825
+      "estimated_cost_usd": 0.0152091
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 121,
-      "cache_write_tokens": 5240,
+      "reasoning_tokens": 196,
+      "cache_write_tokens": 5189,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0292033,
+      "cumulative_cost_usd": 0.02990315,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13498,
+      "input_tokens": 13707,
       "cached_tokens": 0,
-      "output_tokens": 1466,
+      "output_tokens": 1411,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0147208
-    },
-    {
-      "stage": "judge",
-      "available": true,
-      "reasoning_tokens": 47,
-      "cache_write_tokens": 3121,
-      "accounting_notes": [],
-      "cumulative_cost_usd": 0.0444638,
-      "model": "gpt-5.6-terra",
-      "input_tokens": 3124,
-      "cached_tokens": 0,
-      "output_tokens": 621,
-      "web_search_calls": 0,
-      "estimated_cost_usd": 0.0152605
+      "estimated_cost_usd": 0.01469405
     }
   ]
 }

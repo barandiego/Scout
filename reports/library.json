@@ -6224,6 +6224,74 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-30T04:23:23.734758+00:00",
+      "discovery_lens": "vertical_farming_economics",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "A Chilean supplier publicly lists a 100 m² hydroponic greenhouse with NFT equipment for CLP 4,790,000, including capacity for 1,250 plants and training.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Invernadero hidropónico 100 m² con sistema NFT",
+          "url": "https://www.invernadero.cl/"
+        },
+        {
+          "claim": "A Chile-specific study reports seasonal direct costs, labor as the largest cost component, gross income of CLP 226,800–243,000, and gross margins of CLP 154,005–183,928 for the evaluated hydroponic system; it cautions that infrastructure, labor, energy, sanitation, and price fluctuations matter.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Water Productivity and Seasonal Performance of Floating-Root Hydroponic Lettuce Under Coastal Desert Conditions in Northern Chile",
+          "url": "https://www.mdpi.com/2311-7524/12/8/972"
+        },
+        {
+          "claim": "The article identifies energy as a major indoor-farming operating cost and discusses lighting intensity and unit economics for indoor crops.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "The Cost of Indoor Farming",
+          "url": "https://www.inside-grower.com/utility/PDF.aspx?id=26248&pagename=viewarticle.aspx&pub=IG"
+        },
+        {
+          "claim": "The report compares vertical and open-field lettuce economics and finds higher landed costs for vertical farming, with electricity, labor, substrate, and overhead among the principal cost drivers.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "2022 Specialty Crop Automation Report",
+          "url": "https://coloradoproduce.org/wp-content/uploads/2023/07/cit_97817_2022-harvest-report_r6-digital_prod.pdf"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.87,
+      "falsification_conditions": [],
+      "geography": "Chile, especially northern and central regions",
+      "id": "opp_cfc46692cbd4d25d1a9c",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-30T04:23:23.796340+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use the publicly listed CLP 4,790,000 100 m² system as a capital benchmark and request a written quotation for a smaller sunlight-based NFT installation. Before purchasing, secure nonbinding product specifications and price commitments from at least three prospective local buyers such as restaurants, specialty grocers, or produce distributors; then run one crop cycle with documented labor hours, energy, water, sell-through, rejection, and realized price. Falsify by spending only on buyer interviews, samples, and a small test bed; abandon the production route if buyers will not commit to a price or recurring pickup schedule that covers measured direct costs.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The evidence does not support building a capital-intensive LED vertical farm as a small-operator opportunity. A narrower, testable mechanism is selling or operating sunlight-based NFT capacity near a verified local buyer, where the offer is fresher or more reliable supply rather than lower commodity cost. Payback remains unproven because the cited Chilean gross-margin study is not directly comparable to every commercial NFT design and does not establish a buyer contract.",
+      "title": "Sunlit NFT hydroponic production or retrofit pilots instead of LED vertical farming",
+      "type": "hydroponic_production_and_retrofit",
+      "unknowns": [],
+      "value_capture_mechanism": "Possible cash flows are equipment sale, installation, crop-management support, or production of a contracted crop. The lowest-risk asset position is a small retrofit or pilot system using commercially listed components, not ownership of a large indoor farm. No margin, crop price, or utilization rate should be assumed until measured locally.",
+      "verified_sales": null,
+      "vertical": "robotics_agritech",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-26T09:42:45.353816+00:00",
       "discovery_lens": "regulation_infrastructure",
       "estimated_capital": "",
@@ -6765,6 +6833,67 @@
       "value_capture_mechanism": "Potential cash flow is direct consumer purchase of a legally sourced bundle or value-added assortment. The operator would capture any verified spread after product cost, marketplace fees, shipping, taxes, returns and permitted seller costs. No margin is assumed.",
       "verified_sales": null,
       "vertical": "ecommerce_niches",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-10-30T04:23:23.733801+00:00",
+      "discovery_lens": "nfc_smart_commerce",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "A Chilean supplier lists a configured NFC Google-review card at CLP 10,000, with volume discounts, local delivery, and NFC setup included.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Tarjeta Google NFC en Chile",
+          "url": "https://pymevisible.cl/productos/tarjeta-google"
+        },
+        {
+          "claim": "A Chilean supplier publicly lists NFC products from CLP 9,990 to CLP 28,790, including review cards, restaurant plastics, acrylic business displays, and digital-profile products.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Precios Tarjetas NFC Chile",
+          "url": "https://tarjetas-nfc.com/precios"
+        },
+        {
+          "claim": "A Chilean NFC-card supplier lists per-unit prices of CLP 19,990 for one to five cards, falling to CLP 13,990 for 21 to 50 cards, with profile configuration included.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "NFCID - Tarjetas de Presentación Inteligentes",
+          "url": "https://nfcid.cl/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.82,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_7a4c2697266c85e82693",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-30T04:23:23.796593+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Buy or locally source a small batch of NFC cards, plaques, or tags; create three narrowly scoped prototypes for restaurants, salons, and retail shelves; approach businesses already displaying QR codes or collecting Google reviews; offer a paid pilot at or below the observed CLP 10,000–25,000 hardware price and measure scans, completed actions, and repeat-order interest. Falsify cheaply by pre-selling five pilots before buying inventory beyond samples. Do not assume Google-review compliance, attribution quality, or permission to place hardware until each business confirms it.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The hardware itself is commoditized, so the executable wedge is not inventing NFC technology. It is packaging inexpensive NFC plaques, table cards, shelf labels, or counter displays around one measurable action such as opening a menu, requesting a review, joining a loyalty list, or viewing a product page. The available retail prices provide a visible customer price anchor, but do not establish sustainable margins or demand for a new operator.",
+      "title": "NFC review-and-discovery stations for Chilean restaurants and local retailers",
+      "type": "physical_hardware_offer",
+      "unknowns": [],
+      "value_capture_mechanism": "One-time sale of configured NFC displays, potentially with replacement or reprogramming fees. A small operator should avoid assuming subscription revenue unless customers explicitly request ongoing management. The defensible asset could be a reusable template library and deployment process for specific Chilean business formats, not the NFC chip itself.",
+      "verified_sales": null,
+      "vertical": "physical_distribution",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -9569,60 +9698,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-17T20:14:28.528467+00:00",
-      "discovery_lens": "ai_open_source",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "The repository describes an open-source agent efficiency platform with an LLM-free context filter, early-exit supervisor, cost tracking and a claimed approximately 30% token-cost reduction; the claim remains unverified until independently benchmarked.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "agentsave — Open-source AI agent efficiency platform",
-          "url": "https://github.com/aks-builds/agentsave"
-        },
-        {
-          "claim": "The repository states that Apex is free and open source and publishes premium pricing of $29.99 per month, $249 per year or $499 lifetime after September 30, 2026.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Apex — Self-hosted AI agent platform",
-          "url": "https://github.com/use-ash/apex"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.71,
-      "falsification_conditions": [],
-      "geography": "Global",
-      "id": "opp_beb787a05eb10672a64b",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-17T20:14:28.564565+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Lowest-cost falsification: install one project locally, run a fixed benchmark of 20-50 representative agent tasks with and without the cost-control layer, and publish the measured token use, latency, failure rate and reproducibility. Then contact identifiable users or maintainers through the project's public issue/discussion channels with the benchmark and ask whether the measured improvement solves a paid problem. Do not sell managed services, claim savings, or assume licensing rights until the repository license and user response support it.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "The concrete mechanism is not generic AI consulting: it is a low-cost software layer for self-hosted agent operators who need cost tracking, routing, quality controls or premium features. The public price confirms that at least one project is attempting direct software monetization, but adoption and willingness to pay are unverified.",
-      "title": "Open-source agent cost-control software with a directly published paid tier",
-      "type": "open_source_software_monetization_test",
-      "unknowns": [],
-      "value_capture_mechanism": "Possible capture routes are paid contributions, narrowly scoped integrations, hosted deployment only where explicitly permitted, or paid extensions/templates that solve a documented operational gap. No buyer, conversion rate or sustainable margin is established.",
-      "verified_sales": null,
-      "vertical": "innovation_adoption",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-22T00:23:58.711347+00:00",
       "discovery_lens": "energy_localization",
       "estimated_capital": "",
@@ -10378,13 +10453,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-29T20:53:20.933966+00:00",
+  "generated_at": "2026-10-30T04:23:42.360193+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 82,
+  "rejected_excluded": 83,
   "reviewed_cards": 70,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 228,
-  "watch": 146
+  "total_distinct_opportunities": 230,
+  "watch": 147
 }

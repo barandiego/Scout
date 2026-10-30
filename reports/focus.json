@@ -1,11 +1,11 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-10-29T20:53:20.933966+00:00",
+  "generated_at": "2026-10-30T04:23:42.360193+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
-      "other_cards_in_theme": 5,
+      "other_cards_in_theme": 6,
       "reviewed": true,
       "status": "watch",
       "theme": "nfc_products",
@@ -104,7 +104,7 @@
   "high_concentration": [
     {
       "cards": 62,
-      "share": 0.425,
+      "share": 0.422,
       "theme": "chile_open_finance"
     }
   ],
@@ -211,11 +211,12 @@
         "opp_def87ec156069bf156db",
         "opp_d54cb21f051b71d41869",
         "opp_1003190617673d0a5401",
+        "opp_7a4c2697266c85e82693",
         "opp_6f96496de207fbd68ffc",
         "opp_ce00c60c8ebfd1d48cd2",
         "opp_4597c36d99d4f69a9e20"
       ],
-      "count": 6,
+      "count": 7,
       "representative_id": "opp_def87ec156069bf156db",
       "reviewed_count": 2,
       "theme": "nfc_products"
@@ -566,15 +567,6 @@
     },
     {
       "all_opportunity_ids": [
-        "opp_beb787a05eb10672a64b"
-      ],
-      "count": 1,
-      "representative_id": "opp_beb787a05eb10672a64b",
-      "reviewed_count": 0,
-      "theme": "innovation_adoption:open_source_agent"
-    },
-    {
-      "all_opportunity_ids": [
         "opp_5f895ba07087b66159c1"
       ],
       "count": 1,
@@ -746,6 +738,15 @@
     },
     {
       "all_opportunity_ids": [
+        "opp_cfc46692cbd4d25d1a9c"
+      ],
+      "count": 1,
+      "representative_id": "opp_cfc46692cbd4d25d1a9c",
+      "reviewed_count": 0,
+      "theme": "robotics_agritech:sunlit_nft_hydroponic"
+    },
+    {
+      "all_opportunity_ids": [
         "opp_28d6d6ee064292c6d3a4"
       ],
       "count": 1,
@@ -772,6 +773,6 @@
       "theme": "robotics_agritech:water_efficiency_field"
     }
   ],
-  "total_original_cards": 146,
+  "total_original_cards": 147,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }
