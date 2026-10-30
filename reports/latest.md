@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-30T14:51:01.247968+00:00
+Generated: 2026-10-30T20:25:15.382278+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['energy_localization', 'wildcard', 'remote_paid_evaluation']
-- raw_candidates: 3
-- parseable_candidates: 3
-- normalized_candidates: 3
+- lenses: ['inventoryless_product_validation', 'fixed_scope_paid_research_asset', 'geographic_arbitrage']
+- raw_candidates: 1
+- parseable_candidates: 1
+- normalized_candidates: 1
 - normalization_rejected: 0
-- grounded_sources: 6
+- grounded_sources: 3
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
 - critic_reviews: 1
 - judge_reviews: 1
 - survivors: 0
-- watches: 3
-- rejected: 0
+- watches: 1
+- rejected: 1
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.0414425
+- cost_usd: 0.045295
 - cost_uncertain: False
-- budget_remaining_usd: 0.0385575
+- budget_remaining_usd: 0.034705
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Chile Open Finance implementation-readiness test: deferred_by_review_cap
 - Natura marketplace catalog and fulfillment wedge in Chile: deferred_by_review_cap
 - Chile Open Finance cash-flow underwriting adapter for MSME lenders: deferred_by_review_cap
 - Water-efficiency field validation service for Chilean irrigated agriculture: deferred_by_review_cap
@@ -51,12 +50,13 @@ No survivors. Scout does not manufacture a daily winner.
 - Paid Spanish AI-training studies through Prolific: deferred_by_review_cap
 - Chile-specific voice-data recording project: deferred_by_review_cap
 - Spanish (Chile) AI language evaluation contractor: A primary employer-hosted listing supports that this is a real, currently discoverable Chilean-Spanish freelance AI-evaluation role with a stated hourly range and a plausible direct payer: the hiring platform/employer pays contractors for accepted work. Participation is realistic for an appropriately qualified Chile-based language professional and requires little capital. However, it is not validated as dependable income or an HQ-worthy scalable opportunity: hours, acceptance, effective rate, task continuity, payment terms, and eligibility remain unverified, while the broad $8–$65/hour range is explicitly contingent. Treat it only as a tightly bounded, low-cost application-and-terms-verification experiment, not a business thesis or committed revenue source.
+- Inventoryless Chilean bathroom-accessibility bundle: bidet attachment plus grab bar: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=fresh",
+    "deep_review_lane=backlog",
     "research_queue_unreviewed=73"
   ],
   "stages": [
@@ -65,38 +65,21 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 30,
+      "grounded_source_count": 13,
       "search_source_urls": [
-        "https://aitrainergigs.com/job/ai-data-collection-contributor-spanish-chile-braintrust-135cdic",
-        "https://energia.gob.cl/sites/default/files/documentos/definitive_report_pelp_2023-2027.pdf",
-        "https://job-boards.eu.greenhouse.io/prolificacademicltd/jobs/4869418101",
-        "https://job-boards.greenhouse.io/agency/jobs/4655768101",
-        "https://jobs.lever.co/appen/27404a7a-4fca-42e3-bae4-072148d17dce",
-        "https://jobs.lever.co/appen?location=Chile",
-        "https://jobs.lever.co/weloglobal/?location=Santiago%2C+Chile",
-        "https://productiveplayhouse.applytojob.com/apply/Hmw6qVf0od/Spanish-Latin-America-AI-Model-Rater",
-        "https://wizwizai.careers-page.com/jobs/1bdd95f3-53c1-4af2-9518-ed6d835244d4",
-        "https://www.dataannotation.tech/spanish-es",
-        "https://www.gradientc.com/jobs/title/evaluator/country/chile",
-        "https://www.infofeina.com/ofertes/search-engine-evaluator-for-ai-models--spanish-spain-and-english--remote-from-anywhere-inside-spain-not-only-madrid?print_pdf=1",
-        "https://www.opentrain.ai/jobs/bilingual-ai-safety-data-evaluator-english-spanish-c1--cmni8aczu001004l4jlwcn0fe/",
-        "https://www.opentrain.ai/jobs/written-content-ai-evaluator--cmstg8kee002r04l81tir4kb2/",
-        "https://www.reddit.com/r/AIdatatrainingjobs/comments/1tl5ve1/remote_multilingual_ai_role_call_evaluation/",
-        "https://www.reddit.com/r/AiTraining_Annotation/comments/1u6xxir/hiring_ai_quality_control_specialists/",
-        "https://www.reddit.com/r/B2BForHire/comments/1vicamd/hiring_remote_ai_response_reviewers_english/",
-        "https://www.reddit.com/r/DailyIncome/comments/1wffxk4/hiring_spanish_speech_specialists/",
-        "https://www.reddit.com/r/LearningLanguages/comments/1w2mj53/remote_job_opportunity_worldwide_multilingual/",
-        "https://www.reddit.com/r/SideJobs/comments/1w3fzhx/hiring_remote_job_opportunity_worldwide/",
-        "https://www.reddit.com/r/WFHJobs/comments/1uytjqp/hiring_spanish_language_experts_remote_parttime/",
-        "https://www.reddit.com/r/freelance_forhire/comments/1ruguil/hiring_work_from_anywhere_multiple_remote_roles/",
-        "https://www.reddit.com/r/hiring/comments/1ntplhu/hiring_5070hr_remote_parttime_spanish_linguistic/",
-        "https://www.reddit.com/r/hiring/comments/1w3fx8v/hiring_ai_multilingual_jobs/",
-        "https://www.reddit.com/r/jobhuntify/comments/1wv053q/remote_job_appen_remote_work_from_home_record/",
-        "https://www.reddit.com/r/jobnetworking/comments/1sfq32y/hiring_remote_ai_translation_chinese_german_hindi/",
-        "https://www.sec.cl/sitio-web/descargar/706/cuentas-publicas/37620/informe-cuenta-publica-sec-2023.pdf",
-        "https://www.sec.cl/sitio-web/wp-content/uploads/2022/12/RGR-N%C2%B005-2020-v1.pdf",
-        "https://www.sec.cl/sitio-web/wp-content/uploads/2025/02/Diario-Oficial-RE-SEC-29787.pdf",
-        "https://www.sec.cl/transparencia/lobby/2024/RESOLUCION%20EXENTA%20ELECTRONICA%20N26497%20APRUEBA%20BASES.PDF"
+        "https://ayuda.tiendanube.com/es_ES/dropshipping/preguntas-frecuentes-sobre-dropify",
+        "https://ce.entel.cl/articulos/como-hacer-dropshipping-en-chile",
+        "https://en.wikipedia.org/wiki/Hydra_OMS",
+        "https://proveedores.flashdrop.cl/",
+        "https://proveedorpro.com/es-cl/proveedores-dropshipping-chile",
+        "https://sac.droplatam.com.br/hc/es/articles/39177698743579-Productos-suministro-importaci%C3%B3n-y-proveedores-en-DropLatam",
+        "https://tiendli.com/blog/dropshipping-chile",
+        "https://www.flashdrop.cl/",
+        "https://www.mercadolibre.cl/mas-vendidos/MLC1616",
+        "https://www.payzen.cl/",
+        "https://www.simpleapi.cl/Productos/SimpleAPI",
+        "https://www.tupana.ai/soluciones/tecnologia",
+        "https://www.zagaimp.com/"
       ]
     },
     {
@@ -111,87 +94,49 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 2,
-      "retry_justified": false
-    },
-    {
-      "index": 1,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 2,
-      "retry_justified": false
-    },
-    {
-      "index": 2,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 2,
+      "grounded_sources": 3,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_35d7117f3239a6863a58",
+      "candidate_id": "opp_1944783f6fbdfee6890f",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 29,
+      "grounded_source_count": 21,
       "search_source_urls": [
-        "https://aitraining.jobs/jobs/spanish-chile-language-expert-freelance-ai-trainer-project-a34494a9fa07",
-        "https://app.jobadvisor.cl/job-offers/details/spanish-language-expert-783425",
-        "https://assets.ctfassets.net/e4gjw6cmthxq/6xpcRXXecCwdZ5B7be3aVH/cfae4f7061d0033a8384a252927ac63e/2023_ALC_Industry_Survey__1_.pdf",
-        "https://cchicertification.org/uploads/CCHI_ExecutiveSummary_GlobalWorkforceSurveyHCI_Report-2025.pdf",
-        "https://cdn5.f-cdn.com/files/download/289495129/untitled-document-1.pdf",
-        "https://cl.linkedin.com/jobs/view/spanish-language-expert-at-alignerr-4428673304",
-        "https://job-boards.greenhouse.io/agency/jobs/4655007101",
-        "https://job-boards.greenhouse.io/agency/jobs/4655768101",
-        "https://jobs.lever.co/weloglobal",
-        "https://jobs.lever.co/weloglobal/",
-        "https://jobs.lever.co/weloglobal/54157634-2cb4-4073-a1e6-4b51f3d411fd/apply?lever-origin=applied&lever-source%5B%5D=Jobgether",
-        "https://jobs.lever.co/weloglobal/?location=Santiago%2C+Chile",
-        "https://jobs.lever.co/weloglobal/?location=Spain",
-        "https://jobs.lever.co/weloglobal/?location=United+States",
-        "https://role.com/jobs/spanish-chile-language-specialist-freelance-ai-trainer-project-45338556",
-        "https://wizai.careers-page.com/jobs/1bdd95f3-53c1-4af2-9518-ed6d835244d4",
-        "https://www.infofeina.com/ofertes/search-engine-evaluator-for-ai-models--spanish-spain-and-english--remote-from-anywhere-inside-spain-not-only-madrid?print_pdf=1",
-        "https://www.reddit.com/r/AIEvaluators/comments/1vgm8vv/ai_evaluator_and_data_annotation_roles_updated/",
-        "https://www.reddit.com/r/AIEvaluators/comments/1x65b5i/ai_evaluator_and_data_annotation_roles_14th_oct/",
-        "https://www.reddit.com/r/AIEvaluators/comments/1xgx4jo/ai_evaluator_and_data_annotation_roles_27th_oct/",
-        "https://www.reddit.com/r/AIdatatrainingjobs/comments/1tl5ve1/remote_multilingual_ai_role_call_evaluation/",
-        "https://www.reddit.com/r/AIdatatrainingjobs/comments/1tuknni/hiring_spanish_language_experts_help_improve_the/",
-        "https://www.reddit.com/r/AIdatatrainingjobs/comments/1tz6ir2/fluent_in_spanish_your_language_skills_can_help/",
-        "https://www.reddit.com/r/B2BForHire/comments/1vicamd/hiring_remote_ai_response_reviewers_english/",
-        "https://www.reddit.com/r/LatAmCoders/comments/1vhfb0u/hiring_ai_image_evaluator_spanish_english/",
-        "https://www.reddit.com/r/WFHJobs/comments/1uytjqp/hiring_spanish_language_experts_remote_parttime/",
-        "https://www.reddit.com/r/jobhuntify/comments/1wv053q/remote_job_appen_remote_work_from_home_record/",
-        "https://www.reddit.com/r/jobnetworking/comments/1sfq32y/hiring_remote_ai_translation_chinese_german_hindi/",
-        "https://www.reddit.com/r/u_Reasonable_Salary182/comments/1sfq2gh/hiring_remote_ai_translation_chinese_german_hindi/"
+        "https://amdmachines.com/solutions/packaging/",
+        "https://arxiv.org/abs/2205.01026",
+        "https://arxiv.org/abs/2304.14014",
+        "https://arxiv.org/abs/2401.07875",
+        "https://arxiv.org/abs/2508.14763",
+        "https://eadn-wc01-3589605.nxedge.io/wp-content/uploads/2021/05/Robotic-Solution-Reduces-Labor-in-Food-Production.pdf",
+        "https://feedtheline.com/blog/automation-for-small-food-plants/",
+        "https://ifr.org/downloads/press_docs/2025-09-25-IFR_press_release_Americas_in_English.pdf",
+        "https://ifr.org/img/worldrobotics/Executive_Summary_WR_2025_Industrial_Robots.pdf",
+        "https://ifr.org/news/us-robot-industry-returns-to-double-digit-growth/1st",
+        "https://motioncontrolsrobotics.com/resources/tech-talk-articles/im-looking-for-a-pick-pack-pal-robot-cell-how-much-is-it-going-to-cost/",
+        "https://robotomated.com/learn/cost/manufacturing-robot-roi-study",
+        "https://www.catalystconnection.org/wp-content/uploads/2023/08/Catalyst_Manufacturers_Guide_To_Robotics_-updated-May-23.pdf",
+        "https://www.fanucamerica.com/case-studies/minnesota-food-maker-streamlines-packaging-and-palletizing-with-fully-automated-delkor-system",
+        "https://www.feedstrategy.com/animal-feed-manufacturing/article/15437728/palletizing-systems-6-considerations-for-small-feed-mills",
+        "https://www.indexbox.io/store/united-states-food-packaging-robotics-market-analysis-forecast-size-trends-and-insights/",
+        "https://www.osha.gov/otm/section-4-safety-hazards/chapter-4",
+        "https://www.osha.gov/robotics/",
+        "https://www.osha.gov/robotics/standards",
+        "https://www.polyborg.ai/blog/how-to-integrate-automated-palletizer-systems-existing-packaging-lines",
+        "https://www.tdi.texas.gov/pubs/videoresource/fsrobotics.pdf"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_35d7117f3239a6863a58",
+      "candidate_id": "opp_1944783f6fbdfee6890f",
       "coercions": [
-        "contrary_evidence"
+        "critic_case"
       ]
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_35d7117f3239a6863a58",
+      "candidate_id": "opp_1944783f6fbdfee6890f",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -199,7 +144,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_35d7117f3239a6863a58",
+      "candidate_id": "opp_1944783f6fbdfee6890f",
       "coercions": []
     }
   ],
@@ -207,44 +152,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 248,
-      "cache_write_tokens": 5549,
+      "reasoning_tokens": 277,
+      "cache_write_tokens": 4922,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01505605,
+      "cumulative_cost_usd": 0.0139721,
       "model": "gpt-5.6-luna",
-      "input_tokens": 14095,
+      "input_tokens": 13278,
       "cached_tokens": 0,
-      "output_tokens": 1633,
+      "output_tokens": 892,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01505605
+      "estimated_cost_usd": 0.0139721
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 198,
-      "cache_write_tokens": 5171,
+      "reasoning_tokens": 123,
+      "cache_write_tokens": 5300,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.029648,
+      "cumulative_cost_usd": 0.0288535,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13585,
+      "input_tokens": 13728,
       "cached_tokens": 0,
-      "output_tokens": 1347,
+      "output_tokens": 1559,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01459195
+      "estimated_cost_usd": 0.0148814
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 0,
-      "cache_write_tokens": 2661,
+      "reasoning_tokens": 140,
+      "cache_write_tokens": 3099,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0414425,
+      "cumulative_cost_usd": 0.045295,
       "model": "gpt-5.6-terra",
-      "input_tokens": 2664,
+      "input_tokens": 3102,
       "cached_tokens": 0,
-      "output_tokens": 428,
+      "output_tokens": 724,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.0117945
+      "estimated_cost_usd": 0.0164415
     }
   ]
 }

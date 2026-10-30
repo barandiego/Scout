@@ -64,6 +64,18 @@ Candidates: 150
 - Possible initial budget:
 - Source URLs: https://jobs.lever.co/appen/27404a7a-4fca-42e3-bae4-072148d17dce; https://jobs.lever.co/appen/27404a7a-4fca-42e3-bae4-072148d17dce/apply?lever-source=BilingualJobs.io
 
+## Inventoryless Chilean bathroom-accessibility bundle: bidet attachment plus grab bar
+- Status: watch | chile_localization
+- Current idea: The evidence supports testing a narrowly positioned accessibility/convenience bundle rather than another generic bathroom store. Demand for the exact bundle, conversion rate, delivery economics, returns, and legal/commercial permissions remain unverified.
+- Potential economic capture: Sell a single localized offer—such as an elderly-care or renter-friendly bathroom-upgrade kit—using supplier-fulfilled products. The potential value capture is the spread between the publicly observable retail price and the supplier quote after marketplace/payment/shipping/returns costs; no margin is assumed until a written quote and completed test order are obtained.
+- **Research routes to test (NOT validated claims):**
+  - Find the smallest Chilean workflow whose economics differ from the original geography.
+  - Secure lawful access, partners and after-sales support rather than copy protected technology.
+  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.mercadolibre.cl/mas-vendidos/MLC1616; https://proveedores.flashdrop.cl/; https://www.zagaimp.com/
+
 ## Local-first Chilean DTE invoice reconciliation and exception review
 - Status: watch | chile_localization
 - Current idea: A small operator can test a narrow workflow that converts supplier DTE XML/PDF files into validated purchase records, flags discrepancies against purchase orders or accounting exports, and routes only exceptions for human review. Local processing can reduce cloud-API cost and may be useful where accounting data cannot leave the operator's infrastructure.
@@ -1611,18 +1623,6 @@ Candidates: 150
 - Critical gaps: Whether VIC Robotics will authorize or pay an independent referral, implementation, or site-assessment partner.; The exact commission, fee, gross margin, payment trigger, exclusivity, lead ownership, and attribution period.; Whether UF 20/month applies to the relevant industrial model, surface area, contract term, geography, and service level.
 - Possible initial budget:
 - Source URLs: https://www.vicrobotics.com/about; https://www.vicrobotics.com/; https://www.vicrobotics.com/soluciones/limpieza-industrial-bodegas
-
-## Food-and-beverage robot-cell retrofit and commissioning wedge
-- Status: watch | robotics_agritech
-- Current idea: A testable opening exists in small food manufacturers that need one repetitive handling, palletizing or packaging step automated but cannot justify a full greenfield line. The concrete asset is a documented retrofit package using an existing robot, gripper, vision or safety components; the economic mechanism is reduced labor or increased throughput, subject to site-specific validation.
-- Potential economic capture: Possible cash flows are a paid process audit, paid proof-of-concept, or resale/integration fee from a qualified equipment supplier. No buyer, price, savings or installation permission is assumed until a specific plant and task are validated.
-- **Research routes to test (NOT validated claims):**
-  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
-  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
-  - Arrange a bounded field validation with an actual farm operator before scaling.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://ifr.org/news/us-robot-industry-returns-to-double-digit-growth/1st; https://ifr.org/news/five-million-robots-now-operate-in-factories-globally/
 
 ## Independent commissioning and support wedge for imported cobots and industrial robots
 - Status: watch | robotics_agritech

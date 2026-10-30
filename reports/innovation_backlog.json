@@ -189,6 +189,43 @@
       "category": "chile_localization",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "First contact Flashdrop and request, in writing, the exact landed supplier cost, available Chilean stock, dispatch SLA, return/warranty process, neutral or white-label packaging, and permission to resell the specific bidet and grab-bar SKUs. Separately verify that the products can legally and safely be marketed for the intended use. Before ads or Shopify, publish one compliant MercadoLibre or WhatsApp listing with a transparent price and collect at least five qualified inquiries or one paid order. Falsify if the supplier will not confirm stock/fulfilment terms, the delivered-cost spreadsheet cannot support a positive contribution margin at observed market prices, or qualified buyers reject the bundle. Do not buy inventory.",
+      "current_thesis": "The evidence supports testing a narrowly positioned accessibility/convenience bundle rather than another generic bathroom store. Demand for the exact bundle, conversion rate, delivery economics, returns, and legal/commercial permissions remain unverified.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Inventoryless Chilean bathroom-accessibility bundle: bidet attachment plus grab bar",
+      "opportunity_id": "opp_2a886a90b40548f7a2a1",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Find the smallest Chilean workflow whose economics differ from the original geography.",
+        "Secure lawful access, partners and after-sales support rather than copy protected technology.",
+        "Run a buyer interview or mock listing to falsify assumptions before capital commitment."
+      ],
+      "supporting_source_urls": [
+        "https://www.mercadolibre.cl/mas-vendidos/MLC1616",
+        "https://proveedores.flashdrop.cl/",
+        "https://www.zagaimp.com/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a single localized offer—such as an elderly-care or renter-friendly bathroom-upgrade kit—using supplier-fulfilled products. The potential value capture is the spread between the publicly observable retail price and the supplier quote after marketplace/payment/shipping/returns costs; no margin is assumed until a written quote and completed test order are obtained.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "chile_localization",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Build a minimal local prototype using one open-source extractor and Chilean DTE samples. Obtain 20-50 redacted or synthetic invoices from one accessible business or accounting contact, compare extracted fields against the source XML and a manually prepared ground-truth sheet, and measure field accuracy plus review time. Then offer a free or low-cost batch test that reports false positives, missing fields and hours saved; stop if the operator will not provide documents, cannot identify a recurring reconciliation task, or the measured review burden is not lower than manual entry. Distribution should initially be direct outreach to small accounting practices, distributors or businesses already using SII electronic invoicing, not a general AI agency offer.",
       "current_thesis": "A small operator can test a narrow workflow that converts supplier DTE XML/PDF files into validated purchase records, flags discrepancies against purchase orders or accounting exports, and routes only exceptions for human review. Local processing can reduce cloud-API cost and may be useful where accounting data cannot leave the operator's infrastructure.",
       "founder_hours_initial_unverified_estimate": "",
@@ -5127,42 +5164,6 @@
       "category": "robotics_agritech",
       "commercially_validated": false,
       "competition_confirmed": false,
-      "current_participation_path": "Select one narrow task—case packing, palletizing or tray handling—and one local food-manufacturing cluster. Use vendor-published component prices and a short site questionnaire to produce a no-install feasibility estimate. Approach plants only with a request for a 30-minute process interview, not a claim of guaranteed savings. Lowest-cost falsification: interview 10 plants and ask for cycle time, staffing, product variation, sanitation constraints and current downtime; require at least one plant to provide a paid feasibility engagement or verifiable equipment quote before buying hardware or building a demo.",
-      "current_thesis": "A testable opening exists in small food manufacturers that need one repetitive handling, palletizing or packaging step automated but cannot justify a full greenfield line. The concrete asset is a documented retrofit package using an existing robot, gripper, vision or safety components; the economic mechanism is reduced labor or increased throughput, subject to site-specific validation.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "United States",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "Food-and-beverage robot-cell retrofit and commissioning wedge",
-      "opportunity_id": "opp_1944783f6fbdfee6890f",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
-        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
-        "Arrange a bounded field validation with an actual farm operator before scaling."
-      ],
-      "supporting_source_urls": [
-        "https://ifr.org/news/us-robot-industry-returns-to-double-digit-growth/1st",
-        "https://ifr.org/news/five-million-robots-now-operate-in-factories-globally/"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "Possible cash flows are a paid process audit, paid proof-of-concept, or resale/integration fee from a qualified equipment supplier. No buyer, price, savings or installation permission is assumed until a specific plant and task are validated.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "robotics_agritech",
-      "commercially_validated": false,
-      "competition_confirmed": false,
       "current_participation_path": "Choose one machine class, such as 5–10 kg welding cobots. Prepare a one-page commissioning checklist and a simulated work-cell acceptance test using public specifications. Contact listed distributors through their public quote channels and ask whether they already outsource commissioning or need an independent local technician. Do not buy equipment. Falsify after five documented contacts fail to produce a paid trial, subcontract discussion, or access to a machine for inspection.",
       "current_thesis": "The equipment is commercially purchasable, but the purchase decision also requires process fit, electrical checks, installation, operator training, and commissioning. A small operator could test a narrowly specialized subcontracting or referral role rather than importing inventory.",
       "founder_hours_initial_unverified_estimate": "",
@@ -5722,7 +5723,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-30T14:51:01.790460+00:00",
+  "generated_at": "2026-10-30T20:25:16.010231+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

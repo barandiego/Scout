@@ -6622,6 +6622,67 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-30T20:24:46.641057+00:00",
+      "discovery_lens": "inventoryless_product_validation",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Current Chilean marketplace page visibly reports sales counts, prices and free-shipping listings for bidet kits, bathroom grab bars, shower organizers and related products.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Los más vendidos | MercadoLibre Chile",
+          "url": "https://www.mercadolibre.cl/mas-vendidos/MLC1616"
+        },
+        {
+          "claim": "Supplier platform states that products have real stock in Chile, displays supplier pricing, supports selling through Instagram, TikTok, WhatsApp or a store, and dispatches orders after sale.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Flashdrop proveedores",
+          "url": "https://proveedores.flashdrop.cl/"
+        },
+        {
+          "claim": "Chilean importer advertises dropshipping, fulfillment, products imported with unit cost placed in its warehouse, and shipment through Blue Express; exact SKU economics and permission remain to be verified.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Zaga Store",
+          "url": "https://www.zagaimp.com/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.83,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_2a886a90b40548f7a2a1",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-30T20:24:46.698276+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "First contact Flashdrop and request, in writing, the exact landed supplier cost, available Chilean stock, dispatch SLA, return/warranty process, neutral or white-label packaging, and permission to resell the specific bidet and grab-bar SKUs. Separately verify that the products can legally and safely be marketed for the intended use. Before ads or Shopify, publish one compliant MercadoLibre or WhatsApp listing with a transparent price and collect at least five qualified inquiries or one paid order. Falsify if the supplier will not confirm stock/fulfilment terms, the delivered-cost spreadsheet cannot support a positive contribution margin at observed market prices, or qualified buyers reject the bundle. Do not buy inventory.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The evidence supports testing a narrowly positioned accessibility/convenience bundle rather than another generic bathroom store. Demand for the exact bundle, conversion rate, delivery economics, returns, and legal/commercial permissions remain unverified.",
+      "title": "Inventoryless Chilean bathroom-accessibility bundle: bidet attachment plus grab bar",
+      "type": "physical_product_offer",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell a single localized offer—such as an elderly-care or renter-friendly bathroom-upgrade kit—using supplier-fulfilled products. The potential value capture is the spread between the publicly observable retail price and the supplier quote after marketplace/payment/shipping/returns costs; no margin is assumed until a written quote and completed test order are obtained.",
+      "verified_sales": null,
+      "vertical": "chile_localization",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-22T13:27:42.382920+00:00",
       "discovery_lens": "ai_open_source",
       "estimated_capital": "",
@@ -8920,60 +8981,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-18T00:21:29.682199+00:00",
-      "discovery_lens": "robotics_automation",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "IFR reports 38,000 US industrial-robot installations in 2025, 11% year-on-year growth, and 30% growth in food-industry installations.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "US Robot Industry Returns to Double Digit Growth",
-          "url": "https://ifr.org/news/us-robot-industry-returns-to-double-digit-growth/1st"
-        },
-        {
-          "claim": "IFR reports more than 600,000 global industrial-robot installations in 2025 and identifies easier programming, machine vision and integration as adoption drivers.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "Five Million Robots now Operate in Factories Globally",
-          "url": "https://ifr.org/news/five-million-robots-now-operate-in-factories-globally/"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.84,
-      "falsification_conditions": [],
-      "geography": "United States",
-      "id": "opp_1944783f6fbdfee6890f",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-18T00:21:29.708281+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Select one narrow task—case packing, palletizing or tray handling—and one local food-manufacturing cluster. Use vendor-published component prices and a short site questionnaire to produce a no-install feasibility estimate. Approach plants only with a request for a 30-minute process interview, not a claim of guaranteed savings. Lowest-cost falsification: interview 10 plants and ask for cycle time, staffing, product variation, sanitation constraints and current downtime; require at least one plant to provide a paid feasibility engagement or verifiable equipment quote before buying hardware or building a demo.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "A testable opening exists in small food manufacturers that need one repetitive handling, palletizing or packaging step automated but cannot justify a full greenfield line. The concrete asset is a documented retrofit package using an existing robot, gripper, vision or safety components; the economic mechanism is reduced labor or increased throughput, subject to site-specific validation.",
-      "title": "Food-and-beverage robot-cell retrofit and commissioning wedge",
-      "type": "automation_asset_service",
-      "unknowns": [],
-      "value_capture_mechanism": "Possible cash flows are a paid process audit, paid proof-of-concept, or resale/integration fee from a qualified equipment supplier. No buyer, price, savings or installation permission is assumed until a specific plant and task are validated.",
-      "verified_sales": null,
-      "vertical": "robotics_agritech",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-17T04:20:14.432726+00:00",
       "discovery_lens": "adoption_lag",
       "estimated_capital": "",
@@ -10647,13 +10654,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-30T14:51:01.618672+00:00",
+  "generated_at": "2026-10-30T20:25:15.886498+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 83,
+  "rejected_excluded": 84,
   "reviewed_cards": 71,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 233,
+  "total_distinct_opportunities": 234,
   "watch": 150
 }

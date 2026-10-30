@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-30T14:51:01.618672+00:00
+Generated: 2026-10-30T20:25:15.886498+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
 - Active research: 150 (0 HQ survivors, 150 watches)
-- Rejected opportunities excluded: 83
+- Rejected opportunities excluded: 84
 - Critic-and-judge reviewed: 71
 - Autonomous execution authorization: 0
 
@@ -783,6 +783,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/1760404/000110465926075802/tm2617498d1_partiiandiii.htm; https://www.demeterobotics.com/; https://www.harnix.md/
 
+### Inventoryless Chilean bathroom-accessibility bundle: bidet attachment plus grab bar [opp_2a886a90b40548f7a2a1]
+- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
+- Thesis: The evidence supports testing a narrowly positioned accessibility/convenience bundle rather than another generic bathroom store. Demand for the exact bundle, conversion rate, delivery economics, returns, and legal/commercial permissions remain unverified.
+- Value capture: Sell a single localized offer—such as an elderly-care or renter-friendly bathroom-upgrade kit—using supplier-fulfilled products. The potential value capture is the spread between the publicly observable retail price and the supplier quote after marketplace/payment/shipping/returns costs; no margin is assumed until a written quote and completed test order are obtained.
+- Participation hypothesis: First contact Flashdrop and request, in writing, the exact landed supplier cost, available Chilean stock, dispatch SLA, return/warranty process, neutral or white-label packaging, and permission to resell the specific bidet and grab-bar SKUs. Separately verify that the products can legally and safely be marketed for the intended use. Before ads or Shopify, publish one compliant MercadoLibre or WhatsApp listing with a transparent price and collect at least five qualified inquiries or one paid order. Falsify if the supplier will not confirm stock/
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.mercadolibre.cl/mas-vendidos/MLC1616; https://proveedores.flashdrop.cl/; https://www.zagaimp.com/
+
 ### Local-first Chilean DTE invoice reconciliation and exception review [opp_8ed1b40a94786a3e6997]
 - Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
 - Thesis: A small operator can test a narrow workflow that converts supplier DTE XML/PDF files into validated purchase records, flags discrepancies against purchase orders or accounting exports, and routes only exceptions for human review. Local processing can reduce cloud-API cost and may be useful where accounting data cannot leave the operator's infrastructure.
@@ -1192,16 +1202,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cochilco.cl/web/mineria-del-cobre-aumenta-uso-de-agua-de-mar-en-2025-y-reduce-en-7-la-extraccion-de-agua-continental/; https://www.cochilco.cl/web/download/1014/2026/15565/informe-proyeccion-del-consumo-de-agua-en-la-mineria-del-cobre-periodo-2025-2034.pdf
-
-### Food-and-beverage robot-cell retrofit and commissioning wedge [opp_1944783f6fbdfee6890f]
-- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States
-- Thesis: A testable opening exists in small food manufacturers that need one repetitive handling, palletizing or packaging step automated but cannot justify a full greenfield line. The concrete asset is a documented retrofit package using an existing robot, gripper, vision or safety components; the economic mechanism is reduced labor or increased throughput, subject to site-specific validation.
-- Value capture: Possible cash flows are a paid process audit, paid proof-of-concept, or resale/integration fee from a qualified equipment supplier. No buyer, price, savings or installation permission is assumed until a specific plant and task are validated.
-- Participation hypothesis: Select one narrow task—case packing, palletizing or tray handling—and one local food-manufacturing cluster. Use vendor-published component prices and a short site questionnaire to produce a no-install feasibility estimate. Approach plants only with a request for a 30-minute process interview, not a claim of guaranteed savings. Lowest-cost falsification: interview 10 plants and ask for cycle time, staffing, product variation, sanitation constraints and current downtime; require at least one plant to provide a paid feasibility engagement or verif
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://ifr.org/news/us-robot-industry-returns-to-double-digit-growth/1st; https://ifr.org/news/five-million-robots-now-operate-in-factories-globally/
 
 ### Grant-aligned VFD and process-sensor retrofit package for small manufacturers [opp_269134d5b04eaaaf0c33]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States

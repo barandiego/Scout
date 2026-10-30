@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-10-30T14:51:01.618672+00:00",
+  "generated_at": "2026-10-30T20:25:15.886498+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -276,6 +276,15 @@
       "representative_id": "opp_78e3949cb81b530dd931",
       "reviewed_count": 0,
       "theme": "chile_localization:apply_telus_digital"
+    },
+    {
+      "all_opportunity_ids": [
+        "opp_2a886a90b40548f7a2a1"
+      ],
+      "count": 1,
+      "representative_id": "opp_2a886a90b40548f7a2a1",
+      "reviewed_count": 0,
+      "theme": "chile_localization:inventoryless_bathroom_accessibility"
     },
     {
       "all_opportunity_ids": [
@@ -681,15 +690,6 @@
       "representative_id": "opp_6fed166e1f1a1ba78706",
       "reviewed_count": 0,
       "theme": "robotics_agritech:bid_small_supplier"
-    },
-    {
-      "all_opportunity_ids": [
-        "opp_1944783f6fbdfee6890f"
-      ],
-      "count": 1,
-      "representative_id": "opp_1944783f6fbdfee6890f",
-      "reviewed_count": 0,
-      "theme": "robotics_agritech:food_beverage_robot"
     },
     {
       "all_opportunity_ids": [
