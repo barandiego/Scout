@@ -1,27 +1,137 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 20000.0,
-      "buyer": "HOSPITAL DE QUILPUE",
-      "closes_at": "2026-10-31T12:19:00",
-      "code": "4967-936-COT26",
-      "estimated_budget": 20000.0,
-      "name": "Alcohol gel",
+      "available_budget_clp": 100000.0,
+      "buyer": "SERVICIO DE SALUD DEL MAULE HOSPITAL DE LINARES",
+      "closes_at": "2026-11-02T16:10:00",
+      "code": "1681-224-COT26",
+      "estimated_budget": 100000.0,
+      "name": "COMPRA DE VASOS PLASTICOS REUTILIZABLES MM N°55 PROYECTO PARTICIPATIVO YERBAS BUENAS",
       "products": 1,
+      "region": "Región del Maule"
+    },
+    {
+      "available_budget_clp": 1500000.0,
+      "buyer": "ILUSTRE MUNICIPALIDAD DE SAN GREGORIO",
+      "closes_at": "2026-11-04T10:30:00",
+      "code": "3641-91-COT26",
+      "estimated_budget": 1500000.0,
+      "name": "FARMACOS",
+      "products": 15,
+      "region": "Región de Magallanes y de la Antártica"
+    },
+    {
+      "available_budget_clp": 1254848.0,
+      "buyer": "UNIVERSIDAD DE SANTIAGO DE CHILE",
+      "closes_at": "2026-11-03T11:30:00",
+      "code": "5067-2703-COT26",
+      "estimated_budget": 1254848.0,
+      "name": "Adquisición de Materiales para Laboratorio de Inmunología - Departamento de Biología, Facultad de Química y Biología (FQyB) USACH",
+      "products": 4,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 4000000.0,
+      "buyer": "I MUNICIPALIDAD DE QUILLOTA",
+      "closes_at": "2026-11-03T08:30:00",
+      "code": "2464-1599-COT26",
+      "estimated_budget": 4000000.0,
+      "name": "FF-SE SOLICITA LA ADQUISICIÓN DE MOBILIARIO PARA EQUIPAMIENTO Y HABILITACIÓN DE OFICINA MUNICIPAL, OP N°83-DEPTO.ING.VIALIDAD Y MOVILIZACIÓN",
+      "products": 6,
       "region": "Región de Valparaíso"
     },
     {
-      "available_budget_clp": 785400.0,
-      "buyer": "EJERCITO DE CHILE HOSPITAL MILITAR DE SANTIAGO",
-      "closes_at": "2026-11-02T12:00:00",
-      "code": "3378-1546-COT26",
-      "estimated_budget": 785400.0,
-      "name": "ADQUISICION FARMACO ISOPROTERENOL 1 MG/5ML INYECTABLE",
+      "available_budget_clp": 2600000.0,
+      "buyer": "I MUNICIPALIDAD DE QUEMCHI",
+      "closes_at": "2026-11-02T15:20:00",
+      "code": "4197-321-COT26",
+      "estimated_budget": 2600000.0,
+      "name": "RETIRO, LIMPIEZA E INSTALACIÓN FOSA SÉPTICA EN CECOSF METAHUE (QUEMCHI INSULAR)",
+      "products": 1,
+      "region": "Región de los Lagos"
+    },
+    {
+      "available_budget_clp": 2954770.0,
+      "buyer": "I MUNICIPALIDAD DE PUENTE ALTO",
+      "closes_at": "2026-11-02T18:00:00",
+      "code": "2422-699-COT26",
+      "estimated_budget": 2954770.0,
+      "name": "S.A. 946143 ELECTROCOMESTICOS",
       "products": 1,
       "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 1640000.0,
+      "buyer": "CORPORACION REGIONAL DE DESARROLLO DE LA REGION DE TARAPACA",
+      "closes_at": "2026-11-04T13:00:00",
+      "code": "1422259-29-COT26",
+      "estimated_budget": 1640000.0,
+      "name": "IMPLEMENTOS PARA COMUNICACIONES CORPORATIVAS CRDT",
+      "products": 1,
+      "region": "Región de Tarapacá"
+    },
+    {
+      "available_budget_clp": 2900000.0,
+      "buyer": "SERV NAC SALUD HOSPITAL DE LOS ANDES",
+      "closes_at": "2026-11-01T11:00:00",
+      "code": "617807-2505-COT26",
+      "estimated_budget": 2900000.0,
+      "name": "HAAV COMPRA DE PAN MENSUAL",
+      "products": 4,
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 800000.0,
+      "buyer": "COMISION CHILENA DE ENERGIA NUCLEAR",
+      "closes_at": "2026-11-02T11:00:00",
+      "code": "872-558-COT26",
+      "estimated_budget": 800000.0,
+      "name": "Insumo para protección de mesones de trabajo en laboratorio de Caracterización Química Lo Aguirre",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 800000.0,
+      "buyer": "SECCIÓN COMPRAS X ZONA",
+      "closes_at": "2026-11-03T09:00:00",
+      "code": "1079639-1069-COT26",
+      "estimated_budget": 800000.0,
+      "name": "EXÁMENES MEDICOS PARA CABALLAR DEL GRUPO PUERTO MONTT",
+      "products": 4,
+      "region": "Región de los Lagos"
+    },
+    {
+      "available_budget_clp": 450000.0,
+      "buyer": "CORPORACION MUNICIPAL PARA EL DESARROLLO CULTURAL DE TEMUCO",
+      "closes_at": "2026-11-02T14:00:00",
+      "code": "1214071-81-COT26",
+      "estimated_budget": 450000.0,
+      "name": "S214-26/CORPORACION/OFT/ADQ. DE COLACIONES PARA CONCIERTO DE EXTENSIÓN OFT DE VALDIVIA",
+      "products": 1,
+      "region": "Región de la Araucanía"
+    },
+    {
+      "available_budget_clp": 1227400.0,
+      "buyer": "I MUNICIPALIDAD DE CASABLANCA",
+      "closes_at": "2026-11-04T10:00:00",
+      "code": "4964-52-COT26",
+      "estimated_budget": 1227400.0,
+      "name": "Impresoras y Tinta. Programas Municipales",
+      "products": 5,
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 3200000.0,
+      "buyer": "LSDH 91 SARGENTO ALDEA",
+      "closes_at": "2026-10-31T18:24:00",
+      "code": "685103-137-COT26",
+      "estimated_budget": 3200000.0,
+      "name": "ADQUISICION DE IMPLEMENTOS DE SEGURIDAD Y PINTADO PARA OPERACION BASE SOBERANIA F-2.",
+      "products": 1,
+      "region": "Región de Magallanes y de la Antártica"
     }
   ],
-  "active_structurally_reconstructable_count": 2,
+  "active_structurally_reconstructable_count": 13,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -39,7 +149,7 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-10-30T15:07:04Z",
+  "generated_at": "2026-10-30T20:53:33Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -47,16 +157,16 @@
   "phase1": {
     "records": 20,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 15
+      "no_observable_competitive_prices": 3
     },
-    "resolved": 18,
-    "structurally_reconstructable": 5,
-    "with_observable_quote_totals": 3,
+    "resolved": 7,
+    "structurally_reconstructable": 17,
+    "with_observable_quote_totals": 4,
     "with_purchase_order_indicator": 3
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-30T15:07:04Z"
+    "changed_to": "2026-10-30T20:53:33Z"
   }
 }
