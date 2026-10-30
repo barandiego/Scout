@@ -1,6 +1,27 @@
 {
-  "active_candidates": [],
-  "active_structurally_reconstructable_count": 0,
+  "active_candidates": [
+    {
+      "available_budget_clp": 20000.0,
+      "buyer": "HOSPITAL DE QUILPUE",
+      "closes_at": "2026-10-31T12:19:00",
+      "code": "4967-936-COT26",
+      "estimated_budget": 20000.0,
+      "name": "Alcohol gel",
+      "products": 1,
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 785400.0,
+      "buyer": "EJERCITO DE CHILE HOSPITAL MILITAR DE SANTIAGO",
+      "closes_at": "2026-11-02T12:00:00",
+      "code": "3378-1546-COT26",
+      "estimated_budget": 785400.0,
+      "name": "ADQUISICION FARMACO ISOPROTERENOL 1 MG/5ML INYECTABLE",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
+    }
+  ],
+  "active_structurally_reconstructable_count": 2,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -18,7 +39,7 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-10-30T06:00:41Z",
+  "generated_at": "2026-10-30T15:07:04Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -26,16 +47,16 @@
   "phase1": {
     "records": 20,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 3
+      "no_observable_competitive_prices": 15
     },
-    "resolved": 20,
-    "structurally_reconstructable": 17,
-    "with_observable_quote_totals": 17,
-    "with_purchase_order_indicator": 0
+    "resolved": 18,
+    "structurally_reconstructable": 5,
+    "with_observable_quote_totals": 3,
+    "with_purchase_order_indicator": 3
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-30T06:00:41Z"
+    "changed_to": "2026-10-30T15:07:04Z"
   }
 }
