@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 147
+Candidates: 150
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -472,6 +472,18 @@ Candidates: 147
 - Possible initial budget:
 - Source URLs: https://www.opentrain.ai/jobs/bilingual-ai-safety-data-evaluator-english-spanish-c1--cmni8aczu001004l4jlwcn0fe/; https://cl.linkedin.com/jobs/view/quality-evaluator-%E2%80%93-english-at-anyone-ai-4478597242
 
+## Chile-specific voice-data recording project
+- Status: watch | general
+- Current idea: This is a narrowly defined, low-commitment data-collection task rather than recurring employment. The CrowdGen unit rate implies only about $12 gross for 400 accepted recordings before time and any payment costs; the WizWiz hourly claim requires verification because the two listings do not provide the same compensation basis.
+- Potential economic capture: One-time or project-based payment for accepted voice recordings. No recurring work, guaranteed acceptance, or guaranteed effective hourly rate is evidenced.
+- **Research routes to test (NOT validated claims):**
+  - Name a specific payer, customer job and credible reason existing alternatives fail.
+  - Choose a low-cost differentiation wedge (availability, price, experience, distribution or technology).
+  - Test channel, willingness to pay, ownership and contribution margin before building.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://jobs.lever.co/appen/27404a7a-4fca-42e3-bae4-072148d17dce; https://wizwizai.careers-page.com/jobs/1bdd95f3-53c1-4af2-9518-ed6d835244d4
+
 ## CMS is advancing standardized payer APIs and interoperability requirements
 - Status: watch | general
 - Current idea: Standardized data access can reduce integration friction and redistribute value from proprietary data silos toward interoperability platforms, compliance tooling, API testing, identity, consent and workflow applications.
@@ -556,6 +568,18 @@ Candidates: 147
 - Possible initial budget:
 - Source URLs: https://www.mercadolibre.cl/nfc-tag-215-10uni-1356-mhz-a-25mm-adhesivo-tarjeta-set/p/MLC2098562674; https://listado.mercadolibre.cl/tarjetas-nfc; https://linkd.cl/
 
+## Paid Spanish AI-training studies through Prolific
+- Status: watch | general
+- Current idea: A Chile-based Spanish speaker with strong writing and attention to detail can test a paid-study route that monetizes language judgment rather than requiring a business or customer pipeline. Task allocation is conditional on passing suitability checks and is not guaranteed.
+- Potential economic capture: Payment for completed AI-training studies through the Prolific participant system; the listing requires a PayPal account and self-employed income declaration.
+- **Research routes to test (NOT validated claims):**
+  - Name a specific payer, customer job and credible reason existing alternatives fail.
+  - Choose a low-cost differentiation wedge (availability, price, experience, distribution or technology).
+  - Test channel, willingness to pay, ownership and contribution margin before building.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://job-boards.eu.greenhouse.io/prolificacademicltd/jobs/4869418101; https://www.dataannotation.tech/spanish-es
+
 ## Permitting and transmission-process modernization is opening a bottleneck-sensitive infrastructure opportunity
 - Status: watch | general
 - Current idea: Projects and service providers that reduce permitting time, improve documentation, standardize environmental review, or connect constrained generation and large loads may capture value as grid investment accelerates.
@@ -579,6 +603,18 @@ Candidates: 147
 - Critical gaps: Whether the cited application was still accepting new Chilean applicants on October 19, 2026, beyond being crawlable.; Whether a Chile-resident applicant would receive the USD 7.50, USD 10, or another rate.; Acceptance and qualification rates for Chilean applicants.
 - Possible initial budget:
 - Source URLs: https://app.outlier.ai/opportunities/4522871005; https://outlier.ai/faq
+
+## Spanish (Chile) AI language evaluation contractor
+- Status: watch | general
+- Current idea: A qualified Chile-based linguist, translator, editor, teacher, or localization specialist can access paid model-evaluation work without building a product or acquiring customers. Availability is project-dependent and application does not establish guaranteed hours.
+- Potential economic capture: Hourly contractor payment for accepted evaluation and language-quality work; no guaranteed income, minimum hours, or continuity is evidenced.
+- **Research routes to test (NOT validated claims):**
+  - Name a specific payer, customer job and credible reason existing alternatives fail.
+  - Choose a low-cost differentiation wedge (availability, price, experience, distribution or technology).
+  - Test channel, willingness to pay, ownership and contribution margin before building.
+- Critical gaps: The actual rate offered to a Chile-based applicant.; Whether the advertised role is still accepting applications and has funded work available.; Expected hours, task volume, project duration, and probability of receiving assignments after acceptance.
+- Possible initial budget:
+- Source URLs: https://job-boards.greenhouse.io/agency/jobs/4655768101; https://jobs.lever.co/weloglobal/?location=Santiago%2C+Chile
 
 ## Apply to Outlier Spanish-Chile AI training evaluation assignment
 - Status: watch | geographic_arbitrage

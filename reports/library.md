@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-30T04:23:42.360193+00:00
+Generated: 2026-10-30T14:51:01.618672+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 147 (0 HQ survivors, 147 watches)
+- Active research: 150 (0 HQ survivors, 150 watches)
 - Rejected opportunities excluded: 83
-- Critic-and-judge reviewed: 70
+- Critic-and-judge reviewed: 71
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -683,6 +683,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
+### Spanish (Chile) AI language evaluation contractor [opp_35d7117f3239a6863a58]
+- Status: WATCH_REQUIRES_VALIDATION | general | Chile; remote
+- Thesis: A qualified Chile-based linguist, translator, editor, teacher, or localization specialist can access paid model-evaluation work without building a product or acquiring customers. Availability is project-dependent and application does not establish guaranteed hours.
+- Value capture: Hourly contractor payment for accepted evaluation and language-quality work; no guaranteed income, minimum hours, or continuity is evidenced.
+- Participation hypothesis: Apply through the employer application page using a CV emphasizing Chilean Spanish, localization, translation, editorial work, teaching, or AI evaluation. Before accepting work, verify the final rate, payment method, contractor terms, expected task volume, age eligibility, and whether Chile-based applicants are actually accepted. Lowest-cost falsification: submit the application and ask the recruiter or application system to confirm Chile eligibility and the rate offered before spending time on tests. Do not pay a fee or deposit.
+- Critic/judge: A primary employer-hosted listing supports that this is a real, currently discoverable Chilean-Spanish freelance AI-evaluation role with a stated hourly range and a plausible direct payer: the hiring platform/employer pays contractors for accepted work. Participation is realistic for an appropriately qualified Chile-based language professional and requires little capital. However, it is not validated as dependable income or an HQ-worthy
+- Next evidence gaps: The actual rate offered to a Chile-based applicant.; Whether the advertised role is still accepting applications and has funded work available.; Expected hours, task volume, project duration, and probability of receiving assignments after acceptance.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://job-boards.greenhouse.io/agency/jobs/4655768101; https://jobs.lever.co/weloglobal/?location=Santiago%2C+Chile
+
 ### Standardized account-data and payment APIs create a transfer path for data-driven financial services [opp_0b163a3b9cf75024e5cd]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: Business models that previously depended on bilateral bank integrations, screen scraping or manual financial-data collection can migrate toward regulated, multi-provider data access and payment initiation. This lowers geographic and institutional switching costs, while increasing the importance of consent, reliability and compliance controls.
@@ -1123,6 +1133,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
+### Chile-specific voice-data recording project [opp_4ad89bd755e3b8334653]
+- Status: WATCH_REQUIRES_VALIDATION | general | Chile; fully remote
+- Thesis: This is a narrowly defined, low-commitment data-collection task rather than recurring employment. The CrowdGen unit rate implies only about $12 gross for 400 accepted recordings before time and any payment costs; the WizWiz hourly claim requires verification because the two listings do not provide the same compensation basis.
+- Value capture: One-time or project-based payment for accepted voice recordings. No recurring work, guaranteed acceptance, or guaranteed effective hourly rate is evidenced.
+- Participation hypothesis: Apply only through the listed employer/project pages, confirm whether the project is still accepting Chile applicants, the exact number of accepted units, rejection rules, payout threshold, payment processor, age requirement, and expected total pay. Lowest-cost falsification: record or upload only a short qualification sample if requested and obtain written confirmation of the total compensation before completing all 400 sentences. Do not pay to apply.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://jobs.lever.co/appen/27404a7a-4fca-42e3-bae4-072148d17dce; https://wizwizai.careers-page.com/jobs/1bdd95f3-53c1-4af2-9518-ed6d835244d4
+
 ### Chilean Spanish speech-data recording project — CrowdGen by Appen [opp_96318e1351fad6b1e1dc]
 - Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
 - Thesis: This is a narrowly defined, low-complexity data-collection assignment with a verifiable piece-rate mechanism. At the listed rate, 400 completed units would imply USD 12 gross before any applicable taxes or payment constraints, but completion time and acceptance are unknown; therefore it is a small paid test rather than a reliable income source.
@@ -1342,6 +1362,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
+
+### Paid Spanish AI-training studies through Prolific [opp_042d45b316edf1e31943]
+- Status: WATCH_REQUIRES_VALIDATION | general | Chile; remote, with a Concepción-specific listing
+- Thesis: A Chile-based Spanish speaker with strong writing and attention to detail can test a paid-study route that monetizes language judgment rather than requiring a business or customer pipeline. Task allocation is conditional on passing suitability checks and is not guaranteed.
+- Value capture: Payment for completed AI-training studies through the Prolific participant system; the listing requires a PayPal account and self-employed income declaration.
+- Participation hypothesis: Apply through the Prolific-hosted Greenhouse listing, complete the skills verification, and confirm that the participant account can be used from Chile and that PayPal withdrawals are available before doing unpaid preparation. Lowest-cost falsification: complete only the initial application and eligibility check; stop if Chile access, payment method, age requirement, or task availability is not confirmed. No fee or deposit is indicated.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://job-boards.eu.greenhouse.io/prolificacademicltd/jobs/4869418101; https://www.dataannotation.tech/spanish-es
 
 ### PMGD battery-congestion screening and dispatch-rights data product [opp_e28d4caaa77e09a2caa9]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile, initially zonal transmission-constrained areas with PMGD concentration

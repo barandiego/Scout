@@ -5885,6 +5885,92 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": true,
+      "discovered_at": "2026-10-30T14:50:32.775894+00:00",
+      "discovery_lens": "remote_paid_evaluation",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Employer-hosted listing identifies a remote contract role for Spanish (Chile), states the evaluation duties, and publishes an $8–$65/hour range with final rate dependent on experience, expertise, and geography.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Spanish (Chile) Language Specialist - Freelance AI Trainer Project",
+          "url": "https://job-boards.greenhouse.io/agency/jobs/4655768101"
+        },
+        {
+          "claim": "Employer-hosted careers page lists a Spanish remote AI-trainer network with Santiago, Chile among the stated locations.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "AI Trainers Network - Spanish Remote",
+          "url": "https://jobs.lever.co/weloglobal/?location=Santiago%2C+Chile"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [
+        "The employer confirms that Chile-based applicants are not eligible or that the cited listing is closed.",
+        "The applicant applies and receives no acknowledgement, rejection, or status update after a defined period such as 30 days.",
+        "The applicant is accepted but receives no paid task allocation within 30-60 days.",
+        "The confirmed rate is below the applicant's minimum acceptable effective hourly rate after unpaid screening, idle time, fees, taxes, and equipment costs.",
+        "The company requires any application fee, deposit, purchase, payment, or other upfront financial commitment.",
+        "The listing is found to be duplicated, expired, misleading, or materially different from the employer's application terms.",
+        "The work volume is too sporadic to generate economically meaningful income relative to the application and onboarding effort.",
+        "Payment terms are unverifiable, materially delayed, or incompatible with the applicant's ability to receive funds in Chile.",
+        "The role requires unpaid sample work beyond a commercially reasonable screening exercise.",
+        "The applicant cannot pass the screening or does not possess the required Chilean-Spanish and English evaluation skills."
+      ],
+      "geography": "Chile; remote",
+      "id": "opp_35d7117f3239a6863a58",
+      "judge_reviewed": true,
+      "judgment": "A primary employer-hosted listing supports that this is a real, currently discoverable Chilean-Spanish freelance AI-evaluation role with a stated hourly range and a plausible direct payer: the hiring platform/employer pays contractors for accepted work. Participation is realistic for an appropriately qualified Chile-based language professional and requires little capital. However, it is not validated as dependable income or an HQ-worthy scalable opportunity: hours, acceptance, effective rate, task continuity, payment terms, and eligibility remain unverified, while the broad $8–$65/hour range is explicitly contingent. Treat it only as a tightly bounded, low-cost application-and-terms-verification experiment, not a business thesis or committed revenue source.",
+      "last_record_updated_at": "2026-10-30T14:51:01.127134+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "The actual rate offered to a Chile-based applicant.",
+        "Whether the advertised role is still accepting applications and has funded work available.",
+        "Expected hours, task volume, project duration, and probability of receiving assignments after acceptance.",
+        "Acceptance rate, screening-test difficulty, wait time, and onboarding time.",
+        "Whether work is paid for training, calibration, rejected tasks, revisions, or only accepted production tasks."
+      ],
+      "participation_path": "Apply through the employer application page using a CV emphasizing Chilean Spanish, localization, translation, editorial work, teaching, or AI evaluation. Before accepting work, verify the final rate, payment method, contractor terms, expected task volume, age eligibility, and whether Chile-based applicants are actually accepted. Lowest-cost falsification: submit the application and ask the recruiter or application system to confirm Chile eligibility and the rate offered before spending time on tests. Do not pay a fee or deposit.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A qualified Chile-based linguist, translator, editor, teacher, or localization specialist can access paid model-evaluation work without building a product or acquiring customers. Availability is project-dependent and application does not establish guaranteed hours.",
+      "title": "Spanish (Chile) AI language evaluation contractor",
+      "type": "remote_paid_evaluation",
+      "unknowns": [
+        "The actual rate offered to a Chile-based applicant.",
+        "Whether the advertised role is still accepting applications and has funded work available.",
+        "Expected hours, task volume, project duration, and probability of receiving assignments after acceptance.",
+        "Acceptance rate, screening-test difficulty, wait time, and onboarding time.",
+        "Whether work is paid for training, calibration, rejected tasks, revisions, or only accepted production tasks.",
+        "Contractor payment method, fees, exchange-rate losses, tax treatment, invoice requirements, and payment timing.",
+        "Whether English proficiency, specific credentials, or prior AI-evaluation experience is required in practice.",
+        "Whether the opportunity is operated by the named employer, an intermediary, or a recruiting marketplace with additional terms.",
+        "Whether Chilean applicants face practical restrictions involving identity verification, data protection, working hours, or cross-border contracting.",
+        "The applicant's qualifications, English ability, available equipment, and opportunity cost.",
+        "The degree of competition from Spanish speakers in Argentina, Mexico, Colombia, Peru, Spain, the United States, and worldwide applicants.",
+        "Whether the role is open and actively allocating paid work to Chile-based contractors now.",
+        "The candidate-specific offered rate, paid-versus-unpaid qualification requirements, and acceptance criteria.",
+        "Expected weekly volume, project duration, queue time, quality thresholds, and probability of continued assignments.",
+        "Contracting entity, payment method and cadence, Chile compatibility, fees, tax obligations, and dispute/rejection policies.",
+        "Whether the specific applicant has the Chilean-Spanish, English, domain, equipment, and availability profile needed to pass screening.",
+        "Whether comparable alternatives offer materially better effective hourly economics or more reliable work."
+      ],
+      "value_capture_mechanism": "Hourly contractor payment for accepted evaluation and language-quality work; no guaranteed income, minimum hours, or continuity is evidenced.",
+      "verified_sales": null,
+      "vertical": "general",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": true,
       "discovered_at": "2026-10-05T04:13:36.258167+00:00",
       "discovery_lens": "business_model_migration",
       "estimated_capital": "",
@@ -8510,6 +8596,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-30T14:50:32.777568+00:00",
+      "discovery_lens": "remote_paid_evaluation",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CrowdGen/Appen-hosted listing requests native Chilean-Spanish speakers in Chile to record 400 sentences and states payment of $0.030 per completed unit.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Remote Work From Home: Record Chilean Spanish",
+          "url": "https://jobs.lever.co/appen/27404a7a-4fca-42e3-bae4-072148d17dce"
+        },
+        {
+          "claim": "Provider-hosted listing describes a fully remote Chilean-Spanish recording project, 400-sentence task, contractor status, and stated compensation of approximately $10–$12/hour with Payoneer and PayPal.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Audio Annotator- Chilean Spanish Recording (WFH remote)",
+          "url": "https://wizwizai.careers-page.com/jobs/1bdd95f3-53c1-4af2-9518-ed6d835244d4"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.83,
+      "falsification_conditions": [],
+      "geography": "Chile; fully remote",
+      "id": "opp_4ad89bd755e3b8334653",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-30T14:50:32.833463+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Apply only through the listed employer/project pages, confirm whether the project is still accepting Chile applicants, the exact number of accepted units, rejection rules, payout threshold, payment processor, age requirement, and expected total pay. Lowest-cost falsification: record or upload only a short qualification sample if requested and obtain written confirmation of the total compensation before completing all 400 sentences. Do not pay to apply.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "This is a narrowly defined, low-commitment data-collection task rather than recurring employment. The CrowdGen unit rate implies only about $12 gross for 400 accepted recordings before time and any payment costs; the WizWiz hourly claim requires verification because the two listings do not provide the same compensation basis.",
+      "title": "Chile-specific voice-data recording project",
+      "type": "remote_paid_evaluation",
+      "unknowns": [],
+      "value_capture_mechanism": "One-time or project-based payment for accepted voice recordings. No recurring work, guaranteed acceptance, or guaranteed effective hourly rate is evidenced.",
+      "verified_sales": null,
+      "vertical": "general",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-20T16:26:20.978236+00:00",
       "discovery_lens": "remote_paid_evaluation",
       "estimated_capital": "",
@@ -9698,6 +9838,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-30T14:50:32.776807+00:00",
+      "discovery_lens": "remote_paid_evaluation",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Employer-hosted listing targets Spanish speakers in Chile, describes AI evaluation tasks, requires a skills test and PayPal, and states researchers tend to pay $30/hour per completed AI task.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Spanish - Fluent Speakers - AI Training - Concepción",
+          "url": "https://job-boards.eu.greenhouse.io/prolificacademicltd/jobs/4869418101"
+        },
+        {
+          "claim": "Provider page describes remote Spanish AI-training work, states weekly payments and no registration fee, and lists Spanish fluency, analytical writing, and a university degree as requirements.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Earn Money Translating Spanish for AI",
+          "url": "https://www.dataannotation.tech/spanish-es"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.88,
+      "falsification_conditions": [],
+      "geography": "Chile; remote, with a Concepción-specific listing",
+      "id": "opp_042d45b316edf1e31943",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-30T14:50:32.833316+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Apply through the Prolific-hosted Greenhouse listing, complete the skills verification, and confirm that the participant account can be used from Chile and that PayPal withdrawals are available before doing unpaid preparation. Lowest-cost falsification: complete only the initial application and eligibility check; stop if Chile access, payment method, age requirement, or task availability is not confirmed. No fee or deposit is indicated.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A Chile-based Spanish speaker with strong writing and attention to detail can test a paid-study route that monetizes language judgment rather than requiring a business or customer pipeline. Task allocation is conditional on passing suitability checks and is not guaranteed.",
+      "title": "Paid Spanish AI-training studies through Prolific",
+      "type": "remote_paid_evaluation",
+      "unknowns": [],
+      "value_capture_mechanism": "Payment for completed AI-training studies through the Prolific participant system; the listing requires a PayPal account and self-employed income declaration.",
+      "verified_sales": null,
+      "vertical": "general",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-22T00:23:58.711347+00:00",
       "discovery_lens": "energy_localization",
       "estimated_capital": "",
@@ -10453,13 +10647,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-30T04:23:42.360193+00:00",
+  "generated_at": "2026-10-30T14:51:01.618672+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 83,
-  "reviewed_cards": 70,
+  "reviewed_cards": 71,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 230,
-  "watch": 147
+  "total_distinct_opportunities": 233,
+  "watch": 150
 }

@@ -1455,6 +1455,42 @@
       "category": "general",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Apply only through the listed employer/project pages, confirm whether the project is still accepting Chile applicants, the exact number of accepted units, rejection rules, payout threshold, payment processor, age requirement, and expected total pay. Lowest-cost falsification: record or upload only a short qualification sample if requested and obtain written confirmation of the total compensation before completing all 400 sentences. Do not pay to apply.",
+      "current_thesis": "This is a narrowly defined, low-commitment data-collection task rather than recurring employment. The CrowdGen unit rate implies only about $12 gross for 400 accepted recordings before time and any payment costs; the WizWiz hourly claim requires verification because the two listings do not provide the same compensation basis.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile; fully remote",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile-specific voice-data recording project",
+      "opportunity_id": "opp_4ad89bd755e3b8334653",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Name a specific payer, customer job and credible reason existing alternatives fail.",
+        "Choose a low-cost differentiation wedge (availability, price, experience, distribution or technology).",
+        "Test channel, willingness to pay, ownership and contribution margin before building."
+      ],
+      "supporting_source_urls": [
+        "https://jobs.lever.co/appen/27404a7a-4fca-42e3-bae4-072148d17dce",
+        "https://wizwizai.careers-page.com/jobs/1bdd95f3-53c1-4af2-9518-ed6d835244d4"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "One-time or project-based payment for accepted voice recordings. No recurring work, guaranteed acceptance, or guaranteed effective hourly rate is evidenced.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "general",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Map affected payer deadlines and API specifications; build against required FHIR implementation guides; sell conformance testing, monitoring, data normalization or prior-authorization workflow automation.",
       "current_thesis": "Standardized data access can reduce integration friction and redistribute value from proprietary data silos toward interoperability platforms, compliance tooling, API testing, identity, consent and workflow applications.",
       "founder_hours_initial_unverified_estimate": "",
@@ -1732,6 +1768,42 @@
       "category": "general",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Apply through the Prolific-hosted Greenhouse listing, complete the skills verification, and confirm that the participant account can be used from Chile and that PayPal withdrawals are available before doing unpaid preparation. Lowest-cost falsification: complete only the initial application and eligibility check; stop if Chile access, payment method, age requirement, or task availability is not confirmed. No fee or deposit is indicated.",
+      "current_thesis": "A Chile-based Spanish speaker with strong writing and attention to detail can test a paid-study route that monetizes language judgment rather than requiring a business or customer pipeline. Task allocation is conditional on passing suitability checks and is not guaranteed.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile; remote, with a Concepción-specific listing",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Paid Spanish AI-training studies through Prolific",
+      "opportunity_id": "opp_042d45b316edf1e31943",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Name a specific payer, customer job and credible reason existing alternatives fail.",
+        "Choose a low-cost differentiation wedge (availability, price, experience, distribution or technology).",
+        "Test channel, willingness to pay, ownership and contribution margin before building."
+      ],
+      "supporting_source_urls": [
+        "https://job-boards.eu.greenhouse.io/prolificacademicltd/jobs/4869418101",
+        "https://www.dataannotation.tech/spanish-es"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Payment for completed AI-training studies through the Prolific participant system; the listing requires a PayPal account and self-employed income declaration.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "general",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Track projects entering DOE, FERC, or state permitting pipelines; sell permitting analytics, environmental documentation, stakeholder coordination, or specialized engineering services; selectively invest in developers with advanced permits.",
       "current_thesis": "Projects and service providers that reduce permitting time, improve documentation, standardize environmental review, or connect constrained generation and large loads may capture value as grid investment accelerates.",
       "founder_hours_initial_unverified_estimate": "",
@@ -1805,6 +1877,46 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "The economic mechanism is direct task compensation from Outlier after selection and completed work. No application fee or deposit is indicated in the consulted pages; payout methods listed by Outlier include PayPal and AirTM, with ACH referenced in its FAQ.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "general",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Apply through the employer application page using a CV emphasizing Chilean Spanish, localization, translation, editorial work, teaching, or AI evaluation. Before accepting work, verify the final rate, payment method, contractor terms, expected task volume, age eligibility, and whether Chile-based applicants are actually accepted. Lowest-cost falsification: submit the application and ask the recruiter or application system to confirm Chile eligibility and the rate offered before spending time on tests. Do not pay a fee or deposit.",
+      "current_thesis": "A qualified Chile-based linguist, translator, editor, teacher, or localization specialist can access paid model-evaluation work without building a product or acquiring customers. Availability is project-dependent and application does not establish guaranteed hours.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile; remote",
+      "hypothesis_evaluation_questions": [
+        "The actual rate offered to a Chile-based applicant.",
+        "Whether the advertised role is still accepting applications and has funded work available.",
+        "Expected hours, task volume, project duration, and probability of receiving assignments after acceptance.",
+        "Acceptance rate, screening-test difficulty, wait time, and onboarding time.",
+        "Whether work is paid for training, calibration, rejected tasks, revisions, or only accepted production tasks.",
+        "Contractor payment method, fees, exchange-rate losses, tax treatment, invoice requirements, and payment timing.",
+        "Whether English proficiency, specific credentials, or prior AI-evaluation experience is required in practice."
+      ],
+      "investment_authorized": false,
+      "name": "Spanish (Chile) AI language evaluation contractor",
+      "opportunity_id": "opp_35d7117f3239a6863a58",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Name a specific payer, customer job and credible reason existing alternatives fail.",
+        "Choose a low-cost differentiation wedge (availability, price, experience, distribution or technology).",
+        "Test channel, willingness to pay, ownership and contribution margin before building."
+      ],
+      "supporting_source_urls": [
+        "https://job-boards.greenhouse.io/agency/jobs/4655768101",
+        "https://jobs.lever.co/weloglobal/?location=Santiago%2C+Chile"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Hourly contractor payment for accepted evaluation and language-quality work; no guaranteed income, minimum hours, or continuity is evidenced.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -5610,7 +5722,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-30T04:23:42.458605+00:00",
+  "generated_at": "2026-10-30T14:51:01.790460+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

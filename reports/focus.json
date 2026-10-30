@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-10-30T04:23:42.360193+00:00",
+  "generated_at": "2026-10-30T14:51:01.618672+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -104,14 +104,14 @@
   "high_concentration": [
     {
       "cards": 62,
-      "share": 0.422,
+      "share": 0.413,
       "theme": "chile_open_finance"
     }
   ],
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 64,
+  "theme_count": 67,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -522,6 +522,15 @@
     },
     {
       "all_opportunity_ids": [
+        "opp_042d45b316edf1e31943"
+      ],
+      "count": 1,
+      "representative_id": "opp_042d45b316edf1e31943",
+      "reviewed_count": 0,
+      "theme": "general:paid_spanish_ai"
+    },
+    {
+      "all_opportunity_ids": [
         "opp_7209beea24406589b8bc"
       ],
       "count": 1,
@@ -537,6 +546,24 @@
       "representative_id": "opp_b835724445c10f768057",
       "reviewed_count": 1,
       "theme": "general:remote_spanish_language"
+    },
+    {
+      "all_opportunity_ids": [
+        "opp_35d7117f3239a6863a58"
+      ],
+      "count": 1,
+      "representative_id": "opp_35d7117f3239a6863a58",
+      "reviewed_count": 1,
+      "theme": "general:spanish_ai_language"
+    },
+    {
+      "all_opportunity_ids": [
+        "opp_4ad89bd755e3b8334653"
+      ],
+      "count": 1,
+      "representative_id": "opp_4ad89bd755e3b8334653",
+      "reviewed_count": 0,
+      "theme": "general:specific_voice_data"
     },
     {
       "all_opportunity_ids": [
@@ -773,6 +800,6 @@
       "theme": "robotics_agritech:water_efficiency_field"
     }
   ],
-  "total_original_cards": 147,
+  "total_original_cards": 150,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }
