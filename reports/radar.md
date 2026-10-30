@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-29T21:16:38.336787+00:00
+Generated: 2026-10-30T06:07:49.008684+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 161
+- New this cycle: 155
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): none
-- Categories: agriculture 478, ai 94, energy 467, robotics 761
+- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
+- Categories: agriculture 485, ai 95, energy 465, robotics 755
 
 ## Recently encountered signals
+
+### rinapatil1402/Smart-agriculture-automation-system-project-
+- Source: https://github.com/rinapatil1402/Smart-agriculture-automation-system-project-
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### itssharang94k/AI-Smart-Farming-Assistant
 - Source: https://github.com/itssharang94k/AI-Smart-Farming-Assistant
@@ -378,6 +384,18 @@ Generated: 2026-10-29T21:16:38.336787+00:00
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
+### Vertical Farming: Reimagining Agriculture in an Urban Age
+- Source: https://worldsensorium.com/vertical-farming-reimagining-agriculture-in-an-urban-age/
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### akshayprabhu2008-cpu/UZHAVAN-AGRI-BOT
+- Source: https://github.com/akshayprabhu2008-cpu/UZHAVAN-AGRI-BOT
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
 ### Battery degradation and energy storage optimization in building photovoltaic storage systems considering cycle–calendar aging and temperature effects
 - Source: https://doi.org/10.1016/j.enbuild.2026.118444
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
@@ -442,22 +460,4 @@ Generated: 2026-10-29T21:16:38.336787+00:00
 - Source: https://github.com/Xavier0707/krishimitra
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Assessing the Value of Battery Energy Storage in Day-Ahead and Intraday Electricity Markets for Wind Energy Suppliers
-- Source: https://doi.org/10.1016/j.ifacol.2026.10.064
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### A review of immersion cooling for lithium-ion battery energy storage systems: thermal performance and scale-up challenges
-- Source: https://doi.org/10.1016/j.applthermaleng.2026.133823
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Impact Analysis of Battery Energy Storage System and Demand Response in Microgrid
-- Source: https://doi.org/10.3390/en19215105
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
