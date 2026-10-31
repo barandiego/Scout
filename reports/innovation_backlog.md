@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 152
+Candidates: 153
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -255,6 +255,18 @@ Candidates: 152
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.bcn.cl/leychile/navegar?i=1212631; https://www.cne.cl/tarificacion/electrica/
+
+## Battery-materials grant application and partner-screening support around DOE processing and recycling awards
+- Status: watch | energy_infrastructure
+- Current idea: The verifiable cash-flow source is federal project funding, but eligibility and project scale make direct participation unsuitable for most independents. A narrower wedge is evidence-backed partner, feedstock, equipment, or permitting research for applicants and selected project developers.
+- Potential economic capture: A research deliverable or qualified-introduction workflow supporting an eligible applicant’s feedstock mapping, vendor screening, site comparison, or grant-document evidence collection. No grant award, buyer, price, or permission for brokerage was verified.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.energy.gov/cmei/manufacturing/battery-manufacturing-and-recycling-grants; https://www.energy.gov/articles/energy-department-announces-500-million-secure-americas-critical-mineral-and-battery
 
 ## BESS and inverter compliance pre-check for Chilean distributed-energy projects
 - Status: watch | energy_infrastructure

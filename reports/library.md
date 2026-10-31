@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-31T14:18:39.207196+00:00
+Generated: 2026-10-31T19:44:28.715570+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 152 (0 HQ survivors, 152 watches)
-- Rejected opportunities excluded: 86
+- Active research: 153 (0 HQ survivors, 153 watches)
+- Rejected opportunities excluded: 88
 - Critic-and-judge reviewed: 71
 - Autonomous execution authorization: 0
 
@@ -962,6 +962,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://jobs.telusdigital.com/search/cfm3/russian-spanish/cfm5/ai-community/jobs/in/country/chile?ns_category=artificial-intelligence; https://www.sii.cl/destacados/iva_bienes/plataformas_inscritas/
+
+### Battery-materials grant application and partner-screening support around DOE processing and recycling awards [opp_99cbde4d890de7c2b82f]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States
+- Thesis: The verifiable cash-flow source is federal project funding, but eligibility and project scale make direct participation unsuitable for most independents. A narrower wedge is evidence-backed partner, feedstock, equipment, or permitting research for applicants and selected project developers.
+- Value capture: A research deliverable or qualified-introduction workflow supporting an eligible applicant’s feedstock mapping, vendor screening, site comparison, or grant-document evidence collection. No grant award, buyer, price, or permission for brokerage was verified.
+- Participation hypothesis: Select one announced project category, compile a 10-item evidence table of potential feedstock suppliers, equipment vendors, or regional service providers using public records, and send it unsolicited to the project entity or its publicly identified partners. Falsify after 10 targeted contacts if no recipient confirms a current procurement, diligence, or partnership need. Do not claim DOE affiliation, grant eligibility, or access to confidential procurement processes.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.energy.gov/cmei/manufacturing/battery-manufacturing-and-recycling-grants; https://www.energy.gov/articles/energy-department-announces-500-million-secure-americas-critical-mineral-and-battery
 
 ### BESS procurement evidence pack focused on supply-chain and grid-support requirements [opp_821fe989c63ca8db797f]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States

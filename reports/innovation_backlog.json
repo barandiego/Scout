@@ -772,6 +772,42 @@
       "category": "energy_infrastructure",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Select one announced project category, compile a 10-item evidence table of potential feedstock suppliers, equipment vendors, or regional service providers using public records, and send it unsolicited to the project entity or its publicly identified partners. Falsify after 10 targeted contacts if no recipient confirms a current procurement, diligence, or partnership need. Do not claim DOE affiliation, grant eligibility, or access to confidential procurement processes.",
+      "current_thesis": "The verifiable cash-flow source is federal project funding, but eligibility and project scale make direct participation unsuitable for most independents. A narrower wedge is evidence-backed partner, feedstock, equipment, or permitting research for applicants and selected project developers.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Battery-materials grant application and partner-screening support around DOE processing and recycling awards",
+      "opportunity_id": "opp_99cbde4d890de7c2b82f",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
+        "Compare owned asset, installer/distributor and project-finance participation.",
+        "Verify permits and installed net payback under conservative power price scenarios."
+      ],
+      "supporting_source_urls": [
+        "https://www.energy.gov/cmei/manufacturing/battery-manufacturing-and-recycling-grants",
+        "https://www.energy.gov/articles/energy-department-announces-500-million-secure-americas-critical-mineral-and-battery"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A research deliverable or qualified-introduction workflow supporting an eligible applicant’s feedstock mapping, vendor screening, site comparison, or grant-document evidence collection. No grant award, buyer, price, or permission for brokerage was verified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "energy_infrastructure",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use the SEC's public installer and technical-documentation pages to identify 10 authorized distributed-generation installers. Send a one-page sample checklist covering RGR N°06/2024, AFCI status, equipment authorization and required filing fields. Ask whether they would pay for one review of a real but anonymized project, without promising approval. Test with one paid or explicitly unpaid pilot only after the installer confirms the scope. Falsify if installers report that they already perform the review internally, will not share a redacted equipment list, or do not value error reduction enough to accept a trial. Do not install, certify or submit electrical work without the required authorization.",
       "current_thesis": "A narrow, testable asset is a paid pre-check package for installers or project owners: collect equipment datasheets, compare the proposed battery/PCE/inverter configuration against the current SEC checklist, identify missing AFCI or documentation items, and produce a submission-ready gap list. The mechanism is avoided rework or rejected filings, not speculative battery arbitrage. The operator must avoid representing itself as an authorized electrical installer unless it actually has that authorization.",
       "founder_hours_initial_unverified_estimate": "",
@@ -5795,7 +5831,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-31T14:18:39.319645+00:00",
+  "generated_at": "2026-10-31T19:44:28.826510+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"
