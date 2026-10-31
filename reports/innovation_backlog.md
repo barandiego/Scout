@@ -184,18 +184,6 @@ Candidates: 153
 - Possible initial budget:
 - Source URLs: https://sagnikbhattacharya.com/blog/ai-visual-inspection-cost; https://automationsolinc.com/resources/blog/small-scale-retrofits-a-smart-bridge-to-automation-reliability/
 
-## Chile beauty replenishment and gifting bundles around Natura’s new Falabella channel
-- Status: watch | ecommerce_niches
-- Current idea: A new high-intent marketplace destination creates a testable opening for narrowly defined bundles, comparison-led gifting pages, or replenishment assortments rather than a broad beauty store. The opportunity depends on acquiring inventory legally and proving that bundle convenience or price transparency produces paid demand after marketplace fees, shipping and returns.
-- Potential economic capture: Purchase-and-resale spread or bundle markup on compliant, authorized inventory; alternatively, commission or referral revenue only if the relevant marketplace or supplier program explicitly permits it. No margin or permission is assumed.
-- **Research routes to test (NOT validated claims):**
-  - Target a specific neglected customer subgroup with a measurable unmet product requirement.
-  - Compare imported/private-label, inventoryless fulfillment and existing domestic suppliers after landed costs.
-  - Test one narrower search/intention channel before expanding catalog or buying inventory.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://www.natura.cl/c/home; https://www.falabella.com/falabella-cl/seller/Natura
-
 ## Narrow Chilean e-commerce returns-recovery test for one product category
 - Status: watch | ecommerce_niches
 - Current idea: There may be recoverable value in returned, refused, or lightly damaged inventory, but the evidence does not establish a standalone Chilean market, buyer, or margin. The executable wedge is a tightly bounded consignment experiment with one seller and one category, not a broad returns marketplace.
@@ -1155,6 +1143,18 @@ Candidates: 153
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
+## Chile SFA technical-conformance test harness for July 2027 implementation
+- Status: watch | open_finance_chile
+- Current idea: Financial institutions and regulated SFA participants have a defined implementation deadline and technical requirements. A reusable conformance and regression-testing asset could reduce integration rework before production participation; this is narrower and more executable than general fintech consulting.
+- Potential economic capture: Sell or license a test package containing API contract tests, consent-flow test cases, schema-diff monitoring, error-condition fixtures, and implementation checklists aligned to the CMF technical annex. The potential payer is an entity preparing to participate in or connect to the SFA; no specific buyer, purchase order, or price was identified in the evidence.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html; https://www.cmfchile.cl/educa/621/w3-article-85051.html
 
 ## Chile SFA/ATENA conformance test harness for early interoperability testing
 - Status: watch | open_finance_chile

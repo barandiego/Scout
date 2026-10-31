@@ -6500,6 +6500,67 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-31T23:05:04.911508+00:00",
+      "discovery_lens": "open_finance_chile",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The CMF states that the June 1, 2026 amendment adds Annex No. 3 with technical specifications, publishes a Developers’ Portal, and postpones entry into force until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "CMF NCG 514 regulates Chile’s Open Finance System and is listed as vigente.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Norma de Carácter General N°514",
+          "url": "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html"
+        },
+        {
+          "claim": "CMF describes consented data exchange through remote automated interfaces and identifies competition, lower access costs, and improved product conditions as intended effects.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "¿Qué son las finanzas abiertas?",
+          "url": "https://www.cmfchile.cl/educa/621/w3-article-85051.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.93,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_fb3cadb8fae90ba9ffb4",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-31T23:05:04.941367+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use only the publicly available CMF NCG 514 materials, technical annex, and Developers’ Portal to build a minimal local test harness for the documented interfaces. Validate whether the schemas and requirements are sufficiently complete by implementing five to ten contract tests and publishing a redacted demonstration. Then request technical clarification or sandbox-access information through the official portal or CMF contact route; do not represent the harness as certified or sell it until a prospective participant confirms that the tests map to its implementation work. Lowest-cost falsification: spend one day attempting to implement the core schemas and consent/error flows; abandon the wedge if the public specifications are too incomplete to produce repeatable tests or if prospective participants do not confirm a concrete testing need.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Financial institutions and regulated SFA participants have a defined implementation deadline and technical requirements. A reusable conformance and regression-testing asset could reduce integration rework before production participation; this is narrower and more executable than general fintech consulting.",
+      "title": "Chile SFA technical-conformance test harness for July 2027 implementation",
+      "type": "software_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell or license a test package containing API contract tests, consent-flow test cases, schema-diff monitoring, error-condition fixtures, and implementation checklists aligned to the CMF technical annex. The potential payer is an entity preparing to participate in or connect to the SFA; no specific buyer, purchase order, or price was identified in the evidence.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-28T10:29:10.101850+00:00",
       "discovery_lens": "geographic_arbitrage",
       "estimated_capital": "",
@@ -8001,60 +8062,6 @@
       "value_capture_mechanism": "Offer a narrowly scoped, fixed-output API conformance or sandbox-readiness assessment using the public CMF documentation. Any payment, buyer, permissions, production access, or regulatory status must be confirmed directly; the public evidence does not establish them.",
       "verified_sales": null,
       "vertical": "open_finance_chile",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
-      "discovered_at": "2026-10-18T04:20:53.374895+00:00",
-      "discovery_lens": "business_model_migration",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "Natura’s Chilean site displays current product prices and promotions for fragrance, body, hair and facial-care products, establishing observable consumer price points.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Natura Chile official online store",
-          "url": "https://www.natura.cl/c/home"
-        },
-        {
-          "claim": "Falabella maintains a distinct official Natura seller page, confirming an active marketplace storefront that can be monitored for catalog, availability and pricing.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Natura seller page on Falabella Chile",
-          "url": "https://www.falabella.com/falabella-cl/seller/Natura"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.78,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_3b6c4274052085a9b5b0",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-18T04:20:53.401874+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "First, verify Falabella seller eligibility, category restrictions, brand/resale requirements, fees, fulfillment terms and whether Natura products may be resold. Obtain written supplier authorization or use only products for which resale rights are documented. Then create one small test assortment—such as a fragrance/body-care gift bundle or a repeat-purchase body-care set—using no more than 5–10 SKUs whose individual prices and stock can be observed on Natura.cl and Falabella. List only through an approved seller route, or run a compliant landing-page/preorder test if marketplace approval is unavailable. Falsify the wedge by spending the minimum required to collect 10–20 qualified purchase-intent actions or a small number of paid orders; stop if authorization cannot be obtained, acquisition cost exceeds the documented contribution margin, or customers do not choose the bundle over individual products.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "A new high-intent marketplace destination creates a testable opening for narrowly defined bundles, comparison-led gifting pages, or replenishment assortments rather than a broad beauty store. The opportunity depends on acquiring inventory legally and proving that bundle convenience or price transparency produces paid demand after marketplace fees, shipping and returns.",
-      "title": "Chile beauty replenishment and gifting bundles around Natura’s new Falabella channel",
-      "type": "marketplace_distribution_wedge",
-      "unknowns": [],
-      "value_capture_mechanism": "Purchase-and-resale spread or bundle markup on compliant, authorized inventory; alternatively, commission or referral revenue only if the relevant marketplace or supplier program explicitly permits it. No margin or permission is assumed.",
-      "verified_sales": null,
-      "vertical": "ecommerce_niches",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -10816,13 +10823,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-31T19:44:28.715570+00:00",
+  "generated_at": "2026-10-31T23:05:20.421779+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 88,
+  "rejected_excluded": 89,
   "reviewed_cards": 71,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 241,
+  "total_distinct_opportunities": 242,
   "watch": 153
 }

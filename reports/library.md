@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-31T19:44:28.715570+00:00
+Generated: 2026-10-31T23:05:20.421779+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
 - Active research: 153 (0 HQ survivors, 153 watches)
-- Rejected opportunities excluded: 88
+- Rejected opportunities excluded: 89
 - Critic-and-judge reviewed: 71
 - Autonomous execution authorization: 0
 
@@ -763,6 +763,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html; https://www.bcentral.cl/documents/33528/7849961/Informe%2Bde%2BEstabilidad%2BFinanciera%2BSegundo%2BSemestre%2B2025.pdf/15e2cf9a-a349-21e8-9989-7660445cddf6?t=1763148232836
 
+### Chile SFA technical-conformance test harness for July 2027 implementation [opp_fb3cadb8fae90ba9ffb4]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Financial institutions and regulated SFA participants have a defined implementation deadline and technical requirements. A reusable conformance and regression-testing asset could reduce integration rework before production participation; this is narrower and more executable than general fintech consulting.
+- Value capture: Sell or license a test package containing API contract tests, consent-flow test cases, schema-diff monitoring, error-condition fixtures, and implementation checklists aligned to the CMF technical annex. The potential payer is an entity preparing to participate in or connect to the SFA; no specific buyer, purchase order, or price was identified in the evidence.
+- Participation hypothesis: Use only the publicly available CMF NCG 514 materials, technical annex, and Developers’ Portal to build a minimal local test harness for the documented interfaces. Validate whether the schemas and requirements are sufficiently complete by implementing five to ten contract tests and publishing a redacted demonstration. Then request technical clarification or sandbox-access information through the official portal or CMF contact route; do not represent the harness as certified or sell it until a prospective participant confirms that the tests map
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html; https://www.cmfchile.cl/educa/621/w3-article-85051.html
+
 ### Chile SFA/ATENA interoperability test harness for small participating entities [opp_1e211b9f8b40a404bf8c]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: Entities that intend to participate have a defined technical target and a public test environment before production. A narrowly scoped, reusable test harness could reduce integration and conformance-testing work without requiring the operator to become a regulated financial participant.
@@ -1022,16 +1032,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812
-
-### Chile beauty replenishment and gifting bundles around Natura’s new Falabella channel [opp_3b6c4274052085a9b5b0]
-- Status: WATCH_REQUIRES_VALIDATION | ecommerce_niches | Chile
-- Thesis: A new high-intent marketplace destination creates a testable opening for narrowly defined bundles, comparison-led gifting pages, or replenishment assortments rather than a broad beauty store. The opportunity depends on acquiring inventory legally and proving that bundle convenience or price transparency produces paid demand after marketplace fees, shipping and returns.
-- Value capture: Purchase-and-resale spread or bundle markup on compliant, authorized inventory; alternatively, commission or referral revenue only if the relevant marketplace or supplier program explicitly permits it. No margin or permission is assumed.
-- Participation hypothesis: First, verify Falabella seller eligibility, category restrictions, brand/resale requirements, fees, fulfillment terms and whether Natura products may be resold. Obtain written supplier authorization or use only products for which resale rights are documented. Then create one small test assortment—such as a fragrance/body-care gift bundle or a repeat-purchase body-care set—using no more than 5–10 SKUs whose individual prices and stock can be observed on Natura.cl and Falabella. List only through an approved seller route, or run a compliant landi
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.natura.cl/c/home; https://www.falabella.com/falabella-cl/seller/Natura
 
 ### Chile Open Finance cash-flow underwriting adapter for MSME lenders [opp_d6ffaf44890e8156d04e]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile

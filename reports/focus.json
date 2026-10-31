@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-10-31T19:44:28.715570+00:00",
+  "generated_at": "2026-10-31T23:05:20.421779+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -21,7 +21,7 @@
     },
     {
       "opportunity_id": "opp_f26e42aaabb91e157f9d",
-      "other_cards_in_theme": 62,
+      "other_cards_in_theme": 63,
       "reviewed": true,
       "status": "watch",
       "theme": "chile_open_finance",
@@ -103,15 +103,15 @@
   "headline_count": 12,
   "high_concentration": [
     {
-      "cards": 63,
-      "share": 0.412,
+      "cards": 64,
+      "share": 0.418,
       "theme": "chile_open_finance"
     }
   ],
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 68,
+  "theme_count": 67,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -158,6 +158,7 @@
         "opp_feeb29504969ee6e91ea",
         "opp_68b251b56fcd3101a22e",
         "opp_1e211b9f8b40a404bf8c",
+        "opp_fb3cadb8fae90ba9ffb4",
         "opp_993ac5d080c7042af44c",
         "opp_82f282d8dc0896390ee7",
         "opp_202d7778855e693fe04b",
@@ -179,7 +180,7 @@
         "opp_8c21e3ab01eded9b19de",
         "opp_92eda67d89877601fa5b"
       ],
-      "count": 63,
+      "count": 64,
       "representative_id": "opp_f26e42aaabb91e157f9d",
       "reviewed_count": 39,
       "theme": "chile_open_finance"
@@ -368,15 +369,6 @@
       "representative_id": "opp_1e56231188a972422e29",
       "reviewed_count": 0,
       "theme": "document_extraction"
-    },
-    {
-      "all_opportunity_ids": [
-        "opp_3b6c4274052085a9b5b0"
-      ],
-      "count": 1,
-      "representative_id": "opp_3b6c4274052085a9b5b0",
-      "reviewed_count": 0,
-      "theme": "ecommerce_niches:beauty_replenishment_gifting"
     },
     {
       "all_opportunity_ids": [

@@ -1,15 +1,15 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-31T19:44:28.335164+00:00
+Generated: 2026-10-31T23:05:20.113315+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['mining_materials', 'tokenization_finance', 'business_model_migration']
-- raw_candidates: 3
-- parseable_candidates: 3
-- normalized_candidates: 3
+- lenses: ['cost_curve', 'open_finance_chile', 'adoption_lag']
+- raw_candidates: 1
+- parseable_candidates: 1
+- normalized_candidates: 1
 - normalization_rejected: 0
-- grounded_sources: 5
+- grounded_sources: 3
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 0
@@ -17,12 +17,12 @@ Generated: 2026-10-31T19:44:28.335164+00:00
 - judge_reviews: 0
 - survivors: 0
 - watches: 1
-- rejected: 2
+- rejected: 1
 - errors_by_stage: {}
-- rejection_reasons: {'discarded_ungrounded_url': 1, 'insufficient_unique_evidence': 1}
-- cost_usd: 0.0294588
+- rejection_reasons: {}
+- cost_usd: 0.0291587
 - cost_uncertain: False
-- budget_remaining_usd: 0.0505412
+- budget_remaining_usd: 0.0508413
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Chile SFA conformance and consent-flow testing for smaller regulated participants: The regulatory premise is sufficiently grounded by CMF primary materials: NCG 514 is in force and the cited amendment/technical annex, sandbox, developer portal, simplified participation, and staged timing are plausible. The proposed work can operate against consented test/sandbox environments, so there is no demonstrated legal or technical data-access fatality. However, this is not yet HQ-worthy as a standalone service asset: the official sandbox and published technical requirements may commoditize the core checklist, smaller entities may face reduced obligations or outsource implementation, and there is no validated buyer, budget, paid demand, or durable differentiation against local integrators, cybersecurity firms, core vendors, and internal teams. It survives only as a tightly scoped pre-build validation wedge: paid conformance-readiness assessment for a specific regulated role and API flow, contingent on buyer evidence.
 - Supply and support an agricultural spraying drone for INIA/Atacama public procurement: deferred_by_review_cap
 - Pre-compliance integration and testing package for Chile’s Open Finance System: deferred_by_review_cap
 - Energy-performance verification for desalination and seawater-pumping systems in Chilean mining: deferred_by_review_cap
@@ -51,12 +50,13 @@ No survivors. Scout does not manufacture a daily winner.
 - Interconnection-queue heatmap and cluster-readiness screening dataset for battery and solar developers: deferred_by_review_cap
 - Chile Open Finance technical-conformance test harness for prospective participants: deferred_by_review_cap
 - Battery-materials grant application and partner-screening support around DOE processing and recycling awards: deferred_by_review_cap
+- Chile SFA technical-conformance test harness for July 2027 implementation: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=fresh",
+    "deep_review_lane=backlog",
     "research_queue_unreviewed=76"
   ],
   "stages": [
@@ -65,27 +65,34 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 19,
+      "grounded_source_count": 26,
       "search_source_urls": [
-        "https://cmfchile.cl/portal/principal/613/articles-86367_doc_pdf.pdf",
-        "https://github.com/keptinventory/kept",
-        "https://github.com/openai/math/tree/main/preprints/Incompressible-Box-Transport-and-Finite-Computation-October-6-2026",
-        "https://infrastructure-exchange.energy.gov/FileContent.aspx?FileID=41098a1f-4a43-4e84-b9b8-26ea63ac883c",
-        "https://infrastructure-exchange.energy.gov/FileContent.aspx?FileID=a6f0eee5-af23-46ad-b8d2-715e3563e3d7",
+        "https://arxiv.org/abs/2408.05499",
+        "https://arxiv.org/abs/2504.11816",
+        "https://arxiv.org/abs/2604.09613",
+        "https://arxiv.org/abs/2610.37989",
+        "https://cmfchile.cl/portal/principal/613/articles-83372_doc_pdf.pdf",
+        "https://en.wikipedia.org/wiki/FarmWise",
+        "https://fira-usa.com/wp-content/uploads/2025/10/FIRA-2025-Final-Press-Release.pdf",
+        "https://ieeexplore.ieee.org/abstract/document/10763697",
+        "https://ieeexplore.ieee.org/document/11095716/",
+        "https://proceedings.mlr.press/v258/bharti25a.html",
+        "https://pure.kaist.ac.kr/en/publications/a-simulator-for-llm-inference-systems-exploiting-cxl-memory-pools/",
+        "https://www.bcentral.cl/es/preguntas-frecuentes",
+        "https://www.cmfchile.cl/educa/621/w3-article-85051.html",
         "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html",
-        "https://www.cmfchile.cl/portal/prensa/615/articles-99378_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-102547.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html",
         "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
-        "https://www.energy.gov/articles/energy-department-announces-500-million-secure-americas-critical-mineral-and-battery",
-        "https://www.energy.gov/articles/energy-department-announces-500-million-strengthen-domestic-critical-materials-processing?trk=article-ssr-frontend-pulse_little-text-block",
-        "https://www.energy.gov/cmei/find-funding-opportunities-critical-minerals-and-energy-innovation",
-        "https://www.energy.gov/cmei/manufacturing/battery-manufacturing-and-recycling-grants",
-        "https://www.energy.gov/mesc/funding",
-        "https://www.sec.gov/files/cft-written-wall-street-blockchain-august-2026.pdf?trk=article-ssr-frontend-pulse_little-text-block",
-        "https://www.sec.gov/files/rules/sro/nysetex/2026/34-105338.pdf"
+        "https://www.globenewswire.com/news-release/2025/04/22/3065725/0/en/Aigen-Launches-Next-Generation-Element-Robots-for-Weeding-in-Partnership-with-Bowles-Farming-Company.html",
+        "https://www.greenbeam.us/",
+        "https://www.haggertyagrobotics.com/farmdroid-fd20",
+        "https://www.lccmr.mn.gov/projects/2024/approved_work_plans/2024-076_approved_workplan.pdf",
+        "https://www.ndsu.edu/agriculture/sites/default/files/2026-02/2026%20ACAW%20ANDERSON%20Robotic%20Weeding%20PPT.pdf",
+        "https://www.reddit.com/r/AgriTech/comments/1wwguu8/ndsu_rowcrop_robot_achieves_965_weeding_accuracy/",
+        "https://www.reddit.com/r/RobotMowerAdvice/comments/1xbssnl/pandag_g1_returns_to_equip_expo_with_two_48inch/",
+        "https://www.reddit.com/r/robotics/comments/1kxmal0/we_built_weedwarden_an_autonomous_weed_control/",
+        "https://www.sciencedirect.com/science/article/pii/S0743731526001280",
+        "https://www.usda.gov/sites/default/files/documents/AOF-2024-Shutske-Khana-Roblee-Robotics.pdf",
+        "https://www.usenix.org/system/files/atc21-romero.pdf"
       ]
     },
     {
@@ -100,104 +107,81 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 2,
-      "retry_justified": false
-    },
-    {
-      "index": 1,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 2,
-      "retry_justified": false
-    },
-    {
-      "index": 2,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [
-        "discarded_ungrounded_url"
-      ],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 1,
+      "grounded_sources": 3,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_1d6dfa8f89544a606315",
+      "candidate_id": "opp_3b6c4274052085a9b5b0",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 20,
+      "grounded_source_count": 27,
       "search_source_urls": [
-        "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=f91f133e-cc24-401b-9e65-e37cc9fd1613",
-        "https://cmfchile.cl/portal/principal/623/w4-article-108561.html",
-        "https://cmfchile.cl/portal/principal/623/w4-article-92466.html",
-        "https://en.wikipedia.org/wiki/Open_finance",
-        "https://openfinanceconnect.cl/en/registro-gratuito/",
-        "https://openfinanceconnect.cl/registro-gratuito/",
-        "https://www.cgap.org/research/publication/open-finance-oversight-and-supervision-emerging-practices-and-early-lessons",
-        "https://www.cmfchile.cl/portal/prensa/615/articles-110411_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html?trk=article-ssr-frontend-pulse_little-text-block",
-        "https://www.cmfchile.cl/portal/principal/613/articles-100816_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/articles-102557_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/articles-92466_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/articles-96504_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-96504.html",
-        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000069/MNCenglish.pdf"
+        "https://ayudaseller.falabella.com/articles/es/Knowledge/Comisiones-de-venta-Chile",
+        "https://ayudaseller.falabella.com/articles/es/Knowledge/Comisiones-de-venta-Chile",
+        "https://ayudaseller.falabella.com/articles/es/Knowledge/Preguntas-frecuentes-de-Fulfillment-by-Falabella-Chile",
+        "https://comercioelectronico.lat/guias/como-vender-en-falabella-chile-seller-center-2026/",
+        "https://comunicacion.falabella.com/CL/TyC/2024/14082024-FCOM-IMP-TermsandConditions-Sellers-ENG-IMP-PE-CL.pdf",
+        "https://comunicacion.falabella.com/sellers_internacionales/20242406Fees_Payment_Policy.pdf",
+        "https://es.wikipedia.org/wiki/Falabella",
+        "https://ispch.gob.cl/pregunta-frecuente/p-139/",
+        "https://ispch.gob.cl/pregunta-frecuente/p-139/",
+        "https://registro.natura.com/cl/quiero-ser-consultora/",
+        "https://registro.natura.com/cl/quiero-ser-consultora/",
+        "https://sellercenter.falabella.com/templates/default/files/terminos_y_condiciones_marketplace_falabella.pdf",
+        "https://sellercenter.falabella.com/terms_and_conditions_mkp",
+        "https://sellercenter.falabella.com/terms_and_conditions_mkp",
+        "https://www.cuatrecasas.com/resources/doing-business-in-chile-2025-edition-6960ac12a6081077788914.pdf?v1.95.2.20260116=",
+        "https://www.cuatrecasas.com/resources/doing-business-in-chile-2025-edition-6960ac12a6081077788914.pdf?v1.95.2.20260116=",
+        "https://www.falabella.com/falabella-cl/page/cuanto-cuesta-vender-en-falabella?trk=public_post_comment-text",
+        "https://www.falabella.com/falabella-cl/seller/Natura",
+        "https://www.falabella.com/falabella-cl/seller/Natura",
+        "https://www.natura.cl/condiciones-cupones",
+        "https://www.naturabrasil.com/pages/faqs",
+        "https://www.naturabrasil.com/policies/terms-of-service",
+        "https://www.naturabrasil.com/policies/terms-of-service",
+        "https://www.persuade.cl/blog/falabella-marketplace-seller-guia",
+        "https://www.reddit.com/r/AmazonASGTGSellers/comments/1myz9m4",
+        "https://www.reddit.com/r/chile/comments/1rdfb90/rant_falabella/",
+        "https://www.reddit.com/r/chile/comments/zave2x"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_1d6dfa8f89544a606315",
-      "coercions": []
+      "candidate_id": "opp_3b6c4274052085a9b5b0",
+      "coercions": [
+        "critic_case"
+      ]
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 168,
-      "cache_write_tokens": 5497,
+      "reasoning_tokens": 449,
+      "cache_write_tokens": 5445,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01504285,
+      "cumulative_cost_usd": 0.01434145,
       "model": "gpt-5.6-luna",
-      "input_tokens": 14012,
+      "input_tokens": 13746,
       "cached_tokens": 0,
-      "output_tokens": 1638,
+      "output_tokens": 1100,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01504285
+      "estimated_cost_usd": 0.01434145
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 179,
-      "cache_write_tokens": 5251,
+      "reasoning_tokens": 152,
+      "cache_write_tokens": 5249,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0294588,
+      "cumulative_cost_usd": 0.0291587,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13675,
+      "input_tokens": 13486,
       "cached_tokens": 0,
-      "output_tokens": 1182,
+      "output_tokens": 1548,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01441595
+      "estimated_cost_usd": 0.01481725
     }
   ]
 }
