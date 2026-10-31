@@ -1,14 +1,14 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-30T20:56:42.554909+00:00
+Generated: 2026-10-31T06:02:06.742540+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 195
+- New this cycle: 171
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): none
-- Categories: agriculture 494, ai 93, energy 479, robotics 734
+- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
+- Categories: agriculture 496, ai 101, energy 477, robotics 726
 
 ## Recently encountered signals
 
@@ -402,6 +402,12 @@ Generated: 2026-10-30T20:56:42.554909+00:00
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
+### Siddharthsheri/Krishi_Mitra
+- Source: https://github.com/Siddharthsheri/Krishi_Mitra
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
 ### jyotimnaik29-max/FARMERWEB
 - Source: https://github.com/jyotimnaik29-max/FARMERWEB
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
@@ -452,12 +458,6 @@ Generated: 2026-10-30T20:56:42.554909+00:00
 
 ### splusq/homebridge-span-matter
 - Source: https://github.com/splusq/homebridge-span-matter
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Dynamic Performance Analysis of a Sustainable Grid-Connected Hybrid PV–Wind EV Charging Station with Battery Energy Storage
-- Source: https://doi.org/10.1109/icimia69818.2026.11744937
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
