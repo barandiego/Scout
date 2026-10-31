@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 151
+Candidates: 152
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -304,18 +304,6 @@ Candidates: 151
 - Possible initial budget:
 - Source URLs: https://zenodo.org/records/21652187; https://doi.org/10.3390/en19020334
 
-## Commercial battery dispatch and performance verification for four-hour storage projects
-- Status: watch | energy_infrastructure
-- Current idea: As projects shift from simple backup toward energy shifting and grid services, owners need evidence that installed capacity, state of charge, availability and dispatch performance match contracted or market requirements. A narrow independent wedge is third-party data reconciliation and monthly performance verification using inverter, EMS, meter and market-settlement exports; it is not battery ownership or speculative arbitrage.
-- Potential economic capture: Potential cash flow is a fixed-fee verification or diagnostic engagement paid by an owner, operator, lender, insurer or EPC contractor. The sources verify the operational trend and system-value need, not a standard price or guaranteed customer demand.
-- **Research routes to test (NOT validated claims):**
-  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
-  - Compare owned asset, installer/distributor and project-finance participation.
-  - Verify permits and installed net payback under conservative power price scenarios.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage; https://www.iea.org/commentaries/battery-storage-is-scaling-up-and-taking-on-a-larger-system-role
-
 ## Congestion-aware battery and demand-response screening for constrained Chilean nodes
 - Status: watch | energy_infrastructure
 - Current idea: A testable wedge is a paid screening product for renewable generators, large electricity users, landowners or engineering firms: identify sites where a battery, flexible load or local generation project might reduce curtailment, improve reliability or exploit time/location price differences. This is project origination and measurement, not a claim that a small operator can trade electricity or operate storage without regulatory and technical partners.
@@ -351,6 +339,18 @@ Candidates: 151
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.energy.gov/mesc/industrial-research-and-assessment-center-implementation-grant-awards; https://www.energy.gov/sites/default/files/2023-08/CX-028489.pdf
+
+## Interconnection-queue heatmap and cluster-readiness screening dataset for battery and solar developers
+- Status: watch | energy_infrastructure
+- Current idea: Developers must spend more effort before entering or remaining in an interconnection queue, while public heatmaps and queue data create a basis for structured site-screening and withdrawal-risk analysis. The opportunity is not generic consulting: it is a repeatable dataset that ranks candidate nodes and flags readiness, deposit, queue, and upgrade-risk conditions.
+- Potential economic capture: A paid downloadable or subscription dataset containing normalized queue records, heatmap extracts, cluster boundaries, site-control/readiness fields, and a reproducible screening score. A separate paid one-project screening may be possible, but no buyer, price, or conversion rate is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://ferc.gov/explainer-interconnection-final-rule; https://ferc.gov/news-events/news/fact-sheet-improvements-generator-interconnection-procedures-and-agreements
 
 ## Interconnection-queue intelligence as a paid research asset for project developers
 - Status: watch | energy_infrastructure
@@ -891,6 +891,18 @@ Candidates: 151
 - Critical gaps: Whether ATENA is free, sufficiently complete and available to every relevant participant, and whether it exposes enough functionality for external vendors to build differentiated tooling.; Whether CMF or industry bodies will define an official certification, conformance-test format or evidence package that buyers must obtain.; The number of smaller institutions and fintechs that will actually be required to participate, their implementation budgets and their decision-making timelines.
 - Possible initial budget:
 - Source URLs: https://cmfchile.cl/portal/prensa/625/w4-article-113897.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html
+
+## Chile Open Finance technical-conformance test harness for prospective participants
+- Status: watch | open_finance_chile
+- Current idea: Prospective participants have a defined implementation deadline and technical material against which integrations can be tested. A narrow opportunity is an independent conformance harness that validates request formats, consent flows, registration, error handling, and payment-initiation scenarios against the published specification before formal participation.
+- Potential economic capture: A self-serve test package or paid implementation-validation run based only on the published CMF specification. No fee, buyer commitment, certification authority, or permission to access production systems is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html
 
 ## Chile Open-Finance conformance and integration test harness
 - Status: watch | open_finance_chile

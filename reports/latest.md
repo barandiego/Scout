@@ -1,10 +1,10 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-10-31T04:02:54.219457+00:00
+Generated: 2026-10-31T14:18:38.832511+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['ai_open_source', 'public_markets', 'physical_commerce']
+- lenses: ['regulation_infrastructure', 'robotics_automation', 'energy_industrial']
 - raw_candidates: 2
 - parseable_candidates: 2
 - normalized_candidates: 2
@@ -12,17 +12,17 @@ Generated: 2026-10-31T04:02:54.219457+00:00
 - grounded_sources: 4
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 0
+- judge_attempts: 1
 - critic_reviews: 1
-- judge_reviews: 0
+- judge_reviews: 1
 - survivors: 0
-- watches: 1
+- watches: 2
 - rejected: 1
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.02808605
+- cost_usd: 0.04196345
 - cost_uncertain: False
-- budget_remaining_usd: 0.05191395
+- budget_remaining_usd: 0.03803655
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,8 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Chile Open Finance cash-flow underwriting adapter for MSME lenders: deferred_by_review_cap
-- Water-efficiency field validation service for Chilean irrigated agriculture: deferred_by_review_cap
 - Independent field-service and leasing wedge around autonomous agricultural robots: deferred_by_review_cap
 - Chile SFA conformance and consent-flow testing for smaller regulated participants: The regulatory premise is sufficiently grounded by CMF primary materials: NCG 514 is in force and the cited amendment/technical annex, sandbox, developer portal, simplified participation, and staged timing are plausible. The proposed work can operate against consented test/sandbox environments, so there is no demonstrated legal or technical data-access fatality. However, this is not yet HQ-worthy as a standalone service asset: the official sandbox and published technical requirements may commoditize the core checklist, smaller entities may face reduced obligations or outsource implementation, and there is no validated buyer, budget, paid demand, or durable differentiation against local integrators, cybersecurity firms, core vendors, and internal teams. It survives only as a tightly scoped pre-build validation wedge: paid conformance-readiness assessment for a specific regulated role and API flow, contingent on buyer evidence.
 - Supply and support an agricultural spraying drone for INIA/Atacama public procurement: deferred_by_review_cap
@@ -51,13 +49,15 @@ No survivors. Scout does not manufacture a daily winner.
 - Spanish (Chile) AI language evaluation contractor: A primary employer-hosted listing supports that this is a real, currently discoverable Chilean-Spanish freelance AI-evaluation role with a stated hourly range and a plausible direct payer: the hiring platform/employer pays contractors for accepted work. Participation is realistic for an appropriately qualified Chile-based language professional and requires little capital. However, it is not validated as dependable income or an HQ-worthy scalable opportunity: hours, acceptance, effective rate, task continuity, payment terms, and eligibility remain unverified, while the broad $8–$65/hour range is explicitly contingent. Treat it only as a tightly bounded, low-cost application-and-terms-verification experiment, not a business thesis or committed revenue source.
 - Inventoryless Chilean bathroom-accessibility bundle: bidet attachment plus grab bar: deferred_by_review_cap
 - Restructuring-event monitoring and document-based catalyst research around Trinseo: deferred_by_review_cap
+- Interconnection-queue heatmap and cluster-readiness screening dataset for battery and solar developers: deferred_by_review_cap
+- Chile Open Finance technical-conformance test harness for prospective participants: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=fresh",
-    "research_queue_unreviewed=74"
+    "deep_review_lane=backlog",
+    "research_queue_unreviewed=75"
   ],
   "stages": [
     {
@@ -65,24 +65,25 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 16,
+      "grounded_source_count": 17,
       "search_source_urls": [
-        "https://github.com/AgentForEach/AgentForEach",
-        "https://github.com/Everfern-AI/Everfern",
-        "https://github.com/MikeyPetrillo/Agent402",
-        "https://github.com/OpenLinker-ai/openlinker-core",
-        "https://github.com/RightNow-AI/openfang",
-        "https://github.com/boundflow/boundflow",
-        "https://github.com/getlago/lago",
-        "https://github.com/houston-code/houston",
-        "https://github.com/use-ash/apex",
-        "https://github.com/wanxingai/LightAgent",
-        "https://github.com/wemux-ai/wemux",
-        "https://www.sec.gov/Archives/edgar/data/1519061/000110465926066376/tm2615591d1_ex99-1.htm",
-        "https://www.sec.gov/Archives/edgar/data/1519061/000110465926092456/tm265903d2_ars.pdf",
-        "https://www.sec.gov/Archives/edgar/data/1783183/000119312526144576/new_phat_2025_ars.pdf",
-        "https://www.sec.gov/Archives/edgar/data/789460/000119312526187147/wkc_2026_ars.pdf",
-        "https://www.sec.gov/Archives/edgar/data/895419/000089541926000068/a2026annualreport.pdf"
+        "https://ferc.gov/explainer-interconnection-final-rule",
+        "https://ferc.gov/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fferc.gov%2Fsites%2Fdefault%2Ffiles%2F2023-07%2F20230728-3060.PDF",
+        "https://ferc.gov/news-events/news/fact-sheet-improvements-generator-interconnection-procedures-and-agreements",
+        "https://ferc.gov/news-events/news/fercs-grid-work-continues-amid-order-no-2023-compliance",
+        "https://ifr.org/downloads/press_docs/2025-09-25-IFR_press_release_Americas_in_English.pdf",
+        "https://ifr.org/img/worldrobotics/Executive_Summary_WR_2025_Industrial_Robots.pdf",
+        "https://ifr.org/news",
+        "https://ifr.org/news/five-million-robots-now-operate-in-factories-globally/",
+        "https://ifr.org/news/us-robot-industry-returns-to-double-digit-growth/1st",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/principal/613/articles-102557_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.ferc.gov/explainer-interconnection-final-rule-2023-A",
+        "https://www.ferc.gov/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fwww.ferc.gov%2Fsites%2Fdefault%2Ffiles%2F2025-07%2FE-2-ER24-2045-000.pdf",
+        "https://www.ferc.gov/sites/default/files/2024-05/RM21-17-000.pdf",
+        "https://www.ferc.gov/sites/default/files/2025-03/25_State-of-the-Market_0320_1200.pdf"
       ]
     },
     {
@@ -117,83 +118,100 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_d6afecd60cb39fdc0454",
+      "candidate_id": "opp_85c23886f73fd6c4dff5",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 34,
+      "grounded_source_count": 23,
       "search_source_urls": [
-        "https://actonline.org/wp-content/uploads/ACT-Europe-Artificial-Intelligence-Survey-Report-September-2025.pdf",
-        "https://arxiv.org/abs/2601.13597",
-        "https://arxiv.org/abs/2601.18341",
-        "https://arxiv.org/abs/2607.01418",
-        "https://arxiv.org/abs/2610.28683",
-        "https://en.wikipedia.org/wiki/AI-assisted_software_development",
-        "https://en.wikipedia.org/wiki/Vibe_coding",
-        "https://github.com/MCC-H/mcc-h/blob/main/README.md",
-        "https://github.com/alcove-ai/alcove",
-        "https://github.com/boundflow/boundflow/blob/main/README.md",
-        "https://github.com/boundflow/charter",
-        "https://github.com/constellation-works/orbit",
-        "https://github.com/crustyrustacean/rho-coding-agent",
-        "https://github.com/devmruAI/codex",
-        "https://github.com/houston-code/houston",
-        "https://github.com/yashiels/houston",
-        "https://info.cyberhaven.com/hubfs/Webflow_Resources/Cyberhaven-AI-Risk-Report-2026.pdf",
-        "https://papers.cool/arxiv/2601.18341",
-        "https://research.google/pubs/dora-2025-state-of-ai-assisted-software-development-report/",
-        "https://www.alixpartners.com/media/wwmgyuv0/alixpartners-2026-enterprise-software-technology-predictions-report_tmt03sig2025.pdf",
-        "https://www.blackduck.com/content/dam/black-duck/en-us/reports/rep-global-devsecops-report.pdf",
-        "https://www.blackduck.com/resources/analyst-reports/state-of-ai-powered-software-development.html",
-        "https://www.capgemini.com/wp-content/uploads/2024/03/Final-Web-Version-Report-Gen-AI-in-Software-Engineering.pdf",
-        "https://www.itpro.com/software/development/agents-have-hit-the-mainstream-in-software-engineering-but-security-and-governance-practices-arent-evolving-fast-enough",
-        "https://www.itpro.com/software/development/developers-are-slacking-on-ai-generated-code-safety-heres-why-it-could-come-back-to-haunt-them",
-        "https://www.itpro.com/software/development/software-developers-not-checking-ai-generated-code-verification-debt",
-        "https://www.reddit.com/r/AISystemsEngineering/comments/1x3zuo8/we_deployed_150_ai_agents_across_8_departments/",
-        "https://www.reddit.com/r/cybersecurity/comments/1rr1ms6/81_of_teams_have_deployed_ai_agents_only_14_have/",
-        "https://www.reddit.com/r/devsecops/comments/1rjeuhm/secure_ai_coding_is_basically_nonexistent_at_most/",
-        "https://www.reddit.com/r/soc2/comments/1vpgjpq/has_your_auditor_started_asking_about_ai_coding/",
-        "https://www.reddit.com/r/u_AGAT_Software/comments/1ryt3tb/we_found_5000_shadow_ai_agent_attempts_at_our_org/",
-        "https://www.techradar.com/pro/almost-all-ai-tools-are-now-running-with-no-oversight-from-it-putting-companies-in-the-firing-line",
-        "https://www.techradar.com/pro/speed-without-control-is-a-liability-not-an-advantage-gitlab-study-reveals-ai-code-generation-is-outpacing-controls",
-        "https://www.techradar.com/pro/why-ai-coding-agents-keep-stalling-before-production-and-the-governance-controls-that-fix-it"
+        "https://docs.nrel.gov/docs/fy17osti/67235.pdf",
+        "https://www.energy.gov/cmei/femp/articles/battery-energy-storage-system-evaluation-method",
+        "https://www.energy.gov/cmei/femp/articles/battery-energy-storage-system-evaluation-method",
+        "https://www.energy.gov/cmei/femp/articles/espc-measurement-and-verification-post-installation-and-performance-period",
+        "https://www.energy.gov/cmei/femp/energy-management-information-system-capabilities",
+        "https://www.energy.gov/cmei/femp/energy-management-information-system-capabilities",
+        "https://www.energy.gov/cmei/femp/federal-distributed-energy-project-implementation-process-phase-5-construction-and",
+        "https://www.energy.gov/cmei/femp/measurement-and-verification-activities-required-energy-savings-performance-contract",
+        "https://www.energy.gov/cmei/femp/monitoring-platforms-solar-photovoltaic-systems",
+        "https://www.energy.gov/cmei/femp/monitoring-platforms-solar-photovoltaic-systems",
+        "https://www.energy.gov/cmei/femp/operations-support-energy-management-information-systems",
+        "https://www.energy.gov/cmei/femp/performance-assurance-planning-utility-energy-service-contracts",
+        "https://www.energy.gov/sites/default/files/2025-10/uesc-guide_rev-dec2022_archived.pdf",
+        "https://www.ferc.gov/ferc-order-no-2222-explainer-facilitating-participation-electricity-markets-distributed-energy",
+        "https://www.ferc.gov/ferc-order-no-2222-explainer-facilitating-participation-electricity-markets-distributed-energy",
+        "https://www.ferc.gov/media/ferc-order-no-2222-fact-sheet",
+        "https://www.ferc.gov/sites/default/files/2020-06/E-1_18.pdf",
+        "https://www.ferc.gov/sites/default/files/2022-06/E-5-ER21-2455-000.pdf",
+        "https://www.ferc.gov/understanding-wholesale-capacity-markets",
+        "https://www.nrel.gov/docs/fy21osti/79575.pdf",
+        "https://www.nrel.gov/docs/fy21osti/79790.pdf",
+        "https://www.nrel.gov/docs/fy21osti/79790.pdf",
+        "https://www1.eere.energy.gov/manufacturing/eguide/iso_step_4_1.html"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_d6afecd60cb39fdc0454",
+      "candidate_id": "opp_85c23886f73fd6c4dff5",
       "coercions": [
+        "critic_case",
         "contrary_evidence"
       ]
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_85c23886f73fd6c4dff5",
+      "response_status": "completed",
+      "incomplete_reason": "",
+      "grounded_source_count": 0,
+      "search_source_urls": []
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_85c23886f73fd6c4dff5",
+      "coercions": []
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 201,
-      "cache_write_tokens": 5414,
+      "reasoning_tokens": 266,
+      "cache_write_tokens": 5524,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0136233,
+      "cumulative_cost_usd": 0.014654,
       "model": "gpt-5.6-luna",
-      "input_tokens": 9557,
+      "input_tokens": 14071,
       "cached_tokens": 0,
-      "output_tokens": 1201,
+      "output_tokens": 1303,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0136233
+      "estimated_cost_usd": 0.014654
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 184,
-      "cache_write_tokens": 5187,
+      "reasoning_tokens": 146,
+      "cache_write_tokens": 5313,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02808605,
+      "cumulative_cost_usd": 0.02908145,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13715,
+      "input_tokens": 13759,
       "cached_tokens": 0,
-      "output_tokens": 1217,
+      "output_tokens": 1175,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01446275
+      "estimated_cost_usd": 0.01442745
+    },
+    {
+      "stage": "judge",
+      "available": true,
+      "reasoning_tokens": 45,
+      "cache_write_tokens": 2784,
+      "accounting_notes": [],
+      "cumulative_cost_usd": 0.04196345,
+      "model": "gpt-5.6-terra",
+      "input_tokens": 2787,
+      "cached_tokens": 0,
+      "output_tokens": 493,
+      "web_search_calls": 0,
+      "estimated_cost_usd": 0.012882
     }
   ]
 }

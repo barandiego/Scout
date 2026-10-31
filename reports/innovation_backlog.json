@@ -921,42 +921,6 @@
       "category": "energy_infrastructure",
       "commercially_validated": false,
       "competition_confirmed": false,
-      "current_participation_path": "Target one operating commercial or utility-scale battery whose owner can lawfully provide export files. Build a spreadsheet-based reconciliation of rated capacity, measured discharge, availability, round-trip losses and dispatch events for one month. Offer the first analysis as a narrowly scoped paid diagnostic or as a no-cost sample only when access is already authorized. Lowest-cost falsification: obtain one anonymized dataset from an operator or public filing and determine whether the required fields are present and whether discrepancies can be tied to an economically relevant issue; stop if data are inaccessible or findings cannot affect maintenance, settlement or warranty decisions.",
-      "current_thesis": "As projects shift from simple backup toward energy shifting and grid services, owners need evidence that installed capacity, state of charge, availability and dispatch performance match contracted or market requirements. A narrow independent wedge is third-party data reconciliation and monthly performance verification using inverter, EMS, meter and market-settlement exports; it is not battery ownership or speculative arbitrage.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "United States",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "Commercial battery dispatch and performance verification for four-hour storage projects",
-      "opportunity_id": "opp_85c23886f73fd6c4dff5",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
-        "Compare owned asset, installer/distributor and project-finance participation.",
-        "Verify permits and installed net payback under conservative power price scenarios."
-      ],
-      "supporting_source_urls": [
-        "https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage",
-        "https://www.iea.org/commentaries/battery-storage-is-scaling-up-and-taking-on-a-larger-system-role"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "Potential cash flow is a fixed-fee verification or diagnostic engagement paid by an owner, operator, lender, insurer or EPC contractor. The sources verify the operational trend and system-value need, not a standard price or guaranteed customer demand.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "energy_infrastructure",
-      "commercially_validated": false,
-      "competition_confirmed": false,
       "current_participation_path": "Lowest-cost falsification: choose one publicly documented constrained corridor, download hourly nodal-price, generation and congestion data where available, and create a spreadsheet comparing a hypothetical small battery or flexible load against simple operating rules. Then obtain one paid data-access or feasibility commitment from an asset owner, developer or engineering firm before buying hardware. Falsify if the analysis cannot identify a materially different operating case after accounting for round-trip losses, degradation, interconnection, permits and network charges, or if no relevant project participant will pay for the screen. Participation must be through an owner, generator, retailer, aggregator or qualified engineering partner; do not assume market access.",
       "current_thesis": "A testable wedge is a paid screening product for renewable generators, large electricity users, landowners or engineering firms: identify sites where a battery, flexible load or local generation project might reduce curtailment, improve reliability or exploit time/location price differences. This is project origination and measurement, not a claim that a small operator can trade electricity or operate storage without regulatory and technical partners.",
       "founder_hours_initial_unverified_estimate": "",
@@ -1062,6 +1026,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Revenue from equipment procurement, installation, commissioning, and documented savings or grant-compliance support. The evidence does not establish a standard price, margin, or guaranteed customer conversion.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "energy_infrastructure",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Start with one RTO/ISO and one technology, such as battery storage. Download its public heatmap, queue, tariff, and cluster-study materials; build a small normalized table for 25–50 candidate nodes; publish a sample with source links; then ask identifiable developers, landowners, or energy-market participants whether the sample changes a real site-screening decision. Falsify if public data cannot be extracted reliably, if the output does not eliminate a concrete screening task, or if at least five relevant users decline to review the sample. Do not enter a queue, represent a developer, or claim interconnection rights.",
+      "current_thesis": "Developers must spend more effort before entering or remaining in an interconnection queue, while public heatmaps and queue data create a basis for structured site-screening and withdrawal-risk analysis. The opportunity is not generic consulting: it is a repeatable dataset that ranks candidate nodes and flags readiness, deposit, queue, and upgrade-risk conditions.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Interconnection-queue heatmap and cluster-readiness screening dataset for battery and solar developers",
+      "opportunity_id": "opp_1ea90f46c4dff6ae0e7e",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
+        "Compare owned asset, installer/distributor and project-finance participation.",
+        "Verify permits and installed net payback under conservative power price scenarios."
+      ],
+      "supporting_source_urls": [
+        "https://ferc.gov/explainer-interconnection-final-rule",
+        "https://ferc.gov/news-events/news/fact-sheet-improvements-generator-interconnection-procedures-and-agreements"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A paid downloadable or subscription dataset containing normalized queue records, heatmap extracts, cluster boundaries, site-control/readiness fields, and a reproducible screening score. A separate paid one-project screening may be possible, but no buyer, price, or conversion rate is assumed.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -2799,6 +2799,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "A narrowly scoped test harness or implementation package could charge for documented conformance testing, integration diagnostics, synthetic test-data scenarios and evidence packages prepared for an institution’s internal compliance or engineering review. Actual willingness to pay, pricing and procurement route are unverified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Download the CMF technical annex and developer-portal materials; implement only the publicly documented sandbox or mock endpoints, if available; create fixtures for consent, registration, data exchange, and payment-initiation flows; publish a failing/passing example. Contact prospective regulated or registered participants only to validate whether the harness catches a real integration defect. Falsify if the specification is incomplete enough that no deterministic tests can be written, if no public test environment or mock workflow exists, or if five relevant participants cannot identify a pre-entry validation need. Do not imply CMF approval or production access.",
+      "current_thesis": "Prospective participants have a defined implementation deadline and technical material against which integrations can be tested. A narrow opportunity is an independent conformance harness that validates request formats, consent flows, registration, error handling, and payment-initiation scenarios against the published specification before formal participation.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile Open Finance technical-conformance test harness for prospective participants",
+      "opportunity_id": "opp_92eda67d89877601fa5b",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A self-serve test package or paid implementation-validation run based only on the published CMF specification. No fee, buyer commitment, certification authority, or permission to access production systems is assumed.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -5759,7 +5795,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-31T04:02:54.665423+00:00",
+  "generated_at": "2026-10-31T14:18:39.319645+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

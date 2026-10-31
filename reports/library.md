@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-31T04:02:54.566725+00:00
+Generated: 2026-10-31T14:18:39.207196+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 151 (0 HQ survivors, 151 watches)
-- Rejected opportunities excluded: 85
+- Active research: 152 (0 HQ survivors, 152 watches)
+- Rejected opportunities excluded: 86
 - Critic-and-judge reviewed: 71
 - Autonomous execution authorization: 0
 
@@ -1063,6 +1063,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/613/articles-82752_recurso_1.pdf
 
+### Chile Open Finance technical-conformance test harness for prospective participants [opp_92eda67d89877601fa5b]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Prospective participants have a defined implementation deadline and technical material against which integrations can be tested. A narrow opportunity is an independent conformance harness that validates request formats, consent flows, registration, error handling, and payment-initiation scenarios against the published specification before formal participation.
+- Value capture: A self-serve test package or paid implementation-validation run based only on the published CMF specification. No fee, buyer commitment, certification authority, or permission to access production systems is assumed.
+- Participation hypothesis: Download the CMF technical annex and developer-portal materials; implement only the publicly documented sandbox or mock endpoints, if available; create fixtures for consent, registration, data exchange, and payment-initiation flows; publish a failing/passing example. Contact prospective regulated or registered participants only to validate whether the harness catches a real integration defect. Falsify if the specification is incomplete enough that no deterministic tests can be written, if no public test environment or mock workflow exists, or i
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html
+
 ### Chile Open-Finance conformance and integration test harness [opp_feb43070f6dba35f263f]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: A narrow implementation bottleneck exists before the July 2027 effective date: participating entities must test certificates, signatures, scheduled maintenance, directory enrollment, interoperability and consent-based data exchange. A reusable conformance harness could reduce integration and pre-production testing work without becoming a generic consulting practice.
@@ -1173,16 +1183,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/prensa/625/w4-article-110881.html
 
-### Commercial battery dispatch and performance verification for four-hour storage projects [opp_85c23886f73fd6c4dff5]
-- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States
-- Thesis: As projects shift from simple backup toward energy shifting and grid services, owners need evidence that installed capacity, state of charge, availability and dispatch performance match contracted or market requirements. A narrow independent wedge is third-party data reconciliation and monthly performance verification using inverter, EMS, meter and market-settlement exports; it is not battery ownership or speculative arbitrage.
-- Value capture: Potential cash flow is a fixed-fee verification or diagnostic engagement paid by an owner, operator, lender, insurer or EPC contractor. The sources verify the operational trend and system-value need, not a standard price or guaranteed customer demand.
-- Participation hypothesis: Target one operating commercial or utility-scale battery whose owner can lawfully provide export files. Build a spreadsheet-based reconciliation of rated capacity, measured discharge, availability, round-trip losses and dispatch events for one month. Offer the first analysis as a narrowly scoped paid diagnostic or as a no-cost sample only when access is already authorized. Lowest-cost falsification: obtain one anonymized dataset from an operator or public filing and determine whether the required fields are present and whether discrepancies can
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage; https://www.iea.org/commentaries/battery-storage-is-scaling-up-and-taking-on-a-larger-system-role
-
 ### Critical-mineral recycling feedstock locator focused on discarded electronics [opp_4ac887930a777d12d31b]
 - Status: WATCH_REQUIRES_VALIDATION | physical_distribution | United States
 - Thesis: A small operator can test whether a geographically concentrated stream of discarded electronics or industrial scrap can be aggregated, documented, and routed to an existing licensed processor rather than attempting to build a refinery.
@@ -1242,6 +1242,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/1760404/000110465926075802/tm2617498d1_partiiandiii.htm; https://fieldreport.caes.uga.edu/publications/B1594/agribots-autonomous-ground-robots-for-specialty-crops/
+
+### Interconnection-queue heatmap and cluster-readiness screening dataset for battery and solar developers [opp_1ea90f46c4dff6ae0e7e]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States
+- Thesis: Developers must spend more effort before entering or remaining in an interconnection queue, while public heatmaps and queue data create a basis for structured site-screening and withdrawal-risk analysis. The opportunity is not generic consulting: it is a repeatable dataset that ranks candidate nodes and flags readiness, deposit, queue, and upgrade-risk conditions.
+- Value capture: A paid downloadable or subscription dataset containing normalized queue records, heatmap extracts, cluster boundaries, site-control/readiness fields, and a reproducible screening score. A separate paid one-project screening may be possible, but no buyer, price, or conversion rate is assumed.
+- Participation hypothesis: Start with one RTO/ISO and one technology, such as battery storage. Download its public heatmap, queue, tariff, and cluster-study materials; build a small normalized table for 25–50 candidate nodes; publish a sample with source links; then ask identifiable developers, landowners, or energy-market participants whether the sample changes a real site-screening decision. Falsify if public data cannot be extracted reliably, if the output does not eliminate a concrete screening task, or if at least five relevant users decline to review the sample. Do
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://ferc.gov/explainer-interconnection-final-rule; https://ferc.gov/news-events/news/fact-sheet-improvements-generator-interconnection-procedures-and-agreements
 
 ### Interconnection-queue intelligence as a paid research asset for project developers [opp_471716894d06e79a4659]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States
