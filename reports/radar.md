@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-31T14:38:11.165191+00:00
+Generated: 2026-10-31T20:09:10.061151+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 178
+- New this cycle: 168
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 503, ai 98, energy 478, robotics 721
+- Categories: agriculture 507, ai 97, energy 480, robotics 716
 
 ## Recently encountered signals
+
+### sanjanachavann/AgriMind
+- Source: https://github.com/sanjanachavann/AgriMind
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### nagarevishnu21-cmyk/CCH-01_Code4Kisan_AgriMitra-AI
 - Source: https://github.com/nagarevishnu21-cmyk/CCH-01_Code4Kisan_AgriMitra-AI
@@ -414,6 +420,24 @@ Generated: 2026-10-31T14:38:11.165191+00:00
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
+### tharuntk43/uzhavan-hub-new
+- Source: https://github.com/tharuntk43/uzhavan-hub-new
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### piyushkumar3007/KisanNova
+- Source: https://github.com/piyushkumar3007/KisanNova
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### maliha-data/Smart-Agriculture-Assistant
+- Source: https://github.com/maliha-data/Smart-Agriculture-Assistant
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
 ### HimanshiGarg27/CropAI-Disease-Detector
 - Source: https://github.com/HimanshiGarg27/CropAI-Disease-Detector
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
@@ -436,28 +460,4 @@ Generated: 2026-10-31T14:38:11.165191+00:00
 - Source: https://github.com/tungaeric/Agrismart_rwanda
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Deep Q-Network-Based Energy Management of Battery–Supercapacitor Hybrid Energy Storage in a Renewable Microgrid
-- Source: https://doi.org/10.55927/fjmr.v5i10.213
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Siddharthsheri/Krishi_Mitra
-- Source: https://github.com/Siddharthsheri/Krishi_Mitra
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### jyotimnaik29-max/FARMERWEB
-- Source: https://github.com/jyotimnaik29-max/FARMERWEB
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### kwwaleszczynski-del/kwwaleszczynski-del.github.io
-- Source: https://github.com/kwwaleszczynski-del/kwwaleszczynski-del.github.io
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
