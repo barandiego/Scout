@@ -1,17 +1,67 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 3000000.0,
-      "buyer": "Hospital Sanatorio San José de Maipo",
-      "closes_at": "2026-11-01T08:00:00",
-      "code": "2153-495-COT26",
-      "estimated_budget": 3000000.0,
-      "name": "INSUMOS  PROGRAMA COSAM",
-      "products": 23,
+      "available_budget_clp": 1000000.0,
+      "buyer": "CORPORACION CULTURAL MUNICIPAL DE COYHAIQUE",
+      "closes_at": "2026-11-03T15:00:00",
+      "code": "1282238-84-COT26",
+      "estimated_budget": 1000000.0,
+      "name": "Suministro de catering para elencos y equipos, entregas mensuales nov 2026 - may 2027 - PAOCC 2026 (Corporación Cultural Coyhaique)",
+      "products": 6,
+      "region": "Región Aysén del General Carlos Ibáñez del Campo"
+    },
+    {
+      "available_budget_clp": 400000.0,
+      "buyer": "SLEP MARGA MARGA",
+      "closes_at": "2026-11-03T17:00:00",
+      "code": "1480972-817-COT26",
+      "estimated_budget": 400000.0,
+      "name": "ALARGADOR Y CABLES LICEO MARY GRAHAM.",
+      "products": 2,
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 2000000.0,
+      "buyer": "I MUNICIPALIDAD DE PROVIDENCIA",
+      "closes_at": "2026-11-03T15:00:00",
+      "code": "2460-1071-COT26",
+      "estimated_budget": 2000000.0,
+      "name": "REEMPLAZO DE REVESTIMEINTO DE PISO ACCESO AUDITORIO MUNICIPAL",
+      "products": 1,
       "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 7125100.0,
+      "buyer": "I MUNICIPALIDAD DE SAN ANTONIO",
+      "closes_at": "2026-11-03T08:00:00",
+      "code": "2757-712-COT26",
+      "estimated_budget": 7125100.0,
+      "name": "Adquisición metilfenidato clorhidrato para uso en red de salud APS",
+      "products": 1,
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 4045000.0,
+      "buyer": "SECCIÓN COMPRAS II ZONA",
+      "closes_at": "2026-11-02T11:47:00",
+      "code": "1079454-671-COT26",
+      "estimated_budget": 4045000.0,
+      "name": "ADQUISICIÓN DE EQUIPAMIENTO DE COCINA, REFRIGERACIÓN, LAVANDERÍA PROYECTO DE BIENESTAR CARABINEROS ANTOFAGASTA",
+      "products": 15,
+      "region": "Región de Antofagasta"
+    },
+    {
+      "available_budget_clp": 200000.0,
+      "buyer": "SERVICIO DE SALUD COQUIMBO HOSPITAL DE COQUIMBO",
+      "closes_at": "2026-11-02T12:00:00",
+      "code": "1430707-1712-COT26",
+      "estimated_budget": 200000.0,
+      "name": "INSUMO STOCK NOVIEMBRE",
+      "products": 1,
+      "region": "Región de Coquimbo"
     }
   ],
-  "active_structurally_reconstructable_count": 1,
+  "active_structurally_reconstructable_count": 6,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -29,7 +79,7 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-10-31T05:56:12Z",
+  "generated_at": "2026-10-31T14:36:20Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -37,16 +87,16 @@
   "phase1": {
     "records": 20,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 4
+      "no_observable_competitive_prices": 9
     },
-    "resolved": 19,
-    "structurally_reconstructable": 16,
-    "with_observable_quote_totals": 15,
+    "resolved": 14,
+    "structurally_reconstructable": 11,
+    "with_observable_quote_totals": 5,
     "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-31T05:56:12Z"
+    "changed_to": "2026-10-31T14:36:20Z"
   }
 }
