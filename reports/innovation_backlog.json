@@ -4934,6 +4934,42 @@
       "category": "public_markets",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Download the restructuring disclosure and latest annual report; build a claims-and-capital-structure timeline from primary filings; identify the court docket, plan effective date, exit-financing terms, and treatment of each security. The lowest-cost falsification step is to spend one hour checking whether a current, liquid, publicly accessible instrument remains after the delisting and whether the plan assigns any residual value to equity. Do not buy or solicit trades before verifying current quotation, liquidity, eligibility, and plan treatment.",
+      "current_thesis": "The combination of restructuring, financing, and delisting can create document-driven catalysts and mispricing, but the equity may be impaired or cancelled. The executable small-operator wedge is therefore event research and watchlist construction first, not an assumed stock purchase or recovery.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States / Ireland",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Restructuring-event monitoring and document-based catalyst research around Trinseo",
+      "opportunity_id": "opp_91d2d1e9524976272e95",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Find overlooked fundamentals and a named accessible security with dated primary filings.",
+        "Compare risked intrinsic value, market expectations and specific downside scenarios.",
+        "Define catalysts and invalidation thresholds before any governed investment decision."
+      ],
+      "supporting_source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1519061/000110465926066376/tm2615591d1_ex99-1.htm",
+        "https://www.sec.gov/Archives/edgar/data/1519061/000110465926092456/tm265903d2_ars.pdf"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Potential value capture could come from a later, independently verified trade in publicly accessible securities or from selling a research product only if a paying audience is validated. No security, recovery value, expected return, or buyer is asserted.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "public_markets",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Create a paper basket or watchlist limited to WCC, EROC, and AMRC; record price, backlog, bookings, cancellations, gross margin, free cash flow, debt, and recurring-service revenue at the next two reported quarters. Falsify the thesis if backlog does not convert into revenue/cash flow, cancellations rise materially, or operating metrics lag the companies’ stated schedules. Only after that test should an investor evaluate position sizing and valuation independently.",
       "current_thesis": "The investable mechanism is not generic AI demand but conversion of signed power-infrastructure orders into revenue, cash flow, and recurring operations-and-maintenance revenue. The main downside cases are order cancellations, financing stress, execution delays, customer concentration, and valuation already discounting the backlog.",
       "founder_hours_initial_unverified_estimate": "",
@@ -5723,7 +5759,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-30T20:25:16.010231+00:00",
+  "generated_at": "2026-10-31T04:02:54.665423+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

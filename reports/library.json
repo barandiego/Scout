@@ -10115,6 +10115,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-10-31T04:02:36.498195+00:00",
+      "discovery_lens": "public_markets",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The SEC-hosted company exhibit describes the pre-packaged restructuring plan and approximately $158 million of committed debtor-in-possession financing.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Trinseo announces Chapter 11 restructuring and DIP financing",
+          "url": "https://www.sec.gov/Archives/edgar/data/1519061/000110465926066376/tm2615591d1_ex99-1.htm"
+        },
+        {
+          "claim": "The filing discusses restructuring risk and states that the NYSE commenced proceedings to delist the company's ordinary shares, with Form 25 effectiveness following the applicable process.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Trinseo 2025 annual report filing",
+          "url": "https://www.sec.gov/Archives/edgar/data/1519061/000110465926092456/tm265903d2_ars.pdf"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.78,
+      "falsification_conditions": [],
+      "geography": "United States / Ireland",
+      "id": "opp_91d2d1e9524976272e95",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-10-31T04:02:36.556848+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Download the restructuring disclosure and latest annual report; build a claims-and-capital-structure timeline from primary filings; identify the court docket, plan effective date, exit-financing terms, and treatment of each security. The lowest-cost falsification step is to spend one hour checking whether a current, liquid, publicly accessible instrument remains after the delisting and whether the plan assigns any residual value to equity. Do not buy or solicit trades before verifying current quotation, liquidity, eligibility, and plan treatment.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The combination of restructuring, financing, and delisting can create document-driven catalysts and mispricing, but the equity may be impaired or cancelled. The executable small-operator wedge is therefore event research and watchlist construction first, not an assumed stock purchase or recovery.",
+      "title": "Restructuring-event monitoring and document-based catalyst research around Trinseo",
+      "type": "special_situation_research",
+      "unknowns": [],
+      "value_capture_mechanism": "Potential value capture could come from a later, independently verified trade in publicly accessible securities or from selling a research product only if a paying audience is validated. No security, recovery value, expected return, or buyer is asserted.",
+      "verified_sales": null,
+      "vertical": "public_markets",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-24T08:38:52.197691+00:00",
       "discovery_lens": "fixed_scope_paid_research_asset",
       "estimated_capital": "",
@@ -10654,13 +10708,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-30T20:25:15.886498+00:00",
+  "generated_at": "2026-10-31T04:02:54.566725+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 84,
+  "rejected_excluded": 85,
   "reviewed_cards": 71,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 234,
-  "watch": 150
+  "total_distinct_opportunities": 236,
+  "watch": 151
 }

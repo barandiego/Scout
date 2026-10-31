@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-10-30T20:25:15.886498+00:00",
+  "generated_at": "2026-10-31T04:02:54.566725+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -104,14 +104,14 @@
   "high_concentration": [
     {
       "cards": 62,
-      "share": 0.413,
+      "share": 0.411,
       "theme": "chile_open_finance"
     }
   ],
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 67,
+  "theme_count": 68,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -657,6 +657,15 @@
     },
     {
       "all_opportunity_ids": [
+        "opp_91d2d1e9524976272e95"
+      ],
+      "count": 1,
+      "representative_id": "opp_91d2d1e9524976272e95",
+      "reviewed_count": 0,
+      "theme": "public_markets:restructuring_event_monitoring"
+    },
+    {
+      "all_opportunity_ids": [
         "opp_decc33f3027f68ae3faf"
       ],
       "count": 1,
@@ -800,6 +809,6 @@
       "theme": "robotics_agritech:water_efficiency_field"
     }
   ],
-  "total_original_cards": 150,
+  "total_original_cards": 151,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }

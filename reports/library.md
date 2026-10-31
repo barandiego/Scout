@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-10-30T20:25:15.886498+00:00
+Generated: 2026-10-31T04:02:54.566725+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 150 (0 HQ survivors, 150 watches)
-- Rejected opportunities excluded: 84
+- Active research: 151 (0 HQ survivors, 151 watches)
+- Rejected opportunities excluded: 85
 - Critic-and-judge reviewed: 71
 - Autonomous execution authorization: 0
 
@@ -1412,6 +1412,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812
+
+### Restructuring-event monitoring and document-based catalyst research around Trinseo [opp_91d2d1e9524976272e95]
+- Status: WATCH_REQUIRES_VALIDATION | public_markets | United States / Ireland
+- Thesis: The combination of restructuring, financing, and delisting can create document-driven catalysts and mispricing, but the equity may be impaired or cancelled. The executable small-operator wedge is therefore event research and watchlist construction first, not an assumed stock purchase or recovery.
+- Value capture: Potential value capture could come from a later, independently verified trade in publicly accessible securities or from selling a research product only if a paying audience is validated. No security, recovery value, expected return, or buyer is asserted.
+- Participation hypothesis: Download the restructuring disclosure and latest annual report; build a claims-and-capital-structure timeline from primary filings; identify the court docket, plan effective date, exit-financing terms, and treatment of each security. The lowest-cost falsification step is to spend one hour checking whether a current, liquid, publicly accessible instrument remains after the delisting and whether the plan assigns any residual value to equity. Do not buy or solicit trades before verifying current quotation, liquidity, eligibility, and plan treatmen
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/1519061/000110465926066376/tm2615591d1_ex99-1.htm; https://www.sec.gov/Archives/edgar/data/1519061/000110465926092456/tm265903d2_ars.pdf
 
 ### SII company-record change monitor for accounting and compliance firms [opp_40dcdc904cd9586f5e77]
 - Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile

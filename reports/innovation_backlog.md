@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 150
+Candidates: 151
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -1551,6 +1551,18 @@ Candidates: 150
 - Critical gaps: What proportion of the cited queues is technically addressable by each technology and by geography?; How much of the claimed congestion cost is avoidable through GETs rather than caused by insufficient generation, local distribution constraints, market design, or fuel and demand shocks?; Which entities receive the economic benefit: generators, load-serving entities, transmission owners, ratepayers, RTOs/ISOs, or technology vendors?
 - Possible initial budget:
 - Source URLs: https://www.iea.org/reports/modernising-grids-in-the-age-of-electricity/executive-summary; https://www.iea.org/reports/electricity-2026/grids
+
+## Restructuring-event monitoring and document-based catalyst research around Trinseo
+- Status: watch | public_markets
+- Current idea: The combination of restructuring, financing, and delisting can create document-driven catalysts and mispricing, but the equity may be impaired or cancelled. The executable small-operator wedge is therefore event research and watchlist construction first, not an assumed stock purchase or recovery.
+- Potential economic capture: Potential value capture could come from a later, independently verified trade in publicly accessible securities or from selling a research product only if a paying audience is validated. No security, recovery value, expected return, or buyer is asserted.
+- **Research routes to test (NOT validated claims):**
+  - Find overlooked fundamentals and a named accessible security with dated primary filings.
+  - Compare risked intrinsic value, market expectations and specific downside scenarios.
+  - Define catalysts and invalidation thresholds before any governed investment decision.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.sec.gov/Archives/edgar/data/1519061/000110465926066376/tm2615591d1_ex99-1.htm; https://www.sec.gov/Archives/edgar/data/1519061/000110465926092456/tm265903d2_ars.pdf
 
 ## Speed-to-power infrastructure exposure: researchable public-company basket with a falsifiable backlog catalyst
 - Status: watch | public_markets
