@@ -1,77 +1,6 @@
 {
-  "active_candidates": [
-    {
-      "available_budget_clp": 1388889.0,
-      "buyer": "MINISTERIO PUBLICO",
-      "closes_at": "2026-11-03T08:00:00",
-      "code": "696027-89-COT26",
-      "estimated_budget": 1388889.0,
-      "name": "Suministro de Combustible (Gasolina) para Vehículo",
-      "products": 1,
-      "region": "Región de Arica y Parinacota"
-    },
-    {
-      "available_budget_clp": 22000.0,
-      "buyer": "UNIVERSIDAD DE CHILE",
-      "closes_at": "2026-11-01T17:53:00",
-      "code": "5178-5413-COT26",
-      "estimated_budget": 22000.0,
-      "name": "SINTESIS DE OLIGONUCLEOTIDOS/SP 1074269/BA",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 795996.0,
-      "buyer": "CORP MUNICIPAL DE PUNTA ARENAS PARA LA EDUCACION SALUD Y AT AL MENOR",
-      "closes_at": "2026-11-02T17:10:00",
-      "code": "1237328-284-COT26",
-      "estimated_budget": 795996.0,
-      "name": "Envases, Frascos, Potes - Programa PESPI",
-      "products": 14,
-      "region": "Región de Magallanes y de la Antártica"
-    },
-    {
-      "available_budget_clp": 500000.0,
-      "buyer": "HOSPITAL DOCTOR ERNESTO TORRES GALDAMES",
-      "closes_at": "2026-11-01T18:23:00",
-      "code": "1070620-4132-COT26",
-      "estimated_budget": 500000.0,
-      "name": "JVJ. COMPRA DE EXAMENES MEDICOS",
-      "products": 1,
-      "region": "Región de Tarapacá"
-    },
-    {
-      "available_budget_clp": 800000.0,
-      "buyer": "I MUNICIPALIDAD DE PUTAENDO",
-      "closes_at": "2026-11-01T18:26:00",
-      "code": "2626-652-COT26",
-      "estimated_budget": 800000.0,
-      "name": "CONTRATACION DE SERVICIO DE AMPLIFICACION JORNADA 06 Y 07 DE NOVIEMBRE DE 2026",
-      "products": 1,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 3000000.0,
-      "buyer": "SERV SALUD ARAUC SUR HOSP DR ARTURO HILLERNS LARRANAGA DE PTO SAAVEDRA",
-      "closes_at": "2026-11-01T20:19:00",
-      "code": "2065-428-COT26",
-      "estimated_budget": 3000000.0,
-      "name": "Batería de Litio para Equipo de Rayos marca FUJIFILM FGXR-52S-3. Adjuntar Fichas Técnicas.",
-      "products": 1,
-      "region": "Región de la Araucanía"
-    },
-    {
-      "available_budget_clp": 225000.0,
-      "buyer": "Departamento Provincial Choapa",
-      "closes_at": "2026-11-01T17:25:00",
-      "code": "1482-42-COT26",
-      "estimated_budget": 225000.0,
-      "name": "SERVICIO DE CAFETERÍA PARA JORNADA REUNION 5 DE LA RED PROVINCIAL DE EDUCACION ESPECIAL",
-      "products": 1,
-      "region": "Región de Coquimbo"
-    }
-  ],
-  "active_structurally_reconstructable_count": 7,
+  "active_candidates": [],
+  "active_structurally_reconstructable_count": 0,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -89,7 +18,7 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-10-31T20:05:37Z",
+  "generated_at": "2026-10-31T23:28:33Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -97,16 +26,16 @@
   "phase1": {
     "records": 20,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 10
+      "no_observable_competitive_prices": 15
     },
-    "resolved": 13,
-    "structurally_reconstructable": 10,
-    "with_observable_quote_totals": 3,
+    "resolved": 20,
+    "structurally_reconstructable": 5,
+    "with_observable_quote_totals": 5,
     "with_purchase_order_indicator": 1
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-31T20:05:37Z"
+    "changed_to": "2026-10-31T23:28:33Z"
   }
 }
