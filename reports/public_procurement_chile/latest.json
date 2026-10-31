@@ -1,67 +1,77 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 1000000.0,
-      "buyer": "CORPORACION CULTURAL MUNICIPAL DE COYHAIQUE",
-      "closes_at": "2026-11-03T15:00:00",
-      "code": "1282238-84-COT26",
-      "estimated_budget": 1000000.0,
-      "name": "Suministro de catering para elencos y equipos, entregas mensuales nov 2026 - may 2027 - PAOCC 2026 (Corporación Cultural Coyhaique)",
-      "products": 6,
-      "region": "Región Aysén del General Carlos Ibáñez del Campo"
+      "available_budget_clp": 1388889.0,
+      "buyer": "MINISTERIO PUBLICO",
+      "closes_at": "2026-11-03T08:00:00",
+      "code": "696027-89-COT26",
+      "estimated_budget": 1388889.0,
+      "name": "Suministro de Combustible (Gasolina) para Vehículo",
+      "products": 1,
+      "region": "Región de Arica y Parinacota"
     },
     {
-      "available_budget_clp": 400000.0,
-      "buyer": "SLEP MARGA MARGA",
-      "closes_at": "2026-11-03T17:00:00",
-      "code": "1480972-817-COT26",
-      "estimated_budget": 400000.0,
-      "name": "ALARGADOR Y CABLES LICEO MARY GRAHAM.",
-      "products": 2,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 2000000.0,
-      "buyer": "I MUNICIPALIDAD DE PROVIDENCIA",
-      "closes_at": "2026-11-03T15:00:00",
-      "code": "2460-1071-COT26",
-      "estimated_budget": 2000000.0,
-      "name": "REEMPLAZO DE REVESTIMEINTO DE PISO ACCESO AUDITORIO MUNICIPAL",
+      "available_budget_clp": 22000.0,
+      "buyer": "UNIVERSIDAD DE CHILE",
+      "closes_at": "2026-11-01T17:53:00",
+      "code": "5178-5413-COT26",
+      "estimated_budget": 22000.0,
+      "name": "SINTESIS DE OLIGONUCLEOTIDOS/SP 1074269/BA",
       "products": 1,
       "region": "Región Metropolitana de Santiago"
     },
     {
-      "available_budget_clp": 7125100.0,
-      "buyer": "I MUNICIPALIDAD DE SAN ANTONIO",
-      "closes_at": "2026-11-03T08:00:00",
-      "code": "2757-712-COT26",
-      "estimated_budget": 7125100.0,
-      "name": "Adquisición metilfenidato clorhidrato para uso en red de salud APS",
+      "available_budget_clp": 795996.0,
+      "buyer": "CORP MUNICIPAL DE PUNTA ARENAS PARA LA EDUCACION SALUD Y AT AL MENOR",
+      "closes_at": "2026-11-02T17:10:00",
+      "code": "1237328-284-COT26",
+      "estimated_budget": 795996.0,
+      "name": "Envases, Frascos, Potes - Programa PESPI",
+      "products": 14,
+      "region": "Región de Magallanes y de la Antártica"
+    },
+    {
+      "available_budget_clp": 500000.0,
+      "buyer": "HOSPITAL DOCTOR ERNESTO TORRES GALDAMES",
+      "closes_at": "2026-11-01T18:23:00",
+      "code": "1070620-4132-COT26",
+      "estimated_budget": 500000.0,
+      "name": "JVJ. COMPRA DE EXAMENES MEDICOS",
+      "products": 1,
+      "region": "Región de Tarapacá"
+    },
+    {
+      "available_budget_clp": 800000.0,
+      "buyer": "I MUNICIPALIDAD DE PUTAENDO",
+      "closes_at": "2026-11-01T18:26:00",
+      "code": "2626-652-COT26",
+      "estimated_budget": 800000.0,
+      "name": "CONTRATACION DE SERVICIO DE AMPLIFICACION JORNADA 06 Y 07 DE NOVIEMBRE DE 2026",
       "products": 1,
       "region": "Región de Valparaíso"
     },
     {
-      "available_budget_clp": 4045000.0,
-      "buyer": "SECCIÓN COMPRAS II ZONA",
-      "closes_at": "2026-11-02T11:47:00",
-      "code": "1079454-671-COT26",
-      "estimated_budget": 4045000.0,
-      "name": "ADQUISICIÓN DE EQUIPAMIENTO DE COCINA, REFRIGERACIÓN, LAVANDERÍA PROYECTO DE BIENESTAR CARABINEROS ANTOFAGASTA",
-      "products": 15,
-      "region": "Región de Antofagasta"
+      "available_budget_clp": 3000000.0,
+      "buyer": "SERV SALUD ARAUC SUR HOSP DR ARTURO HILLERNS LARRANAGA DE PTO SAAVEDRA",
+      "closes_at": "2026-11-01T20:19:00",
+      "code": "2065-428-COT26",
+      "estimated_budget": 3000000.0,
+      "name": "Batería de Litio para Equipo de Rayos marca FUJIFILM FGXR-52S-3. Adjuntar Fichas Técnicas.",
+      "products": 1,
+      "region": "Región de la Araucanía"
     },
     {
-      "available_budget_clp": 200000.0,
-      "buyer": "SERVICIO DE SALUD COQUIMBO HOSPITAL DE COQUIMBO",
-      "closes_at": "2026-11-02T12:00:00",
-      "code": "1430707-1712-COT26",
-      "estimated_budget": 200000.0,
-      "name": "INSUMO STOCK NOVIEMBRE",
+      "available_budget_clp": 225000.0,
+      "buyer": "Departamento Provincial Choapa",
+      "closes_at": "2026-11-01T17:25:00",
+      "code": "1482-42-COT26",
+      "estimated_budget": 225000.0,
+      "name": "SERVICIO DE CAFETERÍA PARA JORNADA REUNION 5 DE LA RED PROVINCIAL DE EDUCACION ESPECIAL",
       "products": 1,
       "region": "Región de Coquimbo"
     }
   ],
-  "active_structurally_reconstructable_count": 6,
+  "active_structurally_reconstructable_count": 7,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -79,7 +89,7 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-10-31T14:36:20Z",
+  "generated_at": "2026-10-31T20:05:37Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -87,16 +97,16 @@
   "phase1": {
     "records": 20,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 9
+      "no_observable_competitive_prices": 10
     },
-    "resolved": 14,
-    "structurally_reconstructable": 11,
-    "with_observable_quote_totals": 5,
-    "with_purchase_order_indicator": 0
+    "resolved": 13,
+    "structurally_reconstructable": 10,
+    "with_observable_quote_totals": 3,
+    "with_purchase_order_indicator": 1
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-31T14:36:20Z"
+    "changed_to": "2026-10-31T20:05:37Z"
   }
 }
