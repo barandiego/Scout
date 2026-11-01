@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-01T04:25:18.133949+00:00
+Generated: 2026-11-01T14:45:06.431069+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['underserved_buyers', 'seller_supply_gap', 'chile_technology_import']
-- raw_candidates: 2
-- parseable_candidates: 2
-- normalized_candidates: 2
+- lenses: ['early_adoption_investing', 'market_positioning', 'asset_ownership']
+- raw_candidates: 3
+- parseable_candidates: 3
+- normalized_candidates: 3
 - normalization_rejected: 0
-- grounded_sources: 4
+- grounded_sources: 6
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
 - critic_reviews: 1
 - judge_reviews: 1
 - survivors: 0
-- watches: 2
-- rejected: 0
+- watches: 3
+- rejected: 1
 - errors_by_stage: {}
-- rejection_reasons: {}
-- cost_usd: 0.04243605
+- rejection_reasons: {'discarded_ungrounded_url': 1, 'insufficient_unique_evidence': 1}
+- cost_usd: 0.0442602
 - cost_uncertain: False
-- budget_remaining_usd: 0.03756395
+- budget_remaining_usd: 0.0357398
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,8 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Energy-performance verification for desalination and seawater-pumping systems in Chilean mining: deferred_by_review_cap
-- Apply to Outlier Spanish-Chile AI training evaluation assignment: A primary, Chile-specific Outlier application page is credible evidence of an available route to test foreign-paid remote demand, and the no-inventory model avoids the import, landed-cost, and distribution barriers that normally make geographic-arbitrage ideas fail. However, this is not yet a validated arbitrage opportunity: the posting does not establish a Chile-specific rate, paid-hour volume, screening conversion, project continuity, payout usability, or net hourly economics. Foreign demand is evidenced by the employer’s role posting rather than solely anecdotal reports, so the foreign-traction fatal condition is not met. The appropriate HQ conclusion is a tightly bounded research test, not an income or business claim.
 - Chile SFA/ATENA interoperability test harness for small participating entities: deferred_by_review_cap
 - Chile Open Finance interoperability test harness for smaller regulated participants: The regulatory premise is sufficiently grounded by CMF primary sources: a technical annex, ATENA sandbox, and a planned July 2027 entry-into-force date support a real pre-production interoperability window. A narrowly scoped service can plausibly avoid handling live customer data by using synthetic data and operating only under each participant's own sandbox permissions. However, the proposed generic test-harness wedge is materially threatened by overlap with CMF-provided ATENA, public developer documentation, and likely incumbent integrators/consultants. There is no evidence yet of a mandatory independent certification/evidence requirement, paid procurement route, buyer budget, or differentiated capability that ATENA does not provide. It is HQ-worthy only as a buyer-validation research case, not as a validated infrastructure business.
 - Per-acre robotic weeding/scouting deployment for specialty-crop growers priced out of ownership: deferred_by_review_cap
@@ -51,13 +49,15 @@ No survivors. Scout does not manufacture a daily winner.
 - Chile SFA technical-conformance test harness for July 2027 implementation: deferred_by_review_cap
 - Energy-procurement comparison wedge for Chilean customers above 300 kW: deferred_by_review_cap
 - Chile Open Finance conformance kit for small Group 2 participants: The cited CMF primary sources adequately support that Chile’s Open Finance System has a technical annex, testing pathway, simplified participation concept, and a July 2027 effective date; therefore the regulatory-change premise is not rejected as unverified. A narrow pre-compliance diagnostic is not inherently a regulated financial activity, provided it does not represent official certification, access regulated production data without lawful authorization, or perform regulated data/payment functions. However, survival is not yet established: official ATENA/developer tooling and APIBox may already cover the proposed core functionality, while the small Group 2 buyer segment may have low budgets, simplified requirements, and a tendency to outsource one-time implementation work. No evidence demonstrates a legally available sandbox/API access path for an independent vendor, a differentiated capability, named buyers, procurement ownership, willingness to pay, or viable pricing relative to maintenance costs through regulatory changes. This is HQ-worthy only as a tightly bounded validation research item, not as a build recommendation.
+- Chile Open Finance conformance sandbox for small participating entities: deferred_by_review_cap
+- Evidence-backed micro-SaaS acquisition screening dataset: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=fresh",
-    "research_queue_unreviewed=77"
+    "deep_review_lane=backlog",
+    "research_queue_unreviewed=78"
   ],
   "stages": [
     {
@@ -65,30 +65,35 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 22,
+      "grounded_source_count": 27,
       "search_source_urls": [
+        "https://acquisitions.com/data/asking-multiples/",
+        "https://agfundernews.com/%F0%9F%8E%A5-carbon-robotics-100m-revenue-new-machine-and-a-path-to-ipo",
+        "https://appstock.com/comps/",
+        "https://arxiv.org/abs/2608.23771",
         "https://cdn.hacienda.cl/asset/hacienda_prod/attachment/e3c0a8c3b7d47dbb3f9b3e28a1bb11881759c8266302d7fc2de981ec599c369a/1769809551?_expiration=1776720910&_hash=Ue9QaJpD7YDUx8eM3myFf9t86l0s3XUWOW6FWuweMf8",
-        "https://chirgwin.cl/en/chile-advances-the-implementation-of-its-open-finance-system/",
-        "https://cmfchile.cl/portal/normativa/624/w4-article-106882.html",
-        "https://cmfchile.cl/portal/prensa/625/w4-article-100482.html",
-        "https://en.wikipedia.org/wiki/Open_finance",
-        "https://energia.gob.cl/iniciativas/rebaja-del-umbral-para-optar-al-regimen-de-clientes-libres",
-        "https://energia.gob.cl/node/24995",
-        "https://es.wikipedia.org/wiki/Hydrone",
-        "https://ir.transbank.cl/transbank-lanza-soluci%C3%B3n-de-pagos-tokenizados-para-fortalecer-el-e-commerce-en-chile",
-        "https://opia.fia.cl/601/w3-propertyvalue-105483.html",
-        "https://paymentscmi.com/e-commerce-infographics/2025_PCMI_Chile-E-commerce-Data-Portrait_EN.pdf",
-        "https://practiceguides.chambers.com/practice-guides/fintech-2026/chile",
-        "https://www.bcentral.cl/documents/33528/7849961/Financial%2BStability%2BReport%2BSecond%2BHalf%2B2025.pdf/83c6bb57-4793-0438-3959-bfd68fea216f?t=1765546573527",
+        "https://en.wikipedia.org/wiki/Aerobotics",
+        "https://en.wikipedia.org/wiki/AutoDS",
+        "https://en.wikipedia.org/wiki/Bedrock_Robotics",
+        "https://en.wikipedia.org/wiki/Perennial_Autonomy",
+        "https://en.wikipedia.org/wiki/Serve_Robotics",
+        "https://en.wikipedia.org/wiki/Software_Advice",
+        "https://procloser.ai/deals/",
+        "https://up.partners/wp-content/uploads/2026/04/The-Kinetic-Age-2026.pdf",
+        "https://www.acquirescout.com/resources/finding-deals/tools-for-buying-a-business",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
         "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.corfo.cl/sites/cpp/sala_de_prensa/regional/movil/08_05_2025_arica",
-        "https://www.imf.org/-/media/files/publications/cr/2024/english/1chlea2024002.pdf",
-        "https://www.imf.org/-/media/files/publications/cr/2025/english/1chlea2025001-print-pdf.pdf",
-        "https://www.legal500.com/guides/chapter/chile-fintech/?export-pdf=",
-        "https://www.reddit.com/r/chileIT/comments/1gf8fev/apis_bancarias/",
-        "https://www.reddit.com/r/chileIT/comments/1jcs4sd",
-        "https://www.trade.gov/country-commercial-guides/chile-strategic-technologies",
-        "https://www.uc.cl/en/news/uc-chile-researchers-develop-an-ai-powered-harvesting-robot/"
+        "https://www.reddit.com/r/Agronomics_Investors/comments/1xee2g3/agronomics_portfolio_catalyst_checklist_24th/",
+        "https://www.reddit.com/r/RoboStrategy/comments/1vx7lw8/first_robostrategy_shareholder_letter/",
+        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000108/MNCjune2026signed.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1130464/000119312526415597/bkh-ex99_1.htm",
+        "https://www.sec.gov/Archives/edgar/data/1296445/000119312526166801/ora_annual_report_2025.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1666175/000166617526000031/a2026q2exhibit993mda.htm",
+        "https://www.sec.gov/Archives/edgar/data/1760404/000176040426000003/form_car.pdf",
+        "https://www.sec.gov/Archives/edgar/data/64463/000162828026058625/solunaholdings-2025ars.pdf",
+        "https://www.sec.gov/Archives/edgar/data/7323/000006598426000283/etr-20260630.htm",
+        "https://www.sec.gov/Archives/edgar/data/886128/000110465926077042/fcel-20260622x8k.htm",
+        "https://www.thesmallbusinessmarketplace.com/saas-businesses-for-sale"
       ]
     },
     {
@@ -110,6 +115,23 @@ No survivors. Scout does not manufacture a daily winner.
       "index": 1,
       "stage": "normalization",
       "outcome": "accepted",
+      "reasons": [
+        "discarded_ungrounded_url"
+      ],
+      "changes": [
+        "contrary_evidence:list_sanitized",
+        "major_risks:list_sanitized",
+        "unknowns:list_sanitized",
+        "falsification_conditions:list_sanitized",
+        "material_update:unknown_false"
+      ],
+      "grounded_sources": 1,
+      "retry_justified": false
+    },
+    {
+      "index": 2,
+      "stage": "normalization",
+      "outcome": "accepted",
       "reasons": [],
       "changes": [
         "contrary_evidence:list_sanitized",
@@ -118,48 +140,48 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 2,
+      "grounded_sources": 3,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_047ea814b7b787205f3c",
+      "candidate_id": "opp_202d7778855e693fe04b",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 20,
       "search_source_urls": [
-        "https://boufin.com/",
-        "https://chirgwin.cl/en/chile-advances-the-implementation-of-its-open-finance-system/",
-        "https://en.wikipedia.org/wiki/Open_finance",
-        "https://es.wikipedia.org/wiki/Fapro",
-        "https://sfasandbox.cl/",
-        "https://vlex.cl/vid/oficio-circular-n-1426-1135823863",
-        "https://www.apec.org/apecapi/publication/getfile?publicationId=f3c8a97e-1057-4c17-94b6-74260e9ad856",
-        "https://www.apec.org/docs/default-source/publications/2023/3/apec-fintech-scoping-study/223_ec_apec-fintech-scoping-study.pdf?sfvrsn=95a57a3e_2",
+        "https://developers.sensedia.com/en/products/open-finance-chile/sfa-api-requests/swagger",
+        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/706413085/Gu%2Bas%2Bde%2Bpruebas%2BSandbox%2Bperiodo%2Bprevio%2Ba%2Bla%2Bentrada%2Ben%2Bvigencia",
+        "https://ozoneapi.com/the-open-finance-tracker/library/open-finance-system-sistema-de-finanzas-abiertas-sfa-chile/",
+        "https://sfasandbox.cl/docs.php",
+        "https://www.3htp.com/2026/",
+        "https://www.carey.cl/cmf-modifica-la-ncg-n514-e-incorpora-estandares-tecnicos-para-la-implementacion-del-sistema-de-finanzas-abiertas",
         "https://www.carey.cl/en/cmf-amends-ncg-no-514-and-incorporates-technical-standards-for-the-implementation-of-the-open-finance-system",
-        "https://www.cgap.org/research/publication/open-finance-oversight-and-supervision-emerging-practices-and-early-lessons",
-        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-110411_doc_pdf.pdf",
         "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html?trk=article-ssr-frontend-pulse_little-text-block",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://www.cmfchile.cl/portal/principal/613/articles-100979_doc_pdf.pdf",
         "https://www.cmfchile.cl/portal/principal/613/articles-102557_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/articles-82752_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/articles-88139_recurso_2.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/articles-92466_recurso_1.pdf",
         "https://www.cmfchile.cl/portal/principal/613/articles-96504_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html",
         "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.iadb.org/en/news/idb-unveils-apibox-new-open-source-tool-testing-open-finance-applications",
-        "https://www.legal500.com/guides/chapter/chile-fintech/?export-pdf=",
-        "https://www.openbankingtracker.com/open-banking-apis-latin-america"
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-96504.html",
+        "https://www.legal500.com/intelligence/chile/finance-and-banking/cmf-lanza-sandbox-tecnol%C3%B3gico-atena-para-avanzar-en-la-implementaci%C3%B3n-del-sistema-de-finanzas-abiertas"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_047ea814b7b787205f3c",
+      "candidate_id": "opp_202d7778855e693fe04b",
       "coercions": [
         "contrary_evidence"
       ]
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_047ea814b7b787205f3c",
+      "candidate_id": "opp_202d7778855e693fe04b",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -167,7 +189,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_047ea814b7b787205f3c",
+      "candidate_id": "opp_202d7778855e693fe04b",
       "coercions": []
     }
   ],
@@ -175,44 +197,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 253,
-      "cache_write_tokens": 4867,
+      "reasoning_tokens": 198,
+      "cache_write_tokens": 5437,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01441855,
+      "cumulative_cost_usd": 0.01523105,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13400,
+      "input_tokens": 14038,
       "cached_tokens": 0,
-      "output_tokens": 1246,
+      "output_tokens": 1793,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01441855
+      "estimated_cost_usd": 0.01523105
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 138,
-      "cache_write_tokens": 5260,
+      "reasoning_tokens": 189,
+      "cache_write_tokens": 5307,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02916255,
+      "cumulative_cost_usd": 0.0300992,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13561,
+      "input_tokens": 13852,
       "cached_tokens": 0,
-      "output_tokens": 1474,
+      "output_tokens": 1527,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.014744
+      "estimated_cost_usd": 0.01486815
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 0,
-      "cache_write_tokens": 2475,
+      "reasoning_tokens": 62,
+      "cache_write_tokens": 2590,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.04243605,
+      "cumulative_cost_usd": 0.0442602,
       "model": "gpt-5.6-terra",
-      "input_tokens": 2478,
+      "input_tokens": 2593,
       "cached_tokens": 0,
-      "output_tokens": 590,
+      "output_tokens": 640,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.0132735
+      "estimated_cost_usd": 0.014161
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-11-01T04:25:18.452262+00:00",
+  "generated_at": "2026-11-01T14:45:06.833335+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -21,7 +21,7 @@
     },
     {
       "opportunity_id": "opp_f26e42aaabb91e157f9d",
-      "other_cards_in_theme": 64,
+      "other_cards_in_theme": 65,
       "reviewed": true,
       "status": "watch",
       "theme": "chile_open_finance",
@@ -103,15 +103,15 @@
   "headline_count": 12,
   "high_concentration": [
     {
-      "cards": 65,
-      "share": 0.419,
+      "cards": 66,
+      "share": 0.42,
       "theme": "chile_open_finance"
     }
   ],
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 67,
+  "theme_count": 68,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -145,6 +145,7 @@
         "opp_055b092ce47f55114c32",
         "opp_1589efca2e61e92fd0d6",
         "opp_9511a8b5519c4a31790e",
+        "opp_202d7778855e693fe04b",
         "opp_33df5c0e60b44851d959",
         "opp_71fab3dd10745ab77ebe",
         "opp_1d8ec69c28f37b2eceef",
@@ -162,7 +163,6 @@
         "opp_fb3cadb8fae90ba9ffb4",
         "opp_993ac5d080c7042af44c",
         "opp_82f282d8dc0896390ee7",
-        "opp_202d7778855e693fe04b",
         "opp_bc3b9a823961fadca8e1",
         "opp_feb43070f6dba35f263f",
         "opp_b5bb525067a4142275e1",
@@ -179,11 +179,12 @@
         "opp_2eab3c54ff3018b1187b",
         "opp_d6ffaf44890e8156d04e",
         "opp_8c21e3ab01eded9b19de",
-        "opp_92eda67d89877601fa5b"
+        "opp_92eda67d89877601fa5b",
+        "opp_e7a9536d3f60729fe159"
       ],
-      "count": 65,
+      "count": 66,
       "representative_id": "opp_f26e42aaabb91e157f9d",
-      "reviewed_count": 40,
+      "reviewed_count": 41,
       "theme": "chile_open_finance"
     },
     {
@@ -509,6 +510,15 @@
     },
     {
       "all_opportunity_ids": [
+        "opp_cae875df41755d92137e"
+      ],
+      "count": 1,
+      "representative_id": "opp_cae875df41755d92137e",
+      "reviewed_count": 0,
+      "theme": "general:evidence_backed_micro"
+    },
+    {
+      "all_opportunity_ids": [
         "opp_c1dde7708010339fc2c8"
       ],
       "count": 1,
@@ -805,6 +815,6 @@
       "theme": "robotics_agritech:water_efficiency_field"
     }
   ],
-  "total_original_cards": 155,
+  "total_original_cards": 157,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }

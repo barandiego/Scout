@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 155
+Candidates: 157
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -532,6 +532,18 @@ Candidates: 155
 - Possible initial budget:
 - Source URLs: https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems; https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act
 
+## Evidence-backed micro-SaaS acquisition screening dataset
+- Status: watch | general
+- Current idea: A narrowly scoped dataset that normalizes listings, tracks price changes, flags missing financial evidence, and links each record to its source could be a repeatable research asset for buyers, brokers, lenders, or operators evaluating small software acquisitions. The evidence supports a data gap, not guaranteed demand or revenue.
+- Potential economic capture: Potential cash-flow sources are paid access, one-off diligence exports, or sponsorship/listing fees; none are established by the evidence. The defensible asset would be the normalized historical dataset, source lineage, and screening rules rather than generic acquisition consulting.
+- **Research routes to test (NOT validated claims):**
+  - Name a specific payer, customer job and credible reason existing alternatives fail.
+  - Choose a low-cost differentiation wedge (availability, price, experience, distribution or technology).
+  - Test channel, willingness to pay, ownership and contribution margin before building.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://acquisitions.com/data/asking-multiples/; https://www.acquirescout.com/resources/finding-deals/tools-for-buying-a-business; https://appstock.com/comps/
+
 ## Grid congestion is creating a market for storage, demand flexibility and grid-enhancing technologies
 - Status: watch | general
 - Current idea: The binding constraint is shifting from generation cost to connection capacity, congestion management and flexibility. Businesses that improve utilization of existing networks or provide fast-response capacity may capture value before traditional grid expansion is completed.
@@ -795,6 +807,18 @@ Candidates: 155
 - Critical gaps: The number and identity of eligible small Group 2 participants.; Which entities are actually planning to participate rather than rely on alternative mechanisms, defer, or use an integrator.; Whether ATENA, APIBox, or official CMF tooling already provides the exact proposed consent, error, logging, and evidence-reporting functionality.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/prensa/625/w4-article-100482.html
+
+## Chile Open Finance conformance sandbox for small participating entities
+- Status: watch | open_finance_chile
+- Current idea: The delay creates a defined pre-production window in which smaller regulated or participating entities may need repeatable testing, consent-flow documentation, API conformance checks, and implementation evidence before production obligations begin.
+- Potential economic capture: A narrow, reusable test harness and compliance-evidence package could be sold as a fixed-price implementation asset or licensed to participating entities. The evidence supports the need for technical preparation, but does not establish a buyer, price, or purchase commitment.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html
 
 ## Chile Open Finance conformance test harness for early SFA participants
 - Status: watch | open_finance_chile
@@ -1164,7 +1188,7 @@ Candidates: 155
   - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
   - Check license perimeter, API access, legal compliance and competitor pricing.
   - Test buyer procurement and technical access before writing integration infrastructure.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Whether ATENA access is open, gated, paid, rate-limited or restricted to eligible participant types.; Whether ATENA exposes automated pass/fail results, downloadable evidence and regression-test capabilities sufficient for customer use.; The exact scope, stability and versioning policy of the technical annex and developer portal after July 2027.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 

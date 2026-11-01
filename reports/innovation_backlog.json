@@ -1644,6 +1644,43 @@
       "category": "general",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Start with 100 publicly visible SaaS listings from two marketplaces. Record asking price, revenue/SDE disclosure, age, category, traffic or MRR evidence where available, and source URL; publish a free sample showing detected inconsistencies. Falsification test: ask 10 acquisition entrepreneurs, brokers, or searchers to score whether the sample would change a live deal decision; stop if fewer than two request the next update or offer to pay for a defined export. Do not claim verified financials where sellers have only self-reported them.",
+      "current_thesis": "A narrowly scoped dataset that normalizes listings, tracks price changes, flags missing financial evidence, and links each record to its source could be a repeatable research asset for buyers, brokers, lenders, or operators evaluating small software acquisitions. The evidence supports a data gap, not guaranteed demand or revenue.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Evidence-backed micro-SaaS acquisition screening dataset",
+      "opportunity_id": "opp_cae875df41755d92137e",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Name a specific payer, customer job and credible reason existing alternatives fail.",
+        "Choose a low-cost differentiation wedge (availability, price, experience, distribution or technology).",
+        "Test channel, willingness to pay, ownership and contribution margin before building."
+      ],
+      "supporting_source_urls": [
+        "https://acquisitions.com/data/asking-multiples/",
+        "https://www.acquirescout.com/resources/finding-deals/tools-for-buying-a-business",
+        "https://appstock.com/comps/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Potential cash-flow sources are paid access, one-off diligence exports, or sponsorship/listing fees; none are established by the evidence. The defensible asset would be the normalized historical dataset, source lineage, and screening rules rather than generic acquisition consulting.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "general",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Develop or finance storage and flexible-load projects near constrained nodes; sell software or services to utilities, aggregators and large electricity users; target projects with existing interconnection rights.",
       "current_thesis": "The binding constraint is shifting from generation cost to connection capacity, congestion management and flexibility. Businesses that improve utilization of existing networks or provide fast-response capacity may capture value before traditional grid expansion is completed.",
       "founder_hours_initial_unverified_estimate": "",
@@ -2486,6 +2523,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Sell a fixed-scope pre-compliance diagnostic or paid prototype to an entity considering participation, or license a testing asset to a software integrator. No buyer, price, or conversion is established by the evidence.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Build only a minimal sandbox against the published CMF technical specifications: implement one consent flow, one data-access flow, error logging, and an exportable test report. Use the CMF developer portal and sandbox where access is available; otherwise run against mocked endpoints. Falsification test: interview or cold-contact 10 listed prospective participant categories and ask whether they have an internal owner, budget, or external implementation plan for OFS testing. Do not build further unless at least one respondent agrees to review the artifact or provides a concrete test requirement.",
+      "current_thesis": "The delay creates a defined pre-production window in which smaller regulated or participating entities may need repeatable testing, consent-flow documentation, API conformance checks, and implementation evidence before production obligations begin.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile Open Finance conformance sandbox for small participating entities",
+      "opportunity_id": "opp_e7a9536d3f60729fe159",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A narrow, reusable test harness and compliance-evidence package could be sold as a fixed-price implementation asset or licensed to participating entities. The evidence supports the need for technical preparation, but does not establish a buyer, price, or purchase commitment.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -3668,9 +3741,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "Chile",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "Whether ATENA access is open, gated, paid, rate-limited or restricted to eligible participant types.",
+        "Whether ATENA exposes automated pass/fail results, downloadable evidence and regression-test capabilities sufficient for customer use.",
+        "The exact scope, stability and versioning policy of the technical annex and developer portal after July 2027.",
+        "Number of obligated institutions, their implementation status, and which smaller entities will actually participate rather than use simplified or alternative mechanisms.",
+        "Whether institutions will buy an independent test package instead of using internal teams, system integrators, auditors or existing API-security platforms.",
+        "Buyer willingness to pay, expected contract size, sales cycle, procurement requirements and required local presence in Chile.",
+        "Whether any customer needs tests beyond official ATENA coverage, especially for proprietary consent UX, legacy-core integration, performance, security evidence or continuous regression testing."
       ],
       "investment_authorized": false,
       "name": "Chile SFA interoperability test harness for smaller financial institutions",
@@ -5908,7 +5985,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-01T04:25:18.536635+00:00",
+  "generated_at": "2026-11-01T14:45:06.929565+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

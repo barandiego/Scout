@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-11-01T04:25:18.452262+00:00
+Generated: 2026-11-01T14:45:06.833335+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 155 (0 HQ survivors, 155 watches)
-- Rejected opportunities excluded: 89
-- Critic-and-judge reviewed: 72
+- Active research: 157 (0 HQ survivors, 157 watches)
+- Rejected opportunities excluded: 90
+- Critic-and-judge reviewed: 73
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -423,6 +423,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
+### Chile SFA interoperability test harness for smaller financial institutions [opp_202d7778855e693fe04b]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Banks, card issuers, account providers and smaller prospective participants will need repeatable testing of consent flows, interfaces, security controls and interoperability. The narrow opportunity is a reusable test harness and evidence pack, not an unlicensed financial-data service.
+- Value capture: Sell a fixed-scope conformance test package: simulated participant endpoints, consent-flow tests, API request/response validation, security-test evidence and defect reproduction. The payer would most plausibly be a fintech, regulated financial institution or technology vendor preparing for ATENA/SFA testing; no buyer, price or procurement commitment was verified.
+- Participation hypothesis: Use the publicly announced ATENA environment and CMF technical specifications as the test target. First build a minimal local mock of one SFA data-sharing flow and validate it against the published technical requirements. Then request access to ATENA through CMF, test the same flow in the sandbox, and approach named prospective participants only with a demonstrable defect/evidence report. Lowest-cost falsification: spend one week implementing one consent and account-data exchange flow from the technical annex; if the requirements are too incomp
+- Critic/judge: The regulatory premise appears sufficiently grounded: CMF primary-source materials in the supplied provenance support a 2026 technical update to NCG 514 and launch of the ATENA sandbox ahead of the stated July 2027 SFA implementation timing. The proposed offering is also framed as testing/compliance tooling rather than an unlicensed financial-data aggregation service, so no license-perimeter failure is established. However, this is not
+- Next evidence gaps: Whether ATENA access is open, gated, paid, rate-limited or restricted to eligible participant types.; Whether ATENA exposes automated pass/fail results, downloadable evidence and regression-test capabilities sufficient for customer use.; The exact scope, stability and versioning policy of the technical annex and developer portal after July 2027.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
 ### Chile SFA/ATENA interoperability test harness for small fintechs [opp_055b092ce47f55114c32]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: Small regulated or prospective SFA participants may face a concrete implementation and testing workload before July 2027. A narrow, reusable test harness or managed conformance-testing package could reduce integration uncertainty without attempting to become a regulated data-access provider.
@@ -793,6 +803,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-113897.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html
 
+### Evidence-backed micro-SaaS acquisition screening dataset [opp_cae875df41755d92137e]
+- Status: WATCH_REQUIRES_VALIDATION | general | United States
+- Thesis: A narrowly scoped dataset that normalizes listings, tracks price changes, flags missing financial evidence, and links each record to its source could be a repeatable research asset for buyers, brokers, lenders, or operators evaluating small software acquisitions. The evidence supports a data gap, not guaranteed demand or revenue.
+- Value capture: Potential cash-flow sources are paid access, one-off diligence exports, or sponsorship/listing fees; none are established by the evidence. The defensible asset would be the normalized historical dataset, source lineage, and screening rules rather than generic acquisition consulting.
+- Participation hypothesis: Start with 100 publicly visible SaaS listings from two marketplaces. Record asking price, revenue/SDE disclosure, age, category, traffic or MRR evidence where available, and source URL; publish a free sample showing detected inconsistencies. Falsification test: ask 10 acquisition entrepreneurs, brokers, or searchers to score whether the sample would change a live deal decision; stop if fewer than two request the next update or offer to pay for a defined export. Do not claim verified financials where sellers have only self-reported them.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://acquisitions.com/data/asking-multiples/; https://www.acquirescout.com/resources/finding-deals/tools-for-buying-a-business; https://appstock.com/comps/
+
 ### Independent field-service and leasing wedge around autonomous agricultural robots [opp_6ec905db3915e1dcfb85]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States
 - Thesis: The executable gap is not inventing another robot; it is reducing adoption friction for farms that cannot justify or operationally support a full purchase. A local deployment, monitoring and maintenance layer could participate where the manufacturer permits third-party service or channel partners.
@@ -1063,6 +1083,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/normativa/ncg_569_2026.pdf
 
+### Chile Open Finance conformance sandbox for small participating entities [opp_e7a9536d3f60729fe159]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: The delay creates a defined pre-production window in which smaller regulated or participating entities may need repeatable testing, consent-flow documentation, API conformance checks, and implementation evidence before production obligations begin.
+- Value capture: A narrow, reusable test harness and compliance-evidence package could be sold as a fixed-price implementation asset or licensed to participating entities. The evidence supports the need for technical preparation, but does not establish a buyer, price, or purchase commitment.
+- Participation hypothesis: Build only a minimal sandbox against the published CMF technical specifications: implement one consent flow, one data-access flow, error logging, and an exportable test report. Use the CMF developer portal and sandbox where access is available; otherwise run against mocked endpoints. Falsification test: interview or cold-contact 10 listed prospective participant categories and ask whether they have an internal owner, budget, or external implementation plan for OFS testing. Do not build further unless at least one respondent agrees to review the
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html
+
 ### Chile Open Finance conformance-test harness for early sandbox participants [opp_2eab3c54ff3018b1187b]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: Institutions preparing for participation will need repeatable integration, regression, and evidence-generation workflows rather than one-off manual testing. A narrowly scoped software asset could reduce repeated compliance-testing effort across multiple implementations.
@@ -1142,16 +1172,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
-
-### Chile SFA interoperability test harness for smaller financial institutions [opp_202d7778855e693fe04b]
-- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
-- Thesis: Banks, card issuers, account providers and smaller prospective participants will need repeatable testing of consent flows, interfaces, security controls and interoperability. The narrow opportunity is a reusable test harness and evidence pack, not an unlicensed financial-data service.
-- Value capture: Sell a fixed-scope conformance test package: simulated participant endpoints, consent-flow tests, API request/response validation, security-test evidence and defect reproduction. The payer would most plausibly be a fintech, regulated financial institution or technology vendor preparing for ATENA/SFA testing; no buyer, price or procurement commitment was verified.
-- Participation hypothesis: Use the publicly announced ATENA environment and CMF technical specifications as the test target. First build a minimal local mock of one SFA data-sharing flow and validate it against the published technical requirements. Then request access to ATENA through CMF, test the same flow in the sandbox, and approach named prospective participants only with a demonstrable defect/evidence report. Lowest-cost falsification: spend one week implementing one consent and account-data exchange flow from the technical annex; if the requirements are too incomp
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
 ### Chile SFA/ATENA conformance test harness for early interoperability testing [opp_31dfdad2eb2f74b28e49]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
