@@ -1,10 +1,10 @@
 # Scout — opportunity library
 
-Generated: 2026-11-01T14:45:06.833335+00:00
+Generated: 2026-11-01T20:10:18.137653+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 157 (0 HQ survivors, 157 watches)
+- Active research: 158 (0 HQ survivors, 158 watches)
 - Rejected opportunities excluded: 90
 - Critic-and-judge reviewed: 73
 - Autonomous execution authorization: 0
@@ -762,6 +762,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.invernadero.cl/; https://www.mdpi.com/2311-7524/12/8/972; https://www.inside-grower.com/utility/PDF.aspx?id=26248&pagename=viewarticle.aspx&pub=IG; https://coloradoproduce.org/wp-content/uploads/2023/07/cit_97817_2022-harvest-report_r6-digital_prod.pdf
+
+### Chile commercial BESS peak-shaving feasibility wedge using 15-minute meter data [opp_13c386e9cabe10c8389b]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile
+- Thesis: A small operator does not need to finance or own batteries initially. It can test whether a standardized load-profile calculation produces investment-grade savings cases for sites with demand charges, solar exports or outage costs. The measurable economic mechanism is avoided peak-demand cost, increased self-consumption or reduced outage exposure.
+- Value capture: Fixed-fee analysis priced against an observed Chilean reference price of UF 55, with any equipment installation, financing or energy-service contract treated as a separate later-stage transaction. No buyer, conversion rate or margin is assumed.
+- Participation hypothesis: Obtain public tariff schedules and approach independently sourced commercial or agricultural sites only where permission is granted to review their 15-minute meter data. Build a spreadsheet model that compares baseline demand charges against simulated peak shaving and solar shifting. Lowest-cost falsification: before selling a study, collect three anonymized 15-minute load profiles from willing site operators and test whether any show a sufficiently concentrated, recurring peak for a battery to plausibly affect the bill. If none do, stop. If on
+- Critic/judge: critic_invalid_output
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://carlosjofre.com/en/services/bess-strategy/; https://forcesolarpower.com/blog/chile-commercial-solar-net-billing/; https://www.spec.cl/en/publicaciones/2026-almacenamiento-corta-duracion/
 
 ### Chile Open Finance implementation-readiness test [opp_68b251b56fcd3101a22e]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile

@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 157
+Candidates: 158
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -291,6 +291,18 @@ Candidates: 157
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.licitacioneselectricas.cl/licitaciones?estado=vigentes; https://jdf.cl/en/cne-aprueba-las-bases-definitivas-de-la-licitacion-de-suministro-2026-01-y-da-inicio-formal-al-proceso/
+
+## Chile commercial BESS peak-shaving feasibility wedge using 15-minute meter data
+- Status: watch | energy_infrastructure
+- Current idea: A small operator does not need to finance or own batteries initially. It can test whether a standardized load-profile calculation produces investment-grade savings cases for sites with demand charges, solar exports or outage costs. The measurable economic mechanism is avoided peak-demand cost, increased self-consumption or reduced outage exposure.
+- Potential economic capture: Fixed-fee analysis priced against an observed Chilean reference price of UF 55, with any equipment installation, financing or energy-service contract treated as a separate later-stage transaction. No buyer, conversion rate or margin is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://carlosjofre.com/en/services/bess-strategy/; https://forcesolarpower.com/blog/chile-commercial-solar-net-billing/; https://www.spec.cl/en/publicaciones/2026-almacenamiento-corta-duracion/
 
 ## Chile renewable-curtailment dataset and screening tool for storage-site diligence
 - Status: watch | energy_infrastructure
