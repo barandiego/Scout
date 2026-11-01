@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-10-31T23:05:20.421779+00:00
+Generated: 2026-11-01T04:25:18.452262+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 153 (0 HQ survivors, 153 watches)
+- Active research: 155 (0 HQ survivors, 155 watches)
 - Rejected opportunities excluded: 89
-- Critic-and-judge reviewed: 71
+- Critic-and-judge reviewed: 72
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -232,6 +232,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Whether CMF schemas, sandbox behavior, certification tests, error semantics, and consent requirements are complete and stable enough to reproduce locally.; Whether regulated entities are authorized and willing to use third-party validators or must rely on approved/internal controls.; Number of entities required to participate, their implementation budgets, and the proportion outsourcing conformance work.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html
+
+### Chile Open Finance conformance kit for small Group 2 participants [opp_047ea814b7b787205f3c]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: A narrowly scoped test harness, consent-flow validator, API-log checker, and implementation checklist could reduce integration uncertainty before mandatory participation. This is an implementation asset, not a claim that a regulated service can be operated without authorization.
+- Value capture: Sell a fixed-scope pre-compliance diagnostic or paid prototype to an entity considering participation, or license a testing asset to a software integrator. No buyer, price, or conversion is established by the evidence.
+- Participation hypothesis: Build a minimal mock-data validator against the CMF technical specifications; publish a demonstrable consent and API-error test report; contact potential Group 2 entities and Chilean fintech integrators with an offer for a paid diagnostic. Lowest-cost falsification: obtain the official technical annex, implement one endpoint and one consent-flow check, then ask at least five identifiable prospective participants whether they will review the output or pay for a fixed-scope test. Stop if none will provide a technical review, pilot access, or paid
+- Critic/judge: The cited CMF primary sources adequately support that Chile’s Open Finance System has a technical annex, testing pathway, simplified participation concept, and a July 2027 effective date; therefore the regulatory-change premise is not rejected as unverified. A narrow pre-compliance diagnostic is not inherently a regulated financial activity, provided it does not represent official certification, access regulated production data without
+- Next evidence gaps: The number and identity of eligible small Group 2 participants.; Which entities are actually planning to participate rather than rely on alternative mechanisms, defer, or use an integrator.; Whether ATENA, APIBox, or official CMF tooling already provides the exact proposed consent, error, logging, and evidence-reporting functionality.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/prensa/625/w4-article-100482.html
 
 ### Chile Open Finance conformance test harness for early SFA participants [opp_33df5c0e60b44851d959]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -1212,6 +1222,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cochilco.cl/web/mineria-del-cobre-aumenta-uso-de-agua-de-mar-en-2025-y-reduce-en-7-la-extraccion-de-agua-continental/; https://www.cochilco.cl/web/download/1014/2026/15565/informe-proyeccion-del-consumo-de-agua-en-la-mineria-del-cobre-periodo-2025-2034.pdf
+
+### Energy-procurement comparison wedge for Chilean customers above 300 kW [opp_71c647684dc9a170f988]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile
+- Thesis: A small operator can test whether mid-sized commercial or industrial sites need an independent eligibility screen and supplier-offer comparison before switching. The public rule creates a concrete trigger, but the existence of unmet demand, supplier spreads, and achievable commission or fee income remains unverified.
+- Value capture: Potential fixed-fee procurement analysis or referral arrangement with an authorized supplier; no fee, margin, buyer, or supplier agreement is evidenced here.
+- Participation hypothesis: Create a one-page eligibility calculator using connected-power data, then approach identifiable businesses near or above the 300 kW threshold through public facility directories and industrial associations. Ask for a recent electricity bill and permission to prepare a comparison; do not claim savings before receiving competing offers. Lowest-cost falsification: conduct ten interviews and request three real bills, then seek written indicative offers from multiple suppliers. Stop if businesses will not share bills, suppliers will not provide indi
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://energia.gob.cl/iniciativas/rebaja-del-umbral-para-optar-al-regimen-de-clientes-libres; https://www.trade.gov/country-commercial-guides/chile-strategic-technologies
 
 ### Grant-aligned VFD and process-sensor retrofit package for small manufacturers [opp_269134d5b04eaaaf0c33]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States

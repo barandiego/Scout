@@ -997,6 +997,42 @@
       "category": "energy_infrastructure",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Create a one-page eligibility calculator using connected-power data, then approach identifiable businesses near or above the 300 kW threshold through public facility directories and industrial associations. Ask for a recent electricity bill and permission to prepare a comparison; do not claim savings before receiving competing offers. Lowest-cost falsification: conduct ten interviews and request three real bills, then seek written indicative offers from multiple suppliers. Stop if businesses will not share bills, suppliers will not provide indicative terms, or no comparison can be produced without unauthorized activity.",
+      "current_thesis": "A small operator can test whether mid-sized commercial or industrial sites need an independent eligibility screen and supplier-offer comparison before switching. The public rule creates a concrete trigger, but the existence of unmet demand, supplier spreads, and achievable commission or fee income remains unverified.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Energy-procurement comparison wedge for Chilean customers above 300 kW",
+      "opportunity_id": "opp_71c647684dc9a170f988",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
+        "Compare owned asset, installer/distributor and project-finance participation.",
+        "Verify permits and installed net payback under conservative power price scenarios."
+      ],
+      "supporting_source_urls": [
+        "https://energia.gob.cl/iniciativas/rebaja-del-umbral-para-optar-al-regimen-de-clientes-libres",
+        "https://www.trade.gov/country-commercial-guides/chile-strategic-technologies"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Potential fixed-fee procurement analysis or referral arrangement with an authorized supplier; no fee, margin, buyer, or supplier agreement is evidenced here.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "energy_infrastructure",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use the public DOE awardee and qualified-assessment-provider lists to identify manufacturers with funded projects involving VFDs, motors, pumps, compressors, monitors, or process sensors. Send a fixed-scope offer for one retrofit type, such as installing and commissioning VFDs on eligible motor loads. Lowest-cost test: select 10 awardees or assessment providers, verify each facility's project scope from public records, and ask whether they are accepting outside installation bids or subcontractors. Do not assume grant eligibility, procurement permission, or incumbent-free status until confirmed directly.",
       "current_thesis": "A small operator could sell a narrowly defined hardware-and-installation package that converts an already funded energy recommendation into an operating project, rather than selling an energy study or generic consulting.",
       "founder_hours_initial_unverified_estimate": "",
@@ -2410,6 +2446,46 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Offer a self-contained validation package or annual update pack for regulated or participating entities preparing integrations. Do not claim regulatory approval, certification, or permission to access live financial data.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Build a minimal mock-data validator against the CMF technical specifications; publish a demonstrable consent and API-error test report; contact potential Group 2 entities and Chilean fintech integrators with an offer for a paid diagnostic. Lowest-cost falsification: obtain the official technical annex, implement one endpoint and one consent-flow check, then ask at least five identifiable prospective participants whether they will review the output or pay for a fixed-scope test. Stop if none will provide a technical review, pilot access, or paid commitment. Do not present the tool as regulatory approval or operate as a financial service provider.",
+      "current_thesis": "A narrowly scoped test harness, consent-flow validator, API-log checker, and implementation checklist could reduce integration uncertainty before mandatory participation. This is an implementation asset, not a claim that a regulated service can be operated without authorization.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "The number and identity of eligible small Group 2 participants.",
+        "Which entities are actually planning to participate rather than rely on alternative mechanisms, defer, or use an integrator.",
+        "Whether ATENA, APIBox, or official CMF tooling already provides the exact proposed consent, error, logging, and evidence-reporting functionality.",
+        "Whether third parties may sell conformance diagnostics without accreditation, certification, or other regulatory constraints.",
+        "Whether prospective buyers have discretionary budgets before mandatory implementation.",
+        "Expected willingness to pay and feasible price range.",
+        "Access to realistic technical specifications, sandbox credentials, participant-directory flows, and representative test cases."
+      ],
+      "investment_authorized": false,
+      "name": "Chile Open Finance conformance kit for small Group 2 participants",
+      "opportunity_id": "opp_047ea814b7b787205f3c",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://cmfchile.cl/portal/prensa/625/w4-article-100482.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a fixed-scope pre-compliance diagnostic or paid prototype to an entity considering participation, or license a testing asset to a software integrator. No buyer, price, or conversion is established by the evidence.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -5832,7 +5908,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-10-31T23:05:20.491118+00:00",
+  "generated_at": "2026-11-01T04:25:18.536635+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

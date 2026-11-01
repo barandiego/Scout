@@ -2009,6 +2009,89 @@
     {
       "ai_leverage": "",
       "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": true,
+      "discovered_at": "2026-11-01T04:24:55.210792+00:00",
+      "discovery_lens": "chile_technology_import",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The CMF states that the technical annex defines interoperability requirements, that a testing area will be available, that simplified participation is possible for smaller entities, and that the system’s entry into force was postponed until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "The CMF consultation describes a voluntary pilot, testing areas, simplified participation for smaller Group 2 entities, and requirements concerning consent and transaction-data availability.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF consultation on modifications to the Open Finance System",
+          "url": "https://cmfchile.cl/portal/prensa/625/w4-article-100482.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [
+        "Fatal if the CMF's ATENA and associated developer tooling already provide the proposed validator, consent-flow checks, API-log analysis, and exportable conformance reports at no charge or at a price buyers will not exceed.",
+        "Fatal if at least five identifiable target entities or Chilean integrators decline a technical review, pilot, paid diagnostic, referral, or written statement of need after seeing a working prototype.",
+        "Fatal if no target buyer can identify a budget owner and procurement path before July 2027.",
+        "Fatal if the proposed asset requires access, certification, or regulatory status unavailable to the builder and no authorized partner will provide it.",
+        "Fatal if the technical annex or sandbox changes enough during a prototype period that maintaining the test harness is uneconomic.",
+        "Fatal if the product cannot demonstrate a measurable advantage over official tools, APIBox, SFA-Sandbox, or incumbent integrators in time saved, defects found, audit evidence, or implementation risk reduced.",
+        "Strong negative evidence if smaller participants consistently outsource implementation to integrators and those integrators prefer their existing internal tooling.",
+        "Strong negative evidence if prospects describe the problem as a one-time integration task rather than a recurring or high-cost compliance risk."
+      ],
+      "geography": "Chile",
+      "id": "opp_047ea814b7b787205f3c",
+      "judge_reviewed": true,
+      "judgment": "The cited CMF primary sources adequately support that Chile’s Open Finance System has a technical annex, testing pathway, simplified participation concept, and a July 2027 effective date; therefore the regulatory-change premise is not rejected as unverified. A narrow pre-compliance diagnostic is not inherently a regulated financial activity, provided it does not represent official certification, access regulated production data without lawful authorization, or perform regulated data/payment functions. However, survival is not yet established: official ATENA/developer tooling and APIBox may already cover the proposed core functionality, while the small Group 2 buyer segment may have low budgets, simplified requirements, and a tendency to outsource one-time implementation work. No evidence demonstrates a legally available sandbox/API access path for an independent vendor, a differentiated capability, named buyers, procurement ownership, willingness to pay, or viable pricing relative to maintenance costs through regulatory changes. This is HQ-worthy only as a tightly bounded validation research item, not as a build recommendation.",
+      "last_record_updated_at": "2026-11-01T04:25:17.902010+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "The number and identity of eligible small Group 2 participants.",
+        "Which entities are actually planning to participate rather than rely on alternative mechanisms, defer, or use an integrator.",
+        "Whether ATENA, APIBox, or official CMF tooling already provides the exact proposed consent, error, logging, and evidence-reporting functionality.",
+        "Whether third parties may sell conformance diagnostics without accreditation, certification, or other regulatory constraints.",
+        "Whether prospective buyers have discretionary budgets before mandatory implementation."
+      ],
+      "participation_path": "Build a minimal mock-data validator against the CMF technical specifications; publish a demonstrable consent and API-error test report; contact potential Group 2 entities and Chilean fintech integrators with an offer for a paid diagnostic. Lowest-cost falsification: obtain the official technical annex, implement one endpoint and one consent-flow check, then ask at least five identifiable prospective participants whether they will review the output or pay for a fixed-scope test. Stop if none will provide a technical review, pilot access, or paid commitment. Do not present the tool as regulatory approval or operate as a financial service provider.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A narrowly scoped test harness, consent-flow validator, API-log checker, and implementation checklist could reduce integration uncertainty before mandatory participation. This is an implementation asset, not a claim that a regulated service can be operated without authorization.",
+      "title": "Chile Open Finance conformance kit for small Group 2 participants",
+      "type": "compliance_testing_asset",
+      "unknowns": [
+        "The number and identity of eligible small Group 2 participants.",
+        "Which entities are actually planning to participate rather than rely on alternative mechanisms, defer, or use an integrator.",
+        "Whether ATENA, APIBox, or official CMF tooling already provides the exact proposed consent, error, logging, and evidence-reporting functionality.",
+        "Whether third parties may sell conformance diagnostics without accreditation, certification, or other regulatory constraints.",
+        "Whether prospective buyers have discretionary budgets before mandatory implementation.",
+        "Expected willingness to pay and feasible price range.",
+        "Access to realistic technical specifications, sandbox credentials, participant-directory flows, and representative test cases.",
+        "Whether the technical annex or developer portal will materially change before July 2027.",
+        "Whether local Spanish-language support, implementation consulting, or audit-ready evidence is a sufficiently valuable differentiation.",
+        "Whether the named commercial competitor has paying customers, meaningful functionality, or only marketing claims.",
+        "Whether independent vendors can obtain and retain all sandbox, specification, test-data, and participant-flow access needed for a commercially useful diagnostic.",
+        "The precise scope and pricing of ATENA, APIBox, SFA-Sandbox, and Chile-focused commercial offerings versus the proposed features.",
+        "Whether a specific buyer class has a recurring, budgeted need for audit-ready evidence rather than a one-time integration check.",
+        "Identity and count of eligible Group 2 entities, their implementation plans, and whether they buy directly or through integrators.",
+        "Whether third-party conformance reports have procurement or regulatory credibility absent formal accreditation.",
+        "A defensible price, delivery cost, update burden, and measurable value metric such as defects caught, implementation hours saved, or evidence-production time reduced."
+      ],
+      "value_capture_mechanism": "Sell a fixed-scope pre-compliance diagnostic or paid prototype to an entity considering participation, or license a testing asset to a software integrator. No buyer, price, or conversion is established by the evidence.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
       "contrary_evidence": [
         "CMF officially confirms that the technical annex defines interoperability requirements and that implementation is scheduled for July 2027, supporting a genuine regulatory trigger. Source: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
         "CMF launched ATENA as a controlled environment for testing integrations, directory interoperability, and compliance readiness, validating that participants face real testing needs. Source: https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
@@ -9042,6 +9125,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-01T04:24:55.211532+00:00",
+      "discovery_lens": "underserved_buyers",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Chile’s Ministry of Energy states that from February 2025 customers with connected power above 300 kW may voluntarily choose the free-customer regime, including their supplier and supply conditions.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Rebaja del umbral para optar al régimen de clientes libres",
+          "url": "https://energia.gob.cl/iniciativas/rebaja-del-umbral-para-optar-al-regimen-de-clientes-libres"
+        },
+        {
+          "claim": "The U.S. International Trade Administration describes Chilean industrial and technology adoption conditions, including regulatory and commercial constraints affecting deployment and supplier participation; it does not establish a specific procurement margin or buyer commitment.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Chile Strategic Technologies",
+          "url": "https://www.trade.gov/country-commercial-guides/chile-strategic-technologies"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.78,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_71c647684dc9a170f988",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-01T04:24:55.261194+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Create a one-page eligibility calculator using connected-power data, then approach identifiable businesses near or above the 300 kW threshold through public facility directories and industrial associations. Ask for a recent electricity bill and permission to prepare a comparison; do not claim savings before receiving competing offers. Lowest-cost falsification: conduct ten interviews and request three real bills, then seek written indicative offers from multiple suppliers. Stop if businesses will not share bills, suppliers will not provide indicative terms, or no comparison can be produced without unauthorized activity.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A small operator can test whether mid-sized commercial or industrial sites need an independent eligibility screen and supplier-offer comparison before switching. The public rule creates a concrete trigger, but the existence of unmet demand, supplier spreads, and achievable commission or fee income remains unverified.",
+      "title": "Energy-procurement comparison wedge for Chilean customers above 300 kW",
+      "type": "procurement_comparison_service",
+      "unknowns": [],
+      "value_capture_mechanism": "Potential fixed-fee procurement analysis or referral arrangement with an authorized supplier; no fee, margin, buyer, or supplier agreement is evidenced here.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-17T04:20:14.432726+00:00",
       "discovery_lens": "adoption_lag",
       "estimated_capital": "",
@@ -10823,13 +10960,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-10-31T23:05:20.421779+00:00",
+  "generated_at": "2026-11-01T04:25:18.452262+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 89,
-  "reviewed_cards": 71,
+  "reviewed_cards": 72,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 242,
-  "watch": 153
+  "total_distinct_opportunities": 244,
+  "watch": 155
 }

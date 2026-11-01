@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 153
+Candidates: 155
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -327,6 +327,18 @@ Candidates: 153
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.cochilco.cl/web/mineria-del-cobre-aumenta-uso-de-agua-de-mar-en-2025-y-reduce-en-7-la-extraccion-de-agua-continental/; https://www.cochilco.cl/web/download/1014/2026/15565/informe-proyeccion-del-consumo-de-agua-en-la-mineria-del-cobre-periodo-2025-2034.pdf
+
+## Energy-procurement comparison wedge for Chilean customers above 300 kW
+- Status: watch | energy_infrastructure
+- Current idea: A small operator can test whether mid-sized commercial or industrial sites need an independent eligibility screen and supplier-offer comparison before switching. The public rule creates a concrete trigger, but the existence of unmet demand, supplier spreads, and achievable commission or fee income remains unverified.
+- Potential economic capture: Potential fixed-fee procurement analysis or referral arrangement with an authorized supplier; no fee, margin, buyer, or supplier agreement is evidenced here.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://energia.gob.cl/iniciativas/rebaja-del-umbral-para-optar-al-regimen-de-clientes-libres; https://www.trade.gov/country-commercial-guides/chile-strategic-technologies
 
 ## Grant-aligned VFD and process-sensor retrofit package for small manufacturers
 - Status: watch | energy_infrastructure
@@ -771,6 +783,18 @@ Candidates: 153
 - Critical gaps: Whether CMF schemas, sandbox behavior, certification tests, error semantics, and consent requirements are complete and stable enough to reproduce locally.; Whether regulated entities are authorized and willing to use third-party validators or must rely on approved/internal controls.; Number of entities required to participate, their implementation budgets, and the proportion outsourcing conformance work.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html
+
+## Chile Open Finance conformance kit for small Group 2 participants
+- Status: watch | open_finance_chile
+- Current idea: A narrowly scoped test harness, consent-flow validator, API-log checker, and implementation checklist could reduce integration uncertainty before mandatory participation. This is an implementation asset, not a claim that a regulated service can be operated without authorization.
+- Potential economic capture: Sell a fixed-scope pre-compliance diagnostic or paid prototype to an entity considering participation, or license a testing asset to a software integrator. No buyer, price, or conversion is established by the evidence.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: The number and identity of eligible small Group 2 participants.; Which entities are actually planning to participate rather than rely on alternative mechanisms, defer, or use an integrator.; Whether ATENA, APIBox, or official CMF tooling already provides the exact proposed consent, error, logging, and evidence-reporting functionality.
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/prensa/625/w4-article-100482.html
 
 ## Chile Open Finance conformance test harness for early SFA participants
 - Status: watch | open_finance_chile
