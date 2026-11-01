@@ -1,16 +1,28 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-01T15:21:16.901973+00:00
+Generated: 2026-11-01T20:40:34.031471+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
 - New this cycle: 161
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): none
-- Categories: agriculture 509, ai 99, energy 481, robotics 711
+- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
+- Categories: agriculture 510, ai 100, energy 483, robotics 707
 
 ## Recently encountered signals
+
+### aswithaputchakayala-lab/SmartAgri-Ashuu-Farm
+- Source: https://github.com/aswithaputchakayala-lab/SmartAgri-Ashuu-Farm
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### ravikumara11404-hash/Smart-Farming-System
+- Source: https://github.com/ravikumara11404-hash/Smart-Farming-System
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### Tejasri-009/OptiCrop-Smart-Agricultural-Production
 - Source: https://github.com/Tejasri-009/OptiCrop-Smart-Agricultural-Production
@@ -438,26 +450,14 @@ Generated: 2026-11-01T15:21:16.901973+00:00
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
-### varshithak3117/new-workspace-1
-- Source: https://github.com/varshithak3117/new-workspace-1
+### ReISSUE-developer/Gramsutra.AI
+- Source: https://github.com/ReISSUE-developer/Gramsutra.AI
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
 
-### purnima279/Agrigpt-multimodal-platform
-- Source: https://github.com/purnima279/Agrigpt-multimodal-platform
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### jairam-kurapati/Smart_Farming_Reccomdation_System
-- Source: https://github.com/jairam-kurapati/Smart_Farming_Reccomdation_System
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Lathika226/An-Explainable-AI-Framework-for-Indigenous-Knowledge-Driven-Smart-Agriculture-
-- Source: https://github.com/Lathika226/An-Explainable-AI-Framework-for-Indigenous-Knowledge-Driven-Smart-Agriculture-
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+### William-De71/gladys-victron-vrm
+- Source: https://github.com/William-De71/gladys-victron-vrm
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
