@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-10-31T23:30:53.624332+00:00
+Generated: 2026-11-01T06:32:30.970169+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 155
+- New this cycle: 162
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
-- Categories: agriculture 504, ai 99, energy 481, robotics 716
+- Feed failures (fail-open for public intake only): none
+- Categories: agriculture 504, ai 98, energy 484, robotics 714
 
 ## Recently encountered signals
+
+### subhamghosh192006-droid/Krishi-Mitra
+- Source: https://github.com/subhamghosh192006-droid/Krishi-Mitra
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### sanjanachavann/AgriMind
 - Source: https://github.com/sanjanachavann/AgriMind
@@ -420,6 +426,30 @@ Generated: 2026-10-31T23:30:53.624332+00:00
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
+### Single-degree-of-freedom adaptive virtual-RC droop with fuzzy fractional-order PI control for battery–supercapacitor hybrid energy storage in DC microgrids
+- Source: https://doi.org/10.1016/j.est.2026.125166
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### Techno-Economic and environmental assessment of hybrid solar and wind energy systems with battery and pumped hydro storage for rural electrification in Cameroon
+- Source: https://doi.org/10.1016/j.ecmx.2026.102412
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### Thermal-Runaway Investigation for a Cylindrical LiFePO4 Cell in Battery Energy Storage Systems (BESS): A Fully Coupled Electro-Chemo-Thermo-Mechanical (ECTM) Perspective
+- Source: https://doi.org/10.53941/tsa.2026.100022
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### anjalinkp2025-eng/Kisan-mitra-
+- Source: https://github.com/anjalinkp2025-eng/Kisan-mitra-
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
 ### tharuntk43/uzhavan-hub-new
 - Source: https://github.com/tharuntk43/uzhavan-hub-new
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
@@ -428,36 +458,6 @@ Generated: 2026-10-31T23:30:53.624332+00:00
 
 ### piyushkumar3007/KisanNova
 - Source: https://github.com/piyushkumar3007/KisanNova
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### maliha-data/Smart-Agriculture-Assistant
-- Source: https://github.com/maliha-data/Smart-Agriculture-Assistant
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### HimanshiGarg27/CropAI-Disease-Detector
-- Source: https://github.com/HimanshiGarg27/CropAI-Disease-Detector
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### gkpatil123/LISA
-- Source: https://github.com/gkpatil123/LISA
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### yogeshwarygandge-13/Smart-Indoor-Vertical-Farming
-- Source: https://github.com/yogeshwarygandge-13/Smart-Indoor-Vertical-Farming
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### tungaeric/Agrismart_rwanda
-- Source: https://github.com/tungaeric/Agrismart_rwanda
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
