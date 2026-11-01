@@ -1,16 +1,28 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-01T06:32:30.970169+00:00
+Generated: 2026-11-01T15:21:16.901973+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 162
+- New this cycle: 161
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 504, ai 98, energy 484, robotics 714
+- Categories: agriculture 509, ai 99, energy 481, robotics 711
 
 ## Recently encountered signals
+
+### Tejasri-009/OptiCrop-Smart-Agricultural-Production
+- Source: https://github.com/Tejasri-009/OptiCrop-Smart-Agricultural-Production
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### Paranbapu99/Kisan---Grid
+- Source: https://github.com/Paranbapu99/Kisan---Grid
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### subhamghosh192006-droid/Krishi-Mitra
 - Source: https://github.com/subhamghosh192006-droid/Krishi-Mitra
@@ -426,38 +438,26 @@ Generated: 2026-11-01T06:32:30.970169+00:00
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
-### Single-degree-of-freedom adaptive virtual-RC droop with fuzzy fractional-order PI control for battery–supercapacitor hybrid energy storage in DC microgrids
-- Source: https://doi.org/10.1016/j.est.2026.125166
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Techno-Economic and environmental assessment of hybrid solar and wind energy systems with battery and pumped hydro storage for rural electrification in Cameroon
-- Source: https://doi.org/10.1016/j.ecmx.2026.102412
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Thermal-Runaway Investigation for a Cylindrical LiFePO4 Cell in Battery Energy Storage Systems (BESS): A Fully Coupled Electro-Chemo-Thermo-Mechanical (ECTM) Perspective
-- Source: https://doi.org/10.53941/tsa.2026.100022
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### anjalinkp2025-eng/Kisan-mitra-
-- Source: https://github.com/anjalinkp2025-eng/Kisan-mitra-
+### varshithak3117/new-workspace-1
+- Source: https://github.com/varshithak3117/new-workspace-1
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
 
-### tharuntk43/uzhavan-hub-new
-- Source: https://github.com/tharuntk43/uzhavan-hub-new
+### purnima279/Agrigpt-multimodal-platform
+- Source: https://github.com/purnima279/Agrigpt-multimodal-platform
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
 
-### piyushkumar3007/KisanNova
-- Source: https://github.com/piyushkumar3007/KisanNova
+### jairam-kurapati/Smart_Farming_Reccomdation_System
+- Source: https://github.com/jairam-kurapati/Smart_Farming_Reccomdation_System
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### Lathika226/An-Explainable-AI-Framework-for-Indigenous-Knowledge-Driven-Smart-Agriculture-
+- Source: https://github.com/Lathika226/An-Explainable-AI-Framework-for-Indigenous-Knowledge-Driven-Smart-Agriculture-
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
