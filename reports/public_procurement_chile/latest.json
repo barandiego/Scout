@@ -18,7 +18,7 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-10-31T23:28:33Z",
+  "generated_at": "2026-11-01T06:25:02Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -26,16 +26,16 @@
   "phase1": {
     "records": 20,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 15
+      "no_observable_competitive_prices": 3
     },
     "resolved": 20,
-    "structurally_reconstructable": 5,
-    "with_observable_quote_totals": 5,
-    "with_purchase_order_indicator": 1
+    "structurally_reconstructable": 17,
+    "with_observable_quote_totals": 17,
+    "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-10-31T23:28:33Z"
+    "changed_to": "2026-11-01T06:25:02Z"
   }
 }
