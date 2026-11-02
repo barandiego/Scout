@@ -1,37 +1,17 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 800000.0,
-      "buyer": "SERVICIO DE SALUD DEL LIBERTADOR B O'HIGGINS HOSPITAL REG RANCAGUA",
-      "closes_at": "2026-11-03T12:00:00",
-      "code": "2080-926-COT26",
-      "estimated_budget": 800000.0,
-      "name": "CABLE EXTENSIÓN PARA MARCAPASOS TEMPORAL",
-      "products": 1,
-      "region": "Región del Libertador General Bernardo O´Higgins"
-    },
-    {
-      "available_budget_clp": 1382600.0,
-      "buyer": "CENTRO DE FORMACION TECNICA ESTATAL DE MAGALLANES",
-      "closes_at": "2026-11-02T17:30:00",
-      "code": "1109692-252-COT26",
-      "estimated_budget": 1382600.0,
-      "name": "Insumos y Fármacos veterinarios con entrega en la Ciudad de Porvenir, Tierra del Fuego.",
-      "products": 27,
-      "region": "Región de Magallanes y de la Antártica"
-    },
-    {
-      "available_budget_clp": 7000000.0,
-      "buyer": "SERVICIO DE SALUD DEL LIBERTADOR B O'HIGGINS HOSPITAL REG RANCAGUA",
-      "closes_at": "2026-11-03T15:00:00",
-      "code": "2080-974-COT26",
-      "estimated_budget": 7000000.0,
-      "name": "INSUMOS GESTION DE MANTENIMIENTO DE ACTIVOS",
-      "products": 31,
-      "region": "Región del Libertador General Bernardo O´Higgins"
+      "available_budget_clp": 2507153.0,
+      "buyer": "UNIVERSIDAD ARTURO PRAT",
+      "closes_at": "2026-11-04T12:00:00",
+      "code": "2013-1890-COT26",
+      "estimated_budget": 2507153.0,
+      "name": "ADQUISICIÓN DE EQUIPO DE ROBOTICA",
+      "products": 22,
+      "region": "Región de Tarapacá"
     }
   ],
-  "active_structurally_reconstructable_count": 3,
+  "active_structurally_reconstructable_count": 1,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -49,7 +29,7 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-01T20:36:27Z",
+  "generated_at": "2026-11-02T06:25:29Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -57,16 +37,16 @@
   "phase1": {
     "records": 20,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 11
+      "no_observable_competitive_prices": 4
     },
-    "resolved": 17,
-    "structurally_reconstructable": 9,
-    "with_observable_quote_totals": 6,
-    "with_purchase_order_indicator": 1
+    "resolved": 19,
+    "structurally_reconstructable": 16,
+    "with_observable_quote_totals": 15,
+    "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-01T20:36:27Z"
+    "changed_to": "2026-11-02T06:25:29Z"
   }
 }
