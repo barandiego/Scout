@@ -1,23 +1,205 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 2507153.0,
-      "buyer": "UNIVERSIDAD ARTURO PRAT",
+      "available_budget_clp": 980000.0,
+      "buyer": "SERVICIO NACIONAL DE SALUD HOSPITAL DE RIO NEGRO",
+      "closes_at": "2026-11-06T10:30:00",
+      "code": "1057531-178-COT26",
+      "estimated_budget": 980000.0,
+      "name": "Soportes de  anclaje de Acero con cadenas para Cilindros de Oxígeno Médico (10m³). Ver adjunto referencial.",
+      "products": 1,
+      "region": "Región de los Lagos"
+    },
+    {
+      "available_budget_clp": 2715699.0,
+      "buyer": "Ejercito de Chile",
+      "closes_at": "2026-11-03T15:30:00",
+      "code": "3416-259-COT26",
+      "estimated_budget": 2715699.0,
+      "name": "ADQUISICION DE BEBESTIBLES",
+      "products": 10,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 540000.0,
+      "buyer": "I MUNICIPALIDAD DE CALAMA",
+      "closes_at": "2026-11-03T15:30:00",
+      "code": "2385-592-COT26",
+      "estimated_budget": 540000.0,
+      "name": "COMPRA DE PROYECTOR",
+      "products": 1,
+      "region": "Región de Antofagasta"
+    },
+    {
+      "available_budget_clp": 3800000.0,
+      "buyer": "SERVICIO DE SALUD OCCIDENTE HOSPITAL SAN JUAN DE DIOS",
+      "closes_at": "2026-11-03T16:00:00",
+      "code": "1641-5828-COT26",
+      "estimated_budget": 3800000.0,
+      "name": "drm/2026/ITEM 29/PLAN NACIONAL DEL CANCER 2026/VITRINA REFRIGERADA PARA ANATOMIA PATOLOGICA",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 151000.0,
+      "buyer": "I MUNICIPALIDAD DE PUNITAQUI",
+      "closes_at": "2026-11-03T16:00:00",
+      "code": "3873-354-COT26",
+      "estimated_budget": 151000.0,
+      "name": "material de aseo",
+      "products": 3,
+      "region": "Región de Coquimbo"
+    },
+    {
+      "available_budget_clp": 1200000.0,
+      "buyer": "INSTITUTO DE INVESTIGACIONES AGROPECUARIAS",
       "closes_at": "2026-11-04T12:00:00",
-      "code": "2013-1890-COT26",
-      "estimated_budget": 2507153.0,
-      "name": "ADQUISICIÓN DE EQUIPO DE ROBOTICA",
-      "products": 22,
-      "region": "Región de Tarapacá"
+      "code": "1107282-265-COT26",
+      "estimated_budget": 1200000.0,
+      "name": "Adquisición de Filtro y Cartuchos para Sistema de Purificación de Agua EasyPure II – INIA",
+      "products": 4,
+      "region": "Región de los Lagos"
+    },
+    {
+      "available_budget_clp": 1800000.0,
+      "buyer": "I MUNICIPALIDAD DE NANCAGUA",
+      "closes_at": "2026-11-03T16:20:00",
+      "code": "3764-577-COT26",
+      "estimated_budget": 1800000.0,
+      "name": "IMPRESORA LASER A COLOR E INSUMOS - DIRECCION CONTROL",
+      "products": 2,
+      "region": "Región del Libertador General Bernardo O´Higgins"
+    },
+    {
+      "available_budget_clp": 1200000.0,
+      "buyer": "I MUNICIPALIDAD DE VALLENAR",
+      "closes_at": "2026-11-04T10:00:00",
+      "code": "5350-554-COT26",
+      "estimated_budget": 1200000.0,
+      "name": "Impresión de 120 libros a color, de “103 Yerbas Medicinales”, certificadas por el Ministerio de Salud de Chile",
+      "products": 1,
+      "region": "Región de Atacama"
+    },
+    {
+      "available_budget_clp": 610000.0,
+      "buyer": "MUNICIPALIDAD DE INDEPENDENCIA",
+      "closes_at": "2026-11-03T15:30:00",
+      "code": "1532132-128-COT26",
+      "estimated_budget": 610000.0,
+      "name": "BIOGAIA GTI",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 900000.0,
+      "buyer": "I MUNICIPALIDAD DE CHANCO",
+      "closes_at": "2026-11-03T16:00:00",
+      "code": "3469-246-COT26",
+      "estimated_budget": 900000.0,
+      "name": "ADQUISICION BOTELLA DE AGUA Y MORRALES PARA ESCUELA SALUDABLE",
+      "products": 1,
+      "region": "Región del Maule"
+    },
+    {
+      "available_budget_clp": 317000.0,
+      "buyer": "SERVICIO DE SALUD COQUIMBO HOSPITAL DE LOS VILOS",
+      "closes_at": "2026-11-04T10:00:00",
+      "code": "2145-495-COT26",
+      "estimated_budget": 317000.0,
+      "name": "Laboratorio - Compra Trutol, tinción de gram y otros reactivos de laboratorio",
+      "products": 5,
+      "region": "Región de Coquimbo"
+    },
+    {
+      "available_budget_clp": 1600000.0,
+      "buyer": "SERVICIO NACIONAL DE GEOLOGIA Y MINERIA",
+      "closes_at": "2026-11-03T17:00:00",
+      "code": "1991-32-COT26",
+      "estimated_budget": 1600000.0,
+      "name": "SERVICIO DE MANTENCIÓN Y OBRA CIVIL MENOR DIRECCIÓN REGIONAL ZONA CENTRO SERNAGEOMIN.",
+      "products": 2,
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 1120000.0,
+      "buyer": "I MUNICIPALIDAD DE SAN JAVIER",
+      "closes_at": "2026-11-04T14:00:00",
+      "code": "2320-162-COT26",
+      "estimated_budget": 1120000.0,
+      "name": "SESIONES DE YOGA TERAPÉUTICO PARA PERSONAS CON FIBROMIALGIA",
+      "products": 1,
+      "region": "Región del Maule"
+    },
+    {
+      "available_budget_clp": 6300000.0,
+      "buyer": "I MUNICIPALIDAD DE CERRILLOS",
+      "closes_at": "2026-11-04T10:30:00",
+      "code": "324-594-COT26",
+      "estimated_budget": 6300000.0,
+      "name": "Dpto. Areas Verdes /gravilla, maicillo",
+      "products": 3,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 464000.0,
+      "buyer": "DIRECCION SALUD RURAL",
+      "closes_at": "2026-11-03T15:30:00",
+      "code": "3950-709-COT26",
+      "estimated_budget": 464000.0,
+      "name": "insumos para programa",
+      "products": 3,
+      "region": "Región Aysén del General Carlos Ibáñez del Campo"
+    },
+    {
+      "available_budget_clp": 900000.0,
+      "buyer": "SUBSECRETARIA DE SALUD PUBLICA",
+      "closes_at": "2026-11-04T10:00:00",
+      "code": "2123-478-COT26",
+      "estimated_budget": 900000.0,
+      "name": "E1O2RT8 DAF MAL spp ZAPATO BAJA T° Y LENTES (SAR 1164-1267)",
+      "products": 3,
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 50000.0,
+      "buyer": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUR",
+      "closes_at": "2026-11-04T08:00:00",
+      "code": "1422825-1247-COT26",
+      "estimated_budget": 50000.0,
+      "name": "(LGM) Cuadernillo- Opalina cartulina colores- extra blanca PNH N°18199",
+      "products": 3,
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 751111.0,
+      "buyer": "I MUNICIPALIDAD DE RIO BUENO",
+      "closes_at": "2026-11-03T15:30:00",
+      "code": "3850-384-COT26",
+      "estimated_budget": 751111.0,
+      "name": "Servicio de Amplificación, Iluminación, DJ y Fotocabina para Gala de 4° Medios del Liceo Técnico Profesional de Río Bueno",
+      "products": 1,
+      "region": "Región de Los Ríos"
+    },
+    {
+      "available_budget_clp": 2000000.0,
+      "buyer": "SERVICIO DE SALUD MAGALLANES",
+      "closes_at": "2026-11-04T11:00:00",
+      "code": "1080095-210-COT26",
+      "estimated_budget": 2000000.0,
+      "name": "S-11377 MODIFICACIÓN DUCTOS CALEFACCIÓN BOX COSAM MIRAFLORES",
+      "products": 1,
+      "region": "Región de Magallanes y de la Antártica"
     }
   ],
-  "active_structurally_reconstructable_count": 1,
+  "active_structurally_reconstructable_count": 19,
   "diagnostics": {
-    "api_failures": {},
+    "api_failures": {
+      "api_rate_limited": 1
+    },
     "budget_exhausted": false,
     "detail_attempts": 20,
     "detail_cap_exhausted": true,
-    "details_fetched": 20,
+    "details_fetched": 19,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -29,24 +211,22 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-02T06:25:29Z",
-  "inserted_history": 20,
+  "generated_at": "2026-11-02T18:32:04Z",
+  "inserted_history": 19,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
+  "outcome": "DEGRADED_API_ERRORS",
   "phase1": {
-    "records": 20,
-    "rejection_reasons": {
-      "no_observable_competitive_prices": 4
-    },
-    "resolved": 19,
-    "structurally_reconstructable": 16,
-    "with_observable_quote_totals": 15,
+    "records": 19,
+    "rejection_reasons": {},
+    "resolved": 0,
+    "structurally_reconstructable": 19,
+    "with_observable_quote_totals": 0,
     "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-02T06:25:29Z"
+    "changed_to": "2026-11-02T18:32:04Z"
   }
 }
