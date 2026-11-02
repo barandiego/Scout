@@ -1,16 +1,28 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-02T06:33:14.154757+00:00
+Generated: 2026-11-02T18:38:19.015443+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 207
+- New this cycle: 196
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 514, ai 97, energy 486, robotics 703
+- Categories: agriculture 526, ai 96, energy 492, robotics 686
 
 ## Recently encountered signals
+
+### Techno-economic optimization of an off-grid solar-wind-battery energy storage system for sustainable rural electrification in Dibo, Ethiopia
+- Source: https://doi.org/10.1063/5.0357182
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### anshjadhav700-ctrl/Hybrid-Renewable-Energy-Generator
+- Source: https://github.com/anshjadhav700-ctrl/Hybrid-Renewable-Energy-Generator
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
 
 ### Self‐Reliant and Stochastic Design of Microgrid for Greenhouses With Transparent Solar Panels, Battery Storage and Adaptive Heat Pumps
 - Source: https://doi.org/10.1049/gtd2.70482
@@ -446,18 +458,6 @@ Generated: 2026-11-02T06:33:14.154757+00:00
 
 ### Arya-Kalambe/Krishi-Mitra
 - Source: https://github.com/Arya-Kalambe/Krishi-Mitra
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Opportunities and challenges of integrating battery energy storage in the electricity grid – perspectives from distribution system operators
-- Source: https://doi.org/10.66506/essp.172
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### purushottamhr2003-datapixel/IoT-smart-farming-system_
-- Source: https://github.com/purushottamhr2003-datapixel/IoT-smart-farming-system_
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
