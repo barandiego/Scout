@@ -9521,8 +9521,8 @@
       "geography": "United States; adaptable to Chilean specialty crops",
       "id": "opp_2d12caab9bd8d5bc8fa9",
       "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-18T08:19:15.025696+00:00",
+      "judgment": "critic_invalid_output",
+      "last_record_updated_at": "2026-11-02T04:26:36.169567+00:00",
       "material_update": false,
       "missing_execution_proof": [
         "independent_critic_and_judge",
@@ -10197,6 +10197,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-02T04:26:20.167740+00:00",
+      "discovery_lens": "remote_paid_evaluation",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Official TELUS search page currently shows one remote, part-time Online Data Analyst opening in Chile for Spanish speakers and describes application and assessment steps.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Online Data Analyst - Chile",
+          "url": "https://jobs.telusdigital.com/search/cfm3/russian-spanish/cfm5/ai-community/jobs/in/country/chile?ns_category=artificial-intelligence"
+        },
+        {
+          "claim": "Official TELUS posting describes the evaluation duties, computer and internet requirements, independent-contractor structure, task availability caveat, and an estimated hourly equivalent of USD 7.80.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Online Data Analyst - Chile",
+          "url": "https://jobs.telusdigital.com/fr/jobs/18154785-online-data-analyst-chile"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.93,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_bc125054da52bcfbf28b",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-02T04:26:20.240206+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Apply through the official TELUS Digital job page for ReqEG-798, submit a current résumé, and complete the job-specific assessments. Track whether the applicant is accepted, the final stated rate, payment terms, and the number of tasks offered during the first two weeks. Lowest-cost falsification: complete the free application and assessment only; do not pay for training, software, or access. Treat the opportunity as unvalidated income until a paid task is assigned and the payout conditions are disclosed. ([jobs.telusdigital.com](https://jobs.telusdigital.com/search/cfm3/russian-spanish/cfm5/ai-community/jobs/in/country/chile?ns_category=artificial-intelligence&utm_source=openai))",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A Chile-based applicant with strong local geographic knowledge, Spanish and English comprehension, a computer, and stable internet can test a concrete paid data-validation route. The main uncertainty is qualification and task availability rather than an undefined market need.",
+      "title": "Online Data Analyst—Chile through TELUS Digital AI Community",
+      "type": "remote_paid_evaluation",
+      "unknowns": [],
+      "value_capture_mechanism": "Estimated hourly contractor compensation for completed accepted tasks; TELUS explicitly labels USD 7.80/hour as an estimate and says participation depends on task availability and qualification. ([jobs.telusdigital.com](https://jobs.telusdigital.com/fr/jobs/18154785-online-data-analyst-chile?utm_source=openai))",
+      "verified_sales": null,
+      "vertical": "chile_localization",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-19T00:23:02.838772+00:00",
       "discovery_lens": "asset_ownership",
       "estimated_capital": "",
@@ -10737,6 +10791,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-02T04:26:20.166711+00:00",
+      "discovery_lens": "remote_paid_evaluation",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Official Outlier listing names Chile as an eligible remote location, describes Spanish (Chile) evaluation tasks, states an average core-project rate of USD 10/hour, and identifies PayPal and AirTM as payout methods.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Spanish (Chile) Freelance Writer",
+          "url": "https://app.outlier.ai/opportunities/4481627005"
+        },
+        {
+          "claim": "Official Outlier application page confirms a Spanish-Chile remote AI-training application and states that compensation is delivered weekly, while not specifying a guaranteed rate.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Coding Expertise for AI Training (Spanish - Chile)",
+          "url": "https://app.outlier.ai/login?job_post_id=4476998005"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.88,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_4112cb1232648624dc0b",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-02T04:26:20.240487+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Apply through Outlier's official Spanish (Chile) opportunity page, complete identity verification and the required skills validation, then record whether the applicant receives project access, the offered rate, and available task hours. Lowest-cost falsification: submit one application using an existing CV and complete only the required screening; reject the opportunity if the application is unavailable to Chile residents, requires any fee or deposit, or offers no paid project terms after qualification. Outlier states that applications involve profile creation, identity confirmation, and skills validation, and that payouts use PayPal or AirTM. ([app.outlier.ai](https://app.outlier.ai/opportunities/4481627005?utm_source=openai))",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A qualified Chilean Spanish writer, editor, translator, journalist, technical writer, or relevant humanities graduate can test access to paid evaluation work without purchasing equipment beyond a computer and internet connection. The opportunity is an application route, not evidence of earned income.",
+      "title": "Spanish (Chile) AI-training evaluation work through Outlier",
+      "type": "remote_paid_evaluation",
+      "unknowns": [],
+      "value_capture_mechanism": "Hourly freelance compensation for accepted project tasks; the listing indicates an average of USD 10/hour for core work, while onboarding, non-core work, project availability, and individual rates may differ. ([app.outlier.ai](https://app.outlier.ai/opportunities/4481627005?utm_source=openai))",
+      "verified_sales": null,
+      "vertical": "chile_localization",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-20T16:26:20.976884+00:00",
       "discovery_lens": "remote_paid_evaluation",
       "estimated_capital": "",
@@ -11168,13 +11276,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-01T20:10:18.137653+00:00",
+  "generated_at": "2026-11-02T04:26:36.781250+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 90,
   "reviewed_cards": 73,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 248,
-  "watch": 158
+  "total_distinct_opportunities": 250,
+  "watch": 160
 }

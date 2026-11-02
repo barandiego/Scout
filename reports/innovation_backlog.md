@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 158
+Candidates: 160
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -112,6 +112,18 @@ Candidates: 158
 - Possible initial budget:
 - Source URLs: https://www.ondda.cl/; https://www.aither.cl/tap/
 
+## Online Data Analyst—Chile through TELUS Digital AI Community
+- Status: watch | chile_localization
+- Current idea: A Chile-based applicant with strong local geographic knowledge, Spanish and English comprehension, a computer, and stable internet can test a concrete paid data-validation route. The main uncertainty is qualification and task availability rather than an undefined market need.
+- Potential economic capture: Estimated hourly contractor compensation for completed accepted tasks; TELUS explicitly labels USD 7.80/hour as an estimate and says participation depends on task availability and qualification. ([jobs.telusdigital.com](https://jobs.telusdigital.com/fr/jobs/18154785-online-data-analyst-chile?utm_source=openai))
+- **Research routes to test (NOT validated claims):**
+  - Find the smallest Chilean workflow whose economics differ from the original geography.
+  - Secure lawful access, partners and after-sales support rather than copy protected technology.
+  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://jobs.telusdigital.com/search/cfm3/russian-spanish/cfm5/ai-community/jobs/in/country/chile?ns_category=artificial-intelligence; https://jobs.telusdigital.com/fr/jobs/18154785-online-data-analyst-chile
+
 ## SII company-record change monitor for accounting and compliance firms
 - Status: watch | chile_localization
 - Current idea: A reproducible asset could monitor a defined list of Chilean companies for changes in business activity, tax-resolution status or published DTE contact data, producing a dated CSV/PDF exception report rather than manual research. The evidence supports data availability and paid API infrastructure, but does not establish willingness to pay, legal permission to redistribute the resulting data, or sufficient margin.
@@ -135,6 +147,18 @@ Candidates: 158
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://apipyme.cl/planes/; https://logicware.cl/desarrolladores/; https://datario.cl/precios
+
+## Spanish (Chile) AI-training evaluation work through Outlier
+- Status: watch | chile_localization
+- Current idea: A qualified Chilean Spanish writer, editor, translator, journalist, technical writer, or relevant humanities graduate can test access to paid evaluation work without purchasing equipment beyond a computer and internet connection. The opportunity is an application route, not evidence of earned income.
+- Potential economic capture: Hourly freelance compensation for accepted project tasks; the listing indicates an average of USD 10/hour for core work, while onboarding, non-core work, project availability, and individual rates may differ. ([app.outlier.ai](https://app.outlier.ai/opportunities/4481627005?utm_source=openai))
+- **Research routes to test (NOT validated claims):**
+  - Find the smallest Chilean workflow whose economics differ from the original geography.
+  - Secure lawful access, partners and after-sales support rather than copy protected technology.
+  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://app.outlier.ai/opportunities/4481627005; https://app.outlier.ai/login?job_post_id=4476998005
 
 ## Spanish e-commerce search-result rater — Welo Data
 - Status: watch | chile_localization

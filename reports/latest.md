@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-01T20:10:17.743361+00:00
+Generated: 2026-11-02T04:26:36.325449+00:00
 
 - outcome: DEGRADED_SUCCESS
 - ok: True
-- lenses: ['nfc_smart_commerce', 'vertical_farming_economics', 'energy_localization']
-- raw_candidates: 1
-- parseable_candidates: 1
-- normalized_candidates: 1
+- lenses: ['wildcard', 'remote_paid_evaluation', 'inventoryless_product_validation']
+- raw_candidates: 2
+- parseable_candidates: 2
+- normalized_candidates: 2
 - normalization_rejected: 0
-- grounded_sources: 3
+- grounded_sources: 4
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 0
 - critic_reviews: 1
 - judge_reviews: 0
 - survivors: 0
-- watches: 1
+- watches: 3
 - rejected: 0
 - errors_by_stage: {'critic': 1}
 - rejection_reasons: {}
-- cost_usd: 0.02904985
+- cost_usd: 0.029331
 - cost_uncertain: False
-- budget_remaining_usd: 0.05095015
+- budget_remaining_usd: 0.050669
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,8 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Chile Open Finance interoperability test harness for smaller regulated participants: The regulatory premise is sufficiently grounded by CMF primary sources: a technical annex, ATENA sandbox, and a planned July 2027 entry-into-force date support a real pre-production interoperability window. A narrowly scoped service can plausibly avoid handling live customer data by using synthetic data and operating only under each participant's own sandbox permissions. However, the proposed generic test-harness wedge is materially threatened by overlap with CMF-provided ATENA, public developer documentation, and likely incumbent integrators/consultants. There is no evidence yet of a mandatory independent certification/evidence requirement, paid procurement route, buyer budget, or differentiated capability that ATENA does not provide. It is HQ-worthy only as a buyer-validation research case, not as a validated infrastructure business.
-- Per-acre robotic weeding/scouting deployment for specialty-crop growers priced out of ownership: deferred_by_review_cap
 - NFC review-and-contact hardware reseller for Chilean service businesses: deferred_by_review_cap
 - Chile Open-Finance conformance test harness for small fintech participants: Regulatory premise is sufficiently grounded: CMF official materials support an Open Finance implementation framework, a technical annex/developer materials, ATENA testing, and a July 2027 operational timetable. A narrowly scoped conformance-support product is not inherently outside the regulatory perimeter, and it may avoid handling production customer data if designed around synthetic/sandbox test data. However, the broad proposed harness substantially overlaps with free regulator-provided ATENA functionality, official specifications, trial arrangements, and standardized conformance reporting. The required commercial differentiation—automated CI/CD regression, reusable fixtures, signed audit evidence, or cross-participant diagnostics—has not been demonstrated, nor have sandbox access rights for an independent vendor, buyer ownership, pricing, or repeat demand. This is therefore worth tightly bounded validation, not a conclusion that a viable standalone software business exists.
 - Sunlit NFT hydroponic production or retrofit pilots instead of LED vertical farming: deferred_by_review_cap
@@ -51,13 +49,15 @@ No survivors. Scout does not manufacture a daily winner.
 - Chile Open Finance conformance sandbox for small participating entities: deferred_by_review_cap
 - Evidence-backed micro-SaaS acquisition screening dataset: deferred_by_review_cap
 - Chile commercial BESS peak-shaving feasibility wedge using 15-minute meter data: critic_invalid_output
+- Online Data Analyst—Chile through TELUS Digital AI Community: deferred_by_review_cap
+- Spanish (Chile) AI-training evaluation work through Outlier: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=fresh",
-    "research_queue_unreviewed=78",
+    "deep_review_lane=backlog",
+    "research_queue_unreviewed=79",
     "critic:invalid_decision"
   ],
   "stages": [
@@ -66,35 +66,30 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 27,
+      "grounded_source_count": 22,
       "search_source_urls": [
-        "https://arxiv.org/abs/2403.08934",
-        "https://arxiv.org/abs/2507.18419",
-        "https://arxiv.org/abs/2607.26968",
-        "https://arxiv.org/abs/2610.40650",
-        "https://carlosjofre.com/en/services/bess-strategy/",
-        "https://cdn.hacienda.cl/asset/hacienda_prod/attachment/e3c0a8c3b7d47dbb3f9b3e28a1bb11881759c8266302d7fc2de981ec599c369a/1769809551?_expiration=1776720910&_hash=Ue9QaJpD7YDUx8eM3myFf9t86l0s3XUWOW6FWuweMf8",
-        "https://cmfchile.cl/portal/normativa/624/w4-article-106882.html",
-        "https://coloradoproduce.org/wp-content/uploads/2023/07/cit_97817_2022-harvest-report_r6-digital_prod.pdf",
-        "https://economiacircular.mma.gob.cl/wp-content/uploads/2024/11/18.-SP-Global-Commodity-Insights-2023-Chile-advances-regulation-to-support-storage-goals.pdf",
-        "https://elpais.com/america-futura/2024-12-19/la-caida-de-los-precios-de-las-baterias-impulsa-un-boom-de-almacenamiento-de-energia-limpia.html",
-        "https://en.wikipedia.org/wiki/Open_finance",
-        "https://ers.usda.gov/sites/default/files/_laserfiche/publications/108221/EIB-264.pdf?v=91463",
-        "https://forcesolarpower.com/blog/chile-commercial-solar-net-billing/",
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12225668/",
-        "https://www.axios.com/2023/01/06/indoor-farming-small-scale-farmers",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.energiaestrategica.com/en/notes/de-navaja-suiza-a-cuchillo-cartonero-las-reglas-de-despacho-ponen-en-juego-los-ingresos-bess-en-chile",
-        "https://www.fraunhofer.cl/en/projects/pv-systems/urban-farm--new-ways-to-grow-vegetables-in-the-city.html",
-        "https://www.imf.org/-/media/files/publications/cr/2024/english/1chlea2024002.pdf",
-        "https://www.itpro.com/infrastructure/data-centres/is-bess-the-key-to-data-center-energy-demand",
-        "https://www.lexmundi.com/media/50fiflkp/guide_chile.pdf",
-        "https://www.reddit.com/r/chileIT/comments/1gf8fev/apis_bancarias/",
-        "https://www.sciencedirect.com/science/article/pii/S0196890425011707",
-        "https://www.solarprochile.com/cargo-por-demanda",
-        "https://www.spec.cl/en/publicaciones/2026-almacenamiento-corta-duracion/",
-        "https://www.terralink.cl/aprende/almacenamiento-energia-solar-bess-guia-empresas-chile",
-        "https://www.trade.gov/market-intelligence/chile-electrical-energy"
+        "https://app.outlier.ai/login?job_post_id=4476998005",
+        "https://app.outlier.ai/opportunities/4481627005",
+        "https://app.outlier.ai/opportunities/4481627005",
+        "https://arxiv.org/abs/2411.04305",
+        "https://developers.mercadolibre.cl/en_us/manage-project-apps/trends",
+        "https://developers.mercadolibre.cl/en_us/manage-sales/best-sellers-in-mercado-libre",
+        "https://es.wikipedia.org/wiki/MercadoLibre",
+        "https://jobs.telusdigital.com/fr/jobs/18154785-online-data-analyst-chile",
+        "https://jobs.telusdigital.com/fr/jobs/18154785-online-data-analyst-chile",
+        "https://jobs.telusdigital.com/search/cfm3/russian-spanish/cfm5/ai-community/jobs/in/country/chile?ns_category=artificial-intelligence",
+        "https://jobs.telusdigital.com/search/cfm3/russian-spanish/cfm5/ai-community/jobs/in/country/chile?ns_category=artificial-intelligence",
+        "https://materials.proxyvote.com/Approved/58733R/20250421/FO10K_605502.PDF",
+        "https://news.mercadolibre.com/productos-mas-buscados-en-mercado-libre-chile-2024",
+        "https://news.mercadolibre.com/productos-mas-vendidos-en-chile-2025",
+        "https://paymentscmi.com/e-commerce-infographics/2025_PCMI_Chile-E-commerce-Data-Portrait_EN.pdf",
+        "https://publications.iadb.org/publications/english/document/Accelerating-Digital-Trade-in-Latin-America-and-the-Caribbean.pdf",
+        "https://teclazo.com/trending/cl",
+        "https://top-brands.am-static.com/statistics-reports/regions/cl.pdf",
+        "https://www.cepal.org/sites/default/files/events/files/chile_2022.pdf",
+        "https://www.mercadolibre.cl/mas-vendidos/MLC1403",
+        "https://www.tiendanube.com/blog/lo-que-mas-se-vende-en-mercado-libre/",
+        "https://www.tiendanube.com/cl/blog/productos-mas-vendidos-chile/"
       ]
     },
     {
@@ -109,23 +104,60 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 3,
+      "grounded_sources": 2,
+      "retry_justified": false
+    },
+    {
+      "index": 1,
+      "stage": "normalization",
+      "outcome": "accepted",
+      "reasons": [],
+      "changes": [
+        "contrary_evidence:list_sanitized",
+        "major_risks:list_sanitized",
+        "unknowns:list_sanitized",
+        "falsification_conditions:list_sanitized",
+        "material_update:unknown_false"
+      ],
+      "grounded_sources": 2,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_13c386e9cabe10c8389b",
+      "candidate_id": "opp_2d12caab9bd8d5bc8fa9",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 0,
-      "search_source_urls": []
-    },
-    {
-      "stage": "critic",
-      "candidate_id": "opp_13c386e9cabe10c8389b",
-      "coercions": [
-        "critic_case",
-        "contrary_evidence"
+      "grounded_source_count": 29,
+      "search_source_urls": [
+        "https://ag-alert.production.brws.cloud/california-ag-news/archives/november-19-2025/farm-tech-focuses-on-robotic-weeding-in-vegetables/",
+        "https://arxiv.org/abs/2112.02162",
+        "https://arxiv.org/abs/2405.07349",
+        "https://arxiv.org/abs/2405.20896",
+        "https://arxiv.org/abs/2609.20048",
+        "https://coloradoproduce.org/wp-content/uploads/2023/07/cit_97817_2022-harvest-report_r6-digital_prod.pdf",
+        "https://en.wikipedia.org/wiki/Agricultural_robot",
+        "https://en.wikipedia.org/wiki/FarmWise",
+        "https://experts.umn.edu/en/projects/agricultural-weed-control-using-autonomous-mowers-phase-2/",
+        "https://fieldreport.caes.uga.edu/publications/B1594/agribots-autonomous-ground-robots-for-specialty-crops/",
+        "https://fira-usa.com/wp-content/uploads/2025/10/FIRA-2025-Final-Press-Release.pdf",
+        "https://wcroc.cfans.umn.edu/research/renewable-energy/auto-mowers",
+        "https://www.covercropstrategies.com/articles/3519-aigen-launches-next-gen-element-weeding-robots-with-bowles-farming",
+        "https://www.lccmr.mn.gov/projects/2024/approved_work_plans/2024-076_approved_workplan.pdf",
+        "https://www.lccmr.mn.gov/projects/all_projects8.php",
+        "https://www.lrl.mn.gov/docs/2025/mandated/250192.pdf",
+        "https://www.mprnews.org/story/2024/06/17/robots-hoes-show-farmers-possible-future-weed-control",
+        "https://www.reddit.com/r/AgriTech/comments/1wwguu8/ndsu_rowcrop_robot_achieves_965_weeding_accuracy/",
+        "https://www.reddit.com/r/AutonomousVehicles/comments/1objzie/building_a_small_autonomous_weeding_robot_looking/",
+        "https://www.reddit.com/r/automower/comments/12i3ils",
+        "https://www.reddit.com/r/minnesota/comments/1di4zfl",
+        "https://www.reddit.com/r/robotics/comments/1jygxks",
+        "https://www.reddit.com/r/robotics/comments/1kxmal0/we_built_weedwarden_an_autonomous_weed_control/",
+        "https://www.reddit.com/r/robotics/comments/1l6z2s3/update_on_autonomous_weed_removal_rover/",
+        "https://www.sbir.gov/awards/214988",
+        "https://www.sec.gov/Archives/edgar/data/1760404/000110465926075802/tm2617498d1_partiiandiii.htm",
+        "https://www.solinftec.com/en-us/blog/solinftec-expands-u-s-footprint-243-deploys-100-autonomous-robots-as-it-showcases-next-generation-solix-system-at-commodity-classic-2026/",
+        "https://www.verdantrobotics.com/news/verdant-robotics-announces-commercial-launch-of-sharpshooter",
+        "https://www.verdantrobotics.com/news/verdant-robotics-expands-commercial-availability"
       ]
     }
   ],
@@ -133,30 +165,30 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 310,
-      "cache_write_tokens": 5524,
+      "reasoning_tokens": 199,
+      "cache_write_tokens": 4930,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0142316,
+      "cumulative_cost_usd": 0.0144745,
       "model": "gpt-5.6-luna",
-      "input_tokens": 14119,
+      "input_tokens": 13244,
       "cached_tokens": 0,
-      "output_tokens": 943,
+      "output_tokens": 1316,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0142316
+      "estimated_cost_usd": 0.0144745
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 199,
-      "cache_write_tokens": 5397,
+      "reasoning_tokens": 148,
+      "cache_write_tokens": 5282,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02904985,
+      "cumulative_cost_usd": 0.029331,
       "model": "gpt-5.6-luna",
-      "input_tokens": 12092,
+      "input_tokens": 13794,
       "cached_tokens": 0,
-      "output_tokens": 1775,
+      "output_tokens": 1528,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01481825
+      "estimated_cost_usd": 0.0148565
     }
   ]
 }

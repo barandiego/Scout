@@ -1,10 +1,10 @@
 # Scout — opportunity library
 
-Generated: 2026-11-01T20:10:18.137653+00:00
+Generated: 2026-11-02T04:26:36.781250+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 158 (0 HQ survivors, 158 watches)
+- Active research: 160 (0 HQ survivors, 160 watches)
 - Rejected opportunities excluded: 90
 - Critic-and-judge reviewed: 73
 - Autonomous execution authorization: 0
@@ -1288,7 +1288,7 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Thesis: The practical gap is not proving that agricultural robotics exists; it is adapting and validating lower-cost platforms for one crop, row geometry and task. A small operator can test whether growers or research farms will pay for mapping, supervised trials and retrofit integration before attempting to manufacture a robot.
 - Value capture: Charge for a narrowly defined field trial: crop-row mapping, safety setup, autonomous-pass supervision, weed-detection benchmarking and a measured comparison with the farm’s existing method. Cash flow could come from a farm, university, equipment maker or public demonstration grant; no verified purchase order, price or margin was found.
 - Participation hypothesis: Do not buy or build a full commercial robot initially. Select one accessible crop block and use an existing small electric/robotic platform or a manually supervised prototype. Offer a paid or grant-funded 1–2 hectare validation with pre-agreed metrics: hectares covered per hour, crop damage, weed-removal rate, operator hours and downtime. Lowest-cost falsification: obtain permission for a half-day supervised test on a small plot and collect before/after weed counts; if the operator will not permit measurement or the robot cannot complete repeat
-- Critic/judge: deferred_by_review_cap
+- Critic/judge: critic_invalid_output
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://arxiv.org/abs/2509.25056; https://www.lccmr.mn.gov/projects/2024/approved_work_plans/2024-076_approved_workplan.pdf
@@ -1413,6 +1413,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.ondda.cl/; https://www.aither.cl/tap/
 
+### Online Data Analyst—Chile through TELUS Digital AI Community [opp_bc125054da52bcfbf28b]
+- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
+- Thesis: A Chile-based applicant with strong local geographic knowledge, Spanish and English comprehension, a computer, and stable internet can test a concrete paid data-validation route. The main uncertainty is qualification and task availability rather than an undefined market need.
+- Value capture: Estimated hourly contractor compensation for completed accepted tasks; TELUS explicitly labels USD 7.80/hour as an estimate and says participation depends on task availability and qualification. ([jobs.telusdigital.com](https://jobs.telusdigital.com/fr/jobs/18154785-online-data-analyst-chile?utm_source=openai))
+- Participation hypothesis: Apply through the official TELUS Digital job page for ReqEG-798, submit a current résumé, and complete the job-specific assessments. Track whether the applicant is accepted, the final stated rate, payment terms, and the number of tasks offered during the first two weeks. Lowest-cost falsification: complete the free application and assessment only; do not pay for training, software, or access. Treat the opportunity as unvalidated income until a paid task is assigned and the payout conditions are disclosed. ([jobs.telusdigital.com](https://jobs.t
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://jobs.telusdigital.com/search/cfm3/russian-spanish/cfm5/ai-community/jobs/in/country/chile?ns_category=artificial-intelligence; https://jobs.telusdigital.com/fr/jobs/18154785-online-data-analyst-chile
+
 ### Open-finance implementation monitoring and developer-readiness service [opp_b5bb525067a4142275e1]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: The executable wedge is not becoming a data provider or payment initiator. It is a reusable compliance-and-integration monitoring asset for firms preparing against the published technical requirements: version tracking, endpoint checklists, test-case generation, change alerts and implementation documentation. The cash-flow source would need to be a verified paying firm or vendor; no buyer or price is assumed.
@@ -1512,6 +1522,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://sagnikbhattacharya.com/blog/ai-visual-inspection-cost; https://automationsolinc.com/resources/blog/small-scale-retrofits-a-smart-bridge-to-automation-reliability/
+
+### Spanish (Chile) AI-training evaluation work through Outlier [opp_4112cb1232648624dc0b]
+- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
+- Thesis: A qualified Chilean Spanish writer, editor, translator, journalist, technical writer, or relevant humanities graduate can test access to paid evaluation work without purchasing equipment beyond a computer and internet connection. The opportunity is an application route, not evidence of earned income.
+- Value capture: Hourly freelance compensation for accepted project tasks; the listing indicates an average of USD 10/hour for core work, while onboarding, non-core work, project availability, and individual rates may differ. ([app.outlier.ai](https://app.outlier.ai/opportunities/4481627005?utm_source=openai))
+- Participation hypothesis: Apply through Outlier's official Spanish (Chile) opportunity page, complete identity verification and the required skills validation, then record whether the applicant receives project access, the offered rate, and available task hours. Lowest-cost falsification: submit one application using an existing CV and complete only the required screening; reject the opportunity if the application is unavailable to Chile residents, requires any fee or deposit, or offers no paid project terms after qualification. Outlier states that applications involve
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://app.outlier.ai/opportunities/4481627005; https://app.outlier.ai/login?job_post_id=4476998005
 
 ### Spanish e-commerce search-result rater — Welo Data [opp_b9ae93d79856031de999]
 - Status: WATCH_REQUIRES_VALIDATION | chile_localization | Santiago, Chile / Chile
