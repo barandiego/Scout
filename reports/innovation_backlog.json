@@ -153,6 +153,42 @@
       "category": "chile_localization",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Build a narrow version covering 20 commonly imported SKUs and the registered/non-registered platform distinction using the SII and Aduanas rules. Publish a free sample with source links, then contact publicly listed Chilean importers, ecommerce sellers, and procurement communities to test whether five users will pay for a one-time individualized landed-cost comparison. Falsify cheaply by asking 20 target users for one recent order and measuring whether the calculator changes a sourcing or checkout decision; stop if users will not provide an order or report a usable decision benefit. Do not scrape or redistribute platform data without checking terms.",
+      "current_thesis": "A reproducible Spanish-language landed-cost and checkout-comparison asset could help small Chilean merchants, procurement teams, and frequent importers decide whether to source through registered platforms, domestic distributors, or alternative suppliers. The economic mechanism is reduced landed-cost uncertainty and fewer clearance surprises, not a claim of guaranteed savings.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile low-value import VAT and landed-cost decision asset",
+      "opportunity_id": "opp_aee80b389d96a34344be",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Find the smallest Chilean workflow whose economics differ from the original geography.",
+        "Secure lawful access, partners and after-sales support rather than copy protected technology.",
+        "Run a buyer interview or mock listing to falsify assumptions before capital commitment."
+      ],
+      "supporting_source_urls": [
+        "https://www.sii.cl/destacados/iva_bienes/",
+        "https://www.aduanadechile.gov.cl/aduana/site/docs/20250627/20250627110135/cuenta_publica_2025_gestion_2024_1.pdf"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a fixed-scope spreadsheet/web calculator plus periodically updated platform-registration and tax-rule data; alternatively license the structured dataset to Chilean price-comparison, procurement, or logistics operators. No buyer, price, margin, or permission is established by the evidence.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "chile_localization",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Apply through CrowdGen’s official Lever page, confirming current Chile residence and native Chilean Spanish status. Before recording all units, verify the project account, acceptance criteria and payout conditions. Lowest-cost falsification: apply, complete any qualification sample, and calculate actual minutes per accepted sentence; proceed only if the effective rate and payout terms are acceptable. No fee or deposit is indicated in the listing.",
       "current_thesis": "This is a narrowly defined, low-complexity data-collection assignment with a verifiable piece-rate mechanism. At the listed rate, 400 completed units would imply USD 12 gross before any applicable taxes or payment constraints, but completion time and acceptance are unknown; therefore it is a small paid test rather than a reliable income source.",
       "founder_hours_initial_unverified_estimate": "",
@@ -3212,6 +3248,42 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use only CMF-published material and synthetic data to create a 10-page checklist mapping consent, privacy, security, and data-flow requirements to test cases. Distribute it through Chilean fintech associations, developer communities, and public company contact channels; ask five regulated or prospective participants to review it and state whether it replaces work they currently budget for. Falsify if reviewers cannot identify a concrete internal use, or if the work requires legal/regulatory advice beyond the operator's competence. Do not request production financial data or represent oneself as an SFA participant without authorization.",
+      "current_thesis": "A narrow compliance/readiness checklist and test-data specification could be useful to software providers preparing consent, data-security, and interoperability workflows. This is an implementation-readiness asset, not evidence that an independent operator may access bank data or act as a regulated participant.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile open-finance implementation-readiness test for a consented data-use wedge",
+      "opportunity_id": "opp_5c497caf7391eed68402",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html",
+        "https://www.cmfchile.cl/portal/principal/613/articles-50600_doc_pdf.pdf"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a fixed-scope technical requirements matrix, test corpus specification, or gap-assessment template to an already regulated or authorized fintech/software provider. No purchaser, price, authorization, or market access is established.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use only CMF-published specifications and sandbox documentation. Build a minimal validator/mock that tests one narrow flow, such as consent and account-information exchange. Publish a free sample using synthetic data and contact potential participant categories through public channels, asking whether they would pay for a fixed-scope pre-certification test. Falsification step: spend no more than one week implementing the narrowest endpoint and seek three written expressions of interest or one paid pilot; if none appears, stop. Do not access real customer data, represent a financial institution, or claim CMF approval.",
       "current_thesis": "Small regulated or potentially participating entities will need repeatable testing, API-conformance checks, consent-flow documentation, and implementation evidence before the July 2027 deadline. The opportunity is narrower than general fintech consulting: a reusable test pack, schema validator, mock participant, and fixed-scope readiness report.",
       "founder_hours_initial_unverified_estimate": "",
@@ -4379,6 +4451,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Possible payers include entities preparing to become Open Finance participants or technology vendors integrating with them. The evidence verifies the technical requirements and timing, but does not verify budgets, procurement, or willingness to pay.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Select one document class, such as Chilean supplier invoices or import declarations. Test 50 legally obtained sample documents using PaddleOCR and Tika, record field-level accuracy and processing cost, and publish the schema plus error report. Offer a fixed-scope pilot to publicly identifiable accounting, import, or procurement software vendors or small firms only after confirming that the open-source licenses and any model/data terms permit the intended distribution. Falsify if fewer than 90% of required fields can be extracted without manual correction, or if three target operators will not provide sample documents or a paid pilot commitment.",
+      "current_thesis": "A small operator can assemble a reproducible, locally hosted extraction pack for Spanish invoices, customs documents, bank statements, or supplier quotes, reducing manual transcription in a narrowly defined workflow. The evidence supports technical feasibility and licensing, but does not prove extraction accuracy on Chilean documents or willingness to pay.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "On-premise Spanish document-to-structured-data pack for Chilean invoices and import records",
+      "opportunity_id": "opp_b5b7cce5448f80487092",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://github.com/PaddlePaddle/PaddleOCR",
+        "https://github.com/apache/tika"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Fixed-price installation, a reusable template/schema, or a downloadable document-processing package for one document class. This is not evidence for a generic AI agency or ongoing manual data-entry service; payment and buyer identity remain to be validated.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -6094,7 +6202,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-02T04:26:36.903620+00:00",
+  "generated_at": "2026-11-02T17:48:51.969288+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

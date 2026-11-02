@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 160
+Candidates: 163
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -51,6 +51,18 @@ Candidates: 160
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://jobs.telusdigital.com/search/cfm3/russian-spanish/cfm5/ai-community/jobs/in/country/chile?ns_category=artificial-intelligence; https://www.sii.cl/destacados/iva_bienes/plataformas_inscritas/
+
+## Chile low-value import VAT and landed-cost decision asset
+- Status: watch | chile_localization
+- Current idea: A reproducible Spanish-language landed-cost and checkout-comparison asset could help small Chilean merchants, procurement teams, and frequent importers decide whether to source through registered platforms, domestic distributors, or alternative suppliers. The economic mechanism is reduced landed-cost uncertainty and fewer clearance surprises, not a claim of guaranteed savings.
+- Potential economic capture: Sell a fixed-scope spreadsheet/web calculator plus periodically updated platform-registration and tax-rule data; alternatively license the structured dataset to Chilean price-comparison, procurement, or logistics operators. No buyer, price, margin, or permission is established by the evidence.
+- **Research routes to test (NOT validated claims):**
+  - Find the smallest Chilean workflow whose economics differ from the original geography.
+  - Secure lawful access, partners and after-sales support rather than copy protected technology.
+  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.sii.cl/destacados/iva_bienes/; https://www.aduanadechile.gov.cl/aduana/site/docs/20250627/20250627110135/cuenta_publica_2025_gestion_2024_1.pdf
 
 ## Chilean Spanish speech-data recording project — CrowdGen by Appen
 - Status: watch | chile_localization
@@ -1024,6 +1036,18 @@ Candidates: 160
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html
 
+## Chile open-finance implementation-readiness test for a consented data-use wedge
+- Status: watch | open_finance_chile
+- Current idea: A narrow compliance/readiness checklist and test-data specification could be useful to software providers preparing consent, data-security, and interoperability workflows. This is an implementation-readiness asset, not evidence that an independent operator may access bank data or act as a regulated participant.
+- Potential economic capture: Sell a fixed-scope technical requirements matrix, test corpus specification, or gap-assessment template to an already regulated or authorized fintech/software provider. No purchaser, price, authorization, or market access is established.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html; https://www.cmfchile.cl/portal/principal/613/articles-50600_doc_pdf.pdf
+
 ## Chile Open-Finance sandbox conformance kit for small participants
 - Status: watch | open_finance_chile
 - Current idea: Small regulated or potentially participating entities will need repeatable testing, API-conformance checks, consent-flow documentation, and implementation evidence before the July 2027 deadline. The opportunity is narrower than general fintech consulting: a reusable test pack, schema validator, mock participant, and fixed-scope readiness report.
@@ -1383,6 +1407,18 @@ Candidates: 160
 - Critical gaps: Whether ATENA will expose enough automated test coverage, fixtures, reporting, and repeatability to displace private tooling.; Whether the cited private competitors have paying customers, production-grade coverage, or merely marketing pages.; Number and type of entities that must participate, their implementation budgets, procurement cycles, and internal engineering capacity.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html
+
+## On-premise Spanish document-to-structured-data pack for Chilean invoices and import records
+- Status: watch | open_finance_chile
+- Current idea: A small operator can assemble a reproducible, locally hosted extraction pack for Spanish invoices, customs documents, bank statements, or supplier quotes, reducing manual transcription in a narrowly defined workflow. The evidence supports technical feasibility and licensing, but does not prove extraction accuracy on Chilean documents or willingness to pay.
+- Potential economic capture: Fixed-price installation, a reusable template/schema, or a downloadable document-processing package for one document class. This is not evidence for a generic AI agency or ongoing manual data-entry service; payment and buyer identity remain to be validated.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://github.com/PaddlePaddle/PaddleOCR; https://github.com/apache/tika
 
 ## Open-finance conformance test asset for Chilean participants
 - Status: watch | open_finance_chile

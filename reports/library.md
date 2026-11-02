@@ -1,10 +1,10 @@
 # Scout — opportunity library
 
-Generated: 2026-11-02T04:26:36.781250+00:00
+Generated: 2026-11-02T17:48:51.851325+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 160 (0 HQ survivors, 160 watches)
+- Active research: 163 (0 HQ survivors, 163 watches)
 - Rejected opportunities excluded: 90
 - Critic-and-judge reviewed: 73
 - Autonomous execution authorization: 0
@@ -1073,6 +1073,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812
 
+### Chile low-value import VAT and landed-cost decision asset [opp_aee80b389d96a34344be]
+- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
+- Thesis: A reproducible Spanish-language landed-cost and checkout-comparison asset could help small Chilean merchants, procurement teams, and frequent importers decide whether to source through registered platforms, domestic distributors, or alternative suppliers. The economic mechanism is reduced landed-cost uncertainty and fewer clearance surprises, not a claim of guaranteed savings.
+- Value capture: Sell a fixed-scope spreadsheet/web calculator plus periodically updated platform-registration and tax-rule data; alternatively license the structured dataset to Chilean price-comparison, procurement, or logistics operators. No buyer, price, margin, or permission is established by the evidence.
+- Participation hypothesis: Build a narrow version covering 20 commonly imported SKUs and the registered/non-registered platform distinction using the SII and Aduanas rules. Publish a free sample with source links, then contact publicly listed Chilean importers, ecommerce sellers, and procurement communities to test whether five users will pay for a one-time individualized landed-cost comparison. Falsify cheaply by asking 20 target users for one recent order and measuring whether the calculator changes a sourcing or checkout decision; stop if users will not provide an ord
+- Critic/judge: critic_invalid_output
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sii.cl/destacados/iva_bienes/; https://www.aduanadechile.gov.cl/aduana/site/docs/20250627/20250627110135/cuenta_publica_2025_gestion_2024_1.pdf
+
 ### Chile Open Finance cash-flow underwriting adapter for MSME lenders [opp_d6ffaf44890e8156d04e]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: A small operator has a defined pre-compliance window to build and test a narrow data-normalization or cash-flow underwriting adapter before regulated participants must implement the system. The opportunity is not lending itself; it is reducing integration and interpretation work for a specific lender, accounting platform, or financial-data participant.
@@ -1152,6 +1162,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/615/articles-99378_doc_pdf.pdf
+
+### Chile open-finance implementation-readiness test for a consented data-use wedge [opp_5c497caf7391eed68402]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: A narrow compliance/readiness checklist and test-data specification could be useful to software providers preparing consent, data-security, and interoperability workflows. This is an implementation-readiness asset, not evidence that an independent operator may access bank data or act as a regulated participant.
+- Value capture: Sell a fixed-scope technical requirements matrix, test corpus specification, or gap-assessment template to an already regulated or authorized fintech/software provider. No purchaser, price, authorization, or market access is established.
+- Participation hypothesis: Use only CMF-published material and synthetic data to create a 10-page checklist mapping consent, privacy, security, and data-flow requirements to test cases. Distribute it through Chilean fintech associations, developer communities, and public company contact channels; ask five regulated or prospective participants to review it and state whether it replaces work they currently budget for. Falsify if reviewers cannot identify a concrete internal use, or if the work requires legal/regulatory advice beyond the operator's competence. Do not reques
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html; https://www.cmfchile.cl/portal/principal/613/articles-50600_doc_pdf.pdf
 
 ### Chile renewable-curtailment dataset and screening tool for storage-site diligence [opp_2c91469d9606f67e42cc]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile
@@ -1412,6 +1432,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.ondda.cl/; https://www.aither.cl/tap/
+
+### On-premise Spanish document-to-structured-data pack for Chilean invoices and import records [opp_b5b7cce5448f80487092]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: A small operator can assemble a reproducible, locally hosted extraction pack for Spanish invoices, customs documents, bank statements, or supplier quotes, reducing manual transcription in a narrowly defined workflow. The evidence supports technical feasibility and licensing, but does not prove extraction accuracy on Chilean documents or willingness to pay.
+- Value capture: Fixed-price installation, a reusable template/schema, or a downloadable document-processing package for one document class. This is not evidence for a generic AI agency or ongoing manual data-entry service; payment and buyer identity remain to be validated.
+- Participation hypothesis: Select one document class, such as Chilean supplier invoices or import declarations. Test 50 legally obtained sample documents using PaddleOCR and Tika, record field-level accuracy and processing cost, and publish the schema plus error report. Offer a fixed-scope pilot to publicly identifiable accounting, import, or procurement software vendors or small firms only after confirming that the open-source licenses and any model/data terms permit the intended distribution. Falsify if fewer than 90% of required fields can be extracted without manual
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://github.com/PaddlePaddle/PaddleOCR; https://github.com/apache/tika
 
 ### Online Data Analyst—Chile through TELUS Digital AI Community [opp_bc125054da52bcfbf28b]
 - Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile

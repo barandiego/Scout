@@ -8361,6 +8361,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-02T17:48:27.012805+00:00",
+      "discovery_lens": "fixed_scope_paid_research_asset",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The SII states that from October 25, 2025, foreign goods purchased remotely up to USD 500 are subject to 19% VAT; registered platforms collect it at purchase and the shipment is exempt from import VAT and tariffs, while non-registered purchases require import payment procedures.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "IVA Bienes",
+          "url": "https://www.sii.cl/destacados/iva_bienes/"
+        },
+        {
+          "claim": "Aduanas reports more than 53 million e-commerce imports in 2024, over 50 million of them previously treated as de minimis, and describes the legal change affecting purchases up to USD 500.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Servicio Nacional de Aduanas: Cuenta Pública 2025, gestión 2024",
+          "url": "https://www.aduanadechile.gov.cl/aduana/site/docs/20250627/20250627110135/cuenta_publica_2025_gestion_2024_1.pdf"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.93,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_aee80b389d96a34344be",
+      "judge_reviewed": false,
+      "judgment": "critic_invalid_output",
+      "last_record_updated_at": "2026-11-02T17:48:51.283145+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Build a narrow version covering 20 commonly imported SKUs and the registered/non-registered platform distinction using the SII and Aduanas rules. Publish a free sample with source links, then contact publicly listed Chilean importers, ecommerce sellers, and procurement communities to test whether five users will pay for a one-time individualized landed-cost comparison. Falsify cheaply by asking 20 target users for one recent order and measuring whether the calculator changes a sourcing or checkout decision; stop if users will not provide an order or report a usable decision benefit. Do not scrape or redistribute platform data without checking terms.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A reproducible Spanish-language landed-cost and checkout-comparison asset could help small Chilean merchants, procurement teams, and frequent importers decide whether to source through registered platforms, domestic distributors, or alternative suppliers. The economic mechanism is reduced landed-cost uncertainty and fewer clearance surprises, not a claim of guaranteed savings.",
+      "title": "Chile low-value import VAT and landed-cost decision asset",
+      "type": "fixed_scope_paid_research_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell a fixed-scope spreadsheet/web calculator plus periodically updated platform-registration and tax-rule data; alternatively license the structured dataset to Chilean price-comparison, procurement, or logistics operators. No buyer, price, margin, or permission is established by the evidence.",
+      "verified_sales": null,
+      "vertical": "chile_localization",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-26T23:34:33.081511+00:00",
       "discovery_lens": "business_model_migration",
       "estimated_capital": "",
@@ -8783,6 +8837,60 @@
       "type": "software_asset",
       "unknowns": [],
       "value_capture_mechanism": "Sell a downloadable conformance suite, local test environment, schema-diff alerts, and paid implementation support. A repeatable software asset is more defensible than generic consulting if it maps directly to CMF technical requirements and can be reused across participants.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-11-02T17:48:27.014806+00:00",
+      "discovery_lens": "fixed_scope_paid_research_asset",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF describes the SFA, its user-consent data-sharing purpose, and gradual implementation under Chile's Fintech Law.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF publica norma que regula el Sistema de Finanzas Abiertas",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html"
+        },
+        {
+          "claim": "CMF materials describe requirements concerning consent, purpose limitation, security, confidentiality, and participant responsibilities in the open-finance system.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF: Fintech, Regulación y Finanzas Abiertas",
+          "url": "https://www.cmfchile.cl/portal/principal/613/articles-50600_doc_pdf.pdf"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.78,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_5c497caf7391eed68402",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-02T17:48:27.100643+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use only CMF-published material and synthetic data to create a 10-page checklist mapping consent, privacy, security, and data-flow requirements to test cases. Distribute it through Chilean fintech associations, developer communities, and public company contact channels; ask five regulated or prospective participants to review it and state whether it replaces work they currently budget for. Falsify if reviewers cannot identify a concrete internal use, or if the work requires legal/regulatory advice beyond the operator's competence. Do not request production financial data or represent oneself as an SFA participant without authorization.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A narrow compliance/readiness checklist and test-data specification could be useful to software providers preparing consent, data-security, and interoperability workflows. This is an implementation-readiness asset, not evidence that an independent operator may access bank data or act as a regulated participant.",
+      "title": "Chile open-finance implementation-readiness test for a consented data-use wedge",
+      "type": "fixed_scope_paid_research_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell a fixed-scope technical requirements matrix, test corpus specification, or gap-assessment template to an already regulated or authorized fintech/software provider. No purchaser, price, authorization, or market access is established.",
       "verified_sales": null,
       "vertical": "open_finance_chile",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
@@ -10197,6 +10305,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-02T17:48:27.013875+00:00",
+      "discovery_lens": "ai_open_source",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The repository describes PDF/image-to-structured-data extraction, multilingual support, and an Apache-2.0 license.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "PaddleOCR GitHub repository",
+          "url": "https://github.com/PaddlePaddle/PaddleOCR"
+        },
+        {
+          "claim": "Apache Tika extracts metadata and text from more than a thousand file types and supports structured recursive extraction and Markdown output for document-processing pipelines.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Apache Tika GitHub repository",
+          "url": "https://github.com/apache/tika"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.82,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_b5b7cce5448f80487092",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-02T17:48:27.100421+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Select one document class, such as Chilean supplier invoices or import declarations. Test 50 legally obtained sample documents using PaddleOCR and Tika, record field-level accuracy and processing cost, and publish the schema plus error report. Offer a fixed-scope pilot to publicly identifiable accounting, import, or procurement software vendors or small firms only after confirming that the open-source licenses and any model/data terms permit the intended distribution. Falsify if fewer than 90% of required fields can be extracted without manual correction, or if three target operators will not provide sample documents or a paid pilot commitment.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A small operator can assemble a reproducible, locally hosted extraction pack for Spanish invoices, customs documents, bank statements, or supplier quotes, reducing manual transcription in a narrowly defined workflow. The evidence supports technical feasibility and licensing, but does not prove extraction accuracy on Chilean documents or willingness to pay.",
+      "title": "On-premise Spanish document-to-structured-data pack for Chilean invoices and import records",
+      "type": "reusable_software_tool",
+      "unknowns": [],
+      "value_capture_mechanism": "Fixed-price installation, a reusable template/schema, or a downloadable document-processing package for one document class. This is not evidence for a generic AI agency or ongoing manual data-entry service; payment and buyer identity remain to be validated.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-11-02T04:26:20.167740+00:00",
       "discovery_lens": "remote_paid_evaluation",
       "estimated_capital": "",
@@ -11276,13 +11438,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-02T04:26:36.781250+00:00",
+  "generated_at": "2026-11-02T17:48:51.851325+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 90,
   "reviewed_cards": 73,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 250,
-  "watch": 160
+  "total_distinct_opportunities": 253,
+  "watch": 163
 }
