@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-01T20:40:34.031471+00:00
+Generated: 2026-11-02T06:33:14.154757+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 161
+- New this cycle: 207
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
-- Categories: agriculture 510, ai 100, energy 483, robotics 707
+- Feed failures (fail-open for public intake only): none
+- Categories: agriculture 514, ai 97, energy 486, robotics 703
 
 ## Recently encountered signals
+
+### Self‐Reliant and Stochastic Design of Microgrid for Greenhouses With Transparent Solar Panels, Battery Storage and Adaptive Heat Pumps
+- Source: https://doi.org/10.1049/gtd2.70482
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
 
 ### aswithaputchakayala-lab/SmartAgri-Ashuu-Farm
 - Source: https://github.com/aswithaputchakayala-lab/SmartAgri-Ashuu-Farm
@@ -450,14 +456,8 @@ Generated: 2026-11-01T20:40:34.031471+00:00
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
 
-### ReISSUE-developer/Gramsutra.AI
-- Source: https://github.com/ReISSUE-developer/Gramsutra.AI
+### purushottamhr2003-datapixel/IoT-smart-farming-system_
+- Source: https://github.com/purushottamhr2003-datapixel/IoT-smart-farming-system_
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### William-De71/gladys-victron-vrm
-- Source: https://github.com/William-De71/gladys-victron-vrm
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
