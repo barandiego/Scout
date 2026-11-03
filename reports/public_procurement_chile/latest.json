@@ -1,143 +1,35 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 3199055.0,
-      "buyer": "CORP MUNICIPAL DE SERVICIOS PUBLICOS TRASPASADOS DE RANCAGUA",
-      "closes_at": "2026-11-03T23:25:00",
-      "code": "557639-3536-COT26",
-      "estimated_budget": 3199055.0,
-      "name": "REACTIVOS MICROBIOLOGIA (15124)",
-      "products": 9,
-      "region": "Región del Libertador General Bernardo O´Higgins"
-    },
-    {
-      "available_budget_clp": 6995808.0,
-      "buyer": "CORP MUNICIPAL DE SERVICIOS PUBLICOS TRASPASADOS DE RANCAGUA",
-      "closes_at": "2026-11-03T23:23:00",
-      "code": "557639-3534-COT26",
-      "estimated_budget": 6995808.0,
-      "name": "CUBETAS ORINAS (15057)",
-      "products": 1,
-      "region": "Región del Libertador General Bernardo O´Higgins"
-    },
-    {
-      "available_budget_clp": 833000.0,
-      "buyer": "GOBERNACION MARITIMA DE TALCAHUANO",
-      "closes_at": "2026-11-04T09:00:00",
-      "code": "3193-419-COT26",
-      "estimated_budget": 833000.0,
-      "name": "CAMBIO KIT DE EMBRAGUE L-438",
-      "products": 1,
-      "region": "Región del Biobío"
-    },
-    {
-      "available_budget_clp": 862053.0,
-      "buyer": "UNIVERSIDAD DE ATACAMA",
-      "closes_at": "2026-11-04T08:00:00",
-      "code": "511451-229-COT26",
-      "estimated_budget": 862053.0,
-      "name": "Compra de Productos de Merchandising - PDG Decanatura",
-      "products": 4,
-      "region": "Región de Atacama"
-    },
-    {
-      "available_budget_clp": 2500000.0,
-      "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
-      "closes_at": "2026-11-03T22:50:00",
-      "code": "1057491-1985-COT26",
-      "estimated_budget": 2500000.0,
-      "name": "DQUISICIÓN DE PLACAS DE ESTIMULACIÓN CARDÍACA QUICK-COMBO ADULTO Y PEDIÁTRICA.",
-      "products": 2,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 238000.0,
-      "buyer": "GOBERNACION MARITIMA DE TALCAHUANO",
-      "closes_at": "2026-11-04T09:00:00",
-      "code": "3193-418-COT26",
-      "estimated_budget": 238000.0,
-      "name": "RODAMIENTO DE MAZA L-466",
-      "products": 1,
-      "region": "Región del Biobío"
-    },
-    {
-      "available_budget_clp": 190878.0,
-      "buyer": "UNIVERSIDAD DE ATACAMA",
-      "closes_at": "2026-11-04T08:00:00",
-      "code": "511451-93-COT26",
-      "estimated_budget": 190878.0,
-      "name": "Compra de Pendrives USB personalizados institucionales - POA CJ",
-      "products": 1,
-      "region": "Región de Atacama"
-    },
-    {
-      "available_budget_clp": 250000.0,
-      "buyer": "UNIVERSIDAD DE TALCA",
-      "closes_at": "2026-11-04T10:35:00",
-      "code": "1469-3899-COT26",
-      "estimated_budget": 250000.0,
-      "name": "20-45161 Servicio de arbitraje deportivo semiprofesional - Universidad de Talca",
-      "products": 1,
-      "region": "Región del Maule"
-    },
-    {
-      "available_budget_clp": 400000.0,
-      "buyer": "UNIVERSIDAD DE ATACAMA",
-      "closes_at": "2026-11-04T08:00:00",
-      "code": "511451-227-COT26",
-      "estimated_budget": 400000.0,
-      "name": "COMPRA DE SILLAS UNIVERSITARIAS PARA ZURDO - POA CJ",
-      "products": 2,
-      "region": "Región de Atacama"
-    },
-    {
-      "available_budget_clp": 200000.0,
-      "buyer": "UNIVERSIDAD DE ATACAMA",
-      "closes_at": "2026-11-04T08:00:00",
-      "code": "511451-228-COT26",
-      "estimated_budget": 200000.0,
-      "name": "SE REQUIERE SERVICIO DE COFFEE BREAK - CEE CJ",
-      "products": 1,
-      "region": "Región de Atacama"
-    },
-    {
-      "available_budget_clp": 200000.0,
-      "buyer": "UNIVERSIDAD DE ATACAMA",
-      "closes_at": "2026-11-04T08:00:00",
-      "code": "511451-226-COT26",
-      "estimated_budget": 200000.0,
-      "name": "SERVICIO DE COFFEE BREAK - DPTO CJ",
-      "products": 1,
-      "region": "Región de Atacama"
-    },
-    {
-      "available_budget_clp": 1000000.0,
-      "buyer": "UNIVERSIDAD DE TARAPACA",
-      "closes_at": "2026-11-04T08:30:00",
-      "code": "5865-172-COT26",
-      "estimated_budget": 1000000.0,
-      "name": "Dispensadores de agua con pedestal y gaveta de almacenamiento, Facultad de Ciencias Sociales",
-      "products": 1,
-      "region": "Región de Arica y Parinacota"
-    },
-    {
       "available_budget_clp": 600000.0,
-      "buyer": "UNIVERSIDAD DE ATACAMA",
-      "closes_at": "2026-11-04T08:00:00",
-      "code": "511451-225-COT26",
+      "buyer": "I MUNICIPALIDAD DE SAN VICENTE",
+      "closes_at": "2026-11-05T00:30:00",
+      "code": "4371-389-COT26",
       "estimated_budget": 600000.0,
-      "name": "COMPRA DE COMPUTADOR - DPTO CJ",
+      "name": "SERVICIO DE CAPACITACIÓN BIENESTAR LABORAL Y GESTIÓN EMOCIONAL.",
       "products": 1,
-      "region": "Región de Atacama"
+      "region": "Región del Libertador General Bernardo O´Higgins"
+    },
+    {
+      "available_budget_clp": 660000.0,
+      "buyer": "SERVICIO DE SALUD NUBLE HOSPITAL DE SAN CARLOS DR BENICIO ARZOLA MEDIN",
+      "closes_at": "2026-11-04T09:05:00",
+      "code": "1057510-1801-COT26",
+      "estimated_budget": 660000.0,
+      "name": "ADAPTADOR PARA VENTILACION MECANICA (FNB)",
+      "products": 1,
+      "region": "Región del Ñuble"
     }
   ],
-  "active_structurally_reconstructable_count": 13,
+  "active_structurally_reconstructable_count": 2,
   "diagnostics": {
-    "api_failures": {},
+    "api_failures": {
+      "api_rate_limited": 6
+    },
     "budget_exhausted": false,
     "detail_attempts": 20,
     "detail_cap_exhausted": true,
-    "details_fetched": 20,
+    "details_fetched": 14,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -149,24 +41,22 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-03T02:26:34Z",
-  "inserted_history": 20,
+  "generated_at": "2026-11-03T12:04:21Z",
+  "inserted_history": 14,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
+  "outcome": "DEGRADED_API_ERRORS",
   "phase1": {
-    "records": 20,
-    "rejection_reasons": {
-      "no_observable_competitive_prices": 4
-    },
-    "resolved": 7,
-    "structurally_reconstructable": 16,
-    "with_observable_quote_totals": 3,
-    "with_purchase_order_indicator": 0
+    "records": 14,
+    "rejection_reasons": {},
+    "resolved": 12,
+    "structurally_reconstructable": 14,
+    "with_observable_quote_totals": 12,
+    "with_purchase_order_indicator": 10
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-03T02:26:34Z"
+    "changed_to": "2026-11-03T12:04:21Z"
   }
 }
