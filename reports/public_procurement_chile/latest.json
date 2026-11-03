@@ -1,35 +1,23 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 600000.0,
-      "buyer": "I MUNICIPALIDAD DE SAN VICENTE",
-      "closes_at": "2026-11-05T00:30:00",
-      "code": "4371-389-COT26",
-      "estimated_budget": 600000.0,
-      "name": "SERVICIO DE CAPACITACIÓN BIENESTAR LABORAL Y GESTIÓN EMOCIONAL.",
+      "available_budget_clp": 920000.0,
+      "buyer": "SECCIÓN COMPRAS XII ZONA",
+      "closes_at": "2026-11-04T16:52:00",
+      "code": "1079445-776-COT26",
+      "estimated_budget": 920000.0,
+      "name": "ADQ. SERV MONTAJE DE NEUMATICOS ALINEACION Y BALANCEO PARA PARQUE VEHICULAR DE LA 1RA COM PUNTA ARENAS",
       "products": 1,
-      "region": "Región del Libertador General Bernardo O´Higgins"
-    },
-    {
-      "available_budget_clp": 660000.0,
-      "buyer": "SERVICIO DE SALUD NUBLE HOSPITAL DE SAN CARLOS DR BENICIO ARZOLA MEDIN",
-      "closes_at": "2026-11-04T09:05:00",
-      "code": "1057510-1801-COT26",
-      "estimated_budget": 660000.0,
-      "name": "ADAPTADOR PARA VENTILACION MECANICA (FNB)",
-      "products": 1,
-      "region": "Región del Ñuble"
+      "region": "Región de Magallanes y de la Antártica"
     }
   ],
-  "active_structurally_reconstructable_count": 2,
+  "active_structurally_reconstructable_count": 1,
   "diagnostics": {
-    "api_failures": {
-      "api_rate_limited": 6
-    },
+    "api_failures": {},
     "budget_exhausted": false,
     "detail_attempts": 20,
     "detail_cap_exhausted": true,
-    "details_fetched": 14,
+    "details_fetched": 20,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -41,22 +29,24 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-03T12:04:21Z",
-  "inserted_history": 14,
+  "generated_at": "2026-11-03T19:37:43Z",
+  "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_API_ERRORS",
+  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
   "phase1": {
-    "records": 14,
-    "rejection_reasons": {},
-    "resolved": 12,
-    "structurally_reconstructable": 14,
-    "with_observable_quote_totals": 12,
-    "with_purchase_order_indicator": 10
+    "records": 20,
+    "rejection_reasons": {
+      "no_observable_competitive_prices": 15
+    },
+    "resolved": 19,
+    "structurally_reconstructable": 5,
+    "with_observable_quote_totals": 4,
+    "with_purchase_order_indicator": 2
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-03T12:04:21Z"
+    "changed_to": "2026-11-03T19:37:43Z"
   }
 }
