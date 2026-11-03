@@ -1,16 +1,28 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-03T02:29:27.484751+00:00
+Generated: 2026-11-03T12:09:00.875810+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 168
+- New this cycle: 181
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 523, ai 96, energy 500, robotics 681
+- Categories: agriculture 529, ai 107, energy 499, robotics 665
 
 ## Recently encountered signals
+
+### vedantrevale6969/jalrakshak
+- Source: https://github.com/vedantrevale6969/jalrakshak
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### shreyasjadhav7042/Smart-Farming-Assistant
+- Source: https://github.com/shreyasjadhav7042/Smart-Farming-Assistant
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### A Safety-Aware Fuzzy Neural Network for Real-Time Energy Management of Battery Energy Storage in Grid-Connected Microgrids
 - Source: https://doi.org/10.1109/appeec67771.2026.11749996
@@ -446,18 +458,6 @@ Generated: 2026-11-03T02:29:27.484751+00:00
 
 ### shaheeddafedar/Agrimind
 - Source: https://github.com/shaheeddafedar/Agrimind
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### sujith13022005-png/agrisense-ai-smart-farming
-- Source: https://github.com/sujith13022005-png/agrisense-ai-smart-farming
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Preshydreams/farmcraft-ai
-- Source: https://github.com/Preshydreams/farmcraft-ai
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
