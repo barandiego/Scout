@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-03T02:01:08.614936+00:00
+Generated: 2026-11-03T11:38:09.361484+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['public_markets', 'physical_commerce', 'regulation_infrastructure']
-- raw_candidates: 2
-- parseable_candidates: 2
-- normalized_candidates: 2
+- lenses: ['robotics_automation', 'energy_industrial', 'mining_materials']
+- raw_candidates: 3
+- parseable_candidates: 3
+- normalized_candidates: 3
 - normalization_rejected: 0
-- grounded_sources: 3
+- grounded_sources: 5
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 1
+- judge_attempts: 0
 - critic_reviews: 1
-- judge_reviews: 1
+- judge_reviews: 0
 - survivors: 0
-- watches: 2
-- rejected: 1
+- watches: 1
+- rejected: 2
 - errors_by_stage: {}
 - rejection_reasons: {'discarded_ungrounded_url': 1, 'insufficient_unique_evidence': 1}
-- cost_usd: 0.05448655
+- cost_usd: 0.03002145
 - cost_uncertain: False
-- budget_remaining_usd: 0.02551345
+- budget_remaining_usd: 0.04997855
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Paid Spanish AI-training studies through Prolific: deferred_by_review_cap
 - Chile-specific voice-data recording project: deferred_by_review_cap
 - Spanish (Chile) AI language evaluation contractor: A primary employer-hosted listing supports that this is a real, currently discoverable Chilean-Spanish freelance AI-evaluation role with a stated hourly range and a plausible direct payer: the hiring platform/employer pays contractors for accepted work. Participation is realistic for an appropriately qualified Chile-based language professional and requires little capital. However, it is not validated as dependable income or an HQ-worthy scalable opportunity: hours, acceptance, effective rate, task continuity, payment terms, and eligibility remain unverified, while the broad $8–$65/hour range is explicitly contingent. Treat it only as a tightly bounded, low-cost application-and-terms-verification experiment, not a business thesis or committed revenue source.
 - Inventoryless Chilean bathroom-accessibility bundle: bidet attachment plus grab bar: deferred_by_review_cap
@@ -51,13 +50,14 @@ No survivors. Scout does not manufacture a daily winner.
 - Chile open-finance implementation-readiness test for a consented data-use wedge: deferred_by_review_cap
 - Chile low-value import VAT and landed-cost decision asset: critic_invalid_output
 - Prior-authorization FHIR API conformance harness for payer and health-IT vendors: deferred_by_review_cap
+- Rare-earth magnet scrap aggregation for U.S. hydrometallurgical recyclers: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=backlog",
-    "research_queue_unreviewed=81"
+    "deep_review_lane=fresh",
+    "research_queue_unreviewed=82"
   ],
   "stages": [
     {
@@ -65,42 +65,23 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 34,
+      "grounded_source_count": 15,
       "search_source_urls": [
-        "https://catalog.data.gov/dataset/harmonized-tariff-schedule-of-the-united-states-2025?from_hint=eyJxIjoiVGFyaWZmIiwic29ydCI6InJlbGV2YW5jZSJ9",
-        "https://demo.fedramp.gov/2026/agencies/rules/",
-        "https://demo.fedramp.gov/2026/agencies/rules/agency-use/",
-        "https://healthit.gov/certification-health-it/certification-program-regulations",
-        "https://healthit.gov/resources/hti-4-final-rule-electronic-prescribing-real-time-prescription-benefit-and-electronic-prior-authorization/",
-        "https://healthit.gov/resources/hti-4-overview-and-key-dates-for-certification-program/",
-        "https://healthit.gov/resources/onc-finalizes-the-adoption-of-certain-health-it-standards-in-the-fy2027-cms-ipps-final-rule/",
-        "https://hts.usitc.gov/",
-        "https://ltnr.ca/morty/?mortyurl=https%3A%2F%2Fwww.federalregister.gov%2Fdocuments%2F2026%2F04%2F20%2F2026-07622%2Freducing-barriers-to-network-improvements-and-service-changes",
-        "https://open.gsa.gov/api/regulationsgov/",
-        "https://ustr.gov/sites/default/files/files/Press/Releases/2026/2026%20NTE%20Report%20_%20Final.pdf",
-        "https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-prior-authorization-final-rule-cms-0057-f",
-        "https://www.fedramp.gov/2026/",
-        "https://www.fedramp.gov/2026/agencies/use/",
-        "https://www.fedramp.gov/2026/providers/rev5/rules/fedramp-certification/",
-        "https://www.fedramp.gov/2026/reference/20x/a/related/",
-        "https://www.fedramp.gov/2026/reference/20x/c/certification-data-sharing/",
-        "https://www.fedramp.gov/assets/resources/documents/rev4/REV_4_Agency_Authorization_Playbook.pdf",
-        "https://www.fedramp.gov/resources/documents/FedRAMP_Policy_Memo.pdf",
-        "https://www.fedramp.gov/rfcs/0024/?trk=article-ssr-frontend-pulse_little-text-block",
-        "https://www.ferc.gov/news-events/news/ferc-launches-aggressive-targeted-action-speed-large-load-integration",
-        "https://www.govinfo.gov/content/pkg/FR-2026-10-06/pdf/2026-20447.pdf",
-        "https://www.healthit.gov/sites/default/files/2024-08/HTI-2%20Patient%20Provider%20Payer%20API%20Webinar_508.pdf",
-        "https://www.healthit.gov/sites/default/files/2025-09/ePA_fact_sheet_OCT2025_508.pdf",
-        "https://www.healthit.gov/sites/default/files/page/2025-07/HTI-4%20Final%20Rule%20Overview%20Fact%20Sheet_508%20%281%29.pdf",
-        "https://www.irs.gov/pub/irs-access/p4450_accessible.pdf",
-        "https://www.irs.gov/pub/irs-irbs/irb26-43.pdf",
-        "https://www.sec.gov/Archives/edgar/data/1001233/000119312526347524/d125617dex991.htm",
-        "https://www.sec.gov/Archives/edgar/data/1653558/000121390026101651/ea030604701ex99-1.htm",
-        "https://www.sec.gov/Archives/edgar/data/1852207/000121390026103760/ea030545301ex99-1.htm",
-        "https://www.transit.dot.gov/regulations-and-programs/environmental-policy-and-programs/legislation-regulation-and-guidance",
-        "https://www.usitc.gov/harmonized_tariff_information",
-        "https://www.usitc.gov/tariff_affairs/documents/2026_hts_item_count.pdf",
-        "https://www.whitehouse.gov/wp-content/uploads/2026/04/ERP-2026-3.-Rebuilding-Americas-International-Trade-Policy.pdf"
+        "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf",
+        "https://www.energy.gov/energy-storage-grand-challenge/funding-opportunities",
+        "https://www.energy.gov/mesc/funding",
+        "https://www.energy.gov/oe/funding-opportunities-and-requests-information",
+        "https://www.energy.gov/technologycommercialization/doe-small-business-innovation-research-sbir-and-small-business",
+        "https://www.sec.gov/Archives/edgar/data/1567900/000162828026056817/aloy-20260630.htm",
+        "https://www.sec.gov/Archives/edgar/data/1727255/000168316826007026/chilean_ex9901.htm",
+        "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000022/annualreporttoshareholders.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1970622/000121390026092810/ea030292401ex99-2.htm",
+        "https://www.sec.gov/Archives/edgar/data/1970622/000197062226000057/usar-20260630.htm",
+        "https://www.sec.gov/Archives/edgar/data/2079013/000182912626010707/hallchadwickacq_ex99-1.htm",
+        "https://www.sec.gov/Archives/edgar/data/2095743/000119312526405487/rea_inc_fy25_ars_-_9.28.pdf",
+        "https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB730414_1341_-NONE-_-NONE-",
+        "https://www.usaspending.gov/award/CONT_AWD_2032H524F00365_2050_2032H521A00032_2050",
+        "https://www.usaspending.gov/award/CONT_AWD_W911RQ26CA011_9700_-NONE-_-NONE-/"
       ]
     },
     {
@@ -136,98 +117,99 @@ No survivors. Scout does not manufacture a daily winner.
       "retry_justified": false
     },
     {
+      "index": 2,
+      "stage": "normalization",
+      "outcome": "accepted",
+      "reasons": [],
+      "changes": [
+        "contrary_evidence:list_sanitized",
+        "major_risks:list_sanitized",
+        "unknowns:list_sanitized",
+        "falsification_conditions:list_sanitized",
+        "material_update:unknown_false"
+      ],
+      "grounded_sources": 2,
+      "retry_justified": false
+    },
+    {
       "stage": "critic",
-      "candidate_id": "opp_bc3b9a823961fadca8e1",
+      "candidate_id": "opp_bdebf45a2587e8a41242",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 21,
+      "grounded_source_count": 34,
       "search_source_urls": [
-        "https://cdn.hacienda.cl/asset/hacienda_prod/attachment/6265bb739eee1c1040fcf6911d823bd1e9fa7887cd33d05f10ce45c1d969556a/1769807045?_expiration=1772564170&_hash=665HR-_CLiSwmofHDEHo_D0jmgNEaJ0E_YpIWhDyeeg",
-        "https://chambers.com/downloads/gpg/1013/banking_regulation_2025.pdf",
-        "https://cmfchile.cl/portal/principal/623/w4-article-113974.html",
-        "https://en.wikipedia.org/wiki/Open_banking",
-        "https://en.wikipedia.org/wiki/Open_finance",
-        "https://es.wikipedia.org/wiki/Fapro",
-        "https://lawfice.cl/blog/open-finance-chile-foreign-fintechs/",
-        "https://repositorio.uchile.cl/bitstream/handle/2250/198930/La-revolucion-de-las-finanzas-abiertas-en-Chile-y-el-mundo.pdf?isAllowed=y&sequence=7",
-        "https://www.aafm.cl/2016/wp-content/uploads/2025/09/Country-Report-Chile-2024.pdf",
-        "https://www.camara.cl/fiscalizacion/oficios_fiscalizacion/detalle_oficio.aspx?prmIdOficio=322042",
-        "https://www.carey.cl/propuesta-normativa-de-la-cmf-a-la-ncg-n514-posterga-en-12-meses-la-entrada-en-vigencia-del-sistema-de-finanzas-abiertas-y-otorga-mayor-gradualidad-en-su-implementacion",
-        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-100482.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-112955.html?trk=public_post_comment-text",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html?trk=article-ssr-frontend-pulse_little-text-block",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.imf.org/-/media/files/publications/cr/2025/english/1chlea2025001-print-pdf.pdf",
-        "https://www.leychile.cl/leychile/Navegar?idNorma=1187323&idParte=10393566",
-        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000069/MNCenglish.pdf"
+        "https://apnews.com/article/23c269b2738ded4a6c4cd2f696f83102",
+        "https://apnews.com/article/4c012d70ad172f12d9e3aca24508e766",
+        "https://apnews.com/article/b703bee12842f9a0e8dde57a9b267a10",
+        "https://apnews.com/article/d247150492581197cfa9614c9437c4c2",
+        "https://elpais.com/america/2026-04-20/una-empresa-respaldada-por-washington-compra-la-unica-compania-que-produce-tierras-raras-en-brasil.html",
+        "https://en.wikipedia.org/wiki/Rare-earth_element",
+        "https://investors.usare.com/node/8761/pdf",
+        "https://investors.usare.com/static-files/51392825-c0d8-41cb-a604-0842d6a5dfa1",
+        "https://investors.usare.com/static-files/5d9331fd-4eb4-4572-891f-908928992ca5",
+        "https://investors.usare.com/static-files/8738be58-887b-4f2d-9861-3b64438bcc3f",
+        "https://investors.usare.com/static-files/c926e2aa-103c-46d2-b53e-5530116872af",
+        "https://investors.usare.com/static-files/d6bfb290-4c3a-4d10-ac76-362541a28cf8",
+        "https://www.globenewswire.com/news-release/2026/04/20/3276796/0/en/USA-Rare-Earth-Announces-Definitive-Agreement-to-Acquire-Serra-Verde-Group-for-2-8-Billion-Creating-the-Global-Rare-Earth-Leader.html",
+        "https://www.reddit.com/r/ARRNF/comments/1s95vlo/american_rare_earths_advances_planning_for/",
+        "https://www.reddit.com/r/ARRNF/comments/1vqs2h3/arr_proposed_us_minetomagnet_supply_chain/",
+        "https://www.reddit.com/r/CriticalMineralStocks/comments/1qwrwdk/us_provides_rare_earths_miner_serra_verde_with/",
+        "https://www.reddit.com/r/CriticalMineralStocks/comments/1s2eowh/rare_element_resources_demonstration_plant/",
+        "https://www.reddit.com/r/CriticalMineralStocks/comments/1u6iwca/usa_rare_earth_commissions_hydrometallurgical/",
+        "https://www.reddit.com/r/NIOCORP_MINE/comments/1vx51u8/department_of_war_announces_a_750_million/",
+        "https://www.reddit.com/r/NIOCORP_MINE/comments/1xe6hrx/niocorpmine_usa_rare_earths_federal_billions_ran/",
+        "https://www.reddit.com/r/UURAF/comments/1qgem93/brazilian_serre_verde_close_to_a_deal_for_heavy/",
+        "https://www.reddit.com/r/UURAF/comments/1qws2ej/us_provides_rare_earths_miner_serra_verde_with/",
+        "https://www.reddit.com/r/Wiseek/comments/1vwzrxw/usar_usa_rare_earth_completes_upsized_155b_spv/",
+        "https://www.sec.gov/Archives/edgar/data/1970622/000121390026045339/ea028691001ex99-3.htm",
+        "https://www.sec.gov/Archives/edgar/data/1970622/000121390026045342/ea028691001ex99-1.htm",
+        "https://www.sec.gov/Archives/edgar/data/1970622/000121390026055508/ea0290028-01.htm",
+        "https://www.sec.gov/Archives/edgar/data/1970622/000121390026092810/ea030292401ex99-1.htm",
+        "https://www.sec.gov/Archives/edgar/data/1970622/000121390026092810/ea030292401ex99-2.htm",
+        "https://www.sec.gov/Archives/edgar/data/1970622/000121390026092813/ea0302961-defa14a_usarare.htm",
+        "https://www.sec.gov/Archives/edgar/data/1970622/000197062226000038/usar-20260331.htm",
+        "https://www.sec.gov/Archives/edgar/data/1970622/000197062226000056/exhibit991-earningsrelease.htm",
+        "https://www.sec.gov/Archives/edgar/data/1970622/000197062226000057/usar-20260630.htm",
+        "https://www.serraverde.com/serra-verde-announces-agreed-combination-with-usa-rare-earth-to-create-global-rare-earths-leader-and-a-15-year-offtake-with-guaranteed-floor-prices/",
+        "https://www.stocktitan.net/sec-filings/USAR/8-k-usa-rare-earth-inc-reports-material-event-806e61d17fad.html"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_bc3b9a823961fadca8e1",
+      "candidate_id": "opp_bdebf45a2587e8a41242",
       "coercions": [
         "contrary_evidence"
       ]
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_bc3b9a823961fadca8e1",
-      "response_status": "completed",
-      "incomplete_reason": "",
-      "grounded_source_count": 0,
-      "search_source_urls": []
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_bc3b9a823961fadca8e1",
-      "coercions": []
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 479,
-      "cache_write_tokens": 4849,
+      "reasoning_tokens": 391,
+      "cache_write_tokens": 5507,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02551545,
+      "cumulative_cost_usd": 0.01535715,
       "model": "gpt-5.6-luna",
-      "input_tokens": 17719,
+      "input_tokens": 13847,
       "cached_tokens": 0,
-      "output_tokens": 1441,
-      "web_search_calls": 2,
-      "estimated_cost_usd": 0.02551545
+      "output_tokens": 1927,
+      "web_search_calls": 1,
+      "estimated_cost_usd": 0.01535715
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 161,
-      "cache_write_tokens": 5264,
+      "reasoning_tokens": 201,
+      "cache_write_tokens": 5282,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.03990705,
+      "cumulative_cost_usd": 0.03002145,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13640,
+      "input_tokens": 13721,
       "cached_tokens": 0,
-      "output_tokens": 1167,
+      "output_tokens": 1380,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0143916
-    },
-    {
-      "stage": "judge",
-      "available": true,
-      "reasoning_tokens": 94,
-      "cache_write_tokens": 2839,
-      "accounting_notes": [],
-      "cumulative_cost_usd": 0.05448655,
-      "model": "gpt-5.6-terra",
-      "input_tokens": 2842,
-      "cached_tokens": 0,
-      "output_tokens": 623,
-      "web_search_calls": 0,
-      "estimated_cost_usd": 0.0145795
+      "estimated_cost_usd": 0.0146643
     }
   ]
 }

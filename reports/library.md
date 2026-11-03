@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-11-03T02:01:09.052033+00:00
+Generated: 2026-11-03T11:38:09.807536+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 164 (0 HQ survivors, 164 watches)
-- Rejected opportunities excluded: 91
+- Active research: 165 (0 HQ survivors, 165 watches)
+- Rejected opportunities excluded: 93
 - Critic-and-judge reviewed: 74
 - Autonomous execution authorization: 0
 
@@ -1532,6 +1532,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-prior-authorization-final-rule-cms-0057-f; https://healthit.gov/resources/onc-finalizes-the-adoption-of-certain-health-it-standards-in-the-fy2027-cms-ipps-final-rule/
+
+### Rare-earth magnet scrap aggregation for U.S. hydrometallurgical recyclers [opp_c8e6aafdbd5e82e3b4e5]
+- Status: WATCH_REQUIRES_VALIDATION | general | United States
+- Thesis: The bottleneck is not only separation capacity but reliable access to magnet-containing scrap. A small operator could test whether sorted hard-drive, motor, and industrial-magnet scrap can be assembled into saleable lots for an existing recycler, without owning processing equipment.
+- Value capture: Acquire or broker magnet-bearing scrap from electronics recyclers, data-center decommissioners, industrial motor rebuilders, or auction lots; sort and document material; obtain written bids from recyclers. Revenue would come only from an executed spread or brokerage fee, which is unverified until quotes and a transaction exist.
+- Participation hypothesis: Lowest-cost test: identify three local or online sources of end-of-life hard drives or magnet-bearing motors, obtain a small sample or lot description, separate magnet-bearing material from ordinary steel, and request written purchase terms from at least three established rare-earth or e-waste recyclers. Do not buy inventory until a recycler confirms specifications, acceptable contamination, logistics, and price in writing. Falsify if no recycler will quote, if recovery-grade material cannot be identified cheaply, or if transport and sorting co
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/2079013/000182912626010707/hallchadwickacq_ex99-1.htm; https://www.energy.gov/mesc/funding
 
 ### Restructuring-event monitoring and document-based catalyst research around Trinseo [opp_91d2d1e9524976272e95]
 - Status: WATCH_REQUIRES_VALIDATION | public_markets | United States / Ireland

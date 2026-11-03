@@ -2099,6 +2099,42 @@
       "category": "general",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Lowest-cost test: identify three local or online sources of end-of-life hard drives or magnet-bearing motors, obtain a small sample or lot description, separate magnet-bearing material from ordinary steel, and request written purchase terms from at least three established rare-earth or e-waste recyclers. Do not buy inventory until a recycler confirms specifications, acceptable contamination, logistics, and price in writing. Falsify if no recycler will quote, if recovery-grade material cannot be identified cheaply, or if transport and sorting costs exceed the quoted purchase value.",
+      "current_thesis": "The bottleneck is not only separation capacity but reliable access to magnet-containing scrap. A small operator could test whether sorted hard-drive, motor, and industrial-magnet scrap can be assembled into saleable lots for an existing recycler, without owning processing equipment.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Rare-earth magnet scrap aggregation for U.S. hydrometallurgical recyclers",
+      "opportunity_id": "opp_c8e6aafdbd5e82e3b4e5",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Name a specific payer, customer job and credible reason existing alternatives fail.",
+        "Choose a low-cost differentiation wedge (availability, price, experience, distribution or technology).",
+        "Test channel, willingness to pay, ownership and contribution margin before building."
+      ],
+      "supporting_source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/2079013/000182912626010707/hallchadwickacq_ex99-1.htm",
+        "https://www.energy.gov/mesc/funding"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Acquire or broker magnet-bearing scrap from electronics recyclers, data-center decommissioners, industrial motor rebuilders, or auction lots; sort and document material; obtain written bids from recyclers. Revenue would come only from an executed spread or brokerage fee, which is unverified until quotes and a transaction exist.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "general",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Apply only through the official Outlier pages, complete the profile and skills assessment, and record whether Chile eligibility, displayed rate, payout method and task access are actually offered. Test viability after onboarding by accepting only work whose displayed terms and payment conditions are clear. Falsify if the application is closed, Chile is removed, identity/payment verification fails, or no paid task becomes available after qualification. Treat the listed USD 7.50/hour as an advertised average for a specified writing project, not guaranteed income.",
       "current_thesis": "This is a currently accessible application route for possible freelance income, but it is not guaranteed work: acceptance, project qualification, available tasks, actual rate and payment eligibility remain conditional.",
       "founder_hours_initial_unverified_estimate": "",
@@ -6242,7 +6278,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-03T02:01:09.178412+00:00",
+  "generated_at": "2026-11-03T11:38:09.931795+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

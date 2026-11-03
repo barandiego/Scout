@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 164
+Candidates: 165
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -675,6 +675,18 @@ Candidates: 164
 - Critical gaps: Which specific customer segment will pay: utilities, developers, large loads, engineering firms, regulators, or investors?; Whether customers will pay for software or prefer incumbent engineering, environmental, legal, and owner-engineer providers.; Actual addressable spending on permitting analytics and documentation compared with total transmission and generation capex.
 - Possible initial budget:
 - Source URLs: https://www.energy.gov/oe/articles/does-office-electricity-publishes-2026-draft-national-transmission-needs-study?trk=public_post_comment-text; https://www.energy.gov/cmei/water/articles/does-hydropower-and-hydrokinetic-office-announces-funding-national-laboratory
+
+## Rare-earth magnet scrap aggregation for U.S. hydrometallurgical recyclers
+- Status: watch | general
+- Current idea: The bottleneck is not only separation capacity but reliable access to magnet-containing scrap. A small operator could test whether sorted hard-drive, motor, and industrial-magnet scrap can be assembled into saleable lots for an existing recycler, without owning processing equipment.
+- Potential economic capture: Acquire or broker magnet-bearing scrap from electronics recyclers, data-center decommissioners, industrial motor rebuilders, or auction lots; sort and document material; obtain written bids from recyclers. Revenue would come only from an executed spread or brokerage fee, which is unverified until quotes and a transaction exist.
+- **Research routes to test (NOT validated claims):**
+  - Name a specific payer, customer job and credible reason existing alternatives fail.
+  - Choose a low-cost differentiation wedge (availability, price, experience, distribution or technology).
+  - Test channel, willingness to pay, ownership and contribution margin before building.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.sec.gov/Archives/edgar/data/2079013/000182912626010707/hallchadwickacq_ex99-1.htm; https://www.energy.gov/mesc/funding
 
 ## Remote Spanish-language AI evaluation and writing applications open to Chile residents
 - Status: watch | general
