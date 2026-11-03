@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-03T11:38:09.361484+00:00
+Generated: 2026-11-03T19:03:46.294822+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['robotics_automation', 'energy_industrial', 'mining_materials']
-- raw_candidates: 3
-- parseable_candidates: 3
-- normalized_candidates: 3
+- lenses: ['tokenization_finance', 'business_model_migration', 'cost_curve']
+- raw_candidates: 1
+- parseable_candidates: 1
+- normalized_candidates: 1
 - normalization_rejected: 0
-- grounded_sources: 5
+- grounded_sources: 2
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 0
+- judge_attempts: 1
 - critic_reviews: 1
-- judge_reviews: 0
+- judge_reviews: 1
 - survivors: 0
-- watches: 1
-- rejected: 2
+- watches: 2
+- rejected: 0
 - errors_by_stage: {}
-- rejection_reasons: {'discarded_ungrounded_url': 1, 'insufficient_unique_evidence': 1}
-- cost_usd: 0.03002145
+- rejection_reasons: {}
+- cost_usd: 0.04431425
 - cost_uncertain: False
-- budget_remaining_usd: 0.04997855
+- budget_remaining_usd: 0.03568575
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Chile-specific voice-data recording project: deferred_by_review_cap
 - Spanish (Chile) AI language evaluation contractor: A primary employer-hosted listing supports that this is a real, currently discoverable Chilean-Spanish freelance AI-evaluation role with a stated hourly range and a plausible direct payer: the hiring platform/employer pays contractors for accepted work. Participation is realistic for an appropriately qualified Chile-based language professional and requires little capital. However, it is not validated as dependable income or an HQ-worthy scalable opportunity: hours, acceptance, effective rate, task continuity, payment terms, and eligibility remain unverified, while the broad $8–$65/hour range is explicitly contingent. Treat it only as a tightly bounded, low-cost application-and-terms-verification experiment, not a business thesis or committed revenue source.
 - Inventoryless Chilean bathroom-accessibility bundle: bidet attachment plus grab bar: deferred_by_review_cap
 - Restructuring-event monitoring and document-based catalyst research around Trinseo: deferred_by_review_cap
@@ -51,12 +50,13 @@ No survivors. Scout does not manufacture a daily winner.
 - Chile low-value import VAT and landed-cost decision asset: critic_invalid_output
 - Prior-authorization FHIR API conformance harness for payer and health-IT vendors: deferred_by_review_cap
 - Rare-earth magnet scrap aggregation for U.S. hydrometallurgical recyclers: deferred_by_review_cap
+- Chile SFA interoperability test harness for regulated fintech integrations: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=fresh",
+    "deep_review_lane=backlog",
     "research_queue_unreviewed=82"
   ],
   "stages": [
@@ -65,23 +65,26 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 15,
+      "grounded_source_count": 18,
       "search_source_urls": [
-        "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf",
-        "https://www.energy.gov/energy-storage-grand-challenge/funding-opportunities",
-        "https://www.energy.gov/mesc/funding",
-        "https://www.energy.gov/oe/funding-opportunities-and-requests-information",
-        "https://www.energy.gov/technologycommercialization/doe-small-business-innovation-research-sbir-and-small-business",
-        "https://www.sec.gov/Archives/edgar/data/1567900/000162828026056817/aloy-20260630.htm",
-        "https://www.sec.gov/Archives/edgar/data/1727255/000168316826007026/chilean_ex9901.htm",
-        "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000022/annualreporttoshareholders.pdf",
-        "https://www.sec.gov/Archives/edgar/data/1970622/000121390026092810/ea030292401ex99-2.htm",
-        "https://www.sec.gov/Archives/edgar/data/1970622/000197062226000057/usar-20260630.htm",
-        "https://www.sec.gov/Archives/edgar/data/2079013/000182912626010707/hallchadwickacq_ex99-1.htm",
-        "https://www.sec.gov/Archives/edgar/data/2095743/000119312526405487/rea_inc_fy25_ars_-_9.28.pdf",
-        "https://www.usaspending.gov/award/CONT_AWD_1333ND26PNB730414_1341_-NONE-_-NONE-",
-        "https://www.usaspending.gov/award/CONT_AWD_2032H524F00365_2050_2032H521A00032_2050",
-        "https://www.usaspending.gov/award/CONT_AWD_W911RQ26CA011_9700_-NONE-_-NONE-/"
+        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-93115_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html?trk=article-ssr-frontend-pulse_little-text-block",
+        "https://www.cmfchile.cl/portal/principal/613/articles-51042_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/articles-89581_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48738.html",
+        "https://www.sec.gov/Archives/edgar/data/1074828/000107482826000027/usbc-20260331.htm",
+        "https://www.sec.gov/Archives/edgar/data/1383312/000114036126037939/ny20075597x4_ars.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1627282/000162728226000067/ex_991xcalibertokenization.htm",
+        "https://www.sec.gov/Archives/edgar/data/1762096/000095010326005524/dp245023_425.htm",
+        "https://www.sec.gov/Archives/edgar/data/2090452/000110465926120989/tm2628734d1_ex99-2.htm",
+        "https://www.sec.gov/Archives/edgar/data/2094496/000162828026056164/exhibit991-secz2q26earning.htm",
+        "https://www.sec.gov/featured-topics/crypto-task-force/cryptosec",
+        "https://www.sec.gov/files/cft-written-wall-street-blockchain-august-2026.pdf",
+        "https://www.sec.gov/newsroom/speeches-statements/uyeda-statement-innovation-exemption-091726"
       ]
     },
     {
@@ -100,116 +103,97 @@ No survivors. Scout does not manufacture a daily winner.
       "retry_justified": false
     },
     {
-      "index": 1,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [
-        "discarded_ungrounded_url"
-      ],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 1,
-      "retry_justified": false
-    },
-    {
-      "index": 2,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 2,
-      "retry_justified": false
-    },
-    {
       "stage": "critic",
-      "candidate_id": "opp_bdebf45a2587e8a41242",
+      "candidate_id": "opp_7e02ca9e2e24b8ac6b6b",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 34,
+      "grounded_source_count": 20,
       "search_source_urls": [
-        "https://apnews.com/article/23c269b2738ded4a6c4cd2f696f83102",
-        "https://apnews.com/article/4c012d70ad172f12d9e3aca24508e766",
-        "https://apnews.com/article/b703bee12842f9a0e8dde57a9b267a10",
-        "https://apnews.com/article/d247150492581197cfa9614c9437c4c2",
-        "https://elpais.com/america/2026-04-20/una-empresa-respaldada-por-washington-compra-la-unica-compania-que-produce-tierras-raras-en-brasil.html",
-        "https://en.wikipedia.org/wiki/Rare-earth_element",
-        "https://investors.usare.com/node/8761/pdf",
-        "https://investors.usare.com/static-files/51392825-c0d8-41cb-a604-0842d6a5dfa1",
-        "https://investors.usare.com/static-files/5d9331fd-4eb4-4572-891f-908928992ca5",
-        "https://investors.usare.com/static-files/8738be58-887b-4f2d-9861-3b64438bcc3f",
-        "https://investors.usare.com/static-files/c926e2aa-103c-46d2-b53e-5530116872af",
-        "https://investors.usare.com/static-files/d6bfb290-4c3a-4d10-ac76-362541a28cf8",
-        "https://www.globenewswire.com/news-release/2026/04/20/3276796/0/en/USA-Rare-Earth-Announces-Definitive-Agreement-to-Acquire-Serra-Verde-Group-for-2-8-Billion-Creating-the-Global-Rare-Earth-Leader.html",
-        "https://www.reddit.com/r/ARRNF/comments/1s95vlo/american_rare_earths_advances_planning_for/",
-        "https://www.reddit.com/r/ARRNF/comments/1vqs2h3/arr_proposed_us_minetomagnet_supply_chain/",
-        "https://www.reddit.com/r/CriticalMineralStocks/comments/1qwrwdk/us_provides_rare_earths_miner_serra_verde_with/",
-        "https://www.reddit.com/r/CriticalMineralStocks/comments/1s2eowh/rare_element_resources_demonstration_plant/",
-        "https://www.reddit.com/r/CriticalMineralStocks/comments/1u6iwca/usa_rare_earth_commissions_hydrometallurgical/",
-        "https://www.reddit.com/r/NIOCORP_MINE/comments/1vx51u8/department_of_war_announces_a_750_million/",
-        "https://www.reddit.com/r/NIOCORP_MINE/comments/1xe6hrx/niocorpmine_usa_rare_earths_federal_billions_ran/",
-        "https://www.reddit.com/r/UURAF/comments/1qgem93/brazilian_serre_verde_close_to_a_deal_for_heavy/",
-        "https://www.reddit.com/r/UURAF/comments/1qws2ej/us_provides_rare_earths_miner_serra_verde_with/",
-        "https://www.reddit.com/r/Wiseek/comments/1vwzrxw/usar_usa_rare_earth_completes_upsized_155b_spv/",
-        "https://www.sec.gov/Archives/edgar/data/1970622/000121390026045339/ea028691001ex99-3.htm",
-        "https://www.sec.gov/Archives/edgar/data/1970622/000121390026045342/ea028691001ex99-1.htm",
-        "https://www.sec.gov/Archives/edgar/data/1970622/000121390026055508/ea0290028-01.htm",
-        "https://www.sec.gov/Archives/edgar/data/1970622/000121390026092810/ea030292401ex99-1.htm",
-        "https://www.sec.gov/Archives/edgar/data/1970622/000121390026092810/ea030292401ex99-2.htm",
-        "https://www.sec.gov/Archives/edgar/data/1970622/000121390026092813/ea0302961-defa14a_usarare.htm",
-        "https://www.sec.gov/Archives/edgar/data/1970622/000197062226000038/usar-20260331.htm",
-        "https://www.sec.gov/Archives/edgar/data/1970622/000197062226000056/exhibit991-earningsrelease.htm",
-        "https://www.sec.gov/Archives/edgar/data/1970622/000197062226000057/usar-20260630.htm",
-        "https://www.serraverde.com/serra-verde-announces-agreed-combination-with-usa-rare-earth-to-create-global-rare-earths-leader-and-a-15-year-offtake-with-guaranteed-floor-prices/",
-        "https://www.stocktitan.net/sec-filings/USAR/8-k-usa-rare-earth-inc-reports-material-event-806e61d17fad.html"
+        "https://arxiv.org/abs/2203.00582",
+        "https://arxiv.org/abs/2407.13304",
+        "https://es.linkedin.com/posts/miguel-bravo-41753811b_un-nuevo-hito-para-la-automatizaci%C3%B3n-desarrollada-activity-7507432102125002752-Jj1T",
+        "https://fairino.cl/",
+        "https://grupo-igps.cl/",
+        "https://grupo-igps.cl/servicios/automatizacion-industria-4-0/servicio-robotica-colaborativa/",
+        "https://mageva.odoo.com/blog/noticias-1/primer-retrofit-en-chile-1",
+        "https://piet.ucdavis.edu/sites/g/files/dgvnsk8286/files/inline-files/team10_150584_23644503_D-Lab%20Final%20Technical%20Report-1.pdf",
+        "https://publications.iadb.org/publications/english/document/Report-on-Low-Risk-Technological-Solutions-in-Emerging-Technologies-in-Agriculture.pdf",
+        "https://ras.papercept.net/images/temp/AIM/files/0279.pdf",
+        "https://t-inside.cl/nosotros/",
+        "https://thunderrobotics.cl/",
+        "https://tools.investchile.gob.cl/hubfs/ebooks%20nuevos/InvestChile%20E-Book%20The%20Food%20Industry%20in%20Chile.pdf?hsLang=en-gb",
+        "https://www.agharvestreport.com/hubfs/wgcit_2021_harvest_automation_report_2022-02-07.pdf?hsLang=en",
+        "https://www.emb.cl/electroindustria/articulo.mvc?tip=7&xid=4642&xit=en-la-agricultura-postulan-a-robots-como-solucion-para-deficit-de-mano-de-obra",
+        "https://www.klever-robotics.com/",
+        "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/01/labour-and-skills-shortages-in-the-agro-food-sector_c9915f4e/ed758aab-en.pdf",
+        "https://www.postharvest.biz/paclife/smarter-packaging-automation-changes-the-way-fresh-fruit-is-processed",
+        "https://www.qimarox.com/pat-industrial-solutions/",
+        "https://www.thinkagro.cl/"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_bdebf45a2587e8a41242",
+      "candidate_id": "opp_7e02ca9e2e24b8ac6b6b",
       "coercions": [
         "contrary_evidence"
       ]
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_7e02ca9e2e24b8ac6b6b",
+      "response_status": "completed",
+      "incomplete_reason": "",
+      "grounded_source_count": 0,
+      "search_source_urls": []
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_7e02ca9e2e24b8ac6b6b",
+      "coercions": []
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 391,
-      "cache_write_tokens": 5507,
+      "reasoning_tokens": 213,
+      "cache_write_tokens": 5456,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01535715,
+      "cumulative_cost_usd": 0.0140772,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13847,
+      "input_tokens": 13964,
       "cached_tokens": 0,
-      "output_tokens": 1927,
+      "output_tokens": 843,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01535715
+      "estimated_cost_usd": 0.0140772
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 201,
-      "cache_write_tokens": 5282,
+      "reasoning_tokens": 155,
+      "cache_write_tokens": 5219,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.03002145,
+      "cumulative_cost_usd": 0.02859175,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13721,
+      "input_tokens": 13606,
       "cached_tokens": 0,
-      "output_tokens": 1380,
+      "output_tokens": 1277,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0146643
+      "estimated_cost_usd": 0.01451455
+    },
+    {
+      "stage": "judge",
+      "available": true,
+      "reasoning_tokens": 134,
+      "cache_write_tokens": 2869,
+      "accounting_notes": [],
+      "cumulative_cost_usd": 0.04431425,
+      "model": "gpt-5.6-terra",
+      "input_tokens": 2872,
+      "cached_tokens": 0,
+      "output_tokens": 712,
+      "web_search_calls": 0,
+      "estimated_cost_usd": 0.0157225
     }
   ]
 }

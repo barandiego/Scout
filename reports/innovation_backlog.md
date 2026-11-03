@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 165
+Candidates: 166
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -1240,6 +1240,18 @@ Candidates: 165
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html
 
+## Chile SFA interoperability test harness for regulated fintech integrations
+- Status: watch | open_finance_chile
+- Current idea: A narrow software asset that converts the published SFA technical requirements into repeatable conformance tests, request/response fixtures, credential-flow checks, and ATENA test scripts could reduce implementation uncertainty for entities preparing to participate. The evidence supports a concrete testing need, but does not establish a paying customer, price, or procurement budget.
+- Potential economic capture: Potentially a paid test package, licensed test harness, or integration-validation engagement; payer and price are unverified and must not be assumed. The defensible initial asset is a reusable, version-controlled conformance suite rather than a broad consulting service.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html?trk=article-ssr-frontend-pulse_little-text-block
+
 ## Chile SFA interoperability test harness for regulated participants
 - Status: watch | open_finance_chile
 - Current idea: Entities preparing for SFA participation must validate API behavior, directory interactions, certificates, webhooks, authorization flows and version changes before the July 2027 deadline. The published technical requirements and sandbox create a bounded implementation problem rather than a generic fintech opportunity.
@@ -1776,7 +1788,7 @@ Candidates: 165
   - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
   - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
   - Arrange a bounded field validation with an actual farm operator before scaling.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Whether Maule agroprocessors will pay directly for a feasibility assessment rather than request a free quote from an integrator.; The achievable price, gross margin, and delivery time for the assessment.; Whether suppliers will offer referral fees, white-label delivery, or non-exclusive permission.
 - Possible initial budget:
 - Source URLs: https://fairino.cl/; https://thunderrobotics.cl/
 

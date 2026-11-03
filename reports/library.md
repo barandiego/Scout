@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-11-03T11:38:09.807536+00:00
+Generated: 2026-11-03T19:03:46.739106+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 165 (0 HQ survivors, 165 watches)
+- Active research: 166 (0 HQ survivors, 166 watches)
 - Rejected opportunities excluded: 93
-- Critic-and-judge reviewed: 74
+- Critic-and-judge reviewed: 75
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -172,6 +172,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: No quantified total addressable market, buyer budget, willingness to pay, or evidence that API-specific compliance is purchased separately from broader GRC, cloud-se; No evidence of customer interviews, pilots, design partners, conversion rates, procurement cycles, or channel access through assessors and government contractors.; No defined initial product, pricing, implementation burden, gross-margin profile, or estimate of required capital and engineering hours.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.nist.gov/news-events/news/2026/05/guidelines-secure-deployment-restful-web-apis-draft-sp-800-228a-available; https://www.fedramp.gov/2026/
+
+### Application-specific cobot and machine-vision retrofit assessment for Chilean agroprocessors [opp_7e02ca9e2e24b8ac6b6b]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile, with an initial focus on Maule and central Chile
+- Thesis: The opportunity is not importing an unproven robot or claiming an empty market. A small operator could test a narrow lead-generation and application-engineering wedge around one repetitive agroindustrial task, using existing local suppliers rather than holding inventory.
+- Value capture: Sell a paid or supplier-sponsored feasibility assessment for one process—such as palletizing, repetitive pick-and-place or visual quality inspection—covering cycle-time observation, safety constraints, required components, indicative supplier quotation and a go/no-go recommendation. No equipment price, buyer, margin or conversion rate is evidenced, so these must be validated before scaling.
+- Participation hypothesis: Select one task and one region, obtain supplier permission or referral terms before representing any equipment, and approach agroprocessors through public contact channels, industry associations or site visits. Use the integrators’ existing evaluation forms and request a supplier quotation only after a prospect describes a real process. Lowest-cost falsification: interview or visit ten agroprocessors, document whether the same task exists, and seek three written requests for a quotation or feasibility study; abandon the wedge if prospects will
+- Critic/judge: The narrow wedge—process-specific feasibility assessment for a Chilean agroprocessor—has an identifiable class of jobs (palletizing, repetitive handling, visual inspection) and plausible local delivery paths through existing integrators. It does not misrepresent a lab prototype as commercially ready: the thesis explicitly relies on already represented equipment and supplier capability rather than autonomous deployment claims. However, t
+- Next evidence gaps: Whether Maule agroprocessors will pay directly for a feasibility assessment rather than request a free quote from an integrator.; The achievable price, gross margin, and delivery time for the assessment.; Whether suppliers will offer referral fees, white-label delivery, or non-exclusive permission.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://fairino.cl/; https://thunderrobotics.cl/
 
 ### Apply to Outlier Spanish-Chile AI training evaluation assignment [opp_1426f3e0ac915111a8b6]
 - Status: WATCH_REQUIRES_VALIDATION | geographic_arbitrage | Chile
@@ -983,16 +993,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.bcn.cl/leychile/navegar?i=1212631; https://www.cne.cl/tarificacion/electrica/
 
-### Application-specific cobot and machine-vision retrofit assessment for Chilean agroprocessors [opp_7e02ca9e2e24b8ac6b6b]
-- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile, with an initial focus on Maule and central Chile
-- Thesis: The opportunity is not importing an unproven robot or claiming an empty market. A small operator could test a narrow lead-generation and application-engineering wedge around one repetitive agroindustrial task, using existing local suppliers rather than holding inventory.
-- Value capture: Sell a paid or supplier-sponsored feasibility assessment for one process—such as palletizing, repetitive pick-and-place or visual quality inspection—covering cycle-time observation, safety constraints, required components, indicative supplier quotation and a go/no-go recommendation. No equipment price, buyer, margin or conversion rate is evidenced, so these must be validated before scaling.
-- Participation hypothesis: Select one task and one region, obtain supplier permission or referral terms before representing any equipment, and approach agroprocessors through public contact channels, industry associations or site visits. Use the integrators’ existing evaluation forms and request a supplier quotation only after a prospect describes a real process. Lowest-cost falsification: interview or visit ten agroprocessors, document whether the same task exists, and seek three written requests for a quotation or feasibility study; abandon the wedge if prospects will
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://fairino.cl/; https://thunderrobotics.cl/
-
 ### Apply for Spanish AI-training projects available to Chile residents [opp_fd7b381a5c855e56ebe5]
 - Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
 - Thesis: A qualified Chile-based Spanish writer, translator, editor, journalist, or humanities student can test access to paid project work without paying an application fee. This is an application opportunity, not guaranteed income; project availability and acceptance remain uncertain.
@@ -1212,6 +1212,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
+### Chile SFA interoperability test harness for regulated fintech integrations [opp_4005381fd3d0bcfc9bae]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: A narrow software asset that converts the published SFA technical requirements into repeatable conformance tests, request/response fixtures, credential-flow checks, and ATENA test scripts could reduce implementation uncertainty for entities preparing to participate. The evidence supports a concrete testing need, but does not establish a paying customer, price, or procurement budget.
+- Value capture: Potentially a paid test package, licensed test harness, or integration-validation engagement; payer and price are unverified and must not be assumed. The defensible initial asset is a reusable, version-controlled conformance suite rather than a broad consulting service.
+- Participation hypothesis: Download the CMF technical annex and developer materials, build a minimal local validator for one narrowly defined flow such as account-information retrieval or payment initiation, and attempt to run the workflow in ATENA. Record pass/fail results, implementation gaps, setup time, and whether an eligible participant or technology provider agrees to review the artifact. Do not market or process financial data until permissions, data-access rights, and applicable regulatory obligations are confirmed. Lowest-cost falsification: spend one to two we
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html?trk=article-ssr-frontend-pulse_little-text-block
 
 ### Chile SFA/ATENA conformance test harness for early interoperability testing [opp_31dfdad2eb2f74b28e49]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile

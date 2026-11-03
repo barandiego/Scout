@@ -3912,6 +3912,42 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Download the CMF technical annex and developer materials, build a minimal local validator for one narrowly defined flow such as account-information retrieval or payment initiation, and attempt to run the workflow in ATENA. Record pass/fail results, implementation gaps, setup time, and whether an eligible participant or technology provider agrees to review the artifact. Do not market or process financial data until permissions, data-access rights, and applicable regulatory obligations are confirmed. Lowest-cost falsification: spend one to two weeks implementing only the published schemas and authentication/test flow; abandon if the specifications are insufficiently testable, ATENA access is unavailable, or no relevant institution will review the output.",
+      "current_thesis": "A narrow software asset that converts the published SFA technical requirements into repeatable conformance tests, request/response fixtures, credential-flow checks, and ATENA test scripts could reduce implementation uncertainty for entities preparing to participate. The evidence supports a concrete testing need, but does not establish a paying customer, price, or procurement budget.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile SFA interoperability test harness for regulated fintech integrations",
+      "opportunity_id": "opp_4005381fd3d0bcfc9bae",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html?trk=article-ssr-frontend-pulse_little-text-block"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Potentially a paid test package, licensed test harness, or integration-validation engagement; payer and price are unverified and must not be assumed. The defensible initial asset is a reusable, version-controlled conformance suite rather than a broad consulting service.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use the CMF's published NCG 514 Annex 3 and ATENA materials to implement only one testable wedge: a local validator for participant-directory, webhook and authentication flows. Run it against the documented examples/specifications, publish a reproducible open demo, then contact identifiable SFA participants or implementation vendors through public company channels with a request for a paid pilot or technical review; do not represent the tool as CMF-approved. Lowest-cost falsification: spend one week implementing the validator and ask at least three publicly identifiable SFA participants or vendors whether the resulting test report would be useful enough to evaluate in their ATENA/pre-production process. Stop if the specifications are insufficient to produce repeatable tests or no qualified respondent agrees to review it.",
       "current_thesis": "Entities preparing for SFA participation must validate API behavior, directory interactions, certificates, webhooks, authorization flows and version changes before the July 2027 deadline. The published technical requirements and sandbox create a bounded implementation problem rather than a generic fintech opportunity.",
       "founder_hours_initial_unverified_estimate": "",
@@ -5612,9 +5648,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "Chile, with an initial focus on Maule and central Chile",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "Whether Maule agroprocessors will pay directly for a feasibility assessment rather than request a free quote from an integrator.",
+        "The achievable price, gross margin, and delivery time for the assessment.",
+        "Whether suppliers will offer referral fees, white-label delivery, or non-exclusive permission.",
+        "Number and quality of target agroprocessors by subsegment, plant size, and process type.",
+        "Which single task has sufficient repetition, labor cost, safety exposure, and process stability to support a compelling ROI.",
+        "Actual cycle times, throughput, downtime, reject rates, labor costs, and seasonal utilization at target plants.",
+        "Whether food-safety, washdown, traceability, guarding, and worker-safety requirements materially increase installation cost."
       ],
       "investment_authorized": false,
       "name": "Application-specific cobot and machine-vision retrofit assessment for Chilean agroprocessors",
@@ -6278,7 +6318,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-03T11:38:09.931795+00:00",
+  "generated_at": "2026-11-03T19:03:46.854551+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

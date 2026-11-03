@@ -1504,6 +1504,94 @@
       "ai_leverage": "",
       "authorized_for_execution": false,
       "contrary_evidence": [
+        "There are credible demand signals. Thinkagro, associated with the University of Talca, explicitly supports automation and digitalization in the Maule and Ñuble agro-food sectors through technical visits, diagnostics, proposals, service delivery, and impact measurement: https://www.thinkagro.cl/ . Chilean industry reporting describes labor shortages as a driver of agricultural robotics adoption, while a postharvest-industry source identifies seasonal labor availability and process continuity as automation drivers in fruit packing: https://www.emb.cl/electroindustria/articulo.mvc?tip=7&xid=4642&xit=en-la-agricultura-postulan-a-robots-como-solucion-para-deficit-de-mano-de-obra ; https://www.postharvest.biz/paclife/smarter-packaging-automation-changes-the-way-fresh-fruit-is-processed . Existing local project evidence also indicates that central-Chile agricultural exporters have paid for customized packaging and material-handling retrofits, including mixed-pallet packaging in Maule and cherry-bin handling in Molina: https://mageva.odoo.com/blog/noticias-1/primer-retrofit-en-chile-1 ; https://www.klever-robotics.com/ . These facts support the existence of technical problems and potential automation budgets, but they do not establish demand for an independent assessment intermediary."
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-18T12:18:29.612911+00:00",
+      "discovery_lens": "chile_technology_import",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Chile-based FAIRINO representation advertises collaborative robots, AMR, palletizing, pick-and-place, welding, vision, local engineering support and a 3–30 kg product range.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "FAIRINO Chile | Robots colaborativos, AMR, paletizado y automatización",
+          "url": "https://fairino.cl/"
+        },
+        {
+          "claim": "A Maule-based integrator advertises agroindustrial automation, machine vision, teleoperation and remote monitoring, and provides a public contact route for process challenges.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Thunder Robotics — Ingeniería Robótica para la Agroindustria",
+          "url": "https://thunderrobotics.cl/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.82,
+      "falsification_conditions": [
+        "After interviewing or visiting at least ten relevant agroprocessors, fewer than three confirm a recurring target task and provide enough process data for a preliminary assessment.",
+        "No prospect agrees to pay for a diagnostic, sign a paid pilot, or issue a written request for quotation within 60 to 90 days of focused outreach.",
+        "Suppliers refuse referral, white-label, or subcontracting terms, or require the operator to assume technical, warranty, safety, or implementation liability without adequate margin.",
+        "A qualified incumbent integrator offers an equivalent diagnostic for free and prospects see no independent value in the proposed service.",
+        "A representative task cannot show a plausible payback under conservative assumptions after including robot, gripper, vision, guarding, integration, maintenance, downtime, and financing costs.",
+        "Target plants lack process standardization or seasonal utilization sufficient to keep an automated cell productive.",
+        "Customer access depends on relationships that cannot be obtained through public channels, associations, universities, or supplier referrals within the test budget.",
+        "The first three qualified opportunities reveal that buyers prefer direct equipment procurement, internal engineering, or government-funded programs rather than an independent assessment.",
+        "The operator cannot obtain at least three supplier quotations or technical responses for the selected application without substantial unpaid engineering effort."
+      ],
+      "geography": "Chile, with an initial focus on Maule and central Chile",
+      "id": "opp_7e02ca9e2e24b8ac6b6b",
+      "judge_reviewed": true,
+      "judgment": "The narrow wedge—process-specific feasibility assessment for a Chilean agroprocessor—has an identifiable class of jobs (palletizing, repetitive handling, visual inspection) and plausible local delivery paths through existing integrators. It does not misrepresent a lab prototype as commercially ready: the thesis explicitly relies on already represented equipment and supplier capability rather than autonomous deployment claims. However, the current evidence establishes supplier presence and general automation demand, not a defensible paid-assessment business. Incumbent integrators appear to bundle diagnostics, ROI analysis, engineering, implementation, and support, so differentiation, willingness to pay, channel terms, and conversion economics are unproven. The proposal should remain bounded research until one task, buyer segment, and paid or supplier-contracted commercial model are validated with actual plants and quotations.",
+      "last_record_updated_at": "2026-11-03T19:03:46.152800+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Whether Maule agroprocessors will pay directly for a feasibility assessment rather than request a free quote from an integrator.",
+        "The achievable price, gross margin, and delivery time for the assessment.",
+        "Whether suppliers will offer referral fees, white-label delivery, or non-exclusive permission.",
+        "Number and quality of target agroprocessors by subsegment, plant size, and process type.",
+        "Which single task has sufficient repetition, labor cost, safety exposure, and process stability to support a compelling ROI."
+      ],
+      "participation_path": "Select one task and one region, obtain supplier permission or referral terms before representing any equipment, and approach agroprocessors through public contact channels, industry associations or site visits. Use the integrators’ existing evaluation forms and request a supplier quotation only after a prospect describes a real process. Lowest-cost falsification: interview or visit ten agroprocessors, document whether the same task exists, and seek three written requests for a quotation or feasibility study; abandon the wedge if prospects will not share process data or accept a paid diagnostic.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The opportunity is not importing an unproven robot or claiming an empty market. A small operator could test a narrow lead-generation and application-engineering wedge around one repetitive agroindustrial task, using existing local suppliers rather than holding inventory.",
+      "title": "Application-specific cobot and machine-vision retrofit assessment for Chilean agroprocessors",
+      "type": "application_specific_automation",
+      "unknowns": [
+        "Whether Maule agroprocessors will pay directly for a feasibility assessment rather than request a free quote from an integrator.",
+        "The achievable price, gross margin, and delivery time for the assessment.",
+        "Whether suppliers will offer referral fees, white-label delivery, or non-exclusive permission.",
+        "Number and quality of target agroprocessors by subsegment, plant size, and process type.",
+        "Which single task has sufficient repetition, labor cost, safety exposure, and process stability to support a compelling ROI.",
+        "Actual cycle times, throughput, downtime, reject rates, labor costs, and seasonal utilization at target plants.",
+        "Whether food-safety, washdown, traceability, guarding, and worker-safety requirements materially increase installation cost.",
+        "Customer procurement cycles, financing availability, and willingness to run pilots during production season.",
+        "Whether incumbent integrators already provide free or low-cost diagnostics and directly control customer relationships.",
+        "Founder credibility, technical capacity, Spanish-language sales capability, travel budget, and ability to access plants.",
+        "Whether supplier-sponsored assessments would compromise buyer trust or create conflicts of interest.",
+        "Evidence of three or more prospects requesting a paid diagnostic or issuing a written request for quotation.",
+        "Which single plant process and buyer role will be targeted first, and whether that process has stable product presentation and enough annual operating hours for automation payback.",
+        "Whether at least three target plants will share process data, permit site observation, and pay for a diagnostic or issue an RFQ.",
+        "Installed-cell economics including robot, end effector, machine vision, guarding, conveyors, washdown/food-safe design, integration, maintenance, downtime, financing, and seasonal utilization.",
+        "Whether local suppliers can provide written parts availability, maintenance coverage, commissioning capability, safety responsibility, warranty terms, and non-conflicting referral or subcontracting terms.",
+        "Actual farm/processor constraints in the selected region: plant scale, labor cost and availability, power/network reliability, floor/layout limitations, water/washdown exposure, and production-season access.",
+        "Whether the operator can access economic buyers rather than only technical contacts, and whether an independent intermediary has a credible reason to be selected over direct integrator engagement."
+      ],
+      "value_capture_mechanism": "Sell a paid or supplier-sponsored feasibility assessment for one process—such as palletizing, repetitive pick-and-place or visual quality inspection—covering cycle-time observation, safety constraints, required components, indicative supplier quotation and a go/no-go recommendation. No equipment price, buyer, margin or conversion rate is evidenced, so these must be validated before scaling.",
+      "verified_sales": null,
+      "vertical": "robotics_agritech",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [
         "The opportunity is not obviously fraudulent: the Chile-specific application page is publicly reachable and identifies the exact Spanish-Chile coding role. Outlier states that rates are disclosed before project work, payments are processed weekly, and work is performed remotely on a flexible schedule. Its FAQ confirms that the platform is operated by Scale AI and that contributors have completed paid work. A Chile-based user report describes receiving approximately $500 over several weeks, although this is anecdotal and cannot establish typical results. Sources: https://app.outlier.ai/login?job_post_id=4476998005, https://outlier.ai/faq, https://www.reddit.com/r/outlier_ai/comments/1jaijds/Good_experience_with_Outlier_from_Chile"
       ],
       "critic_reviewed": true,
@@ -7904,60 +7992,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-18T12:18:29.612911+00:00",
-      "discovery_lens": "chile_technology_import",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "Chile-based FAIRINO representation advertises collaborative robots, AMR, palletizing, pick-and-place, welding, vision, local engineering support and a 3–30 kg product range.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "FAIRINO Chile | Robots colaborativos, AMR, paletizado y automatización",
-          "url": "https://fairino.cl/"
-        },
-        {
-          "claim": "A Maule-based integrator advertises agroindustrial automation, machine vision, teleoperation and remote monitoring, and provides a public contact route for process challenges.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "Thunder Robotics — Ingeniería Robótica para la Agroindustria",
-          "url": "https://thunderrobotics.cl/"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.82,
-      "falsification_conditions": [],
-      "geography": "Chile, with an initial focus on Maule and central Chile",
-      "id": "opp_7e02ca9e2e24b8ac6b6b",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-18T12:18:29.632500+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Select one task and one region, obtain supplier permission or referral terms before representing any equipment, and approach agroprocessors through public contact channels, industry associations or site visits. Use the integrators’ existing evaluation forms and request a supplier quotation only after a prospect describes a real process. Lowest-cost falsification: interview or visit ten agroprocessors, document whether the same task exists, and seek three written requests for a quotation or feasibility study; abandon the wedge if prospects will not share process data or accept a paid diagnostic.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "The opportunity is not importing an unproven robot or claiming an empty market. A small operator could test a narrow lead-generation and application-engineering wedge around one repetitive agroindustrial task, using existing local suppliers rather than holding inventory.",
-      "title": "Application-specific cobot and machine-vision retrofit assessment for Chilean agroprocessors",
-      "type": "application_specific_automation",
-      "unknowns": [],
-      "value_capture_mechanism": "Sell a paid or supplier-sponsored feasibility assessment for one process—such as palletizing, repetitive pick-and-place or visual quality inspection—covering cycle-time observation, safety constraints, required components, indicative supplier quotation and a go/no-go recommendation. No equipment price, buyer, margin or conversion rate is evidenced, so these must be validated before scaling.",
-      "verified_sales": null,
-      "vertical": "robotics_agritech",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-22T04:25:59.566721+00:00",
       "discovery_lens": "remote_paid_evaluation",
       "estimated_capital": "",
@@ -9136,6 +9170,60 @@
       "type": "regulatory_infrastructure",
       "unknowns": [],
       "value_capture_mechanism": "Sell SFA readiness, API conformance testing, consent and authorization tooling, data-quality normalization, observability, security testing and integration services to regulated institutions and fintechs.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-11-03T19:03:13.891758+00:00",
+      "discovery_lens": "business_model_migration",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF published the technical annex for information exchange and payment initiation, postponed entry into force to July 2027, and described simplified participation, pilot testing, and a technology sandbox.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        },
+        {
+          "claim": "ATENA allows institutions to test integrations, interoperability, participant-directory processes, digital credentials, and business-model validation before the planned July 2027 operation date.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF lanza Sandbox Tecnológico ATENA para la implementación del Sistema de Finanzas Abiertas",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html?trk=article-ssr-frontend-pulse_little-text-block"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.9,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_4005381fd3d0bcfc9bae",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-03T19:03:13.945637+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Download the CMF technical annex and developer materials, build a minimal local validator for one narrowly defined flow such as account-information retrieval or payment initiation, and attempt to run the workflow in ATENA. Record pass/fail results, implementation gaps, setup time, and whether an eligible participant or technology provider agrees to review the artifact. Do not market or process financial data until permissions, data-access rights, and applicable regulatory obligations are confirmed. Lowest-cost falsification: spend one to two weeks implementing only the published schemas and authentication/test flow; abandon if the specifications are insufficiently testable, ATENA access is unavailable, or no relevant institution will review the output.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A narrow software asset that converts the published SFA technical requirements into repeatable conformance tests, request/response fixtures, credential-flow checks, and ATENA test scripts could reduce implementation uncertainty for entities preparing to participate. The evidence supports a concrete testing need, but does not establish a paying customer, price, or procurement budget.",
+      "title": "Chile SFA interoperability test harness for regulated fintech integrations",
+      "type": "infrastructure_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Potentially a paid test package, licensed test harness, or integration-validation engagement; payer and price are unverified and must not be assumed. The defensible initial asset is a reusable, version-controlled conformance suite rather than a broad consulting service.",
       "verified_sales": null,
       "vertical": "open_finance_chile",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
@@ -11575,13 +11663,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-03T11:38:09.807536+00:00",
+  "generated_at": "2026-11-03T19:03:46.739106+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 93,
-  "reviewed_cards": 74,
+  "reviewed_cards": 75,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 258,
-  "watch": 165
+  "total_distinct_opportunities": 259,
+  "watch": 166
 }
