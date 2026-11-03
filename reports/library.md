@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-11-02T17:48:51.851325+00:00
+Generated: 2026-11-03T02:01:09.052033+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 163 (0 HQ survivors, 163 watches)
-- Rejected opportunities excluded: 90
-- Critic-and-judge reviewed: 73
+- Active research: 164 (0 HQ survivors, 164 watches)
+- Rejected opportunities excluded: 91
+- Critic-and-judge reviewed: 74
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -652,6 +652,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Which specific customer segment will pay: utilities, developers, large loads, engineering firms, regulators, or investors?; Whether customers will pay for software or prefer incumbent engineering, environmental, legal, and owner-engineer providers.; Actual addressable spending on permitting analytics and documentation compared with total transmission and generation capex.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.energy.gov/oe/articles/does-office-electricity-publishes-2026-draft-national-transmission-needs-study?trk=public_post_comment-text; https://www.energy.gov/cmei/water/articles/does-hydropower-and-hydrokinetic-office-announces-funding-national-laboratory
+
+### Pre-compliance Open Finance connectivity test for Chilean fintechs and smaller financial entities [opp_bc3b9a823961fadca8e1]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Entities that will need to participate may face integration, consent, testing and interoperability work before the July 2027 obligation. The evidence supports a narrow pre-compliance testing wedge, not a claim that a market or buyer has already been secured.
+- Value capture: Offer a fixed-scope technical readiness test: map one prospective participant’s data-access and payment-initiation workflow against the CMF technical annex, build a non-production connector or mock integration, and deliver a gap report. Charge only after a prospective participant agrees to a paid diagnostic; no price is evidenced publicly.
+- Participation hypothesis: Use the CMF developer portal, technical annex and sandbox/test environment as the basis for a one-week demonstrator. Contact small Chilean fintechs, payment providers or financial-data operators found through public CMF registers and ask whether they will pay for a scoped compatibility test. Lowest-cost falsification: conduct ten structured outreach attempts and offer one no-cost 60-minute gap review; proceed only if at least one qualified entity supplies technical documentation, grants test access, or agrees in writing to a paid pilot. Do not
+- Critic/judge: The regulatory catalyst appears sufficiently grounded in CMF primary materials: the SFA technical framework, developer tooling/testing path, and July 2027 timing support a real pre-implementation window. The proposed offer is framed as advisory/readiness work rather than provision of regulated payment or account-information services, so no fatal API-availability or license-perimeter failure is established on the evidence supplied. Howev
+- Next evidence gaps: Which specific Chilean fintechs or smaller financial entities have a near-term compliance budget for external integration testing.; Whether ATENA is sufficiently usable that buyers need outside help, or whether it materially eliminates demand for the proposed service.; The final operational requirements, participant responsibilities, incident liability, cost allocation, and any subsequent CMF amendments.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/principal/613/articles-72652_doc_pdf.pdf
 
 ### Public-market exposure to behind-the-meter power equipment for data centers [opp_4e38bc42f62942527d19]
 - Status: WATCH_REQUIRES_VALIDATION | asymmetric_investing | United States
@@ -1503,16 +1513,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html
 
-### Pre-compliance Open Finance connectivity test for Chilean fintechs and smaller financial entities [opp_bc3b9a823961fadca8e1]
-- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
-- Thesis: Entities that will need to participate may face integration, consent, testing and interoperability work before the July 2027 obligation. The evidence supports a narrow pre-compliance testing wedge, not a claim that a market or buyer has already been secured.
-- Value capture: Offer a fixed-scope technical readiness test: map one prospective participant’s data-access and payment-initiation workflow against the CMF technical annex, build a non-production connector or mock integration, and deliver a gap report. Charge only after a prospective participant agrees to a paid diagnostic; no price is evidenced publicly.
-- Participation hypothesis: Use the CMF developer portal, technical annex and sandbox/test environment as the basis for a one-week demonstrator. Contact small Chilean fintechs, payment providers or financial-data operators found through public CMF registers and ask whether they will pay for a scoped compatibility test. Lowest-cost falsification: conduct ten structured outreach attempts and offer one no-cost 60-minute gap review; proceed only if at least one qualified entity supplies technical documentation, grants test access, or agrees in writing to a paid pilot. Do not
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/principal/613/articles-72652_doc_pdf.pdf
-
 ### Pre-implementation testing asset for Chile Open Finance integrations [opp_962e03a6a16029e4f872]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: A narrowly scoped reusable asset could be a versioned conformance-test workbook or sandbox test harness for prospective participants and software vendors: endpoint cases, consent-flow checks, error fixtures and release-difference logs. The mechanism is pre-implementation risk reduction, not access to live customer financial data.
@@ -1522,6 +1522,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812
+
+### Prior-authorization FHIR API conformance harness for payer and health-IT vendors [opp_90206688faf7a9c3c21f]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | United States
+- Thesis: Payers and their technology vendors face a dated interoperability implementation requirement plus version-specific testing risk. A narrowly scoped validator, synthetic-data test suite, or implementation-readiness artifact could reduce integration and certification friction.
+- Value capture: Sell a fixed-scope API conformance test package, synthetic test fixtures, or hosted validation endpoint to payer technology vendors, provider EHR vendors, and implementation partners. No buyer, price, or conversion rate is assumed.
+- Participation hypothesis: Build a minimal validator for one workflow—such as PAS FHIR prior-authorization request/response validation—using the published CMS and ONC requirements. Test it against publicly documented payer or vendor sandbox endpoints where available, then send the reproducible test results to 10 identifiable health-IT implementation contacts and ask whether they would pay for a pre-production conformance report. Lowest-cost falsification: create a 3–5 page report and validator covering one endpoint and seek three paid pilot commitments before building a
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-prior-authorization-final-rule-cms-0057-f; https://healthit.gov/resources/onc-finalizes-the-adoption-of-certain-health-it-standards-in-the-fy2027-cms-ipps-final-rule/
 
 ### Restructuring-event monitoring and document-based catalyst research around Trinseo [opp_91d2d1e9524976272e95]
 - Status: WATCH_REQUIRES_VALIDATION | public_markets | United States / Ireland

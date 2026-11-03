@@ -4807,9 +4807,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "Chile",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "Which specific Chilean fintechs or smaller financial entities have a near-term compliance budget for external integration testing.",
+        "Whether ATENA is sufficiently usable that buyers need outside help, or whether it materially eliminates demand for the proposed service.",
+        "The final operational requirements, participant responsibilities, incident liability, cost allocation, and any subsequent CMF amendments.",
+        "Whether prospective clients must obtain Chilean legal presence, registration, authorization, or regulated-participant status before the service can be sold or performed.",
+        "The number and technical sophistication of likely small-entity participants.",
+        "Existing competition from Chilean law firms, core-banking vendors, API aggregators, consulting firms, systems integrators, and fintech infrastructure providers.",
+        "Expected price, sales cycle, procurement friction, and gross margin for a one-week diagnostic."
       ],
       "investment_authorized": false,
       "name": "Pre-compliance Open Finance connectivity test for Chilean fintechs and smaller financial entities",
@@ -4866,6 +4870,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Sell a fixed-price test pack or license it to fintech integrators, banks, payment firms or software vendors preparing for OFS participation. Buyer identity, price, procurement route and permission to reuse CMF materials remain unverified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Build a minimal validator for one workflow—such as PAS FHIR prior-authorization request/response validation—using the published CMS and ONC requirements. Test it against publicly documented payer or vendor sandbox endpoints where available, then send the reproducible test results to 10 identifiable health-IT implementation contacts and ask whether they would pay for a pre-production conformance report. Lowest-cost falsification: create a 3–5 page report and validator covering one endpoint and seek three paid pilot commitments before building a broader product.",
+      "current_thesis": "Payers and their technology vendors face a dated interoperability implementation requirement plus version-specific testing risk. A narrowly scoped validator, synthetic-data test suite, or implementation-readiness artifact could reduce integration and certification friction.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Prior-authorization FHIR API conformance harness for payer and health-IT vendors",
+      "opportunity_id": "opp_90206688faf7a9c3c21f",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-prior-authorization-final-rule-cms-0057-f",
+        "https://healthit.gov/resources/onc-finalizes-the-adoption-of-certain-health-it-standards-in-the-fy2027-cms-ipps-final-rule/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a fixed-scope API conformance test package, synthetic test fixtures, or hosted validation endpoint to payer technology vendors, provider EHR vendors, and implementation partners. No buyer, price, or conversion rate is assumed.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -6202,7 +6242,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-02T17:48:51.969288+00:00",
+  "generated_at": "2026-11-03T02:01:09.178412+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

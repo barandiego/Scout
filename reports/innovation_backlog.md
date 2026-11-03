@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 163
+Candidates: 164
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -1524,7 +1524,7 @@ Candidates: 163
   - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
   - Check license perimeter, API access, legal compliance and competitor pricing.
   - Test buyer procurement and technical access before writing integration infrastructure.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Which specific Chilean fintechs or smaller financial entities have a near-term compliance budget for external integration testing.; Whether ATENA is sufficiently usable that buyers need outside help, or whether it materially eliminates demand for the proposed service.; The final operational requirements, participant responsibilities, incident liability, cost allocation, and any subsequent CMF amendments.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/principal/613/articles-72652_doc_pdf.pdf
 
@@ -1539,6 +1539,18 @@ Candidates: 163
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812
+
+## Prior-authorization FHIR API conformance harness for payer and health-IT vendors
+- Status: watch | open_finance_chile
+- Current idea: Payers and their technology vendors face a dated interoperability implementation requirement plus version-specific testing risk. A narrowly scoped validator, synthetic-data test suite, or implementation-readiness artifact could reduce integration and certification friction.
+- Potential economic capture: Sell a fixed-scope API conformance test package, synthetic test fixtures, or hosted validation endpoint to payer technology vendors, provider EHR vendors, and implementation partners. No buyer, price, or conversion rate is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-prior-authorization-final-rule-cms-0057-f; https://healthit.gov/resources/onc-finalizes-the-adoption-of-certain-health-it-standards-in-the-fy2027-cms-ipps-final-rule/
 
 ## SFA implementation moved from rulemaking toward interoperability testing
 - Status: watch | open_finance_chile
