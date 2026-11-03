@@ -1,16 +1,28 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-02T18:38:19.015443+00:00
+Generated: 2026-11-03T02:29:27.484751+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 196
+- New this cycle: 168
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 526, ai 96, energy 492, robotics 686
+- Categories: agriculture 523, ai 96, energy 500, robotics 681
 
 ## Recently encountered signals
+
+### A Safety-Aware Fuzzy Neural Network for Real-Time Energy Management of Battery Energy Storage in Grid-Connected Microgrids
+- Source: https://doi.org/10.1109/appeec67771.2026.11749996
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### Optimization of a Solar and Battery Storage Microgrid for Island Communities: An Energy-as-a-Service Model
+- Source: https://doi.org/10.1109/appeec67771.2026.11750011
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
 
 ### Techno-economic optimization of an off-grid solar-wind-battery energy storage system for sustainable rural electrification in Dibo, Ethiopia
 - Source: https://doi.org/10.1063/5.0357182
@@ -446,18 +458,6 @@ Generated: 2026-11-02T18:38:19.015443+00:00
 
 ### Preshydreams/farmcraft-ai
 - Source: https://github.com/Preshydreams/farmcraft-ai
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### greenhealthcareagrovet192/rexamagr-ihub
-- Source: https://github.com/greenhealthcareagrovet192/rexamagr-ihub
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Arya-Kalambe/Krishi-Mitra
-- Source: https://github.com/Arya-Kalambe/Krishi-Mitra
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
