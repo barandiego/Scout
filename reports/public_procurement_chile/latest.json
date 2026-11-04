@@ -1,213 +1,25 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 4170000.0,
-      "buyer": "Servicio de Biodiversidad y Áreas Protegidas",
-      "closes_at": "2026-11-11T09:00:00",
-      "code": "1495209-27-COT26",
-      "estimated_budget": 4170000.0,
-      "name": "DIAGNÓSTICO Y REPARACION MOTOS RNMCH Y PNVS Convenio SBAP-CONAF",
-      "products": 3,
-      "region": "Región de Los Ríos"
-    },
-    {
-      "available_budget_clp": 6000000.0,
-      "buyer": "Ilustre Municipalidad de Fresia - Salud",
-      "closes_at": "2026-11-06T09:00:00",
-      "code": "4042-174-COT26",
-      "estimated_budget": 6000000.0,
-      "name": "suscripciones anuales Microsoft 365 Apps for business originales.",
-      "products": 1,
-      "region": "Región de los Lagos"
-    },
-    {
-      "available_budget_clp": 1500000.0,
-      "buyer": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-      "closes_at": "2026-11-05T12:00:00",
-      "code": "1004-27-COT26",
-      "estimated_budget": 1500000.0,
-      "name": "NEUMÁTICOS CAMIÓN HINO",
-      "products": 1,
-      "region": "Región Aysén del General Carlos Ibáñez del Campo"
-    },
-    {
-      "available_budget_clp": 1000000.0,
-      "buyer": "I MUNICIPALIDAD DE MEJILLONES",
-      "closes_at": "2026-11-05T12:00:00",
-      "code": "3858-395-COT26",
-      "estimated_budget": 1000000.0,
-      "name": "ESTRUCTURAS ORNAMENTALES TIPO PORTA MACETAS, ESC. JHV",
-      "products": 2,
-      "region": "Región de Antofagasta"
-    },
-    {
-      "available_budget_clp": 175000.0,
-      "buyer": "INSTITUTO DE FOMENTO PESQUERO",
-      "closes_at": "2026-11-05T09:15:00",
-      "code": "1049-1885-COT26",
-      "estimated_budget": 175000.0,
-      "name": "SILLA ERGONOMICA CON DESPACHO A IFOP VALPARAISO",
-      "products": 1,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 1200000.0,
-      "buyer": "Municipalidad de Pemuco - Salud",
-      "closes_at": "2026-11-05T10:00:00",
-      "code": "3871-84-COT26",
-      "estimated_budget": 1200000.0,
-      "name": "ADQUISICION AGENDA PROGRAMA HABILIDADES PARA LA VIDA",
-      "products": 1,
-      "region": "Región del Ñuble"
-    },
-    {
-      "available_budget_clp": 250000.0,
-      "buyer": "Departamento Comunal de Salud",
-      "closes_at": "2026-11-05T18:00:00",
-      "code": "3309-383-COT26",
-      "estimated_budget": 250000.0,
-      "name": "ARRIENDO DE BUS CON CONDUCTOR Y COMBUSTIBLE",
-      "products": 1,
-      "region": "Región del Biobío"
-    },
-    {
-      "available_budget_clp": 7000000.0,
-      "buyer": "HOSPITAL BASE OSORNO",
-      "closes_at": "2026-11-05T10:00:00",
-      "code": "1063538-2616-COT26",
-      "estimated_budget": 7000000.0,
-      "name": "MANTENCIÓN PREVENTIVA PUNTUAL PARA 6 VENTILADORES",
-      "products": 1,
-      "region": "Región de los Lagos"
-    },
-    {
-      "available_budget_clp": 1010000.0,
-      "buyer": "Corporación Municipal de Valparaíso para el Desarrollo Social",
-      "closes_at": "2026-11-06T14:00:00",
-      "code": "799512-1546-COT26",
-      "estimated_budget": 1010000.0,
-      "name": "ADM. CENTRAL REQUIERE MATERIALES PARA CONFECCION DE MUEBLES",
-      "products": 1,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 3400000.0,
-      "buyer": "SLEP MARGA MARGA",
-      "closes_at": "2026-11-05T10:00:00",
-      "code": "1480972-855-COT26",
-      "estimated_budget": 3400000.0,
-      "name": "MATERIAL DEPORTIVO ESCUELA ATENAS 12314-5",
-      "products": 28,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 560000.0,
-      "buyer": "I MUNICIPALIDAD DE CISNES",
-      "closes_at": "2026-11-05T10:30:00",
-      "code": "3791-1103-COT26",
-      "estimated_budget": 560000.0,
-      "name": "AYUDA SOCIAL",
-      "products": 10,
-      "region": "Región Aysén del General Carlos Ibáñez del Campo"
-    },
-    {
-      "available_budget_clp": 400000.0,
-      "buyer": "I MUNICIPALIDAD DE LA CISTERNA",
-      "closes_at": "2026-11-06T11:00:00",
-      "code": "2765-591-COT26",
-      "estimated_budget": 400000.0,
-      "name": "Mobiliario",
-      "products": 2,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 2500000.0,
-      "buyer": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-      "closes_at": "2026-11-09T15:00:00",
-      "code": "894-15-COT26",
-      "estimated_budget": 2500000.0,
-      "name": "ELEMENTOS DE PROTECCIÓN PERSONAL DGA",
-      "products": 3,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 600000.0,
-      "buyer": "I MUNICIPALIDAD DE CALBUCO",
-      "closes_at": "2026-11-05T09:30:00",
-      "code": "3479-1383-COT26",
-      "estimated_budget": 600000.0,
-      "name": "Servicio Movilizacion Act. Prog. PDTI",
-      "products": 1,
-      "region": "Región de los Lagos"
-    },
-    {
-      "available_budget_clp": 70000.0,
-      "buyer": "I. Municipalidad Sagrada Familia",
-      "closes_at": "2026-11-05T10:00:00",
-      "code": "439-465-COT26",
-      "estimated_budget": 70000.0,
-      "name": "ADQUISICIÓN DE CHALECO TIPO GEOLOGO INSTITUCIONAL PARA UNIDAD PREVENCIÓN DE RIESGOS DAEM",
-      "products": 1,
+      "available_budget_clp": 261880.0,
+      "buyer": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DE LOS ÁLAMOS",
+      "closes_at": "2026-11-05T16:48:00",
+      "code": "1389488-1148-COT26",
+      "estimated_budget": 261880.0,
+      "name": "Insumos de alimentos ESCUELA PAULA JARAQUEMADA, Longaví.",
+      "products": 22,
       "region": "Región del Maule"
-    },
-    {
-      "available_budget_clp": 1600000.0,
-      "buyer": "I MUNICIPALIDAD DE COLLIPULLI",
-      "closes_at": "2026-11-05T09:15:00",
-      "code": "3153-187-COT26",
-      "estimated_budget": 1600000.0,
-      "name": "CARPETAS PARA EXPEDIENTES",
-      "products": 2,
-      "region": "Región de la Araucanía"
-    },
-    {
-      "available_budget_clp": 6426000.0,
-      "buyer": "SERVICIO NACIONAL DE SALUD HOSPITAL DE C",
-      "closes_at": "2026-11-05T13:00:00",
-      "code": "2098-777-COT26",
-      "estimated_budget": 6426000.0,
-      "name": "ADQUISICION DE PILAS AA/AAA; REPOSICION BODEGA",
-      "products": 2,
-      "region": "Región del Biobío"
-    },
-    {
-      "available_budget_clp": 200000.0,
-      "buyer": "Ilustre Municipalidad de San Rosendo - Educación",
-      "closes_at": "2026-11-05T17:00:00",
-      "code": "4379-182-COT26",
-      "estimated_budget": 200000.0,
-      "name": "Galvanos",
-      "products": 1,
-      "region": "Región del Biobío"
-    },
-    {
-      "available_budget_clp": 60000.0,
-      "buyer": "I MUNICIPALIDAD DE LAGO RANCO",
-      "closes_at": "2026-11-05T09:30:00",
-      "code": "630424-710-COT26",
-      "estimated_budget": 60000.0,
-      "name": "COMPRA DE LICENCIAS PRE BASICA Y OCTAVO BASICO ESCUELA RURAL RIÑINAHUE",
-      "products": 2,
-      "region": "Región de Los Ríos"
-    },
-    {
-      "available_budget_clp": 1500000.0,
-      "buyer": "SERVICIO DE SALUD SUR HOSPITAL SANATORIO EL PINO",
-      "closes_at": "2026-11-05T09:30:00",
-      "code": "1058094-1569-COT26",
-      "estimated_budget": 1500000.0,
-      "name": "METILDOPA",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
     }
   ],
-  "active_structurally_reconstructable_count": 20,
+  "active_structurally_reconstructable_count": 1,
   "diagnostics": {
-    "api_failures": {},
+    "api_failures": {
+      "api_rate_limited": 2
+    },
     "budget_exhausted": false,
     "detail_attempts": 20,
     "detail_cap_exhausted": true,
-    "details_fetched": 20,
+    "details_fetched": 18,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -219,22 +31,24 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-04T12:17:58Z",
-  "inserted_history": 20,
+  "generated_at": "2026-11-04T19:53:22Z",
+  "inserted_history": 18,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
+  "outcome": "DEGRADED_API_ERRORS",
   "phase1": {
-    "records": 20,
-    "rejection_reasons": {},
-    "resolved": 0,
-    "structurally_reconstructable": 20,
-    "with_observable_quote_totals": 0,
-    "with_purchase_order_indicator": 0
+    "records": 18,
+    "rejection_reasons": {
+      "no_observable_competitive_prices": 12
+    },
+    "resolved": 17,
+    "structurally_reconstructable": 6,
+    "with_observable_quote_totals": 5,
+    "with_purchase_order_indicator": 4
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-04T12:17:58Z"
+    "changed_to": "2026-11-04T19:53:22Z"
   }
 }
