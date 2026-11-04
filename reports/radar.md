@@ -1,16 +1,28 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-04T12:21:43.485600+00:00
+Generated: 2026-11-04T19:56:31.729551+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 151
+- New this cycle: 148
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 537, ai 107, energy 503, robotics 653
+- Categories: agriculture 547, ai 106, energy 504, robotics 643
 
 ## Recently encountered signals
+
+### saravanansaravanan49044-byte/Smart-Irrigation-Prediction-System-using-ML
+- Source: https://github.com/saravanansaravanan49044-byte/Smart-Irrigation-Prediction-System-using-ML
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### adinath-ugale/AgriSense-AI
+- Source: https://github.com/adinath-ugale/AgriSense-AI
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### tanishkaD23/KrishiMitra-AI
 - Source: https://github.com/tanishkaD23/KrishiMitra-AI
@@ -446,18 +458,6 @@ Generated: 2026-11-04T12:21:43.485600+00:00
 
 ### Sujal0905/AgroNex
 - Source: https://github.com/Sujal0905/AgroNex
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### mhengakelvini8-blip/AgriSmart-Tanzania
-- Source: https://github.com/mhengakelvini8-blip/AgriSmart-Tanzania
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Anuu06-max/agrivision-ai
-- Source: https://github.com/Anuu06-max/agrivision-ai
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
