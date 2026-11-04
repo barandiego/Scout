@@ -1,17 +1,47 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 920000.0,
-      "buyer": "SECCIÓN COMPRAS XII ZONA",
-      "closes_at": "2026-11-04T16:52:00",
-      "code": "1079445-776-COT26",
-      "estimated_budget": 920000.0,
-      "name": "ADQ. SERV MONTAJE DE NEUMATICOS ALINEACION Y BALANCEO PARA PARQUE VEHICULAR DE LA 1RA COM PUNTA ARENAS",
+      "available_budget_clp": 400000.0,
+      "buyer": "ESCUELA DE GRUMETES",
+      "closes_at": "2026-11-05T08:00:00",
+      "code": "3156-340-COT26",
+      "estimated_budget": 400000.0,
+      "name": "VIVERES PARA CLASES DE GRUMETES MAYORDOMOS",
       "products": 1,
-      "region": "Región de Magallanes y de la Antártica"
+      "region": "Región del Biobío"
+    },
+    {
+      "available_budget_clp": 420000.0,
+      "buyer": "ESCUELA DE GRUMETES",
+      "closes_at": "2026-11-05T08:00:00",
+      "code": "3156-339-COT26",
+      "estimated_budget": 420000.0,
+      "name": "VIVERES PARA CLASES DE GRUMETES COCINEROS",
+      "products": 1,
+      "region": "Región del Biobío"
+    },
+    {
+      "available_budget_clp": 200000.0,
+      "buyer": "Dirección Regional de Gendarmeria - Concepcion",
+      "closes_at": "2026-11-04T22:00:00",
+      "code": "1969-712-COT26",
+      "estimated_budget": 200000.0,
+      "name": "ADQUISICION DE MATERIALES DE OFICINA PARA EL CDP MULCHEN.",
+      "products": 7,
+      "region": "Región del Biobío"
+    },
+    {
+      "available_budget_clp": 1000000.0,
+      "buyer": "COMERCIALIZADORA DE TRIGO S A",
+      "closes_at": "2026-11-05T17:00:00",
+      "code": "1526274-15-COT26",
+      "estimated_budget": 1000000.0,
+      "name": "Servicio de coffee break para 40 personas y servicio técnico audiovisual en Planta COTRISA Los Ángeles",
+      "products": 3,
+      "region": "Región del Biobío"
     }
   ],
-  "active_structurally_reconstructable_count": 1,
+  "active_structurally_reconstructable_count": 4,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -29,7 +59,7 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-03T19:37:43Z",
+  "generated_at": "2026-11-04T00:41:24Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -37,16 +67,16 @@
   "phase1": {
     "records": 20,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 15
+      "no_observable_competitive_prices": 13
     },
-    "resolved": 19,
-    "structurally_reconstructable": 5,
-    "with_observable_quote_totals": 4,
-    "with_purchase_order_indicator": 2
+    "resolved": 16,
+    "structurally_reconstructable": 7,
+    "with_observable_quote_totals": 3,
+    "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-03T19:37:43Z"
+    "changed_to": "2026-11-04T00:41:24Z"
   }
 }
