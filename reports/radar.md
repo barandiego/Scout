@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-03T19:41:10.098765+00:00
+Generated: 2026-11-04T00:44:41.177698+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 108
+- New this cycle: 165
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): github_robotics:unavailable_or_invalid, github_agriculture:unavailable_or_invalid, github_ai:unavailable_or_invalid, github_energy:unavailable_or_invalid
-- Categories: agriculture 527, ai 107, energy 503, robotics 663
+- Feed failures (fail-open for public intake only): none
+- Categories: agriculture 534, ai 107, energy 502, robotics 657
 
 ## Recently encountered signals
+
+### tanishkaD23/KrishiMitra-AI
+- Source: https://github.com/tanishkaD23/KrishiMitra-AI
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### vedantrevale6969/jalrakshak
 - Source: https://github.com/vedantrevale6969/jalrakshak
@@ -452,12 +458,6 @@ Generated: 2026-11-03T19:41:10.098765+00:00
 
 ### Anuu06-max/agrivision-ai
 - Source: https://github.com/Anuu06-max/agrivision-ai
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### shaheeddafedar/Agrimind
-- Source: https://github.com/shaheeddafedar/Agrimind
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
