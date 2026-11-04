@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-11-04T00:23:57.577596+00:00
+Generated: 2026-11-04T11:52:41.464588+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 169 (0 HQ survivors, 169 watches)
-- Rejected opportunities excluded: 93
+- Active research: 170 (0 HQ survivors, 170 watches)
+- Rejected opportunities excluded: 94
 - Critic-and-judge reviewed: 76
 - Autonomous execution authorization: 0
 
@@ -1163,15 +1163,15 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html
 
-### Chile Open-Finance conformance and integration test harness [opp_feb43070f6dba35f263f]
+### Chile Open-Finance API conformance harness for smaller participants [opp_5d831cacc35f270199e8]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
-- Thesis: A narrow implementation bottleneck exists before the July 2027 effective date: participating entities must test certificates, signatures, scheduled maintenance, directory enrollment, interoperability and consent-based data exchange. A reusable conformance harness could reduce integration and pre-production testing work without becoming a generic consulting practice.
-- Value capture: A downloadable or hosted test harness containing protocol fixtures, certificate/signature validation, consent-flow simulators, API contract tests, audit-log templates and compliance-oriented test reports. Possible payment mechanisms are software licensing, paid test environments or fixed-price implementation packages; actual willingness to pay is unverified.
-- Participation hypothesis: Use only the CMF technical annex and developer materials to build a minimal local harness for one documented flow, such as consented account-information exchange. Test it against published examples or a mock participant, then publish a short technical demo and ask Chilean fintechs, payment firms or regulated institutions whether the harness covers their pre-production test cases. Do not assume registration, production access or regulatory approval; the lowest-cost falsification is failure to obtain two independent requests for a paid pilot or a
+- Thesis: A narrowly scoped test harness that validates consent flows, security metadata, endpoint behavior, error handling, and interoperability against the CMF specifications could reduce integration and testing work for prospective smaller participants and technology vendors. The evidence supports a compliance/testing wedge, not a claim of a confirmed paying market.
+- Value capture: Sell a fixed-price self-assessment package, hosted test environment, or per-integration validation service only after confirming that a regulated participant or vendor will pay for it. No buyer, price, or margin is assumed from the available evidence.
+- Participation hypothesis: Download the CMF developer documentation and build a minimal local validator for one documented flow, such as consent or participant-directory interaction. Publish a short technical demo and contact listed or discoverable Chilean fintech and integration vendors to ask whether they will run one test case and pay for a pre-compliance assessment. The lowest-cost falsification step is to spend no more than one day mapping the specification into automated checks and obtain three concrete responses from potential participants; abandon the wedge if th
 - Critic/judge: deferred_by_review_cap
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812
 
 ### Chile Open-Finance conformance harness before July 2027 implementation [opp_911d89dad493afe4910f]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -1442,6 +1442,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.falabella.com/falabella-cl/seller/Natura; https://www.natura.cl/encuentra-natura
+
+### NFC review-and-contact displays: only a testable local resale wedge, not a seller-scarcity claim [opp_fa014b2293a26ad04e87]
+- Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile
+- Thesis: The category is commercially validated but visibly competitive. A small operator could test a narrow wedge such as one standardized NFC-plus-QR display for a specific business format, but the evidence does not establish unmet demand, seller scarcity, or defensible margins.
+- Value capture: Potentially capture a markup or service fee through a pre-sold, design-specific bundle, but no margin or buyer willingness is evidenced. Do not purchase inventory before pre-orders.
+- Participation hypothesis: Choose one narrowly defined format, create one sample using an existing supplier, and post a landing page or direct-outreach offer requiring payment or a refundable deposit before production. Test 20 local businesses in one vertical; falsify the idea if fewer than three request a quote or none pays a deposit. Existing listings should be treated as competitors and sourcing options, not proof of a gap.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://nfcid.cl/; https://www.kvmarketing.cl/tienda
 
 ### NFC review-and-contact hardware reseller for Chilean service businesses [opp_4597c36d99d4f69a9e20]
 - Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile

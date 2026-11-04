@@ -1,11 +1,11 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-11-04T00:23:57.577596+00:00",
+  "generated_at": "2026-11-04T11:52:41.464588+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
-      "other_cards_in_theme": 6,
+      "other_cards_in_theme": 7,
       "reviewed": true,
       "status": "watch",
       "theme": "nfc_products",
@@ -104,7 +104,7 @@
   "high_concentration": [
     {
       "cards": 71,
-      "share": 0.42,
+      "share": 0.418,
       "theme": "chile_open_finance"
     }
   ],
@@ -165,7 +165,6 @@
         "opp_fb3cadb8fae90ba9ffb4",
         "opp_993ac5d080c7042af44c",
         "opp_82f282d8dc0896390ee7",
-        "opp_feb43070f6dba35f263f",
         "opp_b5bb525067a4142275e1",
         "opp_d52a4c290d45b663a6f3",
         "opp_911d89dad493afe4910f",
@@ -185,7 +184,8 @@
         "opp_b5b7cce5448f80487092",
         "opp_5c497caf7391eed68402",
         "opp_90206688faf7a9c3c21f",
-        "opp_4005381fd3d0bcfc9bae"
+        "opp_4005381fd3d0bcfc9bae",
+        "opp_5d831cacc35f270199e8"
       ],
       "count": 71,
       "representative_id": "opp_f26e42aaabb91e157f9d",
@@ -226,9 +226,10 @@
         "opp_7a4c2697266c85e82693",
         "opp_6f96496de207fbd68ffc",
         "opp_ce00c60c8ebfd1d48cd2",
-        "opp_4597c36d99d4f69a9e20"
+        "opp_4597c36d99d4f69a9e20",
+        "opp_fa014b2293a26ad04e87"
       ],
-      "count": 7,
+      "count": 8,
       "representative_id": "opp_def87ec156069bf156db",
       "reviewed_count": 2,
       "theme": "nfc_products"
@@ -875,6 +876,6 @@
       "theme": "robotics_agritech:water_efficiency_field"
     }
   ],
-  "total_original_cards": 169,
+  "total_original_cards": 170,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }

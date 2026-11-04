@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 169
+Candidates: 170
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -1024,17 +1024,17 @@ Candidates: 169
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html
 
-## Chile Open-Finance conformance and integration test harness
+## Chile Open-Finance API conformance harness for smaller participants
 - Status: watch | open_finance_chile
-- Current idea: A narrow implementation bottleneck exists before the July 2027 effective date: participating entities must test certificates, signatures, scheduled maintenance, directory enrollment, interoperability and consent-based data exchange. A reusable conformance harness could reduce integration and pre-production testing work without becoming a generic consulting practice.
-- Potential economic capture: A downloadable or hosted test harness containing protocol fixtures, certificate/signature validation, consent-flow simulators, API contract tests, audit-log templates and compliance-oriented test reports. Possible payment mechanisms are software licensing, paid test environments or fixed-price implementation packages; actual willingness to pay is unverified.
+- Current idea: A narrowly scoped test harness that validates consent flows, security metadata, endpoint behavior, error handling, and interoperability against the CMF specifications could reduce integration and testing work for prospective smaller participants and technology vendors. The evidence supports a compliance/testing wedge, not a claim of a confirmed paying market.
+- Potential economic capture: Sell a fixed-price self-assessment package, hosted test environment, or per-integration validation service only after confirming that a regulated participant or vendor will pay for it. No buyer, price, or margin is assumed from the available evidence.
 - **Research routes to test (NOT validated claims):**
   - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
   - Check license perimeter, API access, legal compliance and competitor pricing.
   - Test buyer procurement and technical access before writing integration infrastructure.
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
-- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812
 
 ## Chile Open-Finance conformance harness before July 2027 implementation
 - Status: watch | open_finance_chile
@@ -1683,6 +1683,18 @@ Candidates: 169
 - Critical gaps: Unit landed cost for blank NFC tags, acrylic or printed displays, packaging, and Chilean delivery.; Contribution margin after payment fees, taxes, shipping, configuration, artwork, customer support, replacements, and failed deliveries.; Whether businesses will buy from a new operator when established local vendors already offer similar products and social proof.
 - Possible initial budget:
 - Source URLs: https://masenlaces.com/store/faq; https://www.ondda.cl/; https://tarjetas-nfc.com/; https://nfctech.cl/
+
+## NFC review-and-contact displays: only a testable local resale wedge, not a seller-scarcity claim
+- Status: watch | physical_distribution
+- Current idea: The category is commercially validated but visibly competitive. A small operator could test a narrow wedge such as one standardized NFC-plus-QR display for a specific business format, but the evidence does not establish unmet demand, seller scarcity, or defensible margins.
+- Potential economic capture: Potentially capture a markup or service fee through a pre-sold, design-specific bundle, but no margin or buyer willingness is evidenced. Do not purchase inventory before pre-orders.
+- **Research routes to test (NOT validated claims):**
+  - Compare local product availability to supplier catalogs and independent consumer interest.
+  - Check import, tax, return, certification and delivery economics before estimating margin.
+  - Try a legitimate pre-order/waitlist test with transparent fulfillment conditions.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://nfcid.cl/; https://www.kvmarketing.cl/tienda
 
 ## NFC review-and-discovery stations for Chilean restaurants and local retailers
 - Status: watch | physical_distribution
