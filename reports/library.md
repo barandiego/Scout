@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-11-03T19:03:46.739106+00:00
+Generated: 2026-11-04T00:23:57.577596+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 166 (0 HQ survivors, 166 watches)
+- Active research: 169 (0 HQ survivors, 169 watches)
 - Rejected opportunities excluded: 93
-- Critic-and-judge reviewed: 75
+- Critic-and-judge reviewed: 76
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -442,6 +442,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Whether ATENA access is open, gated, paid, rate-limited or restricted to eligible participant types.; Whether ATENA exposes automated pass/fail results, downloadable evidence and regression-test capabilities sufficient for customer use.; The exact scope, stability and versioning policy of the technical annex and developer portal after July 2027.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
+### Chile SFA sandbox and conformance testing for prospective data-consumer fintechs [opp_e1151e64e9b1acb7c35d]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Prospective SFA participants may need repeatable API test fixtures, consent-flow validation, certificate/authentication checks, documentation and evidence packages before production participation. The opportunity is narrower than building a financial-data intermediary: sell testing and implementation tooling to firms already preparing for SFA participation.
+- Value capture: Fixed-fee test harness, implementation review or conformance-readiness engagement; recurring maintenance only if a buyer demonstrates ongoing need. No buyer, price or permission is assumed.
+- Participation hypothesis: Identify firms listed or likely to be listed as SFA participants, then offer a no-production-data diagnostic using CMF’s published technical requirements and fictitious data. Build one minimal automated test suite covering authentication, consent, API availability and error handling. Ask three identifiable Chilean fintechs or financial institutions whether they will pay for a scoped readiness test; stop if none will provide a paid pilot or access to their published sandbox/API documentation.
+- Critic/judge: The regulatory premise is sufficiently grounded: NCG 514 is an official, extant SFA rule and the cited framework includes APIs and testing concepts, so this is not rejected for an unverified regulatory change. The proposed service can plausibly avoid handling production customer data by operating on fictitious-data sandbox workflows, reducing—though not eliminating—the compliance burden. However, the narrow commercial wedge is unproven
+- Next evidence gaps: Whether Chilean SFA participants will buy external testing or readiness services rather than use ATENA, internal teams or incumbent consultancies.; The number of prospective data-consumer fintechs that will actually participate in the initial implementation phases.; Whether ATENA provides sufficient test coverage, reporting, automation and evidence export for regulated production-readiness work.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html; https://www.cmfchile.cl/normativa/ncg_514_2024.pdf
 
 ### Chile SFA/ATENA interoperability test harness for small fintechs [opp_055b092ce47f55114c32]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -1323,6 +1333,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://dintass.cl/collections/robots-industriales; https://www.vicrobotics.com/
 
+### Independent deployment and service layer for agricultural field robots [opp_e913664133820c613e38]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States; adaptable to other specialty-crop regions
+- Thesis: The testable wedge is not inventing a robot. It is validating whether a local operator can sell crop-specific deployment, mapping, monitoring or seasonal access around an existing robot to growers who cannot justify ownership. The capital intensity and agronomic integration risk make a broker/operator model more falsifiable than buying equipment first.
+- Value capture: Potential per-acre, per-season or deployment fee paid by a grower or farm-services contractor, but the payer, price and unit economics remain unverified.
+- Participation hypothesis: Do not purchase a robot initially. Select one crop cluster, interview growers and crop consultants, and obtain written demand for a paid scouting or mapping trial using an existing commercially available platform or manual baseline. Compare the customer’s current cost and decision output with one defined robot-enabled task. Falsify if at least three growers will not commit to a paid trial, deposit, or access to a field under their existing operating permissions.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.terraclear.com/reserve-terrascout/; https://fieldreport.caes.uga.edu/publications/B1594/agribots-autonomous-ground-robots-for-specialty-crops/
+
 ### Independent retrofit and field-validation service for low-cost agricultural weeding robots [opp_2d12caab9bd8d5bc8fa9]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States; adaptable to Chilean specialty crops
 - Thesis: The practical gap is not proving that agricultural robotics exists; it is adapting and validating lower-cost platforms for one crop, row geometry and task. A small operator can test whether growers or research farms will pay for mapping, supervised trials and retrofit integration before attempting to manufacture a robot.
@@ -1622,6 +1642,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://static.todolicitaciones.cl/licitacion/1107276-27-LE26/adquisicion-de-un-dron-fumigador; https://www.chilecompra.cl/encuentra-oportunidades-de-negocio/
+
+### Task-specific automation retrofit discovery for small manufacturers [opp_06b910f70f74161042ec]
+- Status: WATCH_REQUIRES_VALIDATION | competitive_positioning | United States
+- Thesis: A narrow entry wedge is a paid task-level automation assessment for one repeatable process—such as inspection, material handling or machine tending—followed by a retrofit specification using existing equipment. The evidence supports an underserved implementation problem, not a guaranteed retrofit market or ROI.
+- Value capture: Fixed-fee assessment, prototype integration or referral margin from an equipment/integration partner. No savings, buyer, sale or margin is assumed until a specific plant signs a paid pilot.
+- Participation hypothesis: Use NIST’s small-manufacturer survey as a targeting aid, then approach local plants with a one-process diagnostic requiring no system access beyond an observation visit. Produce a quantified baseline of cycle time, rework or labor hours and a lowest-cost retrofit hypothesis. Falsify if ten targeted plants yield no paid diagnostic, site visit, or permission to measure the selected task; do not build hardware before that validation.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://catalog.data.gov/dataset/results-from-a-2023-survey-of-manufacturing-automation-amongst-small-and-medium-enterprise; https://lead.nc.gov/employer-needs-survey/manufacturing/
 
 ### TELUS Digital Online Data Analyst — Chile [opp_aa530d20999e193d9ca5]
 - Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile

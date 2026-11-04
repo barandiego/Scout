@@ -657,6 +657,42 @@
     },
     {
       "capital_required_unverified_estimate": "",
+      "category": "competitive_positioning",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Use NIST’s small-manufacturer survey as a targeting aid, then approach local plants with a one-process diagnostic requiring no system access beyond an observation visit. Produce a quantified baseline of cycle time, rework or labor hours and a lowest-cost retrofit hypothesis. Falsify if ten targeted plants yield no paid diagnostic, site visit, or permission to measure the selected task; do not build hardware before that validation.",
+      "current_thesis": "A narrow entry wedge is a paid task-level automation assessment for one repeatable process—such as inspection, material handling or machine tending—followed by a retrofit specification using existing equipment. The evidence supports an underserved implementation problem, not a guaranteed retrofit market or ROI.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Task-specific automation retrofit discovery for small manufacturers",
+      "opportunity_id": "opp_06b910f70f74161042ec",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Segment the incumbent market by customers who pay too much or wait too long for one outcome.",
+        "Offer materially different positioning, delivery, price or specialisation with clear unit economics.",
+        "Test switching and repeat purchase evidence before scaling acquisition."
+      ],
+      "supporting_source_urls": [
+        "https://catalog.data.gov/dataset/results-from-a-2023-survey-of-manufacturing-automation-amongst-small-and-medium-enterprise",
+        "https://lead.nc.gov/employer-needs-survey/manufacturing/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Fixed-fee assessment, prototype integration or referral margin from an equipment/integration partner. No savings, buyer, sale or margin is assumed until a specific plant signs a paid pilot.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
       "category": "ecommerce_niches",
       "commercially_validated": false,
       "competition_confirmed": false,
@@ -4028,6 +4064,46 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Identify firms listed or likely to be listed as SFA participants, then offer a no-production-data diagnostic using CMF’s published technical requirements and fictitious data. Build one minimal automated test suite covering authentication, consent, API availability and error handling. Ask three identifiable Chilean fintechs or financial institutions whether they will pay for a scoped readiness test; stop if none will provide a paid pilot or access to their published sandbox/API documentation.",
+      "current_thesis": "Prospective SFA participants may need repeatable API test fixtures, consent-flow validation, certificate/authentication checks, documentation and evidence packages before production participation. The opportunity is narrower than building a financial-data intermediary: sell testing and implementation tooling to firms already preparing for SFA participation.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Whether Chilean SFA participants will buy external testing or readiness services rather than use ATENA, internal teams or incumbent consultancies.",
+        "The number of prospective data-consumer fintechs that will actually participate in the initial implementation phases.",
+        "Whether ATENA provides sufficient test coverage, reporting, automation and evidence export for regulated production-readiness work.",
+        "Whether participant-specific API behavior, certificates, credentials or integration constraints create a gap that an independent tool can legally and technically address.",
+        "Buyer budgets, procurement cycles, expected price points and the identity of decision-makers.",
+        "Whether the target customers need recurring maintenance after initial conformance work.",
+        "The competitive maturity, pricing, customer traction and reliability of SFA-Sandbox, NEXOS SFA and other local providers."
+      ],
+      "investment_authorized": false,
+      "name": "Chile SFA sandbox and conformance testing for prospective data-consumer fintechs",
+      "opportunity_id": "opp_e1151e64e9b1acb7c35d",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html",
+        "https://www.cmfchile.cl/normativa/ncg_514_2024.pdf"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Fixed-fee test harness, implementation review or conformance-readiness engagement; recurring maintenance only if a buyer demonstrates ongoing need. No buyer, price or permission is assumed.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use only the publicly available CMF NCG 514 materials, technical annex, and Developers’ Portal to build a minimal local test harness for the documented interfaces. Validate whether the schemas and requirements are sufficiently complete by implementing five to ten contract tests and publishing a redacted demonstration. Then request technical clarification or sandbox-access information through the official portal or CMF contact route; do not represent the harness as certified or sell it until a prospective participant confirms that the tests map to its implementation work. Lowest-cost falsification: spend one day attempting to implement the core schemas and consent/error flows; abandon the wedge if the public specifications are too incomplete to produce repeatable tests or if prospective participants do not confirm a concrete testing need.",
       "current_thesis": "Financial institutions and regulated SFA participants have a defined implementation deadline and technical requirements. A reusable conformance and regression-testing asset could reduce integration rework before production participation; this is narrower and more executable than general fintech consulting.",
       "founder_hours_initial_unverified_estimate": "",
@@ -5795,6 +5871,42 @@
       "category": "robotics_agritech",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Do not purchase a robot initially. Select one crop cluster, interview growers and crop consultants, and obtain written demand for a paid scouting or mapping trial using an existing commercially available platform or manual baseline. Compare the customer’s current cost and decision output with one defined robot-enabled task. Falsify if at least three growers will not commit to a paid trial, deposit, or access to a field under their existing operating permissions.",
+      "current_thesis": "The testable wedge is not inventing a robot. It is validating whether a local operator can sell crop-specific deployment, mapping, monitoring or seasonal access around an existing robot to growers who cannot justify ownership. The capital intensity and agronomic integration risk make a broker/operator model more falsifiable than buying equipment first.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States; adaptable to other specialty-crop regions",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Independent deployment and service layer for agricultural field robots",
+      "opportunity_id": "opp_e913664133820c613e38",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
+        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
+        "Arrange a bounded field validation with an actual farm operator before scaling."
+      ],
+      "supporting_source_urls": [
+        "https://www.terraclear.com/reserve-terrascout/",
+        "https://fieldreport.caes.uga.edu/publications/B1594/agribots-autonomous-ground-robots-for-specialty-crops/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Potential per-acre, per-season or deployment fee paid by a grower or farm-services contractor, but the payer, price and unit economics remain unverified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "robotics_agritech",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Select one robot with a public purchase or lease route and contact its manufacturer or listed distributor for authorization requirements. Offer a narrowly defined pilot on one crop and one field: mapping, deployment checklist, uptime log and weed-control outcome measurement. Falsification step: before buying equipment, obtain a written indication that the manufacturer permits independent deployment support and secure one farm willing to provide a small test plot; if neither is obtainable, stop. Do not represent yourself as an authorized dealer or promise savings before measuring them.",
       "current_thesis": "High-priced equipment creates a concrete operational bottleneck around field mapping, charging, remote monitoring, maintenance, operator training and seasonal deployment. The wedge is a local, manufacturer-authorized field-operations partner rather than building a competing robot.",
       "founder_hours_initial_unverified_estimate": "",
@@ -6318,7 +6430,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-03T19:03:46.854551+00:00",
+  "generated_at": "2026-11-04T00:23:57.691561+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

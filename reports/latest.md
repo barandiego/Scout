@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-03T19:03:46.294822+00:00
+Generated: 2026-11-04T00:23:57.210627+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['tokenization_finance', 'business_model_migration', 'cost_curve']
-- raw_candidates: 1
-- parseable_candidates: 1
-- normalized_candidates: 1
+- lenses: ['open_finance_chile', 'adoption_lag', 'underserved_buyers']
+- raw_candidates: 3
+- parseable_candidates: 3
+- normalized_candidates: 3
 - normalization_rejected: 0
-- grounded_sources: 2
+- grounded_sources: 6
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
 - critic_reviews: 1
 - judge_reviews: 1
 - survivors: 0
-- watches: 2
+- watches: 3
 - rejected: 0
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.04431425
+- cost_usd: 0.04225025
 - cost_uncertain: False
-- budget_remaining_usd: 0.03568575
+- budget_remaining_usd: 0.03774975
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,9 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Spanish (Chile) AI language evaluation contractor: A primary employer-hosted listing supports that this is a real, currently discoverable Chilean-Spanish freelance AI-evaluation role with a stated hourly range and a plausible direct payer: the hiring platform/employer pays contractors for accepted work. Participation is realistic for an appropriately qualified Chile-based language professional and requires little capital. However, it is not validated as dependable income or an HQ-worthy scalable opportunity: hours, acceptance, effective rate, task continuity, payment terms, and eligibility remain unverified, while the broad $8–$65/hour range is explicitly contingent. Treat it only as a tightly bounded, low-cost application-and-terms-verification experiment, not a business thesis or committed revenue source.
-- Inventoryless Chilean bathroom-accessibility bundle: bidet attachment plus grab bar: deferred_by_review_cap
-- Restructuring-event monitoring and document-based catalyst research around Trinseo: deferred_by_review_cap
 - Interconnection-queue heatmap and cluster-readiness screening dataset for battery and solar developers: deferred_by_review_cap
 - Chile Open Finance technical-conformance test harness for prospective participants: deferred_by_review_cap
 - Battery-materials grant application and partner-screening support around DOE processing and recycling awards: deferred_by_review_cap
@@ -51,13 +48,16 @@ No survivors. Scout does not manufacture a daily winner.
 - Prior-authorization FHIR API conformance harness for payer and health-IT vendors: deferred_by_review_cap
 - Rare-earth magnet scrap aggregation for U.S. hydrometallurgical recyclers: deferred_by_review_cap
 - Chile SFA interoperability test harness for regulated fintech integrations: deferred_by_review_cap
+- Independent deployment and service layer for agricultural field robots: deferred_by_review_cap
+- Task-specific automation retrofit discovery for small manufacturers: deferred_by_review_cap
+- Chile SFA sandbox and conformance testing for prospective data-consumer fintechs: The regulatory premise is sufficiently grounded: NCG 514 is an official, extant SFA rule and the cited framework includes APIs and testing concepts, so this is not rejected for an unverified regulatory change. The proposed service can plausibly avoid handling production customer data by operating on fictitious-data sandbox workflows, reducing—though not eliminating—the compliance burden. However, the narrow commercial wedge is unproven and threatened by CMF’s ATENA sandbox, published technical guidance, and visible private alternatives. At present there is no evidence that prospective SFA data-consumer firms can grant an external vendor the necessary sandbox credentials, that official tooling lacks the proposed functionality, or that buyers will pay for a reusable product rather than use internal teams or purchase bespoke integration/compliance consulting. This is HQ-worthy only as a tightly falsifiable buyer-and-access validation hypothesis, not as a validated software opportunity.
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=backlog",
-    "research_queue_unreviewed=82"
+    "deep_review_lane=fresh",
+    "research_queue_unreviewed=84"
   ],
   "stages": [
     {
@@ -65,26 +65,32 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 18,
+      "grounded_source_count": 24,
       "search_source_urls": [
-        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
-        "https://www.cmfchile.cl/portal/prensa/615/articles-93115_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html?trk=article-ssr-frontend-pulse_little-text-block",
-        "https://www.cmfchile.cl/portal/principal/613/articles-51042_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/articles-89581_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48738.html",
-        "https://www.sec.gov/Archives/edgar/data/1074828/000107482826000027/usbc-20260331.htm",
-        "https://www.sec.gov/Archives/edgar/data/1383312/000114036126037939/ny20075597x4_ars.pdf",
-        "https://www.sec.gov/Archives/edgar/data/1627282/000162728226000067/ex_991xcalibertokenization.htm",
-        "https://www.sec.gov/Archives/edgar/data/1762096/000095010326005524/dp245023_425.htm",
-        "https://www.sec.gov/Archives/edgar/data/2090452/000110465926120989/tm2628734d1_ex99-2.htm",
-        "https://www.sec.gov/Archives/edgar/data/2094496/000162828026056164/exhibit991-secz2q26earning.htm",
-        "https://www.sec.gov/featured-topics/crypto-task-force/cryptosec",
-        "https://www.sec.gov/files/cft-written-wall-street-blockchain-august-2026.pdf",
-        "https://www.sec.gov/newsroom/speeches-statements/uyeda-statement-innovation-exemption-091726"
+        "https://arxiv.org/abs/2112.02162",
+        "https://arxiv.org/abs/2509.25056",
+        "https://catalog.data.gov/dataset/results-from-a-2023-survey-of-manufacturing-automation-amongst-small-and-medium-enterprise",
+        "https://en.wikipedia.org/wiki/Agricultural_robot",
+        "https://en.wikipedia.org/wiki/FarmWise",
+        "https://farmdroid.com/",
+        "https://fieldreport.caes.uga.edu/publications/B1594/agribots-autonomous-ground-robots-for-specialty-crops/",
+        "https://hexagon.com/about/news-media/press-releases/2025/us-manufacturers-say-outdated-technology-is-hurting-hiring",
+        "https://lead.nc.gov/employer-needs-survey/manufacturing/",
+        "https://www.bcentral.cl/documents/33528/133217/jpa_17112022.pdf/54d7647e-d58b-0fd9-032f-1c4fd829e7f7?t=1693301714036",
+        "https://www.bls.gov/careeroutlook/2026/article/manufacturing.htm",
+        "https://www.census.gov/library/working-papers/2022/adrm/CES-WP-22-12.html",
+        "https://www.cmfchile.cl/educa/621/w3-article-85051.html",
+        "https://www.cmfchile.cl/normativa/ncg_514_2024.pdf",
+        "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-110411_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/articles-83451_doc_pdf.pdf",
+        "https://www.datocms-assets.com/62658/1747148455-wfro_manufacturing_2025_report.pdf",
+        "https://www.greenbeam.us/",
+        "https://www.haggertyagrobotics.com/farmdroid-fd20",
+        "https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/businesses/workforce-development/wdb/documents/11-15-22-wdb-briefing-book.pdf",
+        "https://www.reddit.com/r/AgriTech/comments/1wwguu8/ndsu_rowcrop_robot_achieves_965_weeding_accuracy/",
+        "https://www.reddit.com/r/PLC/comments/1wij31p/is_there_really_a_shortage_of_controlsscada/",
+        "https://www.terraclear.com/reserve-terrascout/"
       ]
     },
     {
@@ -103,44 +109,71 @@ No survivors. Scout does not manufacture a daily winner.
       "retry_justified": false
     },
     {
+      "index": 1,
+      "stage": "normalization",
+      "outcome": "accepted",
+      "reasons": [],
+      "changes": [
+        "contrary_evidence:list_sanitized",
+        "major_risks:list_sanitized",
+        "unknowns:list_sanitized",
+        "falsification_conditions:list_sanitized",
+        "material_update:unknown_false"
+      ],
+      "grounded_sources": 2,
+      "retry_justified": false
+    },
+    {
+      "index": 2,
+      "stage": "normalization",
+      "outcome": "accepted",
+      "reasons": [],
+      "changes": [
+        "contrary_evidence:list_sanitized",
+        "major_risks:list_sanitized",
+        "unknowns:list_sanitized",
+        "falsification_conditions:list_sanitized",
+        "material_update:unknown_false"
+      ],
+      "grounded_sources": 2,
+      "retry_justified": false
+    },
+    {
       "stage": "critic",
-      "candidate_id": "opp_7e02ca9e2e24b8ac6b6b",
+      "candidate_id": "opp_e1151e64e9b1acb7c35d",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 20,
+      "grounded_source_count": 17,
       "search_source_urls": [
-        "https://arxiv.org/abs/2203.00582",
-        "https://arxiv.org/abs/2407.13304",
-        "https://es.linkedin.com/posts/miguel-bravo-41753811b_un-nuevo-hito-para-la-automatizaci%C3%B3n-desarrollada-activity-7507432102125002752-Jj1T",
-        "https://fairino.cl/",
-        "https://grupo-igps.cl/",
-        "https://grupo-igps.cl/servicios/automatizacion-industria-4-0/servicio-robotica-colaborativa/",
-        "https://mageva.odoo.com/blog/noticias-1/primer-retrofit-en-chile-1",
-        "https://piet.ucdavis.edu/sites/g/files/dgvnsk8286/files/inline-files/team10_150584_23644503_D-Lab%20Final%20Technical%20Report-1.pdf",
-        "https://publications.iadb.org/publications/english/document/Report-on-Low-Risk-Technological-Solutions-in-Emerging-Technologies-in-Agriculture.pdf",
-        "https://ras.papercept.net/images/temp/AIM/files/0279.pdf",
-        "https://t-inside.cl/nosotros/",
-        "https://thunderrobotics.cl/",
-        "https://tools.investchile.gob.cl/hubfs/ebooks%20nuevos/InvestChile%20E-Book%20The%20Food%20Industry%20in%20Chile.pdf?hsLang=en-gb",
-        "https://www.agharvestreport.com/hubfs/wgcit_2021_harvest_automation_report_2022-02-07.pdf?hsLang=en",
-        "https://www.emb.cl/electroindustria/articulo.mvc?tip=7&xid=4642&xit=en-la-agricultura-postulan-a-robots-como-solucion-para-deficit-de-mano-de-obra",
-        "https://www.klever-robotics.com/",
-        "https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/01/labour-and-skills-shortages-in-the-agro-food-sector_c9915f4e/ed758aab-en.pdf",
-        "https://www.postharvest.biz/paclife/smarter-packaging-automation-changes-the-way-fresh-fruit-is-processed",
-        "https://www.qimarox.com/pat-industrial-solutions/",
-        "https://www.thinkagro.cl/"
+        "https://chocale.cl/2026/09/cmf-sandbox-atena-implementacion-del-sistema-de-finanzas-abiertas/",
+        "https://cmfchile.cl/portal/prensa/625/w4-article-80365.html",
+        "https://cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://nexos-sfa.prodigio.tech/",
+        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/706413085/Gu%2Bas%2Bde%2Bpruebas%2BSandbox%2Bperiodo%2Bprevio%2Ba%2Bla%2Bentrada%2Ben%2Bvigencia",
+        "https://sfasandbox.cl/",
+        "https://sfasandbox.cl/docs.php",
+        "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa_tramite_ver_archivo.php?id=2025111249&seq=1",
+        "https://www.cmfchile.cl/institucional/mercados/ver_archivo.php?archivo=%2Fweb%2Fcompendio%2Fncg%2Fncg_514_2024.pdf",
+        "https://www.cmfchile.cl/normativa/ncg_569_2026.pdf",
+        "https://www.cmfchile.cl/portal/estadisticas/617/articles-98688_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-94764_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html?trk=article-ssr-frontend-pulse_little-text-block",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-92449.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_7e02ca9e2e24b8ac6b6b",
+      "candidate_id": "opp_e1151e64e9b1acb7c35d",
       "coercions": [
         "contrary_evidence"
       ]
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_7e02ca9e2e24b8ac6b6b",
+      "candidate_id": "opp_e1151e64e9b1acb7c35d",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -148,7 +181,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_7e02ca9e2e24b8ac6b6b",
+      "candidate_id": "opp_e1151e64e9b1acb7c35d",
       "coercions": []
     }
   ],
@@ -156,44 +189,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 213,
-      "cache_write_tokens": 5456,
+      "reasoning_tokens": 195,
+      "cache_write_tokens": 5448,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0140772,
+      "cumulative_cost_usd": 0.015037,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13964,
+      "input_tokens": 14043,
       "cached_tokens": 0,
-      "output_tokens": 843,
+      "output_tokens": 1630,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0140772
+      "estimated_cost_usd": 0.015037
     },
     {
       "stage": "critic",
       "available": true,
       "reasoning_tokens": 155,
-      "cache_write_tokens": 5219,
+      "cache_write_tokens": 5217,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02859175,
+      "cumulative_cost_usd": 0.02963325,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13606,
+      "input_tokens": 13625,
       "cached_tokens": 0,
-      "output_tokens": 1277,
+      "output_tokens": 1342,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01451455
+      "estimated_cost_usd": 0.01459625
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 134,
-      "cache_write_tokens": 2869,
+      "reasoning_tokens": 0,
+      "cache_write_tokens": 2318,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.04431425,
+      "cumulative_cost_usd": 0.04225025,
       "model": "gpt-5.6-terra",
-      "input_tokens": 2872,
+      "input_tokens": 2321,
       "cached_tokens": 0,
-      "output_tokens": 712,
+      "output_tokens": 568,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.0157225
+      "estimated_cost_usd": 0.012617
     }
   ]
 }

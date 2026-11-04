@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 166
+Candidates: 169
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -219,6 +219,18 @@ Candidates: 166
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://sagnikbhattacharya.com/blog/ai-visual-inspection-cost; https://automationsolinc.com/resources/blog/small-scale-retrofits-a-smart-bridge-to-automation-reliability/
+
+## Task-specific automation retrofit discovery for small manufacturers
+- Status: watch | competitive_positioning
+- Current idea: A narrow entry wedge is a paid task-level automation assessment for one repeatable process—such as inspection, material handling or machine tending—followed by a retrofit specification using existing equipment. The evidence supports an underserved implementation problem, not a guaranteed retrofit market or ROI.
+- Potential economic capture: Fixed-fee assessment, prototype integration or referral margin from an equipment/integration partner. No savings, buyer, sale or margin is assumed until a specific plant signs a paid pilot.
+- **Research routes to test (NOT validated claims):**
+  - Segment the incumbent market by customers who pay too much or wait too long for one outcome.
+  - Offer materially different positioning, delivery, price or specialisation with clear unit economics.
+  - Test switching and repeat purchase evidence before scaling acquisition.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://catalog.data.gov/dataset/results-from-a-2023-survey-of-manufacturing-automation-amongst-small-and-medium-enterprise; https://lead.nc.gov/employer-needs-survey/manufacturing/
 
 ## Narrow Chilean e-commerce returns-recovery test for one product category
 - Status: watch | ecommerce_niches
@@ -1276,6 +1288,18 @@ Candidates: 166
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
+## Chile SFA sandbox and conformance testing for prospective data-consumer fintechs
+- Status: watch | open_finance_chile
+- Current idea: Prospective SFA participants may need repeatable API test fixtures, consent-flow validation, certificate/authentication checks, documentation and evidence packages before production participation. The opportunity is narrower than building a financial-data intermediary: sell testing and implementation tooling to firms already preparing for SFA participation.
+- Potential economic capture: Fixed-fee test harness, implementation review or conformance-readiness engagement; recurring maintenance only if a buyer demonstrates ongoing need. No buyer, price or permission is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Whether Chilean SFA participants will buy external testing or readiness services rather than use ATENA, internal teams or incumbent consultancies.; The number of prospective data-consumer fintechs that will actually participate in the initial implementation phases.; Whether ATENA provides sufficient test coverage, reporting, automation and evidence export for regulated production-readiness work.
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html; https://www.cmfchile.cl/normativa/ncg_514_2024.pdf
+
 ## Chile SFA technical-conformance test harness for July 2027 implementation
 - Status: watch | open_finance_chile
 - Current idea: Financial institutions and regulated SFA participants have a defined implementation deadline and technical requirements. A reusable conformance and regression-testing asset could reduce integration rework before production participation; this is narrower and more executable than general fintech consulting.
@@ -1827,6 +1851,18 @@ Candidates: 166
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://dintass.cl/collections/robots-industriales; https://www.vicrobotics.com/
+
+## Independent deployment and service layer for agricultural field robots
+- Status: watch | robotics_agritech
+- Current idea: The testable wedge is not inventing a robot. It is validating whether a local operator can sell crop-specific deployment, mapping, monitoring or seasonal access around an existing robot to growers who cannot justify ownership. The capital intensity and agronomic integration risk make a broker/operator model more falsifiable than buying equipment first.
+- Potential economic capture: Potential per-acre, per-season or deployment fee paid by a grower or farm-services contractor, but the payer, price and unit economics remain unverified.
+- **Research routes to test (NOT validated claims):**
+  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
+  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
+  - Arrange a bounded field validation with an actual farm operator before scaling.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.terraclear.com/reserve-terrascout/; https://fieldreport.caes.uga.edu/publications/B1594/agribots-autonomous-ground-robots-for-specialty-crops/
 
 ## Independent field-service and deployment support for autonomous agricultural weed-control robots
 - Status: watch | robotics_agritech
