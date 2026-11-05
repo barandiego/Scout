@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 172
+Candidates: 173
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -123,18 +123,6 @@ Candidates: 172
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.aither.cl/tap/; https://pymevisible.cl/productos
-
-## NFC review-and-reservation kits for Chilean multi-location hospitality businesses
-- Status: watch | chile_localization
-- Current idea: The opportunity is not generic NFC resale; it is a narrow deployment package for restaurants, cafés, hotels, barber shops, and clinics with multiple customer-contact points. The economic mechanism is a low-cost physical prompt that can route customers to reviews, reservations, or WhatsApp while allowing the operator to measure taps and clicks. Existing local prices provide a verifiable willingness-to-pay benchmark, but do not establish conversion uplift or margins.
-- Potential economic capture: Sell or import compliant NFC/QR stands, cards, or stickers as a standardized kit for one use case—such as review acquisition or reservation capture—with optional setup and analytics. The defensible wedge would be a repeatable deployment protocol and measurement dashboard for multi-location operators, not the NFC hardware itself.
-- **Research routes to test (NOT validated claims):**
-  - Find the smallest Chilean workflow whose economics differ from the original geography.
-  - Secure lawful access, partners and after-sales support rather than copy protected technology.
-  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://www.ondda.cl/; https://www.aither.cl/tap/
 
 ## Online Data Analyst—Chile through TELUS Digital AI Community
 - Status: watch | chile_localization
@@ -831,6 +819,18 @@ Candidates: 172
 - Critical gaps: Number of institutions and technology vendors that must participate in the first implementation phases.; Which entities will have a budget and procurement authority for external conformance tooling.; Whether ATENA exposes sufficient automated interfaces for third-party test execution, result export, CI integration, and repeatable regression testing.
 - Possible initial budget:
 - Source URLs: https://cmfchile.cl/portal/prensa/625/w4-article-113897.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html
+
+## ATENA-ready interoperability test harness for Chilean open-finance participants
+- Status: watch | open_finance_chile
+- Current idea: Participants and prospective participants need to reduce integration and conformance risk before production access. A narrowly scoped test harness, fixture library, API contract checker, and reproducible ATENA test pack could be sold as a technical asset or implementation package rather than as generic consulting.
+- Potential economic capture: Charge for a downloadable or hosted conformance-test asset, per-environment setup, or fixed-scope integration validation. The payer is not yet verified; likely counterparties are entities preparing to participate in the SFA, but willingness to pay and procurement rules remain unknown.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-113806.html
 
 ## Build a pre-compliance prototype for Chile’s Open Finance APIs
 - Status: watch | open_finance_chile
@@ -1791,6 +1791,18 @@ Candidates: 172
 - Critical gaps: What proportion of the cited queues is technically addressable by each technology and by geography?; How much of the claimed congestion cost is avoidable through GETs rather than caused by insufficient generation, local distribution constraints, market design, or fuel and demand shocks?; Which entities receive the economic benefit: generators, load-serving entities, transmission owners, ratepayers, RTOs/ISOs, or technology vendors?
 - Possible initial budget:
 - Source URLs: https://www.iea.org/reports/modernising-grids-in-the-age-of-electricity/executive-summary; https://www.iea.org/reports/electricity-2026/grids
+
+## Merger-arbitrage screening around the Paramount-Warner Bros. Discovery transaction
+- Status: watch | public_markets
+- Current idea: The transaction creates a directly observable spread-or-no-spread event whose value depends on the current WBD price, closing probability, timing, financing, regulatory conditions, and any adjustment mechanics. This is an executable public-market research setup, not a claim that the spread is attractive without a live price and risk calculation.
+- Potential economic capture: Potential cash-flow source is the difference between the purchase price and the market price of WBD shares if the transaction closes, or a loss if it fails or is delayed. No return, spread, or position size is asserted because a current market price and investor-specific constraints were not established.
+- **Research routes to test (NOT validated claims):**
+  - Find overlooked fundamentals and a named accessible security with dated primary filings.
+  - Compare risked intrinsic value, market expectations and specific downside scenarios.
+  - Define catalysts and invalidation thresholds before any governed investment decision.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://ir.wbd.com/news-and-events/financial-news/financial-news-details/2026/Paramount-Skydance-and-Warner-Bros--Discovery-Announce-Anticipated-Closing-Date-of-Paramount-Merger/default.aspx; https://www.sec.gov/Archives/edgar/data/2041610/000110465926111034/tm2610616d11_8k.htm; https://ir.wbd.com/news-and-events/financial-news/financial-news-details/2026/Paramount-to-Acquire-Warner-Bros--Discovery-to-Form-Next-Generation-Global-Media-and-Entertainment-Company-2026-3kBxBYyvtU/default.aspx
 
 ## Restructuring-event monitoring and document-based catalyst research around Trinseo
 - Status: watch | public_markets

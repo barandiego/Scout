@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-11-05T11:52:20.907959+00:00
+Generated: 2026-11-05T19:30:04.925356+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 172 (0 HQ survivors, 172 watches)
-- Rejected opportunities excluded: 96
+- Active research: 173 (0 HQ survivors, 173 watches)
+- Rejected opportunities excluded: 97
 - Critic-and-judge reviewed: 77
 - Autonomous execution authorization: 0
 
@@ -803,6 +803,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.invernadero.cl/; https://www.mdpi.com/2311-7524/12/8/972; https://www.inside-grower.com/utility/PDF.aspx?id=26248&pagename=viewarticle.aspx&pub=IG; https://coloradoproduce.org/wp-content/uploads/2023/07/cit_97817_2022-harvest-report_r6-digital_prod.pdf
 
+### ATENA-ready interoperability test harness for Chilean open-finance participants [opp_270032cf1d021a18d1b3]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Participants and prospective participants need to reduce integration and conformance risk before production access. A narrowly scoped test harness, fixture library, API contract checker, and reproducible ATENA test pack could be sold as a technical asset or implementation package rather than as generic consulting.
+- Value capture: Charge for a downloadable or hosted conformance-test asset, per-environment setup, or fixed-scope integration validation. The payer is not yet verified; likely counterparties are entities preparing to participate in the SFA, but willingness to pay and procurement rules remain unknown.
+- Participation hypothesis: Use the CMF's public developer documentation and ATENA access guide to build a minimal mock-data client covering one API flow and one participant-directory interaction. Apply for sandbox access through the CMF route, test whether the asset runs against ATENA, then contact publicly listed prospective SFA participants only after obtaining evidence of a failed or time-consuming test. Falsification: spend no more than one day reproducing one documented flow; abandon if documentation, access, or test behavior is insufficient to demonstrate a concret
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-113806.html
+
 ### Chile commercial BESS peak-shaving feasibility wedge using 15-minute meter data [opp_13c386e9cabe10c8389b]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile
 - Thesis: A small operator does not need to finance or own batteries initially. It can test whether a standardized load-profile calculation produces investment-grade savings cases for sites with demand charges, solar exports or outage costs. The measurable economic mechanism is avoided peak-demand cost, increased self-consumption or reduced outage exposure.
@@ -912,6 +922,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://github.com/Rayaanxrio/DocExtract; https://www.sii.cl/destacados/factura_electronica/guias_ayuda/factura_electronica.html; https://zeus.sii.cl/IVA2000/Static/Formato_XML.html
+
+### Merger-arbitrage screening around the Paramount-Warner Bros. Discovery transaction [opp_94f35432533ab548a1f0]
+- Status: WATCH_REQUIRES_VALIDATION | public_markets | United States
+- Thesis: The transaction creates a directly observable spread-or-no-spread event whose value depends on the current WBD price, closing probability, timing, financing, regulatory conditions, and any adjustment mechanics. This is an executable public-market research setup, not a claim that the spread is attractive without a live price and risk calculation.
+- Value capture: Potential cash-flow source is the difference between the purchase price and the market price of WBD shares if the transaction closes, or a loss if it fails or is delayed. No return, spread, or position size is asserted because a current market price and investor-specific constraints were not established.
+- Participation hypothesis: Pull the current WBD price, merger consideration, borrow availability, options-implied volatility, and latest SEC filings; calculate annualized spread under close, delay, and break scenarios. The lowest-cost falsification is a spreadsheet using zero position size and public filings only. Proceed only if the spread remains positive after fees, downside on break, financing costs, and an independently estimated probability of closing; otherwise discard.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://ir.wbd.com/news-and-events/financial-news/financial-news-details/2026/Paramount-Skydance-and-Warner-Bros--Discovery-Announce-Anticipated-Closing-Date-of-Paramount-Merger/de; https://www.sec.gov/Archives/edgar/data/2041610/000110465926111034/tm2610616d11_8k.htm; https://ir.wbd.com/news-and-events/financial-news/financial-news-details/2026/Paramount-to-Acquire-Warner-Bros--Discovery-to-Form-Next-Generation-Global-Media-and-Entertainment-Com
 
 ### Narrow Chilean e-commerce returns-recovery test for one product category [opp_fa54176321cf12d8b287]
 - Status: WATCH_REQUIRES_VALIDATION | ecommerce_niches | Chile
@@ -1488,16 +1508,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Thesis: A small operator should not compete on generic NFC business cards. A narrower offer is a preconfigured countertop or packaging plaque that sends customers to one measurable action—Google review, WhatsApp reorder, menu, booking or loyalty stamp—sold with a simple setup fee and optional replacement/update service. The economic mechanism is paid physical placement plus measurable reduction in friction between offline traffic and a merchant-owned digital channel.
 - Value capture: Sell a locally printed NFC/QR plaque or tag with the merchant's destination URL, analytics link and replacement/update service. The verified price ceiling for comparable local products is approximately CLP 19,990–29,990 per unit; recurring revenue, conversion rate and merchant retention remain unverified.
 - Participation hypothesis: Start with one vertical where the action is easy to measure, such as cafés or salons. Build a one-page landing page and one physical prototype using an inexpensive NFC tag and QR code. Approach 20 nearby businesses in person or through publicly listed contact channels; offer a seven-day unpaid or deposit-backed test only if the merchant agrees to place it at the point of sale and provide baseline and post-test scan/review counts. Falsify if fewer than three businesses agree to place the prototype, or if no tested merchant records a measurable a
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.ondda.cl/; https://www.aither.cl/tap/
-
-### NFC review-and-reservation kits for Chilean multi-location hospitality businesses [opp_6f96496de207fbd68ffc]
-- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
-- Thesis: The opportunity is not generic NFC resale; it is a narrow deployment package for restaurants, cafés, hotels, barber shops, and clinics with multiple customer-contact points. The economic mechanism is a low-cost physical prompt that can route customers to reviews, reservations, or WhatsApp while allowing the operator to measure taps and clicks. Existing local prices provide a verifiable willingness-to-pay benchmark, but do not establish conversion uplift or margins.
-- Value capture: Sell or import compliant NFC/QR stands, cards, or stickers as a standardized kit for one use case—such as review acquisition or reservation capture—with optional setup and analytics. The defensible wedge would be a repeatable deployment protocol and measurement dashboard for multi-location operators, not the NFC hardware itself.
-- Participation hypothesis: Start with one Chilean hospitality business that already has at least two customer-facing locations or service points. Purchase one or two locally available units at the published retail price, configure separate destinations for Google Reviews and WhatsApp, and run a 14-day pre/post or matched-location test using tap counts, destination clicks, review volume, and inquiry volume. Only proceed to a paid multi-location pilot if the operator agrees in writing to share baseline and test-period metrics; do not assume review attribution, permissions,
 - Critic/judge: deferred_by_review_cap
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation

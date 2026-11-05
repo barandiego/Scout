@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-05T11:52:20.530173+00:00
+Generated: 2026-11-05T19:30:04.524420+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['remote_paid_evaluation', 'inventoryless_product_validation', 'fixed_scope_paid_research_asset']
-- raw_candidates: 1
-- parseable_candidates: 1
-- normalized_candidates: 1
+- lenses: ['geographic_arbitrage', 'ai_open_source', 'public_markets']
+- raw_candidates: 2
+- parseable_candidates: 2
+- normalized_candidates: 2
 - normalization_rejected: 0
-- grounded_sources: 2
+- grounded_sources: 6
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
 - critic_reviews: 1
 - judge_reviews: 1
 - survivors: 0
-- watches: 0
+- watches: 2
 - rejected: 1
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.05528115
+- cost_usd: 0.0557694
 - cost_uncertain: False
-- budget_remaining_usd: 0.02471885
+- budget_remaining_usd: 0.0242306
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,8 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Energy-procurement comparison wedge for Chilean customers above 300 kW: deferred_by_review_cap
-- Chile Open Finance conformance kit for small Group 2 participants: The cited CMF primary sources adequately support that Chile’s Open Finance System has a technical annex, testing pathway, simplified participation concept, and a July 2027 effective date; therefore the regulatory-change premise is not rejected as unverified. A narrow pre-compliance diagnostic is not inherently a regulated financial activity, provided it does not represent official certification, access regulated production data without lawful authorization, or perform regulated data/payment functions. However, survival is not yet established: official ATENA/developer tooling and APIBox may already cover the proposed core functionality, while the small Group 2 buyer segment may have low budgets, simplified requirements, and a tendency to outsource one-time implementation work. No evidence demonstrates a legally available sandbox/API access path for an independent vendor, a differentiated capability, named buyers, procurement ownership, willingness to pay, or viable pricing relative to maintenance costs through regulatory changes. This is HQ-worthy only as a tightly bounded validation research item, not as a build recommendation.
 - Chile Open Finance conformance sandbox for small participating entities: deferred_by_review_cap
 - Evidence-backed micro-SaaS acquisition screening dataset: deferred_by_review_cap
 - Chile commercial BESS peak-shaving feasibility wedge using 15-minute meter data: critic_invalid_output
@@ -51,13 +49,15 @@ No survivors. Scout does not manufacture a daily winner.
 - Chile Open-Finance API conformance harness for smaller participants: deferred_by_review_cap
 - CNR-qualified irrigation retrofit package for small farms and water-user organizations: deferred_by_review_cap
 - Curtailment-led battery feasibility wedge for Chilean PMGD solar assets: deferred_by_review_cap
+- ATENA-ready interoperability test harness for Chilean open-finance participants: deferred_by_review_cap
+- Merger-arbitrage screening around the Paramount-Warner Bros. Discovery transaction: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=fresh",
-    "research_queue_unreviewed=86"
+    "deep_review_lane=backlog",
+    "research_queue_unreviewed=87"
   ],
   "stages": [
     {
@@ -65,25 +65,63 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 17,
+      "grounded_source_count": 55,
       "search_source_urls": [
-        "https://app.outlier.ai/login?job_post_id=4476998005",
-        "https://app.outlier.ai/opportunities/4481627005",
-        "https://app.outlier.ai/opportunities/4498965005?referring_user=bb4761668f71453dfb9514866699512e743d2ff9731ebeb9abef1a1cff8c5db571ae4287d3b48dd11b99498e34601a8e",
-        "https://app.outlier.ai/opportunities/4506395005?referring_user=39e139f44edfe79622a259422d8de98ebcddfaeb7a1f26eddffd79aa2e04597688c9bb74ff171a94e64133e99f111b93",
-        "https://app.outlier.ai/opportunities/4522871005",
-        "https://jobs.telusdigital.com/fr/search/cfm3/spanish/jobs",
-        "https://jobs.telusdigital.com/jobs/17987355-quality-assurance-rater-spanish-spain",
-        "https://jobs.telusdigital.com/jobs/18154786-online-data-analyst-chile",
-        "https://jobs.telusdigital.com/search/cfm3/russian-spanish/jobs/in/chile/country/chile?ns_category=artificial-intelligence",
-        "https://jobs.telusdigital.com/search/jobs/in/country/chile",
-        "https://www.dataannotation.tech/portuguese",
-        "https://www.oneforma.com/join/aiesec/",
-        "https://www.oneforma.com/wp-content/uploads/2024/06/Pandora-Labelling-QA-SOW_NSFW-ESCL.pdf",
-        "https://www.oneforma.com/wp-content/uploads/2024/10/Lighthouse-Preference-Ranking-QA-SOW_Crowds_esES.pdf",
-        "https://www.oneforma.com/wp-content/uploads/2025/05/SOW_Isaac_Amber_Annotation_es_ES.pdf",
-        "https://www.oneforma.com/wp-content/uploads/2025/05/SOW_Isaac_Amber_Spanish-Spain-locale-es_ES-.pdf",
-        "https://www.oneforma.com/wp-content/uploads/2025/06/Polly_SOW_pt_BR.pdf"
+        "https://apnews.com/article/d2ed33f2521917193616e061674d5f92",
+        "https://arxiv.org/abs/2507.11830",
+        "https://arxiv.org/abs/2511.23455",
+        "https://arxiv.org/abs/2601.09527",
+        "https://arxiv.org/abs/2608.27370",
+        "https://docs.digitalocean.com/products/inference/details/pricing/",
+        "https://en.wikipedia.org/wiki/Apertus_%28LLM%29",
+        "https://en.wikipedia.org/wiki/Comparison_of_generative_AI_models",
+        "https://en.wikipedia.org/wiki/List_of_large_language_models",
+        "https://en.wikipedia.org/wiki/Qwen",
+        "https://icda.cl/iva-compras-internacionales-hasta-usd-500/",
+        "https://ir.wbd.com/news-and-events/financial-news/financial-news-details/2025/Warner-Bros--Discovery-Board-of-Directors-Unanimously-Recommends-Shareholders-Reject-Paramount-Tender-Offer/default.aspx",
+        "https://ir.wbd.com/news-and-events/financial-news/financial-news-details/2026/Paramount-Skydance-and-Warner-Bros--Discovery-Announce-Anticipated-Closing-Date-of-Paramount-Merger/default.aspx",
+        "https://ir.wbd.com/news-and-events/financial-news/financial-news-details/2026/Paramount-to-Acquire-Warner-Bros--Discovery-to-Form-Next-Generation-Global-Media-and-Entertainment-Company-2026-3kBxBYyvtU/default.aspx",
+        "https://ir.wbd.com/news-and-events/financial-news/financial-news-details/2026/WARNER-BROS--DISCOVERY-BOARD-OF-DIRECTORS-UNANIMOUSLY-RECOMMENDS-SHAREHOLDERS-REJECT-AMENDED-PARAMOUNT-TENDER-OFFER/default.aspx",
+        "https://www.aduanadechile.gov.cl/aduana/site/docs/20250627/20250627110135/cuenta_publica_2025_gestion_2024_1.pdf",
+        "https://www.axios.com/2026/01/08/paramount-warner-bros-wbd-cable",
+        "https://www.axios.com/newsletters/axios-pro-rata-c9b5580d-fe42-4bf9-b1e5-1b769c7cf924",
+        "https://www.chileatiende.gob.cl/fichas/4201-pagar-derechos-aduaneros-por-importaciones-realizadas-via-postal",
+        "https://www.cmfchile.cl/institucional/mercados/ver_archivo.php?archivo=%2Fweb%2Fcompendio%2Fncg%2Fncg_514_2024.pdf",
+        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-110411_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/articles-111067_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-propertyvalue-44687.html",
+        "https://www.cmfchile.cl/portal/principal/613/articles-96504_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/623/articles-82752_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113806.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48738.html",
+        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640",
+        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782129720",
+        "https://www.fedex.com/content/dam/fedex/lac-latin-america/downloads/service-new-documents/EN_Chile_Implements_VAT_for_Low_Value_Shipments_and_Increase_De_Minimis_Threshold.pdf",
+        "https://www.fedex.com/en-cl/regulatory-news.html",
+        "https://www.itpro.com/security/open-weight-models-are-closing-the-capability-gap-with-frontier-models-at-a-fraction-of-the-cost-cheap-chinese-ai-models-could-spell-trouble-for-us-big-tech",
+        "https://www.reddit.com/r/LocalLLM/comments/1xf0xun/i_ran_local_ai_inference_amd_gpu_for_30_days_and/",
+        "https://www.reddit.com/r/RepublicadeChile/comments/1t2gqew/alguien_ha_comprado_algo_desde_espa%C3%B1a_%C3%BAltimamente/",
+        "https://www.reddit.com/r/aicuriosity/comments/1vz1jhg/zai_rolls_out_glm53flash_open_source_multimodal/",
+        "https://www.sec.gov/Archives/edgar/data/2041610/000110465926111034/tm2610616d11_8k.htm",
+        "https://www.sec.gov/Archives/edgar/data/2041610/000110465926112347/tm2626659d1_8k.htm",
+        "https://www.sii.cl/destacados/iva_bienes/index.html",
+        "https://www.sii.cl/noticias/2025/220925noti01pcr.htm",
+        "https://www.sii.cl/preguntas_frecuentes/impuestos_mensuales/001_130_1543.htm",
+        "https://www.sii.cl/vat/general_instruction_39_2025.pdf",
+        "https://www.techradar.com/pro/deepseek-ai-review",
+        "https://www.techradar.com/pro/scaling-smart-how-llm-developers-are-solving-multi-agent-orchestration-bottlenecks",
+        "https://www.techradar.com/pro/the-reality-is-that-not-every-task-requires-the-most-advanced-or-expensive-model-available-snowflake-explains-why-finding-the-right-ai-model-can-make-all-the-difference-in-helping-your-business-succeed",
+        "https://www.techradar.com/pro/we-were-highly-skeptical-about-the-cost-of-ai-revolut-reveals-it-cut-ai-coding-costs-by-cutting-out-claude-entirely",
+        "https://www.theatlantic.com/podcasts/2026/10/is-it-time-to-rebuild-the-internet/689218/",
+        "https://www.tid.gov.hk/en/tradecircular/2026/ci1502026.html?categoryId=18",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-engineer-successfully-compiles-a-32-bit-risc-v-cpu-in-qwen-3-5-4b-llm-inserted-directly-into-its-weights-built-in-cpu-can-run-processor-arithmetic-operations-code-and-of-course-doom",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/firm-that-lets-you-rent-out-your-idle-mac-for-ai-inference-workloads-warns-of-plummeting-token-costs-darkbloom-network-sees-earnings-drop-to-usd1-23-a-day-as-anthropic-tokens-fall-77-percent",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-ai-releases-weights-for-kimi-k3-firing-a-shot-across-the-bow-of-openai-and-anthropic-open-weight-model-performs-almost-as-well-as-frontier-models-while-being-2-3x-easier-to-run"
       ]
     },
     {
@@ -98,65 +136,80 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 2,
+      "grounded_sources": 3,
+      "retry_justified": false
+    },
+    {
+      "index": 1,
+      "stage": "normalization",
+      "outcome": "accepted",
+      "reasons": [],
+      "changes": [
+        "contrary_evidence:list_sanitized",
+        "major_risks:list_sanitized",
+        "unknowns:list_sanitized",
+        "falsification_conditions:list_sanitized",
+        "material_update:unknown_false"
+      ],
+      "grounded_sources": 3,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_a80ce6ab09e0e03bd3d9",
+      "candidate_id": "opp_6f96496de207fbd68ffc",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 37,
       "search_source_urls": [
-        "https://aiworkcentral.com/guides/is-outlier-legit",
-        "https://annotation.academy/blog/outlier-ai-review",
-        "https://arxiv.org/abs/2610.09279",
-        "https://assets.ctfassets.net/3viuren4us1n/3Nb4SWbk8uUEVkFPiPkSHu/842d32416414bfd80282b53db6a7e6f8/TELUS_Digital_Brochure_Custom_data_genAI_model_fine-tuning.pdf",
-        "https://assets.ctfassets.net/3viuren4us1n/6qoBMTSOSbjOU4J1ytsbVU/8f490d431c2ed57d5258dde044a7031d/Fraud_prevention_in_crowdsourcing_AI_training_data.pdf",
-        "https://assets.ctfassets.net/3viuren4us1n/7Is3KTyGYuK6wG4BYlfa9C/08840fef56e4eb58b47562b1106dbb62/TELUS_Digital_AI_Data_Solutions_Brochure_2025.pdf",
-        "https://assets.ctfassets.net/fltupc9ltp8m/4ZHkmNtiUO4wyn1AViU3a8/0918b822216f5abd85c82ded741b1dcd/TELUS_2024_MD_A_and_Financial_Statements__EN.pdf",
-        "https://assets.ctfassets.net/fltupc9ltp8m/5XMfEtySOfXg9mh25TUeS/2b711837335ec72e214a6130cae20392/TELUS_2025_MD_A_and_Financial_Statements__EN.pdf",
-        "https://elpais.com/tecnologia/2026-10-15/los-trabajadores-europeos-que-entrenan-las-ia-ya-sabia-que-me-metia-en-unas-condiciones-que-no-eran-las-mejores.html",
-        "https://labelingjobs.net/guides/how-outlier-pays-rates-payout-days-methods-and-rate-cuts",
-        "https://labelingjobs.net/guides/is-outlier-ai-legit-who-runs-it-how-it-pays-and-what-contributors-report",
-        "https://outlier.ai/faq",
-        "https://theairankings.com/ai-jobs/outlier-review/",
-        "https://time.com/6962608/data-annotation-legit-tech-jobs-ai/",
-        "https://www.axios.com/newsletters/axios-ai-plus-545a769a-3628-484e-b7d9-762b2e78659d",
-        "https://www.glassdoor.com/Reviews/Employee-Review-Outlier-AI-E2858115-RVW103642522.htm",
-        "https://www.indeed.com/cmp/Outlier-Ai/reviews?fcountry=US&fjobtitle=Contributor",
-        "https://www.indeed.com/cmp/Outlier-Ai/reviews?fjobtitle=Contributor&ftext=ai+",
-        "https://www.indeed.com/cmp/Telus-Digital-3/reviews?campaignid=viewjob&cmpratingc=mobviewjob&fromjk=1ced8a29beae1ddb&jt=Online+Data+Analyst+-+Lithuanian",
-        "https://www.indeed.com/cmp/Telus-Digital-3/reviews?fcountry=ALL&fjobtitle=Data+analyst&ftext=Online+data+analyst",
-        "https://www.indeed.com/cmp/Telus-Digital-3/reviews?fcountry=US&fjobtitle=Data+Analyst&ftext=No%2Btasks",
-        "https://www.lemonde.fr/pixels/article/2025/05/25/les-pratiques-sociales-douteuses-de-telus-un-des-principaux-sous-traitants-de-google-meta-et-tiktok_6608378_4408996.html",
-        "https://www.reddit.com/r/TELUSinternational/comments/1nwbkf3/let_go_for_low_productivity/",
-        "https://www.reddit.com/r/outlier_ai/comments/1bjkktt",
-        "https://www.reddit.com/r/outlier_ai/comments/1g6pnnz/update_on_outlier_upgrades_contributor_pay/",
-        "https://www.reddit.com/r/outlier_ai/comments/1gwirmm",
-        "https://www.reddit.com/r/outlier_ai/comments/1jptisi",
-        "https://www.reddit.com/r/outlier_ai/comments/1pswsrb/how_many_of_us_out_here_have_not_received_any/",
-        "https://www.reddit.com/r/outlier_ai/comments/1pv46ni/unpaid_work_need_help/",
-        "https://www.reddit.com/r/outlier_ai/comments/1qrh45t/unapproved_annotator/",
-        "https://www.reddit.com/r/outlier_ai/comments/1uwoyes/yes_it_is_a_scam/",
-        "https://www.reddit.com/r/outlier_ai/comments/1v70spm/task_review_quality/",
-        "https://www.reddit.com/r/outlier_ai/comments/1v9vyox/outlier_withheld_100_of_my_earnings_270_after/",
-        "https://www.reddit.com/r/outlier_ai/comments/1vhsrto/deactivated_after_2_months_172_hours_worked_and_a/",
-        "https://www.techradar.com/pro/security/telus-digital-confirms-breach-hackers-allegedly-stole-almost-1-petabyte-of-data",
-        "https://www.techradar.com/pro/software-services/i-tested-the-7-best-survey-and-poll-apps-to-earn-money-in-2026",
-        "https://www.telusdigital.com/media/data-collection.pdf"
+        "https://apnews.com/article/09eb0cbd44c5b7e8b86f57560a6b3c0d",
+        "https://apnews.com/article/65e3d8840da9a5e140b65c482317d14a",
+        "https://arxiv.org/abs/2604.17192",
+        "https://as.com/meristation/betech/adios-a-las-resenas-negativas-asi-puedes-hacer-desaparecer-las-malas-opiniones-de-tu-negocio-en-google-f202604-n/",
+        "https://citeseerx.ist.psu.edu/document?doi=479c0c4a29b700b1937ba85b0f52c01eb24aa842&repid=rep1&type=pdf",
+        "https://elpais.com/tecnologia/2025-12-30/asi-son-las-campanas-de-extorsion-contra-pequenas-empresas-espanolas-en-google-maps-pueden-hundirte-el-negocio.html",
+        "https://google-reviewcards.com/blog/nfc-review-cards-vs-qr-review-cards",
+        "https://greengraphic.cl/products/tarjeta-nfc-con-diseno-personalizado-pvc-tarjeta-de-presentacion-virtual-copia?variant=67654606618794",
+        "https://mdpi-res.com/d_attachment/sustainability/sustainability-15-12471/article_deploy/sustainability-15-12471.pdf",
+        "https://puntua.cl/",
+        "https://resenafacil.cl/",
+        "https://reviewstandapp.com/",
+        "https://reviewu.online/pricing",
+        "https://support.google.com/business/answer/14114287?hl=en-419",
+        "https://support.google.com/business/answer/7400114?hl=en",
+        "https://tarjetasdigitaleschile.cl/resenas-en-google",
+        "https://time.com/6192933/fake-reviews-regulation/",
+        "https://vluetechservices.cl/catalogo/tarjetas-nfc-resenas/",
+        "https://www.axios.com/local/chicago/2025/11/20/alpana-scam-google-reviews",
+        "https://www.comecomida.cl/",
+        "https://www.discoverpuertorico.com/industry/download/575506-google-my-business-guide-englishpdf.pdf",
+        "https://www.jturnerresearch.com/hubfs/The-Mechanics-Third-Edition.pdf",
+        "https://www.opinapp.cl/",
+        "https://www.reddit.com/r/GoogleMyBusiness/comments/1rj5t3c/are_google_review_filter_pages_allowed/",
+        "https://www.reddit.com/r/GoogleMyBusiness/comments/1uxsh4t/approximately_800_genuine_google_reviews/",
+        "https://www.reddit.com/r/GoogleMyBusiness/comments/1vf1o6m/profile_restricted_for_fake_engagement/",
+        "https://www.reddit.com/r/GoogleMyBusiness/comments/1w9n8ri/removed/",
+        "https://www.reddit.com/r/GoogleMyBusiness/comments/1wt2u0f/google_not_allowing_customers_to_add_reviews_on/",
+        "https://www.reddit.com/r/GoogleMyBusiness/comments/1xce24a/lots_of_google_deleted_our_reviews_threads_lately/",
+        "https://www.reddit.com/r/SEO/comments/1fh3b3c",
+        "https://www.reddit.com/r/exmormon/comments/1mykb4c",
+        "https://www.reddit.com/r/googlebusinessprofile/comments/1vg0gnk/my_google_business_profile_is_working_but_people/",
+        "https://www.reddit.com/r/googlebusinessprofile/comments/1wcm91z/tips_for_collecting_reviews_for_a_car_dealership/",
+        "https://www.reddit.com/r/googlebusinessprofile/comments/1xf4p2c/google_business_profile_shadowban_missing_reviews/",
+        "https://www.reddit.com/r/localseo/comments/1xbcoas/how_we_got_300_google_reviews_my_personal/",
+        "https://www.redmangomarketing.com/wp-content/uploads/2025/02/rmm-how-to-maintain-google-my-business-profile.pdf",
+        "https://www.visa.com.au/content/dam/VCOM/regional/ap/australia/newsroom/documents/visa-australia-impact-of-card-payments-on-businesses-and-households.pdf"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_a80ce6ab09e0e03bd3d9",
+      "candidate_id": "opp_6f96496de207fbd68ffc",
       "coercions": [
         "contrary_evidence"
       ]
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_a80ce6ab09e0e03bd3d9",
+      "candidate_id": "opp_6f96496de207fbd68ffc",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -164,7 +217,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_a80ce6ab09e0e03bd3d9",
+      "candidate_id": "opp_6f96496de207fbd68ffc",
       "coercions": []
     }
   ],
@@ -172,44 +225,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 279,
-      "cache_write_tokens": 4958,
+      "reasoning_tokens": 428,
+      "cache_write_tokens": 5429,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0140361,
+      "cumulative_cost_usd": 0.02681645,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13493,
+      "input_tokens": 22597,
       "cached_tokens": 0,
-      "output_tokens": 908,
-      "web_search_calls": 1,
-      "estimated_cost_usd": 0.0140361
+      "output_tokens": 1688,
+      "web_search_calls": 2,
+      "estimated_cost_usd": 0.02681645
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 254,
-      "cache_write_tokens": 5341,
+      "reasoning_tokens": 218,
+      "cache_write_tokens": 5259,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.03903615,
+      "cumulative_cost_usd": 0.0414064,
       "model": "gpt-5.6-luna",
-      "input_tokens": 16561,
+      "input_tokens": 13757,
       "cached_tokens": 0,
-      "output_tokens": 1184,
-      "web_search_calls": 2,
-      "estimated_cost_usd": 0.02500005
+      "output_tokens": 1313,
+      "web_search_calls": 1,
+      "estimated_cost_usd": 0.01458995
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 232,
-      "cache_write_tokens": 3510,
+      "reasoning_tokens": 31,
+      "cache_write_tokens": 3242,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.05528115,
+      "cumulative_cost_usd": 0.0557694,
       "model": "gpt-5.6-terra",
-      "input_tokens": 3513,
+      "input_tokens": 3245,
       "cached_tokens": 0,
-      "output_tokens": 622,
+      "output_tokens": 521,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.016245
+      "estimated_cost_usd": 0.014363
     }
   ]
 }

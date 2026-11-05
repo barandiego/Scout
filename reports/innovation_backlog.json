@@ -372,42 +372,6 @@
       "category": "chile_localization",
       "commercially_validated": false,
       "competition_confirmed": false,
-      "current_participation_path": "Start with one Chilean hospitality business that already has at least two customer-facing locations or service points. Purchase one or two locally available units at the published retail price, configure separate destinations for Google Reviews and WhatsApp, and run a 14-day pre/post or matched-location test using tap counts, destination clicks, review volume, and inquiry volume. Only proceed to a paid multi-location pilot if the operator agrees in writing to share baseline and test-period metrics; do not assume review attribution, permissions, or incremental revenue. Existing suppliers provide direct purchase or demo routes, so no import approval is required for the falsification test.",
-      "current_thesis": "The opportunity is not generic NFC resale; it is a narrow deployment package for restaurants, cafés, hotels, barber shops, and clinics with multiple customer-contact points. The economic mechanism is a low-cost physical prompt that can route customers to reviews, reservations, or WhatsApp while allowing the operator to measure taps and clicks. Existing local prices provide a verifiable willingness-to-pay benchmark, but do not establish conversion uplift or margins.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "Chile",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "NFC review-and-reservation kits for Chilean multi-location hospitality businesses",
-      "opportunity_id": "opp_6f96496de207fbd68ffc",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Find the smallest Chilean workflow whose economics differ from the original geography.",
-        "Secure lawful access, partners and after-sales support rather than copy protected technology.",
-        "Run a buyer interview or mock listing to falsify assumptions before capital commitment."
-      ],
-      "supporting_source_urls": [
-        "https://www.ondda.cl/",
-        "https://www.aither.cl/tap/"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "Sell or import compliant NFC/QR stands, cards, or stickers as a standardized kit for one use case—such as review acquisition or reservation capture—with optional setup and analytics. The defensible wedge would be a repeatable deployment protocol and measurement dashboard for multi-location operators, not the NFC hardware itself.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "chile_localization",
-      "commercially_validated": false,
-      "competition_confirmed": false,
       "current_participation_path": "Apply through the official TELUS Digital job page for ReqEG-798, submit a current résumé, and complete the job-specific assessments. Track whether the applicant is accepted, the final stated rate, payment terms, and the number of tasks offered during the first two weeks. Lowest-cost falsification: complete the free application and assessment only; do not pay for training, software, or access. Treat the opportunity as unvalidated income until a paid task is assigned and the payout conditions are disclosed. ([jobs.telusdigital.com](https://jobs.telusdigital.com/search/cfm3/russian-spanish/cfm5/ai-community/jobs/in/country/chile?ns_category=artificial-intelligence&utm_source=openai))",
       "current_thesis": "A Chile-based applicant with strong local geographic knowledge, Spanish and English comprehension, a computer, and stable internet can test a concrete paid data-validation route. The main uncertainty is qualification and task availability rather than an undefined market need.",
       "founder_hours_initial_unverified_estimate": "",
@@ -2586,6 +2550,43 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "A small operator could package a self-hosted test harness that runs documented API checks, produces evidence logs and remediation tickets, and optionally adds an AI-assisted parser for failed responses. The potential payer is an institution preparing an ATENA integration or a technology vendor integrating on its behalf; no buyer, price, or procurement commitment is established by the evidence.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Use the CMF's public developer documentation and ATENA access guide to build a minimal mock-data client covering one API flow and one participant-directory interaction. Apply for sandbox access through the CMF route, test whether the asset runs against ATENA, then contact publicly listed prospective SFA participants only after obtaining evidence of a failed or time-consuming test. Falsification: spend no more than one day reproducing one documented flow; abandon if documentation, access, or test behavior is insufficient to demonstrate a concrete integration bottleneck.",
+      "current_thesis": "Participants and prospective participants need to reduce integration and conformance risk before production access. A narrowly scoped test harness, fixture library, API contract checker, and reproducible ATENA test pack could be sold as a technical asset or implementation package rather than as generic consulting.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "ATENA-ready interoperability test harness for Chilean open-finance participants",
+      "opportunity_id": "opp_270032cf1d021a18d1b3",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113806.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Charge for a downloadable or hosted conformance-test asset, per-environment setup, or fixed-scope integration validation. The payer is not yet verified; likely counterparties are entities preparing to participate in the SFA, but willingness to pay and procurement rules remain unknown.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -5675,6 +5676,43 @@
       "category": "public_markets",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Pull the current WBD price, merger consideration, borrow availability, options-implied volatility, and latest SEC filings; calculate annualized spread under close, delay, and break scenarios. The lowest-cost falsification is a spreadsheet using zero position size and public filings only. Proceed only if the spread remains positive after fees, downside on break, financing costs, and an independently estimated probability of closing; otherwise discard.",
+      "current_thesis": "The transaction creates a directly observable spread-or-no-spread event whose value depends on the current WBD price, closing probability, timing, financing, regulatory conditions, and any adjustment mechanics. This is an executable public-market research setup, not a claim that the spread is attractive without a live price and risk calculation.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Merger-arbitrage screening around the Paramount-Warner Bros. Discovery transaction",
+      "opportunity_id": "opp_94f35432533ab548a1f0",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Find overlooked fundamentals and a named accessible security with dated primary filings.",
+        "Compare risked intrinsic value, market expectations and specific downside scenarios.",
+        "Define catalysts and invalidation thresholds before any governed investment decision."
+      ],
+      "supporting_source_urls": [
+        "https://ir.wbd.com/news-and-events/financial-news/financial-news-details/2026/Paramount-Skydance-and-Warner-Bros--Discovery-Announce-Anticipated-Closing-Date-of-Paramount-Merger/default.aspx",
+        "https://www.sec.gov/Archives/edgar/data/2041610/000110465926111034/tm2610616d11_8k.htm",
+        "https://ir.wbd.com/news-and-events/financial-news/financial-news-details/2026/Paramount-to-Acquire-Warner-Bros--Discovery-to-Form-Next-Generation-Global-Media-and-Entertainment-Company-2026-3kBxBYyvtU/default.aspx"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Potential cash-flow source is the difference between the purchase price and the market price of WBD shares if the transaction closes, or a loss if it fails or is delayed. No return, spread, or position size is asserted because a current market price and investor-specific constraints were not established.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "public_markets",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Download the restructuring disclosure and latest annual report; build a claims-and-capital-structure timeline from primary filings; identify the court docket, plan effective date, exit-financing terms, and treatment of each security. The lowest-cost falsification step is to spend one hour checking whether a current, liquid, publicly accessible instrument remains after the delisting and whether the plan assigns any residual value to equity. Do not buy or solicit trades before verifying current quotation, liquidity, eligibility, and plan treatment.",
       "current_thesis": "The combination of restructuring, financing, and delisting can create document-driven catalysts and mispricing, but the equity may be impaired or cancelled. The executable small-operator wedge is therefore event research and watchlist construction first, not an assumed stock purchase or recovery.",
       "founder_hours_initial_unverified_estimate": "",
@@ -6544,7 +6582,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-05T11:52:21.027498+00:00",
+  "generated_at": "2026-11-05T19:30:05.038066+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

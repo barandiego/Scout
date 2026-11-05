@@ -6889,6 +6889,67 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-05T19:29:41.538240+00:00",
+      "discovery_lens": "geographic_arbitrage",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF states that ATENA enables institutions to test integrations, interoperability with the participant directory, technical adequacy, and business models before the SFA's planned July 2027 entry into force.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF launches ATENA Technological Sandbox for the implementation of the Open Finance System",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html"
+        },
+        {
+          "claim": "CMF states that the amended regulation includes technical specifications, a developer portal, and a testing area, allowing entities to begin required development work.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System and publishes technical specifications",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "CMF provides an access guide describing preparation, configuration, and execution of tests in ATENA.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Guía de acceso al Sandbox tecnológico",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-113806.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.9,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_270032cf1d021a18d1b3",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-05T19:29:41.607932+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use the CMF's public developer documentation and ATENA access guide to build a minimal mock-data client covering one API flow and one participant-directory interaction. Apply for sandbox access through the CMF route, test whether the asset runs against ATENA, then contact publicly listed prospective SFA participants only after obtaining evidence of a failed or time-consuming test. Falsification: spend no more than one day reproducing one documented flow; abandon if documentation, access, or test behavior is insufficient to demonstrate a concrete integration bottleneck.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Participants and prospective participants need to reduce integration and conformance risk before production access. A narrowly scoped test harness, fixture library, API contract checker, and reproducible ATENA test pack could be sold as a technical asset or implementation package rather than as generic consulting.",
+      "title": "ATENA-ready interoperability test harness for Chilean open-finance participants",
+      "type": "compliance_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Charge for a downloadable or hosted conformance-test asset, per-environment setup, or fixed-scope integration validation. The payer is not yet verified; likely counterparties are entities preparing to participate in the SFA, but willingness to pay and procurement rules remain unknown.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-11-01T20:09:57.799717+00:00",
       "discovery_lens": "energy_localization",
       "estimated_capital": "",
@@ -7552,6 +7613,67 @@
       "value_capture_mechanism": "A paid pilot or per-document reconciliation service for a defined workflow; possible cash-flow source is the operator currently paying staff or an accounting provider to re-key, validate or reconcile supplier invoices. No buyer, price or margin is assumed until interviews or a paid pilot confirm it.",
       "verified_sales": null,
       "vertical": "chile_localization",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-11-05T19:29:41.540016+00:00",
+      "discovery_lens": "public_markets",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "WBD and Paramount announced an anticipated October 6, 2026 closing date and specified $31.00 cash consideration plus a daily adjustment after September 30, 2026, subject to customary closing conditions.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Paramount Skydance and Warner Bros. Discovery announce anticipated closing date",
+          "url": "https://ir.wbd.com/news-and-events/financial-news/financial-news-details/2026/Paramount-Skydance-and-Warner-Bros--Discovery-Announce-Anticipated-Closing-Date-of-Paramount-Merger/default.aspx"
+        },
+        {
+          "claim": "The SEC filing states that warrant distribution is contingent on closing the WBD merger and that closing timing remains subject to conditions and is not certain.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Paramount Skydance SEC Form 8-K on warrant distribution and merger conditions",
+          "url": "https://www.sec.gov/Archives/edgar/data/2041610/000110465926111034/tm2610616d11_8k.htm"
+        },
+        {
+          "claim": "The companies announced the merger agreement on February 27, 2026.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Paramount to acquire Warner Bros. Discovery",
+          "url": "https://ir.wbd.com/news-and-events/financial-news/financial-news-details/2026/Paramount-to-Acquire-Warner-Bros--Discovery-to-Form-Next-Generation-Global-Media-and-Entertainment-Company-2026-3kBxBYyvtU/default.aspx"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_94f35432533ab548a1f0",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-05T19:29:41.608207+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Pull the current WBD price, merger consideration, borrow availability, options-implied volatility, and latest SEC filings; calculate annualized spread under close, delay, and break scenarios. The lowest-cost falsification is a spreadsheet using zero position size and public filings only. Proceed only if the spread remains positive after fees, downside on break, financing costs, and an independently estimated probability of closing; otherwise discard.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The transaction creates a directly observable spread-or-no-spread event whose value depends on the current WBD price, closing probability, timing, financing, regulatory conditions, and any adjustment mechanics. This is an executable public-market research setup, not a claim that the spread is attractive without a live price and risk calculation.",
+      "title": "Merger-arbitrage screening around the Paramount-Warner Bros. Discovery transaction",
+      "type": "special_situation",
+      "unknowns": [],
+      "value_capture_mechanism": "Potential cash-flow source is the difference between the purchase price and the market price of WBD shares if the transaction closes, or a loss if it fails or is delayed. No return, spread, or position size is asserted because a current market price and investor-specific constraints were not established.",
+      "verified_sales": null,
+      "vertical": "public_markets",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -10769,60 +10891,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-18T20:13:57.440880+00:00",
-      "discovery_lens": "chile_technology_import",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "Chile-based supplier markets NFC products for restaurants, cafés, barber shops, hotels, clinics, and retail, including an acrylic NFC review stand priced at CLP 29,990, a presentation card at CLP 24,990, and an acrylic stand at CLP 19,990.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "Soluciones NFC para negocios en Chile | ONDDA",
-          "url": "https://www.ondda.cl/"
-        },
-        {
-          "claim": "Chile-based supplier offers NFC/QR products that route customers to Google Reviews, Instagram, or WhatsApp, priced from CLP 34,990 with no monthly fee.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "AITHER TAP — NFC + QR para conectar con tus clientes",
-          "url": "https://www.aither.cl/tap/"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.87,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_6f96496de207fbd68ffc",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-18T20:13:57.462070+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Start with one Chilean hospitality business that already has at least two customer-facing locations or service points. Purchase one or two locally available units at the published retail price, configure separate destinations for Google Reviews and WhatsApp, and run a 14-day pre/post or matched-location test using tap counts, destination clicks, review volume, and inquiry volume. Only proceed to a paid multi-location pilot if the operator agrees in writing to share baseline and test-period metrics; do not assume review attribution, permissions, or incremental revenue. Existing suppliers provide direct purchase or demo routes, so no import approval is required for the falsification test.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "The opportunity is not generic NFC resale; it is a narrow deployment package for restaurants, cafés, hotels, barber shops, and clinics with multiple customer-contact points. The economic mechanism is a low-cost physical prompt that can route customers to reviews, reservations, or WhatsApp while allowing the operator to measure taps and clicks. Existing local prices provide a verifiable willingness-to-pay benchmark, but do not establish conversion uplift or margins.",
-      "title": "NFC review-and-reservation kits for Chilean multi-location hospitality businesses",
-      "type": "commercial_offer",
-      "unknowns": [],
-      "value_capture_mechanism": "Sell or import compliant NFC/QR stands, cards, or stickers as a standardized kit for one use case—such as review acquisition or reservation capture—with optional setup and analytics. The defensible wedge would be a repeatable deployment protocol and measurement dashboard for multi-location operators, not the NFC hardware itself.",
-      "verified_sales": null,
-      "vertical": "chile_localization",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-11-02T17:48:27.013875+00:00",
       "discovery_lens": "ai_open_source",
       "estimated_capital": "",
@@ -12064,13 +12132,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-05T11:52:20.907959+00:00",
+  "generated_at": "2026-11-05T19:30:04.925356+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 96,
+  "rejected_excluded": 97,
   "reviewed_cards": 77,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 268,
-  "watch": 172
+  "total_distinct_opportunities": 270,
+  "watch": 173
 }

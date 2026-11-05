@@ -1,11 +1,11 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-11-05T11:52:20.907959+00:00",
+  "generated_at": "2026-11-05T19:30:04.925356+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
-      "other_cards_in_theme": 7,
+      "other_cards_in_theme": 6,
       "reviewed": true,
       "status": "watch",
       "theme": "nfc_products",
@@ -21,7 +21,7 @@
     },
     {
       "opportunity_id": "opp_f26e42aaabb91e157f9d",
-      "other_cards_in_theme": 70,
+      "other_cards_in_theme": 71,
       "reviewed": true,
       "status": "watch",
       "theme": "chile_open_finance",
@@ -103,15 +103,15 @@
   "headline_count": 12,
   "high_concentration": [
     {
-      "cards": 71,
-      "share": 0.413,
+      "cards": 72,
+      "share": 0.416,
       "theme": "chile_open_finance"
     }
   ],
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 75,
+  "theme_count": 76,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -163,6 +163,7 @@
         "opp_68b251b56fcd3101a22e",
         "opp_1e211b9f8b40a404bf8c",
         "opp_fb3cadb8fae90ba9ffb4",
+        "opp_270032cf1d021a18d1b3",
         "opp_993ac5d080c7042af44c",
         "opp_82f282d8dc0896390ee7",
         "opp_b5bb525067a4142275e1",
@@ -187,7 +188,7 @@
         "opp_4005381fd3d0bcfc9bae",
         "opp_5d831cacc35f270199e8"
       ],
-      "count": 71,
+      "count": 72,
       "representative_id": "opp_f26e42aaabb91e157f9d",
       "reviewed_count": 43,
       "theme": "chile_open_finance"
@@ -225,12 +226,11 @@
         "opp_d54cb21f051b71d41869",
         "opp_1003190617673d0a5401",
         "opp_7a4c2697266c85e82693",
-        "opp_6f96496de207fbd68ffc",
         "opp_ce00c60c8ebfd1d48cd2",
         "opp_4597c36d99d4f69a9e20",
         "opp_fa014b2293a26ad04e87"
       ],
-      "count": 8,
+      "count": 7,
       "representative_id": "opp_def87ec156069bf156db",
       "reviewed_count": 2,
       "theme": "nfc_products"
@@ -725,6 +725,15 @@
     },
     {
       "all_opportunity_ids": [
+        "opp_94f35432533ab548a1f0"
+      ],
+      "count": 1,
+      "representative_id": "opp_94f35432533ab548a1f0",
+      "reviewed_count": 0,
+      "theme": "public_markets:merger_arbitrage_screening"
+    },
+    {
+      "all_opportunity_ids": [
         "opp_91d2d1e9524976272e95"
       ],
       "count": 1,
@@ -886,6 +895,6 @@
       "theme": "robotics_agritech:water_efficiency_field"
     }
   ],
-  "total_original_cards": 172,
+  "total_original_cards": 173,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }
