@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-04T19:56:31.729551+00:00
+Generated: 2026-11-05T00:58:15.310449+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 148
+- New this cycle: 159
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 547, ai 106, energy 504, robotics 643
+- Categories: agriculture 544, ai 105, energy 508, robotics 643
 
 ## Recently encountered signals
+
+### Tokiarivelo/mitsinjo-grid
+- Source: https://github.com/Tokiarivelo/mitsinjo-grid
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
 
 ### saravanansaravanan49044-byte/Smart-Irrigation-Prediction-System-using-ML
 - Source: https://github.com/saravanansaravanan49044-byte/Smart-Irrigation-Prediction-System-using-ML
@@ -452,12 +458,6 @@ Generated: 2026-11-04T19:56:31.729551+00:00
 
 ### Sujal0905/HarvestEngine
 - Source: https://github.com/Sujal0905/HarvestEngine
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Sujal0905/AgroNex
-- Source: https://github.com/Sujal0905/AgroNex
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
