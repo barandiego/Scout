@@ -1,25 +1,113 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 261880.0,
-      "buyer": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DE LOS ÁLAMOS",
-      "closes_at": "2026-11-05T16:48:00",
-      "code": "1389488-1148-COT26",
-      "estimated_budget": 261880.0,
-      "name": "Insumos de alimentos ESCUELA PAULA JARAQUEMADA, Longaví.",
-      "products": 22,
-      "region": "Región del Maule"
+      "available_budget_clp": 2000000.0,
+      "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+      "closes_at": "2026-11-05T21:50:00",
+      "code": "1057491-1999-COT26",
+      "estimated_budget": 2000000.0,
+      "name": "ADQUISICIÓN DE MASCARILLAS DE OXIGENOTERAPIA TIPO VENTURI PARA PACIENTES ADULTOS Y PEDIÁTRICOS(´POSTULAR SOLO SI TIENE STOCK)",
+      "products": 2,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 30000.0,
+      "buyer": "MOP-BIENESTAR- VI REGION",
+      "closes_at": "2026-11-06T08:00:00",
+      "code": "607764-20-COT26",
+      "estimated_budget": 30000.0,
+      "name": "ADQUISICIÓN DE SESIONES DE ACTIVIDAD FISICA PARA LAS PERSONAS AFILIADAS  AL  SERVICIO DE BIENESTAR DEL MINISTERIO DE OBRAS PUBLICAS DE LA PROVINCIA COLCHAGUA,  REGIÓN DE O´HIGGINS",
+      "products": 1,
+      "region": "Región del Libertador General Bernardo O´Higgins"
+    },
+    {
+      "available_budget_clp": 500000.0,
+      "buyer": "ATF-60 \"LIENTUR\"",
+      "closes_at": "2026-11-06T08:15:00",
+      "code": "1315764-95-COT26",
+      "estimated_budget": 500000.0,
+      "name": "ADQUISICIÓN DE VALVULA SELENOIDE PARA OPERACIÓN SOBERANIA",
+      "products": 1,
+      "region": "Región de Magallanes y de la Antártica"
+    },
+    {
+      "available_budget_clp": 3500000.0,
+      "buyer": "ATF-60 \"LIENTUR\"",
+      "closes_at": "2026-11-06T08:15:00",
+      "code": "1315764-96-COT26",
+      "estimated_budget": 3500000.0,
+      "name": "ADQUISICIÓN DE REPEUSTOS Y MATERIALES OPERACIÓN SOBERANÍA",
+      "products": 1,
+      "region": "Región de Magallanes y de la Antártica"
+    },
+    {
+      "available_budget_clp": 265000.0,
+      "buyer": "UNIVERSIDAD DE CHILE",
+      "closes_at": "2026-11-06T09:00:00",
+      "code": "5178-5439-COT26",
+      "estimated_budget": 265000.0,
+      "name": "CARPETAS CORPORATIVAS / SP 1076092 / CJ",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 660000.0,
+      "buyer": "I MUNICIPALIDAD DE LANCO",
+      "closes_at": "2026-11-06T09:00:00",
+      "code": "2905-609-COT26",
+      "estimated_budget": 660000.0,
+      "name": "SERVICIO DE GIRA TÉCNICA HORTALICERA EN SECTOR PILFITRANA PARA USUARIOS PDTI",
+      "products": 1,
+      "region": "Región de Los Ríos"
+    },
+    {
+      "available_budget_clp": 200000.0,
+      "buyer": "I MUNICIPALIDAD DE LANCO",
+      "closes_at": "2026-11-06T09:00:00",
+      "code": "2905-608-COT26",
+      "estimated_budget": 200000.0,
+      "name": "SERVICIO DE TRASLADO PARA 18 PERSONAS DESDE MALALHUE A SECTOR DE PILFITRANA PARA USUARIOS PDTI",
+      "products": 1,
+      "region": "Región de Los Ríos"
+    },
+    {
+      "available_budget_clp": 1200000.0,
+      "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+      "closes_at": "2026-11-05T21:30:00",
+      "code": "1057491-1998-COT26",
+      "estimated_budget": 1200000.0,
+      "name": "ADQUISICIÓN DE BOLSAS Y PLACAS PARA COLOSTOMÍA EN MEDIDAS 32 MM Y 57 MM.",
+      "products": 4,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 120000.0,
+      "buyer": "CORPORACION CULTURAL DE LA REINA",
+      "closes_at": "2026-11-06T13:00:00",
+      "code": "1238111-129-COT26",
+      "estimated_budget": 120000.0,
+      "name": "SERVICIO DE ARRIENDO DE BAÑOS QUÍMICOS ENCENDIDO DEL ÁRBOL DE NAVIDAD PLAZA OSSANDÓN",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 1000000.0,
+      "buyer": "CORPORACION CULTURAL DE LA REINA",
+      "closes_at": "2026-11-06T13:00:00",
+      "code": "1238111-128-COT26",
+      "estimated_budget": 1000000.0,
+      "name": "SERVICIO DE ARRIENDO DE SILLAS Y CONFECCIÓN DE CAMARÍN ENCENDIDO DEL  ÁRBOL DE NAVIDAD PLAZA OSSANDÓN",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
     }
   ],
-  "active_structurally_reconstructable_count": 1,
+  "active_structurally_reconstructable_count": 10,
   "diagnostics": {
-    "api_failures": {
-      "api_rate_limited": 2
-    },
+    "api_failures": {},
     "budget_exhausted": false,
     "detail_attempts": 20,
     "detail_cap_exhausted": true,
-    "details_fetched": 18,
+    "details_fetched": 20,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -31,24 +119,24 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-04T19:53:22Z",
-  "inserted_history": 18,
+  "generated_at": "2026-11-05T00:56:09Z",
+  "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_API_ERRORS",
+  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
   "phase1": {
-    "records": 18,
+    "records": 20,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 12
+      "no_observable_competitive_prices": 1
     },
-    "resolved": 17,
-    "structurally_reconstructable": 6,
-    "with_observable_quote_totals": 5,
-    "with_purchase_order_indicator": 4
+    "resolved": 10,
+    "structurally_reconstructable": 19,
+    "with_observable_quote_totals": 9,
+    "with_purchase_order_indicator": 3
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-04T19:53:22Z"
+    "changed_to": "2026-11-05T00:56:09Z"
   }
 }
