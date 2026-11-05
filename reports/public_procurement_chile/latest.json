@@ -1,55 +1,83 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 611000.0,
-      "buyer": "CORPORACIÓN MUNICIPAL DE DESARROLLO SOCIAL DE TIL TIL",
-      "closes_at": "2026-11-06T14:12:00",
-      "code": "1439285-208-COT26",
-      "estimated_budget": 611000.0,
-      "name": "EQUIPO ESCENCIAL PARA FUNCIONAMIENTO  DE CENTRO DE SALUD URGENTE/NO FACTORING",
-      "products": 8,
-      "region": "Región Metropolitana de Santiago"
+      "available_budget_clp": 2100000.0,
+      "buyer": "UNIVERSIDAD DE TARAPACA",
+      "closes_at": "2026-11-06T19:05:00",
+      "code": "5952-125-COT26",
+      "estimated_budget": 2100000.0,
+      "name": "EQUIPAMIENTO DE MICROFONÍA SALA DE EVENTOS OVIDIO SOTOMAYOR",
+      "products": 4,
+      "region": "Región de Arica y Parinacota"
     },
     {
-      "available_budget_clp": 300000.0,
-      "buyer": "SERVICIO DE SALUD DEL MAULE HOSPITAL DE TENO",
-      "closes_at": "2026-11-06T12:00:00",
-      "code": "1465-581-COT26",
-      "estimated_budget": 300000.0,
-      "name": "KINDLE DE LECTURA",
+      "available_budget_clp": 170000.0,
+      "buyer": "Dirección de Salud Municipal",
+      "closes_at": "2026-11-09T10:00:00",
+      "code": "2664-733-COT26",
+      "estimated_budget": 170000.0,
+      "name": "TALLIMETRO PORTATIL CONEVNIO MAIS CECOSR EL SANTO",
       "products": 1,
-      "region": "Región del Maule"
+      "region": "Región del Biobío"
     },
     {
-      "available_budget_clp": 5080000.0,
-      "buyer": "I MUNICIPALIDAD DE PUERTO MONTT",
-      "closes_at": "2026-11-09T07:30:00",
-      "code": "2328-1346-COT26",
-      "estimated_budget": 5080000.0,
-      "name": "ADQUISICIÓN IMPLEMENTACIÓN DEPORTIVA Y FOLCLÓRICA - LICEO COMERCIAL MIRAMAR / FICHA 24297",
-      "products": 22,
-      "region": "Región de los Lagos"
-    },
-    {
-      "available_budget_clp": 300000.0,
-      "buyer": "SERVICIO DE SALUD DEL MAULE HOSPITAL DE TENO",
-      "closes_at": "2026-11-06T12:00:00",
-      "code": "1465-582-COT26",
-      "estimated_budget": 300000.0,
-      "name": "SET DE TATAMI",
+      "available_budget_clp": 800000.0,
+      "buyer": "I MUNICIPALIDAD DE BULNES",
+      "closes_at": "2026-11-06T19:30:00",
+      "code": "3904-995-COT26",
+      "estimated_budget": 800000.0,
+      "name": "OP26-1557 Servicio de Alimentación Seminario Centro Integral de la Mujer",
       "products": 1,
-      "region": "Región del Maule"
+      "region": "Región del Ñuble"
+    },
+    {
+      "available_budget_clp": 2700000.0,
+      "buyer": "SERVICIO DE SALUD ARAUCANIA NORTE",
+      "closes_at": "2026-11-11T12:00:00",
+      "code": "1057390-323-COT26",
+      "estimated_budget": 2700000.0,
+      "name": "EJECUCIÓN PROYECTO: ILUMINACIÓN BODEGA DROGUERÍA SERVICIO DE SALUD ARAUCANÍA NORTE",
+      "products": 1,
+      "region": "Región de la Araucanía"
+    },
+    {
+      "available_budget_clp": 7000000.0,
+      "buyer": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+      "closes_at": "2026-11-09T15:00:00",
+      "code": "2263-57-COT26",
+      "estimated_budget": 7000000.0,
+      "name": "ADQUISICION DE PAPEL ADHESIVO PARA UNIDAD DE SEÑALES, DE LA PROVINCIA DE MALLECO, REGION DE LA ARAUCANIA",
+      "products": 2,
+      "region": "Región de la Araucanía"
+    },
+    {
+      "available_budget_clp": 258825.0,
+      "buyer": "I MUNICIPALIDAD DE CURACAUTIN",
+      "closes_at": "2026-11-06T19:30:00",
+      "code": "4118-59-COT26",
+      "estimated_budget": 258825.0,
+      "name": "SERVICIO DE ALIMENTACIÓN GIRA TÉCNICA",
+      "products": 1,
+      "region": "Región de la Araucanía"
+    },
+    {
+      "available_budget_clp": 800000.0,
+      "buyer": "SERVICIO DE SALUD VINA DEL MAR QUILLOTA",
+      "closes_at": "2026-11-06T19:30:00",
+      "code": "1704-3830-COT26",
+      "estimated_budget": 800000.0,
+      "name": "*COMPRA DE SENSOR SPO2 ADULTO BLUE PRO PARA MONITOR NIHON KOHDEN CU-151R",
+      "products": 1,
+      "region": "Región de Valparaíso"
     }
   ],
-  "active_structurally_reconstructable_count": 4,
+  "active_structurally_reconstructable_count": 7,
   "diagnostics": {
-    "api_failures": {
-      "api_rate_limited": 6
-    },
+    "api_failures": {},
     "budget_exhausted": false,
     "detail_attempts": 20,
     "detail_cap_exhausted": true,
-    "details_fetched": 14,
+    "details_fetched": 20,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -61,24 +89,24 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-05T12:31:39Z",
-  "inserted_history": 14,
+  "generated_at": "2026-11-05T22:07:30Z",
+  "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_API_ERRORS",
+  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
   "phase1": {
-    "records": 14,
+    "records": 20,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 2
+      "no_observable_competitive_prices": 10
     },
-    "resolved": 10,
-    "structurally_reconstructable": 12,
-    "with_observable_quote_totals": 8,
+    "resolved": 13,
+    "structurally_reconstructable": 10,
+    "with_observable_quote_totals": 3,
     "with_purchase_order_indicator": 3
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-05T12:31:39Z"
+    "changed_to": "2026-11-05T22:07:30Z"
   }
 }
