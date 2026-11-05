@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-05T00:44:40.143491+00:00
+Generated: 2026-11-05T11:52:20.530173+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['vertical_farming_economics', 'energy_localization', 'wildcard']
-- raw_candidates: 2
-- parseable_candidates: 2
-- normalized_candidates: 2
+- lenses: ['remote_paid_evaluation', 'inventoryless_product_validation', 'fixed_scope_paid_research_asset']
+- raw_candidates: 1
+- parseable_candidates: 1
+- normalized_candidates: 1
 - normalization_rejected: 0
-- grounded_sources: 6
+- grounded_sources: 2
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
 - critic_reviews: 1
 - judge_reviews: 1
 - survivors: 0
-- watches: 3
-- rejected: 0
+- watches: 0
+- rejected: 1
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.04570535
+- cost_usd: 0.05528115
 - cost_uncertain: False
-- budget_remaining_usd: 0.03429465
+- budget_remaining_usd: 0.02471885
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -56,7 +56,7 @@ No survivors. Scout does not manufacture a daily winner.
 ```json
 {
   "notes": [
-    "deep_review_lane=backlog",
+    "deep_review_lane=fresh",
     "research_queue_unreviewed=86"
   ],
   "stages": [
@@ -65,28 +65,25 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 20,
+      "grounded_source_count": 17,
       "search_source_urls": [
-        "https://arxiv.org/abs/2403.08934",
-        "https://arxiv.org/abs/2510.03686",
-        "https://cartas.coordinador.cl/download_saved_file/69987e403563571bb7154573",
-        "https://energia.gob.cl/Reglamento%20D.S.%20N%C2%B0%2088%20D.S.%20N%C2%B057",
-        "https://energia.gob.cl/sites/default/files/documentos/reporte_de_proyectos_-_julio_2025.pdf",
-        "https://www.cnr.gob.cl/agricultores/como-postular/",
-        "https://www.cnr.gob.cl/cnr-incentiva-la-eficiencia-hidrica-en-pequenos-agricultores-y-cooperativas-del-norte-chico/",
-        "https://www.cnr.gob.cl/ministerio-de-agricultura-lanza-calendario-de-concursos-2025-de-la-ley-de-riego/",
-        "https://www.cnr.gob.cl/pequena-agricultura/",
-        "https://www.cnr.gob.cl/wp-content/uploads/2023/11/plan_CC_Silvoagropecuario.pdf",
-        "https://www.cnr.gob.cl/wp-content/uploads/2024/01/Instructivo-Tecnico-Pequena-Agricultura-2024.pdf",
-        "https://www.cnr.gob.cl/wp-content/uploads/2024/01/Programa-Especial-Pequena-Agricultura-v.2.pdf",
-        "https://www.coordinador.cl/novedades/coordinador-electrico-nacional-limita-operacion-de-17-pequenas-centrales-de-generacion-solares/",
-        "https://www.coordinador.cl/novedades/coordinador-electrico-presenta-informe-de-monitoreo-de-la-competencia-con-desafios-estructurales/",
-        "https://www.coordinador.cl/novedades/energia-solar-y-eolica-marco-record-de-participacion-en-el-sistema-electrico-en-2025/",
-        "https://www.coordinador.cl/novedades/informacion-respecto-de-la-situacion-del-sistema-electrico-nacional/",
-        "https://www.coordinador.cl/presentaciones/informe-monitoreo-de-la-competencia-en-el-mercado-electrico-2025/",
-        "https://www.coordinador.cl/wp-content/uploads/2026/03/2025-12-29-CONFERENCIA-DE-PRENSA.pdf",
-        "https://www.indexbox.io/store/latin-america-and-the-caribbean-smart-indoor-gardening-system-market-analysis-forecast-size-trends-and-insights/",
-        "https://www.nature.com/articles/s44264-025-00091-z"
+        "https://app.outlier.ai/login?job_post_id=4476998005",
+        "https://app.outlier.ai/opportunities/4481627005",
+        "https://app.outlier.ai/opportunities/4498965005?referring_user=bb4761668f71453dfb9514866699512e743d2ff9731ebeb9abef1a1cff8c5db571ae4287d3b48dd11b99498e34601a8e",
+        "https://app.outlier.ai/opportunities/4506395005?referring_user=39e139f44edfe79622a259422d8de98ebcddfaeb7a1f26eddffd79aa2e04597688c9bb74ff171a94e64133e99f111b93",
+        "https://app.outlier.ai/opportunities/4522871005",
+        "https://jobs.telusdigital.com/fr/search/cfm3/spanish/jobs",
+        "https://jobs.telusdigital.com/jobs/17987355-quality-assurance-rater-spanish-spain",
+        "https://jobs.telusdigital.com/jobs/18154786-online-data-analyst-chile",
+        "https://jobs.telusdigital.com/search/cfm3/russian-spanish/jobs/in/chile/country/chile?ns_category=artificial-intelligence",
+        "https://jobs.telusdigital.com/search/jobs/in/country/chile",
+        "https://www.dataannotation.tech/portuguese",
+        "https://www.oneforma.com/join/aiesec/",
+        "https://www.oneforma.com/wp-content/uploads/2024/06/Pandora-Labelling-QA-SOW_NSFW-ESCL.pdf",
+        "https://www.oneforma.com/wp-content/uploads/2024/10/Lighthouse-Preference-Ranking-QA-SOW_Crowds_esES.pdf",
+        "https://www.oneforma.com/wp-content/uploads/2025/05/SOW_Isaac_Amber_Annotation_es_ES.pdf",
+        "https://www.oneforma.com/wp-content/uploads/2025/05/SOW_Isaac_Amber_Spanish-Spain-locale-es_ES-.pdf",
+        "https://www.oneforma.com/wp-content/uploads/2025/06/Polly_SOW_pt_BR.pdf"
       ]
     },
     {
@@ -101,66 +98,65 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 3,
-      "retry_justified": false
-    },
-    {
-      "index": 1,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 3,
+      "grounded_sources": 2,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_9c53621ef496fb65470a",
+      "candidate_id": "opp_a80ce6ab09e0e03bd3d9",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 23,
+      "grounded_source_count": 37,
       "search_source_urls": [
-        "https://aggiehero.ucdavis.edu/food/news/assumption-about-farm-automation-may-be-wrong",
-        "https://apnews.com/article/df6087837925c14cfdd7ad2f80410a54",
-        "https://apnews.com/article/e828eb5fdd188eeaa1ccd5144d34dfab",
-        "https://arxiv.org/abs/1808.04336",
-        "https://arxiv.org/abs/2208.11566",
-        "https://arxiv.org/abs/2308.07512",
-        "https://arxiv.org/abs/2401.08629",
-        "https://aureaimaging.com/",
-        "https://blogs.cornell.edu/enychp/tree-fruit/apples/tree-fruit-blog-promising-ag-vision-technologies-highlighted-at-the-cce-statewide-virtual-apple-fruit-conference-what-is-possible-today-and-in-the-future/",
-        "https://coloradoproduce.org/wp-content/uploads/2023/07/cit_97817_2022-harvest-report_r6-digital_prod.pdf",
-        "https://ers.usda.gov/sites/default/files/_laserfiche/publications/95828/AP-082.pdf",
-        "https://fruitgrowersnews.com/article/2026-fgn-labor-survey-h2a-automation/",
-        "https://nyshs.org/wp-content/uploads/2023/12/NYFQ-BOOK-Summer-2023_FINAL.pdf",
-        "https://rsn.umn.edu/projects/orchard-monitoring/robotic-yield-estimation-apple-orchards",
-        "https://sat.afpc.tamu.edu/2025/08/29/the-labor-technology-shift-for-smaller-southeastern-u-s-specialty-crop-growers/",
-        "https://treefruit.wsu.edu/publications/specialty-crop-growers-perspectives-on-adopting-new-technologies/",
-        "https://wginnovation.com/wp-content/uploads/2024/06/wgcit_2021_harvest_automation_report_2022-02-07.pdf",
-        "https://www.agharvestreport.com/hubfs/wgcit_2021_harvest_automation_report_2022-02-07.pdf?hsLang=en",
-        "https://www.farmprogress.com/technology/specialty-crop-growers-face-automation-barriers",
-        "https://www.freshplaza.com/north-america/article/9869271/ai-camera-system-tracks-fruit-and-predicts-orchard-yields/",
-        "https://www.nal.usda.gov/research-tools/food-safety-research-projects/artificial-intelligence-yield-estimations-fruit",
-        "https://www.nifa.usda.gov/about-nifa/impacts/automation-specialty-crops",
-        "https://www.wga.com/news/why-specialty-crop-harvest-automation-requires-creative-grower-led-solutions/"
+        "https://aiworkcentral.com/guides/is-outlier-legit",
+        "https://annotation.academy/blog/outlier-ai-review",
+        "https://arxiv.org/abs/2610.09279",
+        "https://assets.ctfassets.net/3viuren4us1n/3Nb4SWbk8uUEVkFPiPkSHu/842d32416414bfd80282b53db6a7e6f8/TELUS_Digital_Brochure_Custom_data_genAI_model_fine-tuning.pdf",
+        "https://assets.ctfassets.net/3viuren4us1n/6qoBMTSOSbjOU4J1ytsbVU/8f490d431c2ed57d5258dde044a7031d/Fraud_prevention_in_crowdsourcing_AI_training_data.pdf",
+        "https://assets.ctfassets.net/3viuren4us1n/7Is3KTyGYuK6wG4BYlfa9C/08840fef56e4eb58b47562b1106dbb62/TELUS_Digital_AI_Data_Solutions_Brochure_2025.pdf",
+        "https://assets.ctfassets.net/fltupc9ltp8m/4ZHkmNtiUO4wyn1AViU3a8/0918b822216f5abd85c82ded741b1dcd/TELUS_2024_MD_A_and_Financial_Statements__EN.pdf",
+        "https://assets.ctfassets.net/fltupc9ltp8m/5XMfEtySOfXg9mh25TUeS/2b711837335ec72e214a6130cae20392/TELUS_2025_MD_A_and_Financial_Statements__EN.pdf",
+        "https://elpais.com/tecnologia/2026-10-15/los-trabajadores-europeos-que-entrenan-las-ia-ya-sabia-que-me-metia-en-unas-condiciones-que-no-eran-las-mejores.html",
+        "https://labelingjobs.net/guides/how-outlier-pays-rates-payout-days-methods-and-rate-cuts",
+        "https://labelingjobs.net/guides/is-outlier-ai-legit-who-runs-it-how-it-pays-and-what-contributors-report",
+        "https://outlier.ai/faq",
+        "https://theairankings.com/ai-jobs/outlier-review/",
+        "https://time.com/6962608/data-annotation-legit-tech-jobs-ai/",
+        "https://www.axios.com/newsletters/axios-ai-plus-545a769a-3628-484e-b7d9-762b2e78659d",
+        "https://www.glassdoor.com/Reviews/Employee-Review-Outlier-AI-E2858115-RVW103642522.htm",
+        "https://www.indeed.com/cmp/Outlier-Ai/reviews?fcountry=US&fjobtitle=Contributor",
+        "https://www.indeed.com/cmp/Outlier-Ai/reviews?fjobtitle=Contributor&ftext=ai+",
+        "https://www.indeed.com/cmp/Telus-Digital-3/reviews?campaignid=viewjob&cmpratingc=mobviewjob&fromjk=1ced8a29beae1ddb&jt=Online+Data+Analyst+-+Lithuanian",
+        "https://www.indeed.com/cmp/Telus-Digital-3/reviews?fcountry=ALL&fjobtitle=Data+analyst&ftext=Online+data+analyst",
+        "https://www.indeed.com/cmp/Telus-Digital-3/reviews?fcountry=US&fjobtitle=Data+Analyst&ftext=No%2Btasks",
+        "https://www.lemonde.fr/pixels/article/2025/05/25/les-pratiques-sociales-douteuses-de-telus-un-des-principaux-sous-traitants-de-google-meta-et-tiktok_6608378_4408996.html",
+        "https://www.reddit.com/r/TELUSinternational/comments/1nwbkf3/let_go_for_low_productivity/",
+        "https://www.reddit.com/r/outlier_ai/comments/1bjkktt",
+        "https://www.reddit.com/r/outlier_ai/comments/1g6pnnz/update_on_outlier_upgrades_contributor_pay/",
+        "https://www.reddit.com/r/outlier_ai/comments/1gwirmm",
+        "https://www.reddit.com/r/outlier_ai/comments/1jptisi",
+        "https://www.reddit.com/r/outlier_ai/comments/1pswsrb/how_many_of_us_out_here_have_not_received_any/",
+        "https://www.reddit.com/r/outlier_ai/comments/1pv46ni/unpaid_work_need_help/",
+        "https://www.reddit.com/r/outlier_ai/comments/1qrh45t/unapproved_annotator/",
+        "https://www.reddit.com/r/outlier_ai/comments/1uwoyes/yes_it_is_a_scam/",
+        "https://www.reddit.com/r/outlier_ai/comments/1v70spm/task_review_quality/",
+        "https://www.reddit.com/r/outlier_ai/comments/1v9vyox/outlier_withheld_100_of_my_earnings_270_after/",
+        "https://www.reddit.com/r/outlier_ai/comments/1vhsrto/deactivated_after_2_months_172_hours_worked_and_a/",
+        "https://www.techradar.com/pro/security/telus-digital-confirms-breach-hackers-allegedly-stole-almost-1-petabyte-of-data",
+        "https://www.techradar.com/pro/software-services/i-tested-the-7-best-survey-and-poll-apps-to-earn-money-in-2026",
+        "https://www.telusdigital.com/media/data-collection.pdf"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_9c53621ef496fb65470a",
+      "candidate_id": "opp_a80ce6ab09e0e03bd3d9",
       "coercions": [
         "contrary_evidence"
       ]
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_9c53621ef496fb65470a",
+      "candidate_id": "opp_a80ce6ab09e0e03bd3d9",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -168,7 +164,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_9c53621ef496fb65470a",
+      "candidate_id": "opp_a80ce6ab09e0e03bd3d9",
       "coercions": []
     }
   ],
@@ -176,44 +172,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 303,
-      "cache_write_tokens": 5497,
+      "reasoning_tokens": 279,
+      "cache_write_tokens": 4958,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01506705,
+      "cumulative_cost_usd": 0.0140361,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13953,
+      "input_tokens": 13493,
       "cached_tokens": 0,
-      "output_tokens": 1668,
+      "output_tokens": 908,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01506705
+      "estimated_cost_usd": 0.0140361
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 129,
-      "cache_write_tokens": 5288,
+      "reasoning_tokens": 254,
+      "cache_write_tokens": 5341,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02978485,
+      "cumulative_cost_usd": 0.03903615,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13705,
+      "input_tokens": 16561,
       "cached_tokens": 0,
-      "output_tokens": 1427,
-      "web_search_calls": 1,
-      "estimated_cost_usd": 0.0147178
+      "output_tokens": 1184,
+      "web_search_calls": 2,
+      "estimated_cost_usd": 0.02500005
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 71,
-      "cache_write_tokens": 2785,
+      "reasoning_tokens": 232,
+      "cache_write_tokens": 3510,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.04570535,
+      "cumulative_cost_usd": 0.05528115,
       "model": "gpt-5.6-terra",
-      "input_tokens": 2788,
+      "input_tokens": 3513,
       "cached_tokens": 0,
-      "output_tokens": 746,
+      "output_tokens": 622,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.0159205
+      "estimated_cost_usd": 0.016245
     }
   ]
 }
