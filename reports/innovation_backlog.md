@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 170
+Candidates: 172
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -75,6 +75,18 @@ Candidates: 170
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://jobs.lever.co/appen/27404a7a-4fca-42e3-bae4-072148d17dce; https://jobs.lever.co/appen/27404a7a-4fca-42e3-bae4-072148d17dce/apply?lever-source=BilingualJobs.io
+
+## CNR-qualified irrigation retrofit package for small farms and water-user organizations
+- Status: watch | chile_localization
+- Current idea: The economically testable wedge is not building a new vertical farm; it is supplying standardized drip irrigation, pumping, filtration, controls and water-measurement packages that fit an existing subsidy and application workflow. The subsidy can reduce the farmer’s required cash contribution, but approval, eligibility, land and water-right documentation remain constraints.
+- Potential economic capture: Sell or subcontract the equipment, installation and compliant technical design; alternatively earn a disclosed design/application fee if permitted by the relevant CNR process. Actual pricing, margins, eligibility and installer permissions must be verified project by project.
+- **Research routes to test (NOT validated claims):**
+  - Find the smallest Chilean workflow whose economics differ from the original geography.
+  - Secure lawful access, partners and after-sales support rather than copy protected technology.
+  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cnr.gob.cl/agricultores/como-postular/; https://www.cnr.gob.cl/ministerio-de-agricultura-lanza-calendario-de-concursos-2025-de-la-ley-de-riego/; https://www.cnr.gob.cl/wp-content/uploads/2024/01/Instructivo-Tecnico-Pequena-Agricultura-2024.pdf
 
 ## Inventoryless Chilean bathroom-accessibility bundle: bidet attachment plus grab bar
 - Status: watch | chile_localization
@@ -375,6 +387,18 @@ Candidates: 170
 - Critical gaps: Whether a specific constrained node has persistent, forecastable spreads after round-trip efficiency, degradation, cycling limits, charging costs, imbalance exposure, and network charges.; Whether public data is sufficiently granular, reliable, and timely for bankable site screening rather than retrospective analysis.; The actual willingness of Chilean generators, large users, landowners, or engineering firms to pay for an independent screen.
 - Possible initial budget:
 - Source URLs: https://www.coordinador.cl/wp-content/uploads/2026/04/Informe-Monitoreo-2025.pdf; https://www.coordinador.cl/presentaciones/informe-monitoreo-de-la-competencia-en-el-mercado-electrico-2025/
+
+## Curtailment-led battery feasibility wedge for Chilean PMGD solar assets
+- Status: watch | energy_infrastructure
+- Current idea: A narrow opportunity exists to identify solar PMGD sites where measured curtailment, local congestion or price timing could justify a behind-the-meter or co-located battery study. The opportunity is not proven until a specific plant’s dispatch data, interconnection constraints, battery cost, revenue stack and permitting path produce positive economics.
+- Potential economic capture: Potential value capture would be a paid site-screening report, a success-based project-origination fee agreed with an asset owner, or participation in procurement/installation if a battery project reaches investment decision. No buyer, fee, savings or project permission is established by the evidence.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.coordinador.cl/presentaciones/informe-monitoreo-de-la-competencia-en-el-mercado-electrico-2025/; https://www.coordinador.cl/novedades/coordinador-electrico-nacional-limita-operacion-de-17-pequenas-centrales-de-generacion-solares/; https://energia.gob.cl/Reglamento%20D.S.%20N%C2%B0%2088%20D.S.%20N%C2%B057
 
 ## Energy-performance verification for desalination and seawater-pumping systems in Chilean mining
 - Status: watch | energy_infrastructure
@@ -1968,7 +1992,7 @@ Candidates: 170
   - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
   - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
   - Arrange a bounded field validation with an actual farm operator before scaling.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Which crop, cultivar, training system, geography, and orchard size will be served first.; Required accuracy for a grower to alter harvest timing, labor allocation, thinning, packing, or sales decisions.; Whether maturity classification is sufficiently reliable under commercial lighting, canopy occlusion, and cultivar variation.
 - Possible initial budget:
 - Source URLs: https://www.nifa.usda.gov/about-nifa/impacts/automation-specialty-crops; https://www.ars.usda.gov/research/project/?accnNo=448156
 

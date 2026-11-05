@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-11-04T19:22:40.820240+00:00
+Generated: 2026-11-05T00:44:40.553089+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 170 (0 HQ survivors, 170 watches)
+- Active research: 172 (0 HQ survivors, 172 watches)
 - Rejected opportunities excluded: 95
-- Critic-and-judge reviewed: 76
+- Critic-and-judge reviewed: 77
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -613,6 +613,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://ifr.org/news/five-million-robots-now-operate-in-factories-globally/; https://ifr.org/ifr-press-releases/news/presidents-report-by-jane-heffner-3-2026
 
+### Low-cost orchard maturity and yield-scanning service using commercially available sensors [opp_9c53621ef496fb65470a]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States specialty-crop regions
+- Thesis: The narrow wedge is not selling a full harvesting robot. It is collecting orchard blocks' fruit-count, maturity or yield-estimate data before harvest so growers can improve harvest scheduling, labor allocation and packhouse planning. This can be tested with a rented or owner-operated camera/vehicle setup before any capital-intensive robotics deployment.
+- Value capture: Per-block scouting reports, seasonal monitoring or a data package sold to an orchard, packhouse or harvest coordinator. The economic mechanism is payment for improved harvest-timing and labor-planning information; price, conversion rate and savings are not established by the cited evidence and must be tested.
+- Participation hypothesis: Select one crop and one measurable output, such as apple counts by block or maturity distribution. Use a low-cost camera mounted on an ATV, utility vehicle or handheld rig, process a small sample and compare predictions with the grower's eventual harvest or packhouse records. Approach growers, extension contacts or packhouses only with a paid or unpaid sample protocol, without claiming validated commercial accuracy. Falsify cheaply by testing three blocks and abandoning the offer if measurement error is not useful for an actual scheduling decis
+- Critic/judge: The narrow service wedge is materially more credible than a claim to deploy autonomous harvesting: it relies on commercially available sensing and explicitly frames field validation before scale. Public USDA work supports that orchard sensing for yield, maturity, and harvest-timing is technically relevant, but it does not validate this specific low-cost service, its accuracy in commercial orchards, or customer willingness to pay. The cu
+- Next evidence gaps: Which crop, cultivar, training system, geography, and orchard size will be served first.; Required accuracy for a grower to alter harvest timing, labor allocation, thinning, packing, or sales decisions.; Whether maturity classification is sufficiently reliable under commercial lighting, canopy occlusion, and cultivar variation.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.nifa.usda.gov/about-nifa/impacts/automation-specialty-crops; https://www.ars.usda.gov/research/project/?accnNo=448156
+
 ### Managed agent orchestration is lowering the cost of production AI workflows [opp_30978e90c9f1315f2e7c]
 - Status: WATCH_REQUIRES_VALIDATION | general | United States/global
 - Thesis: Agent deployment is becoming less dependent on bespoke orchestration infrastructure, potentially making repetitive case review, coding, research, and operations workflows economical at smaller scale.
@@ -842,6 +852,26 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-113897.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html
+
+### CNR-qualified irrigation retrofit package for small farms and water-user organizations [opp_88d1129cd5cb0236b936]
+- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile, with an initial focus on Atacama, Coquimbo, Maule and other regions covered by CNR contests
+- Thesis: The economically testable wedge is not building a new vertical farm; it is supplying standardized drip irrigation, pumping, filtration, controls and water-measurement packages that fit an existing subsidy and application workflow. The subsidy can reduce the farmer’s required cash contribution, but approval, eligibility, land and water-right documentation remain constraints.
+- Value capture: Sell or subcontract the equipment, installation and compliant technical design; alternatively earn a disclosed design/application fee if permitted by the relevant CNR process. Actual pricing, margins, eligibility and installer permissions must be verified project by project.
+- Participation hypothesis: Select one CNR contest and one crop-growing area. Use the public CNR consultant directory and contest requirements to identify three authorized or established irrigation designers/installers. Ask five eligible farms, cooperatives or water-user organizations for permission to review one existing irrigation system and collect: hectares, crop, pump rating, irrigation hours, sectors, water source, electricity bill and prior subsidy history. Prepare one no-cost preliminary design and ask the farmer whether they would submit a paid proposal or introd
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cnr.gob.cl/agricultores/como-postular/; https://www.cnr.gob.cl/ministerio-de-agricultura-lanza-calendario-de-concursos-2025-de-la-ley-de-riego/; https://www.cnr.gob.cl/wp-content/uploads/2024/01/Instructivo-Tecnico-Pequena-Agricultura-2024.pdf
+
+### Curtailment-led battery feasibility wedge for Chilean PMGD solar assets [opp_be96f644fc5f681b8c7f]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile, especially congested solar regions in the Norte Chico and Atacama
+- Thesis: A narrow opportunity exists to identify solar PMGD sites where measured curtailment, local congestion or price timing could justify a behind-the-meter or co-located battery study. The opportunity is not proven until a specific plant’s dispatch data, interconnection constraints, battery cost, revenue stack and permitting path produce positive economics.
+- Value capture: Potential value capture would be a paid site-screening report, a success-based project-origination fee agreed with an asset owner, or participation in procurement/installation if a battery project reaches investment decision. No buyer, fee, savings or project permission is established by the evidence.
+- Participation hypothesis: Download public CEN generation, curtailment and congestion materials and construct a list of solar PMGD plants with repeated reductions or operating limits. Contact owners only through publicly disclosed company channels and request permission for a 30-day data-room review containing hourly generation, curtailed energy, node, contract structure and interconnection limits. Build a spreadsheet comparing lost generation value against battery CAPEX, degradation, round-trip losses, market participation and permitting costs. Stop if three owner conta
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.coordinador.cl/presentaciones/informe-monitoreo-de-la-competencia-en-el-mercado-electrico-2025/; https://www.coordinador.cl/novedades/coordinador-electrico-nacional-limita-operacion-de-17-pequenas-centrales-de-generacion-solares/; https://energia.gob.cl/Reglamento%20D.S.%20N%C2%B0%2088%20D.S.%20N%C2%B057
 
 ### Evidence-backed micro-SaaS acquisition screening dataset [opp_cae875df41755d92137e]
 - Status: WATCH_REQUIRES_VALIDATION | general | United States
@@ -1422,16 +1452,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://arxiv.org/abs/2509.25056; https://www.ndsu.edu/agriculture/sites/default/files/2026-02/2026%20ACAW%20ANDERSON%20Robotic%20Weeding%20PPT.pdf
-
-### Low-cost orchard maturity and yield-scanning service using commercially available sensors [opp_9c53621ef496fb65470a]
-- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States specialty-crop regions
-- Thesis: The narrow wedge is not selling a full harvesting robot. It is collecting orchard blocks' fruit-count, maturity or yield-estimate data before harvest so growers can improve harvest scheduling, labor allocation and packhouse planning. This can be tested with a rented or owner-operated camera/vehicle setup before any capital-intensive robotics deployment.
-- Value capture: Per-block scouting reports, seasonal monitoring or a data package sold to an orchard, packhouse or harvest coordinator. The economic mechanism is payment for improved harvest-timing and labor-planning information; price, conversion rate and savings are not established by the cited evidence and must be tested.
-- Participation hypothesis: Select one crop and one measurable output, such as apple counts by block or maturity distribution. Use a low-cost camera mounted on an ATV, utility vehicle or handheld rig, process a small sample and compare predictions with the grower's eventual harvest or packhouse records. Approach growers, extension contacts or packhouses only with a paid or unpaid sample protocol, without claiming validated commercial accuracy. Falsify cheaply by testing three blocks and abandoning the offer if measurement error is not useful for an actual scheduling decis
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.nifa.usda.gov/about-nifa/impacts/automation-specialty-crops; https://www.ars.usda.gov/research/project/?accnNo=448156
 
 ### Marketplace-specific catalog and offer monitoring for Natura Chile sellers [opp_49094e54aa9a3ec43bc2]
 - Status: WATCH_REQUIRES_VALIDATION | competitive_positioning | Chile

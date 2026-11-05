@@ -225,6 +225,43 @@
       "category": "chile_localization",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Select one CNR contest and one crop-growing area. Use the public CNR consultant directory and contest requirements to identify three authorized or established irrigation designers/installers. Ask five eligible farms, cooperatives or water-user organizations for permission to review one existing irrigation system and collect: hectares, crop, pump rating, irrigation hours, sectors, water source, electricity bill and prior subsidy history. Prepare one no-cost preliminary design and ask the farmer whether they would submit a paid proposal or introduce the operator to their authorized consultant. Falsify if fewer than two of five prospects have an eligible project, sufficient documentation or willingness to pay the uncovered portion after a preliminary design.",
+      "current_thesis": "The economically testable wedge is not building a new vertical farm; it is supplying standardized drip irrigation, pumping, filtration, controls and water-measurement packages that fit an existing subsidy and application workflow. The subsidy can reduce the farmer’s required cash contribution, but approval, eligibility, land and water-right documentation remain constraints.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile, with an initial focus on Atacama, Coquimbo, Maule and other regions covered by CNR contests",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "CNR-qualified irrigation retrofit package for small farms and water-user organizations",
+      "opportunity_id": "opp_88d1129cd5cb0236b936",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Find the smallest Chilean workflow whose economics differ from the original geography.",
+        "Secure lawful access, partners and after-sales support rather than copy protected technology.",
+        "Run a buyer interview or mock listing to falsify assumptions before capital commitment."
+      ],
+      "supporting_source_urls": [
+        "https://www.cnr.gob.cl/agricultores/como-postular/",
+        "https://www.cnr.gob.cl/ministerio-de-agricultura-lanza-calendario-de-concursos-2025-de-la-ley-de-riego/",
+        "https://www.cnr.gob.cl/wp-content/uploads/2024/01/Instructivo-Tecnico-Pequena-Agricultura-2024.pdf"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell or subcontract the equipment, installation and compliant technical design; alternatively earn a disclosed design/application fee if permitted by the relevant CNR process. Actual pricing, margins, eligibility and installer permissions must be verified project by project.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "chile_localization",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "First contact Flashdrop and request, in writing, the exact landed supplier cost, available Chilean stock, dispatch SLA, return/warranty process, neutral or white-label packaging, and permission to resell the specific bidet and grab-bar SKUs. Separately verify that the products can legally and safely be marketed for the intended use. Before ads or Shopify, publish one compliant MercadoLibre or WhatsApp listing with a transparent price and collect at least five qualified inquiries or one paid order. Falsify if the supplier will not confirm stock/fulfilment terms, the delivered-cost spreadsheet cannot support a positive contribution margin at observed market prices, or qualified buyers reject the bundle. Do not buy inventory.",
       "current_thesis": "The evidence supports testing a narrowly positioned accessibility/convenience bundle rather than another generic bathroom store. Demand for the exact bundle, conversion rate, delivery economics, returns, and legal/commercial permissions remain unverified.",
       "founder_hours_initial_unverified_estimate": "",
@@ -1135,6 +1172,43 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Potential cash-flow sources are a fixed feasibility-screening fee from a project developer or site owner, or a success fee negotiated with a licensed engineering/development partner after an independently verified project proceeds. No public evidence here establishes a standard fee, guaranteed spread, bankability or investable return.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "energy_infrastructure",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Download public CEN generation, curtailment and congestion materials and construct a list of solar PMGD plants with repeated reductions or operating limits. Contact owners only through publicly disclosed company channels and request permission for a 30-day data-room review containing hourly generation, curtailed energy, node, contract structure and interconnection limits. Build a spreadsheet comparing lost generation value against battery CAPEX, degradation, round-trip losses, market participation and permitting costs. Stop if three owner contacts cannot provide plant-level data or if the first two reviewed sites cannot show a plausible payback under conservative assumptions.",
+      "current_thesis": "A narrow opportunity exists to identify solar PMGD sites where measured curtailment, local congestion or price timing could justify a behind-the-meter or co-located battery study. The opportunity is not proven until a specific plant’s dispatch data, interconnection constraints, battery cost, revenue stack and permitting path produce positive economics.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile, especially congested solar regions in the Norte Chico and Atacama",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Curtailment-led battery feasibility wedge for Chilean PMGD solar assets",
+      "opportunity_id": "opp_be96f644fc5f681b8c7f",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
+        "Compare owned asset, installer/distributor and project-finance participation.",
+        "Verify permits and installed net payback under conservative power price scenarios."
+      ],
+      "supporting_source_urls": [
+        "https://www.coordinador.cl/presentaciones/informe-monitoreo-de-la-competencia-en-el-mercado-electrico-2025/",
+        "https://www.coordinador.cl/novedades/coordinador-electrico-nacional-limita-operacion-de-17-pequenas-centrales-de-generacion-solares/",
+        "https://energia.gob.cl/Reglamento%20D.S.%20N%C2%B0%2088%20D.S.%20N%C2%B057"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Potential value capture would be a paid site-screening report, a success-based project-origination fee agreed with an asset owner, or participation in procurement/installation if a battery project reaches investment decision. No buyer, fee, savings or project permission is established by the evidence.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -6216,9 +6290,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "United States specialty-crop regions",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "Which crop, cultivar, training system, geography, and orchard size will be served first.",
+        "Required accuracy for a grower to alter harvest timing, labor allocation, thinning, packing, or sales decisions.",
+        "Whether maturity classification is sufficiently reliable under commercial lighting, canopy occlusion, and cultivar variation.",
+        "Whether scans provide information earlier or more cheaply than existing manual scouting, consultants, packhouse forecasts, or grower software.",
+        "Willingness to pay per block, acre, scan, season, or forecast improvement.",
+        "Gross margin after travel, setup, field collection, image processing, annotation, re-scans, customer support, and insurance.",
+        "Seasonal utilization and whether enough nearby acreage can be aggregated to make field operations economic."
       ],
       "investment_authorized": false,
       "name": "Low-cost orchard maturity and yield-scanning service using commercially available sensors",
@@ -6466,7 +6544,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-04T19:22:40.943587+00:00",
+  "generated_at": "2026-11-05T00:44:40.683298+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

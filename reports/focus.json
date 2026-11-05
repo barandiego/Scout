@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-11-04T19:22:40.820240+00:00",
+  "generated_at": "2026-11-05T00:44:40.553089+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -13,7 +13,7 @@
     },
     {
       "opportunity_id": "opp_7ea6a495427da87c8c5c",
-      "other_cards_in_theme": 17,
+      "other_cards_in_theme": 18,
       "reviewed": true,
       "status": "watch",
       "theme": "energy_infrastructure",
@@ -104,14 +104,14 @@
   "high_concentration": [
     {
       "cards": 71,
-      "share": 0.418,
+      "share": 0.413,
       "theme": "chile_open_finance"
     }
   ],
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 74,
+  "theme_count": 75,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -204,6 +204,7 @@
         "opp_c1584a90439dd95ddbd7",
         "opp_a71e28685127733c914e",
         "opp_13c386e9cabe10c8389b",
+        "opp_be96f644fc5f681b8c7f",
         "opp_20b079df210ea1d3088c",
         "opp_821fe989c63ca8db797f",
         "opp_e28d4caaa77e09a2caa9",
@@ -213,7 +214,7 @@
         "opp_99cbde4d890de7c2b82f",
         "opp_71c647684dc9a170f988"
       ],
-      "count": 18,
+      "count": 19,
       "representative_id": "opp_7ea6a495427da87c8c5c",
       "reviewed_count": 9,
       "theme": "energy_infrastructure"
@@ -289,6 +290,15 @@
       "representative_id": "opp_78e3949cb81b530dd931",
       "reviewed_count": 0,
       "theme": "chile_localization:apply_telus_digital"
+    },
+    {
+      "all_opportunity_ids": [
+        "opp_88d1129cd5cb0236b936"
+      ],
+      "count": 1,
+      "representative_id": "opp_88d1129cd5cb0236b936",
+      "reviewed_count": 0,
+      "theme": "chile_localization:cnr_qualified_irrigation"
     },
     {
       "all_opportunity_ids": [
@@ -818,7 +828,7 @@
       ],
       "count": 1,
       "representative_id": "opp_9c53621ef496fb65470a",
-      "reviewed_count": 0,
+      "reviewed_count": 1,
       "theme": "robotics_agritech:low_cost_orchard"
     },
     {
@@ -876,6 +886,6 @@
       "theme": "robotics_agritech:water_efficiency_field"
     }
   ],
-  "total_original_cards": 170,
+  "total_original_cards": 172,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }
