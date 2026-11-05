@@ -1,113 +1,55 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 2000000.0,
-      "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
-      "closes_at": "2026-11-05T21:50:00",
-      "code": "1057491-1999-COT26",
-      "estimated_budget": 2000000.0,
-      "name": "ADQUISICIÓN DE MASCARILLAS DE OXIGENOTERAPIA TIPO VENTURI PARA PACIENTES ADULTOS Y PEDIÁTRICOS(´POSTULAR SOLO SI TIENE STOCK)",
-      "products": 2,
+      "available_budget_clp": 611000.0,
+      "buyer": "CORPORACIÓN MUNICIPAL DE DESARROLLO SOCIAL DE TIL TIL",
+      "closes_at": "2026-11-06T14:12:00",
+      "code": "1439285-208-COT26",
+      "estimated_budget": 611000.0,
+      "name": "EQUIPO ESCENCIAL PARA FUNCIONAMIENTO  DE CENTRO DE SALUD URGENTE/NO FACTORING",
+      "products": 8,
       "region": "Región Metropolitana de Santiago"
     },
     {
-      "available_budget_clp": 30000.0,
-      "buyer": "MOP-BIENESTAR- VI REGION",
-      "closes_at": "2026-11-06T08:00:00",
-      "code": "607764-20-COT26",
-      "estimated_budget": 30000.0,
-      "name": "ADQUISICIÓN DE SESIONES DE ACTIVIDAD FISICA PARA LAS PERSONAS AFILIADAS  AL  SERVICIO DE BIENESTAR DEL MINISTERIO DE OBRAS PUBLICAS DE LA PROVINCIA COLCHAGUA,  REGIÓN DE O´HIGGINS",
+      "available_budget_clp": 300000.0,
+      "buyer": "SERVICIO DE SALUD DEL MAULE HOSPITAL DE TENO",
+      "closes_at": "2026-11-06T12:00:00",
+      "code": "1465-581-COT26",
+      "estimated_budget": 300000.0,
+      "name": "KINDLE DE LECTURA",
       "products": 1,
-      "region": "Región del Libertador General Bernardo O´Higgins"
+      "region": "Región del Maule"
     },
     {
-      "available_budget_clp": 500000.0,
-      "buyer": "ATF-60 \"LIENTUR\"",
-      "closes_at": "2026-11-06T08:15:00",
-      "code": "1315764-95-COT26",
-      "estimated_budget": 500000.0,
-      "name": "ADQUISICIÓN DE VALVULA SELENOIDE PARA OPERACIÓN SOBERANIA",
-      "products": 1,
-      "region": "Región de Magallanes y de la Antártica"
+      "available_budget_clp": 5080000.0,
+      "buyer": "I MUNICIPALIDAD DE PUERTO MONTT",
+      "closes_at": "2026-11-09T07:30:00",
+      "code": "2328-1346-COT26",
+      "estimated_budget": 5080000.0,
+      "name": "ADQUISICIÓN IMPLEMENTACIÓN DEPORTIVA Y FOLCLÓRICA - LICEO COMERCIAL MIRAMAR / FICHA 24297",
+      "products": 22,
+      "region": "Región de los Lagos"
     },
     {
-      "available_budget_clp": 3500000.0,
-      "buyer": "ATF-60 \"LIENTUR\"",
-      "closes_at": "2026-11-06T08:15:00",
-      "code": "1315764-96-COT26",
-      "estimated_budget": 3500000.0,
-      "name": "ADQUISICIÓN DE REPEUSTOS Y MATERIALES OPERACIÓN SOBERANÍA",
+      "available_budget_clp": 300000.0,
+      "buyer": "SERVICIO DE SALUD DEL MAULE HOSPITAL DE TENO",
+      "closes_at": "2026-11-06T12:00:00",
+      "code": "1465-582-COT26",
+      "estimated_budget": 300000.0,
+      "name": "SET DE TATAMI",
       "products": 1,
-      "region": "Región de Magallanes y de la Antártica"
-    },
-    {
-      "available_budget_clp": 265000.0,
-      "buyer": "UNIVERSIDAD DE CHILE",
-      "closes_at": "2026-11-06T09:00:00",
-      "code": "5178-5439-COT26",
-      "estimated_budget": 265000.0,
-      "name": "CARPETAS CORPORATIVAS / SP 1076092 / CJ",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 660000.0,
-      "buyer": "I MUNICIPALIDAD DE LANCO",
-      "closes_at": "2026-11-06T09:00:00",
-      "code": "2905-609-COT26",
-      "estimated_budget": 660000.0,
-      "name": "SERVICIO DE GIRA TÉCNICA HORTALICERA EN SECTOR PILFITRANA PARA USUARIOS PDTI",
-      "products": 1,
-      "region": "Región de Los Ríos"
-    },
-    {
-      "available_budget_clp": 200000.0,
-      "buyer": "I MUNICIPALIDAD DE LANCO",
-      "closes_at": "2026-11-06T09:00:00",
-      "code": "2905-608-COT26",
-      "estimated_budget": 200000.0,
-      "name": "SERVICIO DE TRASLADO PARA 18 PERSONAS DESDE MALALHUE A SECTOR DE PILFITRANA PARA USUARIOS PDTI",
-      "products": 1,
-      "region": "Región de Los Ríos"
-    },
-    {
-      "available_budget_clp": 1200000.0,
-      "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
-      "closes_at": "2026-11-05T21:30:00",
-      "code": "1057491-1998-COT26",
-      "estimated_budget": 1200000.0,
-      "name": "ADQUISICIÓN DE BOLSAS Y PLACAS PARA COLOSTOMÍA EN MEDIDAS 32 MM Y 57 MM.",
-      "products": 4,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 120000.0,
-      "buyer": "CORPORACION CULTURAL DE LA REINA",
-      "closes_at": "2026-11-06T13:00:00",
-      "code": "1238111-129-COT26",
-      "estimated_budget": 120000.0,
-      "name": "SERVICIO DE ARRIENDO DE BAÑOS QUÍMICOS ENCENDIDO DEL ÁRBOL DE NAVIDAD PLAZA OSSANDÓN",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 1000000.0,
-      "buyer": "CORPORACION CULTURAL DE LA REINA",
-      "closes_at": "2026-11-06T13:00:00",
-      "code": "1238111-128-COT26",
-      "estimated_budget": 1000000.0,
-      "name": "SERVICIO DE ARRIENDO DE SILLAS Y CONFECCIÓN DE CAMARÍN ENCENDIDO DEL  ÁRBOL DE NAVIDAD PLAZA OSSANDÓN",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
+      "region": "Región del Maule"
     }
   ],
-  "active_structurally_reconstructable_count": 10,
+  "active_structurally_reconstructable_count": 4,
   "diagnostics": {
-    "api_failures": {},
+    "api_failures": {
+      "api_rate_limited": 6
+    },
     "budget_exhausted": false,
     "detail_attempts": 20,
     "detail_cap_exhausted": true,
-    "details_fetched": 20,
+    "details_fetched": 14,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -119,24 +61,24 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-05T00:56:09Z",
-  "inserted_history": 20,
+  "generated_at": "2026-11-05T12:31:39Z",
+  "inserted_history": 14,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
+  "outcome": "DEGRADED_API_ERRORS",
   "phase1": {
-    "records": 20,
+    "records": 14,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 1
+      "no_observable_competitive_prices": 2
     },
     "resolved": 10,
-    "structurally_reconstructable": 19,
-    "with_observable_quote_totals": 9,
+    "structurally_reconstructable": 12,
+    "with_observable_quote_totals": 8,
     "with_purchase_order_indicator": 3
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-05T00:56:09Z"
+    "changed_to": "2026-11-05T12:31:39Z"
   }
 }
