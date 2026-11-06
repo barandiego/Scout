@@ -387,6 +387,102 @@
     {
       "ai_leverage": "",
       "authorized_for_execution": false,
+      "contrary_evidence": [
+        "NCG 569 appears to have completed much of the technical framework and states that entities are now in a position to develop the required integrations. This supports real implementation demand, but also reduces uncertainty that an independent specification-extraction product could monetize. Source: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "CMF launched ATENA in September 2026 as a controlled environment for testing integrations, technical adequacy, participant-directory interoperability, and business models. This is direct evidence of an accessible alternative to at least part of the proposed test harness. Source: https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "The technical framework includes a simplified-participation regime for certain smaller information providers. The consultation material indicates that qualifying entities may need only a limited channels-of-attention API and may be exempt from customer-data APIs, consent-control panels, FAPI 2.0 certificates, and certain reporting requirements. This can substantially shrink the addressable market for a full conformance harness. Source: https://www.cmfchile.cl/institucional/legislacion_normativa/normativa_tramite_ver_archivo.php?id=2025111249&seq=1",
+        "The market already contains vendors presenting Chile-specific SFA/NCG 514/569 integration, consent, FAPI 2.0, directory, audit, and observability capabilities. These are not proof of traction, but they are contrary evidence against an uncontested wedge. Sources: https://nexos-sfa.prodigio.tech/; https://www.fiskil.com/es/open-finance/chile",
+        "The 2025 consultation reportedly received more than 400 comments from 32 entities and industry groups, indicating substantial incumbent and stakeholder involvement in the implementation process. That increases the likelihood that buyers will rely on established advisers, technology vendors, and industry-developed tooling. Source: https://www.cmfchile.cl/portal/prensa/625/w4-article-100482.html"
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-11-06T18:54:31.368988+00:00",
+      "discovery_lens": "open_finance_chile",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF issued the SFA regulation on July 3, 2024; it governs information sharing by people and companies and was scheduled to enter into force 24 months after publication.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF publica norma que regula el Sistema de Finanzas Abiertas en el marco de la Ley Fintec",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html"
+        },
+        {
+          "claim": "The SFA’s main exchange method is APIs; express customer consent is required; consent can be revoked; and query thresholds may permit charges from an information provider to a service-based information provider.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Preguntas Frecuentes: Sistema Finanzas Abiertas - SFA",
+          "url": "https://www.cmfchile.cl/portal/principal/613/articles-82744_recurso_1.pdf"
+        },
+        {
+          "claim": "CMF records a 2025 public consultation concerning modifications to NCG 514 and incorporation of a technical annex, indicating that implementation details continued to evolve.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF publica consulta pública sobre modificación de NCG 514 e incorporación de Anexo Técnico",
+          "url": "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa_tramite_cerrada.php?tpl=alt"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [
+        "Fatal if the proposed validator substantially duplicates ATENA or a free official conformance suite and no target customer identifies a material missing capability.",
+        "Fatal if at least 10 identifiable Chilean target organizations are contacted and none agrees to test the tool against a non-production API or sample payload.",
+        "Fatal if no target organization confirms both a responsible budget owner and a plausible paid procurement path before meaningful product development.",
+        "Fatal if target buyers state that only CMF, an accredited certifier, an incumbent core/API vendor, or a major systems integrator can provide acceptable conformance evidence.",
+        "Fatal if the full-scope addressable population is too small after excluding simplified participants, institutions with outsourced compliance, and entities already covered by incumbent platforms.",
+        "Fatal if the technical annex or developer portal changes enough during validation that maintaining accurate rules requires consultancy-level effort without corresponding pricing power.",
+        "Strong negative evidence if pilots find that schema and consent tests are easy to reproduce internally and produce no measurable reduction in integration failures, audit effort, or launch delay.",
+        "Strong negative evidence if incumbent vendors bundle equivalent testing into implementation contracts at no separately visible price.",
+        "Positive survival condition: at least one regulated or soon-to-be-integrated organization supplies a non-production interface or sample specification, uses the validator, identifies a gap in ATENA or incumbent tooling, and agrees to a paid pilot with a defined budget and acceptance criterion."
+      ],
+      "geography": "Chile",
+      "id": "opp_3d005ec125b4af90afb1",
+      "judge_reviewed": true,
+      "judgment": "The regulatory premise is sufficiently grounded in CMF primary materials: SFA implementation is real, consented API exchange and revocation are within the framework, and NCG 569/ATENA materially support an implementation-and-testing period toward July 2027. Therefore this is not rejected for an unverified or misread regulatory change. However, the proposed standalone conformance harness has not established a legally/technically usable input path from customers, recognized evidentiary value, buyer budget, or differentiation from CMF's ATENA environment and incumbent SFA implementation vendors. It survives only as a narrow research hypothesis: identify a paid, regulated full-scope participant whose non-production interface can be tested and whose specific missing capability is not supplied by ATENA, its integrator, or its API platform. Do not treat broad SFA rollout as validation of a standalone software market.",
+      "last_record_updated_at": "2026-11-06T18:54:59.349438+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Whether ATENA exposes automated conformance results, downloadable evidence, negative-test coverage, CI/CD integration, or only a manual/testing environment.",
+        "Whether CMF, auditors, banks, or procurement departments would recognize an independent validator's report as useful evidence.",
+        "The number of entities required to implement the full SFA scope versus simplified participation.",
+        "Which participants lack equivalent internal or vendor-provided conformance testing.",
+        "Whether Chilean institutions have allocated budget specifically for external SFA testing rather than absorbing it into larger implementation projects."
+      ],
+      "participation_path": "Lowest-cost falsification: extract the mandatory fields and flows from CMF NCG 514, its FAQ, and the later technical-annex consultation; build a small local validator covering one consent flow, one account-information response, one revocation event, and threshold logging. Then send the validator to identifiable Chilean fintechs or financial institutions listed in CMF registries and ask whether they already possess equivalent tests, whether an external validator would be used in procurement or integration, and whether a paid pilot is permissible. Do not access live financial data or represent the tool as CMF-approved. Continue only if at least one real organization agrees to test it against a non-production API or sample payload; otherwise return zero.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A regulated or soon-to-be-integrated participant may need to prove that its API, consent lifecycle, authentication, revocation, error handling, and query-volume controls conform to the SFA specification. The economic mechanism is implementation and audit cost avoided, plus potentially fewer failed integrations or charge disputes. No evidence found that a particular customer or price already exists.",
+      "title": "Chile SFA API-conformance and consent-audit test harness",
+      "type": "compliance_software_wedge",
+      "unknowns": [
+        "Whether ATENA exposes automated conformance results, downloadable evidence, negative-test coverage, CI/CD integration, or only a manual/testing environment.",
+        "Whether CMF, auditors, banks, or procurement departments would recognize an independent validator's report as useful evidence.",
+        "The number of entities required to implement the full SFA scope versus simplified participation.",
+        "Which participants lack equivalent internal or vendor-provided conformance testing.",
+        "Whether Chilean institutions have allocated budget specifically for external SFA testing rather than absorbing it into larger implementation projects.",
+        "Whether query-threshold accounting and charge-dispute prevention will be economically significant before production traffic exists.",
+        "The stability of the technical annex, developer portal, certification rules, test cases, and participant-directory APIs before July 2027.",
+        "The founder's ability to obtain non-production APIs, realistic sample payloads, security credentials, and access to qualified Chilean decision-makers.",
+        "Whether a software-only product can overcome localization, support, security-review, liability, and procurement barriers in regulated financial institutions.",
+        "Whether ATENA provides automated conformance assertions, reusable test cases, negative-path testing, CI/CD use, evidence exports, or only a controlled integration environment.",
+        "Whether full-scope regulated participants can and will grant a new vendor access to non-production APIs, realistic samples, credentials, or specifications without an established supplier relationship.",
+        "Whether a specific buyer has an externally owned budget and procurement path for validation distinct from its implementation, audit, security-testing, or systems-integrator budget.",
+        "Which precise mandatory flow has a costly gap in official and incumbent tooling—for example, reproducible consent lifecycle evidence, threshold/charge reconciliation, or regression testing—not generic schema or OAuth/FAPI checks.",
+        "Whether independent validation measurably reduces launch delay, failed integrations, audit effort, or charge disputes enough to support paid pricing.",
+        "The actual number of full-scope organizations not already covered by internal tooling, platform vendors, or implementation contracts."
+      ],
+      "value_capture_mechanism": "A narrowly scoped test harness or implementation-review package could charge for software access or fixed-scope validation only if prospective users confirm budget and purchasing authority. The initial asset could include machine-readable checks for API schemas, consent expiry/revocation, FAPI 2.0 security flows, rate/threshold accounting, and evidence-export reports. This is a testable wedge, not evidence of an established market.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": true,
       "discovered_at": "2026-10-12T00:16:18.700474+00:00",
@@ -12362,13 +12458,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-06T11:49:45.381937+00:00",
+  "generated_at": "2026-11-06T18:54:59.974397+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 98,
-  "reviewed_cards": 79,
+  "reviewed_cards": 80,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 274,
-  "watch": 176
+  "total_distinct_opportunities": 275,
+  "watch": 177
 }

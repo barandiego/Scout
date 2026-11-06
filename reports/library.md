@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-11-06T11:49:45.381937+00:00
+Generated: 2026-11-06T18:54:59.974397+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 176 (0 HQ survivors, 176 watches)
+- Active research: 177 (0 HQ survivors, 177 watches)
 - Rejected opportunities excluded: 98
-- Critic-and-judge reviewed: 79
+- Critic-and-judge reviewed: 80
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -52,6 +52,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Whether VIC Robotics will authorize or pay an independent referral, implementation, or site-assessment partner.; The exact commission, fee, gross margin, payment trigger, exclusivity, lead ownership, and attribution period.; Whether UF 20/month applies to the relevant industrial model, surface area, contract term, geography, and service level.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.vicrobotics.com/about; https://www.vicrobotics.com/; https://www.vicrobotics.com/soluciones/limpieza-industrial-bodegas
+
+### Chile SFA API-conformance and consent-audit test harness [opp_3d005ec125b4af90afb1]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: A regulated or soon-to-be-integrated participant may need to prove that its API, consent lifecycle, authentication, revocation, error handling, and query-volume controls conform to the SFA specification. The economic mechanism is implementation and audit cost avoided, plus potentially fewer failed integrations or charge disputes. No evidence found that a particular customer or price already exists.
+- Value capture: A narrowly scoped test harness or implementation-review package could charge for software access or fixed-scope validation only if prospective users confirm budget and purchasing authority. The initial asset could include machine-readable checks for API schemas, consent expiry/revocation, FAPI 2.0 security flows, rate/threshold accounting, and evidence-export reports. This is a testable wedge, not evidence of an established market.
+- Participation hypothesis: Lowest-cost falsification: extract the mandatory fields and flows from CMF NCG 514, its FAQ, and the later technical-annex consultation; build a small local validator covering one consent flow, one account-information response, one revocation event, and threshold logging. Then send the validator to identifiable Chilean fintechs or financial institutions listed in CMF registries and ask whether they already possess equivalent tests, whether an external validator would be used in procurement or integration, and whether a paid pilot is permissible
+- Critic/judge: The regulatory premise is sufficiently grounded in CMF primary materials: SFA implementation is real, consented API exchange and revocation are within the framework, and NCG 569/ATENA materially support an implementation-and-testing period toward July 2027. Therefore this is not rejected for an unverified or misread regulatory change. However, the proposed standalone conformance harness has not established a legally/technically usable i
+- Next evidence gaps: Whether ATENA exposes automated conformance results, downloadable evidence, negative-test coverage, CI/CD integration, or only a manual/testing environment.; Whether CMF, auditors, banks, or procurement departments would recognize an independent validator's report as useful evidence.; The number of entities required to implement the full SFA scope versus simplified participation.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html; https://www.cmfchile.cl/portal/principal/613/articles-82744_recurso_1.pdf; https://www.cmfchile.cl/institucional/legislacion_normativa/normativa_tramite_cerrada.php?tpl=alt
 
 ### Chile SFA conformance and consent-flow testing for fintech participants before July 2027 [opp_f26e42aaabb91e157f9d]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile

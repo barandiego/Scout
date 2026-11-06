@@ -2,8 +2,8 @@
 
 Research assignment only. **Zero verified buyers, sales, or execution permissions.**
 
-- Generated: 2026-11-06T11:49:45.381937+00:00
-- Research cards reviewed: 176
+- Generated: 2026-11-06T18:54:59.974397+00:00
+- Research cards reviewed: 177
 - Narrow ideas selected for founder review: 4
 - Verified third-party receipts: **none**
 
@@ -16,13 +16,13 @@ Research assignment only. **Zero verified buyers, sales, or execution permission
 - Sources: https://www.fne.gob.cl/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-plataformas/; https://group.dhl.com/content/dam/deutschepostdhl/en/media-center/media-relations/documents/2025/e-commerce-trends-report-2025-business-edition.pdf
 - Status: **WATCH — no automated outreach, spending, or execution**
 
-## 2. Chile SFA pre-registration and interoperability test harness
+## 2. Chile SFA API-conformance and consent-audit test harness
 - Origin: existing Scout research; open_finance_chile; no new opportunity claim
 - Next falsifiable no-spend test: Identify one genuinely budget-owning regulated buyer, one conformance failure, and an independently accepted paid software deliverable before coding a broad financial integration.
-- Distribution hypothesis (not verified): Build a minimal local test harness from the published NCG 514 technical annex and publicly available developer specifications. Test it against any accessible ATENA materials or documented API behavior. Then contact a small sample of Chilean fintechs, payment operators, cooperatives, insurers, or other entities identified in the CMF participant ecosystem and offer a no-cost diagnostic using synthetic data. Falsification test: w
+- Distribution hypothesis (not verified): Lowest-cost falsification: extract the mandatory fields and flows from CMF NCG 514, its FAQ, and the later technical-annex consultation; build a small local validator covering one consent flow, one account-information response, one revocation event, and threshold logging. Then send the validator to identifiable Chilean fintechs or financial institutions listed in CMF registries and ask whether they already possess equivalent t
 - Independent critic/judge: CRITIC_JUDGE_COMPLETE_NOT_COMMERCIAL_PROOF
 - Missing: independent_specific_buyer, written_price_or_paid_commitment, verified_fulfilment_and_unit_cost, distribution_permission_or_channel, actual_third_party_receipt
-- Sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html; https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640
+- Sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html; https://www.cmfchile.cl/portal/principal/613/articles-82744_recurso_1.pdf; https://www.cmfchile.cl/institucional/legislacion_normativa/normativa_tramite_cerrada.php?tpl=alt
 - Status: **WATCH — no automated outreach, spending, or execution**
 
 ## 3. BESS and inverter compliance pre-check for Chilean distributed-energy projects
