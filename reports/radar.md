@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-06T07:06:40.340274+00:00
+Generated: 2026-11-06T16:04:38.748976+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 202
+- New this cycle: 182
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): none
-- Categories: agriculture 566, ai 118, energy 508, robotics 608
+- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
+- Categories: agriculture 564, ai 120, energy 506, robotics 610
 
 ## Recently encountered signals
+
+### cffarmsagro-eng/cf-farms-agro
+- Source: https://github.com/cffarmsagro-eng/cf-farms-agro
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### charantej-hoop/AgriSense
 - Source: https://github.com/charantej-hoop/AgriSense
@@ -454,10 +460,4 @@ Generated: 2026-11-06T07:06:40.340274+00:00
 - Source: https://github.com/pranavkambale2007-code/AgroSense-AI-Powered-Smart-Agriculture-Farm-Intelligence-Platform
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### shahed2710/smart-microgrid-simulation
-- Source: https://github.com/shahed2710/smart-microgrid-simulation
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
