@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-05T22:09:31.331159+00:00
+Generated: 2026-11-06T07:06:40.340274+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 183
+- New this cycle: 202
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 558, ai 112, energy 502, robotics 628
+- Categories: agriculture 566, ai 118, energy 508, robotics 608
 
 ## Recently encountered signals
+
+### charantej-hoop/AgriSense
+- Source: https://github.com/charantej-hoop/AgriSense
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### nirbhaypatil1008/FARM-SATHI
 - Source: https://github.com/nirbhaypatil1008/FARM-SATHI
@@ -454,10 +460,4 @@ Generated: 2026-11-05T22:09:31.331159+00:00
 - Source: https://github.com/shahed2710/smart-microgrid-simulation
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Bharti-Shirke/Smart-Farming-Assistant
-- Source: https://github.com/Bharti-Shirke/Smart-Farming-Assistant
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
