@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-11-06T00:45:02.419170+00:00
+Generated: 2026-11-06T11:49:45.381937+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 174 (0 HQ survivors, 174 watches)
-- Rejected opportunities excluded: 97
-- Critic-and-judge reviewed: 78
+- Active research: 176 (0 HQ survivors, 176 watches)
+- Rejected opportunities excluded: 98
+- Critic-and-judge reviewed: 79
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -673,6 +673,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
 
+### Open-finance implementation monitoring and developer-readiness service [opp_b5bb525067a4142275e1]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: The executable wedge is not becoming a data provider or payment initiator. It is a reusable compliance-and-integration monitoring asset for firms preparing against the published technical requirements: version tracking, endpoint checklists, test-case generation, change alerts and implementation documentation. The cash-flow source would need to be a verified paying firm or vendor; no buyer or price is assumed.
+- Value capture: Charge for a narrowly scoped technical-readiness audit, recurring specification-change monitoring or reusable test harness, subject to the client's authorization and regulatory perimeter. The CMF timetable is a catalyst for preparation spending, not proof of demand or permission to handle financial data.
+- Participation hypothesis: Download and study the official technical materials, build a public parser/checklist using only published documentation, and test distribution by sending a sample change log to Chilean fintechs, banks' technology vendors and compliance consultancies through publicly listed channels. Ask for a paid discovery session or written request for a specific deliverable before adding regulated integrations. Falsify if ten targeted firms show no interest in reviewing the sample, or if the work requires permissions, certifications or confidential specifica
+- Critic/judge: The cited CMF primary sources are sufficient to treat the regulatory timetable and publication of technical materials as grounded, not an unverified regulatory-change claim. The proposed wedge is deliberately outside the regulated data-access/payment-initiation perimeter: a documentation, readiness, and change-monitoring product using public materials. Therefore there is no demonstrated fatal legal or technical inability to obtain requi
+- Next evidence gaps: No identified paying customer, signed pilot, purchase order, budget owner or validated price.; No evidence that Chilean firms want a standalone monitoring product rather than consulting, internal work or bundled vendor support.; No estimate of the number of addressable participating entities, implementation budgets or realistic annual contract value.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html
+
 ### Open-finance implementation test pack for Chilean fintechs [opp_defb3b9b7ca243658e89]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: The actionable wedge is a conformance-testing and data-mapping asset for one regulated or intending-to-register participant: API request/response fixtures, consent and authorization test cases, field-level mapping, error logs and a reproducible sandbox test report. This is narrower and cheaper to validate than building a consumer finance app before the system is operational.
@@ -1123,6 +1133,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=EcOU%2FNAETsEAzivMPKQg7w%3D%3D; https://www.en-standard.eu/une-en-iso-10218-1-2026-robotics-safety-requirements-part-1-industrial-robots-iso-10218-1-2025/
 
+### Bid-ready resilience package for small-utility battery and microgrid subawards [opp_5571f801955a232174a9]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States
+- Thesis: Small utilities receiving or pursuing resilience funds must convert an eligible project into procurement-ready technical specifications, interconnection documentation, cost-match evidence, and monitoring requirements. The funding mechanism creates a public purchasing route without requiring the operator to own generation or batteries.
+- Value capture: A narrowly scoped, reusable procurement package: site-screening worksheet, BESS/microgrid specification, vendor-neutral bill of materials, interconnection checklist, resilience-benefit calculation, and bid-evaluation template. Cash flow would come from a utility, Tribal utility, engineering prime, or grant-funded project procurement if one elects to purchase the package; no purchase or margin is assumed.
+- Participation hypothesis: Use DOE’s subaward and project lists to identify five small utilities or Tribal utilities with active resilience awards or planned procurements. Send a one-page sample specification and offer a fixed-price paid pilot limited to one facility. Falsify at lowest cost by checking whether each target has a public procurement notice, named project contact, and requirement for outside technical support; abandon if none exists or if the work requires engineering licensure the operator does not possess. Do not represent eligibility for DOE funds or prom
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.energy.gov/documents/formula-grant-program-infographic; https://www.energy.gov/oe/funding-opportunities-and-requests-information
+
 ### Bid-support and compliance package for Chile’s 2026/01 regulated power-supply tender [opp_20b079df210ea1d3088c]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile; SEN zones, especially Zone 2
 - Thesis: Developers and consortia that already control generation, storage or interconnection may need bid-ready documentation, dispatch/energy calculations, zone and time-block analysis, and compliance coordination before submitting. This is a procurement-enablement wedge, not evidence that an independent operator can win or resell electricity.
@@ -1463,6 +1483,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://github.com/kindrat86/ai-agent-incident-database/blob/main/README.md; https://github.com/paolodm/ai-coding-agents-incidents
 
+### Licensed-feedstock matching for antimony-bearing lead-battery scrap [opp_fae38501d518e3a074eb]
+- Status: WATCH_REQUIRES_VALIDATION | physical_distribution | United States
+- Thesis: The price shock and established recycling channel create a testable wedge around locating, characterizing, and routing legally controlled lead-battery scrap or antimony-bearing secondary material to licensed processors. The opportunity is feedstock access and documentation, not speculative mineral ownership.
+- Value capture: A verified supplier-and-processor match with sampling, chain-of-custody, and indicative-bid documentation. Potential cash flow could come from a disclosed brokerage, sourcing, or logistics fee paid by a licensed recycler or industrial supplier; no buyer, fee, spread, or completed sale is assumed.
+- Participation hypothesis: Build a list from public state environmental permits and recycler directories, then contact three licensed secondary lead or battery recyclers with a non-binding inquiry asking what antimony-bearing feedstock specifications and minimum lot sizes they accept. Separately identify five local commercial or industrial sources of spent lead-acid batteries and ask only whether material is already handled by a licensed recycler. Falsify if processors will not provide accepted specifications, if sources cannot document lawful handling, or if the materia
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf; https://www.usgs.gov/news/national-news-release/value-us-mineral-production-rose-last-year-driven-precious-metals-prices
+
 ### Local document-extraction appliance for Chilean invoice and customs workflows [opp_1e56231188a972422e29]
 - Status: WATCH_REQUIRES_VALIDATION | innovation_adoption | Chile
 - Thesis: A small operator can assemble a reproducible appliance for one document class—such as supplier invoices, import documents, or transport paperwork—without paying per-page cloud OCR or sending documents off-site. The economically testable wedge is not generic AI automation; it is a fixed deliverable that converts a defined folder of Spanish-language documents into validated fields plus an exception queue.
@@ -1542,16 +1572,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://jobs.telusdigital.com/search/cfm3/russian-spanish/cfm5/ai-community/jobs/in/country/chile?ns_category=artificial-intelligence; https://jobs.telusdigital.com/fr/jobs/18154785-online-data-analyst-chile
-
-### Open-finance implementation monitoring and developer-readiness service [opp_b5bb525067a4142275e1]
-- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
-- Thesis: The executable wedge is not becoming a data provider or payment initiator. It is a reusable compliance-and-integration monitoring asset for firms preparing against the published technical requirements: version tracking, endpoint checklists, test-case generation, change alerts and implementation documentation. The cash-flow source would need to be a verified paying firm or vendor; no buyer or price is assumed.
-- Value capture: Charge for a narrowly scoped technical-readiness audit, recurring specification-change monitoring or reusable test harness, subject to the client's authorization and regulatory perimeter. The CMF timetable is a catalyst for preparation spending, not proof of demand or permission to handle financial data.
-- Participation hypothesis: Download and study the official technical materials, build a public parser/checklist using only published documentation, and test distribution by sending a sample change log to Chilean fintechs, banks' technology vendors and compliance consultancies through publicly listed channels. Ask for a paid discovery session or written request for a specific deliverable before adding regulated integrations. Falsify if ten targeted firms show no interest in reviewing the sample, or if the work requires permissions, certifications or confidential specifica
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html
 
 ### Open-finance implementation-readiness toolkit for Chilean fintech software vendors [opp_d52a4c290d45b663a6f3]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile

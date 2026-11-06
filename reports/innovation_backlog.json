@@ -994,6 +994,42 @@
       "category": "energy_infrastructure",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use DOE’s subaward and project lists to identify five small utilities or Tribal utilities with active resilience awards or planned procurements. Send a one-page sample specification and offer a fixed-price paid pilot limited to one facility. Falsify at lowest cost by checking whether each target has a public procurement notice, named project contact, and requirement for outside technical support; abandon if none exists or if the work requires engineering licensure the operator does not possess. Do not represent eligibility for DOE funds or promise award access.",
+      "current_thesis": "Small utilities receiving or pursuing resilience funds must convert an eligible project into procurement-ready technical specifications, interconnection documentation, cost-match evidence, and monitoring requirements. The funding mechanism creates a public purchasing route without requiring the operator to own generation or batteries.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Bid-ready resilience package for small-utility battery and microgrid subawards",
+      "opportunity_id": "opp_5571f801955a232174a9",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
+        "Compare owned asset, installer/distributor and project-finance participation.",
+        "Verify permits and installed net payback under conservative power price scenarios."
+      ],
+      "supporting_source_urls": [
+        "https://www.energy.gov/documents/formula-grant-program-infographic",
+        "https://www.energy.gov/oe/funding-opportunities-and-requests-information"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A narrowly scoped, reusable procurement package: site-screening worksheet, BESS/microgrid specification, vendor-neutral bill of materials, interconnection checklist, resilience-benefit calculation, and bid-evaluation template. Cash flow would come from a utility, Tribal utility, engineering prime, or grant-funded project procurement if one elects to purchase the package; no purchase or margin is assumed.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "energy_infrastructure",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Lowest-cost test: download the definitive tender documents from the official Chilean electricity-tender portal, build a two-page compliance matrix and a simple storage-bid calculation workbook, then send it to 10 publicly identifiable Chilean storage/renewable developers or tender advisers asking whether one paid review would reduce submission risk. Do not claim authority to represent a bidder, submit an offer, or provide regulated engineering/legal advice. Falsify if no qualified contact confirms a specific missing deliverable or requests a paid pilot within 20 outreach attempts.",
       "current_thesis": "Developers and consortia that already control generation, storage or interconnection may need bid-ready documentation, dispatch/energy calculations, zone and time-block analysis, and compliance coordination before submitting. This is a procurement-enablement wedge, not evidence that an independent operator can win or resell electricity.",
       "founder_hours_initial_unverified_estimate": "",
@@ -4804,9 +4840,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "Chile",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "No identified paying customer, signed pilot, purchase order, budget owner or validated price.",
+        "No evidence that Chilean firms want a standalone monitoring product rather than consulting, internal work or bundled vendor support.",
+        "No estimate of the number of addressable participating entities, implementation budgets or realistic annual contract value.",
+        "No evidence that official documentation will be versioned in a sufficiently stable and machine-readable manner for reliable automated monitoring.",
+        "No evidence that an independent operator can obtain the testing access, credentials, support or technical clarifications needed to deliver meaningful readiness assessments.",
+        "No analysis of Chilean language, procurement, contracting, data-protection, professional-liability or regulated-advice requirements.",
+        "No competitive map covering local consultancies, systems integrators, API providers, law firms and compliance platforms."
       ],
       "investment_authorized": false,
       "name": "Open-finance implementation monitoring and developer-readiness service",
@@ -5362,6 +5402,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "A documented feedstock-aggregation route: obtain material from one identifiable institutional source, sort and record composition, then sell or transfer it to an existing recycler or processor under its stated acceptance terms. Revenue, price, and acceptance are unknown until verified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "physical_distribution",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Build a list from public state environmental permits and recycler directories, then contact three licensed secondary lead or battery recyclers with a non-binding inquiry asking what antimony-bearing feedstock specifications and minimum lot sizes they accept. Separately identify five local commercial or industrial sources of spent lead-acid batteries and ask only whether material is already handled by a licensed recycler. Falsify if processors will not provide accepted specifications, if sources cannot document lawful handling, or if the material has no independently verified assay or bid. Do not transport, stockpile, or broker regulated waste without confirming applicable permits and contracts.",
+      "current_thesis": "The price shock and established recycling channel create a testable wedge around locating, characterizing, and routing legally controlled lead-battery scrap or antimony-bearing secondary material to licensed processors. The opportunity is feedstock access and documentation, not speculative mineral ownership.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Licensed-feedstock matching for antimony-bearing lead-battery scrap",
+      "opportunity_id": "opp_fae38501d518e3a074eb",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Compare local product availability to supplier catalogs and independent consumer interest.",
+        "Check import, tax, return, certification and delivery economics before estimating margin.",
+        "Try a legitimate pre-order/waitlist test with transparent fulfillment conditions."
+      ],
+      "supporting_source_urls": [
+        "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf",
+        "https://www.usgs.gov/news/national-news-release/value-us-mineral-production-rose-last-year-driven-precious-metals-prices"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A verified supplier-and-processor match with sampling, chain-of-custody, and indicative-bid documentation. Potential cash flow could come from a disclosed brokerage, sourcing, or logistics fee paid by a licensed recycler or industrial supplier; no buyer, fee, spread, or completed sale is assumed.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -6623,7 +6699,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-06T00:45:02.510745+00:00",
+  "generated_at": "2026-11-06T11:49:45.471416+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

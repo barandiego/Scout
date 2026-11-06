@@ -5802,6 +5802,90 @@
     {
       "ai_leverage": "",
       "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-19T00:23:02.838772+00:00",
+      "discovery_lens": "asset_ownership",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The CMF states that the June 1, 2026 amendment added Annex No. 3 technical specifications and a developer portal, while postponing entry into force until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "The CMF describes technical requirements for information exchange and payment initiation and says the amendment facilitates incorporation of different types of participating entities.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.88,
+      "falsification_conditions": [
+        "Ten or more targeted firms—covering banks, fintechs, payment firms, technology vendors and consultancies—decline to review a concrete sample or state that they have no budget or need for the service.",
+        "At least three plausible buyers confirm that official CMF materials and ATENA already satisfy their monitoring and testing needs.",
+        "A paid discovery, audit or pilot cannot be obtained from a qualified buyer before July 3, 2027.",
+        "The required deliverable depends on regulated access, confidential specifications, certifications or production credentials unavailable to the operator.",
+        "CMF materially changes the technical framework, delays implementation again or provides more complete official tooling that eliminates the proposed differentiation.",
+        "Prospective buyers will only purchase the service as part of a broader consulting or systems-integration engagement, with insufficient standalone margin.",
+        "The total reachable Chilean market cannot support a credible path to at least a small number of repeatable, high-margin contracts.",
+        "A competing consultancy, integrator or vendor offers equivalent monitoring and readiness services with superior trust, access or distribution."
+      ],
+      "geography": "Chile",
+      "id": "opp_b5bb525067a4142275e1",
+      "judge_reviewed": true,
+      "judgment": "The cited CMF primary sources are sufficient to treat the regulatory timetable and publication of technical materials as grounded, not an unverified regulatory-change claim. The proposed wedge is deliberately outside the regulated data-access/payment-initiation perimeter: a documentation, readiness, and change-monitoring product using public materials. Therefore there is no demonstrated fatal legal or technical inability to obtain required financial-data/API access, because the initial product should not require such access. However, it is not yet HQ-worthy as a business case: public CMF documentation, the developer portal, participant resources, and sandbox tooling may make the core deliverable a commodity or a feature of consulting/integration work. No buyer, budget owner, procurement path, price point, technical-access proof for testing, or market-size evidence establishes plausible repeatable value capture.",
+      "last_record_updated_at": "2026-11-06T11:49:44.919652+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "No identified paying customer, signed pilot, purchase order, budget owner or validated price.",
+        "No evidence that Chilean firms want a standalone monitoring product rather than consulting, internal work or bundled vendor support.",
+        "No estimate of the number of addressable participating entities, implementation budgets or realistic annual contract value.",
+        "No evidence that official documentation will be versioned in a sufficiently stable and machine-readable manner for reliable automated monitoring.",
+        "No evidence that an independent operator can obtain the testing access, credentials, support or technical clarifications needed to deliver meaningful readiness assessments."
+      ],
+      "participation_path": "Download and study the official technical materials, build a public parser/checklist using only published documentation, and test distribution by sending a sample change log to Chilean fintechs, banks' technology vendors and compliance consultancies through publicly listed channels. Ask for a paid discovery session or written request for a specific deliverable before adding regulated integrations. Falsify if ten targeted firms show no interest in reviewing the sample, or if the work requires permissions, certifications or confidential specifications unavailable to the operator. Do not connect to customer accounts, initiate payments or represent oneself as an authorized participant without confirming the applicable CMF requirements.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The executable wedge is not becoming a data provider or payment initiator. It is a reusable compliance-and-integration monitoring asset for firms preparing against the published technical requirements: version tracking, endpoint checklists, test-case generation, change alerts and implementation documentation. The cash-flow source would need to be a verified paying firm or vendor; no buyer or price is assumed.",
+      "title": "Open-finance implementation monitoring and developer-readiness service",
+      "type": "software_asset_and_monitoring_service",
+      "unknowns": [
+        "No identified paying customer, signed pilot, purchase order, budget owner or validated price.",
+        "No evidence that Chilean firms want a standalone monitoring product rather than consulting, internal work or bundled vendor support.",
+        "No estimate of the number of addressable participating entities, implementation budgets or realistic annual contract value.",
+        "No evidence that official documentation will be versioned in a sufficiently stable and machine-readable manner for reliable automated monitoring.",
+        "No evidence that an independent operator can obtain the testing access, credentials, support or technical clarifications needed to deliver meaningful readiness assessments.",
+        "No analysis of Chilean language, procurement, contracting, data-protection, professional-liability or regulated-advice requirements.",
+        "No competitive map covering local consultancies, systems integrators, API providers, law firms and compliance platforms.",
+        "No proof that a reusable test harness would work across materially different participant implementations.",
+        "No evidence that the opportunity can expand beyond a small Chilean market without substantial regulatory localization.",
+        "No demonstrated distribution advantage through public channels.",
+        "Which exact regulated payer or technology vendor has a verified implementation budget and authority to buy a standalone readiness product.",
+        "Whether at least one qualified buyer will pay for a narrowly defined audit, change-monitoring subscription, or test artifact before the July 2027 effective date.",
+        "Actual accessible market size, buyer segmentation, expected ACV, sales cycle, retention, and gross margin.",
+        "Whether CMF materials and ATENA provide enough public, stable, machine-readable information for a differentiated automated product.",
+        "Whether the operator can access sandbox/testing environments and generate meaningful cross-participant test results without regulated credentials or confidential materials.",
+        "Competitor pricing and capabilities among Chilean consultancies, integrators, API vendors, law firms, and existing compliance platforms.",
+        "Whether the regulatory framework imposes any licensing, assurance, certification, or advice-related requirement on the proposed deliverable."
+      ],
+      "value_capture_mechanism": "Charge for a narrowly scoped technical-readiness audit, recurring specification-change monitoring or reusable test harness, subject to the client's authorization and regulatory perimeter. The CMF timetable is a catalyst for preparation spending, not proof of demand or permission to handle financial data.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
       "contrary_evidence": [
         "The CMF published the technical annex and developer portal on June 1, 2026, meaning the core specifications are publicly available and can be implemented by customers or competing vendors: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
         "The CMF launched ATENA on September 30, 2026, specifically to let institutions test integrations, verify adequacy to technical standards, and perform interoperability tests with the participant directory before July 2027. This directly overlaps with the proposed test-harness value proposition: https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
@@ -8823,6 +8907,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-06T11:49:16.850914+00:00",
+      "discovery_lens": "energy_industrial",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "DOE reports $967.1 million in FY25/26 allocation, eligible investments including microgrids and battery storage, required subawards, and prior subrecipient activity involving munis, cooperatives, utilities, and Tribes.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "State and Tribal Grid Resilience Formula Grant Program: FY25/26 Funding at a Glance",
+          "url": "https://www.energy.gov/documents/formula-grant-program-infographic"
+        },
+        {
+          "claim": "DOE lists active and recent grid-resilience, microgrid, storage, utility-digitization, and procurement-related opportunities, including Grid Resilience State and Tribal Formula Grants and New Microgrid Support Services.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Funding Opportunities and Requests for Information",
+          "url": "https://www.energy.gov/oe/funding-opportunities-and-requests-information"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.9,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_5571f801955a232174a9",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-06T11:49:16.916820+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use DOE’s subaward and project lists to identify five small utilities or Tribal utilities with active resilience awards or planned procurements. Send a one-page sample specification and offer a fixed-price paid pilot limited to one facility. Falsify at lowest cost by checking whether each target has a public procurement notice, named project contact, and requirement for outside technical support; abandon if none exists or if the work requires engineering licensure the operator does not possess. Do not represent eligibility for DOE funds or promise award access.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Small utilities receiving or pursuing resilience funds must convert an eligible project into procurement-ready technical specifications, interconnection documentation, cost-match evidence, and monitoring requirements. The funding mechanism creates a public purchasing route without requiring the operator to own generation or batteries.",
+      "title": "Bid-ready resilience package for small-utility battery and microgrid subawards",
+      "type": "procurement_enablement_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "A narrowly scoped, reusable procurement package: site-screening worksheet, BESS/microgrid specification, vendor-neutral bill of materials, interconnection checklist, resilience-benefit calculation, and bid-evaluation template. Cash flow would come from a utility, Tribal utility, engineering prime, or grant-funded project procurement if one elects to purchase the package; no purchase or margin is assumed.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-19T04:26:12.373053+00:00",
       "discovery_lens": "energy_localization",
       "estimated_capital": "",
@@ -10659,6 +10797,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-06T11:49:16.851850+00:00",
+      "discovery_lens": "mining_materials",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "USGS reports that antimony prices rose by more than 100% in 2025 versus 2024 and that antimony and lead had especially high values in domestic old-scrap recycling; it also identifies lead-acid batteries as the primary consumption and recycling channel.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Mineral Commodity Summaries 2026",
+          "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf"
+        },
+        {
+          "claim": "USGS confirms the 2026 Mineral Commodity Summaries release and describes updated U.S. mineral-production, import-reliance, and critical-materials data for 2025.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Value of U.S. mineral production rose last year, driven by precious metals prices",
+          "url": "https://www.usgs.gov/news/national-news-release/value-us-mineral-production-rose-last-year-driven-precious-metals-prices"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.88,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_fae38501d518e3a074eb",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-06T11:49:16.916971+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Build a list from public state environmental permits and recycler directories, then contact three licensed secondary lead or battery recyclers with a non-binding inquiry asking what antimony-bearing feedstock specifications and minimum lot sizes they accept. Separately identify five local commercial or industrial sources of spent lead-acid batteries and ask only whether material is already handled by a licensed recycler. Falsify if processors will not provide accepted specifications, if sources cannot document lawful handling, or if the material has no independently verified assay or bid. Do not transport, stockpile, or broker regulated waste without confirming applicable permits and contracts.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The price shock and established recycling channel create a testable wedge around locating, characterizing, and routing legally controlled lead-battery scrap or antimony-bearing secondary material to licensed processors. The opportunity is feedstock access and documentation, not speculative mineral ownership.",
+      "title": "Licensed-feedstock matching for antimony-bearing lead-battery scrap",
+      "type": "recycling_feedstock_brokerage",
+      "unknowns": [],
+      "value_capture_mechanism": "A verified supplier-and-processor match with sampling, chain-of-custody, and indicative-bid documentation. Potential cash flow could come from a disclosed brokerage, sourcing, or logistics fee paid by a licensed recycler or industrial supplier; no buyer, fee, spread, or completed sale is assumed.",
+      "verified_sales": null,
+      "vertical": "physical_distribution",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-26T03:13:17.688335+00:00",
       "discovery_lens": "ai_open_source",
       "estimated_capital": "",
@@ -11083,60 +11275,6 @@
       "value_capture_mechanism": "Estimated hourly contractor compensation for completed accepted tasks; TELUS explicitly labels USD 7.80/hour as an estimate and says participation depends on task availability and qualification. ([jobs.telusdigital.com](https://jobs.telusdigital.com/fr/jobs/18154785-online-data-analyst-chile?utm_source=openai))",
       "verified_sales": null,
       "vertical": "chile_localization",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
-      "discovered_at": "2026-10-19T00:23:02.838772+00:00",
-      "discovery_lens": "asset_ownership",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "The CMF states that the June 1, 2026 amendment added Annex No. 3 technical specifications and a developer portal, while postponing entry into force until July 2027.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
-          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
-        },
-        {
-          "claim": "The CMF describes technical requirements for information exchange and payment initiation and says the amendment facilitates incorporation of different types of participating entities.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
-          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.9,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_b5bb525067a4142275e1",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-19T00:23:02.874552+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Download and study the official technical materials, build a public parser/checklist using only published documentation, and test distribution by sending a sample change log to Chilean fintechs, banks' technology vendors and compliance consultancies through publicly listed channels. Ask for a paid discovery session or written request for a specific deliverable before adding regulated integrations. Falsify if ten targeted firms show no interest in reviewing the sample, or if the work requires permissions, certifications or confidential specifications unavailable to the operator. Do not connect to customer accounts, initiate payments or represent oneself as an authorized participant without confirming the applicable CMF requirements.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "The executable wedge is not becoming a data provider or payment initiator. It is a reusable compliance-and-integration monitoring asset for firms preparing against the published technical requirements: version tracking, endpoint checklists, test-case generation, change alerts and implementation documentation. The cash-flow source would need to be a verified paying firm or vendor; no buyer or price is assumed.",
-      "title": "Open-finance implementation monitoring and developer-readiness service",
-      "type": "software_asset_and_monitoring_service",
-      "unknowns": [],
-      "value_capture_mechanism": "Charge for a narrowly scoped technical-readiness audit, recurring specification-change monitoring or reusable test harness, subject to the client's authorization and regulatory perimeter. The CMF timetable is a catalyst for preparation spending, not proof of demand or permission to handle financial data.",
-      "verified_sales": null,
-      "vertical": "open_finance_chile",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -12224,13 +12362,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-06T00:45:02.419170+00:00",
+  "generated_at": "2026-11-06T11:49:45.381937+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 97,
-  "reviewed_cards": 78,
+  "rejected_excluded": 98,
+  "reviewed_cards": 79,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 271,
-  "watch": 174
+  "total_distinct_opportunities": 274,
+  "watch": 176
 }

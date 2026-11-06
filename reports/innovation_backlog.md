@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 174
+Candidates: 176
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -327,6 +327,18 @@ Candidates: 174
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.energy.gov/cmei/femp/articles/battery-energy-storage-system-procurement-checklist; https://www.energy.gov/ceser/articles/new-ceser-report-offers-supply-chain-mitigation-strategies-battery-storage-systems
+
+## Bid-ready resilience package for small-utility battery and microgrid subawards
+- Status: watch | energy_infrastructure
+- Current idea: Small utilities receiving or pursuing resilience funds must convert an eligible project into procurement-ready technical specifications, interconnection documentation, cost-match evidence, and monitoring requirements. The funding mechanism creates a public purchasing route without requiring the operator to own generation or batteries.
+- Potential economic capture: A narrowly scoped, reusable procurement package: site-screening worksheet, BESS/microgrid specification, vendor-neutral bill of materials, interconnection checklist, resilience-benefit calculation, and bid-evaluation template. Cash flow would come from a utility, Tribal utility, engineering prime, or grant-funded project procurement if one elects to purchase the package; no purchase or margin is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.energy.gov/documents/formula-grant-program-infographic; https://www.energy.gov/oe/funding-opportunities-and-requests-information
 
 ## Bid-support and compliance package for Chile’s 2026/01 regulated power-supply tender
 - Status: watch | energy_infrastructure
@@ -1524,7 +1536,7 @@ Candidates: 174
   - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
   - Check license perimeter, API access, legal compliance and competitor pricing.
   - Test buyer procurement and technical access before writing integration infrastructure.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: No identified paying customer, signed pilot, purchase order, budget owner or validated price.; No evidence that Chilean firms want a standalone monitoring product rather than consulting, internal work or bundled vendor support.; No estimate of the number of addressable participating entities, implementation budgets or realistic annual contract value.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html
 
@@ -1695,6 +1707,18 @@ Candidates: 174
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.gao.gov/products/gao-26-108687; https://www.iea.org/reports/global-critical-minerals-outlook-2026
+
+## Licensed-feedstock matching for antimony-bearing lead-battery scrap
+- Status: watch | physical_distribution
+- Current idea: The price shock and established recycling channel create a testable wedge around locating, characterizing, and routing legally controlled lead-battery scrap or antimony-bearing secondary material to licensed processors. The opportunity is feedstock access and documentation, not speculative mineral ownership.
+- Potential economic capture: A verified supplier-and-processor match with sampling, chain-of-custody, and indicative-bid documentation. Potential cash flow could come from a disclosed brokerage, sourcing, or logistics fee paid by a licensed recycler or industrial supplier; no buyer, fee, spread, or completed sale is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Compare local product availability to supplier catalogs and independent consumer interest.
+  - Check import, tax, return, certification and delivery economics before estimating margin.
+  - Try a legitimate pre-order/waitlist test with transparent fulfillment conditions.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf; https://www.usgs.gov/news/national-news-release/value-us-mineral-production-rose-last-year-driven-precious-metals-prices
 
 ## Natura Chile catalog and corporate-gifting wedge across Natura.cl and Falabella.com
 - Status: watch | physical_distribution

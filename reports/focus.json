@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-11-06T00:45:02.419170+00:00",
+  "generated_at": "2026-11-06T11:49:45.381937+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -13,7 +13,7 @@
     },
     {
       "opportunity_id": "opp_7ea6a495427da87c8c5c",
-      "other_cards_in_theme": 18,
+      "other_cards_in_theme": 20,
       "reviewed": true,
       "status": "watch",
       "theme": "energy_infrastructure",
@@ -104,7 +104,7 @@
   "high_concentration": [
     {
       "cards": 73,
-      "share": 0.42,
+      "share": 0.415,
       "theme": "chile_open_finance"
     }
   ],
@@ -148,6 +148,7 @@
         "opp_9511a8b5519c4a31790e",
         "opp_202d7778855e693fe04b",
         "opp_bc3b9a823961fadca8e1",
+        "opp_b5bb525067a4142275e1",
         "opp_33df5c0e60b44851d959",
         "opp_71fab3dd10745ab77ebe",
         "opp_1d8ec69c28f37b2eceef",
@@ -167,7 +168,6 @@
         "opp_270032cf1d021a18d1b3",
         "opp_993ac5d080c7042af44c",
         "opp_82f282d8dc0896390ee7",
-        "opp_b5bb525067a4142275e1",
         "opp_d52a4c290d45b663a6f3",
         "opp_911d89dad493afe4910f",
         "opp_6cea461c4316ad0c1441",
@@ -191,7 +191,7 @@
       ],
       "count": 73,
       "representative_id": "opp_f26e42aaabb91e157f9d",
-      "reviewed_count": 44,
+      "reviewed_count": 45,
       "theme": "chile_open_finance"
     },
     {
@@ -214,9 +214,11 @@
         "opp_7b3f746b484aac912c2b",
         "opp_1ea90f46c4dff6ae0e7e",
         "opp_99cbde4d890de7c2b82f",
-        "opp_71c647684dc9a170f988"
+        "opp_71c647684dc9a170f988",
+        "opp_5571f801955a232174a9",
+        "opp_fae38501d518e3a074eb"
       ],
-      "count": 19,
+      "count": 21,
       "representative_id": "opp_7ea6a495427da87c8c5c",
       "reviewed_count": 9,
       "theme": "energy_infrastructure"
@@ -896,6 +898,6 @@
       "theme": "robotics_agritech:water_efficiency_field"
     }
   ],
-  "total_original_cards": 174,
+  "total_original_cards": 176,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }
