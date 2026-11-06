@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 173
+Candidates: 174
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -1311,6 +1311,18 @@ Candidates: 173
 - Critical gaps: Whether ATENA access is open, gated, paid, rate-limited or restricted to eligible participant types.; Whether ATENA exposes automated pass/fail results, downloadable evidence and regression-test capabilities sufficient for customer use.; The exact scope, stability and versioning policy of the technical annex and developer portal after July 2027.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
+## Chile SFA pre-registration and interoperability test harness
+- Status: watch | open_finance_chile
+- Current idea: Entities preparing to participate must test API interoperability, participant identification, credentials, communications with the participant directory, and technical compliance before the regulatory deadline. This creates a narrow implementation window for reusable testing and diagnostic tooling rather than a broad consulting opportunity.
+- Potential economic capture: A small operator could package an automated conformance-test suite, mock data environment, API contract checker, error-log diagnostic tool, and evidence-generation workflow for an entity preparing for ATENA or SFA participation. Potential payment would be for software access, implementation support, or a fixed pre-registration readiness test; no buyer, price, or conversion is assumed until validated.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: How many entities are actually obligated to participate, by implementation group and deadline.; Whether ATENA already includes automated conformance tests, mocks, diagnostics, reporting, or exportable evidence sufficient for most use cases.; Whether the CMF will permit or encourage third-party tools to connect to ATENA or whether testing must occur only through regulator-controlled interfaces.
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html; https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640
 
 ## Chile SFA sandbox and conformance testing for prospective data-consumer fintechs
 - Status: watch | open_finance_chile

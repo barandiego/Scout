@@ -4139,6 +4139,47 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Build a minimal local test harness from the published NCG 514 technical annex and publicly available developer specifications. Test it against any accessible ATENA materials or documented API behavior. Then contact a small sample of Chilean fintechs, payment operators, cooperatives, insurers, or other entities identified in the CMF participant ecosystem and offer a no-cost diagnostic using synthetic data. Falsification test: within 10 business days, seek five technically responsible contacts and ask whether they already possess an equivalent test environment, whether October 2026 pre-registration applies to them, and whether they would pay for a narrowly scoped automated readiness report. Do not claim certification, regulatory approval, ATENA access, or a sale without confirmation.",
+      "current_thesis": "Entities preparing to participate must test API interoperability, participant identification, credentials, communications with the participant directory, and technical compliance before the regulatory deadline. This creates a narrow implementation window for reusable testing and diagnostic tooling rather than a broad consulting opportunity.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "How many entities are actually obligated to participate, by implementation group and deadline.",
+        "Whether ATENA already includes automated conformance tests, mocks, diagnostics, reporting, or exportable evidence sufficient for most use cases.",
+        "Whether the CMF will permit or encourage third-party tools to connect to ATENA or whether testing must occur only through regulator-controlled interfaces.",
+        "Whether test outputs from an independent harness will be accepted as useful or valid evidence for registration or authorization.",
+        "The number of Chilean institutions with no existing API gateway, test automation, observability, identity, certificate, and compliance tooling.",
+        "Actual implementation budgets, procurement cycles, and willingness to buy from a new vendor.",
+        "Competitive offerings from Chilean system integrators, core-banking vendors, cloud providers, consulting firms, and international open-banking platforms."
+      ],
+      "investment_authorized": false,
+      "name": "Chile SFA pre-registration and interoperability test harness",
+      "opportunity_id": "opp_1d8f6f3afd8ddd0f71ad",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A small operator could package an automated conformance-test suite, mock data environment, API contract checker, error-log diagnostic tool, and evidence-generation workflow for an entity preparing for ATENA or SFA participation. Potential payment would be for software access, implementation support, or a fixed pre-registration readiness test; no buyer, price, or conversion is assumed until validated.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Identify firms listed or likely to be listed as SFA participants, then offer a no-production-data diagnostic using CMF’s published technical requirements and fictitious data. Build one minimal automated test suite covering authentication, consent, API availability and error handling. Ask three identifiable Chilean fintechs or financial institutions whether they will pay for a scoped readiness test; stop if none will provide a paid pilot or access to their published sandbox/API documentation.",
       "current_thesis": "Prospective SFA participants may need repeatable API test fixtures, consent-flow validation, certificate/authentication checks, documentation and evidence packages before production participation. The opportunity is narrower than building a financial-data intermediary: sell testing and implementation tooling to firms already preparing for SFA participation.",
       "founder_hours_initial_unverified_estimate": "",
@@ -6582,7 +6623,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-05T19:30:05.038066+00:00",
+  "generated_at": "2026-11-06T00:45:02.510745+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

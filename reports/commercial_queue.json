@@ -1,9 +1,9 @@
 {
   "buyer_qualified_count": 0,
-  "excluded_from_first_dollar_queue": 169,
+  "excluded_from_first_dollar_queue": 170,
   "first_dollar_verified": false,
-  "generated_at": "2026-11-05T19:30:04.925356+00:00",
-  "opportunity_count_reviewed": 173,
+  "generated_at": "2026-11-06T00:45:02.419170+00:00",
+  "opportunity_count_reviewed": 174,
   "revenue_usd_verified": null,
   "schema_version": 1,
   "selected": [
@@ -40,7 +40,7 @@
       "buyer_verified": false,
       "current_status": "WATCH_REQUIRES_VALIDATION",
       "economic_status": "UNVALIDATED_NO_VERIFIED_BUYER_OR_SALE",
-      "first_distribution_hypothesis": "Download the published CMF specifications and build a minimal test suite covering only publicly documented endpoints, authentication, schema validation, consent/error cases, and participant-directory interoperability. Run it against any available sandbox or mock server. Publish a reproducible report and contact prospective participants or implementation vendors with a fixed-scope paid pilot proposal only after confirming that the tests match their integration requirements. Lowest-cost falsification: implement 10–15 checks in one week and ask at least five Chilean fintech/banking integration teams whether they would run the harness against a non-production endpoint or pay for a narrowly scoped readiness report; abandon if none will provide access, feedback, or a paid pilot.",
+      "first_distribution_hypothesis": "Build a minimal local test harness from the published NCG 514 technical annex and publicly available developer specifications. Test it against any accessible ATENA materials or documented API behavior. Then contact a small sample of Chilean fintechs, payment operators, cooperatives, insurers, or other entities identified in the CMF participant ecosystem and offer a no-cost diagnostic using synthetic data. Falsification test: within 10 business days, seek five technically responsible contacts and ask whether they already possess an equivalent test environment, whether October 2026 pre-registration applies to them, and whether they would pay for a narrowly scoped automated readiness report. Do not claim certification, regulatory approval, ATENA access, or a sale without confirmation.",
       "independent_review_status": "CRITIC_JUDGE_COMPLETE_NOT_COMMERCIAL_PROOF",
       "missing_to_prove": [
         "independent_specific_buyer",
@@ -50,13 +50,14 @@
         "actual_third_party_receipt"
       ],
       "next_no_spend_buyer_test": "Identify one genuinely budget-owning regulated buyer, one conformance failure, and an independently accepted paid software deliverable before coding a broad financial integration.",
-      "opportunity_id": "opp_63bc9b9bc5ff0bfbcf2e",
+      "opportunity_id": "opp_1d8f6f3afd8ddd0f71ad",
       "origin": "EXISTING_SCOUT_WATCH_OR_SURVIVOR_NOT_NEW_OPPORTUNITY",
       "revenue_verified": false,
-      "title": "ATENA interoperability smoke-test harness for Chilean Open Finance participants",
+      "title": "Chile SFA pre-registration and interoperability test harness",
       "verified_source_urls": [
-        "https://cmfchile.cl/portal/prensa/625/w4-article-113897.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640"
       ],
       "vertical": "open_finance_chile"
     },

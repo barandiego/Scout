@@ -666,6 +666,98 @@
       "ai_leverage": "",
       "authorized_for_execution": false,
       "contrary_evidence": [
+        "The core regulatory signal is credible. The CMF issued the technical annex through its 2026 amendment to NCG 514, launched ATENA on September 30, 2026, and states that ATENA supports integration, technical-standard adequacy, and interoperability testing with the participant directory. The CMF also identifies July 3, 2027 as the SFA entry date and says voluntary pre-registration for sandbox and directory testing begins in October 2026 or the last quarter of 2026. The regulator's access guide indicates that entities need to configure components and execute tests, which could leave room for diagnostics, test automation, evidence management, and specialist implementation support. The prior consultation reportedly involved 32 entities and more than 400 comments, indicating broad institutional complexity and possible demand for implementation assistance. However, these facts validate the compliance event, not willingness to pay for this specific independent product. Sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html ; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html ; https://www.cmfchile.cl/portal/principal/623/w4-article-113806.html ; https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html"
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-11-06T00:44:33.461396+00:00",
+      "discovery_lens": "regulation_infrastructure",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF published the technical annex for information exchange and payment initiation and postponed entry into force until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        },
+        {
+          "claim": "ATENA enables institutions to test integrations, interoperability, participant-directory interactions, and business models before the SFA takes effect.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF lanza Sandbox Tecnológico ATENA para la implementación del Sistema de Finanzas Abiertas",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html"
+        },
+        {
+          "claim": "The CMF identifies July 3, 2027 as the SFA entry date and October 2026 as the expected start of voluntary pre-registration for sandbox and directory testing.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Preguntas Frecuentes",
+          "url": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.84,
+      "falsification_conditions": [
+        "Within 10 business days, fewer than five relevant institutions or implementation partners can be reached, or contacts cannot identify a responsible technical or compliance buyer.",
+        "At least three qualified prospects state that ATENA or their incumbent vendor already provides equivalent testing, diagnostics, and evidence-generation functionality.",
+        "At least three qualified prospects reject a paid pilot or readiness assessment after seeing a working prototype and a narrowly scoped fixed-price offer.",
+        "The CMF confirms that independent tooling cannot access required test interfaces, cannot use ATENA-compatible test artifacts, or cannot produce evidence recognized by participants.",
+        "The addressable market is shown to be fewer than approximately 15 realistically reachable paying organizations, or most have implementation deadlines too distant to support near-term sales.",
+        "The technical annex, ATENA documentation, or participant requirements materially change before a prototype is validated, making the proposed test suite obsolete.",
+        "Prospects require enterprise certifications, insurance, security reviews, or local support whose cost exceeds plausible first-year revenue.",
+        "The product cannot demonstrate a measurable reduction in integration time, failed tests, consultant hours, or registration-readiness risk compared with ATENA plus internal engineering resources."
+      ],
+      "geography": "Chile",
+      "id": "opp_1d8f6f3afd8ddd0f71ad",
+      "judge_reviewed": true,
+      "judgment": "The underlying regulatory and timing premise is adequately grounded in CMF primary sources: a technical SFA annex, ATENA sandbox, voluntary pre-registration/testing around October 2026, and July 3, 2027 entry into force. Therefore this is not rejected for an unverified or misread regulatory change. A narrow, non-regulated software/support wedge—automated API-contract checks, test orchestration, log diagnostics, and internal readiness evidence—appears legally plausible provided it uses synthetic/authorized data and does not represent itself as CMF-certified or access ATENA without authorization. However, survival as an HQ-worthy opportunity is not established: CMF-provided ATENA, documentation, and possible native test functions may eliminate the core product need; independent artifacts may have no regulatory standing; the reachable payer universe, procurement path, willingness to pay, and pricing versus incumbent integrators remain unverified. This is a deadline-driven and potentially one-off implementation market, so plausible value capture is currently uncertain rather than demonstrably incompatible.",
+      "last_record_updated_at": "2026-11-06T00:45:01.957715+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "How many entities are actually obligated to participate, by implementation group and deadline.",
+        "Whether ATENA already includes automated conformance tests, mocks, diagnostics, reporting, or exportable evidence sufficient for most use cases.",
+        "Whether the CMF will permit or encourage third-party tools to connect to ATENA or whether testing must occur only through regulator-controlled interfaces.",
+        "Whether test outputs from an independent harness will be accepted as useful or valid evidence for registration or authorization.",
+        "The number of Chilean institutions with no existing API gateway, test automation, observability, identity, certificate, and compliance tooling."
+      ],
+      "participation_path": "Build a minimal local test harness from the published NCG 514 technical annex and publicly available developer specifications. Test it against any accessible ATENA materials or documented API behavior. Then contact a small sample of Chilean fintechs, payment operators, cooperatives, insurers, or other entities identified in the CMF participant ecosystem and offer a no-cost diagnostic using synthetic data. Falsification test: within 10 business days, seek five technically responsible contacts and ask whether they already possess an equivalent test environment, whether October 2026 pre-registration applies to them, and whether they would pay for a narrowly scoped automated readiness report. Do not claim certification, regulatory approval, ATENA access, or a sale without confirmation.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Entities preparing to participate must test API interoperability, participant identification, credentials, communications with the participant directory, and technical compliance before the regulatory deadline. This creates a narrow implementation window for reusable testing and diagnostic tooling rather than a broad consulting opportunity.",
+      "title": "Chile SFA pre-registration and interoperability test harness",
+      "type": "regulatory_compliance_asset",
+      "unknowns": [
+        "How many entities are actually obligated to participate, by implementation group and deadline.",
+        "Whether ATENA already includes automated conformance tests, mocks, diagnostics, reporting, or exportable evidence sufficient for most use cases.",
+        "Whether the CMF will permit or encourage third-party tools to connect to ATENA or whether testing must occur only through regulator-controlled interfaces.",
+        "Whether test outputs from an independent harness will be accepted as useful or valid evidence for registration or authorization.",
+        "The number of Chilean institutions with no existing API gateway, test automation, observability, identity, certificate, and compliance tooling.",
+        "Actual implementation budgets, procurement cycles, and willingness to buy from a new vendor.",
+        "Competitive offerings from Chilean system integrators, core-banking vendors, cloud providers, consulting firms, and international open-banking platforms.",
+        "Whether regulatory specifications will change after pilot feedback, creating maintenance costs and reducing the shelf life of a static harness.",
+        "Whether the opportunity is better monetized as a short consulting engagement than as recurring software.",
+        "Founder access to technically responsible contacts and regulated-institution procurement decision makers.",
+        "Which entity classes are obligated to participate, their phased dates, and the number of realistically reachable organizations with an immediate October 2026 testing need.",
+        "Exact ATENA capabilities, access rules, permitted third-party tooling, and whether external tools can interact with or faithfully validate ATENA-compatible workflows.",
+        "Whether a regulated participant would pay for a fixed-price readiness assessment or software license, at what price, and who owns the buying decision.",
+        "Whether the product can measurably reduce failed test cycles, integration time, consultant expense, or registration-readiness risk relative to ATENA and internal tooling.",
+        "Whether any prospect lacks incumbent test automation, API gateway, observability, certificate/identity, and evidence-management capabilities.",
+        "Whether a new vendor can meet required data-security, vendor-risk, contractual, and support expectations without consuming the available value capture."
+      ],
+      "value_capture_mechanism": "A small operator could package an automated conformance-test suite, mock data environment, API contract checker, error-log diagnostic tool, and evidence-generation workflow for an entity preparing for ATENA or SFA participation. Potential payment would be for software access, implementation support, or a fixed pre-registration readiness test; no buyer, price, or conversion is assumed until validated.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [
         "There is credible evidence that commercial deployment is beginning: Greenfield reported leasing 23 BOTONY robots to farms in seven states in 2025, with additional purchase and lease orders and contracts planned across more states for the 2026 growing season. Source: https://www.sec.gov/Archives/edgar/data/1760404/000110465926075802/tm2617498d1_partiiandiii.htm. FarmDroid publicly markets an operational seeding and weeding platform, states that it can work multiple fields, and describes support and specialist onboarding. Source: https://farmdroid.com/contact/ ; https://farmdroid.com/blog/your-farmdroid-journey-from-purchase-to-precision-farming/. Academic and government evidence supports a real underlying need: labor shortages, herbicide resistance, and precision-agriculture benefits can create adoption incentives. Sources: https://doi.org/10.1111/agec.12856 ; https://www.gao.gov/products/gao-24-105962. These facts support testing a narrowly scoped deployment-support service, especially for high-value crops or farms lacking technical staff. They do not establish that an independent operator captures attractive economics."
       ],
       "critic_reviewed": true,
@@ -12132,13 +12224,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-05T19:30:04.925356+00:00",
+  "generated_at": "2026-11-06T00:45:02.419170+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 97,
-  "reviewed_cards": 77,
+  "reviewed_cards": 78,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 270,
-  "watch": 173
+  "total_distinct_opportunities": 271,
+  "watch": 174
 }

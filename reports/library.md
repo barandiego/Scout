@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-11-05T19:30:04.925356+00:00
+Generated: 2026-11-06T00:45:02.419170+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 173 (0 HQ survivors, 173 watches)
+- Active research: 174 (0 HQ survivors, 174 watches)
 - Rejected opportunities excluded: 97
-- Critic-and-judge reviewed: 77
+- Critic-and-judge reviewed: 78
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -82,6 +82,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Which participant class has the most urgent uncovered implementation gap: IPI, IPC, PSBI, PSIP or another role?; Whether the CMF will recognize, recommend, or even permit reliance on an independent validator or test harness.; Whether the Developers' Portal and sandbox already provide equivalent schemas, test cases, consent examples, directory workflows and validation tooling.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/educa/621/w3-article-85051.html
+
+### Chile SFA pre-registration and interoperability test harness [opp_1d8f6f3afd8ddd0f71ad]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Entities preparing to participate must test API interoperability, participant identification, credentials, communications with the participant directory, and technical compliance before the regulatory deadline. This creates a narrow implementation window for reusable testing and diagnostic tooling rather than a broad consulting opportunity.
+- Value capture: A small operator could package an automated conformance-test suite, mock data environment, API contract checker, error-log diagnostic tool, and evidence-generation workflow for an entity preparing for ATENA or SFA participation. Potential payment would be for software access, implementation support, or a fixed pre-registration readiness test; no buyer, price, or conversion is assumed until validated.
+- Participation hypothesis: Build a minimal local test harness from the published NCG 514 technical annex and publicly available developer specifications. Test it against any accessible ATENA materials or documented API behavior. Then contact a small sample of Chilean fintechs, payment operators, cooperatives, insurers, or other entities identified in the CMF participant ecosystem and offer a no-cost diagnostic using synthetic data. Falsification test: within 10 business days, seek five technically responsible contacts and ask whether they already possess an equivalent te
+- Critic/judge: The underlying regulatory and timing premise is adequately grounded in CMF primary sources: a technical SFA annex, ATENA sandbox, voluntary pre-registration/testing around October 2026, and July 3, 2027 entry into force. Therefore this is not rejected for an unverified or misread regulatory change. A narrow, non-regulated software/support wedge—automated API-contract checks, test orchestration, log diagnostics, and internal readiness ev
+- Next evidence gaps: How many entities are actually obligated to participate, by implementation group and deadline.; Whether ATENA already includes automated conformance tests, mocks, diagnostics, reporting, or exportable evidence sufficient for most use cases.; Whether the CMF will permit or encourage third-party tools to connect to ATENA or whether testing must occur only through regulator-controlled interfaces.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html; https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640
 
 ### Independent field-service and deployment support for autonomous agricultural weed-control robots [opp_99de522ad05d0e01cebc]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States; potentially other markets only after manufacturer authorization
