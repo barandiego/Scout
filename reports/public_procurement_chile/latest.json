@@ -1,77 +1,17 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 2100000.0,
-      "buyer": "UNIVERSIDAD DE TARAPACA",
-      "closes_at": "2026-11-06T19:05:00",
-      "code": "5952-125-COT26",
-      "estimated_budget": 2100000.0,
-      "name": "EQUIPAMIENTO DE MICROFONÍA SALA DE EVENTOS OVIDIO SOTOMAYOR",
-      "products": 4,
-      "region": "Región de Arica y Parinacota"
-    },
-    {
-      "available_budget_clp": 170000.0,
-      "buyer": "Dirección de Salud Municipal",
-      "closes_at": "2026-11-09T10:00:00",
-      "code": "2664-733-COT26",
-      "estimated_budget": 170000.0,
-      "name": "TALLIMETRO PORTATIL CONEVNIO MAIS CECOSR EL SANTO",
-      "products": 1,
-      "region": "Región del Biobío"
-    },
-    {
-      "available_budget_clp": 800000.0,
-      "buyer": "I MUNICIPALIDAD DE BULNES",
-      "closes_at": "2026-11-06T19:30:00",
-      "code": "3904-995-COT26",
-      "estimated_budget": 800000.0,
-      "name": "OP26-1557 Servicio de Alimentación Seminario Centro Integral de la Mujer",
-      "products": 1,
-      "region": "Región del Ñuble"
-    },
-    {
-      "available_budget_clp": 2700000.0,
-      "buyer": "SERVICIO DE SALUD ARAUCANIA NORTE",
-      "closes_at": "2026-11-11T12:00:00",
-      "code": "1057390-323-COT26",
-      "estimated_budget": 2700000.0,
-      "name": "EJECUCIÓN PROYECTO: ILUMINACIÓN BODEGA DROGUERÍA SERVICIO DE SALUD ARAUCANÍA NORTE",
-      "products": 1,
-      "region": "Región de la Araucanía"
-    },
-    {
-      "available_budget_clp": 7000000.0,
-      "buyer": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-      "closes_at": "2026-11-09T15:00:00",
-      "code": "2263-57-COT26",
-      "estimated_budget": 7000000.0,
-      "name": "ADQUISICION DE PAPEL ADHESIVO PARA UNIDAD DE SEÑALES, DE LA PROVINCIA DE MALLECO, REGION DE LA ARAUCANIA",
-      "products": 2,
-      "region": "Región de la Araucanía"
-    },
-    {
-      "available_budget_clp": 258825.0,
-      "buyer": "I MUNICIPALIDAD DE CURACAUTIN",
-      "closes_at": "2026-11-06T19:30:00",
-      "code": "4118-59-COT26",
-      "estimated_budget": 258825.0,
-      "name": "SERVICIO DE ALIMENTACIÓN GIRA TÉCNICA",
-      "products": 1,
-      "region": "Región de la Araucanía"
-    },
-    {
-      "available_budget_clp": 800000.0,
-      "buyer": "SERVICIO DE SALUD VINA DEL MAR QUILLOTA",
-      "closes_at": "2026-11-06T19:30:00",
-      "code": "1704-3830-COT26",
-      "estimated_budget": 800000.0,
-      "name": "*COMPRA DE SENSOR SPO2 ADULTO BLUE PRO PARA MONITOR NIHON KOHDEN CU-151R",
-      "products": 1,
-      "region": "Región de Valparaíso"
+      "available_budget_clp": 950000.0,
+      "buyer": "DIRECCION REGIONAL DE GENDARMERIA DE CHILE, REGION",
+      "closes_at": "2026-11-07T12:00:00",
+      "code": "5740-208-COT26",
+      "estimated_budget": 950000.0,
+      "name": "CCP RIO BUENO, COMPRA DE CECINAS PARA FUNCIONARIOS E INTERNOS",
+      "products": 5,
+      "region": "Región de Los Ríos"
     }
   ],
-  "active_structurally_reconstructable_count": 7,
+  "active_structurally_reconstructable_count": 1,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -89,7 +29,7 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-05T22:07:30Z",
+  "generated_at": "2026-11-06T06:59:31Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -97,16 +37,16 @@
   "phase1": {
     "records": 20,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 10
+      "no_observable_competitive_prices": 9
     },
-    "resolved": 13,
-    "structurally_reconstructable": 10,
-    "with_observable_quote_totals": 3,
-    "with_purchase_order_indicator": 3
+    "resolved": 19,
+    "structurally_reconstructable": 11,
+    "with_observable_quote_totals": 10,
+    "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-05T22:07:30Z"
+    "changed_to": "2026-11-06T06:59:31Z"
   }
 }
