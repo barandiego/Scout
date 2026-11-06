@@ -1,23 +1,95 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 950000.0,
-      "buyer": "DIRECCION REGIONAL DE GENDARMERIA DE CHILE, REGION",
-      "closes_at": "2026-11-07T12:00:00",
-      "code": "5740-208-COT26",
-      "estimated_budget": 950000.0,
-      "name": "CCP RIO BUENO, COMPRA DE CECINAS PARA FUNCIONARIOS E INTERNOS",
-      "products": 5,
-      "region": "Región de Los Ríos"
+      "available_budget_clp": 357000.0,
+      "buyer": "Ilustre Municipalidad de Río Negro - Salud",
+      "closes_at": "2026-11-09T13:00:00",
+      "code": "2917-357-COT26",
+      "estimated_budget": 357000.0,
+      "name": "Fluoresceina sódica UAPO",
+      "products": 1,
+      "region": "Región de los Lagos"
+    },
+    {
+      "available_budget_clp": 300000.0,
+      "buyer": "SERVICIO NACIONAL DE SALUD HOSPITAL DE FLORIDA",
+      "closes_at": "2026-11-09T13:00:00",
+      "code": "1057428-63-COT26",
+      "estimated_budget": 300000.0,
+      "name": "REFRIGERADOR PARA UNIDAD DE HOSPITALIZADOS",
+      "products": 1,
+      "region": "Región del Biobío"
+    },
+    {
+      "available_budget_clp": 462000.0,
+      "buyer": "UNIVERSIDAD DEL BIO BIO",
+      "closes_at": "2026-11-09T12:00:00",
+      "code": "2705-1744-COT26",
+      "estimated_budget": 462000.0,
+      "name": "SC5308 MATERIAL DE FERRETERIA",
+      "products": 1,
+      "region": "Región del Ñuble"
+    },
+    {
+      "available_budget_clp": 800000.0,
+      "buyer": "SECCIÓN COMPRAS I ZONA",
+      "closes_at": "2026-11-09T10:30:00",
+      "code": "1079967-864-COT26",
+      "estimated_budget": 800000.0,
+      "name": "ADQUISICIÓN DE 7 TRITURADORAS DE PAPEL PARA SER UTILIZADAS POR EL DEAOPERPOL ZONA TARAPACÁ",
+      "products": 1,
+      "region": "Región de Tarapacá"
+    },
+    {
+      "available_budget_clp": 2000000.0,
+      "buyer": "I MUNICIPALIDAD DE PITRUFQUEN",
+      "closes_at": "2026-11-08T18:00:00",
+      "code": "3708-159-COT26",
+      "estimated_budget": 2000000.0,
+      "name": "RESTAURACIÓN Y MANTENCIÓN ESCULTURA CACIQUE PAILLALEF SA-269 DIDECO",
+      "products": 1,
+      "region": "Región de la Araucanía"
+    },
+    {
+      "available_budget_clp": 2000000.0,
+      "buyer": "SERVICIO DE SALUD DEL MAULE HOSPITAL DE LINARES",
+      "closes_at": "2026-11-07T14:00:00",
+      "code": "4817-581-COT26",
+      "estimated_budget": 2000000.0,
+      "name": "ACEITES HIPEROXIGENADOS CON SILICONA, SPRAY 20ML., REGISTRO COMO DISPOSITIVO MEDICO, FRASCO DISPENSADOR.",
+      "products": 1,
+      "region": "Región del Maule"
+    },
+    {
+      "available_budget_clp": 500000.0,
+      "buyer": "I MUNICIPALIDAD DE CUNCO",
+      "closes_at": "2026-11-07T13:30:00",
+      "code": "4285-201-COT26",
+      "estimated_budget": 500000.0,
+      "name": "se requiere Router e insumos informáticos para Establecimientos Educacionales",
+      "products": 1,
+      "region": "Región de la Araucanía"
+    },
+    {
+      "available_budget_clp": 250000.0,
+      "buyer": "I MUNICIPALIDAD PEDRO AGUIRRE CERDA",
+      "closes_at": "2026-11-09T09:00:00",
+      "code": "2393-1546-COT26",
+      "estimated_budget": 250000.0,
+      "name": "ADQ. WEBCAM EXTERNA, SP. 1774, RR.HH.",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
     }
   ],
-  "active_structurally_reconstructable_count": 1,
+  "active_structurally_reconstructable_count": 8,
   "diagnostics": {
-    "api_failures": {},
+    "api_failures": {
+      "api_rate_limited": 11
+    },
     "budget_exhausted": false,
     "detail_attempts": 20,
     "detail_cap_exhausted": true,
-    "details_fetched": 20,
+    "details_fetched": 9,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -29,24 +101,24 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-06T06:59:31Z",
-  "inserted_history": 20,
+  "generated_at": "2026-11-06T16:00:06Z",
+  "inserted_history": 9,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
+  "outcome": "DEGRADED_API_ERRORS",
   "phase1": {
-    "records": 20,
+    "records": 9,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 9
+      "no_observable_competitive_prices": 1
     },
-    "resolved": 19,
-    "structurally_reconstructable": 11,
-    "with_observable_quote_totals": 10,
+    "resolved": 1,
+    "structurally_reconstructable": 8,
+    "with_observable_quote_totals": 0,
     "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-06T06:59:31Z"
+    "changed_to": "2026-11-06T16:00:06Z"
   }
 }
