@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-11-06T18:54:59.974397+00:00
+Generated: 2026-11-06T23:58:11.253887+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 177 (0 HQ survivors, 177 watches)
-- Rejected opportunities excluded: 98
-- Critic-and-judge reviewed: 80
+- Active research: 178 (0 HQ survivors, 178 watches)
+- Rejected opportunities excluded: 99
+- Critic-and-judge reviewed: 81
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -672,6 +672,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Actual checkout totals by Chilean location, including shipping, taxes, pickup eligibility, payment costs, and corporate invoicing terms.; Whether the same SKU, size, batch, packaging, and warranty are being compared across Natura.cl and Falabella.com.; Whether price differences persist after promotions, coupons, multi-buy rules, loyalty benefits, and shipping thresholds are normalized.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.falabella.com/falabella-cl/seller/Natura; https://www.natura.cl/encuentra-natura
+
+### NFC review-and-reorder plaques for Chilean independent merchants [opp_ce00c60c8ebfd1d48cd2]
+- Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile
+- Thesis: A small operator should not compete on generic NFC business cards. A narrower offer is a preconfigured countertop or packaging plaque that sends customers to one measurable action—Google review, WhatsApp reorder, menu, booking or loyalty stamp—sold with a simple setup fee and optional replacement/update service. The economic mechanism is paid physical placement plus measurable reduction in friction between offline traffic and a merchant-owned digital channel.
+- Value capture: Sell a locally printed NFC/QR plaque or tag with the merchant's destination URL, analytics link and replacement/update service. The verified price ceiling for comparable local products is approximately CLP 19,990–29,990 per unit; recurring revenue, conversion rate and merchant retention remain unverified.
+- Participation hypothesis: Start with one vertical where the action is easy to measure, such as cafés or salons. Build a one-page landing page and one physical prototype using an inexpensive NFC tag and QR code. Approach 20 nearby businesses in person or through publicly listed contact channels; offer a seven-day unpaid or deposit-backed test only if the merchant agrees to place it at the point of sale and provide baseline and post-test scan/review counts. Falsify if fewer than three businesses agree to place the prototype, or if no tested merchant records a measurable a
+- Critic/judge: The physical-product premise clears the minimum viability screen: identifiable buyers are independent merchants, locally available NFC plaques/stands exist, and Chilean competitors already sell comparable review/contact-routing products. This is therefore not an unsupported absence-of-competition thesis, and local suppliers provide a plausible initial sourcing and replacement path. However, the same evidence makes the offer highly commo
+- Next evidence gaps: Incremental conversion from plaque exposure to completed reviews, WhatsApp conversations, reorders, bookings, or loyalty actions.; Whether merchants value attribution and reporting enough to pay a recurring fee.; Gross margin after NFC tags, printing, acrylic or other materials, personalization, packaging, delivery, replacements, sales time, taxes, and support.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.ondda.cl/; https://www.aither.cl/tap/
 
 ### Open-finance conformance test asset for Chilean participants [opp_d8365496cc53375fa445]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -1553,16 +1563,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.aither.cl/tap/; https://pymevisible.cl/productos
 
-### NFC review-and-reorder plaques for Chilean independent merchants [opp_ce00c60c8ebfd1d48cd2]
-- Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile
-- Thesis: A small operator should not compete on generic NFC business cards. A narrower offer is a preconfigured countertop or packaging plaque that sends customers to one measurable action—Google review, WhatsApp reorder, menu, booking or loyalty stamp—sold with a simple setup fee and optional replacement/update service. The economic mechanism is paid physical placement plus measurable reduction in friction between offline traffic and a merchant-owned digital channel.
-- Value capture: Sell a locally printed NFC/QR plaque or tag with the merchant's destination URL, analytics link and replacement/update service. The verified price ceiling for comparable local products is approximately CLP 19,990–29,990 per unit; recurring revenue, conversion rate and merchant retention remain unverified.
-- Participation hypothesis: Start with one vertical where the action is easy to measure, such as cafés or salons. Build a one-page landing page and one physical prototype using an inexpensive NFC tag and QR code. Approach 20 nearby businesses in person or through publicly listed contact channels; offer a seven-day unpaid or deposit-backed test only if the merchant agrees to place it at the point of sale and provide baseline and post-test scan/review counts. Falsify if fewer than three businesses agree to place the prototype, or if no tested merchant records a measurable a
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.ondda.cl/; https://www.aither.cl/tap/
-
 ### On-premise Spanish document-to-structured-data pack for Chilean invoices and import records [opp_b5b7cce5448f80487092]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: A small operator can assemble a reproducible, locally hosted extraction pack for Spanish invoices, customs documents, bank statements, or supplier quotes, reducing manual transcription in a narrowly defined workflow. The evidence supports technical feasibility and licensing, but does not prove extraction accuracy on Chilean documents or willingness to pay.
@@ -1592,6 +1592,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
+
+### Organic-crop robotic weeding retrofit and ROI trial [opp_4c867bb6e2a52712c785]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States
+- Thesis: A narrow adoption wedge exists between proven weed-control automation and farms that still need crop-specific validation, equipment compatibility, and economics before purchasing. The economic mechanism is reduced hand-weeding labor, lower herbicide use, and potentially lower crop-loss risk.
+- Value capture: A concrete offer could be a one-crop, one-field paid validation package: map weeds, test an existing robotic or tractor-mounted mechanical-weeding setup, and deliver measured labor-hours, weed-control, crop-damage, and cost-per-acre results. Revenue would come from a field-trial fee or equipment-integration fee only if a grower or technology supplier agrees to pay; no buyer or price is assumed here.
+- Participation hypothesis: Start with public grower, extension, and organic-farm directories in one region. Contact 20 growers of the same crop and offer a low-cost diagnostic using their existing field records and a half-day field assessment. Proceed only if at least one grower agrees in writing to provide field access and pays a deposit or signs a paid pilot scope. The lowest-cost falsification test is to ask for a paid pretrial commitment before purchasing or building equipment. Do not represent the test as an equipment sale or claim savings until measured.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.nifa.usda.gov/about-nifa/impacts/automation-specialty-crops; https://www.ars.usda.gov/research/project?accnNo=442310
 
 ### Paid Spanish AI-training studies through Prolific [opp_042d45b316edf1e31943]
 - Status: WATCH_REQUIRES_VALIDATION | general | Chile; remote, with a Concepción-specific listing

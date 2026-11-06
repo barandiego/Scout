@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 177
+Candidates: 178
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -1788,7 +1788,7 @@ Candidates: 177
   - Compare local product availability to supplier catalogs and independent consumer interest.
   - Check import, tax, return, certification and delivery economics before estimating margin.
   - Try a legitimate pre-order/waitlist test with transparent fulfillment conditions.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Incremental conversion from plaque exposure to completed reviews, WhatsApp conversations, reorders, bookings, or loyalty actions.; Whether merchants value attribution and reporting enough to pay a recurring fee.; Gross margin after NFC tags, printing, acrylic or other materials, personalization, packaging, delivery, replacements, sales time, taxes, and support.
 - Possible initial budget:
 - Source URLs: https://www.ondda.cl/; https://www.aither.cl/tap/
 
@@ -2055,6 +2055,18 @@ Candidates: 177
 - Critical gaps: Which crop, cultivar, training system, geography, and orchard size will be served first.; Required accuracy for a grower to alter harvest timing, labor allocation, thinning, packing, or sales decisions.; Whether maturity classification is sufficiently reliable under commercial lighting, canopy occlusion, and cultivar variation.
 - Possible initial budget:
 - Source URLs: https://www.nifa.usda.gov/about-nifa/impacts/automation-specialty-crops; https://www.ars.usda.gov/research/project/?accnNo=448156
+
+## Organic-crop robotic weeding retrofit and ROI trial
+- Status: watch | robotics_agritech
+- Current idea: A narrow adoption wedge exists between proven weed-control automation and farms that still need crop-specific validation, equipment compatibility, and economics before purchasing. The economic mechanism is reduced hand-weeding labor, lower herbicide use, and potentially lower crop-loss risk.
+- Potential economic capture: A concrete offer could be a one-crop, one-field paid validation package: map weeds, test an existing robotic or tractor-mounted mechanical-weeding setup, and deliver measured labor-hours, weed-control, crop-damage, and cost-per-acre results. Revenue would come from a field-trial fee or equipment-integration fee only if a grower or technology supplier agrees to pay; no buyer or price is assumed here.
+- **Research routes to test (NOT validated claims):**
+  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
+  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
+  - Arrange a bounded field validation with an actual farm operator before scaling.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.nifa.usda.gov/about-nifa/impacts/automation-specialty-crops; https://www.ars.usda.gov/research/project?accnNo=442310
 
 ## Per-acre robotic weeding/scouting deployment for specialty-crop growers priced out of ownership
 - Status: watch | robotics_agritech

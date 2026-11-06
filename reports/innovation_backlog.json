@@ -5647,9 +5647,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "Chile",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "Incremental conversion from plaque exposure to completed reviews, WhatsApp conversations, reorders, bookings, or loyalty actions.",
+        "Whether merchants value attribution and reporting enough to pay a recurring fee.",
+        "Gross margin after NFC tags, printing, acrylic or other materials, personalization, packaging, delivery, replacements, sales time, taxes, and support.",
+        "Actual customer-acquisition cost and close rate for in-person or public-channel outreach.",
+        "Whether merchants will consistently place the product at a high-traffic point and keep it visible.",
+        "Whether NFC tap rates materially exceed QR scans or ordinary signage.",
+        "Retention and replacement demand after the first purchase."
       ],
       "investment_authorized": false,
       "name": "NFC review-and-reorder plaques for Chilean independent merchants",
@@ -6520,6 +6524,42 @@
       "category": "robotics_agritech",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Start with public grower, extension, and organic-farm directories in one region. Contact 20 growers of the same crop and offer a low-cost diagnostic using their existing field records and a half-day field assessment. Proceed only if at least one grower agrees in writing to provide field access and pays a deposit or signs a paid pilot scope. The lowest-cost falsification test is to ask for a paid pretrial commitment before purchasing or building equipment. Do not represent the test as an equipment sale or claim savings until measured.",
+      "current_thesis": "A narrow adoption wedge exists between proven weed-control automation and farms that still need crop-specific validation, equipment compatibility, and economics before purchasing. The economic mechanism is reduced hand-weeding labor, lower herbicide use, and potentially lower crop-loss risk.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Organic-crop robotic weeding retrofit and ROI trial",
+      "opportunity_id": "opp_4c867bb6e2a52712c785",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
+        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
+        "Arrange a bounded field validation with an actual farm operator before scaling."
+      ],
+      "supporting_source_urls": [
+        "https://www.nifa.usda.gov/about-nifa/impacts/automation-specialty-crops",
+        "https://www.ars.usda.gov/research/project?accnNo=442310"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A concrete offer could be a one-crop, one-field paid validation package: map weeds, test an existing robotic or tractor-mounted mechanical-weeding setup, and deliver measured labor-hours, weed-control, crop-damage, and cost-per-acre results. Revenue would come from a field-trial fee or equipment-integration fee only if a grower or technology supplier agrees to pay; no buyer or price is assumed here.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "robotics_agritech",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Start with one crop and one task in a defined local growing region. Identify publicly listed growers, custom operators, extension contacts and equipment vendors; ask whether they will authorize a small paid or no-cost comparison trial. Use an existing commercial platform or rent/borrow one rather than building hardware. Benchmark treated acreage against the grower's current labor or chemical-control method using pre-agreed measures: labor hours, weed-control score, crop damage, acres completed and total operating cost. The lowest-cost falsification is to obtain three written refusals or no-response outcomes from relevant operators, or to run a 1–5 acre trial and find that the measured cost or performance is not better than the incumbent method. Publicly visible price anchors include approximately $100 per acre for an orchard-management software/service example and $12,000–$35,000 for an indicative autonomous row-crop weeding unit; these are not evidence that a buyer will pay for the proposed service.",
       "current_thesis": "The likely bottleneck is not proof that automation can work, but access to equipment and crop-specific operating capability for growers who cannot justify a capital purchase. A narrow wedge is a paid, per-acre deployment using an existing robot, drone or sensing platform for one measurable task such as mechanical weeding, crop scouting or targeted spraying.",
       "founder_hours_initial_unverified_estimate": "",
@@ -6740,7 +6780,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-06T18:55:00.068986+00:00",
+  "generated_at": "2026-11-06T23:58:11.356988+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

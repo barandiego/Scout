@@ -5806,6 +5806,93 @@
     {
       "ai_leverage": "",
       "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-19T00:23:02.836869+00:00",
+      "discovery_lens": "nfc_smart_commerce",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "A Chilean supplier lists an NFC business card at CLP 24,990 and acrylic NFC stands at CLP 19,990 and CLP 29,990, demonstrating an existing local purchase route and price reference.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Soluciones NFC para negocios en Chile",
+          "url": "https://www.ondda.cl/"
+        },
+        {
+          "claim": "A Chilean provider explicitly markets NFC and QR products for directing customers to Google reviews, Instagram and WhatsApp, confirming local alternatives and the relevant use cases.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "AITHER TAP — NFC + QR para conectar con tus clientes",
+          "url": "https://www.aither.cl/tap/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.78,
+      "falsification_conditions": [
+        "Fewer than 3 of 20 qualified merchants agree to place a prototype for a defined seven-day test.",
+        "Across at least 5 tests, fewer than 1% of exposed customer interactions produce the intended measurable action, unless the merchant's baseline is exceptionally low and the result is economically valuable.",
+        "No merchant agrees to pay at least enough to cover hardware, fulfillment, sales effort, and support at a defensible contribution margin.",
+        "No merchant accepts a recurring monitoring, update, replacement, or optimization fee after seeing attributable results.",
+        "A comparable competitor offers the same physical product, destination configuration, and measurement at a price that leaves less than approximately 40% gross margin before sales labor.",
+        "Merchants report that free QR signage or their existing Google/WhatsApp links are an adequate substitute.",
+        "Measured actions cannot be credibly attributed to the plaque because baseline traffic, placement, or competing calls to action are uncontrolled.",
+        "The operator cannot reach positive contribution economics within a practical sales radius without spending materially more time on customization and support than the product revenue supports."
+      ],
+      "geography": "Chile",
+      "id": "opp_ce00c60c8ebfd1d48cd2",
+      "judge_reviewed": true,
+      "judgment": "The physical-product premise clears the minimum viability screen: identifiable buyers are independent merchants, locally available NFC plaques/stands exist, and Chilean competitors already sell comparable review/contact-routing products. This is therefore not an unsupported absence-of-competition thesis, and local suppliers provide a plausible initial sourcing and replacement path. However, the same evidence makes the offer highly commoditized. No evidence yet supports incremental merchant outcomes, a repeatable recurring-revenue service, workable acquisition economics, or a differentiated bundle that can sustain price above ordinary QR signage and low-cost programmable NFC tags. It should proceed only as tightly controlled pre-inventory validation in a narrow merchant wedge, not as an inventory purchase or broad distribution launch.",
+      "last_record_updated_at": "2026-11-06T23:58:10.747909+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Incremental conversion from plaque exposure to completed reviews, WhatsApp conversations, reorders, bookings, or loyalty actions.",
+        "Whether merchants value attribution and reporting enough to pay a recurring fee.",
+        "Gross margin after NFC tags, printing, acrylic or other materials, personalization, packaging, delivery, replacements, sales time, taxes, and support.",
+        "Actual customer-acquisition cost and close rate for in-person or public-channel outreach.",
+        "Whether merchants will consistently place the product at a high-traffic point and keep it visible."
+      ],
+      "participation_path": "Start with one vertical where the action is easy to measure, such as cafés or salons. Build a one-page landing page and one physical prototype using an inexpensive NFC tag and QR code. Approach 20 nearby businesses in person or through publicly listed contact channels; offer a seven-day unpaid or deposit-backed test only if the merchant agrees to place it at the point of sale and provide baseline and post-test scan/review counts. Falsify if fewer than three businesses agree to place the prototype, or if no tested merchant records a measurable action attributable to it. Do not assume permission to edit business profiles, collect customer data or make claims about incremental sales.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A small operator should not compete on generic NFC business cards. A narrower offer is a preconfigured countertop or packaging plaque that sends customers to one measurable action—Google review, WhatsApp reorder, menu, booking or loyalty stamp—sold with a simple setup fee and optional replacement/update service. The economic mechanism is paid physical placement plus measurable reduction in friction between offline traffic and a merchant-owned digital channel.",
+      "title": "NFC review-and-reorder plaques for Chilean independent merchants",
+      "type": "physical_product_plus_digital_asset",
+      "unknowns": [
+        "Incremental conversion from plaque exposure to completed reviews, WhatsApp conversations, reorders, bookings, or loyalty actions.",
+        "Whether merchants value attribution and reporting enough to pay a recurring fee.",
+        "Gross margin after NFC tags, printing, acrylic or other materials, personalization, packaging, delivery, replacements, sales time, taxes, and support.",
+        "Actual customer-acquisition cost and close rate for in-person or public-channel outreach.",
+        "Whether merchants will consistently place the product at a high-traffic point and keep it visible.",
+        "Whether NFC tap rates materially exceed QR scans or ordinary signage.",
+        "Retention and replacement demand after the first purchase.",
+        "Whether analytics links remain reliable when merchants change Google, WhatsApp, menu, booking, or loyalty destinations.",
+        "Whether Google review policies or merchant practices create compliance or reputational risk, especially if sellers imply guaranteed positive reviews.",
+        "Which vertical has enough transaction frequency and customer dwell time to produce measurable value.",
+        "Whether competitors already offer lower prices or bulk discounts that compress the proposed price ceiling.",
+        "Whether independent merchants have enough digital sophistication to interpret analytics and act on them.",
+        "Actual completed sales, delivery performance, warranty terms, and supplier reliability of the cited Chilean providers.",
+        "Unit economics by format and order size, including whether local sourcing or import is preferable and what MOQ/working-capital exposure is required.",
+        "The best narrow vertical and placement context with enough customer traffic and a measurable high-value action.",
+        "Whether merchants will pay a defensible setup price after comparing generic NFC/QR alternatives.",
+        "Whether merchants will pay for recurring updates, reporting, replacement, or optimization after initial installation.",
+        "Measured lift versus a free printed QR sign or the merchant's existing customer-contact flow.",
+        "Customer willingness and ability to use NFC versus QR, including device compatibility and placement effects.",
+        "Any applicable consumer-data, marketing, platform-policy, tax, and fulfillment obligations for the proposed analytics and review-routing use cases."
+      ],
+      "value_capture_mechanism": "Sell a locally printed NFC/QR plaque or tag with the merchant's destination URL, analytics link and replacement/update service. The verified price ceiling for comparable local products is approximately CLP 19,990–29,990 per unit; recurring revenue, conversion rate and merchant retention remain unverified.",
+      "verified_sales": null,
+      "vertical": "physical_distribution",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
       "contrary_evidence": [
         "CMF's June 1, 2026 amendment includes detailed technical requirements, Annex 3, a developer portal, a formal testing period, and a July 2027 entry-into-force schedule, so there is a genuine technical implementation surface and deadline. Source: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
         "CMF launched ATENA on September 30, 2026 as a controlled environment for institutions to test integrations, verify adequacy with technical standards, test the participant directory, and validate business models. This directly competes with a basic conformance harness. Source: https://cmfchile.cl/portal/principal/623/w4-article-113974.html",
@@ -11217,60 +11304,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-19T00:23:02.836869+00:00",
-      "discovery_lens": "nfc_smart_commerce",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "A Chilean supplier lists an NFC business card at CLP 24,990 and acrylic NFC stands at CLP 19,990 and CLP 29,990, demonstrating an existing local purchase route and price reference.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "Soluciones NFC para negocios en Chile",
-          "url": "https://www.ondda.cl/"
-        },
-        {
-          "claim": "A Chilean provider explicitly markets NFC and QR products for directing customers to Google reviews, Instagram and WhatsApp, confirming local alternatives and the relevant use cases.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "AITHER TAP — NFC + QR para conectar con tus clientes",
-          "url": "https://www.aither.cl/tap/"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.86,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_ce00c60c8ebfd1d48cd2",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-19T00:23:02.874683+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Start with one vertical where the action is easy to measure, such as cafés or salons. Build a one-page landing page and one physical prototype using an inexpensive NFC tag and QR code. Approach 20 nearby businesses in person or through publicly listed contact channels; offer a seven-day unpaid or deposit-backed test only if the merchant agrees to place it at the point of sale and provide baseline and post-test scan/review counts. Falsify if fewer than three businesses agree to place the prototype, or if no tested merchant records a measurable action attributable to it. Do not assume permission to edit business profiles, collect customer data or make claims about incremental sales.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "A small operator should not compete on generic NFC business cards. A narrower offer is a preconfigured countertop or packaging plaque that sends customers to one measurable action—Google review, WhatsApp reorder, menu, booking or loyalty stamp—sold with a simple setup fee and optional replacement/update service. The economic mechanism is paid physical placement plus measurable reduction in friction between offline traffic and a merchant-owned digital channel.",
-      "title": "NFC review-and-reorder plaques for Chilean independent merchants",
-      "type": "physical_product_plus_digital_asset",
-      "unknowns": [],
-      "value_capture_mechanism": "Sell a locally printed NFC/QR plaque or tag with the merchant's destination URL, analytics link and replacement/update service. The verified price ceiling for comparable local products is approximately CLP 19,990–29,990 per unit; recurring revenue, conversion rate and merchant retention remain unverified.",
-      "verified_sales": null,
-      "vertical": "physical_distribution",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-11-02T17:48:27.013875+00:00",
       "discovery_lens": "ai_open_source",
       "estimated_capital": "",
@@ -11425,6 +11458,60 @@
       "value_capture_mechanism": "License or sell a standardized compliance-engineering workbook and test pack to Chilean fintech or vertical-software teams preparing for OFS participation. Do not claim regulatory advice, certification, access to bank APIs, or permission to use CMF materials beyond what the source licenses allow.",
       "verified_sales": null,
       "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-11-06T23:57:44.008988+00:00",
+      "discovery_lens": "adoption_lag",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "USDA NIFA reports robotic apple-picking, automated weeding, mechanized harvesting, and grower adoption associated with estimated labor-hour and cost savings.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Automation for Specialty Crops",
+          "url": "https://www.nifa.usda.gov/about-nifa/impacts/automation-specialty-crops"
+        },
+        {
+          "claim": "USDA ARS documents an active project to regionalize weed detection, connect it to autonomous robots and mechanical implements, and evaluate economics and efficacy in organic crops.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Building Resilient Organic Weed Management Systems with Precision Smart Sprayer Technologies",
+          "url": "https://www.ars.usda.gov/research/project?accnNo=442310"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.91,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_4c867bb6e2a52712c785",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-06T23:57:44.069085+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Start with public grower, extension, and organic-farm directories in one region. Contact 20 growers of the same crop and offer a low-cost diagnostic using their existing field records and a half-day field assessment. Proceed only if at least one grower agrees in writing to provide field access and pays a deposit or signs a paid pilot scope. The lowest-cost falsification test is to ask for a paid pretrial commitment before purchasing or building equipment. Do not represent the test as an equipment sale or claim savings until measured.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A narrow adoption wedge exists between proven weed-control automation and farms that still need crop-specific validation, equipment compatibility, and economics before purchasing. The economic mechanism is reduced hand-weeding labor, lower herbicide use, and potentially lower crop-loss risk.",
+      "title": "Organic-crop robotic weeding retrofit and ROI trial",
+      "type": "service_offer",
+      "unknowns": [],
+      "value_capture_mechanism": "A concrete offer could be a one-crop, one-field paid validation package: map weeds, test an existing robotic or tractor-mounted mechanical-weeding setup, and deliver measured labor-hours, weed-control, crop-damage, and cost-per-acre results. Revenue would come from a field-trial fee or equipment-integration fee only if a grower or technology supplier agrees to pay; no buyer or price is assumed here.",
+      "verified_sales": null,
+      "vertical": "robotics_agritech",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -12458,13 +12545,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-06T18:54:59.974397+00:00",
+  "generated_at": "2026-11-06T23:58:11.253887+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 98,
-  "reviewed_cards": 80,
+  "rejected_excluded": 99,
+  "reviewed_cards": 81,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 275,
-  "watch": 177
+  "total_distinct_opportunities": 277,
+  "watch": 178
 }

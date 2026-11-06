@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-11-06T18:54:59.974397+00:00",
+  "generated_at": "2026-11-06T23:58:11.253887+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -104,7 +104,7 @@
   "high_concentration": [
     {
       "cards": 74,
-      "share": 0.418,
+      "share": 0.416,
       "theme": "chile_open_finance"
     }
   ],
@@ -228,16 +228,26 @@
       "all_opportunity_ids": [
         "opp_def87ec156069bf156db",
         "opp_d54cb21f051b71d41869",
+        "opp_ce00c60c8ebfd1d48cd2",
         "opp_1003190617673d0a5401",
         "opp_7a4c2697266c85e82693",
-        "opp_ce00c60c8ebfd1d48cd2",
         "opp_4597c36d99d4f69a9e20",
         "opp_fa014b2293a26ad04e87"
       ],
       "count": 7,
       "representative_id": "opp_def87ec156069bf156db",
-      "reviewed_count": 2,
+      "reviewed_count": 3,
       "theme": "nfc_products"
+    },
+    {
+      "all_opportunity_ids": [
+        "opp_70d50801d0b809f81137",
+        "opp_4c867bb6e2a52712c785"
+      ],
+      "count": 2,
+      "representative_id": "opp_70d50801d0b809f81137",
+      "reviewed_count": 0,
+      "theme": "agricultural_weeding_robots"
     },
     {
       "all_opportunity_ids": [
@@ -258,15 +268,6 @@
       "representative_id": "opp_99de522ad05d0e01cebc",
       "reviewed_count": 1,
       "theme": "robotics_agritech:independent_field_service"
-    },
-    {
-      "all_opportunity_ids": [
-        "opp_70d50801d0b809f81137"
-      ],
-      "count": 1,
-      "representative_id": "opp_70d50801d0b809f81137",
-      "reviewed_count": 0,
-      "theme": "agricultural_weeding_robots"
     },
     {
       "all_opportunity_ids": [
@@ -899,6 +900,6 @@
       "theme": "robotics_agritech:water_efficiency_field"
     }
   ],
-  "total_original_cards": 177,
+  "total_original_cards": 178,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }
