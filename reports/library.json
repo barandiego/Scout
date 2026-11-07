@@ -8622,67 +8622,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-19T00:23:02.837871+00:00",
-      "discovery_lens": "vertical_farming_economics",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "The Chilean agricultural information service states that its tool provides daily prices for more than 50 products across named Chilean wholesale markets, including basil, cilantro, parsley, spinach and lettuce.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Precios Mayoristas – Chile Agrícola / ODEPA",
-          "url": "https://www.chileagricola.cl/precios-mayoristas/"
-        },
-        {
-          "claim": "The reproduced INIA/FIA cost table reports approximately CLP 1,121,770 in fixed costs for a 20 m² NFT lettuce system, including structure, channels, pumps, tank, plumbing and labor.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "Boletín INIA/FIA — Manejo sanitario y otros",
-          "url": "https://es.scribd.com/document/1014311150/BOLETIN-1-INIA-FIA-Manejo-Sanitario-y-Otros-InIA-Chile"
-        },
-        {
-          "claim": "A Chilean retailer lists hydroponic equipment including a dosing pump at CLP 215,900, EC controller at CLP 662,900 and pH controller at CLP 538,900, providing current local purchase references for capital equipment.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "Sistema de Cultivo Hidropónico Indoor — Andino Tech",
-          "url": "https://andinotech.cl/categoria-producto/hidroponia/sistema-de-cultivo-hidroponico/"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.78,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_663dbc19a60ec3cbcf52",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-19T00:23:02.874830+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Use a small greenhouse or low-energy hydroponic setup rather than a fully indoor LED room. Select one crop with a visible price series on ODEPA/Chile Agrícola, contact ten restaurants, specialty grocers or direct consumers through publicly available channels, and request paid preorders or written price indications before expanding. Run one 4–8 week batch and record germination, harvestable units, kWh, water, labor hours, packaging, delivery and realized price. Falsify if there are no paid preorders before planting, if realized price does not cover measured variable costs, or if crop loss makes fulfillment unreliable. Do not claim restaurant demand, food-safety approval or wholesale access without direct verification.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "Commodity indoor lettuce is not validated: the available evidence shows meaningful equipment cost and no demonstrated local premium or contracted offtake. A narrower testable wedge is propagation or high-value herbs sold locally with preorders, where the operator can avoid full indoor-farm buildout and test price, repeat demand and crop loss before purchasing automation or lighting.",
-      "title": "Small hydroponic propagation and specialty-herb pilot, not commodity indoor lettuce",
-      "type": "small_asset_and_local_supply_offer",
-      "unknowns": [],
-      "value_capture_mechanism": "Capture the difference between validated preorder revenue and variable production, packaging and delivery costs; optionally sell starter trays or recurring herb bundles. No margin, buyer, crop yield or payback period is assumed until measured. The asset is a small NFT/propagation setup that can be reused across crops rather than a large vertical farm.",
-      "verified_sales": null,
-      "vertical": "robotics_agritech",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-20T12:26:32.656475+00:00",
       "discovery_lens": "energy_localization",
       "estimated_capital": "",
@@ -12638,13 +12577,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-07T05:10:19.669393+00:00",
+  "generated_at": "2026-11-07T14:40:49.971464+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 99,
+  "rejected_excluded": 100,
   "reviewed_cards": 82,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
   "total_distinct_opportunities": 278,
-  "watch": 179
+  "watch": 178
 }

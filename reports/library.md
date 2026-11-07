@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-11-07T05:10:19.669393+00:00
+Generated: 2026-11-07T14:40:49.971464+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 179 (0 HQ survivors, 179 watches)
-- Rejected opportunities excluded: 99
+- Active research: 178 (0 HQ survivors, 178 watches)
+- Rejected opportunities excluded: 100
 - Critic-and-judge reviewed: 82
 - Autonomous execution authorization: 0
 
@@ -1062,16 +1062,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://apipyme.cl/planes/; https://logicware.cl/desarrolladores/; https://datario.cl/precios
-
-### Small hydroponic propagation and specialty-herb pilot, not commodity indoor lettuce [opp_663dbc19a60ec3cbcf52]
-- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile
-- Thesis: Commodity indoor lettuce is not validated: the available evidence shows meaningful equipment cost and no demonstrated local premium or contracted offtake. A narrower testable wedge is propagation or high-value herbs sold locally with preorders, where the operator can avoid full indoor-farm buildout and test price, repeat demand and crop loss before purchasing automation or lighting.
-- Value capture: Capture the difference between validated preorder revenue and variable production, packaging and delivery costs; optionally sell starter trays or recurring herb bundles. No margin, buyer, crop yield or payback period is assumed until measured. The asset is a small NFT/propagation setup that can be reused across crops rather than a large vertical farm.
-- Participation hypothesis: Use a small greenhouse or low-energy hydroponic setup rather than a fully indoor LED room. Select one crop with a visible price series on ODEPA/Chile Agrícola, contact ten restaurants, specialty grocers or direct consumers through publicly available channels, and request paid preorders or written price indications before expanding. Run one 4–8 week batch and record germination, harvestable units, kWh, water, labor hours, packaging, delivery and realized price. Falsify if there are no paid preorders before planting, if realized price does not co
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.chileagricola.cl/precios-mayoristas/; https://es.scribd.com/document/1014311150/BOLETIN-1-INIA-FIA-Manejo-Sanitario-y-Otros-InIA-Chile; https://andinotech.cl/categoria-producto/hidroponia/sistema-de-cultivo-hidroponico/
 
 ### Small-scale storage and control feasibility wedge for Chilean distributed generators [opp_3fc8fe5d5af829de71b9]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile

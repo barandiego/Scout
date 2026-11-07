@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-07T05:10:19.186244+00:00
+Generated: 2026-11-07T14:40:49.450312+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['chile_technology_import', 'early_adoption_investing', 'market_positioning']
-- raw_candidates: 1
-- parseable_candidates: 1
-- normalized_candidates: 1
+- lenses: ['asset_ownership', 'nfc_smart_commerce', 'vertical_farming_economics']
+- raw_candidates: 0
+- parseable_candidates: 0
+- normalized_candidates: 0
 - normalization_rejected: 0
-- grounded_sources: 3
+- grounded_sources: 0
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
 - critic_reviews: 1
 - judge_reviews: 1
 - survivors: 0
-- watches: 1
-- rejected: 0
+- watches: 0
+- rejected: 1
 - errors_by_stage: {}
-- rejection_reasons: {'discarded_ungrounded_url': 1}
-- cost_usd: 0.0458865
+- rejection_reasons: {}
+- cost_usd: 0.04284485
 - cost_uncertain: False
-- budget_remaining_usd: 0.0341135
+- budget_remaining_usd: 0.03715515
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -56,8 +56,8 @@ No survivors. Scout does not manufacture a daily winner.
 ```json
 {
   "notes": [
-    "deep_review_lane=fresh",
-    "research_queue_unreviewed=88"
+    "deep_review_lane=backlog",
+    "research_queue_unreviewed=87"
   ],
   "stages": [
     {
@@ -65,94 +65,91 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 31,
+      "grounded_source_count": 44,
       "search_source_urls": [
-        "https://apnews.com/article/b17e59bc0280cdab29ee42509cf5fa9a",
-        "https://arxiv.org/abs/2607.08346",
-        "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=f91f133e-cc24-401b-9e65-e37cc9fd1613",
-        "https://elpais.com/america/termometro-social/2024-10-07/digitalizacion-financiera-en-america-latina-enfrenta-nueva-era-de-transformacion-y-oportunidades.html",
-        "https://elpais.com/chile/2025-07-04/los-pagos-con-tarjetas-telefonos-y-plataformas-digitales-ganan-terreno-en-chile.html",
-        "https://flowstatechile.com/",
-        "https://glama.ai/mcp/servers/JoaquinMulet/mcp-cmf-chile",
-        "https://imperionfc.cl/pages/terminos-y-condiciones-de-uso-y-compra",
-        "https://recalar.cl/categorias/robots-industriales-otros/",
-        "https://robusto.cl/en/resources/import-robot-to-chile/",
-        "https://www.axios.com/newsletters/axios-pro-rata-74c27ee0-60c6-11f0-a510-f94a5236d169",
-        "https://www.bcn.cl/leychile/navegar?f=2023-02-03&i=1187323&p=10393558",
-        "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa_tramite_ver_archivo.php?id=2025071034&seq=1",
-        "https://www.cmfchile.cl/portal/prensa/615/articles-99098_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/articles-82778_doc_pdf.pdf",
+        "https://academic.oup.com/plphys/article/198/3/kiaf056/8104144",
+        "https://apnews.com/article/28d360b3c8d7fa424892e23fe1c85c93",
+        "https://arxiv.org/abs/2403.08934",
+        "https://arxiv.org/abs/2507.18419",
+        "https://arxiv.org/abs/2510.03686",
+        "https://arxiv.org/abs/2607.26968",
+        "https://elpais.com/elpais/2019/02/28/escaparate/1551375000_956298.html",
+        "https://elpais.com/tecnologia/tu-tecnologia/2024-10-01/cuatro-alternativas-para-pagar-sin-llevar-tarjeta-o-efectivo.html",
+        "https://en.wikipedia.org/wiki/Controlled-environment_agriculture",
+        "https://en.wikipedia.org/wiki/Near-field_communication",
+        "https://energypartnership.cl/fileadmin/chile/media_elements/Studies/2025_Manual_para_el_Desarrollo_de_Proyectos_Agrivoltaicos_en_Chile.PDF",
+        "https://es.wikipedia.org/wiki/Sector_el%C3%A9ctrico_en_Chile",
+        "https://es.wikipedia.org/wiki/Tarjeta_de_proximidad",
+        "https://pymevisible.cl/productos/tarjeta-google",
+        "https://tarjetas-nfc.com/precios",
+        "https://www.agronexo.cl/168-mercado-agricola",
+        "https://www.axios.com/2022/11/08/lettuce-hydroponics-drought-climate-teen-romaine-iceberg",
+        "https://www.axios.com/2023/01/06/indoor-farming-small-scale-farmers",
+        "https://www.axios.com/local/chicago/2026/08/10/downtown-vertical-farming-venture-takes-root",
+        "https://www.bcentral.cl/documents/33528/7849961/Financial%2BStability%2BReport%2BSecond%2BHalf%2B2025.pdf/83c6bb57-4793-0438-3959-bfd68fea216f?t=1765546573527",
+        "https://www.citytap.cl/pdf/CITYTAP_TARJETAYDOMO_LEADNET.pdf",
         "https://www.cmfchile.cl/portal/prensa/625/articles-99083_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/principal/613/articles-46998_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-96458.html",
+        "https://www.cmfchile.cl/portal/principal/613/articles-92466_recurso_1.pdf",
         "https://www.cmfchile.cl/portal/principal/623/articles-82752_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-82752.html",
-        "https://www.kiplinger.com/investing/ai-bubble-you-could-be-missing-a-huge-investing-opportunity",
-        "https://www.kiplinger.com/investing/live/spacex-ipo-spcx-stock-updates-and-commentary",
-        "https://www.klap.cl/en/home-comercios",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.mdpi.com/2071-1050/18/9/4481",
+        "https://www.mdpi.com/2073-4395/15/3/744",
+        "https://www.mdpi.com/2311-7524/12/8/972",
+        "https://www.ondda.cl/tienda/",
+        "https://www.portalfruticola.com/noticias/2026/10/26/hidroponia-2/",
         "https://www.reddit.com/r/FinanzasChile/comments/1xm4k1y/somos_los_fundadores_de_savemoney_la_app_que_te/",
-        "https://www.reddit.com/r/chile/comments/11jwdvl/api_publicas_chilenas/",
+        "https://www.reddit.com/r/Hydroponics/comments/12kz0zt/seeding_on_my_laborfree_farm_v2_lettuce_heads/",
+        "https://www.reddit.com/r/Hydroponics/comments/1knfjye",
+        "https://www.reddit.com/r/Hydroponics/comments/1o27yvq/fired_in_march_went_allin_with_my_hydroponics/",
+        "https://www.reddit.com/r/Hydroponics/comments/1osq29g/growing_allllll_your_produce_at_home/",
+        "https://www.reddit.com/r/Hydroponics/comments/1oz3hps",
+        "https://www.reddit.com/r/OffGrid/comments/1n4cm1y",
+        "https://www.reddit.com/r/RepublicadeChile/comments/1uuh8ar/agrourbana_la_startup_pionera_de_las_lechugas/",
+        "https://www.reddit.com/r/chile/comments/1w2n8wj/hola_gente_quer%C3%ADa_saber_que_tan_raro_es_encontrar/",
         "https://www.reddit.com/r/chileIT/comments/1gf8fev/apis_bancarias/",
         "https://www.reddit.com/r/chileIT/comments/1jcs4sd",
-        "https://www.reddit.com/r/chileIT/comments/1rjru5d/cmf_ca%C3%ADdo_httpswwwcmfchilecl/",
-        "https://www.reddit.com/r/chileIT/comments/1tb63ai/error_en_api_cmf/",
-        "https://www.trade.gov/country-commercial-guides/chile-standards-trade",
-        "https://www.tuk.cl/es-cl/collections/todos-los-productos"
+        "https://www.reddit.com/r/chileIT/comments/1t6lqnm/han_usado_tarjetas_bip_sin_uso_como_nfc_para_algo/",
+        "https://www.sciencedirect.com/science/article/pii/S0196890425011707"
       ]
     },
     {
-      "index": 0,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [
-        "discarded_ungrounded_url"
-      ],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 3,
-      "retry_justified": false
-    },
-    {
       "stage": "critic",
-      "candidate_id": "opp_80c27af4c7b538954998",
+      "candidate_id": "opp_663dbc19a60ec3cbcf52",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 24,
+      "grounded_source_count": 25,
       "search_source_urls": [
-        "https://aws.amazon.com/financial-services/security-compliance/compliance-center/cl/",
-        "https://elpais.com/america/termometro-social/2024-10-07/digitalizacion-financiera-en-america-latina-enfrenta-nueva-era-de-transformacion-y-oportunidades.html",
-        "https://ozoneapi.com/the-open-finance-tracker/library/",
-        "https://sfasandbox.cl/",
-        "https://www.carey.cl/en/cmf-amends-ncg-no-514-and-incorporates-technical-standards-for-the-implementation-of-the-open-finance-system",
-        "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa_tramite_ver_archivo.php?id=2025071034&seq=1",
-        "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa_tramite_ver_archivo.php?id=2026010555&seq=1",
-        "https://www.cmfchile.cl/institucional/mercados/ver_archivo.php?archivo=%2Fweb%2Fcompendio%2Fncg%2Fncg_514_2024.pdf",
-        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
-        "https://www.cmfchile.cl/portal/prensa/615/articles-100979_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-112955.html?trk=public_post_comment-text",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
-        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=0997b1a9ea4152dee34fa21eb2d3adcdVFdwQmVVNXFRWGhOUkVGM1RrUkZkMDEzUFQwPQ%3D%3D&secuencia=-1&t=1770158172",
-        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640",
-        "https://www.reddit.com/r/ChileStartup/comments/1w7crw8/autopromoci%C3%B3n_fintrace_flujo_de_caja_inteligente/",
-        "https://www.reddit.com/r/FinanzasChile/comments/1xm4k1y/somos_los_fundadores_de_savemoney_la_app_que_te/",
-        "https://www.reddit.com/r/chileIT/comments/1gf8fev/apis_bancarias/",
-        "https://www.reddit.com/r/chileIT/comments/1lkbr16",
-        "https://www.reddit.com/r/chileIT/comments/1v1xgjc/primer_saas/"
+        "https://bibliotecadigital.odepa.gob.cl/items/658f8c0e-bf41-40c1-9cd1-1e9ae28a3f87/full",
+        "https://datos.odepa.gob.cl/es/",
+        "https://dehesaindex.com/datos/en/cl-prices-fv/",
+        "https://en.wikipedia.org/wiki/Herb_farm",
+        "https://en.wikipedia.org/wiki/Hydroponics",
+        "https://es.wikipedia.org/wiki/Sector_el%C3%A9ctrico_en_Chile",
+        "https://mayoristas.com/agricultores/precios?pais=cl",
+        "https://www.axios.com/2022/11/08/lettuce-hydroponics-drought-climate-teen-romaine-iceberg",
+        "https://www.chileagricola.cl/precios-mayoristas/",
+        "https://www.floraldaily.com/article/9789339/from-the-atacama-desert-to-fine-dining-hydroponic-edible-flowers-take-root-in-northern-chile/",
+        "https://www.indexbox.io/store/chile-herbs-market-analysis-forecast-size-trends-and-insights/",
+        "https://www.mordorintelligence.com/industry-reports/south-america-hydroponics-market",
+        "https://www.ncat.org/publication/herbs-organic-greenhouse-production/",
+        "https://www.odepa.gob.cl/precios/avance-por-productos",
+        "https://www.odepa.gob.cl/precios/insumos",
+        "https://www.odepa.gob.cl/wp-content/uploads/2025/12/Boletin_Diario_de_Frutas_y_Hortalizas_20260102.pdf",
+        "https://www.odepa.gob.cl/wp-content/uploads/2026/01/Boletin_Diario_de_Frutas_y_Hortalizas_20260112.pdf",
+        "https://www.odepa.gob.cl/wp-content/uploads/2026/05/Boletin_Diario_de_Frutas_y_Hortalizas_20260601.pdf",
+        "https://www.odepa.gob.cl/wp-content/uploads/2026/06/Boletin_Diario_de_Frutas_y_Hortalizas_20260603.pdf",
+        "https://www.odepa.gob.cl/wp-content/uploads/2026/11/Boletin_Diario_de_Frutas_y_Hortalizas_20261104.pdf",
+        "https://www.odepa.gob.cl/wp-content/uploads/2026/11/Boletin_Diario_de_Frutas_y_Hortalizas_20261104.pdf",
+        "https://www.odepa.gob.cl/wp-content/uploads/2026/11/Boletin_Diario_de_Frutas_y_Hortalizas_20261105.pdf",
+        "https://www.pubs.ext.vt.edu/content/pubs_ext_vt_edu/en/SPES/spes-461/spes-461.html",
+        "https://www.reddit.com/r/RepublicadeChile/comments/1uuh8ar/agrourbana_la_startup_pionera_de_las_lechugas/",
+        "https://www.reddit.com/r/hydro/comments/1g5encn"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_80c27af4c7b538954998",
+      "candidate_id": "opp_663dbc19a60ec3cbcf52",
       "coercions": [
         "critic_case",
         "contrary_evidence"
@@ -160,7 +157,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_80c27af4c7b538954998",
+      "candidate_id": "opp_663dbc19a60ec3cbcf52",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -168,7 +165,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_80c27af4c7b538954998",
+      "candidate_id": "opp_663dbc19a60ec3cbcf52",
       "coercions": []
     }
   ],
@@ -176,44 +173,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 184,
-      "cache_write_tokens": 5451,
+      "reasoning_tokens": 202,
+      "cache_write_tokens": 5446,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01420595,
+      "cumulative_cost_usd": 0.0133477,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13931,
+      "input_tokens": 14099,
       "cached_tokens": 0,
-      "output_tokens": 956,
+      "output_tokens": 213,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01420595
+      "estimated_cost_usd": 0.0133477
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 163,
-      "cache_write_tokens": 5539,
+      "reasoning_tokens": 162,
+      "cache_write_tokens": 5581,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0289675,
+      "cumulative_cost_usd": 0.02831435,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13975,
+      "input_tokens": 14132,
       "cached_tokens": 0,
-      "output_tokens": 1408,
+      "output_tokens": 1551,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01476155
+      "estimated_cost_usd": 0.01496665
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 39,
-      "cache_write_tokens": 3482,
+      "reasoning_tokens": 40,
+      "cache_write_tokens": 3189,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0458865,
+      "cumulative_cost_usd": 0.04284485,
       "model": "gpt-5.6-terra",
-      "input_tokens": 3485,
+      "input_tokens": 3192,
       "cached_tokens": 0,
-      "output_tokens": 684,
+      "output_tokens": 546,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.016919
+      "estimated_cost_usd": 0.0145305
     }
   ]
 }

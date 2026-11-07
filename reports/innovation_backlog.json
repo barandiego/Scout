@@ -6640,43 +6640,6 @@
       "category": "robotics_agritech",
       "commercially_validated": false,
       "competition_confirmed": false,
-      "current_participation_path": "Use a small greenhouse or low-energy hydroponic setup rather than a fully indoor LED room. Select one crop with a visible price series on ODEPA/Chile Agrícola, contact ten restaurants, specialty grocers or direct consumers through publicly available channels, and request paid preorders or written price indications before expanding. Run one 4–8 week batch and record germination, harvestable units, kWh, water, labor hours, packaging, delivery and realized price. Falsify if there are no paid preorders before planting, if realized price does not cover measured variable costs, or if crop loss makes fulfillment unreliable. Do not claim restaurant demand, food-safety approval or wholesale access without direct verification.",
-      "current_thesis": "Commodity indoor lettuce is not validated: the available evidence shows meaningful equipment cost and no demonstrated local premium or contracted offtake. A narrower testable wedge is propagation or high-value herbs sold locally with preorders, where the operator can avoid full indoor-farm buildout and test price, repeat demand and crop loss before purchasing automation or lighting.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "Chile",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "Small hydroponic propagation and specialty-herb pilot, not commodity indoor lettuce",
-      "opportunity_id": "opp_663dbc19a60ec3cbcf52",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
-        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
-        "Arrange a bounded field validation with an actual farm operator before scaling."
-      ],
-      "supporting_source_urls": [
-        "https://www.chileagricola.cl/precios-mayoristas/",
-        "https://es.scribd.com/document/1014311150/BOLETIN-1-INIA-FIA-Manejo-Sanitario-y-Otros-InIA-Chile",
-        "https://andinotech.cl/categoria-producto/hidroponia/sistema-de-cultivo-hidroponico/"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "Capture the difference between validated preorder revenue and variable production, packaging and delivery costs; optionally sell starter trays or recurring herb bundles. No margin, buyer, crop yield or payback period is assumed until measured. The asset is a small NFT/propagation setup that can be reused across crops rather than a large vertical farm.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "robotics_agritech",
-      "commercially_validated": false,
-      "competition_confirmed": false,
       "current_participation_path": "Use the publicly listed CLP 4,790,000 100 m² system as a capital benchmark and request a written quotation for a smaller sunlight-based NFT installation. Before purchasing, secure nonbinding product specifications and price commitments from at least three prospective local buyers such as restaurants, specialty grocers, or produce distributors; then run one crop cycle with documented labor hours, energy, water, sell-through, rejection, and realized price. Falsify by spending only on buyer interviews, samples, and a small test bed; abandon the production route if buyers will not commit to a price or recurring pickup schedule that covers measured direct costs.",
       "current_thesis": "The evidence does not support building a capital-intensive LED vertical farm as a small-operator opportunity. A narrower, testable mechanism is selling or operating sunlight-based NFT capacity near a verified local buyer, where the offer is fresher or more reliable supply rather than lower commodity cost. Payback remains unproven because the cited Chilean gross-margin study is not directly comparable to every commercial NFT design and does not establish a buyer contract.",
       "founder_hours_initial_unverified_estimate": "",
@@ -6821,7 +6784,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-07T05:10:19.774923+00:00",
+  "generated_at": "2026-11-07T14:40:50.098023+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"
