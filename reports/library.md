@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-11-06T23:58:11.253887+00:00
+Generated: 2026-11-07T05:10:19.669393+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 178 (0 HQ survivors, 178 watches)
+- Active research: 179 (0 HQ survivors, 179 watches)
 - Rejected opportunities excluded: 99
-- Critic-and-judge reviewed: 81
+- Critic-and-judge reviewed: 82
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -102,6 +102,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: How many entities are actually obligated to participate, by implementation group and deadline.; Whether ATENA already includes automated conformance tests, mocks, diagnostics, reporting, or exportable evidence sufficient for most use cases.; Whether the CMF will permit or encourage third-party tools to connect to ATENA or whether testing must occur only through regulator-controlled interfaces.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html; https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640
+
+### Consent-and-API compliance test harness for Chilean Open Finance participants [opp_80c27af4c7b538954998]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Participants and prospective fintech providers will need to validate consent flows, API payloads, endpoint behavior, audit records, and implementation readiness before regulated information exchange becomes operational. The narrow opportunity is not generic consulting: it is a reusable automated test harness plus evidence pack that checks an implementation against published CMF schemas and produces remediation findings.
+- Value capture: Concrete offer: a locally hosted or downloadable conformance-test package covering API schema validation, consent-state transitions, required-field checks, transaction pagination, error handling, and audit-log export. Plausible payers are fintechs, software vendors integrating with Chilean financial institutions, and entities preparing for participation; actual willingness to pay, procurement route, and pricing remain unverified.
+- Participation hypothesis: Use only the public CMF developer documentation first. Implement a minimal validator against the published OpenAPI/YAML examples and build a mock provider/client pair; do not assume access to the restricted CMF test environment. Test with 3–5 Chilean fintech or banking-integration teams by offering a free 30-minute review of one anonymized API payload or consent-flow diagram. Falsification threshold: if no target team identifies at least one concrete conformance problem, requests the validator, or agrees to evaluate a paid pilot, stop. Separate
+- Critic/judge: Regulatory basis and the existence of public technical materials appear sufficiently grounded by CMF primary sources; the proposed product does not require claiming access to regulated customer data or operating a payment/information service. A narrow, offline conformance and regression-testing tool built from public specifications is therefore legally and technically plausible at the research stage. However, survival as an HQ-worthy op
+- Next evidence gaps: Whether Chilean fintechs, banks, payment institutions, software vendors, or external certifiers will pay for a third-party harness rather than use ATENA, internal QA; The number of entities expected to participate and the proportion that will buy external tooling.; Whether ATENA exposes sufficient APIs, test cases, test data, reports, or automation interfaces for a private harness to integrate usefully.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/615/articles-99098_doc_pdf.pdf; https://www.cmfchile.cl/institucional/legislacion_normativa/normativa_tramite_ver_archivo.php?id=2025071034&seq=1
 
 ### Independent field-service and deployment support for autonomous agricultural weed-control robots [opp_99de522ad05d0e01cebc]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States; potentially other markets only after manufacturer authorization

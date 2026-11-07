@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 178
+Candidates: 179
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -1515,6 +1515,18 @@ Candidates: 178
 - Critical gaps: Whether ATENA will expose enough automated test coverage, fixtures, reporting, and repeatability to displace private tooling.; Whether the cited private competitors have paying customers, production-grade coverage, or merely marketing pages.; Number and type of entities that must participate, their implementation budgets, procurement cycles, and internal engineering capacity.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html
+
+## Consent-and-API compliance test harness for Chilean Open Finance participants
+- Status: watch | open_finance_chile
+- Current idea: Participants and prospective fintech providers will need to validate consent flows, API payloads, endpoint behavior, audit records, and implementation readiness before regulated information exchange becomes operational. The narrow opportunity is not generic consulting: it is a reusable automated test harness plus evidence pack that checks an implementation against published CMF schemas and produces remediation findings.
+- Potential economic capture: Concrete offer: a locally hosted or downloadable conformance-test package covering API schema validation, consent-state transitions, required-field checks, transaction pagination, error handling, and audit-log export. Plausible payers are fintechs, software vendors integrating with Chilean financial institutions, and entities preparing for participation; actual willingness to pay, procurement route, and pricing remain unverified.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Whether Chilean fintechs, banks, payment institutions, software vendors, or external certifiers will pay for a third-party harness rather than use ATENA, internal QA, or consultants.; The number of entities expected to participate and the proportion that will buy external tooling.; Whether ATENA exposes sufficient APIs, test cases, test data, reports, or automation interfaces for a private harness to integrate usefully.
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/615/articles-99098_doc_pdf.pdf; https://www.cmfchile.cl/institucional/legislacion_normativa/normativa_tramite_ver_archivo.php?id=2025071034&seq=1
 
 ## On-premise Spanish document-to-structured-data pack for Chilean invoices and import records
 - Status: watch | open_finance_chile

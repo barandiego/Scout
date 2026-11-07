@@ -4799,6 +4799,47 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use only the public CMF developer documentation first. Implement a minimal validator against the published OpenAPI/YAML examples and build a mock provider/client pair; do not assume access to the restricted CMF test environment. Test with 3–5 Chilean fintech or banking-integration teams by offering a free 30-minute review of one anonymized API payload or consent-flow diagram. Falsification threshold: if no target team identifies at least one concrete conformance problem, requests the validator, or agrees to evaluate a paid pilot, stop. Separately verify whether the CMF sandbox application process is available before relying on it; do not claim certification or regulatory approval.",
+      "current_thesis": "Participants and prospective fintech providers will need to validate consent flows, API payloads, endpoint behavior, audit records, and implementation readiness before regulated information exchange becomes operational. The narrow opportunity is not generic consulting: it is a reusable automated test harness plus evidence pack that checks an implementation against published CMF schemas and produces remediation findings.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Whether Chilean fintechs, banks, payment institutions, software vendors, or external certifiers will pay for a third-party harness rather than use ATENA, internal QA, or consultants.",
+        "The number of entities expected to participate and the proportion that will buy external tooling.",
+        "Whether ATENA exposes sufficient APIs, test cases, test data, reports, or automation interfaces for a private harness to integrate usefully.",
+        "Whether the final CMF schemas, error catalogs, performance requirements, consent-state rules, payment-initiation requirements, and certification procedures will change before July 2027.",
+        "Whether a third-party test report or evidence pack will be accepted by prospective customers, external certifiers, or the CMF as useful evidence rather than merely internal QA documentation.",
+        "The identity, capabilities, pricing, traction, and technical depth of existing providers such as SFA-Sandbox and incumbent Chilean compliance or integration firms.",
+        "Whether the restricted CMF testing environment requires credentials, certificates, registration, or contractual access that materially limits automation."
+      ],
+      "investment_authorized": false,
+      "name": "Consent-and-API compliance test harness for Chilean Open Finance participants",
+      "opportunity_id": "opp_80c27af4c7b538954998",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-99098_doc_pdf.pdf",
+        "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa_tramite_ver_archivo.php?id=2025071034&seq=1"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Concrete offer: a locally hosted or downloadable conformance-test package covering API schema validation, consent-state transitions, required-field checks, transaction pagination, error handling, and audit-log export. Plausible payers are fintechs, software vendors integrating with Chilean financial institutions, and entities preparing for participation; actual willingness to pay, procurement route, and pricing remain unverified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Select one document class, such as Chilean supplier invoices or import declarations. Test 50 legally obtained sample documents using PaddleOCR and Tika, record field-level accuracy and processing cost, and publish the schema plus error report. Offer a fixed-scope pilot to publicly identifiable accounting, import, or procurement software vendors or small firms only after confirming that the open-source licenses and any model/data terms permit the intended distribution. Falsify if fewer than 90% of required fields can be extracted without manual correction, or if three target operators will not provide sample documents or a paid pilot commitment.",
       "current_thesis": "A small operator can assemble a reproducible, locally hosted extraction pack for Spanish invoices, customs documents, bank statements, or supplier quotes, reducing manual transcription in a narrowly defined workflow. The evidence supports technical feasibility and licensing, but does not prove extraction accuracy on Chilean documents or willingness to pay.",
       "founder_hours_initial_unverified_estimate": "",
@@ -6780,7 +6821,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-06T23:58:11.356988+00:00",
+  "generated_at": "2026-11-07T05:10:19.774923+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"
