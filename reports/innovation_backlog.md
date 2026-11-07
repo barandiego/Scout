@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 178
+Candidates: 180
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -496,6 +496,18 @@ Candidates: 178
 - Possible initial budget:
 - Source URLs: https://www.sec.cl/gda/; https://www.sec.cl/plataformas-ernc/; https://energia.gob.cl/sites/default/files/documentos/sistemas-de-almacenamiento_web.pdf
 
+## Small-scale solar-plus-storage connection and compliance support for Chilean regulated customers
+- Status: watch | energy_infrastructure
+- Current idea: The narrow opportunity is not generic battery installation: it is a paid pre-feasibility, documentation, load/solar-data audit, and installer/distributor coordination service for small businesses, schools, nonprofits, farms, or homes considering compliant PV-plus-storage. The operator should not perform regulated electrical work unless properly authorized; the economic wedge is qualified lead generation and administrative/technical preparation sold to authorized installers or end customers.
+- Potential economic capture: A fixed-fee site/data audit, referral or subcontracting payment from an authorized SEC installer, or a customer-paid documentation package. No buyer, fee level, conversion rate, or margin is established by the evidence and must be validated before offering the service.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.sec.cl/GDA/; https://autoconsumo.minenergia.cl/?page_id=3664; https://www.cne.cl/nuestros-servicios/licitaciones-y-suministros/licitacion-2026/; https://www.iea.org/policies/25754-call-for-tenders-electrical-energy-storage-systems
+
 ## Small-scale storage and control feasibility wedge for Chilean distributed generators
 - Status: watch | energy_infrastructure
 - Current idea: A narrow opportunity exists to sell a site-specific storage-and-control pre-feasibility package to existing distributed-generation or high-load sites, focused on identifying whether storage can reduce curtailment, shift consumption or improve connection economics. This is an evidence-backed market-participation test, not proof that a battery project will pay back.
@@ -579,6 +591,18 @@ Candidates: 178
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.opentrain.ai/jobs/bilingual-ai-safety-data-evaluator-english-spanish-c1--cmni8aczu001004l4jlwcn0fe/; https://cl.linkedin.com/jobs/view/quality-evaluator-%E2%80%93-english-at-anyone-ai-4478597242
+
+## Chile-eligible Spanish AI evaluation and coding-review applications
+- Status: watch | general
+- Current idea: A Chile-based bilingual writer, translator, editor, humanities student, or technically qualified coder can test access to paid project work without buying equipment or paying an application fee. Application acceptance, available hours, and the quoted rate are not guaranteed.
+- Potential economic capture: Hourly freelance payments for accepted project work, reportedly paid through PayPal and AirTM; actual earnings depend on passing identity and skills validation, receiving project allocation, completing accepted tasks, and the applicable project payment terms.
+- **Research routes to test (NOT validated claims):**
+  - Name a specific payer, customer job and credible reason existing alternatives fail.
+  - Choose a low-cost differentiation wedge (availability, price, experience, distribution or technology).
+  - Test channel, willingness to pay, ownership and contribution margin before building.
+- Critical gaps: The actual Chile-specific hourly rate after qualification.; Whether the USD 25/hour figure applies to Chilean workers or only the referenced U.S.-Spanish core project.; Acceptance rate and the share of applicants who receive project access.
+- Possible initial budget:
+- Source URLs: https://app.outlier.ai/opportunities/4505547005?referring_user=e564fcad286749c279b44e3284ca188b025ffb9e1a5d03d6c93cfbb1a908a1520034423690724c21b7d4ae35ef92f68a; https://app.outlier.ai/login?job_post_id=4476998005
 
 ## Chile-specific voice-data recording project
 - Status: watch | general

@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-11-07T14:40:49.971464+00:00
+Generated: 2026-11-07T19:52:40.416631+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 178 (0 HQ survivors, 178 watches)
+- Active research: 180 (0 HQ survivors, 180 watches)
 - Rejected opportunities excluded: 100
-- Critic-and-judge reviewed: 82
+- Critic-and-judge reviewed: 83
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -493,6 +493,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
+### Chile-eligible Spanish AI evaluation and coding-review applications [opp_4e6fd9c9f66d8c5fbe25]
+- Status: WATCH_REQUIRES_VALIDATION | general | Chile
+- Thesis: A Chile-based bilingual writer, translator, editor, humanities student, or technically qualified coder can test access to paid project work without buying equipment or paying an application fee. Application acceptance, available hours, and the quoted rate are not guaranteed.
+- Value capture: Hourly freelance payments for accepted project work, reportedly paid through PayPal and AirTM; actual earnings depend on passing identity and skills validation, receiving project allocation, completing accepted tasks, and the applicable project payment terms.
+- Participation hypothesis: Apply through the employer's Chile-eligible opportunity page and, separately, the Spanish-Chile coding application. Before investing substantial time, complete only the profile/qualification steps and verify in the displayed project terms: Chile eligibility, task rate, paid versus unpaid onboarding, payment method, minimum payout, tax/contractor requirements, and whether work is currently available. Lowest-cost falsification: submit one application, record whether Chile is accepted and whether a project with an explicit hourly rate appears afte
+- Critic/judge: Primary Outlier pages support a plausible Chile-accessible contractor application path and a clear payer/value-capture mechanism: Outlier pays accepted contributors for completed AI-evaluation or coding-review work. The opportunity is therefore not fabricated and is not structurally closed on the evidence provided. However, it is an application funnel rather than a validated income stream. The cited USD 25/hour figure is explicitly tied
+- Next evidence gaps: The actual Chile-specific hourly rate after qualification.; Whether the USD 25/hour figure applies to Chilean workers or only the referenced U.S.-Spanish core project.; Acceptance rate and the share of applicants who receive project access.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://app.outlier.ai/opportunities/4505547005?referring_user=e564fcad286749c279b44e3284ca188b025ffb9e1a5d03d6c93cfbb1a908a1520034423690724c21b7d4ae35ef92f68a; https://app.outlier.ai/login?job_post_id=4476998005
+
 ### Chile’s Open Finance implementation is moving from regulation to integration infrastructure [opp_7c40e3dba23666b0c578]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: The regulatory framework is becoming technically actionable, but banks, fintechs, data intermediaries, consent-management providers, compliance vendors, and integration specialists still have preparation time and implementation friction. This creates a window for infrastructure and localized financial-data products before mandatory adoption.
@@ -842,6 +852,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.nifa.usda.gov/about-nifa/impacts/automation-specialty-crops; https://ers.usda.gov/topics/farm-economy/farm-labor; https://fieldreport.caes.uga.edu/publications/B1594/agribots-autonomous-ground-robots-for-specialty-crops/; https://maiaapples.com/wp-content/uploads/2024/01/NYFQ-BOOK-Summer-2023_FINAL.pdf
+
+### Small-scale solar-plus-storage connection and compliance support for Chilean regulated customers [opp_25727f58628c412caf1b]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile, with initial targeting of distributor territories where connection capacity and documentation are bottlenecks
+- Thesis: The narrow opportunity is not generic battery installation: it is a paid pre-feasibility, documentation, load/solar-data audit, and installer/distributor coordination service for small businesses, schools, nonprofits, farms, or homes considering compliant PV-plus-storage. The operator should not perform regulated electrical work unless properly authorized; the economic wedge is qualified lead generation and administrative/technical preparation sold to authorized installers or end customers.
+- Value capture: A fixed-fee site/data audit, referral or subcontracting payment from an authorized SEC installer, or a customer-paid documentation package. No buyer, fee level, conversion rate, or margin is established by the evidence and must be validated before offering the service.
+- Participation hypothesis: Use public SEC installer and authorized-product information to create a one-page intake form requesting 12 months of electricity bills, connected power, tariff, site address, roof/land constraints, outage history, and desired backup duration. Approach five SEC-authorized installers with a sample anonymized assessment and ask whether they would pay for qualified, technically complete leads or documentation support. Lowest-cost falsification: contact 10 prospects in one distributor territory and seek three bills/data packs plus one written instal
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sec.cl/GDA/; https://autoconsumo.minenergia.cl/?page_id=3664; https://www.cne.cl/nuestros-servicios/licitaciones-y-suministros/licitacion-2026/; https://www.iea.org/policies/25754-call-for-tenders-electrical-energy-storage-systems
 
 ### Sunlit NFT hydroponic production or retrofit pilots instead of LED vertical farming [opp_cfc46692cbd4d25d1a9c]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile, especially northern and central regions

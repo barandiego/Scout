@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-11-07T14:40:49.971464+00:00",
+  "generated_at": "2026-11-07T19:52:40.416631+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -104,14 +104,14 @@
   "high_concentration": [
     {
       "cards": 75,
-      "share": 0.421,
+      "share": 0.417,
       "theme": "chile_open_finance"
     }
   ],
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 75,
+  "theme_count": 77,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -515,6 +515,15 @@
     },
     {
       "all_opportunity_ids": [
+        "opp_25727f58628c412caf1b"
+      ],
+      "count": 1,
+      "representative_id": "opp_25727f58628c412caf1b",
+      "reviewed_count": 0,
+      "theme": "energy_infrastructure:small_scale_solar"
+    },
+    {
+      "all_opportunity_ids": [
         "opp_3fc8fe5d5af829de71b9"
       ],
       "count": 1,
@@ -557,6 +566,15 @@
       "representative_id": "opp_68e70b9741c1c0474c04",
       "reviewed_count": 1,
       "theme": "general:cms_advancing_standardized"
+    },
+    {
+      "all_opportunity_ids": [
+        "opp_4e6fd9c9f66d8c5fbe25"
+      ],
+      "count": 1,
+      "representative_id": "opp_4e6fd9c9f66d8c5fbe25",
+      "reviewed_count": 1,
+      "theme": "general:eligible_spanish_ai"
     },
     {
       "all_opportunity_ids": [
@@ -892,6 +910,6 @@
       "theme": "robotics_agritech:water_efficiency_field"
     }
   ],
-  "total_original_cards": 178,
+  "total_original_cards": 180,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }

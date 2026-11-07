@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-07T14:40:49.450312+00:00
+Generated: 2026-11-07T19:52:40.014101+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['asset_ownership', 'nfc_smart_commerce', 'vertical_farming_economics']
-- raw_candidates: 0
-- parseable_candidates: 0
-- normalized_candidates: 0
+- lenses: ['energy_localization', 'wildcard', 'remote_paid_evaluation']
+- raw_candidates: 2
+- parseable_candidates: 2
+- normalized_candidates: 2
 - normalization_rejected: 0
-- grounded_sources: 0
+- grounded_sources: 6
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
 - critic_reviews: 1
 - judge_reviews: 1
 - survivors: 0
-- watches: 0
-- rejected: 1
+- watches: 2
+- rejected: 0
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.04284485
+- cost_usd: 0.04152605
 - cost_uncertain: False
-- budget_remaining_usd: 0.03715515
+- budget_remaining_usd: 0.03847395
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,8 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Chile open-finance implementation-readiness test for a consented data-use wedge: deferred_by_review_cap
-- Chile low-value import VAT and landed-cost decision asset: critic_invalid_output
 - Prior-authorization FHIR API conformance harness for payer and health-IT vendors: deferred_by_review_cap
 - Rare-earth magnet scrap aggregation for U.S. hydrometallurgical recyclers: deferred_by_review_cap
 - Chile SFA interoperability test harness for regulated fintech integrations: deferred_by_review_cap
@@ -51,13 +49,15 @@ No survivors. Scout does not manufacture a daily winner.
 - Chile SFA API-conformance and consent-audit test harness: The regulatory premise is sufficiently grounded in CMF primary materials: SFA implementation is real, consented API exchange and revocation are within the framework, and NCG 569/ATENA materially support an implementation-and-testing period toward July 2027. Therefore this is not rejected for an unverified or misread regulatory change. However, the proposed standalone conformance harness has not established a legally/technically usable input path from customers, recognized evidentiary value, buyer budget, or differentiation from CMF's ATENA environment and incumbent SFA implementation vendors. It survives only as a narrow research hypothesis: identify a paid, regulated full-scope participant whose non-production interface can be tested and whose specific missing capability is not supplied by ATENA, its integrator, or its API platform. Do not treat broad SFA rollout as validation of a standalone software market.
 - Organic-crop robotic weeding retrofit and ROI trial: deferred_by_review_cap
 - Consent-and-API compliance test harness for Chilean Open Finance participants: Regulatory basis and the existence of public technical materials appear sufficiently grounded by CMF primary sources; the proposed product does not require claiming access to regulated customer data or operating a payment/information service. A narrow, offline conformance and regression-testing tool built from public specifications is therefore legally and technically plausible at the research stage. However, survival as an HQ-worthy opportunity is not established: CMF’s ATENA/testing and certification-related environment may cover much of the same validation need, some high-value tests depend on CMF-controlled access and credentials, and a directly positioned local competitor is already identified. The buyer universe is likely concentrated, regulated procurement-heavy, and potentially inclined toward incumbents, certification firms, or internal API QA. The defensible wedge must be a demonstrably non-duplicative layer—such as pre-ATENA regression automation, reproducible evidence packs for vendor integrations, or mock-based testing where official environments do not cover endpoint/operational checks—not generic schema validation. No fatal condition is triggered yet because unavailable official-environment access is not required for the proposed initial public-documentation workflow, and the regulatory change is supported by official CMF provenance. Economics, acceptance of third-party evidence, and technical-access boundaries remain unresolved.
+- Small-scale solar-plus-storage connection and compliance support for Chilean regulated customers: deferred_by_review_cap
+- Chile-eligible Spanish AI evaluation and coding-review applications: Primary Outlier pages support a plausible Chile-accessible contractor application path and a clear payer/value-capture mechanism: Outlier pays accepted contributors for completed AI-evaluation or coding-review work. The opportunity is therefore not fabricated and is not structurally closed on the evidence provided. However, it is an application funnel rather than a validated income stream. The cited USD 25/hour figure is explicitly tied to U.S.-Spanish writing experts and cannot be generalized to Chile; acceptance, paid task allocation, weekly hours, continuity, and realized net pay remain unverified. It survives only as a tightly bounded research/test hypothesis, not as a dependable work or business opportunity.
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=backlog",
-    "research_queue_unreviewed=87"
+    "deep_review_lane=fresh",
+    "research_queue_unreviewed=88"
   ],
   "stages": [
     {
@@ -65,99 +65,109 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 44,
+      "grounded_source_count": 20,
       "search_source_urls": [
-        "https://academic.oup.com/plphys/article/198/3/kiaf056/8104144",
-        "https://apnews.com/article/28d360b3c8d7fa424892e23fe1c85c93",
-        "https://arxiv.org/abs/2403.08934",
-        "https://arxiv.org/abs/2507.18419",
-        "https://arxiv.org/abs/2510.03686",
-        "https://arxiv.org/abs/2607.26968",
-        "https://elpais.com/elpais/2019/02/28/escaparate/1551375000_956298.html",
-        "https://elpais.com/tecnologia/tu-tecnologia/2024-10-01/cuatro-alternativas-para-pagar-sin-llevar-tarjeta-o-efectivo.html",
-        "https://en.wikipedia.org/wiki/Controlled-environment_agriculture",
-        "https://en.wikipedia.org/wiki/Near-field_communication",
-        "https://energypartnership.cl/fileadmin/chile/media_elements/Studies/2025_Manual_para_el_Desarrollo_de_Proyectos_Agrivoltaicos_en_Chile.PDF",
-        "https://es.wikipedia.org/wiki/Sector_el%C3%A9ctrico_en_Chile",
-        "https://es.wikipedia.org/wiki/Tarjeta_de_proximidad",
-        "https://pymevisible.cl/productos/tarjeta-google",
-        "https://tarjetas-nfc.com/precios",
-        "https://www.agronexo.cl/168-mercado-agricola",
-        "https://www.axios.com/2022/11/08/lettuce-hydroponics-drought-climate-teen-romaine-iceberg",
-        "https://www.axios.com/2023/01/06/indoor-farming-small-scale-farmers",
-        "https://www.axios.com/local/chicago/2026/08/10/downtown-vertical-farming-venture-takes-root",
-        "https://www.bcentral.cl/documents/33528/7849961/Financial%2BStability%2BReport%2BSecond%2BHalf%2B2025.pdf/83c6bb57-4793-0438-3959-bfd68fea216f?t=1765546573527",
-        "https://www.citytap.cl/pdf/CITYTAP_TARJETAYDOMO_LEADNET.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/articles-99083_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-96458.html",
-        "https://www.cmfchile.cl/portal/principal/613/articles-92466_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/623/articles-82752_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.mdpi.com/2071-1050/18/9/4481",
-        "https://www.mdpi.com/2073-4395/15/3/744",
-        "https://www.mdpi.com/2311-7524/12/8/972",
-        "https://www.ondda.cl/tienda/",
-        "https://www.portalfruticola.com/noticias/2026/10/26/hidroponia-2/",
-        "https://www.reddit.com/r/FinanzasChile/comments/1xm4k1y/somos_los_fundadores_de_savemoney_la_app_que_te/",
-        "https://www.reddit.com/r/Hydroponics/comments/12kz0zt/seeding_on_my_laborfree_farm_v2_lettuce_heads/",
-        "https://www.reddit.com/r/Hydroponics/comments/1knfjye",
-        "https://www.reddit.com/r/Hydroponics/comments/1o27yvq/fired_in_march_went_allin_with_my_hydroponics/",
-        "https://www.reddit.com/r/Hydroponics/comments/1osq29g/growing_allllll_your_produce_at_home/",
-        "https://www.reddit.com/r/Hydroponics/comments/1oz3hps",
-        "https://www.reddit.com/r/OffGrid/comments/1n4cm1y",
-        "https://www.reddit.com/r/RepublicadeChile/comments/1uuh8ar/agrourbana_la_startup_pionera_de_las_lechugas/",
-        "https://www.reddit.com/r/chile/comments/1w2n8wj/hola_gente_quer%C3%ADa_saber_que_tan_raro_es_encontrar/",
-        "https://www.reddit.com/r/chileIT/comments/1gf8fev/apis_bancarias/",
-        "https://www.reddit.com/r/chileIT/comments/1jcs4sd",
-        "https://www.reddit.com/r/chileIT/comments/1t6lqnm/han_usado_tarjetas_bip_sin_uso_como_nfc_para_algo/",
-        "https://www.sciencedirect.com/science/article/pii/S0196890425011707"
+        "https://actualidadjuridica.doe.cl/proyectos-de-almacenamiento-con-baterias-en-construccion-superan-los-6-300-mw-en-chile/",
+        "https://app.outlier.ai/login?job_post_id=4476998005",
+        "https://app.outlier.ai/opportunities/4505547005?referring_user=e564fcad286749c279b44e3284ca188b025ffb9e1a5d03d6c93cfbb1a908a1520034423690724c21b7d4ae35ef92f68a",
+        "https://autoconsumo.minenergia.cl/?page_id=3664",
+        "https://economiacircular.mma.gob.cl/wp-content/uploads/2024/11/18.-SP-Global-Commodity-Insights-2023-Chile-advances-regulation-to-support-storage-goals.pdf",
+        "https://en.wikipedia.org/wiki/Electricity_sector_in_Chile",
+        "https://energiafutura.cl/en/news/chile-cne-expects-12394-mwh-of-new-batteries-in-2027-and-storage-would-top-20000-mwh",
+        "https://energiafutura.cl/en/news/energy-storage-in-chile-reaches-11-3-gw-across-operating-testing-and-under-construction-batteries",
+        "https://es.wikipedia.org/wiki/Superintendencia_de_Electricidad_y_Combustibles",
+        "https://iea.blob.core.windows.net/assets/b73798cb-e452-42b9-9d8a-07542de7a041/Electricity_2026.pdf",
+        "https://mercadoernc.minenergia.cl/wp-content/uploads/2019/01/Libro_ERNC_Chile_completo_inglesV1.pdf",
+        "https://publications.iadb.org/publications/english/document/Shedding-Light-on-the-Unequal-Distribution-of-Residential-Solar-PV-Adoption-in-Latin-America-and-the-Caribbean.pdf",
+        "https://www.cne.cl/nuestros-servicios/licitaciones-y-suministros/licitacion-2026/",
+        "https://www.cne.cl/prensa/prensa-2026/07-julio-2026/renmad-chile-2026-presentamos-los-principales-desafios-y-oportunidades-de-la-licitacion-de-suministro-2026-01/",
+        "https://www.cne.cl/wp-content/uploads/2015/06/RMonthly_NCRE_v201610.pdf",
+        "https://www.dlapiper.cl/wp-content/uploads/2019/09/Renewable-Energy-2020.pdf",
+        "https://www.enel.cl/es/clientes/tarifas-y-regulacion/generacion-distribuida-netbilling.html",
+        "https://www.iea.org/policies/25754-call-for-tenders-electrical-energy-storage-systems",
+        "https://www.sec.cl/GDA/",
+        "https://www.sec.cl/gda/marco-regulatorio/?view_full_site=true"
       ]
     },
     {
+      "index": 0,
+      "stage": "normalization",
+      "outcome": "accepted",
+      "reasons": [],
+      "changes": [
+        "contrary_evidence:list_sanitized",
+        "major_risks:list_sanitized",
+        "unknowns:list_sanitized",
+        "falsification_conditions:list_sanitized",
+        "material_update:unknown_false"
+      ],
+      "grounded_sources": 2,
+      "retry_justified": false
+    },
+    {
+      "index": 1,
+      "stage": "normalization",
+      "outcome": "accepted",
+      "reasons": [],
+      "changes": [
+        "contrary_evidence:list_sanitized",
+        "major_risks:list_sanitized",
+        "unknowns:list_sanitized",
+        "falsification_conditions:list_sanitized",
+        "material_update:unknown_false"
+      ],
+      "grounded_sources": 4,
+      "retry_justified": false
+    },
+    {
       "stage": "critic",
-      "candidate_id": "opp_663dbc19a60ec3cbcf52",
+      "candidate_id": "opp_4e6fd9c9f66d8c5fbe25",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 25,
+      "grounded_source_count": 30,
       "search_source_urls": [
-        "https://bibliotecadigital.odepa.gob.cl/items/658f8c0e-bf41-40c1-9cd1-1e9ae28a3f87/full",
-        "https://datos.odepa.gob.cl/es/",
-        "https://dehesaindex.com/datos/en/cl-prices-fv/",
-        "https://en.wikipedia.org/wiki/Herb_farm",
-        "https://en.wikipedia.org/wiki/Hydroponics",
-        "https://es.wikipedia.org/wiki/Sector_el%C3%A9ctrico_en_Chile",
-        "https://mayoristas.com/agricultores/precios?pais=cl",
-        "https://www.axios.com/2022/11/08/lettuce-hydroponics-drought-climate-teen-romaine-iceberg",
-        "https://www.chileagricola.cl/precios-mayoristas/",
-        "https://www.floraldaily.com/article/9789339/from-the-atacama-desert-to-fine-dining-hydroponic-edible-flowers-take-root-in-northern-chile/",
-        "https://www.indexbox.io/store/chile-herbs-market-analysis-forecast-size-trends-and-insights/",
-        "https://www.mordorintelligence.com/industry-reports/south-america-hydroponics-market",
-        "https://www.ncat.org/publication/herbs-organic-greenhouse-production/",
-        "https://www.odepa.gob.cl/precios/avance-por-productos",
-        "https://www.odepa.gob.cl/precios/insumos",
-        "https://www.odepa.gob.cl/wp-content/uploads/2025/12/Boletin_Diario_de_Frutas_y_Hortalizas_20260102.pdf",
-        "https://www.odepa.gob.cl/wp-content/uploads/2026/01/Boletin_Diario_de_Frutas_y_Hortalizas_20260112.pdf",
-        "https://www.odepa.gob.cl/wp-content/uploads/2026/05/Boletin_Diario_de_Frutas_y_Hortalizas_20260601.pdf",
-        "https://www.odepa.gob.cl/wp-content/uploads/2026/06/Boletin_Diario_de_Frutas_y_Hortalizas_20260603.pdf",
-        "https://www.odepa.gob.cl/wp-content/uploads/2026/11/Boletin_Diario_de_Frutas_y_Hortalizas_20261104.pdf",
-        "https://www.odepa.gob.cl/wp-content/uploads/2026/11/Boletin_Diario_de_Frutas_y_Hortalizas_20261104.pdf",
-        "https://www.odepa.gob.cl/wp-content/uploads/2026/11/Boletin_Diario_de_Frutas_y_Hortalizas_20261105.pdf",
-        "https://www.pubs.ext.vt.edu/content/pubs_ext_vt_edu/en/SPES/spes-461/spes-461.html",
-        "https://www.reddit.com/r/RepublicadeChile/comments/1uuh8ar/agrourbana_la_startup_pionera_de_las_lechugas/",
-        "https://www.reddit.com/r/hydro/comments/1g5encn"
+        "https://airtm.freshdesk.com/en/support/solutions/articles/47001303163-how-do-you-create-an-airtm-account-and-get-paid-from-outlier-",
+        "https://aitrainers.jobs/platforms/outlier",
+        "https://aitrainers.jobs/platforms/outlier/how-to-get-hired",
+        "https://aiworkcentral.com/guides/is-outlier-legit",
+        "https://app.outlier.ai/login?job_post_id=4476998005",
+        "https://app.outlier.ai/opportunities/4505547005?referring_user=e564fcad286749c279b44e3284ca188b025ffb9e1a5d03d6c93cfbb1a908a1520034423690724c21b7d4ae35ef92f68a",
+        "https://app.outlier.ai/opportunities?adgroup_id=%7B%7Badset.id%7D%7D&domain=spanish&language=ES&locale=CL&pod=languages",
+        "https://app.payments.ai/terms-and-conditions.pdf",
+        "https://go.airtm.com/outlier/",
+        "https://journals.sagepub.com/doi/pdf/10.1177/20539517241242446",
+        "https://labelingjobs.net/guides/is-outlier-ai-legit-who-runs-it-how-it-pays-and-what-contributors-report",
+        "https://outlier.ai/legal/terms-of-use",
+        "https://outlier.ai/legal/terms-of-use?ajs=626a11d5-0096-45b8-8eda-36df039f2043",
+        "https://outlierventures.io/wp-content/uploads/2024/07/Q2-24-End-of-Base-Camp-Report.pdf",
+        "https://s28.q4cdn.com/430599561/files/doc_financials/2025/q4/PAY-10-K-2025.pdf",
+        "https://www.law.berkeley.edu/wp-content/uploads/2017/10/Berkeley-Fintech-Workshop-Presentations_2017.pdf",
+        "https://www.paypalobjects.com/hwnodeweb/pdf/freelance-workforce/NA_HW_Brief_Freelance_V2.1.pdf",
+        "https://www.reddit.com/r/outlier_ai/comments/1edzwf2",
+        "https://www.reddit.com/r/outlier_ai/comments/1fu6h0t",
+        "https://www.reddit.com/r/outlier_ai/comments/1go7gut",
+        "https://www.reddit.com/r/outlier_ai/comments/1k0fep9/have_you_received_your_payments_on_airtm_mine/",
+        "https://www.reddit.com/r/outlier_ai/comments/1krpfn3/outlier_says_they_cant_process_paypal_but_just/",
+        "https://www.reddit.com/r/outlier_ai/comments/1l1xpa8",
+        "https://www.reddit.com/r/outlier_ai/comments/1ovrez5/started_tasking_again_after_a_long_break/",
+        "https://www.reddit.com/r/outlier_ai/comments/1qk9912/complaint/",
+        "https://www.reddit.com/r/outlier_ai/comments/1re0qh7/question_regarding_payment/",
+        "https://www.reddit.com/r/outlier_ai/comments/1rqazkm/removed/",
+        "https://www.reddit.com/r/outlier_ai/comments/1u6miij/removed_from_outlier_and_all_my_outlier_earnings/",
+        "https://www.reddit.com/r/outlier_ai/comments/1uppu96/indian_people_im_switching_from_outlier_to_paypal/",
+        "https://www.trustpilot.com/review/outlier.ai"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_663dbc19a60ec3cbcf52",
+      "candidate_id": "opp_4e6fd9c9f66d8c5fbe25",
       "coercions": [
-        "critic_case",
         "contrary_evidence"
       ]
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_663dbc19a60ec3cbcf52",
+      "candidate_id": "opp_4e6fd9c9f66d8c5fbe25",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -165,7 +175,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_663dbc19a60ec3cbcf52",
+      "candidate_id": "opp_4e6fd9c9f66d8c5fbe25",
       "coercions": []
     }
   ],
@@ -173,44 +183,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 202,
-      "cache_write_tokens": 5446,
+      "reasoning_tokens": 167,
+      "cache_write_tokens": 5542,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0133477,
+      "cumulative_cost_usd": 0.0148831,
       "model": "gpt-5.6-luna",
-      "input_tokens": 14099,
+      "input_tokens": 13820,
       "cached_tokens": 0,
-      "output_tokens": 213,
+      "output_tokens": 1535,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0133477
+      "estimated_cost_usd": 0.0148831
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 162,
-      "cache_write_tokens": 5581,
+      "reasoning_tokens": 113,
+      "cache_write_tokens": 5425,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02831435,
+      "cumulative_cost_usd": 0.02928255,
       "model": "gpt-5.6-luna",
-      "input_tokens": 14132,
+      "input_tokens": 13969,
       "cached_tokens": 0,
-      "output_tokens": 1551,
+      "output_tokens": 1112,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01496665
+      "estimated_cost_usd": 0.01439945
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 40,
-      "cache_write_tokens": 3189,
+      "reasoning_tokens": 81,
+      "cache_write_tokens": 2735,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.04284485,
+      "cumulative_cost_usd": 0.04152605,
       "model": "gpt-5.6-terra",
-      "input_tokens": 3192,
+      "input_tokens": 2738,
       "cached_tokens": 0,
-      "output_tokens": 546,
+      "output_tokens": 450,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.0145305
+      "estimated_cost_usd": 0.0122435
     }
   ]
 }

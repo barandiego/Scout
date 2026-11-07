@@ -4257,6 +4257,91 @@
     {
       "ai_leverage": "",
       "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": true,
+      "discovered_at": "2026-11-07T19:52:22.196195+00:00",
+      "discovery_lens": "remote_paid_evaluation",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Outlier lists remote eligibility including Chile, describes Spanish AI-evaluation tasks, requires profile/identity/skills validation, states rates vary, and says payment is via PayPal and AirTM; the listing gives USD 25/hour as an average for core U.S.-Spanish writing experts.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "U.S. Spanish AI Training",
+          "url": "https://app.outlier.ai/opportunities/4505547005?referring_user=e564fcad286749c279b44e3284ca188b025ffb9e1a5d03d6c93cfbb1a908a1520034423690724c21b7d4ae35ef92f68a"
+        },
+        {
+          "claim": "Outlier provides a distinct application flow for Spanish-Chile coding expertise and describes competitive pay delivered weekly, while requiring the applicant to create an account and accept contractor terms.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Coding Expertise for AI Training (Spanish - Chile)",
+          "url": "https://app.outlier.ai/login?job_post_id=4476998005"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [
+        "Chile is rejected during the application or identity-verification process.",
+        "The applicant completes screening but receives no project invitation or paid task access within 14 days.",
+        "The displayed rate is absent, below the applicant's minimum acceptable net rate, or materially below USD 25/hour.",
+        "Onboarding, assessments, or calibration require substantial unpaid labor without a credible project allocation.",
+        "No work is available, available hours are consistently below the applicant's minimum target, or projects end before meaningful earnings accrue.",
+        "Payment terms require a fee, deposit, purchase, or other upfront payment.",
+        "The applicant cannot use an available payment method in Chile or cannot withdraw funds at an acceptable cost.",
+        "Task rejection, account suspension, or payment delays make realized earnings materially lower than the posted rate.",
+        "The opportunity page is withdrawn, becomes inaccessible, or no longer lists Chile eligibility."
+      ],
+      "geography": "Chile",
+      "id": "opp_4e6fd9c9f66d8c5fbe25",
+      "judge_reviewed": true,
+      "judgment": "Primary Outlier pages support a plausible Chile-accessible contractor application path and a clear payer/value-capture mechanism: Outlier pays accepted contributors for completed AI-evaluation or coding-review work. The opportunity is therefore not fabricated and is not structurally closed on the evidence provided. However, it is an application funnel rather than a validated income stream. The cited USD 25/hour figure is explicitly tied to U.S.-Spanish writing experts and cannot be generalized to Chile; acceptance, paid task allocation, weekly hours, continuity, and realized net pay remain unverified. It survives only as a tightly bounded research/test hypothesis, not as a dependable work or business opportunity.",
+      "last_record_updated_at": "2026-11-07T19:52:39.808525+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "The actual Chile-specific hourly rate after qualification.",
+        "Whether the USD 25/hour figure applies to Chilean workers or only the referenced U.S.-Spanish core project.",
+        "Acceptance rate and the share of applicants who receive project access.",
+        "Paid versus unpaid onboarding, assessments, calibration, or trial work.",
+        "Expected weekly hours, project duration, task continuity, and idle time between projects."
+      ],
+      "participation_path": "Apply through the employer's Chile-eligible opportunity page and, separately, the Spanish-Chile coding application. Before investing substantial time, complete only the profile/qualification steps and verify in the displayed project terms: Chile eligibility, task rate, paid versus unpaid onboarding, payment method, minimum payout, tax/contractor requirements, and whether work is currently available. Lowest-cost falsification: submit one application, record whether Chile is accepted and whether a project with an explicit hourly rate appears after qualification; stop if the flow requests a fee/deposit or provides no rate or project terms. This is an application route, not evidence of guaranteed income.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A Chile-based bilingual writer, translator, editor, humanities student, or technically qualified coder can test access to paid project work without buying equipment or paying an application fee. Application acceptance, available hours, and the quoted rate are not guaranteed.",
+      "title": "Chile-eligible Spanish AI evaluation and coding-review applications",
+      "type": "remote_paid_evaluation",
+      "unknowns": [
+        "The actual Chile-specific hourly rate after qualification.",
+        "Whether the USD 25/hour figure applies to Chilean workers or only the referenced U.S.-Spanish core project.",
+        "Acceptance rate and the share of applicants who receive project access.",
+        "Paid versus unpaid onboarding, assessments, calibration, or trial work.",
+        "Expected weekly hours, project duration, task continuity, and idle time between projects.",
+        "Whether the Spanish-Chile coding opportunity currently has active work rather than merely accepting applications.",
+        "Net earnings after taxes, foreign-exchange spreads, AirTM or PayPal fees, and withdrawal costs.",
+        "Whether Chilean tax registration or other local compliance obligations apply to the applicant's circumstances.",
+        "Frequency and causes of account suspension, task rejection, or payment disputes.",
+        "Whether the opportunity remains available after the discovery date of November 7, 2026.",
+        "The currently displayed rate and terms for a Chile-based Spanish writer versus a Chile-based coding specialist.",
+        "Acceptance and project-allocation rates for applicants in Chile.",
+        "Whether onboarding, assessments, and calibration are paid.",
+        "Actual available weekly hours and idle time between projects.",
+        "Payment availability, payout minimums, FX spreads, and withdrawal costs in Chile.",
+        "Current listing availability and task demand at the time of application.",
+        "Applicant-specific Chilean tax and contractor-compliance treatment."
+      ],
+      "value_capture_mechanism": "Hourly freelance payments for accepted project work, reportedly paid through PayPal and AirTM; actual earnings depend on passing identity and skills validation, receiving project allocation, completing accepted tasks, and the applicable project payment terms.",
+      "verified_sales": null,
+      "vertical": "general",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
       "contrary_evidence": [
         "CMF's own framework indicates a gradual implementation schedule rather than an immediate market-wide requirement; the original regulation described phased obligations and a transition period. Source: https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html",
         "The June 1, 2026 amendment postpones entry into force until July 2027, directly reducing near-term urgency. Source: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
@@ -7265,6 +7350,74 @@
       "value_capture_mechanism": "Charge per-acre or per-field for deployment, reporting and operational labor; alternatively earn a referral or implementation fee only if an equipment owner, dealer or grower explicitly agrees. Do not assume recurring revenue, savings, or resale economics before a paid trial.",
       "verified_sales": null,
       "vertical": "robotics_agritech",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-11-07T19:52:22.197241+00:00",
+      "discovery_lens": "energy_localization",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "SEC states that Chilean users may sell surplus generation to the distributor at a regulated price, must use authorized installers and products, and must complete SEC connection and notification processes.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Generación Distribuída para Autoconsumo",
+          "url": "https://www.sec.cl/GDA/"
+        },
+        {
+          "claim": "Chile's Ministry of Energy states that regulated customers may install renewable self-generation up to 300 kW per installation, inject surplus at a regulated value, and under specified conditions receive payment for surplus not offset against bills.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Net Billing - Autogeneración",
+          "url": "https://autoconsumo.minenergia.cl/?page_id=3664"
+        },
+        {
+          "claim": "CNE documents the 2026 national supply tender and its formal resolutions; the related CNE presentation states that offers may be backed by generation or storage assets and that the process includes long-term supply blocks and storage-related flexibility.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Licitación 2026/01 and RENMAD Chile 2026",
+          "url": "https://www.cne.cl/nuestros-servicios/licitaciones-y-suministros/licitacion-2026/"
+        },
+        {
+          "claim": "IEA records a Chilean government bidding program for electrical energy storage systems in northern Chile, with intended operations beginning at the end of 2026.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Call for tenders - Electrical energy storage systems",
+          "url": "https://www.iea.org/policies/25754-call-for-tenders-electrical-energy-storage-systems"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.84,
+      "falsification_conditions": [],
+      "geography": "Chile, with initial targeting of distributor territories where connection capacity and documentation are bottlenecks",
+      "id": "opp_25727f58628c412caf1b",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-07T19:52:22.277763+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use public SEC installer and authorized-product information to create a one-page intake form requesting 12 months of electricity bills, connected power, tariff, site address, roof/land constraints, outage history, and desired backup duration. Approach five SEC-authorized installers with a sample anonymized assessment and ask whether they would pay for qualified, technically complete leads or documentation support. Lowest-cost falsification: contact 10 prospects in one distributor territory and seek three bills/data packs plus one written installer willingness-to-pay or referral arrangement; stop if customers will not share bills, installers reject the workflow, or connection constraints make the target segment uneconomic. Do not claim savings or installation authority before a licensed partner validates the case.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The narrow opportunity is not generic battery installation: it is a paid pre-feasibility, documentation, load/solar-data audit, and installer/distributor coordination service for small businesses, schools, nonprofits, farms, or homes considering compliant PV-plus-storage. The operator should not perform regulated electrical work unless properly authorized; the economic wedge is qualified lead generation and administrative/technical preparation sold to authorized installers or end customers.",
+      "title": "Small-scale solar-plus-storage connection and compliance support for Chilean regulated customers",
+      "type": "energy_efficiency",
+      "unknowns": [],
+      "value_capture_mechanism": "A fixed-fee site/data audit, referral or subcontracting payment from an authorized SEC installer, or a customer-paid documentation package. No buyer, fee level, conversion rate, or margin is established by the evidence and must be validated before offering the service.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -12577,13 +12730,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-07T14:40:49.971464+00:00",
+  "generated_at": "2026-11-07T19:52:40.416631+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 100,
-  "reviewed_cards": 82,
+  "reviewed_cards": 83,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 278,
-  "watch": 178
+  "total_distinct_opportunities": 280,
+  "watch": 180
 }
