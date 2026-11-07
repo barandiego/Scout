@@ -9329,60 +9329,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-19T04:26:12.373053+00:00",
-      "discovery_lens": "energy_localization",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "Official tender portal identifies the active 2026/01 procurement for regulated customers and its supply blocks.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Licitación de Suministro 2026/01",
-          "url": "https://www.licitacioneselectricas.cl/licitaciones?estado=vigentes"
-        },
-        {
-          "claim": "Summarizes the final terms, 2,835 GWh/year structure, time blocks, eligible storage backup, milestones and December 4, 2026 bid deadline.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "CNE approves final terms and formally launches Supply Tender 2026/01",
-          "url": "https://jdf.cl/en/cne-aprueba-las-bases-definitivas-de-la-licitacion-de-suministro-2026-01-y-da-inicio-formal-al-proceso/"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.86,
-      "falsification_conditions": [],
-      "geography": "Chile; SEN zones, especially Zone 2",
-      "id": "opp_20b079df210ea1d3088c",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-19T04:26:12.415383+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Lowest-cost test: download the definitive tender documents from the official Chilean electricity-tender portal, build a two-page compliance matrix and a simple storage-bid calculation workbook, then send it to 10 publicly identifiable Chilean storage/renewable developers or tender advisers asking whether one paid review would reduce submission risk. Do not claim authority to represent a bidder, submit an offer, or provide regulated engineering/legal advice. Falsify if no qualified contact confirms a specific missing deliverable or requests a paid pilot within 20 outreach attempts.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "Developers and consortia that already control generation, storage or interconnection may need bid-ready documentation, dispatch/energy calculations, zone and time-block analysis, and compliance coordination before submitting. This is a procurement-enablement wedge, not evidence that an independent operator can win or resell electricity.",
-      "title": "Bid-support and compliance package for Chile’s 2026/01 regulated power-supply tender",
-      "type": "public procurement participation",
-      "unknowns": [],
-      "value_capture_mechanism": "A small operator could sell a fixed-scope tender-readiness asset—requirements matrix, data-room checklist, storage one-cycle energy model, time-block/zone bid workbook and deadline monitoring—to an existing developer, EPC, legal adviser or consortium. No buyer, fee or conversion is assumed until outreach validates demand.",
-      "verified_sales": null,
-      "vertical": "energy_infrastructure",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-24T03:17:26.442345+00:00",
       "discovery_lens": "remote_paid_evaluation",
       "estimated_capital": "",
@@ -12730,13 +12676,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-07T19:52:40.416631+00:00",
+  "generated_at": "2026-11-07T23:25:25.915426+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 100,
+  "rejected_excluded": 101,
   "reviewed_cards": 83,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
   "total_distinct_opportunities": 280,
-  "watch": 180
+  "watch": 179
 }

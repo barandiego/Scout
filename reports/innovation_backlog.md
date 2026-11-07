@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 180
+Candidates: 179
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -339,18 +339,6 @@ Candidates: 180
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.energy.gov/documents/formula-grant-program-infographic; https://www.energy.gov/oe/funding-opportunities-and-requests-information
-
-## Bid-support and compliance package for Chile’s 2026/01 regulated power-supply tender
-- Status: watch | energy_infrastructure
-- Current idea: Developers and consortia that already control generation, storage or interconnection may need bid-ready documentation, dispatch/energy calculations, zone and time-block analysis, and compliance coordination before submitting. This is a procurement-enablement wedge, not evidence that an independent operator can win or resell electricity.
-- Potential economic capture: A small operator could sell a fixed-scope tender-readiness asset—requirements matrix, data-room checklist, storage one-cycle energy model, time-block/zone bid workbook and deadline monitoring—to an existing developer, EPC, legal adviser or consortium. No buyer, fee or conversion is assumed until outreach validates demand.
-- **Research routes to test (NOT validated claims):**
-  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
-  - Compare owned asset, installer/distributor and project-finance participation.
-  - Verify permits and installed net payback under conservative power price scenarios.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://www.licitacioneselectricas.cl/licitaciones?estado=vigentes; https://jdf.cl/en/cne-aprueba-las-bases-definitivas-de-la-licitacion-de-suministro-2026-01-y-da-inicio-formal-al-proceso/
 
 ## Chile commercial BESS peak-shaving feasibility wedge using 15-minute meter data
 - Status: watch | energy_infrastructure

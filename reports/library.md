@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-11-07T19:52:40.416631+00:00
+Generated: 2026-11-07T23:25:25.915426+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 180 (0 HQ survivors, 180 watches)
-- Rejected opportunities excluded: 100
+- Active research: 179 (0 HQ survivors, 179 watches)
+- Rejected opportunities excluded: 101
 - Critic-and-judge reviewed: 83
 - Autonomous execution authorization: 0
 
@@ -1182,16 +1182,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.energy.gov/documents/formula-grant-program-infographic; https://www.energy.gov/oe/funding-opportunities-and-requests-information
-
-### Bid-support and compliance package for Chile’s 2026/01 regulated power-supply tender [opp_20b079df210ea1d3088c]
-- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile; SEN zones, especially Zone 2
-- Thesis: Developers and consortia that already control generation, storage or interconnection may need bid-ready documentation, dispatch/energy calculations, zone and time-block analysis, and compliance coordination before submitting. This is a procurement-enablement wedge, not evidence that an independent operator can win or resell electricity.
-- Value capture: A small operator could sell a fixed-scope tender-readiness asset—requirements matrix, data-room checklist, storage one-cycle energy model, time-block/zone bid workbook and deadline monitoring—to an existing developer, EPC, legal adviser or consortium. No buyer, fee or conversion is assumed until outreach validates demand.
-- Participation hypothesis: Lowest-cost test: download the definitive tender documents from the official Chilean electricity-tender portal, build a two-page compliance matrix and a simple storage-bid calculation workbook, then send it to 10 publicly identifiable Chilean storage/renewable developers or tender advisers asking whether one paid review would reduce submission risk. Do not claim authority to represent a bidder, submit an offer, or provide regulated engineering/legal advice. Falsify if no qualified contact confirms a specific missing deliverable or requests a pa
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.licitacioneselectricas.cl/licitaciones?estado=vigentes; https://jdf.cl/en/cne-aprueba-las-bases-definitivas-de-la-licitacion-de-suministro-2026-01-y-da-inicio-formal-al-proceso/
 
 ### Bilingual AI safety evaluator contract accessible from Chile [opp_b55f1420dab520bdff40]
 - Status: WATCH_REQUIRES_VALIDATION | general | Chile

@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-07T19:52:40.014101+00:00
+Generated: 2026-11-07T23:25:25.478234+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['energy_localization', 'wildcard', 'remote_paid_evaluation']
-- raw_candidates: 2
-- parseable_candidates: 2
-- normalized_candidates: 2
+- lenses: ['inventoryless_product_validation', 'fixed_scope_paid_research_asset', 'geographic_arbitrage']
+- raw_candidates: 0
+- parseable_candidates: 0
+- normalized_candidates: 0
 - normalization_rejected: 0
-- grounded_sources: 6
+- grounded_sources: 0
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
 - critic_reviews: 1
 - judge_reviews: 1
 - survivors: 0
-- watches: 2
-- rejected: 0
+- watches: 0
+- rejected: 1
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.04152605
+- cost_usd: 0.04272885
 - cost_uncertain: False
-- budget_remaining_usd: 0.03847395
+- budget_remaining_usd: 0.03727115
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -56,8 +56,8 @@ No survivors. Scout does not manufacture a daily winner.
 ```json
 {
   "notes": [
-    "deep_review_lane=fresh",
-    "research_queue_unreviewed=88"
+    "deep_review_lane=backlog",
+    "research_queue_unreviewed=87"
   ],
   "stages": [
     {
@@ -65,109 +65,89 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 20,
+      "grounded_source_count": 40,
       "search_source_urls": [
-        "https://actualidadjuridica.doe.cl/proyectos-de-almacenamiento-con-baterias-en-construccion-superan-los-6-300-mw-en-chile/",
-        "https://app.outlier.ai/login?job_post_id=4476998005",
-        "https://app.outlier.ai/opportunities/4505547005?referring_user=e564fcad286749c279b44e3284ca188b025ffb9e1a5d03d6c93cfbb1a908a1520034423690724c21b7d4ae35ef92f68a",
-        "https://autoconsumo.minenergia.cl/?page_id=3664",
-        "https://economiacircular.mma.gob.cl/wp-content/uploads/2024/11/18.-SP-Global-Commodity-Insights-2023-Chile-advances-regulation-to-support-storage-goals.pdf",
-        "https://en.wikipedia.org/wiki/Electricity_sector_in_Chile",
-        "https://energiafutura.cl/en/news/chile-cne-expects-12394-mwh-of-new-batteries-in-2027-and-storage-would-top-20000-mwh",
-        "https://energiafutura.cl/en/news/energy-storage-in-chile-reaches-11-3-gw-across-operating-testing-and-under-construction-batteries",
-        "https://es.wikipedia.org/wiki/Superintendencia_de_Electricidad_y_Combustibles",
-        "https://iea.blob.core.windows.net/assets/b73798cb-e452-42b9-9d8a-07542de7a041/Electricity_2026.pdf",
-        "https://mercadoernc.minenergia.cl/wp-content/uploads/2019/01/Libro_ERNC_Chile_completo_inglesV1.pdf",
-        "https://publications.iadb.org/publications/english/document/Shedding-Light-on-the-Unequal-Distribution-of-Residential-Solar-PV-Adoption-in-Latin-America-and-the-Caribbean.pdf",
-        "https://www.cne.cl/nuestros-servicios/licitaciones-y-suministros/licitacion-2026/",
-        "https://www.cne.cl/prensa/prensa-2026/07-julio-2026/renmad-chile-2026-presentamos-los-principales-desafios-y-oportunidades-de-la-licitacion-de-suministro-2026-01/",
-        "https://www.cne.cl/wp-content/uploads/2015/06/RMonthly_NCRE_v201610.pdf",
-        "https://www.dlapiper.cl/wp-content/uploads/2019/09/Renewable-Energy-2020.pdf",
-        "https://www.enel.cl/es/clientes/tarifas-y-regulacion/generacion-distribuida-netbilling.html",
-        "https://www.iea.org/policies/25754-call-for-tenders-electrical-energy-storage-systems",
-        "https://www.sec.cl/GDA/",
-        "https://www.sec.cl/gda/marco-regulatorio/?view_full_site=true"
+        "https://apnews.com/article/e78ccd51a7f66099d84fda885d2907a3",
+        "https://catalogo.innovacionsantiago.cl/",
+        "https://cnc.cl/wp-content/uploads/2026/03/CNC-INFORME-VENTAS-ONLINE-DEL-RETAIL-Cuarto-Trimestre-2025.pdf",
+        "https://datario.cl/precios",
+        "https://elpais.com/chile/2024-09-11/cuanto-dinero-gastaran-y-que-productos-compraran-los-chilenos-en-las-fiestas-patrias.html",
+        "https://elpais.com/chile/2025-06-02/cyber-day-2025-en-chile-las-ofertas-y-las-marcas-que-participan-del-evento.html",
+        "https://elpais.com/chile/2025-06-24/el-consumo-de-plasticos-crece-en-un-7-en-chile-impulsado-por-la-mineria-y-la-agricultura.html",
+        "https://en.wikipedia.org/wiki/Demographics_of_Chile",
+        "https://en.wikipedia.org/wiki/Economy_of_Chile",
+        "https://en.wikipedia.org/wiki/MercadoLibre",
+        "https://es.wikipedia.org/wiki/Internet_en_Chile",
+        "https://stablobccsprod.blob.core.windows.net/ccs/2026/03/CCS-Ventas-comercio-electronico-2025-.pdf",
+        "https://www.bcentral.cl/es/w/el-crecimiento-del-comercio-electronico-en-chile",
+        "https://www.ccs.cl/2025/09/29/ventas-online-alcanzaron-los-us-4-725-millones-al-primer-semestre-de-2025/",
+        "https://www.ccs.cl/ecommerce/comercio-electronico-chile-us2500-millones-primer-trimestre-2026/",
+        "https://www.ccs.cl/estudios-y-publicaci/comercio-electronico-bordeo-los-us-10-mil-millones-en-2025/",
+        "https://www.cencosud.com/cencosud/site/docs/20260203/20260203165740/press_release_cencosud_4q25__eng_.pdf",
+        "https://www.chileatiende.gob.cl/fichas/4201-pagar-derechos-aduaneros-por-importaciones-realizadas-via-postal",
+        "https://www.chileatiende.gob.cl/fichas/4201/1/pdf",
+        "https://www.fne.gob.cl/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-plataformas/",
+        "https://www.fne.gob.cl/wp-content/uploads/2026/04/FNE_Informe_Preliminar_EM_Comercio_Electronico_EM10_2024.pdf",
+        "https://www.mercadolibre.cl/mas-vendidos/",
+        "https://www.reddit.com/r/ChileInversiones/comments/1wazljj/chile_ni_siquiera_aparece_como_pa%C3%ADs_individual_en/",
+        "https://www.reddit.com/r/RepublicadeChile/comments/1t2gqew/alguien_ha_comprado_algo_desde_espa%C3%B1a_%C3%BAltimamente/",
+        "https://www.reddit.com/r/RepublicadeChile/comments/1xfgr5r/gente_que_ha_pedido_cosas_internacionales/",
+        "https://www.reddit.com/r/chile/comments/1f4wee0",
+        "https://www.reddit.com/r/chile/comments/1u8djgd/con_el_cintur%C3%B3n_apretado_los_consumidores_en/",
+        "https://www.reddit.com/r/chile/comments/1vjw69u/correos_chile_y_aduana_agosto_2026/",
+        "https://www.reddit.com/r/chile/comments/1vx5l8k/c%C3%B3mo_est%C3%A1_el_tema_de_aduanas/",
+        "https://www.reddit.com/r/chile/comments/1xfgq6b/gente_que_ha_pedido_cosas_internacionales/",
+        "https://www.reddit.com/r/chile/comments/1xqgnnr/experiencias_en_el_mundo_de_importaciones/",
+        "https://www.reddit.com/r/chileIT/comments/18om0aa",
+        "https://www.reddit.com/r/chilegames/comments/1i30qld",
+        "https://www.reddit.com/r/chilegames/comments/1mfcejj",
+        "https://www.sii.cl/destacados/iva_bienes/",
+        "https://www.sii.cl/preguntas_frecuentes/impuestos_mensuales/001_130_1543.htm",
+        "https://www.subtel.gob.cl/wp-content/uploads/2026/02/Informe-Final-Acceso-y-Uso-Internet-2025_03.pdf",
+        "https://www.techradar.com/reviews/bright-data",
+        "https://www.techradar.com/reviews/oxylabs",
+        "https://www.trade.gov/country-commercial-guides/chile-ecommerce"
       ]
     },
     {
-      "index": 0,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 2,
-      "retry_justified": false
-    },
-    {
-      "index": 1,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 4,
-      "retry_justified": false
-    },
-    {
       "stage": "critic",
-      "candidate_id": "opp_4e6fd9c9f66d8c5fbe25",
+      "candidate_id": "opp_20b079df210ea1d3088c",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 30,
+      "grounded_source_count": 20,
       "search_source_urls": [
-        "https://airtm.freshdesk.com/en/support/solutions/articles/47001303163-how-do-you-create-an-airtm-account-and-get-paid-from-outlier-",
-        "https://aitrainers.jobs/platforms/outlier",
-        "https://aitrainers.jobs/platforms/outlier/how-to-get-hired",
-        "https://aiworkcentral.com/guides/is-outlier-legit",
-        "https://app.outlier.ai/login?job_post_id=4476998005",
-        "https://app.outlier.ai/opportunities/4505547005?referring_user=e564fcad286749c279b44e3284ca188b025ffb9e1a5d03d6c93cfbb1a908a1520034423690724c21b7d4ae35ef92f68a",
-        "https://app.outlier.ai/opportunities?adgroup_id=%7B%7Badset.id%7D%7D&domain=spanish&language=ES&locale=CL&pod=languages",
-        "https://app.payments.ai/terms-and-conditions.pdf",
-        "https://go.airtm.com/outlier/",
-        "https://journals.sagepub.com/doi/pdf/10.1177/20539517241242446",
-        "https://labelingjobs.net/guides/is-outlier-ai-legit-who-runs-it-how-it-pays-and-what-contributors-report",
-        "https://outlier.ai/legal/terms-of-use",
-        "https://outlier.ai/legal/terms-of-use?ajs=626a11d5-0096-45b8-8eda-36df039f2043",
-        "https://outlierventures.io/wp-content/uploads/2024/07/Q2-24-End-of-Base-Camp-Report.pdf",
-        "https://s28.q4cdn.com/430599561/files/doc_financials/2025/q4/PAY-10-K-2025.pdf",
-        "https://www.law.berkeley.edu/wp-content/uploads/2017/10/Berkeley-Fintech-Workshop-Presentations_2017.pdf",
-        "https://www.paypalobjects.com/hwnodeweb/pdf/freelance-workforce/NA_HW_Brief_Freelance_V2.1.pdf",
-        "https://www.reddit.com/r/outlier_ai/comments/1edzwf2",
-        "https://www.reddit.com/r/outlier_ai/comments/1fu6h0t",
-        "https://www.reddit.com/r/outlier_ai/comments/1go7gut",
-        "https://www.reddit.com/r/outlier_ai/comments/1k0fep9/have_you_received_your_payments_on_airtm_mine/",
-        "https://www.reddit.com/r/outlier_ai/comments/1krpfn3/outlier_says_they_cant_process_paypal_but_just/",
-        "https://www.reddit.com/r/outlier_ai/comments/1l1xpa8",
-        "https://www.reddit.com/r/outlier_ai/comments/1ovrez5/started_tasking_again_after_a_long_break/",
-        "https://www.reddit.com/r/outlier_ai/comments/1qk9912/complaint/",
-        "https://www.reddit.com/r/outlier_ai/comments/1re0qh7/question_regarding_payment/",
-        "https://www.reddit.com/r/outlier_ai/comments/1rqazkm/removed/",
-        "https://www.reddit.com/r/outlier_ai/comments/1u6miij/removed_from_outlier_and_all_my_outlier_earnings/",
-        "https://www.reddit.com/r/outlier_ai/comments/1uppu96/indian_people_im_switching_from_outlier_to_paypal/",
-        "https://www.trustpilot.com/review/outlier.ai"
+        "https://cincodias.elpais.com/companias/2024-11-20/ferrovial-estudia-demandar-a-chile-tras-ser-excluida-de-un-contrato-de-250-millones.html",
+        "https://electromineria.cl/cne-claves-licitacion-suministro-2026-01-flexibilidad-mercado/",
+        "https://electromineria.cl/cne-llama-licitacion-suministro-2026-01-2835-gwh-clientes-regulados/",
+        "https://elpais.com/chile/2026-07-16/ordenar-la-cuenta-electrica-con-un-cheque-en-blanco.html",
+        "https://elpais.com/chile/branded/2026-03-13/licitacion-publica-internacional-sistema-electrico-nacional-de-transmision-de-chile.html",
+        "https://elpais.com/chile/branded/2026-03-26/licitacion-publica-internacional-sistema-electrico-nacional-de-chile.html",
+        "https://elpais.com/chile/branded/2026-10-20/transemel-convoca-a-licitacion-publica-internacional-para-la-ejecucion-de-cuatro-obras-estrategicas-de-transmision-electrica.html",
+        "https://elpais.com/chile/branded/2026-10-27/interchile-sa-llama-a-licitacion-para-ampliacion-de-obras-en-la-region-de-atacama.html",
+        "https://jdf.cl/cne-aprueba-las-bases-definitivas-de-la-licitacion-de-suministro-2026-01-y-da-inicio-formal-al-proceso/",
+        "https://jdf.cl/en/cne-aprueba-las-bases-definitivas-de-la-licitacion-de-suministro-2026-01-y-da-inicio-formal-al-proceso/",
+        "https://licitacioneselectricas.cl/",
+        "https://renewablesnow.com/news/chile-kicks-off-power-auction-to-contract-2-8-twhyear-under-15-year-ppas-1296382/",
+        "https://www.cne.cl/nuestros-servicios/licitaciones-y-suministros/licitacion-2026/",
+        "https://www.cne.cl/prensa/prensa-2026/07-julio-2026/renmad-chile-2026-presentamos-los-principales-desafios-y-oportunidades-de-la-licitacion-de-suministro-2026-01/",
+        "https://www.cne.cl/prensa/prensa-2026/10-octubre-2026/publicacion-informe-final-licitaciones-2026/",
+        "https://www.cne.cl/wp-content/uploads/2025/12/Comunicado-CNE-Apertura-Ofertas-Economicas-Licitacion-Electrica-202502_final.pdf",
+        "https://www.cne.cl/wp-content/uploads/2026/06/RE-CNE-N292.pdf",
+        "https://www.emb.cl/electroindustria/noticia.mvc?nid=20260721w1",
+        "https://www.enerdata.net/publications/daily-energy-news/chile-launches-28-twh-power-supply-tender-renewables-and-storage.html",
+        "https://www.publicnow.com/view/8798F087AA0E003BDE75087BC95395307D8764E2"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_4e6fd9c9f66d8c5fbe25",
+      "candidate_id": "opp_20b079df210ea1d3088c",
       "coercions": [
-        "contrary_evidence"
+        "critic_case"
       ]
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_4e6fd9c9f66d8c5fbe25",
+      "candidate_id": "opp_20b079df210ea1d3088c",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -175,7 +155,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_4e6fd9c9f66d8c5fbe25",
+      "candidate_id": "opp_20b079df210ea1d3088c",
       "coercions": []
     }
   ],
@@ -183,44 +163,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 167,
-      "cache_write_tokens": 5542,
+      "reasoning_tokens": 186,
+      "cache_write_tokens": 4922,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0148831,
+      "cumulative_cost_usd": 0.0131511,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13820,
+      "input_tokens": 13343,
       "cached_tokens": 0,
-      "output_tokens": 1535,
+      "output_tokens": 197,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0148831
+      "estimated_cost_usd": 0.0131511
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 113,
-      "cache_write_tokens": 5425,
+      "reasoning_tokens": 193,
+      "cache_write_tokens": 5349,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02928255,
+      "cumulative_cost_usd": 0.02778935,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13969,
+      "input_tokens": 13472,
       "cached_tokens": 0,
-      "output_tokens": 1112,
+      "output_tokens": 1397,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01439945
+      "estimated_cost_usd": 0.01463825
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 81,
-      "cache_write_tokens": 2735,
+      "reasoning_tokens": 66,
+      "cache_write_tokens": 3223,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.04152605,
+      "cumulative_cost_usd": 0.04272885,
       "model": "gpt-5.6-terra",
-      "input_tokens": 2738,
+      "input_tokens": 3226,
       "cached_tokens": 0,
-      "output_tokens": 450,
+      "output_tokens": 573,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.0122435
+      "estimated_cost_usd": 0.0149395
     }
   ]
 }

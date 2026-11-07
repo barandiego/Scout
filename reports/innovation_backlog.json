@@ -1030,42 +1030,6 @@
       "category": "energy_infrastructure",
       "commercially_validated": false,
       "competition_confirmed": false,
-      "current_participation_path": "Lowest-cost test: download the definitive tender documents from the official Chilean electricity-tender portal, build a two-page compliance matrix and a simple storage-bid calculation workbook, then send it to 10 publicly identifiable Chilean storage/renewable developers or tender advisers asking whether one paid review would reduce submission risk. Do not claim authority to represent a bidder, submit an offer, or provide regulated engineering/legal advice. Falsify if no qualified contact confirms a specific missing deliverable or requests a paid pilot within 20 outreach attempts.",
-      "current_thesis": "Developers and consortia that already control generation, storage or interconnection may need bid-ready documentation, dispatch/energy calculations, zone and time-block analysis, and compliance coordination before submitting. This is a procurement-enablement wedge, not evidence that an independent operator can win or resell electricity.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "Chile; SEN zones, especially Zone 2",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "Bid-support and compliance package for Chile’s 2026/01 regulated power-supply tender",
-      "opportunity_id": "opp_20b079df210ea1d3088c",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
-        "Compare owned asset, installer/distributor and project-finance participation.",
-        "Verify permits and installed net payback under conservative power price scenarios."
-      ],
-      "supporting_source_urls": [
-        "https://www.licitacioneselectricas.cl/licitaciones?estado=vigentes",
-        "https://jdf.cl/en/cne-aprueba-las-bases-definitivas-de-la-licitacion-de-suministro-2026-01-y-da-inicio-formal-al-proceso/"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "A small operator could sell a fixed-scope tender-readiness asset—requirements matrix, data-room checklist, storage one-cycle energy model, time-block/zone bid workbook and deadline monitoring—to an existing developer, EPC, legal adviser or consortium. No buyer, fee or conversion is assumed until outreach validates demand.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "energy_infrastructure",
-      "commercially_validated": false,
-      "competition_confirmed": false,
       "current_participation_path": "Obtain public tariff schedules and approach independently sourced commercial or agricultural sites only where permission is granted to review their 15-minute meter data. Build a spreadsheet model that compares baseline demand charges against simulated peak shaving and solar shifting. Lowest-cost falsification: before selling a study, collect three anonymized 15-minute load profiles from willing site operators and test whether any show a sufficiently concentrated, recurring peak for a battery to plausibly affect the bill. If none do, stop. If one does, compare the calculated savings with the published UF 55 study price and ask whether the operator would pay for a paid validation; do not claim a sale unless payment occurs.",
       "current_thesis": "A small operator does not need to finance or own batteries initially. It can test whether a standardized load-profile calculation produces investment-grade savings cases for sites with demand charges, solar exports or outage costs. The measurable economic mechanism is avoided peak-demand cost, increased self-consumption or reduced outage exposure.",
       "founder_hours_initial_unverified_estimate": "",
@@ -6862,7 +6826,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-07T19:52:40.553101+00:00",
+  "generated_at": "2026-11-07T23:25:26.051921+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"
