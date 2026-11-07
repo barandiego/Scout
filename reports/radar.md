@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-07T20:22:06.548185+00:00
+Generated: 2026-11-07T23:44:39.743249+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 153
+- New this cycle: 143
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
-- Categories: agriculture 570, ai 117, energy 514, robotics 599
+- Feed failures (fail-open for public intake only): none
+- Categories: agriculture 570, ai 117, energy 513, robotics 600
 
 ## Recently encountered signals
+
+### Mohan-Sai-Karthikeya101/AgriLink.ai
+- Source: https://github.com/Mohan-Sai-Karthikeya101/AgriLink.ai
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### Battery Energy Storage System for Stacked Services to Power Grids: An Inventory Theory-Based Approach
 - Source: https://doi.org/10.1109/tsg.2026.3750027
@@ -452,12 +458,6 @@ Generated: 2026-11-07T20:22:06.548185+00:00
 
 ### kiruthikkumar13/AgriShield-AI-8.7
 - Source: https://github.com/kiruthikkumar13/AgriShield-AI-8.7
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### kgroboop/agri-rover
-- Source: https://github.com/kgroboop/agri-rover
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
