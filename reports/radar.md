@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-08T15:27:28.335417+00:00
+Generated: 2026-11-08T20:39:36.233817+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 160
+- New this cycle: 148
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): none
-- Categories: agriculture 578, ai 116, energy 512, robotics 594
+- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
+- Categories: agriculture 583, ai 116, energy 511, robotics 590
 
 ## Recently encountered signals
+
+### AgriMitra1133/agrimitra-learning.github.
+- Source: https://github.com/AgriMitra1133/agrimitra-learning.github.
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### Mohan-Sai-Karthikeya101/AgriLink.ai
 - Source: https://github.com/Mohan-Sai-Karthikeya101/AgriLink.ai
@@ -452,12 +458,6 @@ Generated: 2026-11-08T15:27:28.335417+00:00
 
 ### yieldshield-devs/Plant-Guard
 - Source: https://github.com/yieldshield-devs/Plant-Guard
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### kiruthikkumar13/AgriShield-AI-8.7
-- Source: https://github.com/kiruthikkumar13/AgriShield-AI-8.7
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
