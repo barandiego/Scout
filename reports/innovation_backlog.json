@@ -4376,6 +4376,42 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Download the CMF technical specifications and use the publicly described ATENA/APIBox environment to implement one minimal conformance test covering a single data-access or payment-initiation flow. Publish the reproducible test output and contact listed ecosystem participants or implementation vendors only after confirming that the sandbox permits the proposed use. Lowest-cost falsification: spend one day determining whether public test credentials, documentation and test endpoints are actually available; if not, return zero rather than selling an unverified integration service.",
+      "current_thesis": "Entities intending to participate in Chile's Open Finance System have a defined implementation deadline and a public test environment. This creates a narrow need for integration-validation assets rather than generic fintech consulting.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile SFA/APIBox interoperability test harness for fintech participants",
+      "opportunity_id": "opp_f3ae66d425cfc84e615e",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A small operator could build a reusable, narrowly scoped test harness that validates API requests, consent flows, authentication, error handling and participant-directory interactions against ATENA/APIBox test specifications. Possible cash-flow sources are participating fintechs, financial institutions or implementation vendors, but no buyer, price or procurement commitment was verified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use the CMF developer portal and ATENA environment to identify one technically testable Annex 3 flow. Build a minimal local mock provider/consumer and publish a reproducible test report. Then request feedback from listed prospective participants or relevant Chilean fintech associations; do not assume access, endorsement or paid demand. Lowest-cost falsification: spend one week implementing a single interoperability test and ask at least five identifiable potential participants whether they would run it or pay for a hosted version. Stop if the test cannot be mapped cleanly to the published specification or no participant agrees to evaluate it.",
       "current_thesis": "Participants may need repeatable testing of API interoperability, directory participation and payment-initiation flows before production compliance. The evidence supports a narrowly scoped testing asset, not a general consulting business.",
       "founder_hours_initial_unverified_estimate": "",
@@ -5044,9 +5080,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "Chile",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "Which specific Chilean entities are obligated, eligible, or commercially motivated to participate in the SFA.",
+        "Whether the intended customers are regulated participants, technology vendors serving participants, or consulting firms.",
+        "Number of addressable buyers and their implementation budgets.",
+        "Whether buyers prefer a workbook, managed readiness assessment, integration testing service, training, or legal/compliance consulting.",
+        "Whether CMF materials can be copied, transformed, redistributed, or used commercially under their applicable terms.",
+        "How frequently the technical annex, developer portal, sandbox behavior, certification process, and cost rules will change before July 2027.",
+        "Whether Spanish-language localization, Chilean regulatory interpretation, or hands-on engineering support creates enough differentiation."
       ],
       "investment_authorized": false,
       "name": "Open-finance implementation-readiness toolkit for Chilean fintech software vendors",
@@ -6826,7 +6866,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-08T04:28:01.837953+00:00",
+  "generated_at": "2026-11-08T14:46:46.333490+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

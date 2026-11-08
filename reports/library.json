@@ -6338,6 +6338,95 @@
     {
       "ai_leverage": "",
       "authorized_for_execution": false,
+      "contrary_evidence": [
+        "The CMF formally incorporated technical specifications for interoperability, information exchange, payment initiation, security, consent, testing, and developer resources into the SFA framework. This confirms that a real implementation problem exists, although it does not prove willingness to pay: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "The CMF states that the SFA entry into force is July 3, 2027, leaving a defined preparation window: https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640",
+        "The ATENA technological sandbox allows institutions to test integrations, interoperability, and technical adequacy before go-live, which could create demand for practical testing support: https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "The regulatory framework includes detailed technical and operational requirements, including security certifications, functional testing, API functionality, consent mechanisms, and participant-directory requirements. These requirements could exceed the capacity of small teams: https://www.carey.cl/en/cmf-amends-ncg-no-514-and-incorporates-technical-standards-for-the-implementation-of-the-open-finance-system",
+        "A Chile fintech survey reported substantial adoption of open finance and APIs, suggesting at least some existing technical constituency, though it does not establish demand for this specific product: https://www.mastercard.us/content/dam/public/mastercardcom/na/us/en/fintech/documents/fintech-radar-chile-report.pdf"
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-19T08:32:46.620226+00:00",
+      "discovery_lens": "fixed_scope_paid_research_asset",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The CMF says the amendment includes technical specifications, a developer portal and information-exchange and payment-initiation requirements, with entry into force postponed until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "The CMF regulatory plan identifies technical annexes and implementation work for Chile's Open Finance System.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF presents its 2025-2026 Regulatory Plan",
+          "url": "https://cmfchile.cl/portal/principal/613/w3-article-92556.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.82,
+      "falsification_conditions": [
+        "At least 15 qualified target organizations are contacted and none confirms a current SFA implementation problem.",
+        "No qualified prospect agrees to a paid pilot, paid 60-minute assessment, or paid sample review at a price that covers delivery time.",
+        "Prospects consistently say the CMF developer portal, ATENA sandbox, internal teams, or existing advisers already meet the need.",
+        "The target software vendors are mostly outside the SFA participant perimeter and cannot identify a customer requiring this work.",
+        "The technical materials change substantially enough that maintaining a reliable standalone asset becomes uneconomic.",
+        "Commercial reuse or transformation of the relevant CMF materials is restricted, or the product would require unauthorized reproduction.",
+        "A credible competitor already offers a materially broader and cheaper Chile SFA readiness product with established buyer access.",
+        "The July 2027 implementation schedule is delayed again or the relevant obligations are simplified so that external readiness support is unnecessary."
+      ],
+      "geography": "Chile",
+      "id": "opp_d52a4c290d45b663a6f3",
+      "judge_reviewed": true,
+      "judgment": "The proposed wedge is a pre-go-live research/readiness product rather than live aggregation or payment initiation, so it does not presently depend on obtaining legally or technically unavailable participant API access. Official CMF material in the supplied provenance supports that Chile’s Open Finance System has technical specifications, implementation resources, and a July 2027 effective date; the regulatory-change premise is therefore not rejected as unverified. However, the commercial thesis is materially unproven: public CMF documentation, the developer portal, and ATENA testing environment may make a generic workbook low-value, while the named target—software vendors—is not demonstrated to be within the participant perimeter or to control implementation budgets. This survives only as tightly scoped buyer and procurement research, not as a justified product build or scalable asset business.",
+      "last_record_updated_at": "2026-11-08T14:46:45.582614+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Which specific Chilean entities are obligated, eligible, or commercially motivated to participate in the SFA.",
+        "Whether the intended customers are regulated participants, technology vendors serving participants, or consulting firms.",
+        "Number of addressable buyers and their implementation budgets.",
+        "Whether buyers prefer a workbook, managed readiness assessment, integration testing service, training, or legal/compliance consulting.",
+        "Whether CMF materials can be copied, transformed, redistributed, or used commercially under their applicable terms."
+      ],
+      "participation_path": "Download and review the CMF technical materials, verify reuse and licensing terms, then create a small sample containing only public requirements and a traceability matrix. Contact Chilean fintechs or software vendors through public company channels and offer a paid 60-minute review of the sample, without representing it as legal advice. Falsify if no relevant team will provide a real integration scenario or pay for a narrowly scoped readiness review; do not build production connectors before official participant access and technical permissions exist.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The near-term opportunity is not selling live account aggregation or payment initiation. A safer wedge is a reusable implementation-readiness asset: requirements matrix, consent-flow checklist, test-case library, data-field mapping and vendor-readiness assessment based on the published technical annex. Revenue would depend on finding software vendors that need preparation before the regulatory start date; no buyer demand or price was verified.",
+      "title": "Open-finance implementation-readiness toolkit for Chilean fintech software vendors",
+      "type": "regulatory_implementation_asset",
+      "unknowns": [
+        "Which specific Chilean entities are obligated, eligible, or commercially motivated to participate in the SFA.",
+        "Whether the intended customers are regulated participants, technology vendors serving participants, or consulting firms.",
+        "Number of addressable buyers and their implementation budgets.",
+        "Whether buyers prefer a workbook, managed readiness assessment, integration testing service, training, or legal/compliance consulting.",
+        "Whether CMF materials can be copied, transformed, redistributed, or used commercially under their applicable terms.",
+        "How frequently the technical annex, developer portal, sandbox behavior, certification process, and cost rules will change before July 2027.",
+        "Whether Spanish-language localization, Chilean regulatory interpretation, or hands-on engineering support creates enough differentiation.",
+        "Existing competitors among Chilean law firms, payment consultancies, systems integrators, API providers, and incumbent vendors.",
+        "Whether the proposed deliverables would be treated by buyers as regulated legal advice, certification advice, or professional compliance services.",
+        "Actual willingness to pay for a narrowly scoped readiness review or reusable test pack.",
+        "Which exact entity class has a current SFA obligation or commercially urgent customer requirement, and whether it can purchase external readiness support.",
+        "Whether at least one narrow workflow—such as consent-flow test traceability for a regulated information provider or payment-initiation participant—has a repeatable paid use case.",
+        "Addressable buyer count, decision maker, procurement cycle, and price point relative to internal legal/engineering alternatives.",
+        "Competitor offerings and pricing from Chilean law firms, systems integrators, API vendors, and specialist compliance advisers.",
+        "Whether the proposed materials can be sold without reproducing restricted source content and without representing legal advice or CMF certification.",
+        "How frequently the technical annexes, sandbox processes, certifications, participant directory rules, and cost arrangements will change before implementation."
+      ],
+      "value_capture_mechanism": "License or sell a standardized compliance-engineering workbook and test pack to Chilean fintech or vertical-software teams preparing for OFS participation. Do not claim regulatory advice, certification, access to bank APIs, or permission to use CMF materials beyond what the source licenses allow.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": true,
       "discovered_at": "2026-10-09T12:13:35.621636+00:00",
@@ -10193,6 +10282,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-08T14:46:23.005696+00:00",
+      "discovery_lens": "regulation_infrastructure",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF published technical specifications and a Developers' Portal for the Open Finance System and postponed entry into force until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "ATENA provides a controlled environment for testing integrations, interoperability with the participant directory and business-model validation before the Open Finance System enters into force.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF launches ATENA Technological Sandbox for implementation of the Open Finance System",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.9,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_f3ae66d425cfc84e615e",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-08T14:46:23.060889+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Download the CMF technical specifications and use the publicly described ATENA/APIBox environment to implement one minimal conformance test covering a single data-access or payment-initiation flow. Publish the reproducible test output and contact listed ecosystem participants or implementation vendors only after confirming that the sandbox permits the proposed use. Lowest-cost falsification: spend one day determining whether public test credentials, documentation and test endpoints are actually available; if not, return zero rather than selling an unverified integration service.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Entities intending to participate in Chile's Open Finance System have a defined implementation deadline and a public test environment. This creates a narrow need for integration-validation assets rather than generic fintech consulting.",
+      "title": "Chile SFA/APIBox interoperability test harness for fintech participants",
+      "type": "regulatory_infrastructure",
+      "unknowns": [],
+      "value_capture_mechanism": "A small operator could build a reusable, narrowly scoped test harness that validates API requests, consent flows, authentication, error handling and participant-directory interactions against ATENA/APIBox test specifications. Possible cash-flow sources are participating fintechs, financial institutions or implementation vendors, but no buyer, price or procurement commitment was verified.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-21T08:27:50.372495+00:00",
       "discovery_lens": "tokenization_finance",
       "estimated_capital": "",
@@ -11543,60 +11686,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-19T08:32:46.620226+00:00",
-      "discovery_lens": "fixed_scope_paid_research_asset",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "The CMF says the amendment includes technical specifications, a developer portal and information-exchange and payment-initiation requirements, with entry into force postponed until July 2027.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
-          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
-        },
-        {
-          "claim": "The CMF regulatory plan identifies technical annexes and implementation work for Chile's Open Finance System.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "CMF presents its 2025-2026 Regulatory Plan",
-          "url": "https://cmfchile.cl/portal/principal/613/w3-article-92556.html"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.88,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_d52a4c290d45b663a6f3",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-19T08:32:46.662044+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Download and review the CMF technical materials, verify reuse and licensing terms, then create a small sample containing only public requirements and a traceability matrix. Contact Chilean fintechs or software vendors through public company channels and offer a paid 60-minute review of the sample, without representing it as legal advice. Falsify if no relevant team will provide a real integration scenario or pay for a narrowly scoped readiness review; do not build production connectors before official participant access and technical permissions exist.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "The near-term opportunity is not selling live account aggregation or payment initiation. A safer wedge is a reusable implementation-readiness asset: requirements matrix, consent-flow checklist, test-case library, data-field mapping and vendor-readiness assessment based on the published technical annex. Revenue would depend on finding software vendors that need preparation before the regulatory start date; no buyer demand or price was verified.",
-      "title": "Open-finance implementation-readiness toolkit for Chilean fintech software vendors",
-      "type": "regulatory_implementation_asset",
-      "unknowns": [],
-      "value_capture_mechanism": "License or sell a standardized compliance-engineering workbook and test pack to Chilean fintech or vertical-software teams preparing for OFS participation. Do not claim regulatory advice, certification, access to bank APIs, or permission to use CMF materials beyond what the source licenses allow.",
-      "verified_sales": null,
-      "vertical": "open_finance_chile",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-11-06T23:57:44.008988+00:00",
       "discovery_lens": "adoption_lag",
       "estimated_capital": "",
@@ -12676,13 +12765,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-08T04:28:01.712368+00:00",
+  "generated_at": "2026-11-08T14:46:46.175302+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 102,
-  "reviewed_cards": 83,
+  "rejected_excluded": 103,
+  "reviewed_cards": 84,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 281,
-  "watch": 179
+  "total_distinct_opportunities": 283,
+  "watch": 180
 }

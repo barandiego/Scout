@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 179
+Candidates: 180
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -1384,6 +1384,18 @@ Candidates: 179
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html; https://www.cmfchile.cl/educa/621/w3-article-85051.html
 
+## Chile SFA/APIBox interoperability test harness for fintech participants
+- Status: watch | open_finance_chile
+- Current idea: Entities intending to participate in Chile's Open Finance System have a defined implementation deadline and a public test environment. This creates a narrow need for integration-validation assets rather than generic fintech consulting.
+- Potential economic capture: A small operator could build a reusable, narrowly scoped test harness that validates API requests, consent flows, authentication, error handling and participant-directory interactions against ATENA/APIBox test specifications. Possible cash-flow sources are participating fintechs, financial institutions or implementation vendors, but no buyer, price or procurement commitment was verified.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
 ## Chile SFA/ATENA conformance test harness for early interoperability testing
 - Status: watch | open_finance_chile
 - Current idea: Participants may need repeatable testing of API interoperability, directory participation and payment-initiation flows before production compliance. The evidence supports a narrowly scoped testing asset, not a general consulting business.
@@ -1596,7 +1608,7 @@ Candidates: 179
   - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
   - Check license perimeter, API access, legal compliance and competitor pricing.
   - Test buyer procurement and technical access before writing integration infrastructure.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Which specific Chilean entities are obligated, eligible, or commercially motivated to participate in the SFA.; Whether the intended customers are regulated participants, technology vendors serving participants, or consulting firms.; Number of addressable buyers and their implementation budgets.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
 

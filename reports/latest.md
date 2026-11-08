@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-08T04:28:01.316604+00:00
+Generated: 2026-11-08T14:46:45.795492+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['ai_open_source', 'public_markets', 'physical_commerce']
-- raw_candidates: 1
-- parseable_candidates: 1
-- normalized_candidates: 1
+- lenses: ['regulation_infrastructure', 'robotics_automation', 'energy_industrial']
+- raw_candidates: 2
+- parseable_candidates: 2
+- normalized_candidates: 2
 - normalization_rejected: 0
-- grounded_sources: 3
+- grounded_sources: 2
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
 - critic_reviews: 1
 - judge_reviews: 1
 - survivors: 0
-- watches: 0
+- watches: 2
 - rejected: 1
 - errors_by_stage: {}
-- rejection_reasons: {}
-- cost_usd: 0.0450005
+- rejection_reasons: {'discarded_ungrounded_url': 2, 'insufficient_unique_evidence': 1, 'no_credible_source_class': 1}
+- cost_usd: 0.04394
 - cost_uncertain: False
-- budget_remaining_usd: 0.0349995
+- budget_remaining_usd: 0.03606
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Prior-authorization FHIR API conformance harness for payer and health-IT vendors: deferred_by_review_cap
 - Rare-earth magnet scrap aggregation for U.S. hydrometallurgical recyclers: deferred_by_review_cap
 - Chile SFA interoperability test harness for regulated fintech integrations: deferred_by_review_cap
 - Independent deployment and service layer for agricultural field robots: deferred_by_review_cap
@@ -51,12 +50,13 @@ No survivors. Scout does not manufacture a daily winner.
 - Consent-and-API compliance test harness for Chilean Open Finance participants: Regulatory basis and the existence of public technical materials appear sufficiently grounded by CMF primary sources; the proposed product does not require claiming access to regulated customer data or operating a payment/information service. A narrow, offline conformance and regression-testing tool built from public specifications is therefore legally and technically plausible at the research stage. However, survival as an HQ-worthy opportunity is not established: CMF’s ATENA/testing and certification-related environment may cover much of the same validation need, some high-value tests depend on CMF-controlled access and credentials, and a directly positioned local competitor is already identified. The buyer universe is likely concentrated, regulated procurement-heavy, and potentially inclined toward incumbents, certification firms, or internal API QA. The defensible wedge must be a demonstrably non-duplicative layer—such as pre-ATENA regression automation, reproducible evidence packs for vendor integrations, or mock-based testing where official environments do not cover endpoint/operational checks—not generic schema validation. No fatal condition is triggered yet because unavailable official-environment access is not required for the proposed initial public-documentation workflow, and the regulatory change is supported by official CMF provenance. Economics, acceptance of third-party evidence, and technical-access boundaries remain unresolved.
 - Small-scale solar-plus-storage connection and compliance support for Chilean regulated customers: deferred_by_review_cap
 - Chile-eligible Spanish AI evaluation and coding-review applications: Primary Outlier pages support a plausible Chile-accessible contractor application path and a clear payer/value-capture mechanism: Outlier pays accepted contributors for completed AI-evaluation or coding-review work. The opportunity is therefore not fabricated and is not structurally closed on the evidence provided. However, it is an application funnel rather than a validated income stream. The cited USD 25/hour figure is explicitly tied to U.S.-Spanish writing experts and cannot be generalized to Chile; acceptance, paid task allocation, weekly hours, continuity, and realized net pay remain unverified. It survives only as a tightly bounded research/test hypothesis, not as a dependable work or business opportunity.
+- Chile SFA/APIBox interoperability test harness for fintech participants: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=fresh",
+    "deep_review_lane=backlog",
     "research_queue_unreviewed=87"
   ],
   "stages": [
@@ -65,49 +65,26 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 41,
+      "grounded_source_count": 18,
       "search_source_urls": [
-        "https://api.cheaperinference.com/",
-        "https://arxiv.org/abs/2603.16458",
-        "https://arxiv.org/abs/2608.14707",
-        "https://arxiv.org/abs/2610.14793",
-        "https://arxiv.org/abs/2611.05392",
-        "https://blogs.nvidia.com/blog/inference-open-source-models-blackwell-reduce-cost-per-token/",
-        "https://en.wikipedia.org/wiki/DeepSpeed",
-        "https://en.wikipedia.org/wiki/Special_situation",
-        "https://github.com/RightNow-AI/inference-cost-truth",
-        "https://go.nuorder.com/hubfs/Reports/Report_StateofB2BCommerce2026.pdf?hsLang=en",
-        "https://inferencex.semianalysis.com/overview?compare=hardware",
-        "https://nvidianews.nvidia.com/_gallery/download_pdf/67d9b9043d63329246996be6/",
-        "https://nvidianews.nvidia.com/news/dynamo-1-0?linkId=100000412797666&ncid=so-inst-639955",
-        "https://terrainlabs.ai/reports/special-situations-aug-27-sep-10-2026",
-        "https://www.axios.com/newsletters/axios-pro-rata-8b88c78a-23fd-4eb9-91bf-466e46447815",
-        "https://www.axios.com/newsletters/axios-pro-rata-fbc6f698-c128-41f0-8173-26843eedd925",
-        "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-july-2026",
-        "https://www.carlyle.com/sites/default/files/2026-05/CAPS-Prospectus-May-2026.pdf",
-        "https://www.census.gov/economic-indicators/e-commerce.html",
-        "https://www.dhl.com/content/dam/dhl/local/global/dhl-ecommerce/documents/pdf/g0-ec-trends-report-2026.pdf",
-        "https://www.digitalocean.com/resources/articles/ai-inference-platforms",
-        "https://www.eesel.ai/blog/deepinfer",
-        "https://www.itpro.com/security/tokenmaxxing-crackdowns-and-ai-cybersecurity-risks",
-        "https://www.itpro.com/software/open-source/open-source-ai-performance-cost-savings-proprietary-models-linux-foundation",
-        "https://www.kiplinger.com/investing/where-to-find-the-top-yields-for-the-rest-of-2026",
-        "https://www.nvidia.com/en-gb/solutions/ai/inference/?modal=sign-up-form",
-        "https://www.reddit.com/r/DeepSeek/comments/1xez5ge/deepseek_opensources_its_inference_framework/",
-        "https://www.reddit.com/r/DeepSeek/comments/1xp0aic/nov_2026_deepseek_pricing_and_feature_research/",
-        "https://www.reddit.com/r/EcommerceCircle/comments/1wfhnnh/us_import_volumes_are_running_higher_than/",
-        "https://www.reddit.com/r/LocalLLM/comments/1xf0xun/i_ran_local_ai_inference_amd_gpu_for_30_days_and/",
-        "https://www.reddit.com/r/LovingOpenSourceAI/comments/1xcuesc/pushing_opensource_ai_further_running_an/",
-        "https://www.reddit.com/r/OpenSourceeAI/comments/1sbpis2/orla_is_an_open_source_framework_that_makes_your/",
-        "https://www.reddit.com/r/PSTH/comments/1xmyvve/ps_call_and_general_state_of_the_disunion/",
-        "https://www.sec.gov/Archives/edgar/data/2104391/000121390026098787/ea0304893-10q_catalyst.htm",
-        "https://www.techradar.com/pro/beware-the-token-trap-why-saving-on-inference-might-put-your-adlc-at-risk",
-        "https://www.techradar.com/pro/the-reality-is-that-not-every-task-requires-the-most-advanced-or-expensive-model-available-snowflake-explains-why-finding-the-right-ai-model-can-make-all-the-difference-in-helping-your-business-succeed",
-        "https://www.techradar.com/pro/we-were-highly-skeptical-about-the-cost-of-ai-revolut-reveals-it-cut-ai-coding-costs-by-cutting-out-claude-entirely",
-        "https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-ai-releases-weights-for-kimi-k3-firing-a-shot-across-the-bow-of-openai-and-anthropic-open-weight-model-performs-almost-as-well-as-frontier-models-while-being-2-3x-easier-to-run",
-        "https://www.tomshardware.com/tech-industry/artificial-intelligence/tesla-unveils-ai-accelerator-roadmap-adopts-new-si-branding-in-super-intelligence-push-si6-to-bring-80x-more-compute-performance-dojo-3-headed-to-space",
-        "https://www.wto.org/english/res_e/booksp_e/gtos0326_e.pdf",
-        "https://www.wto.org/english/res_e/statis_e/daily_update_e/merch_volume_2026q1.pdf"
+        "https://ferc.gov/ancillary-services",
+        "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa2.php?numero=530&tiponorma=NCG",
+        "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa_tramite_ver_archivo.php?id=2024041585&seq=1",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html",
+        "https://www.cmfchile.cl/portal/principal/613/articles-77095_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html",
+        "https://www.ferc.gov/sites/default/files/2026-06/Ancillary%20Services.pdf",
+        "https://www.iea.org/commentaries/battery-storage-is-scaling-up-and-taking-on-a-larger-system-role?_hsmi=421299382",
+        "https://www.iea.org/data-and-statistics/charts/utility-scale-battery-project-costs-vre-share-and-utility-scale-battery-storage-capacity-relative-to-peak-load-by-region-2019-2024",
+        "https://www.iea.org/files/60fcd1dd-d112-469b-87de-20d39227df3d/WorldEnergyInvestment2024.pdf",
+        "https://www.iea.org/reports/electricity-2026/executive-summary",
+        "https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage?__cf_chl_f_tk=3enBvMF_hGNsO9aT4hHBJlkYqiIYaDmUChRkV7rvJfc-1783440994-1.0.1.1-lVakMqlEQo_OyL_zB49nv04l0bzvaVneYdz2QqTut.E",
+        "https://www.iea.org/reports/renewables-2026/executive-summary",
+        "https://www.osha.gov/robotics/standards",
+        "https://www.osha.gov/sites/default/files/OSHA_2024_Work-Related_Injury_and_Illness_Summary.pdf",
+        "https://www.osha.gov/sites/default/files/enforcement/directives/2023_01_STD_02-12-002.pdf"
       ]
     },
     {
@@ -122,69 +99,71 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 3,
+      "grounded_sources": 2,
+      "retry_justified": false
+    },
+    {
+      "index": 1,
+      "stage": "normalization",
+      "outcome": "accepted",
+      "reasons": [
+        "discarded_ungrounded_url",
+        "discarded_ungrounded_url"
+      ],
+      "changes": [
+        "contrary_evidence:list_sanitized",
+        "major_risks:list_sanitized",
+        "unknowns:list_sanitized",
+        "falsification_conditions:list_sanitized",
+        "material_update:unknown_false"
+      ],
+      "grounded_sources": 0,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_87d70e9d9dcf089b8b01",
+      "candidate_id": "opp_d52a4c290d45b663a6f3",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 43,
+      "grounded_source_count": 27,
       "search_source_urls": [
-        "https://arxiv.org/abs/2602.12247",
-        "https://arxiv.org/abs/2603.15118",
-        "https://arxiv.org/abs/2604.25359",
-        "https://arxiv.org/abs/2608.18289",
-        "https://assets.claude.com/5633dc848caa431115468f31c7085d695bbfb9cc.pdf",
-        "https://boundless.network/pricing",
-        "https://dbhurley.com/papers/plasmate-webtaskbench-paper.pdf",
-        "https://docs.digitalocean.com/products/inference/details/pricing/",
-        "https://ernd.ai/inference-prices",
-        "https://github.com/abimaelmartell/ExtractBench",
-        "https://infragentic.ai/llm-pricing",
-        "https://nvidianews.nvidia.com/_gallery/download_pdf/69b86a843d6332324a2eb4ca/",
-        "https://openreview.net/pdf?id=MtyXaOjlUa",
-        "https://packet.ai/blog/token-factory-llm-inference-api",
-        "https://perspectives.nvidia.com/ai-infrastructure/total-cost-of-ownership/task/faq/cost-per-1m-tokens-vendor-comparison-latency/",
-        "https://savrn.com/ai-index/pricing/open-models",
-        "https://www.axios.com/2026/10/28/ai-open-ai-token-prices",
-        "https://www.bertelsmann-stiftung.de/fileadmin/files/BSt/Publikationen/GrauePublikationen/AI_Value_Creation_and_Open-Weight_Models.pdf",
-        "https://www.extend.ai/resources/long-array-extraction-benchmark",
-        "https://www.itpro.com/security/open-weight-models-are-closing-the-capability-gap-with-frontier-models-at-a-fraction-of-the-cost-cheap-chinese-ai-models-could-spell-trouble-for-us-big-tech",
-        "https://www.itpro.com/security/tokenmaxxing-crackdowns-and-ai-cybersecurity-risks",
-        "https://www.mercatus-ai.com/blog/glm-5-3-flash-api-pricing",
-        "https://www.reddit.com/r/AIDeveloperNews/comments/1wvxb2a/datalab_released_an_open_benchmark_for_structured/",
-        "https://www.reddit.com/r/DeepSeek/comments/1vyy7lb/196m_tokens_on_deepseek_v4_flash_0731_full_weight/",
-        "https://www.reddit.com/r/LangChain/comments/1wz9wj2/aplomb_1_openweights_53b_decision_model_qwen354b/",
-        "https://www.reddit.com/r/LocalLLM/comments/1x40lkv/followup_decision_models_vs_local_llms_i_counted/",
-        "https://www.reddit.com/r/OpenSourceeAI/comments/1wvxafs/datalab_released_an_open_benchmark_for_structured/",
-        "https://www.reddit.com/r/Qwen_AI/comments/1wz9def/aplomb_1_openweights_53b_decision_model_qwen354b/",
-        "https://www.reddit.com/r/Rag/comments/1wy0mgx/i_compared_embedding_costs_for_a_rag_pipeline/",
-        "https://www.reddit.com/r/hermesagent/comments/1w3ghs1/august_cloud_model_megathread/",
-        "https://www.reddit.com/r/learndatascience/comments/1sritmq/comparison_of_5_opensource_llms_on_a_realworld/",
-        "https://www.reddit.com/r/machinelearningnews/comments/1wvx9eg/datalab_releases_omniextractbench_to_fix_bias_and/",
-        "https://www.reddit.com/r/ollama/comments/1v3ffgo/nuextract3_is_now_available_on_ollama_4b_vlm_for/",
-        "https://www.reddit.com/r/openrouter/comments/1o1jwyv/token_pricing/",
-        "https://www.sciencedirect.com/science/article/pii/S2590005626004418",
-        "https://www.stackspend.app/blog/model-selection/llm-model-pricing-august-2026",
-        "https://www.techradar.com/pro/deepseek-ai-review",
-        "https://www.techradar.com/pro/even-the-most-advanced-ai-models-fail-more-often-than-you-think-on-structured-outputs-raising-doubts-about-the-effectiveness-of-coding-assistants",
-        "https://www.techradar.com/pro/scaling-smart-how-llm-developers-are-solving-multi-agent-orchestration-bottlenecks",
-        "https://www.techradar.com/pro/the-reality-is-that-not-every-task-requires-the-most-advanced-or-expensive-model-available-snowflake-explains-why-finding-the-right-ai-model-can-make-all-the-difference-in-helping-your-business-succeed",
-        "https://www.techradar.com/pro/we-were-highly-skeptical-about-the-cost-of-ai-revolut-reveals-it-cut-ai-coding-costs-by-cutting-out-claude-entirely",
-        "https://www.tomshardware.com/tech-industry/artificial-intelligence/chinas-open-weight-ai-models-are-now-just-4-months-behind-frontier-us-offerings-mozilla-report-claims-models-still-lag-in-some-benchmarks-but-are-drastically-cheaper-to-use",
-        "https://www2.eecs.berkeley.edu/Pubs/TechRpts/2025/EECS-2025-77.pdf"
+        "https://chirgwin.cl/en/chile-advances-the-implementation-of-its-open-finance-system/",
+        "https://cincodias.elpais.com/companias/2025-04-23/nalba-advisors-entra-en-la-fiebre-de-compras-de-consultoras-tecnologicas-al-hacerse-con-deep-payments.html",
+        "https://econosur.org/insights/chile/saas/",
+        "https://elpais.com/america/termometro-social/2024-10-07/digitalizacion-financiera-en-america-latina-enfrenta-nueva-era-de-transformacion-y-oportunidades.html",
+        "https://elpais.com/chile/2025-07-04/los-pagos-con-tarjetas-telefonos-y-plataformas-digitales-ganan-terreno-en-chile.html",
+        "https://es.wikipedia.org/wiki/Fapro",
+        "https://www.carey.cl/en/cmf-amends-ncg-no-514-and-incorporates-technical-standards-for-the-implementation-of-the-open-finance-system",
+        "https://www.cgap.org/research/publication/open-finance-oversight-and-supervision-emerging-practices-and-early-lessons",
+        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-100979_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/articles-102547_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-112955.html?trk=public_post_comment-text",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://www.cmfchile.cl/portal/principal/613/articles-100816_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/623/articles-82752_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-77242.html",
+        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640",
+        "https://www.itpro.com/business/business-strategy/workday-expands-emea-var-ecosystem-with-hr-path-uk-and-i-partnership",
+        "https://www.mastercard.us/content/dam/public/mastercardcom/na/us/en/fintech/documents/fintech-radar-chile-report.pdf",
+        "https://www.reddit.com/r/ChileStartup/comments/1w7crw8/autopromoci%C3%B3n_fintrace_flujo_de_caja_inteligente/",
+        "https://www.reddit.com/r/FinanzasChile/comments/1xm4k1y/somos_los_fundadores_de_savemoney_la_app_que_te/",
+        "https://www.reddit.com/r/fintech/comments/1s87280/at_what_point_does_automating_kyc_actually_make/",
+        "https://www.techradar.com/pro/how-fintech-designed-interoperable-systems-that-actually-work"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_87d70e9d9dcf089b8b01",
+      "candidate_id": "opp_d52a4c290d45b663a6f3",
       "coercions": []
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_87d70e9d9dcf089b8b01",
+      "candidate_id": "opp_d52a4c290d45b663a6f3",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -192,7 +171,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_87d70e9d9dcf089b8b01",
+      "candidate_id": "opp_d52a4c290d45b663a6f3",
       "coercions": []
     }
   ],
@@ -200,44 +179,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 213,
-      "cache_write_tokens": 5431,
+      "reasoning_tokens": 273,
+      "cache_write_tokens": 5476,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01417295,
+      "cumulative_cost_usd": 0.0146478,
       "model": "gpt-5.6-luna",
-      "input_tokens": 14017,
+      "input_tokens": 13992,
       "cached_tokens": 0,
-      "output_tokens": 915,
+      "output_tokens": 1313,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01417295
+      "estimated_cost_usd": 0.0146478
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 148,
-      "cache_write_tokens": 5511,
+      "reasoning_tokens": 154,
+      "cache_write_tokens": 5238,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0287755,
+      "cumulative_cost_usd": 0.0291385,
       "model": "gpt-5.6-luna",
-      "input_tokens": 14171,
+      "input_tokens": 13614,
       "cached_tokens": 0,
-      "output_tokens": 1244,
+      "output_tokens": 1255,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01460255
+      "estimated_cost_usd": 0.0144907
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 82,
-      "cache_write_tokens": 3886,
+      "reasoning_tokens": 50,
+      "cache_write_tokens": 3091,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0450005,
+      "cumulative_cost_usd": 0.04394,
       "model": "gpt-5.6-terra",
-      "input_tokens": 3889,
+      "input_tokens": 3094,
       "cached_tokens": 0,
-      "output_tokens": 542,
+      "output_tokens": 589,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.016225
+      "estimated_cost_usd": 0.0148015
     }
   ]
 }

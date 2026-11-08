@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-11-08T04:28:01.712368+00:00
+Generated: 2026-11-08T14:46:46.175302+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 179 (0 HQ survivors, 179 watches)
-- Rejected opportunities excluded: 102
-- Critic-and-judge reviewed: 83
+- Active research: 180 (0 HQ survivors, 180 watches)
+- Rejected opportunities excluded: 103
+- Critic-and-judge reviewed: 84
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -733,6 +733,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
 
+### Open-finance implementation-readiness toolkit for Chilean fintech software vendors [opp_d52a4c290d45b663a6f3]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: The near-term opportunity is not selling live account aggregation or payment initiation. A safer wedge is a reusable implementation-readiness asset: requirements matrix, consent-flow checklist, test-case library, data-field mapping and vendor-readiness assessment based on the published technical annex. Revenue would depend on finding software vendors that need preparation before the regulatory start date; no buyer demand or price was verified.
+- Value capture: License or sell a standardized compliance-engineering workbook and test pack to Chilean fintech or vertical-software teams preparing for OFS participation. Do not claim regulatory advice, certification, access to bank APIs, or permission to use CMF materials beyond what the source licenses allow.
+- Participation hypothesis: Download and review the CMF technical materials, verify reuse and licensing terms, then create a small sample containing only public requirements and a traceability matrix. Contact Chilean fintechs or software vendors through public company channels and offer a paid 60-minute review of the sample, without representing it as legal advice. Falsify if no relevant team will provide a real integration scenario or pay for a narrowly scoped readiness review; do not build production connectors before official participant access and technical permission
+- Critic/judge: The proposed wedge is a pre-go-live research/readiness product rather than live aggregation or payment initiation, so it does not presently depend on obtaining legally or technically unavailable participant API access. Official CMF material in the supplied provenance supports that Chile’s Open Finance System has technical specifications, implementation resources, and a July 2027 effective date; the regulatory-change premise is therefore
+- Next evidence gaps: Which specific Chilean entities are obligated, eligible, or commercially motivated to participate in the SFA.; Whether the intended customers are regulated participants, technology vendors serving participants, or consulting firms.; Number of addressable buyers and their implementation budgets.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
+
 ### Permitting and transmission-process modernization is opening a bottleneck-sensitive infrastructure opportunity [opp_7209beea24406589b8bc]
 - Status: WATCH_REQUIRES_VALIDATION | general | United States
 - Thesis: Projects and service providers that reduce permitting time, improve documentation, standardize environmental review, or connect constrained generation and large loads may capture value as grid investment accelerates.
@@ -1343,6 +1353,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html?trk=article-ssr-frontend-pulse_little-text-block
 
+### Chile SFA/APIBox interoperability test harness for fintech participants [opp_f3ae66d425cfc84e615e]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Entities intending to participate in Chile's Open Finance System have a defined implementation deadline and a public test environment. This creates a narrow need for integration-validation assets rather than generic fintech consulting.
+- Value capture: A small operator could build a reusable, narrowly scoped test harness that validates API requests, consent flows, authentication, error handling and participant-directory interactions against ATENA/APIBox test specifications. Possible cash-flow sources are participating fintechs, financial institutions or implementation vendors, but no buyer, price or procurement commitment was verified.
+- Participation hypothesis: Download the CMF technical specifications and use the publicly described ATENA/APIBox environment to implement one minimal conformance test covering a single data-access or payment-initiation flow. Publish the reproducible test output and contact listed ecosystem participants or implementation vendors only after confirming that the sandbox permits the proposed use. Lowest-cost falsification: spend one day determining whether public test credentials, documentation and test endpoints are actually available; if not, return zero rather than selling
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
 ### Chile SFA/ATENA conformance test harness for early interoperability testing [opp_31dfdad2eb2f74b28e49]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: Participants may need repeatable testing of API interoperability, directory participation and payment-initiation flows before production compliance. The evidence supports a narrowly scoped testing asset, not a general consulting business.
@@ -1592,16 +1612,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://jobs.telusdigital.com/search/cfm3/russian-spanish/cfm5/ai-community/jobs/in/country/chile?ns_category=artificial-intelligence; https://jobs.telusdigital.com/fr/jobs/18154785-online-data-analyst-chile
-
-### Open-finance implementation-readiness toolkit for Chilean fintech software vendors [opp_d52a4c290d45b663a6f3]
-- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
-- Thesis: The near-term opportunity is not selling live account aggregation or payment initiation. A safer wedge is a reusable implementation-readiness asset: requirements matrix, consent-flow checklist, test-case library, data-field mapping and vendor-readiness assessment based on the published technical annex. Revenue would depend on finding software vendors that need preparation before the regulatory start date; no buyer demand or price was verified.
-- Value capture: License or sell a standardized compliance-engineering workbook and test pack to Chilean fintech or vertical-software teams preparing for OFS participation. Do not claim regulatory advice, certification, access to bank APIs, or permission to use CMF materials beyond what the source licenses allow.
-- Participation hypothesis: Download and review the CMF technical materials, verify reuse and licensing terms, then create a small sample containing only public requirements and a traceability matrix. Contact Chilean fintechs or software vendors through public company channels and offer a paid 60-minute review of the sample, without representing it as legal advice. Falsify if no relevant team will provide a real integration scenario or pay for a narrowly scoped readiness review; do not build production connectors before official participant access and technical permission
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
 
 ### Organic-crop robotic weeding retrofit and ROI trial [opp_4c867bb6e2a52712c785]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States
