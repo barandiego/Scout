@@ -1,15 +1,15 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-07T23:25:25.478234+00:00
+Generated: 2026-11-08T04:28:01.316604+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['inventoryless_product_validation', 'fixed_scope_paid_research_asset', 'geographic_arbitrage']
-- raw_candidates: 0
-- parseable_candidates: 0
-- normalized_candidates: 0
+- lenses: ['ai_open_source', 'public_markets', 'physical_commerce']
+- raw_candidates: 1
+- parseable_candidates: 1
+- normalized_candidates: 1
 - normalization_rejected: 0
-- grounded_sources: 0
+- grounded_sources: 3
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
@@ -20,9 +20,9 @@ Generated: 2026-11-07T23:25:25.478234+00:00
 - rejected: 1
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.04272885
+- cost_usd: 0.0450005
 - cost_uncertain: False
-- budget_remaining_usd: 0.03727115
+- budget_remaining_usd: 0.0349995
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -56,7 +56,7 @@ No survivors. Scout does not manufacture a daily winner.
 ```json
 {
   "notes": [
-    "deep_review_lane=backlog",
+    "deep_review_lane=fresh",
     "research_queue_unreviewed=87"
   ],
   "stages": [
@@ -65,89 +65,126 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 40,
+      "grounded_source_count": 41,
       "search_source_urls": [
-        "https://apnews.com/article/e78ccd51a7f66099d84fda885d2907a3",
-        "https://catalogo.innovacionsantiago.cl/",
-        "https://cnc.cl/wp-content/uploads/2026/03/CNC-INFORME-VENTAS-ONLINE-DEL-RETAIL-Cuarto-Trimestre-2025.pdf",
-        "https://datario.cl/precios",
-        "https://elpais.com/chile/2024-09-11/cuanto-dinero-gastaran-y-que-productos-compraran-los-chilenos-en-las-fiestas-patrias.html",
-        "https://elpais.com/chile/2025-06-02/cyber-day-2025-en-chile-las-ofertas-y-las-marcas-que-participan-del-evento.html",
-        "https://elpais.com/chile/2025-06-24/el-consumo-de-plasticos-crece-en-un-7-en-chile-impulsado-por-la-mineria-y-la-agricultura.html",
-        "https://en.wikipedia.org/wiki/Demographics_of_Chile",
-        "https://en.wikipedia.org/wiki/Economy_of_Chile",
-        "https://en.wikipedia.org/wiki/MercadoLibre",
-        "https://es.wikipedia.org/wiki/Internet_en_Chile",
-        "https://stablobccsprod.blob.core.windows.net/ccs/2026/03/CCS-Ventas-comercio-electronico-2025-.pdf",
-        "https://www.bcentral.cl/es/w/el-crecimiento-del-comercio-electronico-en-chile",
-        "https://www.ccs.cl/2025/09/29/ventas-online-alcanzaron-los-us-4-725-millones-al-primer-semestre-de-2025/",
-        "https://www.ccs.cl/ecommerce/comercio-electronico-chile-us2500-millones-primer-trimestre-2026/",
-        "https://www.ccs.cl/estudios-y-publicaci/comercio-electronico-bordeo-los-us-10-mil-millones-en-2025/",
-        "https://www.cencosud.com/cencosud/site/docs/20260203/20260203165740/press_release_cencosud_4q25__eng_.pdf",
-        "https://www.chileatiende.gob.cl/fichas/4201-pagar-derechos-aduaneros-por-importaciones-realizadas-via-postal",
-        "https://www.chileatiende.gob.cl/fichas/4201/1/pdf",
-        "https://www.fne.gob.cl/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-plataformas/",
-        "https://www.fne.gob.cl/wp-content/uploads/2026/04/FNE_Informe_Preliminar_EM_Comercio_Electronico_EM10_2024.pdf",
-        "https://www.mercadolibre.cl/mas-vendidos/",
-        "https://www.reddit.com/r/ChileInversiones/comments/1wazljj/chile_ni_siquiera_aparece_como_pa%C3%ADs_individual_en/",
-        "https://www.reddit.com/r/RepublicadeChile/comments/1t2gqew/alguien_ha_comprado_algo_desde_espa%C3%B1a_%C3%BAltimamente/",
-        "https://www.reddit.com/r/RepublicadeChile/comments/1xfgr5r/gente_que_ha_pedido_cosas_internacionales/",
-        "https://www.reddit.com/r/chile/comments/1f4wee0",
-        "https://www.reddit.com/r/chile/comments/1u8djgd/con_el_cintur%C3%B3n_apretado_los_consumidores_en/",
-        "https://www.reddit.com/r/chile/comments/1vjw69u/correos_chile_y_aduana_agosto_2026/",
-        "https://www.reddit.com/r/chile/comments/1vx5l8k/c%C3%B3mo_est%C3%A1_el_tema_de_aduanas/",
-        "https://www.reddit.com/r/chile/comments/1xfgq6b/gente_que_ha_pedido_cosas_internacionales/",
-        "https://www.reddit.com/r/chile/comments/1xqgnnr/experiencias_en_el_mundo_de_importaciones/",
-        "https://www.reddit.com/r/chileIT/comments/18om0aa",
-        "https://www.reddit.com/r/chilegames/comments/1i30qld",
-        "https://www.reddit.com/r/chilegames/comments/1mfcejj",
-        "https://www.sii.cl/destacados/iva_bienes/",
-        "https://www.sii.cl/preguntas_frecuentes/impuestos_mensuales/001_130_1543.htm",
-        "https://www.subtel.gob.cl/wp-content/uploads/2026/02/Informe-Final-Acceso-y-Uso-Internet-2025_03.pdf",
-        "https://www.techradar.com/reviews/bright-data",
-        "https://www.techradar.com/reviews/oxylabs",
-        "https://www.trade.gov/country-commercial-guides/chile-ecommerce"
+        "https://api.cheaperinference.com/",
+        "https://arxiv.org/abs/2603.16458",
+        "https://arxiv.org/abs/2608.14707",
+        "https://arxiv.org/abs/2610.14793",
+        "https://arxiv.org/abs/2611.05392",
+        "https://blogs.nvidia.com/blog/inference-open-source-models-blackwell-reduce-cost-per-token/",
+        "https://en.wikipedia.org/wiki/DeepSpeed",
+        "https://en.wikipedia.org/wiki/Special_situation",
+        "https://github.com/RightNow-AI/inference-cost-truth",
+        "https://go.nuorder.com/hubfs/Reports/Report_StateofB2BCommerce2026.pdf?hsLang=en",
+        "https://inferencex.semianalysis.com/overview?compare=hardware",
+        "https://nvidianews.nvidia.com/_gallery/download_pdf/67d9b9043d63329246996be6/",
+        "https://nvidianews.nvidia.com/news/dynamo-1-0?linkId=100000412797666&ncid=so-inst-639955",
+        "https://terrainlabs.ai/reports/special-situations-aug-27-sep-10-2026",
+        "https://www.axios.com/newsletters/axios-pro-rata-8b88c78a-23fd-4eb9-91bf-466e46447815",
+        "https://www.axios.com/newsletters/axios-pro-rata-fbc6f698-c128-41f0-8173-26843eedd925",
+        "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-july-2026",
+        "https://www.carlyle.com/sites/default/files/2026-05/CAPS-Prospectus-May-2026.pdf",
+        "https://www.census.gov/economic-indicators/e-commerce.html",
+        "https://www.dhl.com/content/dam/dhl/local/global/dhl-ecommerce/documents/pdf/g0-ec-trends-report-2026.pdf",
+        "https://www.digitalocean.com/resources/articles/ai-inference-platforms",
+        "https://www.eesel.ai/blog/deepinfer",
+        "https://www.itpro.com/security/tokenmaxxing-crackdowns-and-ai-cybersecurity-risks",
+        "https://www.itpro.com/software/open-source/open-source-ai-performance-cost-savings-proprietary-models-linux-foundation",
+        "https://www.kiplinger.com/investing/where-to-find-the-top-yields-for-the-rest-of-2026",
+        "https://www.nvidia.com/en-gb/solutions/ai/inference/?modal=sign-up-form",
+        "https://www.reddit.com/r/DeepSeek/comments/1xez5ge/deepseek_opensources_its_inference_framework/",
+        "https://www.reddit.com/r/DeepSeek/comments/1xp0aic/nov_2026_deepseek_pricing_and_feature_research/",
+        "https://www.reddit.com/r/EcommerceCircle/comments/1wfhnnh/us_import_volumes_are_running_higher_than/",
+        "https://www.reddit.com/r/LocalLLM/comments/1xf0xun/i_ran_local_ai_inference_amd_gpu_for_30_days_and/",
+        "https://www.reddit.com/r/LovingOpenSourceAI/comments/1xcuesc/pushing_opensource_ai_further_running_an/",
+        "https://www.reddit.com/r/OpenSourceeAI/comments/1sbpis2/orla_is_an_open_source_framework_that_makes_your/",
+        "https://www.reddit.com/r/PSTH/comments/1xmyvve/ps_call_and_general_state_of_the_disunion/",
+        "https://www.sec.gov/Archives/edgar/data/2104391/000121390026098787/ea0304893-10q_catalyst.htm",
+        "https://www.techradar.com/pro/beware-the-token-trap-why-saving-on-inference-might-put-your-adlc-at-risk",
+        "https://www.techradar.com/pro/the-reality-is-that-not-every-task-requires-the-most-advanced-or-expensive-model-available-snowflake-explains-why-finding-the-right-ai-model-can-make-all-the-difference-in-helping-your-business-succeed",
+        "https://www.techradar.com/pro/we-were-highly-skeptical-about-the-cost-of-ai-revolut-reveals-it-cut-ai-coding-costs-by-cutting-out-claude-entirely",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-ai-releases-weights-for-kimi-k3-firing-a-shot-across-the-bow-of-openai-and-anthropic-open-weight-model-performs-almost-as-well-as-frontier-models-while-being-2-3x-easier-to-run",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/tesla-unveils-ai-accelerator-roadmap-adopts-new-si-branding-in-super-intelligence-push-si6-to-bring-80x-more-compute-performance-dojo-3-headed-to-space",
+        "https://www.wto.org/english/res_e/booksp_e/gtos0326_e.pdf",
+        "https://www.wto.org/english/res_e/statis_e/daily_update_e/merch_volume_2026q1.pdf"
       ]
     },
     {
+      "index": 0,
+      "stage": "normalization",
+      "outcome": "accepted",
+      "reasons": [],
+      "changes": [
+        "contrary_evidence:list_sanitized",
+        "major_risks:list_sanitized",
+        "unknowns:list_sanitized",
+        "falsification_conditions:list_sanitized",
+        "material_update:unknown_false"
+      ],
+      "grounded_sources": 3,
+      "retry_justified": false
+    },
+    {
       "stage": "critic",
-      "candidate_id": "opp_20b079df210ea1d3088c",
+      "candidate_id": "opp_87d70e9d9dcf089b8b01",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 20,
+      "grounded_source_count": 43,
       "search_source_urls": [
-        "https://cincodias.elpais.com/companias/2024-11-20/ferrovial-estudia-demandar-a-chile-tras-ser-excluida-de-un-contrato-de-250-millones.html",
-        "https://electromineria.cl/cne-claves-licitacion-suministro-2026-01-flexibilidad-mercado/",
-        "https://electromineria.cl/cne-llama-licitacion-suministro-2026-01-2835-gwh-clientes-regulados/",
-        "https://elpais.com/chile/2026-07-16/ordenar-la-cuenta-electrica-con-un-cheque-en-blanco.html",
-        "https://elpais.com/chile/branded/2026-03-13/licitacion-publica-internacional-sistema-electrico-nacional-de-transmision-de-chile.html",
-        "https://elpais.com/chile/branded/2026-03-26/licitacion-publica-internacional-sistema-electrico-nacional-de-chile.html",
-        "https://elpais.com/chile/branded/2026-10-20/transemel-convoca-a-licitacion-publica-internacional-para-la-ejecucion-de-cuatro-obras-estrategicas-de-transmision-electrica.html",
-        "https://elpais.com/chile/branded/2026-10-27/interchile-sa-llama-a-licitacion-para-ampliacion-de-obras-en-la-region-de-atacama.html",
-        "https://jdf.cl/cne-aprueba-las-bases-definitivas-de-la-licitacion-de-suministro-2026-01-y-da-inicio-formal-al-proceso/",
-        "https://jdf.cl/en/cne-aprueba-las-bases-definitivas-de-la-licitacion-de-suministro-2026-01-y-da-inicio-formal-al-proceso/",
-        "https://licitacioneselectricas.cl/",
-        "https://renewablesnow.com/news/chile-kicks-off-power-auction-to-contract-2-8-twhyear-under-15-year-ppas-1296382/",
-        "https://www.cne.cl/nuestros-servicios/licitaciones-y-suministros/licitacion-2026/",
-        "https://www.cne.cl/prensa/prensa-2026/07-julio-2026/renmad-chile-2026-presentamos-los-principales-desafios-y-oportunidades-de-la-licitacion-de-suministro-2026-01/",
-        "https://www.cne.cl/prensa/prensa-2026/10-octubre-2026/publicacion-informe-final-licitaciones-2026/",
-        "https://www.cne.cl/wp-content/uploads/2025/12/Comunicado-CNE-Apertura-Ofertas-Economicas-Licitacion-Electrica-202502_final.pdf",
-        "https://www.cne.cl/wp-content/uploads/2026/06/RE-CNE-N292.pdf",
-        "https://www.emb.cl/electroindustria/noticia.mvc?nid=20260721w1",
-        "https://www.enerdata.net/publications/daily-energy-news/chile-launches-28-twh-power-supply-tender-renewables-and-storage.html",
-        "https://www.publicnow.com/view/8798F087AA0E003BDE75087BC95395307D8764E2"
+        "https://arxiv.org/abs/2602.12247",
+        "https://arxiv.org/abs/2603.15118",
+        "https://arxiv.org/abs/2604.25359",
+        "https://arxiv.org/abs/2608.18289",
+        "https://assets.claude.com/5633dc848caa431115468f31c7085d695bbfb9cc.pdf",
+        "https://boundless.network/pricing",
+        "https://dbhurley.com/papers/plasmate-webtaskbench-paper.pdf",
+        "https://docs.digitalocean.com/products/inference/details/pricing/",
+        "https://ernd.ai/inference-prices",
+        "https://github.com/abimaelmartell/ExtractBench",
+        "https://infragentic.ai/llm-pricing",
+        "https://nvidianews.nvidia.com/_gallery/download_pdf/69b86a843d6332324a2eb4ca/",
+        "https://openreview.net/pdf?id=MtyXaOjlUa",
+        "https://packet.ai/blog/token-factory-llm-inference-api",
+        "https://perspectives.nvidia.com/ai-infrastructure/total-cost-of-ownership/task/faq/cost-per-1m-tokens-vendor-comparison-latency/",
+        "https://savrn.com/ai-index/pricing/open-models",
+        "https://www.axios.com/2026/10/28/ai-open-ai-token-prices",
+        "https://www.bertelsmann-stiftung.de/fileadmin/files/BSt/Publikationen/GrauePublikationen/AI_Value_Creation_and_Open-Weight_Models.pdf",
+        "https://www.extend.ai/resources/long-array-extraction-benchmark",
+        "https://www.itpro.com/security/open-weight-models-are-closing-the-capability-gap-with-frontier-models-at-a-fraction-of-the-cost-cheap-chinese-ai-models-could-spell-trouble-for-us-big-tech",
+        "https://www.itpro.com/security/tokenmaxxing-crackdowns-and-ai-cybersecurity-risks",
+        "https://www.mercatus-ai.com/blog/glm-5-3-flash-api-pricing",
+        "https://www.reddit.com/r/AIDeveloperNews/comments/1wvxb2a/datalab_released_an_open_benchmark_for_structured/",
+        "https://www.reddit.com/r/DeepSeek/comments/1vyy7lb/196m_tokens_on_deepseek_v4_flash_0731_full_weight/",
+        "https://www.reddit.com/r/LangChain/comments/1wz9wj2/aplomb_1_openweights_53b_decision_model_qwen354b/",
+        "https://www.reddit.com/r/LocalLLM/comments/1x40lkv/followup_decision_models_vs_local_llms_i_counted/",
+        "https://www.reddit.com/r/OpenSourceeAI/comments/1wvxafs/datalab_released_an_open_benchmark_for_structured/",
+        "https://www.reddit.com/r/Qwen_AI/comments/1wz9def/aplomb_1_openweights_53b_decision_model_qwen354b/",
+        "https://www.reddit.com/r/Rag/comments/1wy0mgx/i_compared_embedding_costs_for_a_rag_pipeline/",
+        "https://www.reddit.com/r/hermesagent/comments/1w3ghs1/august_cloud_model_megathread/",
+        "https://www.reddit.com/r/learndatascience/comments/1sritmq/comparison_of_5_opensource_llms_on_a_realworld/",
+        "https://www.reddit.com/r/machinelearningnews/comments/1wvx9eg/datalab_releases_omniextractbench_to_fix_bias_and/",
+        "https://www.reddit.com/r/ollama/comments/1v3ffgo/nuextract3_is_now_available_on_ollama_4b_vlm_for/",
+        "https://www.reddit.com/r/openrouter/comments/1o1jwyv/token_pricing/",
+        "https://www.sciencedirect.com/science/article/pii/S2590005626004418",
+        "https://www.stackspend.app/blog/model-selection/llm-model-pricing-august-2026",
+        "https://www.techradar.com/pro/deepseek-ai-review",
+        "https://www.techradar.com/pro/even-the-most-advanced-ai-models-fail-more-often-than-you-think-on-structured-outputs-raising-doubts-about-the-effectiveness-of-coding-assistants",
+        "https://www.techradar.com/pro/scaling-smart-how-llm-developers-are-solving-multi-agent-orchestration-bottlenecks",
+        "https://www.techradar.com/pro/the-reality-is-that-not-every-task-requires-the-most-advanced-or-expensive-model-available-snowflake-explains-why-finding-the-right-ai-model-can-make-all-the-difference-in-helping-your-business-succeed",
+        "https://www.techradar.com/pro/we-were-highly-skeptical-about-the-cost-of-ai-revolut-reveals-it-cut-ai-coding-costs-by-cutting-out-claude-entirely",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/chinas-open-weight-ai-models-are-now-just-4-months-behind-frontier-us-offerings-mozilla-report-claims-models-still-lag-in-some-benchmarks-but-are-drastically-cheaper-to-use",
+        "https://www2.eecs.berkeley.edu/Pubs/TechRpts/2025/EECS-2025-77.pdf"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_20b079df210ea1d3088c",
-      "coercions": [
-        "critic_case"
-      ]
+      "candidate_id": "opp_87d70e9d9dcf089b8b01",
+      "coercions": []
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_20b079df210ea1d3088c",
+      "candidate_id": "opp_87d70e9d9dcf089b8b01",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -155,7 +192,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_20b079df210ea1d3088c",
+      "candidate_id": "opp_87d70e9d9dcf089b8b01",
       "coercions": []
     }
   ],
@@ -163,44 +200,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 186,
-      "cache_write_tokens": 4922,
+      "reasoning_tokens": 213,
+      "cache_write_tokens": 5431,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0131511,
+      "cumulative_cost_usd": 0.01417295,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13343,
+      "input_tokens": 14017,
       "cached_tokens": 0,
-      "output_tokens": 197,
+      "output_tokens": 915,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0131511
+      "estimated_cost_usd": 0.01417295
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 193,
-      "cache_write_tokens": 5349,
+      "reasoning_tokens": 148,
+      "cache_write_tokens": 5511,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02778935,
+      "cumulative_cost_usd": 0.0287755,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13472,
+      "input_tokens": 14171,
       "cached_tokens": 0,
-      "output_tokens": 1397,
+      "output_tokens": 1244,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01463825
+      "estimated_cost_usd": 0.01460255
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 66,
-      "cache_write_tokens": 3223,
+      "reasoning_tokens": 82,
+      "cache_write_tokens": 3886,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.04272885,
+      "cumulative_cost_usd": 0.0450005,
       "model": "gpt-5.6-terra",
-      "input_tokens": 3226,
+      "input_tokens": 3889,
       "cached_tokens": 0,
-      "output_tokens": 573,
+      "output_tokens": 542,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.0149395
+      "estimated_cost_usd": 0.016225
     }
   ]
 }
