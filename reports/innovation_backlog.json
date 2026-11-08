@@ -2592,6 +2592,43 @@
     },
     {
       "capital_required_unverified_estimate": "",
+      "category": "innovation_adoption",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Create a simulated ledger containing 20 Russell-1000/ETF instruments and model tokenization eligibility, transfer restrictions, settlement state and corporate-action exceptions using only public SEC/DTC/Nasdaq documents. Demonstrate the workflow to compliance or operations contacts at firms publicly involved in digital-asset infrastructure; do not seek production access. Falsification: if practitioners identify no recurring reconciliation problem or will not provide a paid design-partner commitment, stop.",
+      "current_thesis": "The actionable bottleneck is not issuing another token; it is operational reconciliation across the legal security, custodian record, token representation, eligibility rules, settlement status and corporate actions. A small operator can test a narrow reconciliation or monitoring tool against public filings and simulated records.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Tokenized-securities operational tooling around DTC/Nasdaq eligibility and settlement",
+      "opportunity_id": "opp_9d4e99f06f1152af5831",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a real technical capability not yet adopted in one buyer's high-value workflow.",
+        "Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.",
+        "Measure the fully loaded operating cost, human exceptions and distribution against the status quo."
+      ],
+      "supporting_source_urls": [
+        "https://www.sec.gov/rules-regulations/self-regulatory-organization-rulemaking/sr-nasdaq-2025-072",
+        "https://www.sec.gov/files/rules/sro/nysetex/2026/34-105338.pdf",
+        "https://www.fdic.gov/news/press-releases/2026/agencies-clarify-capital-treatment-tokenized-securities"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Build a read-only evidence and exception-monitoring workflow for tokenized-security eligibility, corporate actions or off-chain/on-chain record reconciliation. Potential payers include broker-dealers, custodians, venues or vendors, but no buyer or price is established by the evidence.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
@@ -5885,6 +5922,43 @@
       "category": "physical_distribution",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Select one DOE-funded project category and build a 20-record map from DOE award pages, project documents and vendor technical literature. Send the map to publicly listed project or laboratory contacts with a request to validate three missing supplier requirements; do not claim representation or procurement authority. Falsification: if 10 targeted contacts produce no validation call, request for information or permission to submit a paid sourcing brief, stop.",
+      "current_thesis": "Newly funded pilot projects create near-term procurement and qualification needs for equipment, analytical services, feedstock, reagents, engineering subcontractors and offtake validation. USGS reports 100% U.S. net import reliance for natural graphite, 67% for rare-earth compounds/metals and more than 50% for lithium.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Supplier and pilot-partner mapping for DOE-funded critical-minerals projects",
+      "opportunity_id": "opp_f905ced79c43ae076ab8",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Compare local product availability to supplier catalogs and independent consumer interest.",
+        "Check import, tax, return, certification and delivery economics before estimating margin.",
+        "Try a legitimate pre-order/waitlist test with transparent fulfillment conditions."
+      ],
+      "supporting_source_urls": [
+        "https://www.energy.gov/cmei/ammto/critical-minerals-and-materials-accelerator-0",
+        "https://www.energy.gov/cmei/articles/does-office-critical-minerals-and-energy-innovation-awards-75-million-accelerate",
+        "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Create a narrowly scoped, evidence-backed supplier and partner map for one DOE project class—such as rare-earth recovery from coal ash or direct lithium extraction—covering named project teams, technical requirements, relevant vendors, qualification status and public contact routes. Monetization is unverified; the first economic test is whether project teams request introductions, specifications or paid diligence.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "physical_distribution",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Select one local facility type and compile a list of publicly identifiable sites with large hard-floor areas. Send a factual one-page pilot brief referencing the provider’s published RaaS price and request permission to forward the inquiry to the provider. Run one no-cost discovery call or site walk only after the facility expresses interest; stop if no facility agrees to discuss floor area, cleaning labor, or a pilot. Do not represent the provider, promise savings, or purchase a robot without written authorization.",
       "current_thesis": "The offer creates a concrete procurement and pilot mechanism for warehouses, supermarkets, offices, clinics, and hotels that may prefer a monthly operating expense over capital purchase. The evidence verifies an available offer, not unmet demand or customer savings.",
       "founder_hours_initial_unverified_estimate": "",
@@ -6866,7 +6940,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-08T14:46:46.333490+00:00",
+  "generated_at": "2026-11-08T20:12:25.538487+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

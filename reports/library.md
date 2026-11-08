@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-11-08T14:46:46.175302+00:00
+Generated: 2026-11-08T20:12:25.415250+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 180 (0 HQ survivors, 180 watches)
-- Rejected opportunities excluded: 103
+- Active research: 182 (0 HQ survivors, 182 watches)
+- Rejected opportunities excluded: 104
 - Critic-and-judge reviewed: 84
 - Autonomous execution authorization: 0
 
@@ -1102,6 +1102,26 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://energia.gob.cl/consultas-publicas/modificaciones-al-reglamento-ds-ndeg88-para-medios-de-generacion-de-pequena-escala; https://iea.blob.core.windows.net/assets/48eccb83-984c-45d2-bf78-67a61e88d241/Renewables2025.pdf; https://energia.gob.cl/iniciativas/rebaja-del-umbral-para-optar-al-regimen-de-clientes-libres
+
+### Supplier and pilot-partner mapping for DOE-funded critical-minerals projects [opp_f905ced79c43ae076ab8]
+- Status: WATCH_REQUIRES_VALIDATION | physical_distribution | United States
+- Thesis: Newly funded pilot projects create near-term procurement and qualification needs for equipment, analytical services, feedstock, reagents, engineering subcontractors and offtake validation. USGS reports 100% U.S. net import reliance for natural graphite, 67% for rare-earth compounds/metals and more than 50% for lithium.
+- Value capture: Create a narrowly scoped, evidence-backed supplier and partner map for one DOE project class—such as rare-earth recovery from coal ash or direct lithium extraction—covering named project teams, technical requirements, relevant vendors, qualification status and public contact routes. Monetization is unverified; the first economic test is whether project teams request introductions, specifications or paid diligence.
+- Participation hypothesis: Select one DOE-funded project category and build a 20-record map from DOE award pages, project documents and vendor technical literature. Send the map to publicly listed project or laboratory contacts with a request to validate three missing supplier requirements; do not claim representation or procurement authority. Falsification: if 10 targeted contacts produce no validation call, request for information or permission to submit a paid sourcing brief, stop.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.energy.gov/cmei/ammto/critical-minerals-and-materials-accelerator-0; https://www.energy.gov/cmei/articles/does-office-critical-minerals-and-energy-innovation-awards-75-million-accelerate; https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf
+
+### Tokenized-securities operational tooling around DTC/Nasdaq eligibility and settlement [opp_9d4e99f06f1152af5831]
+- Status: WATCH_REQUIRES_VALIDATION | innovation_adoption | United States
+- Thesis: The actionable bottleneck is not issuing another token; it is operational reconciliation across the legal security, custodian record, token representation, eligibility rules, settlement status and corporate actions. A small operator can test a narrow reconciliation or monitoring tool against public filings and simulated records.
+- Value capture: Build a read-only evidence and exception-monitoring workflow for tokenized-security eligibility, corporate actions or off-chain/on-chain record reconciliation. Potential payers include broker-dealers, custodians, venues or vendors, but no buyer or price is established by the evidence.
+- Participation hypothesis: Create a simulated ledger containing 20 Russell-1000/ETF instruments and model tokenization eligibility, transfer restrictions, settlement state and corporate-action exceptions using only public SEC/DTC/Nasdaq documents. Demonstrate the workflow to compliance or operations contacts at firms publicly involved in digital-asset infrastructure; do not seek production access. Falsification: if practitioners identify no recurring reconciliation problem or will not provide a paid design-partner commitment, stop.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sec.gov/rules-regulations/self-regulatory-organization-rulemaking/sr-nasdaq-2025-072; https://www.sec.gov/files/rules/sro/nysetex/2026/34-105338.pdf; https://www.fdic.gov/news/press-releases/2026/agencies-clarify-capital-treatment-tokenized-securities
 
 ### Transparent used-robot sourcing and pre-purchase inspection for small manufacturers [opp_466390b18f98e532423c]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States

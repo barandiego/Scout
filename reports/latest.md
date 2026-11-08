@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-08T14:46:45.795492+00:00
+Generated: 2026-11-08T20:12:24.996132+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['regulation_infrastructure', 'robotics_automation', 'energy_industrial']
-- raw_candidates: 2
-- parseable_candidates: 2
-- normalized_candidates: 2
+- lenses: ['mining_materials', 'tokenization_finance', 'business_model_migration']
+- raw_candidates: 3
+- parseable_candidates: 3
+- normalized_candidates: 3
 - normalization_rejected: 0
-- grounded_sources: 2
+- grounded_sources: 8
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 1
+- judge_attempts: 0
 - critic_reviews: 1
-- judge_reviews: 1
+- judge_reviews: 0
 - survivors: 0
 - watches: 2
 - rejected: 1
 - errors_by_stage: {}
-- rejection_reasons: {'discarded_ungrounded_url': 2, 'insufficient_unique_evidence': 1, 'no_credible_source_class': 1}
-- cost_usd: 0.04394
+- rejection_reasons: {}
+- cost_usd: 0.04204975
 - cost_uncertain: False
-- budget_remaining_usd: 0.03606
+- budget_remaining_usd: 0.03795025
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,8 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Rare-earth magnet scrap aggregation for U.S. hydrometallurgical recyclers: deferred_by_review_cap
-- Chile SFA interoperability test harness for regulated fintech integrations: deferred_by_review_cap
 - Independent deployment and service layer for agricultural field robots: deferred_by_review_cap
 - Task-specific automation retrofit discovery for small manufacturers: deferred_by_review_cap
 - Chile SFA sandbox and conformance testing for prospective data-consumer fintechs: The regulatory premise is sufficiently grounded: NCG 514 is an official, extant SFA rule and the cited framework includes APIs and testing concepts, so this is not rejected for an unverified regulatory change. The proposed service can plausibly avoid handling production customer data by operating on fictitious-data sandbox workflows, reducing—though not eliminating—the compliance burden. However, the narrow commercial wedge is unproven and threatened by CMF’s ATENA sandbox, published technical guidance, and visible private alternatives. At present there is no evidence that prospective SFA data-consumer firms can grant an external vendor the necessary sandbox credentials, that official tooling lacks the proposed functionality, or that buyers will pay for a reusable product rather than use internal teams or purchase bespoke integration/compliance consulting. This is HQ-worthy only as a tightly falsifiable buyer-and-access validation hypothesis, not as a validated software opportunity.
@@ -51,13 +49,15 @@ No survivors. Scout does not manufacture a daily winner.
 - Small-scale solar-plus-storage connection and compliance support for Chilean regulated customers: deferred_by_review_cap
 - Chile-eligible Spanish AI evaluation and coding-review applications: Primary Outlier pages support a plausible Chile-accessible contractor application path and a clear payer/value-capture mechanism: Outlier pays accepted contributors for completed AI-evaluation or coding-review work. The opportunity is therefore not fabricated and is not structurally closed on the evidence provided. However, it is an application funnel rather than a validated income stream. The cited USD 25/hour figure is explicitly tied to U.S.-Spanish writing experts and cannot be generalized to Chile; acceptance, paid task allocation, weekly hours, continuity, and realized net pay remain unverified. It survives only as a tightly bounded research/test hypothesis, not as a dependable work or business opportunity.
 - Chile SFA/APIBox interoperability test harness for fintech participants: deferred_by_review_cap
+- Supplier and pilot-partner mapping for DOE-funded critical-minerals projects: deferred_by_review_cap
+- Tokenized-securities operational tooling around DTC/Nasdaq eligibility and settlement: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=backlog",
-    "research_queue_unreviewed=87"
+    "deep_review_lane=fresh",
+    "research_queue_unreviewed=89"
   ],
   "stages": [
     {
@@ -65,26 +65,42 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 18,
+      "grounded_source_count": 34,
       "search_source_urls": [
-        "https://ferc.gov/ancillary-services",
-        "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa2.php?numero=530&tiponorma=NCG",
-        "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa_tramite_ver_archivo.php?id=2024041585&seq=1",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html",
-        "https://www.cmfchile.cl/portal/principal/613/articles-77095_doc_pdf.pdf",
+        "https://arxiv.org/abs/2507.14808",
+        "https://arxiv.org/abs/2508.11651",
+        "https://arxiv.org/abs/2606.13822",
+        "https://arxiv.org/abs/2608.25269",
+        "https://home.treasury.gov/system/files/261/FSOC2024AnnualReport.pdf",
+        "https://images.ctfassets.net/k3n74unfin40/6NFrMfE6KZT0ktpIm7F1Jw/a0a22cca82d413e5c45c95f32d8e5491/MktIntel_2026.01.10_Tokenization.pdf",
+        "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf",
+        "https://pubs.usgs.gov/publication/mcs2026?trk=public_post_comment-text",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html",
         "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html",
-        "https://www.ferc.gov/sites/default/files/2026-06/Ancillary%20Services.pdf",
-        "https://www.iea.org/commentaries/battery-storage-is-scaling-up-and-taking-on-a-larger-system-role?_hsmi=421299382",
-        "https://www.iea.org/data-and-statistics/charts/utility-scale-battery-project-costs-vre-share-and-utility-scale-battery-storage-capacity-relative-to-peak-load-by-region-2019-2024",
-        "https://www.iea.org/files/60fcd1dd-d112-469b-87de-20d39227df3d/WorldEnergyInvestment2024.pdf",
-        "https://www.iea.org/reports/electricity-2026/executive-summary",
-        "https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage?__cf_chl_f_tk=3enBvMF_hGNsO9aT4hHBJlkYqiIYaDmUChRkV7rvJfc-1783440994-1.0.1.1-lVakMqlEQo_OyL_zB49nv04l0bzvaVneYdz2QqTut.E",
-        "https://www.iea.org/reports/renewables-2026/executive-summary",
-        "https://www.osha.gov/robotics/standards",
-        "https://www.osha.gov/sites/default/files/OSHA_2024_Work-Related_Injury_and_Illness_Summary.pdf",
-        "https://www.osha.gov/sites/default/files/enforcement/directives/2023_01_STD_02-12-002.pdf"
+        "https://www.crowdfundinsider.com/wp-content/uploads/2026/03/Tokenized-Deposits-March-2026.pdf",
+        "https://www.energy.gov/cmei/ammto/critical-minerals-and-materials-accelerator-0",
+        "https://www.energy.gov/cmei/articles/does-office-critical-minerals-and-energy-innovation-announces-117-million-strengthen",
+        "https://www.energy.gov/cmei/articles/does-office-critical-minerals-and-energy-innovation-announces-295-million-national",
+        "https://www.energy.gov/cmei/articles/does-office-critical-minerals-and-energy-innovation-announces-over-45-million-support",
+        "https://www.energy.gov/cmei/articles/does-office-critical-minerals-and-energy-innovation-awards-75-million-accelerate",
+        "https://www.energy.gov/cmei/manufacturing/battery-materials-processing-grants",
+        "https://www.energy.gov/nepa/articles/cx-036078-infrastructure-investment-and-jobs-act-iija-pilot-scale-domestic-rare-earth",
+        "https://www.ey.com/en_us/financial-services/institutional-digital-assets-survey",
+        "https://www.fdic.gov/news/press-releases/2026/agencies-clarify-capital-treatment-tokenized-securities",
+        "https://www.imf.org/en/news/articles/2026/05/11/sp051126-tokenized-finance-and-money",
+        "https://www.lfdecentralizedtrust.org/ledger-insights-report-2026",
+        "https://www.pwc.ie/publications/2026/tokenisatoin-stablecoins-institutional-defi.pdf",
+        "https://www.sec.gov/about/crypto-task-force/crypto-task-force-written-input/ctf-written-input-securitize-050725",
+        "https://www.sec.gov/about/crypto-task-force/written-submission/written-input-monica-elizabeth-pagano-erc-genesis-090826",
+        "https://www.sec.gov/about/divisions-offices/division-corporation-finance/corpfin-crypto-assets",
+        "https://www.sec.gov/files/rules/sro/nysetex/2026/34-105338.pdf",
+        "https://www.sec.gov/newsroom/speeches-statements/peirce-statement-tokenized-securities-070925",
+        "https://www.sec.gov/newsroom/speeches-statements/uyeda-statement-innovation-exemption-091726",
+        "https://www.sec.gov/rules-regulations/self-regulatory-organization-rulemaking/sr-nasdaq-2025-072",
+        "https://www.usgs.gov/centers/national-minerals-information-center/mineral-commodity-summaries/",
+        "https://www.usgs.gov/data/mineral-commodity-summaries-2026-data-release",
+        "https://www.usgs.gov/news/national-news-release/value-us-mineral-production-rose-last-year-driven-precious-metals-prices",
+        "https://www.whitehouse.gov/wp-content/uploads/2025/07/Digital-Assets-Report-EO14178.pdf"
       ]
     },
     {
@@ -99,17 +115,14 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 2,
+      "grounded_sources": 3,
       "retry_justified": false
     },
     {
       "index": 1,
       "stage": "normalization",
       "outcome": "accepted",
-      "reasons": [
-        "discarded_ungrounded_url",
-        "discarded_ungrounded_url"
-      ],
+      "reasons": [],
       "changes": [
         "contrary_evidence:list_sanitized",
         "major_risks:list_sanitized",
@@ -117,106 +130,89 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 0,
+      "grounded_sources": 2,
+      "retry_justified": false
+    },
+    {
+      "index": 2,
+      "stage": "normalization",
+      "outcome": "accepted",
+      "reasons": [],
+      "changes": [
+        "contrary_evidence:list_sanitized",
+        "major_risks:list_sanitized",
+        "unknowns:list_sanitized",
+        "falsification_conditions:list_sanitized",
+        "material_update:unknown_false"
+      ],
+      "grounded_sources": 3,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_d52a4c290d45b663a6f3",
+      "candidate_id": "opp_5450df02f3e3a6c77f41",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 27,
+      "grounded_source_count": 19,
       "search_source_urls": [
-        "https://chirgwin.cl/en/chile-advances-the-implementation-of-its-open-finance-system/",
-        "https://cincodias.elpais.com/companias/2025-04-23/nalba-advisors-entra-en-la-fiebre-de-compras-de-consultoras-tecnologicas-al-hacerse-con-deep-payments.html",
-        "https://econosur.org/insights/chile/saas/",
-        "https://elpais.com/america/termometro-social/2024-10-07/digitalizacion-financiera-en-america-latina-enfrenta-nueva-era-de-transformacion-y-oportunidades.html",
-        "https://elpais.com/chile/2025-07-04/los-pagos-con-tarjetas-telefonos-y-plataformas-digitales-ganan-terreno-en-chile.html",
-        "https://es.wikipedia.org/wiki/Fapro",
-        "https://www.carey.cl/en/cmf-amends-ncg-no-514-and-incorporates-technical-standards-for-the-implementation-of-the-open-finance-system",
-        "https://www.cgap.org/research/publication/open-finance-oversight-and-supervision-emerging-practices-and-early-lessons",
+        "https://cmfchile.cl/portal/principal/613/articles-102557_recurso_1.pdf",
+        "https://cmfchile.cl/portal/principal/623/w4-article-108561.html",
+        "https://en.wikipedia.org/wiki/Open_finance",
+        "https://lawfice.cl/blog/open-finance-chile-foreign-fintechs/",
+        "https://openfinance.institute/radar",
+        "https://openfinanceconnect.cl/en/",
+        "https://openfinanceconnect.cl/registro-gratuito/",
+        "https://ozoneapi.com/blog/what-our-regional-gms-are-expecting-in-open-finance-this-h2/",
+        "https://ozoneapi.com/the-open-finance-tracker/library/open-finance-system-sistema-de-finanzas-abiertas-sfa-chile/",
+        "https://www.bcentral.cl/documents/d/banco-central/payment-systems-report-august-2023-pdf?download=true",
         "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
-        "https://www.cmfchile.cl/portal/prensa/615/articles-100979_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/articles-102547_doc_pdf.pdf",
         "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-112955.html?trk=public_post_comment-text",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
         "https://www.cmfchile.cl/portal/principal/613/articles-100816_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/623/articles-82752_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html",
+        "https://www.cmfchile.cl/portal/principal/613/articles-92466_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/articles-96504_recurso_1.pdf",
         "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
         "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-77242.html",
-        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640",
-        "https://www.itpro.com/business/business-strategy/workday-expands-emea-var-ecosystem-with-hr-path-uk-and-i-partnership",
-        "https://www.mastercard.us/content/dam/public/mastercardcom/na/us/en/fintech/documents/fintech-radar-chile-report.pdf",
-        "https://www.reddit.com/r/ChileStartup/comments/1w7crw8/autopromoci%C3%B3n_fintrace_flujo_de_caja_inteligente/",
-        "https://www.reddit.com/r/FinanzasChile/comments/1xm4k1y/somos_los_fundadores_de_savemoney_la_app_que_te/",
-        "https://www.reddit.com/r/fintech/comments/1s87280/at_what_point_does_automating_kyc_actually_make/",
-        "https://www.techradar.com/pro/how-fintech-designed-interoperable-systems-that-actually-work"
+        "https://www.fiskil.com/es/open-finance-tracker/chile",
+        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000127/MNCsept26.pdf"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_d52a4c290d45b663a6f3",
-      "coercions": []
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_d52a4c290d45b663a6f3",
-      "response_status": "completed",
-      "incomplete_reason": "",
-      "grounded_source_count": 0,
-      "search_source_urls": []
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_d52a4c290d45b663a6f3",
-      "coercions": []
+      "candidate_id": "opp_5450df02f3e3a6c77f41",
+      "coercions": [
+        "critic_case",
+        "contrary_evidence"
+      ]
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 273,
-      "cache_write_tokens": 5476,
+      "reasoning_tokens": 360,
+      "cache_write_tokens": 5406,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0146478,
+      "cumulative_cost_usd": 0.0270695,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13992,
+      "input_tokens": 22110,
       "cached_tokens": 0,
-      "output_tokens": 1313,
-      "web_search_calls": 1,
-      "estimated_cost_usd": 0.0146478
+      "output_tokens": 1981,
+      "web_search_calls": 2,
+      "estimated_cost_usd": 0.0270695
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 154,
-      "cache_write_tokens": 5238,
+      "reasoning_tokens": 142,
+      "cache_write_tokens": 5217,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0291385,
+      "cumulative_cost_usd": 0.04204975,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13614,
+      "input_tokens": 13655,
       "cached_tokens": 0,
-      "output_tokens": 1255,
+      "output_tokens": 1657,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0144907
-    },
-    {
-      "stage": "judge",
-      "available": true,
-      "reasoning_tokens": 50,
-      "cache_write_tokens": 3091,
-      "accounting_notes": [],
-      "cumulative_cost_usd": 0.04394,
-      "model": "gpt-5.6-terra",
-      "input_tokens": 3094,
-      "cached_tokens": 0,
-      "output_tokens": 589,
-      "web_search_calls": 0,
-      "estimated_cost_usd": 0.0148015
+      "estimated_cost_usd": 0.01498025
     }
   ]
 }

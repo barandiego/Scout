@@ -8925,6 +8925,128 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-08T20:12:07.612270+00:00",
+      "discovery_lens": "mining_materials",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "DOE announced a funding opportunity of up to $69 million for industry-led critical-materials processing pilots, including rare-earth and direct-lithium-extraction topics.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Critical Minerals and Materials Accelerator",
+          "url": "https://www.energy.gov/cmei/ammto/critical-minerals-and-materials-accelerator-0"
+        },
+        {
+          "claim": "DOE selected five pilot projects intended to recover rare earth elements and other critical materials from coal and coal-based feedstocks.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "DOE awards $75 million for critical-minerals recovery from coal and coal-based feedstocks",
+          "url": "https://www.energy.gov/cmei/articles/does-office-critical-minerals-and-energy-innovation-awards-75-million-accelerate"
+        },
+        {
+          "claim": "USGS reports 2025 U.S. net import reliance of 100% for natural graphite, 67% for rare-earth compounds and metals, and more than 50% for lithium.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Mineral Commodity Summaries 2026",
+          "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.88,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_f905ced79c43ae076ab8",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-08T20:12:07.702197+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Select one DOE-funded project category and build a 20-record map from DOE award pages, project documents and vendor technical literature. Send the map to publicly listed project or laboratory contacts with a request to validate three missing supplier requirements; do not claim representation or procurement authority. Falsification: if 10 targeted contacts produce no validation call, request for information or permission to submit a paid sourcing brief, stop.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Newly funded pilot projects create near-term procurement and qualification needs for equipment, analytical services, feedstock, reagents, engineering subcontractors and offtake validation. USGS reports 100% U.S. net import reliance for natural graphite, 67% for rare-earth compounds/metals and more than 50% for lithium.",
+      "title": "Supplier and pilot-partner mapping for DOE-funded critical-minerals projects",
+      "type": "public_funding_catalyst",
+      "unknowns": [],
+      "value_capture_mechanism": "Create a narrowly scoped, evidence-backed supplier and partner map for one DOE project class—such as rare-earth recovery from coal ash or direct lithium extraction—covering named project teams, technical requirements, relevant vendors, qualification status and public contact routes. Monetization is unverified; the first economic test is whether project teams request introductions, specifications or paid diligence.",
+      "verified_sales": null,
+      "vertical": "physical_distribution",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-11-08T20:12:07.614277+00:00",
+      "discovery_lens": "tokenization_finance",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "SEC records show Nasdaq proposed rules for tokenized securities and subsequent SEC proceedings through March 18, 2026.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "SEC Nasdaq proposal for trading securities in tokenized form",
+          "url": "https://www.sec.gov/rules-regulations/self-regulatory-organization-rulemaking/sr-nasdaq-2025-072"
+        },
+        {
+          "claim": "The proposal describes DTC tokenization and post-trade infrastructure, with eligibility limited to specified Russell 1000 securities and major-index ETFs in the pilot.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "SEC/DTC tokenization proposal details",
+          "url": "https://www.sec.gov/files/rules/sro/nysetex/2026/34-105338.pdf"
+        },
+        {
+          "claim": "The FDIC, Federal Reserve Board and OCC stated that eligible tokenized securities generally receive the same capital treatment as the non-tokenized form and that capital rules are technology neutral.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Agencies clarify capital treatment of tokenized securities",
+          "url": "https://www.fdic.gov/news/press-releases/2026/agencies-clarify-capital-treatment-tokenized-securities"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_9d4e99f06f1152af5831",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-08T20:12:07.702446+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Create a simulated ledger containing 20 Russell-1000/ETF instruments and model tokenization eligibility, transfer restrictions, settlement state and corporate-action exceptions using only public SEC/DTC/Nasdaq documents. Demonstrate the workflow to compliance or operations contacts at firms publicly involved in digital-asset infrastructure; do not seek production access. Falsification: if practitioners identify no recurring reconciliation problem or will not provide a paid design-partner commitment, stop.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The actionable bottleneck is not issuing another token; it is operational reconciliation across the legal security, custodian record, token representation, eligibility rules, settlement status and corporate actions. A small operator can test a narrow reconciliation or monitoring tool against public filings and simulated records.",
+      "title": "Tokenized-securities operational tooling around DTC/Nasdaq eligibility and settlement",
+      "type": "market-infrastructure_catalyst",
+      "unknowns": [],
+      "value_capture_mechanism": "Build a read-only evidence and exception-monitoring workflow for tokenized-security eligibility, corporate actions or off-chain/on-chain record reconciliation. Potential payers include broker-dealers, custodians, venues or vendors, but no buyer or price is established by the evidence.",
+      "verified_sales": null,
+      "vertical": "innovation_adoption",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-23T09:06:55.339259+00:00",
       "discovery_lens": "adoption_lag",
       "estimated_capital": "",
@@ -12765,13 +12887,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-08T14:46:46.175302+00:00",
+  "generated_at": "2026-11-08T20:12:25.415250+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 103,
+  "rejected_excluded": 104,
   "reviewed_cards": 84,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 283,
-  "watch": 180
+  "total_distinct_opportunities": 286,
+  "watch": 182
 }

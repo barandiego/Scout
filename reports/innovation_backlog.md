@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 180
+Candidates: 182
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -831,6 +831,18 @@ Candidates: 180
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://github.com/DocuPipe/DocuBench; https://github.com/mborges-dev/extraction-evals
+
+## Tokenized-securities operational tooling around DTC/Nasdaq eligibility and settlement
+- Status: watch | innovation_adoption
+- Current idea: The actionable bottleneck is not issuing another token; it is operational reconciliation across the legal security, custodian record, token representation, eligibility rules, settlement status and corporate actions. A small operator can test a narrow reconciliation or monitoring tool against public filings and simulated records.
+- Potential economic capture: Build a read-only evidence and exception-monitoring workflow for tokenized-security eligibility, corporate actions or off-chain/on-chain record reconciliation. Potential payers include broker-dealers, custodians, venues or vendors, but no buyer or price is established by the evidence.
+- **Research routes to test (NOT validated claims):**
+  - Identify a real technical capability not yet adopted in one buyer's high-value workflow.
+  - Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.
+  - Measure the fully loaded operating cost, human exceptions and distribution against the status quo.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.sec.gov/rules-regulations/self-regulatory-organization-rulemaking/sr-nasdaq-2025-072; https://www.sec.gov/files/rules/sro/nysetex/2026/34-105338.pdf; https://www.fdic.gov/news/press-releases/2026/agencies-clarify-capital-treatment-tokenized-securities
 
 ## ATENA interoperability smoke-test harness for Chilean Open Finance participants
 - Status: watch | open_finance_chile
@@ -1851,6 +1863,18 @@ Candidates: 180
 - Critical gaps: Whether any U.S. processor will review or purchase the proposed material stream from a new intermediary.; Exact feedstock chemistry, rare-earth content, contamination profile, moisture, coatings, and recovery yield.; Minimum acceptable lot size and delivered-cost ceiling for each potential buyer.
 - Possible initial budget:
 - Source URLs: https://pubs.usgs.gov/periodicals/mcs2025/mcs2025_ver.1.0.pdf; https://pubs.usgs.gov/periodicals/mcs2025/mcs2025.pdf
+
+## Supplier and pilot-partner mapping for DOE-funded critical-minerals projects
+- Status: watch | physical_distribution
+- Current idea: Newly funded pilot projects create near-term procurement and qualification needs for equipment, analytical services, feedstock, reagents, engineering subcontractors and offtake validation. USGS reports 100% U.S. net import reliance for natural graphite, 67% for rare-earth compounds/metals and more than 50% for lithium.
+- Potential economic capture: Create a narrowly scoped, evidence-backed supplier and partner map for one DOE project class—such as rare-earth recovery from coal ash or direct lithium extraction—covering named project teams, technical requirements, relevant vendors, qualification status and public contact routes. Monetization is unverified; the first economic test is whether project teams request introductions, specifications or paid diligence.
+- **Research routes to test (NOT validated claims):**
+  - Compare local product availability to supplier catalogs and independent consumer interest.
+  - Check import, tax, return, certification and delivery economics before estimating margin.
+  - Try a legitimate pre-order/waitlist test with transparent fulfillment conditions.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.energy.gov/cmei/ammto/critical-minerals-and-materials-accelerator-0; https://www.energy.gov/cmei/articles/does-office-critical-minerals-and-energy-innovation-awards-75-million-accelerate; https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf
 
 ## Warehouse-cleaning robot pilot sold as an operating expense
 - Status: watch | physical_distribution
