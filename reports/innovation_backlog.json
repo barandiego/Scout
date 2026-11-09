@@ -444,43 +444,6 @@
       "category": "chile_localization",
       "commercially_validated": false,
       "competition_confirmed": false,
-      "current_participation_path": "Buy or request trial access from an API provider, obtain written permission for the intended reporting use, and build a spreadsheet or lightweight dashboard for one narrow workflow such as comparing SII purchase records against a client-provided accounting export. Before building a full product, ask 10 Chilean accounting firms whether they will review a sample report and pay a small refundable pilot fee. Falsify if fewer than 2 firms agree to inspect the sample or if the API terms prohibit redistribution or derived client reports.",
-      "current_thesis": "A narrowly defined dashboard or scheduled report could turn licensed SII data access into a repeatable deliverable: identify missing invoices, unusual purchase changes, overdue DTE reconciliation, or month-end filing exceptions. The economics are testable because the underlying API access has published prices rather than requiring unpriced data acquisition.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "Chile",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "SII sales-and-purchases exception dashboard for small accounting firms",
-      "opportunity_id": "opp_c8a7ce7acdf289eff270",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Find the smallest Chilean workflow whose economics differ from the original geography.",
-        "Secure lawful access, partners and after-sales support rather than copy protected technology.",
-        "Run a buyer interview or mock listing to falsify assumptions before capital commitment."
-      ],
-      "supporting_source_urls": [
-        "https://apipyme.cl/planes/",
-        "https://logicware.cl/desarrolladores/",
-        "https://datario.cl/precios"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "Sell a fixed monthly reconciliation pack or white-label dashboard to an accounting firm or software vendor that already serves Chilean SMEs. The offer should be limited to reproducible exception detection and exportable evidence, not bespoke bookkeeping or general AI consulting. The payer, final price, and achievable margin remain unverified.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "chile_localization",
-      "commercially_validated": false,
-      "competition_confirmed": false,
       "current_participation_path": "Apply through Outlier's official Spanish (Chile) opportunity page, complete identity verification and the required skills validation, then record whether the applicant receives project access, the offered rate, and available task hours. Lowest-cost falsification: submit one application using an existing CV and complete only the required screening; reject the opportunity if the application is unavailable to Chile residents, requires any fee or deposit, or offers no paid project terms after qualification. Outlier states that applications involve profile creation, identity confirmation, and skills validation, and that payouts use PayPal or AirTM. ([app.outlier.ai](https://app.outlier.ai/opportunities/4481627005?utm_source=openai))",
       "current_thesis": "A qualified Chilean Spanish writer, editor, translator, journalist, technical writer, or relevant humanities graduate can test access to paid evaluation work without purchasing equipment beyond a computer and internet connection. The opportunity is an application route, not evidence of earned income.",
       "founder_hours_initial_unverified_estimate": "",
@@ -582,6 +545,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Potential freelance or part-time compensation for rating and validating online information after passing language, critical-thinking, role-specific, compliance and identity checks. No public rate was found, so expected earnings cannot be responsibly estimated.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "competitive_positioning",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Implement a local proof of concept using one checkpointable open-source workload and two cloud providers’ documented Spot/interruptible GPU options. Run identical jobs for seven days, recording completed-job cost, interruption rate, wall-clock time and egress/storage charges. Only approach prospects if the measured cost advantage survives those all-in costs. Falsify if interruption recovery, data transfer or storage eliminates the advantage, or if no workload owner will provide a sample batch job under a paid test.",
+      "current_thesis": "For checkpointable, non-latency-sensitive workloads such as embedding refreshes, batch transcription, rendering or model evaluation, a small operator can potentially reduce compute spend by routing jobs across interruptible capacity rather than selling generic AI consulting.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States and global cloud markets",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Batch-inference cost arbitrage using interruptible GPU capacity",
+      "opportunity_id": "opp_5c481ec7547befd84600",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Segment the incumbent market by customers who pay too much or wait too long for one outcome.",
+        "Offer materially different positioning, delivery, price or specialisation with clear unit economics.",
+        "Test switching and repeat purchase evidence before scaling acquisition."
+      ],
+      "supporting_source_urls": [
+        "https://docs.cloud.google.com/docs/compute-area/gpus",
+        "https://cloud.google.com/products/compute/gpus-pricing?hl=en"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A narrowly defined scheduler or managed batch-runner that accepts checkpointable jobs, selects among published GPU prices, retries interruptions and reports cost per completed job. The payer would need to be an existing workload owner; no buyer, savings percentage or procurement route is verified here.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -4413,6 +4412,42 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Build a minimal sandbox harness covering the publicly documented SFA authentication, consent and data-exchange flows. Contact three Chilean regulated institutions or SFA technology vendors through public channels and offer a no-cost 60-minute test against a mock endpoint, asking whether they already have automated conformance coverage and what external testing budget or procurement route exists. Do not handle live customer data. Falsify if none will provide a technical contact, test documentation or paid pilot path after ten targeted outreaches.",
+      "current_thesis": "Smaller banks, cooperatives, payment firms and regulated data providers may need repeatable testing for API authentication, consent records, data schemas, error handling and conformance before production participation. The value is in reducing implementation defects and external integration delays, not in reselling customer data.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile SFA technical-conformance testing and consent-flow tooling for smaller financial institutions",
+      "opportunity_id": "opp_c366907d1ef716224e2e",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/educa/621/w3-article-85051.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A narrowly scoped paid testing asset: an open-source or low-cost SFA conformance harness plus paid deployment, test-case customization and remediation support. A second possible mechanism is recurring monitoring of API uptime, schema changes and consent-flow failures for participating institutions. Buyer and price are not yet verified; this should be treated as a validation target, not an assumed sale.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Download the CMF technical specifications and use the publicly described ATENA/APIBox environment to implement one minimal conformance test covering a single data-access or payment-initiation flow. Publish the reproducible test output and contact listed ecosystem participants or implementation vendors only after confirming that the sandbox permits the proposed use. Lowest-cost falsification: spend one day determining whether public test credentials, documentation and test endpoints are actually available; if not, return zero rather than selling an unverified integration service.",
       "current_thesis": "Entities intending to participate in Chile's Open Finance System have a defined implementation deadline and a public test environment. This creates a narrow need for integration-validation assets rather than generic fintech consulting.",
       "founder_hours_initial_unverified_estimate": "",
@@ -6757,6 +6792,42 @@
       "category": "robotics_agritech",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Choose one robot platform with publicly listed parts or service channels. Compile a local inventory of ten non-safety-critical replacement or maintenance items, then ask five farms, custom operators or dealers in the platform’s deployment region which items create downtime and whether they buy direct, through Amazon, or through a dealer. Purchase only one or two low-cost items after receiving a specific request; test a paid same-week delivery or maintenance visit. Falsify if operators report no parts scarcity, require manufacturer-only service, or will not prepay or issue a purchase request.",
+      "current_thesis": "Commercial deployment creates a specific operational dependency: farms and fleet operators need replacement parts, consumables, uptime support and logistics around machines that are already being sold or leased. The opportunity is narrower than building a robot: supply or coordinate non-proprietary service items and local response capacity.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Parts, field-service and refill-station support around commercial agricultural robots",
+      "opportunity_id": "opp_7de848baebeda1cae386",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
+        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
+        "Arrange a bounded field validation with an actual farm operator before scaling."
+      ],
+      "supporting_source_urls": [
+        "https://www.solinftec.com/en-us/solinftec-to-launch-ag-robotics-first-amazon-parts-store-as-us-solix/",
+        "https://www.sec.gov/Archives/edgar/data/1760404/000110465926104951/tm2617498d6_partiiandiii.htm"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Potential revenue from stocked wear parts, approved consumables, inspection, cleaning, battery/charging checks, transport and field-service dispatch. No independent evidence here verifies reseller authorization, margins or customer willingness to pay, so the economic mechanism remains a testable hypothesis.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "robotics_agritech",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Start with one crop and one task in a defined local growing region. Identify publicly listed growers, custom operators, extension contacts and equipment vendors; ask whether they will authorize a small paid or no-cost comparison trial. Use an existing commercial platform or rent/borrow one rather than building hardware. Benchmark treated acreage against the grower's current labor or chemical-control method using pre-agreed measures: labor hours, weed-control score, crop damage, acres completed and total operating cost. The lowest-cost falsification is to obtain three written refusals or no-response outcomes from relevant operators, or to run a 1–5 acre trial and find that the measured cost or performance is not better than the incumbent method. Publicly visible price anchors include approximately $100 per acre for an orchard-management software/service example and $12,000–$35,000 for an indicative autonomous row-crop weeding unit; these are not evidence that a buyer will pay for the proposed service.",
       "current_thesis": "The likely bottleneck is not proof that automation can work, but access to equipment and crop-specific operating capability for growers who cannot justify a capital purchase. A narrow wedge is a paid, per-acre deployment using an existing robot, drone or sensing platform for one measurable task such as mechanical weeding, crop scouting or targeted spraying.",
       "founder_hours_initial_unverified_estimate": "",
@@ -6940,7 +7011,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-08T20:12:25.538487+00:00",
+  "generated_at": "2026-11-09T04:40:41.998262+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

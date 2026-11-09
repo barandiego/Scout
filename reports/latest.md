@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-08T20:12:24.996132+00:00
+Generated: 2026-11-09T04:40:41.467473+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['mining_materials', 'tokenization_finance', 'business_model_migration']
+- lenses: ['cost_curve', 'open_finance_chile', 'adoption_lag']
 - raw_candidates: 3
 - parseable_candidates: 3
 - normalized_candidates: 3
 - normalization_rejected: 0
-- grounded_sources: 8
+- grounded_sources: 6
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 0
 - critic_reviews: 1
 - judge_reviews: 0
 - survivors: 0
-- watches: 2
+- watches: 3
 - rejected: 1
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.04204975
+- cost_usd: 0.02985325
 - cost_uncertain: False
-- budget_remaining_usd: 0.03795025
+- budget_remaining_usd: 0.05014675
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,9 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Independent deployment and service layer for agricultural field robots: deferred_by_review_cap
-- Task-specific automation retrofit discovery for small manufacturers: deferred_by_review_cap
-- Chile SFA sandbox and conformance testing for prospective data-consumer fintechs: The regulatory premise is sufficiently grounded: NCG 514 is an official, extant SFA rule and the cited framework includes APIs and testing concepts, so this is not rejected for an unverified regulatory change. The proposed service can plausibly avoid handling production customer data by operating on fictitious-data sandbox workflows, reducing—though not eliminating—the compliance burden. However, the narrow commercial wedge is unproven and threatened by CMF’s ATENA sandbox, published technical guidance, and visible private alternatives. At present there is no evidence that prospective SFA data-consumer firms can grant an external vendor the necessary sandbox credentials, that official tooling lacks the proposed functionality, or that buyers will pay for a reusable product rather than use internal teams or purchase bespoke integration/compliance consulting. This is HQ-worthy only as a tightly falsifiable buyer-and-access validation hypothesis, not as a validated software opportunity.
 - NFC review-and-contact displays: only a testable local resale wedge, not a seller-scarcity claim: deferred_by_review_cap
 - Chile Open-Finance API conformance harness for smaller participants: deferred_by_review_cap
 - CNR-qualified irrigation retrofit package for small farms and water-user organizations: deferred_by_review_cap
@@ -51,13 +48,16 @@ No survivors. Scout does not manufacture a daily winner.
 - Chile SFA/APIBox interoperability test harness for fintech participants: deferred_by_review_cap
 - Supplier and pilot-partner mapping for DOE-funded critical-minerals projects: deferred_by_review_cap
 - Tokenized-securities operational tooling around DTC/Nasdaq eligibility and settlement: deferred_by_review_cap
+- Chile SFA technical-conformance testing and consent-flow tooling for smaller financial institutions: deferred_by_review_cap
+- Parts, field-service and refill-station support around commercial agricultural robots: deferred_by_review_cap
+- Batch-inference cost arbitrage using interruptible GPU capacity: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=fresh",
-    "research_queue_unreviewed=89"
+    "deep_review_lane=backlog",
+    "research_queue_unreviewed=91"
   ],
   "stages": [
     {
@@ -65,42 +65,51 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 34,
+      "grounded_source_count": 43,
       "search_source_urls": [
-        "https://arxiv.org/abs/2507.14808",
-        "https://arxiv.org/abs/2508.11651",
-        "https://arxiv.org/abs/2606.13822",
-        "https://arxiv.org/abs/2608.25269",
-        "https://home.treasury.gov/system/files/261/FSOC2024AnnualReport.pdf",
-        "https://images.ctfassets.net/k3n74unfin40/6NFrMfE6KZT0ktpIm7F1Jw/a0a22cca82d413e5c45c95f32d8e5491/MktIntel_2026.01.10_Tokenization.pdf",
-        "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf",
-        "https://pubs.usgs.gov/publication/mcs2026?trk=public_post_comment-text",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.crowdfundinsider.com/wp-content/uploads/2026/03/Tokenized-Deposits-March-2026.pdf",
-        "https://www.energy.gov/cmei/ammto/critical-minerals-and-materials-accelerator-0",
-        "https://www.energy.gov/cmei/articles/does-office-critical-minerals-and-energy-innovation-announces-117-million-strengthen",
-        "https://www.energy.gov/cmei/articles/does-office-critical-minerals-and-energy-innovation-announces-295-million-national",
-        "https://www.energy.gov/cmei/articles/does-office-critical-minerals-and-energy-innovation-announces-over-45-million-support",
-        "https://www.energy.gov/cmei/articles/does-office-critical-minerals-and-energy-innovation-awards-75-million-accelerate",
-        "https://www.energy.gov/cmei/manufacturing/battery-materials-processing-grants",
-        "https://www.energy.gov/nepa/articles/cx-036078-infrastructure-investment-and-jobs-act-iija-pilot-scale-domestic-rare-earth",
-        "https://www.ey.com/en_us/financial-services/institutional-digital-assets-survey",
-        "https://www.fdic.gov/news/press-releases/2026/agencies-clarify-capital-treatment-tokenized-securities",
-        "https://www.imf.org/en/news/articles/2026/05/11/sp051126-tokenized-finance-and-money",
-        "https://www.lfdecentralizedtrust.org/ledger-insights-report-2026",
-        "https://www.pwc.ie/publications/2026/tokenisatoin-stablecoins-institutional-defi.pdf",
-        "https://www.sec.gov/about/crypto-task-force/crypto-task-force-written-input/ctf-written-input-securitize-050725",
-        "https://www.sec.gov/about/crypto-task-force/written-submission/written-input-monica-elizabeth-pagano-erc-genesis-090826",
-        "https://www.sec.gov/about/divisions-offices/division-corporation-finance/corpfin-crypto-assets",
-        "https://www.sec.gov/files/rules/sro/nysetex/2026/34-105338.pdf",
-        "https://www.sec.gov/newsroom/speeches-statements/peirce-statement-tokenized-securities-070925",
-        "https://www.sec.gov/newsroom/speeches-statements/uyeda-statement-innovation-exemption-091726",
-        "https://www.sec.gov/rules-regulations/self-regulatory-organization-rulemaking/sr-nasdaq-2025-072",
-        "https://www.usgs.gov/centers/national-minerals-information-center/mineral-commodity-summaries/",
-        "https://www.usgs.gov/data/mineral-commodity-summaries-2026-data-release",
-        "https://www.usgs.gov/news/national-news-release/value-us-mineral-production-rose-last-year-driven-precious-metals-prices",
-        "https://www.whitehouse.gov/wp-content/uploads/2025/07/Digital-Assets-Report-EO14178.pdf"
+        "https://agriculturalhumanoids.com/",
+        "https://apnews.com/article/7d542b5ee92caa9d79efa28de89afbbe",
+        "https://arxiv.org/abs/2405.21015",
+        "https://arxiv.org/abs/2504.20189",
+        "https://arxiv.org/abs/2509.20241",
+        "https://arxiv.org/abs/2509.25056",
+        "https://cloud.google.com/products/compute/gpus-pricing?hl=en",
+        "https://computecensus.com/guides/are-gpu-prices-going-up/",
+        "https://docs.cloud.google.com/docs/compute-area/gpus",
+        "https://docs.digitalocean.com/products/inference/details/pricing/",
+        "https://en.wikipedia.org/wiki/Aerobotics",
+        "https://en.wikipedia.org/wiki/Bedrock_Robotics",
+        "https://en.wikipedia.org/wiki/FarmWise",
+        "https://en.wikipedia.org/wiki/Solinftec",
+        "https://en.wikipedia.org/wiki/TTA-ISO",
+        "https://grf-smartfarm.dpi.qld.gov.au/2025-AgtechShowcase-Booklet-WEB.pdf",
+        "https://hai-production.s3.amazonaws.com/files/hai_ai_index_report_2025.pdf?7504590f_page=5",
+        "https://orbibarobotics.com/en",
+        "https://web-assets.bcg.com/f7/14/83ae5e934701880e7112cbdcda31/price-swings-sovereignty-demands-and-wasted-resources-aug2025.pdf",
+        "https://www.axios.com/local/pittsburgh/2025/05/06/pittsburgh-aurora-driverless-trucks-texas",
+        "https://www.axios.com/local/seattle/2026/10/23/yakima-valley-reservoir-farms-ai-robot-testing-apple-harvest",
+        "https://www.cmfchile.cl/educa/621/w3-article-85051.html",
+        "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa_tramite_ver_archivo.php?id=2024041585&seq=1",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.itpro.com/cloud/iaas/gpu-as-a-service-should-enterprise-it-rent-or-own-ai-compute",
+        "https://www.max-robotics.com/en/companies/bonsai-robotics",
+        "https://www.nvidia.com/en-us/solutions/ai/inference/",
+        "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/developments-in-artificial-intelligence-markets-new-indicators-based-on-model-characteristics-prices-and-providers_75e50b2a/9302bf46-en.pdf",
+        "https://www.reddit.com/r/Cloud/comments/1x5lyxi/what_i_actually_learned_trying_to_save_money_on/",
+        "https://www.reddit.com/r/LocalLLM/comments/1xf0xun/i_ran_local_ai_inference_amd_gpu_for_30_days_and/",
+        "https://www.reddit.com/r/RobotMowerAdvice/comments/1xbssnl/pandag_g1_returns_to_equip_expo_with_two_48inch/",
+        "https://www.reddit.com/r/deeplearning/comments/1qnjwdq/cloud_gpu_prices_vary_up_to_138x_for_h100s_i/",
+        "https://www.reddit.com/r/deeplearning/comments/1ve8734/i_tracked_cloud_gpu_rental_prices_for_2_years/",
+        "https://www.sec.gov/Archives/edgar/data/1760404/000110465926104951/tm2617498d6_partiiandiii.htm",
+        "https://www.solinftec.com/en-us/solinftec-to-launch-ag-robotics-first-amazon-parts-store-as-us-solix/",
+        "https://www.techradar.com/computing/gpu/the-probability-is-extremely-high-that-nvidias-rumored-rtx-5080-super-has-been-delayed-and-with-gpu-prices-rocketing-upwards-the-future-looks-bleak",
+        "https://www.techradar.com/pro/apple-will-now-sell-you-a-mac-studio-with-512gb-of-ram-but-itll-cost-you-as-much-as-a-good-sized-family-car",
+        "https://www.techradar.com/pro/inference-pushes-ai-out-of-the-data-center",
+        "https://www.techradar.com/pro/the-uks-ai-strategy-is-missing-one-crucial-piece-compute",
+        "https://www.techradar.com/pro/we-were-highly-skeptical-about-the-cost-of-ai-revolut-reveals-it-cut-ai-coding-costs-by-cutting-out-claude-entirely",
+        "https://www.tomshardware.com/desktops/mini-pcs/amazon-closes-ai-creators-account-after-he-attempts-to-buy-seven-nvidia-dgx-spark-mini-pcs-epic-ceo-tim-sweeney-says-his-regular-orders-were-canceled-before-arrival-after-he-tried-to-buy-two-gpus",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/tesla-unveils-ai-accelerator-roadmap-adopts-new-si-branding-in-super-intelligence-push-si6-to-bring-80x-more-compute-performance-dojo-3-headed-to-space",
+        "https://www.usenix.org/system/files/atc24-luo.pdf"
       ]
     },
     {
@@ -115,7 +124,7 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 3,
+      "grounded_sources": 2,
       "retry_justified": false
     },
     {
@@ -145,40 +154,64 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 3,
+      "grounded_sources": 2,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_5450df02f3e3a6c77f41",
+      "candidate_id": "opp_c8a7ce7acdf289eff270",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 19,
+      "grounded_source_count": 43,
       "search_source_urls": [
-        "https://cmfchile.cl/portal/principal/613/articles-102557_recurso_1.pdf",
-        "https://cmfchile.cl/portal/principal/623/w4-article-108561.html",
-        "https://en.wikipedia.org/wiki/Open_finance",
-        "https://lawfice.cl/blog/open-finance-chile-foreign-fintechs/",
-        "https://openfinance.institute/radar",
-        "https://openfinanceconnect.cl/en/",
-        "https://openfinanceconnect.cl/registro-gratuito/",
-        "https://ozoneapi.com/blog/what-our-regional-gms-are-expecting-in-open-finance-this-h2/",
-        "https://ozoneapi.com/the-open-finance-tracker/library/open-finance-system-sistema-de-finanzas-abiertas-sfa-chile/",
-        "https://www.bcentral.cl/documents/d/banco-central/payment-systems-report-august-2023-pdf?download=true",
-        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/principal/613/articles-100816_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/articles-92466_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/articles-96504_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
-        "https://www.fiskil.com/es/open-finance-tracker/chile",
-        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000127/MNCsept26.pdf"
+        "https://abacco.ai/",
+        "https://alfapeople.com/es/wp-content/uploads/sites/15/2022/09/CHILE-ESP-Brochure.pdf",
+        "https://apipyme.cl/",
+        "https://apipyme.cl/planes/",
+        "https://contando.cl/",
+        "https://contando.cl/software-contable",
+        "https://datario.cl/precios",
+        "https://en.wikipedia.org/wiki/Comparison_of_accounting_software",
+        "https://en.wikipedia.org/wiki/FloQast",
+        "https://en.wikipedia.org/wiki/List_of_ERP_software_packages",
+        "https://en.wikipedia.org/wiki/List_of_free_and_open-source_software_packages",
+        "https://en.wikipedia.org/wiki/Tipalti",
+        "https://en.wikipedia.org/wiki/Tryton",
+        "https://info.buk.cl/hubfs/partners-cl/Onepage%20Clay-BUK%202025.pdf",
+        "https://logicware.cl/desarrolladores/",
+        "https://muermo.cl/",
+        "https://spiralway.cl/en/plataformas/siimaster",
+        "https://us.v-cdn.net/6032262/uploads/G17GK9W7P1C1/releasenotes-2026-1-0.pdf",
+        "https://vessi.cl/hubfs/VessiAPI-Negocios%20B2B_compressed%20%281%29.pdf?hsLang=es-cl",
+        "https://vitrinapyme.cl/erp",
+        "https://www.capterra.com/p/10262834/Timbra/",
+        "https://www.clay.cl/blog/api-bancaria-y-sii-chile",
+        "https://www.oracle.com/nz/a/ocom/docs/netsuite-cloud-services-sd.pdf",
+        "https://www.reddit.com/r/ChileStartup/comments/1x6kock/las_pymes_detectan_a_tiempo_sus_problemas_de_caja/",
+        "https://www.reddit.com/r/FinanzasChile/comments/1v0rm8t/para_empresas_peque%C3%B1as_o_medianas_cual_software/",
+        "https://www.reddit.com/r/chileIT/comments/1gvz6nx",
+        "https://www.reddit.com/r/chileIT/comments/1ifvct6/software_minimarket_boletas_sii/",
+        "https://www.reddit.com/r/chileIT/comments/1ikedxa",
+        "https://www.reddit.com/r/chileIT/comments/1onbg7q/otro_m%C3%A1s_aburrido_del_sii_que_arm%C3%B3_un_bot_de/",
+        "https://www.reddit.com/r/chileIT/comments/1p6l4gn/api_sii/",
+        "https://www.reddit.com/r/chileIT/comments/1q51kbh/visualizaci%C3%B3n_info_sii_empresa/",
+        "https://www.reddit.com/r/chileIT/comments/1r942en/integraci%C3%B3n_sii_dashboard/",
+        "https://www.reddit.com/r/chileIT/comments/1rjqpio/api_sii/",
+        "https://www.reddit.com/r/chileIT/comments/1sahep1/elecci%C3%B3n_de_erp/",
+        "https://www.reddit.com/r/chileIT/comments/1vfp56i/hicimos_notta_el_sii_como_api_rest_cli_y_mcp/",
+        "https://www.sifactura.cl/",
+        "https://www.sifactura.com/cl/",
+        "https://www.sii.cl/normativa_legislacion/resoluciones/2024/reso26.pdf?share=print",
+        "https://www.techradar.com/best/accounting-software-small-business",
+        "https://www.techradar.com/pro/software-services/boost-your-business-why-frontaccounting-is-the-web-based-accounting-solution-you-need",
+        "https://www.techradar.com/reviews/insightly-crm-review",
+        "https://www.techradar.com/reviews/workbooks-review",
+        "https://www.tupana.ai/integraciones-bancarias-y-sii"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_5450df02f3e3a6c77f41",
+      "candidate_id": "opp_c8a7ce7acdf289eff270",
       "coercions": [
         "critic_case",
         "contrary_evidence"
@@ -189,30 +222,30 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 360,
-      "cache_write_tokens": 5406,
+      "reasoning_tokens": 172,
+      "cache_write_tokens": 5453,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0270695,
+      "cumulative_cost_usd": 0.01513065,
       "model": "gpt-5.6-luna",
-      "input_tokens": 22110,
+      "input_tokens": 14054,
       "cached_tokens": 0,
-      "output_tokens": 1981,
-      "web_search_calls": 2,
-      "estimated_cost_usd": 0.0270695
+      "output_tokens": 1706,
+      "web_search_calls": 1,
+      "estimated_cost_usd": 0.01513065
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 142,
-      "cache_write_tokens": 5217,
+      "reasoning_tokens": 166,
+      "cache_write_tokens": 5284,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.04204975,
+      "cumulative_cost_usd": 0.02985325,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13655,
+      "input_tokens": 13994,
       "cached_tokens": 0,
-      "output_tokens": 1657,
+      "output_tokens": 1383,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01498025
+      "estimated_cost_usd": 0.0147226
     }
   ]
 }

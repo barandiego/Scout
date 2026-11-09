@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-11-08T20:12:25.415250+00:00
+Generated: 2026-11-09T04:40:41.865229+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 182 (0 HQ survivors, 182 watches)
-- Rejected opportunities excluded: 104
+- Active research: 184 (0 HQ survivors, 184 watches)
+- Rejected opportunities excluded: 105
 - Critic-and-judge reviewed: 84
 - Autonomous execution authorization: 0
 
@@ -1083,16 +1083,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/613/articles-82752_recurso_1.pdf; https://www.cmfchile.cl/portal/prensa/615/articles-99083_doc_pdf.pdf
 
-### SII sales-and-purchases exception dashboard for small accounting firms [opp_c8a7ce7acdf289eff270]
-- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
-- Thesis: A narrowly defined dashboard or scheduled report could turn licensed SII data access into a repeatable deliverable: identify missing invoices, unusual purchase changes, overdue DTE reconciliation, or month-end filing exceptions. The economics are testable because the underlying API access has published prices rather than requiring unpriced data acquisition.
-- Value capture: Sell a fixed monthly reconciliation pack or white-label dashboard to an accounting firm or software vendor that already serves Chilean SMEs. The offer should be limited to reproducible exception detection and exportable evidence, not bespoke bookkeeping or general AI consulting. The payer, final price, and achievable margin remain unverified.
-- Participation hypothesis: Buy or request trial access from an API provider, obtain written permission for the intended reporting use, and build a spreadsheet or lightweight dashboard for one narrow workflow such as comparing SII purchase records against a client-provided accounting export. Before building a full product, ask 10 Chilean accounting firms whether they will review a sample report and pay a small refundable pilot fee. Falsify if fewer than 2 firms agree to inspect the sample or if the API terms prohibit redistribution or derived client reports.
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://apipyme.cl/planes/; https://logicware.cl/desarrolladores/; https://datario.cl/precios
-
 ### Small-scale storage and control feasibility wedge for Chilean distributed generators [opp_3fc8fe5d5af829de71b9]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile
 - Thesis: A narrow opportunity exists to sell a site-specific storage-and-control pre-feasibility package to existing distributed-generation or high-load sites, focused on identifying whether storage can reduce curtailment, shift consumption or improve connection economics. This is an evidence-backed market-participation test, not proof that a battery project will pay back.
@@ -1172,6 +1162,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://jobs.telusdigital.com/search/cfm3/russian-spanish/cfm5/ai-community/jobs/in/country/chile?ns_category=artificial-intelligence; https://www.sii.cl/destacados/iva_bienes/plataformas_inscritas/
+
+### Batch-inference cost arbitrage using interruptible GPU capacity [opp_5c481ec7547befd84600]
+- Status: WATCH_REQUIRES_VALIDATION | competitive_positioning | United States and global cloud markets
+- Thesis: For checkpointable, non-latency-sensitive workloads such as embedding refreshes, batch transcription, rendering or model evaluation, a small operator can potentially reduce compute spend by routing jobs across interruptible capacity rather than selling generic AI consulting.
+- Value capture: A narrowly defined scheduler or managed batch-runner that accepts checkpointable jobs, selects among published GPU prices, retries interruptions and reports cost per completed job. The payer would need to be an existing workload owner; no buyer, savings percentage or procurement route is verified here.
+- Participation hypothesis: Implement a local proof of concept using one checkpointable open-source workload and two cloud providers’ documented Spot/interruptible GPU options. Run identical jobs for seven days, recording completed-job cost, interruption rate, wall-clock time and egress/storage charges. Only approach prospects if the measured cost advantage survives those all-in costs. Falsify if interruption recovery, data transfer or storage eliminates the advantage, or if no workload owner will provide a sample batch job under a paid test.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://docs.cloud.google.com/docs/compute-area/gpus; https://cloud.google.com/products/compute/gpus-pricing?hl=en
 
 ### Battery-materials grant application and partner-screening support around DOE processing and recycling awards [opp_99cbde4d890de7c2b82f]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States
@@ -1372,6 +1372,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html?trk=article-ssr-frontend-pulse_little-text-block
+
+### Chile SFA technical-conformance testing and consent-flow tooling for smaller financial institutions [opp_c366907d1ef716224e2e]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Smaller banks, cooperatives, payment firms and regulated data providers may need repeatable testing for API authentication, consent records, data schemas, error handling and conformance before production participation. The value is in reducing implementation defects and external integration delays, not in reselling customer data.
+- Value capture: A narrowly scoped paid testing asset: an open-source or low-cost SFA conformance harness plus paid deployment, test-case customization and remediation support. A second possible mechanism is recurring monitoring of API uptime, schema changes and consent-flow failures for participating institutions. Buyer and price are not yet verified; this should be treated as a validation target, not an assumed sale.
+- Participation hypothesis: Build a minimal sandbox harness covering the publicly documented SFA authentication, consent and data-exchange flows. Contact three Chilean regulated institutions or SFA technology vendors through public channels and offer a no-cost 60-minute test against a mock endpoint, asking whether they already have automated conformance coverage and what external testing budget or procurement route exists. Do not handle live customer data. Falsify if none will provide a technical contact, test documentation or paid pilot path after ten targeted outreaches
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/educa/621/w3-article-85051.html
 
 ### Chile SFA/APIBox interoperability test harness for fintech participants [opp_f3ae66d425cfc84e615e]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -1652,6 +1662,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://job-boards.eu.greenhouse.io/prolificacademicltd/jobs/4869418101; https://www.dataannotation.tech/spanish-es
+
+### Parts, field-service and refill-station support around commercial agricultural robots [opp_7de848baebeda1cae386]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States
+- Thesis: Commercial deployment creates a specific operational dependency: farms and fleet operators need replacement parts, consumables, uptime support and logistics around machines that are already being sold or leased. The opportunity is narrower than building a robot: supply or coordinate non-proprietary service items and local response capacity.
+- Value capture: Potential revenue from stocked wear parts, approved consumables, inspection, cleaning, battery/charging checks, transport and field-service dispatch. No independent evidence here verifies reseller authorization, margins or customer willingness to pay, so the economic mechanism remains a testable hypothesis.
+- Participation hypothesis: Choose one robot platform with publicly listed parts or service channels. Compile a local inventory of ten non-safety-critical replacement or maintenance items, then ask five farms, custom operators or dealers in the platform’s deployment region which items create downtime and whether they buy direct, through Amazon, or through a dealer. Purchase only one or two low-cost items after receiving a specific request; test a paid same-week delivery or maintenance visit. Falsify if operators report no parts scarcity, require manufacturer-only service,
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.solinftec.com/en-us/solinftec-to-launch-ag-robotics-first-amazon-parts-store-as-us-solix/; https://www.sec.gov/Archives/edgar/data/1760404/000110465926104951/tm2617498d6_partiiandiii.htm
 
 ### PMGD battery-congestion screening and dispatch-rights data product [opp_e28d4caaa77e09a2caa9]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile, initially zonal transmission-constrained areas with PMGD concentration

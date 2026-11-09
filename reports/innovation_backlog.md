@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 182
+Candidates: 184
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -148,18 +148,6 @@ Candidates: 182
 - Possible initial budget:
 - Source URLs: https://www.sre.cl/; https://rutapi.cl/documentacion
 
-## SII sales-and-purchases exception dashboard for small accounting firms
-- Status: watch | chile_localization
-- Current idea: A narrowly defined dashboard or scheduled report could turn licensed SII data access into a repeatable deliverable: identify missing invoices, unusual purchase changes, overdue DTE reconciliation, or month-end filing exceptions. The economics are testable because the underlying API access has published prices rather than requiring unpriced data acquisition.
-- Potential economic capture: Sell a fixed monthly reconciliation pack or white-label dashboard to an accounting firm or software vendor that already serves Chilean SMEs. The offer should be limited to reproducible exception detection and exportable evidence, not bespoke bookkeeping or general AI consulting. The payer, final price, and achievable margin remain unverified.
-- **Research routes to test (NOT validated claims):**
-  - Find the smallest Chilean workflow whose economics differ from the original geography.
-  - Secure lawful access, partners and after-sales support rather than copy protected technology.
-  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://apipyme.cl/planes/; https://logicware.cl/desarrolladores/; https://datario.cl/precios
-
 ## Spanish (Chile) AI-training evaluation work through Outlier
 - Status: watch | chile_localization
 - Current idea: A qualified Chilean Spanish writer, editor, translator, journalist, technical writer, or relevant humanities graduate can test access to paid evaluation work without purchasing equipment beyond a computer and internet connection. The opportunity is an application route, not evidence of earned income.
@@ -195,6 +183,18 @@ Candidates: 182
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://jobs.telusdigital.com/search/jobs/in/chile?cfm5=AI+Community&ns_category=ai-community; https://jobs.telusdigital.com/bs_BA/MoroccoCareers/PipelineDetail/Internet-Domain-Assessor-Spanish-Speakers-in-Chile/71900
+
+## Batch-inference cost arbitrage using interruptible GPU capacity
+- Status: watch | competitive_positioning
+- Current idea: For checkpointable, non-latency-sensitive workloads such as embedding refreshes, batch transcription, rendering or model evaluation, a small operator can potentially reduce compute spend by routing jobs across interruptible capacity rather than selling generic AI consulting.
+- Potential economic capture: A narrowly defined scheduler or managed batch-runner that accepts checkpointable jobs, selects among published GPU prices, retries interruptions and reports cost per completed job. The payer would need to be an existing workload owner; no buyer, savings percentage or procurement route is verified here.
+- **Research routes to test (NOT validated claims):**
+  - Segment the incumbent market by customers who pay too much or wait too long for one outcome.
+  - Offer materially different positioning, delivery, price or specialisation with clear unit economics.
+  - Test switching and repeat purchase evidence before scaling acquisition.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://docs.cloud.google.com/docs/compute-area/gpus; https://cloud.google.com/products/compute/gpus-pricing?hl=en
 
 ## Marketplace-specific catalog and offer monitoring for Natura Chile sellers
 - Status: watch | competitive_positioning
@@ -1396,6 +1396,18 @@ Candidates: 182
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html; https://www.cmfchile.cl/educa/621/w3-article-85051.html
 
+## Chile SFA technical-conformance testing and consent-flow tooling for smaller financial institutions
+- Status: watch | open_finance_chile
+- Current idea: Smaller banks, cooperatives, payment firms and regulated data providers may need repeatable testing for API authentication, consent records, data schemas, error handling and conformance before production participation. The value is in reducing implementation defects and external integration delays, not in reselling customer data.
+- Potential economic capture: A narrowly scoped paid testing asset: an open-source or low-cost SFA conformance harness plus paid deployment, test-case customization and remediation support. A second possible mechanism is recurring monitoring of API uptime, schema changes and consent-flow failures for participating institutions. Buyer and price are not yet verified; this should be treated as a validation target, not an assumed sale.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/educa/621/w3-article-85051.html
+
 ## Chile SFA/APIBox interoperability test harness for fintech participants
 - Status: watch | open_finance_chile
 - Current idea: Entities intending to participate in Chile's Open Finance System have a defined implementation deadline and a public test environment. This creates a narrow need for integration-validation assets rather than generic fintech consulting.
@@ -2127,6 +2139,18 @@ Candidates: 182
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.nifa.usda.gov/about-nifa/impacts/automation-specialty-crops; https://www.ars.usda.gov/research/project?accnNo=442310
+
+## Parts, field-service and refill-station support around commercial agricultural robots
+- Status: watch | robotics_agritech
+- Current idea: Commercial deployment creates a specific operational dependency: farms and fleet operators need replacement parts, consumables, uptime support and logistics around machines that are already being sold or leased. The opportunity is narrower than building a robot: supply or coordinate non-proprietary service items and local response capacity.
+- Potential economic capture: Potential revenue from stocked wear parts, approved consumables, inspection, cleaning, battery/charging checks, transport and field-service dispatch. No independent evidence here verifies reseller authorization, margins or customer willingness to pay, so the economic mechanism remains a testable hypothesis.
+- **Research routes to test (NOT validated claims):**
+  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
+  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
+  - Arrange a bounded field validation with an actual farm operator before scaling.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.solinftec.com/en-us/solinftec-to-launch-ag-robotics-first-amazon-parts-store-as-us-solix/; https://www.sec.gov/Archives/edgar/data/1760404/000110465926104951/tm2617498d6_partiiandiii.htm
 
 ## Per-acre robotic weeding/scouting deployment for specialty-crop growers priced out of ownership
 - Status: watch | robotics_agritech
