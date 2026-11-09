@@ -4343,6 +4343,94 @@
       "ai_leverage": "",
       "authorized_for_execution": false,
       "contrary_evidence": [
+        "There is some real enabling evidence. SEC has updated RGR N°06/2024 for BESS and subsequently issued 2025 amendments, indicating an active and evolving regulatory environment rather than a nonexistent market. SEC also states that electrical installations should be performed by qualified, accredited personnel, which creates a potential partnership role for a measurement provider working with certified installers: https://www.sec.cl/area-instaladores/instaladores-electricos/ and https://www.chileatiende.gob.cl/fichas/2662/1/pdf. Chilean electricity rules recognize demand measurement and 15-minute maximum-demand concepts in relevant billing contexts, so load data can sometimes have operational or tariff relevance: https://www.bcn.cl/leychile/navegar?idNorma=1137997&idVersion=2008-08-04. Public marketplace listings also support physical access to low-cost single- and three-phase meters, but availability is evidence of supply, not customer willingness to pay: https://listado.mercadolibre.cl/medidor-de-energia-wifi. These points keep the idea from being fatal, but none validates pricing, conversion, measurement accuracy, or repeatability."
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-11-09T18:19:00.844763+00:00",
+      "discovery_lens": "chile_technology_import",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "SEC identifies updated technical instructions for BESS installation and safety, including RGR N°06/2024 and 2025 amendments.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Almacenamiento de Energía a través de Baterías (BESS)",
+          "url": "https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/"
+        },
+        {
+          "claim": "Multiple imported and locally offered Wi-Fi energy meters are publicly listed with prices, including single- and three-phase products.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Medidor de Energía Wifi - MercadoLibre Chile",
+          "url": "https://listado.mercadolibre.cl/medidor-de-energia-wifi"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.72,
+      "falsification_conditions": [
+        "After at least 15 qualified customer conversations across solar, pumping, refrigeration, and small industrial segments, fewer than 3 express a concrete current need and fewer than 2 accept a paid pilot or written paid proposal.",
+        "No pilot customer agrees to pay enough to cover hardware, certified electrical labor, travel, reporting time, support, expected failures, and a commercially meaningful margin.",
+        "A qualified Chilean electrical professional determines that the proposed installation method or device is not compliant, appropriately certified, or insurable for the intended sites.",
+        "In at least 3 representative pilots, the resulting report does not identify a credible maintenance, tariff, capacity, solar, or storage decision with estimated value materially above the diagnostic price.",
+        "Customers commonly already possess sufficiently granular data through utility meters, inverter portals, building-management systems, or existing contractors.",
+        "Pilot results vary materially when compared with utility, inverter, or reference-instrument data, making the product unsuitable for investment or maintenance decisions.",
+        "No qualified installer, solar company, or maintenance firm is willing to provide referrals, co-delivery, or written permission for a compliant field pilot.",
+        "The hardware-and-service gross margin remains below 30 percent after all direct delivery costs, or customer acquisition cost exceeds first-engagement gross profit.",
+        "A review of applicable SEC product-certification, installation, declaration, and licensing requirements shows that the contemplated operating model would require capabilities or liabilities disproportionate to the expected revenue.",
+        "Prospective customers cannot identify a decision deadline or financial pain within 90 days after receiving the load profile."
+      ],
+      "geography": "Chile",
+      "id": "opp_5a23e89484d6425716fb",
+      "judge_reviewed": true,
+      "judgment": "This is a legitimately narrow, falsifiable service hypothesis rather than an unsupported BESS investment claim: the immediate payer would be a small commercial/industrial site purchasing a diagnostic, while BESS is only a possible later recommendation. Official SEC material supports that compliance and qualified-installation issues are real and relevant, and meter supply is observable. However, there is no named customer, asset operator, bottleneck, or paying load; no demonstrated willingness to pay; no compliant installed workflow; and no proof that a short measurement window yields decisions worth more than the diagnostic. It therefore does not yet meet the rubric’s economics, local feasibility, or differentiated-wedge requirements, but it is not fatally disproven because a paid diagnostic can be tested without underwriting storage economics or making bankability claims.",
+      "last_record_updated_at": "2026-11-09T18:19:34.115140+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Whether the target sites lack usable interval, inverter, submeter, or utility data.",
+        "Whether Chilean small commercial customers will pay for measurement before receiving a quantified savings or reliability claim.",
+        "Actual all-in cost of a compliant pilot, including certified electrical labor, travel, insurance, communications, configuration, data hosting, reporting, and device failure.",
+        "Which meter models are SEC-certified or otherwise lawful and technically suitable for the intended installation; marketplace availability does not establish regulatory acceptability.",
+        "Whether a 7- to 14-day period produces decisions that remain valid across seasonal and operational variation."
+      ],
+      "participation_path": "Falsification test: purchase one listed three-phase or single-phase meter only after confirming electrical compatibility; prepare a one-page sample report using public data or a bench test; contact three identifiable Chilean solar installers, pump-maintenance firms or small commercial operators and ask whether they currently pay for load measurement before proposing storage or troubleshooting. Proceed only if at least one provides written permission for a paid or unpaid pilot and a qualified person can perform the electrical work. Separately check the current SEC installation and certification requirements before any field deployment. The public purchase route is MercadoLibre Chile; the regulatory participation route is SEC guidance and installer networks.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A small operator could test a narrow commissioning and measurement package for existing solar, pump, refrigeration or small industrial installations: install a non-invasive energy meter where legally and technically appropriate, produce a 7- to 14-day load profile, and identify whether storage, tariff changes or equipment maintenance merits further engineering. The economic mechanism is paid diagnostic work and possible equipment resale, not assumed energy savings.",
+      "title": "Chile: low-cost energy submetering and BESS-readiness checks for small commercial sites",
+      "type": "service_plus_imported_asset",
+      "unknowns": [
+        "Whether the target sites lack usable interval, inverter, submeter, or utility data.",
+        "Whether Chilean small commercial customers will pay for measurement before receiving a quantified savings or reliability claim.",
+        "Actual all-in cost of a compliant pilot, including certified electrical labor, travel, insurance, communications, configuration, data hosting, reporting, and device failure.",
+        "Which meter models are SEC-certified or otherwise lawful and technically suitable for the intended installation; marketplace availability does not establish regulatory acceptability.",
+        "Whether a 7- to 14-day period produces decisions that remain valid across seasonal and operational variation.",
+        "Whether the service can legally install or connect equipment without the operator holding an appropriate SEC installer license.",
+        "Customer acquisition cost and access to decision-makers at small commercial sites.",
+        "Actual competitive pricing from solar installers, electricians, energy consultants, equipment distributors, and utility or inverter monitoring products.",
+        "Whether identified BESS opportunities have sufficient tariff spread, demand charges, backup value, or reliability benefits to justify storage after financing and maintenance costs.",
+        "Whether imported devices provide accurate readings under local voltage, current-transformer, phase-balance, electromagnetic, connectivity, and environmental conditions.",
+        "Potential privacy, cybersecurity, data-retention, and liability obligations when collecting operational data from customer premises.",
+        "A specific Chilean customer/operator with an imminent tariff, capacity, reliability, refrigeration, pumping, or maintenance decision and a budget for measurement.",
+        "The lawful, insurable field workflow and which specific meter models are acceptable for the intended connection method.",
+        "Fully loaded pilot economics: certified labor, travel, hardware failure allowance, communications, reporting, insurance, support, customer acquisition, and margin.",
+        "Accuracy and repeatability versus utility, inverter, or reference-meter data under representative three-phase and current-transformer conditions.",
+        "Whether reports produce a quantified action with value materially above the diagnostic fee, rather than generic efficiency advice.",
+        "Whether customer access can be obtained through a named installer, O&M provider, solar operator, or equipment-maintenance channel."
+      ],
+      "value_capture_mechanism": "Charge for a fixed measurement-and-reporting engagement plus the hardware at the publicly observable retail price; do not promise savings before a baseline is collected. A later opportunity could be referral or installation work with a qualified electrical professional, subject to applicable Chilean licensing and SEC requirements.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [
         "CMF's own framework indicates a gradual implementation schedule rather than an immediate market-wide requirement; the original regulation described phased obligations and a transition period. Source: https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html",
         "The June 1, 2026 amendment postpones entry into force until July 2027, directly reducing near-term urgency. Source: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
         "ATENA is described as a controlled testing environment for interoperability and preparation. Its launch validates regulatory preparation, but does not establish commercial demand or production usage. Source: https://cmfchile.cl/portal/prensa/625/w4-article-113897.html",
@@ -7941,6 +8029,128 @@
       "value_capture_mechanism": "Sell or license a Chile-specific package containing API request/response fixtures, schema validation, participant-directory test cases, credential-flow checks, automated regression reports, and ATENA test-run assistance. Revenue should be validated before assuming a recurring software model; the initial offer can be a paid diagnostic or fixed-scope implementation asset.",
       "verified_sales": null,
       "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-11-09T18:19:00.845720+00:00",
+      "discovery_lens": "underserved_buyers",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The U.S. Commercial Service identifies Chilean opportunities for smart agriculture, automation and after-sales maintenance, and reports a 2025 agriculture program with a stated US$50 million budget.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Chile - Agricultural Equipment",
+          "url": "https://www.trade.gov/knowledge-product/chile-agricultural-machinery-and-equipment"
+        },
+        {
+          "claim": "A Chile-facing listing shows a public price of CLP 80,000 and states that the seller can customize the kit with programmers and electric valves and provide technical assistance.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Kit de Riego por Goteo 300 Metros - MercadoLibre Chile",
+          "url": "https://www.mercadolibre.cl/kit-de-riego-por-goteo-300-metros/up/MLCU3697964384"
+        },
+        {
+          "claim": "Universidad de Talca reports a low-water horticultural production system and identifies producer interest in the technology.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Inauguran sistema que produce hortalizas todo el año con bajo consumo hídrico - Universidad de Talca",
+          "url": "https://www.utalca.cl/noticias/inauguran-sistema-que-produce-hortalizas-todo-el-ano-con-bajo-consumo-hidrico/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.76,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_82838b5800630d925c53",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-09T18:19:00.902909+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Falsification test: select one crop or greenhouse application and build a costed prototype from currently listed components; publish the bill of materials and a before/after measurement plan; approach three local growers or irrigation contractors identified through public directories and request permission for a small pilot. Do not install or claim access without written permission. Check ChileCompra/CNR procurement notices and agricultural-program eligibility before pursuing public-sector sales. A first paid transaction can be tested through MercadoLibre or direct quotation, using the displayed product prices only as procurement references.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The executable wedge is not generic agricultural consulting: assemble and configure a small, documented retrofit for one crop block, greenhouse or pump zone using locally purchasable drip components, a timer/controller and optional flow or energy monitoring. The payer would plausibly be a small grower, greenhouse operator, landscaping contractor or irrigation installer; no specific buyer or willingness to pay is established by the evidence.",
+      "title": "Chile: irrigation-kit retrofit and technical configuration for small farms and greenhouses",
+      "type": "productized_retrofit",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell a defined bill of materials, configuration and installation coordination, with revenue from product margin and a separately priced commissioning visit. Avoid claiming water savings until measured against a baseline. Compete on crop-specific configuration, Spanish documentation and post-install troubleshooting rather than on commodity tubing price.",
+      "verified_sales": null,
+      "vertical": "chile_localization",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-11-09T18:19:00.846555+00:00",
+      "discovery_lens": "underserved_buyers",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Transbank documents a Webpay payment-link product for merchants selling online without their own website and describes QR-based contactless payments.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "¿Cómo vender sin tener página web? - Transbank",
+          "url": "https://publico.transbank.cl/es/web/centro-de-ayuda//como-vender-online-desde-celular"
+        },
+        {
+          "claim": "Transbank documents NFC card and digital-wallet acceptance on its Smart POS equipment.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Guía de uso Smart POS, enero 2025 - Transbank",
+          "url": "https://publico.transbank.cl/documents/20129/47886099/GUIA%2BDE%2BUSO%2BSMART%2BPOS%2B2025.pdf"
+        },
+        {
+          "claim": "Multiple NFC sticker products are publicly listed in Chile with visible prices and quantities.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "NFC Sticker - MercadoLibre Chile",
+          "url": "https://listado.mercadolibre.cl/nfc-sticker"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.79,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_f12f2bcd2619c1f61247",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-09T18:19:00.902765+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Falsification test: buy a small batch of publicly listed NFC tags; create one demo that resolves to a legitimate test page or an authorized merchant’s existing link; ask three named small merchants for written permission to run a two-week comparison against their current sign or QR. Track scans and completed actions. Stop if merchants will not permit the test or if the NFC route adds no measurable usage over the existing QR/link. Do not represent the kit as a Transbank product or imply payment-processing approval beyond the merchant’s existing account.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The narrow testable offer is a low-cost merchant kit: a durable NFC/QR tabletop sign or product card that opens a merchant’s existing payment link, menu, booking page or review page, with setup and replacement included. The cash-flow source would be direct purchase by micro-merchants, but no buyer, conversion lift or recurring demand is verified.",
+      "title": "Chile: NFC-enabled conversion kits for existing small merchants",
+      "type": "physical_distribution",
+      "unknowns": [],
+      "value_capture_mechanism": "Charge for physical signage, tag programming and setup; use Transbank’s existing payment-link or merchant tools rather than handling funds or inventing a new payment service. The economic case must be demonstrated by measured scans, clicks or completed transactions, not assumed convenience.",
+      "verified_sales": null,
+      "vertical": "ecommerce_niches",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -12988,13 +13198,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-09T04:40:41.865229+00:00",
+  "generated_at": "2026-11-09T18:19:34.514348+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 105,
-  "reviewed_cards": 84,
+  "reviewed_cards": 85,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 289,
-  "watch": 184
+  "total_distinct_opportunities": 292,
+  "watch": 187
 }

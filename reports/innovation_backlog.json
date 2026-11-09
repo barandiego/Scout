@@ -189,6 +189,43 @@
       "category": "chile_localization",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Falsification test: select one crop or greenhouse application and build a costed prototype from currently listed components; publish the bill of materials and a before/after measurement plan; approach three local growers or irrigation contractors identified through public directories and request permission for a small pilot. Do not install or claim access without written permission. Check ChileCompra/CNR procurement notices and agricultural-program eligibility before pursuing public-sector sales. A first paid transaction can be tested through MercadoLibre or direct quotation, using the displayed product prices only as procurement references.",
+      "current_thesis": "The executable wedge is not generic agricultural consulting: assemble and configure a small, documented retrofit for one crop block, greenhouse or pump zone using locally purchasable drip components, a timer/controller and optional flow or energy monitoring. The payer would plausibly be a small grower, greenhouse operator, landscaping contractor or irrigation installer; no specific buyer or willingness to pay is established by the evidence.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile: irrigation-kit retrofit and technical configuration for small farms and greenhouses",
+      "opportunity_id": "opp_82838b5800630d925c53",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Find the smallest Chilean workflow whose economics differ from the original geography.",
+        "Secure lawful access, partners and after-sales support rather than copy protected technology.",
+        "Run a buyer interview or mock listing to falsify assumptions before capital commitment."
+      ],
+      "supporting_source_urls": [
+        "https://www.trade.gov/knowledge-product/chile-agricultural-machinery-and-equipment",
+        "https://www.mercadolibre.cl/kit-de-riego-por-goteo-300-metros/up/MLCU3697964384",
+        "https://www.utalca.cl/noticias/inauguran-sistema-que-produce-hortalizas-todo-el-ano-con-bajo-consumo-hidrico/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a defined bill of materials, configuration and installation coordination, with revenue from product margin and a separately priced commissioning visit. Avoid claiming water savings until measured against a baseline. Compete on crop-specific configuration, Spanish documentation and post-install troubleshooting rather than on commodity tubing price.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "chile_localization",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Apply through CrowdGen’s official Lever page, confirming current Chile residence and native Chilean Spanish status. Before recording all units, verify the project account, acceptance criteria and payout conditions. Lowest-cost falsification: apply, complete any qualification sample, and calculate actual minutes per accepted sentence; proceed only if the effective rate and payout terms are acceptable. No fee or deposit is indicated in the listing.",
       "current_thesis": "This is a narrowly defined, low-complexity data-collection assignment with a verifiable piece-rate mechanism. At the listed rate, 400 completed units would imply USD 12 gross before any applicable taxes or payment constraints, but completion time and acceptance are unknown; therefore it is a small paid test rather than a reliable income source.",
       "founder_hours_initial_unverified_estimate": "",
@@ -696,6 +733,43 @@
       "category": "ecommerce_niches",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Falsification test: buy a small batch of publicly listed NFC tags; create one demo that resolves to a legitimate test page or an authorized merchant’s existing link; ask three named small merchants for written permission to run a two-week comparison against their current sign or QR. Track scans and completed actions. Stop if merchants will not permit the test or if the NFC route adds no measurable usage over the existing QR/link. Do not represent the kit as a Transbank product or imply payment-processing approval beyond the merchant’s existing account.",
+      "current_thesis": "The narrow testable offer is a low-cost merchant kit: a durable NFC/QR tabletop sign or product card that opens a merchant’s existing payment link, menu, booking page or review page, with setup and replacement included. The cash-flow source would be direct purchase by micro-merchants, but no buyer, conversion lift or recurring demand is verified.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile: NFC-enabled conversion kits for existing small merchants",
+      "opportunity_id": "opp_f12f2bcd2619c1f61247",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Target a specific neglected customer subgroup with a measurable unmet product requirement.",
+        "Compare imported/private-label, inventoryless fulfillment and existing domestic suppliers after landed costs.",
+        "Test one narrower search/intention channel before expanding catalog or buying inventory."
+      ],
+      "supporting_source_urls": [
+        "https://publico.transbank.cl/es/web/centro-de-ayuda//como-vender-online-desde-celular",
+        "https://publico.transbank.cl/documents/20129/47886099/GUIA%2BDE%2BUSO%2BSMART%2BPOS%2B2025.pdf",
+        "https://listado.mercadolibre.cl/nfc-sticker"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Charge for physical signage, tag programming and setup; use Transbank’s existing payment-link or merchant tools rather than handling funds or inventing a new payment service. The economic case must be demonstrated by measured scans, clicks or completed transactions, not assumed convenience.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "ecommerce_niches",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Approach one small Chilean seller with a documented returns problem and request a no-purchase pilot of 10–30 units from a single category. Record condition, handling cost, time to relist, sale price, refunds, and unsold inventory. Use the seller’s existing marketplace account or a pre-approved outlet rather than assuming permission to resell. Falsify at the lowest cost by asking five sellers for anonymized counts of returned units and whether they would release a small batch on consignment; stop if no seller provides inventory, resale permissions, or a verifiable disposition price.",
       "current_thesis": "There may be recoverable value in returned, refused, or lightly damaged inventory, but the evidence does not establish a standalone Chilean market, buyer, or margin. The executable wedge is a tightly bounded consignment experiment with one seller and one category, not a broad returns marketplace.",
       "founder_hours_initial_unverified_estimate": "",
@@ -1095,6 +1169,46 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Sell a narrowly defined downloadable screening pack or per-project analysis containing plant-level curtailment history, hourly concentration, downloadable data, and a transparent methodology. Any recurring price, buyer conversion, or project revenue remains unverified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "energy_infrastructure",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Falsification test: purchase one listed three-phase or single-phase meter only after confirming electrical compatibility; prepare a one-page sample report using public data or a bench test; contact three identifiable Chilean solar installers, pump-maintenance firms or small commercial operators and ask whether they currently pay for load measurement before proposing storage or troubleshooting. Proceed only if at least one provides written permission for a paid or unpaid pilot and a qualified person can perform the electrical work. Separately check the current SEC installation and certification requirements before any field deployment. The public purchase route is MercadoLibre Chile; the regulatory participation route is SEC guidance and installer networks.",
+      "current_thesis": "A small operator could test a narrow commissioning and measurement package for existing solar, pump, refrigeration or small industrial installations: install a non-invasive energy meter where legally and technically appropriate, produce a 7- to 14-day load profile, and identify whether storage, tariff changes or equipment maintenance merits further engineering. The economic mechanism is paid diagnostic work and possible equipment resale, not assumed energy savings.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Whether the target sites lack usable interval, inverter, submeter, or utility data.",
+        "Whether Chilean small commercial customers will pay for measurement before receiving a quantified savings or reliability claim.",
+        "Actual all-in cost of a compliant pilot, including certified electrical labor, travel, insurance, communications, configuration, data hosting, reporting, and device failure.",
+        "Which meter models are SEC-certified or otherwise lawful and technically suitable for the intended installation; marketplace availability does not establish regulatory acceptability.",
+        "Whether a 7- to 14-day period produces decisions that remain valid across seasonal and operational variation.",
+        "Whether the service can legally install or connect equipment without the operator holding an appropriate SEC installer license.",
+        "Customer acquisition cost and access to decision-makers at small commercial sites."
+      ],
+      "investment_authorized": false,
+      "name": "Chile: low-cost energy submetering and BESS-readiness checks for small commercial sites",
+      "opportunity_id": "opp_5a23e89484d6425716fb",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
+        "Compare owned asset, installer/distributor and project-finance participation.",
+        "Verify permits and installed net payback under conservative power price scenarios."
+      ],
+      "supporting_source_urls": [
+        "https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/",
+        "https://listado.mercadolibre.cl/medidor-de-energia-wifi"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Charge for a fixed measurement-and-reporting engagement plus the hardware at the publicly observable retail price; do not promise savings before a baseline is collected. A later opportunity could be referral or installation work with a qualified electrical professional, subject to applicable Chilean licensing and SEC requirements.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -7011,7 +7125,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-09T04:40:41.998262+00:00",
+  "generated_at": "2026-11-09T18:19:34.587839+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

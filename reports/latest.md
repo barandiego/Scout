@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-09T04:40:41.467473+00:00
+Generated: 2026-11-09T18:19:34.265590+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['cost_curve', 'open_finance_chile', 'adoption_lag']
+- lenses: ['underserved_buyers', 'seller_supply_gap', 'chile_technology_import']
 - raw_candidates: 3
 - parseable_candidates: 3
 - normalized_candidates: 3
 - normalization_rejected: 0
-- grounded_sources: 6
+- grounded_sources: 8
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 0
+- judge_attempts: 1
 - critic_reviews: 1
-- judge_reviews: 0
+- judge_reviews: 1
 - survivors: 0
 - watches: 3
-- rejected: 1
+- rejected: 0
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.02985325
+- cost_usd: 0.05896085
 - cost_uncertain: False
-- budget_remaining_usd: 0.05014675
+- budget_remaining_usd: 0.02103915
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,9 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- NFC review-and-contact displays: only a testable local resale wedge, not a seller-scarcity claim: deferred_by_review_cap
-- Chile Open-Finance API conformance harness for smaller participants: deferred_by_review_cap
-- CNR-qualified irrigation retrofit package for small farms and water-user organizations: deferred_by_review_cap
 - Curtailment-led battery feasibility wedge for Chilean PMGD solar assets: deferred_by_review_cap
 - ATENA-ready interoperability test harness for Chilean open-finance participants: deferred_by_review_cap
 - Merger-arbitrage screening around the Paramount-Warner Bros. Discovery transaction: deferred_by_review_cap
@@ -51,13 +48,16 @@ No survivors. Scout does not manufacture a daily winner.
 - Chile SFA technical-conformance testing and consent-flow tooling for smaller financial institutions: deferred_by_review_cap
 - Parts, field-service and refill-station support around commercial agricultural robots: deferred_by_review_cap
 - Batch-inference cost arbitrage using interruptible GPU capacity: deferred_by_review_cap
+- Chile: NFC-enabled conversion kits for existing small merchants: deferred_by_review_cap
+- Chile: irrigation-kit retrofit and technical configuration for small farms and greenhouses: deferred_by_review_cap
+- Chile: low-cost energy submetering and BESS-readiness checks for small commercial sites: This is a legitimately narrow, falsifiable service hypothesis rather than an unsupported BESS investment claim: the immediate payer would be a small commercial/industrial site purchasing a diagnostic, while BESS is only a possible later recommendation. Official SEC material supports that compliance and qualified-installation issues are real and relevant, and meter supply is observable. However, there is no named customer, asset operator, bottleneck, or paying load; no demonstrated willingness to pay; no compliant installed workflow; and no proof that a short measurement window yields decisions worth more than the diagnostic. It therefore does not yet meet the rubric’s economics, local feasibility, or differentiated-wedge requirements, but it is not fatally disproven because a paid diagnostic can be tested without underwriting storage economics or making bankability claims.
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=backlog",
-    "research_queue_unreviewed=91"
+    "deep_review_lane=fresh",
+    "research_queue_unreviewed=93"
   ],
   "stages": [
     {
@@ -65,51 +65,54 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 43,
+      "grounded_source_count": 46,
       "search_source_urls": [
-        "https://agriculturalhumanoids.com/",
-        "https://apnews.com/article/7d542b5ee92caa9d79efa28de89afbbe",
-        "https://arxiv.org/abs/2405.21015",
-        "https://arxiv.org/abs/2504.20189",
-        "https://arxiv.org/abs/2509.20241",
-        "https://arxiv.org/abs/2509.25056",
-        "https://cloud.google.com/products/compute/gpus-pricing?hl=en",
-        "https://computecensus.com/guides/are-gpu-prices-going-up/",
-        "https://docs.cloud.google.com/docs/compute-area/gpus",
-        "https://docs.digitalocean.com/products/inference/details/pricing/",
-        "https://en.wikipedia.org/wiki/Aerobotics",
-        "https://en.wikipedia.org/wiki/Bedrock_Robotics",
-        "https://en.wikipedia.org/wiki/FarmWise",
-        "https://en.wikipedia.org/wiki/Solinftec",
-        "https://en.wikipedia.org/wiki/TTA-ISO",
-        "https://grf-smartfarm.dpi.qld.gov.au/2025-AgtechShowcase-Booklet-WEB.pdf",
-        "https://hai-production.s3.amazonaws.com/files/hai_ai_index_report_2025.pdf?7504590f_page=5",
-        "https://orbibarobotics.com/en",
-        "https://web-assets.bcg.com/f7/14/83ae5e934701880e7112cbdcda31/price-swings-sovereignty-demands-and-wasted-resources-aug2025.pdf",
-        "https://www.axios.com/local/pittsburgh/2025/05/06/pittsburgh-aurora-driverless-trucks-texas",
-        "https://www.axios.com/local/seattle/2026/10/23/yakima-valley-reservoir-farms-ai-robot-testing-apple-harvest",
-        "https://www.cmfchile.cl/educa/621/w3-article-85051.html",
-        "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa_tramite_ver_archivo.php?id=2024041585&seq=1",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.itpro.com/cloud/iaas/gpu-as-a-service-should-enterprise-it-rent-or-own-ai-compute",
-        "https://www.max-robotics.com/en/companies/bonsai-robotics",
-        "https://www.nvidia.com/en-us/solutions/ai/inference/",
-        "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/developments-in-artificial-intelligence-markets-new-indicators-based-on-model-characteristics-prices-and-providers_75e50b2a/9302bf46-en.pdf",
-        "https://www.reddit.com/r/Cloud/comments/1x5lyxi/what_i_actually_learned_trying_to_save_money_on/",
-        "https://www.reddit.com/r/LocalLLM/comments/1xf0xun/i_ran_local_ai_inference_amd_gpu_for_30_days_and/",
-        "https://www.reddit.com/r/RobotMowerAdvice/comments/1xbssnl/pandag_g1_returns_to_equip_expo_with_two_48inch/",
-        "https://www.reddit.com/r/deeplearning/comments/1qnjwdq/cloud_gpu_prices_vary_up_to_138x_for_h100s_i/",
-        "https://www.reddit.com/r/deeplearning/comments/1ve8734/i_tracked_cloud_gpu_rental_prices_for_2_years/",
-        "https://www.sec.gov/Archives/edgar/data/1760404/000110465926104951/tm2617498d6_partiiandiii.htm",
-        "https://www.solinftec.com/en-us/solinftec-to-launch-ag-robotics-first-amazon-parts-store-as-us-solix/",
-        "https://www.techradar.com/computing/gpu/the-probability-is-extremely-high-that-nvidias-rumored-rtx-5080-super-has-been-delayed-and-with-gpu-prices-rocketing-upwards-the-future-looks-bleak",
-        "https://www.techradar.com/pro/apple-will-now-sell-you-a-mac-studio-with-512gb-of-ram-but-itll-cost-you-as-much-as-a-good-sized-family-car",
-        "https://www.techradar.com/pro/inference-pushes-ai-out-of-the-data-center",
-        "https://www.techradar.com/pro/the-uks-ai-strategy-is-missing-one-crucial-piece-compute",
-        "https://www.techradar.com/pro/we-were-highly-skeptical-about-the-cost-of-ai-revolut-reveals-it-cut-ai-coding-costs-by-cutting-out-claude-entirely",
-        "https://www.tomshardware.com/desktops/mini-pcs/amazon-closes-ai-creators-account-after-he-attempts-to-buy-seven-nvidia-dgx-spark-mini-pcs-epic-ceo-tim-sweeney-says-his-regular-orders-were-canceled-before-arrival-after-he-tried-to-buy-two-gpus",
-        "https://www.tomshardware.com/tech-industry/artificial-intelligence/tesla-unveils-ai-accelerator-roadmap-adopts-new-si-branding-in-super-intelligence-push-si6-to-bring-80x-more-compute-performance-dojo-3-headed-to-space",
-        "https://www.usenix.org/system/files/atc24-luo.pdf"
+        "https://apnews.com/article/df6087837925c14cfdd7ad2f80410a54",
+        "https://blog.investchile.gob.cl/archivo-en/chile-tech-agriculture",
+        "https://blog.investchile.gob.cl/bloges/chile-tecnologia-agricola",
+        "https://cdn.hacienda.cl/asset/hacienda_prod/attachment/ad59574b1fa33f62f70bdfefad34a348b5dfa5463ab842c9120bd36feeed9090/1773165453?_expiration=1778719270&_hash=I5QThYRY6vDNfYa0hU-K7WKQvEzz74lAs265WdqHCjQ",
+        "https://cincodias.elpais.com/companias/2025-05-19/grenergy-firma-un-nuevo-contrato-de-energia-verde-en-chile-de-390-gwh.html",
+        "https://cincodias.elpais.com/companias/2026-09-02/grenergy-cierra-la-venta-a-cvc-dif-de-la-cuarta-fase-de-su-proyecto-de-almacenamiento-en-chile-por-410-millones.html",
+        "https://cincodias.elpais.com/companias/2026-10-09/grenergy-cierra-una-financiacion-de-457-millones-para-impulsar-nuevos-proyectos-renovables-en-chile.html",
+        "https://docs.shuttleglobal.com/payment-providers/transbank/",
+        "https://elpais.com/chile/2025-07-04/los-pagos-con-tarjetas-telefonos-y-plataformas-digitales-ganan-terreno-en-chile.html",
+        "https://elpais.com/chile/branded/2026-01-27/universidad-de-tarapaca-investiga-como-adaptar-la-agricultura-al-clima-extremo-del-norte-chileno.html",
+        "https://es.wikipedia.org/wiki/Hydrone",
+        "https://ir.transbank.cl/documents/20396514/20647597/Memoria%2BCorporativa%2BIntegrada%2B2022.pdf/4b952f80-43e2-0945-e589-dbe649975360?download=true&t=1712615334804&version=2.1",
+        "https://ir.transbank.cl/documents/20396514/50981132/Memoria%2BCorporativa%2BIntegrada%2B2024.pdf/cabc4c0f-6dfa-f89e-9ee4-8feedd945609?download=true&t=1748897375381&version=1.0",
+        "https://ir.transbank.cl/estas-son-las-5-claves-que-est%C3%A1n-transformando-la-experiencia-de-pago",
+        "https://ir.transbank.cl/transbank-lanza-soluci%C3%B3n-de-pagos-tokenizados-para-fortalecer-el-e-commerce-en-chile",
+        "https://listado.mercadolibre.cl/kit-sistema-riego-automatico",
+        "https://listado.mercadolibre.cl/medidor-de-energ%C3%ADa-wifi",
+        "https://listado.mercadolibre.cl/medidor-de-energia-wifi",
+        "https://listado.mercadolibre.cl/medidor-energia-wifi",
+        "https://listado.mercadolibre.cl/nfc-etiqueta",
+        "https://listado.mercadolibre.cl/nfc-sticker",
+        "https://listado.mercadolibre.cl/riego-automatizado",
+        "https://listado.mercadolibre.cl/sistema-de-riego",
+        "https://listado.mercadolibre.cl/sistema-de-riego-automatizado",
+        "https://publico.transbank.cl/documents/20129/47886099/GUIA%2BDE%2BUSO%2BSMART%2BPOS%2B2025.pdf",
+        "https://publico.transbank.cl/es/web/centro-de-ayuda//como-vender-online-desde-celular",
+        "https://tools.investchile.gob.cl/hubfs/LEGAL%20REPORT/Legal%20Report%20InvestChile%20October%202025.pdf?hsLang=en-gb",
+        "https://www.bcn.cl/leychile/navegar?idNorma=1150437&idVersion=2026-07-14",
+        "https://www.chilecompra.cl/wp-content/uploads/2020/05/Manual-de-procedim.-Comisi%C3%B3n-Nacional-de-Riego.pdf",
+        "https://www.chilecompra.cl/wp-content/uploads/2025/03/Manual-Adquisiciones-Comision-Nacional-de-Riego.pdf",
+        "https://www.chilecompra.cl/wp-content/uploads/2025/10/Bases-Tipo-Contact-Center.pdf",
+        "https://www.mercadolibre.cl/kit-de-riego-por-goteo-300-metros/up/MLCU3697964384",
+        "https://www.mercadolibre.cl/kit-de-riego-sistema-automatico-goteo-o-aspersor-40m-158pcs/p/MLC37849166?pdp_filters=SHIPPING_ORIGIN%3A10215068%7Cofficial_store%3Aall",
+        "https://www.mercadolibre.cl/kit-riego-automatico-goteo-indoor-rainpoint-plantas-macetas/p/MLC72702048?pdp_filters=deal%3AMLC779365-1",
+        "https://www.reddit.com/r/chile/comments/u6h6l6",
+        "https://www.reddit.com/r/chileIT/comments/1awc90t",
+        "https://www.reddit.com/r/chileIT/comments/1er05w0",
+        "https://www.reddit.com/r/chileIT/comments/1mg5158",
+        "https://www.reddit.com/r/chileIT/comments/1rjc0o9/que_opinan_sobre_la_pasarela_de_pago_flow/",
+        "https://www.reddit.com/r/chileIT/comments/1xgukzg/pasarelas_de_pago_problema_en_chile/",
+        "https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/",
+        "https://www.sec.cl/pequenos-medios-de-generacion/",
+        "https://www.subtrab.gob.cl/wp-content/uploads/2025/01/Informe_Incorporacio%CC%81n-de-tecnologi%CC%81as-en-el-Mundo-Agri%CC%81cola-16.12.2024.pdf",
+        "https://www.trade.gov/knowledge-product/chile-agricultural-machinery-and-equipment",
+        "https://www.uc.cl/en/news/uc-chile-researchers-develop-an-ai-powered-harvesting-robot/",
+        "https://www.utalca.cl/noticias/inauguran-sistema-que-produce-hortalizas-todo-el-ano-con-bajo-consumo-hidrico/"
       ]
     },
     {
@@ -139,7 +142,7 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 2,
+      "grounded_sources": 3,
       "retry_justified": false
     },
     {
@@ -154,98 +157,115 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 2,
+      "grounded_sources": 3,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_c8a7ce7acdf289eff270",
+      "candidate_id": "opp_5a23e89484d6425716fb",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 43,
+      "grounded_source_count": 34,
       "search_source_urls": [
-        "https://abacco.ai/",
-        "https://alfapeople.com/es/wp-content/uploads/sites/15/2022/09/CHILE-ESP-Brochure.pdf",
-        "https://apipyme.cl/",
-        "https://apipyme.cl/planes/",
-        "https://contando.cl/",
-        "https://contando.cl/software-contable",
-        "https://datario.cl/precios",
-        "https://en.wikipedia.org/wiki/Comparison_of_accounting_software",
-        "https://en.wikipedia.org/wiki/FloQast",
-        "https://en.wikipedia.org/wiki/List_of_ERP_software_packages",
-        "https://en.wikipedia.org/wiki/List_of_free_and_open-source_software_packages",
-        "https://en.wikipedia.org/wiki/Tipalti",
-        "https://en.wikipedia.org/wiki/Tryton",
-        "https://info.buk.cl/hubfs/partners-cl/Onepage%20Clay-BUK%202025.pdf",
-        "https://logicware.cl/desarrolladores/",
-        "https://muermo.cl/",
-        "https://spiralway.cl/en/plataformas/siimaster",
-        "https://us.v-cdn.net/6032262/uploads/G17GK9W7P1C1/releasenotes-2026-1-0.pdf",
-        "https://vessi.cl/hubfs/VessiAPI-Negocios%20B2B_compressed%20%281%29.pdf?hsLang=es-cl",
-        "https://vitrinapyme.cl/erp",
-        "https://www.capterra.com/p/10262834/Timbra/",
-        "https://www.clay.cl/blog/api-bancaria-y-sii-chile",
-        "https://www.oracle.com/nz/a/ocom/docs/netsuite-cloud-services-sd.pdf",
-        "https://www.reddit.com/r/ChileStartup/comments/1x6kock/las_pymes_detectan_a_tiempo_sus_problemas_de_caja/",
-        "https://www.reddit.com/r/FinanzasChile/comments/1v0rm8t/para_empresas_peque%C3%B1as_o_medianas_cual_software/",
-        "https://www.reddit.com/r/chileIT/comments/1gvz6nx",
-        "https://www.reddit.com/r/chileIT/comments/1ifvct6/software_minimarket_boletas_sii/",
-        "https://www.reddit.com/r/chileIT/comments/1ikedxa",
-        "https://www.reddit.com/r/chileIT/comments/1onbg7q/otro_m%C3%A1s_aburrido_del_sii_que_arm%C3%B3_un_bot_de/",
-        "https://www.reddit.com/r/chileIT/comments/1p6l4gn/api_sii/",
-        "https://www.reddit.com/r/chileIT/comments/1q51kbh/visualizaci%C3%B3n_info_sii_empresa/",
-        "https://www.reddit.com/r/chileIT/comments/1r942en/integraci%C3%B3n_sii_dashboard/",
-        "https://www.reddit.com/r/chileIT/comments/1rjqpio/api_sii/",
-        "https://www.reddit.com/r/chileIT/comments/1sahep1/elecci%C3%B3n_de_erp/",
-        "https://www.reddit.com/r/chileIT/comments/1vfp56i/hicimos_notta_el_sii_como_api_rest_cli_y_mcp/",
-        "https://www.sifactura.cl/",
-        "https://www.sifactura.com/cl/",
-        "https://www.sii.cl/normativa_legislacion/resoluciones/2024/reso26.pdf?share=print",
-        "https://www.techradar.com/best/accounting-software-small-business",
-        "https://www.techradar.com/pro/software-services/boost-your-business-why-frontaccounting-is-the-web-based-accounting-solution-you-need",
-        "https://www.techradar.com/reviews/insightly-crm-review",
-        "https://www.techradar.com/reviews/workbooks-review",
-        "https://www.tupana.ai/integraciones-bancarias-y-sii"
+        "https://cincodias.elpais.com/companias/2026-03-03/la-espanola-solarig-cierra-un-acuerdo-con-tesla-para-el-mantenimiento-de-sus-baterias-estacionarias-en-chile.html",
+        "https://elpais.com/america-futura/2024-12-19/la-caida-de-los-precios-de-las-baterias-impulsa-un-boom-de-almacenamiento-de-energia-limpia.html",
+        "https://elpais.com/chile/2024-09-23/el-desierto-de-atacama-saca-musculo-de-la-mayor-radiacion-solar-del-planeta.html",
+        "https://elpais.com/chile/2026-07-07/cuanto-subira-la-cuenta-de-la-luz-en-chile-revise-el-alza-de-este-mes-y-como-calcular-la-boleta.html",
+        "https://elpais.com/chile/2026-07-16/ordenar-la-cuenta-electrica-con-un-cheque-en-blanco.html",
+        "https://en.wikipedia.org/wiki/Load_profile",
+        "https://en.wikipedia.org/wiki/Measurement_category",
+        "https://es.wikipedia.org/wiki/Superintendencia_de_Electricidad_y_Combustibles",
+        "https://intertel.cl/normativa.html",
+        "https://sec.custhelp.com/app/answers/detail/a_id/1285/kw/instalar%20medidor",
+        "https://wlhttp.sec.cl/rnii/logout/?r=lpu",
+        "https://www.bcn.cl/leychile/navegar?idNorma=1137997",
+        "https://www.bcn.cl/leychile/navegar?idNorma=124102&idVersion=2008-08-04",
+        "https://www.chileatiende.gob.cl/fichas/2662/1/pdf",
+        "https://www.itpro.com/infrastructure/data-centres/is-bess-the-key-to-data-center-energy-demand",
+        "https://www.reddit.com/r/AskChile/comments/1wv024m/mantenci%C3%B3n_de_tablero_el%C3%A9ctrico/",
+        "https://www.reddit.com/r/RepublicadeChile/comments/11mw1n1",
+        "https://www.reddit.com/r/Santiago/comments/1ahu1f9",
+        "https://www.reddit.com/r/chile/comments/1dfe9pd/certificaciones_de_instaladores_e_inspectores_sec/",
+        "https://www.reddit.com/r/chile/comments/1rhn8a9/electricistas_de_reddit_aumento_amperaje_del/",
+        "https://www.reddit.com/r/chile/comments/1t4lu41/medidor_de_electricidad/",
+        "https://www.reddit.com/r/chileIT/comments/1qau7ex/normas_de_videovigilancia/",
+        "https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/",
+        "https://www.sec.cl/area-instaladores/instaladores-electricos/",
+        "https://www.sec.cl/buenas-practicas-te4-y-te6-2025/?view_full_site=true",
+        "https://www.sec.cl/centro-de-descargas/",
+        "https://www.sec.cl/sistema-de-certificacion-de-productos-sec/",
+        "https://www.sec.cl/sitio-web/wp-content/uploads/2020/08/respuestas-consulta-publica-RESOLUCION-EXENTA-33156.pdf",
+        "https://www.sec.cl/sitio-web/wp-content/uploads/2021/01/RIC-N17-Operacion-y-Mantenimiento.pdf",
+        "https://www.sec.cl/sitio-web/wp-content/uploads/2021/06/RIC-N19-Puesta-en-Servicio-080621.pdf",
+        "https://www.sec.cl/sitio-web/wp-content/uploads/2024/09/Comunicacion-de-instalaciones-FV-Residenciales-buenas-y-malas-practicas.pdf",
+        "https://www.sec.cl/sitio-web/wp-content/uploads/2025/01/RGR-N-06-2024_v4.pdf",
+        "https://www.sec.cl/tramites-de-sec-2/",
+        "https://www.sec.cl/wpfd_file/rgr_n_06-2024_v4_rex_33038/"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_c8a7ce7acdf289eff270",
+      "candidate_id": "opp_5a23e89484d6425716fb",
       "coercions": [
-        "critic_case",
         "contrary_evidence"
       ]
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_5a23e89484d6425716fb",
+      "response_status": "completed",
+      "incomplete_reason": "",
+      "grounded_source_count": 0,
+      "search_source_urls": []
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_5a23e89484d6425716fb",
+      "coercions": []
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 172,
-      "cache_write_tokens": 5453,
+      "reasoning_tokens": 516,
+      "cache_write_tokens": 4867,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01513065,
+      "cumulative_cost_usd": 0.02740815,
       "model": "gpt-5.6-luna",
-      "input_tokens": 14054,
+      "input_tokens": 21832,
       "cached_tokens": 0,
-      "output_tokens": 1706,
-      "web_search_calls": 1,
-      "estimated_cost_usd": 0.01513065
+      "output_tokens": 2332,
+      "web_search_calls": 2,
+      "estimated_cost_usd": 0.02740815
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 166,
-      "cache_write_tokens": 5284,
+      "reasoning_tokens": 159,
+      "cache_write_tokens": 5308,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02985325,
+      "cumulative_cost_usd": 0.04216535,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13994,
+      "input_tokens": 13927,
       "cached_tokens": 0,
-      "output_tokens": 1383,
+      "output_tokens": 1422,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0147226
+      "estimated_cost_usd": 0.0147572
+    },
+    {
+      "stage": "judge",
+      "available": true,
+      "reasoning_tokens": 178,
+      "cache_write_tokens": 3423,
+      "accounting_notes": [],
+      "cumulative_cost_usd": 0.05896085,
+      "model": "gpt-5.6-terra",
+      "input_tokens": 3426,
+      "cached_tokens": 0,
+      "output_tokens": 686,
+      "web_search_calls": 0,
+      "estimated_cost_usd": 0.0167955
     }
   ]
 }

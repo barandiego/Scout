@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 184
+Candidates: 187
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -63,6 +63,18 @@ Candidates: 184
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.sii.cl/destacados/iva_bienes/; https://www.aduanadechile.gov.cl/aduana/site/docs/20250627/20250627110135/cuenta_publica_2025_gestion_2024_1.pdf
+
+## Chile: irrigation-kit retrofit and technical configuration for small farms and greenhouses
+- Status: watch | chile_localization
+- Current idea: The executable wedge is not generic agricultural consulting: assemble and configure a small, documented retrofit for one crop block, greenhouse or pump zone using locally purchasable drip components, a timer/controller and optional flow or energy monitoring. The payer would plausibly be a small grower, greenhouse operator, landscaping contractor or irrigation installer; no specific buyer or willingness to pay is established by the evidence.
+- Potential economic capture: Sell a defined bill of materials, configuration and installation coordination, with revenue from product margin and a separately priced commissioning visit. Avoid claiming water savings until measured against a baseline. Compete on crop-specific configuration, Spanish documentation and post-install troubleshooting rather than on commodity tubing price.
+- **Research routes to test (NOT validated claims):**
+  - Find the smallest Chilean workflow whose economics differ from the original geography.
+  - Secure lawful access, partners and after-sales support rather than copy protected technology.
+  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.trade.gov/knowledge-product/chile-agricultural-machinery-and-equipment; https://www.mercadolibre.cl/kit-de-riego-por-goteo-300-metros/up/MLCU3697964384; https://www.utalca.cl/noticias/inauguran-sistema-que-produce-hortalizas-todo-el-ano-con-bajo-consumo-hidrico/
 
 ## Chilean Spanish speech-data recording project — CrowdGen by Appen
 - Status: watch | chile_localization
@@ -232,6 +244,18 @@ Candidates: 184
 - Possible initial budget:
 - Source URLs: https://catalog.data.gov/dataset/results-from-a-2023-survey-of-manufacturing-automation-amongst-small-and-medium-enterprise; https://lead.nc.gov/employer-needs-survey/manufacturing/
 
+## Chile: NFC-enabled conversion kits for existing small merchants
+- Status: watch | ecommerce_niches
+- Current idea: The narrow testable offer is a low-cost merchant kit: a durable NFC/QR tabletop sign or product card that opens a merchant’s existing payment link, menu, booking page or review page, with setup and replacement included. The cash-flow source would be direct purchase by micro-merchants, but no buyer, conversion lift or recurring demand is verified.
+- Potential economic capture: Charge for physical signage, tag programming and setup; use Transbank’s existing payment-link or merchant tools rather than handling funds or inventing a new payment service. The economic case must be demonstrated by measured scans, clicks or completed transactions, not assumed convenience.
+- **Research routes to test (NOT validated claims):**
+  - Target a specific neglected customer subgroup with a measurable unmet product requirement.
+  - Compare imported/private-label, inventoryless fulfillment and existing domestic suppliers after landed costs.
+  - Test one narrower search/intention channel before expanding catalog or buying inventory.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://publico.transbank.cl/es/web/centro-de-ayuda//como-vender-online-desde-celular; https://publico.transbank.cl/documents/20129/47886099/GUIA%2BDE%2BUSO%2BSMART%2BPOS%2B2025.pdf; https://listado.mercadolibre.cl/nfc-sticker
+
 ## Narrow Chilean e-commerce returns-recovery test for one product category
 - Status: watch | ecommerce_niches
 - Current idea: There may be recoverable value in returned, refused, or lightly damaged inventory, but the evidence does not establish a standalone Chilean market, buyer, or margin. The executable wedge is a tightly bounded consignment experiment with one seller and one category, not a broad returns marketplace.
@@ -363,6 +387,18 @@ Candidates: 184
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://zenodo.org/records/21652187; https://doi.org/10.3390/en19020334
+
+## Chile: low-cost energy submetering and BESS-readiness checks for small commercial sites
+- Status: watch | energy_infrastructure
+- Current idea: A small operator could test a narrow commissioning and measurement package for existing solar, pump, refrigeration or small industrial installations: install a non-invasive energy meter where legally and technically appropriate, produce a 7- to 14-day load profile, and identify whether storage, tariff changes or equipment maintenance merits further engineering. The economic mechanism is paid diagnostic work and possible equipment resale, not assumed energy savings.
+- Potential economic capture: Charge for a fixed measurement-and-reporting engagement plus the hardware at the publicly observable retail price; do not promise savings before a baseline is collected. A later opportunity could be referral or installation work with a qualified electrical professional, subject to applicable Chilean licensing and SEC requirements.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Whether the target sites lack usable interval, inverter, submeter, or utility data.; Whether Chilean small commercial customers will pay for measurement before receiving a quantified savings or reliability claim.; Actual all-in cost of a compliant pilot, including certified electrical labor, travel, insurance, communications, configuration, data hosting, reporting, and device failure.
+- Possible initial budget:
+- Source URLs: https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/; https://listado.mercadolibre.cl/medidor-de-energia-wifi
 
 ## Congestion-aware battery and demand-response screening for constrained Chilean nodes
 - Status: watch | energy_infrastructure

@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-11-09T04:40:41.865229+00:00
+Generated: 2026-11-09T18:19:34.514348+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 184 (0 HQ survivors, 184 watches)
+- Active research: 187 (0 HQ survivors, 187 watches)
 - Rejected opportunities excluded: 105
-- Critic-and-judge reviewed: 84
+- Critic-and-judge reviewed: 85
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -503,6 +503,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://app.outlier.ai/opportunities/4505547005?referring_user=e564fcad286749c279b44e3284ca188b025ffb9e1a5d03d6c93cfbb1a908a1520034423690724c21b7d4ae35ef92f68a; https://app.outlier.ai/login?job_post_id=4476998005
 
+### Chile: low-cost energy submetering and BESS-readiness checks for small commercial sites [opp_5a23e89484d6425716fb]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile
+- Thesis: A small operator could test a narrow commissioning and measurement package for existing solar, pump, refrigeration or small industrial installations: install a non-invasive energy meter where legally and technically appropriate, produce a 7- to 14-day load profile, and identify whether storage, tariff changes or equipment maintenance merits further engineering. The economic mechanism is paid diagnostic work and possible equipment resale, not assumed energy savings.
+- Value capture: Charge for a fixed measurement-and-reporting engagement plus the hardware at the publicly observable retail price; do not promise savings before a baseline is collected. A later opportunity could be referral or installation work with a qualified electrical professional, subject to applicable Chilean licensing and SEC requirements.
+- Participation hypothesis: Falsification test: purchase one listed three-phase or single-phase meter only after confirming electrical compatibility; prepare a one-page sample report using public data or a bench test; contact three identifiable Chilean solar installers, pump-maintenance firms or small commercial operators and ask whether they currently pay for load measurement before proposing storage or troubleshooting. Proceed only if at least one provides written permission for a paid or unpaid pilot and a qualified person can perform the electrical work. Separately ch
+- Critic/judge: This is a legitimately narrow, falsifiable service hypothesis rather than an unsupported BESS investment claim: the immediate payer would be a small commercial/industrial site purchasing a diagnostic, while BESS is only a possible later recommendation. Official SEC material supports that compliance and qualified-installation issues are real and relevant, and meter supply is observable. However, there is no named customer, asset operator
+- Next evidence gaps: Whether the target sites lack usable interval, inverter, submeter, or utility data.; Whether Chilean small commercial customers will pay for measurement before receiving a quantified savings or reliability claim.; Actual all-in cost of a compliant pilot, including certified electrical labor, travel, insurance, communications, configuration, data hosting, reporting, and device
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/; https://listado.mercadolibre.cl/medidor-de-energia-wifi
+
 ### Chile’s Open Finance implementation is moving from regulation to integration infrastructure [opp_7c40e3dba23666b0c578]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: The regulatory framework is becoming technically actionable, but banks, fintechs, data intermediaries, consent-management providers, compliance vendors, and integration specialists still have preparation time and implementation friction. This creates a window for infrastructure and localized financial-data products before mandatory adoption.
@@ -942,6 +952,26 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-113897.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html
+
+### Chile: irrigation-kit retrofit and technical configuration for small farms and greenhouses [opp_82838b5800630d925c53]
+- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
+- Thesis: The executable wedge is not generic agricultural consulting: assemble and configure a small, documented retrofit for one crop block, greenhouse or pump zone using locally purchasable drip components, a timer/controller and optional flow or energy monitoring. The payer would plausibly be a small grower, greenhouse operator, landscaping contractor or irrigation installer; no specific buyer or willingness to pay is established by the evidence.
+- Value capture: Sell a defined bill of materials, configuration and installation coordination, with revenue from product margin and a separately priced commissioning visit. Avoid claiming water savings until measured against a baseline. Compete on crop-specific configuration, Spanish documentation and post-install troubleshooting rather than on commodity tubing price.
+- Participation hypothesis: Falsification test: select one crop or greenhouse application and build a costed prototype from currently listed components; publish the bill of materials and a before/after measurement plan; approach three local growers or irrigation contractors identified through public directories and request permission for a small pilot. Do not install or claim access without written permission. Check ChileCompra/CNR procurement notices and agricultural-program eligibility before pursuing public-sector sales. A first paid transaction can be tested through M
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.trade.gov/knowledge-product/chile-agricultural-machinery-and-equipment; https://www.mercadolibre.cl/kit-de-riego-por-goteo-300-metros/up/MLCU3697964384; https://www.utalca.cl/noticias/inauguran-sistema-que-produce-hortalizas-todo-el-ano-con-bajo-consumo-hidrico/
+
+### Chile: NFC-enabled conversion kits for existing small merchants [opp_f12f2bcd2619c1f61247]
+- Status: WATCH_REQUIRES_VALIDATION | ecommerce_niches | Chile
+- Thesis: The narrow testable offer is a low-cost merchant kit: a durable NFC/QR tabletop sign or product card that opens a merchant’s existing payment link, menu, booking page or review page, with setup and replacement included. The cash-flow source would be direct purchase by micro-merchants, but no buyer, conversion lift or recurring demand is verified.
+- Value capture: Charge for physical signage, tag programming and setup; use Transbank’s existing payment-link or merchant tools rather than handling funds or inventing a new payment service. The economic case must be demonstrated by measured scans, clicks or completed transactions, not assumed convenience.
+- Participation hypothesis: Falsification test: buy a small batch of publicly listed NFC tags; create one demo that resolves to a legitimate test page or an authorized merchant’s existing link; ask three named small merchants for written permission to run a two-week comparison against their current sign or QR. Track scans and completed actions. Stop if merchants will not permit the test or if the NFC route adds no measurable usage over the existing QR/link. Do not represent the kit as a Transbank product or imply payment-processing approval beyond the merchant’s existing
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://publico.transbank.cl/es/web/centro-de-ayuda//como-vender-online-desde-celular; https://publico.transbank.cl/documents/20129/47886099/GUIA%2BDE%2BUSO%2BSMART%2BPOS%2B2025.pdf; https://listado.mercadolibre.cl/nfc-sticker
 
 ### CNR-qualified irrigation retrofit package for small farms and water-user organizations [opp_88d1129cd5cb0236b936]
 - Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile, with an initial focus on Atacama, Coquimbo, Maule and other regions covered by CNR contests
