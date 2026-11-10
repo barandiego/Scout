@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-11-10T12:07:03.243306+00:00
+Generated: 2026-11-10T21:39:43.768180+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
 - Active research: 188 (0 HQ survivors, 188 watches)
-- Rejected opportunities excluded: 107
+- Rejected opportunities excluded: 108
 - Critic-and-judge reviewed: 85
 - Autonomous execution authorization: 0
 
@@ -1553,16 +1553,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://arxiv.org/abs/2509.25056; https://www.lccmr.mn.gov/projects/2024/approved_work_plans/2024-076_approved_workplan.pdf
 
-### Independent seasonal operations for agricultural weeding robots [opp_828f64d8095cceeb57fa]
-- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States
-- Thesis: The hardware exists, but smaller growers may face a utilization, financing, operator-training and field-integration problem rather than a pure invention gap. A local operator could test whether aggregating demand for one crop/region makes a robot deployment economically usable without buying a robot upfront.
-- Value capture: A brokered or subcontracted seasonal field operation: obtain a vendor quote, identify a grower cluster with compatible fields, and resell or coordinate a defined weeding deployment only if the vendor permits the arrangement and the grower signs a confirmed paid work order. Possible cash flow is a per-acre service or seasonal lease pass-through; no margin or buyer is assumed.
-- Participation hypothesis: Start with one crop and one region. Contact vendors with publicly documented purchase/lease or deployment offerings and request written service territory, minimum acreage, operator requirements, delivery timing and price. Separately interview 10 growers or crop consultants and ask for paid reservations or letters of intent at a quoted per-acre price. Falsify after spending only on outreach if vendors will not quote a route-compatible deployment, or if no grower will place a refundable reservation/paid pilot at the quoted price. Do not buy equip
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/1760404/000110465926075802/tm2617498d1_partiiandiii.htm; https://fieldreport.caes.uga.edu/publications/B1594/agribots-autonomous-ground-robots-for-specialty-crops/
-
 ### Interconnection-queue heatmap and cluster-readiness screening dataset for battery and solar developers [opp_1ea90f46c4dff6ae0e7e]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States
 - Thesis: Developers must spend more effort before entering or remaining in an interconnection queue, while public heatmaps and queue data create a basis for structured site-screening and withdrawal-risk analysis. The opportunity is not generic consulting: it is a repeatable dataset that ranks candidate nodes and flags readiness, deposit, queue, and upgrade-risk conditions.
@@ -1852,6 +1842,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://jobs.telusdigital.com/search/jobs/in/chile?cfm5=AI+Community&ns_category=ai-community; https://jobs.telusdigital.com/bs_BA/MoroccoCareers/PipelineDetail/Internet-Domain-Assessor-Spanish-Speakers-in-Chile/71900
+
+### TELUS Digital Online Data Analyst — Chile [opp_b7808897d679cf59602b]
+- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
+- Thesis: This is a directly testable paid participation route rather than a generic AI-work trend, but it is not guaranteed employment or guaranteed income: tasks must be available and the applicant must pass qualification and identity checks.
+- Value capture: Complete the employer's application, qualification assessment and onboarding; if accepted, perform available task-based map/search evaluation work. No fee or deposit is identified in the consulted employer materials.
+- Participation hypothesis: Apply through the official TELUS Digital job page, after confirming personal eligibility: Chile residence for the last five consecutive years, near-native Spanish and professional English, computer and reliable internet. Complete the open-book qualification assessment and identity verification. Lowest-cost falsification: submit the application and qualification materials without purchasing equipment, training or access; record whether the application is accepted, whether project credentials are issued, and whether paid tasks actually appear. Tr
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://jobs.telusdigital.com/jobs/18154786-online-data-analyst-chile; https://jobs.telusdigital.com/search/cfm3/russian-spanish/cfm5/ai-community/jobs/in/country/chile?ns_category=artificial-intelligence
 
 ### Tokenized unified-ledger infrastructure is moving from concept toward financial-market architecture [opp_993ac5d080c7042af44c]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Global; Chile relevance through future interoperable financial-data and payment infrastructure

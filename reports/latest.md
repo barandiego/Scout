@@ -1,10 +1,10 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-10T12:07:02.810236+00:00
+Generated: 2026-11-10T21:39:43.406850+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['nfc_smart_commerce', 'vertical_farming_economics', 'energy_localization']
+- lenses: ['wildcard', 'remote_paid_evaluation', 'inventoryless_product_validation']
 - raw_candidates: 1
 - parseable_candidates: 1
 - normalized_candidates: 1
@@ -12,17 +12,17 @@ Generated: 2026-11-10T12:07:02.810236+00:00
 - grounded_sources: 2
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 1
+- judge_attempts: 0
 - critic_reviews: 1
-- judge_reviews: 1
+- judge_reviews: 0
 - survivors: 0
-- watches: 0
+- watches: 1
 - rejected: 1
 - errors_by_stage: {}
-- rejection_reasons: {'discarded_ungrounded_url': 1}
-- cost_usd: 0.04466685
+- rejection_reasons: {}
+- cost_usd: 0.03907005
 - cost_uncertain: False
-- budget_remaining_usd: 0.03533315
+- budget_remaining_usd: 0.04092995
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Merger-arbitrage screening around the Paramount-Warner Bros. Discovery transaction: deferred_by_review_cap
 - Chile SFA pre-registration and interoperability test harness: The underlying regulatory and timing premise is adequately grounded in CMF primary sources: a technical SFA annex, ATENA sandbox, voluntary pre-registration/testing around October 2026, and July 3, 2027 entry into force. Therefore this is not rejected for an unverified or misread regulatory change. A narrow, non-regulated software/support wedge—automated API-contract checks, test orchestration, log diagnostics, and internal readiness evidence—appears legally plausible provided it uses synthetic/authorized data and does not represent itself as CMF-certified or access ATENA without authorization. However, survival as an HQ-worthy opportunity is not established: CMF-provided ATENA, documentation, and possible native test functions may eliminate the core product need; independent artifacts may have no regulatory standing; the reachable payer universe, procurement path, willingness to pay, and pricing versus incumbent integrators remain unverified. This is a deadline-driven and potentially one-off implementation market, so plausible value capture is currently uncertain rather than demonstrably incompatible.
 - Bid-ready resilience package for small-utility battery and microgrid subawards: deferred_by_review_cap
 - Licensed-feedstock matching for antimony-bearing lead-battery scrap: deferred_by_review_cap
@@ -51,12 +50,13 @@ No survivors. Scout does not manufacture a daily winner.
 - Chile: low-cost energy submetering and BESS-readiness checks for small commercial sites: This is a legitimately narrow, falsifiable service hypothesis rather than an unsupported BESS investment claim: the immediate payer would be a small commercial/industrial site purchasing a diagnostic, while BESS is only a possible later recommendation. Official SEC material supports that compliance and qualified-installation issues are real and relevant, and meter supply is observable. However, there is no named customer, asset operator, bottleneck, or paying load; no demonstrated willingness to pay; no compliant installed workflow; and no proof that a short measurement window yields decisions worth more than the diagnostic. It therefore does not yet meet the rubric’s economics, local feasibility, or differentiated-wedge requirements, but it is not fatally disproven because a paid diagnostic can be tested without underwriting storage economics or making bankability claims.
 - Chile SFA/ATENA conformance test harness for regulated participants: deferred_by_review_cap
 - High-density data-center infrastructure exposure with contracted customer capacity: deferred_by_review_cap
+- TELUS Digital Online Data Analyst — Chile: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=fresh",
+    "deep_review_lane=backlog",
     "research_queue_unreviewed=94"
   ],
   "stages": [
@@ -65,52 +65,40 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 35,
+      "grounded_source_count": 25,
       "search_source_urls": [
-        "https://agbasolutions.cl/nfc/?c=3FD6C1&e=halo&m=grafito&t=Acceso",
-        "https://agbasolutions.cl/nfc/?c=E8455D&e=bloque&m=grafito&t=Fidelizaci%C3%B3n",
-        "https://apnews.com/article/6e78fb86160d6cabe12f245307706cf4",
-        "https://arxiv.org/abs/2506.21510",
-        "https://arxiv.org/abs/2507.06595",
-        "https://arxiv.org/abs/2507.18419",
-        "https://arxiv.org/abs/2510.03686",
-        "https://cincodias.elpais.com/companias/2025-05-19/grenergy-firma-un-nuevo-contrato-de-energia-verde-en-chile-de-390-gwh.html",
-        "https://climate.org/wp-content/uploads/2025/09/Final-Chile-Report.pdf",
-        "https://economiacircular.mma.gob.cl/wp-content/uploads/2024/11/18.-SP-Global-Commodity-Insights-2023-Chile-advances-regulation-to-support-storage-goals.pdf",
-        "https://elpais.com/america-futura/2024-12-19/la-caida-de-los-precios-de-las-baterias-impulsa-un-boom-de-almacenamiento-de-energia-limpia.html",
-        "https://elpais.com/extra/energia/2026-05-17/algoritmos-y-rentabilidad-claves-en-la-carrera-del-almacenamiento.html",
-        "https://en.wikipedia.org/wiki/Controlled-environment_agriculture",
-        "https://iea.blob.core.windows.net/assets/88bb4abe-0308-42f9-a46f-c776a9528522/Electricity_2026.pdf",
-        "https://linkd.cl/",
-        "https://linktap.cl/tarjetas-nfc/",
-        "https://nfcnexo.cl/",
-        "https://nfctech.cl/",
-        "https://pymevisible.cl/productos/tarjeta-google",
-        "https://tarjetas-nfc.com/empresas",
-        "https://tarjetas-nfc.com/precios",
-        "https://www.apec.org/docs/default-source/publications/2025/8/225_ewg_apec-urban-energy-report.pdf?sfvrsn=f9e08006_1",
-        "https://www.apec.org/docs/default-source/publications/2025/8/225_ewg_apec-urban-energy-report.pdf?sfvrsn=f9e08006_1",
-        "https://www.axios.com/2023/01/06/indoor-farming-small-scale-farmers",
-        "https://www.axios.com/local/chicago/2026/08/10/downtown-vertical-farming-venture-takes-root",
-        "https://www.citytap.cl/pdf/CITYTAP_TARJETAYDOMO_LEADNET.pdf",
-        "https://www.iea.org/files/2fcd8719-121f-4248-914a-75ea2485be21/Chile2050EnergyTransitionRoadmap.pdf",
-        "https://www.ondda.cl/",
-        "https://www.reddit.com/r/Hydroponics/comments/1oz3hps",
-        "https://www.reddit.com/r/Hydroponics/comments/1xr9s2z/looking_for_some_realworld_hydroponics_advice/",
-        "https://www.reddit.com/r/NFC/comments/1vw9yun/nfc_business_cards_without_a_subscription_honest/",
-        "https://www.reddit.com/r/OffGrid/comments/1n4cm1y",
-        "https://www.reddit.com/r/chile/comments/1u4iu1k/cual_es_la_gracia_de_complicar_todo_en_esta_vida/",
-        "https://www.spec.cl/en/publicaciones/2026-almacenamiento-corta-duracion/",
-        "https://www.tuk.cl/es-cl/pages/para-empresas"
+        "https://apnews.com/article/e78ccd51a7f66099d84fda885d2907a3",
+        "https://cnc.cl/wp-content/uploads/2026/05/CNC-INFORME-VENTAS-ONLINE-DEL-RETAIL-Primer-Trimestre-2026.pdf",
+        "https://cnc.cl/wp-content/uploads/2026/05/Informalidad-en-el-Comercio-Electronico-I-trim-2026.pdf",
+        "https://developers.mercadolibre.cl/en_us/about-our-api/best-sellers-in-mercado-libre",
+        "https://developers.mercadolibre.cl/en_us/manage-project-apps/trends",
+        "https://elpais.com/chile/2026-05-27/cyberday-en-chile-2026-fecha-marcas-y-ofertas-para-el-evento-de-comercio-por-internet.html",
+        "https://es.wikipedia.org/wiki/Internet_en_Chile",
+        "https://jobs.telusdigital.com/jobs/18154786-online-data-analyst-chile",
+        "https://jobs.telusdigital.com/search/cfm3/russian-spanish/cfm5/ai-community/jobs/in/country/chile?ns_category=artificial-intelligence",
+        "https://meli-sustentabilidad-bucket.s3.amazonaws.com/Tendencias_Impacto_Positivo_MELI_CL_2024_185c4b1e79.pdf",
+        "https://news.mercadolibre.com/en/node/178",
+        "https://news.mercadolibre.com/en/node/541",
+        "https://paymentscmi.com/e-commerce-infographics/2025_PCMI_Chile-E-commerce-Data-Portrait_EN.pdf",
+        "https://teclazo.com/blog/que-vender-en-mercado-libre-chile-2026",
+        "https://teclazo.com/que-vender/cl",
+        "https://www.aam.cl/wp-content/uploads/2022/05/Reporte-de-industria-Chile-2022_compressed.pdf",
+        "https://www.appen.com/careers",
+        "https://www.fne.gob.cl/wp-content/uploads/2026/04/FNE_Informe_Preliminar_EM_Comercio_Electronico_EM10_2024.pdf",
+        "https://www.reddit.com/r/AskChile/comments/1plpmdq/que_puedo_vender/",
+        "https://www.reddit.com/r/AskChile/comments/1xjx5h9/han_vendido_por_mercado_libre/",
+        "https://www.reddit.com/r/ChileInversiones/comments/1wazljj/chile_ni_siquiera_aparece_como_pa%C3%ADs_individual_en/",
+        "https://www.reddit.com/r/RepublicadeChile/comments/1wcokuc/las_ventas_andan_mal/",
+        "https://www.shopify.com/es/blog/productos-mas-vendidos-en-chile",
+        "https://www.tiendanube.com/cl/blog/productos-mas-vendidos-chile/",
+        "https://www.trade.gov/country-commercial-guides/chile-ecommerce"
       ]
     },
     {
       "index": 0,
       "stage": "normalization",
       "outcome": "accepted",
-      "reasons": [
-        "discarded_ungrounded_url"
-      ],
+      "reasons": [],
       "changes": [
         "contrary_evidence:list_sanitized",
         "major_risks:list_sanitized",
@@ -123,97 +111,84 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_350a3094af3a19baafec",
+      "candidate_id": "opp_828f64d8095cceeb57fa",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 23,
+      "grounded_source_count": 35,
       "search_source_urls": [
-        "https://ally-law.com/wp-content/uploads/2026/02/Doing-Business-2026-Arteaga-Gorziglia.pdf",
-        "https://autoconsumo.minenergia.cl/?page_id=57",
-        "https://centra.uai.cl/despliegue-proyectos-bess-en-chile-desafios-operacionales-regulatorios-y-de-mercado/?lang=en",
-        "https://cincodias.elpais.com/companias/2026-03-03/la-espanola-solarig-cierra-un-acuerdo-con-tesla-para-el-mantenimiento-de-sus-baterias-estacionarias-en-chile.html",
-        "https://cincodias.elpais.com/companias/2026-09-02/grenergy-cierra-la-venta-a-cvc-dif-de-la-cuarta-fase-de-su-proyecto-de-almacenamiento-en-chile-por-410-millones.html",
-        "https://documents1.worldbank.org/curated/en/099101526143517589/pdf/P506442-f1cdbbbb-ad3c-455a-afdd-75db00d85342.pdf",
-        "https://elpais.com/chile/2026-07-16/ordenar-la-cuenta-electrica-con-un-cheque-en-blanco.html",
-        "https://elpais.com/chile/2026-08-26/el-tribunal-constitucional-rechaza-el-reclamo-del-gobierno-de-kast-contra-la-reconexion-gratuita-de-servicios-basicos.html",
-        "https://energia.gob.cl/sites/default/files/documentos/generacion_distribuida_en_chile.pdf",
-        "https://financing.desa.un.org/sites/default/files/2024-04/Carbon%20Taxation%20Handbook_FINAL04092024.pdf",
-        "https://generaciondistribuida.minenergia.cl/sites/default/files/documentos/Ley-20571-Version-Web.pdf",
-        "https://www.axios.com/2026/02/23/battery-storage-utilities-data-centers",
-        "https://www.bcn.cl/leychile/Navegar?idNorma=1150437&idParte=10165990&idVersion=2026-07-14",
-        "https://www.bcn.cl/leychile/Navegar?idNorma=258171&idParte=8721837",
-        "https://www.bcn.cl/leychile/navegar?i=1210407",
-        "https://www.bcn.cl/leychile/navegar?idNorma=1140253",
-        "https://www.bcn.cl/leychile/navegar?idNorma=1150437&idParte=10165865&idVersion=2026-06-13",
-        "https://www.cne.cl/normativas/electrica/normas-tecnicas/",
-        "https://www.cne.cl/wp-content/uploads/2020/08/Norma-T%C3%A9cnica-Netbilling-2019.pdf",
-        "https://www.leychile.cl/leychile/Navegar?idNorma=1219556",
-        "https://www.sec.cl/GDA/?view_full_site=true",
-        "https://www.sec.cl/gda/documentacion-y-presentaciones/",
-        "https://www.spec.cl/en/publicaciones/2026-almacenamiento-corta-duracion/"
+        "https://apnews.com/article/9af9228206bf9fd3598d10c8a243fab5",
+        "https://apnews.com/article/9afba3e163e8efc6c710210a83970dd1",
+        "https://arxiv.org/abs/2509.25056",
+        "https://arxiv.org/abs/2512.10319",
+        "https://arxiv.org/abs/2608.02270",
+        "https://arxiv.org/abs/2609.20048",
+        "https://dataintelo.com/report/autonomous-weeding-robot-market",
+        "https://en.wikipedia.org/wiki/Aerobotics",
+        "https://en.wikipedia.org/wiki/Agricultural_robot",
+        "https://en.wikipedia.org/wiki/FarmWise",
+        "https://en.wikipedia.org/wiki/Solinftec",
+        "https://fira-usa.com/wp-content/uploads/2025/10/FIRA-2025-Final-Press-Release.pdf",
+        "https://kyron-robotics.com/",
+        "https://revenuebase.ai/companies/robotic-weeding-companies/united-states",
+        "https://whirrwork.com/use-cases/autonomous-weeding/",
+        "https://whirrwork.com/use-cases/autonomous-weeding/in/united-states/",
+        "https://www.axios.com/local/charlotte/2017/06/30/home-vp-robot-lawn-mower-95940",
+        "https://www.axios.com/local/seattle/2026/10/23/yakima-valley-reservoir-farms-ai-robot-testing-apple-harvest",
+        "https://www.bamsec.com/companies/1760404/greenfield-robotics-corp",
+        "https://www.creosyndicate.org/wp-content/uploads/edd/2025/07/2025_CREO_Agriculture_Robotics.pdf",
+        "https://www.reddit.com/r/AgriTech/comments/1wwguu8/ndsu_rowcrop_robot_achieves_965_weeding_accuracy/",
+        "https://www.reddit.com/r/Agriculture/comments/1ie7tom",
+        "https://www.reddit.com/r/JoinOwntric/comments/1ubua3f/chipotlebacked_greenfield_robotics_opened_a_reg_a/",
+        "https://www.reddit.com/r/lawncare/comments/12h2zya",
+        "https://www.reddit.com/r/roboticLawnmowers/comments/1uedehr/has_anyone_replaced_lawn_service_with_a_robot/",
+        "https://www.sec.gov/Archives/edgar/data/1760404/000110465926075802/tm2617498d1_ex6-5.htm",
+        "https://www.sec.gov/Archives/edgar/data/1760404/000110465926100882/tm2617498d4_partiiandiii.htm",
+        "https://www.sec.gov/Archives/edgar/data/1760404/000110465926104951/tm2617498d6_partiiandiii.htm",
+        "https://www.sec.gov/Archives/edgar/data/1760404/000176040425000008/offeringmemoformc.pdf",
+        "https://www.sec.gov/Archives/edgar/data/1760404/000176040426000003/form_car.pdf",
+        "https://www.sec.gov/edgar/browse/?CIK=0001760404",
+        "https://www.techradar.com/pro/the-farmer-isnt-disappearing-theyre-moving-up-the-stack-how-ai-is-reshaping-the-role-of-modern-agriculture",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/laserweeder-packs-two-dozen-nvidia-gpus-and-lasers-to-zap-your-weed-problem-vaporizes-600-000-weeds-per-hour-with-sub-millimeter-precision-instant-laser-death-for-pesky-weeds",
+        "https://www.topfarmrobots.com/company/agripass",
+        "https://www.wm-strategy.com/news/agricultural-robotics-weeding-and-pest-control-robots"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_350a3094af3a19baafec",
-      "coercions": []
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_350a3094af3a19baafec",
-      "response_status": "completed",
-      "incomplete_reason": "",
-      "grounded_source_count": 0,
-      "search_source_urls": []
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_350a3094af3a19baafec",
-      "coercions": []
+      "candidate_id": "opp_828f64d8095cceeb57fa",
+      "coercions": [
+        "contrary_evidence"
+      ]
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 327,
-      "cache_write_tokens": 5433,
+      "reasoning_tokens": 231,
+      "cache_write_tokens": 4930,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01435785,
+      "cumulative_cost_usd": 0.0243863,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13963,
+      "input_tokens": 16025,
       "cached_tokens": 0,
-      "output_tokens": 1078,
-      "web_search_calls": 1,
-      "estimated_cost_usd": 0.01435785
+      "output_tokens": 779,
+      "web_search_calls": 2,
+      "estimated_cost_usd": 0.0243863
     },
     {
       "stage": "critic",
       "available": true,
       "reasoning_tokens": 164,
-      "cache_write_tokens": 5460,
+      "cache_write_tokens": 5367,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02915585,
+      "cumulative_cost_usd": 0.03907005,
       "model": "gpt-5.6-luna",
-      "input_tokens": 14003,
+      "input_tokens": 13767,
       "cached_tokens": 0,
-      "output_tokens": 1437,
+      "output_tokens": 1385,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.014798
-    },
-    {
-      "stage": "judge",
-      "available": true,
-      "reasoning_tokens": 127,
-      "cache_write_tokens": 3394,
-      "accounting_notes": [],
-      "cumulative_cost_usd": 0.04466685,
-      "model": "gpt-5.6-terra",
-      "input_tokens": 3397,
-      "cached_tokens": 0,
-      "output_tokens": 585,
-      "web_search_calls": 0,
-      "estimated_cost_usd": 0.015511
+      "estimated_cost_usd": 0.01468375
     }
   ]
 }

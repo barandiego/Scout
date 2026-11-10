@@ -196,6 +196,18 @@ Candidates: 188
 - Possible initial budget:
 - Source URLs: https://jobs.telusdigital.com/search/jobs/in/chile?cfm5=AI+Community&ns_category=ai-community; https://jobs.telusdigital.com/bs_BA/MoroccoCareers/PipelineDetail/Internet-Domain-Assessor-Spanish-Speakers-in-Chile/71900
 
+## TELUS Digital Online Data Analyst — Chile
+- Status: watch | chile_localization
+- Current idea: This is a directly testable paid participation route rather than a generic AI-work trend, but it is not guaranteed employment or guaranteed income: tasks must be available and the applicant must pass qualification and identity checks.
+- Potential economic capture: Complete the employer's application, qualification assessment and onboarding; if accepted, perform available task-based map/search evaluation work. No fee or deposit is identified in the consulted employer materials.
+- **Research routes to test (NOT validated claims):**
+  - Find the smallest Chilean workflow whose economics differ from the original geography.
+  - Secure lawful access, partners and after-sales support rather than copy protected technology.
+  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://jobs.telusdigital.com/jobs/18154786-online-data-analyst-chile; https://jobs.telusdigital.com/search/cfm3/russian-spanish/cfm5/ai-community/jobs/in/country/chile?ns_category=artificial-intelligence
+
 ## Batch-inference cost arbitrage using interruptible GPU capacity
 - Status: watch | competitive_positioning
 - Current idea: For checkpointable, non-latency-sensitive workloads such as embedding refreshes, batch transcription, rendering or model evaluation, a small operator can potentially reduce compute spend by routing jobs across interruptible capacity rather than selling generic AI consulting.
@@ -2127,18 +2139,6 @@ Candidates: 188
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://arxiv.org/abs/2509.25056; https://www.lccmr.mn.gov/projects/2024/approved_work_plans/2024-076_approved_workplan.pdf
-
-## Independent seasonal operations for agricultural weeding robots
-- Status: watch | robotics_agritech
-- Current idea: The hardware exists, but smaller growers may face a utilization, financing, operator-training and field-integration problem rather than a pure invention gap. A local operator could test whether aggregating demand for one crop/region makes a robot deployment economically usable without buying a robot upfront.
-- Potential economic capture: A brokered or subcontracted seasonal field operation: obtain a vendor quote, identify a grower cluster with compatible fields, and resell or coordinate a defined weeding deployment only if the vendor permits the arrangement and the grower signs a confirmed paid work order. Possible cash flow is a per-acre service or seasonal lease pass-through; no margin or buyer is assumed.
-- **Research routes to test (NOT validated claims):**
-  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
-  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
-  - Arrange a bounded field validation with an actual farm operator before scaling.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://www.sec.gov/Archives/edgar/data/1760404/000110465926075802/tm2617498d1_partiiandiii.htm; https://fieldreport.caes.uga.edu/publications/B1594/agribots-autonomous-ground-robots-for-specialty-crops/
 
 ## Indoor-farm lighting and energy audit wedge for existing Chilean growers
 - Status: watch | robotics_agritech
