@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-10T02:50:11.459813+00:00
+Generated: 2026-11-10T12:50:33.660265+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 174
+- New this cycle: 162
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): chile_nfc_commerce_news:unavailable_or_invalid, chile_vertical_farming_news:unavailable_or_invalid, chile_robotics_news:unavailable_or_invalid, chile_energy_news:unavailable_or_invalid, global_robotic_farming_news:unavailable_or_invalid, chile_online_retail_news:unavailable_or_invalid
-- Categories: agriculture 600, ai 116, energy 529, robotics 555
+- Feed failures (fail-open for public intake only): none
+- Categories: agriculture 607, ai 108, energy 535, robotics 550
 
 ## Recently encountered signals
+
+### ashmeet-0/BHOOMI-JEEVAN
+- Source: https://github.com/ashmeet-0/BHOOMI-JEEVAN
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### AgriMitra1133/agrimitra-learning.github.
 - Source: https://github.com/AgriMitra1133/agrimitra-learning.github.
@@ -452,12 +458,6 @@ Generated: 2026-11-10T02:50:11.459813+00:00
 
 ### sumanth-3031/opticrop
 - Source: https://github.com/sumanth-3031/opticrop
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### yieldshield-devs/Plant-Guard
-- Source: https://github.com/yieldshield-devs/Plant-Guard
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
