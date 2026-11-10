@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-11-09T18:19:34.514348+00:00",
+  "generated_at": "2026-11-10T02:33:25.391044+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -13,7 +13,7 @@
     },
     {
       "opportunity_id": "opp_7ea6a495427da87c8c5c",
-      "other_cards_in_theme": 20,
+      "other_cards_in_theme": 19,
       "reviewed": true,
       "status": "watch",
       "theme": "energy_infrastructure",
@@ -21,7 +21,7 @@
     },
     {
       "opportunity_id": "opp_f26e42aaabb91e157f9d",
-      "other_cards_in_theme": 76,
+      "other_cards_in_theme": 77,
       "reviewed": true,
       "status": "watch",
       "theme": "chile_open_finance",
@@ -85,7 +85,7 @@
     },
     {
       "opportunity_id": "opp_9806dd7c2bc14a3373b4",
-      "other_cards_in_theme": 1,
+      "other_cards_in_theme": 2,
       "reviewed": true,
       "status": "watch",
       "theme": "data_center_infrastructure",
@@ -103,8 +103,8 @@
   "headline_count": 12,
   "high_concentration": [
     {
-      "cards": 77,
-      "share": 0.412,
+      "cards": 78,
+      "share": 0.415,
       "theme": "chile_open_finance"
     }
   ],
@@ -191,9 +191,10 @@
         "opp_4005381fd3d0bcfc9bae",
         "opp_5d831cacc35f270199e8",
         "opp_f3ae66d425cfc84e615e",
-        "opp_c366907d1ef716224e2e"
+        "opp_c366907d1ef716224e2e",
+        "opp_fb2b1dbf170f67d62605"
       ],
-      "count": 77,
+      "count": 78,
       "representative_id": "opp_f26e42aaabb91e157f9d",
       "reviewed_count": 48,
       "theme": "chile_open_finance"
@@ -212,7 +213,6 @@
         "opp_5a23e89484d6425716fb",
         "opp_13c386e9cabe10c8389b",
         "opp_be96f644fc5f681b8c7f",
-        "opp_821fe989c63ca8db797f",
         "opp_e28d4caaa77e09a2caa9",
         "opp_49a6d20d0f91b3d23a8b",
         "opp_7b3f746b484aac912c2b",
@@ -222,7 +222,7 @@
         "opp_5571f801955a232174a9",
         "opp_fae38501d518e3a074eb"
       ],
-      "count": 21,
+      "count": 20,
       "representative_id": "opp_7ea6a495427da87c8c5c",
       "reviewed_count": 10,
       "theme": "energy_infrastructure"
@@ -245,6 +245,17 @@
     },
     {
       "all_opportunity_ids": [
+        "opp_9806dd7c2bc14a3373b4",
+        "opp_4e38bc42f62942527d19",
+        "opp_ff7664e6668a555ae59f"
+      ],
+      "count": 3,
+      "representative_id": "opp_9806dd7c2bc14a3373b4",
+      "reviewed_count": 2,
+      "theme": "data_center_infrastructure"
+    },
+    {
+      "all_opportunity_ids": [
         "opp_70d50801d0b809f81137",
         "opp_4c867bb6e2a52712c785"
       ],
@@ -252,16 +263,6 @@
       "representative_id": "opp_70d50801d0b809f81137",
       "reviewed_count": 0,
       "theme": "agricultural_weeding_robots"
-    },
-    {
-      "all_opportunity_ids": [
-        "opp_9806dd7c2bc14a3373b4",
-        "opp_4e38bc42f62942527d19"
-      ],
-      "count": 2,
-      "representative_id": "opp_9806dd7c2bc14a3373b4",
-      "reviewed_count": 2,
-      "theme": "data_center_infrastructure"
     },
     {
       "all_opportunity_ids": [
@@ -949,6 +950,6 @@
       "theme": "robotics_agritech:water_efficiency_field"
     }
   ],
-  "total_original_cards": 187,
+  "total_original_cards": 188,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }

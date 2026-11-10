@@ -9581,60 +9581,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-19T20:24:26.256728+00:00",
-      "discovery_lens": "mining_materials",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "DOE provides a procurement checklist and technical specifications for commercial-scale lithium-ion BESS and related distributed-energy project development.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Battery Energy Storage System Procurement Checklist",
-          "url": "https://www.energy.gov/cmei/femp/articles/battery-energy-storage-system-procurement-checklist"
-        },
-        {
-          "claim": "DOE identifies supply-chain risks involving foreign-manufactured components in BESS, inverter-based resources, and transformers, and presents mitigation priorities for industry and government.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "New CESER Report Offers Supply Chain Mitigation Strategies for Battery Storage Systems",
-          "url": "https://www.energy.gov/ceser/articles/new-ceser-report-offers-supply-chain-mitigation-strategies-battery-storage-systems"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.78,
-      "falsification_conditions": [],
-      "geography": "United States",
-      "id": "opp_821fe989c63ca8db797f",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-19T20:24:26.298925+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Download the DOE checklist and technical references, build a spreadsheet or lightweight application covering 30–50 fields, and test it on publicly available BESS bid documents, RFPs, or vendor datasheets. Contact 10 U.S. BESS EPCs, developers, or public procurement offices with a sample redacted output. Falsification threshold: stop if fewer than 2 parties will provide real procurement documents or confirm that missing-evidence review is a current paid or bid-critical task. Do not claim engineering, safety, interconnection, or cybersecurity certification.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "BESS projects require more than a battery quote: procurement teams must evaluate technical specifications, interconnection requirements, component provenance, cybersecurity or supply-chain exposure, and mitigation evidence. A standardized evidence pack could reduce repeated bid-comparison work, but the existence of a paying market remains to be tested.",
-      "title": "BESS procurement evidence pack focused on supply-chain and grid-support requirements",
-      "type": "procurement_evidence_asset",
-      "unknowns": [],
-      "value_capture_mechanism": "Create a narrowly scoped, machine-readable vendor-comparison pack that maps supplier documents to DOE procurement checklist fields, records missing evidence, and flags single-source or foreign-component dependencies. Potential cash flow would come from project developers, EPCs, or public-sector procurement teams purchasing a project-specific review; no buyer or fee is assumed.",
-      "verified_sales": null,
-      "vertical": "energy_infrastructure",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-22T19:44:53.228771+00:00",
       "discovery_lens": "robotics_automation",
       "estimated_capital": "",
@@ -10769,6 +10715,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-10T02:33:02.167274+00:00",
+      "discovery_lens": "asset_ownership",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF launched ATENA on September 30, 2026, for institutions to test integrations, interoperability with the participant directory, and business models before SFA implementation.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF launches ATENA Technological Sandbox for the implementation of the Open Finance System",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html"
+        },
+        {
+          "claim": "CMF published technical specifications and a developer portal, and postponed SFA entry into force until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.9,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_fb2b1dbf170f67d62605",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-10T02:33:02.214862+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use only publicly available CMF technical materials and ATENA documentation to build a minimal test suite covering one mandated integration flow. Attempt testing with a consenting fintech, payment operator, or other prospective SFA participant that can lawfully access the relevant sandbox. Falsify the opportunity at lowest cost by interviewing five named entities from the CMF participant ecosystem and asking whether they already have an internal test harness, whether an external artifact would be permitted, and whether they would pay for a fixed-scope pre-registration test. Do not represent the artifact as CMF-approved and do not assume access, authorization, or a buyer.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A narrowly scoped reusable test harness could reduce integration and pre-registration friction for entities that need to validate APIs, credentials, directory interactions, and required data flows before the July 2027 implementation date. The evidence supports a compliance-readiness wedge, not a broad open-finance platform or guaranteed consulting market.",
+      "title": "Chile SFA/ATENA conformance test harness for regulated participants",
+      "type": "software_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell or license a lightweight local/cloud test package containing automated API-contract tests, sample payloads, credential and directory-flow checks, and a repeatable ATENA test checklist. A second possible asset is a maintained conformance-report generator. Pricing and purchase authority are unverified; no recurring revenue or customer count is assumed.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-21T00:23:40.322240+00:00",
       "discovery_lens": "regulation_infrastructure",
       "estimated_capital": "",
@@ -11193,6 +11193,60 @@
       "value_capture_mechanism": "Revenue from equipment procurement, installation, commissioning, and documented savings or grant-compliance support. The evidence does not establish a standard price, margin, or guaranteed customer conversion.",
       "verified_sales": null,
       "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-11-10T02:33:02.167879+00:00",
+      "discovery_lens": "early_adoption_investing",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Core Scientific reported 1.4 GW of gross utility power capacity, 920 MW of leasable customer power capacity, and a wholesale colocation strategy focused on AI/HPC with long-term customer agreements.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Core Scientific, Inc. 2025 Form 10-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1839341/000119312526134881/d118783dars.pdf"
+        },
+        {
+          "claim": "The filing states that new high-load customers may face 14-year contracts, collateral, and demand minimums for distribution, transmission, and generation revenues beginning in January 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "2025 Form 10-K discussing high-load data-center connection requirements",
+          "url": "https://www.sec.gov/Archives/edgar/data/715957/000119312526063120/d-20251231.htm"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.82,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_ff7664e6668a555ae59f",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-10T02:33:02.214969+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Before purchasing, build a one-page event checklist from Core Scientific filings: contracted MW, delivered MW, remaining capex, customer concentration, contract term, cancellation rights, and financing needs. Falsify the thesis by checking the next two quarterly filings for signed capacity and revenue conversion; if capacity remains largely uncontracted or capex and financing needs rise faster than contracted cash flow, reject the trade. This is a public-market research route, not a claim that the security is currently mispriced.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The investable mechanism is monetization of scarce powered data-center capacity through long-duration colocation contracts, rather than an assumption that AI growth automatically benefits every infrastructure stock. Upside depends on converting capacity into contracted, paying tenants; downside includes construction, financing, customer concentration, power availability, execution, and technology-obsolescence risk.",
+      "title": "High-density data-center infrastructure exposure with contracted customer capacity",
+      "type": "public_equity",
+      "unknowns": [],
+      "value_capture_mechanism": "A small investor can obtain exposure through the publicly traded equity or debt instruments, subject to liquidity and suitability checks. The concrete catalyst to monitor is disclosure of additional signed colocation capacity, customer commitments, power-delivery milestones, or conversion of under-construction capacity into revenue. No return, valuation, or downside probability is asserted.",
+      "verified_sales": null,
+      "vertical": "public_markets",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -13198,13 +13252,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-09T18:19:34.514348+00:00",
+  "generated_at": "2026-11-10T02:33:25.391044+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 105,
+  "rejected_excluded": 106,
   "reviewed_cards": 85,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 292,
-  "watch": 187
+  "total_distinct_opportunities": 294,
+  "watch": 188
 }

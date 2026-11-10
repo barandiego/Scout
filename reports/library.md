@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-11-09T18:19:34.514348+00:00
+Generated: 2026-11-10T02:33:25.391044+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 187 (0 HQ survivors, 187 watches)
-- Rejected opportunities excluded: 105
+- Active research: 188 (0 HQ survivors, 188 watches)
+- Rejected opportunities excluded: 106
 - Critic-and-judge reviewed: 85
 - Autonomous execution authorization: 0
 
@@ -1213,16 +1213,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.energy.gov/cmei/manufacturing/battery-manufacturing-and-recycling-grants; https://www.energy.gov/articles/energy-department-announces-500-million-secure-americas-critical-mineral-and-battery
 
-### BESS procurement evidence pack focused on supply-chain and grid-support requirements [opp_821fe989c63ca8db797f]
-- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States
-- Thesis: BESS projects require more than a battery quote: procurement teams must evaluate technical specifications, interconnection requirements, component provenance, cybersecurity or supply-chain exposure, and mitigation evidence. A standardized evidence pack could reduce repeated bid-comparison work, but the existence of a paying market remains to be tested.
-- Value capture: Create a narrowly scoped, machine-readable vendor-comparison pack that maps supplier documents to DOE procurement checklist fields, records missing evidence, and flags single-source or foreign-component dependencies. Potential cash flow would come from project developers, EPCs, or public-sector procurement teams purchasing a project-specific review; no buyer or fee is assumed.
-- Participation hypothesis: Download the DOE checklist and technical references, build a spreadsheet or lightweight application covering 30–50 fields, and test it on publicly available BESS bid documents, RFPs, or vendor datasheets. Contact 10 U.S. BESS EPCs, developers, or public procurement offices with a sample redacted output. Falsification threshold: stop if fewer than 2 parties will provide real procurement documents or confirm that missing-evidence review is a current paid or bid-critical task. Do not claim engineering, safety, interconnection, or cybersecurity cer
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.energy.gov/cmei/femp/articles/battery-energy-storage-system-procurement-checklist; https://www.energy.gov/ceser/articles/new-ceser-report-offers-supply-chain-mitigation-strategies-battery-storage-systems
-
 ### Bid as a small supplier or integrator around Chilean public-sector collaborative-robot purchases [opp_6fed166e1f1a1ba78706]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile
 - Thesis: A concrete demand signal exists for a single cobot acquisition, but the evidence does not prove repeat demand, reseller authorization, or attractive margins. The feasible wedge is quote preparation, local integration, training, or compliant sourcing rather than speculative inventory.
@@ -1433,6 +1423,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
+### Chile SFA/ATENA conformance test harness for regulated participants [opp_fb2b1dbf170f67d62605]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: A narrowly scoped reusable test harness could reduce integration and pre-registration friction for entities that need to validate APIs, credentials, directory interactions, and required data flows before the July 2027 implementation date. The evidence supports a compliance-readiness wedge, not a broad open-finance platform or guaranteed consulting market.
+- Value capture: Sell or license a lightweight local/cloud test package containing automated API-contract tests, sample payloads, credential and directory-flow checks, and a repeatable ATENA test checklist. A second possible asset is a maintained conformance-report generator. Pricing and purchase authority are unverified; no recurring revenue or customer count is assumed.
+- Participation hypothesis: Use only publicly available CMF technical materials and ATENA documentation to build a minimal test suite covering one mandated integration flow. Attempt testing with a consenting fintech, payment operator, or other prospective SFA participant that can lawfully access the relevant sandbox. Falsify the opportunity at lowest cost by interviewing five named entities from the CMF participant ecosystem and asking whether they already have an internal test harness, whether an external artifact would be permitted, and whether they would pay for a fixe
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html
+
 ### Chile SFA/ATENA conformance-test asset for prospective participants [opp_6cea461c4316ad0c1441]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: The near-term value is not operating a regulated financial product; it is reducing integration and compliance uncertainty before the July 2027 implementation deadline. A narrowly scoped conformance harness could convert public technical requirements into repeatable test cases and evidence packets.
@@ -1512,6 +1512,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.energy.gov/mesc/industrial-research-and-assessment-center-implementation-grant-awards; https://www.energy.gov/sites/default/files/2023-08/CX-028489.pdf
+
+### High-density data-center infrastructure exposure with contracted customer capacity [opp_ff7664e6668a555ae59f]
+- Status: WATCH_REQUIRES_VALIDATION | public_markets | United States
+- Thesis: The investable mechanism is monetization of scarce powered data-center capacity through long-duration colocation contracts, rather than an assumption that AI growth automatically benefits every infrastructure stock. Upside depends on converting capacity into contracted, paying tenants; downside includes construction, financing, customer concentration, power availability, execution, and technology-obsolescence risk.
+- Value capture: A small investor can obtain exposure through the publicly traded equity or debt instruments, subject to liquidity and suitability checks. The concrete catalyst to monitor is disclosure of additional signed colocation capacity, customer commitments, power-delivery milestones, or conversion of under-construction capacity into revenue. No return, valuation, or downside probability is asserted.
+- Participation hypothesis: Before purchasing, build a one-page event checklist from Core Scientific filings: contracted MW, delivered MW, remaining capex, customer concentration, contract term, cancellation rights, and financing needs. Falsify the thesis by checking the next two quarterly filings for signed capacity and revenue conversion; if capacity remains largely uncontracted or capex and financing needs rise faster than contracted cash flow, reject the trade. This is a public-market research route, not a claim that the security is currently mispriced.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/1839341/000119312526134881/d118783dars.pdf; https://www.sec.gov/Archives/edgar/data/715957/000119312526063120/d-20251231.htm
 
 ### Independent commissioning and support wedge for imported cobots and industrial robots [opp_f4c3bdd269dc1732bf3a]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile

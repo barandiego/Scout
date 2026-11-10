@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 187
+Candidates: 188
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -339,18 +339,6 @@ Candidates: 187
 - Critical gaps: Whether the cited January 1, 2026 AFCI requirement applies to the exact project classes, inverter configurations, and connection pathways targeted by the product, rather than only specified cases or alternatives.; Whether SEC or distributors accept the proposed equipment/documentation combinations in practice and what causes actual TE4 or related filing rejections.; Number of Chilean distributed BESS projects currently being designed, installed, or submitted through the relevant process.
 - Possible initial budget:
 - Source URLs: https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/; https://www.sec.cl/gda/; https://www.sec.cl/normas-tecnicas-electricas/
-
-## BESS procurement evidence pack focused on supply-chain and grid-support requirements
-- Status: watch | energy_infrastructure
-- Current idea: BESS projects require more than a battery quote: procurement teams must evaluate technical specifications, interconnection requirements, component provenance, cybersecurity or supply-chain exposure, and mitigation evidence. A standardized evidence pack could reduce repeated bid-comparison work, but the existence of a paying market remains to be tested.
-- Potential economic capture: Create a narrowly scoped, machine-readable vendor-comparison pack that maps supplier documents to DOE procurement checklist fields, records missing evidence, and flags single-source or foreign-component dependencies. Potential cash flow would come from project developers, EPCs, or public-sector procurement teams purchasing a project-specific review; no buyer or fee is assumed.
-- **Research routes to test (NOT validated claims):**
-  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
-  - Compare owned asset, installer/distributor and project-finance participation.
-  - Verify permits and installed net payback under conservative power price scenarios.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://www.energy.gov/cmei/femp/articles/battery-energy-storage-system-procurement-checklist; https://www.energy.gov/ceser/articles/new-ceser-report-offers-supply-chain-mitigation-strategies-battery-storage-systems
 
 ## Bid-ready resilience package for small-utility battery and microgrid subawards
 - Status: watch | energy_infrastructure
@@ -1468,6 +1456,18 @@ Candidates: 187
 - Possible initial budget:
 - Source URLs: https://cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
+## Chile SFA/ATENA conformance test harness for regulated participants
+- Status: watch | open_finance_chile
+- Current idea: A narrowly scoped reusable test harness could reduce integration and pre-registration friction for entities that need to validate APIs, credentials, directory interactions, and required data flows before the July 2027 implementation date. The evidence supports a compliance-readiness wedge, not a broad open-finance platform or guaranteed consulting market.
+- Potential economic capture: Sell or license a lightweight local/cloud test package containing automated API-contract tests, sample payloads, credential and directory-flow checks, and a repeatable ATENA test checklist. A second possible asset is a maintained conformance-report generator. Pricing and purchase authority are unverified; no recurring revenue or customer count is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html
+
 ## Chile SFA/ATENA conformance-test asset for prospective participants
 - Status: watch | open_finance_chile
 - Current idea: The near-term value is not operating a regulated financial product; it is reducing integration and compliance uncertainty before the July 2027 implementation deadline. A narrowly scoped conformance harness could convert public technical requirements into repeatable test cases and evidence packets.
@@ -1947,6 +1947,18 @@ Candidates: 187
 - Critical gaps: What proportion of the cited queues is technically addressable by each technology and by geography?; How much of the claimed congestion cost is avoidable through GETs rather than caused by insufficient generation, local distribution constraints, market design, or fuel and demand shocks?; Which entities receive the economic benefit: generators, load-serving entities, transmission owners, ratepayers, RTOs/ISOs, or technology vendors?
 - Possible initial budget:
 - Source URLs: https://www.iea.org/reports/modernising-grids-in-the-age-of-electricity/executive-summary; https://www.iea.org/reports/electricity-2026/grids
+
+## High-density data-center infrastructure exposure with contracted customer capacity
+- Status: watch | public_markets
+- Current idea: The investable mechanism is monetization of scarce powered data-center capacity through long-duration colocation contracts, rather than an assumption that AI growth automatically benefits every infrastructure stock. Upside depends on converting capacity into contracted, paying tenants; downside includes construction, financing, customer concentration, power availability, execution, and technology-obsolescence risk.
+- Potential economic capture: A small investor can obtain exposure through the publicly traded equity or debt instruments, subject to liquidity and suitability checks. The concrete catalyst to monitor is disclosure of additional signed colocation capacity, customer commitments, power-delivery milestones, or conversion of under-construction capacity into revenue. No return, valuation, or downside probability is asserted.
+- **Research routes to test (NOT validated claims):**
+  - Find overlooked fundamentals and a named accessible security with dated primary filings.
+  - Compare risked intrinsic value, market expectations and specific downside scenarios.
+  - Define catalysts and invalidation thresholds before any governed investment decision.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.sec.gov/Archives/edgar/data/1839341/000119312526134881/d118783dars.pdf; https://www.sec.gov/Archives/edgar/data/715957/000119312526063120/d-20251231.htm
 
 ## Merger-arbitrage screening around the Paramount-Warner Bros. Discovery transaction
 - Status: watch | public_markets
