@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-11-10T02:33:25.391044+00:00
+Generated: 2026-11-10T12:07:03.243306+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
 - Active research: 188 (0 HQ survivors, 188 watches)
-- Rejected opportunities excluded: 106
+- Rejected opportunities excluded: 107
 - Critic-and-judge reviewed: 85
 - Autonomous execution authorization: 0
 

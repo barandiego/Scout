@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-10T02:33:25.126290+00:00
+Generated: 2026-11-10T12:07:02.810236+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['early_adoption_investing', 'market_positioning', 'asset_ownership']
-- raw_candidates: 2
-- parseable_candidates: 2
-- normalized_candidates: 2
+- lenses: ['nfc_smart_commerce', 'vertical_farming_economics', 'energy_localization']
+- raw_candidates: 1
+- parseable_candidates: 1
+- normalized_candidates: 1
 - normalization_rejected: 0
-- grounded_sources: 4
+- grounded_sources: 2
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
 - critic_reviews: 1
 - judge_reviews: 1
 - survivors: 0
-- watches: 2
+- watches: 0
 - rejected: 1
 - errors_by_stage: {}
-- rejection_reasons: {}
-- cost_usd: 0.0424489
+- rejection_reasons: {'discarded_ungrounded_url': 1}
+- cost_usd: 0.04466685
 - cost_uncertain: False
-- budget_remaining_usd: 0.0375511
+- budget_remaining_usd: 0.03533315
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -56,7 +56,7 @@ No survivors. Scout does not manufacture a daily winner.
 ```json
 {
   "notes": [
-    "deep_review_lane=backlog",
+    "deep_review_lane=fresh",
     "research_queue_unreviewed=94"
   ],
   "stages": [
@@ -65,52 +65,52 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 22,
+      "grounded_source_count": 35,
       "search_source_urls": [
-        "https://arxiv.org/abs/2603.16458",
-        "https://arxiv.org/abs/2608.14707",
-        "https://arxiv.org/abs/2610.14793",
-        "https://arxiv.org/abs/2611.05392",
-        "https://cmfchile.cl/portal/principal/613/articles-100816_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-100482.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-109348.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-92449.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-propertyvalue-43350.html",
-        "https://www.cmfchile.cl/portal/principal/623/articles-82752_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-92466.html",
-        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=6478dda17297672085fb49eb6ad0fda4VFdwQmVVNXFRVEZOUkUweFQxUmpkMDlCUFQwPQ%3D%3D&secuencia=-1&t=1781887982",
-        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640",
-        "https://www.sec.gov/Archives/edgar/data/1561894/000156189426000063/hasi014990-ars.pdf",
-        "https://www.sec.gov/Archives/edgar/data/1839341/000119312526134881/d118783dars.pdf",
-        "https://www.sec.gov/Archives/edgar/data/715957/000119312526063120/d-20251231.htm"
+        "https://agbasolutions.cl/nfc/?c=3FD6C1&e=halo&m=grafito&t=Acceso",
+        "https://agbasolutions.cl/nfc/?c=E8455D&e=bloque&m=grafito&t=Fidelizaci%C3%B3n",
+        "https://apnews.com/article/6e78fb86160d6cabe12f245307706cf4",
+        "https://arxiv.org/abs/2506.21510",
+        "https://arxiv.org/abs/2507.06595",
+        "https://arxiv.org/abs/2507.18419",
+        "https://arxiv.org/abs/2510.03686",
+        "https://cincodias.elpais.com/companias/2025-05-19/grenergy-firma-un-nuevo-contrato-de-energia-verde-en-chile-de-390-gwh.html",
+        "https://climate.org/wp-content/uploads/2025/09/Final-Chile-Report.pdf",
+        "https://economiacircular.mma.gob.cl/wp-content/uploads/2024/11/18.-SP-Global-Commodity-Insights-2023-Chile-advances-regulation-to-support-storage-goals.pdf",
+        "https://elpais.com/america-futura/2024-12-19/la-caida-de-los-precios-de-las-baterias-impulsa-un-boom-de-almacenamiento-de-energia-limpia.html",
+        "https://elpais.com/extra/energia/2026-05-17/algoritmos-y-rentabilidad-claves-en-la-carrera-del-almacenamiento.html",
+        "https://en.wikipedia.org/wiki/Controlled-environment_agriculture",
+        "https://iea.blob.core.windows.net/assets/88bb4abe-0308-42f9-a46f-c776a9528522/Electricity_2026.pdf",
+        "https://linkd.cl/",
+        "https://linktap.cl/tarjetas-nfc/",
+        "https://nfcnexo.cl/",
+        "https://nfctech.cl/",
+        "https://pymevisible.cl/productos/tarjeta-google",
+        "https://tarjetas-nfc.com/empresas",
+        "https://tarjetas-nfc.com/precios",
+        "https://www.apec.org/docs/default-source/publications/2025/8/225_ewg_apec-urban-energy-report.pdf?sfvrsn=f9e08006_1",
+        "https://www.apec.org/docs/default-source/publications/2025/8/225_ewg_apec-urban-energy-report.pdf?sfvrsn=f9e08006_1",
+        "https://www.axios.com/2023/01/06/indoor-farming-small-scale-farmers",
+        "https://www.axios.com/local/chicago/2026/08/10/downtown-vertical-farming-venture-takes-root",
+        "https://www.citytap.cl/pdf/CITYTAP_TARJETAYDOMO_LEADNET.pdf",
+        "https://www.iea.org/files/2fcd8719-121f-4248-914a-75ea2485be21/Chile2050EnergyTransitionRoadmap.pdf",
+        "https://www.ondda.cl/",
+        "https://www.reddit.com/r/Hydroponics/comments/1oz3hps",
+        "https://www.reddit.com/r/Hydroponics/comments/1xr9s2z/looking_for_some_realworld_hydroponics_advice/",
+        "https://www.reddit.com/r/NFC/comments/1vw9yun/nfc_business_cards_without_a_subscription_honest/",
+        "https://www.reddit.com/r/OffGrid/comments/1n4cm1y",
+        "https://www.reddit.com/r/chile/comments/1u4iu1k/cual_es_la_gracia_de_complicar_todo_en_esta_vida/",
+        "https://www.spec.cl/en/publicaciones/2026-almacenamiento-corta-duracion/",
+        "https://www.tuk.cl/es-cl/pages/para-empresas"
       ]
     },
     {
       "index": 0,
       "stage": "normalization",
       "outcome": "accepted",
-      "reasons": [],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
+      "reasons": [
+        "discarded_ungrounded_url"
       ],
-      "grounded_sources": 2,
-      "retry_justified": false
-    },
-    {
-      "index": 1,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [],
       "changes": [
         "contrary_evidence:list_sanitized",
         "major_risks:list_sanitized",
@@ -123,51 +123,44 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_821fe989c63ca8db797f",
+      "candidate_id": "opp_350a3094af3a19baafec",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 28,
+      "grounded_source_count": 23,
       "search_source_urls": [
-        "https://apnews.com/article/edf8ff79ec97d7245f64afa9f9ac713a",
-        "https://csdet.inl.gov/content/uploads/45/2025/03/02_SupplyChainAnalysis_02132025.pdf",
-        "https://en.wikipedia.org/wiki/Jaggaer",
-        "https://think.ing.com/articles/us-battery-storage-needs-innovation-for-long-term-growth",
-        "https://time.com/7275714/trump-tariffs-biggest-clean-energy-impacts/",
-        "https://wp.ece.uw.edu/wp-content/uploads/sites/29/2026/04/0401_08_Supply-Chain-Security-EMS-NWESS-JMT03192026.pdf",
-        "https://www.accure.net/battery-analytics-solutions/procurement",
-        "https://www.anzarenewables.com/blog/solar-storage-procurement-outlook-mitigating-tariff-trade-supply-chain-risk-in-2026/",
-        "https://www.anzarenewables.com/software-and-data/",
-        "https://www.axios.com/2024/12/09/scoop-govsignals-automate-procurement",
-        "https://www.axios.com/2025/06/02/axios-expert-voices-event-defense-supply-chain-battlefield",
-        "https://www.csis.org/analysis/new-phase-us-battery-industry",
-        "https://www.dev2.ansarada.com/procure/renewable-infrastructure-procurement",
-        "https://www.energy.gov/cmei/femp/articles/battery-energy-storage-system-procurement-checklist",
-        "https://www.energy.gov/sites/default/files/2023-09/Step-by-Step-Appendix.pdf",
-        "https://www.energy.gov/sites/default/files/2025-01/BESSIE_supply-chain-battery-report_111124_OPENRELEASE_SJ_1.pdf?trk=article-ssr-frontend-pulse_little-text-block",
-        "https://www.gridvest.com/",
-        "https://www.gridvest.com/faqs",
-        "https://www.itpro.com/business/business-strategy/the-great-vendor-purge-is-squeezing-the-channel",
-        "https://www.itpro.com/software/why-enterprise-software-is-becoming-harder-not-easier-to-buy",
-        "https://www.mckinsey.com/industries/industrials/our-insights/powering-the-future-strategies-for-battery-energy-storage-developers",
-        "https://www.morganlewis.com/pubs/2026/03/tariffs-and-trade-risk-in-energy-storage-projects-2026-and-beyond",
-        "https://www.reddit.com/r/u_PowerSynch/comments/1tr9omj/how_to_choose_an_energy_procurement_platform_for/",
-        "https://www.techradar.com/pro/public-procurement-needs-a-route-out-of-microsoft-lock-in",
-        "https://www.techradar.com/pro/the-pentagon-wants-to-buy-an-australian-made-kamikaze-suicide-drone-armed-with-a-shotgun",
-        "https://www.teneo.com/insights/articles/ob3s-impact-on-us-energy-storage-a-bump-or-a-fork-in-the-road/",
-        "https://www.uscc.gov/sites/default/files/2025-11/2025_Annual_Report_to_Congress.pdf",
-        "https://www.willkie.com/-/media/files/publications/2025/04/understanding-current-battery-and-bess-supply-chain-risks.pdf"
+        "https://ally-law.com/wp-content/uploads/2026/02/Doing-Business-2026-Arteaga-Gorziglia.pdf",
+        "https://autoconsumo.minenergia.cl/?page_id=57",
+        "https://centra.uai.cl/despliegue-proyectos-bess-en-chile-desafios-operacionales-regulatorios-y-de-mercado/?lang=en",
+        "https://cincodias.elpais.com/companias/2026-03-03/la-espanola-solarig-cierra-un-acuerdo-con-tesla-para-el-mantenimiento-de-sus-baterias-estacionarias-en-chile.html",
+        "https://cincodias.elpais.com/companias/2026-09-02/grenergy-cierra-la-venta-a-cvc-dif-de-la-cuarta-fase-de-su-proyecto-de-almacenamiento-en-chile-por-410-millones.html",
+        "https://documents1.worldbank.org/curated/en/099101526143517589/pdf/P506442-f1cdbbbb-ad3c-455a-afdd-75db00d85342.pdf",
+        "https://elpais.com/chile/2026-07-16/ordenar-la-cuenta-electrica-con-un-cheque-en-blanco.html",
+        "https://elpais.com/chile/2026-08-26/el-tribunal-constitucional-rechaza-el-reclamo-del-gobierno-de-kast-contra-la-reconexion-gratuita-de-servicios-basicos.html",
+        "https://energia.gob.cl/sites/default/files/documentos/generacion_distribuida_en_chile.pdf",
+        "https://financing.desa.un.org/sites/default/files/2024-04/Carbon%20Taxation%20Handbook_FINAL04092024.pdf",
+        "https://generaciondistribuida.minenergia.cl/sites/default/files/documentos/Ley-20571-Version-Web.pdf",
+        "https://www.axios.com/2026/02/23/battery-storage-utilities-data-centers",
+        "https://www.bcn.cl/leychile/Navegar?idNorma=1150437&idParte=10165990&idVersion=2026-07-14",
+        "https://www.bcn.cl/leychile/Navegar?idNorma=258171&idParte=8721837",
+        "https://www.bcn.cl/leychile/navegar?i=1210407",
+        "https://www.bcn.cl/leychile/navegar?idNorma=1140253",
+        "https://www.bcn.cl/leychile/navegar?idNorma=1150437&idParte=10165865&idVersion=2026-06-13",
+        "https://www.cne.cl/normativas/electrica/normas-tecnicas/",
+        "https://www.cne.cl/wp-content/uploads/2020/08/Norma-T%C3%A9cnica-Netbilling-2019.pdf",
+        "https://www.leychile.cl/leychile/Navegar?idNorma=1219556",
+        "https://www.sec.cl/GDA/?view_full_site=true",
+        "https://www.sec.cl/gda/documentacion-y-presentaciones/",
+        "https://www.spec.cl/en/publicaciones/2026-almacenamiento-corta-duracion/"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_821fe989c63ca8db797f",
-      "coercions": [
-        "contrary_evidence"
-      ]
+      "candidate_id": "opp_350a3094af3a19baafec",
+      "coercions": []
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_821fe989c63ca8db797f",
+      "candidate_id": "opp_350a3094af3a19baafec",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -175,7 +168,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_821fe989c63ca8db797f",
+      "candidate_id": "opp_350a3094af3a19baafec",
       "coercions": []
     }
   ],
@@ -183,44 +176,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 211,
-      "cache_write_tokens": 5445,
+      "reasoning_tokens": 327,
+      "cache_write_tokens": 5433,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01469545,
+      "cumulative_cost_usd": 0.01435785,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13884,
+      "input_tokens": 13963,
       "cached_tokens": 0,
-      "output_tokens": 1372,
+      "output_tokens": 1078,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01469545
+      "estimated_cost_usd": 0.01435785
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 111,
-      "cache_write_tokens": 5263,
+      "reasoning_tokens": 164,
+      "cache_write_tokens": 5460,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0293154,
+      "cumulative_cost_usd": 0.02915585,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13708,
+      "input_tokens": 14003,
       "cached_tokens": 0,
-      "output_tokens": 1346,
+      "output_tokens": 1437,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01461995
+      "estimated_cost_usd": 0.014798
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 51,
-      "cache_write_tokens": 2755,
+      "reasoning_tokens": 127,
+      "cache_write_tokens": 3394,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0424489,
+      "cumulative_cost_usd": 0.04466685,
       "model": "gpt-5.6-terra",
-      "input_tokens": 2758,
+      "input_tokens": 3397,
       "cached_tokens": 0,
-      "output_tokens": 520,
+      "output_tokens": 585,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.0131335
+      "estimated_cost_usd": 0.015511
     }
   ]
 }
