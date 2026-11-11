@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 190
+Candidates: 192
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -339,6 +339,18 @@ Candidates: 190
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.energy.gov/cmei/manufacturing/battery-manufacturing-and-recycling-grants; https://www.energy.gov/articles/energy-department-announces-500-million-secure-americas-critical-mineral-and-battery
+
+## Battery-storage supply-chain security as a narrowly testable vendor-verification product
+- Status: watch | energy_infrastructure
+- Current idea: A narrowly scoped product could be a documented component-provenance and vendor-dependency dossier for one BESS project or integrator, rather than a broad AI or cybersecurity consultancy. The economic mechanism would be reducing procurement, compliance, commissioning, or operational-risk uncertainty before deployment; willingness to pay is unverified.
+- Potential economic capture: Potential cash flow would come from a fixed-price, project-specific verification package sold only if an integrator, EPC, insurer, lender, or asset owner agrees to a paid pilot. No buyer, price, margin, or permission is established by the cited evidence.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.energy.gov/ceser/articles/new-ceser-report-offers-supply-chain-mitigation-strategies-battery-storage-systems; https://www.energy.gov/documents/2026-useer-national-report
 
 ## BESS and inverter compliance pre-check for Chilean distributed-energy projects
 - Status: watch | energy_infrastructure
@@ -1995,6 +2007,18 @@ Candidates: 190
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://ir.wbd.com/news-and-events/financial-news/financial-news-details/2026/Paramount-Skydance-and-Warner-Bros--Discovery-Announce-Anticipated-Closing-Date-of-Paramount-Merger/default.aspx; https://www.sec.gov/Archives/edgar/data/2041610/000110465926111034/tm2610616d11_8k.htm; https://ir.wbd.com/news-and-events/financial-news/financial-news-details/2026/Paramount-to-Acquire-Warner-Bros--Discovery-to-Form-Next-Generation-Global-Media-and-Entertainment-Company-2026-3kBxBYyvtU/default.aspx
+
+## MP Materials: domestic rare-earth magnet production with disclosed OEM and government-linked demand
+- Status: watch | public_markets
+- Current idea: The company is moving from selling mainly upstream rare-earth products toward higher-value metal, alloy, precursor, and finished-magnet products. The economic mechanism is potential downstream revenue and margin capture, subject to execution, customer concentration, production yields, and rare-earth prices.
+- Potential economic capture: Purchase or paper-trade NYSE:MP equity around dated operational milestones: Northlake facility construction, GM production ramp, Apple recycling deliveries, magnet segment revenue, and adjusted EBITDA. The disclosed 2025 magnetics revenue was $66.861 million with $26.449 million of segment adjusted EBITDA; these figures are historical, not a forecast.
+- **Research routes to test (NOT validated claims):**
+  - Find overlooked fundamentals and a named accessible security with dated primary filings.
+  - Compare risked intrinsic value, market expectations and specific downside scenarios.
+  - Define catalysts and invalidation thresholds before any governed investment decision.
+- Critical gaps: Current share price, market capitalization, enterprise value, forward valuation, and the amount of expected downstream economics already priced in.; 2026 magnetics gross margin, cash cost per kilogram, yield, scrap rate, utilization, and sustainable segment EBITDA excluding prepayments, government support, intersegment transactions, and one-time items.; The actual contractual pricing, take-or-pay provisions, cancellation rights, quality penalties, and margin allocation in the GM and Apple arrangements.
+- Possible initial budget:
+- Source URLs: https://www.sec.gov/Archives/edgar/data/1801368/000180136826000008/mp-20251231.htm; https://www.sec.gov/Archives/edgar/data/1801368/000180136826000007/mpmcq42025er.htm; https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf
 
 ## Pre-spin-off event-driven position in Flex’s Cloud and Power Infrastructure separation
 - Status: watch | public_markets

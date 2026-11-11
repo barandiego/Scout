@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-11-11T15:52:16.978934+00:00
+Generated: 2026-11-11T22:29:08.779949+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 190 (0 HQ survivors, 190 watches)
+- Active research: 192 (0 HQ survivors, 192 watches)
 - Rejected opportunities excluded: 111
-- Critic-and-judge reviewed: 85
+- Critic-and-judge reviewed: 86
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -132,6 +132,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Number, size, crop mix, and geographic concentration of existing Chilean indoor or hydroponic growers that use artificial lighting.; Actual Chilean electricity tariffs, demand charges, time-of-use pricing, and renewable-energy arrangements applicable to target facilities.; Lighting, HVAC, pumping, dehumidification, and refrigeration shares of total site electricity consumption.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://arxiv.org/abs/2507.18419; https://arxiv.org/abs/2510.03686; https://ers.usda.gov/sites/default/files/_laserfiche/publications/108221/EIB-264.pdf
+
+### MP Materials: domestic rare-earth magnet production with disclosed OEM and government-linked demand [opp_ea11946fa895efb87c68]
+- Status: WATCH_REQUIRES_VALIDATION | public_markets | United States
+- Thesis: The company is moving from selling mainly upstream rare-earth products toward higher-value metal, alloy, precursor, and finished-magnet products. The economic mechanism is potential downstream revenue and margin capture, subject to execution, customer concentration, production yields, and rare-earth prices.
+- Value capture: Purchase or paper-trade NYSE:MP equity around dated operational milestones: Northlake facility construction, GM production ramp, Apple recycling deliveries, magnet segment revenue, and adjusted EBITDA. The disclosed 2025 magnetics revenue was $66.861 million with $26.449 million of segment adjusted EBITDA; these figures are historical, not a forecast.
+- Participation hypothesis: Lowest-cost falsification: create a paper position only after recording the current share price, then monitor the next two quarterly SEC filings for: (1) magnetics revenue, (2) gross or segment adjusted EBITDA, (3) customer concentration, (4) Northlake construction progress, and (5) GM/Apple shipment evidence. Reject the thesis if magnetics revenue or profitability does not progress while capital spending and dilution rise. A real-money route, if independently approved, is ordinary-market purchase of NYSE:MP shares; no assumed allocation or ret
+- Critic/judge: MP is an accessible NYSE-listed security with dated SEC filings supporting that downstream magnet production began and that customer/government-linked arrangements exist. The research question is therefore credible, but not yet HQ-worthy as a valuation-based investment thesis: no current price, enterprise value, risked cash-flow model, or per-share dilution-adjusted value is provided. Reported early magnetics revenue and adjusted EBITDA
+- Next evidence gaps: Current share price, market capitalization, enterprise value, forward valuation, and the amount of expected downstream economics already priced in.; 2026 magnetics gross margin, cash cost per kilogram, yield, scrap rate, utilization, and sustainable segment EBITDA excluding prepayments, government support, inters; The actual contractual pricing, take-or-pay provisions, cancellation rights, quality penalties, and margin allocation in the GM and Apple arrangements.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/1801368/000180136826000008/mp-20251231.htm; https://www.sec.gov/Archives/edgar/data/1801368/000180136826000007/mpmcq42025er.htm; https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf
 
 ### NFC/QR review-and-discovery plates for Chilean physical venues [opp_d54cb21f051b71d41869]
 - Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile
@@ -1212,6 +1222,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.energy.gov/cmei/manufacturing/battery-manufacturing-and-recycling-grants; https://www.energy.gov/articles/energy-department-announces-500-million-secure-americas-critical-mineral-and-battery
+
+### Battery-storage supply-chain security as a narrowly testable vendor-verification product [opp_68a2c7e81a05d8f3fb8f]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States
+- Thesis: A narrowly scoped product could be a documented component-provenance and vendor-dependency dossier for one BESS project or integrator, rather than a broad AI or cybersecurity consultancy. The economic mechanism would be reducing procurement, compliance, commissioning, or operational-risk uncertainty before deployment; willingness to pay is unverified.
+- Value capture: Potential cash flow would come from a fixed-price, project-specific verification package sold only if an integrator, EPC, insurer, lender, or asset owner agrees to a paid pilot. No buyer, price, margin, or permission is established by the cited evidence.
+- Participation hypothesis: Lowest-cost falsification: use public DOE component and supply-chain material to produce one sample dossier for a named BESS system, then contact five identifiable U.S. BESS integrators or EPCs with a precise paid-pilot question: whether they would pay for verification of component origin, parent-company changes, firmware/support continuity, and substitution risk before procurement. Stop if there are no requests for a sample, no access to a real project bill of materials, or no paid pilot. Do not represent DOE endorsement or access to confident
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.energy.gov/ceser/articles/new-ceser-report-offers-supply-chain-mitigation-strategies-battery-storage-systems; https://www.energy.gov/documents/2026-useer-national-report
 
 ### Bid as a small supplier or integrator around Chilean public-sector collaborative-robot purchases [opp_6fed166e1f1a1ba78706]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile

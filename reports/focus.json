@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-11-11T15:52:16.978934+00:00",
+  "generated_at": "2026-11-11T22:29:08.779949+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -13,7 +13,7 @@
     },
     {
       "opportunity_id": "opp_7ea6a495427da87c8c5c",
-      "other_cards_in_theme": 20,
+      "other_cards_in_theme": 21,
       "reviewed": true,
       "status": "watch",
       "theme": "energy_infrastructure",
@@ -60,6 +60,14 @@
       "title": "Apply for Chilean-Spanish AI training and evaluation contracts"
     },
     {
+      "opportunity_id": "opp_ea11946fa895efb87c68",
+      "other_cards_in_theme": 0,
+      "reviewed": true,
+      "status": "watch",
+      "theme": "public_markets:mp_materials_domestic",
+      "title": "MP Materials: domestic rare-earth magnet production with disclosed OEM and government-linked demand"
+    },
+    {
       "opportunity_id": "opp_30978e90c9f1315f2e7c",
       "other_cards_in_theme": 0,
       "reviewed": true,
@@ -90,28 +98,20 @@
       "status": "watch",
       "theme": "data_center_infrastructure",
       "title": "AI and data-center growth are making electricity and grid access a binding cost constraint"
-    },
-    {
-      "opportunity_id": "opp_71d0c9b815295110f006",
-      "other_cards_in_theme": 0,
-      "reviewed": true,
-      "status": "watch",
-      "theme": "geographic_arbitrage:midstream_critical_minerals",
-      "title": "Midstream critical-minerals processing is becoming a strategic bottleneck"
     }
   ],
   "headline_count": 12,
   "high_concentration": [
     {
       "cards": 78,
-      "share": 0.411,
+      "share": 0.406,
       "theme": "chile_open_finance"
     }
   ],
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 81,
+  "theme_count": 82,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -221,9 +221,10 @@
         "opp_71c647684dc9a170f988",
         "opp_5571f801955a232174a9",
         "opp_fae38501d518e3a074eb",
-        "opp_ec860c3b7cc73965afb4"
+        "opp_ec860c3b7cc73965afb4",
+        "opp_68a2c7e81a05d8f3fb8f"
       ],
-      "count": 21,
+      "count": 22,
       "representative_id": "opp_7ea6a495427da87c8c5c",
       "reviewed_count": 10,
       "theme": "energy_infrastructure"
@@ -800,6 +801,15 @@
     },
     {
       "all_opportunity_ids": [
+        "opp_ea11946fa895efb87c68"
+      ],
+      "count": 1,
+      "representative_id": "opp_ea11946fa895efb87c68",
+      "reviewed_count": 1,
+      "theme": "public_markets:mp_materials_domestic"
+    },
+    {
+      "all_opportunity_ids": [
         "opp_91d2d1e9524976272e95"
       ],
       "count": 1,
@@ -952,6 +962,6 @@
       "theme": "robotics_agritech:water_efficiency_field"
     }
   ],
-  "total_original_cards": 190,
+  "total_original_cards": 192,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }

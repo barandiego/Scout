@@ -1137,6 +1137,95 @@
     {
       "ai_leverage": "",
       "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": true,
+      "discovered_at": "2026-11-11T22:28:44.553569+00:00",
+      "discovery_lens": "mining_materials",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The filing describes 2025 magnetic-precursor revenue, commencement of NdFeB magnet manufacturing in December 2025, the Independence facility, and the company's downstream magnetics segment.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "MP Materials 2025 Form 10-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000008/mp-20251231.htm"
+        },
+        {
+          "claim": "The release reports a $200 million incentive package for the Northlake facility, an NdPr offtake agreement, an Apple recycled-magnet agreement, and an expected 2026 GM magnet-production ramp.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "MP Materials fourth-quarter and full-year 2025 results",
+          "url": "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000007/mpmcq42025er.htm"
+        },
+        {
+          "claim": "USGS identifies rare-earth elements including neodymium, terbium, dysprosium, and yttrium as critical minerals with applications including permanent magnets and advanced technologies.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "USGS Mineral Commodity Summaries 2026",
+          "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.84,
+      "falsification_conditions": [
+        "Magnetics revenue or segment EBITDA fails to grow materially over the next two quarterly filings despite GM qualification and continued capital spending.",
+        "Reported magnetics profitability depends primarily on customer prepayments, government incentives, intersegment transfers, or accounting timing rather than positive recurring operating cash flow.",
+        "GM or Apple shipments are delayed, reduced, renegotiated, or fail to convert into recurring commercial volume.",
+        "10X construction, commissioning, or customer qualification slips by more than two reporting periods or requires a materially larger capital budget.",
+        "Sustained production yields remain too low, customer quality issues emerge, or realized pricing does not cover the cost premium of U.S. production.",
+        "Heavy-rare-earth supply cannot be secured at viable prices, preventing commercially competitive high-performance magnets.",
+        "Dilution and incremental capital expenditure rise faster than downstream gross profit, leaving per-share value stagnant or declining.",
+        "A sustained decline in rare-earth prices or renewed Chinese supply access demonstrates that MP's domestic cost structure cannot compete without continuing government support."
+      ],
+      "geography": "United States",
+      "id": "opp_ea11946fa895efb87c68",
+      "judge_reviewed": true,
+      "judgment": "MP is an accessible NYSE-listed security with dated SEC filings supporting that downstream magnet production began and that customer/government-linked arrangements exist. The research question is therefore credible, but not yet HQ-worthy as a valuation-based investment thesis: no current price, enterprise value, risked cash-flow model, or per-share dilution-adjusted value is provided. Reported early magnetics revenue and adjusted EBITDA are insufficient proof of durable standalone economics because customer prepayments, incentives, intersegment activity, start-up yields, utilization, and accounting timing may materially affect results. Several cited milestones are historical, but meaningful forward verification remains in GM/Apple shipment conversion, Northlake execution, recurring margins, and financing outcomes. This survives only as a tightly monitored research watch, not as a buy conclusion.",
+      "last_record_updated_at": "2026-11-11T22:29:08.362147+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Current share price, market capitalization, enterprise value, forward valuation, and the amount of expected downstream economics already priced in.",
+        "2026 magnetics gross margin, cash cost per kilogram, yield, scrap rate, utilization, and sustainable segment EBITDA excluding prepayments, government support, intersegment transactions, and one-time items.",
+        "The actual contractual pricing, take-or-pay provisions, cancellation rights, quality penalties, and margin allocation in the GM and Apple arrangements.",
+        "How much of Apple and GM demand represents finished magnets versus precursor products, and whether volumes will continue after initial qualification or contracted deliveries.",
+        "Total remaining capital expenditure for 10X, the Independence expansion, heavy-rare-earth separation, recycling, and supporting infrastructure."
+      ],
+      "participation_path": "Lowest-cost falsification: create a paper position only after recording the current share price, then monitor the next two quarterly SEC filings for: (1) magnetics revenue, (2) gross or segment adjusted EBITDA, (3) customer concentration, (4) Northlake construction progress, and (5) GM/Apple shipment evidence. Reject the thesis if magnetics revenue or profitability does not progress while capital spending and dilution rise. A real-money route, if independently approved, is ordinary-market purchase of NYSE:MP shares; no assumed allocation or return is implied.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The company is moving from selling mainly upstream rare-earth products toward higher-value metal, alloy, precursor, and finished-magnet products. The economic mechanism is potential downstream revenue and margin capture, subject to execution, customer concentration, production yields, and rare-earth prices.",
+      "title": "MP Materials: domestic rare-earth magnet production with disclosed OEM and government-linked demand",
+      "type": "public_equity_catalyst",
+      "unknowns": [
+        "Current share price, market capitalization, enterprise value, forward valuation, and the amount of expected downstream economics already priced in.",
+        "2026 magnetics gross margin, cash cost per kilogram, yield, scrap rate, utilization, and sustainable segment EBITDA excluding prepayments, government support, intersegment transactions, and one-time items.",
+        "The actual contractual pricing, take-or-pay provisions, cancellation rights, quality penalties, and margin allocation in the GM and Apple arrangements.",
+        "How much of Apple and GM demand represents finished magnets versus precursor products, and whether volumes will continue after initial qualification or contracted deliveries.",
+        "Total remaining capital expenditure for 10X, the Independence expansion, heavy-rare-earth separation, recycling, and supporting infrastructure.",
+        "Whether MP can secure sufficient dysprosium and terbium feedstock outside China at commercially viable prices.",
+        "Potential share issuance, warrants, government-linked equity instruments, or other dilution associated with expansion financing.",
+        "Whether Chinese export controls persist, ease, or cause customers to prioritize price over supply-chain diversification.",
+        "Whether the reported 2026 construction schedule leads to commercial production on time and at nameplate capacity.",
+        "Current share price, market capitalization, enterprise value, and what level of downstream earnings and policy support is already embedded in valuation.",
+        "Risked segment cash-flow economics after recurring capex, working capital, taxes, incentives, and dilution rather than adjusted EBITDA.",
+        "Contractual volumes, pricing, cancellation rights, take-or-pay protections, and whether customer prepayments represent economically attractive recurring demand.",
+        "Magnet yield, scrap, utilization, cost per kilogram, realized selling prices, and sustainable gross margin at commercial scale.",
+        "Remaining funding needs and terms for Independence, Northlake, recycling, heavy-rare-earth separation, and related infrastructure.",
+        "Whether Northlake construction and the GM/Apple production ramps have progressed on schedule after the cited 2025 results period."
+      ],
+      "value_capture_mechanism": "Purchase or paper-trade NYSE:MP equity around dated operational milestones: Northlake facility construction, GM production ramp, Apple recycling deliveries, magnet segment revenue, and adjusted EBITDA. The disclosed 2025 magnetics revenue was $66.861 million with $26.449 million of segment adjusted EBITDA; these figures are historical, not a forecast.",
+      "verified_sales": null,
+      "vertical": "public_markets",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
       "contrary_evidence": [
         "There is evidence of existing demand for the underlying hardware and setup: Chilean suppliers advertise NFC cards, adhesive products, review stands, QR fallback, nationwide shipping, and business-volume pricing.",
         "PuntoTap explicitly offers personalized NFC+QR points for Google reviews, installation, feedback, and a one-time payment with no subscriptions, closely matching the proposed wedge. Source: https://www.puntotap.cl/",
@@ -9581,6 +9670,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-11T22:28:44.554232+00:00",
+      "discovery_lens": "energy_industrial",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "DOE states that BESS supply chains have risks involving foreign-manufactured components and identifies actionable mitigation opportunities for service partners, industry, and government.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "DOE CESER report on battery-energy-storage supply-chain mitigation",
+          "url": "https://www.energy.gov/ceser/articles/new-ceser-report-offers-supply-chain-mitigation-strategies-battery-storage-systems"
+        },
+        {
+          "claim": "DOE reports 80,900 U.S. battery-storage workers in 2025 and identifies battery storage as the largest storage subsector by employment.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "2026 United States Energy and Employment Report",
+          "url": "https://www.energy.gov/documents/2026-useer-national-report"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.78,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_68a2c7e81a05d8f3fb8f",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-11T22:28:44.599231+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Lowest-cost falsification: use public DOE component and supply-chain material to produce one sample dossier for a named BESS system, then contact five identifiable U.S. BESS integrators or EPCs with a precise paid-pilot question: whether they would pay for verification of component origin, parent-company changes, firmware/support continuity, and substitution risk before procurement. Stop if there are no requests for a sample, no access to a real project bill of materials, or no paid pilot. Do not represent DOE endorsement or access to confidential vendor data.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A narrowly scoped product could be a documented component-provenance and vendor-dependency dossier for one BESS project or integrator, rather than a broad AI or cybersecurity consultancy. The economic mechanism would be reducing procurement, compliance, commissioning, or operational-risk uncertainty before deployment; willingness to pay is unverified.",
+      "title": "Battery-storage supply-chain security as a narrowly testable vendor-verification product",
+      "type": "service_wedge",
+      "unknowns": [],
+      "value_capture_mechanism": "Potential cash flow would come from a fixed-price, project-specific verification package sold only if an integrator, EPC, insurer, lender, or asset owner agrees to a paid pilot. No buyer, price, margin, or permission is established by the cited evidence.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-22T19:44:53.228771+00:00",
       "discovery_lens": "robotics_automation",
       "estimated_capital": "",
@@ -13360,13 +13503,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-11T15:52:16.978934+00:00",
+  "generated_at": "2026-11-11T22:29:08.779949+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 111,
-  "reviewed_cards": 85,
+  "reviewed_cards": 86,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 301,
-  "watch": 190
+  "total_distinct_opportunities": 303,
+  "watch": 192
 }
