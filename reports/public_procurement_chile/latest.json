@@ -1,35 +1,53 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 1560000.0,
-      "buyer": "I MUNICIPALIDAD DE PAPUDO",
-      "closes_at": "2026-11-13T10:00:00",
-      "code": "3602-130-COT26",
-      "estimated_budget": 1560000.0,
-      "name": "ARRIENDO DE LOCAL PARA CAPACITACION",
-      "products": 1,
+      "available_budget_clp": 2350000.0,
+      "buyer": "SERV NAC SALUD HOSPITAL DE LOS ANDES",
+      "closes_at": "2026-11-12T08:00:00",
+      "code": "617807-2573-COT26",
+      "estimated_budget": 2350000.0,
+      "name": "HAAV COMPRA DE INSUMOS",
+      "products": 2,
       "region": "Región de Valparaíso"
     },
     {
-      "available_budget_clp": 93000.0,
-      "buyer": "I MUNICIPALIDAD DE PENAFLOR",
-      "closes_at": "2026-11-13T12:27:00",
-      "code": "2731-1139-COT26",
-      "estimated_budget": 93000.0,
-      "name": "SC. N°12.040 - N°12.41 - N°12.042-DIRECCIÓN DE TRÁNSITO Y TRANSPORTE PÚBLICO-DEPARTAMENTO DE PERMISOS DE CIRCULACIÓN-DUPLICADO PLACA CARRO DE ARRASTE",
-      "products": 1,
+      "available_budget_clp": 1000000.0,
+      "buyer": "SERV NAC SALUD HOSPITAL DE LOS ANDES",
+      "closes_at": "2026-11-12T08:00:00",
+      "code": "617807-2572-COT26",
+      "estimated_budget": 1000000.0,
+      "name": "HAAV INSUMOS DE PABELLON 20261435/20261377",
+      "products": 4,
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 3900000.0,
+      "buyer": "SERV NAC SALUD HOSPITAL DE LOS ANDES",
+      "closes_at": "2026-11-12T08:00:00",
+      "code": "617807-2570-COT26",
+      "estimated_budget": 3900000.0,
+      "name": "HAAV COMPRA DE ARTICULO DE CASINO",
+      "products": 10,
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 7000000.0,
+      "buyer": "Universidad de Chile",
+      "closes_at": "2026-11-12T00:10:00",
+      "code": "1555345-2-COT26",
+      "estimated_budget": 7000000.0,
+      "name": "SUSCRIPCIÓN DE LICENCIAS CLAUDE TEAM (20 STANDARD Y 1 PREMIUM)",
+      "products": 2,
       "region": "Región Metropolitana de Santiago"
     }
   ],
-  "active_structurally_reconstructable_count": 2,
+  "active_structurally_reconstructable_count": 4,
   "diagnostics": {
-    "api_failures": {
-      "api_rate_limited": 3
-    },
+    "api_failures": {},
     "budget_exhausted": false,
     "detail_attempts": 20,
     "detail_cap_exhausted": true,
-    "details_fetched": 17,
+    "details_fetched": 20,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -41,25 +59,24 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-10T21:50:54Z",
-  "inserted_history": 17,
+  "generated_at": "2026-11-11T06:45:34Z",
+  "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_API_ERRORS",
+  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
   "phase1": {
-    "records": 17,
+    "records": 20,
     "rejection_reasons": {
-      "missing_products": 11,
       "no_observable_competitive_prices": 1
     },
-    "resolved": 4,
-    "structurally_reconstructable": 5,
-    "with_observable_quote_totals": 3,
-    "with_purchase_order_indicator": 2
+    "resolved": 16,
+    "structurally_reconstructable": 19,
+    "with_observable_quote_totals": 15,
+    "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-10T21:50:54Z"
+    "changed_to": "2026-11-11T06:45:34Z"
   }
 }
