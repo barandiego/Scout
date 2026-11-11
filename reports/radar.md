@@ -1,19 +1,31 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-11T06:52:58.694406+00:00
+Generated: 2026-11-11T16:25:50.150953+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 203
+- New this cycle: 187
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 608, ai 116, energy 533, robotics 543
+- Categories: agriculture 607, ai 116, energy 539, robotics 538
 
 ## Recently encountered signals
 
+### OPTIMAL ENERGY MANAGEMENT IN GRID-CONNECTED MICROGRIDS WITH RENEWABLE ENERGY AND BATTERY STORAGE INTEGRATION
+- Source: https://doi.org/10.62441/actainnovations.vi.3551
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
 ### sakshirathi2109/smart-agriculture-management-system
 - Source: https://github.com/sakshirathi2109/smart-agriculture-management-system
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### Shegin733/Smart-Farming-Application
+- Source: https://github.com/Shegin733/Smart-Farming-Application
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
@@ -448,16 +460,4 @@ Generated: 2026-11-11T06:52:58.694406+00:00
 - Source: https://github.com/balamurugan-ds/AI-Smart-Agriculture-Assistant
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### truptishinde1919-rgb/AquaWise_AI
-- Source: https://github.com/truptishinde1919-rgb/AquaWise_AI
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### CmattC/Solar-Storage-Simulator
-- Source: https://github.com/CmattC/Solar-Storage-Simulator
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
