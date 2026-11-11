@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-11-10T21:39:43.768180+00:00
+Generated: 2026-11-11T04:42:54.055541+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 188 (0 HQ survivors, 188 watches)
-- Rejected opportunities excluded: 108
+- Active research: 189 (0 HQ survivors, 189 watches)
+- Rejected opportunities excluded: 110
 - Critic-and-judge reviewed: 85
 - Autonomous execution authorization: 0
 
@@ -1672,6 +1672,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://jobs.telusdigital.com/search/cfm3/russian-spanish/cfm5/ai-community/jobs/in/country/chile?ns_category=artificial-intelligence; https://jobs.telusdigital.com/fr/jobs/18154785-online-data-analyst-chile
+
+### Open-source LLM serving cost-and-capacity benchmark for a fixed workload [opp_7e19766fa1454a220574]
+- Status: WATCH_REQUIRES_VALIDATION | innovation_adoption | Global, initially deployable from the United States or Chile
+- Thesis: A reproducible benchmark package for one workload can reveal whether self-hosted open-weight inference is economically preferable to a hosted API. The executable wedge is the benchmark artifact and decision table, not generic AI consulting.
+- Value capture: Offer a fixed-price benchmark package consisting of scripts, workload replay, utilization measurements and a go/no-go report. The payer and price must be validated; no savings claim is made without the customer's real workload and current API bill.
+- Participation hypothesis: Publish a containerized benchmark using an open model, vLLM and a representative synthetic workload; measure latency, throughput, GPU-hours and cost under at least two concurrency levels. Falsify by comparing the measured break-even point against a public hosted-API price and by testing whether a prospective user will provide anonymized workload traces or pay for the fixed benchmark; stop if the result is not materially different from the incumbent.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://vllm.ai/; https://arxiv.org/abs/2610.09778
 
 ### Organic-crop robotic weeding retrofit and ROI trial [opp_4c867bb6e2a52712c785]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States

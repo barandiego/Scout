@@ -1,15 +1,15 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-10T21:39:43.406850+00:00
+Generated: 2026-11-11T04:42:53.762957+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['wildcard', 'remote_paid_evaluation', 'inventoryless_product_validation']
-- raw_candidates: 1
-- parseable_candidates: 1
-- normalized_candidates: 1
+- lenses: ['fixed_scope_paid_research_asset', 'geographic_arbitrage', 'ai_open_source']
+- raw_candidates: 3
+- parseable_candidates: 3
+- normalized_candidates: 3
 - normalization_rejected: 0
-- grounded_sources: 2
+- grounded_sources: 5
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 0
@@ -17,12 +17,12 @@ Generated: 2026-11-10T21:39:43.406850+00:00
 - judge_reviews: 0
 - survivors: 0
 - watches: 1
-- rejected: 1
+- rejected: 2
 - errors_by_stage: {}
-- rejection_reasons: {}
-- cost_usd: 0.03907005
+- rejection_reasons: {'discarded_ungrounded_url': 1, 'insufficient_unique_evidence': 1}
+- cost_usd: 0.02913605
 - cost_uncertain: False
-- budget_remaining_usd: 0.04092995
+- budget_remaining_usd: 0.05086395
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Chile SFA pre-registration and interoperability test harness: The underlying regulatory and timing premise is adequately grounded in CMF primary sources: a technical SFA annex, ATENA sandbox, voluntary pre-registration/testing around October 2026, and July 3, 2027 entry into force. Therefore this is not rejected for an unverified or misread regulatory change. A narrow, non-regulated software/support wedge—automated API-contract checks, test orchestration, log diagnostics, and internal readiness evidence—appears legally plausible provided it uses synthetic/authorized data and does not represent itself as CMF-certified or access ATENA without authorization. However, survival as an HQ-worthy opportunity is not established: CMF-provided ATENA, documentation, and possible native test functions may eliminate the core product need; independent artifacts may have no regulatory standing; the reachable payer universe, procurement path, willingness to pay, and pricing versus incumbent integrators remain unverified. This is a deadline-driven and potentially one-off implementation market, so plausible value capture is currently uncertain rather than demonstrably incompatible.
 - Bid-ready resilience package for small-utility battery and microgrid subawards: deferred_by_review_cap
 - Licensed-feedstock matching for antimony-bearing lead-battery scrap: deferred_by_review_cap
 - Chile SFA API-conformance and consent-audit test harness: The regulatory premise is sufficiently grounded in CMF primary materials: SFA implementation is real, consented API exchange and revocation are within the framework, and NCG 569/ATENA materially support an implementation-and-testing period toward July 2027. Therefore this is not rejected for an unverified or misread regulatory change. However, the proposed standalone conformance harness has not established a legally/technically usable input path from customers, recognized evidentiary value, buyer budget, or differentiation from CMF's ATENA environment and incumbent SFA implementation vendors. It survives only as a narrow research hypothesis: identify a paid, regulated full-scope participant whose non-production interface can be tested and whose specific missing capability is not supplied by ATENA, its integrator, or its API platform. Do not treat broad SFA rollout as validation of a standalone software market.
@@ -51,13 +50,14 @@ No survivors. Scout does not manufacture a daily winner.
 - Chile SFA/ATENA conformance test harness for regulated participants: deferred_by_review_cap
 - High-density data-center infrastructure exposure with contracted customer capacity: deferred_by_review_cap
 - TELUS Digital Online Data Analyst — Chile: deferred_by_review_cap
+- Open-source LLM serving cost-and-capacity benchmark for a fixed workload: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=backlog",
-    "research_queue_unreviewed=94"
+    "deep_review_lane=fresh",
+    "research_queue_unreviewed=95"
   ],
   "stages": [
     {
@@ -65,37 +65,85 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 25,
+      "grounded_source_count": 41,
       "search_source_urls": [
-        "https://apnews.com/article/e78ccd51a7f66099d84fda885d2907a3",
-        "https://cnc.cl/wp-content/uploads/2026/05/CNC-INFORME-VENTAS-ONLINE-DEL-RETAIL-Primer-Trimestre-2026.pdf",
-        "https://cnc.cl/wp-content/uploads/2026/05/Informalidad-en-el-Comercio-Electronico-I-trim-2026.pdf",
-        "https://developers.mercadolibre.cl/en_us/about-our-api/best-sellers-in-mercado-libre",
-        "https://developers.mercadolibre.cl/en_us/manage-project-apps/trends",
-        "https://elpais.com/chile/2026-05-27/cyberday-en-chile-2026-fecha-marcas-y-ofertas-para-el-evento-de-comercio-por-internet.html",
-        "https://es.wikipedia.org/wiki/Internet_en_Chile",
-        "https://jobs.telusdigital.com/jobs/18154786-online-data-analyst-chile",
-        "https://jobs.telusdigital.com/search/cfm3/russian-spanish/cfm5/ai-community/jobs/in/country/chile?ns_category=artificial-intelligence",
-        "https://meli-sustentabilidad-bucket.s3.amazonaws.com/Tendencias_Impacto_Positivo_MELI_CL_2024_185c4b1e79.pdf",
-        "https://news.mercadolibre.com/en/node/178",
-        "https://news.mercadolibre.com/en/node/541",
-        "https://paymentscmi.com/e-commerce-infographics/2025_PCMI_Chile-E-commerce-Data-Portrait_EN.pdf",
-        "https://teclazo.com/blog/que-vender-en-mercado-libre-chile-2026",
-        "https://teclazo.com/que-vender/cl",
-        "https://www.aam.cl/wp-content/uploads/2022/05/Reporte-de-industria-Chile-2022_compressed.pdf",
-        "https://www.appen.com/careers",
-        "https://www.fne.gob.cl/wp-content/uploads/2026/04/FNE_Informe_Preliminar_EM_Comercio_Electronico_EM10_2024.pdf",
-        "https://www.reddit.com/r/AskChile/comments/1plpmdq/que_puedo_vender/",
-        "https://www.reddit.com/r/AskChile/comments/1xjx5h9/han_vendido_por_mercado_libre/",
-        "https://www.reddit.com/r/ChileInversiones/comments/1wazljj/chile_ni_siquiera_aparece_como_pa%C3%ADs_individual_en/",
-        "https://www.reddit.com/r/RepublicadeChile/comments/1wcokuc/las_ventas_andan_mal/",
-        "https://www.shopify.com/es/blog/productos-mas-vendidos-en-chile",
-        "https://www.tiendanube.com/cl/blog/productos-mas-vendidos-chile/",
-        "https://www.trade.gov/country-commercial-guides/chile-ecommerce"
+        "https://api.restart.cl/",
+        "https://api.restart.cl/docs",
+        "https://arxiv.org/abs/2506.21901",
+        "https://arxiv.org/abs/2604.09613",
+        "https://arxiv.org/abs/2608.03036",
+        "https://arxiv.org/abs/2610.09778",
+        "https://cmfchile.cl/portal/prensa/615/articles-96819_doc_pdf.pdf",
+        "https://cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=9c4909e02f8531edb9eae4566db8bf50VFdwQmVVNUVRVE5OUkUwd1QwUlpORTFSUFQwPQ%3D%3D&secuencia=-1&t=1775290234",
+        "https://elpais.com/chile/2025-03-10/el-turismo-de-compras-de-los-argentinos-da-una-bocanada-de-aire-al-comercio-chileno.html",
+        "https://elpais.com/chile/2025-06-02/cyber-day-2025-en-chile-las-ofertas-y-las-marcas-que-participan-del-evento.html",
+        "https://en.wikipedia.org/wiki/Llama.cpp",
+        "https://github.com/vllm-project/vllm/blob/main/docs/configuration/optimization.md",
+        "https://openlm.ai/vllm/",
+        "https://si3.bcentral.cl/estadisticas/Principal1/Web_Services/index_API_sec1_es.htm",
+        "https://vllm.ai/",
+        "https://www.bcn.cl/leychile/Navegar?idNorma=1209198&idParte=10527131&idVersion=2025-09-11",
+        "https://www.chilecompra.cl/wp-content/uploads/2026/01/2025-12-23-Consulta-Publica-Evolucion-de-APIS.pdf",
+        "https://www.cmfchile.cl/normativa/ncg_514_2024.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/articles-96819_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640",
+        "https://www.dell.com/en-us/infohub/articles/open-source-llm-inferencing-at-scale-vllm-production-stack-on-dell-ai-factory",
+        "https://www.itpro.com/software/open-source/open-source-ai-performance-cost-savings-proprietary-models-linux-foundation",
+        "https://www.itpro.com/technology/artificial-intelligence/should-businesses-consider-using-chinese-ai-models",
+        "https://www.reddit.com/r/LLMDevs/comments/1wr4dyl/how_are_you_actually_controlling_llm_costs_in/",
+        "https://www.reddit.com/r/LocalLLaMA/comments/17ffkdx",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1hayqkt/hugging_face_releases_text_generation_inference/",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1lewhla",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1quun6y/vllm_inference_costenergyperformance_optimization/",
+        "https://www.reddit.com/r/Vllm/comments/1vzp4wt/serving_qwen3827b_nvfp4_in_production_measured/",
+        "https://www.reddit.com/r/chile/comments/1trp1b1/precios_din%C3%A1micos_en_mercado_libre/",
+        "https://www.reddit.com/r/chileIT/comments/1biuah9",
+        "https://www.reddit.com/r/chileIT/comments/1fzv5ka",
+        "https://www.reddit.com/r/chileIT/comments/1p6l4gn/api_sii/",
+        "https://www.reddit.com/r/chileIT/comments/1q51kbh/visualizaci%C3%B3n_info_sii_empresa/",
+        "https://www.reddit.com/r/chileIT/comments/1vbh0o9/apis_publicas/",
+        "https://www.techradar.com/pro/we-were-highly-skeptical-about-the-cost-of-ai-revolut-reveals-it-cut-ai-coding-costs-by-cutting-out-claude-entirely",
+        "https://www.tomshardware.com/tech-industry/artificial-intelligence/lawyer-builds-private-ai-server-with-eight-used-nvidia-v100-gpus-up-to-215-tokens-per-second-to-keep-legal-files-offline-costing-about-usd2-400-per-four-gpu-board"
       ]
     },
     {
       "index": 0,
+      "stage": "normalization",
+      "outcome": "accepted",
+      "reasons": [
+        "discarded_ungrounded_url"
+      ],
+      "changes": [
+        "contrary_evidence:list_sanitized",
+        "major_risks:list_sanitized",
+        "unknowns:list_sanitized",
+        "falsification_conditions:list_sanitized",
+        "material_update:unknown_false"
+      ],
+      "grounded_sources": 1,
+      "retry_justified": false
+    },
+    {
+      "index": 1,
+      "stage": "normalization",
+      "outcome": "accepted",
+      "reasons": [],
+      "changes": [
+        "contrary_evidence:list_sanitized",
+        "major_risks:list_sanitized",
+        "unknowns:list_sanitized",
+        "falsification_conditions:list_sanitized",
+        "material_update:unknown_false"
+      ],
+      "grounded_sources": 2,
+      "retry_justified": false
+    },
+    {
+      "index": 2,
       "stage": "normalization",
       "outcome": "accepted",
       "reasons": [],
@@ -111,51 +159,37 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_828f64d8095cceeb57fa",
+      "candidate_id": "opp_d8259acca311b8f9723b",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 35,
+      "grounded_source_count": 21,
       "search_source_urls": [
-        "https://apnews.com/article/9af9228206bf9fd3598d10c8a243fab5",
-        "https://apnews.com/article/9afba3e163e8efc6c710210a83970dd1",
-        "https://arxiv.org/abs/2509.25056",
-        "https://arxiv.org/abs/2512.10319",
-        "https://arxiv.org/abs/2608.02270",
-        "https://arxiv.org/abs/2609.20048",
-        "https://dataintelo.com/report/autonomous-weeding-robot-market",
-        "https://en.wikipedia.org/wiki/Aerobotics",
-        "https://en.wikipedia.org/wiki/Agricultural_robot",
-        "https://en.wikipedia.org/wiki/FarmWise",
-        "https://en.wikipedia.org/wiki/Solinftec",
-        "https://fira-usa.com/wp-content/uploads/2025/10/FIRA-2025-Final-Press-Release.pdf",
-        "https://kyron-robotics.com/",
-        "https://revenuebase.ai/companies/robotic-weeding-companies/united-states",
-        "https://whirrwork.com/use-cases/autonomous-weeding/",
-        "https://whirrwork.com/use-cases/autonomous-weeding/in/united-states/",
-        "https://www.axios.com/local/charlotte/2017/06/30/home-vp-robot-lawn-mower-95940",
-        "https://www.axios.com/local/seattle/2026/10/23/yakima-valley-reservoir-farms-ai-robot-testing-apple-harvest",
-        "https://www.bamsec.com/companies/1760404/greenfield-robotics-corp",
-        "https://www.creosyndicate.org/wp-content/uploads/edd/2025/07/2025_CREO_Agriculture_Robotics.pdf",
-        "https://www.reddit.com/r/AgriTech/comments/1wwguu8/ndsu_rowcrop_robot_achieves_965_weeding_accuracy/",
-        "https://www.reddit.com/r/Agriculture/comments/1ie7tom",
-        "https://www.reddit.com/r/JoinOwntric/comments/1ubua3f/chipotlebacked_greenfield_robotics_opened_a_reg_a/",
-        "https://www.reddit.com/r/lawncare/comments/12h2zya",
-        "https://www.reddit.com/r/roboticLawnmowers/comments/1uedehr/has_anyone_replaced_lawn_service_with_a_robot/",
-        "https://www.sec.gov/Archives/edgar/data/1760404/000110465926075802/tm2617498d1_ex6-5.htm",
-        "https://www.sec.gov/Archives/edgar/data/1760404/000110465926100882/tm2617498d4_partiiandiii.htm",
-        "https://www.sec.gov/Archives/edgar/data/1760404/000110465926104951/tm2617498d6_partiiandiii.htm",
-        "https://www.sec.gov/Archives/edgar/data/1760404/000176040425000008/offeringmemoformc.pdf",
-        "https://www.sec.gov/Archives/edgar/data/1760404/000176040426000003/form_car.pdf",
-        "https://www.sec.gov/edgar/browse/?CIK=0001760404",
-        "https://www.techradar.com/pro/the-farmer-isnt-disappearing-theyre-moving-up-the-stack-how-ai-is-reshaping-the-role-of-modern-agriculture",
-        "https://www.tomshardware.com/tech-industry/artificial-intelligence/laserweeder-packs-two-dozen-nvidia-gpus-and-lasers-to-zap-your-weed-problem-vaporizes-600-000-weeds-per-hour-with-sub-millimeter-precision-instant-laser-death-for-pesky-weeds",
-        "https://www.topfarmrobots.com/company/agripass",
-        "https://www.wm-strategy.com/news/agricultural-robotics-weeding-and-pest-control-robots"
+        "https://arxiv.org/abs/2511.17836",
+        "https://developers.sensedia.com/en/products/open-finance-chile",
+        "https://en.wikipedia.org/wiki/API_testing",
+        "https://en.wikipedia.org/wiki/SOAtest",
+        "https://en.wikipedia.org/wiki/Web_Services_Test_Forum",
+        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/435749124/v1.0.0%2B-%2BModelo%2Bde%2Bgobierno",
+        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/706413085/Gu%2Bas%2Bde%2Bpruebas%2BSandbox%2Bperiodo%2Bprevio%2Ba%2Bla%2Bentrada%2Ben%2Bvigencia",
+        "https://sfasandbox.cl/",
+        "https://sfasandbox.cl/docs.php",
+        "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa_tramite_ver_archivo.php?id=2026010555&seq=1",
+        "https://www.cmfchile.cl/institucional/mercados/ver_archivo.php?archivo=%2Fweb%2Fcompendio%2Fncg%2Fncg_514_2024.pdf",
+        "https://www.cmfchile.cl/normativa/ncg_514_2024.pdf",
+        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
+        "https://www.cmfchile.cl/portal/prensa/625/articles-110411_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113806.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48738.html",
+        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_828f64d8095cceeb57fa",
+      "candidate_id": "opp_d8259acca311b8f9723b",
       "coercions": [
         "contrary_evidence"
       ]
@@ -165,30 +199,30 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 231,
-      "cache_write_tokens": 4930,
+      "reasoning_tokens": 301,
+      "cache_write_tokens": 5453,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0243863,
+      "cumulative_cost_usd": 0.01504585,
       "model": "gpt-5.6-luna",
-      "input_tokens": 16025,
+      "input_tokens": 14164,
       "cached_tokens": 0,
-      "output_tokens": 779,
-      "web_search_calls": 2,
-      "estimated_cost_usd": 0.0243863
+      "output_tokens": 1617,
+      "web_search_calls": 1,
+      "estimated_cost_usd": 0.01504585
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 164,
-      "cache_write_tokens": 5367,
+      "reasoning_tokens": 125,
+      "cache_write_tokens": 5192,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.03907005,
+      "cumulative_cost_usd": 0.02913605,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13767,
+      "input_tokens": 13651,
       "cached_tokens": 0,
-      "output_tokens": 1385,
+      "output_tokens": 917,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01468375
+      "estimated_cost_usd": 0.0140902
     }
   ]
 }

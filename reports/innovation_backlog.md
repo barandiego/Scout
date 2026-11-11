@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 188
+Candidates: 189
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -843,6 +843,18 @@ Candidates: 188
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://github.com/sarcascoder/dacu; https://github.com/MorpheusEMH/kreuzberg
+
+## Open-source LLM serving cost-and-capacity benchmark for a fixed workload
+- Status: watch | innovation_adoption
+- Current idea: A reproducible benchmark package for one workload can reveal whether self-hosted open-weight inference is economically preferable to a hosted API. The executable wedge is the benchmark artifact and decision table, not generic AI consulting.
+- Potential economic capture: Offer a fixed-price benchmark package consisting of scripts, workload replay, utilization measurements and a go/no-go report. The payer and price must be validated; no savings claim is made without the customer's real workload and current API bill.
+- **Research routes to test (NOT validated claims):**
+  - Identify a real technical capability not yet adopted in one buyer's high-value workflow.
+  - Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.
+  - Measure the fully loaded operating cost, human exceptions and distribution against the status quo.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://vllm.ai/; https://arxiv.org/abs/2610.09778
 
 ## Self-hosted browser-automation deployment for one repetitive Chilean back-office workflow
 - Status: watch | innovation_adoption

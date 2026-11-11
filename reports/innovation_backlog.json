@@ -2632,6 +2632,42 @@
       "category": "innovation_adoption",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Publish a containerized benchmark using an open model, vLLM and a representative synthetic workload; measure latency, throughput, GPU-hours and cost under at least two concurrency levels. Falsify by comparing the measured break-even point against a public hosted-API price and by testing whether a prospective user will provide anonymized workload traces or pay for the fixed benchmark; stop if the result is not materially different from the incumbent.",
+      "current_thesis": "A reproducible benchmark package for one workload can reveal whether self-hosted open-weight inference is economically preferable to a hosted API. The executable wedge is the benchmark artifact and decision table, not generic AI consulting.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Global, initially deployable from the United States or Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Open-source LLM serving cost-and-capacity benchmark for a fixed workload",
+      "opportunity_id": "opp_7e19766fa1454a220574",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a real technical capability not yet adopted in one buyer's high-value workflow.",
+        "Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.",
+        "Measure the fully loaded operating cost, human exceptions and distribution against the status quo."
+      ],
+      "supporting_source_urls": [
+        "https://vllm.ai/",
+        "https://arxiv.org/abs/2610.09778"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Offer a fixed-price benchmark package consisting of scripts, workload replay, utilization measurements and a go/no-go report. The payer and price must be validated; no savings claim is made without the customer's real workload and current API bill.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "innovation_adoption",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Select one workflow with non-sensitive test data and an explicit human approval before submission. Prototype with the MIT-licensed Cereon Browser Operator or AgentBrowser, keeping credentials and execution on the client’s machine. Measure completion rate, exception rate, human minutes per case, and model/API cost over 20 to 50 cases. Falsification test: ask three operators of the same workflow for anonymized sample steps and permission to run a 1-week sandbox pilot; abandon if no one supplies a repeatable task, baseline time, or authorized test environment.",
       "current_thesis": "A small operator can test whether one high-frequency, browser-only workflow—such as downloading statements, reconciling portal data, or preparing draft form entries—can be automated at lower total cost than manual handling. The opportunity is the workflow-specific implementation and maintenance, not a generic AI agency.",
       "founder_hours_initial_unverified_estimate": "",
@@ -7161,7 +7197,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-10T21:39:43.869876+00:00",
+  "generated_at": "2026-11-11T04:42:54.142370+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

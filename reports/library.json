@@ -12065,6 +12065,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-11T04:42:42.012999+00:00",
+      "discovery_lens": "ai_open_source",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "vLLM documents open-source model serving, an OpenAI-compatible API, continuous batching and memory-efficient inference.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "vLLM official site",
+          "url": "https://vllm.ai/"
+        },
+        {
+          "claim": "The paper reports controlled inference benchmarks across context sizes and concurrency levels and includes an explicit cost break-even model tied to API pricing.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Reproducible LLM Inference Benchmarking: A Sequential Isolation Protocol for Regression Testing",
+          "url": "https://arxiv.org/abs/2610.09778"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.82,
+      "falsification_conditions": [],
+      "geography": "Global, initially deployable from the United States or Chile",
+      "id": "opp_7e19766fa1454a220574",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-11T04:42:42.063481+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Publish a containerized benchmark using an open model, vLLM and a representative synthetic workload; measure latency, throughput, GPU-hours and cost under at least two concurrency levels. Falsify by comparing the measured break-even point against a public hosted-API price and by testing whether a prospective user will provide anonymized workload traces or pay for the fixed benchmark; stop if the result is not materially different from the incumbent.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A reproducible benchmark package for one workload can reveal whether self-hosted open-weight inference is economically preferable to a hosted API. The executable wedge is the benchmark artifact and decision table, not generic AI consulting.",
+      "title": "Open-source LLM serving cost-and-capacity benchmark for a fixed workload",
+      "type": "reproducible_software_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Offer a fixed-price benchmark package consisting of scripts, workload replay, utilization measurements and a go/no-go report. The payer and price must be validated; no savings claim is made without the customer's real workload and current API bill.",
+      "verified_sales": null,
+      "vertical": "innovation_adoption",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-11-06T23:57:44.008988+00:00",
       "discovery_lens": "adoption_lag",
       "estimated_capital": "",
@@ -13252,13 +13306,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-10T21:39:43.768180+00:00",
+  "generated_at": "2026-11-11T04:42:54.055541+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 108,
+  "rejected_excluded": 110,
   "reviewed_cards": 85,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 296,
-  "watch": 188
+  "total_distinct_opportunities": 299,
+  "watch": 189
 }
