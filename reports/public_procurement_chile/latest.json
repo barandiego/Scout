@@ -1,53 +1,35 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 2350000.0,
-      "buyer": "SERV NAC SALUD HOSPITAL DE LOS ANDES",
-      "closes_at": "2026-11-12T08:00:00",
-      "code": "617807-2573-COT26",
-      "estimated_budget": 2350000.0,
-      "name": "HAAV COMPRA DE INSUMOS",
-      "products": 2,
-      "region": "Región de Valparaíso"
+      "available_budget_clp": 255549.0,
+      "buyer": "SUBSECRETARIA DEL MINISTERIO DE MINERIA",
+      "closes_at": "2026-11-12T15:00:00",
+      "code": "732-210-COT26",
+      "estimated_budget": 255549.0,
+      "name": "ADQUISICION DE INSUMOS DE ASEO PARA LA SUBSECRETARIA DE MINERIA -REGION ATACAMA",
+      "products": 7,
+      "region": "Región de Atacama"
     },
     {
-      "available_budget_clp": 1000000.0,
-      "buyer": "SERV NAC SALUD HOSPITAL DE LOS ANDES",
-      "closes_at": "2026-11-12T08:00:00",
-      "code": "617807-2572-COT26",
-      "estimated_budget": 1000000.0,
-      "name": "HAAV INSUMOS DE PABELLON 20261435/20261377",
-      "products": 4,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 3900000.0,
-      "buyer": "SERV NAC SALUD HOSPITAL DE LOS ANDES",
-      "closes_at": "2026-11-12T08:00:00",
-      "code": "617807-2570-COT26",
-      "estimated_budget": 3900000.0,
-      "name": "HAAV COMPRA DE ARTICULO DE CASINO",
-      "products": 10,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 7000000.0,
-      "buyer": "Universidad de Chile",
-      "closes_at": "2026-11-12T00:10:00",
-      "code": "1555345-2-COT26",
-      "estimated_budget": 7000000.0,
-      "name": "SUSCRIPCIÓN DE LICENCIAS CLAUDE TEAM (20 STANDARD Y 1 PREMIUM)",
-      "products": 2,
+      "available_budget_clp": 7140000.0,
+      "buyer": "I MUNICIPALIDAD DE LA GRANJA",
+      "closes_at": "2026-11-12T13:20:00",
+      "code": "2961-1034-COT26",
+      "estimated_budget": 7140000.0,
+      "name": "ARRIENDO DE ESCENARIO, AUDIO, ILUMINACION, PANTALLA Y DECORACION.",
+      "products": 1,
       "region": "Región Metropolitana de Santiago"
     }
   ],
-  "active_structurally_reconstructable_count": 4,
+  "active_structurally_reconstructable_count": 2,
   "diagnostics": {
-    "api_failures": {},
+    "api_failures": {
+      "api_rate_limited": 10
+    },
     "budget_exhausted": false,
     "detail_attempts": 20,
     "detail_cap_exhausted": true,
-    "details_fetched": 20,
+    "details_fetched": 10,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -59,24 +41,25 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-11T06:45:34Z",
-  "inserted_history": 20,
+  "generated_at": "2026-11-11T16:19:12Z",
+  "inserted_history": 10,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
+  "outcome": "DEGRADED_API_ERRORS",
   "phase1": {
-    "records": 20,
+    "records": 10,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 1
+      "missing_products": 3,
+      "no_observable_competitive_prices": 2
     },
-    "resolved": 16,
-    "structurally_reconstructable": 19,
-    "with_observable_quote_totals": 15,
-    "with_purchase_order_indicator": 0
+    "resolved": 8,
+    "structurally_reconstructable": 7,
+    "with_observable_quote_totals": 6,
+    "with_purchase_order_indicator": 3
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-11T06:45:34Z"
+    "changed_to": "2026-11-11T16:19:12Z"
   }
 }
