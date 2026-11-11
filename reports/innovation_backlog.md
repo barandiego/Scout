@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 189
+Candidates: 190
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -711,6 +711,18 @@ Candidates: 189
 - Critical gaps: No target customer segment, application, geography, or beachhead is specified.; No evidence of customer willingness to pay, sales pipeline, contract sizes, renewal rates, or gross margins.; No demonstrated reduction in downtime, labor cost, scrap, changeover time, or total cost of ownership.
 - Possible initial budget:
 - Source URLs: https://ifr.org/news/five-million-robots-now-operate-in-factories-globally/; https://ifr.org/ifr-press-releases/news/presidents-report-by-jane-heffner-3-2026
+
+## Machine-readable regulatory-data conversion and validation wedge for financial filers
+- Status: watch | general
+- Current idea: Organizations submitting data to multiple financial regulators may need schema mapping, identifier normalization, taxonomy validation, and automated quality checks. The immediate opportunity is not a broad compliance consultancy; it is a narrowly scoped converter/validator for one filing workflow or one data domain.
+- Potential economic capture: A paid implementation, validation, or software-assisted data-quality service could capture value if a target filer or incumbent regtech vendor confirms a recurring problem and budget. A small operator should avoid claiming regulatory certification or guaranteed compliance without documented requirements.
+- **Research routes to test (NOT validated claims):**
+  - Name a specific payer, customer job and credible reason existing alternatives fail.
+  - Choose a low-cost differentiation wedge (availability, price, experience, distribution or technology).
+  - Test channel, willingness to pay, ownership and contribution margin before building.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.sec.gov/newsroom/press-releases/2026-53-sec-establishes-joint-data-standards-required-under-financial-data-transparency-act-2022; https://public-inspection.federalregister.gov/2026-12787.pdf
 
 ## Managed agent orchestration is lowering the cost of production AI workflows
 - Status: watch | general
@@ -1948,18 +1960,6 @@ Candidates: 189
 - Possible initial budget:
 - Source URLs: https://www.energy.gov/cmei/ammto/critical-minerals-and-materials-accelerator-0; https://www.energy.gov/cmei/articles/does-office-critical-minerals-and-energy-innovation-awards-75-million-accelerate; https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf
 
-## Warehouse-cleaning robot pilot sold as an operating expense
-- Status: watch | physical_distribution
-- Current idea: The offer creates a concrete procurement and pilot mechanism for warehouses, supermarkets, offices, clinics, and hotels that may prefer a monthly operating expense over capital purchase. The evidence verifies an available offer, not unmet demand or customer savings.
-- Potential economic capture: Participate as a site-identification and pilot coordinator only if the provider accepts referrals or a target facility requests an introduction. A small operator could also sell a paid site-measurement or cleaning-route feasibility study, but no buyer, referral fee, or margin was verified.
-- **Research routes to test (NOT validated claims):**
-  - Compare local product availability to supplier catalogs and independent consumer interest.
-  - Check import, tax, return, certification and delivery economics before estimating margin.
-  - Try a legitimate pre-order/waitlist test with transparent fulfillment conditions.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://www.vicrobotics.com/precios; https://www.vicrobotics.com/soluciones/limpieza-industrial-bodegas
-
 ## Grid connection capacity is becoming a monetizable bottleneck
 - Status: watch | public_markets
 - Current idea: Projects can be delayed despite available generation and storage economics. Technologies and services that increase utilization of existing networks may have value before major transmission construction is completed.
@@ -1995,6 +1995,18 @@ Candidates: 189
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://ir.wbd.com/news-and-events/financial-news/financial-news-details/2026/Paramount-Skydance-and-Warner-Bros--Discovery-Announce-Anticipated-Closing-Date-of-Paramount-Merger/default.aspx; https://www.sec.gov/Archives/edgar/data/2041610/000110465926111034/tm2610616d11_8k.htm; https://ir.wbd.com/news-and-events/financial-news/financial-news-details/2026/Paramount-to-Acquire-Warner-Bros--Discovery-to-Form-Next-Generation-Global-Media-and-Entertainment-Company-2026-3kBxBYyvtU/default.aspx
+
+## Pre-spin-off event-driven position in Flex’s Cloud and Power Infrastructure separation
+- Status: watch | public_markets
+- Current idea: The transaction creates a dated corporate-action catalyst and may cause the parent and future SpinCo to be valued against different peer groups and capital structures. The evidence supports a special-situations research or trading setup, but does not establish mispricing or expected return.
+- Potential economic capture: Potential participation through a long/short, pair-trade, or post-distribution holding based on independently modeled pro forma segment value, transaction terms, financing, share-distribution mechanics, and borrow availability. No valuation gap is asserted without current market prices and a completed sum-of-the-parts analysis.
+- **Research routes to test (NOT validated claims):**
+  - Find overlooked fundamentals and a named accessible security with dated primary filings.
+  - Compare risked intrinsic value, market expectations and specific downside scenarios.
+  - Define catalysts and invalidation thresholds before any governed investment decision.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.sec.gov/Archives/edgar/data/866374/000119312526308088/d81863ddefa14a.htm; https://www.sec.gov/Archives/edgar/data/866374/000119312526421059/d147467ddefa14a.htm
 
 ## Restructuring-event monitoring and document-based catalyst research around Trinseo
 - Status: watch | public_markets

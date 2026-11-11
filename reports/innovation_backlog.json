@@ -2211,6 +2211,42 @@
       "category": "general",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Select one public regulatory filing workflow and download representative filings and official schemas; build a local prototype that maps source data into the joint identifiers/schema and flags validation failures. Contact potential users only after demonstrating measurable reduction in manual mapping or rejection errors; accept a paid pilot only if the counterparty independently confirms the obligation, data access, and procurement route. The lowest-cost falsification step is a ten-record conversion test using public filings and an interview or written confirmation from at least one actual filer, filing vendor, or regulator-facing data provider. If no recurring error or budget is confirmed, return zero rather than broaden the offer.",
+      "current_thesis": "Organizations submitting data to multiple financial regulators may need schema mapping, identifier normalization, taxonomy validation, and automated quality checks. The immediate opportunity is not a broad compliance consultancy; it is a narrowly scoped converter/validator for one filing workflow or one data domain.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Machine-readable regulatory-data conversion and validation wedge for financial filers",
+      "opportunity_id": "opp_e41354439b8a6f77eab3",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Name a specific payer, customer job and credible reason existing alternatives fail.",
+        "Choose a low-cost differentiation wedge (availability, price, experience, distribution or technology).",
+        "Test channel, willingness to pay, ownership and contribution margin before building."
+      ],
+      "supporting_source_urls": [
+        "https://www.sec.gov/newsroom/press-releases/2026-53-sec-establishes-joint-data-standards-required-under-financial-data-transparency-act-2022",
+        "https://public-inspection.federalregister.gov/2026-12787.pdf"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A paid implementation, validation, or software-assisted data-quality service could capture value if a target filer or incumbent regtech vendor confirms a recurring problem and budget. A small operator should avoid claiming regulatory certification or guaranteed compliance without documented requirements.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "general",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Build or deploy narrow workflow agents using managed agent APIs; target processes with measurable per-case labor or outsourcing costs and validate unit economics against human handling.",
       "current_thesis": "Agent deployment is becoming less dependent on bespoke orchestration infrastructure, potentially making repetitive case review, coding, research, and operations workflows economical at smaller scale.",
       "founder_hours_initial_unverified_estimate": "",
@@ -6177,42 +6213,6 @@
     },
     {
       "capital_required_unverified_estimate": "",
-      "category": "physical_distribution",
-      "commercially_validated": false,
-      "competition_confirmed": false,
-      "current_participation_path": "Select one local facility type and compile a list of publicly identifiable sites with large hard-floor areas. Send a factual one-page pilot brief referencing the provider’s published RaaS price and request permission to forward the inquiry to the provider. Run one no-cost discovery call or site walk only after the facility expresses interest; stop if no facility agrees to discuss floor area, cleaning labor, or a pilot. Do not represent the provider, promise savings, or purchase a robot without written authorization.",
-      "current_thesis": "The offer creates a concrete procurement and pilot mechanism for warehouses, supermarkets, offices, clinics, and hotels that may prefer a monthly operating expense over capital purchase. The evidence verifies an available offer, not unmet demand or customer savings.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "Chile",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "Warehouse-cleaning robot pilot sold as an operating expense",
-      "opportunity_id": "opp_8c16fed4c2cf73d19319",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Compare local product availability to supplier catalogs and independent consumer interest.",
-        "Check import, tax, return, certification and delivery economics before estimating margin.",
-        "Try a legitimate pre-order/waitlist test with transparent fulfillment conditions."
-      ],
-      "supporting_source_urls": [
-        "https://www.vicrobotics.com/precios",
-        "https://www.vicrobotics.com/soluciones/limpieza-industrial-bodegas"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "Participate as a site-identification and pilot coordinator only if the provider accepts referrals or a target facility requests an introduction. A small operator could also sell a paid site-measurement or cleaning-route feasibility study, but no buyer, referral fee, or margin was verified.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
       "category": "public_markets",
       "commercially_validated": false,
       "competition_confirmed": false,
@@ -6322,6 +6322,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Potential cash-flow source is the difference between the purchase price and the market price of WBD shares if the transaction closes, or a loss if it fails or is delayed. No return, spread, or position size is asserted because a current market price and investor-specific constraints were not established.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "public_markets",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Read Flex’s Form 10, subsequent amendments, transaction agreement, financing disclosures, and current quote/borrow data; build a pro forma valuation of Flex and the proposed SpinCo; then paper-trade the parent/SpinCo exposure around the January–March 2027 transaction window. The lowest-cost falsification step is to test whether a conservative valuation using disclosed segment financials produces any spread after taxes, borrow costs, transaction costs, and execution risk. If no spread exists, do not trade.",
+      "current_thesis": "The transaction creates a dated corporate-action catalyst and may cause the parent and future SpinCo to be valued against different peer groups and capital structures. The evidence supports a special-situations research or trading setup, but does not establish mispricing or expected return.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Pre-spin-off event-driven position in Flex’s Cloud and Power Infrastructure separation",
+      "opportunity_id": "opp_ec860c3b7cc73965afb4",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Find overlooked fundamentals and a named accessible security with dated primary filings.",
+        "Compare risked intrinsic value, market expectations and specific downside scenarios.",
+        "Define catalysts and invalidation thresholds before any governed investment decision."
+      ],
+      "supporting_source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/866374/000119312526308088/d81863ddefa14a.htm",
+        "https://www.sec.gov/Archives/edgar/data/866374/000119312526421059/d147467ddefa14a.htm"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Potential participation through a long/short, pair-trade, or post-distribution holding based on independently modeled pro forma segment value, transaction terms, financing, share-distribution mechanics, and borrow availability. No valuation gap is asserted without current market prices and a completed sum-of-the-parts analysis.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -7197,7 +7233,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-11T04:42:54.142370+00:00",
+  "generated_at": "2026-11-11T15:52:17.123600+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

@@ -11795,6 +11795,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-11T15:52:01.649002+00:00",
+      "discovery_lens": "regulation_infrastructure",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The SEC states that the standards establish common identifiers for entities, locations, dates, products, and currencies, plus machine-readable transmission, schema, and taxonomy formats.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "SEC establishes joint data standards under the Financial Data Transparency Act",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-53-sec-establishes-joint-data-standards-required-under-financial-data-transparency-act-2022"
+        },
+        {
+          "claim": "The final rule covers multiple financial regulators and states that it is effective October 1, 2026, while noting that it does not itself change reporting requirements without further agency action.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Federal Register final rule for Financial Data Transparency Act joint standards",
+          "url": "https://public-inspection.federalregister.gov/2026-12787.pdf"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.9,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_e41354439b8a6f77eab3",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-11T15:52:01.734138+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Select one public regulatory filing workflow and download representative filings and official schemas; build a local prototype that maps source data into the joint identifiers/schema and flags validation failures. Contact potential users only after demonstrating measurable reduction in manual mapping or rejection errors; accept a paid pilot only if the counterparty independently confirms the obligation, data access, and procurement route. The lowest-cost falsification step is a ten-record conversion test using public filings and an interview or written confirmation from at least one actual filer, filing vendor, or regulator-facing data provider. If no recurring error or budget is confirmed, return zero rather than broaden the offer.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Organizations submitting data to multiple financial regulators may need schema mapping, identifier normalization, taxonomy validation, and automated quality checks. The immediate opportunity is not a broad compliance consultancy; it is a narrowly scoped converter/validator for one filing workflow or one data domain.",
+      "title": "Machine-readable regulatory-data conversion and validation wedge for financial filers",
+      "type": "compliance_data_infrastructure",
+      "unknowns": [],
+      "value_capture_mechanism": "A paid implementation, validation, or software-assisted data-quality service could capture value if a target filer or incumbent regtech vendor confirms a recurring problem and budget. A small operator should avoid claiming regulatory certification or guaranteed compliance without documented requirements.",
+      "verified_sales": null,
+      "vertical": "general",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-21T20:21:55.479849+00:00",
       "discovery_lens": "market_positioning",
       "estimated_capital": "",
@@ -12435,6 +12489,60 @@
       "value_capture_mechanism": "Sell a fixed-price test pack or license it to fintech integrators, banks, payment firms or software vendors preparing for OFS participation. Buyer identity, price, procurement route and permission to reuse CMF materials remain unverified.",
       "verified_sales": null,
       "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-11-11T15:52:01.647928+00:00",
+      "discovery_lens": "public_markets",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Flex disclosed its intention to spin off its Cloud and Power Infrastructure segment into a new independent publicly traded company and described expected transaction costs and dis-synergies.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Flex Form 10 filing describing planned SpinCo",
+          "url": "https://www.sec.gov/Archives/edgar/data/866374/000119312526308088/d81863ddefa14a.htm"
+        },
+        {
+          "claim": "The filing states that Flex completed the EPC Power acquisition for $4.4 billion in cash and that investors agreed to purchase $2.0 billion of Axiom Series A convertible preferred stock; it also identifies the planned first-quarter 2027 Spin-Off.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Flex filing reporting EPC Power acquisition and SpinCo financing",
+          "url": "https://www.sec.gov/Archives/edgar/data/866374/000119312526421059/d147467ddefa14a.htm"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.93,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_ec860c3b7cc73965afb4",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-11T15:52:01.733894+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Read Flex’s Form 10, subsequent amendments, transaction agreement, financing disclosures, and current quote/borrow data; build a pro forma valuation of Flex and the proposed SpinCo; then paper-trade the parent/SpinCo exposure around the January–March 2027 transaction window. The lowest-cost falsification step is to test whether a conservative valuation using disclosed segment financials produces any spread after taxes, borrow costs, transaction costs, and execution risk. If no spread exists, do not trade.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The transaction creates a dated corporate-action catalyst and may cause the parent and future SpinCo to be valued against different peer groups and capital structures. The evidence supports a special-situations research or trading setup, but does not establish mispricing or expected return.",
+      "title": "Pre-spin-off event-driven position in Flex’s Cloud and Power Infrastructure separation",
+      "type": "public_equity_special_situation",
+      "unknowns": [],
+      "value_capture_mechanism": "Potential participation through a long/short, pair-trade, or post-distribution holding based on independently modeled pro forma segment value, transaction terms, financing, share-distribution mechanics, and borrow availability. No valuation gap is asserted without current market prices and a completed sum-of-the-parts analysis.",
+      "verified_sales": null,
+      "vertical": "public_markets",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -13199,60 +13307,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-20T04:23:55.304942+00:00",
-      "discovery_lens": "underserved_buyers",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "VIC Robotics publishes a Chilean RaaS offer starting at UF 20 per month, with maintenance, support, installation, and contracts of 12 to 36 months.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "Precios Arriendo Robot Chile | RaaS desde UF 20/mes",
-          "url": "https://www.vicrobotics.com/precios"
-        },
-        {
-          "claim": "The provider publishes warehouse-cleaning use cases, a free technical evaluation route, RaaS pricing from UF 20 per month, and outright prices for specific robots.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "Robot de Limpieza Industrial para Bodegas | Arriendo en Chile",
-          "url": "https://www.vicrobotics.com/soluciones/limpieza-industrial-bodegas"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.84,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_8c16fed4c2cf73d19319",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-20T04:23:55.353240+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Select one local facility type and compile a list of publicly identifiable sites with large hard-floor areas. Send a factual one-page pilot brief referencing the provider’s published RaaS price and request permission to forward the inquiry to the provider. Run one no-cost discovery call or site walk only after the facility expresses interest; stop if no facility agrees to discuss floor area, cleaning labor, or a pilot. Do not represent the provider, promise savings, or purchase a robot without written authorization.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "The offer creates a concrete procurement and pilot mechanism for warehouses, supermarkets, offices, clinics, and hotels that may prefer a monthly operating expense over capital purchase. The evidence verifies an available offer, not unmet demand or customer savings.",
-      "title": "Warehouse-cleaning robot pilot sold as an operating expense",
-      "type": "equipment_distribution",
-      "unknowns": [],
-      "value_capture_mechanism": "Participate as a site-identification and pilot coordinator only if the provider accepts referrals or a target facility requests an introduction. A small operator could also sell a paid site-measurement or cleaning-route feasibility study, but no buyer, referral fee, or margin was verified.",
-      "verified_sales": null,
-      "vertical": "physical_distribution",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-26T23:34:33.082430+00:00",
       "discovery_lens": "cost_curve",
       "estimated_capital": "",
@@ -13306,13 +13360,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-11T04:42:54.055541+00:00",
+  "generated_at": "2026-11-11T15:52:16.978934+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 110,
+  "rejected_excluded": 111,
   "reviewed_cards": 85,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 299,
-  "watch": 189
+  "total_distinct_opportunities": 301,
+  "watch": 190
 }

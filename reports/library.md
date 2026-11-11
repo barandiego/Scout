@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-11-11T04:42:54.055541+00:00
+Generated: 2026-11-11T15:52:16.978934+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 189 (0 HQ survivors, 189 watches)
-- Rejected opportunities excluded: 110
+- Active research: 190 (0 HQ survivors, 190 watches)
+- Rejected opportunities excluded: 111
 - Critic-and-judge reviewed: 85
 - Autonomous execution authorization: 0
 
@@ -1623,6 +1623,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://arxiv.org/abs/2509.25056; https://www.ndsu.edu/agriculture/sites/default/files/2026-02/2026%20ACAW%20ANDERSON%20Robotic%20Weeding%20PPT.pdf
 
+### Machine-readable regulatory-data conversion and validation wedge for financial filers [opp_e41354439b8a6f77eab3]
+- Status: WATCH_REQUIRES_VALIDATION | general | United States
+- Thesis: Organizations submitting data to multiple financial regulators may need schema mapping, identifier normalization, taxonomy validation, and automated quality checks. The immediate opportunity is not a broad compliance consultancy; it is a narrowly scoped converter/validator for one filing workflow or one data domain.
+- Value capture: A paid implementation, validation, or software-assisted data-quality service could capture value if a target filer or incumbent regtech vendor confirms a recurring problem and budget. A small operator should avoid claiming regulatory certification or guaranteed compliance without documented requirements.
+- Participation hypothesis: Select one public regulatory filing workflow and download representative filings and official schemas; build a local prototype that maps source data into the joint identifiers/schema and flags validation failures. Contact potential users only after demonstrating measurable reduction in manual mapping or rejection errors; accept a paid pilot only if the counterparty independently confirms the obligation, data access, and procurement route. The lowest-cost falsification step is a ten-record conversion test using public filings and an interview or
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sec.gov/newsroom/press-releases/2026-53-sec-establishes-joint-data-standards-required-under-financial-data-transparency-act-2022; https://public-inspection.federalregister.gov/2026-12787.pdf
+
 ### Marketplace-specific catalog and offer monitoring for Natura Chile sellers [opp_49094e54aa9a3ec43bc2]
 - Status: WATCH_REQUIRES_VALIDATION | competitive_positioning | Chile
 - Thesis: The evidence supports a narrow monitoring wedge: track SKU, channel, price, discount, availability, and delivery differences between Natura’s direct channel and Falabella.com for authorized resellers or competing beauty retailers. It does not establish that Natura or sellers will buy such a service.
@@ -1742,6 +1752,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812
+
+### Pre-spin-off event-driven position in Flex’s Cloud and Power Infrastructure separation [opp_ec860c3b7cc73965afb4]
+- Status: WATCH_REQUIRES_VALIDATION | public_markets | United States
+- Thesis: The transaction creates a dated corporate-action catalyst and may cause the parent and future SpinCo to be valued against different peer groups and capital structures. The evidence supports a special-situations research or trading setup, but does not establish mispricing or expected return.
+- Value capture: Potential participation through a long/short, pair-trade, or post-distribution holding based on independently modeled pro forma segment value, transaction terms, financing, share-distribution mechanics, and borrow availability. No valuation gap is asserted without current market prices and a completed sum-of-the-parts analysis.
+- Participation hypothesis: Read Flex’s Form 10, subsequent amendments, transaction agreement, financing disclosures, and current quote/borrow data; build a pro forma valuation of Flex and the proposed SpinCo; then paper-trade the parent/SpinCo exposure around the January–March 2027 transaction window. The lowest-cost falsification step is to test whether a conservative valuation using disclosed segment financials produces any spread after taxes, borrow costs, transaction costs, and execution risk. If no spread exists, do not trade.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/866374/000119312526308088/d81863ddefa14a.htm; https://www.sec.gov/Archives/edgar/data/866374/000119312526421059/d147467ddefa14a.htm
 
 ### Prior-authorization FHIR API conformance harness for payer and health-IT vendors [opp_90206688faf7a9c3c21f]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | United States
@@ -1882,16 +1902,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sec.gov/files/cft-written-wall-street-blockchain-august-2026.pdf; https://www.sec.gov/newsroom/speeches-statements/uyeda-remarks-asset-management-derivatives-forum-020926
-
-### Warehouse-cleaning robot pilot sold as an operating expense [opp_8c16fed4c2cf73d19319]
-- Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile
-- Thesis: The offer creates a concrete procurement and pilot mechanism for warehouses, supermarkets, offices, clinics, and hotels that may prefer a monthly operating expense over capital purchase. The evidence verifies an available offer, not unmet demand or customer savings.
-- Value capture: Participate as a site-identification and pilot coordinator only if the provider accepts referrals or a target facility requests an introduction. A small operator could also sell a paid site-measurement or cleaning-route feasibility study, but no buyer, referral fee, or margin was verified.
-- Participation hypothesis: Select one local facility type and compile a list of publicly identifiable sites with large hard-floor areas. Send a factual one-page pilot brief referencing the provider’s published RaaS price and request permission to forward the inquiry to the provider. Run one no-cost discovery call or site walk only after the facility expresses interest; stop if no facility agrees to discuss floor area, cleaning labor, or a pilot. Do not represent the provider, promise savings, or purchase a robot without written authorization.
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.vicrobotics.com/precios; https://www.vicrobotics.com/soluciones/limpieza-industrial-bodegas
 
 ### Water-efficiency field validation service for Chilean irrigated agriculture [opp_1d5fe6f12eac5a48f84c]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile, especially Coquimbo and central agricultural regions
