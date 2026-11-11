@@ -1,35 +1,83 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 255549.0,
-      "buyer": "SUBSECRETARIA DEL MINISTERIO DE MINERIA",
-      "closes_at": "2026-11-12T15:00:00",
-      "code": "732-210-COT26",
-      "estimated_budget": 255549.0,
-      "name": "ADQUISICION DE INSUMOS DE ASEO PARA LA SUBSECRETARIA DE MINERIA -REGION ATACAMA",
-      "products": 7,
+      "available_budget_clp": 300000.0,
+      "buyer": "CENTRO DE FORMACION TECNICA DE LA REGION DE ATACAMA",
+      "closes_at": "2026-11-12T20:45:00",
+      "code": "1151575-44-COT26",
+      "estimated_budget": 300000.0,
+      "name": "Galvanos Ceremonia de Titulación - CFT de Región de Atacama",
+      "products": 1,
       "region": "Región de Atacama"
     },
     {
-      "available_budget_clp": 7140000.0,
-      "buyer": "I MUNICIPALIDAD DE LA GRANJA",
-      "closes_at": "2026-11-12T13:20:00",
-      "code": "2961-1034-COT26",
-      "estimated_budget": 7140000.0,
-      "name": "ARRIENDO DE ESCENARIO, AUDIO, ILUMINACION, PANTALLA Y DECORACION.",
+      "available_budget_clp": 800000.0,
+      "buyer": "SERVICIO DE SALUD ARAUCANIA SUR HOSPITAL DE NUEVA IMPERIAL",
+      "closes_at": "2026-11-12T20:00:00",
+      "code": "1979-458-COT26",
+      "estimated_budget": 800000.0,
+      "name": "ADQUISICION CANULA HIDRODISECCION 23 G",
       "products": 1,
+      "region": "Región de la Araucanía"
+    },
+    {
+      "available_budget_clp": 150000.0,
+      "buyer": "DELEGACIÓN PRESIDENCIAL PROVINCIAL DE COLCHAGUA",
+      "closes_at": "2026-11-13T09:00:00",
+      "code": "2081-143-COT26",
+      "estimated_budget": 150000.0,
+      "name": "ALIMENTO ESPECIAL PARA AYUDA SOCIAL DPP COLCHAGUA CASO 570",
+      "products": 1,
+      "region": "Región del Libertador General Bernardo O´Higgins"
+    },
+    {
+      "available_budget_clp": 744600.0,
+      "buyer": "UNIVERSIDAD DE CHILE",
+      "closes_at": "2026-11-12T20:00:00",
+      "code": "5517-547-COT26",
+      "estimated_budget": 744600.0,
+      "name": "SOL.912  Compra de Equipos de control climático MAPA",
+      "products": 3,
       "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 4000000.0,
+      "buyer": "CENTRO DE FORMACION TECNICA DE LA REGION DE ATACAMA",
+      "closes_at": "2026-11-12T19:40:00",
+      "code": "1151575-39-COT26",
+      "estimated_budget": 4000000.0,
+      "name": "DIPLOMAS, CARPETAS Y CERTIFICADO TITULACIÓN CFT",
+      "products": 6,
+      "region": "Región de Atacama"
+    },
+    {
+      "available_budget_clp": 1300000.0,
+      "buyer": "ILUSTRE MUNICIPALIDAD DE CURARREHUE",
+      "closes_at": "2026-11-13T08:00:00",
+      "code": "3891-255-COT26",
+      "estimated_budget": 1300000.0,
+      "name": "SE SOLICITA COTIZAR COLACIONES PARA ESTABLECIMIENTOS DAEM CURARREHUE",
+      "products": 6,
+      "region": "Región de la Araucanía"
+    },
+    {
+      "available_budget_clp": 140000.0,
+      "buyer": "DELEGACIÓN PRESIDENCIAL PROVINCIAL DE COLCHAGUA",
+      "closes_at": "2026-11-13T09:00:00",
+      "code": "2081-142-COT26",
+      "estimated_budget": 140000.0,
+      "name": "CANASTAS DE ALIMENTO PARA AYUDA SOCIAL DPP COLCHAGUA CASO 573",
+      "products": 1,
+      "region": "Región del Libertador General Bernardo O´Higgins"
     }
   ],
-  "active_structurally_reconstructable_count": 2,
+  "active_structurally_reconstructable_count": 7,
   "diagnostics": {
-    "api_failures": {
-      "api_rate_limited": 10
-    },
+    "api_failures": {},
     "budget_exhausted": false,
     "detail_attempts": 20,
     "detail_cap_exhausted": true,
-    "details_fetched": 10,
+    "details_fetched": 20,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -41,25 +89,25 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-11T16:19:12Z",
-  "inserted_history": 10,
+  "generated_at": "2026-11-11T22:49:51Z",
+  "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_API_ERRORS",
+  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
   "phase1": {
-    "records": 10,
+    "records": 20,
     "rejection_reasons": {
-      "missing_products": 3,
-      "no_observable_competitive_prices": 2
+      "missing_products": 5,
+      "no_observable_competitive_prices": 6
     },
-    "resolved": 8,
-    "structurally_reconstructable": 7,
+    "resolved": 12,
+    "structurally_reconstructable": 12,
     "with_observable_quote_totals": 6,
-    "with_purchase_order_indicator": 3
+    "with_purchase_order_indicator": 4
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-11T16:19:12Z"
+    "changed_to": "2026-11-11T22:49:51Z"
   }
 }
