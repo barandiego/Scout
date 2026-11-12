@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-11T22:29:08.520380+00:00
+Generated: 2026-11-12T05:45:46.606332+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['robotics_automation', 'energy_industrial', 'mining_materials']
-- raw_candidates: 2
-- parseable_candidates: 2
-- normalized_candidates: 2
+- lenses: ['tokenization_finance', 'business_model_migration', 'cost_curve']
+- raw_candidates: 3
+- parseable_candidates: 3
+- normalized_candidates: 3
 - normalization_rejected: 0
 - grounded_sources: 5
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 1
+- judge_attempts: 0
 - critic_reviews: 1
-- judge_reviews: 1
+- judge_reviews: 0
 - survivors: 0
 - watches: 2
-- rejected: 0
+- rejected: 2
 - errors_by_stage: {}
-- rejection_reasons: {'discarded_ungrounded_url': 1}
-- cost_usd: 0.05921085
+- rejection_reasons: {'discarded_ungrounded_url': 1, 'insufficient_unique_evidence': 1}
+- cost_usd: 0.041264
 - cost_uncertain: False
-- budget_remaining_usd: 0.02078915
+- budget_remaining_usd: 0.038736
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,8 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Consent-and-API compliance test harness for Chilean Open Finance participants: Regulatory basis and the existence of public technical materials appear sufficiently grounded by CMF primary sources; the proposed product does not require claiming access to regulated customer data or operating a payment/information service. A narrow, offline conformance and regression-testing tool built from public specifications is therefore legally and technically plausible at the research stage. However, survival as an HQ-worthy opportunity is not established: CMF’s ATENA/testing and certification-related environment may cover much of the same validation need, some high-value tests depend on CMF-controlled access and credentials, and a directly positioned local competitor is already identified. The buyer universe is likely concentrated, regulated procurement-heavy, and potentially inclined toward incumbents, certification firms, or internal API QA. The defensible wedge must be a demonstrably non-duplicative layer—such as pre-ATENA regression automation, reproducible evidence packs for vendor integrations, or mock-based testing where official environments do not cover endpoint/operational checks—not generic schema validation. No fatal condition is triggered yet because unavailable official-environment access is not required for the proposed initial public-documentation workflow, and the regulatory change is supported by official CMF provenance. Economics, acceptance of third-party evidence, and technical-access boundaries remain unresolved.
-- Small-scale solar-plus-storage connection and compliance support for Chilean regulated customers: deferred_by_review_cap
 - Chile-eligible Spanish AI evaluation and coding-review applications: Primary Outlier pages support a plausible Chile-accessible contractor application path and a clear payer/value-capture mechanism: Outlier pays accepted contributors for completed AI-evaluation or coding-review work. The opportunity is therefore not fabricated and is not structurally closed on the evidence provided. However, it is an application funnel rather than a validated income stream. The cited USD 25/hour figure is explicitly tied to U.S.-Spanish writing experts and cannot be generalized to Chile; acceptance, paid task allocation, weekly hours, continuity, and realized net pay remain unverified. It survives only as a tightly bounded research/test hypothesis, not as a dependable work or business opportunity.
 - Chile SFA/APIBox interoperability test harness for fintech participants: deferred_by_review_cap
 - Supplier and pilot-partner mapping for DOE-funded critical-minerals projects: deferred_by_review_cap
@@ -51,13 +49,15 @@ No survivors. Scout does not manufacture a daily winner.
 - Machine-readable regulatory-data conversion and validation wedge for financial filers: deferred_by_review_cap
 - Battery-storage supply-chain security as a narrowly testable vendor-verification product: deferred_by_review_cap
 - MP Materials: domestic rare-earth magnet production with disclosed OEM and government-linked demand: MP is an accessible NYSE-listed security with dated SEC filings supporting that downstream magnet production began and that customer/government-linked arrangements exist. The research question is therefore credible, but not yet HQ-worthy as a valuation-based investment thesis: no current price, enterprise value, risked cash-flow model, or per-share dilution-adjusted value is provided. Reported early magnetics revenue and adjusted EBITDA are insufficient proof of durable standalone economics because customer prepayments, incentives, intersegment activity, start-up yields, utilization, and accounting timing may materially affect results. Several cited milestones are historical, but meaningful forward verification remains in GM/Apple shipment conversion, Northlake execution, recurring margins, and financing outcomes. This survives only as a tightly monitored research watch, not as a buy conclusion.
+- Chile SFA interoperability test harness for smaller regulated participants: deferred_by_review_cap
+- Small commercial battery dispatch and savings-validation pilot using lower-cost LFP storage: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=fresh",
-    "research_queue_unreviewed=97"
+    "deep_review_lane=backlog",
+    "research_queue_unreviewed=98"
   ],
   "stages": [
     {
@@ -65,38 +65,26 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 30,
+      "grounded_source_count": 18,
       "search_source_urls": [
-        "https://data.usgs.gov/datacatalog/data/USGS%3A6797ff62d34ea8c18376e1cb",
-        "https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-rare-earths_ver.1.0.pdf",
-        "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf",
-        "https://pubs.usgs.gov/publication/mcs2025?_bhlid=69d21f7881286105db393d0399c6ef69014c7ad3",
-        "https://pubs.usgs.gov/publication/ofr20251047/full",
-        "https://pubs.usgs.gov/publication/sir20255021/full",
-        "https://pubs.usgs.gov/publication/sir20265081/full",
-        "https://www.energy.gov/ceser/articles/new-ceser-report-offers-supply-chain-mitigation-strategies-battery-storage-systems",
-        "https://www.energy.gov/documents/2026-useer-national-report",
-        "https://www.energy.gov/sites/default/files/2024-12/Energy%2520Storage%2520Supply%2520Chain%2520Report%2520-%2520final%5B1%5D.pdf",
-        "https://www.energy.gov/sites/default/files/2025-01/BESSIE_supply-chain-battery-report_111124_OPENRELEASE_SJ_1.pdf?trk=article-ssr-frontend-pulse_little-text-block",
-        "https://www.energy.gov/sites/default/files/2025-01/BESSIE_supply-chain-battery-report_111124_OPENRELEASE_SJ_1.pdf?trk=public_post_comment-text",
-        "https://www.energy.gov/sites/default/files/2025-01/Identifying_Risks_in_the_Energy_Industrial_Base-Supply_Chain_Readiness_Levels_vFinalPublication.pdf?trk=public_post_comment-text",
-        "https://www.sec.gov/Archives/edgar/data/1001085/000100108526000006/bn-20251231_d2.htm",
-        "https://www.sec.gov/Archives/edgar/data/1533232/000117184326000527/exh_991.htm",
-        "https://www.sec.gov/Archives/edgar/data/1533232/000153323226000011/R62.htm",
-        "https://www.sec.gov/Archives/edgar/data/1533232/000153323226000011/bep-20251231.htm",
-        "https://www.sec.gov/Archives/edgar/data/1533232/000153323226000012/bep2025annualreport.htm",
-        "https://www.sec.gov/Archives/edgar/data/1801368/000180136825000010/mp-20250421.htm",
-        "https://www.sec.gov/Archives/edgar/data/1801368/000180136825000025/mpmcq22025er.htm",
-        "https://www.sec.gov/Archives/edgar/data/1801368/000180136825000034/mpmc2024formsd.htm",
-        "https://www.sec.gov/Archives/edgar/data/1801368/000180136825000052/mpmcq32025er.htm",
-        "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000007/mpmcq42025er.htm",
-        "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000008/mp-20251231.htm",
-        "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000022/annualreporttoshareholders.pdf",
-        "https://www.sec.gov/Archives/edgar/data/2015691/000149315226018104/form20-f.htm",
-        "https://www.usgs.gov/centers/national-minerals-information-center/china",
-        "https://www.usgs.gov/centers/national-minerals-information-center/commodity-statistics-and-information",
-        "https://www.usgs.gov/news/national-news-release/usgs-projects-world-production-capacity-7-critical-minerals-and-helium",
-        "https://www.usgs.gov/news/national-news-release/usgs-value-us-mineral-production-edged-2024"
+        "https://www.cmfchile.cl/educa/621/w3-article-85051.html",
+        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
+        "https://www.cmfchile.cl/portal/prensa/625/articles-110411_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/articles-79434_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/articles-89581_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110411.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://www.iea.org/files/60fcd1dd-d112-469b-87de-20d39227df3d/WorldEnergyInvestment2024.pdf",
+        "https://www.iea.org/files/ef5e9b70-3374-4caa-ba9d-19c72253bfc4/GlobalCriticalMineralsOutlook2025.pdf",
+        "https://www.iea.org/reports/electricity-2026/flexibility",
+        "https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage",
+        "https://www.iea.org/reports/global-ev-outlook-2026/electric-vehicle-batteries",
+        "https://www.iea.org/reports/renewables-2026/executive-summary",
+        "https://www.sec.gov/files/investment/mmf-statistics-04-2026.pdf"
       ]
     },
     {
@@ -111,7 +99,7 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 3,
+      "grounded_sources": 2,
       "retry_justified": false
     },
     {
@@ -128,116 +116,92 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
+      "grounded_sources": 1,
+      "retry_justified": false
+    },
+    {
+      "index": 2,
+      "stage": "normalization",
+      "outcome": "accepted",
+      "reasons": [],
+      "changes": [
+        "contrary_evidence:list_sanitized",
+        "major_risks:list_sanitized",
+        "unknowns:list_sanitized",
+        "falsification_conditions:list_sanitized",
+        "material_update:unknown_false"
+      ],
       "grounded_sources": 2,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_ea11946fa895efb87c68",
+      "candidate_id": "opp_f4c3bdd269dc1732bf3a",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 35,
+      "grounded_source_count": 23,
       "search_source_urls": [
-        "https://apnews.com/article/7c9a4d630ef53887de0fdf5e7fad51bd",
-        "https://apnews.com/article/edf8ff79ec97d7245f64afa9f9ac713a",
-        "https://earnings-documents-prod.s3.amazonaws.com/9524444a-72b5-4a11-8dbb-88626dddb9d2/8-K.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAWUJMVP6Y6I4C3JJ2%2F20260227%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260227T083450Z&X-Amz-Expires=900&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHEaCXVzLWVhc3QtMSJIMEYCIQDRleixlEbKSUXI%2FrxH2bBaB9%2FZptc3%2BfC6uCMHG5uriwIhAOHtBRMeCnjY%2FoJj%2FbnyghjnvDolHxTpKiYIVoJHDMKKKvsECDoQBBoMNDU1ODk3MDg3OTIxIgyUPljh8L6kf6kmTHMq2AQ6JjInnRa87hOtGlQ9SPFGcPgZNUBc%2F4MvCfuDY%2FJ2wHtoE0pC9TyHUOzgB2XSnoeBoV9sKv5mC7hjEtouFNpDOFVu3gh4Tqh8u8%2FyjhUByuDIjyHq4jKw%2BSm8vg4ae5cXaJ6hZMJY2d6wK8d9K2SOi0Fx8RyPmXnD88s8xcOz%2BhWgm3puDZYYdyKLW1stPx5pb3ptvNeiixitqScfe5Xq1Or4dDsViDNlC4nBld7F3%2Bq8NLoCTriSHCm5zT7AXLc%2FJhkh9cD005j4qkkILMUhairJv3PkYjUnxAl3MYRjr8PUWbFbGsehv%2By2odrMNccB6qD4cnmEOxOLL%2BQo9E9gJ1Ke11FWvpio3PWaIatasu3%2FjpkZWg75wEchvYbdtxcn%2FKac4JBeWNeGH9ug38m%2F3PAQoaRRAeJcP7H4ml1GyYu%2BgX1iWNaFH79x4lsbzhrXUEWG%2F3XvMGZKjgLcuwnB3bXvbXsj0bPJZSIw4cJw9EimTgKtiAYvzkTWFBodSbA8LXdrJTyJ6bnymUFcok6F7BpTFlRWFT1xqaZlSUvrAFfhi8UUO0rg2XoXemoXrfnViZWMQwu84XEx5MXrEReWDbeDwA2Ve1Xam9WxSRNq3OPAenXllKTQuGZBq5ln%2BnlCOSvoMltFShRPdzfJSyPi%2F54vKdjcKR%2FUdOPkG9N%2FN1yyQ11v9SOtnYg1BxCGZCvgkH0%2FWfHggDBSv955LW03pM5OvYSageOzIvS3MwDFPaN2NodACHZooxIxxDhQnHnhpz%2BGwURBMVis4O7%2BwV5LyrYn05g5KYwwqq6FzQY6lwHRGtb0uepVOOch7crl355oZFpxeCR8fmj1ymNnbrnik3g4KU1LXphBYjiThCKYHu8GuvDrvsq%2FuaeB4O%2BxKQJR8sNj2ity6hIHPQO7D6bqyBaPPIXAxQCGVvdEzsyEv59%2FVpH638JQUlxc7ot8U8j8KN%2BH3vAJ%2F44bNcJBG9rakPRdKlW2brN%2FJWatfvy7NkAQcC8EuHEY&X-Amz-Signature=4225bc146b83deea9e1fb18c6aa81c2a77c7de459256231bf1be6171b96c43a8&X-Amz-SignedHeaders=host",
-        "https://en.wikipedia.org/wiki/List_of_largest_manufacturing_companies_by_revenue",
-        "https://en.wikipedia.org/wiki/MP_Materials",
-        "https://en.wikipedia.org/wiki/Neodymium_magnet",
-        "https://en.wikipedia.org/wiki/Prices_of_chemical_elements",
-        "https://en.wikipedia.org/wiki/Rare-earth_industry_in_China",
-        "https://en.wikipedia.org/wiki/Rare-earth_magnet",
-        "https://filings.tools/mp/10-k/2025-12-31",
-        "https://filings.tools/mp/10-k/2025-12-31/diff",
-        "https://fintel.io/doc/sec-mp-materials-corp-1801368-10k-2026-february-26-20510-4762",
-        "https://investors.mpmaterials.com/investor-news/news-details/2026/MP-Materials-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx",
-        "https://mpmaterials.com/news/mp-materials-reports-fourth-quarter-and-full-year-2025-results",
-        "https://radialmagnet.com/rare-earth-market-tracker/",
-        "https://s25.q4cdn.com/570172628/files/content_files/Deck-MP-Q3-2026-Earnings-FINAL-FINAL.pdf",
-        "https://s25.q4cdn.com/570172628/files/doc_financials/2025/q4/Earnings-Deck-Q4-2025-FINAL.pdf",
-        "https://s25.q4cdn.com/570172628/files/doc_financials/2025/q4/MP-Materials-2025-10K-FINAL.pdf",
-        "https://www.axios.com/2025/06/11/trump-us-china-trade-talks-minerals",
-        "https://www.axios.com/local/raleigh/2026/10/20/vulcan-elements-will-partner-with-unc-on-magnets-research",
-        "https://www.reddit.com/r/MPMaterials/comments/1vglaqp/mp_materials_launches_rareearth_magnet_initiative/",
-        "https://www.reddit.com/r/Magnets/comments/1qypi10/where_did_all_the_magnets_go/",
-        "https://www.reddit.com/r/NIOCORP_MINE/comments/1lptgxe",
-        "https://www.reddit.com/r/NIOCORP_MINE/comments/1m0f943",
-        "https://www.reddit.com/r/NIOCORP_MINE/comments/1p16o6x/niocorpwest_scrambles_to_fill_heavy_rare_earth/",
-        "https://www.reddit.com/r/ValueInvesting/comments/1qk01le/mp_materials_mp_how_is_this_still_so_cheap/",
-        "https://www.reddit.com/r/procurement/comments/1k8qvtb",
-        "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000007/mpmcq42025er.htm",
-        "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000008/mp-20251231.htm",
-        "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000029/mp-20260331.htm",
-        "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000048/mp-20260630.htm",
-        "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000057/mp-20260930.htm",
-        "https://www.tomshardware.com/tech-industry/china-expands-rare-earth-export-controls",
-        "https://www.tomshardware.com/tech-industry/china-issues-first-batch-of-general-rare-earth-export-licenses-to-magnet-makers",
-        "https://www.tradingview.com/news/reuters.com%2C2025%3Anewsml_L8N3UD0LU%3A0-rare-earth-prices-hit-two-year-peak-after-mp-materials-stops-china-shipments/"
+        "https://arxiv.org/abs/2411.14369",
+        "https://cobotlift.com/wp-content/uploads/2022/01/CL-User-Manual-NEW.pdf",
+        "https://en.wikipedia.org/wiki/Cobot",
+        "https://en.wikipedia.org/wiki/ISO_10218",
+        "https://en.wikipedia.org/wiki/Workplace_robotics_safety",
+        "https://flowntro.com/services/system-integration/collaborative-robot-cobot-integration",
+        "https://library.e.abb.com/public/603e84802e994f7c8b9e1ae56ceae217/3HAC044266%20PM%20IRB%206700-en.pdf?x-sign=jUmSDq9Z1mb%2BpA1m5Viw%2B8RrCcfEyjLf4TRoiY2dBCwU2mcmL9R%2Bz8hKF2pQ1Ky1",
+        "https://library.e.abb.com/public/63a278e1ae024d49a4c108d2422da78b/3HAC058254%20PM%20IRB%206700Inv-en.pdf?x-sign=zWCWnIiibw%2FYOPrAH%2Bv95n03%2FUrmwv6no6R1SzzITf6dJBHyQ5xiTle%2BBu%2BenHFL",
+        "https://library.e.abb.com/public/be5ec22c3b9f454ab60d86810ab61477/3HAC085695%20PM%20IRB%206710-en.pdf?x-sign=KTaoAtgymMVmFknZhMllCAiJA2bYVI3VVg4LUdq0X1VqSx0U4x657egEnHnb%2BwLg",
+        "https://mundos-virtuales.com/",
+        "https://mundos-virtuales.com/en/industrial-automation/fanuc-robots/",
+        "https://osha.prod.pace.dol.gov/otm/section-4-safety-hazards/chapter-4",
+        "https://www.bcn.cl/leychile/navegar?f=2025-02-01&i=1205298",
+        "https://www.ccohs.ca/oshanswers/safety_haz/robots_cobots.html",
+        "https://www.fegaut.com/es/noticias/entrada/seguridad-en-robots-colaborativos-que-exigir-antes-de-instalar-un-cobot-en-tu-planta",
+        "https://www.iso.org/es/contents/data/standard/07/39/73934.html?trk=article-ssr-frontend-pulse_little-text-block",
+        "https://www.klever-robotics.com/integracion-robotica-industrial",
+        "https://www.piab.com/globalassets/productimages/0248098_rev03_cpt_manual_en.pdf?ref=9E617C129D",
+        "https://www.reddit.com/r/Fanuc/comments/1wdv4rr/can_anyone_working_at_fanuc_share_a_bit_about/",
+        "https://www.reddit.com/r/chileIT/comments/1wzluhg/hice_pr%C3%A1cticamente_solo_un_robot_institucional/",
+        "https://www.south-robotics.cl/nosotros",
+        "https://www.ukrabot.cl/blog/normas-de-seguridad-para-brazos-roboticos-en-chile",
+        "https://www.vicrobotics.com/"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_ea11946fa895efb87c68",
+      "candidate_id": "opp_f4c3bdd269dc1732bf3a",
       "coercions": [
         "contrary_evidence"
       ]
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_ea11946fa895efb87c68",
-      "response_status": "completed",
-      "incomplete_reason": "",
-      "grounded_source_count": 0,
-      "search_source_urls": []
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_ea11946fa895efb87c68",
-      "coercions": []
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 606,
-      "cache_write_tokens": 5485,
+      "reasoning_tokens": 155,
+      "cache_write_tokens": 5424,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02655825,
+      "cumulative_cost_usd": 0.0148794,
       "model": "gpt-5.6-luna",
-      "input_tokens": 20344,
+      "input_tokens": 13603,
       "cached_tokens": 0,
-      "output_tokens": 1846,
-      "web_search_calls": 2,
-      "estimated_cost_usd": 0.02655825
+      "output_tokens": 1573,
+      "web_search_calls": 1,
+      "estimated_cost_usd": 0.0148794
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 158,
-      "cache_write_tokens": 5468,
+      "reasoning_tokens": 188,
+      "cache_write_tokens": 5168,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.04113885,
+      "cumulative_cost_usd": 0.041264,
       "model": "gpt-5.6-luna",
-      "input_tokens": 14078,
+      "input_tokens": 21817,
       "cached_tokens": 0,
-      "output_tokens": 1243,
-      "web_search_calls": 1,
-      "estimated_cost_usd": 0.0145806
-    },
-    {
-      "stage": "judge",
-      "available": true,
-      "reasoning_tokens": 159,
-      "cache_write_tokens": 4164,
-      "accounting_notes": [],
-      "cumulative_cost_usd": 0.05921085,
-      "model": "gpt-5.6-terra",
-      "input_tokens": 4167,
-      "cached_tokens": 0,
-      "output_tokens": 638,
-      "web_search_calls": 0,
-      "estimated_cost_usd": 0.018072
+      "output_tokens": 1469,
+      "web_search_calls": 2,
+      "estimated_cost_usd": 0.0263846
     }
   ]
 }

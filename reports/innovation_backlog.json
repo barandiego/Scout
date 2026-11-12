@@ -1622,6 +1622,42 @@
       "category": "energy_infrastructure",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Select one site with accessible interval-meter data and a documented demand-charge or time-of-use tariff. Model a battery against the site's last 12 months of load data, obtain two actual equipment quotes, and compare modeled savings with financing, interconnection, controls, and maintenance costs. Falsify if the modeled payback fails the site's hurdle rate, interconnection is unavailable, or no equipment supplier will quote a small system.",
+      "current_thesis": "Lower-cost, cycle-tolerant LFP systems make a narrowly scoped measurement-and-dispatch pilot more testable at commercial sites, but the evidence does not establish a specific local tariff, arbitrage spread, or customer payback.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Small commercial battery dispatch and savings-validation pilot using lower-cost LFP storage",
+      "opportunity_id": "opp_2238894712733ab551db",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
+        "Compare owned asset, installer/distributor and project-finance participation.",
+        "Verify permits and installed net payback under conservative power price scenarios."
+      ],
+      "supporting_source_urls": [
+        "https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage",
+        "https://www.iea.org/reports/global-ev-outlook-2026/electric-vehicle-batteries"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A hardware-agnostic monitoring and dispatch-validation package for one commercial site, potentially monetized through a paid feasibility test or installation partner referral. Revenue, margins, and project economics remain unverified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "energy_infrastructure",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use public SEC installer and authorized-product information to create a one-page intake form requesting 12 months of electricity bills, connected power, tariff, site address, roof/land constraints, outage history, and desired backup duration. Approach five SEC-authorized installers with a sample anonymized assessment and ask whether they would pay for qualified, technically complete leads or documentation support. Lowest-cost falsification: contact 10 prospects in one distributor territory and seek three bills/data packs plus one written installer willingness-to-pay or referral arrangement; stop if customers will not share bills, installers reject the workflow, or connection constraints make the target segment uneconomic. Do not claim savings or installation authority before a licensed partner validates the case.",
       "current_thesis": "The narrow opportunity is not generic battery installation: it is a paid pre-feasibility, documentation, load/solar-data audit, and installer/distributor coordination service for small businesses, schools, nonprofits, farms, or homes considering compliant PV-plus-storage. The operator should not perform regulated electrical work unless properly authorized; the economic wedge is qualified lead generation and administrative/technical preparation sold to authorized installers or end customers.",
       "founder_hours_initial_unverified_estimate": "",
@@ -4516,6 +4552,42 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use the publicly available CMF technical specifications and ATENA sandbox to build a minimal demonstrator covering one participant workflow, such as directory registration, credential exchange, consent capture, or payment-initiation testing. Publish the test results and contact a small set of named regulated or fintech participants identified from the CMF participant directory or industry events. Falsify by checking whether a target participant already has an internal implementation, declines a no-cost diagnostic, or lacks a concrete July 2027 compliance need. Do not sell regulated financial services or claim CMF endorsement.",
+      "current_thesis": "Entities that must eventually connect to the SFA have a defined pre-production testing environment and a regulatory deadline, creating a narrow opportunity for reusable test cases, integration diagnostics, consent-flow validation, and evidence packages rather than generic fintech consulting.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile SFA interoperability test harness for smaller regulated participants",
+      "opportunity_id": "opp_3e2ab2a491f84a0e4236",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A fixed-scope implementation asset such as an automated conformance-test suite, sandbox integration harness, or paid technical-readiness assessment. Actual willingness to pay, procurement route, and pricing remain unverified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Build a minimal local test harness from the published NCG 514 technical annex and publicly available developer specifications. Test it against any accessible ATENA materials or documented API behavior. Then contact a small sample of Chilean fintechs, payment operators, cooperatives, insurers, or other entities identified in the CMF participant ecosystem and offer a no-cost diagnostic using synthetic data. Falsification test: within 10 business days, seek five technically responsible contacts and ask whether they already possess an equivalent test environment, whether October 2026 pre-registration applies to them, and whether they would pay for a narrowly scoped automated readiness report. Do not claim certification, regulatory approval, ATENA access, or a sale without confirmation.",
       "current_thesis": "Entities preparing to participate must test API interoperability, participant identification, credentials, communications with the participant directory, and technical compliance before the regulatory deadline. This creates a narrow implementation window for reusable testing and diagnostic tooling rather than a broad consulting opportunity.",
       "founder_hours_initial_unverified_estimate": "",
@@ -6712,42 +6784,6 @@
       "category": "robotics_agritech",
       "commercially_validated": false,
       "competition_confirmed": false,
-      "current_participation_path": "Choose one machine class, such as 5–10 kg welding cobots. Prepare a one-page commissioning checklist and a simulated work-cell acceptance test using public specifications. Contact listed distributors through their public quote channels and ask whether they already outsource commissioning or need an independent local technician. Do not buy equipment. Falsify after five documented contacts fail to produce a paid trial, subcontract discussion, or access to a machine for inspection.",
-      "current_thesis": "The equipment is commercially purchasable, but the purchase decision also requires process fit, electrical checks, installation, operator training, and commissioning. A small operator could test a narrowly specialized subcontracting or referral role rather than importing inventory.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "Chile",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "Independent commissioning and support wedge for imported cobots and industrial robots",
-      "opportunity_id": "opp_f4c3bdd269dc1732bf3a",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
-        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
-        "Arrange a bounded field validation with an actual farm operator before scaling."
-      ],
-      "supporting_source_urls": [
-        "https://dintass.cl/collections/robots-industriales",
-        "https://www.vicrobotics.com/"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "Charge for a fixed commissioning, electrical/process-readiness inspection, operator-training, or maintenance visit only if a distributor or end customer agrees to purchase it. Alternatively, seek a documented referral or subcontract arrangement; no such permission or fee was verified.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "robotics_agritech",
-      "commercially_validated": false,
-      "competition_confirmed": false,
       "current_participation_path": "Do not purchase a robot initially. Select one crop cluster, interview growers and crop consultants, and obtain written demand for a paid scouting or mapping trial using an existing commercially available platform or manual baseline. Compare the customer’s current cost and decision output with one defined robot-enabled task. Falsify if at least three growers will not commit to a paid trial, deposit, or access to a field under their existing operating permissions.",
       "current_thesis": "The testable wedge is not inventing a robot. It is validating whether a local operator can sell crop-specific deployment, mapping, monitoring or seasonal access around an existing robot to growers who cannot justify ownership. The capital intensity and agronomic integration risk make a broker/operator model more falsifiable than buying equipment first.",
       "founder_hours_initial_unverified_estimate": "",
@@ -7310,7 +7346,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-11T22:29:08.849746+00:00",
+  "generated_at": "2026-11-12T05:45:47.162635+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

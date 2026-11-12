@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-11-11T22:29:08.779949+00:00
+Generated: 2026-11-12T05:45:47.030856+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 192 (0 HQ survivors, 192 watches)
-- Rejected opportunities excluded: 111
+- Active research: 193 (0 HQ survivors, 193 watches)
+- Rejected opportunities excluded: 113
 - Critic-and-judge reviewed: 86
 - Autonomous execution authorization: 0
 
@@ -1413,6 +1413,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html?trk=article-ssr-frontend-pulse_little-text-block
 
+### Chile SFA interoperability test harness for smaller regulated participants [opp_3e2ab2a491f84a0e4236]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Entities that must eventually connect to the SFA have a defined pre-production testing environment and a regulatory deadline, creating a narrow opportunity for reusable test cases, integration diagnostics, consent-flow validation, and evidence packages rather than generic fintech consulting.
+- Value capture: A fixed-scope implementation asset such as an automated conformance-test suite, sandbox integration harness, or paid technical-readiness assessment. Actual willingness to pay, procurement route, and pricing remain unverified.
+- Participation hypothesis: Use the publicly available CMF technical specifications and ATENA sandbox to build a minimal demonstrator covering one participant workflow, such as directory registration, credential exchange, consent capture, or payment-initiation testing. Publish the test results and contact a small set of named regulated or fintech participants identified from the CMF participant directory or industry events. Falsify by checking whether a target participant already has an internal implementation, declines a no-cost diagnostic, or lacks a concrete July 2027
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
 ### Chile SFA technical-conformance testing and consent-flow tooling for smaller financial institutions [opp_c366907d1ef716224e2e]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: Smaller banks, cooperatives, payment firms and regulated data providers may need repeatable testing for API authentication, consent records, data schemas, error handling and conformance before production participation. The value is in reducing implementation defects and external integration delays, not in reselling customer data.
@@ -1542,16 +1552,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/1839341/000119312526134881/d118783dars.pdf; https://www.sec.gov/Archives/edgar/data/715957/000119312526063120/d-20251231.htm
-
-### Independent commissioning and support wedge for imported cobots and industrial robots [opp_f4c3bdd269dc1732bf3a]
-- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile
-- Thesis: The equipment is commercially purchasable, but the purchase decision also requires process fit, electrical checks, installation, operator training, and commissioning. A small operator could test a narrowly specialized subcontracting or referral role rather than importing inventory.
-- Value capture: Charge for a fixed commissioning, electrical/process-readiness inspection, operator-training, or maintenance visit only if a distributor or end customer agrees to purchase it. Alternatively, seek a documented referral or subcontract arrangement; no such permission or fee was verified.
-- Participation hypothesis: Choose one machine class, such as 5–10 kg welding cobots. Prepare a one-page commissioning checklist and a simulated work-cell acceptance test using public specifications. Contact listed distributors through their public quote channels and ask whether they already outsource commissioning or need an independent local technician. Do not buy equipment. Falsify after five documented contacts fail to produce a paid trial, subcontract discussion, or access to a machine for inspection.
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://dintass.cl/collections/robots-industriales; https://www.vicrobotics.com/
 
 ### Independent deployment and service layer for agricultural field robots [opp_e913664133820c613e38]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States; adaptable to other specialty-crop regions
@@ -1832,6 +1832,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://sagnikbhattacharya.com/blog/ai-visual-inspection-cost; https://automationsolinc.com/resources/blog/small-scale-retrofits-a-smart-bridge-to-automation-reliability/
+
+### Small commercial battery dispatch and savings-validation pilot using lower-cost LFP storage [opp_2238894712733ab551db]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States
+- Thesis: Lower-cost, cycle-tolerant LFP systems make a narrowly scoped measurement-and-dispatch pilot more testable at commercial sites, but the evidence does not establish a specific local tariff, arbitrage spread, or customer payback.
+- Value capture: A hardware-agnostic monitoring and dispatch-validation package for one commercial site, potentially monetized through a paid feasibility test or installation partner referral. Revenue, margins, and project economics remain unverified.
+- Participation hypothesis: Select one site with accessible interval-meter data and a documented demand-charge or time-of-use tariff. Model a battery against the site's last 12 months of load data, obtain two actual equipment quotes, and compare modeled savings with financing, interconnection, controls, and maintenance costs. Falsify if the modeled payback fails the site's hurdle rate, interconnection is unavailable, or no equipment supplier will quote a small system.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage; https://www.iea.org/reports/global-ev-outlook-2026/electric-vehicle-batteries
 
 ### Spanish (Chile) AI-training evaluation work through Outlier [opp_4112cb1232648624dc0b]
 - Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile

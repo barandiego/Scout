@@ -10696,6 +10696,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-12T05:45:27.081875+00:00",
+      "discovery_lens": "business_model_migration",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF states that the amended NCG 514 includes technical specifications for information exchange and payment initiation, simplified participation, a pilot testing period, a technological sandbox, and entry into force in July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        },
+        {
+          "claim": "CMF states that ATENA enables institutions to test integrations, interoperability with the participant directory, and readiness before the SFA enters into force in July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF lanza Sandbox Tecnológico ATENA para la implementación del Sistema de Finanzas Abiertas",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.93,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_3e2ab2a491f84a0e4236",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-12T05:45:27.169940+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use the publicly available CMF technical specifications and ATENA sandbox to build a minimal demonstrator covering one participant workflow, such as directory registration, credential exchange, consent capture, or payment-initiation testing. Publish the test results and contact a small set of named regulated or fintech participants identified from the CMF participant directory or industry events. Falsify by checking whether a target participant already has an internal implementation, declines a no-cost diagnostic, or lacks a concrete July 2027 compliance need. Do not sell regulated financial services or claim CMF endorsement.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Entities that must eventually connect to the SFA have a defined pre-production testing environment and a regulatory deadline, creating a narrow opportunity for reusable test cases, integration diagnostics, consent-flow validation, and evidence packages rather than generic fintech consulting.",
+      "title": "Chile SFA interoperability test harness for smaller regulated participants",
+      "type": "compliance_infrastructure",
+      "unknowns": [],
+      "value_capture_mechanism": "A fixed-scope implementation asset such as an automated conformance-test suite, sandbox integration harness, or paid technical-readiness assessment. Actual willingness to pay, procurement route, and pricing remain unverified.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-11-09T04:40:22.512612+00:00",
       "discovery_lens": "open_finance_chile",
       "estimated_capital": "",
@@ -11390,60 +11444,6 @@
       "value_capture_mechanism": "A small investor can obtain exposure through the publicly traded equity or debt instruments, subject to liquidity and suitability checks. The concrete catalyst to monitor is disclosure of additional signed colocation capacity, customer commitments, power-delivery milestones, or conversion of under-construction capacity into revenue. No return, valuation, or downside probability is asserted.",
       "verified_sales": null,
       "vertical": "public_markets",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
-      "discovered_at": "2026-10-20T04:23:55.304172+00:00",
-      "discovery_lens": "chile_technology_import",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "A Chilean seller lists industrial robots and cobots with public reference prices and says it offers installation, leveling, commissioning, and operator training nationwide; imported machines can be quoted through public channels.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "Robots industriales y cobots en Chile",
-          "url": "https://dintass.cl/collections/robots-industriales"
-        },
-        {
-          "claim": "A Chilean robotics provider publicly offers robot-as-a-service, local installation and support, and listed prices for autonomous robots, demonstrating an existing commercial route for imported robotics deployment.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "VIC Robotics Chile | Cobots, Limpieza Autónoma y Automatización Industrial",
-          "url": "https://www.vicrobotics.com/"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.82,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_f4c3bdd269dc1732bf3a",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-20T04:23:55.353458+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Choose one machine class, such as 5–10 kg welding cobots. Prepare a one-page commissioning checklist and a simulated work-cell acceptance test using public specifications. Contact listed distributors through their public quote channels and ask whether they already outsource commissioning or need an independent local technician. Do not buy equipment. Falsify after five documented contacts fail to produce a paid trial, subcontract discussion, or access to a machine for inspection.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "The equipment is commercially purchasable, but the purchase decision also requires process fit, electrical checks, installation, operator training, and commissioning. A small operator could test a narrowly specialized subcontracting or referral role rather than importing inventory.",
-      "title": "Independent commissioning and support wedge for imported cobots and industrial robots",
-      "type": "service_asset",
-      "unknowns": [],
-      "value_capture_mechanism": "Charge for a fixed commissioning, electrical/process-readiness inspection, operator-training, or maintenance visit only if a distributor or end customer agrees to purchase it. Alternatively, seek a documented referral or subcontract arrangement; no such permission or fee was verified.",
-      "verified_sales": null,
-      "vertical": "robotics_agritech",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -12964,6 +12964,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-12T05:45:27.083099+00:00",
+      "discovery_lens": "cost_curve",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "IEA reports 108 GW of new battery storage deployment in 2025, approximately 80% utility-scale, with LFP accounting for around 90% of deployments.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Technology: Battery storage - Global Energy Review 2026",
+          "url": "https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage"
+        },
+        {
+          "claim": "IEA reports that average LFP battery-pack prices in 2025 were more than 40% below NMC alternatives and that regional battery-price disparities widened.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Electric vehicle batteries - Global EV Outlook 2026",
+          "url": "https://www.iea.org/reports/global-ev-outlook-2026/electric-vehicle-batteries"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_2238894712733ab551db",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-12T05:45:27.170130+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Select one site with accessible interval-meter data and a documented demand-charge or time-of-use tariff. Model a battery against the site's last 12 months of load data, obtain two actual equipment quotes, and compare modeled savings with financing, interconnection, controls, and maintenance costs. Falsify if the modeled payback fails the site's hurdle rate, interconnection is unavailable, or no equipment supplier will quote a small system.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Lower-cost, cycle-tolerant LFP systems make a narrowly scoped measurement-and-dispatch pilot more testable at commercial sites, but the evidence does not establish a specific local tariff, arbitrage spread, or customer payback.",
+      "title": "Small commercial battery dispatch and savings-validation pilot using lower-cost LFP storage",
+      "type": "physical_asset_or_service",
+      "unknowns": [],
+      "value_capture_mechanism": "A hardware-agnostic monitoring and dispatch-validation package for one commercial site, potentially monetized through a paid feasibility test or installation partner referral. Revenue, margins, and project economics remain unverified.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-11-02T04:26:20.166711+00:00",
       "discovery_lens": "remote_paid_evaluation",
       "estimated_capital": "",
@@ -13503,13 +13557,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-11T22:29:08.779949+00:00",
+  "generated_at": "2026-11-12T05:45:47.030856+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 111,
+  "rejected_excluded": 113,
   "reviewed_cards": 86,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 303,
-  "watch": 192
+  "total_distinct_opportunities": 306,
+  "watch": 193
 }

@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 192
+Candidates: 193
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -531,6 +531,18 @@ Candidates: 192
 - Critical gaps: Whether small Chilean businesses will pay directly for a pre-feasibility report rather than obtain a free installer quote.; Whether authorized installers experience enough wasted sales and engineering effort to justify outsourcing lead qualification.; The number, geographic distribution, and commercial accessibility of SEC-listed installers willing to participate.
 - Possible initial budget:
 - Source URLs: https://www.sec.cl/gda/; https://www.sec.cl/plataformas-ernc/; https://energia.gob.cl/sites/default/files/documentos/sistemas-de-almacenamiento_web.pdf
+
+## Small commercial battery dispatch and savings-validation pilot using lower-cost LFP storage
+- Status: watch | energy_infrastructure
+- Current idea: Lower-cost, cycle-tolerant LFP systems make a narrowly scoped measurement-and-dispatch pilot more testable at commercial sites, but the evidence does not establish a specific local tariff, arbitrage spread, or customer payback.
+- Potential economic capture: A hardware-agnostic monitoring and dispatch-validation package for one commercial site, potentially monetized through a paid feasibility test or installation partner referral. Revenue, margins, and project economics remain unverified.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage; https://www.iea.org/reports/global-ev-outlook-2026/electric-vehicle-batteries
 
 ## Small-scale solar-plus-storage connection and compliance support for Chilean regulated customers
 - Status: watch | energy_infrastructure
@@ -1432,6 +1444,18 @@ Candidates: 192
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
+## Chile SFA interoperability test harness for smaller regulated participants
+- Status: watch | open_finance_chile
+- Current idea: Entities that must eventually connect to the SFA have a defined pre-production testing environment and a regulatory deadline, creating a narrow opportunity for reusable test cases, integration diagnostics, consent-flow validation, and evidence packages rather than generic fintech consulting.
+- Potential economic capture: A fixed-scope implementation asset such as an automated conformance-test suite, sandbox integration harness, or paid technical-readiness assessment. Actual willingness to pay, procurement route, and pricing remain unverified.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
 ## Chile SFA pre-registration and interoperability test harness
 - Status: watch | open_finance_chile
 - Current idea: Entities preparing to participate must test API interoperability, participant identification, credentials, communications with the participant directory, and technical compliance before the regulatory deadline. This creates a narrow implementation window for reusable testing and diagnostic tooling rather than a broad consulting opportunity.
@@ -2115,18 +2139,6 @@ Candidates: 192
 - Critical gaps: Whether VIC Robotics will authorize or pay an independent referral, implementation, or site-assessment partner.; The exact commission, fee, gross margin, payment trigger, exclusivity, lead ownership, and attribution period.; Whether UF 20/month applies to the relevant industrial model, surface area, contract term, geography, and service level.
 - Possible initial budget:
 - Source URLs: https://www.vicrobotics.com/about; https://www.vicrobotics.com/; https://www.vicrobotics.com/soluciones/limpieza-industrial-bodegas
-
-## Independent commissioning and support wedge for imported cobots and industrial robots
-- Status: watch | robotics_agritech
-- Current idea: The equipment is commercially purchasable, but the purchase decision also requires process fit, electrical checks, installation, operator training, and commissioning. A small operator could test a narrowly specialized subcontracting or referral role rather than importing inventory.
-- Potential economic capture: Charge for a fixed commissioning, electrical/process-readiness inspection, operator-training, or maintenance visit only if a distributor or end customer agrees to purchase it. Alternatively, seek a documented referral or subcontract arrangement; no such permission or fee was verified.
-- **Research routes to test (NOT validated claims):**
-  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
-  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
-  - Arrange a bounded field validation with an actual farm operator before scaling.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://dintass.cl/collections/robots-industriales; https://www.vicrobotics.com/
 
 ## Independent deployment and service layer for agricultural field robots
 - Status: watch | robotics_agritech
