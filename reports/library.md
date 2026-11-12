@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-11-12T05:45:47.030856+00:00
+Generated: 2026-11-12T16:35:13.427328+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 193 (0 HQ survivors, 193 watches)
+- Active research: 194 (0 HQ survivors, 194 watches)
 - Rejected opportunities excluded: 113
-- Critic-and-judge reviewed: 86
+- Critic-and-judge reviewed: 87
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -82,6 +82,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Number of Chilean entities that will actually need external conformance assistance, segmented by role and size.; Whether simplified participation materially reduces the technical burden for the target smaller entities.; Whether CMF sandbox results or formal registration require third-party validation, or merely self-testing and evidence submission.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html; https://www.bcentral.cl/documents/33528/7849961/Financial%2BStability%2BReport%2BSecond%2BHalf%2B2025.pdf/83c6bb57-4793-0438-3959-bfd68fea216f?t=1765546573527
+
+### Chile SFA conformance and data-mapping test harness [opp_547fdc8fcbbc9844aed7]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Financial institutions and prospective SFA participants must translate new technical and operational requirements into consent, data-access, security, error-handling and interoperability tests. A narrow implementation artifact can reduce the cost and risk of readiness work without attempting to become a regulated data-access provider.
+- Value capture: A paid, fixed-scope test harness or implementation package covering published SFA data schemas, consent flows, API contract tests, error cases, evidence collection and compliance handoff. The economic mechanism is payment for reducing implementation and audit-preparation labor; no price is assumed.
+- Participation hypothesis: Use only the public CMF rule and technical annex to build a local mock server, schema validator and 20-30 test cases. Contact Chilean fintechs, banks or technology vendors listed in public SFA-related materials and ask whether they will pay for a one-week compatibility assessment; do not access customer financial data or represent the service as regulated financial intermediation. Falsification step: complete the mock test suite and conduct five discovery calls; abandon the wedge if no participant can identify a specific integration test, deadl
+- Critic/judge: La cuña propuesta —herramientas de pruebas de conformidad y mapeo basadas exclusivamente en normas y anexos técnicos públicos, sin acceder a datos financieros de clientes ni operar como participante SFA— parece jurídicamente factible en principio y no exige una API privada o acceso regulado imposible de obtener. Las fuentes primarias CMF aportadas respaldan que hubo modificaciones regulatorias y material técnico, por lo que no correspon
+- Next evidence gaps: Which Chilean entities are obligated to implement first and how many will have material external procurement budgets.; Whether ATENA is sufficiently complete for production-readiness testing or leaves a meaningful paid-tool gap.; Whether CMF will permit or encourage third-party certification, independent conformance testing, or compliance evidence packages.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=9c4909e02f8531edb9eae4566db8bf50VFdwQmVVNUVRVE5OUkUwd1QwUlpORTFSUFQwPQ%3D%3D&secuencia=-1&t=1771317030
 
 ### Chile SFA implementation adapter for consent, directory and API conformance [opp_19c39afc662c8bd68101]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile

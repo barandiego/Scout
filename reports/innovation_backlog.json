@@ -4086,6 +4086,47 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use only the public CMF rule and technical annex to build a local mock server, schema validator and 20-30 test cases. Contact Chilean fintechs, banks or technology vendors listed in public SFA-related materials and ask whether they will pay for a one-week compatibility assessment; do not access customer financial data or represent the service as regulated financial intermediation. Falsification step: complete the mock test suite and conduct five discovery calls; abandon the wedge if no participant can identify a specific integration test, deadline or budget owner.",
+      "current_thesis": "Financial institutions and prospective SFA participants must translate new technical and operational requirements into consent, data-access, security, error-handling and interoperability tests. A narrow implementation artifact can reduce the cost and risk of readiness work without attempting to become a regulated data-access provider.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Which Chilean entities are obligated to implement first and how many will have material external procurement budgets.",
+        "Whether ATENA is sufficiently complete for production-readiness testing or leaves a meaningful paid-tool gap.",
+        "Whether CMF will permit or encourage third-party certification, independent conformance testing, or compliance evidence packages.",
+        "The number of likely customers by participant type, including banks, fintechs, payment institutions, insurers, brokers, and technology vendors.",
+        "Actual willingness to pay, expected contract size, procurement timelines, and budget ownership.",
+        "Whether technical requirements will change before the July 2027 entry into force or during phased implementation.",
+        "Whether customers prefer a standalone harness, consulting-led implementation, integration into CI/CD, or services from existing systems integrators."
+      ],
+      "investment_authorized": false,
+      "name": "Chile SFA conformance and data-mapping test harness",
+      "opportunity_id": "opp_547fdc8fcbbc9844aed7",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=9c4909e02f8531edb9eae4566db8bf50VFdwQmVVNUVRVE5OUkUwd1QwUlpORTFSUFQwPQ%3D%3D&secuencia=-1&t=1771317030"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A paid, fixed-scope test harness or implementation package covering published SFA data schemas, consent flows, API contract tests, error cases, evidence collection and compliance handoff. The economic mechanism is payment for reducing implementation and audit-preparation labor; no price is assumed.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use the CMF developer documentation to build a small offline harness covering a few published endpoints and consent/error cases; do not connect to production systems or represent it as CMF-certified. Then identify publicly listed Chilean banks, payment issuers, account providers and fintech applicants, send a short demonstration with a fixed-scope pilot proposal, and record whether any party agrees to a paid proof of concept or supplies an authorized test environment. Lowest-cost falsification: before building full coverage, manually implement 5-10 API scenarios from the official specifications and seek three explicit pilot conversations; abandon or narrow the offer if no qualified participant will review the demo or pay for a defined test.",
       "current_thesis": "Financial institutions and prospective SFA participants must convert the published API and control requirements into repeatable integration and acceptance tests. A narrowly scoped reusable test harness could reduce internal engineering and certification-preparation work, but the evidence does not establish a guaranteed procurement budget or mandated external vendor.",
       "founder_hours_initial_unverified_estimate": "",
@@ -7346,7 +7387,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-12T05:45:47.162635+00:00",
+  "generated_at": "2026-11-12T16:35:13.514931+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

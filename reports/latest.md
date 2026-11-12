@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-12T05:45:46.606332+00:00
+Generated: 2026-11-12T16:35:13.117713+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['tokenization_finance', 'business_model_migration', 'cost_curve']
-- raw_candidates: 3
-- parseable_candidates: 3
-- normalized_candidates: 3
+- lenses: ['open_finance_chile', 'adoption_lag', 'underserved_buyers']
+- raw_candidates: 1
+- parseable_candidates: 1
+- normalized_candidates: 1
 - normalization_rejected: 0
-- grounded_sources: 5
+- grounded_sources: 3
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 0
+- judge_attempts: 1
 - critic_reviews: 1
-- judge_reviews: 0
+- judge_reviews: 1
 - survivors: 0
-- watches: 2
-- rejected: 2
+- watches: 1
+- rejected: 0
 - errors_by_stage: {}
-- rejection_reasons: {'discarded_ungrounded_url': 1, 'insufficient_unique_evidence': 1}
-- cost_usd: 0.041264
+- rejection_reasons: {}
+- cost_usd: 0.04668315
 - cost_uncertain: False
-- budget_remaining_usd: 0.038736
+- budget_remaining_usd: 0.03331685
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Chile-eligible Spanish AI evaluation and coding-review applications: Primary Outlier pages support a plausible Chile-accessible contractor application path and a clear payer/value-capture mechanism: Outlier pays accepted contributors for completed AI-evaluation or coding-review work. The opportunity is therefore not fabricated and is not structurally closed on the evidence provided. However, it is an application funnel rather than a validated income stream. The cited USD 25/hour figure is explicitly tied to U.S.-Spanish writing experts and cannot be generalized to Chile; acceptance, paid task allocation, weekly hours, continuity, and realized net pay remain unverified. It survives only as a tightly bounded research/test hypothesis, not as a dependable work or business opportunity.
 - Chile SFA/APIBox interoperability test harness for fintech participants: deferred_by_review_cap
 - Supplier and pilot-partner mapping for DOE-funded critical-minerals projects: deferred_by_review_cap
 - Tokenized-securities operational tooling around DTC/Nasdaq eligibility and settlement: deferred_by_review_cap
@@ -51,12 +50,13 @@ No survivors. Scout does not manufacture a daily winner.
 - MP Materials: domestic rare-earth magnet production with disclosed OEM and government-linked demand: MP is an accessible NYSE-listed security with dated SEC filings supporting that downstream magnet production began and that customer/government-linked arrangements exist. The research question is therefore credible, but not yet HQ-worthy as a valuation-based investment thesis: no current price, enterprise value, risked cash-flow model, or per-share dilution-adjusted value is provided. Reported early magnetics revenue and adjusted EBITDA are insufficient proof of durable standalone economics because customer prepayments, incentives, intersegment activity, start-up yields, utilization, and accounting timing may materially affect results. Several cited milestones are historical, but meaningful forward verification remains in GM/Apple shipment conversion, Northlake execution, recurring margins, and financing outcomes. This survives only as a tightly monitored research watch, not as a buy conclusion.
 - Chile SFA interoperability test harness for smaller regulated participants: deferred_by_review_cap
 - Small commercial battery dispatch and savings-validation pilot using lower-cost LFP storage: deferred_by_review_cap
+- Chile SFA conformance and data-mapping test harness: La cuña propuesta —herramientas de pruebas de conformidad y mapeo basadas exclusivamente en normas y anexos técnicos públicos, sin acceder a datos financieros de clientes ni operar como participante SFA— parece jurídicamente factible en principio y no exige una API privada o acceso regulado imposible de obtener. Las fuentes primarias CMF aportadas respaldan que hubo modificaciones regulatorias y material técnico, por lo que no corresponde rechazar por un cambio regulatorio completamente no verificado. Sin embargo, la oportunidad no ha demostrado que exista un vacío pagable: el sandbox público ATENA parece solaparse de forma directa con pruebas de integración, interoperabilidad y adecuación técnica. Además, la entrada en vigor/urgencia relevante parece desplazada hacia julio de 2027, no un plazo inmediato de 2026. Sin evidencia de comprador, presupuesto, requisito de certificación independiente o disposición de pago, no sobrevive aún como investigación HQ-worthy; merece vigilancia y validación comercial estrecha, no construcción amplia.
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=backlog",
+    "deep_review_lane=fresh",
     "research_queue_unreviewed=98"
   ],
   "stages": [
@@ -65,26 +65,47 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 18,
+      "grounded_source_count": 39,
       "search_source_urls": [
-        "https://www.cmfchile.cl/educa/621/w3-article-85051.html",
+        "https://agriculturalhumanoids.com/",
+        "https://apnews.com/article/7d542b5ee92caa9d79efa28de89afbbe",
+        "https://arxiv.org/abs/2104.08934",
+        "https://arxiv.org/abs/2509.25056",
+        "https://arxiv.org/abs/2610.30307",
+        "https://en.wikipedia.org/wiki/Foundation%2C_Inc.",
+        "https://en.wikipedia.org/wiki/Software_Advice",
+        "https://grf-smartfarm.dpi.qld.gov.au/2025-AgtechShowcase-Booklet-WEB.pdf",
+        "https://grow.cleverbridge.com/news/cleverbridge-research-cost-of-selling-software?hs_amp=true",
+        "https://moneyweek.com/investments/tech-stocks/software-as-a-service-stocks-saaspocalypse",
+        "https://swadock.com/",
+        "https://www.axios.com/local/seattle/2026/10/23/yakima-valley-reservoir-farms-ai-robot-testing-apple-harvest",
+        "https://www.bcentral.cl/documents/33528/3852717/IEF_2022_semestre2.pdf/26a1ca8f-635b-c36c-0854-b11c40454057?t=1695222841856",
+        "https://www.cmfchile.cl/institucional/inc/dictamenes.php",
         "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
-        "https://www.cmfchile.cl/portal/prensa/625/articles-110411_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/articles-79434_doc_pdf.pdf",
         "https://www.cmfchile.cl/portal/prensa/625/articles-89581_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110411.html",
         "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html",
         "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
-        "https://www.iea.org/files/60fcd1dd-d112-469b-87de-20d39227df3d/WorldEnergyInvestment2024.pdf",
-        "https://www.iea.org/files/ef5e9b70-3374-4caa-ba9d-19c72253bfc4/GlobalCriticalMineralsOutlook2025.pdf",
-        "https://www.iea.org/reports/electricity-2026/flexibility",
-        "https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage",
-        "https://www.iea.org/reports/global-ev-outlook-2026/electric-vehicle-batteries",
-        "https://www.iea.org/reports/renewables-2026/executive-summary",
-        "https://www.sec.gov/files/investment/mmf-statistics-04-2026.pdf"
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-77242.html",
+        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=6478dda17297672085fb49eb6ad0fda4VFdwQmVVNXFRVEZOUkUweFQxUmpkMDlCUFQwPQ%3D%3D&secuencia=-1&t=1781887982",
+        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=9c4909e02f8531edb9eae4566db8bf50VFdwQmVVNUVRVE5OUkUwd1QwUlpORTFSUFQwPQ%3D%3D&secuencia=-1&t=1771317030",
+        "https://www.homelandgrain.com/story-the-realities-robotics-farming-0-269758",
+        "https://www.itpro.com/software/why-enterprise-software-is-becoming-harder-not-easier-to-buy",
+        "https://www.itpro.com/technology/artificial-intelligence/ai-forces-bigger-software-players-to-adapt-pricing-to-compete",
+        "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/winning-the-smb-tech-market-in-a-challenging-economy",
+        "https://www.reddit.com/r/B2BSaaS/comments/1wp9fc4/for_small_saas_your_tool_stack_is_a_margin/",
+        "https://www.reddit.com/r/Entrepreneur/comments/1rr7b4t/my_saas_had_zero_conversions_at_9mo_i_raised_to/",
+        "https://www.reddit.com/r/RobotMowerAdvice/comments/1xbssnl/pandag_g1_returns_to_equip_expo_with_two_48inch/",
+        "https://www.reddit.com/r/SaaS/comments/1iugvfq",
+        "https://www.reddit.com/r/SaaS/comments/1ot4sb8/saas_pricing_question_someone_willing_to_buy_at/",
+        "https://www.reddit.com/r/SaaS/comments/1qpxtqs/we_spent_180k_building_an_enterprise_product/",
+        "https://www.reddit.com/r/SaaS/comments/1t9mfzo/how_do_you_guys_start_marketing_me2_saas_and_get/",
+        "https://www.reddit.com/r/SaaS/comments/1w3ccpv/how_to_do_marketing_for_saas_with_high_switching/",
+        "https://www.reddit.com/r/b2bmarketing/comments/1xsghqx/do_you_prioritize_companies_that_already_use_a/",
+        "https://www.reddit.com/r/sysadmin/comments/1hw5y43/why_is_buying_software_so_difficult/",
+        "https://www.sec.gov/Archives/edgar/data/1760404/000110465926104951/tm2617498d6_partiiandiii.htm",
+        "https://www.simon-kucher.com/sites/default/files/media-document/2025-08/GlobalSoftwareStudy2025_Updated.pdf",
+        "https://www.solinftec.com/en-us/solinftec-to-launch-ag-robotics-first-amazon-parts-store-as-us-solix/",
+        "https://www.techradar.com/reviews/sugarcrm-review"
       ]
     },
     {
@@ -99,109 +120,117 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 2,
-      "retry_justified": false
-    },
-    {
-      "index": 1,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [
-        "discarded_ungrounded_url"
-      ],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 1,
-      "retry_justified": false
-    },
-    {
-      "index": 2,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 2,
+      "grounded_sources": 3,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_f4c3bdd269dc1732bf3a",
+      "candidate_id": "opp_547fdc8fcbbc9844aed7",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 23,
+      "grounded_source_count": 36,
       "search_source_urls": [
-        "https://arxiv.org/abs/2411.14369",
-        "https://cobotlift.com/wp-content/uploads/2022/01/CL-User-Manual-NEW.pdf",
-        "https://en.wikipedia.org/wiki/Cobot",
-        "https://en.wikipedia.org/wiki/ISO_10218",
-        "https://en.wikipedia.org/wiki/Workplace_robotics_safety",
-        "https://flowntro.com/services/system-integration/collaborative-robot-cobot-integration",
-        "https://library.e.abb.com/public/603e84802e994f7c8b9e1ae56ceae217/3HAC044266%20PM%20IRB%206700-en.pdf?x-sign=jUmSDq9Z1mb%2BpA1m5Viw%2B8RrCcfEyjLf4TRoiY2dBCwU2mcmL9R%2Bz8hKF2pQ1Ky1",
-        "https://library.e.abb.com/public/63a278e1ae024d49a4c108d2422da78b/3HAC058254%20PM%20IRB%206700Inv-en.pdf?x-sign=zWCWnIiibw%2FYOPrAH%2Bv95n03%2FUrmwv6no6R1SzzITf6dJBHyQ5xiTle%2BBu%2BenHFL",
-        "https://library.e.abb.com/public/be5ec22c3b9f454ab60d86810ab61477/3HAC085695%20PM%20IRB%206710-en.pdf?x-sign=KTaoAtgymMVmFknZhMllCAiJA2bYVI3VVg4LUdq0X1VqSx0U4x657egEnHnb%2BwLg",
-        "https://mundos-virtuales.com/",
-        "https://mundos-virtuales.com/en/industrial-automation/fanuc-robots/",
-        "https://osha.prod.pace.dol.gov/otm/section-4-safety-hazards/chapter-4",
-        "https://www.bcn.cl/leychile/navegar?f=2025-02-01&i=1205298",
-        "https://www.ccohs.ca/oshanswers/safety_haz/robots_cobots.html",
-        "https://www.fegaut.com/es/noticias/entrada/seguridad-en-robots-colaborativos-que-exigir-antes-de-instalar-un-cobot-en-tu-planta",
-        "https://www.iso.org/es/contents/data/standard/07/39/73934.html?trk=article-ssr-frontend-pulse_little-text-block",
-        "https://www.klever-robotics.com/integracion-robotica-industrial",
-        "https://www.piab.com/globalassets/productimages/0248098_rev03_cpt_manual_en.pdf?ref=9E617C129D",
-        "https://www.reddit.com/r/Fanuc/comments/1wdv4rr/can_anyone_working_at_fanuc_share_a_bit_about/",
-        "https://www.reddit.com/r/chileIT/comments/1wzluhg/hice_pr%C3%A1cticamente_solo_un_robot_institucional/",
-        "https://www.south-robotics.cl/nosotros",
-        "https://www.ukrabot.cl/blog/normas-de-seguridad-para-brazos-roboticos-en-chile",
-        "https://www.vicrobotics.com/"
+        "https://arxiv.org/abs/2606.05594",
+        "https://cdn.hacienda.cl/asset/capif/attachment/6265bb739eee1c1040fcf6911d823bd1e9fa7887cd33d05f10ce45c1d969556a/1775628547?_expiration=1781873890&_hash=z47iz7mYpzN4NxIugPdug9hnkknYsU6FRkZXQfnV2IQ",
+        "https://chocale.cl/2026/09/cmf-sandbox-atena-implementacion-del-sistema-de-finanzas-abiertas/",
+        "https://elpais.com/america/termometro-social/2024-10-07/digitalizacion-financiera-en-america-latina-enfrenta-nueva-era-de-transformacion-y-oportunidades.html",
+        "https://elpais.com/chile/2025-07-04/los-pagos-con-tarjetas-telefonos-y-plataformas-digitales-ganan-terreno-en-chile.html",
+        "https://es.wikipedia.org/wiki/Fapro",
+        "https://es.wikipedia.org/wiki/Finanzas_abiertas",
+        "https://es.wikipedia.org/wiki/ProntoPaga",
+        "https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_financiera",
+        "https://fronterabanking.com/es/hot-topics/latam/open-finance-latin-america-compared/",
+        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA",
+        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437591/v1.0.0%2B-%2BModelo%2Bde%2BOperaci%2Bn%2Be%2BIntegraci%2Bn%2Bdel%2BDirectorio",
+        "https://www.carey.cl/cmf-modifica-la-ncg-n514-e-incorpora-estandares-tecnicos-para-la-implementacion-del-sistema-de-finanzas-abiertas",
+        "https://www.carey.cl/en/cmf-amends-ncg-no-514-and-incorporates-technical-standards-for-the-implementation-of-the-open-finance-system",
+        "https://www.cmfchile.cl/normativa/ncg_569_2026.pdf",
+        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
+        "https://www.cmfchile.cl/portal/prensa/615/articles-93115_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=6478dda17297672085fb49eb6ad0fda4VFdwQmVVNXFRVEZOUkUweFQxUmpkMDlCUFQwPQ%3D%3D&secuencia=-1&t=1782111319",
+        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640",
+        "https://www.cuatrecasas.com/es/latam/servicios-financieros-seguros/art/cmf-ncg-569-reglas-tecnicas-sistema-finanzas-abiertas",
+        "https://www.reddit.com/r/ChileInversiones/comments/1tw9v7q/apis_locales_para_inversionistas/",
+        "https://www.reddit.com/r/FinanzasChile/comments/1vdw5uo/automatizar_la_lectura_de_mi_cartola_web/",
+        "https://www.reddit.com/r/FinanzasChile/comments/1xm4k1y/somos_los_fundadores_de_savemoney_la_app_que_te/",
+        "https://www.reddit.com/r/chile/comments/1tebbrr/la_realidad_de_emprender/",
+        "https://www.reddit.com/r/chileIT/comments/1gf8fev/apis_bancarias/",
+        "https://www.reddit.com/r/chileIT/comments/1mx88fd/hice_un_paquete_open_source_para_scrapear_bancos/",
+        "https://www.reddit.com/r/chileIT/comments/1r942en/integraci%C3%B3n_sii_dashboard/",
+        "https://www.reddit.com/r/chileIT/comments/1rlaa9p/implement%C3%A9_un_sistema_de_finanzas_y_cotizaciones/",
+        "https://www.reddit.com/r/chileIT/comments/1uzb7sc/como_cobrar_suscripciones_de_saas_chile/",
+        "https://www.reddit.com/r/chileIT/comments/1v1xgjc/primer_saas/",
+        "https://www.reddit.com/r/chileIT/comments/1vdvxmd/automatizar_la_lectura_de_mi_cartola_web/",
+        "https://www.reddit.com/r/chileIT/comments/1vfp56i/hicimos_notta_el_sii_como_api_rest_cli_y_mcp/"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_f4c3bdd269dc1732bf3a",
+      "candidate_id": "opp_547fdc8fcbbc9844aed7",
       "coercions": [
         "contrary_evidence"
       ]
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_547fdc8fcbbc9844aed7",
+      "response_status": "completed",
+      "incomplete_reason": "",
+      "grounded_source_count": 0,
+      "search_source_urls": []
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_547fdc8fcbbc9844aed7",
+      "coercions": []
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 155,
-      "cache_write_tokens": 5424,
+      "reasoning_tokens": 471,
+      "cache_write_tokens": 5444,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0148794,
+      "cumulative_cost_usd": 0.0144188,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13603,
+      "input_tokens": 13923,
       "cached_tokens": 0,
-      "output_tokens": 1573,
+      "output_tokens": 1135,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0148794
+      "estimated_cost_usd": 0.0144188
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 188,
-      "cache_write_tokens": 5168,
+      "reasoning_tokens": 155,
+      "cache_write_tokens": 5589,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.041264,
+      "cumulative_cost_usd": 0.02910665,
       "model": "gpt-5.6-luna",
-      "input_tokens": 21817,
+      "input_tokens": 14044,
       "cached_tokens": 0,
-      "output_tokens": 1469,
-      "web_search_calls": 2,
-      "estimated_cost_usd": 0.0263846
+      "output_tokens": 1333,
+      "web_search_calls": 1,
+      "estimated_cost_usd": 0.01468785
+    },
+    {
+      "stage": "judge",
+      "available": true,
+      "reasoning_tokens": 77,
+      "cache_write_tokens": 3625,
+      "accounting_notes": [],
+      "cumulative_cost_usd": 0.04668315,
+      "model": "gpt-5.6-terra",
+      "input_tokens": 3628,
+      "cached_tokens": 0,
+      "output_tokens": 709,
+      "web_search_calls": 0,
+      "estimated_cost_usd": 0.0175765
     }
   ]
 }

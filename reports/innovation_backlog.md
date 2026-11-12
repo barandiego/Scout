@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 193
+Candidates: 194
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -1299,6 +1299,18 @@ Candidates: 193
 - Critical gaps: Number of Chilean entities that will actually need external conformance assistance, segmented by role and size.; Whether simplified participation materially reduces the technical burden for the target smaller entities.; Whether CMF sandbox results or formal registration require third-party validation, or merely self-testing and evidence submission.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html; https://www.bcentral.cl/documents/33528/7849961/Financial%2BStability%2BReport%2BSecond%2BHalf%2B2025.pdf/83c6bb57-4793-0438-3959-bfd68fea216f?t=1765546573527
+
+## Chile SFA conformance and data-mapping test harness
+- Status: watch | open_finance_chile
+- Current idea: Financial institutions and prospective SFA participants must translate new technical and operational requirements into consent, data-access, security, error-handling and interoperability tests. A narrow implementation artifact can reduce the cost and risk of readiness work without attempting to become a regulated data-access provider.
+- Potential economic capture: A paid, fixed-scope test harness or implementation package covering published SFA data schemas, consent flows, API contract tests, error cases, evidence collection and compliance handoff. The economic mechanism is payment for reducing implementation and audit-preparation labor; no price is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Which Chilean entities are obligated to implement first and how many will have material external procurement budgets.; Whether ATENA is sufficiently complete for production-readiness testing or leaves a meaningful paid-tool gap.; Whether CMF will permit or encourage third-party certification, independent conformance testing, or compliance evidence packages.
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=9c4909e02f8531edb9eae4566db8bf50VFdwQmVVNUVRVE5OUkUwd1QwUlpORTFSUFQwPQ%3D%3D&secuencia=-1&t=1771317030
 
 ## Chile SFA conformance-test harness for API, consent and payment-initiation flows
 - Status: watch | open_finance_chile
