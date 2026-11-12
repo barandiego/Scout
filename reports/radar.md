@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-12T07:28:56.445700+00:00
+Generated: 2026-11-12T16:56:52.923233+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 153
+- New this cycle: 171
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
-- Categories: agriculture 608, ai 112, energy 541, robotics 539
+- Feed failures (fail-open for public intake only): none
+- Categories: agriculture 618, ai 103, energy 547, robotics 532
 
 ## Recently encountered signals
+
+### thatomaelane/GridSense-AI-Interactive-Microgrid-Energy-Management-System-Virtual-Engineering-Laboratory
+- Source: https://github.com/thatomaelane/GridSense-AI-Interactive-Microgrid-Energy-Management-System-Virtual-Engineering-Laboratory
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
 
 ### OPTIMAL ENERGY MANAGEMENT IN GRID-CONNECTED MICROGRIDS WITH RENEWABLE ENERGY AND BATTERY STORAGE INTEGRATION
 - Source: https://doi.org/10.62441/actainnovations.vi.3551
@@ -454,10 +460,4 @@ Generated: 2026-11-12T07:28:56.445700+00:00
 - Source: https://doi.org/10.2139/ssrn.7606948
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### balamurugan-ds/AI-Smart-Agriculture-Assistant
-- Source: https://github.com/balamurugan-ds/AI-Smart-Agriculture-Assistant
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
