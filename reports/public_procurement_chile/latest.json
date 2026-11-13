@@ -1,113 +1,205 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 300000.0,
-      "buyer": "HOSPITAL COMPLEJO ASISTENCIAL PADRE LAS CASAS",
-      "closes_at": "2026-11-14T09:21:00",
-      "code": "1171142-2769-COT26",
-      "estimated_budget": 300000.0,
-      "name": "SONDA YANKAHUER PEDIATRIACO/CARRO DE PARO BODEGA INSUMOS MEDICOS",
-      "products": 1,
-      "region": "Región de la Araucanía"
+      "available_budget_clp": 920000.0,
+      "buyer": "CORPORACION MUNICIPAL DE ISLA DE PASCUA",
+      "closes_at": "2026-11-19T09:00:00",
+      "code": "1242159-24-COT26",
+      "estimated_budget": 920000.0,
+      "name": "SERVICIO DE ALIMENTACIÓN PARA ACTIVIDADES PROGRAMADAS EN EL MES DE NOVIEMBRE Y DICIEMBRE",
+      "products": 2,
+      "region": "Región de Valparaíso"
     },
     {
-      "available_budget_clp": 200000.0,
-      "buyer": "SERVICIO NACIONAL DE PROTECCIÓN ESPECIALIZADA A LA NIÑEZ Y ADOLESCENCI",
-      "closes_at": "2026-11-16T12:00:00",
-      "code": "1208102-71-COT26",
-      "estimated_budget": 200000.0,
-      "name": "COFFEE BREAK SEGUNDO CONSEJO CONSULTIVO REGIONAL DEL MAULE",
+      "available_budget_clp": 670000.0,
+      "buyer": "Dirección de Educación, Doctrina e Historia de Carabineros",
+      "closes_at": "2026-11-16T10:00:00",
+      "code": "3316-174-COT26",
+      "estimated_budget": 670000.0,
+      "name": "REQUERIMIENTO DE ADQUISICION DE MATERIALES PARA MEJORAMIENTO SALA DE GUARDIA OBISPO ESPINOZA DE LA ESCUELA DE SUBOFICIALES DE CARABINEROS DE CHILE.",
       "products": 1,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 1600000.0,
+      "buyer": "CENTRO DE FORMACIÓN TÉCNICA ESTATAL DE LA REGIÓN DEL BIOBÍO",
+      "closes_at": "2026-11-14T17:00:00",
+      "code": "1208910-394-COT26",
+      "estimated_budget": 1600000.0,
+      "name": "8 Servicios de Alimentación para Jornadas con DAS San Pedro",
+      "products": 8,
+      "region": "Región del Biobío"
+    },
+    {
+      "available_budget_clp": 6800000.0,
+      "buyer": "Ejercito de Chile",
+      "closes_at": "2026-11-17T08:00:00",
+      "code": "3385-115-COT26",
+      "estimated_budget": 6800000.0,
+      "name": "Adquisición de bebestibles, para consumo en los Casinos Militares de Oficiales y Suboficiales del Instituto.",
+      "products": 31,
       "region": "Región del Maule"
     },
     {
-      "available_budget_clp": 70000.0,
-      "buyer": "SERVICIO DE SALUD ARAUCANIA HOSPITAL DE TRAIGUEN",
-      "closes_at": "2026-11-16T15:30:00",
-      "code": "2085-551-COT26",
-      "estimated_budget": 70000.0,
-      "name": "COMPRA DE ALIMENTO PARA PROGRAMA CHILE CRECE MAS H.TRAIGUEN",
-      "products": 6,
-      "region": "Región de la Araucanía"
+      "available_budget_clp": 3000000.0,
+      "buyer": "I MUNICIPALIDAD DE CHANCO",
+      "closes_at": "2026-11-19T09:00:00",
+      "code": "3470-43-COT26",
+      "estimated_budget": 3000000.0,
+      "name": "ADQUISICION DE INSUMOS PARA  CURACIONES A USUARIO DE POSTAS DEL DSM",
+      "products": 18,
+      "region": "Región del Maule"
     },
     {
-      "available_budget_clp": 4580000.0,
-      "buyer": "I MUNICIPALIDAD DE SANTIAGO",
-      "closes_at": "2026-11-17T10:30:00",
-      "code": "2343-615-COT26",
-      "estimated_budget": 4580000.0,
-      "name": "Muebles de oficina Programa “Atención Inicial de las Violencias de Género” // PED 1561",
-      "products": 15,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 2300000.0,
-      "buyer": "I MUNICIPALIDAD DE PUCON",
-      "closes_at": "2026-11-16T15:00:00",
-      "code": "2387-460-COT26",
-      "estimated_budget": 2300000.0,
-      "name": "SP 1613:ADQUISICION DE KIT DE FILTROS PARA VEHICULOS MUNICIPALES",
+      "available_budget_clp": 7000000.0,
+      "buyer": "UNIVERSIDAD DE AYSEN",
+      "closes_at": "2026-11-16T09:00:00",
+      "code": "1057062-536-COT26",
+      "estimated_budget": 7000000.0,
+      "name": "Servicio de Pauta Publicitaria en Redes Sociales (Meta, Google y YouTube Ads)",
       "products": 1,
-      "region": "Región de la Araucanía"
+      "region": "Región Aysén del General Carlos Ibáñez del Campo"
     },
     {
-      "available_budget_clp": 700000.0,
-      "buyer": "I MUNICIPALIDAD DE OSORNO",
-      "closes_at": "2026-11-16T10:00:00",
-      "code": "2297-1503-COT26",
-      "estimated_budget": 700000.0,
-      "name": "SE REQUIERE LA ADQUISICIÓN DE SOUVENIR",
-      "products": 3,
-      "region": "Región de los Lagos"
+      "available_budget_clp": 1136750.0,
+      "buyer": "SERVICIO DE SALUD ATACAMA HOSPITAL COPIA",
+      "closes_at": "2026-11-18T12:00:00",
+      "code": "1554-613-COT26",
+      "estimated_budget": 1136750.0,
+      "name": "Adquisición de insumos para actividades presenciales",
+      "products": 26,
+      "region": "Región de Atacama"
     },
     {
-      "available_budget_clp": 157556.0,
-      "buyer": "Servicio de Salud del Reloncaví",
-      "closes_at": "2026-11-16T15:00:00",
-      "code": "1666-379-COT26",
-      "estimated_budget": 157556.0,
-      "name": "tapa amarilla,Naricera adulto,mariposa y nebulizador (sol 757)",
-      "products": 5,
-      "region": "Región de los Lagos"
+      "available_budget_clp": 200000.0,
+      "buyer": "UNIVERSIDAD DE TARAPACA",
+      "closes_at": "2026-11-14T23:00:00",
+      "code": "5865-203-COT26",
+      "estimated_budget": 200000.0,
+      "name": "Compra de útiles y materiales de oficina, Escuela de Psicología y Filosofía UTA-ARICA",
+      "products": 4,
+      "region": "Región de Arica y Parinacota"
     },
     {
-      "available_budget_clp": 140000.0,
-      "buyer": "UNIVERSIDAD DE CHILE",
+      "available_budget_clp": 3905342.0,
+      "buyer": "ILUSTRE MUNICIPALIDAD TEODORO SCHMIDT",
       "closes_at": "2026-11-17T08:00:00",
-      "code": "5178-5567-COT26",
-      "estimated_budget": 140000.0,
-      "name": "BOLSAS DE ALGODON CON LOGO( CON MUESTRA ) / SP 1077114/ NG",
+      "code": "3563-317-COT26",
+      "estimated_budget": 3905342.0,
+      "name": "CURSOS DE CAPACITACION FUNCIONARIOS DEL DSM, PROGRAMA 26",
+      "products": 2,
+      "region": "Región de la Araucanía"
+    },
+    {
+      "available_budget_clp": 300000.0,
+      "buyer": "Dirección Regional de Gendarmeria - Concepcion",
+      "closes_at": "2026-11-17T09:00:00",
+      "code": "1969-761-COT26",
+      "estimated_budget": 300000.0,
+      "name": "E1O2RT9 LUZ DE EMERGENCIA CDP LEBU",
       "products": 1,
+      "region": "Región del Biobío"
+    },
+    {
+      "available_budget_clp": 1500000.0,
+      "buyer": "UNIVERSIDAD DE CHILE",
+      "closes_at": "2026-11-18T15:00:00",
+      "code": "5517-561-COT26",
+      "estimated_budget": 1500000.0,
+      "name": "Compra 922 - Licencias de Software Adobe Creative, DaVinci Resolve y Max para la Dirección CAI",
+      "products": 3,
       "region": "Región Metropolitana de Santiago"
     },
     {
-      "available_budget_clp": 3250000.0,
-      "buyer": "Centro de Educación y Trabajo del CDP Talagante",
-      "closes_at": "2026-11-14T09:30:00",
-      "code": "1173449-104-COT26",
-      "estimated_budget": 3250000.0,
-      "name": "PANADERIA Y PASTELERIA",
-      "products": 9,
-      "region": "Región Metropolitana de Santiago"
+      "available_budget_clp": 2600000.0,
+      "buyer": "Dirección Regional de Gendarmeria - Concepcion",
+      "closes_at": "2026-11-16T09:00:00",
+      "code": "1969-762-COT26",
+      "estimated_budget": 2600000.0,
+      "name": "E102RT9 CP BIO BIO COTIZACION POR TONER",
+      "products": 20,
+      "region": "Región del Biobío"
+    },
+    {
+      "available_budget_clp": 1000000.0,
+      "buyer": "I MUNICIPALIDAD DE CABRERO",
+      "closes_at": "2026-11-16T09:00:00",
+      "code": "4079-384-COT26",
+      "estimated_budget": 1000000.0,
+      "name": "SERVICIO COCTELERÍA SECMU",
+      "products": 1,
+      "region": "Región del Biobío"
+    },
+    {
+      "available_budget_clp": 1809980.0,
+      "buyer": "SERVICIO LOCAL DE EDUCACION PUBLICA DE LLANQUIHUE",
+      "closes_at": "2026-11-14T17:00:00",
+      "code": "1126922-1049-COT26",
+      "estimated_budget": 1809980.0,
+      "name": "RBDS 7976 22022 7975 7756 7724 SEP PG02 ADQUISICIÓN DE TACA TACA PARA VARIOS EE",
+      "products": 2,
+      "region": "Región de los Lagos"
     },
     {
       "available_budget_clp": 350000.0,
-      "buyer": "ILUSTRE MUNICIPALIDAD DE RIO VERDE",
-      "closes_at": "2026-11-16T17:00:00",
-      "code": "3595-271-COT26",
+      "buyer": "I MUNICIPALIDAD DE MARIQUINA",
+      "closes_at": "2026-11-14T17:00:00",
+      "code": "4062-928-COT26",
       "estimated_budget": 350000.0,
-      "name": "Adquisicion de Parches Para Adultos y un Juego Pedriatico Para el Desfibrilador Automatico Externo (DEA)",
-      "products": 2,
+      "name": "SERVICIO DE PRODUCCION ( AMPLIFICACION, ILUMINACION), PARA DIA  21.11.2026 DESDE LAS 09.00AM A 00.00HRS. EN SECTOR IÑIPULLI (RUKA)",
+      "products": 1,
+      "region": "Región de Los Ríos"
+    },
+    {
+      "available_budget_clp": 400000.0,
+      "buyer": "I MUNICIPALIDAD DE ISLA DE PASCUA",
+      "closes_at": "2026-11-16T06:00:00",
+      "code": "4044-705-COT26",
+      "estimated_budget": 400000.0,
+      "name": "SOLICITA SERVICIO DE CAPACITACIÓN EN FORMALIZACIÓN DE EMPRENDEDORES PARA EMPRENDEDORES LOCALES CONVOCADOS POR LA MUNICIPALIDAD - MONTO INCLUYE SERVICIO REALIZADO EN ISLA DE PASCUA - SOLICITA DIDECO",
+      "products": 1,
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 7200000.0,
+      "buyer": "SERVICIO NACIONAL DE PROTECCIÓN ESPECIALIZADA A LA NIÑEZ Y ADOLESCENCI",
+      "closes_at": "2026-11-17T14:30:00",
+      "code": "1208110-26-COT26",
+      "estimated_budget": 7200000.0,
+      "name": "Servicio de Control de Plagas, Desratización y sanitización DR y UEFAA",
+      "products": 1,
       "region": "Región de Magallanes y de la Antártica"
+    },
+    {
+      "available_budget_clp": 375000.0,
+      "buyer": "SERVICIO DE SALUD VINA DEL MAR QUILLOTA",
+      "closes_at": "2026-11-14T17:00:00",
+      "code": "1704-3953-COT26",
+      "estimated_budget": 375000.0,
+      "name": "PAN DE PASCUA INDIVIDUAL DESPACHO A CONVENIR",
+      "products": 1,
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 247328.0,
+      "buyer": "I MUNICIPALIDAD DE TALCA",
+      "closes_at": "2026-11-16T08:30:00",
+      "code": "2291-1170-COT26",
+      "estimated_budget": 247328.0,
+      "name": "NP 13 DAEM HPLV II FILAMENTOS COLORES",
+      "products": 4,
+      "region": "Región del Maule"
     }
   ],
-  "active_structurally_reconstructable_count": 10,
+  "active_structurally_reconstructable_count": 19,
   "diagnostics": {
-    "api_failures": {},
+    "api_failures": {
+      "api_rate_limited": 1
+    },
     "budget_exhausted": false,
     "detail_attempts": 20,
     "detail_cap_exhausted": true,
-    "details_fetched": 20,
+    "details_fetched": 19,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -119,25 +211,22 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-13T12:22:04Z",
-  "inserted_history": 20,
+  "generated_at": "2026-11-13T19:54:05Z",
+  "inserted_history": 19,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
+  "outcome": "DEGRADED_API_ERRORS",
   "phase1": {
-    "records": 20,
-    "rejection_reasons": {
-      "missing_products": 3,
-      "no_observable_competitive_prices": 4
-    },
-    "resolved": 10,
-    "structurally_reconstructable": 13,
-    "with_observable_quote_totals": 6,
-    "with_purchase_order_indicator": 5
+    "records": 19,
+    "rejection_reasons": {},
+    "resolved": 0,
+    "structurally_reconstructable": 19,
+    "with_observable_quote_totals": 0,
+    "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-13T12:22:04Z"
+    "changed_to": "2026-11-13T19:54:05Z"
   }
 }
