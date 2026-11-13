@@ -1317,6 +1317,105 @@
       "ai_leverage": "",
       "authorized_for_execution": false,
       "contrary_evidence": [
+        "Demand for digital restaurant menus and QR access is real: Chilean providers actively market QR menus, menu updates, analytics, WhatsApp ordering, and table ordering. This supports the existence of a customer problem, although it does not prove willingness to buy a separate plaque. Source: https://mesadigital.cl/",
+        "Low-cost competitors validate that restaurants may pay for digital menu infrastructure: Open Market advertises a QR menu from CLP 6,990 per month, while Carta Rápida lists plans from CLP 6,990 per month. Source: https://open-market.cl/carta-digital ; https://cartarapida.cl/",
+        "Some providers sell higher-value operational software rather than only a menu display. MesaDigital includes digital orders, WhatsApp ordering, analytics, promotions, and checkout features; this indicates a possible upsell path if the plaque becomes an acquisition channel for a broader workflow. Source: https://mesadigital.cl/",
+        "A physical NFC-plus-QR format could still be useful where a venue wants a branded, durable, measurable call-to-action at tables or counters, especially for reviews, reservations, or WhatsApp. However, the supplied evidence establishes product availability and pricing, not superior conversion or retention.",
+        "The proposed no-code pilot is appropriately falsifiable because it seeks payment and installation rather than feedback alone. A paid deployment would be meaningful evidence of access and initial willingness to pay."
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-11-13T11:51:53.534411+00:00",
+      "discovery_lens": "nfc_smart_commerce",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "A Chilean supplier publicly lists NFC restaurant menus at CLP 12,000, programmable NFC displays at CLP 20,000, NFC recommendation cards at CLP 10,000 and NFC sticker packs at CLP 10,000.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "NFC archivos - Credenciales para Empresas",
+          "url": "https://credencialeschile.cl/categoria-producto/nfc/"
+        },
+        {
+          "claim": "A Chilean supplier publishes one-time prices for NFC products, including a restaurant plastic NFC product at CLP 17,990, an acrylic NFC business display at CLP 25,000 and nationwide courier delivery.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Precios Tarjetas NFC Chile",
+          "url": "https://tarjetas-nfc.com/precios"
+        },
+        {
+          "claim": "A Chilean supplier states that NFC links can route users to Instagram, WhatsApp, Google reviews or a menu, and publishes a CLP 19,990 one-time price for a personalized NFC card.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Tarjetas NFC Personalizadas en Chile | LinkTap",
+          "url": "https://linktap.cl/tarjeta-nfc/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.82,
+      "falsification_conditions": [
+        "Fewer than 1 paid pilot or deposit is obtained from 20 tightly targeted prospects within the defined outreach period.",
+        "Prospects consistently prefer free QR printing, existing menu software, or ordinary table signage over the proposed plaque at the target price.",
+        "The pilot cannot achieve at least a defensible gross margin after all production, delivery, installation, and support costs.",
+        "NFC-enabled units do not generate materially higher usable scans or completed target actions than QR-only control units during a 14-day test.",
+        "Installed units receive negligible engagement, such as fewer than 1 completed target action per unit per week, unless the venue has unusually low traffic.",
+        "No venue agrees to pay for ongoing link management, analytics, replacements, or campaign changes after the initial sale.",
+        "At least three competing suppliers or existing SaaS/POS vendors can provide an equivalent configured outcome for less than the proposed offer without requiring a meaningful operational sacrifice.",
+        "The operator requires substantial manual customization or installation time such that contribution margin per labor hour is unattractive.",
+        "A pilot produces scans but no measurable increase in reviews, reservations, WhatsApp conversations, orders, or another economically valuable action."
+      ],
+      "geography": "Chile",
+      "id": "opp_fee855c8cf5288e035f1",
+      "judge_reviewed": true,
+      "judgment": "There is a plausible payer and participation path: independent venue owners can buy a low-ticket, configured physical call-to-action asset, and a paid pilot/deposit test is feasible with little capital. The cited Chilean supplier listings substantiate that NFC/QR products and comparable price points exist. However, that evidence validates supply and commodity pricing—not incremental customer outcomes, sustainable margin, or recurring revenue. The proposed offer is highly substitutable with QR-only signage, existing menu/POS software, or local print/agency services. It survives only as a narrowly scoped, paid validation experiment focused on a single measurable job (for example, review acquisition or WhatsApp reservations), not as a supported scalable software or hardware thesis.",
+      "last_record_updated_at": "2026-11-13T11:52:18.111948+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Actual landed cost per plaque, including NFC tag, printing, finishing, packaging, delivery, installation, redesigns, and payment fees.",
+        "Gross margin at the proposed CLP 12,000–20,000 price range and the minimum order quantity required for acceptable economics.",
+        "Whether NFC produces materially more completed actions than a prominent QR code alone among Chilean restaurant customers.",
+        "Whether venue owners value review generation, menu access, reservations, or WhatsApp ordering enough to pay for a dedicated physical unit.",
+        "Whether Google review routing creates policy, reputation, or customer-experience concerns if it is perceived as selectively soliciting positive reviews."
+      ],
+      "participation_path": "Start with a no-code pilot: create one sample plaque linked to a test landing page, publish a one-page offer showing a target price between the observed CLP 12,000–20,000 range, and contact 20 locally listed restaurants or cafés whose current menu/review flow is visible online. Ask for a paid order or deposit for 3–5 plaques, not feedback alone. If at least one venue pays and permits installation, measure scans and completed actions for 14 days against the venue’s existing baseline. Falsify the wedge if 20 targeted prospects produce no paid pilot, if venues reject the price, or if installed units receive negligible scans. Do not claim customer permission, conversion uplift or a buyer relationship before payment and installation occur.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A small operator should not compete with generic NFC business cards. A narrower wedge is a ready-to-deploy table or counter plaque that routes customers to one measurable action—Google review, digital menu, WhatsApp ordering or reservation—with NFC and QR redundancy. The economic mechanism is a paid physical unit plus optional replacement or link-management revenue; the evidence supports product pricing, but not yet recurring revenue or conversion uplift.",
+      "title": "NFC + QR review-and-menu plaques for independent restaurants and hospitality venues",
+      "type": "physical_product_offer",
+      "unknowns": [
+        "Actual landed cost per plaque, including NFC tag, printing, finishing, packaging, delivery, installation, redesigns, and payment fees.",
+        "Gross margin at the proposed CLP 12,000–20,000 price range and the minimum order quantity required for acceptable economics.",
+        "Whether NFC produces materially more completed actions than a prominent QR code alone among Chilean restaurant customers.",
+        "Whether venue owners value review generation, menu access, reservations, or WhatsApp ordering enough to pay for a dedicated physical unit.",
+        "Whether Google review routing creates policy, reputation, or customer-experience concerns if it is perceived as selectively soliciting positive reviews.",
+        "Prospect conversion rates by venue type, city, owner profile, and outreach channel.",
+        "Scan-to-action and action-to-revenue conversion rates after installation.",
+        "Replacement, vandalism, cleaning, weather, and table-turnover failure rates.",
+        "Whether existing POS, reservation, menu, and delivery providers can offer equivalent QR/NFC signage at lower incremental cost.",
+        "Whether customers understand NFC tap behavior and whether Android/iPhone compatibility, browser behavior, or device settings create friction.",
+        "Evidence of recurring revenue, retention, renewal, or willingness to pay for link management remains absent.",
+        "Actual all-in contribution margin and labor hours per order at each order quantity.",
+        "Which single customer job has enough value to justify purchase: reviews, menu access, reservations, WhatsApp inquiries, or ordering.",
+        "Whether NFC+QR materially improves completed target actions versus QR-only signage in comparable venue locations.",
+        "Paid-pilot conversion from a tightly defined segment and outreach channel.",
+        "Customer traffic level, scan-to-action conversion, and whether actions produce measurable economic value for the operator.",
+        "Whether buyers will purchase batches, replacements, campaign changes, or ongoing management rather than a one-off unit.",
+        "Whether existing restaurant software/POS vendors already provide equivalent signage and routing at negligible incremental cost."
+      ],
+      "value_capture_mechanism": "Sell configured plaques or table signs to restaurants, cafés, salons and small hotels at a transparent one-time price, using existing commodity NFC tags and locally available printing. A defensible angle would be action-specific setup, batch deployment and measurement rather than NFC hardware novelty. Do not assume review growth, order growth or recurring software revenue until tested.",
+      "verified_sales": null,
+      "vertical": "general",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [
         "There is evidence of existing demand for the underlying hardware and setup: Chilean suppliers advertise NFC cards, adhesive products, review stands, QR fallback, nationwide shipping, and business-volume pricing.",
         "PuntoTap explicitly offers personalized NFC+QR points for Google reviews, installation, feedback, and a one-time payment with no subscriptions, closely matching the proposed wedge. Source: https://www.puntotap.cl/",
         "Pyme Visible sells an NFC+QR stand configured for direct access to a Google review form, indicating direct category competition. Source: https://pymevisible.cl/stand-nfc-qr",
@@ -13784,13 +13883,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-13T00:54:37.710925+00:00",
+  "generated_at": "2026-11-13T11:52:18.689575+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 113,
-  "reviewed_cards": 88,
+  "reviewed_cards": 89,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 309,
-  "watch": 196
+  "total_distinct_opportunities": 310,
+  "watch": 197
 }

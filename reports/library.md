@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-11-13T00:54:37.710925+00:00
+Generated: 2026-11-13T11:52:18.689575+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 196 (0 HQ survivors, 196 watches)
+- Active research: 197 (0 HQ survivors, 197 watches)
 - Rejected opportunities excluded: 113
-- Critic-and-judge reviewed: 88
+- Critic-and-judge reviewed: 89
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -152,6 +152,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Current share price, market capitalization, enterprise value, forward valuation, and the amount of expected downstream economics already priced in.; 2026 magnetics gross margin, cash cost per kilogram, yield, scrap rate, utilization, and sustainable segment EBITDA excluding prepayments, government support, inters; The actual contractual pricing, take-or-pay provisions, cancellation rights, quality penalties, and margin allocation in the GM and Apple arrangements.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/1801368/000180136826000008/mp-20251231.htm; https://www.sec.gov/Archives/edgar/data/1801368/000180136826000007/mpmcq42025er.htm; https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf
+
+### NFC + QR review-and-menu plaques for independent restaurants and hospitality venues [opp_fee855c8cf5288e035f1]
+- Status: WATCH_REQUIRES_VALIDATION | general | Chile
+- Thesis: A small operator should not compete with generic NFC business cards. A narrower wedge is a ready-to-deploy table or counter plaque that routes customers to one measurable action—Google review, digital menu, WhatsApp ordering or reservation—with NFC and QR redundancy. The economic mechanism is a paid physical unit plus optional replacement or link-management revenue; the evidence supports product pricing, but not yet recurring revenue or conversion uplift.
+- Value capture: Sell configured plaques or table signs to restaurants, cafés, salons and small hotels at a transparent one-time price, using existing commodity NFC tags and locally available printing. A defensible angle would be action-specific setup, batch deployment and measurement rather than NFC hardware novelty. Do not assume review growth, order growth or recurring software revenue until tested.
+- Participation hypothesis: Start with a no-code pilot: create one sample plaque linked to a test landing page, publish a one-page offer showing a target price between the observed CLP 12,000–20,000 range, and contact 20 locally listed restaurants or cafés whose current menu/review flow is visible online. Ask for a paid order or deposit for 3–5 plaques, not feedback alone. If at least one venue pays and permits installation, measure scans and completed actions for 14 days against the venue’s existing baseline. Falsify the wedge if 20 targeted prospects produce no paid pil
+- Critic/judge: There is a plausible payer and participation path: independent venue owners can buy a low-ticket, configured physical call-to-action asset, and a paid pilot/deposit test is feasible with little capital. The cited Chilean supplier listings substantiate that NFC/QR products and comparable price points exist. However, that evidence validates supply and commodity pricing—not incremental customer outcomes, sustainable margin, or recurring re
+- Next evidence gaps: Actual landed cost per plaque, including NFC tag, printing, finishing, packaging, delivery, installation, redesigns, and payment fees.; Gross margin at the proposed CLP 12,000–20,000 price range and the minimum order quantity required for acceptable economics.; Whether NFC produces materially more completed actions than a prominent QR code alone among Chilean restaurant customers.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://credencialeschile.cl/categoria-producto/nfc/; https://tarjetas-nfc.com/precios; https://linktap.cl/tarjeta-nfc/
 
 ### NFC/QR review-and-discovery plates for Chilean physical venues [opp_d54cb21f051b71d41869]
 - Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile

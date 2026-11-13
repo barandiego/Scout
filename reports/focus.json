@@ -1,11 +1,11 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-11-13T00:54:37.710925+00:00",
+  "generated_at": "2026-11-13T11:52:18.689575+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
-      "other_cards_in_theme": 7,
+      "other_cards_in_theme": 8,
       "reviewed": true,
       "status": "watch",
       "theme": "nfc_products",
@@ -104,7 +104,7 @@
   "high_concentration": [
     {
       "cards": 81,
-      "share": 0.413,
+      "share": 0.411,
       "theme": "chile_open_finance"
     }
   ],
@@ -237,6 +237,7 @@
       "all_opportunity_ids": [
         "opp_def87ec156069bf156db",
         "opp_d54cb21f051b71d41869",
+        "opp_fee855c8cf5288e035f1",
         "opp_ce00c60c8ebfd1d48cd2",
         "opp_1003190617673d0a5401",
         "opp_7a4c2697266c85e82693",
@@ -244,9 +245,9 @@
         "opp_4597c36d99d4f69a9e20",
         "opp_fa014b2293a26ad04e87"
       ],
-      "count": 8,
+      "count": 9,
       "representative_id": "opp_def87ec156069bf156db",
-      "reviewed_count": 3,
+      "reviewed_count": 4,
       "theme": "nfc_products"
     },
     {
@@ -966,6 +967,6 @@
       "theme": "robotics_agritech:water_efficiency_field"
     }
   ],
-  "total_original_cards": 196,
+  "total_original_cards": 197,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }

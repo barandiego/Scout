@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 196
+Candidates: 197
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -759,6 +759,18 @@ Candidates: 196
 - Critical gaps: Actual Agents API pricing, rate limits, sandbox costs, storage costs, and price stability at production scale.; Whether the reported 60% reduction survives independent replication and includes human review, integration, monitoring, and exception-handling costs.; Workflow-specific accuracy, repeatability, latency, and failure severity across coding, research, operations, and case review.
 - Possible initial budget:
 - Source URLs: https://openai.com/index/introducing-the-agents-api/; https://www.axios.com/2026/09/29/openai-dev-day-2026-dots-space-sol
+
+## NFC + QR review-and-menu plaques for independent restaurants and hospitality venues
+- Status: watch | general
+- Current idea: A small operator should not compete with generic NFC business cards. A narrower wedge is a ready-to-deploy table or counter plaque that routes customers to one measurable action—Google review, digital menu, WhatsApp ordering or reservation—with NFC and QR redundancy. The economic mechanism is a paid physical unit plus optional replacement or link-management revenue; the evidence supports product pricing, but not yet recurring revenue or conversion uplift.
+- Potential economic capture: Sell configured plaques or table signs to restaurants, cafés, salons and small hotels at a transparent one-time price, using existing commodity NFC tags and locally available printing. A defensible angle would be action-specific setup, batch deployment and measurement rather than NFC hardware novelty. Do not assume review growth, order growth or recurring software revenue until tested.
+- **Research routes to test (NOT validated claims):**
+  - Name a specific payer, customer job and credible reason existing alternatives fail.
+  - Choose a low-cost differentiation wedge (availability, price, experience, distribution or technology).
+  - Test channel, willingness to pay, ownership and contribution margin before building.
+- Critical gaps: Actual landed cost per plaque, including NFC tag, printing, finishing, packaging, delivery, installation, redesigns, and payment fees.; Gross margin at the proposed CLP 12,000–20,000 price range and the minimum order quantity required for acceptable economics.; Whether NFC produces materially more completed actions than a prominent QR code alone among Chilean restaurant customers.
+- Possible initial budget:
+- Source URLs: https://credencialeschile.cl/categoria-producto/nfc/; https://tarjetas-nfc.com/precios; https://linktap.cl/tarjeta-nfc/
 
 ## NFC-enabled review and discovery cards for Chilean local merchants
 - Status: watch | general
