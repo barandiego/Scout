@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-13T12:27:03.929267+00:00
+Generated: 2026-11-13T19:56:03.414507+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 147
+- New this cycle: 158
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
-- Categories: agriculture 616, ai 103, energy 554, robotics 527
+- Categories: agriculture 616, ai 103, energy 559, robotics 522
 
 ## Recently encountered signals
+
+### 2010saif2-commits/AGRICYCLE
+- Source: https://github.com/2010saif2-commits/AGRICYCLE
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### thatomaelane/GridSense-AI-Interactive-Microgrid-Energy-Management-System-Virtual-Engineering-Laboratory
 - Source: https://github.com/thatomaelane/GridSense-AI-Interactive-Microgrid-Energy-Management-System-Virtual-Engineering-Laboratory
@@ -454,10 +460,4 @@ Generated: 2026-11-13T12:27:03.929267+00:00
 - Source: https://github.com/25a31a4335p/Quiskit_QuantumCrop
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Isopropyl Alcohol as a Non-Escalating Field Verification Stimulus for Thermal-Conductivity Hydrogen Sensors in Battery Energy Storage, Demonstrated at the Rated Temperature Minimum
-- Source: https://doi.org/10.2139/ssrn.7606948
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
