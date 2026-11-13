@@ -1,10 +1,10 @@
 # Scout — opportunity library
 
-Generated: 2026-11-13T11:52:18.689575+00:00
+Generated: 2026-11-13T19:13:35.285127+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 197 (0 HQ survivors, 197 watches)
+- Active research: 198 (0 HQ survivors, 198 watches)
 - Rejected opportunities excluded: 113
 - Critic-and-judge reviewed: 89
 - Autonomous execution authorization: 0
@@ -1023,6 +1023,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cnr.gob.cl/agricultores/como-postular/; https://www.cnr.gob.cl/ministerio-de-agricultura-lanza-calendario-de-concursos-2025-de-la-ley-de-riego/; https://www.cnr.gob.cl/wp-content/uploads/2024/01/Instructivo-Tecnico-Pequena-Agricultura-2024.pdf
 
+### Congestion-screening and curtailment audit for Chilean PMGD solar projects [opp_f94077062040d95a4529]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile; initial focus on Ñuble, Biobío, Coquimbo and Ovalle
+- Thesis: Affected projects may have measurable lost-generation or delayed-connection exposure, creating a narrow need for project-level screening: identify constrained substations, estimate affected operating hours from public dispatch and network data, and prepare evidence for technical mitigation, expansion requests or equipment-control decisions. The evidence supports a diagnostic wedge, not a claim that storage or mitigation will be profitable.
+- Value capture: A fixed-fee technical/data package consisting of: public-data congestion map; project-specific curtailment exposure estimate; meter/inverter-data reconciliation where the owner provides data; and a ranked list of low-capital mitigation tests. Revenue would come from a documented paid diagnostic or pilot only if a project owner agrees to purchase it; no buyer, fee or conversion rate is assumed.
+- Participation hypothesis: Start with one publicly documented constrained project or substation. Reproduce its restriction using Coordinador reports, project technical records and historical generation data. Build a spreadsheet-based screening report at near-zero cost, then contact the project owner or developer through publicly listed corporate channels to request permission for a 30-day data validation. Falsify the opportunity if public data cannot estimate exposure with useful precision, the owner will not share interval data, or the estimated loss is immaterial relat
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.coordinador.cl/wp-content/uploads/2026/04/Informe-Monitoreo-2025.pdf; https://cartas.coordinador.cl/download_anexos/69404cd735635766073a7e4c/0; https://www.coordinador.cl/wp-content/uploads/2025/05/Informe_Final_Congestiones_PMGD_Mayo.pdf
+
 ### Curtailment-led battery feasibility wedge for Chilean PMGD solar assets [opp_be96f644fc5f681b8c7f]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile, especially congested solar regions in the Norte Chico and Atacama
 - Thesis: A narrow opportunity exists to identify solar PMGD sites where measured curtailment, local congestion or price timing could justify a behind-the-meter or co-located battery study. The opportunity is not proven until a specific plant’s dispatch data, interconnection constraints, battery cost, revenue stack and permitting path produce positive economics.
@@ -1648,7 +1658,7 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Thesis: The immediately testable asset is not a generic AI-governance consultancy. It is a versioned incident corpus plus a machine-readable rule/evaluation pack for procurement teams, insurers, security vendors, and agent-platform builders that need regression tests for spending, data-loss, and unintended-action controls. The public evidence supports the existence of the dataset and an advertised hosted product, not recurring demand or profitability.
 - Value capture: Package normalized incident records, source provenance, severity labels, and replayable approval tests as a paid data feed or self-hosted evaluation bundle. A small operator can initially monetize a narrowly scoped dataset for one risk class, such as unauthorized purchases or destructive coding-agent actions, rather than attempting a full compliance platform.
 - Participation hypothesis: Fork the openly licensed dataset, independently verify 20 records against their linked primary sources, add a deterministic JSONL test format, and release five example tests. Offer the pack to a small sample of agent-platform vendors, security consultancies, or internal developer-tool teams only as a time-boxed paid pilot if they request it; do not claim certification or regulatory sufficiency. Falsification threshold: if independent verification exposes material source-quality problems or no target user will run the five tests, stop. Lowest-co
-- Critic/judge: deferred_by_review_cap
+- Critic/judge: critic_invalid_output
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://github.com/kindrat86/ai-agent-incident-database/blob/main/README.md; https://github.com/paolodm/ai-coding-agents-incidents

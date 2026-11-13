@@ -8581,6 +8581,67 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-13T19:13:14.910408+00:00",
+      "discovery_lens": "energy_localization",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The Coordinador states that PMGD surplus injections can congest zonal transmission networks, especially during solar overproduction periods.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Informe de Monitoreo 2025",
+          "url": "https://www.coordinador.cl/wp-content/uploads/2026/04/Informe-Monitoreo-2025.pdf"
+        },
+        {
+          "claim": "COPELEC documents a 2.9 MW solar project placed into service at a 500 kW injection limit because of possible transformer congestion.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Informe Ejecutivo – posible congestión en S/E Quilmo por inyección de PMGD y PMG",
+          "url": "https://cartas.coordinador.cl/download_anexos/69404cd735635766073a7e4c/0"
+        },
+        {
+          "claim": "The Coordinador's study identifies multiple substations and specific cases involving possible zonal-transmission congestion from PMGD injection.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Informe Final Mayo-2025: Congestiones PMGD",
+          "url": "https://www.coordinador.cl/wp-content/uploads/2025/05/Informe_Final_Congestiones_PMGD_Mayo.pdf"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.88,
+      "falsification_conditions": [],
+      "geography": "Chile; initial focus on Ñuble, Biobío, Coquimbo and Ovalle",
+      "id": "opp_f94077062040d95a4529",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-13T19:13:14.985493+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Start with one publicly documented constrained project or substation. Reproduce its restriction using Coordinador reports, project technical records and historical generation data. Build a spreadsheet-based screening report at near-zero cost, then contact the project owner or developer through publicly listed corporate channels to request permission for a 30-day data validation. Falsify the opportunity if public data cannot estimate exposure with useful precision, the owner will not share interval data, or the estimated loss is immaterial relative to the cost of mitigation. A possible market-participation route is to monitor Coordinador transmission-expansion studies and Mercado Público energy-efficiency procurements, but no award or permission is presumed.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Affected projects may have measurable lost-generation or delayed-connection exposure, creating a narrow need for project-level screening: identify constrained substations, estimate affected operating hours from public dispatch and network data, and prepare evidence for technical mitigation, expansion requests or equipment-control decisions. The evidence supports a diagnostic wedge, not a claim that storage or mitigation will be profitable.",
+      "title": "Congestion-screening and curtailment audit for Chilean PMGD solar projects",
+      "type": "service_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "A fixed-fee technical/data package consisting of: public-data congestion map; project-specific curtailment exposure estimate; meter/inverter-data reconciliation where the owner provides data; and a ranked list of low-capital mitigation tests. Revenue would come from a documented paid diagnostic or pilot only if a project owner agrees to purchase it; no buyer, fee or conversion rate is assumed.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-11-05T00:44:14.415165+00:00",
       "discovery_lens": "energy_localization",
       "estimated_capital": "",
@@ -12074,8 +12135,8 @@
       "geography": "Global",
       "id": "opp_63db3fa3330ccbc1a03e",
       "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-20T08:26:16.075375+00:00",
+      "judgment": "critic_invalid_output",
+      "last_record_updated_at": "2026-11-13T19:13:34.647284+00:00",
       "material_update": false,
       "missing_execution_proof": [
         "independent_critic_and_judge",
@@ -13883,13 +13944,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-13T11:52:18.689575+00:00",
+  "generated_at": "2026-11-13T19:13:35.285127+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 113,
   "reviewed_cards": 89,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 310,
-  "watch": 197
+  "total_distinct_opportunities": 311,
+  "watch": 198
 }

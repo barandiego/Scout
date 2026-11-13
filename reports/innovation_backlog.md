@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 197
+Candidates: 198
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -423,6 +423,18 @@ Candidates: 197
 - Critical gaps: Whether a specific constrained node has persistent, forecastable spreads after round-trip efficiency, degradation, cycling limits, charging costs, imbalance exposure, and network charges.; Whether public data is sufficiently granular, reliable, and timely for bankable site screening rather than retrospective analysis.; The actual willingness of Chilean generators, large users, landowners, or engineering firms to pay for an independent screen.
 - Possible initial budget:
 - Source URLs: https://www.coordinador.cl/wp-content/uploads/2026/04/Informe-Monitoreo-2025.pdf; https://www.coordinador.cl/presentaciones/informe-monitoreo-de-la-competencia-en-el-mercado-electrico-2025/
+
+## Congestion-screening and curtailment audit for Chilean PMGD solar projects
+- Status: watch | energy_infrastructure
+- Current idea: Affected projects may have measurable lost-generation or delayed-connection exposure, creating a narrow need for project-level screening: identify constrained substations, estimate affected operating hours from public dispatch and network data, and prepare evidence for technical mitigation, expansion requests or equipment-control decisions. The evidence supports a diagnostic wedge, not a claim that storage or mitigation will be profitable.
+- Potential economic capture: A fixed-fee technical/data package consisting of: public-data congestion map; project-specific curtailment exposure estimate; meter/inverter-data reconciliation where the owner provides data; and a ranked list of low-capital mitigation tests. Revenue would come from a documented paid diagnostic or pilot only if a project owner agrees to purchase it; no buyer, fee or conversion rate is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.coordinador.cl/wp-content/uploads/2026/04/Informe-Monitoreo-2025.pdf; https://cartas.coordinador.cl/download_anexos/69404cd735635766073a7e4c/0; https://www.coordinador.cl/wp-content/uploads/2025/05/Informe_Final_Congestiones_PMGD_Mayo.pdf
 
 ## Curtailment-led battery feasibility wedge for Chilean PMGD solar assets
 - Status: watch | energy_infrastructure
