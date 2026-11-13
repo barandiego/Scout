@@ -1,57 +1,107 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 640000.0,
-      "buyer": "Universidad de Chile",
-      "closes_at": "2026-11-18T22:04:00",
-      "code": "824773-193-COT26",
-      "estimated_budget": 640000.0,
-      "name": "MATERIAL DE LIBRERIA",
-      "products": 5,
+      "available_budget_clp": 300000.0,
+      "buyer": "HOSPITAL COMPLEJO ASISTENCIAL PADRE LAS CASAS",
+      "closes_at": "2026-11-14T09:21:00",
+      "code": "1171142-2769-COT26",
+      "estimated_budget": 300000.0,
+      "name": "SONDA YANKAHUER PEDIATRIACO/CARRO DE PARO BODEGA INSUMOS MEDICOS",
+      "products": 1,
+      "region": "Región de la Araucanía"
+    },
+    {
+      "available_budget_clp": 200000.0,
+      "buyer": "SERVICIO NACIONAL DE PROTECCIÓN ESPECIALIZADA A LA NIÑEZ Y ADOLESCENCI",
+      "closes_at": "2026-11-16T12:00:00",
+      "code": "1208102-71-COT26",
+      "estimated_budget": 200000.0,
+      "name": "COFFEE BREAK SEGUNDO CONSEJO CONSULTIVO REGIONAL DEL MAULE",
+      "products": 1,
+      "region": "Región del Maule"
+    },
+    {
+      "available_budget_clp": 70000.0,
+      "buyer": "SERVICIO DE SALUD ARAUCANIA HOSPITAL DE TRAIGUEN",
+      "closes_at": "2026-11-16T15:30:00",
+      "code": "2085-551-COT26",
+      "estimated_budget": 70000.0,
+      "name": "COMPRA DE ALIMENTO PARA PROGRAMA CHILE CRECE MAS H.TRAIGUEN",
+      "products": 6,
+      "region": "Región de la Araucanía"
+    },
+    {
+      "available_budget_clp": 4580000.0,
+      "buyer": "I MUNICIPALIDAD DE SANTIAGO",
+      "closes_at": "2026-11-17T10:30:00",
+      "code": "2343-615-COT26",
+      "estimated_budget": 4580000.0,
+      "name": "Muebles de oficina Programa “Atención Inicial de las Violencias de Género” // PED 1561",
+      "products": 15,
       "region": "Región Metropolitana de Santiago"
     },
     {
-      "available_budget_clp": 527931.0,
-      "buyer": "I MUNICIPALIDAD DE LAGO VERDE",
-      "closes_at": "2026-11-13T22:00:00",
-      "code": "4144-320-COT26",
-      "estimated_budget": 527931.0,
-      "name": "SE REQUIERE LA ADQUISICICON DE MATERIALES DE PAPELERIA , PARA EJECUCION DEL PROYECTO NIÑEZ Y PATRIMONIO",
-      "products": 3,
-      "region": "Región Aysén del General Carlos Ibáñez del Campo"
+      "available_budget_clp": 2300000.0,
+      "buyer": "I MUNICIPALIDAD DE PUCON",
+      "closes_at": "2026-11-16T15:00:00",
+      "code": "2387-460-COT26",
+      "estimated_budget": 2300000.0,
+      "name": "SP 1613:ADQUISICION DE KIT DE FILTROS PARA VEHICULOS MUNICIPALES",
+      "products": 1,
+      "region": "Región de la Araucanía"
     },
     {
-      "available_budget_clp": 1500000.0,
-      "buyer": "INSTITUTO DE INVESTIGACIONES AGROPECUARIAS",
-      "closes_at": "2026-11-13T22:12:00",
-      "code": "1107282-282-COT26",
-      "estimated_budget": 1500000.0,
-      "name": "Adquisición vestuario para labores de campo y laboratorio área fitopatología, INIA Remehue, Osorno",
-      "products": 7,
+      "available_budget_clp": 700000.0,
+      "buyer": "I MUNICIPALIDAD DE OSORNO",
+      "closes_at": "2026-11-16T10:00:00",
+      "code": "2297-1503-COT26",
+      "estimated_budget": 700000.0,
+      "name": "SE REQUIERE LA ADQUISICIÓN DE SOUVENIR",
+      "products": 3,
       "region": "Región de los Lagos"
     },
     {
-      "available_budget_clp": 4500000.0,
-      "buyer": "Servicio de Biodiversidad y Áreas Protegidas",
-      "closes_at": "2026-11-16T18:29:00",
-      "code": "1495202-32-COT26",
-      "estimated_budget": 4500000.0,
-      "name": "ADQUISICIÓN DE ARTÍCULOS DE FERRETERÍA PARA MONUMENTO NATURAL LA PORTADA Y PARQUE NACIONAL MORRO MORENO",
-      "products": 7,
-      "region": "Región de Antofagasta"
+      "available_budget_clp": 157556.0,
+      "buyer": "Servicio de Salud del Reloncaví",
+      "closes_at": "2026-11-16T15:00:00",
+      "code": "1666-379-COT26",
+      "estimated_budget": 157556.0,
+      "name": "tapa amarilla,Naricera adulto,mariposa y nebulizador (sol 757)",
+      "products": 5,
+      "region": "Región de los Lagos"
     },
     {
-      "available_budget_clp": 500000.0,
-      "buyer": "I. MUNICIPALIDAD DE CERRO NAVIA",
-      "closes_at": "2026-11-13T21:30:00",
-      "code": "1306643-353-COT26",
-      "estimated_budget": 500000.0,
-      "name": "ADS. SERVICIO DE COFFE BREAK SALUDABLE",
+      "available_budget_clp": 140000.0,
+      "buyer": "UNIVERSIDAD DE CHILE",
+      "closes_at": "2026-11-17T08:00:00",
+      "code": "5178-5567-COT26",
+      "estimated_budget": 140000.0,
+      "name": "BOLSAS DE ALGODON CON LOGO( CON MUESTRA ) / SP 1077114/ NG",
       "products": 1,
       "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 3250000.0,
+      "buyer": "Centro de Educación y Trabajo del CDP Talagante",
+      "closes_at": "2026-11-14T09:30:00",
+      "code": "1173449-104-COT26",
+      "estimated_budget": 3250000.0,
+      "name": "PANADERIA Y PASTELERIA",
+      "products": 9,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 350000.0,
+      "buyer": "ILUSTRE MUNICIPALIDAD DE RIO VERDE",
+      "closes_at": "2026-11-16T17:00:00",
+      "code": "3595-271-COT26",
+      "estimated_budget": 350000.0,
+      "name": "Adquisicion de Parches Para Adultos y un Juego Pedriatico Para el Desfibrilador Automatico Externo (DEA)",
+      "products": 2,
+      "region": "Región de Magallanes y de la Antártica"
     }
   ],
-  "active_structurally_reconstructable_count": 5,
+  "active_structurally_reconstructable_count": 10,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -69,7 +119,7 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-13T01:12:16Z",
+  "generated_at": "2026-11-13T12:22:04Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -77,17 +127,17 @@
   "phase1": {
     "records": 20,
     "rejection_reasons": {
-      "missing_products": 5,
-      "no_observable_competitive_prices": 5
+      "missing_products": 3,
+      "no_observable_competitive_prices": 4
     },
-    "resolved": 15,
-    "structurally_reconstructable": 10,
-    "with_observable_quote_totals": 10,
+    "resolved": 10,
+    "structurally_reconstructable": 13,
+    "with_observable_quote_totals": 6,
     "with_purchase_order_indicator": 5
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-13T01:12:16Z"
+    "changed_to": "2026-11-13T12:22:04Z"
   }
 }
