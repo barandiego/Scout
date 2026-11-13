@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-11-12T16:35:13.427328+00:00
+Generated: 2026-11-13T00:54:37.710925+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 194 (0 HQ survivors, 194 watches)
+- Active research: 196 (0 HQ survivors, 196 watches)
 - Rejected opportunities excluded: 113
-- Critic-and-judge reviewed: 87
+- Critic-and-judge reviewed: 88
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -372,6 +372,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Whether ATENA is free, sufficiently complete and available to every relevant participant, and whether it exposes enough functionality for external vendors to build d; Whether CMF or industry bodies will define an official certification, conformance-test format or evidence package that buyers must obtain.; The number of smaller institutions and fintechs that will actually be required to participate, their implementation budgets and their decision-making timelines.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://cmfchile.cl/portal/prensa/625/w4-article-113897.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html
+
+### Chile Open-Finance conformance harness before July 2027 implementation [opp_911d89dad493afe4910f]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: A narrow reusable test harness could help prospective data providers, data-based service providers, and technical vendors validate API schemas, consent flows, error handling, and payment-initiation integration before production participation. The opportunity is implementation tooling, not a claim that regulated firms must buy it.
+- Value capture: Sell a downloadable conformance suite, local test environment, schema-diff alerts, and paid implementation support. A repeatable software asset is more defensible than generic consulting if it maps directly to CMF technical requirements and can be reused across participants.
+- Participation hypothesis: Download the CMF technical annex and developer materials, implement only one high-friction flow such as consented account-information retrieval or payment initiation, and publish a free validator that accepts sample payloads. Contact publicly listed Chilean fintech/API integrators and ask whether they will run a paid pilot against their existing sandbox; do not assume access, demand, or regulatory approval. Falsification threshold: if at least 10 targeted firms cannot identify a concrete validation problem or will not test a free prototype, sto
+- Critic/judge: The regulatory premise is sufficiently grounded by CMF primary materials: technical specifications and a delayed July 2027 effectiveness date support a real implementation window, rather than an invented regulatory trigger. A conformance-testing product can likely operate without privileged production financial-data access if it is restricted to synthetic/sample payloads and participant-controlled test credentials. Therefore no fatal AP
+- Next evidence gaps: Whether CMF ATENA will provide sufficiently complete automated conformance, negative-case, regression, and certificate-testing functionality to substitute for a priv; Whether the CMF will permit or recognize third-party test results, certificates, or conformance reports.; The number of firms in each participant group that will actually need external tooling rather than internal development or an integrator.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/615/articles-99378_doc_pdf.pdf
 
 ### Chile Open-Finance conformance test harness for small fintech participants [opp_f3fe202e8fef580525fb]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -1213,6 +1223,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://jobs.telusdigital.com/search/cfm3/russian-spanish/cfm5/ai-community/jobs/in/country/chile?ns_category=artificial-intelligence; https://www.sii.cl/destacados/iva_bienes/plataformas_inscritas/
 
+### ATENA-ready interoperability test harness for Chilean Open Finance participants [opp_39c7ecad0f54d46c3dea]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Entities that intend to participate have a defined pre-production environment and a dated implementation requirement, creating a bounded need for test fixtures, conformance checks, consent-flow demonstrations and integration troubleshooting before production access.
+- Value capture: A narrowly scoped implementation package: sandbox setup, test-data fixtures, API conformance report and documented remediation list. The economic mechanism is payment for a fixed technical-readiness engagement; no recurring revenue or price level is evidenced.
+- Participation hypothesis: Use only the public CMF technical materials and ATENA access process to build a small demonstrator covering one participant role and one consent/payment flow. Contact prospective regulated or fintech participants through publicly listed institutional channels, offer a no-cost diagnostic on their existing test integration, and require a signed paid scope only if they identify a concrete conformance gap. Lowest-cost falsification: implement one endpoint or test flow, document the actual setup effort, and ask five Chilean fintech or financial inst
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html
+
 ### Batch-inference cost arbitrage using interruptible GPU capacity [opp_5c481ec7547befd84600]
 - Status: WATCH_REQUIRES_VALIDATION | competitive_positioning | United States and global cloud markets
 - Thesis: For checkpointable, non-latency-sensitive workloads such as embedding refreshes, batch transcription, rendering or model evaluation, a small operator can potentially reduce compute spend by routing jobs across interruptible capacity rather than selling generic AI consulting.
@@ -1363,16 +1383,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812
 
-### Chile Open-Finance conformance harness before July 2027 implementation [opp_911d89dad493afe4910f]
-- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
-- Thesis: A narrow reusable test harness could help prospective data providers, data-based service providers, and technical vendors validate API schemas, consent flows, error handling, and payment-initiation integration before production participation. The opportunity is implementation tooling, not a claim that regulated firms must buy it.
-- Value capture: Sell a downloadable conformance suite, local test environment, schema-diff alerts, and paid implementation support. A repeatable software asset is more defensible than generic consulting if it maps directly to CMF technical requirements and can be reused across participants.
-- Participation hypothesis: Download the CMF technical annex and developer materials, implement only one high-friction flow such as consented account-information retrieval or payment initiation, and publish a free validator that accepts sample payloads. Contact publicly listed Chilean fintech/API integrators and ask whether they will run a paid pilot against their existing sandbox; do not assume access, demand, or regulatory approval. Falsification threshold: if at least 10 targeted firms cannot identify a concrete validation problem or will not test a free prototype, sto
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/615/articles-99378_doc_pdf.pdf
-
 ### Chile open-finance implementation-readiness test for a consented data-use wedge [opp_5c497caf7391eed68402]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: A narrow compliance/readiness checklist and test-data specification could be useful to software providers preparing consent, data-security, and interoperability workflows. This is an implementation-readiness asset, not evidence that an independent operator may access bank data or act as a regulated participant.
@@ -1392,6 +1402,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://zenodo.org/records/21652187; https://doi.org/10.3390/en19020334
+
+### Chile robot-import commissioning and aftermarket wedge for mid-priced industrial robots [opp_9e88a06db8d9140657f4]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile
+- Thesis: The existing import flow creates a concrete installed-equipment base that may require commissioning, operator training, preventive maintenance, spare-parts sourcing and application-specific integration. The opportunity is service revenue around imported equipment, not speculative robot resale.
+- Value capture: Per-site commissioning or troubleshooting, paid operator training, preventive-maintenance visits, and sourcing of replacement components. Actual attainable prices, margins and authorization requirements remain unknown and must be verified with equipment owners and manufacturers.
+- Participation hypothesis: Start with one documented robot family appearing in Chilean import data and offer an independent inspection/training package only where the owner requests it; do not represent manufacturer authorization unless obtained in writing. Use public company websites, Chilean procurement records and direct outreach to importers or end users to identify one machine needing service. Lowest-cost falsification: interview or email ten identifiable importers/integrators, obtain one machine-specific maintenance or commissioning quote request, and price the req
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://recalar.cl/categorias/robots-industriales-otros/; https://robusto.cl/en/about/
 
 ### Chile SFA developer-conformance test harness before July 2027 implementation [opp_32e5affc69f7f526e7c4]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile

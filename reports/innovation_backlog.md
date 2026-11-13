@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 194
+Candidates: 196
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -940,6 +940,18 @@ Candidates: 194
 - Possible initial budget:
 - Source URLs: https://cmfchile.cl/portal/prensa/625/w4-article-113897.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html
 
+## ATENA-ready interoperability test harness for Chilean Open Finance participants
+- Status: watch | open_finance_chile
+- Current idea: Entities that intend to participate have a defined pre-production environment and a dated implementation requirement, creating a bounded need for test fixtures, conformance checks, consent-flow demonstrations and integration troubleshooting before production access.
+- Potential economic capture: A narrowly scoped implementation package: sandbox setup, test-data fixtures, API conformance report and documented remediation list. The economic mechanism is payment for a fixed technical-readiness engagement; no recurring revenue or price level is evidenced.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html
+
 ## ATENA-ready interoperability test harness for Chilean open-finance participants
 - Status: watch | open_finance_chile
 - Current idea: Participants and prospective participants need to reduce integration and conformance risk before production access. A narrowly scoped test harness, fixture library, API contract checker, and reproducible ATENA test pack could be sold as a technical asset or implementation package rather than as generic consulting.
@@ -1188,7 +1200,7 @@ Candidates: 194
   - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
   - Check license perimeter, API access, legal compliance and competitor pricing.
   - Test buyer procurement and technical access before writing integration infrastructure.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Whether CMF ATENA will provide sufficiently complete automated conformance, negative-case, regression, and certificate-testing functionality to substitute for a private product.; Whether the CMF will permit or recognize third-party test results, certificates, or conformance reports.; The number of firms in each participant group that will actually need external tooling rather than internal development or an integrator.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/615/articles-99378_doc_pdf.pdf
 
@@ -2151,6 +2163,18 @@ Candidates: 194
 - Critical gaps: Whether VIC Robotics will authorize or pay an independent referral, implementation, or site-assessment partner.; The exact commission, fee, gross margin, payment trigger, exclusivity, lead ownership, and attribution period.; Whether UF 20/month applies to the relevant industrial model, surface area, contract term, geography, and service level.
 - Possible initial budget:
 - Source URLs: https://www.vicrobotics.com/about; https://www.vicrobotics.com/; https://www.vicrobotics.com/soluciones/limpieza-industrial-bodegas
+
+## Chile robot-import commissioning and aftermarket wedge for mid-priced industrial robots
+- Status: watch | robotics_agritech
+- Current idea: The existing import flow creates a concrete installed-equipment base that may require commissioning, operator training, preventive maintenance, spare-parts sourcing and application-specific integration. The opportunity is service revenue around imported equipment, not speculative robot resale.
+- Potential economic capture: Per-site commissioning or troubleshooting, paid operator training, preventive-maintenance visits, and sourcing of replacement components. Actual attainable prices, margins and authorization requirements remain unknown and must be verified with equipment owners and manufacturers.
+- **Research routes to test (NOT validated claims):**
+  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
+  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
+  - Arrange a bounded field validation with an actual farm operator before scaling.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://recalar.cl/categorias/robots-industriales-otros/; https://robusto.cl/en/about/
 
 ## Independent deployment and service layer for agricultural field robots
 - Status: watch | robotics_agritech

@@ -2929,6 +2929,42 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use only the public CMF technical materials and ATENA access process to build a small demonstrator covering one participant role and one consent/payment flow. Contact prospective regulated or fintech participants through publicly listed institutional channels, offer a no-cost diagnostic on their existing test integration, and require a signed paid scope only if they identify a concrete conformance gap. Lowest-cost falsification: implement one endpoint or test flow, document the actual setup effort, and ask five Chilean fintech or financial institutions whether they would pay for a fixed diagnostic; abandon if no institution confirms a current implementation problem or access route.",
+      "current_thesis": "Entities that intend to participate have a defined pre-production environment and a dated implementation requirement, creating a bounded need for test fixtures, conformance checks, consent-flow demonstrations and integration troubleshooting before production access.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "ATENA-ready interoperability test harness for Chilean Open Finance participants",
+      "opportunity_id": "opp_39c7ecad0f54d46c3dea",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A narrowly scoped implementation package: sandbox setup, test-data fixtures, API conformance report and documented remediation list. The economic mechanism is payment for a fixed technical-readiness engagement; no recurring revenue or price level is evidenced.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use the CMF's public developer documentation and ATENA access guide to build a minimal mock-data client covering one API flow and one participant-directory interaction. Apply for sandbox access through the CMF route, test whether the asset runs against ATENA, then contact publicly listed prospective SFA participants only after obtaining evidence of a failed or time-consuming test. Falsification: spend no more than one day reproducing one documented flow; abandon if documentation, access, or test behavior is insufficient to demonstrate a concrete integration bottleneck.",
       "current_thesis": "Participants and prospective participants need to reduce integration and conformance risk before production access. A narrowly scoped test harness, fixture library, API contract checker, and reproducible ATENA test pack could be sold as a technical asset or implementation package rather than as generic consulting.",
       "founder_hours_initial_unverified_estimate": "",
@@ -3697,9 +3733,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "Chile",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "Whether CMF ATENA will provide sufficiently complete automated conformance, negative-case, regression, and certificate-testing functionality to substitute for a private product.",
+        "Whether the CMF will permit or recognize third-party test results, certificates, or conformance reports.",
+        "The number of firms in each participant group that will actually need external tooling rather than internal development or an integrator.",
+        "Whether SFA-Sandbox is actively used by regulated institutions, its pricing, product maturity, and competitive differentiation.",
+        "Whether banks and major providers have already selected global API, identity, security, or systems-integration vendors.",
+        "The exact technical scope and release stability of the annex, developer portal, directory, sandbox, and pilot APIs through July 2027.",
+        "Whether Chilean buyers will purchase software from a new foreign or non-established vendor without local support, Spanish documentation, security review, and procurement credentials."
       ],
       "investment_authorized": false,
       "name": "Chile Open-Finance conformance harness before July 2027 implementation",
@@ -6825,6 +6865,42 @@
       "category": "robotics_agritech",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Start with one documented robot family appearing in Chilean import data and offer an independent inspection/training package only where the owner requests it; do not represent manufacturer authorization unless obtained in writing. Use public company websites, Chilean procurement records and direct outreach to importers or end users to identify one machine needing service. Lowest-cost falsification: interview or email ten identifiable importers/integrators, obtain one machine-specific maintenance or commissioning quote request, and price the required tools, travel, insurance and technical access before purchasing inventory or importing equipment.",
+      "current_thesis": "The existing import flow creates a concrete installed-equipment base that may require commissioning, operator training, preventive maintenance, spare-parts sourcing and application-specific integration. The opportunity is service revenue around imported equipment, not speculative robot resale.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile robot-import commissioning and aftermarket wedge for mid-priced industrial robots",
+      "opportunity_id": "opp_9e88a06db8d9140657f4",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
+        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
+        "Arrange a bounded field validation with an actual farm operator before scaling."
+      ],
+      "supporting_source_urls": [
+        "https://recalar.cl/categorias/robots-industriales-otros/",
+        "https://robusto.cl/en/about/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Per-site commissioning or troubleshooting, paid operator training, preventive-maintenance visits, and sourcing of replacement components. Actual attainable prices, margins and authorization requirements remain unknown and must be verified with equipment owners and manufacturers.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "robotics_agritech",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Do not purchase a robot initially. Select one crop cluster, interview growers and crop consultants, and obtain written demand for a paid scouting or mapping trial using an existing commercially available platform or manual baseline. Compare the customer’s current cost and decision output with one defined robot-enabled task. Falsify if at least three growers will not commit to a paid trial, deposit, or access to a field under their existing operating permissions.",
       "current_thesis": "The testable wedge is not inventing a robot. It is validating whether a local operator can sell crop-specific deployment, mapping, monitoring or seasonal access around an existing robot to growers who cannot justify ownership. The capital intensity and agronomic integration risk make a broker/operator model more falsifiable than buying equipment first.",
       "founder_hours_initial_unverified_estimate": "",
@@ -7387,7 +7463,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-12T16:35:13.514931+00:00",
+  "generated_at": "2026-11-13T00:54:37.849457+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"
