@@ -1,67 +1,87 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 785000.0,
-      "buyer": "HOSPITAL DR GUSTAVO FRICKE DE VINA DEL MAR",
-      "closes_at": "2026-11-15T15:13:00",
-      "code": "608-7017-COT26",
-      "estimated_budget": 785000.0,
-      "name": "PLC BODEGA CENTRAL NOVIEMBRE - FRASCO DE BIOPSIA PRELLENADO C/ FORMALINA 300 CC785000",
+      "available_budget_clp": 100000.0,
+      "buyer": "13° Juzgado de Garantia de Santiago",
+      "closes_at": "2026-11-17T13:00:00",
+      "code": "765972-18-COT26",
+      "estimated_budget": 100000.0,
+      "name": "Adquisición de pizarras autoadhesivas",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 1200000.0,
+      "buyer": "SLEP MARGA MARGA",
+      "closes_at": "2026-11-17T15:00:00",
+      "code": "1480972-968-COT26",
+      "estimated_budget": 1200000.0,
+      "name": "TRANSPORTE 30 NOVIEMBRE LICEO MARY GRAHAM",
       "products": 1,
       "region": "Región de Valparaíso"
     },
     {
-      "available_budget_clp": 4050000.0,
-      "buyer": "I MUNICIPALIDAD DE TALAGANTE",
-      "closes_at": "2026-11-16T11:00:00",
-      "code": "2701-840-COT26",
-      "estimated_budget": 4050000.0,
-      "name": "Insumos de alimentación, Dideco/Centro diurno.",
-      "products": 48,
+      "available_budget_clp": 250000.0,
+      "buyer": "13° Juzgado de Garantia de Santiago",
+      "closes_at": "2026-11-17T13:00:00",
+      "code": "765972-17-COT26",
+      "estimated_budget": 250000.0,
+      "name": "Adquisición materiales de oficina",
+      "products": 9,
       "region": "Región Metropolitana de Santiago"
     },
     {
-      "available_budget_clp": 850000.0,
-      "buyer": "SERVICIO DE SALUD VALDIVIA HOSPITAL LA U",
-      "closes_at": "2026-11-17T11:00:00",
-      "code": "1057548-787-COT26",
-      "estimated_budget": 850000.0,
-      "name": "Sonda dufour.",
-      "products": 2,
-      "region": "Región de Los Ríos"
-    },
-    {
-      "available_budget_clp": 255000.0,
-      "buyer": "I MUNICIPALIDAD DE TALCAHUANO",
-      "closes_at": "2026-11-19T15:44:00",
-      "code": "2358-524-COT26",
-      "estimated_budget": 255000.0,
-      "name": "©sc 89 Seguridad Pública-Lazos-Materiales de aseo varios",
-      "products": 1,
-      "region": "Región del Biobío"
-    },
-    {
-      "available_budget_clp": 1050000.0,
-      "buyer": "SERVICIO DE SALUD VALDIVIA HOSPITAL LA U",
-      "closes_at": "2026-11-17T10:05:00",
-      "code": "1057548-786-COT26",
-      "estimated_budget": 1050000.0,
-      "name": "Set de irrigacion en Y para RTU",
+      "available_budget_clp": 6870000.0,
+      "buyer": "SECCIÓN COMPRAS XIV ZONA",
+      "closes_at": "2026-11-15T20:30:00",
+      "code": "1079694-377-COT26",
+      "estimated_budget": 6870000.0,
+      "name": "Adquisición de neumáticos destinados a las motocicletas cargo de diferentes unidades y destacamentos dependientes de la Zona de Carabineros de Los Ríos.",
       "products": 1,
       "region": "Región de Los Ríos"
     },
     {
-      "available_budget_clp": 1200000.0,
-      "buyer": "Ilustre Municipalidad de Santa Barbara - Salud",
-      "closes_at": "2026-11-16T15:00:00",
-      "code": "3977-183-COT26",
-      "estimated_budget": 1200000.0,
-      "name": "Computador de escritorio para ejecución de actividades del programa Espacios Amigables. (OP N°191)",
+      "available_budget_clp": 120000.0,
+      "buyer": "13° Juzgado de Garantia de Santiago",
+      "closes_at": "2026-11-17T15:00:00",
+      "code": "765972-16-COT26",
+      "estimated_budget": 120000.0,
+      "name": "Adquisición de materiales de aseo",
+      "products": 5,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 7200000.0,
+      "buyer": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUR",
+      "closes_at": "2026-11-16T15:30:00",
+      "code": "1422832-287-COT26",
+      "estimated_budget": 7200000.0,
+      "name": "(ASA) EXAMEN de AngioTAC coronario pediátrico",
       "products": 1,
-      "region": "Región del Biobío"
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 900000.0,
+      "buyer": "I.MUNICIPALIDAD DE ROMERAL",
+      "closes_at": "2026-11-15T20:21:00",
+      "code": "4475-444-COT26",
+      "estimated_budget": 900000.0,
+      "name": "Servicio de capacitación de Lengua de Señas para la comunidad educativa de la Escuela América Latina",
+      "products": 1,
+      "region": "Región del Maule"
+    },
+    {
+      "available_budget_clp": 1000000.0,
+      "buyer": "I MUNICIPALIDAD DE TRAIGUEN",
+      "closes_at": "2026-11-16T16:30:00",
+      "code": "3517-254-COT26",
+      "estimated_budget": 1000000.0,
+      "name": "Bicicletas para Cecosf Pantano del DSM Traiguén",
+      "products": 1,
+      "region": "Región de la Araucanía"
     }
   ],
-  "active_structurally_reconstructable_count": 6,
+  "active_structurally_reconstructable_count": 8,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -79,7 +99,7 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-14T18:17:30Z",
+  "generated_at": "2026-11-14T23:58:58Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -88,16 +108,16 @@
     "records": 20,
     "rejection_reasons": {
       "missing_products": 1,
-      "no_observable_competitive_prices": 5
+      "no_observable_competitive_prices": 7
     },
-    "resolved": 14,
-    "structurally_reconstructable": 14,
-    "with_observable_quote_totals": 9,
+    "resolved": 12,
+    "structurally_reconstructable": 12,
+    "with_observable_quote_totals": 5,
     "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-14T18:17:30Z"
+    "changed_to": "2026-11-14T23:58:58Z"
   }
 }
