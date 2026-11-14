@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-14T00:56:49.554587+00:00
+Generated: 2026-11-14T11:39:16.675988+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 172
+- New this cycle: 174
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): none
-- Categories: agriculture 618, ai 102, energy 567, robotics 513
+- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
+- Categories: agriculture 621, ai 107, energy 567, robotics 505
 
 ## Recently encountered signals
+
+### sureshsabitha2004-boop/DATA-DRIVEN-RECOMMENDATION-FOR-TAILORED-CROP-SELECTION
+- Source: https://github.com/sureshsabitha2004-boop/DATA-DRIVEN-RECOMMENDATION-FOR-TAILORED-CROP-SELECTION
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### Hydrogen and Battery Energy Storage for Resilient High-Renewable Microgrids: A Multi-Objective Assessment of Cost, Emissions and Employment Under Uncertainty
 - Source: https://doi.org/10.3390/su182211579
@@ -452,12 +458,6 @@ Generated: 2026-11-14T00:56:49.554587+00:00
 
 ### 25ad040-stack/AI-AGRO-FARMER-ADVISOR
 - Source: https://github.com/25ad040-stack/AI-AGRO-FARMER-ADVISOR
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Josh1288/Smart-Agriculture
-- Source: https://github.com/Josh1288/Smart-Agriculture
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
