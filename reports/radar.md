@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-14T11:39:16.675988+00:00
+Generated: 2026-11-14T18:22:42.463602+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 174
+- New this cycle: 171
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
-- Categories: agriculture 621, ai 107, energy 567, robotics 505
+- Feed failures (fail-open for public intake only): none
+- Categories: agriculture 626, ai 100, energy 568, robotics 506
 
 ## Recently encountered signals
+
+### atibsso500-byte/Torba-.-Nasa
+- Source: https://github.com/atibsso500-byte/Torba-.-Nasa
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### sureshsabitha2004-boop/DATA-DRIVEN-RECOMMENDATION-FOR-TAILORED-CROP-SELECTION
 - Source: https://github.com/sureshsabitha2004-boop/DATA-DRIVEN-RECOMMENDATION-FOR-TAILORED-CROP-SELECTION
@@ -452,12 +458,6 @@ Generated: 2026-11-14T11:39:16.675988+00:00
 
 ### Thrinadh-ai/Smart-Agriculture
 - Source: https://github.com/Thrinadh-ai/Smart-Agriculture
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### 25ad040-stack/AI-AGRO-FARMER-ADVISOR
-- Source: https://github.com/25ad040-stack/AI-AGRO-FARMER-ADVISOR
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
