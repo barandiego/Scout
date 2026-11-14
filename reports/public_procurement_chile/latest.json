@@ -1,85 +1,43 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 7244000.0,
-      "buyer": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA SANTIAGO CENTR",
-      "closes_at": "2026-11-16T11:00:00",
-      "code": "1485217-153-COT26",
-      "estimated_budget": 7244000.0,
-      "name": "PROYECTORES PARA ESTABLECIMIENTOS",
-      "products": 4,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 3000000.0,
-      "buyer": "I MUNICIPALIDAD DE COLCHANE",
-      "closes_at": "2026-11-15T08:00:00",
-      "code": "525512-313-COT26",
-      "estimated_budget": 3000000.0,
-      "name": "ADQUISICION DE SEGURO CONTRA SINIESTRO PARA LA CAMIONETA DE SEGURIDAD",
-      "products": 1,
-      "region": "Región de Tarapacá"
-    },
-    {
-      "available_budget_clp": 7244000.0,
-      "buyer": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DEL PINO",
-      "closes_at": "2026-11-14T21:40:00",
-      "code": "1305527-47-COT26",
-      "estimated_budget": 7244000.0,
-      "name": "Instalación y Provisión de Aires Acondicionados",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 7200000.0,
-      "buyer": "SERVICIO SALUD OCCIDENTE HOSPITAL DR FELIX BULNES CERDA",
-      "closes_at": "2026-11-16T09:30:00",
-      "code": "1559-616-COT26",
-      "estimated_budget": 7200000.0,
-      "name": "MICOFENOLATO 500 MG CM (LAMUCON)",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 100000.0,
-      "buyer": "UNIVERSIDAD DE TARAPACA",
-      "closes_at": "2026-11-15T17:00:00",
-      "code": "5865-190-COT26",
-      "estimated_budget": 100000.0,
-      "name": "Compra Guillotina de rodillo y Termolaminadora/Plástificadora, Escuela de Psicología y Filosofía UTA",
+      "available_budget_clp": 357000.0,
+      "buyer": "MUNICIPALIDAD DE OVALLE",
+      "closes_at": "2026-11-16T04:12:00",
+      "code": "2710-821-COT26",
+      "estimated_budget": 357000.0,
+      "name": "RECARGA MENSUAL PARA CELULAR, SOLICITUD N°179/2026, SUBDIRECCIÓN DE GESTIÓN ASISTENCIAL DESAM OVALLE.",
       "products": 2,
-      "region": "Región de Arica y Parinacota"
+      "region": "Región de Coquimbo"
     },
     {
-      "available_budget_clp": 7200000.0,
-      "buyer": "SERVICIO SALUD OCCIDENTE HOSPITAL DR FELIX BULNES CERDA",
-      "closes_at": "2026-11-16T09:30:00",
-      "code": "1559-615-COT26",
-      "estimated_budget": 7200000.0,
-      "name": "MICOFENOLATO CP 250 MG CM (LAMUCON)",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 2000000.0,
-      "buyer": "I MUNICIPALIDAD PUERTO OCTAY",
-      "closes_at": "2026-11-14T21:30:00",
-      "code": "4950-121-COT26",
-      "estimated_budget": 2000000.0,
-      "name": "Reparación Camioneta Great Wall, modelo Wingle 5 G Elite 2.2, PPU RBRG61",
-      "products": 21,
+      "available_budget_clp": 1500000.0,
+      "buyer": "SERVICIO NACIONAL DE SALUD HOSPITAL DE RIO NEGRO",
+      "closes_at": "2026-11-18T10:30:00",
+      "code": "1057531-193-COT26",
+      "estimated_budget": 1500000.0,
+      "name": "COMPRA Artículos de LAVANDERIA Despacho Parcial. Adjuntar ficha técnica con foto. Considerar despacho Parcial a Hospital Río Negro. Descripción COMPRA Artículos de LAVANDERIA. Adjuntar ficha técnica",
+      "products": 3,
       "region": "Región de los Lagos"
+    },
+    {
+      "available_budget_clp": 6465000.0,
+      "buyer": "HOSPITAL CLINICO HERMINDA MARTIN",
+      "closes_at": "2026-11-16T10:00:00",
+      "code": "1058102-570-COT26",
+      "estimated_budget": 6465000.0,
+      "name": "HIALURONIDASA AMP 1.500 UI SC",
+      "products": 1,
+      "region": "Región del Ñuble"
     }
   ],
-  "active_structurally_reconstructable_count": 7,
+  "active_structurally_reconstructable_count": 3,
   "diagnostics": {
-    "api_failures": {
-      "api_rate_limited": 1
-    },
+    "api_failures": {},
     "budget_exhausted": false,
     "detail_attempts": 20,
     "detail_cap_exhausted": true,
-    "details_fetched": 19,
+    "details_fetched": 20,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -91,25 +49,25 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-14T00:55:11Z",
-  "inserted_history": 19,
+  "generated_at": "2026-11-14T11:36:35Z",
+  "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_API_ERRORS",
+  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
   "phase1": {
-    "records": 19,
+    "records": 20,
     "rejection_reasons": {
-      "missing_products": 1,
-      "no_observable_competitive_prices": 2
+      "missing_products": 2,
+      "no_observable_competitive_prices": 6
     },
-    "resolved": 12,
-    "structurally_reconstructable": 16,
-    "with_observable_quote_totals": 10,
-    "with_purchase_order_indicator": 4
+    "resolved": 17,
+    "structurally_reconstructable": 13,
+    "with_observable_quote_totals": 11,
+    "with_purchase_order_indicator": 1
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-14T00:55:11Z"
+    "changed_to": "2026-11-14T11:36:35Z"
   }
 }
