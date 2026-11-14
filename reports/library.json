@@ -8398,6 +8398,67 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-14T00:40:16.962407+00:00",
+      "discovery_lens": "remote_paid_evaluation",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Official TELUS Digital job page identifies a remote, part-time Chile role involving online research and evaluation of maps, businesses, addresses, locations and Spanish/English search results; training and guidelines are provided.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Online Data Analyst - Chile",
+          "url": "https://jobs.telusdigital.com/jobs/18154786-online-data-analyst-chile"
+        },
+        {
+          "claim": "Official TELUS Digital search page shows one current AI Community opening in Chile: Online Data Analyst - Chile, Spanish, part time, remote.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Chile AI Community jobs",
+          "url": "https://jobs.telusdigital.com/search/jobs/in/country/chile?cfm5=AI+Community&ns_category=ai-community%3Fintcmp%3Dtelus-digital-site"
+        },
+        {
+          "claim": "Official Outlier opportunity page includes Chile in the eligible-country list for a Spanish coding AI-training role; the retrieved page does not prove assignment availability, age rules or realized earnings for a Chilean applicant.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Outlier expert opportunity with Chile eligibility",
+          "url": "https://app.outlier.ai/opportunities/4506395005"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.93,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_5016d861b9a03f752353",
+      "judge_reviewed": false,
+      "judgment": "critic_invalid_output",
+      "last_record_updated_at": "2026-11-14T00:40:28.429854+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Apply only through the official TELUS Digital Chile listing and complete the stated screening/onboarding using a Chilean address, stable computer and internet connection. Independently verify before accepting work: hourly/task rate, minimum age, tax or contractor requirements, payout method, payout timing, assessment pass conditions and whether work is currently allocated. Lowest-cost falsification: submit the free application and record whether the role is accepting Chile-based applications, then stop before any paid tool, deposit or subscription. Do not treat application acceptance as proof of income.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A qualified Chile-based applicant can test access to paid evaluation work without inventory, advertising spend or an application fee. This is an application and possible income channel, not verified income.",
+      "title": "Chile-eligible remote online data analyst applications",
+      "type": "paid_application_opportunity",
+      "unknowns": [],
+      "value_capture_mechanism": "Hourly or task-based compensation from the platform after acceptance, assessment, onboarding and completion of available assignments. The TELUS listing does not disclose a rate in the retrieved page; Outlier states rates vary and cites PayPal/AirTM for some projects.",
+      "verified_sales": null,
+      "vertical": "chile_localization",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-11-09T18:19:00.845720+00:00",
       "discovery_lens": "underserved_buyers",
       "estimated_capital": "",
@@ -13944,13 +14005,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-13T19:13:35.285127+00:00",
+  "generated_at": "2026-11-14T00:40:28.997863+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 113,
   "reviewed_cards": 89,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 311,
-  "watch": 198
+  "total_distinct_opportunities": 312,
+  "watch": 199
 }

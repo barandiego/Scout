@@ -1,10 +1,10 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-13T19:13:34.869639+00:00
+Generated: 2026-11-14T00:40:28.629767+00:00
 
 - outcome: DEGRADED_SUCCESS
 - ok: True
-- lenses: ['vertical_farming_economics', 'energy_localization', 'wildcard']
+- lenses: ['remote_paid_evaluation', 'inventoryless_product_validation', 'fixed_scope_paid_research_asset']
 - raw_candidates: 1
 - parseable_candidates: 1
 - normalized_candidates: 1
@@ -16,13 +16,13 @@ Generated: 2026-11-13T19:13:34.869639+00:00
 - critic_reviews: 1
 - judge_reviews: 0
 - survivors: 0
-- watches: 2
+- watches: 1
 - rejected: 0
 - errors_by_stage: {'critic': 1}
 - rejection_reasons: {}
-- cost_usd: 0.02932405
+- cost_usd: 0.02810705
 - cost_uncertain: False
-- budget_remaining_usd: 0.05067595
+- budget_remaining_usd: 0.05189295
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Parts, field-service and refill-station support around commercial agricultural robots: deferred_by_review_cap
 - Batch-inference cost arbitrage using interruptible GPU capacity: deferred_by_review_cap
 - Chile: NFC-enabled conversion kits for existing small merchants: deferred_by_review_cap
 - Chile: irrigation-kit retrofit and technical configuration for small farms and greenhouses: deferred_by_review_cap
@@ -51,12 +50,13 @@ No survivors. Scout does not manufacture a daily winner.
 - Chile robot-import commissioning and aftermarket wedge for mid-priced industrial robots: deferred_by_review_cap
 - NFC + QR review-and-menu plaques for independent restaurants and hospitality venues: There is a plausible payer and participation path: independent venue owners can buy a low-ticket, configured physical call-to-action asset, and a paid pilot/deposit test is feasible with little capital. The cited Chilean supplier listings substantiate that NFC/QR products and comparable price points exist. However, that evidence validates supply and commodity pricing—not incremental customer outcomes, sustainable margin, or recurring revenue. The proposed offer is highly substitutable with QR-only signage, existing menu/POS software, or local print/agency services. It survives only as a narrowly scoped, paid validation experiment focused on a single measurable job (for example, review acquisition or WhatsApp reservations), not as a supported scalable software or hardware thesis.
 - Congestion-screening and curtailment audit for Chilean PMGD solar projects: deferred_by_review_cap
+- Chile-eligible remote online data analyst applications: critic_invalid_output
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=backlog",
+    "deep_review_lane=fresh",
     "research_queue_unreviewed=99",
     "critic:invalid_decision"
   ],
@@ -66,36 +66,37 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 28,
+      "grounded_source_count": 29,
       "search_source_urls": [
-        "https://agris.fao.org/search/en/providers/122535/records/65df43b8b766d82b180100a7",
-        "https://apnews.com/article/28d360b3c8d7fa424892e23fe1c85c93",
-        "https://arxiv.org/abs/2507.18419",
-        "https://arxiv.org/abs/2510.03686",
-        "https://arxiv.org/abs/2606.27649",
-        "https://cartas.coordinador.cl/download_anexos/69404cd735635766073a7e4c/0",
-        "https://cartas.coordinador.cl/download_saved_file/679d39d4356357643fd4c550",
-        "https://en.wikipedia.org/wiki/Water_supply_and_sanitation_in_Chile",
-        "https://energia.gob.cl/mini-sitio/licitaciones",
-        "https://energia.gob.cl/node/24845",
-        "https://energia.gob.cl/node/25789",
-        "https://energia.gob.cl/noticias/coquimbo/seremi-de-energia-destaca-sistema-de-almacenamiento-con-baterias-del-parque-eolico-punta-de-talca-en-ovalle",
-        "https://energia.gob.cl/sites/default/files/documentos/reporte_de_proyectos_-_marzo_2026.pdf",
-        "https://time.com/6232722/chile-drought-evaporation-climate-change/",
-        "https://www.axios.com/2023/01/06/indoor-farming-small-scale-farmers",
-        "https://www.coordinador.cl/desarrollo/documentos/2025-estudio-de-verificacion-de-congestiones-en-transmision-zonal-por-inyeccion-de-pmgd/mayo-2025-estudio-de-verificacion-de-congestiones-en-transmision-zonal-por-inyeccion-de-pmgd/informe-final-mayo-2025/",
-        "https://www.coordinador.cl/wp-content/uploads/2025/05/Informe_Final_Congestiones_PMGD_Mayo.pdf",
-        "https://www.coordinador.cl/wp-content/uploads/2026/04/CEN-Reporte-Art-72-15-ano-2025-21-04-2026.pdf",
-        "https://www.coordinador.cl/wp-content/uploads/2026/04/Informe-Monitoreo-2025.pdf",
-        "https://www.coordinador.cl/wp-content/uploads/2026/04/Informe-Monitoreo-2025.pdf",
-        "https://www.countrylife.co.uk/gardens-interiors/farms-for-everyone-what-if-we-could-all-grow-our-own-produce-from-the-comfort-of-our-living-rooms",
-        "https://www.homesandgardens.com/gardens/walmart-pot-plant-hydroponic-growing-system",
-        "https://www.mdpi.com/2073-4395/12/12/3182",
-        "https://www.mdpi.com/2311-7524/12/8/972",
-        "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=fpuqbGpeKv6bN4xf82Vi4Q%3D%3D",
-        "https://www.mercadopublico.cl/Procurement/Modules/RFB/StepsProcessAward/PreviewAwardAct.aspx?qs=b3ihNL+fA892mE0GqyCBf7AOHVkkCnJtBqZpGriAleE%3D",
-        "https://www.sciencedirect.com/science/article/pii/S0196890425011707",
-        "https://www.sciencedirect.com/science/article/pii/S2213138824003540"
+        "https://aam.cl/wp-content/uploads/2022/05/Reporte-de-industria-Chile-2022_compressed.pdf",
+        "https://app.outlier.ai/opportunities/4506395005",
+        "https://app.outlier.ai/opportunities/4539865005",
+        "https://app.outlier.ai/opportunities/4705643005?agClickId=ab478462-2159-42c4-907b-473ac5e4044c&click_id=ab478462-2159-42c4-907b-473ac5e4044c&clickid=ab478462-2159-42c4-907b-473ac5e4044c&domain=Tier_1_generalist&jClickId=fc3d4798-2c61-466e-be96-46b554f4f0ee&jcid=fc3d4798-2c61-466e-be96-46b554f4f0ee&locale=en&pod=generalist",
+        "https://arxiv.org/abs/2411.04305",
+        "https://en.wikipedia.org/wiki/Shopee",
+        "https://es.wikipedia.org/wiki/MercadoLibre",
+        "https://es.wikipedia.org/wiki/Shopee",
+        "https://es.wikipedia.org/wiki/Walmart_Chile",
+        "https://jobs.telusdigital.com/jobs/18154786-online-data-analyst-chile",
+        "https://jobs.telusdigital.com/search/cfm3/spanish/jobs/in/country/chile-spain?ns_category=artificial-intelligence",
+        "https://jobs.telusdigital.com/search/jobs/in/country/chile-spain?ns_category=artificial-intelligence",
+        "https://jobs.telusdigital.com/search/jobs/in/country/chile?cfm5=AI+Community&ns_category=ai-community%3Fintcmp%3Dtelus-digital-site",
+        "https://outlier.ai/coding/es-419?ajs=6c262a2f-e0d1-4aad-8dee-f18da52c03ed&domain=tier_2_coder&jClickId=33f7900d-5e65-4b27-ac6d-76c615c046fc&jcid=33f7900d-5e65-4b27-ac6d-76c615c046fc&locale=ES&pod=coders&user_agent=Mozilla%2F5.0",
+        "https://paymentscmi.com/e-commerce-infographics/2025_PCMI_Chile-E-commerce-Data-Portrait_EN.pdf",
+        "https://teclazo.com/trending/cl",
+        "https://www.aam.cl/wp-content/uploads/2022/05/Reporte-de-industria-Chile-2022_compressed.pdf",
+        "https://www.cencosud.com/cencosud/site/docs/20220604/20220604135336/citi_s_gems_sep22_esp.pdf",
+        "https://www.cencosud.com/cencosud/site/docs/20220604/20220604135336/jpmorgan_eme_credit_conference_eng.pdf",
+        "https://www.cepal.org/sites/default/files/news/files/chile_2023.pdf",
+        "https://www.dropdata.app/productos-ganadores-dropi/chile",
+        "https://www.rank.cl/blog/productos-mas-vendidos-internet-chile-2026/",
+        "https://www.reddit.com/r/AskChile/comments/1plpmdq/que_puedo_vender/",
+        "https://www.reddit.com/r/FinanzasChile/comments/1ua8z50/de_d%C3%B3nde_saca_la_gente_de_marketplace_stock_tan/",
+        "https://www.reddit.com/r/RepublicadeChile/comments/1hh74ha",
+        "https://www.reddit.com/r/RepublicadeChile/comments/1wcokuc/las_ventas_andan_mal/",
+        "https://www.reddit.com/r/chile/comments/1ax2jt2",
+        "https://www.reddit.com/r/chile/comments/1trp1b1/precios_din%C3%A1micos_en_mercado_libre/",
+        "https://www.trade.gov/country-commercial-guides/chile-ecommerce"
       ]
     },
     {
@@ -115,76 +116,46 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_63db3fa3330ccbc1a03e",
+      "candidate_id": "opp_5016d861b9a03f752353",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 34,
-      "search_source_urls": [
-        "https://arxiv.org/abs/2508.14231",
-        "https://arxiv.org/abs/2603.04259",
-        "https://arxiv.org/abs/2608.07538",
-        "https://arxiv.org/abs/2609.04667",
-        "https://en.wikipedia.org/wiki/AI_agent",
-        "https://en.wikipedia.org/wiki/AI_agent_benchmark",
-        "https://en.wikipedia.org/wiki/Jaggaer",
-        "https://en.wikipedia.org/wiki/OpenAI_rogue_agent_breach_of_Hugging_Face",
-        "https://en.wikipedia.org/wiki/Spend_analysis",
-        "https://github.com/KbWen/agent-field-notes/blob/main/README.md",
-        "https://github.com/LaureanoPacheco/ai-agent-incidents",
-        "https://github.com/emmanuelgjr/genai_incidents",
-        "https://github.com/kindrat86/ai-agent-spending-incidents/blob/main/data/incidents.jsonl",
-        "https://github.com/paolodm/ai-coding-agents-incidents",
-        "https://github.com/paolodm/ai-coding-agents-incidents/blob/main/data/incidents.json",
-        "https://github.com/pvinnbru/ChainIQ-START-Hack-2026",
-        "https://github.com/swarmproof/agent-postmortems/blob/main/README.md",
-        "https://github.com/topics/ai-incidents",
-        "https://info.ivalua.com/hubfs/The%20Hackett%20Group-%202026%20Procurement%20Agenda%20and%20Key%20Issues%20Study%20Results.pdf",
-        "https://info.ivalua.com/hubfs/UK%20Agentic%20AI%20Research/WP-UK-2025-Ivalua%20AI%20Research-Final.pdf",
-        "https://insights.economistenterprise.com/projects/next-gen-supply-chains/images/articles/2025/GEP5-BriefingPaper1_A4_final.pdf",
-        "https://knowledge.dataiku.com/latest/solutions/manufacturing-energy/solution-supplier-management-assistant.html",
-        "https://kpmg.com/kpmg-us/content/dam/kpmg/pdf/2023/unleashing-power-gen-ai-in-procurement.pdf",
-        "https://runcycles.io/pdfs/state-of-ai-agent-incidents-2026.pdf",
-        "https://www.growcfo.net/wp-content/uploads/2026/05/Spend_Management_AP_Tech_Innovation_Report_2026_Final_White_Paper.pdf",
-        "https://www.itpro.com/security/ai-agents-have-a-mind-of-their-own-and-thats-a-problem-for-businesses",
-        "https://www.itpro.com/security/security-leaders-are-embracing-ai-in-the-soc-but-trust-is-still-lacking",
-        "https://www.itpro.com/technology/artificial-intelligence/cios-and-ctos-are-making-high-stakes-decisions-with-incomplete-information-ibm-survey-reveals",
-        "https://www.itpro.com/technology/artificial-intelligence/how-to-benchmark-ai-budgets-to-optimize-roi",
-        "https://www.mckinsey.com/capabilities/operations/our-insights/agentic-ai-in-strategic-sourcing-hype-or-hero",
-        "https://www.techradar.com/pro/a-scramble-for-visibility-and-control-as-spend-surges-less-than-a-third-of-organizations-know-what-their-ai-software-spend-is",
-        "https://www.techradar.com/pro/how-to-build-enterprise-resilience-in-the-face-of-growing-ai-risk",
-        "https://www.techradar.com/pro/why-agentic-ai-demands-a-new-approach-to-enterprise-security",
-        "https://www.vertice.one/l/ai-in-procurement-the-reality"
-      ]
+      "grounded_source_count": 0,
+      "search_source_urls": []
+    },
+    {
+      "stage": "critic",
+      "candidate_id": "opp_5016d861b9a03f752353",
+      "coercions": []
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 341,
-      "cache_write_tokens": 5475,
+      "reasoning_tokens": 118,
+      "cache_write_tokens": 4958,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01427395,
+      "cumulative_cost_usd": 0.0138207,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13647,
+      "input_tokens": 13502,
       "cached_tokens": 0,
-      "output_tokens": 1059,
+      "output_tokens": 727,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01427395
+      "estimated_cost_usd": 0.0138207
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 156,
-      "cache_write_tokens": 5282,
+      "reasoning_tokens": 188,
+      "cache_write_tokens": 5419,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02932405,
+      "cumulative_cost_usd": 0.02810705,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13736,
+      "input_tokens": 13855,
       "cached_tokens": 0,
-      "output_tokens": 1699,
+      "output_tokens": 1037,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0150501
+      "estimated_cost_usd": 0.01428635
     }
   ]
 }

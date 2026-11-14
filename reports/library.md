@@ -1,10 +1,10 @@
 # Scout — opportunity library
 
-Generated: 2026-11-13T19:13:35.285127+00:00
+Generated: 2026-11-14T00:40:28.997863+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 198 (0 HQ survivors, 198 watches)
+- Active research: 199 (0 HQ survivors, 199 watches)
 - Rejected opportunities excluded: 113
 - Critic-and-judge reviewed: 89
 - Autonomous execution authorization: 0
@@ -992,6 +992,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/prensa/625/w4-article-113897.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html
+
+### Chile-eligible remote online data analyst applications [opp_5016d861b9a03f752353]
+- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
+- Thesis: A qualified Chile-based applicant can test access to paid evaluation work without inventory, advertising spend or an application fee. This is an application and possible income channel, not verified income.
+- Value capture: Hourly or task-based compensation from the platform after acceptance, assessment, onboarding and completion of available assignments. The TELUS listing does not disclose a rate in the retrieved page; Outlier states rates vary and cites PayPal/AirTM for some projects.
+- Participation hypothesis: Apply only through the official TELUS Digital Chile listing and complete the stated screening/onboarding using a Chilean address, stable computer and internet connection. Independently verify before accepting work: hourly/task rate, minimum age, tax or contractor requirements, payout method, payout timing, assessment pass conditions and whether work is currently allocated. Lowest-cost falsification: submit the free application and record whether the role is accepting Chile-based applications, then stop before any paid tool, deposit or subscript
+- Critic/judge: critic_invalid_output
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://jobs.telusdigital.com/jobs/18154786-online-data-analyst-chile; https://jobs.telusdigital.com/search/jobs/in/country/chile?cfm5=AI+Community&ns_category=ai-community%3Fintcmp%3Dtelus-digital-site; https://app.outlier.ai/opportunities/4506395005
 
 ### Chile: irrigation-kit retrofit and technical configuration for small farms and greenhouses [opp_82838b5800630d925c53]
 - Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile

@@ -189,6 +189,43 @@
       "category": "chile_localization",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Apply only through the official TELUS Digital Chile listing and complete the stated screening/onboarding using a Chilean address, stable computer and internet connection. Independently verify before accepting work: hourly/task rate, minimum age, tax or contractor requirements, payout method, payout timing, assessment pass conditions and whether work is currently allocated. Lowest-cost falsification: submit the free application and record whether the role is accepting Chile-based applications, then stop before any paid tool, deposit or subscription. Do not treat application acceptance as proof of income.",
+      "current_thesis": "A qualified Chile-based applicant can test access to paid evaluation work without inventory, advertising spend or an application fee. This is an application and possible income channel, not verified income.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile-eligible remote online data analyst applications",
+      "opportunity_id": "opp_5016d861b9a03f752353",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Find the smallest Chilean workflow whose economics differ from the original geography.",
+        "Secure lawful access, partners and after-sales support rather than copy protected technology.",
+        "Run a buyer interview or mock listing to falsify assumptions before capital commitment."
+      ],
+      "supporting_source_urls": [
+        "https://jobs.telusdigital.com/jobs/18154786-online-data-analyst-chile",
+        "https://jobs.telusdigital.com/search/jobs/in/country/chile?cfm5=AI+Community&ns_category=ai-community%3Fintcmp%3Dtelus-digital-site",
+        "https://app.outlier.ai/opportunities/4506395005"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Hourly or task-based compensation from the platform after acceptance, assessment, onboarding and completion of available assignments. The TELUS listing does not disclose a rate in the retrieved page; Outlier states rates vary and cites PayPal/AirTM for some projects.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "chile_localization",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Falsification test: select one crop or greenhouse application and build a costed prototype from currently listed components; publish the bill of materials and a before/after measurement plan; approach three local growers or irrigation contractors identified through public directories and request permission for a small pilot. Do not install or claim access without written permission. Check ChileCompra/CNR procurement notices and agricultural-program eligibility before pursuing public-sector sales. A first paid transaction can be tested through MercadoLibre or direct quotation, using the displayed product prices only as procurement references.",
       "current_thesis": "The executable wedge is not generic agricultural consulting: assemble and configure a small, documented retrofit for one crop block, greenhouse or pump zone using locally purchasable drip components, a timer/controller and optional flow or energy monitoring. The payer would plausibly be a small grower, greenhouse operator, landscaping contractor or irrigation installer; no specific buyer or willingness to pay is established by the evidence.",
       "founder_hours_initial_unverified_estimate": "",
@@ -7541,7 +7578,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-13T19:13:35.426079+00:00",
+  "generated_at": "2026-11-14T00:40:29.130886+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

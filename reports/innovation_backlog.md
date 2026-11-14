@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 198
+Candidates: 199
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -63,6 +63,18 @@ Candidates: 198
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.sii.cl/destacados/iva_bienes/; https://www.aduanadechile.gov.cl/aduana/site/docs/20250627/20250627110135/cuenta_publica_2025_gestion_2024_1.pdf
+
+## Chile-eligible remote online data analyst applications
+- Status: watch | chile_localization
+- Current idea: A qualified Chile-based applicant can test access to paid evaluation work without inventory, advertising spend or an application fee. This is an application and possible income channel, not verified income.
+- Potential economic capture: Hourly or task-based compensation from the platform after acceptance, assessment, onboarding and completion of available assignments. The TELUS listing does not disclose a rate in the retrieved page; Outlier states rates vary and cites PayPal/AirTM for some projects.
+- **Research routes to test (NOT validated claims):**
+  - Find the smallest Chilean workflow whose economics differ from the original geography.
+  - Secure lawful access, partners and after-sales support rather than copy protected technology.
+  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://jobs.telusdigital.com/jobs/18154786-online-data-analyst-chile; https://jobs.telusdigital.com/search/jobs/in/country/chile?cfm5=AI+Community&ns_category=ai-community%3Fintcmp%3Dtelus-digital-site; https://app.outlier.ai/opportunities/4506395005
 
 ## Chile: irrigation-kit retrofit and technical configuration for small farms and greenhouses
 - Status: watch | chile_localization
