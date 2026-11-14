@@ -1803,6 +1803,98 @@
       "ai_leverage": "",
       "authorized_for_execution": false,
       "contrary_evidence": [
+        "There is genuine system-level demand: Chile had approximately 3,688 MW of installed PMGD capacity at the end of 2025, and the national system has reported distribution and zonal congestion plus limited visibility of PMGD assets. The updated 2026 technical standard expressly addresses PMGD with storage, including restricted injection blocks and monitoring, which validates that storage-control integration is a real regulatory problem. Chile is also deploying substantial storage and transmission infrastructure, and the Ministry has identified storage, connection procedures, valuation, curtailment, and operating rules as regulatory issues. These facts support the existence of a problem, but they do not establish that a small independent analyst can access customers or capture attractive economics. Sources: https://www.coordinador.cl/wp-content/uploads/2026/04/Informe-Monitoreo-2025.pdf ; https://www.cne.cl/wp-content/uploads/2026/02/2026.02.19_NTCO-PMGD-2026.pdf ; https://energia.gob.cl/node/26414 ; https://iea.blob.core.windows.net/assets/88bb4abe-0308-42f9-a46f-c776a9528522/Electricity_2026.pdf"
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-20T12:26:32.656475+00:00",
+      "discovery_lens": "energy_localization",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Chile's Ministry of Energy describes proposed changes covering storage operation and valuation, PMGD monitoring, curtailment, connection procedures and price mechanisms.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Ministry of Energy — proposed modifications to DS 88",
+          "url": "https://energia.gob.cl/consultas-publicas/modificaciones-al-reglamento-ds-ndeg88-para-medios-de-generacion-de-pequena-escala"
+        },
+        {
+          "claim": "The IEA identifies Chilean solar surpluses, infrastructure limits, curtailment and deployment of storage and grid expansion as relevant system issues.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "IEA — Renewables 2025",
+          "url": "https://iea.blob.core.windows.net/assets/48eccb83-984c-45d2-bf78-67a61e88d241/Renewables2025.pdf"
+        },
+        {
+          "claim": "Since February 2025, customers with connected power above 300 kW may voluntarily choose the free-customer regime, creating a verifiable population for tariff and flexibility screening.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Ministry of Energy — reduced threshold for free customers",
+          "url": "https://energia.gob.cl/iniciativas/rebaja-del-umbral-para-optar-al-regimen-de-clientes-libres"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.69,
+      "falsification_conditions": [
+        "After contacting at least 20 qualified Chilean site owners or operators, fewer than 3 provide sufficient data for analysis or agree to a substantive discovery process.",
+        "Among at least 5 data-authorized sites, none has a quantifiable curtailment, peak-demand, export, connection, or tariff problem that storage and control could materially address.",
+        "No customer agrees to pay for the screening package, or the maximum acceptable price is below fully loaded delivery and customer-acquisition cost.",
+        "The modeled annual benefit is insufficient to cover the screening fee plus the cost of subsequent engineering, permitting, interconnection, and implementation studies.",
+        "A competent incumbent offers an equivalent or superior package at a price or access advantage that prevents defensible differentiation.",
+        "Regulatory or distributor requirements make the package non-actionable without a full engineering and interconnection study that customers will not separately fund.",
+        "The opportunity depends primarily on future DS 88 changes that are delayed, rejected, materially altered, or provide no usable customer-level economic benefit.",
+        "At least two-thirds of qualified prospects state that storage decisions are handled by existing EPC, O&M, aggregator, or internal teams and will not be outsourced."
+      ],
+      "geography": "Chile",
+      "id": "opp_3fc8fe5d5af829de71b9",
+      "judge_reviewed": true,
+      "judgment": "This survives as HQ-worthy research only: a vendor-neutral, fixed-scope screening service for identifiable PMGD owners or >300 kW commercial/industrial loads is a narrower and more credible wedge than an unsupported battery-asset thesis. Primary-source evidence supports a real Chilean problem set—curtailment, distribution/zonal constraints, storage-related connection/operating rules, and a potential free-customer population. The proposed product appropriately does not treat vendor performance, future regulation, or system demand as bankable project returns. However, no named customer/operator, paid mandate, reachable data source, pricing, delivery cost, or validated willingness to pay exists. The likely value beneficiaries may already be served by EPCs, developers, O&M providers, aggregators, or internal teams; and PMGD storage may require new connection applications, studies, monitoring, and operating restrictions that make a lightweight study non-actionable. Keep at watch pending customer-access and paid-pilot evidence, not as an investable storage deployment case.",
+      "last_record_updated_at": "2026-11-14T11:14:09.739541+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Whether identifiable Chilean PMGD, commercial, or industrial sites will provide interval generation, consumption, tariff, and connection data to an external provider.",
+        "The number of sites with curtailment or connection constraints that can actually be improved by behind-the-meter or co-located storage rather than by network reinforcement or operating restrictions.",
+        "Customer willingness to pay for a fixed-scope screening package and the achievable price.",
+        "Whether modeled benefits survive battery degradation, round-trip losses, demand charges, tariff changes, charging constraints, and regulatory restrictions.",
+        "Whether the package requires licensed electrical engineering, local legal expertise, distributor coordination, or professional liability coverage beyond the proposed scope."
+      ],
+      "participation_path": "Select 5 identifiable Chilean PMGD, commercial or industrial sites with public contact channels and ask for 12 months of interval consumption/generation data plus tariff and connection information. Produce one paid or explicitly authorized no-cost screening only if the site owner agrees that the output is for internal evaluation. Falsify if data cannot be obtained, if no site has a measurable dispatch or connection problem, or if modeled value cannot cover the cost of a later engineering study. Do not claim regulatory approval, battery savings, grid access or a customer mandate before verification.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A narrow opportunity exists to sell a site-specific storage-and-control pre-feasibility package to existing distributed-generation or high-load sites, focused on identifying whether storage can reduce curtailment, shift consumption or improve connection economics. This is an evidence-backed market-participation test, not proof that a battery project will pay back.",
+      "title": "Small-scale storage and control feasibility wedge for Chilean distributed generators",
+      "type": "regulatory_market_entry",
+      "unknowns": [
+        "Whether identifiable Chilean PMGD, commercial, or industrial sites will provide interval generation, consumption, tariff, and connection data to an external provider.",
+        "The number of sites with curtailment or connection constraints that can actually be improved by behind-the-meter or co-located storage rather than by network reinforcement or operating restrictions.",
+        "Customer willingness to pay for a fixed-scope screening package and the achievable price.",
+        "Whether modeled benefits survive battery degradation, round-trip losses, demand charges, tariff changes, charging constraints, and regulatory restrictions.",
+        "Whether the package requires licensed electrical engineering, local legal expertise, distributor coordination, or professional liability coverage beyond the proposed scope.",
+        "Customer acquisition cost and access to decision-makers at PMGD owners and high-load sites.",
+        "Competitive offerings from EPCs, storage developers, energy consultants, aggregators, distributors, and generators.",
+        "Whether the February 2026 technical standard or subsequent DS 88 changes create stable rules or continuing regulatory transition risk.",
+        "Whether storage changes eligibility for price-stabilization mechanisms or otherwise worsens project economics for existing PMGDs.",
+        "Expected gross margin, delivery hours, sales cycle, repeatability, and conversion from screening to paid engineering or implementation work.",
+        "Which named PMGD owners, industrial operators, or commercial loads have both a material constraint and authority to buy external analysis.",
+        "Whether at least 20 qualified prospects will engage and at least 3 will share sufficient data or fund substantive discovery.",
+        "Whether at least five authorized site models show a benefit that survives conservative battery, installation, permitting, interconnection, degradation, and financing assumptions.",
+        "Required professional licensing, local engineering sign-off, insurance, and legal/regulatory support for outputs that customers can use in a connection or investment decision.",
+        "Package price, sales cycle, gross margin, repeatability, conversion to follow-on work, and customer-acquisition cost.",
+        "Whether a site can participate in the relevant tariff/export/price-stabilization and storage arrangements without destroying the purported benefit."
+      ],
+      "value_capture_mechanism": "Charge for a fixed-scope measurement and decision package: interval-load analysis, export/curtailment scenario model, preliminary battery sizing, connection/regulatory checklist and vendor-neutral request-for-quotation specification. Hardware sales, financing, savings and project margins remain unknown.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [
         "WESCO reported Q2 2026 data-center sales of approximately $1.5 billion, up approximately 45% year over year, record total backlog up approximately 60%, record adjusted EBITDA up 24%, and raised its 2026 outlook. Source: https://www.sec.gov/Archives/edgar/data/929008/000092900826000021/wcc-2q2026earnings.htm",
         "ERock reported a 470 MW Anthropic equipment purchase order, approximately $1.7 billion of contracted backlog, no outstanding debt, and $626.6 million of unrestricted cash at June 30, 2026. Source: https://www.sec.gov/Archives/edgar/data/2110029/000119312526344714/eroc-ex99_1.htm",
         "Ameresco reported record Q2 new project awards of $1.8 billion, total backlog of $6.73 billion, six advanced data-center power plants, and more than 1 GW of firm generation capacity under development. Source: https://www.sec.gov/Archives/edgar/data/1488139/000162828026051825/amerescoq22026supplement.htm",
@@ -8154,6 +8246,67 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-14T11:13:44.574919+00:00",
+      "discovery_lens": "geographic_arbitrage",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Since October 25, 2025, VAT applies to remote sales of goods up to US$500; registered platforms collect 19% VAT at purchase and provide simplified treatment.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "IVA Bienes: registered platforms and VAT treatment for remote sales",
+          "url": "https://www.sii.cl/destacados/iva_bienes/plataformas_inscritas/"
+        },
+        {
+          "claim": "Cross-border platforms including AliExpress, Shein, Amazon, and Temu are significant channels for Chilean online purchases, and Chile has e-commerce transparency requirements.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Chile eCommerce country commercial guide",
+          "url": "https://www.trade.gov/country-commercial-guides/chile-ecommerce"
+        },
+        {
+          "claim": "The FNE identifies platform mechanisms affecting prices, product visibility, and complementary services, and recommends greater marketplace transparency.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "FNE preliminary report on the e-commerce market",
+          "url": "https://www.fne.gob.cl/en/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-plataformas/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.84,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_f076198c0ec1bc8f3168",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-14T11:13:44.690198+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Choose one category with standardized SKUs and observable prices, such as replacement parts or specialist tools. Manually collect 30 foreign and Chilean listings, calculate all-in landed prices using the SII VAT rules, and publish a simple comparison page or spreadsheet. Test distribution through category-specific communities and search ads with a strict spending cap. Falsify if fewer than five of 30 items show a meaningful verified price or availability difference after VAT and shipping, or if users do not request links/quotes. Use only registered marketplaces or clearly disclose that the operator is not the seller, importer, or warranty provider.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A narrow tool that compares foreign listings on an all-in Chilean basis—VAT treatment, shipping, delivery, returns, warranty, and local alternatives—could reduce purchase friction for a defined product category. The opportunity is not generic dropshipping: it is a price-and-risk comparison or procurement workflow where the buyer can verify the final payable amount before purchase.",
+      "title": "Chile cross-border landed-cost and product-compliance layer for sub-US$500 imports",
+      "type": "transactional_data_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Affiliate or referral revenue where a platform permits it, paid lead generation, or a buyer-paid sourcing fee. No margin or conversion rate should be assumed until a live category test demonstrates that the all-in comparison changes purchasing behavior.",
+      "verified_sales": null,
+      "vertical": "chile_localization",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-26T09:42:45.353816+00:00",
       "discovery_lens": "regulation_infrastructure",
       "estimated_capital": "",
@@ -9488,67 +9641,6 @@
       "value_capture_mechanism": "Charge for a fixed-scope technical readiness assessment or implementation package only after identifying an entity that is permitted to participate and confirms a concrete integration need. Do not handle financial credentials, provide regulated advice or represent regulatory approval.",
       "verified_sales": null,
       "vertical": "open_finance_chile",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
-      "discovered_at": "2026-10-20T12:26:32.656475+00:00",
-      "discovery_lens": "energy_localization",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "Chile's Ministry of Energy describes proposed changes covering storage operation and valuation, PMGD monitoring, curtailment, connection procedures and price mechanisms.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Ministry of Energy — proposed modifications to DS 88",
-          "url": "https://energia.gob.cl/consultas-publicas/modificaciones-al-reglamento-ds-ndeg88-para-medios-de-generacion-de-pequena-escala"
-        },
-        {
-          "claim": "The IEA identifies Chilean solar surpluses, infrastructure limits, curtailment and deployment of storage and grid expansion as relevant system issues.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "IEA — Renewables 2025",
-          "url": "https://iea.blob.core.windows.net/assets/48eccb83-984c-45d2-bf78-67a61e88d241/Renewables2025.pdf"
-        },
-        {
-          "claim": "Since February 2025, customers with connected power above 300 kW may voluntarily choose the free-customer regime, creating a verifiable population for tariff and flexibility screening.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Ministry of Energy — reduced threshold for free customers",
-          "url": "https://energia.gob.cl/iniciativas/rebaja-del-umbral-para-optar-al-regimen-de-clientes-libres"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.69,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_3fc8fe5d5af829de71b9",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-20T12:26:32.688926+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Select 5 identifiable Chilean PMGD, commercial or industrial sites with public contact channels and ask for 12 months of interval consumption/generation data plus tariff and connection information. Produce one paid or explicitly authorized no-cost screening only if the site owner agrees that the output is for internal evaluation. Falsify if data cannot be obtained, if no site has a measurable dispatch or connection problem, or if modeled value cannot cover the cost of a later engineering study. Do not claim regulatory approval, battery savings, grid access or a customer mandate before verification.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "A narrow opportunity exists to sell a site-specific storage-and-control pre-feasibility package to existing distributed-generation or high-load sites, focused on identifying whether storage can reduce curtailment, shift consumption or improve connection economics. This is an evidence-backed market-participation test, not proof that a battery project will pay back.",
-      "title": "Small-scale storage and control feasibility wedge for Chilean distributed generators",
-      "type": "regulatory_market_entry",
-      "unknowns": [],
-      "value_capture_mechanism": "Charge for a fixed-scope measurement and decision package: interval-load analysis, export/curtailment scenario model, preliminary battery sizing, connection/regulatory checklist and vendor-neutral request-for-quotation specification. Hardware sales, financing, savings and project margins remain unknown.",
-      "verified_sales": null,
-      "vertical": "energy_infrastructure",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -13034,6 +13126,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-14T11:13:44.573610+00:00",
+      "discovery_lens": "ai_open_source",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The CMF published technical specifications, a developer portal, testing mechanisms, and postponed SFA entry into force to July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF modifies regulation governing the Open Finance System and incorporates technical annex",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        },
+        {
+          "claim": "ATENA enables institutions to test integrations, directory interoperability, and business models before the July 2027 SFA start date.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF launches ATENA Technological Sandbox for implementation of the Open Finance System",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.92,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_dacac3f2afd4b7afe5ef",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-14T11:13:44.689901+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Build a minimal synthetic-data adapter and conformance checklist for one SFA participant category using the CMF technical annex and publicly available developer materials. Apply for or request access to the ATENA testing environment through the official CMF process, then run a low-cost discovery test with one identifiable Chilean fintech, payment provider, or financial institution found through public participant directories or industry contacts. Falsify by checking whether the target category has accessible test documentation, whether the sandbox can be used by an independent developer, and whether three potential users will review the test output or pay for a narrowly defined pilot. Do not represent the prototype as CMF-approved compliance.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Financial institutions and smaller prospective participants can begin testing interoperability, directory integration, payment initiation, and technical compliance before the mandatory regime starts. The opportunity is narrower than general fintech consulting: a reusable test harness, conformance checklist, synthetic-data fixtures, and automated evidence pack for one defined participant type.",
+      "title": "Pre-compliance integration testing for Chile’s Open Finance System",
+      "type": "regulatory-enablement_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell a fixed-scope testing asset or paid pilot that produces reproducible ATENA test results, integration defects, and documentation. A small operator should not assume authorization, certification, or recurring compliance revenue; the immediately testable value is reducing engineering rework before registration and production integration.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-24T08:38:52.199100+00:00",
       "discovery_lens": "fixed_scope_paid_research_asset",
       "estimated_capital": "",
@@ -13952,6 +14098,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-14T11:13:44.576089+00:00",
+      "discovery_lens": "ai_open_source",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The paper formalizes uncertainty-aware resource reservation for agentic pipelines and reports approximately half the resource waste of a Chebyshev-bound baseline in simulations.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Uncertainty-Aware Resource Orchestration for Agentic AI Systems",
+          "url": "https://arxiv.org/abs/2611.05392"
+        },
+        {
+          "claim": "A separate 2026 paper evaluates uncertainty signals for adaptive orchestration decisions such as verification, reprompting, and confidence-aware selection.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Semantic Uncertainty-Guided Orchestration in Hierarchical Multi-Agent Systems",
+          "url": "https://arxiv.org/abs/2608.14707"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.69,
+      "falsification_conditions": [],
+      "geography": "Global, initially cloud-native software teams",
+      "id": "opp_e11d955a445b8052f051",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-14T11:13:44.690410+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Reimplement the paper’s trace-based reservation method against a small workload suite using an open-source agent framework and one cloud provider. Compare cost, latency, deadline failures, and over-reservation against a fixed-budget baseline. Falsify if the method does not reproduce an improvement on realistic workloads or if the savings are below the cost of instrumentation. Only after a reproducible result should the operator seek a design-partner trial; do not claim production guarantees from simulation results.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The evidence supports a testable engineering wedge—an open-source middleware or benchmark that records agent execution traces, predicts resource requirements, and routes workloads to cheaper or safer execution tiers. It does not yet prove customer willingness to pay, production savings, or a marketable standalone company.",
+      "title": "Uncertainty-gated compute allocation benchmark for agentic workloads",
+      "type": "open_source_infrastructure_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Potential value would come from paid deployment support, hosted observability, or cloud-cost savings shared with a customer, but none should be treated as established. The immediate asset is a reproducible benchmark and integration plugin for one agent framework.",
+      "verified_sales": null,
+      "vertical": "innovation_adoption",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-26T23:34:33.082430+00:00",
       "discovery_lens": "cost_curve",
       "estimated_capital": "",
@@ -14005,13 +14205,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-14T00:40:28.997863+00:00",
+  "generated_at": "2026-11-14T11:14:10.458063+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 113,
-  "reviewed_cards": 89,
+  "reviewed_cards": 90,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 312,
-  "watch": 199
+  "total_distinct_opportunities": 315,
+  "watch": 202
 }

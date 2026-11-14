@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-11-14T00:40:28.997863+00:00",
+  "generated_at": "2026-11-14T11:14:10.458063+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -21,7 +21,7 @@
     },
     {
       "opportunity_id": "opp_f26e42aaabb91e157f9d",
-      "other_cards_in_theme": 80,
+      "other_cards_in_theme": 81,
       "reviewed": true,
       "status": "watch",
       "theme": "chile_open_finance",
@@ -50,6 +50,14 @@
       "status": "watch",
       "theme": "energy_infrastructure:sec_verified_solar",
       "title": "SEC-verified solar-plus-storage prequalification for Chilean small businesses"
+    },
+    {
+      "opportunity_id": "opp_3fc8fe5d5af829de71b9",
+      "other_cards_in_theme": 0,
+      "reviewed": true,
+      "status": "watch",
+      "theme": "energy_infrastructure:small_scale_storage",
+      "title": "Small-scale storage and control feasibility wedge for Chilean distributed generators"
     },
     {
       "opportunity_id": "opp_36a79f45b8a96526d2d1",
@@ -90,28 +98,20 @@
       "status": "watch",
       "theme": "general:cms_advancing_standardized",
       "title": "CMS is advancing standardized payer APIs and interoperability requirements"
-    },
-    {
-      "opportunity_id": "opp_9806dd7c2bc14a3373b4",
-      "other_cards_in_theme": 2,
-      "reviewed": true,
-      "status": "watch",
-      "theme": "data_center_infrastructure",
-      "title": "AI and data-center growth are making electricity and grid access a binding cost constraint"
     }
   ],
   "headline_count": 12,
   "high_concentration": [
     {
-      "cards": 81,
-      "share": 0.407,
+      "cards": 82,
+      "share": 0.406,
       "theme": "chile_open_finance"
     }
   ],
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 84,
+  "theme_count": 86,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -195,9 +195,10 @@
         "opp_c366907d1ef716224e2e",
         "opp_fb2b1dbf170f67d62605",
         "opp_3e2ab2a491f84a0e4236",
-        "opp_39c7ecad0f54d46c3dea"
+        "opp_39c7ecad0f54d46c3dea",
+        "opp_dacac3f2afd4b7afe5ef"
       ],
-      "count": 81,
+      "count": 82,
       "representative_id": "opp_f26e42aaabb91e157f9d",
       "reviewed_count": 50,
       "theme": "chile_open_finance"
@@ -326,6 +327,15 @@
       "representative_id": "opp_88d1129cd5cb0236b936",
       "reviewed_count": 0,
       "theme": "chile_localization:cnr_qualified_irrigation"
+    },
+    {
+      "all_opportunity_ids": [
+        "opp_f076198c0ec1bc8f3168"
+      ],
+      "count": 1,
+      "representative_id": "opp_f076198c0ec1bc8f3168",
+      "reviewed_count": 0,
+      "theme": "chile_localization:cross_border_landed"
     },
     {
       "all_opportunity_ids": [
@@ -567,7 +577,7 @@
       ],
       "count": 1,
       "representative_id": "opp_3fc8fe5d5af829de71b9",
-      "reviewed_count": 0,
+      "reviewed_count": 1,
       "theme": "energy_infrastructure:small_scale_storage"
     },
     {
@@ -779,6 +789,15 @@
     },
     {
       "all_opportunity_ids": [
+        "opp_e11d955a445b8052f051"
+      ],
+      "count": 1,
+      "representative_id": "opp_e11d955a445b8052f051",
+      "reviewed_count": 0,
+      "theme": "innovation_adoption:uncertainty_gated_compute"
+    },
+    {
+      "all_opportunity_ids": [
         "opp_4ac887930a777d12d31b"
       ],
       "count": 1,
@@ -985,6 +1004,6 @@
       "theme": "robotics_agritech:water_efficiency_field"
     }
   ],
-  "total_original_cards": 199,
+  "total_original_cards": 202,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }

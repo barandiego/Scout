@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-11-14T00:40:28.997863+00:00
+Generated: 2026-11-14T11:14:10.458063+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 199 (0 HQ survivors, 199 watches)
+- Active research: 202 (0 HQ survivors, 202 watches)
 - Rejected opportunities excluded: 113
-- Critic-and-judge reviewed: 89
+- Critic-and-judge reviewed: 90
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -202,6 +202,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Whether small Chilean businesses will pay directly for a pre-feasibility report rather than obtain a free installer quote.; Whether authorized installers experience enough wasted sales and engineering effort to justify outsourcing lead qualification.; The number, geographic distribution, and commercial accessibility of SEC-listed installers willing to participate.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sec.cl/gda/; https://www.sec.cl/plataformas-ernc/; https://energia.gob.cl/sites/default/files/documentos/sistemas-de-almacenamiento_web.pdf
+
+### Small-scale storage and control feasibility wedge for Chilean distributed generators [opp_3fc8fe5d5af829de71b9]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile
+- Thesis: A narrow opportunity exists to sell a site-specific storage-and-control pre-feasibility package to existing distributed-generation or high-load sites, focused on identifying whether storage can reduce curtailment, shift consumption or improve connection economics. This is an evidence-backed market-participation test, not proof that a battery project will pay back.
+- Value capture: Charge for a fixed-scope measurement and decision package: interval-load analysis, export/curtailment scenario model, preliminary battery sizing, connection/regulatory checklist and vendor-neutral request-for-quotation specification. Hardware sales, financing, savings and project margins remain unknown.
+- Participation hypothesis: Select 5 identifiable Chilean PMGD, commercial or industrial sites with public contact channels and ask for 12 months of interval consumption/generation data plus tariff and connection information. Produce one paid or explicitly authorized no-cost screening only if the site owner agrees that the output is for internal evaluation. Falsify if data cannot be obtained, if no site has a measurable dispatch or connection problem, or if modeled value cannot cover the cost of a later engineering study. Do not claim regulatory approval, battery savings,
+- Critic/judge: This survives as HQ-worthy research only: a vendor-neutral, fixed-scope screening service for identifiable PMGD owners or ›300 kW commercial/industrial loads is a narrower and more credible wedge than an unsupported battery-asset thesis. Primary-source evidence supports a real Chilean problem set—curtailment, distribution/zonal constraints, storage-related connection/operating rules, and a potential free-customer population. The propose
+- Next evidence gaps: Whether identifiable Chilean PMGD, commercial, or industrial sites will provide interval generation, consumption, tariff, and connection data to an external provider; The number of sites with curtailment or connection constraints that can actually be improved by behind-the-meter or co-located storage rather than by network reinfor; Customer willingness to pay for a fixed-scope screening package and the achievable price.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://energia.gob.cl/consultas-publicas/modificaciones-al-reglamento-ds-ndeg88-para-medios-de-generacion-de-pequena-escala; https://iea.blob.core.windows.net/assets/48eccb83-984c-45d2-bf78-67a61e88d241/Renewables2025.pdf; https://energia.gob.cl/iniciativas/rebaja-del-umbral-para-optar-al-regimen-de-clientes-libres
 
 ### Speed-to-power infrastructure exposure: researchable public-company basket with a falsifiable backlog catalyst [opp_8fd938450701fbd64711]
 - Status: WATCH_REQUIRES_VALIDATION | public_markets | United States
@@ -953,6 +963,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://carlosjofre.com/en/services/bess-strategy/; https://forcesolarpower.com/blog/chile-commercial-solar-net-billing/; https://www.spec.cl/en/publicaciones/2026-almacenamiento-corta-duracion/
 
+### Chile cross-border landed-cost and product-compliance layer for sub-US$500 imports [opp_f076198c0ec1bc8f3168]
+- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
+- Thesis: A narrow tool that compares foreign listings on an all-in Chilean basis—VAT treatment, shipping, delivery, returns, warranty, and local alternatives—could reduce purchase friction for a defined product category. The opportunity is not generic dropshipping: it is a price-and-risk comparison or procurement workflow where the buyer can verify the final payable amount before purchase.
+- Value capture: Affiliate or referral revenue where a platform permits it, paid lead generation, or a buyer-paid sourcing fee. No margin or conversion rate should be assumed until a live category test demonstrates that the all-in comparison changes purchasing behavior.
+- Participation hypothesis: Choose one category with standardized SKUs and observable prices, such as replacement parts or specialist tools. Manually collect 30 foreign and Chilean listings, calculate all-in landed prices using the SII VAT rules, and publish a simple comparison page or spreadsheet. Test distribution through category-specific communities and search ads with a strict spending cap. Falsify if fewer than five of 30 items show a meaningful verified price or availability difference after VAT and shipping, or if users do not request links/quotes. Use only regist
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sii.cl/destacados/iva_bienes/plataformas_inscritas/; https://www.trade.gov/country-commercial-guides/chile-ecommerce; https://www.fne.gob.cl/en/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las
+
 ### Chile Open Finance implementation-readiness test [opp_68b251b56fcd3101a22e]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: The change creates a time-bounded implementation problem for smaller financial or technology participants that may need interoperability, consent, security, testing and payment-initiation documentation before production participation.
@@ -1172,16 +1192,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/613/articles-82752_recurso_1.pdf; https://www.cmfchile.cl/portal/prensa/615/articles-99083_doc_pdf.pdf
-
-### Small-scale storage and control feasibility wedge for Chilean distributed generators [opp_3fc8fe5d5af829de71b9]
-- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile
-- Thesis: A narrow opportunity exists to sell a site-specific storage-and-control pre-feasibility package to existing distributed-generation or high-load sites, focused on identifying whether storage can reduce curtailment, shift consumption or improve connection economics. This is an evidence-backed market-participation test, not proof that a battery project will pay back.
-- Value capture: Charge for a fixed-scope measurement and decision package: interval-load analysis, export/curtailment scenario model, preliminary battery sizing, connection/regulatory checklist and vendor-neutral request-for-quotation specification. Hardware sales, financing, savings and project margins remain unknown.
-- Participation hypothesis: Select 5 identifiable Chilean PMGD, commercial or industrial sites with public contact channels and ask for 12 months of interval consumption/generation data plus tariff and connection information. Produce one paid or explicitly authorized no-cost screening only if the site owner agrees that the output is for internal evaluation. Falsify if data cannot be obtained, if no site has a measurable dispatch or connection problem, or if modeled value cannot cover the cost of a later engineering study. Do not claim regulatory approval, battery savings,
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://energia.gob.cl/consultas-publicas/modificaciones-al-reglamento-ds-ndeg88-para-medios-de-generacion-de-pequena-escala; https://iea.blob.core.windows.net/assets/48eccb83-984c-45d2-bf78-67a61e88d241/Renewables2025.pdf; https://energia.gob.cl/iniciativas/rebaja-del-umbral-para-optar-al-regimen-de-clientes-libres
 
 ### Supplier and pilot-partner mapping for DOE-funded critical-minerals projects [opp_f905ced79c43ae076ab8]
 - Status: WATCH_REQUIRES_VALIDATION | physical_distribution | United States
@@ -1823,6 +1833,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html
 
+### Pre-compliance integration testing for Chile’s Open Finance System [opp_dacac3f2afd4b7afe5ef]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Financial institutions and smaller prospective participants can begin testing interoperability, directory integration, payment initiation, and technical compliance before the mandatory regime starts. The opportunity is narrower than general fintech consulting: a reusable test harness, conformance checklist, synthetic-data fixtures, and automated evidence pack for one defined participant type.
+- Value capture: Sell a fixed-scope testing asset or paid pilot that produces reproducible ATENA test results, integration defects, and documentation. A small operator should not assume authorization, certification, or recurring compliance revenue; the immediately testable value is reducing engineering rework before registration and production integration.
+- Participation hypothesis: Build a minimal synthetic-data adapter and conformance checklist for one SFA participant category using the CMF technical annex and publicly available developer materials. Apply for or request access to the ATENA testing environment through the official CMF process, then run a low-cost discovery test with one identifiable Chilean fintech, payment provider, or financial institution found through public participant directories or industry contacts. Falsify by checking whether the target category has accessible test documentation, whether the sand
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html
+
 ### Pre-implementation testing asset for Chile Open Finance integrations [opp_962e03a6a16029e4f872]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: A narrowly scoped reusable asset could be a versioned conformance-test workbook or sandbox test harness for prospective participants and software vendors: endpoint cases, consent-flow checks, error fixtures and release-difference logs. The mechanism is pre-implementation risk reduction, not access to live customer financial data.
@@ -1992,6 +2012,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sec.gov/files/cft-written-wall-street-blockchain-august-2026.pdf; https://www.sec.gov/newsroom/speeches-statements/uyeda-remarks-asset-management-derivatives-forum-020926
+
+### Uncertainty-gated compute allocation benchmark for agentic workloads [opp_e11d955a445b8052f051]
+- Status: WATCH_REQUIRES_VALIDATION | innovation_adoption | Global, initially cloud-native software teams
+- Thesis: The evidence supports a testable engineering wedge—an open-source middleware or benchmark that records agent execution traces, predicts resource requirements, and routes workloads to cheaper or safer execution tiers. It does not yet prove customer willingness to pay, production savings, or a marketable standalone company.
+- Value capture: Potential value would come from paid deployment support, hosted observability, or cloud-cost savings shared with a customer, but none should be treated as established. The immediate asset is a reproducible benchmark and integration plugin for one agent framework.
+- Participation hypothesis: Reimplement the paper’s trace-based reservation method against a small workload suite using an open-source agent framework and one cloud provider. Compare cost, latency, deadline failures, and over-reservation against a fixed-budget baseline. Falsify if the method does not reproduce an improvement on realistic workloads or if the savings are below the cost of instrumentation. Only after a reproducible result should the operator seek a design-partner trial; do not claim production guarantees from simulation results.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://arxiv.org/abs/2611.05392; https://arxiv.org/abs/2608.14707
 
 ### Water-efficiency field validation service for Chilean irrigated agriculture [opp_1d5fe6f12eac5a48f84c]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile, especially Coquimbo and central agricultural regions

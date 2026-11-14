@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 199
+Candidates: 202
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -51,6 +51,18 @@ Candidates: 199
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://jobs.telusdigital.com/search/cfm3/russian-spanish/cfm5/ai-community/jobs/in/country/chile?ns_category=artificial-intelligence; https://www.sii.cl/destacados/iva_bienes/plataformas_inscritas/
+
+## Chile cross-border landed-cost and product-compliance layer for sub-US$500 imports
+- Status: watch | chile_localization
+- Current idea: A narrow tool that compares foreign listings on an all-in Chilean basis—VAT treatment, shipping, delivery, returns, warranty, and local alternatives—could reduce purchase friction for a defined product category. The opportunity is not generic dropshipping: it is a price-and-risk comparison or procurement workflow where the buyer can verify the final payable amount before purchase.
+- Potential economic capture: Affiliate or referral revenue where a platform permits it, paid lead generation, or a buyer-paid sourcing fee. No margin or conversion rate should be assumed until a live category test demonstrates that the all-in comparison changes purchasing behavior.
+- **Research routes to test (NOT validated claims):**
+  - Find the smallest Chilean workflow whose economics differ from the original geography.
+  - Secure lawful access, partners and after-sales support rather than copy protected technology.
+  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.sii.cl/destacados/iva_bienes/plataformas_inscritas/; https://www.trade.gov/country-commercial-guides/chile-ecommerce; https://www.fne.gob.cl/en/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-plataformas/
 
 ## Chile low-value import VAT and landed-cost decision asset
 - Status: watch | chile_localization
@@ -588,7 +600,7 @@ Candidates: 199
   - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
   - Compare owned asset, installer/distributor and project-finance participation.
   - Verify permits and installed net payback under conservative power price scenarios.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Whether identifiable Chilean PMGD, commercial, or industrial sites will provide interval generation, consumption, tariff, and connection data to an external provider.; The number of sites with curtailment or connection constraints that can actually be improved by behind-the-meter or co-located storage rather than by network reinforcement or operating restrictions.; Customer willingness to pay for a fixed-scope screening package and the achievable price.
 - Possible initial budget:
 - Source URLs: https://energia.gob.cl/consultas-publicas/modificaciones-al-reglamento-ds-ndeg88-para-medios-de-generacion-de-pequena-escala; https://iea.blob.core.windows.net/assets/48eccb83-984c-45d2-bf78-67a61e88d241/Renewables2025.pdf; https://energia.gob.cl/iniciativas/rebaja-del-umbral-para-optar-al-regimen-de-clientes-libres
 
@@ -963,6 +975,18 @@ Candidates: 199
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.sec.gov/rules-regulations/self-regulatory-organization-rulemaking/sr-nasdaq-2025-072; https://www.sec.gov/files/rules/sro/nysetex/2026/34-105338.pdf; https://www.fdic.gov/news/press-releases/2026/agencies-clarify-capital-treatment-tokenized-securities
+
+## Uncertainty-gated compute allocation benchmark for agentic workloads
+- Status: watch | innovation_adoption
+- Current idea: The evidence supports a testable engineering wedge—an open-source middleware or benchmark that records agent execution traces, predicts resource requirements, and routes workloads to cheaper or safer execution tiers. It does not yet prove customer willingness to pay, production savings, or a marketable standalone company.
+- Potential economic capture: Potential value would come from paid deployment support, hosted observability, or cloud-cost savings shared with a customer, but none should be treated as established. The immediate asset is a reproducible benchmark and integration plugin for one agent framework.
+- **Research routes to test (NOT validated claims):**
+  - Identify a real technical capability not yet adopted in one buyer's high-value workflow.
+  - Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.
+  - Measure the fully loaded operating cost, human exceptions and distribution against the status quo.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://arxiv.org/abs/2611.05392; https://arxiv.org/abs/2608.14707
 
 ## ATENA interoperability smoke-test harness for Chilean Open Finance participants
 - Status: watch | open_finance_chile
@@ -1839,6 +1863,18 @@ Candidates: 199
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html
+
+## Pre-compliance integration testing for Chile’s Open Finance System
+- Status: watch | open_finance_chile
+- Current idea: Financial institutions and smaller prospective participants can begin testing interoperability, directory integration, payment initiation, and technical compliance before the mandatory regime starts. The opportunity is narrower than general fintech consulting: a reusable test harness, conformance checklist, synthetic-data fixtures, and automated evidence pack for one defined participant type.
+- Potential economic capture: Sell a fixed-scope testing asset or paid pilot that produces reproducible ATENA test results, integration defects, and documentation. A small operator should not assume authorization, certification, or recurring compliance revenue; the immediately testable value is reducing engineering rework before registration and production integration.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html
 
 ## Pre-compliance monitoring for Chile’s Open Finance implementation
 - Status: watch | open_finance_chile
