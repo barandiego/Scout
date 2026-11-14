@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-13T19:56:03.414507+00:00
+Generated: 2026-11-14T00:56:49.554587+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 158
+- New this cycle: 172
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
-- Categories: agriculture 616, ai 103, energy 559, robotics 522
+- Feed failures (fail-open for public intake only): none
+- Categories: agriculture 618, ai 102, energy 567, robotics 513
 
 ## Recently encountered signals
+
+### Hydrogen and Battery Energy Storage for Resilient High-Renewable Microgrids: A Multi-Objective Assessment of Cost, Emissions and Employment Under Uncertainty
+- Source: https://doi.org/10.3390/su182211579
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
 
 ### 2010saif2-commits/AGRICYCLE
 - Source: https://github.com/2010saif2-commits/AGRICYCLE
@@ -452,12 +458,6 @@ Generated: 2026-11-13T19:56:03.414507+00:00
 
 ### Josh1288/Smart-Agriculture
 - Source: https://github.com/Josh1288/Smart-Agriculture
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### 25a31a4335p/Quiskit_QuantumCrop
-- Source: https://github.com/25a31a4335p/Quiskit_QuantumCrop
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
