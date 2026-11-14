@@ -1,37 +1,67 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 357000.0,
-      "buyer": "MUNICIPALIDAD DE OVALLE",
-      "closes_at": "2026-11-16T04:12:00",
-      "code": "2710-821-COT26",
-      "estimated_budget": 357000.0,
-      "name": "RECARGA MENSUAL PARA CELULAR, SOLICITUD N°179/2026, SUBDIRECCIÓN DE GESTIÓN ASISTENCIAL DESAM OVALLE.",
-      "products": 2,
-      "region": "Región de Coquimbo"
-    },
-    {
-      "available_budget_clp": 1500000.0,
-      "buyer": "SERVICIO NACIONAL DE SALUD HOSPITAL DE RIO NEGRO",
-      "closes_at": "2026-11-18T10:30:00",
-      "code": "1057531-193-COT26",
-      "estimated_budget": 1500000.0,
-      "name": "COMPRA Artículos de LAVANDERIA Despacho Parcial. Adjuntar ficha técnica con foto. Considerar despacho Parcial a Hospital Río Negro. Descripción COMPRA Artículos de LAVANDERIA. Adjuntar ficha técnica",
-      "products": 3,
-      "region": "Región de los Lagos"
-    },
-    {
-      "available_budget_clp": 6465000.0,
-      "buyer": "HOSPITAL CLINICO HERMINDA MARTIN",
-      "closes_at": "2026-11-16T10:00:00",
-      "code": "1058102-570-COT26",
-      "estimated_budget": 6465000.0,
-      "name": "HIALURONIDASA AMP 1.500 UI SC",
+      "available_budget_clp": 785000.0,
+      "buyer": "HOSPITAL DR GUSTAVO FRICKE DE VINA DEL MAR",
+      "closes_at": "2026-11-15T15:13:00",
+      "code": "608-7017-COT26",
+      "estimated_budget": 785000.0,
+      "name": "PLC BODEGA CENTRAL NOVIEMBRE - FRASCO DE BIOPSIA PRELLENADO C/ FORMALINA 300 CC785000",
       "products": 1,
-      "region": "Región del Ñuble"
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 4050000.0,
+      "buyer": "I MUNICIPALIDAD DE TALAGANTE",
+      "closes_at": "2026-11-16T11:00:00",
+      "code": "2701-840-COT26",
+      "estimated_budget": 4050000.0,
+      "name": "Insumos de alimentación, Dideco/Centro diurno.",
+      "products": 48,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 850000.0,
+      "buyer": "SERVICIO DE SALUD VALDIVIA HOSPITAL LA U",
+      "closes_at": "2026-11-17T11:00:00",
+      "code": "1057548-787-COT26",
+      "estimated_budget": 850000.0,
+      "name": "Sonda dufour.",
+      "products": 2,
+      "region": "Región de Los Ríos"
+    },
+    {
+      "available_budget_clp": 255000.0,
+      "buyer": "I MUNICIPALIDAD DE TALCAHUANO",
+      "closes_at": "2026-11-19T15:44:00",
+      "code": "2358-524-COT26",
+      "estimated_budget": 255000.0,
+      "name": "©sc 89 Seguridad Pública-Lazos-Materiales de aseo varios",
+      "products": 1,
+      "region": "Región del Biobío"
+    },
+    {
+      "available_budget_clp": 1050000.0,
+      "buyer": "SERVICIO DE SALUD VALDIVIA HOSPITAL LA U",
+      "closes_at": "2026-11-17T10:05:00",
+      "code": "1057548-786-COT26",
+      "estimated_budget": 1050000.0,
+      "name": "Set de irrigacion en Y para RTU",
+      "products": 1,
+      "region": "Región de Los Ríos"
+    },
+    {
+      "available_budget_clp": 1200000.0,
+      "buyer": "Ilustre Municipalidad de Santa Barbara - Salud",
+      "closes_at": "2026-11-16T15:00:00",
+      "code": "3977-183-COT26",
+      "estimated_budget": 1200000.0,
+      "name": "Computador de escritorio para ejecución de actividades del programa Espacios Amigables. (OP N°191)",
+      "products": 1,
+      "region": "Región del Biobío"
     }
   ],
-  "active_structurally_reconstructable_count": 3,
+  "active_structurally_reconstructable_count": 6,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -49,7 +79,7 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-14T11:36:35Z",
+  "generated_at": "2026-11-14T18:17:30Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -57,17 +87,17 @@
   "phase1": {
     "records": 20,
     "rejection_reasons": {
-      "missing_products": 2,
-      "no_observable_competitive_prices": 6
+      "missing_products": 1,
+      "no_observable_competitive_prices": 5
     },
-    "resolved": 17,
-    "structurally_reconstructable": 13,
-    "with_observable_quote_totals": 11,
-    "with_purchase_order_indicator": 1
+    "resolved": 14,
+    "structurally_reconstructable": 14,
+    "with_observable_quote_totals": 9,
+    "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-14T11:36:35Z"
+    "changed_to": "2026-11-14T18:17:30Z"
   }
 }
