@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 205
+Candidates: 206
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -196,18 +196,6 @@ Candidates: 205
 - Possible initial budget:
 - Source URLs: https://app.outlier.ai/opportunities/4481627005; https://app.outlier.ai/login?job_post_id=4476998005
 
-## Spanish e-commerce search-result rater — Welo Data
-- Status: watch | chile_localization
-- Current idea: This is a concrete paid evaluation route for a Chile-based bilingual applicant with web research and language skills. The task-based wording means the advertised hourly figure may not equal guaranteed clock-time income, and the listing does not guarantee acceptance or continuous assignments.
-- Potential economic capture: Pass qualification and complete assigned search-quality and e-commerce relevance-rating tasks as an independent contractor at the project’s stated task-based rate, subject to workload and quality requirements.
-- **Research routes to test (NOT validated claims):**
-  - Find the smallest Chilean workflow whose economics differ from the original geography.
-  - Secure lawful access, partners and after-sales support rather than copy protected technology.
-  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://jobs.lever.co/weloglobal/f1d3a94f-b3c4-47c2-b33b-55253a774375; https://jobs.lever.co/weloglobal?commitment=Remote
-
 ## TELUS Digital Online Data Analyst — Chile
 - Status: watch | chile_localization
 - Current idea: A Chile resident with Spanish fluency can submit an application for part-time search/data-quality evaluation work. The public listing verifies an open application route and qualification process, but does not verify a rate, hours guarantee or hiring outcome.
@@ -339,6 +327,18 @@ Candidates: 205
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/; https://www.falabella.com/falabella-cl/seller/Natura; https://www.falabella.com/falabella-cl/page/sobre-falabella-com
+
+## 100 kW+ commercial battery enrollment pipeline for wholesale-market aggregators
+- Status: watch | energy_infrastructure
+- Current idea: Existing commercial or industrial batteries may have additional wholesale-market value, but the operator may not know whether the asset is technically eligible, telemetry-ready, or large enough for an aggregator’s program.
+- Potential economic capture: Create a verified prospect list of operating batteries at or above 100 kW, including owner, site, inverter rating, interconnection status, operating constraints, and market territory; sell qualified introductions or referral rights to an existing licensed storage aggregator. No revenue share or buyer commitment is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://ferc.gov/news-events/news/ferc-issues-final-rule-electric-storage-participation-regional-markets; https://www.energy.gov/cmei/water/articles/energy-storage-technology-and-cost-characterization-report
 
 ## 15-minute demand-charge diagnostic and retrofit kit for Chilean commercial sites
 - Status: watch | energy_infrastructure
@@ -1983,6 +1983,18 @@ Candidates: 205
 - Critical gaps: Whether fund administrators, transfer agents, or tokenization platforms currently pay separately for external workflow-test tooling.; The identity of the economic buyer and whether the budget sits with compliance, operations, engineering, vendor management, or implementation teams.; Required test coverage across chains, smart-contract standards, transfer-agent systems, investor-accounting systems, and exception-management procedures.
 - Possible initial budget:
 - Source URLs: https://www.sec.gov/Archives/edgar/data/843781/000003014626000437/cik0000843781_102708.htm; https://www.sec.gov/Archives/edgar/data/831114/000139834426000957/fp0097248-1_40app.htm
+
+## Copper-supply-risk procurement watchlist for manufacturers exposed to concentrated refining
+- Status: watch | physical_distribution
+- Current idea: Manufacturers that cannot quickly identify alternate copper cathode, rod, scrap, or semi-finished-material sources may face procurement delays or expensive emergency sourcing when a supplier, route, or jurisdiction is disrupted.
+- Potential economic capture: Produce a narrowly scoped, source-linked watchlist covering one copper-consuming niche—such as wire-and-cable fabricators—with supplier-country concentration, export-control events, mine/refinery disruptions, and substitute-source contacts. The economic mechanism is procurement-risk reduction, not a claimed guaranteed savings or resale margin.
+- **Research routes to test (NOT validated claims):**
+  - Compare local product availability to supplier catalogs and independent consumer interest.
+  - Check import, tax, return, certification and delivery economics before estimating margin.
+  - Try a legitimate pre-order/waitlist test with transparent fulfillment conditions.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary; https://www.iea.org/reports/critical-mineral-traceability-for-energy-and-economic-security/executive-summary
 
 ## Critical-mineral recycling feedstock locator focused on discarded electronics
 - Status: watch | physical_distribution

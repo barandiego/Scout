@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-11-14T17:40:19.132207+00:00
+Generated: 2026-11-14T23:38:17.580156+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 205 (0 HQ survivors, 205 watches)
-- Rejected opportunities excluded: 113
+- Active research: 206 (0 HQ survivors, 206 watches)
+- Rejected opportunities excluded: 114
 - Critic-and-judge reviewed: 90
 - Autonomous execution authorization: 0
 
@@ -1223,6 +1223,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://igam.com/robot-inventory/; https://www.fivewestfinancial.com/blog/robotics-automation-private-party-purchase.html; https://www.harmonicrange.com/prices
 
+### 100 kW+ commercial battery enrollment pipeline for wholesale-market aggregators [opp_2c199bc3e65ca5181196]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States
+- Thesis: Existing commercial or industrial batteries may have additional wholesale-market value, but the operator may not know whether the asset is technically eligible, telemetry-ready, or large enough for an aggregator’s program.
+- Value capture: Create a verified prospect list of operating batteries at or above 100 kW, including owner, site, inverter rating, interconnection status, operating constraints, and market territory; sell qualified introductions or referral rights to an existing licensed storage aggregator. No revenue share or buyer commitment is assumed.
+- Participation hypothesis: Use public commercial-property records, installer case studies, utility interconnection documents, and direct owner confirmation to identify 20 candidate systems in one organized-market territory. Verify inverter size and operational control with owners. Send the list to three established storage aggregators and ask whether they accept third-party referrals and what minimum technical fields they require. Falsification test: stop if fewer than five owners confirm systems above 100 kW or if no aggregator agrees to review a redacted sample list.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://ferc.gov/news-events/news/ferc-issues-final-rule-electric-storage-participation-regional-markets; https://www.energy.gov/cmei/water/articles/energy-storage-technology-and-cost-characterization-report
+
 ### 15-minute demand-charge diagnostic and retrofit kit for Chilean commercial sites [opp_5c54bef099722659c2b1]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile, initially regulated commercial customers on BT/AT demand tariffs
 - Thesis: A site with a short, avoidable power spike can pay recurring demand-related charges even when total monthly energy consumption is moderate. The concrete wedge is not generic energy consulting: obtain interval data and bills, identify the top avoidable peaks, then sell a fixed diagnostic plus an installable control package such as load sequencing, scheduled charging, or a small battery/controller retrofit.
@@ -1582,6 +1592,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/1027552/000102755226000098/managementcommentary2q2026.pdf; https://www.sec.gov/Archives/edgar/data/19957/000110465926079411/tm2617334d1_ex99-e.htm
+
+### Copper-supply-risk procurement watchlist for manufacturers exposed to concentrated refining [opp_b3bab653bc94d6a65255]
+- Status: WATCH_REQUIRES_VALIDATION | physical_distribution | United States and Chile
+- Thesis: Manufacturers that cannot quickly identify alternate copper cathode, rod, scrap, or semi-finished-material sources may face procurement delays or expensive emergency sourcing when a supplier, route, or jurisdiction is disrupted.
+- Value capture: Produce a narrowly scoped, source-linked watchlist covering one copper-consuming niche—such as wire-and-cable fabricators—with supplier-country concentration, export-control events, mine/refinery disruptions, and substitute-source contacts. The economic mechanism is procurement-risk reduction, not a claimed guaranteed savings or resale margin.
+- Participation hypothesis: Choose one U.S. manufacturing cluster and obtain a list of 30 wire-and-cable or electrical-equipment companies from public directories. Build a weekly one-page watchlist using official trade, customs, company, and regulator notices. Offer five procurement or supply-chain managers a free two-week pilot and ask whether they will pay for continued delivery or introduce the operator to their procurement team. Falsification test: stop if fewer than two prospects review the pilot or none can identify a current copper-sourcing decision the watchlist w
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary; https://www.iea.org/reports/critical-mineral-traceability-for-energy-and-economic-security/executive-summary
 
 ### Critical-mineral recycling feedstock locator focused on discarded electronics [opp_4ac887930a777d12d31b]
 - Status: WATCH_REQUIRES_VALIDATION | physical_distribution | United States
@@ -1962,16 +1982,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://app.outlier.ai/opportunities/4481627005; https://app.outlier.ai/login?job_post_id=4476998005
-
-### Spanish e-commerce search-result rater — Welo Data [opp_b9ae93d79856031de999]
-- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Santiago, Chile / Chile
-- Thesis: This is a concrete paid evaluation route for a Chile-based bilingual applicant with web research and language skills. The task-based wording means the advertised hourly figure may not equal guaranteed clock-time income, and the listing does not guarantee acceptance or continuous assignments.
-- Value capture: Pass qualification and complete assigned search-quality and e-commerce relevance-rating tasks as an independent contractor at the project’s stated task-based rate, subject to workload and quality requirements.
-- Participation hypothesis: Apply on Welo Data’s employer-hosted Lever page, selecting Chile/Santiago and presenting evidence of Spanish fluency, near-native English, web research and careful guideline-following. Lowest-cost falsification: apply and complete only the qualification steps; ask for the effective task-to-hour conversion, payout schedule and minimum withdrawal conditions before investing significant time. Stop if Chile eligibility, project access or payable workload cannot be confirmed.
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://jobs.lever.co/weloglobal/f1d3a94f-b3c4-47c2-b33b-55253a774375; https://jobs.lever.co/weloglobal?commitment=Remote
 
 ### Spanish-language invoice-extraction evaluation pack for Chilean accounting workflows [opp_6cc32af3f79943589863]
 - Status: WATCH_REQUIRES_VALIDATION | innovation_adoption | Chile

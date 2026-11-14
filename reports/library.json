@@ -9832,6 +9832,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-14T23:37:58.281002+00:00",
+      "discovery_lens": "energy_industrial",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "FERC Order No. 841 requires regional markets to establish storage participation models and sets a minimum-size requirement no higher than 100 kW.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "FERC Issues Final Rule on Electric Storage Participation in Regional Markets",
+          "url": "https://ferc.gov/news-events/news/ferc-issues-final-rule-electric-storage-participation-regional-markets"
+        },
+        {
+          "claim": "DOE provides current benchmark ranges for storage capital cost, power-conversion cost, and technology performance.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Energy Storage Cost and Performance Characterization Report",
+          "url": "https://www.energy.gov/cmei/water/articles/energy-storage-technology-and-cost-characterization-report"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.83,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_2c199bc3e65ca5181196",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-14T23:37:58.370636+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use public commercial-property records, installer case studies, utility interconnection documents, and direct owner confirmation to identify 20 candidate systems in one organized-market territory. Verify inverter size and operational control with owners. Send the list to three established storage aggregators and ask whether they accept third-party referrals and what minimum technical fields they require. Falsification test: stop if fewer than five owners confirm systems above 100 kW or if no aggregator agrees to review a redacted sample list.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Existing commercial or industrial batteries may have additional wholesale-market value, but the operator may not know whether the asset is technically eligible, telemetry-ready, or large enough for an aggregator’s program.",
+      "title": "100 kW+ commercial battery enrollment pipeline for wholesale-market aggregators",
+      "type": "distribution_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Create a verified prospect list of operating batteries at or above 100 kW, including owner, site, inverter rating, interconnection status, operating constraints, and market territory; sell qualified introductions or referral rights to an existing licensed storage aggregator. No revenue share or buyer commitment is assumed.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-13T20:22:30.984395+00:00",
       "discovery_lens": "energy_localization",
       "estimated_capital": "",
@@ -11768,6 +11822,60 @@
       "value_capture_mechanism": "Potential paid implementation assessment, requirements mapping, or test-harness work if an institution confirms the need. No buyer, price, or permission is assumed.",
       "verified_sales": null,
       "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-11-14T23:37:58.281870+00:00",
+      "discovery_lens": "mining_materials",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "IEA identifies copper as a major supply-risk exception, with announced projects implying a potential 2035 shortfall and continued concentration in critical-mineral supply chains.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Executive summary - Global Critical Minerals Outlook 2025",
+          "url": "https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary"
+        },
+        {
+          "claim": "IEA reports that concentrated processing and new export controls created material supply-chain risks in 2025 and emphasizes traceability and diversification.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Critical Mineral Traceability for Energy and Economic Security",
+          "url": "https://www.iea.org/reports/critical-mineral-traceability-for-energy-and-economic-security/executive-summary"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.78,
+      "falsification_conditions": [],
+      "geography": "United States and Chile",
+      "id": "opp_b3bab653bc94d6a65255",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-14T23:37:58.370855+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Choose one U.S. manufacturing cluster and obtain a list of 30 wire-and-cable or electrical-equipment companies from public directories. Build a weekly one-page watchlist using official trade, customs, company, and regulator notices. Offer five procurement or supply-chain managers a free two-week pilot and ask whether they will pay for continued delivery or introduce the operator to their procurement team. Falsification test: stop if fewer than two prospects review the pilot or none can identify a current copper-sourcing decision the watchlist would affect.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Manufacturers that cannot quickly identify alternate copper cathode, rod, scrap, or semi-finished-material sources may face procurement delays or expensive emergency sourcing when a supplier, route, or jurisdiction is disrupted.",
+      "title": "Copper-supply-risk procurement watchlist for manufacturers exposed to concentrated refining",
+      "type": "information_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Produce a narrowly scoped, source-linked watchlist covering one copper-consuming niche—such as wire-and-cable fabricators—with supplier-country concentration, export-control events, mine/refinery disruptions, and substitute-source contacts. The economic mechanism is procurement-risk reduction, not a claimed guaranteed savings or resale margin.",
+      "verified_sales": null,
+      "vertical": "physical_distribution",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -13828,60 +13936,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-20T16:26:20.976884+00:00",
-      "discovery_lens": "remote_paid_evaluation",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "Welo Data lists Santiago, Chile / Mexico eligibility, remote freelance work, e-commerce search-result evaluation duties, Spanish and high-level English requirements, USD 6/hour based on completed tasks, and variable weekly hours.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Artemis AI Data Rater - Spanish",
-          "url": "https://jobs.lever.co/weloglobal/f1d3a94f-b3c4-47c2-b33b-55253a774375"
-        },
-        {
-          "claim": "The employer’s active remote-job index includes Artemis AI Data Rater - Spanish with Santiago, Chile / Mexico location coverage and an application route.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Welo Global active remote jobs listing",
-          "url": "https://jobs.lever.co/weloglobal?commitment=Remote"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.94,
-      "falsification_conditions": [],
-      "geography": "Santiago, Chile / Chile",
-      "id": "opp_b9ae93d79856031de999",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-20T16:26:21.026306+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Apply on Welo Data’s employer-hosted Lever page, selecting Chile/Santiago and presenting evidence of Spanish fluency, near-native English, web research and careful guideline-following. Lowest-cost falsification: apply and complete only the qualification steps; ask for the effective task-to-hour conversion, payout schedule and minimum withdrawal conditions before investing significant time. Stop if Chile eligibility, project access or payable workload cannot be confirmed.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "This is a concrete paid evaluation route for a Chile-based bilingual applicant with web research and language skills. The task-based wording means the advertised hourly figure may not equal guaranteed clock-time income, and the listing does not guarantee acceptance or continuous assignments.",
-      "title": "Spanish e-commerce search-result rater — Welo Data",
-      "type": "remote_paid_evaluation",
-      "unknowns": [],
-      "value_capture_mechanism": "Pass qualification and complete assigned search-quality and e-commerce relevance-rating tasks as an independent contractor at the project’s stated task-based rate, subject to workload and quality requirements.",
-      "verified_sales": null,
-      "vertical": "chile_localization",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-20T20:21:45.749832+00:00",
       "discovery_lens": "ai_open_source",
       "estimated_capital": "",
@@ -14367,13 +14421,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-14T17:40:19.132207+00:00",
+  "generated_at": "2026-11-14T23:38:17.580156+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 113,
+  "rejected_excluded": 114,
   "reviewed_cards": 90,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 318,
-  "watch": 205
+  "total_distinct_opportunities": 320,
+  "watch": 206
 }

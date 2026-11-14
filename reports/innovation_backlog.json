@@ -591,42 +591,6 @@
       "category": "chile_localization",
       "commercially_validated": false,
       "competition_confirmed": false,
-      "current_participation_path": "Apply on Welo Data’s employer-hosted Lever page, selecting Chile/Santiago and presenting evidence of Spanish fluency, near-native English, web research and careful guideline-following. Lowest-cost falsification: apply and complete only the qualification steps; ask for the effective task-to-hour conversion, payout schedule and minimum withdrawal conditions before investing significant time. Stop if Chile eligibility, project access or payable workload cannot be confirmed.",
-      "current_thesis": "This is a concrete paid evaluation route for a Chile-based bilingual applicant with web research and language skills. The task-based wording means the advertised hourly figure may not equal guaranteed clock-time income, and the listing does not guarantee acceptance or continuous assignments.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "Santiago, Chile / Chile",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "Spanish e-commerce search-result rater — Welo Data",
-      "opportunity_id": "opp_b9ae93d79856031de999",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Find the smallest Chilean workflow whose economics differ from the original geography.",
-        "Secure lawful access, partners and after-sales support rather than copy protected technology.",
-        "Run a buyer interview or mock listing to falsify assumptions before capital commitment."
-      ],
-      "supporting_source_urls": [
-        "https://jobs.lever.co/weloglobal/f1d3a94f-b3c4-47c2-b33b-55253a774375",
-        "https://jobs.lever.co/weloglobal?commitment=Remote"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "Pass qualification and complete assigned search-quality and e-commerce relevance-rating tasks as an independent contractor at the project’s stated task-based rate, subject to workload and quality requirements.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "chile_localization",
-      "commercially_validated": false,
-      "competition_confirmed": false,
       "current_participation_path": "Apply only through the TELUS Digital Chile listing and record the requisition number. Complete the initial application, then ask for the written contract or project terms showing rate, expected availability, payment method and tax treatment before accepting work. Falsify as an economically actionable opportunity if the requisition closes, Chile eligibility is removed, or the company will not disclose payment terms before tasking. No fee or deposit should be paid.",
       "current_thesis": "A Chile resident with Spanish fluency can submit an application for part-time search/data-quality evaluation work. The public listing verifies an open application route and qualification process, but does not verify a rate, hours guarantee or hiring outcome.",
       "founder_hours_initial_unverified_estimate": "",
@@ -1021,6 +985,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Potential cash flow is direct consumer purchase of a legally sourced bundle or value-added assortment. The operator would capture any verified spread after product cost, marketplace fees, shipping, taxes, returns and permitted seller costs. No margin is assumed.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "energy_infrastructure",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Use public commercial-property records, installer case studies, utility interconnection documents, and direct owner confirmation to identify 20 candidate systems in one organized-market territory. Verify inverter size and operational control with owners. Send the list to three established storage aggregators and ask whether they accept third-party referrals and what minimum technical fields they require. Falsification test: stop if fewer than five owners confirm systems above 100 kW or if no aggregator agrees to review a redacted sample list.",
+      "current_thesis": "Existing commercial or industrial batteries may have additional wholesale-market value, but the operator may not know whether the asset is technically eligible, telemetry-ready, or large enough for an aggregator’s program.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "100 kW+ commercial battery enrollment pipeline for wholesale-market aggregators",
+      "opportunity_id": "opp_2c199bc3e65ca5181196",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
+        "Compare owned asset, installer/distributor and project-finance participation.",
+        "Verify permits and installed net payback under conservative power price scenarios."
+      ],
+      "supporting_source_urls": [
+        "https://ferc.gov/news-events/news/ferc-issues-final-rule-electric-storage-participation-regional-markets",
+        "https://www.energy.gov/cmei/water/articles/energy-storage-technology-and-cost-characterization-report"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Create a verified prospect list of operating batteries at or above 100 kW, including owner, site, inverter rating, interconnection status, operating constraints, and market territory; sell qualified introductions or referral rights to an existing licensed storage aggregator. No revenue share or buyer commitment is assumed.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -6284,6 +6284,42 @@
       "category": "physical_distribution",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Choose one U.S. manufacturing cluster and obtain a list of 30 wire-and-cable or electrical-equipment companies from public directories. Build a weekly one-page watchlist using official trade, customs, company, and regulator notices. Offer five procurement or supply-chain managers a free two-week pilot and ask whether they will pay for continued delivery or introduce the operator to their procurement team. Falsification test: stop if fewer than two prospects review the pilot or none can identify a current copper-sourcing decision the watchlist would affect.",
+      "current_thesis": "Manufacturers that cannot quickly identify alternate copper cathode, rod, scrap, or semi-finished-material sources may face procurement delays or expensive emergency sourcing when a supplier, route, or jurisdiction is disrupted.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States and Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Copper-supply-risk procurement watchlist for manufacturers exposed to concentrated refining",
+      "opportunity_id": "opp_b3bab653bc94d6a65255",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Compare local product availability to supplier catalogs and independent consumer interest.",
+        "Check import, tax, return, certification and delivery economics before estimating margin.",
+        "Try a legitimate pre-order/waitlist test with transparent fulfillment conditions."
+      ],
+      "supporting_source_urls": [
+        "https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary",
+        "https://www.iea.org/reports/critical-mineral-traceability-for-energy-and-economic-security/executive-summary"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Produce a narrowly scoped, source-linked watchlist covering one copper-consuming niche—such as wire-and-cable fabricators—with supplier-country concentration, export-control events, mine/refinery disruptions, and substitute-source contacts. The economic mechanism is procurement-risk reduction, not a claimed guaranteed savings or resale margin.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "physical_distribution",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Select one material stream—such as discarded electronics from a university, repair network, or municipal program—and obtain written permission for a 30-day collection test. Contact three licensed recyclers or processors and request their current accepted-material specifications, minimum lot size, assay requirements, and purchase terms. Stop if no processor provides written acceptance criteria or if collection permission cannot be obtained without material cost.",
       "current_thesis": "A small operator can test whether a geographically concentrated stream of discarded electronics or industrial scrap can be aggregated, documented, and routed to an existing licensed processor rather than attempting to build a refinery.",
       "founder_hours_initial_unverified_estimate": "",
@@ -7799,7 +7835,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-14T17:40:19.246472+00:00",
+  "generated_at": "2026-11-14T23:38:17.741669+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"
