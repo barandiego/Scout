@@ -11722,6 +11722,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-14T17:40:00.482887+00:00",
+      "discovery_lens": "regulation_infrastructure",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The source reports NCG No. 569 technical interoperability specifications, a pilot period, a CMF sandbox, simplified participation mechanisms, a July 2027 effective date, and unresolved cost-sharing details.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Management Commentary discussing Chile Open Finance System implementation and NCG No. 569",
+          "url": "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000098/managementcommentary2q2026.pdf"
+        },
+        {
+          "claim": "The source reports that the CMF issued technical regulations in June 2026 covering data sharing and payment initiation under Chile’s fintech-law Open Finance framework.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Chile financial-market regulatory developments and Open Finance technical regulations",
+          "url": "https://www.sec.gov/Archives/edgar/data/19957/000110465926079411/tm2617334d1_ex99-e.htm"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.78,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_55ea1613f3f7f5bebbee",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-14T17:40:00.559143+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Extract the obligations and unresolved fields from NCG 569 and related CMF materials into a 2-3 page gap checklist. Test it with publicly listed Chilean financial institutions or registered fintech participants through ordinary business-contact channels, asking only whether the checklist matches their implementation concerns. Falsification step: obtain two independent confirmations that a specific recurring implementation problem exists before building software or seeking payment. If institutions will not validate a concrete problem, return zero rather than launching a generic compliance service.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The near-term opportunity is not a finished API product or guaranteed integration contract. It is a low-cost validation wedge: convert the published technical requirements into a testable data-field, consent, security, and operational-readiness checklist for smaller regulated or participating entities.",
+      "title": "Compliance-data implementation wedge for Chile’s developing Open Finance System",
+      "type": "regulatory_implementation",
+      "unknowns": [],
+      "value_capture_mechanism": "Potential paid implementation assessment, requirements mapping, or test-harness work if an institution confirms the need. No buyer, price, or permission is assumed.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-22T22:58:15.832772+00:00",
       "discovery_lens": "mining_materials",
       "estimated_capital": "",
@@ -11766,6 +11820,60 @@
       "type": "physical_supply_chain_asset",
       "unknowns": [],
       "value_capture_mechanism": "A documented feedstock-aggregation route: obtain material from one identifiable institutional source, sort and record composition, then sell or transfer it to an existing recycler or processor under its stated acceptance terms. Revenue, price, and acceptance are unknown until verified.",
+      "verified_sales": null,
+      "vertical": "physical_distribution",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-11-14T17:40:00.482207+00:00",
+      "discovery_lens": "physical_commerce",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "ORNL posted a DOE-funded RFQ specifying industrial automation and control components, domestic equivalents, a BOM, and an October 5, 2026 offer deadline.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Industrial Automation and Control System Components Including Power Supplies, ControlLogix/POINT I/O Modules, Ethernet Switches, Fiber Patch Panels, and Circuit Protection",
+          "url": "https://sam.gov/workspace/contract/opp/cb336d90ddc149a2b42ecd76a58d8fdd/view"
+        },
+        {
+          "claim": "Federal industrial-base programs are funding automation, machine-tool modernization, robotic repair, and digital manufacturing capabilities, indicating recurring procurement demand around industrial production and control infrastructure.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Industrial Base Policy - Investment Intelligence Center",
+          "url": "https://www.businessdefense.gov/investments.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.92,
+      "falsification_conditions": [],
+      "geography": "United States; Oak Ridge, Tennessee",
+      "id": "opp_1c5c5c8315b4b0ca7bb0",
+      "judge_reviewed": false,
+      "judgment": "critic_invalid_output",
+      "last_record_updated_at": "2026-11-14T17:40:18.531287+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Download the RFQ attachments and BOM, identify 10-20 line items with domestic-equivalent requirements, obtain written distributor quotes and manufacturer compliance documents, then search SAM.gov and DOE laboratory procurement portals for substantially similar open solicitations. Falsification step: spend no more than one day checking whether the BOM contains items available from authorized distributors at prices that could support resale after freight, warranty, and compliance costs. Do not buy inventory or represent authorization until a live solicitation or purchase order exists.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A small distributor or technically qualified reseller could assemble a compliant domestic-equivalent bill of materials, document substitutions, and monitor similar laboratory or DOE procurements where buyers need non-brand or domestic alternatives.",
+      "title": "Domestic-equivalent sourcing for DOE industrial-control components",
+      "type": "procurement_opportunity",
+      "unknowns": [],
+      "value_capture_mechanism": "Resale or sourcing spread on industrial-control components; possible engineering/documentation fee only if a buyer explicitly accepts it. No margin or buyer economics are assumed.",
       "verified_sales": null,
       "vertical": "physical_distribution",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
@@ -13612,6 +13720,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-14T17:40:00.483434+00:00",
+      "discovery_lens": "robotics_automation",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "NSF identifies flexible reconfigurable assembly, small-lot manufacturing, agile mobile robotics, and on-demand parts manufacturing as eligible robotics research directions, with stated US small-business eligibility requirements.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "NSF SBIR Robotics topic",
+          "url": "https://seedfund.nsf.gov/topics/robotics/"
+        },
+        {
+          "claim": "Federal awards include an $8 million autonomous robotic repair project, a $16.3 million robotic cell for large components, and a $119 million data-driven additive-manufacturing certification framework.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Industrial Base Policy - Investment Intelligence Center",
+          "url": "https://www.businessdefense.gov/investments.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.88,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_1d7719596ea3f8c399d7",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-14T17:40:00.558990+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Choose one measurable task—such as inspection, grinding, welding, or low-volume replacement-part production—and document the current manual process, required tolerances, cycle time, and prospective test site. Use NSF’s suitability assessment and eligibility rules before spending on a proposal. Falsification step: obtain a written process specification or sample part from one potential test user and determine whether the task can be evaluated with off-the-shelf sensors/robotics; abandon the wedge if no test artifact or measurable acceptance criterion is available.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A small US company with a specific manufacturing bottleneck could pursue non-dilutive validation funding for a narrowly defined robotic cell, inspection workflow, or on-demand replacement-part process. This is a funding and pilot route, not evidence of an already validated commercial product.",
+      "title": "Small-business route into on-demand robotic manufacturing and parts production",
+      "type": "funding_and_market_access",
+      "unknowns": [],
+      "value_capture_mechanism": "Potential NSF SBIR award and subsequent equipment, pilot, or production revenue if a narrowly defined technical proposal is accepted and a real end user validates the use case. Award probability and revenue are unknown.",
+      "verified_sales": null,
+      "vertical": "robotics_agritech",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-11-02T04:26:20.166711+00:00",
       "discovery_lens": "remote_paid_evaluation",
       "estimated_capital": "",
@@ -14205,13 +14367,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-14T11:14:10.458063+00:00",
+  "generated_at": "2026-11-14T17:40:19.132207+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 113,
   "reviewed_cards": 90,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 315,
-  "watch": 202
+  "total_distinct_opportunities": 318,
+  "watch": 205
 }

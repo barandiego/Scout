@@ -1,10 +1,10 @@
 # Scout — opportunity library
 
-Generated: 2026-11-14T11:14:10.458063+00:00
+Generated: 2026-11-14T17:40:19.132207+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 202 (0 HQ survivors, 202 watches)
+- Active research: 205 (0 HQ survivors, 205 watches)
 - Rejected opportunities excluded: 113
 - Critic-and-judge reviewed: 90
 - Autonomous execution authorization: 0
@@ -1573,6 +1573,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/prensa/625/w4-article-110881.html
 
+### Compliance-data implementation wedge for Chile’s developing Open Finance System [opp_55ea1613f3f7f5bebbee]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: The near-term opportunity is not a finished API product or guaranteed integration contract. It is a low-cost validation wedge: convert the published technical requirements into a testable data-field, consent, security, and operational-readiness checklist for smaller regulated or participating entities.
+- Value capture: Potential paid implementation assessment, requirements mapping, or test-harness work if an institution confirms the need. No buyer, price, or permission is assumed.
+- Participation hypothesis: Extract the obligations and unresolved fields from NCG 569 and related CMF materials into a 2-3 page gap checklist. Test it with publicly listed Chilean financial institutions or registered fintech participants through ordinary business-contact channels, asking only whether the checklist matches their implementation concerns. Falsification step: obtain two independent confirmations that a specific recurring implementation problem exists before building software or seeking payment. If institutions will not validate a concrete problem, return zer
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/1027552/000102755226000098/managementcommentary2q2026.pdf; https://www.sec.gov/Archives/edgar/data/19957/000110465926079411/tm2617334d1_ex99-e.htm
+
 ### Critical-mineral recycling feedstock locator focused on discarded electronics [opp_4ac887930a777d12d31b]
 - Status: WATCH_REQUIRES_VALIDATION | physical_distribution | United States
 - Thesis: A small operator can test whether a geographically concentrated stream of discarded electronics or industrial scrap can be aggregated, documented, and routed to an existing licensed processor rather than attempting to build a refinery.
@@ -1582,6 +1592,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.gao.gov/products/gao-26-108687; https://www.iea.org/reports/global-critical-minerals-outlook-2026
+
+### Domestic-equivalent sourcing for DOE industrial-control components [opp_1c5c5c8315b4b0ca7bb0]
+- Status: WATCH_REQUIRES_VALIDATION | physical_distribution | United States; Oak Ridge, Tennessee
+- Thesis: A small distributor or technically qualified reseller could assemble a compliant domestic-equivalent bill of materials, document substitutions, and monitor similar laboratory or DOE procurements where buyers need non-brand or domestic alternatives.
+- Value capture: Resale or sourcing spread on industrial-control components; possible engineering/documentation fee only if a buyer explicitly accepts it. No margin or buyer economics are assumed.
+- Participation hypothesis: Download the RFQ attachments and BOM, identify 10-20 line items with domestic-equivalent requirements, obtain written distributor quotes and manufacturer compliance documents, then search SAM.gov and DOE laboratory procurement portals for substantially similar open solicitations. Falsification step: spend no more than one day checking whether the BOM contains items available from authorized distributors at prices that could support resale after freight, warranty, and compliance costs. Do not buy inventory or represent authorization until a live
+- Critic/judge: critic_invalid_output
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://sam.gov/workspace/contract/opp/cb336d90ddc149a2b42ecd76a58d8fdd/view; https://www.businessdefense.gov/investments.html
 
 ### Energy-performance verification for desalination and seawater-pumping systems in Chilean mining [opp_7b3f746b484aac912c2b]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Northern Chile
@@ -1922,6 +1942,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage; https://www.iea.org/reports/global-ev-outlook-2026/electric-vehicle-batteries
+
+### Small-business route into on-demand robotic manufacturing and parts production [opp_1d7719596ea3f8c399d7]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States
+- Thesis: A small US company with a specific manufacturing bottleneck could pursue non-dilutive validation funding for a narrowly defined robotic cell, inspection workflow, or on-demand replacement-part process. This is a funding and pilot route, not evidence of an already validated commercial product.
+- Value capture: Potential NSF SBIR award and subsequent equipment, pilot, or production revenue if a narrowly defined technical proposal is accepted and a real end user validates the use case. Award probability and revenue are unknown.
+- Participation hypothesis: Choose one measurable task—such as inspection, grinding, welding, or low-volume replacement-part production—and document the current manual process, required tolerances, cycle time, and prospective test site. Use NSF’s suitability assessment and eligibility rules before spending on a proposal. Falsification step: obtain a written process specification or sample part from one potential test user and determine whether the task can be evaluated with off-the-shelf sensors/robotics; abandon the wedge if no test artifact or measurable acceptance crit
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://seedfund.nsf.gov/topics/robotics/; https://www.businessdefense.gov/investments.html
 
 ### Spanish (Chile) AI-training evaluation work through Outlier [opp_4112cb1232648624dc0b]
 - Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile

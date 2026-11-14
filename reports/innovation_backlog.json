@@ -5552,6 +5552,42 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Extract the obligations and unresolved fields from NCG 569 and related CMF materials into a 2-3 page gap checklist. Test it with publicly listed Chilean financial institutions or registered fintech participants through ordinary business-contact channels, asking only whether the checklist matches their implementation concerns. Falsification step: obtain two independent confirmations that a specific recurring implementation problem exists before building software or seeking payment. If institutions will not validate a concrete problem, return zero rather than launching a generic compliance service.",
+      "current_thesis": "The near-term opportunity is not a finished API product or guaranteed integration contract. It is a low-cost validation wedge: convert the published technical requirements into a testable data-field, consent, security, and operational-readiness checklist for smaller regulated or participating entities.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Compliance-data implementation wedge for Chile’s developing Open Finance System",
+      "opportunity_id": "opp_55ea1613f3f7f5bebbee",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000098/managementcommentary2q2026.pdf",
+        "https://www.sec.gov/Archives/edgar/data/19957/000110465926079411/tm2617334d1_ex99-e.htm"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Potential paid implementation assessment, requirements mapping, or test-harness work if an institution confirms the need. No buyer, price, or permission is assumed.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use only the public CMF developer documentation first. Implement a minimal validator against the published OpenAPI/YAML examples and build a mock provider/client pair; do not assume access to the restricted CMF test environment. Test with 3–5 Chilean fintech or banking-integration teams by offering a free 30-minute review of one anonymized API payload or consent-flow diagram. Falsification threshold: if no target team identifies at least one concrete conformance problem, requests the validator, or agrees to evaluate a paid pilot, stop. Separately verify whether the CMF sandbox application process is available before relying on it; do not claim certification or regulatory approval.",
       "current_thesis": "Participants and prospective fintech providers will need to validate consent flows, API payloads, endpoint behavior, audit records, and implementation readiness before regulated information exchange becomes operational. The narrow opportunity is not generic consulting: it is a reusable automated test harness plus evidence pack that checks an implementation against published CMF schemas and produces remediation findings.",
       "founder_hours_initial_unverified_estimate": "",
@@ -6277,6 +6313,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "A documented feedstock-aggregation route: obtain material from one identifiable institutional source, sort and record composition, then sell or transfer it to an existing recycler or processor under its stated acceptance terms. Revenue, price, and acceptance are unknown until verified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "physical_distribution",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Download the RFQ attachments and BOM, identify 10-20 line items with domestic-equivalent requirements, obtain written distributor quotes and manufacturer compliance documents, then search SAM.gov and DOE laboratory procurement portals for substantially similar open solicitations. Falsification step: spend no more than one day checking whether the BOM contains items available from authorized distributors at prices that could support resale after freight, warranty, and compliance costs. Do not buy inventory or represent authorization until a live solicitation or purchase order exists.",
+      "current_thesis": "A small distributor or technically qualified reseller could assemble a compliant domestic-equivalent bill of materials, document substitutions, and monitor similar laboratory or DOE procurements where buyers need non-brand or domestic alternatives.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States; Oak Ridge, Tennessee",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Domestic-equivalent sourcing for DOE industrial-control components",
+      "opportunity_id": "opp_1c5c5c8315b4b0ca7bb0",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Compare local product availability to supplier catalogs and independent consumer interest.",
+        "Check import, tax, return, certification and delivery economics before estimating margin.",
+        "Try a legitimate pre-order/waitlist test with transparent fulfillment conditions."
+      ],
+      "supporting_source_urls": [
+        "https://sam.gov/workspace/contract/opp/cb336d90ddc149a2b42ecd76a58d8fdd/view",
+        "https://www.businessdefense.gov/investments.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Resale or sourcing spread on industrial-control components; possible engineering/documentation fee only if a buyer explicitly accepts it. No margin or buyer economics are assumed.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -7547,6 +7619,42 @@
       "category": "robotics_agritech",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Choose one measurable task—such as inspection, grinding, welding, or low-volume replacement-part production—and document the current manual process, required tolerances, cycle time, and prospective test site. Use NSF’s suitability assessment and eligibility rules before spending on a proposal. Falsification step: obtain a written process specification or sample part from one potential test user and determine whether the task can be evaluated with off-the-shelf sensors/robotics; abandon the wedge if no test artifact or measurable acceptance criterion is available.",
+      "current_thesis": "A small US company with a specific manufacturing bottleneck could pursue non-dilutive validation funding for a narrowly defined robotic cell, inspection workflow, or on-demand replacement-part process. This is a funding and pilot route, not evidence of an already validated commercial product.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Small-business route into on-demand robotic manufacturing and parts production",
+      "opportunity_id": "opp_1d7719596ea3f8c399d7",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
+        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
+        "Arrange a bounded field validation with an actual farm operator before scaling."
+      ],
+      "supporting_source_urls": [
+        "https://seedfund.nsf.gov/topics/robotics/",
+        "https://www.businessdefense.gov/investments.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Potential NSF SBIR award and subsequent equipment, pilot, or production revenue if a narrowly defined technical proposal is accepted and a real end user validates the use case. Award probability and revenue are unknown.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "robotics_agritech",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use the publicly listed CLP 4,790,000 100 m² system as a capital benchmark and request a written quotation for a smaller sunlight-based NFT installation. Before purchasing, secure nonbinding product specifications and price commitments from at least three prospective local buyers such as restaurants, specialty grocers, or produce distributors; then run one crop cycle with documented labor hours, energy, water, sell-through, rejection, and realized price. Falsify by spending only on buyer interviews, samples, and a small test bed; abandon the production route if buyers will not commit to a price or recurring pickup schedule that covers measured direct costs.",
       "current_thesis": "The evidence does not support building a capital-intensive LED vertical farm as a small-operator opportunity. A narrower, testable mechanism is selling or operating sunlight-based NFT capacity near a verified local buyer, where the offer is fresher or more reliable supply rather than lower commodity cost. Payback remains unproven because the cited Chilean gross-margin study is not directly comparable to every commercial NFT design and does not establish a buyer contract.",
       "founder_hours_initial_unverified_estimate": "",
@@ -7691,7 +7799,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-14T11:14:10.610777+00:00",
+  "generated_at": "2026-11-14T17:40:19.246472+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

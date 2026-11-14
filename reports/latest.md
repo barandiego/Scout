@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-14T11:14:09.986218+00:00
+Generated: 2026-11-14T17:40:18.770042+00:00
 
-- outcome: SUCCESS
+- outcome: DEGRADED_SUCCESS
 - ok: True
-- lenses: ['geographic_arbitrage', 'ai_open_source', 'public_markets']
+- lenses: ['physical_commerce', 'regulation_infrastructure', 'robotics_automation']
 - raw_candidates: 3
 - parseable_candidates: 3
 - normalized_candidates: 3
 - normalization_rejected: 0
-- grounded_sources: 7
+- grounded_sources: 6
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 1
+- judge_attempts: 0
 - critic_reviews: 1
-- judge_reviews: 1
+- judge_reviews: 0
 - survivors: 0
-- watches: 4
+- watches: 3
 - rejected: 0
-- errors_by_stage: {}
+- errors_by_stage: {'critic': 1}
 - rejection_reasons: {}
-- cost_usd: 0.048004
+- cost_usd: 0.02995335
 - cost_uncertain: False
-- budget_remaining_usd: 0.031996
+- budget_remaining_usd: 0.05004665
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,9 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Chile: low-cost energy submetering and BESS-readiness checks for small commercial sites: This is a legitimately narrow, falsifiable service hypothesis rather than an unsupported BESS investment claim: the immediate payer would be a small commercial/industrial site purchasing a diagnostic, while BESS is only a possible later recommendation. Official SEC material supports that compliance and qualified-installation issues are real and relevant, and meter supply is observable. However, there is no named customer, asset operator, bottleneck, or paying load; no demonstrated willingness to pay; no compliant installed workflow; and no proof that a short measurement window yields decisions worth more than the diagnostic. It therefore does not yet meet the rubric’s economics, local feasibility, or differentiated-wedge requirements, but it is not fatally disproven because a paid diagnostic can be tested without underwriting storage economics or making bankability claims.
-- Chile SFA/ATENA conformance test harness for regulated participants: deferred_by_review_cap
-- High-density data-center infrastructure exposure with contracted customer capacity: deferred_by_review_cap
 - TELUS Digital Online Data Analyst — Chile: deferred_by_review_cap
 - Open-source LLM serving cost-and-capacity benchmark for a fixed workload: deferred_by_review_cap
 - Pre-spin-off event-driven position in Flex’s Cloud and Power Infrastructure separation: deferred_by_review_cap
@@ -51,13 +48,17 @@ No survivors. Scout does not manufacture a daily winner.
 - Pre-compliance integration testing for Chile’s Open Finance System: deferred_by_review_cap
 - Chile cross-border landed-cost and product-compliance layer for sub-US$500 imports: deferred_by_review_cap
 - Uncertainty-gated compute allocation benchmark for agentic workloads: deferred_by_review_cap
+- Small-business route into on-demand robotic manufacturing and parts production: deferred_by_review_cap
+- Compliance-data implementation wedge for Chile’s developing Open Finance System: deferred_by_review_cap
+- Domestic-equivalent sourcing for DOE industrial-control components: critic_invalid_output
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=backlog",
-    "research_queue_unreviewed=101"
+    "deep_review_lane=fresh",
+    "research_queue_unreviewed=103",
+    "critic:invalid_decision"
   ],
   "stages": [
     {
@@ -65,38 +66,26 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 30,
+      "grounded_source_count": 18,
       "search_source_urls": [
-        "https://apnews.com/article/e78ccd51a7f66099d84fda885d2907a3",
-        "https://arxiv.org/abs/2603.16458",
-        "https://arxiv.org/abs/2608.14707",
-        "https://arxiv.org/abs/2610.14793",
-        "https://arxiv.org/abs/2611.05392",
-        "https://chocale.cl/2026/07/fne-pide-mas-transparencia-a-las-plataformas-de-e-commerce/",
-        "https://cibe.bolsadesantiago.com/Documentos/Noticias/Hechos%20Esenciales/hes_2026070496235.pdf",
-        "https://en.wikipedia.org/wiki/Aclara_Resources",
-        "https://en.wikipedia.org/wiki/Antofagasta_plc",
-        "https://en.wikipedia.org/wiki/Shopee",
-        "https://es.wikipedia.org/wiki/Shopee",
-        "https://financialfilings.com/companies/countries/chile/",
-        "https://www.axios.com/newsletters/axios-pro-rata-39a292f6-edf2-4429-b1d0-e562da2ba819",
-        "https://www.axios.com/newsletters/axios-pro-rata-8b88c78a-23fd-4eb9-91bf-466e46447815",
-        "https://www.axios.com/newsletters/axios-pro-rata-dc37cb7d-13c4-4aff-9679-e82a79b5700b",
-        "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html",
-        "https://www.cmfchile.cl/portal/prensa/625/articles-82778_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html",
-        "https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
-        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=6478dda17297672085fb49eb6ad0fda4VFdwQmVVNXFRVEZOUkUweFQxUmpkMDlCUFQwPQ%3D%3D&secuencia=-1&t=1781887982",
-        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640",
-        "https://www.euromonitor.com/retail-e-commerce-in-chile/report",
-        "https://www.fne.gob.cl/en/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-plataformas/",
-        "https://www.fne.gob.cl/wp-content/uploads/2026/04/FNE_Informe_Preliminar_EM_Comercio_Electronico_EM10_2024.pdf",
-        "https://www.sii.cl/destacados/iva_bienes/plataformas_inscritas/",
-        "https://www.sii.cl/vat/general_instruction_39_2025.pdf",
-        "https://www.trade.gov/country-commercial-guides/chile-ecommerce"
+        "https://2021-2025.state.gov/reports/2024-investment-climate-statements/chile",
+        "https://commerce.maryland.gov/fund/maryland-manufacturing-4-0?hss_channel=lis-bjWyncfzdJ",
+        "https://commerce.maryland.gov/media/143",
+        "https://comptroller.war.gov/Portals/45/Documents/defbudget/FY2025/budget_justification/pdfs/03_RDT_and_E/RDTE_OSD_PB_2025.pdf",
+        "https://sam.gov/workspace/contract/opp/cb336d90ddc149a2b42ecd76a58d8fdd/view",
+        "https://seedfund.nsf.gov/awardees/phase-1/details/?company=tunabotics-llc",
+        "https://seedfund.nsf.gov/awardees/phase-2/details/?company=orion-therapeutics-inc",
+        "https://seedfund.nsf.gov/topics/robotics/",
+        "https://www.businessdefense.gov/investments.html",
+        "https://www.census.gov/foreign-trade/Press-Release/ft900/final_2025.pdf",
+        "https://www.census.gov/foreign-trade/data/dataproducts.html",
+        "https://www.commerce.nc.gov/index.php/onencsmallbusinessprogramreportcommerce202691/download?attachment=",
+        "https://www.govinfo.gov/content/pkg/PLAW-119publ60/pdf/PLAW-119publ60.pdf",
+        "https://www.mass.gov/news/healey-driscoll-administration-awards-66-million-to-grow-massachusetts-robotics-industry",
+        "https://www.sbir.gov/awards/218956",
+        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000098/managementcommentary2q2026.pdf",
+        "https://www.sec.gov/Archives/edgar/data/19957/000110465926079411/tm2617334d1_ex99-e.htm",
+        "https://www.sec.gov/Archives/edgar/data/19957/000110465926112319/tm2624607d1_ex99-d.htm"
       ]
     },
     {
@@ -126,7 +115,7 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 3,
+      "grounded_sources": 2,
       "retry_justified": false
     },
     {
@@ -146,114 +135,60 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_3fc8fe5d5af829de71b9",
+      "candidate_id": "opp_1c5c5c8315b4b0ca7bb0",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 37,
+      "grounded_source_count": 18,
       "search_source_urls": [
-        "https://acenor.cl/wp-content/uploads/2025/12/energiE-PPU_Analisis-del-Precio-Estabilizado-de-los-PMGD-y-PMG_Informe-Definitivo-completo.pdf.pdf",
-        "https://apnews.com/article/695ca45d03df77bc207941ae7ca66fca",
-        "https://apnews.com/article/6e78fb86160d6cabe12f245307706cf4",
-        "https://arxiv.org/abs/2409.09263",
-        "https://centra.uai.cl/el-boom-de-los-proyectos-de-almacenamiento-de-energia-en-la-zona/?lang=en",
-        "https://centra.uai.cl/los-bess-son-una-pieza-estrategica-para-la-transicion-energetica/?lang=en",
-        "https://cincodias.elpais.com/companias/2026-02-12/grenergy-cierra-una-financiacion-de-300-millones-para-su-plataforma-central-oasis-en-chile.html",
-        "https://cincodias.elpais.com/companias/2026-03-03/la-espanola-solarig-cierra-un-acuerdo-con-tesla-para-el-mantenimiento-de-sus-baterias-estacionarias-en-chile.html",
-        "https://cincodias.elpais.com/companias/2026-09-02/grenergy-cierra-la-venta-a-cvc-dif-de-la-cuarta-fase-de-su-proyecto-de-almacenamiento-en-chile-por-410-millones.html",
-        "https://ebs.publicnow.com/view/566D3311556EBE2538FB21E917879F35F36F6431",
-        "https://elpais.com/chile/2026-07-16/ordenar-la-cuenta-electrica-con-un-cheque-en-blanco.html",
-        "https://elpais.com/ciencia/2026-02-12/cancelado-el-megaproyecto-industrial-que-amenazaba-en-chile-uno-de-los-observatorios-astronomicos-mas-importantes-del-mundo.html",
-        "https://en.wikipedia.org/wiki/Curtailment_in_Chile",
-        "https://en.wikipedia.org/wiki/Grenergy",
-        "https://en.wikipedia.org/wiki/Solar_power_in_Chile",
-        "https://energia.gob.cl/node/24995",
-        "https://energia.gob.cl/node/26414",
-        "https://energia.gob.cl/node/27232",
-        "https://es.wikipedia.org/wiki/Apag%C3%B3n_de_Chile_de_2025",
-        "https://es.wikipedia.org/wiki/Sistema_de_almacenamiento_de_energ%C3%ADa_en_bater%C3%ADas",
-        "https://es.wikipedia.org/wiki/Transici%C3%B3n_energ%C3%A9tica",
-        "https://iea.blob.core.windows.net/assets/88bb4abe-0308-42f9-a46f-c776a9528522/Electricity_2026.pdf",
-        "https://www.bcn.cl/leychile/Navegar?idNorma=1150437&idParte=10165987&idVersion=2026-07-14",
-        "https://www.cne.cl/wp-content/uploads/2026/02/2026.02.19_NTCO-PMGD-2026.pdf",
-        "https://www.cne.cl/wp-content/uploads/2026/02/RMensual_ERNC_v202602.pdf",
-        "https://www.cne.cl/wp-content/uploads/2026/10/RMensual_v202610.pdf",
-        "https://www.coordinador.cl/desarrollo/documentos/pequenos-medios-generacion-distribuida/reportes-mensuales-pmgd/",
-        "https://www.coordinador.cl/novedades/coordinador-electrico-nacional-limita-operacion-de-17-pequenas-centrales-de-generacion-solares/",
-        "https://www.coordinador.cl/presentaciones/estudio-de-verificacion-de-posibles-congestiones-en-transmision-zonal-por-inyeccion-de-pmgd/",
-        "https://www.coordinador.cl/wp-content/uploads/2026/04/Informe-Monitoreo-2025.pdf",
-        "https://www.energia.gob.cl/mini-sitio/reglamentos",
-        "https://www.itpro.com/infrastructure/data-centres/is-bess-the-key-to-data-center-energy-demand",
-        "https://www.reddit.com/r/chile/comments/1m5xcig",
-        "https://www.sec.cl/pequenos-medios-de-generacion/",
-        "https://www.techradar.com/pro/has-china-cracked-the-ai-data-center-power-problem-new-800-volt-dc-power-system-is-a-world-first-offering-greater-efficiency-and-conversion-than-ever",
-        "https://www.theatlantic.com/science/2026/11/electric-vehicle-battery-reuse/689326/",
-        "https://www.tomshardware.com/tech-industry/data-centers/china-builds-massive-800-megawatt-ai-data-center-campus-to-rival-us-stargate-project-galaxy-campus-delivers-first-120-megawatts-in-a-year-at-one-fifth-the-cost"
+        "https://bidbanana.thebidlab.com/bid/b9vxxl9A6w5AkzP6VIwt",
+        "https://bidscopeai.com/opportunities/292d9dda-2648-4c01-b48f-ba2d133c4065",
+        "https://console.sweetspotgov.com/federal-contracts/5147af61-3e6f-5004-91b0-be7071533e81",
+        "https://console.sweetspotgov.com/federal-contracts/efcba96e-fdcf-581e-b375-bcc1ee8cabb8",
+        "https://contracts.ornl.gov/wp-content/uploads/2024/03/00.-Instructions-to-Offerors-BSD-CS-2282.pdf",
+        "https://govtribe.com/opportunity/federal-contract-opportunity/isa-rf-plc-upgrade-modules-no-substitutes-462284ab?recommendationType=similar_recommendations",
+        "https://govtribe.com/opportunity/federal-contract-opportunity/smart-chassis-materials-no-substitutes-ab483465",
+        "https://info.ornl.gov/sites/publications/Files/Pub174416.pdf",
+        "https://publicbidsearch.com/bids/siemens-industrial-automation-and-control-system-components-oak-ridge-tn-4e9293",
+        "https://sam.gov/opp/8531ac24230b4860ab3964c71c3a7a50/view",
+        "https://sam.gov/opp/cb336d90ddc149a2b42ecd76a58d8fdd/view",
+        "https://starbridge.ai/rfp/allen-bradley-controllogix-plc-and-motion-control",
+        "https://www.acq.osd.mil/dpap/dars/pgi/pgi_pdf/r20240215/PGI208_70.pdf",
+        "https://www.commerce.gov/sites/default/files/2023-06/UNSPSC-FSC%20Master%20Crosswalk%2006232023.pdf",
+        "https://www.highergov.com/contract-opportunity/commercial-controllogix-plc-components-pr489586-k-de495/",
+        "https://www.jlab.org/sites/default/files/dsg/talks/hall-a/ECal%20Controls%20Update%202023-08-03_post.pdf",
+        "https://www.tennesseebids.com/government-agencies/anderson/oak-ridge-national-laboratory---dept.-of-energy-46863/",
+        "https://www.udel.edu/content/dam/udelImages/procurement/trainingresources/p2p/CCACCrosswalkJuly2025.pdf"
       ]
-    },
-    {
-      "stage": "critic",
-      "candidate_id": "opp_3fc8fe5d5af829de71b9",
-      "coercions": [
-        "critic_case",
-        "contrary_evidence"
-      ]
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_3fc8fe5d5af829de71b9",
-      "response_status": "completed",
-      "incomplete_reason": "",
-      "grounded_source_count": 0,
-      "search_source_urls": []
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_3fc8fe5d5af829de71b9",
-      "coercions": []
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 152,
-      "cache_write_tokens": 5423,
+      "reasoning_tokens": 263,
+      "cache_write_tokens": 5412,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01517235,
+      "cumulative_cost_usd": 0.0151032,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13856,
+      "input_tokens": 13741,
       "cached_tokens": 0,
-      "output_tokens": 1775,
+      "output_tokens": 1737,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01517235
+      "estimated_cost_usd": 0.0151032
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 141,
-      "cache_write_tokens": 5557,
+      "reasoning_tokens": 178,
+      "cache_write_tokens": 5235,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.029794,
+      "cumulative_cost_usd": 0.02995335,
       "model": "gpt-5.6-luna",
-      "input_tokens": 14123,
+      "input_tokens": 13540,
       "cached_tokens": 0,
-      "output_tokens": 1266,
+      "output_tokens": 1567,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01462165
-    },
-    {
-      "stage": "judge",
-      "available": true,
-      "reasoning_tokens": 132,
-      "cache_write_tokens": 3888,
-      "accounting_notes": [],
-      "cumulative_cost_usd": 0.048004,
-      "model": "gpt-5.6-terra",
-      "input_tokens": 3891,
-      "cached_tokens": 0,
-      "output_tokens": 707,
-      "web_search_calls": 0,
-      "estimated_cost_usd": 0.01821
+      "estimated_cost_usd": 0.01485015
     }
   ]
 }

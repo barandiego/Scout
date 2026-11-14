@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 202
+Candidates: 205
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -1756,6 +1756,18 @@ Candidates: 202
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html
 
+## Compliance-data implementation wedge for Chile’s developing Open Finance System
+- Status: watch | open_finance_chile
+- Current idea: The near-term opportunity is not a finished API product or guaranteed integration contract. It is a low-cost validation wedge: convert the published technical requirements into a testable data-field, consent, security, and operational-readiness checklist for smaller regulated or participating entities.
+- Potential economic capture: Potential paid implementation assessment, requirements mapping, or test-harness work if an institution confirms the need. No buyer, price, or permission is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.sec.gov/Archives/edgar/data/1027552/000102755226000098/managementcommentary2q2026.pdf; https://www.sec.gov/Archives/edgar/data/19957/000110465926079411/tm2617334d1_ex99-e.htm
+
 ## Consent-and-API compliance test harness for Chilean Open Finance participants
 - Status: watch | open_finance_chile
 - Current idea: Participants and prospective fintech providers will need to validate consent flows, API payloads, endpoint behavior, audit records, and implementation readiness before regulated information exchange becomes operational. The narrow opportunity is not generic consulting: it is a reusable automated test harness plus evidence pack that checks an implementation against published CMF schemas and produces remediation findings.
@@ -1983,6 +1995,18 @@ Candidates: 202
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.gao.gov/products/gao-26-108687; https://www.iea.org/reports/global-critical-minerals-outlook-2026
+
+## Domestic-equivalent sourcing for DOE industrial-control components
+- Status: watch | physical_distribution
+- Current idea: A small distributor or technically qualified reseller could assemble a compliant domestic-equivalent bill of materials, document substitutions, and monitor similar laboratory or DOE procurements where buyers need non-brand or domestic alternatives.
+- Potential economic capture: Resale or sourcing spread on industrial-control components; possible engineering/documentation fee only if a buyer explicitly accepts it. No margin or buyer economics are assumed.
+- **Research routes to test (NOT validated claims):**
+  - Compare local product availability to supplier catalogs and independent consumer interest.
+  - Check import, tax, return, certification and delivery economics before estimating margin.
+  - Try a legitimate pre-order/waitlist test with transparent fulfillment conditions.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://sam.gov/workspace/contract/opp/cb336d90ddc149a2b42ecd76a58d8fdd/view; https://www.businessdefense.gov/investments.html
 
 ## Licensed-feedstock matching for antimony-bearing lead-battery scrap
 - Status: watch | physical_distribution
@@ -2379,6 +2403,18 @@ Candidates: 202
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.nifa.usda.gov/about-nifa/impacts/automation-specialty-crops; https://ers.usda.gov/topics/farm-economy/farm-labor; https://fieldreport.caes.uga.edu/publications/B1594/agribots-autonomous-ground-robots-for-specialty-crops/; https://maiaapples.com/wp-content/uploads/2024/01/NYFQ-BOOK-Summer-2023_FINAL.pdf
+
+## Small-business route into on-demand robotic manufacturing and parts production
+- Status: watch | robotics_agritech
+- Current idea: A small US company with a specific manufacturing bottleneck could pursue non-dilutive validation funding for a narrowly defined robotic cell, inspection workflow, or on-demand replacement-part process. This is a funding and pilot route, not evidence of an already validated commercial product.
+- Potential economic capture: Potential NSF SBIR award and subsequent equipment, pilot, or production revenue if a narrowly defined technical proposal is accepted and a real end user validates the use case. Award probability and revenue are unknown.
+- **Research routes to test (NOT validated claims):**
+  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
+  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
+  - Arrange a bounded field validation with an actual farm operator before scaling.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://seedfund.nsf.gov/topics/robotics/; https://www.businessdefense.gov/investments.html
 
 ## Sunlit NFT hydroponic production or retrofit pilots instead of LED vertical farming
 - Status: watch | robotics_agritech
