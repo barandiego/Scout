@@ -1,16 +1,28 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-15T15:45:05.901964+00:00
+Generated: 2026-11-15T21:08:04.709459+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 174
+- New this cycle: 159
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 629, ai 100, energy 579, robotics 492
+- Categories: agriculture 636, ai 95, energy 584, robotics 485
 
 ## Recently encountered signals
+
+### Siri-B88/Field-Shift
+- Source: https://github.com/Siri-B88/Field-Shift
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### divy151005/KrishiGuard_AI
+- Source: https://github.com/divy151005/KrishiGuard_AI
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### mihirakanshana/AI-Crop-Leaf-Disease-Doctor-with-Soil-Telemetry-project
 - Source: https://github.com/mihirakanshana/AI-Crop-Leaf-Disease-Doctor-with-Soil-Telemetry-project
@@ -446,18 +458,6 @@ Generated: 2026-11-15T15:45:05.901964+00:00
 
 ### laxminaiknaik1-byte/AgriVision-AI
 - Source: https://github.com/laxminaiknaik1-byte/AgriVision-AI
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Hydrogen and Biomass‐Based Hybrid Energy Storage Systems Converted Into Battery‐Dominant Energy Architectures for Grid Integration and Transportation Electrification
-- Source: https://doi.org/10.1002/bte2.70156
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### hkgupta005-sketch/AgriMind
-- Source: https://github.com/hkgupta005-sketch/AgriMind
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
