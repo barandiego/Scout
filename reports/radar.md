@@ -1,16 +1,28 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-14T18:22:42.463602+00:00
+Generated: 2026-11-15T00:00:14.922641+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 171
+- New this cycle: 148
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): none
-- Categories: agriculture 626, ai 100, energy 568, robotics 506
+- Feed failures (fail-open for public intake only): hn_energy:unavailable_or_invalid, hn_ai:unavailable_or_invalid, crossref_energy:unavailable_or_invalid
+- Categories: agriculture 626, ai 98, energy 568, robotics 508
 
 ## Recently encountered signals
+
+### khadseyash726-eng/Filed-shift--Adapting-Farms-with-NASA-data
+- Source: https://github.com/khadseyash726-eng/Filed-shift--Adapting-Farms-with-NASA-data
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### khadseyash726-eng/JALVAYU360
+- Source: https://github.com/khadseyash726-eng/JALVAYU360
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### atibsso500-byte/Torba-.-Nasa
 - Source: https://github.com/atibsso500-byte/Torba-.-Nasa
@@ -446,18 +458,6 @@ Generated: 2026-11-14T18:22:42.463602+00:00
 
 ### tirumalasaip-droid/kisanMitra
 - Source: https://github.com/tirumalasaip-droid/kisanMitra
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Multi-timescale energy management and techno-economic optimization of battery–hydrogen storage hybrid AC/DC microgrid for off-grid rural electrification
-- Source: https://doi.org/10.1016/j.weer.2026.100046
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Thrinadh-ai/Smart-Agriculture
-- Source: https://github.com/Thrinadh-ai/Smart-Agriculture
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
