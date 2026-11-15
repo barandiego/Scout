@@ -1,87 +1,37 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 100000.0,
-      "buyer": "13° Juzgado de Garantia de Santiago",
-      "closes_at": "2026-11-17T13:00:00",
-      "code": "765972-18-COT26",
-      "estimated_budget": 100000.0,
-      "name": "Adquisición de pizarras autoadhesivas",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 1200000.0,
-      "buyer": "SLEP MARGA MARGA",
-      "closes_at": "2026-11-17T15:00:00",
-      "code": "1480972-968-COT26",
-      "estimated_budget": 1200000.0,
-      "name": "TRANSPORTE 30 NOVIEMBRE LICEO MARY GRAHAM",
-      "products": 1,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 250000.0,
-      "buyer": "13° Juzgado de Garantia de Santiago",
-      "closes_at": "2026-11-17T13:00:00",
-      "code": "765972-17-COT26",
-      "estimated_budget": 250000.0,
-      "name": "Adquisición materiales de oficina",
-      "products": 9,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 6870000.0,
-      "buyer": "SECCIÓN COMPRAS XIV ZONA",
-      "closes_at": "2026-11-15T20:30:00",
-      "code": "1079694-377-COT26",
-      "estimated_budget": 6870000.0,
-      "name": "Adquisición de neumáticos destinados a las motocicletas cargo de diferentes unidades y destacamentos dependientes de la Zona de Carabineros de Los Ríos.",
-      "products": 1,
-      "region": "Región de Los Ríos"
-    },
-    {
-      "available_budget_clp": 120000.0,
-      "buyer": "13° Juzgado de Garantia de Santiago",
-      "closes_at": "2026-11-17T15:00:00",
-      "code": "765972-16-COT26",
-      "estimated_budget": 120000.0,
-      "name": "Adquisición de materiales de aseo",
-      "products": 5,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 7200000.0,
-      "buyer": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUR",
-      "closes_at": "2026-11-16T15:30:00",
-      "code": "1422832-287-COT26",
-      "estimated_budget": 7200000.0,
-      "name": "(ASA) EXAMEN de AngioTAC coronario pediátrico",
-      "products": 1,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 900000.0,
-      "buyer": "I.MUNICIPALIDAD DE ROMERAL",
-      "closes_at": "2026-11-15T20:21:00",
-      "code": "4475-444-COT26",
-      "estimated_budget": 900000.0,
-      "name": "Servicio de capacitación de Lengua de Señas para la comunidad educativa de la Escuela América Latina",
+      "available_budget_clp": 1720000.0,
+      "buyer": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA MAULE COSTA",
+      "closes_at": "2026-11-16T18:00:00",
+      "code": "1233619-799-COT26",
+      "estimated_budget": 1720000.0,
+      "name": "Adquisición de Suministros de Equipamiento de Red Wifi para el Liceo Bicentenario de Cauquenes",
       "products": 1,
       "region": "Región del Maule"
     },
     {
-      "available_budget_clp": 1000000.0,
-      "buyer": "I MUNICIPALIDAD DE TRAIGUEN",
-      "closes_at": "2026-11-16T16:30:00",
-      "code": "3517-254-COT26",
-      "estimated_budget": 1000000.0,
-      "name": "Bicicletas para Cecosf Pantano del DSM Traiguén",
+      "available_budget_clp": 100000.0,
+      "buyer": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA MAULE COSTA",
+      "closes_at": "2026-11-16T18:00:00",
+      "code": "1233619-798-COT26",
+      "estimated_budget": 100000.0,
+      "name": "Adquisición de Insumos para Plotter de Corte Silhouette Cameo 4 de la Escuela Aníbal Pinto",
       "products": 1,
-      "region": "Región de la Araucanía"
+      "region": "Región del Maule"
+    },
+    {
+      "available_budget_clp": 60000.0,
+      "buyer": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA MAULE COSTA",
+      "closes_at": "2026-11-16T18:00:00",
+      "code": "1233619-797-COT26",
+      "estimated_budget": 60000.0,
+      "name": "Adquisición de Premios para Estudiantes de la Escuela Porongo y la Escuela Purísima Concepción",
+      "products": 2,
+      "region": "Región del Maule"
     }
   ],
-  "active_structurally_reconstructable_count": 8,
+  "active_structurally_reconstructable_count": 3,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -99,7 +49,7 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-14T23:58:58Z",
+  "generated_at": "2026-11-15T06:48:52Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -110,14 +60,14 @@
       "missing_products": 1,
       "no_observable_competitive_prices": 7
     },
-    "resolved": 12,
-    "structurally_reconstructable": 12,
-    "with_observable_quote_totals": 5,
+    "resolved": 17,
+    "structurally_reconstructable": 13,
+    "with_observable_quote_totals": 10,
     "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-14T23:58:58Z"
+    "changed_to": "2026-11-15T06:48:52Z"
   }
 }
