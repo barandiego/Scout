@@ -300,42 +300,6 @@
       "category": "chile_localization",
       "commercially_validated": false,
       "competition_confirmed": false,
-      "current_participation_path": "Apply through CrowdGen’s official Lever page, confirming current Chile residence and native Chilean Spanish status. Before recording all units, verify the project account, acceptance criteria and payout conditions. Lowest-cost falsification: apply, complete any qualification sample, and calculate actual minutes per accepted sentence; proceed only if the effective rate and payout terms are acceptable. No fee or deposit is indicated in the listing.",
-      "current_thesis": "This is a narrowly defined, low-complexity data-collection assignment with a verifiable piece-rate mechanism. At the listed rate, 400 completed units would imply USD 12 gross before any applicable taxes or payment constraints, but completion time and acceptance are unknown; therefore it is a small paid test rather than a reliable income source.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "Chile",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "Chilean Spanish speech-data recording project — CrowdGen by Appen",
-      "opportunity_id": "opp_96318e1351fad6b1e1dc",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Find the smallest Chilean workflow whose economics differ from the original geography.",
-        "Secure lawful access, partners and after-sales support rather than copy protected technology.",
-        "Run a buyer interview or mock listing to falsify assumptions before capital commitment."
-      ],
-      "supporting_source_urls": [
-        "https://jobs.lever.co/appen/27404a7a-4fca-42e3-bae4-072148d17dce",
-        "https://jobs.lever.co/appen/27404a7a-4fca-42e3-bae4-072148d17dce/apply?lever-source=BilingualJobs.io"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "Submit accepted audio units under the project’s quality rules and receive the listed piece-rate payment if selected and if recordings pass validation.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "chile_localization",
-      "commercially_validated": false,
-      "competition_confirmed": false,
       "current_participation_path": "Select one CNR contest and one crop-growing area. Use the public CNR consultant directory and contest requirements to identify three authorized or established irrigation designers/installers. Ask five eligible farms, cooperatives or water-user organizations for permission to review one existing irrigation system and collect: hectares, crop, pump rating, irrigation hours, sectors, water source, electricity bill and prior subsidy history. Prepare one no-cost preliminary design and ask the farmer whether they would submit a paid proposal or introduce the operator to their authorized consultant. Falsify if fewer than two of five prospects have an eligible project, sufficient documentation or willingness to pay the uncovered portion after a preliminary design.",
       "current_thesis": "The economically testable wedge is not building a new vertical farm; it is supplying standardized drip irrigation, pumping, filtration, controls and water-measurement packages that fit an existing subsidy and application workflow. The subsidy can reduce the farmer’s required cash contribution, but approval, eligibility, land and water-right documentation remain constraints.",
       "founder_hours_initial_unverified_estimate": "",
@@ -1319,6 +1283,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Charge for a fixed measurement-and-reporting engagement plus the hardware at the publicly observable retail price; do not promise savings before a baseline is collected. A later opportunity could be referral or installation work with a qualified electrical professional, subject to applicable Chilean licensing and SEC requirements.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "energy_infrastructure",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Start with one accessible small manufacturer or industrial facility and obtain permission to perform a non-invasive baseline using an ultrasonic leak detector and temporary power/pressure logging. Produce a one-page quantified findings report before proposing any paid work. Independently check the facility's utility and state incentive programs, including whether the manufacturer is eligible for ITAC-style implementation support. Do not assume access, savings, grant eligibility, or a success fee until confirmed in writing.",
+      "current_thesis": "A small manufacturer may have a documented, measurable operating-cost reduction available from leak detection, pressure optimization, controls, or VFD installation, but the opportunity requires plant-specific measurement rather than a generic efficiency claim.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Compressed-air leak detection and control retrofit for small manufacturers",
+      "opportunity_id": "opp_488fdfa971bc2c6cff2d",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
+        "Compare owned asset, installer/distributor and project-finance participation.",
+        "Verify permits and installed net payback under conservative power price scenarios."
+      ],
+      "supporting_source_urls": [
+        "https://www.energy.gov/mesc/industrial-research-and-assessment-center-implementation-grant-awards",
+        "https://betterbuildingssolutioncenter.energy.gov/showcase-projects/detroit-diesel-corporation-using-strategic-energy-management-sem-improve-energy/printpdf"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A narrowly scoped diagnostic-and-installation offer: baseline compressed-air consumption, identify leaks and pressure waste, install or coordinate low-cost monitoring/control hardware, and quantify post-intervention consumption. Payment could come from the plant, an existing utility incentive, or a DOE/utility-backed implementation program; the appropriate payer and compensation structure must be confirmed locally.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -7586,6 +7586,79 @@
       "category": "robotics_agritech",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Select one crop and one operation, then contact the cited university extension or named technology company to verify whether a deployable unit, trial, license, or operator program exists. Before spending on equipment, obtain a written trial quote and a grower willing to provide a comparable manual-operation baseline. Falsify the wedge if no deployable unit, authorized access route, or grower-approved measurement trial can be secured at low cost.",
+      "current_thesis": "The strongest small-operator wedge is not building a general-purpose farm robot; it is brokering, demonstrating, or operating one specific commercially available or research-derived tool for one orchard task where labor cost and throughput can be measured.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States specialty-crop regions",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Lower-cost orchard automation wedge focused on one labor-intensive operation",
+      "opportunity_id": "opp_06119586462e850260cf",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
+        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
+        "Arrange a bounded field validation with an actual farm operator before scaling."
+      ],
+      "supporting_source_urls": [
+        "https://www.nifa.usda.gov/about-nifa/impacts/automation-specialty-crops",
+        "https://portal.nifa.usda.gov/enterprise-search/projects/1034641"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Potential mechanisms include paid field trials, seasonal equipment operation, equipment rental coordination, or referral/implementation fees from an existing manufacturer or grower—only after the counterparty, permissions, pricing, insurance, and performance terms are verified. No buyer, margin, or sale is assumed here.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "robotics_agritech",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Buy one sensor and one compatible timer at retail, assemble a transparent prototype, and test it on the operator's own plot or with a consenting small grower. Record baseline watering frequency, water use if metered, plant condition, and component failure rate for two to four weeks. Only proceed to paid bundles if the test produces a measurable result and a real customer agrees to purchase; independently compare at least three competing retail listings before claiming any product gap.",
+      "current_thesis": "The technical components are already commercially available at low retail prices, while smaller operators remain less likely to use precision tools. A simple, installation-ready moisture-triggered irrigation bundle may be testable without developing new hardware, but savings and willingness to pay must be measured at the specific site.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Moisture-triggered irrigation retrofit kit for small farms, nurseries, and high-value gardens",
+      "opportunity_id": "opp_79ec4a7511c0c487c566",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
+        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
+        "Arrange a bounded field validation with an actual farm operator before scaling."
+      ],
+      "supporting_source_urls": [
+        "https://www.ers.usda.gov/data-products/charts-of-note/110550",
+        "https://www.homedepot.com/p/206484992?cm_sp=BazVoice-_-QA_PQEP-_-206484992-_-x",
+        "https://www.homedepot.com/b/Outdoors-Garden-Center-Watering-Irrigation-Sprinkler-Systems-Sprinkler-Timers/Drip-and-Soaker-Hose-Compatible/Electronic/N-5yc1vZc63jZ1z0sgkoZ1z182c6"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Source existing soil-moisture sensors, timers, connectors, and irrigation fittings; sell a documented retrofit package or installation service to a narrowly defined local customer group. The economic mechanism is reduced unnecessary watering and labor, not an assumed recurring software subscription.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "robotics_agritech",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Start with public grower, extension, and organic-farm directories in one region. Contact 20 growers of the same crop and offer a low-cost diagnostic using their existing field records and a half-day field assessment. Proceed only if at least one grower agrees in writing to provide field access and pays a deposit or signs a paid pilot scope. The lowest-cost falsification test is to ask for a paid pretrial commitment before purchasing or building equipment. Do not represent the test as an equipment sale or claim savings until measured.",
       "current_thesis": "A narrow adoption wedge exists between proven weed-control automation and farms that still need crop-specific validation, equipment compatibility, and economics before purchasing. The economic mechanism is reduced hand-weeding labor, lower herbicide use, and potentially lower crop-loss risk.",
       "founder_hours_initial_unverified_estimate": "",
@@ -7877,7 +7950,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-15T04:49:08.757543+00:00",
+  "generated_at": "2026-11-15T15:20:45.974967+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

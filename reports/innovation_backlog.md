@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 207
+Candidates: 209
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -99,18 +99,6 @@ Candidates: 207
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.trade.gov/knowledge-product/chile-agricultural-machinery-and-equipment; https://www.mercadolibre.cl/kit-de-riego-por-goteo-300-metros/up/MLCU3697964384; https://www.utalca.cl/noticias/inauguran-sistema-que-produce-hortalizas-todo-el-ano-con-bajo-consumo-hidrico/
-
-## Chilean Spanish speech-data recording project — CrowdGen by Appen
-- Status: watch | chile_localization
-- Current idea: This is a narrowly defined, low-complexity data-collection assignment with a verifiable piece-rate mechanism. At the listed rate, 400 completed units would imply USD 12 gross before any applicable taxes or payment constraints, but completion time and acceptance are unknown; therefore it is a small paid test rather than a reliable income source.
-- Potential economic capture: Submit accepted audio units under the project’s quality rules and receive the listed piece-rate payment if selected and if recordings pass validation.
-- **Research routes to test (NOT validated claims):**
-  - Find the smallest Chilean workflow whose economics differ from the original geography.
-  - Secure lawful access, partners and after-sales support rather than copy protected technology.
-  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://jobs.lever.co/appen/27404a7a-4fca-42e3-bae4-072148d17dce; https://jobs.lever.co/appen/27404a7a-4fca-42e3-bae4-072148d17dce/apply?lever-source=BilingualJobs.io
 
 ## CNR-qualified irrigation retrofit package for small farms and water-user organizations
 - Status: watch | chile_localization
@@ -435,6 +423,18 @@ Candidates: 207
 - Critical gaps: Whether the target sites lack usable interval, inverter, submeter, or utility data.; Whether Chilean small commercial customers will pay for measurement before receiving a quantified savings or reliability claim.; Actual all-in cost of a compliant pilot, including certified electrical labor, travel, insurance, communications, configuration, data hosting, reporting, and device failure.
 - Possible initial budget:
 - Source URLs: https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/; https://listado.mercadolibre.cl/medidor-de-energia-wifi
+
+## Compressed-air leak detection and control retrofit for small manufacturers
+- Status: watch | energy_infrastructure
+- Current idea: A small manufacturer may have a documented, measurable operating-cost reduction available from leak detection, pressure optimization, controls, or VFD installation, but the opportunity requires plant-specific measurement rather than a generic efficiency claim.
+- Potential economic capture: A narrowly scoped diagnostic-and-installation offer: baseline compressed-air consumption, identify leaks and pressure waste, install or coordinate low-cost monitoring/control hardware, and quantify post-intervention consumption. Payment could come from the plant, an existing utility incentive, or a DOE/utility-backed implementation program; the appropriate payer and compensation structure must be confirmed locally.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.energy.gov/mesc/industrial-research-and-assessment-center-implementation-grant-awards; https://betterbuildingssolutioncenter.energy.gov/showcase-projects/detroit-diesel-corporation-using-strategic-energy-management-sem-improve-energy/printpdf
 
 ## Congestion-aware battery and demand-response screening for constrained Chilean nodes
 - Status: watch | energy_infrastructure
@@ -2391,6 +2391,30 @@ Candidates: 207
 - Critical gaps: Which crop, cultivar, training system, geography, and orchard size will be served first.; Required accuracy for a grower to alter harvest timing, labor allocation, thinning, packing, or sales decisions.; Whether maturity classification is sufficiently reliable under commercial lighting, canopy occlusion, and cultivar variation.
 - Possible initial budget:
 - Source URLs: https://www.nifa.usda.gov/about-nifa/impacts/automation-specialty-crops; https://www.ars.usda.gov/research/project/?accnNo=448156
+
+## Lower-cost orchard automation wedge focused on one labor-intensive operation
+- Status: watch | robotics_agritech
+- Current idea: The strongest small-operator wedge is not building a general-purpose farm robot; it is brokering, demonstrating, or operating one specific commercially available or research-derived tool for one orchard task where labor cost and throughput can be measured.
+- Potential economic capture: Potential mechanisms include paid field trials, seasonal equipment operation, equipment rental coordination, or referral/implementation fees from an existing manufacturer or grower—only after the counterparty, permissions, pricing, insurance, and performance terms are verified. No buyer, margin, or sale is assumed here.
+- **Research routes to test (NOT validated claims):**
+  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
+  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
+  - Arrange a bounded field validation with an actual farm operator before scaling.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.nifa.usda.gov/about-nifa/impacts/automation-specialty-crops; https://portal.nifa.usda.gov/enterprise-search/projects/1034641
+
+## Moisture-triggered irrigation retrofit kit for small farms, nurseries, and high-value gardens
+- Status: watch | robotics_agritech
+- Current idea: The technical components are already commercially available at low retail prices, while smaller operators remain less likely to use precision tools. A simple, installation-ready moisture-triggered irrigation bundle may be testable without developing new hardware, but savings and willingness to pay must be measured at the specific site.
+- Potential economic capture: Source existing soil-moisture sensors, timers, connectors, and irrigation fittings; sell a documented retrofit package or installation service to a narrowly defined local customer group. The economic mechanism is reduced unnecessary watering and labor, not an assumed recurring software subscription.
+- **Research routes to test (NOT validated claims):**
+  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
+  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
+  - Arrange a bounded field validation with an actual farm operator before scaling.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.ers.usda.gov/data-products/charts-of-note/110550; https://www.homedepot.com/p/206484992?cm_sp=BazVoice-_-QA_PQEP-_-206484992-_-x; https://www.homedepot.com/b/Outdoors-Garden-Center-Watering-Irrigation-Sprinkler-Systems-Sprinkler-Timers/Drip-and-Soaker-Hose-Compatible/Electronic/N-5yc1vZc63jZ1z0sgkoZ1z182c6
 
 ## Organic-crop robotic weeding retrofit and ROI trial
 - Status: watch | robotics_agritech

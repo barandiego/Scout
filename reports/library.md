@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-11-15T04:49:08.594036+00:00
+Generated: 2026-11-15T15:20:45.826374+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 207 (0 HQ survivors, 207 watches)
-- Rejected opportunities excluded: 114
+- Active research: 209 (0 HQ survivors, 209 watches)
+- Rejected opportunities excluded: 115
 - Critic-and-judge reviewed: 91
 - Autonomous execution authorization: 0
 
@@ -1133,6 +1133,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://ir.wbd.com/news-and-events/financial-news/financial-news-details/2026/Paramount-Skydance-and-Warner-Bros--Discovery-Announce-Anticipated-Closing-Date-of-Paramount-Merger/de; https://www.sec.gov/Archives/edgar/data/2041610/000110465926111034/tm2610616d11_8k.htm; https://ir.wbd.com/news-and-events/financial-news/financial-news-details/2026/Paramount-to-Acquire-Warner-Bros--Discovery-to-Form-Next-Generation-Global-Media-and-Entertainment-Com
 
+### Moisture-triggered irrigation retrofit kit for small farms, nurseries, and high-value gardens [opp_79ec4a7511c0c487c566]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States
+- Thesis: The technical components are already commercially available at low retail prices, while smaller operators remain less likely to use precision tools. A simple, installation-ready moisture-triggered irrigation bundle may be testable without developing new hardware, but savings and willingness to pay must be measured at the specific site.
+- Value capture: Source existing soil-moisture sensors, timers, connectors, and irrigation fittings; sell a documented retrofit package or installation service to a narrowly defined local customer group. The economic mechanism is reduced unnecessary watering and labor, not an assumed recurring software subscription.
+- Participation hypothesis: Buy one sensor and one compatible timer at retail, assemble a transparent prototype, and test it on the operator's own plot or with a consenting small grower. Record baseline watering frequency, water use if metered, plant condition, and component failure rate for two to four weeks. Only proceed to paid bundles if the test produces a measurable result and a real customer agrees to purchase; independently compare at least three competing retail listings before claiming any product gap.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.ers.usda.gov/data-products/charts-of-note/110550; https://www.homedepot.com/p/206484992?cm_sp=BazVoice-_-QA_PQEP-_-206484992-_-x; https://www.homedepot.com/b/Outdoors-Garden-Center-Watering-Irrigation-Sprinkler-Systems-Sprinkler-Timers/Drip-and-Soaker-Hose-Compatible/Electronic/N-5yc1vZc63jZ1z0sgkoZ1z182c6
+
 ### Narrow Chilean e-commerce returns-recovery test for one product category [opp_fa54176321cf12d8b287]
 - Status: WATCH_REQUIRES_VALIDATION | ecommerce_niches | Chile
 - Thesis: There may be recoverable value in returned, refused, or lightly damaged inventory, but the evidence does not establish a standalone Chilean market, buyer, or margin. The executable wedge is a tightly bounded consignment experiment with one seller and one category, not a broad returns marketplace.
@@ -1573,16 +1583,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://jobs.lever.co/appen/27404a7a-4fca-42e3-bae4-072148d17dce; https://wizwizai.careers-page.com/jobs/1bdd95f3-53c1-4af2-9518-ed6d835244d4
 
-### Chilean Spanish speech-data recording project — CrowdGen by Appen [opp_96318e1351fad6b1e1dc]
-- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
-- Thesis: This is a narrowly defined, low-complexity data-collection assignment with a verifiable piece-rate mechanism. At the listed rate, 400 completed units would imply USD 12 gross before any applicable taxes or payment constraints, but completion time and acceptance are unknown; therefore it is a small paid test rather than a reliable income source.
-- Value capture: Submit accepted audio units under the project’s quality rules and receive the listed piece-rate payment if selected and if recordings pass validation.
-- Participation hypothesis: Apply through CrowdGen’s official Lever page, confirming current Chile residence and native Chilean Spanish status. Before recording all units, verify the project account, acceptance criteria and payout conditions. Lowest-cost falsification: apply, complete any qualification sample, and calculate actual minutes per accepted sentence; proceed only if the effective rate and payout terms are acceptable. No fee or deposit is indicated in the listing.
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://jobs.lever.co/appen/27404a7a-4fca-42e3-bae4-072148d17dce; https://jobs.lever.co/appen/27404a7a-4fca-42e3-bae4-072148d17dce/apply?lever-source=BilingualJobs.io
-
 ### CMF Open Finance sandbox conformance kit for smaller Chilean participants [opp_f56b1fbbad100489cfa5]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: Entities that intend to participate have a defined technical target and a testing window before July 2027. A narrowly scoped implementation asset could reduce integration and conformance-testing work, but demand from named paying customers is not independently verified.
@@ -1602,6 +1602,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/1027552/000102755226000098/managementcommentary2q2026.pdf; https://www.sec.gov/Archives/edgar/data/19957/000110465926079411/tm2617334d1_ex99-e.htm
+
+### Compressed-air leak detection and control retrofit for small manufacturers [opp_488fdfa971bc2c6cff2d]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States
+- Thesis: A small manufacturer may have a documented, measurable operating-cost reduction available from leak detection, pressure optimization, controls, or VFD installation, but the opportunity requires plant-specific measurement rather than a generic efficiency claim.
+- Value capture: A narrowly scoped diagnostic-and-installation offer: baseline compressed-air consumption, identify leaks and pressure waste, install or coordinate low-cost monitoring/control hardware, and quantify post-intervention consumption. Payment could come from the plant, an existing utility incentive, or a DOE/utility-backed implementation program; the appropriate payer and compensation structure must be confirmed locally.
+- Participation hypothesis: Start with one accessible small manufacturer or industrial facility and obtain permission to perform a non-invasive baseline using an ultrasonic leak detector and temporary power/pressure logging. Produce a one-page quantified findings report before proposing any paid work. Independently check the facility's utility and state incentive programs, including whether the manufacturer is eligible for ITAC-style implementation support. Do not assume access, savings, grant eligibility, or a success fee until confirmed in writing.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.energy.gov/mesc/industrial-research-and-assessment-center-implementation-grant-awards; https://betterbuildingssolutioncenter.energy.gov/showcase-projects/detroit-diesel-corporation-using-strategic-energy-management-sem-improve-energy/printpdf
 
 ### Copper-supply-risk procurement watchlist for manufacturers exposed to concentrated refining [opp_b3bab653bc94d6a65255]
 - Status: WATCH_REQUIRES_VALIDATION | physical_distribution | United States and Chile
@@ -1762,6 +1772,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://arxiv.org/abs/2509.25056; https://www.ndsu.edu/agriculture/sites/default/files/2026-02/2026%20ACAW%20ANDERSON%20Robotic%20Weeding%20PPT.pdf
+
+### Lower-cost orchard automation wedge focused on one labor-intensive operation [opp_06119586462e850260cf]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States specialty-crop regions
+- Thesis: The strongest small-operator wedge is not building a general-purpose farm robot; it is brokering, demonstrating, or operating one specific commercially available or research-derived tool for one orchard task where labor cost and throughput can be measured.
+- Value capture: Potential mechanisms include paid field trials, seasonal equipment operation, equipment rental coordination, or referral/implementation fees from an existing manufacturer or grower—only after the counterparty, permissions, pricing, insurance, and performance terms are verified. No buyer, margin, or sale is assumed here.
+- Participation hypothesis: Select one crop and one operation, then contact the cited university extension or named technology company to verify whether a deployable unit, trial, license, or operator program exists. Before spending on equipment, obtain a written trial quote and a grower willing to provide a comparable manual-operation baseline. Falsify the wedge if no deployable unit, authorized access route, or grower-approved measurement trial can be secured at low cost.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.nifa.usda.gov/about-nifa/impacts/automation-specialty-crops; https://portal.nifa.usda.gov/enterprise-search/projects/1034641
 
 ### Machine-readable regulatory-data conversion and validation wedge for financial filers [opp_e41354439b8a6f77eab3]
 - Status: WATCH_REQUIRES_VALIDATION | general | United States

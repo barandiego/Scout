@@ -9321,6 +9321,67 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-15T15:20:29.114451+00:00",
+      "discovery_lens": "adoption_lag",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "USDA ERS reports substantially lower precision-technology adoption among small family farms and identifies labor, input-cost, yield, and soil benefits as common adoption motives.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Precision agriculture use increases with farm size and varies widely by technology",
+          "url": "https://www.ers.usda.gov/data-products/charts-of-note/110550"
+        },
+        {
+          "claim": "Home Depot lists a soil-moisture sensor at $26.48 with a cord connection to compatible water timers and automatic watering-suppression functionality.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Melnor Soil Moisture Sensor 15339-HD",
+          "url": "https://www.homedepot.com/p/206484992?cm_sp=BazVoice-_-QA_PQEP-_-206484992-_-x"
+        },
+        {
+          "claim": "Home Depot lists multiple compatible electronic irrigation timers, including products priced from $39.97 to $69.97.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Drip and Soaker Hose Compatible Electronic Sprinkler Timers",
+          "url": "https://www.homedepot.com/b/Outdoors-Garden-Center-Watering-Irrigation-Sprinkler-Systems-Sprinkler-Timers/Drip-and-Soaker-Hose-Compatible/Electronic/N-5yc1vZc63jZ1z0sgkoZ1z182c6"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.82,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_79ec4a7511c0c487c566",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-15T15:20:29.208562+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Buy one sensor and one compatible timer at retail, assemble a transparent prototype, and test it on the operator's own plot or with a consenting small grower. Record baseline watering frequency, water use if metered, plant condition, and component failure rate for two to four weeks. Only proceed to paid bundles if the test produces a measurable result and a real customer agrees to purchase; independently compare at least three competing retail listings before claiming any product gap.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The technical components are already commercially available at low retail prices, while smaller operators remain less likely to use precision tools. A simple, installation-ready moisture-triggered irrigation bundle may be testable without developing new hardware, but savings and willingness to pay must be measured at the specific site.",
+      "title": "Moisture-triggered irrigation retrofit kit for small farms, nurseries, and high-value gardens",
+      "type": "physical_product_bundle",
+      "unknowns": [],
+      "value_capture_mechanism": "Source existing soil-moisture sensors, timers, connectors, and irrigation fittings; sell a documented retrofit package or installation service to a narrowly defined local customer group. The economic mechanism is reduced unnecessary watering and labor, not an assumed recurring software subscription.",
+      "verified_sales": null,
+      "vertical": "robotics_agritech",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-10T16:09:06.777917+00:00",
       "discovery_lens": "geographic_arbitrage",
       "estimated_capital": "",
@@ -11767,60 +11828,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-20T16:26:20.978236+00:00",
-      "discovery_lens": "remote_paid_evaluation",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "CrowdGen by Appen lists a remote Chile project requiring native Chilean Spanish speakers to record 400 sentences, with a stated pay rate of USD 0.030 per completed unit and specific audio-quality requirements.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Remote Work From Home: Record Chilean Spanish",
-          "url": "https://jobs.lever.co/appen/27404a7a-4fca-42e3-bae4-072148d17dce"
-        },
-        {
-          "claim": "The employer-hosted application form requests location, language and education information and provides an application route for the Chilean Spanish recording project.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "CrowdGen Chile application page",
-          "url": "https://jobs.lever.co/appen/27404a7a-4fca-42e3-bae4-072148d17dce/apply?lever-source=BilingualJobs.io"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.93,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_96318e1351fad6b1e1dc",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-20T16:26:21.026533+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Apply through CrowdGen’s official Lever page, confirming current Chile residence and native Chilean Spanish status. Before recording all units, verify the project account, acceptance criteria and payout conditions. Lowest-cost falsification: apply, complete any qualification sample, and calculate actual minutes per accepted sentence; proceed only if the effective rate and payout terms are acceptable. No fee or deposit is indicated in the listing.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "This is a narrowly defined, low-complexity data-collection assignment with a verifiable piece-rate mechanism. At the listed rate, 400 completed units would imply USD 12 gross before any applicable taxes or payment constraints, but completion time and acceptance are unknown; therefore it is a small paid test rather than a reliable income source.",
-      "title": "Chilean Spanish speech-data recording project — CrowdGen by Appen",
-      "type": "remote_paid_evaluation",
-      "unknowns": [],
-      "value_capture_mechanism": "Submit accepted audio units under the project’s quality rules and receive the listed piece-rate payment if selected and if recordings pass validation.",
-      "verified_sales": null,
-      "vertical": "chile_localization",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-21T16:24:58.090541+00:00",
       "discovery_lens": "chile_technology_import",
       "estimated_capital": "",
@@ -11921,6 +11928,60 @@
       "value_capture_mechanism": "Potential paid implementation assessment, requirements mapping, or test-harness work if an institution confirms the need. No buyer, price, or permission is assumed.",
       "verified_sales": null,
       "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-11-15T15:20:29.113671+00:00",
+      "discovery_lens": "adoption_lag",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "DOE describes grants for small and medium-sized manufacturers covering implementation of energy-assessment recommendations, including monitors, sensors, VFDs, compressed-air equipment, and other efficiency upgrades.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Industrial Training and Assessment Center Implementation Grant Awards",
+          "url": "https://www.energy.gov/mesc/industrial-research-and-assessment-center-implementation-grant-awards"
+        },
+        {
+          "claim": "DOE reports first-year savings of over $76,000 from compressed-air improvements at the Detroit Diesel facility, alongside savings in steam and HVAC systems.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Detroit Diesel Corporation: Using Strategic Energy Management to Improve Energy Planning and Accelerate Project Implementation",
+          "url": "https://betterbuildingssolutioncenter.energy.gov/showcase-projects/detroit-diesel-corporation-using-strategic-energy-management-sem-improve-energy/printpdf"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.88,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_488fdfa971bc2c6cff2d",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-15T15:20:29.208307+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Start with one accessible small manufacturer or industrial facility and obtain permission to perform a non-invasive baseline using an ultrasonic leak detector and temporary power/pressure logging. Produce a one-page quantified findings report before proposing any paid work. Independently check the facility's utility and state incentive programs, including whether the manufacturer is eligible for ITAC-style implementation support. Do not assume access, savings, grant eligibility, or a success fee until confirmed in writing.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A small manufacturer may have a documented, measurable operating-cost reduction available from leak detection, pressure optimization, controls, or VFD installation, but the opportunity requires plant-specific measurement rather than a generic efficiency claim.",
+      "title": "Compressed-air leak detection and control retrofit for small manufacturers",
+      "type": "serviceable_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "A narrowly scoped diagnostic-and-installation offer: baseline compressed-air consumption, identify leaks and pressure waste, install or coordinate low-cost monitoring/control hardware, and quantify post-intervention consumption. Payment could come from the plant, an existing utility incentive, or a DOE/utility-backed implementation program; the appropriate payer and compensation structure must be confirmed locally.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -12783,6 +12844,60 @@
       "type": "asset_or_service",
       "unknowns": [],
       "value_capture_mechanism": "Paid pilot, per-acre field service, or custom adaptation fee. Crop suitability, labor savings, agronomic efficacy and permission to operate remain unverified and must be established with a farm customer.",
+      "verified_sales": null,
+      "vertical": "robotics_agritech",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-11-15T15:20:29.115110+00:00",
+      "discovery_lens": "adoption_lag",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "USDA NIFA reports quantified performance results for orchard harvesting, robotic picking, automated platforms, weeding, and other specialty-crop automation systems.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Automation for Specialty Crops",
+          "url": "https://www.nifa.usda.gov/about-nifa/impacts/automation-specialty-crops"
+        },
+        {
+          "claim": "USDA describes labor shortages and costs in tree-fruit production and states that pruning and harvesting can account for up to 40% of production costs.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Integrated Horticultural and Robotic Solutions for Labor Intensive Orchard Operations",
+          "url": "https://portal.nifa.usda.gov/enterprise-search/projects/1034641"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.79,
+      "falsification_conditions": [],
+      "geography": "United States specialty-crop regions",
+      "id": "opp_06119586462e850260cf",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-15T15:20:29.208754+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Select one crop and one operation, then contact the cited university extension or named technology company to verify whether a deployable unit, trial, license, or operator program exists. Before spending on equipment, obtain a written trial quote and a grower willing to provide a comparable manual-operation baseline. Falsify the wedge if no deployable unit, authorized access route, or grower-approved measurement trial can be secured at low cost.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The strongest small-operator wedge is not building a general-purpose farm robot; it is brokering, demonstrating, or operating one specific commercially available or research-derived tool for one orchard task where labor cost and throughput can be measured.",
+      "title": "Lower-cost orchard automation wedge focused on one labor-intensive operation",
+      "type": "equipment_access_or_trial",
+      "unknowns": [],
+      "value_capture_mechanism": "Potential mechanisms include paid field trials, seasonal equipment operation, equipment rental coordination, or referral/implementation fees from an existing manufacturer or grower—only after the counterparty, permissions, pricing, insurance, and performance terms are verified. No buyer, margin, or sale is assumed here.",
       "verified_sales": null,
       "vertical": "robotics_agritech",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
@@ -14520,13 +14635,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-15T04:49:08.594036+00:00",
+  "generated_at": "2026-11-15T15:20:45.826374+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 114,
+  "rejected_excluded": 115,
   "reviewed_cards": 91,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 321,
-  "watch": 207
+  "total_distinct_opportunities": 324,
+  "watch": 209
 }
