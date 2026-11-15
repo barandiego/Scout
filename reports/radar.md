@@ -1,16 +1,28 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-15T06:53:51.766155+00:00
+Generated: 2026-11-15T15:45:05.901964+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 168
+- New this cycle: 174
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 621, ai 99, energy 578, robotics 502
+- Categories: agriculture 629, ai 100, energy 579, robotics 492
 
 ## Recently encountered signals
+
+### mihirakanshana/AI-Crop-Leaf-Disease-Doctor-with-Soil-Telemetry-project
+- Source: https://github.com/mihirakanshana/AI-Crop-Leaf-Disease-Doctor-with-Soil-Telemetry-project
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### rakshithnagaraju30/KrishiSutra
+- Source: https://github.com/rakshithnagaraju30/KrishiSutra
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### JohannaGonzalezInacap/AGRO-X
 - Source: https://github.com/JohannaGonzalezInacap/AGRO-X
@@ -446,18 +458,6 @@ Generated: 2026-11-15T06:53:51.766155+00:00
 
 ### hkgupta005-sketch/AgriMind
 - Source: https://github.com/hkgupta005-sketch/AgriMind
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### muhammadshayanali5104-design/Smart-Farming-System
-- Source: https://github.com/muhammadshayanali5104-design/Smart-Farming-System
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### ukvarma25/AgroFarm-AI-Platform
-- Source: https://github.com/ukvarma25/AgroFarm-AI-Platform
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
