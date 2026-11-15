@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-15T00:00:14.922641+00:00
+Generated: 2026-11-15T06:53:51.766155+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 148
+- New this cycle: 168
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): hn_energy:unavailable_or_invalid, hn_ai:unavailable_or_invalid, crossref_energy:unavailable_or_invalid
-- Categories: agriculture 626, ai 98, energy 568, robotics 508
+- Feed failures (fail-open for public intake only): none
+- Categories: agriculture 621, ai 99, energy 578, robotics 502
 
 ## Recently encountered signals
+
+### JohannaGonzalezInacap/AGRO-X
+- Source: https://github.com/JohannaGonzalezInacap/AGRO-X
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### khadseyash726-eng/Filed-shift--Adapting-Farms-with-NASA-data
 - Source: https://github.com/khadseyash726-eng/Filed-shift--Adapting-Farms-with-NASA-data
@@ -452,12 +458,6 @@ Generated: 2026-11-15T00:00:14.922641+00:00
 
 ### ukvarma25/AgroFarm-AI-Platform
 - Source: https://github.com/ukvarma25/AgroFarm-AI-Platform
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### tirumalasaip-droid/kisanMitra
-- Source: https://github.com/tirumalasaip-droid/kisanMitra
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
