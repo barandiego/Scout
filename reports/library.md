@@ -1,17 +1,27 @@
 # Scout — opportunity library
 
-Generated: 2026-11-14T23:38:17.580156+00:00
+Generated: 2026-11-15T04:49:08.594036+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 206 (0 HQ survivors, 206 watches)
+- Active research: 207 (0 HQ survivors, 207 watches)
 - Rejected opportunities excluded: 114
-- Critic-and-judge reviewed: 90
+- Critic-and-judge reviewed: 91
 - Autonomous execution authorization: 0
 
 ## How to use
 
 Choose a candidate, independently verify current sources and a paying buyer, test distribution and net pricing, and obtain explicit approval for bounded execution. The original evidence gates stay in force.
+
+### Chile SFA implementation test harness for fintech and bank API teams [opp_e65bfa2752c716623239]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: The regulatory deadline and technical specifications create a bounded implementation task: participating entities will need to test consent, authentication, data schemas, error handling, security controls and payment-initiation flows before production. The immediate opportunity is implementation-risk reduction, not a claim that end-user demand or recurring software revenue is already proven.
+- Value capture: A small operator could package a narrow, fixed-scope conformance test suite or integration-readiness assessment using published CMF specifications and publicly available bank/API documentation. The economic mechanism is payment by a fintech, bank vendor or regulated participant for reduced engineering and compliance uncertainty. No buyer, price or conversion rate is established by the evidence.
+- Participation hypothesis: Start without regulated production access: obtain and study the CMF technical materials and public developer documentation; implement a local test harness for consent lifecycle, account/transaction schema validation, authentication failure cases and audit-log outputs; publish a short sample report and ask Chilean fintech/API teams whether they will provide a redacted interface specification or pay for a fixed-scope review. Falsify at lowest cost by contacting 10 identifiable Chilean fintech or banking-API teams and measuring whether at least on
+- Critic/judge: The regulatory premise is sufficiently grounded by CMF primary sources: NCG 514 exists and CMF’s later material reportedly adds technical specifications, a developer portal, and a July 2027 entry-into-force timetable. A research-only, non-production wedge can therefore be evaluated without assuming unlawful access to financial data or payment rails. However, the proposed harness has not established legally/technically usable access to p
+- Next evidence gaps: Number of entities required or commercially motivated to buy external conformance tooling.; Actual buyer and budget owner: compliance, engineering, security, product, legal, or an implementation integrator.; Whether CMF ATENA will provide sufficient automated test coverage, certification workflows, test data, and reporting to eliminate the proposed product gap.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/institucional/legislacion_normativa/normativa2.php?entidad_web=ALL&enviado=1&hidden_mercado=%25&materia=ALL&numero=514&tiponorma=NCG; https://developers.bci.cl/home-bci; https://docs.khipu.com/es/data-solutions/open-finance/api-reference
 
 ### NFC review-and-contact displays for Chilean cafés, hotels and service counters [opp_def87ec156069bf156db]
 - Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile

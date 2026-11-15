@@ -2,8 +2,8 @@
 
 Research assignment only. **Zero verified buyers, sales, or execution permissions.**
 
-- Generated: 2026-11-14T23:38:17.580156+00:00
-- Research cards reviewed: 206
+- Generated: 2026-11-15T04:49:08.594036+00:00
+- Research cards reviewed: 207
 - Narrow ideas selected for founder review: 4
 - Verified third-party receipts: **none**
 
@@ -25,13 +25,13 @@ Research assignment only. **Zero verified buyers, sales, or execution permission
 - Sources: https://www.trade.gov/knowledge-product/chile-agricultural-machinery-and-equipment; https://www.mercadolibre.cl/kit-de-riego-por-goteo-300-metros/up/MLCU3697964384; https://www.utalca.cl/noticias/inauguran-sistema-que-produce-hortalizas-todo-el-ano-con-bajo-consumo-hidrico/
 - Status: **WATCH — no automated outreach, spending, or execution**
 
-## 3. Chile SFA API-conformance and consent-audit test harness
+## 3. Chile SFA implementation test harness for fintech and bank API teams
 - Origin: existing Scout research; open_finance_chile; no new opportunity claim
 - Next falsifiable no-spend test: Identify one genuinely budget-owning regulated buyer, one conformance failure, and an independently accepted paid software deliverable before coding a broad financial integration.
-- Distribution hypothesis (not verified): Lowest-cost falsification: extract the mandatory fields and flows from CMF NCG 514, its FAQ, and the later technical-annex consultation; build a small local validator covering one consent flow, one account-information response, one revocation event, and threshold logging. Then send the validator to identifiable Chilean fintechs or financial institutions listed in CMF registries and ask whether they already possess equivalent t
+- Distribution hypothesis (not verified): Start without regulated production access: obtain and study the CMF technical materials and public developer documentation; implement a local test harness for consent lifecycle, account/transaction schema validation, authentication failure cases and audit-log outputs; publish a short sample report and ask Chilean fintech/API teams whether they will provide a redacted interface specification or pay for a fixed-scope review. Fal
 - Independent critic/judge: CRITIC_JUDGE_COMPLETE_NOT_COMMERCIAL_PROOF
 - Missing: independent_specific_buyer, written_price_or_paid_commitment, verified_fulfilment_and_unit_cost, distribution_permission_or_channel, actual_third_party_receipt
-- Sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html; https://www.cmfchile.cl/portal/principal/613/articles-82744_recurso_1.pdf; https://www.cmfchile.cl/institucional/legislacion_normativa/normativa_tramite_cerrada.php?tpl=alt
+- Sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/institucional/legislacion_normativa/normativa2.php?entidad_web=ALL&enviado=1&hidden_mercado=%25&materia=ALL&numero=514&tiponorma=NCG; https://developers.bci.cl/home-bci; https://docs.khipu.com/es/data-solutions/open-finance/api-reference
 - Status: **WATCH — no automated outreach, spending, or execution**
 
 ## 4. BESS and inverter compliance pre-check for Chilean distributed-energy projects

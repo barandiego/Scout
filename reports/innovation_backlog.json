@@ -4629,6 +4629,48 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Start without regulated production access: obtain and study the CMF technical materials and public developer documentation; implement a local test harness for consent lifecycle, account/transaction schema validation, authentication failure cases and audit-log outputs; publish a short sample report and ask Chilean fintech/API teams whether they will provide a redacted interface specification or pay for a fixed-scope review. Falsify at lowest cost by contacting 10 identifiable Chilean fintech or banking-API teams and measuring whether at least one will share a test requirement, accept a technical interview, or request a paid pilot. Do not handle credentials, customer data or live payment initiation unless separately authorized and compliant.",
+      "current_thesis": "The regulatory deadline and technical specifications create a bounded implementation task: participating entities will need to test consent, authentication, data schemas, error handling, security controls and payment-initiation flows before production. The immediate opportunity is implementation-risk reduction, not a claim that end-user demand or recurring software revenue is already proven.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Number of entities required or commercially motivated to buy external conformance tooling.",
+        "Actual buyer and budget owner: compliance, engineering, security, product, legal, or an implementation integrator.",
+        "Whether CMF ATENA will provide sufficient automated test coverage, certification workflows, test data, and reporting to eliminate the proposed product gap.",
+        "Whether banks and other participants will expose usable sandbox endpoints and realistic authentication, consent, error, and payment-initiation scenarios to third parties.",
+        "Whether the technical annex, test procedures, certification requirements, and implementation dates are final and stable enough to avoid repeated rebuilds.",
+        "Competitive landscape among Chilean consultancies, certification entities, API aggregators, core-banking vendors, and compliance platforms.",
+        "Expected price, sales cycle, procurement friction, and gross margin for a fixed-scope assessment or software subscription."
+      ],
+      "investment_authorized": false,
+      "name": "Chile SFA implementation test harness for fintech and bank API teams",
+      "opportunity_id": "opp_e65bfa2752c716623239",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa2.php?entidad_web=ALL&enviado=1&hidden_mercado=%25&materia=ALL&numero=514&tiponorma=NCG",
+        "https://developers.bci.cl/home-bci",
+        "https://docs.khipu.com/es/data-solutions/open-finance/api-reference"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A small operator could package a narrow, fixed-scope conformance test suite or integration-readiness assessment using published CMF specifications and publicly available bank/API documentation. The economic mechanism is payment by a fintech, bank vendor or regulated participant for reduced engineering and compliance uncertainty. No buyer, price or conversion rate is established by the evidence.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Build a 1-week prototype using only publicly available CMF technical materials. Implement 10-20 mock tests for consent, authentication, account-data retrieval and payment-initiation error handling. Contact a small sample of Chilean fintechs or API vendors identified independently, disclose that this is a validation test rather than an authorized CMF certification, and ask whether they would pay for a paid pilot or provide a redacted test environment. Falsify if no technically relevant respondent accepts a test call, shares an integration problem, or agrees to a paid pilot without requiring unverified regulatory claims.",
       "current_thesis": "A narrowly scoped conformance-testing asset could help prospective participants identify API, consent, security and data-exchange defects before formal integration. The economic mechanism would be payment for test execution, remediation evidence or reusable testing software; no buyer, price or margin is established by the evidence.",
       "founder_hours_initial_unverified_estimate": "",
@@ -7835,7 +7877,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-14T23:38:17.741669+00:00",
+  "generated_at": "2026-11-15T04:49:08.757543+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

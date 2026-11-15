@@ -4,6 +4,105 @@
       "ai_leverage": "",
       "authorized_for_execution": false,
       "contrary_evidence": [
+        "There is a real regulatory trigger: CMF General Rule No. 514 establishes the SFA framework, and later amendments incorporate technical interoperability specifications, testing-related requirements, and a developer portal. CMF states that the system is expected to enter into force in July 2027. The regulation creates technically complex obligations involving APIs, consent, security, interoperability, participant directories, and certification, so implementation-risk reduction is plausible. ATENA's existence may also validate that institutions need testing, although it simultaneously reduces the addressable gap. The staged rollout could create multiple sales windows rather than one deadline. Sources: https://www.cmfchile.cl/institucional/mercados/ver_archivo.php?archivo=%2Fweb%2Fcompendio%2Fncg%2Fncg_514_2024.pdf ; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html ; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html ; https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html ; https://www.cmfchile.cl/portal/prensa/625/w4-article-100482.html"
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-11-15T04:48:44.939076+00:00",
+      "discovery_lens": "open_finance_chile",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "On June 1, 2026, CMF announced the technical annex and developer portal for Chile’s Open Finance System, including interoperability and payment-initiation specifications, and said entry into force was postponed until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "CMF’s regulatory index identifies General Rule No. 514, dated July 3, 2024, as the rule regulating Chile’s Sistema de Finanzas Abiertas.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Norma que regula el Sistema de Finanzas Abiertas — CMF General Rule No. 514",
+          "url": "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa2.php?entidad_web=ALL&enviado=1&hidden_mercado=%25&materia=ALL&numero=514&tiponorma=NCG"
+        },
+        {
+          "claim": "BCI provides a developer portal describing API products for developers, fintech startups and companies.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "BCI Developer Portal",
+          "url": "https://developers.bci.cl/home-bci"
+        },
+        {
+          "claim": "Khipu documents Chilean bank and service connectivity routes, including account and transaction-related integrations, showing that a commercial API-integration layer already exists alongside the regulatory rollout.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Khipu Open Finance API Reference",
+          "url": "https://docs.khipu.com/es/data-solutions/open-finance/api-reference"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.78,
+      "falsification_conditions": [
+        "Ten targeted interviews with Chilean fintechs, banks, API vendors, or regulated participants produce no qualified buyer, no request for a pilot, and no willingness to share test requirements.",
+        "At least three target organizations state that CMF ATENA, their internal QA, or an incumbent vendor already covers the required testing at acceptable cost.",
+        "No target customer will pay for a fixed-scope pilot before the July 2027 entry-into-force date.",
+        "A prototype based on public specifications cannot test at least one realistic end-to-end flow using non-sensitive sandbox or mock interfaces.",
+        "Regulatory changes materially alter the relevant technical requirements after prototype development, making the proposed harness obsolete.",
+        "The addressable market is fewer than five plausible paying organizations or the reachable market requires regulated access, certifications, or partnerships unavailable to the operator.",
+        "Prospects value implementation labor or certification more than standalone software and reject a productized offering."
+      ],
+      "geography": "Chile",
+      "id": "opp_e65bfa2752c716623239",
+      "judge_reviewed": true,
+      "judgment": "The regulatory premise is sufficiently grounded by CMF primary sources: NCG 514 exists and CMF’s later material reportedly adds technical specifications, a developer portal, and a July 2027 entry-into-force timetable. A research-only, non-production wedge can therefore be evaluated without assuming unlawful access to financial data or payment rails. However, the proposed harness has not established legally/technically usable access to participant sandboxes or realistic end-to-end flows, and CMF’s ATENA/testing infrastructure may cover much of the stated job. Most importantly, no specific regulated payer, budget owner, procurement path, willingness to pay, or defensible gap versus ATENA, internal QA, API aggregators, certification actors, and consultancies is evidenced. It survives only as a tightly scoped validation hypothesis—not as an HQ-worthy software business conclusion.",
+      "last_record_updated_at": "2026-11-15T04:49:07.816092+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Number of entities required or commercially motivated to buy external conformance tooling.",
+        "Actual buyer and budget owner: compliance, engineering, security, product, legal, or an implementation integrator.",
+        "Whether CMF ATENA will provide sufficient automated test coverage, certification workflows, test data, and reporting to eliminate the proposed product gap.",
+        "Whether banks and other participants will expose usable sandbox endpoints and realistic authentication, consent, error, and payment-initiation scenarios to third parties.",
+        "Whether the technical annex, test procedures, certification requirements, and implementation dates are final and stable enough to avoid repeated rebuilds."
+      ],
+      "participation_path": "Start without regulated production access: obtain and study the CMF technical materials and public developer documentation; implement a local test harness for consent lifecycle, account/transaction schema validation, authentication failure cases and audit-log outputs; publish a short sample report and ask Chilean fintech/API teams whether they will provide a redacted interface specification or pay for a fixed-scope review. Falsify at lowest cost by contacting 10 identifiable Chilean fintech or banking-API teams and measuring whether at least one will share a test requirement, accept a technical interview, or request a paid pilot. Do not handle credentials, customer data or live payment initiation unless separately authorized and compliant.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The regulatory deadline and technical specifications create a bounded implementation task: participating entities will need to test consent, authentication, data schemas, error handling, security controls and payment-initiation flows before production. The immediate opportunity is implementation-risk reduction, not a claim that end-user demand or recurring software revenue is already proven.",
+      "title": "Chile SFA implementation test harness for fintech and bank API teams",
+      "type": "compliance_software_wedge",
+      "unknowns": [
+        "Number of entities required or commercially motivated to buy external conformance tooling.",
+        "Actual buyer and budget owner: compliance, engineering, security, product, legal, or an implementation integrator.",
+        "Whether CMF ATENA will provide sufficient automated test coverage, certification workflows, test data, and reporting to eliminate the proposed product gap.",
+        "Whether banks and other participants will expose usable sandbox endpoints and realistic authentication, consent, error, and payment-initiation scenarios to third parties.",
+        "Whether the technical annex, test procedures, certification requirements, and implementation dates are final and stable enough to avoid repeated rebuilds.",
+        "Competitive landscape among Chilean consultancies, certification entities, API aggregators, core-banking vendors, and compliance platforms.",
+        "Expected price, sales cycle, procurement friction, and gross margin for a fixed-scope assessment or software subscription.",
+        "Whether customers need reusable software or merely one-off implementation consulting.",
+        "Whether the founder has Spanish-language, Chilean regulatory, banking-API, and enterprise-sales access.",
+        "Whether the proposed harness can test behavior that is not observable from public schemas and documentation.",
+        "Which exact payer has a non-duplicative need: regulated fintech participant, bank, payment initiator, core-banking/API vendor, or implementation consultancy.",
+        "Whether ATENA offers only baseline interoperability testing or provides the same test cases, reports, test data, and evidence artifacts envisioned for the product.",
+        "Whether non-regulated third parties can lawfully and practically obtain sandbox access, test certificates, realistic consent/authentication journeys, and participant-specific specifications.",
+        "Which SFA obligations require independent evidence or monitoring beyond regulator-provided tooling and internal QA.",
+        "Whether any target will commit paid budget for a fixed-scope readiness assessment before entry into force, at a price exceeding delivery and enterprise-sales costs.",
+        "The number of reachable prospective buyers and whether at least five have distinct requirements not already served by incumbents.",
+        "Whether the intended workflow can remain entirely outside regulated production data/payment activity while still producing decision-useful results."
+      ],
+      "value_capture_mechanism": "A small operator could package a narrow, fixed-scope conformance test suite or integration-readiness assessment using published CMF specifications and publicly available bank/API documentation. The economic mechanism is payment by a fintech, bank vendor or regulated participant for reduced engineering and compliance uncertainty. No buyer, price or conversion rate is established by the evidence.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [
         "Multiple Chile-facing vendors sell materially similar NFC/QR products, including review stands, cards, stickers, and menu/contact displays, with published prices and nationwide delivery. Sources: https://masenlaces.com/store/faq, https://www.ondda.cl/, https://pymevisible.cl/, https://resenafacil.cl/, https://nfctech.cl/, https://www.larefactoria.cl/placas-nfc/",
         "There is evidence of actual commercial activity rather than a purely theoretical market: one Mercado Libre listing reports more than 100 units sold and a 4.6/5 rating from 21 reviews. This supports some buyer acceptance, although it does not establish profitability or incremental business outcomes. Source: https://www.mercadolibre.cl/tarjeta-nfc-resenas-para-google-enlace-rapido-desde-celular-marketing-review-marca-cellbox/p/MLC51379662?pdp_filters=adult_content%3Ayes%7Cdeal%3AMLC1321552-1",
         "Competitors show products installed in restaurants, cafés, barber shops, retail stores, and service businesses, suggesting the placement use case is operationally understandable and not obviously impossible to sell. However, the displayed customer comments remain self-selected testimonials. Source: https://pymevisible.cl/",
@@ -14421,13 +14520,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-14T23:38:17.580156+00:00",
+  "generated_at": "2026-11-15T04:49:08.594036+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 114,
-  "reviewed_cards": 90,
+  "reviewed_cards": 91,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 320,
-  "watch": 206
+  "total_distinct_opportunities": 321,
+  "watch": 207
 }

@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-11-14T23:38:17.580156+00:00",
+  "generated_at": "2026-11-15T04:49:08.594036+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -12,20 +12,20 @@
       "title": "NFC review-and-contact displays for Chilean cafés, hotels and service counters"
     },
     {
+      "opportunity_id": "opp_e65bfa2752c716623239",
+      "other_cards_in_theme": 83,
+      "reviewed": true,
+      "status": "watch",
+      "theme": "chile_open_finance",
+      "title": "Chile SFA implementation test harness for fintech and bank API teams"
+    },
+    {
       "opportunity_id": "opp_7ea6a495427da87c8c5c",
       "other_cards_in_theme": 23,
       "reviewed": true,
       "status": "watch",
       "theme": "energy_infrastructure",
       "title": "BESS and inverter compliance pre-check for Chilean distributed-energy projects"
-    },
-    {
-      "opportunity_id": "opp_f26e42aaabb91e157f9d",
-      "other_cards_in_theme": 82,
-      "reviewed": true,
-      "status": "watch",
-      "theme": "chile_open_finance",
-      "title": "Chile SFA conformance and consent-flow testing for fintech participants before July 2027"
     },
     {
       "opportunity_id": "opp_99de522ad05d0e01cebc",
@@ -103,8 +103,8 @@
   "headline_count": 12,
   "high_concentration": [
     {
-      "cards": 83,
-      "share": 0.403,
+      "cards": 84,
+      "share": 0.406,
       "theme": "chile_open_finance"
     }
   ],
@@ -115,6 +115,7 @@
   "themes": [
     {
       "all_opportunity_ids": [
+        "opp_e65bfa2752c716623239",
         "opp_f26e42aaabb91e157f9d",
         "opp_8c5a7467be93278a7fb8",
         "opp_de6bbd059c9fa7fd72e5",
@@ -199,9 +200,9 @@
         "opp_dacac3f2afd4b7afe5ef",
         "opp_55ea1613f3f7f5bebbee"
       ],
-      "count": 83,
-      "representative_id": "opp_f26e42aaabb91e157f9d",
-      "reviewed_count": 50,
+      "count": 84,
+      "representative_id": "opp_e65bfa2752c716623239",
+      "reviewed_count": 51,
       "theme": "chile_open_finance"
     },
     {
@@ -1024,6 +1025,6 @@
       "theme": "robotics_agritech:water_efficiency_field"
     }
   ],
-  "total_original_cards": 206,
+  "total_original_cards": 207,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }
