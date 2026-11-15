@@ -1,27 +1,17 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 391015.0,
-      "buyer": "I MUNICIPALIDAD DE PENCO",
-      "closes_at": "2026-11-17T08:00:00",
-      "code": "4494-751-COT26",
-      "estimated_budget": 391015.0,
-      "name": "MATERIAL DE OFICINA PARA PROGRAMA FAMILIAS (COMPLEMENTARIO)",
-      "products": 10,
-      "region": "Región del Biobío"
-    },
-    {
-      "available_budget_clp": 2000000.0,
-      "buyer": "I MUNICIPALIDAD DE QUINTA DE TILCOCO",
-      "closes_at": "2026-11-16T12:35:00",
-      "code": "3500-218-COT26",
-      "estimated_budget": 2000000.0,
-      "name": "LIBROS Y NOVELAS PARA ESCUELA JAIME FELDMAN MILLER",
-      "products": 7,
-      "region": "Región del Libertador General Bernardo O´Higgins"
+      "available_budget_clp": 1100000.0,
+      "buyer": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA MAULE COSTA",
+      "closes_at": "2026-11-16T18:30:00",
+      "code": "1233619-802-COT26",
+      "estimated_budget": 1100000.0,
+      "name": "Adquisición de Insumos para Patios Inclusivos",
+      "products": 1,
+      "region": "Región del Maule"
     }
   ],
-  "active_structurally_reconstructable_count": 2,
+  "active_structurally_reconstructable_count": 1,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -39,7 +29,7 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-15T15:42:54Z",
+  "generated_at": "2026-11-15T21:06:14Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -47,17 +37,17 @@
   "phase1": {
     "records": 20,
     "rejection_reasons": {
-      "missing_products": 1,
-      "no_observable_competitive_prices": 6
+      "missing_products": 2,
+      "no_observable_competitive_prices": 15
     },
-    "resolved": 18,
-    "structurally_reconstructable": 13,
-    "with_observable_quote_totals": 12,
+    "resolved": 19,
+    "structurally_reconstructable": 4,
+    "with_observable_quote_totals": 4,
     "with_purchase_order_indicator": 1
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-15T15:42:54Z"
+    "changed_to": "2026-11-15T21:06:14Z"
   }
 }
