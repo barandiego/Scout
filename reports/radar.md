@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-16T06:57:01.477329+00:00
+Generated: 2026-11-16T18:44:48.594805+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 215
+- New this cycle: 196
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 630, ai 99, energy 590, robotics 481
+- Categories: agriculture 630, ai 99, energy 602, robotics 469
 
 ## Recently encountered signals
+
+### kirupasri05/Smart-Agriculture-Management-System
+- Source: https://github.com/kirupasri05/Smart-Agriculture-Management-System
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### Ja1Pedro00/CerradoShift
 - Source: https://github.com/Ja1Pedro00/CerradoShift
@@ -452,12 +458,6 @@ Generated: 2026-11-16T06:57:01.477329+00:00
 
 ### A coordinated control utilizing battery energy storage for low voltage ride-through enhancement and power quality improvement in grid-connected solar PV systems
 - Source: https://doi.org/10.1016/j.est.2026.125182
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Techno-economic comparison of lithium-iron phosphate battery and hydrogen energy storage for wind power-based microgrids
-- Source: https://doi.org/10.1016/j.est.2026.125177
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
