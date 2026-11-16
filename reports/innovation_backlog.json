@@ -447,6 +447,43 @@
       "category": "chile_localization",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Buy or source a small batch of programmable NFC tags from an existing Chilean supplier; create three landing-page variants for one narrow customer category; approach 20 independently identified restaurants, salons or service businesses without claiming endorsements; offer five paid pilots at or below the observed CLP 7,500–25,000 market range. Falsify if fewer than two of 20 prospects agree to a paid pilot, or if the business cannot show a measurable increase in tagged-page visits/review attempts within 14 days. Do not pre-assume permission to place tags, review uplift, recurring revenue or margin.",
+      "current_thesis": "The executable wedge is not inventing NFC hardware; it is packaging one physical tag around a measurable local conversion event such as Google reviews, digital menu visits, appointment requests or repeat-order links. Existing prices establish customer-facing willingness to pay for the physical/configured unit, while the lack of demonstrated recurring revenue means a subscription or agency model should not be assumed.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile, initially Santiago",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "NFC review-and-menu tags for Chilean small businesses",
+      "opportunity_id": "opp_1eccc3541019ecf68a4c",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Find the smallest Chilean workflow whose economics differ from the original geography.",
+        "Secure lawful access, partners and after-sales support rather than copy protected technology.",
+        "Run a buyer interview or mock listing to falsify assumptions before capital commitment."
+      ],
+      "supporting_source_urls": [
+        "https://pymevisible.cl/productos/tarjeta-google",
+        "https://tarjetas-nfc.com/precios",
+        "https://www.ondda.cl/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a configured NFC/QR plaque or card for a fixed one-time price, optionally adding a separately priced monthly analytics or link-management service only after a customer requests it. The defensible asset would be reusable templates, deployment workflow and accumulated opt-in conversion data, not the NFC chip itself.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "chile_localization",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Apply through the official TELUS Digital job page for ReqEG-798, submit a current résumé, and complete the job-specific assessments. Track whether the applicant is accepted, the final stated rate, payment terms, and the number of tasks offered during the first two weeks. Lowest-cost falsification: complete the free application and assessment only; do not pay for training, software, or access. Treat the opportunity as unvalidated income until a paid task is assigned and the payout conditions are disclosed. ([jobs.telusdigital.com](https://jobs.telusdigital.com/search/cfm3/russian-spanish/cfm5/ai-community/jobs/in/country/chile?ns_category=artificial-intelligence&utm_source=openai))",
       "current_thesis": "A Chile-based applicant with strong local geographic knowledge, Spanish and English comprehension, a computer, and stable internet can test a concrete paid data-validation route. The main uncertainty is qualification and task availability rather than an undefined market need.",
       "founder_hours_initial_unverified_estimate": "",
@@ -1207,42 +1244,6 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Fixed-fee analysis priced against an observed Chilean reference price of UF 55, with any equipment installation, financing or energy-service contract treated as a separate later-stage transaction. No buyer, conversion rate or margin is assumed.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "energy_infrastructure",
-      "commercially_validated": false,
-      "competition_confirmed": false,
-      "current_participation_path": "First inspect the dataset license and source terms, reproduce three plant-level calculations, and publish a one-page sample for one Chilean zone. Contact potential users through public storage-project developers, energy consultants, and industry events without asserting that they are buyers. Ask for a paid test only after confirming that the output changes a siting or underwriting decision. Lowest-cost falsification: obtain five short interviews or preorders; abandon if users will not provide a paid data request or cannot name a current decision the asset would affect.",
-      "current_thesis": "A reproducible dataset, calculator, or fixed-scope report could reduce the initial screening cost for battery, hybrid-solar, and flexible-load projects by ranking plants and hours with recurring curtailed output. The evidence supports a data asset, not yet a proven subscription business.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "Chile",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "Chile renewable-curtailment dataset and screening tool for storage-site diligence",
-      "opportunity_id": "opp_2c91469d9606f67e42cc",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
-        "Compare owned asset, installer/distributor and project-finance participation.",
-        "Verify permits and installed net payback under conservative power price scenarios."
-      ],
-      "supporting_source_urls": [
-        "https://zenodo.org/records/21652187",
-        "https://doi.org/10.3390/en19020334"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "Sell a narrowly defined downloadable screening pack or per-project analysis containing plant-level curtailment history, hourly concentration, downloadable data, and a transparent methodology. Any recurring price, buyer conversion, or project revenue remains unverified.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -7806,6 +7807,43 @@
       "category": "robotics_agritech",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Before building the full 20 m² unit, collect non-binding expressions of interest from at least 10 local restaurants, produce shops or households and seek paid deposits or written purchase commitments for a defined weekly quantity. Run a small 2–5 m² pilot using the same crop and record actual plants harvested, sell-through, labor hours, electricity, nutrient and delivery costs. Scale only if realized price, sell-through and full cash costs support a positive contribution margin for at least two consecutive cycles; otherwise falsify the wedge. No buyer, volume, price realization or permission is assumed.",
+      "current_thesis": "The actionable opportunity is a low-capital, contract- or pre-order-validated NFT unit rather than a speculative vertical farm. At the INIA assumptions, gross annual revenue is approximately CLP 3.584 million before the stated costs. The main falsification risk is not biological yield but whether a local operator can sell the crop at the assumed price while paying actual labor, electricity, logistics, losses and working capital.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile; site economics must be recalculated locally",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Small-scale NFT lettuce unit using Chilean INIA economics as a pre-sale test",
+      "opportunity_id": "opp_6d42359671ff6ccbf40d",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
+        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
+        "Arrange a bounded field validation with an actual farm operator before scaling."
+      ],
+      "supporting_source_urls": [
+        "https://es.scribd.com/document/1014311150/BOLETIN-1-INIA-FIA-Manejo-Sanitario-y-Otros-InIA-Chile",
+        "https://www.mdpi.com/2311-7524/12/8/972",
+        "https://energypartnership.cl/fileadmin/chile/media_elements/Studies/2025_Manual_para_el_Desarrollo_de_Proyectos_Agrivoltaicos_en_Chile.PDF"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Own or lease a compact NFT installation and sell harvested lettuce through pre-arranged local purchase orders, recurring household subscriptions or direct farm-gate sales. The economic asset is the installed system plus repeatable production and delivery process. Do not treat the INIA modeled return as a guaranteed margin or proof of buyer demand.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "robotics_agritech",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use the publicly listed CLP 4,790,000 100 m² system as a capital benchmark and request a written quotation for a smaller sunlight-based NFT installation. Before purchasing, secure nonbinding product specifications and price commitments from at least three prospective local buyers such as restaurants, specialty grocers, or produce distributors; then run one crop cycle with documented labor hours, energy, water, sell-through, rejection, and realized price. Falsify by spending only on buyer interviews, samples, and a small test bed; abandon the production route if buyers will not commit to a price or recurring pickup schedule that covers measured direct costs.",
       "current_thesis": "The evidence does not support building a capital-intensive LED vertical farm as a small-operator opportunity. A narrower, testable mechanism is selling or operating sunlight-based NFT capacity near a verified local buyer, where the offer is fresher or more reliable supply rather than lower commodity cost. Payback remains unproven because the cited Chilean gross-margin study is not directly comparable to every commercial NFT design and does not establish a buyer contract.",
       "founder_hours_initial_unverified_estimate": "",
@@ -7950,7 +7988,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-15T20:50:08.023496+00:00",
+  "generated_at": "2026-11-16T04:45:45.868274+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

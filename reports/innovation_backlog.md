@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 209
+Candidates: 210
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -147,6 +147,18 @@ Candidates: 209
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.aither.cl/tap/; https://pymevisible.cl/productos
+
+## NFC review-and-menu tags for Chilean small businesses
+- Status: watch | chile_localization
+- Current idea: The executable wedge is not inventing NFC hardware; it is packaging one physical tag around a measurable local conversion event such as Google reviews, digital menu visits, appointment requests or repeat-order links. Existing prices establish customer-facing willingness to pay for the physical/configured unit, while the lack of demonstrated recurring revenue means a subscription or agency model should not be assumed.
+- Potential economic capture: Sell a configured NFC/QR plaque or card for a fixed one-time price, optionally adding a separately priced monthly analytics or link-management service only after a customer requests it. The defensible asset would be reusable templates, deployment workflow and accumulated opt-in conversion data, not the NFC chip itself.
+- **Research routes to test (NOT validated claims):**
+  - Find the smallest Chilean workflow whose economics differ from the original geography.
+  - Secure lawful access, partners and after-sales support rather than copy protected technology.
+  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://pymevisible.cl/productos/tarjeta-google; https://tarjetas-nfc.com/precios; https://www.ondda.cl/
 
 ## Online Data Analyst—Chile through TELUS Digital AI Community
 - Status: watch | chile_localization
@@ -399,18 +411,6 @@ Candidates: 209
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://carlosjofre.com/en/services/bess-strategy/; https://forcesolarpower.com/blog/chile-commercial-solar-net-billing/; https://www.spec.cl/en/publicaciones/2026-almacenamiento-corta-duracion/
-
-## Chile renewable-curtailment dataset and screening tool for storage-site diligence
-- Status: watch | energy_infrastructure
-- Current idea: A reproducible dataset, calculator, or fixed-scope report could reduce the initial screening cost for battery, hybrid-solar, and flexible-load projects by ranking plants and hours with recurring curtailed output. The evidence supports a data asset, not yet a proven subscription business.
-- Potential economic capture: Sell a narrowly defined downloadable screening pack or per-project analysis containing plant-level curtailment history, hourly concentration, downloadable data, and a transparent methodology. Any recurring price, buyer conversion, or project revenue remains unverified.
-- **Research routes to test (NOT validated claims):**
-  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
-  - Compare owned asset, installer/distributor and project-finance participation.
-  - Verify permits and installed net payback under conservative power price scenarios.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://zenodo.org/records/21652187; https://doi.org/10.3390/en19020334
 
 ## Chile: low-cost energy submetering and BESS-readiness checks for small commercial sites
 - Status: watch | energy_infrastructure
@@ -2463,6 +2463,18 @@ Candidates: 209
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://seedfund.nsf.gov/topics/robotics/; https://www.businessdefense.gov/investments.html
+
+## Small-scale NFT lettuce unit using Chilean INIA economics as a pre-sale test
+- Status: watch | robotics_agritech
+- Current idea: The actionable opportunity is a low-capital, contract- or pre-order-validated NFT unit rather than a speculative vertical farm. At the INIA assumptions, gross annual revenue is approximately CLP 3.584 million before the stated costs. The main falsification risk is not biological yield but whether a local operator can sell the crop at the assumed price while paying actual labor, electricity, logistics, losses and working capital.
+- Potential economic capture: Own or lease a compact NFT installation and sell harvested lettuce through pre-arranged local purchase orders, recurring household subscriptions or direct farm-gate sales. The economic asset is the installed system plus repeatable production and delivery process. Do not treat the INIA modeled return as a guaranteed margin or proof of buyer demand.
+- **Research routes to test (NOT validated claims):**
+  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
+  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
+  - Arrange a bounded field validation with an actual farm operator before scaling.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://es.scribd.com/document/1014311150/BOLETIN-1-INIA-FIA-Manejo-Sanitario-y-Otros-InIA-Chile; https://www.mdpi.com/2311-7524/12/8/972; https://energypartnership.cl/fileadmin/chile/media_elements/Studies/2025_Manual_para_el_Desarrollo_de_Proyectos_Agrivoltaicos_en_Chile.PDF
 
 ## Sunlit NFT hydroponic production or retrofit pilots instead of LED vertical farming
 - Status: watch | robotics_agritech

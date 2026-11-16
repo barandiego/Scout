@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-15T20:50:07.467649+00:00
+Generated: 2026-11-16T04:45:45.534690+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['chile_technology_import', 'early_adoption_investing', 'market_positioning']
-- raw_candidates: 1
-- parseable_candidates: 1
-- normalized_candidates: 1
+- lenses: ['asset_ownership', 'nfc_smart_commerce', 'vertical_farming_economics']
+- raw_candidates: 2
+- parseable_candidates: 2
+- normalized_candidates: 2
 - normalization_rejected: 0
-- grounded_sources: 2
+- grounded_sources: 6
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
 - critic_reviews: 1
 - judge_reviews: 1
 - survivors: 0
-- watches: 0
+- watches: 2
 - rejected: 1
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.05574065
+- cost_usd: 0.0450304
 - cost_uncertain: False
-- budget_remaining_usd: 0.02425935
+- budget_remaining_usd: 0.0349696
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,8 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Chile SFA interoperability test harness for smaller regulated participants: deferred_by_review_cap
-- Small commercial battery dispatch and savings-validation pilot using lower-cost LFP storage: deferred_by_review_cap
 - Chile SFA conformance and data-mapping test harness: La cuña propuesta —herramientas de pruebas de conformidad y mapeo basadas exclusivamente en normas y anexos técnicos públicos, sin acceder a datos financieros de clientes ni operar como participante SFA— parece jurídicamente factible en principio y no exige una API privada o acceso regulado imposible de obtener. Las fuentes primarias CMF aportadas respaldan que hubo modificaciones regulatorias y material técnico, por lo que no corresponde rechazar por un cambio regulatorio completamente no verificado. Sin embargo, la oportunidad no ha demostrado que exista un vacío pagable: el sandbox público ATENA parece solaparse de forma directa con pruebas de integración, interoperabilidad y adecuación técnica. Además, la entrada en vigor/urgencia relevante parece desplazada hacia julio de 2027, no un plazo inmediato de 2026. Sin evidencia de comprador, presupuesto, requisito de certificación independiente o disposición de pago, no sobrevive aún como investigación HQ-worthy; merece vigilancia y validación comercial estrecha, no construcción amplia.
 - ATENA-ready interoperability test harness for Chilean Open Finance participants: deferred_by_review_cap
 - Chile robot-import commissioning and aftermarket wedge for mid-priced industrial robots: deferred_by_review_cap
@@ -51,13 +49,15 @@ No survivors. Scout does not manufacture a daily winner.
 - Compressed-air leak detection and control retrofit for small manufacturers: deferred_by_review_cap
 - Moisture-triggered irrigation retrofit kit for small farms, nurseries, and high-value gardens: deferred_by_review_cap
 - Lower-cost orchard automation wedge focused on one labor-intensive operation: deferred_by_review_cap
+- NFC review-and-menu tags for Chilean small businesses: deferred_by_review_cap
+- Small-scale NFT lettuce unit using Chilean INIA economics as a pre-sale test: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=fresh",
-    "research_queue_unreviewed=106"
+    "deep_review_lane=backlog",
+    "research_queue_unreviewed=107"
   ],
   "stages": [
     {
@@ -65,70 +65,38 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 62,
+      "grounded_source_count": 30,
       "search_source_urls": [
-        "https://andescharge.cl/",
-        "https://apnews.com/article/39f2356b9c1e167d0985b821f70079c5",
-        "https://apnews.com/article/f33facc61122faf0c0b08af5020bd170",
-        "https://as.com/meristation/2021/07/21/betech/1626887700_024363.html",
-        "https://as.com/showroom/motor/cargador-portatil-coches-electricos-f202604-n/",
-        "https://carbonostore.cl/products/cargador-vehiculo-electrico-tipo-2-7kw-32a-con-app",
-        "https://cdn.hacienda.cl/asset/hacienda_prod/attachment/e3c0a8c3b7d47dbb3f9b3e28a1bb11881759c8266302d7fc2de981ec599c369a/1769809551?_expiration=1776720910&_hash=Ue9QaJpD7YDUx8eM3myFf9t86l0s3XUWOW6FWuweMf8",
-        "https://chambers.com/practice-guides/guides/fintech-2026/chile/law-and-practice",
-        "https://chileanelectric.cl/tienda/",
-        "https://cincodias.elpais.com/companias/2026-04-30/wallbox-cierra-una-alianza-con-slate-auto-la-firma-de-vehiculos-electricos-de-jeff-bezos.html",
-        "https://elpais.com/chile/2025-01-08/chile-pisa-el-acelerador-en-la-compra-de-automoviles-electricos-sus-ventas-aumentaron-en-183-en-un-ano.html",
-        "https://en.wikipedia.org/wiki/Attabotics",
-        "https://en.wikipedia.org/wiki/Inflection_AI",
-        "https://en.wikipedia.org/wiki/Physical_Intelligence_Inc.",
-        "https://en.wikipedia.org/wiki/Seer_Robotics",
-        "https://en.wikipedia.org/wiki/Symbotic",
-        "https://energia.gob.cl/electromovilidad/sistemas-de-carga/cargadores-publicos-y-privados",
-        "https://energiafutura.cl/noticias/empresas-de-cargadores-para-autos-electricos-en-chile-quien-vende-instala-y-administra-estaciones",
-        "https://es.wikipedia.org/wiki/Autom%C3%B3viles_el%C3%A9ctricos_en_Chile",
-        "https://es.wikipedia.org/wiki/Estaci%C3%B3n_de_carga",
-        "https://molzex.com/es/mercados/chile/",
-        "https://moneyweek.com/investments/tech-stocks/how-to-invest-in-robotics",
+        "https://agbasolutions.cl/nfc/?c=E8455D&e=bloque&m=grafito&t=Fidelizaci%C3%B3n",
+        "https://ageconsearch.umn.edu/record/322630/files/2017_Miller.pdf",
+        "https://agris.fao.org/search/en/providers/122535/records/65df43b8b766d82b180100a7",
+        "https://apnews.com/article/28d360b3c8d7fa424892e23fe1c85c93",
+        "https://credencialeschile.cl/categoria-producto/nfc/",
+        "https://elpais.com/elpais/2019/02/28/escaparate/1551375000_956298.html",
+        "https://en.wikipedia.org/wiki/Vertical_farming",
+        "https://energypartnership.cl/fileadmin/chile/media_elements/Studies/2025_Manual_para_el_Desarrollo_de_Proyectos_Agrivoltaicos_en_Chile.PDF",
+        "https://es.scribd.com/document/1014311150/BOLETIN-1-INIA-FIA-Manejo-Sanitario-y-Otros-InIA-Chile",
+        "https://linkd.cl/",
+        "https://los40.com/2026/10/26/que-es-la-agricultura-vertical-y-como-puede-beneficiar-al-planeta/",
         "https://openfinance.institute/regulacion/chile",
-        "https://powermania.cl/product-category/movilidad-electrica/cargador-de-coche-electrico",
-        "https://tienda.solsur.cl/producto/cargador-de-vehiculo-teltonika-energy-74kw-monofasico/",
-        "https://vitelenergia.com/es/productpagepdf/product/printaction/product_id/6863/",
-        "https://www.axios.com/newsletters/axios-pro-rata-1d5793c1-d3a9-4f1f-a182-1d8647accca7",
-        "https://www.bcn.cl/leychile/Navegar?idNorma=1192244",
-        "https://www.cmfchile.cl/portal/principal/623/articles-90547_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-77242.html",
+        "https://publications.ibpsa.org/proceedings/bs/2025/papers/bs2025_1744.pdf",
+        "https://pymevisible.cl/productos/tarjeta-google",
+        "https://tarjetas-nfc.com/precios",
+        "https://www.axios.com/2023/01/06/indoor-farming-small-scale-farmers",
+        "https://www.axios.com/local/chicago/2026/08/10/downtown-vertical-farming-venture-takes-root",
+        "https://www.cmfchile.cl/portal/prensa/625/articles-99083_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/articles-92466_recurso_1.pdf",
         "https://www.cmfchile.cl/portal/principal/623/w4-article-82752.html",
-        "https://www.diariooficial.interior.gob.cl/publicaciones/2024/10/11/43971/01/2554139.pdf",
-        "https://www.energica.city/blog/comparativa-cargadores-vehiculos-electricos-chile-2026",
-        "https://www.imf.org/-/media/files/publications/cr/2024/english/1chlea2024002.pdf",
-        "https://www.imf.org/_next/data/qmLpsXLqqYdoWilhD7kpa/en/-/media/files/publications/cr/2025/english/1chlea2025001-print-pdf.pdf.json",
-        "https://www.leychile.cl/navegar?idNorma=1187323&idParte=10393552&idVersion=2023-02-03",
-        "https://www.lider.cl/ip/repuestos/cargador-vehiculo-electrico-wallbox-home-7-4-kw-t2-socket/00321960300303",
-        "https://www.reddit.com/r/AskChile/comments/1syjjk1/como_poner_un_totem_de_carga_de_autos_el%C3%A9ctricos/",
-        "https://www.reddit.com/r/RichtechRobotics/comments/1qhz46h/annual_report_filed/",
-        "https://www.reddit.com/r/chile/comments/1s6jvsy/con_alza_bencinas_comprar_auto_electrifico/",
-        "https://www.reddit.com/r/chile_autos/comments/1peal0m/experiencias_con_full_el%C3%A9ctricos/",
-        "https://www.reddit.com/r/chile_autos/comments/1r044l7/hice_un_mapa_actualizado_de_cargadores_para_autos/",
-        "https://www.reddit.com/r/chile_autos/comments/1t29hh9/que_cargador_domiciliario_instalar/",
-        "https://www.reddit.com/r/chile_autos/comments/1t6gygy/han_visto_el_hyundai_inster/",
-        "https://www.reddit.com/r/chile_autos/comments/1tayicz/cargador_domiciliario_auto_electtico/",
-        "https://www.reddit.com/r/chile_autos/comments/1ua6bt4/due%C3%B1o_de_tesla_model_y_long_range_en_8_region/",
-        "https://www.reddit.com/r/chile_autos/comments/1xo4133/cu%C3%A1nto_cuesta_realmente_mantener_un_auto/",
-        "https://www.reddit.com/r/redmond/comments/1wc7szi/redmonds_general_robotics_says_its_ai_has_cut/",
-        "https://www.sec.cl/electromovilidad/",
-        "https://www.sec.cl/plataformas-ernc/",
-        "https://www.sec.cl/sec-lanza-reporte-nacional-sobre-infraestructura-de-recarga-para-vehiculos-electricos/?trk=article-ssr-frontend-pulse_little-text-block",
-        "https://www.sec.cl/sitio-web/descargar/1146/gda/42589/manual-usuario-plataforma-electromovilidad-2024.pdf",
-        "https://www.sec.cl/sitio-web/descargar/720/archivos-descargables/43680/hacia-un-futuro-electrico.pdf",
-        "https://www.sec.cl/sitio-web/wp-content/uploads/2021/01/Manual-Usuario-Plataforma-TE6-Electromov_v1.pdf",
-        "https://www.sec.cl/sitio-web/wp-content/uploads/2022/07/CARGADOR-EV-DC-20-KW-WALLBOX-SETEC-1.pdf",
-        "https://www.sec.cl/sitio-web/wp-content/uploads/2024/03/RIC-N15-Version-2024.pdf",
-        "https://www.sec.cl/sitio-web/wp-content/uploads/2025/09/Marco-Regulatorio-para-el-desarrollo-de-la-EM-TE6.pdf",
-        "https://www.sec.gov/Archives/edgar/data/1832483/000183248326000010/patr-20251231.htm",
-        "https://www.sii.cl/servicios_online/3532-administradores_operadores.html",
-        "https://www.solarbess.cl/collection/cargadores-vehiculo-electrico",
-        "https://www.tvtechnology.com/news/evs-to-acquires-telemetrics"
+        "https://www.countrylife.co.uk/gardens-interiors/farms-for-everyone-what-if-we-could-all-grow-our-own-produce-from-the-comfort-of-our-living-rooms",
+        "https://www.mdpi.com/2311-7524/12/8/972",
+        "https://www.ondda.cl/",
+        "https://www.reddit.com/r/Hydroponics/comments/12kz0zt/seeding_on_my_laborfree_farm_v2_lettuce_heads/",
+        "https://www.reddit.com/r/chileIT/comments/1gf8fev/apis_bancarias/",
+        "https://www.reddit.com/r/chileIT/comments/1jcs4sd",
+        "https://www.reddit.com/r/chileIT/comments/1t6lqnm/han_usado_tarjetas_bip_sin_uso_como_nfc_para_algo/",
+        "https://www.reddit.com/r/chileIT/comments/1tb63ai/error_en_api_cmf/",
+        "https://www.sipa.columbia.edu/sites/default/files/2026-06/IDB_Sotelino_FinalReport_ForPublication.pdf",
+        "https://www.tuk.cl/es-cl/pages/para-empresas"
       ]
     },
     {
@@ -143,62 +111,75 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 2,
+      "grounded_sources": 3,
+      "retry_justified": false
+    },
+    {
+      "index": 1,
+      "stage": "normalization",
+      "outcome": "accepted",
+      "reasons": [],
+      "changes": [
+        "contrary_evidence:list_sanitized",
+        "major_risks:list_sanitized",
+        "unknowns:list_sanitized",
+        "falsification_conditions:list_sanitized",
+        "material_update:unknown_false"
+      ],
+      "grounded_sources": 3,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_7f477016eaafce7a5709",
+      "candidate_id": "opp_2c91469d9606f67e42cc",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 33,
+      "grounded_source_count": 32,
       "search_source_urls": [
-        "https://abastibletec.cl/electromovilidad/cargadoreselectricos/",
-        "https://cadenaser.com/andalucia/2026/10/06/puedo-instalar-un-cargador-para-mi-coche-electrico-en-el-garaje-comunitario-ser-malaga/",
-        "https://cincodias.elpais.com/companias/2025-02-01/la-red-de-recarga-para-coches-electricos-avanza-pero-su-instalacion-se-atasca-entre-uno-y-tres-anos.html",
-        "https://cincodias.elpais.com/companias/2025-02-26/las-dudas-sobre-el-mercado-del-coche-electrico-hacen-tambalearse-a-wallbox.html",
-        "https://copesa-la-tercera-prod.cdn.arcpublishing.com/pulso/noticia/ventas-de-vehiculos-de-cero-y-bajas-emisiones-se-duplican-a-junio-pero-se-enfria-la-infraestructura-para-carga/",
-        "https://electrolatam.com/guias/auto-electrico-departamento/",
-        "https://elpais.com/chile/2025-01-08/chile-pisa-el-acelerador-en-la-compra-de-automoviles-electricos-sus-ventas-aumentaron-en-183-en-un-ano.html",
-        "https://en.wikipedia.org/wiki/Electric_car_use_by_country",
-        "https://energia.gob.cl/electromovilidad/sistemas-de-carga/cargadores-publicos-y-privados",
-        "https://es.wikipedia.org/wiki/Autom%C3%B3viles_el%C3%A9ctricos_en_Chile",
-        "https://es.wikipedia.org/wiki/Energ%C3%ADas_renovables_en_Chile",
-        "https://es.wikipedia.org/wiki/Uso_del_autom%C3%B3vil_el%C3%A9ctrico",
-        "https://expedienteambiental.cl/noticias/sec-reporte-recarga-electromovilidad/",
-        "https://infobydata.com/es/negocios/electromovilidad-en-chile-cuantos-autos-electricos-se-venden-y-donde-se-pueden-cargar",
-        "https://www.anac.cl/wp-content/uploads/2024/12/12-ANAC-Informe-Cero-y-Bajas-Emisiones-Diciembre-2024.pdf",
-        "https://www.anac.cl/wp-content/uploads/2025/12/11-ANAC-Informe-Cero-y-Bajas-Emisiones-Noviembre-2025.pdf",
-        "https://www.anac.cl/wp-content/uploads/2026/01/12-ANAC-Informe-Cero-y-Bajas-Emisiones-Diciembre-2025.pdf",
-        "https://www.cdt.cl/temas/noticias/electromovilidad-impulsa-transformacion-del-sistema-electrico-chileno-del-crecimiento-en-ventas-al-rediseno-de-infraestructura",
-        "https://www.cualauto.cl/blog/electricos-hibridos-chile-cargadores-2026",
-        "https://www.ecomovilidad.cl/wp-content/uploads/2026/04/Estudio-de-Costos-IC-2025.pdf",
-        "https://www.energica.city/blog/presupuesto-instalacion-cargador-electrico-desglose",
-        "https://www.pasionmotor.cl/2025/11/24/la-venta-de-vehiculos-cero-y-bajas-emisiones-crece-96-mas-de-27-mil-unidades-inscritas/",
-        "https://www.reddit.com/r/AskChile/comments/1syjjk1/como_poner_un_totem_de_carga_de_autos_el%C3%A9ctricos/",
-        "https://www.reddit.com/r/chile/comments/1s6jvsy/con_alza_bencinas_comprar_auto_electrifico/",
-        "https://www.reddit.com/r/chile/comments/1wh2zlh/pol%C3%ADtica_energ%C3%A9tica_en_chile/",
-        "https://www.reddit.com/r/chile_autos/comments/1t29hh9/que_cargador_domiciliario_instalar/",
-        "https://www.reddit.com/r/chile_autos/comments/1tayicz/cargador_domiciliario_auto_electtico/",
-        "https://www.reddit.com/r/chile_autos/comments/1ttvfb6/a_ra%C3%ADz_del_nuevo_ferrari_elettrica_qu%C3%A9_tan/",
-        "https://www.reddit.com/r/chile_autos/comments/1ua6bt4/due%C3%B1o_de_tesla_model_y_long_range_en_8_region/",
-        "https://www.reddit.com/r/chile_autos/comments/1v1sqso/experiencia_de_gente_con_tesla/",
-        "https://www.sec.cl/electromovilidad/",
-        "https://www.sec.cl/gda/equipamiento-autorizado/",
-        "https://www.sec.cl/sitio-web/wp-content/uploads/2025/09/Marco-Regulatorio-para-el-desarrollo-de-la-EM-TE6.pdf"
+        "https://apnews.com/article/485bafe52db2c4ab240b9017dcaf8259",
+        "https://apnews.com/article/6e78fb86160d6cabe12f245307706cf4",
+        "https://arxiv.org/abs/2604.02170",
+        "https://brazilgrid.com/es/curtailment-america-do-sul/",
+        "https://cincodias.elpais.com/companias/2026-09-02/grenergy-cierra-la-venta-a-cvc-dif-de-la-cuarta-fase-de-su-proyecto-de-almacenamiento-en-chile-por-410-millones.html",
+        "https://doi.org/10.1016/j.est.2026.125203",
+        "https://elpais.com/chile/2026-07-16/ordenar-la-cuenta-electrica-con-un-cheque-en-blanco.html",
+        "https://elpais.com/ciencia/2026-02-12/cancelado-el-megaproyecto-industrial-que-amenazaba-en-chile-uno-de-los-observatorios-astronomicos-mas-importantes-del-mundo.html",
+        "https://elpais.com/extra/energia/2026-05-17/algoritmos-y-rentabilidad-claves-en-la-carrera-del-almacenamiento.html",
+        "https://en.wikipedia.org/wiki/Curtailment_in_Chile",
+        "https://en.wikipedia.org/wiki/Solar_power_in_Chile",
+        "https://energiafutura.cl/en/news/chile-renewable-generation-tops-90-in-a-month-for-the-first-time-with-a-record-1262-hours",
+        "https://energiafutura.cl/en/news/energy-storage-in-chile-reaches-11-3-gw-across-operating-testing-and-under-construction-batteries",
+        "https://es.wikipedia.org/wiki/Apag%C3%B3n_de_Chile_de_2025",
+        "https://github.com/Pablosebastian-reyes/curtailmentiq-research/blob/main/release/v1.0/data_dictionary.md",
+        "https://globalresearchspace.com/space?star=W7170142704",
+        "https://iea.blob.core.windows.net/assets/88bb4abe-0308-42f9-a46f-c776a9528522/Electricity_2026.pdf",
+        "https://www.coordinador.cl/operacion/graficos/operacion-real/demanda-real/?trk=article-ssr-frontend-pulse_little-text-block",
+        "https://www.coordinador.cl/reportes-y-estadisticas/",
+        "https://www.coordinador.cl/reportes/",
+        "https://www.coordinador.cl/wp-content/uploads/2026/04/Informe-Monitoreo-2025.pdf",
+        "https://www.coordinador.cl/wp-content/uploads/2026/06/Cuenta-Publica-Gestion-2025-CEN.pdf",
+        "https://www.iea.org/files/1c096818-1fba-4d1b-bcd1-ad1c77fef4d3/Renewables2026.pdf",
+        "https://www.iea.org/files/2fcd8719-121f-4248-914a-75ea2485be21/Chile2050EnergyTransitionRoadmap.pdf",
+        "https://www.iea.org/files/5a08feca-f5fe-4754-87b6-24860baca9c7/Renewables2026.pdf",
+        "https://www.itpro.com/infrastructure/data-centres/is-bess-the-key-to-data-center-energy-demand",
+        "https://www.pv-magazine.com/2026/09/10/solar-and-wind-curtailment-on-the-rise-in-chile/",
+        "https://www.reddit.com/r/EnergyStorage/comments/1xwx0xr/market_discussion_utilityscale_bess_in_chile_2026/",
+        "https://www.reddit.com/r/chile/comments/1iy91qb",
+        "https://www.reddit.com/r/chile/comments/1iyqdlp/informe_de_2020_ya_advert%C3%ADa_sobre_posibles_fallas/",
+        "https://www.spec.cl/en/publicaciones/2026-almacenamiento-corta-duracion/",
+        "https://zenodo.org/records/21652187"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_7f477016eaafce7a5709",
+      "candidate_id": "opp_2c91469d9606f67e42cc",
       "coercions": [
-        "critic_case",
         "contrary_evidence"
       ]
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_7f477016eaafce7a5709",
+      "candidate_id": "opp_2c91469d9606f67e42cc",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -206,7 +187,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_7f477016eaafce7a5709",
+      "candidate_id": "opp_2c91469d9606f67e42cc",
       "coercions": []
     }
   ],
@@ -214,44 +195,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 294,
-      "cache_write_tokens": 5439,
+      "reasoning_tokens": 223,
+      "cache_write_tokens": 5499,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02584295,
+      "cumulative_cost_usd": 0.01505315,
       "model": "gpt-5.6-luna",
-      "input_tokens": 22623,
+      "input_tokens": 13823,
       "cached_tokens": 0,
-      "output_tokens": 872,
-      "web_search_calls": 2,
-      "estimated_cost_usd": 0.02584295
+      "output_tokens": 1678,
+      "web_search_calls": 1,
+      "estimated_cost_usd": 0.01505315
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 133,
-      "cache_write_tokens": 5286,
+      "reasoning_tokens": 145,
+      "cache_write_tokens": 5201,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.04062065,
+      "cumulative_cost_usd": 0.0298434,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13939,
+      "input_tokens": 13753,
       "cached_tokens": 0,
-      "output_tokens": 1438,
+      "output_tokens": 1483,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0147777
+      "estimated_cost_usd": 0.01479025
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 56,
-      "cache_write_tokens": 3636,
+      "reasoning_tokens": 127,
+      "cache_write_tokens": 2914,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.05574065,
+      "cumulative_cost_usd": 0.0450304,
       "model": "gpt-5.6-terra",
-      "input_tokens": 3639,
+      "input_tokens": 2917,
       "cached_tokens": 0,
-      "output_tokens": 502,
+      "output_tokens": 658,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.01512
+      "estimated_cost_usd": 0.015187
     }
   ]
 }

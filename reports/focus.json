@@ -1,11 +1,11 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-11-15T20:50:07.880268+00:00",
+  "generated_at": "2026-11-16T04:45:45.791876+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
-      "other_cards_in_theme": 8,
+      "other_cards_in_theme": 9,
       "reviewed": true,
       "status": "watch",
       "theme": "nfc_products",
@@ -104,7 +104,7 @@
   "high_concentration": [
     {
       "cards": 84,
-      "share": 0.402,
+      "share": 0.4,
       "theme": "chile_open_finance"
     }
   ],
@@ -246,10 +246,11 @@
         "opp_1003190617673d0a5401",
         "opp_7a4c2697266c85e82693",
         "opp_f12f2bcd2619c1f61247",
+        "opp_1eccc3541019ecf68a4c",
         "opp_4597c36d99d4f69a9e20",
         "opp_fa014b2293a26ad04e87"
       ],
-      "count": 9,
+      "count": 10,
       "representative_id": "opp_def87ec156069bf156db",
       "reviewed_count": 4,
       "theme": "nfc_products"
@@ -537,15 +538,6 @@
       "representative_id": "opp_471716894d06e79a4659",
       "reviewed_count": 0,
       "theme": "energy_infrastructure:interconnection_queue_intelligence"
-    },
-    {
-      "all_opportunity_ids": [
-        "opp_2c91469d9606f67e42cc"
-      ],
-      "count": 1,
-      "representative_id": "opp_2c91469d9606f67e42cc",
-      "reviewed_count": 0,
-      "theme": "energy_infrastructure:renewable_curtailment_dataset"
     },
     {
       "all_opportunity_ids": [
@@ -1008,6 +1000,15 @@
     },
     {
       "all_opportunity_ids": [
+        "opp_6d42359671ff6ccbf40d"
+      ],
+      "count": 1,
+      "representative_id": "opp_6d42359671ff6ccbf40d",
+      "reviewed_count": 0,
+      "theme": "robotics_agritech:small_scale_nft"
+    },
+    {
+      "all_opportunity_ids": [
         "opp_cfc46692cbd4d25d1a9c"
       ],
       "count": 1,
@@ -1043,6 +1044,6 @@
       "theme": "robotics_agritech:water_efficiency_field"
     }
   ],
-  "total_original_cards": 209,
+  "total_original_cards": 210,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }
