@@ -1,47 +1,17 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 50000.0,
-      "buyer": "OPV 82 COMANDANTE TORO",
-      "closes_at": "2026-11-17T07:30:00",
-      "code": "564845-139-COT26",
-      "estimated_budget": 50000.0,
-      "name": "ADQUISICIÓN DE LAVAMANOS",
-      "products": 1,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 1900000.0,
-      "buyer": "FF. ALMIRANTE RIVEROS",
-      "closes_at": "2026-11-17T08:00:00",
-      "code": "5457-29-COT26",
-      "estimated_budget": 1900000.0,
-      "name": "ADQUISICION DE VIVERES FF RIVEROS",
-      "products": 13,
-      "region": "Región del Biobío"
-    },
-    {
-      "available_budget_clp": 730000.0,
-      "buyer": "INSTITUTO DE INVESTIGACIONES AGROPECUARIAS",
-      "closes_at": "2026-11-17T10:30:00",
-      "code": "1107282-305-COT26",
-      "estimated_budget": 730000.0,
-      "name": "Reactivos de laboratorio para preparación de medios de cultivo, extracción de ADN, colecta de insectos y electroforesis. INIA Remehue, Osorno e INIA Intihuasi, La Serena.",
-      "products": 14,
-      "region": "Región de los Lagos"
-    },
-    {
-      "available_budget_clp": 700000.0,
-      "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
-      "closes_at": "2026-11-17T21:00:00",
-      "code": "1057491-2061-COT26",
-      "estimated_budget": 700000.0,
-      "name": "CINTA PARA MARCAR INSTRUMENTAL DISTINTAS MEDIDAS",
+      "available_budget_clp": 7200000.0,
+      "buyer": "HOSPITAL CLINICO METROPOLITANO DE LA FLORIDA DOCTORA ELOISA DIAZ",
+      "closes_at": "2026-11-17T15:44:00",
+      "code": "812261-481-COT26",
+      "estimated_budget": 7200000.0,
+      "name": "Adquisición de mangueras para máquinas de anestesia",
       "products": 4,
       "region": "Región Metropolitana de Santiago"
     }
   ],
-  "active_structurally_reconstructable_count": 4,
+  "active_structurally_reconstructable_count": 1,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -59,7 +29,7 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-16T06:48:06Z",
+  "generated_at": "2026-11-16T18:40:49Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -67,17 +37,17 @@
   "phase1": {
     "records": 20,
     "rejection_reasons": {
-      "missing_products": 8,
+      "missing_products": 2,
       "no_observable_competitive_prices": 2
     },
-    "resolved": 16,
-    "structurally_reconstructable": 12,
-    "with_observable_quote_totals": 14,
-    "with_purchase_order_indicator": 1
+    "resolved": 19,
+    "structurally_reconstructable": 16,
+    "with_observable_quote_totals": 17,
+    "with_purchase_order_indicator": 15
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-16T06:48:06Z"
+    "changed_to": "2026-11-16T18:40:49Z"
   }
 }
