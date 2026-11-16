@@ -1,16 +1,34 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-15T21:08:04.709459+00:00
+Generated: 2026-11-16T06:57:01.477329+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 159
+- New this cycle: 215
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 636, ai 95, energy 584, robotics 485
+- Categories: agriculture 630, ai 99, energy 590, robotics 481
 
 ## Recently encountered signals
+
+### Ja1Pedro00/CerradoShift
+- Source: https://github.com/Ja1Pedro00/CerradoShift
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### BabyVS-09/CropYield-Prediction-Using-XGBoost
+- Source: https://github.com/BabyVS-09/CropYield-Prediction-Using-XGBoost
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### Integration of Battery Energy Storage Systems with Solar PV Plants for Grid Stabilization and Power Factor Improvement
+- Source: https://doi.org/10.17977/um048v8.i1.2026.18-32
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
 
 ### Siri-B88/Field-Shift
 - Source: https://github.com/Siri-B88/Field-Shift
@@ -442,22 +460,4 @@ Generated: 2026-11-15T21:08:04.709459+00:00
 - Source: https://doi.org/10.1016/j.est.2026.125177
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Uday9021/smart-agriculture-system
-- Source: https://github.com/Uday9021/smart-agriculture-system
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Real-Time Fuzzy Energy Management with Nighttime Progress Index and State of Charge Protection for Microgrids with Photovoltaic Generation and Battery Energy Storage
-- Source: https://doi.org/10.1016/j.rineng.2026.113575
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### laxminaiknaik1-byte/AgriVision-AI
-- Source: https://github.com/laxminaiknaik1-byte/AgriVision-AI
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
