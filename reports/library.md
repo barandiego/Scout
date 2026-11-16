@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-11-16T04:45:45.791876+00:00
+Generated: 2026-11-16T17:56:44.567645+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 210 (0 HQ survivors, 210 watches)
-- Rejected opportunities excluded: 117
+- Active research: 212 (0 HQ survivors, 212 watches)
+- Rejected opportunities excluded: 118
 - Critic-and-judge reviewed: 91
 - Autonomous execution authorization: 0
 
@@ -1353,6 +1353,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.energy.gov/ceser/articles/new-ceser-report-offers-supply-chain-mitigation-strategies-battery-storage-systems; https://www.energy.gov/documents/2026-useer-national-report
 
+### BESS compliance pre-screening and commissioning-document package for Chilean installers [opp_5e6b2a2d2d3d586c5432]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile
+- Thesis: Installers and project developers may face avoidable redesign, documentation and commissioning risk when specifying or submitting BESS projects under the updated rules. A narrow, testable service is a paid document/readiness review—not equipment ownership, engineering sign-off or guaranteed permitting.
+- Value capture: A fixed-fee pre-check or subcontracted documentation package for a qualified electrical installer, EPC or project developer; price, buyer conversion and margin are unknown and must be validated before treating this as a business.
+- Participation hypothesis: Build a one-page checklist from the SEC RGR N°06/2024 materials covering AFCI status, battery/inverter certifications, location, protection, inspection and maintenance records. Contact publicly identifiable Chilean BESS installers or EPCs with a request for a paid pilot review of one existing project, while clearly stating that the operator is not providing regulated electrical design, certification or SEC approval unless properly qualified. Lowest-cost falsification: ask 10 installers/EPCs whether they will pay for a fixed-scope document gap r
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/; https://energia.gob.cl/sites/default/files/documentos/reporte_de_proyectos_-_enero_2026.pdf
+
 ### Bid as a small supplier or integrator around Chilean public-sector collaborative-robot purchases [opp_6fed166e1f1a1ba78706]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile
 - Thesis: A concrete demand signal exists for a single cobot acquisition, but the evidence does not prove repeat demand, reseller authorization, or attractive margins. The feasible wedge is quote preparation, local integration, training, or compliant sourcing rather than speculative inventory.
@@ -1842,6 +1852,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://github.com/PaddlePaddle/PaddleOCR; https://github.com/apache/tika
+
+### Online Data Analyst — Chile [opp_06ad2764bb9e96c3ccf8]
+- Status: WATCH_REQUIRES_VALIDATION | general | Chile
+- Thesis: This is a concrete application route for Chile-based local-knowledge and bilingual search-quality work, but the absence of public compensation and workload terms makes expected income unverified.
+- Value capture: Potential hourly or task-based contractor compensation from TELUS Digital if selected and assigned work; rate, volume and payout conditions remain unknown from the public page.
+- Participation hypothesis: Apply only through the TELUS Digital careers page and request written confirmation of contractor status, Chile eligibility, rate or task formula, expected volume, payment method, payout timing, age requirement and any required tax documentation. Lowest-cost falsification: complete the application only far enough to obtain project-specific commercial terms; abandon if fees, deposits, unverifiable intermediaries or no written payment terms appear. This is an application, not verified income.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://jobs.telusdigital.com/jobs/18154786-online-data-analyst-chile; https://jobs.telusdigital.com/search/cfm3/spanish/jobs/in/chile?cfm5=AI+Community&ns_category=ai-community%3Fintcmp%3Dtelus-digital-site
 
 ### Online Data Analyst—Chile through TELUS Digital AI Community [opp_bc125054da52bcfbf28b]
 - Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile

@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-11-16T04:45:45.791876+00:00",
+  "generated_at": "2026-11-16T17:56:44.567645+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -21,7 +21,7 @@
     },
     {
       "opportunity_id": "opp_7ea6a495427da87c8c5c",
-      "other_cards_in_theme": 23,
+      "other_cards_in_theme": 24,
       "reviewed": true,
       "status": "watch",
       "theme": "energy_infrastructure",
@@ -104,14 +104,14 @@
   "high_concentration": [
     {
       "cards": 84,
-      "share": 0.4,
+      "share": 0.396,
       "theme": "chile_open_finance"
     }
   ],
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 90,
+  "theme_count": 91,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -230,9 +230,10 @@
         "opp_ec860c3b7cc73965afb4",
         "opp_68a2c7e81a05d8f3fb8f",
         "opp_2238894712733ab551db",
-        "opp_2c199bc3e65ca5181196"
+        "opp_2c199bc3e65ca5181196",
+        "opp_5e6b2a2d2d3d586c5432"
       ],
-      "count": 24,
+      "count": 25,
       "representative_id": "opp_7ea6a495427da87c8c5c",
       "reviewed_count": 10,
       "theme": "energy_infrastructure"
@@ -658,6 +659,15 @@
     },
     {
       "all_opportunity_ids": [
+        "opp_06ad2764bb9e96c3ccf8"
+      ],
+      "count": 1,
+      "representative_id": "opp_06ad2764bb9e96c3ccf8",
+      "reviewed_count": 0,
+      "theme": "general:online_data_analyst"
+    },
+    {
+      "all_opportunity_ids": [
         "opp_042d45b316edf1e31943"
       ],
       "count": 1,
@@ -1044,6 +1054,6 @@
       "theme": "robotics_agritech:water_efficiency_field"
     }
   ],
-  "total_original_cards": 210,
+  "total_original_cards": 212,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }

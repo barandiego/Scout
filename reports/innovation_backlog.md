@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 210
+Candidates: 212
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -387,6 +387,18 @@ Candidates: 210
 - Critical gaps: Whether the cited January 1, 2026 AFCI requirement applies to the exact project classes, inverter configurations, and connection pathways targeted by the product, rather than only specified cases or alternatives.; Whether SEC or distributors accept the proposed equipment/documentation combinations in practice and what causes actual TE4 or related filing rejections.; Number of Chilean distributed BESS projects currently being designed, installed, or submitted through the relevant process.
 - Possible initial budget:
 - Source URLs: https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/; https://www.sec.cl/gda/; https://www.sec.cl/normas-tecnicas-electricas/
+
+## BESS compliance pre-screening and commissioning-document package for Chilean installers
+- Status: watch | energy_infrastructure
+- Current idea: Installers and project developers may face avoidable redesign, documentation and commissioning risk when specifying or submitting BESS projects under the updated rules. A narrow, testable service is a paid document/readiness review—not equipment ownership, engineering sign-off or guaranteed permitting.
+- Potential economic capture: A fixed-fee pre-check or subcontracted documentation package for a qualified electrical installer, EPC or project developer; price, buyer conversion and margin are unknown and must be validated before treating this as a business.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/; https://energia.gob.cl/sites/default/files/documentos/reporte_de_proyectos_-_enero_2026.pdf
 
 ## Bid-ready resilience package for small-utility battery and microgrid subawards
 - Status: watch | energy_infrastructure
@@ -819,6 +831,18 @@ Candidates: 210
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.mercadolibre.cl/nfc-tag-215-10uni-1356-mhz-a-25mm-adhesivo-tarjeta-set/p/MLC2098562674; https://listado.mercadolibre.cl/tarjetas-nfc; https://linkd.cl/
+
+## Online Data Analyst — Chile
+- Status: watch | general
+- Current idea: This is a concrete application route for Chile-based local-knowledge and bilingual search-quality work, but the absence of public compensation and workload terms makes expected income unverified.
+- Potential economic capture: Potential hourly or task-based contractor compensation from TELUS Digital if selected and assigned work; rate, volume and payout conditions remain unknown from the public page.
+- **Research routes to test (NOT validated claims):**
+  - Name a specific payer, customer job and credible reason existing alternatives fail.
+  - Choose a low-cost differentiation wedge (availability, price, experience, distribution or technology).
+  - Test channel, willingness to pay, ownership and contribution margin before building.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://jobs.telusdigital.com/jobs/18154786-online-data-analyst-chile; https://jobs.telusdigital.com/search/cfm3/spanish/jobs/in/chile?cfm5=AI+Community&ns_category=ai-community%3Fintcmp%3Dtelus-digital-site
 
 ## Paid Spanish AI-training studies through Prolific
 - Status: watch | general
