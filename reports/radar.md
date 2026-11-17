@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-17T13:42:04.683727+00:00
+Generated: 2026-11-17T23:35:34.258002+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
 - New this cycle: 175
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): none
-- Categories: agriculture 629, ai 91, energy 611, robotics 469
+- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
+- Categories: agriculture 637, ai 90, energy 604, robotics 469
 
 ## Recently encountered signals
+
+### atishay5845/khet-sathi-ai
+- Source: https://github.com/atishay5845/khet-sathi-ai
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### SOH-Aware Energy Management of Li-Ion Battery Storage in Off-Grid Microgrids Using a Hybrid Physics-Data Framework
 - Source: https://doi.org/10.20944/preprints202611.1537.v1
@@ -452,12 +458,6 @@ Generated: 2026-11-17T13:42:04.683727+00:00
 
 ### Ashish2876/FarmVision-The-AgriRover
 - Source: https://github.com/Ashish2876/FarmVision-The-AgriRover
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Lokith-kishore/AgrisenseAI
-- Source: https://github.com/Lokith-kishore/AgrisenseAI
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
