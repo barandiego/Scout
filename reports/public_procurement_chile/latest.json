@@ -1,73 +1,25 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 4500000.0,
-      "buyer": "Servicio de Biodiversidad y Áreas Protegidas",
-      "closes_at": "2026-11-18T09:00:00",
-      "code": "1495202-41-COT26",
-      "estimated_budget": 4500000.0,
-      "name": "ADQUISICIÓN DE ARTÍCULOS DE FERRETERÍA PARA MONUMENTO NATURAL LA PORTADA Y PARQUE NACIONAL MORRO MORENO",
-      "products": 7,
-      "region": "Región de Antofagasta"
-    },
-    {
-      "available_budget_clp": 450000.0,
-      "buyer": "SERVICIO NACIONAL DE SALUD HOSPITAL DE COELEMU",
-      "closes_at": "2026-11-18T08:30:00",
-      "code": "1057506-336-COT26",
-      "estimated_budget": 450000.0,
-      "name": "Se solicita cotizacion por cajas plasticas para unidad de farmacia.",
-      "products": 2,
-      "region": "Región del Ñuble"
-    },
-    {
-      "available_budget_clp": 200000.0,
-      "buyer": "IMunicipalidad de San Pablo - Educación",
-      "closes_at": "2026-11-19T04:55:00",
-      "code": "2940-184-COT26",
-      "estimated_budget": 200000.0,
-      "name": "BICICLETA DE ADULTO PARA PREMIACION LICENCIATURA LICEO FRAY PABLO DE ROYO",
+      "available_budget_clp": 1000000.0,
+      "buyer": "ILUSTRE MUNICIPALIDAD DE TORRES DEL PAIN",
+      "closes_at": "2026-11-20T10:54:00",
+      "code": "4589-336-COT26",
+      "estimated_budget": 1000000.0,
+      "name": "CONVOCATORIA PARA LA COMPRA DE 1 PARABRISAS PARA VEHICULO UTV MUNICIPAL (revisar EETT),  mandado por la Il. Mun. Torres del Paine, Region de Magallanes",
       "products": 1,
-      "region": "Región de los Lagos"
-    },
-    {
-      "available_budget_clp": 100000.0,
-      "buyer": "CORP MUNICIPAL DE CASTRO PARA LA EDUCACION SALUD Y ATENCION AL MENOR",
-      "closes_at": "2026-11-17T23:28:00",
-      "code": "545598-1241-COT26",
-      "estimated_budget": 100000.0,
-      "name": "JUEGOS DIDACTICOS PARA CONVENIO MAS ADULTO MAYOR AUTOVALENTE DE LA CORPORACION MUNICIPAL DE CASTRO (SP. 20743)",
-      "products": 1,
-      "region": "Región de los Lagos"
-    },
-    {
-      "available_budget_clp": 787000.0,
-      "buyer": "ILUSTRE MUNICIPALIDAD DE HUARA",
-      "closes_at": "2026-11-19T15:00:00",
-      "code": "1058345-96-COT26",
-      "estimated_budget": 787000.0,
-      "name": "Adquisición de señalética y letreros de acceso a piscina municipal",
-      "products": 4,
-      "region": "Región de Tarapacá"
-    },
-    {
-      "available_budget_clp": 918556.0,
-      "buyer": "DEPARTAMENTO PROVINCIAL DE EDUCACIÓN DE RANCO",
-      "closes_at": "2026-11-17T23:10:00",
-      "code": "5795-143-COT26",
-      "estimated_budget": 918556.0,
-      "name": "GIFT CARD JORNADAS MICROCENTROS",
-      "products": 1,
-      "region": "Región de Los Ríos"
+      "region": "Región de Magallanes y de la Antártica"
     }
   ],
-  "active_structurally_reconstructable_count": 6,
+  "active_structurally_reconstructable_count": 1,
   "diagnostics": {
-    "api_failures": {},
+    "api_failures": {
+      "api_rate_limited": 1
+    },
     "budget_exhausted": false,
     "detail_attempts": 20,
     "detail_cap_exhausted": true,
-    "details_fetched": 20,
+    "details_fetched": 19,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -79,25 +31,24 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-17T02:58:59Z",
-  "inserted_history": 20,
+  "generated_at": "2026-11-17T13:38:04Z",
+  "inserted_history": 19,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
+  "outcome": "DEGRADED_API_ERRORS",
   "phase1": {
-    "records": 20,
+    "records": 19,
     "rejection_reasons": {
-      "missing_products": 1,
-      "no_observable_competitive_prices": 2
+      "no_observable_competitive_prices": 13
     },
-    "resolved": 14,
-    "structurally_reconstructable": 17,
-    "with_observable_quote_totals": 12,
-    "with_purchase_order_indicator": 8
+    "resolved": 18,
+    "structurally_reconstructable": 6,
+    "with_observable_quote_totals": 5,
+    "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-17T02:58:59Z"
+    "changed_to": "2026-11-17T13:38:04Z"
   }
 }
