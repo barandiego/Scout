@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-16T18:44:48.594805+00:00
+Generated: 2026-11-17T03:01:22.652347+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
 - New this cycle: 196
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): none
-- Categories: agriculture 630, ai 99, energy 602, robotics 469
+- Feed failures (fail-open for public intake only): chile_robotics_news:unavailable_or_invalid
+- Categories: agriculture 631, ai 99, energy 607, robotics 463
 
 ## Recently encountered signals
+
+### nagasi8282/AgriAI-Smart-Agriculture-Intelligence-Platform
+- Source: https://github.com/nagasi8282/AgriAI-Smart-Agriculture-Intelligence-Platform
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### kirupasri05/Smart-Agriculture-Management-System
 - Source: https://github.com/kirupasri05/Smart-Agriculture-Management-System
@@ -454,10 +460,4 @@ Generated: 2026-11-16T18:44:48.594805+00:00
 - Source: https://github.com/refdr2025-droid/ECROP-fullstack
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### A coordinated control utilizing battery energy storage for low voltage ride-through enhancement and power quality improvement in grid-connected solar PV systems
-- Source: https://doi.org/10.1016/j.est.2026.125182
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
