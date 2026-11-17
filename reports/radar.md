@@ -1,16 +1,28 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-17T03:01:22.652347+00:00
+Generated: 2026-11-17T13:42:04.683727+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 196
+- New this cycle: 175
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): chile_robotics_news:unavailable_or_invalid
-- Categories: agriculture 631, ai 99, energy 607, robotics 463
+- Feed failures (fail-open for public intake only): none
+- Categories: agriculture 629, ai 91, energy 611, robotics 469
 
 ## Recently encountered signals
+
+### SOH-Aware Energy Management of Li-Ion Battery Storage in Off-Grid Microgrids Using a Hybrid Physics-Data Framework
+- Source: https://doi.org/10.20944/preprints202611.1537.v1
+- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
+- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
+- Status: **unverified research lead**
+
+### VivehaSri/FarmSense
+- Source: https://github.com/VivehaSri/FarmSense
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### nagasi8282/AgriAI-Smart-Agriculture-Intelligence-Platform
 - Source: https://github.com/nagasi8282/AgriAI-Smart-Agriculture-Intelligence-Platform
@@ -446,18 +458,6 @@ Generated: 2026-11-17T03:01:22.652347+00:00
 
 ### Lokith-kishore/AgrisenseAI
 - Source: https://github.com/Lokith-kishore/AgrisenseAI
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Avinash1214/CropWiseAI
-- Source: https://github.com/Avinash1214/CropWiseAI
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### refdr2025-droid/ECROP-fullstack
-- Source: https://github.com/refdr2025-droid/ECROP-fullstack
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
