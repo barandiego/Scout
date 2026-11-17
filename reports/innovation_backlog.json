@@ -3957,6 +3957,42 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Build a minimal local harness covering a small, publicly documented subset of the CMF technical specifications: request/response schemas, pagination, error codes, certificate/signature handling, and audit-log output. Use it against mock endpoints rather than claiming ATENA access. Publish a short defect taxonomy and ask three identifiable Chilean fintechs, payment firms, or software integrators—found through public contact channels—to run a free 30-minute review or provide a sanitized sample contract. Falsification condition: no respondent confirms that the test cases map to an imminent integration task, or existing official/vendor tooling already performs the same checks at zero incremental cost. Do not represent the prototype as CMF-approved or as an authorized ATENA integration.",
+      "current_thesis": "The regulatory deadline creates a bounded implementation window in which prospective participants and technology providers must discover and correct API, certificate, consent, directory, availability, and interoperability defects before production participation. The actionable wedge is not generic consulting: it is a reusable conformance-test harness and defect-reporting workflow mapped to the published technical requirements.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile Open Finance interoperability-test tooling for ATENA readiness",
+      "opportunity_id": "opp_7ebd27e125a482b865b2",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A small operator could sell or license a narrowly scoped test asset—such as an automated API contract/conformance suite, synthetic consent and payment-initiation test cases, or ATENA pre-check reports—to entities preparing integrations. No buyer, price, or purchase commitment is assumed; the economic mechanism is payment for reducing integration rework and failed testing, if a real participant confirms that need.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Download the CMF technical annex and developer-portal materials; implement only the publicly documented sandbox or mock endpoints, if available; create fixtures for consent, registration, data exchange, and payment-initiation flows; publish a failing/passing example. Contact prospective regulated or registered participants only to validate whether the harness catches a real integration defect. Falsify if the specification is incomplete enough that no deterministic tests can be written, if no public test environment or mock workflow exists, or if five relevant participants cannot identify a pre-entry validation need. Do not imply CMF approval or production access.",
       "current_thesis": "Prospective participants have a defined implementation deadline and technical material against which integrations can be tested. A narrow opportunity is an independent conformance harness that validates request formats, consent flows, registration, error handling, and payment-initiation scenarios against the published specification before formal participation.",
       "founder_hours_initial_unverified_estimate": "",
@@ -5281,9 +5317,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "Chile",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "Whether ATENA access is available to independent vendors, consultants, or only regulated or prospective participating institutions.",
+        "Whether CMF recognizes, permits, or gives evidentiary weight to third-party conformance reports.",
+        "The number of institutions that will actually need external testing support and their budget owners.",
+        "Whether the technical annex is sufficiently stable to avoid repeated maintenance caused by clarifications, pilots, or regulatory changes.",
+        "Whether institutions will prefer incumbent systems integrators, audit firms, API vendors, or internal teams.",
+        "Whether the validator can test security, certificates, consent lifecycle, operational resilience, auditability, and negative cases rather than only API schemas and basic message exchange.",
+        "Pricing, sales-cycle length, procurement requirements, and data-residency or confidentiality constraints."
       ],
       "investment_authorized": false,
       "name": "Chile SFA/ATENA conformance-test asset for prospective participants",
@@ -8137,7 +8177,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-17T12:47:23.915858+00:00",
+  "generated_at": "2026-11-17T23:20:42.404053+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

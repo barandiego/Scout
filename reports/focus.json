@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-11-17T12:47:23.787986+00:00",
+  "generated_at": "2026-11-17T23:20:42.287385+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -13,7 +13,7 @@
     },
     {
       "opportunity_id": "opp_e65bfa2752c716623239",
-      "other_cards_in_theme": 83,
+      "other_cards_in_theme": 84,
       "reviewed": true,
       "status": "watch",
       "theme": "chile_open_finance",
@@ -103,8 +103,8 @@
   "headline_count": 12,
   "high_concentration": [
     {
-      "cards": 84,
-      "share": 0.393,
+      "cards": 85,
+      "share": 0.395,
       "theme": "chile_open_finance"
     }
   ],
@@ -157,6 +157,7 @@
         "opp_33df5c0e60b44851d959",
         "opp_911d89dad493afe4910f",
         "opp_71fab3dd10745ab77ebe",
+        "opp_6cea461c4316ad0c1441",
         "opp_1d8ec69c28f37b2eceef",
         "opp_90d159d76ff43f002fe6",
         "opp_adbd4e7c0a69c655a351",
@@ -174,7 +175,6 @@
         "opp_270032cf1d021a18d1b3",
         "opp_993ac5d080c7042af44c",
         "opp_82f282d8dc0896390ee7",
-        "opp_6cea461c4316ad0c1441",
         "opp_31dfdad2eb2f74b28e49",
         "opp_f56b1fbbad100489cfa5",
         "opp_8173c8a9e4dbb2d4ed8c",
@@ -198,11 +198,12 @@
         "opp_3e2ab2a491f84a0e4236",
         "opp_39c7ecad0f54d46c3dea",
         "opp_dacac3f2afd4b7afe5ef",
-        "opp_55ea1613f3f7f5bebbee"
+        "opp_55ea1613f3f7f5bebbee",
+        "opp_7ebd27e125a482b865b2"
       ],
-      "count": 84,
+      "count": 85,
       "representative_id": "opp_e65bfa2752c716623239",
-      "reviewed_count": 51,
+      "reviewed_count": 52,
       "theme": "chile_open_finance"
     },
     {
@@ -1072,6 +1073,6 @@
       "theme": "robotics_agritech:water_efficiency_field"
     }
   ],
-  "total_original_cards": 214,
+  "total_original_cards": 215,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }

@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 214
+Candidates: 215
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -1264,6 +1264,18 @@ Candidates: 214
 - Possible initial budget:
 - Source URLs: https://cmfchile.cl/portal/prensa/625/w4-article-113897.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html
 
+## Chile Open Finance interoperability-test tooling for ATENA readiness
+- Status: watch | open_finance_chile
+- Current idea: The regulatory deadline creates a bounded implementation window in which prospective participants and technology providers must discover and correct API, certificate, consent, directory, availability, and interoperability defects before production participation. The actionable wedge is not generic consulting: it is a reusable conformance-test harness and defect-reporting workflow mapped to the published technical requirements.
+- Potential economic capture: A small operator could sell or license a narrowly scoped test asset—such as an automated API contract/conformance suite, synthetic consent and payment-initiation test cases, or ATENA pre-check reports—to entities preparing integrations. No buyer, price, or purchase commitment is assumed; the economic mechanism is payment for reducing integration rework and failed testing, if a real participant confirms that need.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html
+
 ## Chile Open Finance technical-conformance test harness for prospective participants
 - Status: watch | open_finance_chile
 - Current idea: Prospective participants have a defined implementation deadline and technical material against which integrations can be tested. A narrow opportunity is an independent conformance harness that validates request formats, consent flows, registration, error handling, and payment-initiation scenarios against the published specification before formal participation.
@@ -1680,7 +1692,7 @@ Candidates: 214
   - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
   - Check license perimeter, API access, legal compliance and competitor pricing.
   - Test buyer procurement and technical access before writing integration infrastructure.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Whether ATENA access is available to independent vendors, consultants, or only regulated or prospective participating institutions.; Whether CMF recognizes, permits, or gives evidentiary weight to third-party conformance reports.; The number of institutions that will actually need external testing support and their budget owners.
 - Possible initial budget:
 - Source URLs: https://cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
