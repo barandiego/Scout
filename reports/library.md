@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-11-17T02:47:32.346143+00:00
+Generated: 2026-11-17T12:47:23.787986+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 212 (0 HQ survivors, 212 watches)
+- Active research: 214 (0 HQ survivors, 214 watches)
 - Rejected opportunities excluded: 119
-- Critic-and-judge reviewed: 91
+- Critic-and-judge reviewed: 92
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -812,6 +812,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Which specific Chilean entities are obligated, eligible, or commercially motivated to participate in the SFA.; Whether the intended customers are regulated participants, technology vendors serving participants, or consulting firms.; Number of addressable buyers and their implementation budgets.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
+
+### Orderly-liquidation access to Origin Materials equipment and intellectual property [opp_04faddd7f57da5bc0fa5]
+- Status: WATCH_REQUIRES_VALIDATION | public_markets | United States and Canada
+- Thesis: The opportunity is not a generic distressed-equity thesis: it is a time-limited route to investigate whether specialized equipment, patents or a facility can be acquired below replacement or development cost for reuse, resale or licensing.
+- Value capture: Asset acquisition, brokerage/introduction subject to the seller's process, equipment resale, technology licensing or operating reuse. No sale price, buyer, permissions or resale margin is assumed.
+- Participation hypothesis: Use the SEC dissolution proxy and subsequent filings to identify the appointed liquidation manager or sale-process contact. Request the asset list, bidding timetable, inspection rights and data-room access. Before spending on diligence, compare three independently observable values: used-equipment liquidation comparables, replacement cost and potential licensing/reuse economics. Submit a non-binding indication of interest only if the asset package, access terms and resale/use case are confirmed; abandon if no sale process, inspectable asset lis
+- Critic/judge: The underlying asset-sale situation is supported by dated SEC primary filings and is not a promotional equity thesis. It may support narrow, research-only diligence into an asset acquisition or licensing transaction. However, this is no longer an accessible public-markets security thesis: Origin was delisted and later suspended Exchange Act reporting, and the proposed value-capture path requires direct participation in an opaque liquida
+- Next evidence gaps: Whether an appointed liquidation manager or intermediary currently exists and who controls communications with prospective buyers.; Whether a formal sale process was launched, completed, abandoned or privately negotiated after August 2026.; Whether the caps-and-closures equipment is installed, operational, complete, transferable and supported by remaining personnel.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/1802457/000180245726000025/originmaterials-specialmee.htm; https://www.sec.gov/Archives/edgar/data/1802457/000180245726000021/orgn-20260501.htm
 
 ### Permitting and transmission-process modernization is opening a bottleneck-sensitive infrastructure opportunity [opp_7209beea24406589b8bc]
 - Status: WATCH_REQUIRES_VALIDATION | general | United States
@@ -1892,6 +1902,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://vllm.ai/; https://arxiv.org/abs/2610.09778
+
+### Open-weight inference router for token-cost-sensitive workloads [opp_2e420f285eb9e2d45440]
+- Status: WATCH_REQUIRES_VALIDATION | innovation_adoption | United States; globally deployable
+- Thesis: A narrow middleware product can capture savings by automatically routing each request across open-weight providers based on price, latency, context length and task quality, rather than selling generic AI consulting.
+- Value capture: Paid self-hosted router, usage-based orchestration fee, or a fixed-price deployment package for organizations with measurable recurring LLM spend. The economic mechanism is a share of verified inference-cost reduction or software subscription revenue; no buyer, margin or conversion is assumed.
+- Participation hypothesis: Build a minimal OpenAI-compatible proxy using existing routing APIs. Recruit one operator with a real batch workload such as document classification, support-ticket triage or code-generation tests. Replay 1,000-10,000 historical requests through the incumbent model and two open-weight providers, recording cost, latency, failure rate and task-quality score. Continue only if the workload shows a repeatable net-cost reduction after routing overhead and the operator agrees to pay for a limited pilot; otherwise falsify the wedge.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://huggingface.co/blog/openrouter; https://arxiv.org/abs/2605.02821
 
 ### Organic-crop robotic weeding retrofit and ROI trial [opp_4c867bb6e2a52712c785]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States

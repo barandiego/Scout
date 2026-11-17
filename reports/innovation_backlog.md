@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 212
+Candidates: 214
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -975,6 +975,18 @@ Candidates: 212
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://vllm.ai/; https://arxiv.org/abs/2610.09778
+
+## Open-weight inference router for token-cost-sensitive workloads
+- Status: watch | innovation_adoption
+- Current idea: A narrow middleware product can capture savings by automatically routing each request across open-weight providers based on price, latency, context length and task quality, rather than selling generic AI consulting.
+- Potential economic capture: Paid self-hosted router, usage-based orchestration fee, or a fixed-price deployment package for organizations with measurable recurring LLM spend. The economic mechanism is a share of verified inference-cost reduction or software subscription revenue; no buyer, margin or conversion is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Identify a real technical capability not yet adopted in one buyer's high-value workflow.
+  - Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.
+  - Measure the fully loaded operating cost, human exceptions and distribution against the status quo.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://huggingface.co/blog/openrouter; https://arxiv.org/abs/2605.02821
 
 ## Self-hosted browser-automation deployment for one repetitive Chilean back-office workflow
 - Status: watch | innovation_adoption
@@ -2211,6 +2223,18 @@ Candidates: 212
 - Critical gaps: Current share price, market capitalization, enterprise value, forward valuation, and the amount of expected downstream economics already priced in.; 2026 magnetics gross margin, cash cost per kilogram, yield, scrap rate, utilization, and sustainable segment EBITDA excluding prepayments, government support, intersegment transactions, and one-time items.; The actual contractual pricing, take-or-pay provisions, cancellation rights, quality penalties, and margin allocation in the GM and Apple arrangements.
 - Possible initial budget:
 - Source URLs: https://www.sec.gov/Archives/edgar/data/1801368/000180136826000008/mp-20251231.htm; https://www.sec.gov/Archives/edgar/data/1801368/000180136826000007/mpmcq42025er.htm; https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf
+
+## Orderly-liquidation access to Origin Materials equipment and intellectual property
+- Status: watch | public_markets
+- Current idea: The opportunity is not a generic distressed-equity thesis: it is a time-limited route to investigate whether specialized equipment, patents or a facility can be acquired below replacement or development cost for reuse, resale or licensing.
+- Potential economic capture: Asset acquisition, brokerage/introduction subject to the seller's process, equipment resale, technology licensing or operating reuse. No sale price, buyer, permissions or resale margin is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Find overlooked fundamentals and a named accessible security with dated primary filings.
+  - Compare risked intrinsic value, market expectations and specific downside scenarios.
+  - Define catalysts and invalidation thresholds before any governed investment decision.
+- Critical gaps: Whether an appointed liquidation manager or intermediary currently exists and who controls communications with prospective buyers.; Whether a formal sale process was launched, completed, abandoned or privately negotiated after August 2026.; Whether the caps-and-closures equipment is installed, operational, complete, transferable and supported by remaining personnel.
+- Possible initial budget:
+- Source URLs: https://www.sec.gov/Archives/edgar/data/1802457/000180245726000025/originmaterials-specialmee.htm; https://www.sec.gov/Archives/edgar/data/1802457/000180245726000021/orgn-20260501.htm
 
 ## Pre-spin-off event-driven position in Flex’s Cloud and Power Infrastructure separation
 - Status: watch | public_markets

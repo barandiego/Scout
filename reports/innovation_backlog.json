@@ -3042,6 +3042,42 @@
       "category": "innovation_adoption",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Build a minimal OpenAI-compatible proxy using existing routing APIs. Recruit one operator with a real batch workload such as document classification, support-ticket triage or code-generation tests. Replay 1,000-10,000 historical requests through the incumbent model and two open-weight providers, recording cost, latency, failure rate and task-quality score. Continue only if the workload shows a repeatable net-cost reduction after routing overhead and the operator agrees to pay for a limited pilot; otherwise falsify the wedge.",
+      "current_thesis": "A narrow middleware product can capture savings by automatically routing each request across open-weight providers based on price, latency, context length and task quality, rather than selling generic AI consulting.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States; globally deployable",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Open-weight inference router for token-cost-sensitive workloads",
+      "opportunity_id": "opp_2e420f285eb9e2d45440",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a real technical capability not yet adopted in one buyer's high-value workflow.",
+        "Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.",
+        "Measure the fully loaded operating cost, human exceptions and distribution against the status quo."
+      ],
+      "supporting_source_urls": [
+        "https://huggingface.co/blog/openrouter",
+        "https://arxiv.org/abs/2605.02821"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Paid self-hosted router, usage-based orchestration fee, or a fixed-price deployment package for organizations with measurable recurring LLM spend. The economic mechanism is a share of verified inference-cost reduction or software subscription revenue; no buyer, margin or conversion is assumed.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "innovation_adoption",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Select one workflow with non-sensitive test data and an explicit human approval before submission. Prototype with the MIT-licensed Cereon Browser Operator or AgentBrowser, keeping credentials and execution on the client’s machine. Measure completion rate, exception rate, human minutes per case, and model/API cost over 20 to 50 cases. Falsification test: ask three operators of the same workflow for anonymized sample steps and permission to run a 1-week sandbox pilot; abandon if no one supplies a repeatable task, baseline time, or authorized test environment.",
       "current_thesis": "A small operator can test whether one high-frequency, browser-only workflow—such as downloading statements, reconciling portal data, or preparing draft form entries—can be automated at lower total cost than manual handling. The opportunity is the workflow-specific implementation and maintenance, not a generic AI agency.",
       "founder_hours_initial_unverified_estimate": "",
@@ -7011,6 +7047,46 @@
       "category": "public_markets",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use the SEC dissolution proxy and subsequent filings to identify the appointed liquidation manager or sale-process contact. Request the asset list, bidding timetable, inspection rights and data-room access. Before spending on diligence, compare three independently observable values: used-equipment liquidation comparables, replacement cost and potential licensing/reuse economics. Submit a non-binding indication of interest only if the asset package, access terms and resale/use case are confirmed; abandon if no sale process, inspectable asset list or viable disposition route is available.",
+      "current_thesis": "The opportunity is not a generic distressed-equity thesis: it is a time-limited route to investigate whether specialized equipment, patents or a facility can be acquired below replacement or development cost for reuse, resale or licensing.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States and Canada",
+      "hypothesis_evaluation_questions": [
+        "Whether an appointed liquidation manager or intermediary currently exists and who controls communications with prospective buyers.",
+        "Whether a formal sale process was launched, completed, abandoned or privately negotiated after August 2026.",
+        "Whether the caps-and-closures equipment is installed, operational, complete, transferable and supported by remaining personnel.",
+        "The exact equipment list, condition, location, ownership, liens, leases, encumbrances, removal obligations and environmental liabilities.",
+        "The scope, enforceability, maintenance status and freedom-to-operate position of the relevant patents, trade secrets and know-how.",
+        "Whether Origin 1 can be sold without assumption of debt or other obligations, and the amount of secured debt attached to the asset group.",
+        "Actual market-clearing prices for comparable PET-cap equipment and distressed bioplastics or furanics IP."
+      ],
+      "investment_authorized": false,
+      "name": "Orderly-liquidation access to Origin Materials equipment and intellectual property",
+      "opportunity_id": "opp_04faddd7f57da5bc0fa5",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Find overlooked fundamentals and a named accessible security with dated primary filings.",
+        "Compare risked intrinsic value, market expectations and specific downside scenarios.",
+        "Define catalysts and invalidation thresholds before any governed investment decision."
+      ],
+      "supporting_source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1802457/000180245726000025/originmaterials-specialmee.htm",
+        "https://www.sec.gov/Archives/edgar/data/1802457/000180245726000021/orgn-20260501.htm"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Asset acquisition, brokerage/introduction subject to the seller's process, equipment resale, technology licensing or operating reuse. No sale price, buyer, permissions or resale margin is assumed.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "public_markets",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Read Flex’s Form 10, subsequent amendments, transaction agreement, financing disclosures, and current quote/borrow data; build a pro forma valuation of Flex and the proposed SpinCo; then paper-trade the parent/SpinCo exposure around the January–March 2027 transaction window. The lowest-cost falsification step is to test whether a conservative valuation using disclosed segment financials produces any spread after taxes, borrow costs, transaction costs, and execution risk. If no spread exists, do not trade.",
       "current_thesis": "The transaction creates a dated corporate-action catalyst and may cause the parent and future SpinCo to be valued against different peer groups and capital structures. The evidence supports a special-situations research or trading setup, but does not establish mispricing or expected return.",
       "founder_hours_initial_unverified_estimate": "",
@@ -8061,7 +8137,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-17T02:47:32.444637+00:00",
+  "generated_at": "2026-11-17T12:47:23.915858+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"
