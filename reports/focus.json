@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-11-16T17:56:44.567645+00:00",
+  "generated_at": "2026-11-17T02:47:32.346143+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -350,6 +350,15 @@
       "representative_id": "opp_5016d861b9a03f752353",
       "reviewed_count": 0,
       "theme": "chile_localization:eligible_remote_online"
+    },
+    {
+      "all_opportunity_ids": [
+        "opp_77127870004cd19ea7fd"
+      ],
+      "count": 1,
+      "representative_id": "opp_77127870004cd19ea7fd",
+      "reviewed_count": 0,
+      "theme": "chile_localization:importer_price_monitoring"
     },
     {
       "all_opportunity_ids": [
@@ -764,15 +773,6 @@
       "representative_id": "opp_5f895ba07087b66159c1",
       "reviewed_count": 1,
       "theme": "innovation_adoption:self_hosted_browser"
-    },
-    {
-      "all_opportunity_ids": [
-        "opp_6cc32af3f79943589863"
-      ],
-      "count": 1,
-      "representative_id": "opp_6cc32af3f79943589863",
-      "reviewed_count": 0,
-      "theme": "innovation_adoption:spanish_language_invoice"
     },
     {
       "all_opportunity_ids": [

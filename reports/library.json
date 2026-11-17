@@ -8406,6 +8406,67 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-17T02:47:00.031401+00:00",
+      "discovery_lens": "fixed_scope_paid_research_asset",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "COCHID states that its catalog and API have free access limits, offers paid API credit plans, and provides custom data and reports on request.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Servicios — Compañía Chilena de Inteligencia de Datos",
+          "url": "https://cochid.cl/es-latam/servicios/"
+        },
+        {
+          "claim": "Recalar states that it reconstructs Chilean import records by product, brand and importer, including origin and CIF-related information.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Importaciones de Chile por producto, marca e importador",
+          "url": "https://recalar.cl/"
+        },
+        {
+          "claim": "Mercado Libre publishes public best-seller pages showing products with observed sales counts and ratings.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Más vendidos — Mercado Libre Chile",
+          "url": "https://www.mercadolibre.cl/mas-vendidos/MLC1423"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.78,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_77127870004cd19ea7fd",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-17T02:47:00.078965+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Choose one non-regulated, standardized product category with visible Chilean marketplace listings. Use Recalar's public interface to identify at least 10 importers and recent CIF observations, use Mercado Libre's public best-seller/category pages to record 20 comparable retail prices, and use COCHID's free access or 100-query trial to test whether complementary company/geographic fields are available. Create a two-page sample with citations and send it to the identified companies or relevant trade groups only as a validation artifact, without claiming an existing buyer or permission to market their data. Falsification threshold: stop if fewer than 10 usable importer records, fewer than 20 comparable price observations, or three relevant prospects decline to review a sample.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A reproducible category brief could reduce the research cost for a small importer, distributor or marketplace seller deciding whether to source a specific product. The evidence supports data availability and a potentially repeatable deliverable, but does not establish that a buyer will pay or that any category has sufficient margin.",
+      "title": "Chile importer-and-price-monitoring brief for one narrowly defined product category",
+      "type": "fixed_scope_paid_research_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Produce a fixed-scope spreadsheet/PDF for one category containing importer names, recent import volumes or CIF values where available, origin countries, observed marketplace price points, and a dated source log. Charge only after confirming that the requested category and fields can legally and technically be assembled. Do not resell raw data beyond the applicable source permissions; the paid asset should add selection, normalization and analysis.",
+      "verified_sales": null,
+      "vertical": "chile_localization",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-26T09:42:45.353816+00:00",
       "discovery_lens": "regulation_infrastructure",
       "estimated_capital": "",
@@ -14326,60 +14387,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-20T20:21:45.749832+00:00",
-      "discovery_lens": "ai_open_source",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "Provides 72 hand-verified documents, JSON schemas, a standalone scorer, failure accounting, and Spanish among supported languages.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "DocuBench: Public benchmark for document data extraction",
-          "url": "https://github.com/DocuPipe/DocuBench"
-        },
-        {
-          "claim": "Provides reproducible comparisons of document-extraction models with cost and latency tracking and includes invoice-oriented tasks.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "Extraction Evals",
-          "url": "https://github.com/mborges-dev/extraction-evals"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.78,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_6cc32af3f79943589863",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-20T20:21:45.802811+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Start with synthetic invoices and public, permissioned examples; implement schemas for supplier tax ID, invoice folio, VAT, totals, currency, and line items; compare at least two open or API-based extractors using the public scorers. Distribution can begin through an open benchmark repository and technical communities, followed by outreach to accounting-software vendors. Lowest-cost falsification: release 20 cases and ask five target teams whether they would pay for a private 100-case evaluation or recurring regression run; abandon or narrow the wedge if nobody supplies a real schema, corpus, or paid test request.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "A small operator can build a reproducible Chile-focused evaluation asset rather than sell generic AI implementation: synthetic and permissioned invoice fixtures, Chilean tax-field schemas, accuracy scoring, and a model-cost comparison. The evidence supports technical feasibility and testability, but not willingness to pay.",
-      "title": "Spanish-language invoice-extraction evaluation pack for Chilean accounting workflows",
-      "type": "reusable_software_and_benchmark",
-      "unknowns": [],
-      "value_capture_mechanism": "Sell a fixed-scope benchmark run, downloadable test pack, or hosted regression dashboard to software vendors and accounting-automation teams. Do not claim coverage of Chilean tax rules or production accuracy until independently tested on permitted documents.",
-      "verified_sales": null,
-      "vertical": "innovation_adoption",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-27T09:36:23.911695+00:00",
       "discovery_lens": "chile_technology_import",
       "estimated_capital": "",
@@ -14811,13 +14818,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-16T17:56:44.567645+00:00",
+  "generated_at": "2026-11-17T02:47:32.346143+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 118,
+  "rejected_excluded": 119,
   "reviewed_cards": 91,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 330,
+  "total_distinct_opportunities": 331,
   "watch": 212
 }

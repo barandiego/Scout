@@ -190,6 +190,43 @@
       "category": "chile_localization",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Choose one non-regulated, standardized product category with visible Chilean marketplace listings. Use Recalar's public interface to identify at least 10 importers and recent CIF observations, use Mercado Libre's public best-seller/category pages to record 20 comparable retail prices, and use COCHID's free access or 100-query trial to test whether complementary company/geographic fields are available. Create a two-page sample with citations and send it to the identified companies or relevant trade groups only as a validation artifact, without claiming an existing buyer or permission to market their data. Falsification threshold: stop if fewer than 10 usable importer records, fewer than 20 comparable price observations, or three relevant prospects decline to review a sample.",
+      "current_thesis": "A reproducible category brief could reduce the research cost for a small importer, distributor or marketplace seller deciding whether to source a specific product. The evidence supports data availability and a potentially repeatable deliverable, but does not establish that a buyer will pay or that any category has sufficient margin.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile importer-and-price-monitoring brief for one narrowly defined product category",
+      "opportunity_id": "opp_77127870004cd19ea7fd",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Find the smallest Chilean workflow whose economics differ from the original geography.",
+        "Secure lawful access, partners and after-sales support rather than copy protected technology.",
+        "Run a buyer interview or mock listing to falsify assumptions before capital commitment."
+      ],
+      "supporting_source_urls": [
+        "https://cochid.cl/es-latam/servicios/",
+        "https://recalar.cl/",
+        "https://www.mercadolibre.cl/mas-vendidos/MLC1423"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Produce a fixed-scope spreadsheet/PDF for one category containing importer names, recent import volumes or CIF values where available, origin countries, observed marketplace price points, and a dated source log. Charge only after confirming that the requested category and fields can legally and technically be assembled. Do not resell raw data beyond the applicable source permissions; the paid asset should add selection, normalization and analysis.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "chile_localization",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Build a narrow version covering 20 commonly imported SKUs and the registered/non-registered platform distinction using the SII and Aduanas rules. Publish a free sample with source links, then contact publicly listed Chilean importers, ecommerce sellers, and procurement communities to test whether five users will pay for a one-time individualized landed-cost comparison. Falsify cheaply by asking 20 target users for one recent order and measuring whether the calculator changes a sourcing or checkout decision; stop if users will not provide an order or report a usable decision benefit. Do not scrape or redistribute platform data without checking terms.",
       "current_thesis": "A reproducible Spanish-language landed-cost and checkout-comparison asset could help small Chilean merchants, procurement teams, and frequent importers decide whether to source through registered platforms, domestic distributors, or alternative suppliers. The economic mechanism is reduced landed-cost uncertainty and fewer clearance surprises, not a claim of guaranteed savings.",
       "founder_hours_initial_unverified_estimate": "",
@@ -3038,42 +3075,6 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Charge for a narrowly scoped deployment, workflow configuration, monitoring, and human-approval layer only after a real organization permits a pilot and confirms the task’s baseline labor or error cost. Do not resell hosted access to software whose license prohibits it.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "innovation_adoption",
-      "commercially_validated": false,
-      "competition_confirmed": false,
-      "current_participation_path": "Start with synthetic invoices and public, permissioned examples; implement schemas for supplier tax ID, invoice folio, VAT, totals, currency, and line items; compare at least two open or API-based extractors using the public scorers. Distribution can begin through an open benchmark repository and technical communities, followed by outreach to accounting-software vendors. Lowest-cost falsification: release 20 cases and ask five target teams whether they would pay for a private 100-case evaluation or recurring regression run; abandon or narrow the wedge if nobody supplies a real schema, corpus, or paid test request.",
-      "current_thesis": "A small operator can build a reproducible Chile-focused evaluation asset rather than sell generic AI implementation: synthetic and permissioned invoice fixtures, Chilean tax-field schemas, accuracy scoring, and a model-cost comparison. The evidence supports technical feasibility and testability, but not willingness to pay.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "Chile",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "Spanish-language invoice-extraction evaluation pack for Chilean accounting workflows",
-      "opportunity_id": "opp_6cc32af3f79943589863",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Identify a real technical capability not yet adopted in one buyer's high-value workflow.",
-        "Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.",
-        "Measure the fully loaded operating cost, human exceptions and distribution against the status quo."
-      ],
-      "supporting_source_urls": [
-        "https://github.com/DocuPipe/DocuBench",
-        "https://github.com/mborges-dev/extraction-evals"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "Sell a fixed-scope benchmark run, downloadable test pack, or hosted regression dashboard to software vendors and accounting-automation teams. Do not claim coverage of Chilean tax rules or production accuracy until independently tested on permitted documents.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -8060,7 +8061,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-16T17:56:44.676998+00:00",
+  "generated_at": "2026-11-17T02:47:32.444637+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

@@ -2,7 +2,7 @@
 
 Research assignment only. **Zero verified buyers, sales, or execution permissions.**
 
-- Generated: 2026-11-16T17:56:44.567645+00:00
+- Generated: 2026-11-17T02:47:32.346143+00:00
 - Research cards reviewed: 212
 - Narrow ideas selected for founder review: 4
 - Verified third-party receipts: **none**

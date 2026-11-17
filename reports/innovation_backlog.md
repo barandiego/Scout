@@ -64,6 +64,18 @@ Candidates: 212
 - Possible initial budget:
 - Source URLs: https://www.sii.cl/destacados/iva_bienes/plataformas_inscritas/; https://www.trade.gov/country-commercial-guides/chile-ecommerce; https://www.fne.gob.cl/en/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-plataformas/
 
+## Chile importer-and-price-monitoring brief for one narrowly defined product category
+- Status: watch | chile_localization
+- Current idea: A reproducible category brief could reduce the research cost for a small importer, distributor or marketplace seller deciding whether to source a specific product. The evidence supports data availability and a potentially repeatable deliverable, but does not establish that a buyer will pay or that any category has sufficient margin.
+- Potential economic capture: Produce a fixed-scope spreadsheet/PDF for one category containing importer names, recent import volumes or CIF values where available, origin countries, observed marketplace price points, and a dated source log. Charge only after confirming that the requested category and fields can legally and technically be assembled. Do not resell raw data beyond the applicable source permissions; the paid asset should add selection, normalization and analysis.
+- **Research routes to test (NOT validated claims):**
+  - Find the smallest Chilean workflow whose economics differ from the original geography.
+  - Secure lawful access, partners and after-sales support rather than copy protected technology.
+  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://cochid.cl/es-latam/servicios/; https://recalar.cl/; https://www.mercadolibre.cl/mas-vendidos/MLC1423
+
 ## Chile low-value import VAT and landed-cost decision asset
 - Status: watch | chile_localization
 - Current idea: A reproducible Spanish-language landed-cost and checkout-comparison asset could help small Chilean merchants, procurement teams, and frequent importers decide whether to source through registered platforms, domestic distributors, or alternative suppliers. The economic mechanism is reduced landed-cost uncertainty and fewer clearance surprises, not a claim of guaranteed savings.
@@ -975,18 +987,6 @@ Candidates: 212
 - Critical gaps: Which exact workflow, buyer, and Chilean industry are targeted.; Whether the workflow is legally and contractually automatable, including portal terms, credential-sharing rules, and data-processing obligations.; Human labor minutes per case, fully loaded labor cost, error cost, transaction volume, and achievable net savings.
 - Possible initial budget:
 - Source URLs: https://github.com/cereon-labs/cereon-browser-operator; https://github.com/smouj/agent-browser
-
-## Spanish-language invoice-extraction evaluation pack for Chilean accounting workflows
-- Status: watch | innovation_adoption
-- Current idea: A small operator can build a reproducible Chile-focused evaluation asset rather than sell generic AI implementation: synthetic and permissioned invoice fixtures, Chilean tax-field schemas, accuracy scoring, and a model-cost comparison. The evidence supports technical feasibility and testability, but not willingness to pay.
-- Potential economic capture: Sell a fixed-scope benchmark run, downloadable test pack, or hosted regression dashboard to software vendors and accounting-automation teams. Do not claim coverage of Chilean tax rules or production accuracy until independently tested on permitted documents.
-- **Research routes to test (NOT validated claims):**
-  - Identify a real technical capability not yet adopted in one buyer's high-value workflow.
-  - Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.
-  - Measure the fully loaded operating cost, human exceptions and distribution against the status quo.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://github.com/DocuPipe/DocuBench; https://github.com/mborges-dev/extraction-evals
 
 ## Tokenized-securities operational tooling around DTC/Nasdaq eligibility and settlement
 - Status: watch | innovation_adoption

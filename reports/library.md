@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-11-16T17:56:44.567645+00:00
+Generated: 2026-11-17T02:47:32.346143+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
 - Active research: 212 (0 HQ survivors, 212 watches)
-- Rejected opportunities excluded: 118
+- Rejected opportunities excluded: 119
 - Critic-and-judge reviewed: 91
 - Autonomous execution authorization: 0
 
@@ -982,6 +982,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sii.cl/destacados/iva_bienes/plataformas_inscritas/; https://www.trade.gov/country-commercial-guides/chile-ecommerce; https://www.fne.gob.cl/en/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las
+
+### Chile importer-and-price-monitoring brief for one narrowly defined product category [opp_77127870004cd19ea7fd]
+- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
+- Thesis: A reproducible category brief could reduce the research cost for a small importer, distributor or marketplace seller deciding whether to source a specific product. The evidence supports data availability and a potentially repeatable deliverable, but does not establish that a buyer will pay or that any category has sufficient margin.
+- Value capture: Produce a fixed-scope spreadsheet/PDF for one category containing importer names, recent import volumes or CIF values where available, origin countries, observed marketplace price points, and a dated source log. Charge only after confirming that the requested category and fields can legally and technically be assembled. Do not resell raw data beyond the applicable source permissions; the paid asset should add selection, normalization an
+- Participation hypothesis: Choose one non-regulated, standardized product category with visible Chilean marketplace listings. Use Recalar's public interface to identify at least 10 importers and recent CIF observations, use Mercado Libre's public best-seller/category pages to record 20 comparable retail prices, and use COCHID's free access or 100-query trial to test whether complementary company/geographic fields are available. Create a two-page sample with citations and send it to the identified companies or relevant trade groups only as a validation artifact, without c
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://cochid.cl/es-latam/servicios/; https://recalar.cl/; https://www.mercadolibre.cl/mas-vendidos/MLC1423
 
 ### Chile Open Finance implementation-readiness test [opp_68b251b56fcd3101a22e]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -2042,16 +2052,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://app.outlier.ai/opportunities/4481627005; https://app.outlier.ai/login?job_post_id=4476998005
-
-### Spanish-language invoice-extraction evaluation pack for Chilean accounting workflows [opp_6cc32af3f79943589863]
-- Status: WATCH_REQUIRES_VALIDATION | innovation_adoption | Chile
-- Thesis: A small operator can build a reproducible Chile-focused evaluation asset rather than sell generic AI implementation: synthetic and permissioned invoice fixtures, Chilean tax-field schemas, accuracy scoring, and a model-cost comparison. The evidence supports technical feasibility and testability, but not willingness to pay.
-- Value capture: Sell a fixed-scope benchmark run, downloadable test pack, or hosted regression dashboard to software vendors and accounting-automation teams. Do not claim coverage of Chilean tax rules or production accuracy until independently tested on permitted documents.
-- Participation hypothesis: Start with synthetic invoices and public, permissioned examples; implement schemas for supplier tax ID, invoice folio, VAT, totals, currency, and line items; compare at least two open or API-based extractors using the public scorers. Distribution can begin through an open benchmark repository and technical communities, followed by outreach to accounting-software vendors. Lowest-cost falsification: release 20 cases and ask five target teams whether they would pay for a private 100-case evaluation or recurring regression run; abandon or narrow th
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://github.com/DocuPipe/DocuBench; https://github.com/mborges-dev/extraction-evals
 
 ### Supply and support an agricultural spraying drone for INIA/Atacama public procurement [opp_28d6d6ee064292c6d3a4]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile, Atacama
