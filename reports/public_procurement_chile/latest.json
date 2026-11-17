@@ -1,17 +1,67 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 7200000.0,
-      "buyer": "HOSPITAL CLINICO METROPOLITANO DE LA FLORIDA DOCTORA ELOISA DIAZ",
-      "closes_at": "2026-11-17T15:44:00",
-      "code": "812261-481-COT26",
-      "estimated_budget": 7200000.0,
-      "name": "Adquisición de mangueras para máquinas de anestesia",
+      "available_budget_clp": 4500000.0,
+      "buyer": "Servicio de Biodiversidad y Áreas Protegidas",
+      "closes_at": "2026-11-18T09:00:00",
+      "code": "1495202-41-COT26",
+      "estimated_budget": 4500000.0,
+      "name": "ADQUISICIÓN DE ARTÍCULOS DE FERRETERÍA PARA MONUMENTO NATURAL LA PORTADA Y PARQUE NACIONAL MORRO MORENO",
+      "products": 7,
+      "region": "Región de Antofagasta"
+    },
+    {
+      "available_budget_clp": 450000.0,
+      "buyer": "SERVICIO NACIONAL DE SALUD HOSPITAL DE COELEMU",
+      "closes_at": "2026-11-18T08:30:00",
+      "code": "1057506-336-COT26",
+      "estimated_budget": 450000.0,
+      "name": "Se solicita cotizacion por cajas plasticas para unidad de farmacia.",
+      "products": 2,
+      "region": "Región del Ñuble"
+    },
+    {
+      "available_budget_clp": 200000.0,
+      "buyer": "IMunicipalidad de San Pablo - Educación",
+      "closes_at": "2026-11-19T04:55:00",
+      "code": "2940-184-COT26",
+      "estimated_budget": 200000.0,
+      "name": "BICICLETA DE ADULTO PARA PREMIACION LICENCIATURA LICEO FRAY PABLO DE ROYO",
+      "products": 1,
+      "region": "Región de los Lagos"
+    },
+    {
+      "available_budget_clp": 100000.0,
+      "buyer": "CORP MUNICIPAL DE CASTRO PARA LA EDUCACION SALUD Y ATENCION AL MENOR",
+      "closes_at": "2026-11-17T23:28:00",
+      "code": "545598-1241-COT26",
+      "estimated_budget": 100000.0,
+      "name": "JUEGOS DIDACTICOS PARA CONVENIO MAS ADULTO MAYOR AUTOVALENTE DE LA CORPORACION MUNICIPAL DE CASTRO (SP. 20743)",
+      "products": 1,
+      "region": "Región de los Lagos"
+    },
+    {
+      "available_budget_clp": 787000.0,
+      "buyer": "ILUSTRE MUNICIPALIDAD DE HUARA",
+      "closes_at": "2026-11-19T15:00:00",
+      "code": "1058345-96-COT26",
+      "estimated_budget": 787000.0,
+      "name": "Adquisición de señalética y letreros de acceso a piscina municipal",
       "products": 4,
-      "region": "Región Metropolitana de Santiago"
+      "region": "Región de Tarapacá"
+    },
+    {
+      "available_budget_clp": 918556.0,
+      "buyer": "DEPARTAMENTO PROVINCIAL DE EDUCACIÓN DE RANCO",
+      "closes_at": "2026-11-17T23:10:00",
+      "code": "5795-143-COT26",
+      "estimated_budget": 918556.0,
+      "name": "GIFT CARD JORNADAS MICROCENTROS",
+      "products": 1,
+      "region": "Región de Los Ríos"
     }
   ],
-  "active_structurally_reconstructable_count": 1,
+  "active_structurally_reconstructable_count": 6,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -29,7 +79,7 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-16T18:40:49Z",
+  "generated_at": "2026-11-17T02:58:59Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -37,17 +87,17 @@
   "phase1": {
     "records": 20,
     "rejection_reasons": {
-      "missing_products": 2,
+      "missing_products": 1,
       "no_observable_competitive_prices": 2
     },
-    "resolved": 19,
-    "structurally_reconstructable": 16,
-    "with_observable_quote_totals": 17,
-    "with_purchase_order_indicator": 15
+    "resolved": 14,
+    "structurally_reconstructable": 17,
+    "with_observable_quote_totals": 12,
+    "with_purchase_order_indicator": 8
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-16T18:40:49Z"
+    "changed_to": "2026-11-17T02:58:59Z"
   }
 }
