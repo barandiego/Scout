@@ -1,16 +1,28 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-18T07:47:27.265954+00:00
+Generated: 2026-11-18T17:24:55.019221+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 220
+- New this cycle: 221
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 638, ai 99, energy 601, robotics 462
+- Categories: agriculture 648, ai 97, commerce 1, energy 603, robotics 451
 
 ## Recently encountered signals
+
+### Blessymary2007/GREEN-AI
+- Source: https://github.com/Blessymary2007/GREEN-AI
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### Blessymary2007/GREEN-AI-Project
+- Source: https://github.com/Blessymary2007/GREEN-AI-Project
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### bmmc0100032025-web/Kilimo-AI
 - Source: https://github.com/bmmc0100032025-web/Kilimo-AI
@@ -446,18 +458,6 @@ Generated: 2026-11-18T07:47:27.265954+00:00
 
 ### samarthpatare/AGROSATHI_AI---SAMART-FARMING-BETTER-FUTURE
 - Source: https://github.com/samarthpatare/AGROSATHI_AI---SAMART-FARMING-BETTER-FUTURE
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### iamlogesh26-crypto/AgriHelp-Smart-Agriculture-Assistant
-- Source: https://github.com/iamlogesh26-crypto/AgriHelp-Smart-Agriculture-Assistant
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Sumit8055-arch/-NexHR-Agri-Bringing-AI-Smart-Farming-Digital-Innovation-Together-
-- Source: https://github.com/Sumit8055-arch/-NexHR-Agri-Bringing-AI-Smart-Farming-Digital-Innovation-Together-
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
