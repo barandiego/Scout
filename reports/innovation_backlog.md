@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 215
+Candidates: 217
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -1180,6 +1180,18 @@ Candidates: 215
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/613/articles-82752_recurso_1.pdf
 
+## Chile Open Finance conformance-testing harness for participant integrations
+- Status: watch | open_finance_chile
+- Current idea: Banks, account-information providers, payment-initiation providers, and technology vendors have a defined pre-production integration and compliance-testing window before the system becomes operational. A narrowly scoped test harness could reduce integration defects and shorten preparation time without attempting to become a regulated participant.
+- Potential economic capture: A paid, fixed-scope software test pack or implementation artifact covering API schema validation, consent-flow tests, certificate/signature checks, pagination/error handling, directory interoperability, and reproducible conformance reports. Payment would need to come from an identifiable institution or vendor that elects to buy testing support; no buyer or price is assumed here.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Whether ATENA exposes automated test results, downloadable traces, negative-test coverage, CI integration, or machine-readable conformance reports sufficient for professional engineering workflows.; Whether CMF or accredited entities will require an external certification or validation artifact, or whether only ATENA and formal accreditation will matter.; The number of institutions that must integrate, their implementation budgets, and whether banks, PSBI/PSIP firms, vendors, or consultancies control the purchasing decision.
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://api.cmfchile.cl/
+
 ## Chile Open Finance conformance-testing wedge ahead of July 2027 implementation
 - Status: watch | open_finance_chile
 - Current idea: Entities preparing for participation face a bounded interoperability and conformance problem before a specific regulatory deadline. A narrowly scoped test harness, request validator, fixture generator and implementation checklist could reduce integration risk without requiring the operator to become a regulated financial participant.
@@ -2235,6 +2247,18 @@ Candidates: 215
 - Critical gaps: Current share price, market capitalization, enterprise value, forward valuation, and the amount of expected downstream economics already priced in.; 2026 magnetics gross margin, cash cost per kilogram, yield, scrap rate, utilization, and sustainable segment EBITDA excluding prepayments, government support, intersegment transactions, and one-time items.; The actual contractual pricing, take-or-pay provisions, cancellation rights, quality penalties, and margin allocation in the GM and Apple arrangements.
 - Possible initial budget:
 - Source URLs: https://www.sec.gov/Archives/edgar/data/1801368/000180136826000008/mp-20251231.htm; https://www.sec.gov/Archives/edgar/data/1801368/000180136826000007/mpmcq42025er.htm; https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf
+
+## Operational tooling around on-chain share and fund recordkeeping—not a new token issuer
+- Status: watch | public_markets
+- Current idea: The near-term operational bottleneck is likely reconciliation, transfer-agent controls, corporate-action handling, investor-access controls, and audit evidence across conventional books and blockchain-integrated records—not merely issuing another token.
+- Potential economic capture: A narrowly defined reconciliation or audit-evidence package for a transfer agent, fund administrator, broker, venue, or technology vendor: compare conventional shareholder records with blockchain records, flag exceptions, preserve evidence, and produce control reports. A buyer, price, and permissions are unknown and must be validated before development.
+- **Research routes to test (NOT validated claims):**
+  - Find overlooked fundamentals and a named accessible security with dated primary filings.
+  - Compare risked intrinsic value, market expectations and specific downside scenarios.
+  - Define catalysts and invalidation thresholds before any governed investment decision.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.sec.gov/Archives/edgar/data/1319067/000199937126019973/filename1.htm; https://www.sec.gov/Archives/edgar/data/1861657/000149315226049196/ex99-1.htm
 
 ## Orderly-liquidation access to Origin Materials equipment and intellectual property
 - Status: watch | public_markets

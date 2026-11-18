@@ -393,6 +393,96 @@
       "ai_leverage": "",
       "authorized_for_execution": false,
       "contrary_evidence": [
+        "The timing signal is genuine: CMF published technical specifications and a developer portal in June 2026, launched ATENA on September 30, 2026, and explicitly invited ecosystem institutions to test integrations and validate business models before July 2027. ([cmfchile.cl](https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html?utm_source=openai)) The sandbox documentation describes multiple test surfaces, including directory APIs, functional tests, data APIs, payment-initiation APIs, mock data, and participant testing, which could create demand for independent debugging, trace analysis, regression tooling, or implementation support around—not instead of—the official environment. ([cmfchile.cl](https://www.cmfchile.cl/portal/prensa/625/articles-113925_doc_pdf.pdf?utm_source=openai)) The regulatory framework covers API functionality, consent, security, certification, and participant-directory operations, creating technically complex failure modes that institutions may not solve efficiently with documentation alone. ([carey.cl](https://www.carey.cl/en/cmf-amends-ncg-no-514-and-incorporates-technical-standards-for-the-implementation-of-the-open-finance-system?utm_source=openai))"
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-11-18T05:54:47.163664+00:00",
+      "discovery_lens": "tokenization_finance",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "ATENA provides a controlled environment for institutions to test integrations, interoperability with the participant directory, and preparation for Open Finance requirements before entry into force scheduled for July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF launches ATENA Technological Sandbox for the implementation of the Open Finance System",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html"
+        },
+        {
+          "claim": "CMF incorporated technical specifications for information exchange and payment initiation and made the developer portal available for implementation work.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "CMF provides a public API and documentation for direct access to current and historical banking-information resources.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "API - CMF Bancos",
+          "url": "https://api.cmfchile.cl/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [
+        "Fatal if at least five relevant Chilean banks, PSBI/PSIP firms, or implementation vendors confirm that ATENA and existing vendors fully cover their testing needs and none will run a paid pilot.",
+        "Fatal if ATENA provides authoritative automated conformance testing and reports that make an independent harness non-differentiated.",
+        "Fatal if CMF accreditation or regulated certification is required for any report the proposed product would claim to produce, and the operator cannot obtain that status.",
+        "Fatal if no target buyer supplies a real or sanitized integration trace, test credential, defect sample, or written problem statement within 30 days of outreach.",
+        "Fatal if the official specifications materially change twice or more before a usable prototype is completed, making maintenance costs exceed plausible pilot revenue.",
+        "Negative evidence if a one-endpoint prototype cannot identify defects or workflow gaps beyond what the official sandbox reports.",
+        "Negative evidence if prospective buyers value hands-on integration consulting but reject standalone software or fixed-scope test packs.",
+        "Negative evidence if three incumbent vendors can demonstrate substantially equivalent Open Finance Chile conformance tooling at no incremental price."
+      ],
+      "geography": "Chile",
+      "id": "opp_6a4b728dc1deec492d30",
+      "judge_reviewed": true,
+      "judgment": "The regulatory/timing premise is sufficiently grounded by CMF primary materials: technical specifications, a developer portal, and the ATENA sandbox indicate a real pre-launch implementation period ahead of the stated July 2027 entry into force. The proposed product can plausibly remain outside the regulated-participant perimeter if it is strictly offline/local engineering tooling or advisory validation and makes no claim of CMF approval, certification, data aggregation, payment initiation, or operation on a participant's behalf. However, the commercial wedge is not yet demonstrated. ATENA appears to cover much of the same sandbox, interoperability, mock-data, and functional-testing surface, while official/recognized conformance or enrollment outputs may carry more weight than an independent report. The buyer base is concentrated and procurement-led, and incumbent integration/API vendors may bundle equivalent capability. This survives only as a narrow, falsifiable research hypothesis: find a gap in official tooling using a concrete participant trace or sandbox workflow, and establish that a buyer will pay for that gap rather than implementation consulting or an incumbent platform.",
+      "last_record_updated_at": "2026-11-18T05:55:11.462554+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Whether ATENA exposes automated test results, downloadable traces, negative-test coverage, CI integration, or machine-readable conformance reports sufficient for professional engineering workflows.",
+        "Whether CMF or accredited entities will require an external certification or validation artifact, or whether only ATENA and formal accreditation will matter.",
+        "The number of institutions that must integrate, their implementation budgets, and whether banks, PSBI/PSIP firms, vendors, or consultancies control the purchasing decision.",
+        "Whether the specifications, schemas, security profiles, consent flows, error codes, and versioning rules will remain stable through July 2027.",
+        "Whether independent access to ATENA requires registration, credentials, participant status, Chilean presence, or test certificates that would block a remote operator."
+      ],
+      "participation_path": "Use only the public CMF developer documentation and ATENA materials to build a local validator for one or two published API flows. Compare generated requests, responses, certificates, error codes, pagination, and consent states against the official specifications. Then contact named potential participants or implementation vendors through publicly listed channels with a reproducible defect report or request for a paid pilot. Lowest-cost falsification: build the validator for one endpoint in under a week and ask at least five Chilean fintech, banking-technology, or compliance vendors whether they will run a real integration trace or pay for a review; abandon if no one supplies test credentials, a sandbox trace, or a concrete paid need. Do not represent the tool as CMF-approved or operate regulated services.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Banks, account-information providers, payment-initiation providers, and technology vendors have a defined pre-production integration and compliance-testing window before the system becomes operational. A narrowly scoped test harness could reduce integration defects and shorten preparation time without attempting to become a regulated participant.",
+      "title": "Chile Open Finance conformance-testing harness for participant integrations",
+      "type": "regulatory_implementation_wedge",
+      "unknowns": [
+        "Whether ATENA exposes automated test results, downloadable traces, negative-test coverage, CI integration, or machine-readable conformance reports sufficient for professional engineering workflows.",
+        "Whether CMF or accredited entities will require an external certification or validation artifact, or whether only ATENA and formal accreditation will matter.",
+        "The number of institutions that must integrate, their implementation budgets, and whether banks, PSBI/PSIP firms, vendors, or consultancies control the purchasing decision.",
+        "Whether the specifications, schemas, security profiles, consent flows, error codes, and versioning rules will remain stable through July 2027.",
+        "Whether independent access to ATENA requires registration, credentials, participant status, Chilean presence, or test certificates that would block a remote operator.",
+        "Actual willingness to pay and acceptable pricing for a validator versus ordinary implementation consulting.",
+        "Whether existing API-management and integration vendors already bundle equivalent Open Finance Chile testing capabilities.",
+        "Whether the opportunity is commercially reachable without Spanish-language sales, Chilean legal contracting, local trust, and access to non-public integration traces.",
+        "Whether ATENA provides machine-readable results, complete negative-test coverage, downloadable traces, regression/CI support, and authoritative conformance artifacts.",
+        "The exact access prerequisites for ATENA and whether a non-participant vendor can legally and technically test without a sponsoring regulated participant.",
+        "Whether CMF rules or accreditation arrangements require recognized certification for any result buyers would use in onboarding or compliance evidence.",
+        "Which participant category has a mandatory near-term integration obligation, a named budget owner, and a gap not already handled by its API platform or systems integrator.",
+        "Actual willingness to pay, likely contract size, and whether buyers want standalone software, a fixed-scope evidence pack, or only hands-on implementation services.",
+        "Whether a local Chilean entity, Spanish-language support, security review, insurance, or vendor onboarding is required before a pilot can be procured."
+      ],
+      "value_capture_mechanism": "A paid, fixed-scope software test pack or implementation artifact covering API schema validation, consent-flow tests, certificate/signature checks, pagination/error handling, directory interoperability, and reproducible conformance reports. Payment would need to come from an identifiable institution or vendor that elects to buy testing support; no buyer or price is assumed here.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [
         "There is genuine evidence that the underlying supply exists: VIC Robotics publicly describes RaaS beginning at UF 20/month, with installation, mapping, maintenance, hardware replacement, software updates, and local support included. It identifies cleaning use cases across supermarkets, logistics, hospitals, hotels, and industrial sites. Robotic Work states that it is an official PUDU distributor in Chile and has local technical capacity and spare parts. Dimacofi separately markets PUDU cleaning equipment with national support. Geoprospec markets Gausium robots in Chile and explicitly describes RaaS as a way to validate results before purchase. Intertrade markets GIROX autonomous cleaning in Chile and claims existing operation across several facility classes. These facts support supplier availability and category legitimacy, but they do not prove that an independent intermediary can capture value. Source URLs: https://www.vicrobotics.com/faq ; https://www.robotic-work.com/ ; https://www.dimacofi.cl/pudu-cc1-pro/ ; https://geoprospec.cl/robots-de-limpieza/ ; https://www.intertrade.cl/girox/"
       ],
       "critic_reviewed": true,
@@ -13747,6 +13837,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-18T05:54:47.165733+00:00",
+      "discovery_lens": "tokenization_finance",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The filing describes blockchain-integrated recordkeeping, migration to a private access layer operating on Solana, direct institutional investment availability, and a transfer-agent/custody structure.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "M3Sixty Onchain U.S. Government Money Market Fund SEC filing",
+          "url": "https://www.sec.gov/Archives/edgar/data/1319067/000199937126019973/filename1.htm"
+        },
+        {
+          "claim": "The announcement describes proposed tokenized public-equity trading through TSV and Fairmint with 24/7 trading and atomic settlement on the Canton Network.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Canton Strategic Holdings SEC-filed announcement on tokenized shares",
+          "url": "https://www.sec.gov/Archives/edgar/data/1861657/000149315226049196/ex99-1.htm"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.78,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_4625e6e828aa89d1e1c0",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-18T05:54:47.261708+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Start with public SEC filings and publicly documented test environments, not live securities activity. Build a synthetic-data reconciliation prototype that handles mint, burn, transfer, failed settlement, duplicate event, corporate-action, and end-of-day balance cases. Approach transfer-agent technology vendors, fund administrators, or regulated venues only with the prototype and ask whether they will provide anonymized sample event formats or pay for a controlled review. Lowest-cost falsification: secure two informational interviews and one sample schema; abandon if operators report that existing controls already solve the problem or refuse any non-confidential validation path. Do not custody assets, broker securities, solicit investors, or imply regulatory approval.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The near-term operational bottleneck is likely reconciliation, transfer-agent controls, corporate-action handling, investor-access controls, and audit evidence across conventional books and blockchain-integrated records—not merely issuing another token.",
+      "title": "Operational tooling around on-chain share and fund recordkeeping—not a new token issuer",
+      "type": "infrastructure_wedge",
+      "unknowns": [],
+      "value_capture_mechanism": "A narrowly defined reconciliation or audit-evidence package for a transfer agent, fund administrator, broker, venue, or technology vendor: compare conventional shareholder records with blockchain records, flag exceptions, preserve evidence, and produce control reports. A buyer, price, and permissions are unknown and must be validated before development.",
+      "verified_sales": null,
+      "vertical": "public_markets",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-11-06T23:57:44.008988+00:00",
       "discovery_lens": "adoption_lag",
       "estimated_capital": "",
@@ -15042,13 +15186,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-17T23:20:42.287385+00:00",
+  "generated_at": "2026-11-18T05:55:12.147984+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 119,
-  "reviewed_cards": 93,
+  "reviewed_cards": 94,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 334,
-  "watch": 215
+  "total_distinct_opportunities": 336,
+  "watch": 217
 }

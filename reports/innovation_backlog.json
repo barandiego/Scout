@@ -3680,6 +3680,47 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use only the public CMF developer documentation and ATENA materials to build a local validator for one or two published API flows. Compare generated requests, responses, certificates, error codes, pagination, and consent states against the official specifications. Then contact named potential participants or implementation vendors through publicly listed channels with a reproducible defect report or request for a paid pilot. Lowest-cost falsification: build the validator for one endpoint in under a week and ask at least five Chilean fintech, banking-technology, or compliance vendors whether they will run a real integration trace or pay for a review; abandon if no one supplies test credentials, a sandbox trace, or a concrete paid need. Do not represent the tool as CMF-approved or operate regulated services.",
+      "current_thesis": "Banks, account-information providers, payment-initiation providers, and technology vendors have a defined pre-production integration and compliance-testing window before the system becomes operational. A narrowly scoped test harness could reduce integration defects and shorten preparation time without attempting to become a regulated participant.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Whether ATENA exposes automated test results, downloadable traces, negative-test coverage, CI integration, or machine-readable conformance reports sufficient for professional engineering workflows.",
+        "Whether CMF or accredited entities will require an external certification or validation artifact, or whether only ATENA and formal accreditation will matter.",
+        "The number of institutions that must integrate, their implementation budgets, and whether banks, PSBI/PSIP firms, vendors, or consultancies control the purchasing decision.",
+        "Whether the specifications, schemas, security profiles, consent flows, error codes, and versioning rules will remain stable through July 2027.",
+        "Whether independent access to ATENA requires registration, credentials, participant status, Chilean presence, or test certificates that would block a remote operator.",
+        "Actual willingness to pay and acceptable pricing for a validator versus ordinary implementation consulting.",
+        "Whether existing API-management and integration vendors already bundle equivalent Open Finance Chile testing capabilities."
+      ],
+      "investment_authorized": false,
+      "name": "Chile Open Finance conformance-testing harness for participant integrations",
+      "opportunity_id": "opp_6a4b728dc1deec492d30",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://api.cmfchile.cl/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A paid, fixed-scope software test pack or implementation artifact covering API schema validation, consent-flow tests, certificate/signature checks, pagination/error handling, directory interoperability, and reproducible conformance reports. Payment would need to come from an identifiable institution or vendor that elects to buy testing support; no buyer or price is assumed here.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use only the CMF developer-portal and Annex 3 materials to build a minimal validator for one narrow flow. Publish a technical demo and contact 10 identifiable Chilean fintechs, payment operators, cooperatives or implementation firms listed in public SFA consultation/industry materials, asking whether they would pay for a 1-week conformance review. Do not claim regulatory approval, access rights or a buyer until one party agrees to a paid pilot. Lowest-cost falsification: spend one week building the validator and seek five technically specific interviews; abandon if no interviewee confirms an unresolved implementation problem or agrees to review a paid scope.",
       "current_thesis": "Entities preparing for participation face a bounded interoperability and conformance problem before a specific regulatory deadline. A narrowly scoped test harness, request validator, fixture generator and implementation checklist could reduce integration risk without requiring the operator to become a regulated financial participant.",
       "founder_hours_initial_unverified_estimate": "",
@@ -7087,6 +7128,42 @@
       "category": "public_markets",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Start with public SEC filings and publicly documented test environments, not live securities activity. Build a synthetic-data reconciliation prototype that handles mint, burn, transfer, failed settlement, duplicate event, corporate-action, and end-of-day balance cases. Approach transfer-agent technology vendors, fund administrators, or regulated venues only with the prototype and ask whether they will provide anonymized sample event formats or pay for a controlled review. Lowest-cost falsification: secure two informational interviews and one sample schema; abandon if operators report that existing controls already solve the problem or refuse any non-confidential validation path. Do not custody assets, broker securities, solicit investors, or imply regulatory approval.",
+      "current_thesis": "The near-term operational bottleneck is likely reconciliation, transfer-agent controls, corporate-action handling, investor-access controls, and audit evidence across conventional books and blockchain-integrated records—not merely issuing another token.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Operational tooling around on-chain share and fund recordkeeping—not a new token issuer",
+      "opportunity_id": "opp_4625e6e828aa89d1e1c0",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Find overlooked fundamentals and a named accessible security with dated primary filings.",
+        "Compare risked intrinsic value, market expectations and specific downside scenarios.",
+        "Define catalysts and invalidation thresholds before any governed investment decision."
+      ],
+      "supporting_source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1319067/000199937126019973/filename1.htm",
+        "https://www.sec.gov/Archives/edgar/data/1861657/000149315226049196/ex99-1.htm"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A narrowly defined reconciliation or audit-evidence package for a transfer agent, fund administrator, broker, venue, or technology vendor: compare conventional shareholder records with blockchain records, flag exceptions, preserve evidence, and produce control reports. A buyer, price, and permissions are unknown and must be validated before development.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "public_markets",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use the SEC dissolution proxy and subsequent filings to identify the appointed liquidation manager or sale-process contact. Request the asset list, bidding timetable, inspection rights and data-room access. Before spending on diligence, compare three independently observable values: used-equipment liquidation comparables, replacement cost and potential licensing/reuse economics. Submit a non-binding indication of interest only if the asset package, access terms and resale/use case are confirmed; abandon if no sale process, inspectable asset list or viable disposition route is available.",
       "current_thesis": "The opportunity is not a generic distressed-equity thesis: it is a time-limited route to investigate whether specialized equipment, patents or a facility can be acquired below replacement or development cost for reuse, resale or licensing.",
       "founder_hours_initial_unverified_estimate": "",
@@ -8177,7 +8254,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-17T23:20:42.404053+00:00",
+  "generated_at": "2026-11-18T05:55:12.291727+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

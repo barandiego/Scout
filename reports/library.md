@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-11-17T23:20:42.287385+00:00
+Generated: 2026-11-18T05:55:12.147984+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 215 (0 HQ survivors, 215 watches)
+- Active research: 217 (0 HQ survivors, 217 watches)
 - Rejected opportunities excluded: 119
-- Critic-and-judge reviewed: 93
+- Critic-and-judge reviewed: 94
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -52,6 +52,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Whether the cited January 1, 2026 AFCI requirement applies to the exact project classes, inverter configurations, and connection pathways targeted by the product, ra; Whether SEC or distributors accept the proposed equipment/documentation combinations in practice and what causes actual TE4 or related filing rejections.; Number of Chilean distributed BESS projects currently being designed, installed, or submitted through the relevant process.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/; https://www.sec.cl/gda/; https://www.sec.cl/normas-tecnicas-electricas/
+
+### Chile Open Finance conformance-testing harness for participant integrations [opp_6a4b728dc1deec492d30]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Banks, account-information providers, payment-initiation providers, and technology vendors have a defined pre-production integration and compliance-testing window before the system becomes operational. A narrowly scoped test harness could reduce integration defects and shorten preparation time without attempting to become a regulated participant.
+- Value capture: A paid, fixed-scope software test pack or implementation artifact covering API schema validation, consent-flow tests, certificate/signature checks, pagination/error handling, directory interoperability, and reproducible conformance reports. Payment would need to come from an identifiable institution or vendor that elects to buy testing support; no buyer or price is assumed here.
+- Participation hypothesis: Use only the public CMF developer documentation and ATENA materials to build a local validator for one or two published API flows. Compare generated requests, responses, certificates, error codes, pagination, and consent states against the official specifications. Then contact named potential participants or implementation vendors through publicly listed channels with a reproducible defect report or request for a paid pilot. Lowest-cost falsification: build the validator for one endpoint in under a week and ask at least five Chilean fintech, ba
+- Critic/judge: The regulatory/timing premise is sufficiently grounded by CMF primary materials: technical specifications, a developer portal, and the ATENA sandbox indicate a real pre-launch implementation period ahead of the stated July 2027 entry into force. The proposed product can plausibly remain outside the regulated-participant perimeter if it is strictly offline/local engineering tooling or advisory validation and makes no claim of CMF approva
+- Next evidence gaps: Whether ATENA exposes automated test results, downloadable traces, negative-test coverage, CI integration, or machine-readable conformance reports sufficient for pro; Whether CMF or accredited entities will require an external certification or validation artifact, or whether only ATENA and formal accreditation will matter.; The number of institutions that must integrate, their implementation budgets, and whether banks, PSBI/PSIP firms, vendors, or consultancies control the purchasing de
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://api.cmfchile.cl/
 
 ### Chile RaaS deployment wedge for industrial-floor cleaning [opp_2f1839bb1c72fe283049]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile
@@ -1922,6 +1932,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://huggingface.co/blog/openrouter; https://arxiv.org/abs/2605.02821
+
+### Operational tooling around on-chain share and fund recordkeeping—not a new token issuer [opp_4625e6e828aa89d1e1c0]
+- Status: WATCH_REQUIRES_VALIDATION | public_markets | United States
+- Thesis: The near-term operational bottleneck is likely reconciliation, transfer-agent controls, corporate-action handling, investor-access controls, and audit evidence across conventional books and blockchain-integrated records—not merely issuing another token.
+- Value capture: A narrowly defined reconciliation or audit-evidence package for a transfer agent, fund administrator, broker, venue, or technology vendor: compare conventional shareholder records with blockchain records, flag exceptions, preserve evidence, and produce control reports. A buyer, price, and permissions are unknown and must be validated before development.
+- Participation hypothesis: Start with public SEC filings and publicly documented test environments, not live securities activity. Build a synthetic-data reconciliation prototype that handles mint, burn, transfer, failed settlement, duplicate event, corporate-action, and end-of-day balance cases. Approach transfer-agent technology vendors, fund administrators, or regulated venues only with the prototype and ask whether they will provide anonymized sample event formats or pay for a controlled review. Lowest-cost falsification: secure two informational interviews and one sa
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/1319067/000199937126019973/filename1.htm; https://www.sec.gov/Archives/edgar/data/1861657/000149315226049196/ex99-1.htm
 
 ### Organic-crop robotic weeding retrofit and ROI trial [opp_4c867bb6e2a52712c785]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States
