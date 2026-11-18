@@ -1,23 +1,55 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 600000.0,
-      "buyer": "Ilustre Municipalidad de Cochamó - Salud",
-      "closes_at": "2026-11-20T11:00:00",
-      "code": "4834-134-COT26",
-      "estimated_budget": 600000.0,
-      "name": "ELEMENTOS PARA PROGRAMA MÁS SALUD EN COMUNIDAD",
-      "products": 4,
-      "region": "Región de los Lagos"
+      "available_budget_clp": 200000.0,
+      "buyer": "HOSPITAL DR GUSTAVO FRICKE DE VINA DEL MAR",
+      "closes_at": "2026-11-19T14:23:00",
+      "code": "608-7065-COT26",
+      "estimated_budget": 200000.0,
+      "name": "(TTV) INSUMO EQUIVALENTE A PUNTA LAPAROSCOPICA REUTILIZABLE CON 6 CAMISAS",
+      "products": 1,
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 718511.0,
+      "buyer": "I MUNICIPALIDAD DE VILCUN",
+      "closes_at": "2026-11-19T14:30:00",
+      "code": "3494-482-COT26",
+      "estimated_budget": 718511.0,
+      "name": "COMPRA DE TINTAS DE IMPRESORA ESCUELA COLLIN, SOLICITUDES N° 12089 - 12086.-",
+      "products": 2,
+      "region": "Región de la Araucanía"
+    },
+    {
+      "available_budget_clp": 2500000.0,
+      "buyer": "I MUNICIPALIDAD DE LOS LAGOS",
+      "closes_at": "2026-11-19T14:30:00",
+      "code": "2986-389-COT26",
+      "estimated_budget": 2500000.0,
+      "name": "Turbina, Contrangulo, Espatula, fresa Odonotologico Junaeb CEASFAM Tomas Rojas Vergara",
+      "products": 9,
+      "region": "Región de Los Ríos"
+    },
+    {
+      "available_budget_clp": 180000.0,
+      "buyer": "HOSPITAL DOCTOR ERNESTO TORRES GALDAMES",
+      "closes_at": "2026-11-19T14:30:00",
+      "code": "1070620-4424-COT26",
+      "estimated_budget": 180000.0,
+      "name": "RVC INSUMOS GENERALES",
+      "products": 1,
+      "region": "Región de Tarapacá"
     }
   ],
-  "active_structurally_reconstructable_count": 1,
+  "active_structurally_reconstructable_count": 4,
   "diagnostics": {
-    "api_failures": {},
+    "api_failures": {
+      "api_rate_limited": 2
+    },
     "budget_exhausted": false,
     "detail_attempts": 20,
     "detail_cap_exhausted": true,
-    "details_fetched": 20,
+    "details_fetched": 18,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -29,24 +61,24 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-18T07:42:16Z",
-  "inserted_history": 20,
+  "generated_at": "2026-11-18T17:21:05Z",
+  "inserted_history": 18,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
+  "outcome": "DEGRADED_API_ERRORS",
   "phase1": {
-    "records": 20,
+    "records": 18,
     "rejection_reasons": {
-      "missing_products": 4
+      "no_observable_competitive_prices": 8
     },
-    "resolved": 19,
-    "structurally_reconstructable": 16,
-    "with_observable_quote_totals": 19,
-    "with_purchase_order_indicator": 1
+    "resolved": 14,
+    "structurally_reconstructable": 10,
+    "with_observable_quote_totals": 6,
+    "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-18T07:42:16Z"
+    "changed_to": "2026-11-18T17:21:05Z"
   }
 }
