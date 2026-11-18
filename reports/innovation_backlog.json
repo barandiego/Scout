@@ -3006,6 +3006,42 @@
       "category": "innovation_adoption",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Choose one local manufacturer with a visible repetitive inspection process and request permission to analyze a small set of non-sensitive images or rejects. Build an offline proof of concept using commercially priced components or recorded images. Define success before testing, such as recall and false-reject limits supplied by the operator. Falsify if the operator will not provide authorized samples, cannot state the cost of a missed defect, or the prototype cannot meet the agreed benchmark without expensive line integration. Do not connect to production equipment without written authorization.",
+      "current_thesis": "A small operator can test whether a single repetitive inspection task is technically feasible before proposing a full retrofit. The economic wedge is a paid feasibility artifact or prototype for one defect class, not a generic AI-vision agency.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Low-cost machine-vision retrofit feasibility audit",
+      "opportunity_id": "opp_edcd6651a34780c06646",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a real technical capability not yet adopted in one buyer's high-value workflow.",
+        "Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.",
+        "Measure the fully loaded operating cost, human exceptions and distribution against the status quo."
+      ],
+      "supporting_source_urls": [
+        "https://rellingsystems.com/resources/blog/machine-vision-system-cost",
+        "https://dev-aspire.imgix.net/files/base/ebm/controldesign/document/2025/08/6890f0a086dd7abaec512356-wp_022_avs_vision.pdf?dl=6890f0a086dd7abaec512356-wp_022_avs_vision.pdf"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A fixed-scope inspection feasibility study consisting of sample-image collection, baseline model or rule-based detector, false-positive/false-negative measurement, and an installation-risk assessment. A later purchase order, retrofit, or integration fee is possible but not evidenced and must not be assumed.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "innovation_adoption",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Publish a containerized benchmark using an open model, vLLM and a representative synthetic workload; measure latency, throughput, GPU-hours and cost under at least two concurrency levels. Falsify by comparing the measured break-even point against a public hosted-API price and by testing whether a prospective user will provide anonymized workload traces or pay for the fixed benchmark; stop if the result is not materially different from the incumbent.",
       "current_thesis": "A reproducible benchmark package for one workload can reveal whether self-hosted open-weight inference is economically preferable to a hosted API. The executable wedge is the benchmark artifact and decision table, not generic AI consulting.",
       "founder_hours_initial_unverified_estimate": "",
@@ -4740,6 +4776,42 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use the CMF technical annex and developer materials to build a minimal validator for one documented data-sharing or payment-initiation flow. Contact publicly listed Chilean financial institutions, regulated fintechs, or SFA technology vendors with a non-binding technical questionnaire asking whether they will test an external validator. Proceed only if at least one respondent confirms a concrete testing problem and agrees to a paid or formally authorized pilot; otherwise falsify the wedge. Do not access production financial data or represent the tool as CMF-approved.",
+      "current_thesis": "The rule creates a bounded implementation deadline and a concrete interoperability surface. The likely near-term need is not generic fintech software but repeatable testing, schema validation, consent-flow documentation, and evidence packages that help prospective SFA participants or technology suppliers identify conformance gaps before July 2027.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile SFA implementation conformance and API test harness",
+      "opportunity_id": "opp_6239e0aa7c5cddf9b177",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://si3.bcentral.cl/estadisticas/Principal1/Web_Services/index_API_sec1_es.htm"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A fixed-scope SFA readiness assessment, API contract-test harness, or sandbox integration package sold only after validating that a target institution or technology provider has an implementation obligation and budget. Potential cash flow would come from paid implementation or testing work; no buyer, price, or permission is established by the evidence.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Build against the CMF developer portal and technical annex; target pilot or sandbox participation; offer a narrow integration product to one regulated institution or smaller participant before the July 2027 operating deadline.",
       "current_thesis": "Value is shifting toward firms that can reduce implementation and compliance costs for banks, account-information providers, payment-initiation providers and smaller participants. The delay creates a longer pre-revenue integration window but also lowers immediate execution pressure.",
       "founder_hours_initial_unverified_estimate": "",
@@ -5286,9 +5358,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "Chile",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "Whether CMF or accredited certifiers will accept externally generated test reports, fixtures, or conformance results as evidence.",
+        "Whether ATENA exposes sufficient APIs, mocks, automation hooks, deterministic fixtures, and CI integration to leave a meaningful product gap.",
+        "The number of entities expected to participate in the relevant Annex 3 workflow and their actual testing budgets.",
+        "Whether buyers prefer a hosted service, open-source tooling, certification support, implementation consulting, or internal development.",
+        "Whether third-party certification will be mandatory for the exact workflow targeted and what entities may become accredited certifiers.",
+        "The cost and process for obtaining access to ATENA, the developer portal, participant-directory testing, credentials, and any production-like environments.",
+        "How often specifications and security requirements will change before July 2027 and the ongoing maintenance burden."
       ],
       "investment_authorized": false,
       "name": "Chile SFA/ATENA conformance test harness for early interoperability testing",
@@ -8073,6 +8149,42 @@
       "category": "robotics_agritech",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Do not buy a robot first. Select one specialty-crop region and compile ten farms or crop-service businesses with a documented mechanical-weeding need. Ask for acreage, row spacing, crop, timing, current labor or herbicide method, and a non-binding indication of whether they would evaluate a per-acre demonstration from an authorized operator. Separately obtain a written rental, dealer, or service quote for one existing robot. Falsify if fewer than three qualified operators provide access quotes or if no farm supplies a measurable trial block and success criterion. Any field deployment requires owner authorization, insurance, and applicable pesticide or machinery compliance.",
+      "current_thesis": "The adoption gap is financially specific: farms that cannot justify purchasing a $75,000-plus machine may still test a narrow paid operation such as one crop, one block, or one weeding pass. The opportunity is therefore an asset-utilization experiment, not a claim that a new robot business is already viable.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States; potentially exportable to Chile after local validation",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Small-farm robotic weeding as a constrained equipment-rental test",
+      "opportunity_id": "opp_79ddbeaedb03b47de0f0",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
+        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
+        "Arrange a bounded field validation with an actual farm operator before scaling."
+      ],
+      "supporting_source_urls": [
+        "https://fieldreport.caes.uga.edu/publications/B1594/agribots-autonomous-ground-robots-for-specialty-crops/",
+        "https://agritechobservatory.review.fao.org/fr/farmdroid-fd20"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Potential mechanisms are short-term equipment rental, contract weeding, or brokerage of an existing machine operator to a farm. The evidence verifies equipment prices and deployment, but does not verify local availability, operating cost, agronomic performance for a specific crop, or willingness to pay.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "robotics_agritech",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Before building the full 20 m² unit, collect non-binding expressions of interest from at least 10 local restaurants, produce shops or households and seek paid deposits or written purchase commitments for a defined weekly quantity. Run a small 2–5 m² pilot using the same crop and record actual plants harvested, sell-through, labor hours, electricity, nutrient and delivery costs. Scale only if realized price, sell-through and full cash costs support a positive contribution margin for at least two consecutive cycles; otherwise falsify the wedge. No buyer, volume, price realization or permission is assumed.",
       "current_thesis": "The actionable opportunity is a low-capital, contract- or pre-order-validated NFT unit rather than a speculative vertical farm. At the INIA assumptions, gross annual revenue is approximately CLP 3.584 million before the stated costs. The main falsification risk is not biological yield but whether a local operator can sell the crop at the assumed price while paying actual labor, electricity, logistics, losses and working capital.",
       "founder_hours_initial_unverified_estimate": "",
@@ -8254,7 +8366,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-18T05:55:12.291727+00:00",
+  "generated_at": "2026-11-18T16:57:22.469832+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

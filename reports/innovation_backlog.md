@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 217
+Candidates: 220
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -964,6 +964,18 @@ Candidates: 217
 - Possible initial budget:
 - Source URLs: https://github.com/sarcascoder/dacu; https://github.com/MorpheusEMH/kreuzberg
 
+## Low-cost machine-vision retrofit feasibility audit
+- Status: watch | innovation_adoption
+- Current idea: A small operator can test whether a single repetitive inspection task is technically feasible before proposing a full retrofit. The economic wedge is a paid feasibility artifact or prototype for one defect class, not a generic AI-vision agency.
+- Potential economic capture: A fixed-scope inspection feasibility study consisting of sample-image collection, baseline model or rule-based detector, false-positive/false-negative measurement, and an installation-risk assessment. A later purchase order, retrofit, or integration fee is possible but not evidenced and must not be assumed.
+- **Research routes to test (NOT validated claims):**
+  - Identify a real technical capability not yet adopted in one buyer's high-value workflow.
+  - Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.
+  - Measure the fully loaded operating cost, human exceptions and distribution against the status quo.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://rellingsystems.com/resources/blog/machine-vision-system-cost; https://dev-aspire.imgix.net/files/base/ebm/controldesign/document/2025/08/6890f0a086dd7abaec512356-wp_022_avs_vision.pdf?dl=6890f0a086dd7abaec512356-wp_022_avs_vision.pdf
+
 ## Open-source LLM serving cost-and-capacity benchmark for a fixed workload
 - Status: watch | innovation_adoption
 - Current idea: A reproducible benchmark package for one workload can reveal whether self-hosted open-weight inference is economically preferable to a hosted API. The executable wedge is the benchmark artifact and decision table, not generic AI consulting.
@@ -1504,6 +1516,18 @@ Candidates: 217
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/educa/621/w3-article-85051.html
 
+## Chile SFA implementation conformance and API test harness
+- Status: watch | open_finance_chile
+- Current idea: The rule creates a bounded implementation deadline and a concrete interoperability surface. The likely near-term need is not generic fintech software but repeatable testing, schema validation, consent-flow documentation, and evidence packages that help prospective SFA participants or technology suppliers identify conformance gaps before July 2027.
+- Potential economic capture: A fixed-scope SFA readiness assessment, API contract-test harness, or sandbox integration package sold only after validating that a target institution or technology provider has an implementation obligation and budget. Potential cash flow would come from paid implementation or testing work; no buyer, price, or permission is established by the evidence.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://si3.bcentral.cl/estadisticas/Principal1/Web_Services/index_API_sec1_es.htm
+
 ## Chile SFA implementation moves from rulemaking to build phase, but go-live is deferred to July 2027
 - Status: watch | open_finance_chile
 - Current idea: Value is shifting toward firms that can reduce implementation and compliance costs for banks, account-information providers, payment-initiation providers and smaller participants. The delay creates a longer pre-revenue integration window but also lowers immediate execution pressure.
@@ -1680,7 +1704,7 @@ Candidates: 217
   - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
   - Check license perimeter, API access, legal compliance and competitor pricing.
   - Test buyer procurement and technical access before writing integration infrastructure.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Whether CMF or accredited certifiers will accept externally generated test reports, fixtures, or conformance results as evidence.; Whether ATENA exposes sufficient APIs, mocks, automation hooks, deterministic fixtures, and CI integration to leave a meaningful product gap.; The number of entities expected to participate in the relevant Annex 3 workflow and their actual testing budgets.
 - Possible initial budget:
 - Source URLs: https://cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
@@ -2547,6 +2571,18 @@ Candidates: 217
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://seedfund.nsf.gov/topics/robotics/; https://www.businessdefense.gov/investments.html
+
+## Small-farm robotic weeding as a constrained equipment-rental test
+- Status: watch | robotics_agritech
+- Current idea: The adoption gap is financially specific: farms that cannot justify purchasing a $75,000-plus machine may still test a narrow paid operation such as one crop, one block, or one weeding pass. The opportunity is therefore an asset-utilization experiment, not a claim that a new robot business is already viable.
+- Potential economic capture: Potential mechanisms are short-term equipment rental, contract weeding, or brokerage of an existing machine operator to a farm. The evidence verifies equipment prices and deployment, but does not verify local availability, operating cost, agronomic performance for a specific crop, or willingness to pay.
+- **Research routes to test (NOT validated claims):**
+  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
+  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
+  - Arrange a bounded field validation with an actual farm operator before scaling.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://fieldreport.caes.uga.edu/publications/B1594/agribots-autonomous-ground-robots-for-specialty-crops/; https://agritechobservatory.review.fao.org/fr/farmdroid-fd20
 
 ## Small-scale NFT lettuce unit using Chilean INIA economics as a pre-sale test
 - Status: watch | robotics_agritech
