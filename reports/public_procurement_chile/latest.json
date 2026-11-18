@@ -1,117 +1,17 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 6000000.0,
-      "buyer": "UNIVERSIDAD DE TALCA",
-      "closes_at": "2026-11-19T09:30:00",
-      "code": "1469-4316-COT26",
-      "estimated_budget": 6000000.0,
-      "name": "20-45476 Reactivos laboratorio- Proyecto PRISMA.",
-      "products": 2,
-      "region": "Región del Maule"
-    },
-    {
-      "available_budget_clp": 1250000.0,
-      "buyer": "I MUNICIPALIDAD DE TALCAHUANO",
-      "closes_at": "2026-11-20T18:48:00",
-      "code": "2358-627-COT26",
-      "estimated_budget": 1250000.0,
-      "name": "©sc 18-19 Medio Ambiente-Microchip y vacunas veterinarias varias",
-      "products": 2,
-      "region": "Región del Biobío"
-    },
-    {
-      "available_budget_clp": 150000.0,
-      "buyer": "I MUNICIPALIDAD DE TALCAHUANO",
-      "closes_at": "2026-11-20T18:15:00",
-      "code": "2358-626-COT26",
-      "estimated_budget": 150000.0,
-      "name": "©sc 10 Depto. Informatica- insumos para impresora Matricial",
-      "products": 1,
-      "region": "Región del Biobío"
-    },
-    {
-      "available_budget_clp": 630000.0,
-      "buyer": "LSDH 91 SARGENTO ALDEA",
-      "closes_at": "2026-11-19T11:00:00",
-      "code": "685103-209-COT26",
-      "estimated_budget": 630000.0,
-      "name": "ADQUISICION DE REPUESTOS PARA OPERACION BASE SOBERANIA F-2",
-      "products": 1,
-      "region": "Región de Magallanes y de la Antártica"
-    },
-    {
-      "available_budget_clp": 1200000.0,
-      "buyer": "I MUNICIPALIDAD DE VICHUQUEN",
-      "closes_at": "2026-11-18T20:30:00",
-      "code": "3462-129-COT26",
-      "estimated_budget": 1200000.0,
-      "name": "ADQUISICIÓN DE MATERIALES DE ESCENOGRAFÍA PARA LICENCIATURA DE 8VO DEL LBEA",
-      "products": 1,
-      "region": "Región del Maule"
-    },
-    {
-      "available_budget_clp": 550000.0,
-      "buyer": "UNIVERSIDAD DE TALCA",
-      "closes_at": "2026-11-19T09:30:00",
-      "code": "1469-4315-COT26",
-      "estimated_budget": 550000.0,
-      "name": "20-45482 Transporte",
-      "products": 1,
-      "region": "Región del Libertador General Bernardo O´Higgins"
-    },
-    {
-      "available_budget_clp": 1000000.0,
-      "buyer": "I MUNICIPALIDAD DE VICHUQUEN",
-      "closes_at": "2026-11-18T20:30:00",
-      "code": "3462-128-COT26",
-      "estimated_budget": 1000000.0,
-      "name": "ADQUISICIÓN DE MATERIAL DE DIFUSIÓN PARA EL PROGRAMA HABILIDADES PARA LA VIDA I (HPV I)",
-      "products": 1,
-      "region": "Región del Maule"
-    },
-    {
-      "available_budget_clp": 500000.0,
-      "buyer": "Subsecretaria de las Culturas y las Artes Región de Antofagasta",
-      "closes_at": "2026-11-18T20:15:00",
-      "code": "4880-50-COT26",
-      "estimated_budget": 500000.0,
-      "name": "SERVICIO DE FLETE Y TRASLADO DE BIENES – REGIÓN DE ANTOFAGASTA",
-      "products": 1,
-      "region": "Región de Antofagasta"
-    },
-    {
-      "available_budget_clp": 510000.0,
-      "buyer": "ILUSTRE MUNICIPALIDAD DE PUTRE",
-      "closes_at": "2026-11-18T20:20:00",
-      "code": "4022-837-COT26",
-      "estimated_budget": 510000.0,
-      "name": "ADQ. DE PREMIOS Y OTROS P/ CONSEJO CONSULTA DE NIÑOS Y NIÑAS ADOLESCENTES",
-      "products": 1,
-      "region": "Región de Arica y Parinacota"
-    },
-    {
-      "available_budget_clp": 310000.0,
-      "buyer": "UNIVERSIDAD DE TALCA",
-      "closes_at": "2026-11-19T09:30:00",
-      "code": "1469-4314-COT26",
-      "estimated_budget": 310000.0,
-      "name": "20-45458 Cargador y libreta",
-      "products": 2,
-      "region": "Región del Maule"
-    },
-    {
-      "available_budget_clp": 4000000.0,
-      "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
-      "closes_at": "2026-11-18T20:15:00",
-      "code": "1057491-2076-COT26",
-      "estimated_budget": 4000000.0,
-      "name": "CARGA COMBUSTIBLE PETROLEO A GRANEL GRUPO GENERADORES",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
+      "available_budget_clp": 600000.0,
+      "buyer": "Ilustre Municipalidad de Cochamó - Salud",
+      "closes_at": "2026-11-20T11:00:00",
+      "code": "4834-134-COT26",
+      "estimated_budget": 600000.0,
+      "name": "ELEMENTOS PARA PROGRAMA MÁS SALUD EN COMUNIDAD",
+      "products": 4,
+      "region": "Región de los Lagos"
     }
   ],
-  "active_structurally_reconstructable_count": 11,
+  "active_structurally_reconstructable_count": 1,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -129,7 +29,7 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-17T23:33:56Z",
+  "generated_at": "2026-11-18T07:42:16Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -137,17 +37,16 @@
   "phase1": {
     "records": 20,
     "rejection_reasons": {
-      "missing_products": 1,
-      "no_observable_competitive_prices": 4
+      "missing_products": 4
     },
-    "resolved": 9,
-    "structurally_reconstructable": 15,
-    "with_observable_quote_totals": 5,
-    "with_purchase_order_indicator": 2
+    "resolved": 19,
+    "structurally_reconstructable": 16,
+    "with_observable_quote_totals": 19,
+    "with_purchase_order_indicator": 1
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-17T23:33:56Z"
+    "changed_to": "2026-11-18T07:42:16Z"
   }
 }
