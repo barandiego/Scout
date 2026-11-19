@@ -1,55 +1,85 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 200000.0,
-      "buyer": "HOSPITAL DR GUSTAVO FRICKE DE VINA DEL MAR",
-      "closes_at": "2026-11-19T14:23:00",
-      "code": "608-7065-COT26",
-      "estimated_budget": 200000.0,
-      "name": "(TTV) INSUMO EQUIVALENTE A PUNTA LAPAROSCOPICA REUTILIZABLE CON 6 CAMISAS",
-      "products": 1,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 718511.0,
-      "buyer": "I MUNICIPALIDAD DE VILCUN",
-      "closes_at": "2026-11-19T14:30:00",
-      "code": "3494-482-COT26",
-      "estimated_budget": 718511.0,
-      "name": "COMPRA DE TINTAS DE IMPRESORA ESCUELA COLLIN, SOLICITUDES N° 12089 - 12086.-",
+      "available_budget_clp": 500000.0,
+      "buyer": "CENTRO DE FORMACION TECNICA DE LA REGION DE ATACAMA",
+      "closes_at": "2026-11-19T21:10:00",
+      "code": "1151575-46-COT26",
+      "estimated_budget": 500000.0,
+      "name": "CREDENCIALES, LANDYARD Y PORTA CREDENCIAL",
       "products": 2,
-      "region": "Región de la Araucanía"
+      "region": "Región de Atacama"
     },
     {
-      "available_budget_clp": 2500000.0,
-      "buyer": "I MUNICIPALIDAD DE LOS LAGOS",
-      "closes_at": "2026-11-19T14:30:00",
-      "code": "2986-389-COT26",
-      "estimated_budget": 2500000.0,
-      "name": "Turbina, Contrangulo, Espatula, fresa Odonotologico Junaeb CEASFAM Tomas Rojas Vergara",
-      "products": 9,
-      "region": "Región de Los Ríos"
+      "available_budget_clp": 6799000.0,
+      "buyer": "I MUNICIPALIDAD PUERTO OCTAY",
+      "closes_at": "2026-11-20T20:00:00",
+      "code": "4950-127-COT26",
+      "estimated_budget": 6799000.0,
+      "name": "Reparación Camión MAN, modelo TGS 33.360 BB, año 2016, PPU HJDC 11",
+      "products": 6,
+      "region": "Región de los Lagos"
     },
     {
-      "available_budget_clp": 180000.0,
-      "buyer": "HOSPITAL DOCTOR ERNESTO TORRES GALDAMES",
-      "closes_at": "2026-11-19T14:30:00",
-      "code": "1070620-4424-COT26",
-      "estimated_budget": 180000.0,
-      "name": "RVC INSUMOS GENERALES",
+      "available_budget_clp": 700000.0,
+      "buyer": "ILUSTRE MUNICIPALIDAD DE CAMINA",
+      "closes_at": "2026-11-19T22:00:00",
+      "code": "4030-253-COT26",
+      "estimated_budget": 700000.0,
+      "name": "ADQUISICION DE LIMPIEZA DE POZO SEPTICO",
       "products": 1,
       "region": "Región de Tarapacá"
+    },
+    {
+      "available_budget_clp": 3500000.0,
+      "buyer": "INSTITUTO DE INVESTIGACIONES AGROPECUARIAS",
+      "closes_at": "2026-11-20T09:30:00",
+      "code": "1107281-272-COT26",
+      "estimated_budget": 3500000.0,
+      "name": "Compra sellos de goma para viales de muestreo gaseoso",
+      "products": 1,
+      "region": "Región de los Lagos"
+    },
+    {
+      "available_budget_clp": 2894737.0,
+      "buyer": "CENTRO DE FORMACION TECNICA DE LA REGION DE ATACAM",
+      "closes_at": "2026-11-19T21:00:00",
+      "code": "1392207-25-COT26",
+      "estimated_budget": 2894737.0,
+      "name": "Impresora 3D de cámara cerrada",
+      "products": 1,
+      "region": "Región de Atacama"
+    },
+    {
+      "available_budget_clp": 391000.0,
+      "buyer": "UNIVERSIDAD DE TALCA",
+      "closes_at": "2026-11-20T09:00:00",
+      "code": "1469-4358-COT26",
+      "estimated_budget": 391000.0,
+      "name": "20-45691 Cargador, flash",
+      "products": 2,
+      "region": "Región del Maule"
+    },
+    {
+      "available_budget_clp": 1000000.0,
+      "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+      "closes_at": "2026-11-19T20:50:00",
+      "code": "1057491-2080-COT26",
+      "estimated_budget": 1000000.0,
+      "name": "TEST RÁPIDO DE UREASA PARA ENDOSCOPIA Y PAPILOTOMO LATERAL DE ARCO TRIPLE LUMEN(CIRUGIA PACIENTE)",
+      "products": 2,
+      "region": "Región Metropolitana de Santiago"
     }
   ],
-  "active_structurally_reconstructable_count": 4,
+  "active_structurally_reconstructable_count": 7,
   "diagnostics": {
     "api_failures": {
-      "api_rate_limited": 2
+      "api_rate_limited": 1
     },
     "budget_exhausted": false,
     "detail_attempts": 20,
     "detail_cap_exhausted": true,
-    "details_fetched": 18,
+    "details_fetched": 19,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -61,24 +91,24 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-18T17:21:05Z",
-  "inserted_history": 18,
+  "generated_at": "2026-11-19T01:55:02Z",
+  "inserted_history": 19,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
   "outcome": "DEGRADED_API_ERRORS",
   "phase1": {
-    "records": 18,
+    "records": 19,
     "rejection_reasons": {
       "no_observable_competitive_prices": 8
     },
-    "resolved": 14,
-    "structurally_reconstructable": 10,
-    "with_observable_quote_totals": 6,
+    "resolved": 12,
+    "structurally_reconstructable": 11,
+    "with_observable_quote_totals": 4,
     "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-18T17:21:05Z"
+    "changed_to": "2026-11-19T01:55:02Z"
   }
 }
