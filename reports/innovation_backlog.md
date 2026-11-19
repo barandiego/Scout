@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 220
+Candidates: 221
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -1215,6 +1215,18 @@ Candidates: 220
 - Critical gaps: Whether ATENA is sufficiently complete, reliable, accessible, and supported for commercial participants.; Whether ATENA or CMF will issue formal conformance or certification reports that displace private pre-certification services.; The exact phased deadlines by participant category and how many entities face near-term implementation pressure.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html
+
+## Chile Open Finance conformance-testing wedge before July 2027
+- Status: watch | open_finance_chile
+- Current idea: The concrete opportunity is not generic fintech consulting: it is a small, reusable conformance-testing asset for consent states, participant-directory integration, payment-initiation flows and API-security checks, sold or licensed to entities preparing integrations. The July 2027 implementation date is a public catalyst, but no source establishes willingness to pay, incumbent pricing or a guaranteed customer.
+- Potential economic capture: Offer a narrowly scoped test harness plus implementation-readiness report covering the publicly specified Open Finance API flows. Possible cash-flow sources are participating fintechs, technology vendors or financial institutions that elect to purchase external testing; payer identity and price remain unverified.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Whether CMF will recognize or require a particular third-party certifier, and what accreditation, liability, insurance, audit, or security requirements apply.; Whether ATENA/APIBox is free, subsidized, open-source, or otherwise sufficient for the exact production-readiness tests customers need.; The number and identity of entities expected to participate in the first implementation phases, especially likely PSBIs, IPIs, PSBIs, PSIPs, banks, and technology vendors.
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html
 
 ## Chile Open Finance consent-and-data-quality test for fintech onboarding
 - Status: watch | open_finance_chile

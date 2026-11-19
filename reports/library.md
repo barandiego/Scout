@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-11-18T16:57:22.370636+00:00
+Generated: 2026-11-19T01:43:28.521241+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 220 (0 HQ survivors, 220 watches)
+- Active research: 221 (0 HQ survivors, 221 watches)
 - Rejected opportunities excluded: 119
-- Critic-and-judge reviewed: 95
+- Critic-and-judge reviewed: 96
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -362,6 +362,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Whether ATENA is sufficiently complete, reliable, accessible, and supported for commercial participants.; Whether ATENA or CMF will issue formal conformance or certification reports that displace private pre-certification services.; The exact phased deadlines by participant category and how many entities face near-term implementation pressure.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html
+
+### Chile Open Finance conformance-testing wedge before July 2027 [opp_169ce630010042fae406]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: The concrete opportunity is not generic fintech consulting: it is a small, reusable conformance-testing asset for consent states, participant-directory integration, payment-initiation flows and API-security checks, sold or licensed to entities preparing integrations. The July 2027 implementation date is a public catalyst, but no source establishes willingness to pay, incumbent pricing or a guaranteed customer.
+- Value capture: Offer a narrowly scoped test harness plus implementation-readiness report covering the publicly specified Open Finance API flows. Possible cash-flow sources are participating fintechs, technology vendors or financial institutions that elect to purchase external testing; payer identity and price remain unverified.
+- Participation hypothesis: Use the CMF developer materials and ATENA/sandbox access as the technical boundary. First build only one demonstrable flow—such as consent lifecycle or recurring-payment initiation—using published specifications. Contact potential participants listed in the CMF ecosystem or relevant Chilean fintech associations without assuming access or a sale; seek three paid or explicitly budgeted pilot commitments. Lowest-cost falsification: publish a clickable/API mock and ask ten identifiable Chilean fintech or financial-technology vendors whether they wi
+- Critic/judge: The regulatory premise is sufficiently grounded in CMF primary materials: a technical annex, July 2027 effective date, and CMF-operated developer/sandbox environment support a genuine implementation window. However, this does not yet support an HQ-worthy standalone conformance-testing business. The regulator-provided ATENA environment and CMF/IDB APIBox may provide much of the base testing capability at low or no cost, while commercial
+- Next evidence gaps: Whether CMF will recognize or require a particular third-party certifier, and what accreditation, liability, insurance, audit, or security requirements apply.; Whether ATENA/APIBox is free, subsidized, open-source, or otherwise sufficient for the exact production-readiness tests customers need.; The number and identity of entities expected to participate in the first implementation phases, especially likely PSBIs, IPIs, PSBIs, PSIPs, banks, and technology ve
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html
 
 ### Chile Open Finance consent-and-data-quality test for fintech onboarding [opp_90d159d76ff43f002fe6]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile

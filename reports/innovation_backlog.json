@@ -3797,6 +3797,46 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use the CMF developer materials and ATENA/sandbox access as the technical boundary. First build only one demonstrable flow—such as consent lifecycle or recurring-payment initiation—using published specifications. Contact potential participants listed in the CMF ecosystem or relevant Chilean fintech associations without assuming access or a sale; seek three paid or explicitly budgeted pilot commitments. Lowest-cost falsification: publish a clickable/API mock and ask ten identifiable Chilean fintech or financial-technology vendors whether they will pay for a fixed-price pre-compliance test; stop if none will provide a paid pilot, written procurement process or concrete integration problem. Do not represent the service as CMF certification.",
+      "current_thesis": "The concrete opportunity is not generic fintech consulting: it is a small, reusable conformance-testing asset for consent states, participant-directory integration, payment-initiation flows and API-security checks, sold or licensed to entities preparing integrations. The July 2027 implementation date is a public catalyst, but no source establishes willingness to pay, incumbent pricing or a guaranteed customer.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Whether CMF will recognize or require a particular third-party certifier, and what accreditation, liability, insurance, audit, or security requirements apply.",
+        "Whether ATENA/APIBox is free, subsidized, open-source, or otherwise sufficient for the exact production-readiness tests customers need.",
+        "The number and identity of entities expected to participate in the first implementation phases, especially likely PSBIs, IPIs, PSBIs, PSIPs, banks, and technology vendors.",
+        "Who actually pays: regulated institutions, fintechs, system integrators, certification firms, or vendors serving participants.",
+        "Whether external testing reports have procurement value or can be used in formal registration or accreditation decisions.",
+        "Customer willingness to pay, price points, sales-cycle length, and whether Chilean buyers prefer local consulting relationships over software licensing.",
+        "The stability of the technical annex, API versions, security profiles, consent states, payment-initiation requirements, and directory interfaces through July 2027."
+      ],
+      "investment_authorized": false,
+      "name": "Chile Open Finance conformance-testing wedge before July 2027",
+      "opportunity_id": "opp_169ce630010042fae406",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Offer a narrowly scoped test harness plus implementation-readiness report covering the publicly specified Open Finance API flows. Possible cash-flow sources are participating fintechs, technology vendors or financial institutions that elect to purchase external testing; payer identity and price remain unverified.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use the CMF developer materials to define one narrowly scoped validator. Build a local proof of concept against publicly available technical specifications, then contact identifiable Chilean fintechs, API providers, or financial institutions already preparing for SFA participation. Ask for a paid or explicitly authorized test using synthetic data; do not access financial data or represent regulatory compliance without authorization. Falsification step: spend no more than one week building a validator for one published payload or consent rule, publish a short technical demo, and record whether at least three relevant organizations agree to review it and whether any will pay for a scoped pilot. If none will review or pay, discard the opportunity.",
       "current_thesis": "The implementation window creates a bounded opportunity to build and validate a reusable conformance, consent-log, sandbox-data, or reconciliation component before regulated participants must operate against the standard. The evidence supports an implementation requirement, not proven customer demand or revenue.",
       "founder_hours_initial_unverified_estimate": "",
@@ -8366,7 +8406,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-18T16:57:22.469832+00:00",
+  "generated_at": "2026-11-19T01:43:28.630792+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

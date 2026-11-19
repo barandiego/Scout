@@ -3196,6 +3196,98 @@
       "ai_leverage": "",
       "authorized_for_execution": false,
       "contrary_evidence": [
+        "CMF officially launched ATENA on September 30, 2026, allowing institutions to test integrations, technical adequacy, and interoperability with the participant directory before the planned July 2027 entry into force. Source: https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "CMF states that the system enters into force on July 3, 2027, while voluntary pre-registration for sandbox and directory testing began in October 2026. This supports a real implementation window but also means the opportunity is already inside an active, regulator-provided testing process. Source: https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782129720",
+        "CMF's technical materials describe a restricted-access testing environment that supports external certifier testing and product development, while explicitly distinguishing the testing environment from certification itself. This creates a possible legitimate services market but undermines the assumption that an independent harness alone is sufficient. Source: https://www.cmfchile.cl/institucional/legislacion_normativa/normativa_tramite_ver_archivo.php?id=2025071034&seq=1",
+        "The IDB says APIBox is open-source technology for testing and validating open-finance processes and that Chile's CMF implemented it with IDB support. This is a significant substitute and could compress willingness to pay for basic test infrastructure. Source: https://www.iadb.org/en/news/idb-unveils-apibox-new-open-source-tool-testing-open-finance-applications",
+        "Commercial and specialist alternatives already appear to exist, including SFA-Sandbox and Synaptic's Chilean Open Finance integration offering. These are not proof of strong competition or customer traction, but they contradict a clean greenfield assumption. Sources: https://sfasandbox.cl/ and https://synaptic.cl/",
+        "CGAP identifies third-party certification as a possible role in open-finance regimes and specifically notes Chile's certification context, which suggests a potentially larger opportunity than a simple harness if accreditation and buyer demand can be verified. Source: https://www.cgap.org/research/publication/open-finance-oversight-and-supervision-emerging-practices-and-early-lessons"
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-11-19T01:43:00.099877+00:00",
+      "discovery_lens": "chile_technology_import",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF says the technical annex defines interoperability, information exchange and payment-initiation requirements; entry into force was postponed until July 2027; a developer portal and technological sandbox are available.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "CMF says ATENA allows institutions to test integrations, interoperability with the participant directory and technical adequacy before the system’s planned July 2027 entry into force.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF launches ATENA Technological Sandbox for the implementation of the Open Finance System",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.84,
+      "falsification_conditions": [
+        "Fatal if CMF or an authorized certification regime requires testing to be performed only by designated or accredited entities and the proposed operator cannot qualify.",
+        "Fatal if ATENA/APIBox provides the relevant conformance suite at no meaningful cost and customers regard external reports as non-authoritative or unnecessary.",
+        "Stop if ten identifiable Chilean target buyers produce no paid pilot, written budget, procurement process, or concrete integration failure requiring external help.",
+        "Stop if at least three target customers say their internal engineering teams, incumbent integrators, or existing sandbox vendors can cover the proposed scope without incremental spend.",
+        "Stop if the technical specifications materially change before a stable minimum viable test scope can be maintained for at least one release cycle.",
+        "Stop if prospective buyers will purchase only full implementation or certification services and reject a standalone harness or narrowly scoped readiness product.",
+        "Stop if access to ATENA, directory interfaces, test credentials, or production-like payment-initiation flows cannot be obtained within a defined low-cost validation budget.",
+        "Stop if no credible Chilean distribution partner, certifier, system integrator, or local fintech association will provide qualified introductions.",
+        "Reclassify the thesis as a services opportunity rather than a software wedge if customer interviews show that reports, remediation, and integration execution—not reusable testing infrastructure—are the primary paid need."
+      ],
+      "geography": "Chile",
+      "id": "opp_169ce630010042fae406",
+      "judge_reviewed": true,
+      "judgment": "The regulatory premise is sufficiently grounded in CMF primary materials: a technical annex, July 2027 effective date, and CMF-operated developer/sandbox environment support a genuine implementation window. However, this does not yet support an HQ-worthy standalone conformance-testing business. The regulator-provided ATENA environment and CMF/IDB APIBox may provide much of the base testing capability at low or no cost, while commercial providers and integrators can bundle equivalent work. There is no verified budget owner, paid demand, authorization value for an external report, or evidence that a non-accredited provider can access the relevant environments and offer a materially differentiated result. This is not fatal yet because a narrow paid readiness/remediation workflow for a specific participant type could remain viable if external access is available and buyers value it; it should not proceed as a generic harness thesis without that proof.",
+      "last_record_updated_at": "2026-11-19T01:43:28.013430+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Whether CMF will recognize or require a particular third-party certifier, and what accreditation, liability, insurance, audit, or security requirements apply.",
+        "Whether ATENA/APIBox is free, subsidized, open-source, or otherwise sufficient for the exact production-readiness tests customers need.",
+        "The number and identity of entities expected to participate in the first implementation phases, especially likely PSBIs, IPIs, PSBIs, PSIPs, banks, and technology vendors.",
+        "Who actually pays: regulated institutions, fintechs, system integrators, certification firms, or vendors serving participants.",
+        "Whether external testing reports have procurement value or can be used in formal registration or accreditation decisions."
+      ],
+      "participation_path": "Use the CMF developer materials and ATENA/sandbox access as the technical boundary. First build only one demonstrable flow—such as consent lifecycle or recurring-payment initiation—using published specifications. Contact potential participants listed in the CMF ecosystem or relevant Chilean fintech associations without assuming access or a sale; seek three paid or explicitly budgeted pilot commitments. Lowest-cost falsification: publish a clickable/API mock and ask ten identifiable Chilean fintech or financial-technology vendors whether they will pay for a fixed-price pre-compliance test; stop if none will provide a paid pilot, written procurement process or concrete integration problem. Do not represent the service as CMF certification.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The concrete opportunity is not generic fintech consulting: it is a small, reusable conformance-testing asset for consent states, participant-directory integration, payment-initiation flows and API-security checks, sold or licensed to entities preparing integrations. The July 2027 implementation date is a public catalyst, but no source establishes willingness to pay, incumbent pricing or a guaranteed customer.",
+      "title": "Chile Open Finance conformance-testing wedge before July 2027",
+      "type": "regulatory_implementation_gap",
+      "unknowns": [
+        "Whether CMF will recognize or require a particular third-party certifier, and what accreditation, liability, insurance, audit, or security requirements apply.",
+        "Whether ATENA/APIBox is free, subsidized, open-source, or otherwise sufficient for the exact production-readiness tests customers need.",
+        "The number and identity of entities expected to participate in the first implementation phases, especially likely PSBIs, IPIs, PSBIs, PSIPs, banks, and technology vendors.",
+        "Who actually pays: regulated institutions, fintechs, system integrators, certification firms, or vendors serving participants.",
+        "Whether external testing reports have procurement value or can be used in formal registration or accreditation decisions.",
+        "Customer willingness to pay, price points, sales-cycle length, and whether Chilean buyers prefer local consulting relationships over software licensing.",
+        "The stability of the technical annex, API versions, security profiles, consent states, payment-initiation requirements, and directory interfaces through July 2027.",
+        "Whether payment-initiation testing has enough immediate demand to justify prioritizing it over data-sharing, consent, directory, security, or operational-readiness testing.",
+        "Founder access to Chilean financial institutions, Spanish-language support, local legal/regulatory expertise, and ATENA credentials.",
+        "Whether existing vendors already bundle testing into integration, API, compliance, or certification engagements.",
+        "Exact legal and technical eligibility to obtain ATENA, directory, API, and payment-initiation test credentials as an independent testing provider.",
+        "Whether any CMF-approved or market-recognized certification/accreditation pathway exists, and its security, insurance, audit, independence, and liability requirements.",
+        "The exact regulated payer and workflow: for example, a named PSIP, bank, or technology vendor purchasing consent-lifecycle or payment-initiation readiness testing.",
+        "Whether target participants have budget, procurement authority, and willingness to pay for an external non-certification assessment.",
+        "Whether APIBox/ATENA cover the buyer's critical gaps, including negative testing, operational controls, security evidence, regression testing, and remediation support.",
+        "Competitor pricing, contract scope, customer traction, and whether they already provide equivalent reports or test automation.",
+        "Stability and release cadence of technical specifications through the first mandatory implementation phases."
+      ],
+      "value_capture_mechanism": "Offer a narrowly scoped test harness plus implementation-readiness report covering the publicly specified Open Finance API flows. Possible cash-flow sources are participating fintechs, technology vendors or financial institutions that elect to purchase external testing; payer identity and price remain unverified.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [
         "The CMF published technical specifications, a developer portal, testing provisions, and a revised July 2027 implementation date, which creates a genuine development window. The legal framework permits pilots and anticipates APIs, authentication, participant directories, and information exchange, so testing and conformance work are plausible needs. The CMF's own statement that implementation is complex supports the possibility of demand for specialized implementation assistance. However, none of this proves that a narrow independent validator will be purchased. Existing providers already expose Chilean financial-data connectivity and reconciliation functionality: Fintoc markets a single API for connecting Chilean bank accounts and automating reconciliation, while Belvo provides regional open-finance infrastructure and Chilean fiscal-data access. The presence of a regulator sandbox is contrary evidence against the assumption that a private sandbox-data product is necessary. Sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html ; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html ; https://www.leychile.cl/leychile/Navegar?idNorma=1187323&idParte=10393566 ; https://www.fintoc.com/cl/producto/connections ; https://developers.belvo.com/es/apis/belvoopenapispec/links ; https://publications.iadb.org/publications/english/document/Open-Finance-in-Latin-America-and-the-Caribbean-Great-Opportunities-Large-Challenges.pdf"
       ],
       "critic_reviewed": true,
@@ -15383,13 +15475,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-18T16:57:22.370636+00:00",
+  "generated_at": "2026-11-19T01:43:28.521241+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 119,
-  "reviewed_cards": 95,
+  "reviewed_cards": 96,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 339,
-  "watch": 220
+  "total_distinct_opportunities": 340,
+  "watch": 221
 }
