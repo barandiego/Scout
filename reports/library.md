@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-11-19T12:30:11.987798+00:00
+Generated: 2026-11-19T22:55:04.625235+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 221 (0 HQ survivors, 221 watches)
-- Rejected opportunities excluded: 120
+- Active research: 222 (0 HQ survivors, 222 watches)
+- Rejected opportunities excluded: 121
 - Critic-and-judge reviewed: 96
 - Autonomous execution authorization: 0
 
@@ -1012,6 +1012,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-113806.html
+
+### BESS dispatch, curtailment and performance-validation wedge in Chile [opp_d8375e0bd32f09de7100]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile, especially solar-congested northern nodes
+- Thesis: A concrete independent-operator wedge is a low-capital validation package for BESS owners or EPCs: reconcile meter, inverter and dispatch data to identify unavailable capacity, incorrect state-of-charge assumptions, missed arbitrage windows or curtailment-related operating losses. The underlying cash-flow source would be improved project availability or dispatch economics, but the value and payer are not yet verified for small providers.
+- Value capture: Fixed-fee technical data audit or recurring monitoring of operating data, subject to access, qualifications and demonstrated savings. No buyer, fee level or savings amount is established by the evidence.
+- Participation hypothesis: Use public project/operator information to identify three Chilean solar-plus-storage projects or EPCs, then request a data-light diagnostic using anonymized hourly generation, charge/discharge and availability data. Build the first analysis in a spreadsheet or open-source time-series tool; do not install hardware or promise market revenues. Falsify if operators will not share a data extract, cannot identify an operational decision affected by the analysis, or report that existing O&M contracts already cover the same task. The test must validate
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.spec.cl/en/publicaciones/2026-almacenamiento-corta-duracion/; https://www.iea.org/files/2fcd8719-121f-4248-914a-75ea2485be21/Chile2050EnergyTransitionRoadmap.pdf; https://economiacircular.mma.gob.cl/wp-content/uploads/2024/11/18.-SP-Global-Commodity-Insights-2023-Chile-advances-regulation-to-support-storage-goals.pdf
 
 ### Chile commercial BESS peak-shaving feasibility wedge using 15-minute meter data [opp_13c386e9cabe10c8389b]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile

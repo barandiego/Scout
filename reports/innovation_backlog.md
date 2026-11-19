@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 221
+Candidates: 222
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -399,6 +399,18 @@ Candidates: 221
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/; https://energia.gob.cl/sites/default/files/documentos/reporte_de_proyectos_-_enero_2026.pdf
+
+## BESS dispatch, curtailment and performance-validation wedge in Chile
+- Status: watch | energy_infrastructure
+- Current idea: A concrete independent-operator wedge is a low-capital validation package for BESS owners or EPCs: reconcile meter, inverter and dispatch data to identify unavailable capacity, incorrect state-of-charge assumptions, missed arbitrage windows or curtailment-related operating losses. The underlying cash-flow source would be improved project availability or dispatch economics, but the value and payer are not yet verified for small providers.
+- Potential economic capture: Fixed-fee technical data audit or recurring monitoring of operating data, subject to access, qualifications and demonstrated savings. No buyer, fee level or savings amount is established by the evidence.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.spec.cl/en/publicaciones/2026-almacenamiento-corta-duracion/; https://www.iea.org/files/2fcd8719-121f-4248-914a-75ea2485be21/Chile2050EnergyTransitionRoadmap.pdf; https://economiacircular.mma.gob.cl/wp-content/uploads/2024/11/18.-SP-Global-Commodity-Insights-2023-Chile-advances-regulation-to-support-storage-goals.pdf
 
 ## Bid-ready resilience package for small-utility battery and microgrid subawards
 - Status: watch | energy_infrastructure

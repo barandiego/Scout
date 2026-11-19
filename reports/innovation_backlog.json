@@ -1214,6 +1214,43 @@
       "category": "energy_infrastructure",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use public project/operator information to identify three Chilean solar-plus-storage projects or EPCs, then request a data-light diagnostic using anonymized hourly generation, charge/discharge and availability data. Build the first analysis in a spreadsheet or open-source time-series tool; do not install hardware or promise market revenues. Falsify if operators will not share a data extract, cannot identify an operational decision affected by the analysis, or report that existing O&M contracts already cover the same task. The test must validate access to data and a paid decision-useful output before any software or field deployment.",
+      "current_thesis": "A concrete independent-operator wedge is a low-capital validation package for BESS owners or EPCs: reconcile meter, inverter and dispatch data to identify unavailable capacity, incorrect state-of-charge assumptions, missed arbitrage windows or curtailment-related operating losses. The underlying cash-flow source would be improved project availability or dispatch economics, but the value and payer are not yet verified for small providers.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile, especially solar-congested northern nodes",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "BESS dispatch, curtailment and performance-validation wedge in Chile",
+      "opportunity_id": "opp_d8375e0bd32f09de7100",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
+        "Compare owned asset, installer/distributor and project-finance participation.",
+        "Verify permits and installed net payback under conservative power price scenarios."
+      ],
+      "supporting_source_urls": [
+        "https://www.spec.cl/en/publicaciones/2026-almacenamiento-corta-duracion/",
+        "https://www.iea.org/files/2fcd8719-121f-4248-914a-75ea2485be21/Chile2050EnergyTransitionRoadmap.pdf",
+        "https://economiacircular.mma.gob.cl/wp-content/uploads/2024/11/18.-SP-Global-Commodity-Insights-2023-Chile-advances-regulation-to-support-storage-goals.pdf"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Fixed-fee technical data audit or recurring monitoring of operating data, subject to access, qualifications and demonstrated savings. No buyer, fee level or savings amount is established by the evidence.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "energy_infrastructure",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use DOE’s subaward and project lists to identify five small utilities or Tribal utilities with active resilience awards or planned procurements. Send a one-page sample specification and offer a fixed-price paid pilot limited to one facility. Falsify at lowest cost by checking whether each target has a public procurement notice, named project contact, and requirement for outside technical support; abandon if none exists or if the work requires engineering licensure the operator does not possess. Do not represent eligibility for DOE funds or promise award access.",
       "current_thesis": "Small utilities receiving or pursuing resilience funds must convert an eligible project into procurement-ready technical specifications, interconnection documentation, cost-match evidence, and monitoring requirements. The funding mechanism creates a public purchasing route without requiring the operator to own generation or batteries.",
       "founder_hours_initial_unverified_estimate": "",
@@ -8406,7 +8443,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-19T12:30:12.074515+00:00",
+  "generated_at": "2026-11-19T22:55:04.796297+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

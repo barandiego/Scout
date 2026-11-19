@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-19T12:30:11.723384+00:00
+Generated: 2026-11-19T22:55:04.149863+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['early_adoption_investing', 'market_positioning', 'asset_ownership']
-- raw_candidates: 1
-- parseable_candidates: 1
-- normalized_candidates: 1
+- lenses: ['nfc_smart_commerce', 'vertical_farming_economics', 'energy_localization']
+- raw_candidates: 2
+- parseable_candidates: 2
+- normalized_candidates: 2
 - normalization_rejected: 0
-- grounded_sources: 3
+- grounded_sources: 6
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 0
+- judge_attempts: 1
 - critic_reviews: 1
-- judge_reviews: 0
+- judge_reviews: 1
 - survivors: 0
 - watches: 1
 - rejected: 1
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.0286092
+- cost_usd: 0.0423365
 - cost_uncertain: False
-- budget_remaining_usd: 0.0513908
+- budget_remaining_usd: 0.0376635
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Copper-supply-risk procurement watchlist for manufacturers exposed to concentrated refining: deferred_by_review_cap
 - Chile SFA implementation test harness for fintech and bank API teams: The regulatory premise is sufficiently grounded by CMF primary sources: NCG 514 exists and CMF’s later material reportedly adds technical specifications, a developer portal, and a July 2027 entry-into-force timetable. A research-only, non-production wedge can therefore be evaluated without assuming unlawful access to financial data or payment rails. However, the proposed harness has not established legally/technically usable access to participant sandboxes or realistic end-to-end flows, and CMF’s ATENA/testing infrastructure may cover much of the stated job. Most importantly, no specific regulated payer, budget owner, procurement path, willingness to pay, or defensible gap versus ATENA, internal QA, API aggregators, certification actors, and consultancies is evidenced. It survives only as a tightly scoped validation hypothesis—not as an HQ-worthy software business conclusion.
 - Compressed-air leak detection and control retrofit for small manufacturers: deferred_by_review_cap
 - Moisture-triggered irrigation retrofit kit for small farms, nurseries, and high-value gardens: deferred_by_review_cap
@@ -51,13 +50,14 @@ No survivors. Scout does not manufacture a daily winner.
 - Low-cost machine-vision retrofit feasibility audit: deferred_by_review_cap
 - Chile Open Finance conformance-testing wedge before July 2027: The regulatory premise is sufficiently grounded in CMF primary materials: a technical annex, July 2027 effective date, and CMF-operated developer/sandbox environment support a genuine implementation window. However, this does not yet support an HQ-worthy standalone conformance-testing business. The regulator-provided ATENA environment and CMF/IDB APIBox may provide much of the base testing capability at low or no cost, while commercial providers and integrators can bundle equivalent work. There is no verified budget owner, paid demand, authorization value for an external report, or evidence that a non-accredited provider can access the relevant environments and offer a materially differentiated result. This is not fatal yet because a narrow paid readiness/remediation workflow for a specific participant type could remain viable if external access is available and buyers value it; it should not proceed as a generic harness thesis without that proof.
 - Chile Open Finance sandbox-readiness testing wedge: deferred_by_review_cap
+- BESS dispatch, curtailment and performance-validation wedge in Chile: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=backlog",
-    "research_queue_unreviewed=113"
+    "deep_review_lane=fresh",
+    "research_queue_unreviewed=114"
   ],
   "stages": [
     {
@@ -65,28 +65,40 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 20,
+      "grounded_source_count": 32,
       "search_source_urls": [
-        "https://arxiv.org/abs/2610.14793",
-        "https://arxiv.org/abs/2611.05392",
-        "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa2.php?entidad_web=ALL&enviado=1&hidden_mercado=%25&materia=ALL&numero=514&tiponorma=NCG",
-        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
-        "https://www.cmfchile.cl/portal/prensa/625/articles-113897_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-100482.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-102547.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
-        "https://www.cmfchile.cl/portal/principal/623/articles-82752_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-108561.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-60920.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-92466.html",
-        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=6478dda17297672085fb49eb6ad0fda4VFdwQmVVNXFRVEZOUkUweFQxUmpkMDlCUFQwPQ%3D%3D&secuencia=-1&t=1781887982",
-        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640",
-        "https://www.sec.gov/Archives/edgar/data/1561894/000156189426000063/hasi014990-ars.pdf",
-        "https://www.sec.gov/Archives/edgar/data/715957/000119312526115192/dei-ars-12312025.pdf"
+        "https://agbasolutions.cl/nfc/?c=7E04FC&e=circuito&m=grafito&t=Presentaci%C3%B3n",
+        "https://apnews.com/article/152a4162d4a41c8eff37c2c9bb168747",
+        "https://apnews.com/article/28d360b3c8d7fa424892e23fe1c85c93",
+        "https://apnews.com/article/40a6e8a12b8b83f6d2cd5dab600c2f8d",
+        "https://cincodias.elpais.com/companias/2026-03-03/la-espanola-solarig-cierra-un-acuerdo-con-tesla-para-el-mantenimiento-de-sus-baterias-estacionarias-en-chile.html",
+        "https://cincodias.elpais.com/companias/2026-09-02/grenergy-cierra-la-venta-a-cvc-dif-de-la-cuarta-fase-de-su-proyecto-de-almacenamiento-en-chile-por-410-millones.html",
+        "https://economiacircular.mma.gob.cl/wp-content/uploads/2024/11/18.-SP-Global-Commodity-Insights-2023-Chile-advances-regulation-to-support-storage-goals.pdf",
+        "https://elpais.com/america-futura/2024-12-19/la-caida-de-los-precios-de-las-baterias-impulsa-un-boom-de-almacenamiento-de-energia-limpia.html",
+        "https://en.wikipedia.org/wiki/Controlled-environment_agriculture",
+        "https://en.wikipedia.org/wiki/Solar_power_in_Chile",
+        "https://iea.blob.core.windows.net/assets/88bb4abe-0308-42f9-a46f-c776a9528522/Electricity_2026.pdf",
+        "https://linkd.cl/",
+        "https://linkd.cl/",
+        "https://linktap.cl/tarjeta-nfc/",
+        "https://nfcnexo.cl/",
+        "https://popl.cl/en/",
+        "https://popl.cl/es/",
+        "https://pymevisible.cl/productos/tarjeta-google",
+        "https://systep-storage.sfo3.digitaloceanspaces.com/uploads/2026/04/202603_Systep_Reporte_Sector_Electrico.pdf",
+        "https://tarjetas-nfc.com/",
+        "https://tarjetasdigitaleschile.cl/",
+        "https://tnfc.cl/producto/tarjeta-nfc-de-presentacion-digital/",
+        "https://www.axios.com/2022/11/08/lettuce-hydroponics-drought-climate-teen-romaine-iceberg",
+        "https://www.axios.com/local/chicago/2026/08/10/downtown-vertical-farming-venture-takes-root",
+        "https://www.citytap.cl/pdf/CITYTAP_TARJETAYDOMO_LEADNET.pdf",
+        "https://www.iea.org/files/2fcd8719-121f-4248-914a-75ea2485be21/Chile2050EnergyTransitionRoadmap.pdf",
+        "https://www.iea.org/reports/chile-2050-energy-transition-roadmap/executive-summary",
+        "https://www.spec.cl/en/publicaciones/2026-almacenamiento-corta-duracion/",
+        "https://www.spec.cl/en/publicaciones/2026-almacenamiento-corta-duracion/",
+        "https://www.usaid.gov/sites/default/files/2022-05/USAID_SURE_Designing-Solutions-System-Friendly-Renewable-Energy-Competitive-Procurement.pdf",
+        "https://www.youtube.com/watch?v=1QOS7bg_x1w",
+        "https://www.youtube.com/watch?v=HO6YG1WjDFA"
       ]
     },
     {
@@ -105,35 +117,64 @@ No survivors. Scout does not manufacture a daily winner.
       "retry_justified": false
     },
     {
+      "index": 1,
+      "stage": "normalization",
+      "outcome": "accepted",
+      "reasons": [],
+      "changes": [
+        "contrary_evidence:list_sanitized",
+        "major_risks:list_sanitized",
+        "unknowns:list_sanitized",
+        "falsification_conditions:list_sanitized",
+        "material_update:unknown_false"
+      ],
+      "grounded_sources": 3,
+      "retry_justified": false
+    },
+    {
       "stage": "critic",
-      "candidate_id": "opp_e2a66e0f6074d07578b8",
+      "candidate_id": "opp_a904cc07d3b9ee3255a5",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 18,
+      "grounded_source_count": 17,
       "search_source_urls": [
-        "https://es.linkedin.com/posts/natura_chile-naturachile-chile-activity-7260680071663771648-_7Kl",
-        "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/",
-        "https://gpp-agreements-file.qa.naturacloud.com/pdf/natura-chile-contract-20231207.pdf",
-        "https://linktr.ee/unete.naturachile",
-        "https://mz-filemanager.s3.amazonaws.com/9e61d5ff-4641-4ec3-97a5-3595f938bb75/relatorios/b13372668fbc7a911b5968e6ce34b3767810aa64a59cf1548319d9190254a8b0/reference_form_v4.pdf",
-        "https://news.mercadolibre.com/tienda-oficial-natura-chile",
-        "https://registro.natura-avon.com/cl/quiero-ser-consultora/",
-        "https://sellercenter.falabella.com/templates/default/files/terminos_y_condiciones_marketplace_falabella.pdf",
-        "https://static.rede.natura.net/html/chile/faq/faq-chile-3.html",
-        "https://static.rede.natura.net/terminos-y-condiciones-12-11.pdf",
-        "https://www.falabella.com/falabella-cl/seller/Natura",
-        "https://www.natura.cl/",
-        "https://www.natura.cl/blog/mas-natura/guia-de-compra-online",
-        "https://www.natura.cl/encuentra-natura",
-        "https://www.natura.cl/quiero-vender",
-        "https://www.naturabrasil.com/pages/faqs",
-        "https://www.youtube.com/watch?v=j5HILBfqlEo",
-        "https://www.youtube.com/watch?v=y-OfRkujflY"
+        "https://linktap.cl/resenas-google/",
+        "https://linktap.cl/tarjetas-nfc/",
+        "https://movilcard.cl/wp-content/uploads/2023/04/CARACTERISTICAS-VCARD.pdf",
+        "https://nfctech.cl/",
+        "https://nfctech.cl/preguntas-frecuentes.html",
+        "https://popl.cl/es/",
+        "https://puntua.cl/",
+        "https://puntua.cl/guias/tarjeta-nfc-google-reviews-chile",
+        "https://puntua.cl/placa-nfc-resenas-google",
+        "https://pymevisible.cl/productos",
+        "https://pymevisible.cl/productos/tarjeta-google",
+        "https://pymevisible.cl/tarjeta-nfc-qr",
+        "https://tarjetas-nfc.com/producto/tarjeta-google",
+        "https://transformaturismo.cl/wp-content/uploads/2023/05/6.-Catalogo-de-soluciones-y-proveedores.pdf",
+        "https://www.fne.gob.cl/wp-content/uploads/2026/03/Requerimiento-FNE-contra-Delivery-Hero_0226.pdf",
+        "https://www.nic.cl/rcal/downloadResolucion.do?uuid=4a3af6be-10c6-4236-8d1f-b192c0369394",
+        "https://www.unileverfoodsolutions.cl/dam/ufs-ar/ufs-digix/inspiraci%C3%B3n-para-chefs/contenidos-covid-19/GoogleBusinessGuide%20-%20Espa%C3%B1ol.pdf"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_e2a66e0f6074d07578b8",
+      "candidate_id": "opp_a904cc07d3b9ee3255a5",
+      "coercions": [
+        "contrary_evidence"
+      ]
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_a904cc07d3b9ee3255a5",
+      "response_status": "completed",
+      "incomplete_reason": "",
+      "grounded_source_count": 0,
+      "search_source_urls": []
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_a904cc07d3b9ee3255a5",
       "coercions": []
     }
   ],
@@ -141,30 +182,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 179,
-      "cache_write_tokens": 5444,
+      "reasoning_tokens": 390,
+      "cache_write_tokens": 5559,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0140792,
+      "cumulative_cost_usd": 0.01504875,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13905,
+      "input_tokens": 13906,
       "cached_tokens": 0,
-      "output_tokens": 855,
+      "output_tokens": 1658,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0140792
+      "estimated_cost_usd": 0.01504875
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 270,
-      "cache_write_tokens": 5332,
+      "reasoning_tokens": 149,
+      "cache_write_tokens": 5301,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0286092,
+      "cumulative_cost_usd": 0.02951,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13493,
+      "input_tokens": 13535,
       "cached_tokens": 0,
-      "output_tokens": 1304,
+      "output_tokens": 1241,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01453
+      "estimated_cost_usd": 0.01446125
+    },
+    {
+      "stage": "judge",
+      "available": true,
+      "reasoning_tokens": 0,
+      "cache_write_tokens": 2733,
+      "accounting_notes": [],
+      "cumulative_cost_usd": 0.0423365,
+      "model": "gpt-5.6-terra",
+      "input_tokens": 2736,
+      "cached_tokens": 0,
+      "output_tokens": 499,
+      "web_search_calls": 0,
+      "estimated_cost_usd": 0.0128265
     }
   ]
 }

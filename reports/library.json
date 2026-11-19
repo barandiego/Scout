@@ -8725,6 +8725,67 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-19T22:54:39.902249+00:00",
+      "discovery_lens": "energy_localization",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "SPEC reports substantial Chilean BESS deployment and identifies short-duration projects near solar penetration and transmission congestion, while discussing how storage is valued and dispatched.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Short-Duration Storage: Proposals for Better Integration into the Chilean Electricity Market",
+          "url": "https://www.spec.cl/en/publicaciones/2026-almacenamiento-corta-duracion/"
+        },
+        {
+          "claim": "The IEA states that Chile allows storage participation for energy arbitrage and capacity payments, reports renewable curtailment, and identifies batteries as a response to transmission constraints.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Chile 2050 Energy Transition Roadmap",
+          "url": "https://www.iea.org/files/2fcd8719-121f-4248-914a-75ea2485be21/Chile2050EnergyTransitionRoadmap.pdf"
+        },
+        {
+          "claim": "The Chilean Ministry of Environment-hosted profile states that Chile's storage framework supports standalone BESS revenue from arbitrage and reserve capacity.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Energy Storage Geographic Profile: Chile",
+          "url": "https://economiacircular.mma.gob.cl/wp-content/uploads/2024/11/18.-SP-Global-Commodity-Insights-2023-Chile-advances-regulation-to-support-storage-goals.pdf"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.82,
+      "falsification_conditions": [],
+      "geography": "Chile, especially solar-congested northern nodes",
+      "id": "opp_d8375e0bd32f09de7100",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-19T22:54:40.010939+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use public project/operator information to identify three Chilean solar-plus-storage projects or EPCs, then request a data-light diagnostic using anonymized hourly generation, charge/discharge and availability data. Build the first analysis in a spreadsheet or open-source time-series tool; do not install hardware or promise market revenues. Falsify if operators will not share a data extract, cannot identify an operational decision affected by the analysis, or report that existing O&M contracts already cover the same task. The test must validate access to data and a paid decision-useful output before any software or field deployment.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A concrete independent-operator wedge is a low-capital validation package for BESS owners or EPCs: reconcile meter, inverter and dispatch data to identify unavailable capacity, incorrect state-of-charge assumptions, missed arbitrage windows or curtailment-related operating losses. The underlying cash-flow source would be improved project availability or dispatch economics, but the value and payer are not yet verified for small providers.",
+      "title": "BESS dispatch, curtailment and performance-validation wedge in Chile",
+      "type": "infrastructure participation",
+      "unknowns": [],
+      "value_capture_mechanism": "Fixed-fee technical data audit or recurring monitoring of operating data, subject to access, qualifications and demonstrated savings. No buyer, fee level or savings amount is established by the evidence.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-11-01T20:09:57.799717+00:00",
       "discovery_lens": "energy_localization",
       "estimated_capital": "",
@@ -15475,13 +15536,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-19T12:30:11.987798+00:00",
+  "generated_at": "2026-11-19T22:55:04.625235+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 120,
+  "rejected_excluded": 121,
   "reviewed_cards": 96,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 341,
-  "watch": 221
+  "total_distinct_opportunities": 343,
+  "watch": 222
 }
