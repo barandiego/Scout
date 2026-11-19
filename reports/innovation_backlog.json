@@ -990,43 +990,6 @@
     },
     {
       "capital_required_unverified_estimate": "",
-      "category": "ecommerce_niches",
-      "commercially_validated": false,
-      "competition_confirmed": false,
-      "current_participation_path": "First use Falabella's public Natura catalogue to record 20 comparable SKUs, prices, stock/fulfillment options and reviews. Create a spreadsheet of bundle hypotheses using only products that can be lawfully sourced and listed under the platform's seller rules. Lowest-cost falsification: run a non-inventory demand test through compliant marketplace participation or a permitted landing page, seeking a small number of paid reservations or completed purchases; do not buy inventory until unit economics and listing permission are confirmed. If reservations do not occur at the observed price, abandon the wedge.",
-      "current_thesis": "A concrete wedge exists for testing whether selected Natura bundles, gift packs or hard-to-find SKUs can acquire demand through Falabella's existing marketplace traffic and fulfillment network. The evidence does not establish resale permission, margin or arbitrage profit.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "Chile",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "Natura marketplace price-and-assortment test on Falabella.com Chile",
-      "opportunity_id": "opp_e2a66e0f6074d07578b8",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Target a specific neglected customer subgroup with a measurable unmet product requirement.",
-        "Compare imported/private-label, inventoryless fulfillment and existing domestic suppliers after landed costs.",
-        "Test one narrower search/intention channel before expanding catalog or buying inventory."
-      ],
-      "supporting_source_urls": [
-        "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/",
-        "https://www.falabella.com/falabella-cl/seller/Natura",
-        "https://www.falabella.com/falabella-cl/page/sobre-falabella-com"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "Potential cash flow is direct consumer purchase of a legally sourced bundle or value-added assortment. The operator would capture any verified spread after product cost, marketplace fees, shipping, taxes, returns and permitted seller costs. No margin is assumed.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
       "category": "energy_infrastructure",
       "commercially_validated": false,
       "competition_confirmed": false,
@@ -4103,6 +4066,43 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "A small operator could sell or license a narrowly scoped test asset—such as an automated API contract/conformance suite, synthetic consent and payment-initiation test cases, or ATENA pre-check reports—to entities preparing integrations. No buyer, price, or purchase commitment is assumed; the economic mechanism is payment for reducing integration rework and failed testing, if a real participant confirms that need.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Build a minimal synthetic-data test harness against the publicly available SFA technical specifications and document which tests can be run in ATENA. Then contact five identifiable Chilean fintechs or implementation vendors through public channels, offering a no-cost compatibility screen and asking whether they would pay for a repeatable test pack or implementation artifact. Stop if the sandbox or developer materials are inaccessible, the tests cannot be automated, or none of five prospects confirms a concrete pre-production problem.",
+      "current_thesis": "Participating financial institutions and fintechs need to validate interoperability, directory integration, technical conformance, and payment/data-exchange workflows before production participation. A narrowly scoped reusable test harness, conformance checklist, or synthetic-data test suite could become a small software asset rather than a general consulting practice.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile Open Finance sandbox-readiness testing wedge",
+      "opportunity_id": "opp_1cb73388b22b0e44428c",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a fixed-scope testing package or license a reusable conformance-test repository to regulated financial institutions, fintechs, payment operators, or implementation vendors that need evidence of readiness. No buyer, price, margin, or procurement outcome is assumed until direct outreach validates demand.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -8406,7 +8406,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-19T01:43:28.630792+00:00",
+  "generated_at": "2026-11-19T12:30:12.074515+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

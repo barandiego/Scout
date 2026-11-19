@@ -328,18 +328,6 @@ Candidates: 221
 - Possible initial budget:
 - Source URLs: https://news.mercadolibre.com/tienda-oficial-natura-chile; https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/; https://www.falabella.com/falabella-cl/seller/Natura
 
-## Natura marketplace price-and-assortment test on Falabella.com Chile
-- Status: watch | ecommerce_niches
-- Current idea: A concrete wedge exists for testing whether selected Natura bundles, gift packs or hard-to-find SKUs can acquire demand through Falabella's existing marketplace traffic and fulfillment network. The evidence does not establish resale permission, margin or arbitrage profit.
-- Potential economic capture: Potential cash flow is direct consumer purchase of a legally sourced bundle or value-added assortment. The operator would capture any verified spread after product cost, marketplace fees, shipping, taxes, returns and permitted seller costs. No margin is assumed.
-- **Research routes to test (NOT validated claims):**
-  - Target a specific neglected customer subgroup with a measurable unmet product requirement.
-  - Compare imported/private-label, inventoryless fulfillment and existing domestic suppliers after landed costs.
-  - Test one narrower search/intention channel before expanding catalog or buying inventory.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/; https://www.falabella.com/falabella-cl/seller/Natura; https://www.falabella.com/falabella-cl/page/sobre-falabella-com
-
 ## 100 kW+ commercial battery enrollment pipeline for wholesale-market aggregators
 - Status: watch | energy_infrastructure
 - Current idea: Existing commercial or industrial batteries may have additional wholesale-market value, but the operator may not know whether the asset is technically eligible, telemetry-ready, or large enough for an aggregator’s program.
@@ -1311,6 +1299,18 @@ Candidates: 221
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html
+
+## Chile Open Finance sandbox-readiness testing wedge
+- Status: watch | open_finance_chile
+- Current idea: Participating financial institutions and fintechs need to validate interoperability, directory integration, technical conformance, and payment/data-exchange workflows before production participation. A narrowly scoped reusable test harness, conformance checklist, or synthetic-data test suite could become a small software asset rather than a general consulting practice.
+- Potential economic capture: Sell a fixed-scope testing package or license a reusable conformance-test repository to regulated financial institutions, fintechs, payment operators, or implementation vendors that need evidence of readiness. No buyer, price, margin, or procurement outcome is assumed until direct outreach validates demand.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html; https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640
 
 ## Chile Open Finance technical-conformance test harness for prospective participants
 - Status: watch | open_finance_chile

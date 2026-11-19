@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-11-19T01:43:28.521241+00:00",
+  "generated_at": "2026-11-19T12:30:11.987798+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -13,7 +13,7 @@
     },
     {
       "opportunity_id": "opp_e65bfa2752c716623239",
-      "other_cards_in_theme": 87,
+      "other_cards_in_theme": 88,
       "reviewed": true,
       "status": "watch",
       "theme": "chile_open_finance",
@@ -103,15 +103,15 @@
   "headline_count": 12,
   "high_concentration": [
     {
-      "cards": 88,
-      "share": 0.398,
+      "cards": 89,
+      "share": 0.403,
       "theme": "chile_open_finance"
     }
   ],
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 95,
+  "theme_count": 94,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -176,6 +176,7 @@
         "opp_1e211b9f8b40a404bf8c",
         "opp_fb3cadb8fae90ba9ffb4",
         "opp_270032cf1d021a18d1b3",
+        "opp_1cb73388b22b0e44428c",
         "opp_993ac5d080c7042af44c",
         "opp_82f282d8dc0896390ee7",
         "opp_f56b1fbbad100489cfa5",
@@ -204,7 +205,7 @@
         "opp_7ebd27e125a482b865b2",
         "opp_6239e0aa7c5cddf9b177"
       ],
-      "count": 88,
+      "count": 89,
       "representative_id": "opp_e65bfa2752c716623239",
       "reviewed_count": 55,
       "theme": "chile_open_finance"
@@ -499,15 +500,6 @@
       "representative_id": "opp_484a01686085457d3c31",
       "reviewed_count": 0,
       "theme": "ecommerce_niches:natura_marketplace_catalog"
-    },
-    {
-      "all_opportunity_ids": [
-        "opp_e2a66e0f6074d07578b8"
-      ],
-      "count": 1,
-      "representative_id": "opp_e2a66e0f6074d07578b8",
-      "reviewed_count": 0,
-      "theme": "ecommerce_niches:natura_marketplace_price"
     },
     {
       "all_opportunity_ids": [

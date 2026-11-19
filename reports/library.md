@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-11-19T01:43:28.521241+00:00
+Generated: 2026-11-19T12:30:11.987798+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
 - Active research: 221 (0 HQ survivors, 221 watches)
-- Rejected opportunities excluded: 119
+- Rejected opportunities excluded: 120
 - Critic-and-judge reviewed: 96
 - Autonomous execution authorization: 0
 
@@ -1053,6 +1053,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html; https://chirgwin.cl/en/chile-advances-the-implementation-of-its-open-finance-system/
 
+### Chile Open Finance sandbox-readiness testing wedge [opp_1cb73388b22b0e44428c]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Participating financial institutions and fintechs need to validate interoperability, directory integration, technical conformance, and payment/data-exchange workflows before production participation. A narrowly scoped reusable test harness, conformance checklist, or synthetic-data test suite could become a small software asset rather than a general consulting practice.
+- Value capture: Sell a fixed-scope testing package or license a reusable conformance-test repository to regulated financial institutions, fintechs, payment operators, or implementation vendors that need evidence of readiness. No buyer, price, margin, or procurement outcome is assumed until direct outreach validates demand.
+- Participation hypothesis: Build a minimal synthetic-data test harness against the publicly available SFA technical specifications and document which tests can be run in ATENA. Then contact five identifiable Chilean fintechs or implementation vendors through public channels, offering a no-cost compatibility screen and asking whether they would pay for a repeatable test pack or implementation artifact. Stop if the sandbox or developer materials are inaccessible, the tests cannot be automated, or none of five prospects confirms a concrete pre-production problem.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html; https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640
+
 ### Chile SFA consent-and-API conformance test harness for early participants [opp_72a43af466b08d9345bd]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: Banks, account providers, fintech participants and other regulated institutions will need to validate consent handling, directory participation, API behavior, security controls and data exchange before or during staged onboarding. A reusable test asset could reduce repeated manual integration and compliance-validation work, but the exact mandatory test requirements remain dependent on technical specifications.
@@ -1232,16 +1242,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://news.mercadolibre.com/tienda-oficial-natura-chile; https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/; https://www.falabella.com/falabella-cl/seller/Natura
-
-### Natura marketplace price-and-assortment test on Falabella.com Chile [opp_e2a66e0f6074d07578b8]
-- Status: WATCH_REQUIRES_VALIDATION | ecommerce_niches | Chile
-- Thesis: A concrete wedge exists for testing whether selected Natura bundles, gift packs or hard-to-find SKUs can acquire demand through Falabella's existing marketplace traffic and fulfillment network. The evidence does not establish resale permission, margin or arbitrage profit.
-- Value capture: Potential cash flow is direct consumer purchase of a legally sourced bundle or value-added assortment. The operator would capture any verified spread after product cost, marketplace fees, shipping, taxes, returns and permitted seller costs. No margin is assumed.
-- Participation hypothesis: First use Falabella's public Natura catalogue to record 20 comparable SKUs, prices, stock/fulfillment options and reviews. Create a spreadsheet of bundle hypotheses using only products that can be lawfully sourced and listed under the platform's seller rules. Lowest-cost falsification: run a non-inventory demand test through compliant marketplace participation or a permitted landing page, seeking a small number of paid reservations or completed purchases; do not buy inventory until unit economics and listing permission are confirmed. If reserva
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/; https://www.falabella.com/falabella-cl/seller/Natura; https://www.falabella.com/falabella-cl/page/sobre-falabella-com
 
 ### NFC review-and-discovery stations for Chilean restaurants and local retailers [opp_7a4c2697266c85e82693]
 - Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile

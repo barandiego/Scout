@@ -8969,6 +8969,67 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-19T12:29:55.069422+00:00",
+      "discovery_lens": "asset_ownership",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF states that NCG 569 adds technical specifications for interoperability and payment initiation, enables development work, and postpones entry into force until July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "CMF states that ATENA allows institutions to test integrations, verify technical adequacy, test interoperability with the participant directory, and validate business models before the SFA enters into force.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF launches ATENA Technological Sandbox for the implementation of the Open Finance System",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html"
+        },
+        {
+          "claim": "CMF states that the SFA entry date is July 3, 2027 and that voluntary pre-registration for sandbox and directory testing is expected from October 2026.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Preguntas Frecuentes: Sistema de Finanzas Abiertas",
+          "url": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.9,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_1cb73388b22b0e44428c",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-19T12:29:55.111327+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Build a minimal synthetic-data test harness against the publicly available SFA technical specifications and document which tests can be run in ATENA. Then contact five identifiable Chilean fintechs or implementation vendors through public channels, offering a no-cost compatibility screen and asking whether they would pay for a repeatable test pack or implementation artifact. Stop if the sandbox or developer materials are inaccessible, the tests cannot be automated, or none of five prospects confirms a concrete pre-production problem.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Participating financial institutions and fintechs need to validate interoperability, directory integration, technical conformance, and payment/data-exchange workflows before production participation. A narrowly scoped reusable test harness, conformance checklist, or synthetic-data test suite could become a small software asset rather than a general consulting practice.",
+      "title": "Chile Open Finance sandbox-readiness testing wedge",
+      "type": "software_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell a fixed-scope testing package or license a reusable conformance-test repository to regulated financial institutions, fintechs, payment operators, or implementation vendors that need evidence of readiness. No buyer, price, margin, or procurement outcome is assumed until direct outreach validates demand.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-25T03:12:13.882291+00:00",
       "discovery_lens": "open_finance_chile",
       "estimated_capital": "",
@@ -10057,67 +10118,6 @@
       "type": "physical_commerce",
       "unknowns": [],
       "value_capture_mechanism": "A small operator could sell a defined catalog-monitoring or marketplace-operations deliverable: weekly SKU/price/stock audits, competitor-price alerts, listing-error detection and conversion-oriented content changes. The economic mechanism is a paid operational service or performance-linked improvement, but willingness to pay and attribution are unverified.",
-      "verified_sales": null,
-      "vertical": "ecommerce_niches",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
-      "discovered_at": "2026-10-21T08:27:50.373426+00:00",
-      "discovery_lens": "business_model_migration",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "Falabella states that Natura opened an official Chilean ecommerce store with an initial portfolio of 110 products and online purchase, pickup, exchange and return options.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Natura llega a Falabella.com con su nueva Tienda Oficial",
-          "url": "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/"
-        },
-        {
-          "claim": "The live seller page displays 109 Natura results with consumer prices, delivery/pickup options and discounts.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Natura | Falabella Chile",
-          "url": "https://www.falabella.com/falabella-cl/seller/Natura"
-        },
-        {
-          "claim": "Falabella describes its marketplace as hosting products from brands, enterprises and SMEs and provides a Chile-wide pickup and returns network.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "¿Qué es falabella.com?",
-          "url": "https://www.falabella.com/falabella-cl/page/sobre-falabella-com"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.82,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_e2a66e0f6074d07578b8",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-21T08:27:50.419405+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "First use Falabella's public Natura catalogue to record 20 comparable SKUs, prices, stock/fulfillment options and reviews. Create a spreadsheet of bundle hypotheses using only products that can be lawfully sourced and listed under the platform's seller rules. Lowest-cost falsification: run a non-inventory demand test through compliant marketplace participation or a permitted landing page, seeking a small number of paid reservations or completed purchases; do not buy inventory until unit economics and listing permission are confirmed. If reservations do not occur at the observed price, abandon the wedge.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "A concrete wedge exists for testing whether selected Natura bundles, gift packs or hard-to-find SKUs can acquire demand through Falabella's existing marketplace traffic and fulfillment network. The evidence does not establish resale permission, margin or arbitrage profit.",
-      "title": "Natura marketplace price-and-assortment test on Falabella.com Chile",
-      "type": "physical_distribution",
-      "unknowns": [],
-      "value_capture_mechanism": "Potential cash flow is direct consumer purchase of a legally sourced bundle or value-added assortment. The operator would capture any verified spread after product cost, marketplace fees, shipping, taxes, returns and permitted seller costs. No margin is assumed.",
       "verified_sales": null,
       "vertical": "ecommerce_niches",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
@@ -15475,13 +15475,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-19T01:43:28.521241+00:00",
+  "generated_at": "2026-11-19T12:30:11.987798+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 119,
+  "rejected_excluded": 120,
   "reviewed_cards": 96,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 340,
+  "total_distinct_opportunities": 341,
   "watch": 221
 }
