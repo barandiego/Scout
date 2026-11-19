@@ -1,16 +1,40 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-19T01:56:19.456732+00:00
+Generated: 2026-11-19T13:39:50.459224+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 213
+- New this cycle: 203
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): none
-- Categories: agriculture 645, ai 97, commerce 1, energy 610, robotics 447
+- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid, chile_robotics_news:unavailable_or_invalid
+- Categories: agriculture 657, ai 88, commerce 1, energy 605, robotics 449
 
 ## Recently encountered signals
+
+### suryamalladi22-alt/AI-Agriculture-Intelligence-Agentt
+- Source: https://github.com/suryamalladi22-alt/AI-Agriculture-Intelligence-Agentt
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### reshma598/AI-Agriculture-Intelligent-Agent
+- Source: https://github.com/reshma598/AI-Agriculture-Intelligent-Agent
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### omkarcdeshmukh28/Project
+- Source: https://github.com/omkarcdeshmukh28/Project
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### avishkargorad60-dot/AgriSense-AI
+- Source: https://github.com/avishkargorad60-dot/AgriSense-AI
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### sarthakmanavug25-gif/gram-web
 - Source: https://github.com/sarthakmanavug25-gif/gram-web
@@ -434,30 +458,6 @@ Generated: 2026-11-19T01:56:19.456732+00:00
 
 ### rohitbhagadkar79-crypto/Agro-Solutin
 - Source: https://github.com/rohitbhagadkar79-crypto/Agro-Solutin
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### thehmfpk/kisanlens-ai
-- Source: https://github.com/thehmfpk/kisanlens-ai
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### samarthpatare/FARM_AI
-- Source: https://github.com/samarthpatare/FARM_AI
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### PreethaJ05/AgriConnect
-- Source: https://github.com/PreethaJ05/AgriConnect
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### samarthpatare/Agrosathi_AI
-- Source: https://github.com/samarthpatare/Agrosathi_AI
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
