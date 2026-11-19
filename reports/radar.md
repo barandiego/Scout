@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-18T17:24:55.019221+00:00
+Generated: 2026-11-19T01:56:19.456732+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 221
+- New this cycle: 213
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 648, ai 97, commerce 1, energy 603, robotics 451
+- Categories: agriculture 645, ai 97, commerce 1, energy 610, robotics 447
 
 ## Recently encountered signals
+
+### sarthakmanavug25-gif/gram-web
+- Source: https://github.com/sarthakmanavug25-gif/gram-web
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### Blessymary2007/GREEN-AI
 - Source: https://github.com/Blessymary2007/GREEN-AI
@@ -452,12 +458,6 @@ Generated: 2026-11-18T17:24:55.019221+00:00
 
 ### samarthpatare/Agrosathi_AI
 - Source: https://github.com/samarthpatare/Agrosathi_AI
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### samarthpatare/AGROSATHI_AI---SAMART-FARMING-BETTER-FUTURE
-- Source: https://github.com/samarthpatare/AGROSATHI_AI---SAMART-FARMING-BETTER-FUTURE
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
