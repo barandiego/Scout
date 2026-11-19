@@ -1,135 +1,53 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 1111127.0,
-      "buyer": "DIRECCION DE SALUD",
-      "closes_at": "2026-11-20T11:00:00",
-      "code": "1298355-1310-COT26",
-      "estimated_budget": 1111127.0,
-      "name": "ADQUISICION DE RENOVADOR DE INSTRUMENTAL PARA CESFAM FLORENCIA",
+      "available_budget_clp": 305000.0,
+      "buyer": "UNIVERSIDAD DEL BIO BIO",
+      "closes_at": "2026-11-23T13:00:00",
+      "code": "2704-2301-COT26",
+      "estimated_budget": 305000.0,
+      "name": "SC 7834 LIBROS MANGA COMIX",
+      "products": 6,
+      "region": "Región del Biobío"
+    },
+    {
+      "available_budget_clp": 6000000.0,
+      "buyer": "SERVICIO DE SALUD METROPOLITANA NORTE HOSPITAL SAN JOSE",
+      "closes_at": "2026-11-20T20:10:00",
+      "code": "1549-4791-COT26",
+      "estimated_budget": 6000000.0,
+      "name": "263-2005 PORTAOBJETO CON CANTO ESMERILADOS MICROSLIDES MS101-W",
       "products": 1,
       "region": "Región Metropolitana de Santiago"
     },
     {
-      "available_budget_clp": 3000000.0,
-      "buyer": "I MUNICIPALIDAD DE PIRQUE",
-      "closes_at": "2026-11-20T15:00:00",
-      "code": "2719-420-COT26",
-      "estimated_budget": 3000000.0,
-      "name": "COMPRA DESBROZADORAS PARA MANTENCIÓN AREAS VERDES",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 300000.0,
-      "buyer": "UNIVERSIDAD DE TALCA",
-      "closes_at": "2026-11-20T11:00:00",
-      "code": "1469-4350-COT26",
-      "estimated_budget": 300000.0,
-      "name": "20-46095 Servicio de transporte  en la ciudad de Talca  para 40 personas",
-      "products": 1,
-      "region": "Región del Maule"
-    },
-    {
-      "available_budget_clp": 465000.0,
-      "buyer": "UNIVERSIDAD DE SANTIAGO DE CHILE",
-      "closes_at": "2026-11-20T10:25:00",
-      "code": "5067-2988-COT26",
-      "estimated_budget": 465000.0,
-      "name": "Sol. 95325 cc 26, Depto. de Gestion del Deporte, Promocionales",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 1082999.0,
-      "buyer": "SERVICIO DE SALUD CONCEPCION",
-      "closes_at": "2026-11-20T10:30:00",
-      "code": "1079650-222-COT26",
-      "estimated_budget": 1082999.0,
-      "name": "INSTALACIÓN DE 7 PERSIANAS METALICAS INTERIOR PARA CESFAM DR. VICTOR MANUEL FERNÁNDEZ DE CONCEPCIÓN CORRESPONDE A RETRIBUCIONES AÑO 2026 ENTRE EL CESFAM DR. VICTOR MANUEL FERNÁNDEZ DE CONCEPCIÓN (CVMF",
-      "products": 1,
-      "region": "Región del Biobío"
-    },
-    {
-      "available_budget_clp": 1927800.0,
-      "buyer": "Gendarmería de Chile Centro de Eduación y Trabajo",
-      "closes_at": "2026-11-20T12:00:00",
-      "code": "1250579-2-COT26",
-      "estimated_budget": 1927800.0,
-      "name": "“516 /ADQUISICIÓN DE RUEDAS DE POLIURETANO PARA REPARACION DE CARROS DE ALIMENTACION FABRICADOS EN EL C.E.T DE PUTAENDO/E1O2RT8”",
-      "products": 2,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 1536634.0,
-      "buyer": "I MUNICIPALIDAD DE CORONEL DPTO ADMINIST",
-      "closes_at": "2026-11-20T10:25:00",
-      "code": "2762-774-COT26",
-      "estimated_budget": 1536634.0,
-      "name": "ADQUISICION NOTEBOOK Y IMPRESORA",
-      "products": 2,
-      "region": "Región del Biobío"
-    },
-    {
-      "available_budget_clp": 783839.0,
-      "buyer": "I MUNICIPALIDAD DE HUALQUI DEPARTAMENTO DE SALUD",
-      "closes_at": "2026-11-20T10:30:00",
-      "code": "4457-137-COT26",
-      "estimated_budget": 783839.0,
-      "name": "IMPLEMENTOS PROGRAMA MAIS ECICEP,  MAIS CECOSF Y EQUIDAD RURAL.",
-      "products": 5,
-      "region": "Región del Biobío"
-    },
-    {
-      "available_budget_clp": 1100000.0,
-      "buyer": "I MUNICIPALIDAD DE MARIA ELENA",
-      "closes_at": "2026-11-23T09:15:00",
-      "code": "3135-181-COT26",
-      "estimated_budget": 1100000.0,
-      "name": "SERVICIO DE MANTENIMIENTO DE DOS RACK SMITH MACHINE",
-      "products": 1,
-      "region": "Región de Antofagasta"
-    },
-    {
-      "available_budget_clp": 130000.0,
-      "buyer": "Servicio de Salud Coquimbo Hospital de Ovalle",
-      "closes_at": "2026-11-20T10:30:00",
-      "code": "1242131-826-COT26",
-      "estimated_budget": 130000.0,
-      "name": "BOTON GASTROSTOMIA FA 27 PROG. NANEAS",
+      "available_budget_clp": 500000.0,
+      "buyer": "UNIVERSIDAD DE CHILE",
+      "closes_at": "2026-11-20T20:10:00",
+      "code": "5613-495-COT26",
+      "estimated_budget": 500000.0,
+      "name": "SERVICIO DE CATERING PARA 40 PERSONAS EN COQUIMBO – CC2012",
       "products": 1,
       "region": "Región de Coquimbo"
     },
     {
-      "available_budget_clp": 350000.0,
-      "buyer": "MINISTERIO PUBLICO",
-      "closes_at": "2026-11-23T15:00:00",
-      "code": "697202-95-COT26",
-      "estimated_budget": 350000.0,
-      "name": "Servicio de Catering para Fiscalía Regional de Valparaíso",
+      "available_budget_clp": 6902000.0,
+      "buyer": "HOSPITAL PADRE ALBERTO HURTADO",
+      "closes_at": "2026-11-20T20:17:00",
+      "code": "1057503-2979-COT26",
+      "estimated_budget": 6902000.0,
+      "name": "OP:Mantencion correctiva planta de doble paso de esterilizacion y tratamiento de agua blanda del area de caldera.",
       "products": 1,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 710000.0,
-      "buyer": "COMPLEJO ASISTENCIAL DR.VICTOR RIOS RUIZ",
-      "closes_at": "2026-11-20T18:00:00",
-      "code": "1057417-4699-COT26",
-      "estimated_budget": 710000.0,
-      "name": "SMN FORMALINA SOLUCION CON CARBONATO 10%",
-      "products": 1,
-      "region": "Región del Biobío"
+      "region": "Región Metropolitana de Santiago"
     }
   ],
-  "active_structurally_reconstructable_count": 12,
+  "active_structurally_reconstructable_count": 4,
   "diagnostics": {
-    "api_failures": {
-      "api_rate_limited": 8
-    },
+    "api_failures": {},
     "budget_exhausted": false,
     "detail_attempts": 20,
     "detail_cap_exhausted": true,
-    "details_fetched": 12,
+    "details_fetched": 20,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -141,22 +59,24 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-19T13:29:49Z",
-  "inserted_history": 12,
+  "generated_at": "2026-11-19T23:06:28Z",
+  "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_API_ERRORS",
+  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
   "phase1": {
-    "records": 12,
-    "rejection_reasons": {},
-    "resolved": 0,
-    "structurally_reconstructable": 12,
-    "with_observable_quote_totals": 0,
+    "records": 20,
+    "rejection_reasons": {
+      "no_observable_competitive_prices": 14
+    },
+    "resolved": 16,
+    "structurally_reconstructable": 6,
+    "with_observable_quote_totals": 2,
     "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-19T13:29:49Z"
+    "changed_to": "2026-11-19T23:06:28Z"
   }
 }
