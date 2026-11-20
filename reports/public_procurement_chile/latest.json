@@ -1,47 +1,6 @@
 {
-  "active_candidates": [
-    {
-      "available_budget_clp": 305000.0,
-      "buyer": "UNIVERSIDAD DEL BIO BIO",
-      "closes_at": "2026-11-23T13:00:00",
-      "code": "2704-2301-COT26",
-      "estimated_budget": 305000.0,
-      "name": "SC 7834 LIBROS MANGA COMIX",
-      "products": 6,
-      "region": "Región del Biobío"
-    },
-    {
-      "available_budget_clp": 6000000.0,
-      "buyer": "SERVICIO DE SALUD METROPOLITANA NORTE HOSPITAL SAN JOSE",
-      "closes_at": "2026-11-20T20:10:00",
-      "code": "1549-4791-COT26",
-      "estimated_budget": 6000000.0,
-      "name": "263-2005 PORTAOBJETO CON CANTO ESMERILADOS MICROSLIDES MS101-W",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 500000.0,
-      "buyer": "UNIVERSIDAD DE CHILE",
-      "closes_at": "2026-11-20T20:10:00",
-      "code": "5613-495-COT26",
-      "estimated_budget": 500000.0,
-      "name": "SERVICIO DE CATERING PARA 40 PERSONAS EN COQUIMBO – CC2012",
-      "products": 1,
-      "region": "Región de Coquimbo"
-    },
-    {
-      "available_budget_clp": 6902000.0,
-      "buyer": "HOSPITAL PADRE ALBERTO HURTADO",
-      "closes_at": "2026-11-20T20:17:00",
-      "code": "1057503-2979-COT26",
-      "estimated_budget": 6902000.0,
-      "name": "OP:Mantencion correctiva planta de doble paso de esterilizacion y tratamiento de agua blanda del area de caldera.",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    }
-  ],
-  "active_structurally_reconstructable_count": 4,
+  "active_candidates": [],
+  "active_structurally_reconstructable_count": 0,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -59,7 +18,7 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-19T23:06:28Z",
+  "generated_at": "2026-11-20T07:30:11Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -67,16 +26,16 @@
   "phase1": {
     "records": 20,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 14
+      "no_observable_competitive_prices": 2
     },
-    "resolved": 16,
-    "structurally_reconstructable": 6,
-    "with_observable_quote_totals": 2,
+    "resolved": 20,
+    "structurally_reconstructable": 18,
+    "with_observable_quote_totals": 18,
     "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-19T23:06:28Z"
+    "changed_to": "2026-11-20T07:30:11Z"
   }
 }
