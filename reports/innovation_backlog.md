@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 222
+Candidates: 223
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -99,6 +99,18 @@ Candidates: 222
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://jobs.telusdigital.com/jobs/18154786-online-data-analyst-chile; https://jobs.telusdigital.com/search/jobs/in/country/chile?cfm5=AI+Community&ns_category=ai-community%3Fintcmp%3Dtelus-digital-site; https://app.outlier.ai/opportunities/4506395005
+
+## Chile-specific online data analyst and map/search evaluator
+- Status: watch | chile_localization
+- Current idea: A bilingual Chile resident with detailed local geographic and business knowledge can apply for location/search-quality evaluation work. The opportunity has a concrete payer and rate estimate, but no guaranteed hours, employment relationship, or guaranteed assignment after qualification.
+- Potential economic capture: Perform assigned map, business-information, search-relevance, audio, or related evaluation tasks as an independent contractor. Cash flow comes from TELUS Digital project task payments, conditional on passing qualification and receiving available work.
+- **Research routes to test (NOT validated claims):**
+  - Find the smallest Chilean workflow whose economics differ from the original geography.
+  - Secure lawful access, partners and after-sales support rather than copy protected technology.
+  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://jobs.telusdigital.com/jobs/18154786-online-data-analyst-chile; https://jobs.telusdigital.com/search/jobs/in/country/chile
 
 ## Chile: irrigation-kit retrofit and technical configuration for small farms and greenhouses
 - Status: watch | chile_localization
@@ -208,6 +220,18 @@ Candidates: 222
 - Possible initial budget:
 - Source URLs: https://app.outlier.ai/opportunities/4481627005; https://app.outlier.ai/login?job_post_id=4476998005
 
+## Spanish (Chile) freelance AI-response evaluation and writing
+- Status: watch | chile_localization
+- Current idea: A qualified Chilean Spanish writer, translator, editor, journalist, or humanities student can test access to paid AI-evaluation work without purchasing inventory or paying an application fee. This is an application opportunity, not guaranteed income: availability, qualification, project assignment, location, quality, and payment terms remain conditional.
+- Potential economic capture: Complete the qualification process and perform assigned evaluation or writing tasks as an independent contractor. The economic mechanism is task compensation from Outlier, with stated weekly payment and payment-method conditions subject to the project terms.
+- **Research routes to test (NOT validated claims):**
+  - Find the smallest Chilean workflow whose economics differ from the original geography.
+  - Secure lawful access, partners and after-sales support rather than copy protected technology.
+  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://app.outlier.ai/opportunities/4481627005; https://app.outlier.ai/login?ad_id=628025286&campaign_id=368362216&domain=spanish&id=4500426005&job_post_id=4500426005&language=ES&li_fat_id=8e2ddbb7-96b9-440b-b6cd-0dcb29660d9c&locale=CL&pod=languages
+
 ## TELUS Digital Online Data Analyst — Chile
 - Status: watch | chile_localization
 - Current idea: A Chile resident with Spanish fluency can submit an application for part-time search/data-quality evaluation work. The public listing verifies an open application route and qualification process, but does not verify a rate, hours guarantee or hiring outcome.
@@ -255,18 +279,6 @@ Candidates: 222
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.falabella.com/falabella-cl/seller/Natura; https://www.natura.cl/encuentra-natura
-
-## Single-station machine-vision retrofit for legacy production lines
-- Status: watch | competitive_positioning
-- Current idea: A narrowly defined pass/fail inspection retrofit can address a buyer segment that cannot justify a new robotic cell but can test one quality-control bottleneck. The economic mechanism is avoided scrap, rework or manual inspection, but savings must be measured at the individual line.
-- Potential economic capture: Sell a fixed-scope diagnostic and pilot for one inspection point using commercially available vision hardware and an existing PLC or operator workflow. The payer would plausibly be a small manufacturer or automation integrator, but no cited source verifies a particular buyer, conversion rate or margin.
-- **Research routes to test (NOT validated claims):**
-  - Segment the incumbent market by customers who pay too much or wait too long for one outcome.
-  - Offer materially different positioning, delivery, price or specialisation with clear unit economics.
-  - Test switching and repeat purchase evidence before scaling acquisition.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://sagnikbhattacharya.com/blog/ai-visual-inspection-cost; https://automationsolinc.com/resources/blog/small-scale-retrofits-a-smart-bridge-to-automation-reliability/
 
 ## Task-specific automation retrofit discovery for small manufacturers
 - Status: watch | competitive_positioning

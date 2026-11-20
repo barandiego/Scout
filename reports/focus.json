@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-11-19T22:55:04.625235+00:00",
+  "generated_at": "2026-11-20T05:43:49.863153+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -104,14 +104,14 @@
   "high_concentration": [
     {
       "cards": 89,
-      "share": 0.401,
+      "share": 0.399,
       "theme": "chile_open_finance"
     }
   ],
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 94,
+  "theme_count": 95,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -432,6 +432,24 @@
     },
     {
       "all_opportunity_ids": [
+        "opp_c8f5589a51402a2c1ca8"
+      ],
+      "count": 1,
+      "representative_id": "opp_c8f5589a51402a2c1ca8",
+      "reviewed_count": 0,
+      "theme": "chile_localization:spanish_freelance_ai"
+    },
+    {
+      "all_opportunity_ids": [
+        "opp_ea89dae5cf6eaae0f319"
+      ],
+      "count": 1,
+      "representative_id": "opp_ea89dae5cf6eaae0f319",
+      "reviewed_count": 0,
+      "theme": "chile_localization:specific_online_data"
+    },
+    {
+      "all_opportunity_ids": [
         "opp_5c481ec7547befd84600"
       ],
       "count": 1,
@@ -447,15 +465,6 @@
       "representative_id": "opp_49094e54aa9a3ec43bc2",
       "reviewed_count": 0,
       "theme": "competitive_positioning:marketplace_specific_catalog"
-    },
-    {
-      "all_opportunity_ids": [
-        "opp_631d598a14ec7d41696a"
-      ],
-      "count": 1,
-      "representative_id": "opp_631d598a14ec7d41696a",
-      "reviewed_count": 0,
-      "theme": "competitive_positioning:single_station_machine"
     },
     {
       "all_opportunity_ids": [
@@ -1088,6 +1097,6 @@
       "theme": "robotics_agritech:water_efficiency_field"
     }
   ],
-  "total_original_cards": 222,
+  "total_original_cards": 223,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }

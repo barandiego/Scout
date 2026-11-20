@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-11-19T22:55:04.625235+00:00
+Generated: 2026-11-20T05:43:49.863153+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 222 (0 HQ survivors, 222 watches)
-- Rejected opportunities excluded: 121
+- Active research: 223 (0 HQ survivors, 223 watches)
+- Rejected opportunities excluded: 122
 - Critic-and-judge reviewed: 96
 - Autonomous execution authorization: 0
 
@@ -1663,6 +1663,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html
 
+### Chile-specific online data analyst and map/search evaluator [opp_ea89dae5cf6eaae0f319]
+- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
+- Thesis: A bilingual Chile resident with detailed local geographic and business knowledge can apply for location/search-quality evaluation work. The opportunity has a concrete payer and rate estimate, but no guaranteed hours, employment relationship, or guaranteed assignment after qualification.
+- Value capture: Perform assigned map, business-information, search-relevance, audio, or related evaluation tasks as an independent contractor. Cash flow comes from TELUS Digital project task payments, conditional on passing qualification and receiving available work.
+- Participation hypothesis: Apply on TELUS Digital's official Chile jobs page; prepare evidence of five years' Chile residence, bilingual capability, and local geographic knowledge; complete the qualification assessment and identity checks; track task count, payment, rejection rate, and effective hourly return. Lowest-cost falsification: apply and complete only the initial profile and qualification steps, then ask support for current task availability, payout schedule, tax documentation requirements, and whether the stated USD 7.80/hour estimate applies to the assigned Ch
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://jobs.telusdigital.com/jobs/18154786-online-data-analyst-chile; https://jobs.telusdigital.com/search/jobs/in/country/chile
+
 ### Chile-specific voice-data recording project [opp_4ad89bd755e3b8334653]
 - Status: WATCH_REQUIRES_VALIDATION | general | Chile; fully remote
 - Thesis: This is a narrowly defined, low-commitment data-collection task rather than recurring employment. The CrowdGen unit rate implies only about $12 gross for 400 accepted recordings before time and any payment costs; the WizWiz hourly claim requires verification because the two listings do not provide the same compensation basis.
@@ -2103,16 +2113,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sre.cl/; https://rutapi.cl/documentacion
 
-### Single-station machine-vision retrofit for legacy production lines [opp_631d598a14ec7d41696a]
-- Status: WATCH_REQUIRES_VALIDATION | competitive_positioning | United States
-- Thesis: A narrowly defined pass/fail inspection retrofit can address a buyer segment that cannot justify a new robotic cell but can test one quality-control bottleneck. The economic mechanism is avoided scrap, rework or manual inspection, but savings must be measured at the individual line.
-- Value capture: Sell a fixed-scope diagnostic and pilot for one inspection point using commercially available vision hardware and an existing PLC or operator workflow. The payer would plausibly be a small manufacturer or automation integrator, but no cited source verifies a particular buyer, conversion rate or margin.
-- Participation hypothesis: Select one local manufacturer with a visible manual inspection step. Record baseline defect-detection rate, inspection labor and scrap for 1-2 production shifts; then assemble or quote a single-camera prototype using off-the-shelf components. Request permission for a no-production-risk shadow-mode trial and charge only after an agreed pass/fail metric is demonstrated. Falsify if the defect class cannot be separated reliably from normal variation, the customer will not share baseline measurements, or the measured avoided cost cannot support the
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://sagnikbhattacharya.com/blog/ai-visual-inspection-cost; https://automationsolinc.com/resources/blog/small-scale-retrofits-a-smart-bridge-to-automation-reliability/
-
 ### Small commercial battery dispatch and savings-validation pilot using lower-cost LFP storage [opp_2238894712733ab551db]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States
 - Thesis: Lower-cost, cycle-tolerant LFP systems make a narrowly scoped measurement-and-dispatch pilot more testable at commercial sites, but the evidence does not establish a specific local tariff, arbitrage spread, or customer payback.
@@ -2152,6 +2152,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://app.outlier.ai/opportunities/4481627005; https://app.outlier.ai/login?job_post_id=4476998005
+
+### Spanish (Chile) freelance AI-response evaluation and writing [opp_c8f5589a51402a2c1ca8]
+- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
+- Thesis: A qualified Chilean Spanish writer, translator, editor, journalist, or humanities student can test access to paid AI-evaluation work without purchasing inventory or paying an application fee. This is an application opportunity, not guaranteed income: availability, qualification, project assignment, location, quality, and payment terms remain conditional.
+- Value capture: Complete the qualification process and perform assigned evaluation or writing tasks as an independent contractor. The economic mechanism is task compensation from Outlier, with stated weekly payment and payment-method conditions subject to the project terms.
+- Participation hypothesis: Apply through the official Outlier opportunity page using a Chile-based profile; verify identity and payment-method eligibility; complete the language and skills assessment; record time spent on onboarding and the first live tasks; stop if the effective realized rate after unpaid onboarding, rejected work, or unavailable tasks is materially below the advertised approximate rate. Lowest-cost falsification: submit the application and qualification materials without paying any fee, then confirm in writing the project-specific rate, minimum payout
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://app.outlier.ai/opportunities/4481627005; https://app.outlier.ai/login?ad_id=628025286&campaign_id=368362216&domain=spanish&id=4500426005&job_post_id=4500426005&language=ES&li_fat_id=8e2ddbb7-96b9-440b-b6cd-0dcb29660d9c&lo
 
 ### Supply and support an agricultural spraying drone for INIA/Atacama public procurement [opp_28d6d6ee064292c6d3a4]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile, Atacama
