@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 223
+Candidates: 225
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -711,6 +711,18 @@ Candidates: 223
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.opentrain.ai/jobs/bilingual-ai-safety-data-evaluator-english-spanish-c1--cmni8aczu001004l4jlwcn0fe/; https://cl.linkedin.com/jobs/view/quality-evaluator-%E2%80%93-english-at-anyone-ai-4478597242
+
+## Chile DTE validation and regression-test asset for software vendors
+- Status: watch | general
+- Current idea: A narrowly scoped Spanish-language conformance pack could reduce repeated integration and regression work for ERP, POS, accounting, and vertical-software developers implementing or maintaining Chilean electronic invoicing. The reproducible deliverable is a versioned test corpus plus validator, expected responses, schema checks, and CI examples—not a bespoke implementation service.
+- Potential economic capture: Sell downloadable or hosted access to versioned DTE fixtures, validators, CI plugins, and release-change alerts; alternatively use the asset as a paid pre-sale diagnostic for a software vendor before expanding it. No buyer, price, or conversion rate is established by the evidence.
+- **Research routes to test (NOT validated claims):**
+  - Name a specific payer, customer job and credible reason existing alternatives fail.
+  - Choose a low-cost differentiation wedge (availability, price, experience, distribution or technology).
+  - Test channel, willingness to pay, ownership and contribution margin before building.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.sii.cl/servicios_online/3532-formato_xml-3811.html; https://www.sii.cl/factura_electronica/factura_mercado/instructivo.htm; https://github.com/SEIS-SOLUTIONS/dte-engine
 
 ## Chile-eligible Spanish AI evaluation and coding-review applications
 - Status: watch | general
@@ -2043,6 +2055,18 @@ Candidates: 223
 - Critical gaps: Which specific Chilean fintechs or smaller financial entities have a near-term compliance budget for external integration testing.; Whether ATENA is sufficiently usable that buyers need outside help, or whether it materially eliminates demand for the proposed service.; The final operational requirements, participant responsibilities, incident liability, cost allocation, and any subsequent CMF amendments.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://cmfchile.cl/portal/principal/613/articles-72652_doc_pdf.pdf
+
+## Pre-entry SFA/ATENA interoperability test harness for Chilean fintechs
+- Status: watch | open_finance_chile
+- Current idea: Before live participation, a small operator can package a deterministic local test harness: API contract tests, security/header checks, consent-state fixtures, error mapping, test-data generators, and evidence logs aligned to the published SFA specifications. This is a fixed-scope engineering asset for organizations preparing sandbox tests, not a claim that the operator can authorize or certify participation.
+- Potential economic capture: Possible revenue mechanisms are paid access to a maintained test suite, private compatibility reviews, or integration support for entities preparing ATENA tests. The sources verify the technical catalyst and test environment, but do not establish a market price, procurement commitment, or specific paying customer.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Number of entities that must participate or are actively preparing for ATENA testing.; Whether ATENA access, official test suites, mock services, or CMF guidance already cover the highest-value negative and security cases.; Whether customers will pay for a standalone harness rather than implementation services from incumbent vendors.
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html; https://www.cmfchile.cl/portal/principal/623/w4-article-113806.html
 
 ## Pre-implementation testing asset for Chile Open Finance integrations
 - Status: watch | open_finance_chile

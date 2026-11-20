@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-11-20T05:43:49.863153+00:00
+Generated: 2026-11-20T16:42:52.734386+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 223 (0 HQ survivors, 223 watches)
+- Active research: 225 (0 HQ survivors, 225 watches)
 - Rejected opportunities excluded: 122
-- Critic-and-judge reviewed: 96
+- Critic-and-judge reviewed: 97
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -212,6 +212,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Number of active or prospective SFA participants that lack internal monitoring capabilities.; Whether the production directory, sandbox and APIs will remain publicly accessible without restrictive authentication, rate limits or terms that prevent commercial r; Whether directory changes will be frequent or consequential enough to justify paid alerts rather than periodic manual review.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA; https://api.cmfchile.cl/
+
+### Pre-entry SFA/ATENA interoperability test harness for Chilean fintechs [opp_33f9b9c1789fa5606675]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Before live participation, a small operator can package a deterministic local test harness: API contract tests, security/header checks, consent-state fixtures, error mapping, test-data generators, and evidence logs aligned to the published SFA specifications. This is a fixed-scope engineering asset for organizations preparing sandbox tests, not a claim that the operator can authorize or certify participation.
+- Value capture: Possible revenue mechanisms are paid access to a maintained test suite, private compatibility reviews, or integration support for entities preparing ATENA tests. The sources verify the technical catalyst and test environment, but do not establish a market price, procurement commitment, or specific paying customer.
+- Participation hypothesis: Use only the CMF developer portal, technical annex, and ATENA access guide as the initial specification. Implement a small subset of contract tests and a mock participant service, then run it against publicly available examples or an authorized sandbox account. Distribution can begin through a public Git repository, Chilean fintech developer communities, and direct outreach to identifiable regulated or fintech participants; no permission to access their systems is assumed. Falsify by building 10–20 high-value tests and asking three potential pa
+- Critic/judge: The primary CMF sources in the supplied provenance support a real SFA/ATENA technical-testing catalyst and planned implementation timeline; this is not an unverified regulatory-change thesis. A non-authoritative developer tool for contract validation, local mocks, regression testing, and customer-owned evidence generation is plausibly outside the regulated open-finance participant/authorization perimeter, provided it does not access cus
+- Next evidence gaps: Number of entities that must participate or are actively preparing for ATENA testing.; Whether ATENA access, official test suites, mock services, or CMF guidance already cover the highest-value negative and security cases.; Whether customers will pay for a standalone harness rather than implementation services from incumbent vendors.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html; https://www.cmfchile.cl/portal/principal/623/w4-article-113806.html
 
 ### SEC-verified solar-plus-storage prequalification for Chilean small businesses [opp_9ce303aff6dc0368c324]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile, initially regions with high solar generation and constrained distribution capacity
@@ -1042,6 +1052,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sii.cl/destacados/iva_bienes/plataformas_inscritas/; https://www.trade.gov/country-commercial-guides/chile-ecommerce; https://www.fne.gob.cl/en/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las
+
+### Chile DTE validation and regression-test asset for software vendors [opp_152bf3f0746f48f2016f]
+- Status: WATCH_REQUIRES_VALIDATION | general | Chile
+- Thesis: A narrowly scoped Spanish-language conformance pack could reduce repeated integration and regression work for ERP, POS, accounting, and vertical-software developers implementing or maintaining Chilean electronic invoicing. The reproducible deliverable is a versioned test corpus plus validator, expected responses, schema checks, and CI examples—not a bespoke implementation service.
+- Value capture: Sell downloadable or hosted access to versioned DTE fixtures, validators, CI plugins, and release-change alerts; alternatively use the asset as a paid pre-sale diagnostic for a software vendor before expanding it. No buyer, price, or conversion rate is established by the evidence.
+- Participation hypothesis: Start with the public SII schemas and certification material, and open-source DTE engines as implementation references. Build a minimal validator covering a small set of document types and known failure cases, then publish a free sample repository and contact Chilean ERP/POS integrators or software vendors through public issue trackers, developer communities, and direct outreach. Falsify cheaply by asking five identifiable vendors to run their existing DTE samples through the validator; proceed only if at least one requests a paid private corpu
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sii.cl/servicios_online/3532-formato_xml-3811.html; https://www.sii.cl/factura_electronica/factura_mercado/instructivo.htm; https://github.com/SEIS-SOLUTIONS/dte-engine
 
 ### Chile importer-and-price-monitoring brief for one narrowly defined product category [opp_77127870004cd19ea7fd]
 - Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
