@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-20T07:34:47.169625+00:00
+Generated: 2026-11-20T17:04:48.368452+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 209
+- New this cycle: 203
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 645, ai 88, commerce 1, energy 620, robotics 446
+- Categories: agriculture 650, ai 84, commerce 1, energy 624, robotics 441
 
 ## Recently encountered signals
+
+### likilikhit7136-cloud/AgroMind
+- Source: https://github.com/likilikhit7136-cloud/AgroMind
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### suryamalladi22-alt/AI-Agriculture-Intelligence-Agentt
 - Source: https://github.com/suryamalladi22-alt/AI-Agriculture-Intelligence-Agentt
@@ -452,12 +458,6 @@ Generated: 2026-11-20T07:34:47.169625+00:00
 
 ### mdrashedulsumon/krishi-doctor
 - Source: https://github.com/mdrashedulsumon/krishi-doctor
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### rohitbhagadkar79-crypto/Agro-Solutin
-- Source: https://github.com/rohitbhagadkar79-crypto/Agro-Solutin
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
