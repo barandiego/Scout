@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 225
+Candidates: 227
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -363,6 +363,18 @@ Candidates: 225
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.bcn.cl/leychile/navegar?i=1212631; https://www.cne.cl/tarificacion/electrica/
+
+## Battery and critical-material processing qualification service tied to domestic funding
+- Status: watch | energy_infrastructure
+- Current idea: Organizations pursuing processing, recycling or battery-manufacturing funding need technical documentation, feedstock characterization, process-flow evidence, supplier records and commercialization milestones. The narrow opportunity is preparation of a verification-ready technical and sourcing package, not broad grant consulting.
+- Potential economic capture: Sell a fixed-price evidence package: feedstock and assay register, process-flow documentation, supplier-quote file, mass-balance spreadsheet, recycling-chain traceability file and a gap assessment against a specific funding notice. The economic mechanism is payment for reducing application and diligence rework; funding approval or downstream project revenue must not be assumed.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.energy.gov/articles/energy-department-announces-500-million-strengthen-domestic-critical-materials-processing; https://www.energy.gov/cmei/articles/does-office-critical-minerals-and-energy-innovation-unveils-new-strategy-and
 
 ## Battery-materials grant application and partner-screening support around DOE processing and recycling awards
 - Status: watch | energy_infrastructure
@@ -2139,6 +2151,18 @@ Candidates: 225
 - Critical gaps: Whether fund administrators, transfer agents, or tokenization platforms currently pay separately for external workflow-test tooling.; The identity of the economic buyer and whether the budget sits with compliance, operations, engineering, vendor management, or implementation teams.; Required test coverage across chains, smart-contract standards, transfer-agent systems, investor-accounting systems, and exception-management procedures.
 - Possible initial budget:
 - Source URLs: https://www.sec.gov/Archives/edgar/data/843781/000003014626000437/cik0000843781_102708.htm; https://www.sec.gov/Archives/edgar/data/831114/000139834426000957/fp0097248-1_40app.htm
+
+## Copper-scrap traceability and recovery-data wedge for midstream processors
+- Status: watch | physical_distribution
+- Current idea: The actionable wedge is not speculative copper exposure or a new mine. It is a traceable intake-and-assay data package for scrap aggregators or small processors that need to document grade, origin, contamination and recovery potential before placing material with a downstream processor.
+- Potential economic capture: Charge per lot for sampling coordination, chain-of-custody records, assay-data normalization and a processor-ready shipment dossier. Any resale spread or improved payable terms must be measured rather than presumed.
+- **Research routes to test (NOT validated claims):**
+  - Compare local product availability to supplier catalogs and independent consumer interest.
+  - Check import, tax, return, certification and delivery economics before estimating margin.
+  - Try a legitimate pre-order/waitlist test with transparent fulfillment conditions.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary; https://www.iea.org/reports/copper-2
 
 ## Copper-supply-risk procurement watchlist for manufacturers exposed to concentrated refining
 - Status: watch | physical_distribution

@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-11-21T01:05:39.575902+00:00",
+  "generated_at": "2026-11-21T12:07:28.515961+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -21,7 +21,7 @@
     },
     {
       "opportunity_id": "opp_7ea6a495427da87c8c5c",
-      "other_cards_in_theme": 25,
+      "other_cards_in_theme": 26,
       "reviewed": true,
       "status": "watch",
       "theme": "energy_infrastructure",
@@ -104,14 +104,14 @@
   "high_concentration": [
     {
       "cards": 90,
-      "share": 0.4,
+      "share": 0.396,
       "theme": "chile_open_finance"
     }
   ],
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 96,
+  "theme_count": 97,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -238,9 +238,10 @@
         "opp_68a2c7e81a05d8f3fb8f",
         "opp_2238894712733ab551db",
         "opp_2c199bc3e65ca5181196",
-        "opp_5e6b2a2d2d3d586c5432"
+        "opp_5e6b2a2d2d3d586c5432",
+        "opp_72cb7e3a8238e9525cdb"
       ],
-      "count": 26,
+      "count": 27,
       "representative_id": "opp_7ea6a495427da87c8c5c",
       "reviewed_count": 10,
       "theme": "energy_infrastructure"
@@ -829,6 +830,15 @@
     },
     {
       "all_opportunity_ids": [
+        "opp_cd5e31fc6a8389ae6cbc"
+      ],
+      "count": 1,
+      "representative_id": "opp_cd5e31fc6a8389ae6cbc",
+      "reviewed_count": 0,
+      "theme": "physical_distribution:copper_scrap_traceability"
+    },
+    {
+      "all_opportunity_ids": [
         "opp_b3bab653bc94d6a65255"
       ],
       "count": 1,
@@ -1107,6 +1117,6 @@
       "theme": "robotics_agritech:water_efficiency_field"
     }
   ],
-  "total_original_cards": 225,
+  "total_original_cards": 227,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }

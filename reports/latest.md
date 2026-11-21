@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-21T01:05:39.203071+00:00
+Generated: 2026-11-21T12:07:28.086493+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['public_markets', 'physical_commerce', 'regulation_infrastructure']
-- raw_candidates: 1
-- parseable_candidates: 1
-- normalized_candidates: 1
+- lenses: ['robotics_automation', 'energy_industrial', 'mining_materials']
+- raw_candidates: 3
+- parseable_candidates: 3
+- normalized_candidates: 3
 - normalization_rejected: 0
-- grounded_sources: 1
+- grounded_sources: 6
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
 - critic_reviews: 1
 - judge_reviews: 1
 - survivors: 0
-- watches: 1
+- watches: 2
 - rejected: 1
 - errors_by_stage: {}
-- rejection_reasons: {'discarded_ungrounded_url': 1, 'insufficient_unique_evidence': 1}
-- cost_usd: 0.04145815
+- rejection_reasons: {}
+- cost_usd: 0.0466841
 - cost_uncertain: False
-- budget_remaining_usd: 0.03854185
+- budget_remaining_usd: 0.0333159
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,8 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- NFC review-and-menu tags for Chilean small businesses: deferred_by_review_cap
-- Small-scale NFT lettuce unit using Chilean INIA economics as a pre-sale test: deferred_by_review_cap
 - Online Data Analyst — Chile: deferred_by_review_cap
 - BESS compliance pre-screening and commissioning-document package for Chilean installers: deferred_by_review_cap
 - Chile importer-and-price-monitoring brief for one narrowly defined product category: deferred_by_review_cap
@@ -51,13 +49,15 @@ No survivors. Scout does not manufacture a daily winner.
 - Spanish (Chile) freelance AI-response evaluation and writing: deferred_by_review_cap
 - Chile DTE validation and regression-test asset for software vendors: deferred_by_review_cap
 - Pre-entry SFA/ATENA interoperability test harness for Chilean fintechs: The primary CMF sources in the supplied provenance support a real SFA/ATENA technical-testing catalyst and planned implementation timeline; this is not an unverified regulatory-change thesis. A non-authoritative developer tool for contract validation, local mocks, regression testing, and customer-owned evidence generation is plausibly outside the regulated open-finance participant/authorization perimeter, provided it does not access customer data, represent CMF certification, or operate payment/data-sharing flows. However, survival is conditional: official ATENA guidance and sandbox capabilities appear to overlap substantially with the proposed harness, while API-management vendors and integrators can bundle comparable work. There is no evidence yet of an authorized access path for a third-party tool beyond public materials, nor of a buyer, budget owner, procurement route, pricing, or paid pain sufficiently distinct from the public sandbox. The narrow wedge worth testing is a private, CI-ready regression/evidence layer for a specific regulated participant or implementation firm—not a general SFA testing platform or certification substitute.
+- Copper-scrap traceability and recovery-data wedge for midstream processors: deferred_by_review_cap
+- Battery and critical-material processing qualification service tied to domestic funding: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=backlog",
-    "research_queue_unreviewed=115"
+    "deep_review_lane=fresh",
+    "research_queue_unreviewed=117"
   ],
   "stages": [
     {
@@ -65,42 +65,31 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 25,
+      "grounded_source_count": 16,
       "search_source_urls": [
-        "https://apnews.com/article/267c7040d4e5c4b1b7149ea69a68654b",
-        "https://apnews.com/article/3bd62dd2d73ed711fa754ead1997634a",
-        "https://apnews.com/article/e78ccd51a7f66099d84fda885d2907a3",
-        "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Exporter+Guide+Annual_Santiago_Chile_CI2026-0006.pdf",
-        "https://cnc.cl/iva-a-compras-internacionales-reduce-fuertemente-el-monto-estimado-de-compras-digitales-informales-en-chile/",
-        "https://cnc.cl/wp-content/uploads/2026/05/Informalidad-en-el-Comercio-Electronico-I-trim-2026.pdf",
-        "https://elpais.com/chile/2025-06-24/el-consumo-de-plasticos-crece-en-un-7-en-chile-impulsado-por-la-mineria-y-la-agricultura.html",
-        "https://elpais.com/chile/2026-07-24/el-gobierno-de-kast-busca-salvar-al-salmon-las-cerezas-y-el-vino-de-los-aranceles-impuestos-por-ee-uu.html",
-        "https://elpais.com/chile/2026-10-16/chile-retira-el-vino-de-la-mesa.html",
-        "https://infobydata.com/en/marketing/compras-en-temu-shein-y-aliexpress-cuanto-compran-los-chilenos-en-plataformas-extranjeras-y-que-impuestos-pagan",
-        "https://stablobccsprod.blob.core.windows.net/ccs/2026/03/CCS-Ventas-comercio-electronico-2025-.pdf",
-        "https://www.ccs.cl/area-publicacion/comercio-electronico-y-economia-digital/",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.fne.gob.cl/en/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-plataformas/",
-        "https://www.recalar.cl/",
-        "https://www.recalar.cl/quien-importa/",
-        "https://www.sec.gov/Archives/edgar/data/712515/000114036126031157/ef20079099_8k.htm",
-        "https://www.sec.gov/Archives/edgar/data/866374/000119312526382492/d108491d8k.htm",
-        "https://www.sec.gov/Archives/edgar/data/883902/000110465926125927/tm2629440d3_8k.htm",
-        "https://www.sec.gov/Archives/edgar/data/895419/000119312526416987/d122407d8k.htm",
-        "https://www.subrei.gob.cl/docs/default-source/estudios-y-documentos/fichas/informe-comercial_enero_diciembre_2025.pdf?trk=article-ssr-frontend-pulse_little-text-block",
-        "https://www.subrei.gob.cl/docs/default-source/estudios-y-documentos/informe-de-comercio-exterior-2025-abril-2026.pdf",
-        "https://www.subrei.gob.cl/docs/default-source/estudios-y-documentos/minuta-mensual/informe-mensual---enero---abril-2026.pdf",
-        "https://www.trade.gov/country-commercial-guides/chile-ecommerce",
-        "https://www.youtube.com/watch?v=GG57Zr55gvU"
+        "https://ifr.org/downloads/press_docs/2025-09-25-IFR_press_release_Americas_in_English.pdf",
+        "https://ifr.org/downloads/press_docs/PressConference2025_presentation.pdf",
+        "https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years/",
+        "https://ifr.org/ifr-press-releases/news/record-3.5-million-industrial-robots-operating-worldwide",
+        "https://ifr.org/img/worldrobotics/Executive_Summary_WR_2025_Industrial_Robots.pdf",
+        "https://ifr.org/news/five-million-robots-now-operate-in-factories-globally/1st",
+        "https://ifr.org/news/global-robot-demand-in-factories-doubles-over-10-years/1st/",
+        "https://ifr.org/news/presidents-report-by-jane-heffner-3-2026/1st-",
+        "https://www.energy.gov/articles/energy-department-announces-500-million-strengthen-domestic-critical-materials-processing",
+        "https://www.energy.gov/cmei/articles/does-office-critical-minerals-and-energy-innovation-unveils-new-strategy-and",
+        "https://www.iea.org/files/ef5e9b70-3374-4caa-ba9d-19c72253bfc4/GlobalCriticalMineralsOutlook2025.pdf",
+        "https://www.iea.org/reports/copper-2",
+        "https://www.iea.org/reports/critical-mineral-traceability-for-energy-and-economic-security/executive-summary",
+        "https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary",
+        "https://www.iea.org/reports/global-critical-minerals-outlook-2025/overview-of-outlook-for-key-minerals",
+        "https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary"
       ]
     },
     {
       "index": 0,
       "stage": "normalization",
       "outcome": "accepted",
-      "reasons": [
-        "discarded_ungrounded_url"
-      ],
+      "reasons": [],
       "changes": [
         "contrary_evidence:list_sanitized",
         "major_risks:list_sanitized",
@@ -108,52 +97,86 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 1,
+      "grounded_sources": 2,
+      "retry_justified": false
+    },
+    {
+      "index": 1,
+      "stage": "normalization",
+      "outcome": "accepted",
+      "reasons": [],
+      "changes": [
+        "contrary_evidence:list_sanitized",
+        "major_risks:list_sanitized",
+        "unknowns:list_sanitized",
+        "falsification_conditions:list_sanitized",
+        "material_update:unknown_false"
+      ],
+      "grounded_sources": 2,
+      "retry_justified": false
+    },
+    {
+      "index": 2,
+      "stage": "normalization",
+      "outcome": "accepted",
+      "reasons": [],
+      "changes": [
+        "contrary_evidence:list_sanitized",
+        "major_risks:list_sanitized",
+        "unknowns:list_sanitized",
+        "falsification_conditions:list_sanitized",
+        "material_update:unknown_false"
+      ],
+      "grounded_sources": 2,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_f56b1fbbad100489cfa5",
+      "candidate_id": "opp_b189fc21a148fb4918e2",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 23,
+      "grounded_source_count": 28,
       "search_source_urls": [
-        "https://cincodias.elpais.com/cincodias/2018/02/23/mercados/1519413637_374303.html",
-        "https://cmfchile.cl/portal/principal/623/w4-article-100816.html",
-        "https://elpais.com/america/termometro-social/2024-10-07/digitalizacion-financiera-en-america-latina-enfrenta-nueva-era-de-transformacion-y-oportunidades.html",
-        "https://elpais.com/chile/2025-08-14/un-plan-para-robustecer-la-seguridad-bancaria-en-chile-revela-un-viejo-problema-la-brecha-digital.html",
-        "https://www.cmfchile.cl/normativa/ncg_569_2026.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/articles-113925_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
-        "https://www.cmfchile.cl/portal/principal/613/articles-80196_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/articles-92466_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-108561.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-76009.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-80854.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-92466.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48738.html",
-        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640",
-        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000098/managementcommentary2q20.htm",
-        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000098/managementcommentary2q2026.pdf",
-        "https://www.youtube.com/watch?v=Jbnc8-OnhSg",
-        "https://www.youtube.com/watch?v=LZ4jF1VLsng"
+        "https://apnews.com/article/794c137570e53ad8598dc6ca526fac10",
+        "https://en.wikipedia.org/wiki/Aseptic_processing",
+        "https://en.wikipedia.org/wiki/Sanitation_Standard_Operating_Procedures",
+        "https://ifr.org/downloads/press_docs/2025-09-25-IFR_press_release_Americas_in_English.pdf",
+        "https://ifr.org/downloads/press_docs/2025-09-25-IFR_press_release_Americas_in_English.pdf",
+        "https://ifr.org/downloads/press_docs/DE-2026-06-18_IFR_Pressemeldung_zu_US_Markt_-_vorl%C3%A4ufige_Zahlen.pdf",
+        "https://ifr.org/ifr-press-releases/us-robot-industry-returns-to-double-digit-growth",
+        "https://ifr.org/ifr-press-releases/us-robot-industry-returns-to-double-digit-growth",
+        "https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf?trk=public_post_comment-text",
+        "https://ifr.org/news/presidents-report-by-jane-heffner-3-2026/1st-",
+        "https://www.fda.gov/files/food/published/Commodity-Specific-Food-Safety-Guidelines-for-the-Production--Harvest--Post-Harvest--and-Processing-Unit-Operations-of-Fresh-Culinary-Herbs-%282013%29.pdf",
+        "https://www.fda.gov/food/current-good-manufacturing-practices-cgmps-food-and-dietary-supplements/good-manufacturing-practices-21st-century-food-processing-2004-study-section-4-common-food-safety",
+        "https://www.fda.gov/food/food-safety-modernization-act-fsma/frequently-asked-questions-fsma",
+        "https://www.fda.gov/food/hazard-analysis-critical-control-point-haccp/haccp-principles-application-guidelines?_sm_au_=iVVWSDMqPHRVpRFj",
+        "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-guides/aseptic-processing-and-packaging-food-industry",
+        "https://www.govinfo.gov/content/pkg/CFR-2025-title21-vol2/pdf/CFR-2025-title21-vol2-part117-subpartB.pdf",
+        "https://www.govinfo.gov/content/pkg/CFR-2025-title21-vol2/pdf/CFR-2025-title21-vol2-sec110-35.pdf",
+        "https://www.govinfo.gov/content/pkg/CFR-2025-title21-vol2/xhtml/CFR-2025-title21-vol2-part117.html",
+        "https://www.govinfo.gov/content/pkg/CFR-2025-title21-vol2/xhtml/CFR-2025-title21-vol2-part117.html",
+        "https://www.govinfo.gov/content/pkg/CFR-2025-title21-vol8/xhtml/CFR-2025-title21-vol8-part1271-subpartD.html",
+        "https://www.indexbox.io/store/northern-america-food-packaging-robotics-market-analysis-forecast-size-trends-and-insights/",
+        "https://www.indexbox.io/store/united-states-food-packaging-robotics-market-analysis-forecast-size-trends-and-insights/",
+        "https://www.indexbox.io/store/united-states-food-packaging-robotics-market-analysis-forecast-size-trends-and-insights/",
+        "https://www.indexbox.io/store/united-states-packaging-robots-market-analysis-forecast-size-trends-and-insights/",
+        "https://www.thomasnet.com/articles/top-suppliers/robotic-systems-integrators-suppliers-manufacturers/",
+        "https://www.thomasnet.com/articles/top-suppliers/robotic-systems-integrators-suppliers-manufacturers/",
+        "https://www.youtube.com/watch?v=BqBcWXCLTUA",
+        "https://www.youtube.com/watch?v=so6MK2XAVHY"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_f56b1fbbad100489cfa5",
+      "candidate_id": "opp_b189fc21a148fb4918e2",
       "coercions": [
-        "critic_case",
-        "contrary_evidence"
+        "critic_case"
       ]
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_f56b1fbbad100489cfa5",
+      "candidate_id": "opp_b189fc21a148fb4918e2",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -161,7 +184,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_f56b1fbbad100489cfa5",
+      "candidate_id": "opp_b189fc21a148fb4918e2",
       "coercions": []
     }
   ],
@@ -169,44 +192,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 357,
-      "cache_write_tokens": 5014,
+      "reasoning_tokens": 297,
+      "cache_write_tokens": 5530,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0141105,
+      "cumulative_cost_usd": 0.0152373,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13485,
+      "input_tokens": 13644,
       "cached_tokens": 0,
-      "output_tokens": 969,
+      "output_tokens": 1860,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0141105
+      "estimated_cost_usd": 0.0152373
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 97,
-      "cache_write_tokens": 5241,
+      "reasoning_tokens": 135,
+      "cache_write_tokens": 5310,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02869815,
+      "cumulative_cost_usd": 0.0299526,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13612,
+      "input_tokens": 13741,
       "cached_tokens": 0,
-      "output_tokens": 1336,
+      "output_tokens": 1418,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01458765
+      "estimated_cost_usd": 0.0147153
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 0,
-      "cache_write_tokens": 2668,
+      "reasoning_tokens": 78,
+      "cache_write_tokens": 3407,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.04145815,
+      "cumulative_cost_usd": 0.0466841,
       "model": "gpt-5.6-terra",
-      "input_tokens": 2671,
+      "input_tokens": 3410,
       "cached_tokens": 0,
-      "output_tokens": 507,
+      "output_tokens": 684,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.01276
+      "estimated_cost_usd": 0.0167315
     }
   ]
 }

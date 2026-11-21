@@ -1101,6 +1101,42 @@
       "category": "energy_infrastructure",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use the DOE funding announcement and its linked notice, webinar materials and application requirements to create a checklist of required technical evidence. Download public awardee and applicant materials where available, then produce one anonymized sample package using publicly documented battery-recycling or materials-processing inputs. Falsification step: ask five U.S. processing, recycling or battery firms—through public contact or vendor-registration channels—whether they would pay for a fixed-scope evidence-gap review before submitting a proposal; record only explicit responses and quoted budgets, without representing DOE affiliation or claiming eligibility.",
+      "current_thesis": "Organizations pursuing processing, recycling or battery-manufacturing funding need technical documentation, feedstock characterization, process-flow evidence, supplier records and commercialization milestones. The narrow opportunity is preparation of a verification-ready technical and sourcing package, not broad grant consulting.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Battery and critical-material processing qualification service tied to domestic funding",
+      "opportunity_id": "opp_72cb7e3a8238e9525cdb",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
+        "Compare owned asset, installer/distributor and project-finance participation.",
+        "Verify permits and installed net payback under conservative power price scenarios."
+      ],
+      "supporting_source_urls": [
+        "https://www.energy.gov/articles/energy-department-announces-500-million-strengthen-domestic-critical-materials-processing",
+        "https://www.energy.gov/cmei/articles/does-office-critical-minerals-and-energy-innovation-unveils-new-strategy-and"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a fixed-price evidence package: feedstock and assay register, process-flow documentation, supplier-quote file, mass-balance spreadsheet, recycling-chain traceability file and a gap assessment against a specific funding notice. The economic mechanism is payment for reducing application and diligence rework; funding approval or downstream project revenue must not be assumed.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "energy_infrastructure",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Select one announced project category, compile a 10-item evidence table of potential feedstock suppliers, equipment vendors, or regional service providers using public records, and send it unsolicited to the project entity or its publicly identified partners. Falsify after 10 targeted contacts if no recipient confirms a current procurement, diligence, or partnership need. Do not claim DOE affiliation, grant eligibility, or access to confidential procurement processes.",
       "current_thesis": "The verifiable cash-flow source is federal project funding, but eligibility and project scale make direct participation unsuitable for most independents. A narrower wedge is evidence-backed partner, feedstock, equipment, or permitting research for applicants and selected project developers.",
       "founder_hours_initial_unverified_estimate": "",
@@ -6788,6 +6824,42 @@
       "category": "physical_distribution",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Map publicly listed scrap yards, recyclers, assay laboratories and copper processors in one region. Obtain posted assay rates and sampling requirements, then create a standardized intake form and test it on a small, lawfully acquired mixed-copper sample. Lowest-cost falsification: pay for one independent assay and request written acceptance specifications or indicative terms from three processors; abandon the wedge if assay variance is too high, testing costs exceed plausible lot economics, or no processor provides a usable specification without a pre-existing commercial relationship.",
+      "current_thesis": "The actionable wedge is not speculative copper exposure or a new mine. It is a traceable intake-and-assay data package for scrap aggregators or small processors that need to document grade, origin, contamination and recovery potential before placing material with a downstream processor.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Copper-scrap traceability and recovery-data wedge for midstream processors",
+      "opportunity_id": "opp_cd5e31fc6a8389ae6cbc",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Compare local product availability to supplier catalogs and independent consumer interest.",
+        "Check import, tax, return, certification and delivery economics before estimating margin.",
+        "Try a legitimate pre-order/waitlist test with transparent fulfillment conditions."
+      ],
+      "supporting_source_urls": [
+        "https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary",
+        "https://www.iea.org/reports/copper-2"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Charge per lot for sampling coordination, chain-of-custody records, assay-data normalization and a processor-ready shipment dossier. Any resale spread or improved payable terms must be measured rather than presumed.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "physical_distribution",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Choose one U.S. manufacturing cluster and obtain a list of 30 wire-and-cable or electrical-equipment companies from public directories. Build a weekly one-page watchlist using official trade, customs, company, and regulator notices. Offer five procurement or supply-chain managers a free two-week pilot and ask whether they will pay for continued delivery or introduce the operator to their procurement team. Falsification test: stop if fewer than two prospects review the pilot or none can identify a current copper-sourcing decision the watchlist would affect.",
       "current_thesis": "Manufacturers that cannot quickly identify alternate copper cathode, rod, scrap, or semi-finished-material sources may face procurement delays or expensive emergency sourcing when a supplier, route, or jurisdiction is disrupted.",
       "founder_hours_initial_unverified_estimate": "",
@@ -8561,7 +8633,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-21T01:05:39.682540+00:00",
+  "generated_at": "2026-11-21T12:07:28.686702+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

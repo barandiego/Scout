@@ -11294,6 +11294,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-21T12:07:01.380438+00:00",
+      "discovery_lens": "energy_industrial",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "DOE announced $500 million intended to expand domestic critical-material processing, battery supply chains and recycling-related manufacturing.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Energy Department Announces $500 Million to Strengthen Domestic Critical Materials Processing and Manufacturing",
+          "url": "https://www.energy.gov/articles/energy-department-announces-500-million-strengthen-domestic-critical-materials-processing"
+        },
+        {
+          "claim": "DOE’s October 2026 strategy prioritizes a domestic battery supply chain by 2030, U.S. battery leadership by 2035 and commercialization of storage technologies.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "DOE’s Office of Critical Minerals and Energy Innovation Unveils New Strategy and Initiative to Strengthen American Battery Leadership",
+          "url": "https://www.energy.gov/cmei/articles/does-office-critical-minerals-and-energy-innovation-unveils-new-strategy-and"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.81,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_72cb7e3a8238e9525cdb",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-21T12:07:01.497618+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use the DOE funding announcement and its linked notice, webinar materials and application requirements to create a checklist of required technical evidence. Download public awardee and applicant materials where available, then produce one anonymized sample package using publicly documented battery-recycling or materials-processing inputs. Falsification step: ask five U.S. processing, recycling or battery firms—through public contact or vendor-registration channels—whether they would pay for a fixed-scope evidence-gap review before submitting a proposal; record only explicit responses and quoted budgets, without representing DOE affiliation or claiming eligibility.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Organizations pursuing processing, recycling or battery-manufacturing funding need technical documentation, feedstock characterization, process-flow evidence, supplier records and commercialization milestones. The narrow opportunity is preparation of a verification-ready technical and sourcing package, not broad grant consulting.",
+      "title": "Battery and critical-material processing qualification service tied to domestic funding",
+      "type": "qualification_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell a fixed-price evidence package: feedstock and assay register, process-flow documentation, supplier-quote file, mass-balance spreadsheet, recycling-chain traceability file and a gap assessment against a specific funding notice. The economic mechanism is payment for reducing application and diligence rework; funding approval or downstream project revenue must not be assumed.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-31T19:44:16.207544+00:00",
       "discovery_lens": "mining_materials",
       "estimated_capital": "",
@@ -12906,6 +12960,60 @@
       "value_capture_mechanism": "A narrowly scoped diagnostic-and-installation offer: baseline compressed-air consumption, identify leaks and pressure waste, install or coordinate low-cost monitoring/control hardware, and quantify post-intervention consumption. Payment could come from the plant, an existing utility incentive, or a DOE/utility-backed implementation program; the appropriate payer and compensation structure must be confirmed locally.",
       "verified_sales": null,
       "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-11-21T12:07:01.381115+00:00",
+      "discovery_lens": "mining_materials",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "IEA reports copper and lithium supply deficits persisting through 2035, refining concentration above 70% for many minerals, and copper smelter fees reaching zero in 2026; it also describes smelters as strategic processing hubs supporting recycling and by-product recovery.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Executive summary – Global Critical Minerals Outlook 2026",
+          "url": "https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary"
+        },
+        {
+          "claim": "IEA documents copper demand, primary-supply requirements and concentration of mining and refining, providing the public-market and supply-chain basis for testing secondary-supply and recovery services.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Copper – Outlook for key energy transition minerals",
+          "url": "https://www.iea.org/reports/copper-2"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.84,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_cd5e31fc6a8389ae6cbc",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-21T12:07:01.497403+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Map publicly listed scrap yards, recyclers, assay laboratories and copper processors in one region. Obtain posted assay rates and sampling requirements, then create a standardized intake form and test it on a small, lawfully acquired mixed-copper sample. Lowest-cost falsification: pay for one independent assay and request written acceptance specifications or indicative terms from three processors; abandon the wedge if assay variance is too high, testing costs exceed plausible lot economics, or no processor provides a usable specification without a pre-existing commercial relationship.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The actionable wedge is not speculative copper exposure or a new mine. It is a traceable intake-and-assay data package for scrap aggregators or small processors that need to document grade, origin, contamination and recovery potential before placing material with a downstream processor.",
+      "title": "Copper-scrap traceability and recovery-data wedge for midstream processors",
+      "type": "data_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Charge per lot for sampling coordination, chain-of-custody records, assay-data normalization and a processor-ready shipment dossier. Any resale spread or improved payable terms must be measured rather than presumed.",
+      "verified_sales": null,
+      "vertical": "physical_distribution",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -15775,13 +15883,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-21T01:05:39.575902+00:00",
+  "generated_at": "2026-11-21T12:07:28.515961+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 123,
+  "rejected_excluded": 124,
   "reviewed_cards": 98,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 348,
-  "watch": 225
+  "total_distinct_opportunities": 351,
+  "watch": 227
 }

@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-11-21T01:05:39.575902+00:00
+Generated: 2026-11-21T12:07:28.515961+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 225 (0 HQ survivors, 225 watches)
-- Rejected opportunities excluded: 123
+- Active research: 227 (0 HQ survivors, 227 watches)
+- Rejected opportunities excluded: 124
 - Critic-and-judge reviewed: 98
 - Autonomous execution authorization: 0
 
@@ -1433,6 +1433,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://docs.cloud.google.com/docs/compute-area/gpus; https://cloud.google.com/products/compute/gpus-pricing?hl=en
 
+### Battery and critical-material processing qualification service tied to domestic funding [opp_72cb7e3a8238e9525cdb]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States
+- Thesis: Organizations pursuing processing, recycling or battery-manufacturing funding need technical documentation, feedstock characterization, process-flow evidence, supplier records and commercialization milestones. The narrow opportunity is preparation of a verification-ready technical and sourcing package, not broad grant consulting.
+- Value capture: Sell a fixed-price evidence package: feedstock and assay register, process-flow documentation, supplier-quote file, mass-balance spreadsheet, recycling-chain traceability file and a gap assessment against a specific funding notice. The economic mechanism is payment for reducing application and diligence rework; funding approval or downstream project revenue must not be assumed.
+- Participation hypothesis: Use the DOE funding announcement and its linked notice, webinar materials and application requirements to create a checklist of required technical evidence. Download public awardee and applicant materials where available, then produce one anonymized sample package using publicly documented battery-recycling or materials-processing inputs. Falsification step: ask five U.S. processing, recycling or battery firms—through public contact or vendor-registration channels—whether they would pay for a fixed-scope evidence-gap review before submitting a
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.energy.gov/articles/energy-department-announces-500-million-strengthen-domestic-critical-materials-processing; https://www.energy.gov/cmei/articles/does-office-critical-minerals-and-energy-innovation-unveils-new-strategy-and
+
 ### Battery-materials grant application and partner-screening support around DOE processing and recycling awards [opp_99cbde4d890de7c2b82f]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States
 - Thesis: The verifiable cash-flow source is federal project funding, but eligibility and project scale make direct participation unsuitable for most independents. A narrower wedge is evidence-backed partner, feedstock, equipment, or permitting research for applicants and selected project developers.
@@ -1732,6 +1742,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.energy.gov/mesc/industrial-research-and-assessment-center-implementation-grant-awards; https://betterbuildingssolutioncenter.energy.gov/showcase-projects/detroit-diesel-corporation-using-strategic-energy-management-sem-improve-energy/printpdf
+
+### Copper-scrap traceability and recovery-data wedge for midstream processors [opp_cd5e31fc6a8389ae6cbc]
+- Status: WATCH_REQUIRES_VALIDATION | physical_distribution | United States
+- Thesis: The actionable wedge is not speculative copper exposure or a new mine. It is a traceable intake-and-assay data package for scrap aggregators or small processors that need to document grade, origin, contamination and recovery potential before placing material with a downstream processor.
+- Value capture: Charge per lot for sampling coordination, chain-of-custody records, assay-data normalization and a processor-ready shipment dossier. Any resale spread or improved payable terms must be measured rather than presumed.
+- Participation hypothesis: Map publicly listed scrap yards, recyclers, assay laboratories and copper processors in one region. Obtain posted assay rates and sampling requirements, then create a standardized intake form and test it on a small, lawfully acquired mixed-copper sample. Lowest-cost falsification: pay for one independent assay and request written acceptance specifications or indicative terms from three processors; abandon the wedge if assay variance is too high, testing costs exceed plausible lot economics, or no processor provides a usable specification withou
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary; https://www.iea.org/reports/copper-2
 
 ### Copper-supply-risk procurement watchlist for manufacturers exposed to concentrated refining [opp_b3bab653bc94d6a65255]
 - Status: WATCH_REQUIRES_VALIDATION | physical_distribution | United States and Chile
