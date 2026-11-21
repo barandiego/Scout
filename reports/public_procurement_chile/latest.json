@@ -1,47 +1,67 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 2300000.0,
-      "buyer": "I MUNICIPALIDAD DE PUERTO MONTT",
-      "closes_at": "2026-11-22T09:50:00",
-      "code": "2332-1152-COT26",
-      "estimated_budget": 2300000.0,
-      "name": "N° 8483  ARRIENDO DE SALÓN, COFFEE BREAK Y ALMUERZO PARA JORNADA DE FORTALECIMIENTO DE LA GESTIÓN DE PROGRAMAS PRAPS 2026-2027",
+      "available_budget_clp": 700000.0,
+      "buyer": "CORP MUNICIPAL DE DESARROLLO SOCIAL DE IQUIQUE",
+      "closes_at": "2026-11-24T09:00:00",
+      "code": "1417913-303-COT26",
+      "estimated_budget": 700000.0,
+      "name": "ADQUISICIÓN DE ALIMENTOS Y COLACIONES PROGRAMA MÁS SALUD EN COMUNIDAD 2026",
       "products": 3,
-      "region": "Región de los Lagos"
+      "region": "Región de Tarapacá"
     },
     {
-      "available_budget_clp": 558000.0,
-      "buyer": "SERVICIO DE SALUD OSORNO",
-      "closes_at": "2026-11-25T12:28:00",
-      "code": "1180747-27-COT26",
-      "estimated_budget": 558000.0,
-      "name": "ADQUISICIÓN DE ESCABEL, BIOMBO Y PISO CLÍNICO PARA PSR COSTA RÍO BLANCO",
-      "products": 3,
-      "region": "Región de los Lagos"
-    },
-    {
-      "available_budget_clp": 713920.0,
-      "buyer": "CONSULTORIO GENERAL URBANO SAN FELIPE",
-      "closes_at": "2026-11-22T09:51:00",
-      "code": "1111432-491-COT26",
-      "estimated_budget": 713920.0,
-      "name": "ADQUISICION DE PAN DE PASCUA Y CAFE PARA CESFAM SAN FELIPE EL REAL",
-      "products": 2,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 694400.0,
-      "buyer": "ILUSTRE MUNICIPALIDAD DE SAN CARLOS",
-      "closes_at": "2026-11-23T10:00:00",
-      "code": "2724-1072-COT26",
-      "estimated_budget": 694400.0,
-      "name": "RECONOCIMENTO PARA EL PROGRAMA RESIDENCIA FAMILIAR ESTUDIANTIL",
+      "available_budget_clp": 7000000.0,
+      "buyer": "I. Municipalidad de General Lagos",
+      "closes_at": "2026-11-22T18:42:00",
+      "code": "835727-284-COT26",
+      "estimated_budget": 7000000.0,
+      "name": "ADQUISICIÓN DE 420 BOLSAS DE CONFITES, EN EL MARCO DE LA EJECUCIÓN DEL PROGRAMA NAVIDAD COMUNAL AÑO 2026.-",
       "products": 1,
-      "region": "Región del Ñuble"
+      "region": "Región de Arica y Parinacota"
+    },
+    {
+      "available_budget_clp": 1071000.0,
+      "buyer": "UNIVERSIDAD DE TALCA",
+      "closes_at": "2026-11-24T09:00:00",
+      "code": "1208066-548-COT26",
+      "estimated_budget": 1071000.0,
+      "name": "PROVISIÓN DE CUBIERTAS PARA MEJORAMIENTO DE MESONES DEL LABORATORIO DE FÍSICA, FACULTAD DE INGENIERÍA, CAMPUS LIRCAY, UNIVERSIDAD DE TALCA”",
+      "products": 1,
+      "region": "Región del Maule"
+    },
+    {
+      "available_budget_clp": 777000.0,
+      "buyer": "I MUNICIPALIDAD DE TEMUCO",
+      "closes_at": "2026-11-25T15:00:00",
+      "code": "1658-1862-COT26",
+      "estimated_budget": 777000.0,
+      "name": "S57-2026/ DEPARTAMENTO PATRIMONIO/ IMPRESIÓN Y CAMBIO DE GRAFICA TELA PVC ESTACIONAMIENTO MUSEO FERROVIARIO",
+      "products": 1,
+      "region": "Región de la Araucanía"
+    },
+    {
+      "available_budget_clp": 800000.0,
+      "buyer": "SERVICIO DE SALUD ORIENTE HOSPITAL LUIS CALVO MACKENNA",
+      "closes_at": "2026-11-22T18:30:00",
+      "code": "1057491-2092-COT26",
+      "estimated_budget": 800000.0,
+      "name": "ADQUISICIÓN DE MANGAS PLÁSTICAS INCOLORAS EN DIFERENTES MEDIDAS",
+      "products": 2,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 400000.0,
+      "buyer": "I MUNICIPALIDAD DE AYSEN",
+      "closes_at": "2026-11-22T18:18:00",
+      "code": "2713-1452-COT26",
+      "estimated_budget": 400000.0,
+      "name": "Servicio de producción y desarrollo de la actividad “One Song \" Folio 1517",
+      "products": 3,
+      "region": "Región Aysén del General Carlos Ibáñez del Campo"
     }
   ],
-  "active_structurally_reconstructable_count": 4,
+  "active_structurally_reconstructable_count": 6,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -59,7 +79,7 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-21T12:48:11Z",
+  "generated_at": "2026-11-21T21:42:56Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -69,14 +89,14 @@
     "rejection_reasons": {
       "no_observable_competitive_prices": 3
     },
-    "resolved": 16,
+    "resolved": 14,
     "structurally_reconstructable": 17,
-    "with_observable_quote_totals": 13,
+    "with_observable_quote_totals": 11,
     "with_purchase_order_indicator": 2
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-21T12:48:11Z"
+    "changed_to": "2026-11-21T21:42:56Z"
   }
 }
