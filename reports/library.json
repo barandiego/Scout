@@ -1605,6 +1605,105 @@
       "ai_leverage": "",
       "authorized_for_execution": false,
       "contrary_evidence": [
+        "There is real product availability and observed market pricing in Chile: NFCtech advertises configured Google-review plates at $9,945 CLP per unit, with optional reporting at $5,000 CLP per month; this supports feasibility but also demonstrates direct competition and low price ceilings. Source: https://nfctech.cl/preguntas-frecuentes.html",
+        "Tarjetas NFC Chile advertises a configured Google-review card at $11,990 CLP with no monthly fee and nationwide courier delivery. Source: https://tarjetas-nfc.com/producto/tarjeta-google",
+        "Pyme Visible advertises a configured NFC-and-QR Google card at $10,000 CLP, with volume prices as low as $7,500 CLP. Source: https://pymevisible.cl/productos/tarjeta-google",
+        "LinkTap advertises comparable review cards at $19,990 CLP individually and discounts for multiple units, indicating that merchants do purchase or at least encounter this category. Source: https://linktap.cl/resenas-google/",
+        "Google itself recommends that businesses ask customers to scan a QR code or use a review link, so the underlying customer-acquisition behavior is legitimate and does not require NFC hardware. Source: https://support.google.com/business/answer/3474122?gl=US&hl=en",
+        "Reviews can influence local purchase decisions, so a properly compliant tool that reduces friction could have some value. However, the supplied evidence does not show that NFC materially outperforms a printed QR code. Source: https://support.google.com/business/answer/3474122?gl=US&hl=en"
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-21T20:21:55.478693+00:00",
+      "discovery_lens": "nfc_smart_commerce",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "A Chilean Mercado Libre listing shows NTAG215 NFC tags available for purchase, with a listed pack price of $6,490 CLP and nationwide shipping.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Nfc Tag 215 10uni 13,56 Mhz A 25mm Adhesivo Tarjeta Set",
+          "url": "https://www.mercadolibre.cl/nfc-tag-215-10uni-1356-mhz-a-25mm-adhesivo-tarjeta-set/p/MLC2098562674"
+        },
+        {
+          "claim": "The Chilean marketplace search shows multiple NFC products, including review-link cards listed at $12,990 CLP and other NFC tags and cards.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Tarjetas Nfc | MercadoLibre",
+          "url": "https://listado.mercadolibre.cl/tarjetas-nfc"
+        },
+        {
+          "claim": "A Chilean provider advertises NFC digital cards, QR fallback, nationwide dispatch, and configuration linked to a Google Business Profile.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "LINKD — Tarjetas digitales NFC · Tarjetas de presentación inteligentes · Chile",
+          "url": "https://linkd.cl/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.72,
+      "falsification_conditions": [
+        "Across at least three comparable merchants, fewer than 5% of exposed customer interactions produce an attributable scan or click during a 14-day test, after controlling for placement and operating hours.",
+        "NFC produces no meaningful improvement over a printed QR control, such as less than a 20% relative lift in attributable actions.",
+        "No merchant agrees to pay at least enough to cover hardware, delivery, support, and customer-acquisition costs after observing the test results.",
+        "Merchants will continue only if the product is free, heavily subsidized, or manually serviced, indicating no viable willingness to pay.",
+        "The reporting layer cannot connect actions to bookings, visits, orders, repeat purchases, or another merchant-valued outcome.",
+        "A competitor can reproduce the same configured offer at a lower total price with equal or better delivery and support.",
+        "The review workflow requires selective solicitation, incentives, review gating, or other behavior that creates material Google-policy or reputational exposure.",
+        "Replacement, onboarding, and support requirements consume more labor than the one-time sale and recurring fee can economically support.",
+        "After interviewing at least 20 target merchants, fewer than 3 independently identify the problem as urgent and budgetable."
+      ],
+      "geography": "Chile",
+      "id": "opp_1003190617673d0a5401",
+      "judge_reviewed": true,
+      "judgment": "The premise is verifiable: comparable NFC/QR review products are visibly sold in Chile, Google supports review links/QR-based requests, and a merchant can be reached through a low-cost pilot. There is also a plausible payer—owner-operators seeking more reviews or customer actions—but value capture is not yet demonstrated. The proposed physical kit is a highly commoditized offer with transparent competitor pricing, while the core action can be achieved with a free Google link and printed QR. A reporting subscription is especially weak unless it attributes a merchant-valued outcome such as bookings, orders, repeat visits, or conversion lift. This is not structurally closed, but it is not HQ-worthy as a standalone NFC-card business without evidence that a tightly chosen segment will pay for an outcome-led workflow that incumbents and free alternatives do not provide.",
+      "last_record_updated_at": "2026-11-21T21:27:48.217350+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Whether Chilean merchants will pay for a configured card, reporting, or replacement service rather than use a free Google review link and printed QR code.",
+        "Incremental scan rate and review-completion rate attributable specifically to NFC versus QR, signage, staff requests, receipts, WhatsApp follow-up, or existing marketing.",
+        "Whether merchants want reviews at all, or instead value menus, reservations, WhatsApp, loyalty, reorder, payments, or product information more.",
+        "Merchant acquisition cost, sales-cycle length, churn, support burden, and geographic concentration.",
+        "Whether the proposed reporting layer can generate decisions or revenue rather than merely report scans and clicks."
+      ],
+      "participation_path": "Buy a small batch of blank tags at the observed retail price, configure one landing page with UTM tracking and QR fallback, and place it with one consenting local merchant at no charge for a 14-day test. Measure scans, completed reviews or visits, and merchant-requested continuation. Ask the merchant to name a price only after observing results. Falsification step: test three merchants in the same neighborhood; abandon the wedge if there are no attributable actions or if merchants decline any paid continuation. Do not claim Google, Instagram, payment, or marketplace integration without permission.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The hardware is commoditized, so a defensible wedge is not selling generic NFC cards. A testable offer is a configured, merchant-specific card or countertop token that routes customers to one measurable action—review, menu, reservation, reorder, or product discovery—with printed fallback and a simple monthly reporting layer. Existing listings establish purchase availability and observed retail prices, but not merchant willingness to pay.",
+      "title": "NFC-enabled review and discovery cards for Chilean local merchants",
+      "type": "physical_product",
+      "unknowns": [
+        "Whether Chilean merchants will pay for a configured card, reporting, or replacement service rather than use a free Google review link and printed QR code.",
+        "Incremental scan rate and review-completion rate attributable specifically to NFC versus QR, signage, staff requests, receipts, WhatsApp follow-up, or existing marketing.",
+        "Whether merchants want reviews at all, or instead value menus, reservations, WhatsApp, loyalty, reorder, payments, or product information more.",
+        "Merchant acquisition cost, sales-cycle length, churn, support burden, and geographic concentration.",
+        "Whether the proposed reporting layer can generate decisions or revenue rather than merely report scans and clicks.",
+        "Durability, tamper resistance, placement compliance, and replacement frequency in real merchant environments.",
+        "NFC adoption and compatibility rates among the target customers' phones; QR fallback may become the primary mechanism and reduce NFC differentiation.",
+        "Whether review-focused implementations remain compliant when merchants selectively prompt satisfied customers or connect the flow to incentives.",
+        "Gross margin after card production, printing, configuration, delivery, payment fees, support, replacements, and sales time.",
+        "Evidence of paid continuation from the proposed three-merchant test is absent.",
+        "Which single merchant segment has an urgent, budgeted job beyond collecting Google reviews.",
+        "Whether NFC creates a material incremental action/completion lift relative to well-placed QR signage and staff prompting.",
+        "Whether the better destination action is review, reservation, menu, WhatsApp, loyalty, reorder, or another measurable conversion event.",
+        "What price merchants will pre-commit to after a pilot and whether that price supports positive contribution margin including sales labor.",
+        "Whether scan/click data can credibly link to bookings, orders, repeat purchase, or ranking/reputation outcomes.",
+        "Merchant acquisition channel, sales-cycle duration, churn, and support burden at scale.",
+        "Actual phone compatibility/use behavior and whether QR becomes the dominant interaction method."
+      ],
+      "value_capture_mechanism": "Revenue could come from a one-time configured physical kit plus optional reporting or replacement sales. The payer would plausibly be an individual restaurant, salon, accommodation, or independent retailer, but no paying customer or acceptable price is verified.",
+      "verified_sales": null,
+      "vertical": "general",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [
         "There is evidence of existing demand for the underlying hardware and setup: Chilean suppliers advertise NFC cards, adhesive products, review stands, QR fallback, nationwide shipping, and business-volume pricing.",
         "PuntoTap explicitly offers personalized NFC+QR points for Google reviews, installation, feedback, and a one-time payment with no subscriptions, closely matching the proposed wedge. Source: https://www.puntotap.cl/",
         "Pyme Visible sells an NFC+QR stand configured for direct access to a Google review form, indicating direct category competition. Source: https://pymevisible.cl/stand-nfc-qr",
@@ -9452,6 +9551,67 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-21T21:27:21.928619+00:00",
+      "discovery_lens": "business_model_migration",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF states that Annex 3 contains technical interoperability specifications, a developer portal is available, and entities can begin required developments; implementation was postponed to July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF modifies regulation on Open Finance System and incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        },
+        {
+          "claim": "CMF provides a practical route for participating entities to enter ATENA, configure components, and execute tests.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Guide to access the ATENA technological sandbox",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-113806.html"
+        },
+        {
+          "claim": "ATENA supports integration testing, interoperability testing with the participant directory, and early preparation for SFA participation before July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF launches ATENA Technological Sandbox",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.91,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_ad9d43c2037ad072d5c7",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-21T21:27:21.978127+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Build a minimal open-source or locally runnable test pack covering 5-10 publicly documented Annex 3/ATENA flows. Use the CMF sandbox access guide and developer materials to test whether the pack can produce useful pass/fail evidence. Contact identifiable prospective participant firms through public business channels only after the artifact works; ask for a paid pilot or written commitment, without assuming approval, buyer identity, or procurement authority. Lowest-cost falsification: interview or demo the pack to 5 Chilean fintechs, banks, payment firms, or registered financial-service providers and require at least one to provide a real anonymized integration trace or pay for a narrowly defined validation sprint. Stop if sandbox access, documentation, or willingness to share test cases is unavailable.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Financial institutions and fintech participants must validate API interoperability, credentials, security flows, and required data/payment-initiation behavior before production participation. A narrowly scoped reusable test asset could reduce repeated integration and evidence-production work without acting as a regulated financial intermediary.",
+      "title": "Chile SFA/ATENA interoperability test harness",
+      "type": "compliance_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell or license an automated conformance-test package that converts the CMF technical annex into executable API tests, synthetic test data, failure diagnostics, and an exportable evidence report for internal readiness reviews. Revenue would be validated only if prospective participants agree to pay for a pilot or paid implementation artifact; no price is established by the evidence.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-28T10:29:10.101850+00:00",
       "discovery_lens": "geographic_arbitrage",
       "estimated_capital": "",
@@ -10542,67 +10702,6 @@
       "value_capture_mechanism": "Sell a configured NFC/QR plaque or card for a fixed one-time price, optionally adding a separately priced monthly analytics or link-management service only after a customer requests it. The defensible asset would be reusable templates, deployment workflow and accumulated opt-in conversion data, not the NFC chip itself.",
       "verified_sales": null,
       "vertical": "chile_localization",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
-      "discovered_at": "2026-10-21T20:21:55.478693+00:00",
-      "discovery_lens": "nfc_smart_commerce",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "A Chilean Mercado Libre listing shows NTAG215 NFC tags available for purchase, with a listed pack price of $6,490 CLP and nationwide shipping.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "Nfc Tag 215 10uni 13,56 Mhz A 25mm Adhesivo Tarjeta Set",
-          "url": "https://www.mercadolibre.cl/nfc-tag-215-10uni-1356-mhz-a-25mm-adhesivo-tarjeta-set/p/MLC2098562674"
-        },
-        {
-          "claim": "The Chilean marketplace search shows multiple NFC products, including review-link cards listed at $12,990 CLP and other NFC tags and cards.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "Tarjetas Nfc | MercadoLibre",
-          "url": "https://listado.mercadolibre.cl/tarjetas-nfc"
-        },
-        {
-          "claim": "A Chilean provider advertises NFC digital cards, QR fallback, nationwide dispatch, and configuration linked to a Google Business Profile.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "LINKD — Tarjetas digitales NFC · Tarjetas de presentación inteligentes · Chile",
-          "url": "https://linkd.cl/"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.72,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_1003190617673d0a5401",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-21T20:21:55.541288+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Buy a small batch of blank tags at the observed retail price, configure one landing page with UTM tracking and QR fallback, and place it with one consenting local merchant at no charge for a 14-day test. Measure scans, completed reviews or visits, and merchant-requested continuation. Ask the merchant to name a price only after observing results. Falsification step: test three merchants in the same neighborhood; abandon the wedge if there are no attributable actions or if merchants decline any paid continuation. Do not claim Google, Instagram, payment, or marketplace integration without permission.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "The hardware is commoditized, so a defensible wedge is not selling generic NFC cards. A testable offer is a configured, merchant-specific card or countertop token that routes customers to one measurable action—review, menu, reservation, reorder, or product discovery—with printed fallback and a simple monthly reporting layer. Existing listings establish purchase availability and observed retail prices, but not merchant willingness to pay.",
-      "title": "NFC-enabled review and discovery cards for Chilean local merchants",
-      "type": "physical_product",
-      "unknowns": [],
-      "value_capture_mechanism": "Revenue could come from a one-time configured physical kit plus optional reporting or replacement sales. The payer would plausibly be an individual restaurant, salon, accommodation, or independent retailer, but no paying customer or acceptable price is verified.",
-      "verified_sales": null,
-      "vertical": "general",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -15883,13 +15982,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-21T12:07:28.515961+00:00",
+  "generated_at": "2026-11-21T21:27:48.677014+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 124,
-  "reviewed_cards": 98,
+  "reviewed_cards": 99,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 351,
-  "watch": 227
+  "total_distinct_opportunities": 352,
+  "watch": 228
 }

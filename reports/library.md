@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-11-21T12:07:28.515961+00:00
+Generated: 2026-11-21T21:27:48.677014+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 227 (0 HQ survivors, 227 watches)
+- Active research: 228 (0 HQ survivors, 228 watches)
 - Rejected opportunities excluded: 124
-- Critic-and-judge reviewed: 98
+- Critic-and-judge reviewed: 99
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -182,6 +182,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Actual landed cost per plaque, including NFC tag, printing, finishing, packaging, delivery, installation, redesigns, and payment fees.; Gross margin at the proposed CLP 12,000–20,000 price range and the minimum order quantity required for acceptable economics.; Whether NFC produces materially more completed actions than a prominent QR code alone among Chilean restaurant customers.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://credencialeschile.cl/categoria-producto/nfc/; https://tarjetas-nfc.com/precios; https://linktap.cl/tarjeta-nfc/
+
+### NFC-enabled review and discovery cards for Chilean local merchants [opp_1003190617673d0a5401]
+- Status: WATCH_REQUIRES_VALIDATION | general | Chile
+- Thesis: The hardware is commoditized, so a defensible wedge is not selling generic NFC cards. A testable offer is a configured, merchant-specific card or countertop token that routes customers to one measurable action—review, menu, reservation, reorder, or product discovery—with printed fallback and a simple monthly reporting layer. Existing listings establish purchase availability and observed retail prices, but not merchant willingness to pay.
+- Value capture: Revenue could come from a one-time configured physical kit plus optional reporting or replacement sales. The payer would plausibly be an individual restaurant, salon, accommodation, or independent retailer, but no paying customer or acceptable price is verified.
+- Participation hypothesis: Buy a small batch of blank tags at the observed retail price, configure one landing page with UTM tracking and QR fallback, and place it with one consenting local merchant at no charge for a 14-day test. Measure scans, completed reviews or visits, and merchant-requested continuation. Ask the merchant to name a price only after observing results. Falsification step: test three merchants in the same neighborhood; abandon the wedge if there are no attributable actions or if merchants decline any paid continuation. Do not claim Google, Instagram, p
+- Critic/judge: The premise is verifiable: comparable NFC/QR review products are visibly sold in Chile, Google supports review links/QR-based requests, and a merchant can be reached through a low-cost pilot. There is also a plausible payer—owner-operators seeking more reviews or customer actions—but value capture is not yet demonstrated. The proposed physical kit is a highly commoditized offer with transparent competitor pricing, while the core action
+- Next evidence gaps: Whether Chilean merchants will pay for a configured card, reporting, or replacement service rather than use a free Google review link and printed QR code.; Incremental scan rate and review-completion rate attributable specifically to NFC versus QR, signage, staff requests, receipts, WhatsApp follow-up, or existing marke; Whether merchants want reviews at all, or instead value menus, reservations, WhatsApp, loyalty, reorder, payments, or product information more.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.mercadolibre.cl/nfc-tag-215-10uni-1356-mhz-a-25mm-adhesivo-tarjeta-set/p/MLC2098562674; https://listado.mercadolibre.cl/tarjetas-nfc; https://linkd.cl/
 
 ### NFC/QR review-and-discovery plates for Chilean physical venues [opp_d54cb21f051b71d41869]
 - Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile
@@ -1123,6 +1133,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html; https://www.cmfchile.cl/educa/621/w3-article-85051.html
 
+### Chile SFA/ATENA interoperability test harness [opp_ad9d43c2037ad072d5c7]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Financial institutions and fintech participants must validate API interoperability, credentials, security flows, and required data/payment-initiation behavior before production participation. A narrowly scoped reusable test asset could reduce repeated integration and evidence-production work without acting as a regulated financial intermediary.
+- Value capture: Sell or license an automated conformance-test package that converts the CMF technical annex into executable API tests, synthetic test data, failure diagnostics, and an exportable evidence report for internal readiness reviews. Revenue would be validated only if prospective participants agree to pay for a pilot or paid implementation artifact; no price is established by the evidence.
+- Participation hypothesis: Build a minimal open-source or locally runnable test pack covering 5-10 publicly documented Annex 3/ATENA flows. Use the CMF sandbox access guide and developer materials to test whether the pack can produce useful pass/fail evidence. Contact identifiable prospective participant firms through public business channels only after the artifact works; ask for a paid pilot or written commitment, without assuming approval, buyer identity, or procurement authority. Lowest-cost falsification: interview or demo the pack to 5 Chilean fintechs, banks, paym
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-113806.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
 ### Chile SFA/ATENA interoperability test harness for small participating entities [opp_1e211b9f8b40a404bf8c]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: Entities that intend to participate have a defined technical target and a public test environment before production. A narrowly scoped, reusable test harness could reduce integration and conformance-testing work without requiring the operator to become a regulated financial participant.
@@ -1302,16 +1322,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://pymevisible.cl/productos/tarjeta-google; https://tarjetas-nfc.com/precios; https://www.ondda.cl/
-
-### NFC-enabled review and discovery cards for Chilean local merchants [opp_1003190617673d0a5401]
-- Status: WATCH_REQUIRES_VALIDATION | general | Chile
-- Thesis: The hardware is commoditized, so a defensible wedge is not selling generic NFC cards. A testable offer is a configured, merchant-specific card or countertop token that routes customers to one measurable action—review, menu, reservation, reorder, or product discovery—with printed fallback and a simple monthly reporting layer. Existing listings establish purchase availability and observed retail prices, but not merchant willingness to pay.
-- Value capture: Revenue could come from a one-time configured physical kit plus optional reporting or replacement sales. The payer would plausibly be an individual restaurant, salon, accommodation, or independent retailer, but no paying customer or acceptable price is verified.
-- Participation hypothesis: Buy a small batch of blank tags at the observed retail price, configure one landing page with UTM tracking and QR fallback, and place it with one consenting local merchant at no charge for a 14-day test. Measure scans, completed reviews or visits, and merchant-requested continuation. Ask the merchant to name a price only after observing results. Falsification step: test three merchants in the same neighborhood; abandon the wedge if there are no attributable actions or if merchants decline any paid continuation. Do not claim Google, Instagram, p
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.mercadolibre.cl/nfc-tag-215-10uni-1356-mhz-a-25mm-adhesivo-tarjeta-set/p/MLC2098562674; https://listado.mercadolibre.cl/tarjetas-nfc; https://linkd.cl/
 
 ### Pre-compliance implementation and sandbox testing for Chile Open Finance participants [opp_feeb29504969ee6e91ea]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile

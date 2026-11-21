@@ -1,15 +1,15 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-21T12:07:28.086493+00:00
+Generated: 2026-11-21T21:27:48.389133+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['robotics_automation', 'energy_industrial', 'mining_materials']
-- raw_candidates: 3
-- parseable_candidates: 3
-- normalized_candidates: 3
+- lenses: ['tokenization_finance', 'business_model_migration', 'cost_curve']
+- raw_candidates: 1
+- parseable_candidates: 1
+- normalized_candidates: 1
 - normalization_rejected: 0
-- grounded_sources: 6
+- grounded_sources: 3
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
@@ -17,12 +17,12 @@ Generated: 2026-11-21T12:07:28.086493+00:00
 - judge_reviews: 1
 - survivors: 0
 - watches: 2
-- rejected: 1
+- rejected: 0
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.0466841
+- cost_usd: 0.04534615
 - cost_uncertain: False
-- budget_remaining_usd: 0.0333159
+- budget_remaining_usd: 0.03465385
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Online Data Analyst — Chile: deferred_by_review_cap
 - BESS compliance pre-screening and commissioning-document package for Chilean installers: deferred_by_review_cap
 - Chile importer-and-price-monitoring brief for one narrowly defined product category: deferred_by_review_cap
 - Open-weight inference router for token-cost-sensitive workloads: deferred_by_review_cap
@@ -51,12 +50,13 @@ No survivors. Scout does not manufacture a daily winner.
 - Pre-entry SFA/ATENA interoperability test harness for Chilean fintechs: The primary CMF sources in the supplied provenance support a real SFA/ATENA technical-testing catalyst and planned implementation timeline; this is not an unverified regulatory-change thesis. A non-authoritative developer tool for contract validation, local mocks, regression testing, and customer-owned evidence generation is plausibly outside the regulated open-finance participant/authorization perimeter, provided it does not access customer data, represent CMF certification, or operate payment/data-sharing flows. However, survival is conditional: official ATENA guidance and sandbox capabilities appear to overlap substantially with the proposed harness, while API-management vendors and integrators can bundle comparable work. There is no evidence yet of an authorized access path for a third-party tool beyond public materials, nor of a buyer, budget owner, procurement route, pricing, or paid pain sufficiently distinct from the public sandbox. The narrow wedge worth testing is a private, CI-ready regression/evidence layer for a specific regulated participant or implementation firm—not a general SFA testing platform or certification substitute.
 - Copper-scrap traceability and recovery-data wedge for midstream processors: deferred_by_review_cap
 - Battery and critical-material processing qualification service tied to domestic funding: deferred_by_review_cap
+- Chile SFA/ATENA interoperability test harness: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=fresh",
+    "deep_review_lane=backlog",
     "research_queue_unreviewed=117"
   ],
   "stages": [
@@ -65,24 +65,26 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 16,
+      "grounded_source_count": 18,
       "search_source_urls": [
-        "https://ifr.org/downloads/press_docs/2025-09-25-IFR_press_release_Americas_in_English.pdf",
-        "https://ifr.org/downloads/press_docs/PressConference2025_presentation.pdf",
-        "https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years/",
-        "https://ifr.org/ifr-press-releases/news/record-3.5-million-industrial-robots-operating-worldwide",
-        "https://ifr.org/img/worldrobotics/Executive_Summary_WR_2025_Industrial_Robots.pdf",
-        "https://ifr.org/news/five-million-robots-now-operate-in-factories-globally/1st",
-        "https://ifr.org/news/global-robot-demand-in-factories-doubles-over-10-years/1st/",
-        "https://ifr.org/news/presidents-report-by-jane-heffner-3-2026/1st-",
-        "https://www.energy.gov/articles/energy-department-announces-500-million-strengthen-domestic-critical-materials-processing",
-        "https://www.energy.gov/cmei/articles/does-office-critical-minerals-and-energy-innovation-unveils-new-strategy-and",
-        "https://www.iea.org/files/ef5e9b70-3374-4caa-ba9d-19c72253bfc4/GlobalCriticalMineralsOutlook2025.pdf",
-        "https://www.iea.org/reports/copper-2",
-        "https://www.iea.org/reports/critical-mineral-traceability-for-energy-and-economic-security/executive-summary",
-        "https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary",
-        "https://www.iea.org/reports/global-critical-minerals-outlook-2025/overview-of-outlook-for-key-minerals",
-        "https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary"
+        "https://cmfchile.cl/portal/principal/613/articles-82743_recurso_2.pdf",
+        "https://cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://www.cmfchile.cl/educa/621/w3-article-85051.html",
+        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
+        "https://www.cmfchile.cl/portal/prensa/625/articles-113897_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/articles-89581_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-112955.html?trk=public_post_comment-text",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-92449.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113806.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-88580.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html",
+        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640",
+        "https://www.energy.gov/documents/state-colorados-request-rehearing-motion-intervene-and-stay-request-exhibits-e-gg",
+        "https://www.sec.gov/files/cft-written-wall-street-blockchain-august-2026.pdf"
       ]
     },
     {
@@ -97,86 +99,64 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 2,
-      "retry_justified": false
-    },
-    {
-      "index": 1,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 2,
-      "retry_justified": false
-    },
-    {
-      "index": 2,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 2,
+      "grounded_sources": 3,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_b189fc21a148fb4918e2",
+      "candidate_id": "opp_1003190617673d0a5401",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 28,
+      "grounded_source_count": 38,
       "search_source_urls": [
-        "https://apnews.com/article/794c137570e53ad8598dc6ca526fac10",
-        "https://en.wikipedia.org/wiki/Aseptic_processing",
-        "https://en.wikipedia.org/wiki/Sanitation_Standard_Operating_Procedures",
-        "https://ifr.org/downloads/press_docs/2025-09-25-IFR_press_release_Americas_in_English.pdf",
-        "https://ifr.org/downloads/press_docs/2025-09-25-IFR_press_release_Americas_in_English.pdf",
-        "https://ifr.org/downloads/press_docs/DE-2026-06-18_IFR_Pressemeldung_zu_US_Markt_-_vorl%C3%A4ufige_Zahlen.pdf",
-        "https://ifr.org/ifr-press-releases/us-robot-industry-returns-to-double-digit-growth",
-        "https://ifr.org/ifr-press-releases/us-robot-industry-returns-to-double-digit-growth",
-        "https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf?trk=public_post_comment-text",
-        "https://ifr.org/news/presidents-report-by-jane-heffner-3-2026/1st-",
-        "https://www.fda.gov/files/food/published/Commodity-Specific-Food-Safety-Guidelines-for-the-Production--Harvest--Post-Harvest--and-Processing-Unit-Operations-of-Fresh-Culinary-Herbs-%282013%29.pdf",
-        "https://www.fda.gov/food/current-good-manufacturing-practices-cgmps-food-and-dietary-supplements/good-manufacturing-practices-21st-century-food-processing-2004-study-section-4-common-food-safety",
-        "https://www.fda.gov/food/food-safety-modernization-act-fsma/frequently-asked-questions-fsma",
-        "https://www.fda.gov/food/hazard-analysis-critical-control-point-haccp/haccp-principles-application-guidelines?_sm_au_=iVVWSDMqPHRVpRFj",
-        "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-guides/aseptic-processing-and-packaging-food-industry",
-        "https://www.govinfo.gov/content/pkg/CFR-2025-title21-vol2/pdf/CFR-2025-title21-vol2-part117-subpartB.pdf",
-        "https://www.govinfo.gov/content/pkg/CFR-2025-title21-vol2/pdf/CFR-2025-title21-vol2-sec110-35.pdf",
-        "https://www.govinfo.gov/content/pkg/CFR-2025-title21-vol2/xhtml/CFR-2025-title21-vol2-part117.html",
-        "https://www.govinfo.gov/content/pkg/CFR-2025-title21-vol2/xhtml/CFR-2025-title21-vol2-part117.html",
-        "https://www.govinfo.gov/content/pkg/CFR-2025-title21-vol8/xhtml/CFR-2025-title21-vol8-part1271-subpartD.html",
-        "https://www.indexbox.io/store/northern-america-food-packaging-robotics-market-analysis-forecast-size-trends-and-insights/",
-        "https://www.indexbox.io/store/united-states-food-packaging-robotics-market-analysis-forecast-size-trends-and-insights/",
-        "https://www.indexbox.io/store/united-states-food-packaging-robotics-market-analysis-forecast-size-trends-and-insights/",
-        "https://www.indexbox.io/store/united-states-packaging-robots-market-analysis-forecast-size-trends-and-insights/",
-        "https://www.thomasnet.com/articles/top-suppliers/robotic-systems-integrators-suppliers-manufacturers/",
-        "https://www.thomasnet.com/articles/top-suppliers/robotic-systems-integrators-suppliers-manufacturers/",
-        "https://www.youtube.com/watch?v=BqBcWXCLTUA",
-        "https://www.youtube.com/watch?v=so6MK2XAVHY"
+        "https://apnews.com/article/40f5000346b1894a778434ba295a0496",
+        "https://cadenaser.com/nacional/hype/2025/03/21/le-dejan-una-resena-pesima-en-su-restaurante-y-el-propietario-va-un-paso-mas-alla-con-su-respuesta-cadena-ser/",
+        "https://chilepay.org/wp-content/uploads/2025/08/Informe-Ejecutivo-Estudio-Medios-de-Pagos-ChilePay_CNC-2025.pdf",
+        "https://cincodias.elpais.com/companias/idearium/2025-10-27/las-resenas-online-el-nuevo-poder-silencioso-del-consumo.html",
+        "https://elpais.com/tecnologia/2025-07-01/del-boca-a-boca-al-click-asi-influyen-las-plataformas-de-resenas-en-las-decisiones-de-los-usuarios.html",
+        "https://elpais.com/tecnologia/2025-12-30/asi-son-las-campanas-de-extorsion-contra-pequenas-empresas-espanolas-en-google-maps-pueden-hundirte-el-negocio.html",
+        "https://linktap.cl/resenas-google/",
+        "https://nfctech.cl/",
+        "https://nfctech.cl/preguntas-frecuentes.html",
+        "https://nfctech.cl/tarjetas-nfc-resenas-google",
+        "https://puntua.cl/",
+        "https://pymevisible.cl/productos/tarjeta-google",
+        "https://rbr.business.rutgers.edu/sites/default/files/documents/RBR-100103.pdf",
+        "https://recruiting.army.mil/Portals/15/Documents/Forms%20and%20Pubs/USAREC%20Training%20Circulars/UTP%203-10_4.pdf?ver=0gPvNYimQSpYBo6Rz7hq1Q%3D%3D",
+        "https://repositorio.usm.cl/bitstreams/748abbb3-6e4a-470c-965f-21e94206a12b/download",
+        "https://services.google.com/fh/files/helpcenter/official_gbp_best_practices_playbook_2026.pdf",
+        "https://support.google.com/business/answer/14114287?hl=en-en-4",
+        "https://support.google.com/business/answer/3474122?gl=US&hl=en",
+        "https://support.google.com/business/answer/7400114?hl=en",
+        "https://tarjetas-nfc.com/producto/tarjeta-google",
+        "https://vluetechservices.cl/catalogo/tarjetas-nfc-resenas/",
+        "https://www.huffingtonpost.es/virales/un-experto-gastronomia-habla-claro-sobre-resenas-google-no-son-fiables-f202607.html",
+        "https://www.mercadolibre.cl/tarjeta-nfc-resenas-google-configurada-para-tu-negocio/up/MLCU5748778235",
+        "https://www.reddit.com/r/GoogleMaps/comments/1rmznjo/reported_business_for_incentivized_reviews_google/",
+        "https://www.reddit.com/r/GoogleMyBusiness/comments/1qz49o5/new_reviews_being_deleted_instantly_or_within_a/",
+        "https://www.reddit.com/r/GoogleMyBusiness/comments/1rj5t3c/are_google_review_filter_pages_allowed/",
+        "https://www.reddit.com/r/GoogleMyBusiness/comments/1uxsh4t/approximately_800_genuine_google_reviews/",
+        "https://www.reddit.com/r/GoogleMyBusiness/comments/1vf1o6m/profile_restricted_for_fake_engagement/",
+        "https://www.reddit.com/r/GoogleMyBusiness/comments/1w9n8ri/removed/",
+        "https://www.reddit.com/r/GoogleMyBusiness/comments/1xce24a/lots_of_google_deleted_our_reviews_threads_lately/",
+        "https://www.reddit.com/r/SEO/comments/1fh3b3c",
+        "https://www.reddit.com/r/googlebusinessprofile/comments/1wcm91z/tips_for_collecting_reviews_for_a_car_dealership/",
+        "https://www.reddit.com/r/googlebusinessprofile/comments/1xf4p2c/google_business_profile_shadowban_missing_reviews/",
+        "https://www.reddit.com/r/googlebusinessprofile/comments/1xr4k5n/questions/",
+        "https://www.reddit.com/r/localseo/comments/1xbcoas/how_we_got_300_google_reviews_my_personal/",
+        "https://www.subtrab.gob.cl/wp-content/uploads/2024/10/R-ENECAP-2022.pdf",
+        "https://www.youtube.com/watch?v=CQgw88sZdWU",
+        "https://www.youtube.com/watch?v=bT1rxWbYw4M"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_b189fc21a148fb4918e2",
-      "coercions": [
-        "critic_case"
-      ]
+      "candidate_id": "opp_1003190617673d0a5401",
+      "coercions": []
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_b189fc21a148fb4918e2",
+      "candidate_id": "opp_1003190617673d0a5401",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -184,7 +164,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_b189fc21a148fb4918e2",
+      "candidate_id": "opp_1003190617673d0a5401",
       "coercions": []
     }
   ],
@@ -192,44 +172,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 297,
-      "cache_write_tokens": 5530,
+      "reasoning_tokens": 275,
+      "cache_write_tokens": 5527,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0152373,
+      "cumulative_cost_usd": 0.01416035,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13644,
+      "input_tokens": 14008,
       "cached_tokens": 0,
-      "output_tokens": 1860,
+      "output_tokens": 902,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0152373
+      "estimated_cost_usd": 0.01416035
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 135,
-      "cache_write_tokens": 5310,
+      "reasoning_tokens": 185,
+      "cache_write_tokens": 5400,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0299526,
+      "cumulative_cost_usd": 0.02890715,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13741,
+      "input_tokens": 13822,
       "cached_tokens": 0,
-      "output_tokens": 1418,
+      "output_tokens": 1427,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0147153
+      "estimated_cost_usd": 0.0147468
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 78,
-      "cache_write_tokens": 3407,
+      "reasoning_tokens": 73,
+      "cache_write_tokens": 3602,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0466841,
+      "cumulative_cost_usd": 0.04534615,
       "model": "gpt-5.6-terra",
-      "input_tokens": 3410,
+      "input_tokens": 3605,
       "cached_tokens": 0,
-      "output_tokens": 684,
+      "output_tokens": 619,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.0167315
+      "estimated_cost_usd": 0.016439
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 227
+Candidates: 228
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -876,7 +876,7 @@ Candidates: 227
   - Name a specific payer, customer job and credible reason existing alternatives fail.
   - Choose a low-cost differentiation wedge (availability, price, experience, distribution or technology).
   - Test channel, willingness to pay, ownership and contribution margin before building.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Whether Chilean merchants will pay for a configured card, reporting, or replacement service rather than use a free Google review link and printed QR code.; Incremental scan rate and review-completion rate attributable specifically to NFC versus QR, signage, staff requests, receipts, WhatsApp follow-up, or existing marketing.; Whether merchants want reviews at all, or instead value menus, reservations, WhatsApp, loyalty, reorder, payments, or product information more.
 - Possible initial budget:
 - Source URLs: https://www.mercadolibre.cl/nfc-tag-215-10uni-1356-mhz-a-25mm-adhesivo-tarjeta-set/p/MLC2098562674; https://listado.mercadolibre.cl/tarjetas-nfc; https://linkd.cl/
 
@@ -1791,6 +1791,18 @@ Candidates: 227
 - Critical gaps: Whether ATENA access is available to independent vendors, consultants, or only regulated or prospective participating institutions.; Whether CMF recognizes, permits, or gives evidentiary weight to third-party conformance reports.; The number of institutions that will actually need external testing support and their budget owners.
 - Possible initial budget:
 - Source URLs: https://cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
+## Chile SFA/ATENA interoperability test harness
+- Status: watch | open_finance_chile
+- Current idea: Financial institutions and fintech participants must validate API interoperability, credentials, security flows, and required data/payment-initiation behavior before production participation. A narrowly scoped reusable test asset could reduce repeated integration and evidence-production work without acting as a regulated financial intermediary.
+- Potential economic capture: Sell or license an automated conformance-test package that converts the CMF technical annex into executable API tests, synthetic test data, failure diagnostics, and an exportable evidence report for internal readiness reviews. Revenue would be validated only if prospective participants agree to pay for a pilot or paid implementation artifact; no price is established by the evidence.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-113806.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
 ## Chile SFA/ATENA interoperability test harness for small fintechs
 - Status: watch | open_finance_chile
