@@ -1,45 +1,53 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 200000.0,
-      "buyer": "Corporación Cultural Municipal de Puente Alto",
-      "closes_at": "2026-11-22T20:07:00",
-      "code": "1214103-307-COT26",
-      "estimated_budget": 200000.0,
-      "name": "IMPRESION GRAFICA PLAZAS CULTURALES",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
+      "available_budget_clp": 2300000.0,
+      "buyer": "I MUNICIPALIDAD DE PUERTO MONTT",
+      "closes_at": "2026-11-22T09:50:00",
+      "code": "2332-1152-COT26",
+      "estimated_budget": 2300000.0,
+      "name": "N° 8483  ARRIENDO DE SALÓN, COFFEE BREAK Y ALMUERZO PARA JORNADA DE FORTALECIMIENTO DE LA GESTIÓN DE PROGRAMAS PRAPS 2026-2027",
+      "products": 3,
+      "region": "Región de los Lagos"
     },
     {
-      "available_budget_clp": 70000.0,
-      "buyer": "ILUSTRE MUNICIPALIDAD DE CAMINA",
-      "closes_at": "2026-11-21T23:07:00",
-      "code": "4030-256-COT26",
-      "estimated_budget": 70000.0,
-      "name": "ADQUISICIÓN DE INSUMOS PROGRAMA MAS SALUD EN COMUNIDAD",
+      "available_budget_clp": 558000.0,
+      "buyer": "SERVICIO DE SALUD OSORNO",
+      "closes_at": "2026-11-25T12:28:00",
+      "code": "1180747-27-COT26",
+      "estimated_budget": 558000.0,
+      "name": "ADQUISICIÓN DE ESCABEL, BIOMBO Y PISO CLÍNICO PARA PSR COSTA RÍO BLANCO",
+      "products": 3,
+      "region": "Región de los Lagos"
+    },
+    {
+      "available_budget_clp": 713920.0,
+      "buyer": "CONSULTORIO GENERAL URBANO SAN FELIPE",
+      "closes_at": "2026-11-22T09:51:00",
+      "code": "1111432-491-COT26",
+      "estimated_budget": 713920.0,
+      "name": "ADQUISICION DE PAN DE PASCUA Y CAFE PARA CESFAM SAN FELIPE EL REAL",
       "products": 2,
-      "region": "Región de Tarapacá"
+      "region": "Región de Valparaíso"
     },
     {
-      "available_budget_clp": 800000.0,
-      "buyer": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-      "closes_at": "2026-11-23T08:00:00",
-      "code": "1093-42-COT26",
-      "estimated_budget": 800000.0,
-      "name": "CUBIERTA Y REPARACION DE BAÑO",
+      "available_budget_clp": 694400.0,
+      "buyer": "ILUSTRE MUNICIPALIDAD DE SAN CARLOS",
+      "closes_at": "2026-11-23T10:00:00",
+      "code": "2724-1072-COT26",
+      "estimated_budget": 694400.0,
+      "name": "RECONOCIMENTO PARA EL PROGRAMA RESIDENCIA FAMILIAR ESTUDIANTIL",
       "products": 1,
-      "region": "Región de Antofagasta"
+      "region": "Región del Ñuble"
     }
   ],
-  "active_structurally_reconstructable_count": 3,
+  "active_structurally_reconstructable_count": 4,
   "diagnostics": {
-    "api_failures": {
-      "api_rate_limited": 2
-    },
+    "api_failures": {},
     "budget_exhausted": false,
     "detail_attempts": 20,
     "detail_cap_exhausted": true,
-    "details_fetched": 18,
+    "details_fetched": 20,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -51,24 +59,24 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-21T01:35:58Z",
-  "inserted_history": 18,
+  "generated_at": "2026-11-21T12:48:11Z",
+  "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_API_ERRORS",
+  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
   "phase1": {
-    "records": 18,
+    "records": 20,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 11
+      "no_observable_competitive_prices": 3
     },
-    "resolved": 15,
-    "structurally_reconstructable": 7,
-    "with_observable_quote_totals": 4,
-    "with_purchase_order_indicator": 1
+    "resolved": 16,
+    "structurally_reconstructable": 17,
+    "with_observable_quote_totals": 13,
+    "with_purchase_order_indicator": 2
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-21T01:35:58Z"
+    "changed_to": "2026-11-21T12:48:11Z"
   }
 }
