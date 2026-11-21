@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-11-20T16:42:52.734386+00:00
+Generated: 2026-11-21T01:05:39.575902+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
 - Active research: 225 (0 HQ survivors, 225 watches)
-- Rejected opportunities excluded: 122
-- Critic-and-judge reviewed: 97
+- Rejected opportunities excluded: 123
+- Critic-and-judge reviewed: 98
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -682,6 +682,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Whether ATENA is free, subsidized, or commercially monetizable for third-party vendors.; The number of institutions that will actually enroll, connect, and maintain production-grade participation.; The final rollout schedule by participant type and whether July 2027 is the first effective phase rather than broad market availability.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
+### CMF Open Finance sandbox conformance kit for smaller Chilean participants [opp_f56b1fbbad100489cfa5]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Entities that intend to participate have a defined technical target and a testing window before July 2027. A narrowly scoped implementation asset could reduce integration and conformance-testing work, but demand from named paying customers is not independently verified.
+- Value capture: Sell a self-hosted or hosted test harness that validates API payloads, consent flows, payment-initiation edge cases, and required technical fields against the CMF specifications; optionally charge for implementation support. This is a concrete software asset, not a general AI consultancy.
+- Participation hypothesis: Build a minimal demonstrator using only the CMF-published technical annex and developer-portal materials. Test the lowest-cost wedge by creating five conformance tests and a sample participant adapter, then request non-binding technical feedback from publicly identifiable Chilean fintechs, payment providers, or financial-data intermediaries. Proceed only if at least three organizations confirm a relevant integration problem and one agrees to a paid pilot or written procurement process. Do not assume sandbox access, regulatory authorization, or
+- Critic/judge: The underlying regulatory premise is sufficiently grounded by CMF primary sources: Chile’s Open Finance technical annex, developer materials, sandbox/testing context, and delayed operational timeline support investigation. A narrow, non-production workflow—such as a self-hosted CI/CD-oriented diagnostic adapter for a named prospective participant—does not inherently require the venture to handle regulated customer data or initiate payme
+- Next evidence gaps: Number and identity of smaller Chilean entities that must participate or intend to participate.; Whether ATENA exposes automated conformance reports, CI/CD integration, negative-test coverage, replay tools, or payment-initiation edge-case diagnostics sufficient; Whether CMF permits commercial vendors to connect to, automate, or redistribute outputs from ATENA and the developer portal.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/prensa/625/w4-article-110881.html
 
 ### CMS is advancing standardized payer APIs and interoperability requirements [opp_68e70b9741c1c0474c04]
 - Status: WATCH_REQUIRES_VALIDATION | general | United States
@@ -1702,16 +1712,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://jobs.lever.co/appen/27404a7a-4fca-42e3-bae4-072148d17dce; https://wizwizai.careers-page.com/jobs/1bdd95f3-53c1-4af2-9518-ed6d835244d4
-
-### CMF Open Finance sandbox conformance kit for smaller Chilean participants [opp_f56b1fbbad100489cfa5]
-- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
-- Thesis: Entities that intend to participate have a defined technical target and a testing window before July 2027. A narrowly scoped implementation asset could reduce integration and conformance-testing work, but demand from named paying customers is not independently verified.
-- Value capture: Sell a self-hosted or hosted test harness that validates API payloads, consent flows, payment-initiation edge cases, and required technical fields against the CMF specifications; optionally charge for implementation support. This is a concrete software asset, not a general AI consultancy.
-- Participation hypothesis: Build a minimal demonstrator using only the CMF-published technical annex and developer-portal materials. Test the lowest-cost wedge by creating five conformance tests and a sample participant adapter, then request non-binding technical feedback from publicly identifiable Chilean fintechs, payment providers, or financial-data intermediaries. Proceed only if at least three organizations confirm a relevant integration problem and one agrees to a paid pilot or written procurement process. Do not assume sandbox access, regulatory authorization, or
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/prensa/625/w4-article-110881.html
 
 ### Compliance-data implementation wedge for Chile’s developing Open Finance System [opp_55ea1613f3f7f5bebbee]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile

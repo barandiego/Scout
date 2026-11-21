@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-11-20T16:42:52.734386+00:00",
+  "generated_at": "2026-11-21T01:05:39.575902+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -162,6 +162,7 @@
         "opp_6cea461c4316ad0c1441",
         "opp_31dfdad2eb2f74b28e49",
         "opp_1d8ec69c28f37b2eceef",
+        "opp_f56b1fbbad100489cfa5",
         "opp_90d159d76ff43f002fe6",
         "opp_adbd4e7c0a69c655a351",
         "opp_63bc9b9bc5ff0bfbcf2e",
@@ -180,7 +181,6 @@
         "opp_1cb73388b22b0e44428c",
         "opp_993ac5d080c7042af44c",
         "opp_82f282d8dc0896390ee7",
-        "opp_f56b1fbbad100489cfa5",
         "opp_8173c8a9e4dbb2d4ed8c",
         "opp_32e5affc69f7f526e7c4",
         "opp_cc801200847ba7165b70",
@@ -208,7 +208,7 @@
       ],
       "count": 90,
       "representative_id": "opp_e65bfa2752c716623239",
-      "reviewed_count": 56,
+      "reviewed_count": 57,
       "theme": "chile_open_finance"
     },
     {

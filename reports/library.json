@@ -5953,6 +5953,89 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": true,
+      "discovered_at": "2026-10-21T16:24:58.090541+00:00",
+      "discovery_lens": "chile_technology_import",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The CMF published technical specifications, a developer portal, simplified participation provisions, a technology sandbox, and postponed entry into force to July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "The CMF states that the technical annex covers interoperability, information exchange, payment initiation, and implementation phases for the Chilean Open Finance System.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
+          "url": "https://cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.82,
+      "falsification_conditions": [
+        "CMF or ATENA provides automated conformance testing and reporting that covers the proposed API, consent, directory, and payment-initiation use cases.",
+        "Interviews with at least ten relevant Chilean participants produce fewer than three clear, recurring problems not solved by ATENA, official documentation, or existing vendors.",
+        "No qualified prospect agrees to a paid pilot, written procurement process, or budgeted implementation engagement within 60 days of demonstrator completion.",
+        "A credible incumbent offers equivalent Chile-specific testing or implementation tooling at a price below the venture's sustainable delivery cost.",
+        "The technical portal changes frequently enough that maintenance costs exceed expected subscription or support revenue.",
+        "Legal or technical restrictions prevent commercial automation, hosting, redistribution, or use of official sandbox outputs.",
+        "The number of plausible paying smaller participants is too low to support a focused product after excluding entities that can build internally or use integrators.",
+        "Participants report that the main bottleneck is regulatory approval, security certification, business-process change, or production integration rather than conformance-test authoring."
+      ],
+      "geography": "Chile",
+      "id": "opp_f56b1fbbad100489cfa5",
+      "judge_reviewed": true,
+      "judgment": "The underlying regulatory premise is sufficiently grounded by CMF primary sources: Chile’s Open Finance technical annex, developer materials, sandbox/testing context, and delayed operational timeline support investigation. A narrow, non-production workflow—such as a self-hosted CI/CD-oriented diagnostic adapter for a named prospective participant—does not inherently require the venture to handle regulated customer data or initiate payments. However, the proposed broad 'conformance kit' has not established a non-redundant role relative to CMF/ATENA’s official testing environment, nor any buyer, procurement, pricing, or permissible commercial-access evidence. It survives only as pre-sales research for a sharply differentiated layer around gaps that official tooling and incumbent integrators do not address; it is not HQ-worthy for product build or execution yet.",
+      "last_record_updated_at": "2026-11-21T01:05:39.003500+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Number and identity of smaller Chilean entities that must participate or intend to participate.",
+        "Whether ATENA exposes automated conformance reports, CI/CD integration, negative-test coverage, replay tools, or payment-initiation edge-case diagnostics sufficient to eliminate a private product.",
+        "Whether CMF permits commercial vendors to connect to, automate, or redistribute outputs from ATENA and the developer portal.",
+        "Actual regulatory, security, certification, hosting, data-residency, and liability requirements for a third-party test harness.",
+        "Existence, capabilities, pricing, and incumbent relationships of Chilean banks, payment processors, core-banking vendors, consultancies, and open-finance integrators."
+      ],
+      "participation_path": "Build a minimal demonstrator using only the CMF-published technical annex and developer-portal materials. Test the lowest-cost wedge by creating five conformance tests and a sample participant adapter, then request non-binding technical feedback from publicly identifiable Chilean fintechs, payment providers, or financial-data intermediaries. Proceed only if at least three organizations confirm a relevant integration problem and one agrees to a paid pilot or written procurement process. Do not assume sandbox access, regulatory authorization, or buyer willingness until separately confirmed.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Entities that intend to participate have a defined technical target and a testing window before July 2027. A narrowly scoped implementation asset could reduce integration and conformance-testing work, but demand from named paying customers is not independently verified.",
+      "title": "CMF Open Finance sandbox conformance kit for smaller Chilean participants",
+      "type": "software_asset",
+      "unknowns": [
+        "Number and identity of smaller Chilean entities that must participate or intend to participate.",
+        "Whether ATENA exposes automated conformance reports, CI/CD integration, negative-test coverage, replay tools, or payment-initiation edge-case diagnostics sufficient to eliminate a private product.",
+        "Whether CMF permits commercial vendors to connect to, automate, or redistribute outputs from ATENA and the developer portal.",
+        "Actual regulatory, security, certification, hosting, data-residency, and liability requirements for a third-party test harness.",
+        "Existence, capabilities, pricing, and incumbent relationships of Chilean banks, payment processors, core-banking vendors, consultancies, and open-finance integrators.",
+        "Whether simplified participation materially reduces implementation complexity for the intended smaller participants.",
+        "Whether participants prefer buying software, contracting implementation services, or relying on existing vendors and internal teams.",
+        "Whether the technical specifications will stabilize before commercial product development is economically justified.",
+        "Expected willingness to pay and procurement cycles.",
+        "Whether the five proposed conformance tests would cover enough of the buyer's actual acceptance and production-readiness process.",
+        "Whether ATENA supplies machine-readable conformance reports, automated negative tests, replay tooling, CI/CD integration, payment edge-case coverage, and diagnostics that leave a material gap.",
+        "Which specific regulated participant type has both a required integration obligation and enough technical pain and budget to buy an external tool.",
+        "Whether a vendor can lawfully and technically automate official sandbox interactions or build a product relying on official interfaces.",
+        "The final license/perimeter and security obligations for a vendor that processes test data, consent artifacts, credentials, or any production-adjacent information.",
+        "Whether specifications will remain stable long enough for product economics to work.",
+        "Whether at least one named buyer will commit to a paid pilot or formal procurement after seeing a narrowly defined differentiator."
+      ],
+      "value_capture_mechanism": "Sell a self-hosted or hosted test harness that validates API payloads, consent flows, payment-initiation edge cases, and required technical fields against the CMF specifications; optionally charge for implementation support. This is a concrete software asset, not a general AI consultancy.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": true,
       "discovered_at": "2026-10-05T12:14:21.202522+00:00",
       "discovery_lens": "regulation_infrastructure",
       "estimated_capital": "",
@@ -12723,60 +12806,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-21T16:24:58.090541+00:00",
-      "discovery_lens": "chile_technology_import",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "The CMF published technical specifications, a developer portal, simplified participation provisions, a technology sandbox, and postponed entry into force to July 2027.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
-          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
-        },
-        {
-          "claim": "The CMF states that the technical annex covers interoperability, information exchange, payment initiation, and implementation phases for the Chilean Open Finance System.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
-          "url": "https://cmfchile.cl/portal/prensa/625/w4-article-110881.html"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.82,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_f56b1fbbad100489cfa5",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-21T16:24:58.110090+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Build a minimal demonstrator using only the CMF-published technical annex and developer-portal materials. Test the lowest-cost wedge by creating five conformance tests and a sample participant adapter, then request non-binding technical feedback from publicly identifiable Chilean fintechs, payment providers, or financial-data intermediaries. Proceed only if at least three organizations confirm a relevant integration problem and one agrees to a paid pilot or written procurement process. Do not assume sandbox access, regulatory authorization, or buyer willingness until separately confirmed.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "Entities that intend to participate have a defined technical target and a testing window before July 2027. A narrowly scoped implementation asset could reduce integration and conformance-testing work, but demand from named paying customers is not independently verified.",
-      "title": "CMF Open Finance sandbox conformance kit for smaller Chilean participants",
-      "type": "software_asset",
-      "unknowns": [],
-      "value_capture_mechanism": "Sell a self-hosted or hosted test harness that validates API payloads, consent flows, payment-initiation edge cases, and required technical fields against the CMF specifications; optionally charge for implementation support. This is a concrete software asset, not a general AI consultancy.",
-      "verified_sales": null,
-      "vertical": "open_finance_chile",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-11-14T17:40:00.482887+00:00",
       "discovery_lens": "regulation_infrastructure",
       "estimated_capital": "",
@@ -15746,13 +15775,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-20T16:42:52.734386+00:00",
+  "generated_at": "2026-11-21T01:05:39.575902+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 122,
-  "reviewed_cards": 97,
+  "rejected_excluded": 123,
+  "reviewed_cards": 98,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 347,
+  "total_distinct_opportunities": 348,
   "watch": 225
 }

@@ -1884,7 +1884,7 @@ Candidates: 225
   - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
   - Check license perimeter, API access, legal compliance and competitor pricing.
   - Test buyer procurement and technical access before writing integration infrastructure.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Number and identity of smaller Chilean entities that must participate or intend to participate.; Whether ATENA exposes automated conformance reports, CI/CD integration, negative-test coverage, replay tools, or payment-initiation edge-case diagnostics sufficient to eliminate a private product.; Whether CMF permits commercial vendors to connect to, automate, or redistribute outputs from ATENA and the developer portal.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/prensa/625/w4-article-110881.html
 

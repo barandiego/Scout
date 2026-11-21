@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-20T16:42:52.261671+00:00
+Generated: 2026-11-21T01:05:39.203071+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['fixed_scope_paid_research_asset', 'geographic_arbitrage', 'ai_open_source']
-- raw_candidates: 2
-- parseable_candidates: 2
-- normalized_candidates: 2
+- lenses: ['public_markets', 'physical_commerce', 'regulation_infrastructure']
+- raw_candidates: 1
+- parseable_candidates: 1
+- normalized_candidates: 1
 - normalization_rejected: 0
-- grounded_sources: 6
+- grounded_sources: 1
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
 - critic_reviews: 1
 - judge_reviews: 1
 - survivors: 0
-- watches: 2
-- rejected: 0
+- watches: 1
+- rejected: 1
 - errors_by_stage: {}
-- rejection_reasons: {}
-- cost_usd: 0.05725555
+- rejection_reasons: {'discarded_ungrounded_url': 1, 'insufficient_unique_evidence': 1}
+- cost_usd: 0.04145815
 - cost_uncertain: False
-- budget_remaining_usd: 0.02274445
+- budget_remaining_usd: 0.03854185
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -56,8 +56,8 @@ No survivors. Scout does not manufacture a daily winner.
 ```json
 {
   "notes": [
-    "deep_review_lane=fresh",
-    "research_queue_unreviewed=116"
+    "deep_review_lane=backlog",
+    "research_queue_unreviewed=115"
   ],
   "stages": [
     {
@@ -65,80 +65,42 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 49,
+      "grounded_source_count": 25,
       "search_source_urls": [
-        "https://19718165.fs1.hubspotusercontent-na1.net/hubfs/19718165/White%20Paper%20BoaCompra%20_%20Digital%20Renaissance%20in%20Latin%20America%20-%20Trends%2C%20Opportunities%2C%20and%20Challenges.pdf",
+        "https://apnews.com/article/267c7040d4e5c4b1b7149ea69a68654b",
         "https://apnews.com/article/3bd62dd2d73ed711fa754ead1997634a",
         "https://apnews.com/article/e78ccd51a7f66099d84fda885d2907a3",
-        "https://apnews.com/article/edc26b9f0d7935ad7978c7eba5e3967c",
-        "https://elpais.com/chile/2025-03-10/el-turismo-de-compras-de-los-argentinos-da-una-bocanada-de-aire-al-comercio-chileno.html",
-        "https://elpais.com/chile/2025-05-27/cyber-day-2025-en-chile-cuando-comienza-las-ofertas-y-las-marcas-que-participan-del-evento.html",
-        "https://en.wikipedia.org/wiki/Apache_Tika",
-        "https://funpacifico.cl/wp-content/uploads/2026/02/See-Asia-Pacific-Economic-Profiles-2025.pdf",
-        "https://github.com/Abdirayimov/invoice-extractor",
-        "https://github.com/SEIS-SOLUTIONS/dte-engine",
-        "https://github.com/SebastianMoyano/dte-chile",
-        "https://github.com/Unstructured-IO/unstructured-api",
-        "https://github.com/dansanti/libredte-lib",
-        "https://github.com/devlas-cl/dte-sii/blob/master/CLAUDE.md",
-        "https://github.com/invoice-x/invoice2data/blob/master/docs/how-it-works.md",
+        "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Exporter+Guide+Annual_Santiago_Chile_CI2026-0006.pdf",
+        "https://cnc.cl/iva-a-compras-internacionales-reduce-fuertemente-el-monto-estimado-de-compras-digitales-informales-en-chile/",
+        "https://cnc.cl/wp-content/uploads/2026/05/Informalidad-en-el-Comercio-Electronico-I-trim-2026.pdf",
+        "https://elpais.com/chile/2025-06-24/el-consumo-de-plasticos-crece-en-un-7-en-chile-impulsado-por-la-mineria-y-la-agricultura.html",
+        "https://elpais.com/chile/2026-07-24/el-gobierno-de-kast-busca-salvar-al-salmon-las-cerezas-y-el-vino-de-los-aranceles-impuestos-por-ee-uu.html",
+        "https://elpais.com/chile/2026-10-16/chile-retira-el-vino-de-la-mesa.html",
         "https://infobydata.com/en/marketing/compras-en-temu-shein-y-aliexpress-cuanto-compran-los-chilenos-en-plataformas-extranjeras-y-que-impuestos-pagan",
-        "https://parserbee.com/developers/",
-        "https://pypi.org/project/gemina/",
-        "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa2.php?entidad_web=ALL&enviado=1&hidden_mercado=%25&materia=ALL&numero=514&tiponorma=NCG",
-        "https://www.cmfchile.cl/portal/prensa/625/articles-111067_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
-        "https://www.cmfchile.cl/portal/principal/623/articles-109331_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-113806.html",
-        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=65a5bba4562baee1f1870a0468f56d1fVFdwQmVVNUVRVE5OUkUwd1QwUk5NazVSUFQwPQ%3D%3D&secuencia=-1&t=1720024671",
-        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640",
-        "https://www.euromonitor.com/retail-e-commerce-in-chile/report",
+        "https://stablobccsprod.blob.core.windows.net/ccs/2026/03/CCS-Ventas-comercio-electronico-2025-.pdf",
+        "https://www.ccs.cl/area-publicacion/comercio-electronico-y-economia-digital/",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
         "https://www.fne.gob.cl/en/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-plataformas/",
-        "https://www.fne.gob.cl/wp-content/uploads/2026/04/FNE_Informe_Preliminar_EM_Comercio_Electronico_EM10_2024.pdf",
-        "https://www.lemonde.fr/en/economy/article/2025/10/23/deregulated-argentina-rushes-to-buy-from-global-e-commerce-giants_6746704_19.html",
-        "https://www.openparser.dev/",
-        "https://www.reddit.com/r/LLMDevs/comments/1xkb441/best_pdf_parser_ocr_for_extracting_structured/",
-        "https://www.reddit.com/r/documentAutomation/comments/1x1hy82/on_premise_ocr_for_printed_handwritten_invoices/",
-        "https://www.reddit.com/r/pdf/comments/1xkb722/best_pdf_parser_ocr_for_extracting_structured/",
-        "https://www.reddit.com/r/selfhosted/comments/1jtlcks",
-        "https://www.reddit.com/r/sysadmin/comments/1nc4wdl",
-        "https://www.sii.cl/destacados/factura_electronica/guias_ayuda/como_generar_respt_dte.htm",
-        "https://www.sii.cl/destacados/factura_electronica/guias_ayuda/guia_publicarPortalMercado.pdf",
-        "https://www.sii.cl/factura_electronica/factura_mercado/estado_dte.pdf",
-        "https://www.sii.cl/factura_electronica/factura_mercado/instructivo.htm",
-        "https://www.sii.cl/factura_electronica/factura_mercado/instructivo_emision.pdf",
-        "https://www.sii.cl/factura_electronica/factura_mercado/menu_certificacion.html",
-        "https://www.sii.cl/factura_electronica/form_ele.htm",
-        "https://www.sii.cl/factura_electronica/instructivo_emision.pdf",
-        "https://www.sii.cl/normativa_legislacion/resoluciones/2026/reso71.pdf",
-        "https://www.sii.cl/servicios_online/3532-formato_xml-3811.html",
+        "https://www.recalar.cl/",
+        "https://www.recalar.cl/quien-importa/",
+        "https://www.sec.gov/Archives/edgar/data/712515/000114036126031157/ef20079099_8k.htm",
+        "https://www.sec.gov/Archives/edgar/data/866374/000119312526382492/d108491d8k.htm",
+        "https://www.sec.gov/Archives/edgar/data/883902/000110465926125927/tm2629440d3_8k.htm",
+        "https://www.sec.gov/Archives/edgar/data/895419/000119312526416987/d122407d8k.htm",
+        "https://www.subrei.gob.cl/docs/default-source/estudios-y-documentos/fichas/informe-comercial_enero_diciembre_2025.pdf?trk=article-ssr-frontend-pulse_little-text-block",
+        "https://www.subrei.gob.cl/docs/default-source/estudios-y-documentos/informe-de-comercio-exterior-2025-abril-2026.pdf",
+        "https://www.subrei.gob.cl/docs/default-source/estudios-y-documentos/minuta-mensual/informe-mensual---enero---abril-2026.pdf",
         "https://www.trade.gov/country-commercial-guides/chile-ecommerce",
-        "https://www.youtube.com/watch?v=CwNkFxVEwuo",
-        "https://www.youtube.com/watch?v=fF92BuMemPk"
+        "https://www.youtube.com/watch?v=GG57Zr55gvU"
       ]
     },
     {
       "index": 0,
       "stage": "normalization",
       "outcome": "accepted",
-      "reasons": [],
-      "changes": [
-        "signal:sanitized",
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
+      "reasons": [
+        "discarded_ungrounded_url"
       ],
-      "grounded_sources": 3,
-      "retry_justified": false
-    },
-    {
-      "index": 1,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [],
       "changes": [
         "contrary_evidence:list_sanitized",
         "major_risks:list_sanitized",
@@ -146,49 +108,52 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 3,
+      "grounded_sources": 1,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_33f9b9c1789fa5606675",
+      "candidate_id": "opp_f56b1fbbad100489cfa5",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 21,
+      "grounded_source_count": 23,
       "search_source_urls": [
-        "https://abes.org.br/en/sensedia-se-une-a-comissao-para-o-mercado-financeiro-do-chile-para-o-desenvolvimento-do-diretorio-de-participantes-do-open-finance-do-pais/",
-        "https://docs.publicnow.com/viewDoc?filename=180701%5CEXT%5CDF6B3AF878A5D3ED0DD9357887F0E0679C53AD8B_098F91345B74D5B4C09FAE216FD637E2C78A8368.PDF",
+        "https://cincodias.elpais.com/cincodias/2018/02/23/mercados/1519413637_374303.html",
+        "https://cmfchile.cl/portal/principal/623/w4-article-100816.html",
         "https://elpais.com/america/termometro-social/2024-10-07/digitalizacion-financiera-en-america-latina-enfrenta-nueva-era-de-transformacion-y-oportunidades.html",
-        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/706413085/Gu%2Bas%2Bde%2Bpruebas%2BSandbox%2Bperiodo%2Bprevio%2Ba%2Bla%2Bentrada%2Ben%2Bvigencia",
-        "https://www.cmfchile.cl/portal/prensa/625/articles-110411_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/articles-113897_doc_pdf.pdf",
+        "https://elpais.com/chile/2025-08-14/un-plan-para-robustecer-la-seguridad-bancaria-en-chile-revela-un-viejo-problema-la-brecha-digital.html",
+        "https://www.cmfchile.cl/normativa/ncg_569_2026.pdf",
         "https://www.cmfchile.cl/portal/prensa/625/articles-113925_doc_pdf.pdf",
         "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-112955.html?trk=public_post_comment-text",
         "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
-        "https://www.cmfchile.cl/portal/principal/613/articles-78039_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/articles-80196_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/articles-92466_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-102557.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-108561.html",
         "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-113806.html",
         "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-78039.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-80196.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-76009.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-80854.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-92466.html",
         "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48738.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html",
         "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640",
-        "https://www.youtube.com/watch?v=LZ4jF1VLsng",
-        "https://www.youtube.com/watch?v=hJIX_n8L2ZE"
+        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000098/managementcommentary2q20.htm",
+        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000098/managementcommentary2q2026.pdf",
+        "https://www.youtube.com/watch?v=Jbnc8-OnhSg",
+        "https://www.youtube.com/watch?v=LZ4jF1VLsng"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_33f9b9c1789fa5606675",
+      "candidate_id": "opp_f56b1fbbad100489cfa5",
       "coercions": [
-        "critic_case"
+        "critic_case",
+        "contrary_evidence"
       ]
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_33f9b9c1789fa5606675",
+      "candidate_id": "opp_f56b1fbbad100489cfa5",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -196,7 +161,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_33f9b9c1789fa5606675",
+      "candidate_id": "opp_f56b1fbbad100489cfa5",
       "coercions": []
     }
   ],
@@ -204,44 +169,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 433,
-      "cache_write_tokens": 5462,
+      "reasoning_tokens": 357,
+      "cache_write_tokens": 5014,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0267697,
+      "cumulative_cost_usd": 0.0141105,
       "model": "gpt-5.6-luna",
-      "input_tokens": 22415,
+      "input_tokens": 13485,
       "cached_tokens": 0,
-      "output_tokens": 1678,
-      "web_search_calls": 2,
-      "estimated_cost_usd": 0.0267697
+      "output_tokens": 969,
+      "web_search_calls": 1,
+      "estimated_cost_usd": 0.0141105
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 144,
-      "cache_write_tokens": 5459,
+      "reasoning_tokens": 97,
+      "cache_write_tokens": 5241,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.04163305,
+      "cumulative_cost_usd": 0.02869815,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13730,
+      "input_tokens": 13612,
       "cached_tokens": 0,
-      "output_tokens": 1537,
+      "output_tokens": 1336,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01486335
+      "estimated_cost_usd": 0.01458765
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 42,
-      "cache_write_tokens": 3381,
+      "reasoning_tokens": 0,
+      "cache_write_tokens": 2668,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.05725555,
+      "cumulative_cost_usd": 0.04145815,
       "model": "gpt-5.6-terra",
-      "input_tokens": 3384,
+      "input_tokens": 2671,
       "cached_tokens": 0,
-      "output_tokens": 597,
+      "output_tokens": 507,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.0156225
+      "estimated_cost_usd": 0.01276
     }
   ]
 }

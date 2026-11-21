@@ -5941,9 +5941,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "Chile",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "Number and identity of smaller Chilean entities that must participate or intend to participate.",
+        "Whether ATENA exposes automated conformance reports, CI/CD integration, negative-test coverage, replay tools, or payment-initiation edge-case diagnostics sufficient to eliminate a private product.",
+        "Whether CMF permits commercial vendors to connect to, automate, or redistribute outputs from ATENA and the developer portal.",
+        "Actual regulatory, security, certification, hosting, data-residency, and liability requirements for a third-party test harness.",
+        "Existence, capabilities, pricing, and incumbent relationships of Chilean banks, payment processors, core-banking vendors, consultancies, and open-finance integrators.",
+        "Whether simplified participation materially reduces implementation complexity for the intended smaller participants.",
+        "Whether participants prefer buying software, contracting implementation services, or relying on existing vendors and internal teams."
       ],
       "investment_authorized": false,
       "name": "CMF Open Finance sandbox conformance kit for smaller Chilean participants",
@@ -8557,7 +8561,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-20T16:42:52.874575+00:00",
+  "generated_at": "2026-11-21T01:05:39.682540+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"
