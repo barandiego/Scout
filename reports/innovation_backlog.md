@@ -268,18 +268,6 @@ Candidates: 230
 - Possible initial budget:
 - Source URLs: https://docs.cloud.google.com/docs/compute-area/gpus; https://cloud.google.com/products/compute/gpus-pricing?hl=en
 
-## Marketplace-specific catalog and offer monitoring for Natura Chile sellers
-- Status: watch | competitive_positioning
-- Current idea: The evidence supports a narrow monitoring wedge: track SKU, channel, price, discount, availability, and delivery differences between Natura’s direct channel and Falabella.com for authorized resellers or competing beauty retailers. It does not establish that Natura or sellers will buy such a service.
-- Potential economic capture: A reusable spreadsheet or lightweight alerting asset could be sold to a specific reseller, distributor, or competing brand that already has permission to sell products and needs channel-price intelligence. No buyer, price, margin, or resale permission is verified.
-- **Research routes to test (NOT validated claims):**
-  - Segment the incumbent market by customers who pay too much or wait too long for one outcome.
-  - Offer materially different positioning, delivery, price or specialisation with clear unit economics.
-  - Test switching and repeat purchase evidence before scaling acquisition.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://www.falabella.com/falabella-cl/seller/Natura; https://www.natura.cl/encuentra-natura
-
 ## Task-specific automation retrofit discovery for small manufacturers
 - Status: watch | competitive_positioning
 - Current idea: A narrow entry wedge is a paid task-level automation assessment for one repeatable process—such as inspection, material handling or machine tending—followed by a retrofit specification using existing equipment. The evidence supports an underserved implementation problem, not a guaranteed retrofit market or ROI.
@@ -1119,6 +1107,18 @@ Candidates: 230
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812
+
+## Chile Open Finance API conformance test harness for regulated participants
+- Status: watch | open_finance_chile
+- Current idea: Entities preparing to exchange financial data or initiate payments will need to validate API interoperability, consent handling, authentication, security controls and conformance before production participation.
+- Potential economic capture: A narrowly scoped automated test harness, mock API environment or certification-preparation package could charge for software access or paid test execution. No public evidence was found here that a specific participant already budgets for or purchases this product.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.sipa.columbia.edu/sites/default/files/2026-06/IDB_Sotelino_FinalReport_ForPublication.pdf
 
 ## Chile Open Finance cash-flow underwriting adapter for MSME lenders
 - Status: watch | open_finance_chile

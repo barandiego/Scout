@@ -12032,6 +12032,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-22T15:55:36.008008+00:00",
+      "discovery_lens": "chile_technology_import",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The CMF published technical specifications, a developer portal and a revised entry-into-force date of July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "Chile's system uses standardized remote-access APIs, explicit consent and authentication requirements, and registered information-based or payment-initiation service providers.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Toward Effective Open Finance: A Policy Framework for Latin America and the Caribbean",
+          "url": "https://www.sipa.columbia.edu/sites/default/files/2026-06/IDB_Sotelino_FinalReport_ForPublication.pdf"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.82,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_d07e5129079383327c52",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-22T15:55:36.073119+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Build a minimal mock implementation of one CMF-defined information-exchange flow using the published technical materials and developer portal. Contact prospective ecosystem participants only to validate whether they will pay for automated conformance testing; do not build a full product or seek production access before receiving a concrete paid pilot or written technical requirement. Lowest-cost falsification: release a small test suite and ask 10 Chilean banks, fintechs, software integrators or prospective registered providers whether they would pay for a defined interoperability test, recording at least one priced pilot or return zero.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Entities preparing to exchange financial data or initiate payments will need to validate API interoperability, consent handling, authentication, security controls and conformance before production participation.",
+      "title": "Chile Open Finance API conformance test harness for regulated participants",
+      "type": "software_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "A narrowly scoped automated test harness, mock API environment or certification-preparation package could charge for software access or paid test execution. No public evidence was found here that a specific participant already budgets for or purchases this product.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-26T23:34:33.081511+00:00",
       "discovery_lens": "business_model_migration",
       "estimated_capital": "",
@@ -14300,60 +14354,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-21T20:21:55.479849+00:00",
-      "discovery_lens": "market_positioning",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "Falabella’s seller page displays Natura products, prices, discounts, delivery information, and more than 100 results.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Natura | Falabella Chile",
-          "url": "https://www.falabella.com/falabella-cl/seller/Natura"
-        },
-        {
-          "claim": "Natura’s Chilean site presents its direct ecommerce, app, beauty consultants, and stores as active purchase channels.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Natura Chile",
-          "url": "https://www.natura.cl/encuentra-natura"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.69,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_49094e54aa9a3ec43bc2",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-21T20:21:55.541537+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Create a one-brand, 20-SKU comparison using only publicly accessible pages and manual collection. Approach authorized retailers or marketplace sellers with a sample showing price and availability changes, asking whether they would pay for a weekly report or dashboard. Do not scrape behind login, misrepresent affiliation, or redistribute product content. Falsification step: obtain explicit interest from three identifiable sellers or brands and one paid trial; otherwise treat the signal as ordinary marketplace competition and discard it.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "The evidence supports a narrow monitoring wedge: track SKU, channel, price, discount, availability, and delivery differences between Natura’s direct channel and Falabella.com for authorized resellers or competing beauty retailers. It does not establish that Natura or sellers will buy such a service.",
-      "title": "Marketplace-specific catalog and offer monitoring for Natura Chile sellers",
-      "type": "data_asset",
-      "unknowns": [],
-      "value_capture_mechanism": "A reusable spreadsheet or lightweight alerting asset could be sold to a specific reseller, distributor, or competing brand that already has permission to sell products and needs channel-price intelligence. No buyer, price, margin, or resale permission is verified.",
-      "verified_sales": null,
-      "vertical": "competitive_positioning",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-11-04T11:52:21.408291+00:00",
       "discovery_lens": "seller_supply_gap",
       "estimated_capital": "",
@@ -16135,13 +16135,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-22T05:04:28.400787+00:00",
+  "generated_at": "2026-11-22T15:55:53.106607+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 124,
+  "rejected_excluded": 125,
   "reviewed_cards": 100,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 354,
+  "total_distinct_opportunities": 355,
   "watch": 230
 }

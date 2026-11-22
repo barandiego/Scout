@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-22T05:04:28.080850+00:00
+Generated: 2026-11-22T15:55:52.688859+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['open_finance_chile', 'adoption_lag', 'underserved_buyers']
-- raw_candidates: 2
-- parseable_candidates: 2
-- normalized_candidates: 2
+- lenses: ['seller_supply_gap', 'chile_technology_import', 'early_adoption_investing']
+- raw_candidates: 1
+- parseable_candidates: 1
+- normalized_candidates: 1
 - normalization_rejected: 0
-- grounded_sources: 6
+- grounded_sources: 2
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 1
+- judge_attempts: 0
 - critic_reviews: 1
-- judge_reviews: 1
+- judge_reviews: 0
 - survivors: 0
-- watches: 2
-- rejected: 0
+- watches: 1
+- rejected: 1
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.0447544
+- cost_usd: 0.0286823
 - cost_uncertain: False
-- budget_remaining_usd: 0.0352456
+- budget_remaining_usd: 0.0513177
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Open-weight inference router for token-cost-sensitive workloads: deferred_by_review_cap
 - Orderly-liquidation access to Origin Materials equipment and intellectual property: The underlying asset-sale situation is supported by dated SEC primary filings and is not a promotional equity thesis. It may support narrow, research-only diligence into an asset acquisition or licensing transaction. However, this is no longer an accessible public-markets security thesis: Origin was delisted and later suspended Exchange Act reporting, and the proposed value-capture path requires direct participation in an opaque liquidation sale. The approximately $18 million Origin 1 fair value is not evidence of realizable sale value, while package-sale requirements, potential debt/liens, removal and integration costs, IP/know-how dependence, and strategic-buyer competition could eliminate any apparent discount. The opportunity is not stale merely because liquidation approval occurred, but it is timing-sensitive and cannot be advanced without confirming that assets remain uncommitted and that an external buyer can obtain process access and inspectable asset-level information.
 - Chile Open Finance interoperability-test tooling for ATENA readiness: deferred_by_review_cap
 - Operational tooling around on-chain share and fund recordkeeping—not a new token issuer: deferred_by_review_cap
@@ -51,12 +50,13 @@ No survivors. Scout does not manufacture a daily winner.
 - Chile SFA/ATENA interoperability test harness: deferred_by_review_cap
 - Small-grower mechanical-weeding pilot using a purchasable low-cost robot: deferred_by_review_cap
 - Chile SFA sandbox-to-compliance implementation wedge: The regulatory trigger is credibly grounded in CMF primary materials: NCG 569 modifies the SFA framework and supplies a defined technical/testing path toward staged effectiveness in July 2027. That supports a narrow, non-regulated advisory wedge focused on conformance-gap assessment, security/consent evidence preparation, and remediation planning—not a generic open-finance buildout and not a claim of certification. However, the supplied evidence does not establish that a service provider can obtain needed sandbox or customer technical access, that regulated participants will procure external readiness work, or that a paid package can withstand substitution by CMF documentation, synthetic-data sandbox tooling, incumbent integrators, and internal bank/fintech teams. These are material commercial and access uncertainties, but not yet proof of a fatal legal/technical-access failure or an incompatible compliance burden.
+- Chile Open Finance API conformance test harness for regulated participants: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=fresh",
+    "deep_review_lane=backlog",
     "research_queue_unreviewed=118"
   ],
   "stages": [
@@ -65,38 +65,32 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 30,
+      "grounded_source_count": 24,
       "search_source_urls": [
-        "https://agriculturalhumanoids.com/",
-        "https://apnews.com/article/46ec590b882188ee6d7428df8f04bb9e",
-        "https://apnews.com/article/7d542b5ee92caa9d79efa28de89afbbe",
-        "https://coloradoproduce.org/wp-content/uploads/2023/07/cit_97817_2022-harvest-report_r6-digital_prod.pdf",
-        "https://en.wikipedia.org/wiki/Agricultural_robot",
-        "https://en.wikipedia.org/wiki/Barriers_to_entry",
-        "https://en.wikipedia.org/wiki/FarmWise",
-        "https://en.wikipedia.org/wiki/Switching_barriers",
-        "https://fieldreport.caes.uga.edu/publications/B1594/agribots-autonomous-ground-robots-for-specialty-crops/",
-        "https://roxver.com/?order=pilot",
-        "https://time.com/7094876/guardian-agriculture-sc1/",
-        "https://tu-dresden.de/ing/maschinenwesen/int/ast/ressourcen/dateien/forschung/files/MobileCPSconceptInAgriculture.pdf?lang=en",
-        "https://workingrobots.org/prices/",
-        "https://www.agricultural-robotics.com/robot/robot-one",
-        "https://www.axios.com/2023/04/25/crop-dusting-drone",
-        "https://www.axios.com/local/seattle/2026/10/23/yakima-valley-reservoir-farms-ai-robot-testing-apple-harvest",
-        "https://www.bcentral.cl/areas/mercados-financieros/sistemas",
-        "https://www.bcentral.cl/documents/33528/133214/pgs06042022.pdf/669eb3a8-b0b8-06bc-8df7-3052f489bde7?t=1693417865670",
-        "https://www.bcentral.cl/documents/d/banco-central/ief-1-semestre-2024-pdf?download=true",
-        "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa_tramite_ver_archivo.php?id=2024041585&seq=1",
-        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.enterpriseagmag.com/agtech-intelligence/editions/2026-11-12/",
-        "https://www.futurefarming.com/tech-in-focus/autonomous-semiauto-steering/autonomous-vehicles/caterra-launches-fully-autonomous-laser-weeding-robot-honeybee/",
-        "https://www.haggertyagrobotics.com/farmdroid-fd20",
-        "https://www.indexbox.io/store/northern-america-robotic-weeding-machines-market-analysis-forecast-size-trends-and-insights/",
-        "https://www.nedo.go.jp/content/100981086.pdf",
-        "https://www.techradar.com/home/smart-home/roborock-rockmow-z120-lidar-review",
-        "https://www.youtube.com/watch?v=V4MOzMrwS30",
-        "https://www.youtube.com/watch?v=qfByu7AUjDc"
+        "https://apnews.com/article/39f2356b9c1e167d0985b821f70079c5",
+        "https://chocale.cl/2026/01/estos-son-los-productos-chilenos-mas-buscados-en-mercado-libre-en-el-2025/",
+        "https://developers.mercadolibre.cl/en_us/about-our-api/best-sellers-in-mercado-libre",
+        "https://developers.mercadolibre.cl/es_cl/tendencias",
+        "https://dintass.cl/collections/robots-industriales",
+        "https://elpais.com/america/termometro-social/2024-10-07/digitalizacion-financiera-en-america-latina-enfrenta-nueva-era-de-transformacion-y-oportunidades.html",
+        "https://elpais.com/chile/2025-10-06/cyber-monday-2025-en-chile-ofertas-descuentos-marcas-participantes-y-hasta-cuando-dura-el-evento-de-compras.html",
+        "https://news.mercadolibre.com/en/node/178",
+        "https://robusto.cl/en/about/",
+        "https://teclazo.com/en/blog/what-to-sell-on-mercado-libre-chile-2026",
+        "https://woosync.io/blog/que-vender-en-mercadolibre-chile-lo-mas-buscado/",
+        "https://www.cmfchile.cl/portal/principal/613/articles-92466_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/623/articles-82752_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.esbuenisimolinks.com/blog/ecommerce-en-chile-2026-tiendas-mas-buscadas",
+        "https://www.imf.org/-/media/files/publications/cr/2024/english/1chlea2024002.pdf",
+        "https://www.lexmundi.com/media/50fiflkp/guide_chile.pdf",
+        "https://www.mercadolibre.cl/mas-vendidos/MLC1423",
+        "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/financial-consumer-protection/Revised-Compendium-of-Effective-Approaches-March-2026.pdf",
+        "https://www.sipa.columbia.edu/sites/default/files/2026-06/IDB_Sotelino_FinalReport_ForPublication.pdf",
+        "https://www.techradar.com/pro/why-you-should-care-if-your-robot-is-a-copycat",
+        "https://www.vicrobotics.com/about",
+        "https://www.youtube.com/watch?v=Jbnc8-OnhSg",
+        "https://www.youtube.com/watch?v=Ne3HL05ISpc"
       ]
     },
     {
@@ -111,70 +105,39 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 3,
-      "retry_justified": false
-    },
-    {
-      "index": 1,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 3,
+      "grounded_sources": 2,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_2602d2c8d12890a63912",
+      "candidate_id": "opp_49094e54aa9a3ec43bc2",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 18,
       "search_source_urls": [
-        "https://chocale.cl/2026/09/cmf-sandbox-atena-implementacion-del-sistema-de-finanzas-abiertas/",
-        "https://elpais.com/america/termometro-social/2024-10-07/digitalizacion-financiera-en-america-latina-enfrenta-nueva-era-de-transformacion-y-oportunidades.html",
-        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA",
-        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/435749124/v1.0.0%2B-%2BModelo%2Bde%2Bgobierno",
-        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/706413085/Gu%2Bas%2Bde%2Bpruebas%2BSandbox%2Bperiodo%2Bprevio%2Ba%2Bla%2Bentrada%2Ben%2Bvigencia",
-        "https://ozoneapi.com/the-open-finance-tracker/library/open-finance-system-sistema-de-finanzas-abiertas-sfa-chile/",
-        "https://www.acis.org.co/blog/noticias-2/sensedia-proveedor-tecnologico-para-el-desarrollo-del-directorio-de-participantes-del-sistema-de-finanzas-abiertas-en-chile-1589",
-        "https://www.cmfchile.cl/institucional/mercados/ver_archivo.php?archivo=%2Fweb%2Fcompendio%2Fncg%2Fncg_514_2024.pdf",
-        "https://www.cmfchile.cl/normativa/ncg_569_2026.pdf",
-        "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html?trk=article-ssr-frontend-pulse_little-text-block",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-92449.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html",
-        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640",
-        "https://www.youtube.com/watch?v=BJFN-A2l-Bs",
-        "https://www.youtube.com/watch?v=LZ4jF1VLsng"
+        "https://biqu.cl/",
+        "https://biqu.cl/en/",
+        "https://educacionprofesional.ing.uc.cl/app/uploads/2024/08/Supply-Chain-de-eCommerce.pdf",
+        "https://elpais.com/chile/2025-06-02/cyber-day-2025-en-chile-las-ofertas-y-las-marcas-que-participan-del-evento.html",
+        "https://elpais.com/chile/2026-05-27/cyberday-en-chile-2026-fecha-marcas-y-ofertas-para-el-evento-de-comercio-por-internet.html",
+        "https://en.wikipedia.org/wiki/Price_intelligence",
+        "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/",
+        "https://marketing4ecommerce.cl/ecommerce-chile-estrategia-pricing/",
+        "https://www.biqu.cl/",
+        "https://www.falabella.com/falabella-cl/page/data-pricing",
+        "https://www.falabella.com/falabella-cl/seller/Natura",
+        "https://www.fne.gob.cl/en/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-plataformas/",
+        "https://www.fne.gob.cl/wp-content/uploads/2026/04/FNE_Informe_Preliminar_EM_Comercio_Electronico_EM10_2024.pdf",
+        "https://www.fne.gob.cl/wp-content/uploads/2026/04/FNE_RE_Informe_Preliminar_EM_Comercio_Electronico_EM10_2024.pdf",
+        "https://www.natura.cl/blog/mas-natura/guia-de-compra-online",
+        "https://www.natura.cl/encuentra-natura",
+        "https://www.shopify.com/es/blog/comparador-de-precios-en-chile",
+        "https://www.trade.gov.http.akamai-trials.com/country-commercial-guides/chile-ecommerce"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_2602d2c8d12890a63912",
-      "coercions": [
-        "critic_case",
-        "contrary_evidence"
-      ]
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_2602d2c8d12890a63912",
-      "response_status": "completed",
-      "incomplete_reason": "",
-      "grounded_source_count": 0,
-      "search_source_urls": []
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_2602d2c8d12890a63912",
+      "candidate_id": "opp_49094e54aa9a3ec43bc2",
       "coercions": []
     }
   ],
@@ -182,44 +145,30 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 306,
-      "cache_write_tokens": 5455,
+      "reasoning_tokens": 304,
+      "cache_write_tokens": 5563,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01497575,
+      "cumulative_cost_usd": 0.01402255,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13861,
+      "input_tokens": 14066,
       "cached_tokens": 0,
-      "output_tokens": 1609,
+      "output_tokens": 776,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01497575
+      "estimated_cost_usd": 0.01402255
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 157,
-      "cache_write_tokens": 5449,
+      "reasoning_tokens": 158,
+      "cache_write_tokens": 5143,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0298224,
+      "cumulative_cost_usd": 0.0286823,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13799,
+      "input_tokens": 13535,
       "cached_tokens": 0,
-      "output_tokens": 1512,
+      "output_tokens": 1413,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01484665
-    },
-    {
-      "stage": "judge",
-      "available": true,
-      "reasoning_tokens": 47,
-      "cache_write_tokens": 3196,
-      "accounting_notes": [],
-      "cumulative_cost_usd": 0.0447544,
-      "model": "gpt-5.6-terra",
-      "input_tokens": 3199,
-      "cached_tokens": 0,
-      "output_tokens": 578,
-      "web_search_calls": 0,
-      "estimated_cost_usd": 0.014932
+      "estimated_cost_usd": 0.01465975
     }
   ]
 }

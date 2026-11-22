@@ -809,42 +809,6 @@
       "category": "competitive_positioning",
       "commercially_validated": false,
       "competition_confirmed": false,
-      "current_participation_path": "Create a one-brand, 20-SKU comparison using only publicly accessible pages and manual collection. Approach authorized retailers or marketplace sellers with a sample showing price and availability changes, asking whether they would pay for a weekly report or dashboard. Do not scrape behind login, misrepresent affiliation, or redistribute product content. Falsification step: obtain explicit interest from three identifiable sellers or brands and one paid trial; otherwise treat the signal as ordinary marketplace competition and discard it.",
-      "current_thesis": "The evidence supports a narrow monitoring wedge: track SKU, channel, price, discount, availability, and delivery differences between Natura’s direct channel and Falabella.com for authorized resellers or competing beauty retailers. It does not establish that Natura or sellers will buy such a service.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "Chile",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "Marketplace-specific catalog and offer monitoring for Natura Chile sellers",
-      "opportunity_id": "opp_49094e54aa9a3ec43bc2",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Segment the incumbent market by customers who pay too much or wait too long for one outcome.",
-        "Offer materially different positioning, delivery, price or specialisation with clear unit economics.",
-        "Test switching and repeat purchase evidence before scaling acquisition."
-      ],
-      "supporting_source_urls": [
-        "https://www.falabella.com/falabella-cl/seller/Natura",
-        "https://www.natura.cl/encuentra-natura"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "A reusable spreadsheet or lightweight alerting asset could be sold to a specific reseller, distributor, or competing brand that already has permission to sell products and needs channel-price intelligence. No buyer, price, margin, or resale permission is verified.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "competitive_positioning",
-      "commercially_validated": false,
-      "competition_confirmed": false,
       "current_participation_path": "Use NIST’s small-manufacturer survey as a targeting aid, then approach local plants with a one-process diagnostic requiring no system access beyond an observation visit. Produce a quantified baseline of cycle time, rework or labor hours and a lowest-cost retrofit hypothesis. Falsify if ten targeted plants yield no paid diagnostic, site visit, or permission to measure the selected task; do not build hardware before that validation.",
       "current_thesis": "A narrow entry wedge is a paid task-level automation assessment for one repeatable process—such as inspection, material handling or machine tending—followed by a retrofit specification using existing equipment. The evidence supports an underserved implementation problem, not a guaranteed retrofit market or ROI.",
       "founder_hours_initial_unverified_estimate": "",
@@ -3482,6 +3446,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Offer a narrowly scoped, fixed-output API conformance or sandbox-readiness assessment using the public CMF documentation. Any payment, buyer, permissions, production access, or regulatory status must be confirmed directly; the public evidence does not establish them.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Build a minimal mock implementation of one CMF-defined information-exchange flow using the published technical materials and developer portal. Contact prospective ecosystem participants only to validate whether they will pay for automated conformance testing; do not build a full product or seek production access before receiving a concrete paid pilot or written technical requirement. Lowest-cost falsification: release a small test suite and ask 10 Chilean banks, fintechs, software integrators or prospective registered providers whether they would pay for a defined interoperability test, recording at least one priced pilot or return zero.",
+      "current_thesis": "Entities preparing to exchange financial data or initiate payments will need to validate API interoperability, consent handling, authentication, security controls and conformance before production participation.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile Open Finance API conformance test harness for regulated participants",
+      "opportunity_id": "opp_d07e5129079383327c52",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.sipa.columbia.edu/sites/default/files/2026-06/IDB_Sotelino_FinalReport_ForPublication.pdf"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A narrowly scoped automated test harness, mock API environment or certification-preparation package could charge for software access or paid test execution. No public evidence was found here that a specific participant already budgets for or purchases this product.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -8752,7 +8752,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-22T05:04:28.501622+00:00",
+  "generated_at": "2026-11-22T15:55:53.262161+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

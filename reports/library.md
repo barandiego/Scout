@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-11-22T05:04:28.400787+00:00
+Generated: 2026-11-22T15:55:53.106607+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
 - Active research: 230 (0 HQ survivors, 230 watches)
-- Rejected opportunities excluded: 124
+- Rejected opportunities excluded: 125
 - Critic-and-judge reviewed: 100
 - Autonomous execution authorization: 0
 
@@ -1553,6 +1553,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sii.cl/destacados/iva_bienes/; https://www.aduanadechile.gov.cl/aduana/site/docs/20250627/20250627110135/cuenta_publica_2025_gestion_2024_1.pdf
 
+### Chile Open Finance API conformance test harness for regulated participants [opp_d07e5129079383327c52]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Entities preparing to exchange financial data or initiate payments will need to validate API interoperability, consent handling, authentication, security controls and conformance before production participation.
+- Value capture: A narrowly scoped automated test harness, mock API environment or certification-preparation package could charge for software access or paid test execution. No public evidence was found here that a specific participant already budgets for or purchases this product.
+- Participation hypothesis: Build a minimal mock implementation of one CMF-defined information-exchange flow using the published technical materials and developer portal. Contact prospective ecosystem participants only to validate whether they will pay for automated conformance testing; do not build a full product or seek production access before receiving a concrete paid pilot or written technical requirement. Lowest-cost falsification: release a small test suite and ask 10 Chilean banks, fintechs, software integrators or prospective registered providers whether they wou
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.sipa.columbia.edu/sites/default/files/2026-06/IDB_Sotelino_FinalReport_ForPublication.pdf
+
 ### Chile Open Finance cash-flow underwriting adapter for MSME lenders [opp_d6ffaf44890e8156d04e]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: A small operator has a defined pre-compliance window to build and test a narrow data-normalization or cash-flow underwriting adapter before regulated participants must implement the system. The opportunity is not lending itself; it is reducing integration and interpretation work for a specific lender, accounting platform, or financial-data participant.
@@ -1972,16 +1982,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sec.gov/newsroom/press-releases/2026-53-sec-establishes-joint-data-standards-required-under-financial-data-transparency-act-2022; https://public-inspection.federalregister.gov/2026-12787.pdf
-
-### Marketplace-specific catalog and offer monitoring for Natura Chile sellers [opp_49094e54aa9a3ec43bc2]
-- Status: WATCH_REQUIRES_VALIDATION | competitive_positioning | Chile
-- Thesis: The evidence supports a narrow monitoring wedge: track SKU, channel, price, discount, availability, and delivery differences between Natura’s direct channel and Falabella.com for authorized resellers or competing beauty retailers. It does not establish that Natura or sellers will buy such a service.
-- Value capture: A reusable spreadsheet or lightweight alerting asset could be sold to a specific reseller, distributor, or competing brand that already has permission to sell products and needs channel-price intelligence. No buyer, price, margin, or resale permission is verified.
-- Participation hypothesis: Create a one-brand, 20-SKU comparison using only publicly accessible pages and manual collection. Approach authorized retailers or marketplace sellers with a sample showing price and availability changes, asking whether they would pay for a weekly report or dashboard. Do not scrape behind login, misrepresent affiliation, or redistribute product content. Falsification step: obtain explicit interest from three identifiable sellers or brands and one paid trial; otherwise treat the signal as ordinary marketplace competition and discard it.
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.falabella.com/falabella-cl/seller/Natura; https://www.natura.cl/encuentra-natura
 
 ### NFC review-and-contact displays: only a testable local resale wedge, not a seller-scarcity claim [opp_fa014b2293a26ad04e87]
 - Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile
