@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-11-21T21:27:48.677014+00:00
+Generated: 2026-11-22T05:04:28.400787+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 228 (0 HQ survivors, 228 watches)
+- Active research: 230 (0 HQ survivors, 230 watches)
 - Rejected opportunities excluded: 124
-- Critic-and-judge reviewed: 99
+- Critic-and-judge reviewed: 100
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -132,6 +132,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: How many entities are actually obligated to participate, by implementation group and deadline.; Whether ATENA already includes automated conformance tests, mocks, diagnostics, reporting, or exportable evidence sufficient for most use cases.; Whether the CMF will permit or encourage third-party tools to connect to ATENA or whether testing must occur only through regulator-controlled interfaces.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html; https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640
+
+### Chile SFA sandbox-to-compliance implementation wedge [opp_2602d2c8d12890a63912]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Entities that intend to participate in Chile's Sistema de Finanzas Abiertas will need to translate the technical annex into API conformance tests, consent-flow controls, security evidence, and operational readiness before the staged launch. The opportunity is implementation and testing work tied to a defined regulatory artifact, not a generic fintech platform.
+- Value capture: A small operator could sell a fixed-scope readiness package consisting of an independently documented API test harness, consent and error-case test scripts, implementation-gap inventory, and evidence pack for an entity preparing for SFA participation. Pricing is unknown and must be validated rather than assumed.
+- Participation hypothesis: Use the CMF developer portal, technical annex, sandbox, and published participation requirements to build a minimal test harness against publicly available specifications. Contact potential participant categories only after identifying them from the CMF framework; request no-access, non-production technical interviews or written confirmation of their highest-cost conformance tasks. Falsify cheaply by attempting to execute the published test flow with one open-source API client and determining whether the documentation is sufficiently complete t
+- Critic/judge: The regulatory trigger is credibly grounded in CMF primary materials: NCG 569 modifies the SFA framework and supplies a defined technical/testing path toward staged effectiveness in July 2027. That supports a narrow, non-regulated advisory wedge focused on conformance-gap assessment, security/consent evidence preparation, and remediation planning—not a generic open-finance buildout and not a claim of certification. However, the supplied
+- Next evidence gaps: Number and categories of entities expected to participate during the first implementation waves.; Whether target participants already have incumbent systems integrators or internal teams assigned to SFA.; Actual pricing, procurement thresholds, and willingness to pay for independent readiness work.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html; https://www.bcentral.cl/documents/d/banco-central/ief-1-semestre-2024-pdf?download=true
 
 ### Consent-and-API compliance test harness for Chilean Open Finance participants [opp_80c27af4c7b538954998]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -1332,6 +1342,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/613/articles-82752_recurso_1.pdf; https://www.cmfchile.cl/portal/prensa/615/articles-99083_doc_pdf.pdf
+
+### Small-grower mechanical-weeding pilot using a purchasable low-cost robot [opp_b8237dc109cf362e77c0]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States; potentially other row-crop markets subject to import and service feasibility
+- Thesis: The actionable wedge is not inventing a robot or claiming broad farm automation demand. It is a low-capital field-validation and deployment service around a specific, orderable pilot unit for farms where manual row weeding is costly and herbicide reduction matters. The commercial uncertainty is crop/bed compatibility and delivered operating cost.
+- Value capture: Potential mechanisms are a paid field-feasibility assessment, a confirmed equipment order or referral where permitted, deployment support, and measurement of labor-hours, weed-removal rate, crop damage, and cost per treated acre. No buyer, margin, recurring revenue, or resale authorization is established by the evidence.
+- Participation hypothesis: Select one crop and region with row spacing compatible with the published ROXVER configuration. Build a one-page field data form using crop, bed width, row spacing, field area, soil, and weed photos—the inputs requested by the manufacturer. Approach extension programs, grower associations, or identified farms only to obtain permission for a no-cost or paid feasibility test; then submit the same field data to ROXVER for a written suitability and delivered-quote response. Falsify before spending capital by obtaining three independent grower inter
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://fieldreport.caes.uga.edu/publications/B1594/agribots-autonomous-ground-robots-for-specialty-crops/; https://roxver.com/?order=pilot; https://www.nedo.go.jp/content/100981086.pdf
 
 ### Small-scale NFT lettuce unit using Chilean INIA economics as a pre-sale test [opp_6d42359671ff6ccbf40d]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile; site economics must be recalculated locally

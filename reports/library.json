@@ -1133,6 +1133,98 @@
       "ai_leverage": "",
       "authorized_for_execution": false,
       "contrary_evidence": [
+        "The thesis has credible regulatory timing and a concrete technical trigger. NCG 569 added technical specifications and postponed implementation to July 2027 because of complexity. The CMF's ATENA sandbox supports API integration, directory interoperability, and early compliance preparation. Official sandbox guidance describes testing of FAPI 2.0, OIDC, mTLS, interoperability, structured evidence, and technical gap identification, which aligns with parts of the proposed service. Source: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html\n\nThe existence of synthetic test data and a CMF-controlled testing environment does not eliminate all customer work: participants may still need help integrating legacy systems, documenting consent controls, reproducing edge cases, coordinating security evidence, and translating test results into internal remediation plans. Source: https://www.cmfchile.cl/normativa/ncg_569_2026.pdf\n\nThe opportunity could become attractive if the buyer set includes smaller regulated entities without mature API-security teams, or if external certification and recurring retesting create a bottleneck. However, neither buyer demand nor certification scarcity is established by the supplied evidence."
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-11-22T05:04:01.917357+00:00",
+      "discovery_lens": "open_finance_chile",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF states that the modified NCG 514 includes technical specifications, a developer portal, a pilot testing period, a technological sandbox, simplified participation for smaller entities, and staged entry beginning in July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        },
+        {
+          "claim": "CMF records NCG 569 as the current modification to NCG 514, dated June 1, 2026, with the technical annex.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Norma de Carácter General N°569",
+          "url": "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html"
+        },
+        {
+          "claim": "Banco Central describes Chile's SFA as enabling consented customer-information exchange through remote automated interfaces and includes payment-initiation entities.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Informe de Estabilidad Financiera, primer semestre 2024",
+          "url": "https://www.bcentral.cl/documents/d/banco-central/ief-1-semestre-2024-pdf?download=true"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.82,
+      "falsification_conditions": [
+        "At least 10 interviews with likely participant entities show that they will rely entirely on internal teams or incumbent vendors and would not pay for an independent readiness package.",
+        "A competent engineer can execute the full relevant sandbox and directory test flow from public documentation without material ambiguity, custom tooling, or expert intervention.",
+        "CMF or accredited-certifier guidance states that third-party readiness reports have no procurement, certification, or risk-management value.",
+        "The first participant cohorts are dominated by large institutions with established API, security, and compliance teams and no accessible smaller-entity segment.",
+        "No qualified buyer accepts a paid pilot or letter of intent before the July 2027 launch.",
+        "The service provider cannot obtain required sandbox access, local contracting capability, insurance, confidentiality terms, or regulatory permissions.",
+        "Major API or certification changes make a reusable test harness obsolete before two paid deployments.",
+        "The cost of customer acquisition, Spanish-language delivery, local presence, and security assurance exceeds plausible gross profit from a fixed-scope engagement."
+      ],
+      "geography": "Chile",
+      "id": "opp_2602d2c8d12890a63912",
+      "judge_reviewed": true,
+      "judgment": "The regulatory trigger is credibly grounded in CMF primary materials: NCG 569 modifies the SFA framework and supplies a defined technical/testing path toward staged effectiveness in July 2027. That supports a narrow, non-regulated advisory wedge focused on conformance-gap assessment, security/consent evidence preparation, and remediation planning—not a generic open-finance buildout and not a claim of certification. However, the supplied evidence does not establish that a service provider can obtain needed sandbox or customer technical access, that regulated participants will procure external readiness work, or that a paid package can withstand substitution by CMF documentation, synthetic-data sandbox tooling, incumbent integrators, and internal bank/fintech teams. These are material commercial and access uncertainties, but not yet proof of a fatal legal/technical-access failure or an incompatible compliance burden.",
+      "last_record_updated_at": "2026-11-22T05:04:27.894699+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Number and categories of entities expected to participate during the first implementation waves.",
+        "Whether target participants already have incumbent systems integrators or internal teams assigned to SFA.",
+        "Actual pricing, procurement thresholds, and willingness to pay for independent readiness work.",
+        "Whether the proposed operator can legally and commercially serve Chilean regulated entities.",
+        "Whether access to ATENA, the developer portal, directory, and test credentials is open, restricted, or costly for a service provider."
+      ],
+      "participation_path": "Use the CMF developer portal, technical annex, sandbox, and published participation requirements to build a minimal test harness against publicly available specifications. Contact potential participant categories only after identifying them from the CMF framework; request no-access, non-production technical interviews or written confirmation of their highest-cost conformance tasks. Falsify cheaply by attempting to execute the published test flow with one open-source API client and determining whether the documentation is sufficiently complete that no paid implementation help is needed. Do not represent the operator as an authorized participant or regulated provider without separately verifying permissions.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Entities that intend to participate in Chile's Sistema de Finanzas Abiertas will need to translate the technical annex into API conformance tests, consent-flow controls, security evidence, and operational readiness before the staged launch. The opportunity is implementation and testing work tied to a defined regulatory artifact, not a generic fintech platform.",
+      "title": "Chile SFA sandbox-to-compliance implementation wedge",
+      "type": "regulatory_implementation_service",
+      "unknowns": [
+        "Number and categories of entities expected to participate during the first implementation waves.",
+        "Whether target participants already have incumbent systems integrators or internal teams assigned to SFA.",
+        "Actual pricing, procurement thresholds, and willingness to pay for independent readiness work.",
+        "Whether the proposed operator can legally and commercially serve Chilean regulated entities.",
+        "Whether access to ATENA, the developer portal, directory, and test credentials is open, restricted, or costly for a service provider.",
+        "Exact certification requirements, list of accredited certifiers, and separation between advisory testing and certifiable evidence.",
+        "Stability of the technical annex, API versions, error semantics, security profiles, and test procedures before production.",
+        "Whether participation simplification materially reduces implementation effort for small entities.",
+        "Customer liability and data-security requirements when reviewing architecture, credentials, logs, consent records, or payment flows.",
+        "Evidence that participants have already tried the public documentation and still experience high-cost unresolved problems.",
+        "Which entity categories and how many participants enter the first waves, and whether there is an accessible smaller-entity segment.",
+        "Whether a third-party consultant can independently access ATENA, the developer portal, directory functions, test credentials, and relevant test artifacts—or must operate entirely through a client participant.",
+        "Actual buyer willingness to pay, budget owner, procurement cycle, competitive alternatives, and feasible fixed-scope pricing.",
+        "Whether CMF or any accredited-certifier process recognizes externally prepared test evidence as useful for procurement, risk management, or certification preparation.",
+        "Whether the complete published flow can be executed by a competent engineer without specialized tooling or interpretation.",
+        "Local legal, tax, contracting, data-security, and professional-liability requirements for serving Chilean regulated entities."
+      ],
+      "value_capture_mechanism": "A small operator could sell a fixed-scope readiness package consisting of an independently documented API test harness, consent and error-case test scripts, implementation-gap inventory, and evidence pack for an entity preparing for SFA participation. Pricing is unknown and must be validated rather than assumed.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [
         "The opportunity is not fabricated. CMF has published technical specifications, a developer portal, a testing environment, and a staged implementation schedule. CMF expressly states that the AP includes directory, information-delivery, payment, and consent APIs, and that it can support certification-related testing and product development: https://www.cmfchile.cl/institucional/legislacion_normativa/normativa_tramite_ver_archivo.php?id=2026010555&seq=1. CMF also states that ATENA will allow institutions to verify adequacy to technical standards and test interoperability before the July 2027 launch: https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html. Some required tests are outside the CMF environment, including endpoint and operational checks, which could leave room for an external evidence-generation and regression-testing layer: https://www.cmfchile.cl/institucional/legislacion_normativa/normativa_tramite_ver_archivo.php?id=2025071034&seq=1. The regulatory framework has substantial technical complexity, including consent, security, directory, API performance, payment initiation, certificates, and functional testing requirements, so a specialized product could reduce implementation risk for smaller participants: https://www.cmfchile.cl/portal/prensa/615/articles-100979_doc_pdf.pdf."
       ],
       "critic_reviewed": true,
@@ -10771,6 +10863,67 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-22T05:04:01.918045+00:00",
+      "discovery_lens": "adoption_lag",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "University of Georgia extension material states that agricultural robot prices can range from about $20,000 to over $400,000 and that high prices limit commercialization for small and medium-scale growers.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Agribots: Autonomous Ground Robots for Specialty Crops",
+          "url": "https://fieldreport.caes.uga.edu/publications/B1594/agribots-autonomous-ground-robots-for-specialty-crops/"
+        },
+        {
+          "claim": "ROXVER lists a mechanical-weeding pilot robot at US$12,000 per unit, requests crop, bed width, row spacing, field area, and photos, and says orders require suitability review and written quotation.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "ROXVER Pilot Programme",
+          "url": "https://roxver.com/?order=pilot"
+        },
+        {
+          "claim": "Japan's NEDO survey lists commercially discussed autonomous agricultural weeding machines and published price ranges substantially above small-farm capital budgets, including FarmDroid and NAIO systems.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Autonomous Farm Machineries",
+          "url": "https://www.nedo.go.jp/content/100981086.pdf"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.88,
+      "falsification_conditions": [],
+      "geography": "United States; potentially other row-crop markets subject to import and service feasibility",
+      "id": "opp_b8237dc109cf362e77c0",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-22T05:04:01.971086+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Select one crop and region with row spacing compatible with the published ROXVER configuration. Build a one-page field data form using crop, bed width, row spacing, field area, soil, and weed photos—the inputs requested by the manufacturer. Approach extension programs, grower associations, or identified farms only to obtain permission for a no-cost or paid feasibility test; then submit the same field data to ROXVER for a written suitability and delivered-quote response. Falsify before spending capital by obtaining three independent grower interviews and a manufacturer suitability response; stop if no field matches, the delivered quote materially exceeds the stated pilot price, or measured manual-weeding cost cannot plausibly cover the pilot cost.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The actionable wedge is not inventing a robot or claiming broad farm automation demand. It is a low-capital field-validation and deployment service around a specific, orderable pilot unit for farms where manual row weeding is costly and herbicide reduction matters. The commercial uncertainty is crop/bed compatibility and delivered operating cost.",
+      "title": "Small-grower mechanical-weeding pilot using a purchasable low-cost robot",
+      "type": "equipment_pilot_or_resale",
+      "unknowns": [],
+      "value_capture_mechanism": "Potential mechanisms are a paid field-feasibility assessment, a confirmed equipment order or referral where permitted, deployment support, and measurement of labor-hours, weed-removal rate, crop damage, and cost per treated acre. No buyer, margin, recurring revenue, or resale authorization is established by the evidence.",
+      "verified_sales": null,
+      "vertical": "robotics_agritech",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-11-16T04:45:18.243140+00:00",
       "discovery_lens": "vertical_farming_economics",
       "estimated_capital": "",
@@ -15982,13 +16135,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-21T21:27:48.677014+00:00",
+  "generated_at": "2026-11-22T05:04:28.400787+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 124,
-  "reviewed_cards": 99,
+  "reviewed_cards": 100,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 352,
-  "watch": 228
+  "total_distinct_opportunities": 354,
+  "watch": 230
 }

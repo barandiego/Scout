@@ -5433,6 +5433,47 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use the CMF developer portal, technical annex, sandbox, and published participation requirements to build a minimal test harness against publicly available specifications. Contact potential participant categories only after identifying them from the CMF framework; request no-access, non-production technical interviews or written confirmation of their highest-cost conformance tasks. Falsify cheaply by attempting to execute the published test flow with one open-source API client and determining whether the documentation is sufficiently complete that no paid implementation help is needed. Do not represent the operator as an authorized participant or regulated provider without separately verifying permissions.",
+      "current_thesis": "Entities that intend to participate in Chile's Sistema de Finanzas Abiertas will need to translate the technical annex into API conformance tests, consent-flow controls, security evidence, and operational readiness before the staged launch. The opportunity is implementation and testing work tied to a defined regulatory artifact, not a generic fintech platform.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Number and categories of entities expected to participate during the first implementation waves.",
+        "Whether target participants already have incumbent systems integrators or internal teams assigned to SFA.",
+        "Actual pricing, procurement thresholds, and willingness to pay for independent readiness work.",
+        "Whether the proposed operator can legally and commercially serve Chilean regulated entities.",
+        "Whether access to ATENA, the developer portal, directory, and test credentials is open, restricted, or costly for a service provider.",
+        "Exact certification requirements, list of accredited certifiers, and separation between advisory testing and certifiable evidence.",
+        "Stability of the technical annex, API versions, error semantics, security profiles, and test procedures before production."
+      ],
+      "investment_authorized": false,
+      "name": "Chile SFA sandbox-to-compliance implementation wedge",
+      "opportunity_id": "opp_2602d2c8d12890a63912",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
+        "https://www.bcentral.cl/documents/d/banco-central/ief-1-semestre-2024-pdf?download=true"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A small operator could sell a fixed-scope readiness package consisting of an independently documented API test harness, consent and error-case test scripts, implementation-gap inventory, and evidence pack for an entity preparing for SFA participation. Pricing is unknown and must be validated rather than assumed.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use only the publicly available CMF NCG 514 materials, technical annex, and Developers’ Portal to build a minimal local test harness for the documented interfaces. Validate whether the schemas and requirements are sufficiently complete by implementing five to ten contract tests and publishing a redacted demonstration. Then request technical clarification or sandbox-access information through the official portal or CMF contact route; do not represent the harness as certified or sell it until a prospective participant confirms that the tests map to its implementation work. Lowest-cost falsification: spend one day attempting to implement the core schemas and consent/error flows; abandon the wedge if the public specifications are too incomplete to produce repeatable tests or if prospective participants do not confirm a concrete testing need.",
       "current_thesis": "Financial institutions and regulated SFA participants have a defined implementation deadline and technical requirements. A reusable conformance and regression-testing asset could reduce integration rework before production participation; this is narrower and more executable than general fintech consulting.",
       "founder_hours_initial_unverified_estimate": "",
@@ -8493,6 +8534,43 @@
       "category": "robotics_agritech",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Select one crop and region with row spacing compatible with the published ROXVER configuration. Build a one-page field data form using crop, bed width, row spacing, field area, soil, and weed photos—the inputs requested by the manufacturer. Approach extension programs, grower associations, or identified farms only to obtain permission for a no-cost or paid feasibility test; then submit the same field data to ROXVER for a written suitability and delivered-quote response. Falsify before spending capital by obtaining three independent grower interviews and a manufacturer suitability response; stop if no field matches, the delivered quote materially exceeds the stated pilot price, or measured manual-weeding cost cannot plausibly cover the pilot cost.",
+      "current_thesis": "The actionable wedge is not inventing a robot or claiming broad farm automation demand. It is a low-capital field-validation and deployment service around a specific, orderable pilot unit for farms where manual row weeding is costly and herbicide reduction matters. The commercial uncertainty is crop/bed compatibility and delivered operating cost.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States; potentially other row-crop markets subject to import and service feasibility",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Small-grower mechanical-weeding pilot using a purchasable low-cost robot",
+      "opportunity_id": "opp_b8237dc109cf362e77c0",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
+        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
+        "Arrange a bounded field validation with an actual farm operator before scaling."
+      ],
+      "supporting_source_urls": [
+        "https://fieldreport.caes.uga.edu/publications/B1594/agribots-autonomous-ground-robots-for-specialty-crops/",
+        "https://roxver.com/?order=pilot",
+        "https://www.nedo.go.jp/content/100981086.pdf"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Potential mechanisms are a paid field-feasibility assessment, a confirmed equipment order or referral where permitted, deployment support, and measurement of labor-hours, weed-removal rate, crop damage, and cost per treated acre. No buyer, margin, recurring revenue, or resale authorization is established by the evidence.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "robotics_agritech",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Before building the full 20 m² unit, collect non-binding expressions of interest from at least 10 local restaurants, produce shops or households and seek paid deposits or written purchase commitments for a defined weekly quantity. Run a small 2–5 m² pilot using the same crop and record actual plants harvested, sell-through, labor hours, electricity, nutrient and delivery costs. Scale only if realized price, sell-through and full cash costs support a positive contribution margin for at least two consecutive cycles; otherwise falsify the wedge. No buyer, volume, price realization or permission is assumed.",
       "current_thesis": "The actionable opportunity is a low-capital, contract- or pre-order-validated NFT unit rather than a speculative vertical farm. At the INIA assumptions, gross annual revenue is approximately CLP 3.584 million before the stated costs. The main falsification risk is not biological yield but whether a local operator can sell the crop at the assumed price while paying actual labor, electricity, logistics, losses and working capital.",
       "founder_hours_initial_unverified_estimate": "",
@@ -8674,7 +8752,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-21T21:27:48.780427+00:00",
+  "generated_at": "2026-11-22T05:04:28.501622+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

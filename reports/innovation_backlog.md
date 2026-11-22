@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 228
+Candidates: 230
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -1720,6 +1720,18 @@ Candidates: 228
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html; https://www.cmfchile.cl/normativa/ncg_514_2024.pdf
 
+## Chile SFA sandbox-to-compliance implementation wedge
+- Status: watch | open_finance_chile
+- Current idea: Entities that intend to participate in Chile's Sistema de Finanzas Abiertas will need to translate the technical annex into API conformance tests, consent-flow controls, security evidence, and operational readiness before the staged launch. The opportunity is implementation and testing work tied to a defined regulatory artifact, not a generic fintech platform.
+- Potential economic capture: A small operator could sell a fixed-scope readiness package consisting of an independently documented API test harness, consent and error-case test scripts, implementation-gap inventory, and evidence pack for an entity preparing for SFA participation. Pricing is unknown and must be validated rather than assumed.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Number and categories of entities expected to participate during the first implementation waves.; Whether target participants already have incumbent systems integrators or internal teams assigned to SFA.; Actual pricing, procurement thresholds, and willingness to pay for independent readiness work.
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html; https://www.bcentral.cl/documents/d/banco-central/ief-1-semestre-2024-pdf?download=true
+
 ## Chile SFA technical-conformance test harness for July 2027 implementation
 - Status: watch | open_finance_chile
 - Current idea: Financial institutions and regulated SFA participants have a defined implementation deadline and technical requirements. A reusable conformance and regression-testing asset could reduce integration rework before production participation; this is narrower and more executable than general fintech consulting.
@@ -2679,6 +2691,18 @@ Candidates: 228
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://fieldreport.caes.uga.edu/publications/B1594/agribots-autonomous-ground-robots-for-specialty-crops/; https://agritechobservatory.review.fao.org/fr/farmdroid-fd20
+
+## Small-grower mechanical-weeding pilot using a purchasable low-cost robot
+- Status: watch | robotics_agritech
+- Current idea: The actionable wedge is not inventing a robot or claiming broad farm automation demand. It is a low-capital field-validation and deployment service around a specific, orderable pilot unit for farms where manual row weeding is costly and herbicide reduction matters. The commercial uncertainty is crop/bed compatibility and delivered operating cost.
+- Potential economic capture: Potential mechanisms are a paid field-feasibility assessment, a confirmed equipment order or referral where permitted, deployment support, and measurement of labor-hours, weed-removal rate, crop damage, and cost per treated acre. No buyer, margin, recurring revenue, or resale authorization is established by the evidence.
+- **Research routes to test (NOT validated claims):**
+  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
+  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
+  - Arrange a bounded field validation with an actual farm operator before scaling.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://fieldreport.caes.uga.edu/publications/B1594/agribots-autonomous-ground-robots-for-specialty-crops/; https://roxver.com/?order=pilot; https://www.nedo.go.jp/content/100981086.pdf
 
 ## Small-scale NFT lettuce unit using Chilean INIA economics as a pre-sale test
 - Status: watch | robotics_agritech
