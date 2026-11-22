@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-22T07:11:56.559563+00:00
+Generated: 2026-11-22T16:30:01.822292+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 180
+- New this cycle: 162
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 665, ai 73, commerce 1, energy 629, robotics 432
+- Categories: agriculture 663, ai 74, commerce 1, energy 634, robotics 428
 
 ## Recently encountered signals
+
+### agrifuturelab/agrifuturelab.github.io
+- Source: https://github.com/agrifuturelab/agrifuturelab.github.io
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### Boddupalli-Yashwanth/-RythuMitra-AI
 - Source: https://github.com/Boddupalli-Yashwanth/-RythuMitra-AI
@@ -454,10 +460,4 @@ Generated: 2026-11-22T07:11:56.559563+00:00
 - Source: https://github.com/Tech-Dnyaneshwari/smart-farming-agent
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### AI-BASED FORECASTING OF SOLAR ENERGY PRODUCTION AND ELECTRICITY DEMAND IN TURKIYE: A 2027–2030 BATTERY ENERGY STORAGE SCENARIO ANALYSIS
-- Source: https://doi.org/10.70269/10.70269/9134883549
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
 - Status: **unverified research lead**
