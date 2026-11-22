@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-11-22T15:55:53.106607+00:00
+Generated: 2026-11-22T21:32:43.458988+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 230 (0 HQ survivors, 230 watches)
+- Active research: 233 (0 HQ survivors, 233 watches)
 - Rejected opportunities excluded: 125
-- Critic-and-judge reviewed: 100
+- Critic-and-judge reviewed: 101
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -843,6 +843,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.falabella.com/falabella-cl/seller/Natura; https://www.natura.cl/encuentra-natura
 
+### NFC de reseñas y descubrimiento para negocios con ubicación física [opp_43736da56580a644bdce]
+- Status: WATCH_REQUIRES_VALIDATION | general | Chile
+- Thesis: La única cuña ejecutable identificada es un experimento de distribución vertical —por ejemplo, instalar una placa NFC/QR en un tipo específico de negocio y medir taps hacia reseñas o menú—, no una nueva categoría de hardware. La evidencia no prueba conversión, recurrencia ni ventaja frente a Google Business Profile o QR.
+- Value capture: Venta unitaria o por pequeño lote de hardware configurado a un negocio que ya tenga un objetivo medible, como solicitar reseñas o abrir un menú. No se debe prometer aumento de reseñas ni cobrar suscripción sin demostrar uso repetido. La ventaja, si aparece, tendría que venir de un canal vertical y medición simple, no del chip.
+- Participation hypothesis: Comprar una unidad de una oferta existente, configurar un enlace controlado y proponer una prueba de 7–14 días a negocios de una sola categoría y zona. Registrar taps y acciones posteriores con un enlace analítico, comparando contra un QR visible. La falsificación de menor costo es intentar obtener 5 instalaciones autorizadas y comprobar si existe al menos una acción económica medible; si no hay acceso al local o no se observa uso, descartar la cuña.
+- Critic/judge: The generic NFC review-card/plate market is structurally crowded and easily substituted by free Google review links/QR codes, so it should not be pursued as a new hardware category or recurring SaaS thesis. However, a narrowly defined distribution experiment remains a plausible, low-capital research wedge: a specific local-business category may pay a modest one-time amount if an installed NFC/QR prompt demonstrably produces incremental,
+- Next evidence gaps: Tasa real de toques NFC por ubicación, categoría de negocio y tipo de cliente.; Porcentaje de toques que termina en una reseña publicada; los usuarios deben estar autenticados en una cuenta de Google. Fuente: https://support.google.com/business/; Diferencia incremental frente a un QR equivalente colocado en el mismo punto.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://pymevisible.cl/productos/tarjeta-google; https://tarjetas-nfc.com/precios
+
 ### NFC review-and-reorder plaques for Chilean independent merchants [opp_ce00c60c8ebfd1d48cd2]
 - Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile
 - Thesis: A small operator should not compete on generic NFC business cards. A narrower offer is a preconfigured countertop or packaging plaque that sends customers to one measurable action—Google review, WhatsApp reorder, menu, booking or loyalty stamp—sold with a simple setup fee and optional replacement/update service. The economic mechanism is paid physical placement plus measurable reduction in friction between offline traffic and a merchant-owned digital channel.
@@ -1553,6 +1563,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sii.cl/destacados/iva_bienes/; https://www.aduanadechile.gov.cl/aduana/site/docs/20250627/20250627110135/cuenta_publica_2025_gestion_2024_1.pdf
 
+### Chile Open Finance API conformance and consent-flow test harness [opp_5173eb38ccea91c51324]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Existe una ventana verificable para crear un activo de prueba reutilizable —mock APIs, validadores de consentimiento, pruebas de seguridad y documentación de integración— antes de que participantes regulados tengan que completar sus desarrollos. La evidencia no demuestra todavía un comprador ni disposición de pago.
+- Value capture: Vender acceso o licencias de un paquete de pruebas y documentación solamente si una entidad participante confirma por escrito que lo necesita y acepta probarlo; alternativamente, usarlo como activo interno para una integración regulatoria propia. No se infiere precio, margen ni autorización para operar como PSBI o PSIP.
+- Participation hypothesis: Descargar las especificaciones oficiales, implementar localmente un mock de los endpoints de cuentas y transacciones descritos por CMF, y construir un flujo de consentimiento no productivo. Contactar públicamente a entidades listadas como participantes o asociaciones del ecosistema para solicitar una entrevista técnica, sin representar cumplimiento regulatorio. La prueba de falsificación de menor costo es obtener 3 respuestas de potenciales integradores sobre si pagarían por ejecutar sus casos de prueba contra el harness; si ninguna acepta prob
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/prensa/625/articles-97684_doc_pdf.pdf
+
 ### Chile Open Finance API conformance test harness for regulated participants [opp_d07e5129079383327c52]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: Entities preparing to exchange financial data or initiate payments will need to validate API interoperability, consent handling, authentication, security controls and conformance before production participation.
@@ -2092,6 +2112,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.solinftec.com/en-us/solinftec-to-launch-ag-robotics-first-amazon-parts-store-as-us-solix/; https://www.sec.gov/Archives/edgar/data/1760404/000110465926104951/tm2617498d6_partiiandiii.htm
+
+### Piloto de autenticidad NFC para botellas de vino chileno [opp_c726ef50d9c70a45080e]
+- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
+- Thesis: La oportunidad concreta no es vender tarjetas NFC genéricas, ya ofrecidas en Chile, sino probar una unidad mínima de trazabilidad/autenticidad para una línea premium o de exportación donde una botella falsificada o desviada tenga valor económico suficiente. La evidencia confirma un piloto histórico, pero no confirma demanda actual, volumen ni presupuesto disponible.
+- Value capture: Cobrar por un piloto de etiquetas NFC únicas y una página de verificación por lote, únicamente después de que una viña, distribuidor o exportador confirme el problema y acepte financiar etiquetas de prueba. El mecanismo económico verificable sería reducir disputas de autenticidad, facilitar verificación en punto de venta o diferenciar una línea premium; no se puede afirmar ahorro ni incremento de precio sin experimento.
+- Participation hypothesis: Reproducir primero una demo con 20–50 etiquetas NFC comerciales, una base de datos mínima y una página que muestre lote, origen y estado, sin afirmar certificación ni seguridad antifalsificación completa. Presentarla a productores o exportadores de vinos premium y pedir permiso para una prueba controlada en un solo SKU. La falsificación más barata es medir si al menos un operador acepta aportar botellas, datos de lote y acceso a un canal de venta para una prueba; si solo recibe interés general sin acceso a producto o canal, no avanzar.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.santarita.com/noticias/tar-system-y-vina-santa-rita-implementan-sistema-para-evitar-la-falsificacion/; https://iotm2mcouncil.org/iot-library/news/smart-logistics-news/identiv-nfc-and-blockchain-authenticate-wine/
 
 ### PMGD battery-congestion screening and dispatch-rights data product [opp_e28d4caaa77e09a2caa9]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile, initially zonal transmission-constrained areas with PMGD concentration

@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 230
+Candidates: 233
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -195,6 +195,18 @@ Candidates: 230
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://jobs.telusdigital.com/search/cfm3/russian-spanish/cfm5/ai-community/jobs/in/country/chile?ns_category=artificial-intelligence; https://jobs.telusdigital.com/fr/jobs/18154785-online-data-analyst-chile
+
+## Piloto de autenticidad NFC para botellas de vino chileno
+- Status: watch | chile_localization
+- Current idea: La oportunidad concreta no es vender tarjetas NFC genéricas, ya ofrecidas en Chile, sino probar una unidad mínima de trazabilidad/autenticidad para una línea premium o de exportación donde una botella falsificada o desviada tenga valor económico suficiente. La evidencia confirma un piloto histórico, pero no confirma demanda actual, volumen ni presupuesto disponible.
+- Potential economic capture: Cobrar por un piloto de etiquetas NFC únicas y una página de verificación por lote, únicamente después de que una viña, distribuidor o exportador confirme el problema y acepte financiar etiquetas de prueba. El mecanismo económico verificable sería reducir disputas de autenticidad, facilitar verificación en punto de venta o diferenciar una línea premium; no se puede afirmar ahorro ni incremento de precio sin experimento.
+- **Research routes to test (NOT validated claims):**
+  - Find the smallest Chilean workflow whose economics differ from the original geography.
+  - Secure lawful access, partners and after-sales support rather than copy protected technology.
+  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.santarita.com/noticias/tar-system-y-vina-santa-rita-implementan-sistema-para-evitar-la-falsificacion/; https://iotm2mcouncil.org/iot-library/news/smart-logistics-news/identiv-nfc-and-blockchain-authenticate-wine/
 
 ## SII company-record change monitor for accounting and compliance firms
 - Status: watch | chile_localization
@@ -856,6 +868,18 @@ Candidates: 230
 - Possible initial budget:
 - Source URLs: https://credencialeschile.cl/categoria-producto/nfc/; https://tarjetas-nfc.com/precios; https://linktap.cl/tarjeta-nfc/
 
+## NFC de reseñas y descubrimiento para negocios con ubicación física
+- Status: watch | general
+- Current idea: La única cuña ejecutable identificada es un experimento de distribución vertical —por ejemplo, instalar una placa NFC/QR en un tipo específico de negocio y medir taps hacia reseñas o menú—, no una nueva categoría de hardware. La evidencia no prueba conversión, recurrencia ni ventaja frente a Google Business Profile o QR.
+- Potential economic capture: Venta unitaria o por pequeño lote de hardware configurado a un negocio que ya tenga un objetivo medible, como solicitar reseñas o abrir un menú. No se debe prometer aumento de reseñas ni cobrar suscripción sin demostrar uso repetido. La ventaja, si aparece, tendría que venir de un canal vertical y medición simple, no del chip.
+- **Research routes to test (NOT validated claims):**
+  - Name a specific payer, customer job and credible reason existing alternatives fail.
+  - Choose a low-cost differentiation wedge (availability, price, experience, distribution or technology).
+  - Test channel, willingness to pay, ownership and contribution margin before building.
+- Critical gaps: Tasa real de toques NFC por ubicación, categoría de negocio y tipo de cliente.; Porcentaje de toques que termina en una reseña publicada; los usuarios deben estar autenticados en una cuenta de Google. Fuente: https://support.google.com/business/answer/3474122?hl=en&success=true; Diferencia incremental frente a un QR equivalente colocado en el mismo punto.
+- Possible initial budget:
+- Source URLs: https://pymevisible.cl/productos/tarjeta-google; https://tarjetas-nfc.com/precios
+
 ## NFC-enabled review and discovery cards for Chilean local merchants
 - Status: watch | general
 - Current idea: The hardware is commoditized, so a defensible wedge is not selling generic NFC cards. A testable offer is a configured, merchant-specific card or countertop token that routes customers to one measurable action—review, menu, reservation, reorder, or product discovery—with printed fallback and a simple monthly reporting layer. Existing listings establish purchase availability and observed retail prices, but not merchant willingness to pay.
@@ -1107,6 +1131,18 @@ Candidates: 230
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=c54ed06f-f96a-4839-bdf4-62b50617d812
+
+## Chile Open Finance API conformance and consent-flow test harness
+- Status: watch | open_finance_chile
+- Current idea: Existe una ventana verificable para crear un activo de prueba reutilizable —mock APIs, validadores de consentimiento, pruebas de seguridad y documentación de integración— antes de que participantes regulados tengan que completar sus desarrollos. La evidencia no demuestra todavía un comprador ni disposición de pago.
+- Potential economic capture: Vender acceso o licencias de un paquete de pruebas y documentación solamente si una entidad participante confirma por escrito que lo necesita y acepta probarlo; alternativamente, usarlo como activo interno para una integración regulatoria propia. No se infiere precio, margen ni autorización para operar como PSBI o PSIP.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/prensa/625/articles-97684_doc_pdf.pdf
 
 ## Chile Open Finance API conformance test harness for regulated participants
 - Status: watch | open_finance_chile

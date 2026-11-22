@@ -7345,6 +7345,91 @@
     {
       "ai_leverage": "",
       "authorized_for_execution": false,
+      "contrary_evidence": [
+        "Existe demanda comercial observable: múltiples proveedores chilenos ofrecen tarjetas o placas NFC para reseñas, con configuración, despacho nacional y precios publicados. Fuentes: https://nfctech.cl/preguntas-frecuentes.html ; https://linktap.cl/resenas-google/ ; https://tarjetas-nfc.com/producto/tarjeta-google ; https://pymevisible.cl/tarjeta-nfc-qr",
+        "El producto puede eliminar pasos de búsqueda y llevar directamente al enlace de reseñas, lo que podría ser útil en atención a domicilio, servicios en terreno o negocios donde el cliente no permanece frente a un mesón. Fuente: https://pymevisible.cl/tarjeta-nfc-qr",
+        "Google reconoce oficialmente el uso de enlaces o códigos QR para solicitar reseñas, confirmando que existe un flujo legítimo y medible; sin embargo, ese mismo recurso puede implementarse sin comprar hardware. Fuente: https://support.google.com/business/answer/16816815?hl=en-en-4",
+        "La existencia de proveedores con opciones de panel, personalización y formatos de placa indica posibles extensiones de servicio, aunque no demuestra disposición a pagar ni retención. Fuente: https://nfctech.cl/preguntas-frecuentes.html ; https://vluetechservices.cl/catalogo/"
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-11-22T21:32:22.291514+00:00",
+      "discovery_lens": "market_positioning",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Oferta chilena comprable de tarjeta NFC para reseñas, con precio unitario publicado de 10.000 CLP, configuración previa y entrega local.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Tarjeta Google NFC en Chile | Pyme Visible",
+          "url": "https://pymevisible.cl/productos/tarjeta-google"
+        },
+        {
+          "claim": "Catálogo chileno con precios publicados para tarjetas, llaveros, placas y productos NFC orientados a negocios, incluyendo opciones sin mensualidad.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Precios Tarjetas NFC Chile",
+          "url": "https://tarjetas-nfc.com/precios"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.88,
+      "falsification_conditions": [
+        "Descartar la cuña si no se consiguen cinco instalaciones autorizadas en una categoría y zona concretas sin pagar por adelantado el acceso ni depender de relaciones personales excepcionales.",
+        "Descartar si, durante 14 días, la mediana es inferior a cinco toques por instalación o si no se observa ninguna acción económica medible posterior.",
+        "Descartar si el NFC no supera al QR visible en toques, acciones posteriores o costo por acción en una prueba con asignación comparable.",
+        "Descartar si los dueños no aceptan mantener el dispositivo visible o el personal no incorpora una solicitud breve al flujo de atención.",
+        "Descartar el modelo si el margen bruto por instalación no cubre razonablemente adquisición, configuración, despacho y soporte.",
+        "No lanzar suscripción si no se demuestra uso repetido, necesidad de cambiar destinos, analítica que el cliente valore o una mejora comercial medible.",
+        "Tratar como fatal para una tesis de hardware genérico si la única ventaja observada es que el enlace se abre con un toque, mientras Google ofrece QR y enlace gratuitos."
+      ],
+      "geography": "Chile",
+      "id": "opp_43736da56580a644bdce",
+      "judge_reviewed": true,
+      "judgment": "The generic NFC review-card/plate market is structurally crowded and easily substituted by free Google review links/QR codes, so it should not be pursued as a new hardware category or recurring SaaS thesis. However, a narrowly defined distribution experiment remains a plausible, low-capital research wedge: a specific local-business category may pay a modest one-time amount if an installed NFC/QR prompt demonstrably produces incremental, policy-compliant customer actions relative to QR alone. The cited evidence supports the existence of local competitors and free substitutes, but does not establish incremental conversion, willingness to pay, channel access, unit contribution margin, or repeatable sales. This survives only as a tightly bounded falsification study, not as an investable business conclusion.",
+      "last_record_updated_at": "2026-11-22T21:32:42.991822+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Tasa real de toques NFC por ubicación, categoría de negocio y tipo de cliente.",
+        "Porcentaje de toques que termina en una reseña publicada; los usuarios deben estar autenticados en una cuenta de Google. Fuente: https://support.google.com/business/answer/3474122?hl=en&success=true",
+        "Diferencia incremental frente a un QR equivalente colocado en el mismo punto.",
+        "Compatibilidad efectiva y comportamiento de NFC en los teléfonos de los clientes; no basta con que el producto sea técnicamente compatible.",
+        "Costo de adquisición de cinco o más instalaciones autorizadas y tiempo necesario para obtenerlas."
+      ],
+      "participation_path": "Comprar una unidad de una oferta existente, configurar un enlace controlado y proponer una prueba de 7–14 días a negocios de una sola categoría y zona. Registrar taps y acciones posteriores con un enlace analítico, comparando contra un QR visible. La falsificación de menor costo es intentar obtener 5 instalaciones autorizadas y comprobar si existe al menos una acción económica medible; si no hay acceso al local o no se observa uso, descartar la cuña.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "La única cuña ejecutable identificada es un experimento de distribución vertical —por ejemplo, instalar una placa NFC/QR en un tipo específico de negocio y medir taps hacia reseñas o menú—, no una nueva categoría de hardware. La evidencia no prueba conversión, recurrencia ni ventaja frente a Google Business Profile o QR.",
+      "title": "NFC de reseñas y descubrimiento para negocios con ubicación física",
+      "type": "physical_distribution_product",
+      "unknowns": [
+        "Tasa real de toques NFC por ubicación, categoría de negocio y tipo de cliente.",
+        "Porcentaje de toques que termina en una reseña publicada; los usuarios deben estar autenticados en una cuenta de Google. Fuente: https://support.google.com/business/answer/3474122?hl=en&success=true",
+        "Diferencia incremental frente a un QR equivalente colocado en el mismo punto.",
+        "Compatibilidad efectiva y comportamiento de NFC en los teléfonos de los clientes; no basta con que el producto sea técnicamente compatible.",
+        "Costo de adquisición de cinco o más instalaciones autorizadas y tiempo necesario para obtenerlas.",
+        "Margen neto después de fabricación, configuración, despacho, reemplazos, soporte y visitas.",
+        "Si los negocios valoran reseñas adicionales o solo compran una unidad de prueba sin volver a comprar.",
+        "Riesgo de incumplimiento si se usan incentivos, filtrado de reseñas negativas o tácticas que puedan interpretarse como participación no auténtica; Google prohíbe incentivos a cambio de reseñas. Fuente: https://support.google.com/business/answer/16816815?hl=en-en-4",
+        "Which exact payer segment has a high enough value per incremental review, menu opening, lead, or repeat visit to justify a paid installation.",
+        "Baseline and incremental rates for NFC taps, QR scans, destination completion, and published reviews in a matched on-site comparison.",
+        "Whether a vertical-specific workflow, placement, or channel can create defensibility beyond generic NFC hardware.",
+        "Fully loaded contribution margin per installed location, including sales time and any in-person work.",
+        "Whether merchants purchase additional units, replacements, analytics, destination changes, or a bundled service at sufficient frequency to support recurring revenue.",
+        "Whether five comparable authorized pilot sites can be recruited in one category and geographic micro-market without paid access or unusually favorable relationships."
+      ],
+      "value_capture_mechanism": "Venta unitaria o por pequeño lote de hardware configurado a un negocio que ya tenga un objetivo medible, como solicitar reseñas o abrir un menú. No se debe prometer aumento de reseñas ni cobrar suscripción sin demostrar uso repetido. La ventaja, si aparece, tendría que venir de un canal vertical y medición simple, no del chip.",
+      "verified_sales": null,
+      "vertical": "general",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": true,
       "discovered_at": "2026-10-19T00:23:02.836869+00:00",
@@ -12032,6 +12117,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-22T21:32:22.290345+00:00",
+      "discovery_lens": "asset_ownership",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "La CMF anunció el anexo técnico, portal de desarrolladores, sandbox, participación simplificada y entrada en vigor en julio de 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System, incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        },
+        {
+          "claim": "El documento de CMF describe APIs de cuentas, saldos y transacciones destinadas a PSBI y PSIP con consentimiento del cliente.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Avances en implementación regulatoria: SFA y Ley de Fraudes",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/articles-97684_doc_pdf.pdf"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_5173eb38ccea91c51324",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-22T21:32:22.373730+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Descargar las especificaciones oficiales, implementar localmente un mock de los endpoints de cuentas y transacciones descritos por CMF, y construir un flujo de consentimiento no productivo. Contactar públicamente a entidades listadas como participantes o asociaciones del ecosistema para solicitar una entrevista técnica, sin representar cumplimiento regulatorio. La prueba de falsificación de menor costo es obtener 3 respuestas de potenciales integradores sobre si pagarían por ejecutar sus casos de prueba contra el harness; si ninguna acepta probarlo o comparte un caso concreto, abandonar la oportunidad.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Existe una ventana verificable para crear un activo de prueba reutilizable —mock APIs, validadores de consentimiento, pruebas de seguridad y documentación de integración— antes de que participantes regulados tengan que completar sus desarrollos. La evidencia no demuestra todavía un comprador ni disposición de pago.",
+      "title": "Chile Open Finance API conformance and consent-flow test harness",
+      "type": "software_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Vender acceso o licencias de un paquete de pruebas y documentación solamente si una entidad participante confirma por escrito que lo necesita y acepta probarlo; alternativamente, usarlo como activo interno para una integración regulatoria propia. No se infiere precio, margen ni autorización para operar como PSBI o PSIP.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-11-22T15:55:36.008008+00:00",
       "discovery_lens": "chile_technology_import",
       "estimated_capital": "",
@@ -14948,6 +15087,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-22T21:32:22.290993+00:00",
+      "discovery_lens": "nfc_smart_commerce",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Viña Santa Rita informó un piloto con Tar System basado en NFC, ID único por chip, cifrado y protección de escritura, con implementación en curso en la fecha de publicación.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Tar System y Viña Santa Rita implementan sistema para evitar la falsificación",
+          "url": "https://www.santarita.com/noticias/tar-system-y-vina-santa-rita-implementan-sistema-para-evitar-la-falsificacion/"
+        },
+        {
+          "claim": "Un caso internacional describe autenticación de vino mediante NFC, identidad digital y verificación de botellas de alto valor; sirve como evidencia de mecanismo, no de demanda chilena actual.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Identiv NFC and blockchain authenticate wine",
+          "url": "https://iotm2mcouncil.org/iot-library/news/smart-logistics-news/identiv-nfc-and-blockchain-authenticate-wine/"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.78,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_c726ef50d9c70a45080e",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-22T21:32:22.373855+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Reproducir primero una demo con 20–50 etiquetas NFC comerciales, una base de datos mínima y una página que muestre lote, origen y estado, sin afirmar certificación ni seguridad antifalsificación completa. Presentarla a productores o exportadores de vinos premium y pedir permiso para una prueba controlada en un solo SKU. La falsificación más barata es medir si al menos un operador acepta aportar botellas, datos de lote y acceso a un canal de venta para una prueba; si solo recibe interés general sin acceso a producto o canal, no avanzar.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "La oportunidad concreta no es vender tarjetas NFC genéricas, ya ofrecidas en Chile, sino probar una unidad mínima de trazabilidad/autenticidad para una línea premium o de exportación donde una botella falsificada o desviada tenga valor económico suficiente. La evidencia confirma un piloto histórico, pero no confirma demanda actual, volumen ni presupuesto disponible.",
+      "title": "Piloto de autenticidad NFC para botellas de vino chileno",
+      "type": "productized_hardware_software",
+      "unknowns": [],
+      "value_capture_mechanism": "Cobrar por un piloto de etiquetas NFC únicas y una página de verificación por lote, únicamente después de que una viña, distribuidor o exportador confirme el problema y acepte financiar etiquetas de prueba. El mecanismo económico verificable sería reducir disputas de autenticidad, facilitar verificación en punto de venta o diferenciar una línea premium; no se puede afirmar ahorro ni incremento de precio sin experimento.",
+      "verified_sales": null,
+      "vertical": "chile_localization",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-22T00:23:58.711347+00:00",
       "discovery_lens": "energy_localization",
       "estimated_capital": "",
@@ -16135,13 +16328,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-22T15:55:53.106607+00:00",
+  "generated_at": "2026-11-22T21:32:43.458988+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 125,
-  "reviewed_cards": 100,
+  "reviewed_cards": 101,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 355,
-  "watch": 230
+  "total_distinct_opportunities": 358,
+  "watch": 233
 }

@@ -593,6 +593,42 @@
       "category": "chile_localization",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Reproducir primero una demo con 20–50 etiquetas NFC comerciales, una base de datos mínima y una página que muestre lote, origen y estado, sin afirmar certificación ni seguridad antifalsificación completa. Presentarla a productores o exportadores de vinos premium y pedir permiso para una prueba controlada en un solo SKU. La falsificación más barata es medir si al menos un operador acepta aportar botellas, datos de lote y acceso a un canal de venta para una prueba; si solo recibe interés general sin acceso a producto o canal, no avanzar.",
+      "current_thesis": "La oportunidad concreta no es vender tarjetas NFC genéricas, ya ofrecidas en Chile, sino probar una unidad mínima de trazabilidad/autenticidad para una línea premium o de exportación donde una botella falsificada o desviada tenga valor económico suficiente. La evidencia confirma un piloto histórico, pero no confirma demanda actual, volumen ni presupuesto disponible.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Piloto de autenticidad NFC para botellas de vino chileno",
+      "opportunity_id": "opp_c726ef50d9c70a45080e",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Find the smallest Chilean workflow whose economics differ from the original geography.",
+        "Secure lawful access, partners and after-sales support rather than copy protected technology.",
+        "Run a buyer interview or mock listing to falsify assumptions before capital commitment."
+      ],
+      "supporting_source_urls": [
+        "https://www.santarita.com/noticias/tar-system-y-vina-santa-rita-implementan-sistema-para-evitar-la-falsificacion/",
+        "https://iotm2mcouncil.org/iot-library/news/smart-logistics-news/identiv-nfc-and-blockchain-authenticate-wine/"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Cobrar por un piloto de etiquetas NFC únicas y una página de verificación por lote, únicamente después de que una viña, distribuidor o exportador confirme el problema y acepte financiar etiquetas de prueba. El mecanismo económico verificable sería reducir disputas de autenticidad, facilitar verificación en punto de venta o diferenciar una línea premium; no se puede afirmar ahorro ni incremento de precio sin experimento.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "chile_localization",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use only provider-authorized API access and confirm redistribution/derived-report rights before selling. Build a no-code or script prototype for 20 public-company records using the free quota. Contact five Chilean accounting, procurement or compliance firms with a sample report and ask whether they will pay for a one-month pilot; do not collect client credentials or promise regulated compliance outcomes. Kill the test if fewer than two firms request a paid pilot or if the API terms prohibit the proposed report. Lowest-cost falsification is a manually prepared sample plus five buyer interviews, before purchasing a paid plan.",
       "current_thesis": "A reproducible asset could monitor a defined list of Chilean companies for changes in business activity, tax-resolution status or published DTE contact data, producing a dated CSV/PDF exception report rather than manual research. The evidence supports data availability and paid API infrastructure, but does not establish willingness to pay, legal permission to redistribute the resulting data, or sufficient margin.",
       "founder_hours_initial_unverified_estimate": "",
@@ -2662,6 +2698,46 @@
       "category": "general",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Comprar una unidad de una oferta existente, configurar un enlace controlado y proponer una prueba de 7–14 días a negocios de una sola categoría y zona. Registrar taps y acciones posteriores con un enlace analítico, comparando contra un QR visible. La falsificación de menor costo es intentar obtener 5 instalaciones autorizadas y comprobar si existe al menos una acción económica medible; si no hay acceso al local o no se observa uso, descartar la cuña.",
+      "current_thesis": "La única cuña ejecutable identificada es un experimento de distribución vertical —por ejemplo, instalar una placa NFC/QR en un tipo específico de negocio y medir taps hacia reseñas o menú—, no una nueva categoría de hardware. La evidencia no prueba conversión, recurrencia ni ventaja frente a Google Business Profile o QR.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Tasa real de toques NFC por ubicación, categoría de negocio y tipo de cliente.",
+        "Porcentaje de toques que termina en una reseña publicada; los usuarios deben estar autenticados en una cuenta de Google. Fuente: https://support.google.com/business/answer/3474122?hl=en&success=true",
+        "Diferencia incremental frente a un QR equivalente colocado en el mismo punto.",
+        "Compatibilidad efectiva y comportamiento de NFC en los teléfonos de los clientes; no basta con que el producto sea técnicamente compatible.",
+        "Costo de adquisición de cinco o más instalaciones autorizadas y tiempo necesario para obtenerlas.",
+        "Margen neto después de fabricación, configuración, despacho, reemplazos, soporte y visitas.",
+        "Si los negocios valoran reseñas adicionales o solo compran una unidad de prueba sin volver a comprar."
+      ],
+      "investment_authorized": false,
+      "name": "NFC de reseñas y descubrimiento para negocios con ubicación física",
+      "opportunity_id": "opp_43736da56580a644bdce",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Name a specific payer, customer job and credible reason existing alternatives fail.",
+        "Choose a low-cost differentiation wedge (availability, price, experience, distribution or technology).",
+        "Test channel, willingness to pay, ownership and contribution margin before building."
+      ],
+      "supporting_source_urls": [
+        "https://pymevisible.cl/productos/tarjeta-google",
+        "https://tarjetas-nfc.com/precios"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Venta unitaria o por pequeño lote de hardware configurado a un negocio que ya tenga un objetivo medible, como solicitar reseñas o abrir un menú. No se debe prometer aumento de reseñas ni cobrar suscripción sin demostrar uso repetido. La ventaja, si aparece, tendría que venir de un canal vertical y medición simple, no del chip.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "general",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Buy a small batch of blank tags at the observed retail price, configure one landing page with UTM tracking and QR fallback, and place it with one consenting local merchant at no charge for a 14-day test. Measure scans, completed reviews or visits, and merchant-requested continuation. Ask the merchant to name a price only after observing results. Falsification step: test three merchants in the same neighborhood; abandon the wedge if there are no attributable actions or if merchants decline any paid continuation. Do not claim Google, Instagram, payment, or marketplace integration without permission.",
       "current_thesis": "The hardware is commoditized, so a defensible wedge is not selling generic NFC cards. A testable offer is a configured, merchant-specific card or countertop token that routes customers to one measurable action—review, menu, reservation, reorder, or product discovery—with printed fallback and a simple monthly reporting layer. Existing listings establish purchase availability and observed retail prices, but not merchant willingness to pay.",
       "founder_hours_initial_unverified_estimate": "",
@@ -3446,6 +3522,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Offer a narrowly scoped, fixed-output API conformance or sandbox-readiness assessment using the public CMF documentation. Any payment, buyer, permissions, production access, or regulatory status must be confirmed directly; the public evidence does not establish them.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Descargar las especificaciones oficiales, implementar localmente un mock de los endpoints de cuentas y transacciones descritos por CMF, y construir un flujo de consentimiento no productivo. Contactar públicamente a entidades listadas como participantes o asociaciones del ecosistema para solicitar una entrevista técnica, sin representar cumplimiento regulatorio. La prueba de falsificación de menor costo es obtener 3 respuestas de potenciales integradores sobre si pagarían por ejecutar sus casos de prueba contra el harness; si ninguna acepta probarlo o comparte un caso concreto, abandonar la oportunidad.",
+      "current_thesis": "Existe una ventana verificable para crear un activo de prueba reutilizable —mock APIs, validadores de consentimiento, pruebas de seguridad y documentación de integración— antes de que participantes regulados tengan que completar sus desarrollos. La evidencia no demuestra todavía un comprador ni disposición de pago.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile Open Finance API conformance and consent-flow test harness",
+      "opportunity_id": "opp_5173eb38ccea91c51324",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/prensa/625/articles-97684_doc_pdf.pdf"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Vender acceso o licencias de un paquete de pruebas y documentación solamente si una entidad participante confirma por escrito que lo necesita y acepta probarlo; alternativamente, usarlo como activo interno para una integración regulatoria propia. No se infiere precio, margen ni autorización para operar como PSBI o PSIP.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -8752,7 +8864,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-22T15:55:53.262161+00:00",
+  "generated_at": "2026-11-22T21:32:43.564433+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

@@ -2,16 +2,16 @@
 
 **Editorial theme grouping only; original opportunity records and gates are unchanged.**
 
-Canonical active cards: 230 | themes: 96 | headline cards: 12
+Canonical active cards: 233 | themes: 96 | headline cards: 12
 
 ## Saturated research themes
 
-- chile_open_finance: 93 cards (40.4%)
+- chile_open_finance: 94 cards (40.3%)
 
 ## One headline per theme
 
-- **NFC review-and-contact displays for Chilean cafés, hotels and service counters** — nfc_products; +9 same-theme research cards; reviewed=true (not a validated buyer)
-- **Chile SFA implementation test harness for fintech and bank API teams** — chile_open_finance; +92 same-theme research cards; reviewed=true (not a validated buyer)
+- **NFC review-and-contact displays for Chilean cafés, hotels and service counters** — nfc_products; +11 same-theme research cards; reviewed=true (not a validated buyer)
+- **Chile SFA implementation test harness for fintech and bank API teams** — chile_open_finance; +93 same-theme research cards; reviewed=true (not a validated buyer)
 - **BESS and inverter compliance pre-check for Chilean distributed-energy projects** — energy_infrastructure; +26 same-theme research cards; reviewed=true (not a validated buyer)
 - **Independent field-service and deployment support for autonomous agricultural weed-control robots** — robotics_agritech:independent_field_service; +1 same-theme research cards; reviewed=true (not a validated buyer)
 - **Chile RaaS deployment wedge for industrial-floor cleaning** — robotics_agritech:raas_deployment_wedge; +0 same-theme research cards; reviewed=true (not a validated buyer)
