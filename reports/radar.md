@@ -1,16 +1,28 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-22T16:30:01.822292+00:00
+Generated: 2026-11-22T21:57:00.813422+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 162
+- New this cycle: 179
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 663, ai 74, commerce 1, energy 634, robotics 428
+- Categories: agriculture 665, ai 74, commerce 1, energy 634, robotics 426
 
 ## Recently encountered signals
+
+### codewithjahnavi/AI-Smart-agricultural-Assistant
+- Source: https://github.com/codewithjahnavi/AI-Smart-agricultural-Assistant
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### sidsaxenaa/smart-crop-plannerr
+- Source: https://github.com/sidsaxenaa/smart-crop-plannerr
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### agrifuturelab/agrifuturelab.github.io
 - Source: https://github.com/agrifuturelab/agrifuturelab.github.io
@@ -446,18 +458,6 @@ Generated: 2026-11-22T16:30:01.822292+00:00
 
 ### prabhatkumar345/AgriTech
 - Source: https://github.com/prabhatkumar345/AgriTech
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Asymmetric ZincNitrate/Hydrogen Battery Chemistry Coupling Electrochemical Hydrogen Charge and Energy Storage
-- Source: https://doi.org/10.1021/jacsau.6c01152.s001
-- Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
-- First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### Tech-Dnyaneshwari/smart-farming-agent
-- Source: https://github.com/Tech-Dnyaneshwari/smart-farming-agent
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
