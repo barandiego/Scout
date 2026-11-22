@@ -1,6 +1,57 @@
 {
-  "active_candidates": [],
-  "active_structurally_reconstructable_count": 0,
+  "active_candidates": [
+    {
+      "available_budget_clp": 1600000.0,
+      "buyer": "CORPORACION MUNICIPAL DE CULTURA DE SAN JOAQUIN",
+      "closes_at": "2026-11-23T17:30:00",
+      "code": "1219234-91-COT26",
+      "estimated_budget": 1600000.0,
+      "name": "VALLAS PEATONALES",
+      "products": 1,
+      "region": "Región Metropolitana de Santiago"
+    },
+    {
+      "available_budget_clp": 600000.0,
+      "buyer": "DELEGACIÓN PRESIDENCIAL PROVINCIAL DE TIERRA DEL F",
+      "closes_at": "2026-11-26T12:00:00",
+      "code": "1536-166-COT26",
+      "estimated_budget": 600000.0,
+      "name": "Bombas 2 HP Red Humeda",
+      "products": 1,
+      "region": "Región de Magallanes y de la Antártica"
+    },
+    {
+      "available_budget_clp": 3240000.0,
+      "buyer": "SERVICIO NACIONAL DE SALUD HOSPITAL DE COELEMU",
+      "closes_at": "2026-11-24T09:00:00",
+      "code": "1057506-372-COT26",
+      "estimated_budget": 3240000.0,
+      "name": "CARTRIDGE CARTUCHOS BRAZALETES",
+      "products": 1,
+      "region": "Región del Ñuble"
+    },
+    {
+      "available_budget_clp": 2000000.0,
+      "buyer": "DELEGACIÓN PRESIDENCIAL PROVINCIAL DE TIERRA DEL F",
+      "closes_at": "2026-11-26T12:00:00",
+      "code": "1536-165-COT26",
+      "estimated_budget": 2000000.0,
+      "name": "GABINETES RED HUMEDA",
+      "products": 1,
+      "region": "Región de Magallanes y de la Antártica"
+    },
+    {
+      "available_budget_clp": 3000000.0,
+      "buyer": "DELEGACIÓN PRESIDENCIAL PROVINCIAL DE TIERRA DEL F",
+      "closes_at": "2026-11-27T12:00:00",
+      "code": "1536-164-COT26",
+      "estimated_budget": 3000000.0,
+      "name": "ADQUISICIÓN DE BATERÍAS DE LITIO PARA SISTEMA FOTOVOLTAICO",
+      "products": 1,
+      "region": "Región de Magallanes y de la Antártica"
+    }
+  ],
+  "active_structurally_reconstructable_count": 5,
   "diagnostics": {
     "api_failures": {},
     "budget_exhausted": false,
@@ -18,7 +69,7 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-22T07:05:36Z",
+  "generated_at": "2026-11-22T16:25:37Z",
   "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -26,17 +77,17 @@
   "phase1": {
     "records": 20,
     "rejection_reasons": {
-      "missing_products": 2,
-      "no_observable_competitive_prices": 1
+      "missing_products": 1,
+      "no_observable_competitive_prices": 4
     },
-    "resolved": 20,
-    "structurally_reconstructable": 17,
-    "with_observable_quote_totals": 19,
-    "with_purchase_order_indicator": 1
+    "resolved": 15,
+    "structurally_reconstructable": 15,
+    "with_observable_quote_totals": 11,
+    "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-22T07:05:36Z"
+    "changed_to": "2026-11-22T16:25:37Z"
   }
 }
