@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-21T21:45:44.301738+00:00
+Generated: 2026-11-22T07:11:56.559563+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 162
+- New this cycle: 180
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
-- Categories: agriculture 664, ai 75, commerce 1, energy 619, robotics 441
+- Feed failures (fail-open for public intake only): none
+- Categories: agriculture 665, ai 73, commerce 1, energy 629, robotics 432
 
 ## Recently encountered signals
+
+### Boddupalli-Yashwanth/-RythuMitra-AI
+- Source: https://github.com/Boddupalli-Yashwanth/-RythuMitra-AI
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### rohitrajethombre-sudo/Agrifuture-lab
 - Source: https://github.com/rohitrajethombre-sudo/Agrifuture-lab
@@ -454,10 +460,4 @@ Generated: 2026-11-21T21:45:44.301738+00:00
 - Source: https://doi.org/10.70269/10.70269/9134883549
 - Domain: energy | Suggested angle: Energy hardware, efficiency, financing or infrastructure
 - First test: Check Chilean regulation, grid rules, procurement, installed cost and verified payback.
-- Status: **unverified research lead**
-
-### kedarcore/AgromindAI
-- Source: https://github.com/kedarcore/AgromindAI
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
