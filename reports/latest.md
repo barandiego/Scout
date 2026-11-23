@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-23T05:46:51.987241+00:00
+Generated: 2026-11-23T19:50:20.961290+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['vertical_farming_economics', 'energy_localization', 'wildcard']
-- raw_candidates: 3
-- parseable_candidates: 3
-- normalized_candidates: 3
+- lenses: ['remote_paid_evaluation', 'inventoryless_product_validation', 'fixed_scope_paid_research_asset']
+- raw_candidates: 1
+- parseable_candidates: 1
+- normalized_candidates: 1
 - normalization_rejected: 0
-- grounded_sources: 5
+- grounded_sources: 2
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 0
+- judge_attempts: 1
 - critic_reviews: 1
-- judge_reviews: 0
+- judge_reviews: 1
 - survivors: 0
-- watches: 2
-- rejected: 2
+- watches: 0
+- rejected: 1
 - errors_by_stage: {}
-- rejection_reasons: {'discarded_ungrounded_url': 1, 'insufficient_unique_evidence': 1}
-- cost_usd: 0.0300712
+- rejection_reasons: {}
+- cost_usd: 0.0450087
 - cost_uncertain: False
-- budget_remaining_usd: 0.0499288
+- budget_remaining_usd: 0.0349913
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -56,7 +56,7 @@ No survivors. Scout does not manufacture a daily winner.
 ```json
 {
   "notes": [
-    "deep_review_lane=backlog",
+    "deep_review_lane=fresh",
     "research_queue_unreviewed=121"
   ],
   "stages": [
@@ -65,40 +65,26 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 32,
+      "grounded_source_count": 18,
       "search_source_urls": [
-        "https://apnews.com/article/28d360b3c8d7fa424892e23fe1c85c93",
-        "https://arxiv.org/abs/2403.08934",
-        "https://arxiv.org/abs/2507.18419",
-        "https://arxiv.org/abs/2607.26968",
-        "https://coloradoproduce.org/wp-content/uploads/2023/07/cit_97817_2022-harvest-report_r6-digital_prod.pdf",
-        "https://en.wikipedia.org/wiki/Vertical_farming",
-        "https://energia.gob.cl/consultas-publicas/modificaciones-al-reglamento-ds-88-para-medios-de-generacion-de-pequena-escala",
-        "https://energia.gob.cl/node/24995",
-        "https://energia.gob.cl/node/25059",
-        "https://energia.gob.cl/node/27232",
-        "https://energia.gob.cl/noticias/nacional/ministra-rincon-expuso-agenda-regulatoria-en-seminario-sobre-desafios-del-sector-energetico?page=12",
-        "https://energia.gob.cl/sites/default/files/Dec_32_2025_en_tramite.pdf",
-        "https://energia.gob.cl/sites/default/files/documentos/ds_10_version_cambios_consulta_publica.pdf",
-        "https://energia.gob.cl/sites/default/files/documentos/generacion_distribuida_en_chile.pdf",
-        "https://energia.gob.cl/sites/default/files/documentos/generacion_distribuida_en_chile.pdf",
-        "https://energia.gob.cl/sites/default/files/documentos/opiniones_y_comentarios_recibidos.pdf",
-        "https://farmario.com/en/our-products/indoor-farm/indoor-vertical-farm-economics/",
-        "https://link.springer.com/article/10.1007/s13593-025-01055-w?trk=public_post_comment-text",
-        "https://los40.com/2026/10/26/que-es-la-agricultura-vertical-y-como-puede-beneficiar-al-planeta/",
-        "https://www.axios.com/2020/04/22/vertical-farms-demand-coronavirus",
-        "https://www.axios.com/2023/01/06/indoor-farming-small-scale-farmers",
-        "https://www.axios.com/local/chicago/2026/08/10/downtown-vertical-farming-venture-takes-root",
-        "https://www.countrylife.co.uk/gardens-interiors/farms-for-everyone-what-if-we-could-all-grow-our-own-produce-from-the-comfort-of-our-living-rooms",
-        "https://www.energia.gob.cl/mini-sitio/reglamentos",
-        "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2026.1833809/full",
-        "https://www.odepa.gob.cl/publicaciones/boletines/boletin-de-hortalizas-enero-2026",
-        "https://www.odepa.gob.cl/publicaciones/boletines/boletin-de-hortalizas-enero-2026",
-        "https://www.odepa.gob.cl/publicaciones/boletines/boletin-de-hortalizas-septiembre-2026",
-        "https://www.odepa.gob.cl/publicaciones/boletines/boletin-de-hortalizas-septiembre-2026",
-        "https://www.sciencedirect.com/science/article/pii/S016816992400200X",
-        "https://www.sciencedirect.com/science/article/pii/S016816992400200X",
-        "https://www.youtube.com/watch?v=VHASexPspjU"
+        "https://app.outlier.ai/login?ad_id=628025286&campaign_id=368362216&domain=spanish&id=4500426005&job_post_id=4500426005&language=ES&li_fat_id=8e2ddbb7-96b9-440b-b6cd-0dcb29660d9c&locale=CL&pod=languages",
+        "https://app.outlier.ai/opportunities/4481627005",
+        "https://app.outlier.ai/opportunities/4506395005",
+        "https://app.outlier.ai/opportunities?adgroup_id=%7B%7Badset.id%7D%7D&domain=spanish&language=ES&locale=CL&pod=languages",
+        "https://ayuda.miprende.cl/en/mercado-libre/configuracion",
+        "https://centrodeproveedores.mercadolibre.cl/aprender/nota/como-usar-el-reporte-de-desempeno-para-monitorear-tus-promociones",
+        "https://developers.mercadolibre.cl/es_cl/buscador-de-productos",
+        "https://developers.mercadolibre.cl/es_cl/comision-por-vender",
+        "https://investor.mercadolibre.com/open-file/pdf?file=aHR0cHM6Ly9odHRwMi5tbHN0YXRpYy5jb20vc3RvcmFnZS9tbC1jbXMtYmFja2VuZC9jbXMtZG9jdW1lbnRzLXByb2Qvc2VjLzAwMDEwOTk1OTAvMDAwMTA5OTU5MC0yNi0wMDAwMDYvZm9ybTEwLUstMDAwMTA5OTU5MC0yNi0wMDAwMDYucGRm",
+        "https://journals.sagepub.com/doi/pdf/10.1177/29768624251414542",
+        "https://outlier.ai/?trk=public_post_comment-text",
+        "https://outlier.ai/legal/flexible-working-guidelines",
+        "https://s3.amazonaws.com/sec.irpass.cc/2831/0001099590-24-000008.pdf",
+        "https://www.df.cl/empresas/retail/informe-de-la-fne-revela-los-datos-de-mercado-libre-en-chile-concentra-mas",
+        "https://www.fne.gob.cl/en/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-plataformas/",
+        "https://www.fne.gob.cl/wp-content/uploads/2026/04/FNE_ANEXO_Informe_Preliminar_EM_Comercio_Electronico_EM10_2024.pdf",
+        "https://www.fne.gob.cl/wp-content/uploads/2026/04/FNE_Informe_Preliminar_EM_Comercio_Electronico_EM10_2024.pdf",
+        "https://www.revistalogistec.com/ediciones_pdf/Logistec_ed134.pdf"
       ]
     },
     {
@@ -117,112 +103,95 @@ No survivors. Scout does not manufacture a daily winner.
       "retry_justified": false
     },
     {
-      "index": 1,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [
-        "discarded_ungrounded_url"
-      ],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 1,
-      "retry_justified": false
-    },
-    {
-      "index": 2,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 2,
-      "retry_justified": false
-    },
-    {
       "stage": "critic",
-      "candidate_id": "opp_e28d4caaa77e09a2caa9",
+      "candidate_id": "opp_2e968122c56164ccbacb",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 30,
+      "grounded_source_count": 20,
       "search_source_urls": [
-        "https://apnews.com/article/6e78fb86160d6cabe12f245307706cf4",
-        "https://apnews.com/article/a84b8c7621c474c9ee9339b1d809a629",
-        "https://chambers.com/practice-guides/guides/energy-and-infrastructure-m-and-a-2025/chile/bGF3LWFuZC",
-        "https://cincodias.elpais.com/companias/2026-10-09/grenergy-cierra-una-financiacion-de-457-millones-para-impulsar-nuevos-proyectos-renovables-en-chile.html",
-        "https://econosur.org/insights/chile/battery-storage-grid-bottleneck/",
-        "https://electromineria.cl/capacidad-pmg-pmgd-chile-4400-mw/",
-        "https://electromineria.cl/pmg-pmgd-4100-mw-capacidad-instalada-chile-2025/",
-        "https://electromineria.cl/sector-pmgd-acerca-4000-mw-capacidad-instalada-chile/",
-        "https://elpais.com/america-futura/2024-12-19/la-caida-de-los-precios-de-las-baterias-impulsa-un-boom-de-almacenamiento-de-energia-limpia.html",
-        "https://elpais.com/chile/2025-05-16/chile-quiere-llevar-el-litio-del-salar-a-la-fabrica-pero-tropieza-con-las-dudas-de-dos-inversionistas-claves.html",
-        "https://en.wikipedia.org/wiki/Battery_energy_storage_system",
-        "https://en.wikipedia.org/wiki/Curtailment_in_Chile",
-        "https://en.wikipedia.org/wiki/List_of_power_stations_in_Chile",
-        "https://en.wikipedia.org/wiki/Solar_power_in_Chile",
-        "https://energia.gob.cl/sites/default/files/documentos/4._felix_canales_cne_vf.pdf",
-        "https://energia.gob.cl/sites/default/files/documentos/opiniones_y_comentarios_recibidos.pdf",
-        "https://es.scribd.com/document/1025398150/Informe-Monitoreo-de-La-Competencia-2025-Chile",
-        "https://es.wikipedia.org/wiki/Central_hidroel%C3%A9ctrica_Los_Morros",
-        "https://prod-bo.ibanet.org/opportunities-challenges-distributed-energy-chile",
-        "https://www.cne.cl/wp-content/uploads/2024/03/Webinar-Modificacion-NTCO-PMGD-2024.pdf",
-        "https://www.coordinador.cl/novedades/coordinador-electrico-presenta-informe-de-monitoreo-de-la-competencia-con-desafios-estructurales/",
-        "https://www.coordinador.cl/presentaciones/estudio-de-verificacion-de-posibles-congestiones-en-transmision-zonal-por-inyeccion-de-pmgd/",
-        "https://www.coordinador.cl/wp-content/uploads/2026/04/Informe-Monitoreo-2025.pdf",
-        "https://www.coordinador.cl/wp-content/uploads/2026/04/Resumen-Informe-2025.pdf",
-        "https://www.ibanet.org/opportunities-challenges-distributed-energy-chile",
-        "https://www.iea.org/files/2fcd8719-121f-4248-914a-75ea2485be21/Chile2050EnergyTransitionRoadmap.pdf",
-        "https://www.itpro.com/infrastructure/data-centres/is-bess-the-key-to-data-center-energy-demand",
-        "https://www.mdpi.com/2571-5577/9/1/22",
-        "https://www.pv-tech.org/energy-storage-alleviated-solar-pv-wind-curtailment-increase-in-chile-in-2025/?nocache=1768164782",
-        "https://www.youtube.com/watch?v=1QOS7bg_x1w"
+        "https://app.jobadvisor.cl/job-offers/details/escritor-freelance-en-espanol-chile-87601",
+        "https://app.outlier.ai/login?id=4481627005&job_post_id=4481627005",
+        "https://app.outlier.ai/opportunities/4481627005",
+        "https://cdn.ymaws.com/www.amwa.org/resource/resmgr/journal/issues/2019/AMWA_J_34.2_online.pdf",
+        "https://cl.linkedin.com/jobs/view/spanish-chile-freelance-writer-at-neura-scale-4106013375",
+        "https://cl.trabajo.org/oferta-2254-70137b246fa562b6e323764a5546728a",
+        "https://cl.trabajo.org/oferta-2254-afe17e08d0cd2fe9297a6b4232e22044",
+        "https://dspace.umh.es/bitstream/11000/29200/1/MarinSanchiz%2C%20Cristi%C3%A1n%20Ramon.pdf",
+        "https://elpais.com/tecnologia/2026-10-15/los-trabajadores-europeos-que-entrenan-las-ia-ya-sabia-que-me-metia-en-unas-condiciones-que-no-eran-las-mejores.html",
+        "https://outlier.ai/legal/flexible-working-guidelines",
+        "https://s3.eu-central-1.amazonaws.com/eu-st01.ext.exlibrisgroup.com/41ILO_INST/storage/alma/EB/A6/28/EE/56/B0/0D/3C/47/14/30/EA/2A/6C/FB/7D/Informe%20Plataformas%20Digitales_EN_web.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJUYRSPBSIJGGDX6A%2F20260607%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260607T100342Z&X-Amz-Expires=86399&X-Amz-Signature=b9c5265cdcb544f93d4406ca485ac3ce1f2b00209cd69dc2697341e20aa4952a&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B+filename%3D%22Informe%2520Plataformas%2520Digitales_EN_web.pdf%22%3B+filename%2A%3DUTF-8%27%27Informe%2520Plataformas%2520Digitales_EN_web.pdf&response-content-type=application%2Fpdf",
+        "https://static1.squarespace.com/static/632b1725aea33e5c7d02b12f/t/692dc9e3ae5a0d45b40e3392/1764608483447/The%2BState%2Bof%2BFreelance%2BJournalism%2BReport%2B2024.pdf%3Futm_source%3Dsubstack%26utm_medium%3Demail",
+        "https://www.indeed.com/cmp/Outlier-Ai/reviews?fcountry=ALL&fjobcat=media",
+        "https://www.indeed.com/cmp/Outlier-Ai/reviews?fcountry=ALL&fjobtitle=Contributor&ftext=Freelance&ftopic=paybenefits",
+        "https://www.indeed.com/q-english-chile-jobs.html?vjk=37d1ad9d867ba368",
+        "https://www.jobleads.com/cl/job/remote-spanish-chile-writer-for-ai-training--santiago--e77d31c91a6d0585ff37eadd12da28665",
+        "https://www.litoralpress.cl/SimbiuPDF/2025/07/21/6049403.pdf",
+        "https://www.reddit.com/r/outlier_ai/comments/1gzbd2g",
+        "https://www.reddit.com/r/outlier_ai/comments/1jaijds",
+        "https://www.undp.org/sites/g/files/zskgke326/files/2025-09/bp_44_diversification_employment.pdf"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_e28d4caaa77e09a2caa9",
-      "coercions": [
-        "critic_case"
-      ]
+      "candidate_id": "opp_2e968122c56164ccbacb",
+      "coercions": []
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_2e968122c56164ccbacb",
+      "response_status": "completed",
+      "incomplete_reason": "",
+      "grounded_source_count": 0,
+      "search_source_urls": []
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_2e968122c56164ccbacb",
+      "coercions": []
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 171,
-      "cache_write_tokens": 5462,
+      "reasoning_tokens": 190,
+      "cache_write_tokens": 5123,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0152669,
+      "cumulative_cost_usd": 0.01382195,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13767,
+      "input_tokens": 13509,
       "cached_tokens": 0,
-      "output_tokens": 1867,
+      "output_tokens": 720,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0152669
+      "estimated_cost_usd": 0.01382195
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 142,
-      "cache_write_tokens": 5350,
+      "reasoning_tokens": 136,
+      "cache_write_tokens": 5221,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0300712,
+      "cumulative_cost_usd": 0.0280722,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13816,
+      "input_tokens": 13556,
       "cached_tokens": 0,
-      "output_tokens": 1478,
+      "output_tokens": 1065,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0148043
+      "estimated_cost_usd": 0.01425025
+    },
+    {
+      "stage": "judge",
+      "available": true,
+      "reasoning_tokens": 253,
+      "cache_write_tokens": 3081,
+      "accounting_notes": [],
+      "cumulative_cost_usd": 0.0450087,
+      "model": "gpt-5.6-terra",
+      "input_tokens": 3084,
+      "cached_tokens": 0,
+      "output_tokens": 769,
+      "web_search_calls": 0,
+      "estimated_cost_usd": 0.0169365
     }
   ]
 }
