@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-11-22T21:32:43.458988+00:00
+Generated: 2026-11-23T05:46:52.346342+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 233 (0 HQ survivors, 233 watches)
-- Rejected opportunities excluded: 125
+- Active research: 234 (0 HQ survivors, 234 watches)
+- Rejected opportunities excluded: 127
 - Critic-and-judge reviewed: 101
 - Autonomous execution authorization: 0
 
@@ -1503,6 +1503,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.energy.gov/ceser/articles/new-ceser-report-offers-supply-chain-mitigation-strategies-battery-storage-systems; https://www.energy.gov/documents/2026-useer-national-report
 
+### Behind-the-meter solar-plus-storage feasibility and dispatch service for Chilean commercial users [opp_3d4003f513432b6ac791]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile
+- Thesis: A small operator could test whether commercial customers with solar, demand charges, curtailed generation, or poor backup reliability will pay for a site-specific battery dispatch and connection-feasibility analysis. The economic mechanism is avoided peak purchases, greater self-consumption, backup value, and potentially market participation; actual savings depend on the customer’s tariff, load profile, interconnection status, and battery quote.
+- Value capture: Fixed-fee feasibility study, commissioning support, or software/reporting asset sold through an authorized installer, energy retailer, or electrical engineer. Do not assume permission to operate assets, represent customers before regulators, or capture market revenues without verifying the applicable rules and counterparties.
+- Participation hypothesis: Obtain 12 months of interval or hourly load data from 3–5 reachable Chilean businesses such as cold storage, irrigation, workshops, or small industrial sites; collect current tariff and solar/battery quotes from installers; model baseline versus solar-plus-storage under conservative degradation and tariff assumptions; ask each site for a paid feasibility study or written permission to proceed to an installer quote. Falsification threshold: stop if no site can provide data or if modeled annual savings do not cover a realistic equipment-and-finan
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://energia.gob.cl/sites/default/files/documentos/generacion_distribuida_en_chile.pdf; https://energia.gob.cl/sites/default/files/Dec_32_2025_en_tramite.pdf
+
 ### BESS compliance pre-screening and commissioning-document package for Chilean installers [opp_5e6b2a2d2d3d586c5432]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile
 - Thesis: Installers and project developers may face avoidable redesign, documentation and commissioning risk when specifying or submitting BESS projects under the updated rules. A narrow, testable service is a paid document/readiness review—not equipment ownership, engineering sign-off or guaranteed permitting.
@@ -2123,16 +2133,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.santarita.com/noticias/tar-system-y-vina-santa-rita-implementan-sistema-para-evitar-la-falsificacion/; https://iotm2mcouncil.org/iot-library/news/smart-logistics-news/identiv-nfc-and-blockchain-authenticate-wine/
 
-### PMGD battery-congestion screening and dispatch-rights data product [opp_e28d4caaa77e09a2caa9]
-- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile, initially zonal transmission-constrained areas with PMGD concentration
-- Thesis: A PMGD owner or developer may need a low-cost way to screen whether adding a battery can reduce restricted-hour exposure, improve dispatchability, or avoid pursuing a connection configuration that is operationally constrained. The evidence supports a congestion-screening problem, but does not establish that any particular project will be profitable.
-- Value capture: Sell a project-specific screening package consisting of a public-data congestion map, hourly curtailment/restriction scenarios, battery-sizing sensitivities, and a go/no-go memo. A later, separately contracted implementation or engineering referral could follow, but no buyer, price or conversion rate is assumed.
-- Participation hypothesis: Build a spreadsheet or lightweight web tool using publicly available CEN PMGD, transmission-congestion, market-price and connection-rule data. Select 10 identifiable PMGD or prospective-project cases from public records, produce one-page no-cost screening outputs, and ask project owners, developers or electrical engineering firms whether the report changes a live battery or interconnection decision. Falsification threshold: stop if at least 5 of 10 relevant contacts cannot validate a current decision need, or if none will pay for a paid pilot a
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.coordinador.cl/presentaciones/informe-monitoreo-de-la-competencia-en-el-mercado-electrico-2025/; https://cartas.coordinador.cl/show/687529af3563573f157d308c
-
 ### Pre-compliance integration and testing package for Chile’s Open Finance System [opp_8c21e3ab01eded9b19de]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: Entities preparing to participate may need test cases, integration checklists, consent-flow documentation, API observability, and evidence packages before production participation. The opportunity is narrower than building a full fintech product: create reusable testing and readiness artifacts against the official specifications.
@@ -2182,6 +2182,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-prior-authorization-final-rule-cms-0057-f; https://healthit.gov/resources/onc-finalizes-the-adoption-of-certain-health-it-standards-in-the-fy2027-cms-ipps-final-rule/
+
+### Processed-vegetable or seed import-substitution screening in Chile [opp_28a28a78d13e47dc25c3]
+- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
+- Thesis: The evidence supports only a screening hypothesis: a narrowly specified processed product, ingredient, or seed category may have a local-supply or distribution wedge. Aggregate trade values do not prove a profitable opportunity, because they do not reveal SKU-level prices, landed costs, certifications, incumbents, or buyer concentration.
+- Value capture: Import substitution through contract processing, private-label distribution, or local sourcing; cash flow would need to come from documented purchase orders or distributor commitments rather than assumed consumer demand.
+- Participation hypothesis: Use ODEPA trade data and customs/product codes to select one imported processed-vegetable or seed SKU; obtain three current landed-cost quotes, three domestic wholesale price quotes, and written indications from at least five potential buyers. Falsify if the landed-cost advantage is absent, certification/volume requirements are prohibitive, or no buyer will accept a paid sample or trial order. Do not invest in processing equipment before this SKU-level test.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.odepa.gob.cl/publicaciones/boletines/boletin-de-hortalizas-enero-2026; https://www.odepa.gob.cl/publicaciones/boletines/boletin-de-hortalizas-septiembre-2026
 
 ### Rare-earth magnet scrap aggregation for U.S. hydrometallurgical recyclers [opp_c8e6aafdbd5e82e3b4e5]
 - Status: WATCH_REQUIRES_VALIDATION | general | United States

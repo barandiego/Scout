@@ -11793,6 +11793,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-23T05:46:29.573315+00:00",
+      "discovery_lens": "energy_localization",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Chile’s distributed-generation framework describes net-billing up to 100 kW and distributed generation categories up to 1.5 MW and 9 MW, including self-consumption and energy injection mechanisms.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Marco regulatorio permite proyectos GD para autoconsumo de hasta al menos 9 MW",
+          "url": "https://energia.gob.cl/sites/default/files/documentos/generacion_distribuida_en_chile.pdf"
+        },
+        {
+          "claim": "The draft text recognizes generation-plus-storage systems, self-consumption, autodespatch for surplus below 9 MW, and possible ancillary-service participation.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Proyecto de decreto sobre sistemas de generación y almacenamiento",
+          "url": "https://energia.gob.cl/sites/default/files/Dec_32_2025_en_tramite.pdf"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.82,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_3d4003f513432b6ac791",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-23T05:46:29.666101+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Obtain 12 months of interval or hourly load data from 3–5 reachable Chilean businesses such as cold storage, irrigation, workshops, or small industrial sites; collect current tariff and solar/battery quotes from installers; model baseline versus solar-plus-storage under conservative degradation and tariff assumptions; ask each site for a paid feasibility study or written permission to proceed to an installer quote. Falsification threshold: stop if no site can provide data or if modeled annual savings do not cover a realistic equipment-and-finance hurdle. A lower-cost first test is a spreadsheet based on one real utility bill and a vendor quote, without buying equipment.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A small operator could test whether commercial customers with solar, demand charges, curtailed generation, or poor backup reliability will pay for a site-specific battery dispatch and connection-feasibility analysis. The economic mechanism is avoided peak purchases, greater self-consumption, backup value, and potentially market participation; actual savings depend on the customer’s tariff, load profile, interconnection status, and battery quote.",
+      "title": "Behind-the-meter solar-plus-storage feasibility and dispatch service for Chilean commercial users",
+      "type": "service_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Fixed-fee feasibility study, commissioning support, or software/reporting asset sold through an authorized installer, energy retailer, or electrical engineer. Do not assume permission to operate assets, represent customers before regulators, or capture market revenues without verifying the applicable rules and counterparties.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-11-16T17:56:28.059170+00:00",
       "discovery_lens": "energy_localization",
       "estimated_capital": "",
@@ -15141,60 +15195,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-22T00:23:58.711347+00:00",
-      "discovery_lens": "energy_localization",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "The Chilean system operator identifies hourly concentration, transmission restrictions, rapid battery-storage growth and PMGD effects on prices and system operation.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Informe Monitoreo de la Competencia en el Mercado Eléctrico 2025",
-          "url": "https://www.coordinador.cl/presentaciones/informe-monitoreo-de-la-competencia-en-el-mercado-electrico-2025/"
-        },
-        {
-          "claim": "A July 2025 communication records measures for evaluating connection impacts and zonal transmission congestion when PMGDs include storage under hourly distribution-network restrictions.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Establece medidas generales para la evaluación de impacto de conexión y las congestiones en redes de transmisión zonal considerando la conexión de PMGD con componente de almacenamiento",
-          "url": "https://cartas.coordinador.cl/show/687529af3563573f157d308c"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.78,
-      "falsification_conditions": [],
-      "geography": "Chile, initially zonal transmission-constrained areas with PMGD concentration",
-      "id": "opp_e28d4caaa77e09a2caa9",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-22T00:23:58.751761+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Build a spreadsheet or lightweight web tool using publicly available CEN PMGD, transmission-congestion, market-price and connection-rule data. Select 10 identifiable PMGD or prospective-project cases from public records, produce one-page no-cost screening outputs, and ask project owners, developers or electrical engineering firms whether the report changes a live battery or interconnection decision. Falsification threshold: stop if at least 5 of 10 relevant contacts cannot validate a current decision need, or if none will pay for a paid pilot at a price agreed before delivery. Do not install equipment, claim grid permissions, or represent dispatch revenue without project-specific validation.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "A PMGD owner or developer may need a low-cost way to screen whether adding a battery can reduce restricted-hour exposure, improve dispatchability, or avoid pursuing a connection configuration that is operationally constrained. The evidence supports a congestion-screening problem, but does not establish that any particular project will be profitable.",
-      "title": "PMGD battery-congestion screening and dispatch-rights data product",
-      "type": "data_product",
-      "unknowns": [],
-      "value_capture_mechanism": "Sell a project-specific screening package consisting of a public-data congestion map, hourly curtailment/restriction scenarios, battery-sizing sensitivities, and a go/no-go memo. A later, separately contracted implementation or engineering referral could follow, but no buyer, price or conversion rate is assumed.",
-      "verified_sales": null,
-      "vertical": "energy_infrastructure",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-27T23:29:44.670693+00:00",
       "discovery_lens": "wildcard",
       "estimated_capital": "",
@@ -15457,6 +15457,60 @@
       "value_capture_mechanism": "Sell a fixed-scope API conformance test package, synthetic test fixtures, or hosted validation endpoint to payer technology vendors, provider EHR vendors, and implementation partners. No buyer, price, or conversion rate is assumed.",
       "verified_sales": null,
       "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-11-23T05:46:29.574977+00:00",
+      "discovery_lens": "wildcard",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "ODEPA reports 2025 Chilean vegetable exports of approximately US$706.7 million and imports of approximately US$259 million, with substantial shares in processed products and seeds.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Boletín de hortalizas, enero 2026",
+          "url": "https://www.odepa.gob.cl/publicaciones/boletines/boletin-de-hortalizas-enero-2026"
+        },
+        {
+          "claim": "ODEPA publishes current Chilean wholesale vegetable price movements and identifies major cultivated species, providing a starting point for SKU-level price validation.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Boletín de hortalizas, septiembre 2026",
+          "url": "https://www.odepa.gob.cl/publicaciones/boletines/boletin-de-hortalizas-septiembre-2026"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.69,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_28a28a78d13e47dc25c3",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-23T05:46:29.666260+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use ODEPA trade data and customs/product codes to select one imported processed-vegetable or seed SKU; obtain three current landed-cost quotes, three domestic wholesale price quotes, and written indications from at least five potential buyers. Falsify if the landed-cost advantage is absent, certification/volume requirements are prohibitive, or no buyer will accept a paid sample or trial order. Do not invest in processing equipment before this SKU-level test.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The evidence supports only a screening hypothesis: a narrowly specified processed product, ingredient, or seed category may have a local-supply or distribution wedge. Aggregate trade values do not prove a profitable opportunity, because they do not reveal SKU-level prices, landed costs, certifications, incumbents, or buyer concentration.",
+      "title": "Processed-vegetable or seed import-substitution screening in Chile",
+      "type": "market_screen",
+      "unknowns": [],
+      "value_capture_mechanism": "Import substitution through contract processing, private-label distribution, or local sourcing; cash flow would need to come from documented purchase orders or distributor commitments rather than assumed consumer demand.",
+      "verified_sales": null,
+      "vertical": "chile_localization",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -16328,13 +16382,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-22T21:32:43.458988+00:00",
+  "generated_at": "2026-11-23T05:46:52.346342+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 125,
+  "rejected_excluded": 127,
   "reviewed_cards": 101,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 358,
-  "watch": 233
+  "total_distinct_opportunities": 361,
+  "watch": 234
 }

@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 233
+Candidates: 234
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -208,6 +208,18 @@ Candidates: 233
 - Possible initial budget:
 - Source URLs: https://www.santarita.com/noticias/tar-system-y-vina-santa-rita-implementan-sistema-para-evitar-la-falsificacion/; https://iotm2mcouncil.org/iot-library/news/smart-logistics-news/identiv-nfc-and-blockchain-authenticate-wine/
 
+## Processed-vegetable or seed import-substitution screening in Chile
+- Status: watch | chile_localization
+- Current idea: The evidence supports only a screening hypothesis: a narrowly specified processed product, ingredient, or seed category may have a local-supply or distribution wedge. Aggregate trade values do not prove a profitable opportunity, because they do not reveal SKU-level prices, landed costs, certifications, incumbents, or buyer concentration.
+- Potential economic capture: Import substitution through contract processing, private-label distribution, or local sourcing; cash flow would need to come from documented purchase orders or distributor commitments rather than assumed consumer demand.
+- **Research routes to test (NOT validated claims):**
+  - Find the smallest Chilean workflow whose economics differ from the original geography.
+  - Secure lawful access, partners and after-sales support rather than copy protected technology.
+  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.odepa.gob.cl/publicaciones/boletines/boletin-de-hortalizas-enero-2026; https://www.odepa.gob.cl/publicaciones/boletines/boletin-de-hortalizas-septiembre-2026
+
 ## SII company-record change monitor for accounting and compliance firms
 - Status: watch | chile_localization
 - Current idea: A reproducible asset could monitor a defined list of Chilean companies for changes in business activity, tax-resolution status or published DTE contact data, producing a dated CSV/PDF exception report rather than manual research. The evidence supports data availability and paid API infrastructure, but does not establish willingness to pay, legal permission to redistribute the resulting data, or sufficient margin.
@@ -400,6 +412,18 @@ Candidates: 233
 - Possible initial budget:
 - Source URLs: https://www.energy.gov/ceser/articles/new-ceser-report-offers-supply-chain-mitigation-strategies-battery-storage-systems; https://www.energy.gov/documents/2026-useer-national-report
 
+## Behind-the-meter solar-plus-storage feasibility and dispatch service for Chilean commercial users
+- Status: watch | energy_infrastructure
+- Current idea: A small operator could test whether commercial customers with solar, demand charges, curtailed generation, or poor backup reliability will pay for a site-specific battery dispatch and connection-feasibility analysis. The economic mechanism is avoided peak purchases, greater self-consumption, backup value, and potentially market participation; actual savings depend on the customer’s tariff, load profile, interconnection status, and battery quote.
+- Potential economic capture: Fixed-fee feasibility study, commissioning support, or software/reporting asset sold through an authorized installer, energy retailer, or electrical engineer. Do not assume permission to operate assets, represent customers before regulators, or capture market revenues without verifying the applicable rules and counterparties.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://energia.gob.cl/sites/default/files/documentos/generacion_distribuida_en_chile.pdf; https://energia.gob.cl/sites/default/files/Dec_32_2025_en_tramite.pdf
+
 ## BESS and inverter compliance pre-check for Chilean distributed-energy projects
 - Status: watch | energy_infrastructure
 - Current idea: A narrow, testable asset is a paid pre-check package for installers or project owners: collect equipment datasheets, compare the proposed battery/PCE/inverter configuration against the current SEC checklist, identify missing AFCI or documentation items, and produce a submission-ready gap list. The mechanism is avoided rework or rejected filings, not speculative battery arbitrage. The operator must avoid representing itself as an authorized electrical installer unless it actually has that authorization.
@@ -591,18 +615,6 @@ Candidates: 233
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.energy.gov/documents/craig-order-202-26-31-pios-exhibits-3-01-3-07-july-24-2026; https://www.ferc.gov/explainer-interconnection-final-rule
-
-## PMGD battery-congestion screening and dispatch-rights data product
-- Status: watch | energy_infrastructure
-- Current idea: A PMGD owner or developer may need a low-cost way to screen whether adding a battery can reduce restricted-hour exposure, improve dispatchability, or avoid pursuing a connection configuration that is operationally constrained. The evidence supports a congestion-screening problem, but does not establish that any particular project will be profitable.
-- Potential economic capture: Sell a project-specific screening package consisting of a public-data congestion map, hourly curtailment/restriction scenarios, battery-sizing sensitivities, and a go/no-go memo. A later, separately contracted implementation or engineering referral could follow, but no buyer, price or conversion rate is assumed.
-- **Research routes to test (NOT validated claims):**
-  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
-  - Compare owned asset, installer/distributor and project-finance participation.
-  - Verify permits and installed net payback under conservative power price scenarios.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://www.coordinador.cl/presentaciones/informe-monitoreo-de-la-competencia-en-el-mercado-electrico-2025/; https://cartas.coordinador.cl/show/687529af3563573f157d308c
 
 ## SEC-verified solar-plus-storage prequalification for Chilean small businesses
 - Status: watch | energy_infrastructure

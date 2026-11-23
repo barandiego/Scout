@@ -629,6 +629,42 @@
       "category": "chile_localization",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use ODEPA trade data and customs/product codes to select one imported processed-vegetable or seed SKU; obtain three current landed-cost quotes, three domestic wholesale price quotes, and written indications from at least five potential buyers. Falsify if the landed-cost advantage is absent, certification/volume requirements are prohibitive, or no buyer will accept a paid sample or trial order. Do not invest in processing equipment before this SKU-level test.",
+      "current_thesis": "The evidence supports only a screening hypothesis: a narrowly specified processed product, ingredient, or seed category may have a local-supply or distribution wedge. Aggregate trade values do not prove a profitable opportunity, because they do not reveal SKU-level prices, landed costs, certifications, incumbents, or buyer concentration.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Processed-vegetable or seed import-substitution screening in Chile",
+      "opportunity_id": "opp_28a28a78d13e47dc25c3",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Find the smallest Chilean workflow whose economics differ from the original geography.",
+        "Secure lawful access, partners and after-sales support rather than copy protected technology.",
+        "Run a buyer interview or mock listing to falsify assumptions before capital commitment."
+      ],
+      "supporting_source_urls": [
+        "https://www.odepa.gob.cl/publicaciones/boletines/boletin-de-hortalizas-enero-2026",
+        "https://www.odepa.gob.cl/publicaciones/boletines/boletin-de-hortalizas-septiembre-2026"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Import substitution through contract processing, private-label distribution, or local sourcing; cash flow would need to come from documented purchase orders or distributor commitments rather than assumed consumer demand.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "chile_localization",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Use only provider-authorized API access and confirm redistribution/derived-report rights before selling. Build a no-code or script prototype for 20 public-company records using the free quota. Contact five Chilean accounting, procurement or compliance firms with a sample report and ask whether they will pay for a one-month pilot; do not collect client credentials or promise regulated compliance outcomes. Kill the test if fewer than two firms request a paid pilot or if the API terms prohibit the proposed report. Lowest-cost falsification is a manually prepared sample plus five buyer interviews, before purchasing a paid plan.",
       "current_thesis": "A reproducible asset could monitor a defined list of Chilean companies for changes in business activity, tax-resolution status or published DTE contact data, producing a dated CSV/PDF exception report rather than manual research. The evidence supports data availability and paid API infrastructure, but does not establish willingness to pay, legal permission to redistribute the resulting data, or sufficient margin.",
       "founder_hours_initial_unverified_estimate": "",
@@ -1202,6 +1238,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "Potential cash flow would come from a fixed-price, project-specific verification package sold only if an integrator, EPC, insurer, lender, or asset owner agrees to a paid pilot. No buyer, price, margin, or permission is established by the cited evidence.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "energy_infrastructure",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Obtain 12 months of interval or hourly load data from 3–5 reachable Chilean businesses such as cold storage, irrigation, workshops, or small industrial sites; collect current tariff and solar/battery quotes from installers; model baseline versus solar-plus-storage under conservative degradation and tariff assumptions; ask each site for a paid feasibility study or written permission to proceed to an installer quote. Falsification threshold: stop if no site can provide data or if modeled annual savings do not cover a realistic equipment-and-finance hurdle. A lower-cost first test is a spreadsheet based on one real utility bill and a vendor quote, without buying equipment.",
+      "current_thesis": "A small operator could test whether commercial customers with solar, demand charges, curtailed generation, or poor backup reliability will pay for a site-specific battery dispatch and connection-feasibility analysis. The economic mechanism is avoided peak purchases, greater self-consumption, backup value, and potentially market participation; actual savings depend on the customer’s tariff, load profile, interconnection status, and battery quote.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Behind-the-meter solar-plus-storage feasibility and dispatch service for Chilean commercial users",
+      "opportunity_id": "opp_3d4003f513432b6ac791",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
+        "Compare owned asset, installer/distributor and project-finance participation.",
+        "Verify permits and installed net payback under conservative power price scenarios."
+      ],
+      "supporting_source_urls": [
+        "https://energia.gob.cl/sites/default/files/documentos/generacion_distribuida_en_chile.pdf",
+        "https://energia.gob.cl/sites/default/files/Dec_32_2025_en_tramite.pdf"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Fixed-fee feasibility study, commissioning support, or software/reporting asset sold through an authorized installer, energy retailer, or electrical engineer. Do not assume permission to operate assets, represent customers before regulators, or capture market revenues without verifying the applicable rules and counterparties.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -1795,42 +1867,6 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "A narrowly scoped, regularly updated dataset ranking battery and solar-plus-storage projects by observable readiness indicators, sold as a downloadable project-screening file or paid alert feed. No buyer, price, or conversion rate is assumed.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "energy_infrastructure",
-      "commercially_validated": false,
-      "competition_confirmed": false,
-      "current_participation_path": "Build a spreadsheet or lightweight web tool using publicly available CEN PMGD, transmission-congestion, market-price and connection-rule data. Select 10 identifiable PMGD or prospective-project cases from public records, produce one-page no-cost screening outputs, and ask project owners, developers or electrical engineering firms whether the report changes a live battery or interconnection decision. Falsification threshold: stop if at least 5 of 10 relevant contacts cannot validate a current decision need, or if none will pay for a paid pilot at a price agreed before delivery. Do not install equipment, claim grid permissions, or represent dispatch revenue without project-specific validation.",
-      "current_thesis": "A PMGD owner or developer may need a low-cost way to screen whether adding a battery can reduce restricted-hour exposure, improve dispatchability, or avoid pursuing a connection configuration that is operationally constrained. The evidence supports a congestion-screening problem, but does not establish that any particular project will be profitable.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "Chile, initially zonal transmission-constrained areas with PMGD concentration",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "PMGD battery-congestion screening and dispatch-rights data product",
-      "opportunity_id": "opp_e28d4caaa77e09a2caa9",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.",
-        "Compare owned asset, installer/distributor and project-finance participation.",
-        "Verify permits and installed net payback under conservative power price scenarios."
-      ],
-      "supporting_source_urls": [
-        "https://www.coordinador.cl/presentaciones/informe-monitoreo-de-la-competencia-en-el-mercado-electrico-2025/",
-        "https://cartas.coordinador.cl/show/687529af3563573f157d308c"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "Sell a project-specific screening package consisting of a public-data congestion map, hourly curtailment/restriction scenarios, battery-sizing sensitivities, and a go/no-go memo. A later, separately contracted implementation or engineering referral could follow, but no buyer, price or conversion rate is assumed.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -8864,7 +8900,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-22T21:32:43.564433+00:00",
+  "generated_at": "2026-11-23T05:46:52.473547+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"
