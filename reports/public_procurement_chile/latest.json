@@ -1,67 +1,57 @@
 {
   "active_candidates": [
     {
-      "available_budget_clp": 650000.0,
-      "buyer": "CORP NACIONAL FORESTAL",
-      "closes_at": "2026-11-24T16:19:00",
-      "code": "4644-132-COT26",
-      "estimated_budget": 650000.0,
-      "name": "ADQUISICIÓN DE 1 COCINA A LEÑA  CON KIT DE CAÑOS, GORE ISLAS HUICHAS SIC 465  SIRE 456",
+      "available_budget_clp": 1980000.0,
+      "buyer": "Servicio local de educación pública de Valdivia",
+      "closes_at": "2026-11-25T09:00:00",
+      "code": "1432083-1730-COT26",
+      "estimated_budget": 1980000.0,
+      "name": "AI - RBD 6899 Software de diagnostico automotriz TP",
       "products": 1,
-      "region": "Región Aysén del General Carlos Ibáñez del Campo"
+      "region": "Región de Los Ríos"
     },
     {
-      "available_budget_clp": 6441708.0,
-      "buyer": "HOSPITAL CLINICO HERMINDA MARTIN",
-      "closes_at": "2026-11-24T11:59:00",
-      "code": "1058102-587-COT26",
-      "estimated_budget": 6441708.0,
-      "name": "POSACONAZOL JBE 40MG*ML*105 ML VO",
+      "available_budget_clp": 2148609.0,
+      "buyer": "SERVICIO DE SALUD ARAUCANIA NORTE",
+      "closes_at": "2026-11-27T12:00:00",
+      "code": "1057390-352-COT26",
+      "estimated_budget": 2148609.0,
+      "name": "COTIZACIÓN AFICHES Y CUADERNOS PROGRAMA PRI LONKO - SSAN",
+      "products": 1,
+      "region": "Región de la Araucanía"
+    },
+    {
+      "available_budget_clp": 3000000.0,
+      "buyer": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA PETORCA",
+      "closes_at": "2026-11-25T10:00:00",
+      "code": "1375756-107-COT26",
+      "estimated_budget": 3000000.0,
+      "name": "ADQUISICIÓN E INSTALACIÓN DE CONTAINER",
+      "products": 1,
+      "region": "Región de Valparaíso"
+    },
+    {
+      "available_budget_clp": 500000.0,
+      "buyer": "CORPORACIÓN DE FOMENTO DE LA PRODUCCIÓN - CORFO",
+      "closes_at": "2026-11-24T23:30:00",
+      "code": "1368-41-COT26",
+      "estimated_budget": 500000.0,
+      "name": "Servicio de café para la Ceremonia de Certificación de APL Sector Panaderos, región de Ñuble.",
       "products": 1,
       "region": "Región del Ñuble"
     },
     {
-      "available_budget_clp": 5500000.0,
-      "buyer": "Feria Internacional del Aire y del Espacio",
-      "closes_at": "2026-11-26T06:05:00",
-      "code": "3310-98-COT26",
-      "estimated_budget": 5500000.0,
-      "name": "LICENCIA PARA DOCUSIGN",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 7000000.0,
-      "buyer": "I MUNICIPALIDAD DE COPIAPO",
-      "closes_at": "2026-11-24T12:29:00",
-      "code": "2380-2490-COT26",
-      "estimated_budget": 7000000.0,
-      "name": "ADQUISICIÓN DE MATERIALES PARA REPARACIÓN DE CALZADA ASFÁLTICA - DOPER - OS 155568 - G.A.C",
-      "products": 3,
-      "region": "Región de Atacama"
-    },
-    {
-      "available_budget_clp": 23600.0,
-      "buyer": "UNIVERSIDAD DE CHILE",
-      "closes_at": "2026-11-26T11:07:00",
-      "code": "5178-5704-COT26",
-      "estimated_budget": 23600.0,
-      "name": "TIMBRE DE GOMA PERSONALIZADO/SP 1077313/JL",
-      "products": 1,
-      "region": "Región Metropolitana de Santiago"
-    },
-    {
-      "available_budget_clp": 7244000.0,
-      "buyer": "COMPLEJO ASISTENCIAL DR. SOTERO DEL RIO",
-      "closes_at": "2026-11-24T14:11:00",
-      "code": "1057501-3939-COT26",
-      "estimated_budget": 7244000.0,
-      "name": "20-224-200-013-00 SUTURA NATURAL NO ABSORBIBLE TRENZADA DE SEDA 6-0 COLOR NEGRO C/A 17-18 MM HEBRA 75 CM",
+      "available_budget_clp": 1500000.0,
+      "buyer": "SERVICIO BIENESTAR",
+      "closes_at": "2026-11-25T12:00:00",
+      "code": "865547-13-COT26",
+      "estimated_budget": 1500000.0,
+      "name": "Servicio presencial de medicina general para funcionarios y funcionarias de CENABAST, con apoyo a la dirección técnica del botiquín institucional.",
       "products": 1,
       "region": "Región Metropolitana de Santiago"
     }
   ],
-  "active_structurally_reconstructable_count": 6,
+  "active_structurally_reconstructable_count": 5,
   "diagnostics": {
     "api_failures": {
       "api_rate_limited": 1
@@ -81,7 +71,7 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-23T14:55:52Z",
+  "generated_at": "2026-11-24T02:57:55Z",
   "inserted_history": 19,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
@@ -89,17 +79,16 @@
   "phase1": {
     "records": 19,
     "rejection_reasons": {
-      "missing_products": 1,
-      "no_observable_competitive_prices": 3
+      "no_observable_competitive_prices": 5
     },
-    "resolved": 12,
-    "structurally_reconstructable": 15,
+    "resolved": 14,
+    "structurally_reconstructable": 14,
     "with_observable_quote_totals": 9,
-    "with_purchase_order_indicator": 5
+    "with_purchase_order_indicator": 9
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-23T14:55:52Z"
+    "changed_to": "2026-11-24T02:57:55Z"
   }
 }
