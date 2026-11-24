@@ -1,16 +1,34 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-24T04:53:39.849297+00:00
+Generated: 2026-11-24T19:37:01.483411+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 132
+- New this cycle: 169
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): github_robotics:unavailable_or_invalid, github_agriculture:unavailable_or_invalid, github_ai:unavailable_or_invalid, github_energy:unavailable_or_invalid
-- Categories: agriculture 657, ai 85, commerce 8, energy 619, robotics 431
+- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
+- Categories: agriculture 652, ai 88, commerce 11, energy 622, robotics 427
 
 ## Recently encountered signals
+
+### NithishG04/Smart_Agri_AI
+- Source: https://github.com/NithishG04/Smart_Agri_AI
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### ganeshghayal86-ai/Smart-Agriculture-Management-System
+- Source: https://github.com/ganeshghayal86-ai/Smart-Agriculture-Management-System
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### rohit25bcon1979-arch/agrisense-ai
+- Source: https://github.com/rohit25bcon1979-arch/agrisense-ai
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### codewithjahnavi/AI-Smart-agricultural-Assistant
 - Source: https://github.com/codewithjahnavi/AI-Smart-agricultural-Assistant
@@ -440,24 +458,6 @@ Generated: 2026-11-24T04:53:39.849297+00:00
 
 ### Mohit-choudhary572/Bravo
 - Source: https://github.com/Mohit-choudhary572/Bravo
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### muhammadnajeebullah645-crypto/Smart-Agriculture-and-Future-Farming-System
-- Source: https://github.com/muhammadnajeebullah645-crypto/Smart-Agriculture-and-Future-Farming-System
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### NebulaGalaxyIQ/Agri-Ranch-Models
-- Source: https://github.com/NebulaGalaxyIQ/Agri-Ranch-Models
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### prabhatkumar345/AgriTech
-- Source: https://github.com/prabhatkumar345/AgriTech
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
