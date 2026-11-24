@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 234
+Candidates: 235
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -1695,6 +1695,18 @@ Candidates: 234
 - Critical gaps: No evidence identifies a specific Chilean fintech or financial institution with an approved budget or stated willingness to pay for this artifact.; No price benchmarks, sales-cycle data, procurement requirements, or gross-margin assumptions are provided.; The exact scope, stability, access conditions, and certification workflow of the CMF sandbox and APIs may continue changing before July 2027.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html
+
+## Chile SFA interoperability test harness and compliance adapter for smaller financial participants
+- Status: watch | open_finance_chile
+- Current idea: Financial institutions and prospective SFA participants must spend engineering effort on API interoperability, participant-directory testing, consent flows, security controls, and migration from test to production. The evidence supports a narrow implementation-readiness wedge, not a claim that a new standalone platform will win market share.
+- Potential economic capture: A small operator could sell a fixed-scope technical validation package: map one institution’s API implementation against the CMF technical annex, create test cases, run them in ATENA where access is available, and deliver a defect/remediation report. The payer would plausibly be a smaller regulated financial entity, fintech, payment provider, or technology vendor preparing for SFA participation; no specific buyer, price, or purchase order was identified.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Whether ATENA access is available to every intended customer class, including smaller entities and technology vendors, and whether commercial providers can automate or integrate with it.; The number of entities required to participate, their implementation deadlines, and the share that will need external assistance rather than internal teams or incumbent vendors.; Whether the CMF technical annex, developer portal, test credentials, directory behavior, and payment-initiation flows will change before production.
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
 ## Chile SFA interoperability test harness for regulated fintech integrations
 - Status: watch | open_finance_chile

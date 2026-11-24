@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-11-24T04:36:55.831953+00:00
+Generated: 2026-11-24T19:20:44.869023+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 234 (0 HQ survivors, 234 watches)
-- Rejected opportunities excluded: 130
-- Critic-and-judge reviewed: 101
+- Active research: 235 (0 HQ survivors, 235 watches)
+- Rejected opportunities excluded: 131
+- Critic-and-judge reviewed: 102
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -562,6 +562,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: No evidence identifies a specific Chilean fintech or financial institution with an approved budget or stated willingness to pay for this artifact.; No price benchmarks, sales-cycle data, procurement requirements, or gross-margin assumptions are provided.; The exact scope, stability, access conditions, and certification workflow of the CMF sandbox and APIs may continue changing before July 2027.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html
+
+### Chile SFA interoperability test harness and compliance adapter for smaller financial participants [opp_e3d49fc15d0234dda9d7]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Financial institutions and prospective SFA participants must spend engineering effort on API interoperability, participant-directory testing, consent flows, security controls, and migration from test to production. The evidence supports a narrow implementation-readiness wedge, not a claim that a new standalone platform will win market share.
+- Value capture: A small operator could sell a fixed-scope technical validation package: map one institution’s API implementation against the CMF technical annex, create test cases, run them in ATENA where access is available, and deliver a defect/remediation report. The payer would plausibly be a smaller regulated financial entity, fintech, payment provider, or technology vendor preparing for SFA participation; no specific buyer, price, or purchase ord
+- Participation hypothesis: Use the public CMF NCG 569/technical materials and ATENA documentation to build a minimal test harness covering one narrow workflow, such as account-information consent or payment initiation. Contact prospective participants only after producing a demonstrable local test report or open-source validator. Falsification step: interview 10 Chilean fintechs, payment providers, or financial software vendors and ask whether they have an assigned SFA implementation owner, usable test credentials/access, and a budgeted need for external testing; abandon
+- Critic/judge: Primary CMF evidence supports that Chile’s SFA technical standards, ATENA sandbox, and a July 2027 production timetable are real, so this is not an unverified-regulatory-change thesis. A narrow, expert-led implementation-assurance service may be legally feasible because it can operate as a vendor to regulated participants rather than itself offering regulated financial products or accessing production customer data. However, no evidence
+- Next evidence gaps: Whether ATENA access is available to every intended customer class, including smaller entities and technology vendors, and whether commercial providers can automate; The number of entities required to participate, their implementation deadlines, and the share that will need external assistance rather than internal teams or incumb; Whether the CMF technical annex, developer portal, test credentials, directory behavior, and payment-initiation flows will change before production.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
 ### Chile SFA interoperability test harness for regulated participants [opp_f696eab5c7c7590b79fa]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
