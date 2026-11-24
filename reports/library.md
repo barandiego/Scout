@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-11-23T19:50:21.245004+00:00
+Generated: 2026-11-24T04:36:55.831953+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
 - Active research: 234 (0 HQ survivors, 234 watches)
-- Rejected opportunities excluded: 128
+- Rejected opportunities excluded: 130
 - Critic-and-judge reviewed: 101
 - Autonomous execution authorization: 0
 
@@ -1353,6 +1353,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/613/articles-82752_recurso_1.pdf; https://www.cmfchile.cl/portal/prensa/615/articles-99083_doc_pdf.pdf
 
+### Regional EV-charging procurement and installation bid-monitoring wedge [opp_a193543251a6c89867cc]
+- Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | Chile
+- Thesis: The actionable opportunity is not owning charging assets on speculation; it is identifying, qualifying, and packaging small regional charger-installation opportunities for licensed electrical contractors, property owners, or equipment suppliers. The sources establish public-program and procurement activity, but not contract value, margins, or repeat demand.
+- Value capture: Concrete offer: a paid or success-based tender-alert and bid-preparation service limited to EV-charging procurements, including eligibility extraction, site requirements, required certifications, and subcontractor matching. Possible cash-flow source: a contractor or supplier that chooses to bid; no fee, buyer, or award was verified.
+- Participation hypothesis: Monitor Mercado Público and regional procurement notices, create a one-page opportunity brief from one live notice, and send it to independently identified licensed installers or equipment distributors without claiming endorsement. Falsification test: process three notices using only public documents and ask at least five relevant firms whether the brief saves enough time to justify a paid pilot; return zero revenue assumptions if nobody will review or pay. Do not bid, install, or imply electrical licensing unless separately qualified.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sec.cl/electromovilidad/; https://www.agenciase.org/concurso-carga-rapida-gef-7-2026/; https://buscalicitaciones.cl/compra-agil/1078113-14-COT26/adquisicion-e-instalacion-de-cargador-para-vehiculos-electricos-requerimiento-solicitado-por-la-unidad-de-sostenibilidad-e
+
 ### Small-grower mechanical-weeding pilot using a purchasable low-cost robot [opp_b8237dc109cf362e77c0]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | United States; potentially other row-crop markets subject to import and service feasibility
 - Thesis: The actionable wedge is not inventing a robot or claiming broad farm automation demand. It is a low-capital field-validation and deployment service around a specific, orderable pilot unit for farms where manual row weeding is costly and herbicide reduction matters. The commercial uncertainty is crop/bed compatibility and delivered operating cost.
@@ -1422,16 +1432,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.bcn.cl/leychile/navegar?i=1212631; https://www.cne.cl/tarificacion/electrica/
-
-### Apply for Spanish AI-training projects available to Chile residents [opp_fd7b381a5c855e56ebe5]
-- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
-- Thesis: A qualified Chile-based Spanish writer, translator, editor, journalist, or humanities student can test access to paid project work without paying an application fee. This is an application opportunity, not guaranteed income; project availability and acceptance remain uncertain.
-- Value capture: Hourly freelance compensation for completed, accepted AI-evaluation tasks. The listed Spanish-Mexico writing rate averages USD 7.50/hour for core project work, while rates may vary by expertise, location, project and non-core task type. Payments are described as PayPal or AirTM, with weekly processing after onboarding and project participation.
-- Participation hypothesis: Create one profile using Chile residence, valid ID, current resume and relevant writing/translation evidence; complete the identity and skills assessments; before investing more than 60–90 minutes, verify that the dashboard exposes a Chile-eligible project and a displayed tasking/payment rate. Falsify the opportunity if Chile eligibility disappears, the required language qualification is unavailable, or no paid project is offered after the assessment. Do not treat application approval as income.
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://app.outlier.ai/opportunities/4522871005; https://outlier.ai/faq
 
 ### Apply to Outlier Spanish–Chile AI-training evaluation work [opp_93e4ca60385e20e286ec]
 - Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile

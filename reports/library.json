@@ -10948,6 +10948,67 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-24T04:36:34.580118+00:00",
+      "discovery_lens": "geographic_arbitrage",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Chile’s electromobility roadmap identifies 2026 actions involving charging infrastructure, regulation, safety, research, and human capital.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Electromovilidad - Superintendencia de Electricidad y Combustibles",
+          "url": "https://www.sec.cl/electromovilidad/"
+        },
+        {
+          "claim": "The GEF7 program is intended to accelerate adoption of electric mobility in Chilean regions.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Concurso +Carga Rápida GEF 7 | 2026",
+          "url": "https://www.agenciase.org/concurso-carga-rapida-gef-7-2026/"
+        },
+        {
+          "claim": "A public procurement record reports a September 2026 request for acquisition and installation of an EV charger.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Adquisición e Instalación de Cargador para Vehículos Eléctricos",
+          "url": "https://buscalicitaciones.cl/compra-agil/1078113-14-COT26/adquisicion-e-instalacion-de-cargador-para-vehiculos-electricos-requerimiento-solicitado-por-la-unidad-de-sostenibilidad-energetica"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.78,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_a193543251a6c89867cc",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-24T04:36:34.672783+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Monitor Mercado Público and regional procurement notices, create a one-page opportunity brief from one live notice, and send it to independently identified licensed installers or equipment distributors without claiming endorsement. Falsification test: process three notices using only public documents and ask at least five relevant firms whether the brief saves enough time to justify a paid pilot; return zero revenue assumptions if nobody will review or pay. Do not bid, install, or imply electrical licensing unless separately qualified.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The actionable opportunity is not owning charging assets on speculation; it is identifying, qualifying, and packaging small regional charger-installation opportunities for licensed electrical contractors, property owners, or equipment suppliers. The sources establish public-program and procurement activity, but not contract value, margins, or repeat demand.",
+      "title": "Regional EV-charging procurement and installation bid-monitoring wedge",
+      "type": "procurement_enablement",
+      "unknowns": [],
+      "value_capture_mechanism": "Concrete offer: a paid or success-based tender-alert and bid-preparation service limited to EV-charging procurements, including eligibility extraction, site requirements, required certifications, and subcontractor matching. Possible cash-flow source: a contractor or supplier that chooses to bid; no fee, buyer, or award was verified.",
+      "verified_sales": null,
+      "vertical": "energy_infrastructure",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-11-22T05:04:01.918045+00:00",
       "discovery_lens": "adoption_lag",
       "estimated_capital": "",
@@ -11353,60 +11414,6 @@
       "value_capture_mechanism": "Charge for a paid bill-and-interval-data audit, then earn from implementation through a fixed-fee control retrofit or a documented share of verified bill savings. Do not assume savings until a baseline and tariff calculation are completed.",
       "verified_sales": null,
       "vertical": "energy_infrastructure",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
-      "discovered_at": "2026-10-22T04:25:59.566721+00:00",
-      "discovery_lens": "remote_paid_evaluation",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "The opportunity lists Chile among eligible remote locations, describes Spanish AI-training evaluation tasks, identifies relevant writing/translation qualifications, states an average core rate of USD 7.50/hour for Spanish-Mexico writing experts, and lists PayPal/AirTM payment.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Spanish AI Training — Outlier opportunity",
-          "url": "https://app.outlier.ai/opportunities/4522871005"
-        },
-        {
-          "claim": "Outlier states that applicants need identity verification, a resume and LinkedIn profile; project qualification precedes tasking; rates are shown before project work; and payments are processed weekly via PayPal, AirTM or ACH.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Outlier AI FAQ — onboarding and payment",
-          "url": "https://outlier.ai/faq"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.9,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_fd7b381a5c855e56ebe5",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-22T04:25:59.625669+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Create one profile using Chile residence, valid ID, current resume and relevant writing/translation evidence; complete the identity and skills assessments; before investing more than 60–90 minutes, verify that the dashboard exposes a Chile-eligible project and a displayed tasking/payment rate. Falsify the opportunity if Chile eligibility disappears, the required language qualification is unavailable, or no paid project is offered after the assessment. Do not treat application approval as income.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "A qualified Chile-based Spanish writer, translator, editor, journalist, or humanities student can test access to paid project work without paying an application fee. This is an application opportunity, not guaranteed income; project availability and acceptance remain uncertain.",
-      "title": "Apply for Spanish AI-training projects available to Chile residents",
-      "type": "remote_paid_evaluation",
-      "unknowns": [],
-      "value_capture_mechanism": "Hourly freelance compensation for completed, accepted AI-evaluation tasks. The listed Spanish-Mexico writing rate averages USD 7.50/hour for core project work, while rates may vary by expertise, location, project and non-core task type. Payments are described as PayPal or AirTM, with weekly processing after onboarding and project participation.",
-      "verified_sales": null,
-      "vertical": "chile_localization",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -16382,13 +16389,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-23T19:50:21.245004+00:00",
+  "generated_at": "2026-11-24T04:36:55.831953+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 128,
+  "rejected_excluded": 130,
   "reviewed_cards": 101,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 362,
+  "total_distinct_opportunities": 364,
   "watch": 234
 }

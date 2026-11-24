@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-11-23T19:50:21.245004+00:00",
+  "generated_at": "2026-11-24T04:36:55.831953+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -323,15 +323,6 @@
     },
     {
       "all_opportunity_ids": [
-        "opp_fd7b381a5c855e56ebe5"
-      ],
-      "count": 1,
-      "representative_id": "opp_fd7b381a5c855e56ebe5",
-      "reviewed_count": 0,
-      "theme": "chile_localization:apply_spanish_ai"
-    },
-    {
-      "all_opportunity_ids": [
         "opp_78e3949cb81b530dd931"
       ],
       "count": 1,
@@ -572,6 +563,15 @@
       "representative_id": "opp_471716894d06e79a4659",
       "reviewed_count": 0,
       "theme": "energy_infrastructure:interconnection_queue_intelligence"
+    },
+    {
+      "all_opportunity_ids": [
+        "opp_a193543251a6c89867cc"
+      ],
+      "count": 1,
+      "representative_id": "opp_a193543251a6c89867cc",
+      "reviewed_count": 0,
+      "theme": "energy_infrastructure:regional_ev_charging"
     },
     {
       "all_opportunity_ids": [

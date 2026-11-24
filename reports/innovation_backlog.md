@@ -16,18 +16,6 @@ Candidates: 234
 - Possible initial budget:
 - Source URLs: https://www.sec.gov/Archives/edgar/data/80420/000008042026000063/ex991-powlq2xfy2026earning.htm; https://www.sec.gov/Archives/edgar/data/2110029/000119312526249668/d12401ds1a.htm
 
-## Apply for Spanish AI-training projects available to Chile residents
-- Status: watch | chile_localization
-- Current idea: A qualified Chile-based Spanish writer, translator, editor, journalist, or humanities student can test access to paid project work without paying an application fee. This is an application opportunity, not guaranteed income; project availability and acceptance remain uncertain.
-- Potential economic capture: Hourly freelance compensation for completed, accepted AI-evaluation tasks. The listed Spanish-Mexico writing rate averages USD 7.50/hour for core project work, while rates may vary by expertise, location, project and non-core task type. Payments are described as PayPal or AirTM, with weekly processing after onboarding and project participation.
-- **Research routes to test (NOT validated claims):**
-  - Find the smallest Chilean workflow whose economics differ from the original geography.
-  - Secure lawful access, partners and after-sales support rather than copy protected technology.
-  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://app.outlier.ai/opportunities/4522871005; https://outlier.ai/faq
-
 ## Apply to Outlier Spanish–Chile AI-training evaluation work
 - Status: watch | chile_localization
 - Current idea: A qualified Spanish-speaking Chile-based coder may obtain paid AI-training evaluation assignments after screening, but the economic opportunity is contingent and should not be treated as present income before a contract and payable task are issued.
@@ -615,6 +603,18 @@ Candidates: 234
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.energy.gov/documents/craig-order-202-26-31-pios-exhibits-3-01-3-07-july-24-2026; https://www.ferc.gov/explainer-interconnection-final-rule
+
+## Regional EV-charging procurement and installation bid-monitoring wedge
+- Status: watch | energy_infrastructure
+- Current idea: The actionable opportunity is not owning charging assets on speculation; it is identifying, qualifying, and packaging small regional charger-installation opportunities for licensed electrical contractors, property owners, or equipment suppliers. The sources establish public-program and procurement activity, but not contract value, margins, or repeat demand.
+- Potential economic capture: Concrete offer: a paid or success-based tender-alert and bid-preparation service limited to EV-charging procurements, including eligibility extraction, site requirements, required certifications, and subcontractor matching. Possible cash-flow source: a contractor or supplier that chooses to bid; no fee, buyer, or award was verified.
+- **Research routes to test (NOT validated claims):**
+  - Identify a specific off-taker, grid bottleneck or paying industrial load in Chile.
+  - Compare owned asset, installer/distributor and project-finance participation.
+  - Verify permits and installed net payback under conservative power price scenarios.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.sec.cl/electromovilidad/; https://www.agenciase.org/concurso-carga-rapida-gef-7-2026/; https://buscalicitaciones.cl/compra-agil/1078113-14-COT26/adquisicion-e-instalacion-de-cargador-para-vehiculos-electricos-requerimiento-solicitado-por-la-unidad-de-sostenibilidad-energetica
 
 ## SEC-verified solar-plus-storage prequalification for Chilean small businesses
 - Status: watch | energy_infrastructure
