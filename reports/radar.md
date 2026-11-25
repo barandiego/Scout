@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-25T03:37:55.701844+00:00
+Generated: 2026-11-25T14:43:59.703748+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 127
+- New this cycle: 169
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): github_ai:unavailable_or_invalid, github_energy:unavailable_or_invalid
-- Categories: agriculture 654, ai 83, commerce 7, energy 620, robotics 436
+- Feed failures (fail-open for public intake only): none
+- Categories: agriculture 668, ai 75, commerce 1, energy 622, robotics 434
 
 ## Recently encountered signals
+
+### ASAD1960/TERRAVANT
+- Source: https://github.com/ASAD1960/TERRAVANT
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### NithishG04/Smart_Agri_AI
 - Source: https://github.com/NithishG04/Smart_Agri_AI
@@ -452,12 +458,6 @@ Generated: 2026-11-25T03:37:55.701844+00:00
 
 ### vikkychy/FARMORA
 - Source: https://github.com/vikkychy/FARMORA
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Mohit-choudhary572/Bravo
-- Source: https://github.com/Mohit-choudhary572/Bravo
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
