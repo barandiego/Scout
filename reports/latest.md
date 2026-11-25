@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-25T03:22:42.030411+00:00
+Generated: 2026-11-25T13:53:54.371561+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['energy_industrial', 'mining_materials', 'tokenization_finance']
+- lenses: ['business_model_migration', 'cost_curve', 'open_finance_chile']
 - raw_candidates: 1
 - parseable_candidates: 1
 - normalized_candidates: 1
 - normalization_rejected: 0
-- grounded_sources: 2
+- grounded_sources: 3
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 1
+- judge_attempts: 0
 - critic_reviews: 1
-- judge_reviews: 1
+- judge_reviews: 0
 - survivors: 0
-- watches: 1
+- watches: 0
 - rejected: 1
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.0410368
+- cost_usd: 0.02919085
 - cost_uncertain: False
-- budget_remaining_usd: 0.0389632
+- budget_remaining_usd: 0.05080915
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -56,7 +56,7 @@ No survivors. Scout does not manufacture a daily winner.
 ```json
 {
   "notes": [
-    "deep_review_lane=backlog",
+    "deep_review_lane=fresh",
     "research_queue_unreviewed=121"
   ],
   "stages": [
@@ -65,25 +65,28 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 17,
+      "grounded_source_count": 20,
       "search_source_urls": [
-        "https://www.energy.gov/cmei/femp/articles/battery-energy-storage-system-procurement-checklist",
-        "https://www.energy.gov/documents/motion-intervene-and-request-rehearing-and-stay-public-interest-organizations-202-26-22",
-        "https://www.iea.org/files/35c00cf8-4f35-4394-9988-4eba52377c7e/Criticalmineraltraceabilityforenergyandeconomicsecurity.pdf",
-        "https://www.iea.org/files/435d1d9e-2814-44a2-b059-e080987e3c79/Electrification.pdf?embed=true",
-        "https://www.iea.org/files/88d2b060-4c5b-46cc-8727-c60576cb937d/RareearthelementsPathwaystosecureanddiversifiedsupplychains.pdf",
-        "https://www.iea.org/files/ef5e9b70-3374-4caa-ba9d-19c72253bfc4/GlobalCriticalMineralsOutlook2025.pdf",
-        "https://www.iea.org/news/diversification-is-the-cornerstone-of-energy-security-yet-critical-minerals-are-moving-in-the-opposite-direction",
-        "https://www.iea.org/news/new-projects-partnerships-and-policies-are-needed-to-address-supply-chain-risks-for-rare-earth-elements",
-        "https://www.iea.org/news/supply-concentration-export-restrictions-and-declining-investment-put-critical-mineral-security-at-risk",
-        "https://www.iea.org/reports/critical-mineral-traceability-for-energy-and-economic-security/executive-summary",
-        "https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary",
-        "https://www.iea.org/reports/global-critical-minerals-outlook-2025/overview-of-outlook-for-key-minerals",
-        "https://www.iea.org/reports/global-critical-minerals-outlook-2025/policy-mechanisms-for-diversified-mineral-supplies",
-        "https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary",
-        "https://www.iea.org/reports/global-critical-minerals-outlook-2026/market-overview",
-        "https://www.iea.org/reports/rare-earth-elements/executive-summary",
-        "https://www.sec.gov/Archives/edgar/data/2094496/000162828026073937/a424b3-securitizecorpq32026.htm"
+        "https://cmfchile.cl/portal/principal/613/articles-82743_recurso_2.pdf",
+        "https://www.cmfchile.cl/educa/621/w3-article-85051.html",
+        "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa2.php?entidad_web=ALL&enviado=1&hidden_mercado=%25&materia=ALL&numero=514&tiponorma=NCG",
+        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
+        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
+        "https://www.cmfchile.cl/portal/prensa/625/articles-113897_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/articles-77095_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/articles-81682_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/articles-89581_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-100482.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-102547.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-108557.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-92449.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48738.html?trk=article-ssr-frontend-pulse_little-text-block",
+        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640",
+        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640"
       ]
     },
     {
@@ -98,108 +101,73 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 2,
+      "grounded_sources": 3,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_aa530d20999e193d9ca5",
+      "candidate_id": "opp_bf6e3180fe83168871f3",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 29,
+      "grounded_source_count": 19,
       "search_source_urls": [
-        "https://assets.ctfassets.net/3viuren4us1n/1xfP6qPsFNhQZHyoGzC64u/09888b4f1764a93d7df83dcee5a94e43/TIXT_2024_Sustainability___ESG_Report.pdf?INTCMP=ti_financials_link_view-the-report_card-content",
-        "https://assets.ctfassets.net/3viuren4us1n/34zfoFAJqLJJzGg7swoZWv/c2d5c2a89566ffa6c76d0071c2a3022b/TIXT_Anti-Bribery_and_Anti-Corruption_Policy.pdf",
-        "https://cl.linkedin.com/jobs/view/clinical-medical-ai-expert-at-telus-digital-ai-community-4466337002",
-        "https://cl.linkedin.com/jobs/view/economics-market-logic-expert-at-telus-digital-ai-community-4466327557",
-        "https://cl.linkedin.com/jobs/view/psychology-expert-at-telus-digital-ai-community-4466321566",
-        "https://jobs.telusdigital.com/search/cfm3/russian-spanish/jobs/in/chile?ns_category=artificial-intelligence",
-        "https://jobs.telusdigital.com/search/cfm5/ai-community-artificial-intelligence/jobs/in/chile?ns_category=artificial-intelligence",
-        "https://jobs.telusdigital.com/search/cfm5/ai-community/jobs/in/chile?cfm5=AI+Community&ns_category=ai-community%3Fintcmp%3Dtelus-digital-site",
-        "https://jobs.telusdigital.com/search/cfm5/ai-community/jobs/in/country/chile-vietnam?ns_category=artificial-intelligence",
-        "https://jobs.telusdigital.com/search/jobs/in/chile/country/chile-spain?ns_category=artificial-intelligence",
-        "https://jobs.telusdigital.com/search/jobs/in/chile/country/chile-vietnam?ns_category=artificial-intelligence",
-        "https://jobs.telusdigital.com/search/jobs/in/chile?cfm5=AI+Community&ns_category=ai-community%3Fintcmp%3Dtelus-digital-site",
-        "https://jobs.telusdigital.com/search/jobs/in/country/chile?cfm5=AI+Community&ns_category=ai-community%3Fintcmp%3Dtelus-digital-site",
-        "https://wikirate-production-storage.fra1.cdn.digitaloceanspaces.com/files/6738742/23850985.pdf",
-        "https://www.inesdi.com/sites/default/files/2025-04/INESDI-OBS_Top%20Perfiles%20Digitales%202025_.pdf",
-        "https://www.linkedin.com/jobs/view/4466327615/",
-        "https://www.reddit.com/r/AskArgentina/comments/1atbhnt/alguno_trabaja_remotamente_para_telus/",
-        "https://www.reddit.com/r/TELUSinternational/comments/17mzqkn",
-        "https://www.reddit.com/r/TELUSinternational/comments/192jsiy",
-        "https://www.reddit.com/r/TELUSinternational/comments/1avkgvr",
-        "https://www.reddit.com/r/TELUSinternational/comments/1ehji2b",
-        "https://www.reddit.com/r/TELUSinternational/comments/1f9dgkw",
-        "https://www.reddit.com/r/TELUSinternational/comments/1fxzp0o",
-        "https://www.reddit.com/r/TELUSinternational/comments/1onqkds",
-        "https://www.reddit.com/r/TELUSinternational/comments/1ugdgnw/pay/",
-        "https://www.reddit.com/r/TELUSinternational/comments/1xzox4c/hyperwallet_question/",
-        "https://www.reddit.com/r/beermoneyindia/comments/1s3akw9/site_spotlight_5_telus_digital_ai_community_what/",
-        "https://www.telusdigital.com/media/crowdsourcing-fraud-prevention.pdf",
-        "https://www.youtube.com/watch?v=vO0h9GPgoT0"
+        "https://banky.cl/",
+        "https://developers.sensedia.com/en/products/open-finance-chile",
+        "https://developers.sensedia.com/en/products/open-finance-chile/journey-psbi/swagger",
+        "https://efraingaray.com/en/lab/sfa/",
+        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/706413085/Gu%2Bas%2Bde%2Bpruebas%2BSandbox%2Bperiodo%2Bprevio%2Ba%2Bla%2Bentrada%2Ben%2Bvigencia",
+        "https://sfasandbox.cl/",
+        "https://sfasandbox.cl/docs.php",
+        "https://www.cmfchile.cl/normativa/ncg_569_2026.pdf",
+        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
+        "https://www.cmfchile.cl/portal/prensa/625/articles-113897_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/articles-113925_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/articles-77095_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://www.cmfchile.cl/portal/principal/613/articles-89573_doc_pdf.pdf?ts=1736947420",
+        "https://www.cmfchile.cl/portal/principal/623/articles-113974_recurso_1.pdf?ts=1790970260",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://www.iadb.org/en/news/idb-unveils-apibox-new-open-source-tool-testing-open-finance-applications",
+        "https://www.synaptic.cl/",
+        "https://www.youtube.com/watch?v=LZ4jF1VLsng"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_aa530d20999e193d9ca5",
-      "coercions": []
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_aa530d20999e193d9ca5",
-      "response_status": "completed",
-      "incomplete_reason": "",
-      "grounded_source_count": 0,
-      "search_source_urls": []
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_aa530d20999e193d9ca5",
-      "coercions": []
+      "candidate_id": "opp_bf6e3180fe83168871f3",
+      "coercions": [
+        "contrary_evidence"
+      ]
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 392,
-      "cache_write_tokens": 5521,
+      "reasoning_tokens": 234,
+      "cache_write_tokens": 5560,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01413525,
+      "cumulative_cost_usd": 0.0143962,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13896,
+      "input_tokens": 13979,
       "cached_tokens": 0,
-      "output_tokens": 900,
+      "output_tokens": 1102,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01413525
+      "estimated_cost_usd": 0.0143962
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 140,
-      "cache_write_tokens": 5249,
+      "reasoning_tokens": 186,
+      "cache_write_tokens": 5849,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0277593,
+      "cumulative_cost_usd": 0.02919085,
       "model": "gpt-5.6-luna",
-      "input_tokens": 9638,
+      "input_tokens": 14081,
       "cached_tokens": 0,
-      "output_tokens": 1195,
+      "output_tokens": 1405,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01362405
-    },
-    {
-      "stage": "judge",
-      "available": true,
-      "reasoning_tokens": 0,
-      "cache_write_tokens": 3187,
-      "accounting_notes": [],
-      "cumulative_cost_usd": 0.0410368,
-      "model": "gpt-5.6-terra",
-      "input_tokens": 3190,
-      "cached_tokens": 0,
-      "output_tokens": 442,
-      "web_search_calls": 0,
-      "estimated_cost_usd": 0.0132775
+      "estimated_cost_usd": 0.01479465
     }
   ]
 }
