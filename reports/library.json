@@ -3055,6 +3055,89 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": true,
+      "discovered_at": "2026-10-22T13:27:42.385222+00:00",
+      "discovery_lens": "ai_open_source",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF announced on June 1, 2026 that NCG 514 was amended, technical implementation requirements were added, a developer portal was published, and entry into force was postponed to July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF modifies Open Finance regulation and adds technical annex",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        },
+        {
+          "claim": "The regulation contains technical annexes for Open Finance information variables and references the CMF developer portal.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "NCG 569/2026 modifying NCG 514",
+          "url": "https://www.cmfchile.cl/normativa/ncg_569_2026.pdf"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.88,
+      "falsification_conditions": [
+        "At least 10 relevant institutions or vendors are contacted and none agrees to review a prototype, provide an anonymized test case, or discuss a paid validation engagement.",
+        "Target buyers state that ATENA, internal tooling, or incumbent vendors already cover the proposed test scope.",
+        "The official specifications do not define enough machine-testable behavior to produce reliable pass/fail results.",
+        "Independent tooling cannot obtain the credentials, certificates, sandbox access, or participant information required to run realistic tests.",
+        "The CMF indicates that third-party validation reports have no relevance to registration, authorization, or operational readiness.",
+        "A prototype produces no materially different findings from ATENA or publicly available official validators.",
+        "No buyer accepts a paid pilot, fixed-fee assessment, or implementation-support engagement before March 31, 2027.",
+        "The regulation or technical annex is materially delayed, withdrawn, or changed such that the tested interfaces become obsolete.",
+        "The only viable revenue path is bespoke consulting with no repeatable test assets or recurring software component."
+      ],
+      "geography": "Chile",
+      "id": "opp_8173c8a9e4dbb2d4ed8c",
+      "judge_reviewed": true,
+      "judgment": "Primary CMF evidence supports the regulatory premise: NCG 569 amended the Open Finance framework, added technical material, referenced a developer portal, and moved implementation to July 2027. A public-specification-only validator for a narrow artifact appears legally and technically plausible as research. However, the commercial wedge is unproven and may be substantially displaced by CMF’s developer resources and ATENA sandbox. There is no evidence that an independent conformance report is recognized, that realistic sandbox credentials are available to an external tool provider, or that a regulated participant will pay rather than use internal teams, incumbent vendors, or official tooling. This survives only as a tightly bounded buyer-and-access validation hypothesis, not as an established developer-tool business.",
+      "last_record_updated_at": "2026-11-25T23:59:41.522523+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Whether ATENA covers all required conformance cases, negative tests, security flows, payment-initiation scenarios, certificate lifecycle cases, and production-readiness evidence.",
+        "Whether the CMF will accept results from an independent validator as meaningful evidence or whether only ATENA and official processes matter.",
+        "The number and identity of institutions that must implement the relevant APIs, their internal engineering capacity, and their procurement budgets.",
+        "Whether banks, fintech platforms, API vendors, and systems integrators already possess equivalent private tooling.",
+        "Whether the technical specifications are stable or likely to change before July 3, 2027."
+      ],
+      "participation_path": "Use only the public CMF technical annex and developer-portal materials to build a small command-line validator for one narrow artifact, such as schema validation, required fields, pagination and error-response checks. Publish a reproducible demo with synthetic data and no claims of regulatory certification. Contact named participants or vendors identified in public CMF materials and ask for one anonymized API example or a 30-minute review. The lowest-cost falsification is to test whether any relevant technical team will review the validator or pay for a bounded pre-compliance check; stop if the public specifications are insufficient to define tests, if access requires non-public permissions, or if prospective participants already have equivalent tooling.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The implementation window creates a concrete, time-bounded testing problem: prospective participants and technology vendors need to validate API schemas, authentication, error handling, certificates, logs and data mappings before production participation. A narrowly scoped conformance harness is more testable than selling generic fintech consulting.",
+      "title": "Chile Open Finance conformance and integration test harness",
+      "type": "developer_tool",
+      "unknowns": [
+        "Whether ATENA covers all required conformance cases, negative tests, security flows, payment-initiation scenarios, certificate lifecycle cases, and production-readiness evidence.",
+        "Whether the CMF will accept results from an independent validator as meaningful evidence or whether only ATENA and official processes matter.",
+        "The number and identity of institutions that must implement the relevant APIs, their internal engineering capacity, and their procurement budgets.",
+        "Whether banks, fintech platforms, API vendors, and systems integrators already possess equivalent private tooling.",
+        "Whether the technical specifications are stable or likely to change before July 3, 2027.",
+        "Whether external access to ATENA, test credentials, certificates, or participant integrations requires permissions unavailable to an independent developer.",
+        "Potential liability, security, privacy, and regulatory-marketing constraints associated with selling a product described as conformance or pre-compliance tooling.",
+        "Willingness to pay for a narrow validator rather than free open-source tooling, internal testing, consulting, or existing vendor support.",
+        "The size of the addressable market after excluding entities covered by simplified participation or entities that outsource the entire integration.",
+        "Whether ATENA is accessible to independent tool vendors and what functions, credentials, certificates, negative tests, and payment-initiation cases it supports.",
+        "Whether CMF specifications define enough stable, machine-testable behavior for a validator to find defects beyond official/public tools.",
+        "Whether any regulated participant or implementation vendor values independent testing despite the official sandbox and would pay for it.",
+        "Whether third-party assessment outputs can be used in internal governance, vendor assurance, registration preparation, or production-readiness processes.",
+        "The competitive offerings and pricing of banks' incumbent technology suppliers, open-finance vendors, consultancies, and systems integrators.",
+        "The exact license/privacy/security perimeter for handling even anonymized customer-like payloads, logs, certificates, and test credentials."
+      ],
+      "value_capture_mechanism": "A fixed-fee validation package, hosted test environment or paid implementation support may be possible, but no buyer, price or permission is established by the evidence. The initial economic test is whether an identifiable participant will provide technical materials or pay for a limited conformance assessment.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": true,
       "discovered_at": "2026-10-11T20:09:13.127092+00:00",
       "discovery_lens": "tokenization_finance",
       "estimated_capital": "",
@@ -9568,6 +9651,67 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-25T23:59:20.930613+00:00",
+      "discovery_lens": "adoption_lag",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The CMF published technical specifications, a developer portal and implementation changes, including a sandbox, simplified participation and a July 2027 entry into force.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        },
+        {
+          "claim": "ATENA enables institutions to test integrations, interoperability with the participant directory and readiness for SFA requirements before the scheduled July 2027 entry into force.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF launches ATENA Technological Sandbox for the implementation of the Open Finance System",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html"
+        },
+        {
+          "claim": "The CMF FAQ identifies July 3, 2027 as the gradual implementation date and October 2026 as the expected start of voluntary pre-registration for sandbox and directory testing.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Preguntas Frecuentes: Sistema de Finanzas Abiertas",
+          "url": "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.93,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_606587550e22658b9edd",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-25T23:59:21.006046+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Start with the CMF technical annex and ATENA materials; identify one participant class and implement a minimal local test harness against the published interfaces. Request access through the official pre-registration/sandbox route when available, run 10–20 scripted interoperability and consent-flow tests, and ask prospective participants to review the resulting defect report. Do not build production access, handle customer data, or claim regulatory approval before confirming the applicable participant and authorization requirements. Falsification threshold: stop if official sandbox access, documentation or test cases are insufficient to reproduce a meaningful integration problem, or if five relevant participants report that they already have an adequate internal solution.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Financial institutions and prospective SFA participants have a finite implementation window in which interoperability, consent, API, directory and payment-initiation defects can be discovered before production participation. A reusable conformance-test harness or narrowly scoped adapter for one participant class could reduce integration risk without requiring the operator to become a regulated financial institution.",
+      "title": "Chile Open Finance conformance-test asset for pre-registration and sandbox integration",
+      "type": "software_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell or license a narrowly defined test package, integration adapter, or evidence-generation workflow only after confirming a participant's procurement and compliance requirements. The public catalyst is the CMF's pre-registration/testing timetable and ATENA availability, not a guaranteed contract or published price.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-26T09:42:45.353816+00:00",
       "discovery_lens": "regulation_infrastructure",
       "estimated_capital": "",
@@ -12414,60 +12558,6 @@
       "type": "regulatory infrastructure wedge",
       "unknowns": [],
       "value_capture_mechanism": "Potentially a paid pilot, implementation fee, or recurring software fee from an identified regulated participant or financial-software provider. No buyer, price, or conversion is assumed until validated.",
-      "verified_sales": null,
-      "vertical": "open_finance_chile",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
-      "discovered_at": "2026-10-22T13:27:42.385222+00:00",
-      "discovery_lens": "ai_open_source",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "CMF announced on June 1, 2026 that NCG 514 was amended, technical implementation requirements were added, a developer portal was published, and entry into force was postponed to July 2027.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "CMF modifies Open Finance regulation and adds technical annex",
-          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
-        },
-        {
-          "claim": "The regulation contains technical annexes for Open Finance information variables and references the CMF developer portal.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "NCG 569/2026 modifying NCG 514",
-          "url": "https://www.cmfchile.cl/normativa/ncg_569_2026.pdf"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.88,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_8173c8a9e4dbb2d4ed8c",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-22T13:27:42.436586+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Use only the public CMF technical annex and developer-portal materials to build a small command-line validator for one narrow artifact, such as schema validation, required fields, pagination and error-response checks. Publish a reproducible demo with synthetic data and no claims of regulatory certification. Contact named participants or vendors identified in public CMF materials and ask for one anonymized API example or a 30-minute review. The lowest-cost falsification is to test whether any relevant technical team will review the validator or pay for a bounded pre-compliance check; stop if the public specifications are insufficient to define tests, if access requires non-public permissions, or if prospective participants already have equivalent tooling.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "The implementation window creates a concrete, time-bounded testing problem: prospective participants and technology vendors need to validate API schemas, authentication, error handling, certificates, logs and data mappings before production participation. A narrowly scoped conformance harness is more testable than selling generic fintech consulting.",
-      "title": "Chile Open Finance conformance and integration test harness",
-      "type": "developer_tool",
-      "unknowns": [],
-      "value_capture_mechanism": "A fixed-fee validation package, hosted test environment or paid implementation support may be possible, but no buyer, price or permission is established by the evidence. The initial economic test is whether an identifiable participant will provide technical materials or pay for a limited conformance assessment.",
       "verified_sales": null,
       "vertical": "open_finance_chile",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
@@ -16473,13 +16563,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-25T13:53:54.821046+00:00",
+  "generated_at": "2026-11-25T23:59:42.265040+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 133,
-  "reviewed_cards": 102,
+  "reviewed_cards": 103,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 368,
-  "watch": 235
+  "total_distinct_opportunities": 369,
+  "watch": 236
 }

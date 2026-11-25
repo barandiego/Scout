@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 235
+Candidates: 236
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -1176,7 +1176,7 @@ Candidates: 235
   - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
   - Check license perimeter, API access, legal compliance and competitor pricing.
   - Test buyer procurement and technical access before writing integration infrastructure.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Whether ATENA covers all required conformance cases, negative tests, security flows, payment-initiation scenarios, certificate lifecycle cases, and production-readiness evidence.; Whether the CMF will accept results from an independent validator as meaningful evidence or whether only ATENA and official processes matter.; The number and identity of institutions that must implement the relevant APIs, their internal engineering capacity, and their procurement budgets.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/normativa/ncg_569_2026.pdf
 
@@ -1239,6 +1239,18 @@ Candidates: 235
 - Critical gaps: How many entities will be obligated or commercially motivated to participate by July 2027, segmented by role and implementation phase.; Whether ATENA includes sufficiently complete automated conformance coverage, reporting, fixtures, negative tests, payment-initiation scenarios, and regression testing to make a private harness unnecessary.; Whether CMF, banks, or certification bodies will recognize or rely on evidence exports from a third-party tool.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html
+
+## Chile Open Finance conformance-test asset for pre-registration and sandbox integration
+- Status: watch | open_finance_chile
+- Current idea: Financial institutions and prospective SFA participants have a finite implementation window in which interoperability, consent, API, directory and payment-initiation defects can be discovered before production participation. A reusable conformance-test harness or narrowly scoped adapter for one participant class could reduce integration risk without requiring the operator to become a regulated financial institution.
+- Potential economic capture: Sell or license a narrowly defined test package, integration adapter, or evidence-generation workflow only after confirming a participant's procurement and compliance requirements. The public catalyst is the CMF's pre-registration/testing timetable and ATENA availability, not a guaranteed contract or published price.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html; https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640
 
 ## Chile Open Finance conformance-test harness for early sandbox participants
 - Status: watch | open_finance_chile

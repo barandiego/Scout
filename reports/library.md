@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-11-25T13:53:54.821046+00:00
+Generated: 2026-11-25T23:59:42.265040+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 235 (0 HQ survivors, 235 watches)
+- Active research: 236 (0 HQ survivors, 236 watches)
 - Rejected opportunities excluded: 133
-- Critic-and-judge reviewed: 102
+- Critic-and-judge reviewed: 103
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -342,6 +342,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Project-level unlevered IRRs, net present values, and payback periods by market, duration, degradation profile, and revenue stack.; How quickly arbitrage spreads, ancillary-service prices, and capacity prices decline as storage penetration increases.; The proportion of the cited global capacity that is contracted, subsidized, vertically integrated, or economically marginal.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.iea.org/reports/electricity-2026/flexibility; https://www.iea.org/reports/energy-technology-perspectives-2026/executive-summary
+
+### Chile Open Finance conformance and integration test harness [opp_8173c8a9e4dbb2d4ed8c]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: The implementation window creates a concrete, time-bounded testing problem: prospective participants and technology vendors need to validate API schemas, authentication, error handling, certificates, logs and data mappings before production participation. A narrowly scoped conformance harness is more testable than selling generic fintech consulting.
+- Value capture: A fixed-fee validation package, hosted test environment or paid implementation support may be possible, but no buyer, price or permission is established by the evidence. The initial economic test is whether an identifiable participant will provide technical materials or pay for a limited conformance assessment.
+- Participation hypothesis: Use only the public CMF technical annex and developer-portal materials to build a small command-line validator for one narrow artifact, such as schema validation, required fields, pagination and error-response checks. Publish a reproducible demo with synthetic data and no claims of regulatory certification. Contact named participants or vendors identified in public CMF materials and ask for one anonymized API example or a 30-minute review. The lowest-cost falsification is to test whether any relevant technical team will review the validator or
+- Critic/judge: Primary CMF evidence supports the regulatory premise: NCG 569 amended the Open Finance framework, added technical material, referenced a developer portal, and moved implementation to July 2027. A public-specification-only validator for a narrow artifact appears legally and technically plausible as research. However, the commercial wedge is unproven and may be substantially displaced by CMF’s developer resources and ATENA sandbox. There
+- Next evidence gaps: Whether ATENA covers all required conformance cases, negative tests, security flows, payment-initiation scenarios, certificate lifecycle cases, and production-readin; Whether the CMF will accept results from an independent validator as meaningful evidence or whether only ATENA and official processes matter.; The number and identity of institutions that must implement the relevant APIs, their internal engineering capacity, and their procurement budgets.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/normativa/ncg_569_2026.pdf
 
 ### Chile Open Finance conformance and sandbox testing kit [opp_5f6db3a781c7281d67c2]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
@@ -1123,6 +1133,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://cochid.cl/es-latam/servicios/; https://recalar.cl/; https://www.mercadolibre.cl/mas-vendidos/MLC1423
 
+### Chile Open Finance conformance-test asset for pre-registration and sandbox integration [opp_606587550e22658b9edd]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Financial institutions and prospective SFA participants have a finite implementation window in which interoperability, consent, API, directory and payment-initiation defects can be discovered before production participation. A reusable conformance-test harness or narrowly scoped adapter for one participant class could reduce integration risk without requiring the operator to become a regulated financial institution.
+- Value capture: Sell or license a narrowly defined test package, integration adapter, or evidence-generation workflow only after confirming a participant's procurement and compliance requirements. The public catalyst is the CMF's pre-registration/testing timetable and ATENA availability, not a guaranteed contract or published price.
+- Participation hypothesis: Start with the CMF technical annex and ATENA materials; identify one participant class and implement a minimal local test harness against the published interfaces. Request access through the official pre-registration/sandbox route when available, run 10–20 scripted interoperability and consent-flow tests, and ask prospective participants to review the resulting defect report. Do not build production access, handle customer data, or claim regulatory approval before confirming the applicable participant and authorization requirements. Falsificati
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html; https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640
+
 ### Chile Open Finance implementation-readiness test [opp_68b251b56fcd3101a22e]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: The change creates a time-bounded implementation problem for smaller financial or technology participants that may need interoperability, consent, security, testing and payment-initiation documentation before production participation.
@@ -1612,16 +1632,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html
-
-### Chile Open Finance conformance and integration test harness [opp_8173c8a9e4dbb2d4ed8c]
-- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
-- Thesis: The implementation window creates a concrete, time-bounded testing problem: prospective participants and technology vendors need to validate API schemas, authentication, error handling, certificates, logs and data mappings before production participation. A narrowly scoped conformance harness is more testable than selling generic fintech consulting.
-- Value capture: A fixed-fee validation package, hosted test environment or paid implementation support may be possible, but no buyer, price or permission is established by the evidence. The initial economic test is whether an identifiable participant will provide technical materials or pay for a limited conformance assessment.
-- Participation hypothesis: Use only the public CMF technical annex and developer-portal materials to build a small command-line validator for one narrow artifact, such as schema validation, required fields, pagination and error-response checks. Publish a reproducible demo with synthetic data and no claims of regulatory certification. Contact named participants or vendors identified in public CMF materials and ask for one anonymized API example or a 30-minute review. The lowest-cost falsification is to test whether any relevant technical team will review the validator or
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/normativa/ncg_569_2026.pdf
 
 ### Chile Open Finance conformance sandbox for small participating entities [opp_e7a9536d3f60729fe159]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
