@@ -737,42 +737,6 @@
       "category": "chile_localization",
       "commercially_validated": false,
       "competition_confirmed": false,
-      "current_participation_path": "Apply only through the TELUS Digital Chile listing and record the requisition number. Complete the initial application, then ask for the written contract or project terms showing rate, expected availability, payment method and tax treatment before accepting work. Falsify as an economically actionable opportunity if the requisition closes, Chile eligibility is removed, or the company will not disclose payment terms before tasking. No fee or deposit should be paid.",
-      "current_thesis": "A Chile resident with Spanish fluency can submit an application for part-time search/data-quality evaluation work. The public listing verifies an open application route and qualification process, but does not verify a rate, hours guarantee or hiring outcome.",
-      "founder_hours_initial_unverified_estimate": "",
-      "founder_hours_ongoing_unverified_estimate": "",
-      "geography": "Chile",
-      "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
-      ],
-      "investment_authorized": false,
-      "name": "TELUS Digital Online Data Analyst — Chile",
-      "opportunity_id": "opp_aa530d20999e193d9ca5",
-      "pricing_confirmed": false,
-      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
-      "regulatory_access_confirmed": false,
-      "research_only": true,
-      "status": "watch",
-      "strategy_hypotheses_not_facts": [
-        "Find the smallest Chilean workflow whose economics differ from the original geography.",
-        "Secure lawful access, partners and after-sales support rather than copy protected technology.",
-        "Run a buyer interview or mock listing to falsify assumptions before capital commitment."
-      ],
-      "supporting_source_urls": [
-        "https://jobs.telusdigital.com/search/jobs/in/chile?cfm5=AI+Community&ns_category=ai-community",
-        "https://jobs.telusdigital.com/bs_BA/MoroccoCareers/PipelineDetail/Internet-Domain-Assessor-Spanish-Speakers-in-Chile/71900"
-      ],
-      "time_horizon_unverified_estimate": "",
-      "value_capture_claim": "Potential freelance or part-time compensation for rating and validating online information after passing language, critical-thinking, role-specific, compliance and identity checks. No public rate was found, so expected earnings cannot be responsibly estimated.",
-      "willingness_to_pay_confirmed": false
-    },
-    {
-      "capital_required_unverified_estimate": "",
-      "category": "chile_localization",
-      "commercially_validated": false,
-      "competition_confirmed": false,
       "current_participation_path": "Apply through the official TELUS Digital job page, after confirming personal eligibility: Chile residence for the last five consecutive years, near-native Spanish and professional English, computer and reliable internet. Complete the open-book qualification assessment and identity verification. Lowest-cost falsification: submit the application and qualification materials without purchasing equipment, training or access; record whether the application is accepted, whether project credentials are issued, and whether paid tasks actually appear. Treat the quoted USD 7.80/hour only as an employer estimate, not expected income; verify the first completed task's rate and payout terms before investing further time.",
       "current_thesis": "This is a directly testable paid participation route rather than a generic AI-work trend, but it is not guaranteed employment or guaranteed income: tasks must be available and the applicant must pass qualification and identity checks.",
       "founder_hours_initial_unverified_estimate": "",
@@ -7511,6 +7475,42 @@
       "category": "physical_distribution",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Assemble a public-source dossier for 10 announced non-China rare-earth refining or magnet projects, including ownership, stage, stated capacity, processing location, offtake disclosures, permitting evidence and unresolved chain-of-custody gaps. Publish a free two-project sample and send it to procurement or supply-chain contacts at magnet-consuming manufacturers. Falsification test: before building software or paid reports, ask 15 identifiable procurement, compliance or engineering contacts whether they would pay for a current supplier-verification file or provide a specific qualification question; stop if there is no concrete request or paid pilot.",
+      "current_thesis": "Manufacturers seeking diversified supply may need evidence covering mine origin, separation, metallisation, alloy production, magnet manufacturing, export controls and chain-of-custody gaps before qualifying alternative suppliers.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States, Europe, Japan, Australia",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Non-China rare-earth magnet supply-chain traceability dossier",
+      "opportunity_id": "opp_3af35ecb2f9f45fcd171",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Compare local product availability to supplier catalogs and independent consumer interest.",
+        "Check import, tax, return, certification and delivery economics before estimating margin.",
+        "Try a legitimate pre-order/waitlist test with transparent fulfillment conditions."
+      ],
+      "supporting_source_urls": [
+        "https://www.iea.org/reports/rare-earth-elements/executive-summary",
+        "https://www.iea.org/reports/critical-mineral-traceability-for-energy-and-economic-security/executive-summary"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a narrowly scoped, supplier-specific traceability dossier or continuously updated spreadsheet/API covering one magnet type—such as NdFeB—and a defined set of non-China projects. The economic mechanism is reducing procurement qualification time and identifying unsupported supply-chain claims; no savings or purchase volume is assumed.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "physical_distribution",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Choose one local waste stream and contact recyclers, demolition firms, electronics refurbishers, or industrial scrap handlers to ask whether they already separate the material and whether they permit sampling. Obtain written permission before handling material, pay for one small independent assay only after a processor states its required specifications, and compare the assay and logistics cost with an explicit purchase indication. Lowest-cost falsification: get three written specification sheets or rejection criteria from potential processors and test whether any will review a sample; stop if no qualified party provides specifications or a purchase pathway. No buyer, price, recovery rate, or margin is assumed.",
       "current_thesis": "A small operator cannot economically reproduce mining or separation, but can test whether a narrow feedstock-identification and assay-coordination service reduces search friction for recyclers, processors, or manufacturers seeking specified rare-earth-bearing scrap.",
       "founder_hours_initial_unverified_estimate": "",
@@ -8941,7 +8941,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-24T19:20:45.034528+00:00",
+  "generated_at": "2026-11-25T03:22:42.487487+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

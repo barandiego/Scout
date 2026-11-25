@@ -2,7 +2,7 @@
 
 **Editorial theme grouping only; original opportunity records and gates are unchanged.**
 
-Canonical active cards: 235 | themes: 98 | headline cards: 12
+Canonical active cards: 235 | themes: 99 | headline cards: 12
 
 ## Saturated research themes
 

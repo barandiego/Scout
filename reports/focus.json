@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-11-24T19:20:44.869023+00:00",
+  "generated_at": "2026-11-25T03:22:42.359835+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -111,7 +111,7 @@
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 98,
+  "theme_count": 99,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -295,16 +295,6 @@
     },
     {
       "all_opportunity_ids": [
-        "opp_aa530d20999e193d9ca5",
-        "opp_b7808897d679cf59602b"
-      ],
-      "count": 2,
-      "representative_id": "opp_aa530d20999e193d9ca5",
-      "reviewed_count": 0,
-      "theme": "chile_localization:telus_digital_online"
-    },
-    {
-      "all_opportunity_ids": [
         "opp_99de522ad05d0e01cebc",
         "opp_6ec905db3915e1dcfb85"
       ],
@@ -456,6 +446,15 @@
       "representative_id": "opp_ea89dae5cf6eaae0f319",
       "reviewed_count": 0,
       "theme": "chile_localization:specific_online_data"
+    },
+    {
+      "all_opportunity_ids": [
+        "opp_b7808897d679cf59602b"
+      ],
+      "count": 1,
+      "representative_id": "opp_b7808897d679cf59602b",
+      "reviewed_count": 0,
+      "theme": "chile_localization:telus_digital_online"
     },
     {
       "all_opportunity_ids": [
@@ -888,6 +887,15 @@
       "representative_id": "opp_ef5d3038f30393cb8c4f",
       "reviewed_count": 1,
       "theme": "physical_distribution:natura_catalog_corporate"
+    },
+    {
+      "all_opportunity_ids": [
+        "opp_3af35ecb2f9f45fcd171"
+      ],
+      "count": 1,
+      "representative_id": "opp_3af35ecb2f9f45fcd171",
+      "reviewed_count": 0,
+      "theme": "physical_distribution:non_china_rare"
     },
     {
       "all_opportunity_ids": [

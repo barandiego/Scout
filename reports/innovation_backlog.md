@@ -246,18 +246,6 @@ Candidates: 235
 
 ## TELUS Digital Online Data Analyst — Chile
 - Status: watch | chile_localization
-- Current idea: A Chile resident with Spanish fluency can submit an application for part-time search/data-quality evaluation work. The public listing verifies an open application route and qualification process, but does not verify a rate, hours guarantee or hiring outcome.
-- Potential economic capture: Potential freelance or part-time compensation for rating and validating online information after passing language, critical-thinking, role-specific, compliance and identity checks. No public rate was found, so expected earnings cannot be responsibly estimated.
-- **Research routes to test (NOT validated claims):**
-  - Find the smallest Chilean workflow whose economics differ from the original geography.
-  - Secure lawful access, partners and after-sales support rather than copy protected technology.
-  - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://jobs.telusdigital.com/search/jobs/in/chile?cfm5=AI+Community&ns_category=ai-community; https://jobs.telusdigital.com/bs_BA/MoroccoCareers/PipelineDetail/Internet-Domain-Assessor-Spanish-Speakers-in-Chile/71900
-
-## TELUS Digital Online Data Analyst — Chile
-- Status: watch | chile_localization
 - Current idea: This is a directly testable paid participation route rather than a generic AI-work trend, but it is not guaranteed employment or guaranteed income: tasks must be available and the applicant must pass qualification and identity checks.
 - Potential economic capture: Complete the employer's application, qualification assessment and onboarding; if accepted, perform available task-based map/search evaluation work. No fee or deposit is identified in the consulted employer materials.
 - **Research routes to test (NOT validated claims):**
@@ -2367,6 +2355,18 @@ Candidates: 235
 - Critical gaps: Actual landed unit cost, customization cost, installation time, delivery cost, payment fees, defect/replacement rate, and gross margin at pilot scale.; Whether venues will pay materially more than the direct prices offered by existing Chilean suppliers.; Incremental conversion from plate exposure to completed reviews, bookings, menu views, orders, or revenue by venue type.
 - Possible initial budget:
 - Source URLs: https://tarjetas-nfc.com/; https://www.tuk.cl/es-cl/pages/para-empresas; https://linkd.cl/
+
+## Non-China rare-earth magnet supply-chain traceability dossier
+- Status: watch | physical_distribution
+- Current idea: Manufacturers seeking diversified supply may need evidence covering mine origin, separation, metallisation, alloy production, magnet manufacturing, export controls and chain-of-custody gaps before qualifying alternative suppliers.
+- Potential economic capture: Sell a narrowly scoped, supplier-specific traceability dossier or continuously updated spreadsheet/API covering one magnet type—such as NdFeB—and a defined set of non-China projects. The economic mechanism is reducing procurement qualification time and identifying unsupported supply-chain claims; no savings or purchase volume is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Compare local product availability to supplier catalogs and independent consumer interest.
+  - Check import, tax, return, certification and delivery economics before estimating margin.
+  - Try a legitimate pre-order/waitlist test with transparent fulfillment conditions.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.iea.org/reports/rare-earth-elements/executive-summary; https://www.iea.org/reports/critical-mineral-traceability-for-energy-and-economic-security/executive-summary
 
 ## Rare-earth secondary-material sourcing and assay brokerage as a testable micro-wedge
 - Status: watch | physical_distribution

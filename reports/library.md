@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-11-24T19:20:44.869023+00:00
+Generated: 2026-11-25T03:22:42.359835+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
 - Active research: 235 (0 HQ survivors, 235 watches)
-- Rejected opportunities excluded: 131
+- Rejected opportunities excluded: 132
 - Critic-and-judge reviewed: 102
 - Autonomous execution authorization: 0
 
@@ -2043,6 +2043,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.aither.cl/tap/; https://pymevisible.cl/productos
 
+### Non-China rare-earth magnet supply-chain traceability dossier [opp_3af35ecb2f9f45fcd171]
+- Status: WATCH_REQUIRES_VALIDATION | physical_distribution | United States, Europe, Japan, Australia
+- Thesis: Manufacturers seeking diversified supply may need evidence covering mine origin, separation, metallisation, alloy production, magnet manufacturing, export controls and chain-of-custody gaps before qualifying alternative suppliers.
+- Value capture: Sell a narrowly scoped, supplier-specific traceability dossier or continuously updated spreadsheet/API covering one magnet type—such as NdFeB—and a defined set of non-China projects. The economic mechanism is reducing procurement qualification time and identifying unsupported supply-chain claims; no savings or purchase volume is assumed.
+- Participation hypothesis: Assemble a public-source dossier for 10 announced non-China rare-earth refining or magnet projects, including ownership, stage, stated capacity, processing location, offtake disclosures, permitting evidence and unresolved chain-of-custody gaps. Publish a free two-project sample and send it to procurement or supply-chain contacts at magnet-consuming manufacturers. Falsification test: before building software or paid reports, ask 15 identifiable procurement, compliance or engineering contacts whether they would pay for a current supplier-verifica
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.iea.org/reports/rare-earth-elements/executive-summary; https://www.iea.org/reports/critical-mineral-traceability-for-energy-and-economic-security/executive-summary
+
 ### On-premise Spanish document-to-structured-data pack for Chilean invoices and import records [opp_b5b7cce5448f80487092]
 - Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
 - Thesis: A small operator can assemble a reproducible, locally hosted extraction pack for Spanish invoices, customs documents, bank statements, or supplier quotes, reducing manual transcription in a narrowly defined workflow. The evidence supports technical feasibility and licensing, but does not prove extraction accuracy on Chilean documents or willingness to pay.
@@ -2302,16 +2312,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://catalog.data.gov/dataset/results-from-a-2023-survey-of-manufacturing-automation-amongst-small-and-medium-enterprise; https://lead.nc.gov/employer-needs-survey/manufacturing/
-
-### TELUS Digital Online Data Analyst — Chile [opp_aa530d20999e193d9ca5]
-- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
-- Thesis: A Chile resident with Spanish fluency can submit an application for part-time search/data-quality evaluation work. The public listing verifies an open application route and qualification process, but does not verify a rate, hours guarantee or hiring outcome.
-- Value capture: Potential freelance or part-time compensation for rating and validating online information after passing language, critical-thinking, role-specific, compliance and identity checks. No public rate was found, so expected earnings cannot be responsibly estimated.
-- Participation hypothesis: Apply only through the TELUS Digital Chile listing and record the requisition number. Complete the initial application, then ask for the written contract or project terms showing rate, expected availability, payment method and tax treatment before accepting work. Falsify as an economically actionable opportunity if the requisition closes, Chile eligibility is removed, or the company will not disclose payment terms before tasking. No fee or deposit should be paid.
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://jobs.telusdigital.com/search/jobs/in/chile?cfm5=AI+Community&ns_category=ai-community; https://jobs.telusdigital.com/bs_BA/MoroccoCareers/PipelineDetail/Internet-Domain-Assessor-Spanish-Speakers-in-Chile/71900
 
 ### TELUS Digital Online Data Analyst — Chile [opp_b7808897d679cf59602b]
 - Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile

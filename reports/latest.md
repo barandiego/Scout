@@ -1,15 +1,15 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-24T19:20:44.445412+00:00
+Generated: 2026-11-25T03:22:42.030411+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['physical_commerce', 'regulation_infrastructure', 'robotics_automation']
-- raw_candidates: 2
-- parseable_candidates: 2
-- normalized_candidates: 2
+- lenses: ['energy_industrial', 'mining_materials', 'tokenization_finance']
+- raw_candidates: 1
+- parseable_candidates: 1
+- normalized_candidates: 1
 - normalization_rejected: 0
-- grounded_sources: 3
+- grounded_sources: 2
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 1
@@ -19,10 +19,10 @@ Generated: 2026-11-24T19:20:44.445412+00:00
 - watches: 1
 - rejected: 1
 - errors_by_stage: {}
-- rejection_reasons: {'discarded_ungrounded_url': 2, 'insufficient_unique_evidence': 1}
-- cost_usd: 0.04445015
+- rejection_reasons: {}
+- cost_usd: 0.0410368
 - cost_uncertain: False
-- budget_remaining_usd: 0.03554985
+- budget_remaining_usd: 0.0389632
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Chile Open Finance conformance-testing wedge before July 2027: The regulatory premise is sufficiently grounded in CMF primary materials: a technical annex, July 2027 effective date, and CMF-operated developer/sandbox environment support a genuine implementation window. However, this does not yet support an HQ-worthy standalone conformance-testing business. The regulator-provided ATENA environment and CMF/IDB APIBox may provide much of the base testing capability at low or no cost, while commercial providers and integrators can bundle equivalent work. There is no verified budget owner, paid demand, authorization value for an external report, or evidence that a non-accredited provider can access the relevant environments and offer a materially differentiated result. This is not fatal yet because a narrow paid readiness/remediation workflow for a specific participant type could remain viable if external access is available and buyers value it; it should not proceed as a generic harness thesis without that proof.
 - Chile Open Finance sandbox-readiness testing wedge: deferred_by_review_cap
 - BESS dispatch, curtailment and performance-validation wedge in Chile: deferred_by_review_cap
 - Chile-specific online data analyst and map/search evaluator: deferred_by_review_cap
@@ -51,12 +50,13 @@ No survivors. Scout does not manufacture a daily winner.
 - Processed-vegetable or seed import-substitution screening in Chile: deferred_by_review_cap
 - Regional EV-charging procurement and installation bid-monitoring wedge: deferred_by_review_cap
 - Chile SFA interoperability test harness and compliance adapter for smaller financial participants: Primary CMF evidence supports that Chile’s SFA technical standards, ATENA sandbox, and a July 2027 production timetable are real, so this is not an unverified-regulatory-change thesis. A narrow, expert-led implementation-assurance service may be legally feasible because it can operate as a vendor to regulated participants rather than itself offering regulated financial products or accessing production customer data. However, no evidence establishes that the intended customers can grant a third-party provider usable ATENA/directory access, that smaller participants must or will procure external validation, or that the service provides value beyond CMF’s free sandbox and incumbent API/core-banking vendors. The current case supports research and buyer/access validation, not a conclusion that a standalone harness has viable economics.
+- Non-China rare-earth magnet supply-chain traceability dossier: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=fresh",
+    "deep_review_lane=backlog",
     "research_queue_unreviewed=121"
   ],
   "stages": [
@@ -65,26 +65,25 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 18,
+      "grounded_source_count": 17,
       "search_source_urls": [
-        "https://ifr.org/img/uploads/Blackberry_QNX_The_Age_of_the_Robot_Report.pdf",
-        "https://single-market-economy.ec.europa.eu/document/download/8748f8dc-3d48-4862-8153-e1165fb6be99_en?filename=",
-        "https://single-market-economy.ec.europa.eu/document/download/a71b5d30-ed8b-4c27-809d-757cf5e6030f_en?filename=dpp_registry_user_guide_for_economic_operators.pdf&prefLang=el",
-        "https://single-market-economy.ec.europa.eu/news/digital-product-passport-registry-now-live-2026-07-20_en?prefLang=nl",
-        "https://single-market-economy.ec.europa.eu/single-market/digital-product-passport/batteries_en?prefLang=de.",
-        "https://single-market-economy.ec.europa.eu/single-market/digital-product-passport/eu-digital-product-passport-faq-batteries_en",
-        "https://single-market-economy.ec.europa.eu/single-market/digital-product-passport/eu-digital-product-passport-faq-batteries_en?prefLang=hr",
-        "https://single-market-economy.ec.europa.eu/single-market/digital-product-passport/eu-digital-product-passport-faq-batteries_en?trk=article-ssr-frontend-pulse_little-text-block",
-        "https://single-market-economy.ec.europa.eu/single-market/digital-product-passport_en?prefLang=fi",
-        "https://single-market-economy.ec.europa.eu/single-market/goods/european-standards/harmonised-standards/digital-product-passport-dpp_en?prefLang=lt",
-        "https://www.cmfchile.cl/educa/621/w3-article-85051.html",
-        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
-        "https://www.cmfchile.cl/portal/prensa/625/articles-113897_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48738.html",
-        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=6478dda17297672085fb49eb6ad0fda4VFdwQmVVNXFRVEZOUkUweFQxUmpkMDlCUFQwPQ%3D%3D&secuencia=-1&t=1781887982",
-        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=9c4909e02f8531edb9eae4566db8bf50VFdwQmVVNUVRVE5OUkUwd1QwUlpORTFSUFQwPQ%3D%3D&secuencia=-1&t=1774405444"
+        "https://www.energy.gov/cmei/femp/articles/battery-energy-storage-system-procurement-checklist",
+        "https://www.energy.gov/documents/motion-intervene-and-request-rehearing-and-stay-public-interest-organizations-202-26-22",
+        "https://www.iea.org/files/35c00cf8-4f35-4394-9988-4eba52377c7e/Criticalmineraltraceabilityforenergyandeconomicsecurity.pdf",
+        "https://www.iea.org/files/435d1d9e-2814-44a2-b059-e080987e3c79/Electrification.pdf?embed=true",
+        "https://www.iea.org/files/88d2b060-4c5b-46cc-8727-c60576cb937d/RareearthelementsPathwaystosecureanddiversifiedsupplychains.pdf",
+        "https://www.iea.org/files/ef5e9b70-3374-4caa-ba9d-19c72253bfc4/GlobalCriticalMineralsOutlook2025.pdf",
+        "https://www.iea.org/news/diversification-is-the-cornerstone-of-energy-security-yet-critical-minerals-are-moving-in-the-opposite-direction",
+        "https://www.iea.org/news/new-projects-partnerships-and-policies-are-needed-to-address-supply-chain-risks-for-rare-earth-elements",
+        "https://www.iea.org/news/supply-concentration-export-restrictions-and-declining-investment-put-critical-mineral-security-at-risk",
+        "https://www.iea.org/reports/critical-mineral-traceability-for-energy-and-economic-security/executive-summary",
+        "https://www.iea.org/reports/global-critical-minerals-outlook-2025/executive-summary",
+        "https://www.iea.org/reports/global-critical-minerals-outlook-2025/overview-of-outlook-for-key-minerals",
+        "https://www.iea.org/reports/global-critical-minerals-outlook-2025/policy-mechanisms-for-diversified-mineral-supplies",
+        "https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary",
+        "https://www.iea.org/reports/global-critical-minerals-outlook-2026/market-overview",
+        "https://www.iea.org/reports/rare-earth-elements/executive-summary",
+        "https://www.sec.gov/Archives/edgar/data/2094496/000162828026073937/a424b3-securitizecorpq32026.htm"
       ]
     },
     {
@@ -103,67 +102,51 @@ No survivors. Scout does not manufacture a daily winner.
       "retry_justified": false
     },
     {
-      "index": 1,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [
-        "discarded_ungrounded_url",
-        "discarded_ungrounded_url"
-      ],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 1,
-      "retry_justified": false
-    },
-    {
       "stage": "critic",
-      "candidate_id": "opp_e3d49fc15d0234dda9d7",
+      "candidate_id": "opp_aa530d20999e193d9ca5",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 27,
+      "grounded_source_count": 29,
       "search_source_urls": [
-        "https://chocale.cl/2026/09/cmf-sandbox-atena-implementacion-del-sistema-de-finanzas-abiertas/",
-        "https://cincodias.elpais.com/companias/2025-04-23/nalba-advisors-entra-en-la-fiebre-de-compras-de-consultoras-tecnologicas-al-hacerse-con-deep-payments.html",
-        "https://cincodias.elpais.com/companias/2025-12-23/telefonica-tech-vende-a-hiberus-sus-filiales-en-colombia-mexico-y-chile.html",
-        "https://cincodias.elpais.com/legal/2026-04-29/nace-nexure-advisory-una-consultora-boutique-especializada-en-el-riesgo-contractual-del-software.html",
-        "https://elpais.com/america/termometro-social/2024-10-07/digitalizacion-financiera-en-america-latina-enfrenta-nueva-era-de-transformacion-y-oportunidades.html",
-        "https://elpais.com/chile/2026-09-14/caf-duplica-su-inversion-en-la-transformacion-digital-y-convoca-a-una-coordinacion-regional-frente-a-la-ia.html",
-        "https://elpais.com/internacional/2026-11-21/que-pasa-si-google-y-microsoft-caen-a-la-vez-la-economia-mundial-se-ha-hipotecado-con-un-punado-de-servidores.html",
-        "https://es.wikipedia.org/wiki/Fapro",
-        "https://fronterabanking.com/es/hot-topics/latam/open-finance-latin-america-compared/",
-        "https://fycom.cl/es/atena-como-pueden-prepararse-las-instituciones-financieras-para-la-entrada-en-operacion-del-sistema-de-finanzas-abiertas/",
-        "https://www.bcn.cl/leychile/navegar?f=2023-02-03&i=1187323&p=10393558",
-        "https://www.carey.cl/en/cmf-amends-ncg-no-514-and-incorporates-technical-standards-for-the-implementation-of-the-open-finance-system",
-        "https://www.cmfchile.cl/normativa/ncg_569_2026.pdf",
-        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
-        "https://www.cmfchile.cl/portal/prensa/625/articles-113897_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/articles-113925_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html?trk=article-ssr-frontend-pulse_little-text-block",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-92449.html",
-        "https://www.cmfchile.cl/portal/principal/623/articles-113974_recurso_1.pdf?ts=1790970260",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
-        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640",
-        "https://www.sec.gov/Archives/edgar/data/1027552/000102755226000108/MNCjune2026signed.pdf",
-        "https://www.uai.cl/noticias/negocios/universidad-adolfo-ibanez-apoyara-la-puesta-en-marcha-del-sistema-del-finanzas-abiertas",
-        "https://www.youtube.com/watch?v=BJFN-A2l-Bs",
-        "https://www.youtube.com/watch?v=gtJXytxDvjg"
+        "https://assets.ctfassets.net/3viuren4us1n/1xfP6qPsFNhQZHyoGzC64u/09888b4f1764a93d7df83dcee5a94e43/TIXT_2024_Sustainability___ESG_Report.pdf?INTCMP=ti_financials_link_view-the-report_card-content",
+        "https://assets.ctfassets.net/3viuren4us1n/34zfoFAJqLJJzGg7swoZWv/c2d5c2a89566ffa6c76d0071c2a3022b/TIXT_Anti-Bribery_and_Anti-Corruption_Policy.pdf",
+        "https://cl.linkedin.com/jobs/view/clinical-medical-ai-expert-at-telus-digital-ai-community-4466337002",
+        "https://cl.linkedin.com/jobs/view/economics-market-logic-expert-at-telus-digital-ai-community-4466327557",
+        "https://cl.linkedin.com/jobs/view/psychology-expert-at-telus-digital-ai-community-4466321566",
+        "https://jobs.telusdigital.com/search/cfm3/russian-spanish/jobs/in/chile?ns_category=artificial-intelligence",
+        "https://jobs.telusdigital.com/search/cfm5/ai-community-artificial-intelligence/jobs/in/chile?ns_category=artificial-intelligence",
+        "https://jobs.telusdigital.com/search/cfm5/ai-community/jobs/in/chile?cfm5=AI+Community&ns_category=ai-community%3Fintcmp%3Dtelus-digital-site",
+        "https://jobs.telusdigital.com/search/cfm5/ai-community/jobs/in/country/chile-vietnam?ns_category=artificial-intelligence",
+        "https://jobs.telusdigital.com/search/jobs/in/chile/country/chile-spain?ns_category=artificial-intelligence",
+        "https://jobs.telusdigital.com/search/jobs/in/chile/country/chile-vietnam?ns_category=artificial-intelligence",
+        "https://jobs.telusdigital.com/search/jobs/in/chile?cfm5=AI+Community&ns_category=ai-community%3Fintcmp%3Dtelus-digital-site",
+        "https://jobs.telusdigital.com/search/jobs/in/country/chile?cfm5=AI+Community&ns_category=ai-community%3Fintcmp%3Dtelus-digital-site",
+        "https://wikirate-production-storage.fra1.cdn.digitaloceanspaces.com/files/6738742/23850985.pdf",
+        "https://www.inesdi.com/sites/default/files/2025-04/INESDI-OBS_Top%20Perfiles%20Digitales%202025_.pdf",
+        "https://www.linkedin.com/jobs/view/4466327615/",
+        "https://www.reddit.com/r/AskArgentina/comments/1atbhnt/alguno_trabaja_remotamente_para_telus/",
+        "https://www.reddit.com/r/TELUSinternational/comments/17mzqkn",
+        "https://www.reddit.com/r/TELUSinternational/comments/192jsiy",
+        "https://www.reddit.com/r/TELUSinternational/comments/1avkgvr",
+        "https://www.reddit.com/r/TELUSinternational/comments/1ehji2b",
+        "https://www.reddit.com/r/TELUSinternational/comments/1f9dgkw",
+        "https://www.reddit.com/r/TELUSinternational/comments/1fxzp0o",
+        "https://www.reddit.com/r/TELUSinternational/comments/1onqkds",
+        "https://www.reddit.com/r/TELUSinternational/comments/1ugdgnw/pay/",
+        "https://www.reddit.com/r/TELUSinternational/comments/1xzox4c/hyperwallet_question/",
+        "https://www.reddit.com/r/beermoneyindia/comments/1s3akw9/site_spotlight_5_telus_digital_ai_community_what/",
+        "https://www.telusdigital.com/media/crowdsourcing-fraud-prevention.pdf",
+        "https://www.youtube.com/watch?v=vO0h9GPgoT0"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_e3d49fc15d0234dda9d7",
+      "candidate_id": "opp_aa530d20999e193d9ca5",
       "coercions": []
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_e3d49fc15d0234dda9d7",
+      "candidate_id": "opp_aa530d20999e193d9ca5",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
@@ -171,7 +154,7 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "judge",
-      "candidate_id": "opp_e3d49fc15d0234dda9d7",
+      "candidate_id": "opp_aa530d20999e193d9ca5",
       "coercions": []
     }
   ],
@@ -179,44 +162,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 338,
-      "cache_write_tokens": 5545,
+      "reasoning_tokens": 392,
+      "cache_write_tokens": 5521,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01494725,
+      "cumulative_cost_usd": 0.01413525,
       "model": "gpt-5.6-luna",
-      "input_tokens": 14002,
+      "input_tokens": 13896,
       "cached_tokens": 0,
-      "output_tokens": 1558,
+      "output_tokens": 900,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01494725
+      "estimated_cost_usd": 0.01413525
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 135,
-      "cache_write_tokens": 5318,
+      "reasoning_tokens": 140,
+      "cache_write_tokens": 5249,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02934115,
+      "cumulative_cost_usd": 0.0277593,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13578,
+      "input_tokens": 9638,
       "cached_tokens": 0,
-      "output_tokens": 1177,
+      "output_tokens": 1195,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0143939
+      "estimated_cost_usd": 0.01362405
     },
     {
       "stage": "judge",
       "available": true,
-      "reasoning_tokens": 40,
-      "cache_write_tokens": 3262,
+      "reasoning_tokens": 0,
+      "cache_write_tokens": 3187,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.04445015,
+      "cumulative_cost_usd": 0.0410368,
       "model": "gpt-5.6-terra",
-      "input_tokens": 3265,
+      "input_tokens": 3190,
       "cached_tokens": 0,
-      "output_tokens": 579,
+      "output_tokens": 442,
       "web_search_calls": 0,
-      "estimated_cost_usd": 0.015109
+      "estimated_cost_usd": 0.0132775
     }
   ]
 }
