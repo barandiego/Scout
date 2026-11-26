@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-11-25T23:59:42.265040+00:00
+Generated: 2026-11-26T07:56:01.342235+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 236 (0 HQ survivors, 236 watches)
-- Rejected opportunities excluded: 133
+- Active research: 237 (0 HQ survivors, 237 watches)
+- Rejected opportunities excluded: 134
 - Critic-and-judge reviewed: 103
 - Autonomous execution authorization: 0
 
@@ -1792,6 +1792,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html
+
+### Chile SFA/ATENA conformance-test kit for small fintech participants [opp_91e6aa643afeffa47819]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: A narrowly scoped test harness and integration adapter could reduce the engineering and compliance effort for fintechs, payment initiators, account-information providers, and other entities preparing for interoperability testing. This is an implementation wedge, not evidence of a broad consulting market.
+- Value capture: Sell a reusable software package or fixed-scope implementation that validates consent, data-exchange, directory, and payment-initiation flows against the published CMF specifications. Payer would plausibly be a Chilean financial or fintech entity preparing for ATENA testing; no price or purchase commitment was found.
+- Participation hypothesis: Download and implement the public CMF technical specifications and sandbox-access guide; build a minimal mock participant with automated conformance tests; request access to ATENA; then approach a small sample of Chilean fintechs, payment providers, and financial institutions preparing for SFA participation with a free diagnostic using their own test credentials. Falsification threshold: if five relevant entities will not provide a technical contact, test access, or a paid pilot discussion after direct outreach, stop. Do not process live financ
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html
 
 ### Chile-specific online data analyst and map/search evaluator [opp_ea89dae5cf6eaae0f319]
 - Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile

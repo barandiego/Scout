@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-25T23:59:41.815565+00:00
+Generated: 2026-11-26T07:56:01.022655+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['adoption_lag', 'underserved_buyers', 'seller_supply_gap']
-- raw_candidates: 1
-- parseable_candidates: 1
-- normalized_candidates: 1
+- lenses: ['chile_technology_import', 'early_adoption_investing', 'market_positioning']
+- raw_candidates: 2
+- parseable_candidates: 2
+- normalized_candidates: 2
 - normalization_rejected: 0
-- grounded_sources: 3
+- grounded_sources: 4
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 1
+- judge_attempts: 0
 - critic_reviews: 1
-- judge_reviews: 1
+- judge_reviews: 0
 - survivors: 0
-- watches: 2
-- rejected: 0
+- watches: 1
+- rejected: 1
 - errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.04217295
+- cost_usd: 0.04077045
 - cost_uncertain: False
-- budget_remaining_usd: 0.03782705
+- budget_remaining_usd: 0.03922955
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- BESS dispatch, curtailment and performance-validation wedge in Chile: deferred_by_review_cap
 - Chile-specific online data analyst and map/search evaluator: deferred_by_review_cap
 - Spanish (Chile) freelance AI-response evaluation and writing: deferred_by_review_cap
 - Chile DTE validation and regression-test asset for software vendors: deferred_by_review_cap
@@ -51,13 +50,14 @@ No survivors. Scout does not manufacture a daily winner.
 - Chile SFA interoperability test harness and compliance adapter for smaller financial participants: Primary CMF evidence supports that Chile’s SFA technical standards, ATENA sandbox, and a July 2027 production timetable are real, so this is not an unverified-regulatory-change thesis. A narrow, expert-led implementation-assurance service may be legally feasible because it can operate as a vendor to regulated participants rather than itself offering regulated financial products or accessing production customer data. However, no evidence establishes that the intended customers can grant a third-party provider usable ATENA/directory access, that smaller participants must or will procure external validation, or that the service provides value beyond CMF’s free sandbox and incumbent API/core-banking vendors. The current case supports research and buyer/access validation, not a conclusion that a standalone harness has viable economics.
 - Non-China rare-earth magnet supply-chain traceability dossier: deferred_by_review_cap
 - Chile Open Finance conformance-test asset for pre-registration and sandbox integration: deferred_by_review_cap
+- Chile SFA/ATENA conformance-test kit for small fintech participants: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=backlog",
-    "research_queue_unreviewed=121"
+    "deep_review_lane=fresh",
+    "research_queue_unreviewed=122"
   ],
   "stages": [
     {
@@ -65,32 +65,54 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 24,
+      "grounded_source_count": 46,
       "search_source_urls": [
-        "https://apnews.com/article/7d542b5ee92caa9d79efa28de89afbbe",
-        "https://apnews.com/article/df6087837925c14cfdd7ad2f80410a54",
-        "https://chocale.cl/2026/07/fne-pide-mas-transparencia-a-las-plataformas-de-e-commerce/",
-        "https://cnc.cl/wp-content/uploads/2026/05/CNC-INFORME-VENTAS-ONLINE-DEL-RETAIL-Primer-Trimestre-2026.pdf",
-        "https://cnc.cl/wp-content/uploads/2026/05/Informalidad-en-el-Comercio-Electronico-I-trim-2026.pdf",
-        "https://esbuenisimolinks.com/blog/ecommerce-en-chile-2026-tiendas-mas-buscadas",
-        "https://forrate.cl/blog/que-vender-por-internet-chile",
-        "https://lindgren.cl/notas/tendencias-consumo-segundo-semestre-2026",
-        "https://teclazo.com/en/blog/what-to-sell-on-mercado-libre-chile-2026",
-        "https://time.com/article/2026/07/23/unitree-china-human-robotics/",
-        "https://time.com/article/2026/10/26/intrinsic-ceo-wendy-tan-white-interview",
-        "https://www.axios.com/local/seattle/2026/10/23/yakima-valley-reservoir-farms-ai-robot-testing-apple-harvest",
-        "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa_tramite_ver_archivo.php?id=2024041585&seq=1",
+        "https://apnews.com/article/39f2356b9c1e167d0985b821f70079c5",
+        "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=f91f133e-cc24-401b-9e65-e37cc9fd1613",
+        "https://elpais.com/chile/2026-11-21/ximena-rincon-ministra-de-energia-de-chile-toda-la-energia-que-estamos-botando-puede-ir-a-los-centros-de-datos.html",
+        "https://en.wikipedia.org/wiki/Agility_Robotics",
+        "https://en.wikipedia.org/wiki/Berkshire_Grey",
+        "https://en.wikipedia.org/wiki/Electricity_sector_in_Chile",
+        "https://en.wikipedia.org/wiki/Solar_power_by_country",
+        "https://en.wikipedia.org/wiki/Solar_power_in_Chile",
+        "https://es.wikipedia.org/wiki/Sector_el%C3%A9ctrico_en_Chile",
+        "https://investor.honeywell.com/static-files/7f7cbc48-c18d-49bb-8e10-203ee7b96b5b",
+        "https://investors.agilityrobotics.com/node/6591/pdf",
+        "https://investors.agilityrobotics.com/node/6936/pdf",
+        "https://ir.enovis.com/news-releases/news-release-details/enovis-invests-innovation-binding-offer-acquire-ecential",
+        "https://ir.symbotic.com/?aff_unique2=%2F%25&code=%2F%25",
+        "https://ir.symbotic.com/financial-filings/sec-filings",
+        "https://ir.symbotic.com/news-events/news-releases",
+        "https://ir.symbotic.com/news-releases/news-release-details/walmart-and-symbotic-expand-commercial-agreement-support-supply",
+        "https://ir.symbotic.com/static-files/5d6377a4-0753-40b5-b512-bcfbb05ceb81",
+        "https://moneyweek.com/investments/stocks-and-shares/kraken-robotics-monster-sized-opportunity-to-investors",
+        "https://pymevisible.cl/productos/tarjeta-personalizada",
+        "https://time.com/article/2026/10/26/intrinsic-ceo-wendy-tan-white-interview/",
+        "https://www.agilityrobotics.com/content/agility-robotics-highlights-commercial-momentum-and-growing-enterprise-demand-for-digit-humanoid-robot?trk=article-ssr-frontend-pulse_little-text-block",
+        "https://www.axios.com/local/pittsburgh/2026/07/16/gecko-robotics-manufacturing-expansion",
+        "https://www.axios.com/newsletters/axios-pro-rata-5a9e227a-6906-48a8-93a2-ec350042af44",
+        "https://www.axios.com/newsletters/axios-pro-rata-a3e26c0f-6d85-4b97-8f1c-aa734828f95b",
+        "https://www.axios.com/newsletters/axios-pro-rata-c9b5580d-fe42-4bf9-b1e5-1b769c7cf924",
+        "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa2.php?entidad_web=ALL&enviado=1&hidden_mercado=%25&materia=ALL&numero=514&tiponorma=NCG",
+        "https://www.cmfchile.cl/normativa/ncg_530_2025.pdf",
         "https://www.cmfchile.cl/portal/prensa/625/articles-113897_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-100482.html",
         "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://www.cmfchile.cl/portal/principal/623/articles-113974_recurso_1.pdf?ts=1790970260",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113806.html",
         "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-82752.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48738.html",
         "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640",
-        "https://www.fne.gob.cl/en/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-plataformas/",
-        "https://www.fne.gob.cl/wp-content/uploads/2026/04/FNE_RE_Informe_Preliminar_EM_Comercio_Electronico_EM10_2024.pdf",
-        "https://www.rank.cl/blog/productos-mas-vendidos-internet-chile-2026/",
-        "https://www.shopify.com/es/blog/productos-mas-vendidos-en-chile",
-        "https://www.techradar.com/pro/the-farmer-isnt-disappearing-theyre-moving-up-the-stack-how-ai-is-reshaping-the-role-of-modern-agriculture",
-        "https://www.tiendanube.com/blog/productos-mas-vendidos-chile/",
-        "https://www.trade.gov/country-commercial-guides/chile-ecommerce"
+        "https://www.gevernova.com/news/press-releases/ge-vernova-to-acquire-robotech-automation?trk=article-ssr-frontend-pulse_little-text-block",
+        "https://www.ondda.cl/producto/tarjeta-de-presentacion-nfc/",
+        "https://www.tuk.cl/es-cl/products/tarjeta-de-presentacion-digital-con-qr-y-nfc",
+        "https://www.tvtechnology.com/news/evs-to-acquires-telemetrics",
+        "https://www.youtube.com/watch?v=1QOS7bg_x1w",
+        "https://www.youtube.com/watch?v=Yal2EABwl-4"
       ]
     },
     {
@@ -105,63 +127,58 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 3,
+      "grounded_sources": 2,
+      "retry_justified": false
+    },
+    {
+      "index": 1,
+      "stage": "normalization",
+      "outcome": "accepted",
+      "reasons": [],
+      "changes": [
+        "contrary_evidence:list_sanitized",
+        "major_risks:list_sanitized",
+        "unknowns:list_sanitized",
+        "falsification_conditions:list_sanitized",
+        "material_update:unknown_false"
+      ],
+      "grounded_sources": 2,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_8173c8a9e4dbb2d4ed8c",
+      "candidate_id": "opp_b6de0d751a07c6a598c1",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 27,
+      "grounded_source_count": 22,
       "search_source_urls": [
-        "https://chocale.cl/2026/08/la-cmf-avanza-en-la-implementacion-del-sfa-sandbox-atena-estara-disponible-en-octubre/",
-        "https://chocale.cl/2026/10/sandbox-atena-el-gran-ensayo-antes-de-la-puesta-en-marcha-del-sistema-de-finanzas-abiertas/",
-        "https://efraingaray.com/en/lab/sfa/",
-        "https://elpais.com/america/termometro-social/2024-10-07/digitalizacion-financiera-en-america-latina-enfrenta-nueva-era-de-transformacion-y-oportunidades.html",
-        "https://elpais.com/chile/2025-07-04/los-pagos-con-tarjetas-telefonos-y-plataformas-digitales-ganan-terreno-en-chile.html",
-        "https://elpais.com/chile/2026-05-11/el-encadenamiento-que-requiere-chile-no-es-solamente-productivo.html",
-        "https://elpais.com/chile/2026-09-10/el-gobierno-de-kast-retira-a-chile-de-las-negociaciones-por-el-acuerdo-en-cooperacion-tributaria-de-la-onu.html",
-        "https://elpais.com/chile/2026-09-14/caf-duplica-su-inversion-en-la-transformacion-digital-y-convoca-a-una-coordinacion-regional-frente-a-la-ia.html",
-        "https://elpais.com/chile/2026-11-20/la-ciencia-climatica-que-chile-debe-sostener.html",
-        "https://es.wikipedia.org/wiki/Tecnolog%C3%ADa_financiera",
-        "https://nuevo.leychile.cl/servicios/Consulta/Exportar?exportar_con_notas_al_pie=False&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_formato=pdf&hddResultadoExportar=1187323.2023-02-03.0.0%23&nombrearchivo=Ley-21521_04-ENE-2023&radioExportar=Normas",
-        "https://openfinance.institute/noticias/ncg-514-sistema-de-finanzas-abiertas",
-        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/123437476/v1.0.0%2B-%2BAPIs%2BDirectorio%2Bde%2BParticipantes%2BSFA",
-        "https://vlex.cl/vid/oficio-circular-n-1426-1135823863",
-        "https://www.cmfchile.cl/portal/normativa/624/w4-article-106895.html",
-        "https://www.cmfchile.cl/portal/prensa/625/articles-111067_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/articles-113897_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/articles-86336_doc_pdf.pdf?ts=1729632042",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-112955.html?trk=public_post_comment-text",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html?trk=article-ssr-frontend-pulse_little-text-block",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html",
-        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=9c4909e02f8531edb9eae4566db8bf50VFdwQmVVNUVRVE5OUkUwd1QwUlpORTFSUFQwPQ%3D%3D&secuencia=-1&t=1774405444",
-        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640",
-        "https://www.youtube.com/watch?v=BJFN-A2l-Bs",
-        "https://www.youtube.com/watch?v=LTDoirbJ-hA"
+        "https://apnews.com/article/2de72b65d63006a7ce85eab441e2d6b7",
+        "https://apnews.com/article/955945e03ffcc111389d62fa3103a051",
+        "https://en.wikipedia.org/wiki/List_of_public_corporations_by_market_capitalization",
+        "https://finance.yahoo.com/quote/SYM/",
+        "https://finance.yahoo.com/quote/SYM/key-statistics/",
+        "https://ir.symbotic.com/?aff_unique2=%2F%25&code=%2F%25",
+        "https://ir.symbotic.com/financial-filings/sec-filings",
+        "https://ir.symbotic.com/static-files/5d6377a4-0753-40b5-b512-bcfbb05ceb81",
+        "https://s6y.io/c/sym/10-K-20261123/sym-20260926.htm",
+        "https://sec-api.io/insights/symbotic-sym-q4-fy2026-earnings-revenue-778m-net-income-55m-backlog-22-3bn-sec-filing-analysis",
+        "https://stockanalysis.com/stocks/sym/",
+        "https://stockanalysis.com/stocks/sym/market-cap/",
+        "https://www.kiplinger.com/investing/live/anthropic-ipo-updates-and-commentary",
+        "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+        "https://www.kiplinger.com/investing/stocks/dividend-stocks/best-dividend-stocks-you-can-count-on",
+        "https://www.kiplinger.com/investing/stocks/upcoming-ipos",
+        "https://www.quantisnow.com/articles/symbotic-jumps-12-before-earnings-as-backlog-slips-and-walmart-hits-87-of-revenue",
+        "https://www.sec.gov/Archives/edgar/data/1837240/000183724026000042/symboticinvestorpresenta.htm",
+        "https://www.sec.gov/Archives/edgar/data/1837240/000183724026000049/sym-20260926.htm",
+        "https://www.stocktitan.net/sec-filings/SYM/",
+        "https://www.youtube.com/watch?v=IS7DsO4VIIY",
+        "https://www.youtube.com/watch?v=egx1fkvdb3E"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_8173c8a9e4dbb2d4ed8c",
-      "coercions": [
-        "contrary_evidence"
-      ]
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_8173c8a9e4dbb2d4ed8c",
-      "response_status": "completed",
-      "incomplete_reason": "",
-      "grounded_source_count": 0,
-      "search_source_urls": []
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_8173c8a9e4dbb2d4ed8c",
+      "candidate_id": "opp_b6de0d751a07c6a598c1",
       "coercions": []
     }
   ],
@@ -169,44 +186,30 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 325,
-      "cache_write_tokens": 5548,
+      "reasoning_tokens": 476,
+      "cache_write_tokens": 5461,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0142868,
+      "cumulative_cost_usd": 0.02616365,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13909,
+      "input_tokens": 20255,
       "cached_tokens": 0,
-      "output_tokens": 1023,
-      "web_search_calls": 1,
-      "estimated_cost_usd": 0.0142868
+      "output_tokens": 1533,
+      "web_search_calls": 2,
+      "estimated_cost_usd": 0.02616365
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 181,
-      "cache_write_tokens": 5277,
+      "reasoning_tokens": 150,
+      "cache_write_tokens": 5316,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02881645,
+      "cumulative_cost_usd": 0.04077045,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13805,
+      "input_tokens": 13533,
       "cached_tokens": 0,
-      "output_tokens": 1254,
+      "output_tokens": 1362,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01452965
-    },
-    {
-      "stage": "judge",
-      "available": true,
-      "reasoning_tokens": 0,
-      "cache_write_tokens": 2945,
-      "accounting_notes": [],
-      "cumulative_cost_usd": 0.04217295,
-      "model": "gpt-5.6-terra",
-      "input_tokens": 2948,
-      "cached_tokens": 0,
-      "output_tokens": 499,
-      "web_search_calls": 0,
-      "estimated_cost_usd": 0.0133565
+      "estimated_cost_usd": 0.0146068
     }
   ]
 }

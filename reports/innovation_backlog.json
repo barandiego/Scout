@@ -5893,6 +5893,42 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Download and implement the public CMF technical specifications and sandbox-access guide; build a minimal mock participant with automated conformance tests; request access to ATENA; then approach a small sample of Chilean fintechs, payment providers, and financial institutions preparing for SFA participation with a free diagnostic using their own test credentials. Falsification threshold: if five relevant entities will not provide a technical contact, test access, or a paid pilot discussion after direct outreach, stop. Do not process live financial data or operate as a regulated participant without confirming CMF requirements.",
+      "current_thesis": "A narrowly scoped test harness and integration adapter could reduce the engineering and compliance effort for fintechs, payment initiators, account-information providers, and other entities preparing for interoperability testing. This is an implementation wedge, not evidence of a broad consulting market.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Chile SFA/ATENA conformance-test kit for small fintech participants",
+      "opportunity_id": "opp_91e6aa643afeffa47819",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a reusable software package or fixed-scope implementation that validates consent, data-exchange, directory, and payment-initiation flows against the published CMF specifications. Payer would plausibly be a Chilean financial or fintech entity preparing for ATENA testing; no price or purchase commitment was found.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Build a minimal open-source or locally runnable test pack covering 5-10 publicly documented Annex 3/ATENA flows. Use the CMF sandbox access guide and developer materials to test whether the pack can produce useful pass/fail evidence. Contact identifiable prospective participant firms through public business channels only after the artifact works; ask for a paid pilot or written commitment, without assuming approval, buyer identity, or procurement authority. Lowest-cost falsification: interview or demo the pack to 5 Chilean fintechs, banks, payment firms, or registered financial-service providers and require at least one to provide a real anonymized integration trace or pay for a narrowly defined validation sprint. Stop if sandbox access, documentation, or willingness to share test cases is unavailable.",
       "current_thesis": "Financial institutions and fintech participants must validate API interoperability, credentials, security flows, and required data/payment-initiation behavior before production participation. A narrowly scoped reusable test asset could reduce repeated integration and evidence-production work without acting as a regulated financial intermediary.",
       "founder_hours_initial_unverified_estimate": "",
@@ -8982,7 +9018,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-25T23:59:42.429318+00:00",
+  "generated_at": "2026-11-26T07:56:01.452637+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 236
+Candidates: 237
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -1863,6 +1863,18 @@ Candidates: 236
 - Critical gaps: Whether ATENA access is available to independent vendors, consultants, or only regulated or prospective participating institutions.; Whether CMF recognizes, permits, or gives evidentiary weight to third-party conformance reports.; The number of institutions that will actually need external testing support and their budget owners.
 - Possible initial budget:
 - Source URLs: https://cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
+## Chile SFA/ATENA conformance-test kit for small fintech participants
+- Status: watch | open_finance_chile
+- Current idea: A narrowly scoped test harness and integration adapter could reduce the engineering and compliance effort for fintechs, payment initiators, account-information providers, and other entities preparing for interoperability testing. This is an implementation wedge, not evidence of a broad consulting market.
+- Potential economic capture: Sell a reusable software package or fixed-scope implementation that validates consent, data-exchange, directory, and payment-initiation flows against the published CMF specifications. Payer would plausibly be a Chilean financial or fintech entity preparing for ATENA testing; no price or purchase commitment was found.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html; https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html
 
 ## Chile SFA/ATENA interoperability test harness
 - Status: watch | open_finance_chile

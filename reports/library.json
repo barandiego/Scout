@@ -13432,6 +13432,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-26T07:55:45.254273+00:00",
+      "discovery_lens": "chile_technology_import",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF launched ATENA for integration, interoperability, Directory of Participants, and business-model testing before the SFA enters into force in July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF launches ATENA Technological Sandbox for the implementation of the Open Finance System",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html"
+        },
+        {
+          "claim": "CMF published the technical annex, gradual implementation provisions, simplified participation mechanisms, and a July 2027 effective date.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF amends regulation on Open Finance System and incorporates Technical Annex",
+          "url": "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.9,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_91e6aa643afeffa47819",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-26T07:55:45.321209+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Download and implement the public CMF technical specifications and sandbox-access guide; build a minimal mock participant with automated conformance tests; request access to ATENA; then approach a small sample of Chilean fintechs, payment providers, and financial institutions preparing for SFA participation with a free diagnostic using their own test credentials. Falsification threshold: if five relevant entities will not provide a technical contact, test access, or a paid pilot discussion after direct outreach, stop. Do not process live financial data or operate as a regulated participant without confirming CMF requirements.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A narrowly scoped test harness and integration adapter could reduce the engineering and compliance effort for fintechs, payment initiators, account-information providers, and other entities preparing for interoperability testing. This is an implementation wedge, not evidence of a broad consulting market.",
+      "title": "Chile SFA/ATENA conformance-test kit for small fintech participants",
+      "type": "software_asset",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell a reusable software package or fixed-scope implementation that validates consent, data-exchange, directory, and payment-initiation flows against the published CMF specifications. Payer would plausibly be a Chilean financial or fintech entity preparing for ATENA testing; no price or purchase commitment was found.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-11-20T05:43:25.097362+00:00",
       "discovery_lens": "remote_paid_evaluation",
       "estimated_capital": "",
@@ -16563,13 +16617,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-25T23:59:42.265040+00:00",
+  "generated_at": "2026-11-26T07:56:01.342235+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 133,
+  "rejected_excluded": 134,
   "reviewed_cards": 103,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 369,
-  "watch": 236
+  "total_distinct_opportunities": 371,
+  "watch": 237
 }
