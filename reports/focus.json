@@ -1,11 +1,11 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-11-26T07:56:01.342235+00:00",
+  "generated_at": "2026-11-26T18:08:55.404627+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
-      "other_cards_in_theme": 11,
+      "other_cards_in_theme": 12,
       "reviewed": true,
       "status": "watch",
       "theme": "nfc_products",
@@ -60,6 +60,14 @@
       "title": "Small-scale storage and control feasibility wedge for Chilean distributed generators"
     },
     {
+      "opportunity_id": "opp_8ed1b40a94786a3e6997",
+      "other_cards_in_theme": 0,
+      "reviewed": true,
+      "status": "watch",
+      "theme": "chile_localization:local_first_dte",
+      "title": "Local-first Chilean DTE invoice reconciliation and exception review"
+    },
+    {
       "opportunity_id": "opp_36a79f45b8a96526d2d1",
       "other_cards_in_theme": 0,
       "reviewed": true,
@@ -90,28 +98,20 @@
       "status": "watch",
       "theme": "general:eu_ai_act",
       "title": "EU AI Act transparency and enforcement obligations are becoming operational"
-    },
-    {
-      "opportunity_id": "opp_68e70b9741c1c0474c04",
-      "other_cards_in_theme": 0,
-      "reviewed": true,
-      "status": "watch",
-      "theme": "general:cms_advancing_standardized",
-      "title": "CMS is advancing standardized payer APIs and interoperability requirements"
     }
   ],
   "headline_count": 12,
   "high_concentration": [
     {
       "cards": 97,
-      "share": 0.409,
+      "share": 0.406,
       "theme": "chile_open_finance"
     }
   ],
   "purpose": "Editorial diversity and review focus, NOT duplicate identity or economic qualification",
   "schema_version": 1,
   "source": "DERIVED_FROM_CANONICAL_SCOUT_LIBRARY",
-  "theme_count": 99,
+  "theme_count": 100,
   "themes": [
     {
       "all_opportunity_ids": [
@@ -263,11 +263,12 @@
         "opp_7a4c2697266c85e82693",
         "opp_f12f2bcd2619c1f61247",
         "opp_1eccc3541019ecf68a4c",
+        "opp_afbd1209046c5dfe1383",
         "opp_4597c36d99d4f69a9e20",
         "opp_fa014b2293a26ad04e87",
         "opp_c726ef50d9c70a45080e"
       ],
-      "count": 12,
+      "count": 13,
       "representative_id": "opp_def87ec156069bf156db",
       "reviewed_count": 6,
       "theme": "nfc_products"
@@ -383,7 +384,7 @@
       ],
       "count": 1,
       "representative_id": "opp_8ed1b40a94786a3e6997",
-      "reviewed_count": 0,
+      "reviewed_count": 1,
       "theme": "chile_localization:local_first_dte"
     },
     {
@@ -1090,6 +1091,15 @@
     },
     {
       "all_opportunity_ids": [
+        "opp_56cd45d43d978cf99150"
+      ],
+      "count": 1,
+      "representative_id": "opp_56cd45d43d978cf99150",
+      "reviewed_count": 0,
+      "theme": "robotics_agritech:sell_greenhouse_nft"
+    },
+    {
+      "all_opportunity_ids": [
         "opp_1d7719596ea3f8c399d7"
       ],
       "count": 1,
@@ -1143,6 +1153,6 @@
       "theme": "robotics_agritech:water_efficiency_field"
     }
   ],
-  "total_original_cards": 237,
+  "total_original_cards": 239,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }

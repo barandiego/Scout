@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-26T07:56:01.022655+00:00
+Generated: 2026-11-26T18:08:54.916089+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['chile_technology_import', 'early_adoption_investing', 'market_positioning']
+- lenses: ['asset_ownership', 'nfc_smart_commerce', 'vertical_farming_economics']
 - raw_candidates: 2
 - parseable_candidates: 2
 - normalized_candidates: 2
 - normalization_rejected: 0
-- grounded_sources: 4
+- grounded_sources: 5
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 0
+- judge_attempts: 1
 - critic_reviews: 1
-- judge_reviews: 0
+- judge_reviews: 1
 - survivors: 0
-- watches: 1
-- rejected: 1
+- watches: 3
+- rejected: 0
 - errors_by_stage: {}
-- rejection_reasons: {}
-- cost_usd: 0.04077045
+- rejection_reasons: {'discarded_ungrounded_url': 1}
+- cost_usd: 0.0479748
 - cost_uncertain: False
-- budget_remaining_usd: 0.03922955
+- budget_remaining_usd: 0.0320252
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,8 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Chile-specific online data analyst and map/search evaluator: deferred_by_review_cap
-- Spanish (Chile) freelance AI-response evaluation and writing: deferred_by_review_cap
 - Chile DTE validation and regression-test asset for software vendors: deferred_by_review_cap
 - Pre-entry SFA/ATENA interoperability test harness for Chilean fintechs: The primary CMF sources in the supplied provenance support a real SFA/ATENA technical-testing catalyst and planned implementation timeline; this is not an unverified regulatory-change thesis. A non-authoritative developer tool for contract validation, local mocks, regression testing, and customer-owned evidence generation is plausibly outside the regulated open-finance participant/authorization perimeter, provided it does not access customer data, represent CMF certification, or operate payment/data-sharing flows. However, survival is conditional: official ATENA guidance and sandbox capabilities appear to overlap substantially with the proposed harness, while API-management vendors and integrators can bundle comparable work. There is no evidence yet of an authorized access path for a third-party tool beyond public materials, nor of a buyer, budget owner, procurement route, pricing, or paid pain sufficiently distinct from the public sandbox. The narrow wedge worth testing is a private, CI-ready regression/evidence layer for a specific regulated participant or implementation firm—not a general SFA testing platform or certification substitute.
 - Copper-scrap traceability and recovery-data wedge for midstream processors: deferred_by_review_cap
@@ -51,13 +49,15 @@ No survivors. Scout does not manufacture a daily winner.
 - Non-China rare-earth magnet supply-chain traceability dossier: deferred_by_review_cap
 - Chile Open Finance conformance-test asset for pre-registration and sandbox integration: deferred_by_review_cap
 - Chile SFA/ATENA conformance-test kit for small fintech participants: deferred_by_review_cap
+- NFC review-and-discovery displays for Chilean hospitality businesses: deferred_by_review_cap
+- Sell greenhouse NFT capacity, not indoor vertical-farm lettuce: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=fresh",
-    "research_queue_unreviewed=122"
+    "deep_review_lane=backlog",
+    "research_queue_unreviewed=123"
   ],
   "stages": [
     {
@@ -65,54 +65,36 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 46,
+      "grounded_source_count": 28,
       "search_source_urls": [
-        "https://apnews.com/article/39f2356b9c1e167d0985b821f70079c5",
-        "https://cmfchile.atlassian.net/wiki/spaces/OFAC?search_id=f91f133e-cc24-401b-9e65-e37cc9fd1613",
-        "https://elpais.com/chile/2026-11-21/ximena-rincon-ministra-de-energia-de-chile-toda-la-energia-que-estamos-botando-puede-ir-a-los-centros-de-datos.html",
-        "https://en.wikipedia.org/wiki/Agility_Robotics",
-        "https://en.wikipedia.org/wiki/Berkshire_Grey",
-        "https://en.wikipedia.org/wiki/Electricity_sector_in_Chile",
-        "https://en.wikipedia.org/wiki/Solar_power_by_country",
-        "https://en.wikipedia.org/wiki/Solar_power_in_Chile",
-        "https://es.wikipedia.org/wiki/Sector_el%C3%A9ctrico_en_Chile",
-        "https://investor.honeywell.com/static-files/7f7cbc48-c18d-49bb-8e10-203ee7b96b5b",
-        "https://investors.agilityrobotics.com/node/6591/pdf",
-        "https://investors.agilityrobotics.com/node/6936/pdf",
-        "https://ir.enovis.com/news-releases/news-release-details/enovis-invests-innovation-binding-offer-acquire-ecential",
-        "https://ir.symbotic.com/?aff_unique2=%2F%25&code=%2F%25",
-        "https://ir.symbotic.com/financial-filings/sec-filings",
-        "https://ir.symbotic.com/news-events/news-releases",
-        "https://ir.symbotic.com/news-releases/news-release-details/walmart-and-symbotic-expand-commercial-agreement-support-supply",
-        "https://ir.symbotic.com/static-files/5d6377a4-0753-40b5-b512-bcfbb05ceb81",
-        "https://moneyweek.com/investments/stocks-and-shares/kraken-robotics-monster-sized-opportunity-to-investors",
-        "https://pymevisible.cl/productos/tarjeta-personalizada",
-        "https://time.com/article/2026/10/26/intrinsic-ceo-wendy-tan-white-interview/",
-        "https://www.agilityrobotics.com/content/agility-robotics-highlights-commercial-momentum-and-growing-enterprise-demand-for-digit-humanoid-robot?trk=article-ssr-frontend-pulse_little-text-block",
-        "https://www.axios.com/local/pittsburgh/2026/07/16/gecko-robotics-manufacturing-expansion",
-        "https://www.axios.com/newsletters/axios-pro-rata-5a9e227a-6906-48a8-93a2-ec350042af44",
-        "https://www.axios.com/newsletters/axios-pro-rata-a3e26c0f-6d85-4b97-8f1c-aa734828f95b",
-        "https://www.axios.com/newsletters/axios-pro-rata-c9b5580d-fe42-4bf9-b1e5-1b769c7cf924",
-        "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa2.php?entidad_web=ALL&enviado=1&hidden_mercado=%25&materia=ALL&numero=514&tiponorma=NCG",
-        "https://www.cmfchile.cl/normativa/ncg_530_2025.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/articles-113897_doc_pdf.pdf",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-100482.html",
+        "https://apnews.com/article/28d360b3c8d7fa424892e23fe1c85c93",
+        "https://arxiv.org/abs/2507.18419",
+        "https://autoconsumo.minenergia.cl/wp-content/uploads/2025/01/Manual-para-la-Implementacion-de-Medidas-de-Eficiencia-Energetica-en-Proyectos-de-Riego-colofon_compressed.pdf",
+        "https://coloradoproduce.org/wp-content/uploads/2023/07/cit_97817_2022-harvest-report_r6-digital_prod.pdf",
+        "https://credencialeschile.cl/categoria-producto/nfc/",
+        "https://elpais.com/chile/2025-07-04/los-pagos-con-tarjetas-telefonos-y-plataformas-digitales-ganan-terreno-en-chile.html",
+        "https://energypartnership.cl/fileadmin/chile/media_elements/Studies/2025_Manual_para_el_Desarrollo_de_Proyectos_Agrivoltaicos_en_Chile.PDF",
+        "https://los40.com/2026/10/26/que-es-la-agricultura-vertical-y-como-puede-beneficiar-al-planeta/",
+        "https://pymevisible.cl/productos/tarjeta-google",
+        "https://researchers.unab.cl/es/publications/human-powered-hydroponic-systems-an-environmental-and-economic-as/",
+        "https://tarjetas-nfc.com/",
+        "https://tarjetas-nfc.com/precios",
+        "https://time.com/6232722/chile-drought-evaporation-climate-change/",
+        "https://www.axios.com/2017/12/15/taking-on-big-grocery-one-head-of-lettuce-at-a-time-1513305393",
+        "https://www.axios.com/2023/01/06/indoor-farming-small-scale-farmers",
         "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
-        "https://www.cmfchile.cl/portal/principal/623/articles-113974_recurso_1.pdf?ts=1790970260",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-100816.html",
+        "https://www.cmfchile.cl/portal/principal/613/articles-92466_recurso_1.pdf",
+        "https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html",
+        "https://www.cmfchile.cl/portal/principal/623/articles-82752_recurso_1.pdf",
         "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-113806.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-82752.html",
-        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48738.html",
-        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640",
-        "https://www.gevernova.com/news/press-releases/ge-vernova-to-acquire-robotech-automation?trk=article-ssr-frontend-pulse_little-text-block",
-        "https://www.ondda.cl/producto/tarjeta-de-presentacion-nfc/",
-        "https://www.tuk.cl/es-cl/products/tarjeta-de-presentacion-digital-con-qr-y-nfc",
-        "https://www.tvtechnology.com/news/evs-to-acquires-telemetrics",
-        "https://www.youtube.com/watch?v=1QOS7bg_x1w",
-        "https://www.youtube.com/watch?v=Yal2EABwl-4"
+        "https://www.invernadero.cl/inicio/183-invernadero-hidroponico-100-mts2-.html",
+        "https://www.leomon.cl/19-hidroponia",
+        "https://www.mdpi.com/2311-7524/12/8/972",
+        "https://www.reddit.com/r/hydro/comments/jq3kzr",
+        "https://www.smc.edu/academics/workforce-economic-development/Perkins_Applications/Aquaculture-Perkins-FY26-27-Final.pdf",
+        "https://www.tuk.cl/es-cl/pages/para-empresas",
+        "https://www.youtube.com/watch?v=NuQ17x6YGRs",
+        "https://www.youtube.com/watch?v=xMpvLJTpfCg"
       ]
     },
     {
@@ -127,14 +109,16 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 2,
+      "grounded_sources": 3,
       "retry_justified": false
     },
     {
       "index": 1,
       "stage": "normalization",
       "outcome": "accepted",
-      "reasons": [],
+      "reasons": [
+        "discarded_ungrounded_url"
+      ],
       "changes": [
         "contrary_evidence:list_sanitized",
         "major_risks:list_sanitized",
@@ -147,38 +131,60 @@ No survivors. Scout does not manufacture a daily winner.
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_b6de0d751a07c6a598c1",
+      "candidate_id": "opp_8ed1b40a94786a3e6997",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 22,
+      "grounded_source_count": 29,
       "search_source_urls": [
-        "https://apnews.com/article/2de72b65d63006a7ce85eab441e2d6b7",
-        "https://apnews.com/article/955945e03ffcc111389d62fa3103a051",
-        "https://en.wikipedia.org/wiki/List_of_public_corporations_by_market_capitalization",
-        "https://finance.yahoo.com/quote/SYM/",
-        "https://finance.yahoo.com/quote/SYM/key-statistics/",
-        "https://ir.symbotic.com/?aff_unique2=%2F%25&code=%2F%25",
-        "https://ir.symbotic.com/financial-filings/sec-filings",
-        "https://ir.symbotic.com/static-files/5d6377a4-0753-40b5-b512-bcfbb05ceb81",
-        "https://s6y.io/c/sym/10-K-20261123/sym-20260926.htm",
-        "https://sec-api.io/insights/symbotic-sym-q4-fy2026-earnings-revenue-778m-net-income-55m-backlog-22-3bn-sec-filing-analysis",
-        "https://stockanalysis.com/stocks/sym/",
-        "https://stockanalysis.com/stocks/sym/market-cap/",
-        "https://www.kiplinger.com/investing/live/anthropic-ipo-updates-and-commentary",
-        "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
-        "https://www.kiplinger.com/investing/stocks/dividend-stocks/best-dividend-stocks-you-can-count-on",
-        "https://www.kiplinger.com/investing/stocks/upcoming-ipos",
-        "https://www.quantisnow.com/articles/symbotic-jumps-12-before-earnings-as-backlog-slips-and-walmart-hits-87-of-revenue",
-        "https://www.sec.gov/Archives/edgar/data/1837240/000183724026000042/symboticinvestorpresenta.htm",
-        "https://www.sec.gov/Archives/edgar/data/1837240/000183724026000049/sym-20260926.htm",
-        "https://www.stocktitan.net/sec-filings/SYM/",
-        "https://www.youtube.com/watch?v=IS7DsO4VIIY",
-        "https://www.youtube.com/watch?v=egx1fkvdb3E"
+        "https://elpais.com/economia/2026-02-05/adios-a-las-facturas-manuales-la-ia-que-automatiza-el-pago-a-los-proveedores.html",
+        "https://elpais.com/planeta-futuro/2025-08-25/la-factura-electronica-experiencia-y-beneficios-de-america-latina-para-el-mundo.html",
+        "https://en.wikipedia.org/wiki/Electronic_invoicing",
+        "https://es.wikipedia.org/wiki/Factura_electr%C3%B3nica",
+        "https://es.wikipedia.org/wiki/LibreDTE",
+        "https://palena.sii.cl/cvc/dte/ee_empresas_dte.html",
+        "https://www.apec.org/docs/default-source/publications/2025/2/225_cti_interoperability-of-electronic-invoicing-systems-in-the-apec-region.pdf",
+        "https://www.avalara.com/us/en/vatlive/country-guides/south-america/chile/chile-e-invoices.html",
+        "https://www.avalara.com/us/en/vatlive/country-guides/south-america/chile/chilean-e-invoicing.html",
+        "https://www.huffingtonpost.es/tecnologia/automatizacion-ahorro-fiscal-como-tickelia-redefine-gestion-gastos-empresa.html",
+        "https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations/chile.html",
+        "https://www.oecd.org/content/dam/oecd/en/about/programmes/oecd-data-collection-programme/taxation/consumption-tax-trends/guidance-for-completing-the-tables.pdf",
+        "https://www.oecd.org/en/publications/consumption-tax-trends-2024_dcd4dd36-en/full-report/component-6.html",
+        "https://www.oecd.org/en/publications/digitalisation-and-digital-transformation-in-tax-administrations_5976063c-en/full-report/data-management-and-standards_cffc9b22.html",
+        "https://www.oecd.org/en/publications/oecd-economic-surveys-costa-rica-2025_048cf07b-en/full-report/sustaining-growth-and-macroeconomic-stability_d122651b.html",
+        "https://www.oecd.org/en/publications/oecd-economic-surveys-costa-rica-2025_048cf07b-en/full-report/sustaining-growth-and-macroeconomic-stability_d122651b.html",
+        "https://www.sii.cl/destacados/factura_electronica/guias_ayuda/como_generar_respt_dte.pdf",
+        "https://www.sii.cl/destacados/factura_electronica/guias_ayuda/guia_inscripcion_fe.pdf",
+        "https://www.sii.cl/factura_electronica/factura_mercado/instructivo_emision.pdf",
+        "https://www.sii.cl/factura_electronica/factura_sii/emitircertificadodigitalcentralizado.htm",
+        "https://www.sii.cl/portales/facturaelectronica_inf/operacion_fe016.html",
+        "https://www.sii.cl/servicios_online/1039-1183.html",
+        "https://www.sii.cl/servicios_online/1039-como_fact_elect-1182.html",
+        "https://www.sii.cl/servicios_online/1039-como_fact_elect-1182.html",
+        "https://www.sii.cl/servicios_online/1039-emp_prov_fe-1184.html",
+        "https://www.sii.cl/servicios_online/1039-emp_prov_fe-1184.html",
+        "https://www.techradar.com/pro/your-invoice-now-needs-a-boarding-pass",
+        "https://www.youtube.com/watch?v=QTuLmyYW4_c",
+        "https://www.youtube.com/watch?v=aTh_6f_6_pM"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_b6de0d751a07c6a598c1",
+      "candidate_id": "opp_8ed1b40a94786a3e6997",
+      "coercions": [
+        "contrary_evidence"
+      ]
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_8ed1b40a94786a3e6997",
+      "response_status": "completed",
+      "incomplete_reason": "",
+      "grounded_source_count": 0,
+      "search_source_urls": []
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_8ed1b40a94786a3e6997",
       "coercions": []
     }
   ],
@@ -186,30 +192,44 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 476,
-      "cache_write_tokens": 5461,
+      "reasoning_tokens": 200,
+      "cache_write_tokens": 5536,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.02616365,
+      "cumulative_cost_usd": 0.0148964,
       "model": "gpt-5.6-luna",
-      "input_tokens": 20255,
+      "input_tokens": 14086,
       "cached_tokens": 0,
-      "output_tokens": 1533,
-      "web_search_calls": 2,
-      "estimated_cost_usd": 0.02616365
+      "output_tokens": 1502,
+      "web_search_calls": 1,
+      "estimated_cost_usd": 0.0148964
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 150,
-      "cache_write_tokens": 5316,
+      "reasoning_tokens": 120,
+      "cache_write_tokens": 5364,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.04077045,
+      "cumulative_cost_usd": 0.0294088,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13533,
+      "input_tokens": 13829,
       "cached_tokens": 0,
-      "output_tokens": 1362,
+      "output_tokens": 1232,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0146068
+      "estimated_cost_usd": 0.0145124
+    },
+    {
+      "stage": "judge",
+      "available": true,
+      "reasoning_tokens": 171,
+      "cache_write_tokens": 3320,
+      "accounting_notes": [],
+      "cumulative_cost_usd": 0.0479748,
+      "model": "gpt-5.6-terra",
+      "input_tokens": 3323,
+      "cached_tokens": 0,
+      "output_tokens": 855,
+      "web_search_calls": 0,
+      "estimated_cost_usd": 0.018566
     }
   ]
 }

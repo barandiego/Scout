@@ -2,23 +2,23 @@
 
 **Editorial theme grouping only; original opportunity records and gates are unchanged.**
 
-Canonical active cards: 237 | themes: 99 | headline cards: 12
+Canonical active cards: 239 | themes: 100 | headline cards: 12
 
 ## Saturated research themes
 
-- chile_open_finance: 97 cards (40.9%)
+- chile_open_finance: 97 cards (40.6%)
 
 ## One headline per theme
 
-- **NFC review-and-contact displays for Chilean cafés, hotels and service counters** — nfc_products; +11 same-theme research cards; reviewed=true (not a validated buyer)
+- **NFC review-and-contact displays for Chilean cafés, hotels and service counters** — nfc_products; +12 same-theme research cards; reviewed=true (not a validated buyer)
 - **Chile SFA implementation test harness for fintech and bank API teams** — chile_open_finance; +96 same-theme research cards; reviewed=true (not a validated buyer)
 - **BESS and inverter compliance pre-check for Chilean distributed-energy projects** — energy_infrastructure; +25 same-theme research cards; reviewed=true (not a validated buyer)
 - **Independent field-service and deployment support for autonomous agricultural weed-control robots** — robotics_agritech:independent_field_service; +1 same-theme research cards; reviewed=true (not a validated buyer)
 - **Chile RaaS deployment wedge for industrial-floor cleaning** — robotics_agritech:raas_deployment_wedge; +0 same-theme research cards; reviewed=true (not a validated buyer)
 - **SEC-verified solar-plus-storage prequalification for Chilean small businesses** — energy_infrastructure:sec_verified_solar; +0 same-theme research cards; reviewed=true (not a validated buyer)
 - **Small-scale storage and control feasibility wedge for Chilean distributed generators** — energy_infrastructure:small_scale_storage; +0 same-theme research cards; reviewed=true (not a validated buyer)
+- **Local-first Chilean DTE invoice reconciliation and exception review** — chile_localization:local_first_dte; +0 same-theme research cards; reviewed=true (not a validated buyer)
 - **Apply for Chilean-Spanish AI training and evaluation contracts** — general:apply_spanish_ai; +0 same-theme research cards; reviewed=true (not a validated buyer)
 - **MP Materials: domestic rare-earth magnet production with disclosed OEM and government-linked demand** — public_markets:mp_materials_domestic; +0 same-theme research cards; reviewed=true (not a validated buyer)
 - **Managed agent orchestration is lowering the cost of production AI workflows** — general:managed_agent_orchestration; +0 same-theme research cards; reviewed=true (not a validated buyer)
 - **EU AI Act transparency and enforcement obligations are becoming operational** — general:eu_ai_act; +0 same-theme research cards; reviewed=true (not a validated buyer)
-- **CMS is advancing standardized payer APIs and interoperability requirements** — general:cms_advancing_standardized; +0 same-theme research cards; reviewed=true (not a validated buyer)

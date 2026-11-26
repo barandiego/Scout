@@ -1508,6 +1508,103 @@
     {
       "ai_leverage": "",
       "authorized_for_execution": false,
+      "contrary_evidence": [
+        "There is genuine enabling infrastructure. SII recognizes DTEs as legally valid electronic documents, supports receipt and commercial acceptance or rejection workflows, and automatically builds electronic purchase and sales records from electronic documents. This reduces manual bookkeeping and confirms that standardized source data exists. ([sii.cl](https://www.sii.cl/servicios_online/1039-como_fact_elect-1182.html?utm_source=openai)) Chile also has very high electronic-invoicing adoption; OECD material reports that more than 90% of firms were using the tax authority platform by 2023 and describes the purchase-and-sales ledger as automated and standardized. ([oecd.org](https://www.oecd.org/en/publications/oecd-economic-surveys-costa-rica-2025_048cf07b-en/full-report/sustaining-growth-and-macroeconomic-stability_d122651b.html?utm_source=openai)) SII documentation also confirms that commercial systems can integrate with taxpayer applications, so there may be a paid wedge where existing accounting systems fail to reconcile operational purchasing data, especially for distributors or businesses with purchase orders. ([sii.cl](https://www.sii.cl/servicios_online/1039-como_fact_elect-1182.html?utm_source=openai)) However, these facts validate market infrastructure and possible pain, not this particular product or its economic value."
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-10-22T13:27:42.382920+00:00",
+      "discovery_lens": "ai_open_source",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Public repository demonstrates an operational local OCR/local-LLM workflow for extracting structured data from invoices, contracts and receipts, with CSV/JSON export.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "DocExtract: local OCR and LLM document extraction",
+          "url": "https://github.com/Rayaanxrio/DocExtract"
+        },
+        {
+          "claim": "Chile's tax authority provides electronic invoicing workflows covering invoices, credit notes, purchase books and received-document responses.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "SII electronic invoicing guides",
+          "url": "https://www.sii.cl/destacados/factura_electronica/guias_ayuda/factura_electronica.html"
+        },
+        {
+          "claim": "SII documents XML schemas and electronic purchase/sales information formats for Chilean electronic tax documents.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "SII electronic-document XML format",
+          "url": "https://zeus.sii.cl/IVA2000/Static/Formato_XML.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.84,
+      "falsification_conditions": [
+        "A discovery sample shows that most target invoices already flow automatically from SII or an incumbent provider into the accounting system with no material manual reconciliation.",
+        "Across at least 200 real invoices from two or more businesses, the workflow does not reduce human review time by at least 50% while maintaining customer-defined financial accuracy.",
+        "No accessible pilot customer will provide live or adequately representative documents, purchase orders, receipts, and accounting ground truth under acceptable security terms.",
+        "The product cannot achieve a clearly positive contribution margin after implementation, integration, support, and exception-handling labor at a price customers will pay.",
+        "At least three interviewed target customers identify existing ERP/accounting or e-invoicing functionality as sufficient and show no willingness to pay for a separate tool.",
+        "More than 20% of invoices require bespoke rules or manual investigation, making the service predominantly custom operations rather than repeatable software.",
+        "A required integration with a dominant accounting or ERP system is unavailable, prohibitively expensive, or blocked by customer security and procurement requirements.",
+        "The local AI component adds no measurable advantage over deterministic XML parsing, rules, and standard integration APIs.",
+        "A commercial incumbent offers materially similar DTE reconciliation and exception workflows at a price below the achievable standalone price.",
+        "The founder cannot identify a narrow initial segment with a recurring, high-volume discrepancy pattern and a reachable distribution channel."
+      ],
+      "geography": "Chile",
+      "id": "opp_8ed1b40a94786a3e6997",
+      "judge_reviewed": true,
+      "judgment": "Chile has a real, regulated DTE/XML environment and the proposal identifies a potentially distinct job—three-way-style reconciliation of supplier documents against purchase orders, receipts, and accounting records—rather than merely issuing compliant e-invoices. However, the current evidence establishes standardized inputs and technical feasibility, not a Chilean willingness-to-pay problem. The proposed local OCR/local-LLM differentiation is particularly weak because native DTE XML should be parsed deterministically; value, if any, must come from reliable matching, configurable exception workflows, audit trails, and integrations. The record also names incumbent invoicing/accounting providers and SII substitutes but does not independently establish which offer comparable operational reconciliation, at what price, or whether a narrow high-volume segment remains underserved. No fatal condition is proven yet: incumbent adequacy, blocked legal access, and impossible Chilean economics are plausible risks rather than verified conclusions. It should not be treated as HQ-worthy until a narrowly selected Chilean segment demonstrates recurring, costly exceptions and paid-pilot economics.",
+      "last_record_updated_at": "2026-11-26T18:08:54.643082+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Whether target businesses actually re-key or manually reconcile supplier DTEs after receiving structured XML.",
+        "Which accounting, ERP, procurement, or warehouse systems must be integrated for the workflow to be valuable.",
+        "Whether purchase orders, goods receipts, catalogs, cost centers, and payment records are accessible in machine-readable form.",
+        "Exception rate, false-positive rate, and review minutes per invoice across real customer datasets.",
+        "Number of invoices processed per target customer and the monthly labor cost currently spent on reconciliation."
+      ],
+      "participation_path": "Build a minimal local prototype using one open-source extractor and Chilean DTE samples. Obtain 20-50 redacted or synthetic invoices from one accessible business or accounting contact, compare extracted fields against the source XML and a manually prepared ground-truth sheet, and measure field accuracy plus review time. Then offer a free or low-cost batch test that reports false positives, missing fields and hours saved; stop if the operator will not provide documents, cannot identify a recurring reconciliation task, or the measured review burden is not lower than manual entry. Distribution should initially be direct outreach to small accounting practices, distributors or businesses already using SII electronic invoicing, not a general AI agency offer.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A small operator can test a narrow workflow that converts supplier DTE XML/PDF files into validated purchase records, flags discrepancies against purchase orders or accounting exports, and routes only exceptions for human review. Local processing can reduce cloud-API cost and may be useful where accounting data cannot leave the operator's infrastructure.",
+      "title": "Local-first Chilean DTE invoice reconciliation and exception review",
+      "type": "software_tool",
+      "unknowns": [
+        "Whether target businesses actually re-key or manually reconcile supplier DTEs after receiving structured XML.",
+        "Which accounting, ERP, procurement, or warehouse systems must be integrated for the workflow to be valuable.",
+        "Whether purchase orders, goods receipts, catalogs, cost centers, and payment records are accessible in machine-readable form.",
+        "Exception rate, false-positive rate, and review minutes per invoice across real customer datasets.",
+        "Number of invoices processed per target customer and the monthly labor cost currently spent on reconciliation.",
+        "Buyer and budget owner: business owner, controller, accounting firm, procurement team, or ERP administrator.",
+        "Acceptable price relative to existing accounting-provider fees and internal labor savings.",
+        "Security, data-residency, tax-audit, retention, support, and liability requirements for handling financial records.",
+        "Whether local inference provides a meaningful advantage over deterministic XML parsing and existing provider integrations.",
+        "Ability to obtain 20-50 real documents plus matching purchase orders, receipts, and accounting ground truth from an accessible pilot customer.",
+        "Whether an accounting firm or ERP provider would copy, bundle, or block the product.",
+        "Whether the workflow must support non-DTE documents, PDFs, credit notes, debit notes, service invoices, partial deliveries, and disputed receipts.",
+        "Which Chilean incumbent products, including SII, Nubox, Softland, Sovos, DBNet, Transtecnia, FacturaChile, ERP modules, and accounting firms, currently provide PO/receipt/DTE matching and exception management; their pricing, integration scope, and gaps.",
+        "A reachable initial segment with repeatable high-volume discrepancy patterns—for example a specific distributor, importer, multi-site operator, or accounting practice—and its actual document volumes.",
+        "Baseline reconciliation minutes, exception rate, error cost, payment-delay or duplicate-payment exposure, and current labor/provider spend from live Chilean customer data.",
+        "Whether customers can legally and operationally provide matched DTE XML, PO, receipt, and accounting ground truth for a pilot.",
+        "Whether an on-premise/local-processing requirement is buyer-driven and monetizable, rather than a founder-selected architecture.",
+        "Required supplier/API access, ERP integration terms, data-processing obligations, and any tax-record retention or audit requirements applicable to the intended service.",
+        "A viable landed cost model: implementation hours, ongoing support and exception-review labor, hosting/local deployment, sales cycle, and price sufficient for positive contribution margin."
+      ],
+      "value_capture_mechanism": "A paid pilot or per-document reconciliation service for a defined workflow; possible cash-flow source is the operator currently paying staff or an accounting provider to re-key, validate or reconcile supplier invoices. No buyer, price or margin is assumed until interviews or a paid pilot confirm it.",
+      "verified_sales": null,
+      "vertical": "chile_localization",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": true,
       "discovered_at": "2026-11-11T22:28:44.553569+00:00",
@@ -10627,67 +10724,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-22T13:27:42.382920+00:00",
-      "discovery_lens": "ai_open_source",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "Public repository demonstrates an operational local OCR/local-LLM workflow for extracting structured data from invoices, contracts and receipts, with CSV/JSON export.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "DocExtract: local OCR and LLM document extraction",
-          "url": "https://github.com/Rayaanxrio/DocExtract"
-        },
-        {
-          "claim": "Chile's tax authority provides electronic invoicing workflows covering invoices, credit notes, purchase books and received-document responses.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "SII electronic invoicing guides",
-          "url": "https://www.sii.cl/destacados/factura_electronica/guias_ayuda/factura_electronica.html"
-        },
-        {
-          "claim": "SII documents XML schemas and electronic purchase/sales information formats for Chilean electronic tax documents.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "SII electronic-document XML format",
-          "url": "https://zeus.sii.cl/IVA2000/Static/Formato_XML.html"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.84,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_8ed1b40a94786a3e6997",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-22T13:27:42.436871+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Build a minimal local prototype using one open-source extractor and Chilean DTE samples. Obtain 20-50 redacted or synthetic invoices from one accessible business or accounting contact, compare extracted fields against the source XML and a manually prepared ground-truth sheet, and measure field accuracy plus review time. Then offer a free or low-cost batch test that reports false positives, missing fields and hours saved; stop if the operator will not provide documents, cannot identify a recurring reconciliation task, or the measured review burden is not lower than manual entry. Distribution should initially be direct outreach to small accounting practices, distributors or businesses already using SII electronic invoicing, not a general AI agency offer.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "A small operator can test a narrow workflow that converts supplier DTE XML/PDF files into validated purchase records, flags discrepancies against purchase orders or accounting exports, and routes only exceptions for human review. Local processing can reduce cloud-API cost and may be useful where accounting data cannot leave the operator's infrastructure.",
-      "title": "Local-first Chilean DTE invoice reconciliation and exception review",
-      "type": "software_tool",
-      "unknowns": [],
-      "value_capture_mechanism": "A paid pilot or per-document reconciliation service for a defined workflow; possible cash-flow source is the operator currently paying staff or an accounting provider to re-key, validate or reconcile supplier invoices. No buyer, price or margin is assumed until interviews or a paid pilot confirm it.",
-      "verified_sales": null,
-      "vertical": "chile_localization",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-11-05T19:29:41.540016+00:00",
       "discovery_lens": "public_markets",
       "estimated_capital": "",
@@ -10985,6 +11021,67 @@
       "value_capture_mechanism": "A small operator could sell a defined catalog-monitoring or marketplace-operations deliverable: weekly SKU/price/stock audits, competitor-price alerts, listing-error detection and conversion-oriented content changes. The economic mechanism is a paid operational service or performance-linked improvement, but willingness to pay and attribution are unverified.",
       "verified_sales": null,
       "vertical": "ecommerce_niches",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
+      "discovered_at": "2026-11-26T18:08:28.758036+00:00",
+      "discovery_lens": "nfc_smart_commerce",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "A Chilean supplier lists a configured Google-review NFC card at CLP 10,000, with volume pricing and delivery information.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Tarjeta Google NFC en Chile",
+          "url": "https://pymevisible.cl/productos/tarjeta-google"
+        },
+        {
+          "claim": "A Chilean supplier lists NFC displays, digital restaurant menus, stickers and recommendation cards with prices from CLP 10,000 to CLP 20,000.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "NFC archivos - Credenciales para Empresas",
+          "url": "https://credencialeschile.cl/categoria-producto/nfc/"
+        },
+        {
+          "claim": "A Chilean provider offers NFC cards, access products, interactive experiences and business deployments, including small-quantity purchase routes.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "NFC para empresas – Productos NFC personalizados- TUK",
+          "url": "https://www.tuk.cl/es-cl/pages/para-empresas"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.88,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_afbd1209046c5dfe1383",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-26T18:08:28.871480+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Buy or assemble one NFC display and one NFC card using an existing Chilean supplier. Approach 10 independently owned restaurants, salons or lodging businesses in one local area with a paid pilot offer, not a free speculative deployment. Test: record baseline Google-review count and menu/product clicks for 14 days, install the NFC/QR assets for 30 days, then compare attributable scans and reviews. Falsify if fewer than 3 of 10 prospects agree to a paid pilot at a price near the published local hardware prices, or if installed businesses cannot show measurable use. Existing supplier pages provide purchase routes; no buyer, conversion rate or permission is assumed.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A small operator should not compete on generic NFC cards. The narrower executable wedge is a standardized pack for restaurants, salons or accommodation providers: table display plus Google-review destination, menu/product-discovery destination, QR fallback and a simple monthly scan/review report. The economic mechanism is one-time hardware revenue plus optional recurring reporting or replacement revenue; willingness to pay beyond existing one-time products remains unverified.",
+      "title": "NFC review-and-discovery displays for Chilean hospitality businesses",
+      "type": "productized_physical_distribution",
+      "unknowns": [],
+      "value_capture_mechanism": "Sell a fixed installation pack at or below observed local product prices, with any recurring fee justified only by measured review conversions, destination clicks or content updates. Do not assume recurring revenue until a customer accepts it.",
+      "verified_sales": null,
+      "vertical": "physical_distribution",
       "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
       "why_now": ""
     },
@@ -15916,6 +16013,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-26T18:08:28.759185+00:00",
+      "discovery_lens": "vertical_farming_economics",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "A Chilean supplier lists a 100-square-meter NFT greenhouse for CLP 4,790,000, including a 1,250-plant system and training.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Invernadero hidropónico 100 m2 con sistema NFT",
+          "url": "https://www.invernadero.cl/inicio/183-invernadero-hidroponico-100-mts2-.html"
+        },
+        {
+          "claim": "A Chilean agrivoltaic project manual reports a 4.5-year payback and 28.8% IRR for one elevated fixed configuration, versus a 7.6-year payback for a vertical configuration under its stated assumptions.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Manual para el Desarrollo de Proyectos Agrivoltaicos en Chile",
+          "url": "https://energypartnership.cl/fileadmin/chile/media_elements/Studies/2025_Manual_para_el_Desarrollo_de_Proyectos_Agrivoltaicos_en_Chile.PDF"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.83,
+      "falsification_conditions": [],
+      "geography": "Chile",
+      "id": "opp_56cd45d43d978cf99150",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-26T18:08:28.871738+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Use the published CLP 4,790,000 system as a benchmark and obtain two supplier quotes plus electricity, labor, water and crop-price assumptions for one target locality. Pre-sell one paid feasibility visit or installation quotation to existing growers, nurseries or agricultural training centers identified directly by the operator. Test: collect three written expressions of interest and require one refundable deposit before purchasing equipment. Falsify if no operator will pay for the feasibility step, if supplier quotes materially exceed the public benchmark without a committed buyer, or if a conservative crop model cannot cover labor, energy, depreciation and distribution. No buyer, crop contract, margin or permission is assumed.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The defensible wedge is a low-energy greenhouse/NFT installation or equipment-resale package for existing landowners, nurseries or small farms—not an artificially lit vertical farm. The cash-flow source would be equipment purchase, installation and maintenance paid by an identified farm operator; crop profitability must be proven locally before taking production risk.",
+      "title": "Sell greenhouse NFT capacity, not indoor vertical-farm lettuce",
+      "type": "equipment_resale_and_installation",
+      "unknowns": [],
+      "value_capture_mechanism": "Earn a disclosed markup or installation fee on a verified greenhouse/NFT system, potentially followed by paid maintenance or consumables. Do not claim crop margins or payback from the available evidence. Avoid financing inventory until a buyer deposits or signs a purchase order.",
+      "verified_sales": null,
+      "vertical": "robotics_agritech",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-24T08:38:52.197691+00:00",
       "discovery_lens": "fixed_scope_paid_research_asset",
       "estimated_capital": "",
@@ -16617,13 +16768,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-26T07:56:01.342235+00:00",
+  "generated_at": "2026-11-26T18:08:55.404627+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 134,
-  "reviewed_cards": 103,
+  "reviewed_cards": 104,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 371,
-  "watch": 237
+  "total_distinct_opportunities": 373,
+  "watch": 239
 }

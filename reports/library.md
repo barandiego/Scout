@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-11-26T07:56:01.342235+00:00
+Generated: 2026-11-26T18:08:55.404627+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 237 (0 HQ survivors, 237 watches)
+- Active research: 239 (0 HQ survivors, 239 watches)
 - Rejected opportunities excluded: 134
-- Critic-and-judge reviewed: 103
+- Critic-and-judge reviewed: 104
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -172,6 +172,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Number, size, crop mix, and geographic concentration of existing Chilean indoor or hydroponic growers that use artificial lighting.; Actual Chilean electricity tariffs, demand charges, time-of-use pricing, and renewable-energy arrangements applicable to target facilities.; Lighting, HVAC, pumping, dehumidification, and refrigeration shares of total site electricity consumption.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://arxiv.org/abs/2507.18419; https://arxiv.org/abs/2510.03686; https://ers.usda.gov/sites/default/files/_laserfiche/publications/108221/EIB-264.pdf
+
+### Local-first Chilean DTE invoice reconciliation and exception review [opp_8ed1b40a94786a3e6997]
+- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
+- Thesis: A small operator can test a narrow workflow that converts supplier DTE XML/PDF files into validated purchase records, flags discrepancies against purchase orders or accounting exports, and routes only exceptions for human review. Local processing can reduce cloud-API cost and may be useful where accounting data cannot leave the operator's infrastructure.
+- Value capture: A paid pilot or per-document reconciliation service for a defined workflow; possible cash-flow source is the operator currently paying staff or an accounting provider to re-key, validate or reconcile supplier invoices. No buyer, price or margin is assumed until interviews or a paid pilot confirm it.
+- Participation hypothesis: Build a minimal local prototype using one open-source extractor and Chilean DTE samples. Obtain 20-50 redacted or synthetic invoices from one accessible business or accounting contact, compare extracted fields against the source XML and a manually prepared ground-truth sheet, and measure field accuracy plus review time. Then offer a free or low-cost batch test that reports false positives, missing fields and hours saved; stop if the operator will not provide documents, cannot identify a recurring reconciliation task, or the measured review burd
+- Critic/judge: Chile has a real, regulated DTE/XML environment and the proposal identifies a potentially distinct job—three-way-style reconciliation of supplier documents against purchase orders, receipts, and accounting records—rather than merely issuing compliant e-invoices. However, the current evidence establishes standardized inputs and technical feasibility, not a Chilean willingness-to-pay problem. The proposed local OCR/local-LLM differentiati
+- Next evidence gaps: Whether target businesses actually re-key or manually reconcile supplier DTEs after receiving structured XML.; Which accounting, ERP, procurement, or warehouse systems must be integrated for the workflow to be valuable.; Whether purchase orders, goods receipts, catalogs, cost centers, and payment records are accessible in machine-readable form.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://github.com/Rayaanxrio/DocExtract; https://www.sii.cl/destacados/factura_electronica/guias_ayuda/factura_electronica.html; https://zeus.sii.cl/IVA2000/Static/Formato_XML.html
 
 ### MP Materials: domestic rare-earth magnet production with disclosed OEM and government-linked demand [opp_ea11946fa895efb87c68]
 - Status: WATCH_REQUIRES_VALIDATION | public_markets | United States
@@ -1293,16 +1303,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.mercadolibre.cl/mas-vendidos/MLC1616; https://proveedores.flashdrop.cl/; https://www.zagaimp.com/
 
-### Local-first Chilean DTE invoice reconciliation and exception review [opp_8ed1b40a94786a3e6997]
-- Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile
-- Thesis: A small operator can test a narrow workflow that converts supplier DTE XML/PDF files into validated purchase records, flags discrepancies against purchase orders or accounting exports, and routes only exceptions for human review. Local processing can reduce cloud-API cost and may be useful where accounting data cannot leave the operator's infrastructure.
-- Value capture: A paid pilot or per-document reconciliation service for a defined workflow; possible cash-flow source is the operator currently paying staff or an accounting provider to re-key, validate or reconcile supplier invoices. No buyer, price or margin is assumed until interviews or a paid pilot confirm it.
-- Participation hypothesis: Build a minimal local prototype using one open-source extractor and Chilean DTE samples. Obtain 20-50 redacted or synthetic invoices from one accessible business or accounting contact, compare extracted fields against the source XML and a manually prepared ground-truth sheet, and measure field accuracy plus review time. Then offer a free or low-cost batch test that reports false positives, missing fields and hours saved; stop if the operator will not provide documents, cannot identify a recurring reconciliation task, or the measured review burd
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://github.com/Rayaanxrio/DocExtract; https://www.sii.cl/destacados/factura_electronica/guias_ayuda/factura_electronica.html; https://zeus.sii.cl/IVA2000/Static/Formato_XML.html
-
 ### Merger-arbitrage screening around the Paramount-Warner Bros. Discovery transaction [opp_94f35432533ab548a1f0]
 - Status: WATCH_REQUIRES_VALIDATION | public_markets | United States
 - Thesis: The transaction creates a directly observable spread-or-no-spread event whose value depends on the current WBD price, closing probability, timing, financing, regulatory conditions, and any adjustment mechanics. This is an executable public-market research setup, not a claim that the spread is attractive without a live price and risk calculation.
@@ -1352,6 +1352,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://news.mercadolibre.com/tienda-oficial-natura-chile; https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/; https://www.falabella.com/falabella-cl/seller/Natura
+
+### NFC review-and-discovery displays for Chilean hospitality businesses [opp_afbd1209046c5dfe1383]
+- Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile
+- Thesis: A small operator should not compete on generic NFC cards. The narrower executable wedge is a standardized pack for restaurants, salons or accommodation providers: table display plus Google-review destination, menu/product-discovery destination, QR fallback and a simple monthly scan/review report. The economic mechanism is one-time hardware revenue plus optional recurring reporting or replacement revenue; willingness to pay beyond existing one-time products remains unverified.
+- Value capture: Sell a fixed installation pack at or below observed local product prices, with any recurring fee justified only by measured review conversions, destination clicks or content updates. Do not assume recurring revenue until a customer accepts it.
+- Participation hypothesis: Buy or assemble one NFC display and one NFC card using an existing Chilean supplier. Approach 10 independently owned restaurants, salons or lodging businesses in one local area with a paid pilot offer, not a free speculative deployment. Test: record baseline Google-review count and menu/product clicks for 14 days, install the NFC/QR assets for 30 days, then compare attributable scans and reviews. Falsify if fewer than 3 of 10 prospects agree to a paid pilot at a price near the published local hardware prices, or if installed businesses cannot s
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://pymevisible.cl/productos/tarjeta-google; https://credencialeschile.cl/categoria-producto/nfc/; https://www.tuk.cl/es-cl/pages/para-empresas
 
 ### NFC review-and-discovery stations for Chilean restaurants and local retailers [opp_7a4c2697266c85e82693]
 - Status: WATCH_REQUIRES_VALIDATION | physical_distribution | Chile
@@ -2252,6 +2262,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/1519061/000110465926066376/tm2615591d1_ex99-1.htm; https://www.sec.gov/Archives/edgar/data/1519061/000110465926092456/tm265903d2_ars.pdf
+
+### Sell greenhouse NFT capacity, not indoor vertical-farm lettuce [opp_56cd45d43d978cf99150]
+- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile
+- Thesis: The defensible wedge is a low-energy greenhouse/NFT installation or equipment-resale package for existing landowners, nurseries or small farms—not an artificially lit vertical farm. The cash-flow source would be equipment purchase, installation and maintenance paid by an identified farm operator; crop profitability must be proven locally before taking production risk.
+- Value capture: Earn a disclosed markup or installation fee on a verified greenhouse/NFT system, potentially followed by paid maintenance or consumables. Do not claim crop margins or payback from the available evidence. Avoid financing inventory until a buyer deposits or signs a purchase order.
+- Participation hypothesis: Use the published CLP 4,790,000 system as a benchmark and obtain two supplier quotes plus electricity, labor, water and crop-price assumptions for one target locality. Pre-sell one paid feasibility visit or installation quotation to existing growers, nurseries or agricultural training centers identified directly by the operator. Test: collect three written expressions of interest and require one refundable deposit before purchasing equipment. Falsify if no operator will pay for the feasibility step, if supplier quotes materially exceed the publ
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.invernadero.cl/inicio/183-invernadero-hidroponico-100-mts2-.html; https://energypartnership.cl/fileadmin/chile/media_elements/Studies/2025_Manual_para_el_Desarrollo_de_Proyectos_Agrivoltaicos_en_Chile.PDF
 
 ### SII company-record change monitor for accounting and compliance firms [opp_40dcdc904cd9586f5e77]
 - Status: WATCH_REQUIRES_VALIDATION | chile_localization | Chile

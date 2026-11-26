@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 237
+Candidates: 239
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -144,7 +144,7 @@ Candidates: 237
   - Find the smallest Chilean workflow whose economics differ from the original geography.
   - Secure lawful access, partners and after-sales support rather than copy protected technology.
   - Run a buyer interview or mock listing to falsify assumptions before capital commitment.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Critical gaps: Whether target businesses actually re-key or manually reconcile supplier DTEs after receiving structured XML.; Which accounting, ERP, procurement, or warehouse systems must be integrated for the workflow to be valuable.; Whether purchase orders, goods receipts, catalogs, cost centers, and payment records are accessible in machine-readable form.
 - Possible initial budget:
 - Source URLs: https://github.com/Rayaanxrio/DocExtract; https://www.sii.cl/destacados/factura_electronica/guias_ayuda/factura_electronica.html; https://zeus.sii.cl/IVA2000/Static/Formato_XML.html
 
@@ -2344,6 +2344,18 @@ Candidates: 237
 - Possible initial budget:
 - Source URLs: https://nfcid.cl/; https://www.kvmarketing.cl/tienda
 
+## NFC review-and-discovery displays for Chilean hospitality businesses
+- Status: watch | physical_distribution
+- Current idea: A small operator should not compete on generic NFC cards. The narrower executable wedge is a standardized pack for restaurants, salons or accommodation providers: table display plus Google-review destination, menu/product-discovery destination, QR fallback and a simple monthly scan/review report. The economic mechanism is one-time hardware revenue plus optional recurring reporting or replacement revenue; willingness to pay beyond existing one-time products remains unverified.
+- Potential economic capture: Sell a fixed installation pack at or below observed local product prices, with any recurring fee justified only by measured review conversions, destination clicks or content updates. Do not assume recurring revenue until a customer accepts it.
+- **Research routes to test (NOT validated claims):**
+  - Compare local product availability to supplier catalogs and independent consumer interest.
+  - Check import, tax, return, certification and delivery economics before estimating margin.
+  - Try a legitimate pre-order/waitlist test with transparent fulfillment conditions.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://pymevisible.cl/productos/tarjeta-google; https://credencialeschile.cl/categoria-producto/nfc/; https://www.tuk.cl/es-cl/pages/para-empresas
+
 ## NFC review-and-discovery stations for Chilean restaurants and local retailers
 - Status: watch | physical_distribution
 - Current idea: The hardware itself is commoditized, so the executable wedge is not inventing NFC technology. It is packaging inexpensive NFC plaques, table cards, shelf labels, or counter displays around one measurable action such as opening a menu, requesting a review, joining a loyalty list, or viewing a product page. The available retail prices provide a visible customer price anchor, but do not establish sustainable margins or demand for a new operator.
@@ -2751,6 +2763,18 @@ Candidates: 237
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.nifa.usda.gov/about-nifa/impacts/automation-specialty-crops; https://ers.usda.gov/topics/farm-economy/farm-labor; https://fieldreport.caes.uga.edu/publications/B1594/agribots-autonomous-ground-robots-for-specialty-crops/; https://maiaapples.com/wp-content/uploads/2024/01/NYFQ-BOOK-Summer-2023_FINAL.pdf
+
+## Sell greenhouse NFT capacity, not indoor vertical-farm lettuce
+- Status: watch | robotics_agritech
+- Current idea: The defensible wedge is a low-energy greenhouse/NFT installation or equipment-resale package for existing landowners, nurseries or small farms—not an artificially lit vertical farm. The cash-flow source would be equipment purchase, installation and maintenance paid by an identified farm operator; crop profitability must be proven locally before taking production risk.
+- Potential economic capture: Earn a disclosed markup or installation fee on a verified greenhouse/NFT system, potentially followed by paid maintenance or consumables. Do not claim crop margins or payback from the available evidence. Avoid financing inventory until a buyer deposits or signs a purchase order.
+- **Research routes to test (NOT validated claims):**
+  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
+  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
+  - Arrange a bounded field validation with an actual farm operator before scaling.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.invernadero.cl/inicio/183-invernadero-hidroponico-100-mts2-.html; https://energypartnership.cl/fileadmin/chile/media_elements/Studies/2025_Manual_para_el_Desarrollo_de_Proyectos_Agrivoltaicos_en_Chile.PDF
 
 ## Small-business route into on-demand robotic manufacturing and parts production
 - Status: watch | robotics_agritech

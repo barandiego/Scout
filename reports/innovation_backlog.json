@@ -417,9 +417,13 @@
       "founder_hours_ongoing_unverified_estimate": "",
       "geography": "Chile",
       "hypothesis_evaluation_questions": [
-        "Who is the actual payer and what evidence establishes demand?",
-        "What existing alternative already solves this job?",
-        "What is net contribution after fulfillment, fees, support and acquisition?"
+        "Whether target businesses actually re-key or manually reconcile supplier DTEs after receiving structured XML.",
+        "Which accounting, ERP, procurement, or warehouse systems must be integrated for the workflow to be valuable.",
+        "Whether purchase orders, goods receipts, catalogs, cost centers, and payment records are accessible in machine-readable form.",
+        "Exception rate, false-positive rate, and review minutes per invoice across real customer datasets.",
+        "Number of invoices processed per target customer and the monthly labor cost currently spent on reconciliation.",
+        "Buyer and budget owner: business owner, controller, accounting firm, procurement team, or ERP administrator.",
+        "Acceptable price relative to existing accounting-provider fees and internal labor savings."
       ],
       "investment_authorized": false,
       "name": "Local-first Chilean DTE invoice reconciliation and exception review",
@@ -7434,6 +7438,43 @@
       "category": "physical_distribution",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Buy or assemble one NFC display and one NFC card using an existing Chilean supplier. Approach 10 independently owned restaurants, salons or lodging businesses in one local area with a paid pilot offer, not a free speculative deployment. Test: record baseline Google-review count and menu/product clicks for 14 days, install the NFC/QR assets for 30 days, then compare attributable scans and reviews. Falsify if fewer than 3 of 10 prospects agree to a paid pilot at a price near the published local hardware prices, or if installed businesses cannot show measurable use. Existing supplier pages provide purchase routes; no buyer, conversion rate or permission is assumed.",
+      "current_thesis": "A small operator should not compete on generic NFC cards. The narrower executable wedge is a standardized pack for restaurants, salons or accommodation providers: table display plus Google-review destination, menu/product-discovery destination, QR fallback and a simple monthly scan/review report. The economic mechanism is one-time hardware revenue plus optional recurring reporting or replacement revenue; willingness to pay beyond existing one-time products remains unverified.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "NFC review-and-discovery displays for Chilean hospitality businesses",
+      "opportunity_id": "opp_afbd1209046c5dfe1383",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Compare local product availability to supplier catalogs and independent consumer interest.",
+        "Check import, tax, return, certification and delivery economics before estimating margin.",
+        "Try a legitimate pre-order/waitlist test with transparent fulfillment conditions."
+      ],
+      "supporting_source_urls": [
+        "https://pymevisible.cl/productos/tarjeta-google",
+        "https://credencialeschile.cl/categoria-producto/nfc/",
+        "https://www.tuk.cl/es-cl/pages/para-empresas"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a fixed installation pack at or below observed local product prices, with any recurring fee justified only by measured review conversions, destination clicks or content updates. Do not assume recurring revenue until a customer accepts it.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "physical_distribution",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Buy or locally source a small batch of NFC cards, plaques, or tags; create three narrowly scoped prototypes for restaurants, salons, and retail shelves; approach businesses already displaying QR codes or collecting Google reviews; offer a paid pilot at or below the observed CLP 10,000–25,000 hardware price and measure scans, completed actions, and repeat-order interest. Falsify cheaply by pre-selling five pilots before buying inventory beyond samples. Do not assume Google-review compliance, attribution quality, or permission to place hardware until each business confirms it.",
       "current_thesis": "The hardware itself is commoditized, so the executable wedge is not inventing NFC technology. It is packaging inexpensive NFC plaques, table cards, shelf labels, or counter displays around one measurable action such as opening a menu, requesting a review, joining a loyalty list, or viewing a product page. The available retail prices provide a visible customer price anchor, but do not establish sustainable margins or demand for a new operator.",
       "founder_hours_initial_unverified_estimate": "",
@@ -8728,6 +8769,42 @@
       "category": "robotics_agritech",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use the published CLP 4,790,000 system as a benchmark and obtain two supplier quotes plus electricity, labor, water and crop-price assumptions for one target locality. Pre-sell one paid feasibility visit or installation quotation to existing growers, nurseries or agricultural training centers identified directly by the operator. Test: collect three written expressions of interest and require one refundable deposit before purchasing equipment. Falsify if no operator will pay for the feasibility step, if supplier quotes materially exceed the public benchmark without a committed buyer, or if a conservative crop model cannot cover labor, energy, depreciation and distribution. No buyer, crop contract, margin or permission is assumed.",
+      "current_thesis": "The defensible wedge is a low-energy greenhouse/NFT installation or equipment-resale package for existing landowners, nurseries or small farms—not an artificially lit vertical farm. The cash-flow source would be equipment purchase, installation and maintenance paid by an identified farm operator; crop profitability must be proven locally before taking production risk.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Sell greenhouse NFT capacity, not indoor vertical-farm lettuce",
+      "opportunity_id": "opp_56cd45d43d978cf99150",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Explore robotic equipment leasing versus local distribution versus managed equipment operation.",
+        "Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.",
+        "Arrange a bounded field validation with an actual farm operator before scaling."
+      ],
+      "supporting_source_urls": [
+        "https://www.invernadero.cl/inicio/183-invernadero-hidroponico-100-mts2-.html",
+        "https://energypartnership.cl/fileadmin/chile/media_elements/Studies/2025_Manual_para_el_Desarrollo_de_Proyectos_Agrivoltaicos_en_Chile.PDF"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Earn a disclosed markup or installation fee on a verified greenhouse/NFT system, potentially followed by paid maintenance or consumables. Do not claim crop margins or payback from the available evidence. Avoid financing inventory until a buyer deposits or signs a purchase order.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "robotics_agritech",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Choose one measurable task—such as inspection, grinding, welding, or low-volume replacement-part production—and document the current manual process, required tolerances, cycle time, and prospective test site. Use NSF’s suitability assessment and eligibility rules before spending on a proposal. Falsification step: obtain a written process specification or sample part from one potential test user and determine whether the task can be evaluated with off-the-shelf sensors/robotics; abandon the wedge if no test artifact or measurable acceptance criterion is available.",
       "current_thesis": "A small US company with a specific manufacturing bottleneck could pursue non-dilutive validation funding for a narrowly defined robotic cell, inspection workflow, or on-demand replacement-part process. This is a funding and pilot route, not evidence of an already validated commercial product.",
       "founder_hours_initial_unverified_estimate": "",
@@ -9018,7 +9095,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-26T07:56:01.452637+00:00",
+  "generated_at": "2026-11-26T18:08:55.583262+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"
