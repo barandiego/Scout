@@ -1,102 +1,29 @@
 {
-  "active_candidates": [
-    {
-      "available_budget_clp": 1341250.0,
-      "buyer": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DEL ELQUI",
-      "closes_at": "2026-11-27T09:00:00",
-      "code": "1305532-104-COT26",
-      "estimated_budget": 1341250.0,
-      "name": "ADQUISICION REPOSAPIES ERGONOMICOS PARA SLEP ELQUI",
-      "products": 1,
-      "region": "Región de Coquimbo"
-    },
-    {
-      "available_budget_clp": 1790000.0,
-      "buyer": "Dirección Regional de Gendarmeria - Rancagua",
-      "closes_at": "2026-11-27T09:00:00",
-      "code": "1402-428-COT26",
-      "estimated_budget": 1790000.0,
-      "name": "SERVICIOS VETERINARIOS PARA EJEMPLAR CANINO PERSEO DEL E.C.A. RANCAGUA DE GENDARMERIA REGION DE O´HIGGINS",
-      "products": 1,
-      "region": "Región del Libertador General Bernardo O´Higgins"
-    },
-    {
-      "available_budget_clp": 614600.0,
-      "buyer": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DEL ELQUI",
-      "closes_at": "2026-11-27T09:00:00",
-      "code": "1305532-103-COT26",
-      "estimated_budget": 614600.0,
-      "name": "ADQUISICIÓN DE BLOQUEADOR SOLAR PARA LOS FUNCIONARIOS DEL SERVICIO LOCAL DE EDUCACIÓN PÚBLICA ELQUI",
-      "products": 1,
-      "region": "Región de Coquimbo"
-    },
-    {
-      "available_budget_clp": 7200000.0,
-      "buyer": "UNIVERSIDAD DE TALCA",
-      "closes_at": "2026-11-27T09:00:00",
-      "code": "1208066-564-COT26",
-      "estimated_budget": 7200000.0,
-      "name": "HABILITACIÓN VEREDA ACCESO ORIENTE, CAMPUS PEHUENCHE",
-      "products": 1,
-      "region": "Región del Maule"
-    },
-    {
-      "available_budget_clp": 982800.0,
-      "buyer": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DEL ELQUI",
-      "closes_at": "2026-11-27T09:00:00",
-      "code": "1305532-102-COT26",
-      "estimated_budget": 982800.0,
-      "name": "ADQUSICIÓN DE ALZA PANTALLAS Y ALZA NOTEBOOKS PARA ESCRITORIOS",
-      "products": 2,
-      "region": "Región de Coquimbo"
-    },
-    {
-      "available_budget_clp": 7000000.0,
-      "buyer": "UNIVERSIDAD DE TALCA",
-      "closes_at": "2026-11-27T09:00:00",
-      "code": "1208066-563-COT26",
-      "estimated_budget": 7000000.0,
-      "name": "HABILITACIÓN BODEGA, CAMPUS PEHUENCHE.",
-      "products": 1,
-      "region": "Región del Maule"
-    }
-  ],
-  "active_structurally_reconstructable_count": 6,
+  "active_candidates": [],
+  "active_structurally_reconstructable_count": 0,
   "diagnostics": {
-    "api_failures": {},
-    "budget_exhausted": false,
-    "detail_attempts": 20,
-    "detail_cap_exhausted": true,
-    "details_fetched": 20,
-    "duplicate_listings": 0,
-    "invalid_listing_items": 0,
-    "malformed_details": 0,
-    "malformed_reasons": {},
-    "malformed_samples": [],
-    "pages_fetched": 1,
-    "pagination_incomplete": false,
-    "pagination_invalid": false,
-    "requests_used": 21,
+    "api_failures": {
+      "api_rate_limited": 1
+    },
+    "requests_used": 1,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-26T00:31:22Z",
-  "inserted_history": 20,
-  "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
+  "generated_at": "2026-11-26T14:01:37Z",
+  "inserted_history": 0,
+  "note": "Transient ChileCompra/API availability failure after bounded retries. Cursor was not advanced; next scheduled run may retry safely.",
   "ok": false,
-  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
+  "outcome": "DEGRADED_TRANSIENT_API",
   "phase1": {
-    "records": 20,
-    "rejection_reasons": {
-      "no_observable_competitive_prices": 7
-    },
-    "resolved": 14,
-    "structurally_reconstructable": 13,
-    "with_observable_quote_totals": 7,
-    "with_purchase_order_indicator": 4
+    "records": 0,
+    "rejection_reasons": {},
+    "resolved": 0,
+    "structurally_reconstructable": 0,
+    "with_observable_quote_totals": 0,
+    "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-26T00:31:22Z"
+    "changed_to": "2026-11-26T14:01:37Z"
   }
 }
