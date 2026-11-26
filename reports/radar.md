@@ -1,16 +1,28 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-25T14:43:59.703748+00:00
+Generated: 2026-11-26T00:33:35.602235+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 169
+- New this cycle: 195
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 668, ai 75, commerce 1, energy 622, robotics 434
+- Categories: agriculture 665, ai 81, commerce 1, energy 629, robotics 424
 
 ## Recently encountered signals
+
+### krishnasutrave12-cmyk/agrismart-ai
+- Source: https://github.com/krishnasutrave12-cmyk/agrismart-ai
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### mithunappegowda2007-design/SMART_FARMING_AGENT
+- Source: https://github.com/mithunappegowda2007-design/SMART_FARMING_AGENT
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### ASAD1960/TERRAVANT
 - Source: https://github.com/ASAD1960/TERRAVANT
@@ -446,18 +458,6 @@ Generated: 2026-11-25T14:43:59.703748+00:00
 
 ### rinapatil1402/Smart-agriculture-automation-system-project-
 - Source: https://github.com/rinapatil1402/Smart-agriculture-automation-system-project-
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### itssharang94k/AI-Smart-Farming-Assistant
-- Source: https://github.com/itssharang94k/AI-Smart-Farming-Assistant
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### vikkychy/FARMORA
-- Source: https://github.com/vikkychy/FARMORA
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
