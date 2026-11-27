@@ -1,16 +1,22 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-26T14:08:24.538402+00:00
+Generated: 2026-11-27T00:42:52.113265+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 197
+- New this cycle: 202
 - API/model spending: $0.00; sales and invested capital: none
 - Feed failures (fail-open for public intake only): none
-- Categories: agriculture 672, ai 73, commerce 2, energy 633, robotics 420
+- Categories: agriculture 668, ai 73, commerce 2, energy 633, robotics 424
 
 ## Recently encountered signals
+
+### Praneeth-Yatakuri/CROP-YEILD
+- Source: https://github.com/Praneeth-Yatakuri/CROP-YEILD
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### Artificial Intelligence for India’s Energy Transition: Integrating Smart Grids, Renewable Energy, Green Hydrogen, and Battery Energy Storage Systems
 - Source: https://doi.org/10.64388/ire1725754
@@ -452,12 +458,6 @@ Generated: 2026-11-26T14:08:24.538402+00:00
 
 ### sanjanachavann/AgriMind
 - Source: https://github.com/sanjanachavann/AgriMind
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### nagarevishnu21-cmyk/CCH-01_Code4Kisan_AgriMitra-AI
-- Source: https://github.com/nagarevishnu21-cmyk/CCH-01_Code4Kisan_AgriMitra-AI
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
