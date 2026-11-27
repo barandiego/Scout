@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-27T02:39:52.786854+00:00
+Generated: 2026-11-27T13:29:29.966859+00:00
 
-- outcome: DEGRADED_SUCCESS
+- outcome: SUCCESS
 - ok: True
-- lenses: ['energy_localization', 'wildcard', 'remote_paid_evaluation']
-- raw_candidates: 1
-- parseable_candidates: 1
-- normalized_candidates: 1
+- lenses: ['inventoryless_product_validation', 'fixed_scope_paid_research_asset', 'geographic_arbitrage']
+- raw_candidates: 0
+- parseable_candidates: 0
+- normalized_candidates: 0
 - normalization_rejected: 0
-- grounded_sources: 2
+- grounded_sources: 0
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 0
 - critic_reviews: 1
 - judge_reviews: 0
 - survivors: 0
-- watches: 1
-- rejected: 0
-- errors_by_stage: {'critic': 1}
+- watches: 0
+- rejected: 1
+- errors_by_stage: {}
 - rejection_reasons: {}
-- cost_usd: 0.0271643
+- cost_usd: 0.0277226
 - cost_uncertain: False
-- budget_remaining_usd: 0.0528357
+- budget_remaining_usd: 0.0522774
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -56,9 +56,8 @@ No survivors. Scout does not manufacture a daily winner.
 ```json
 {
   "notes": [
-    "deep_review_lane=fresh",
-    "research_queue_unreviewed=123",
-    "critic:invalid_decision"
+    "deep_review_lane=backlog",
+    "research_queue_unreviewed=122"
   ],
   "stages": [
     {
@@ -66,69 +65,73 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 33,
+      "grounded_source_count": 28,
       "search_source_urls": [
-        "https://aitrainer.jobs/jobs/124039-spanish-chile-linguistic-expert-mercor",
-        "https://aitraining.jobs/es/chile",
-        "https://aitraining.jobs/es/chile?figure=platforms",
-        "https://cdn.hacienda.cl/asset/hacienda_prod/attachment/ad59574b1fa33f62f70bdfefad34a348b5dfa5463ab842c9120bd36feeed9090/1773166177?_expiration=1778552350&_hash=zkepZA068nsO4OkXdGYQ_8aRUPT0cEmiCsTSCHxuv8A",
-        "https://cincodias.elpais.com/companias/2026-02-12/grenergy-cierra-una-financiacion-de-300-millones-para-su-plataforma-central-oasis-en-chile.html",
-        "https://cincodias.elpais.com/companias/2026-09-02/grenergy-cierra-la-venta-a-cvc-dif-de-la-cuarta-fase-de-su-proyecto-de-almacenamiento-en-chile-por-410-millones.html",
-        "https://cl.linkedin.com/jobs/view/ai-evaluation-specialist-remote-at-yo-ai-labs-4481621999",
-        "https://credentialwork.com/jobs/artemis-ai-data-rater-spanish-welo-data-a3f020/",
-        "https://elpais.com/chile/2026-11-21/ximena-rincon-ministra-de-energia-de-chile-toda-la-energia-que-estamos-botando-puede-ir-a-los-centros-de-datos.html",
-        "https://elpais.com/chile/branded/2026-03-13/licitacion-publica-internacional-sistema-electrico-nacional-de-transmision-de-chile.html",
-        "https://elpais.com/chile/branded/2026-03-26/licitacion-publica-internacional-sistema-electrico-nacional-de-chile.html",
-        "https://elpais.com/chile/branded/2026-10-27/interchile-sa-llama-a-licitacion-para-ampliacion-de-obras-en-la-region-de-atacama.html",
-        "https://energia.gob.cl/sites/default/files/documentos/dof_aprueba_psma_pagenumber.pdf",
-        "https://humait-job-board-2-3g1b.vercel.app/roles/mercor_AAABoeaZZ5aPp9cXNF9DVrUb",
-        "https://job-boards.greenhouse.io/agency/jobs/4655007101",
-        "https://jobs.workable.com/view/qoS3dNuC3nwmg8ESmKAs2g/remote-business-analyst%3A-non-us-raters-in-chile-at-weekday-ai",
-        "https://projecthire.ai/jobs/telus-online-data-analyst-spanish/",
-        "https://www.aitrainingjobsfinder.com/countries/chile",
-        "https://www.bcentral.cl/documents/33528/112430/Oportunidad%2Bde%2Btrabajo%2B3458.pdf/25e5611d-8cbb-de18-df82-830ba91f5aeb?t=1794594528817",
-        "https://www.chileatiende.gob.cl/fichas/43925/1/pdf",
-        "https://www.cne.cl/prensa/prensa-2026/10-octubre-2026/publicacion-informe-final-licitaciones-2026/",
-        "https://www.cnmv.es/webservices/verdocumento/ver?e=TjidhoF0ZYb%2FHt6Y4%2BoY3SBqi8ZunBEgkQEoqXNYr331xVx9TYwe6nqlQTLZolJy",
-        "https://www.reddit.com/r/AIJobs/comments/1xyxwzy/hiring_ai_evaluation_rubric_auditors_6085hr/",
-        "https://www.reddit.com/r/MachineLearningJobs/comments/1u1tpz9/hiring_machine_learning_engineers_codedata_eval/",
-        "https://www.reddit.com/r/RemoteJobs/comments/wy39tk",
-        "https://www.reddit.com/r/WFHJobs/comments/wy3dpy",
-        "https://www.reddit.com/r/jobhuntify/comments/1wv053q/remote_job_appen_remote_work_from_home_record/",
-        "https://www.reddit.com/r/paidtotrainai/comments/1xvgbvq/new_this_week_with_184_ai_work_applications/",
-        "https://www.reddit.com/r/paidtotrainai/comments/1y1joa3/new_since_friday_98_ai_work_applications/",
-        "https://www.sec.cl/sitio-web/wp-content/uploads/2024/09/Conociendo-la-Generacion-distribuida.pdf",
-        "https://www.youtube.com/watch?v=Bn5zlyC54wc",
-        "https://www.youtube.com/watch?v=qthg14VQ-HM",
-        "https://yoailabs.com/remote-jobs/chile/"
+        "https://apipyme.cl/planes/",
+        "https://apnews.com/article/e78ccd51a7f66099d84fda885d2907a3",
+        "https://baseapi.cl/precios",
+        "https://cincodias.elpais.com/economia/2026-04-06/bruselas-blinda-el-mercado-unico-con-su-reforma-aduanera-mas-ambiciosa-contra-los-paquetes-de-china.html",
+        "https://cnc.cl/pdf/memoria_cnc_2025.pdf",
+        "https://datacil.com/precios",
+        "https://datario.cl/precios/anual",
+        "https://datok.cl/",
+        "https://elpais.com/chile/2025-06-24/el-consumo-de-plasticos-crece-en-un-7-en-chile-impulsado-por-la-mineria-y-la-agricultura.html",
+        "https://elpais.com/economia/2026-11-19/amazon-temu-y-aliexpress-suben-precios-por-el-nuevo-arancel-europeo-a-los-pedidos-de-bajo-coste.html",
+        "https://es.wikipedia.org/wiki/Econom%C3%ADa_de_Chile",
+        "https://folyo.cl/landing",
+        "https://stablobccsprod.blob.core.windows.net/ccs/2026/03/CCS-Ventas-comercio-electronico-2025-.pdf",
+        "https://www.aduanadechile.gov.cl/aduana/site/docs/20250627/20250627110135/cuenta_publica_2025_gestion_2024_1.pdf",
+        "https://www.ccs.cl/estudios-y-publicaci/comercio-electronico-bordeo-los-us-10-mil-millones-en-2025/",
+        "https://www.fne.gob.cl/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-plataformas/",
+        "https://www.icex.es/content/dam/icex/centros/chile/documentos/2026/chile-resumen-ejecutivo-2026.pdf",
+        "https://www.mercadolibre.cl/mas-vendidos/MLC1423",
+        "https://www.recalar.cl/",
+        "https://www.reddit.com/r/chileIT/comments/1gf8fev/apis_bancarias/",
+        "https://www.simpleapi.cl/Productos/SimpleAPI",
+        "https://www.subrei.gob.cl/docs/default-source/estudios-y-documentos/fichas/informe-comercial_enero_diciembre_2025.pdf",
+        "https://www.subrei.gob.cl/docs/default-source/estudios-y-documentos/informe-de-comercio-exterior-2025-abril-2026.pdf",
+        "https://www.techradar.com/reviews/bright-data",
+        "https://www.techradar.com/reviews/smartproxy",
+        "https://www.trade.gov/country-commercial-guides/chile-ecommerce",
+        "https://www.youtube.com/watch?v=LZ4jF1VLsng",
+        "https://www.youtube.com/watch?v=TAV7I8_OE5c"
       ]
     },
     {
-      "index": 0,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
-      "grounded_sources": 2,
-      "retry_justified": false
-    },
-    {
       "stage": "critic",
-      "candidate_id": "opp_334ae5f622cc6493bb21",
+      "candidate_id": "opp_6fed166e1f1a1ba78706",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 0,
-      "search_source_urls": []
+      "grounded_source_count": 23,
+      "search_source_urls": [
+        "https://buscalicitaciones.cl/licitacion/5512-16-LE26/adquisicion-de-brazo-robotico-colaborativo-uta22991",
+        "https://buscalicitaciones.cl/organismo/universidad-de-tarapaca/procesos?kind=licitaciones",
+        "https://elpais.com/chile/branded/2026-03-13/licitacion-publica-internacional-sistema-electrico-nacional-de-transmision-de-chile.html",
+        "https://elpais.com/chile/branded/2026-03-26/licitacion-publica-internacional-sistema-electrico-nacional-de-chile.html",
+        "https://elpais.com/chile/branded/2026-06-23/llamado-a-licitacion-publica-internacional-de-obras-de-ampliacion-del-sistema-electrico-nacional-de-chile.html",
+        "https://es.wikipedia.org/wiki/ChileCompra",
+        "https://proyectos.cl/licitaciones/cerradas/pagina/133/",
+        "https://static.todolicitaciones.cl/busqueda/licitaciones/comuna/iquique?currentPage=10",
+        "https://static.todolicitaciones.cl/busqueda/licitaciones/unidad/6425",
+        "https://static.todolicitaciones.cl/licitacion/5512-16-LE26/adquisicion-de-brazo-robotico-colaborativo-uta22991",
+        "https://wp.dev.chilecompra.gob.cl/terminos-y-condiciones-de-uso/",
+        "https://www.bcn.cl/leychile/navegar?idNorma=1209290&idVersion=2024-12-13",
+        "https://www.chileatiende.gob.cl/fichas/538/1/pdf",
+        "https://www.chileatiende.gob.cl/fichas/547/1/pdf",
+        "https://www.chilecompra.cl/terminos-y-condiciones-de-uso/",
+        "https://www.chilecompra.cl/wp-content/uploads/2026/02/585-B-Res.-Aprueba-Nuevas-Politicas-y-Condiciones-de-uso.pdf",
+        "https://www.diariooficial.interior.gob.cl/publicaciones/2024/12/12/44022-B/01/2583778.pdf",
+        "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=EcOU%2FNAETsEAzivMPKQg7w%3D%3D",
+        "https://www.subrei.gob.cl/docs/default-source/default-document-library/guia-ap_1.pdf",
+        "https://www.todolicitaciones.cl/licitacion/5512-33-LE23",
+        "https://www.trade.gov/market-intelligence/chile-procurement-mercado-publico",
+        "https://www.youtube.com/watch?v=GA-91jAwAic",
+        "https://www.youtube.com/watch?v=T378PgIPqYA"
+      ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_334ae5f622cc6493bb21",
+      "candidate_id": "opp_6fed166e1f1a1ba78706",
       "coercions": [
         "contrary_evidence"
       ]
@@ -138,30 +141,30 @@ No survivors. Scout does not manufacture a daily winner.
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 190,
-      "cache_write_tokens": 5545,
+      "reasoning_tokens": 278,
+      "cache_write_tokens": 5244,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01397745,
+      "cumulative_cost_usd": 0.0133746,
       "model": "gpt-5.6-luna",
-      "input_tokens": 14031,
+      "input_tokens": 13828,
       "cached_tokens": 0,
-      "output_tokens": 745,
+      "output_tokens": 289,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01397745
+      "estimated_cost_usd": 0.0133746
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 129,
-      "cache_write_tokens": 5277,
+      "reasoning_tokens": 229,
+      "cache_write_tokens": 5356,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0271643,
+      "cumulative_cost_usd": 0.0277226,
       "model": "gpt-5.6-luna",
-      "input_tokens": 8609,
+      "input_tokens": 13669,
       "cached_tokens": 0,
-      "output_tokens": 1001,
+      "output_tokens": 1122,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01318685
+      "estimated_cost_usd": 0.014348
     }
   ]
 }

@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-11-27T02:39:53.231907+00:00
+Generated: 2026-11-27T13:29:30.441299+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 240 (0 HQ survivors, 240 watches)
-- Rejected opportunities excluded: 134
+- Active research: 239 (0 HQ survivors, 239 watches)
+- Rejected opportunities excluded: 135
 - Critic-and-judge reviewed: 104
 - Autonomous execution authorization: 0
 
@@ -1562,16 +1562,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.sec.cl/almacenamiento-de-energia-a-traves-de-baterias-bess/; https://energia.gob.cl/sites/default/files/documentos/reporte_de_proyectos_-_enero_2026.pdf
-
-### Bid as a small supplier or integrator around Chilean public-sector collaborative-robot purchases [opp_6fed166e1f1a1ba78706]
-- Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile
-- Thesis: A concrete demand signal exists for a single cobot acquisition, but the evidence does not prove repeat demand, reseller authorization, or attractive margins. The feasible wedge is quote preparation, local integration, training, or compliant sourcing rather than speculative inventory.
-- Value capture: Potential cash flow would come from winning the tender or subcontracting/integrating the specified equipment. The public record confirms a procurement process but does not establish the winning price, supplier margin, or eligibility of an independent operator.
-- Participation hypothesis: Retrieve the tender annex, compare its requirements with available cobot vendors, and verify Mercado Público supplier eligibility and deadlines. If the tender is closed, use it only as a demand-validation lead: identify the institution’s future procurement or related tenders and submit questions or bids only through the official platform. Lowest-cost falsification: spend several hours extracting the technical requirements and requesting written distributor quotations; abandon if landed cost, certifications, delivery, or eligibility cannot meet
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=EcOU%2FNAETsEAzivMPKQg7w%3D%3D; https://www.en-standard.eu/une-en-iso-10218-1-2026-robotics-safety-requirements-part-1-industrial-robots-iso-10218-1-2025/
 
 ### Bid-ready resilience package for small-utility battery and microgrid subawards [opp_5571f801955a232174a9]
 - Status: WATCH_REQUIRES_VALIDATION | energy_infrastructure | United States

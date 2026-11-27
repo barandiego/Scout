@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 240
+Candidates: 239
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -2583,18 +2583,6 @@ Candidates: 240
 - Critical gaps: Whether Maule agroprocessors will pay directly for a feasibility assessment rather than request a free quote from an integrator.; The achievable price, gross margin, and delivery time for the assessment.; Whether suppliers will offer referral fees, white-label delivery, or non-exclusive permission.
 - Possible initial budget:
 - Source URLs: https://fairino.cl/; https://thunderrobotics.cl/
-
-## Bid as a small supplier or integrator around Chilean public-sector collaborative-robot purchases
-- Status: watch | robotics_agritech
-- Current idea: A concrete demand signal exists for a single cobot acquisition, but the evidence does not prove repeat demand, reseller authorization, or attractive margins. The feasible wedge is quote preparation, local integration, training, or compliant sourcing rather than speculative inventory.
-- Potential economic capture: Potential cash flow would come from winning the tender or subcontracting/integrating the specified equipment. The public record confirms a procurement process but does not establish the winning price, supplier margin, or eligibility of an independent operator.
-- **Research routes to test (NOT validated claims):**
-  - Explore robotic equipment leasing versus local distribution versus managed equipment operation.
-  - Model local labor savings, duty cycles, repair/parts logistics and farm-scale constraints.
-  - Arrange a bounded field validation with an actual farm operator before scaling.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=EcOU%2FNAETsEAzivMPKQg7w%3D%3D; https://www.en-standard.eu/une-en-iso-10218-1-2026-robotics-safety-requirements-part-1-industrial-robots-iso-10218-1-2025/
 
 ## Chile RaaS deployment wedge for industrial-floor cleaning
 - Status: watch | robotics_agritech

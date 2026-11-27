@@ -12233,60 +12233,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-22T19:44:53.228771+00:00",
-      "discovery_lens": "robotics_automation",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "Mercado Público records a Universidad de Tarapacá tender for one collaborative robotic arm, including technical specifications, contracting requirements, and a public bidding route.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Adquisición de Brazo Robótico Colaborativo UTA22991",
-          "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=EcOU%2FNAETsEAzivMPKQg7w%3D%3D"
-        },
-        {
-          "claim": "The current industrial-robot safety standard describes safety requirements relevant to evaluating whether a proposed robotic-arm offering can satisfy industrial deployment requirements.",
-          "grounded_in_provider_search": true,
-          "source_type": "independent",
-          "title": "UNE EN ISO 10218-1:2026",
-          "url": "https://www.en-standard.eu/une-en-iso-10218-1-2026-robotics-safety-requirements-part-1-industrial-robots-iso-10218-1-2025/"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.88,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_6fed166e1f1a1ba78706",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-22T19:44:53.286038+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Retrieve the tender annex, compare its requirements with available cobot vendors, and verify Mercado Público supplier eligibility and deadlines. If the tender is closed, use it only as a demand-validation lead: identify the institution’s future procurement or related tenders and submit questions or bids only through the official platform. Lowest-cost falsification: spend several hours extracting the technical requirements and requesting written distributor quotations; abandon if landed cost, certifications, delivery, or eligibility cannot meet the tender conditions.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "A concrete demand signal exists for a single cobot acquisition, but the evidence does not prove repeat demand, reseller authorization, or attractive margins. The feasible wedge is quote preparation, local integration, training, or compliant sourcing rather than speculative inventory.",
-      "title": "Bid as a small supplier or integrator around Chilean public-sector collaborative-robot purchases",
-      "type": "public_procurement",
-      "unknowns": [],
-      "value_capture_mechanism": "Potential cash flow would come from winning the tender or subcontracting/integrating the specified equipment. The public record confirms a procurement process but does not establish the winning price, supplier margin, or eligibility of an independent operator.",
-      "verified_sales": null,
-      "vertical": "robotics_agritech",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-11-06T11:49:16.850914+00:00",
       "discovery_lens": "energy_industrial",
       "estimated_capital": "",
@@ -16822,13 +16768,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-27T02:39:53.231907+00:00",
+  "generated_at": "2026-11-27T13:29:30.441299+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 134,
+  "rejected_excluded": 135,
   "reviewed_cards": 104,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
   "total_distinct_opportunities": 374,
-  "watch": 240
+  "watch": 239
 }
