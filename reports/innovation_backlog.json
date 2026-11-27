@@ -3089,6 +3089,42 @@
     },
     {
       "capital_required_unverified_estimate": "",
+      "category": "geographic_arbitrage",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Apply through the employer's Greenhouse application using evidence of Chilean Spanish fluency plus relevant translation, teaching, editing, linguistics, or localization experience. Before investing substantial time, confirm in writing the exact rate, whether work is paid hourly or per accepted task, expected task availability, age and identity requirements, contractor tax/payment method, and whether applicants resident in Chile are currently eligible. Lowest-cost falsification test: submit the application and ask the recruiter one concise question about guaranteed task availability and payment basis; treat the opportunity as zero income until a written offer and paid task are received. Do not pay any fee or deposit.",
+      "current_thesis": "A qualified Chilean Spanish speaker can access a dollar-denominated contractor application without paying an application fee, but the economic value is contingent on passing screening and receiving tasks; the published range is not evidence of realized earnings.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile, remote",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Spanish (Chile) language evaluation contractor application",
+      "opportunity_id": "opp_334ae5f622cc6493bb21",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Test a foreign-proven product with verifiable Chilean competitor coverage and local price/feature comparisons.",
+        "Localise distribution, after-sales support or financing rather than merely translating a product.",
+        "Use an authorised small supplier quote and real buyer signal before import."
+      ],
+      "supporting_source_urls": [
+        "https://job-boards.greenhouse.io/agency/jobs/4655007101",
+        "https://aitrainer.jobs/jobs/124039-spanish-chile-linguistic-expert-mercor"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "If accepted, payment would come from completed contract evaluation work. The concrete offer is linguistic judgment and error documentation for Chilean Spanish, not generic AI consulting.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
       "category": "innovation_adoption",
       "commercially_validated": false,
       "competition_confirmed": false,
@@ -9095,7 +9131,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-26T18:08:55.583262+00:00",
+  "generated_at": "2026-11-27T02:39:53.401095+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

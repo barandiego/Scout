@@ -16391,6 +16391,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-27T02:39:41.878136+00:00",
+      "discovery_lens": "remote_paid_evaluation",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "Employer-hosted application page identifies Chile eligibility, remote contract work, relevant language-evaluation duties, and a stated US$8–US$65/hour range subject to experience, expertise, and geographic location.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Spanish (Chile) Language Expert - Freelance AI Trainer Project",
+          "url": "https://job-boards.greenhouse.io/agency/jobs/4655007101"
+        },
+        {
+          "claim": "Independent job listing reports a separate remote Spanish (Chile) linguistic-evaluation opportunity, lists Chile among the target market, states US$40/hour, and says application is free; rate and task availability still require confirmation on the provider's application system.",
+          "grounded_in_provider_search": true,
+          "source_type": "independent",
+          "title": "Spanish (Chile) Linguistic Expert — Mercor — $40/hr (Remote, 2026)",
+          "url": "https://aitrainer.jobs/jobs/124039-spanish-chile-linguistic-expert-mercor"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.91,
+      "falsification_conditions": [],
+      "geography": "Chile, remote",
+      "id": "opp_334ae5f622cc6493bb21",
+      "judge_reviewed": false,
+      "judgment": "critic_invalid_output",
+      "last_record_updated_at": "2026-11-27T02:39:52.530140+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Apply through the employer's Greenhouse application using evidence of Chilean Spanish fluency plus relevant translation, teaching, editing, linguistics, or localization experience. Before investing substantial time, confirm in writing the exact rate, whether work is paid hourly or per accepted task, expected task availability, age and identity requirements, contractor tax/payment method, and whether applicants resident in Chile are currently eligible. Lowest-cost falsification test: submit the application and ask the recruiter one concise question about guaranteed task availability and payment basis; treat the opportunity as zero income until a written offer and paid task are received. Do not pay any fee or deposit.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "A qualified Chilean Spanish speaker can access a dollar-denominated contractor application without paying an application fee, but the economic value is contingent on passing screening and receiving tasks; the published range is not evidence of realized earnings.",
+      "title": "Spanish (Chile) language evaluation contractor application",
+      "type": "remote_paid_assignment",
+      "unknowns": [],
+      "value_capture_mechanism": "If accepted, payment would come from completed contract evaluation work. The concrete offer is linguistic judgment and error documentation for Chilean Spanish, not generic AI consulting.",
+      "verified_sales": null,
+      "vertical": "geographic_arbitrage",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-10-27T09:36:23.911695+00:00",
       "discovery_lens": "chile_technology_import",
       "estimated_capital": "",
@@ -16768,13 +16822,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-26T18:08:55.404627+00:00",
+  "generated_at": "2026-11-27T02:39:53.231907+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 134,
   "reviewed_cards": 104,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 373,
-  "watch": 239
+  "total_distinct_opportunities": 374,
+  "watch": 240
 }

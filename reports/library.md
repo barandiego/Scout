@@ -1,10 +1,10 @@
 # Scout — opportunity library
 
-Generated: 2026-11-26T18:08:55.404627+00:00
+Generated: 2026-11-27T02:39:53.231907+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 239 (0 HQ survivors, 239 watches)
+- Active research: 240 (0 HQ survivors, 240 watches)
 - Rejected opportunities excluded: 134
 - Critic-and-judge reviewed: 104
 - Autonomous execution authorization: 0
@@ -2332,6 +2332,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://app.outlier.ai/opportunities/4481627005; https://app.outlier.ai/login?ad_id=628025286&campaign_id=368362216&domain=spanish&id=4500426005&job_post_id=4500426005&language=ES&li_fat_id=8e2ddbb7-96b9-440b-b6cd-0dcb29660d9c&lo
+
+### Spanish (Chile) language evaluation contractor application [opp_334ae5f622cc6493bb21]
+- Status: WATCH_REQUIRES_VALIDATION | geographic_arbitrage | Chile, remote
+- Thesis: A qualified Chilean Spanish speaker can access a dollar-denominated contractor application without paying an application fee, but the economic value is contingent on passing screening and receiving tasks; the published range is not evidence of realized earnings.
+- Value capture: If accepted, payment would come from completed contract evaluation work. The concrete offer is linguistic judgment and error documentation for Chilean Spanish, not generic AI consulting.
+- Participation hypothesis: Apply through the employer's Greenhouse application using evidence of Chilean Spanish fluency plus relevant translation, teaching, editing, linguistics, or localization experience. Before investing substantial time, confirm in writing the exact rate, whether work is paid hourly or per accepted task, expected task availability, age and identity requirements, contractor tax/payment method, and whether applicants resident in Chile are currently eligible. Lowest-cost falsification test: submit the application and ask the recruiter one concise quest
+- Critic/judge: critic_invalid_output
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://job-boards.greenhouse.io/agency/jobs/4655007101; https://aitrainer.jobs/jobs/124039-spanish-chile-linguistic-expert-mercor
 
 ### Supply and support an agricultural spraying drone for INIA/Atacama public procurement [opp_28d6d6ee064292c6d3a4]
 - Status: WATCH_REQUIRES_VALIDATION | robotics_agritech | Chile, Atacama

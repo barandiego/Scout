@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 239
+Candidates: 240
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -987,6 +987,18 @@ Candidates: 239
 - Critical gaps: Which specific minerals and products are targeted; economics differ sharply across rare earths, lithium, graphite, cobalt, nickel, copper, tungsten and specialty materials.; Whether feedstock is secured through binding contracts, including grade, impurities, volumes, duration and pricing formulas.; Whether the proposed facilities have completed pilot validation, bankable feasibility studies, permitting, financing and customer qualification.
 - Possible initial budget:
 - Source URLs: https://www.whitehouse.gov/presidential-actions/2026/01/adjusting-imports-of-processed-critical-minerals-and-their-derivative-products-into-the-united-states/; https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary
+
+## Spanish (Chile) language evaluation contractor application
+- Status: watch | geographic_arbitrage
+- Current idea: A qualified Chilean Spanish speaker can access a dollar-denominated contractor application without paying an application fee, but the economic value is contingent on passing screening and receiving tasks; the published range is not evidence of realized earnings.
+- Potential economic capture: If accepted, payment would come from completed contract evaluation work. The concrete offer is linguistic judgment and error documentation for Chilean Spanish, not generic AI consulting.
+- **Research routes to test (NOT validated claims):**
+  - Test a foreign-proven product with verifiable Chilean competitor coverage and local price/feature comparisons.
+  - Localise distribution, after-sales support or financing rather than merely translating a product.
+  - Use an authorised small supplier quote and real buyer signal before import.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://job-boards.greenhouse.io/agency/jobs/4655007101; https://aitrainer.jobs/jobs/124039-spanish-chile-linguistic-expert-mercor
 
 ## Licensed AI-agent incident dataset with spend-control benchmark
 - Status: watch | innovation_adoption

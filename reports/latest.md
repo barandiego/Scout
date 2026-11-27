@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-26T18:08:54.916089+00:00
+Generated: 2026-11-27T02:39:52.786854+00:00
 
-- outcome: SUCCESS
+- outcome: DEGRADED_SUCCESS
 - ok: True
-- lenses: ['asset_ownership', 'nfc_smart_commerce', 'vertical_farming_economics']
-- raw_candidates: 2
-- parseable_candidates: 2
-- normalized_candidates: 2
+- lenses: ['energy_localization', 'wildcard', 'remote_paid_evaluation']
+- raw_candidates: 1
+- parseable_candidates: 1
+- normalized_candidates: 1
 - normalization_rejected: 0
-- grounded_sources: 5
+- grounded_sources: 2
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 1
+- judge_attempts: 0
 - critic_reviews: 1
-- judge_reviews: 1
+- judge_reviews: 0
 - survivors: 0
-- watches: 3
+- watches: 1
 - rejected: 0
-- errors_by_stage: {}
-- rejection_reasons: {'discarded_ungrounded_url': 1}
-- cost_usd: 0.0479748
+- errors_by_stage: {'critic': 1}
+- rejection_reasons: {}
+- cost_usd: 0.0271643
 - cost_uncertain: False
-- budget_remaining_usd: 0.0320252
+- budget_remaining_usd: 0.0528357
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Chile DTE validation and regression-test asset for software vendors: deferred_by_review_cap
 - Pre-entry SFA/ATENA interoperability test harness for Chilean fintechs: The primary CMF sources in the supplied provenance support a real SFA/ATENA technical-testing catalyst and planned implementation timeline; this is not an unverified regulatory-change thesis. A non-authoritative developer tool for contract validation, local mocks, regression testing, and customer-owned evidence generation is plausibly outside the regulated open-finance participant/authorization perimeter, provided it does not access customer data, represent CMF certification, or operate payment/data-sharing flows. However, survival is conditional: official ATENA guidance and sandbox capabilities appear to overlap substantially with the proposed harness, while API-management vendors and integrators can bundle comparable work. There is no evidence yet of an authorized access path for a third-party tool beyond public materials, nor of a buyer, budget owner, procurement route, pricing, or paid pain sufficiently distinct from the public sandbox. The narrow wedge worth testing is a private, CI-ready regression/evidence layer for a specific regulated participant or implementation firm—not a general SFA testing platform or certification substitute.
 - Copper-scrap traceability and recovery-data wedge for midstream processors: deferred_by_review_cap
 - Battery and critical-material processing qualification service tied to domestic funding: deferred_by_review_cap
@@ -51,13 +50,15 @@ No survivors. Scout does not manufacture a daily winner.
 - Chile SFA/ATENA conformance-test kit for small fintech participants: deferred_by_review_cap
 - NFC review-and-discovery displays for Chilean hospitality businesses: deferred_by_review_cap
 - Sell greenhouse NFT capacity, not indoor vertical-farm lettuce: deferred_by_review_cap
+- Spanish (Chile) language evaluation contractor application: critic_invalid_output
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=backlog",
-    "research_queue_unreviewed=123"
+    "deep_review_lane=fresh",
+    "research_queue_unreviewed=123",
+    "critic:invalid_decision"
   ],
   "stages": [
     {
@@ -65,36 +66,41 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 28,
+      "grounded_source_count": 33,
       "search_source_urls": [
-        "https://apnews.com/article/28d360b3c8d7fa424892e23fe1c85c93",
-        "https://arxiv.org/abs/2507.18419",
-        "https://autoconsumo.minenergia.cl/wp-content/uploads/2025/01/Manual-para-la-Implementacion-de-Medidas-de-Eficiencia-Energetica-en-Proyectos-de-Riego-colofon_compressed.pdf",
-        "https://coloradoproduce.org/wp-content/uploads/2023/07/cit_97817_2022-harvest-report_r6-digital_prod.pdf",
-        "https://credencialeschile.cl/categoria-producto/nfc/",
-        "https://elpais.com/chile/2025-07-04/los-pagos-con-tarjetas-telefonos-y-plataformas-digitales-ganan-terreno-en-chile.html",
-        "https://energypartnership.cl/fileadmin/chile/media_elements/Studies/2025_Manual_para_el_Desarrollo_de_Proyectos_Agrivoltaicos_en_Chile.PDF",
-        "https://los40.com/2026/10/26/que-es-la-agricultura-vertical-y-como-puede-beneficiar-al-planeta/",
-        "https://pymevisible.cl/productos/tarjeta-google",
-        "https://researchers.unab.cl/es/publications/human-powered-hydroponic-systems-an-environmental-and-economic-as/",
-        "https://tarjetas-nfc.com/",
-        "https://tarjetas-nfc.com/precios",
-        "https://time.com/6232722/chile-drought-evaporation-climate-change/",
-        "https://www.axios.com/2017/12/15/taking-on-big-grocery-one-head-of-lettuce-at-a-time-1513305393",
-        "https://www.axios.com/2023/01/06/indoor-farming-small-scale-farmers",
-        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
-        "https://www.cmfchile.cl/portal/principal/613/articles-92466_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/613/w3-article-82752.html",
-        "https://www.cmfchile.cl/portal/principal/623/articles-82752_recurso_1.pdf",
-        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
-        "https://www.invernadero.cl/inicio/183-invernadero-hidroponico-100-mts2-.html",
-        "https://www.leomon.cl/19-hidroponia",
-        "https://www.mdpi.com/2311-7524/12/8/972",
-        "https://www.reddit.com/r/hydro/comments/jq3kzr",
-        "https://www.smc.edu/academics/workforce-economic-development/Perkins_Applications/Aquaculture-Perkins-FY26-27-Final.pdf",
-        "https://www.tuk.cl/es-cl/pages/para-empresas",
-        "https://www.youtube.com/watch?v=NuQ17x6YGRs",
-        "https://www.youtube.com/watch?v=xMpvLJTpfCg"
+        "https://aitrainer.jobs/jobs/124039-spanish-chile-linguistic-expert-mercor",
+        "https://aitraining.jobs/es/chile",
+        "https://aitraining.jobs/es/chile?figure=platforms",
+        "https://cdn.hacienda.cl/asset/hacienda_prod/attachment/ad59574b1fa33f62f70bdfefad34a348b5dfa5463ab842c9120bd36feeed9090/1773166177?_expiration=1778552350&_hash=zkepZA068nsO4OkXdGYQ_8aRUPT0cEmiCsTSCHxuv8A",
+        "https://cincodias.elpais.com/companias/2026-02-12/grenergy-cierra-una-financiacion-de-300-millones-para-su-plataforma-central-oasis-en-chile.html",
+        "https://cincodias.elpais.com/companias/2026-09-02/grenergy-cierra-la-venta-a-cvc-dif-de-la-cuarta-fase-de-su-proyecto-de-almacenamiento-en-chile-por-410-millones.html",
+        "https://cl.linkedin.com/jobs/view/ai-evaluation-specialist-remote-at-yo-ai-labs-4481621999",
+        "https://credentialwork.com/jobs/artemis-ai-data-rater-spanish-welo-data-a3f020/",
+        "https://elpais.com/chile/2026-11-21/ximena-rincon-ministra-de-energia-de-chile-toda-la-energia-que-estamos-botando-puede-ir-a-los-centros-de-datos.html",
+        "https://elpais.com/chile/branded/2026-03-13/licitacion-publica-internacional-sistema-electrico-nacional-de-transmision-de-chile.html",
+        "https://elpais.com/chile/branded/2026-03-26/licitacion-publica-internacional-sistema-electrico-nacional-de-chile.html",
+        "https://elpais.com/chile/branded/2026-10-27/interchile-sa-llama-a-licitacion-para-ampliacion-de-obras-en-la-region-de-atacama.html",
+        "https://energia.gob.cl/sites/default/files/documentos/dof_aprueba_psma_pagenumber.pdf",
+        "https://humait-job-board-2-3g1b.vercel.app/roles/mercor_AAABoeaZZ5aPp9cXNF9DVrUb",
+        "https://job-boards.greenhouse.io/agency/jobs/4655007101",
+        "https://jobs.workable.com/view/qoS3dNuC3nwmg8ESmKAs2g/remote-business-analyst%3A-non-us-raters-in-chile-at-weekday-ai",
+        "https://projecthire.ai/jobs/telus-online-data-analyst-spanish/",
+        "https://www.aitrainingjobsfinder.com/countries/chile",
+        "https://www.bcentral.cl/documents/33528/112430/Oportunidad%2Bde%2Btrabajo%2B3458.pdf/25e5611d-8cbb-de18-df82-830ba91f5aeb?t=1794594528817",
+        "https://www.chileatiende.gob.cl/fichas/43925/1/pdf",
+        "https://www.cne.cl/prensa/prensa-2026/10-octubre-2026/publicacion-informe-final-licitaciones-2026/",
+        "https://www.cnmv.es/webservices/verdocumento/ver?e=TjidhoF0ZYb%2FHt6Y4%2BoY3SBqi8ZunBEgkQEoqXNYr331xVx9TYwe6nqlQTLZolJy",
+        "https://www.reddit.com/r/AIJobs/comments/1xyxwzy/hiring_ai_evaluation_rubric_auditors_6085hr/",
+        "https://www.reddit.com/r/MachineLearningJobs/comments/1u1tpz9/hiring_machine_learning_engineers_codedata_eval/",
+        "https://www.reddit.com/r/RemoteJobs/comments/wy39tk",
+        "https://www.reddit.com/r/WFHJobs/comments/wy3dpy",
+        "https://www.reddit.com/r/jobhuntify/comments/1wv053q/remote_job_appen_remote_work_from_home_record/",
+        "https://www.reddit.com/r/paidtotrainai/comments/1xvgbvq/new_this_week_with_184_ai_work_applications/",
+        "https://www.reddit.com/r/paidtotrainai/comments/1y1joa3/new_since_friday_98_ai_work_applications/",
+        "https://www.sec.cl/sitio-web/wp-content/uploads/2024/09/Conociendo-la-Generacion-distribuida.pdf",
+        "https://www.youtube.com/watch?v=Bn5zlyC54wc",
+        "https://www.youtube.com/watch?v=qthg14VQ-HM",
+        "https://yoailabs.com/remote-jobs/chile/"
       ]
     },
     {
@@ -109,127 +115,53 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 3,
-      "retry_justified": false
-    },
-    {
-      "index": 1,
-      "stage": "normalization",
-      "outcome": "accepted",
-      "reasons": [
-        "discarded_ungrounded_url"
-      ],
-      "changes": [
-        "contrary_evidence:list_sanitized",
-        "major_risks:list_sanitized",
-        "unknowns:list_sanitized",
-        "falsification_conditions:list_sanitized",
-        "material_update:unknown_false"
-      ],
       "grounded_sources": 2,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_8ed1b40a94786a3e6997",
-      "response_status": "completed",
-      "incomplete_reason": "",
-      "grounded_source_count": 29,
-      "search_source_urls": [
-        "https://elpais.com/economia/2026-02-05/adios-a-las-facturas-manuales-la-ia-que-automatiza-el-pago-a-los-proveedores.html",
-        "https://elpais.com/planeta-futuro/2025-08-25/la-factura-electronica-experiencia-y-beneficios-de-america-latina-para-el-mundo.html",
-        "https://en.wikipedia.org/wiki/Electronic_invoicing",
-        "https://es.wikipedia.org/wiki/Factura_electr%C3%B3nica",
-        "https://es.wikipedia.org/wiki/LibreDTE",
-        "https://palena.sii.cl/cvc/dte/ee_empresas_dte.html",
-        "https://www.apec.org/docs/default-source/publications/2025/2/225_cti_interoperability-of-electronic-invoicing-systems-in-the-apec-region.pdf",
-        "https://www.avalara.com/us/en/vatlive/country-guides/south-america/chile/chile-e-invoices.html",
-        "https://www.avalara.com/us/en/vatlive/country-guides/south-america/chile/chilean-e-invoicing.html",
-        "https://www.huffingtonpost.es/tecnologia/automatizacion-ahorro-fiscal-como-tickelia-redefine-gestion-gastos-empresa.html",
-        "https://www.odoo.com/documentation/master/applications/finance/fiscal_localizations/chile.html",
-        "https://www.oecd.org/content/dam/oecd/en/about/programmes/oecd-data-collection-programme/taxation/consumption-tax-trends/guidance-for-completing-the-tables.pdf",
-        "https://www.oecd.org/en/publications/consumption-tax-trends-2024_dcd4dd36-en/full-report/component-6.html",
-        "https://www.oecd.org/en/publications/digitalisation-and-digital-transformation-in-tax-administrations_5976063c-en/full-report/data-management-and-standards_cffc9b22.html",
-        "https://www.oecd.org/en/publications/oecd-economic-surveys-costa-rica-2025_048cf07b-en/full-report/sustaining-growth-and-macroeconomic-stability_d122651b.html",
-        "https://www.oecd.org/en/publications/oecd-economic-surveys-costa-rica-2025_048cf07b-en/full-report/sustaining-growth-and-macroeconomic-stability_d122651b.html",
-        "https://www.sii.cl/destacados/factura_electronica/guias_ayuda/como_generar_respt_dte.pdf",
-        "https://www.sii.cl/destacados/factura_electronica/guias_ayuda/guia_inscripcion_fe.pdf",
-        "https://www.sii.cl/factura_electronica/factura_mercado/instructivo_emision.pdf",
-        "https://www.sii.cl/factura_electronica/factura_sii/emitircertificadodigitalcentralizado.htm",
-        "https://www.sii.cl/portales/facturaelectronica_inf/operacion_fe016.html",
-        "https://www.sii.cl/servicios_online/1039-1183.html",
-        "https://www.sii.cl/servicios_online/1039-como_fact_elect-1182.html",
-        "https://www.sii.cl/servicios_online/1039-como_fact_elect-1182.html",
-        "https://www.sii.cl/servicios_online/1039-emp_prov_fe-1184.html",
-        "https://www.sii.cl/servicios_online/1039-emp_prov_fe-1184.html",
-        "https://www.techradar.com/pro/your-invoice-now-needs-a-boarding-pass",
-        "https://www.youtube.com/watch?v=QTuLmyYW4_c",
-        "https://www.youtube.com/watch?v=aTh_6f_6_pM"
-      ]
-    },
-    {
-      "stage": "critic",
-      "candidate_id": "opp_8ed1b40a94786a3e6997",
-      "coercions": [
-        "contrary_evidence"
-      ]
-    },
-    {
-      "stage": "judge",
-      "candidate_id": "opp_8ed1b40a94786a3e6997",
+      "candidate_id": "opp_334ae5f622cc6493bb21",
       "response_status": "completed",
       "incomplete_reason": "",
       "grounded_source_count": 0,
       "search_source_urls": []
     },
     {
-      "stage": "judge",
-      "candidate_id": "opp_8ed1b40a94786a3e6997",
-      "coercions": []
+      "stage": "critic",
+      "candidate_id": "opp_334ae5f622cc6493bb21",
+      "coercions": [
+        "contrary_evidence"
+      ]
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 200,
-      "cache_write_tokens": 5536,
+      "reasoning_tokens": 190,
+      "cache_write_tokens": 5545,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0148964,
+      "cumulative_cost_usd": 0.01397745,
       "model": "gpt-5.6-luna",
-      "input_tokens": 14086,
+      "input_tokens": 14031,
       "cached_tokens": 0,
-      "output_tokens": 1502,
+      "output_tokens": 745,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0148964
+      "estimated_cost_usd": 0.01397745
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 120,
-      "cache_write_tokens": 5364,
+      "reasoning_tokens": 129,
+      "cache_write_tokens": 5277,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0294088,
+      "cumulative_cost_usd": 0.0271643,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13829,
+      "input_tokens": 8609,
       "cached_tokens": 0,
-      "output_tokens": 1232,
+      "output_tokens": 1001,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0145124
-    },
-    {
-      "stage": "judge",
-      "available": true,
-      "reasoning_tokens": 171,
-      "cache_write_tokens": 3320,
-      "accounting_notes": [],
-      "cumulative_cost_usd": 0.0479748,
-      "model": "gpt-5.6-terra",
-      "input_tokens": 3323,
-      "cached_tokens": 0,
-      "output_tokens": 855,
-      "web_search_calls": 0,
-      "estimated_cost_usd": 0.018566
+      "estimated_cost_usd": 0.01318685
     }
   ]
 }
