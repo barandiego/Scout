@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-27T13:29:29.966859+00:00
+Generated: 2026-11-27T23:55:37.103814+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['inventoryless_product_validation', 'fixed_scope_paid_research_asset', 'geographic_arbitrage']
-- raw_candidates: 0
-- parseable_candidates: 0
-- normalized_candidates: 0
+- lenses: ['ai_open_source', 'public_markets', 'physical_commerce']
+- raw_candidates: 3
+- parseable_candidates: 3
+- normalized_candidates: 3
 - normalization_rejected: 0
-- grounded_sources: 0
+- grounded_sources: 5
 - duplicates_skipped: 0
 - critic_attempts: 1
 - judge_attempts: 0
 - critic_reviews: 1
 - judge_reviews: 0
 - survivors: 0
-- watches: 0
-- rejected: 1
+- watches: 1
+- rejected: 2
 - errors_by_stage: {}
-- rejection_reasons: {}
-- cost_usd: 0.0277226
+- rejection_reasons: {'discarded_ungrounded_url': 1, 'insufficient_unique_evidence': 1}
+- cost_usd: 0.0297622
 - cost_uncertain: False
-- budget_remaining_usd: 0.0522774
+- budget_remaining_usd: 0.0502378
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,7 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Pre-entry SFA/ATENA interoperability test harness for Chilean fintechs: The primary CMF sources in the supplied provenance support a real SFA/ATENA technical-testing catalyst and planned implementation timeline; this is not an unverified regulatory-change thesis. A non-authoritative developer tool for contract validation, local mocks, regression testing, and customer-owned evidence generation is plausibly outside the regulated open-finance participant/authorization perimeter, provided it does not access customer data, represent CMF certification, or operate payment/data-sharing flows. However, survival is conditional: official ATENA guidance and sandbox capabilities appear to overlap substantially with the proposed harness, while API-management vendors and integrators can bundle comparable work. There is no evidence yet of an authorized access path for a third-party tool beyond public materials, nor of a buyer, budget owner, procurement route, pricing, or paid pain sufficiently distinct from the public sandbox. The narrow wedge worth testing is a private, CI-ready regression/evidence layer for a specific regulated participant or implementation firm—not a general SFA testing platform or certification substitute.
 - Copper-scrap traceability and recovery-data wedge for midstream processors: deferred_by_review_cap
 - Battery and critical-material processing qualification service tied to domestic funding: deferred_by_review_cap
 - Chile SFA/ATENA interoperability test harness: deferred_by_review_cap
@@ -51,13 +50,14 @@ No survivors. Scout does not manufacture a daily winner.
 - NFC review-and-discovery displays for Chilean hospitality businesses: deferred_by_review_cap
 - Sell greenhouse NFT capacity, not indoor vertical-farm lettuce: deferred_by_review_cap
 - Spanish (Chile) language evaluation contractor application: critic_invalid_output
+- Confidence-gated automation for narrow document-review workflows: deferred_by_review_cap
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=backlog",
-    "research_queue_unreviewed=122"
+    "deep_review_lane=fresh",
+    "research_queue_unreviewed=123"
   ],
   "stages": [
     {
@@ -65,106 +65,154 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 28,
+      "grounded_source_count": 30,
       "search_source_urls": [
-        "https://apipyme.cl/planes/",
-        "https://apnews.com/article/e78ccd51a7f66099d84fda885d2907a3",
-        "https://baseapi.cl/precios",
-        "https://cincodias.elpais.com/economia/2026-04-06/bruselas-blinda-el-mercado-unico-con-su-reforma-aduanera-mas-ambiciosa-contra-los-paquetes-de-china.html",
-        "https://cnc.cl/pdf/memoria_cnc_2025.pdf",
-        "https://datacil.com/precios",
-        "https://datario.cl/precios/anual",
-        "https://datok.cl/",
-        "https://elpais.com/chile/2025-06-24/el-consumo-de-plasticos-crece-en-un-7-en-chile-impulsado-por-la-mineria-y-la-agricultura.html",
-        "https://elpais.com/economia/2026-11-19/amazon-temu-y-aliexpress-suben-precios-por-el-nuevo-arancel-europeo-a-los-pedidos-de-bajo-coste.html",
-        "https://es.wikipedia.org/wiki/Econom%C3%ADa_de_Chile",
-        "https://folyo.cl/landing",
-        "https://stablobccsprod.blob.core.windows.net/ccs/2026/03/CCS-Ventas-comercio-electronico-2025-.pdf",
+        "https://apnews.com/article/a2a04c9bcf681c1b46b13607171c83b4",
+        "https://arxiv.org/abs/2610.14793",
+        "https://arxiv.org/abs/2611.05392",
+        "https://arxiv.org/abs/2611.33394",
+        "https://celestica.gcs-web.com/node/17906/pdf",
+        "https://cogentbiosciences.gcs-web.com/static-files/ded7f6ee-904e-4ab4-96c2-c10e831e8e3f",
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001390478/35b15202-fca5-48e2-a516-3ee7786e5c83.pdf",
+        "https://investors.kbr.com/news-and-events/news/news-details/2026/KBR-Publicly-Files-Form-10-Registration-Statement-for-Planned-Spin-off-Company-Trinzic/",
+        "https://ir.alaunos.com/static-files/c2fe0f2e-7905-4119-b41f-6c16f97ee444",
+        "https://signal8.ai/calendar",
+        "https://specialsituationalerts.com/",
         "https://www.aduanadechile.gov.cl/aduana/site/docs/20250627/20250627110135/cuenta_publica_2025_gestion_2024_1.pdf",
-        "https://www.ccs.cl/estudios-y-publicaci/comercio-electronico-bordeo-los-us-10-mil-millones-en-2025/",
-        "https://www.fne.gob.cl/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-plataformas/",
-        "https://www.icex.es/content/dam/icex/centros/chile/documentos/2026/chile-resumen-ejecutivo-2026.pdf",
-        "https://www.mercadolibre.cl/mas-vendidos/MLC1423",
-        "https://www.recalar.cl/",
-        "https://www.reddit.com/r/chileIT/comments/1gf8fev/apis_bancarias/",
-        "https://www.simpleapi.cl/Productos/SimpleAPI",
-        "https://www.subrei.gob.cl/docs/default-source/estudios-y-documentos/fichas/informe-comercial_enero_diciembre_2025.pdf",
-        "https://www.subrei.gob.cl/docs/default-source/estudios-y-documentos/informe-de-comercio-exterior-2025-abril-2026.pdf",
-        "https://www.techradar.com/reviews/bright-data",
-        "https://www.techradar.com/reviews/smartproxy",
-        "https://www.trade.gov/country-commercial-guides/chile-ecommerce",
-        "https://www.youtube.com/watch?v=LZ4jF1VLsng",
-        "https://www.youtube.com/watch?v=TAV7I8_OE5c"
+        "https://www.axios.com/newsletters/axios-pro-rata-5a9e227a-6906-48a8-93a2-ec350042af44",
+        "https://www.axios.com/newsletters/axios-pro-rata-a3e26c0f-6d85-4b97-8f1c-aa734828f95b",
+        "https://www.axios.com/newsletters/axios-pro-rata-c9b5580d-fe42-4bf9-b1e5-1b769c7cf924",
+        "https://www.fedex.com/content/dam/fedex/lac-latin-america/downloads/service-new-documents/EN_Chile_Implements_VAT_for_Low_Value_Shipments_and_Increase_De_Minimis_Threshold.pdf",
+        "https://www.kiplinger.com/investing/ipos/is-anthropic-ipo-the-peak-of-the-ai-boom",
+        "https://www.kiplinger.com/investing/live/anthropic-ipo-updates-and-commentary",
+        "https://www.kiplinger.com/news/live/nvidia-earnings-live-updates-and-commentary-november-2026",
+        "https://www.sec.gov/Archives/edgar/data/1533743/000114036126045720/ef20086244_8k.htm",
+        "https://www.sec.gov/Archives/edgar/data/1661059/000110465926125220/nxtc-20260930x10q.htm",
+        "https://www.sec.gov/Archives/edgar/data/1859035/000182912626011129/mountaincrest5_def14a.htm",
+        "https://www.sec.gov/Archives/edgar/data/1894057/000110465926132245/tm2629811-2_def14c.htm",
+        "https://www.sec.gov/Archives/edgar/data/2165344/000149315226054062/forms-4.htm",
+        "https://www.sec.gov/Archives/edgar/data/2166480/000149315226054062/forms-4.htm",
+        "https://www.sii.cl/destacados/iva_bienes/index.html",
+        "https://www.sii.cl/destacados/iva_bienes/plataformas_inscritas/",
+        "https://www.tid.gov.hk/en/tradecircular/2026/ci1502026.html?categoryId=18",
+        "https://www.youtube.com/watch?v=JpHDiZl8iCM",
+        "https://www.youtube.com/watch?v=iktGBhCOOko"
       ]
     },
     {
+      "index": 0,
+      "stage": "normalization",
+      "outcome": "accepted",
+      "reasons": [],
+      "changes": [
+        "contrary_evidence:list_sanitized",
+        "major_risks:list_sanitized",
+        "unknowns:list_sanitized",
+        "falsification_conditions:list_sanitized",
+        "material_update:unknown_false"
+      ],
+      "grounded_sources": 2,
+      "retry_justified": false
+    },
+    {
+      "index": 1,
+      "stage": "normalization",
+      "outcome": "accepted",
+      "reasons": [
+        "discarded_ungrounded_url"
+      ],
+      "changes": [
+        "contrary_evidence:list_sanitized",
+        "major_risks:list_sanitized",
+        "unknowns:list_sanitized",
+        "falsification_conditions:list_sanitized",
+        "material_update:unknown_false"
+      ],
+      "grounded_sources": 1,
+      "retry_justified": false
+    },
+    {
+      "index": 2,
+      "stage": "normalization",
+      "outcome": "accepted",
+      "reasons": [],
+      "changes": [
+        "contrary_evidence:list_sanitized",
+        "major_risks:list_sanitized",
+        "unknowns:list_sanitized",
+        "falsification_conditions:list_sanitized",
+        "material_update:unknown_false"
+      ],
+      "grounded_sources": 2,
+      "retry_justified": false
+    },
+    {
       "stage": "critic",
-      "candidate_id": "opp_6fed166e1f1a1ba78706",
+      "candidate_id": "opp_9ea9a2e00bd24e19dba3",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 23,
+      "grounded_source_count": 24,
       "search_source_urls": [
-        "https://buscalicitaciones.cl/licitacion/5512-16-LE26/adquisicion-de-brazo-robotico-colaborativo-uta22991",
-        "https://buscalicitaciones.cl/organismo/universidad-de-tarapaca/procesos?kind=licitaciones",
-        "https://elpais.com/chile/branded/2026-03-13/licitacion-publica-internacional-sistema-electrico-nacional-de-transmision-de-chile.html",
-        "https://elpais.com/chile/branded/2026-03-26/licitacion-publica-internacional-sistema-electrico-nacional-de-chile.html",
-        "https://elpais.com/chile/branded/2026-06-23/llamado-a-licitacion-publica-internacional-de-obras-de-ampliacion-del-sistema-electrico-nacional-de-chile.html",
-        "https://es.wikipedia.org/wiki/ChileCompra",
-        "https://proyectos.cl/licitaciones/cerradas/pagina/133/",
-        "https://static.todolicitaciones.cl/busqueda/licitaciones/comuna/iquique?currentPage=10",
-        "https://static.todolicitaciones.cl/busqueda/licitaciones/unidad/6425",
-        "https://static.todolicitaciones.cl/licitacion/5512-16-LE26/adquisicion-de-brazo-robotico-colaborativo-uta22991",
-        "https://wp.dev.chilecompra.gob.cl/terminos-y-condiciones-de-uso/",
-        "https://www.bcn.cl/leychile/navegar?idNorma=1209290&idVersion=2024-12-13",
-        "https://www.chileatiende.gob.cl/fichas/538/1/pdf",
-        "https://www.chileatiende.gob.cl/fichas/547/1/pdf",
-        "https://www.chilecompra.cl/terminos-y-condiciones-de-uso/",
-        "https://www.chilecompra.cl/wp-content/uploads/2026/02/585-B-Res.-Aprueba-Nuevas-Politicas-y-Condiciones-de-uso.pdf",
-        "https://www.diariooficial.interior.gob.cl/publicaciones/2024/12/12/44022-B/01/2583778.pdf",
-        "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?qs=EcOU%2FNAETsEAzivMPKQg7w%3D%3D",
-        "https://www.subrei.gob.cl/docs/default-source/default-document-library/guia-ap_1.pdf",
-        "https://www.todolicitaciones.cl/licitacion/5512-33-LE23",
-        "https://www.trade.gov/market-intelligence/chile-procurement-mercado-publico",
-        "https://www.youtube.com/watch?v=GA-91jAwAic",
-        "https://www.youtube.com/watch?v=T378PgIPqYA"
+        "https://apnews.com/article/3bd62dd2d73ed711fa754ead1997634a",
+        "https://apnews.com/article/43df1673ac9508ae58fc76150101d686",
+        "https://apnews.com/article/48862fc5b6a563a077284e364fb14f08",
+        "https://apnews.com/article/e78ccd51a7f66099d84fda885d2907a3",
+        "https://apnews.com/article/edc26b9f0d7935ad7978c7eba5e3967c",
+        "https://buscadortributario.cl/doc/circular/60/2025",
+        "https://buscadortributario.cl/doc/resolucion/176/2025",
+        "https://folium.cl/regulatorio/sii/sii-circular-39-2025",
+        "https://www.lemonde.fr/en/economy/article/2025/10/23/deregulated-argentina-rushes-to-buy-from-global-e-commerce-giants_6746704_19.html",
+        "https://www.sii.cl/destacados/iva_bienes/index.html",
+        "https://www.sii.cl/destacados/iva_bienes/plataformas_inscritas.pdf",
+        "https://www.sii.cl/destacados/iva_bienes/plataformas_inscritas/",
+        "https://www.sii.cl/destacados/iva_bienes/plataformas_inscritas_eng.html",
+        "https://www.sii.cl/destacados/iva_digital/index.html",
+        "https://www.sii.cl/normativa_legislacion/circulares/2025/circu39.pdf",
+        "https://www.sii.cl/noticias/2025/220925noti01pcr.htm?share=print",
+        "https://www.sii.cl/noticias/2025/220925noti01pcr.htm?share=twitter",
+        "https://www.sii.cl/noticias/2026/270126noti01pcr.htm?nb=1&share=facebook",
+        "https://www.sii.cl/vat/directive_103_sna_3507.pdf",
+        "https://www.sii.cl/vat/faq1_esp.html",
+        "https://www.sii.cl/vat/general_instruction_39_2025.pdf",
+        "https://www.tid.gov.hk/en/tradecircular/2026/ci1502026.html?categoryId=18",
+        "https://www.youtube.com/watch?v=4XS9szdizLw",
+        "https://www.youtube.com/watch?v=8R3Cj2Mj2OQ"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_6fed166e1f1a1ba78706",
-      "coercions": [
-        "contrary_evidence"
-      ]
+      "candidate_id": "opp_9ea9a2e00bd24e19dba3",
+      "coercions": []
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 278,
-      "cache_write_tokens": 5244,
+      "reasoning_tokens": 162,
+      "cache_write_tokens": 5531,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0133746,
+      "cumulative_cost_usd": 0.01524135,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13828,
+      "input_tokens": 13724,
       "cached_tokens": 0,
-      "output_tokens": 289,
+      "output_tokens": 1850,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.0133746
+      "estimated_cost_usd": 0.01524135
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 229,
-      "cache_write_tokens": 5356,
+      "reasoning_tokens": 136,
+      "cache_write_tokens": 5313,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0277226,
+      "cumulative_cost_usd": 0.0297622,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13669,
+      "input_tokens": 13608,
       "cached_tokens": 0,
-      "output_tokens": 1122,
+      "output_tokens": 1278,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.014348
+      "estimated_cost_usd": 0.01452085
     }
   ]
 }

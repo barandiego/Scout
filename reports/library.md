@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-11-27T13:29:30.441299+00:00
+Generated: 2026-11-27T23:55:37.412626+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 239 (0 HQ survivors, 239 watches)
-- Rejected opportunities excluded: 135
+- Active research: 240 (0 HQ survivors, 240 watches)
+- Rejected opportunities excluded: 137
 - Critic-and-judge reviewed: 104
 - Autonomous execution authorization: 0
 
@@ -1842,6 +1842,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.energy.gov/mesc/industrial-research-and-assessment-center-implementation-grant-awards; https://betterbuildingssolutioncenter.energy.gov/showcase-projects/detroit-diesel-corporation-using-strategic-energy-management-sem-improve-energy/printpdf
+
+### Confidence-gated automation for narrow document-review workflows [opp_7cf1348126ab83c36294]
+- Status: WATCH_REQUIRES_VALIDATION | innovation_adoption | United States
+- Thesis: The evidence supports a narrow, testable workflow wedge: confidence-based routing for repetitive document questions where human review already exists. It does not establish general reliability or a ready-made commercial product. The economic mechanism is reducing unnecessary human review while preserving escalation for uncertain cases.
+- Value capture: A small operator could package an open implementation as a local evaluation harness and routing layer for one document corpus, such as internal policy or invoice-field extraction. The payer would need to be an organization already paying reviewers; this is unknown and must be validated rather than presumed. Do not sell compliance or accuracy claims based on the paper alone.
+- Participation hypothesis: Reproduce the method on 100-300 openly licensed documents or a customer-provided de-identified sample, using a fixed answer rubric and a holdout set. Compare three policies: always-human, always-model, and confidence-gated routing. Proceed only if the gated policy achieves a predeclared accuracy target while reducing human-review volume and inference cost on the holdout set. Falsification cost: run the benchmark locally with an open 2B-class model and manually label errors. The paper itself notes modest transferability to unseen datasets, so fa
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://arxiv.org/abs/2611.33394; https://arxiv.org/abs/2611.05392
 
 ### Copper-scrap traceability and recovery-data wedge for midstream processors [opp_cd5e31fc6a8389ae6cbc]
 - Status: WATCH_REQUIRES_VALIDATION | physical_distribution | United States

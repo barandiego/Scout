@@ -3128,6 +3128,42 @@
       "category": "innovation_adoption",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Reproduce the method on 100-300 openly licensed documents or a customer-provided de-identified sample, using a fixed answer rubric and a holdout set. Compare three policies: always-human, always-model, and confidence-gated routing. Proceed only if the gated policy achieves a predeclared accuracy target while reducing human-review volume and inference cost on the holdout set. Falsification cost: run the benchmark locally with an open 2B-class model and manually label errors. The paper itself notes modest transferability to unseen datasets, so failure to transfer should eliminate the wedge rather than be rationalized.",
+      "current_thesis": "The evidence supports a narrow, testable workflow wedge: confidence-based routing for repetitive document questions where human review already exists. It does not establish general reliability or a ready-made commercial product. The economic mechanism is reducing unnecessary human review while preserving escalation for uncertain cases.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Confidence-gated automation for narrow document-review workflows",
+      "opportunity_id": "opp_7cf1348126ab83c36294",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Identify a real technical capability not yet adopted in one buyer's high-value workflow.",
+        "Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.",
+        "Measure the fully loaded operating cost, human exceptions and distribution against the status quo."
+      ],
+      "supporting_source_urls": [
+        "https://arxiv.org/abs/2611.33394",
+        "https://arxiv.org/abs/2611.05392"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "A small operator could package an open implementation as a local evaluation harness and routing layer for one document corpus, such as internal policy or invoice-field extraction. The payer would need to be an organization already paying reviewers; this is unknown and must be validated rather than presumed. Do not sell compliance or accuracy claims based on the paper alone.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "innovation_adoption",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Fork the openly licensed dataset, independently verify 20 records against their linked primary sources, add a deterministic JSONL test format, and release five example tests. Offer the pack to a small sample of agent-platform vendors, security consultancies, or internal developer-tool teams only as a time-boxed paid pilot if they request it; do not claim certification or regulatory sufficiency. Falsification threshold: if independent verification exposes material source-quality problems or no target user will run the five tests, stop. Lowest-cost test: produce a 20-record, one-risk-category benchmark and measure whether technically relevant users download, run, or request customization.",
       "current_thesis": "The immediately testable asset is not a generic AI-governance consultancy. It is a versioned incident corpus plus a machine-readable rule/evaluation pack for procurement teams, insurers, security vendors, and agent-platform builders that need regression tests for spending, data-loss, and unintended-action controls. The public evidence supports the existence of the dataset and an advertised hosted product, not recurring demand or profitability.",
       "founder_hours_initial_unverified_estimate": "",
@@ -9095,7 +9131,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-27T13:29:30.616482+00:00",
+  "generated_at": "2026-11-27T23:55:37.526272+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

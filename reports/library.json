@@ -13745,6 +13745,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-27T23:55:23.011711+00:00",
+      "discovery_lens": "ai_open_source",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The paper proposes a confidence-score head for routing uncertain LLM answers to human review and reports results on a 2B-parameter backbone, primarily using SQuAD and TruthfulQA-style graded answers.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Confidence scores for gated automation of large language models",
+          "url": "https://arxiv.org/abs/2611.33394"
+        },
+        {
+          "claim": "A separate paper identifies runtime uncertainty and over-reservation as measurable problems in agentic workloads and proposes conformal resource reservation; this supports testing cost-aware routing/orchestration, but does not prove a buyer or commercial demand.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "Uncertainty-Aware Resource Orchestration for Agentic AI Systems",
+          "url": "https://arxiv.org/abs/2611.05392"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.78,
+      "falsification_conditions": [],
+      "geography": "United States",
+      "id": "opp_7cf1348126ab83c36294",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-27T23:55:23.096141+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Reproduce the method on 100-300 openly licensed documents or a customer-provided de-identified sample, using a fixed answer rubric and a holdout set. Compare three policies: always-human, always-model, and confidence-gated routing. Proceed only if the gated policy achieves a predeclared accuracy target while reducing human-review volume and inference cost on the holdout set. Falsification cost: run the benchmark locally with an open 2B-class model and manually label errors. The paper itself notes modest transferability to unseen datasets, so failure to transfer should eliminate the wedge rather than be rationalized.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The evidence supports a narrow, testable workflow wedge: confidence-based routing for repetitive document questions where human review already exists. It does not establish general reliability or a ready-made commercial product. The economic mechanism is reducing unnecessary human review while preserving escalation for uncertain cases.",
+      "title": "Confidence-gated automation for narrow document-review workflows",
+      "type": "open_source_software",
+      "unknowns": [],
+      "value_capture_mechanism": "A small operator could package an open implementation as a local evaluation harness and routing layer for one document corpus, such as internal policy or invoice-field extraction. The payer would need to be an organization already paying reviewers; this is unknown and must be validated rather than presumed. Do not sell compliance or accuracy claims based on the paper alone.",
+      "verified_sales": null,
+      "vertical": "innovation_adoption",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-11-21T12:07:01.381115+00:00",
       "discovery_lens": "mining_materials",
       "estimated_capital": "",
@@ -16768,13 +16822,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-27T13:29:30.441299+00:00",
+  "generated_at": "2026-11-27T23:55:37.412626+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 135,
+  "rejected_excluded": 137,
   "reviewed_cards": 104,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 374,
-  "watch": 239
+  "total_distinct_opportunities": 377,
+  "watch": 240
 }

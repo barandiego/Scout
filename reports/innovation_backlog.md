@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 239
+Candidates: 240
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -999,6 +999,18 @@ Candidates: 239
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://job-boards.greenhouse.io/agency/jobs/4655007101; https://aitrainer.jobs/jobs/124039-spanish-chile-linguistic-expert-mercor
+
+## Confidence-gated automation for narrow document-review workflows
+- Status: watch | innovation_adoption
+- Current idea: The evidence supports a narrow, testable workflow wedge: confidence-based routing for repetitive document questions where human review already exists. It does not establish general reliability or a ready-made commercial product. The economic mechanism is reducing unnecessary human review while preserving escalation for uncertain cases.
+- Potential economic capture: A small operator could package an open implementation as a local evaluation harness and routing layer for one document corpus, such as internal policy or invoice-field extraction. The payer would need to be an organization already paying reviewers; this is unknown and must be validated rather than presumed. Do not sell compliance or accuracy claims based on the paper alone.
+- **Research routes to test (NOT validated claims):**
+  - Identify a real technical capability not yet adopted in one buyer's high-value workflow.
+  - Create a repeatable owned product/data/workflow asset rather than one-off AI agency services.
+  - Measure the fully loaded operating cost, human exceptions and distribution against the status quo.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://arxiv.org/abs/2611.33394; https://arxiv.org/abs/2611.05392
 
 ## Licensed AI-agent incident dataset with spend-control benchmark
 - Status: watch | innovation_adoption
