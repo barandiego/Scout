@@ -1,63 +1,14 @@
 {
-  "active_candidates": [
-    {
-      "available_budget_clp": 250000.0,
-      "buyer": "I MUNICIPALIDAD DE TALCAHUANO",
-      "closes_at": "2026-11-30T08:00:00",
-      "code": "2358-644-COT26",
-      "estimated_budget": 250000.0,
-      "name": "©sc 316 empleo-prog. comunidadades solidarias-articulos de griferia: llave y sifon",
-      "products": 1,
-      "region": "Región del Biobío"
-    },
-    {
-      "available_budget_clp": 1500000.0,
-      "buyer": "Juzgado de Familia de Villa Alemana",
-      "closes_at": "2026-12-02T10:00:00",
-      "code": "682933-48-COT26",
-      "estimated_budget": 1500000.0,
-      "name": "SUMINISTRO E INSTALACIÓN DE CORTINAS ROLLER DEL JUZGADO DE FAMILIA DE VILLA ALEMANA AÑO 2026",
-      "products": 1,
-      "region": "Región de Valparaíso"
-    },
-    {
-      "available_budget_clp": 2000000.0,
-      "buyer": "CORP MUNICIPAL DE SERVICIOS PUBLICOS TRASPASADOS DE RANCAGUA",
-      "closes_at": "2026-11-27T21:30:00",
-      "code": "557639-4190-COT26",
-      "estimated_budget": 2000000.0,
-      "name": "SERVICIO DE MANTENCIóN PREVENTIVA Y CORRECTIVA DE 2 MOTORES BFT DEIMOS AC A600 (16151)",
-      "products": 1,
-      "region": "Región del Libertador General Bernardo O´Higgins"
-    },
-    {
-      "available_budget_clp": 60436.0,
-      "buyer": "ILUSTRE MUNICIPALIDAD DE PUTRE",
-      "closes_at": "2026-11-27T21:30:00",
-      "code": "4022-905-COT26",
-      "estimated_budget": 60436.0,
-      "name": "ADQ. DE MATERIALES DE OFICINA P/ PROG. PDTI ALTIPLANO, SEGUN DETALLE ADJUNTO",
-      "products": 1,
-      "region": "Región de Arica y Parinacota"
-    },
-    {
-      "available_budget_clp": 5000000.0,
-      "buyer": "I MUNICIPALIDAD DE QUIRIHUE",
-      "closes_at": "2026-11-27T21:05:00",
-      "code": "4174-154-COT26",
-      "estimated_budget": 5000000.0,
-      "name": "“PROGRAMA NAVIDAD QUIRIHUE 2026\"",
-      "products": 3,
-      "region": "Región del Ñuble"
-    }
-  ],
-  "active_structurally_reconstructable_count": 5,
+  "active_candidates": [],
+  "active_structurally_reconstructable_count": 0,
   "diagnostics": {
-    "api_failures": {},
+    "api_failures": {
+      "api_rate_limited": 5
+    },
     "budget_exhausted": false,
     "detail_attempts": 20,
     "detail_cap_exhausted": true,
-    "details_fetched": 20,
+    "details_fetched": 15,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -69,24 +20,24 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-27T00:40:19Z",
-  "inserted_history": 20,
+  "generated_at": "2026-11-27T13:59:40Z",
+  "inserted_history": 15,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
+  "outcome": "DEGRADED_API_ERRORS",
   "phase1": {
-    "records": 20,
+    "records": 15,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 7
+      "no_observable_competitive_prices": 3
     },
     "resolved": 15,
-    "structurally_reconstructable": 13,
-    "with_observable_quote_totals": 8,
-    "with_purchase_order_indicator": 3
+    "structurally_reconstructable": 12,
+    "with_observable_quote_totals": 12,
+    "with_purchase_order_indicator": 11
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-27T00:40:19Z"
+    "changed_to": "2026-11-27T13:59:40Z"
   }
 }
