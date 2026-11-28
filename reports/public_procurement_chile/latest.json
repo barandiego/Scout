@@ -1,14 +1,25 @@
 {
-  "active_candidates": [],
-  "active_structurally_reconstructable_count": 0,
+  "active_candidates": [
+    {
+      "available_budget_clp": 350000.0,
+      "buyer": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+      "closes_at": "2026-11-28T21:43:00",
+      "code": "1185-54-COT26",
+      "estimated_budget": 350000.0,
+      "name": "SE SOLICITA COTIZAR LOS SIGUIENTES ELEMENTOS PARA LA FIESTA DE NAVIDAD ORGANIZADA POR EL SERVICIO DE BIENESTAR.",
+      "products": 1,
+      "region": "Región de Magallanes y de la Antártica"
+    }
+  ],
+  "active_structurally_reconstructable_count": 1,
   "diagnostics": {
     "api_failures": {
-      "api_rate_limited": 5
+      "api_rate_limited": 2
     },
     "budget_exhausted": false,
     "detail_attempts": 20,
     "detail_cap_exhausted": true,
-    "details_fetched": 15,
+    "details_fetched": 18,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -20,24 +31,24 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-27T13:59:40Z",
-  "inserted_history": 15,
+  "generated_at": "2026-11-28T00:06:37Z",
+  "inserted_history": 18,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
   "outcome": "DEGRADED_API_ERRORS",
   "phase1": {
-    "records": 15,
+    "records": 18,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 3
+      "no_observable_competitive_prices": 15
     },
-    "resolved": 15,
-    "structurally_reconstructable": 12,
-    "with_observable_quote_totals": 12,
-    "with_purchase_order_indicator": 11
+    "resolved": 17,
+    "structurally_reconstructable": 3,
+    "with_observable_quote_totals": 2,
+    "with_purchase_order_indicator": 1
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-27T13:59:40Z"
+    "changed_to": "2026-11-28T00:06:37Z"
   }
 }
