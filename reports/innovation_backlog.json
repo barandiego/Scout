@@ -5585,6 +5585,46 @@
       "category": "open_finance_chile",
       "commercially_validated": false,
       "competition_confirmed": false,
+      "current_participation_path": "Use only publicly available CMF technical specifications and sandbox documentation to build a minimal mock participant and test 10-20 mandatory or high-risk flows. Contact prospective regulated participants or SFA technology vendors with a non-binding demonstration, asking whether they would pay for a defined test run. Falsify cheaply by testing whether three relevant organizations will review the demo or identify an already-paid-for equivalent; do not access production systems or claim regulatory approval.",
+      "current_thesis": "Smaller financial institutions and prospective participants must validate API interoperability, consent flows, payment initiation, security controls, and conformance before production participation. The concrete opportunity is a narrowly scoped, repeatable test harness and evidence pack rather than a general fintech consultancy.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "Chile",
+      "hypothesis_evaluation_questions": [
+        "Whether ATENA is sufficiently complete, usable, reliable, and supported for smaller participants.",
+        "Whether independent vendors are permitted to automate or reproduce sandbox flows and distribute evidence packs commercially.",
+        "Whether CMF, certifiers, banks, or technology vendors will accept third-party test evidence.",
+        "Number of smaller regulated participants and technology vendors that must participate or face material penalties.",
+        "Actual implementation and compliance budgets, procurement timelines, and buyer decision-makers.",
+        "Existence of incumbent Chilean or regional providers already offering SFA implementation and conformance testing.",
+        "Whether mandatory flows will remain stable after additional guidance, cost rules, and operational clarifications."
+      ],
+      "investment_authorized": false,
+      "name": "Chile SFA interoperability test harness for smaller regulated participants",
+      "opportunity_id": "opp_d517e62db4fe61e88e71",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Sell a fixed-scope conformance test package: mocked-provider/API test environment, automated request-response validation, consent and error-case test scripts, and an exportable defect/evidence report. Cash flow would come from participating institutions or technology vendors that need pre-production testing; no buyer, price, or sale is asserted until validated.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
       "current_participation_path": "Build a minimal local test harness from the published NCG 514 technical annex and publicly available developer specifications. Test it against any accessible ATENA materials or documented API behavior. Then contact a small sample of Chilean fintechs, payment operators, cooperatives, insurers, or other entities identified in the CMF participant ecosystem and offer a no-cost diagnostic using synthetic data. Falsification test: within 10 business days, seek five technically responsible contacts and ask whether they already possess an equivalent test environment, whether October 2026 pre-registration applies to them, and whether they would pay for a narrowly scoped automated readiness report. Do not claim certification, regulatory approval, ATENA access, or a sale without confirmation.",
       "current_thesis": "Entities preparing to participate must test API interoperability, participant identification, credentials, communications with the participant directory, and technical compliance before the regulatory deadline. This creates a narrow implementation window for reusable testing and diagnostic tooling rather than a broad consulting opportunity.",
       "founder_hours_initial_unverified_estimate": "",
@@ -6668,6 +6708,42 @@
       ],
       "time_horizon_unverified_estimate": "",
       "value_capture_claim": "License or sell a standardized compliance-engineering workbook and test pack to Chilean fintech or vertical-software teams preparing for OFS participation. Do not claim regulatory advice, certification, access to bank APIs, or permission to use CMF materials beyond what the source licenses allow.",
+      "willingness_to_pay_confirmed": false
+    },
+    {
+      "capital_required_unverified_estimate": "",
+      "category": "open_finance_chile",
+      "commercially_validated": false,
+      "competition_confirmed": false,
+      "current_participation_path": "Build a local simulator using public fund prospectus and filing disclosures, not live assets: model approved addresses, subscriptions, redemptions, transfers, and reconciliation exceptions. Test with an institutional-operations professional or fund-administration vendor by asking them to identify one current manual control that the simulator could replace. Falsify if the workflow is already fully automated, inaccessible to independent vendors, or produces no willingness to run a paid pilot.",
+      "current_thesis": "The executable bottleneck is not creating another token; it is handling wallet allow-listing, transfer/redemption requests, reconciliation between blockchain balances and official ownership records, and operational controls for institutions using tokenized cash products.",
+      "founder_hours_initial_unverified_estimate": "",
+      "founder_hours_ongoing_unverified_estimate": "",
+      "geography": "United States with possible Chilean financial-infrastructure localization",
+      "hypothesis_evaluation_questions": [
+        "Who is the actual payer and what evidence establishes demand?",
+        "What existing alternative already solves this job?",
+        "What is net contribution after fulfillment, fees, support and acquisition?"
+      ],
+      "investment_authorized": false,
+      "name": "Operational access layer for tokenized money-market funds",
+      "opportunity_id": "opp_b67b5eb3dae2206c837c",
+      "pricing_confirmed": false,
+      "proposed_first_action": "Independently confirm sources and validate one real customer or market participant without economic commitments.",
+      "regulatory_access_confirmed": false,
+      "research_only": true,
+      "status": "watch",
+      "strategy_hypotheses_not_facts": [
+        "Choose an exact consented-data workflow and regulated payer, not general fintech implementation.",
+        "Check license perimeter, API access, legal compliance and competitor pricing.",
+        "Test buyer procurement and technical access before writing integration infrastructure."
+      ],
+      "supporting_source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/1659326/000119312526410014/d172947d497.htm",
+        "https://www.sec.gov/Archives/edgar/data/1319067/000199937126019973/filename1.htm"
+      ],
+      "time_horizon_unverified_estimate": "",
+      "value_capture_claim": "Offer a narrowly scoped reconciliation and operations tool or managed workflow for an institutional user: address approval records, transfer-request queue, exception monitoring, and daily reconciliation between on-chain balances and transfer-agent records. Cash flow could come from an institutional user, fund administrator, broker, or custody provider; no revenue, permission, or customer relationship is assumed.",
       "willingness_to_pay_confirmed": false
     },
     {
@@ -9094,7 +9170,7 @@
     }
   ],
   "commercially_validated_count": 0,
-  "generated_at": "2026-11-28T06:18:57.050273+00:00",
+  "generated_at": "2026-11-28T16:38:35.171957+00:00",
   "purpose": "Falsifiable business differentiation, innovation, investment and Chilean localisation research assignments.",
   "schema_version": 1,
   "source": "CANONICAL_SCOUT_WATCH_AND_SURVIVOR_RESEARCH"

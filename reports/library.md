@@ -1,12 +1,12 @@
 # Scout — opportunity library
 
-Generated: 2026-11-28T06:18:56.932825+00:00
+Generated: 2026-11-28T16:38:35.031039+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 239 (0 HQ survivors, 239 watches)
+- Active research: 241 (0 HQ survivors, 241 watches)
 - Rejected opportunities excluded: 139
-- Critic-and-judge reviewed: 104
+- Critic-and-judge reviewed: 105
 - Autonomous execution authorization: 0
 
 ## How to use
@@ -610,6 +610,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Participation hypothesis: Use the publicly announced ATENA environment and CMF technical specifications as the test target. First build a minimal local mock of one SFA data-sharing flow and validate it against the published technical requirements. Then request access to ATENA through CMF, test the same flow in the sandbox, and approach named prospective participants only with a demonstrable defect/evidence report. Lowest-cost falsification: spend one week implementing one consent and account-data exchange flow from the technical annex; if the requirements are too incomp
 - Critic/judge: The regulatory premise appears sufficiently grounded: CMF primary-source materials in the supplied provenance support a 2026 technical update to NCG 514 and launch of the ATENA sandbox ahead of the stated July 2027 SFA implementation timing. The proposed offering is also framed as testing/compliance tooling rather than an unlicensed financial-data aggregation service, so no license-perimeter failure is established. However, this is not
 - Next evidence gaps: Whether ATENA access is open, gated, paid, rate-limited or restricted to eligible participant types.; Whether ATENA exposes automated pass/fail results, downloadable evidence and regression-test capabilities sufficient for customer use.; The exact scope, stability and versioning policy of the technical annex and developer portal after July 2027.
+- Missing execution proof: external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
+### Chile SFA interoperability test harness for smaller regulated participants [opp_d517e62db4fe61e88e71]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | Chile
+- Thesis: Smaller financial institutions and prospective participants must validate API interoperability, consent flows, payment initiation, security controls, and conformance before production participation. The concrete opportunity is a narrowly scoped, repeatable test harness and evidence pack rather than a general fintech consultancy.
+- Value capture: Sell a fixed-scope conformance test package: mocked-provider/API test environment, automated request-response validation, consent and error-case test scripts, and an exportable defect/evidence report. Cash flow would come from participating institutions or technology vendors that need pre-production testing; no buyer, price, or sale is asserted until validated.
+- Participation hypothesis: Use only publicly available CMF technical specifications and sandbox documentation to build a minimal mock participant and test 10-20 mandatory or high-risk flows. Contact prospective regulated participants or SFA technology vendors with a non-binding demonstration, asking whether they would pay for a defined test run. Falsify cheaply by testing whether three relevant organizations will review the demo or identify an already-paid-for equivalent; do not access production systems or claim regulatory approval.
+- Critic/judge: The regulatory premise is sufficiently grounded by CMF primary sources: the SFA technical framework, July 2027 implementation timing, developer/testing provisions, and ATENA sandbox are evidenced. However, the proposed product substantially overlaps with a regulator-provided sandbox and may not have the access, evidentiary standing, or distinct functionality needed to be commercially useful. A narrow non-certification workflow—such as l
+- Next evidence gaps: Whether ATENA is sufficiently complete, usable, reliable, and supported for smaller participants.; Whether independent vendors are permitted to automate or reproduce sandbox flows and distribute evidence packs commercially.; Whether CMF, certifiers, banks, or technology vendors will accept third-party test evidence.
 - Missing execution proof: external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
@@ -2122,6 +2132,16 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://huggingface.co/blog/openrouter; https://arxiv.org/abs/2605.02821
+
+### Operational access layer for tokenized money-market funds [opp_b67b5eb3dae2206c837c]
+- Status: WATCH_REQUIRES_VALIDATION | open_finance_chile | United States with possible Chilean financial-infrastructure localization
+- Thesis: The executable bottleneck is not creating another token; it is handling wallet allow-listing, transfer/redemption requests, reconciliation between blockchain balances and official ownership records, and operational controls for institutions using tokenized cash products.
+- Value capture: Offer a narrowly scoped reconciliation and operations tool or managed workflow for an institutional user: address approval records, transfer-request queue, exception monitoring, and daily reconciliation between on-chain balances and transfer-agent records. Cash flow could come from an institutional user, fund administrator, broker, or custody provider; no revenue, permission, or customer relationship is assumed.
+- Participation hypothesis: Build a local simulator using public fund prospectus and filing disclosures, not live assets: model approved addresses, subscriptions, redemptions, transfers, and reconciliation exceptions. Test with an institutional-operations professional or fund-administration vendor by asking them to identify one current manual control that the simulator could replace. Falsify if the workflow is already fully automated, inaccessible to independent vendors, or produces no willingness to run a paid pilot.
+- Critic/judge: deferred_by_review_cap
+- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
+- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
+- Grounded and model-supplied sources: https://www.sec.gov/Archives/edgar/data/1659326/000119312526410014/d172947d497.htm; https://www.sec.gov/Archives/edgar/data/1319067/000199937126019973/filename1.htm
 
 ### Operational tooling around on-chain share and fund recordkeeping—not a new token issuer [opp_4625e6e828aa89d1e1c0]
 - Status: WATCH_REQUIRES_VALIDATION | public_markets | United States

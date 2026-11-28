@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 239
+Candidates: 241
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -1768,6 +1768,18 @@ Candidates: 239
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
 
+## Chile SFA interoperability test harness for smaller regulated participants
+- Status: watch | open_finance_chile
+- Current idea: Smaller financial institutions and prospective participants must validate API interoperability, consent flows, payment initiation, security controls, and conformance before production participation. The concrete opportunity is a narrowly scoped, repeatable test harness and evidence pack rather than a general fintech consultancy.
+- Potential economic capture: Sell a fixed-scope conformance test package: mocked-provider/API test environment, automated request-response validation, consent and error-case test scripts, and an exportable defect/evidence report. Cash flow would come from participating institutions or technology vendors that need pre-production testing; no buyer, price, or sale is asserted until validated.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Whether ATENA is sufficiently complete, usable, reliable, and supported for smaller participants.; Whether independent vendors are permitted to automate or reproduce sandbox flows and distribute evidence packs commercially.; Whether CMF, certifiers, banks, or technology vendors will accept third-party test evidence.
+- Possible initial budget:
+- Source URLs: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html
+
 ## Chile SFA pre-registration and interoperability test harness
 - Status: watch | open_finance_chile
 - Current idea: Entities preparing to participate must test API interoperability, participant identification, credentials, communications with the participant directory, and technical compliance before the regulatory deadline. This creates a narrow implementation window for reusable testing and diagnostic tooling rather than a broad consulting opportunity.
@@ -2103,6 +2115,18 @@ Candidates: 239
 - Critical gaps: Which specific Chilean entities are obligated, eligible, or commercially motivated to participate in the SFA.; Whether the intended customers are regulated participants, technology vendors serving participants, or consulting firms.; Number of addressable buyers and their implementation budgets.
 - Possible initial budget:
 - Source URLs: https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html; https://cmfchile.cl/portal/principal/613/w3-article-92556.html
+
+## Operational access layer for tokenized money-market funds
+- Status: watch | open_finance_chile
+- Current idea: The executable bottleneck is not creating another token; it is handling wallet allow-listing, transfer/redemption requests, reconciliation between blockchain balances and official ownership records, and operational controls for institutions using tokenized cash products.
+- Potential economic capture: Offer a narrowly scoped reconciliation and operations tool or managed workflow for an institutional user: address approval records, transfer-request queue, exception monitoring, and daily reconciliation between on-chain balances and transfer-agent records. Cash flow could come from an institutional user, fund administrator, broker, or custody provider; no revenue, permission, or customer relationship is assumed.
+- **Research routes to test (NOT validated claims):**
+  - Choose an exact consented-data workflow and regulated payer, not general fintech implementation.
+  - Check license perimeter, API access, legal compliance and competitor pricing.
+  - Test buyer procurement and technical access before writing integration infrastructure.
+- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
+- Possible initial budget:
+- Source URLs: https://www.sec.gov/Archives/edgar/data/1659326/000119312526410014/d172947d497.htm; https://www.sec.gov/Archives/edgar/data/1319067/000199937126019973/filename1.htm
 
 ## Pre-build testing and integration wedge for Chile's Open Finance System
 - Status: watch | open_finance_chile

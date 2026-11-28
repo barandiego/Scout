@@ -5373,6 +5373,90 @@
     {
       "ai_leverage": "",
       "authorized_for_execution": false,
+      "contrary_evidence": [
+        "The regulatory need is real: CMF's NCG 569 incorporates technical interoperability specifications, information exchange and payment-initiation requirements, and a developer portal, with implementation deferred to July 2027 because of complexity. CMF explicitly states that ATENA supports technical-standard compliance testing, interoperability with the Participant Directory, credentials, and integration validation. CMF's sandbox guidance describes API, FAPI 2.0, OIDC, mTLS, consent, interoperability, structured test batteries, and traceable evidence, which validates the problem but also substantially duplicates the proposed solution. CMF documentation also indicates that its test environment is restricted and that some testing may be tied to external certifiers or regulated participant processes, limiting what an independent harness can certify. Sources: https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html ; https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html ; https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/706413085/Gu%2Bas+de+pruebas+Sandbox+periodo+previo+a+la+entrada+en+vigencia ; https://www.cmfchile.cl/institucional/legislacion_normativa/normativa_tramite_ver_archivo.php?id=2025071034&seq=1"
+      ],
+      "critic_reviewed": true,
+      "discovered_at": "2026-11-28T16:38:14.184806+00:00",
+      "discovery_lens": "tokenization_finance",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "CMF states that the amended NCG 514 includes technical specifications for information exchange and payment initiation, a developer portal, simplified participation, testing, and entry into force in July 2027.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF modifica la normativa que regula el Sistema de Finanzas Abiertas e incorpora anexo técnico",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html"
+        },
+        {
+          "claim": "CMF states that ATENA enables institutions to test technical-standard compliance and interoperability before SFA operation.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "CMF lanza Sandbox Tecnológico ATENA para la implementación del Sistema de Finanzas Abiertas",
+          "url": "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.86,
+      "falsification_conditions": [
+        "Three or more relevant regulated institutions or SFA vendors decline to review a working demonstration or state that ATENA, internal teams, or incumbent suppliers already cover the need.",
+        "Prospective buyers will not pay for a pilot or will only accept unpaid consulting.",
+        "CMF or designated certifiers reject third-party test reports as non-evidentiary for registration, certification, or readiness decisions.",
+        "ATENA provides equivalent automated conformance tests, defect reports, and exportable evidence at no charge.",
+        "A credible incumbent offers materially broader SFA implementation and testing at a price below the proposed package's viable delivery cost.",
+        "The addressable market contains fewer than roughly 10 plausible paying organizations or lacks a reachable buyer through a low-cost sales process.",
+        "Core specifications, credentials, directory processes, or payment-initiation flows change frequently enough that maintaining the harness destroys gross margin.",
+        "Testing requires privileged access, bilateral counterparties, or regulatory certification that the proposed product cannot obtain."
+      ],
+      "geography": "Chile",
+      "id": "opp_d517e62db4fe61e88e71",
+      "judge_reviewed": true,
+      "judgment": "The regulatory premise is sufficiently grounded by CMF primary sources: the SFA technical framework, July 2027 implementation timing, developer/testing provisions, and ATENA sandbox are evidenced. However, the proposed product substantially overlaps with a regulator-provided sandbox and may not have the access, evidentiary standing, or distinct functionality needed to be commercially useful. A narrow non-certification workflow—such as local pre-submission regression testing against public specifications for a specific vendor or smaller participant—could be feasible, but no evidence establishes that buyers will pay rather than use ATENA, internal teams, certifiers, or incumbent integrators. This is HQ-worthy research but not yet a validated wedge.",
+      "last_record_updated_at": "2026-11-28T16:38:34.400354+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Whether ATENA is sufficiently complete, usable, reliable, and supported for smaller participants.",
+        "Whether independent vendors are permitted to automate or reproduce sandbox flows and distribute evidence packs commercially.",
+        "Whether CMF, certifiers, banks, or technology vendors will accept third-party test evidence.",
+        "Number of smaller regulated participants and technology vendors that must participate or face material penalties.",
+        "Actual implementation and compliance budgets, procurement timelines, and buyer decision-makers."
+      ],
+      "participation_path": "Use only publicly available CMF technical specifications and sandbox documentation to build a minimal mock participant and test 10-20 mandatory or high-risk flows. Contact prospective regulated participants or SFA technology vendors with a non-binding demonstration, asking whether they would pay for a defined test run. Falsify cheaply by testing whether three relevant organizations will review the demo or identify an already-paid-for equivalent; do not access production systems or claim regulatory approval.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "Smaller financial institutions and prospective participants must validate API interoperability, consent flows, payment initiation, security controls, and conformance before production participation. The concrete opportunity is a narrowly scoped, repeatable test harness and evidence pack rather than a general fintech consultancy.",
+      "title": "Chile SFA interoperability test harness for smaller regulated participants",
+      "type": "regulatory-infrastructure wedge",
+      "unknowns": [
+        "Whether ATENA is sufficiently complete, usable, reliable, and supported for smaller participants.",
+        "Whether independent vendors are permitted to automate or reproduce sandbox flows and distribute evidence packs commercially.",
+        "Whether CMF, certifiers, banks, or technology vendors will accept third-party test evidence.",
+        "Number of smaller regulated participants and technology vendors that must participate or face material penalties.",
+        "Actual implementation and compliance budgets, procurement timelines, and buyer decision-makers.",
+        "Existence of incumbent Chilean or regional providers already offering SFA implementation and conformance testing.",
+        "Whether mandatory flows will remain stable after additional guidance, cost rules, and operational clarifications.",
+        "Potential need for production-like bilateral testing that ATENA cannot provide.",
+        "Expected willingness to pay and whether demand is recurring rather than a one-time migration service.",
+        "Whether independent vendors may use, automate against, or commercially complement the controlled ATENA environment without violating access or participation conditions.",
+        "Which exact test gap remains outside ATENA: local CI regression, partner simulation, pre-sandbox debugging, evidence normalization, or multi-provider test orchestration.",
+        "Whether any regulated payer or SFA technology vendor will pay for a pilot, at what price, and whether the gross margin survives ongoing specification maintenance.",
+        "Whether fewer than approximately 10 reachable organizations constitute the plausible paying market.",
+        "Whether external certification is mandatory for any relevant participant class and whether a private tool can support, rather than replace, that process.",
+        "Whether CMF technical requirements and operational guidance will stabilize early enough for a repeatable product before the July 2027 start date."
+      ],
+      "value_capture_mechanism": "Sell a fixed-scope conformance test package: mocked-provider/API test environment, automated request-response validation, consent and error-case test scripts, and an exportable defect/evidence report. Cash flow would come from participating institutions or technology vendors that need pre-production testing; no buyer, price, or sale is asserted until validated.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": true,
       "discovered_at": "2026-11-04T00:23:32.749643+00:00",
@@ -15250,6 +15334,60 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
+      "discovered_at": "2026-11-28T16:38:14.185533+00:00",
+      "discovery_lens": "tokenization_finance",
+      "estimated_capital": "",
+      "estimated_founder_hours_initial": "",
+      "estimated_founder_hours_ongoing": "",
+      "evidence": [
+        {
+          "claim": "The SEC-filed supplement states that token-class shares are available on Solana and Ethereum, with approved blockchain addresses required to purchase, redeem, or transfer token balances.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "JPMorgan OnChain Liquidity-Token Money Market Fund prospectus supplement",
+          "url": "https://www.sec.gov/Archives/edgar/data/1659326/000119312526410014/d172947d497.htm"
+        },
+        {
+          "claim": "The filing describes migration of blockchain-integrated recordkeeping to a Solana public-blockchain access layer and direct institutional availability.",
+          "grounded_in_provider_search": true,
+          "source_type": "primary",
+          "title": "SEC filing on M3Sixty Onchain U.S. Government Money Market Fund",
+          "url": "https://www.sec.gov/Archives/edgar/data/1319067/000199937126019973/filename1.htm"
+        }
+      ],
+      "evidence_confidence_model_estimate": 0.87,
+      "falsification_conditions": [],
+      "geography": "United States with possible Chilean financial-infrastructure localization",
+      "id": "opp_b67b5eb3dae2206c837c",
+      "judge_reviewed": false,
+      "judgment": "deferred_by_review_cap",
+      "last_record_updated_at": "2026-11-28T16:38:14.260383+00:00",
+      "material_update": false,
+      "missing_execution_proof": [
+        "independent_critic_and_judge",
+        "external_buyer_and_unit_economics_validation"
+      ],
+      "next_validation_questions": [
+        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
+      ],
+      "participation_path": "Build a local simulator using public fund prospectus and filing disclosures, not live assets: model approved addresses, subscriptions, redemptions, transfers, and reconciliation exceptions. Test with an institutional-operations professional or fund-administration vendor by asking them to identify one current manual control that the simulator could replace. Falsify if the workflow is already fully automated, inaccessible to independent vendors, or produces no willingness to run a paid pilot.",
+      "research_status": "WATCH_REQUIRES_VALIDATION",
+      "status": "watch",
+      "thesis": "The executable bottleneck is not creating another token; it is handling wallet allow-listing, transfer/redemption requests, reconciliation between blockchain balances and official ownership records, and operational controls for institutions using tokenized cash products.",
+      "title": "Operational access layer for tokenized money-market funds",
+      "type": "infrastructure integration wedge",
+      "unknowns": [],
+      "value_capture_mechanism": "Offer a narrowly scoped reconciliation and operations tool or managed workflow for an institutional user: address approval records, transfer-request queue, exception monitoring, and daily reconciliation between on-chain balances and transfer-agent records. Cash flow could come from an institutional user, fund administrator, broker, or custody provider; no revenue, permission, or customer relationship is assumed.",
+      "verified_sales": null,
+      "vertical": "open_finance_chile",
+      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
+      "why_now": ""
+    },
+    {
+      "ai_leverage": "",
+      "authorized_for_execution": false,
+      "contrary_evidence": [],
+      "critic_reviewed": false,
       "discovered_at": "2026-11-18T05:54:47.165733+00:00",
       "discovery_lens": "tokenization_finance",
       "estimated_capital": "",
@@ -16761,13 +16899,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-28T06:18:56.932825+00:00",
+  "generated_at": "2026-11-28T16:38:35.031039+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
   "rejected_excluded": 139,
-  "reviewed_cards": 104,
+  "reviewed_cards": 105,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 378,
-  "watch": 239
+  "total_distinct_opportunities": 380,
+  "watch": 241
 }

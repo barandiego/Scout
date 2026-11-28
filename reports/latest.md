@@ -1,28 +1,28 @@
 # SCOUT V0 — Latest Report
 
-Generated: 2026-11-28T06:18:56.604213+00:00
+Generated: 2026-11-28T16:38:34.657746+00:00
 
 - outcome: SUCCESS
 - ok: True
-- lenses: ['regulation_infrastructure', 'robotics_automation', 'energy_industrial']
-- raw_candidates: 1
-- parseable_candidates: 1
-- normalized_candidates: 1
+- lenses: ['mining_materials', 'tokenization_finance', 'business_model_migration']
+- raw_candidates: 2
+- parseable_candidates: 2
+- normalized_candidates: 2
 - normalization_rejected: 0
-- grounded_sources: 1
+- grounded_sources: 4
 - duplicates_skipped: 0
 - critic_attempts: 1
-- judge_attempts: 0
+- judge_attempts: 1
 - critic_reviews: 1
-- judge_reviews: 0
+- judge_reviews: 1
 - survivors: 0
-- watches: 0
-- rejected: 2
+- watches: 2
+- rejected: 0
 - errors_by_stage: {}
-- rejection_reasons: {'discarded_ungrounded_url': 1, 'insufficient_unique_evidence': 1}
-- cost_usd: 0.0287723
+- rejection_reasons: {}
+- cost_usd: 0.042939
 - cost_uncertain: False
-- budget_remaining_usd: 0.0512277
+- budget_remaining_usd: 0.037061
 - stop_reason: 
 
 Costs are estimates from returned usage, not billing reconciliation.
@@ -31,8 +31,6 @@ Costs are estimates from returned usage, not billing reconciliation.
 No survivors. Scout does not manufacture a daily winner.
 
 ## Watch / unresolved
-- Copper-scrap traceability and recovery-data wedge for midstream processors: deferred_by_review_cap
-- Battery and critical-material processing qualification service tied to domestic funding: deferred_by_review_cap
 - Chile SFA/ATENA interoperability test harness: deferred_by_review_cap
 - Small-grower mechanical-weeding pilot using a purchasable low-cost robot: deferred_by_review_cap
 - Chile SFA sandbox-to-compliance implementation wedge: The regulatory trigger is credibly grounded in CMF primary materials: NCG 569 modifies the SFA framework and supplies a defined technical/testing path toward staged effectiveness in July 2027. That supports a narrow, non-regulated advisory wedge focused on conformance-gap assessment, security/consent evidence preparation, and remediation planning—not a generic open-finance buildout and not a claim of certification. However, the supplied evidence does not establish that a service provider can obtain needed sandbox or customer technical access, that regulated participants will procure external readiness work, or that a paid package can withstand substitution by CMF documentation, synthetic-data sandbox tooling, incumbent integrators, and internal bank/fintech teams. These are material commercial and access uncertainties, but not yet proof of a fatal legal/technical-access failure or an incompatible compliance burden.
@@ -51,13 +49,15 @@ No survivors. Scout does not manufacture a daily winner.
 - Sell greenhouse NFT capacity, not indoor vertical-farm lettuce: deferred_by_review_cap
 - Spanish (Chile) language evaluation contractor application: critic_invalid_output
 - Confidence-gated automation for narrow document-review workflows: deferred_by_review_cap
+- Operational access layer for tokenized money-market funds: deferred_by_review_cap
+- Chile SFA interoperability test harness for smaller regulated participants: The regulatory premise is sufficiently grounded by CMF primary sources: the SFA technical framework, July 2027 implementation timing, developer/testing provisions, and ATENA sandbox are evidenced. However, the proposed product substantially overlaps with a regulator-provided sandbox and may not have the access, evidentiary standing, or distinct functionality needed to be commercially useful. A narrow non-certification workflow—such as local pre-submission regression testing against public specifications for a specific vendor or smaller participant—could be feasible, but no evidence establishes that buyers will pay rather than use ATENA, internal teams, certifiers, or incumbent integrators. This is HQ-worthy research but not yet a validated wedge.
 
 ## Sanitized diagnostics
 ```json
 {
   "notes": [
-    "deep_review_lane=backlog",
-    "research_queue_unreviewed=122"
+    "deep_review_lane=fresh",
+    "research_queue_unreviewed=123"
   ],
   "stages": [
     {
@@ -65,34 +65,38 @@ No survivors. Scout does not manufacture a daily winner.
       "candidate_id": "",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 17,
+      "grounded_source_count": 23,
       "search_source_urls": [
-        "https://ferc.gov/libraries/pdf.js/web/viewer.html?file=https%3A%2F%2Fferc.gov%2Fsites%2Fdefault%2Ffiles%2F2025-09%2FER22-1697-003.pdf",
-        "https://ifr.org/downloads/press_docs/2025-09-25-IFR_press_release_Americas_in_English.pdf",
-        "https://ifr.org/downloads/press_docs/PressConference2025_presentation.pdf",
-        "https://ifr.org/ifr-press-releases/global-robot-demand-in-factories-doubles-over-10-years",
-        "https://ifr.org/img/worldrobotics/Executive_Summary_WR_2025_Industrial_Robots.pdf",
-        "https://www.energy.gov/topics/tax-credits-rebates-savings",
-        "https://www.ferc.gov/ferc-order-no-2222-explainer-facilitating-participation-electricity-markets-distributed-energy?itid=lk_inline_enhanced-template",
-        "https://www.ferc.gov/news-events/events/increasing-real-time-and-day-ahead-market-and-planning-efficiency-through-1",
-        "https://www.ferc.gov/sites/default/files/2020-09/E-1-facts.pdf?_sp=ebd02f57-4c54-4a5a-a85e-823d7b69888f",
-        "https://www.ferc.gov/sites/default/files/2025-01/ER22-1640-003.pdf",
-        "https://www.iea.org/commentaries/battery-storage-is-scaling-up-and-taking-on-a-larger-system-role",
-        "https://www.iea.org/reports/electricity-2026/flexibility",
-        "https://www.iea.org/reports/global-energy-review-2026/technology-battery-storage",
-        "https://www.iea.org/reports/global-ev-outlook-2026/electric-vehicle-batteries",
-        "https://www.iea.org/reports/modernising-grids-in-the-age-of-electricity/executive-summary",
-        "https://www.iea.org/reports/renewables-2026/executive-summary",
-        "https://www.iea.org/reports/world-energy-investment-2025/executive-summary"
+        "https://apnews.com/article/23c269b2738ded4a6c4cd2f696f83102",
+        "https://apnews.com/article/8bfd695cfbbda2f73fbd32cca0326006",
+        "https://apnews.com/article/bc17f99065400233c3dadd7bb4c6521b",
+        "https://time.com/article/2026/05/03/lynas-ceo-amanda-lacaze-interview/",
+        "https://time.com/article/2026/06/15/america-china-new-critical-minerals-race/",
+        "https://www.axios.com/2026/01/26/trump-rare-earth-firm-china",
+        "https://www.cmfchile.cl/educa/621/w3-article-85051.html",
+        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
+        "https://www.cmfchile.cl/portal/prensa/625/articles-113897_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/articles-79433_doc_pdf.pdf?ts=1710518028",
+        "https://www.cmfchile.cl/portal/prensa/625/articles-89581_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-102885.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110411.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-82737.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48738.html?trk=article-ssr-frontend-pulse_little-text-block",
+        "https://www.energy.gov/hgeo/geothermal/articles/doe-launches-funding-opportunity-critical-minerals-and-materials",
+        "https://www.sec.gov/Archives/edgar/data/1319067/000199937126019973/filename1.htm",
+        "https://www.sec.gov/Archives/edgar/data/1659326/000119312526410014/d172947d497.htm",
+        "https://www.sec.gov/files/cft-written-wall-street-blockchain-august-2026.pdf?trk=article-ssr-frontend-pulse_little-text-block",
+        "https://www.sec.gov/files/investment/mmf-statistics-10-2026.pdf"
       ]
     },
     {
       "index": 0,
       "stage": "normalization",
       "outcome": "accepted",
-      "reasons": [
-        "discarded_ungrounded_url"
-      ],
+      "reasons": [],
       "changes": [
         "contrary_evidence:list_sanitized",
         "major_risks:list_sanitized",
@@ -100,82 +104,123 @@ No survivors. Scout does not manufacture a daily winner.
         "falsification_conditions:list_sanitized",
         "material_update:unknown_false"
       ],
-      "grounded_sources": 1,
+      "grounded_sources": 2,
+      "retry_justified": false
+    },
+    {
+      "index": 1,
+      "stage": "normalization",
+      "outcome": "accepted",
+      "reasons": [],
+      "changes": [
+        "contrary_evidence:list_sanitized",
+        "major_risks:list_sanitized",
+        "unknowns:list_sanitized",
+        "falsification_conditions:list_sanitized",
+        "material_update:unknown_false"
+      ],
+      "grounded_sources": 2,
       "retry_justified": false
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_57a45d336ccad5f1c63e",
+      "candidate_id": "opp_d517e62db4fe61e88e71",
       "response_status": "completed",
       "incomplete_reason": "",
-      "grounded_source_count": 28,
+      "grounded_source_count": 27,
       "search_source_urls": [
-        "https://apnews.com/article/768cb71d8ca960ccdda00f6a5dc156fc",
-        "https://apnews.com/article/e78ccd51a7f66099d84fda885d2907a3",
-        "https://chocale.cl/2026/07/fne-pide-mas-transparencia-a-las-plataformas-de-e-commerce/",
-        "https://elpais.com/chile/2025-05-27/cyber-day-2025-en-chile-cuando-comienza-las-ofertas-y-las-marcas-que-participan-del-evento.html",
-        "https://elpais.com/chile/2025-06-02/cyber-day-2025-en-chile-las-ofertas-y-las-marcas-que-participan-del-evento.html",
-        "https://elpais.com/chile/2025-10-03/cyber-monday-2025-en-chile-cuando-comienza-y-que-marcas-participan-en-el-evento-de-compras-en-linea.html",
-        "https://es.wikipedia.org/wiki/Marketplaces_en_Am%C3%A9rica_Latina",
-        "https://es.wikipedia.org/wiki/MercadoLibre",
-        "https://es.wikipedia.org/wiki/Mercado_en_l%C3%ADnea",
-        "https://es.wikipedia.org/wiki/Walmart_Chile",
-        "https://lp.euromonitor.com/retail-e-commerce-in-chile/report",
-        "https://odecu.cl/que-debes-saber-antes-de-comprar-a-un-particular-por-marketplace-u-otras-plataformas/",
-        "https://pac.economia.gob.cl/wp-content/uploads/2020/10/2020.10.05-Reglamento-de-Comercio-Electronico.pdf",
-        "https://sigetec.cl/recursos/cifras-del-sector/",
-        "https://www.bcn.cl/asesoriasparlamentarias/documentos.html?M=0&cate=&pagina=0&start=250&t=&total=7908",
-        "https://www.cmfchile.cl/documentos/pueag/crcri/recri_2025070510950.pdf",
-        "https://www.df.cl/empresas/retail/informe-de-la-fne-revela-los-datos-de-mercado-libre-en-chile-concentra-mas",
-        "https://www.euromonitor.com/retail-e-commerce-in-chile/report",
-        "https://www.fne.gob.cl/en/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-plataformas/",
-        "https://www.fne.gob.cl/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-plataformas/",
-        "https://www.fne.gob.cl/wp-content/uploads/2026/04/FNE_Informe_Preliminar_EM_Comercio_Electronico_EM10_2024.pdf",
-        "https://www.icex.es/content/dam/icex/centros/chile/documentos/2026/chile-resumen-ejecutivo-2026.pdf",
-        "https://www.latercera.com/pulso/noticia/informe-de-la-fne-describe-el-poder-de-mercado-libre-en-el-comercio-electronico-en-chile/",
-        "https://www.sernac.gob.cl/portal/604/w3-article-65050.html",
-        "https://www.techradar.com/pro/will-agentic-commerce-push-more-merchants-into-marketplaces",
-        "https://www.trade.gov/country-commercial-guides/chile-ecommerce",
-        "https://www.youtube.com/watch?v=Ne3HL05ISpc",
-        "https://www.youtube.com/watch?v=iktGBhCOOko"
+        "https://chocale.cl/2026/09/cmf-sandbox-atena-implementacion-del-sistema-de-finanzas-abiertas/",
+        "https://cincodias.elpais.com/companias/2026-11-18/payhawk-levanta-254-millones-en-una-ronda-con-goldman-e-inversores-espanoles-como-inveready-galdana-ventures-y-didac-lee.html",
+        "https://cincodias.elpais.com/criptoactivos/2026-07-28/cecabank-se-suma-a-otras-nueve-instituciones-financieras-para-impulsar-una-blockchain-europea.html",
+        "https://cmfchile.cl/portal/prensa/625/w4-article-100482.html",
+        "https://elpais.com/america/termometro-social/2024-10-07/digitalizacion-financiera-en-america-latina-enfrenta-nueva-era-de-transformacion-y-oportunidades.html",
+        "https://elpais.com/chile/2025-07-04/los-pagos-con-tarjetas-telefonos-y-plataformas-digitales-ganan-terreno-en-chile.html",
+        "https://elpais.com/planeta-futuro/2026-02-26/mas-alla-del-acceso-de-la-inclusion-a-la-salud-financiera-en-america-latina-y-el-caribe.html",
+        "https://en.wikipedia.org/wiki/Open_finance",
+        "https://fycom.cl/es/atena-como-pueden-prepararse-las-instituciones-financieras-para-la-entrada-en-operacion-del-sistema-de-finanzas-abiertas/",
+        "https://openfinancechile.atlassian.net/wiki/spaces/OFAC/pages/706413085/Gu%2Bas%2Bde%2Bpruebas%2BSandbox%2Bperiodo%2Bprevio%2Ba%2Bla%2Bentrada%2Ben%2Bvigencia",
+        "https://www.cmfchile.cl/institucional/legislacion_normativa/normativa_tramite_ver_archivo.php?id=2025071034&seq=1",
+        "https://www.cmfchile.cl/normativa/ncg_514_2024.pdf",
+        "https://www.cmfchile.cl/portal/normativa/624/w4-article-111273.html",
+        "https://www.cmfchile.cl/portal/prensa/625/articles-113897_doc_pdf.pdf",
+        "https://www.cmfchile.cl/portal/prensa/625/articles-86336_doc_pdf.pdf?ts=1729632042",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-110881.html",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-112955.html?trk=public_post_comment-text",
+        "https://www.cmfchile.cl/portal/prensa/625/w4-article-113897.html?trk=article-ssr-frontend-pulse_little-text-block",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-110883.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-article-113974.html",
+        "https://www.cmfchile.cl/portal/principal/623/w4-propertyvalue-48739.html",
+        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=6478dda17297672085fb49eb6ad0fda4VFdwQmVVNXFRVEZOUkUweFQxUmpkMDlCUFQwPQ%3D%3D&secuencia=-1&t=1781887982",
+        "https://www.cmfchile.cl/sitio/aplic/serdoc/ver_sgd.php?s567=d8a8944e8462648aaeca28f28112e23aVFdwQmVVNXFRVEpOUkUweVRtcEJlRTVCUFQwPQ%3D%3D&secuencia=-1&t=1782112640",
+        "https://www.leychile.cl/leychile/Navegar?idNorma=1187323&idParte=10393566",
+        "https://www.techradar.com/pro/how-fintech-designed-interoperable-systems-that-actually-work",
+        "https://www.youtube.com/watch?v=3lyXBGBGdCQ",
+        "https://www.youtube.com/watch?v=Nq9veFV-RkQ"
       ]
     },
     {
       "stage": "critic",
-      "candidate_id": "opp_57a45d336ccad5f1c63e",
+      "candidate_id": "opp_d517e62db4fe61e88e71",
       "coercions": [
         "contrary_evidence"
       ]
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_d517e62db4fe61e88e71",
+      "response_status": "completed",
+      "incomplete_reason": "",
+      "grounded_source_count": 0,
+      "search_source_urls": []
+    },
+    {
+      "stage": "judge",
+      "candidate_id": "opp_d517e62db4fe61e88e71",
+      "coercions": []
     }
   ],
   "usage": [
     {
       "stage": "discovery",
       "available": true,
-      "reasoning_tokens": 258,
-      "cache_write_tokens": 5503,
+      "reasoning_tokens": 252,
+      "cache_write_tokens": 5500,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.01409135,
+      "cumulative_cost_usd": 0.014585,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13717,
+      "input_tokens": 14014,
       "cached_tokens": 0,
-      "output_tokens": 894,
+      "output_tokens": 1256,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01409135
+      "estimated_cost_usd": 0.014585
     },
     {
       "stage": "critic",
       "available": true,
-      "reasoning_tokens": 176,
-      "cache_write_tokens": 5311,
+      "reasoning_tokens": 142,
+      "cache_write_tokens": 5246,
       "accounting_notes": [],
-      "cumulative_cost_usd": 0.0287723,
+      "cumulative_cost_usd": 0.0288435,
       "model": "gpt-5.6-luna",
-      "input_tokens": 13617,
+      "input_tokens": 13477,
       "cached_tokens": 0,
-      "output_tokens": 1410,
+      "output_tokens": 1084,
       "web_search_calls": 1,
-      "estimated_cost_usd": 0.01468095
+      "estimated_cost_usd": 0.0142585
+    },
+    {
+      "stage": "judge",
+      "available": true,
+      "reasoning_tokens": 0,
+      "cache_write_tokens": 3159,
+      "accounting_notes": [],
+      "cumulative_cost_usd": 0.042939,
+      "model": "gpt-5.6-terra",
+      "input_tokens": 3162,
+      "cached_tokens": 0,
+      "output_tokens": 516,
+      "web_search_calls": 0,
+      "estimated_cost_usd": 0.0140955
     }
   ]
 }

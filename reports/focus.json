@@ -1,7 +1,7 @@
 {
   "buyers_verified": false,
   "commercial_execution_authorized": false,
-  "generated_at": "2026-11-28T06:18:56.932825+00:00",
+  "generated_at": "2026-11-28T16:38:35.031039+00:00",
   "headline_candidates": [
     {
       "opportunity_id": "opp_def87ec156069bf156db",
@@ -13,7 +13,7 @@
     },
     {
       "opportunity_id": "opp_e65bfa2752c716623239",
-      "other_cards_in_theme": 96,
+      "other_cards_in_theme": 98,
       "reviewed": true,
       "status": "watch",
       "theme": "chile_open_finance",
@@ -103,8 +103,8 @@
   "headline_count": 12,
   "high_concentration": [
     {
-      "cards": 97,
-      "share": 0.406,
+      "cards": 99,
+      "share": 0.411,
       "theme": "chile_open_finance"
     }
   ],
@@ -175,6 +175,7 @@
         "opp_e1151e64e9b1acb7c35d",
         "opp_169ce630010042fae406",
         "opp_e3d49fc15d0234dda9d7",
+        "opp_d517e62db4fe61e88e71",
         "opp_72a43af466b08d9345bd",
         "opp_feeb29504969ee6e91ea",
         "opp_68b251b56fcd3101a22e",
@@ -211,11 +212,12 @@
         "opp_6239e0aa7c5cddf9b177",
         "opp_d07e5129079383327c52",
         "opp_5173eb38ccea91c51324",
-        "opp_91e6aa643afeffa47819"
+        "opp_91e6aa643afeffa47819",
+        "opp_b67b5eb3dae2206c837c"
       ],
-      "count": 97,
+      "count": 99,
       "representative_id": "opp_e65bfa2752c716623239",
-      "reviewed_count": 60,
+      "reviewed_count": 61,
       "theme": "chile_open_finance"
     },
     {
@@ -1153,6 +1155,6 @@
       "theme": "robotics_agritech:water_efficiency_field"
     }
   ],
-  "total_original_cards": 239,
+  "total_original_cards": 241,
   "warning": "Shared themes may include genuinely distinct opportunities. Do not auto-delete, auto-reject, infer novelty, or infer buyers."
 }
