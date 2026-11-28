@@ -1,25 +1,12 @@
 {
-  "active_candidates": [
-    {
-      "available_budget_clp": 350000.0,
-      "buyer": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-      "closes_at": "2026-11-28T21:43:00",
-      "code": "1185-54-COT26",
-      "estimated_budget": 350000.0,
-      "name": "SE SOLICITA COTIZAR LOS SIGUIENTES ELEMENTOS PARA LA FIESTA DE NAVIDAD ORGANIZADA POR EL SERVICIO DE BIENESTAR.",
-      "products": 1,
-      "region": "Región de Magallanes y de la Antártica"
-    }
-  ],
-  "active_structurally_reconstructable_count": 1,
+  "active_candidates": [],
+  "active_structurally_reconstructable_count": 0,
   "diagnostics": {
-    "api_failures": {
-      "api_rate_limited": 2
-    },
+    "api_failures": {},
     "budget_exhausted": false,
     "detail_attempts": 20,
     "detail_cap_exhausted": true,
-    "details_fetched": 18,
+    "details_fetched": 20,
     "duplicate_listings": 0,
     "invalid_listing_items": 0,
     "malformed_details": 0,
@@ -31,24 +18,24 @@
     "requests_used": 21,
     "transient_retries": 0
   },
-  "generated_at": "2026-11-28T00:06:37Z",
-  "inserted_history": 18,
+  "generated_at": "2026-11-28T08:03:50Z",
+  "inserted_history": 20,
   "note": "Research/watch output only. No sourcing-cost or profitability claim is made.",
   "ok": false,
-  "outcome": "DEGRADED_API_ERRORS",
+  "outcome": "DEGRADED_INCOMPLETE_SOURCE_WINDOW",
   "phase1": {
-    "records": 18,
+    "records": 20,
     "rejection_reasons": {
-      "no_observable_competitive_prices": 15
+      "no_observable_competitive_prices": 3
     },
-    "resolved": 17,
-    "structurally_reconstructable": 3,
-    "with_observable_quote_totals": 2,
-    "with_purchase_order_indicator": 1
+    "resolved": 20,
+    "structurally_reconstructable": 17,
+    "with_observable_quote_totals": 17,
+    "with_purchase_order_indicator": 0
   },
   "schema_version": 1,
   "window": {
     "changed_from": "2026-10-11T00:47:15+00:00",
-    "changed_to": "2026-11-28T00:06:37Z"
+    "changed_to": "2026-11-28T08:03:50Z"
   }
 }
