@@ -1,16 +1,40 @@
 # Scout V1 — Public-source opportunity radar
 
-Generated: 2026-11-27T14:06:02.216955+00:00
+Generated: 2026-11-28T00:08:47.486283+00:00
 
 **Unreviewed technology/market signals, NOT verified businesses or investments.**
 
 - Rolling leads: 1800
-- New this cycle: 134
+- New this cycle: 174
 - API/model spending: $0.00; sales and invested capital: none
-- Feed failures (fail-open for public intake only): github_robotics:unavailable_or_invalid, github_agriculture:unavailable_or_invalid, github_ai:unavailable_or_invalid, github_energy:unavailable_or_invalid
-- Categories: agriculture 661, ai 83, commerce 2, energy 633, robotics 421
+- Feed failures (fail-open for public intake only): crossref_energy:unavailable_or_invalid
+- Categories: agriculture 662, ai 84, commerce 2, energy 628, robotics 424
 
 ## Recently encountered signals
+
+### shubhamsingh09-iq/rootlibrary-soil-health-advisor
+- Source: https://github.com/shubhamsingh09-iq/rootlibrary-soil-health-advisor
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### manaswihota09/Harvest-App
+- Source: https://github.com/manaswihota09/Harvest-App
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### mani232455/smart-soil-farming-assistant
+- Source: https://github.com/mani232455/smart-soil-farming-assistant
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
+
+### Harenisha/AI-Assistant-for-Farmers-
+- Source: https://github.com/Harenisha/AI-Assistant-for-Farmers-
+- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
+- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
+- Status: **unverified research lead**
 
 ### Praneeth-Yatakuri/CROP-YEILD
 - Source: https://github.com/Praneeth-Yatakuri/CROP-YEILD
@@ -434,30 +458,6 @@ Generated: 2026-11-27T14:06:02.216955+00:00
 
 ### ravikumara11404-hash/Smart-Farming-System
 - Source: https://github.com/ravikumara11404-hash/Smart-Farming-System
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Tejasri-009/OptiCrop-Smart-Agricultural-Production
-- Source: https://github.com/Tejasri-009/OptiCrop-Smart-Agricultural-Production
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### Paranbapu99/Kisan---Grid
-- Source: https://github.com/Paranbapu99/Kisan---Grid
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### subhamghosh192006-droid/Krishi-Mitra
-- Source: https://github.com/subhamghosh192006-droid/Krishi-Mitra
-- Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
-- First test: Interview farming operators; test operating savings against crop economics, climate and financing.
-- Status: **unverified research lead**
-
-### sanjanachavann/AgriMind
-- Source: https://github.com/sanjanachavann/AgriMind
 - Domain: agriculture | Suggested angle: Chile-specific farm productivity or equipment distribution
 - First test: Interview farming operators; test operating savings against crop economics, climate and financing.
 - Status: **unverified research lead**
