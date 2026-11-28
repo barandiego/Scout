@@ -1,11 +1,11 @@
 # Scout — opportunity library
 
-Generated: 2026-11-27T23:55:37.412626+00:00
+Generated: 2026-11-28T06:18:56.932825+00:00
 
 **Research inventory, not verified ready-to-launch businesses.**
 
-- Active research: 240 (0 HQ survivors, 240 watches)
-- Rejected opportunities excluded: 137
+- Active research: 239 (0 HQ survivors, 239 watches)
+- Rejected opportunities excluded: 139
 - Critic-and-judge reviewed: 104
 - Autonomous execution authorization: 0
 
@@ -1332,16 +1332,6 @@ Choose a candidate, independently verify current sources and a paying buyer, tes
 - Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
 - Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
 - Grounded and model-supplied sources: https://www.fne.gob.cl/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-pl; https://group.dhl.com/content/dam/deutschepostdhl/en/media-center/media-relations/documents/2025/e-commerce-trends-report-2025-business-edition.pdf; https://www.trade.gov/country-commercial-guides/chile-ecommerce
-
-### Narrow private-label test for underserved marketplace products in Chile [opp_57a45d336ccad5f1c63e]
-- Status: WATCH_REQUIRES_VALIDATION | ecommerce_niches | Chile
-- Thesis: Marketplace participation is economically measurable, but the evidence does not identify a specific product shortage or arbitrage spread. The actionable wedge is a low-inventory test of one differentiated, non-regulated product with verified landed cost and marketplace fees.
-- Value capture: Cash flow would come from direct product sales after marketplace commission, logistics, returns, taxes, and inventory costs. No margin should be assumed until a live listing or supplier quotation validates unit economics.
-- Participation hypothesis: Select one narrow product with a documented local price gap or underserved specification, obtain a small supplier sample or pre-order commitment, calculate all marketplace and delivery charges, and test a compliant listing on Falabella.com or Mercado Libre. Lowest-cost falsification: before importing inventory, compare three local retail prices, obtain one landed-cost quotation, and run a small paid listing or reservation test; stop if expected contribution is negative after platform and fulfillment costs.
-- Critic/judge: deferred_by_review_cap
-- Next evidence gaps: Identify a real buyer, purchasing trigger, distribution route and net unit economics.
-- Missing execution proof: independent_critic_and_judge, external_buyer_and_unit_economics_validation
-- Grounded and model-supplied sources: https://ayudaseller.falabella.com/articles/es/Knowledge/Comisiones-de-venta-Chile; https://sellers.mercadolibre.com/landing/pricing; https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/
 
 ### Natura marketplace catalog and fulfillment wedge in Chile [opp_484a01686085457d3c31]
 - Status: WATCH_REQUIRES_VALIDATION | ecommerce_niches | Chile

@@ -10907,67 +10907,6 @@
       "authorized_for_execution": false,
       "contrary_evidence": [],
       "critic_reviewed": false,
-      "discovered_at": "2026-10-22T19:44:53.229675+00:00",
-      "discovery_lens": "physical_commerce",
-      "estimated_capital": "",
-      "estimated_founder_hours_initial": "",
-      "estimated_founder_hours_ongoing": "",
-      "evidence": [
-        {
-          "claim": "Falabella states that commissions are charged by product category and that logistics arrangements affect seller economics.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Comisiones de venta (Chile)",
-          "url": "https://ayudaseller.falabella.com/articles/es/Knowledge/Comisiones-de-venta-Chile"
-        },
-        {
-          "claim": "Mercado Libre publishes Chile-specific selling-fee mechanics, additional per-unit fees for lower-priced products, and minimum listing-price information.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Mercado Libre Global Selling pricing",
-          "url": "https://sellers.mercadolibre.com/landing/pricing"
-        },
-        {
-          "claim": "Falabella reports Natura’s launch of an official Chilean marketplace store with an initial 110-product portfolio, confirming active brand participation in the channel.",
-          "grounded_in_provider_search": true,
-          "source_type": "primary",
-          "title": "Natura llega a Falabella.com con su nueva Tienda Oficial",
-          "url": "https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/"
-        }
-      ],
-      "evidence_confidence_model_estimate": 0.79,
-      "falsification_conditions": [],
-      "geography": "Chile",
-      "id": "opp_57a45d336ccad5f1c63e",
-      "judge_reviewed": false,
-      "judgment": "deferred_by_review_cap",
-      "last_record_updated_at": "2026-10-22T19:44:53.286336+00:00",
-      "material_update": false,
-      "missing_execution_proof": [
-        "independent_critic_and_judge",
-        "external_buyer_and_unit_economics_validation"
-      ],
-      "next_validation_questions": [
-        "Identify a real buyer, purchasing trigger, distribution route and net unit economics."
-      ],
-      "participation_path": "Select one narrow product with a documented local price gap or underserved specification, obtain a small supplier sample or pre-order commitment, calculate all marketplace and delivery charges, and test a compliant listing on Falabella.com or Mercado Libre. Lowest-cost falsification: before importing inventory, compare three local retail prices, obtain one landed-cost quotation, and run a small paid listing or reservation test; stop if expected contribution is negative after platform and fulfillment costs.",
-      "research_status": "WATCH_REQUIRES_VALIDATION",
-      "status": "watch",
-      "thesis": "Marketplace participation is economically measurable, but the evidence does not identify a specific product shortage or arbitrage spread. The actionable wedge is a low-inventory test of one differentiated, non-regulated product with verified landed cost and marketplace fees.",
-      "title": "Narrow private-label test for underserved marketplace products in Chile",
-      "type": "marketplace_distribution",
-      "unknowns": [],
-      "value_capture_mechanism": "Cash flow would come from direct product sales after marketplace commission, logistics, returns, taxes, and inventory costs. No margin should be assumed until a live listing or supplier quotation validates unit economics.",
-      "verified_sales": null,
-      "vertical": "ecommerce_niches",
-      "warning": "Model-authored thesis; grounded URLs do not prove buyers, access, affordability, sales or profit.",
-      "why_now": ""
-    },
-    {
-      "ai_leverage": "",
-      "authorized_for_execution": false,
-      "contrary_evidence": [],
-      "critic_reviewed": false,
       "discovered_at": "2026-10-26T09:42:45.352711+00:00",
       "discovery_lens": "physical_commerce",
       "estimated_capital": "",
@@ -16822,13 +16761,13 @@
   "execution_authorized": 0,
   "external_customer_validation_proven": false,
   "external_revenue_verified": false,
-  "generated_at": "2026-11-27T23:55:37.412626+00:00",
+  "generated_at": "2026-11-28T06:18:56.932825+00:00",
   "interpretation": "Research backlog only; a survived Scout candidate is HQ-worthy research, not a validated business.",
-  "rejected_excluded": 137,
+  "rejected_excluded": 139,
   "reviewed_cards": 104,
   "schema_version": 1,
   "source": "SCOUT_CANONICAL_PERSISTED_STATE",
   "survived": 0,
-  "total_distinct_opportunities": 377,
-  "watch": 240
+  "total_distinct_opportunities": 378,
+  "watch": 239
 }

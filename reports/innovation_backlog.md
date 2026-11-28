@@ -2,7 +2,7 @@
 
 Not evidence of buyers, a priced offer, regulatory access or a profitable asset.
 
-Candidates: 240
+Candidates: 239
 
 ## Public-market exposure to behind-the-meter power equipment for data centers
 - Status: watch | asymmetric_investing
@@ -303,18 +303,6 @@ Candidates: 240
 - Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
 - Possible initial budget:
 - Source URLs: https://www.fne.gob.cl/fne-publica-informe-preliminar-de-estudio-de-mercado-sobre-comercio-electronico-con-completa-radiografia-del-sector-y-recomienda-mayor-transparencia-a-las-plataformas/; https://group.dhl.com/content/dam/deutschepostdhl/en/media-center/media-relations/documents/2025/e-commerce-trends-report-2025-business-edition.pdf; https://www.trade.gov/country-commercial-guides/chile-ecommerce
-
-## Narrow private-label test for underserved marketplace products in Chile
-- Status: watch | ecommerce_niches
-- Current idea: Marketplace participation is economically measurable, but the evidence does not identify a specific product shortage or arbitrage spread. The actionable wedge is a low-inventory test of one differentiated, non-regulated product with verified landed cost and marketplace fees.
-- Potential economic capture: Cash flow would come from direct product sales after marketplace commission, logistics, returns, taxes, and inventory costs. No margin should be assumed until a live listing or supplier quotation validates unit economics.
-- **Research routes to test (NOT validated claims):**
-  - Target a specific neglected customer subgroup with a measurable unmet product requirement.
-  - Compare imported/private-label, inventoryless fulfillment and existing domestic suppliers after landed costs.
-  - Test one narrower search/intention channel before expanding catalog or buying inventory.
-- Critical gaps: Who is the actual payer and what evidence establishes demand?; What existing alternative already solves this job?; What is net contribution after fulfillment, fees, support and acquisition?
-- Possible initial budget:
-- Source URLs: https://ayudaseller.falabella.com/articles/es/Knowledge/Comisiones-de-venta-Chile; https://sellers.mercadolibre.com/landing/pricing; https://falabellaretail.falabella.com/noticias/natura-llega-a-falabella-com-tienda-oficial-chile/
 
 ## Natura marketplace catalog and fulfillment wedge in Chile
 - Status: watch | ecommerce_niches
